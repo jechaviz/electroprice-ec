@@ -1,0 +1,59 @@
+{
+   "name": "electroprice",
+   "private": true,
+   "version": "0.0.0",
+   "type": "module",
+   "scripts": {
+      "dev": "vite",
+      "build": "tsc -b && vite build",
+      "lint": "eslint . --max-warnings=0",
+      "preview": "vite preview",
+      "test": "vitest --pool=threads --maxWorkers=1 --no-file-parallelism --no-isolate",
+      "test:run": "vitest run --pool=threads --maxWorkers=1 --no-file-parallelism --no-isolate",
+      "pb:setup": "node pb/scripts/pb_setup.mjs",
+      "pb:demo-reset": "node pb/scripts/pb_demo_reset.mjs",
+      "pb:demo-users": "node pb/scripts/pb_seed_demo_users.mjs",
+      "audit:project": "node tools/project-audit.mjs",
+      "audit:project:update": "node tools/project-audit.mjs --update",
+      "audit:build": "node tools/build-audit.mjs",
+      "audit:deps": "npm audit --omit=dev --audit-level=high",
+      "verify": "npm run lint && npm run test:run && npm run build && npm run audit:build && npm run audit:project",
+      "verify:release": "npm run verify && npm run audit:deps"
+   },
+   "dependencies": {
+      "@google/genai": "^1.48.0",
+      "@preact/signals-react": "^3.10.1",
+      "dompurify": "^3.3.3",
+      "pocketbase": "^0.26.8",
+      "react": "^19.2.4",
+      "react-dom": "^19.2.4",
+      "react-router-dom": "^7.14.0"
+   },
+   "devDependencies": {
+      "@eslint/js": "^10.0.1",
+      "@tailwindcss/postcss": "^4.2.2",
+      "@testing-library/jest-dom": "^6.9.1",
+      "@testing-library/react": "^16.3.2",
+      "@types/node": "^25.5.2",
+      "@types/react": "^19.2.14",
+      "@types/react-dom": "^19.2.3",
+      "@vitejs/plugin-react": "^6.0.1",
+      "daisyui": "^5.5.19",
+      "eslint": "^10.3.0",
+      "eslint-plugin-react-hooks": "^7.1.1",
+      "eslint-plugin-react-refresh": "^0.5.2",
+      "globals": "^17.6.0",
+      "jsdom": "^29.0.2",
+      "postcss": "^8.5.9",
+      "tailwindcss": "^4.2.2",
+      "typescript": "^6.0.2",
+      "typescript-eslint": "^8.59.1",
+      "vite": "^8.0.7",
+      "vitest": "^4.1.3"
+   },
+   "overrides": {
+      "vitest": {
+         "vite": "^8.0.0"
+      }
+   }
+}

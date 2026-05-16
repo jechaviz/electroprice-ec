@@ -1,0 +1,147 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: night;
+  include: svg, scrollbar, properties, rootscrolllock, rootscrollgutter, rootcolor, textarea, rating, dropdown, fileinput, modal, checkbox, avatar, divider, button, stat, skeleton, card, loading, badge, table, mask, alert, input, range, label, join, radius;
+}
+
+/* ========================================
+   ElectroPrice Design System
+   Premium Tech Marketplace Aesthetic
+   ======================================== */
+
+@layer base {
+  /* Typography System */
+  h1, .display {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0;
+  }
+
+  h2, .heading {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+  }
+
+  body, p, .body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+
+  * {
+    border-color: oklch(0.321 0.02 255.701 / 0.1);
+  }
+
+  body {
+    background-color: oklch(0.129 0.042 264.695);
+    color: oklch(0.929 0.013 255.508);
+  }
+
+  :focus-visible {
+    outline: 2px solid #06B6D4;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Scrollbar hide */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Custom Scrollbar for desktop */
+  @media (min-width: 1024px) {
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: oklch(0.321 0.02 255.701 / 0.2);
+        border-radius: 10px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: oklch(0.321 0.02 255.701 / 0.4);
+    }
+  }
+
+  /* Safe Area Utilities for Mobile */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  /* Responsive Table Wrapper */
+  .table-responsive {
+    @apply overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Gradient text utility */
+  .gradient-text {
+    background: linear-gradient(135deg, #7C3AED, #06B6D4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+}
+
+@layer utilities {
+  /* Animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+  }
+
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-8px) rotate(2deg); }
+  }
+
+  @keyframes fade-in-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-float-slow {
+    animation: float-slow 8s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+  }
+
+  /* Active/Touch effects */
+  .touch-active:active {
+    @apply scale-95 opacity-80;
+    transition: transform 0.1s, opacity 0.1s;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 4s ease-in-out infinite;
+  }
+}
