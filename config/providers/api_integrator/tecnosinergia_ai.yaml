@@ -1,0 +1,64 @@
+api_integrator: 1.4.0
+info:
+  title: Tecnosinergia Mexico API Provider Profile
+  version: 1.4.0
+  description: Access-gated AIS profile for Tecnosinergia, a Mexico security and IT wholesaler with public Tecno API references.
+  contact: {name: Tecnosinergia, url: "https://tecnosinergia.zendesk.com/hc/es"}
+  lang: v
+
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [tecnosinergia.zendesk.com, old.tecnosinergia.info, tecnosinergia.com, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 10485760
+  timeout_ms: 30000
+  auth: {schemes: [private_partner_credentials], token_source: onboarding_required}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 30}
+  redirects: {allow: false}
+  logging: {redact: [authorization, token, password, api_key]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+
+supplier_servers:
+  - {id: tecnosinergia_portal, protocol: http, url: "https://tecnosinergia.com"}
+  - {id: tecnosinergia_help, protocol: http, url: "https://tecnosinergia.zendesk.com/hc/es"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+
+contracts:
+  documentation_sources:
+    help_center: "https://tecnosinergia.zendesk.com/hc/es"
+    legacy_catalog_api_category: "https://old.tecnosinergia.info/"
+  api_surface_status: access_gated
+  public_evidence: "Help center exposes Tecno API; legacy catalog exposes API y Desarrollo categories."
+  portal_fallback:
+    vimport_pipeline: C:/git/v_projects/vimport/examples/mexico_provider_tecnosinergia_portal.yml
+    credential_refs: [TECNOSINERGIA_PORTAL_USER, TECNOSINERGIA_PORTAL_PASSWORD]
+    allowed_actions: [login, search, product_detail, capture_network, export_readonly]
+    denied_actions: [add_to_cart, order_create, order_confirm, account_change]
+
+actions:
+  tecnosinergia_api_onboarding:
+    tags: [onboarding]
+    performs:
+      - perform: {action: log.info, data: {message: "Tecnosinergia Tecno API requires partner onboarding and private documentation before HTTP endpoints are enabled."}}
+  tecnosinergia_register_provider_profile:
+    tags: [pocketbase]
+    performs:
+      - perform:
+          action: pocketbase.create
+          data:
+            base_url: "http://127.0.0.1:8090"
+            collection: provider_api_registry
+            body: {provider: tecnosinergia, country: MX, status: access_gated, source: "https://tecnosinergia.zendesk.com/hc/es"}
+
+vars:
+  tecnosinergia_partner_id: {from: env, name: TECNOSINERGIA_PARTNER_ID}
+  tecnosinergia_api_key: {from: env, name: TECNOSINERGIA_API_KEY}
+  tecnosinergia_portal_user: {from: env, name: TECNOSINERGIA_PORTAL_USER}
+  tecnosinergia_portal_password: {from: env, name: TECNOSINERGIA_PORTAL_PASSWORD}
+
+constants: {provider: tecnosinergia, country: MX}

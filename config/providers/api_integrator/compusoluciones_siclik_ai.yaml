@@ -1,0 +1,42 @@
+api_integrator: 1.4.0
+info:
+  title: CompuSoluciones Siclik Mexico Provider Profile
+  version: 1.4.0
+  description: Access-gated AIS profile for Siclik Comercio/CESA APIs with real-time stock, prices, product information, orders, guides, and images.
+  contact: {name: CompuSoluciones Siclik, url: "https://www.compusoluciones.com/asociados/siclik-compusoluciones/"}
+  lang: v
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [www.compusoluciones.com, siclik.mx, bucket.siclik.mx, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 10485760
+  timeout_ms: 30000
+  auth: {schemes: [private_partner_credentials], token_source: onboarding_required}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 30}
+  redirects: {allow: false}
+  logging: {redact: [authorization, token, api_key, password]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+supplier_servers:
+  - {id: siclik_public, protocol: http, url: "https://www.compusoluciones.com"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+contracts:
+  documentation_sources:
+    siclik: "https://www.compusoluciones.com/asociados/siclik-compusoluciones/"
+    ecommerce_api: "https://www.compusoluciones.com/blog/la-relevancia-del-e-commerce-en-las-empresas-mexicanas-en-2025/"
+  api_surface_status: access_gated
+  capabilities: [realtime_price, realtime_stock, product_information_24_7, images, orders, order_status, guides]
+actions:
+  compusoluciones_api_onboarding:
+    performs:
+      - perform: {action: log.info, data: {message: "Siclik Comercio/CESA APIs require CompuSoluciones associate onboarding and private endpoint contract."}}
+  compusoluciones_register_provider_profile:
+    performs:
+      - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: provider_api_registry, body: {provider: compusoluciones_siclik, country: MX, status: access_gated, capabilities: realtime_price_stock_content_media}}}
+vars:
+  siclik_partner_id: {from: env, name: SICLIK_PARTNER_ID}
+  siclik_api_key: {from: env, name: SICLIK_API_KEY}
+constants: {provider: compusoluciones_siclik, country: MX}

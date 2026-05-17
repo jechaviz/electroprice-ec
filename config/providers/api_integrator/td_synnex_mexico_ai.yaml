@@ -1,0 +1,70 @@
+api_integrator: 1.4.0
+info:
+  title: TD SYNNEX Mexico StreamOne Ion Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for TD SYNNEX Mexico cloud commerce APIs through StreamOne Ion.
+  contact: {name: TD SYNNEX StreamOne Ion, url: "https://lac.tdsynnex.com/mx/en/cloud-solutions/teams/streamone-ion/"}
+  lang: v
+
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [ion.tdsynnex.com, lac.tdsynnex.com, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [bearer, api_key], token_source: env_td_synnex_access_token}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [authorization, api_key, api_secret, access_token]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+
+supplier_servers:
+  - {id: streamone_ion, protocol: http, url: "https://ion.tdsynnex.com/api"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+
+contracts:
+  documentation_sources:
+    mexico_page: "https://lac.tdsynnex.com/mx/en/cloud-solutions/teams/streamone-ion/"
+    api_reference: "https://docs.streamone.cloud/"
+    api_portal: "https://www.tdsynnex.com/ion/api/"
+  endpoints: [/v1/customers, /v1/products, /v1/orders, /v1/subscriptions]
+
+actions:
+  td_synnex_customers:
+    tags: [customers]
+    performs:
+      - perform: {action: http.get, data: {url: "https://ion.tdsynnex.com/api/{{td_synnex_api_version}}/customers", headers: {Authorization: "Bearer {{td_synnex_access_token}}", Accept: application/json}}}
+  td_synnex_products:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://ion.tdsynnex.com/api/{{td_synnex_api_version}}/products", headers: {Authorization: "Bearer {{td_synnex_access_token}}", Accept: application/json}}}
+  td_synnex_orders:
+    tags: [orders]
+    performs:
+      - perform: {action: http.get, data: {url: "https://ion.tdsynnex.com/api/{{td_synnex_api_version}}/orders", headers: {Authorization: "Bearer {{td_synnex_access_token}}", Accept: application/json}}}
+  td_synnex_create_order:
+    tags: [orders]
+    performs:
+      - perform: {action: http.post, data: {url: "https://ion.tdsynnex.com/api/{{td_synnex_api_version}}/orders", headers: {Authorization: "Bearer {{td_synnex_access_token}}", Content-Type: application/json, Accept: application/json}, body: "{{td_synnex_order_payload}}"}}
+  td_synnex_sync_product_to_pocketbase:
+    tags: [catalog, pocketbase]
+    performs:
+      - perform: {action: action.td_synnex_products}
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: td_synnex_products, body: {provider: td_synnex, country: MX, payload: "{{response.body}}"}}}
+
+vars:
+  td_synnex_access_token: {from: env, name: TD_SYNNEX_ACCESS_TOKEN}
+  td_synnex_api_key: {from: env, name: TD_SYNNEX_API_KEY}
+  td_synnex_api_secret: {from: env, name: TD_SYNNEX_API_SECRET}
+  td_synnex_api_version: v1
+  td_synnex_order_payload: "{}"
+
+constants: {provider: td_synnex, country: MX}

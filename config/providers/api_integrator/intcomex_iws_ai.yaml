@@ -1,0 +1,83 @@
+api_integrator: 1.4.0
+info:
+  title: Intcomex IWS Mexico Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for Intcomex IWS catalog, inventory, prices, orders, invoices, and status.
+  contact: {name: Intcomex IWS, url: "https://iws.intcomex.com/modelos/productos-fisicos.html"}
+  lang: v
+
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [intcomex-prod.apigee.net, intcomex-test.apigee.net, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [iws_auth_header], token_source: env_intcomex_auth_header}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [authorization, token, auth]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+
+supplier_servers:
+  - {id: intcomex_prod, protocol: http, url: "https://intcomex-prod.apigee.net/v1"}
+  - {id: intcomex_test, protocol: http, url: "https://intcomex-test.apigee.net/v1"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+
+contracts:
+  documentation_sources:
+    catalog_model: "https://iws.intcomex.com/modelos/consultas-catalogo.html"
+    physical_goods: "https://iws.intcomex.com/modelos/productos-fisicos.html"
+    esd_goods: "https://iws.intcomex.com/modelos/compra-esd.html"
+  endpoints: [/getcatalog, /getinventory, /getpricelist, /downloadextendedcatalog, /getproduct, /placeorder, /getorder, /getinvoice, /getorderstatus]
+
+actions:
+  intcomex_get_catalog:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://intcomex-prod.apigee.net/v1/getcatalog", headers: {Authorization: "{{intcomex_auth_header}}", Accept: application/json}, query: {locale: "{{locale}}"}}}
+  intcomex_get_inventory:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://intcomex-prod.apigee.net/v1/getinventory", headers: {Authorization: "{{intcomex_auth_header}}", Accept: application/json}, query: {sku: "{{sku}}"}}}
+  intcomex_get_price_list:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://intcomex-prod.apigee.net/v1/getpricelist", headers: {Authorization: "{{intcomex_auth_header}}", Accept: application/json}}}
+  intcomex_download_extended_catalog:
+    tags: [catalog, media, attributes]
+    performs:
+      - perform: {action: http.get, data: {url: "https://intcomex-prod.apigee.net/v1/downloadextendedcatalog", headers: {Authorization: "{{intcomex_auth_header}}", Accept: application/json}, query: {locale: "{{locale}}"}}}
+  intcomex_get_product:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://intcomex-prod.apigee.net/v1/getproduct", headers: {Authorization: "{{intcomex_auth_header}}", Accept: application/json}, query: {sku: "{{sku}}"}}}
+  intcomex_place_order:
+    tags: [orders]
+    performs:
+      - perform: {action: http.post, data: {url: "https://intcomex-prod.apigee.net/v1/placeorder", headers: {Authorization: "{{intcomex_auth_header}}", Content-Type: application/json, Accept: application/json}, body: "{{intcomex_order_payload}}"}}
+  intcomex_get_order_status:
+    tags: [orders]
+    performs:
+      - perform: {action: http.get, data: {url: "https://intcomex-prod.apigee.net/v1/getorderstatus", headers: {Authorization: "{{intcomex_auth_header}}", Accept: application/json}, query: {orderNumber: "{{order_number}}"}}}
+  intcomex_sync_inventory_to_pocketbase:
+    tags: [catalog, pocketbase]
+    performs:
+      - perform: {action: action.intcomex_get_inventory}
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: intcomex_inventory, body: {provider: intcomex, payload: "{{response.body}}"}}}
+
+vars:
+  intcomex_auth_header: {from: env, name: INTCOMEX_AUTH_HEADER}
+  locale: es-MX
+  sku: ""
+  order_number: ""
+  intcomex_order_payload: "{}"
+
+constants: {provider: intcomex, country: MX}

@@ -1,0 +1,441 @@
+api_integrator: 1.4.0
+info:
+  title: CTOnline CT Connect Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for CTOnline CT Connect catalog, inventory, orders, guides, and utilities.
+  contact:
+    name: CT Connect
+    url: https://api.ctonline.mx/index.html
+  lang: v
+
+runtime:
+  name: vhub
+  module: vhub
+  yaml_module: vyaml
+  target: pocketbase_companion
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [api.ctonline.mx, sandbox.ctonline.mx, ctonline.mx, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth:
+    schemes: [x-auth-token]
+    token_source: env_or_ct_token
+  authorization:
+    object_level: required
+    function_level: required
+    property_level: required
+  input_validation:
+    reject_unknown_fields: true
+    validate_content_type: true
+    json_schema: true
+  rate_limit:
+    enabled: true
+    per_action_per_minute: 60
+  redirects:
+    allow: false
+  logging:
+    redact: [x-auth, token, email, rfc]
+  data_flow:
+    block_untrusted_response_sinks: true
+    allowed_untrusted_response_sinks: []
+
+observability:
+  correlation_id:
+    header: x-correlation-id
+    generate_if_missing: true
+  logs:
+    level: info
+    include_request: metadata_only
+    include_response: metadata_only
+  metrics:
+    enabled: true
+    labels: [provider, action, connector, status]
+
+resilience:
+  retry:
+    attempts: 3
+    backoff: exponential_jitter
+    retry_on: [408, 429, 500, 502, 503, 504]
+  circuit_breaker:
+    enabled: true
+    failure_threshold: 5
+  idempotency:
+    header: Idempotency-Key
+    required_for: [http.post, pocketbase.create, pocketbase.update]
+
+supplier_servers:
+  - id: ctonline_prod
+    protocol: http
+    url: https://api.ctonline.mx
+    description: CT Connect public API endpoint.
+  - id: ctonline_sandbox
+    protocol: http
+    url: https://sandbox.ctonline.mx
+    description: CT Connect sandbox endpoint from legacy docs.
+  - id: ctonline_portal
+    protocol: http
+    url: https://ctonline.mx
+    description: CTOnline authorized customer portal fallback.
+  - id: pocketbase_local
+    protocol: pocketbase
+    url: http://127.0.0.1:8090
+
+connectors:
+  http:
+    validate_tls: true
+    allow_redirects: false
+    timeout_ms: 60000
+  pocketbase:
+    base_url: http://127.0.0.1:8090
+    auth_collection: users
+    realtime: true
+
+contracts:
+  documentation_sources:
+    ct_connect_public: https://api.ctonline.mx/index.html
+    ct_connect_local_oas: src/infrastructure/specs/oas/ctonline.yml
+  portal_fallback:
+    vimport_pipeline: C:/git/v_projects/vimport/examples/mexico_provider_ctonline_portal.yml
+    credential_refs: [CTONLINE_PORTAL_USER, CTONLINE_PORTAL_PASSWORD]
+    allowed_actions: [login, search, product_detail, capture_network, export_readonly]
+    denied_actions: [add_to_cart, order_create, order_confirm, account_change]
+  schemas:
+    ct_token_response:
+      type: object
+      required: [token]
+    ct_order_request:
+      type: object
+      required: [idPedido, almacen, tipoPago, envio, producto]
+    ct_guide_request:
+      type: object
+      required: [folio, guias]
+
+tags:
+  - name: auth
+    description: CT Connect token lifecycle.
+  - name: catalog
+    description: Existence, price, promotions, and product details.
+  - name: orders
+    description: Purchase order request, confirmation, status, and detail.
+  - name: logistics
+    description: Shipping guides and volumetry.
+  - name: utilities
+    description: Exchange rate and invoice serials.
+  - name: pocketbase
+    description: Local persistence.
+
+actions:
+  ct_token:
+    tags: [auth]
+    description: Generate CT Connect token using registered email, CT customer key, and RFC.
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ctonline.mx/cliente/token
+            headers:
+              Content-Type: application/json
+              Accept: application/json
+            body:
+              email: "{{ct_email}}"
+              cliente: "{{ct_cliente}}"
+              rfc: "{{ct_rfc}}"
+        responses:
+          - is_success:
+              code: 200
+              json_path: token
+            performs:
+              - perform:
+                  action: vars.set
+                  data:
+                    ct_token: "{{response.body.token}}"
+              - perform:
+                  action: log.info
+                  data:
+                    message: CT token generated
+
+  ct_ensure_token:
+    tags: [auth]
+    description: Use CT_TOKEN when present; otherwise request one.
+    performs:
+      - perform:
+          action: vars.get
+          data:
+            key: ct_token
+        responses:
+          - is_success:
+              is_empty: true
+            performs:
+              - perform:
+                  action: action.ct_token
+
+  ct_existencia_promociones:
+    tags: [catalog]
+    description: Full product listing with existence, promotions, and price.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/existencia/promociones
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_existencia_codigo:
+    tags: [catalog]
+    description: Product stock by CT product code.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/existencia/{{codigo}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_existencia_codigo_almacen:
+    tags: [catalog]
+    description: Product stock for a specific warehouse.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/existencia/{{codigo}}/{{almacen}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_existencia_detalle:
+    tags: [catalog]
+    description: Detailed price, SAT code, promotion, and existence by warehouse.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/existencia/detalle/{{codigo}}/{{almacen}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_existencia_total:
+    tags: [catalog]
+    description: Total stock across all warehouses.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/existencia/{{codigo}}/TOTAL
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_promocion_codigo:
+    tags: [catalog]
+    description: Promotions and price by product code.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/existencia/promociones/{{codigo}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_create_order:
+    tags: [orders]
+    description: Create CT purchase order / merchandise reservation.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ctonline.mx/pedido
+            headers:
+              x-auth: "{{ct_token}}"
+              Content-Type: application/json
+              Accept: application/json
+            body: "{{ct_order_payload}}"
+
+  ct_confirm_order:
+    tags: [orders]
+    description: Confirm a pending CT order.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ctonline.mx/pedido/confirmar
+            headers:
+              x-auth: "{{ct_token}}"
+              Content-Type: application/json
+              Accept: application/json
+            body:
+              folio: "{{folio}}"
+
+  ct_send_guides:
+    tags: [orders, logistics]
+    description: Send shipping guides for a CT order.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ctonline.mx/pedido/guias
+            headers:
+              x-auth: "{{ct_token}}"
+              Content-Type: application/json
+              Accept: application/json
+            body: "{{ct_guides_payload}}"
+
+  ct_list_orders:
+    tags: [orders]
+    description: List CT purchase orders.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/pedido/listar
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_order_status:
+    tags: [orders]
+    description: Query order status by CT folio.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/pedido/estatus/{{folio}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_order_detail:
+    tags: [orders]
+    description: Query order detail by CT folio.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/pedido/detalle/{{folio}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_exchange_rate:
+    tags: [utilities]
+    description: Query CT exchange rate.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/pedido/tipoCambio
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_volumetry:
+    tags: [logistics, utilities]
+    description: Query product volumetry by code.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/paqueteria/volumetria/{{codigo}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_invoice_serials:
+    tags: [utilities]
+    description: Query product serials by invoice.
+    performs:
+      - perform:
+          action: action.ct_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ctonline.mx/series/factura/{{factura}}
+            headers:
+              x-auth: "{{ct_token}}"
+              Accept: application/json
+
+  ct_sync_existence_to_pocketbase:
+    tags: [catalog, pocketbase]
+    description: Query a product and persist the raw stock response in PocketBase.
+    performs:
+      - perform:
+          action: action.ct_existencia_codigo
+        responses:
+          - is_success:
+              code: 200
+            performs:
+              - perform:
+                  action: pocketbase.create
+                  data:
+                    base_url: http://127.0.0.1:8090
+                    collection: ctonline_stock
+                    body:
+                      provider: ctonline
+                      codigo: "{{codigo}}"
+                      payload: "{{response.body}}"
+
+vars:
+  ct_email:
+    from: env
+    name: CTONLINE_EMAIL
+  ct_cliente:
+    from: env
+    name: CTONLINE_CLIENTE
+  ct_rfc:
+    from: env
+    name: CTONLINE_RFC
+  ct_token:
+    from: env
+    name: CTONLINE_TOKEN
+  ctonline_portal_user:
+    from: env
+    name: CTONLINE_PORTAL_USER
+  ctonline_portal_password:
+    from: env
+    name: CTONLINE_PORTAL_PASSWORD
+  codigo: ""
+  almacen: ""
+  folio: ""
+  factura: ""
+  ct_order_payload: "{}"
+  ct_guides_payload: "{}"
+
+constants:
+  provider: ctonline
+  country: MX

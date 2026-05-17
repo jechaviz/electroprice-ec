@@ -1,0 +1,39 @@
+api_integrator: 1.4.0
+info:
+  title: Riqra Mexico B2B Wholesale Platform Profile
+  version: 1.4.0
+  description: Access-gated AIS profile for Riqra B2B wholesale ecommerce integrations in Mexico.
+  contact: {name: Riqra, url: "https://riqra.com/ecommerceb2b-mexico"}
+  lang: v
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [riqra.com, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 10485760
+  timeout_ms: 30000
+  auth: {schemes: [private_partner_credentials], token_source: onboarding_required}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 30}
+  redirects: {allow: false}
+  logging: {redact: [authorization, token, api_key]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+supplier_servers:
+  - {id: riqra_public, protocol: http, url: "https://riqra.com"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+contracts:
+  documentation_sources: {mexico_b2b: "https://riqra.com/ecommerceb2b-mexico"}
+  api_surface_status: access_gated
+  capabilities: [wholesale_catalog, client_price_lists, volume_discounts, b2b_orders, erp_webservices]
+actions:
+  riqra_api_onboarding:
+    performs:
+      - perform: {action: log.info, data: {message: "Riqra evaluates integrations when public APIs/web services exist; obtain tenant contract first."}}
+  riqra_register_provider_profile:
+    performs:
+      - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: provider_api_registry, body: {provider: riqra_b2b, country: MX, status: access_gated, capabilities: wholesale_catalog_price_lists_orders}}}
+vars:
+  riqra_api_key: {from: env, name: RIQRA_API_KEY}
+constants: {provider: riqra_b2b, country: MX}

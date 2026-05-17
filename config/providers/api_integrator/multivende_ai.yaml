@@ -1,0 +1,50 @@
+api_integrator: 1.4.0
+info:
+  title: Multivende API Channel Integration Profile
+  version: 1.4.0
+  description: AIS/VHub profile for Multivende API-first catalog, products, prices, stock, attributes, webhooks, and marketplace logistics.
+  contact: {name: Multivende Integration Services, url: "https://help.multivende.com/hc/es-419/categories/13698056679693-Integraciones-API"}
+  lang: v
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [app.multivende.com, help.multivende.com, dev.multivende.com, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [bearer, oauth2_app], token_source: env_multivende_access_token}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [authorization, access_token, client_secret]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+supplier_servers:
+  - {id: multivende_api, protocol: http, url: "https://app.multivende.com/api"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+contracts:
+  documentation_sources:
+    help_center: "https://help.multivende.com/hc/es-419/categories/13698056679693-Integraciones-API"
+    postman: "https://www.postman.com/multivende/api-multivende-workspace/documentation/4439232-999fea89-452e-4d7e-b8a7-30c98d92d902"
+  api_surface_status: public_docs
+  capabilities: [products, attributes, prices, stock, warehouses, webhooks, fulfillment_mexico]
+actions:
+  multivende_get_brands:
+    performs:
+      - perform: {action: http.get, data: {url: "https://app.multivende.com/api/m/{{multivende_merchant_id}}/brands/p/{{page}}", headers: {Authorization: "Bearer {{multivende_access_token}}", Accept: application/json}}}
+  multivende_get_stores_and_warehouses:
+    performs:
+      - perform: {action: http.get, data: {url: "https://app.multivende.com/api/m/{{multivende_merchant_id}}/stores-and-warehouses/p/{{page}}", headers: {Authorization: "Bearer {{multivende_access_token}}", Accept: application/json}}}
+  multivende_get_product_attribute_sets:
+    performs:
+      - perform: {action: http.get, data: {url: "https://app.multivende.com/api/m/{{multivende_merchant_id}}/custom-attribute-sets/{{attribute_set_scope}}/p/{{page}}", headers: {Authorization: "Bearer {{multivende_access_token}}", Accept: application/json}}}
+  multivende_register_provider_profile:
+    performs:
+      - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: provider_api_registry, body: {provider: multivende, country: MX, status: public_docs, capabilities: products_stock_prices_attributes_webhooks}}}
+vars:
+  multivende_access_token: {from: env, name: MULTIVENDE_ACCESS_TOKEN}
+  multivende_merchant_id: {from: env, name: MULTIVENDE_MERCHANT_ID}
+  page: "1"
+  attribute_set_scope: productos
+constants: {provider: multivende, country: MX}

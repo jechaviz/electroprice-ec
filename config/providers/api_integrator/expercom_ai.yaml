@@ -1,0 +1,76 @@
+api_integrator: 1.4.0
+info:
+  title: Expercom Mexico Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for Expercom API token, product listing/detail, and purchase order services.
+  contact: {name: Expercom API, url: "https://api.expercom.mx/docs/"}
+  lang: v
+
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [api.expercom.mx, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [bearer], token_source: env_or_expercom_login}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [authorization, password, token]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+
+supplier_servers:
+  - {id: expercom_api, protocol: http, url: "https://api.expercom.mx/v1"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+
+contracts:
+  documentation_sources: {docs: "https://api.expercom.mx/docs/"}
+  endpoints: [/v1/login, /v1/products, /v1/product/{id}, /v1/order]
+
+actions:
+  expercom_login:
+    tags: [auth]
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: "https://api.expercom.mx/v1/login"
+            headers: {Content-Type: application/json, Accept: application/json}
+            body: {email: "{{expercom_email}}", password: "{{expercom_password}}"}
+        responses:
+          - is_success: {code: 200, json_path: token}
+            performs:
+              - perform: {action: vars.set, data: {expercom_token: "{{response.body.token}}"}}
+  expercom_products:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://api.expercom.mx/v1/products", headers: {Authorization: "Bearer {{expercom_token}}", Accept: application/json}}}
+  expercom_product:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://api.expercom.mx/v1/product/{{expercom_product_id}}", headers: {Authorization: "Bearer {{expercom_token}}", Accept: application/json}}}
+  expercom_order:
+    tags: [orders]
+    performs:
+      - perform: {action: http.post, data: {url: "https://api.expercom.mx/v1/order", headers: {Authorization: "Bearer {{expercom_token}}", Content-Type: application/json, Accept: application/json}, body: "{{expercom_order_payload}}"}}
+  expercom_sync_product_to_pocketbase:
+    tags: [catalog, pocketbase]
+    performs:
+      - perform: {action: action.expercom_product}
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: expercom_products, body: {provider: expercom, payload: "{{response.body}}"}}}
+
+vars:
+  expercom_email: {from: env, name: EXPERCOM_EMAIL}
+  expercom_password: {from: env, name: EXPERCOM_PASSWORD}
+  expercom_token: {from: env, name: EXPERCOM_TOKEN}
+  expercom_product_id: ""
+  expercom_order_payload: "{}"
+
+constants: {provider: expercom, country: MX}

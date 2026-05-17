@@ -22,6 +22,7 @@ const generatedPathPrefixes = [
 ];
 
 const auditedRoots = [
+  'config',
   'src',
   'public',
   'pb',
@@ -38,6 +39,8 @@ const lineLimitedExtensions = new Set([
   '.mjs',
   '.ts',
   '.tsx',
+  '.yaml',
+  '.yml',
 ]);
 
 const requiredAbstractions = [
@@ -137,7 +140,7 @@ const auditLineLengths = (files) => {
   return files
     .filter((relativePath) => lineLimitedExtensions.has(path.extname(relativePath)))
     .map((relativePath) => ({ path: relativePath, lines: getLineCount(relativePath) }))
-    .filter((entry) => entry.lines > 600)
+    .filter((entry) => entry.lines >= 600)
     .sort((a, b) => b.lines - a.lines);
 };
 
@@ -203,7 +206,7 @@ if (inventoryDiff.added.length || inventoryDiff.removed.length || current.fileNa
 }
 
 if (oversizedFiles.length) {
-  fail('One or more source files exceed the 600 line limit.', oversizedFiles);
+  fail('One or more source files reached the 600 line limit.', oversizedFiles);
 }
 
 if (missingAbstractions.length) {
@@ -211,5 +214,5 @@ if (missingAbstractions.length) {
 }
 
 console.log(`[project-audit] PASS: ${current.fileCount} files match baseline ${current.fileNameHash}`);
-console.log('[project-audit] PASS: no maintained source file exceeds 600 lines');
+console.log('[project-audit] PASS: maintained source files stay below 600 lines');
 console.log('[project-audit] PASS: required abstraction checks satisfied');

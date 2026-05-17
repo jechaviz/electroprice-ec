@@ -1,0 +1,70 @@
+api_integrator: 1.4.0
+info:
+  title: Ventiapp Mexico Product Channel API Integration
+  version: 1.4.0
+  description: AIS/VHub profile for Ventiapp public APIs covering product content, images, descriptions, variants, stock, and prices.
+  contact: {name: Ventiapp Developers, url: "https://docs.ventiapp.mx/ventiapp/desarrolladores/api"}
+  lang: v
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [ventiapi.azurewebsites.net, docs.ventiapp.mx, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [bearer], token_source: env_ventiapp_token}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [authorization, token]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+supplier_servers:
+  - {id: ventiapp_api, protocol: http, url: "https://ventiapi.azurewebsites.net/api"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+contracts:
+  documentation_sources:
+    api: "https://docs.ventiapp.mx/ventiapp/desarrolladores/api"
+    products: "https://docs.ventiapp.mx/ventiapp/desarrolladores/api/productos"
+    stock_prices: "https://docs.ventiapp.mx/ventiapp/desarrolladores/api/stock-y-precios"
+  capabilities: [realtime_price, stock, product_content, images, descriptions, attributes, variants, webhooks]
+actions:
+  ventiapp_list_products:
+    performs:
+      - perform: {action: http.get, data: {url: "https://ventiapi.azurewebsites.net/api/products/list", headers: {Authorization: "Bearer {{ventiapp_token}}", Accept: application/json}, query: {offset: "{{offset}}", paging: "{{paging}}", search: "{{keyword}}"}}}
+  ventiapp_find_product:
+    performs:
+      - perform: {action: http.get, data: {url: "https://ventiapi.azurewebsites.net/api/products/find/{{ventiapp_product_id}}", headers: {Authorization: "Bearer {{ventiapp_token}}", Accept: application/json}}}
+  ventiapp_get_pictures_product:
+    performs:
+      - perform: {action: http.get, data: {url: "https://ventiapi.azurewebsites.net/api/products/GetPicturesProduct", headers: {Authorization: "Bearer {{ventiapp_token}}", Accept: application/json}, query: {id: "{{ventiapp_product_id}}", parentSku: "{{sku}}"}}}
+  ventiapp_add_picture_product:
+    performs:
+      - perform: {action: http.post, data: {url: "https://ventiapi.azurewebsites.net/api/products/AddPictureProduct", headers: {Authorization: "Bearer {{ventiapp_token}}", Content-Type: application/json, Accept: application/json}, body: "{{ventiapp_picture_payload}}"}}
+  ventiapp_update_product_description:
+    performs:
+      - perform: {action: http.post, data: {url: "https://ventiapi.azurewebsites.net/api/products/UpdateProductDescription", headers: {Authorization: "Bearer {{ventiapp_token}}", Content-Type: application/json, Accept: application/json}, body: "{{ventiapp_description_payload}}"}}
+  ventiapp_get_price_stock_by_channel:
+    performs:
+      - perform: {action: http.get, data: {url: "https://ventiapi.azurewebsites.net/api/stock/getpricestockbychannel/{{sku}}/", headers: {Authorization: "Bearer {{ventiapp_token}}", Accept: application/json}}}
+  ventiapp_get_relationship:
+    performs:
+      - perform: {action: http.get, data: {url: "https://ventiapi.azurewebsites.net/api/products/relationships/{{ventiapp_product_id}}", headers: {Authorization: "Bearer {{ventiapp_token}}", Accept: application/json}}}
+  ventiapp_sync_product_to_pocketbase:
+    performs:
+      - perform: {action: action.ventiapp_find_product}
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: provider_product_content, body: {provider: ventiapp, payload: "{{response.body}}"}}}
+vars:
+  ventiapp_token: {from: env, name: VENTIAPP_TOKEN}
+  ventiapp_product_id: ""
+  sku: ""
+  keyword: ""
+  offset: "0"
+  paging: "50"
+  ventiapp_picture_payload: "{}"
+  ventiapp_description_payload: "{}"
+constants: {provider: ventiapp, country: MX}

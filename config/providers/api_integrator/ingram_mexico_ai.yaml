@@ -1,0 +1,596 @@
+api_integrator: 1.4.0
+info:
+  title: Ingram Micro Mexico Reseller Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for Ingram Micro Reseller APIs with Mexico country defaults.
+  contact:
+    name: Ingram Micro Developer Portal
+    url: https://developer.ingrammicro.com/reseller
+  lang: v
+
+runtime:
+  name: vhub
+  module: vhub
+  yaml_module: vyaml
+  target: pocketbase_companion
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [api.ingrammicro.com, mx.ingrammicro.com, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth:
+    schemes: [oauth2_client_credentials, bearer]
+    token_source: env_or_ingram_oauth
+  authorization:
+    object_level: required
+    function_level: required
+    property_level: required
+  input_validation:
+    reject_unknown_fields: true
+    validate_content_type: true
+    json_schema: true
+  rate_limit:
+    enabled: true
+    per_action_per_minute: 60
+  redirects:
+    allow: false
+  logging:
+    redact: [authorization, client_secret, access_token]
+  data_flow:
+    block_untrusted_response_sinks: true
+    allowed_untrusted_response_sinks: []
+
+observability:
+  correlation_id:
+    header: IM-CorrelationID
+    generate_if_missing: false
+  logs:
+    level: info
+    include_request: metadata_only
+    include_response: metadata_only
+  metrics:
+    enabled: true
+    labels: [provider, action, connector, status]
+
+resilience:
+  retry:
+    attempts: 3
+    backoff: exponential_jitter
+    retry_on: [408, 429, 500, 502, 503, 504]
+  circuit_breaker:
+    enabled: true
+    failure_threshold: 5
+  idempotency:
+    header: Idempotency-Key
+    required_for: [http.post, pocketbase.create, pocketbase.update]
+
+supplier_servers:
+  - {id: ingram_prod, protocol: http, url: https://api.ingrammicro.com:443}
+  - {id: ingram_sandbox, protocol: http, url: https://api.ingrammicro.com:443/sandbox}
+  - {id: ingram_mx_portal, protocol: http, url: https://mx.ingrammicro.com}
+  - {id: pocketbase_local, protocol: pocketbase, url: http://127.0.0.1:8090}
+
+connectors:
+  http:
+    validate_tls: true
+    allow_redirects: false
+    timeout_ms: 60000
+  pocketbase:
+    base_url: http://127.0.0.1:8090
+    auth_collection: users
+    realtime: true
+
+contracts:
+  documentation_sources:
+    auth: https://developer.ingrammicro.com/reseller/getting-started/authentication
+    request_response: https://developer.ingrammicro.com/reseller/getting-started/request-response
+    rate_limits: https://developer.ingrammicro.com/reseller/getting-started/rate-limits
+    releases: https://developer.ingrammicro.com/reseller/new
+    sdk_endpoint_index: https://developer.ingrammicro.com/reseller/sdks
+    v6_v7_migration: https://developer.ingrammicro.com/reseller/page/v6-and-v7-migration
+    local_oas: src/infrastructure/specs/oas/IngramMicro-api-6.0_07082023.json
+  portal_fallback: {vimport_pipeline: C:/git/v_projects/vimport/examples/mexico_provider_ingram_portal.yml, credential_refs: [INGRAM_PORTAL_USER, INGRAM_PORTAL_PASSWORD], allowed_actions: [login, search, product_detail, capture_network, export_readonly], denied_actions: [add_to_cart, order_create, order_confirm, account_change]}
+  schemas:
+    ingram_price_availability_request:
+      type: object
+      required: [products]
+    ingram_order_request:
+      type: object
+      required: [customerOrderNumber, lines]
+    ingram_quote_search_request:
+      type: object
+      required: []
+
+tags:
+  - name: auth
+    description: OAuth2 token lifecycle.
+  - name: catalog
+    description: Product search, details, pricing, and availability.
+  - name: orders
+    description: Order create, lookup, search, and async v7 create.
+  - name: quotes
+    description: Quote search, detail, create, and quote-to-order validation.
+  - name: invoices
+    description: Invoice search and details.
+  - name: renewals
+    description: Renewal search and details.
+  - name: deals
+    description: Deal search and details.
+  - name: returns
+    description: Return search, details, and create.
+  - name: freight
+    description: Freight estimate before order creation.
+  - name: webhooks
+    description: Order status and availability webhook payload documentation.
+  - name: pocketbase
+    description: Local persistence.
+
+actions:
+  ingram_oauth_token:
+    tags: [auth]
+    description: Generate OAuth2 access token using client credentials.
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/oauth/oauth20/token
+            headers:
+              Content-Type: application/x-www-form-urlencoded
+              Accept: application/json
+            body: grant_type=client_credentials&client_id={{ingram_client_id}}&client_secret={{ingram_client_secret}}
+        responses:
+          - is_success:
+              code: 200
+              json_path: access_token
+            performs:
+              - perform:
+                  action: vars.set
+                  data:
+                    ingram_access_token: "{{response.body.access_token}}"
+              - perform:
+                  action: log.info
+                  data:
+                    message: Ingram OAuth token generated
+
+  ingram_ensure_token:
+    tags: [auth]
+    description: Use INGRAM_ACCESS_TOKEN when present; otherwise request OAuth token.
+    performs:
+      - perform:
+          action: vars.get
+          data:
+            key: ingram_access_token
+        responses:
+          - is_success:
+              is_empty: true
+            performs:
+              - perform:
+                  action: action.ingram_oauth_token
+
+  ingram_catalog_search:
+    tags: [catalog]
+    description: Search Ingram catalog v6 by keyword and filters.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/catalog
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            query:
+              keyword: "{{keyword}}"
+              pageNumber: "{{pageNumber}}"
+              pageSize: "{{pageSize}}"
+
+  ingram_product_details:
+    tags: [catalog]
+    description: Get product details by Ingram part number.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/catalog/details/{{ingramPartNumber}}
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+
+  ingram_price_availability:
+    tags: [catalog]
+    description: Price and availability for up to 50 products.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/catalog/priceandavailability
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Content-Type: application/json
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            query:
+              includeAvailability: "{{includeAvailability}}"
+              includePricing: "{{includePricing}}"
+              includeProductAttributes: "{{includeProductAttributes}}"
+            body: "{{ingram_price_availability_payload}}"
+
+  ingram_create_order_v6:
+    tags: [orders]
+    description: Create and place a standard Ingram v6 order.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/orders
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Content-Type: application/json
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            body: "{{ingram_order_payload}}"
+
+  ingram_create_order_v7_async:
+    tags: [orders]
+    description: Create a v7 async standard/quote-to-order request; webhook callback is expected.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v7/orders
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Content-Type: application/json
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            body: "{{ingram_order_v7_payload}}"
+
+  ingram_order_details:
+    tags: [orders]
+    description: Get order details by Ingram sales order number.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/orders/{{orderNumber}}
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+
+  ingram_order_search:
+    tags: [orders]
+    description: Search orders.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/orders/search
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Content-Type: application/json
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            body: "{{ingram_order_search_payload}}"
+
+  ingram_quote_search:
+    tags: [quotes]
+    description: Search active quotes.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/quotes/search
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Content-Type: application/json
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            body: "{{ingram_quote_search_payload}}"
+
+  ingram_quote_details:
+    tags: [quotes]
+    description: Get quote details.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/quotes/{{quoteNumber}}
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+
+  ingram_validate_quote:
+    tags: [quotes]
+    description: Validate quote-to-order mandatory fields.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/q2o/validatequote
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Content-Type: application/json
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+            body: "{{ingram_validate_quote_payload}}"
+
+  ingram_invoice_details:
+    tags: [invoices]
+    description: Get invoice details by invoice number.
+    performs:
+      - perform:
+          action: action.ingram_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/invoices/{{invoiceNumber}}
+            headers:
+              Authorization: Bearer {{ingram_access_token}}
+              Accept: application/json
+              IM-CustomerNumber: "{{ingram_customer_number}}"
+              IM-CountryCode: "{{ingram_country_code}}"
+              IM-CorrelationID: "{{ingram_correlation_id}}"
+              IM-SenderID: "{{ingram_sender_id}}"
+
+  ingram_invoice_search:
+    tags: [invoices]
+    description: Search invoices.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/invoices/
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            query: {invoiceDateFrom: "{{invoiceDateFrom}}", invoiceDateTo: "{{invoiceDateTo}}", page: "{{page}}", size: "{{size}}"}
+
+  ingram_order_modify:
+    tags: [orders]
+    description: Modify or release a customer-hold order before warehouse release.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.put
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/orders/{{orderNumber}}
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            query: {actionCode: "{{actionCode}}"}
+            body: "{{ingram_order_modify_payload}}"
+
+  ingram_order_cancel:
+    tags: [orders]
+    description: Cancel an order before it is released to the warehouse.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.delete
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/orders/{{orderNumber}}
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+
+  ingram_renewals_search:
+    tags: [renewals]
+    description: Search renewals linked to the reseller account.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/renewals/search
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            body: "{{ingram_renewals_search_payload}}"
+
+  ingram_renewal_details:
+    tags: [renewals]
+    description: Get renewal details by renewal id.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/renewals/{{renewalId}}
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+
+  ingram_deals_search:
+    tags: [deals]
+    description: Search deals by end user, vendor, or deal id filters.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/deals/search
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            query: {endUserName: "{{endUserName}}", vendorName: "{{vendorName}}", dealId: "{{dealId}}", pageNumber: "{{pageNumber}}", pageSize: "{{pageSize}}"}
+
+  ingram_deal_details:
+    tags: [deals]
+    description: Get deal details by deal id.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/deals/{{dealId}}
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+
+  ingram_returns_search:
+    tags: [returns]
+    description: Search return claims.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/returns/search
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            query: {referenceNumber: "{{referenceNumber}}", pageNumber: "{{pageNumber}}", pageSize: "{{pageSize}}"}
+
+  ingram_return_details:
+    tags: [returns]
+    description: Get return claim details.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.get
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/returns/{{caseRequestNumber}}
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+
+  ingram_return_create:
+    tags: [returns]
+    description: Create a return request.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/returns/create
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            body: "{{ingram_return_create_payload}}"
+
+  ingram_freight_estimate:
+    tags: [freight]
+    description: Estimate freight cost before placing an order.
+    performs:
+      - perform: {action: action.ingram_ensure_token}
+      - perform:
+          action: http.post
+          data:
+            url: https://api.ingrammicro.com:443/resellers/v6/freightestimate
+            headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
+            body: "{{ingram_freight_payload}}"
+
+  ingram_sync_pna_to_pocketbase:
+    tags: [catalog, pocketbase]
+    description: Query P&A and store raw response in PocketBase.
+    performs:
+      - perform:
+          action: action.ingram_price_availability
+        responses:
+          - is_success:
+              code: 200
+            performs:
+              - perform:
+                  action: pocketbase.create
+                  data:
+                    base_url: http://127.0.0.1:8090
+                    collection: ingram_price_availability
+                    body:
+                      provider: ingram_micro
+                      country: MX
+                      payload: "{{response.body}}"
+
+vars:
+  ingram_client_id:
+    from: env
+    name: INGRAM_CLIENT_ID
+  ingram_client_secret:
+    from: env
+    name: INGRAM_CLIENT_SECRET
+  ingram_access_token:
+    from: env
+    name: INGRAM_ACCESS_TOKEN
+  ingram_portal_user: {from: env, name: INGRAM_PORTAL_USER}
+  ingram_portal_password: {from: env, name: INGRAM_PORTAL_PASSWORD}
+  ingram_customer_number:
+    from: env
+    name: INGRAM_CUSTOMER_NUMBER
+  ingram_sender_id:
+    from: env
+    name: INGRAM_SENDER_ID
+  ingram_correlation_id:
+    from: env
+    name: INGRAM_CORRELATION_ID
+  ingram_country_code: MX
+  keyword: ""
+  pageNumber: "1"
+  pageSize: "25"
+  ingramPartNumber: ""
+  includeAvailability: "true"
+  includePricing: "true"
+  includeProductAttributes: "true"
+  ingram_price_availability_payload: "{}"
+  ingram_order_payload: "{}"
+  ingram_order_v7_payload: "{}"
+  ingram_order_modify_payload: "{}"
+  ingram_order_search_payload: "{}"
+  ingram_quote_search_payload: "{}"
+  ingram_validate_quote_payload: "{}"
+  ingram_renewals_search_payload: "{}"
+  ingram_return_create_payload: "{}"
+  ingram_freight_payload: "{}"
+  orderNumber: ""
+  quoteNumber: ""
+  invoiceNumber: ""
+  renewalId: ""
+  dealId: ""
+  endUserName: ""
+  vendorName: ""
+  referenceNumber: ""
+  caseRequestNumber: ""
+  actionCode: ""
+  invoiceDateFrom: ""
+  invoiceDateTo: ""
+  page: "1"
+  size: "10"
+
+constants:
+  provider: ingram_micro
+  country: MX

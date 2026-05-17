@@ -1,0 +1,74 @@
+api_integrator: 1.4.0
+info:
+  title: Zegucom Computo Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for Zegucom REST API product, purchase, purchase lookup, and tracking services.
+  contact: {name: Zegucom API, url: "https://api.zegucom.com.mx/docs"}
+  lang: v
+
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [api.zegucom.com.mx, api.test.zegucom.com.mx, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [body_auth], token_source: env_zegucom_user_key_password}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [password, user_key]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+
+supplier_servers:
+  - {id: zegucom_prod, protocol: http, url: "https://api.zegucom.com.mx/services"}
+  - {id: zegucom_test, protocol: http, url: "https://api.test.zegucom.com.mx/services"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+
+contracts:
+  documentation_sources: {docs: "https://api.zegucom.com.mx/docs", examples: "https://api.zegucom.com.mx/examples"}
+  endpoints: [get-product, create-purchase, get-purchase, set-tracking]
+
+actions:
+  zegucom_get_product:
+    tags: [catalog]
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: "https://api.zegucom.com.mx/services/get-product"
+            headers: {Content-Type: application/json, Accept: application/json}
+            body: "{{zegucom_product_payload}}"
+  zegucom_create_purchase:
+    tags: [orders]
+    performs:
+      - perform: {action: http.post, data: {url: "https://api.zegucom.com.mx/services/create-purchase", headers: {Content-Type: application/json, Accept: application/json}, body: "{{zegucom_purchase_payload}}"}}
+  zegucom_get_purchase:
+    tags: [orders]
+    performs:
+      - perform: {action: http.post, data: {url: "https://api.zegucom.com.mx/services/get-purchase", headers: {Content-Type: application/json, Accept: application/json}, body: "{{zegucom_purchase_lookup_payload}}"}}
+  zegucom_set_tracking:
+    tags: [logistics]
+    performs:
+      - perform: {action: http.post, data: {url: "https://api.zegucom.com.mx/services/set-tracking", headers: {Content-Type: application/json, Accept: application/json}, body: "{{zegucom_tracking_payload}}"}}
+  zegucom_sync_product_to_pocketbase:
+    tags: [catalog, pocketbase]
+    performs:
+      - perform: {action: action.zegucom_get_product}
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: zegucom_products, body: {provider: zegucom, payload: "{{response.body}}"}}}
+
+vars:
+  zegucom_user_key: {from: env, name: ZEGUCOM_USER_KEY}
+  zegucom_password: {from: env, name: ZEGUCOM_PASSWORD}
+  zegucom_product_payload: "{}"
+  zegucom_purchase_payload: "{}"
+  zegucom_purchase_lookup_payload: "{}"
+  zegucom_tracking_payload: "{}"
+
+constants: {provider: zegucom, country: MX}

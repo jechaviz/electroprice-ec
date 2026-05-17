@@ -1,0 +1,598 @@
+api_integrator: 1.3.0
+info:
+  title: Grupo CVA Provider Integration
+  version: 1.3.0
+  description: AIS/VHub integration for Grupo CVA JSON API v2 plus legacy XML/SOAP compatibility.
+  contact:
+    name: Grupo CVA
+    url: https://www.grupocva.com
+    email: support@grupocva.com
+  lang: v
+
+runtime:
+  name: vhub
+  module: vhub
+  yaml_module: vyaml
+  target: pocketbase_companion
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts:
+    - apicvaservices.grupocva.com
+    - www.grupocva.com
+    - me2.grupocva.com
+    - 127.0.0.1
+  blocked_hosts:
+    - 169.254.169.254
+  max_body_bytes: 94371840
+  timeout_ms: 60000
+  auth:
+    schemes: [bearer]
+    token_source: env_or_cva_login
+    token_ttl_hours: 12
+  authorization:
+    object_level: required
+    function_level: required
+    property_level: required
+  input_validation:
+    reject_unknown_fields: true
+    validate_content_type: true
+    json_schema: true
+    xml_hardened: true
+  rate_limit:
+    enabled: true
+    per_action_per_minute: 60
+  redirects:
+    allow: false
+  logging:
+    redact: [authorization, cookie, set-cookie, x-api-key, password, token, PWD]
+  xml:
+    disable_dtd: true
+    disable_external_entities: true
+    disable_xinclude: true
+  data_flow:
+    block_untrusted_response_sinks: true
+    allowed_untrusted_response_sinks: []
+
+observability:
+  correlation_id:
+    header: x-correlation-id
+    generate_if_missing: true
+  logs:
+    level: info
+    include_request: metadata_only
+    include_response: metadata_only
+  metrics:
+    enabled: true
+    labels: [provider, action, connector, status]
+
+resilience:
+  retry:
+    attempts: 3
+    backoff: exponential_jitter
+    retry_on: [408, 429, 500, 502, 503, 504]
+  circuit_breaker:
+    enabled: true
+    failure_threshold: 5
+  idempotency:
+    header: Idempotency-Key
+    required_for: [http.post, pocketbase.create, pocketbase.update]
+
+supplier_servers:
+  - {id: cva_api_v2, protocol: http, url: https://apicvaservices.grupocva.com}
+  - {id: cva_legacy_xml, protocol: http, url: https://www.grupocva.com}
+  - {id: cva_me_portal, protocol: http, url: https://me2.grupocva.com}
+  - id: cva_legacy_soap
+    protocol: soap
+    url: https://www.grupocva.com/pedidos_web/pedidos_ws_cva.php
+    wsdl: https://www.grupocva.com/pedidos_web/pedidos_ws_cva.php?wsdl
+  - {id: pocketbase_local, protocol: pocketbase, url: http://127.0.0.1:8090}
+
+connectors:
+  http:
+    validate_tls: true
+    allow_redirects: false
+    timeout_ms: 60000
+    max_body_bytes: 94371840
+  soap:
+    wsdl_cache_ttl_seconds: 3600
+    xml_hardening:
+      disable_dtd: true
+      disable_external_entities: true
+  pocketbase:
+    base_url: http://127.0.0.1:8090
+    auth_collection: users
+    realtime: true
+
+contracts:
+  documentation_sources:
+    cva_api_v2: https://apicvaservices.grupocva.com/documentation/
+    cva_legacy_webservice: https://www.grupocva.com/api/docs/documentationWebService.html
+    cva_guides_api: https://www.grupocva.com/api/docs/documentation.html
+    cva_legacy_soap_wsdl: https://www.grupocva.com/pedidos_web/pedidos_ws_cva.php?wsdl
+  portal_fallback: {vimport_pipeline: C:/git/v_projects/vimport/examples/mexico_provider_cva_portal.yml, credential_refs: [CVA_PORTAL_USER, CVA_PORTAL_PASSWORD], allowed_actions: [login, search, product_detail, capture_network, export_readonly], denied_actions: [add_to_cart, order_create, order_confirm, account_change]}
+  schemas:
+    cva_catalog_response:
+      type: object
+      required: [articulos]
+    cva_price_stock_offer_response:
+      type: object
+      required: [clave, precio, moneda]
+    cva_order_lookup_request:
+      type: object
+      required: [pedido]
+    cva_waybill_request:
+      type: object
+      required: [order_number, waybills, carrier]
+
+tags:
+  - name: auth
+    description: CVA token acquisition.
+  - name: catalog
+    description: Products, prices, inventory, promotions, images, and catalogs.
+  - name: orders
+    description: CVA order and invoice queries.
+  - name: logistics
+    description: Waybill/guide operations.
+  - name: legacy
+    description: Legacy XML and SOAP compatibility endpoints.
+  - name: pocketbase
+    description: Local persistence actions for backend sync.
+
+actions:
+  cva_login:
+    tags: [auth]
+    description: Generate CVA API v2 token.
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/user/login
+            headers:
+              Content-Type: application/json
+            body:
+              user: "{{cva_user}}"
+              password: "{{cva_password}}"
+        responses:
+          - is_success:
+              code: 200
+              json_path: token
+            performs:
+              - perform:
+                  action: vars.set
+                  data:
+                    cva_api_token: "{{response.body.token}}"
+              - perform:
+                  action: log.info
+                  data:
+                    message: CVA token generated
+          - is_error:
+              code: 401
+            performs:
+              - perform:
+                  action: log.error
+                  data:
+                    message: CVA authentication failed
+
+  cva_ensure_token:
+    tags: [auth]
+    description: Ensure bearer token.
+    performs:
+      - perform:
+          action: vars.get
+          data:
+            key: cva_api_token
+        responses:
+          - is_success:
+              is_empty: true
+            performs:
+              - perform:
+                  action: action.cva_login
+
+  cva_catalog_prices:
+    tags: [catalog]
+    description: Query catalog/lista_precios.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/lista_precios
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Accept: application/json
+            query:
+              page: "{{page}}"
+              codigo: "{{codigo}}"
+              clave: "{{clave}}"
+              marca: "{{marca}}"
+              grupo: "{{grupo}}"
+              grupo2: "{{grupo2}}"
+              desc: "{{desc}}"
+              porcentaje: "{{porcentaje}}"
+              MonedaPesos: "{{MonedaPesos}}"
+              TipoProducto: "{{TipoProducto}}"
+              subgpo: "{{subgpo}}"
+              dt: "{{dt}}"
+              dc: "{{dc}}"
+              depto: "{{depto}}"
+              codigosat: "{{codigosat}}"
+              tc: "{{tc}}"
+              tipo: "{{tipo}}"
+              upc: "{{upc}}"
+              pdf: "{{pdf}}"
+              images: "{{images}}"
+              completos: "{{completos}}"
+              dimen: "{{dimen}}"
+              trans: "{{trans}}"
+              procesador: "{{procesador}}"
+        responses:
+          - is_success:
+              code: 200
+            performs:
+              - perform:
+                  action: vars.set
+                  data:
+                    last_cva_catalog_response: "{{response.body}}"
+              - perform:
+                  action: log.info
+                  data:
+                    message: CVA catalog query completed
+          - is_error:
+              code: 401
+            performs:
+              - perform:
+                  action: action.cva_login
+
+  cva_product_by_clave:
+    tags: [catalog]
+    description: Query a single CVA product by internal CVA key.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/lista_precios
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Accept: application/json
+            query:
+              clave: "{{clave}}"
+              dt: "true"
+              dc: "true"
+              images: "true"
+              upc: "true"
+              codigosat: "true"
+              dimen: "true"
+
+  cva_prices_stock_offers:
+    tags: [catalog]
+    description: Query real-time prices, promotions, and stock. CVA recommends periodic sync for this endpoint.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/precios_stock_ofertas
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Accept: application/json
+            query:
+              page: "{{page}}"
+              batch: "{{batch}}"
+              clave: "{{clave}}"
+              codigo: "{{codigo}}"
+              MonedaPesos: "{{MonedaPesos}}"
+              TipoCompra: "{{TipoCompra}}"
+              porcentaje: "{{porcentaje}}"
+
+  cva_high_res_images:
+    tags: [catalog]
+    description: Retrieve high-resolution images for a product.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/imagenes_alta
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Accept: application/json
+            query:
+              clave: "{{clave}}"
+
+  cva_catalog_brands:
+    tags: [catalog]
+    description: Public CVA catalog of brands; CVA docs say this catalog does not require token.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/marcas
+            headers:
+              Accept: application/json
+
+  cva_catalog_brands_with_id:
+    tags: [catalog]
+    description: Public CVA catalog of brands with IDs.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/marcas2
+            headers:
+              Accept: application/json
+
+  cva_catalog_groups:
+    tags: [catalog]
+    description: Public CVA catalog of product groups.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/grupos
+            headers:
+              Accept: application/json
+
+  cva_catalog_solutions:
+    tags: [catalog]
+    description: Public CVA catalog of solution IDs.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/soluciones
+            headers:
+              Accept: application/json
+
+  cva_catalog_cities:
+    tags: [catalog]
+    description: Public CVA catalog of cities.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/catalogo_clientes/ciudades
+            headers:
+              Accept: application/json
+
+  cva_orders_list:
+    tags: [orders]
+    description: List CVA orders for the authenticated customer.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.get
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/pedidos_web/lista_pedidos
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Accept: application/json
+
+  cva_order_by_purchase_order:
+    tags: [orders]
+    description: Query CVA order(s) by customer purchase order number.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/pedidos_web/pedido_orden_compra
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Content-Type: application/json
+              Accept: application/json
+            body:
+              orden: "{{orden_compra}}"
+
+  cva_invoice_lookup:
+    tags: [orders]
+    description: Query CVA invoice data and invoice products.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/pedidos_web/consultar_factura
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Content-Type: application/json
+              Accept: application/json
+            body:
+              factura: "{{factura}}"
+
+  cva_order_lookup:
+    tags: [orders]
+    description: Query CVA order status and line items by CVA order number.
+    performs:
+      - perform:
+          action: action.cva_ensure_token
+      - perform:
+          action: http.post
+          data:
+            url: https://apicvaservices.grupocva.com/api/v2/pedidos_web/consultar_pedido
+            headers:
+              Authorization: Bearer {{cva_api_token}}
+              Content-Type: application/json
+              Accept: application/json
+            body:
+              pedido: "{{pedido}}"
+
+  cva_post_waybills:
+    tags: [logistics]
+    description: Send waybill/guide data for a CVA order.
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: https://www.grupocva.com/api/v1/orders/guias/
+            headers:
+              Authorization: Bearer {{cva_guides_token}}
+              Content-Type: application/json
+              Accept: application/json
+            body:
+              order_number: "{{order_number}}"
+              waybills: "{{waybills}}"
+              carrier: "{{carrier}}"
+              file: "{{waybill_file_base64}}"
+
+  cva_get_waybills:
+    tags: [logistics]
+    description: Get waybill/guide data for a CVA order.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://www.grupocva.com/api/v1/orders/guias/
+            headers:
+              Authorization: Bearer {{cva_guides_token}}
+              Accept: application/json
+            query:
+              order_number: "{{order_number}}"
+
+  cva_sync_product_to_pocketbase:
+    tags: [catalog, pocketbase]
+    description: Query one CVA product and persist the raw JSON response in PocketBase.
+    performs:
+      - perform:
+          action: action.cva_product_by_clave
+        responses:
+          - is_success:
+              code: 200
+            performs:
+              - perform:
+                  action: pocketbase.create
+                  data:
+                    base_url: http://127.0.0.1:8090
+                    collection: cva_products
+                    body:
+                      provider: cva
+                      clave: "{{clave}}"
+                      payload: "{{response.body}}"
+
+  legacy_xml_catalog_prices:
+    tags: [legacy, catalog]
+    description: Legacy XML catalog query kept for backwards compatibility.
+    performs:
+      - perform:
+          action: http.get
+          data:
+            url: https://www.grupocva.com/catalogo_clientes_xml/lista_precios.xml
+            query:
+              cliente: "{{legacy_cliente}}"
+              codigo: "{{codigo}}"
+              clave: "{{clave}}"
+              marca: "{{marca}}"
+              grupo: "{{grupo}}"
+              grupo2: "{{grupo2}}"
+              desc: "{{desc}}"
+              porcentaje: "{{porcentaje}}"
+              sucursales: "{{sucursales}}"
+              dt: "{{dt_legacy}}"
+              dc: "{{dc_legacy}}"
+              exist: "{{exist}}"
+              promos: "{{promos_legacy}}"
+              TipoProducto: "{{TipoProducto_legacy}}"
+              MonedaPesos: "{{MonedaPesos_legacy}}"
+              TipoCompra: "{{TipoCompra_legacy}}"
+              tc: "{{tc_legacy}}"
+              TotalSuc: "{{TotalSuc}}"
+              tipo: "{{tipo_legacy}}"
+              depto: "{{depto_legacy}}"
+              subgpo: "{{subgpo_legacy}}"
+              trans: "{{trans_legacy}}"
+              dimen: "{{dimen_legacy}}"
+              Solucion: "{{Solucion}}"
+              upc: "{{upc_legacy}}"
+
+  legacy_soap_create_order:
+    tags: [legacy, orders]
+    description: Legacy CVA SOAP order creation endpoint.
+    performs:
+      - perform:
+          action: soap.call
+          data:
+            url: https://www.grupocva.com/pedidos_web/pedidos_ws_cva.php
+            soap_action: urn:PedidoWebwsdl#PedidoWeb
+            body: "{{legacy_order_xml}}"
+
+vars:
+  cva_user:
+    from: env
+    name: CVA_USER
+  cva_password:
+    from: env
+    name: CVA_PASSWORD
+  cva_portal_user: {from: env, name: CVA_PORTAL_USER}
+  cva_portal_password: {from: env, name: CVA_PORTAL_PASSWORD}
+  cva_api_token:
+    from: env
+    name: CVA_API_TOKEN
+  cva_guides_token:
+    from: env
+    name: CVA_GUIDES_TOKEN
+  legacy_cliente:
+    from: env
+    name: CVA_CLIENTE
+  page: ""
+  batch: ""
+  codigo: ""
+  clave: ""
+  marca: ""
+  grupo: ""
+  grupo2: ""
+  desc: ""
+  porcentaje: ""
+  MonedaPesos: ""
+  TipoProducto: ""
+  subgpo: ""
+  dt: ""
+  dc: ""
+  depto: ""
+  codigosat: ""
+  tc: ""
+  tipo: ""
+  upc: ""
+  pdf: ""
+  images: ""
+  completos: ""
+  dimen: ""
+  trans: ""
+  procesador: ""
+  TipoCompra: ""
+  orden_compra: ""
+  factura: ""
+  pedido: ""
+  order_number: ""
+  waybills: ""
+  carrier: ""
+  waybill_file_base64: ""
+  dt_legacy: ""
+  dc_legacy: ""
+  sucursales: ""
+  exist: ""
+  promos_legacy: ""
+  TipoProducto_legacy: ""
+  MonedaPesos_legacy: ""
+  TipoCompra_legacy: ""
+  tc_legacy: ""
+  TotalSuc: ""
+  tipo_legacy: ""
+  depto_legacy: ""
+  subgpo_legacy: ""
+  trans_legacy: ""
+  dimen_legacy: ""
+  Solucion: ""
+  upc_legacy: ""
+  legacy_order_xml: ""
+constants:
+  provider: cva
+  country: MX

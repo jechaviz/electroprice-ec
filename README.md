@@ -45,6 +45,8 @@ A modern e-commerce price comparison platform for electronics, built with React,
    VITE_POCKETBASE_URL=http://127.0.0.1:8090
    VITE_GEMINI_API_KEY=your_gemini_api_key_here
    VITE_APP_URL=http://localhost:5173
+   VITE_VHUB_BASE_URL=http://127.0.0.1:8787
+   VITE_VIMPORT_BASE_URL=http://127.0.0.1:8788
    ```
 4. Set up PocketBase:
    Start PocketBase with `pocketbase serve`, create the superuser account, and then run:
@@ -65,6 +67,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `npm run lint` - Run ESLint
 - `npm run test` - Start Vitest in interactive/watch mode
 - `npm run test:run` - Run tests once
+- `npm run audit:providers` - Validate provider config inventory and secret hygiene
 - `npm run audit:project` - Validate tracked project inventory, file-size limits, and architectural abstractions
 - `npm run audit:build` - Validate production `dist/` bundle budgets and hashed assets after a build
 - `npm run audit:deps` - Run a high-severity production dependency audit
@@ -81,6 +84,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `src/utils/` - Utility functions
 - `src/types.ts` - TypeScript type definitions
 - `src/constants.ts` - Mock data and constants
+- `config/providers/` - Frontend-safe provider config catalog for vhub and vimport
 
 ## Contributing
 

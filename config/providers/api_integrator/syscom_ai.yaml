@@ -1,0 +1,97 @@
+api_integrator: 1.4.0
+info:
+  title: SYSCOM Mexico Provider Integration
+  version: 1.4.0
+  description: AIS/VHub integration for SYSCOM REST API catalog, categories, brands, prices, and product lists.
+  contact:
+    name: SYSCOM Developers
+    url: https://developers.syscom.mx/guide
+  lang: v
+
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [developers.syscom.mx, www.syscom.mx, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 52428800
+  timeout_ms: 60000
+  auth: {schemes: [oauth2_client_credentials, bearer], token_source: env_or_syscom_oauth}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 60}
+  redirects: {allow: false}
+  logging: {redact: [authorization, client_secret, access_token]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+
+supplier_servers:
+  - {id: syscom_api, protocol: http, url: "https://developers.syscom.mx/api/v1"}
+  - {id: syscom_portal, protocol: http, url: "https://www.syscom.mx"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+
+contracts:
+  documentation_sources:
+    guide: https://developers.syscom.mx/guide
+    portal: https://developers.syscom.mx/
+  notes:
+    base_url: "https://developers.syscom.mx/api/v1/"
+    oauth_token: "https://developers.syscom.mx/oauth/token"
+    rate_limit: "60 requests per minute per client"
+  portal_fallback:
+    vimport_pipeline: C:/git/v_projects/vimport/examples/mexico_provider_syscom_portal.yml
+    credential_refs: [SYSCOM_PORTAL_USER, SYSCOM_PORTAL_PASSWORD]
+    allowed_actions: [login, search, product_detail, capture_network, export_readonly]
+    denied_actions: [add_to_cart, order_create, order_confirm, account_change]
+
+actions:
+  syscom_oauth_token:
+    tags: [auth]
+    performs:
+      - perform:
+          action: http.post
+          data:
+            url: "https://developers.syscom.mx/oauth/token"
+            headers: {Content-Type: application/x-www-form-urlencoded, Accept: application/json}
+            body: "client_id={{syscom_client_id}}&client_secret={{syscom_client_secret}}&grant_type=client_credentials"
+        responses:
+          - is_success: {code: 200, json_path: access_token}
+            performs:
+              - perform: {action: vars.set, data: {syscom_access_token: "{{response.body.access_token}}"}}
+  syscom_categories:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://developers.syscom.mx/api/v1/categorias", headers: {Authorization: "Bearer {{syscom_access_token}}", Accept: application/json}}}
+  syscom_products:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://developers.syscom.mx/api/v1/productos", headers: {Authorization: "Bearer {{syscom_access_token}}", Accept: application/json}, query: {busqueda: "{{keyword}}", categoria: "{{category_id}}", marca: "{{brand_id}}"}}}
+  syscom_product_detail:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://developers.syscom.mx/api/v1/productos/{{syscom_product_id}}", headers: {Authorization: "Bearer {{syscom_access_token}}", Accept: application/json}}}
+  syscom_brands:
+    tags: [catalog]
+    performs:
+      - perform: {action: http.get, data: {url: "https://developers.syscom.mx/api/v1/marcas", headers: {Authorization: "Bearer {{syscom_access_token}}", Accept: application/json}}}
+  syscom_sync_product_to_pocketbase:
+    tags: [catalog, pocketbase]
+    performs:
+      - perform: {action: action.syscom_product_detail}
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: syscom_products, body: {provider: syscom, payload: "{{response.body}}"}}}
+
+vars:
+  syscom_client_id: {from: env, name: SYSCOM_CLIENT_ID}
+  syscom_client_secret: {from: env, name: SYSCOM_CLIENT_SECRET}
+  syscom_access_token: {from: env, name: SYSCOM_ACCESS_TOKEN}
+  syscom_portal_user: {from: env, name: SYSCOM_PORTAL_USER}
+  syscom_portal_password: {from: env, name: SYSCOM_PORTAL_PASSWORD}
+  keyword: ""
+  category_id: ""
+  brand_id: ""
+  syscom_product_id: ""
+
+constants: {provider: syscom, country: MX}

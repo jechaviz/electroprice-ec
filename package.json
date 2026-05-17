@@ -13,11 +13,12 @@
       "pb:setup": "node pb/scripts/pb_setup.mjs",
       "pb:demo-reset": "node pb/scripts/pb_demo_reset.mjs",
       "pb:demo-users": "node pb/scripts/pb_seed_demo_users.mjs",
+      "audit:providers": "node tools/provider-config-audit.mjs",
       "audit:project": "node tools/project-audit.mjs",
       "audit:project:update": "node tools/project-audit.mjs --update",
       "audit:build": "node tools/build-audit.mjs",
       "audit:deps": "npm audit --omit=dev --audit-level=high",
-      "verify": "npm run lint && npm run test:run && npm run build && npm run audit:build && npm run audit:project",
+      "verify": "npm run lint && npm run test:run && npm run build && npm run audit:build && npm run audit:providers && npm run audit:project",
       "verify:release": "npm run verify && npm run audit:deps"
    },
    "dependencies": {

@@ -1,0 +1,40 @@
+api_integrator: 1.4.0
+info:
+  title: Stockeado Dropshipping Mexico Provider Profile
+  version: 1.4.0
+  description: Access-gated AIS profile for Stockeado provider catalog, REST API, real-time stock, orders, and webhooks in Mexico.
+  contact: {name: Stockeado, url: "https://stockeado.co/"}
+  lang: v
+runtime: {name: vhub, module: vhub, yaml_module: vyaml, target: pocketbase_companion}
+security:
+  require_tls: true
+  allow_private_networks: true
+  allowed_hosts: [stockeado.co, importar.stockeado.co, 127.0.0.1]
+  blocked_hosts: [169.254.169.254]
+  max_body_bytes: 10485760
+  timeout_ms: 30000
+  auth: {schemes: [private_partner_credentials, webhook_signature], token_source: onboarding_required}
+  authorization: {object_level: required, function_level: required, property_level: required}
+  input_validation: {reject_unknown_fields: true, validate_content_type: true, json_schema: true}
+  rate_limit: {enabled: true, per_action_per_minute: 30}
+  redirects: {allow: false}
+  logging: {redact: [authorization, token, api_key, webhook_secret]}
+  data_flow: {block_untrusted_response_sinks: true, allowed_untrusted_response_sinks: []}
+supplier_servers:
+  - {id: stockeado_public, protocol: http, url: "https://stockeado.co"}
+  - {id: pocketbase_local, protocol: pocketbase, url: "http://127.0.0.1:8090"}
+contracts:
+  documentation_sources: {public_site: "https://stockeado.co/"}
+  api_surface_status: access_gated
+  capabilities: [catalog, realtime_stock, provider_prices, product_content, images, orders, tracking, webhooks]
+actions:
+  stockeado_api_onboarding:
+    performs:
+      - perform: {action: log.info, data: {message: "Stockeado states REST API and real-time webhooks; obtain partner docs before enabling HTTP actions."}}
+  stockeado_register_provider_profile:
+    performs:
+      - perform: {action: pocketbase.create, data: {base_url: "http://127.0.0.1:8090", collection: provider_api_registry, body: {provider: stockeado, country: MX, status: access_gated, capabilities: realtime_stock_webhooks}}}
+vars:
+  stockeado_api_key: {from: env, name: STOCKEADO_API_KEY}
+  stockeado_webhook_secret: {from: env, name: STOCKEADO_WEBHOOK_SECRET}
+constants: {provider: stockeado, country: MX}
