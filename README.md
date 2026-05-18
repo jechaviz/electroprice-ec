@@ -11,6 +11,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - Currency conversion
 - Smart filters for products
 - Cart and checkout functionality
+- Subshopping orchestration: retail checkout to downstream wholesale purchase orders
 - Admin and retailer dashboards
 - Responsive design with Tailwind CSS and DaisyUI
 
@@ -85,6 +86,16 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `src/types.ts` - TypeScript type definitions
 - `src/constants.ts` - Mock data and constants
 - `config/providers/` - Frontend-safe provider config catalog for vhub and vimport
+- `docs/SUBSHOPPING_ORCHESTRATOR.md` - Product and workflow spec for vhub/vimport-driven wholesale purchasing
+
+## Subshopping Product
+
+ElectroPrice is now a client PoC for vimport's **Authorized Commerce Orchestrator**.
+After the retail customer pays, the app groups items by wholesaler, creates provider
+purchase orders, records provider payment state, and exposes tracking in the order
+detail and Admin > Subshopping dashboard. vhub handles providers with order APIs;
+vimport handles authorized portal fallbacks; providers without transactional specs
+stay behind a visible provider gate instead of pretending to be automated.
 
 ## Contributing
 

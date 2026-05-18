@@ -28,3 +28,16 @@ server-side secret storage or local gitignored files.
 The validated live portal providers are CVA, CTOnline, Ingram Mexico, SYSCOM, and
 Tecnosinergia. CT Connect still requires provider-side enablement and IP allowlist
 before token calls can be treated as production-ready.
+
+## Subshopping Contract
+
+ElectroPrice treats provider integrations as two separate surfaces:
+
+- Catalog surface: price, stock, product content, images, and refresh cadence.
+- Transaction surface: quote, purchase order, provider payment, tracking, invoices,
+  returns, and cancellation.
+
+Only providers with explicit `orders` capability are promoted to automatic B2B
+purchase execution. Providers with catalog/price only remain available for product
+comparison but enter a manual/provider gate during subshopping until a transactional
+spec is completed in vhub or vimport.

@@ -19,6 +19,8 @@ import { BrandingService } from "./BrandingService";
 import { ExportService } from "./ExportService";
 import { DemoService } from "./DemoService";
 import { ConfigService } from "./ConfigService";
+import { ProviderRuntimeService } from "./ProviderRuntimeService";
+import { SubshoppingService } from "./SubshoppingService";
 
 export class ServiceContainer {
     // Domain Services
@@ -45,6 +47,8 @@ export class ServiceContainer {
     export = new ExportService();
     demo = new DemoService();
     config = new ConfigService();
+    providerRuntime = new ProviderRuntimeService();
+    subshopping = new SubshoppingService();
 }
 
 export const services = new ServiceContainer();

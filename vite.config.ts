@@ -47,11 +47,15 @@ const getInlineScriptHashes = () => {
 export default defineConfig(({ mode }) => {
    const env = loadEnv(mode, process.cwd(), '');
    const pocketBaseUrl = env.VITE_POCKETBASE_URL || 'http://127.0.0.1:8090';
+   const vhubUrl = env.VITE_VHUB_BASE_URL || 'http://127.0.0.1:8787';
+   const vimportUrl = env.VITE_VIMPORT_BASE_URL || 'http://127.0.0.1:8788';
    const productionScriptSources = ["'self'", ...getInlineScriptHashes()];
    const devScriptSources = ["'self'", "'unsafe-inline'", "'unsafe-eval'"];
    const connectSources = [
       "'self'",
       pocketBaseUrl,
+      vhubUrl,
+      vimportUrl,
       'http://127.0.0.1:8090',
       'http://127.0.0.1:8092',
       'https://generativelanguage.googleapis.com',

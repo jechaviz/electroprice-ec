@@ -103,6 +103,73 @@ export interface CartItem {
   price: number; // Price at the time of adding to cart
 }
 
+export type SubshoppingRuntime = 'vhub' | 'vimport' | 'manual';
+export type SubshoppingChannel = 'api' | 'portal_fallback' | 'manual';
+export type SubshoppingStatus =
+  | 'Planning'
+  | 'Purchasing'
+  | 'Awaiting Provider'
+  | 'Tracking'
+  | 'Completed'
+  | 'Exception';
+
+export type PurchaseOrderStatus =
+  | 'Draft'
+  | 'Queued'
+  | 'Provider Gate'
+  | 'Submitted'
+  | 'Provider Accepted'
+  | 'Paid'
+  | 'Backordered'
+  | 'Shipped'
+  | 'Delivered'
+  | 'Failed'
+  | 'Cancelled';
+
+export type PurchaseOrderPaymentStatus =
+  | 'Not Started'
+  | 'Authorized'
+  | 'Paid'
+  | 'Failed'
+  | 'Refunded'
+  | 'Manual Review';
+
+export interface SubshoppingTrackingEvent {
+  id: string;
+  at: string;
+  actor: 'retail' | 'vhub' | 'vimport' | 'manual' | 'provider' | 'logistics' | 'operator';
+  title: string;
+  detail: string;
+  status: 'ok' | 'warn' | 'error' | 'pending';
+  providerId?: string;
+}
+
+export interface SubshoppingPurchaseOrder {
+  id: string;
+  providerId: string;
+  providerName: string;
+  channel: SubshoppingChannel;
+  runtime: SubshoppingRuntime;
+  status: PurchaseOrderStatus;
+  paymentStatus: PurchaseOrderPaymentStatus;
+  items: OrderItem[];
+  subtotalCost: number;
+  shippingAddress: string;
+  submittedAt?: string;
+  paidAt?: string;
+  providerOrderId?: string;
+  providerTrackingNumber?: string;
+  runtimeTraceId?: string;
+  nextAction?: string;
+}
+
+export interface SubshoppingWorkflow {
+  status: SubshoppingStatus;
+  purchaseOrders: SubshoppingPurchaseOrder[];
+  timeline: SubshoppingTrackingEvent[];
+  updatedAt: string;
+}
+
 export type OrderStatus =
   | 'Processing'
   | 'Awaiting Shipment from Wholesaler'
@@ -134,6 +201,9 @@ export interface Order {
   shippingAddress: string;
   trackingNumber?: string;
   wholesalerTrackingNumber?: string;
+  subshoppingStatus?: SubshoppingStatus;
+  purchaseOrders?: SubshoppingPurchaseOrder[];
+  fulfillmentTimeline?: SubshoppingTrackingEvent[];
 }
 
 export interface Supplier {

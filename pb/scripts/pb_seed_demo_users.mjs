@@ -270,6 +270,7 @@ const buildOrderItem = (product, quantity = 1) => {
     imageUrl: product.image_url,
     quantity,
     price: getProductPrice(product),
+    cost: stock?.price || getProductPrice(product),
     wholesalerId: stock?.wholesalerId || '',
   };
 };
@@ -277,14 +278,53 @@ const buildOrderItem = (product, quantity = 1) => {
 const createOrder = async ({ user, products, status, daysAgo, trackingNumber, wholesalerTrackingNumber }) => {
   const items = products.map((product, index) => buildOrderItem(product, index === 0 ? 1 : 2));
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const totalCost = items.reduce((sum, item) => sum + item.cost * item.quantity, 0);
   const date = new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000).toISOString();
+  const purchaseOrders = items.map((item, index) => ({
+    id: `po_demo_${daysAgo}_${index + 1}`,
+    providerId: item.wholesalerId,
+    providerName: index === 0 ? 'Ingram Demo' : 'CVA Demo',
+    channel: 'api',
+    runtime: 'vhub',
+    status: status === 'Delivered' ? 'Delivered' : 'Paid',
+    paymentStatus: 'Paid',
+    items: [item],
+    subtotalCost: item.cost * item.quantity,
+    shippingAddress: 'DEMO - Av. Reforma 120, Cuauhtemoc, CDMX 06600',
+    providerOrderId: `B2B-DEMO-${daysAgo}${index}`,
+    providerTrackingNumber: wholesalerTrackingNumber,
+    runtimeTraceId: `vhub_demo_${daysAgo}${index}`,
+    paidAt: date,
+    submittedAt: date,
+  }));
 
   return pb.collection('orders').create({
     user_id: user.id,
     date,
     items,
     total,
+    total_cost: totalCost,
     status,
+    subshopping_status: status === 'Delivered' ? 'Completed' : 'Tracking',
+    purchase_orders: purchaseOrders,
+    fulfillment_timeline: [
+      {
+        id: `evt_demo_${daysAgo}_paid`,
+        at: date,
+        actor: 'retail',
+        title: 'Pago retail capturado',
+        detail: 'Orden demo pagada y convertida en compras mayoristas.',
+        status: 'ok',
+      },
+      {
+        id: `evt_demo_${daysAgo}_b2b`,
+        at: date,
+        actor: 'vhub',
+        title: 'Subshopping ejecutado',
+        detail: `${purchaseOrders.length} orden(es) de compra B2B enviadas.`,
+        status: 'ok',
+      },
+    ],
     shipping_address: 'DEMO - Av. Reforma 120, Cuauhtemoc, CDMX 06600',
     tracking_number: trackingNumber,
     wholesaler_tracking_number: wholesalerTrackingNumber,

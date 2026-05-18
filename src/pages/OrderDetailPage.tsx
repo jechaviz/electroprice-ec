@@ -6,6 +6,7 @@ import Spinner from '../components/common/Spinner';
 import type { OrderStatus } from '../types';
 import { useParams } from 'react-router-dom';
 import { services } from '../services/ServiceContainer';
+import SubshoppingWorkflowPanel from '../components/subshopping/SubshoppingWorkflowPanel';
 
 const OrderDetailPage: React.FC = () => {
   const { orderId, orders, loading, setView, cancelOrder, requestReturn } = useContext(AppContext);
@@ -93,7 +94,7 @@ const OrderDetailPage: React.FC = () => {
                                 </div>
                                 <div className="flex flex-col">
                                     <span className={`text-sm font-black uppercase tracking-tight transition-colors ${index <= currentStatusIndex ? 'text-base-content' : 'text-base-content/30'}`}>
-                                        {t(`order.statuses.${status.replace(/\s/g, '')}` as any)}
+                                        {t(`order.statuses.${status}` as any)}
                                     </span>
                                     {index === currentStatusIndex && (
                                         <span className="text-[10px] font-bold text-primary animate-pulse uppercase tracking-widest mt-1">Active Status</span>
@@ -126,6 +127,10 @@ const OrderDetailPage: React.FC = () => {
                     </div>
                 </div>
             </div>
+          </div>
+
+          <div className="px-6 md:px-0 mb-12">
+            <SubshoppingWorkflowPanel order={order} formatPrice={formatPrice} />
           </div>
           
           <div className="p-6 md:p-0 grid grid-cols-1 md:grid-cols-2 gap-8">

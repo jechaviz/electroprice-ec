@@ -26,6 +26,14 @@ const ORDER_STATUS_VALUES = [
   'Return Requested',
   'Returned',
 ];
+const SUBSHOPPING_STATUS_VALUES = [
+  'Planning',
+  'Purchasing',
+  'Awaiting Provider',
+  'Tracking',
+  'Completed',
+  'Exception',
+];
 const REVIEW_STATUS_VALUES = ['pending', 'approved', 'rejected'];
 const USER_ROLE_VALUES = ['user', 'admin', 'retailer'];
 const USER_STATUS_VALUES = ['active', 'suspended'];
@@ -239,7 +247,11 @@ const main = async () => {
       { name: 'date', type: 'date' },
       { name: 'items', type: 'json', required: true },
       { name: 'total', type: 'number', required: true, min: 0 },
+      { name: 'total_cost', type: 'number', min: 0 },
       { name: 'status', type: 'select', maxSelect: 1, values: ORDER_STATUS_VALUES },
+      { name: 'subshopping_status', type: 'select', maxSelect: 1, values: SUBSHOPPING_STATUS_VALUES },
+      { name: 'purchase_orders', type: 'json' },
+      { name: 'fulfillment_timeline', type: 'json' },
       { name: 'shipping_address', type: 'text', required: true },
       { name: 'tracking_number', type: 'text' },
       { name: 'wholesaler_tracking_number', type: 'text' },

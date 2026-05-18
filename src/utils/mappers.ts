@@ -47,7 +47,10 @@ export const mapOrderRecord = (order: any): Order => ({
    wholesalerTrackingNumber: order.wholesaler_tracking_number,
    shippingAddress: order.shipping_address,
    items: order.items || [],
-   totalCost: order.total_cost || 0
+   totalCost: order.total_cost || 0,
+   subshoppingStatus: order.subshopping_status,
+   purchaseOrders: order.purchase_orders || [],
+   fulfillmentTimeline: order.fulfillment_timeline || []
 });
 
 export const mapWholesalerRecord = (wholesaler: any): Wholesaler => ({

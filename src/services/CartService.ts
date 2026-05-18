@@ -216,9 +216,24 @@ export class CartService {
                 shippingAddress,
             };
 
+            const workflow = await services.subshopping.startWorkflow(newOrder);
+            const activeOrder = services.subshopping.mergeWorkflow(newOrder, workflow);
+
+            try {
+                await pb.collection('orders').update(newOrderId, {
+                    status: activeOrder.status,
+                    subshopping_status: activeOrder.subshoppingStatus,
+                    purchase_orders: activeOrder.purchaseOrders,
+                    fulfillment_timeline: activeOrder.fulfillmentTimeline,
+                    wholesaler_tracking_number: activeOrder.wholesalerTrackingNumber,
+                });
+            } catch (workflowPersistError) {
+                console.warn('Subshopping workflow could not be persisted. Run pb:setup to add workflow fields.', workflowPersistError);
+            }
+
             // Update signals
             productsSignal.value = productsWithUpdatedStock;
-            ordersSignal.value = [...ordersSignal.value, newOrder];
+            ordersSignal.value = [...ordersSignal.value, activeOrder];
             currentUserSignal.value = { ...user, cart: [], orderIds: [...user.orderIds, newOrderId] };
 
             NotificationService.success('¡Pedido realizado con éxito!');

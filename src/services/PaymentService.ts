@@ -7,6 +7,15 @@ export interface PaymentIntent {
     status: 'pending' | 'succeeded' | 'failed';
 }
 
+export interface WholesalePaymentResult {
+    id: string;
+    providerId: string;
+    purchaseOrderId: string;
+    amount: number;
+    status: 'authorized' | 'paid' | 'failed' | 'manual_review';
+    paidAt?: string;
+}
+
 export class PaymentService {
     /**
      * OWASP: Secure payment processing.
@@ -48,5 +57,33 @@ export class PaymentService {
             NotificationService.error(error.message || "Payment confirmation failed.");
             return false;
         }
+    }
+
+    static async payWholesalerPurchaseOrder(input: {
+        purchaseOrderId: string;
+        providerId: string;
+        amount: number;
+        runtime: 'vhub' | 'vimport' | 'manual';
+    }): Promise<WholesalePaymentResult> {
+        await new Promise(resolve => setTimeout(resolve, 350));
+
+        if (input.runtime === 'manual') {
+            return {
+                id: `wp_${input.purchaseOrderId}`,
+                providerId: input.providerId,
+                purchaseOrderId: input.purchaseOrderId,
+                amount: input.amount,
+                status: 'manual_review',
+            };
+        }
+
+        return {
+            id: `wp_${input.purchaseOrderId}`,
+            providerId: input.providerId,
+            purchaseOrderId: input.purchaseOrderId,
+            amount: input.amount,
+            status: 'paid',
+            paidAt: new Date().toISOString(),
+        };
     }
 }

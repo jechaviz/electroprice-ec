@@ -10,8 +10,9 @@ import FunnelChart from '../components/admin/FunnelChart';
 import { services } from '../services/ServiceContainer';
 import { conversionRateSignal } from '../signals/analytics.signals';
 import { totalOnlineUsersSignal } from '../signals/inventory.signals';
+import { SubshoppingTab } from '../components/admin/tabs/SubshoppingTab';
 
-type AdminTab = 'overview' | 'analytics' | 'orders' | 'users' | 'reviews' | 'suppliers' | 'wholesalers';
+type AdminTab = 'overview' | 'analytics' | 'orders' | 'subshopping' | 'users' | 'reviews' | 'suppliers' | 'wholesalers';
 
 const ORDER_STATUSES: OrderStatus[] = [
   'Processing', 'Awaiting Shipment from Wholesaler', 'Shipped to Hub', 'Shipped to You', 'Delivered', 'Cancelled', 'Return Requested', 'Returned',
@@ -23,7 +24,7 @@ const OPEN_ORDER_STATUSES: OrderStatus[] = [
 
 const tabItems: { id: AdminTab; icon: string }[] = [
   { id: 'overview', icon: 'fa-chart-line' }, { id: 'analytics', icon: 'fa-filter-circle-dollar' }, { id: 'orders', icon: 'fa-receipt' }, 
-  { id: 'users', icon: 'fa-users' }, { id: 'reviews', icon: 'fa-star-half-stroke' }, 
+  { id: 'subshopping', icon: 'fa-network-wired' }, { id: 'users', icon: 'fa-users' }, { id: 'reviews', icon: 'fa-star-half-stroke' },
   { id: 'suppliers', icon: 'fa-boxes-packing' }, { id: 'wholesalers', icon: 'fa-truck-fast' },
 ];
 
@@ -124,6 +125,10 @@ const AdminDashboard: React.FC = () => {
                  ) : <div className="p-5"><EmptyState icon="fa-receipt" text={t('adminDashboard.empty.orders')} /></div>}
                </div>
             </section>
+          )}
+
+          {activeTab === 'subshopping' && (
+            <SubshoppingTab orders={orders} formatPrice={formatPrice} />
           )}
 
           {activeTab === 'users' && (
