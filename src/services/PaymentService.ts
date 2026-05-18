@@ -52,8 +52,10 @@ export const SANDBOX_PAYMENT_CARDS: SandboxPaymentCard[] = [
 ];
 
 const normalizeCardNumber = (cardNumber: string) => cardNumber.replace(/\D/g, '');
-const simulateDelay = (ms: number) =>
-    new Promise(resolve => setTimeout(resolve, import.meta.env.MODE === 'test' ? 0 : ms));
+const simulateDelay = (ms: number) => {
+    if (import.meta.env.MODE === 'test') return Promise.resolve();
+    return new Promise(resolve => setTimeout(resolve, ms));
+};
 
 export class PaymentService {
     static getSandboxCards(): SandboxPaymentCard[] {

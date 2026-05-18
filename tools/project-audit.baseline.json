@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-18T12:10:58.362Z",
-  "fileCount": 203,
-  "fileNameHash": "4be8f2aab9ae7f9c97f00d509182dbf743939fd01597969e10ee6a17433f9130",
+  "generatedAt": "2026-05-18T12:31:49.779Z",
+  "fileCount": 204,
+  "fileNameHash": "dc26498bbc15e0a0bbae9455cfa3f3f5217e0ad5b1e144f6e3b82eebb112f0f2",
   "files": [
     ".env.example",
     ".gitignore",
@@ -166,6 +166,7 @@
     "src/services/PaymentService.test.ts",
     "src/services/PaymentService.ts",
     "src/services/PromotionService.ts",
+    "src/services/ProviderCycleMatrix.test.ts",
     "src/services/ProviderRuntimeService.test.ts",
     "src/services/ProviderRuntimeService.ts",
     "src/services/SecurityService.ts",

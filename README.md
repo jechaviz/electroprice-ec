@@ -88,6 +88,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `config/providers/` - Frontend-safe provider config catalog for vhub and vimport
 - `docs/SUBSHOPPING_ORCHESTRATOR.md` - Product and workflow spec for vhub/vimport-driven wholesale purchasing
 - `docs/SUBSHOPPING_PIPELINE_QA.md` - End-to-end sandbox validation for payment, purchase orders, delivery, returns, and refunds
+- `docs/PROVIDER_CYCLE_MATRIX.md` - Provider-by-provider full-cycle/gated coverage for the ElectroPrice PoC
 
 ## Subshopping Product
 
