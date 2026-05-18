@@ -1,4 +1,7 @@
+import { readFileSync } from "node:fs";
+import path from "node:path";
 import { describe, expect, it } from "vitest";
+import transactionDryRunManifest from "../../config/providers/vimport/transaction_dryrun_manifest.json";
 import { PROVIDER_INTEGRATIONS } from "../config/providerIntegrations";
 import type { Order } from "../types";
 import { OrderLifecycleService } from "./OrderLifecycleService";
@@ -97,6 +100,28 @@ describe("provider cycle matrix", () => {
       expect(purchaseOrder.status).toBe("Provider Gate");
       expect(purchaseOrder.paymentStatus).toBe("Not Started");
       expect(purchaseOrder.nextAction).toContain("Registrar spec");
+    }
+  });
+
+  it("indexes credentialed transaction dry-run specs without enabling submit", () => {
+    const manifest = transactionDryRunManifest as {
+      providers: Array<{ id: string; maturity: string; spec: string }>;
+    };
+
+    expect(manifest.providers.map(provider => provider.id).sort()).toEqual([
+      "ctonline",
+      "cva",
+      "ingram_mexico",
+      "syscom",
+      "tecnosinergia",
+    ]);
+
+    for (const provider of manifest.providers) {
+      const spec = readFileSync(path.resolve(process.cwd(), provider.spec), "utf8");
+      expect(spec).toContain("mode: transaction_dryrun");
+      expect(spec).toContain("submit_enabled: false");
+      expect(spec).toMatch(/actions_denied:\s*\[[^\]]*(order_confirm|payment_submit)/);
+      expect(spec).not.toMatch(/actions_allowed:\s*\[[^\]]*(order_confirm|payment_submit)/);
     }
   });
 });

@@ -69,6 +69,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `npm run test` - Start Vitest in interactive/watch mode
 - `npm run test:run` - Run tests once
 - `npm run audit:providers` - Validate provider config inventory and secret hygiene
+- `npm run audit:subshopping` - Audit full subshopping lifecycle readiness and no-submit provider gates
 - `npm run audit:project` - Validate tracked project inventory, file-size limits, and architectural abstractions
 - `npm run audit:build` - Validate production `dist/` bundle budgets and hashed assets after a build
 - `npm run audit:deps` - Run a high-severity production dependency audit
@@ -90,6 +91,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `docs/SUBSHOPPING_PIPELINE_QA.md` - End-to-end sandbox validation for payment, purchase orders, delivery, returns, and refunds
 - `docs/PROVIDER_CYCLE_MATRIX.md` - Provider-by-provider full-cycle/gated coverage for the ElectroPrice PoC
 - `docs/SUBSHOPPING_FULL_LIFE_CYCLE_AUDIT.md` - Sanitized provider lifecycle audit using local `.env` readiness and no-submit gates
+- `docs/SUBSHOPPING_TRANSACTION_DRYRUN.md` - Credentialed provider dry-run model for cart, quote, shipping, and payment review
 
 ## Subshopping Product
 

@@ -7,6 +7,10 @@ const repoRoot = path.resolve(__dirname, '..');
 const envPath = path.join(repoRoot, '.env');
 const catalogPath = path.join(repoRoot, 'config', 'providers', 'catalog.json');
 const catalog = JSON.parse(readFileSync(catalogPath, 'utf8'));
+const transactionManifestPath = path.join(repoRoot, 'config', 'providers', 'vimport', 'transaction_dryrun_manifest.json');
+const transactionManifest = existsSync(transactionManifestPath)
+  ? JSON.parse(readFileSync(transactionManifestPath, 'utf8'))
+  : { providers: [] };
 const REQUEST_TIMEOUT_MS = 8000;
 
 const portalCredentialProfiles = {
@@ -78,6 +82,37 @@ const inspectPortalSpec = (provider) => {
   };
 };
 
+const inspectTransactionSpec = (providerId) => {
+  const manifestEntry = transactionManifest.providers.find((entry) => entry.id === providerId);
+  if (!manifestEntry) {
+    return {
+      hasTransactionSpec: false,
+      dryRunReady: false,
+      submitAllowed: false,
+      maturity: 'not_indexed',
+      transactionMode: 'no_transaction_spec',
+    };
+  }
+
+  const specPath = path.join(repoRoot, manifestEntry.spec);
+  const text = existsSync(specPath) ? readFileSync(specPath, 'utf8') : '';
+  const submitAllowed = /actions_allowed:\s*\[[^\]]*(order_confirm|payment_submit)/m.test(text);
+  const submitDenied = /actions_denied:\s*\[[^\]]*(order_confirm|payment_submit)/m.test(text);
+  const dryRunReady =
+    /mode:\s*transaction_dryrun/m.test(text) &&
+    /actions_allowed:\s*\[[^\]]*(cart_prepare|cart_quote|shipping_quote|payment_review)/m.test(text) &&
+    submitDenied &&
+    /submit_enabled:\s*false/m.test(text);
+
+  return {
+    hasTransactionSpec: true,
+    dryRunReady,
+    submitAllowed,
+    maturity: manifestEntry.maturity ?? 'unknown',
+    transactionMode: submitAllowed ? 'submit_allowed' : dryRunReady ? 'transaction_dryrun_no_submit' : 'unknown_gate',
+  };
+};
+
 const redactUrl = (value) => {
   try {
     const url = new URL(value);
@@ -140,11 +175,15 @@ const getPortalReadiness = (env, providerId) => {
   };
 };
 
-const getCycleDisposition = (provider, portalReadiness, portalSpec) => {
+const getCycleDisposition = (provider, portalReadiness, portalSpec, transactionSpec) => {
   const hasOrders = provider.capabilities.includes('orders');
 
-  if (hasOrders && portalReadiness.configured && portalSpec.transactionAllowed) {
+  if (hasOrders && portalReadiness.configured && transactionSpec.submitAllowed) {
     return 'full_cycle_portal_transaction_ready';
+  }
+
+  if (hasOrders && portalReadiness.configured && transactionSpec.dryRunReady) {
+    return 'full_cycle_portal_dryrun_ready';
   }
 
   if (hasOrders && portalReadiness.configured) {
@@ -155,7 +194,11 @@ const getCycleDisposition = (provider, portalReadiness, portalSpec) => {
     return 'full_cycle_sandbox_spec_ready';
   }
 
-  if (portalReadiness.configured) {
+  if (portalReadiness.configured && transactionSpec.dryRunReady) {
+    return 'credentialed_transaction_dryrun_discovery';
+  }
+
+  if (portalReadiness.configured || portalSpec.transactionAllowed) {
     return 'credentialed_transaction_discovery';
   }
 
@@ -168,6 +211,7 @@ const rows = [];
 for (const provider of catalog.integrations) {
   const portalReadiness = getPortalReadiness(env, provider.id);
   const portalSpec = inspectPortalSpec(provider);
+  const transactionSpec = inspectTransactionSpec(provider.id);
   const portalProbe = portalReadiness.profile
     ? await probePortal(env[portalReadiness.profile.url])
     : { status: 'not_applicable' };
@@ -182,18 +226,25 @@ for (const provider of catalog.integrations) {
     hasTrackingSurface: supportsTracking(provider),
     hasPortalSpec: portalSpec.hasPortalSpec,
     portalTransactionMode: portalSpec.transactionMode,
+    hasTransactionSpec: transactionSpec.hasTransactionSpec,
+    transactionDryRunMode: transactionSpec.transactionMode,
+    transactionMaturity: transactionSpec.maturity,
     portalCredentialsReady: portalReadiness.configured,
     portalReachability: portalProbe.status,
     portalHttpStatus: portalProbe.httpStatus ?? null,
-    cycleDisposition: getCycleDisposition(provider, portalReadiness, portalSpec),
+    cycleDisposition: getCycleDisposition(provider, portalReadiness, portalSpec, transactionSpec),
   });
 }
 
 const summary = {
   totalProviders: rows.length,
   fullCyclePortalTransactionReady: rows.filter((row) => row.cycleDisposition === 'full_cycle_portal_transaction_ready').length,
+  fullCyclePortalDryRunReady: rows.filter((row) => row.cycleDisposition === 'full_cycle_portal_dryrun_ready').length,
   fullCycleCredentialedReadonlyGate: rows.filter((row) => row.cycleDisposition === 'full_cycle_credentialed_readonly_gate').length,
   fullCycleSandboxSpecReady: rows.filter((row) => row.cycleDisposition === 'full_cycle_sandbox_spec_ready').length,
+  credentialedTransactionDryRunDiscovery: rows.filter((row) =>
+    row.cycleDisposition === 'credentialed_transaction_dryrun_discovery'
+  ).length,
   credentialedTransactionDiscovery: rows.filter((row) => row.cycleDisposition === 'credentialed_transaction_discovery').length,
   catalogOnlyProviderGate: rows.filter((row) => row.cycleDisposition === 'catalog_only_provider_gate').length,
   reachableCredentialedPortals: rows.filter((row) =>

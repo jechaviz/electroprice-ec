@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "owner": "electroprice-ec",
+  "mode": "credentialed_provider_transaction_dryrun",
+  "submitEnabledByDefault": false,
+  "providers": [
+    {
+      "id": "cva",
+      "maturity": "dryrun_ready",
+      "spec": "config/providers/vimport/mexico_provider_cva_transaction_dryrun.yml"
+    },
+    {
+      "id": "ingram_mexico",
+      "maturity": "dryrun_ready",
+      "spec": "config/providers/vimport/mexico_provider_ingram_transaction_dryrun.yml"
+    },
+    {
+      "id": "ctonline",
+      "maturity": "dryrun_ready",
+      "spec": "config/providers/vimport/mexico_provider_ctonline_transaction_dryrun.yml"
+    },
+    {
+      "id": "syscom",
+      "maturity": "transaction_discovery",
+      "spec": "config/providers/vimport/mexico_provider_syscom_transaction_dryrun.yml"
+    },
+    {
+      "id": "tecnosinergia",
+      "maturity": "transaction_discovery",
+      "spec": "config/providers/vimport/mexico_provider_tecnosinergia_transaction_dryrun.yml"
+    }
+  ]
+}

@@ -6,6 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, '..');
 const providerRoot = path.join(repoRoot, 'config', 'providers');
 const catalogPath = path.join(providerRoot, 'catalog.json');
+const transactionManifestPath = path.join(providerRoot, 'vimport', 'transaction_dryrun_manifest.json');
 
 const normalizePath = (filePath) => filePath.replaceAll(path.sep, '/');
 
@@ -35,6 +36,9 @@ if (!existsSync(catalogPath)) {
 }
 
 const catalog = readJson(catalogPath);
+const transactionManifest = existsSync(transactionManifestPath)
+  ? readJson(transactionManifestPath)
+  : { providers: [] };
 const apiDir = path.join(providerRoot, 'api_integrator');
 const vimportDir = path.join(providerRoot, 'vimport');
 const actualAiSpecs = listFiles(apiDir, '.yaml');
@@ -43,6 +47,7 @@ const catalogAiSpecs = catalog.integrations.map((item) => item.aiSpec).sort((a, 
 const catalogVimportSpecs = catalog.integrations
   .map((item) => item.vimportSpec)
   .filter(Boolean)
+  .concat(transactionManifest.providers.map((item) => item.spec))
   .sort((a, b) => a.localeCompare(b));
 
 const missingAiSpecs = catalogAiSpecs.filter((file) => !actualAiSpecs.includes(file));
@@ -61,6 +66,7 @@ if (missingVimportSpecs.length || unindexedVimportSpecs.length) {
 const auditedFiles = [
   normalizePath(path.relative(repoRoot, catalogPath)),
   normalizePath(path.relative(repoRoot, path.join(providerRoot, 'README.md'))),
+  normalizePath(path.relative(repoRoot, transactionManifestPath)),
   ...actualAiSpecs,
   ...actualVimportSpecs,
   normalizePath(path.relative(repoRoot, path.join(vimportDir, 'mexico_provider_credentials.env.example'))),

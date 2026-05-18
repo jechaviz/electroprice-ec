@@ -11,6 +11,9 @@ server-side secret storage or local gitignored files.
 - `api_integrator/*.yaml` contains vhub provider specs copied from the AIS spec.
 - `vimport/*.yml` contains read-only browser fallback pipelines for providers that
   need portal extraction or API parity checks.
+- `vimport/transaction_dryrun_manifest.json` indexes no-submit checkout dry-runs
+  for credentialed providers where vimport can quote cart, shipping, taxes, and
+  payment-review surfaces without confirming the provider order.
 - `vimport/mexico_provider_credentials.env.example` lists environment variable
   names only. Copy it to a gitignored secret store before running probes.
 
@@ -41,3 +44,8 @@ Only providers with explicit `orders` capability are promoted to automatic B2B
 purchase execution. Providers with catalog/price only remain available for product
 comparison but enter a manual/provider gate during subshopping until a transactional
 spec is completed in vhub or vimport.
+
+Credentialed portal providers can additionally expose a dry-run transaction spec.
+That spec is useful for validating provider checkout APIs, quote totals, shipping
+choices, and payment screens, but it keeps `order_confirm` and `payment_submit`
+denied until a separate submit-enabled runbook is approved.
