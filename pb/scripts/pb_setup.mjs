@@ -34,6 +34,8 @@ const SUBSHOPPING_STATUS_VALUES = [
   'Completed',
   'Exception',
 ];
+const PAYMENT_PROVIDER_VALUES = ['stripe', 'paypal'];
+const REFUND_STATUS_VALUES = ['Not Requested', 'Requested', 'Approved', 'Refunded', 'Rejected'];
 const REVIEW_STATUS_VALUES = ['pending', 'approved', 'rejected'];
 const USER_ROLE_VALUES = ['user', 'admin', 'retailer'];
 const USER_STATUS_VALUES = ['active', 'suspended'];
@@ -249,6 +251,10 @@ const main = async () => {
       { name: 'total', type: 'number', required: true, min: 0 },
       { name: 'total_cost', type: 'number', min: 0 },
       { name: 'status', type: 'select', maxSelect: 1, values: ORDER_STATUS_VALUES },
+      { name: 'payment_intent_id', type: 'text' },
+      { name: 'payment_provider', type: 'select', maxSelect: 1, values: PAYMENT_PROVIDER_VALUES },
+      { name: 'refund_status', type: 'select', maxSelect: 1, values: REFUND_STATUS_VALUES },
+      { name: 'refund_id', type: 'text' },
       { name: 'subshopping_status', type: 'select', maxSelect: 1, values: SUBSHOPPING_STATUS_VALUES },
       { name: 'purchase_orders', type: 'json' },
       { name: 'fulfillment_timeline', type: 'json' },

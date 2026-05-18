@@ -170,6 +170,17 @@ export interface SubshoppingWorkflow {
   updatedAt: string;
 }
 
+export type RetailPaymentProvider = 'stripe' | 'paypal';
+export type RefundStatus = 'Not Requested' | 'Requested' | 'Approved' | 'Refunded' | 'Rejected';
+
+export interface SandboxPaymentCard {
+  id: string;
+  provider: RetailPaymentProvider;
+  label: string;
+  displayNumber: string;
+  scenario: 'success' | 'decline' | 'requires_action';
+}
+
 export type OrderStatus =
   | 'Processing'
   | 'Awaiting Shipment from Wholesaler'
@@ -201,6 +212,10 @@ export interface Order {
   shippingAddress: string;
   trackingNumber?: string;
   wholesalerTrackingNumber?: string;
+  paymentIntentId?: string;
+  paymentProvider?: RetailPaymentProvider;
+  refundStatus?: RefundStatus;
+  refundId?: string;
   subshoppingStatus?: SubshoppingStatus;
   purchaseOrders?: SubshoppingPurchaseOrder[];
   fulfillmentTimeline?: SubshoppingTrackingEvent[];

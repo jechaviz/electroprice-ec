@@ -128,7 +128,7 @@ export class CartService {
         }
     }
 
-    static async placeOrder(shippingAddress: string) {
+    static async placeOrder(shippingAddress: string, sandboxCardId?: string) {
         const user = currentUserSignal.value;
         if (!user || user.role !== 'user' || user.cart.length === 0) {
             NotificationService.error('Cannot place order.');
@@ -173,13 +173,8 @@ export class CartService {
             const total = calculateOrderAmounts(subtotal).total;
             const orderDate = new Date().toISOString();
 
-            // STEP 1: Create Payment Intent (Secure OWASP pattern)
-            const intent = await PaymentService.createPaymentIntent(total);
-            if (!intent) throw new Error("Could not initialize payment.");
-
-            // STEP 2: Confirm Payment (Simulating hosted UI/Checkout)
-            const paymentConfirmed = await PaymentService.confirmPayment(intent.id);
-            if (!paymentConfirmed) throw new Error("Payment was not successful.");
+            // STEP 1: Capture retail payment with a sandbox provider profile.
+            const intent = await PaymentService.processRetailPayment(total, sandboxCardId);
 
             // STEP 3: Create Order Record (After payment success)
             const createdOrder = await pb.collection('orders').create({
@@ -189,6 +184,9 @@ export class CartService {
                 total,
                 total_cost: totalCost,
                 status: 'Processing',
+                payment_intent_id: intent.id,
+                payment_provider: intent.provider,
+                refund_status: 'Not Requested',
                 shipping_address: shippingAddress
             });
             const newOrderId = createdOrder.id;
@@ -214,6 +212,9 @@ export class CartService {
                 totalCost,
                 status: 'Processing',
                 shippingAddress,
+                paymentIntentId: intent.id,
+                paymentProvider: intent.provider,
+                refundStatus: 'Not Requested',
             };
 
             const workflow = await services.subshopping.startWorkflow(newOrder);

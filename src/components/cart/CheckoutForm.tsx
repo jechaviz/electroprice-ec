@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { services } from '../../services/ServiceContainer';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
+import { PaymentService } from '../../services/PaymentService';
 
 interface CheckoutFormProps {
     total: number;
@@ -14,6 +15,8 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ total, onCancel }) => {
     const { formatPrice } = useCurrency();
     const [isProcessing, setIsProcessing] = useState(false);
     const [address, setAddress] = useState('');
+    const sandboxCards = PaymentService.getSandboxCards();
+    const [sandboxCardId, setSandboxCardId] = useState(sandboxCards[0]?.id ?? '');
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -32,7 +35,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ total, onCancel }) => {
                 return;
             }
 
-            await services.cart.placeOrder(address);
+            await services.cart.placeOrder(address, sandboxCardId);
             // After successful placeOrder, the view transitions automatically
             // but we can call onSuccess if needed for local state.
         } catch (error) {
@@ -85,6 +88,23 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ total, onCancel }) => {
                         <span className="text-xs font-bold uppercase tracking-wider">PayPal</span>
                     </div>
                 </div>
+                <label className="form-control w-full">
+                    <span className="label-text mb-2 text-xs font-black uppercase tracking-widest text-base-content/45">
+                        Tarjeta sandbox
+                    </span>
+                    <select
+                        className="select select-bordered w-full bg-base-100 font-mono text-xs"
+                        value={sandboxCardId}
+                        onChange={(event) => setSandboxCardId(event.target.value)}
+                        disabled={isProcessing}
+                    >
+                        {sandboxCards.map(card => (
+                            <option key={card.id} value={card.id}>
+                                {card.label} - {card.displayNumber}
+                            </option>
+                        ))}
+                    </select>
+                </label>
             </div>
 
             <div className="flex flex-col gap-3 pt-4">

@@ -80,6 +80,8 @@ interface AppContextType {
    placeOrder: typeof services.cart.placeOrder;
    cancelOrder: (id: string) => Promise<void>;
    requestReturn: (id: string) => Promise<void>;
+   confirmDelivery: (id: string) => Promise<void>;
+   refundReturn: (id: string) => Promise<void>;
    updateOrderStatus: typeof services.cart.updateOrderStatus;
 
    // UI Feedback
@@ -218,7 +220,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       removeFromCart: services.cart.removeFromCart,
       placeOrder: services.cart.placeOrder,
       cancelOrder: async (orderId: string) => { await services.cart.updateOrderStatus(orderId, 'Cancelled'); },
-      requestReturn: async (orderId: string) => { await services.cart.updateOrderStatus(orderId, 'Return Requested'); },
+      requestReturn: async (orderId: string) => { await services.orderLifecycle.requestReturnById(orderId); },
+      confirmDelivery: async (orderId: string) => { await services.orderLifecycle.confirmDeliveryById(orderId); },
+      refundReturn: async (orderId: string) => { await services.orderLifecycle.refundReturnById(orderId); },
       updateOrderStatus: services.cart.updateOrderStatus,
 
       // UI

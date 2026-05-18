@@ -305,6 +305,9 @@ const createOrder = async ({ user, products, status, daysAgo, trackingNumber, wh
     total,
     total_cost: totalCost,
     status,
+    payment_intent_id: `pi_demo_${daysAgo}`,
+    payment_provider: 'stripe',
+    refund_status: 'Not Requested',
     subshopping_status: status === 'Delivered' ? 'Completed' : 'Tracking',
     purchase_orders: purchaseOrders,
     fulfillment_timeline: [

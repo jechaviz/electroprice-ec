@@ -9,7 +9,7 @@ import { services } from '../services/ServiceContainer';
 import SubshoppingWorkflowPanel from '../components/subshopping/SubshoppingWorkflowPanel';
 
 const OrderDetailPage: React.FC = () => {
-  const { orderId, orders, loading, setView, cancelOrder, requestReturn } = useContext(AppContext);
+  const { orderId, orders, loading, setView, cancelOrder, requestReturn, confirmDelivery, refundReturn } = useContext(AppContext);
   const { t } = useTranslation();
   const { formatPrice } = useCurrency();
   const { id: routeOrderId } = useParams<{ id: string }>();
@@ -47,7 +47,9 @@ const OrderDetailPage: React.FC = () => {
   }
 
   const canCancel = order.status === 'Processing' || order.status === 'Awaiting Shipment from Wholesaler';
+  const canConfirmDelivery = order.status === 'Shipped to Hub' || order.status === 'Shipped to You' || order.subshoppingStatus === 'Tracking';
   const canReturn = order.status === 'Delivered';
+  const canRefund = order.status === 'Return Requested';
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -150,8 +152,10 @@ const OrderDetailPage: React.FC = () => {
               <h3 className="text-xs font-black uppercase tracking-widest text-base-content/40 mb-4">{t('order.actions')}</h3>
               <div className="flex flex-wrap gap-3">
                 {canCancel && <button onClick={() => cancelOrder(order.id)} className="btn btn-warning btn-md rounded-xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-warning/20 flex-1">{t('order.cancel')}</button>}
+                {canConfirmDelivery && <button onClick={() => confirmDelivery(order.id)} className="btn btn-success btn-md rounded-xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-success/20 flex-1">Confirmar entrega</button>}
                 {canReturn && <button onClick={() => requestReturn(order.id)} className="btn btn-secondary btn-md rounded-xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-secondary/20 flex-1">{t('order.return')}</button>}
-                {!canCancel && !canReturn && (
+                {canRefund && <button onClick={() => refundReturn(order.id)} className="btn btn-error btn-md rounded-xl font-black uppercase tracking-widest text-[10px] shadow-lg shadow-error/20 flex-1">Reembolsar</button>}
+                {!canCancel && !canConfirmDelivery && !canReturn && !canRefund && (
                     <div className="flex items-center gap-2 text-xs font-bold text-base-content/40 bg-base-200 px-4 py-3 rounded-xl w-full italic">
                         <i className="fa-solid fa-info-circle"></i>
                         No actions available at this stage.

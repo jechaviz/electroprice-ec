@@ -1,10 +1,13 @@
 import { NotificationService } from "./NotificationService";
+import type { RetailPaymentProvider, SandboxPaymentCard } from "../types";
 
 export interface PaymentIntent {
     id: string;
     clientSecret: string;
     amount: number;
     status: 'pending' | 'succeeded' | 'failed';
+    provider: RetailPaymentProvider;
+    sandboxCardId: string;
 }
 
 export interface WholesalePaymentResult {
@@ -16,47 +19,87 @@ export interface WholesalePaymentResult {
     paidAt?: string;
 }
 
+export interface RefundResult {
+    id: string;
+    orderId: string;
+    amount: number;
+    status: 'refunded' | 'failed';
+    refundedAt?: string;
+}
+
+export const SANDBOX_PAYMENT_CARDS: SandboxPaymentCard[] = [
+    {
+        id: 'stripe_visa_success_mx',
+        provider: 'stripe',
+        label: 'Stripe MX ok',
+        displayNumber: '4000 0048 4000 8001',
+        scenario: 'success',
+    },
+    {
+        id: 'paypal_3ds_success_mx',
+        provider: 'paypal',
+        label: 'PayPal MX ok',
+        displayNumber: '4779 1310 1069 6190',
+        scenario: 'success',
+    },
+    {
+        id: 'stripe_insufficient_funds',
+        provider: 'stripe',
+        label: 'Stripe rechazo',
+        displayNumber: '4000 0000 0000 9995',
+        scenario: 'decline',
+    },
+];
+
+const normalizeCardNumber = (cardNumber: string) => cardNumber.replace(/\D/g, '');
+const simulateDelay = (ms: number) =>
+    new Promise(resolve => setTimeout(resolve, import.meta.env.MODE === 'test' ? 0 : ms));
+
 export class PaymentService {
-    /**
-     * OWASP: Secure payment processing.
-     * Always use hosted payment pages or tokenization (PCI-DSS).
-     */
-    static async createPaymentIntent(amount: number): Promise<PaymentIntent | null> {
-        try {
-            // In a real app, this would be a call to your backend
-            // which then calls Stripe/PayPal
-            console.log(`[PaymentService] Creating payment intent for ${amount}`);
-            
-            // Simulating network delay
-            await new Promise(resolve => setTimeout(resolve, 1000));
-            
-            return {
-                id: `pi_${Math.random().toString(36).substring(7)}`,
-                clientSecret: `sec_${Math.random().toString(36).substring(7)}`,
-                amount,
-                status: 'pending'
-            };
-        } catch (error) {
-            console.error("Payment intent creation failed:", error);
-            NotificationService.error("Payment initialization failed. Please try again.");
-            return null;
-        }
+    static getSandboxCards(): SandboxPaymentCard[] {
+        return SANDBOX_PAYMENT_CARDS;
     }
 
-    static async confirmPayment(intentId: string): Promise<boolean> {
-        try {
-            console.log(`[PaymentService] Confirming payment ${intentId}`);
-            await new Promise(resolve => setTimeout(resolve, 1500));
-            
-            // Simulating 95% success rate
-            const success = Math.random() > 0.05;
-            if (!success) throw new Error("Card declined");
-            
-            return true;
-        } catch (error: any) {
-            NotificationService.error(error.message || "Payment confirmation failed.");
-            return false;
+    static resolveSandboxCard(cardIdOrNumber?: string): SandboxPaymentCard {
+        if (!cardIdOrNumber) return SANDBOX_PAYMENT_CARDS[0];
+        const normalized = normalizeCardNumber(cardIdOrNumber);
+        return SANDBOX_PAYMENT_CARDS.find(card =>
+            card.id === cardIdOrNumber || normalizeCardNumber(card.displayNumber) === normalized
+        ) ?? SANDBOX_PAYMENT_CARDS[0];
+    }
+
+    static async processRetailPayment(amount: number, sandboxCardId?: string): Promise<PaymentIntent> {
+        const card = this.resolveSandboxCard(sandboxCardId);
+        await simulateDelay(1500);
+
+        if (card.scenario === 'decline') {
+            NotificationService.error("Card declined");
+            throw new Error("Payment was not successful.");
         }
+
+        return {
+            id: `pi_${Math.random().toString(36).substring(7)}`,
+            clientSecret: `sec_${Math.random().toString(36).substring(7)}`,
+            amount,
+            status: 'succeeded',
+            provider: card.provider,
+            sandboxCardId: card.id,
+        };
+    }
+
+    static async refundRetailPayment(input: {
+        orderId: string;
+        amount: number;
+        paymentIntentId?: string;
+    }): Promise<RefundResult> {
+        await simulateDelay(350);
+        return {
+            id: `rf_${input.orderId}_${Math.random().toString(36).slice(2, 7)}`,
+            orderId: input.orderId,
+            amount: input.amount,
+            status: 'refunded',
+            refundedAt: new Date().toISOString(),
+        };
     }
 
     static async payWholesalerPurchaseOrder(input: {
@@ -65,7 +108,7 @@ export class PaymentService {
         amount: number;
         runtime: 'vhub' | 'vimport' | 'manual';
     }): Promise<WholesalePaymentResult> {
-        await new Promise(resolve => setTimeout(resolve, 350));
+        await simulateDelay(350);
 
         if (input.runtime === 'manual') {
             return {

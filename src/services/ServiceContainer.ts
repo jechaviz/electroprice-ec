@@ -21,6 +21,7 @@ import { DemoService } from "./DemoService";
 import { ConfigService } from "./ConfigService";
 import { ProviderRuntimeService } from "./ProviderRuntimeService";
 import { SubshoppingService } from "./SubshoppingService";
+import { OrderLifecycleService } from "./OrderLifecycleService";
 
 export class ServiceContainer {
     // Domain Services
@@ -49,6 +50,7 @@ export class ServiceContainer {
     config = new ConfigService();
     providerRuntime = new ProviderRuntimeService();
     subshopping = new SubshoppingService();
+    orderLifecycle = new OrderLifecycleService();
 }
 
 export const services = new ServiceContainer();
