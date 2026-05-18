@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+RewriteEngine On
+
+RewriteRule ^healthz$ health.html [L]
+RewriteRule ^pb/(.*)$ http://127.0.0.1:18191/$1 [P,L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
