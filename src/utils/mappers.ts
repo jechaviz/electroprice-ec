@@ -12,6 +12,20 @@ export const mapProductRecord = (product: any): Product => ({
    smartTag: product.smart_tag,
    oldPrice: product.old_price,
    specs: product.specs || {},
+   canonicalKey: product.canonical_key,
+   modelNumber: product.model_number,
+   manufacturerUrl: product.manufacturer_url,
+   gallery: product.gallery || [],
+   documents: product.documents || [],
+   softwareLinks: product.software_links || [],
+   canonicalIds: product.canonical_ids || {},
+   providerAliases: product.provider_aliases || [],
+   missingPieces: product.missing_pieces || [],
+   contentScore: product.content_score || product.feature_score || 0,
+   identityConfidence: product.identity_confidence || 0,
+   enrichmentStatus: product.enrichment_status || 'raw',
+   lastEnrichedAt: product.last_enriched_at,
+   businessNotes: product.business_notes || '',
    reviews: []
 });
 

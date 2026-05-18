@@ -37,6 +37,21 @@ export interface ProductOption {
   values: string[];
 }
 
+export type EnrichmentStatus = 'raw' | 'needs_enrichment' | 'enriched' | 'verified';
+
+export interface ProductContentLink {
+  label: string;
+  url: string;
+  type: 'manufacturer' | 'datasheet' | 'manual' | 'driver' | 'support' | 'software' | 'image' | 'review' | 'other';
+}
+
+export interface ProductProviderAlias {
+  providerId: string;
+  sku?: string;
+  name?: string;
+  confidence: number;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -56,6 +71,20 @@ export interface Product {
   options?: ProductOption[];
   priceHistory: PriceHistory[];
   featureScore: number; // New: Quantitative score for specs
+  canonicalKey?: string;
+  modelNumber?: string;
+  manufacturerUrl?: string;
+  gallery?: string[];
+  documents?: ProductContentLink[];
+  softwareLinks?: ProductContentLink[];
+  canonicalIds?: Record<string, string>;
+  providerAliases?: ProductProviderAlias[];
+  missingPieces?: string[];
+  contentScore?: number;
+  identityConfidence?: number;
+  enrichmentStatus?: EnrichmentStatus;
+  lastEnrichedAt?: string;
+  businessNotes?: string;
 }
 
 export interface Category {

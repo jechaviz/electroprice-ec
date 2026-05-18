@@ -11,8 +11,9 @@ import { services } from '../services/ServiceContainer';
 import { conversionRateSignal } from '../signals/analytics.signals';
 import { totalOnlineUsersSignal } from '../signals/inventory.signals';
 import { SubshoppingTab } from '../components/admin/tabs/SubshoppingTab';
+import { ProductIntelTab } from '../components/admin/tabs/ProductIntelTab';
 
-type AdminTab = 'overview' | 'analytics' | 'orders' | 'subshopping' | 'users' | 'reviews' | 'suppliers' | 'wholesalers';
+type AdminTab = 'overview' | 'analytics' | 'orders' | 'subshopping' | 'productIntel' | 'users' | 'reviews' | 'suppliers' | 'wholesalers';
 
 const ORDER_STATUSES: OrderStatus[] = [
   'Processing', 'Awaiting Shipment from Wholesaler', 'Shipped to Hub', 'Shipped to You', 'Delivered', 'Cancelled', 'Return Requested', 'Returned',
@@ -24,7 +25,7 @@ const OPEN_ORDER_STATUSES: OrderStatus[] = [
 
 const tabItems: { id: AdminTab; icon: string }[] = [
   { id: 'overview', icon: 'fa-chart-line' }, { id: 'analytics', icon: 'fa-filter-circle-dollar' }, { id: 'orders', icon: 'fa-receipt' }, 
-  { id: 'subshopping', icon: 'fa-network-wired' }, { id: 'users', icon: 'fa-users' }, { id: 'reviews', icon: 'fa-star-half-stroke' },
+  { id: 'subshopping', icon: 'fa-network-wired' }, { id: 'productIntel', icon: 'fa-puzzle-piece' }, { id: 'users', icon: 'fa-users' }, { id: 'reviews', icon: 'fa-star-half-stroke' },
   { id: 'suppliers', icon: 'fa-boxes-packing' }, { id: 'wholesalers', icon: 'fa-truck-fast' },
 ];
 
@@ -129,6 +130,10 @@ const AdminDashboard: React.FC = () => {
 
           {activeTab === 'subshopping' && (
             <SubshoppingTab orders={orders} formatPrice={formatPrice} />
+          )}
+
+          {activeTab === 'productIntel' && (
+            <ProductIntelTab products={products} wholesalers={wholesalers} formatPrice={formatPrice} />
           )}
 
           {activeTab === 'users' && (

@@ -12,6 +12,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - Smart filters for products
 - Cart and checkout functionality
 - Subshopping orchestration: retail checkout to downstream wholesale purchase orders
+- Missing Pieces enrichment: canonical product identity, technical sheets, media, sources, and admin notes
 - Admin and retailer dashboards
 - Responsive design with Tailwind CSS and DaisyUI
 
@@ -68,7 +69,9 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `npm run lint` - Run ESLint
 - `npm run test` - Start Vitest in interactive/watch mode
 - `npm run test:run` - Run tests once
+- `npm run pb:seed-missing-pieces` - Seed canonical product-content profiles without price or stock
 - `npm run audit:providers` - Validate provider config inventory and secret hygiene
+- `npm run audit:missing-pieces` - Validate canonical product content excludes live price, stock, and availability
 - `npm run audit:subshopping` - Audit full subshopping lifecycle readiness and no-submit provider gates
 - `npm run audit:project` - Validate tracked project inventory, file-size limits, and architectural abstractions
 - `npm run audit:build` - Validate production `dist/` bundle budgets and hashed assets after a build
@@ -92,6 +95,7 @@ A modern e-commerce price comparison platform for electronics, built with React,
 - `docs/PROVIDER_CYCLE_MATRIX.md` - Provider-by-provider full-cycle/gated coverage for the ElectroPrice PoC
 - `docs/SUBSHOPPING_FULL_LIFE_CYCLE_AUDIT.md` - Sanitized provider lifecycle audit using local `.env` readiness and no-submit gates
 - `docs/SUBSHOPPING_TRANSACTION_DRYRUN.md` - Credentialed provider dry-run model for cart, quote, shipping, and payment review
+- `docs/MISSING_PIECES_PRODUCT.md` - Product-content enrichment model for canonical comparison and admin product intelligence
 
 ## Subshopping Product
 
