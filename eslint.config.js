@@ -16,7 +16,7 @@ const vitestGlobals = {
 
 export default tseslint.config(
   {
-    ignores: ['dist', 'node_modules', 'pb', '*.tsbuildinfo'],
+    ignores: ['dist', 'node_modules', 'out', 'pb', '*.tsbuildinfo'],
   },
   {
     files: ['**/*.{js,mjs,cjs}'],

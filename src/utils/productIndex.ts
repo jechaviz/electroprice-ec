@@ -45,6 +45,7 @@ type ProductRecordLike = Partial<Product> & {
 };
 
 const RECENT_DEAL_DAYS = 30;
+const MAX_SEARCH_TEXT_LENGTH = 4800;
 const OUT_OF_STOCK_SEARCH_INTENT = /\b(agotad[oa]s?|sin\s+(stock|existencias?)|no\s+disponibles?|out\s+of\s+stock|sold\s+out|unavailable)\b/gi;
 const SPEC_KEY_ALIASES: Record<string, string[]> = {
   ram: ['memory', 'memoria'],
@@ -62,6 +63,11 @@ export const normalizeCatalogText = (value: string): string => (
     .trim()
     .replace(/\s+/g, ' ')
 );
+
+const limitCatalogSearchText = (value: string): string => {
+  if (value.length <= MAX_SEARCH_TEXT_LENGTH) return value;
+  return value.slice(0, MAX_SEARCH_TEXT_LENGTH).replace(/\s+\S*$/, '').trim();
+};
 
 export const searchTermRequestsOutOfStock = (value: string): boolean => {
   OUT_OF_STOCK_SEARCH_INTENT.lastIndex = 0;
@@ -175,7 +181,7 @@ export const deriveProductIndex = (product: ProductRecordLike): ProductIndexFiel
   const canonicalIds = product.canonicalIds ?? product.canonical_ids;
   const providerAliases = product.providerAliases ?? product.provider_aliases;
 
-  const searchText = normalizeCatalogText([
+  const searchText = limitCatalogSearchText(normalizeCatalogText([
     product.name,
     product.brand,
     product.category,
@@ -187,7 +193,7 @@ export const deriveProductIndex = (product: ProductRecordLike): ProductIndexFiel
     ...flattenSearchValues(product.specs),
     ...flattenSearchValues(canonicalIds),
     ...flattenSearchValues(providerAliases),
-  ].filter(Boolean).join(' '));
+  ].filter(Boolean).join(' ')));
 
   const indexedProduct = {
     ...product,

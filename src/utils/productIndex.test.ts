@@ -53,6 +53,16 @@ describe('productIndex', () => {
     expect(index.searchText).toContain('ilce 7m4');
   });
 
+  it('keeps search text below the PocketBase text field cap', () => {
+    const index = deriveProductIndex({
+      ...baseProduct,
+      description: 'router '.repeat(1200),
+      specs: { Notes: 'switch '.repeat(1200) },
+    });
+
+    expect(index.searchText.length).toBeLessThanOrEqual(4800);
+  });
+
   it('filters against displayed currency price and smart filters without retaining unrelated rows', () => {
     expect(productMatchesCatalogFilters(baseProduct, {
       priceRange: [900, 1000],

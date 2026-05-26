@@ -1,3 +1,5 @@
+const MAX_SEARCH_TEXT_LENGTH = 4800;
+
 export const normalizeCatalogText = (value = '') => String(value)
   .toLowerCase()
   .normalize('NFD')
@@ -5,6 +7,11 @@ export const normalizeCatalogText = (value = '') => String(value)
   .replace(/[^a-z0-9]+/g, ' ')
   .trim()
   .replace(/\s+/g, ' ');
+
+export const limitCatalogSearchText = (value) => {
+  if (value.length <= MAX_SEARCH_TEXT_LENGTH) return value;
+  return value.slice(0, MAX_SEARCH_TEXT_LENGTH).replace(/\s+\S*$/, '').trim();
+};
 
 export const toArray = (value) => {
   if (Array.isArray(value)) return value;
@@ -45,7 +52,7 @@ export const getIndexPayload = (product) => {
     .map((item) => Number(item.price))
     .filter((price) => Number.isFinite(price) && price > 0);
   const isRecentDrop = bestPrice && recentPrices.length > 1 ? bestPrice < Math.max(...recentPrices) * 0.9 : false;
-  const searchText = normalizeCatalogText([
+  const searchText = limitCatalogSearchText(normalizeCatalogText([
     product.name,
     product.brand,
     product.category,
@@ -57,7 +64,7 @@ export const getIndexPayload = (product) => {
     ...fieldValues(product.specs),
     ...fieldValues(product.canonical_ids),
     ...fieldValues(product.provider_aliases),
-  ].filter(Boolean).join(' '));
+  ].filter(Boolean).join(' ')));
 
   return {
     search_text: searchText,
