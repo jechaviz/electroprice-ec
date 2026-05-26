@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-26T20:06:32.497Z",
-  "fileCount": 243,
-  "fileNameHash": "6b7b14c165cfb1cc3e5dc5d7bc23a685aa335ac6e3c27af07a9e7654e331dc62",
+  "generatedAt": "2026-05-26T20:12:08.951Z",
+  "fileCount": 244,
+  "fileNameHash": "e632befb44251ca93e14da1ddf1d25bdb566a69d06cfbe399c4a237a752f12b6",
   "files": [
     ".env.example",
     ".gitignore",
@@ -71,6 +71,7 @@
     "pb/pb_migrations/1779120005_sql_reindex_product_catalog_fields.js",
     "pb/pb_migrations/1779120006_added_ai_enrichment_pipeline.js",
     "pb/pb_migrations/1779120007_sql_reindex_product_catalog_fields_v2.js",
+    "pb/pb_migrations/1779120008_sql_normalize_product_search_text.js",
     "pb/scripts/pb_demo_reset.mjs",
     "pb/scripts/pb_enrich_products_ai.mjs",
     "pb/scripts/pb_refresh_provider_offers.mjs",
