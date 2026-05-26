@@ -35,8 +35,10 @@ const parseArgs = () => {
 const args = parseArgs();
 const PAGE_SIZE = Number(args.pageSize || process.env.PB_REINDEX_PAGE_SIZE || 100);
 const START_PAGE = Math.max(1, Number(args.startPage || 1));
+const UPDATE_DELAY_MS = Number(args.delayMs || process.env.PB_REINDEX_UPDATE_DELAY_MS || 0);
+const PAGE_DELAY_MS = Number(args.pageDelayMs || process.env.PB_REINDEX_PAGE_DELAY_MS || 0);
 const TRANSIENT_STATUSES = new Set([0, 408, 429, 500, 502, 503, 504]);
-const RETRY_DELAYS_MS = [750, 1500, 3000, 6000, 10000];
+const RETRY_DELAYS_MS = [1000, 2000, 5000, 10000, 20000, 30000, 45000, 60000];
 
 const pb = new PocketBase(config.url);
 pb.autoCancellation(false);
@@ -50,25 +52,39 @@ const isTransientError = (error) => {
   return TRANSIENT_STATUSES.has(status);
 };
 
-const updateProductWithRetry = async (product) => {
-  const payload = getIndexPayload(product);
+const withRetry = async (label, action) => {
   let lastError;
 
   for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt += 1) {
     try {
-      await pb.collection('products').update(product.id, payload);
-      return;
+      return await action();
     } catch (error) {
       lastError = error;
       if (!isTransientError(error) || attempt === RETRY_DELAYS_MS.length) break;
 
       const delay = RETRY_DELAYS_MS[attempt];
-      console.warn(`[product-reindex] retry product=${product.id} attempt=${attempt + 1} delay=${delay}`);
+      console.warn(`[product-reindex] retry ${label} attempt=${attempt + 1} delay=${delay}`);
       await wait(delay);
     }
   }
 
   throw lastError;
+};
+
+const updateProductWithRetry = async (product) => {
+  const payload = getIndexPayload(product);
+  await withRetry(`product=${product.id}`, () => pb.collection('products').update(product.id, payload));
+};
+
+const getProductPageWithRetry = async (page) => withRetry(`page=${page}`, () => (
+  pb.collection('products').getList(page, PAGE_SIZE, {
+    sort: 'id',
+    skipTotal: true,
+  })
+));
+
+const maybePause = async (ms) => {
+  if (ms > 0) await wait(ms);
 };
 
 const main = async () => {
@@ -78,21 +94,20 @@ const main = async () => {
   let page = START_PAGE;
   let updated = 0;
   while (true) {
-    const result = await pb.collection('products').getList(page, PAGE_SIZE, {
-      sort: 'id',
-      skipTotal: true,
-    });
+    const result = await getProductPageWithRetry(page);
 
     if (result.items.length === 0) break;
 
     for (const product of result.items) {
       await updateProductWithRetry(product);
       updated += 1;
+      await maybePause(UPDATE_DELAY_MS);
     }
 
     console.log(`[product-reindex] page=${page} updated=${updated}`);
     if (result.items.length < PAGE_SIZE) break;
     page += 1;
+    await maybePause(PAGE_DELAY_MS);
   }
 
   console.log(`[product-reindex] complete updated=${updated}`);
