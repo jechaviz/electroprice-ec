@@ -47,11 +47,29 @@ export const calculateOrderAmounts = (subtotal: number, config = getPricingConfi
 import type { Product } from '../types';
 
 export const getLowestWholesalerPrice = (product: Product): number | null => {
-  if (!product.wholesalerStock || product.wholesalerStock.length === 0) {
+  const stock = product.wholesalerStock || [];
+  const availablePrices = stock
+    .filter((item) => item.stock > 0)
+    .map((item) => item.price)
+    .filter((price) => price > 0);
+
+  if (availablePrices.length > 0) {
+    return Math.min(...availablePrices);
+  }
+
+  if (stock.length === 0 && typeof product.bestPrice === 'number' && product.bestPrice > 0) {
+    return product.bestPrice;
+  }
+
+  const totalStock = typeof product.totalStock === 'number'
+    ? product.totalStock
+    : stock.reduce((sum, item) => sum + Math.max(0, item.stock), 0);
+  if (totalStock > 0) {
     return null;
   }
-  const prices = product.wholesalerStock.map(s => s.price).filter(p => p > 0);
-  return prices.length > 0 ? Math.min(...prices) : null;
+
+  const fallbackPrices = stock.map((item) => item.price).filter((price) => price > 0);
+  return fallbackPrices.length > 0 ? Math.min(...fallbackPrices) : null;
 };
 
 export const getProductDisplayPrice = (product: Product): number | null => {

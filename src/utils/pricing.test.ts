@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { calculateOrderAmounts } from './pricing';
+import { calculateOrderAmounts, getLowestWholesalerPrice } from './pricing';
+import type { Product } from '../types';
 
 const pricingConfig = {
   taxRate: 0.16,
@@ -34,5 +35,34 @@ describe('calculateOrderAmounts', () => {
       shipping: 0,
       total: 0,
     });
+  });
+});
+
+describe('getLowestWholesalerPrice', () => {
+  const product: Product = {
+    id: 'stock-aware',
+    name: 'Stock-aware product',
+    brand: 'ElectroPrice',
+    category: 'components',
+    imageUrl: '',
+    description: '',
+    specs: {},
+    avgRating: 0,
+    reviewCount: 0,
+    wholesalerStock: [
+      { wholesalerId: 'sold-out-cheap', price: 100, stock: 0 },
+      { wholesalerId: 'available', price: 180, stock: 2 },
+    ],
+    reviews: [],
+    priceHistory: [],
+    featureScore: 0,
+  };
+
+  it('prefers the lowest price that can actually be bought', () => {
+    expect(getLowestWholesalerPrice(product)).toBe(180);
+  });
+
+  it('falls back to indexed best price for compact catalog rows', () => {
+    expect(getLowestWholesalerPrice({ ...product, wholesalerStock: [], bestPrice: 150, totalStock: 4 })).toBe(150);
   });
 });

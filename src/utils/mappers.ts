@@ -1,17 +1,23 @@
 import type { User, Product, Review, Order, Wholesaler } from '../types';
 
 export const mapProductRecord = (product: any): Product => ({
-   ...product,
+   id: product.id,
+   name: product.name || '',
+   brand: product.brand || '',
+   category: product.category || '',
+   imageUrl: product.image_url || '',
+   description: product.description || '',
+   specs: product.specs || {},
    wholesalerStock: product.wholesaler_stock || [],
    priceHistory: product.price_history || [],
    reviewCount: product.review_count || 0,
    featureScore: product.feature_score || 0,
    avgRating: product.avg_rating || 0,
-   imageUrl: product.image_url,
    dealTag: product.deal_tag,
    smartTag: product.smart_tag,
    oldPrice: product.old_price,
-   specs: product.specs || {},
+   watching: product.watching || 0,
+   options: product.options || [],
    canonicalKey: product.canonical_key,
    modelNumber: product.model_number,
    manufacturerUrl: product.manufacturer_url,
@@ -26,6 +32,11 @@ export const mapProductRecord = (product: any): Product => ({
    enrichmentStatus: product.enrichment_status || 'raw',
    lastEnrichedAt: product.last_enriched_at,
    businessNotes: product.business_notes || '',
+   searchText: product.search_text || '',
+   bestPrice: typeof product.best_price === 'number' ? product.best_price : null,
+   totalStock: typeof product.total_stock === 'number' ? product.total_stock : undefined,
+   isDeal: Boolean(product.is_deal),
+   indexedAt: product.indexed_at,
    reviews: []
 });
 

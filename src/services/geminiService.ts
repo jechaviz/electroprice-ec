@@ -1,14 +1,12 @@
-
-import { GoogleGenAI } from "@google/genai";
+import { createGeminiTextClient } from "../lib/geminiClient";
 import type { Product } from '../types';
 
 export const generateProductSummary = async (product: Product): Promise<string> => {
    const apiKey = import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_API_KEY;
-   if (!apiKey) {
+   const ai = createGeminiTextClient(apiKey);
+   if (!ai) {
       return "AI summary is currently unavailable.";
    }
-
-   const ai = new GoogleGenAI({ apiKey });
 
    const reviewsText = product.reviews.map(r => `- ${r.comment} (${r.rating}/5 stars)`).join('\n');
 
@@ -28,11 +26,7 @@ export const generateProductSummary = async (product: Product): Promise<string> 
   `;
 
    try {
-      const response = await ai.models.generateContent({
-         model: 'gemini-2.0-flash',
-         contents: prompt,
-      });
-      return response.text || "Could not generate AI summary at this time.";
+      return await ai.generateText(prompt) || "Could not generate AI summary at this time.";
    } catch (error) {
       console.error("Error generating summary with Gemini:", error);
       return "Could not generate AI summary at this time.";

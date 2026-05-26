@@ -2,21 +2,69 @@ import {
     productsSignal, reviewsSignal, wholesalersSignal, usersSignal, ordersSignal, 
     isCatalogLoadingSignal, isAccountDataLoadingSignal, dataErrorSignal 
 } from "../signals/data.signals";
+import { currentUserSignal } from "../signals/auth.signals";
 import { loadPocketBase } from "../utils/pocketBaseClient";
 import { 
     mapProductRecord, mapReviewRecord, mapWholesalerRecord, mapUserRecord, mapOrderRecord 
 } from "../utils/mappers";
 import { NotificationService } from "./NotificationService";
+import { ProductCatalogService } from "./ProductCatalogService";
+
+const ADMIN_PRODUCT_INTEL_LIMIT = 120;
+const ADMIN_PRODUCT_INTEL_FIELDS = [
+    'id',
+    'name',
+    'brand',
+    'category',
+    'image_url',
+    'specs',
+    'wholesaler_stock',
+    'feature_score',
+    'canonical_key',
+    'model_number',
+    'manufacturer_url',
+    'gallery',
+    'documents',
+    'software_links',
+    'canonical_ids',
+    'provider_aliases',
+    'missing_pieces',
+    'content_score',
+    'identity_confidence',
+    'enrichment_status',
+    'business_notes',
+    'best_price',
+    'total_stock',
+    'is_deal',
+].join(',');
 
 export class DataService {
+    private static async hydrateCurrentUserProductReferences() {
+        const user = currentUserSignal.value;
+        if (!user || user.role !== 'user') return;
+
+        const productIds = new Set([
+            ...user.cart.map((item) => item.productId),
+            ...user.favorites,
+        ]);
+        const missingProductIds = [...productIds].filter((productId) => (
+            !productsSignal.value.some((product) => product.id === productId)
+        ));
+
+        if (missingProductIds.length === 0) return;
+
+        await Promise.allSettled(
+            missingProductIds.map((productId) => ProductCatalogService.fetchProductDetail(productId))
+        );
+    }
+
     static async fetchPublicData() {
         isCatalogLoadingSignal.value = true;
         dataErrorSignal.value = null;
         try {
             const pb = await loadPocketBase();
-            const [productsResult, reviewsResult, wholesalersResult] = await Promise.allSettled([
-                pb.collection('products').getFullList(),
-                pb.collection('reviews').getFullList(),
+            const [productsResult, wholesalersResult] = await Promise.allSettled([
+                ProductCatalogService.fetchPublicPreview(),
                 pb.collection('wholesalers').getFullList()
             ]);
 
@@ -25,23 +73,10 @@ export class DataService {
             }
 
             const productsData = productsResult.value;
-            const reviewsData = reviewsResult.status === 'fulfilled' ? reviewsResult.value : null;
             const wholesalersData = wholesalersResult.status === 'fulfilled' ? wholesalersResult.value : null;
 
             if (productsData) {
-                productsSignal.value = (productsData as any).map(mapProductRecord);
-            }
-
-            if (reviewsData) {
-                reviewsSignal.value = (reviewsData as any).map(mapReviewRecord);
-                
-                // Link reviews to products
-                if (productsSignal.value.length > 0) {
-                    productsSignal.value = productsSignal.value.map(p => ({
-                        ...p,
-                        reviews: (reviewsSignal.value as any[]).filter(r => r.productId === p.id)
-                    }));
-                }
+                ProductCatalogService.mergeProductsIntoCache(productsData);
             }
 
             if (wholesalersData) {
@@ -69,24 +104,42 @@ export class DataService {
             const pb = await loadPocketBase();
 
             if (role === 'admin') {
-                const [allUsersData, ordersData] = await Promise.all([
+                const [allUsersData, ordersData, reviewsData, productsData] = await Promise.all([
                     pb.collection('users').getFullList().catch(() => null),
-                    pb.collection('orders').getFullList().catch(() => null)
+                    pb.collection('orders').getFullList().catch(() => null),
+                    pb.collection('reviews').getFullList().catch(() => null),
+                    pb.collection('products').getList(1, ADMIN_PRODUCT_INTEL_LIMIT, {
+                        sort: 'content_score,total_stock,id',
+                        fields: ADMIN_PRODUCT_INTEL_FIELDS,
+                        skipTotal: true,
+                    }).catch(() => null)
                 ]);
 
                 usersSignal.value = allUsersData ? (allUsersData as any).map(mapUserRecord) : [];
                 ordersSignal.value = ordersData ? (ordersData as any).map(mapOrderRecord) : [];
+                reviewsSignal.value = reviewsData ? (reviewsData as any).map(mapReviewRecord) : [];
+                if (productsData) {
+                    ProductCatalogService.mergeProductsIntoCache(((productsData as any).items || []).map(mapProductRecord));
+                }
                 return;
             }
 
             if (role === 'user') {
-                const userOrdersData = await pb.collection('orders').getFullList({
-                    filter: `user_id = "${userId}"`,
-                    sort: '-date'
-                }).catch(() => null);
+                const [userOrdersData, userReviewsData] = await Promise.all([
+                    pb.collection('orders').getFullList({
+                        filter: `user_id = "${userId}"`,
+                        sort: '-date'
+                    }).catch(() => null),
+                    pb.collection('reviews').getFullList({
+                        filter: `author_id = "${userId}"`,
+                        sort: '-date'
+                    }).catch(() => null)
+                ]);
 
                 usersSignal.value = [];
                 ordersSignal.value = userOrdersData ? (userOrdersData as any).map(mapOrderRecord) : [];
+                reviewsSignal.value = userReviewsData ? (userReviewsData as any).map(mapReviewRecord) : [];
+                await DataService.hydrateCurrentUserProductReferences();
                 return;
             }
 

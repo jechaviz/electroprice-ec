@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "p-router-001",
+      "updated": "2026-05-26T10:00:00.000Z",
+      "name": "ROUTER WIFI6 AX3000 SKU RTR-AX3000 NUEVO MAYOREO",
+      "brand": "TP-Link",
+      "category": "redes",
+      "image_url": "",
+      "description": "",
+      "specs": { "wireless": "WiFi 6", "ports": "4 LAN" },
+      "wholesaler_stock": [{ "wholesalerId": "syscom", "price": 1199, "stock": 8 }],
+      "price_history": []
+    },
+    {
+      "id": "p-monitor-001",
+      "updated": "2026-05-26T10:00:00.000Z",
+      "name": "SAMSUNG ODYSSEY G9 49 CURVO 240HZ",
+      "brand": "Samsung",
+      "category": "gaming",
+      "image_url": "https://example.test/odyssey-g9.jpg",
+      "description": "Monitor curvo para gaming.",
+      "specs": { "resolution": "Dual QHD", "refresh_rate": "240Hz" },
+      "wholesaler_stock": [{ "wholesalerId": "cva", "price": 18999, "stock": 4 }],
+      "price_history": []
+    }
+  ]
+}

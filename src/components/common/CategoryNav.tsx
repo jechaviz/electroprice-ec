@@ -7,11 +7,23 @@ import { getCategoryUrl } from '../../utils/slugify';
 const mainCategories = [
   { id: 'black-friday', icon: 'fa-solid fa-star', labelKey: 'categories.black-friday' },
   { id: 'gaming', icon: 'fa-solid fa-gamepad', labelKey: 'categories.gaming' },
-  { id: 'tvs', icon: 'fa-solid fa-tv', labelKey: 'categories.tvs' },
-  { id: 'smartphones', icon: 'fa-solid fa-mobile-screen-button', labelKey: 'categories.smartphones' },
   { id: 'laptops', icon: 'fa-solid fa-laptop', labelKey: 'categories.laptops' },
+  { id: 'desktops', icon: 'fa-solid fa-desktop', labelKey: 'categories.desktops' },
+  { id: 'monitors', icon: 'fa-solid fa-display', labelKey: 'categories.monitors' },
+  { id: 'smartphones', icon: 'fa-solid fa-mobile-screen-button', labelKey: 'categories.smartphones' },
+  { id: 'tablets', icon: 'fa-solid fa-tablet-screen-button', labelKey: 'categories.tablets' },
+  { id: 'tvs', icon: 'fa-solid fa-tv', labelKey: 'categories.tvs' },
   { id: 'headphones', icon: 'fa-solid fa-headphones', labelKey: 'categories.headphones' },
+  { id: 'audio', icon: 'fa-solid fa-volume-high', labelKey: 'categories.audio' },
   { id: 'cameras', icon: 'fa-solid fa-camera-retro', labelKey: 'categories.cameras' },
+  { id: 'networking', icon: 'fa-solid fa-network-wired', labelKey: 'categories.networking' },
+  { id: 'printers_scanners', icon: 'fa-solid fa-print', labelKey: 'categories.printers_scanners' },
+  { id: 'components', icon: 'fa-solid fa-microchip', labelKey: 'categories.components' },
+  { id: 'storage', icon: 'fa-solid fa-hard-drive', labelKey: 'categories.storage' },
+  { id: 'security', icon: 'fa-solid fa-shield-halved', labelKey: 'categories.security' },
+  { id: 'power', icon: 'fa-solid fa-plug-circle-bolt', labelKey: 'categories.power' },
+  { id: 'software', icon: 'fa-solid fa-key', labelKey: 'categories.software' },
+  { id: 'accessories', icon: 'fa-solid fa-keyboard', labelKey: 'categories.accessories' },
 ];
 
 const megaMenuData: Record<string, { subcats: string[]; brands: string[]; promoImage: string; promoTextKey: string }> = {
@@ -20,6 +32,24 @@ const megaMenuData: Record<string, { subcats: string[]; brands: string[]; promoI
     brands: ['Razer', 'Logitech G', 'Nintendo', 'PlayStation', 'Xbox', 'Corsair'],
     promoImage: 'https://images.unsplash.com/photo-1600861194942-f883de0dfe96?auto=format&fit=crop&q=80&w=400',
     promoTextKey: 'categoryNav.promo.gaming',
+  },
+  laptops: {
+    subcats: ['Ultrabooks', 'MacBooks', 'Gaming', 'Para estudiantes', 'Workstations'],
+    brands: ['Apple', 'Dell', 'Lenovo', 'HP', 'Asus', 'Acer'],
+    promoImage: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.laptops',
+  },
+  desktops: {
+    subcats: ['Workstations', 'Mini PC', 'All-in-One', 'PC gamer', 'Torres empresariales'],
+    brands: ['Dell', 'HP', 'Lenovo', 'Apple', 'Asus'],
+    promoImage: 'https://images.unsplash.com/photo-1593640495253-23196b27a87f?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.desktops',
+  },
+  monitors: {
+    subcats: ['4K UHD', 'Ultrawide', 'Curvos', '144Hz+', 'Profesionales color'],
+    brands: ['Samsung', 'LG', 'Dell', 'AOC', 'BenQ', 'Asus'],
+    promoImage: 'https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.monitors',
   },
   tvs: {
     subcats: ['OLED & QLED', '4K UHD', '8K Premium', 'Proyectores', 'Soportes', 'Barras de sonido'],
@@ -33,11 +63,11 @@ const megaMenuData: Record<string, { subcats: string[]; brands: string[]; promoI
     promoImage: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=400',
     promoTextKey: 'categoryNav.promo.smartphones',
   },
-  laptops: {
-    subcats: ['Ultrabooks', 'MacBooks', 'Gaming', 'Para estudiantes', 'Workstations'],
-    brands: ['Apple', 'Dell', 'Lenovo', 'HP', 'Asus', 'Acer'],
-    promoImage: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=400',
-    promoTextKey: 'categoryNav.promo.laptops',
+  tablets: {
+    subcats: ['iPad', 'Android', 'Windows 2 en 1', 'Para dibujo', 'Accesorios tablet'],
+    brands: ['Apple', 'Samsung', 'Lenovo', 'Microsoft', 'Xiaomi'],
+    promoImage: 'https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.tablets',
   },
   headphones: {
     subcats: ['In-Ear', 'Over-Ear', 'Noise Cancelling', 'Deportivos', 'DACs y amplificadores'],
@@ -45,27 +75,82 @@ const megaMenuData: Record<string, { subcats: string[]; brands: string[]; promoI
     promoImage: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=400',
     promoTextKey: 'categoryNav.promo.headphones',
   },
+  audio: {
+    subcats: ['Bocinas', 'Barras de sonido', 'Microfonos', 'DACs', 'Amplificadores'],
+    brands: ['Sonos', 'JBL', 'Bose', 'Sennheiser', 'Audio-Technica'],
+    promoImage: 'https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.audio',
+  },
   cameras: {
     subcats: ['Mirrorless', 'DSLR', 'Deportivas', 'Drones', 'Lentes', 'Iluminacion'],
     brands: ['Sony', 'Canon', 'Nikon', 'GoPro', 'DJI'],
     promoImage: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=400',
     promoTextKey: 'categoryNav.promo.cameras',
   },
+  networking: {
+    subcats: ['Routers Wi-Fi 6', 'Switches PoE', 'Access points', 'Firewalls', 'Mesh'],
+    brands: ['Ubiquiti', 'TP-Link', 'MikroTik', 'Cisco', 'Netgear'],
+    promoImage: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.networking',
+  },
+  printers_scanners: {
+    subcats: ['Laser', 'Inkjet', 'Multifuncional', 'Escaneres', 'Consumibles'],
+    brands: ['HP', 'Canon', 'Epson', 'Brother', 'Xerox'],
+    promoImage: 'https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.printers_scanners',
+  },
+  components: {
+    subcats: ['CPU', 'GPU', 'Motherboards', 'RAM', 'Fuentes', 'Gabinetes'],
+    brands: ['Intel', 'AMD', 'NVIDIA', 'Corsair', 'Kingston', 'ASUS'],
+    promoImage: 'https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.components',
+  },
+  storage: {
+    subcats: ['SSD NVMe', 'HDD', 'NAS', 'USB', 'MicroSD'],
+    brands: ['Samsung', 'Western Digital', 'Seagate', 'Kingston', 'SanDisk'],
+    promoImage: 'https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.storage',
+  },
+  security: {
+    subcats: ['Camaras IP', 'NVR/DVR', 'Alarmas', 'Control de acceso', 'Kits CCTV'],
+    brands: ['Hikvision', 'Dahua', 'Ubiquiti', 'Ezviz', 'Ring'],
+    promoImage: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.security',
+  },
+  power: {
+    subcats: ['UPS', 'No break', 'Reguladores', 'Cargadores', 'Baterias'],
+    brands: ['APC', 'CyberPower', 'Tripp Lite', 'Eaton', 'Belkin'],
+    promoImage: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.power',
+  },
+  software: {
+    subcats: ['Licencias', 'Office', 'Windows', 'Antivirus', 'Suscripciones'],
+    brands: ['Microsoft', 'Adobe', 'ESET', 'Norton', 'Kaspersky'],
+    promoImage: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.software',
+  },
+  accessories: {
+    subcats: ['Teclados', 'Mouse', 'Cables', 'Hubs', 'Soportes', 'Fundas'],
+    brands: ['Logitech', 'Anker', 'Belkin', 'Ugreen', 'Apple'],
+    promoImage: 'https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&q=80&w=400',
+    promoTextKey: 'categoryNav.promo.accessories',
+  },
 };
 
 interface MegaMenuCardProps {
   activeMenu: string | null;
+  onCategorySelect: (id: string) => void;
   onViewList: (term: string) => void;
   onActiveCategoryChange: (id: string) => void;
 }
 
-const MegaMenuCard: React.FC<MegaMenuCardProps> = ({ activeMenu, onViewList, onActiveCategoryChange }) => {
+const MegaMenuCard: React.FC<MegaMenuCardProps> = ({ activeMenu, onCategorySelect, onViewList, onActiveCategoryChange }) => {
   const { t } = useTranslation();
   const data = activeMenu && megaMenuData[activeMenu] ? megaMenuData[activeMenu] : megaMenuData.gaming;
 
   return (
-    <div className="invisible absolute left-0 top-full z-50 mt-2 flex w-[850px] origin-top translate-y-[-10px] overflow-hidden rounded-2xl border border-base-content/10 bg-base-200/95 opacity-0 shadow-2xl shadow-primary/10 backdrop-blur-3xl transition-all duration-300 group-hover/dropdown:visible group-hover/dropdown:translate-y-0 group-hover/dropdown:opacity-100 group-focus-within/dropdown:visible group-focus-within/dropdown:translate-y-0 group-focus-within/dropdown:opacity-100">
-      <div className="w-64 border-r border-base-content/5 bg-base-300/40 py-4">
+    <div className="invisible absolute left-0 top-full z-50 mt-2 flex max-h-[70vh] w-[850px] origin-top translate-y-[-10px] overflow-hidden rounded-2xl border border-base-content/10 bg-base-200/95 opacity-0 shadow-2xl shadow-primary/10 backdrop-blur-3xl transition-all duration-300 group-hover/dropdown:visible group-hover/dropdown:translate-y-0 group-hover/dropdown:opacity-100 group-focus-within/dropdown:visible group-focus-within/dropdown:translate-y-0 group-focus-within/dropdown:opacity-100">
+      <div className="w-64 overflow-y-auto border-r border-base-content/5 bg-base-300/40 py-4">
         <div className="px-6 pb-2 text-[10px] font-bold uppercase tracking-widest text-base-content/40">
           {t('categoryNav.sections')}
         </div>
@@ -75,7 +160,7 @@ const MegaMenuCard: React.FC<MegaMenuCardProps> = ({ activeMenu, onViewList, onA
               <button
                 type="button"
                 onFocus={() => onActiveCategoryChange(category.id)}
-                onClick={() => onViewList(category.id)}
+                onClick={() => onCategorySelect(category.id)}
                 aria-label={t(category.labelKey)}
                 data-hover-id={category.id}
                 className={`flex w-full items-center justify-between px-6 py-2.5 text-left text-sm font-semibold transition-colors group/item ${
@@ -159,7 +244,7 @@ const MegaMenuCard: React.FC<MegaMenuCardProps> = ({ activeMenu, onViewList, onA
 
 const CategoryNav: React.FC = () => {
   const { t } = useTranslation();
-  const { setCategory, setSearchTerm, category } = useContext(AppContext);
+  const { setCategory, setSearchTerm, category, searchTerm } = useContext(AppContext);
   const [activeMegaCategory, setActiveMegaCategory] = useState<string | null>('gaming');
   const navigate = useNavigate();
 
@@ -210,13 +295,18 @@ const CategoryNav: React.FC = () => {
               <i className="fa-solid fa-chevron-down ml-2 text-[10px] transition-transform duration-300 group-hover/dropdown:rotate-180 group-focus-within/dropdown:rotate-180" aria-hidden="true"></i>
             </button>
             <div onMouseOver={handleMegaMenuHover}>
-              <MegaMenuCard activeMenu={activeMegaCategory} onViewList={handleViewList} onActiveCategoryChange={setActiveMegaCategory} />
+              <MegaMenuCard
+                activeMenu={activeMegaCategory}
+                onCategorySelect={handleCategoryClick}
+                onViewList={handleViewList}
+                onActiveCategoryChange={setActiveMegaCategory}
+              />
             </div>
           </div>
           <div className="mx-2 hidden h-8 w-[1px] bg-base-content/10 md:block"></div>
           <div className="scrollbar-hide flex flex-1 items-center justify-start gap-2 overflow-x-auto py-2.5">
             {mainCategories.map((cat) => {
-              const isActive = category === cat.id;
+              const isActive = category === cat.id || (cat.id === 'black-friday' && searchTerm.toLowerCase() === 'black friday');
               return (
                 <button
                   key={cat.id}

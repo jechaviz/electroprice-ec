@@ -1,0 +1,114 @@
+{
+  "version": "electroprice.taxonomy.v1",
+  "defaultCategory": "accessories",
+  "categories": [
+    {
+      "id": "laptops",
+      "label": "Laptops",
+      "aliases": ["notebook", "laptop", "portatil", "macbook", "thinkpad", "xps", "spectre"],
+      "requiredSpecs": ["processor", "memory", "storage", "display", "battery"]
+    },
+    {
+      "id": "desktops",
+      "label": "Desktops",
+      "aliases": ["desktop", "pc", "workstation", "mini pc", "all in one", "torre"],
+      "requiredSpecs": ["processor", "memory", "storage", "graphics", "form_factor"]
+    },
+    {
+      "id": "monitors",
+      "label": "Monitors",
+      "aliases": ["monitor", "display", "odyssey", "ultrawide", "curved", "hz"],
+      "requiredSpecs": ["size", "resolution", "refresh_rate", "panel", "ports"]
+    },
+    {
+      "id": "smartphones",
+      "label": "Smartphones",
+      "aliases": ["phone", "smartphone", "celular", "iphone", "galaxy", "pixel", "moto"],
+      "requiredSpecs": ["display", "processor", "memory", "storage", "camera", "battery", "os"]
+    },
+    {
+      "id": "tablets",
+      "label": "Tablets",
+      "aliases": ["tablet", "ipad", "galaxy tab", "surface pro"],
+      "requiredSpecs": ["display", "processor", "memory", "storage", "battery", "os"]
+    },
+    {
+      "id": "tvs",
+      "label": "TVs",
+      "aliases": ["tv", "television", "oled", "qled", "neo qled", "uhd", "4k", "8k"],
+      "requiredSpecs": ["size", "panel", "resolution", "refresh_rate", "hdr", "ports"]
+    },
+    {
+      "id": "headphones",
+      "label": "Headphones",
+      "aliases": ["headphone", "audifono", "auricular", "earbuds", "in ear", "over ear", "noise cancelling"],
+      "requiredSpecs": ["type", "connectivity", "battery", "noise_cancelling", "weight"]
+    },
+    {
+      "id": "audio",
+      "label": "Audio",
+      "aliases": ["speaker", "bocina", "soundbar", "amplifier", "receiver", "dac", "microphone"],
+      "requiredSpecs": ["type", "connectivity", "battery", "frequency_response"]
+    },
+    {
+      "id": "cameras",
+      "label": "Cameras",
+      "aliases": ["camera", "camara", "canon", "nikon", "sony alpha", "eos", "lens", "dji", "gopro"],
+      "requiredSpecs": ["sensor", "resolution", "video", "mount", "stabilization"]
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming",
+      "aliases": ["gaming", "console", "playstation", "xbox", "nintendo", "quest", "vr", "gamepad"],
+      "requiredSpecs": ["platform", "processor", "storage", "display", "connectivity"]
+    },
+    {
+      "id": "networking",
+      "label": "Networking",
+      "aliases": ["router", "switch", "access point", "wifi", "poe", "firewall", "ubiquiti", "mikrotik"],
+      "requiredSpecs": ["ports", "speed", "wireless_standard", "management", "power"]
+    },
+    {
+      "id": "printers_scanners",
+      "label": "Printers & Scanners",
+      "aliases": ["printer", "impresora", "scanner", "multifuncional", "laserjet", "inkjet"],
+      "requiredSpecs": ["technology", "color", "speed", "connectivity", "paper_size"]
+    },
+    {
+      "id": "components",
+      "label": "Components",
+      "aliases": ["cpu", "gpu", "motherboard", "ram", "ssd", "hdd", "power supply", "case"],
+      "requiredSpecs": ["type", "compatibility", "capacity", "speed", "warranty"]
+    },
+    {
+      "id": "storage",
+      "label": "Storage",
+      "aliases": ["ssd", "hdd", "nas", "usb", "microsd", "storage", "disco duro"],
+      "requiredSpecs": ["capacity", "interface", "form_factor", "speed", "warranty"]
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "aliases": ["camera ip", "cctv", "nvr", "dvr", "alarm", "access control", "biometric"],
+      "requiredSpecs": ["resolution", "lens", "night_vision", "storage", "power"]
+    },
+    {
+      "id": "power",
+      "label": "Power",
+      "aliases": ["ups", "no break", "regulador", "battery backup", "inverter", "charger"],
+      "requiredSpecs": ["capacity", "output_power", "runtime", "outlets", "warranty"]
+    },
+    {
+      "id": "software",
+      "label": "Software",
+      "aliases": ["license", "licencia", "software", "subscription", "windows", "office", "antivirus"],
+      "requiredSpecs": ["license_type", "term", "users", "platform", "language"]
+    },
+    {
+      "id": "accessories",
+      "label": "Accessories",
+      "aliases": ["adapter", "cable", "case", "funda", "keyboard", "mouse", "hub", "mount", "stand"],
+      "requiredSpecs": ["type", "compatibility", "material", "color", "warranty"]
+    }
+  ]
+}

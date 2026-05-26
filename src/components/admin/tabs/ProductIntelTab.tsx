@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { MissingPiecesService } from "../../../services/MissingPiecesService";
 import type { Product, Wholesaler } from "../../../types";
 import { loadPocketBase } from "../../../utils/pocketBaseClient";
@@ -33,8 +33,11 @@ const getPriceSpread = (product: Product) => {
   };
 };
 
+const ROWS_PER_PAGE = 24;
+
 export const ProductIntelTab: React.FC<ProductIntelTabProps> = ({ products, wholesalers, formatPrice }) => {
   const missingPieces = useMemo(() => new MissingPiecesService(), []);
+  const [page, setPage] = useState(1);
   const [notes, setNotes] = useState<Record<string, string>>(() =>
     Object.fromEntries(products.map((product) => [product.id, product.businessNotes || ""]))
   );
@@ -53,6 +56,19 @@ export const ProductIntelTab: React.FC<ProductIntelTabProps> = ({ products, whol
     const estimatedCost = rows.reduce((sum, row) => sum + row.assessment.enrichmentEstimateUsd, 0);
     return { incomplete: incomplete.length, averageScore, estimatedCost };
   }, [rows]);
+  const pageCount = Math.max(1, Math.ceil(rows.length / ROWS_PER_PAGE));
+  const visibleRows = rows.slice((page - 1) * ROWS_PER_PAGE, page * ROWS_PER_PAGE);
+
+  useEffect(() => {
+    setPage((value) => Math.min(value, pageCount));
+  }, [pageCount]);
+
+  useEffect(() => {
+    setNotes((current) => ({
+      ...Object.fromEntries(products.map((product) => [product.id, product.businessNotes || ""])),
+      ...current,
+    }));
+  }, [products]);
 
   const saveNote = async (productId: string) => {
     const value = notes[productId] || "";
@@ -89,7 +105,7 @@ export const ProductIntelTab: React.FC<ProductIntelTabProps> = ({ products, whol
           <p className="text-sm text-base-content/50">Ficha canonica, costos por proveedor, ventaja competitiva y notas internas.</p>
         </div>
         <div className="divide-y divide-base-content/10">
-          {rows.map(({ product, assessment, bestOffer, spread }) => (
+          {visibleRows.map(({ product, assessment, bestOffer, spread }) => (
             <article key={product.id} className="grid gap-4 p-5 xl:grid-cols-[1.1fr_1fr_1fr]">
               <div className="min-w-0">
                 <div className="flex gap-3">
@@ -165,6 +181,17 @@ export const ProductIntelTab: React.FC<ProductIntelTabProps> = ({ products, whol
             </article>
           ))}
         </div>
+        {pageCount > 1 && (
+          <div className="flex items-center justify-between gap-3 border-t border-base-content/10 px-5 py-4">
+            <p className="text-xs font-bold text-base-content/45">
+              {Math.min(rows.length, (page - 1) * ROWS_PER_PAGE + 1)}-{Math.min(rows.length, page * ROWS_PER_PAGE)} de {rows.length}
+            </p>
+            <div className="join">
+              <button type="button" className="btn join-item btn-sm" disabled={page === 1} onClick={() => setPage((value) => Math.max(1, value - 1))}>Anterior</button>
+              <button type="button" className="btn join-item btn-sm" disabled={page === pageCount} onClick={() => setPage((value) => Math.min(pageCount, value + 1))}>Siguiente</button>
+            </div>
+          </div>
+        )}
       </section>
     </div>
   );

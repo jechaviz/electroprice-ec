@@ -5,6 +5,8 @@ import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { getProductGalleryImages } from '../../utils/productGallery';
 import { getProductDisplayPrice } from '../../utils/pricing';
+import { ProductCatalogService } from '../../services/ProductCatalogService';
+import type { Product } from '../../types';
 
 const QuickViewModal: React.FC = () => {
     const { quickViewProductId, setQuickViewProductId, products, addToCart, navigateToProduct } = useContext(AppContext);
@@ -13,15 +15,48 @@ const QuickViewModal: React.FC = () => {
 
     const [quantity, setQuantity] = useState(1);
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [remoteProduct, setRemoteProduct] = useState<Product | null>(null);
+    const [isProductLoading, setIsProductLoading] = useState(false);
 
-    const product = products.find(p => p.id === quickViewProductId);
+    const previewProduct = products.find(p => p.id === quickViewProductId) ?? null;
+    const product = remoteProduct ?? previewProduct;
     const galleryImages = useMemo(() => product ? getProductGalleryImages(product) : [], [product]);
+    const defaultSelectedOptions = useMemo(() => {
+        if (!product?.options?.length) return {};
+        return Object.fromEntries(
+            product.options.map((option) => [option.name, option.values[0] ?? ''])
+        );
+    }, [product]);
 
     useEffect(() => {
         if (quickViewProductId) {
             setQuantity(1);
             setCurrentImageIndex(0);
+            setRemoteProduct(null);
         }
+    }, [quickViewProductId]);
+
+    useEffect(() => {
+        if (!quickViewProductId) {
+            return;
+        }
+
+        let cancelled = false;
+        setIsProductLoading(true);
+        ProductCatalogService.fetchProductDetail(quickViewProductId)
+            .then((detailProduct) => {
+                if (!cancelled) setRemoteProduct(detailProduct);
+            })
+            .catch((error) => {
+                console.error('Failed to fetch quick view product:', error);
+            })
+            .finally(() => {
+                if (!cancelled) setIsProductLoading(false);
+            });
+
+        return () => {
+            cancelled = true;
+        };
     }, [quickViewProductId]);
 
     useEffect(() => {
@@ -39,8 +74,19 @@ const QuickViewModal: React.FC = () => {
         return () => document.removeEventListener('keydown', handleKeyDown);
     }, [quickViewProductId, setQuickViewProductId]);
 
-    if (!quickViewProductId || !product) {
+    if (!quickViewProductId || (!product && !isProductLoading)) {
         return null;
+    }
+
+    if (!product) {
+        return (
+            <div className="fixed inset-0 z-[110] flex items-center justify-center p-4 sm:p-6 animate-fade-in">
+                <div className="absolute inset-0 bg-base-100/80 backdrop-blur-sm" onClick={() => setQuickViewProductId(null)} />
+                <div role="dialog" aria-modal="true" className="relative flex min-h-48 w-full max-w-md items-center justify-center rounded-2xl border border-base-content/10 bg-base-200/95 p-8 shadow-2xl">
+                    <span className="loading loading-spinner loading-lg text-primary" aria-label={t('list.loadingMore')}></span>
+                </div>
+            </div>
+        );
     }
 
     const availableVariants = product.wholesalerStock || [];
@@ -57,7 +103,7 @@ const QuickViewModal: React.FC = () => {
 
     const handleAddToCart = () => {
         if (totalStock > 0) {
-            addToCart(product.id, quantity);
+            addToCart(product.id, quantity, defaultSelectedOptions);
             handleClose();
         }
     };
@@ -157,7 +203,17 @@ const QuickViewModal: React.FC = () => {
                     </div>
 
                     <div className="flex flex-col gap-5">
-                        {/* Options Section (Internal wholesalers hidden) */}
+                        {product.options && product.options.length > 0 && (
+                            <div className="rounded-xl border border-base-content/10 bg-base-300/35 p-3">
+                                <div className="flex flex-wrap gap-2">
+                                    {product.options.map((option) => (
+                                        <span key={option.name} className="badge badge-ghost max-w-full truncate font-bold">
+                                            {option.name}: {defaultSelectedOptions[option.name]}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
 
                         <div>
                             <p className={`text-xs font-semibold ${totalStock > 0 ? 'text-success' : 'text-error'} mb-3`}>

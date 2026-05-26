@@ -31,6 +31,8 @@ contracts:
     product_price_watchlist: [provider, sku, user_id, session_id, last_viewed_at, offer_expires_at, priority, context]
     provider_refresh_queue: [provider, sku, refresh_type, priority, status, attempts, not_before, payload]
     provider_offers: [provider, sku, price, stock, currency, warehouse, expires_at, raw_payload]
+    ai_enrichment_runs: [batch_id, status, item_count, applied_count, rejected_count, model, prompt_version]
+    ai_enrichment_patches: [patch_id, product_id, canonical_key, status, confidence, fields, source_refs]
   scheduling_policy:
     visible_price_ttl_seconds: 30
     active_view_window_seconds: 900
@@ -48,6 +50,16 @@ cronjobs:
     every_seconds: 3600
     run_on_start: false
     max_runtime_ms: 45000
+  queue_semantic_enrichment_batch:
+    action: queue_semantic_enrichment_batch
+    every_seconds: 900
+    run_on_start: true
+    max_runtime_ms: 45000
+  reduce_provider_offers_to_products:
+    action: reduce_provider_offers_to_products
+    every_seconds: 60
+    run_on_start: true
+    max_runtime_ms: 30000
 
 actions:
   mark_product_viewed:
@@ -127,6 +139,43 @@ actions:
                       priority: normal
                       not_before: "{{now_iso}}"
                       payload: "{{response.body}}"
+  queue_semantic_enrichment_batch:
+    tags: [cronjob, ai_in_the_middle, content, pocketbase]
+    description: Queue at most 100 weak product records for server-side semantic enrichment.
+    performs:
+      - perform:
+          action: pocketbase.list
+          data:
+            base_url: "http://127.0.0.1:8090"
+            collection: products
+            headers: {Authorization: "Bearer {{pb_service_token}}"}
+            query:
+              filter: "enrichment_status = 'raw' || enrichment_status = 'needs_enrichment' || content_score < 80 || description = '' || image_url = ''"
+              sort: last_enriched_at,updated,id
+              perPage: "100"
+        responses:
+          - is_success: {code: 200}
+            performs:
+              - perform:
+                  action: pocketbase.create
+                  data:
+                    base_url: "http://127.0.0.1:8090"
+                    collection: provider_refresh_queue
+                    headers: {Authorization: "Bearer {{pb_service_token}}"}
+                    body:
+                      refresh_type: semantic_enrichment
+                      status: pending
+                      priority: normal
+                      not_before: "{{now_iso}}"
+                      payload: "{{response.body}}"
+  reduce_provider_offers_to_products:
+    tags: [cronjob, realtime_price, stock, pocketbase]
+    description: Materialize fresh provider offers through the pb_refresh_provider_offers reducer.
+    performs:
+      - perform:
+          action: log.info
+          data:
+            message: "Run node pb/scripts/pb_refresh_provider_offers.mjs --limit 100 --apply on the PocketBase host"
 
 vars:
   pb_service_token: {from: env, name: PB_SERVICE_TOKEN}
