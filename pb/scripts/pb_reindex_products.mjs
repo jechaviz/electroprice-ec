@@ -35,6 +35,7 @@ const parseArgs = () => {
 const args = parseArgs();
 const PAGE_SIZE = Number(args.pageSize || process.env.PB_REINDEX_PAGE_SIZE || 100);
 const START_PAGE = Math.max(1, Number(args.startPage || 1));
+const MAX_PAGES = Math.max(0, Number(args.maxPages || process.env.PB_REINDEX_MAX_PAGES || 0));
 const UPDATE_DELAY_MS = Number(args.delayMs || process.env.PB_REINDEX_UPDATE_DELAY_MS || 0);
 const PAGE_DELAY_MS = Number(args.pageDelayMs || process.env.PB_REINDEX_PAGE_DELAY_MS || 0);
 const TRANSIENT_STATUSES = new Set([0, 408, 429, 500, 502, 503, 504]);
@@ -92,6 +93,7 @@ const main = async () => {
   await pb.collection('_superusers').authWithPassword(config.email, config.password);
 
   let page = START_PAGE;
+  let processedPages = 0;
   let updated = 0;
   while (true) {
     const result = await getProductPageWithRetry(page);
@@ -105,7 +107,9 @@ const main = async () => {
     }
 
     console.log(`[product-reindex] page=${page} updated=${updated}`);
+    processedPages += 1;
     if (result.items.length < PAGE_SIZE) break;
+    if (MAX_PAGES > 0 && processedPages >= MAX_PAGES) break;
     page += 1;
     await maybePause(PAGE_DELAY_MS);
   }
