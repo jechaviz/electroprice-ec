@@ -7,6 +7,7 @@ import ProductCarousel from '../components/home/ProductCarousel';
 import InspirationSection from '../components/home/InspirationSection';
 import Spinner from '../components/common/Spinner';
 import { useSEO } from '../hooks/useSEO';
+import { getIndexedTotalStock } from '../utils/productIndex';
 
 import { useNavigate } from 'react-router-dom';
 import { getCategoryUrl } from '../utils/slugify';
@@ -40,21 +41,21 @@ const HomePage: React.FC = () => {
     }
   };
 
-  const {
+  const [
     dealsOfTheDay,
     buenFinDeals,
     popularProducts,
     popularPhones,
     popularLaptops,
-  } = useMemo(() => {
-      if (!products) return { dealsOfTheDay: [], buenFinDeals: [], popularProducts: [], popularPhones: [], popularLaptops: [] };
-      return {
-        dealsOfTheDay: products.filter(p => p.dealTag || p.oldPrice).slice(0, 5),
-        buenFinDeals: products.filter(p => p.dealTag?.includes('Buen Fin')).slice(0, 5),
-        popularProducts: products.filter(p => p.watching && p.watching > 300).slice(0, 5),
-        popularPhones: products.filter(p => p.category === 'smartphones').slice(0,5),
-        popularLaptops: products.filter(p => p.category === 'laptops').slice(0,5),
-      }
+  ] = useMemo(() => {
+      const availableProducts = products.filter(product => getIndexedTotalStock(product) > 0);
+      return [
+        availableProducts.filter(p => p.dealTag || p.oldPrice).slice(0, 5),
+        availableProducts.filter(p => p.dealTag?.includes('Buen Fin')).slice(0, 5),
+        availableProducts.slice(0, 10),
+        availableProducts.filter(p => p.category === 'smartphones').slice(0,5),
+        availableProducts.filter(p => p.category === 'laptops').slice(0,5),
+      ] as const;
   }, [products]);
 
   if (loading && products.length === 0) {

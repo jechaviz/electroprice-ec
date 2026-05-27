@@ -1,7 +1,17 @@
 import React, { useState } from 'react';
+import { useSignals } from '@preact/signals-react/runtime';
 import { services } from '../services/ServiceContainer';
+import { CurrencyService } from '../services/CurrencyService';
 import { siteNameSignal, siteTaglineSignal, primaryColorSignal, logoUrlSignal } from '../signals/branding.signals';
-import { taxRateSignal, baseShippingFeeSignal, platformCommissionSignal, apiStatusSignal } from '../signals/config.signals';
+import {
+    taxRateSignal,
+    baseShippingFeeSignal,
+    platformCommissionSignal,
+    exchangeRateMarkupSignal,
+    currencyRateMetadataSignal,
+    isCurrencyLoadingSignal,
+    apiStatusSignal,
+} from '../signals/config.signals';
 
 type SettingsTab = 'branding' | 'financial' | 'system';
 
@@ -12,7 +22,9 @@ const settingsTabs: { id: SettingsTab; label: string; icon: string }[] = [
 ];
 
 const SettingsPage: React.FC = () => {
+    useSignals();
     const [activeTab, setActiveTab] = useState<SettingsTab>('branding');
+    const rateMetadata = currencyRateMetadataSignal.value;
 
     // Local form states
     const [localBranding, setLocalBranding] = useState({
@@ -25,7 +37,8 @@ const SettingsPage: React.FC = () => {
     const [localFinancial, setLocalFinancial] = useState({
         taxRate: taxRateSignal.value * 100,
         baseShippingFee: baseShippingFeeSignal.value,
-        platformCommission: platformCommissionSignal.value * 100
+        platformCommission: platformCommissionSignal.value * 100,
+        exchangeRateMarkup: exchangeRateMarkupSignal.value * 100,
     });
 
     const handleSaveBranding = (e: React.FormEvent) => {
@@ -38,8 +51,10 @@ const SettingsPage: React.FC = () => {
         services.config.updateConfig({
             taxRate: localFinancial.taxRate / 100,
             baseShippingFee: localFinancial.baseShippingFee,
-            platformCommission: localFinancial.platformCommission / 100
+            platformCommission: localFinancial.platformCommission / 100,
+            exchangeRateMarkup: localFinancial.exchangeRateMarkup / 100,
         });
+        CurrencyService.recalculateEffectiveRates();
         services.notification.success("Financial settings saved successfully.");
     };
 
@@ -133,32 +148,71 @@ const SettingsPage: React.FC = () => {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div className="form-control w-full">
                                     <label className="label"><span className="label-text font-black uppercase tracking-widest text-[10px] opacity-40">Tax Rate (%)</span></label>
-                                    <input 
-                                        type="number" 
+                                    <input
+                                        type="number"
                                         value={localFinancial.taxRate}
                                         onChange={(e) => setLocalFinancial({...localFinancial, taxRate: Number(e.target.value)})}
-                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl" 
+                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl"
                                     />
                                 </div>
                                 <div className="form-control w-full">
                                     <label className="label"><span className="label-text font-black uppercase tracking-widest text-[10px] opacity-40">Shipping Fee ($)</span></label>
-                                    <input 
-                                        type="number" 
+                                    <input
+                                        type="number"
                                         value={localFinancial.baseShippingFee}
                                         onChange={(e) => setLocalFinancial({...localFinancial, baseShippingFee: Number(e.target.value)})}
-                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl" 
+                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl"
                                     />
                                 </div>
                                 <div className="form-control w-full">
                                     <label className="label"><span className="label-text font-black uppercase tracking-widest text-[10px] opacity-40">Platform Commission (%)</span></label>
-                                    <input 
-                                        type="number" 
+                                    <input
+                                        type="number"
                                         value={localFinancial.platformCommission}
                                         onChange={(e) => setLocalFinancial({...localFinancial, platformCommission: Number(e.target.value)})}
-                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl" 
+                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl"
+                                    />
+                                </div>
+                                <div className="form-control w-full">
+                                    <label className="label"><span className="label-text font-black uppercase tracking-widest text-[10px] opacity-40">Exchange Spread (%)</span></label>
+                                    <input
+                                        type="number"
+                                        min="0"
+                                        step="0.1"
+                                        value={localFinancial.exchangeRateMarkup}
+                                        onChange={(e) => setLocalFinancial({...localFinancial, exchangeRateMarkup: Number(e.target.value)})}
+                                        className="input bg-base-100 border-base-content/10 rounded-2xl font-black text-xl"
                                     />
                                 </div>
                             </div>
+                            <section className="rounded-[2rem] border border-base-content/10 bg-base-100 p-6 shadow-inner">
+                                <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+                                    <div>
+                                        <p className="text-[10px] font-black uppercase tracking-widest text-base-content/40">Banxico FIX USD/MXN</p>
+                                        <p className="mt-2 text-2xl font-black">
+                                            {rateMetadata ? rateMetadata.effectiveUsdMxnRate.toFixed(4) : '—'}
+                                        </p>
+                                        {rateMetadata && (
+                                            <p className="mt-1 text-xs font-semibold text-base-content/45">
+                                                Base {rateMetadata.baseUsdMxnRate.toFixed(4)} · Spread {(rateMetadata.markup * 100).toFixed(2)}% · {rateMetadata.source}
+                                                {rateMetadata.observedAt ? ` · ${rateMetadata.observedAt}` : ''}
+                                            </p>
+                                        )}
+                                        {rateMetadata?.warning && (
+                                            <p className="mt-2 text-xs font-bold text-warning">{rateMetadata.warning}</p>
+                                        )}
+                                    </div>
+                                    <button
+                                        type="button"
+                                        onClick={() => CurrencyService.fetchRates()}
+                                        className="btn btn-outline btn-sm rounded-xl font-black uppercase tracking-widest text-[10px]"
+                                        disabled={isCurrencyLoadingSignal.value}
+                                    >
+                                        {isCurrencyLoadingSignal.value && <span className="loading loading-spinner loading-xs" />}
+                                        Refresh Banxico FIX
+                                    </button>
+                                </div>
+                            </section>
                             <div className="pt-6 border-t border-base-content/5">
                                 <button type="submit" className="btn btn-primary rounded-2xl px-10 font-black uppercase tracking-widest text-[11px] shadow-xl shadow-primary/20">Apply Financial Parameters</button>
                             </div>

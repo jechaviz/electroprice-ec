@@ -18,6 +18,8 @@ vi.mock('../utils/pocketBaseClient', () => ({
     },
     collection: vi.fn().mockReturnThis(),
     getFullList: vi.fn().mockResolvedValue([]),
+    getList: vi.fn().mockResolvedValue({ items: [] }),
+    getOne: vi.fn().mockResolvedValue(null),
     authWithPassword: vi.fn().mockResolvedValue({}),
   }),
   getLoadedPocketBase: vi.fn().mockReturnValue(null),

@@ -19,6 +19,18 @@ export const productSlugMatchesId = (slug: string, id: string): boolean => {
   return id.length > 0 && (slug === id || slug.endsWith(`-${id}`));
 };
 
+export const getProductIdCandidatesFromSlug = (slug: string): string[] => {
+  const parts = slug.split('-').filter(Boolean);
+  const candidates: string[] = [];
+
+  for (let index = parts.length - 1; index >= 0; index -= 1) {
+    candidates.push(parts.slice(index).join('-'));
+  }
+
+  candidates.push(slug);
+  return Array.from(new Set(candidates));
+};
+
 export const getCategoryUrl = (id: string): string => {
   return `/catalog/${slugify(id)}`;
 };

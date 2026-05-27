@@ -16,21 +16,33 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ total, onCancel }) => {
     const [isProcessing, setIsProcessing] = useState(false);
     const [address, setAddress] = useState('');
     const sandboxCards = PaymentService.getSandboxCards();
-    const [sandboxCardId, setSandboxCardId] = useState(sandboxCards[0]?.id ?? '');
+    const enabledSandboxCards = sandboxCards.filter((card) => card.provider === 'stripe');
+    const [sandboxCardId, setSandboxCardId] = useState(enabledSandboxCards[0]?.id ?? '');
+
+    const checkRateLimit = (action: string, limit: number, timeframe = 60000) => {
+        const now = Date.now();
+        const key = `rate_limit_${action}`;
+        const recentActions = JSON.parse(localStorage.getItem(key) || '[]')
+            .filter((timestamp: number) => now - timestamp < timeframe);
+        if (recentActions.length >= limit) return false;
+        recentActions.push(now);
+        localStorage.setItem(key, JSON.stringify(recentActions));
+        return true;
+    };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         
         if (!address.trim()) {
-            services.notification.error("Please provide a shipping address.");
+            services.notification.error(t('checkout.addressRequired'));
             return;
         }
 
         setIsProcessing(true);
         try {
             // OWASP: Always validate on server side, but client side check for UX
-            if (!services.security.checkRateLimit('place_order', 3)) {
-                services.notification.error("Too many attempts. Please wait.");
+            if (!checkRateLimit('place_order', 3)) {
+                services.notification.error(t('checkout.tooManyAttempts'));
                 setIsProcessing(false);
                 return;
             }
@@ -90,7 +102,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ total, onCancel }) => {
                 </div>
                 <label className="form-control w-full">
                     <span className="label-text mb-2 text-xs font-black uppercase tracking-widest text-base-content/45">
-                        Tarjeta sandbox
+                        {t('checkout.sandboxCard')}
                     </span>
                     <select
                         className="select select-bordered w-full bg-base-100 font-mono text-xs"
@@ -98,7 +110,7 @@ const CheckoutForm: React.FC<CheckoutFormProps> = ({ total, onCancel }) => {
                         onChange={(event) => setSandboxCardId(event.target.value)}
                         disabled={isProcessing}
                     >
-                        {sandboxCards.map(card => (
+                        {enabledSandboxCards.map(card => (
                             <option key={card.id} value={card.id}>
                                 {card.label} - {card.displayNumber}
                             </option>

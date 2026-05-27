@@ -1,50 +1,69 @@
-import React, { useContext, useMemo } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
+import { useSignals } from '@preact/signals-react/runtime';
 import { Link } from 'react-router-dom';
 import type { Product } from '../../types';
 import StarRating from '../common/StarRating';
-import { AppContext } from '../../contexts/AppContext';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { getProductUrl } from '../../utils/slugify';
 import { preloadLoginModal, preloadQuickViewModal } from '../../utils/deferredOverlays';
-import { getProductDisplayPrice } from '../../utils/pricing';
-import { services } from '../../services/ServiceContainer';
+import { calculateRetailPrice, getProductDisplayPrice } from '../../utils/pricing';
 import { activeFlashSalesSignal } from '../../services/PromotionService';
-import { useEffect, useState } from 'react';
+import { isCatalogDeal } from '../../utils/productIndex';
+import {
+  highlightedProductIdSignal,
+  isLoginModalOpenSignal,
+  quickViewProductIdSignal,
+  toastSignal,
+} from '../../signals/ui.signals';
+import { currentUserSignal, isAuthenticatedSignal } from '../../signals/auth.signals';
+import { UserService } from '../../services/UserService';
 
 interface ProductCardProps {
   product: Product;
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-  const {
-    setHighlightedProductId,
-    setQuickViewProductId,
-    isAuthenticated,
-    setIsLoginModalOpen,
-    user,
-    toggleFavorite,
-    setToast,
-  } = useContext(AppContext);
+  useSignals();
   const { t } = useTranslation();
   const { formatPrice } = useCurrency();
+  const user = currentUserSignal.value;
+  const isAuthenticated = isAuthenticatedSignal.value;
 
-  const productUrl = getProductUrl(product.name, product.id);
-  const rawBestPrice = getProductDisplayPrice(product);
+  const productUrl = useMemo(() => getProductUrl(product.name, product.id), [product.id, product.name]);
+  const rawBestPrice = typeof product.bestPrice === 'number' && product.bestPrice > 0
+    ? calculateRetailPrice(product.bestPrice)
+    : getProductDisplayPrice(product);
   
-  const activeSale = activeFlashSalesSignal.value.find(s => s.productId === product.id);
-  const bestPrice = rawBestPrice ? services.promotion.getDiscountedPrice(product, rawBestPrice) : null;
+  const activeSale = activeFlashSalesSignal.value.find((sale) => sale.productId === product.id);
+  const bestPrice = rawBestPrice && activeSale
+    ? rawBestPrice * (1 - activeSale.discountPercent / 100)
+    : rawBestPrice;
   const [timeLeft, setTimeLeft] = useState('');
 
   useEffect(() => {
     if (!activeSale) return;
+    const getTimeRemaining = () => {
+        const diff = activeSale.endTime - Date.now();
+        if (diff <= 0) return '00:00:00';
+        const h = Math.floor(diff / 3_600_000);
+        const m = Math.floor((diff % 3_600_000) / 60_000);
+        const s = Math.floor((diff % 60_000) / 1_000);
+        const pad = (value: number) => value.toString().padStart(2, '0');
+        return `${pad(h)}:${pad(m)}:${pad(s)}`;
+    };
+    setTimeLeft(getTimeRemaining());
     const timer = setInterval(() => {
-        setTimeLeft(services.promotion.getTimeRemaining(activeSale.endTime));
+        setTimeLeft(getTimeRemaining());
     }, 1000);
     return () => clearInterval(timer);
   }, [activeSale]);
 
-  const totalStock = product.wholesalerStock.reduce((sum, stock) => sum + stock.stock, 0);
+  const totalStock = useMemo(() => (
+    typeof product.totalStock === 'number'
+      ? product.totalStock
+      : product.wholesalerStock.reduce((sum, stock) => sum + stock.stock, 0)
+  ), [product.totalStock, product.wholesalerStock]);
 
   const isFavorite = useMemo(() => {
     return user?.favorites.includes(product.id) ?? false;
@@ -64,6 +83,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           badges.push({ type: 'deal', text: t('productCard.priceDrop', { percent: percentageDrop }) });
         }
       }
+    } else if (isCatalogDeal(product)) {
+      badges.push({ type: 'deal', text: product.dealTag || t('productCard.blackFriday') });
     }
 
     if (product.avgRating > 4.7) {
@@ -80,30 +101,42 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     return badges;
   }, [product, bestPrice, t]);
 
-  const handleFavoriteClick = () => {
+  const handleHighlight = useCallback(() => {
+    if (highlightedProductIdSignal.value !== product.id) {
+      highlightedProductIdSignal.value = product.id;
+    }
+  }, [product.id]);
+
+  const handleUnhighlight = useCallback(() => {
+    if (highlightedProductIdSignal.value === product.id) {
+      highlightedProductIdSignal.value = null;
+    }
+  }, [product.id]);
+
+  const handleFavoriteClick = useCallback(() => {
     if (!isAuthenticated) {
       preloadLoginModal();
-      setIsLoginModalOpen(true);
+      isLoginModalOpenSignal.value = true;
       return;
     }
 
-    toggleFavorite(product.id);
-  };
+    void UserService.toggleFavorite(product.id);
+  }, [isAuthenticated, product.id]);
 
-  const handleQuickViewClick = () => {
+  const handleQuickViewClick = useCallback(() => {
     preloadQuickViewModal();
-    setQuickViewProductId(product.id);
-  };
+    quickViewProductIdSignal.value = product.id;
+  }, [product.id]);
 
-  const handleCompareClick = () => {
-    setToast({ message: t('productCard.compareSoon'), type: 'success' });
-  };
+  const handleCompareClick = useCallback(() => {
+    toastSignal.value = { message: t('productCard.compareSoon'), type: 'success' };
+  }, [t]);
 
   return (
     <article
-      onMouseEnter={() => setHighlightedProductId(product.id)}
-      onMouseLeave={() => setHighlightedProductId(null)}
-      onFocus={() => setHighlightedProductId(product.id)}
+      onMouseEnter={handleHighlight}
+      onMouseLeave={handleUnhighlight}
+      onFocus={handleHighlight}
       className="group/card relative flex h-full flex-col overflow-hidden rounded-2xl border border-base-content/10 bg-base-200/90 shadow-sm transition-all duration-300 hover:border-primary/25 hover:shadow-2xl focus-within:border-primary/40 focus-within:shadow-2xl"
     >
       <div className="relative overflow-hidden bg-base-100/25">
@@ -115,6 +148,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <img
             src={product.imageUrl}
             alt={product.name}
+            loading="lazy"
             className="relative z-10 h-full w-full object-contain drop-shadow-xl transition-transform duration-500 group-hover/card:scale-[1.03]"
           />
         </Link>
@@ -242,4 +276,4 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   );
 };
 
-export default ProductCard;
+export default React.memo(ProductCard);

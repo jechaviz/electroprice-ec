@@ -29,8 +29,25 @@ const toRecordPayload = (order: Order) => ({
   refund_id: order.refundId,
 });
 
+const hasOpenProviderGate = (order: Order) =>
+  (order.purchaseOrders ?? []).some(po => po.status === "Provider Gate");
+
 export class OrderLifecycleService {
   advanceProviderShipment(order: Order): Order {
+    if (hasOpenProviderGate(order)) {
+      return {
+        ...order,
+        status: "Awaiting Shipment from Wholesaler",
+        subshoppingStatus: "Awaiting Provider",
+        fulfillmentTimeline: appendEvent(order, {
+          actor: "provider",
+          title: "Compuerta proveedor pendiente",
+          detail: "La entrega no puede avanzar hasta resolver las ordenes con compuerta de proveedor.",
+          status: "warn",
+        }),
+      };
+    }
+
     const trackingNumber = order.wholesalerTrackingNumber ?? `WH-${order.id.slice(-6).toUpperCase()}`;
     return {
       ...order,
@@ -52,6 +69,20 @@ export class OrderLifecycleService {
   }
 
   confirmDelivery(order: Order): Order {
+    if (hasOpenProviderGate(order)) {
+      return {
+        ...order,
+        status: "Awaiting Shipment from Wholesaler",
+        subshoppingStatus: "Awaiting Provider",
+        fulfillmentTimeline: appendEvent(order, {
+          actor: "logistics",
+          title: "Entrega bloqueada por proveedor",
+          detail: "No se puede confirmar entrega mientras una compra mayorista siga en Provider Gate.",
+          status: "warn",
+        }),
+      };
+    }
+
     const trackingNumber = order.trackingNumber ?? `EP-${order.id.slice(-6).toUpperCase()}`;
     return {
       ...order,
@@ -119,7 +150,15 @@ export class OrderLifecycleService {
   async confirmDeliveryById(orderId: string): Promise<boolean> {
     const order = ordersSignal.value.find(item => item.id === orderId);
     if (!order) return false;
-    await this.persist(this.confirmDelivery(this.advanceProviderShipment(order)));
+    if (hasOpenProviderGate(order)) {
+      await this.persist(this.advanceProviderShipment(order));
+      return false;
+    }
+
+    const shippedOrder = order.status === "Shipped to Hub" || order.status === "Shipped to You"
+      ? order
+      : this.advanceProviderShipment(order);
+    await this.persist(this.confirmDelivery(shippedOrder));
     return true;
   }
 

@@ -1,4 +1,5 @@
 import React, { createContext, ReactNode, useEffect } from 'react';
+import { useSignals } from '@preact/signals-react/runtime';
 import type { User, Product, Review, Toast, Order, Supplier, Wholesaler } from '../types';
 import { useNavigate } from 'react-router-dom';
 import { getProductUrl, getCategoryUrl } from '../utils/slugify';
@@ -37,6 +38,7 @@ interface AppContextType {
 
    navigateToProduct: (product: Product) => void;
    navigateToCategory: (categoryId: string) => void;
+   navigateToOrder: (orderId: string) => void;
 
    // Auth state
    isAuthenticated: boolean;
@@ -95,14 +97,18 @@ interface AppContextType {
 export const AppContext = createContext<AppContextType>({} as AppContextType);
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+   useSignals();
    const navigate = useNavigate();
+   const currentView = viewSignal.value;
+   const currentOrderId = orderIdSignal.value;
 
    // Navigation Sync
    const setView = React.useCallback((nextView: View) => {
       viewSignal.value = nextView;
       const routes: Record<string, string> = { 
           home: '/', list: '/catalog', profile: '/profile', 
-          adminDashboard: '/admin', settings: '/settings', cart: '/cart', checkout: '/checkout'
+          adminDashboard: '/admin', settings: '/settings', cart: '/cart', checkout: '/checkout',
+          orderDetail: orderIdSignal.value ? `/order/${orderIdSignal.value}` : '/profile?tab=orders',
       };
       if (routes[nextView]) navigate(routes[nextView]);
    }, [navigate]);
@@ -117,6 +123,12 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       categorySignal.value = categoryId;
       viewSignal.value = 'list';
       navigate(getCategoryUrl(categoryId));
+   }, [navigate]);
+
+   const navigateToOrder = React.useCallback((orderId: string) => {
+      orderIdSignal.value = orderId;
+      viewSignal.value = 'orderDetail';
+      navigate(`/order/${orderId}`);
    }, [navigate]);
 
    // Initial Data Fetching
@@ -141,6 +153,12 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
        }
    // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [currentUserSignal.value]);
+
+   useEffect(() => {
+      if (currentView === 'orderDetail' && currentOrderId) {
+         navigate(`/order/${currentOrderId}`);
+      }
+   }, [currentView, currentOrderId, navigate]);
 
    // Toast Auto-clear
    useEffect(() => {
@@ -178,6 +196,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
 
       navigateToProduct,
       navigateToCategory,
+      navigateToOrder,
 
       // Auth
       isAuthenticated: isAuthenticatedSignal.value,

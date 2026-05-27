@@ -10,6 +10,7 @@ import { AddressesSection } from '../components/profile/AddressesSection';
 import { PaymentSection } from '../components/profile/PaymentSection';
 import { SettingsSection } from '../components/profile/SettingsSection';
 import { PreferencesSection } from '../components/profile/PreferencesSection';
+import { useSearchParams } from 'react-router-dom';
 
 type ProfileTab = 'overview' | 'orders' | 'favorites' | 'reviews' | 'addresses' | 'payment' | 'settings' | 'preferences';
 
@@ -24,6 +25,10 @@ const tabs: { id: ProfileTab; labelKey: string; icon: string }[] = [
   { id: 'preferences', labelKey: 'profile.tabs.preferences', icon: 'fa-bell' },
 ];
 
+const isProfileTab = (value: string | null): value is ProfileTab => (
+  Boolean(value) && tabs.some((tab) => tab.id === value)
+);
+
 const openOrderStatuses: OrderStatus[] = [
   'Processing',
   'Awaiting Shipment from Wholesaler',
@@ -35,7 +40,27 @@ const openOrderStatuses: OrderStatus[] = [
 const ProfilePage: React.FC = () => {
   const { user, products, reviews, orders } = useContext(AppContext);
   const { t } = useTranslation();
-  const [activeTab, setActiveTab] = useState<ProfileTab>('overview');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [activeTab, setActiveTab] = useState<ProfileTab>(() => {
+    const tab = searchParams.get('tab');
+    return isProfileTab(tab) ? tab : 'overview';
+  });
+
+  React.useEffect(() => {
+    const tab = searchParams.get('tab');
+    if (isProfileTab(tab) && tab !== activeTab) {
+      setActiveTab(tab);
+    }
+  }, [activeTab, searchParams]);
+
+  const handleTabChange = (tab: ProfileTab) => {
+    setActiveTab(tab);
+    if (tab === 'overview') {
+      setSearchParams({});
+    } else {
+      setSearchParams({ tab });
+    }
+  };
 
   const favoriteProducts = useMemo(() => {
     if (!user) return [];
@@ -72,7 +97,7 @@ const ProfilePage: React.FC = () => {
             userOrders={userOrders}
             favoriteProducts={favoriteProducts}
             userReviewsCount={userReviews.length}
-            setActiveTab={setActiveTab}
+            setActiveTab={handleTabChange}
           />
         );
       case 'orders':
@@ -122,7 +147,7 @@ const ProfilePage: React.FC = () => {
                 key={tab.id}
                 type="button"
                 className={`btn btn-sm shrink-0 rounded-md border-base-content/10 ${activeTab === tab.id ? 'btn-primary text-white' : 'bg-base-100 text-base-content/65 hover:border-primary/40 hover:text-primary'}`}
-                onClick={() => setActiveTab(tab.id)}
+                onClick={() => handleTabChange(tab.id)}
               >
                 <i className={`fa-solid ${tab.icon}`} />
                 {t(tab.labelKey)}

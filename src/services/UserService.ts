@@ -4,6 +4,7 @@ import { loadPocketBase } from "../utils/pocketBaseClient";
 import { sanitizeInputAsync } from "../utils/deferredSanitize";
 import { mapReviewRecord } from "../utils/mappers";
 import { NotificationService } from "./NotificationService";
+import { ProductCatalogService } from "./ProductCatalogService";
 import type { User, Review, UserAddress, PaymentMethod, UserRole } from "../types";
 
 type UserStatus = NonNullable<User['status']>;
@@ -162,7 +163,10 @@ export class UserService {
 
         try {
             const pb = await loadPocketBase();
-            await pb.collection('products').update(productId, { wholesaler_stock: productToUpdate.wholesalerStock });
+            await pb.collection('products').update(productId, {
+                wholesaler_stock: productToUpdate.wholesalerStock,
+                ...ProductCatalogService.productIndexPayload(productToUpdate)
+            });
             NotificationService.success('Listing updated successfully!');
         } catch (e) {
             console.error('Failed to update product price:', e);

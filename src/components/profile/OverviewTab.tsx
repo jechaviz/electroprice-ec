@@ -3,6 +3,7 @@ import { AppContext } from '../../contexts/AppContext';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { Order, Product } from '../../types';
+import { getCartItemKey, selectedOptionsLabel } from '../../utils/cartLine';
 import { EmptyState, SectionShell } from './ProfileUI';
 import { OrderCard } from './OrdersTab';
 
@@ -13,7 +14,7 @@ export const OverviewTab: React.FC<{
   userReviewsCount: number;
   setActiveTab: (tab: any) => void;
 }> = ({ activeOrders, userOrders, favoriteProducts, userReviewsCount, setActiveTab }) => {
-  const { user, products, setView, navigateToProduct, setOrderId } = useContext(AppContext);
+  const { user, products, setView, navigateToProduct, navigateToOrder } = useContext(AppContext);
   const { t } = useTranslation();
   const { formatPrice } = useCurrency();
 
@@ -22,10 +23,15 @@ export const OverviewTab: React.FC<{
 
   const cartItems = useMemo(() => {
     if (!user) return [];
-    return user.cart.map(cartItem => ({
-      ...cartItem,
-      product: products.find(product => product.id === cartItem.productId),
-    }));
+    return user.cart.map(cartItem => {
+      const product = products.find(product => product.id === cartItem.productId);
+      return {
+        ...cartItem,
+        cartItemId: getCartItemKey(cartItem),
+        optionsLabel: selectedOptionsLabel(cartItem.selectedOptions),
+        product,
+      };
+    });
   }, [products, user]);
 
   const cartTotal = useMemo(
@@ -34,8 +40,7 @@ export const OverviewTab: React.FC<{
   );
 
   const handleViewOrder = (orderId: string) => {
-    setOrderId(orderId);
-    setView('orderDetail');
+    navigateToOrder(orderId);
   };
 
   if (!user) return null;
@@ -79,11 +84,18 @@ export const OverviewTab: React.FC<{
           {cartItems.length > 0 ? (
             <div className="space-y-3">
               {cartItems.slice(0, 4).map(item => (
-                <div key={item.productId} className="flex items-center gap-3 rounded-lg border border-base-content/10 bg-base-100 p-3">
-                  {item.product?.imageUrl && <img src={item.product.imageUrl} alt="" className="h-11 w-11 rounded-md object-cover" />}
+                <div key={item.cartItemId} className="flex items-center gap-3 rounded-lg border border-base-content/10 bg-base-100 p-3">
+                  {item.product?.imageUrl ? (
+                    <img src={item.product.imageUrl} alt="" className="h-11 w-11 rounded-md object-cover" />
+                  ) : (
+                    <div className="flex h-11 w-11 items-center justify-center rounded-md bg-base-300 text-base-content/25">
+                      <i className="fa-solid fa-box" aria-hidden="true" />
+                    </div>
+                  )}
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-sm font-bold">{item.product?.name || item.productId}</p>
                     <p className="text-xs text-base-content/45">x{item.quantity}</p>
+                    {item.optionsLabel && <p className="truncate text-[11px] text-base-content/40">{item.optionsLabel}</p>}
                   </div>
                   <p className="text-sm font-black">{formatPrice(item.price * item.quantity)}</p>
                 </div>

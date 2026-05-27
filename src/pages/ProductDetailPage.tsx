@@ -45,6 +45,7 @@ const ProductDetailPage: React.FC = () => {
     galleryImages,
     approvedReviews,
     similarProducts,
+    isProductLoading,
   } = useProductDetail();
 
   const [liveVisitors, setLiveVisitors] = useState(0);
@@ -91,9 +92,19 @@ const ProductDetailPage: React.FC = () => {
   });
 
   const handleLoginPrompt = () => { preloadLoginModal(); setIsLoginModalOpen(true); };
+  const handleAddToCart = () => {
+    if (!product) return;
+
+    if (!isAuthenticated) {
+      handleLoginPrompt();
+      return;
+    }
+
+    void addToCart(product.id, 1, selectedOptions);
+  };
 
   if (!product) {
-    return loading ? <Spinner /> : <Navigate to="/404" replace />;
+    return loading || isProductLoading ? <Spinner /> : <Navigate to="/404" replace />;
   }
   
   const renderActiveTab = () => {
@@ -152,7 +163,7 @@ const ProductDetailPage: React.FC = () => {
                               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                           </span>
                           <span className="text-[10px] font-black uppercase tracking-widest text-base-content/60">
-                              {liveVisitors} {t('detail.viewingNow') || 'People viewing this right now'}
+                              {liveVisitors} {t('detail.viewingNow')}
                           </span>
                       </div>
                   )}
@@ -169,7 +180,7 @@ const ProductDetailPage: React.FC = () => {
                   )}
                 </div>
                 <div className="flex flex-col gap-2.5 w-full sm:w-[220px] shrink-0">
-                  <button onClick={() => addToCart(product.id, 1)} className="w-full py-2.5 rounded-lg bg-accent text-accent-content font-black text-xs uppercase tracking-wider shadow-[0_5px_15px_-5px_rgba(4,217,255,0.5)] hover:shadow-[0_10px_20px_-5px_rgba(4,217,255,0.6)] hover:-translate-y-0.5 active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2" disabled={isOutOfStock}><i className="fa-solid fa-cart-shopping"></i> {t('detail.addToCart')}</button>
+                  <button onClick={handleAddToCart} className="w-full py-2.5 rounded-lg bg-accent text-accent-content font-black text-xs uppercase tracking-wider shadow-[0_5px_15px_-5px_rgba(4,217,255,0.5)] hover:shadow-[0_10px_20px_-5px_rgba(4,217,255,0.6)] hover:-translate-y-0.5 active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2" disabled={isOutOfStock}><i className="fa-solid fa-cart-shopping"></i> {t('detail.addToCartBtn')}</button>
                   <button onClick={handleFavoriteToggle} className={`w-full py-2.5 rounded-lg font-black text-xs uppercase tracking-wider transition-all border-2 flex items-center justify-center gap-2 ${isLiked ? 'bg-red-500/10 border-red-500 text-red-500 shadow-[0_5px_15px_-5px_rgba(239,68,68,0.3)]' : 'bg-base-300/50 border-base-content/5 text-base-content/60 hover:bg-red-500 hover:border-red-500 hover:text-white'}`}><i className={`${isLiked ? 'fa-solid' : 'fa-regular'} fa-heart`}></i> {isLiked ? t('detail.inFavorites') : t('detail.addToFavorites')}</button>
                 </div>
               </div>

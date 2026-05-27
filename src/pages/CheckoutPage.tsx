@@ -4,6 +4,7 @@ import { useTranslation } from '../hooks/useTranslation';
 import { useCurrency } from '../contexts/CurrencyContext';
 import { preloadCartDrawer } from '../utils/deferredOverlays';
 import { calculateOrderAmounts, formatTaxRate } from '../utils/pricing';
+import { getCartItemKey, selectedOptionsLabel } from '../utils/cartLine';
 import CheckoutForm from '../components/cart/CheckoutForm';
 import CheckoutSourcingPreview from '../components/subshopping/CheckoutSourcingPreview';
 
@@ -16,7 +17,12 @@ const CheckoutPage: React.FC = () => {
         if (!user) return [];
         return user.cart.map(item => {
             const product = products.find(p => p.id === item.productId);
-            return { ...item, product };
+            return {
+                ...item,
+                cartItemId: getCartItemKey(item),
+                optionsLabel: selectedOptionsLabel(item.selectedOptions),
+                product,
+            };
         });
     }, [user, products]);
 
@@ -45,7 +51,7 @@ const CheckoutPage: React.FC = () => {
             <div className="container mx-auto px-4 py-8 lg:py-16 relative z-10 max-w-7xl">
                 <header className="mb-12">
                     <h1 className="text-5xl font-black tracking-tight mb-2">
-                        <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Checkout</span>
+                        <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">{t('checkout.title')}</span>
                     </h1>
                     <div className="flex items-center gap-2 text-base-content/50 font-medium">
                         <i className="fa-solid fa-shield-check text-success"></i>
@@ -56,9 +62,9 @@ const CheckoutPage: React.FC = () => {
                 <div className="flex flex-col lg:flex-row gap-12 lg:gap-20">
                     {/* Left Column: Form Integration */}
                     <div className="w-full lg:w-[55%]">
-                        <CheckoutForm 
-                            total={total} 
-                            onCancel={() => setView('home')} 
+                        <CheckoutForm
+                            total={total}
+                            onCancel={() => setView('cart')}
                         />
                         <div className="mt-6">
                             <CheckoutSourcingPreview cartItems={cartDetails} wholesalers={wholesalers} formatPrice={formatPrice} />
@@ -80,16 +86,23 @@ const CheckoutPage: React.FC = () => {
                             
                             <div className="space-y-6 mb-10 max-h-[400px] overflow-y-auto custom-scrollbar pr-4">
                                 {cartDetails.map(item => (
-                                    <div key={item.productId} className="flex gap-6 items-center group">
+                                    <div key={item.cartItemId} className="flex gap-6 items-center group">
                                         <div className="w-20 h-20 rounded-2xl bg-base-100 flex-shrink-0 p-3 border border-base-content/5 relative shadow-sm group-hover:shadow-md transition-shadow">
-                                            <img src={item.product?.imageUrl} alt="" className="w-full h-full object-contain" />
+                                            {item.product ? (
+                                                <img src={item.product.imageUrl} alt="" className="w-full h-full object-contain" />
+                                            ) : (
+                                                <div className="flex h-full w-full items-center justify-center text-base-content/25">
+                                                    <i className="fa-solid fa-box text-2xl" aria-hidden="true"></i>
+                                                </div>
+                                            )}
                                             <span className="absolute -top-3 -right-3 bg-primary text-white text-[10px] font-black w-7 h-7 rounded-full flex items-center justify-center shadow-lg border-2 border-base-200">
                                                 {item.quantity}
                                             </span>
                                         </div>
                                         <div className="flex-1 min-w-0">
-                                            <p className="font-bold text-base truncate group-hover:text-primary transition-colors">{item.product?.name}</p>
-                                            <p className="text-xs font-bold text-base-content/30 uppercase tracking-widest">{item.product?.brand}</p>
+                                            <p className="font-bold text-base truncate group-hover:text-primary transition-colors">{item.product?.name || item.productId}</p>
+                                            <p className="text-xs font-bold text-base-content/30 uppercase tracking-widest">{item.product?.brand || t('cart.product')}</p>
+                                            {item.optionsLabel && <p className="mt-1 truncate text-[11px] font-semibold text-base-content/45">{item.optionsLabel}</p>}
                                         </div>
                                         <div className="font-mono font-black text-right">
                                             {formatPrice(item.price * item.quantity)}
@@ -115,7 +128,7 @@ const CheckoutPage: React.FC = () => {
                                 <div className="divider opacity-30 my-4"></div>
                                 
                                 <div className="flex justify-between items-center">
-                                    <span className="font-black text-base-content/30 uppercase tracking-[0.25em] text-xs">Total Amount</span>
+                                    <span className="font-black text-base-content/30 uppercase tracking-[0.25em] text-xs">{t('checkout.totalAmount')}</span>
                                     <span className="text-4xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent font-mono tracking-tighter">
                                         {formatPrice(total)}
                                     </span>

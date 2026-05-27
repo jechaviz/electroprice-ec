@@ -3,7 +3,7 @@ import React, { useContext, useMemo } from 'react';
 import { AppContext } from '../contexts/AppContext';
 import { useTranslation } from '../hooks/useTranslation';
 import { useCurrency } from '../contexts/CurrencyContext';
-import { Product } from '../types';
+import { getCartItemKey, selectedOptionsLabel } from '../utils/cartLine';
 import { calculateOrderAmounts, formatTaxRate } from '../utils/pricing';
 
 const CartPage: React.FC = () => {
@@ -17,9 +17,11 @@ const CartPage: React.FC = () => {
       const product = products.find(p => p.id === item.productId);
       return {
         ...item,
-        product: product as Product,
+        cartItemId: getCartItemKey(item),
+        optionsLabel: selectedOptionsLabel(item.selectedOptions),
+        product,
       };
-    }).filter(item => item.product); // Filter out items where product might not be found
+    });
   }, [user, products]);
 
   const subtotal = useMemo(() => {
@@ -62,11 +64,23 @@ const CartPage: React.FC = () => {
               </thead>
               <tbody>
                 {cartDetails.map(item => (
-                  <tr key={item.productId} className="hover">
+                  <tr key={item.cartItemId} className="hover">
                     <td>
                       <div className="flex items-center space-x-3">
-                        <div className="avatar"><div className="mask mask-squircle w-12 h-12"><img src={item.product.imageUrl} alt={item.product.name} /></div></div>
-                        <div><div className="font-bold">{item.product.name}</div><div className="text-sm opacity-50">{item.product.brand}</div></div>
+                        <div className="avatar">
+                          <div className="mask mask-squircle flex w-12 h-12 items-center justify-center bg-base-300">
+                            {item.product ? (
+                              <img src={item.product.imageUrl} alt={item.product.name} />
+                            ) : (
+                              <i className="fa-solid fa-box text-base-content/30" aria-hidden="true"></i>
+                            )}
+                          </div>
+                        </div>
+                        <div>
+                          <div className="font-bold">{item.product?.name || item.productId}</div>
+                          <div className="text-sm opacity-50">{item.product?.brand || t('cart.product')}</div>
+                          {item.optionsLabel && <div className="text-xs opacity-50">{item.optionsLabel}</div>}
+                        </div>
                       </div>
                     </td>
                     <td className="text-center">
@@ -74,13 +88,13 @@ const CartPage: React.FC = () => {
                         type="number" 
                         min="1" 
                         value={item.quantity} 
-                        onChange={(e) => updateCartQuantity(item.productId, parseInt(e.target.value, 10))}
+                        onChange={(e) => updateCartQuantity(item.cartItemId, parseInt(e.target.value, 10))}
                         className="input input-bordered input-sm w-20 text-center"
                       />
                     </td>
                     <td className="text-right">{formatPrice(item.price)}</td>
                     <td className="text-right font-bold">{formatPrice(item.price * item.quantity)}</td>
-                    <td><button onClick={() => removeFromCart(item.productId)} className="btn btn-ghost btn-xs"><i className="fa-solid fa-trash-can"></i></button></td>
+                    <td><button onClick={() => removeFromCart(item.cartItemId)} className="btn btn-ghost btn-xs"><i className="fa-solid fa-trash-can"></i></button></td>
                   </tr>
                 ))}
               </tbody>

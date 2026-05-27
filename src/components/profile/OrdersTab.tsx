@@ -3,6 +3,7 @@ import { AppContext } from '../../contexts/AppContext';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { Order, OrderStatus } from '../../types';
+import { getOrderItemKey, selectedOptionsLabel } from '../../utils/cartLine';
 import { EmptyState, SectionShell, ORDER_FLOW, getProgressIndex, getOrderTone, formatDate } from './ProfileUI';
 
 export const OrderCard: React.FC<{ order: Order; onViewDetails: (id: string) => void }> = ({ order, onViewDetails }) => {
@@ -42,9 +43,14 @@ export const OrderCard: React.FC<{ order: Order; onViewDetails: (id: string) => 
       </div>
       <div className="mt-4 space-y-2">
         {order.items.slice(0, 3).map(item => (
-          <div key={`${order.id}-${item.productId}`} className="flex items-center gap-3 text-sm">
+          <div key={`${order.id}-${getOrderItemKey(item)}`} className="flex items-center gap-3 text-sm">
             <img src={item.imageUrl} alt="" className="h-10 w-10 rounded-md object-cover" />
-            <span className="min-w-0 flex-1 truncate font-semibold">{item.name}</span>
+            <span className="min-w-0 flex-1">
+              <span className="block truncate font-semibold">{item.name}</span>
+              {selectedOptionsLabel(item.selectedOptions) && (
+                <span className="block truncate text-[10px] text-base-content/40">{selectedOptionsLabel(item.selectedOptions)}</span>
+              )}
+            </span>
             <span className="text-base-content/45">x{item.quantity}</span>
           </div>
         ))}
@@ -62,12 +68,11 @@ export const OrderCard: React.FC<{ order: Order; onViewDetails: (id: string) => 
 };
 
 export const OrdersTab: React.FC<{ userOrders: Order[] }> = ({ userOrders }) => {
-  const { loading, setView, setOrderId } = useContext(AppContext);
+  const { loading, navigateToOrder } = useContext(AppContext);
   const { t } = useTranslation();
 
   const handleViewOrder = (orderId: string) => {
-    setOrderId(orderId);
-    setView('orderDetail');
+    navigateToOrder(orderId);
   };
 
   if (loading && userOrders.length === 0) {

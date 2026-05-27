@@ -92,4 +92,37 @@ describe("full subshopping customer pipeline", () => {
     expect(refunded.refundStatus).toBe("Refunded");
     expect(refunded.refundId).toContain("rf_order-pipeline-1");
   });
+
+  it("does not mark an order delivered while a provider gate is open", () => {
+    const lifecycle = new OrderLifecycleService();
+    const order = baseOrder();
+    const gatedOrder: Order = {
+      ...order,
+      status: "Awaiting Shipment from Wholesaler",
+      subshoppingStatus: "Awaiting Provider",
+      purchaseOrders: [
+        {
+          id: "po-gated",
+          providerId: "syscom",
+          providerName: "SYSCOM Mexico",
+          channel: "manual",
+          runtime: "manual",
+          status: "Provider Gate",
+          paymentStatus: "Not Started",
+          items: order.items,
+          subtotalCost: order.totalCost,
+          shippingAddress: order.shippingAddress,
+          nextAction: "Registrar spec de compra.",
+        },
+      ],
+    };
+
+    const attemptedShipment = lifecycle.advanceProviderShipment(gatedOrder);
+    const attemptedDelivery = lifecycle.confirmDelivery(attemptedShipment);
+
+    expect(attemptedShipment.status).toBe("Awaiting Shipment from Wholesaler");
+    expect(attemptedShipment.subshoppingStatus).toBe("Awaiting Provider");
+    expect(attemptedDelivery.status).toBe("Awaiting Shipment from Wholesaler");
+    expect(attemptedDelivery.purchaseOrders?.[0].status).toBe("Provider Gate");
+  });
 });

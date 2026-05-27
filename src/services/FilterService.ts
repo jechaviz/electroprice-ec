@@ -6,6 +6,7 @@ import { productsSignal } from "../signals/data.signals";
 import { ratesSignal, currencySignal } from "../signals/config.signals";
 import { Product } from "../types";
 import { computed } from "@preact/signals-react";
+import { getIndexedTotalStock } from "../utils/productIndex";
 
 export class FilterService {
     static isDeal(p: Product) {
@@ -38,6 +39,8 @@ export class FilterService {
         ];
 
         return products.filter(p => {
+            if (getIndexedTotalStock(p) <= 0) return false;
+
             const bestPrice = p.wholesalerStock.length > 0 ? Math.min(...p.wholesalerStock.map(px => px.price)) : null;
             if (bestPrice === null) return false;
 
@@ -52,7 +55,11 @@ export class FilterService {
                     return productValue ? value.includes(productValue) : false;
                 } else {
                     const specValue = p.specs[key];
-                    return specValue ? Number(specValue) >= (value as number) : true;
+                    if (specValue === undefined || specValue === null || specValue === '') {
+                        return false;
+                    }
+                    const numericSpecValue = Number(specValue);
+                    return Number.isFinite(numericSpecValue) && numericSpecValue >= (value as number);
                 }
             });
 

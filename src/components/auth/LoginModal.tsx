@@ -167,7 +167,7 @@ const LoginModal: React.FC = () => {
                      <button 
                         type="button" 
                         className="btn btn-sm bg-base-300 text-xs hover:bg-base-content hover:text-base-100 border-0 shadow-sm"
-                        onClick={() => fillDemo('admin@electroprice.com|test1234')}
+                        onClick={() => fillDemo('admin.user@electroprice.com|test1234')}
                     >
                         <i className="fa-solid fa-shield text-[10px]"></i> Admin
                      </button>

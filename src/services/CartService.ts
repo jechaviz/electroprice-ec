@@ -13,19 +13,25 @@ import { preloadCartDrawer } from "../utils/deferredOverlays";
 import { NotificationService } from "./NotificationService";
 import { PaymentService } from "./PaymentService";
 import { services } from "./ServiceContainer";
+import { ProductCatalogService } from "./ProductCatalogService";
+import { createCartLineId, getCartItemKey, normalizeSelectedOptions } from "../utils/cartLine";
 import type { CartItem, Order, OrderItem, OrderStatus } from "../types";
 
 export class CartService {
-    static async addToCart(productId: string, quantity: number) {
+    static async addToCart(productId: string, quantity: number, selectedOptions: Record<string, string> = {}) {
         const user = currentUserSignal.value;
         if (!user || user.role !== 'user') {
             NotificationService.error('Please sign in as a customer to shop.');
             return;
         }
 
-        const requestedQuantity = Math.max(1, Math.floor(quantity));
+        const requestedQuantity = Math.floor(quantity);
+        if (!Number.isFinite(requestedQuantity) || requestedQuantity < 1) {
+            NotificationService.error('Quantity must be at least 1.');
+            return;
+        }
         const products = productsSignal.value;
-        const product = products.find(p => p.id === productId);
+        const product = products.find(p => p.id === productId) ?? await ProductCatalogService.fetchProductDetail(productId);
 
         if (!product) {
             NotificationService.error('Product not found.');
@@ -40,21 +46,29 @@ export class CartService {
             return;
         }
 
+        const normalizedOptions = normalizeSelectedOptions(selectedOptions);
+        const cartLineId = createCartLineId(productId, normalizedOptions);
         const bestPrice = Math.min(...availableStock.map(p => p.price));
-        const existingItem = user.cart.find(item => item.productId === productId);
-        const nextQuantity = (existingItem?.quantity || 0) + requestedQuantity;
+        const existingItem = user.cart.find(item => getCartItemKey(item) === cartLineId);
+        const quantityAlreadyInCart = user.cart
+            .filter(item => item.productId === productId)
+            .reduce((sum, item) => sum + item.quantity, 0);
+        const nextQuantityForProduct = quantityAlreadyInCart + requestedQuantity;
 
-        if (nextQuantity > totalAvailableStock) {
+        if (nextQuantityForProduct > totalAvailableStock) {
             NotificationService.error(`Only ${totalAvailableStock} units are available.`);
             return;
         }
 
         let newCart: CartItem[];
         if (existingItem) {
-            newCart = user.cart.map(item => item.productId === productId ? { ...item, quantity: item.quantity + requestedQuantity } : item);
+            newCart = user.cart.map(item => getCartItemKey(item) === cartLineId
+                ? { ...item, id: cartLineId, quantity: item.quantity + requestedQuantity, selectedOptions: normalizedOptions }
+                : item
+            );
         } else {
             const retailPrice = calculateRetailPrice(bestPrice);
-            newCart = [...user.cart, { productId, quantity: requestedQuantity, price: retailPrice }];
+            newCart = [...user.cart, { id: cartLineId, productId, quantity: requestedQuantity, price: retailPrice, selectedOptions: normalizedOptions }];
         }
 
         // Optimistic update
@@ -75,23 +89,45 @@ export class CartService {
         }
     }
 
-    static async updateCartQuantity(productId: string, quantity: number) {
+    static async updateCartQuantity(cartItemId: string, quantity: number) {
         const user = currentUserSignal.value;
         if (!user) return;
 
         const requestedQuantity = Math.floor(quantity);
-        if (requestedQuantity < 1) return;
+        if (!Number.isFinite(requestedQuantity) || requestedQuantity < 1) return;
 
-        const product = productsSignal.value.find(p => p.id === productId);
+        const targetItem = user.cart.find(item => getCartItemKey(item) === cartItemId);
+        if (!targetItem) return;
+
+        let product = productsSignal.value.find(p => p.id === targetItem.productId) ?? null;
+        if (!product) {
+            try {
+                product = await ProductCatalogService.fetchProductDetail(targetItem.productId);
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        if (!product && requestedQuantity > targetItem.quantity) {
+            NotificationService.error('Could not verify product stock.');
+            return;
+        }
+
         const totalAvailableStock = product?.wholesalerStock.reduce((sum, ws) => sum + ws.stock, 0) ?? requestedQuantity;
+        const quantityAlreadyInOtherLines = user.cart
+            .filter(item => item.productId === targetItem.productId && getCartItemKey(item) !== cartItemId)
+            .reduce((sum, item) => sum + item.quantity, 0);
 
-        if (requestedQuantity > totalAvailableStock) {
+        if (quantityAlreadyInOtherLines + requestedQuantity > totalAvailableStock) {
             NotificationService.error(`Only ${totalAvailableStock} units are available.`);
             return;
         }
 
         const previousCart = user.cart;
-        const newCart = user.cart.map(item => item.productId === productId ? { ...item, quantity: requestedQuantity } : item);
+        const newCart = user.cart.map(item => getCartItemKey(item) === cartItemId
+            ? { ...item, id: getCartItemKey(item), quantity: requestedQuantity }
+            : item
+        );
         
         currentUserSignal.value = { ...user, cart: newCart };
 
@@ -107,12 +143,12 @@ export class CartService {
         }
     }
 
-    static async removeFromCart(productId: string) {
+    static async removeFromCart(cartItemId: string) {
         const user = currentUserSignal.value;
         if (!user) return;
 
         const previousCart = user.cart;
-        const newCart = user.cart.filter(item => item.productId !== productId);
+        const newCart = user.cart.filter(item => getCartItemKey(item) !== cartItemId);
         
         currentUserSignal.value = { ...user, cart: newCart };
 
@@ -142,7 +178,20 @@ export class CartService {
             const pb = await loadPocketBase();
             const newOrderItems: OrderItem[] = [];
             const products = productsSignal.value;
-            const productsWithUpdatedStock = products.map(p => ({ ...p, wholesalerStock: [...p.wholesalerStock] }));
+            const missingProductIds = [
+                ...new Set(
+                    user.cart
+                        .map(item => item.productId)
+                        .filter(productId => !products.some(product => product.id === productId))
+                )
+            ];
+
+            if (missingProductIds.length > 0) {
+                await Promise.all(missingProductIds.map(productId => ProductCatalogService.fetchProductDetail(productId)));
+            }
+
+            const hydratedProducts = productsSignal.value;
+            const productsWithUpdatedStock = hydratedProducts.map(p => ({ ...p, wholesalerStock: [...p.wholesalerStock] }));
 
             for (const cartItem of user.cart) {
                 const product = productsWithUpdatedStock.find(p => p.id === cartItem.productId);
@@ -155,6 +204,7 @@ export class CartService {
                 if (!bestWholesaler) throw new Error(`Stock insuficiente para ${product.name}.`);
 
                 newOrderItems.push({
+                    cartLineId: getCartItemKey(cartItem),
                     productId: cartItem.productId,
                     name: product.name,
                     imageUrl: product.imageUrl,
@@ -162,6 +212,7 @@ export class CartService {
                     price: cartItem.price,
                     cost: bestWholesaler.price,
                     wholesalerId: bestWholesaler.wholesalerId,
+                    selectedOptions: cartItem.selectedOptions,
                 });
 
                 const wsIndex = product.wholesalerStock.findIndex(ws => ws.wholesalerId === bestWholesaler.wholesalerId);
@@ -191,10 +242,13 @@ export class CartService {
             });
             const newOrderId = createdOrder.id;
 
-            const stockUpdatePromises = newOrderItems.map(item => {
-                const productToUpdate = productsWithUpdatedStock.find(p => p.id === item.productId);
+            const stockUpdatePromises = [...new Set(newOrderItems.map(item => item.productId))].map(productId => {
+                const productToUpdate = productsWithUpdatedStock.find(p => p.id === productId);
                 if (!productToUpdate) return Promise.resolve();
-                return pb.collection('products').update(item.productId, { wholesaler_stock: productToUpdate.wholesalerStock });
+                return pb.collection('products').update(productId, {
+                    wholesaler_stock: productToUpdate.wholesalerStock,
+                    ...ProductCatalogService.productIndexPayload(productToUpdate)
+                });
             });
             await Promise.all(stockUpdatePromises);
             

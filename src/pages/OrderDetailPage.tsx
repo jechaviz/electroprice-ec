@@ -7,6 +7,7 @@ import type { OrderStatus } from '../types';
 import { useParams } from 'react-router-dom';
 import { services } from '../services/ServiceContainer';
 import SubshoppingWorkflowPanel from '../components/subshopping/SubshoppingWorkflowPanel';
+import { getOrderItemKey, selectedOptionsLabel } from '../utils/cartLine';
 
 const OrderDetailPage: React.FC = () => {
   const { orderId, orders, loading, setView, cancelOrder, requestReturn, confirmDelivery, refundReturn } = useContext(AppContext);
@@ -172,13 +173,16 @@ const OrderDetailPage: React.FC = () => {
             <h2 className="text-xl font-black uppercase tracking-tight mb-6">{t('order.items')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {order.items.map(item => (
-                <div key={item.productId} className="flex items-center gap-4 bg-base-300/50 p-4 rounded-3xl border border-base-content/5 transition-all hover:bg-base-300 group">
+                <div key={getOrderItemKey(item)} className="flex items-center gap-4 bg-base-300/50 p-4 rounded-3xl border border-base-content/5 transition-all hover:bg-base-300 group">
                   <div className="relative">
                       <img src={item.imageUrl} alt={item.name} className="w-20 h-20 object-cover rounded-2xl shadow-md"/>
                       <span className="absolute -top-2 -right-2 h-6 w-6 bg-primary text-primary-content rounded-full flex items-center justify-center text-[10px] font-black">{item.quantity}</span>
                   </div>
                   <div className="flex-grow min-w-0">
                     <p className="font-black text-sm truncate">{item.name}</p>
+                    {selectedOptionsLabel(item.selectedOptions) && (
+                      <p className="mt-1 truncate text-[10px] font-semibold text-base-content/45">{selectedOptionsLabel(item.selectedOptions)}</p>
+                    )}
                     <p className="text-[10px] font-bold text-base-content/40 uppercase tracking-widest mt-1">Unit Price: {formatPrice(item.price)}</p>
                   </div>
                   <p className="font-black text-primary">{formatPrice(item.price * item.quantity)}</p>

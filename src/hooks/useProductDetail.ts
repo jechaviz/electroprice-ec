@@ -1,27 +1,32 @@
 import { useContext, useEffect, useState, useMemo, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
 import { AppContext } from '../contexts/AppContext';
-import { productSlugMatchesId } from '../utils/slugify';
+import { getProductIdCandidatesFromSlug, productSlugMatchesId } from '../utils/slugify';
 import { generateProductSummary } from '../services/geminiService';
 import { preloadLoginModal } from '../utils/deferredOverlays';
 import { getProductGalleryImages } from '../utils/productGallery';
 import { getProductDisplayPrice, getLowestWholesalerPrice } from '../utils/pricing';
+import { ProductCatalogService } from '../services/ProductCatalogService';
+import type { Product } from '../types';
 
 export type SectionType = 'description' | 'specs' | 'reviews' | 'ai';
 
 export const useProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
-  const { products, user, isAuthenticated, toggleFavorite, setIsLoginModalOpen, setCategory, setView } = useContext(AppContext);
+  const { products, user, isAuthenticated, toggleFavorite, setIsLoginModalOpen, navigateToCategory } = useContext(AppContext);
   const [aiSummary, setAiSummary] = useState<string>('');
   const [isSummaryLoading, setIsSummaryLoading] = useState<boolean>(true);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [activeTab, setActiveTab] = useState<SectionType>('description');
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
+  const [remoteProduct, setRemoteProduct] = useState<Product | null>(null);
+  const [isProductLoading, setIsProductLoading] = useState(false);
 
-  const product = useMemo(() => {
+  const cachedProduct = useMemo(() => {
     if (!slug) return null;
     return products.find(p => productSlugMatchesId(slug, p.id)) ?? null;
   }, [slug, products]);
+  const product = remoteProduct ?? cachedProduct;
 
   const isLiked = useMemo(() => {
     return product ? user?.favorites.includes(product.id) ?? false : false;
@@ -49,6 +54,41 @@ export const useProductDetail = () => {
     if (!product) return [];
     return products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 10);
   }, [product, products]);
+
+  useEffect(() => {
+    if (!slug) return;
+
+    let cancelled = false;
+    const cachedProductId = cachedProduct?.id;
+    const loadDetailProduct = async () => {
+      setRemoteProduct(null);
+      setIsProductLoading(true);
+      try {
+        const detailProduct = cachedProductId
+          ? await ProductCatalogService.fetchProductDetail(cachedProductId)
+          : await ProductCatalogService.fetchProductFromSlugCandidates(getProductIdCandidatesFromSlug(slug));
+
+        if (!cancelled) {
+          setRemoteProduct(detailProduct);
+        }
+      } catch (error) {
+        console.error('Failed to fetch product detail:', error);
+        if (!cancelled) {
+          setRemoteProduct(null);
+        }
+      } finally {
+        if (!cancelled) {
+          setIsProductLoading(false);
+        }
+      }
+    };
+
+    void loadDetailProduct();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [cachedProduct?.id, slug]);
 
   useEffect(() => {
     if (slug) {
@@ -88,9 +128,8 @@ export const useProductDetail = () => {
   }, [product, isAuthenticated, toggleFavorite, setIsLoginModalOpen]);
 
   const navigateCategory = useCallback(() => {
-    if (product) setCategory(product.category);
-    setView('list');
-  }, [product, setCategory, setView]);
+    if (product) navigateToCategory(product.category);
+  }, [product, navigateToCategory]);
 
   return {
     product,
@@ -113,5 +152,6 @@ export const useProductDetail = () => {
     galleryImages,
     approvedReviews,
     similarProducts,
+    isProductLoading,
   };
 };

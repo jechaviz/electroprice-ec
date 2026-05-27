@@ -1,5 +1,6 @@
 
 import React, { useContext, useState, useCallback } from 'react';
+import { useSignals } from '@preact/signals-react/runtime';
 import { AppContext } from '../../contexts/AppContext';
 import { useTranslation } from '../../hooks/useTranslation';
 import SettingsBar from './SettingsBar';
@@ -32,6 +33,7 @@ const ChipIcon: React.FC<{ className?: string }> = ({ className = '' }) => (
 import { useNavigate } from 'react-router-dom';
 
 const Header: React.FC = () => {
+  useSignals();
   const { 
     setView, setSearchTerm, setCategory, 
     isAuthenticated, user, signOut, setIsLoginModalOpen, setIsCartDrawerOpen
@@ -68,6 +70,12 @@ const Header: React.FC = () => {
   };
 
   const handleOpenCart = () => {
+    if (!isAuthenticated || !user) {
+      preloadLoginModal();
+      setIsLoginModalOpen(true);
+      return;
+    }
+
     preloadCartDrawer();
     setIsCartDrawerOpen(true);
   };
@@ -195,7 +203,7 @@ const Header: React.FC = () => {
                   </li>
                   {user.role === 'user' && (
                      <li>
-                      <button type="button" onClick={() => setView('profile')} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left font-semibold transition-colors hover:bg-primary/10 hover:text-primary">
+                      <button type="button" onClick={() => navigate('/profile')} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left font-semibold transition-colors hover:bg-primary/10 hover:text-primary">
                         <i className="fa-solid fa-user fa-fw opacity-70"></i>
                         {t('header.nav.myAccount')}
                       </button>
@@ -211,7 +219,7 @@ const Header: React.FC = () => {
                   )}
                   {user.role === 'user' && (
                      <li>
-                      <button type="button" onClick={() => setView('profile')} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left font-semibold transition-colors hover:bg-primary/10 hover:text-primary">
+                      <button type="button" onClick={() => navigate('/profile?tab=orders')} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left font-semibold transition-colors hover:bg-primary/10 hover:text-primary">
                         <i className="fa-solid fa-box fa-fw opacity-70"></i>
                         {t('header.nav.myOrders')}
                       </button>
@@ -221,7 +229,7 @@ const Header: React.FC = () => {
                      <li>
                       <button type="button" onClick={() => setView('settings')} className="flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left font-semibold transition-colors hover:bg-primary/10 hover:text-primary">
                         <i className="fa-solid fa-gear fa-fw opacity-70"></i>
-                        System Settings
+                        {t('header.nav.systemSettings')}
                       </button>
                     </li>
                   )}

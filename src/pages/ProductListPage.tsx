@@ -1,8 +1,7 @@
-import React, { Suspense, lazy, useContext, useEffect, useMemo, useCallback } from 'react';
+import React, { Suspense, lazy, useContext, useEffect, useCallback } from 'react';
 import { AppContext } from '../contexts/AppContext';
 import type { ViewMode, SortOption } from '../types';
 import NativeSelect from '../components/common/NativeSelect';
-import ProductCard from '../components/product/ProductCard';
 import Spinner from '../components/common/Spinner';
 import ToggleSwitch from '../components/common/ToggleSwitch';
 import { useTranslation } from '../hooks/useTranslation';
@@ -11,6 +10,10 @@ import SmartFilters from '../components/product/SmartFilters';
 import { SMART_FILTER_CONFIG } from '../constants';
 import { useSEO } from '../hooks/useSEO';
 import { useProductFilters, BASE_MAX_PRICE } from '../hooks/useProductFilters';
+import { useDebounce } from '../hooks/useDebounce';
+import { useInfiniteProductCatalog } from '../hooks/useInfiniteProductCatalog';
+import VirtualizedProductGrid from '../components/product/VirtualizedProductGrid';
+import { searchTermRequestsOutOfStock } from '../utils/productIndex';
 
 import { useParams, useSearchParams } from 'react-router-dom';
 
@@ -21,6 +24,7 @@ const ProductMapView = lazy(loadProductMapView);
 const ProductMap = lazy(loadProductMap);
 
 type DeferredViewMode = Extract<ViewMode, 'table' | 'map'>;
+const UNBOUNDED_PRICE_RANGE: [number, number] = [0, Infinity];
 
 const DeferredViewFallback: React.FC<{ viewMode: DeferredViewMode; label: string }> = ({ viewMode, label }) => (
   <div
@@ -54,7 +58,7 @@ const DeferredViewFallback: React.FC<{ viewMode: DeferredViewMode; label: string
 );
 
 const ProductListPage: React.FC = () => {
-  const { products, loading, error, setCategory, setSearchTerm } = useContext(AppContext);
+  const { products: cachedProducts, loading, error, setCategory, setSearchTerm } = useContext(AppContext);
   const { categoryId } = useParams<{ categoryId: string }>();
   const [searchParams] = useSearchParams();
   const q = searchParams.get('q');
@@ -64,6 +68,7 @@ const ProductListPage: React.FC = () => {
 
   const searchTerm = q || '';
   const category = categoryId || '';
+  const outOfStockRequestedBySearch = searchTermRequestsOutOfStock(searchTerm);
   const resultsRegionId = 'product-results-region';
 
   useEffect(() => {
@@ -84,10 +89,38 @@ const ProductListPage: React.FC = () => {
     setSortOption,
     dealsOnly,
     setDealsOnly,
-    sortedProducts,
     activeFilterCount,
     resetFilters,
   } = useProductFilters();
+  const effectiveStockFilter = outOfStockRequestedBySearch ? 'out-of-stock' : 'available';
+  const maxPriceInSelectedCurrency = rates && currency ? Math.ceil(BASE_MAX_PRICE * rates[currency]) : BASE_MAX_PRICE;
+  const debouncedPriceRange = useDebounce(
+    priceRange[0] <= 0 && priceRange[1] >= maxPriceInSelectedCurrency ? UNBOUNDED_PRICE_RANGE : priceRange,
+    250
+  );
+  const debouncedMinRating = useDebounce(minRating, 250);
+  const debouncedSmartFilterValues = useDebounce(smartFilterValues, 250);
+  const {
+    products: sortedProducts,
+    total: catalogTotal,
+    loadingInitial: catalogLoadingInitial,
+    loadingMore: catalogLoadingMore,
+    hasMore: catalogHasMore,
+    error: catalogError,
+    loadMore,
+    setSentinelNode,
+  } = useInfiniteProductCatalog({
+    searchTerm,
+    category: category || null,
+    priceRange: debouncedPriceRange,
+    minRating: debouncedMinRating,
+    smartFilterValues: debouncedSmartFilterValues,
+    sortOption,
+    dealsOnly,
+    stockFilter: effectiveStockFilter,
+    rates,
+    currency,
+  });
 
   useSEO({
     title: searchTerm
@@ -114,8 +147,6 @@ const ProductListPage: React.FC = () => {
     return t('header.nav.categories');
   }
 
-  const maxPriceInSelectedCurrency = useMemo(() => rates && currency ? Math.ceil(BASE_MAX_PRICE * rates[currency]) : BASE_MAX_PRICE, [rates, currency]);
-
   const preloadDeferredView = useCallback((nextViewMode: ViewMode) => {
     if (nextViewMode === 'table') {
       void loadProductMapView();
@@ -134,14 +165,15 @@ const ProductListPage: React.FC = () => {
   const renderDeferredView = useCallback((nextViewMode: DeferredViewMode) => {
     const label = t(nextViewMode === 'table' ? 'list.view.table' : 'list.view.map');
     const sectionId = nextViewMode === 'table' ? 'product-table-view' : 'product-map-view';
+    const comparisonProducts = sortedProducts.slice(0, 180);
 
     return (
       <section id={sectionId} role="region" aria-label={label}>
         <Suspense fallback={<DeferredViewFallback viewMode={nextViewMode} label={label} />}>
           {nextViewMode === 'table' ? (
-            <ProductMapView products={sortedProducts} />
+            <ProductMapView products={comparisonProducts} />
           ) : (
-            <ProductMap products={sortedProducts} />
+            <ProductMap products={comparisonProducts} />
           )}
         </Suspense>
       </section>
@@ -154,27 +186,23 @@ const ProductListPage: React.FC = () => {
         case 'map': return renderDeferredView('map');
         case 'grid':
         default: return (
-            <section id="product-grid-view" role="region" aria-label={t('list.view.grid')}>
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
-                  {sortedProducts.map(product => <ProductCard key={product.id} product={product} />)}
-              </div>
-            </section>
+            <VirtualizedProductGrid products={sortedProducts} ariaLabel={t('list.view.grid')} />
         );
     }
   }
 
   const renderContent = () => {
-    if (loading && products.length === 0) {
+    if ((loading && cachedProducts.length === 0) || (catalogLoadingInitial && sortedProducts.length === 0)) {
       return <Spinner />;
     }
 
-    if (error) {
+    if (error || catalogError) {
       return (
         <div className="card bg-base-200 shadow-xl">
           <div className="card-body items-center text-center text-error">
             <i className="fa-solid fa-circle-xmark text-4xl mb-4"></i>
             <h2 className="card-title text-2xl">{t('list.error')}</h2>
-            <p>{error}</p>
+            <p>{error || catalogError?.message}</p>
           </div>
         </div>
       );
@@ -226,7 +254,7 @@ const ProductListPage: React.FC = () => {
               <div>
                 <h1 className="text-3xl font-bold">{getTitle()}</h1>
                 <p className="mt-1 text-sm font-medium text-base-content/55" aria-live="polite">
-                  {t('list.resultsCount', { count: sortedProducts.length })}
+                  {t('list.resultsCount', { count: catalogTotal ?? sortedProducts.length + (catalogHasMore ? '+' : '') })}
                   {activeFilterCount > 0 ? ` · ${t('list.activeFilters', { count: activeFilterCount })}` : ''}
                 </p>
               </div>
@@ -260,8 +288,19 @@ const ProductListPage: React.FC = () => {
             </div>
           </div>
           
-          <div id={resultsRegionId} aria-busy={loading}>
+          <div id={resultsRegionId} aria-busy={loading || catalogLoadingInitial || catalogLoadingMore}>
             {renderContent()}
+          </div>
+          <div ref={setSentinelNode} className="flex min-h-24 items-center justify-center py-6" role="status" aria-live="polite">
+            {catalogLoadingMore ? (
+              <span className="loading loading-spinner loading-md text-primary" aria-label={t('list.loadingMore')}></span>
+            ) : catalogHasMore && sortedProducts.length > 0 ? (
+              <button type="button" className="btn btn-ghost btn-sm" onClick={loadMore}>
+                {t('list.loadingMore')}
+              </button>
+            ) : sortedProducts.length > 0 ? (
+              <span className="text-xs font-semibold uppercase tracking-widest text-base-content/35">{t('list.endOfResults')}</span>
+            ) : null}
           </div>
 
         </div>

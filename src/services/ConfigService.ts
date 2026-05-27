@@ -1,4 +1,10 @@
-import { taxRateSignal, baseShippingFeeSignal, platformCommissionSignal, isMaintenanceModeSignal } from "../signals/config.signals";
+import {
+    taxRateSignal,
+    baseShippingFeeSignal,
+    platformCommissionSignal,
+    exchangeRateMarkupSignal,
+    isMaintenanceModeSignal,
+} from "../signals/config.signals";
 
 export class ConfigService {
     /**
@@ -7,16 +13,19 @@ export class ConfigService {
     updateConfig(config: { 
         taxRate?: number, 
         baseShippingFee?: number, 
-        platformCommission?: number 
+        platformCommission?: number,
+        exchangeRateMarkup?: number,
     }) {
         if (config.taxRate !== undefined) taxRateSignal.value = config.taxRate;
         if (config.baseShippingFee !== undefined) baseShippingFeeSignal.value = config.baseShippingFee;
         if (config.platformCommission !== undefined) platformCommissionSignal.value = config.platformCommission;
+        if (config.exchangeRateMarkup !== undefined) exchangeRateMarkupSignal.value = Math.max(0, config.exchangeRateMarkup);
 
         localStorage.setItem('ep_config', JSON.stringify({
             taxRate: taxRateSignal.value,
             baseShippingFee: baseShippingFeeSignal.value,
-            platformCommission: platformCommissionSignal.value
+            platformCommission: platformCommissionSignal.value,
+            exchangeRateMarkup: exchangeRateMarkupSignal.value,
         }));
     }
 

@@ -1,7 +1,8 @@
-import React, { createContext, useEffect, ReactNode, useContext, useMemo } from 'react';
+import React, { createContext, useEffect, ReactNode, useContext } from 'react';
+import { useSignals } from '@preact/signals-react/runtime';
 import type { Currency, Rates } from '../types';
 import { currencySignal, ratesSignal, currencyErrorSignal, isCurrencyLoadingSignal } from '../signals/config.signals';
-import { services } from '../services/ServiceContainer';
+import { CurrencyService } from '../services/CurrencyService';
 
 interface CurrencyContextType {
   currency: Currency;
@@ -15,18 +16,20 @@ interface CurrencyContextType {
 const CurrencyContext = createContext<CurrencyContextType>({} as CurrencyContextType);
 
 export const CurrencyProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  useSignals();
+
   useEffect(() => {
-    void services.currency.fetchRates();
+    void CurrencyService.fetchRates();
   }, []);
 
-  const value = useMemo(() => ({
+  const value = {
     currency: currencySignal.value,
-    setCurrency: (curr: Currency) => services.currency.setCurrency(curr),
+    setCurrency: (curr: Currency) => CurrencyService.setCurrency(curr),
     rates: ratesSignal.value,
     loading: isCurrencyLoadingSignal.value,
     error: currencyErrorSignal.value,
-    formatPrice: (priceInUsd: number) => services.currency.formatPrice(priceInUsd),
-  }), []);
+    formatPrice: (priceInUsd: number) => CurrencyService.formatPrice(priceInUsd),
+  };
   
   return (
     <CurrencyContext.Provider value={value}>

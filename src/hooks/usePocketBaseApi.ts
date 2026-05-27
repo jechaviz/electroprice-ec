@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { loadPocketBase } from '../utils/pocketBaseClient';
 import type { Product } from '../types';
+import { mapProductRecord } from '../utils/mappers';
 
 export const usePocketBaseApi = () => {
   const [loading, setLoading] = useState(false);
@@ -24,31 +25,13 @@ export const usePocketBaseApi = () => {
 
       filter = parts.join(' && ');
 
-      const records = await pb.collection('products').getFullList({
+      const records = await pb.collection('products').getList(1, 24, {
         filter: filter,
-        sort: '-created'
+        sort: '-review_count,-created',
+        skipTotal: true
       });
 
-      return records.map(p => ({
-        ...p,
-        id: p.id,
-        name: p.name,
-        category: p.category,
-        brand: p.brand,
-        description: p.description,
-        price: p.price,
-        imageUrl: p.image_url,
-        reviewCount: p.review_count,
-        avgRating: p.avg_rating,
-        wholesalerStock: p.wholesaler_stock,
-        priceHistory: p.price_history,
-        featureScore: p.feature_score,
-        oldPrice: p.old_price,
-        dealTag: p.deal_tag,
-        smartTag: p.smart_tag,
-        specs: p.specs || {},
-        reviews: [] 
-      })) as unknown as Product[];
+      return records.items.map(mapProductRecord) as Product[];
 
     } catch (e) {
       console.error("Error fetching products from PocketBase:", e);
@@ -72,18 +55,7 @@ export const usePocketBaseApi = () => {
           const expandedReviews = (record.expand?.reviews_via_product || []) as any[];
           
           return {
-            ...record,
-            id: record.id,
-            imageUrl: record.image_url,
-            reviewCount: record.review_count,
-            avgRating: record.avg_rating,
-            wholesalerStock: record.wholesaler_stock,
-            priceHistory: record.price_history,
-            featureScore: record.feature_score,
-            oldPrice: record.old_price,
-            dealTag: record.deal_tag,
-            smartTag: record.smart_tag,
-            specs: record.specs || {},
+            ...mapProductRecord(record),
             reviews: expandedReviews.map(r => ({
                 ...r,
                 id: r.id,

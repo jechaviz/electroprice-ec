@@ -1,4 +1,5 @@
 import React, { createContext, useEffect, ReactNode } from 'react';
+import { useSignals } from '@preact/signals-react/runtime';
 import { languageSignal, translationsSignal, Language } from '../signals/config.signals';
 import { services } from '../services/ServiceContainer';
 
@@ -11,6 +12,8 @@ interface LanguageContextType {
 export const LanguageContext = createContext<LanguageContextType>({} as LanguageContextType);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  useSignals();
+
   useEffect(() => {
     void services.language.fetchTranslations(languageSignal.value);
   }, []);

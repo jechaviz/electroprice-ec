@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Order, OrderStatus, Review, Product, User, Wholesaler } from '../../types';
 import NativeSelect from '../common/NativeSelect';
+import { getOrderItemKey, selectedOptionsLabel } from '../../utils/cartLine';
 
 interface OrderRowProps {
    order: Order;
@@ -52,10 +53,13 @@ export const OrderRow: React.FC<OrderRowProps> = ({
                   {order.items.map(item => {
                      const wholesaler = wholesalers.find(candidate => candidate.id === item.wholesalerId);
                      return (
-                        <div key={`${order.id}-${item.productId}`} className="flex items-center gap-2 text-xs text-base-content/65">
+                        <div key={`${order.id}-${getOrderItemKey(item)}`} className="flex items-center gap-2 text-xs text-base-content/65">
                            <img src={item.imageUrl} alt="" className="h-8 w-8 rounded-md object-cover" />
                            <span className="min-w-0 flex-1 truncate">
                               <span className="font-bold text-primary">x{item.quantity}</span> {item.name}
+                              {selectedOptionsLabel(item.selectedOptions) && (
+                                 <span className="ml-1 text-base-content/40">({selectedOptionsLabel(item.selectedOptions)})</span>
+                              )}
                            </span>
                            <span className="shrink-0 text-base-content/40">{wholesaler?.name || t('adminDashboard.common.notAvailable')}</span>
                         </div>

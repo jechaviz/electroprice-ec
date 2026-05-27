@@ -1,5 +1,6 @@
 import React from "react";
 import { services } from "../../services/ServiceContainer";
+import { getCartItemKey, selectedOptionsLabel } from "../../utils/cartLine";
 import type { CartItem, Product, Wholesaler } from "../../types";
 
 interface CheckoutSourcingPreviewProps {
@@ -19,8 +20,10 @@ const CheckoutSourcingPreview: React.FC<CheckoutSourcingPreviewProps> = ({ cartI
     const profile = services.providerRuntime.getProfile(stock.wholesalerId, wholesaler?.name);
 
     return [{
+      cartItemId: getCartItemKey(item),
       productName: item.product?.name ?? item.productId,
       quantity: item.quantity,
+      optionsLabel: selectedOptionsLabel(item.selectedOptions),
       providerName: profile.providerName,
       runtime: profile.runtime,
       channel: profile.channel,
@@ -42,10 +45,11 @@ const CheckoutSourcingPreview: React.FC<CheckoutSourcingPreviewProps> = ({ cartI
       </div>
       <div className="space-y-3">
         {rows.map(row => (
-          <div key={`${row.productName}-${row.providerName}`} className="rounded-xl border border-base-content/10 bg-base-100 p-3">
+          <div key={`${row.cartItemId}-${row.providerName}`} className="rounded-xl border border-base-content/10 bg-base-100 p-3">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="min-w-0">
                 <p className="truncate text-sm font-black">{row.productName}</p>
+                {row.optionsLabel && <p className="mt-1 truncate text-[10px] font-semibold text-base-content/45">{row.optionsLabel}</p>}
                 <p className="text-[10px] font-bold uppercase tracking-widest text-base-content/40">
                   x{row.quantity} via {row.providerName}
                 </p>

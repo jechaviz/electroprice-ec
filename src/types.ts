@@ -85,6 +85,11 @@ export interface Product {
   enrichmentStatus?: EnrichmentStatus;
   lastEnrichedAt?: string;
   businessNotes?: string;
+  searchText?: string;
+  bestPrice?: number | null;
+  totalStock?: number;
+  isDeal?: boolean;
+  indexedAt?: string;
 }
 
 export interface Category {
@@ -127,9 +132,11 @@ export type SortOption = 'relevance' | 'price-asc' | 'price-desc' | 'rating-desc
 
 // E-commerce Types
 export interface CartItem {
+  id?: string;
   productId: string;
   quantity: number;
   price: number; // Price at the time of adding to cart
+  selectedOptions?: Record<string, string>;
 }
 
 export type SubshoppingRuntime = 'vhub' | 'vimport' | 'manual';
@@ -221,6 +228,7 @@ export type OrderStatus =
   | 'Returned';
 
 export interface OrderItem {
+  cartLineId?: string;
   productId: string;
   name: string;
   imageUrl: string;
@@ -228,6 +236,7 @@ export interface OrderItem {
   price: number; // Retail price per item at time of purchase
   cost: number; // Cost from wholesaler per item at time of purchase
   wholesalerId: string; // Track which wholesaler fulfilled this item
+  selectedOptions?: Record<string, string>;
 }
 
 export interface Order {

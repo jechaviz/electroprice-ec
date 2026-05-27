@@ -12,9 +12,11 @@ export const PaymentSection: React.FC = () => {
   const handleAdd = () => {
     const cardNum = prompt(t('profile.payment.prompt.cardNumber'), t('profile.payment.prompt.cardNumberDefault'));
     const expires = prompt(t('profile.payment.prompt.expiration'), t('profile.payment.prompt.expirationDefault'));
-    if (cardNum && expires) {
+    const last4 = cardNum?.replace(/\D/g, '').slice(-4);
+
+    if (last4 && last4.length === 4 && expires) {
       addPaymentMethod({
-        card: cardNum,
+        card: t('profile.payment.cardEnding', { last4 }),
         expires,
         isPrimary: (user.paymentMethods || []).length === 0,
         type: 'visa',

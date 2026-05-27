@@ -159,6 +159,37 @@ const DEMO_PRODUCTS = [
   },
 ];
 
+const normalizeCatalogText = (value) => value
+  .toLowerCase()
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^a-z0-9]+/g, ' ')
+  .trim()
+  .replace(/\s+/g, ' ');
+
+const getProductIndexPayload = (product) => {
+  const stock = product.wholesaler_stock || [];
+  const prices = stock.map(item => item.price).filter(price => Number.isFinite(price) && price > 0);
+  const bestPrice = prices.length ? Math.min(...prices) : null;
+  const totalStock = stock.reduce((sum, item) => sum + Math.max(0, item.stock || 0), 0);
+  const searchText = normalizeCatalogText([
+    product.name,
+    product.brand,
+    product.category,
+    product.model_number,
+    product.canonical_key,
+  ].filter(Boolean).join(' '));
+  const isDeal = Boolean(product.deal_tag || product.old_price);
+
+  return {
+    search_text: searchText,
+    best_price: bestPrice,
+    total_stock: totalStock,
+    is_deal: isDeal,
+    indexed_at: new Date().toISOString(),
+  };
+};
+
 const getFirstRecord = async (collection, filter) => {
   try {
     return await pb.collection(collection).getFirstListItem(filter);
@@ -220,7 +251,12 @@ const ensureWholesalers = async () => {
 
 const ensureProducts = async (wholesalers) => {
   const existing = await pb.collection('products').getFullList();
-  if (existing.length > 0) return existing;
+  if (existing.length > 0) {
+    await Promise.all(existing.map((product) => (
+      pb.collection('products').update(product.id, getProductIndexPayload(product)).catch(() => null)
+    )));
+    return existing;
+  }
 
   const created = [];
   for (const [index, product] of DEMO_PRODUCTS.entries()) {
@@ -239,6 +275,7 @@ const ensureProducts = async (wholesalers) => {
       ...product,
       wholesaler_stock: stock,
       price_history,
+      ...getProductIndexPayload({ ...product, wholesaler_stock: stock, price_history }),
     }));
   }
 
