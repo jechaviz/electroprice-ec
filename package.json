@@ -16,6 +16,8 @@
       "pb:seed-missing-pieces": "node pb/scripts/pb_seed_missing_pieces.mjs",
       "pb:reindex-products": "node pb/scripts/pb_reindex_products.mjs",
       "pb:enrich-products-ai": "node pb/scripts/pb_enrich_products_ai.mjs",
+      "pb:curate-products": "node pb/scripts/pb_curate_products.mjs",
+      "pb:cleanup-obsolete-products": "node pb/scripts/pb_cleanup_obsolete_products.mjs",
       "pb:refresh-provider-offers": "node pb/scripts/pb_refresh_provider_offers.mjs",
       "audit:providers": "node tools/provider-config-audit.mjs",
       "audit:missing-pieces": "node tools/missing-pieces-audit.mjs",

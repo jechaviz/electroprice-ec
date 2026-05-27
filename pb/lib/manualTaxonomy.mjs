@@ -1,0 +1,149 @@
+import { normalizeCatalogText } from './catalogIndex.mjs';
+
+export const MANUAL_TAXONOMY_VERSION = 'manual-taxonomy-mx-2026-05-27';
+
+export const MANUAL_CATEGORY_TREE = [
+  { path: 'computo/laptops', name: 'Laptops', legacyCategory: 'laptops' },
+  { path: 'computo/desktops', name: 'Computadoras de escritorio', legacyCategory: 'laptops' },
+  { path: 'computo/servidores/componentes', name: 'Servidores y componentes', legacyCategory: 'laptops' },
+  { path: 'computo/servidores/almacenamiento-cintas', name: 'Almacenamiento LTO y cintas', legacyCategory: 'laptops' },
+  { path: 'computo/monitores', name: 'Monitores', legacyCategory: 'monitors' },
+  { path: 'computo/componentes/procesadores', name: 'Procesadores', legacyCategory: 'laptops' },
+  { path: 'computo/componentes/tarjetas-madre', name: 'Tarjetas madre', legacyCategory: 'laptops' },
+  { path: 'computo/componentes/memoria-ram', name: 'Memoria RAM', legacyCategory: 'laptops' },
+  { path: 'computo/componentes/fuentes-poder', name: 'Fuentes de poder', legacyCategory: 'laptops' },
+  { path: 'computo/componentes/enfriamiento-gabinetes', name: 'Enfriamiento y gabinetes', legacyCategory: 'laptops' },
+  { path: 'computo/almacenamiento/ssd', name: 'SSD', legacyCategory: 'laptops' },
+  { path: 'computo/almacenamiento/discos-duros', name: 'Discos duros', legacyCategory: 'laptops' },
+  { path: 'computo/perifericos/teclados', name: 'Teclados', legacyCategory: 'laptops' },
+  { path: 'computo/perifericos/mouse', name: 'Mouse', legacyCategory: 'laptops' },
+  { path: 'computo/perifericos/webcams', name: 'Webcams', legacyCategory: 'cameras' },
+  { path: 'computo/perifericos/bocinas-audio', name: 'Bocinas y audio PC', legacyCategory: 'headphones' },
+  { path: 'computo/accesorios/limpieza', name: 'Limpieza de computo', legacyCategory: 'laptops' },
+  { path: 'computo/accesorios/docks-hubs', name: 'Docks y hubs', legacyCategory: 'laptops' },
+  { path: 'energia/no-breaks-ups', name: 'No-breaks y UPS', legacyCategory: 'laptops' },
+  { path: 'energia/baterias-ups', name: 'Baterias para UPS', legacyCategory: 'laptops' },
+  { path: 'energia/supresores-reguladores', name: 'Supresores y reguladores', legacyCategory: 'laptops' },
+  { path: 'infraestructura/racks-enfriamiento', name: 'Racks y enfriamiento', legacyCategory: 'laptops' },
+  { path: 'redes/access-points', name: 'Access points', legacyCategory: 'networking' },
+  { path: 'redes/radioenlaces-antenas', name: 'Radioenlaces y antenas', legacyCategory: 'networking' },
+  { path: 'redes/transceptores-convertidores', name: 'Transceptores y convertidores', legacyCategory: 'networking' },
+  { path: 'redes/cableado-estructurado', name: 'Cableado estructurado', legacyCategory: 'networking' },
+  { path: 'redes/switches', name: 'Switches', legacyCategory: 'networking' },
+  { path: 'redes/routers', name: 'Routers', legacyCategory: 'networking' },
+  { path: 'impresion/impresoras', name: 'Impresoras', legacyCategory: 'laptops' },
+  { path: 'impresion/escaneres', name: 'Escaneres documentales', legacyCategory: 'cameras' },
+  { path: 'impresion/consumibles/tinta-toner', name: 'Tinta, toner y cintas', legacyCategory: 'laptops' },
+  { path: 'impresion/consumibles/etiquetas-papel', name: 'Etiquetas y papel', legacyCategory: 'laptops' },
+  { path: 'punto-de-venta/lectores-codigo-barras', name: 'Lectores de codigo de barras', legacyCategory: 'laptops' },
+  { path: 'punto-de-venta/terminales-accesorios', name: 'Terminales y accesorios POS', legacyCategory: 'laptops' },
+  { path: 'punto-de-venta/credenciales-identificacion', name: 'Credenciales e identificacion', legacyCategory: 'laptops' },
+  { path: 'seguridad/cctv/camaras', name: 'Camaras CCTV', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/dvr-nvr', name: 'DVR y NVR', legacyCategory: 'cameras' },
+  { path: 'telefonia/smartphones', name: 'Smartphones', legacyCategory: 'smartphones' },
+  { path: 'audio/audifonos', name: 'Audifonos', legacyCategory: 'headphones' },
+  { path: 'video/televisores', name: 'Televisores', legacyCategory: 'tvs' },
+  { path: 'video/proyectores', name: 'Proyectores', legacyCategory: 'tvs' },
+  { path: 'video/accesorios-proyeccion', name: 'Accesorios de proyeccion', legacyCategory: 'tvs' },
+  { path: 'gaming/consolas', name: 'Consolas', legacyCategory: 'gaming' },
+  { path: 'gaming/accesorios', name: 'Accesorios gaming', legacyCategory: 'gaming' },
+  { path: 'oficina/mobiliario-accesorios', name: 'Mobiliario y accesorios de oficina', legacyCategory: 'laptops' },
+  { path: 'software/licencias', name: 'Licencias de software', legacyCategory: 'software' },
+  { path: 'accesorios/cables-adaptadores', name: 'Cables y adaptadores', legacyCategory: 'laptops' },
+  { path: 'accesorios/montaje-soportes', name: 'Montaje y soportes', legacyCategory: 'laptops' },
+];
+
+const rules = [
+  ['seguridad/cctv/dvr-nvr', /\b(dvr|nvr|grabador|xvr)\b/],
+  ['seguridad/cctv/camaras', /\b(camara|camera|ipc|hac|dahua|hikvision|uniview|bullet|domo|turret)\b/],
+  ['redes/access-points', /\b(access point|ap\b|eap|uap|wifi|wi fi|wireless)\b/],
+  ['redes/radioenlaces-antenas', /\b(airfiber|airmax|litebeam|nanobeam|powerbeam|rocketm|rocket|pbe|lbe|af\s?5|am\s?[25]g|amo\s?[25]g|rd\s?5g|horn\s?5|lap\s?120|lap\s?gps|antena|radioenlace)\b/],
+  ['redes/transceptores-convertidores', /\b(sfp|transceiver|transceptor|gbic|media converter|convertidor|mc200cm\w*|mc110cs\w*|sm311\w*|uf mm|uf gp|uf loco|uf nano|fibra optica)\b/],
+  ['redes/cableado-estructurado', /\b(panduit|belden|jack modular|patch panel|faceplate|tapa ciega|rj45|cat6|cat 6|nk6|cj688|cfpe|wmph|wmp|ld10|sp688|intellinet \d+)\b/],
+  ['redes/switches', /\b(switch|poe|gigabit|jetstream)\b/],
+  ['redes/routers', /\b(router|gateway|firewall|mikrotik|fortigate)\b/],
+  ['infraestructura/racks-enfriamiento', /\b(rack|gabinete mural|charola|shelf|panel|srcool|fanroof|cagenuts|srshelf|srwf|sr1upanel|cooling|enfriamiento)\b/],
+  ['energia/baterias-ups', /\b(rbc|replacement battery|bateria ups|battery cartridge|apcrbc)\b/],
+  ['energia/supresores-reguladores', /\b(supresor|regulador|tlp\d|isotel|contactos|multicontacto|pv375usb)\b/],
+  ['energia/no-breaks-ups', /\b(ups|no break|nobreak|bateria|battery backup|regulador)\b/],
+  ['computo/monitores', /\b(monitor|display|odyssey|lcd|led\s?\d{2}|pulgadas)\b/],
+  ['video/proyectores', /\b(proyector|projector|benq\s(mh|ms|mx|mw|th|tk|w)\d|acer\s(x|p)\d{4})\b/],
+  ['video/accesorios-proyeccion', /\b(lampara proyector|lamp module|ls1st|ls1lt|botones adicionales|wdc10|v13h010|elplp)\b/],
+  ['computo/desktops', /\b(desktop|workstation|mini pc|all in one|aio)\b/],
+  ['computo/servidores/almacenamiento-cintas', /\b(lto|ultrium|data cartridge|rDX|cinta de respaldo)\b/],
+  ['computo/servidores/componentes', /\b(hewlett packard enterprise|hpe\b|proliant|smart array|dl\d{3}|ml\d{3}|p\d{5}\s?b21|j9150|dell 412|dell 470|poweredge)\b/],
+  ['computo/laptops', /\b(laptop|notebook|thinkpad|macbook|vivobook|latitude|elitebook|xps)\b/],
+  ['computo/componentes/procesadores', /\b(core i[3579]|ryzen|procesador|cpu\b)\b/],
+  ['computo/componentes/tarjetas-madre', /\b(motherboard|tarjeta madre|mainboard|b\d{3}|z\d{3}|x\d{3})\b/],
+  ['computo/componentes/memoria-ram', /\b(ram|ddr[345]|memoria)\b/],
+  ['computo/componentes/fuentes-poder', /\b(fuente de poder|power supply|psu|cx\d{3}|cv\d{3}|rm\d{3}|cp 902|80 plus|80 bronze)\b/],
+  ['computo/componentes/enfriamiento-gabinetes', /\b(cooler|fan|ventilador|gabinete|case|h100|hydro|pwm|cc 901|cw 906|be quiet)\b/],
+  ['computo/almacenamiento/ssd', /\b(ssd|nvme|m\.2|solid state)\b/],
+  ['computo/almacenamiento/discos-duros', /\b(hdd|disco duro|hard drive|sata)\b/],
+  ['computo/perifericos/teclados', /\b(teclado|keyboard)\b/],
+  ['computo/perifericos/mouse', /\b(mouse|raton|logitech 910|trackball)\b/],
+  ['computo/perifericos/webcams', /\b(webcam|camara web)\b/],
+  ['computo/perifericos/bocinas-audio', /\b(bocina|speaker|bsp \d|ksp \d|audio pc|logitech h390|vorago au|hpb 401|hs 502)\b/],
+  ['computo/accesorios/limpieza', /\b(cln \d|limpiador|limpiadora|aire comprimido|toallitas|toallas humedas|kit limpieza|alcohol iso|alcohol isopropilico|silimex|prolicom|silitek|silimpo|compucare|aerosol)\b/],
+  ['computo/accesorios/docks-hubs', /\b(docking|dock\b|hub usb|dell wd19|wd19s|dwm2655m|vorago plug)\b/],
+  ['impresion/consumibles/etiquetas-papel', /\b(tze|dk12|dk22|etiqueta|label|papel fotografico|rollo|zebra 10\d{3})\b/],
+  ['impresion/consumibles/tinta-toner', /\b(tinta|toner|cartucho|drum|tambor|ribbon|cinta|tn\d|dr\d|pfi|gpr|pg \d|cl \d|erc|s015|s041|t\d{5,}|lexmark|xerox|kyocera|okidata|canon \d{3}\b|brother t[nz]|epson t)\b/],
+  ['impresion/escaneres', /\b(epson ds|workforce ds|document scanner|escaner documental)\b/],
+  ['impresion/impresoras', /\b(impresora|printer|laserjet|deskjet|ecotank|multifuncional|zebra pc 200994)\b/],
+  ['punto-de-venta/lectores-codigo-barras', /\b(scanner|scaner|lector codigo|codigo de barras|barcode|honeywell|xenon|ms7820|3nstar sc|3nstar cd|zebra ds|zebra ls|topaz t)\b/],
+  ['punto-de-venta/terminales-accesorios', /\b(cajon de dinero|cash drawer|pos\b|terminal punto de venta|3nstar ct|gaveta)\b/],
+  ['punto-de-venta/credenciales-identificacion', /\b(evolis|hid \d|credencial|tarjeta pvc|zk teco|zkteco|biometrico)\b/],
+  ['telefonia/smartphones', /\b(iphone|galaxy|pixel|moto|smartphone|telefono)\b/],
+  ['audio/audifonos', /\b(audifonos|headphones|headset|bose|sony wh|earbuds)\b/],
+  ['video/televisores', /\b(tv|televisor|qled|oled|crystal uhd)\b/],
+  ['gaming/consolas', /\b(playstation|xbox|nintendo|switch oled|ps5|consola)\b/],
+  ['gaming/accesorios', /\b(balam rush|kg 200|gamepad|joystick|silla gamer|gaming chair)\b/],
+  ['oficina/mobiliario-accesorios', /\b(nextep|silla|escritorio|archivero|organizador oficina)\b/],
+  ['software/licencias', /\b(licencia|license|bitdefender|kaspersky|windows server|office 365|microsoft cfq\w*|microsoft software|aspel|contpaqi|sofcpc|nominas)\b/],
+  ['accesorios/cables-adaptadores', /\b(cable|adaptador|hdmi|usb|brobotix)\b/],
+  ['accesorios/montaje-soportes', /\b(soporte|bracket|mount|rack|charola)\b/],
+];
+
+const categoryByPath = new Map(MANUAL_CATEGORY_TREE.map((category) => [category.path, category]));
+
+export const getManualCategorySeeds = () => MANUAL_CATEGORY_TREE.map((category) => ({
+  slug: category.path.split('/').at(-1),
+  path: category.path,
+  parent_slug: category.path.split('/').slice(0, -1).join('/'),
+  name: category.name,
+  legacy_category: category.legacyCategory,
+  status: 'manual_verified',
+  version: MANUAL_TAXONOMY_VERSION,
+}));
+
+export const classifyManualCategory = (product) => {
+  const text = normalizeCatalogText([
+    product.name,
+    product.brand,
+    product.category,
+    product.model_number,
+    product.description,
+    JSON.stringify(product.specs || {}),
+  ].filter(Boolean).join(' '));
+
+  for (const [path, pattern] of rules) {
+    if (!pattern.test(text)) continue;
+    const category = categoryByPath.get(path);
+    return {
+      path,
+      legacyCategory: category?.legacyCategory || product.category || 'laptops',
+      reviewStatus: 'manual_rule_applied',
+      confidence: 0.86,
+      taxonomyVersion: MANUAL_TAXONOMY_VERSION,
+    };
+  }
+
+  const fallback = MANUAL_CATEGORY_TREE.find((category) => category.legacyCategory === product.category);
+  return {
+    path: fallback?.path || 'computo/laptops',
+    legacyCategory: fallback?.legacyCategory || product.category || 'laptops',
+    reviewStatus: 'needs_manual_review',
+    confidence: 0.45,
+    taxonomyVersion: MANUAL_TAXONOMY_VERSION,
+  };
+};

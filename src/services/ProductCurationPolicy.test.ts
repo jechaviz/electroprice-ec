@@ -1,0 +1,114 @@
+import { describe, expect, it } from "vitest";
+import { classifyManualCategory } from "../../pb/lib/manualTaxonomy.mjs";
+import { buildProductCurationPatch } from "../../pb/lib/productCuration.mjs";
+
+describe("product curation policy", () => {
+  it("classifies CCTV products into a nested manual category", () => {
+    const category = classifyManualCategory({
+      id: "camera-1",
+      name: "Dahua DH-HAC-HDW1809 Camara Seguridad",
+      brand: "Dahua",
+      category: "laptops",
+      specs: {},
+    });
+
+    expect(category.path).toBe("seguridad/cctv/camaras");
+    expect(category.legacyCategory).toBe("cameras");
+    expect(category.reviewStatus).toBe("manual_rule_applied");
+  });
+
+  it("preserves provider branch data when available", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-1",
+      name: "TP Link EAP773 Access Point",
+      brand: "TP Link",
+      category: "laptops",
+      total_stock: 8,
+      wholesaler_stock: [
+        { wholesalerId: "cva", price: 10, stock: 8, warehouse: "Guadalajara" },
+      ],
+      specs: {},
+    });
+
+    expect(patch.availability_status).toBe("active");
+    expect(patch.manual_category_path).toBe("redes/access-points");
+    expect(patch.stock_locations[0]).toMatchObject({
+      providerId: "cva",
+      warehouse: "Guadalajara",
+      country: "MX",
+      stock: 8,
+    });
+  });
+
+  it("marks unavailable products as obsolescence candidates after the threshold", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-2",
+      name: "Legacy cable",
+      brand: "Generic",
+      category: "laptops",
+      total_stock: 0,
+      wholesaler_stock: [],
+      unavailable_since: "2026-01-01T00:00:00.000Z",
+      specs: {},
+    }, {
+      now: "2026-05-27T00:00:00.000Z",
+      obsoleteAfterDays: 30,
+    });
+
+    expect(patch.availability_status).toBe("obsolete_candidate");
+    expect(patch.obsolete_at).toBe("2026-05-27T00:00:00.000Z");
+  });
+
+  it("extracts dimensions and weight from supplier text when specs are incomplete", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-3",
+      name: "Monitor 27 pulgadas 61 x 37 x 5 cm 4.5 kg",
+      brand: "Generic",
+      category: "monitors",
+      total_stock: 1,
+      wholesaler_stock: [{ wholesalerId: "ct", price: 10, stock: 1 }],
+      specs: {},
+    });
+
+    expect(patch.specs.dimensions).toBe("61 x 37 x 5 cm");
+    expect(patch.specs.weight).toBe("4.5 kg");
+  });
+
+  it("uses manually expanded nested categories for supplier-specific families", () => {
+    expect(classifyManualCategory({
+      name: "Epson T580100 cartucho de tinta",
+      brand: "EPSON",
+      category: "laptops",
+    }).path).toBe("impresion/consumibles/tinta-toner");
+
+    expect(classifyManualCategory({
+      name: "Ubiquiti PBE 5AC Gen2 radioenlace",
+      brand: "UBIQUITI",
+      category: "laptops",
+    }).path).toBe("redes/radioenlaces-antenas");
+
+    expect(classifyManualCategory({
+      name: "Panduit jack modular RJ45 Cat6",
+      brand: "PANDUIT",
+      category: "laptops",
+    }).path).toBe("redes/cableado-estructurado");
+
+    expect(classifyManualCategory({
+      name: "Contpaqi Nominas licencia anual",
+      brand: "CONTPAQi",
+      category: "laptops",
+    }).path).toBe("software/licencias");
+
+    expect(classifyManualCategory({
+      name: "TP Link Sm311lm transceptor",
+      brand: "TP-LINK",
+      category: "laptops",
+    }).path).toBe("redes/transceptores-convertidores");
+
+    expect(classifyManualCategory({
+      name: "Microsoft Cfq7ttc0lh18p1ya",
+      brand: "MICROSOFT",
+      category: "laptops",
+    }).path).toBe("software/licencias");
+  });
+});
