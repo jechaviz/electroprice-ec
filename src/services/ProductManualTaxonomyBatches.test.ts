@@ -156,6 +156,16 @@ const researchedBatchCases = [
   ["Complet BRC-1-002 supresor de picos 504J 8 contactos", "COMPLET", "energia/supresores-reguladores/supresores-picos"],
   ["Manhattan 423526 mousepad 6mm granel negro", "MANHATTAN", "computo/accesorios/mousepads"],
   ["Manhattan 205146 convertidor USB a Serial DB9 RS232", "MANHATTAN", "accesorios/cables-adaptadores/usb-serial"],
+  ["Manhattan 205153 convertidor USB a Serial DB9M bolsa", "MANHATTAN", "accesorios/cables-adaptadores/usb-serial"],
+  ["Manhattan 432528 bateria pila CMOS 3V CR2032 2 piezas", "MANHATTAN", "energia/pilas-baterias/boton-cmos"],
+  ["Intellinet 210836 pinza para crimpear RJ12 RJ45", "INTELLINET", "redes/herramientas-cableado/crimpadoras"],
+  ["Intellinet 522533 tarjeta red Gigabit PCI Express", "INTELLINET", "redes/tarjetas-red/pcie"],
+  ["Manhattan 160599 hub USB V2.0 4 puertos mini", "MANHATTAN", "computo/accesorios/hubs-usb"],
+  ["Manhattan 179195 adaptador USB 2.0 a HDD IDE40 SATA OTB", "MANHATTAN", "computo/almacenamiento/adaptadores-usb"],
+  ["Intellinet 504195 distribuidor modular 1x2 RJ45 Cat5e", "INTELLINET", "redes/cableado-estructurado/divisores-adaptadores"],
+  ["Manhattan 422871 mousepad 3 en 1 microfibra gris", "MANHATTAN", "computo/accesorios/mousepads"],
+  ["Intellinet 211048 pinza para crimpear RJ11 RJ12 RJ45", "INTELLINET", "redes/herramientas-cableado/crimpadoras"],
+  ["Manhattan 434362 mousepad tipo gel negro", "MANHATTAN", "computo/accesorios/mousepads"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
