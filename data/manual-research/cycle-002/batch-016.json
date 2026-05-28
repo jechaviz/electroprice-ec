@@ -1,0 +1,385 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b016-2026-05-27",
+  "cycle": 2,
+  "batch": 16,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "u09wfonllhwy3xb",
+      "research": {
+        "confidence": 0.9,
+        "name": "Vorago KSP-180 mini bafle karaoke Bluetooth RGB",
+        "description": "Mini bafle/karaoke Vorago KSP-180 color negro con conectividad alambrica/inalambrica, TWS, iluminacion RGB y diseno compacto para reuniones.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/bafles-karaoke-portatiles",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Vorago KSP-180 ficha", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/595068" }],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "KSP-180",
+          "providerSku": "BOCVGO1900",
+          "alternateProviderSku": "SPK-2689",
+          "productType": "Mini bafle karaoke Bluetooth",
+          "connectivity": ["Bluetooth", "alambrico/inalambrico en ficha de canal"],
+          "features": ["TWS", "iluminacion RGB", "diseno compacto", "karaoke"],
+          "color": "Negro",
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 7, "price": 7.35, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 7.18, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "MCAShop Vorago KSP-180 ficha", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/595068" },
+          { "title": "Vorago catalog KSP-180 reference", "type": "manufacturer_catalog", "url": "https://voragolive.com/descargables/catalogo_vorago.pdf" },
+          { "title": "CTOnline feed BOCVGO1900 stock 7 and CVA SPK-2689 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "usxjb4njidlgpl3",
+      "research": {
+        "confidence": 0.91,
+        "name": "Perfect Choice Mercury PC-270157 smartwatch negro",
+        "description": "Smartwatch Perfect Choice Mercury PC-270157 color negro con funcion para contestar llamadas, compatibilidad Android/iOS, pantalla tactil y correa negra.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/smartwatches-llamadas",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Perfect Choice Mercury PC-270157 ficha", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/527154" }],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-270157",
+          "commercialName": "Mercury",
+          "providerSku": "ACCMST4620",
+          "upc": "615604270157",
+          "productType": "Smartwatch",
+          "bandColor": "Negro",
+          "display": "1.83 in TFT en ficha de canal",
+          "callFunction": true,
+          "mobileOsSupport": ["Android", "iOS"],
+          "features": ["notificaciones", "funcion llamada Bluetooth", "monitoreo deportivo/salud en ficha de canal"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 7, "price": 387.78, "currency": "MXN", "branch": "CAM/OBR/CUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "MCAShop Mercury PC-270157 ficha", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/527154" },
+          { "title": "Cityshop Mercury PC-270157 images", "type": "image_reference", "url": "https://cityshop.mx/producto/smartwatch-mercury-pc-270157" },
+          { "title": "CTOnline feed ACCMST4620 stock 7 CAM/OBR/CUE", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wshgq29rcl7b2a6",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice Minoro PC-270218 smartwatch llamadas negro",
+        "description": "Smartwatch Perfect Choice Minoro PC-270218 color negro con llamadas Bluetooth, pantalla LCD 2.1 pulgadas, mediciones de salud, modos deportivos, Android/iOS e IP67.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/smartwatches-llamadas",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Perfect Choice Minoro PC-270218 ficha", "type": "datasheet", "url": "https://mcashop.mx/up/images/products/pc-270218-0.pdf" }],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-270218",
+          "commercialName": "Minoro",
+          "providerSku": "ACCMST4860",
+          "alternateProviderSku": "RELOJ-132",
+          "upc": "615604270218",
+          "productType": "Smartwatch",
+          "display": "2.1 in LCD / 320 x 240",
+          "battery": "240-250 mAh segun ficha de canal",
+          "bluetooth": "Modo dual / Bluetooth 5.0 en ficha de canal",
+          "app": "Fitpro",
+          "ingressProtection": "IP67",
+          "runtime": "5-7 dias uso normal / 25 dias espera en ficha Exel",
+          "features": ["llamada Bluetooth", "asistente de voz", "notificaciones", "ritmo cardiaco", "presion sanguinea", "oxigenacion", "modos de ejercicio", "control de musica", "obturador de camara", "clima"],
+          "observedResellerBranches": [
+            { "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 5 },
+            { "source": "PCDigital", "warehouse": "En linea", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 7, "price": 248.44, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 244.37, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "watchDimensions": "53 x 42 x 13 mm sin correa", "withStrapDimensions": "265 x 42 x 13 mm", "weight": "48 g" },
+        "sourceRefs": [
+          { "title": "PCStore Perfect Choice Minoro PC-270218", "type": "reseller_spec", "url": "https://pcstore.mx/smartwatch-perfect-choice-pc-270218-funcion-de-llamada-mediciones-salud-y-deportes-minoro-color-negro" },
+          { "title": "Exel PC-270218 ficha tecnica", "type": "reseller_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/MCCACCAC201" },
+          { "title": "MCAShop PC-270218 PDF", "type": "datasheet", "url": "https://mcashop.mx/up/images/products/pc-270218-0.pdf" },
+          { "title": "CTOnline feed ACCMST4860 stock 7 and CVA RELOJ-132 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "y9bc3igedp8516j",
+      "research": {
+        "confidence": 0.95,
+        "name": "Nexxt NPS-S11U3B AW222NXT66 charola lisa rack 19 pulgadas 1U",
+        "description": "Charola lisa Nexxt NPS-S11U3B/AW222NXT66 para rack de 19 pulgadas, 1U, acero calibre 18, montaje fijo en bastidores de 2 postes y carga de hasta 20 kg.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/charolas",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/charolas/1u-lisas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "NEXXT SOLUTIONS INFRASTRUCTURE",
+          "model": "NPS-S11U3B",
+          "alternateSku": "AW222NXT66",
+          "providerSku": "ACCNXX110",
+          "upc": "798302036574",
+          "productType": "Charola lisa para rack",
+          "rackSize": "19 in",
+          "rackUnits": "1U",
+          "material": "Acero calibre 18 con pintura en polvo",
+          "mounting": "Bastidores de 2 postes; orificios cuadrados, redondos y roscados",
+          "extensionType": "Fija",
+          "loadCapacity": "20 kg",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 7, "price": 30.09, "currency": "USD", "branch": "DFA/D2A/GDL/DFP/CMT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43 x 483 x 300 mm", "loadCapacity": "20 kg" },
+        "sourceRefs": [
+          { "title": "Convermatix Nexxt NPS-S11U3B specs", "type": "reseller_spec", "url": "https://www.convermatix.com/product/nexxt-solutions-infrastructure-rack-mount-shelf-1u-19in-single-solid-%C2%B7-nps-s11u3b/" },
+          { "title": "Intcomex AW222NXT66 product data", "type": "distributor_spec", "url": "https://store.intcomex.com/es-XCL/Product/Detail/437409" },
+          { "title": "CTOnline feed ACCNXX110 stock 7 DFA/D2A/GDL/DFP/CMT", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "yb66zlyhrldecjk",
+      "research": {
+        "confidence": 0.94,
+        "name": "TopVision TDDL500A camara HD turret 5MP luz dual",
+        "description": "Camara HD turret TopVision TDDL500A de 5MP con senales AHD/TVI/CVI/CVBS, lente 2.8 mm, IR 30 m, luz calida 20 m, microfono integrado, IP67 y alimentacion 12 VCD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret-5mp-luz-dual",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "TOPVISION POWERED BY MERIVA",
+          "model": "TDDL500A",
+          "providerSku": "TDDL500A",
+          "productType": "Camara HD turret analogica",
+          "resolution": "5 MP",
+          "videoSignals": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "illumination": "IR 30 m / luz calida 20 m",
+          "audio": "Microfono integrado, audio por coaxial o UTP",
+          "ingressProtection": "IP67",
+          "housing": "Metal/plastico",
+          "power": "12 VCD",
+          "features": ["COC", "imagen a color 24x7"],
+          "providerOffers": [{ "providerId": "tecnosinergia", "stock": 7, "price": 354.85, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "sourceRefs": [
+          { "title": "GlobalOffice TopVision TDDL500A", "type": "reseller_spec", "url": "https://globaloffice.mx/index.php/app/detalle/producto/camaras/camara-hd-turret-topvision-tddl500a-5mp-ahdtv/tddl500a" },
+          { "title": "FullOffice TopVision TDDL500A", "type": "reseller_spec", "url": "https://fulloffice.com/products/camara-hd-turret-topvision-tddl500a-5mp-ahd-tvi-cvi-sd-2-8mm-30m-ir-20m-luz-calida-luz-dual-microfono-integrado-ip67-coc-carcasa-metal-plastica-12vcd-imagen-a-color-24x7-audio-por-coaxial-o-utp" },
+          { "title": "Tecnosinergia portal TDDL500A stock 7", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0tu3f0v7c4a9lww",
+      "research": {
+        "confidence": 0.96,
+        "name": "Meriva MDL-3202A camara HD turret 2MP luz dual",
+        "description": "Camara HD turret Meriva MDL-3202A de 2MP con senales AHD/TVI/CVI/CVBS, lente 2.8 mm, iluminacion dual, microfono integrado, audio por coaxial/UTP, IP67 y cuerpo metalico.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret-2mp-luz-dual",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MDL-3202A",
+        "specs": {
+          "brand": "MERIVA TECHNOLOGY",
+          "model": "MDL-3202A",
+          "providerSku": "MDL-3202A",
+          "productType": "Camara HD turret analogica",
+          "resolution": "2 MP / 1920 x 1080",
+          "videoSignals": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "illumination": "20-30 m IR / 20 m luz blanca",
+          "audio": "Microfono integrado, audio por coaxial o UTP solo por TVI",
+          "ingressProtection": "IP67",
+          "housing": "Metalica",
+          "power": "12 VCD",
+          "features": ["COC", "menu OSD", "imagen a color 24x7"],
+          "included": ["camara HD 2 MP", "tornilleria", "guia de instalacion"],
+          "providerOffers": [{ "providerId": "tecnosinergia", "stock": 6, "price": 302.27, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "sourceRefs": [
+          { "title": "Meriva MDL-3202A official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MDL-3202A" },
+          { "title": "FullOffice Meriva MDL-3202A", "type": "reseller_spec", "url": "https://fulloffice.com/products/camara-hd-turret-meriva-technology-mdl-3202a-2-mp-ahd-tvi-cvi-2-8-mm-iluminacion-dual-20-30m-ir-20m-luz-calida-ip67-metalica-12-vcd-coc-microfono-integrado-audio-por-coaxial-o-utp-solo-por-tvi-imagen-a-color-24-7" },
+          { "title": "Tecnosinergia portal MDL-3202A stock 6", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "4u49llx9g501k46",
+      "research": {
+        "confidence": 0.94,
+        "name": "Vorago KSP-350 bocina Bluetooth karaoke 30W negra",
+        "description": "Bocina Bluetooth/karaoke Vorago KSP-350 color negro con potencia RMS 30W, rango 100 Hz-20 kHz, bateria 7.4V 1800 mAh e iluminacion/uso para entretenimiento.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/bafles-karaoke-portatiles",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Vorago KSP-350 ficha", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/ksp-35063871724108962.pdf" }],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "KSP-350",
+          "providerSku": "BOCVGO1930",
+          "ean": "7503049354613",
+          "productType": "Bocina Bluetooth karaoke",
+          "power": "30 W RMS",
+          "frequencyResponse": "100 Hz - 20 kHz",
+          "connectivity": "Bluetooth",
+          "battery": "7.4 V, 1800 mAh",
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 53.67, "currency": "USD", "branch": "MID/LEO/OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Vorago KSP-350 ficha PDF", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/ksp-35063871724108962.pdf" },
+          { "title": "Ofix Vorago KSP-350 specs/images", "type": "image_reference", "url": "https://www.ofix.mx/bocinas-vorago-ksp-350-ksp-350/p" },
+          { "title": "CTOnline feed BOCVGO1930 stock 6 MID/LEO/OAX", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "709q5lwrypij8v3",
+      "research": {
+        "confidence": 0.95,
+        "name": "Redragon Scarab A130P-SP Pink set de keycaps PBT",
+        "description": "Set de keycaps Redragon Scarab Pink A130P-SP color rosa, fabricado en PBT double-shot/translucido para teclados mecanicos con retroiluminacion.",
+        "manualCategoryPath": "computo/perifericos/teclados/keycaps",
+        "semanticCategoryPath": "computo/perifericos/teclados/keycaps/pbt-pudding",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Redragon A130P-SP ficha", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/629/23d/e65/62923de65fa6a4.42210225.pdf" }],
+        "specs": {
+          "brand": "REDRAGON",
+          "model": "Scarab Pink",
+          "manufacturerSku": "A130P-SP",
+          "providerSku": "TECRDG190",
+          "ean": "6950376708397",
+          "productType": "Set de keycaps",
+          "material": "PBT",
+          "color": "Rosa",
+          "quantity": "104/105 piezas segun canal",
+          "features": ["double-shot", "capa translucida para retroiluminacion", "incluye extractor"],
+          "compatibility": ["Kailh Box", "Gateron", "Outemu", "layouts 60% a 100% en ficha Redragon X LTC"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CHI", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 229.36, "currency": "MXN", "branch": "CHI" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Redragon A130P-SP datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/629/23d/e65/62923de65fa6a4.42210225.pdf" },
+          { "title": "Redragon X LTC Pink PBT keycaps reference", "type": "manufacturer_reference", "url": "https://redragonshop.com/products/pink-keycaps" },
+          { "title": "CompuPuebla Redragon Sacarab Pink", "type": "reseller_spec", "url": "https://compupuebla.com/producto/keycaps-redragon-sacarab-pink/" },
+          { "title": "CTOnline feed TECRDG190 stock 6 CHI", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "95fyfkc9srw2tkb",
+      "research": {
+        "confidence": 0.97,
+        "name": "Verbatim 95310 DVD+R DL 8.5GB 8X spindle 20 piezas",
+        "description": "Paquete Verbatim 95310 de 20 discos DVD+R DL de doble capa, 8.5 GB, superficie branded, velocidad hasta 8X y duracion de video hasta 240 minutos.",
+        "manualCategoryPath": "computo/almacenamiento/medios-opticos",
+        "semanticCategoryPath": "computo/almacenamiento/medios-opticos/dvd-r-dl",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.verbatim.com/en/dvd/products/95310-dvdplusr-dl-85gb-8x-with-branded-surface-20pk-spindle?country=US",
+        "specs": {
+          "brand": "VERBATIM",
+          "model": "95310",
+          "providerSku": "CDRWCB860",
+          "upc": "023942953104",
+          "productType": "DVD+R DL",
+          "quantity": "20 piezas spindle",
+          "capacity": "8.5 GB",
+          "speed": "Hasta 8X oficial; feed local indica 4X",
+          "recordingTime": "240 min",
+          "surface": "Branded",
+          "warranty": "Limited lifetime warranty",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 332.83, "currency": "MXN", "branch": "ZAC/MAZ/URP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Verbatim 95310 official specifications", "type": "manufacturer", "url": "https://www.verbatim.com/en/dvd/products/95310-dvdplusr-dl-85gb-8x-with-branded-surface-20pk-spindle?country=US" },
+          { "title": "CTOnline feed CDRWCB860 stock 6 ZAC/MAZ/URP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gga5ajagnusf6fh",
+      "research": {
+        "confidence": 0.97,
+        "name": "Ricoh Fujitsu ScanSnap SV600 escaner elevado A3 USB",
+        "description": "Escaner elevado/contactless ScanSnap SV600 para libros, documentos gruesos y hojas hasta A3, con sensor CCD, USB 2.0 y funciones de correccion de libro e imagen.",
+        "manualCategoryPath": "impresion/escaneres",
+        "semanticCategoryPath": "impresion/escaneres/elevados-a3",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pfu-apac.ricoh.com/au/scanners/scansnap/sv600/",
+        "documents": [{ "label": "Fujitsu ScanSnap SV600 catalog", "type": "datasheet", "url": "https://www.fujitsu.com/us/Images/sv600_catalog.pdf" }],
+        "specs": {
+          "brand": "RICOH/FUJITSU",
+          "model": "ScanSnap SV600",
+          "providerSku": "SCAFJT040",
+          "upc": "097564310737",
+          "productType": "Escaner elevado sin contacto",
+          "scannerType": "Sistema elevado / overhead",
+          "sensor": "CCD",
+          "maxScanSize": "432 x 300 mm general; 400 x 300 mm para documentos gruesos",
+          "documentThickness": "Hasta 30 mm",
+          "scanSpeed": "3 s por pagina referencia A3",
+          "interface": "USB 2.0 / USB 1.1 tipo B",
+          "power": "AC 100-240 V, 50/60 Hz",
+          "driver": "ScanSnap Manager; no TWAIN/ISIS",
+          "features": ["book image correction", "auto paper size detection", "auto color detection", "auto image rotation", "timed interval scanning", "page turning detection"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 668.48, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "210 x 156 x 383 mm", "weight": "3 kg" },
+        "sourceRefs": [
+          { "title": "Ricoh ScanSnap SV600 official specifications", "type": "manufacturer", "url": "https://www.pfu-apac.ricoh.com/au/scanners/scansnap/sv600/" },
+          { "title": "Fujitsu ScanSnap SV600 catalog", "type": "manufacturer_datasheet", "url": "https://www.fujitsu.com/us/Images/sv600_catalog.pdf" },
+          { "title": "MicrographicsData ScanSnap SV600 images/specs", "type": "image_reference", "url": "https://micrographicsdataonline.com/products/fujitsu-scansnap-sv600" },
+          { "title": "CTOnline feed SCAFJT040 stock 6 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

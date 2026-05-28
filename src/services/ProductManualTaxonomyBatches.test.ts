@@ -32,6 +32,16 @@ const researchedBatchCases = [
   ["Necnon NPW-10FC power bank 10000 mAh", "NECNON", "energia/power-banks"],
   ["Huawei 55037722 M-Pen Lite AF63-R lapiz optico", "HUAWEI", "computo/accesorios/stylus-tablets"],
   ["Perfect Choice PC-084730 Sportiva bolso deportivo", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["Vorago KSP-180 mini bafle karaoke bluetooth RGB", "VORAGO", "audio/bocinas"],
+  ["Perfect Choice PC-270157 smartwatch Mercury negro", "PERFECT CHOICE", "wearables/smartwatches"],
+  ["Perfect Choice PC-270218 smartwatch Minoro llamadas", "PERFECT CHOICE", "wearables/smartwatches"],
+  ["Nexxt AW222NXT66 NPS-S11U3B charola lisa rack", "NEXXT", "infraestructura/racks-accesorios/charolas"],
+  ["TopVision TDDL500A camara HD turret 5MP", "TOPVISION", "seguridad/cctv/camaras-turbohd"],
+  ["Meriva MDL-3202A camara HD turret 2MP", "MERIVA", "seguridad/cctv/camaras-turbohd"],
+  ["Vorago KSP-350 bocina bluetooth 30W", "VORAGO", "audio/bocinas"],
+  ["Redragon Sacarab Pink A130P-SP keycaps PBT", "REDRAGON", "computo/perifericos/teclados/keycaps"],
+  ["Verbatim 95310 DVD+R DL 8.5GB 20 pack", "VERBATIM", "computo/almacenamiento/medios-opticos"],
+  ["Fujitsu ScanSnap SV600 escaner elevado A3", "FUJITSU", "impresion/escaneres"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
