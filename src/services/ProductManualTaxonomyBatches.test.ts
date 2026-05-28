@@ -313,6 +313,16 @@ const researchedBatchCases = [
   ["PCM T5745 rollo termico 57 x 45 c175", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
   ["PCM T8070C50 rollo termico 80 x 70 c50", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
   ["PCM T8080 rollo termico 80 x 80", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
+  ["PCM T5736MMS12K rollo termico 57 x 36", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
+  ["Provision ISR PR-C08 adaptador alimentacion DC macho CCTV", "PROVISION-ISR", "seguridad/cctv/accesorios-cableado"],
+  ["Provision ISR PR-C13 conector BNC macho RG59", "PROVISION-ISR", "seguridad/cctv/accesorios-cableado"],
+  ["Provision ISR PR-10A9CH+ fuente poder CCTV 12V 10A 9 canales", "PROVISION-ISR", "seguridad/cctv/fuentes-poder"],
+  ["Provision ISR PR-12A16CH+ fuente poder CCTV 12V 12A 16 canales", "PROVISION-ISR", "seguridad/cctv/fuentes-poder"],
+  ["Provision ISR PR-12V1A-A fuente poder individual 12V 1A", "PROVISION ISR", "seguridad/cctv/fuentes-poder"],
+  ["Provision ISR PR-C14 divisor fuente poder 1 entrada 4 salidas", "PROVISION ISR", "seguridad/cctv/accesorios-cableado"],
+  ["Provision ISR PR-C09 adaptador alimentacion CCTV", "PROVISION-ISR", "seguridad/cctv/accesorios-cableado"],
+  ["TechZone TZEST01N maletin laptop 15.6 nylon negro", "TECHZONE", "computo/accesorios/mochilas-fundas"],
+  ["TechZone TZBTS10BLK mochila laptop 15.6 negro", "TECHZONE", "computo/accesorios/mochilas-fundas"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
