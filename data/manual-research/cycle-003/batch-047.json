@@ -1,0 +1,463 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b047-2026-05-28",
+  "cycle": 3,
+  "batch": 47,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "02nuftwuxsgpdk5",
+      "research": {
+        "confidence": 0.95,
+        "name": "Xzeal X-Tron XZGAXT1B gabinete gamer Mid Tower ATX negro 4 ventiladores ARGB",
+        "description": "Gabinete gamer Xzeal X-Tron XZGAXT1B / XZ150 Mid Tower negro para tarjetas madre ATX, M-ATX y M-ITX, con panel lateral de vidrio, 4 ventiladores ARGB, 7 ranuras PCI y soporte para enfriamiento liquido de 360 mm.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/mid-tower-atx-argb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xzeal.mx/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GABSTY380/GABSTY380_full.jpg"
+        ],
+        "documents": [
+          { "label": "Xzeal XZGAXT1B ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/GabineteGamerXTronMidTowerXzealATX_XTronXZGAXT1W/GabineteGamerXTronMidTowerXzealATX_XTronXZGAXT1W.pdf" },
+          { "label": "Xzeal XZGAXT1B manual de usuario", "type": "manual", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/USER_MANUAL_XZGAXT1B_XZGAXT1W_web.pdf" }
+        ],
+        "specs": {
+          "brand": "Xzeal",
+          "model": "X-Tron XZGAXT1B / XZ150",
+          "providerSku": "GABSTY380",
+          "ean": "7503053078161",
+          "productType": "Gaming PC case",
+          "formFactor": "Mid Tower",
+          "motherboardSupport": "ATX, Micro ATX, Mini ITX",
+          "color": "Negro",
+          "sidePanel": "Vidrio lateral",
+          "frontIo": "USB 3.0 x1, USB 2.0 x2, audio 3.5 mm",
+          "includedFans": "4 x 120 mm ARGB",
+          "driveBays": "1 x 3.5 in HDD, 2 x 2.5 in SSD",
+          "expansionSlots": "7 PCI",
+          "liquidCoolingSupport": "Up to 360 mm",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABSTY380", "stock": 3, "price": 1040.89, "currency": "MXN", "branch": "MAZ,PUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Proveedor solo indica ATX; manual/ficha investigados indican ATX, M-ATX y M-ITX.", "Manual/fichas reportan 3 o 4 ventiladores ARGB segun seccion; se conserva 4 ventiladores porque coincide con contenido y canal."]
+        },
+        "measurements": { "dimensions": "425 x 280 x 435 mm", "packageDimensions": "480 x 350 x 505 mm" },
+        "sourceRefs": [
+          { "title": "Xzeal XZGAXT1B ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/GabineteGamerXTronMidTowerXzealATX_XTronXZGAXT1W/GabineteGamerXTronMidTowerXzealATX_XTronXZGAXT1W.pdf" },
+          { "title": "Xzeal XZGAXT1B manual de usuario", "type": "manual", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/USER_MANUAL_XZGAXT1B_XZGAXT1W_web.pdf" },
+          { "title": "CTOnline feed GABSTY380 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "02s3kj6xp726rr8",
+      "research": {
+        "confidence": 0.97,
+        "name": "Uniarch Uho-S3S-M33D camara IP WiFi doble lente 3MP+3MP interior Panda",
+        "description": "Camara IP interior Uniarch by Uniview Uho-S3S-M33D con doble lente 3MP+3MP, lente fijo 4 mm, pan/tilt, IR y luz calida 10 m, microfono y bocina integrados, microSD hasta 512 GB, WiFi 2.4 GHz y alimentacion USB-C 5V.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/doble-lente-pt-3mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://uniarch.cn/Products/Enterprise_Products/Wi-Fi_Camera/Panda_S_Series/S3S/",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=22472735&c=4820964&h=2f-cfytM31ZiyiNQL2E9DgLdbOCtES28MB5MDXLCMLUVu721"
+        ],
+        "documents": [
+          { "label": "Uniarch Uho-S3S-M33D datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202501/16/20250116_1930605_Uho-S3S-M33D-Datasheet_1004322_575359_0.pdf" }
+        ],
+        "specs": {
+          "brand": "Uniarch / Uniview",
+          "model": "Uho-S3S-M33D",
+          "providerSku": "CI341UNI09",
+          "productType": "Indoor dual-lens WiFi IP camera",
+          "resolution": "3 MP + 3 MP",
+          "sensor": "Dual 1/2.8 in CMOS",
+          "lens": "Dual 4 mm F2.0",
+          "fieldOfView": "H 91.5 degrees",
+          "videoCompression": "Ultra 265, H.265, H.264",
+          "wdr": "DWDR",
+          "supplementalLight": "IR 10 m and warm light 10 m",
+          "storage": "MicroSD up to 512 GB",
+          "audio": "Built-in microphone and speaker",
+          "network": "WiFi 2.4 GHz 802.11 b/g/n/ax, RJ45",
+          "power": "USB-C 5 VDC / 1.5 A",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "MX", "stock": 86 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI341UNI09", "stock": 86, "price": 610.13, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["Tecnosinergia ayuda menciona PT 0-340 y -5 a 55 grados; datasheet oficial indica pan 0-355 y tilt -15 a 90 grados."]
+        },
+        "measurements": { "dimensions": "80 mm diameter x 127 mm height", "weight": "0.22 kg" },
+        "sourceRefs": [
+          { "title": "Uniarch Uho-S3S-M33D official product page", "type": "manufacturer", "url": "https://uniarch.cn/Products/Enterprise_Products/Wi-Fi_Camera/Panda_S_Series/S3S/" },
+          { "title": "Uniarch Uho-S3S-M33D datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202501/16/20250116_1930605_Uho-S3S-M33D-Datasheet_1004322_575359_0.pdf" },
+          { "title": "Tecnosinergia feed CI341UNI09 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "02wmopbabu92xyc",
+      "research": {
+        "confidence": 0.98,
+        "name": "UNV IPC3K28SE-ADF28KMC-DL-I0 camara IP turret panoramica 8MP ColorHunter OmniView PoE",
+        "description": "Camara IP turret UNV IPC3K28SE-ADF28KMC-DL-I0 ColorHunter OmniView de 8MP con doble lente 2.8 mm, vista panoramica 180 grados, WDR 130 dB, IR/luz calida 30 m, microSD 512 GB, audio y alarma I/O, IP67, IK10, PoE y 12VDC.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/panoramicas",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/panoramicas/dual-lens-8mp-colorhunter",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://sgcdn.uniview.com/us/Products/Network_Cameras/Tri-Guard/2.0/IPC3K28SE-ADF28KMC-DL-I0/",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=21978560&c=4820964&h=7Tx3Y7eBzu1T2fviPDZIOxQolaj0w_u8GQaG32-aF_ZMhFdc"
+        ],
+        "documents": [
+          { "label": "UNV IPC3K28SE-ADF28KMC-DL-I0 datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/0a5c2fb0-90ec-4923-b1f7-da207ca8ed2b/fae46054-a95a-4f53-b3be-f15fbbf7de5f.pdf" }
+        ],
+        "specs": {
+          "brand": "UNV / Uniview",
+          "model": "IPC3K28SE-ADF28KMC-DL-I0",
+          "providerSku": "CI128UNV03",
+          "productType": "Panoramic dual-lens PoE IP turret camera",
+          "resolution": "8 MP, 4096 x 1860 up to 20 fps",
+          "lens": "Dual 2.8 mm fixed, F1.0",
+          "fieldOfView": "H 180 degrees",
+          "wdr": "130 dB",
+          "videoCompression": "Ultra 265, H.265, H.264, MJPEG",
+          "supplementalLight": "IR 30 m and warm light 30 m, red/blue warning light",
+          "storage": "MicroSD up to 512 GB",
+          "audio": "Dual microphones, built-in speaker, audio in/out",
+          "alarm": "Alarm input/output 1/1",
+          "network": "ONVIF Profile S/G/T/M",
+          "ingressProtection": "IP67, IK10",
+          "power": "12 VDC +/-25% or PoE IEEE 802.3af",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "MX", "stock": 3 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI128UNV03", "stock": 3, "price": 4504.43, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["Proveedor menciona conteo de personas; datasheet tiene referencias cruzadas y tabla de analitica con N/A, por lo que se conserva como nota y no como promesa principal."]
+        },
+        "measurements": { "dimensions": "128.7 mm diameter x 109.9 mm height", "weight": "0.86 kg" },
+        "sourceRefs": [
+          { "title": "UNV IPC3K28SE-ADF28KMC-DL-I0 official page", "type": "manufacturer", "url": "https://sgcdn.uniview.com/us/Products/Network_Cameras/Tri-Guard/2.0/IPC3K28SE-ADF28KMC-DL-I0/" },
+          { "title": "UNV IPC3K28SE-ADF28KMC-DL-I0 datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/0a5c2fb0-90ec-4923-b1f7-da207ca8ed2b/fae46054-a95a-4f53-b3be-f15fbbf7de5f.pdf" },
+          { "title": "Tecnosinergia feed CI128UNV03 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "035irj3ucy19zdc",
+      "research": {
+        "confidence": 0.97,
+        "name": "Provision-ISR Z4-25IPEN-2 IR camara IP PTZ 2MP x25 PoE+ exterior",
+        "description": "Camara IP PTZ Provision-ISR Z4-25IPEN-2(IR) de 2MP con zoom optico x25, IR hasta 300 m, WDR 120 dB, pan 360 grados, tilt -5 a 185 grados, audio/alarma I/O, microSD 256 GB, ONVIF, IP66 y alimentacion PoE+ o 12VDC.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/ptz",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/ptz/2mp-25x-ir-ai",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/z4-25ipen-2ir/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMPVS3720/CAMPVS3720_full.jpg"
+        ],
+        "documents": [
+          { "label": "Provision-ISR Z4-25IPEN-2(IR) product page", "type": "manufacturer", "url": "https://provision-isr.com/products/z4-25ipen-2ir/" }
+        ],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "Z4-25IPEN-2(IR)",
+          "providerSku": "CAMPVS3720",
+          "upc": "610840138650",
+          "productType": "Outdoor PoE+ PTZ IP camera",
+          "resolution": "2 MP, 1920 x 1080 up to 25/30 fps",
+          "sensor": "1/2.8 in CMOS",
+          "lens": "4.8-120 mm, optical zoom x25, digital zoom x16",
+          "videoCompression": "H.264, H.265, H.264+, H.265+, MJPEG",
+          "wdr": "True WDR 120 dB",
+          "irDistance": "Up to 300 m",
+          "ptz": "Pan 360 degrees endless, tilt -5 to 185 degrees, 300 presets",
+          "analytics": "DDA human/vehicle analytics with auto-tracking",
+          "audioAlarm": "Audio I/O 1/1, alarm I/O 1/1",
+          "storage": "MicroSD up to 256 GB",
+          "network": "ONVIF Profile T/S/G",
+          "ingressProtection": "IP66",
+          "power": "PoE+ IEEE 802.3at or 12 VDC",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MOR", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMPVS3720", "stock": 5, "price": 360, "currency": "USD", "branch": "MOR,CMT,GDL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Pagina oficial muestra Smart IR 300 m en resumen y tabla; otra seccion dice 150 m, se conserva 300 m con nota."]
+        },
+        "measurements": { "dimensions": "173 mm diameter x 268 mm height", "weightGross": "2.1 kg" },
+        "sourceRefs": [
+          { "title": "Provision-ISR Z4-25IPEN-2(IR) official page", "type": "manufacturer", "url": "https://provision-isr.com/products/z4-25ipen-2ir/" },
+          { "title": "CTOnline feed CAMPVS3720 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "035ive043eawc7n",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 6006627 cargador de pared USB-C carga rapida 20W negro",
+        "description": "Cargador de pared BRobotix 6006627 negro con un puerto USB-C hembra para carga rapida, entrada universal 100-240 V y formato compacto; el canal lo comercializa como 20W aunque las salidas publicadas por fichas de canal son inconsistentes.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c/usb-c-20w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brobotix.com.mx",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT8200/ACCRBT8200_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-BROBOTIX-6006627-44986c.jpg"
+        ],
+        "documents": [
+          { "label": "BRobotix 6006627 ficha tecnica canal", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/CargadorCargaRpidaUSBV3020W1Puerto_6006627_EAN7500896006627/CargadorCargaRpidaUSBV3020W1Puerto_6006627_EAN7500896006627.pdf" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "6006627",
+          "providerSku": "ACCRBT8200",
+          "ean": "7500896006627",
+          "productType": "USB-C wall charger",
+          "color": "Negro",
+          "input": "100-240 VAC, 50/60 Hz, 0.6 A",
+          "ports": "1 x USB-C female",
+          "cableIncluded": "No",
+          "marketedPower": "20 W",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "LEO", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT8200", "stock": 60, "price": 4.56, "currency": "USD", "branch": "LEO,GDL,DFA,D2A,MTY,LMO,CMT,AGS,TXA,HMO,CHI,SLT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Producto se vende como 20W, pero algunas fichas publican salida 5V 2.1A o 5V 3A; se conserva marketedPower y se marca potencia exacta como dudosa."]
+        },
+        "measurements": { "dimensions": "60 x 40 x 26 mm", "weight": "44 g" },
+        "sourceRefs": [
+          { "title": "BRobotix 6006627 ficha tecnica canal", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/CargadorCargaRpidaUSBV3020W1Puerto_6006627_EAN7500896006627/CargadorCargaRpidaUSBV3020W1Puerto_6006627_EAN7500896006627.pdf" },
+          { "title": "Cyberpuerta BRobotix 6006627", "type": "retailer_spec", "url": "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/BRobotix-Cargador-de-Pared-6006627-20W-1x-USB-C-Negro.html" },
+          { "title": "CTOnline feed ACCRBT8200 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "03imd1obu2jbyhu",
+      "research": {
+        "confidence": 0.98,
+        "name": "Dahua S042-1A120300HU adaptador de corriente 12VDC 3A para videovigilancia",
+        "description": "Adaptador/fuente Dahua S042-1A120300HU para videovigilancia con entrada 90-264 VAC, salida 12 VDC 3 A hasta 36 W, clavija norteamericana, protecciones electricas y cable DC de 1.5 m.",
+        "manualCategoryPath": "seguridad/cctv/fuentes-poder",
+        "semanticCategoryPath": "seguridad/cctv/fuentes-poder/adaptador-12v-3a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/asset/upload/uploads/soft/20181106/S042-1A120300HU_datasheet_201808011.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCDAH1710/ACCDAH1710_full.jpg"
+        ],
+        "documents": [
+          { "label": "Dahua S042-1A120300HU datasheet", "type": "datasheet", "url": "https://www.dahuasecurity.com/asset/upload/uploads/soft/20181106/S042-1A120300HU_datasheet_201808011.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua",
+          "model": "S042-1A120300HU",
+          "providerSku": "ACCDAH1710",
+          "productType": "CCTV power adapter",
+          "inputVoltage": "90-264 VAC",
+          "inputPlug": "2-pin North American plug",
+          "outputVoltage": "12 VDC (+7%, -3%)",
+          "outputCurrent": "3 A",
+          "maxOutputPower": "36 W",
+          "noLoadPowerConsumption": "Less than 0.3 W",
+          "protections": "Surge, over temperature, over current and voltage load protection",
+          "dcCable": "1500 mm, connector 5.5 x 2.1 x 10 mm",
+          "color": "Negro",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCDAH1710", "stock": 46, "price": 6.44, "currency": "USD", "branch": "DFA,TXA,CAM,HMO,IRA,D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Proveedor clasifico como camara por marca Dahua; el producto real es fuente/adaptador CCTV."]
+        },
+        "measurements": { "dimensions": "101.5 x 51.1 x 55.6 mm", "weight": "0.17 kg" },
+        "sourceRefs": [
+          { "title": "Dahua S042-1A120300HU datasheet", "type": "datasheet", "url": "https://www.dahuasecurity.com/asset/upload/uploads/soft/20181106/S042-1A120300HU_datasheet_201808011.pdf" },
+          { "title": "CTOnline feed ACCDAH1710 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "03ndbfudwcut4me",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson T504320-AL botella de tinta EcoTank magenta T504 70 ml",
+        "description": "Botella de tinta original Epson T504320-AL magenta para impresoras EcoTank compatibles, incluyendo L4150, L4160, L6161, L6171, L6191 y modelos EcoTank recientes indicados por Epson Mexico.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504-magenta",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504320-AL",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10021953",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=T504_690x460&clid=SAPDAM&id=5571930a6cbb42cbadef56ed9eae96bac2d26734&prclid=productpictures&prid=300Wx300H&vid=5571930a6cbb42cbadef56ed9eae96bac2d26734"
+        ],
+        "documents": [
+          { "label": "Epson T504320-AL product page", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504320-AL" }
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "T504320-AL",
+          "providerSku": "CAREPS5590 / CN-3564",
+          "upc": "0010343938762",
+          "productType": "EcoTank ink bottle",
+          "inkSeries": "T504",
+          "color": "Magenta",
+          "capacity": "70 ml according to channel PIM",
+          "yield": "Up to 6000 pages according to channel PIM",
+          "compatibility": "EcoTank L4150, L4160, L6161, L6171, L6191, L4260, L6270, L14150, L4360, L6370",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 6176 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 46 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAREPS5590", "stock": 6176, "price": 159.3, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "CN-3564", "stock": 46, "price": 157.26, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Proveedor CVA lo titula como cartucho; Epson lo maneja como botella de tinta.", "Capacidad 70 ml y rendimiento 6000 paginas aparecen en canal/PIM; pagina oficial visible confirma modelo y compatibilidad."]
+        },
+        "measurements": { "packageDimensions": "19 x 9.5 x 8.5 cm", "packageWeight": "0.236 kg" },
+        "sourceRefs": [
+          { "title": "Epson Mexico T504320-AL official page", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504320-AL" },
+          { "title": "CompuViper Epson T504320-AL channel dimensions", "type": "retailer_spec", "url": "https://compuviper.mx/tienda/producto/epson-t504320-al-cartucho-modelo-t504-magenta-para-l4150-l4160-l6161-l6171-l6191/" },
+          { "title": "CTOnline and CVA feeds Epson T504320-AL stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "03q07k7cm85ska7",
+      "research": {
+        "confidence": 0.98,
+        "name": "Grandstream UCM6304A PBX IP serie audio 4 FXO 4 FXS 1000 usuarios",
+        "description": "PBX IP Grandstream UCM6304A de la serie UCM6300 Audio para comunicaciones unificadas, con 4 puertos FXS, 4 puertos FXO, 3 puertos Gigabit PoE+, 1000 usuarios, 150 llamadas concurrentes, GDMS, Wave y UCM RemoteConnect.",
+        "manualCategoryPath": "telefonia/pbx-ip",
+        "semanticCategoryPath": "telefonia/pbx-ip/grandstream-ucm6300-audio-4fxo-4fxs",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.grandstream.com/products/ucm6300-ecosystem/product/ucm6300-audio-series",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10335554",
+          "https://www.grandstream.com/hubfs/Product%20Images/UCM6300%20Audio%20Series/UCM6300_audio_front_web.png",
+          "https://www.grandstream.com/hubfs/Product%20Images/UCM6300%20Audio%20Series/ucm6300_audio_feature_web.png"
+        ],
+        "documents": [
+          { "label": "Grandstream UCM6300 Audio Series datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/UCM6300_Audio_Series/Datasheet_UCM6300_Audio_Series_English.pdf" },
+          { "label": "Grandstream UCM6304A quick installation guide", "type": "manual", "url": "https://www.grandstream.com/hubfs/Product_Documentation/UCM6304A_QIG.pdf?hsLang=en" },
+          { "label": "Grandstream UCM630xA user manual", "type": "manual", "url": "https://www.grandstream.com/hubfs/Product_Documentation/UCM630xA_usermanual.pdf" }
+        ],
+        "specs": {
+          "brand": "Grandstream",
+          "model": "UCM6304A",
+          "providerSku": "CONGDM100 / CON-89",
+          "productType": "IP PBX appliance",
+          "series": "UCM6300 Audio Series",
+          "users": "1000",
+          "concurrentCalls": "150 G.711 calls, 120 SRTP calls",
+          "conference": "Up to 7 rooms / 120 participants",
+          "fxsPorts": "4 x RJ11",
+          "fxoPorts": "4 x RJ11",
+          "networkPorts": "3 x Gigabit with PoE+",
+          "usb": "2 x USB 3.0",
+          "storageExpansion": "SD card",
+          "display": "320 x 240 touch LCD",
+          "platform": "Asterisk 16",
+          "management": "GDMS, UCM RemoteConnect, Wave",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 7 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CONGDM100", "stock": 7, "price": 412.95, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "CON-89", "stock": 0, "price": 457.76, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Proveedor lo habia clasificado como switch; categoria correcta es PBX/conmutador IP.", "Montaje en rack/escritorio depende de accesorio de rack vendido por separado segun QIG."]
+        },
+        "measurements": { "dimensions": "270 x 175 x 36 mm", "weight": "775 g", "packageWeight": "1621 g" },
+        "sourceRefs": [
+          { "title": "Grandstream UCM6300 Audio Series official page", "type": "manufacturer", "url": "https://www.grandstream.com/products/ucm6300-ecosystem/product/ucm6300-audio-series" },
+          { "title": "Grandstream UCM6300 Audio Series datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/UCM6300_Audio_Series/Datasheet_UCM6300_Audio_Series_English.pdf" },
+          { "title": "CTOnline and CVA feeds UCM6304A stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "04t5zyrj62q2p52",
+      "research": {
+        "confidence": 0.98,
+        "name": "Logitech G PRO X SUPERLIGHT 2 910-006637 mouse gaming inalambrico LIGHTSPEED blanco",
+        "description": "Mouse gaming inalambrico Logitech G PRO X SUPERLIGHT 2 blanco con sensor HERO 2, conexion LIGHTSPEED, switches LIGHTFORCE, carga USB-C, 5 botones, peso 60 g y bateria hasta 95 horas.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/gaming",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/gaming/esports-60g",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitechg.com/pt-br/products/gaming-mice/pro-x2-superlight-wireless-mouse.910-006637.html",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10443940"
+        ],
+        "documents": [
+          { "label": "Logitech G PRO X SUPERLIGHT 2 product page", "type": "manufacturer", "url": "https://www.logitechg.com/pt-br/products/gaming-mice/pro-x2-superlight-wireless-mouse.910-006637.html" }
+        ],
+        "specs": {
+          "brand": "Logitech G",
+          "model": "PRO X SUPERLIGHT 2",
+          "partNumber": "910-006637",
+          "providerSku": "MOULOG2930 / MS-1638",
+          "productType": "Wireless gaming mouse",
+          "color": "White",
+          "sensor": "HERO 2",
+          "wireless": "LIGHTSPEED",
+          "switches": "LIGHTFORCE hybrid optical-mechanical",
+          "buttons": "5",
+          "charging": "USB-C",
+          "batteryLife": "Up to 95 hours",
+          "dpi": "Up to 44000 DPI in current official spec",
+          "pollingRate": "Up to 8 kHz in current official spec",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 2 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOULOG2930", "stock": 2, "price": 2676.47, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "MS-1638", "stock": 0, "price": 2486.34, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["SKU blanco cambia por region: 910-006637 para BR/LATAM y 910-006636 en pagina US.", "Folletos/retail antiguos reportan 32000 DPI y 2000 Hz; especificacion oficial actual reporta 44000 DPI y 8 kHz."]
+        },
+        "measurements": { "dimensions": "125 x 63.5 x 40 mm", "weight": "60 g" },
+        "sourceRefs": [
+          { "title": "Logitech G PRO X SUPERLIGHT 2 LATAM/BR official page", "type": "manufacturer", "url": "https://www.logitechg.com/pt-br/products/gaming-mice/pro-x2-superlight-wireless-mouse.910-006637.html" },
+          { "title": "Logitech G PRO X SUPERLIGHT 2 US page", "type": "manufacturer", "url": "https://www.logitechg.com/en-us/products/gaming-mice/pro-x2-superlight-wireless-mouse.html" },
+          { "title": "CTOnline and CVA feeds PRO X SUPERLIGHT 2 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "04tdz9ynh5k384s",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 179843 audifonos estereo USB-A con microfono flexible y controles integrados",
+        "description": "Audifonos estereo Manhattan 179843 USB-A para oficina y llamadas, con microfono flexible ajustable, controles integrados de volumen y silencio, drivers de 40 mm, cable de 1.5 m y compatibilidad plug and play.",
+        "manualCategoryPath": "audio/audifonos/usb",
+        "semanticCategoryPath": "audio/audifonos/usb/oficina-microfono-flexible",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-audifonos-estereo-usb-con-microfono-flexible-179843",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10240276"
+        ],
+        "documents": [
+          { "label": "Manhattan 179843 datasheet EN", "type": "datasheet", "url": "https://www.manhattanshop.it/amfilerating/file/download/file_id/15475/" },
+          { "label": "Manhattan 179843 datasheet ES", "type": "datasheet", "url": "https://www.manhattanshop.it/amfilerating/file/download/file_id/15476/" },
+          { "label": "Manhattan 179843 quick guide", "type": "manual", "url": "https://www.manhattanshop.it/amfilerating/file/download/file_id/15474/" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "179843",
+          "providerSku": "BOCITL1080 / SPK-2078",
+          "productType": "USB stereo headset",
+          "connection": "USB-A 2.0",
+          "drivers": "40 mm",
+          "microphone": "Flexible adjustable microphone",
+          "controls": "Inline volume and mute controls",
+          "cableLength": "1.5 m",
+          "certifications": "CE, FCC, RoHS",
+          "compatibility": "Windows, macOS, Chrome OS and USB-A devices",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 2 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BOCITL1080", "stock": 2, "price": 12.62, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "SPK-2078", "stock": 2, "price": 11.85, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Datasheets reportan 203 g y pagina MX actual muestra 184 g; se conserva 203 g porque coincide con proveedor."]
+        },
+        "measurements": { "dimensions": "190 x 170 x 87 mm", "earpadDimensions": "108 x 87 x 40 mm", "weight": "203 g" },
+        "sourceRefs": [
+          { "title": "Manhattan 179843 Mexico product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-audifonos-estereo-usb-con-microfono-flexible-179843" },
+          { "title": "Manhattan 179843 quick guide", "type": "manual", "url": "https://www.manhattanshop.it/amfilerating/file/download/file_id/15474/" },
+          { "title": "CTOnline and CVA feeds Manhattan 179843 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

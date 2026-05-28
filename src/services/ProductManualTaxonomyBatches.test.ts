@@ -6,7 +6,7 @@ const researchedBatchCases = [
   ["Fujitsu fi-70F escaner plano A6 USB", "FUJITSU", "impresion/escaneres"],
   ["Perfect Choice PC-085058 bolso cruzado Holdi negro", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
   ["Creative Sound Blaster GS5 barra de sonido compacta", "CREATIVE", "audio/barras-sonido"],
-  ["Game Factor HSG500 headset gamer USB 7.1 RGB", "GAME FACTOR", "audio/audifonos"],
+  ["Game Factor HSG500 headset gamer USB 7.1 RGB", "GAME FACTOR", "audio/audifonos/usb"],
   ["Huawei M-Pencil CD54-S1 lapiz optico blanco", "HUAWEI", "computo/accesorios/stylus-tablets"],
   ["Perfect Choice PC-085249 mochila escolar Bookery purpura", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
   ["HP GT52 3YP17AL botella de tinta amarilla 70 ml", "HP", "impresion/consumibles/tinta-toner"],
@@ -333,6 +333,16 @@ const researchedBatchCases = [
   ["Game Factor MAG500 brazo para microfono ajustable", "GAME FACTOR", "audio/microfonos/soportes-brazos"],
   ["Gigabyte B850 Eagle WiFi6E tarjeta madre socket AM5", "GIGABYTE", "computo/componentes/tarjetas-madre/amd-am5"],
   ["Lenovo ThinkPad T14 Gen 6 21QK000WLM laptop empresarial", "LENOVO", "computo/laptops/empresariales"],
+  ["Xzeal X-Tron XZGAXT1B gabinete gamer Mid Tower ATX 4 ARGB", "XZEAL", "computo/componentes/gabinetes/gaming"],
+  ["Uniarch Uho-S3S-M33D camara IP doble lente WiFi interior", "UNIARCH", "seguridad/cctv/camaras-ip-wifi/interior"],
+  ["UNV IPC3K28SE-ADF28KMC-DL-I0 turret ColorHunter Omniview", "UNV", "seguridad/cctv/camaras-ip-poe/panoramicas"],
+  ["Provision ISR Z4-25IPEN-2 IR camara PTZ IP x25", "PROVISION-ISR", "seguridad/cctv/camaras-ip-poe/ptz"],
+  ["BRobotix 6006627 cargador de pared USB tipo C 20W", "BROBOTIX", "energia/cargadores-usb/pared-usb-c"],
+  ["Dahua S042-1A120300HU adaptador 12VDC 3A CCTV", "DAHUA", "seguridad/cctv/fuentes-poder"],
+  ["Epson T504320-AL botella tinta magenta EcoTank", "EPSON", "impresion/consumibles/botellas-tinta-ecotank"],
+  ["Grandstream UCM6304A conmutador IP PBX 4 FXO 4 FXS", "GRANDSTREAM", "telefonia/pbx-ip"],
+  ["Logitech PRO X SUPERLIGHT 2 910-006637 mouse inalambrico", "LOGITECH", "computo/perifericos/mouse/inalambricos/gaming"],
+  ["Manhattan 179843 audifonos USB con microfono flexible", "MANHATTAN", "audio/audifonos/usb"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
