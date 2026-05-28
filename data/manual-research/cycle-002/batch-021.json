@@ -1,0 +1,346 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b021-2026-05-27",
+  "cycle": 2,
+  "batch": 21,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "qvqtglz3zwsey6q",
+      "research": {
+        "confidence": 0.94,
+        "name": "North System NORTH115-BKL organizador vertical para rack 42U negro",
+        "description": "Organizador vertical North System NORTH115-BKL para cableado en racks de 42U, color negro, con canaleta metalica 4 x 4 pulgadas y cubierta para ordenar cableado estructurado.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/organizadores-cable",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/organizadores-cable/verticales-42u",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "NORTH SYSTEM",
+          "model": "NORTH115-BKL",
+          "providerSku": "ACCNSY085",
+          "productType": "Organizador vertical para rack",
+          "rackUnits": "42U",
+          "ductSize": "4 x 4 in",
+          "material": "Acero calibre 18",
+          "color": "Negro",
+          "features": ["canaleta vertical", "cubierta frontal", "montaje lateral en rack", "gestion de cableado"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 144.98, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "1825 x 107 x 142 mm", "weight": "5.13 kg" },
+        "sourceRefs": [
+          { "title": "TiendaClic NORTH115-BKL technical details", "type": "reseller_spec", "url": "https://www.tiendaclic.mx/ver-detalle/organizador-vertical-north-system-north115-bkl-north115-bkl" },
+          { "title": "CompuPuebla NORTH115-BKL dimensions and images", "type": "image_reference", "url": "https://compupuebla.com/producto/organizador-vertical-north-system-north115-bkl/" },
+          { "title": "CTOnline feed ACCNSY085 stock 3 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "k4rn7jgkofy0ms9",
+      "research": {
+        "confidence": 0.95,
+        "name": "Verbatim 95093 DVD-R 4.7GB 16X 120 min individual",
+        "description": "Disco optico Verbatim 95093 DVD-R de 4.7 GB, velocidad 16X y 120 minutos de grabacion, presentacion individual para respaldo, video y distribucion de archivos.",
+        "manualCategoryPath": "computo/almacenamiento/medios-opticos",
+        "semanticCategoryPath": "computo/almacenamiento/medios-opticos/dvd-r",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.verbatim.com/prod/optical-media/dvd/dvd-recordable/dvd-r-4.7gb-16x-with-branded-surface-1pk-slim-case-95093/",
+        "specs": {
+          "brand": "VERBATIM",
+          "model": "95093",
+          "providerSku": "CDRWCB130",
+          "upc": "023942950936",
+          "productType": "DVD-R",
+          "capacity": "4.7 GB",
+          "recordingTime": "120 min",
+          "speed": "16X",
+          "surface": "Branded",
+          "pack": "1 pieza en slim case",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DGO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 6.53, "currency": "MXN", "branch": "DGO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Verbatim 95093 official product page", "type": "manufacturer", "url": "https://www.verbatim.com/prod/optical-media/dvd/dvd-recordable/dvd-r-4.7gb-16x-with-branded-surface-1pk-slim-case-95093/" },
+          { "title": "Amazon Verbatim 95093 images and package reference", "type": "image_reference", "url": "https://www.amazon.com.mx/Verbatim-95093-Blank-DVD-4-7GB/dp/B000095T0H" },
+          { "title": "CTOnline feed CDRWCB130 stock 1 DGO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "obr80gkrmwowngc",
+      "research": {
+        "confidence": 0.92,
+        "name": "Manhattan London 438889 portafolio para laptop 15.4 in negro",
+        "description": "Maletin Manhattan London 438889 para laptop de hasta 15.4 pulgadas, color negro, con compartimento acolchado, organizador para documentos y accesorios, asas y correa para hombro.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-15",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Manhattan 438889 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7721/438889_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "438889",
+          "commercialName": "London Laptop Briefcase",
+          "providerSku": "AC-1572",
+          "alternateProviderSku": "MALITL360",
+          "upc": "766623438889",
+          "productType": "Portafolio para laptop",
+          "laptopCompatibility": "Hasta 15.4 in",
+          "color": "Negro",
+          "features": ["compartimento acolchado", "organizador interno", "correa de hombro", "asas de transporte"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 0, "price": 9.11, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 1, "price": 9.35, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Manhattan 438889 official datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7721/438889_datasheet_english.pdf" },
+          { "title": "Manhattan 438889 product image reference", "type": "image_reference", "url": "https://www.conectamos.shop/product/manhattan-london-15-4-438889/" },
+          { "title": "CVA feed AC-1572 stock 1 no branch detail", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "6rq44ev5nsw6iif",
+      "research": {
+        "confidence": 0.94,
+        "name": "Badgy VBDG204EU kit consumible color y tarjetas para 100 impresiones",
+        "description": "Kit consumible Badgy VBDG204EU para impresoras Badgy, con cinta color YMCKO y tarjetas PVC blancas para aproximadamente 100 impresiones de credenciales.",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion",
+        "semanticCategoryPath": "punto-de-venta/credenciales-identificacion/kits-credenciales-badgy",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "BADGY",
+          "model": "VBDG204EU",
+          "providerSku": "KITBAD130",
+          "ean": "3661572000156",
+          "productType": "Kit de consumibles para credenciales",
+          "printYield": "100 impresiones",
+          "contents": ["cinta color YMCKO", "tarjetas PVC blancas"],
+          "compatiblePrinters": ["Badgy 100", "Badgy 200"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 43.14, "currency": "USD", "branch": "PUE/OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "VARAGROUP Badgy VBDG204EU kit details", "type": "reseller_spec", "url": "https://shop.varagroup.eu/consumables/125-100-card-kit-badgy-cbgr0100c.html" },
+          { "title": "Barcode Factory Badgy VBDG204EU images", "type": "image_reference", "url": "https://www.thebarcodewarehouse.co.uk/products/badgy-ribbons/badgy/vbdg204eu/" },
+          { "title": "CTOnline feed KITBAD130 stock 2 PUE/OAX", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "51uuwjnqzl2j2m9",
+      "research": {
+        "confidence": 0.9,
+        "name": "Zebra 10011042 rollo termico directo 3.1 in x 80 ft blanco",
+        "description": "Rollo de papel termico directo Zebra 10011042 color blanco, formato 3.1 pulgadas x 80 pies, para impresion de recibos o etiquetas continuas en impresoras Zebra compatibles.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/zebra-direct-thermal",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "ZEBRA",
+          "model": "10011042",
+          "providerSku": "ACCZBR640",
+          "productType": "Rollo termico directo",
+          "printTechnology": "Termica directa",
+          "format": "3.1 in x 80 ft",
+          "width": "78.7 mm",
+          "length": "80 ft",
+          "color": "Blanco",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 78.19, "currency": "USD", "branch": "HMO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollFormat": "3.1 in x 80 ft" },
+        "sourceRefs": [
+          { "title": "Barcode Factory Zebra 10011042 product reference", "type": "reseller_spec", "url": "https://www.barcodesinc.com/zebra/part-10011042.htm" },
+          { "title": "L-Tron Zebra 10011042 media reference", "type": "reseller_spec", "url": "https://www.l-tron.com/zebra-10011042" },
+          { "title": "CTOnline feed ACCZBR640 stock 1 HMO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "axna8r5gzkwve1u",
+      "research": {
+        "confidence": 0.9,
+        "name": "Polaroid PASU85-63 papel de sublimacion 8.5 x 11 in blanco",
+        "description": "Papel de sublimacion Polaroid PASU85-63 para impresiones de transferencia, formato carta 8.5 x 11 pulgadas, color blanco, orientado a proyectos fotograficos y promocionales.",
+        "manualCategoryPath": "impresion/consumibles/papel-fotografico-sublimacion",
+        "semanticCategoryPath": "impresion/consumibles/papel-fotografico-sublimacion/carta",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "POLAROID",
+          "model": "PASU85-63",
+          "providerSku": "PAPPOL030",
+          "productType": "Papel de sublimacion",
+          "paperType": "Sublimacion",
+          "format": "8.5 x 11 in",
+          "size": "Carta",
+          "color": "Blanco",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 32.97, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "sheetSize": "216 x 279 mm", "sheetSizeImperial": "8.5 x 11 in" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Polaroid PASU85-63 stock and images", "type": "image_reference", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/consumibles-y-papel/papel-de-sublimacion-polaroid-pasu85-63/pasu85-63" },
+          { "title": "Intercompras Polaroid PASU85-63 product reference", "type": "reseller_spec", "url": "https://intercompras.com/p/papel-sublimacion-polaroid-pasu85-63-395705" },
+          { "title": "CTOnline feed PAPPOL030 stock 3 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "43dkstti9iuj1pq",
+      "research": {
+        "confidence": 0.91,
+        "name": "Perfect Choice EL-994787 auriculares de diadema negros",
+        "description": "Auriculares Perfect Choice EL-994787 color negro, estilo diadema, disenados para uso basico en computadora o dispositivos de audio compatibles.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/diadema-basicos",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "EL-994787",
+          "providerSku": "BOCMST2340",
+          "upc": "615604994787",
+          "productType": "Auriculares de diadema",
+          "wearingStyle": "Diadema",
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 44.44, "currency": "MXN", "branch": "TRN/GDL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Perfect Choice EL-994787 UPC and images", "type": "image_reference", "url": "https://www.globaloffice.mx/app/detalle/producto/accesorios-computacionales/auriculares-perfect-choice-el-994787/el-994787" },
+          { "title": "PCEL EL-994787 product reference", "type": "reseller_spec", "url": "https://pcel.com/Perfect-Choice-EL-994787-Auriculares-Perfect-Choice-EL-994787-Alambrico-Negro-69878" },
+          { "title": "CTOnline feed BOCMST2340 stock 2 TRN/GDL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "g6ozupd24wlaexy",
+      "research": {
+        "confidence": 0.94,
+        "name": "Orvibo SN11 sensor de movimiento PIR Zigbee blanco",
+        "description": "Sensor de movimiento inteligente Orvibo SN11 con tecnologia PIR y conectividad Zigbee, color blanco, para automatizacion de iluminacion, escenas y deteccion de presencia en interiores.",
+        "manualCategoryPath": "domotica/sensores/movimiento",
+        "semanticCategoryPath": "domotica/sensores/movimiento/pir-zigbee",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "ORVIBO",
+          "model": "SN11",
+          "providerSku": "ACCORB110",
+          "ean": "6928986701565",
+          "upc": "190279000235",
+          "productType": "Sensor de movimiento PIR",
+          "connectivity": "Zigbee",
+          "sensorType": "Movimiento PIR",
+          "color": "Blanco",
+          "power": "Bateria",
+          "applications": ["automatizacion de luces", "deteccion de presencia", "escenas inteligentes"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 25.88, "currency": "USD", "branch": "ZAC/TXL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "ORVIBO SN11 Zigbee motion sensor official reference", "type": "manufacturer", "url": "https://www.orvibo.com/en/product/product-detail/id/25" },
+          { "title": "ORVIBO SN11 images and automation notes", "type": "image_reference", "url": "https://www.orvibo.com/br/product/product-detail/id/25.html" },
+          { "title": "CTOnline feed ACCORB110 stock 2 ZAC/TXL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "mjm8y2lyqy11k06",
+      "research": {
+        "confidence": 0.91,
+        "name": "Kingston SNA-BR2/35 adaptador de montaje SSD 2.5 a 3.5 in",
+        "description": "Kit Kingston SNA-BR2/35 para montar unidades SSD o discos de 2.5 pulgadas en bahias de 3.5 pulgadas, con rieles/adaptador metalico para gabinete o equipo de escritorio.",
+        "manualCategoryPath": "computo/almacenamiento/accesorios-montaje",
+        "semanticCategoryPath": "computo/almacenamiento/accesorios-montaje/adaptadores-ssd-2-5-a-3-5",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "KINGSTON TECHNOLOGY",
+          "model": "SNA-BR2/35",
+          "providerSku": "ACCKGT150",
+          "upc": "740617220551",
+          "productType": "Adaptador de montaje para SSD",
+          "driveCompatibility": "2.5 in",
+          "bayCompatibility": "3.5 in",
+          "material": "Metal",
+          "color": "Plata",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 2.16, "currency": "USD", "branch": "LEO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "CanadaComputers Kingston SNA-BR2/35 product reference", "type": "reseller_spec", "url": "https://www.canadacomputers.com/en/hard-drive-enclosures-docks/63251/kingston-sna-br2-35-2-5-inch-to-3-5-inch-bracket-sna-br2-35.html" },
+          { "title": "Distrelec Kingston SNA-BR2/35 UPC reference", "type": "reseller_spec", "url": "https://www.distrelec.de/en/mounting-bracket-2-5-to-3-5-kingston-sna-br2-35/p/30080951" },
+          { "title": "CTOnline feed ACCKGT150 stock 1 LEO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "aliod7t3qe5b4sv",
+      "research": {
+        "confidence": 0.96,
+        "name": "Jabra Speak 510 altavoz de conferencia USB Bluetooth negro",
+        "description": "Altavoz de conferencia Jabra Speak 510 con conectividad USB y Bluetooth, microfono omnidireccional 360 grados, bateria recargable y controles integrados para llamadas.",
+        "manualCategoryPath": "audio/conferencia-speakerphones",
+        "semanticCategoryPath": "audio/conferencia-speakerphones/usb-bluetooth",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510",
+        "documents": [
+          { "label": "Jabra Speak 510 tech sheet", "type": "datasheet", "url": "https://www.jabra.com/-/media/Jabra_VXi_Product-Documentation/Jabra-Speak-510/Tech-Sheet/Jabra-Speak-510-Tech-Sheet.pdf" }
+        ],
+        "specs": {
+          "brand": "JABRA",
+          "model": "Speak 510",
+          "providerSku": "ACCJAB080",
+          "upc": "706487013327",
+          "partNumber": "7510-209",
+          "productType": "Altavoz de conferencia",
+          "connectivity": ["USB", "Bluetooth"],
+          "microphone": "Omnidireccional 360 grados",
+          "frequencyResponse": "250 Hz - 14 kHz",
+          "talkTime": "Hasta 15 h",
+          "wirelessRange": "Hasta 30 m",
+          "color": "Negro",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 140.5, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "120 x 120 x 33 mm", "weight": "195 g" },
+        "sourceRefs": [
+          { "title": "Jabra Speak 510 official page", "type": "manufacturer", "url": "https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510" },
+          { "title": "Jabra Speak 510 tech sheet", "type": "datasheet", "url": "https://www.jabra.com/-/media/Jabra_VXi_Product-Documentation/Jabra-Speak-510/Tech-Sheet/Jabra-Speak-510-Tech-Sheet.pdf" },
+          { "title": "CTOnline feed ACCJAB080 stock 1 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

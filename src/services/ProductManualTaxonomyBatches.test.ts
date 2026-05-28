@@ -82,6 +82,16 @@ const researchedBatchCases = [
   ["Logitech 920-010478 MX Keys Mini rosa", "LOGITECH", "computo/perifericos/teclados"],
   ["MSI GeForce RTX 5060 8G Shadow 2X OC", "MSI", "computo/componentes/tarjetas-video"],
   ["Mobifree base de carga inalambrica 10W Qi", "MOBIFREE", "energia/cargadores-inalambricos"],
+  ["North System NORTH115-BKL organizador vertical rack", "NORTH SYSTEM", "infraestructura/racks-accesorios/organizadores-cable"],
+  ["Verbatim 95093 DVD-R 4.7GB 16X", "VERBATIM", "computo/almacenamiento/medios-opticos"],
+  ["Manhattan 438889 London maletin laptop 15.4", "MANHATTAN", "computo/accesorios/mochilas-fundas"],
+  ["Badgy VBDG204EU kit YMCKO ribbon 100 impresiones", "BADGY", "punto-de-venta/credenciales-identificacion"],
+  ["Zebra 10011042 Z-Perform 1000D receipt paper 3 x 80", "ZEBRA", "punto-de-venta/consumibles/rollos-termicos"],
+  ["Polaroid PASU85-63 papel de sublimacion", "POLAROID", "impresion/consumibles/papel-fotografico-sublimacion"],
+  ["Perfect Choice EL-994787 auriculares diadema", "PERFECT CHOICE", "audio/audifonos"],
+  ["Orvibo SN11 sensor de movimiento PIR Zigbee", "ORVIBO", "domotica/sensores/movimiento"],
+  ["Kingston SNA-BR2/35 SSD bracket 2.5 to 3.5", "KINGSTON TECHNOLOGY", "computo/almacenamiento/accesorios-montaje"],
+  ["Jabra Speak 510 speakerphone USB Bluetooth", "JABRA", "audio/conferencia-speakerphones"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
