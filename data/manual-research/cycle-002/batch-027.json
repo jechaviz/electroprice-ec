@@ -1,0 +1,214 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b027-2026-05-28",
+  "cycle": 2,
+  "batch": 27,
+  "product_count": 4,
+  "products": [
+    {
+      "product_id": "yd5n5tws5gfue4p",
+      "research": {
+        "confidence": 0.88,
+        "name": "Netis NB50 Outdoor Wireless Bridge 450Mbps 5GHz",
+        "description": "CPE/puente inalambrico exterior Netis NB50 de 5 GHz para enlaces punto a punto y punto a multipunto, antena direccional integrada 14 dBi, proteccion IP65 y alimentacion PoE pasiva 24 V.",
+        "manualCategoryPath": "redes/radioenlaces-antenas",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/cpe-exterior-5ghz",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.netis-systems.com/business/NB50.html",
+        "gallery": [
+          "https://www.netis-systems.com/uploads/image/20240523/00818f8ffb9ccf09ce6ec515355fed57.png",
+          "https://www.netis-systems.com/uploads/image/20240523/e834322df4f25fc06132e51abfd08ae9.png"
+        ],
+        "documents": [
+          { "label": "Netis NB50 downloads and datasheet", "type": "datasheet", "url": "https://www.netis-systems.com/index.php/support/downinfo.html?id=7&type=business" }
+        ],
+        "specs": {
+          "brand": "NETIS",
+          "model": "NB50",
+          "providerSku": "ACPNET030",
+          "ean": "6972012672565",
+          "upc": "088591201754",
+          "productType": "CPE / puente inalambrico exterior",
+          "wirelessStandard": "5 GHz 802.11ac MIMO",
+          "wirelessSpeed": "Hasta 450 Mbps",
+          "deploymentModes": ["punto a punto", "punto a multipunto"],
+          "maxPtMpNodes": "Hasta 8 puntos",
+          "range": "Hasta 3 km anunciado",
+          "antenna": "Doble antena direccional integrada 14 dBi",
+          "ethernet": "2 x 10/100 Mbps segun ficha oficial; titulo del proveedor reporta 1 puerto LAN FE",
+          "power": "PoE pasivo 24 V 0.5 A o DC 12 V 1 A",
+          "powerConsumption": "Menor a 10 W",
+          "ingressProtection": "IP65",
+          "memory": "64 MB DDR RAM / 8 MB flash",
+          "operatingTemperature": "-40 C a 55 C",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 30.56, "currency": "USD", "branch": "PUE/LEO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "188 x 188 x 33 mm" },
+        "sourceRefs": [
+          { "title": "Netis NB50 official product page", "type": "manufacturer", "url": "https://www.netis-systems.com/business/NB50.html" },
+          { "title": "Netis NB50 official downloads", "type": "datasheet", "url": "https://www.netis-systems.com/index.php/support/downinfo.html?id=7&type=business" },
+          { "title": "Compupuebla Netis NB50 ACPNET030 EAN UPC", "type": "reseller_spec", "url": "https://compupuebla.com/producto/netis-cpe/" },
+          { "title": "GlobalOffice Netis NB50 ACPNET030 UPC reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/netis/netis-cpe-cpe/nb50" },
+          { "title": "CTOnline feed ACPNET030 stock 3 PUE/LEO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ykwu7v3fp775vvo",
+      "research": {
+        "confidence": 0.92,
+        "name": "Huawei WATCH FIT 4 Pro Green Nylon Strap",
+        "description": "Smartwatch Huawei WATCH FIT 4 Pro verde con pantalla AMOLED 1.82 pulgadas, cristal zafiro, GNSS dual band, NFC, ECG, sensores de salud avanzados, resistencia 5 ATM/IP6X y autonomia tipica de hasta 7 dias.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/huawei-watch-fit-4-pro",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/en/wearables/watch-fit4-pro/specs/",
+        "gallery": ["https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-fit4-pro/list-green.png"],
+        "documents": [
+          { "label": "Huawei WATCH FIT 4 Pro official specifications", "type": "manufacturer_page", "url": "https://consumer.huawei.com/en/wearables/watch-fit4-pro/specs/" }
+        ],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "55020FAD",
+          "commercialModel": "WATCH FIT 4 Pro",
+          "technicalModel": "SYA-B29 / Seiya-B29W",
+          "providerSku": "ACCHUW1400",
+          "ean": "6942103155406",
+          "productType": "Smartwatch",
+          "color": "Verde",
+          "strap": "Correa verde de nylon",
+          "display": "AMOLED 1.82 in",
+          "resolution": "480 x 408 px / 347 PPI",
+          "peakBrightness": "3000 nits",
+          "glass": "Zafiro",
+          "caseMaterials": ["Aleacion de aluminio", "Bisel de aleacion de titanio"],
+          "sensors": ["acelerometro", "giroscopio", "magnetometro", "frecuencia cardiaca optica", "barometro", "temperatura", "luz ambiental", "ECG", "profundidad"],
+          "resistance": ["5 ATM", "IP6X", "buceo libre hasta 40 m"],
+          "connectivity": ["NFC", "Bluetooth 5.2 BR + BLE", "GNSS dual band L1/L5"],
+          "compatibility": ["Android 8.0+", "iOS 13.0+"],
+          "battery": "400 mAh reportado por resellers; autonomia Huawei hasta 10 dias, tipica 7 dias, AOD 4 dias",
+          "included": ["reloj", "base/cable de carga", "guia rapida", "seguridad", "garantia"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 1809.78, "currency": "MXN", "branch": "LEO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "44.5 x 40.0 x 9.3 mm",
+          "weight": "30.4 g sin correa",
+          "wristFit": "130-210 mm",
+          "retailPackageDimensions": "12 x 6 x 12 cm"
+        },
+        "sourceRefs": [
+          { "title": "Huawei WATCH FIT 4 Pro official specs", "type": "manufacturer", "url": "https://consumer.huawei.com/en/wearables/watch-fit4-pro/specs/" },
+          { "title": "Sanborns Huawei WATCH FIT 4 Pro EAN reference", "type": "reseller_spec", "url": "https://www.sanborns.com.mx/producto/675581/huawei-watch-fit-4-pro" },
+          { "title": "Mixup Huawei WATCH FIT 4 Pro green EAN reference", "type": "reseller_spec", "url": "https://www.mixup.com/huawei-watch-fit-4-pro-de-aluminio-en-verde-y-correa-de-nylon-en-verde/p" },
+          { "title": "CityShop 55020FAD product reference", "type": "reseller_spec", "url": "https://cityshop.mx/producto/55020fad-huawei-watch-fit-4-pro-verde" },
+          { "title": "CTOnline feed ACCHUW1400 stock 1 LEO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "z96efjjpsjzp2f1",
+      "research": {
+        "confidence": 0.94,
+        "name": "Acteck BS600 Barra de Sonido 2.1 con Subwoofer Bluetooth 60W Negra",
+        "description": "Barra de sonido Acteck Thin BS600 2.1 con subwoofer alambrico, 60 W RMS, Bluetooth 5.3, HDMI ARC, USB, entrada 3.5 mm, entrada optica y control remoto.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/2-1-subwoofer-60w",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/barra-de-sonido-thin-bs600-negro",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-940801_1.webp?v=1736875561&width=2048",
+          "https://acteck.com/cdn/shop/files/AC-940801_1.webp?crop=center&height=1200&v=1736875561&width=1200"
+        ],
+        "documents": [
+          { "label": "Acteck BS600 ficha tecnica", "type": "datasheet", "url": "https://ftp.zegucom.com.mx/productos/AC-940801/files/ficha.pdf" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "BS600",
+          "providerSku": "BOCACT660",
+          "partNumber": "AC-940801",
+          "ean": "7506215940801",
+          "productType": "Barra de sonido",
+          "series": "Dynamic Thin / Advanced Series",
+          "channels": "2.1",
+          "powerRms": "60 W",
+          "subwoofer": "Alambrico",
+          "color": "Negro",
+          "bluetooth": "5.3",
+          "connectivity": ["HDMI ARC", "USB", "3.5 mm", "Optica", "Bluetooth"],
+          "remoteControl": true,
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 1032.76, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "soundbarDimensions": "40 x 8.4 x 3.8 cm",
+          "subwooferDimensions": "28 x 11.5 x 28 cm",
+          "weight": "4.8 kg",
+          "packageDimensions": "37.4 x 16.1 x 44.2 cm"
+        },
+        "sourceRefs": [
+          { "title": "Acteck Thin BS600 official product page", "type": "manufacturer", "url": "https://acteck.com/products/barra-de-sonido-thin-bs600-negro" },
+          { "title": "Acteck BS600 ficha tecnica PDF mirror", "type": "datasheet", "url": "https://ftp.zegucom.com.mx/productos/AC-940801/files/ficha.pdf" },
+          { "title": "TekDigital BS600 SKU/EAN reference", "type": "reseller_spec", "url": "https://tekdigital.mx/producto/sistema-de-soundbar-2-1-dynamic-thin-bs600-advanced-series-control-remoto-incluido-color-negro-ac-940801/" },
+          { "title": "XtremeTecPc BS600 SKU/EAN reference", "type": "reseller_spec", "url": "https://www.xtremetecpc.com/producto/bocinas-acteck-bs600-negro-21-60-w-ac-940801" },
+          { "title": "CTOnline feed BOCACT660 stock 1 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zowiczj7p7ww01d",
+      "research": {
+        "confidence": 0.84,
+        "name": "Uniarch Uho-S2E-M3 Camara IP WiFi Pan Tilt 3MP Interior",
+        "description": "Camara IP Uniarch Uho-S2E-M3 interior Pan & Tilt Wi-Fi de 3 MP con resolucion 2304 x 1296, audio bidireccional, vision nocturna IR 10 m, microSD hasta 256 GB y Wi-Fi 2.4 GHz.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pan-tilt-interior-3mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniarch.cn/Products/Enterprise_Products/Network_Camera/Uho-S2-M3/",
+        "documents": [
+          { "label": "Uniarch Uho-S2E-M3 official datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202401/17/20240117_1897695_Uniarch%E3%80%90Datasheet%E3%80%91Uho-S2E-M3%203MP%20Indoor%20Pan%20%26%20Tilt%20Wi-Fi%20Camera%20V1.5_980114_575359_0.pdf" }
+        ],
+        "specs": {
+          "brand": "UNIARCH",
+          "corporateManufacturer": "Uniview / Zhejiang Uniview Technologies Co., Ltd.",
+          "model": "Uho-S2E-M3",
+          "providerSku": "Uho-S2E-M3",
+          "productType": "Camara IP WiFi interior pan tilt",
+          "sensor": "1/3 in CMOS 3 MP",
+          "resolution": "2304 x 1296",
+          "compression": ["Ultra 265", "H.265", "H.264"],
+          "audio": ["microfono integrado", "bocina integrada", "audio bidireccional"],
+          "nightVision": "IR hasta 10 m",
+          "storage": "microSD hasta 256 GB",
+          "network": ["Wi-Fi 2.4 GHz", "RJ45 10/100"],
+          "pan": "0 a 340 grados",
+          "tilt": "-5 a 55 grados",
+          "power": "DC 5 V / 1.5 A",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "tecnosinergia", "stock": 2, "price": 360.75, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "80 mm diametro x 120 mm alto", "weight": "0.18 kg" },
+        "sourceRefs": [
+          { "title": "Uniarch Uho-S2E-M3 official datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202401/17/20240117_1897695_Uniarch%E3%80%90Datasheet%E3%80%91Uho-S2E-M3%203MP%20Indoor%20Pan%20%26%20Tilt%20Wi-Fi%20Camera%20V1.5_980114_575359_0.pdf" },
+          { "title": "Uniarch about Uniview backing", "type": "manufacturer_context", "url": "https://www.uniarch.cn/About_us/" },
+          { "title": "Tecnosinergia help center Camara Uniarch S2E-M3", "type": "provider_spec", "url": "https://tecnosinergia.zendesk.com/hc/es/articles/33133660019483-C%C3%A1mara-Uniarch-S2E-M3-Seguridad-Dom%C3%A9stica-para-Cuidar-a-los-M%C3%A1s-Peque%C3%B1os" },
+          { "title": "Intercompras Uniarch Uho-S2E-M3 reference", "type": "reseller_spec", "url": "https://intercompras.com/p/camara-ip-mini-pt-uniarch-uho-s2e-m3-mp-ip-lente-fijo-mm-ir-m-microfono-354191" },
+          { "title": "Tecnosinergia feed Uho-S2E-M3 stock 2", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}

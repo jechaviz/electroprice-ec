@@ -142,6 +142,10 @@ const researchedBatchCases = [
   ["Vorago BSP-320 mini barra de sonido Bluetooth RGB", "VORAGO", "audio/barras-sonido"],
   ["TP-Link Tapo RV30 Max robot aspirador y trapeador", "TP-LINK", "hogar/electrodomesticos/aspiradoras-robot"],
   ["Perfect Choice PC-085317 mochila escolar Brooklyn Flores", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["Netis NB50 CPE 450Mbps exterior punto a punto", "NETIS", "redes/radioenlaces-antenas"],
+  ["Huawei WATCH FIT 4 Pro 55020FAD smartwatch verde", "HUAWEI", "wearables/smartwatches"],
+  ["Acteck BS600 Dynamic Thin barra de sonido 2.1 60W", "ACTECK", "audio/barras-sonido"],
+  ["Uniarch UHO-S2E-M3 camara IP mini PT WiFi 3MP", "UNIARCH", "seguridad/cctv/camaras-ip-wifi"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
