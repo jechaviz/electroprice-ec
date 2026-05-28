@@ -1,0 +1,401 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b048-2026-05-28",
+  "cycle": 3,
+  "batch": 48,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "05joxc3w8no3dw6",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link Omada EAP660 HD V2 access point Wi-Fi 6 AX3600 2.5G PoE",
+        "description": "Access point TP-Link Omada EAP660 HD V2 de montaje en techo o pared con Wi-Fi 6 AX3600, 4x4 MU-MIMO, OFDMA, puerto 2.5G Ethernet y alimentacion PoE 802.3at para redes empresariales de alta densidad.",
+        "manualCategoryPath": "redes/access-points/wifi-6",
+        "semanticCategoryPath": "redes/access-points/wifi-6/techo-ax3600-2-5g-poe",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/business-networking/omada-wifi-ceiling-mount/eap660-hd/v2/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACPTPL580/ACPTPL580_full.jpg",
+          "https://static.tp-link.com/upload/image-line/01_normal_20250113062850n.jpg",
+          "https://static.tp-link.com/upload/image-line/02_normal_20250113062850m.jpg",
+          "https://static.tp-link.com/upload/image-line/03_normal_20250113062850a.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link EAP660 HD V2 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202602/20260226/Datasheet_EAP660%20HD%202.20.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link Omada",
+          "model": "EAP660 HD V2",
+          "providerSku": "ACPTPL580",
+          "upc": "840030711664",
+          "wirelessStandard": "Wi-Fi 6 802.11ax",
+          "wirelessSpeed": "2402 Mbps 5 GHz + 1148 Mbps 2.4 GHz",
+          "ethernet": "1 x 2.5G Ethernet",
+          "power": "802.3at PoE or adapter",
+          "antenna": "Internal 2.4 GHz 4 dBi x4 and 5 GHz 5 dBi x4",
+          "mounting": "Ceiling or wall",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "HMO", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACPTPL580", "stock": 47, "price": 190, "currency": "USD", "branch": "HMO,PUE,VHA,OAX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Provider max transfer speed appears to describe the 2.5G port; official wireless class is AX3600."]
+        },
+        "measurements": { "dimensions": "220 x 220 x 32.5 mm", "weight": "0.75 kg", "packageWeight": "1.2 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link Omada EAP660 HD V2 official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/business-networking/omada-wifi-ceiling-mount/eap660-hd/v2/" },
+          { "title": "TP-Link EAP660 HD V2 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202602/20260226/Datasheet_EAP660%20HD%202.20.pdf" },
+          { "title": "CTOnline feed ACPTPL580 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "05p1nl0w5ygkach",
+      "research": {
+        "confidence": 0.94,
+        "name": "Naceb Gaming Boreal NA-0656B enfriamiento liquido CPU 360 mm ARGB blanco con pantalla",
+        "description": "Enfriamiento liquido AIO Naceb Boreal NA-0656B blanco para CPU con radiador de 360 mm, 3 ventiladores ARGB de 120 mm, bomba de 2700 RPM, pantalla digital de 3 pulgadas y soporte para sockets Intel LGA1851/1700/1200/115x y AMD AM5/AM4/AM3.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/liquido-cpu",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/aio-360-argb-pantalla",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://naceb.com.mx/producto/na-0656-boreal-360mm-pantalla-digital/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/VENNCB230/VENNCB230_full.jpg"
+        ],
+        "specs": {
+          "brand": "Naceb Gaming",
+          "model": "NA-0656B Boreal 360",
+          "providerSku": "VENNCB230",
+          "ean": "7502262802185",
+          "productType": "AIO liquid CPU cooler",
+          "radiatorSize": "360 mm",
+          "fans": "3 x 120 mm ARGB, 800-1800 RPM",
+          "pumpSpeed": "2700 RPM",
+          "tdp": "300 W recommended",
+          "sockets": "Intel LGA1851/1700/1200/115x, AMD AM5/AM4/AM3",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "VENNCB230", "stock": 58, "price": 1332.22, "currency": "MXN", "branch": "DFA,GDL,D2A,HMO,OBR,LMO,CLN,DGO,TRN,CHI,QRO,SLP" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Official SKU base is NA-0656; provider and retail channels use NA-0656B for the white variant.", "Some retail text assigns 2700 RPM to fans, but official specs use 2700 RPM for the pump and 800-1800 RPM for fans."]
+        },
+        "measurements": { "dimensions": "394 x 445 x 90 mm", "packageDimensions": "640 x 460 x 190 mm", "weight": "1.5 kg" },
+        "sourceRefs": [
+          { "title": "Naceb NA-0656 Boreal official page", "type": "manufacturer", "url": "https://naceb.com.mx/producto/na-0656-boreal-360mm-pantalla-digital/" },
+          { "title": "Cyberpuerta Naceb Boreal NA-0656B listing", "type": "retail", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Enfriamiento-y-Ventilacion/Enfriamiento-Liquido/Naceb-Boreal-NA-0656B-Enfriamiento-Liquido-para-CPU-3x-120mm-hasta-2700RPM-Blanco.html" },
+          { "title": "CTOnline feed VENNCB230 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0612luap5594k80",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother WT229CL contenedor de toner residual original 50000 paginas",
+        "description": "Contenedor de toner residual original Brother WT229CL para impresoras y multifuncionales laser color Brother compatibles, con rendimiento aproximado de 50000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/contenedores-desperdicio",
+        "semanticCategoryPath": "impresion/consumibles/contenedores-desperdicio/brother-color-laser",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother-usa.com/products/wt229cl",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARBRT4460/CARBRT4460_full.jpg"],
+        "specs": {
+          "brand": "Brother",
+          "model": "WT229CL",
+          "providerSku": "CARBRT4460",
+          "upc": "012502669999",
+          "yield": "Approximately 50000 pages",
+          "compatibleSeries": "Brother HL-L32xx/L33xx/L82xx and MFC-L37xx/L83xx color laser families",
+          "countryOfOrigin": "Vietnam",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT4460", "stock": 13, "price": 510, "currency": "MXN", "branch": "D2A,DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "365 x 138 x 258 mm", "weight": "651 g", "packageWeight": "1.13 kg" },
+        "sourceRefs": [
+          { "title": "Brother WT229CL official page", "type": "manufacturer", "url": "https://www.brother-usa.com/products/wt229cl" },
+          { "title": "B&H Brother WT229CL compatibility", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1789847-REG/brother_wt229cl_waste_toner_pack.html" },
+          { "title": "CTOnline feed CARBRT4460 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "063bcs7ei34lk5f",
+      "research": {
+        "confidence": 0.96,
+        "name": "MSI A520M-A PRO tarjeta madre micro ATX AMD AM4 A520 DDR4 HDMI DVI",
+        "description": "Tarjeta madre MSI A520M-A PRO micro ATX para procesadores AMD Ryzen socket AM4, chipset AMD A520, 2 ranuras DDR4, M.2 PCIe 3.0/SATA, 4 SATA, HDMI, DVI-D, Gigabit LAN y audio 7.1.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am4",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/a520-micro-atx-ddr4",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.msi.com/Motherboard/A520M-A-PRO/Specification",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10389744",
+          "https://storage-asset.msi.com/global/picture/image/feature/mb/B520M-A-Pro/datasheet/A520m-a-pro-io.png"
+        ],
+        "documents": [
+          { "label": "MSI A520M-A PRO datasheet", "type": "datasheet", "url": "https://storage-asset.msi.com/datasheet/mb/us/A520M-A-PRO.pdf" },
+          { "label": "MSI A520M-A PRO manual", "type": "manual", "url": "https://download.msi.com/archive/mnu_exe/mb/B550M-APRO_A520M-APRO100x150.pdf" }
+        ],
+        "specs": {
+          "brand": "MSI",
+          "model": "A520M-A PRO",
+          "providerSku": "MB-1272",
+          "chipset": "AMD A520",
+          "socket": "AMD AM4",
+          "memory": "2 x DDR4 up to 64 GB, OC up to 4600+ MHz",
+          "expansion": "1 x PCIe 3.0 x16, 1 x PCIe 3.0 x1",
+          "storage": "1 x M.2 PCIe 3.0 x4/SATA, 4 x SATA",
+          "videoOutputs": "HDMI, DVI-D",
+          "network": "Realtek Gigabit LAN",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 4 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "MB-1272", "stock": 4, "price": 42.17, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "236 x 200 mm", "packageWeight": "1.64 lb" },
+        "sourceRefs": [
+          { "title": "MSI A520M-A PRO specifications", "type": "manufacturer", "url": "https://www.msi.com/Motherboard/A520M-A-PRO/Specification" },
+          { "title": "MSI A520M-A PRO datasheet", "type": "datasheet", "url": "https://storage-asset.msi.com/datasheet/mb/us/A520M-A-PRO.pdf" },
+          { "title": "CVA feed MB-1272 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "063f7hmgg6dcrwx",
+      "research": {
+        "confidence": 0.93,
+        "name": "Logitech Ultimate Ears BOOM 3 984-001358 bocina Bluetooth 360 rojo soleado",
+        "description": "Bocina portatil Bluetooth Ultimate Ears BOOM 3 color Sunset Red/Rojo Soleado con sonido 360, bateria de hasta 15 horas, rango Bluetooth de hasta 45 m y diseno resistente para uso movil.",
+        "manualCategoryPath": "audio/bocinas/bluetooth",
+        "semanticCategoryPath": "audio/bocinas/bluetooth/portatil-360-ip67",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/en-us/products/speakers/bluetooth-speakers/boom-3.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCLOG1790/BOCLOG1790_full.jpg"],
+        "specs": {
+          "brand": "Ultimate Ears / Logitech",
+          "model": "BOOM 3 Sunset Red",
+          "partNumber": "984-001358",
+          "providerSku": "BOCLOG1790",
+          "upc": "097855144027",
+          "audio": "360 degree portable Bluetooth speaker",
+          "batteryLife": "Up to 15 hours",
+          "wirelessRange": "Up to 45 m",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MOR", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BOCLOG1790", "stock": 2, "price": 2877.65, "currency": "MXN", "branch": "MOR" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Official family pages list regional part numbers; provider UPC and GlobalOffice confirm 984-001358 for the red Mexico channel item."]
+        },
+        "measurements": { "dimensions": "184 x 73 mm", "weight": "608 g" },
+        "sourceRefs": [
+          { "title": "Logitech UE BOOM 3 official page", "type": "manufacturer", "url": "https://www.logitech.com/en-us/products/speakers/bluetooth-speakers/boom-3.html" },
+          { "title": "GlobalOffice Logitech Ultimate Ears BOOM 3 984-001358", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/audio-y-sonido/bocina-logitech-ultimate-ears-boom-3-inalambrica-sonido-360-color-rojo-soleado-984-001358/984-001358" },
+          { "title": "CTOnline feed BOCLOG1790 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "066eggjknu2h6hc",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 353243 cable HDMI activo de fibra optica plenum 20 m 4K 60Hz",
+        "description": "Cable HDMI activo de fibra optica Manhattan 353243 de 20 m con conector HDMI desmontable, clasificacion plenum, 4K a 60 Hz, 18 Gbps, HDCP 2.2, HDR, ARC, HEC y CEC.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/fibra-optica",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/fibra-optica/aoc-plenum-20m-4k60",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-optico-activo-hdmi-de-alta-velocidad-con-conector-hdmi-desmontable-calificado-plenum-353243",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10387936"],
+        "documents": [
+          { "label": "Manhattan 353243 datasheet EN", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/64314/353243_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "353243",
+          "providerSku": "CABITL4920 / CB-2771",
+          "upc": "0766623353243",
+          "length": "20 m",
+          "connectors": "HDMI-A male to Micro HDMI-D with detachable HDMI-A adapter",
+          "resolution": "4K at 60 Hz",
+          "bandwidth": "18 Gbps",
+          "ratings": "CMP/CPR plenum",
+          "cableGauge": "28 AWG",
+          "diameter": "4.5 mm",
+          "bendRadius": "20 mm",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 2 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABITL4920", "stock": 2, "price": 144.78, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "CB-2771", "stock": 0, "price": 135.51, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "length": "20 m", "weight": "600 g" },
+        "sourceRefs": [
+          { "title": "Manhattan 353243 Mexico product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-optico-activo-hdmi-de-alta-velocidad-con-conector-hdmi-desmontable-calificado-plenum-353243" },
+          { "title": "Manhattan 353243 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/64314/353243_datasheet_english.pdf" },
+          { "title": "CTOnline and CVA feeds Manhattan 353243 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "06a5zlbfhtuy1qz",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother DR433CL unidad de tambor original color 50000 paginas",
+        "description": "Unidad de tambor original Brother DR433CL para impresoras laser color Brother HL-L9310CDW y MFC-L9570CDW, con rendimiento aproximado de 50000 paginas bajo condiciones de uso especificadas.",
+        "manualCategoryPath": "impresion/consumibles/tambores",
+        "semanticCategoryPath": "impresion/consumibles/tambores/brother-color-laser-50000",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother-usa.com/products/dr433cl",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARBRT3640/CARBRT3640_full.jpg"],
+        "specs": {
+          "brand": "Brother",
+          "model": "DR433CL",
+          "providerSku": "CARBRT3640",
+          "upc": "012502646488",
+          "yield": "Approximately 50000 pages at 3 pages per job",
+          "colors": "CMYK drum unit",
+          "compatibility": "Brother HL-L9310CDW, MFC-L9570CDW",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CMT", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT3640", "stock": 10, "price": 2324.57, "currency": "MXN", "branch": "CMT,D2A,VHA,CUN" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Brother notes yield depends on job size: approximately 50000 pages at 3 pages per job and about 30000 at 1 page per job."]
+        },
+        "measurements": { "dimensions": "16.75 x 8.75 x 17.75 in", "weight": "5.6 lb" },
+        "sourceRefs": [
+          { "title": "Brother DR433CL official page", "type": "manufacturer", "url": "https://www.brother-usa.com/products/dr433cl" },
+          { "title": "Brother Latin America DR433CL page", "type": "manufacturer", "url": "https://latinamerica.brother.com/products/dr433cl" },
+          { "title": "CTOnline feed CARBRT3640 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "06gqrw3vmiscsoq",
+      "research": {
+        "confidence": 0.96,
+        "name": "Gigabyte H610M K V2 tarjeta madre micro ATX Intel LGA1700 DDR5",
+        "description": "Tarjeta madre Gigabyte H610M K V2 rev. 1.0 micro ATX para procesadores Intel LGA1700 de 14a/13a/12a generacion, chipset Intel H610, memoria DDR5, HDMI 2.1, DisplayPort 1.2, M.2 PCIe 3.0, SATA y LAN Gigabit.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/h610-ddr5-micro-atx",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/us/Motherboard/H610M-K-V2-rev-10",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10457897",
+          "https://static.gigabyte.com/StaticFile/Image/Global/b0132ce644c656ccac5dfb34fed3529c/ProductRemoveBg/38665"
+        ],
+        "documents": [
+          { "label": "Gigabyte H610M K V2 manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_h610m-k-v2_1002_e.pdf" }
+        ],
+        "specs": {
+          "brand": "Gigabyte",
+          "model": "H610M K V2 rev. 1.0",
+          "providerSku": "MBDGIG5440 / MB-1464",
+          "chipset": "Intel H610",
+          "socket": "Intel LGA1700",
+          "memory": "2 x DDR5 up to 128 GB",
+          "expansion": "1 x PCIe 4.0 x16, 1 x PCIe 3.0 x1",
+          "storage": "1 x M.2 PCIe 3.0 x4/x2, 2 x SATA",
+          "videoOutputs": "HDMI 2.1, DisplayPort 1.2",
+          "network": "Realtek Gigabit LAN",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 511 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG5440", "stock": 511, "price": 55.45, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "MB-1464", "stock": 0, "price": 61.41, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "226 x 185 mm", "weight": "650 g", "packageWeight": "723 g" },
+        "sourceRefs": [
+          { "title": "Gigabyte H610M K V2 official page", "type": "manufacturer", "url": "https://www.gigabyte.com/us/Motherboard/H610M-K-V2-rev-10" },
+          { "title": "Gigabyte H610M K V2 specs", "type": "manufacturer", "url": "https://www.gigabyte.com/ca/Motherboard/H610M-K-V2-rev-10/sp" },
+          { "title": "CTOnline and CVA feeds Gigabyte H610M K V2 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "06jjdgbfdvlnuli",
+      "research": {
+        "confidence": 0.96,
+        "name": "Meriva Technology MDL-5202A camara HD bullet 5MP 4 en 1 lente 2.8 mm microfono",
+        "description": "Camara bullet Meriva Technology MDL-5202A 4 en 1 AHD/TVI/CVI/CVBS con sensor 5MP, lente 2.8 mm, microfono integrado, luz dual, IR de 20 a 30 m, luz blanca 20 m, gabinete metalico IP67 y alimentacion 12 VDC.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/5mp-luz-dual-microfono",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MDL-5202A",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=21576778&c=4820964&h=Oo6mqT3lVCmqO67GzUGSSMZ1Iozxez0W9yi-nHxGh8dl5X20",
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=OFZQUAjpYyWE4EjhPxV5_Ii6iFO3rg5Jz_eJ1Zg0PNnkVjjw&id=20982571",
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=gD4hSG89OKvP1NjUfLRW0BvnJqDpsgcuCBwfYqMlsOg9qYLD&id=20982461"
+        ],
+        "documents": [
+          { "label": "Meriva MDL-5202A ficha tecnica", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=5zmsJKF-wSE7mtugXOU8GtMY1JNWi4lDioXBoeOneb7KMJaq&id=20982459" }
+        ],
+        "specs": {
+          "brand": "Meriva Technology",
+          "model": "MDL-5202A",
+          "providerSku": "C4112MER13",
+          "productType": "HD analog bullet camera",
+          "videoModes": "AHD, TVI, CVI, CVBS",
+          "resolution": "5 MP",
+          "lens": "2.8 mm",
+          "audio": "Built-in microphone",
+          "illumination": "IR 20-30 m, white light 20 m",
+          "ingressProtection": "IP67",
+          "housing": "Metal",
+          "power": "12 VDC",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "MX", "stock": 500 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "C4112MER13", "stock": 500, "price": 420.56, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Web page lists 2560 x 1936 at 20 fps while PDF lists 2944 x 1656 at 20 fps.", "PDF table contains a model typo MDL-5302A but product page and media identify MDL-5202A."]
+        },
+        "measurements": { "dimensions": "167.6 x 75 x 74.6 mm", "weight": "0.4 kg" },
+        "sourceRefs": [
+          { "title": "Meriva MDL-5202A product page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MDL-5202A" },
+          { "title": "Meriva MDL-5202A datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=5zmsJKF-wSE7mtugXOU8GtMY1JNWi4lDioXBoeOneb7KMJaq&id=20982459" },
+          { "title": "Tecnosinergia feed C4112MER13 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "06k7c1chk58bok2",
+      "research": {
+        "confidence": 0.95,
+        "name": "ASUS ExpertBook P1 P1403CVA-i58G512-P1 laptop empresarial 14 i5-13420H 8GB 512GB Windows 11 Pro",
+        "description": "Laptop empresarial ASUS ExpertBook P1 P1403CVA-i58G512-P1 de 14 pulgadas FHD con Intel Core i5-13420H, 8 GB DDR5, SSD de 512 GB, Windows 11 Pro, Wi-Fi 6, Bluetooth, USB-C, HDMI, RJ45 y camara HD con obturador.",
+        "manualCategoryPath": "computo/laptops/empresariales",
+        "semanticCategoryPath": "computo/laptops/empresariales/14-fhd-i5-13gen-w11pro",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.asus.com/my/laptops/for-work/expertbook/expertbook-p1-p1403/techspec/",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMASS9360/COMASS9360_full.jpg"],
+        "documents": [
+          { "label": "ASUS Mexico ExpertBook P1 P1403CVA datasheet", "type": "datasheet", "url": "https://www.asus.com/mx/event/datasheet/expertbook-p1_p1403cva.pdf" },
+          { "label": "SAME P1403CVA-i58G512-P1 ficha exacta", "type": "datasheet", "url": "https://same.com.mx/wp-content/uploads/2025/10/producto_ABHLATAB783.pdf" }
+        ],
+        "specs": {
+          "brand": "ASUS",
+          "model": "ExpertBook P1 P1403CVA-i58G512-P1",
+          "providerSku": "COMASS9360",
+          "upc": "197105818392",
+          "processor": "Intel Core i5-13420H",
+          "memory": "8 GB DDR5",
+          "storage": "512 GB SSD",
+          "display": "14 in FHD 1920 x 1080, 300 nits, 45% NTSC",
+          "graphics": "Intel UHD Graphics",
+          "operatingSystem": "Windows 11 Pro",
+          "wireless": "Wi-Fi 6, Bluetooth",
+          "ports": "2 x USB-C, 2 x USB-A, HDMI 1.4b, RJ45",
+          "camera": "HD camera with privacy shutter",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 28 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMASS9360", "stock": 28, "price": 13069.8, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["ASUS Mexico datasheet lists Bluetooth 5.3 while SAME exact config lists Bluetooth 5.4.", "ASUS platform specs mention up to 64 GB RAM; SAME exact config limits this SKU family to 32 GB."]
+        },
+        "measurements": { "dimensions": "324.5 x 214.4 x 19.7 mm", "weight": "1.4 kg" },
+        "sourceRefs": [
+          { "title": "ASUS ExpertBook P1 P1403 technical specs", "type": "manufacturer", "url": "https://www.asus.com/my/laptops/for-work/expertbook/expertbook-p1-p1403/techspec/" },
+          { "title": "ASUS Mexico P1403CVA datasheet", "type": "datasheet", "url": "https://www.asus.com/mx/event/datasheet/expertbook-p1_p1403cva.pdf" },
+          { "title": "CTOnline feed COMASS9360 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}

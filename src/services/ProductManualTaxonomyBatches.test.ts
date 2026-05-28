@@ -343,6 +343,16 @@ const researchedBatchCases = [
   ["Grandstream UCM6304A conmutador IP PBX 4 FXO 4 FXS", "GRANDSTREAM", "telefonia/pbx-ip"],
   ["Logitech PRO X SUPERLIGHT 2 910-006637 mouse inalambrico", "LOGITECH", "computo/perifericos/mouse/inalambricos/gaming"],
   ["Manhattan 179843 audifonos USB con microfono flexible", "MANHATTAN", "audio/audifonos/usb"],
+  ["TP-Link Omada EAP660 HD access point AX3600 Wi-Fi 6", "TP-LINK", "redes/access-points/wifi-6"],
+  ["Naceb Boreal NA-0656B enfriamiento liquido 360 mm blanco", "NACEB", "computo/componentes/enfriamiento/liquido-cpu"],
+  ["Brother WT229CL waste toner box contenedor de desperdicio", "BROTHER", "impresion/consumibles/contenedores-desperdicio"],
+  ["MSI A520M-A PRO tarjeta madre AMD AM4 micro ATX", "MSI", "computo/componentes/tarjetas-madre/amd-am4"],
+  ["Logitech Ultimate Ears BOOM 3 984-001358 bocina bluetooth roja", "LOGITECH", "audio/bocinas/bluetooth"],
+  ["Manhattan 353243 cable HDMI activo fibra optica 20 m", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/fibra-optica"],
+  ["Brother DR433CL drum unit unidad de tambor color", "BROTHER", "impresion/consumibles/tambores"],
+  ["Gigabyte H610M K V2 tarjeta madre Intel LGA1700 DDR5", "GIGABYTE", "computo/componentes/tarjetas-madre/intel-lga1700"],
+  ["Meriva MDL-5202A camara HD bullet 4 en 1 AHD TVI CVI", "MERIVA", "seguridad/cctv/camaras-turbohd/bullet"],
+  ["ASUS ExpertBook P1 P1403CVA-i58G512-P1 laptop empresarial", "ASUS", "computo/laptops/empresariales"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
