@@ -67,8 +67,7 @@ const applyCandidate = async (product) => {
   }
 
   await withRetry(`archive=${product.id}`, () => pb.collection('products').update(product.id, {
-    availability_status: 'archived_obsolete',
-    category_review_status: 'archived_obsolete',
+    availability_status: 'obsolete',
     curation_sources: [
       ...(Array.isArray(product.curation_sources) ? product.curation_sources : []),
       { type: 'obsolete_cleanup', mode, applied_at: nowIso() },

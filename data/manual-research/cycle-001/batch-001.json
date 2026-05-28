@@ -1,0 +1,607 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b001-2026-05-27",
+  "cycle": 1,
+  "batch": 1,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "n16meoy2fd1acxe",
+      "research": {
+        "confidence": 0.92,
+        "name": "Enson ENS-PCB1010 caja plastica IP66 100 x 100 x 50 mm",
+        "description": "Caja plastica de registro con sello de goma para resguardar conexiones electricas, CCTV, control de acceso y telecomunicaciones en interior o exterior.",
+        "manualCategoryPath": "infraestructura/cajas-registro",
+        "semanticCategoryPath": "infraestructura/cajas-registro/cajas-plasticas-ip66",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ensoncable.com/producto/EC080ENS07",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=4qpqYnSS8EZiDkLmgSrRctj2ofHVqH9Zwv9x7hkVLKovZ4UG&id=21340866"
+        ],
+        "documents": [
+          {
+            "label": "Catalogo Enson infraestructura",
+            "type": "catalog",
+            "url": "https://ensoncable.com/ENSON_catalogo.pdf"
+          }
+        ],
+        "specs": {
+          "brand": "ENSON",
+          "model": "ENS-PCB1010",
+          "productType": "Caja plastica para conexiones",
+          "material": "Plastico con sello de goma",
+          "ingressProtection": "IP66",
+          "impactProtection": "IK07",
+          "color": "Gris claro",
+          "mounting": "Superficie",
+          "applications": [
+            "telecomunicaciones",
+            "CCTV",
+            "control de acceso",
+            "automatizacion"
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "100 x 100 x 50 mm",
+          "weight": "0.18 kg"
+        },
+        "sourceRefs": [
+          {
+            "title": "Enson - Caja de plastico con pasacables IP66",
+            "type": "manufacturer",
+            "url": "https://www.ensoncable.com/producto/EC080ENS07"
+          },
+          {
+            "title": "GetsmartCA - ficha ENS-PCB1010",
+            "type": "reseller_spec",
+            "url": "https://getsmartca.com/enson-ens-pcb1010-caja-plastica-ip66-100x100x50mm/"
+          },
+          {
+            "title": "CTOnline feed ACCMVA850 stock 4356",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "s0tozzbfv2uoef7",
+      "research": {
+        "confidence": 0.94,
+        "name": "Kensington K64444WW candado NanoSaver con llave para laptop",
+        "description": "Candado con llave NanoSaver para equipos ultradelgados con ranura Kensington Nano; cable de acero, cabezal compacto y tecnologia Hidden Pin.",
+        "manualCategoryPath": "accesorios/seguridad-fisica",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-laptop",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/technology-device-security-products/device-security-keyed-locks/nanosaver-keyed-laptop-lock/",
+        "documents": [
+          {
+            "label": "Kensington support K64444WW",
+            "type": "support",
+            "url": "https://customer.kensington.com/us/us/s/k64444ww/nanosaver__keyed_laptop_lock__k64444ww_"
+          }
+        ],
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K64444WW",
+          "productType": "Candado de seguridad para laptop",
+          "lockType": "Standard keyed",
+          "securitySlotType": "Nano",
+          "keyingSystem": "5 mm con Hidden Pin",
+          "cableThickness": "5 mm",
+          "lockHeadDiameter": "10 mm",
+          "warranty": "5 anos limitada",
+          "upc": "085896644446",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "cableLength": "1.8 m"
+        },
+        "sourceRefs": [
+          {
+            "title": "Kensington NanoSaver Keyed Laptop Lock",
+            "type": "manufacturer",
+            "url": "https://www.kensington.com/p/products/technology-device-security-products/device-security-keyed-locks/nanosaver-keyed-laptop-lock/"
+          },
+          {
+            "title": "Kensington support K64444WW specifications",
+            "type": "manufacturer_support",
+            "url": "https://customer.kensington.com/us/us/s/k64444ww/nanosaver__keyed_laptop_lock__k64444ww_"
+          },
+          {
+            "title": "CTOnline feed ACCKNS630 stock 3047",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "6x7helfu8jjmzbc",
+      "research": {
+        "confidence": 0.93,
+        "name": "Provision-ISR PTR-101V-HD+ transceptor pasivo video balun 4 en 1",
+        "description": "Par de video balun pasivo para CCTV HD sobre par trenzado, compatible con AHD, CVI, TVI y CVBS, sin fuente de alimentacion.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/video-baluns",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.nl/producten/provision-isr-ptr-101v-hd-8",
+        "documents": [
+          {
+            "label": "Provision-ISR PTR-101V-HD+ datasheet",
+            "type": "datasheet",
+            "url": "https://provision-isr.nl/files/products/141/datasheet-provision-isr-ptr-102vp-hd.pdf"
+          }
+        ],
+        "specs": {
+          "brand": "PROVISION ISR",
+          "model": "PTR-101V-HD+",
+          "productType": "Video balun pasivo",
+          "channels": "1 canal",
+          "signalSupport": [
+            "AHD",
+            "CVI",
+            "TVI",
+            "CVBS"
+          ],
+          "resolutionSupport": "4MP y menor",
+          "wiring": "Par trenzado sin blindaje",
+          "surgeProtection": "2 kV",
+          "powerSource": "No requiere",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "51 x 19 x 18 mm / 40 x 20 x 18 mm + cable 140 mm",
+          "weight": "30 g",
+          "transmissionDistance": "4MP hasta 200 m AHD / 150 m CVI-TVI"
+        },
+        "sourceRefs": [
+          {
+            "title": "Provision-ISR PTR-101V-HD+ product page",
+            "type": "manufacturer",
+            "url": "https://provision-isr.nl/producten/provision-isr-ptr-101v-hd-8"
+          },
+          {
+            "title": "Provision-ISR 4in1 4MP baluns datasheet",
+            "type": "datasheet",
+            "url": "https://provision-isr.nl/files/products/141/datasheet-provision-isr-ptr-102vp-hd.pdf"
+          },
+          {
+            "title": "CTOnline feed ACCPVS530 stock 2288",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "ydqpr86rk0sgsx6",
+      "research": {
+        "confidence": 0.9,
+        "name": "Perfect Choice PC-030270 toallas limpiadoras antiestaticas 20 piezas",
+        "description": "Toallas humedas antiestaticas para limpieza de pantallas LCD, LED, plasma, laptops, teclados, smartphones y accesorios de computo.",
+        "manualCategoryPath": "computo/accesorios/limpieza",
+        "semanticCategoryPath": "computo/accesorios/limpieza/toallas-antiestaticas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-030270",
+          "productType": "Toallas limpiadoras antiestaticas",
+          "presentation": "20 piezas",
+          "useFor": [
+            "LCD",
+            "TFT",
+            "Plasma",
+            "LED",
+            "laptops",
+            "teclados",
+            "smartphones"
+          ],
+          "ingredients": [
+            "alcohol isopropilico",
+            "lauril sulfato de sodio",
+            "perfume",
+            "formol",
+            "agua desionizada"
+          ],
+          "upc": "615604030270",
+          "ean": "4032445030270",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "wipeDimensions": "20 x 17 cm",
+          "packageDimensions": "21 x 1 x 6 cm",
+          "weight": "0.09 kg"
+        },
+        "sourceRefs": [
+          {
+            "title": "PCDigital - Toallas antiestaticas PC-030270",
+            "type": "reseller_spec",
+            "url": "https://www.pcdigital.com.mx/toallas-antiestaticas-20-piezas-perfect-choice-pc-030270/"
+          },
+          {
+            "title": "PCRedCom - Perfect Choice PC-030270",
+            "type": "reseller_spec",
+            "url": "https://pcredcom.com/perfect-choice-pc-030270-kit-de-limpieza-para-computadora-pc-030270"
+          },
+          {
+            "title": "CTOnline feed ACCMST2220 stock 1749",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          },
+          {
+            "title": "CVA feed CN-975 stock 10",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "pnj8iu17p3n3iil",
+      "research": {
+        "confidence": 0.94,
+        "name": "HID DigitalPersona 4500 lector optico de huella USB",
+        "description": "Lector optico USB de huella digital para escritorio, POS e integraciones de autenticacion con SDK DigitalPersona.",
+        "manualCategoryPath": "seguridad/control-acceso/biometricos",
+        "semanticCategoryPath": "seguridad/control-acceso/biometricos/lectores-huella-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hidglobal.com/products/4500-fingerprint-reader",
+        "gallery": [
+          "https://www.scanmarche.fr/media/catalog/product/cache/3485fe8fb3203186a545646b7327c7a2/c/r/crossmatch_4500_reader.png"
+        ],
+        "documents": [
+          {
+            "label": "HID DigitalPersona 4500 Reader Datasheet",
+            "type": "datasheet",
+            "url": "https://www.hidglobal.com/documents/hid-digitalpersona-4500-reader-datasheet"
+          }
+        ],
+        "specs": {
+          "brand": "HID",
+          "model": "50013-001-104",
+          "commercialModel": "DigitalPersona 4500",
+          "productType": "Lector optico de huella digital",
+          "interface": "USB Type-A",
+          "scannerTechnology": "Optica",
+          "useCases": [
+            "desktop office",
+            "POS",
+            "authentication SDK"
+          ],
+          "features": [
+            "captura rapida",
+            "datos de huella cifrados",
+            "compatible con SDK DigitalPersona"
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          {
+            "title": "HID DigitalPersona 4500 Fingerprint Reader",
+            "type": "manufacturer",
+            "url": "https://www.hidglobal.com/products/4500-fingerprint-reader"
+          },
+          {
+            "title": "HID DigitalPersona 4500 Reader Datasheet",
+            "type": "datasheet",
+            "url": "https://www.hidglobal.com/documents/hid-digitalpersona-4500-reader-datasheet"
+          },
+          {
+            "title": "California PC - HID 50013-001-104 SKU mapping",
+            "type": "reseller_spec",
+            "url": "https://www.californiapc.com/biometrics/hid-fingerprint-readers/50013-001-104.html"
+          },
+          {
+            "title": "CTOnline feed SOFING310 stock 1308",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "zof2g8b2ctlqt96",
+      "research": {
+        "confidence": 0.89,
+        "name": "Saxxon VB-03 par de transceptores pasivos video balun 4MP",
+        "description": "Par de transceptores pasivos video balun para CCTV HD con terminales push, soporte 4MP y proteccion contra sobretensiones.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/video-baluns",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          {
+            "label": "Saxxon VB-03 ficha tecnica",
+            "type": "datasheet",
+            "url": "https://mcashop.mx/producto/descargar/717635"
+          }
+        ],
+        "specs": {
+          "brand": "SAXXON",
+          "model": "VB-03",
+          "productType": "Par de transceptores pasivos video balun",
+          "terminalType": "Push",
+          "signalSupport": [
+            "HDCVI",
+            "HDTVI",
+            "AHD",
+            "CVBS"
+          ],
+          "resolutionSupport": "4MP",
+          "surgeProtection": "Sobretensiones",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "transmissionDistance": "4MP hasta 200 m / 1080p hasta 250 m"
+        },
+        "sourceRefs": [
+          {
+            "title": "MCAShop - Saxxon VB-03 product page",
+            "type": "reseller_spec",
+            "url": "https://mcashop.mx/producto/717635/saxxon-vb-03-par-de-transceptores-pasivos-video-balun-4mp-hasta-200m-1080p-250m-terminales-push-hdcvi-hdtvi-ahd-cvbs-proteccion-sobretensiones-para-cctv"
+          },
+          {
+            "title": "MCAShop - Saxxon VB-03 ficha tecnica",
+            "type": "datasheet",
+            "url": "https://mcashop.mx/producto/descargar/717635"
+          },
+          {
+            "title": "CTOnline feed ACCSAX120 stock 1250",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "65muc70ryt6306c",
+      "research": {
+        "confidence": 0.93,
+        "name": "Perfect Choice PC-030218 E-Degreaser desengrasante dielectrico 400 g",
+        "description": "Desengrasante dielectrico para limpieza de equipo electrico y electronico; elimina grasa, aceite y suciedad pesada sin danar componentes.",
+        "manualCategoryPath": "computo/accesorios/limpieza",
+        "semanticCategoryPath": "computo/accesorios/limpieza/desengrasantes-dielectricos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/desengrasante-dielectrico-e-degreaser",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-030218",
+          "line": "E-Degreaser",
+          "productType": "Desengrasante dielectrico",
+          "presentation": "Aerosol 400 g",
+          "nonFlammable": true,
+          "applications": [
+            "interruptores electromagneticos",
+            "motores",
+            "relevadores telefonicos",
+            "instrumentos de precision",
+            "maquinas automaticas"
+          ],
+          "upc": "615604030218",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "67 x 67 x 204 mm",
+          "netWeight": "400 g",
+          "approxWeight": "520 g"
+        },
+        "sourceRefs": [
+          {
+            "title": "Perfect Choice - Desengrasante Dielectrico E-Degreaser",
+            "type": "manufacturer",
+            "url": "https://perfectchoice.me/products/desengrasante-dielectrico-e-degreaser"
+          },
+          {
+            "title": "Oasify - ficha PC-030218",
+            "type": "reseller_spec",
+            "url": "https://oasify.com/cuidado-y-limpieza/44828-e-degreaser-desengrasante-dielectrico-400-grs-0615604030218.html"
+          },
+          {
+            "title": "CTOnline feed ACCMST1700 stock 911",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          },
+          {
+            "title": "CVA feed CN-60 stock 10",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "elgkuocsoxn6zod",
+      "research": {
+        "confidence": 0.88,
+        "name": "Navigator papel carta 70 g caja con 5000 hojas",
+        "description": "Papel Navigator tamano carta de 70 g/m2 y blancura 97%, caja con 5000 hojas para impresion laser e inkjet de alto volumen.",
+        "manualCategoryPath": "oficina/papel-consumibles",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-carta",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://cdn11.bigcommerce.com/s-4kvgcbe9p7/images/stencil/1280x1280/products/117710/5630/NAV-PAPERA4__74861.1721668433.jpg?c=1"
+        ],
+        "specs": {
+          "brand": "NAVIGATOR",
+          "model": "802839500207",
+          "productType": "Papel para impresion",
+          "paperSize": "Carta",
+          "grammage": "70 g/m2",
+          "brightness": "97%",
+          "cieWhiteness": "161 CIE",
+          "opacity": "91%",
+          "sheetCount": "5000 hojas",
+          "barcode": "802839500207",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          {
+            "title": "Colmenero - Papel Navigator Carta 70g barcode 802839500207",
+            "type": "reseller_spec",
+            "url": "https://colmenero.shop/products/papel-navigator-carta-70g-97-blancura"
+          },
+          {
+            "title": "Valse - Navigator Universal A4 80gsm reference image",
+            "type": "image_reference",
+            "url": "https://www.valse.co.uk/navigator-universal-white-a4-80gsm-paper-rea-5c-p-117710.html"
+          },
+          {
+            "title": "CTOnline feed PAPNAV010 stock 557",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "4k2jzez29upln8h",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA C100 Digital Display power bank 10000 mAh 20W",
+        "description": "Bateria externa ADATA C100 con pantalla digital, USB-C PD, carga rapida QC/PD y carga simultanea para dos dispositivos.",
+        "manualCategoryPath": "energia/power-banks",
+        "semanticCategoryPath": "energia/power-banks/usb-c",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/consumer/category/15/power-bank-c100-digital/",
+        "gallery": [
+          "https://webapi3.adata.com/storage/product/c100_digital_display_powerbank_k_productpage_1920x6481746442585.jpg",
+          "https://webapi3.adata.com/storage/product/c100_digital_display_powerbank_k_productpage_480x650.jpg",
+          "https://webapi3.adata.com/storage/product/c100_digital_display_pd_2000x2000_01_bk1746435176.png",
+          "https://webapi3.adata.com/storage/product/c100_digital_display_pd_2000x2000_05_bk.png"
+        ],
+        "documents": [
+          {
+            "label": "ADATA C100 datasheet",
+            "type": "datasheet",
+            "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_c100_digital_display_20250815.pdf"
+          },
+          {
+            "label": "ADATA C100 quick start guide",
+            "type": "manual",
+            "url": "https://webapi3.adata.com/storage/downloadfile/c100_digital_display_power_bank_quick_start_guide.pdf"
+          }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "C100 Digital Display",
+          "productType": "Power bank",
+          "capacity": "10000 mAh / 37 Wh",
+          "ratedCapacity": "5V 6500mAh / 9V 3500mAh / 12V 2600mAh",
+          "input": "USB-C 18W max",
+          "outputUsbC": "20W max",
+          "outputUsbA": "18W max",
+          "fastCharging": [
+            "Qualcomm Quick Charge 3.0",
+            "USB PD 3.0"
+          ],
+          "display": "LCD digital",
+          "colors": [
+            "black",
+            "white",
+            "pink",
+            "light blue"
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "93 x 64.5 x 23.92 mm",
+          "weight": "200 g",
+          "chargingTime": "6-7 h"
+        },
+        "sourceRefs": [
+          {
+            "title": "ADATA C100 Digital Display Power Bank",
+            "type": "manufacturer",
+            "url": "https://www.adata.com/us/consumer/category/15/power-bank-c100-digital/"
+          },
+          {
+            "title": "ADATA C100 quick start guide",
+            "type": "manual",
+            "url": "https://webapi3.adata.com/storage/downloadfile/c100_digital_display_power_bank_quick_start_guide.pdf"
+          },
+          {
+            "title": "CTOnline feed BATDAT520 stock 545",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2ws7boxgdp6cq19",
+      "research": {
+        "confidence": 0.94,
+        "name": "Poly Plantronics Voyager 5200 auricular Bluetooth monoaural",
+        "description": "Auricular Bluetooth monoaural Poly Voyager 5200 con microfonos de cancelacion de ruido, WindSmart, SoundGuard y alcance inalambrico de hasta 30 m.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/headsets-bluetooth-monoaurales",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.hp.com/gb-en/product/details/voyager-5200-series/2101689272",
+        "documents": [
+          {
+            "label": "HP Poly Voyager 5200 USB-A Bluetooth headset datasheet",
+            "type": "datasheet",
+            "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08559258"
+          }
+        ],
+        "specs": {
+          "brand": "POLY",
+          "legacyBrand": "PLANTRONICS",
+          "model": "Voyager 5200",
+          "productNumber": "7K2F3AA",
+          "productType": "Auricular Bluetooth monoaural",
+          "headphoneType": "In-ear monoaural",
+          "bluetoothVersion": "5.0",
+          "supportedProfiles": [
+            "A2DP",
+            "HFP",
+            "HSP",
+            "PBAP",
+            "SSP2"
+          ],
+          "microphoneType": "Cancelacion de ruido",
+          "microphoneCount": 4,
+          "speakerBandwidth": "100 Hz a 20 kHz",
+          "microphoneBandwidth": "100 Hz a 6.8 kHz",
+          "wirelessRange": "Hasta 30 m",
+          "batteryLife": "Hasta 7 h conversacion / 9 dias espera",
+          "chargeTime": "<1.6 h",
+          "warranty": "2 anos limitada Poly",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "91 x 53 x 15 mm",
+          "weight": "20 g"
+        },
+        "sourceRefs": [
+          {
+            "title": "HP Support - Voyager 5200 series specifications",
+            "type": "manufacturer_support",
+            "url": "https://support.hp.com/gb-en/product/details/voyager-5200-series/2101689272"
+          },
+          {
+            "title": "HP Poly Voyager 5200 7K2F3AA specifications",
+            "type": "manufacturer",
+            "url": "https://www.hp.com/emea_africa-fr/products/accessories/product-details/product-specifications/2101720189"
+          },
+          {
+            "title": "CTOnline feed ACCPTS1880 stock 527",
+            "type": "provider_stock",
+            "observedAt": "2026-05-20T03:05:42Z"
+          }
+        ]
+      }
+    }
+  ]
+}

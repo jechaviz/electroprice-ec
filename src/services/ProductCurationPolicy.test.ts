@@ -111,4 +111,47 @@ describe("product curation policy", () => {
       category: "laptops",
     }).path).toBe("software/licencias");
   });
+
+  it("accepts researched manual category overrides within PocketBase select values", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-4",
+      name: "Saxxon VB-03",
+      brand: "SAXXON",
+      category: "laptops",
+      total_stock: 2,
+      wholesaler_stock: [{ wholesalerId: "tecnosinergia", stock: 2, price: 10 }],
+      specs: {},
+    }, {
+      research: {
+        confidence: 0.91,
+        name: "Saxxon VB-03 par de transceptores pasivos video balun 4MP",
+        manualCategoryPath: "seguridad/cctv/accesorios-cableado",
+        legacyCategory: "cameras",
+        categoryReviewStatus: "manual_verified",
+      },
+    });
+
+    expect(patch.name).toBe("Saxxon VB-03 par de transceptores pasivos video balun 4MP");
+    expect(patch.category).toBe("cameras");
+    expect(patch.manual_category_path).toBe("seguridad/cctv/accesorios-cableado");
+    expect(patch.category_review_status).toBe("manual_verified");
+  });
+
+  it("falls back when researched review status is outside PocketBase choices", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-5",
+      name: "ADATA C100 power bank",
+      brand: "ADATA",
+      category: "laptops",
+      total_stock: 1,
+      wholesaler_stock: [{ wholesalerId: "ct", stock: 1, price: 10 }],
+      specs: {},
+    }, {
+      research: {
+        categoryReviewStatus: "manual_web_researched",
+      },
+    });
+
+    expect(patch.category_review_status).toBe("manual_rule_applied");
+  });
 });

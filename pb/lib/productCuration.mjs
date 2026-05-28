@@ -4,6 +4,13 @@ import { classifyManualCategory } from './manualTaxonomy.mjs';
 export const CURATION_SCHEMA_VERSION = 'electroprice.product_curation.v1';
 export const DEFAULT_OBSOLETE_AFTER_DAYS = 30;
 
+const PRODUCT_CATEGORY_REVIEW_STATUSES = new Set([
+  'needs_manual_review',
+  'manual_rule_applied',
+  'manual_verified',
+  'rejected',
+]);
+
 const fieldMap = {
   image_url: 'image_url',
   manufacturer_url: 'manufacturer_url',
@@ -96,12 +103,17 @@ export const buildProductCurationPatch = (product, options = {}) => {
   const stockLocations = summarizeStockLocations(product);
   const specs = inferMeasurementSpecs(product);
   const research = options.research || {};
+  const manualCategoryPath = research.manualCategoryPath || manualCategory.path;
+  const legacyCategory = research.legacyCategory || manualCategory.legacyCategory;
+  const categoryReviewStatus = PRODUCT_CATEGORY_REVIEW_STATUSES.has(research.categoryReviewStatus)
+    ? research.categoryReviewStatus
+    : manualCategory.reviewStatus;
   const fields = {
     name: cleanName(product) || product.name,
-    category: manualCategory.legacyCategory,
-    manual_category_path: manualCategory.path,
-    semantic_category_path: research.semanticCategoryPath || manualCategory.path,
-    category_review_status: manualCategory.reviewStatus,
+    category: legacyCategory,
+    manual_category_path: manualCategoryPath,
+    semantic_category_path: research.semanticCategoryPath || manualCategoryPath,
+    category_review_status: categoryReviewStatus,
     curation_version: manualCategory.taxonomyVersion,
     specs: { ...specs, ...(research.specs || {}) },
     stock_locations: stockLocations,

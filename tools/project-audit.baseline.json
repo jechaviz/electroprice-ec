@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-27T21:04:11.178Z",
-  "fileCount": 251,
-  "fileNameHash": "656effbb6eaa1171202f6c3fb4273f6774097370cb38fb446ac93780d1f2b914",
+  "generatedAt": "2026-05-28T00:19:14.175Z",
+  "fileCount": 252,
+  "fileNameHash": "2409e7988ed86b81441fb180c538cb24bddeea4c7e8da290e4593b49a86b0383",
   "files": [
     ".env.example",
     ".gitignore",
@@ -76,6 +76,7 @@
     "pb/pb_migrations/1779120007_sql_reindex_product_catalog_fields_v2.js",
     "pb/pb_migrations/1779120008_sql_normalize_product_search_text.js",
     "pb/pb_migrations/1779120009_added_product_curation_lifecycle.js",
+    "pb/scripts/pb_apply_manual_research.mjs",
     "pb/scripts/pb_cleanup_obsolete_products.mjs",
     "pb/scripts/pb_curate_products.mjs",
     "pb/scripts/pb_demo_reset.mjs",

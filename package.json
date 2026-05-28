@@ -17,6 +17,7 @@
       "pb:reindex-products": "node pb/scripts/pb_reindex_products.mjs",
       "pb:enrich-products-ai": "node pb/scripts/pb_enrich_products_ai.mjs",
       "pb:curate-products": "node pb/scripts/pb_curate_products.mjs",
+      "pb:apply-manual-research": "node pb/scripts/pb_apply_manual_research.mjs",
       "pb:cleanup-obsolete-products": "node pb/scripts/pb_cleanup_obsolete_products.mjs",
       "pb:refresh-provider-offers": "node pb/scripts/pb_refresh_provider_offers.mjs",
       "audit:providers": "node tools/provider-config-audit.mjs",
