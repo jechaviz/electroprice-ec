@@ -186,6 +186,16 @@ const researchedBatchCases = [
   ["North System NORTH051-BKL charola para monitor rack", "NORTH SYSTEM", "infraestructura/racks-accesorios/charolas-monitor"],
   ["North System NORTH054-BKL charola para teclado 19 pulgadas", "NORTH SYSTEM", "infraestructura/racks-accesorios/charolas-teclado"],
   ["North System NORTH080-BKL charola para servidor 19 x 30", "NORTH SYSTEM", "infraestructura/racks-accesorios/charolas-servidor"],
+  ["Okidata 70047803 unidad duplex B6500 B6500n", "OKIDATA", "impresion/accesorios/unidades-duplex"],
+  ["OvalTech OTAC-E50 cargador laptop 65W 18.5V 4.8 x 1.7 USB", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E52 cargador laptop 90W 19.5V 7.4 x 5.0 pin central", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E51 cargador laptop 90W 19V 5.5 x 2.5 USB", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E53 adaptador computadora portatil HP 90W pin central", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E56 cargador laptop Acer 40W punta 5.5 x 1.7", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E72 adaptador netbook Asus 19V 2.1A", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E55 cargador laptop Acer 90W 19V 4.74A", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E60 cargador laptop ASUS 65W 4.0 x 1.35", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["OvalTech OTAC-E71 cargador laptop Samsung 60W 16V 5.5 x 3.0", "OVALTECH", "computo/accesorios/cargadores-laptop"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
