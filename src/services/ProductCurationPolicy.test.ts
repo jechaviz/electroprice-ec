@@ -200,6 +200,36 @@ describe("product curation policy", () => {
       brand: "MICROSOFT",
       category: "laptops",
     }).path).toBe("software/licencias");
+
+    expect(classifyManualCategory({
+      name: "Laces LA100TE1224X50 tuerca enjaulada 12-24",
+      brand: "LACES",
+      category: "laptops",
+    }).path).toBe("infraestructura/racks-accesorios/herrajes");
+
+    expect(classifyManualCategory({
+      name: "PCM 10B4 papel bond para plotter 0.91 x 50",
+      brand: "PCM",
+      category: "laptops",
+    }).path).toBe("impresion/consumibles/papel-plotter");
+
+    expect(classifyManualCategory({
+      name: "EZVIZ DL05 cerradura inteligente",
+      brand: "EZVIZ",
+      category: "laptops",
+    }).path).toBe("seguridad/control-acceso/cerraduras-inteligentes");
+
+    expect(classifyManualCategory({
+      name: "Manhattan 410144 pulsera antiestatica ESD",
+      brand: "MANHATTAN",
+      category: "laptops",
+    }).path).toBe("computo/accesorios/herramientas-esd");
+
+    expect(classifyManualCategory({
+      name: "TopVision TBDL500A camara HD TVI AHD CVI",
+      brand: "TOPVISION",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-turbohd");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {

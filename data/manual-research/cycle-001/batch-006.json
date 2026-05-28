@@ -1,0 +1,362 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b006-2026-05-27",
+  "cycle": 1,
+  "batch": 6,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "e33krn1slaq5frz",
+      "research": {
+        "confidence": 0.92,
+        "name": "SABO 53-0083 Disperse Electronico limpiador dielectric 590 ml",
+        "description": "Desplazador de humedad y polvo 100% dielectrico para equipo electronico, uso interno/externo con el equipo apagado; no recomendado para pantallas.",
+        "manualCategoryPath": "computo/accesorios/limpieza",
+        "semanticCategoryPath": "computo/accesorios/limpieza/limpiadores-dielectricos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-electronica/sabo-530083-disperse-electronico-590-ml-sabo-desp/53-0083",
+        "specs": {
+          "brand": "SABO",
+          "model": "53-0083",
+          "providerSku": "SABLMP050",
+          "upc": "811176000837",
+          "productType": "Limpiador / desplazador de humedad para electronica",
+          "presentation": "Aerosol 590 ml",
+          "dielectric": true,
+          "useFor": ["equipo electronico", "humedad", "polvo"],
+          "precautions": ["usar con equipo apagado", "proteger pantallas", "no usar directamente en pantallas"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "netVolume": "590 ml" },
+        "sourceRefs": [
+          { "title": "Global Office SABO 53-0083 SABLMP050", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-electronica/sabo-530083-disperse-electronico-590-ml-sabo-desp/53-0083" },
+          { "title": "Consumibles Juarez SABO 53-0083 usage notes", "type": "reseller_spec", "url": "https://consumiblesjuarez.com/products/sablmp050" },
+          { "title": "CTOnline feed SABLMP050 stock 77", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7gi37qfoypyj476",
+      "research": {
+        "confidence": 0.93,
+        "name": "Laces LA100TE1224X50 caja 50 tuercas enjauladas 12-24 negras",
+        "description": "Caja de 50 tuercas enjauladas Laces para fijacion de equipo en racks, gabinetes o brackets de pared, rosca No. 12-24 y acabado negro fosfatado.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/herrajes",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Laces LA100TE1224X50 ficha PDF", "type": "datasheet", "url": "https://www.rlcomunicaciones.com/docs/laces/LA100TE1224X50.pdf" }],
+        "specs": {
+          "brand": "LACES",
+          "model": "LA100TE1224X50",
+          "providerSku": "ACCLCS230",
+          "productType": "Tuercas enjauladas para rack",
+          "thread": "No. 12-24",
+          "finish": "Fosfato y aceite",
+          "color": "Negro",
+          "quantity": "50 piezas",
+          "applications": ["racks", "gabinetes", "brackets de pared"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "RL Comunicaciones Laces LA100TE1224X50 datasheet", "type": "datasheet", "url": "https://www.rlcomunicaciones.com/docs/laces/LA100TE1224X50.pdf" },
+          { "title": "Cityshop Laces LA100TE1224X50", "type": "reseller_spec", "url": "https://cityshop.mx/producto/caja-de-50-tuercas-enjauladas-laces-la100te1224x50-fosfato-negro" },
+          { "title": "CTOnline feed ACCLCS230 stock 77", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "6fnqrr0xv41ed8d",
+      "research": {
+        "confidence": 0.95,
+        "name": "Hisense HMMS2509SP horno de microondas 0.9 pies 25 L plata",
+        "description": "Horno de microondas Hisense HMMS2509SP de 0.9 pies cubicos/25 L, 1000 W, color plata, 26 menus mexicanos, revestimiento ceramico, 10 niveles de potencia y descongelacion.",
+        "manualCategoryPath": "hogar/electrodomesticos/microondas",
+        "semanticCategoryPath": "hogar/electrodomesticos/microondas/compactos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://hisense.com.mx/HMMS2509SP",
+        "documents": [{ "label": "Hisense HMMS2509SP official page", "type": "manufacturer_page", "url": "https://hisense.com.mx/HMMS2509SP" }],
+        "specs": {
+          "brand": "HISENSE",
+          "model": "HMMS2509SP",
+          "providerSku": "HORHSE060",
+          "productType": "Horno de microondas",
+          "capacity": "0.9 pies cubicos / 25 L",
+          "power": "1000 W",
+          "color": "Plata",
+          "menus": "26 menus mexicanos preestablecidos",
+          "powerLevels": 10,
+          "features": ["descongelacion", "revestimiento ceramico", "modo de menor consumo", "operacion silenciosa"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Hisense HMMS2509SP official product page", "type": "manufacturer", "url": "https://hisense.com.mx/HMMS2509SP" },
+          { "title": "Cyberpuerta HMMS2509SP essentials", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Hogar/Linea-Blanca/Hornos-de-Microondas/Hisense-Horno-de-Microondas-HMMS2509SP-0-9-Pies-Cubicos-1000W-25-Litros-Plata.html" },
+          { "title": "CTOnline feed HORHSE060 stock 75", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "uloq0hy62g5op1z",
+      "research": {
+        "confidence": 0.9,
+        "name": "PCM 10B4 papel bond blanco para plotter 0.91 x 50 m",
+        "description": "Rollo de papel bond PCM 10B4 color blanco para plotter e impresion de gran formato, compatible con formato 0.91 x 50 m.",
+        "manualCategoryPath": "impresion/consumibles/papel-plotter",
+        "semanticCategoryPath": "impresion/consumibles/papel-plotter/bond-blanco",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/credencializacion/papel-bond-pcm-10b4-papel-bond-pcm-10b4-091-x-50/10b4",
+        "specs": {
+          "brand": "PCM",
+          "model": "10B4",
+          "providerSku": "ACCPCM595",
+          "ean": "7501604391509",
+          "productType": "Papel bond para plotter",
+          "paperType": "Bond",
+          "color": "Blanco",
+          "compatibleFormat": "0.91 x 50 m",
+          "grammage": "75 g/m2 segun ficha de distribuidor relacionada",
+          "useCases": ["plotter", "impresion gran formato", "planos"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollWidth": "0.91 m", "rollLength": "50 m" },
+        "sourceRefs": [
+          { "title": "Global Office PCM 10B4 ACCPCM595", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/credencializacion/papel-bond-pcm-10b4-papel-bond-pcm-10b4-091-x-50/10b4" },
+          { "title": "CompuPuebla PCM 10B4", "type": "reseller_spec", "url": "https://compupuebla.com/producto/papel-bond-pcm-10b4/" },
+          { "title": "CTOnline feed ACCPCM595 stock 73", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zl0wun1bpdk7y3r",
+      "research": {
+        "confidence": 0.96,
+        "name": "EZVIZ DL05 cerradura inteligente con huella WiFi Bluetooth",
+        "description": "Cerradura inteligente EZVIZ DL05 con desbloqueo por huella, codigo, tarjeta, llave mecanica, Bluetooth, codigos temporales y desbloqueo remoto; panel frontal IP65.",
+        "manualCategoryPath": "seguridad/control-acceso/cerraduras-inteligentes",
+        "semanticCategoryPath": "seguridad/control-acceso/cerraduras-inteligentes/huella-wifi",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/af/product/dl05/196921",
+        "documents": [
+          { "label": "EZVIZ DL05 product page", "type": "manufacturer_page", "url": "https://www.ezviz.com/af/product/dl05/196921" },
+          { "label": "EZVIZ DL05 datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/DL05_Datasheet.pdf?ver=79895" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "DL05",
+          "providerSku": "ACCEZV180",
+          "productType": "Cerradura inteligente con huella",
+          "commercialModels": ["CS-DL05-R100-WBCP-GR(M)", "CS-DL05-R200-WBCP-GR(M)"],
+          "panelMaterial": "Aleacion de aluminio",
+          "color": "Gris metalico",
+          "unlockingMethods": ["huella", "codigo", "tarjeta proximidad", "llave mecanica", "Bluetooth via app EZVIZ", "codigos temporales", "desbloqueo remoto"],
+          "capacities": { "users": 50, "fingerprints": 50, "passcodes": 50, "cards": 50 },
+          "communication": ["WiFi 2.4 GHz", "Bluetooth"],
+          "ingressProtection": "IP65 panel frontal",
+          "power": "8 baterias alcalinas AA 1.5 V",
+          "emergencyCharging": "USB-C",
+          "supportedDoorThickness": "30-110 mm",
+          "operatingTemperature": "-25 a 70 C",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "panelDimensions": "360 x 67 x 27 mm" },
+        "sourceRefs": [
+          { "title": "EZVIZ DL05 official specifications", "type": "manufacturer", "url": "https://www.ezviz.com/af/product/dl05/196921" },
+          { "title": "EZVIZ DL05 datasheet PDF", "type": "datasheet", "url": "https://mfs.ezvizlife.com/DL05_Datasheet.pdf?ver=79895" },
+          { "title": "CTOnline feed ACCEZV180 stock 72", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "5ymzow7362i2xhb",
+      "research": {
+        "confidence": 0.93,
+        "name": "Acteck Active Sync HC580 audifonos Bluetooth con microfono",
+        "description": "Diadema inalambrica Acteck Active Sync HC580 con Bluetooth 5.0, entrada auxiliar 3.5 mm, microfono unidireccional, drivers de 40 mm y bateria recargable de 400 mAh.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/diademas-bluetooth-microfono",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/diadema-acteck-active-sync-hc580-inalambrico-microfono-negro-434383",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "HC580",
+          "commercialModel": "Active Sync HC580",
+          "providerSku": "BOCACT700",
+          "manufacturerPartNumber": "AC-942386",
+          "ean": "7506215942386",
+          "productType": "Audifonos de diadema con microfono",
+          "connectivity": ["Bluetooth 5.0", "auxiliar 3.5 mm"],
+          "headphoneFrequency": "20 Hz - 20 kHz",
+          "impedance": "32 ohm",
+          "speakerDriver": "40 mm",
+          "speakerSensitivity": "105 dB +/- 3 dB",
+          "microphone": "Boom / unidireccional",
+          "microphoneFrequency": "70 Hz - 10 kHz",
+          "battery": "400 mAh recargable",
+          "chargePort": "USB-C",
+          "chargeTime": "3 h",
+          "runtime": "hasta 10 h aprox.",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "16 x 9 x 20 cm", "weight": "130 g" },
+        "sourceRefs": [
+          { "title": "Intercompras Acteck Active Sync HC580", "type": "reseller_spec", "url": "https://intercompras.com/p/diadema-acteck-active-sync-hc580-inalambrico-microfono-negro-434383" },
+          { "title": "TiendaClic Acteck HC580 technical sheet", "type": "reseller_spec", "url": "https://www.tiendaclic.mx/ver-detalle/audifonos-acteck-active-sync-hc580-diadema-inalambrico-microfono-unidireccional-conexion-bluetooth-y-auxiliar-20-hz-20-khz-cancelacion-de-ruido-negro-ac-942386-acteck-ac-942386" },
+          { "title": "CTOnline feed BOCACT700 stock 70", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hcwsb7zys1hxjzb",
+      "research": {
+        "confidence": 0.93,
+        "name": "Manhattan 410144 pulsera antiestatica ESD cable 1.8 m",
+        "description": "Pulsera antiestatica Manhattan 410144 ajustable con cable de 1.8 m para disipar electricidad estatica al trabajar con componentes de PC y electronica sensible.",
+        "manualCategoryPath": "computo/accesorios/herramientas-esd",
+        "semanticCategoryPath": "computo/accesorios/herramientas-esd/pulseras",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.mx/app/detalle/producto/portatiles/pulsera-antiestatica-manhattan-velcro-ajustable-41/410144",
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "410144",
+          "providerSku": "ACCITL1055",
+          "upc": "766623410144",
+          "productType": "Pulsera antiestatica ESD",
+          "color": "Negro",
+          "strap": "Velcro ajustable",
+          "cableLength": "1.8 m",
+          "useFor": ["proteccion ESD", "ensamble PC", "mantenimiento electronico"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "1.8 m" },
+        "sourceRefs": [
+          { "title": "Global Office Manhattan 410144", "type": "reseller_spec", "url": "https://www.globaloffice.mx/app/detalle/producto/portatiles/pulsera-antiestatica-manhattan-velcro-ajustable-41/410144" },
+          { "title": "CompuPuebla Manhattan 410144", "type": "reseller_spec", "url": "https://compupuebla.com/producto/pulsera-antiestatica-manhattan-410144/" },
+          { "title": "CTOnline feed ACCITL1055 stock 65", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-1618 stock 5", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gbli2j72ya5i4dl",
+      "research": {
+        "confidence": 0.93,
+        "name": "TechZone TZDIBT01 diadema monoaural Bluetooth con microfono",
+        "description": "Auricular monoaural inalambrico TechZone TZDIBT01 con Bluetooth 5.0, microfono boom, bateria de 400 mAh, autonomia hasta 16 h y alcance inalambrico de 10 m.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/monoaurales-call-center",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.expercom.mx/producto/diadema-techzone-tzdibt01",
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZDIBT01",
+          "providerSku": "BOCTCH2890",
+          "productType": "Auricular monoaural Bluetooth",
+          "connectivity": "Inalambrico",
+          "bluetooth": true,
+          "bluetoothVersion": "5.0",
+          "wirelessBand": "2.4 GHz",
+          "wirelessRange": "10 m",
+          "headphoneType": "Circumaural / monoaural",
+          "headphoneFrequency": "20 Hz - 20 kHz",
+          "driverUnit": "40 mm",
+          "microphoneType": "Boom",
+          "recommendedUse": "Oficina / centro de llamadas",
+          "battery": "400 mAh litio integrada",
+          "batteryVoltage": "3.7 V",
+          "runtime": "16 h",
+          "standbyTime": "300 h",
+          "color": "Negro",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Expercom TechZone TZDIBT01 specifications", "type": "reseller_spec", "url": "https://www.expercom.mx/producto/diadema-techzone-tzdibt01" },
+          { "title": "Oasify TechZone Monoaural TZDIBT01", "type": "reseller_spec", "url": "https://oasify.com/auriculares-y-monoaurales/auriculares-techzone-monoaural-tzdibt01" },
+          { "title": "CTOnline feed BOCTCH2890 stock 69", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "um01mt6py68ynec",
+      "research": {
+        "confidence": 0.95,
+        "name": "TopVision TBDL500A camara bullet HD 5MP iluminacion dual",
+        "description": "Camara bullet HD TopVision TBDL500A de 5MP 4 en 1 (AHD/TVI/CVI/CVBS), lente 2.8 mm, IR 30 m, luz calida 20 m, microfono integrado, AoC por TVI e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/5mp-iluminacion-dual",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://old.tecnosinergia.info/TBDL500A.html",
+        "documents": [{ "label": "TopVision TBDL500A ficha PDF", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=3UbS4Z2i_VqmLeyorF4Yw8inbITUzDvPHW3cx8jmvwXb7dQj&id=21878239" }],
+        "specs": {
+          "brand": "TOPVISION",
+          "model": "TBDL500A",
+          "providerSku": "TBDL500A",
+          "tecnosinergiaCode": "C4112TOP06",
+          "productType": "Camara bullet HD analogica",
+          "resolution": "5 MP / 2944 x 1656 @ 20 fps",
+          "videoFormats": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "irDistance": "20-30 m",
+          "warmLight": "20 m",
+          "illumination": "Dual IR / luz calida",
+          "audio": "Microfono integrado / audio por coaxial AoC solo TVI",
+          "configuration": "Menu OSD",
+          "ingressProtection": "IP67",
+          "housing": "Metal-plastico",
+          "power": "12 VCD",
+          "satCode": "46171610",
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "sourceRefs": [
+          { "title": "Tecnosinergia TopVision TBDL500A", "type": "provider_spec", "url": "https://old.tecnosinergia.info/TBDL500A.html" },
+          { "title": "TopVision TBDL500A datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=3UbS4Z2i_VqmLeyorF4Yw8inbITUzDvPHW3cx8jmvwXb7dQj&id=21878239" },
+          { "title": "Tecnosinergia portal stock TBDL500A stock 66", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2n3yr9yab60zzxz",
+      "research": {
+        "confidence": 0.94,
+        "name": "Naceb Gaming Ice Shield NA-0649 pasta termica 4 g",
+        "description": "Pasta termica Naceb Gaming Ice Shield NA-0649 en jeringa de 4 g para CPU/GPU, alta conductividad, no conductiva electricamente y rango operativo -50 a 250 C.",
+        "manualCategoryPath": "computo/componentes/pasta-termica",
+        "semanticCategoryPath": "computo/componentes/pasta-termica/alta-conductividad",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://coregaming.com.mx/producto/pasta-termica-ice-shield-na-0649-4g-jeringa-aplicadora-na-0649",
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "NA-0649",
+          "providerSku": "ACCNCB1400",
+          "upc": "7502262801584",
+          "productType": "Pasta termica para CPU/GPU",
+          "line": "Ice Shield",
+          "presentation": "Jeringa aplicadora",
+          "netWeight": "4 g",
+          "thermalConductivity": "12.8 W/mK",
+          "viscosity": "85000-95000 cps segun ficha",
+          "operatingTemperature": "-50 a 250 C",
+          "density": "2.8 g/ml",
+          "thermalImpedance": "<0.112 C-in2/W",
+          "breakdownVoltage": ">5.0 kV/mm",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "weight": "4 g" },
+        "sourceRefs": [
+          { "title": "Core Gaming Naceb Ice Shield NA-0649 specs", "type": "reseller_spec", "url": "https://coregaming.com.mx/producto/pasta-termica-ice-shield-na-0649-4g-jeringa-aplicadora-na-0649" },
+          { "title": "Global Office Naceb NA-0649 ACCNCB1400", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-laptops/pastas-termicas-naceb-gaming-na-0649-pasta-termica-ice-shiel/na-0649" },
+          { "title": "CTOnline feed ACCNCB1400 stock 65", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
