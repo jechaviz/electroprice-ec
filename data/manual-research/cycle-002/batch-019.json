@@ -1,0 +1,406 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b019-2026-05-27",
+  "cycle": 2,
+  "batch": 19,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "rct0vrbsuiev5ff",
+      "research": {
+        "confidence": 0.95,
+        "name": "Logitech G335 audifono gaming alambrico blanco/azul",
+        "description": "Audifono gaming Logitech G335 blanco/azul con conexion 3.5 mm, drivers de 40 mm, microfono boom cardioide abatible, control de volumen integrado y compatibilidad multiplataforma.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/gaming-alambricos",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Logitech G335 datasheet", "type": "datasheet", "url": "https://media.distrelec.com/Web/Downloads/_t/ds/Logitec_G335_eng_tds.pdf" },
+          { "label": "Logitech G335 quick start guide", "type": "manual", "url": "https://www.logitech.com/assets/66247/g335-gaming-headset-web-qsg.pdf" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "G335",
+          "partNumber": "981-001018",
+          "providerSku": "BOCLOG1750",
+          "upc": "097855165480",
+          "productType": "Audifono gaming alambrico",
+          "color": "Blanco/Azul",
+          "connection": "3.5 mm TRRS",
+          "drivers": "40 mm",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "impedance": "36 Ohm",
+          "sensitivity": "87.5 dB SPL/mW",
+          "microphone": "Boom cardioide unidireccional, 100 Hz - 10 kHz",
+          "features": ["flip-to-mute", "control de volumen en copa", "Discord Certified", "Y-splitter incluido"],
+          "platformSupport": ["PC", "Xbox", "PlayStation", "Nintendo Switch", "moviles con 3.5 mm"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 1270.59, "currency": "MXN", "branch": "D2A/SLP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "189 x 180 x 79 mm", "weight": "240 g" },
+        "sourceRefs": [
+          { "title": "B&H Logitech G335 white UPC and specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1667471-REG/logitech_g_981_001017_g335_wired_gaming_headset.html/includes" },
+          { "title": "Logitech G335 datasheet mirror", "type": "datasheet", "url": "https://media.distrelec.com/Web/Downloads/_t/ds/Logitec_G335_eng_tds.pdf" },
+          { "title": "CTOnline feed BOCLOG1750 stock 4 D2A/SLP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "08n1dgcb67x9wlx",
+      "research": {
+        "confidence": 0.94,
+        "name": "Mirati MBJ01N exprimidor de citricos 700 ml 25 W negro",
+        "description": "Exprimidor de citricos Mirati Home MBJ01N color negro con jarra de 700 ml, motor de 25 W, doble sentido de giro y cuerpo de plastico ABS para uso domestico.",
+        "manualCategoryPath": "hogar/electrodomesticos/exprimidores",
+        "semanticCategoryPath": "hogar/electrodomesticos/exprimidores/citricos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://miratihome.com/catalogo/electrodomesticos/exprimidores/exprimidor-de-citricos-mirati-home-abs-color-negro-mbj01n/",
+        "specs": {
+          "brand": "MIRATI",
+          "model": "MBJ01N",
+          "providerSku": "ELE-15",
+          "productType": "Exprimidor de citricos",
+          "capacity": "700 ml",
+          "power": "25 W",
+          "voltage": "127 V C.A. / 60 Hz",
+          "material": "Plastico ABS",
+          "color": "Negro",
+          "features": ["doble sentido de giro", "partes extraibles", "jarra de 0.7 L"],
+          "warranty": "1 ano en fabricante",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 4, "price": 155.16, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "200 x 150 x 150 mm", "weight": "1.2 kg" },
+        "sourceRefs": [
+          { "title": "Mirati Home MBJ01N official page", "type": "manufacturer", "url": "https://miratihome.com/catalogo/electrodomesticos/exprimidores/exprimidor-de-citricos-mirati-home-abs-color-negro-mbj01n/" },
+          { "title": "Cyberpuerta MBJ01N images and warranty", "type": "image_reference", "url": "https://www.cyberpuerta.mx/Hogar/Electrodomesticos-de-Cocina/Extractores-y-Exprimidores/Exprimidores/Mirati-Exprimidor-de-Citricos-MBJ01N-700ml-25W-Negro.html" },
+          { "title": "CVA feed ELE-15 stock 4 no branch detail", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "s60ryjcsozch8bj",
+      "research": {
+        "confidence": 0.92,
+        "name": "Naceb Fornax NA-0308N diadema Bluetooth negra",
+        "description": "Diadema Bluetooth Naceb Fornax NA-0308N color negro con microfono integrado, conectividad inalambrica y alambrica 3.5 mm, controles de volumen y bateria recargable.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/bluetooth-supraaurales",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0308N",
+          "commercialName": "Fornax",
+          "providerSku": "BOCNCB660",
+          "ean": "7502262807920",
+          "productType": "Diadema Bluetooth",
+          "color": "Negro",
+          "connectivity": ["Bluetooth 4.2", "3.5 mm"],
+          "headphoneType": "Supraaural",
+          "microphone": "Integrado, 1 microfono",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "impedance": "32 Ohm",
+          "sensitivity": "105 dB",
+          "battery": "400 mAh recargable",
+          "batteryLife": "10 h",
+          "features": ["control de volumen por botones", "alambrico/inalambrico"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CEL", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 270.19, "currency": "MXN", "branch": "CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Oasify Naceb Fornax NA-0308N specifications", "type": "reseller_spec", "url": "https://oasify.com/audifonos/diadema-bluetooh-fornax-naceb-technology-na-0308n" },
+          { "title": "Tek Digital NA-0308N stock and images", "type": "image_reference", "url": "https://tekdigital.mx/producto/diadema-bluetooh-fornax-naceb-technology-na-0308n-negro-bluetooth/" },
+          { "title": "CTOnline feed BOCNCB660 stock 4 CEL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ffghykitczl3eqd",
+      "research": {
+        "confidence": 0.9,
+        "name": "PCM 10B11 papel bond para plotter 0.91 x 100 m blanco",
+        "description": "Rollo de papel bond PCM 10B11 para plotter, blanco, formato 0.91 x 100 m, orientado a planos, trazos CAD e impresion de baja saturacion.",
+        "manualCategoryPath": "impresion/consumibles/papel-plotter",
+        "semanticCategoryPath": "impresion/consumibles/papel-plotter/bond-91cm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-bond-para-plotter",
+        "specs": {
+          "brand": "PCM",
+          "model": "10B11",
+          "providerSku": "ACCPCM685",
+          "ean": "7501604391134",
+          "productType": "Papel bond para plotter",
+          "paperType": "Bond",
+          "color": "Blanco",
+          "format": "0.91 x 100 m",
+          "width": "914 mm",
+          "length": "100 m",
+          "applications": ["plotter", "CAD", "planos", "impresion B/N o color de baja saturacion"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 469.32, "currency": "MXN", "branch": "HMO/DFP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollFormat": "0.91 x 100 m" },
+        "sourceRefs": [
+          { "title": "PCM papel bond para plotter official page", "type": "manufacturer", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-bond-para-plotter" },
+          { "title": "TiendaClic PCM 10B11 specs", "type": "reseller_spec", "url": "https://www.depot.tiendaclic.mx/ver-detalle/papel-bond-pcm-10b11-pcm-10b11" },
+          { "title": "CTOnline feed ACCPCM685 stock 4 HMO/DFP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "42etwd7sa3f5p1e",
+      "research": {
+        "confidence": 0.9,
+        "name": "PCM 10B5 papel bond para plotter 0.91 x 100 m blanco",
+        "description": "Rollo de papel bond PCM 10B5 para plotter, blanco, formato 0.91 x 100 m, para planos, CAD, oficinas tecnicas y trabajos de trazo.",
+        "manualCategoryPath": "impresion/consumibles/papel-plotter",
+        "semanticCategoryPath": "impresion/consumibles/papel-plotter/bond-91cm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-bond-para-plotter",
+        "specs": {
+          "brand": "PCM",
+          "model": "10B5",
+          "providerSku": "ACCPCM605",
+          "ean": "7501604391134",
+          "productType": "Papel bond para plotter",
+          "paperType": "Bond",
+          "color": "Blanco",
+          "format": "0.91 x 100 m",
+          "width": "914 mm",
+          "length": "100 m",
+          "applications": ["plotter", "CAD", "planos", "impresion B/N o color de baja saturacion"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 422.8, "currency": "MXN", "branch": "HMO/SLP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollFormat": "0.91 x 100 m" },
+        "sourceRefs": [
+          { "title": "PCM papel bond para plotter official page", "type": "manufacturer", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-bond-para-plotter" },
+          { "title": "TiendaClic PCM 10B5 specs", "type": "reseller_spec", "url": "https://www.tiendaclic.mx/ver-detalle/papel-bond-pcm-10b5-pcm-10b5" },
+          { "title": "CTOnline feed ACCPCM605 stock 4 HMO/SLP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "tzr3j41qs9435k6",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice Loopy PC-085225 mochila escolar roja",
+        "description": "Mochila escolar Perfect Choice Loopy PC-085225 color rojo, de poliester, con multiples compartimentos, bolsa delantera, correas ajustables y asa de transporte.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochilas-escolares",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085225",
+          "commercialName": "Loopy",
+          "providerSku": "MALGEN4900",
+          "upc": "615604085225",
+          "productType": "Mochila escolar",
+          "color": "Rojo",
+          "material": "100% poliester",
+          "features": ["multiples compartimentos", "bolsa delantera", "bolsillos con cremallera", "correas ajustables", "asa de transporte", "cierre"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 502.19, "currency": "MXN", "branch": "TXA/TOL/ACA/CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "320 x 165 x 450 mm", "weight": "480 g" },
+        "sourceRefs": [
+          { "title": "PCStore Perfect Choice PC-085225 specs and images", "type": "image_reference", "url": "https://pcstore.mx/mochilas-y-maletines-perfect-choice-pc-085225-escolar-para-ninos-multiples-compartimentos-modelo-loopy-color-rojo" },
+          { "title": "GlobalOffice PC-085225 SKU and stock reference", "type": "reseller_stock", "url": "https://www.globaloffice.mx/app/detalle/producto/accesorios-computacionales/mochila-escolar-perfect-choice-para-ninos-loopy-co/pc-085225" },
+          { "title": "CTOnline feed MALGEN4900 stock 4 TXA/TOL/ACA/CEL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "sdylw9gkhu7eylw",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice Brooklyn Dinosaurios PC-085300 mochila escolar azul",
+        "description": "Mochila escolar infantil Perfect Choice Brooklyn Dinosaurios PC-085300 color azul/multicolor, de poliester, con multiples compartimentos, tirantes acolchados y estructura ligera.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochilas-escolares",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mochila-escolar-infantil-multiples-compartimentos-brooklyn-dinosaurios-perfect-choice",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085300",
+          "commercialName": "Brooklyn Dinosaurios",
+          "providerSku": "MALGEN4920",
+          "upc": "615604085300",
+          "productType": "Mochila escolar infantil",
+          "color": "Azul/Multicolor",
+          "material": "100% poliester",
+          "style": "Ciudad",
+          "features": ["multiples compartimentos", "bolsa delantera", "bolsillos con cremallera", "tirantes acolchados", "correas ajustables", "asa de transporte"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 430.35, "currency": "MXN", "branch": "TXA/CUN/DFA/ACA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "440 x 305 x 120 mm", "weight": "550 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Brooklyn Dinosaurios official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mochila-escolar-infantil-multiples-compartimentos-brooklyn-dinosaurios-perfect-choice" },
+          { "title": "PCStore PC-085300 specs and images", "type": "image_reference", "url": "https://pcstore.mx/mochilas-y-maletines-perfect-choice-pc-085300-escolar-infantil-multiples-compartimentos-modeo-brooklyn-dinosaurios" },
+          { "title": "CTOnline feed MALGEN4920 stock 4 TXA/CUN/DFA/ACA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "perd58hn64avw5u",
+      "research": {
+        "confidence": 0.94,
+        "name": "Poly Voyager 4310 USB-A BT700 audifono monoaural Bluetooth",
+        "description": "Audifono monoaural Poly Voyager 4310 con adaptador USB-A BT700, Bluetooth 5.2, microfono con cancelacion de ruido, SoundGuard Digital y autonomia extendida para PC y movil.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/headsets-bluetooth-monoaurales",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ec-es/products/accessories/product-details/product-specifications/2101558356",
+        "documents": [
+          { "label": "Poly Voyager 4310 datasheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08466104" }
+        ],
+        "specs": {
+          "brand": "POLY",
+          "legacyBrand": "PLANTRONICS",
+          "model": "Voyager 4310",
+          "providerSku": "ACCPTS1960",
+          "upc": "197029504531",
+          "productType": "Audifono Bluetooth monoaural",
+          "headsetType": "On-ear monoaural",
+          "connectivity": ["Bluetooth 5.2", "USB-A BT700"],
+          "microphone": "Cancelacion de ruido, 2 microfonos",
+          "speakerBandwidth": "20 Hz - 20 kHz",
+          "microphoneBandwidth": "100 Hz - 6.8 kHz",
+          "wirelessRange": "50 m en ficha de proveedor",
+          "batteryLife": "Hasta 24 h conversacion / 47 h musica / 50 dias espera",
+          "compatibleOs": ["Windows 11", "Windows 10", "macOS", "Android", "iOS"],
+          "features": ["SoundGuard Digital", "Poly Lens", "alertas de voz", "controles de llamada/mute/volumen"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 98.91, "currency": "USD", "branch": "SLT/VER/PUE/MTY" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "155 x 67 x 166 mm", "weight": "122 g" },
+        "sourceRefs": [
+          { "title": "HP Ecuador Poly Voyager 4310 specifications", "type": "manufacturer", "url": "https://www.hp.com/ec-es/products/accessories/product-details/product-specifications/2101558356" },
+          { "title": "B&H Poly Voyager 4310 UPC/specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1805140-REG/poly_76u48aa_voyager_4310_usb_a_headset.html" },
+          { "title": "CTOnline feed ACCPTS1960 stock 4 SLT/VER/PUE/MTY", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gavgir82350tq1p",
+      "research": {
+        "confidence": 0.94,
+        "name": "Targus DEFCON ASP71GLX-S candado Nano combinacion serializado",
+        "description": "Candado Targus DEFCON Compact Serialized Combo Cable Lock ASP71GLX-S para ranura Kensington Nano, con combinacion serializada, cable galvanizado de 6.5 pies y cabeza giratoria 360 grados.",
+        "manualCategoryPath": "accesorios/seguridad-fisica",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-nano-combinacion",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "TARGUS",
+          "model": "ASP71GLX-S",
+          "commercialName": "DEFCON Compact Serialized Combo Cable Lock",
+          "providerSku": "ACCTRG2950",
+          "upc": "092636330644",
+          "ean": "5051794024890",
+          "productType": "Candado de cable para laptop/tablet",
+          "lockType": "Combinacion serializada",
+          "securitySlot": "Kensington Nano",
+          "cableMaterial": "Acero galvanizado",
+          "cableLength": "6.5 ft / 2 m",
+          "features": ["numero serial unico", "recuperacion segura de codigo", "cabeza giratoria 360 grados", "base PA400P incluida en ficha de canal"],
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 15.06, "currency": "USD", "branch": "OAX/MOR/IRA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "2 m", "weight": "131.5 g en Tech-America / 280 g en Redcorp", "packageDimensionsReference": "78 x 2.13 x 0.49 in en ficha legacy" },
+        "sourceRefs": [
+          { "title": "Tech-America Targus ASP71GLX-S specifications", "type": "reseller_spec", "url": "https://www.tech-america.com/item/targus-defcon-compact-serialized-combo-cable-lock/asp71glx-s" },
+          { "title": "Staples Targus ASP71GLX-S feature reference", "type": "reseller_spec", "url": "https://www.staples.com/targus-defcon-compact-serialized-combo-cable-lock-black-asp71glx-s/product_24403511" },
+          { "title": "CTOnline feed ACCTRG2950 stock 4 OAX/MOR/IRA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "yio08ogi8flc37n",
+      "research": {
+        "confidence": 0.94,
+        "name": "Verbatim 95179 DVD-RW 4.7GB 4x spindle 30 piezas",
+        "description": "Paquete Verbatim 95179 de 30 discos DVD-RW regrabables de 4.7 GB, velocidad hasta 4x, 120 minutos de grabacion y superficie branded en spindle.",
+        "manualCategoryPath": "computo/almacenamiento/medios-opticos",
+        "semanticCategoryPath": "computo/almacenamiento/medios-opticos/dvd-rw",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "VERBATIM",
+          "model": "95179",
+          "providerSku": "CDRWCB1760",
+          "upc": "023942951797",
+          "productType": "DVD-RW regrabable",
+          "mediaFormat": "DVD-RW",
+          "capacity": "4.7 GB",
+          "writeSpeed": "4x",
+          "recordingTime": "120 min",
+          "packQuantity": 30,
+          "packing": "Spindle",
+          "formFactor": "120 mm",
+          "features": ["SERL recording layer", "superficie branded", "garantia limitada de por vida en canal"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 250.3, "currency": "MXN", "branch": "HMO/OAX/ZAC/ACA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Tech-America Verbatim 95179 specifications", "type": "reseller_spec", "url": "https://www.tech-america.com/item/verbatim-dvd-rw-4-7gb-4x-with-branded-surface/95179" },
+          { "title": "Walmart Verbatim 95179 images/specs", "type": "image_reference", "url": "https://www.walmart.com/ip/941065909" },
+          { "title": "CTOnline feed CDRWCB1760 stock 4 HMO/OAX/ZAC/ACA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

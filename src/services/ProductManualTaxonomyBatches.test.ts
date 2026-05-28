@@ -62,6 +62,16 @@ const researchedBatchCases = [
   ["Tripp Lite N206-FP02-IND bulkhead wall plate", "TRIPP-LITE", "redes/cableado-estructurado/placas-keystone"],
   ["DataShield IS-1000 inversor cargador solar", "DATASHIELD", "energia/inversores-solares"],
   ["DataShield IS-3000 inversor solar hibrido", "DATASHIELD", "energia/inversores-solares"],
+  ["Logitech G335 wired gaming headset blanco azul", "LOGITECH", "audio/audifonos"],
+  ["Mirati MBJ01N exprimidor de citricos 700 ml 25 W", "MIRATI", "hogar/electrodomesticos/exprimidores"],
+  ["Naceb Fornax NA-0308N diadema Bluetooth", "NACEB TECHNOLOGY", "audio/audifonos"],
+  ["PCM 10B11 papel bond plotter 0.91 x 100", "PCM", "impresion/consumibles/papel-plotter"],
+  ["PCM 10B5 papel bond plotter 0.91 x 100", "PCM", "impresion/consumibles/papel-plotter"],
+  ["Perfect Choice PC-085225 mochila escolar Loopy rojo", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["Perfect Choice PC-085300 mochila escolar Brooklyn Dinosaurios", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["Poly Voyager 4310 ACCPTS1960 headset Bluetooth BT700", "POLY", "audio/audifonos"],
+  ["Targus ASP71GLX-S DEFCON Compact Serialized Combo Cable Lock", "TARGUS", "accesorios/seguridad-fisica"],
+  ["Verbatim 95179 DVD-RW 4.7GB 30 pack", "VERBATIM", "computo/almacenamiento/medios-opticos"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
