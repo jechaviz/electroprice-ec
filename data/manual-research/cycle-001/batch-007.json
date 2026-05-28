@@ -1,0 +1,346 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b007-2026-05-27",
+  "cycle": 1,
+  "batch": 7,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1dkplnw9oqtpken",
+      "research": {
+        "confidence": 0.95,
+        "name": "Evotec EV-3007 lector inalambrico de codigo de barras 1D/2D",
+        "description": "Escaner inalambrico Evotec EV-3007 para punto de venta e inventario, lectura 1D/2D, sensor laser, USB, bateria y base.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/lectores-2d-inalambricos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.evotec.mx/ev-3007",
+        "documents": [{ "label": "Evotec EV-3007 official page", "type": "manufacturer_page", "url": "https://www.evotec.mx/ev-3007" }],
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3007",
+          "providerSku": "SCAEVO040",
+          "upc": "7502262801041",
+          "productType": "Lector de codigo de barras manual",
+          "scanType": "1D/2D",
+          "scanTechnology": "Laser",
+          "connectivity": ["Inalambrico", "USB"],
+          "powerSource": "Bateria",
+          "color": "Negro",
+          "scanModes": ["manual", "continuo", "intermitente"],
+          "depthOfField": "10-380 mm",
+          "useCases": ["punto de venta", "inventario", "almacen"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "scannerDimensions": "70 x 96 x 50 mm", "baseDimensions": "115 x 110 x 245 mm", "weight": "500 g" },
+        "sourceRefs": [
+          { "title": "Evotec EV-3007 official product page", "type": "manufacturer", "url": "https://www.evotec.mx/ev-3007" },
+          { "title": "Techsmart EV-3007 technical details", "type": "reseller_spec", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?Marca=EVOTEC&TipoMoneda=MXN&cveProducto=PVLCBEVO3007" },
+          { "title": "CTOnline feed SCAEVO040 stock 63", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "izs0729dr1v9iti",
+      "research": {
+        "confidence": 0.94,
+        "name": "Saxxon SUA-KIT/XVR1E04-I/4-B10P-0280B kit CCTV 4 canales 1MP",
+        "description": "Kit de videovigilancia Saxxon by Dahua con XVR de 4 canales HDCVI y 4 camaras bullet B10P de 1MP/720p, lente 2.8 mm, audio y deteccion de movimiento.",
+        "manualCategoryPath": "seguridad/cctv/kits-vigilancia",
+        "semanticCategoryPath": "seguridad/cctv/kits-vigilancia/4-canales-hdcvi",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/videovigilancia/kit-de-videovigilancia-saxxon-sua-kitxvr1e04-i4/sua-kitxvr1e04-i4-b10p-0280b",
+        "documents": [{ "label": "Global Office Saxxon kit PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/sua-kitxvr1e04-i4-b10p-0280b" }],
+        "specs": {
+          "brand": "SAXXON",
+          "model": "SUA-KIT/XVR1E04-I/4-B10P-0280B",
+          "providerSku": "KITDAH770",
+          "ean": "6937552402676",
+          "productType": "Kit de videovigilancia CCTV",
+          "recorderChannels": 4,
+          "cameraQuantity": 4,
+          "cameraType": "Bullet CCTV",
+          "resolution": "1 MP / 720p",
+          "lens": "2.8 mm",
+          "fieldOfView": "Hasta 100 grados",
+          "recorderFeatures": ["deteccion de movimiento inteligente", "entradas y salidas de audio"],
+          "technology": "HDCVI",
+          "warranty": "1 ano con Centro de Servicio Especializado en retailers",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Saxxon SUA-KIT/XVR1E04-I/4-B10P-0280B", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Seguridad-y-Vigilancia/Camaras-y-Sistemas-de-Vigilancia/Kits-de-Vigilancia/Saxxon-Kit-de-Vigilancia-SUA-KIT-XVR1E04-I-4-B10P-0280B-de-4-Camaras-CCTV-Bullet-con-Grabadora-de-4-Canales.html" },
+          { "title": "CompuPuebla SAXXON KITDAH770", "type": "reseller_spec", "url": "https://compupuebla.com/producto/kit-de-videovigilancia-saxxon-sua-kit-xvr1e04-i-4-b10p-0280b/" },
+          { "title": "CTOnline feed KITDAH770 stock 54", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "obkatyd1jxgy49c",
+      "research": {
+        "confidence": 0.95,
+        "name": "Huawei Band 10 55020EKU smartwatch aluminio verde",
+        "description": "Banda inteligente Huawei Band 10 Aluminum Green con pantalla AMOLED 1.47 pulgadas, caja de aluminio, monitoreo de sueno avanzado, sensores de salud y resistencia 5 ATM.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/bandas-fitness",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/ca/wearables/band10/specs/",
+        "documents": [{ "label": "Huawei Band 10 official specifications", "type": "manufacturer_page", "url": "https://consumer.huawei.com/ca/wearables/band10/specs/" }],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "55020EKU",
+          "commercialModel": "Huawei Band 10 Aluminum Green",
+          "providerSku": "ACCHUW1490",
+          "ean": "6942103150777",
+          "productType": "Banda inteligente / smartwatch",
+          "display": "1.47 in AMOLED 194 x 368, 282 PPI",
+          "caseMaterial": "Aleacion de aluminio",
+          "strapColor": "Verde",
+          "sensors": ["IMU 9 ejes", "frecuencia cardiaca optica", "luz ambiental"],
+          "waterResistance": "5 ATM",
+          "workoutModes": "100 modos",
+          "features": ["monitoreo de sueno avanzado", "SpO2", "bienestar emocional", "carga magnetica"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43.45 x 24.86 x 8.99 mm", "weight": "15 g sin correa" },
+        "sourceRefs": [
+          { "title": "Huawei Band 10 official specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/ca/wearables/band10/specs/" },
+          { "title": "CompuPuebla Huawei 55020EKU SKU ACCHUW1490", "type": "reseller_spec", "url": "https://compupuebla.com/producto/smartwatch-huawei-55020eku/" },
+          { "title": "CTOnline feed ACCHUW1490 stock 53", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "tgl4a7jsgtbtppl",
+      "research": {
+        "confidence": 0.89,
+        "name": "HI8US HG01 termometro infrarrojo sin contacto",
+        "description": "Termometro infrarrojo HI8US HG01 para medicion de temperatura humana a distancia, funciona con baterias AA no incluidas.",
+        "manualCategoryPath": "salud/equipo-medico/monitoreo",
+        "semanticCategoryPath": "salud/equipo-medico/monitoreo/termometros-infrarrojos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.com.mx/app/detalle/producto/salud/termometro-infrarojo-hi8us-hg01-termometro-infraro/hg01",
+        "specs": {
+          "brand": "HI8US",
+          "model": "HG01",
+          "providerSku": "TERHIS010",
+          "productType": "Termometro infrarrojo sin contacto",
+          "measurementMethod": "Infrarrojo a distancia",
+          "useFor": "Temperatura humana",
+          "power": "Baterias AA no incluidas",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Global Office HI8US HG01 TERHIS010", "type": "reseller_spec", "url": "https://www.globaloffice.com.mx/app/detalle/producto/salud/termometro-infrarojo-hi8us-hg01-termometro-infraro/hg01" },
+          { "title": "Consumibles Juarez HI8US HG01", "type": "reseller_spec", "url": "https://consumiblesjuarez.com/products/terhis010" },
+          { "title": "CTOnline feed TERHIS010 stock 52", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7repi5svyd2tugq",
+      "research": {
+        "confidence": 0.94,
+        "name": "Acteck Esence Basic AS215 bocinas alambricas 2.0 6W",
+        "description": "Bocinas de escritorio Acteck Esence Basic AS215 con conexion 3.5 mm, alimentacion USB, 6 W RMS, respuesta 60 Hz-20 kHz, gabinete plastico negro/plata.",
+        "manualCategoryPath": "computo/perifericos/bocinas-audio",
+        "semanticCategoryPath": "computo/perifericos/bocinas-audio/2-0-usb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/audio-y-sonido/bocinas-acteck-para-computo-esence-basic-as215/ac-935272",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AS215",
+          "commercialModel": "Esence Basic AS215",
+          "providerSku": "BOCACT350",
+          "manufacturerPartNumber": "AC-935272",
+          "productType": "Bocinas para computadora",
+          "speakerSystem": "2.0",
+          "connectivity": "Alambrica 3.5 mm",
+          "powerInput": "USB 5 Vcc",
+          "rmsPower": "6 W",
+          "speakerPower": "2 x 3 W",
+          "frequencyResponse": "60 Hz - 20 kHz",
+          "impedance": "4 ohm",
+          "cableLength": "1 m",
+          "material": "Plastico",
+          "color": "Negro / plata",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "70 x 65 x 93 mm", "weight": "270 g" },
+        "sourceRefs": [
+          { "title": "Intercompras Acteck AS215 specs", "type": "reseller_spec", "url": "https://intercompras.com/p/bocinas-acteck-esence-basic-as215-alambrico-35mm-3w-332591" },
+          { "title": "Mactoner Acteck AS215 AC-935272", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/bocinas-acteck-as215-ac-935272-negro-plata/" },
+          { "title": "CTOnline feed BOCACT350 stock 52", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8n4f72rxmur71px",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice PC-110583 microfono cardioide para streaming con tripie",
+        "description": "Microfono de estudio/streaming Perfect Choice PC-110583 Noise Barrier con tripie, patron cardioide, conexion 3.5 mm, 48 kHz, 16 bit y filtro antipop.",
+        "manualCategoryPath": "audio/microfonos",
+        "semanticCategoryPath": "audio/microfonos/streaming-cardioides",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/microfono-de-video-profesional-perfect-choice-pc-110583/",
+        "documents": [{ "label": "Perfect Choice PC-110583 ficha PDF", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/499333" }],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-110583",
+          "providerSku": "BOCMST3320",
+          "alternateProviderSku": "SPK-2175",
+          "upc": "615604110583",
+          "productType": "Microfono de estudio / streaming",
+          "microphonePattern": "Cardioide",
+          "connectivity": "Alambrico 3.5 mm",
+          "sampleRate": "48 kHz",
+          "bitDepth": "16 bit",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "sensitivity": "-39 dB",
+          "color": "Negro",
+          "included": ["tripie", "filtro antipop"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "69 x 171 x 254 mm", "weight": "0.3 kg" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Perfect Choice PC-110583", "type": "reseller_spec", "url": "https://compupuebla.com/producto/microfono-de-video-profesional-perfect-choice-pc-110583/" },
+          { "title": "MCAShop PC-110583 ficha PDF", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/499333" },
+          { "title": "CTOnline feed BOCMST3320 stock 50", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed SPK-2175 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ni2tgnczyptqbbj",
+      "research": {
+        "confidence": 0.94,
+        "name": "HP 3YP86AL kit de cabezales negro/tricolor",
+        "description": "Kit de cabezales de impresion HP 3YP86AL negro y tricolor para impresoras HP Ink Tank/Smart Tank compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cabezales",
+        "semanticCategoryPath": "impresion/consumibles/cabezales/hp-kit",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/consumibles/hp-kit-cabezal-3yp86al-negrotricolor-3yp86al-3/3yp86al",
+        "specs": {
+          "brand": "HP",
+          "model": "3YP86AL",
+          "providerSku": "CARHPP4340",
+          "upc": "193808292804",
+          "productType": "Kit de cabezales de impresion",
+          "printColors": ["Negro", "Tricolor"],
+          "boxContents": "Cabezal negro y cabezal tricolor",
+          "compatibleFamilies": ["HP Ink Tank", "HP Smart Tank"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Global Office HP 3YP86AL CARHPP4340", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/consumibles/hp-kit-cabezal-3yp86al-negrotricolor-3yp86al-3/3yp86al" },
+          { "title": "CompuPuebla Cabezal HP 3YP86AL", "type": "reseller_spec", "url": "https://compupuebla.com/producto/cabezal-hp-3yp86al/" },
+          { "title": "CTOnline feed CARHPP4340 stock 49", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1p0euvs2zm77jyq",
+      "research": {
+        "confidence": 0.93,
+        "name": "Evotec EV-3023C caja 160 rollos papel termico 57 x 36 mm",
+        "description": "Caja de 160 rollos de papel termico Evotec EV-3023C/TR5736 para impresoras POS, medida 57 x 36 mm.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/57mm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/index.php/app/detalle/producto/evotec/rollos-de-papel-evotec-ev-3023c-evotec-caja-con-160-rollos-d/ev-3023c",
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3023C",
+          "providerSku": "ACCEVO050",
+          "ean": "7502262801928",
+          "productType": "Rollos de papel termico POS",
+          "paperType": "Termico",
+          "rollSize": "57 x 36 mm",
+          "quantity": "160 rollos por caja",
+          "commercialCode": "TR5736",
+          "useCases": ["impresoras POS", "tickets", "recibos"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollWidth": "57 mm", "rollDiameter": "36 mm" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Evotec EV-3023C ACCEVO050", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollos-de-papel-evotec-ev-3023c/" },
+          { "title": "Global Office EV-3023C", "type": "reseller_spec", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/evotec/rollos-de-papel-evotec-ev-3023c-evotec-caja-con-160-rollos-d/ev-3023c" },
+          { "title": "CTOnline feed ACCEVO050 stock 49", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "k07b1lap2hsfbsp",
+      "research": {
+        "confidence": 0.94,
+        "name": "Complet CEI-1-006 bateria plomo acido 12V 7Ah",
+        "description": "Bateria sellada de plomo acido Complet CEI-1-006 de 12 V / 7 Ah para UPS, no-breaks y sistemas de respaldo compatibles.",
+        "manualCategoryPath": "energia/baterias-ups",
+        "semanticCategoryPath": "energia/baterias-ups/12v-7ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://energiayredes.com/wp-content/uploads/CEI-1-006.pdf",
+        "documents": [
+          { "label": "Complet CEI-1-006 datasheet", "type": "datasheet", "url": "https://energiayredes.com/wp-content/uploads/CEI-1-006.pdf" },
+          { "label": "Global Office CEI-1-006 PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/cei-1-006" }
+        ],
+        "specs": {
+          "brand": "COMPLET",
+          "model": "CEI-1-006",
+          "providerSku": "BATCOM020",
+          "alternateProviderSku": "FR-1523",
+          "productType": "Bateria sellada de plomo acido",
+          "voltage": "12 V",
+          "capacity": "7 Ah",
+          "chemistry": "Plomo acido sellada",
+          "useCases": ["UPS", "no-break", "respaldo electrico"],
+          "relatedUpsBattery": "1 x 12V 7Ah en modelos Complet compatibles",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Complet CEI-1-006 battery datasheet", "type": "datasheet", "url": "https://energiayredes.com/wp-content/uploads/CEI-1-006.pdf" },
+          { "title": "Global Office CEI-1-006 PDF", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/producto/pdf/cei-1-006" },
+          { "title": "CTOnline feed BATCOM020 stock 49", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed FR-1523 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "iqxud7hd7vrtyje",
+      "research": {
+        "confidence": 0.9,
+        "name": "Perfect Choice Mercury PC-270225 smartwatch rosa",
+        "description": "Smartwatch Perfect Choice Mercury PC-270225 color rosa con Bluetooth y funcion para contestar llamadas.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/smartwatch-bluetooth",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://zero1.mx/electronica/9994-smartwatch-perfect-choice-pc-270225.html",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-270225",
+          "providerSku": "ACCMST4870",
+          "commercialModel": "Mercury",
+          "productType": "Smartwatch",
+          "strapColor": "Rosa",
+          "connectivity": "Bluetooth",
+          "callFunction": true,
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Zero1 Perfect Choice PC-270225", "type": "reseller_spec", "url": "https://zero1.mx/electronica/9994-smartwatch-perfect-choice-pc-270225.html" },
+          { "title": "CTOnline feed ACCMST4870 stock 47", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

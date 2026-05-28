@@ -230,6 +230,30 @@ describe("product curation policy", () => {
       brand: "TOPVISION",
       category: "laptops",
     }).path).toBe("seguridad/cctv/camaras-turbohd");
+
+    expect(classifyManualCategory({
+      name: "Saxxon SUA-KIT/XVR1E04-I/4-B10P-0280B kit de videovigilancia",
+      brand: "SAXXON",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/kits-vigilancia");
+
+    expect(classifyManualCategory({
+      name: "Huawei Band 10 55020EKU smartwatch",
+      brand: "HUAWEI",
+      category: "laptops",
+    }).path).toBe("wearables/smartwatches");
+
+    expect(classifyManualCategory({
+      name: "Perfect Choice PC-110583 microfono cardioide",
+      brand: "PERFECT CHOICE",
+      category: "laptops",
+    }).path).toBe("audio/microfonos");
+
+    expect(classifyManualCategory({
+      name: "Evotec EV-3023C rollos de papel termico 57x36",
+      brand: "EVOTEC",
+      category: "laptops",
+    }).path).toBe("punto-de-venta/consumibles/rollos-termicos");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
