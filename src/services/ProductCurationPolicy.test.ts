@@ -122,6 +122,24 @@ describe("product curation policy", () => {
       brand: "HIKVISION",
       category: "laptops",
     }).path).toBe("seguridad/cctv/camaras-turbohd");
+
+    expect(classifyManualCategory({
+      name: "Epson T04D100 caja de mantenimiento",
+      brand: "EPSON",
+      category: "laptops",
+    }).path).toBe("impresion/consumibles/mantenimiento");
+
+    expect(classifyManualCategory({
+      name: "Nexxt AW161NXT02 placa keystone",
+      brand: "NEXXT",
+      category: "laptops",
+    }).path).toBe("redes/cableado-estructurado/placas-keystone");
+
+    expect(classifyManualCategory({
+      name: "KSA BP-201M tensiometro de muneca",
+      brand: "KSA",
+      category: "laptops",
+    }).path).toBe("salud/equipo-medico/monitoreo");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
