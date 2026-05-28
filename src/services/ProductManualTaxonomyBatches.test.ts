@@ -533,6 +533,16 @@ const researchedBatchCases = [
   ["Brother M531 cinta etiqueta azul 12mm x 8m P-touch M", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-m"],
   ["Kyocera TK-1262 toner negro 10000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera"],
   ["Tenda N6P-8H NVR PoE 8 canales 4K UHD HDD 10TB", "TENDA", "seguridad/cctv/dvr-nvr/nvr-poe"],
+  ["Fujitsu ScanSnap iX1300 escaner documental compacto duplex Wi-Fi", "FUJITSU", "impresion/escaneres/documentales-compactos"],
+  ["Ubiquiti Rocket Prism RP-5AC-GEN2 airMAX AC radio base 5GHz GPS", "UBIQUITI", "redes/radioenlaces-antenas/radios-base/airmax-ac"],
+  ["TP-Link TL-SG108PE switch Easy Smart 8 puertos Gigabit 4 PoE 55W", "TP LINK", "redes/switches/poe-administrables/gigabit/8-puertos"],
+  ["Vorago KSP-580 bafle karaoke Bluetooth RGB dos bocinas 6.5", "VORAGO", "audio/bocinas/portatiles/karaoke-party"],
+  ["Logitech Brio 100 960-001586 webcam FHD 1080p RightLight 2", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
+  ["Nexxt AW250NXT18 pinza corte lateral profesional 5 pulgadas", "NEXXT SOLUTIONS", "herramientas/herramientas-mano/pinzas-corte"],
+  ["SanDisk Ultra Shift Z410 SDCZ410-032G-G46BB memoria USB 32GB 3.2", "SANDISK", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["Lenovo 4XB7A77446 ThinkSystem HDD 2TB 3.5 7.2K SATA Simple Swap", "LENOVO", "computo/servidores/componentes/discos-hdd"],
+  ["Ovaltech OTR4551 bateria para Acer AS5742 10.8V 6 celdas", "OVALTECH", "computo/accesorios/baterias-laptop/acer"],
+  ["XPG GAMMIX D35 AX4U32008G16A-SBKD35 UDIMM DDR4 8GB 3200MHz", "ADATA", "computo/componentes/memoria-ram/udimm-ddr4"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

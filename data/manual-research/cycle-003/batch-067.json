@@ -1,0 +1,523 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b067-2026-05-28",
+  "cycle": 3,
+  "batch": 67,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "17o6iefboxu9n0j",
+      "research": {
+        "confidence": 0.96,
+        "name": "ScanSnap iX1300 escaner documental duplex Wi-Fi, ADF 20 hojas, 30 ppm, USB 3.2",
+        "description": "Escaner documental compacto ScanSnap iX1300 / IX1300 con ADF duplex y alimentador manual, escaneo U-turn y Return Scan, velocidad A4 hasta 30ppm simplex o duplex, ADF de 20 hojas, USB 3.2 Gen 1 y Wi-Fi 802.11a/b/g/n/ac.",
+        "manualCategoryPath": "impresion/escaneres/documentales-compactos",
+        "semanticCategoryPath": "impresion/escaneres/documentales/scansnap-ix1300-wifi-adf-20h-30ppm",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pfu.ricoh.com/global/scanners/scansnap/ix1300/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SCAFJT320/SCAFJT320_full.jpg",
+          "https://www.pfu.ricoh.com/global/scanners/images/v5/img_ix1300_front-ver1_tcm100-6243001_tcm100-2750236-32.jpg",
+          "https://www.pfu.ricoh.com/global/scanners/images/v5/img_ix1300_left-ver1_tcm100-6243002_tcm100-2750236-32.jpg"
+        ],
+        "documents": [
+          { "label": "ScanSnap iX1300 brochure", "type": "brochure", "url": "https://origin.pfultd.com/downloads/IMAGE/catalog/ScanSnap_iX1300_Brochure_202603.pdf" }
+        ],
+        "specs": {
+          "brand": "PFU / Ricoh ScanSnap",
+          "model": "iX1300 / IX1300",
+          "providerSku": "SCAFJT320",
+          "ean": "4939761312571",
+          "productType": "Compact duplex document scanner",
+          "scannerType": "ADF automatic document feeder plus manual feeder, duplex",
+          "scanMethods": "U-turn Scan and Return Scan",
+          "speed": "Up to 30 ppm simplex or duplex for A4 portrait",
+          "adfCapacity": "20 sheets A4 80gsm",
+          "resolution": "600 dpi color/grayscale optical, 1200 dpi monochrome",
+          "sensor": "CIS x2, RGB LED light source",
+          "interface": "USB 3.2 Gen 1 Type-B and Wi-Fi 802.11a/b/g/n/ac",
+          "driver": "ScanSnap specific driver, no TWAIN/ISIS support",
+          "power": "AC 100-240V, operating 17W or less",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SCAFJT320", "stock": 3, "price": 335.87, "currency": "USD", "branch": "DFA:3" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider uses Fujitsu brand; current official pages publish PFU/Ricoh ScanSnap.",
+            "EAN 4939761312571 appears in retailers for IX1300/PA03805-B101; confirm color if the exact retail box matters."
+          ]
+        },
+        "measurements": { "dimensions": "296 x 114 x 87 mm", "weight": "2.0 kg" },
+        "sourceRefs": [
+          { "title": "Ricoh ScanSnap iX1300 official page", "type": "manufacturer", "url": "https://www.pfu.ricoh.com/global/scanners/scansnap/ix1300/" },
+          { "title": "ScanSnap iX1300 brochure", "type": "brochure", "url": "https://origin.pfultd.com/downloads/IMAGE/catalog/ScanSnap_iX1300_Brochure_202603.pdf" },
+          { "title": "CTOnline feed SCAFJT320 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "17ymvxpe6naap2i",
+      "research": {
+        "confidence": 0.95,
+        "name": "Ubiquiti Rocket Prism 5AC Gen 2 RP-5AC-GEN2 radio base airMAX ac 5GHz, GPS, PoE pasivo",
+        "description": "Radio base Ubiquiti Rocket Prism 5AC Gen 2 RP-5AC-GEN2 para enlaces PtP/PtMP WISP en 5GHz, airMAX ac, filtro airPrism, rendimiento TCP/IP real hasta 500+Mbps, GPS Sync, Ethernet Gigabit, conectores RP-SMA y alimentacion PoE pasivo 24V.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/radios-base/airmax-ac",
+        "semanticCategoryPath": "redes/wisp/ubiquiti-airmax-ac/rocket-prism-5ac-gen2-500mbps-gps",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://dl.ubnt.com/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACPUBI360/ACPUBI360_full.jpg",
+          "https://cdn.blueally.com/netwifiworks/images/airmax/rocket-ac/prism/r5ac-prism-front-back-side.jpg",
+          "https://cdn.blueally.com/netwifiworks/images/airmax/rocket-ac/prism/rocket5ac-prism-angle.png"
+        ],
+        "documents": [
+          { "label": "Rocket Prism AC Gen2 datasheet", "type": "datasheet", "url": "https://dl.ubnt.com/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf" }
+        ],
+        "specs": {
+          "brand": "Ubiquiti",
+          "model": "RP-5AC-GEN2",
+          "providerSku": "ACPUBI360",
+          "upc": "817882020251",
+          "productType": "5GHz airMAX ac base station radio",
+          "frequency": "5150-5875 MHz worldwide 5GHz range",
+          "throughput": "Up to 500+Mbps real TCP/IP under ideal 80MHz PtP conditions",
+          "power": "Up to 28dBm output, 18-26VDC passive PoE, max 9.5W",
+          "ports": "1 Gigabit Ethernet, 2 waterproof RP-SMA RF connectors and GPS connector",
+          "modes": "Access Point and Station, airOS 8",
+          "security": "WPA2 AES",
+          "features": "airPrism filtering, GPS sync, ESD/EMP protection",
+          "included": "24V 1A Gigabit PoE adapter",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACPUBI360", "stock": 3, "price": 284.71, "currency": "USD", "branch": "D2A:2,GDL:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "UPC differs by region: MX/international listings show 817882020251 and US listings can show 817882020275.",
+            "Antennas are sold separately; this is the connectorized Rocket radio, not a dish or sector kit."
+          ]
+        },
+        "measurements": { "dimensions": "88 x 40 x 230 mm", "weight": "400 g" },
+        "sourceRefs": [
+          { "title": "Ubiquiti Rocket Prism AC Gen2 datasheet", "type": "datasheet", "url": "https://dl.ubnt.com/datasheets/RocketAC/Rocket_Prism_AC_Gen2_DS.pdf" },
+          { "title": "Ubiquiti Rocket Prism 5AC Gen2 quick start", "type": "manual", "url": "https://dl.ubnt.com/guides/RocketPrism_Gen2/Rocket_Prism_5AC-Gen2_QSG.pdf" },
+          { "title": "CTOnline feed ACPUBI360 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1818u8uwy8vusyf",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link TL-SG108PE switch Easy Smart Gigabit de 8 puertos, 4 PoE+, presupuesto PoE 64W",
+        "description": "Switch TP-Link TL-SG108PE Easy Smart de 8 puertos Gigabit RJ45 con 4 puertos PoE+ 802.3af/at, presupuesto PoE hasta 64W en revision actual, administracion web/Easy Smart Utility, VLAN, QoS, IGMP Snooping, link aggregation, port mirroring, cable diagnostics y PoE Auto Recovery.",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/8-puertos",
+        "semanticCategoryPath": "redes/switches/poe/easy-smart-8xgbe-4xpoe-plus-64w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/business-networking/soho-switch-poe/tl-sg108pe/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9850250",
+          "https://static.tp-link.com/01_large_1598408391497k.jpg",
+          "https://static.tp-link.com/02_large_1598408401353y.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link TL-SG108PE V2 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2018/201809/20180927/TL-SG108PE%28UN%292.0%20Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "TL-SG108PE",
+          "productType": "8-port Gigabit Easy Smart PoE+ switch",
+          "ports": "8 x 10/100/1000Mbps RJ45, auto negotiation and auto MDI/MDIX",
+          "poe": "Ports 1-4 support 802.3af/at PoE+, up to 30W per port",
+          "poeBudget": "64W on current V5 official page; older V2 pages may list 55W",
+          "switchingCapacity": "16Gbps",
+          "forwardingRate": "11.9Mpps",
+          "management": "Web UI and Easy Smart Configuration Utility",
+          "features": "QoS, VLAN, IGMP Snooping, static link aggregation, mirroring, cable diagnostics, loop prevention",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL770", "stock": 15, "price": 40.91, "currency": "USD", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "NIC-2230", "stock": 0, "price": 38.83, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Stock differs by provider: CT has 15 and CVA has 0.",
+            "Hardware revisions differ: current TP-Link page lists 64W PoE budget while some V2 retailer pages list 55W.",
+            "Some retailers call it unmanaged, but TP-Link classifies TL-SG108PE as Easy Smart/web-managed."
+          ]
+        },
+        "measurements": { "dimensions": "158 x 101 x 25 mm", "packageWeightRetail": "1.94 lb for V2 package" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-SG108PE official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/business-networking/soho-switch-poe/tl-sg108pe/" },
+          { "title": "TP-Link TL-SG108PE V2 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2018/201809/20180927/TL-SG108PE%28UN%292.0%20Datasheet.pdf" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "186fngqrbh90k64",
+      "research": {
+        "confidence": 0.93,
+        "name": "Vorago KSP-580 bafle karaoke Bluetooth con LCD, dos woofers 6.5 pulgadas, aros RGB, USB y MicroSD",
+        "description": "Bafle karaoke Vorago KSP-580 Bluetooth 5.0 con pantalla LCD, dos altavoces de 6.5 pulgadas, dos tweeters, aros RGB, ecualizador, control de graves/agudos/microfono, USB, TF/MicroSD, AUX 3.5mm, radio FM, TWS, entradas MIC1/MIC2 y bateria 7.4V 3600mAh.",
+        "manualCategoryPath": "audio/bocinas/portatiles/karaoke-party",
+        "semanticCategoryPath": "audio/bocinas/karaoke/bluetooth/bafle-2x6-5-rgb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/descargables/ksp-58059351728598029.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCVGO1990/BOCVGO1990_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/12/BocinaVoragoKSP580BafleKaraokespea_KSP580_0-600x600.jpg",
+          "https://inter-ds.com/cdn/shop/files/BafleVoragoKsp-580BocinaKaraokeControlRemotoMicrofonoInalambricoTwsRadioUsbMicrosd3.5Mm_1_large.jpg?v=1728339488"
+        ],
+        "documents": [
+          { "label": "Vorago KSP-580 ficha tecnica", "type": "datasheet", "url": "https://voragolive.com/descargables/ksp-58059351728598029.pdf" }
+        ],
+        "specs": {
+          "brand": "Vorago",
+          "model": "KSP-580",
+          "providerSku": "BOCVGO1990",
+          "ean": "7503049354194",
+          "productType": "Portable karaoke speaker",
+          "drivers": "2 x 6.5 inch woofers plus 2 tweeters",
+          "connectivity": "Bluetooth 5.0, AUX 3.5mm, USB, TF/MicroSD, FM radio",
+          "tws": "Pairs two KSP-580 speakers",
+          "controls": "LCD display, RGB rings, EQ, bass/treble/mic controls",
+          "battery": "7.4V 3600mAh",
+          "input": "100-240V 50/60Hz",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BOCVGO1990", "stock": 9, "price": 126.12, "currency": "USD", "branch": "CUE:2,DFC:2,HMO:1,MOR:1,SLT:1,VER:1,MAZ:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Vorago/manual indicate Bluetooth 5.0; some retailers list Bluetooth 5.3.",
+            "No official RMS power was found; avoid inferring watts."
+          ]
+        },
+        "measurements": { "dimensions": "267 x 270 x 595 mm", "weight": "8.6 kg" },
+        "sourceRefs": [
+          { "title": "Vorago KSP-580 datasheet", "type": "datasheet", "url": "https://voragolive.com/descargables/ksp-58059351728598029.pdf" },
+          { "title": "CompuPuebla Vorago KSP-580", "type": "retailer", "url": "https://compupuebla.com/producto/bocinas-vorago-ksp-580/" },
+          { "title": "CTOnline feed BOCVGO1990 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1884tv56u63g3in",
+      "research": {
+        "confidence": 0.96,
+        "name": "Logitech Brio 100 960-001586 webcam grafito Full HD 1080p 30fps, RightLight 2, microfono y privacidad",
+        "description": "Webcam Logitech Brio 100 grafito modelo 960-001586 con video Full HD 1080p a 30fps, sensor 2MP, campo visual fijo de 58 grados, RightLight 2, microfono omnidireccional, tapa de privacidad integrada, USB-A plug-and-play y cable fijo de 1.5m.",
+        "manualCategoryPath": "computo/perifericos/webcams/usb-fhd",
+        "semanticCategoryPath": "computo/perifericos/webcams/fhd-1080p-usb-a-privacidad",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech-mexico.com/wp-content/uploads/2023/12/LOGITECH-FICHA-TECNICA-BRIO-100_compressed.pdf",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10400859",
+          "https://www.grupocva.com/detalle_articulo/10400859.jpg",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/LO/LOCCAMAB036_zoom.jpg"
+        ],
+        "documents": [
+          { "label": "Logitech Brio 100 ficha tecnica MX", "type": "datasheet", "url": "https://www.logitech-mexico.com/wp-content/uploads/2023/12/LOGITECH-FICHA-TECNICA-BRIO-100_compressed.pdf" }
+        ],
+        "specs": {
+          "brand": "Logitech",
+          "model": "Brio 100 / 960-001586",
+          "providerSku": "CV-1725",
+          "upcEan": "097855188595",
+          "productType": "USB Full HD webcam",
+          "resolution": "1080p/30fps and 720p/30fps",
+          "sensor": "2MP",
+          "fieldOfView": "58 degrees diagonal fixed FoV",
+          "focus": "Fixed focus",
+          "lighting": "RightLight 2 automatic light balance",
+          "microphone": "Omnidirectional microphone, up to 1m range",
+          "privacy": "Integrated privacy shutter",
+          "connection": "USB-A plug-and-play, 1.5m fixed cable",
+          "compatibility": "Windows, macOS, ChromeOS and common calling platforms",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CV-1725", "stock": 2, "price": 620.77, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Part number varies by region; Mexico/LatAm uses 960-001586 while other graphite listings show 960-001580 or 960-001585.",
+            "Some retailers mislabel HDR, RightLight 3 or adjustable FoV; official Brio 100 spec is fixed 58 degree FoV and RightLight 2."
+          ]
+        },
+        "measurements": { "dimensions": "31.91 x 72.91 x 66.64 mm", "weight": "75 g camera only, cable excluded" },
+        "sourceRefs": [
+          { "title": "Logitech Brio 100 ficha tecnica MX", "type": "datasheet", "url": "https://www.logitech-mexico.com/wp-content/uploads/2023/12/LOGITECH-FICHA-TECNICA-BRIO-100_compressed.pdf" },
+          { "title": "1WorldSync Logitech Brio 100 datasheet", "type": "datasheet", "url": "https://cdn.cs.1worldsync.com/34/4b/344bf5a3-2a1b-41be-8aec-f76d7ade7903.pdf" },
+          { "title": "CVA feed CV-1725 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "18bbltu5hirmgcz",
+      "research": {
+        "confidence": 0.91,
+        "name": "Nexxt Solutions AW250NXT18 pinza de corte lateral profesional 5 pulgadas, acero al carbon",
+        "description": "Pinza profesional de corte lateral Nexxt Solutions PTKCUMISI05YL / AW250NXT18 para cableado de voz y datos, 5 pulgadas comerciales, acero alto carbono con tratamiento termico, mango PVC amarillo, resorte de retorno y corte de alambre de cobre hasta 1.2mm.",
+        "manualCategoryPath": "herramientas/herramientas-mano/pinzas-corte",
+        "semanticCategoryPath": "herramientas/cableado/pinzas/corte-lateral-5-pulgadas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/PTKCUMISI05YL-SPA.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNXX190/ACCNXX190_full.jpg",
+          "https://www.coolmarket.com/media/catalog/product/346/AW250NXT18/nexxt-solutions-ptkcumisi05yl-side-cutter-plier-5-inch.jpg?bg-color=255%2C255%2C255&canvas=700%3A700&fit=bounds&height=700&optimize=low&width=700",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-NEXXTSOLUTIONS-PTKCUMISI05YL-1.jpg"
+        ],
+        "documents": [
+          { "label": "Nexxt PTKCUMISI05YL ficha tecnica", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/PTKCUMISI05YL-SPA.pdf" }
+        ],
+        "specs": {
+          "brand": "Nexxt Solutions",
+          "model": "AW250NXT18 / PTKCUMISI05YL",
+          "providerSku": "ACCNXX190",
+          "upc": "798302033245",
+          "productType": "Side cutting plier",
+          "material": "High-carbon steel with heat treatment",
+          "handle": "Ergonomic yellow PVC-coated handle",
+          "spring": "Spiral spring return",
+          "capacity": "Cuts copper wire up to 1.2 mm",
+          "blade": "22 mm long x 11 mm wide, 23 degree side angle, 3 mm thickness",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCNXX190", "stock": 37, "price": 4.93, "currency": "USD", "branch": "D2A:10,CMT:5,DFA:4,SLT:2,XLP:2,VER:2,PUE:2,CUN:2,CDV:2,TOL:1,DFP:1,DFT:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider names Nexxt Solutions Home; Intcomex lists Nexxt Solutions Infrastructure for the same AW250NXT18/PTKCUMISI05YL.",
+            "Sold as 5 inch, while official sheet measures 120 mm / 4.72 inch."
+          ]
+        },
+        "measurements": { "length": "120 mm / 4.72 in", "weightRetail": "0.2 kg" },
+        "sourceRefs": [
+          { "title": "Nexxt PTKCUMISI05YL datasheet", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/PTKCUMISI05YL-SPA.pdf" },
+          { "title": "Coolmarket Nexxt AW250NXT18", "type": "retailer", "url": "https://www.coolmarket.com/nexxt-solutions-ptkcumisi05yl-side-cutter-plier-5.html" },
+          { "title": "CTOnline feed ACCNXX190 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "18ezl9iygnmrrmq",
+      "research": {
+        "confidence": 0.95,
+        "name": "SanDisk Ultra Shift 32GB USB 3.2 Gen 1 SDCZ410-032G-G46BB azul Bachelor Button",
+        "description": "Memoria USB SanDisk Ultra Shift SDCZ410-032G-G46BB de 32GB, color azul Bachelor Button, interfaz USB 3.2 Gen 1 compatible con USB 2.0, lectura hasta 100MB/s, formato USB-A sin tapa con ranura para llavero y software descargable de proteccion con contrasena AES 128-bit.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-usb/usb-a/32gb-usb-3-2-gen1",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb?sku=SDCZ410-032G-G46BB",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10376393",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/ultra-shift-usb-3-2/gallery/ultra-shift-usb-3-2-bachelor-button-front.png.wdthumb.319.319.webp"
+        ],
+        "documents": [
+          { "label": "SanDisk Ultra Shift USB 3.2 datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/ultra-shift-usb-3-2/data-sheet-ultra-shift-usb-3-2-cattleya-orchid.pdf" }
+        ],
+        "specs": {
+          "brand": "SanDisk",
+          "model": "SDCZ410-032G-G46BB",
+          "productType": "USB-A flash drive",
+          "capacity": "32GB",
+          "interface": "USB 3.2 Gen 1, backward compatible with USB 2.0",
+          "speed": "Read speed up to 100MB/s",
+          "color": "Bachelor Button blue",
+          "security": "Downloadable password protection software with AES 128-bit encryption",
+          "compatibility": "Windows 10+ and macOS 12+",
+          "warranty": "5-year limited warranty",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MEMSAN2300", "stock": 1, "price": 6.04, "currency": "USD", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "RAM-3979", "stock": 0, "price": 3.56, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "SDCZ410-032G-G46BB maps to Bachelor Button color; SDCZ410-032G-G46 without BB is the black variant.",
+            "CT has 1 unit while CVA has 0; CVA price is lower but unavailable."
+          ]
+        },
+        "measurements": { "dimensions": "41.5 x 17.6 x 7.4 mm", "weight": "3 g" },
+        "sourceRefs": [
+          { "title": "SanDisk Ultra Shift USB official page", "type": "manufacturer", "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb?sku=SDCZ410-032G-G46BB" },
+          { "title": "SanDisk Ultra Shift datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/ultra-shift-usb-3-2/data-sheet-ultra-shift-usb-3-2-cattleya-orchid.pdf" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "18i2j9yp7t0dck3",
+      "research": {
+        "confidence": 0.95,
+        "name": "Lenovo ThinkSystem 4XB7A77446 HDD 2TB 3.5 pulgadas SATA 6Gb 7200RPM 512n simple-swap para ST50 V2",
+        "description": "Disco duro Lenovo ThinkSystem 4XB7A77446 de 2TB, 3.5 pulgadas, SATA 6Gb/s, 7200RPM, formato 512n, para servidores ThinkSystem ST50 V2/ST50 V3/ST45 V3. Opcion de bahia simple-swap con operacion non-hot-swap segun documentacion Lenovo.",
+        "manualCategoryPath": "computo/servidores/componentes/discos-hdd",
+        "semanticCategoryPath": "computo/almacenamiento/discos-duros/servidor/3-5in-2tb-7200rpm-sata-512n",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://serverproven.lenovo.com/option/4XB7A77446/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10324333",
+          "https://www.grupocva.com/detalle_articulo/10324333.jpg",
+          "https://serveroption.lenovo.com/files/backplane_drive_options/st50v2-125-suo-400_soc.png"
+        ],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "4XB7A77446",
+          "upc": "889488593262",
+          "productType": "ThinkSystem server HDD option",
+          "capacity": "2TB",
+          "formFactor": "3.5 inch",
+          "interface": "SATA 6Gb/s",
+          "rpm": "7200RPM",
+          "sectorFormat": "512n",
+          "swap": "Simple-swap carrier, non-hot-swap operation",
+          "featureCode": "BMEC",
+          "compatibility": "ThinkSystem ST50 V2, ST50 V3 and ST45 V3",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "DDULEN880", "stock": 24, "price": 190.53, "currency": "USD", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "HD-2720", "stock": 0, "price": 179.61, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider text says Simple Swap; official title says Non-Hot Swap/NHS. Treat as simple-swap carrier but non-hot-swap operation.",
+            "CT stock 24 vs CVA stock 0."
+          ]
+        },
+        "measurements": { "formFactor": "3.5 inch HDD", "packageWeightRetail": "0.86 kg" },
+        "sourceRefs": [
+          { "title": "Lenovo ServerProven 4XB7A77446", "type": "manufacturer", "url": "https://serverproven.lenovo.com/option/4XB7A77446/" },
+          { "title": "Lenovo Press ThinkSystem ST50 V2", "type": "manufacturer", "url": "https://lenovopress.lenovo.com/lp1547-thinksystem-st50-v2-server" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "18wykfqvdomi0pf",
+      "research": {
+        "confidence": 0.9,
+        "name": "OvalTech OTR4551 bateria para Acer Aspire 5742 y 4252, 6 celdas, negra",
+        "description": "Bateria de reemplazo OvalTech OTR4551 Li-ion para laptop Acer Aspire 5742/4252 y familias compatibles AS10D/AS10G, color negro, 6 celdas, capacidad tecnica 4400mAh, energia 58Wh y voltaje nominal publicado como 10.8V/11.1V segun fuente.",
+        "manualCategoryPath": "computo/accesorios/baterias-laptop/acer",
+        "semanticCategoryPath": "computo/accesorios/baterias-laptop/acer/as10d-6-celdas-4400mah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-acer/otr4551/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BATOVL490/BATOVL490_0_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BateriaparaLaptopOVALTECHOTR4551Li_paraAcerAS5742_0-600x600.jpg"
+        ],
+        "specs": {
+          "brand": "OvalTech",
+          "model": "OTR4551",
+          "providerSku": "BATOVL490",
+          "productType": "Replacement laptop battery",
+          "compatibility": "Acer Aspire 5742/4252 and related Aspire, TravelMate and Gateway models",
+          "cellCount": "6 cells",
+          "chemistry": "Li-ion",
+          "color": "Black",
+          "capacity": "4400mAh detailed spec; some titles say 6400mAh",
+          "energy": "58Wh reported by OvalTech",
+          "voltage": "10.8V in provider title and 11.1V in some OvalTech/retailer sheets",
+          "compatiblePartFamilies": "AS10D, AS10D31, AS10D3E, AS10D41, AS10D51, AS10D61, AS10D71, AS10D73, AS10D75, AS10D81, AS10G3E, BT.00603, BT.00604, BT.00605, BT.00606, BT.00607, LC.BTP00",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATOVL490", "stock": 51, "price": 46.84, "currency": "USD", "branch": "D2A:5,DFA:4,DGO:3,MAZ:3,HMO:2,OBR:2,LMO:2,CHI:2,QRO:2,LEO:2,PUE:2,VHA:2" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Capacity is inconsistent: titles say 6400mAh, but detailed OvalTech/retailer specs indicate 4400mAh and 58Wh.",
+            "Voltage is inconsistent: 10.8V in some titles and 11.1V in some sheets, common nominal values for 3-series Li-ion packs.",
+            "Branch locations sum 31 units while CT total says 51; provider likely omitted remaining branch breakdown."
+          ]
+        },
+        "measurements": { "dimensions": "not published reliably", "weight": "not published reliably" },
+        "sourceRefs": [
+          { "title": "OvalTech OTR4551 official page", "type": "manufacturer", "url": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-acer/otr4551/" },
+          { "title": "CompuPuebla OvalTech OTR4551", "type": "retailer", "url": "https://compupuebla.com/producto/bateria-color-negro-6-celdas-ovaltech-para-acer-as5742/" },
+          { "title": "CTOnline feed BATOVL490 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "19a1bm85nhh3c92",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA XPG GAMMIX D35 AX4U32008G16A-SBKD35 memoria RAM 8GB DDR4 3200MT/s UDIMM CL16 negra",
+        "description": "Modulo de memoria ADATA XPG GAMMIX D35 AX4U32008G16A-SBKD35 DDR4 UDIMM de 8GB, 3200MT/s por XMP, CL16-20-20, 1.35V, disipador negro de bajo perfil, 288 pines, Intel XMP 2.0 y compatibilidad AMD.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/udimm-ddr4",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/ddr4-udimm/8gb-3200-cl16-xmp",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xpg.com/en/xpg/dram-modules-gammix-d35-ddr4?tab=spec",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10436096",
+          "https://thumb.pccomponentes.com/w-530-530/articles/1072/10728749/1627-adata-xpg-gammix-d35-ddr4-3200mhz-8gb-1x8gb-cl16.jpg"
+        ],
+        "documents": [
+          { "label": "XPG GAMMIX D35 DDR4 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_gammix_d35_ddr4_memory_20260402.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA XPG",
+          "model": "AX4U32008G16A-SBKD35",
+          "providerSku": "RAM-4429",
+          "ean": "4711085942791",
+          "productType": "DDR4 UDIMM memory module",
+          "capacity": "8GB",
+          "speed": "3200MT/s XMP",
+          "latency": "CL16-20-20 at 3200MT/s XMP",
+          "spd": "2666MT/s CL19-19-19-43 at 1.2V base SPD",
+          "voltage": "1.35V XMP, 1.2V SPD",
+          "formFactor": "288-pin U-DIMM",
+          "heatsink": "Low-profile black heatsink",
+          "profiles": "Intel XMP 2.0, AMD-compatible",
+          "warranty": "Limited lifetime warranty",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "RAM-4429", "stock": 2, "price": 57.49, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CL16 vs CL19 is not a contradiction: CL16 is XMP 3200MT/s at 1.35V, while CL19 is SPD base at 2666MT/s and 1.2V.",
+            "Some marketplaces confuse GAMMIX D35 and SPECTRIX D35; AX4U32008G16A-SBKD35 is GAMMIX D35 non-RGB."
+          ]
+        },
+        "measurements": { "dimensions": "133.35 x 34 x 5.9 mm", "weight": "27.34 g" },
+        "sourceRefs": [
+          { "title": "XPG GAMMIX D35 DDR4 official specs", "type": "manufacturer", "url": "https://www.xpg.com/en/xpg/dram-modules-gammix-d35-ddr4?tab=spec" },
+          { "title": "XPG GAMMIX D35 DDR4 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_gammix_d35_ddr4_memory_20260402.pdf" },
+          { "title": "CVA feed RAM-4429 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
