@@ -403,6 +403,16 @@ const researchedBatchCases = [
   ["Uniarch NVR-108S3-P8-ECO NVR 8 canales PoE 6MP", "UNIARCH", "seguridad/cctv/dvr-nvr/nvr-ip"],
   ["Dahua DH-XVR1B08-I/T XVR HDCVI 8 canales WizSense", "DAHUA", "seguridad/cctv/dvr-nvr/xvr-hdcvi"],
   ["Naceb Gaming NA-0925 kit gamer teclado mouse USB 2400 DPI headset mousepad", "NACEB", "computo/perifericos/kits-gamer/4-en-1"],
+  ["MSI GeForce RTX 3050 LP 6G OC GDDR6 96-bit", "MSI", "computo/componentes/tarjetas-video/nvidia-geforce"],
+  ["Xerox 108R01420 tambor negro WorkCentre 6515 48000 paginas", "XEROX", "impresion/consumibles/tambores/xerox"],
+  ["Ajax TurretCam5MP CI121AJX01 camara IP turret 5MP NVR Ajax", "AJAX", "seguridad/cctv/camaras-ip-poe/turret"],
+  ["Brother DCPB7640DW multifuncional laser 36 ppm duplex WiFi", "BROTHER", "impresion/impresoras/multifuncionales-laser"],
+  ["Perfect Choice PC-241041 Voltus cargador magnetico MagSafe", "PERFECT CHOICE", "energia/cargadores-inalambricos/magneticos-magsafe"],
+  ["UNV IPC2314LE-ADF28K-WP-L OwlView 4MP bullet PoE", "UNV", "seguridad/cctv/camaras-ip-poe/bullet"],
+  ["BRobotix 497127 patch cord Cat5e 0.5m RJ45 gris", "BROBOTIX", "redes/cableado-estructurado/patch-cords/cat5e"],
+  ["Acteck AS450 Elant Brick bocinas 2.0 6W USB 3.5 mm", "ACTECK", "computo/perifericos/bocinas-audio/2-0"],
+  ["Kyocera TK-5442K 1T0C0A0US0 toner negro 2800 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera"],
+  ["Epson T574520-AL botella T574 light cyan L8050", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t574"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

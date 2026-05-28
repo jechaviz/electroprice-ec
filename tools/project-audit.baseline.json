@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-28T03:48:47.402Z",
-  "fileCount": 253,
-  "fileNameHash": "76b97c93ef5df0a5720adda69fe5092621317bc0d61ada9ae882e300d1e13ebb",
+  "generatedAt": "2026-05-28T20:10:10.871Z",
+  "fileCount": 255,
+  "fileNameHash": "d83af88a8499967fb3ffbd6ef0f372669cc86429a129cccf7a8841c49b72f3ad",
   "files": [
     ".env.example",
     ".gitignore",
@@ -56,6 +56,8 @@
     "pb/lib/env.mjs",
     "pb/lib/geminiEnrichment.mjs",
     "pb/lib/geminiProductResearch.mjs",
+    "pb/lib/manualCategoryRules.mjs",
+    "pb/lib/manualCategoryTree.mjs",
     "pb/lib/manualTaxonomy.mjs",
     "pb/lib/productCuration.mjs",
     "pb/lib/taxonomy.mjs",
