@@ -413,6 +413,16 @@ const researchedBatchCases = [
   ["Acteck AS450 Elant Brick bocinas 2.0 6W USB 3.5 mm", "ACTECK", "computo/perifericos/bocinas-audio/2-0"],
   ["Kyocera TK-5442K 1T0C0A0US0 toner negro 2800 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera"],
   ["Epson T574520-AL botella T574 light cyan L8050", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t574"],
+  ["Multimedia Screens MST-246 pantalla proyeccion tripie 137 246 cm x 246 cm", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion/pantallas-tripie"],
+  ["TP-Link Omada EAP783 access point Wi-Fi 7 BE22000 2 puertos 10G", "TP-LINK", "redes/access-points/wifi-7"],
+  ["HPE Instant On SG1004 secure gateway firewall VPN IDS IPS", "ARUBA", "redes/seguridad/firewalls"],
+  ["Naceb NA-0103R cable USB a Micro USB 1m rojo", "NACEB TECHNOLOGY", "accesorios/cables-adaptadores/usb/micro-usb"],
+  ["Dahua KTP02 KITKTP02-V2 videoportero IP monitor 7 1024 x 600", "DAHUA TECHNOLOGY", "seguridad/control-acceso/videoporteros-ip/kits"],
+  ["ADATA AD4S26664G19-SGN memoria SO-DIMM DDR4 4GB 2666MHz", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr4"],
+  ["Brother TN227C toner cyan alto rendimiento 2300 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother"],
+  ["Roku Premiere 3920RW reproductor streaming 4K UHD HDR", "ROKU", "video/streaming/reproductores"],
+  ["Intellinet 704823 bobina Cat5e CCA UTP 305m gris", "INTELLINET", "redes/cableado-estructurado/bobinas-utp/cat5e"],
+  ["Hikvision AE-VC222T-ITS camara movil Turbo HD 1080p conector aviacion", "HIKVISION", "seguridad/cctv/camaras-moviles/turbo-hd"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

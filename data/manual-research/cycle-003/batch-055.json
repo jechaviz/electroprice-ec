@@ -1,0 +1,477 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b055-2026-05-28",
+  "cycle": 3,
+  "batch": 55,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0jighweeviv8tte",
+      "research": {
+        "confidence": 0.9,
+        "name": "Pantalla de proyeccion Multimedia Screens MST-246 137 in tripie 246 x 246 cm blanco mate",
+        "description": "Pantalla manual de proyeccion con tripie Multimedia Screens MST-246, diagonal de 137 pulgadas, area 246 x 246 cm en formato 1:1, superficie blanco mate lavable y portatil para presentaciones o aulas.",
+        "manualCategoryPath": "video/accesorios-proyeccion/pantallas-tripie",
+        "semanticCategoryPath": "video/accesorios-proyeccion/pantallas-tripie/1-1-137in-246x246-blanco-mate",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10408053",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-MULTIMEDIASCREENS-MST-246-aff2de.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/05/PantalladeProyeccinPorttildeTripiM_MST246_0-600x702.jpg"
+        ],
+        "documents": [
+          { "label": "Multimedia Screens MST-246 ficha publica", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/661/d5b/374/661d5b3747d727.99111021.pdf" }
+        ],
+        "specs": {
+          "brand": "Multimedia Screens",
+          "model": "MST-246",
+          "providerSku": "AC-11811",
+          "productType": "Pantalla de proyeccion manual con tripie",
+          "format": "1:1",
+          "diagonal": "137 in",
+          "viewableArea": "246 x 246 cm",
+          "surface": "Blanco mate lavable con bordes negros",
+          "mounting": "Tripie portatil con altura ajustable",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AC-11811", "stock": null, "price": null, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El modelo aparece como MST-246 y MST246; se normaliza a MST-246.",
+            "El color de housing varia entre blanco y negro en listados; se conserva blanco mate para la superficie y se marca la discrepancia.",
+            "Stock, precio y sucursal CVA no vienen publicos en el dato disponible."
+          ]
+        },
+        "measurements": { "dimensions": "246 x 246 cm area visible", "weight": "11 kg", "packageDimensions": "2640 x 190 x 110 mm", "packageWeight": "12 kg" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta MST-246 ficha PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/661/d5b/374/661d5b3747d727.99111021.pdf" },
+          { "title": "PCtronic mirror MST-246", "type": "reseller", "url": "https://www.pctronic.com.mx/PANTALLA-PROYECCION-DE-TRIPIE-MULTIMEDIA-SCREEN-MST-246-137-PULGADAS-DIAGONAL-MEDIDA-246-CM-X-246-CM-FORMATO-1-1-COLOR-BLANCO-MATE-PORTATIL-MULTIMEDIA-SCREENS-MST-246,113819_1461123932" },
+          { "title": "CVA feed AC-11811 stock context", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jorf4oxvj4686h",
+      "research": {
+        "confidence": 0.97,
+        "name": "Access Point TP-Link Omada EAP783 Wi-Fi 7 tri-banda BE22000 2 puertos 10G PoE++",
+        "description": "Access point de techo TP-Link Omada EAP783 Wi-Fi 7 tri-banda con 6GHz, 5GHz y 2.4GHz, dos puertos Ethernet 10G, MLO, 320MHz, 4K-QAM, Omada SDN, montaje en techo o pared y alimentacion PoE++.",
+        "manualCategoryPath": "redes/access-points/wifi-7",
+        "semanticCategoryPath": "redes/access-points/wifi-7/techo-tri-band-2x10g-poeplusplus",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/business-networking/omada-wifi-wifi7/eap783/%28us%29%20v1/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10462656",
+          "https://static.tp-link.com/upload/image-line/%E7%94%BB%E6%9D%BF_1_normal_20250110054324s.jpg",
+          "https://static.tp-link.com/upload/image-line/02_normal_20230808092647e.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link EAP783 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202411/20241129/Datasheet_EAP783.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "EAP783",
+          "providerSku": "NIC-4970",
+          "productType": "Access point Wi-Fi 7 ceiling mount",
+          "wireless": "802.11a/b/g/n/ac/ax/be tri-band",
+          "signalRate": "Up to 11520 Mbps at 6 GHz, 8640 Mbps US or 5760 Mbps regional 5 GHz, and 1376 Mbps at 2.4 GHz",
+          "ports": "2 x 10G Ethernet",
+          "power": "802.3bt PoE or 12V DC, adapter not included",
+          "features": "MLO, Multi-RU, 4K-QAM, 320 MHz, 4x4 MU-MIMO, OFDMA, Omada mesh, roaming, VLAN, captive portal, WPA3",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "NIC-4970", "stock": null, "price": null, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El peso de proveedor de 10 g es inconsistente; TP-Link lista 1384.6 g netos.",
+            "BE22000 US lista 8640 Mbps en 5 GHz, mientras algunos listados regionales muestran 5760 Mbps.",
+            "Stock, precio y sucursal CVA no vienen publicos en el dato disponible."
+          ]
+        },
+        "measurements": { "dimensions": "280 x 280 x 46.5 mm", "weight": "1384.6 g", "powerConsumption": "39 W max" },
+        "sourceRefs": [
+          { "title": "TP-Link EAP783 official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/business-networking/omada-wifi-wifi7/eap783/%28us%29%20v1/" },
+          { "title": "TP-Link EAP783 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202411/20241129/Datasheet_EAP783.pdf" },
+          { "title": "CVA feed NIC-4970 stock context", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jptnbogplopjkh",
+      "research": {
+        "confidence": 0.97,
+        "name": "Gateway firewall HPE Instant On SG1004 S0G33A 4 puertos Gigabit VPN IDS IPS",
+        "description": "Gateway seguro HPE Networking Instant On SG1004 de 4 puertos Gigabit para pequenas empresas, con firewall stateful, VPN, IDS/IPS, resiliencia WAN, balanceo de enlaces y administracion cloud Instant On.",
+        "manualCategoryPath": "redes/seguridad/firewalls",
+        "semanticCategoryPath": "redes/seguridad/firewalls/instant-on-sg1004-4gbe-vpn-ids-ips",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hpe.com/us/en/instant-on/secure-gateways/sg1004.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ROUARU010/ROUARU010_full.jpg",
+          "https://www.hpe.com/content/dam/hpe/shared-publishing/images-norend/instant-on/products/Instant-On-Secure-Gateway-SG1004-600x528.png",
+          "https://www.hpe.com/content/dam/hpe/shared-publishing/images-norend/instant-on/products/Instant-On-Secure-Gateway-SG1004-L-16-9.png"
+        ],
+        "specs": {
+          "brand": "HPE Networking Instant On",
+          "model": "SG1004 / S0G33A",
+          "providerSku": "ROUARU010",
+          "ean": "0190017746456",
+          "upc": "190017746456",
+          "productType": "Secure gateway / firewall",
+          "interfaces": "1 x 1GbE WAN, 1 x 1GbE WAN/LAN, 2 x 1GbE LAN",
+          "security": "Firewall, IDS/IPS, site-to-site and remote VPN, WAN resiliency and load balancing",
+          "performance": "IDS/IPS 980 Mbps, VPN 930 Mbps",
+          "users": "Up to 100 users",
+          "poe": "No PoE on SG1004",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 26 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUARU010", "stock": 26, "price": null, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos resellers mezclan PoE de la familia SG2505P; SG1004 no tiene PoE.",
+            "CTOnline trae stock DFA:26 sin precio publico en la extraccion."
+          ]
+        },
+        "measurements": { "dimensions": "4.39 x 16.41 x 18.99 cm", "weight": "1.03 kg" },
+        "sourceRefs": [
+          { "title": "HPE Instant On SG1004 official page", "type": "manufacturer", "url": "https://www.hpe.com/us/en/instant-on/secure-gateways/sg1004.html" },
+          { "title": "HPE SG1004 data sheet", "type": "datasheet", "url": "https://www.hpe.com/us/en/collaterals/collateral.a50009234enw.html" },
+          { "title": "CTOnline feed ROUARU010 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0js26ouoe66qdpj",
+      "research": {
+        "confidence": 0.88,
+        "name": "Cable Naceb NA-0103R USB-A a Micro USB 1 m rojo 2A",
+        "description": "Cable Naceb Technology NA-0103R USB 2.0 con conector USB-A macho a Micro USB-B macho, longitud de 1 metro, color rojo y corriente maxima reportada de 2 A para carga y datos.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/micro-usb",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/micro-usb/usb-a-macho-1m-rojo-2a",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CABNCB400/CABNCB400_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableUSBaMicroUSBNacebTechnologyNA_NA0103R_EAN7502262807067_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableUSBaMicroUSBNacebTechnologyNA_NA0103R_EAN7502262807067_1.jpg"
+        ],
+        "specs": {
+          "brand": "Naceb Technology",
+          "model": "NA-0103R",
+          "providerSku": "CABNCB400",
+          "ean": "7502262807067",
+          "productType": "Cable USB-A a Micro USB",
+          "usbVersion": "USB 2.0",
+          "connectors": "USB-A macho a Micro USB-B macho",
+          "length": "1 m",
+          "color": "Rojo",
+          "current": "2 A max reportado por resellers",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABNCB400", "stock": 10, "price": null, "currency": "MXN", "branch": "AGS,LMO,CEL,D2A" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "No se encontro ficha oficial publica de Naceb para NA-0103R; se triangulo con resellers MX.",
+            "Peso de 0.200 kg en PCDigital parece peso de envio/listado, no del cable."
+          ]
+        },
+        "measurements": { "length": "1 m", "packageDimensions": "5 x 12 x 3 cm reseller", "shippingWeight": "0.200 kg reseller" },
+        "sourceRefs": [
+          { "title": "CompuPuebla NA-0103R", "type": "reseller", "url": "https://compupuebla.com/producto/cable-usb-a-micro-usb-naceb-technology-na-0103r/" },
+          { "title": "PCDigital NA-0103R", "type": "reseller", "url": "https://www.pcdigital.com.mx/cable-usb-a-micro-usb-naceb-technology-na-0103r-macho-macho-1m-color-rojo/" },
+          { "title": "CTOnline feed CABNCB400 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kebizv1n9r3ifc",
+      "research": {
+        "confidence": 0.96,
+        "name": "Kit videoportero IP Dahua KTP02-V2 con monitor tactil 7 in, VTO 2MP y switch PoE",
+        "description": "Kit de videoportero IP Dahua KTP02-V2 con frente DHI-VTO2111D-P-S3, monitor interior DHI-VTH2421FB-P de 7 pulgadas 1024 x 600, switch PoE DH-PFS3006-4ET-36, audio bidireccional, app y desbloqueo por tarjeta.",
+        "manualCategoryPath": "seguridad/control-acceso/videoporteros-ip/kits",
+        "semanticCategoryPath": "seguridad/control-acceso/videoporteros-ip/kits/dahua-ktp02-v2-vto2111d-p-s3-vth2421fb-p",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/Video-Intercoms/IP-Series/KIT/IP-KIT/KTP02",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/KITDAH730/KITDAH730_full.jpg",
+          "https://material.dahuasecurity.com/uploads/image/20240311/KTP02.png",
+          "https://gfx3.senetic.com/akeneo-catalog/3/7/5/9/3759386154acfde9689073c17498ec6dc7e77e7d_1727133__custom_image1.jpg"
+        ],
+        "documents": [
+          { "label": "Dahua KTP02 datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/KTP02_datasheet_20240312.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "KTP02 / KITKTP02-V2",
+          "providerSku": "KITDAH730",
+          "ean": "6923172585806",
+          "productType": "IP video intercom kit",
+          "kitContents": "DHI-VTO2111D-P-S3, DHI-VTH2421FB-P, DH-PFS3006-4ET-36",
+          "doorStation": "2MP CMOS, IR, H.264/H.265, SIP/P2P/ONVIF/CGI, IP65, IK04, card/app/monitor unlock",
+          "indoorMonitor": "7 in capacitive TFT, 1024 x 600, two-way audio, embedded 8GB, 6 alarm inputs and 1 output",
+          "switch": "4 PoE ports plus 2 uplink ports",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITDAH730", "stock": 1, "price": null, "currency": "MXN", "branch": "TXA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El datasheet antiguo KTP02 2020 usa VTO2111D-P-S2; la pagina actual/V2 lista VTO2111D-P-S3.",
+            "Un espejo publico de CT mostraba stock/precio diferente; se conserva TXA:1 del feed de trabajo."
+          ]
+        },
+        "measurements": { "doorStationDimensions": "135.1 x 70.6 x 34.6 mm", "doorStationWeight": "326 g", "monitorDimensions": "119.6 x 221.5 x 23.5 mm", "monitorWeight": "0.35 kg", "switchDimensions": "194.0 x 108.1 x 35.0 mm", "switchWeight": "0.56 kg" },
+        "sourceRefs": [
+          { "title": "Dahua KTP02 official page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/Video-Intercoms/IP-Series/KIT/IP-KIT/KTP02" },
+          { "title": "Dahua KTP02 datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/KTP02_datasheet_20240312.pdf" },
+          { "title": "CTOnline feed KITDAH730 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kifzyeh3ck678f",
+      "research": {
+        "confidence": 0.97,
+        "name": "Memoria RAM ADATA Premier 4GB DDR4 2666MHz SO-DIMM CL19 1.2V",
+        "description": "Modulo de memoria ADATA Premier AD4S26664G19-SGN SO-DIMM DDR4 de 4GB a 2666MHz, CL19, 260 pines, 1.2V, non-ECC y formato para laptop.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/4gb-2666mhz-cl19-1-2v",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/consumer/category/computer-memory/484/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10380073",
+          "https://dcdn-us.mitiendanube.com/stores/006/163/549/products/adata_ad4s26664g19-sgn_int_1-154cea4b6c89169cfd17542771667047-1024-1024.webp",
+          "https://thumb.pccomponentes.com/w-530-530/articles/1041/10412595/1340-adata-ad4s26664g19-sgn-ddr4-2666mhz-4gb-cl19.jpg"
+        ],
+        "documents": [
+          { "label": "ADATA Premier DDR4 2666 SO-DIMM datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_premier_ddr4_2666_so_dimm.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AD4S26664G19-SGN",
+          "providerSku": "RAM-3638",
+          "ean": "4711085931474",
+          "productType": "SO-DIMM DDR4 memory module",
+          "capacity": "4GB",
+          "speed": "2666 MHz / PC4-21300",
+          "latency": "CL19-19-19",
+          "pins": "260-pin SO-DIMM",
+          "voltage": "1.2V",
+          "ecc": "Non-ECC",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "RAM-3638", "stock": null, "price": null, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "La ficha ADATA es de familia, pero la tabla de ordering confirma AD4S26664G19-SGN como 4GB single tray.",
+            "Stock, precio y sucursal CVA no vienen publicos en el dato disponible."
+          ]
+        },
+        "measurements": { "dimensions": "69.6 x 30 mm approx SO-DIMM", "weight": "7.7 to 8.1 g bulk approx", "operatingTemperature": "0 to 85 C" },
+        "sourceRefs": [
+          { "title": "ADATA Premier DDR4 SO-DIMM official page", "type": "manufacturer", "url": "https://www.adata.com/us/consumer/category/computer-memory/484/" },
+          { "title": "ADATA Premier DDR4 2666 SO-DIMM datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_premier_ddr4_2666_so_dimm.pdf" },
+          { "title": "CVA feed RAM-3638 stock context", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kv6bx89zcs1ptz",
+      "research": {
+        "confidence": 0.97,
+        "name": "Toner cyan Brother TN227C alto rendimiento 2300 paginas para HL-L3210CW y MFC-L3770CDW",
+        "description": "Cartucho de toner original Brother TN227C color cyan de alto rendimiento, con rendimiento aproximado de 2300 paginas ISO/IEC 19798 para impresoras Brother HL-L3210CW, HL-L3230CDW, HL-L3270CDW, HL-L3290CDW, MFC-L3710CW, MFC-L3750CDW y MFC-L3770CDW.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn227c-cyan-2300",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother-usa.com/products/tn227c",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARBRT3800/CARBRT3800_full.jpg",
+          "https://www.brother-usa.com/-/media/acp/tn227-toners/comp-tn227c.jpg",
+          "https://www.brother-usa.com/-/media/acp/tn227-toners/globaltn227c-module1.jpg"
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "TN227C",
+          "providerSku": "CARBRT3800",
+          "upc": "012502651062",
+          "productType": "Original laser toner cartridge",
+          "color": "Cyan",
+          "yield": "Approx. 2300 pages",
+          "yieldStandard": "ISO/IEC 19798",
+          "compatibility": "HL-L3210CW, HL-L3230CDW, HL-L3270CDW, HL-L3290CDW, MFC-L3710CW, MFC-L3750CDW, MFC-L3770CDW",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT3800", "stock": 2, "price": null, "currency": "MXN", "branch": "TRN,TXL" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos listados lo nombran ink, pero Brother lo identifica como toner laser.",
+            "Brother USA lo marca sin stock al consultar; CTOnline tiene 2 piezas en el feed de trabajo."
+          ]
+        },
+        "measurements": { "packageDimensions": "15.4 x 6.2 x 4.05 in reseller", "shippingWeight": "1.515 lb reseller", "contentWeight": "635 g reseller" },
+        "sourceRefs": [
+          { "title": "Brother TN227C official page", "type": "manufacturer", "url": "https://www.brother-usa.com/products/tn227c" },
+          { "title": "B&H Brother TN227C dimensions", "type": "reseller", "url": "https://www.bhphotovideo.com/c/product/1429555-REG/brother_tn227c_high_yield_cyan_toner.html" },
+          { "title": "CTOnline feed CARBRT3800 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kw1ajlya3exg79",
+      "research": {
+        "confidence": 0.95,
+        "name": "Roku Premiere 3920RW reproductor streaming 4K UHD HDR WiFi HDMI con control remoto",
+        "description": "Reproductor Roku Premiere 3920RW para streaming 4K UHD y HDR, con salida HDMI, WiFi 802.11b/g/n, control remoto IR, alimentacion 5V 1A y cable HDMI incluido.",
+        "manualCategoryPath": "video/streaming/reproductores",
+        "semanticCategoryPath": "video/streaming/reproductores/roku-premiere-4k-hdr-3920rw",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.roku.com/en-gb/article/set-up-premiere",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCROK180/ACCROK180_5_full.jpg",
+          "https://images.contentstack.io/v3/assets/blt7e9bdfb5b3e9fadb/blt0741a996c0bc6fdc/69819d96124bac76396b7d7f/Premiere-UK-2020-650.jpg",
+          "https://i5.walmartimages.com/asr/d4a9e942-2520-4b4d-88dd-cc2b8bcb82b7.b353bef436abaef9b4f7cc9c8ec01764.jpeg"
+        ],
+        "documents": [
+          { "label": "Roku Premiere quick start guide", "type": "manual", "url": "https://image.roku.com/c3VwcG9ydC1B/Premiere-QSG-UK-FR.pdf" }
+        ],
+        "specs": {
+          "brand": "Roku",
+          "model": "Premiere 3920RW",
+          "providerSku": "ACCROK180",
+          "upc": "829610007175",
+          "productType": "Streaming media player",
+          "video": "720p, 1080p, 4K UHD up to 60 fps and HDR10",
+          "connectivity": "HDMI 2.0 / HDCP 2.2, WiFi 802.11b/g/n",
+          "remote": "Standard IR remote",
+          "power": "5V 1A, less than 3 W",
+          "included": "Remote, 2 AAA batteries, HDMI cable, USB cable, power adapter and adhesive strip",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "URP", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "COL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCROK180", "stock": 65, "price": null, "currency": "MXN", "branch": "CUN,MOR,TPC,CDV,XLP,URP,IRA,DGO,LEO,COL,VHA,OAX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "UPC varia por region/retail; 3920RW-SW coincide con 829610007175.",
+            "Algunos resellers listan 1 kg, inconsistente con ficha tecnica del equipo.",
+            "4K/HDR depende de TV, contenido, HDMI y HDCP 2.2 compatibles."
+          ]
+        },
+        "measurements": { "dimensions": "85 x 18 x 35 mm", "weight": "36.86 g", "packageDimensions": "15.35 x 7.1 x 1.75 in reseller", "packageWeight": "0.64 lb reseller" },
+        "sourceRefs": [
+          { "title": "Roku Premiere setup and model 3920 support", "type": "manufacturer", "url": "https://support.roku.com/en-gb/article/set-up-premiere" },
+          { "title": "Roku Premiere quick start guide", "type": "manual", "url": "https://image.roku.com/c3VwcG9ydC1B/Premiere-QSG-UK-FR.pdf" },
+          { "title": "CTOnline feed ACCROK180 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l1iqlthypaox4r",
+      "research": {
+        "confidence": 0.95,
+        "name": "Bobina Intellinet 704823 Cat5e UTP CCA multifilar 305 m gris 26 AWG",
+        "description": "Bobina de cable Intellinet 704823 Cat5e U/UTP CCA multifilar gris de 305 metros, 26 AWG, 4 pares, forro PVC e impedancia nominal de 100 ohm para instalaciones cortas de red.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat5e",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat5e/utp-cca-multifilar-305m-gris",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetsolutions.mx/products/bobina-multifilar-cat5e-cca-305-m-26-awg-aluminio-recubierto-de-cobre-gris",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5621491",
+          "https://intellinetsolutions.mx/cdn/shop/files/bobina-multifilar-cat5e-cca-305-m-26-awg-aluminio-recubierto-de-cobre-gris-9242978.jpg",
+          "https://intellinetsolutions.mx/cdn/shop/files/bobina-multifilar-cat5e-cca-305-m-26-awg-aluminio-recubierto-de-cobre-gris-2700159.jpg"
+        ],
+        "specs": {
+          "brand": "Intellinet",
+          "model": "704823",
+          "providerSku": "CB-1069",
+          "gtin": "0766623704823",
+          "productType": "Bobina cable UTP Cat5e",
+          "categoryRating": "Cat5e U/UTP",
+          "conductor": "CCA aluminum with copper coating, stranded",
+          "gauge": "26 AWG",
+          "pairs": "4 pares",
+          "length": "305 m / 1000 ft",
+          "jacket": "PVC gris",
+          "impedance": "100 ohm +/- 15",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CB-1069", "stock": null, "price": null, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos resellers dicen 23 AWG; ficha Intellinet Mexico indica 26 AWG.",
+            "Es CCA y la ficha limita el canal probado a 45 m; no tratar como cobre solido Cat5e para tiradas largas.",
+            "Stock, precio y sucursal CVA no vienen publicos en el dato disponible."
+          ]
+        },
+        "measurements": { "length": "305 m / 1000 ft", "operatingTemperature": "-15 to 70 C" },
+        "sourceRefs": [
+          { "title": "Intellinet Mexico 704823 official page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/bobina-multifilar-cat5e-cca-305-m-26-awg-aluminio-recubierto-de-cobre-gris" },
+          { "title": "Icecat Intellinet 704823", "type": "datasheet", "url": "https://icecat.es/p/intellinet/704823/networking%2Bcables-0766623704823-704823-37482527.html" },
+          { "title": "CVA feed CB-1069 stock context", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l3n85qjsr6ngg6",
+      "research": {
+        "confidence": 0.9,
+        "name": "Camara movil Hikvision AE-VC222T-ITS Turbo HD 1080p lente 2.1 mm IR con microfono",
+        "description": "Camara movil analogica Hikvision AE-VC222T-ITS para MDVR, salida HD coaxial 1080p, lente 2.1 mm con campo amplio, iluminacion IR, microfono integrado, conector de aviacion, alimentacion 9 a 16 VDC y diseno antivibracion para vehiculos.",
+        "manualCategoryPath": "seguridad/cctv/camaras-moviles/turbo-hd",
+        "semanticCategoryPath": "seguridad/cctv/camaras-moviles/turbo-hd/1080p-aviacion-ir-microfono-antivibracion",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/au-en/products/onboard-security/mobile-cameras/mobile-analog-cameras/ae-vc222t-its/",
+        "gallery": [
+          "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEVC222TITS/AEVC222TITS-g.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEVC222TITS/AEVC222TITS-l.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEVC222TITS/AEVC222TITS-AD-1-l.PNG"
+        ],
+        "documents": [
+          { "label": "Hikvision AE-VC222T-ITS specsheet", "type": "datasheet", "url": "https://ftp3.syscom.mx/usuarios/jmolinar/JonathanMolinar/Hikvision/Specsheet-AE-VC222T-ITS.pdf" }
+        ],
+        "specs": {
+          "brand": "Hikvision",
+          "model": "AE-VC222T-ITS",
+          "providerSku": "196248",
+          "productType": "Mobile analog Turbo HD camera",
+          "sensor": "Progressive scan CMOS",
+          "videoOutput": "HD coaxial 1080p at 25 fps",
+          "lens": "2.1 mm, horizontal FOV 117 degrees",
+          "illumination": "0.1 lux F1.2, 0 lux with IR",
+          "audio": "Built-in microphone, audio through aviation connector",
+          "power": "9 to 16 VDC from MDVR, max 2.2 W",
+          "installation": "Indoor mobile vehicle camera with anti-vibration design",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "196248", "stock": null, "price": null, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "La descripcion WiFi panoramica fisheye 360 3K+ corresponde a EZVIZ CS-E4P / SYSCOM 246849, no a SYSCOM 196248.",
+            "AE-VC222T-ITS no tiene WiFi, H.265, MicroSD ni audio bidireccional IP; es camara movil analogica para MDVR.",
+            "SYSCOM lista IR 15 m en algun contexto, mientras datasheets revisados indican IR 10 m."
+          ]
+        },
+        "measurements": { "dimensions": "74 x 64.5 x 71.1 mm", "weight": "200 g", "powerConsumption": "2.2 W max" },
+        "sourceRefs": [
+          { "title": "SYSCOM product 196248", "type": "provider_stock", "url": "https://www.syscom.mx/products/196248", "observedAt": "2026-05-28T00:00:00Z" },
+          { "title": "Hikvision AE-VC222T-ITS official page", "type": "manufacturer", "url": "https://www.hikvision.com/au-en/products/onboard-security/mobile-cameras/mobile-analog-cameras/ae-vc222t-its/" },
+          { "title": "Hikvision AE-VC222T-ITS specsheet", "type": "datasheet", "url": "https://ftp3.syscom.mx/usuarios/jmolinar/JonathanMolinar/Hikvision/Specsheet-AE-VC222T-ITS.pdf" }
+        ]
+      }
+    }
+  ]
+}
