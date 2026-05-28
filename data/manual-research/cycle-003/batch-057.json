@@ -1,0 +1,528 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b057-2026-05-28",
+  "cycle": 3,
+  "batch": 57,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0o9u0nfnp39wnkq",
+      "research": {
+        "confidence": 0.9,
+        "name": "Ventilador Balam Rush Eolox Link EXL95 120 mm ARGB PWM negro 1800 RPM",
+        "description": "Ventilador para gabinete Balam Rush Eolox Link EXL95 de 120 mm, color negro, ARGB con 22 LEDs, control PWM de 600 a 1800 RPM, flujo de 48 CFM, presion de 1.8 mmH2O y ruido maximo de 30 dB.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb-pwm-negro",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/VENBLR490/VENBLR490_1_full.jpg",
+          "https://media.digitalife.com.mx/products/br-942348/br-942348-01-md.webp"
+        ],
+        "specs": {
+          "brand": "Balam Rush",
+          "model": "EXL95 / BR-942348",
+          "providerSku": "VENBLR490",
+          "ean": "7506215942348",
+          "productType": "120 mm ARGB PWM case fan",
+          "size": "120 mm",
+          "speed": "600 to 1800 RPM +/-10%",
+          "airflow": "48 CFM",
+          "staticPressure": "1.8 mmH2O",
+          "noise": "30 dB max",
+          "bearing": "Hydrodynamic bearing",
+          "lighting": "ARGB, 22 LEDs, 3-pin 5V",
+          "power": "4-pin PWM 12V motor",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "OBR", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "VENBLR490", "stock": 1, "price": null, "currency": "MXN", "branch": "OBR" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "La variante negra corresponde a BR-942348 / EAN 7506215942348; la variante blanca aparece como BR-942355 / EAN 7506215942355.",
+            "Precio CT directo no disponible; resellers publicos muestran precios variables."
+          ]
+        },
+        "measurements": { "dimensions": "120 x 120 x 25 mm", "weight": "170 g", "packageWeight": "0.200 kg reseller" },
+        "sourceRefs": [
+          { "title": "Digitalife Balam Rush EXL95", "type": "reseller", "url": "https://www.digitalife.com.mx/productos/br-942348/ventilador-para-gabinete-balam-rush-eolox-link-exl95-argb-120mm-1800rpm-negro" },
+          { "title": "GlobalOffice Balam Rush EXL95", "type": "reseller", "url": "https://globaloffice.com.mx/app/detalle/producto/ensamble/enfriamiento-y-ventilacion-balam-rush-exl95-ventil/br-942348" },
+          { "title": "CTOnline feed VENBLR490 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ogoozs8jbykaff",
+      "research": {
+        "confidence": 0.97,
+        "name": "Tarjeta madre GIGABYTE X870 AORUS ELITE WIFI7 ATX AM5 DDR5 WiFi 7 USB4",
+        "description": "Tarjeta madre GIGABYTE X870 AORUS ELITE WIFI7 formato ATX para socket AMD AM5, chipset X870, memoria DDR5 hasta 256GB, ranura PCIe 5.0 x16, cuatro conectores M.2, WiFi 7, Bluetooth 5.4, LAN 2.5GbE, USB4 y Windows 11 64-bit.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am5",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am5/x870-atx-wifi7-ddr5-pcie5-usb4",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Motherboard/X870-AORUS-ELITE-WIFI7-rev-10-11",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MBDGIG5430/MBDGIG5430_full.jpg",
+          "https://www.gigabyte.com/FileUpload/Global/KeyFeature/3761/innergigabyte/images/product/summary.png",
+          "https://compupuebla.com/wp-content/uploads/2025/04/TarjetaMadreAORUSX870AELITEWIFI7AT_X870AELITEWIFI7_UPC889523045213_EAN4719331864811_0-600x600.jpg"
+        ],
+        "documents": [
+          { "label": "GIGABYTE X870 AORUS ELITE WIFI7 manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_x870-aorus-elite-wifi7_1005_e.pdf" }
+        ],
+        "specs": {
+          "brand": "GIGABYTE",
+          "model": "X870 AORUS ELITE WIFI7",
+          "providerSku": "MBDGIG5430",
+          "ean": "4719331864811",
+          "upc": "889523045213",
+          "productType": "AMD AM5 ATX motherboard",
+          "socket": "AMD AM5",
+          "chipset": "AMD X870",
+          "cpuSupport": "AMD Ryzen 9000, 8000 and 7000 series",
+          "memory": "4 x DDR5 DIMM, up to 256GB, OC up to 8200 MT/s",
+          "expansion": "PCIe 5.0 x16",
+          "storage": "4 x M.2 slots, up to PCIe 5.0 depending slot",
+          "network": "Realtek 2.5GbE, WiFi 7, Bluetooth 5.4",
+          "io": "2 x USB4 Type-C with DisplayPort Alt mode, HDMI",
+          "audio": "Realtek ALC1220",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG5430", "stock": 19, "price": null, "currency": "USD", "branch": "D2A,ACX" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos resellers tratan 889523045213 como EAN; el feed distingue EAN 4719331864811 y UPC 889523045213.",
+            "Modulo WiFi puede variar por revision: MediaTek MT7925 en PCB rev 1.0 y Realtek RTL8922AE en rev 1.1.",
+            "Al poblar ciertos M.2 CPU, la ranura PCIEX16 puede operar hasta x8 por comparticion de ancho de banda."
+          ]
+        },
+        "measurements": { "formFactor": "ATX", "dimensions": "30.5 x 24.4 cm", "packageDimensions": "13.2 x 10.6 x 3.1 in reseller", "packageWeight": "5.63 lb reseller" },
+        "sourceRefs": [
+          { "title": "GIGABYTE X870 AORUS ELITE WIFI7 official page", "type": "manufacturer", "url": "https://www.gigabyte.com/Motherboard/X870-AORUS-ELITE-WIFI7-rev-10-11" },
+          { "title": "CompuPuebla X870 A ELITE WIFI7", "type": "reseller", "url": "https://compupuebla.com/producto/motherboard-gigabyte-x870-a-elite-wifi7/" },
+          { "title": "CTOnline feed MBDGIG5430 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0onxpqdht54jjtr",
+      "research": {
+        "confidence": 0.97,
+        "name": "Monitor gaming BenQ MOBIUZ EX3410R 34 pulgadas ultrawide WQHD 144Hz 1000R HDR",
+        "description": "Monitor gaming curvo ultrawide BenQ MOBIUZ EX3410R de 34 pulgadas con panel VA 3440 x 1440, formato 21:9, curvatura 1000R, 144Hz por DisplayPort, HDR10, DisplayHDR 400, FreeSync Premium Pro y audio 2.1 integrado.",
+        "manualCategoryPath": "computo/monitores/gaming/ultrawide-curvos",
+        "semanticCategoryPath": "computo/monitores/gaming/ultrawide-curvos/34-wqhd-1000r-144hz-hdr",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.benq.eu/en-eu/monitor/gaming/ex3410r/spec.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MONBNQ1350/MONBNQ1350_full.jpg",
+          "https://www.grupocva.com/detalle_articulo/10338972.jpg"
+        ],
+        "documents": [
+          { "label": "BenQ EX3410R datasheet", "type": "datasheet", "url": "https://www.benq.eu/content/dam/b2c/en-eu/support/download/datasheet/monitor/ex3410r-datasheet-eng.pdf" },
+          { "label": "BenQ EX3410R dimensions", "type": "drawing", "url": "https://esupportdownload.benq.com/esupport/LCD%20MONITOR/CAD/PDF/EX3410R/EX3410R_Product%20Dimensions_V001_Others.pdf" }
+        ],
+        "specs": {
+          "brand": "BenQ",
+          "model": "MOBIUZ EX3410R / 9H.LKKLA.TBA",
+          "providerSku": "MONBNQ1350",
+          "upc": "840046045722",
+          "productType": "34 inch curved ultrawide gaming monitor",
+          "panel": "34 in VA LED, 21:9, 1000R",
+          "resolution": "3440 x 1440",
+          "brightness": "350 nits typical, 400 nits HDR",
+          "refreshRate": "144 Hz DisplayPort, 120 Hz HDMI",
+          "response": "1 ms MPRT, 2 ms GtG",
+          "contrast": "3000:1",
+          "color": "90 percent P3, 16.7 million colors",
+          "hdr": "HDR10, VESA DisplayHDR 400",
+          "sync": "FreeSync Premium Pro",
+          "audio": "2.1 channel, 2W x2 plus 5W woofer",
+          "ports": "2 x HDMI 2.0, 1 x DisplayPort 1.4, USB upstream, 2 x USB 3.0, headphone jack",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONBNQ1350", "stock": 2, "price": null, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Un reseller lo llama Full HD, pero ficha oficial y feed confirman 3440 x 1440 WQHD.",
+            "El 1 ms corresponde a MPRT; el GtG oficial es 2 ms.",
+            "Precio CT directo no disponible; resellers publicos no equivalen al feed CT."
+          ]
+        },
+        "measurements": { "dimensionsWithStand": "430.8-530.8 x 795.7 x 269.7 mm", "dimensionsWithoutStand": "380.4 x 795.7 x 150.2 mm", "weight": "9.85 kg", "weightWithoutStand": "6.9 kg", "vesa": "100 x 100 mm" },
+        "sourceRefs": [
+          { "title": "BenQ EX3410R official specs", "type": "manufacturer", "url": "https://www.benq.eu/en-eu/monitor/gaming/ex3410r/spec.html" },
+          { "title": "BenQ EX3410R datasheet", "type": "datasheet", "url": "https://www.benq.eu/content/dam/b2c/en-eu/support/download/datasheet/monitor/ex3410r-datasheet-eng.pdf" },
+          { "title": "CTOnline feed MONBNQ1350 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ororajwpalz7fu",
+      "research": {
+        "confidence": 0.96,
+        "name": "Adaptador USB Nano TP-Link TL-WN725N WiFi N 150 Mbps 2.4 GHz",
+        "description": "Adaptador USB nano TP-Link TL-WN725N V3 para Wi-Fi N de 2.4GHz, velocidad hasta 150 Mbps, USB 2.0, antena interna, modo Ad-Hoc/Infrastructure y seguridad WEP, WPA/WPA2 y 802.1X.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/nano-150mbps-2-4ghz-usb2",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/adapter/tl-wn725n/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5460686",
+          "https://static.tp-link.com/TL-WN725N_EU_3.0_01_normal_1506586609631g.jpg",
+          "https://static.tp-link.com/TL-WN725N_EU_3.0_02_normal_1506586872793r.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link TL-WN725N V3 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/TL-WN725N%28EU%26US%29_V3_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "TL-WN725N V3",
+          "providerSku": "NIC-1284",
+          "productType": "Wireless N Nano USB adapter",
+          "interface": "USB 2.0",
+          "wireless": "802.11b/g/n, 2.400 to 2.4835 GHz",
+          "speed": "Up to 150 Mbps",
+          "antenna": "Internal",
+          "modes": "Ad-Hoc / Infrastructure",
+          "security": "64/128-bit WEP, WPA/WPA2, WPA-PSK/WPA2-PSK TKIP/AES, 802.1X",
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "NIC-1284", "stock": 22, "price": null, "currency": "USD", "branch": "" },
+            { "providerId": "ctonline", "providerSku": "TARTPL370", "stock": 3928, "price": null, "currency": "USD", "branch": "" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "UPC/EAN varia por region: listados MX muestran 845973050719 y otros mirrors 6935364050719.",
+            "Stock CVA 22 y mirror CT 3928 no deben fusionarse como un solo proveedor."
+          ]
+        },
+        "measurements": { "dimensions": "18.6 x 15 x 7.1 mm", "weight": "2.1 g" },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico TL-WN725N official page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/adapter/tl-wn725n/" },
+          { "title": "TP-Link TL-WN725N V3 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/TL-WN725N%28EU%26US%29_V3_Datasheet.pdf" },
+          { "title": "CVA feed NIC-1284 and CT mirror TARTPL370", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ovlmpcoq4ic3kw",
+      "research": {
+        "confidence": 0.94,
+        "name": "Camara IP PoE Uniarch IPC-B122-APF28-E mini bullet 2MP lente 2.8 mm IR 30 m",
+        "description": "Camara IP mini bullet Uniarch IPC-B122-APF28-E de 2MP con lente fijo 2.8 mm, IR inteligente hasta 30 m, Ultra 265/H.265/H.264, mic integrado, ONVIF, alimentacion 12VDC o PoE 802.3af y proteccion IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-2-8mm-ir30m-mic-ip67",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMUNI220/CAMUNI220_full.jpg",
+          "https://networkcamerastore.com/cdn/shop/files/20190422_1726458_1_849058_317691_0.jpg?v=1747707884&width=510"
+        ],
+        "documents": [
+          { "label": "Uniarch IPC-B122-APF28 datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202306/09/20230609_1882446_Uniarch%E3%80%90Datasheet%E3%80%91IPC-B122-APF28%2840%29K%202MP%20Mini%20Fixed%20Bullet%20Network%20Camera%20V1.0_972424_575359_0.pdf" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "IPC-B122-APF28-E",
+          "providerSku": "CAMUNI220",
+          "productType": "2MP PoE mini bullet IP camera",
+          "sensor": "1/2.9 in CMOS, 2MP",
+          "resolution": "1920 x 1080 up to 25 fps",
+          "lens": "2.8 mm F2.1",
+          "illumination": "Smart IR up to 30 m",
+          "video": "Ultra 265, H.265, H.264",
+          "image": "DWDR, ROI, HLC/BLC, digital defog, 2D/3D DNR",
+          "audio": "Built-in microphone",
+          "network": "RJ45 10/100, ONVIF Profile S/T/G",
+          "power": "12VDC or PoE IEEE 802.3af, max 3.2 W",
+          "protection": "IP67",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 115 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 65 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 37 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 31 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMUNI220", "stock": 312, "price": null, "currency": "USD", "branch": "GDL,CUE,PAC,CMT,MOR,PUE,TXA,DFP,CUN,LMO,SLP,TAM" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El canal MX usa sufijo -E, mientras fichas oficiales cercanas aparecen como IPC-B122-APF28/APF28K.",
+            "Algunos listados dicen PoE AT; la ficha tecnica indica PoE IEEE 802.3af.",
+            "La suma de sucursales listadas en la extraccion da 305 mientras total_stock indica 312; se conserva total provider offer 312 y sucursales disponibles."
+          ]
+        },
+        "measurements": { "dimensions": "160 x 62 x 65 mm", "weight": "0.21 kg", "powerConsumption": "3.2 W max" },
+        "sourceRefs": [
+          { "title": "Uniarch IPC-B122-APF28 datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202306/09/20230609_1882446_Uniarch%E3%80%90Datasheet%E3%80%91IPC-B122-APF28%2840%29K%202MP%20Mini%20Fixed%20Bullet%20Network%20Camera%20V1.0_972424_575359_0.pdf" },
+          { "title": "GlobalOffice IPC-B122-APF28-E", "type": "reseller", "url": "https://globaloffice.com.mx/app/detalle/producto/caacutemaras-ip/camara-ip-mini-bullet-uniarch-ipcb122apf28e-2mp/ipc-b122-apf28-e" },
+          { "title": "CTOnline feed CAMUNI220 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0oxu8bosol9xnc0",
+      "research": {
+        "confidence": 0.9,
+        "name": "Combo cargador BRobotix 6001356 USB-A 5V 2.1A con cable Lightning 1 m negro",
+        "description": "Combo BRobotix 6001356 de cargador interior de pared USB-A con salida 5V 2.1A y cable USB-A a Lightning de 1 metro incluido, color negro, para carga de dispositivos Lightning.",
+        "manualCategoryPath": "energia/cargadores-usb/kits-carga-lightning",
+        "semanticCategoryPath": "energia/cargadores-usb/kits-carga-lightning/usb-a-5v-2-1a-lightning-1m-negro",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT7230/ACCRBT7230_full.jpg",
+          "https://media.digitalife.com.mx/products/6001356/6001356-01-md.webp",
+          "https://media.digitalife.com.mx/products/6001356/6001356-02-md.webp"
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "6001356",
+          "providerSku": "ACCRBT7230",
+          "ean": "7500896001356",
+          "productType": "Wall charger with Lightning cable kit",
+          "input": "100-240V 50/60Hz 0.6A",
+          "output": "5V 2.1A",
+          "ports": "1 x USB-A",
+          "includedCable": "USB-A to Lightning, 1 m",
+          "color": "Black",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT7230", "stock": 4, "price": null, "currency": "USD", "branch": "CDV,CTZ" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Carga rapida parece nombre comercial; no se encontraron perfiles PD/QC de 9V/12V, solo 5V 2.1A.",
+            "V3.0 se usa en el nombre, pero no implica USB-C ni USB Power Delivery."
+          ]
+        },
+        "measurements": { "dimensions": "63 x 39 x 22 mm", "weight": "70.2 g", "packageDimensions": "85 x 120 x 30 mm" },
+        "sourceRefs": [
+          { "title": "Digitalife BRobotix 6001356", "type": "reseller", "url": "https://www.digitalife.com.mx/productos/6001356/cargador-de-pared-brobotix-6001356-5v-1x-usb-a-incluye-cable-usb-a-lightning-negro" },
+          { "title": "CompuPuebla BRobotix 6001356", "type": "reseller", "url": "https://compupuebla.com/producto/cargadores-brobotix-6001356/" },
+          { "title": "CTOnline feed ACCRBT7230 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0pliz64wimcce5x",
+      "research": {
+        "confidence": 0.97,
+        "name": "Mini PC Lenovo ThinkCentre neo 50q Gen 5 13C50022LS Core i3-1315U 8GB 512GB Win 11 Pro",
+        "description": "Mini PC Lenovo ThinkCentre neo 50q Gen 5 13C50022LS formato Tiny 1L con Intel Core i3-1315U, 8GB DDR5, SSD M.2 NVMe de 512GB, WiFi 6, Bluetooth 5.2, Gigabit Ethernet, HDMI, DisplayPort, teclado y mouse USB, TPM 2.0 y Windows 11 Pro.",
+        "manualCategoryPath": "computo/desktops/mini-pc",
+        "semanticCategoryPath": "computo/desktops/mini-pc/lenovo-thinkcentre-neo-50q-gen5-i3-8gb-512gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_neo_50q_Gen_5/ThinkCentre_neo_50q_Gen_5_Spec.html",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10473199",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-LENOVO-13C50022LS-be8573.png",
+          "https://images.pcel.com/600/Computadoras-Desktops-Lenovo-13C50022LS-573610-4XiElIJlVEUcZ9T1.jpg"
+        ],
+        "documents": [
+          { "label": "Lenovo ThinkCentre neo 50q Gen 5 PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_neo_50q_Gen_5/ThinkCentre_neo_50q_Gen_5_Spec.PDF" }
+        ],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "13C50022LS / ThinkCentre neo 50q Gen 5",
+          "providerSku": "PC-6862",
+          "productType": "Tiny 1L mini PC",
+          "processor": "Intel Core i3-1315U, 6 cores / 8 threads, up to 4.5GHz",
+          "graphics": "Intel UHD Graphics",
+          "memory": "1 x 8GB DDR5-5600 SO-DIMM, 2 slots, up to 64GB",
+          "storage": "512GB M.2 2280 PCIe 4.0 NVMe SSD",
+          "network": "WiFi 6 AX203, Bluetooth 5.2, Gigabit Ethernet",
+          "ports": "Front USB-C/USB-A, HDMI 2.1 TMDS, DisplayPort 1.4b",
+          "included": "USB keyboard and mouse",
+          "security": "TPM 2.0",
+          "os": "Windows 11 Pro Spanish",
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "PC-6862", "stock": 2, "price": null, "currency": "MXN", "branch": "" },
+            { "providerId": "ctonline", "providerSku": "CPULEV660", "stock": 32, "price": null, "currency": "MXN", "branch": "" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos resellers publican existencias superiores al stock CVA directo; conservar CVA stock 2 como dato primario.",
+            "Algunos textos mezclan Core i5 o SFF; SKU 13C50022LS corresponde a Core i3-1315U Tiny 1L."
+          ]
+        },
+        "measurements": { "dimensions": "179 x 182.9 x 36.5 mm with rubber feet", "weight": "1.13 kg approx", "powerAdapter": "65 W" },
+        "sourceRefs": [
+          { "title": "Lenovo ThinkCentre neo 50q Gen 5 PSREF", "type": "manufacturer", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_neo_50q_Gen_5/ThinkCentre_neo_50q_Gen_5_Spec.html" },
+          { "title": "Cyberpuerta Lenovo 13C50022LS", "type": "reseller", "url": "https://www.cyberpuerta.mx/Computadoras/PC-s-de-Escritorio/Computadora-Lenovo-ThinkCentre-Neo-50q-Gen-5-Intel-Core-i3-1315U-8GB-512GB-SSD-Wi-Fi-Windows-11-Pro-Teclado-Mouse.html" },
+          { "title": "CVA feed PC-6862 and CT mirror CPULEV660", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0q49719u6n2q0ce",
+      "research": {
+        "confidence": 0.9,
+        "name": "PC desktop Getttech GPI-GVN100A-01M Intel N100 8GB DDR4 240GB SSD Windows 11 prueba",
+        "description": "PC de escritorio compacto Getttech GPI-GVN100A-01M / N100A-01M con procesador Intel N100, 8GB DDR4, SSD 240GB, graficos Intel UHD, gabinete Getttech Vitro con fuente integrada 550W y Windows 11 en version de prueba.",
+        "manualCategoryPath": "computo/desktops/mini-pc",
+        "semanticCategoryPath": "computo/desktops/mini-pc/getttech-n100a-01m-n100-8gb-240gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mx.yeyiangaming.com/getttech/products/getttech-pc-desktop-series-n100a-01m-intel-n100-240gb-ssd-8gb-ddr4-sku-gpi-gvn100a-01m",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CPUGET010/CPUGET010_full.jpg",
+          "https://images.pcel.com/600/Computadoras-Desktops-Getttech-GPI-GVN100A-01M-576018-E3f5exb1tvH4CzDc.jpg",
+          "https://images.pcel.com/600/Computadoras-Desktops-Getttech-GPI-GVN100A-01M-576018-KYSqNR47rGfihKmY.jpg"
+        ],
+        "specs": {
+          "brand": "Getttech",
+          "model": "GPI-GVN100A-01M / N100A-01M",
+          "providerSku": "CPUGET010",
+          "ean": "7500619019705",
+          "productType": "Compact desktop PC",
+          "processor": "Intel Processor N100, 4 cores, up to 3.4GHz",
+          "graphics": "Intel UHD Graphics",
+          "memory": "8GB DDR4",
+          "storage": "240GB 2.5 in SSD",
+          "case": "Getttech Vitro case with RGB fan",
+          "powerSupply": "550 W integrated",
+          "os": "Windows 11 trial / demo license context",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CPUGET010", "stock": 10, "price": null, "currency": "USD", "branch": "TXA,CDV,TXL,CAM" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Yeyian/Getttech menciona WiFi por adaptador USB, mientras PCEL/Expercom listan WiFi o Bluetooth como no disponible; conectividad inalambrica depende del paquete.",
+            "Windows aparece como Windows 11 prueba o Windows 11 Home version de prueba; no tratar como licencia Pro permanente."
+          ]
+        },
+        "measurements": { "packageDimensions": "35 x 18 x 35 cm reseller", "packageWeight": "9 kg reseller" },
+        "sourceRefs": [
+          { "title": "Getttech N100A-01M official page", "type": "manufacturer", "url": "https://mx.yeyiangaming.com/getttech/products/getttech-pc-desktop-series-n100a-01m-intel-n100-240gb-ssd-8gb-ddr4-sku-gpi-gvn100a-01m" },
+          { "title": "PCEL Getttech GPI-GVN100A-01M", "type": "reseller", "url": "https://www.pcel.com/Getttech-GPI-GVN100A-01M-PC-de-Escritorio-Getttech-GVN100A-01M-Procesador-Intel-N100-hasta-3-4-Ghz-Memoria-de-8GB-DDR4-SSD-de-240GB-Video-UHD-Graphics-S-O-Windows-11-Version-de-prue-576018" },
+          { "title": "CTOnline feed CPUGET010 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0q8hv56fue2023t",
+      "research": {
+        "confidence": 0.97,
+        "name": "Webcam Logitech BRIO 500 Full HD 1080p USB-C graphite con HDR y privacidad",
+        "description": "Webcam Logitech BRIO 500 graphite modelo 960-001412 con video Full HD 1080p a 30 fps y 720p a 60 fps, autofocus, lente de vidrio, campo de vision ajustable 90/78/65 grados, RightLight 4 con HDR, microfonos estereo, obturador de privacidad y conexion USB-C.",
+        "manualCategoryPath": "computo/perifericos/webcams/usb-fhd",
+        "semanticCategoryPath": "computo/perifericos/webcams/usb-fhd/logitech-brio-500-1080p-usbc-hdr",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.logi.com/hc/en-us/articles/8076748576663-Specification-BRIO-500",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMLOG710/CAMLOG710_full.jpg",
+          "https://i5.walmartimages.com/asr/cb3136eb-ef19-45ec-beab-3f03182a4a58.86905e4dca936a9002ade9770a416cf3.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640"
+        ],
+        "documents": [
+          { "label": "Logitech BRIO 500 datasheet Mexico", "type": "datasheet", "url": "https://www.logitech-mexico.com/wp-content/uploads/2023/01/BRIO-500-Datasheet-es-MX.pdf" },
+          { "label": "Logitech BRIO 500 manual", "type": "manual", "url": "https://www.logitech.com/assets/66219/brio-500.pdf" }
+        ],
+        "specs": {
+          "brand": "Logitech",
+          "model": "BRIO 500 / 960-001412",
+          "providerSku": "CAMLOG710",
+          "upc": "097855178824",
+          "productType": "USB-C Full HD webcam",
+          "sensor": "4MP",
+          "video": "1080p/30fps, 720p/60fps",
+          "focus": "Autofocus",
+          "lens": "Glass lens",
+          "fieldOfView": "90, 78 or 65 degrees",
+          "imageProcessing": "RightLight 4 with HDR, digital 4x zoom",
+          "microphones": "Stereo microphones up to 1.22 m",
+          "privacy": "Integrated privacy shutter",
+          "connector": "USB-C plug and play",
+          "certifications": "Teams, Zoom, Google Meet, Chromebook",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 7 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMLOG710", "stock": 7, "price": null, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "BRIO 500 no es Brio 4K; resolucion maxima oficial 1080p/30.",
+            "Walmart reporta dimensiones ensambladas mayores que la ficha Logitech; se conservan medidas oficiales."
+          ]
+        },
+        "measurements": { "dimensions": "31.5 x 110 x 31.5 mm", "dimensionsWithClip": "51.5 x 110 x 45 mm", "weight": "121 g with clip and cable", "cableLength": "1.5 m" },
+        "sourceRefs": [
+          { "title": "Logitech BRIO 500 official specs", "type": "manufacturer", "url": "https://support.logi.com/hc/en-us/articles/8076748576663-Specification-BRIO-500" },
+          { "title": "Logitech BRIO 500 Mexico datasheet", "type": "datasheet", "url": "https://www.logitech-mexico.com/wp-content/uploads/2023/01/BRIO-500-Datasheet-es-MX.pdf" },
+          { "title": "CTOnline feed CAMLOG710 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0qeuhkh0lob5l12",
+      "research": {
+        "confidence": 0.98,
+        "name": "Caja de conexiones Dahua DH-PFA120 aluminio blanca M20 para camaras CCTV hasta 7 kg",
+        "description": "Caja de conexiones Dahua DH-PFA120 / PFA120 para montaje de camaras CCTV, fabricada en aluminio color blanco, con rosca M20/G1/2, capacidad de carga hasta 7 kg, proteccion para canalizacion y cableado, y operacion de -40 a 60 C.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-montaje/cajas-conexion",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-montaje/cajas-conexion/dahua-pfa120-aluminio-m20-7kg",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/Accessories/Camera-Accessories/Camera-Mounts/Junction-Boxes/PFA120",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCDAH1120/ACCDAH1120_full.jpg",
+          "https://www.getic.com/images/catalogue/5334/1-673738ad7b2b1-medium.jpg"
+        ],
+        "documents": [
+          { "label": "Dahua PFA120 datasheet", "type": "datasheet", "url": "https://dahuawiki.com/images/Files/Specifications/Datasheet_DH_PFA120_v001_002.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-PFA120 / PFA120",
+          "providerSku": "ACCDAH1120",
+          "ean": "6939554903434",
+          "productType": "CCTV junction box",
+          "material": "Aluminum",
+          "color": "White",
+          "thread": "M20 / G1/2 in",
+          "loadBearing": "7 kg",
+          "operatingTemperature": "-40 to 60 C",
+          "humidity": "Less than 90 percent RH",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCDAH1120", "stock": 79, "price": null, "currency": "USD", "branch": "HMO,LMO,CLN,DGO,TRN,AGS,QRO,MAZ,TOL,DFA,DFT,ACA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed lista 79 totales, pero solo 48 unidades estan detalladas por sucursal en el extracto; se conserva total provider offer 79.",
+            "Algunas fichas antiguas reportan profundidad 37 mm y otras 38.8 mm; se usa 38.8 mm de ficha actual.",
+            "Un reseller muestra 115 x 160 x 8.8 mm por error; fuentes oficiales confirman 38.8 mm."
+          ]
+        },
+        "measurements": { "dimensions": "115 x 160 x 38.8 mm", "weight": "0.53 kg", "grossWeight": "622.8 g reseller" },
+        "sourceRefs": [
+          { "title": "Dahua PFA120 official page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/All-Products/Accessories/Camera-Accessories/Camera-Mounts/Junction-Boxes/PFA120" },
+          { "title": "Dahua PFA120 datasheet", "type": "datasheet", "url": "https://dahuawiki.com/images/Files/Specifications/Datasheet_DH_PFA120_v001_002.pdf" },
+          { "title": "CTOnline feed ACCDAH1120 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}

@@ -433,6 +433,16 @@ const researchedBatchCases = [
   ["Kensington K52801WW ErgoSoft descansa munecas teclado compacto", "KENSINGTON", "computo/perifericos/teclados/descansa-munecas"],
   ["IMOU IPC-K3DN-5H0WF Bullet 2E 5MP WiFi microfono IP67", "IMOU", "seguridad/cctv/camaras-ip-wifi/bullet-exterior"],
   ["Canon GI-10 C tanque de tinta cyan 7700 paginas", "CANON", "impresion/consumibles/botellas-tinta-megatank/canon-gi10"],
+  ["Balam Rush EXL95 Eolox Link ventilador 120mm 1800 RPM RGB", "BALAM RUSH", "computo/componentes/enfriamiento/ventiladores-gabinete"],
+  ["Gigabyte X870 AORUS ELITE WIFI7 ICE motherboard AM5 DDR5", "GIGABYTE", "computo/componentes/tarjetas-madre/amd-am5"],
+  ["BenQ EX3410R MOBIUZ monitor gaming ultrawide curvo 34 3440x1440", "BENQ", "computo/monitores/gaming/ultrawide-curvos"],
+  ["TP-Link TL-WN725N adaptador USB Nano Wireless N 150Mbps", "TP LINK", "redes/adaptadores-wifi/usb"],
+  ["Uniarch IPC-B122-APF28-E camara IP mini bala 2MP PoE IR 30m", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet"],
+  ["BRobotix 6001356 combo carga rapida cargador USB V3.0 cable Lightning", "BROBOTIX", "energia/cargadores-usb/kits-carga-lightning"],
+  ["Lenovo ThinkCentre Neo 50q Gen 5 13C50022LS i3-1315U mini PC", "LENOVO", "computo/desktops/mini-pc"],
+  ["Getttech GPI-GVN100A-01M PC Desktop Intel N100 8GB 240GB SSD", "GETTTECH", "computo/desktops/mini-pc"],
+  ["Logitech BRIO 500 960-001412 webcam FHD USB-C", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
+  ["Dahua DH-PFA120 caja de conexiones PTZ junction box", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-montaje/cajas-conexion"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

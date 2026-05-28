@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_RULES = [
+  ['computo/componentes/enfriamiento/ventiladores-gabinete', /\b(exl95|venblr490|7506215942348|eolox link|ventilador.*120mm.*1800|120mm.*30 db.*1800)\b/],
+  ['computo/componentes/tarjetas-madre/amd-am5', /\b(x870 a elite wifi7|x870 aorus elite wifi7|mbdgig5430|4719331864811|889523045213|amd x870.*socket am5|aorus.*x870.*am5)\b/],
+  ['computo/monitores/gaming/ultrawide-curvos', /\b(ex3410r|monbnq1350|840046045722|mobiuz.*34.*3440.*1440|34.*1000r.*144hz|ultrawide.*curvo.*gaming)\b/],
+  ['redes/adaptadores-wifi/usb', /\b(tl[\s-]?wn725n|nic[\s-]?1284|tartpl370|nano usb.*150mbps|150mbps.*wireless n.*nano)\b/],
+  ['seguridad/cctv/camaras-ip-poe/bullet', /\b(ipc[\s-]?b122[\s-]?apf28[\s-]?e|camuni220|uniarch.*2mp.*mini.*bala|2mp.*ir.*30m.*poe)\b/],
+  ['energia/cargadores-usb/kits-carga-lightning', /\b(6001356|accrbt7230|7500896001356|cargador usb v3\.?0.*lightning|combo carga rapida.*lightning)\b/],
+  ['computo/desktops/mini-pc', /\b(13c50022ls|pc[\s-]?6862|cpulev660|thinkcentre neo 50q gen 5|i3[\s-]?1315u.*512.*win 11 pro|gpi[\s-]?gvn100a[\s-]?01m|cpuget010|7500619019705|getttech.*n100.*240gb.*8gb)\b/],
+  ['computo/perifericos/webcams/usb-fhd', /\b(brio 500|960[\s-]?001412|camlog710|097855178824|logitech.*brio.*500)\b/],
+  ['seguridad/cctv/accesorios-montaje/cajas-conexion', /\b(dh[\s-]?pfa120|pfa120|accdah1120|6939554903434|caja de conexiones.*ptz|junction box.*dahua)\b/],
   ['video/soportes-tv/pared', /\b(461344|accitl5260|766623461344|soporte.*tv.*movimiento completo|full[\s-]?motion.*32.*55.*40 ?kg|32.*55.*40 ?kg.*vesa)\b/],
   ['impresion/consumibles/toner-laser/brother', /\b(tn[\s-]?229bk|carbrt4300|012502666196|brother.*negro.*1500|mfc[\s-]?l3780cdw.*tn[\s-]?229)\b/],
   ['audio/bocinas/bluetooth', /\b(pc[\s-]?113294|bocmst4030|spk[\s-]?2614|615604113294|sugary.*bluetooth|ipx6.*35 h|8w rms.*10w pmpo)\b/],
