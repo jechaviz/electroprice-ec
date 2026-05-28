@@ -1,0 +1,522 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b039-2026-05-28",
+  "cycle": 3,
+  "batch": 39,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ayjzahxh38x55dp",
+      "research": {
+        "confidence": 0.96,
+        "name": "APC Back-UPS BE425M-LM 425VA 255W 120V 6 tomas NEMA",
+        "description": "UPS APC Back-UPS BE425M-LM para Latinoamerica, 425 VA / 255 W, entrada y salida 120 V, 6 tomas NEMA 5-15R, 4 con respaldo de bateria y supresion y 2 solo supresion, topologia standby, onda aproximada/escalonada, alarmas audibles y bateria sellada no reemplazable por usuario.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-standby-425va",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/ar/es/product/BE425M-LM/",
+        "documents": [{ "label": "APC BE425M/BE425M-LM manual", "type": "manual", "url": "https://www.se.com/uk/en/download/document/SPD_AHUG-A7DC9U_EN/" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BE425M-LM",
+          "providerSku": "FR-1195",
+          "productType": "UPS / no-break standby",
+          "topology": "Standby",
+          "power": "425 VA / 255 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "6 x NEMA 5-15R (4 battery backup + surge, 2 surge only)",
+          "avr": "No",
+          "usb": "No",
+          "waveform": "Stepped approximation / square wave",
+          "battery": "Sealed lead-acid, not user replaceable",
+          "rechargeTime": "8 h",
+          "expectedBatteryLife": "3-5 years",
+          "alarms": ["On battery", "Low battery", "Replace battery", "Overload"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 423 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 8 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1480", "stock": 423, "price": 60.77, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1195", "stock": 8, "price": 60.87, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El datasheet detallado suele publicarse como BE425M, pero el manual cubre BE425M/BE425M-LM.", "Aunque el arbol lo ubica bajo line-interactive por familia UPS, el semantic path conserva standby."]
+        },
+        "measurements": { "dimensions": "140.2 x 253.5 x 105 mm", "weight": "2.6 kg" },
+        "sourceRefs": [
+          { "title": "Schneider BE425M-LM official page", "type": "manufacturer", "url": "https://www.se.com/ar/es/product/BE425M-LM/" },
+          { "title": "Mouser BE425M APC datasheet", "type": "datasheet", "url": "https://www.mouser.com/datasheet/2/357/1/BE425M_document-3060562.pdf" },
+          { "title": "CTOnline/CVA feed BE425M-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "mkxkm11ltnsl7w0",
+      "research": {
+        "confidence": 0.97,
+        "name": "APC Back-UPS ES BE600M1-LM 600VA 330W 120V USB 7 tomas",
+        "description": "UPS APC Back-UPS ES BE600M1-LM de 600 VA / 330 W, entrada y salida 120 V, 7 tomas NEMA 5-15R, 5 con respaldo de bateria y supresion, 2 solo supresion, topologia standby, onda escalonada, puerto USB de carga y datos PowerChute, bateria APCRBC154 y alarmas audibles.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-standby-600va-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/BE600M1/apc-backups-600va-120v-1-usb-charging-port-7-nema-outlets-2-surge/",
+        "documents": [{ "label": "APC BE600M1-LM manual", "type": "manual", "url": "https://www.se.com/us/en/download/document/SPD_AHUG-9XB6SU_EN/" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BE600M1-LM",
+          "providerSku": "FR-1304",
+          "productType": "UPS / no-break standby",
+          "topology": "Standby",
+          "power": "600 VA / 330 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "7 x NEMA 5-15R (5 battery backup + surge, 2 surge only)",
+          "avr": "No",
+          "usb": "1 USB charging port plus USB data/PowerChute per LM manual",
+          "waveform": "Stepped approximation to sine wave",
+          "batteryReplacement": "APCRBC154",
+          "battery": "Sealed lead-acid, 81 VAh",
+          "rechargeTime": "10 h",
+          "expectedBatteryLife": "3-5 years",
+          "alarms": ["On battery", "Distinctive low battery", "Overload continuous tone"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 269 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1690", "stock": 269, "price": 73.66, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1304", "stock": 5, "price": 74.09, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Un campo de datasheet dice USB compatible: No, pero titulo y manual LM confirman puerto USB de carga y puerto de datos.", "Semantic path conserva standby aunque la categoria operativa del arbol sea line-interactive."]
+        },
+        "measurements": { "dimensions": "139 x 274 x 105 mm", "weight": "3.49 kg" },
+        "sourceRefs": [
+          { "title": "APC BE600M1 official page", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/BE600M1/apc-backups-600va-120v-1-usb-charging-port-7-nema-outlets-2-surge/" },
+          { "title": "APC BE600M1-LM manual", "type": "manual", "url": "https://www.se.com/us/en/download/document/SPD_AHUG-9XB6SU_EN/" },
+          { "title": "Panacompu BE600M1-LM datasheet", "type": "datasheet", "url": "https://cdn.panacompu.com/doc/pd/be600m1-lm-datasheet.pdf" },
+          { "title": "CTOnline/CVA feed BE600M1-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "aucyuogt7yo2jw0",
+      "research": {
+        "confidence": 0.95,
+        "name": "APC Back-UPS BE650G1-LM 650VA 390W 120V 8 tomas",
+        "description": "UPS APC Back-UPS BE650G1-LM de 650 VA / 390 W para proteccion de equipos de oficina y hogar, entrada y salida 120 V, 8 tomas NEMA 5-15R, 4 con respaldo de bateria y supresion y 4 solo supresion, topologia standby, onda escalonada, interfaz USB y proteccion de datos RJ11 segun ficha LM.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-standby-650va",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/BE650G1/",
+        "specs": {
+          "brand": "APC",
+          "model": "BE650G1-LM",
+          "providerSku": "FR-378",
+          "productType": "UPS / no-break standby",
+          "topology": "Standby",
+          "power": "650 VA / 390 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "8 x NEMA 5-15R (4 battery backup + surge, 4 surge only)",
+          "avr": "No",
+          "usb": "USB interface",
+          "dataProtection": "RJ11 in LM datasheet",
+          "waveform": "Stepped approximation to sine wave",
+          "battery": "Sealed lead-acid, 79 VAh",
+          "rechargeTime": "24 h",
+          "expectedBatteryLife": "2-5 years",
+          "alarms": ["On battery", "Low battery"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 2 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC600", "stock": 2, "price": 100.65, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-378", "stock": 0, "price": 106.48, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Fichas regionales difieren en proteccion RJ45 vs RJ11 y bateria de reemplazo; para LM se prioriza ficha ES, pero la bateria se deja como dato a validar.", "Semantic path conserva standby."]
+        },
+        "measurements": { "dimensions": "88 x 180 x 302 mm", "weight": "6.2 kg" },
+        "sourceRefs": [
+          { "title": "APC BE650G1 official page", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/BE650G1/" },
+          { "title": "Cyberpuerta BE650G1-LM APC datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/SKUBE650G1LM.pdf" },
+          { "title": "B&H BE650G1-LM specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/833987-REG/APC_BE650G1_LM_Back_UPS_390_W_650VA_I_O.html/overview" },
+          { "title": "CTOnline/CVA feed BE650G1-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "5aiydi8sr2lbgcy",
+      "research": {
+        "confidence": 0.97,
+        "name": "APC Back-UPS ES BE850M2-LM 850VA 450W 120V 9 tomas 2 USB",
+        "description": "UPS APC Back-UPS ES BE850M2-LM de 850 VA / 450 W, entrada y salida 120 V, 9 tomas NEMA 5-15R, 6 con bateria y supresion, 3 solo supresion, topologia standby, onda escalonada, dos puertos USB de carga 5 V/2.4 A total y USB de datos PowerChute.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-standby-850va-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/pt/pt/product/BE850M2-LM/",
+        "gallery": ["https://download.schneider-electric.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=SPD_CENZ-AV3NKZ_FL_H&p_File_Type=rendition_369_jpg"],
+        "documents": [{ "label": "APC BE850M2-LM manual", "type": "manual", "url": "https://www.se.com/mx/es/download/document/SPD_AHUG-A52BFR_ES/" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BE850M2-LM",
+          "providerSku": "FR-1305",
+          "productType": "UPS / no-break standby",
+          "topology": "Standby",
+          "power": "850 VA / 450 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputRange": "92-139 V",
+          "outlets": "9 x NEMA 5-15R (6 battery backup + surge, 3 surge only)",
+          "avr": "No",
+          "usb": "2 charging ports, 5 V / 2.4 A total, plus USB data/PowerChute",
+          "display": "LED/button, no LCD",
+          "waveform": "Stepped approximation to sine wave",
+          "batteryReplacement": "RBC17",
+          "battery": "Sealed lead-acid 12 V",
+          "alarms": ["On battery", "Low battery", "Overload"],
+          "surgeEnergy": "354-370 J depending source",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 247 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1700", "stock": 247, "price": 121.60, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1305", "stock": 5, "price": 121.81, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Una ficha dice panel LCD, pero manual e imagen muestran LED/boton.", "Algunos retailers listan AVR, pero la ficha marca topologia standby."]
+        },
+        "measurements": { "dimensions": "327 x 105 x 139 mm", "weight": "4.1 kg" },
+        "sourceRefs": [
+          { "title": "Schneider BE850M2-LM official page", "type": "manufacturer", "url": "https://www.se.com/pt/pt/product/BE850M2-LM/" },
+          { "title": "APC BE850M2-LM manual", "type": "manual", "url": "https://www.se.com/mx/es/download/document/SPD_AHUG-A52BFR_ES/" },
+          { "title": "Panacompu BE850M2-LM datasheet", "type": "datasheet", "url": "https://cdn.panacompu.com/doc/pd/be850m2-lm-datasheet.pdf" },
+          { "title": "CTOnline/CVA feed BE850M2-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nkho0nlggjnht4i",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC Back-UPS Pro BR1100M2-LM 1100VA 600W 120V AVR LCD 10 tomas 2 USB",
+        "description": "UPS APC Back-UPS Pro BR1100M2-LM line-interactive de 1100 VA / 600 W, entrada y salida 120 V, AVR boost/trim, LCD, 10 tomas NEMA 5-15R, 6 con bateria y supresion, 4 solo supresion, puertos USB-A y USB-C de carga, interfaz USB y bateria APCRBC160.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-pro-1100va-avr-lcd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/mx/es/product/BR1100M2-LM/",
+        "documents": [{ "label": "APC BR1100M2-LM manual", "type": "manual", "url": "https://www.se.com/mx/es/download/document/SPD_AHUG-ATD9NK_ES/" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BR1100M2-LM",
+          "providerSku": "FR-1405",
+          "productType": "UPS / no-break line-interactive",
+          "topology": "Line-interactive",
+          "power": "1100 VA / 600 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputRange": "88-147 V",
+          "outlets": "10 x NEMA 5-15R (6 battery backup + surge, 4 surge only)",
+          "avr": "Boost/trim +/-11.5%",
+          "usb": "USB-C + USB-A charging 15 W total, USB/simple signal interface",
+          "display": "LCD",
+          "waveform": "Stepped approximation to sine wave",
+          "batteryReplacement": "APCRBC160",
+          "battery": "Sealed lead-acid",
+          "rechargeTime": "16 h",
+          "alarms": ["On battery", "Low battery", "Overload"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 15 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1810", "stock": 15, "price": 182.80, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1405", "stock": 1, "price": 193.76, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Peso varia entre 10.2 kg de ficha y 10.5 kg de manual; se conserva 10.2 kg como ficha tecnica."]
+        },
+        "measurements": { "dimensions": "260 x 100 x 368 mm", "weight": "10.2 kg" },
+        "sourceRefs": [
+          { "title": "Schneider BR1100M2-LM official page", "type": "manufacturer", "url": "https://www.se.com/mx/es/product/BR1100M2-LM/" },
+          { "title": "APC BR1100M2-LM manual", "type": "manual", "url": "https://www.se.com/mx/es/download/document/SPD_AHUG-ATD9NK_ES/" },
+          { "title": "ReguladoresYUPS BR1100M2-LM datasheet", "type": "datasheet", "url": "https://reguladoresyups.com/wp-content/uploads/2020/05/BR1100M2-LM.pdf" },
+          { "title": "CTOnline/CVA feed BR1100M2-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jnzzhscsnqbzj45",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC Back-UPS Pro BR1350M2-LM 1350VA 810W 120V AVR LCD 10 tomas 2 USB",
+        "description": "UPS APC Back-UPS Pro BR1350M2-LM line-interactive de 1350 VA / 810 W, entrada y salida 120 V, AVR boost/trim, LCD, 10 tomas NEMA 5-15R, 6 con bateria y supresion, 4 solo supresion, puertos USB-A y USB-C de carga, interfaz USB y bateria APCRBC162.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-pro-1350va-avr-lcd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/mx/es/product/BR1350M2-LM/",
+        "documents": [{ "label": "APC BR1100/1350/1500M2-LM manual", "type": "manual", "url": "https://www.se.com/mx/es/download/document/SPD_AHUG-ATD9NK_ES/" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BR1350M2-LM",
+          "providerSku": "FR-1408",
+          "productType": "UPS / no-break line-interactive",
+          "topology": "Line-interactive",
+          "power": "1350 VA / 810 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputRange": "88-147 V",
+          "outlets": "10 x NEMA 5-15R (6 battery backup + surge, 4 surge only)",
+          "avr": "Boost/trim +/-11.5%",
+          "usb": "USB-C + USB-A charging 15 W total, USB/simple signal interface",
+          "display": "LCD",
+          "waveform": "Stepped approximation to sine wave",
+          "batteryReplacement": "APCRBC162",
+          "battery": "Sealed lead-acid",
+          "rechargeTime": "16 h",
+          "alarms": ["On battery", "Low battery", "Overload"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 70 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1840", "stock": 70, "price": 242.71, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1408", "stock": 0, "price": 249.89, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Peso conflictivo: ficha 2024 indica 11.7 kg, manual comun 10.8 kg; se conserva 11.7 kg de ficha.", "Ficha muestra Usb Compatible No, pero manual confirma USB carga/interfaz."]
+        },
+        "measurements": { "dimensions": "260 x 100 x 368 mm", "weight": "11.7 kg" },
+        "sourceRefs": [
+          { "title": "Schneider BR1350M2-LM official page", "type": "manufacturer", "url": "https://www.se.com/mx/es/product/BR1350M2-LM/" },
+          { "title": "Ipsum BR1350M2-LM datasheet", "type": "datasheet", "url": "https://ipsumingenieria.com/fichas-tecnicas/apc/BR1350M2-LM.pdf" },
+          { "title": "APC BR1100/1350/1500M2-LM manual", "type": "manual", "url": "https://www.se.com/mx/es/download/document/SPD_AHUG-ATD9NK_ES/" },
+          { "title": "CTOnline/CVA feed BR1350M2-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "14cgy592asicx7x",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC Back-UPS Pro BR1500M2-LM 1500VA 900W 120V AVR LCD 10 tomas 2 USB",
+        "description": "UPS APC Back-UPS Pro BR1500M2-LM line-interactive de 1500 VA / 900 W, entrada y salida 120 V, AVR, LCD, 10 tomas NEMA 5-15R, 6 con bateria y supresion, 4 solo supresion, puertos USB-A y USB-C, proteccion coaxial y Ethernet RJ45, bateria APCRBC161.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-pro-1500va-avr-lcd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/mx/es/product/BR1500M2-LM/",
+        "documents": [{ "label": "APC BR1500M2-LM datasheet", "type": "datasheet", "url": "https://resources.ampheo.com/static/datasheets/schneider-electric/br1500m2-lm.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BR1500M2-LM",
+          "providerSku": "FR-1406",
+          "productType": "UPS / no-break line-interactive",
+          "topology": "Line-interactive",
+          "power": "1500 VA / 900 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputRange": "88-147 V",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "10 x NEMA 5-15R (6 battery backup + surge, 4 surge only)",
+          "avr": "Yes",
+          "usb": "USB-A + USB-C charging ports",
+          "display": "LCD",
+          "waveform": "Stepped approximation to sine wave",
+          "transferTime": "8 ms typical / 10 ms max",
+          "batteryReplacement": "APCRBC161",
+          "rechargeTime": "16 h",
+          "expectedBatteryLife": "3-5 years",
+          "surgeEnergy": "1080 J",
+          "dataProtection": "Coaxial and RJ45 Ethernet 10/100/1000",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 30 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1820", "stock": 30, "price": 281.72, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1406", "stock": 0, "price": 283.43, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Una ficha 2024 marca Usb Compatible: No, aunque titulo y fichas previas indican USB de carga A+C; se registra como carga USB, sin prometer gestion USB."]
+        },
+        "measurements": { "dimensions": "260 x 100 x 368 mm", "weight": "12.5 kg" },
+        "sourceRefs": [
+          { "title": "Schneider BR1500M2-LM official page", "type": "manufacturer", "url": "https://www.se.com/mx/es/product/BR1500M2-LM/" },
+          { "title": "Schneider BR1500M2-LM datasheet", "type": "datasheet", "url": "https://resources.ampheo.com/static/datasheets/schneider-electric/br1500m2-lm.pdf" },
+          { "title": "Cyberpuerta BR1500M2-LM Schneider datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/SKU-BR1500M2-LM.pdf" },
+          { "title": "CTOnline/CVA feed BR1500M2-LM stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "03qiyx103fy506e",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC Back-UPS Pro BR1500RM2U 1500VA 900W 120V rack/torre 2U AVR LCD",
+        "description": "UPS APC Back-UPS Pro BR1500RM2U convertible rack/torre 2U de 1500 VA / 900 W, entrada y salida 120 V, AVR, LCD multifuncion, 8 tomas NEMA 5-15R con respaldo y supresion, comunicacion USB, topologia line-interactive, onda escalonada y bateria APCRBC188.",
+        "manualCategoryPath": "energia/no-breaks-ups/rack",
+        "semanticCategoryPath": "energia/no-breaks-ups/rack/line-interactive-1500va-2u",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/BR1500RM2U/apc-backups-pro-1500va-120v-avr-lcd-8-nema-515r2u-tower-rack-convertible/",
+        "documents": [{ "label": "APC BR1500RM2U brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b27604_apc_backups-pro_br1500rm2u.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "BR1500RM2U",
+          "providerSku": "FR-1962",
+          "productType": "UPS rack/torre 2U",
+          "topology": "Line-interactive",
+          "power": "1500 VA / 900 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "8 x NEMA 5-15R, battery backup + surge",
+          "avr": "Yes",
+          "usb": "USB communication",
+          "display": "Multifunction LCD",
+          "waveform": "Stepped approximation to sine wave",
+          "transferTime": "4 ms typical",
+          "batteryReplacement": "APCRBC188",
+          "batteryModulesIncluded": 1,
+          "rbcQuantity": 2,
+          "surgeEnergy": "1080 J",
+          "formFactor": "2U rack / horizontal tower",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 1 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC2570", "stock": 1, "price": 316.13, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1962", "stock": 0, "price": 327.23, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["La ficha Ingram parece etiquetar 90-140 V como eficiencia a plena carga; probablemente es rango de entrada.", "No se lista RS232 porque no queda respaldado por ficha Schneider usada."]
+        },
+        "measurements": { "dimensions": "85.8 x 438 x 267 mm", "rackHeight": "2U", "weight": "11 kg" },
+        "sourceRefs": [
+          { "title": "APC BR1500RM2U official page", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/BR1500RM2U/apc-backups-pro-1500va-120v-avr-lcd-8-nema-515r2u-tower-rack-convertible/" },
+          { "title": "Ingram BR1500RM2U Schneider brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b27604_apc_backups-pro_br1500rm2u.pdf" },
+          { "title": "ENERGY STAR BR1500RM2U listing", "type": "certification", "url": "https://www.energystar.gov/productfinder/product/certified-uninterruptible-power-supplies/details/2546033" },
+          { "title": "CTOnline/CVA feed BR1500RM2U stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "okga561xz42ya20",
+      "research": {
+        "confidence": 0.97,
+        "name": "APC Back-UPS Pro BR700G 700VA 420W 120V AVR LCD 6 tomas",
+        "description": "UPS APC Back-UPS Pro BR700G line-interactive de 700 VA / 420 W, entrada 120 V, 6 tomas NEMA 5-15R, 3 con respaldo y supresion, 3 solo supresion, AVR, LCD, comunicacion USB, bateria RBC17, onda escalonada y alarmas audibles.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/back-ups-pro-700va-avr-lcd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apcguard.com/br700g.asp",
+        "gallery": [
+          "https://cdn.blueally.com/apcguard/images/BR700G_hero.jpg",
+          "https://cdn.blueally.com/apcguard/images/BR700G_gallery_1.jpg"
+        ],
+        "specs": {
+          "brand": "APC",
+          "model": "BR700G",
+          "providerSku": "FR-477",
+          "productType": "UPS / no-break line-interactive",
+          "topology": "Line-interactive",
+          "power": "700 VA / 420 W",
+          "inputVoltage": "120 V 50/60 Hz",
+          "outputVoltage": "120 V line / 115 V +/-8% battery",
+          "outlets": "6 x NEMA 5-15R (3 battery backup + surge, 3 surge only)",
+          "avr": "Yes",
+          "usb": "USB communication",
+          "display": "LCD",
+          "waveform": "Stepped approximation to sine wave",
+          "batteryReplacement": "RBC17",
+          "battery": "Sealed lead-acid 12 V 9 Ah",
+          "alarms": ["LCD", "Audible alarms"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 150 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC420", "stock": 150, "price": 141.02, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-477", "stock": 0, "price": 141.24, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunos listados lo llaman Back-UPS RS/Pro; se conserva Back-UPS Pro.", "No es onda senoidal pura, usa aproximacion escalonada."]
+        },
+        "measurements": { "dimensions": "190 x 91 x 310 mm", "weight": "7.15 kg" },
+        "sourceRefs": [
+          { "title": "APCGuard BR700G specs", "type": "reseller_spec", "url": "https://www.apcguard.com/br700g.asp" },
+          { "title": "ENERGY STAR BR700G certification", "type": "certification", "url": "https://www.energystar.gov/productfinder/product/certified-uninterruptible-power-supplies/details/2328148/export/pdf/download" },
+          { "title": "APC RBC17 official replacement battery", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/RBC17/apc-replacement-battery-cartridge-for-backups-12v-9ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "CTOnline/CVA feed BR700G stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "5pn6joki0pys5re",
+      "research": {
+        "confidence": 0.95,
+        "name": "APC Easy UPS BV1000 1000VA 600W 120V AVR 6 tomas NEMA",
+        "description": "UPS APC Easy UPS BV1000 line-interactive de 1000 VA / 600 W, entrada y salida 120 V, AVR, 6 tomas NEMA 5-15R con respaldo, panel LED, alarmas audibles, onda escalonada y bateria sellada 12 V 9 Ah compatible RBC17.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/easy-ups-bv-1000va-avr",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/reguladores-y-ups/no-break-apc-bv1000-no-break-apc-bv1000-1000-va-600-w-con-re/bv1000",
+        "gallery": ["https://www.unicom.mx/ecommerce/uploads/REUPSAPC-BV1000.jpg"],
+        "specs": {
+          "brand": "APC",
+          "model": "BV1000",
+          "providerSku": "FR-1959",
+          "productType": "UPS / no-break line-interactive",
+          "topology": "Line-interactive",
+          "power": "1000 VA / 600 W",
+          "inputVoltage": "120 VAC",
+          "outputVoltage": "120 VAC +/-10% on battery",
+          "batteryOutputFrequency": "50/60 Hz +/-1 Hz",
+          "outlets": "6 x NEMA 5-15R with backup",
+          "avr": "Yes",
+          "usb": "Not verified for BV1000 120V",
+          "display": "LED indicators",
+          "waveform": "Stepped approximation to sine wave",
+          "batteryReplacement": "RBC17",
+          "battery": "Sealed lead-acid 12 V / 9 Ah",
+          "alarms": ["On battery", "Low battery", "Overload continuous tone"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 0 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC1970", "stock": 0, "price": 80.65, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1959", "stock": 5, "price": 82.02, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunos marketplaces mezclan datos de otros modelos como 2 USB, LCD, RJ45/coax o 11.7 kg; para BV1000 120V se usa LED, 6 NEMA y 5.7 kg.", "CT esta sin stock y CVA tiene 5 piezas activas."]
+        },
+        "measurements": { "dimensions": "92.5 x 160.5 x 305 mm", "weight": "5.7 kg" },
+        "sourceRefs": [
+          { "title": "APC Easy UPS BV 120V brochure", "type": "datasheet", "url": "https://energitiendaups.com/wp-content/uploads/2023/03/4-APC-EASY-UPS-BV-1000VA-600W-120V-AVR-INTERACTIVA.pdf" },
+          { "title": "Telser BV1000 specs", "type": "reseller_spec", "url": "https://telserpanama.com/ups-apc-bv1000-1000va-600w/" },
+          { "title": "Securtec BV1000 specs", "type": "reseller_spec", "url": "https://securteccr.com/index.php/tienda/ofertas/ups/apc-ups-easy-bv-1000va-avr-120v.html" },
+          { "title": "CTOnline/CVA feed BV1000 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

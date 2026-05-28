@@ -253,6 +253,16 @@ const researchedBatchCases = [
   ["APC APCRBC155 bateria de reemplazo UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
   ["APC APCRBC159 cartucho bateria reemplazo 12V 9Ah", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
   ["APC APCRBC160 bateria de reemplazo Back-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC BE425M-LM Back-UPS 425VA standby 120V", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BE600M1-LM Back-UPS ES 600VA USB", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BE650G1-LM Back-UPS 650VA 390W", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BE850M2-LM Back-UPS ES 850VA 2 USB", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BR1100M2-LM Back-UPS Pro 1100VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BR1350M2-LM Back-UPS Pro 1350VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BR1500M2-LM Back-UPS Pro 1500VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BR1500RM2U Back-UPS Pro 1500VA rack tower 2U", "APC", "energia/no-breaks-ups/rack"],
+  ["APC BR700G Back-UPS Pro 700VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BV1000 Easy UPS BV 1000VA AVR", "APC", "energia/no-breaks-ups/line-interactive"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
