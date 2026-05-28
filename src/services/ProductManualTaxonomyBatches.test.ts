@@ -493,6 +493,16 @@ const researchedBatchCases = [
   ["MSI GeForce RTX 5050 8G Ventus 2X OC GDDR6 Blackwell", "MSI OEM", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5050"],
   ["Dahua S5PRO dashcam doble canal 4K 1080p Wi-Fi GPS", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-moviles/dashcam"],
   ["VICA ALPHA 2K UPS online doble conversion rack torre 2000VA 2000W", "VICA", "energia/no-breaks-ups/doble-conversion/rack-torre"],
+  ["Uniarch UHO-P2A-M3F4D camara IP WiFi PT exterior 3MP auto tracking", "UNIARCH", "seguridad/cctv/camaras-ip-wifi/pt-exterior"],
+  ["Provision ISR PoES-0460C+2I-V2 switch PoE 4 puertos 60W modo CCTV", "PROVISION-ISR", "redes/switches/poe-no-administrables/cctv"],
+  ["Manhattan 323222 cable HDMI alta velocidad con Ethernet 3m 10.2Gbps", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad"],
+  ["BRobotix 053161 adaptador OTG USB-C a USB-A 3.2 20cm", "BROBOTIX", "accesorios/cables-adaptadores/usb/otg-usb-c"],
+  ["Nexxt Solutions Home NHB-W310 foco inteligente Wi-Fi GU10 4W blanco ajustable", "NEXXT SOLUTIONS HOME", "domotica/iluminacion-inteligente/focos-wifi"],
+  ["MSI SPATIUM S270 SATA 2.5 480GB SSD 3D NAND", "MSI OEM", "computo/almacenamiento/ssd/2-5-sata"],
+  ["Grandstream GWN7801P switch administrable L2+ PoE Gigabit 8 puertos 2 SFP", "GRANDSTREAM", "redes/switches/poe-administrables/gigabit"],
+  ["Naceb NA-589R audifonos diadema alambricos 3.5mm rojo con microfono", "NACEB TECHNOLOGY", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono"],
+  ["Manhattan 340458 cable USB 2.0 A-B 3m plata 480Mbps", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/3m"],
+  ["TP-Link TL-SF1008D switch no administrable Fast Ethernet 8 puertos", "TP LINK", "redes/switches/no-administrables/fast-ethernet"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

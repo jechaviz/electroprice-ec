@@ -1,0 +1,521 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b063-2026-05-28",
+  "cycle": 3,
+  "batch": 63,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0zl3im566ype45t",
+      "research": {
+        "confidence": 0.95,
+        "name": "Uniarch UHO-P2A-M3F4D camara IP Wi-Fi PT exterior 3MP lente 4mm IR 30m audio bidireccional",
+        "description": "Camara IP Uniarch UHO-P2A-M3F4D para exterior con movimiento pan/tilt, resolucion 3MP, lente fijo 4mm, Wi-Fi 2.4GHz, Ethernet 10/100, audio bidireccional, deteccion humana, auto tracking, microSD hasta 512GB e IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-auto-tracking",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://uniarch.cn/Products/Enterprise_Products/Network_Camera/Uho-P2A-M3F4D/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMUNI350/CAMUNI350_full.jpg",
+          "https://uniarch.cn/res/202411/26/20241126_1919742_p2a_1005508_575359_0.png",
+          "https://media1.lisintec.com/5843-superlarge_default/uho-p2a-m3f4d-camara-domo-uniarch-ip.jpg"
+        ],
+        "documents": [
+          { "label": "Uniarch UHO-P2A-M3F4D datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202502/24/20250224_1940432_%E3%80%90Datasheet%E3%80%91Uniarch%20Uho-P2A-M3F4D%203MP%20HD%20Outdoor%20Pan%20%26%20Tilt%20Wi-Fi%20Camera%2020250217%28Public%29_1005511_575359_0.pdf" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "UHO-P2A-M3F4D",
+          "providerSku": "CAMUNI350",
+          "productType": "Outdoor pan and tilt Wi-Fi IP camera",
+          "resolution": "3MP, 2304 x 1296 at 20fps",
+          "sensorLens": "1/3.0 inch CMOS, fixed 4.0mm F1.6 lens",
+          "videoCompression": "Ultra 265, H.265, H.264",
+          "illumination": "IR up to 30m and warm light up to 10m",
+          "smartFeatures": "Human body detection, motion detection, audio detection, auto tracking, 20 presets",
+          "network": "2.4GHz Wi-Fi 802.11 b/g/n and 1 RJ45 10/100 Base-TX",
+          "storage": "MicroSD up to 512GB",
+          "audio": "Built-in microphone and speaker, two-way audio",
+          "protection": "IP66",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 48 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMUNI350", "stock": 123, "price": 25.5, "currency": "USD", "branch": "GDL:48,CUE:18,PAC:18,PUE:14,MID:10,DFP:10,CMT:4,MOR:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Proveedor lista CAMUNI350; modelo confirmado por fabricante como UHO-P2A-M3F4D.",
+            "Retailers la llaman domo, pero Uniarch la describe oficialmente como Outdoor Pan and Tilt Wi-Fi Camera."
+          ]
+        },
+        "measurements": { "dimensions": "110 x 110 x 151 mm", "weight": "0.38 kg" },
+        "sourceRefs": [
+          { "title": "Uniarch UHO-P2A-M3F4D official page", "type": "manufacturer", "url": "https://uniarch.cn/Products/Enterprise_Products/Network_Camera/Uho-P2A-M3F4D/" },
+          { "title": "Uniarch UHO-P2A-M3F4D datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202502/24/20250224_1940432_%E3%80%90Datasheet%E3%80%91Uniarch%20Uho-P2A-M3F4D%203MP%20HD%20Outdoor%20Pan%20%26%20Tilt%20Wi-Fi%20Camera%2020250217%28Public%29_1005511_575359_0.pdf" },
+          { "title": "CTOnline feed CAMUNI350 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0zopbojxv79vcy3",
+      "research": {
+        "confidence": 0.95,
+        "name": "Provision-ISR PoES-0460C+2I-V2 switch PoE no administrable 4 puertos 10/100 + 2 uplink 60W modo CCTV",
+        "description": "Switch PoE Provision-ISR PoES-0460C+2I-V2 para CCTV, con 4 puertos PoE 10/100Mbps, 2 puertos uplink 10/100Mbps, presupuesto PoE de 60W, fuente interna, proteccion contra sobretension y modo CCTV de hasta 250m a 10Mbps.",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/cctv",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/cctv/4-poe-2-uplink-60w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/poes-0460c2i-v2/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SWTPVS340/SWTPVS340_full.jpg",
+          "https://provision-isr.se/sites/default/files/styles/xl/public/2022-11/PoES-0460C%2B2I.png?itok=5oYyl9jf",
+          "https://provision-isr.se/sites/default/files/styles/xl/public/2022-11/PoES-0460C%2B2I-back.png?itok=X1bJkrUq"
+        ],
+        "documents": [
+          { "label": "Provision-ISR PoES-0460C+2I-V2 datasheet", "type": "datasheet", "url": "https://provision-isr.nl/files/products/464/datasheet-provision-isr-poes-0460c2i-v2.pdf" }
+        ],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "PoES-0460C+2I-V2",
+          "providerSku": "SWTPVS340",
+          "upc": "610840137639",
+          "productType": "4 port PoE + 2 uplink CCTV switch",
+          "ports": "4 x 10/100Mbps RJ45 PoE, 2 x 10/100Mbps uplink",
+          "poe": "IEEE 802.3af/at, 60W total, 15.4W average and 32W max per channel",
+          "cctvMode": "Selectable standard/CCTV mode, up to 250m at 10Mbps",
+          "switching": "1.2Gbps backbone, 448Kbit buffer, 1K MAC table",
+          "power": "100-240VAC internal power supply, 65W max with PoE",
+          "fan": "Fanless",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTPVS340", "stock": 11, "price": 34.5, "currency": "USD", "priceKind": "promo_price", "branch": "DFA:5,GDL:3,CLN:1,CHI:1,CMT:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "UPC confirmado por retailers mexicanos, no visible en pagina oficial.",
+            "Algunos retailers muestran dimensiones distintas; se conserva ficha oficial global: 140 x 76.7 x 28 mm y alrededor de 1 kg."
+          ]
+        },
+        "measurements": { "dimensions": "140 x 76.7 x 28 mm", "weight": "about 1 kg" },
+        "sourceRefs": [
+          { "title": "Provision-ISR PoES-0460C+2I-V2 official page", "type": "manufacturer", "url": "https://provision-isr.com/products/poes-0460c2i-v2/" },
+          { "title": "Provision-ISR PoES-0460C+2I-V2 datasheet", "type": "datasheet", "url": "https://provision-isr.nl/files/products/464/datasheet-provision-isr-poes-0460c2i-v2.pdf" },
+          { "title": "CTOnline feed SWTPVS340 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0zw9x55st3ri90t",
+      "research": {
+        "confidence": 0.96,
+        "name": "Manhattan 323222 cable HDMI alta velocidad con Ethernet HDMI macho a macho 3m negro",
+        "description": "Cable Manhattan 323222 HDMI macho a macho de 3m, High Speed HDMI with Ethernet, compatible con 4K a 30Hz, 3D, Deep Color, ARC, HDMI Ethernet Channel, ancho de banda 10.2Gbps a 340MHz, doble blindaje y botas moldeadas PVC.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m-ethernet",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-with-ethernet-323222",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=6172686",
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-with-ethernet-323222-1_e6494dc3-aff6-4880-8b7b-0eced4d3e656.jpg?v=1678758709&width=1946",
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-with-ethernet-323222-3_53c377a3-ad06-4316-91fb-4626428313e5.jpg?v=1678758709&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 323222 datasheet", "type": "datasheet", "url": "https://www.surveillance-video.com/media/lanot/attachments/customimport/323222.pdf" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "323222",
+          "productType": "High Speed HDMI cable with Ethernet",
+          "connectors": "2 x HDMI 19-pin male, nickel-plated contacts",
+          "length": "3 m / 10 ft",
+          "bandwidth": "10.2 Gbps, 340 MHz",
+          "video": "4K at 30Hz, 3D, Deep Color",
+          "audioData": "ARC and HDMI Ethernet Channel up to 100Mbps",
+          "construction": "Double shielded, molded PVC boot, 30 AWG cable",
+          "eanUpc": "0766623323222 / 766623323222",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1485", "stock": 0, "price": 2.43, "currency": "USD", "stockStatus": "out_of_stock" },
+            { "providerId": "cva", "providerSku": "CB-489", "stock": 2, "price": 2.46, "currency": "USD", "stockStatus": "in_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Proveedor lo llama HDMI 1.4; Manhattan lo comercializa como High Speed HDMI with Ethernet 4K at 30Hz.",
+            "Stock divergente: CT 0 y CVA 2."
+          ]
+        },
+        "measurements": { "length": "3 m", "netWeight": "0.13 kg", "grossWeight": "0.14 kg", "packageDimensions": "305 x 185 x 20 mm" },
+        "sourceRefs": [
+          { "title": "Manhattan 323222 official page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-with-ethernet-323222" },
+          { "title": "Manhattan 323222 datasheet mirror", "type": "datasheet", "url": "https://www.surveillance-video.com/media/lanot/attachments/customimport/323222.pdf" },
+          { "title": "CVA and CT provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0zwge36defg673f",
+      "research": {
+        "confidence": 0.91,
+        "name": "BRobotix 053161 adaptador OTG USB-C macho a USB-A hembra USB 3.0 negro 20cm",
+        "description": "Adaptador OTG BRobotix 053161 USB-C macho a USB-A hembra, color negro, cable de 20cm, transferencia hasta 5Gbps y linea de corriente de 3A para carga, datos, audio y video segun ficha de marca/distribucion.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/otg-usb-c",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/otg-usb-c/usb-c-macho-usb-a-hembra-20cm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/053161_ft.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT3240/ACCRBT3240_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableUSBAdaptadorOTGTipoCaUSBV3005_053161_EAN7503028558599_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableUSBAdaptadorOTGTipoCaUSBV3005_053161_EAN7503028558599_1.jpg"
+        ],
+        "documents": [
+          { "label": "BRobotix 053161 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/053161_ft.pdf" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "053161",
+          "providerSku": "ACCRBT3240",
+          "ean": "7503028558599",
+          "productType": "USB-C OTG adapter to USB-A female",
+          "connectors": "USB-C male to USB-A female",
+          "transferRate": "Up to 5Gbps",
+          "current": "3A current line",
+          "color": "Black",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 25 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 12 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 6 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT3240", "stock": 183, "price": 3.94, "currency": "USD", "branch": "MTY:25,SLT:19,ACA:18,LEO:17,TOL:12,DGO:8,VER:8,PUE:7,VHA:7,OAX:7,CHI:6,MOR:6" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "No se encontro pagina oficial de fabricante; se valido por EAN, SKU y ficha de Data Components.",
+            "Fuentes mezclan USB 3.0 y USB 3.2 Gen 1; tasa de 5Gbps confirma equivalencia comercial."
+          ]
+        },
+        "measurements": { "length": "20 cm", "weight": "20.6 g", "packageDimensions": "7.8 x 15.4 cm" },
+        "sourceRefs": [
+          { "title": "Data Components BRobotix 053161 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/053161_ft.pdf" },
+          { "title": "CompuPuebla BRobotix 053161", "type": "retailer", "url": "https://compupuebla.com/producto/cable-usb-v3-0-tipo-c-otg-brobotix-053161/" },
+          { "title": "CTOnline feed ACCRBT3240 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0zxpgkgk480wm3b",
+      "research": {
+        "confidence": 0.92,
+        "name": "Nexxt Home NHB-W310 bombilla LED inteligente Wi-Fi blanca regulable GU10 4W 110V",
+        "description": "Bombilla LED inteligente Nexxt Home NHB-W310 con Wi-Fi 2.4GHz, luz blanca regulable de 2700K a 6500K, 400 lumenes, 4W equivalente a 40W, base GU10, app Nexxt Home, control por Alexa/Google Assistant y uso interior sin hub.",
+        "manualCategoryPath": "domotica/iluminacion-inteligente/focos-wifi",
+        "semanticCategoryPath": "domotica/iluminacion-inteligente/focos-wifi/blanco-regulable-gu10-4w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NHB-W310_3PK_DATA_SHEET_ENG.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNEX010/ACCNEX010_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BombillaLEDinteligenteWiFi110VColo_NHBW310_UPC798302056589_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BombillaLEDinteligenteWiFi110VColo_NHBW310_UPC798302056589_1.jpg"
+        ],
+        "documents": [
+          { "label": "Nexxt NHB-W310 3PK datasheet", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NHB-W310_3PK_DATA_SHEET_ENG.pdf" }
+        ],
+        "specs": {
+          "brand": "Nexxt Solutions Home",
+          "model": "NHB-W310",
+          "providerSku": "ACCNEX010",
+          "upc": "798302056589",
+          "productType": "Smart Wi-Fi LED tunable white bulb",
+          "brightness": "400 lm",
+          "power": "4W, 40W equivalent",
+          "voltage": "110V, 50/60Hz",
+          "colorTemperature": "2700K-6500K",
+          "wireless": "2.4GHz IEEE 802.11n, not compatible with 5GHz Wi-Fi",
+          "socket": "GU10",
+          "app": "Nexxt Home app",
+          "voiceAssistants": "Amazon Alexa and Google Assistant",
+          "hubRequired": "No",
+          "use": "Indoor",
+          "warranty": "2 years",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCNEX010", "stock": 23, "price": 7.78, "currency": "USD", "branch": "CDV:7,OBR:6,LEO:3,VER:3,PUE:2,CTZ:1,CUE:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Datasheet oficial disponible como 3-pack; proveedor y UPC local corresponden a unidad NHB-W310.",
+            "Algunos retailers mezclan 9W/60W; se conserva 4W/400 lm de ficha y proveedor."
+          ]
+        },
+        "measurements": { "packageDimensions": "6.2 x 12.5 x 6.2 cm", "unitWeight": "about 0.055-0.06 kg in retailer listings" },
+        "sourceRefs": [
+          { "title": "Nexxt NHB-W310 datasheet", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NHB-W310_3PK_DATA_SHEET_ENG.pdf" },
+          { "title": "CompuPuebla Nexxt NHB-W310", "type": "retailer", "url": "https://compupuebla.com/producto/bombilla-led-inteligente-nexxt-solutions-home-nhb-w310/" },
+          { "title": "CTOnline feed ACCNEX010 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10e8njm76odswcz",
+      "research": {
+        "confidence": 0.96,
+        "name": "MSI SPATIUM S270 SSD interno SATA III 2.5 pulgadas 480GB 3D NAND",
+        "description": "SSD interno MSI SPATIUM S270 de 480GB en formato 2.5 pulgadas 7mm con interfaz SATA III 6Gbps, controlador Phison S11, memoria 3D NAND, lectura secuencial hasta 500MB/s, escritura hasta 450MB/s, TRIM, SMART, LDPC ECC y 250 TBW.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/2-5-sata",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/2-5-sata/msi-spatium-s270-480gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.msi.com/Storage/SPATIUM-S270-SATA-2.5/Specification",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10446048",
+          "https://storage-asset.msi.com/global/picture/product/product_1659590602cf6c33bd0f8fdeb6970fb8609f608c15.webp",
+          "https://storage-asset.msi.com/global/picture/product/product_165959069921f3ee7c0aa05fdd33d4a60129094b4a.webp"
+        ],
+        "documents": [
+          { "label": "MSI SPATIUM S270 SATA 2.5 datasheet MX", "type": "datasheet", "url": "https://storage-asset.msi.com/datasheet/storage/mx/SPATIUM-S270-SATA-2.5.pdf" }
+        ],
+        "specs": {
+          "brand": "MSI",
+          "model": "SPATIUM S270 SATA 2.5 480GB",
+          "providerSku": "HD-3264",
+          "ean": "4711377001168",
+          "capacity": "480GB",
+          "controller": "Phison S11",
+          "flash": "3D NAND",
+          "formFactor": "2.5 inch, 7mm",
+          "interface": "SATA III 6Gbps, compatible SATA II/I",
+          "sequentialRead": "Up to 500MB/s",
+          "sequentialWrite": "Up to 450MB/s",
+          "randomRead": "55K IOPS",
+          "randomWrite": "80K IOPS",
+          "tbw": "250 TBW",
+          "mtbf": "Up to 2,000,000 hours",
+          "features": "TRIM, SMART, LDPC ECC, Over-Provision",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "HD-3264", "stock": 3, "price": 53.37, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Proveedor local lista lectura 360MB/s, pero MSI indica lectura hasta 500MB/s y escritura 450MB/s para 480GB.",
+            "MSI MX datasheet indica 5 anos; otros spec sheets regionales recientes pueden indicar 3 anos."
+          ]
+        },
+        "measurements": { "dimensions": "100.20 x 69.85 x 7.00 mm", "weight": "not published in MSI datasheet" },
+        "sourceRefs": [
+          { "title": "MSI SPATIUM S270 SATA 2.5 datasheet", "type": "datasheet", "url": "https://storage-asset.msi.com/datasheet/storage/mx/SPATIUM-S270-SATA-2.5.pdf" },
+          { "title": "MSI SPATIUM S270 specification", "type": "manufacturer", "url": "https://www.msi.com/Storage/SPATIUM-S270-SATA-2.5/Specification" },
+          { "title": "CVA feed HD-3264 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10krec8hxailgqc",
+      "research": {
+        "confidence": 0.96,
+        "name": "Grandstream GWN7801P switch administrable L2+ PoE+ Gigabit 8 puertos RJ45 + 2 SFP 120W",
+        "description": "Switch administrable Grandstream GWN7801P Layer 2+ con 8 puertos Gigabit PoE/PoE+, 2 puertos SFP 1G, PoE total 120W, VLAN, QoS, ACL, DHCP snooping, ARP inspection, proteccion DoS, gestion web/CLI/SNMP/GDMS y montaje desktop/pared/rack.",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/8-puertos-2-sfp-120w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.grandstream.com/products/networking-solutions/network-switches/product/gwn7801p_gwn7802p_gwn7803p",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10356552",
+          "https://www.grandstream.com/hubfs/Product%20Images/GWN7801P_Comparison_Chart_Image_Q3_2023.png",
+          "https://www.grandstream.com/hubfs/Email%20Assets/GWN7800%20WEBSITE%20PAGE%20IMAGE%201.png"
+        ],
+        "documents": [
+          { "label": "Grandstream GWN7800 series datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/GWN7800%20Series/Datasheet_GWN7801%28P%29_GWN7802%28P%29_GWN7803%28P%29_English.pdf" }
+        ],
+        "specs": {
+          "brand": "Grandstream",
+          "model": "GWN7801P",
+          "productType": "Layer 2+ managed PoE switch",
+          "ports": "8 x Gigabit RJ45 PoE/PoE+ and 2 x 1G SFP",
+          "poe": "120W total, 30W max per port, IEEE 802.3af/at",
+          "switching": "20Gbps switching capacity, 10Gbps non-blocking throughput, 14.88Mpps forwarding",
+          "memory": "128MB RAM, 32MB flash",
+          "features": "VLAN, QoS, ACL, DHCP snooping, ARP inspection, DoS protection, SNMP, GDMS Networking",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTGDM040", "stock": 3, "price": 107.8, "currency": "USD", "priceKind": "promo_price", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "NIC-4155", "stock": 0, "price": 117.58, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CVA esta en stock 0 y CT en stock 3.",
+            "Titulos de proveedor pueden omitir los 2 puertos SFP y el presupuesto PoE de 120W."
+          ]
+        },
+        "measurements": { "dimensions": "330 x 175 x 44 mm", "weight": "2.0 kg" },
+        "sourceRefs": [
+          { "title": "Grandstream GWN7801P product page", "type": "manufacturer", "url": "https://www.grandstream.com/products/networking-solutions/network-switches/product/gwn7801p_gwn7802p_gwn7803p" },
+          { "title": "Grandstream GWN7800 series datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/GWN7800%20Series/Datasheet_GWN7801%28P%29_GWN7802%28P%29_GWN7803%28P%29_English.pdf" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10n4ljl78ixjmcj",
+      "research": {
+        "confidence": 0.84,
+        "name": "Naceb NA-589R audifonos de diadema alambricos 3.5mm rojo/negro con microfono",
+        "description": "Audifonos de diadema Naceb NA-589R/NA-589RO color rojo/negro, conexion alambrica 3.5mm, cable de 2m, audio 2.0 y microfono integrado tipo boom para PC, llamadas y gaming casual.",
+        "manualCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono",
+        "semanticCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono/rojo-negro",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpuerta.mx/Audio-y-Video/Audio/Audifonos/Naceb-Audifonos-NA-589RO-Alambrico-2-Metros-3-5mm-Rojo.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCNCB260/BOCNCB260_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-NACEBTECHNOLOGY-NA-589RO-1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/AudfonosNacebTechnologyNA589RONegr_NA597P_EAN7502262800600_0-scaled-600x399.jpg"
+        ],
+        "specs": {
+          "brand": "Naceb Technology",
+          "model": "NA-589R / NA-589RO",
+          "providerSku": "BOCNCB260",
+          "ean": "7502262800600",
+          "productType": "Wired headband headphones with microphone",
+          "connectivity": "Wired 3.5mm",
+          "audioChannels": "2.0",
+          "microphone": "Integrated boom microphone",
+          "cableLength": "2 m",
+          "reportedAudio": "40mm drivers, 20Hz-20kHz, 32 ohm, 116dB sensitivity in retailer listings",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BOCNCB260", "stock": 13, "price": 51.77, "currency": "MXN", "branch": "XLP:7,VHA:2,CAM:2,SLT:1,VER:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "No se encontro ficha oficial directa de Naceb; se valida con Cyberpuerta, retailers y EAN.",
+            "Algunos retailers discrepan entre 1x 3.5mm y 2x 3.5mm; se conserva conexion 3.5mm general.",
+            "Medidas/peso de algunos retailers parecen placeholders."
+          ]
+        },
+        "measurements": { "cableLength": "2 m", "weight": "not reliably published" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Naceb NA-589RO", "type": "retailer", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Audio/Audifonos/Naceb-Audifonos-NA-589RO-Alambrico-2-Metros-3-5mm-Rojo.html" },
+          { "title": "GlobalOffice Naceb NA-589R", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/electronica/auriculares-naceb-technology-na-589r-audifonos-naceb-technol/na-589r" },
+          { "title": "CTOnline feed BOCNCB260 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10pkla9msn9cj2z",
+      "research": {
+        "confidence": 0.96,
+        "name": "Manhattan 340458 cable USB 2.0 A macho a B macho 3m plata traslucido 480Mbps",
+        "description": "Cable Manhattan 340458 USB 2.0 de alta velocidad, USB-A macho a USB-B macho, 3m, color plata traslucido, 480Mbps, contactos banados en oro, blindaje, botas moldeadas PVC y conductores 28 AWG.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/3m/usb-2-0-plata",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-340458",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1835685",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-b-device-cable-340458-1.jpg?v=1678689232&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-b-device-cable-340458-packaging-1.jpg?v=1678689232&width=1400"
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "340458",
+          "productType": "Hi-Speed USB B device cable",
+          "connectors": "USB 2.0 Standard-A male to USB 2.0 Standard-B male",
+          "length": "3 m / 10 ft",
+          "speed": "Up to 480Mbps",
+          "color": "Translucent silver",
+          "construction": "Gold-plated contacts, shielded, molded PVC boot, 28 AWG conductors",
+          "eanUpc": "0766623340458 / 766623340458",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL030", "stock": 0, "price": 2.15, "currency": "USD", "stockStatus": "out_of_stock" },
+            { "providerId": "cva", "providerSku": "CB-223", "stock": 5, "price": 2.19, "currency": "USD", "stockStatus": "in_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Stock divergente: CT 0 y CVA 5.",
+            "Pagina MX puede mencionar micro B, pero titulo, ficha USA, imagenes y modelo 340458 confirman USB Standard-B macho."
+          ]
+        },
+        "measurements": { "length": "3 m", "netWeight": "0.07 kg", "grossWeight": "0.08 kg", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 340458 official page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-340458" },
+          { "title": "Manhattan Mexico 340458", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-para-dispositivos-usb-b-de-alta-velocidad-340458" },
+          { "title": "CVA and CT provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10vr55i6qaetbf3",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link TL-SF1008D switch no administrable Fast Ethernet 8 puertos 10/100Mbps",
+        "description": "Switch de escritorio TP-Link TL-SF1008D no administrable con 8 puertos RJ45 10/100Mbps auto-negociacion Auto-MDI/MDIX, plug and play, fanless, control de flujo IEEE 802.3x, tecnologia Green Ethernet y fuente externa.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/8-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/au/business-networking/unmanaged-switch/tl-sf1008d/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2349685",
+          "https://static.tp-link.com/TL_SF1008D%28UN%2911.0_01_normal_1516616891595s.jpg",
+          "https://static.tp-link.com/TL_SF1008D%28UN%2911.0_02_normal_1516616900004g.jpg"
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "TL-SF1008D",
+          "productType": "8-port 10/100Mbps unmanaged desktop switch",
+          "ports": "8 x 10/100Mbps RJ45, auto-negotiation, Auto-MDI/MDIX",
+          "standards": "IEEE 802.3, IEEE 802.3u, IEEE 802.3x",
+          "features": "Plug and play, fanless, store-and-forward, Green Ethernet, back pressure",
+          "buffer": "768Kb",
+          "power": "External adapter 5.0VDC / 0.6A, 100-240VAC input",
+          "consumption": "2.05W max at 220V/50Hz",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL020", "stock": 321, "price": 7.73, "currency": "USD", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "NIC-791", "stock": 0, "price": 7.34, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Stock divergente: CT 321 y CVA 0.",
+            "No es Gigabit, PoE ni administrable; debe permanecer como Fast Ethernet no administrable."
+          ]
+        },
+        "measurements": { "dimensions": "134.5 x 79 x 22.5 mm", "retailerWeight": "about 350 g" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-SF1008D official page", "type": "manufacturer", "url": "https://www.tp-link.com/au/business-networking/unmanaged-switch/tl-sf1008d/" },
+          { "title": "TP-Link TL-SF1008D support download", "type": "manufacturer", "url": "https://www.tp-link.com/us/support/download/tl-sf1008d/v7/" },
+          { "title": "CVA and CT provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
