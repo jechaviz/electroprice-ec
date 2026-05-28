@@ -1,0 +1,360 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b013-2026-05-27",
+  "cycle": 2,
+  "batch": 13,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "f2tlbann0tv7ddn",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dbugg DB-PD64 cargador de pared USB-C PD 65W",
+        "description": "Cargador de pared Dbugg DB-PD64 con salida USB-C Power Delivery, conectores duales de carga rapida y alimentacion universal para dispositivos USB-C.",
+        "manualCategoryPath": "energia/cargadores-usb",
+        "semanticCategoryPath": "energia/cargadores-usb/usb-c-pd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Dbugg DB-PD64 ficha Compupuebla", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/CARGPAREDDBUGGTIPOC65WDBPD64Cargad_DBPD64/CARGPAREDDBUGGTIPOC65WDBPD64Cargad_DBPD64.pdf" }],
+        "specs": {
+          "brand": "DBUGG",
+          "model": "DB-PD64",
+          "providerSku": "ACCDBU020",
+          "productType": "Cargador de pared USB-C",
+          "maxPower": "65 W nominal en ficha; listados de proveedor mencionan 64 W/67 W",
+          "fastCharging": ["USB-C Power Delivery", "carga rapida"],
+          "ports": ["USB-C", "USB-A segun listados de canal"],
+          "input": "100-240 V, 50/60 Hz segun listados de canal",
+          "packageIncludes": ["cargador de pared tipo C", "cable USB tipo C", "documentacion"],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 10, "price": 298.89, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "FullOffice DBUGG DB-PD64", "type": "reseller_spec", "url": "https://fulloffice.com/products/cargadores-dbugg-db-pd64" },
+          { "title": "CompuPuebla DB-PD64 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/CARGPAREDDBUGGTIPOC65WDBPD64Cargad_DBPD64/CARGPAREDDBUGGTIPOC65WDBPD64Cargad_DBPD64.pdf" },
+          { "title": "CTOnline feed ACCDBU020 stock 10", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "rfyycn3wb8pkch7",
+      "research": {
+        "confidence": 0.97,
+        "name": "Ricoh Fujitsu fi-70F escaner plano A6 USB",
+        "description": "Escaner plano A6 Ricoh/Fujitsu fi-70F con sensor CIS, resolucion optica 600 dpi, lectura de identificaciones/pasaportes y conexion USB 2.0.",
+        "manualCategoryPath": "impresion/escaneres",
+        "semanticCategoryPath": "impresion/escaneres/flatbed-a6",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pfu.ricoh.com/fi/products/fi-70f/specifications.html",
+        "documents": [{ "label": "RICOH fi-70F datasheet", "type": "datasheet", "url": "https://www.pfu-latam.ricoh.com/-/media/project/scanners-latam/files/products/datasheets/english/datasheet_ricoh_fi70f.pdf" }],
+        "specs": {
+          "brand": "RICOH/FUJITSU",
+          "model": "fi-70F",
+          "manufacturerSku": "FI-70F",
+          "providerSku": "SCAFJT430",
+          "productType": "Escaner plano A6",
+          "scannerType": "Flatbed",
+          "sensor": "CIS",
+          "lightSource": "RGB LED",
+          "opticalResolution": "600 dpi",
+          "scanArea": "105 x 148 mm (A6)",
+          "scanSpeed": "A6 desde 1 s con adaptador AC segun resolucion/modo",
+          "connectivity": "USB 2.0 / USB 1.1 tipo B",
+          "drivers": ["PaperStream IP TWAIN", "ISIS"],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 10, "price": 240.22, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "145 x 234 x 40 mm", "weight": "0.9 kg" },
+        "sourceRefs": [
+          { "title": "RICOH fi-70F official specifications", "type": "manufacturer", "url": "https://www.pfu.ricoh.com/fi/products/fi-70f/specifications.html" },
+          { "title": "RICOH fi-70F LATAM datasheet", "type": "manufacturer_datasheet", "url": "https://www.pfu-latam.ricoh.com/-/media/project/scanners-latam/files/products/datasheets/english/datasheet_ricoh_fi70f.pdf" },
+          { "title": "CTOnline feed SCAFJT430 stock 10", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "myv75zyq7qxhr18",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice Holdi PC-085058 bolso cruzado negro",
+        "description": "Bolso cruzado Perfect Choice Holdi PC-085058 color negro, fabricado en poliester con material antiderrames, correa de hombro ajustable y bolsillos con cremallera.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/bolsos-cruzados",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085058",
+          "commercialName": "Holdi",
+          "providerSku": "MALGEN4650",
+          "upc": "615604085058",
+          "productType": "Bolso cruzado / bolsa de hombro",
+          "material": "100% poliester exterior y forro",
+          "color": "Negro",
+          "features": ["material antiderrames", "correa ajustable", "bolsillo delantero", "bolsillo interior", "cierres"],
+          "observedResellerBranches": [
+            { "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 12 },
+            { "source": "PCDigital", "warehouse": "En linea", "stock": 6 },
+            { "source": "PCDigital", "warehouse": "Veracruz/Cordoba/Puebla/Xalapa", "stock": 0 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 10, "price": 148.94, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "21.5 x 9 x 24.5 cm", "weight": "173 g", "shippingWeightReference": "0.4 kg en PCDigital" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Perfect Choice PC-085058 Holdi", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-laptops/bolsa-de-hombro-perfect-choice-pc-085058-bolso-de-hombro-mat/pc-085058" },
+          { "title": "Cyberpuerta PC-085058 imagenes y especificaciones", "type": "image_reference", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Foto-y-Video/Accesorios-Foto-y-Video/Fundas-y-Estuches/Perfect-Choice-Bolso-Cruzado-de-Poliester-PC-085058-21-5-x-9-x-24-5-cm-Negro.html" },
+          { "title": "PCDigital PC-085058 sucursales e imagenes", "type": "reseller_spec", "url": "https://www.pcdigital.com.mx/bolso-cruzado-perfect-choice-pc-085058-poliester-holdi-21-5-x-9-x-24-5-cm-color-negro/" },
+          { "title": "CTOnline feed MALGEN4650 stock 10", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "tgzukqumfcyrs4y",
+      "research": {
+        "confidence": 0.96,
+        "name": "Creative Sound Blaster GS5 barra de sonido RGB 60W",
+        "description": "Barra de sonido compacta Creative Sound Blaster GS5 para escritorio/gaming con tecnologia SuperWide, RGB, Bluetooth 5.3, USB-C audio, AUX, optico y HDMI ARC.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/compactas-gaming-rgb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://de.creative.com/p/speakers/sound-blaster-gs5",
+        "specs": {
+          "brand": "CREATIVE",
+          "model": "Sound Blaster GS5",
+          "providerSku": "BOCCRL040",
+          "productType": "Barra de sonido gaming",
+          "systemPower": "30 W RMS / 60 W pico",
+          "drivers": "2 full-range racetrack",
+          "frequencyResponse": "65 Hz - 20 kHz",
+          "snr": "85 dB",
+          "wireless": "Bluetooth 5.3 SBC",
+          "inputs": ["USB-C audio", "Bluetooth", "optical-in TOSLINK", "3.5 mm AUX-in", "HDMI ARC"],
+          "outputs": ["3.5 mm headphones/SXFI-out"],
+          "lighting": "RGB hasta 16.8 millones de colores",
+          "providerOffers": [{ "providerId": "ctonline", "stock": 10, "price": 90.0, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "510 x 102.7 x 82.6 mm", "weight": "1.5 kg" },
+        "sourceRefs": [
+          { "title": "Creative Sound Blaster GS5 official specifications", "type": "manufacturer", "url": "https://de.creative.com/p/speakers/sound-blaster-gs5" },
+          { "title": "TechRadar Creative Sound Blaster GS5 review specs and images", "type": "image_reference", "url": "https://www.techradar.com/gaming/creative-sound-blaster-gs5-review" },
+          { "title": "CTOnline feed BOCCRL040 stock 10", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zbieomt0vdjiojk",
+      "research": {
+        "confidence": 0.95,
+        "name": "Game Factor HSG500 headset gamer USB 7.1 RGB",
+        "description": "Audifonos gamer Game Factor HSG500 con conexion USB-A, sonido virtual 7.1, iluminacion RGB, diadema ajustable y microfono integrado.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/headsets-gaming-usb-7-1",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gamefactor.mx/detalle/14/hsg500",
+        "documents": [{ "label": "Game Factor HSG500 ficha", "type": "datasheet", "url": "https://www.gamefactor.mx/descargables/Ficha-HSG500.pdf" }],
+        "specs": {
+          "brand": "GAME FACTOR",
+          "model": "HSG500",
+          "providerSku": "BOCVGO1240",
+          "alternateProviderSku": "SPK-2711",
+          "productType": "Headset gamer USB",
+          "audioMode": "Virtual 7.1",
+          "connection": "USB-A",
+          "driverSize": "50 mm",
+          "impedance": "32 ohm",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "sensitivity": "105 +/- 3 dB a 1 kHz",
+          "microphoneSensitivity": "-42 dB",
+          "cableLength": "2.2 m",
+          "lighting": "RGB",
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 10, "price": 20.3, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 19.73, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "180 x 200 x 110 mm", "weight": "290 g" },
+        "sourceRefs": [
+          { "title": "Game Factor HSG500 official page", "type": "manufacturer", "url": "https://gamefactor.mx/detalle/14/hsg500" },
+          { "title": "Game Factor HSG500 ficha PDF", "type": "datasheet", "url": "https://www.gamefactor.mx/descargables/Ficha-HSG500.pdf" },
+          { "title": "CTOnline feed BOCVGO1240 stock 10 and CVA SPK-2711 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jlh9624vu4fuxdo",
+      "research": {
+        "confidence": 0.94,
+        "name": "Huawei M-Pencil 3a generacion CD54-S1 blanco",
+        "description": "Stylus Huawei M-Pencil de tercera generacion en color blanco con conexion NearLink, carga magnetica, baja latencia y sensibilidad a la presion para tablets MatePad compatibles.",
+        "manualCategoryPath": "computo/accesorios/stylus-tablets",
+        "semanticCategoryPath": "computo/accesorios/stylus-tablets/huawei-m-pencil",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/tw/accessories/m-pencil-3rd-generation/",
+        "documents": [{ "label": "GlobalOffice Huawei 55037261 PDF", "type": "reseller_pdf", "url": "https://globaloffice.com.mx/app/producto/pdf/55037261" }],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "M-Pencil 3rd Generation",
+          "manufacturerModel": "CD54-S1",
+          "providerSku": "ACCHUW1450",
+          "manufacturerSku": "55037261",
+          "productType": "Stylus para tablet",
+          "color": "Blanco",
+          "connectivity": "NearLink",
+          "charging": "Acoplamiento/carga magnetica en tablets compatibles",
+          "pressureLevels": "10000+ niveles segun ficha regional",
+          "latency": "2 ms segun ficha regional",
+          "batteryLife": "Hasta 10 h de escritura; carga aproximada 30 min",
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 1074.45, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "160.7 x 8.9 mm", "weight": "16.3 g" },
+        "sourceRefs": [
+          { "title": "Huawei M-Pencil 3rd generation official page", "type": "manufacturer", "url": "https://consumer.huawei.com/tw/accessories/m-pencil-3rd-generation/" },
+          { "title": "GlobalOffice Huawei 55037261 M-Pencil 3rd Gen PDF", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/producto/pdf/55037261" },
+          { "title": "CTOnline feed ACCHUW1450 stock 9", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "m31zqijfl6u10z9",
+      "research": {
+        "confidence": 0.95,
+        "name": "Perfect Choice Bookery PC-085249 mochila escolar purpura",
+        "description": "Mochila escolar infantil Perfect Choice Bookery PC-085249 color purpura, con multiples compartimentos, estructura comoda y material 100% poliester.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochilas-escolares",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mochila-escolar-infantil-multiples-compartimentos-bookery-perfect-choice",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085249",
+          "commercialName": "Bookery",
+          "providerSku": "MALGEN4890",
+          "upc": "615604085249",
+          "productType": "Mochila escolar infantil",
+          "color": "Purpura / rosa-violeta",
+          "material": "100% poliester",
+          "features": ["multiples compartimentos", "tirantes acolchados", "estructura ergonomica"],
+          "observedResellerStock": [{ "source": "CompuPuebla", "stock": 4, "branch": "not_available" }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 574.04, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "41.5 x 30.5 x 13.5 cm", "weight": "600 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Bookery PC-085249 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mochila-escolar-infantil-multiples-compartimentos-bookery-perfect-choice" },
+          { "title": "Sears PC-085249 dimensions and material", "type": "reseller_spec", "url": "https://www.sears.com.mx/producto/3811401/mochilas-y-maletines-perfect-choice-pc-085249" },
+          { "title": "CompuPuebla PC-085249 stock reference", "type": "reseller_stock", "url": "https://compupuebla.com/producto/mochilas-y-maletines-perfect-choice-pc-085249/" },
+          { "title": "CTOnline feed MALGEN4890 stock 9", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zw682aq9a95xnt7",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP GT52 3YP17AL botella de tinta amarilla 70 ml",
+        "description": "Botella original de tinta amarilla HP GT52 para impresoras HP Ink Tank y Smart Tank, volumen 70 ml y rendimiento aproximado de 8000 paginas a color compuesto.",
+        "manualCategoryPath": "impresion/consumibles/tinta-toner",
+        "semanticCategoryPath": "impresion/consumibles/tinta-toner/hp-gt52",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/sa-en/products/ink-toner/product-details/product-specifications/12206754",
+        "specs": {
+          "brand": "HP",
+          "model": "GT52 Yellow",
+          "manufacturerSku": "3YP17AL",
+          "regionalSkuReference": "M0H56AE/M0H56AA",
+          "providerSku": "CARHPP4330",
+          "productType": "Botella de tinta original",
+          "color": "Yellow",
+          "volume": "70 ml",
+          "pageYield": "Aprox. 8000 paginas color compuesto",
+          "inkType": "Dye-based",
+          "printTechnology": "HP Thermal Inkjet",
+          "compatibility": ["HP DeskJet GT", "HP Ink Tank", "HP Smart Tank"],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 520.77, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "packageDimensions": "47 x 47 x 150 mm", "weight": "0.1 kg", "packageWeight": "0.11 kg" },
+        "sourceRefs": [
+          { "title": "HP GT52 Yellow Original Ink Bottle specifications", "type": "manufacturer", "url": "https://www.hp.com/sa-en/products/ink-toner/product-details/product-specifications/12206754" },
+          { "title": "Xcite HP GT52 Yellow image/spec reference", "type": "image_reference", "url": "https://www.xcite.com/hp-gt52-yellow-ink/p" },
+          { "title": "CTOnline feed CARHPP4330 stock 9", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "fqb7j3hkaz0hk1z",
+      "research": {
+        "confidence": 0.91,
+        "name": "Perfect Choice Delfin Astro PC-084433 mochila escolar infantil",
+        "description": "Mochila escolar infantil Perfect Choice PC-084433 Delfin Astro multicolor, de nylon/poliester, con gran capacidad para uso escolar.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochilas-escolares",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-084433",
+          "commercialName": "Delfin Astro",
+          "providerSku": "MALGEN4320",
+          "upc": "615604084433",
+          "productType": "Mochila escolar infantil",
+          "color": "Multicolor",
+          "material": "85% poliester / 15% nylon en ficha de canal",
+          "observedResellerBranches": [{ "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 7 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 387.94, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "280 x 160 x 420 mm" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Perfect Choice PC-084433 stock and UPC", "type": "reseller_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-computo/perfect-choice-pc084433-mochila-kids-delfn-astro/pc-084433" },
+          { "title": "Sears Perfect Choice PC-084433 specifications and images", "type": "image_reference", "url": "https://www.sears.com.mx/producto/3814891/perfect-choice-perfect-choice-pc-084433" },
+          { "title": "CTOnline feed MALGEN4320 stock 9", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ycvvubol8dq1g8c",
+      "research": {
+        "confidence": 0.94,
+        "name": "DuoSmart E21 camara inteligente WiFi PT 3MP",
+        "description": "Camara inteligente DuoSmart E21 para interior con movimiento PT, WiFi 2.4 GHz, resolucion 3MP, vision nocturna, audio bidireccional y microSD de hasta 128 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pan-tilt-interior",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://duosmart.mx/detail/E21.html",
+        "specs": {
+          "brand": "DUOSMART",
+          "model": "E21",
+          "providerSku": "E21",
+          "productType": "Camara IP WiFi PT interior",
+          "resolution": "3 MP / Full HD",
+          "wireless": "WiFi 2.4 GHz",
+          "panTilt": "PT con giro 355 grados",
+          "nightVision": true,
+          "storage": "microSD hasta 128 GB (no incluida)",
+          "audio": "Bidireccional",
+          "app": "App DuoSmart",
+          "providerOffers": [{ "providerId": "tecnosinergia", "stock": 9, "price": 224.8, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "sourceRefs": [
+          { "title": "DuoSmart E21 official page", "type": "manufacturer", "url": "https://duosmart.mx/detail/E21.html" },
+          { "title": "FullOffice DuoSmart E21 specifications", "type": "reseller_spec", "url": "https://fulloffice.com/products/camara-inteligente-con-movimiento-pt-wifi-2-4-ghz-duosmart-e21-para-interior-full-hd-3mp-compatible-con-app-duosmart-soporta-microsd-de-hasta-128-gb-no-incluida-con-audio-bidireccional" },
+          { "title": "Intercompras DuoSmart E21 stock and images", "type": "image_reference", "url": "https://intercompras.com/p/camara-inteligente-duosmart-e21-3mp-wi-fi-interior-351051" },
+          { "title": "Tecnosinergia portal E21 stock 9", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}

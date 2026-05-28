@@ -464,6 +464,23 @@ describe("product curation policy", () => {
       brand: "QIAN",
       category: "laptops",
     }).path).toBe("punto-de-venta/cajones-dinero");
+
+    const batchThirteenCases = [
+      ["Dbugg DB-PD64 cargador de pared USB-C PD GaN 67W", "DBUGG", "energia/cargadores-usb"],
+      ["Fujitsu fi-70F escaner plano A6 USB", "FUJITSU", "impresion/escaneres"],
+      ["Perfect Choice PC-085058 bolso cruzado Holdi negro", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+      ["Creative Sound Blaster GS5 barra de sonido compacta", "CREATIVE", "audio/barras-sonido"],
+      ["Game Factor HSG500 headset gamer USB 7.1 RGB", "GAME FACTOR", "audio/audifonos"],
+      ["Huawei M-Pencil CD54-S1 lapiz optico blanco", "HUAWEI", "computo/accesorios/stylus-tablets"],
+      ["Perfect Choice PC-085249 mochila escolar Bookery purpura", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+      ["HP GT52 3YP17AL botella de tinta amarilla 70 ml", "HP", "impresion/consumibles/tinta-toner"],
+      ["Perfect Choice PC-084433 mochila escolar Delfin Astro", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+      ["Duosmart E21 camara inteligente WiFi 3MP PIR", "DUOSMART", "seguridad/cctv/camaras-ip-wifi"],
+    ];
+
+    for (const [name, brand, path] of batchThirteenCases) {
+      expect(classifyManualCategory({ name, brand, category: "laptops" }).path).toBe(path);
+    }
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
