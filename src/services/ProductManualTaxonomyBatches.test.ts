@@ -166,6 +166,16 @@ const researchedBatchCases = [
   ["Manhattan 422871 mousepad 3 en 1 microfibra gris", "MANHATTAN", "computo/accesorios/mousepads"],
   ["Intellinet 211048 pinza para crimpear RJ11 RJ12 RJ45", "INTELLINET", "redes/herramientas-cableado/crimpadoras"],
   ["Manhattan 434362 mousepad tipo gel negro", "MANHATTAN", "computo/accesorios/mousepads"],
+  ["Intellinet 211055 pinza para ponchar jacks terminal blocks", "INTELLINET", "redes/herramientas-cableado/ponchadoras-impacto"],
+  ["Manhattan 421010 limpiador pantallas 60cc", "MANHATTAN", "computo/accesorios/limpieza/limpiadores-pantalla"],
+  ["Manhattan 421027 limpiador LCD kit 200cc", "MANHATTAN", "computo/accesorios/limpieza/limpiadores-pantalla"],
+  ["Manhattan 140065 pasta termica jeringa 20g CPU", "MANHATTAN", "computo/componentes/pasta-termica"],
+  ["Manhattan 161572 hub USB V2.0 10 puertos con fuente", "MANHATTAN", "computo/accesorios/hubs-usb"],
+  ["Manhattan 423533 mousepad 6mm bolsa negro", "MANHATTAN", "computo/accesorios/mousepads"],
+  ["Intellinet 504225 cople CAT 5E modular beige", "INTELLINET", "redes/cableado-estructurado/acopladores-rj45"],
+  ["Manhattan 701662 pasta termica jeringa 1.5g CPU", "MANHATTAN", "computo/componentes/pasta-termica"],
+  ["Manhattan 150859 convertidor USB 2.0 a tarjeta sonido 5.1", "MANHATTAN", "computo/componentes/tarjetas-audio/usb"],
+  ["Manhattan 328883 adaptador DVI 29M a HD15H", "MANHATTAN", "accesorios/cables-adaptadores/video-dvi-vga"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
