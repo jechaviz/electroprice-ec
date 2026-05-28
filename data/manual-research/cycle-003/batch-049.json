@@ -1,0 +1,455 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b049-2026-05-28",
+  "cycle": 3,
+  "batch": 49,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "078m20e2ancp6sv",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Archer TXE70UH adaptador USB Wi-Fi 6E AXE5400 tribanda",
+        "description": "Adaptador USB TP-Link Archer TXE70UH Wi-Fi 6E AXE5400 tribanda con USB 3.0, base con cable de 1.2 m, WPA3, OFDMA, MU-MIMO y Beamforming para equipos Windows 10/11.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/wifi-6e-axe5400-tribanda",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-txe70uh/v1/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10431938",
+          "https://static.tp-link.com/upload/image-line/Archer_TXE70UH_EU_1.0_01_large_20230620071342y.jpg",
+          "https://static.tp-link.com/upload/image-line/Archer_TXE70UH_EU_1.0_03_large_20230620071405s.jpg",
+          "https://static.tp-link.com/upload/image-line/Archer_TXE70UH_EU_1.0_04_large_20230620071523a.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link Archer TXE70UH datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202308/20230818/Archer%20TXE70UH%28US%291.0%20datasheet.pdf" },
+          { "label": "TP-Link Archer TXE70UH support", "type": "support", "url": "https://www.tp-link.com/us/support/download/archer-txe70uh/v1/?app=t" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Archer TXE70UH",
+          "providerSku": "TARTPL720 / AC-12270",
+          "wirelessStandard": "Wi-Fi 6E 802.11ax",
+          "wirelessSpeed": "2402 Mbps 6 GHz + 2402 Mbps 5 GHz + 574 Mbps 2.4 GHz",
+          "interface": "USB 3.0 with 1.2 m desktop cradle",
+          "security": "WPA, WPA2, WPA3",
+          "features": "OFDMA, MU-MIMO, Beamforming",
+          "compatibility": "Windows 10, Windows 11",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 2 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARTPL720", "stock": 2, "price": 34.09, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "AC-12270", "stock": 0, "price": 33.44, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["TP-Link page and title confirm tri-band Wi-Fi 6E; one datasheet line says dual-band, likely template error.", "Retail channels show multiple UPC/EAN values by region; no single official UPC was confirmed."]
+        },
+        "measurements": { "dimensions": "30.5 x 14.8 x 111.7 mm", "packageDimensions": "8.5 x 5.9 x 1.6 in", "packageWeight": "0.5 lb" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer TXE70UH official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-txe70uh/v1/" },
+          { "title": "TP-Link Archer TXE70UH datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202308/20230818/Archer%20TXE70UH%28US%291.0%20datasheet.pdf" },
+          { "title": "CTOnline and CVA feeds Archer TXE70UH stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "07asdp9n6zuvqcj",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother TN815Y toner amarillo original super high-yield 12000 paginas",
+        "description": "Toner original Brother TN815Y amarillo de super alto rendimiento para impresoras laser color Brother compatibles, con rendimiento aproximado de 12000 paginas bajo ISO/IEC 19798.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother-amarillo-super-high-yield",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother-usa.com/products/tn815y",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARBRT4640/CARBRT4640_full.jpg",
+          "https://www.brother-usa.com/-/media/brother/product-catalog-media/images/2022/10/25/18/54/tn815y-spinner-1-846x846.png?h=423",
+          "https://www.brother-usa.com/-/media/brother/product-catalog-media/images/2022/10/25/18/54/tn815y-spinner-2-846x846.png?h=423"
+        ],
+        "documents": [
+          { "label": "Brother HL-L9430CDN/HL-L9470CDN supplies guide", "type": "support", "url": "https://download.brother.com/welcome/doc101245/cv_hll9430cdn_use_ss.pdf" }
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "TN815Y",
+          "providerSku": "CARBRT4640",
+          "upc": "012502664734",
+          "gtin14": "00012502664734",
+          "color": "Yellow",
+          "yield": "Approximately 12000 pages ISO/IEC 19798",
+          "compatibility": "Brother HL-L9430CDN, HL-L9470CDN, MFC-L9630CDN, MFC-L9670CDN",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT4640", "stock": 5, "price": 2836.67, "currency": "MXN", "branch": "GDL,PUE,DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Some distributor sheets include inherited TN810 text or different origin data; Brother is authoritative for yield and compatibility."]
+        },
+        "measurements": { "dimensions": "8.90 x 7.40 x 16.00 in", "weight": "2.330 lb", "caseDimensions": "16.40 x 15.70 x 18.40 in", "caseWeight": "11.4 lb" },
+        "sourceRefs": [
+          { "title": "Brother TN815Y official page", "type": "manufacturer", "url": "https://www.brother-usa.com/products/tn815y" },
+          { "title": "Brother supplies guide HL-L9430CDN/HL-L9470CDN", "type": "support", "url": "https://download.brother.com/welcome/doc101245/cv_hll9430cdn_use_ss.pdf" },
+          { "title": "CTOnline feed CARBRT4640 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "07ce84tlyd16dcf",
+      "research": {
+        "confidence": 0.96,
+        "name": "Seagate BarraCuda ST2000LM015 disco duro interno 2TB 2.5 SATA 5400RPM 7mm",
+        "description": "Disco duro interno Seagate BarraCuda ST2000LM015 de 2 TB en formato 2.5 pulgadas 7 mm, interfaz SATA 6 Gb/s, 5400 RPM, cache de 128 MB y velocidad sostenida de hasta 140 MB/s para laptop, mini PC o almacenamiento interno.",
+        "manualCategoryPath": "computo/almacenamiento/discos-duros/2-5-sata",
+        "semanticCategoryPath": "computo/almacenamiento/discos-duros/2-5-sata/2tb-5400rpm-7mm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.seagate.com/support/internal-hard-drives/laptop-hard-drives/barracuda-2-5/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/DDUSGT1450/DDUSGT1450_5_full.jpg",
+          "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/support-content/internal-products/laptop-hard-drives/barracuda-2-5/barracuda-3tb-hero-left-270x270.png"
+        ],
+        "documents": [
+          { "label": "Seagate BarraCuda 2.5 datasheet", "type": "datasheet", "url": "https://www.seagate.com/content/dam/seagate/en/content-fragments/products/datasheets/barracuda-2-5/barracuda-2-5-DS1907-4-2507US-en_US.pdf" },
+          { "label": "Seagate BarraCuda 2.5 manual", "type": "manual", "url": "https://www.seagate.com/content/dam/seagate/migrated-assets/www-content/product-content/seagate-laptop-fam/barracuda_25/en-us/docs/100807728h.pdf" }
+        ],
+        "specs": {
+          "brand": "Seagate",
+          "model": "ST2000LM015 BarraCuda",
+          "providerSku": "DDUSGT1450",
+          "upc": "763649098318",
+          "capacity": "2 TB",
+          "formFactor": "2.5 in, 7 mm",
+          "interface": "SATA 6 Gb/s",
+          "rotationSpeed": "5400 RPM",
+          "cache": "128 MB",
+          "recordingTechnology": "SMR",
+          "maxSustainedTransferRate": "140 MB/s",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CUN", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUSGT1450", "stock": 36, "price": 88.33, "currency": "USD", "branch": "CUN,IRA,MAZ,COL,CTZ,SLT,CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Support page lists 7.20 mm height while datasheet/manual indicate 7.0 mm +/-0.2.", "Several UPCs appear by channel; 763649098318 is the principal channel UPC found."]
+        },
+        "measurements": { "dimensions": "100.35 x 69.85 x 7.0 mm", "weight": "90 g" },
+        "sourceRefs": [
+          { "title": "Seagate BarraCuda 2.5 support page", "type": "manufacturer", "url": "https://www.seagate.com/support/internal-hard-drives/laptop-hard-drives/barracuda-2-5/" },
+          { "title": "Seagate BarraCuda 2.5 datasheet", "type": "datasheet", "url": "https://www.seagate.com/content/dam/seagate/en/content-fragments/products/datasheets/barracuda-2-5/barracuda-2-5-DS1907-4-2507US-en_US.pdf" },
+          { "title": "CTOnline feed DDUSGT1450 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "07jqjqllkqppn0i",
+      "research": {
+        "confidence": 0.96,
+        "name": "WD Green SN350 WDS500G2G0C SSD interno 500GB M.2 2280 NVMe PCIe Gen3",
+        "description": "SSD interno WD Green SN350 WDS500G2G0C de 500 GB en formato M.2 2280 NVMe PCIe Gen3 x4, con lectura secuencial hasta 2400 MB/s y escritura secuencial hasta 1500 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/500gb-pcie-gen3",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS500G2G0C-00CDH0",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10375172",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/internal-storage/wd-green-sn350-nvme-ssd/featured/wd-green-sn350-nvme-ssd-feature5.jpg.wdthumb.1280.1280.jpg"
+        ],
+        "documents": [
+          { "label": "WD Green SN350 product brief", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/western-digital/product/internal-drives/wd-green-ssd/product-brief-wd-green-sn350-nvme-ssd.pdf" }
+        ],
+        "specs": {
+          "brand": "Western Digital / SanDisk",
+          "model": "WDS500G2G0C-00CDH0",
+          "providerSku": "HD-2880",
+          "upc": "718037880099",
+          "capacity": "500 GB",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe Gen3 x4 NVMe v1.3",
+          "nand": "TLC",
+          "sequentialRead": "2400 MB/s",
+          "sequentialWrite": "1500 MB/s",
+          "randomIo": "Up to 300K/300K IOPS",
+          "warranty": "3 years",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 20 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "HD-2880", "stock": 20, "price": 144.39, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Some retailers list 900 MB/s write for the same model, likely mixing a different capacity.", "Branding appears as WD Green while current official page is under SanDisk/Western Digital."]
+        },
+        "measurements": { "dimensions": "80 x 22 x 2.38 mm", "weight": "7.5 g +/-1 g" },
+        "sourceRefs": [
+          { "title": "SanDisk WD Green SN350 official page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS500G2G0C-00CDH0" },
+          { "title": "WD Green SN350 product brief", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/western-digital/product/internal-drives/wd-green-ssd/product-brief-wd-green-sn350-nvme-ssd.pdf" },
+          { "title": "CVA feed HD-2880 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "07su3sev8v1bneh",
+      "research": {
+        "confidence": 0.96,
+        "name": "Hikvision DS-2CD3T86G2H-LISU camara IP bullet 8MP Smart Hybrid Light PoE",
+        "description": "Camara IP bullet Hikvision DS-2CD3T86G2H-LISU de 8 MP con sensor 1/1.8 pulg, lente 2.8 o 4 mm, Smart Hybrid Light hasta 60 m, WDR 130 dB, microfono integrado, ranura microSD hasta 512 GB, IP67 y alimentacion PoE o 12 VDC.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/8mp-smart-hybrid-light-microfono",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/mx/products/IP-Products/Network-Cameras/Ultra-Series-SmartIP-/ds-2cd3t86g2h-lis-u--y-/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMHKV4490/CAMHKV4490_full.jpg",
+          "https://assets.hikvision.com/prd/normal/all/image/m000077617/2CD3T86G2-%E7%AD%92%E6%9C%BA45pro-%E5%B8%A6%E8%97%8F%E7%BA%BF%E7%9B%92-%E6%B5%B7%E5%BA%B7%E7%99%BD-%E5%8F%B3%E4%BE%A7.png",
+          "https://assets.hikvision.com/prd/normal/all/image/sm000107341/DS-2CD3T86G2H-LISU_Dimensionsimage_1.png.original.png"
+        ],
+        "documents": [
+          { "label": "Hikvision DS-2CD3T86G2H-LISU datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/sm000107341/DS-2CD3T86G2H-LISU_Datasheet_20260114.pdf" }
+        ],
+        "specs": {
+          "brand": "Hikvision",
+          "model": "DS-2CD3T86G2H-LISU",
+          "providerSku": "CAMHKV4490",
+          "ean": "6942160417516",
+          "resolution": "8 MP, 3840 x 2160",
+          "sensor": "1/1.8 in progressive scan CMOS",
+          "lens": "Fixed 2.8 mm or 4 mm option",
+          "illumination": "Smart Dual-Light IR + white light up to 60 m",
+          "videoCompression": "H.265+, H.265, H.264+, H.264",
+          "storage": "microSD up to 512 GB",
+          "power": "PoE 802.3af Class 3 max 10.5 W or 12 VDC max 9.5 W",
+          "ingressProtection": "IP67",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "QRO", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMHKV4490", "stock": 3, "price": 370.16, "currency": "USD", "branch": "QRO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Do not merge with DS-2CD3T86G2H-LISU/SL; /SL adds strobe/speaker and different power class.", "Some retailers mention siren/strobe on the non-SL model; official LISU datasheet does not support that."]
+        },
+        "measurements": { "dimensions": "325.7 x 93.3 x 91.2 mm", "packageDimensions": "386 x 157 x 155 mm", "weight": "1100 g", "packageWeight": "1610 g" },
+        "sourceRefs": [
+          { "title": "Hikvision DS-2CD3T86G2H-LISU official page", "type": "manufacturer", "url": "https://www.hikvision.com/mx/products/IP-Products/Network-Cameras/Ultra-Series-SmartIP-/ds-2cd3t86g2h-lis-u--y-/" },
+          { "title": "Hikvision DS-2CD3T86G2H-LISU datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/sm000107341/DS-2CD3T86G2H-LISU_Datasheet_20260114.pdf" },
+          { "title": "CTOnline feed CAMHKV4490 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "08n3pxw311ieyb8",
+      "research": {
+        "confidence": 0.96,
+        "name": "Forza FSI-3011RUL UPS line-interactive senoidal pura 3000VA 2700W rack torre 2U",
+        "description": "UPS Forza FSI-3011RUL line-interactive de 3000VA/2700W con salida senoidal pura, formato rack/torre 2U, 120V, 6 salidas NEMA 5-20R, 1 salida NEMA L5-30R, puertos USB/RS232 y SNMP opcional.",
+        "manualCategoryPath": "energia/no-breaks-ups/rack-torre",
+        "semanticCategoryPath": "energia/no-breaks-ups/rack-torre/3000va-2700w-senoidal-pura",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.forzaups.com/products/internal/FSI-3011RUL-eng/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10461933",
+          "https://cdn.kemik.gt/2025/04/FSI-3011RUL-1200x1200-1.-700x700.jpg",
+          "https://cdn.kemik.gt/2025/04/FSI-3011RUL-1200x1200-2.-700x700.jpg",
+          "https://cdn.kemik.gt/2025/04/FSI-3011RUL-1200x1200-3.-700x700.jpg"
+        ],
+        "documents": [
+          { "label": "Forza FSI-3011RUL datasheet ES", "type": "datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/FSI-3011RUL_DS_SPA.pdf" },
+          { "label": "Forza FSI-3011RUL manual ES", "type": "manual", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/FSI-3011RUL_MANUAL_SPA.pdf" }
+        ],
+        "specs": {
+          "brand": "Forza",
+          "model": "FSI-3011RUL",
+          "providerSku": "NBKFZA570 / FR-2251",
+          "upc": "798302201811",
+          "capacity": "3000 VA / 2700 W",
+          "topology": "Line-interactive",
+          "waveform": "Pure sine wave",
+          "formFactor": "Rack/tower 2U",
+          "outlets": "6 x NEMA 5-20R + 1 x NEMA L5-30R",
+          "batteries": "4 x 12 V / 9 Ah",
+          "interfaces": "USB, RS232, optional SNMP",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 1 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKFZA570", "stock": 1, "price": 501.68, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "FR-2251", "stock": 0, "price": 561.64, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Source title matches official capacity and 7 outlets; external listings sometimes mention 8 outlets or alternate MPNs."]
+        },
+        "measurements": { "dimensions": "610 x 438 x 88 mm", "weight": "28.1 kg" },
+        "sourceRefs": [
+          { "title": "Forza FSI-3011RUL official page", "type": "manufacturer", "url": "https://www.forzaups.com/products/internal/FSI-3011RUL-eng/" },
+          { "title": "Forza FSI-3011RUL datasheet ES", "type": "datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/FSI-3011RUL_DS_SPA.pdf" },
+          { "title": "CTOnline and CVA feeds FSI-3011RUL stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "08tfnmo5k8wa90a",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan MW3050 190329 mouse optico inalambrico USB blanco 1200 dpi",
+        "description": "Mouse optico inalambrico Manhattan MW3050 190329 de 2.4 GHz con receptor nano USB-A, 3 botones, rueda de desplazamiento, sensor 1200 dpi, diseno ambidiestro y una bateria AA incluida.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/optico-usb-1200dpi",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-mouse-optico-inalambrico-usb-190329",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10456874",
+          "https://manhattanproducts.us/cdn/shop/files/mw3050-wireless-optical-usb-mouse-190329-1.jpg?v=1726118127&width=1400",
+          "https://manhattanproducts.us/cdn/shop/files/mw3050-wireless-optical-usb-mouse-190329-2.jpg?v=1726118127&width=1400",
+          "https://manhattanproducts.us/cdn/shop/files/mw3050-wireless-optical-usb-mouse-190329-4.jpg?v=1726118127&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 190329 datasheet ES", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/70516/190329_datasheet_spanish.pdf" },
+          { "label": "Manhattan 190329 quick guide", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/73514/MH_190312_29_QIG_0126_REV_6.03.pdf" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "MW3050 / 190329",
+          "providerSku": "MOUITL900 / MS-1664",
+          "upc": "766623190329",
+          "ean": "0766623190329",
+          "connection": "2.4 GHz wireless with USB-A nano receiver",
+          "dpi": "1200 dpi",
+          "buttons": "3 buttons with scroll wheel",
+          "range": "Up to 10 m",
+          "battery": "1 x AA included",
+          "compatibility": "Windows, macOS, Linux, Chrome OS",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 433 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUITL900", "stock": 433, "price": 3.92, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "MS-1664", "stock": 0, "price": 3.98, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Battery capacity appears as 1200 mAh on US datasheet/page and 1550 mAh on Mexico page.", "Gross weight is listed as 66 g and also 0.66 kg in manufacturer data; 0.66 kg appears to be a unit error."]
+        },
+        "measurements": { "dimensions": "104 x 61 x 31 mm", "weight": "43 g", "grossWeight": "66 g" },
+        "sourceRefs": [
+          { "title": "Manhattan 190329 Mexico product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-mouse-optico-inalambrico-usb-190329" },
+          { "title": "Manhattan 190329 datasheet ES", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/70516/190329_datasheet_spanish.pdf" },
+          { "title": "CTOnline and CVA feeds Manhattan 190329 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "094kl8w1r6ekgun",
+      "research": {
+        "confidence": 0.96,
+        "name": "HPE ProLiant ML350 Gen11 P75341-DM5 servidor torre Xeon Silver 4410Y 64GB 2x960GB SSD",
+        "description": "Servidor torre/4U HPE ProLiant ML350 Gen11 P75341-DM5 con Intel Xeon Silver 4410Y 12 cores 2.0 GHz, 64 GB DDR5 RDIMM, chasis 8 SFF, controlador MR408i-o, red 4 puertos 1GbE, 2 SSD SATA MU de 960 GB y 2 fuentes hot-plug Platinum de 800 W.",
+        "manualCategoryPath": "computo/servidores/torre",
+        "semanticCategoryPath": "computo/servidores/torre/hpe-ml350-gen11-xeon-silver-4410y",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://buy.hpe.com/mx/es/compute/tower-servers/proliant-ml300-servers/hpe-proliant-ml350-gen11-4410y-2-0ghz-12c-1p-64gb%E2%80%91r-8sff-mr408i%E2%80%91o-2x960gb-ssd-2x800w-rps-la-server/p/p75341-dm5",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SERHPE1530/SERHPE1530_full.jpg",
+          "https://www.tisistems.com/cdn/shop/files/CP-HPENTERPRISE-P75341-DM5-ae2e31.png?v=1768429926",
+          "https://technoprimec.com/wp-content/uploads/2025/03/HPE_ProLiant_ML350_P75341DM5_tecnologia_technoprimec_tecnologiaecuador_tecnologiauio_quito_ecuador.png"
+        ],
+        "documents": [
+          { "label": "HPE ProLiant ML350 Gen11 Smart Choice QuickSpecs", "type": "datasheet", "url": "https://www.hpe.com/psnow/doc/a50009219enw.pdf" }
+        ],
+        "specs": {
+          "brand": "Hewlett Packard Enterprise",
+          "model": "ProLiant ML350 Gen11 P75341-DM5",
+          "providerSku": "SERHPE1530",
+          "upc": "190017748337",
+          "processor": "Intel Xeon Silver 4410Y, 12 cores, 2.0 GHz, 150 W",
+          "memory": "64 GB DDR5 RDIMM 4800 MT/s (2 x 32 GB, runs at 4000 MT/s with CPU)",
+          "storage": "2 x 960 GB SATA MU SFF BC SSD",
+          "controller": "HPE MR408i-o Gen11, 4 GB cache",
+          "network": "Broadcom BCM5719 1GbE 4-port OCP3",
+          "power": "2 x 800 W Flex Slot Platinum hot-plug",
+          "warranty": "3/3/3",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SERHPE1530", "stock": 7, "price": 7951.16, "currency": "USD", "branch": "D2A,DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider title only says Intel Xeon Silver 2GHz; official model uses Xeon Silver 4410Y 12-core.", "Some distributor descriptions say HDD 960GB; HPE official name and QuickSpecs say 2x960GB SSD."]
+        },
+        "measurements": { "dimensions": "462.5 x 648 x 174 mm", "weight": "35 kg" },
+        "sourceRefs": [
+          { "title": "HPE ProLiant ML350 Gen11 P75341-DM5 store page", "type": "manufacturer", "url": "https://buy.hpe.com/mx/es/compute/tower-servers/proliant-ml300-servers/hpe-proliant-ml350-gen11-4410y-2-0ghz-12c-1p-64gb%E2%80%91r-8sff-mr408i%E2%80%91o-2x960gb-ssd-2x800w-rps-la-server/p/p75341-dm5" },
+          { "title": "HPE ProLiant ML350 Gen11 Smart Choice QuickSpecs", "type": "datasheet", "url": "https://www.hpe.com/psnow/doc/a50009219enw.pdf" },
+          { "title": "CTOnline feed SERHPE1530 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "098p7jh3cvjad63",
+      "research": {
+        "confidence": 0.96,
+        "name": "Panasonic KX-TGB310MEB telefono inalambrico DECT 6.0 LCD ambar negro",
+        "description": "Telefono inalambrico Panasonic KX-TGB310MEB DECT 6.0 con un auricular, pantalla LCD monocromatica de 1.4 pulgadas con retroiluminacion ambar, directorio de 50 contactos, identificador de llamadas, bloqueo de 50 numeros y localizador de auricular.",
+        "manualCategoryPath": "telefonia/telefonos/inalambricos",
+        "semanticCategoryPath": "telefonia/telefonos/inalambricos/dect-6-lcd-ambar",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.panasonic.com/mx/consumo/comunicaciones/telefonia/dect-60/kx-tgb310/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10322613",
+          "https://panasonic.scene7.com/is/image/Panasonic/ast-1239785?fmt=png-alpha&hei=644&wid=644"
+        ],
+        "documents": [
+          { "label": "Panasonic KX-TGB310 Mexico ficha tecnica", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/7501487681179-P.pdf" },
+          { "label": "Panasonic KX-TGB310/KX-TGB312 manual", "type": "manual", "url": "https://help.na.panasonic.com/wp-content/uploads/2023/02/KXTGB310_TGB312_PNQX8360ZA_ENG.pdf" }
+        ],
+        "specs": {
+          "brand": "Panasonic",
+          "model": "KX-TGB310MEB",
+          "providerSku": "TELPAN1110 / TEL-239",
+          "ean": "7501487681179",
+          "technology": "DECT 6.0",
+          "handsets": "1",
+          "display": "1.4 in monochrome LCD with amber backlight",
+          "directory": "50 entries",
+          "callerIdMemory": "50 events",
+          "callBlock": "50 numbers",
+          "battery": "2 x rechargeable AAA Ni-MH",
+          "batteryLife": "Up to 18 h talk, 200 h standby",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 68 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TELPAN1110", "stock": 68, "price": 866.89, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "TEL-239", "stock": 0, "price": 889.68, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Some retailers list 100 contacts or missing call-block/caller-ID; Panasonic Mexico supports 50 contacts, caller ID and 50-number call block.", "NA manual for another regional variant lists lower autonomy; use Mexico ficha for KX-TGB310MEB."]
+        },
+        "measurements": { "baseDimensions": "56 x 78 x 88 mm", "baseWeight": "80 g", "handsetDimensions": "164 x 48 x 32 mm", "handsetWeight": "130 g", "packageDimensions": "18 x 30 x 13 cm", "packageWeight": "0.912 kg" },
+        "sourceRefs": [
+          { "title": "Panasonic Mexico KX-TGB310 page", "type": "manufacturer", "url": "https://www.panasonic.com/mx/consumo/comunicaciones/telefonia/dect-60/kx-tgb310/" },
+          { "title": "Panasonic KX-TGB310 Mexico ficha tecnica", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/7501487681179-P.pdf" },
+          { "title": "CTOnline and CVA feeds KX-TGB310MEB stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "09binpx3t1lk1me",
+      "research": {
+        "confidence": 0.97,
+        "name": "CyberPower AVRG750LCD UPS line-interactive LCD 750VA 450W 12 tomas NEMA",
+        "description": "UPS CyberPower AVRG750LCD line-interactive de 750VA/450W con pantalla LCD, AVR buck/boost, onda senoidal simulada, 12 salidas NEMA 5-15R, proteccion RJ11, USB HID, supresion de 1030 J y garantia de 3 anos incluyendo bateria.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/750va-450w-lcd-torre",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/ups/intelligent-lcd/avrg750lcd/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9826851",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/avrg750lcd-front-vertical-photo-1.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/avrg750lcd-front-vertical-left-photo-1.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/avrg750lcd-enhanced-dims-1.jpg"
+        ],
+        "documents": [
+          { "label": "CyberPower AVRG750LCD datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--9YJ5tTEL--/ce03cef63463ec831e52845a85973ee376d34afc.pdf" },
+          { "label": "CyberPower AVRG750LCD manual", "type": "manual", "url": "https://images.salsify.com/image/upload/s--mkJ6md2v--/fc984ae28e7da5cc078bd8858158212c3bed385f.pdf" }
+        ],
+        "specs": {
+          "brand": "CyberPower",
+          "model": "AVRG750LCD",
+          "providerSku": "NBKCYP1000 / FR-1153",
+          "upc": "649532617661",
+          "capacity": "750 VA / 450 W",
+          "topology": "Line-interactive",
+          "waveform": "Simulated sine wave",
+          "outlets": "12 x NEMA 5-15R, 6 battery+surge and 6 surge-only",
+          "surgeProtection": "1030 J",
+          "battery": "1 x 12 V / 7 Ah RB1270B",
+          "runtime": "7.6 min half load, 2.5 min full load",
+          "warranty": "3 years including battery",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 24 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKCYP1000", "stock": 24, "price": 2508.89, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "FR-1153", "stock": 0, "price": 2511.64, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider title says 760VA while manufacturer lists 750VA.", "Do not mark as pure sine wave; manufacturer specifies simulated sine wave."]
+        },
+        "measurements": { "dimensions": "310 x 178 x 89 mm", "weight": "5.62 kg", "packageDimensions": "129.03 x 247.4 x 374.65 mm", "packageWeight": "6.98 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower AVRG750LCD official page", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/intelligent-lcd/avrg750lcd/" },
+          { "title": "CyberPower AVRG750LCD datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--9YJ5tTEL--/ce03cef63463ec831e52845a85973ee376d34afc.pdf" },
+          { "title": "CTOnline and CVA feeds AVRG750LCD stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

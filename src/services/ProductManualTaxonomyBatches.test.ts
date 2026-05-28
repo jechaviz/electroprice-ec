@@ -353,6 +353,16 @@ const researchedBatchCases = [
   ["Gigabyte H610M K V2 tarjeta madre Intel LGA1700 DDR5", "GIGABYTE", "computo/componentes/tarjetas-madre/intel-lga1700"],
   ["Meriva MDL-5202A camara HD bullet 4 en 1 AHD TVI CVI", "MERIVA", "seguridad/cctv/camaras-turbohd/bullet"],
   ["ASUS ExpertBook P1 P1403CVA-i58G512-P1 laptop empresarial", "ASUS", "computo/laptops/empresariales"],
+  ["TP-Link Archer TXE70UH adaptador USB Wi-Fi 6E tribanda", "TP-LINK", "redes/adaptadores-wifi/usb"],
+  ["Brother TN815Y toner amarillo alto rendimiento 12000 paginas", "BROTHER", "impresion/consumibles/toner-laser"],
+  ["Seagate ST2000LM015 BarraCuda disco duro 2TB 2.5 SATA 5400RPM", "SEAGATE", "computo/almacenamiento/discos-duros/2-5-sata"],
+  ["WD Green SN350 WDS500G2G0C SSD 500GB M.2 2280 NVMe PCIe Gen3", "SANDISK", "computo/almacenamiento/ssd/m2-nvme"],
+  ["Hikvision DS-2CD3T86G2H-LISU camara bala IP 8MP", "HIKVISION", "seguridad/cctv/camaras-ip-poe/bullet"],
+  ["Forza FSI-3011RUL UPS 3000VA 2700W bastidor torre", "FORZA", "energia/no-breaks-ups/rack-torre"],
+  ["Manhattan 190329 mouse optico inalambrico USB", "MANHATTAN", "computo/perifericos/mouse/inalambricos"],
+  ["HPE ProLiant ML350 Gen11 servidor torre P75341-DM5", "HPE", "computo/servidores/torre"],
+  ["Panasonic KX-TGB310MEB telefono inalambrico LCD ambar", "PANASONIC", "telefonia/telefonos/inalambricos"],
+  ["CyberPower AVRG750LCD no break 760VA 450W interactivo LCD", "CYBERPOWER", "energia/no-breaks-ups/line-interactive"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
