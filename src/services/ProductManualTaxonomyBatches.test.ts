@@ -523,6 +523,16 @@ const researchedBatchCases = [
   ["TP-Link RE450 extensor de rango Wi-Fi AC1750 dual band", "TP LINK", "redes/extensores-wifi/dual-band"],
   ["DataShield UT-3000 no break 3000VA 2700W 8h recarga", "DATASHIELD", "energia/no-breaks-ups/doble-conversion/rack-torre/3000va"],
   ["Qian QMF-REF19-01 Monitor Office Mate 19 pulgadas 1440x900 75Hz", "QIAN", "computo/monitores/oficina/19-wxga"],
+  ["EZVIZ CS-EB3 camara IP Wi-Fi 2K bateria cero cables exterior", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/bateria-exterior"],
+  ["Provision ISR SH-4100A5S-2L DVR pentahibrido 4 canales 2MP H265", "PROVISION-ISR", "seguridad/cctv/dvr-nvr/xvr-pentahibrido"],
+  ["Uniarch IPC-T122-APF28-E camara IP turret 2MP PoE techo", "UNIARCH", "seguridad/cctv/camaras-ip-poe/turret/2mp"],
+  ["Vorago AU-303 cargador auto micro USB 2.4A negro", "VORAGO", "energia/cargadores-usb/auto-micro-usb"],
+  ["Perfect Choice PC-045274 mini mouse dual Bluetooth 2.4GHz USB-C recargable", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/multi-dispositivo"],
+  ["HPE Microsoft Windows Server 2025 Remote Desktop Services 5 User CAL", "HEWLETT PACKARD ENTERPRISE", "software/licencias/windows-server/cal-rds"],
+  ["Acteck TI747 Inspire Trek teclado inalambrico multidispositivo Bluetooth 5.1", "ACTECK", "computo/perifericos/teclados/inalambricos/multidispositivo"],
+  ["Brother M531 cinta etiqueta azul 12mm x 8m P-touch M", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-m"],
+  ["Kyocera TK-1262 toner negro 10000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera"],
+  ["Tenda N6P-8H NVR PoE 8 canales 4K UHD HDD 10TB", "TENDA", "seguridad/cctv/dvr-nvr/nvr-poe"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

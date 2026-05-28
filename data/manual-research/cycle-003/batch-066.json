@@ -1,0 +1,535 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b066-2026-05-28",
+  "cycle": 3,
+  "batch": 66,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1593nstsk8qob4n",
+      "research": {
+        "confidence": 0.95,
+        "name": "EZVIZ CS-EB3 camara IP Wi-Fi exterior 2K 3MP con bateria, vision nocturna color, sirena y estrobo",
+        "description": "Camara IP Wi-Fi EZVIZ CS-EB3 / CSEB3 para exterior, sin cables, con bateria recargable, resolucion 2K 3MP, deteccion humana PIR, vision nocturna color hasta 15m, IR 15m, sirena, estrobo, audio bidireccional, H.265/H.264 y microSD hasta 256GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria/2k-3mp-color-night-vision",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/ca/product/EB3-2K/44719",
+        "gallery": [
+          "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSEB3/CSEB3-g.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSEB3/CSEB3-l.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSEB3/CSEB3-AD-4-l.PNG"
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-EB3 / CSEB3",
+          "providerSku": "CSEB3",
+          "productType": "Outdoor battery Wi-Fi IP camera",
+          "resolution": "2304 x 1296, 2K 3MP",
+          "sensor": "1/2.8 inch 3MP progressive scan CMOS",
+          "lens": "2.8mm F2.0, 110 degree horizontal field of view",
+          "video": "H.265 / H.264, up to 15fps",
+          "wireless": "2.4GHz Wi-Fi 802.11b/g/n",
+          "nightVision": "Color night vision 15m and IR 15m",
+          "detection": "PIR and human shape detection",
+          "deterrence": "Active defense with siren, strobe and custom voice alerts",
+          "storage": "MicroSD up to 256GB and cloud storage",
+          "power": "5VDC 2A USB charging; battery capacity varies by region listing",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSEB3", "stock": 263, "price": 163.20, "currency": "USD", "stockStatus": "in_stock" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Syscom/Mexico listings report 7800mAh, IP66 and 210+ days; official EZVIZ EB3 page lists 5200mAh and about 120 days.",
+            "Provider brand appears as ElectroPrice/Syscom/EZVIZ; confirmed manufacturer is EZVIZ and model is CS-EB3."
+          ]
+        },
+        "measurements": { "dimensionsProvider": "104.76 x 62.80 x 82.80 mm", "weightRetail": "about 0.52 kg" },
+        "sourceRefs": [
+          { "title": "EZVIZ EB3 2K official page", "type": "manufacturer", "url": "https://www.ezviz.com/ca/product/EB3-2K/44719" },
+          { "title": "Syscom CSEB3 provider listing", "type": "provider_stock", "url": "https://www.syscom.mx/products/220830", "observedAt": "2026-05-28T00:00:00Z" },
+          { "title": "Intercompras EZVIZ CS-EB3", "type": "retailer", "url": "https://intercompras.com/p/camara-ip-bullet-ezviz-inalambrica-bateria-recargable-exterior-cs-eb3-348553" }
+        ]
+      }
+    },
+    {
+      "product_id": "15au9qqaaitxqbm",
+      "research": {
+        "confidence": 0.94,
+        "name": "Provision-ISR SH-4100A5S-2L(MM) DVR pentahibrido 4 canales 2MP + 2 IP, H.265, 1 SATA 8TB",
+        "description": "DVR pentahibrido Provision-ISR SH-4100A5S-2L(MM) con 4 canales analogicos BNC 2MP Lite para AHD/TVI/CVI/CVBS mas 2 canales IP por red, compresion H.265/H.264, salida HDMI/VGA 1080p, audio RCA, Ethernet 100Mbps y 1 bahia SATA hasta 8TB.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/xvr-pentahibrido",
+        "semanticCategoryPath": "seguridad/cctv/grabadores/dvr-hibrido/4-bnc-2-ip-2mp-lite",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://s3.fullalarms.cl/fullalarmas/catalog/products/datasheets/c11660.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GRDPVS890/GRDPVS890_full.jpg",
+          "https://wcctv.co.za/wp-content/uploads/2024/04/SH-4100A5S-2LMM.jpeg",
+          "https://provision-isr.com/wp-content/uploads/2024/02/Mini_Metal.png"
+        ],
+        "documents": [
+          { "label": "Provision-ISR SH-4100A5S-2L(MM) datasheet", "type": "datasheet", "url": "https://s3.fullalarms.cl/fullalarmas/catalog/products/datasheets/c11660.pdf" }
+        ],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "SH-4100A5S-2L(MM)",
+          "providerSku": "GRDPVS890",
+          "upc": "610840138513",
+          "productType": "Pentahybrid DVR/XVR",
+          "channels": "4 BNC analog channels plus 2 IP channels, or up to 6 IP-only mode",
+          "formats": "AHD, TVI, CVI, CVBS and IP, ONVIF on IP channels",
+          "compression": "H.265 HEVC and H.264",
+          "recording": "2MP Lite or 1MP analog, IP up to 2MP",
+          "outputs": "HDMI 1920 x 1080 and VGA mirrored",
+          "storage": "1 SATA bay up to 8TB",
+          "network": "100Mbps Ethernet, Provision Cam2 and Ossia VMS",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 12 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "COL", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GRDPVS890", "stock": 145, "price": 26.51, "currency": "USD", "branch": "GDL:16,HMO:12,D2A:10,CUE:9,TXA:8,VER:7,CLN:6,COL:6,DFA:6,OAX:5,ACX:5,TAM:4" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Exact SH-4100A5S-2L(MM) datasheets confirm HDD up to 8TB; newer A5N-V2 pages may show 6TB.",
+            "Provider price is USD while Mexico retailers often list MXN; keep CT snapshot for price and stock."
+          ]
+        },
+        "measurements": { "dimensions": "255 x 220 x 43 mm", "weight": "not published reliably" },
+        "sourceRefs": [
+          { "title": "Provision-ISR SH-4100A5S-2L(MM) datasheet", "type": "datasheet", "url": "https://s3.fullalarms.cl/fullalarmas/catalog/products/datasheets/c11660.pdf" },
+          { "title": "GlobalOffice Provision-ISR SH-4100A5S-2L(MM)", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/videovigilancia/dvr-provision-isr-sh-4100a5s-2lmm-dvr-pentahibrido/sh-4100a5s-2lmm" },
+          { "title": "CTOnline feed GRDPVS890 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "15v5t3prmj2ymmu",
+      "research": {
+        "confidence": 0.95,
+        "name": "Uniarch IPC-T122-APF28-E camara IP turret 2MP PoE, lente 2.8mm, IR 30m, microfono, IP67",
+        "description": "Camara IP turret Uniarch by Uniview IPC-T122-APF28-E de 2MP 1080p, lente fijo 2.8mm, IR inteligente 30m, microfono integrado, Ultra 265/H.265/H.264, WDR digital, ONVIF Profile S/T, alimentacion 12VDC o PoE 802.3af e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-2-8mm-ir30m-mic",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniarch.cn/res/202508/19/20250819_2002390_%E3%80%90Datasheet%E3%80%91Uniarch%20IPC-T122-APF28%2840%29%202MP%20Fixed%20IR%20Turret%20Network%20Camera%2020250811-EN%28Public%29_949123_575359_0.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMUNI240/CAMUNI240_full.jpg",
+          "https://cdn.acghar.com/public/200-200/files/D96D337CC1E5D00-IPC-T122-APF28-e1679219615184.jpg",
+          "https://bo.kontrolzone.com/FileUploads/produtos/cctv-ip/camaras/domes/uv-ipc-d122-pf28.png"
+        ],
+        "documents": [
+          { "label": "Uniarch IPC-T122-APF28 datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202508/19/20250819_2002390_%E3%80%90Datasheet%E3%80%91Uniarch%20IPC-T122-APF28%2840%29%202MP%20Fixed%20IR%20Turret%20Network%20Camera%2020250811-EN%28Public%29_949123_575359_0.pdf" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "IPC-T122-APF28-E",
+          "providerSku": "CAMUNI240",
+          "productType": "2MP PoE turret IP camera",
+          "sensor": "1/2.8 inch CMOS",
+          "resolution": "1920 x 1080 up to 25fps",
+          "lens": "Fixed 2.8mm F2.1 lens, about 106.7 degrees horizontal field of view",
+          "video": "Ultra 265, H.265 and H.264, dual stream",
+          "nightVision": "Smart IR up to 30m",
+          "audio": "Built-in microphone",
+          "network": "RJ45 10/100, ONVIF Profile S/T",
+          "power": "12VDC +/-25% or PoE IEEE 802.3af, max 3.5W",
+          "protection": "IP67",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 69 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 47 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 46 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 32 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 24 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMUNI240", "stock": 302, "price": 10.80, "currency": "USD", "branch": "GDL:69,PAC:47,CUE:46,MOR:32,CMT:30,MID:24,PUE:15,ACX:14,CUN:7,DFP:7,TAM:5,D2A:4" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider uses suffix -E; official sheet groups IPC-T122-APF28/40 without -E.",
+            "Retailers call it dome or turret; physical form and Uniarch sheet classify it as turret/eyeball."
+          ]
+        },
+        "measurements": { "dimensions": "118 mm diameter x 97 mm height", "weight": "0.25 kg" },
+        "sourceRefs": [
+          { "title": "Uniarch IPC-T122-APF28 datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202508/19/20250819_2002390_%E3%80%90Datasheet%E3%80%91Uniarch%20IPC-T122-APF28%2840%29%202MP%20Fixed%20IR%20Turret%20Network%20Camera%2020250811-EN%28Public%29_949123_575359_0.pdf" },
+          { "title": "Intercompras Uniarch IPC-T122-APF28", "type": "retailer", "url": "https://intercompras.com/p/camara-ip-turret-uniarch-mp-ip-lente-mm-ir-m-poe-dwdr-microfono-integrado-391677" },
+          { "title": "CTOnline feed CAMUNI240 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "15wnaoz04ajrj8q",
+      "research": {
+        "confidence": 0.93,
+        "name": "Vorago AU-303 cargador para auto USB 2.0 con cable micro USB 1m, 12-24V, 17W, negro",
+        "description": "Cargador para auto Vorago AU-303 negro con cable micro USB integrado de 1m y puerto USB adicional, entrada 12-24V, salida micro USB 5V 1A, salida USB 5V 2.4A, potencia maxima 17W y protecciones contra sobretension, corto circuito y sobrecorriente.",
+        "manualCategoryPath": "energia/cargadores-usb/auto-micro-usb",
+        "semanticCategoryPath": "energia/cargadores-automotrices/usb-micro-usb/12-24v-17w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/media/vorago/descargables/au-30366621618608420.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCVGO1940/ACCVGO1940_full.jpg",
+          "https://shop.pchconnect.com/storage/catalog/product/7502266677864-V-0.webp",
+          "https://shop.pchconnect.com/storage/catalog/product/gallery/7502266677864-V-1.webp"
+        ],
+        "documents": [
+          { "label": "Vorago AU-303 ficha tecnica", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/au-30366621618608420.pdf" },
+          { "label": "Vorago AU-303 manual", "type": "manual", "url": "https://voragolive.com/media/vorago/descargables/Manuales/manual-AU-303.pdf" }
+        ],
+        "specs": {
+          "brand": "Vorago",
+          "model": "AU-303",
+          "providerSku": "ACCVGO1940",
+          "ean": "7502266677864",
+          "productType": "Car USB charger with integrated Micro USB cable",
+          "input": "12-24VDC car lighter socket",
+          "output": "Micro USB 5V 1A plus USB 5V 2.4A",
+          "power": "17W max",
+          "cable": "Integrated 1m Micro USB cable",
+          "ports": "1 USB 2.0 port plus integrated cable",
+          "protection": "OVP, SCP and over-current protection",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCVGO1940", "stock": 44, "price": 1.18, "currency": "USD", "branch": "CLN:8,DFA:5,IRA:5,OBR:4,GDL:4,DFP:4,CMT:4,SLP:3,CHI:2,ZAC:2,DGO:1,LEO:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider text swaps amperage, while Vorago manual indicates USB 2.4A and Micro USB cable 1A.",
+            "Other live retailers show different stock; CT snapshot is retained as primary stock and price."
+          ]
+        },
+        "measurements": { "dimensions": "77 x 30 x 30 mm", "weight": "42 g" },
+        "sourceRefs": [
+          { "title": "Vorago AU-303 datasheet", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/au-30366621618608420.pdf" },
+          { "title": "Vorago AU-303 manual", "type": "manual", "url": "https://voragolive.com/media/vorago/descargables/Manuales/manual-AU-303.pdf" },
+          { "title": "CTOnline feed ACCVGO1940 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "15zabx9ibi33na0",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice Pixie PC-045274 mini mouse recargable dual 2.4GHz + Bluetooth, receptor USB/USB-C, negro",
+        "description": "Mini mouse recargable Perfect Choice Pixie PC-045274 color negro, con sensor optico, DPI 800/1200/1600, conexion dual 2.4GHz y Bluetooth, receptor dual USB/USB-C, alcance 10m, bateria 180mAh, carga USB-C, funcionamiento silencioso y correa sujetadora.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/multi-dispositivo",
+        "semanticCategoryPath": "computo/perifericos/mouse/mini-recargable-dual-2-4ghz-bluetooth",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mini-raton-recargable-con-conexion-dual-2-4-ghz-bluetooth-pixie-perfect-choice",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10440881",
+          "https://perfectchoice.me/cdn/shop/files/PC-045274_A01_24dcfa7e-473b-4bc1-a155-829caf933e90_800x.jpg?v=1760372992",
+          "https://perfectchoice.me/cdn/shop/files/Mini_Raton_Pixie_800x.jpg?v=1762798120"
+        ],
+        "documents": [
+          { "label": "Perfect Choice Pixie PC-045274 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-045274_PC-045281_PC-045298_FT_1.pdf?v=1761166608" }
+        ],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-045274",
+          "upc": "615604045274",
+          "productType": "Rechargeable mini wireless mouse",
+          "sensor": "Optical sensor, 800/1200/1600 DPI",
+          "connectivity": "2.4GHz wireless plus Bluetooth, dual USB/USB-C receiver",
+          "range": "10 m",
+          "battery": "180mAh rechargeable battery",
+          "charging": "5V 1A through USB-C",
+          "buttons": "4 buttons / 4D",
+          "compatibility": "Windows, Mac, iOS and Android",
+          "included": "Mouse, guide, charging cable, receiver and strap",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOUMST1880", "stock": 14, "price": 186.18, "currency": "MXN", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "MS-1618", "stock": 0, "price": 183.13, "currency": "MXN", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider stock diverges: CT has 14 units, CVA has 0 units.",
+            "Listings alternate between mouse and mini raton Pixie; PC-045274 identifies the same black unit."
+          ]
+        },
+        "measurements": { "dimensions": "5.3 x 8 x 2.5 cm", "weight": "33 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Pixie PC-045274 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mini-raton-recargable-con-conexion-dual-2-4-ghz-bluetooth-pixie-perfect-choice" },
+          { "title": "Perfect Choice PC-045274 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-045274_PC-045281_PC-045298_FT_1.pdf?v=1761166608" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "166b42m9mytwqm2",
+      "research": {
+        "confidence": 0.96,
+        "name": "HPE Microsoft Windows Server 2025 Remote Desktop Services 5 User CAL WW LTU P77120-B21",
+        "description": "Licencia HPE P77120-B21 Microsoft Windows Server 2025 Remote Desktop Services 5 User CAL WW LTU, paquete de 5 CAL de usuario para acceso RDS. Requiere licenciamiento base de Windows Server y CAL de Windows Server segun corresponda.",
+        "manualCategoryPath": "software/licencias/windows-server/cal-rds",
+        "semanticCategoryPath": "software/licencias/microsoft-windows-server-2025/rds-cal-5-user",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/software/operating-systems/windows-operating-systems/microsoft-windows-operating-systems/microsoft-windows-server-2025-remote-desktop-service-5-users-cal-ww-ltu/p/p77120-b21",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SOFHPE850/SOFHPE850_full.jpg",
+          "https://static01.galaxus.com/productimages/5/9/2/1/2/5/0/8/0/1/6/4/5/7/6/1/0/6/4/0197dd37-045a-7f02-b2b3-2d5aad6fea78_720.jpeg"
+        ],
+        "documents": [
+          { "label": "HPE Windows Server 2025 QuickSpecs", "type": "datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/Microsoft%20Windows%20Server%202025%20QuickSpecs-a00043497enw.pdf?contentDisposition=attachment&form=false&hf=regular&id=a00043497enw.pdf&isFutureVersion=true&isLinearized=false&preview=false&ver=5" }
+        ],
+        "specs": {
+          "brand": "Hewlett Packard Enterprise",
+          "model": "P77120-B21",
+          "providerSku": "SOFHPE850",
+          "ean": "4549821632473",
+          "upc": "190017781976",
+          "productType": "Microsoft Windows Server 2025 Remote Desktop Services User CAL",
+          "license": "LTU perpetual license",
+          "calType": "5 User CAL for Remote Desktop Services",
+          "region": "Worldwide",
+          "notes": "RDS CALs require Windows Server CALs in addition to the server license",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SOFHPE850", "stock": 1, "price": 1168.42, "currency": "USD", "branch": "D2A:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CT reports EAN 4549821632473 and UPC 190017781976; some retailers show EAN 0190017781976, equivalent to the UPC with leading zero.",
+            "Do not confuse P77120-B21 User CAL with P77121-B21 Device CAL."
+          ]
+        },
+        "measurements": { "dimensions": "not applicable as software", "weight": "not applicable as software" },
+        "sourceRefs": [
+          { "title": "HPE P77120-B21 official store", "type": "manufacturer", "url": "https://buy.hpe.com/us/en/software/operating-systems/windows-operating-systems/microsoft-windows-operating-systems/microsoft-windows-server-2025-remote-desktop-service-5-users-cal-ww-ltu/p/p77120-b21" },
+          { "title": "HPE Windows Server 2025 QuickSpecs", "type": "datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/Microsoft%20Windows%20Server%202025%20QuickSpecs-a00043497enw.pdf?contentDisposition=attachment&form=false&hf=regular&id=a00043497enw.pdf&isFutureVersion=true&isLinearized=false&preview=false&ver=5" },
+          { "title": "CTOnline feed SOFHPE850 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "16k8rzeer8alioc",
+      "research": {
+        "confidence": 0.94,
+        "name": "Acteck Inspire Trek TI747 teclado inalambrico multidispositivo Bluetooth 5.1 y 2.4GHz, 99 teclas, negro/gris",
+        "description": "Teclado inalambrico multidispositivo Acteck Inspire Trek TI747 AC-940108 de 99 teclas, layout espanol, teclas tipo tijera, perfil delgado, hasta 5 dispositivos, Bluetooth 5.1 y dongle RF 2.4GHz, bateria recargable 500mAh y cable USB-C a USB-A incluido.",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos/multidispositivo",
+        "semanticCategoryPath": "computo/perifericos/teclados/98-porciento/rf-2-4ghz-bluetooth-5-1",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/teclado-multidispositivo-inspire-trek-ti747-2-4-mhz-2-modos-bt-tamano-98-teclas-de-membrana-tipo-tijera-perfil-delgado-teclas-multimedia-recargable-elite-negro-gris",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TECACT260/TECACT260_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-940108_1_1.webp?v=1736179447&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-940108_2.webp?v=1736179447&width=1000"
+        ],
+        "documents": [
+          { "label": "Acteck TI747 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/TecladoInalmbricoMultidispositivos_TI747_EAN7506215940108/TecladoInalmbricoMultidispositivos_TI747_EAN7506215940108.pdf" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "TI747 / AC-940108",
+          "providerSku": "TECACT260",
+          "ean": "7506215940108",
+          "productType": "Multi-device wireless keyboard",
+          "layout": "99 keys, Spanish language, UV print",
+          "switchType": "Scissor-type membrane keys",
+          "connectivity": "Bluetooth 5.1 and 2.4GHz RF dongle",
+          "devices": "Up to 5 devices",
+          "range": "Up to 10 m",
+          "battery": "Rechargeable 500mAh lithium battery, about 2h charge and up to 70h use",
+          "included": "80cm USB-C to USB-A cable",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 46 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECACT260", "stock": 65, "price": 341.17, "currency": "MXN", "branch": "D2A:46,SLT:5,MID:5,GDL:3,ACA:2,LMO:1,MOR:1,VER:1,CMT:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Some Acteck copy says 2.4MHz; this is treated as 2.4GHz RF dongle.",
+            "Live retailer stock and price may differ from CT snapshot."
+          ]
+        },
+        "measurements": { "dimensions": "37.4 x 14 x 2.6 cm", "weight": "620 g", "packageDimensions": "41.5 x 15 x 2.8 cm" },
+        "sourceRefs": [
+          { "title": "Acteck Inspire Trek TI747 official page", "type": "manufacturer", "url": "https://acteck.com/products/teclado-multidispositivo-inspire-trek-ti747-2-4-mhz-2-modos-bt-tamano-98-teclas-de-membrana-tipo-tijera-perfil-delgado-teclas-multimedia-recargable-elite-negro-gris" },
+          { "title": "Acteck TI747 datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/TecladoInalmbricoMultidispositivos_TI747_EAN7506215940108/TecladoInalmbricoMultidispositivos_TI747_EAN7506215940108.pdf" },
+          { "title": "CTOnline feed TECACT260 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "16xipsno5ia3j90",
+      "research": {
+        "confidence": 0.93,
+        "name": "Brother M531 cinta P-touch no laminada negro sobre azul, 12mm x 8m",
+        "description": "Cinta Brother M531 / M-531 P-touch no laminada, impresion negra sobre fondo azul, ancho 12mm y largo 8m, adhesivo estandar para uso interior en superficies planas y secas, compatible con rotuladoras Brother P-touch de serie M como PT-M95.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/brother-m",
+        "semanticCategoryPath": "impresion/consumibles/etiquetas-rotuladoras/brother-m-12mm-negro-sobre-azul",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother-usa.com/products/m531",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARBRT520/CARBRT520_full.jpg",
+          "https://www.brother-usa.com/-/media/brother/product-catalog-media/images/2023/04/27/10/00/01-m531-mainimage.png?h=423&hash=AAB5A535791149424EDCF4567947D1CE"
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "M531 / M-531",
+          "providerSku": "CARBRT520",
+          "upc": "012502053149",
+          "productType": "P-touch non-laminated tape",
+          "color": "Black on blue",
+          "width": "12 mm / 0.47 in",
+          "length": "8 m / 26.2 ft",
+          "adhesive": "Standard adhesive for indoor flat dry surfaces",
+          "compatibility": "Brother P-touch M series including PT-100, PT-65, PT-70, PT-80, PT-85, PT-90 and PT-M95",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT520", "stock": 1, "price": 121.66, "currency": "MXN", "branch": "MAZ:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider says direct thermal; Brother publishes it as P-touch non-laminated tape, normally used in thermal-transfer cassette systems.",
+            "Do not confuse M531 non-laminated tape with TZe-531 laminated tape."
+          ]
+        },
+        "measurements": { "packageDimensionsRetail": "4.9 x 2.8 x 0.6 in", "packageWeightRetail": "0.1 lb" },
+        "sourceRefs": [
+          { "title": "Brother M531 official page", "type": "manufacturer", "url": "https://www.brother-usa.com/products/m531" },
+          { "title": "B&H Brother M531", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/746269-REG/Brother_M531_0_47_Black_on_Blue.html" },
+          { "title": "CTOnline feed CARBRT520 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "178fw9xd2524bfi",
+      "research": {
+        "confidence": 0.94,
+        "name": "Kyocera TK-1262 toner negro 1T0C150US0 para ECOSYS PA4000wx, rendimiento 10000 paginas",
+        "description": "Toner original Kyocera TK-1262 / 1T0C150US0 color negro para impresora Kyocera ECOSYS PA4000wx en region America, con rendimiento declarado de 10000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/kyocera",
+        "semanticCategoryPath": "impresion/consumibles/toner/kyocera-tk-1262-negro-10000-paginas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://dam.kyoceradocumentsolutions.com/content/dam/gdam_dc/dc_global/document/manual/product_086/ECOSYSPA4000wx_PTBR_202503.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TONKYC2350/TONKYC2350_full.jpg",
+          "https://cdn11.bigcommerce.com/s-muk18pjqrv/images/stencil/608x608/products/750864/4250724/1t0c150us0__28653.1752734686.jpg?c=1"
+        ],
+        "documents": [
+          { "label": "Kyocera ECOSYS PA4000wx guide", "type": "compatibility_guide", "url": "https://dam.kyoceradocumentsolutions.com/content/dam/gdam_dc/dc_global/document/manual/product_086/ECOSYSPA4000wx_PTBR_202503.pdf" }
+        ],
+        "specs": {
+          "brand": "Kyocera",
+          "model": "TK-1262 / 1T0C150US0",
+          "providerSku": "TONKYC2350",
+          "upc": "632983084571",
+          "productType": "OEM black laser toner",
+          "color": "Black",
+          "yield": "10000 pages",
+          "compatibility": "Kyocera ECOSYS PA4000wx, Americas region",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TONKYC2350", "stock": 24, "price": 97.78, "currency": "USD", "branch": "DFA:20,PUE:2,TPC:1,DFC:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Other regions use nearby TK-1260/TK-1264/TK-1265 codes; Americas guide lists TK-1262.",
+            "Retailer package weights vary from about 1.38 to 1.5 lb."
+          ]
+        },
+        "measurements": { "packageWeightRetail": "about 1.38 to 1.5 lb", "dimensions": "not published reliably" },
+        "sourceRefs": [
+          { "title": "Kyocera ECOSYS PA4000wx guide", "type": "manufacturer", "url": "https://dam.kyoceradocumentsolutions.com/content/dam/gdam_dc/dc_global/document/manual/product_086/ECOSYSPA4000wx_PTBR_202503.pdf" },
+          { "title": "SuperWarehouse Kyocera TK-1262", "type": "retailer", "url": "https://www.superwarehouse.com/kyocera-tk-1262-black-toner-cartridge-10-000-yield-1t0c150us0.html" },
+          { "title": "CTOnline feed TONKYC2350 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "179awcq852aqfhl",
+      "research": {
+        "confidence": 0.96,
+        "name": "Tenda N6P-8H NVR PoE 8 canales, salida 4K, H.265+, HDD hasta 10TB",
+        "description": "Grabador NVR PoE Tenda N6P-8H de 8 canales IP hasta 8MP, con 8 puertos PoE 10/100 802.3af/at, presupuesto PoE 70W, salida HDMI 4K y VGA, H.265+/H.265/H.264+/H.264, 1 bahia SATA hasta 10TB, cliente TDSEE, respaldo USB y alcance PoE hasta 250m.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe",
+        "semanticCategoryPath": "seguridad/cctv/grabadores-nvr/poe-8-canales-4k-h265-hdd-10tb",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tendacn.com/mx/product/specification/N6P-8H",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GRDTND010/GRDTND010_full.jpg",
+          "https://static.tenda.com.cn/tdeweb/UserFiles/Info/image/20220212/20220212114952_3296.jpg",
+          "https://static.tenda.com.cn/tdeweb/UserFiles/Info/image/20220212/20220212115009_9678.jpg"
+        ],
+        "documents": [
+          { "label": "Tenda N6P-8H datasheet", "type": "datasheet", "url": "https://www.tendacn.com/api/proxy-pdf?url=https%3A%2F%2Fstatic.tenda.com.cn%2Ftdeweb%2Fdownload%2FN6P-8H%2FN6P8HDatasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "Tenda",
+          "model": "N6P-8H",
+          "providerSku": "GRDTND010",
+          "ean": "6932849434934",
+          "upc": "885397274421",
+          "productType": "8-channel PoE NVR",
+          "channels": "8 IP channels, input resolution up to 8MP",
+          "bandwidth": "60Mbps incoming/outgoing bandwidth",
+          "outputs": "HDMI up to 3840 x 2160 at 30Hz, VGA up to 1920 x 1080 at 60Hz",
+          "compression": "H.265+, H.265, H.264+ and H.264",
+          "poe": "8 RJ45 10/100 PoE ports, IEEE 802.3af/at, 70W PoE budget",
+          "ports": "1 RJ45 LAN 10/100, 2 USB 2.0, RCA audio input/output",
+          "storage": "1 SATA 3.0 bay, HDD up to 10TB",
+          "features": "Plug and play, PoE up to 250m, 4kV lightning protection, TDSEE client",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GRDTND010", "stock": 9, "price": 72.22, "currency": "USD", "branch": "DFA:5,D2A:4" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Tenda official specs confirm model and features but do not publish EAN/UPC; EAN and UPC are validated via retailers.",
+            "HDD is not included; provider describes support up to 10TB."
+          ]
+        },
+        "measurements": { "dimensions": "284 x 207 x 43 mm", "weight": "780 g without HDD", "packageWeightRetail": "1.881 kg" },
+        "sourceRefs": [
+          { "title": "Tenda N6P-8H official specification", "type": "manufacturer", "url": "https://www.tendacn.com/mx/product/specification/N6P-8H" },
+          { "title": "Tenda N6P-8H datasheet", "type": "datasheet", "url": "https://www.tendacn.com/api/proxy-pdf?url=https%3A%2F%2Fstatic.tenda.com.cn%2Ftdeweb%2Fdownload%2FN6P-8H%2FN6P8HDatasheet.pdf" },
+          { "title": "CTOnline feed GRDTND010 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
