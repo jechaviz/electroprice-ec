@@ -483,6 +483,16 @@ const researchedBatchCases = [
   ["BRobotix 6000762 mouse inalambrico optico negro 1000 DPI", "BROBOTIX", "computo/perifericos/mouse/inalambricos"],
   ["Uniarch CAB-6-CCA cable UTP Cat6 100m CCA interior", "UNIARCH", "redes/cableado-estructurado/bobinas-utp/cat6"],
   ["Hikvision DS-3WR3N router WISP 2.4GHz 300Mbps 4 puertos", "HIKVISION", "redes/routers/wisp"],
+  ["Hikvision DS-KIS313-P kit videoportero hibrido TurboHD pantalla touch 7 pulgadas", "HIKVISION", "seguridad/control-acceso/videoporteros-hibridos/kits"],
+  ["Logitech Lift Vertical mouse ergonomico grafito Bluetooth Logi Bolt", "LOGITECH", "computo/perifericos/mouse/inalambricos/ergonomicos"],
+  ["ADATA SU630 ASU630SS-240GQ-R SSD 240GB 2.5 SATA 3D QLC", "ADATA", "computo/almacenamiento/ssd/2-5-sata"],
+  ["EC Line EC-LS-9620-USB lector codigo barras laser 1D USB", "EC LINE", "punto-de-venta/lectores-codigo-barras"],
+  ["BRobotix 6000298 candado Nano combinacion laptop 1.80 m", "BROBOTIX", "accesorios/seguridad-fisica/candados-laptop"],
+  ["BRobotix 764786 adaptador CCTV BNC macho a bornera", "BROBOTIX", "seguridad/cctv/accesorios-cableado/conectores-bnc"],
+  ["Easy Line Storm audifonos in-ear 3.5mm microfono desmontable", "EASY LINE", "audio/audifonos/alambricos-3-5mm"],
+  ["MSI GeForce RTX 5050 8G Ventus 2X OC GDDR6 Blackwell", "MSI OEM", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5050"],
+  ["Dahua S5PRO dashcam doble canal 4K 1080p Wi-Fi GPS", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-moviles/dashcam"],
+  ["VICA ALPHA 2K UPS online doble conversion rack torre 2000VA 2000W", "VICA", "energia/no-breaks-ups/doble-conversion/rack-torre"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
