@@ -132,6 +132,16 @@ const researchedBatchCases = [
   ["Autodesk AutoCAD LT 2025 057Q1-WW6525-L347", "AUTODESK", "software/cad-diseno"],
   ["Zoomy ZWF01 bebedero fuente para mascotas 1.5 L", "ZOOMY", "mascotas/bebederos-fuentes"],
   ["Dell Essential Backpack 15 ES1520P mochila laptop", "DELL", "computo/accesorios/mochilas-fundas"],
+  ["Microsoft Office Home 2024 EP2-06874 ESD", "MICROSOFT", "software/productividad-oficina"],
+  ["Scooter electrico Stylos M2 STSCM02B negro", "STYLOS", "movilidad/scooters-electricos"],
+  ["Hisense HS1000 barra de sonido 2.0 120W", "HISENSE", "audio/barras-sonido"],
+  ["Poly TC10 875K5AA touch controller video conferencia", "POLYCOM", "colaboracion/video-conferencia/controladores"],
+  ["Jabra Speak 510 MS 7510-109 speakerphone USB Bluetooth", "JABRA", "audio/conferencia-speakerphones"],
+  ["BenQ InstaShare Button TWY31 transmisor inalambrico", "BENQ", "colaboracion/presentacion-inalambrica"],
+  ["Scooter electrico Stylos M3 STSCM03O naranja", "STYLOS", "movilidad/scooters-electricos"],
+  ["Vorago BSP-320 mini barra de sonido Bluetooth RGB", "VORAGO", "audio/barras-sonido"],
+  ["TP-Link Tapo RV30 Max robot aspirador y trapeador", "TP-LINK", "hogar/electrodomesticos/aspiradoras-robot"],
+  ["Perfect Choice PC-085317 mochila escolar Brooklyn Flores", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

@@ -1,0 +1,411 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b026-2026-05-28",
+  "cycle": 2,
+  "batch": 26,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "fde8in3658yf2gq",
+      "research": {
+        "confidence": 0.86,
+        "name": "Microsoft Office Home 2024 English 1 User PC/Mac ESD",
+        "description": "Licencia Microsoft Office Home 2024 de compra unica para 1 usuario en PC o Mac, con Word, Excel, PowerPoint y OneNote, entrega ESD y activacion con cuenta Microsoft.",
+        "manualCategoryPath": "software/productividad-oficina",
+        "semanticCategoryPath": "software/productividad-oficina/office-home-2024-esd",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.microsoft.com/en-us/microsoft-365/p/office-home-2024/cfq7ttc0pqvj",
+        "specs": {
+          "brand": "MICROSOFT",
+          "model": "EP2-06874",
+          "providerSku": "SOFMSC1880",
+          "upc": "196388412518",
+          "productType": "Suite de productividad",
+          "edition": "Office Home 2024",
+          "licenseType": "Compra unica / ESD",
+          "users": "1 usuario",
+          "devices": "1 PC o Mac",
+          "apps": ["Word", "Excel", "PowerPoint", "OneNote"],
+          "platforms": ["Windows 11", "Windows 10", "macOS compatible vigente"],
+          "requirements": ["Cuenta Microsoft", "Conexion a internet para instalacion y activacion"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 109.91, "currency": "USD", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Microsoft Office Home 2024 official page", "type": "manufacturer", "url": "https://www.microsoft.com/en-us/microsoft-365/p/office-home-2024/cfq7ttc0pqvj" },
+          { "title": "Microsoft Office suites system requirements", "type": "manufacturer_support", "url": "https://support.microsoft.com/en-us/office/system-requirements/office-suites-for-individuals-and-families" },
+          { "title": "UPC item reference EP2-06874", "type": "identifier_reference", "url": "https://www.upcitemdb.com/upc/196388412518" },
+          { "title": "CTOnline feed SOFMSC1880 stock 2 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hlt55u3jmst5jab",
+      "research": {
+        "confidence": 0.9,
+        "name": "Scooter electrico Stylos M2 STSCM02B negro",
+        "description": "Scooter electrico Stylos M2 STSCM02B negro con motor brushless 250 W, bateria de litio 36 V 7.8 Ah, velocidad configurable hasta 30 km/h y carga maxima de 120 kg.",
+        "manualCategoryPath": "movilidad/scooters-electricos",
+        "semanticCategoryPath": "movilidad/scooters-electricos/plegable-250w",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STSCM02B",
+          "providerSku": "ACCSTY530",
+          "ean": "7503053078406",
+          "productType": "Scooter electrico",
+          "commercialLine": "Stylos M2",
+          "color": "Negro",
+          "motor": "36 V 250 W brushless",
+          "battery": "36 V 7.8 Ah litio",
+          "maxSpeed": "Hasta 30 km/h configurable",
+          "range": "Hasta 28 km",
+          "chargingTime": "4-5 horas",
+          "maxLoad": "120 kg",
+          "tires": "9.1 in",
+          "brakes": ["Electronico frontal", "Disco trasero"],
+          "lights": ["Delantera", "Trasera"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 3548.67, "currency": "MXN", "branch": "TRN/MID" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "unfoldedDimensions": "107 x 43 x 111 cm", "foldedDimensions": "107 x 14.5 x 48 cm", "maxLoad": "120 kg" },
+        "sourceRefs": [
+          { "title": "Exel STSCM02B technical sheet", "type": "distributor_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/XZCPAEAB003" },
+          { "title": "GlobalOffice STSCM02B EAN reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/electronica/scooter-stylos-stscm02b-scooter-electrico-stylos-m2/stscm02b" },
+          { "title": "PCEL Stylos scooter specs", "type": "reseller_spec", "url": "https://www.pcel.com/stylos?limit=25&order=DESC&page=1&sort=p.price" },
+          { "title": "CTOnline feed ACCSTY530 stock 2 TRN/MID", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ieo2xc733r0suqx",
+      "research": {
+        "confidence": 0.94,
+        "name": "Hisense HS1000 barra de sonido 2.0 120 W Bluetooth negra",
+        "description": "Barra de sonido Hisense HS1000 2.0 de 120 W con Dolby Audio, Dolby Digital Plus, DTS Virtual:X, Bluetooth 5.3, HDMI eARC, optico, AUX y USB.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/2-0-120w",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hisense.es/barras-de-sonido/serie-hs/hisense-hs1000-barra-de-sonido-2-0-120w-dolby-audio/",
+        "documents": [
+          { "label": "Hisense HS1000 ficha oficial", "type": "datasheet", "url": "https://www.hisense.es/wp-content/uploads/2025/10/HS1000_ES-Ficha-Barra-de-Sonido.pdf" }
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "HS1000",
+          "providerSku": "AUDHSE060",
+          "ean": "6942351422640",
+          "upc": "888143023564",
+          "productType": "Barra de sonido",
+          "channels": "2.0",
+          "powerRms": "120 W",
+          "audioFormats": ["Dolby Audio", "Dolby Digital Plus", "DTS Virtual:X"],
+          "connectivity": ["Bluetooth 5.3", "HDMI eARC", "Optico", "AUX", "USB"],
+          "mounting": "Montaje en pared",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 1486.3, "currency": "MXN", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "702 x 57 x 100 mm", "weight": "1.9158 kg", "packageDimensions": "837 x 146 x 112 mm" },
+        "sourceRefs": [
+          { "title": "Hisense HS1000 official product page", "type": "manufacturer", "url": "https://www.hisense.es/barras-de-sonido/serie-hs/hisense-hs1000-barra-de-sonido-2-0-120w-dolby-audio/" },
+          { "title": "Hisense HS1000 official datasheet", "type": "datasheet", "url": "https://www.hisense.es/wp-content/uploads/2025/10/HS1000_ES-Ficha-Barra-de-Sonido.pdf" },
+          { "title": "Compupuebla HS1000 UPC reference", "type": "reseller_spec", "url": "https://compupuebla.com/producto/bocinas-hisense-hs1000/" },
+          { "title": "CTOnline feed AUDHSE060 stock 1 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "j56rmc7f8ilz674",
+      "research": {
+        "confidence": 0.94,
+        "name": "Poly TC10 875K5AA controlador tactil para videoconferencia",
+        "description": "Controlador tactil Poly TC10 para salas de videoconferencia, pantalla touch de 10.1 pulgadas, resolucion 1280 x 800, Ethernet con PoE y uso como control de reuniones o reserva de sala.",
+        "manualCategoryPath": "colaboracion/video-conferencia/controladores",
+        "semanticCategoryPath": "colaboracion/video-conferencia/controladores/touch-controller",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/poly-tc10-touch-controller",
+        "documents": [
+          { "label": "HP Poly TC10 spec sheet", "type": "datasheet", "url": "https://pcb.inc.hp.com/dc/api/spec-sheet/us-en/2101771725/pdf/875K5AA.pdf" }
+        ],
+        "specs": {
+          "brand": "POLY",
+          "model": "TC10",
+          "partNumber": "875K5AA",
+          "providerSku": "ACCPOL1240",
+          "upcFromProvider": "197497663662",
+          "gtinObservedOnline": "1974976636626",
+          "productType": "Controlador tactil para videoconferencia",
+          "display": "10.1 in touch",
+          "resolution": "1280 x 800",
+          "connectivity": ["Ethernet", "PoE"],
+          "useCases": ["Control de reuniones", "Reserva de sala"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 16258.15, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "260.4 x 184.3 x 62.3 mm", "weight": "1.27 kg" },
+        "sourceRefs": [
+          { "title": "HP Poly TC10 product page", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/poly-tc10-touch-controller" },
+          { "title": "HP Poly TC10 official spec sheet", "type": "datasheet", "url": "https://pcb.inc.hp.com/dc/api/spec-sheet/us-en/2101771725/pdf/875K5AA.pdf" },
+          { "title": "Senetic Poly TC10 GTIN reference", "type": "reseller_spec", "url": "https://www.senetic.com/product/875K5AA" },
+          { "title": "CTOnline feed ACCPOL1240 stock 1 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "lhvlnxlkjc98bi0",
+      "research": {
+        "confidence": 0.91,
+        "name": "Jabra Speak 510 MS 7510-109 altavoz USB Bluetooth para conferencia",
+        "description": "Speakerphone portatil Jabra Speak 510 MS con USB y Bluetooth, microfono omnidireccional 360 grados, audio wideband/HD Voice, DSP y bateria recargable de hasta 15 horas.",
+        "manualCategoryPath": "audio/conferencia-speakerphones",
+        "semanticCategoryPath": "audio/conferencia-speakerphones/usb-bluetooth",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510/buy?sku=7510-109",
+        "documents": [
+          { "label": "Jabra Speak 510 datasheet", "type": "datasheet", "url": "https://www.jabra.com/-/media/Files/Products/jabra-speak510/Jabra-Speak-510-Datasheet.pdf?la=en" }
+        ],
+        "specs": {
+          "brand": "Jabra",
+          "model": "7510-109",
+          "providerSku": "ACCJAB230",
+          "ean": "5706991014839",
+          "upc": "706487013310",
+          "productType": "Speakerphone para conferencia",
+          "series": "Jabra Speak 510 MS",
+          "connectivity": ["USB", "Bluetooth"],
+          "microphone": "Omnidireccional 360 grados",
+          "batteryLife": "Hasta 15 horas",
+          "audio": ["Wideband audio", "HD Voice", "DSP"],
+          "certification": "Optimizado para Microsoft Skype for Business",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 140.5, "currency": "USD", "branch": "SLP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "120 x 120 x 33 mm", "weight": "195 g" },
+        "sourceRefs": [
+          { "title": "Jabra Speak 510 official SKU page", "type": "manufacturer", "url": "https://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-510/buy?sku=7510-109" },
+          { "title": "Jabra Speak 510 support page", "type": "manufacturer_support", "url": "https://www.jabra.com/supportpages/jabra-speak-510" },
+          { "title": "Jabra Speak 510 datasheet", "type": "datasheet", "url": "https://www.jabra.com/-/media/Files/Products/jabra-speak510/Jabra-Speak-510-Datasheet.pdf?la=en" },
+          { "title": "CCL Jabra 7510-109 EAN UPC reference", "type": "reseller_spec", "url": "https://www.cclonline.com/7510-109-jabra-speak-510-ms-speakerphone/" },
+          { "title": "CTOnline feed ACCJAB230 stock 1 SLP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "r86diunkbkwiq6b",
+      "research": {
+        "confidence": 0.92,
+        "name": "BenQ InstaShare Button TWY31 transmisor inalambrico para BenQ Board",
+        "description": "Transmisor inalambrico BenQ InstaShare Button TWY31 para compartir pantalla en BenQ Board, con salida hasta 4K a 30 Hz y conectores HDMI y USB-A.",
+        "manualCategoryPath": "colaboracion/presentacion-inalambrica",
+        "semanticCategoryPath": "colaboracion/presentacion-inalambrica/benq-board-4k30",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.benq.com/en-us/business/ifp/twy31-instashare-button.html",
+        "specs": {
+          "brand": "BENQ",
+          "model": "TWY31",
+          "partNumber": "5A.F7V28.BP2",
+          "providerSku": "ACCBNQ810",
+          "eanFromProvider": "6972266336466",
+          "upc": "840046045999",
+          "productType": "Transmisor de presentacion inalambrica",
+          "series": "InstaShare Button",
+          "maxOutput": "4K 30 Hz",
+          "connectors": ["HDMI", "USB-A"],
+          "compatibility": "BenQ Board / pantallas interactivas compatibles",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 14463.3, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "BenQ TWY31 official product page", "type": "manufacturer", "url": "https://www.benq.com/en-us/business/ifp/twy31-instashare-button.html" },
+          { "title": "BenQ TWY31 official specifications", "type": "manufacturer", "url": "https://www.benq.com/en-us/business/ifp/twy31-instashare-button/specifications.html" },
+          { "title": "B&H BenQ 5A.F7V28.BP2 UPC reference", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1817012-REG/benq_5a_f7v28_bp2_instashare_button.html" },
+          { "title": "CTOnline feed ACCBNQ810 stock 1 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "rnpt8z5999c47nc",
+      "research": {
+        "confidence": 0.82,
+        "name": "Scooter electrico Stylos M3 STSCM03O naranja",
+        "description": "Scooter electrico Stylos M3 STSCM03O color naranja/negro con motor brushless 350 W, bateria de litio 36 V, velocidad maxima reportada entre 25 y 30 km/h, rango hasta 25 km y carga maxima de 120 kg.",
+        "manualCategoryPath": "movilidad/scooters-electricos",
+        "semanticCategoryPath": "movilidad/scooters-electricos/plegable-350w",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STSCM03O",
+          "providerSku": "ACCSTY540",
+          "ean": "7503053078444",
+          "productType": "Scooter electrico",
+          "commercialLine": "Stylos M3",
+          "color": "Naranja / negro",
+          "motor": "350 W brushless",
+          "battery": "36 V 6 Ah litio segun C3; 36 V 7.8 Ah reportado por otra ficha retail",
+          "maxSpeed": "25-30 km/h segun fuente",
+          "range": "Hasta 25 km",
+          "maxLoad": "120 kg",
+          "brakes": ["Tambor delantero", "Tambor trasero"],
+          "lights": ["Delantera", "Trasera", "Freno/stop"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 4567.78, "currency": "MXN", "branch": "IRA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "maxLoad": "120 kg" },
+        "sourceRefs": [
+          { "title": "Compupuebla STSCM03O SKU EAN reference", "type": "reseller_spec", "url": "https://compupuebla.com/producto/scooter-stylos-stscm03o/" },
+          { "title": "GlobalOffice STSCM03O commercial reference", "type": "reseller_spec", "url": "https://www.globaloffice.mx/app/detalle/producto/accesorios/scooter-stylos-m3hasta-30km-x-hora-350wmax-120/stscm03o" },
+          { "title": "C3 Mayorista Stylos M3 specs", "type": "distributor_spec", "url": "https://c3mayorista.com/inicio/4367-scooter-electrico-stylos-m3-azul.html" },
+          { "title": "PCEL Stylos scooter specs", "type": "reseller_spec", "url": "https://www.pcel.com/stylos?limit=25&order=DESC&page=1&sort=p.price" },
+          { "title": "CTOnline feed ACCSTY540 stock 1 IRA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "u0b07e394o4efmn",
+      "research": {
+        "confidence": 0.95,
+        "name": "Vorago BSP-320 mini barra de sonido Bluetooth 5Wx2 RGB negra",
+        "description": "Mini barra de sonido Vorago BSP-320 con Bluetooth, entrada AUX 3.5 mm, USB, Micro SD, iluminacion RGB/rainbow, bateria 1200 mAh y potencia 5 W x 2.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/mini-bluetooth-rgb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/barra-de-sonido-vorago-bsp-320-iluminacion-rainbow-control-de-volumen-inalambrica-bluetooh-3-5mm-usb.html",
+        "documents": [
+          { "label": "Vorago BSP-320 ficha oficial", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/bsp-32017311724959846.pdf" }
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "BSP-320",
+          "providerSku": "BOCVGO2000",
+          "ean": "7503049354125",
+          "productType": "Mini barra de sonido Bluetooth",
+          "power": "5 W x 2",
+          "connectivity": ["Bluetooth", "AUX 3.5 mm", "USB", "Micro SD"],
+          "battery": "3.7 V 1200 mAh",
+          "input": "5 Vcc 2 A",
+          "frequencyResponse": "60 Hz - 20 kHz",
+          "sensitivity": ">=75 dB",
+          "impedance": "4 ohm",
+          "thd": "0.2%",
+          "lighting": "RGB/rainbow",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CDV", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 11.39, "currency": "USD", "branch": "CDV" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "70 x 440 x 78 mm", "weight": "0.755 kg", "packageDimensions": "453 x 92 x 80 mm", "packageWeight": "894 g" },
+        "sourceRefs": [
+          { "title": "Vorago BSP-320 official product page", "type": "manufacturer", "url": "https://voragolive.com/barra-de-sonido-vorago-bsp-320-iluminacion-rainbow-control-de-volumen-inalambrica-bluetooh-3-5mm-usb.html" },
+          { "title": "Vorago BSP-320 official datasheet", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/bsp-32017311724959846.pdf" },
+          { "title": "Exel Vorago BSP-320 EAN reference", "type": "distributor_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/VOCBOCAB071" },
+          { "title": "CTOnline feed BOCVGO2000 stock 1 CDV", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "vze9cwvdgj9v84h",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Tapo RV30 Max robot aspirador y trapeador 5300Pa",
+        "description": "Robot aspirador y trapeador TP-Link Tapo RV30 Max con succion 5300 Pa, navegacion LiDAR + giroscopio, mapeo multi-piso, limpieza por zonas, tanque de polvo 300 ml y tanque de agua 300 ml.",
+        "manualCategoryPath": "hogar/electrodomesticos/aspiradoras-robot",
+        "semanticCategoryPath": "hogar/electrodomesticos/aspiradoras-robot/aspirador-trapeador-lidar",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/smart-home/robot-vacuum/tapo-rv30-max/",
+        "documents": [
+          { "label": "TP-Link Tapo RV30 Max datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202408/20240820/Tapo%20RV30%20Max%201.0_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TAPO RV30 MAX",
+          "providerSku": "ACCTPL1230",
+          "alternateProviderSku": "SH-59",
+          "upcObservedOnline": "810142822800",
+          "productType": "Robot aspirador y trapeador",
+          "suctionPower": "5300 Pa",
+          "navigation": "LiDAR + giroscopio",
+          "mapping": ["Mapa de alta precision", "Mapas multi-piso", "Limpieza por zonas", "Paredes virtuales", "No-go zones"],
+          "dustbinCapacity": "300 ml",
+          "waterTankCapacity": "300 ml",
+          "filter": "HEPA H11",
+          "suctionLevels": "5",
+          "waterLevels": "3",
+          "noise": "52 dB modo silencioso / 55 dB modo estandar",
+          "battery": "2600 mAh",
+          "runtime": "Hasta 150 min modo silencioso",
+          "connectivity": ["Wi-Fi 2.4 GHz", "Bluetooth 4.2 para onboarding"],
+          "voiceAssistants": ["Google Home", "Amazon Alexa"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 1, "price": 278.41, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 273.13, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "330 mm diameter x 100 mm", "retailPackageDimensions": "16 x 34 x 43 cm", "retailPackageWeight": "4.92 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico Tapo RV30 Max", "type": "manufacturer", "url": "https://www.tp-link.com/mx/smart-home/robot-vacuum/tapo-rv30-max/" },
+          { "title": "TP-Link Tapo RV30 Max official datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202408/20240820/Tapo%20RV30%20Max%201.0_Datasheet.pdf" },
+          { "title": "GlobalOffice CT ACCTPL1230 UPC reference", "type": "reseller_spec", "url": "https://www.globaloffice.com.mx/app/detalle/producto/smart-home/robot-vacuums-tp-link-tapo-rv30-max-robot-aspirado/tapo-rv30-max" },
+          { "title": "GlobalOffice CVA SH-59 reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/tp-link/aspiradoras-tp-link-tapo-rv30-max-robot-aspirador-y-trapeado/tapo-rv30-max" },
+          { "title": "Compupuebla Tapo RV30 Max retail dimensions", "type": "reseller_spec", "url": "https://compupuebla.com/producto/aspiradoras-tp-link-tapo-rv30-max/" },
+          { "title": "CTOnline/CVA feed ACCTPL1230 and SH-59 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "x71oipce0nrmv12",
+      "research": {
+        "confidence": 0.93,
+        "name": "Perfect Choice PC-085317 mochila escolar infantil Brooklyn Flores",
+        "description": "Mochila escolar infantil Perfect Choice PC-085317 Brooklyn Flores con multiples compartimentos, material 100% poliester, tirantes acolchados, bolsillo delantero, asa de transporte y correas ajustables.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochila-escolar-infantil",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mochila-escolar-infantil-multiples-compartimentos-brooklyn-flores-perfect-choice",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085317",
+          "providerSku": "MALGEN4930",
+          "upc": "615604085317",
+          "productType": "Mochila escolar infantil",
+          "collection": "Brooklyn Flores",
+          "material": "100% poliester",
+          "color": "Multicolor / diseno floral",
+          "features": ["Multiples compartimentos", "Tirantes acolchados", "Bolsillo delantero", "Cierres con cremallera", "Asa de transporte", "Correas ajustables"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 430.35, "currency": "MXN", "branch": "CUN/DFT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "44 x 30.5 x 12 cm", "weight": "550 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-085317 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mochila-escolar-infantil-multiples-compartimentos-brooklyn-flores-perfect-choice" },
+          { "title": "GlobalOffice PC-085317 UPC reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-computacionales/mochila-escolar-para-ninos-brooklyn-flores-pc-08/pc-085317" },
+          { "title": "CTOnline feed MALGEN4930 stock 3 CUN/DFT", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
