@@ -1,0 +1,524 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b059-2026-05-28",
+  "cycle": 3,
+  "batch": 59,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0skg8fuhi4w7fk3",
+      "research": {
+        "confidence": 0.93,
+        "name": "Silimex SiliTek pasta termica de silicon 28 g para CPU y electronica",
+        "description": "Pasta termica Silimex SiliTek formulada a base de silicon para disipar calor en procesadores, disipadores y elementos electronicos de potencia como diodos, rectificadores y amplificadores. Presentacion de 28 g, aislante electrico y apariencia de pasta.",
+        "manualCategoryPath": "computo/componentes/pasta-termica",
+        "semanticCategoryPath": "computo/componentes/pasta-termica/silicon-28g-cpu-electronica",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://silimex.com.mx/producto/silitek-28-g/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=6775",
+          "https://silimex.com.mx/wp-content/uploads/2022/11/web-silimex-silitek-28-g-1-600x600.jpg",
+          "https://media.digitalife.com.mx/products/silitek/silitek-01-md.webp"
+        ],
+        "specs": {
+          "brand": "Silimex",
+          "model": "SiliTek 28 g / SILITEK 28.33GRS",
+          "providerSku": "CN-293",
+          "productType": "Silicone thermal grease",
+          "presentation": "28 g tube",
+          "uses": "CPUs, heatsinks, diodes, rectifiers, amplifiers and power electronics",
+          "appearance": "White thermal paste",
+          "density": "1.4 g/ml reseller",
+          "thermalConductivity": "0.7 to 0.9 W/mK reseller",
+          "waterSolubility": "Insoluble",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CN-293", "stock": 13, "price": 63.63, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed usa SILITEK 28.33GRS; fabricante y resellers publican presentacion 28 g.",
+            "La conductividad termica proviene de reseller, no de la pagina oficial visible."
+          ]
+        },
+        "measurements": { "weight": "28 g", "dimensions": "Not published" },
+        "sourceRefs": [
+          { "title": "Silimex SiliTek 28 g official page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/silitek-28-g/" },
+          { "title": "Digitalife Silimex SiliTek", "type": "reseller", "url": "https://www.digitalife.com.mx/productos/silitek/pasta-termica-silimex-silitek-para-cpu-28-gramos" },
+          { "title": "CVA feed CN-293 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0slf121zdcdfo83",
+      "research": {
+        "confidence": 0.97,
+        "name": "Kensington SD1650P dock portatil USB-C 4K con Power Delivery pass-through 100W",
+        "description": "Docking station portatil Kensington SD1650P / K34020WW para USB-C Alt Mode, con Power Delivery pass-through de hasta 100W, salida HDMI hasta 4K a 30Hz o VGA FHD, Ethernet Gigabit, USB-A, USB-C y cable USB-C integrado. Compatible con Windows, macOS, ChromeOS, iPadOS, Android y Samsung DeX.",
+        "manualCategoryPath": "computo/accesorios/docks-hubs/usb-c",
+        "semanticCategoryPath": "computo/accesorios/docks-hubs/usb-c/sd1650p-4k-pd-100w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/es-cl/p/productos/conectividad/hubs-y-adaptadores-usb/docking-station-port%C3%A1til-con-usb-c-individual-para-4k-sd1650p-con-100w-de-pass-through-power/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCKNS1930/ACCKNS1930_full.jpg",
+          "https://media.accobrands.com/media/560-560/481845.jpg",
+          "https://media.accobrands.com/media/560-560/481843.jpg"
+        ],
+        "documents": [
+          { "label": "Kensington SD1650P datasheet", "type": "datasheet", "url": "https://accobrands.cl/wp-content/uploads/2025/10/K34020WW_ES-Docking-Station-SD1650-USB-C-4K.pdf" }
+        ],
+        "specs": {
+          "brand": "Kensington",
+          "model": "SD1650P / K34020WW",
+          "providerSku": "ACCKNS1930",
+          "upc": "085896340201",
+          "productType": "Portable USB-C docking station",
+          "hostInterface": "USB-C Alt Mode",
+          "powerDelivery": "100W USB-C PD pass-through, power adapter not included",
+          "video": "HDMI up to 4K 30Hz or VGA up to FHD 60Hz, single monitor",
+          "ports": "2 USB-A 3.2 Gen1, 1 USB-C 3.2 Gen1, RJ45 Gigabit, HDMI, VGA",
+          "compatibility": "Windows, macOS, ChromeOS, iPadOS, Android, Samsung DeX",
+          "cable": "Integrated 27.9 cm USB-C cable",
+          "warranty": "3 years",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCKNS1930", "stock": 1, "price": 1111.11, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Pagina Kensington menciona HDMI 2.0, pero PDF tecnico lista HDMI 1.4; ambas fuentes mantienen maximo 4K a 30Hz."
+          ]
+        },
+        "measurements": { "dimensions": "127 x 54 x 16 mm", "weight": "80 g +/-5 g", "packageDimensions": "181 x 128 x 28 mm", "packageWeight": "0.16 kg" },
+        "sourceRefs": [
+          { "title": "Kensington SD1650P official page", "type": "manufacturer", "url": "https://www.kensington.com/es-cl/p/productos/conectividad/hubs-y-adaptadores-usb/docking-station-port%C3%A1til-con-usb-c-individual-para-4k-sd1650p-con-100w-de-pass-through-power/" },
+          { "title": "Kensington SD1650P datasheet", "type": "datasheet", "url": "https://accobrands.cl/wp-content/uploads/2025/10/K34020WW_ES-Docking-Station-SD1650-USB-C-4K.pdf" },
+          { "title": "CTOnline feed ACCKNS1930 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0sry6uw6puhyjus",
+      "research": {
+        "confidence": 0.92,
+        "name": "BRobotix 6006658 cargador de pared 18W dual USB-A y USB-C negro",
+        "description": "Cargador de pared BRobotix 6006658 color negro, compacto y portatil, con un puerto USB-A V3.0 y un puerto USB-C. Entrada universal 100-240 Vca, compatible con cables USB-A y USB-C, no incluye cables.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-dual-usb-a-usb-c",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-dual-usb-a-usb-c/18w-negro",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10477218",
+          "https://www.unicom.mx/ecommerce/uploads/ACBROB6006658.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-BROBOTIX-6006658-1441a6.jpg"
+        ],
+        "documents": [
+          { "label": "BRobotix 6006658 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6006658_ft.pdf" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "6006658",
+          "providerSku": "AC-13445",
+          "ctMirrorSku": "ACCRBT8140",
+          "ean": "7500896006658",
+          "productType": "Wall charger",
+          "ports": "1 USB-A V3.0, 1 USB-C",
+          "input": "100-240 Vca, 50-60Hz, 0.6A",
+          "outputListed": "5 Vcc 2.1A",
+          "powerMarketing": "18W fast charge",
+          "cablesIncluded": false,
+          "color": "Black",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT8140", "stock": 63, "price": 5.97, "currency": "USD", "branch": "" },
+            { "providerId": "cva", "providerSku": "AC-13445", "stock": 0, "price": 5.83, "currency": "USD", "branch": "" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Se comercializa como 18W, pero la salida visible 5V 2.1A equivale a 10.5W; faltan perfiles QC/PD publicados para justificar 18W.",
+            "Ficha DataComponents indica 6.5 cm de largo; feed y resellers muestran 6.8 cm."
+          ]
+        },
+        "measurements": { "dimensions": "6.8 x 4.3 x 2.5 cm", "weight": "61.5 g", "packageDimensions": "6.8 x 5 x 3 cm" },
+        "sourceRefs": [
+          { "title": "BRobotix 6006658 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6006658_ft.pdf" },
+          { "title": "Cyberpuerta BRobotix 6006658", "type": "reseller", "url": "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/BRobotix-Cargador-de-Pared-6006658-18W-5V-1-x-USB-A-1-x-USB-C.html" },
+          { "title": "CVA AC-13445 and CT mirror ACCRBT8140 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0su4t3o07wngnp2",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother P-touch EDGE PT-E560BTVP rotuladora industrial Bluetooth USB-C 24mm con bateria y maletin",
+        "description": "Rotuladora industrial portatil Brother P-touch EDGE PT-E560BTVP con Bluetooth, USB-C, teclado QWERTY, pantalla LCD retroiluminada y cortador automatico full/half cut. Imprime etiquetas laminadas y tubos termocontraibles de 3.5 a 24 mm, incluye bateria Li-ion, cable USB-C, cinta, regla patch panel, correa y maletin rigido.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/rotuladores-p-touch",
+        "semanticCategoryPath": "impresion/impresoras/etiquetas/rotuladores-p-touch/industrial-24mm-bluetooth-usbc",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://brothermobilesolutions.com/products/printers/p-touch/edge/pte560btvp/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ROTBRT200/ROTBRT200_full.jpg",
+          "https://d3clgxd6dhj3d0.cloudfront.net/wp-content/uploads/2024/05/PtouchEdge-560-front-drop-1000X1000px.png",
+          "https://d3clgxd6dhj3d0.cloudfront.net/wp-content/uploads/2024/05/PtouchEdge-560-RIGHT-1000X1000px.png"
+        ],
+        "documents": [
+          { "label": "Brother PT-E560BTVP datasheet", "type": "datasheet", "url": "https://www.brother.eu/-/media/product-downloads/devices/p-touch/pte/pte560btvp/pt-e560btvp_datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "PT-E560BTVP / PTE560BTVP",
+          "providerSku": "ROTBRT200",
+          "upc": "012502677994",
+          "productType": "Industrial portable label maker",
+          "printTechnology": "Laminating thermal transfer",
+          "tapeWidths": "3.5, 6, 9, 12, 18 and 24 mm",
+          "resolution": "180 dpi",
+          "printSpeed": "30 mm/s with USB-PD adapter, 20 mm/s with battery",
+          "connectivity": "Bluetooth Classic, USB-C",
+          "software": "Brother Pro Label Tool app, P-touch Editor",
+          "display": "Backlit LCD",
+          "keyboard": "QWERTY",
+          "cutter": "Automatic full and half cutter",
+          "battery": "Rechargeable Li-ion battery",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROTBRT200", "stock": 14, "price": 3792.39, "currency": "MXN", "branch": "GDL,D2A,CMT" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El proveedor resume velocidad 20 mm/s; ficha oficial aclara hasta 30 mm/s con adaptador USB-PD y 20 mm/s con bateria.",
+            "Algunos listados externos dicen termica directa; Brother especifica transferencia termica laminada."
+          ]
+        },
+        "measurements": { "dimensions": "132 x 244 x 80 mm", "weight": "1.05 to 1.10 kg without tape/battery depending region" },
+        "sourceRefs": [
+          { "title": "Brother Mobile Solutions PT-E560BTVP official page", "type": "manufacturer", "url": "https://brothermobilesolutions.com/products/printers/p-touch/edge/pte560btvp/" },
+          { "title": "Brother PT-E560BTVP datasheet", "type": "datasheet", "url": "https://www.brother.eu/-/media/product-downloads/devices/p-touch/pte/pte560btvp/pt-e560btvp_datasheet.pdf" },
+          { "title": "CTOnline feed ROTBRT200 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0swjh2avw3ry1ra",
+      "research": {
+        "confidence": 0.96,
+        "name": "TCL 50Q5K Smart TV 50 pulgadas 4K UHD HDR Google TV QLED 60Hz",
+        "description": "Televisor TCL 50Q5K de 50 pulgadas con resolucion 4K UHD 3840 x 2160, Google TV, HDR10, HLG, panel HVA con retroiluminacion DLED, Wi-Fi 5, Bluetooth 5.2, Chromecast integrado, MEMC, audio 2.0 de 20W y montaje VESA 200 x 200 mm.",
+        "manualCategoryPath": "video/televisores/qled-google-tv",
+        "semanticCategoryPath": "video/televisores/qled-google-tv/50-4k-uhd-hdr-60hz",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tcl.com/mx/es/tvs/q5k",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/PANTCL080/PANTCL080_full.jpg",
+          "https://aws-obg-image-lb-4.tcl.com/content/dam/brandsite/product/tv/p/p6k/id-new/50/1.png?t=1741686930858&w=800",
+          "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/product/tv/p/p6k/id-new/50/2.jpg?t=1741686931366&w=800"
+        ],
+        "specs": {
+          "brand": "TCL",
+          "model": "50Q5K",
+          "providerSku": "PANTCL080",
+          "upc": "846042073134",
+          "productType": "Smart TV",
+          "screenSize": "50 in",
+          "resolution": "3840 x 2160",
+          "refreshRate": "60 Hz",
+          "operatingSystem": "Google TV",
+          "hdr": "HDR10, HLG",
+          "panel": "HVA LCD with DLED backlight, marketed as QLED",
+          "brightness": "260 nits typical",
+          "wireless": "Wi-Fi 5, Bluetooth 5.2",
+          "audio": "2 x 10 W",
+          "memoryStorage": "2GB RAM + 16GB storage",
+          "mount": "VESA 200 x 200 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 93 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "PANTCL080", "stock": 97, "price": 5605.03, "currency": "MXN", "branch": "D2A,MOR,DFA" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Marketing/listados lo llaman QLED; especificacion oficial del modulo reporta pantalla LCD con retroiluminacion DLED.",
+            "La pagina oficial puede abrir en otro tamano, pero selector/API confirman modelo 50Q5K y UPC 0846042073134."
+          ]
+        },
+        "measurements": { "dimensionsWithStand": "1111 x 684 x 254 mm", "dimensionsWithoutStand": "1111 x 644 x 72 mm", "weightWithStand": "7.3 kg", "weightWithoutStand": "7.2 kg", "packageDimensions": "1235 x 115 x 775 mm", "packageWeight": "10.5 kg" },
+        "sourceRefs": [
+          { "title": "TCL Mexico Q5K official page", "type": "manufacturer", "url": "https://www.tcl.com/mx/es/tvs/q5k" },
+          { "title": "TCL 50Q5K product specification JSON", "type": "manufacturer_data", "url": "https://www.tcl.com/content/brandsite/mx/es/tvs/q5k/jcr:content/root/container/container/container/subnav_menus/specifications1/product_spec.L2NvbnRlbnQvYnJhbmRzaXRlLXByb2R1Y3QvbXgvZXMvdHZzL3E1ay81MHE1aw==.json" },
+          { "title": "CTOnline feed PANTCL080 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0sx8m293gbxi9d4",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 153218 cable DisplayPort macho a HDMI macho 4K 60Hz 3 m negro",
+        "description": "Cable Manhattan 153218 DisplayPort 1.2 macho a HDMI macho de 3 m, color negro, para conectar una fuente DisplayPort a pantalla HDMI. Soporta resolucion 4K a 60Hz, audio HD, HDCP, submuestreo 4:4:4, contactos banados en oro y conector DisplayPort con seguro. No es bidireccional.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport-hdmi",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport-hdmi/3m-4k60-macho-macho",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-displayport-a-hdmi-4kat60hz-153218",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10354073",
+          "https://manhattanproducts.mx/cdn/shop/files/phpThumb_a98e8c27-39db-4f6f-b214-1d167128f5e2.jpg?v=1779922956",
+          "https://manhattanproducts.mx/cdn/shop/files/phpThumb_7f27412a-e48c-4ad7-becc-d64591a9f226.jpg?v=1779922956"
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "153218",
+          "providerSku": "CB-2642",
+          "ctMirrorSku": "ACCITL5840",
+          "upc": "766623153218",
+          "productType": "DisplayPort to HDMI cable",
+          "connectors": "DisplayPort 1.2 male 20-pin with latch to HDMI male 19-pin",
+          "length": "3 m",
+          "resolution": "Up to 3840 x 2160 at 60 Hz",
+          "audio": "High-definition audio including SACD, DVD-Audio, DTS-HD Master Audio and Dolby TrueHD",
+          "compliance": "HDCP, FCC, CE, RoHS",
+          "direction": "DisplayPort source to HDMI display only, not bidirectional",
+          "contacts": "Gold-plated",
+          "warranty": "3 years",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCITL5840", "stock": 3, "price": 17.29, "currency": "USD", "branch": "" },
+            { "providerId": "cva", "providerSku": "CB-2642", "stock": 0, "price": 17.54, "currency": "USD", "branch": "" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CVA esta sin stock y CT mirror tiene 3 piezas; no hay desglose por sucursal en datos recibidos.",
+            "Pagina EU muestra peso 140 g; pagina Mexico corrige 118 g neto y 3000 mm de largo."
+          ]
+        },
+        "measurements": { "length": "3 m", "dimensions": "3000 x 20 x 10 mm", "weight": "118 g net", "grossWeight": "129 g" },
+        "sourceRefs": [
+          { "title": "Manhattan Mexico 153218 official page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-displayport-a-hdmi-4kat60hz-153218" },
+          { "title": "Manhattan Europe 153218 official page", "type": "manufacturer", "url": "https://es.manhattanproducts.eu/products/manhattan-es-cable-displayport-a-hdmi-4kat60hz-153218" },
+          { "title": "CVA CB-2642 and CT mirror ACCITL5840 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0t8q1nkarsetmig",
+      "research": {
+        "confidence": 0.97,
+        "name": "Logitech MX Vertical mouse ergonomico inalambrico vertical 4000 DPI Bluetooth Unifying",
+        "description": "Mouse ergonomico vertical Logitech MX Vertical para mano derecha con angulo de 57 grados, sensor optico ajustable de 400 a 4000 DPI, conectividad Bluetooth Low Energy, receptor Logitech Unifying o cable USB-C, bateria recargable Li-Po de 240 mAh y autonomia de hasta 4 meses.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/vertical-57grados-4000dpi",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/zh-hk/shop/p/mx-vertical-ergonomic-mouse.910-005449",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MOULOG3170/MOULOG3170_full.jpg",
+          "https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/gallery/mx-vertical-gallery-01-new.png",
+          "https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-vertical/gallery/mx-vertical-gallery-04.png"
+        ],
+        "documents": [
+          { "label": "Logitech MX Vertical datasheet", "type": "datasheet", "url": "https://www.logitech.com/content/dam/logitech/en/business/pdf/mx-vertical-advanced-ergo-mouse-data-sheet.pdf" }
+        ],
+        "specs": {
+          "brand": "Logitech",
+          "model": "MX Vertical / 910-005449",
+          "providerSku": "MOULOG3170",
+          "upc": "097855144478",
+          "productType": "Ergonomic vertical wireless mouse",
+          "handedness": "Right hand",
+          "angle": "57 degrees",
+          "sensor": "Optical, 400 to 4000 DPI adjustable",
+          "buttons": "4 customizable buttons",
+          "connectivity": "Logitech Unifying USB receiver, Bluetooth Low Energy, USB-C cable",
+          "battery": "240 mAh rechargeable Li-Po, up to 4 months",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 62 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 60 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOULOG3170", "stock": 186, "price": 1605.88, "currency": "MXN", "branch": "D2A,DFA,GDL,CMT,LEO,VER,MTY,HMO,CUN,DFP,CHI,QRO" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Sucursales visibles suman 181 contra stock total 186; quedan 5 unidades sin sucursal detallada.",
+            "La pagina US muestra PN distinto; para este UPC corresponde usar ficha AP 910-005449."
+          ]
+        },
+        "measurements": { "dimensions": "120 x 79 x 78.5 mm", "weight": "135 g", "packageDimensions": "155 x 100.5 x 100.5 mm", "packageWeight": "300 g" },
+        "sourceRefs": [
+          { "title": "Logitech MX Vertical regional product page", "type": "manufacturer", "url": "https://www.logitech.com/zh-hk/shop/p/mx-vertical-ergonomic-mouse.910-005449" },
+          { "title": "Logitech MX Vertical datasheet", "type": "datasheet", "url": "https://www.logitech.com/content/dam/logitech/en/business/pdf/mx-vertical-advanced-ergo-mouse-data-sheet.pdf" },
+          { "title": "CTOnline feed MOULOG3170 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ueig3llgn3oas2",
+      "research": {
+        "confidence": 0.96,
+        "name": "Meriva MOB-800FS4 camara IP bullet 8MP 4K PoE H.265+ 2.8mm IR IP67",
+        "description": "Camara IP bullet Meriva Technology MOB-800FS4 con resolucion 8MP 4K, compresion H.265+, lente fijo 2.8 mm, IR 20 a 30 m, WDR 120 dB, carcasa metalica IP67, alimentacion 12 VCD o PoE 802.3af, microSD hasta 256GB, entrada de audio, ONVIF y analiticos de cruce de linea e intrusion.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/8mp-4k-h265-ir30m-ip67",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MOB-800FS4",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=20982063&c=4820964&h=lB4fYA1IV7z0V0XeWupRkIo05Id3691oZhbC7YWTlRyZUrZG",
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=VfIIGoxTBA9gxRrJWssiE9UOV5N-gC8BscIYAaUHx_9tYIjy&id=20962637",
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=ynoCSTvXaoC15CFVnAygJnYQTXcQEQkyKpfBcZbd3FrPPJZw&id=19368448"
+        ],
+        "documents": [
+          { "label": "Meriva MOB-800FS4 ficha tecnica", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/66d/854/8e2/66d8548e225392.93888334.pdf" }
+        ],
+        "specs": {
+          "brand": "Meriva Technology",
+          "model": "MOB-800FS4",
+          "providerSku": "CI111MER58",
+          "productType": "8MP 4K IP PoE bullet camera",
+          "resolution": "3840 x 2160 up to 20 fps",
+          "compression": "H.265+, H.265, H.264+, H.264",
+          "lens": "2.8 mm F1.6 fixed",
+          "fieldOfView": "Approx. 101 horizontal, 53 vertical, 120 diagonal",
+          "nightVision": "IR 20 to 30 m",
+          "wdr": "120 dB",
+          "features": "3DNR, HLC, BLC, line crossing, intrusion, MIA 2.0",
+          "network": "RJ45, ONVIF",
+          "power": "12 VCD or PoE 802.3af, under 7 W",
+          "storage": "microSD up to 256GB",
+          "audio": "3.5 mm audio input",
+          "protection": "IP67 metallic housing, NDAA compliant listing",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI111MER58", "stock": 2, "price": 1619.28, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed normalizo marca como ElectroPrice; la marca correcta es Meriva Technology.",
+            "No hay sucursales publicas de Tecnosinergia en el extracto; se conserva stock agregado.",
+            "No mezclar con variante cercana MOB-800FS4D."
+          ]
+        },
+        "measurements": { "dimensions": "165.7 x 69 x 69 mm", "weight": "0.39 kg approx." },
+        "sourceRefs": [
+          { "title": "Meriva Technology MOB-800FS4 official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MOB-800FS4" },
+          { "title": "Meriva MOB-800FS4 ficha tecnica", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/66d/854/8e2/66d8548e225392.93888334.pdf" },
+          { "title": "Tecnosinergia feed CI111MER58 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0uk6ut6mfj2a11v",
+      "research": {
+        "confidence": 0.92,
+        "name": "Generico AC-LENOVO-CH cargador para laptop Lenovo 45W 20V 2.25A punta 4.0x1.7 mm negro",
+        "description": "Adaptador de corriente generico AC-LENOVO-CH para laptops Lenovo compatibles, color negro, salida 20V 2.25A 45W y conector redondo de 4.0 x 1.7 mm. Reemplazo para equipos Lenovo que aceptan cargador de 45W con esta punta.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/lenovo-45w-20v-4-0x1-7",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCGEN3070/ACCGEN3070_full.jpg",
+          "https://www.mactoner.com.mx/wp-content/uploads/2022/12/ACCGEN3070_full.jpg"
+        ],
+        "specs": {
+          "brand": "Generico",
+          "model": "AC-LENOVO-CH",
+          "providerSku": "ACCGEN3070",
+          "productType": "Laptop AC adapter",
+          "compatibility": "Lenovo laptops requiring 45W and 4.0 x 1.7 mm round tip",
+          "output": "20V 2.25A",
+          "power": "45W",
+          "connector": "4.0 x 1.7 mm round tip",
+          "input": "100-240V 50/60Hz reseller",
+          "color": "Black",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 108 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 83 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCGEN3070", "stock": 284, "price": 10.22, "currency": "USD", "branch": "DFA,D2A,OAX,HMO,ACA,ACX,CHI,VHA,CEL,PUE,TXA,AGS" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Sucursales visibles suman 251 contra stock total 284; quedan 33 unidades sin sucursal detallada.",
+            "Algunos agregadores muestran 90W por error; CT y resellers principales lo describen como 45W."
+          ]
+        },
+        "measurements": { "packageDimensions": "150 x 220 x 70 mm reseller", "dimensions": "Not confirmed", "weight": "Not confirmed" },
+        "sourceRefs": [
+          { "title": "GlobalOffice AC-LENOVO-CH", "type": "reseller", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-computo/adaptador-de-corriente-para-laptop-gener/ac-lenovo-ch" },
+          { "title": "CompuPuebla AC-LENOVO-CH", "type": "reseller", "url": "https://compupuebla.com/producto/adaptador-de-corriente-para-laptop-generico-ac-lenovo-ch/" },
+          { "title": "CTOnline feed ACCGEN3070 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0unkp4kz6vs8gpl",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother P-touch PT-M95 rotulador portatil termico QWERTY para cintas M 9 y 12 mm",
+        "description": "Rotulador portatil Brother P-touch PT-M95 con teclado QWERTY y pantalla LCD de 12 caracteres, para cintas Brother M no laminadas de 9 mm y 12 mm. Imprime una o dos lineas, con 9 estilos de letra, 10 bordes, patrones Deco, mas de 200 simbolos, corte manual y alimentacion por 4 baterias AAA.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/rotuladores-p-touch",
+        "semanticCategoryPath": "impresion/impresoras/etiquetas/rotuladores-p-touch/portatil-12mm-cintas-m",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/ptm95",
+        "gallery": [
+          "https://ctonline.mx/img/productos/ROTBRT120.jpg",
+          "https://support.brother.com/g/b/img/product/m95eus.jpg",
+          "https://comptechdirect.com/cdn/shop/products/71qHo8yyHTL._SL1500_small.jpg?v=1562235890"
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "PT-M95 / PTM95",
+          "providerSku": "ROTBRT120",
+          "upc": "012502643760",
+          "productType": "Portable P-touch label maker",
+          "printTechnology": "Direct thermal for Brother M non-laminated tapes",
+          "tapeWidths": "9 mm and 12 mm",
+          "resolution": "203 dpi",
+          "printSpeed": "7.5 mm/s",
+          "display": "12-character LCD, 1 line",
+          "keyboard": "QWERTY",
+          "printLines": "1 or 2 lines",
+          "styles": "9 font styles, 10 frames, 8 Deco patterns, 210 symbols",
+          "cutter": "Manual",
+          "power": "4 AAA batteries, not included",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROTBRT120", "stock": 14, "price": 449.36, "currency": "MXN", "branch": "CUN,DFA,SLP,GDL,D2A" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos distribuidores listan 230 dpi; Brother Mexico y soporte tecnico reciente reportan 203 dpi.",
+            "Algunos retailers mencionan cintas laminadas por error; Brother especifica cintas M no laminadas."
+          ]
+        },
+        "measurements": { "dimensions": "156 x 111 x 61 mm", "weight": "250 g without batteries and tape", "retailDimensions": "6.1 x 4.4 x 2.4 in", "retailWeight": "0.57 lb" },
+        "sourceRefs": [
+          { "title": "Brother Mexico PT-M95 official page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/ptm95" },
+          { "title": "Brother PT-M95 support specs", "type": "manufacturer", "url": "https://support.brother.com/g/b/spec.aspx?c=us&lang=en&prod=m95eus" },
+          { "title": "CTOnline feed ROTBRT120 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}

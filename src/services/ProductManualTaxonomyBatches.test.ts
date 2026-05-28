@@ -453,6 +453,16 @@ const researchedBatchCases = [
   ["Logitech M720 Triathlon 910-004790 mouse Unifying Bluetooth", "LOGITECH", "computo/perifericos/mouse/inalambricos/multi-dispositivo"],
   ["ADATA AX5S5600C468G-SBHT XPG Hunter DDR5 SO-DIMM 8GB 5600", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr5"],
   ["EZVIZ CS-H9C/6MP camara PT doble lente 3MP+3MP WiFi", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-doble-lente"],
+  ["Silimex Silitek 28.33grs pasta termica grasa disipadora de calor", "SILIMEX", "computo/componentes/pasta-termica"],
+  ["Kensington SD1650P estacion de acoplamiento portatil USB-C", "KENSINGTON", "computo/accesorios/docks-hubs/usb-c"],
+  ["BRobotix 6006658 cargador 18W dual USB-A USB-C negro", "BROBOTIX", "energia/cargadores-usb/pared-dual-usb-a-usb-c"],
+  ["Brother PTE560BTVP rotulador industrial P-touch etiquetas 24 mm", "BROTHER", "impresion/impresoras/etiquetas/rotuladores-p-touch"],
+  ["TCL 50Q5K televisor QLED Google TV 50 4K UHD", "TCL", "video/televisores/qled-google-tv"],
+  ["Manhattan 153218 cable DisplayPort a HDMI M-M 4K 60Hz 3m", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport-hdmi"],
+  ["Logitech MX Vertical 910-005449 mouse ergonomico inalambrico 4000 DPI", "LOGITECH", "computo/perifericos/mouse/inalambricos/ergonomicos"],
+  ["Meriva MOB-800FS4 camara IP bullet 8MP 4K H.265+ PoE", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet"],
+  ["Generico AC-LENOVO-CH cargador laptop 45W 20V 2.25A 4.0x1.7", "GENERICO", "computo/accesorios/cargadores-laptop"],
+  ["Brother PTM95 rotulador P-touch termica directa etiquetas 12 mm", "BROTHER", "impresion/impresoras/etiquetas/rotuladores-p-touch"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

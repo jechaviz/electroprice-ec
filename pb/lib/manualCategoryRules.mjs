@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_RULES = [
+  ['computo/componentes/pasta-termica', /\b(silitek|cn[\s-]?293|silimex.*28|28\.?33 ?grs|grasa disipadora|pasta.*disipadora.*calor)\b/],
+  ['computo/accesorios/docks-hubs/usb-c', /\b(sd1650p|acckns1930|085896340201|estacion.*acoplamiento.*usb[\s-]?c|portable usb[\s-]?c.*dock)\b/],
+  ['energia/cargadores-usb/pared-dual-usb-a-usb-c', /\b(6006658|ac[\s-]?13445|accrbt8140|dual usb v3\.?0|1 puerto.*usb[\s-]?a.*1 puerto.*usb[\s-]?c|cargador.*18w.*usb[\s-]?a.*usb[\s-]?c)\b/],
+  ['impresion/impresoras/etiquetas/rotuladores-p-touch', /\b(pte560btvp|pt[\s-]?e560btvp|rotbrt200|012502677994|ptm95|pt[\s-]?m95|rotbrt120|012502643760|p[\s-]?touch|rotulador.*brother|etiquetas.*12 mm|etiquetas.*24 mm)\b/],
+  ['video/televisores/qled-google-tv', /\b(50q5k|pantcl080|846042073134|tcl.*50.*qled.*google|50.*4k.*google tv)\b/],
+  ['accesorios/cables-adaptadores/video-displayport-hdmi', /\b(153218|cb[\s-]?2642|accitl5840|displayport.*hdmi.*4k.*60|4k.*60.*displayport.*hdmi|dp.*hdmi.*3\.?0m)\b/],
+  ['computo/perifericos/mouse/inalambricos/ergonomicos', /\b(mx vertical|910[\s-]?005449|moulog3170|097855144478|mouse.*vertical.*4000|ergonomic.*vertical.*mouse)\b/],
+  ['seguridad/cctv/camaras-ip-poe/bullet', /\b(mob[\s-]?800fs4|ci111mer58|meriva.*8mp.*4k.*bullet|8mp.*4k.*h\.?265.*poe|2\.8mm.*ip67.*poe)\b/],
+  ['computo/accesorios/cargadores-laptop', /\b(ac[\s-]?lenovo[\s-]?ch|accgen3070|45w.*20v.*2\.25a|4\.0\s?\*?\s?1\.7|adaptador.*lenovo.*45w)\b/],
   ['accesorios/cables-adaptadores/video-hdmi-vga', /\b(110910n|accrbt2680|7503027445548|hdmi macho.*vga hembra|convertidor hdmi.*vga.*brobotix|24\.?5 ?cm.*vga)\b/],
   ['computo/desktops/all-in-one', /\b(ec24250|xnt23|cpuddl3800|884116491903|dell 24 aio|dell 24 all[\s-]?in[\s-]?one|all in one.*i7[\s-]?1355u)\b/],
   ['domotica/enchufes-inteligentes', /\b(tapo p100|p100mini|p100\(1[\s-]?pack\)|acctpl630|sh[\s-]?22|mini contacto inteligente|enchufe inteligente.*wi[\s-]?fi|1200w.*10a)\b/],
