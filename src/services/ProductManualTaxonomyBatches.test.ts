@@ -363,6 +363,16 @@ const researchedBatchCases = [
   ["HPE ProLiant ML350 Gen11 servidor torre P75341-DM5", "HPE", "computo/servidores/torre"],
   ["Panasonic KX-TGB310MEB telefono inalambrico LCD ambar", "PANASONIC", "telefonia/telefonos/inalambricos"],
   ["CyberPower AVRG750LCD no break 760VA 450W interactivo LCD", "CYBERPOWER", "energia/no-breaks-ups/line-interactive"],
+  ["Acteck ONEX GS450 AC-943086 gabinete mini torre slim", "ACTECK", "computo/componentes/gabinetes/mini-tower"],
+  ["Manhattan 333405 cable USB 2.0 A-B 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b"],
+  ["Perfect Choice PC-113102 Goliat bocina Bluetooth 50W", "PERFECT CHOICE", "audio/bocinas/bluetooth"],
+  ["Creative Labs ZEN Hybrid 2 CR audifonos Bluetooth ANC", "CREATIVE", "audio/audifonos/bluetooth"],
+  ["Brother TN433Y toner amarillo 4000 paginas", "BROTHER", "impresion/consumibles/toner-laser"],
+  ["Xerox 113R00670 tambor Phaser 5500", "XEROX", "impresion/consumibles/tambores"],
+  ["BRobotix 000140 cable corriente CPU NEMA 5-15 C13", "BROBOTIX", "accesorios/cables-adaptadores/energia/corriente-cpu"],
+  ["TP-Link Deco S7 2 Pack router WiFi Mesh AC1900", "TP-LINK", "redes/routers/mesh-wifi"],
+  ["Acteck MI790 mouse trackball ergonomico inalambrico", "ACTECK", "computo/perifericos/mouse/inalambricos/trackball"],
+  ["Grandstream GXP1630 telefono IP 3 cuentas SIP PoE", "GRANDSTREAM", "telefonia/telefonos-ip"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
