@@ -140,6 +140,36 @@ describe("product curation policy", () => {
       brand: "KSA",
       category: "laptops",
     }).path).toBe("salud/equipo-medico/monitoreo");
+
+    expect(classifyManualCategory({
+      name: "HP M0H50AL cabezal de impresion GT tricolor",
+      brand: "HP",
+      category: "laptops",
+    }).path).toBe("impresion/consumibles/cabezales");
+
+    expect(classifyManualCategory({
+      name: "Dell CP5724S EcoLoop Pro Slim Backpack",
+      brand: "DELL",
+      category: "laptops",
+    }).path).toBe("computo/accesorios/mochilas-fundas");
+
+    expect(classifyManualCategory({
+      name: "Creative Labs SB1870 Sound Blaster Audigy Fx V2",
+      brand: "CREATIVE LABS",
+      category: "laptops",
+    }).path).toBe("computo/componentes/tarjetas-audio");
+
+    expect(classifyManualCategory({
+      name: "Acteck BR-937412 pasta termica Eolox Plus EX07",
+      brand: "ACTECK",
+      category: "laptops",
+    }).path).toBe("computo/componentes/pasta-termica");
+
+    expect(classifyManualCategory({
+      name: "Go Safe PCO110 careta protectora infantil",
+      brand: "GO SAFE",
+      category: "laptops",
+    }).path).toBe("seguridad/epp/proteccion-facial");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {

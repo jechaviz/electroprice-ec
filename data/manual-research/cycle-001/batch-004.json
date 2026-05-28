@@ -1,0 +1,361 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b004-2026-05-27",
+  "cycle": 1,
+  "batch": 4,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "39tt4mtrzzncwxt",
+      "research": {
+        "confidence": 0.9,
+        "name": "Go Safe PCO110 careta protectora infantil transparente",
+        "description": "Careta protectora facial para nino(a), transparente, ligera y reutilizable para uso escolar, familiar o de proteccion personal cotidiana.",
+        "manualCategoryPath": "seguridad/epp/proteccion-facial",
+        "semanticCategoryPath": "seguridad/epp/proteccion-facial/caretas-infantiles",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Intercompras Go Safe PCO110", "type": "product_page", "url": "https://intercompras.com/p/careta-protectora-nino-go-safe-cpa-nino-proteccion-facial-transparente-216174" }],
+        "specs": {
+          "brand": "GO SAFE",
+          "model": "PCO110",
+          "providerSku": "CUBPCO110",
+          "productType": "Careta protectora facial infantil",
+          "commercialModel": "CPA Nino-1",
+          "material": "Plastico/PET transparente",
+          "color": "Transparente",
+          "fit": "Infantil",
+          "features": ["ligera", "reutilizable", "facil de limpiar", "proteccion contra salpicaduras y particulas"],
+          "useCases": ["uso escolar", "actividades recreativas", "entornos familiares"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Intercompras Careta Protectora Go Safe PCO110", "type": "reseller_spec", "url": "https://intercompras.com/p/careta-protectora-nino-go-safe-cpa-nino-proteccion-facial-transparente-216174" },
+          { "title": "Mactoner CARETA Go Safe PCO110 CUBPCO110", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/careta-go-safe-pco110/" },
+          { "title": "CTOnline feed CUBPCO110 stock 326", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ct728z0vlvlmv12",
+      "research": {
+        "confidence": 0.94,
+        "name": "VICA VP132 protector de voltaje 900 J para linea blanca",
+        "description": "Protector de voltaje y supresor de picos para linea blanca, 900 joules, una salida NEMA 5-15R, entrada 115/230 V y capacidad maxima 1800 W.",
+        "manualCategoryPath": "energia/supresores-reguladores",
+        "semanticCategoryPath": "energia/supresores-reguladores/protectores-linea-blanca",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/energia/protector-de-voltaje-linea-blanca-vp132-1800va150/vp132",
+        "documents": [{ "label": "Global Office VICA VP132", "type": "product_page", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/protector-de-voltaje-linea-blanca-vp132-1800va150/vp132" }],
+        "specs": {
+          "brand": "VICA",
+          "model": "VP132",
+          "providerSku": "SUPVIC010",
+          "alternateProviderSku": "AC-10777",
+          "productType": "Protector de voltaje / supresor de picos",
+          "surgeEnergyRating": "900 J",
+          "acOutlets": "1 salida NEMA 5-15R",
+          "inputVoltage": "115 / 230 V",
+          "inputFrequency": "50 / 60 Hz",
+          "maximumPower": "1800 W",
+          "connector": "NEMA 5-15P",
+          "color": "Negro",
+          "indicators": "LED",
+          "ean": "7501693300277",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43 x 103 x 40 mm", "weight": "143 g" },
+        "sourceRefs": [
+          { "title": "Global Office VICA VP132 SKU SUPVIC010", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/protector-de-voltaje-linea-blanca-vp132-1800va150/vp132" },
+          { "title": "Unilane VP132 technical specs", "type": "reseller_spec", "url": "https://www.unilane.mx/otros/energia/multicontactos/protector-de-voltaje-vica-vp132-vp132.html" },
+          { "title": "CTOnline feed SUPVIC010 stock 302", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-10777 stock 5", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "6iv7p5cmjv4n16r",
+      "research": {
+        "confidence": 0.88,
+        "name": "HP 764025932868 papel carta blanco 75 g 92% caja 5000 hojas",
+        "description": "Papel blanco tamano carta HP para impresion y copiado, 75 g/m2, blancura 92%, caja con 10 resmas de 500 hojas cada una.",
+        "manualCategoryPath": "oficina/papel-consumibles",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-carta",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctonline.mx/Consumibles/Papel/HP/PAPHPB010/63984",
+        "specs": {
+          "brand": "HP",
+          "model": "764025932868",
+          "providerSku": "PAPHPB010",
+          "manufacturerPartNumber": "112101C",
+          "upc": "764025932868",
+          "productType": "Papel carta para impresion y copiado",
+          "paperSize": "Carta / 8.5 x 11 in",
+          "grammage": "75 g/m2",
+          "brightness": "92%",
+          "reamsPerBox": 10,
+          "sheetsPerReam": 500,
+          "sheetCount": "5000 hojas",
+          "color": "Blanco",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "weight": "4.5 kg" },
+        "sourceRefs": [
+          { "title": "CTOnline PAPHPB010 HP papel carta", "type": "provider_spec", "url": "https://ctonline.mx/Consumibles/Papel/HP/PAPHPB010/63984" },
+          { "title": "ProductFrom HP 5000-sheet 92 bright UPC 764025932868", "type": "product_index", "url": "https://www.productfrom.com/product/569021-hp-5000-sheet-8-5-x-11-office-paper-92-bright" },
+          { "title": "CompuPuebla Papel HP PAPHPB010", "type": "reseller_spec", "url": "https://compupuebla.com/producto/papel-hp-764025932868/" },
+          { "title": "CTOnline feed PAPHPB010 stock 291", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "dwd4netxosbr63u",
+      "research": {
+        "confidence": 0.95,
+        "name": "HP GT M0H50A/M0H50AL cabezal de impresion tricolor",
+        "description": "Cabezal de impresion HP GT de sustitucion tricolor para impresoras HP Ink Tank y Smart Tank compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cabezales",
+        "semanticCategoryPath": "impresion/consumibles/cabezales/hp-gt",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/uy-es/products/ink-toner/product-details/33849401",
+        "documents": [{ "label": "HP M0H50AL official product details", "type": "manufacturer_page", "url": "https://www.hp.com/uy-es/products/ink-toner/product-details/33849401" }],
+        "specs": {
+          "brand": "HP",
+          "model": "M0H50AL",
+          "commercialModel": "HP GT M0H50A",
+          "providerSku": "CARHPP4300",
+          "productType": "Cabezal de impresion de sustitucion",
+          "printColor": "Tricolor",
+          "boxContents": "Cabezal de impresion",
+          "compatibleFamilies": ["HP Ink Tank 115/118", "HP Smart Tank 355/450/455/457", "HP Smart Tank 502/510/515/519/530/550/570/617/618", "HP Smart Tank Plus 650", "HP Tank 6002/615"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "HP GT M0H50A replacement printhead tricolor", "type": "manufacturer", "url": "https://www.hp.com/uy-es/products/ink-toner/product-details/33849401" },
+          { "title": "HP Suministros M0H50AL compatibility", "type": "reseller_spec", "url": "https://hpsuministros.com/productos/cabezal-de-impresora-hp-m0h50al-gt-tricolor" },
+          { "title": "CTOnline feed CARHPP4300 stock 274", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "cj3p62w5m0es769",
+      "research": {
+        "confidence": 0.94,
+        "name": "Zebra 104523-111 tarjetas PVC blancas CR80 30 mil caja 500",
+        "description": "Tarjetas plasticas Zebra Premier PVC blancas, CR80 de 30 mil, caja con 500 piezas para impresion de credenciales e identificaciones.",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion",
+        "semanticCategoryPath": "punto-de-venta/credenciales-identificacion/tarjetas-pvc",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.barcodesinc.com/zebra/part-104523-111.htm",
+        "specs": {
+          "brand": "ZEBRA",
+          "model": "104523-111",
+          "providerSku": "ACCZBR020",
+          "productType": "Tarjetas PVC para impresora de credenciales",
+          "line": "Premier PVC",
+          "color": "Blanco",
+          "material": "PVC",
+          "cardSize": "CR80 / 2.12 x 3.38 in",
+          "thickness": "30 mil",
+          "quantity": "500 tarjetas por caja",
+          "magneticStripe": false,
+          "useCases": ["credenciales", "badges", "tarjetas de membresia", "tarjetas de acceso"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cardDimensions": "85.6 x 54 mm", "cardThickness": "0.76 mm" },
+        "sourceRefs": [
+          { "title": "BarcodesInc Zebra 104523-111 plastic ID card", "type": "reseller_spec", "url": "https://www.barcodesinc.com/zebra/part-104523-111.htm" },
+          { "title": "TapeandMedia Zebra 104523-111 Premier PVC", "type": "reseller_spec", "url": "https://tapeandmedia.com/zebra-104523-111-premier-pvc-card-30-mil/" },
+          { "title": "CTOnline feed ACCZBR020 stock 216", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "78t8l0fyhmju3o3",
+      "research": {
+        "confidence": 0.95,
+        "name": "HP GT M0H51A/M0H51AL cabezal de impresion negro",
+        "description": "Cabezal de impresion HP GT de sustitucion color negro para impresoras HP Ink Tank y Smart Tank compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cabezales",
+        "semanticCategoryPath": "impresion/consumibles/cabezales/hp-gt",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ec-es/products/ink-toner/product-details/33849405",
+        "documents": [{ "label": "HP M0H51AL official product details", "type": "manufacturer_page", "url": "https://www.hp.com/ec-es/products/ink-toner/product-details/33849405" }],
+        "specs": {
+          "brand": "HP",
+          "model": "M0H51AL",
+          "commercialModel": "HP GT M0H51A",
+          "providerSku": "CARHPP4310",
+          "productType": "Cabezal de impresion de sustitucion",
+          "printColor": "Negro",
+          "boxContents": "Cabezal de impresion",
+          "compatibleFamilies": ["HP Ink Tank 115/118", "HP Smart Tank 355/450/455/457"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "HP GT M0H51A replacement printhead black", "type": "manufacturer", "url": "https://www.hp.com/ec-es/products/ink-toner/product-details/33849405" },
+          { "title": "CTOnline feed CARHPP4310 stock 176", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "it8j92fesc4232h",
+      "research": {
+        "confidence": 0.94,
+        "name": "Dell EcoLoop Pro Slim Backpack 15 CP5724S mochila para laptop",
+        "description": "Mochila Dell EcoLoop Pro Slim Backpack 15 para laptop hasta 15.6 pulgadas, tela 600D resistente a intemperie/suciedad, compartimentos para laptop, tablet y accesorios.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop-15",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.delltechnologies.com/asset/en-gb/products/electronics-and-accessories/technical-support/dell-ecoloop-pro-slim-backpack-15-cp5724s-datasheet.pdf",
+        "documents": [{ "label": "Dell EcoLoop Pro Slim Backpack 15 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-gb/products/electronics-and-accessories/technical-support/dell-ecoloop-pro-slim-backpack-15-cp5724s-datasheet.pdf" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "CP5724S",
+          "providerSku": "MALDLL890",
+          "manufacturerPartNumber": "460-BDQP",
+          "ean": "5397184820353",
+          "productType": "Mochila para laptop",
+          "maxLaptopSize": "15.6 in",
+          "maxLaptopDimensions": "400 x 270 x 25 mm",
+          "material": "Poliester / plastico 100% reciclado",
+          "lining": "Tela 600D",
+          "color": "Negro",
+          "compartments": ["laptop acolchado", "tablet acolchado", "documentos", "accesorios", "bolsillos laterales", "bolsillo frontal con cierre"],
+          "features": ["resistente a intemperie", "resistente a suciedad", "pasa equipaje", "acentos reflectivos", "correas ajustables"],
+          "warranty": "3 anos limitada",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "315 x 445 x 140 mm", "weight": "0.59 kg" },
+        "sourceRefs": [
+          { "title": "Dell EcoLoop Pro Slim Backpack 15 CP5724S datasheet", "type": "manufacturer", "url": "https://www.delltechnologies.com/asset/en-gb/products/electronics-and-accessories/technical-support/dell-ecoloop-pro-slim-backpack-15-cp5724s-datasheet.pdf" },
+          { "title": "SHI Dell EcoLoop Pro Slim Backpack 15 overview", "type": "reseller_spec", "url": "https://www.shi.ca/Product/46202710/Dell-EcoLoop-Pro-Slim-Backpack-15-%28CP5724S%29" },
+          { "title": "CTOnline feed MALDLL890 stock 137", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "m5y216jo7kokgld",
+      "research": {
+        "confidence": 0.94,
+        "name": "Creative Sound Blaster Audigy Fx V2 SB1870 tarjeta de sonido PCIe 5.1",
+        "description": "Tarjeta de sonido interna PCIe 5.1 con reproduccion 24-bit/192 kHz, SNR 120 dB, amplificador para audifonos 32-600 ohms y kit SmartComms.",
+        "manualCategoryPath": "computo/componentes/tarjetas-audio",
+        "semanticCategoryPath": "computo/componentes/tarjetas-audio/pcie-5-1",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.cs.1worldsync.com/7a/a3/7aa31d44-591e-4e96-8292-7f285697a359.pdf",
+        "documents": [
+          { "label": "Creative Sound Blaster Audigy Fx V2 technical specifications", "type": "datasheet", "url": "https://cdn.cs.1worldsync.com/7a/a3/7aa31d44-591e-4e96-8292-7f285697a359.pdf" },
+          { "label": "Creative SB1870 safety information", "type": "manual", "url": "https://files.creative.com/manualdn/Manuals/TSD/14357/0oj4oSr1hn/Additional%20Safety%20Information_SOUND%20BLASTER%20AUDIGY%20FX%20V2_220223.pdf" }
+        ],
+        "specs": {
+          "brand": "CREATIVE LABS",
+          "model": "SB1870",
+          "commercialModel": "Sound Blaster Audigy Fx V2",
+          "providerSku": "TARCRT020",
+          "manufacturerPartNumber": "70SB187000000",
+          "upc": "054651194915",
+          "productType": "Tarjeta de sonido interna",
+          "interface": "PCIe x1-x16",
+          "channels": "5.1",
+          "playbackResolution": "24-bit / 192 kHz",
+          "snr": "120 dB",
+          "thdn": "<=0.004%",
+          "headphoneImpedance": "32 - 600 ohms",
+          "ports": ["mic in 3.5 mm", "line in 3.5 mm", "headphone/front out 3.5 mm", "rear out 3.5 mm", "center/sub out 3.5 mm"],
+          "included": ["tarjeta principal", "bracket half-height", "guia rapida"],
+          "osCompatibility": "Windows 10 o superior",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "117.4 x 121 x 21.6 mm", "weight": "57 g" },
+        "sourceRefs": [
+          { "title": "Creative Sound Blaster Audigy Fx V2 specifications PDF", "type": "datasheet", "url": "https://cdn.cs.1worldsync.com/7a/a3/7aa31d44-591e-4e96-8292-7f285697a359.pdf" },
+          { "title": "B&H Creative 70SB187000000 overview/specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1735602-REG/creative_labs_70sb187000000_sound_blaster_audigy_fx.html" },
+          { "title": "CTOnline feed TARCRT020 stock 132", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "02tnsxha9kof613",
+      "research": {
+        "confidence": 0.91,
+        "name": "Balam Rush Eolox Plus EX07 BR-937412 pasta termica 4 g",
+        "description": "Pasta termica Balam Rush Eolox Plus EX07 de alto desempeno para procesadores y tarjetas graficas, 12.8 W/mK, operacion -50 a 250 C.",
+        "manualCategoryPath": "computo/componentes/pasta-termica",
+        "semanticCategoryPath": "computo/componentes/pasta-termica/alta-conductividad",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zegucom.com.mx/producto/limpieza-y-mantenimiento-de-computadoras/pasta-termica-para-procesadores/pasta-disipadora-de-calor-balam-rush-eolox-plus-ex07-pasta-termica-12/QlItOTM3NDEy",
+        "specs": {
+          "brand": "BALAM RUSH",
+          "listedBrand": "ACTECK",
+          "model": "BR-937412",
+          "providerSku": "ACCBLR120",
+          "line": "Eolox Plus EX07 Azender Series",
+          "productType": "Pasta termica",
+          "thermalConductivity": "12.8 W/mK",
+          "thermalResistance": "0.112 C/W",
+          "operatingTemperature": "-50 a 250 C",
+          "color": "Negro / transparente",
+          "netWeight": "4 g",
+          "applications": ["CPU", "GPU", "disipadores de calor"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "weight": "4 g" },
+        "sourceRefs": [
+          { "title": "Zegucom BR-937412 Eolox Plus EX07 specs", "type": "reseller_spec", "url": "https://www.zegucom.com.mx/producto/limpieza-y-mantenimiento-de-computadoras/pasta-termica-para-procesadores/pasta-disipadora-de-calor-balam-rush-eolox-plus-ex07-pasta-termica-12/QlItOTM3NDEy" },
+          { "title": "Mactoner Acteck BR-937412", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/pasta-termica-acteck-br-937412/" },
+          { "title": "CTOnline feed ACCBLR120 stock 123", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nieu8i8j4z7do91",
+      "research": {
+        "confidence": 0.93,
+        "name": "Creative Sound Blaster Audigy Fx SB1570 tarjeta de sonido PCIe 5.1",
+        "description": "Tarjeta de sonido interna PCIe 5.1 con DAC 24-bit/192 kHz, SNR 106 dB, amplificador para audifonos 600 ohms y suite SBX Pro Studio.",
+        "manualCategoryPath": "computo/componentes/tarjetas-audio",
+        "semanticCategoryPath": "computo/componentes/tarjetas-audio/pcie-5-1",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://files.creative.com/manualdn/Manuals/TSD/14378/xh4EW8540I/Additional%20Safety%20Information_SB1570_SB%20Audigy%20Fx.pdf",
+        "documents": [
+          { "label": "Creative SB1570 safety information", "type": "manual", "url": "https://files.creative.com/manualdn/Manuals/TSD/14378/xh4EW8540I/Additional%20Safety%20Information_SB1570_SB%20Audigy%20Fx.pdf" },
+          { "label": "Creative SB1570 user guide", "type": "manual", "url": "https://images.carid.com/creative/items/pdf/sb1570-users-guide.pdf" }
+        ],
+        "specs": {
+          "brand": "CREATIVE LABS",
+          "model": "SB1570",
+          "commercialModel": "Sound Blaster Audigy Fx",
+          "providerSku": "TARCRT010",
+          "manufacturerPartNumber": "70SB157000000",
+          "upc": "054651184633",
+          "productType": "Tarjeta de sonido interna",
+          "interface": "PCI Express",
+          "channels": "5.1",
+          "playbackResolution": "24-bit / 192 kHz",
+          "recordingResolution": "96 kHz ADC",
+          "snr": "106 dB",
+          "headphoneAmplifier": "600 ohms",
+          "ports": ["headphone/front out", "rear out", "center/subwoofer", "line in", "mic in"],
+          "software": ["SBX Pro Studio", "Creative ALchemy", "Sound Blaster Audigy Fx Control Panel"],
+          "osCompatibility": "Windows Vista / 7 / 8 segun ficha historica; drivers actuales por soporte Creative",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Best Buy Creative SB1570 specifications", "type": "reseller_spec", "url": "https://www.bestbuy.com/site/creative-labs-sound-blaster-audigy-fx-sound-card/3287009.p?skuId=3287009" },
+          { "title": "Creative SB1570 safety information", "type": "manufacturer_manual", "url": "https://files.creative.com/manualdn/Manuals/TSD/14378/xh4EW8540I/Additional%20Safety%20Information_SB1570_SB%20Audigy%20Fx.pdf" },
+          { "title": "CTOnline feed TARCRT010 stock 119", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
