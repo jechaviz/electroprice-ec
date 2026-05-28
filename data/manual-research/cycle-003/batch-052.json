@@ -1,0 +1,454 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b052-2026-05-28",
+  "cycle": 3,
+  "batch": 52,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0dqxun2rwnmgosc",
+      "research": {
+        "confidence": 0.95,
+        "name": "UNV IPC2B18SE-ADF28K-WP-I1 camara IP bullet OwlView Plus 8MP PoE",
+        "description": "Camara IP bullet UNV OwlView Plus de 8 MP con lente fijo 2.8 mm, ColorHunter/Wise-ISP, True WDR 130 dB, luz calida 40 m, microfono integrado, microSD 512 GB, audio/alarma I/O, PoE y proteccion IP67/IK10.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/8mp-colorhunter-wise-isp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://global.uniview.com/us/Products/Network_Cameras/OwlView/Owlview_Plus/IPC2B18SE-ADF28K-WP-I1/",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=22731718&c=4820964&h=z6KgTw5Q-p1SVie3x7IUc21i6j6sg4gEu0fdyEFGSnqOer-p",
+          "https://global.uniview.com/us/res/202602/12/20260212_2198642_9de5c33d-6dea-45a2-9a6c-19a5c4054e36_1022926_651995_0.png",
+          "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/d5bead07-d78b-40e0-bcfb-7657c7a2cdc8.png",
+          "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/46eae9a0-3c5e-4e8f-911a-bc1b321a0a2a.png"
+        ],
+        "documents": [{ "label": "UNV IPC2B18SE-ADF28K-WP-I1 datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/370bbe98-0bd2-45c4-bb77-6bd4518846a2/20391a58-4847-4d4d-a59a-9e83c058dcd7.pdf" }],
+        "specs": {
+          "brand": "UNV",
+          "model": "IPC2B18SE-ADF28K-WP-I1",
+          "providerSku": "CI111UNV91",
+          "provider": "tecnosinergia",
+          "productType": "8MP IP PoE bullet camera",
+          "sensor": "1/1.2 in CMOS",
+          "resolution": "3840 x 2160 up to 30 fps",
+          "lens": "2.8 mm fixed, F1.0, H105 / V56.1 / D121 degrees",
+          "dori": "Detect 43.4 m, observe 17.4 m, recognize 8.7 m, identify 4.3 m",
+          "illumination": "Warm light up to 40 m",
+          "imaging": "ColorHunter, Wise-ISP, True WDR 130 dB, 2D/3D DNR, HLC, BLC, digital defog, ASM",
+          "analytics": "Smart intrusion prevention, line crossing, intrusion, area enter/leave, human/vehicle/non-motor classification, people counting, crowd density, color retrieval",
+          "video": "Ultra 265, H.265, H.264, MJPEG, triple stream, corridor mode 9:16",
+          "storage": "microSD up to 512 GB, ANR/NAS NFS",
+          "network": "RJ45 10/100, ONVIF S/G/T/M, API, SDK",
+          "io": "1 audio in/out, 1 alarm in/out, built-in microphone",
+          "power": "PoE 802.3af or 12 VDC +/-25%, max 6 W",
+          "protection": "IP67, IK10, NEMA 4X",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI111UNV91", "stock": 3, "price": 4792.18, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["Provider says white light 40 m; official material calls it warm light 40 m.", "Official model may appear as IPC2B18SE-ADF28(40)K-WP-I1; ADF28K identifies the 2.8 mm variant."]
+        },
+        "measurements": { "dimensions": "265.2 x 95.2 x 82.9 mm", "weight": "0.93 kg", "operatingTemperature": "-40 to 60 C" },
+        "sourceRefs": [
+          { "title": "UNV IPC2B18SE-ADF28K-WP-I1 official page", "type": "manufacturer", "url": "https://global.uniview.com/us/Products/Network_Cameras/OwlView/Owlview_Plus/IPC2B18SE-ADF28K-WP-I1/" },
+          { "title": "UNV IPC2B18SE-ADF28K-WP-I1 datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/370bbe98-0bd2-45c4-bb77-6bd4518846a2/20391a58-4847-4d4d-a59a-9e83c058dcd7.pdf" },
+          { "title": "Tecnosinergia feed CI111UNV91 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0dvtnacs8030nre",
+      "research": {
+        "confidence": 0.9,
+        "name": "Naceb Raptor NA-633 kit gamer alambrico teclado y mouse USB RGB negro",
+        "description": "Kit gamer Naceb Raptor NA-633 con teclado de membrana USB retroiluminado RGB, 12 teclas multimedia, anti-ghosting de 19 teclas y mouse optico USB de 3 botones para diestros.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/gaming",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/gaming/usb-rgb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/KITNCB100/KITNCB100_0_full.jpg",
+          "https://grupodecme.com/cdn/shop/files/3524f786-b086-4aec-a67e-85a57daef29a_700x700.jpg?v=1768516005",
+          "https://grupodecme.com/cdn/shop/files/dfbbe0b3-cc03-47ee-b3c9-86cadbd67d2b_700x700.jpg?v=1768516005",
+          "https://images.pcel.com/600/Accesorios-Teclados-NACEB-NA-633-151106-5JadbQAP9HQdSeKA.jpg"
+        ],
+        "specs": {
+          "brand": "Naceb Technology",
+          "model": "Raptor NA-633",
+          "providerSku": "KITNCB100",
+          "ean": "7502262806336",
+          "productType": "Wired gaming keyboard and mouse kit",
+          "connection": "USB 2.0 Type-A, 1.5 m cable",
+          "keyboard": "Full-size membrane keyboard, RGB backlight, 12 multimedia keys, 19-key anti-ghosting",
+          "mouse": "Wired optical mouse, 3 buttons, scroll wheel, right-handed ergonomic shape",
+          "power": "5 V USB",
+          "compatibility": "Windows 10 / 8.1 / 7 / Vista SP2 by reseller specs",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "HMO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITNCB100", "stock": 8, "price": 188.24, "currency": "MXN", "branch": "HMO,CAM,PAC,DFT,CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["CT uses wholesaler SKU KITNCB100; commercial part number is NA-633.", "Some listings mix NA-228 data; UPC 7502262806336 aligns to NA-633/Raptor."]
+        },
+        "measurements": { "packageDimensions": "21 x 54 x 4 cm reseller", "packageWeight": "1 kg reseller" },
+        "sourceRefs": [
+          { "title": "PCEL Naceb NA-633 product page", "type": "reseller_spec", "url": "https://www.pcel.com/NACEB-NA-633-Kit-Teclado-y-Mouse-Gamer-Naceb-NA-633-USB-151106" },
+          { "title": "Grupo Decme Naceb NA-633 product page", "type": "reseller_spec", "url": "https://grupodecme.com/products/kit-gamer-2-en-1-naceb-na-633-teclado-y-mouse-sensor-optico-3-botones-alambrico-usb-retroiluminado" },
+          { "title": "CTOnline feed KITNCB100 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0dybvkb722e2uh7",
+      "research": {
+        "confidence": 0.93,
+        "name": "Microsoft 365 Business Standard KLQ-00698 licencia FPP 1 usuario 1 ano",
+        "description": "Licencia retail/FPP Microsoft 365 Business Standard para 1 usuario por 1 ano, con aplicaciones de Office instalables, correo empresarial, OneDrive 1 TB y servicios Microsoft 365 para negocios.",
+        "manualCategoryPath": "software/productividad-oficina/microsoft-365",
+        "semanticCategoryPath": "software/productividad-oficina/microsoft-365/business-standard-fpp",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-standard",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SOFMSC1710/SOFMSC1710_full.jpg",
+          "https://static.ctonline.mx/imagenes/SOFMSC1710/SOFMSC1710_400.jpg",
+          "https://i5.walmartimages.com/asr/1253753d-32ec-4f62-a746-b4788840e754.042fc073aea36173addb8268940ed5fb.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640"
+        ],
+        "documents": [{ "label": "Microsoft 365 business plan comparison", "type": "datasheet", "url": "https://www.microsoft.com/content/dam/microsoft/final/en-us/microsoft-product-and-services/microsoft-365/Modern-Work-Plan-Comparison-SMB.pdf" }],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "Microsoft 365 Business Standard KLQ-00698",
+          "providerSku": "SOFMSC1990 / SOFMSC1710",
+          "upc": "889842861730",
+          "productType": "Business productivity subscription license",
+          "license": "FPP retail, 1 user, 1 year by Mexico resellers",
+          "apps": "Word, Excel, PowerPoint, Outlook and other desktop/web/mobile apps",
+          "services": "Business email/domain, Exchange, OneDrive 1 TB per user, Teams depending on regional SKU",
+          "installRights": "Up to 5 desktops, 5 tablets and 5 mobile devices per user",
+          "tenantLimit": "Business plans up to 300 users",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SOFMSC1990", "stock": 202, "price": 63.6, "currency": "USD", "branch": "D2A partial" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Current wholesaler stock references SOFMSC1990 while image/source specs show SOFMSC1710; both map to Microsoft 365 Business Standard FPP in provider context.", "Provider branch detail D2A:23 does not reconcile with total stock 202, so location is partial.", "Teams inclusion varies by market/channel; do not assume Teams if the channel sells no-Teams variant."]
+        },
+        "measurements": { "format": "Software license", "packageDimensions": "13 x 9 x 8 cm reseller", "packageWeight": "0.52 kg reseller" },
+        "sourceRefs": [
+          { "title": "Microsoft 365 Business Standard official page", "type": "manufacturer", "url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-standard" },
+          { "title": "Microsoft 365 SMB plan comparison", "type": "datasheet", "url": "https://www.microsoft.com/content/dam/microsoft/final/en-us/microsoft-product-and-services/microsoft-365/Modern-Work-Plan-Comparison-SMB.pdf" },
+          { "title": "CTOnline feed SOFMSC1990 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0e0c44uwzqo0a5b",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson EcoTank L3210 C11CJ68301 multifuncional tinta continua USB",
+        "description": "Multifuncional Epson EcoTank L3210 3 en 1 con impresion, copia y escaneo, sistema de tinta continua, USB, tecnologia Heat-Free Micro Piezo y rendimiento de botellas de reemplazo hasta 4500 paginas negro / 7500 color.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-ecotank",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-ecotank/usb-a4",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/es/Para-el-hogar/Impresoras/Inyecci%C3%B3n-de-tinta/Impresora-Multifuncional-EcoTank-L3210/p/C11CJ68301",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10277591",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=EcoTank-L3210-690x460-1&clid=SAPDAM&id=5eb479d75a3c57ad2e6cd8f4363fe7326a4aa778&prclid=banner&prid=1200Wx1200H&vid=5eb479d75a3c57ad2e6cd8f4363fe7326a4aa778",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=EcoTank-L3210-690x460-2&clid=SAPDAM&id=de37692a033760d1a927d1c23697b6fe2445220c&prclid=banner&prid=1200Wx1200H&vid=de37692a033760d1a927d1c23697b6fe2445220c",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=EcoTank-L3210-690x460-3&clid=SAPDAM&id=ef54492cf7235b9b2670da39e6a4ae1021baf8ac&prclid=banner&prid=1200Wx1200H&vid=ef54492cf7235b9b2670da39e6a4ae1021baf8ac"
+        ],
+        "documents": [
+          { "label": "Epson EcoTank L3210 specifications", "type": "datasheet", "url": "https://mediaserver.goepson.com/ImConvServlet/imconv/a1f3e1ea820e541fac6605f29dcc88db383fc351/original?assetDescr=Especificaciones-EcoTank-L3210-v2.pdf" },
+          { "label": "Epson EcoTank L3210 user guide", "type": "manual", "url": "https://files.support.epson.com/docid/cpd6/cpd60182.pdf" }
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "EcoTank L3210 C11CJ68301",
+          "providerSku": "PR-2441",
+          "productType": "Ink tank all-in-one printer",
+          "functions": "Print, copy, scan",
+          "printTechnology": "Heat-Free Micro Piezo inkjet, CMYK",
+          "printResolution": "Up to 5760 x 1440 dpi",
+          "printSpeed": "Draft 33 ppm black / 15 ppm color; ISO 10 ppm black / 5 ppm color",
+          "scanner": "Flatbed CIS, 216 x 297 mm, 600 x 1200 dpi",
+          "connectivity": "USB high speed compatible with USB 2.0",
+          "paper": "A4, Letter, Legal, Mexico-Oficio, Executive, Half Letter, A6, photo sizes and envelopes; rear feed up to 100 sheets",
+          "ink": "Epson T544 bottles",
+          "power": "AC 100-240 V, 50/60 Hz, 14 W operation",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "PR-2441", "stock": 12, "price": 3045.99, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider weight field says 9 kg; Epson specifies 3.9 kg, so 9 kg is likely logistics or bad capture.", "Official PDF and Epson MX page differ slightly on closed height: 17.9 cm vs 18.7 cm."]
+        },
+        "measurements": { "dimensionsOpen": "37.5 x 57.8 x 25.3 cm", "dimensionsClosed": "37.5 x 34.7 x 17.9 cm official PDF", "weight": "3.9 kg" },
+        "sourceRefs": [
+          { "title": "Epson Mexico EcoTank L3210 product page", "type": "manufacturer", "url": "https://epson.com.mx/es/Para-el-hogar/Impresoras/Inyecci%C3%B3n-de-tinta/Impresora-Multifuncional-EcoTank-L3210/p/C11CJ68301" },
+          { "title": "Epson EcoTank L3210 specification PDF", "type": "datasheet", "url": "https://mediaserver.goepson.com/ImConvServlet/imconv/a1f3e1ea820e541fac6605f29dcc88db383fc351/original?assetDescr=Especificaciones-EcoTank-L3210-v2.pdf" },
+          { "title": "CVA feed PR-2441 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0e4mjko081sf54v",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Omada SG2016P switch 16 puertos Gigabit 8 PoE+ 120W",
+        "description": "Switch inteligente TP-Link Omada SG2016P/TL-SG2016P de 16 puertos Gigabit, 8 puertos PoE+ 802.3af/at, presupuesto PoE de 120 W, administracion Omada SDN, VLAN, ACL, QoS e IGMP Snooping.",
+        "manualCategoryPath": "redes/switches/poe-administrables",
+        "semanticCategoryPath": "redes/switches/poe-administrables/omada-16p-8poe-120w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/business-networking/soho-switch-poe/tl-sg2016p/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10419572",
+          "https://static.tp-link.com/upload/image-line/SG2016P_UN_1.2_01_normal_20240207020458n.jpg",
+          "https://static.tp-link.com/upload/image-line/SG2016P_UN_1.2_02_normal_20240207020537u.jpg",
+          "https://static.tp-link.com/upload/image-line/SG2016P_UN_1.2_03_normal_20240207020553d.jpg"
+        ],
+        "documents": [{ "label": "TP-Link SG2016P datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202512/20251229/SG2016P%28UN%291.30_datasheet.pdf" }],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "SG2016P / TL-SG2016P",
+          "providerSku": "SWTTPL1140 / NIC-4555",
+          "productType": "Omada Gigabit smart switch with PoE+",
+          "ports": "16 x RJ45 10/100/1000 Mbps; ports 1-8 PoE+ 802.3af/at",
+          "poe": "120 W total, up to 30 W per PoE port",
+          "management": "Omada SDN, cloud/web/app, standalone web GUI, CLI, SNMP, RMON",
+          "features": "VLAN, ACL, L2/L3/L4 QoS, IGMP Snooping, DHCP features, static routing",
+          "performance": "32 Gbps switching capacity, 23.81 Mpps, 8K MAC table, 9 KB jumbo frame",
+          "hardware": "Fanless metal case, desktop/wall mount",
+          "power": "53.5 VDC / 2.43 A external adapter, about 147 W max with PoE",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTTPL1140", "stock": 1, "price": 190.91, "currency": "USD", "branch": "" }, { "providerId": "cva", "providerSku": "NIC-4555", "stock": 0, "price": 181.23, "currency": "USD", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Name alternates between TL-SG2016P and SG2016P by region/version.", "Some reseller data incorrectly marks PoE as unavailable; TP-Link official specs confirm 8 PoE+ ports and 120 W PoE budget."]
+        },
+        "measurements": { "dimensions": "286 x 111.7 x 25.4 mm", "weight": "0.92 kg net" },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico TL-SG2016P official page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/business-networking/soho-switch-poe/tl-sg2016p/" },
+          { "title": "TP-Link SG2016P datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202512/20251229/SG2016P%28UN%291.30_datasheet.pdf" },
+          { "title": "CTOnline and CVA feeds SG2016P stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ekttkcz79gcaw5",
+      "research": {
+        "confidence": 0.94,
+        "name": "Balam Rush Olympus Spot Glow Pro MRX8000 escritorio gamer 120x60 cm RGB negro",
+        "description": "Escritorio gamer Balam Rush Olympus Spot Glow Pro MRX8000 con superficie 120 x 60 cm, estructura tipo Z, iluminacion LED RGB de 10 modos, porta vasos, gancho para audifonos y pasacables.",
+        "manualCategoryPath": "gaming/mobiliario/escritorios",
+        "semanticCategoryPath": "gaming/mobiliario/escritorios/120x60-rgb-portavasos",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://balamrush.com/products/escritorio-gamer-ergonomico-olympus-spot-glow-pro-mrx8000-negro",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ESCBLR040/ESCBLR040_full.jpg",
+          "https://balamrush.com/cdn/shop/files/BR-941372_3.webp?v=1736782069&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-941372_4.webp?v=1736782069&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-941372MockUP.webp?v=1754580048&width=1000"
+        ],
+        "specs": {
+          "brand": "Balam Rush",
+          "model": "MRX8000 / BR-941372",
+          "providerSku": "ESCBLR040",
+          "ean": "7506215941372",
+          "productType": "Gaming desk",
+          "color": "Black",
+          "surface": "120 x 60 cm",
+          "structure": "Z-shape steel frame",
+          "materials": "ABS, PC, steel and 18 mm particle board",
+          "finish": "Melamine carbon-fiber style, scratch-resistant",
+          "lighting": "RGB LED on three sides, 10 modes, 5 V / 1 A",
+          "accessories": "Cup holder, headphone hook, cable pass-through holes",
+          "loadCapacity": "100 kg official/conservative",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CMT", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ESCBLR040", "stock": 13, "price": 2269.45, "currency": "MXN", "branch": "CMT,GDL,TXL,URP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Official/Compuviper capacity is 100 kg; Tecnowow reports 120 kg, so 100 kg is kept as conservative official value.", "White variant uses a different EAN; black MRX8000 is 7506215941372."]
+        },
+        "measurements": { "dimensions": "120 x 60 x 74 cm assembled", "weight": "15 kg", "packageDimensions": "127 x 8.5 x 67 cm" },
+        "sourceRefs": [
+          { "title": "Balam Rush MRX8000 official page", "type": "manufacturer", "url": "https://balamrush.com/products/escritorio-gamer-ergonomico-olympus-spot-glow-pro-mrx8000-negro" },
+          { "title": "Compuviper Balam Rush MRX8000 listing", "type": "reseller_spec", "url": "https://compuviper.mx/tienda/producto/balam-rush-br-941372-escritorio-gamer-olympus-spot-glow-pro-mrx8000-ergonomico-estructura-z-antirrayas-iluminacion-rgb-portavasos-y-gancho-para-audifonos-max-100-kg-negro/" },
+          { "title": "CTOnline feed ESCBLR040 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0eoo1lw4mk8swvd",
+      "research": {
+        "confidence": 0.94,
+        "name": "Mercusys MW325R router inalambrico N 300Mbps 4 antenas",
+        "description": "Router inalambrico Mercusys MW325R de 300 Mbps en 2.4 GHz con cuatro antenas externas de 5 dBi, cobertura amplia, 3 puertos LAN 10/100, 1 puerto WAN 10/100, control parental y red de invitados.",
+        "manualCategoryPath": "redes/routers/wifi-n",
+        "semanticCategoryPath": "redes/routers/wifi-n/300mbps-4-antenas",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mercusys.com/en/product/wifi-router/mw325r/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9925610",
+          "https://static.mercusys.com/product-image/localTest_MW325R_EU_2.0_01_large20200513090358.jpg",
+          "https://static.mercusys.com/product-image/localTest_MW325R_EU_2.0_02_large20200513090426.jpg",
+          "https://static.mercusys.com/product-image/localTest_MW325R_EU_2.0_03_large20200513090442.jpg"
+        ],
+        "specs": {
+          "brand": "Mercusys",
+          "model": "MW325R",
+          "providerSku": "NIC-2377",
+          "productType": "300 Mbps Wireless N router",
+          "wireless": "2.4 GHz 802.11b/g/n up to 300 Mbps",
+          "antennas": "4 fixed external 5 dBi antennas, 2 x 2 MIMO",
+          "ports": "3 x 10/100 Mbps LAN, 1 x 10/100 Mbps WAN",
+          "security": "WPA/WPA2, guest network, parental control, access control",
+          "modes": "Router mode",
+          "button": "WPS/reset",
+          "power": "9 VDC / 0.6 A adapter by official specs",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "NIC-2377", "stock": 2, "price": 10.79, "currency": "USD", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["Provider brand normalized as TP-Link because Mercusys is a TP-Link brand; commercial product brand is Mercusys.", "Provider title and official page align on 300 Mbps, four antennas and 10/100 ports."]
+        },
+        "measurements": { "dimensions": "167 x 118 x 33 mm" },
+        "sourceRefs": [
+          { "title": "Mercusys MW325R official product page", "type": "manufacturer", "url": "https://www.mercusys.com/en/product/wifi-router/mw325r/" },
+          { "title": "Mercusys MW325R support/specs", "type": "manufacturer_support", "url": "https://www.mercusys.com/en/product/wifi-router/mw325r/#specifications" },
+          { "title": "CVA feed NIC-2377 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0epg636ed536kkn",
+      "research": {
+        "confidence": 0.91,
+        "name": "Acteck Captive Vivid SP245 monitor 24.5 pulgadas FHD 75Hz 5ms negro",
+        "description": "Monitor Acteck Captive Vivid SP245 de 24.5 pulgadas Full HD 1920 x 1080, frecuencia de 75 Hz, tiempo de respuesta 5 ms y color negro para oficina o uso general.",
+        "manualCategoryPath": "computo/monitores/oficina/24-25-fhd",
+        "semanticCategoryPath": "computo/monitores/oficina/24-25-fhd/75hz-5ms",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MONACT100/MONACT100_full.jpg",
+          "https://cdn.shopify.com/s/files/1/0671/0227/7850/files/MonitorActeck24.5IPSFullHDCaptiveVividSP245AdvancedNegro_1.jpg?v=1775775582",
+          "https://cdn.shopify.com/s/files/1/0671/0227/7850/files/MonitorActeck24.5IPSFullHDCaptiveVividSP245AdvancedNegro_2.jpg?v=1775775656",
+          "https://cdn.shopify.com/s/files/1/0671/0227/7850/files/MonitorActeck24.5IPSFullHDCaptiveVividSP245AdvancedNegro_3.jpg?v=1775775656"
+        ],
+        "documents": [{ "label": "Acteck Captive Vivid SP245 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorPlano245PulgadasCAPTIVEVIVD_CAPTIVEVIVIDSP245_EAN7506215943178/MonitorPlano245PulgadasCAPTIVEVIVIDSP245_EAN7506215943178.pdf" }],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Captive Vivid SP245 AC-943178",
+          "providerSku": "MONACT100",
+          "ean": "7506215943178",
+          "productType": "Flat IPS LED monitor",
+          "display": "24.5 in IPS LED, Full HD 1920 x 1080, 16:9",
+          "refreshRate": "75 Hz",
+          "responseTime": "5 ms",
+          "image": "178/178 degrees, 16.7M colors, 200 cd/m2, 1000:1 contrast, 94% sRGB, HDR",
+          "eyeCare": "Low Blue Light, Flicker-Free, selectable color temperature",
+          "ports": "VGA, HDMI 1.4, audio out, DC input",
+          "audio": "Integrated 3 W stereo speakers",
+          "mount": "VESA 75 x 75 mm, Kensington lock",
+          "tilt": "-5 to +15 degrees",
+          "power": "100-240 V 50/60 Hz 1.1 A max, 12 VDC 3 A, 30 W max, standby <1 W",
+          "materials": "Metal and plastic",
+          "color": "Black",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CMT", "stock": 57 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACT100", "stock": 196, "price": 1064.52, "currency": "MXN", "branch": "CMT,HMO,MAZ,CLN,DFA,IRA,VER,TRN,CTZ,DGO,AGS,MOR" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["No direct acteck.com page was found for SP245; used hosted technical sheet and MX resellers.", "Some resellers list 60 Hz or 24 in; ficha tecnica and provider confirm 24.5 in, 75 Hz."]
+        },
+        "measurements": { "dimensions": "55.9 x 32.9 x 41.2 cm", "weight": "2.6 kg", "packageDimensions": "61.3 x 10 x 38.8 cm", "packageWeight": "3.3 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Captive Vivid SP245 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorPlano245PulgadasCAPTIVEVIVD_CAPTIVEVIVIDSP245_EAN7506215943178/MonitorPlano245PulgadasCAPTIVEVIVIDSP245_EAN7506215943178.pdf" },
+          { "title": "Inter-DS Acteck SP245 listing", "type": "reseller_spec", "url": "https://inter-ds.com/products/monitor-acteck-24-5-ips-full-hd-captive-vivid-sp245-advanced-negro" },
+          { "title": "CTOnline feed MONACT100 stock and specs", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0eqlxc2lfqa7zbm",
+      "research": {
+        "confidence": 0.93,
+        "name": "Provision-ISR NVR16-641600RFAN(2U) NVR IP 64 canales 16MP 8 bahias",
+        "description": "NVR Provision-ISR de 64 canales para camaras IP de hasta 16 MP, chasis 2U, 8 bahias SATA hasta 10 TB cada una, HDMI 4K, analiticos como reconocimiento facial, NDDA y Check Point.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-ip",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-ip/64ch-16mp-8hdd",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/nvr16-641600rfan2u/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/NVRPVS500/NVRPVS500_full.jpg",
+          "https://provision-isr.com/wp-content/uploads/2025/02/NVR16-641600RFAN2U-1.png"
+        ],
+        "documents": [{ "label": "Provision-ISR NVR16-641600RFAN(2U) datasheet", "type": "datasheet", "url": "https://provision-isr.com/wp-content/uploads/2025/02/NVR16-641600RFAN2U-Datasheet.pdf" }],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "NVR16-641600RFAN(2U)",
+          "providerSku": "NVRPVS500",
+          "productType": "64-channel IP NVR",
+          "channels": "64 IP channels",
+          "cameraResolution": "Up to 16 MP IP cameras",
+          "storage": "8 x SATA HDD, up to 10 TB each",
+          "videoOutput": "HDMI1 up to 8K/4K/1080p, HDMI2/HDMI3 4K, HDMI4 1080p, VGA",
+          "bandwidth": "640 Mbps incoming / 640 Mbps outgoing",
+          "compression": "H.265S, H.265+, H.265, H.264",
+          "analytics": "DDA2 object classification, line crossing, sterile area, object counting, crowd gathering, people intrusion, smart search, face recognition up to 16 channels, LPR, thermal",
+          "cybersecurity": "NDAA compliant, Check Point Quantum IoT Nano agent",
+          "storage": "8 SATA up to 10 TB each plus 2 eSATA up to 10 TB each, total max 100 TB",
+          "raid": "0, 1, 5, 6, 10",
+          "network": "2 x RJ45 10/100/1000 Mbps, fault tolerance / dual network configuration",
+          "io": "2 USB 2.0, 1 USB 3.0, 1 RCA audio channel plus IPC audio, 16+IPC alarm in, 4+IPC alarm out",
+          "power": "AC 100-240 V, 50 W without HDD",
+          "case": "2U rackmount, black",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NVRPVS500", "stock": 1, "price": 617.8, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider mentions 4K HDMI; official sheet details HDMI1 up to 8K and multiple HDMI outputs.", "Provider/resellers often say 80 TB for 8 HDD; official capacity reaches 100 TB when counting 2 eSATA.", "Provider NDDA likely refers to NDAA compliance and/or DDA analytics."]
+        },
+        "measurements": { "dimensions": "436 x 445 x 90 mm", "formFactor": "2U rackmount" },
+        "sourceRefs": [
+          { "title": "Provision-ISR NVR16-641600RFAN(2U) official page", "type": "manufacturer", "url": "https://provision-isr.com/products/nvr16-641600rfan2u/" },
+          { "title": "Provision-ISR NVR16-641600RFAN(2U) datasheet", "type": "datasheet", "url": "https://d347awuzx0kdse.cloudfront.net/securityws/product-download/33571.pdf?v=6f10f3349c5b43ddb4d2623643e89c9dfed0158d" },
+          { "title": "CTOnline feed NVRPVS500 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ewgrielo11kizs",
+      "research": {
+        "confidence": 0.94,
+        "name": "Logitech Brio 300 960-001440 webcam FHD 1080p USB-C color off-white",
+        "description": "Webcam Logitech Brio 300 color off-white con video Full HD 1080p a 30 fps, microfono mono con reduccion de ruido, correccion automatica RightLight 2, tapa de privacidad integrada y conexion USB-C.",
+        "manualCategoryPath": "computo/perifericos/webcams/usb-fhd",
+        "semanticCategoryPath": "computo/perifericos/webcams/usb-fhd/1080p-usb-c",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/en-us/products/webcams/brio-300-webcam.html",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10355872",
+          "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/brio-300/gallery/brio-300-gallery-offwhite-1.png",
+          "https://resource.logitech.com/w_800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/brio-300/gallery/brio-300-gallery-offwhite-2.png"
+        ],
+        "documents": [{ "label": "Logitech Brio 300 technical datasheet", "type": "datasheet", "url": "https://media.distrelec.com/Web/Downloads/_t/ds/Brio-300_eng_tds.pdf" }],
+        "specs": {
+          "brand": "Logitech",
+          "model": "Brio 300 960-001440",
+          "providerSku": "CAMLOG750 / CV-1613",
+          "upc": "097855178909",
+          "productType": "USB-C Full HD webcam",
+          "color": "Off-white",
+          "video": "1080p at 30 fps / 720p at 30 fps",
+          "fieldOfView": "70 degrees diagonal, 1x digital zoom",
+          "lens": "4-element anti-reflective fixed-focus lens",
+          "microphone": "Mono microphone with noise reduction",
+          "lightCorrection": "RightLight 2 automatic light correction",
+          "privacy": "Integrated privacy shutter",
+          "connection": "USB-C plug-and-play, integrated 1.5 m cable",
+          "compatibility": "Windows 10+, macOS 10.15+, ChromeOS, Logi Tune",
+          "certifications": "Microsoft Teams, Zoom, Google Meet, Works With Chromebook",
+          "sustainability": "Off-white/pink versions use 48% post-consumer recycled plastic, graphite 62%, excluding electronics/cables/packaging",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMLOG750", "stock": 17, "price": 861.18, "currency": "MXN", "branch": "" }, { "providerId": "cva", "providerSku": "CV-1613", "stock": 0, "price": 1143.17, "currency": "MXN", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider title says autofocus; Logitech confirms fixed focus.", "Provider title says USB-C 3.1; Logitech specifies USB-C plug-and-play.", "Logitech support and PDP differ on microphone range units; no range is asserted here.", "CVA has stock 0 while CT has stock 17, so active status is supported by CT offer."]
+        },
+        "measurements": { "dimensions": "65.63 x 53.1 x 45 mm webcam with mount", "weight": "74.6 g" },
+        "sourceRefs": [
+          { "title": "Logitech Brio 300 Mexico official product page", "type": "manufacturer", "url": "https://www.logitech.com/es-mx/shop/p/brio-300-webcam" },
+          { "title": "Logitech Brio 300 support specifications", "type": "manufacturer_support", "url": "https://support.logi.com/hc/en-001/articles/11403607280919-Specification-Brio-300" },
+          { "title": "CTOnline and CVA feeds Logitech Brio 300 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

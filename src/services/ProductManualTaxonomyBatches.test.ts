@@ -383,6 +383,16 @@ const researchedBatchCases = [
   ["Huawei MatePad SE 11 53014GYW tableta 8GB 128GB", "HUAWEI", "computo/tabletas"],
   ["Urban Balance UBSC11 dock USB-C 11 en 1 100W", "URBAN BALANCE", "computo/accesorios/docks-hubs/usb-c"],
   ["Zebra 800033-840 cinta YMCKO ZXP Series 3 200 impresiones", "ZEBRA", "impresion/consumibles/cintas-tarjetas"],
+  ["UNV IPC2B18SE-ADF28K-WP-I1 OwlView Plus camara IP bullet 8MP PoE", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/bullet"],
+  ["Naceb Raptor KITNCB100 kit teclado y mouse gamer", "NACEB TECHNOLOGY", "computo/perifericos/combos-teclado-mouse/gaming"],
+  ["Microsoft 365 Business Standard KLQ-00698 licencia FPP 1 usuario", "MICROSOFT", "software/productividad-oficina/microsoft-365"],
+  ["Epson EcoTank L3210 C11CJ68301 multifuncional tinta continua", "EPSON", "impresion/impresoras/multifuncionales-ecotank"],
+  ["TP-Link SG2016P Omada switch 16 puertos 8 puertos PoE", "TP-LINK", "redes/switches/poe-administrables"],
+  ["Balam Rush MRX8000 escritorio gamer Olympus Spot Glow RGB", "BALAM RUSH", "gaming/mobiliario/escritorios"],
+  ["Mercusys MW325R router inalambrico 300Mbps 4 antenas", "TP-LINK", "redes/routers/wifi-n"],
+  ["Acteck Captive Vivid SP245 monitor 24.5 FHD 75Hz", "ACTECK", "computo/monitores/oficina/24-25-fhd"],
+  ["Provision-ISR NVR16-641600RFAN(2U) NVR 64CH 16MP", "PROVISION-ISR", "seguridad/cctv/dvr-nvr/nvr-ip"],
+  ["Logitech Brio 300 960-001440 webcam FHD 1080p USB-C", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
