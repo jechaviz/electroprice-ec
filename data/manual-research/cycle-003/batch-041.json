@@ -1,0 +1,240 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b041-2026-05-28",
+  "cycle": 3,
+  "batch": 41,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "704lccb9goanmeh",
+      "research": {
+        "confidence": 0.96,
+        "name": "Laptop Acer Aspire Lite 14 AL14-32P-39TB 14 WUXGA Core 3 N355 8GB 512GB",
+        "description": "Laptop Acer Aspire Lite 14 AL14-32P-39TB con pantalla IPS WUXGA de 14 pulgadas, Intel Core 3 N355, 8 GB LPDDR5, SSD NVMe de 512 GB, Windows 11 Home, Wi-Fi 6, Bluetooth 5.2 y webcam FHD con obturador.",
+        "manualCategoryPath": "computo/laptops",
+        "semanticCategoryPath": "computo/laptops/acer-aspire-lite/14-wuxga",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.acer.com/mx-es/laptops/aspire/aspire-lite/pdp/NX.D1TAL.001",
+        "gallery": ["https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/AE/AEHLATAB421_zoom.jpg", "https://static.ctonline.mx/imagenes/COMACR9790/COMACR9790_10_full.jpg"],
+        "specs": {
+          "brand": "Acer", "model": "AL14-32P-39TB", "partNumber": "NX.D22AL.001", "providerSku": "COMACR9790", "productType": "Laptop / notebook", "family": "Aspire Lite 14", "processor": "Intel Core 3 N355, 8 cores, up to 3.9 GHz", "memory": "8 GB LPDDR5 soldered, not expandable", "storage": "512 GB PCIe Gen3 NVMe SSD, not expandable", "display": "14 in IPS WUXGA 1920 x 1200, 16:10, 300 nits, ComfyView", "graphics": "Intel integrated graphics", "operatingSystem": "Windows 11 Home Single Language 64-bit", "webcam": "FHD webcam with privacy shutter", "networking": "Wi-Fi 6, Bluetooth 5.2", "ports": "2 x USB-C, 1 x USB-A, HDMI, microSD, 3.5 mm audio", "ean": "4711474336484", "upc": "195133279000",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 139 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMACR9790", "stock": 151, "price": 7280.50, "currency": "MXN", "branch": "D2A,TAM,TXA,URP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo tenia bajo monitores, pero Acer/retailers lo identifican como laptop Aspire Lite.", "Tiendas lo nombran Core i3 N355; se normaliza a Intel Core 3 N355.", "Algunas fichas cambian el color entre azul y plata; se omite color del nombre."]
+        },
+        "measurements": { "dimensions": "314.8 x 219.7 x 17.9 mm", "weight": "1.17 kg" },
+        "sourceRefs": [{ "title": "Exel AL14-32P-39TB product data", "type": "reseller_spec", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/AEHLATAB421" }, { "title": "Acer Mexico Aspire Lite family", "type": "manufacturer", "url": "https://www.acer.com/mx-es/laptops/aspire/aspire-lite/pdp/NX.D1TAL.001" }, { "title": "CTOnline feed AL14-32P-39TB stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "uws5r5r34803c2o",
+      "research": {
+        "confidence": 0.96,
+        "name": "Laptop Acer Aspire Lite 16 AL16-54P-580M 16 WUXGA Core i5 8GB 512GB",
+        "description": "Laptop Acer Aspire Lite 16 AL16-54P-580M con pantalla IPS WUXGA de 16 pulgadas, Intel Core i5-1334U, 8 GB DDR5, SSD NVMe de 512 GB, Windows 11 Home, Wi-Fi 6, Bluetooth 5.1, RJ45 y webcam FHD con privacidad.",
+        "manualCategoryPath": "computo/laptops",
+        "semanticCategoryPath": "computo/laptops/acer-aspire-lite/16-wuxga",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/computadoras/laptops-acer-al16-54p-580m-laptop-acer-aspire-lite/nxd72al001",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/M/CP-ACER-NXD72AL001-44699a.png", "https://static.ctonline.mx/imagenes/COMACR9860/COMACR9860_5_full.jpg"],
+        "documents": [{ "label": "Acer AL16-54P-580M ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/LAPTOPACERASPIRELITE16i51334UPANTA_AL1654P580M_UPC195133310765_EAN4711121693236/LAPTOPACERASPIRELITE16i51334UPANTA_AL1654P580M_UPC195133310765_EAN4711121693236.pdf" }],
+        "specs": {
+          "brand": "Acer", "model": "AL16-54P-580M", "partNumber": "NX.D72AL.001", "providerSku": "COMACR9860", "productType": "Laptop / notebook", "family": "Aspire Lite 16", "processor": "Intel Core i5-1334U, 12 MB cache, up to 4.6 GHz", "memory": "8 GB DDR5 4800, not expandable", "storage": "512 GB PCIe Gen4 NVMe SSD, expandable up to 1 TB", "display": "16 in IPS WUXGA 1920 x 1200, 16:10, ComfyView, 45% NTSC", "operatingSystem": "Windows 11 Home Single Language 64-bit", "webcam": "FHD webcam with privacy shutter", "networking": "Wi-Fi 6 AX201, Bluetooth 5.1, Gigabit Ethernet", "ports": "2 x USB-C 3.2 Gen 1, 2 x USB-A 3.2 Gen 1, HDMI 1.4, microSD, RJ45, 3.5 mm audio", "ean": "4711121693236", "upc": "195133310765",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMACR9860", "stock": 49, "price": 8692.32, "currency": "MXN", "branch": "DFA,CUN,TAM,TXA,OAX,QRO,VER,TOL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo tenia bajo monitores; se confirma como laptop Aspire Lite.", "Algunas paginas omiten 16 pulgadas o cambian color comercial.", "La ficha menciona autonomia estimada para panel Full HD, aunque la pantalla verificada es WUXGA."]
+        },
+        "measurements": { "dimensions": "357.8 x 244.8 x 18.9 mm", "weight": "1.53 kg" },
+        "sourceRefs": [{ "title": "CompuPuebla AL16-54P-580M datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/LAPTOPACERASPIRELITE16i51334UPANTA_AL1654P580M_UPC195133310765_EAN4711121693236/LAPTOPACERASPIRELITE16i51334UPANTA_AL1654P580M_UPC195133310765_EAN4711121693236.pdf" }, { "title": "GlobalOffice AL16-54P-580M product data", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/computadoras/laptops-acer-al16-54p-580m-laptop-acer-aspire-lite/nxd72al001" }, { "title": "CTOnline feed AL16-54P-580M stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "2kl7dsdg5xzjsnl",
+      "research": {
+        "confidence": 0.9,
+        "name": "Kit teclado y mouse Acer EAK030 USB espanol negro",
+        "description": "Kit alambrico Acer EAK030 con teclado USB en espanol/LatAm y mouse USB negro. Corrige el texto del feed que decia Kids y lo normaliza como kit de teclado y mouse.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITACC010/KITACC010_full.jpg"],
+        "specs": {
+          "brand": "Acer Gadget", "model": "EAK030", "providerSku": "KITACC010", "productType": "Wired keyboard and mouse combo", "connection": "USB wired", "keyboardLayout": "Spanish / Latin America", "keyboardKeys": "104 keys in CT feed; some retailers list 104-107", "keyboardDimensions": "45 x 15 x 2.3 cm", "keyboardWeight": "430 g", "mouseButtons": "3 buttons", "mouseCable": "1.5 m USB", "mouseDimensions": "11.6 x 6.3 x 3.9 cm", "mouseWeight": "90 g", "color": "Black", "ean": "4711474176639", "upc": "195133263955",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TXA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITACC010", "stock": 7, "price": 193.33, "currency": "MXN", "branch": "TXA,HMO,SLT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El feed dice Kids; se normaliza manualmente a Kit.", "Se descartan fichas que lo describen como inalambrico o retroiluminado porque contradicen las fuentes alambicas USB.", "No se encontro DPI confiable para el mouse."]
+        },
+        "measurements": { "keyboardDimensions": "45 x 15 x 2.3 cm", "keyboardWeight": "430 g", "mouseDimensions": "11.6 x 6.3 x 3.9 cm", "mouseWeight": "90 g" },
+        "sourceRefs": [{ "title": "FeriaTecno Acer EAK030 kit USB", "type": "reseller_spec", "url": "https://www.feriatecno.com/home/1107-kit-teclado-y-mouse-alambrico-usb-negro-acer.html" }, { "title": "Falabella Acer EAK030 kit", "type": "reseller_spec", "url": "https://www.falabella.com/falabella-cl/product/146439023/Kit-Mouse-USB-Y-Teclado-Espanol-Negro-EAK030-Acer/146439024" }, { "title": "CTOnline feed EAK030 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "tzr4hd1yeelvbv4",
+      "research": {
+        "confidence": 0.97,
+        "name": "Monitor Acer EK221Q Hbi 21.5 Full HD VA 100Hz 1ms HDMI VGA FreeSync",
+        "description": "Monitor Acer EK221Q Hbi de 21.5 pulgadas Full HD con panel VA, 100 Hz por HDMI, 1 ms VRB, AMD FreeSync, entradas HDMI 1.4 y VGA, montaje VESA 100 x 100 y acabado negro.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/21-22-fhd-100hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.acer.com/mx-es/monitors/essential/ek1/pdp/UM.WE1AA.H01",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/10/MonitorEK221Q215FHD1920x10801msVRB_EK221QHbi_UPC195133156264_EAN4711121292439_0-600x448.jpg", "https://static.ctonline.mx/imagenes/MONACR1740/MONACR1740_full.jpg"],
+        "documents": [{ "label": "Acer EK221Q Hbi ficha Ingram", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b48140_0b48140.pdf" }],
+        "specs": {
+          "brand": "Acer", "model": "EK221Q Hbi", "partNumber": "UM.WE1AA.H01", "providerSku": "MONACR1740", "productType": "Monitor", "display": "21.5 in Full HD 1920 x 1080 VA", "refreshRate": "100 Hz HDMI / 75 Hz VGA", "responseTime": "1 ms VRB", "brightness": "250 cd/m2", "contrast": "1000:1 native; ACM dynamic contrast varies by source", "colorDepth": "6-bit + FRC, 72% NTSC", "sync": "AMD FreeSync", "ports": "1 x HDMI 1.4, 1 x VGA", "vesa": "100 x 100 mm", "tilt": "-5 to 20 degrees", "speakers": "No", "ean": "4711121292439", "upc": "195133156264",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "LEO", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 42 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 19 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACR1740", "stock": 108, "price": 1303.23, "currency": "MXN", "branch": "LEO,DFA,CUN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunos catalogos lo titulan 75 Hz o 5 ms; se prioriza 100 Hz HDMI y 1 ms VRB.", "Una ficha dice panel 8-bit, pero Acer Mexico detalla 6-bit + FRC."]
+        },
+        "measurements": { "dimensionsWithStand": "492.2 x 380 x 192 mm", "weightWithStand": "2.8 kg", "dimensionsWithoutStand": "492.2 x 287 x 69 mm", "weightWithoutStand": "2.4 kg" },
+        "sourceRefs": [{ "title": "Acer EK221Q Hbi official page", "type": "manufacturer", "url": "https://www.acer.com/mx-es/monitors/essential/ek1/pdp/UM.WE1AA.H01" }, { "title": "Ingram Acer EK221Q Hbi datasheet", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b48140_0b48140.pdf" }, { "title": "CompuPuebla EK221Q Hbi product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/monitores-acer-ek221q-hbi/" }, { "title": "CTOnline feed EK221Q stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "gsmt0aqemr9jxf3",
+      "research": {
+        "confidence": 0.96,
+        "name": "Monitor Acer EK241Y P0bi 23.8 Full HD VA 144Hz 1ms HDMI VGA FreeSync",
+        "description": "Monitor Acer EK241Y P0bi de 23.8 pulgadas Full HD con panel VA, 144 Hz por HDMI, 1 ms VRB, AMD FreeSync, HDMI 1.4, VGA, VESA 100 x 100 y cobertura sRGB 99%.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/24-fhd-144hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.acer.com/se-sv/monitors/essential/ek1/pdp/UM.QE0EE.005",
+        "gallery": ["https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/AE/AEHMOIAB123_zoom.png", "https://static.ctonline.mx/imagenes/MONACR1880/MONACR1880_full.jpg"],
+        "documents": [{ "label": "Acer EK241Y P0bi ficha exacta", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorEK241Y238pulgadasFHD1920x10_EK241YP0bi_UPC195133191012_EAN4711474913241/MonitorEK241Y238pulgadasFHD1920x10_EK241YP0bi_UPC195133191012_EAN4711474913241.pdf" }],
+        "specs": {
+          "brand": "Acer", "model": "EK241Y P0bi", "partNumber": "UM.QE1AA.009", "providerSku": "MONACR1880", "productType": "Monitor", "display": "23.8 in Full HD 1920 x 1080 VA", "refreshRate": "144 Hz HDMI / 75 Hz VGA", "responseTime": "1 ms VRB", "brightness": "250 nits", "contrast": "4000:1 native / 100,000,000:1 ACM", "color": "16.7 million colors, 6-bit + FRC, sRGB 99%", "sync": "AMD FreeSync / Adaptive Sync", "ports": "1 x HDMI 1.4, 1 x VGA", "vesa": "100 x 100 mm", "speakers": "No", "includedCable": "HDMI", "ean": "4711474913241", "upc": "195133191012",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 824 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACR1880", "stock": 845, "price": 1399.47, "currency": "MXN", "branch": "D2A,DFA,TXA,TXL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Fichas viejas mezclan 100 Hz IPS; la ficha exacta UM.QE1AA.009 indica VA y 144 Hz HDMI.", "La pagina oficial encontrada es una variante regional, usada solo para validar familia y formato."]
+        },
+        "measurements": { "dimensionsWithStand": "538.8 x 411 x 192 mm", "weightWithStand": "2.68 kg", "dimensionsWithoutStand": "538.8 x 318.7 x 39.3 mm", "weightWithoutStand": "2.28 kg" },
+        "sourceRefs": [{ "title": "CompuPuebla EK241Y P0bi datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorEK241Y238pulgadasFHD1920x10_EK241YP0bi_UPC195133191012_EAN4711474913241/MonitorEK241Y238pulgadasFHD1920x10_EK241YP0bi_UPC195133191012_EAN4711474913241.pdf" }, { "title": "CompuPuebla EK241Y P0bi product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/monitores-acer-ek241y-p0bi/" }, { "title": "Acer EK1 regional variant", "type": "manufacturer", "url": "https://www.acer.com/se-sv/monitors/essential/ek1/pdp/UM.QE0EE.005" }, { "title": "CTOnline feed EK241Y stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "xq6u5mkus2kgrfb",
+      "research": {
+        "confidence": 0.97,
+        "name": "Monitor Acer EK271 Gbi 27 Full HD IPS 120Hz 1ms HDMI VGA FreeSync",
+        "description": "Monitor Acer EK271 Gbi de 27 pulgadas Full HD con panel IPS, 120 Hz, 1 ms VRB, AMD FreeSync/Adaptive Sync, HDMI, VGA, VESA 100 x 100 y bocinas segun ficha regional.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/27-fhd-120hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.acer.com/mx-es/monitors/essential/ek1/pdp/UM.HE1AA.G04",
+        "gallery": ["https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/AE/AEHMOIAB119_zoom.png", "https://static.ctonline.mx/imagenes/MONACR1790/MONACR1790_4_full.jpg"],
+        "documents": [{ "label": "Acer EK271 Gbi ficha exacta", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorEK27127FHD1920x10801msHDMIx_EK271GBI_UPC195133311519_EAN4711474549075/MonitorEK27127FHD1920x10801msHDMIx_EK271GBI_UPC195133311519_EAN4711474549075.pdf" }],
+        "specs": {
+          "brand": "Acer", "model": "EK271 Gbi", "partNumber": "UM.HE1AA.G04", "providerSku": "MONACR1790", "productType": "Monitor", "display": "27 in Full HD 1920 x 1080 IPS", "refreshRate": "120 Hz", "responseTime": "1 ms VRB", "brightness": "250 nits", "contrast": "1500:1 native / 100,000,000:1 ACM", "viewingAngles": "178 / 178 degrees", "color": "16.7 million colors", "sync": "AMD FreeSync / Adaptive Sync", "ports": "1 x HDMI, 1 x VGA", "vesa": "100 x 100 mm", "tilt": "-5 to 20 degrees", "speakers": "Yes in MX datasheet", "audioOut": "3.5 mm", "ean": "4711474549075", "upc": "195133311519",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CUE", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACR1790", "stock": 4, "price": 1743.01, "currency": "MXN", "branch": "CUE,TRN,ACA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunos marketplaces lo llaman Vero; Acer lo muestra como EK1/Essential.", "El feed omitio Hz, pero la ficha exacta confirma 120 Hz."]
+        },
+        "measurements": { "dimensionsWithStand": "612 x 468 x 200 mm", "weightWithStand": "4.4 kg", "dimensionsWithoutStand": "612 x 363 x 45 mm", "weightWithoutStand": "3.0 kg" },
+        "sourceRefs": [{ "title": "Acer EK271 Gbi official page", "type": "manufacturer", "url": "https://www.acer.com/mx-es/monitors/essential/ek1/pdp/UM.HE1AA.G04" }, { "title": "CompuPuebla EK271 Gbi datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorEK27127FHD1920x10801msHDMIx_EK271GBI_UPC195133311519_EAN4711474549075/MonitorEK27127FHD1920x10801msHDMIx_EK271GBI_UPC195133311519_EAN4711474549075.pdf" }, { "title": "CompuPuebla EK271 Gbi product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/monitores-acer-ek271-gbi/" }, { "title": "CTOnline feed EK271 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "jg1vpirx5mu7943",
+      "research": {
+        "confidence": 0.92,
+        "name": "Kit teclado y mouse inalambrico Acer Gadget EKW111-SP 2.4GHz negro",
+        "description": "Combo inalambrico Acer Gadget EKW111-SP con teclado espanol de 104 teclas y mouse optico de 1200 DPI, conexion 2.4 GHz, color negro y alcance publicado de 6 a 10 m segun distribuidor.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos-2-4ghz",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITACC020/KITACC020_full.jpg"],
+        "specs": {
+          "brand": "Acer Gadget", "model": "EKW111", "providerSku": "KITACC020", "productType": "Wireless keyboard and mouse combo", "connection": "2.4 GHz wireless", "keyboardLayout": "Spanish", "keyboardKeys": "104 keys", "mouseResolution": "1200 DPI", "mouseButtons": "3 buttons", "compatibility": "Windows / Mac OS in distributor sheets", "range": "6-10 m depending source", "color": "Black", "ean": "4711474176769", "upc": "195133264082",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITACC020", "stock": 25, "price": 281.11, "currency": "MXN", "branch": "DFA,TXA,ACX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunas fuentes publican dimensiones de empaque y otras de producto; se separan ambos datos.", "No se encontro ficha oficial individual de Acer para este SKU."]
+        },
+        "measurements": { "keyboardDimensions": "445 x 140 x 26 mm", "mouseDimensions": "110 x 63 x 31 mm", "packageDimensions": "53.1 x 4.1 x 15.6 cm", "packageWeight": "0.7 kg" },
+        "sourceRefs": [{ "title": "Lapson Mexico EKW111-SP product data", "type": "reseller_spec", "url": "https://lapsonmexico.com/product/kit-teclado-y-mouse-inlambrico-acer-gadget-ekw111-sp-negro/" }, { "title": "Sonrobots EKW111 product data", "type": "reseller_spec", "url": "https://sonrobots.com/producto/kits-para-teclado-y-mouse-acer-ekw111-kit-mouse-y-teclado-acer-ekw111-sp-negro/" }, { "title": "CTOnline feed EKW111 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "wjv7jbf43j5yfws",
+      "research": {
+        "confidence": 0.93,
+        "name": "Mouse inalambrico recargable Acer Gadget EMR213-BK 1600 DPI negro",
+        "description": "Mouse recargable Acer Gadget EMR213-BK color negro, con conectividad 2.4 GHz y Bluetooth dual, 6 botones, DPI ajustable 800/1200/1600, bateria de 500 mAh y carga USB-C.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/recargables-bluetooth",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUACC020/MOUACC020_full.jpg"],
+        "documents": [{ "label": "Acer EMR213-BK ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MOUSEINALAMBRICOACEREMR213BKNEGRO_EMR213BK_UPC195133264013_EAN4711474176691/MOUSEINALAMBRICOACEREMR213BKNEGRO_EMR213BK_UPC195133264013_EAN4711474176691.pdf" }],
+        "specs": {
+          "brand": "Acer Gadget", "model": "EMR213-BK", "providerSku": "MOUACC020", "productType": "Wireless rechargeable mouse", "connection": "2.4 GHz wireless + Bluetooth 1 / Bluetooth 2", "resolution": "800 / 1200 / 1600 DPI", "buttons": "6 buttons, silent click", "battery": "500 mAh rechargeable", "charging": "USB-C", "material": "Plastic", "color": "Black", "origin": "China", "ean": "4711474176691", "upc": "195133264013",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUACC020", "stock": 23, "price": 260.00, "currency": "MXN", "branch": "CTZ,DFT,DGO,AGS,VHA,DFP,DFC,SLT,MAZ,CUE,TOL,IRA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["No se encontro ficha oficial individual Acer; se usa PDF de distribuidor con EAN/UPC exactos."]
+        },
+        "measurements": { "dimensions": "74.5 x 113 x 42 mm", "weight": "94.5-95 g" },
+        "sourceRefs": [{ "title": "CompuPuebla EMR213-BK datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MOUSEINALAMBRICOACEREMR213BKNEGRO_EMR213BK_UPC195133264013_EAN4711474176691/MOUSEINALAMBRICOACEREMR213BKNEGRO_EMR213BK_UPC195133264013_EAN4711474176691.pdf" }, { "title": "Innovacion y Tecnologia EMR213-BK", "type": "reseller_spec", "url": "https://innovacionytecnologia.net/products/mouse-acer-emr213-bk" }, { "title": "CTOnline feed EMR213-BK stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "5ppc1acfmrtow2d",
+      "research": {
+        "confidence": 0.9,
+        "name": "Mouse inalambrico recargable Acer Gadget EMR213-WH 1600 DPI blanco",
+        "description": "Mouse recargable Acer Gadget EMR213-WH color blanco, con conectividad inalambrica, 6 botones, DPI ajustable 800/1200/1600, bateria de 500 mAh y carga USB-C.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/recargables-bluetooth",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUACC030/MOUACC030_full.jpg"],
+        "documents": [{ "label": "Acer EMR213-WH ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MOUSEINALAMBRICOACEREMR213WHBLANCO_EMR213WH/MOUSEINALAMBRICOACEREMR213WHBLANCO_EMR213WH.pdf" }],
+        "specs": {
+          "brand": "Acer Gadget", "model": "EMR213-WH", "providerSku": "MOUACC030", "productType": "Wireless rechargeable mouse", "connection": "Wireless, 2.4 GHz receiver per retailers", "resolution": "800 / 1200 / 1600 DPI", "buttons": "6 buttons", "battery": "500 mAh rechargeable", "charging": "USB-C", "range": "Up to 10 m in retailer sheets", "compatibility": "Windows / macOS / ChromeOS / Android in retailer sheets", "color": "White",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "SIN_SUCURSAL", "stock": 7 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUACC030", "stock": 53, "price": 260.00, "currency": "MXN", "branch": "CTZ,TAM,PUE,SLT,MTY,PAC,CMT,CLN,DGO,CHI,XLP,CUE,SIN_SUCURSAL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El resumen de sucursales visible suma 46, pero el stock total CT es 53; se agrega SIN_SUCURSAL para conservar la diferencia.", "La ficha PDF del modelo blanco contiene una etiqueta de color Negro y un codigo de barras truncado; no se carga EAN/UPC hasta confirmar.", "PC Digital reporta un codigo alterno no corroborado."]
+        },
+        "measurements": { "dimensions": "74.5 x 113 x 42 mm", "weight": "94.5-95 g" },
+        "sourceRefs": [{ "title": "CompuPuebla EMR213-WH datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MOUSEINALAMBRICOACEREMR213WHBLANCO_EMR213WH/MOUSEINALAMBRICOACEREMR213WHBLANCO_EMR213WH.pdf" }, { "title": "CTOnline feed EMR213-WH stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "5fnhm8lnubyn86s",
+      "research": {
+        "confidence": 0.88,
+        "name": "Mouse inalambrico Acer EMW211 1600 DPI gris",
+        "description": "Mouse inalambrico Acer EMW211 color gris, con sensor optico de 1600 DPI, 5 botones y formato compacto para oficina o movilidad.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/oficina-1600dpi",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUACC010/MOUACC010_full.jpg"],
+        "specs": {
+          "brand": "Acer", "model": "EMW211", "providerSku": "MOUACC010", "productType": "Wireless mouse", "connection": "Wireless", "sensor": "Optical", "resolution": "1600 DPI", "buttons": "5 buttons", "color": "Gray", "ean": "4711474176806", "upc": "195133264129",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUACC010", "stock": 14, "price": 193.33, "currency": "MXN", "branch": "MTY,MAZ,DGO,AGS,XLP,CUE,ZAC,CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Retailers varian entre 70 g y 100 g; se usa el dato compacto de 70 g como principal y se deja peso alterno en discrepancia.", "La ficha CT indica 5 botones y 1600 DPI; no se encontro pagina oficial exacta de Acer."]
+        },
+        "measurements": { "dimensions": "112.8 x 57.6 x 26 mm", "weight": "70 g" },
+        "sourceRefs": [{ "title": "FullOffice Acer EMW211 product data", "type": "reseller_spec", "url": "https://fulloffice.com/products/mouse-acer-emw211" }, { "title": "Cellshop Acer EMW211 product data", "type": "reseller_spec", "url": "https://cellshop.com/5035229-mouse-acer-emw211-1600dpi-black-grey-inalambrico" }, { "title": "Danawa Acer EMW211 product data", "type": "reseller_spec", "url": "https://prod.danawa.com/info/?pcode=90505844" }, { "title": "CTOnline feed EMW211 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    }
+  ]
+}

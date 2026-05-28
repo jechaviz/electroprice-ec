@@ -273,6 +273,16 @@ const researchedBatchCases = [
   ["APC BX850M-LM60 Back-UPS Pro 850VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
   ["APC RBC2 cartucho de bateria de recambio", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
   ["APC RBC23 bateria de reemplazo Smart-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["Acer Aspire Lite AL14-32P-39TB laptop Core 3 N355 14 WUXGA", "ACER", "computo/laptops"],
+  ["Acer Aspire Lite AL16-54P-580M laptop Core i5 16 WUXGA", "ACER", "computo/laptops"],
+  ["Acer EAK030 kit teclado y mouse USB negro", "ACER", "computo/perifericos/combos-teclado-mouse"],
+  ["Acer EK221Q Hbi monitor 21.5 FHD 100Hz", "ACER", "computo/monitores/oficina"],
+  ["Acer EK241Y P0bi monitor 23.8 FHD 144Hz", "ACER", "computo/monitores/gaming"],
+  ["Acer EK271 GBI monitor 27 FHD 120Hz", "ACER", "computo/monitores/oficina"],
+  ["Acer EKW111 combo teclado y mouse inalambrico", "ACER", "computo/perifericos/combos-teclado-mouse"],
+  ["Acer EMR213-BK mouse inalambrico 1600 DPI", "ACER", "computo/perifericos/mouse/inalambricos"],
+  ["Acer EMR213-WH wireless mouse blanco 1600 DPI", "ACER", "computo/perifericos/mouse/inalambricos"],
+  ["Acer EMW211 mouse inalambrico gris 1600 DPI", "ACER", "computo/perifericos/mouse/inalambricos"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
