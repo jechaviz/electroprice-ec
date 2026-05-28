@@ -1,0 +1,239 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b044-2026-05-28",
+  "cycle": 3,
+  "batch": 44,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "09q640nsrxr5j7r",
+      "research": {
+        "confidence": 0.96,
+        "name": "Cargador OvalTech OTAC-E65 para laptop Asus 33W 19V 1.75A punta 4.0 x 1.35 mm USB negro",
+        "description": "Adaptador de corriente OvalTech OTAC-E65 para laptop Asus con potencia de 33W, salida principal 19V/1.75A segun canal, puerto USB 5V/2.1A y punta tipo aguja 4.0 x 1.35 mm.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/asus-33w-4-0x1-35",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/shop/adaptadores/asus/cargador-ovaltech-4-0x1-35-laptop-asus-2-anos-garantia-f201e/",
+        "gallery": ["https://www.ovaltech.com.mx/wp-content/uploads/2022/06/OTAC-E65-TODOSLADOS.jpg", "https://www.ovaltech.com.mx/wp-content/uploads/2022/06/OTAC-E65.png", "https://static.ctonline.mx/imagenes/ACCOVL310/ACCOVL310_full.jpg"],
+        "documents": [{ "label": "Configurador express OvalTech", "type": "datasheet", "url": "https://www.ovaltech.com.mx/wp-content/uploads/2025/11/Configurador-express-OvalTech.pdf" }],
+        "specs": {
+          "brand": "OvalTech", "model": "OTAC-E65", "partNumber": "OTAC-E65", "providerSku": "ACCOVL310", "productType": "Laptop AC adapter", "compatibility": "Asus Taichi, VivoBook, F201E, S200E, X201E, X202E and compatible 4.0 x 1.35 mm systems", "power": "33W", "input": "100-240V ~ 1.5A 50/60Hz", "output": "19V/1.75A in provider feed; 19.5V/1.75A in OvalTech official label", "usbOutput": "5V 2.1A", "tip": "4.0 x 1.35 mm needle tip", "color": "Negro", "upc": "812772007466",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCOVL310", "stock": 22, "price": 14.06, "currency": "USD", "branch": "DFA,CAM,SLT,D2A,LMO,GDL,MTY,TPC,DFP,DFT,ACA,ACX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lista 19V/1.75AH; la fuente oficial OvalTech normaliza a 19.5V/1.75A y AH es unidad incorrecta para cargador.", "Algunas tiendas mezclan 40W o compatibilidad HP/Compaq; para OTAC-E65 se usa Asus 33W punta 4.0 x 1.35 mm.", "Precio CT en USD es mayorista y no comparable directamente con retail MXN."]
+        },
+        "measurements": { "dimensions": "110 x 50 x 30 mm", "weight": "300 g unverified reseller reference" },
+        "sourceRefs": [{ "title": "OvalTech OTAC-E65 official page", "type": "manufacturer", "url": "https://www.ovaltech.com.mx/shop/adaptadores/asus/cargador-ovaltech-4-0x1-35-laptop-asus-2-anos-garantia-f201e/" }, { "title": "GlobalOffice OTAC-E65 product data", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-laptops/adaptador-de-corriente-ovaltech-19v175ah-usb-car/otac-e65" }, { "title": "CTOnline feed ACCOVL310 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "1z7oy3759eozwbz",
+      "research": {
+        "confidence": 0.95,
+        "name": "Rollo de papel bond PCM B7670 76 x 70 mm blanco caja con 50 rollos",
+        "description": "Rollo de papel bond satinado PCM B7670 para punto de venta e impresoras de impacto, formato 76 mm x 70 mm, color blanco y presentacion comercial de caja con 50 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-bond",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-bond/76x70-c50",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/rollo-pcm-bond-sencillo-b7670-piezas-94639",
+        "gallery": ["https://www.exel.com.mx/imgProducto/PMPPAPAD055.png", "https://static.ctonline.mx/imagenes/ACCPCM020/ACCPCM020_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "B7670", "partNumber": "B7670", "providerSku": "ACCPCM020", "productType": "Bond POS paper roll", "paperType": "Bond satinado sencillo", "color": "Blanco", "rollSize": "76 x 70 mm", "packageQuantity": "50 rollos", "ean": "7501604300082",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "XLP", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM020", "stock": 97, "price": 397.73, "currency": "MXN", "branch": "XLP,CUN,HMO,LEO,PUE,QRO,TXA,OBR,MTY,DGO,MOR,OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["GlobalOffice muestra EAN/UPC como B7670 en algunos datos; CTI y el feed confirman 7501604300082.", "Algunas tiendas reducen el ancho a 7 cm; se conserva 76 mm por consenso de SKU.", "Peso de caja 10 kg y empaque 19 x 12 x 15 cm aparecen en retail, confianza media."]
+        },
+        "measurements": { "rollDimensions": "76 x 70 mm", "packageWeight": "10 kg reseller reference", "packageDimensions": "19 x 12 x 15 cm reseller reference" },
+        "sourceRefs": [{ "title": "Intercompras B7670 product data", "type": "reseller_spec", "url": "https://intercompras.com/p/rollo-pcm-bond-sencillo-b7670-piezas-94639" }, { "title": "CTI Systems B7670 product data", "type": "reseller_spec", "url": "https://ctisystems.mx/rollo-de-papel-pcm-b7670-rollos-color-blanco" }, { "title": "Exel B7670 product image", "type": "reseller_image", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/PMPPAPAD055" }, { "title": "CTOnline feed B7670 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "0eyylhydd0ogvgk",
+      "research": {
+        "confidence": 0.94,
+        "name": "Rollo de papel autocopia PCM EBA5760 57 x 60 mm blanco amarillo caja con 100 rollos",
+        "description": "Rollo autocopiante PCM EBA5760 para comprobantes POS con copia, formato 57 mm x 60 mm, colores blanco/amarillo y presentacion comercial de caja con 100 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-autocopia",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-autocopia/57x60-c100",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/rollo-de-papel-pcm-eba5760/",
+        "gallery": ["https://www.exel.com.mx/imgProducto/PMPPAPAD060.png", "https://static.ctonline.mx/imagenes/ACCPCM060/ACCPCM060_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "EBA5760", "partNumber": "EBA5760", "providerSku": "ACCPCM060", "productType": "Autocopy POS paper roll", "paperType": "Autocopiante / carbonless", "color": "Blanco/amarillo", "rollSize": "57 x 60 mm", "packageQuantity": "100 rollos", "ean": "7501604300136",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CHI", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM060", "stock": 1, "price": 801.14, "currency": "MXN", "branch": "CHI" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["MIPC reporta GTIN 7501604301201, conflictivo con el EAN del feed y varias fuentes; se conserva 7501604300136.", "Algunas fuentes lo titulan bond, pero CompuPuebla/Oasify/Cyberpuerta lo confirman como autocopia blanco/amarillo."]
+        },
+        "measurements": { "rollDimensions": "57 x 60 mm" },
+        "sourceRefs": [{ "title": "CompuPuebla EBA5760 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollo-de-papel-pcm-eba5760/" }, { "title": "Oasify EBA5760 product data", "type": "reseller_spec", "url": "https://oasify.com/papel-etiquetas-y-rollos/267541-rollo-de-papel-pcm-autocopia-eba5760-blancoamarillo-100-rollos-7501604300136.html" }, { "title": "Cyberpuerta EBA5760 product data", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Papeles-para-Impresoras/Papel-POS/PCM-Rollo-de-Papel-Autocopia-60-x-57mm-Blanco-Amarillo-100-Rollos.html" }, { "title": "CTOnline feed EBA5760 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "hlcfd3x2sfwoiev",
+      "research": {
+        "confidence": 0.95,
+        "name": "Rollo de papel autocopia PCM BRA7670 76 x 70 mm blanco rosa amarillo caja con 50 rollos",
+        "description": "Rollo autocopiante PCM BRA7670 para impresoras de matriz de punto y POS, formato 76 mm x 70 mm, colores blanco/rosa/amarillo y caja con 50 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-autocopia",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-autocopia/76x70-c50",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.mx/app/detalle/producto/consumibles/rollo-de-papel-pcm-bra7670-rollo-autocopiante-bra7670-76x70/bra7670",
+        "gallery": ["https://www.exel.com.mx/imgProducto/PMPPAPAD004.png", "https://static.ctonline.mx/imagenes/ACCPCM090/ACCPCM090_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "BRA7670", "partNumber": "BRA7670", "providerSku": "ACCPCM090", "productType": "Autocopy POS paper roll", "paperType": "Autocopiante / carbonless", "color": "Blanco/rosa/amarillo", "rollSize": "76 x 70 mm", "core": "12 mm in Royal Office detail", "packageQuantity": "50 rollos", "ean": "7501604300174",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "VER", "stock": 56 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 45 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM090", "stock": 246, "price": 963.07, "currency": "MXN", "branch": "VER,DFP,LEO,TAM,OAX,TXA,HMO,XLP,DGO,AGS,MOR,CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Varias fuentes venden rollo individual alrededor de 27-32 MXN y otras caja C/50 alrededor de 1260-1450 MXN; precio CT parece caja mayorista.", "R/B/A se interpreta como rosa/blanco/amarillo o blanco/rosa/amarillo segun fuente; se normaliza a blanco/rosa/amarillo."]
+        },
+        "measurements": { "rollDimensions": "76 x 70 mm", "packageWeight": "7 kg reseller reference", "packageDimensions": "30 x 30 x 25 cm reseller reference" },
+        "sourceRefs": [{ "title": "GlobalOffice BRA7670 product data", "type": "reseller_spec", "url": "https://globaloffice.mx/app/detalle/producto/consumibles/rollo-de-papel-pcm-bra7670-rollo-autocopiante-bra7670-76x70/bra7670" }, { "title": "CompuPuebla BRA7670 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollo-de-papel-pcm-bra7670/" }, { "title": "Royal Office BRA7670 product data", "type": "reseller_spec", "url": "https://royaloffice.com.mx/producto/rollo-autocopia-76x70-mm-3-colores-c-50/" }, { "title": "CTOnline feed BRA7670 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "nvnr3a6410014wt",
+      "research": {
+        "confidence": 0.88,
+        "name": "Rollo bond PCM B38X70 blanco B3870",
+        "description": "Rollo bond PCM B38X70/B3870 color blanco para uso POS e impresoras de impacto. El canal CTOnline lo mantiene con stock bajo aunque el estado del proveedor indica descontinuado.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-bond",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-bond/descontinuado-stock-bajo",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/rollo-bond-pcm-b38x70/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM100/ACCPCM100_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "B38X70", "partNumber": "B3870", "providerSku": "ACCPCM100", "productType": "Bond POS paper roll", "paperType": "Bond sencillo", "color": "Blanco", "ean": "7501604300051", "ctonlineStatus": "Descontinuado",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MOR", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM100", "stock": 2, "price": 477.27, "currency": "MXN", "branch": "MOR" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Modelo aparece como B38X70 pero numero de parte como B3870.", "No se encontro ficha confiable con medidas/paquete exactos; no se infiere 38 x 70 como spec verificada.", "Aztecacompras lo clasifica como papel fotografico, probablemente error.", "CTOnline marca descontinuado aunque aun reporta stock 2 en MOR."]
+        },
+        "sourceRefs": [{ "title": "CompuPuebla B38X70 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollo-bond-pcm-b38x70/" }, { "title": "InterDS B38X70 product data", "type": "reseller_spec", "url": "https://inter-ds.com/products/rollo-bond-pcm-b38x70-rollos-de-papel-color-blanco" }, { "title": "Oasify B38X70 product data", "type": "reseller_spec", "url": "https://oasify.com/inicio/267542-rollo-bond-pcm-b38x70.html" }, { "title": "CTOnline feed B38X70 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "s9o18e2sp87kwh1",
+      "research": {
+        "confidence": 0.94,
+        "name": "Rollo de papel bond PCM B5760 57 x 60 mm blanco caja con 100 rollos",
+        "description": "Rollo de papel bond satinado PCM B5760 para punto de venta e impresoras de impacto, formato 57 mm x 60 mm, color blanco y presentacion comercial referida como caja con 100 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-bond",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-bond/57x60-c100",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://oasify.com/papel-etiquetas-y-rollos/120086-rollo-de-papel-bond-satinado-pcm-b5760-blanco-1-rollo.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM120/ACCPCM120_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "B5760", "partNumber": "B5760", "providerSku": "ACCPCM120", "productType": "Bond POS paper roll", "paperType": "Bond satinado sencillo", "color": "Blanco", "rollSize": "57 x 60 mm", "maxLength": "30 m in CTI/PCStore", "packageQuantity": "100 rollos in InterDS", "ean": "7501604301669",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM120", "stock": 24, "price": 454.55, "currency": "MXN", "branch": "ZAC,VER,DGO,CUE,IRA,XLP,DFP,DFT,URP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["GlobalOffice/Aztecacompras muestran precio unitario bajo, mientras InterDS y otros sugieren caja/paquete; precio CT parece caja mayorista.", "CompuPuebla reporta cantidad 1 como unidad de venta/caja, no necesariamente un rollo individual."]
+        },
+        "measurements": { "rollDimensions": "57 x 60 mm", "packageDimensions": "15.4 x 17 x 29 cm reseller reference", "packageWeight": "4.1 kg reseller reference" },
+        "sourceRefs": [{ "title": "Oasify B5760 product data", "type": "reseller_spec", "url": "https://oasify.com/papel-etiquetas-y-rollos/120086-rollo-de-papel-bond-satinado-pcm-b5760-blanco-1-rollo.html" }, { "title": "InterDS B5760 product data", "type": "reseller_spec", "url": "https://inter-ds.com/products/rollo-de-papel-pcm-b5760-57-x-60-rollos-de-papel-color-blanco-100-piezas" }, { "title": "CTI Systems B5760 product data", "type": "reseller_spec", "url": "https://ctisystems.mx/rollo-de-papel-pcm-b5760-x-rollos-color-blanco" }, { "title": "CTOnline feed B5760 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "msxfoztlc778ogm",
+      "research": {
+        "confidence": 0.96,
+        "name": "Rollo termico PCM T5760 57 x 60 mm blanco caja con 100 rollos",
+        "description": "Rollo termico sencillo PCM T5760 para tickets POS, formato 57 mm de ancho x 60 mm de diametro, libre de BPA segun CTI y presentacion comercial caja con 100 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/57x60-c100",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctisystems.mx/rollo-de-papel-pcm-t5760-termico-sencillo-57x60-mm-c100",
+        "gallery": ["https://www.exel.com.mx/imgProducto/PMPPAPAD007.png", "https://static.ctonline.mx/imagenes/ACCPCM150/ACCPCM150_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "T5760", "partNumber": "T5760", "providerSku": "ACCPCM150", "productType": "Thermal POS paper roll", "paperType": "Termico sencillo", "color": "Blanco", "rollSize": "57 x 60 mm", "core": "1.2 cm", "bpaFree": "Yes in CTI data", "packageQuantity": "100 rollos", "ean": "7501604300327",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "SLP", "stock": 57 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 11 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM150", "stock": 320, "price": 884.66, "currency": "MXN", "branch": "SLP,VER,ACA,HMO,ZAC,CEL,TAM,CLN,LEO,TOL,OBR,MOR" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunas fuentes agregan largo 41-44 m; se guarda medida fisica 57 x 60 mm y no se promete largo sin fabricante.", "GlobalOffice muestra precio unitario bajo aunque el titulo dice C/100."]
+        },
+        "measurements": { "rollDimensions": "57 x 60 mm", "coreDiameter": "1.2 cm", "packageDimensions": "25.5 x 29.6 x 30.3 cm medium-confidence reseller reference", "packageWeight": "13.5 kg medium-confidence reseller reference" },
+        "sourceRefs": [{ "title": "CTI Systems T5760 product data", "type": "reseller_spec", "url": "https://ctisystems.mx/rollo-de-papel-pcm-t5760-termico-sencillo-57x60-mm-c100" }, { "title": "CompuPuebla T5760 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollo-de-papel-pcm-t5760/" }, { "title": "CTOnline feed T5760 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "50s00kq53gvkoin",
+      "research": {
+        "confidence": 0.96,
+        "name": "Rollo termico PCM T5745 57 x 45 mm blanco caja con 175 rollos",
+        "description": "Rollo termico sencillo PCM T5745 para miniprinter POS de 58 mm, formato 57 mm x 45 mm, nucleo de 1.2 cm, libre de BPA segun CTI/Oasify y caja con 175 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/57x45-c175",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/producto/pdf/t5745",
+        "gallery": ["https://intercompras.com/images/product/PCM_T5745.jpg", "https://static.ctonline.mx/imagenes/ACCPCM170/ACCPCM170_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "T5745", "partNumber": "T5745", "providerSku": "ACCPCM170", "productType": "Thermal POS paper roll", "paperType": "Termico sencillo", "color": "Blanco", "rollSize": "57 x 45 mm", "core": "1.2 cm", "bpaFree": "Yes in CTI/Oasify data", "packageQuantity": "175 rollos", "ean": "7501604300310",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM170", "stock": 99, "price": 811.36, "currency": "MXN", "branch": "ZAC,PUE,MOR,OAX,CAM,QRO,HMO,ACA,VER,OBR,XLP,CHI" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunas fichas dicen cantidad 1 aunque el nombre comercial dice C/175; se interpreta como una caja/unidad de venta.", "Peso de caja 12.1 kg y empaque 25.9 x 29.6 x 30 cm vienen de fuentes de confianza media-baja."]
+        },
+        "measurements": { "rollDimensions": "57 x 45 mm", "coreDiameter": "1.2 cm", "packageDimensions": "25.9 x 29.6 x 30 cm medium-low confidence reseller reference", "packageWeight": "12.1 kg medium-low confidence reseller reference" },
+        "sourceRefs": [{ "title": "GlobalOffice T5745 PDF product data", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/t5745" }, { "title": "CompuPuebla T5745 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollo-de-papel-pcm-t5745/" }, { "title": "CTOnline feed T5745 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "gre0y5phzvaf1zm",
+      "research": {
+        "confidence": 0.96,
+        "name": "Rollo termico PCM T8070C50 80 x 70 mm blanco caja con 50 rollos",
+        "description": "Rollo termico sencillo PCM T8070C50 para tickets y recibos POS, formato 80 mm x 70 mm, color blanco, libre de BPA segun familia PCM y presentacion caja con 50 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70-c50",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.com.mx/app/detalle/producto/consumibles/rollo-de-papel-pcm-t8070c50-rollo-termico-sencillo/t8070c50",
+        "gallery": ["https://inter-ds.com/cdn/shop/files/ACCPCM180_full_large.jpg?v=1726193073", "https://www.exel.com.mx/imgProducto/PMPPAPAD012.png", "https://static.ctonline.mx/imagenes/ACCPCM180/ACCPCM180_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "T8070C50", "partNumber": "T8070C50", "providerSku": "ACCPCM180", "productType": "Thermal POS paper roll", "paperType": "Termico sencillo", "color": "Blanco", "rollSize": "80 x 70 mm", "packageQuantity": "50 rollos", "ean": "7501604300358",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TAM", "stock": 70 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 64 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 59 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 53 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 53 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 52 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 44 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 43 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 37 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 18 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM180", "stock": 755, "price": 784.09, "currency": "MXN", "branch": "TAM,URP,CUN,LEO,D2A,HMO,TPC,DGO,MOR,DFT,DFA,PUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Peso de caja varia entre menor a 5 kg, 6 kg y 10 kg; se guarda 6 kg como referencia operativa con nota.", "GlobalOffice reporta stock propio diferente al feed CTOnline; se conserva feed CTOnline para sincronizacion."]
+        },
+        "measurements": { "rollDimensions": "80 x 70 mm", "packageWeight": "6 kg reseller operational reference" },
+        "sourceRefs": [{ "title": "GlobalOffice T8070C50 product data", "type": "reseller_spec", "url": "https://www.globaloffice.com.mx/app/detalle/producto/consumibles/rollo-de-papel-pcm-t8070c50-rollo-termico-sencillo/t8070c50" }, { "title": "Oasify T8070C50 product data", "type": "reseller_spec", "url": "https://oasify.com/papel-etiquetas-y-rollos/120092-rollo-de-papel-termico-pcm-t8070c50-blanco-50-rollos-7501604300358.html" }, { "title": "CTOnline feed T8070C50 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "moe6w17lq9dk64i",
+      "research": {
+        "confidence": 0.96,
+        "name": "Rollo termico PCM T8080 80 x 80 mm blanco caja con 50 rollos",
+        "description": "Rollo termico sencillo PCM T8080 para impresoras de tickets POS de 80 mm, formato 80 mm de ancho x 80 mm de diametro, nucleo 1.2 cm y presentacion caja con 50 rollos.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x80-c50",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.propapel.mx/index.php?product_id=471&route=product%2Fproduct",
+        "gallery": ["https://inter-ds.com/cdn/shop/files/ACCPCM200_full_large.jpg?v=1726193076", "https://static.ctonline.mx/imagenes/ACCPCM200/ACCPCM200_2_full.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "T8080", "partNumber": "T8080", "providerSku": "ACCPCM200", "productType": "Thermal POS paper roll", "paperType": "Termico sencillo", "color": "Blanco", "rollSize": "80 x 80 mm", "core": "1.2 cm", "bpaFree": "Yes in CTI data", "packageQuantity": "50 rollos", "ean": "7501604300372",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TRN", "stock": 51 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM200", "stock": 298, "price": 1073.86, "currency": "MXN", "branch": "TRN,LEO,DFC,PUE,DGO,COL,HMO,DFP,CUN,CLN,MID,OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["GlobalOffice relaciona T8080S con el mismo EAN y medidas 80 x 78 mm; para ACCPCM200/T8080 se conserva 80 x 80 mm por CTOnline/CompuPuebla/CTI.", "CompuPuebla reporta cantidad 1 como unidad de venta/caja."]
+        },
+        "measurements": { "rollDimensions": "80 x 80 mm", "coreDiameter": "1.2 cm", "packageDimensions": "42 x 17.1 x 42 cm reseller reference", "packageWeight": "18.4 kg reseller reference" },
+        "sourceRefs": [{ "title": "Propapel PCM T8080 product data", "type": "reseller_spec", "url": "https://www.propapel.mx/index.php?product_id=471&route=product%2Fproduct" }, { "title": "CompuPuebla T8080 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollo-de-papel-pcm-t8080/" }, { "title": "CTOnline feed T8080 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    }
+  ]
+}

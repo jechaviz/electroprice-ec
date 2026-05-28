@@ -303,6 +303,16 @@ const researchedBatchCases = [
   ["Acteck Kioto GC240 AC-932547 gabinete mini torre", "ACTECK", "computo/componentes/gabinetes"],
   ["Acteck Inspire TN220 AC-932622 teclado numerico USB", "ACTECK", "computo/perifericos/teclados/numericos"],
   ["Acteck Kioto GC220 AC-933063 gabinete micro ATX slim", "ACTECK", "computo/componentes/gabinetes"],
+  ["OvalTech OTAC-E65 adaptador corriente laptop ASUS 19V 1.75A USB", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["PCM B7670 rollo papel bond 76 x 70 punto venta", "PCM", "punto-de-venta/consumibles/rollos-bond"],
+  ["PCM EBA5760 rollo autocopia blanco amarillo 57 x 60", "PCM", "punto-de-venta/consumibles/rollos-autocopia"],
+  ["PCM BRA7670 rollo autocopiante 76 x 70 R/B/A", "PCM", "punto-de-venta/consumibles/rollos-autocopia"],
+  ["PCM B38X70 rollo bond blanco", "PCM", "punto-de-venta/consumibles/rollos-bond"],
+  ["PCM B5760 rollo bond satinado 57 x 60", "PCM", "punto-de-venta/consumibles/rollos-bond"],
+  ["PCM T5760 rollo termico 57 x 60 c100", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
+  ["PCM T5745 rollo termico 57 x 45 c175", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
+  ["PCM T8070C50 rollo termico 80 x 70 c50", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
+  ["PCM T8080 rollo termico 80 x 80", "PCM", "punto-de-venta/consumibles/rollos-termicos"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
