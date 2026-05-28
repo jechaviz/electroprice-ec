@@ -41,6 +41,8 @@ export const MANUAL_CATEGORY_TREE = [
   { path: 'punto-de-venta/credenciales-identificacion', name: 'Credenciales e identificacion', legacyCategory: 'laptops' },
   { path: 'seguridad/control-acceso/biometricos', name: 'Biometricos de control de acceso', legacyCategory: 'laptops' },
   { path: 'seguridad/cctv/camaras', name: 'Camaras CCTV', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/camaras-ip-wifi', name: 'Camaras IP WiFi', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/camaras-turbohd', name: 'Camaras TurboHD analogicas', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/accesorios-cableado', name: 'Accesorios y cableado CCTV', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/dvr-nvr', name: 'DVR y NVR', legacyCategory: 'cameras' },
   { path: 'telefonia/smartphones', name: 'Smartphones', legacyCategory: 'smartphones' },
@@ -61,6 +63,8 @@ export const MANUAL_CATEGORY_TREE = [
 
 const rules = [
   ['seguridad/cctv/dvr-nvr', /\b(dvr|nvr|grabador|xvr)\b/],
+  ['seguridad/cctv/camaras-ip-wifi', /\b(ezviz|cs bc1c|cs eb3|cs h80f|scam3db|camara ip|camera ip|camara wifi|camera wifi)\b/],
+  ['seguridad/cctv/camaras-turbohd', /\b(turbohd|turbo hd|ds2ce|ds 2ce|b8turbo|b8 turbo|colorvu|tvi ahd cvi cvbs)\b/],
   ['seguridad/cctv/camaras', /\b(camara|camera|ipc|hac|dahua|hikvision|uniview|bullet|domo|turret)\b/],
   ['redes/access-points', /\b(access point|ap\b|eap|uap|wifi|wi fi|wireless)\b/],
   ['redes/radioenlaces-antenas', /\b(airfiber|airmax|litebeam|nanobeam|powerbeam|rocketm|rocket|pbe|lbe|af\s?5|am\s?[25]g|amo\s?[25]g|rd\s?5g|horn\s?5|lap\s?120|lap\s?gps|antena|radioenlace)\b/],

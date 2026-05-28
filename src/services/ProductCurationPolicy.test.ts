@@ -110,6 +110,18 @@ describe("product curation policy", () => {
       brand: "MICROSOFT",
       category: "laptops",
     }).path).toBe("software/licencias");
+
+    expect(classifyManualCategory({
+      name: "EZVIZ CS-BC1C/4K camara WiFi bateria",
+      brand: "EZVIZ",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-ip-wifi");
+
+    expect(classifyManualCategory({
+      name: "Hikvision DS2CE16H0TITF(C) camara TurboHD",
+      brand: "HIKVISION",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-turbohd");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
