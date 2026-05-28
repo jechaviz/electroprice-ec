@@ -1,0 +1,558 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b061-2026-05-28",
+  "cycle": 3,
+  "batch": 61,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0wm4yjrfd4k1cis",
+      "research": {
+        "confidence": 0.95,
+        "name": "Kingston KCP432SD8/16 memoria RAM SO-DIMM DDR4 16GB 3200MT/s CL22 260 pines para laptop",
+        "description": "Modulo de memoria Kingston KCP432SD8/16 de 16GB DDR4 3200MT/s para laptop, formato SO-DIMM de 260 pines, 1.2V, Non-ECC, unbuffered, CL22 y organizacion 2Rx8.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/16gb-3200-cl22",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/unitedkingdom/en/memory/search?partid=KCP432SD8%2F16",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMKGN3320/MEMKGN3320_1_full.jpg",
+          "https://media.kingston.com/kingston/product/DDR4_Non-ECC_Unbuffered_SODIMM_2R_X8_1-tn.png"
+        ],
+        "specs": {
+          "brand": "Kingston Technology",
+          "model": "KCP432SD8/16",
+          "providerSku": "MEMKGN3320",
+          "upc": "740617310986",
+          "productType": "Laptop SO-DIMM memory",
+          "capacity": "16 GB",
+          "memoryType": "DDR4",
+          "speed": "3200 MT/s, PC4-25600",
+          "latency": "CL22",
+          "formFactor": "260-pin SO-DIMM",
+          "voltage": "1.2 V",
+          "ecc": "Non-ECC",
+          "buffering": "Unbuffered",
+          "rank": "2Rx8",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMKGN3320", "stock": 1, "price": 195.43, "currency": "USD", "branch": "DFA:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed la tenia como laptop; corresponde a componente de memoria RAM SO-DIMM.",
+            "Proveedor usa clave MEMKGN3320; identidad oficial confirmada por part number KCP432SD8/16 y UPC 740617310986."
+          ]
+        },
+        "measurements": { "dimensions": "Approx. 69.6 x 30 mm SO-DIMM", "weight": "0.01 kg net retail, 0.02 kg gross retail" },
+        "sourceRefs": [
+          { "title": "Kingston KCP432SD8/16 official search", "type": "manufacturer", "url": "https://www.kingston.com/unitedkingdom/en/memory/search?partid=KCP432SD8%2F16" },
+          { "title": "Gate7 Kingston KCP432SD8/16", "type": "reseller", "url": "https://gate7.ee/en/storage-and-memory/48567-nb-memory-16gb-pc25600-ddr4-so-kcp432sd8-16-kingston-740617310986.html" },
+          { "title": "CTOnline feed MEMKGN3320 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0wsz29sjvlmc8os",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 350323 baterias CMOS CR2032 litio 3V 210mAh paquete con 5 piezas",
+        "description": "Paquete BRobotix 350323 con 5 baterias tipo boton CR2032 de litio a 3V y 210mAh para CMOS/BIOS, memorias, calculadoras, camaras, relojes y otros dispositivos electronicos.",
+        "manualCategoryPath": "energia/pilas-baterias/boton-cmos",
+        "semanticCategoryPath": "energia/pilas-baterias/boton-cmos/cr2032-litio-5-piezas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT4910/ACCRBT4910_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BateraCMOSCR2032Packde5pzsLitio3VL_CR2032_EAN7503027445265_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BateraCMOSCR2032Packde5pzsLitio3VL_CR2032_EAN7503027445265_1.jpg"
+        ],
+        "documents": [
+          { "label": "BRobotix 350323 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/350323_ft.pdf" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "350323 / CR2032",
+          "providerSku": "ACCRBT4910",
+          "ean": "7503027445265",
+          "productType": "CR2032 lithium button batteries",
+          "chemistry": "Lithium",
+          "voltage": "3 V",
+          "capacity": "210 mAh",
+          "contents": "5 pieces",
+          "mercuryFree": "Yes",
+          "applications": "CMOS/BIOS, memories, calculators, cameras, watches and electronics",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 110 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 85 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 33 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 22 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 13 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 5 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT4910", "stock": 365, "price": 2.03, "currency": "USD", "branch": "AGS:110,GDL:85,CUN:33,PUE:22,MTY:16,VER:13,CMT:9,CHI:8,TRN:7,DGO:6,IRA:6,SLP:5" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed la tenia como no-break/UPS; corresponde a pila boton CR2032 para CMOS.",
+            "Algunos listados usan CR2032 como modelo visible y ACCRBT4910 como SKU CT; ficha de marca confirma modelo 350323."
+          ]
+        },
+        "measurements": { "batteryDimensions": "Nominal CR2032 approx. 20 x 3.2 mm", "packageDimensions": "5.6 x 18.5 x 0.4 cm retail", "weight": "Not confirmed" },
+        "sourceRefs": [
+          { "title": "BRobotix 350323 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/350323_ft.pdf" },
+          { "title": "CompuPuebla BRobotix CR2032", "type": "reseller", "url": "https://compupuebla.com/producto/bateria-brobotix-cr2032/" },
+          { "title": "CTOnline feed ACCRBT4910 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0wveqdi4kwesthq",
+      "research": {
+        "confidence": 0.94,
+        "name": "Epson 504 T504220-AL botella de tinta cian original 70ml para EcoTank",
+        "description": "Botella de tinta Epson 504 T504220-AL color cian de 70ml para impresoras EcoTank compatibles. Mantiene calidad de impresion original Epson y corresponde a consumible de tinta, no a cartucho convencional.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504/cian-70ml",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.jm/For-Home/Ink/Epson-T504-Ink-Bottle/i/T504220-AL",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10021903",
+          "https://www.unicom.mx/ecommerce/uploads/CIEPT504220AL.jpg",
+          "https://mediaserver.goepson.com/ImConvServlet/imconv/5571930a6cbb42cbadef56ed9eae96bac2d26734/300Wx300H?assetDescr=T504_690x460&hybrisId=B2C&use=productpictures"
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "T504220-AL / Epson 504 Cyan",
+          "providerSku": "CN-3563",
+          "ctMirrorSku": "CAREPS5580",
+          "upc": "010343938755",
+          "productType": "EcoTank ink bottle",
+          "color": "Cyan",
+          "volume": "70 ml",
+          "compatibility": "EcoTank L4150, L4160, L6161, L6171, L6191; Epson Caribbean also lists L4260 and L6270",
+          "yieldFamily": "Up to 6000 color pages for replacement bottle family",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS5580", "stock": 2510, "price": 159.3, "currency": "MXN", "branch": "" },
+            { "providerId": "cva", "providerSku": "CN-3563", "stock": 17, "price": 157.26, "currency": "MXN", "branch": "" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CVA la publica como CN-3563 y CT como CAREPS5580; ambos corresponden al SKU Epson T504220-AL.",
+            "Algunos resellers difieren en medidas/peso; la fuente oficial confirma SKU, color y compatibilidad, pero no medidas."
+          ]
+        },
+        "measurements": { "volume": "70 ml", "packageDimensions": "Approx. 17.7 x 4 x 4 cm reseller", "weight": "Approx. 118.9 g reseller" },
+        "sourceRefs": [
+          { "title": "Epson T504220-AL official page", "type": "manufacturer", "url": "https://epson.com.jm/For-Home/Ink/Epson-T504-Ink-Bottle/i/T504220-AL" },
+          { "title": "GlobalOffice Epson T504220-AL", "type": "reseller", "url": "https://globaloffice.com.mx/app/detalle/producto/impresion-suministros/epson-504-70-ml-cian-original-recarga-de-t/t504220-al" },
+          { "title": "CVA and CT provider stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0wy0971au0q7d64",
+      "research": {
+        "confidence": 0.92,
+        "name": "Xerox 106R04054 toner cian alta capacidad para VersaLink C8000 C8000W 16500 paginas",
+        "description": "Toner original Xerox 106R04054 color cian de alta capacidad para impresoras VersaLink C8000/C8000W, con rendimiento aproximado de 16500 paginas. Corresponde a consumible de toner laser color, no a equipo ni laptop.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/xerox",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/xerox/versalink-c8000-cian-16500",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xerox.com/pt-st/supplies-and-accessories/106R04054/versalink-c8000w",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARXRX6660/CARXRX6660_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-XEROX-106R04054-1.jpg",
+          "https://media.spdigital.cl/thumbnails/products/cunrtvfa_541610ff_thumbnail_512.jpg"
+        ],
+        "specs": {
+          "brand": "Xerox",
+          "model": "106R04054",
+          "providerSku": "CARXRX6690",
+          "feedSku": "CARXRX6660",
+          "upc": "095205881905",
+          "productType": "High capacity cyan toner cartridge",
+          "color": "Cyan",
+          "yield": "Approx. 16500 pages",
+          "compatibility": "Xerox VersaLink C8000 and C8000W",
+          "printTechnology": "Laser color toner",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARXRX6690", "stock": 3, "price": 209.62, "currency": "USD", "branch": "" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Specs heredados mencionan CARXRX6660 y DFA:6, pero el stock sincronizado vigente trae CARXRX6690 con 3 unidades.",
+            "Xerox USA lista 106R04046 para cyan C8000; 106R04054 aparece como variante regional compatible con UPC 095205881905.",
+            "El feed dice LED printing; comercialmente el consumible se clasifica como toner laser color."
+          ]
+        },
+        "measurements": { "weight": "450 g retail", "dimensions": "Not confirmed" },
+        "sourceRefs": [
+          { "title": "Xerox 106R04054 official page", "type": "manufacturer", "url": "https://www.xerox.com/pt-st/supplies-and-accessories/106R04054/versalink-c8000w" },
+          { "title": "SP Digital Xerox 106R04054", "type": "reseller", "url": "https://www.spdigital.cl/c8000-cyan-high-cap-toner-cartridge/" },
+          { "title": "CTOnline feed CARXRX6690 current stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0wyp4mei0vmmgsj",
+      "research": {
+        "confidence": 0.96,
+        "name": "Kingston DataTraveler Exodia DTX/64GB memoria USB-A 64GB USB 3.2 Gen 1 negro azul",
+        "description": "Memoria USB Kingston DataTraveler Exodia DTX/64GB de 64GB con interfaz USB 3.2 Gen 1 tipo A, tapa protectora, aro para llavero, compatibilidad amplia con sistemas operativos y garantia Kingston de 5 anos.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb-usb-a-3-2",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/latam/usb-flash-drives/datatraveler-exodia-usb-3-2-usb-flash-drive?Capacity=64GB",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMKGN2190/MEMKGN2190_full.jpg",
+          "https://media.kingston.com/kingston/key-features/ktc-keyfeatures-usb-dtx-1-lg.jpg",
+          "https://media.kingston.com/kingston/key-features/ktc-keyfeatures-usb-dtx-2-lg.jpg"
+        ],
+        "documents": [
+          { "label": "Kingston DTX datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/dtx_us.pdf" }
+        ],
+        "specs": {
+          "brand": "Kingston Technology",
+          "model": "DTX/64GB",
+          "providerSku": "MEMKGN2190",
+          "upc": "740617309829",
+          "productType": "USB flash drive",
+          "capacity": "64 GB",
+          "interface": "USB 3.2 Gen 1",
+          "connector": "USB-A",
+          "features": "Protective cap and keyring loop",
+          "compatibility": "Windows 11/10, macOS, Linux, Chrome OS",
+          "warranty": "5 years",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 164 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 83 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 51 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 29 },
+            { "providerId": "ctonline", "warehouseCode": "URP", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMKGN2190", "stock": 331, "price": 4.96, "currency": "USD", "branch": "TXL:164,DFT:83,ZAC:51,IRA:29,URP:4" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed la tenia en memoria RAM; corresponde a memoria USB flash.",
+            "Kingston no publica velocidades secuenciales garantizadas para esta linea; solo interfaz USB 3.2 Gen 1."
+          ]
+        },
+        "measurements": { "dimensions": "67.3 x 21.04 x 10.14 mm", "weight": "11 g" },
+        "sourceRefs": [
+          { "title": "Kingston DataTraveler Exodia official page", "type": "manufacturer", "url": "https://www.kingston.com/latam/usb-flash-drives/datatraveler-exodia-usb-3-2-usb-flash-drive?Capacity=64GB" },
+          { "title": "Kingston DTX datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/dtx_us.pdf" },
+          { "title": "CTOnline feed MEMKGN2190 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0x6x8j1v9i7nkih",
+      "research": {
+        "confidence": 0.92,
+        "name": "Xzeal X-Zynergy XZGAZNY1B gabinete gamer Micro-ATX Mini-ITX negro vidrio templado 3 ventiladores RGB",
+        "description": "Gabinete gamer Xzeal X-Zynergy XZGAZNY1B para tarjetas madre Micro-ATX y Mini-ITX, con panel de vidrio templado, 4 ranuras PCI, tres ventiladores RGB de 120mm incluidos, soporte para radiador superior de 240mm y panel frontal con USB y audio.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/micro-atx-mini-itx-rgb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GABSTY400/GABSTY400_full.jpg",
+          "https://media.digitalife.com.mx/products/xzgazny1b/xzgazny1b-01-md.webp",
+          "https://media.digitalife.com.mx/products/xzgazny1b/xzgazny1b-02-md.webp"
+        ],
+        "documents": [
+          { "label": "Xzeal X-Zynergy XZGAZNY1B ficha", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/GabineteXzealXZynergyMATXITXXZGAZN_XZynergyXZGAZNY1W/GabineteXzealXZynergyMATXITXXZGAZNY1W.pdf" }
+        ],
+        "specs": {
+          "brand": "Xzeal",
+          "model": "X-Zynergy XZGAZNY1B / XZY1",
+          "providerSku": "GABSTY400",
+          "ean": "7503053078185",
+          "productType": "Gaming PC case",
+          "motherboardSupport": "Micro-ATX, Mini-ITX",
+          "expansionSlots": "4 PCI slots",
+          "driveBays": "1 x 3.5 inch HDD plus 1 x 2.5 inch SSD or 2 x SSD",
+          "fansIncluded": "3 x 120 mm RGB fans, 1 rear and 2 top",
+          "liquidCooling": "Top 240 mm radiator support",
+          "frontPanel": "1 USB 3.0, 1 USB 2.0/1.0, 3.5 mm audio",
+          "sidePanel": "Tempered glass",
+          "powerSupply": "Not included",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 38 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABSTY400", "stock": 56, "price": 505.2, "currency": "MXN", "branch": "DFA:38,OBR:6,PUE:6,LMO:2,LEO:1,MTY:1,CUE:1,ZAC:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunas tiendas lo llaman Mid-Tower o Mini tower; ficha y compatibilidad lo ubican como gabinete para Micro-ATX/Mini-ITX.",
+            "Ficha PDF dice USB 1.0 en un puerto frontal; retailers lo normalizan como USB 2.0."
+          ]
+        },
+        "measurements": { "dimensions": "310 x 195 x 410 mm", "weight": "3.1 kg net", "packageDimensions": "460 x 240 x 360 mm", "packageWeight": "3.6 kg" },
+        "sourceRefs": [
+          { "title": "Xzeal X-Zynergy ficha PDF", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/GabineteXzealXZynergyMATXITXXZGAZN_XZynergyXZGAZNY1W/GabineteXzealXZynergyMATXITXXZGAZNY1W.pdf" },
+          { "title": "Digitalife Xzeal XZGAZNY1B", "type": "reseller", "url": "https://www.digitalife.com.mx/productos/xzgazny1b/gabinete-xzeal-x-zynergy-xzy1-micro-atx-mini-itx-1x-usb-20-1x-usb-30-3x-120mm-rgb-ventana-cristal-templado-negro" },
+          { "title": "CTOnline feed GABSTY400 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0xgy9chgf56eh1u",
+      "research": {
+        "confidence": 0.91,
+        "name": "Naceb NA-0963G teclado mecanico compacto 60 por ciento RGB USB-C gris morado con teclas intercambiables",
+        "description": "Teclado mecanico compacto Naceb NA-0963G de formato 60 por ciento, conexion USB-C alambrica, iluminacion RGB con 12 modos, anti-ghosting full, color gris/morado y set de teclas intercambiables. Orientado a escritorios compactos o gaming.",
+        "manualCategoryPath": "computo/perifericos/teclados/mecanicos-compactos",
+        "semanticCategoryPath": "computo/perifericos/teclados/mecanicos-compactos/60-usb-morado",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TECNCB100/TECNCB100_2_full.jpg",
+          "https://www.pcgaming.mx/web/image/product.template/452930/image_1920?unique=3bbaad7"
+        ],
+        "documents": [
+          { "label": "Naceb NA-0963 ficha PDF", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/TecladoMecnicoNaceb60CONTECLASINTE_NA0963M_EAN7502262800891/TecladoMecnicoNaceb60CONTECLASINTE_NA0963M_EAN7502262800891.pdf" }
+        ],
+        "specs": {
+          "brand": "Naceb Technology",
+          "model": "NA-0963G",
+          "providerSku": "TECNCB100",
+          "ean": "7502262800792",
+          "productType": "Compact mechanical keyboard",
+          "layout": "60 percent compact",
+          "connectivity": "Wired",
+          "interface": "USB Type-C",
+          "color": "Gray/purple",
+          "switchType": "Mechanical",
+          "lighting": "RGB, 12 modes",
+          "antiGhosting": "Full anti-ghosting",
+          "keyLife": "Approx. 30 million clicks",
+          "keycaps": "Interchangeable key set",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 13 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 12 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECNCB100", "stock": 138, "price": 460, "currency": "MXN", "branch": "GDL:17,D2A:15,MID:13,CMT:12,HMO:8,DFA:8,ZAC:4,LMO:3,AGS:3,LEO:3,CTZ:3,VHA:3" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunas fichas mezclan 69 teclas fisicas con set extra; tratar como teclado 60 por ciento con keycaps extra.",
+            "Color comercial aparece como purpura, gris/morado o multicolor por la retroiluminacion."
+          ]
+        },
+        "measurements": { "dimensions": "31.16 x 10.20 x 3.8 cm", "weight": "523 g" },
+        "sourceRefs": [
+          { "title": "Tek Digital Naceb NA-0963G", "type": "reseller", "url": "https://tekdigital.mx/producto/teclado-mecanico-naceb-60-con-teclas-intercambiables-na-0963g/" },
+          { "title": "CompuPuebla Naceb NA-0963G", "type": "reseller", "url": "https://compupuebla.com/producto/teclados-naceb-technology-na-0963g/" },
+          { "title": "CTOnline feed TECNCB100 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0xhcg1brynrmm0r",
+      "research": {
+        "confidence": 0.92,
+        "name": "BRobotix 6000762 mouse inalambrico optico negro 1000 DPI USB 3 botones",
+        "description": "Mouse inalambrico BRobotix 6000762 color negro con sensor optico de 1000 DPI, receptor USB, 3 botones, rueda de desplazamiento y diseno simetrico plug and play para uso general en computadoras de escritorio o laptop.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/optico-1000dpi-3-botones",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MOURBT400/MOURBT400_full.jpg",
+          "https://www.ofix.mx/mouse-brobotix-6000762--6000762/p"
+        ],
+        "documents": [
+          { "label": "BRobotix 6000762 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000762_ft.pdf" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "6000762",
+          "providerSku": "MOURBT400",
+          "ean": "7500896000762",
+          "productType": "Wireless optical mouse",
+          "color": "Black",
+          "sensor": "Optical",
+          "resolution": "1000 DPI",
+          "buttons": "3 buttons",
+          "scroll": "Scroll wheel",
+          "interface": "Wireless RF USB receiver",
+          "power": "2 AAA batteries",
+          "material": "ABS",
+          "compatibility": "Windows and macOS reseller",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOURBT400", "stock": 79, "price": 4.55, "currency": "USD", "branch": "GDL:18,D2A:16,QRO:6,CMT:6,DFC:5,LEO:4,TOL:4,MOR:3,MTY:3,TPC:3,PAC:3,DFA:3" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "La ficha muestra variantes de color con otros item numbers; 6000762 corresponde a negro.",
+            "Algunos resellers lo llaman ergonomico; la ficha base confirma mouse inalambrico optico simetrico."
+          ]
+        },
+        "measurements": { "dimensions": "70 x 43 x 109 mm", "weight": "53.1 g", "packageDimensions": "128 x 93 x 196 mm", "packageWeight": "101.6 g" },
+        "sourceRefs": [
+          { "title": "BRobotix 6000762 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000762_ft.pdf" },
+          { "title": "MiPC BRobotix 6000762", "type": "reseller", "url": "https://mipc.com.mx/mouse-ergonomico-brobotix-optico-1000dpi-inalambrico-usb-a-negro-6000762.html" },
+          { "title": "CTOnline feed MOURBT400 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0xq6p8463vo6joe",
+      "research": {
+        "confidence": 0.94,
+        "name": "Uniarch CAB-6-CCA bobina cable UTP Cat6 CCA 100m interior PVC azul 23AWG",
+        "description": "Bobina Uniarch CAB-6-CCA de cable UTP categoria 6 CCA para interior, 100m, cubierta PVC, 4 pares calibre 23AWG y conductor aluminio revestido de cobre. Util para tendidos interiores no criticos donde se acepte CCA.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat6",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat6/100m-cca-interior",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://global.uniview.com/us/Uniarch/Network_Cable/UTP_Category_6_Cables_CCA/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CABUNI030/CABUNI030_full.jpg"
+        ],
+        "documents": [
+          { "label": "Uniarch CAB-6-CCA datasheet", "type": "datasheet", "url": "https://www.uniview.com/res/202201/21/20220121_1818762_UTP%20Category%206%20Cables%20V1.0%20%28CCA%200.585mm%29%EF%BC%88Uniarch%EF%BC%89_922513_168459_0.pdf" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "CAB-6-CCA",
+          "providerSku": "CABUNI030",
+          "productType": "UTP Category 6 CCA cable",
+          "length": "100 m",
+          "category": "Cat6",
+          "conductor": "CCA, copper content 27%",
+          "wireGauge": "23 AWG",
+          "specification": "HSYV-6 4x2x0.585",
+          "conductorDiameter": "0.585 +/-0.05 mm",
+          "insulation": "HDPE",
+          "sheath": "PVC",
+          "placement": "Indoor",
+          "outerDiameter": "6.2 +/-0.3 mm",
+          "temperature": "-20 C to 60 C",
+          "separator": "Rip-cord and cross separator",
+          "dcResistance": "<12 ohm/100m",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABUNI030", "stock": 46, "price": 20.28, "currency": "USD", "branch": "GDL:17,PUE:5,DFP:5,CUE:4,D2A:4,AGS:3,CMT:3,MID:2,PAC:2,TAM:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Fuente oficial Uniarch indica cubierta blanca; algunos retailers/proveedor lo muestran como gris o azul.",
+            "CCA no equivale a cobre solido; se deja visible como restriccion tecnica para evitar expectativas de cableado premium."
+          ]
+        },
+        "measurements": { "length": "100 +/-1 m", "conductorDiameter": "0.585 +/-0.05 mm", "packageDimensions": "310 x 310 x 190 mm", "weight": "Not confirmed" },
+        "sourceRefs": [
+          { "title": "Uniarch CAB-6-CCA official page", "type": "manufacturer", "url": "https://global.uniview.com/us/Uniarch/Network_Cable/UTP_Category_6_Cables_CCA/" },
+          { "title": "Uniarch CAB-6-CCA datasheet", "type": "datasheet", "url": "https://www.uniview.com/res/202201/21/20220121_1818762_UTP%20Category%206%20Cables%20V1.0%20%28CCA%200.585mm%29%EF%BC%88Uniarch%EF%BC%89_922513_168459_0.pdf" },
+          { "title": "CTOnline feed CABUNI030 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0xta8f78ypgif0k",
+      "research": {
+        "confidence": 0.95,
+        "name": "Hikvision DS-3WR3N router inalambrico WISP 2.4GHz 300Mbps 4 puertos 10/100 2 antenas 5dBi",
+        "description": "Router inalambrico Hikvision DS-3WR3N de 2.4GHz con velocidad hasta 300Mbps, modo WISP, router, repetidor, cliente + AP y punto de acceso, 4 puertos 10/100Mbps, 2 antenas omnidireccionales de 5dBi y uso interior.",
+        "manualCategoryPath": "redes/routers/wisp",
+        "semanticCategoryPath": "redes/routers/wisp/2-4ghz-300mbps-ds-3wr3n",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/mx/products/transmission/wireless-router/wireless-router/ds-3wr3n/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ROUHKV020/ROUHKV020_full.jpg"
+        ],
+        "documents": [
+          { "label": "Hikvision DS-3WR3N datasheet", "type": "datasheet", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000048/S000005721/S000005739/OFR007912/M000053197/Data_Sheet/Datasheet%C2%A0of%C2%A0DS-3WR3N.pdf" },
+          { "label": "Hikvision DS-3WR3N user manual", "type": "manual", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000048/S000005721/S000005739/OFR007912/M000053197/User_Manual/DS-3WR3N-User-Manul.pdf" }
+        ],
+        "specs": {
+          "brand": "Hikvision",
+          "model": "DS-3WR3N",
+          "providerSku": "ROUHKV020",
+          "productType": "300M wireless WISP router",
+          "wirelessBand": "2.4 GHz",
+          "wirelessSpeed": "Up to 300 Mbps",
+          "antennas": "2 x 5 dBi omnidirectional antennas",
+          "transmitPower": "Approx. 18 dBm",
+          "ports": "4 x 10/100 Mbps Ethernet ports",
+          "modes": "Wireless router, wireless repeater, client + AP, WISP, AP",
+          "security": "WPA-PSK/WPA2-PSK and WPA/WPA2",
+          "software": "DHCP server, guest network, signal adjustment, WiFi schedule, hide SSID, web management",
+          "maxPowerConsumption": "<=5.4 W",
+          "operatingTemperature": "0 C to 40 C",
+          "packageContents": "Wireless router, Ethernet cable, quick installation guide",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUHKV020", "stock": 73, "price": 11.17, "currency": "USD", "branch": "MID:18,PUE:16,LEO:10,TRN:8,MTY:8,DFC:6,CAM:5,CLN:2" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed lo tenia como cameras por marca Hikvision; es un router inalambrico WISP de la linea SOHO networking.",
+            "La ficha Mexico dice enrutador inalambrico 300M; CT lo resume como router WISP 2.4 GHz.",
+            "Algunas fuentes regionales listan fuente 9 VDC 1 A; datasheet global lista 9 VDC 0.6 A."
+          ]
+        },
+        "measurements": { "dimensions": "174.82 x 96.45 x 181.06 mm", "weight": "0.134 kg net", "packageDimensions": "231 x 203 x 51 mm", "packageWeight": "0.634 kg gross" },
+        "sourceRefs": [
+          { "title": "Hikvision Mexico DS-3WR3N official page", "type": "manufacturer", "url": "https://www.hikvision.com/mx/products/transmission/wireless-router/wireless-router/ds-3wr3n/" },
+          { "title": "Hikvision DS-3WR3N datasheet", "type": "datasheet", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000048/S000005721/S000005739/OFR007912/M000053197/Data_Sheet/Datasheet%C2%A0of%C2%A0DS-3WR3N.pdf" },
+          { "title": "CTOnline feed ROUHKV020 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}

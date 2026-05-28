@@ -473,6 +473,16 @@ const researchedBatchCases = [
   ["XPG RIFT R24F2-BKCMX monitor gamer 23.8 FHD 120Hz 1ms", "XPG", "computo/monitores/gaming/24-fhd"],
   ["DataShield MI-4217 bateria sellada UPS 12V 4.5Ah", "DATASHIELD", "energia/baterias-ups/selladas-12v"],
   ["Xzeal XZCO413B enfriamiento liquido AIO 240mm ARGB", "XZEAL", "computo/componentes/enfriamiento/liquido-cpu/240mm"],
+  ["Kingston KCP432SD8/16 memoria SO-DIMM DDR4 16GB 3200 CL22", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/sodimm-ddr4"],
+  ["BRobotix 350323 bateria CMOS CR2032 litio 3V pack 5 piezas", "BROBOTIX", "energia/pilas-baterias/boton-cmos"],
+  ["Epson T504220-AL botella tinta cyan T504 EcoTank L4150", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t504"],
+  ["Xerox 106R04054 toner cyan alta capacidad VersaLink C8000", "XEROX", "impresion/consumibles/toner-laser/xerox"],
+  ["Kingston DataTraveler Exodia DTX/64GB memoria USB 3.2", "KINGSTON TECHNOLOGY", "computo/almacenamiento/memorias-flash/usb"],
+  ["Xzeal X-Zynergy XZGAZNY1B gabinete Micro-ATX ITX RGB", "XZEAL", "computo/componentes/gabinetes/gaming"],
+  ["Naceb NA-0963G teclado mecanico 60 con teclas intercambiables", "NACEB TECHNOLOGY", "computo/perifericos/teclados/mecanicos-compactos"],
+  ["BRobotix 6000762 mouse inalambrico optico negro 1000 DPI", "BROBOTIX", "computo/perifericos/mouse/inalambricos"],
+  ["Uniarch CAB-6-CCA cable UTP Cat6 100m CCA interior", "UNIARCH", "redes/cableado-estructurado/bobinas-utp/cat6"],
+  ["Hikvision DS-3WR3N router WISP 2.4GHz 300Mbps 4 puertos", "HIKVISION", "redes/routers/wisp"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
