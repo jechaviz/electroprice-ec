@@ -326,6 +326,60 @@ describe("product curation policy", () => {
       brand: "LOGITECH",
       category: "laptops",
     }).path).toBe("audio/audifonos");
+
+    expect(classifyManualCategory({
+      name: "Multimedia Screens MSC-305 pantalla de proyeccion 170 pulgadas",
+      brand: "MULTIMEDIA SCREENS",
+      category: "laptops",
+    }).path).toBe("video/accesorios-proyeccion");
+
+    expect(classifyManualCategory({
+      name: "Evotec EV-3012C etiquetas termicas 10x15cm",
+      brand: "EVOTEC",
+      category: "laptops",
+    }).path).toBe("punto-de-venta/consumibles/etiquetas-termicas");
+
+    expect(classifyManualCategory({
+      name: "Brother BU229CL transfer belt unit",
+      brand: "BROTHER",
+      category: "laptops",
+    }).path).toBe("impresion/consumibles/unidades-transferencia");
+
+    expect(classifyManualCategory({
+      name: "Techzone TZAPL03 apuntador laser indicador 50 m",
+      brand: "TECHZONE",
+      category: "laptops",
+    }).path).toBe("computo/perifericos/presentadores");
+
+    expect(classifyManualCategory({
+      name: "Creative Labs Stage V2 soundbar",
+      brand: "CREATIVE LABS",
+      category: "laptops",
+    }).path).toBe("audio/barras-sonido");
+
+    expect(classifyManualCategory({
+      name: "CyberPower RMCARD205 remote management card",
+      brand: "CYBERPOWER",
+      category: "gaming",
+    }).path).toBe("energia/accesorios-ups/tarjetas-snmp");
+
+    expect(classifyManualCategory({
+      name: "Huawei Band 10 55020EKX Aluminum White",
+      brand: "HUAWEI",
+      category: "laptops",
+    }).path).toBe("wearables/smartwatches");
+
+    expect(classifyManualCategory({
+      name: "Kensington K64448WW NanoSaver dual head laptop lock",
+      brand: "KENSINGTON",
+      category: "laptops",
+    }).path).toBe("accesorios/seguridad-fisica");
+
+    expect(classifyManualCategory({
+      name: "ADATA UD512GEX3L1-C Premier Extreme microSD SD7.1 Express",
+      brand: "ADATA",
+      category: "laptops",
+    }).path).toBe("computo/almacenamiento/memorias-flash");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {

@@ -1,0 +1,350 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b010-2026-05-27",
+  "cycle": 1,
+  "batch": 10,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "aq3qooka7uwy0dx",
+      "research": {
+        "confidence": 0.92,
+        "name": "Multimedia Screens MSC-305 pantalla de proyeccion manual 305 x 305 cm",
+        "description": "Pantalla manual Multimedia Screens MSC-305 para proyector, montaje en techo o pared, lienzo blanco mate de 305 x 305 cm y formato cuadrado para aulas, salas de junta y eventos.",
+        "manualCategoryPath": "video/accesorios-proyeccion",
+        "semanticCategoryPath": "video/accesorios-proyeccion/pantallas-manuales",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "MULTIMEDIA SCREENS",
+          "model": "MSC-305",
+          "providerSku": "PANSCR050",
+          "alternateProviderSku": "AC-4266",
+          "productType": "Pantalla manual para proyector",
+          "mounting": ["techo", "pared"],
+          "screenColor": "Blanco mate",
+          "driveType": "Manual retractil",
+          "visibleScreenSize": "305 x 305 cm",
+          "marketedDiagonal": "170 in",
+          "aspectRatioNote": "Fichas regionales alternan entre formato cuadrado 1:1 y relacion 4:3/120 in; el tamano visible consistente es 305 x 305 cm.",
+          "materials": ["tela", "metal"],
+          "supplierLocationEvidence": [
+            { "source": "GlobalOffice AC-4266", "warehouse": "Almacen Mexico", "stock": 25, "observedAt": "2026-05-27" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "screenDimensions": "305 x 305 cm", "housingDimensions": "317 x 14.8 x 12.8 cm", "weight": "16.8-18 kg" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Multimedia Screens MSC-305", "type": "reseller_spec", "url": "https://compupuebla.com/producto/pantalla-de-proyeccion-multimedia-screens-msc-305/" },
+          { "title": "Intercompras Multimedia Screens MSC-305 specs", "type": "reseller_spec", "url": "https://intercompras.com/p/pantalla-proyeccion-multimedia-screens-diagonal-blanco-91437" },
+          { "title": "GlobalOffice MSC-305 AC-4266 warehouse listing", "type": "reseller_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios/pantalla-de-proyeccion-multimedia-screen/msc-305" },
+          { "title": "CTOnline feed PANSCR050 stock 25 and CVA AC-4266 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gfh0r8sktev9820",
+      "research": {
+        "confidence": 0.94,
+        "name": "Evotec EV-3012C caja 16 rollos etiquetas termicas 10 x 15 cm",
+        "description": "Caja Evotec EV-3012C con 16 rollos de etiquetas termicas de 10 x 15 cm para impresoras de etiquetas y flujos POS/logistica.",
+        "manualCategoryPath": "punto-de-venta/consumibles/etiquetas-termicas",
+        "semanticCategoryPath": "punto-de-venta/consumibles/etiquetas-termicas/10x15cm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3012C",
+          "providerSku": "ACCEVO020",
+          "productType": "Etiquetas termicas",
+          "presentation": "Caja con 16 rollos",
+          "labelSize": "10 x 15 cm",
+          "ean": "7502262801898",
+          "useCases": ["etiquetado logistico", "punto de venta", "envios"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "labelDimensions": "100 x 150 mm" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Evotec EV-3012C", "type": "reseller_spec", "url": "https://compupuebla.com/producto/etiquetas-evotec-ev-3012c/" },
+          { "title": "Mactoner Evotec EV-3012C 16 rollos", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/etiquetas-evotec-ev-3012c-16-rollos/" },
+          { "title": "CTOnline feed ACCEVO020 stock 23", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "t7vt74tfr5pzd8c",
+      "research": {
+        "confidence": 0.94,
+        "name": "Evotec EV-3021C caja 50 rollos papel termico 80 x 70 mm",
+        "description": "Caja Evotec EV-3021C con 50 rollos de papel termico 80 x 70 mm para impresoras POS, sumadoras y puntos de venta.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70mm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3021C",
+          "providerSku": "ACCEVO030",
+          "productType": "Rollos de papel termico POS",
+          "presentation": "Caja con 50 rollos",
+          "paperType": "Termico",
+          "ean": "7502262801904",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollWidth": "80 mm", "rollDiameter": "70 mm" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Evotec EV-3021C", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollos-de-papel-evotec-ev-3021c/" },
+          { "title": "Mactoner Evotec EV-3021C", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/rollos-de-papel-evotec-ev-3021c/" },
+          { "title": "Tony EV-3021C online listing", "type": "reseller_spec", "url": "https://www.tony.com.mx/evotec-caja-con-50-rollos-de-papel-termico-80-70mm-ev-3021-c/p" },
+          { "title": "CTOnline feed ACCEVO030 stock 22", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "w2dydq0u8nbxta1",
+      "research": {
+        "confidence": 0.95,
+        "name": "Brother BU-229CL unidad de transferencia para laser color",
+        "description": "Unidad de transferencia original Brother BU-229CL para impresoras laser/LED color Brother compatibles; consumible de mantenimiento con rendimiento oficial aproximado de 50,000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/unidades-transferencia",
+        "semanticCategoryPath": "impresion/consumibles/unidades-transferencia/brother-laser-color",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.ca/en/p/BU229CL",
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BU-229CL",
+          "providerSku": "CARBRT4450",
+          "productType": "Unidad de transferencia / transfer belt",
+          "oem": true,
+          "officialYield": "Hasta 50,000 paginas segun Brother Canada; Brother EU indica 50,000-60,000 segun paginas por trabajo",
+          "compatiblePrinters": ["HL-L3220CDW", "HL-L3280CDW", "HL-L3295CDW", "HL-L3300CDW", "HL-L8245CDW", "MFC-L3720CDW", "MFC-L3765CDW", "MFC-L3780CDW", "MFC-L8395CDW"],
+          "barcode": "012502669982",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Brother Canada BU229CL official page", "type": "manufacturer", "url": "https://www.brother.ca/en/p/BU229CL" },
+          { "title": "Brother Spain BU-229CL official page", "type": "manufacturer", "url": "https://store.brother.es/supplies/laser/beltunits/bu229cl" },
+          { "title": "Toner Cartridge Depot BU229CL compatibility", "type": "reseller_spec", "url": "https://www.tonercartridgedepot.com/brt-bu229cl.htm" },
+          { "title": "CTOnline feed CARBRT4450 stock 21", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "qdyq47q0956kihm",
+      "research": {
+        "confidence": 0.96,
+        "name": "Techzone TZAPL03 apuntador laser 2.4 GHz alcance 50 m",
+        "description": "Presentador/apuntador laser Techzone TZAPL03 color negro, 2.4 GHz, alcance maximo 50 m y controles de avance, retroceso, pantalla completa y pantalla oscura.",
+        "manualCategoryPath": "computo/perifericos/presentadores",
+        "semanticCategoryPath": "computo/perifericos/presentadores/apuntadores-laser-2-4ghz",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Techzone TZAPL03 ficha tecnica", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/535537" }],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZAPL03",
+          "providerSku": "ACCTCH9960",
+          "productType": "Apuntador laser / presentador",
+          "wirelessFrequency": "2.4 GHz",
+          "maxRange": "50 m",
+          "controls": ["avance", "retroceso", "pantalla completa", "pantalla oscura", "puntero laser"],
+          "color": "Negro",
+          "warranty": "1 ano",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "weight": "30 g", "packageDimensions": "210 x 90 x 50 mm" },
+        "sourceRefs": [
+          { "title": "MCAShop Techzone TZAPL03 ficha tecnica", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/535537" },
+          { "title": "MCAShop Techzone TZAPL03 product page", "type": "reseller_spec", "url": "https://mcashop.mx/producto/535537/techzone-tzapl03-indicador-50-m-negro" },
+          { "title": "CTOnline feed ACCTCH9960 stock 21", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kfea7pkhmmh82q1",
+      "research": {
+        "confidence": 0.96,
+        "name": "Creative Stage V2 barra de sonido 2.1 80W RMS con subwoofer",
+        "description": "Barra de sonido Creative Stage V2 2.1 con subwoofer cableado, tecnologias Sound Blaster Clear Dialog y Surround, potencia 80 W RMS/160 W pico, HDMI ARC, optico, AUX, USB-C audio y Bluetooth 5.0.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/2-1-subwoofer-cableado",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://us.creative.com/p/speakers/creative-stage-v2",
+        "documents": [{ "label": "Creative Stage V2 datasheet", "type": "datasheet", "url": "https://cdn.cs.1worldsync.com/f1/1f/f11f315b-3502-4816-af6c-4e28d8eb9bb0.pdf" }],
+        "specs": {
+          "brand": "CREATIVE LABS",
+          "model": "Stage V2",
+          "providerSku": "BOCCRL020",
+          "productType": "Barra de sonido 2.1 con subwoofer",
+          "audioTechnologies": ["Sound Blaster Clear Dialog", "Sound Blaster Surround"],
+          "systemPower": "80 W RMS / 160 W pico",
+          "speakerPower": "2 x 20 W soundbar + 40 W subwoofer",
+          "drivers": ["dual 2.25 in soundbar", "5.25 in subwoofer"],
+          "frequencyRange": "55 Hz - 20 kHz",
+          "snr": ">=75 dB",
+          "connectivity": ["HDMI ARC", "Optical-in", "Bluetooth 5.0", "3.5 mm AUX-in", "USB-C audio"],
+          "bluetoothRange": "Hasta 10 m",
+          "included": ["control remoto", "cable AUX 1.2 m", "cable USB-C 1.2 m", "cable energia 1.5 m"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "soundbarDimensions": "680 x 78 x 100 mm", "soundbarWeight": "2.0 kg", "subwooferDimensions": "116 x 423 x 250 mm", "subwooferWeight": "3.3 kg", "packageDimensions": "728 x 166 x 416 mm", "packageWeight": "6.74 kg" },
+        "sourceRefs": [
+          { "title": "Creative Stage V2 official page", "type": "manufacturer", "url": "https://us.creative.com/p/speakers/creative-stage-v2" },
+          { "title": "Creative Stage V2 1WorldSync datasheet", "type": "datasheet", "url": "https://cdn.cs.1worldsync.com/f1/1f/f11f315b-3502-4816-af6c-4e28d8eb9bb0.pdf" },
+          { "title": "CTOnline feed BOCCRL020 stock 21", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hyaf5p4bim7kmox",
+      "research": {
+        "confidence": 0.96,
+        "name": "CyberPower RMCARD205 tarjeta remota SNMP para UPS/PDU",
+        "description": "Tarjeta de administracion remota CyberPower RMCARD205 para UPS y ATS PDU compatibles; permite monitoreo/control via navegador, CLI, SNMP/NMS, alertas y apagado automatico de hasta 50 clientes.",
+        "manualCategoryPath": "energia/accesorios-ups/tarjetas-snmp",
+        "semanticCategoryPath": "energia/accesorios-ups/tarjetas-snmp/cyberpower-remote-management",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/ups/hardware/rmcard205/",
+        "documents": [{ "label": "CyberPower RMCARD205 datasheet", "type": "datasheet", "url": "https://store.cablesplususa.com/content/CyberPower_DS_RMCARD205.pdf" }],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "RMCARD205",
+          "providerSku": "ACCCYP060",
+          "alternateProviderSku": "NIC-2044",
+          "productType": "Tarjeta de administracion remota SNMP para UPS/PDU",
+          "ethernet": "10/100 Mbps RJ45",
+          "sensorPort": "RJ45 para sensor ambiental opcional",
+          "supportedProtocols": ["TCP/IP", "UDP", "FTP", "SCP", "DHCP", "DNS", "SSH", "Telnet", "HTTP/HTTPS", "SNMPv1/v3", "IPv4/v6", "NTP", "SMTP", "Syslog", "Modbus TCP"],
+          "management": ["web browser", "CLI", "SNMP", "NMS"],
+          "eventNotifications": ["Email", "SMS", "SNMP Traps", "Syslog"],
+          "autoShutdownClients": 50,
+          "software": ["PowerPanel Business", "PowerPanel Enterprise"],
+          "environmentalSensorCompatible": true,
+          "warranty": "3 anos",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "54 x 36.1 x 76.5 mm", "weight": "38 g", "packageDimensions": "168 x 58 x 164 mm", "packageWeight": "250 g" },
+        "sourceRefs": [
+          { "title": "CyberPower RMCARD205 product page", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/hardware/rmcard205/" },
+          { "title": "CyberPower global RMCARD205 specs", "type": "manufacturer", "url": "https://web2.cyberpower.com/global/en/product/sku/rmcard205" },
+          { "title": "CTOnline feed ACCCYP060 stock 19 and CVA NIC-2044 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "sw0h304mxnzjcm7",
+      "research": {
+        "confidence": 0.96,
+        "name": "Huawei Band 10 55020EKX Aluminum White AMOLED 1.47 in",
+        "description": "Huawei Band 10 color blanco con caja de aleacion de aluminio, pantalla AMOLED 1.47 in, sensores IMU 9 ejes, frecuencia cardiaca y luz ambiental, resistencia 5 ATM y bateria de hasta 14 dias.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/bandas-fitness-huawei",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/en/wearables/band10/specs/",
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "Band 10",
+          "manufacturerSku": "55020EKX",
+          "providerSku": "ACCHUW1510",
+          "ean": "6942103150807",
+          "productType": "Banda inteligente",
+          "caseMaterial": "Aleacion de aluminio",
+          "color": "White / Aluminum White",
+          "display": "1.47 in AMOLED 194 x 368, 282 PPI",
+          "sensors": ["9-axis IMU", "optical heart rate sensor", "ambient light sensor"],
+          "connectivity": ["2.4 GHz", "Bluetooth 5.0", "BLE"],
+          "waterResistance": "5 ATM",
+          "compatibility": ["Android 9.0 o posterior", "iOS 13.0 o posterior"],
+          "batteryLife": "Hasta 14 dias maximo; hasta 8 dias uso tipico; hasta 3 dias con AOD",
+          "charging": "Puerto magnetico, 5V/1A",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43.45 x 24.86 x 8.99 mm", "caseWeightWithoutStrap": "aprox. 15 g", "wristCircumference": "120-190 mm para blanco" },
+        "sourceRefs": [
+          { "title": "Huawei Band 10 global specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/en/wearables/band10/specs/" },
+          { "title": "Intercompras Huawei Band 10 55020EKX", "type": "reseller_spec", "url": "https://intercompras.com/p/huawei-band-aluminum-white-caja-aleacion-aluminio-pulido-monitoreo-sueno-453442" },
+          { "title": "CTOnline feed ACCHUW1510 stock 19", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jxe168jjeh8uzpk",
+      "research": {
+        "confidence": 0.94,
+        "name": "Kensington K64448WW NanoSaver candado con llave dual head",
+        "description": "Candado Kensington NanoSaver K64448WW con dos cabezales: Nano Security Slot con tecnologia Cleat y T-Bar para ranura Kensington estandar, cable de acero al carbon de 6 ft y sistema de llave Hidden Pin.",
+        "manualCategoryPath": "accesorios/seguridad-fisica",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-laptop-doble-cabezal",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_40700rg_110175191.pdf",
+        "documents": [{ "label": "Kensington NanoSaver K64448WW datasheet", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_40700rg_110175191.pdf" }],
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K64448WW",
+          "providerSku": "ACCKNS2230",
+          "productType": "Candado de seguridad para laptop",
+          "lockType": "Llave",
+          "heads": ["NanoSaver 10 mm Cleat para Nano Security Slot", "T-Bar para ranura Kensington estandar"],
+          "keyingSystem": "5 mm con tecnologia Hidden Pin anti-pick",
+          "cableMaterial": "Acero al carbon",
+          "features": ["Pivot & Rotate", "Register & Retrieve", "Verified & Tested"],
+          "warranty": "Limited Lifetime",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "6 ft / 1.8 m", "nanoLockHeadDiameter": "10 mm" },
+        "sourceRefs": [
+          { "title": "Colamco Kensington K64448WW product details", "type": "reseller_spec", "url": "https://www.colamco.com/product/kensington-nanosaver-cable-lock-k64448ww-1471036" },
+          { "title": "Ingram Micro MX Kensington K64448WW datasheet", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_40700rg_110175191.pdf" },
+          { "title": "CTOnline feed ACCKNS2230 stock 19", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1neaodazs4yw03w",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA Premier Extreme UD512GEX3L1-C microSDXC SD7.1 Express 512GB",
+        "description": "Tarjeta ADATA Premier Extreme microSDXC SD7.1 Express de 512 GB con PCIe Gen3 x1, UHS-I/U3, Class 10, V30 y velocidades hasta 800/700 MB/s para 4K, consolas y equipos compatibles.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd-express",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://webapi3.adata.com/storage/downloadfile/datasheet_premier_extreme_microsdxc_sd71_express_card_20240607.pdf",
+        "documents": [{ "label": "ADATA Premier Extreme microSDXC SD7.1 Express datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_premier_extreme_microsdxc_sd71_express_card_20240607.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "Premier Extreme microSDXC SD7.1 Express",
+          "manufacturerSku": "UD512GEX3L1-C",
+          "providerSku": "MEMDAT7310",
+          "ean": "4711085947376",
+          "upc": "842243033175",
+          "productType": "Tarjeta microSDXC Express",
+          "capacity": "512 GB",
+          "standard": "SD7.1 Express",
+          "interface": "PCIe Gen3 x1",
+          "speedClass": ["UHS Speed Class 3", "Class 10", "Video Speed Class V30"],
+          "readWritePerformance": "Hasta 800/700 MB/s",
+          "operatingVoltage": "2.7 V - 3.6 V",
+          "operatingTemperature": "0 C - 70 C",
+          "certifications": ["CE", "FCC", "VCCI", "EAC", "RCM", "UKCA", "IC"],
+          "supplierLocationEvidence": [
+            { "source": "GlobalOffice UD512GEX3L1-C", "warehouse": "Almacen Mexico", "stock": 17, "observedAt": "2026-05-27" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "15 x 11 x 1 mm", "weight": "0.25 g" },
+        "sourceRefs": [
+          { "title": "ADATA Premier Extreme SD7.1 Express datasheet", "type": "manufacturer_datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_premier_extreme_microsdxc_sd71_express_card_20240607.pdf" },
+          { "title": "GlobalOffice UD512GEX3L1-C warehouse listing", "type": "reseller_stock", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/almacenamiento/memoria-micro-sd-adata-express-512gb-800700-mbs-compatible/ud512gex3l1-c" },
+          { "title": "Ofix MEMDAT7310 listing", "type": "reseller_spec", "url": "https://www.ofix.mx/memorias-flash-adata-ud512gex3l1-c-ud512gex3l1-c/p" },
+          { "title": "CTOnline feed MEMDAT7310 stock 19", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
