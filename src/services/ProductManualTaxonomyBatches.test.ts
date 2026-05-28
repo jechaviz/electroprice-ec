@@ -283,6 +283,16 @@ const researchedBatchCases = [
   ["Acer EMR213-BK mouse inalambrico 1600 DPI", "ACER", "computo/perifericos/mouse/inalambricos"],
   ["Acer EMR213-WH wireless mouse blanco 1600 DPI", "ACER", "computo/perifericos/mouse/inalambricos"],
   ["Acer EMW211 mouse inalambrico gris 1600 DPI", "ACER", "computo/perifericos/mouse/inalambricos"],
+  ["Acer TravelMate P2 TMP214-55-G2-56PW laptop empresarial 14", "ACER", "computo/laptops"],
+  ["Acer TravelMate P2 TMP214-56-G2-56G4 laptop Core Ultra 5", "ACER", "computo/laptops"],
+  ["Acer TravelMate P2 TMP214-76-G2-51B9 laptop Core Ultra 5", "ACER", "computo/laptops"],
+  ["Acer TravelMate P2 TMP216-51-51NA laptop 16 Core i5", "ACER", "computo/laptops"],
+  ["Acer TravelMate P2 TMP216-51-G2-59U9 laptop 16 Core i5", "ACER", "computo/laptops"],
+  ["Acer TravelMate P2 TMP216-51-G2-79K7 laptop 16 Core i7", "ACER", "computo/laptops"],
+  ["Acer KC272 P6BIP monitor 27 FHD 144Hz IPS", "ACER", "computo/monitores/gaming"],
+  ["Acer EK241Y P0BI UM.QE1AA.009 monitor 23.8 144Hz", "ACER", "computo/monitores/gaming"],
+  ["Acer KA242Y GOBI monitor 23.8 FHD 120Hz IPS", "ACER", "computo/monitores/oficina"],
+  ["Acer XZ320Q X2bmiiphx monitor curvo 31.5 240Hz", "ACER", "computo/monitores/gaming"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
