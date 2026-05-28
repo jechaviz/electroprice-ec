@@ -380,6 +380,48 @@ describe("product curation policy", () => {
       brand: "ADATA",
       category: "laptops",
     }).path).toBe("computo/almacenamiento/memorias-flash");
+
+    expect(classifyManualCategory({
+      name: "Nexxt AW250NXT11 herramienta de impacto punchdown 110/88",
+      brand: "NEXXT",
+      category: "laptops",
+    }).path).toBe("redes/herramientas-cableado");
+
+    expect(classifyManualCategory({
+      name: "HP ScanJet Pro 3000 s4 6FW07A escaner documental",
+      brand: "HP",
+      category: "laptops",
+    }).path).toBe("impresion/escaneres");
+
+    expect(classifyManualCategory({
+      name: "Dell SB521A slim soundbar para monitor",
+      brand: "DELL",
+      category: "laptops",
+    }).path).toBe("audio/barras-sonido");
+
+    expect(classifyManualCategory({
+      name: "Meriva MOB-203D camara IP bullet PoE 2MP",
+      brand: "MERIVA",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-ip-poe");
+
+    expect(classifyManualCategory({
+      name: "Uniarch UAC-T112-F28-X-H camara analogica TVI AHD CVI CVBS",
+      brand: "UNIARCH",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-turbohd");
+
+    expect(classifyManualCategory({
+      name: "Anviz AN-GC150 control de acceso huella RFID",
+      brand: "ANVIZ",
+      category: "laptops",
+    }).path).toBe("seguridad/control-acceso/biometricos");
+
+    expect(classifyManualCategory({
+      name: "Nexxt AW222NXT62 NPM-DH2UB organizador de cable rack 2U",
+      brand: "NEXXT",
+      category: "laptops",
+    }).path).toBe("infraestructura/racks-accesorios/organizadores-cable");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
