@@ -206,6 +206,16 @@ const researchedBatchCases = [
   ["3nStar SC310BT lector codigo de barras Bluetooth USB 1D", "3NSTAR", "punto-de-venta/lectores-codigo-barras"],
   ["4Gamers UGS-V1-BLK-4G gaming station PS5 con headset", "4GAMERS", "gaming/accesorios/estaciones-carga"],
   ["AMD Ryzen 7 5700G 100-100000263BOX AM4 8 nucleos", "AMD", "computo/componentes/procesadores"],
+  ["AMD Ryzen 5 5500 100-100000457BOX AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 7 7800X3D 100-100000910WOF AM5 8 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-x3d"],
+  ["AMD Ryzen 7 9800X3D 100-100001084WOF AM5 8 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-x3d"],
+  ["AMD Ryzen 7 8700G 100-100001236SBX AM5 Radeon 780M", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 5 5600XT 100-100001585BOX AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 7 8700F 100-100001590BOX AM5 sin graficos", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 5 8400F 100-100001591BOX AM5 sin graficos", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 5 4500 100-100000644BOX AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 5 5500 CPUAMD2520 AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 5 5600GT 100-100001488BOX AM4 Radeon", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
