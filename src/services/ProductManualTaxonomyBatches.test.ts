@@ -216,6 +216,16 @@ const researchedBatchCases = [
   ["AMD Ryzen 5 4500 100-100000644BOX AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
   ["AMD Ryzen 5 5500 CPUAMD2520 AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
   ["AMD Ryzen 5 5600GT 100-100001488BOX AM4 Radeon", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 5 5600X CPUAMD2140 AM4 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 7 5700X CPUAMD2500 AM4 8 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am4"],
+  ["AMD Ryzen 7 9700X CPUAMD2740 AM5 Zen 5", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 5 7600X CPUAMD2420 AM5 6 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 9 7900 CPUAMD2480 AM5 12 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 7 8700G CPUAMD2580 AM5 Radeon 780M", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 9 9900X CPUAMD2750 AM5 12 nucleos", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Athlon 3000G CPUAMD2050 Radeon Vega 3", "AMD", "computo/componentes/procesadores/amd-athlon"],
+  ["AMD Ryzen 5 8600G CPUAMD2670 AM5 Radeon 760M", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AMD Ryzen 5 8500G CPUAMD2680 AM5 Radeon 740M", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
