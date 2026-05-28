@@ -422,6 +422,48 @@ describe("product curation policy", () => {
       brand: "NEXXT",
       category: "laptops",
     }).path).toBe("infraestructura/racks-accesorios/organizadores-cable");
+
+    expect(classifyManualCategory({
+      name: "TP-Link Tapo RV20 Max robot aspirador 5300Pa LiDAR",
+      brand: "TP LINK",
+      category: "laptops",
+    }).path).toBe("hogar/electrodomesticos/aspiradoras-robot");
+
+    expect(classifyManualCategory({
+      name: "TopVision TDDL200A camara HD turret 2MP TVI AHD CVI",
+      brand: "TOPVISION",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-turbohd");
+
+    expect(classifyManualCategory({
+      name: "HP ScanJet Pro 2000 s2 6FW06A escaner documental",
+      brand: "HP",
+      category: "laptops",
+    }).path).toBe("impresion/escaneres");
+
+    expect(classifyManualCategory({
+      name: "Techzone TZLBP29-V mochila Style backpack",
+      brand: "TECHZONE",
+      category: "laptops",
+    }).path).toBe("computo/accesorios/mochilas-fundas");
+
+    expect(classifyManualCategory({
+      name: "Perfect Choice PC-112716 bafle dual Miniglow",
+      brand: "PERFECT CHOICE",
+      category: "laptops",
+    }).path).toBe("audio/bocinas");
+
+    expect(classifyManualCategory({
+      name: "Verbatim 94776 CD-R 700MB 52x 80 min",
+      brand: "VERBATIM",
+      category: "laptops",
+    }).path).toBe("computo/almacenamiento/medios-opticos");
+
+    expect(classifyManualCategory({
+      name: "Qian QOC-143SK cajon de dinero POS",
+      brand: "QIAN",
+      category: "laptops",
+    }).path).toBe("punto-de-venta/cajones-dinero");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
