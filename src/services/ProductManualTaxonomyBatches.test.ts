@@ -393,6 +393,16 @@ const researchedBatchCases = [
   ["Acteck Captive Vivid SP245 monitor 24.5 FHD 75Hz", "ACTECK", "computo/monitores/oficina/24-25-fhd"],
   ["Provision-ISR NVR16-641600RFAN(2U) NVR 64CH 16MP", "PROVISION-ISR", "seguridad/cctv/dvr-nvr/nvr-ip"],
   ["Logitech Brio 300 960-001440 webcam FHD 1080p USB-C", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
+  ["Lenovo ThinkSystem ST45 V3 7DH4A00GLA servidor torre AMD EPYC", "LENOVO", "computo/servidores/torre"],
+  ["BRobotix 938276 tapa faceplate 1 panel para jack", "BROBOTIX", "redes/cableado-estructurado/placas-keystone"],
+  ["Manhattan 460941 soporte TV pared 32 a 55 35kg ajuste vertical", "MANHATTAN", "video/soportes-tv/pared"],
+  ["EZVIZ CSH5/3MP/POE camara H5 PoE 3MP", "EZVIZ", "seguridad/cctv/camaras-ip-poe/bullet"],
+  ["Dell 460-BCYY GM1720PM Gaming Backpack 17 pulgadas", "DELL", "computo/accesorios/mochilas-fundas/mochilas-gaming"],
+  ["Grandstream GWN7615 access point WiFi 5 MU-MIMO 3x3", "GRANDSTREAM", "redes/access-points/wifi-5"],
+  ["Silimex 7503018454344 alcohol isopropilico 500 ml mini trigger", "SILIMEX", "computo/accesorios/limpieza/alcohol-isopropilico"],
+  ["Uniarch NVR-108S3-P8-ECO NVR 8 canales PoE 6MP", "UNIARCH", "seguridad/cctv/dvr-nvr/nvr-ip"],
+  ["Dahua DH-XVR1B08-I/T XVR HDCVI 8 canales WizSense", "DAHUA", "seguridad/cctv/dvr-nvr/xvr-hdcvi"],
+  ["Naceb Gaming NA-0925 kit gamer teclado mouse USB 2400 DPI headset mousepad", "NACEB", "computo/perifericos/kits-gamer/4-en-1"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
