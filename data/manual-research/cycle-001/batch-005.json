@@ -1,0 +1,382 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b005-2026-05-27",
+  "cycle": 1,
+  "batch": 5,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "fr5ovbth4o2goun",
+      "research": {
+        "confidence": 0.92,
+        "name": "Evotec EV-3006 lector inalambrico de codigo de barras 1D",
+        "description": "Lector manual inalambrico de codigos de barras 1D para punto de venta e inventario, con lectura laser, autoinduccion y modo continuo.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/lectores-1d-inalambricos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.evotec.mx/ev-3006",
+        "documents": [
+          { "label": "Evotec EV-3006 official page", "type": "manufacturer_page", "url": "https://www.evotec.mx/ev-3006" },
+          { "label": "MCAShop EV-3006 ficha tecnica", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/600005" }
+        ],
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3006",
+          "providerSku": "SCAEVO030",
+          "productType": "Lector de codigo de barras manual",
+          "scanType": "1D",
+          "scanTechnology": "Laser",
+          "connectivity": "Inalambrico",
+          "scanModes": ["manual", "autoinduccion", "continuo"],
+          "useCases": ["punto de venta", "inventario", "registro de productos"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Evotec EV-3006 official product page", "type": "manufacturer", "url": "https://www.evotec.mx/ev-3006" },
+          { "title": "Ofix EVOTEC EV-3006 SKU SCAEVO030", "type": "reseller_spec", "url": "https://www.ofix.mx/escaner-evotec-ev-3006-ev-3006/p" },
+          { "title": "CTOnline feed SCAEVO030 stock 110", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jrfalm8nanzxtp4",
+      "research": {
+        "confidence": 0.9,
+        "name": "Ecobond 175002237378803 papel bond carta 70 g 95% caja 5000 hojas",
+        "description": "Papel bond Ecobond tamano carta, 70 g/m2, blancura 95%, caja con 10 resmas de 500 hojas cada una para impresion y copiado.",
+        "manualCategoryPath": "oficina/papel-consumibles",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-carta",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/papeleria/papel-bond-ecobond-175002237378803-papel/175002237378803",
+        "specs": {
+          "brand": "ECOBOND",
+          "model": "175002237378803",
+          "providerSku": "PAPECO020",
+          "productType": "Papel bond",
+          "paperSize": "Carta",
+          "grammage": "70 g/m2",
+          "brightness": "95%",
+          "reamsPerBox": 10,
+          "sheetsPerReam": 500,
+          "sheetCount": "5000 hojas",
+          "color": "Blanco",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Global Office Ecobond 175002237378803 PAPECO020", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/papeleria/papel-bond-ecobond-175002237378803-papel/175002237378803" },
+          { "title": "Cyber Depot papel bond Ecobond", "type": "reseller_spec", "url": "https://cyberdepot.com.mx/product/papel-bond-ecobond-175002237378803/" },
+          { "title": "CTOnline feed PAPECO020 stock 109", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "abjt32xm0vp8ert",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Tapo T300 sensor inteligente de fuga de agua",
+        "description": "Sensor inteligente Tapo T300 para deteccion de goteos y fugas de agua, alarma hasta 90 dB, notificaciones en app, IP67 y bateria de hasta 3 anos; requiere hub Tapo.",
+        "manualCategoryPath": "domotica/sensores/fugas-agua",
+        "semanticCategoryPath": "domotica/sensores/fugas-agua/tapo",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/smart-home/smart-sensor/tapo-t300/",
+        "documents": [
+          { "label": "TP-Link Tapo T300 official specifications", "type": "manufacturer_page", "url": "https://www.tp-link.com/us/smart-home/smart-sensor/tapo-t300/" },
+          { "label": "Tapo T300 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202303/20230324/Tapo%20T300%28EU%26US%291.0_Datasheet.pdf" },
+          { "label": "Tapo T300 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2023/202308/20230821/1910013487_Tapo%20T300_UG_V1.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Tapo T300",
+          "providerSku": "ACCTPL1060",
+          "productType": "Sensor inteligente de fuga de agua",
+          "sensorProbes": 6,
+          "alarm": "Hasta 90 dB",
+          "ingressProtection": "IP67",
+          "hubRequired": true,
+          "wireless": "922 MHz US / 868 MHz EU",
+          "battery": "2 baterias AAA incluidas",
+          "batteryLife": "Hasta 3 anos en standby",
+          "operatingTemperature": "0 a 40 C",
+          "operatingHumidity": "0% a 99% RH",
+          "app": "Tapo",
+          "thirdPartyCompatibility": ["Google Assistant"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "84.5 x 46.5 x 30 mm" },
+        "sourceRefs": [
+          { "title": "TP-Link Tapo T300 official specifications", "type": "manufacturer", "url": "https://www.tp-link.com/us/smart-home/smart-sensor/tapo-t300/" },
+          { "title": "TP-Link Tapo T300 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202303/20230324/Tapo%20T300%28EU%26US%291.0_Datasheet.pdf" },
+          { "title": "CTOnline feed ACCTPL1060 stock 109", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "czfrv07asgaswsg",
+      "research": {
+        "confidence": 0.9,
+        "name": "Go Safe PCO120 careta protectora facial transparente",
+        "description": "Careta protectora facial Go Safe CPA C.20 de uso unitario, transparente, orientada a proteccion personal en salud, oficina o atencion al publico.",
+        "manualCategoryPath": "seguridad/epp/proteccion-facial",
+        "semanticCategoryPath": "seguridad/epp/proteccion-facial/caretas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Mactoner Go Safe PCO120", "type": "product_page", "url": "https://www.mactoner.com.mx/producto/careta-go-safe-pco120/" }],
+        "specs": {
+          "brand": "GO SAFE",
+          "model": "PCO120",
+          "providerSku": "CUBPCO120",
+          "productType": "Careta protectora facial",
+          "commercialModel": "CPA C.20",
+          "presentation": "Unitario",
+          "color": "Transparente",
+          "useCases": ["salud", "seguridad personal", "atencion al publico"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Mactoner CARETA Go Safe PCO120 CUBPCO120", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/careta-go-safe-pco120/" },
+          { "title": "Arango Technology Go Safe PCO120", "type": "reseller_spec", "url": "https://arangotechnology.com/productos/salud/caretas/go-safe/pco120/z-31929" },
+          { "title": "CTOnline feed CUBPCO120 stock 103", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "m8z5xbvgfkk3jwz",
+      "research": {
+        "confidence": 0.94,
+        "name": "Vorago CB-300 mochila pechera cruzada negra",
+        "description": "Mochila pechera cruzada Vorago CB-300 tipo city bag, color negro, poliester, resistente al agua, con tirante para hombro.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/bolsas-pechera",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/mochilas-y-maletines-vorago-cb-300/",
+        "specs": {
+          "brand": "VORAGO",
+          "model": "CB-300",
+          "providerSku": "MALVGO110",
+          "alternateProviderSku": "AC-13370",
+          "ean": "7503049354118",
+          "productType": "Mochila pechera cruzada",
+          "bagType": "City bag / mochila de pecho",
+          "material": "Poliester",
+          "color": "Negro",
+          "style": "Ciudad",
+          "waterResistant": true,
+          "shoulderStrap": true,
+          "packageLanguages": ["Ingles", "Espanol"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "190 x 103 x 320 mm", "weight": "330 g", "packageWeight": "400 g" },
+        "sourceRefs": [
+          { "title": "Tek Digital Vorago CB-300 specs", "type": "reseller_spec", "url": "https://tekdigital.mx/producto/mochila-pechera-cruzada-vorago-cb-300-polyester-negra/" },
+          { "title": "CompuPuebla Vorago CB-300 MALVGO110", "type": "reseller_spec", "url": "https://compupuebla.com/producto/mochilas-y-maletines-vorago-cb-300/" },
+          { "title": "CTOnline feed MALVGO110 stock 102", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-13370 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "y1opcpbjg6spe5n",
+      "research": {
+        "confidence": 0.95,
+        "name": "Hisense HMMS3411DSV horno de microondas inverter 1.4 pies 40 L",
+        "description": "Horno de microondas Hisense HMMS3411DSV negro inoxidable, capacidad 1.4 pies cubicos/40 L, tecnologia inverter, 1100 W y 26 menus mexicanos preestablecidos.",
+        "manualCategoryPath": "hogar/electrodomesticos/microondas",
+        "semanticCategoryPath": "hogar/electrodomesticos/microondas/inverter",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://hisense.com.mx/hmms3411dsv",
+        "documents": [{ "label": "Hisense HMMS3411DSV official page", "type": "manufacturer_page", "url": "https://hisense.com.mx/hmms3411dsv" }],
+        "specs": {
+          "brand": "HISENSE",
+          "model": "HMMS3411DSV",
+          "providerSku": "HORHSE050",
+          "ean": "6976866171472",
+          "productType": "Horno de microondas",
+          "capacity": "1.4 pies cubicos / 40 L",
+          "power": "1100 W",
+          "technology": "Inverter",
+          "color": "Negro inoxidable",
+          "menus": "26 menus mexicanos preestablecidos",
+          "display": "Panel LED premium",
+          "lighting": "LED blanca",
+          "clock": "14/24 h",
+          "features": ["modo ECO", "mute", "bloqueo infantil", "recubrimiento ceramico"],
+          "warranty": "1 ano gestionada por Hisense en retailers mexicanos",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Hisense HMMS3411DSV official product page", "type": "manufacturer", "url": "https://hisense.com.mx/hmms3411dsv" },
+          { "title": "Cyberpuerta Hisense HMMS3411DSV specs", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Hogar/Linea-Blanca/Hornos-de-Microondas/Hisense-Horno-de-Microondas-HMMS3411DSV-1-4-Pies-Cubicos-1100W-40-Litros-Negro.html" },
+          { "title": "CTOnline feed HORHSE050 stock 93", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "arualrdu92ymi0q",
+      "research": {
+        "confidence": 0.96,
+        "name": "EZVIZ CS-H9C/10MP camara PT doble lente WiFi 10MP",
+        "description": "Camara IP WiFi EZVIZ H9c doble lente 10MP (5MP+5MP), vista simultanea PT y fija, IA para humanos/vehiculos, vision nocturna a color, sirena, luz estroboscopica e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/doble-lente-exterior",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/products/230379",
+        "documents": [{ "label": "SYSCOM EZVIZ CS-H9C/10MP product page", "type": "product_page", "url": "https://www.syscom.mx/products/230379" }],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H9C/10MP",
+          "providerSku": "CSH9C10MP",
+          "syscomProductId": "230379",
+          "productType": "Camara IP WiFi PT doble lente",
+          "resolution": "10 MP total / 5 MP + 5 MP / 3K 2880 x 1620",
+          "lens": "2.8 mm fija + lente PT 6 mm",
+          "fieldOfView": "110 horizontal / 132 diagonal",
+          "panTilt": "Pan 350 grados / Tilt 80 grados",
+          "nightVision": "Color hasta 30 m",
+          "audio": "Micrófono y bocina integrados 100 dB",
+          "detections": ["humano", "vehiculo"],
+          "storage": "microSD hasta 512 GB / nube EZVIZ",
+          "network": ["WiFi 2.4 GHz", "Ethernet RJ45"],
+          "ingressProtection": "IP65",
+          "material": "Policarbonato",
+          "power": "12 Vcc / 1 A / max 12 W",
+          "operatingTemperature": "-20 a 50 C",
+          "warranty": "3 anos SYSCOM",
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "116 x 153.2 x 163.8 mm", "weight": "592 g" },
+        "sourceRefs": [
+          { "title": "SYSCOM product 230379 EZVIZ CS-H9C/10MP", "type": "provider_spec", "url": "https://www.syscom.mx/products/230379" },
+          { "title": "SYSCOM portal stock CSH9C10MP stock 92", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "unb35ftuquu3wu8",
+      "research": {
+        "confidence": 0.96,
+        "name": "EZVIZ CS-H9C/10MP camara PT doble lente WiFi 10MP",
+        "description": "Camara IP WiFi EZVIZ H9c doble lente 10MP (5MP+5MP), vista simultanea PT y fija, IA para humanos/vehiculos, vision nocturna a color, sirena, luz estroboscopica e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/doble-lente-exterior",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/products/230379",
+        "documents": [{ "label": "SYSCOM EZVIZ CS-H9C/10MP product page", "type": "product_page", "url": "https://www.syscom.mx/products/230379" }],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H9C/10MP",
+          "providerSku": "230379",
+          "matchedProviderSku": "CSH9C10MP",
+          "syscomProductId": "230379",
+          "productType": "Camara IP WiFi PT doble lente",
+          "resolution": "10 MP total / 5 MP + 5 MP / 3K 2880 x 1620",
+          "lens": "2.8 mm fija + lente PT 6 mm",
+          "fieldOfView": "110 horizontal / 132 diagonal",
+          "panTilt": "Pan 350 grados / Tilt 80 grados",
+          "nightVision": "Color hasta 30 m",
+          "audio": "Micrófono y bocina integrados 100 dB",
+          "detections": ["humano", "vehiculo"],
+          "storage": "microSD hasta 512 GB / nube EZVIZ",
+          "network": ["WiFi 2.4 GHz", "Ethernet RJ45"],
+          "ingressProtection": "IP65",
+          "material": "Policarbonato",
+          "power": "12 Vcc / 1 A / max 12 W",
+          "operatingTemperature": "-20 a 50 C",
+          "warranty": "3 anos SYSCOM",
+          "duplicateOfProviderProduct": "230379",
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "116 x 153.2 x 163.8 mm", "weight": "592 g" },
+        "sourceRefs": [
+          { "title": "SYSCOM product 230379 EZVIZ CS-H9C/10MP", "type": "provider_spec", "url": "https://www.syscom.mx/products/230379" },
+          { "title": "SYSCOM portal stock 230379 stock 92", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hkon4zqt0yixxmd",
+      "research": {
+        "confidence": 0.94,
+        "name": "Microsoft Office Home & Business 2024 FPP EP2-06687",
+        "description": "Licencia Microsoft Office Home & Business 2024 FPP de pago unico para 1 PC o Mac; incluye aplicaciones clasicas de Office como Word, Excel, PowerPoint y Outlook.",
+        "manualCategoryPath": "software/licencias",
+        "semanticCategoryPath": "software/licencias/ofimatica-office",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/microsoft-office-home-business-pc-windowsmac-398585",
+        "specs": {
+          "brand": "MICROSOFT",
+          "model": "EP2-06687",
+          "providerSku": "SOFMSC1890",
+          "productType": "Licencia de software ofimatico",
+          "edition": "Office Home & Business 2024",
+          "licenseType": "FPP / pago unico / completo",
+          "licenseQuantity": "1 licencia",
+          "distribution": "Fisico / descarga",
+          "platforms": ["Windows 10", "Windows 11", "macOS"],
+          "includedApps": ["Word", "Excel", "PowerPoint", "Outlook", "OneNote"],
+          "minimumRam": "4096 MB",
+          "minimumProcessor": "1100 MHz",
+          "minimumDisplayResolution": "1280 x 768",
+          "internetRequired": true,
+          "upc": "196388410644",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Intercompras Microsoft Office Home & Business 2024 EP2-06687", "type": "reseller_spec", "url": "https://intercompras.com/p/microsoft-office-home-business-pc-windowsmac-398585" },
+          { "title": "CompuPuebla Microsoft EP2-06687 SOFMSC1890", "type": "reseller_spec", "url": "https://compupuebla.com/producto/microsoft-office-microsoft-ep2-06687/" },
+          { "title": "CTOnline feed SOFMSC1890 stock 82", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "npwfy24lafytfbp",
+      "research": {
+        "confidence": 0.94,
+        "name": "Acteck Elant Cube AS430 bocinas 2.0 USB 6W negras",
+        "description": "Par de bocinas de escritorio Acteck Elant Cube AS430, conexion 3.5 mm, alimentacion USB, sonido estereo 2.0, potencia RMS 6 W y acabado negro.",
+        "manualCategoryPath": "computo/perifericos/bocinas-audio",
+        "semanticCategoryPath": "computo/perifericos/bocinas-audio/2-0-usb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dicotech.com.mx/producto/audio-y-bocinas/bocinas/bocinas-acteck-elant-cube-as430-alambricas-3-5mm-3w-rms-negro/QUMtOTM1MjY1",
+        "documents": [{ "label": "Acteck Elant Cube AS430 ficha", "type": "datasheet", "url": "https://www.dicotech.com.mx/productos/AC-935265/files/ficha.pdf" }],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AS430",
+          "commercialModel": "Elant Cube AS430",
+          "providerSku": "BOCACT340",
+          "manufacturerPartNumber": "AC-935265",
+          "upc": "7506215935265",
+          "productType": "Bocinas para computadora",
+          "speakerSystem": "2.0",
+          "connectivity": "Alambrica",
+          "audioInput": "3.5 mm",
+          "powerInput": "USB 5 Vcc",
+          "rmsPower": "6 W",
+          "speakerPower": "2 x 3 W",
+          "frequencyResponse": "60 Hz - 20 kHz",
+          "impedance": "4 ohm",
+          "cableLength": "1 m",
+          "material": "Plastico",
+          "color": "Negro",
+          "packageQuantity": "2 piezas",
+          "warranty": "1 ano en algunas fichas / 6 meses retailer",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "71 x 71 x 76 mm", "weight": "360 g" },
+        "sourceRefs": [
+          { "title": "Dicotech Acteck Elant Cube AS430 specs", "type": "reseller_spec", "url": "https://www.dicotech.com.mx/producto/audio-y-bocinas/bocinas/bocinas-acteck-elant-cube-as430-alambricas-3-5mm-3w-rms-negro/QUMtOTM1MjY1" },
+          { "title": "SAME Acteck Elant Cube AS430", "type": "reseller_spec", "url": "https://www.same.com.mx/producto/ac-935265/" },
+          { "title": "CTOnline feed BOCACT340 stock 79", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

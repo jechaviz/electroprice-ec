@@ -170,6 +170,36 @@ describe("product curation policy", () => {
       brand: "GO SAFE",
       category: "laptops",
     }).path).toBe("seguridad/epp/proteccion-facial");
+
+    expect(classifyManualCategory({
+      name: "TP-Link Tapo T300 sensor de fuga de agua",
+      brand: "TP-LINK",
+      category: "laptops",
+    }).path).toBe("domotica/sensores/fugas-agua");
+
+    expect(classifyManualCategory({
+      name: "Hisense HMMS3411DSV horno de microondas",
+      brand: "Hisense",
+      category: "laptops",
+    }).path).toBe("hogar/electrodomesticos/microondas");
+
+    expect(classifyManualCategory({
+      name: "EZVIZ CSH9C10MP camara PT doble lente",
+      brand: "EZVIZ",
+      category: "laptops",
+    }).path).toBe("seguridad/cctv/camaras-ip-wifi");
+
+    expect(classifyManualCategory({
+      name: "Evotec EV-3006 lector codigo de barras",
+      brand: "EVOTEC",
+      category: "laptops",
+    }).path).toBe("punto-de-venta/lectores-codigo-barras");
+
+    expect(classifyManualCategory({
+      name: "Microsoft EP2-06687 Office Home Business 2024",
+      brand: "MICROSOFT",
+      category: "laptops",
+    }).path).toBe("software/licencias");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
