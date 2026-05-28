@@ -513,6 +513,16 @@ const researchedBatchCases = [
   ["Nextep NE-650BG silla basica gris altura ajustable sin brazos soporta 120 kg", "NEXTEP", "oficina/mobiliario-accesorios/sillas-oficina/operativas-sin-brazos"],
   ["Vorago KSP-530 bafle karaoke 40W RMS 5400mAh flame light TWS Bluetooth", "VORAGO", "audio/bocinas/portatiles/karaoke-party"],
   ["Manhattan 421010 mini kit limpiador LCD 60cc pantalla", "MANHATTAN", "computo/accesorios/limpieza/limpiadores-pantalla"],
+  ["Saxxon SUA-HAC-B20M-0280B camara bala analog HD 2MP 1080P IR 30m IP67", "SAXXON", "seguridad/cctv/camaras-analogicas/bullet-hd"],
+  ["CDP R-UPR1008 no break interactivo 1000VA 500W 8 contactos", "CDP", "energia/no-breaks-ups/line-interactive/1000va"],
+  ["BRobotix 206823 cable USB 2.0 Tipo A a Tipo A 0.9m negro", "BROBOTIX", "accesorios/cables-adaptadores/usb/usb-a-a"],
+  ["Kaspersky Standard KL1041Z5KFS 10 dispositivos 1 ano fisica", "KASPERSKY", "software/seguridad/antivirus/multidispositivo"],
+  ["TP-Link TL-WN8200ND adaptador USB Wi-Fi alta potencia 300Mbps 2 antenas", "TP LINK", "redes/adaptadores-wifi/usb/alta-potencia"],
+  ["Koblenz SS-460 C supresor de picos 460 joules 6 contactos", "KOBLENZ", "energia/supresores-reguladores/supresores-picos/multicontactos"],
+  ["IMOU IPC-S3EN-3M0WE Bullet 3MP Wi-Fi Full Color IMOU Sense", "IMOU", "seguridad/cctv/camaras-ip-wifi/bullet-exterior"],
+  ["TP-Link RE450 extensor de rango Wi-Fi AC1750 dual band", "TP LINK", "redes/extensores-wifi/dual-band"],
+  ["DataShield UT-3000 no break 3000VA 2700W 8h recarga", "DATASHIELD", "energia/no-breaks-ups/doble-conversion/rack-torre/3000va"],
+  ["Qian QMF-REF19-01 Monitor Office Mate 19 pulgadas 1440x900 75Hz", "QIAN", "computo/monitores/oficina/19-wxga"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
