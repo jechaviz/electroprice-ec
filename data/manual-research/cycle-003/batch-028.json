@@ -1,0 +1,503 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b028-2026-05-28",
+  "cycle": 3,
+  "batch": 28,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "9r35nx2fzwyna7e",
+      "research": {
+        "confidence": 0.9,
+        "name": "APC RBC35 bateria de reemplazo UPS Back-UPS 12V 3Ah",
+        "description": "Cartucho de bateria de reemplazo APC RBC35 para UPS Back-UPS compatibles, bateria VRLA/plomo-acido 12 V 3 Ah con conectores, guia de instalacion y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc35-12v3ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/RBC35/apc-replacement-battery-cartridge-35-with-2-year-warranty/",
+        "gallery": ["https://www.tech-america.com/dd2/img/item/A-1500x1500/810629.jpg"],
+        "documents": [
+          { "label": "APC RBC35 datasheet mirror", "type": "datasheet", "url": "https://www.mouser.com/datasheet/2/357/1/RBC35_document-3061815.pdf" },
+          { "label": "APC RBC35 RoHS declaration", "type": "declaration", "url": "https://download.schneider-electric.com/files?p_Doc_Ref=RBC35_ROHS_DECLARATION&p_enDocType=Declaration+of+Conformity+(Sustainability)" }
+        ],
+        "specs": {
+          "brand": "APC",
+          "model": "RBC35",
+          "providerSku": "ACCAPC060",
+          "alternateProviderSku": "FR-209",
+          "productType": "Cartucho de bateria UPS",
+          "batteryType": "VRLA / plomo-acido",
+          "voltage": "12 V",
+          "capacity": "3 Ah",
+          "color": "Negro",
+          "compatibleModels": ["BE350C", "BE350G", "BE350G-LM", "BE350D-LM", "BE350R", "BE350U"],
+          "included": ["conectores requeridos", "guia de reciclaje", "guia de instalacion", "empaque reutilizable"],
+          "warranty": "2 anos",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 52, "price": 33.74, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 33.8, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {
+          "dimensions": "13.4 x 5.8 x 6.6 cm",
+          "weight": "1.4 kg",
+          "shippingDimensions": "18.7 x 14.6 x 9.4 cm",
+          "shippingWeight": "1.68 kg"
+        },
+        "sourceRefs": [
+          { "title": "Schneider Electric APC RBC35 official page", "type": "manufacturer", "url": "https://www.se.com/us/en/product/RBC35/apc-replacement-battery-cartridge-35-with-2-year-warranty/" },
+          { "title": "Mouser APC RBC35 datasheet mirror", "type": "datasheet", "url": "https://www.mouser.com/datasheet/2/357/1/RBC35_document-3061815.pdf" },
+          { "title": "GlobalOffice APC RBC35 SKU reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/proteccion-de-poder/apc-replacement-battery-cartridge-35/rbc35" },
+          { "title": "CTOnline/CVA feed ACCAPC060 FR-209 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "4a3wirwp78fyp5h",
+      "research": {
+        "confidence": 0.88,
+        "name": "Condumex 664464 bobina cable UTP Cat5e exterior con gel 305 m negro",
+        "description": "Bobina Condumex 664464 de cable UTP categoria 5e para exterior con gel, 4 pares de cobre suave calibre 24 AWG, cubierta PE negra resistente a intemperie y longitud de 305 m.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/utp-cat5e-exterior-gel",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.condumex.com/Folletos-Y-Manuales/CONDUNET%28A%29.pdf",
+        "gallery": [
+          "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/CONDUMEX/664464_1000/664464_1000-p.PNG",
+          "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/CONDUMEX/664464_1000/664464_1000-l.PNG"
+        ],
+        "documents": [
+          { "label": "Condumex Condunet catalog", "type": "catalog", "url": "https://www.condumex.com/Folletos-Y-Manuales/CONDUNET%28A%29.pdf" },
+          { "label": "GlobalOffice 664464 PDF", "type": "reseller_pdf", "url": "https://globaloffice.com.mx/app/producto/pdf/664464" }
+        ],
+        "specs": {
+          "brand": "CONDUMEX",
+          "model": "664464",
+          "alternateSku": "66-44-64/1000",
+          "providerSku": "ACCCDM1010",
+          "alternateProviderSku": "CB-730",
+          "productType": "Bobina cable UTP",
+          "categoryRating": "Cat5e",
+          "application": "Exterior con gel / compuesto de relleno",
+          "conductors": "4 pares",
+          "conductorMaterial": "Cobre suave / 100% cobre",
+          "conductorGauge": "24 AWG / 0.5 mm",
+          "jacket": "Polietileno negro resistente a intemperie",
+          "length": "305 m / 1000 ft",
+          "standards": ["ANSI/TIA/EIA 568B-2", "ISO/IEC 11801", "NMX-I-236/02"],
+          "operatingTemperature": "-20 C a 75 C",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 182, "price": 2752.91, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 3807.12, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableOuterDiameter": "6 mm", "packageDimensions": "29 x 29 x 24 cm", "packageWeight": "12.7 kg" },
+        "sourceRefs": [
+          { "title": "Condumex Condunet catalog 664464", "type": "manufacturer", "url": "https://www.condumex.com/Folletos-Y-Manuales/CONDUNET%28A%29.pdf" },
+          { "title": "SYSCOM 66-44-64/1000 gallery and specs", "type": "reseller_spec", "url": "https://www.syscom.mx/products/7531/66-44-641000" },
+          { "title": "Radiomex 66-44-64/1000 package data", "type": "reseller_spec", "url": "https://www.radiomex.mx/66-44-64-1000/" },
+          { "title": "CTOnline/CVA feed ACCCDM1010 CB-730 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1k5qqfdnzan22j3",
+      "research": {
+        "confidence": 0.9,
+        "name": "Condumex UltraCat 66446815 bobina cable UTP Cat6 305 m azul",
+        "description": "Bobina Condumex UltraCat UTP categoria 6 para interior, 4 pares de cobre solido 23 AWG, cubierta PVC retardante a la flama, color azul y longitud de 305 m.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/utp-cat6-interior",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.condumex.com/CatalogosPDF/Telecom/2%20CABLE%20ULTRACAT%20UTP%20CATEGORIA%206.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCCDM1030/ACCCDM1030_0_full.jpg"],
+        "documents": [
+          { "label": "Condumex UltraCat UTP Categoria 6", "type": "datasheet", "url": "https://www.condumex.com/CatalogosPDF/Telecom/2%20CABLE%20ULTRACAT%20UTP%20CATEGORIA%206.pdf" },
+          { "label": "GlobalOffice 66446815 PDF", "type": "reseller_pdf", "url": "https://globaloffice.com.mx/app/producto/pdf/66446815" }
+        ],
+        "specs": {
+          "brand": "CONDUMEX",
+          "model": "66446815",
+          "providerSku": "ACCCDM1030",
+          "ean": "7503034976257",
+          "productType": "Bobina cable UTP",
+          "family": "UltraCat UTP Categoria 6",
+          "application": "Interior / cableado horizontal",
+          "conductors": "4 pares",
+          "conductorMaterial": "Cobre solido / 100% cobre",
+          "conductorGauge": "23 AWG",
+          "separator": "Cruceta de polietileno",
+          "jacket": "PVC retardante a la flama",
+          "length": "305 m",
+          "color": "Azul",
+          "outerDiameter": "6.2 mm",
+          "standards": ["UL-444", "ANSI/TIA-568-C.2", "ISO/IEC 11801:2002/2008", "NMX-I-248-NYCE-2008"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 21 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 63, "price": 3490, "currency": "MXN", "branch": "DFA/D2A/GDL/PUE/CMT/CHI" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "netCableWeight": "40 kg/km; aprox. 12.2 kg por 305 m", "packageDimensions": "30 x 45 cm reportado por reseller" },
+        "sourceRefs": [
+          { "title": "Condumex UltraCat UTP Categoria 6 official PDF", "type": "manufacturer", "url": "https://www.condumex.com/CatalogosPDF/Telecom/2%20CABLE%20ULTRACAT%20UTP%20CATEGORIA%206.pdf" },
+          { "title": "GlobalOffice 66446815 reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/producto/pdf/66446815" },
+          { "title": "InterDS 66446815 UPC and commercial data", "type": "reseller_spec", "url": "https://inter-ds.com/products/cable-utp-cat6-condumex-ultracat-4pares-cal-23-awg-azul-305m-66446815" },
+          { "title": "CTOnline feed ACCCDM1030 stock 63 DFA/D2A/GDL/PUE/CMT/CHI", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jhpij7qf7uavpfm",
+      "research": {
+        "confidence": 0.9,
+        "name": "Condumex UltraCat 66446835 bobina cable UTP Cat6 305 m gris",
+        "description": "Bobina Condumex UltraCat UTP categoria 6 para interior, 4 pares de cobre solido 23 AWG, cubierta PVC retardante a la flama, color gris y longitud de 305 m.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/utp-cat6-interior",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.condumex.com/CatalogosPDF/Telecom/2%20CABLE%20ULTRACAT%20UTP%20CATEGORIA%206.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCCDM1040/ACCCDM1040_0_full.jpg", "https://store.bloobit.com/uploads/_/ACCCDM1040.jpg"],
+        "documents": [
+          { "label": "Condumex UltraCat UTP Categoria 6", "type": "datasheet", "url": "https://www.condumex.com/CatalogosPDF/Telecom/2%20CABLE%20ULTRACAT%20UTP%20CATEGORIA%206.pdf" },
+          { "label": "GlobalOffice 66446835 PDF", "type": "reseller_pdf", "url": "https://globaloffice.com.mx/app/producto/pdf/66446835" }
+        ],
+        "specs": {
+          "brand": "CONDUMEX",
+          "model": "66446835",
+          "providerSku": "ACCCDM1040",
+          "productType": "Bobina cable UTP",
+          "family": "UltraCat UTP Categoria 6",
+          "application": "Interior / cableado horizontal",
+          "conductors": "4 pares",
+          "conductorMaterial": "Cobre solido / 100% cobre",
+          "conductorGauge": "23 AWG",
+          "separator": "Cruceta de polietileno",
+          "jacket": "PVC retardante a la flama",
+          "length": "305 m",
+          "color": "Gris",
+          "outerDiameter": "6.2 mm",
+          "standards": ["UL-444", "ANSI/TIA-568-C.2", "ISO/IEC 11801:2002/2008", "NMX-I-248-NYCE-2008"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 21 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 32, "price": 3490, "currency": "MXN", "branch": "DFA/D2A/GDL/CUN/CLN/AGS" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "netCableWeight": "40 kg/km; aprox. 12.2 kg por 305 m" },
+        "sourceRefs": [
+          { "title": "Condumex UltraCat UTP Categoria 6 official PDF", "type": "manufacturer", "url": "https://www.condumex.com/CatalogosPDF/Telecom/2%20CABLE%20ULTRACAT%20UTP%20CATEGORIA%206.pdf" },
+          { "title": "GlobalOffice 66446835 reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/producto/pdf/66446835" },
+          { "title": "Bloobit ACCCDM1040 reference", "type": "reseller_spec", "url": "https://store.bloobit.com/productos/z-41" },
+          { "title": "CTOnline feed ACCCDM1040 stock 32 DFA/D2A/GDL/CUN/CLN/AGS", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "dq3p4rwzsr5xk21",
+      "research": {
+        "confidence": 0.82,
+        "name": "WAM RG59UL-305B cable siames RG59 para CCTV 305 m negro",
+        "description": "Bobina WAM RG59UL-305B de cable coaxial siames RG-59 para CCTV, color negro, longitud 305 m, con conductor de video y alimentacion en una misma bobina.",
+        "manualCategoryPath": "seguridad/cctv/cable-coaxial-siames",
+        "semanticCategoryPath": "seguridad/cctv/cable-coaxial-siames/rg59-305m",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://oasify.com/102196-large_default/bobina-coaxial-siames-wam-rg-59-bobina-305-metros-negro.webp"],
+        "specs": {
+          "brand": "WAM",
+          "model": "RG59UL-305B",
+          "providerSku": "ACCCDM1080",
+          "productType": "Cable coaxial siames CCTV",
+          "cableType": "RG-59 siames",
+          "length": "305 m",
+          "color": "Negro",
+          "connectorsListed": "RG59 a RG59",
+          "genderListed": "Macho/Macho en feed proveedor",
+          "useCase": "CCTV / videovigilancia, video mas alimentacion",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 8, "price": 2276.09, "currency": "MXN", "branch": "GDL/D2A/VER/TXA/TPC/OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "packageDimensions": "38.5 x 33.1 x 37.5 cm", "packageWeight": "18.3 kg" },
+        "sourceRefs": [
+          { "title": "Mactoner WAM RG59UL-305B reference", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/cable-siames-rg-59-wam-rg59ul-305b-rg59ul-305b-rg59/" },
+          { "title": "Sonrobots WAM RG59UL-305B dimensions", "type": "reseller_spec", "url": "https://sonrobots.com/producto/cable-siames-rg-59-wam-rg59ul-305b-rg59ul-305b-rg59/" },
+          { "title": "Oasify WAM RG59UL-305B image reference", "type": "image_reference", "url": "https://oasify.com/conector-coaxial/285111-bobina-coaxial-siames-wam-rg-59-bobina-305-metros-negro.html" },
+          { "title": "CTOnline feed ACCCDM1080 stock 8 GDL/D2A/VER/TXA/TPC/OAX", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "cq6l54l8lsqkvks",
+      "research": {
+        "confidence": 0.84,
+        "name": "Condumex Bravotwist 66445632 bobina cable UTP Cat5e 305 m gris",
+        "description": "Bobina Condumex Bravotwist 66445632 de cable UTP Cat5e para interior, 4 pares de cobre 24 AWG, cubierta PVC retardante a la flama color gris y longitud 305 m.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/utp-cat5e-interior",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.condumex.com/CatalogosPDF/Telecom/4%20CABLE%20PAR%20TRENZADO%20SIN%20BLINDAR%20%28UTP%29%20CATEGORIA%205e%20USO%20INTERIOR-EXTERIOR.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCCDM970/ACCCDM970_0_full.jpg"],
+        "documents": [
+          { "label": "Condumex UTP Categoria 5e interior-exterior", "type": "datasheet", "url": "https://www.condumex.com/CatalogosPDF/Telecom/4%20CABLE%20PAR%20TRENZADO%20SIN%20BLINDAR%20%28UTP%29%20CATEGORIA%205e%20USO%20INTERIOR-EXTERIOR.pdf" },
+          { "label": "GlobalOffice 66445632 PDF", "type": "reseller_pdf", "url": "https://globaloffice.com.mx/app/producto/pdf/66445632" }
+        ],
+        "specs": {
+          "brand": "CONDUMEX",
+          "model": "66445632",
+          "providerSku": "ACCCDM970",
+          "ean": "7503034976172",
+          "productType": "Bobina cable UTP",
+          "family": "Bravotwist UTP Categoria 5e",
+          "application": "Interior / cableado horizontal",
+          "conductors": "4 pares",
+          "conductorGauge": "24 AWG / 0.5 mm",
+          "insulation": "Polietileno de alta densidad",
+          "jacket": "PVC retardante a la flama",
+          "length": "305 m",
+          "color": "Gris",
+          "performance": "100 MHz / Gigabit Ethernet",
+          "standards": ["ISO/IEC 11801", "ANSI/TIA/EIA 568 B2", "NMX-I-236", "NOM-001-SEDE", "NEC NFPA"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 25 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "COL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "not_available", "stock": 37 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 99, "price": 2069.89, "currency": "MXN", "branch": "partial_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "305 m" },
+        "sourceRefs": [
+          { "title": "Condumex UTP Categoria 5e official PDF", "type": "manufacturer", "url": "https://www.condumex.com/CatalogosPDF/Telecom/4%20CABLE%20PAR%20TRENZADO%20SIN%20BLINDAR%20%28UTP%29%20CATEGORIA%205e%20USO%20INTERIOR-EXTERIOR.pdf" },
+          { "title": "InterDS 66445632 commercial reference", "type": "reseller_spec", "url": "https://inter-ds.com/products/condumex-cable-utp-cat5e-bravotwist-4pares-24-awg-gris-305m66445632" },
+          { "title": "GlobalOffice 66445632 reference", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/cables/condumex-cable-utp-cat5e-bravotwist-4pares-24-awg/66445632" },
+          { "title": "CTOnline feed ACCCDM970 stock 99 partial branch summary", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "6b49kh8aq0aqad5",
+      "research": {
+        "confidence": 0.92,
+        "name": "Condunet 8699862CPC patch cord UTP Cat6 RJ45 2 m gris",
+        "description": "Cable de parcheo Condunet 8699862CPC UTP categoria 6 de 2 m, color gris, conectores RJ45 macho a macho, 4 pares y desempeno superior a 250 MHz.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6-2m",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.condumex.com/en/catalogo-condunet/",
+        "gallery": [
+          "https://incom.mx/cdn/shop/files/CONDUNET_8699862CPC-CORDON_DE_PARCHEO_UTP_GRIS-F1.jpg?v=1710448678",
+          "https://static.ctonline.mx/imagenes/ACCCDT360/ACCCDT360_full.jpg"
+        ],
+        "documents": [
+          { "label": "Condunet cable de parcheo UTP categoria 6", "type": "datasheet", "url": "https://www.condumex.com/CatalogosPDF/Condunet/6%20CABLE%20DE%20PARCHEO%20UTP%20CATEGORIA%206.pdf" },
+          { "label": "Incom Condunet 869986XPC ficha", "type": "reseller_pdf", "url": "https://cdn.shopify.com/s/files/1/0859/7526/9679/files/CONDUNET_869986XPC-Cordon_de_parcheo_cat6.pdf?v=1725562064" }
+        ],
+        "specs": {
+          "brand": "CONDUNET",
+          "model": "8699862CPC",
+          "providerSku": "ACCCDT360",
+          "productType": "Patch cord UTP Cat6",
+          "length": "2 m",
+          "color": "Gris",
+          "connectors": "RJ45 macho a RJ45 macho",
+          "pairs": "4 pares",
+          "performance": "Superior a 250 MHz",
+          "conductor": "Multifilar calibre 23 AWG",
+          "standards": ["ISO/IEC 11801", "TIA/EIA-568-B.2-1", "NMX-I-248 NYCE vigente"],
+          "plug": "RJ45 Cat6 con contactos 50 microin de oro",
+          "packaging": "Bolsa plastica individual",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 3.39, "currency": "USD", "branch": "GDL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "2 m" },
+        "sourceRefs": [
+          { "title": "Condumex Condunet catalog", "type": "manufacturer", "url": "https://www.condumex.com/en/catalogo-condunet/" },
+          { "title": "Condunet Cat6 patch cord official PDF", "type": "datasheet", "url": "https://www.condumex.com/CatalogosPDF/Condunet/6%20CABLE%20DE%20PARCHEO%20UTP%20CATEGORIA%206.pdf" },
+          { "title": "Incom 8699862CPC reference", "type": "reseller_spec", "url": "https://incom.mx/products/cordon-de-parcheo-utp-cat-6-pvc-gris-2-m-marca-condunet-8699862cpc" },
+          { "title": "CTOnline feed ACCCDT360 stock 9 GDL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wxotb85eyazf3kv",
+      "research": {
+        "confidence": 0.82,
+        "name": "Complet BRC-1-002 supresor de picos 504J 8 contactos",
+        "description": "Supresor de picos COMPLET BRC-1-002 de 8 contactos NEMA 5-15R, proteccion de 504 joules, 120 Vca 60 Hz, carga maxima 6 A / 720 W y garantia de 60 meses.",
+        "manualCategoryPath": "energia/supresores-reguladores/supresores-picos",
+        "semanticCategoryPath": "energia/supresores-reguladores/supresores-picos/8-contactos-504j",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.complet.mx/productos",
+        "gallery": ["https://compuviper.mx/tienda/wp-content/uploads/2023/12/Supresor-de-picos-complet-brc-1-002-proteccion-504-joule-8-contactos-60-meses-de-garantia.jpg"],
+        "documents": [{ "label": "COMPLET BRC-1-002 ficha", "type": "datasheet", "url": "https://energiayredes.com/wp-content/uploads/BRC-1-002.pdf" }],
+        "specs": {
+          "brand": "COMPLET",
+          "model": "BRC-1-002",
+          "providerSku": "ACCCOM010",
+          "alternateProviderSku": "AC-9644",
+          "upc": "7501693402193",
+          "productType": "Supresor de picos",
+          "outlets": "8 NEMA 5-15R",
+          "nominalVoltage": "120 Vca / 60 Hz",
+          "surgeSuppression": "504 J",
+          "maxLoad": "6 A / 720 W",
+          "warranty": "60 meses / 5 anos",
+          "applications": ["electrodomesticos", "audio/video", "computo", "pantallas plasma/LCD"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 1, "price": 115.14, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 122.14, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "8.7 x 17.5 x 3.5 cm", "weight": "0.3025 kg", "packageDimensions": "3.8 x 8.7 x 23.6 cm" },
+        "sourceRefs": [
+          { "title": "COMPLET products page", "type": "manufacturer", "url": "https://www.complet.mx/productos" },
+          { "title": "BRC-1-002 datasheet", "type": "datasheet", "url": "https://energiayredes.com/wp-content/uploads/BRC-1-002.pdf" },
+          { "title": "CompuViper BRC-1-002 reference", "type": "reseller_spec", "url": "https://compuviper.mx/tienda/producto/complet-brc-1-002-supresor-de-picos-proteccion-504-joule-8-contactos-60-meses-de-garantia/" },
+          { "title": "CTOnline/CVA feed ACCCOM010 AC-9644 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "5oug3s1s8yypl50",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 423526 mouse pad 6 mm negro a granel",
+        "description": "Mouse pad Manhattan 423526 negro de 6 mm de grosor, superficie de espuma para mouse optico, laser, alambrico, inalambrico y gaming, presentacion a granel.",
+        "manualCategoryPath": "computo/accesorios/mousepads",
+        "semanticCategoryPath": "computo/accesorios/mousepads/6mm-granel",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-mouse-pad-6-mm-a-granel-423526",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_42f1beec-7736-4d99-a86a-1497e320ef1a.jpg?v=1779927502",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MousePadMANHATTAN423526Negro_423526_UPC766623423526_0.jpg"
+        ],
+        "documents": [{ "label": "Manhattan 423526 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63035/423526_datasheet_spanish.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "423526",
+          "providerSku": "ACCITL045",
+          "alternateProviderSku": "AC-1571",
+          "upc": "766623423526",
+          "ean": "0766623423526",
+          "productType": "Mouse pad",
+          "color": "Negro",
+          "material": "Espuma",
+          "thickness": "6 mm",
+          "packaging": "A granel",
+          "compatibility": ["mouse optico", "mouse laser", "mouse alambrico", "mouse inalambrico", "mouse gaming"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 2738, "price": 1.03, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 7, "price": 0.95, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "25.5 x 22 x 0.6 cm", "weight": "0.03 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 423526 official product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-mouse-pad-6-mm-a-granel-423526" },
+          { "title": "Manhattan 423526 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63035/423526_datasheet_spanish.pdf" },
+          { "title": "Compupuebla Manhattan 423526 reference", "type": "reseller_spec", "url": "https://compupuebla.com/producto/mouse-pad-manhattan-423526/" },
+          { "title": "CTOnline/CVA feed ACCITL045 AC-1571 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "08sk1bb3xbw1csp",
+      "research": {
+        "confidence": 0.96,
+        "name": "Manhattan 205146 convertidor USB-A a Serial RS232 DB9 macho",
+        "description": "Convertidor Manhattan 205146 USB-A a puerto serial RS232 DB9 macho de 45 cm, chipset Prolific PL-2303, alimentado por bus USB, plug and play y compatible con Windows, Linux y Mac OS.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb-serial",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb-serial/rs232-db9m",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-convertidor-de-usb-a-puerto-serial-rs232-205146",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_18e95a01-c3f7-4232-baee-799a2eab15fa.jpg?v=1779927332",
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_4d26b661-18ef-4c32-adcd-1635263579ef.jpg?v=1779927332",
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_e32223a3-4b92-4030-855c-dabb6b6d85f2.jpg?v=1779927332"
+        ],
+        "documents": [
+          { "label": "Manhattan 205146 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42704/205146_datasheet_english.pdf" },
+          { "label": "Manhattan 205146 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42706/205146_datasheet_spanish.pdf" },
+          { "label": "Manhattan 205146 quick instruction guide", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/69973/MH_205146_QIG_0724_REV_6.02_BBT.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "205146",
+          "providerSku": "ACCITL080",
+          "alternateProviderSku": "CB-170",
+          "upc": "766623205146",
+          "ean": "0766623205146",
+          "productType": "Convertidor USB a serial",
+          "connectorA": "USB-A macho",
+          "connectorB": "RS232 DB9 macho 9 pines",
+          "chipset": "Prolific PL-2303",
+          "transferRate": "Hasta 115 kbps",
+          "usbStandard": ["USB 1.0", "USB 1.1"],
+          "features": ["alimentado por bus", "proteccion sobrecorriente", "plug and play", "hot swappable"],
+          "certifications": ["CE", "FCC", "RoHS", "WEEE"],
+          "osSupport": ["Windows XP/Vista/7/8/8.1/10/11", "Linux", "Mac OS 9.x/10.x o superior"],
+          "warranty": "3 anos",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 34, "price": 9.34, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 9.48, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "45 cm", "cableGauge": "24 AWG", "weight": "41 g", "grossWeight": "66 g", "packageDimensions": "200 x 90 x 25 mm" },
+        "sourceRefs": [
+          { "title": "Manhattan 205146 official product page MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-convertidor-de-usb-a-puerto-serial-rs232-205146" },
+          { "title": "Manhattan 205146 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42704/205146_datasheet_english.pdf" },
+          { "title": "Manhattan 205146 official product page EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-usb-to-serial-converter-205146" },
+          { "title": "CTOnline/CVA feed ACCITL080 CB-170 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

@@ -146,6 +146,16 @@ const researchedBatchCases = [
   ["Huawei WATCH FIT 4 Pro 55020FAD smartwatch verde", "HUAWEI", "wearables/smartwatches"],
   ["Acteck BS600 Dynamic Thin barra de sonido 2.1 60W", "ACTECK", "audio/barras-sonido"],
   ["Uniarch UHO-S2E-M3 camara IP mini PT WiFi 3MP", "UNIARCH", "seguridad/cctv/camaras-ip-wifi"],
+  ["APC RBC35 bateria de reemplazo UPS Back-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["Condumex 664464 bobina cable UTP Cat5e exterior con gel", "CONDUMEX", "redes/cableado-estructurado/bobinas-utp"],
+  ["Condumex 66446815 bobina cable UTP Cat6 interior azul", "CONDUMEX", "redes/cableado-estructurado/bobinas-utp"],
+  ["Condumex 66446835 bobina cable UTP Cat6 interior gris", "CONDUMEX", "redes/cableado-estructurado/bobinas-utp"],
+  ["WAM RG59UL-305B cable siames RG-59 CCTV", "WAM", "seguridad/cctv/cable-coaxial-siames"],
+  ["Condumex 66445632 bobina cable UTP Cat5e Bravotwist gris", "CONDUMEX", "redes/cableado-estructurado/bobinas-utp"],
+  ["Condunet 8699862CPC patch cord UTP Cat6 gris 2m", "CONDUNET", "redes/cableado-estructurado/patch-cords"],
+  ["Complet BRC-1-002 supresor de picos 504J 8 contactos", "COMPLET", "energia/supresores-reguladores/supresores-picos"],
+  ["Manhattan 423526 mousepad 6mm granel negro", "MANHATTAN", "computo/accesorios/mousepads"],
+  ["Manhattan 205146 convertidor USB a Serial DB9 RS232", "MANHATTAN", "accesorios/cables-adaptadores/usb-serial"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
