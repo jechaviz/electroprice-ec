@@ -293,6 +293,16 @@ const researchedBatchCases = [
   ["Acer EK241Y P0BI UM.QE1AA.009 monitor 23.8 144Hz", "ACER", "computo/monitores/gaming"],
   ["Acer KA242Y GOBI monitor 23.8 FHD 120Hz IPS", "ACER", "computo/monitores/oficina"],
   ["Acer XZ320Q X2bmiiphx monitor curvo 31.5 240Hz", "ACER", "computo/monitores/gaming"],
+  ["Acteck Inspire TI215 AC-913973 teclado inalambrico multimedia", "ACTECK", "computo/perifericos/teclados/inalambricos"],
+  ["Acteck Optimize MI440 R100 AC-916462 mouse inalambrico 1600 DPI", "ACTECK", "computo/perifericos/mouse/inalambricos"],
+  ["Acteck Optimize MA210 AC-928830 mouse alambrico USB 1200 DPI", "ACTECK", "computo/perifericos/mouse/alambricos"],
+  ["Acteck Optimize MI240 AC-928885 mouse inalambrico 1200 DPI", "ACTECK", "computo/perifericos/mouse/inalambricos"],
+  ["Acteck Inspire TA210 AC-928946 teclado alambrico USB", "ACTECK", "computo/perifericos/teclados/alambricos"],
+  ["Acteck Creator MK210 AC-928984 kit teclado y mouse USB", "ACTECK", "computo/perifericos/combos-teclado-mouse"],
+  ["Acteck Atom GS240 AC-929042 gabinete micro torre slim", "ACTECK", "computo/componentes/gabinetes"],
+  ["Acteck Kioto GC240 AC-932547 gabinete mini torre", "ACTECK", "computo/componentes/gabinetes"],
+  ["Acteck Inspire TN220 AC-932622 teclado numerico USB", "ACTECK", "computo/perifericos/teclados/numericos"],
+  ["Acteck Kioto GC220 AC-933063 gabinete micro ATX slim", "ACTECK", "computo/componentes/gabinetes"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

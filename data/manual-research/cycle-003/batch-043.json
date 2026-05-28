@@ -1,0 +1,249 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b043-2026-05-28",
+  "cycle": 3,
+  "batch": 43,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "mv0t81jrj6ela1h",
+      "research": {
+        "confidence": 0.96,
+        "name": "Teclado inalambrico Acteck Inspire TI215 2.4GHz USB espanol negro AC-913973",
+        "description": "Teclado Acteck Inspire TI215 inalambrico de membrana en formato completo, distribucion en espanol, receptor USB 2.4GHz, 104 teclas mas 10 funciones multimedia y alimentacion con 1 bateria AA.",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/teclados/inalambricos/multimedia-2-4ghz",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/teclado-inspire-ti215",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-913973_01.webp?v=1759337727&width=1000", "https://acteck.com/cdn/shop/files/AC-913973_02.webp?v=1759337727&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10185691"],
+        "documents": [{ "label": "Acteck AC-913973 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-913973_V1.pdf?v=1694462303" }],
+        "specs": {
+          "brand": "Acteck", "model": "Inspire TI215", "partNumber": "AC-913973", "providerSku": "TECACT080 / KB-787", "productType": "Wireless keyboard", "layout": "Espanol", "switchType": "Membrana", "keys": "104 teclas + 10 multifuncion; feed comercial lo resume como 114 teclas", "connection": "USB 2.4GHz receiver", "battery": "1 x AA", "color": "Negro", "compatibility": "Windows", "ean": "7506215913973",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 98 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECACT080", "stock": 98, "price": 113.79, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "KB-787", "stock": 0, "price": 108.20, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Acteck tienda lo mostraba sin disponibilidad, pero el feed CTOnline tiene stock 98.", "El proveedor no expone sucursal detallada; se conserva ubicacion MX.", "La cuenta 114 teclas se interpreta como 104 teclas base + 10 funciones multimedia."]
+        },
+        "measurements": { "dimensions": "44 x 13.5 x 2.5 cm", "weight": "400 g", "packageDimensions": "44 x 2.6 x 14.6 cm", "packageWeight": "482 g" },
+        "sourceRefs": [{ "title": "Acteck Inspire TI215 official page", "type": "manufacturer", "url": "https://acteck.com/products/teclado-inspire-ti215" }, { "title": "Acteck AC-913973 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-913973_V1.pdf?v=1694462303" }, { "title": "Grupo Decme AC-913973 product data", "type": "reseller_spec", "url": "https://grupodecme.com/products/teclado-acteck-inspire-ti215-inalambrico-usb-clasico-negro-ac-913973" }, { "title": "CTOnline and CVA feeds AC-913973 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "xtdw2rrskxzuvlj",
+      "research": {
+        "confidence": 0.93,
+        "name": "Mouse Acteck Optimize MI440 R100 inalambrico 2.4GHz USB 1600 DPI negro AC-916462",
+        "description": "Mouse Acteck Optimize MI440 R100 inalambrico por receptor USB 2.4GHz, sensor optico de hasta 1600 DPI, 3 botones mas scroll, alcance comercial de 10 m y alimentacion con bateria AA.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/2-4ghz-optico",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/mouse/mouse-acteck-confortable-optimize-mi440/ac-916462",
+        "gallery": ["https://www.tisistems.com/cdn/shop/files/AC-916462_01_1000PX.webp?v=1763051808&width=416", "https://www.tisistems.com/cdn/shop/files/AC-916462_04_1000PX.webp?v=1763051808&width=416", "https://www.grupocva.com/detalle_articulo/10089163.jpg"],
+        "documents": [{ "label": "Acteck AC-916462 ficha tecnica", "type": "datasheet", "url": "https://xentra.glomastore.mx/img/productos/pdf/ACT-AC-916462.pdf" }],
+        "specs": {
+          "brand": "Acteck", "model": "Optimize MI440 R100", "partNumber": "AC-916462", "providerSku": "MOUGEN1740 / MS-1269", "productType": "Wireless mouse", "sensor": "Optico", "dpi": "Hasta 1600 DPI ajustable", "buttons": "3 botones + scroll", "connection": "USB 2.4GHz receiver", "battery": "1 x AA", "range": "10 m in reseller sheets", "color": "Negro", "compatibility": "Windows, Linux, macOS in datasheet",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 5 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUGEN1740", "stock": 5, "price": 95.40, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "MS-1269", "stock": 5, "price": 90.71, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["No se localizo pagina publica actual en acteck.com para AC-916462; se usa ficha PDF y distribuidores.", "DPI intermedio aparece como 800/1000/1600 en PDF y 800/1200/1600 en vendedores.", "Peso publicado varia entre 47 g y 70 g; se prioriza 47 g de la ficha.", "El proveedor no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "10.1 x 6.1 x 3.5 cm", "weight": "47 g" },
+        "sourceRefs": [{ "title": "Acteck AC-916462 datasheet", "type": "datasheet", "url": "https://xentra.glomastore.mx/img/productos/pdf/ACT-AC-916462.pdf" }, { "title": "GlobalOffice AC-916462 product data", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/mouse/mouse-acteck-confortable-optimize-mi440/ac-916462" }, { "title": "TI Sistems AC-916462 product data", "type": "reseller_spec", "url": "https://www.tisistems.com/products/ac-916462" }, { "title": "CTOnline and CVA feeds AC-916462 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "hoypm06nvbnm3l1",
+      "research": {
+        "confidence": 0.97,
+        "name": "Mouse Acteck Optimize MA210 alambrico USB optico 1200 DPI negro AC-928830",
+        "description": "Mouse Acteck Optimize MA210 alambrico USB-A con sensor optico de 1200 DPI, 2 botones mas scroll, cable de 1.4 m, compatibilidad Windows/Linux y acabado negro.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/usb-optico",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/mouse-alambrico-optimize-ma210",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-928830Frontal1000x1000.png?v=1768592232&width=1000", "https://acteck.com/cdn/shop/files/AC-928830-2.webp?v=1768592232&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10192309"],
+        "documents": [{ "label": "Acteck AC-928830 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-928830_V1.pdf?v=1702402522" }],
+        "specs": {
+          "brand": "Acteck", "model": "Optimize MA210", "partNumber": "AC-928830", "providerSku": "MS-1359", "productType": "Wired mouse", "sensor": "Optico", "dpi": "1200 DPI", "buttons": "2 botones + scroll", "connection": "USB-A", "cableLength": "1.4 m", "power": "5 Vcc 100 mA", "color": "Negro", "compatibility": "Windows, Linux", "ean": "7506215928830",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 18 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "MS-1359", "stock": 18, "price": 36.07, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["La pagina Acteck menciona cable 1.5 m, pero la ficha tecnica indica 1.4 m; se prioriza ficha.", "Listados viejos lo nombran MH210 o 1000 DPI; para AC-928830/MS-1359 corresponde MA210 1200 DPI.", "CVA no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "11.8 x 3.9 x 5.9 cm", "weight": "64 g" },
+        "sourceRefs": [{ "title": "Acteck MA210 official page", "type": "manufacturer", "url": "https://acteck.com/products/mouse-alambrico-optimize-ma210" }, { "title": "Acteck AC-928830 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-928830_V1.pdf?v=1702402522" }, { "title": "GlobalOffice AC-928830 product data", "type": "reseller_spec", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/mouse/mouse-alambrico-acteck-ac-928830-entry-100-usb-o/ac-928830" }, { "title": "CVA feed AC-928830 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }]
+      }
+    },
+    {
+      "product_id": "cba036xsoz05sjc",
+      "research": {
+        "confidence": 0.95,
+        "name": "Mouse Acteck Optimize MI240 inalambrico 2.4GHz USB optico 1200 DPI negro AC-928885",
+        "description": "Mouse Acteck Optimize MI240 inalambrico 2.4GHz con receptor USB, sensor optico de 1200 DPI, 2 botones mas scroll, diseno compacto y acabado negro.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/2-4ghz-optico",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/mouse-estandar-optimize-mi240",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-928885-1.webp?v=1701883151&width=1000", "https://acteck.com/cdn/shop/files/AC-928885_03.webp?v=1759780560&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10206311"],
+        "documents": [{ "label": "Acteck AC-928885 ficha tecnica", "type": "datasheet", "url": "https://drive.google.com/file/d/1eD0WBOcpGhBbn680oLHcP6NcXHektU09/view?usp=sharing" }],
+        "specs": {
+          "brand": "Acteck", "model": "Optimize MI240", "partNumber": "AC-928885", "providerSku": "MS-1365", "productType": "Wireless mouse", "sensor": "Optico", "dpi": "1200 DPI", "buttons": "2 botones + scroll", "connection": "USB 2.4GHz receiver", "battery": "2 x AAA in reseller detail", "range": "10 m", "color": "Negro", "compatibility": "Windows, Linux", "ean": "7506215928885",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 8 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "MS-1365", "stock": 8, "price": 64.48, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["Algunos vendedores heredados indican 1600 DPI y 3 botones + scroll; Acteck y feed del batch apuntan a 1200 DPI y 2 botones + scroll.", "Acteck copy menciona bateria AA, pero fichas de vendedores detallan 2 AAA para este formato compacto.", "CVA no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "11.3 x 5.7 x 2.3 cm", "weight": "38-39 g" },
+        "sourceRefs": [{ "title": "Acteck MI240 official page", "type": "manufacturer", "url": "https://acteck.com/products/mouse-estandar-optimize-mi240" }, { "title": "Acteck AC-928885 datasheet", "type": "datasheet", "url": "https://drive.google.com/file/d/1eD0WBOcpGhBbn680oLHcP6NcXHektU09/view?usp=sharing" }, { "title": "GlobalOffice AC-928885 product data", "type": "reseller_spec", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/accesorios-para-laptops/mouse-acteck-mi240-mouse-acteck-inalambrico-24-gh/ac-928885" }, { "title": "CVA feed AC-928885 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }]
+      }
+    },
+    {
+      "product_id": "1qcybfunbs52yau",
+      "research": {
+        "confidence": 0.94,
+        "name": "Teclado alambrico Acteck Inspire TA210 USB-A espanol 105 teclas negro AC-928946",
+        "description": "Teclado Acteck Inspire TA210 alambrico USB-A de membrana, formato completo de 105 teclas, distribucion en espanol, cable de 1.5 m y acabado negro.",
+        "manualCategoryPath": "computo/perifericos/teclados/alambricos",
+        "semanticCategoryPath": "computo/perifericos/teclados/alambricos/usb-membrana",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/teclado-alambrico-inspire-ta210",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-928946_01_1000PX.webp?v=1704726600&width=1000", "https://acteck.com/cdn/shop/files/AC-928946_02_1000PX-1.webp?v=1689274700&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10206192"],
+        "documents": [{ "label": "Acteck AC-928946 ficha tecnica", "type": "datasheet", "url": "https://drive.google.com/file/d/1VVngIAhjazpX1s1TBst-UTDhZ6Zv0l9n/view?usp=sharing" }],
+        "specs": {
+          "brand": "Acteck", "model": "Inspire TA210", "partNumber": "AC-928946", "providerSku": "KB-801", "productType": "Wired keyboard", "layout": "Espanol", "switchType": "Membrana", "keys": "105 teclas", "connection": "USB-A", "cableLength": "1.5 m", "color": "Negro", "compatibility": "Windows, MacOS, Android in current sheet", "ean": "7506215928946",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 13 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "KB-801", "stock": 13, "price": 75.41, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["La pagina Acteck menciona iluminacion LED, pero imagenes y ficha no sostienen retroiluminacion.", "Peso oficial actual 425 g contra 385 g en algunos marketplaces.", "CVA no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "44 x 13.7 x 2.4 cm", "weight": "425 g" },
+        "sourceRefs": [{ "title": "Acteck TA210 official page", "type": "manufacturer", "url": "https://acteck.com/products/teclado-alambrico-inspire-ta210" }, { "title": "Acteck AC-928946 datasheet", "type": "datasheet", "url": "https://drive.google.com/file/d/1VVngIAhjazpX1s1TBst-UTDhZ6Zv0l9n/view?usp=sharing" }, { "title": "Arroba Solutions AC-928946 product data", "type": "reseller_spec", "url": "https://www.arrobasolutions.com.mx/productos/acteck-teclado-acteck-ta210-alambrico-usb-105-teclas-negro/" }, { "title": "CVA feed AC-928946 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }]
+      }
+    },
+    {
+      "product_id": "od0d1zvd84umd7o",
+      "research": {
+        "confidence": 0.94,
+        "name": "Kit alambrico Acteck Creator MK210 teclado espanol 105 teclas y mouse USB negro AC-928984",
+        "description": "Kit Acteck Creator MK210 alambrico USB-A con teclado completo de 105 teclas en espanol y mouse optico USB, pensado para escritorio y productividad basica.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/creator-mk210-negro",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-928984-01_1.png?v=1776887346&width=1000", "https://acteck.com/cdn/shop/files/AC-928984-02.png?v=1776887313&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10221051"],
+        "documents": [{ "label": "Acteck AC-928984 ficha tecnica", "type": "datasheet", "url": "https://drive.google.com/file/d/1pnZA0ukp4fKwcpDj7D0G6m3svPGha5aq/view?usp=sharing" }, { "label": "Acteck AC-928984 ficha legacy", "type": "datasheet", "url": "https://unicom.mx/ecommerce/uploads/TEWACKAC-928984.pdf" }],
+        "specs": {
+          "brand": "Acteck", "model": "Creator MK210", "partNumber": "AC-928984", "providerSku": "KITACT630 / KB-812", "productType": "Wired keyboard and mouse combo", "keyboard": "105 teclas, membrana, espanol, cable USB 1.2 m", "mouse": "Optico USB, 2 botones + scroll / 3 botones comerciales, cable 1.4 m", "mouseDpi": "1200 DPI in current sheet", "color": "Negro", "ean": "7506215928984",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 820 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 16 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITACT630", "stock": 820, "price": 132.18, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "KB-812", "stock": 16, "price": 125.68, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["DPI del mouse varia: feed 1000 DPI, pagina Acteck 1600 DPI y ficha/imagen 1200 DPI; se conserva 1200 DPI en specs, sin ponerlo en nombre.", "El proveedor no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "keyboardDimensions": "44.4 x 13.8 x 2.2 cm", "keyboardWeight": "376 g", "mouseDimensions": "11.8 x 5.8 x 3.8 cm", "mouseWeight": "59 g", "packageDimensions": "52 x 14 x 4.3 cm", "packageWeight": "585 g" },
+        "sourceRefs": [{ "title": "Acteck MK210 official page", "type": "manufacturer", "url": "https://acteck.com/products/creator-mk210-negro" }, { "title": "Acteck AC-928984 datasheet", "type": "datasheet", "url": "https://drive.google.com/file/d/1pnZA0ukp4fKwcpDj7D0G6m3svPGha5aq/view?usp=sharing" }, { "title": "XtremeTecPc AC-928984 product data", "type": "reseller_spec", "url": "https://www.xtremetecpc.com/producto/kit-teclado-y-mouse-acteck-creator-mk210-alambrico-usb-espaol-ac-928984" }, { "title": "CTOnline and CVA feeds AC-928984 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "1v8qigvaunhps48",
+      "research": {
+        "confidence": 0.97,
+        "name": "Acteck Atom GS240 AC-929042 gabinete micro torre slim Micro-ATX/Mini-ITX con fuente SFX 450W negro",
+        "description": "Gabinete Acteck Atom GS240 micro torre slim para tarjetas Micro-ATX y Mini-ITX, fuente SFX de 450W incluida, lector SD/MMC, bahias internas para HDD/SSD y ventilador de 60 mm instalado.",
+        "manualCategoryPath": "computo/componentes/gabinetes",
+        "semanticCategoryPath": "computo/componentes/gabinetes/slim-micro-atx-con-fuente",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-mini-torre-slim-atom-gs240",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-929042_01_1000px.webp?v=1689704921&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10211451"],
+        "documents": [{ "label": "Acteck AC-929042 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-929042_V1.pdf?v=1694533623" }],
+        "specs": {
+          "brand": "Acteck", "model": "Atom GS240", "partNumber": "AC-929042", "providerSku": "CS-729", "productType": "PC case", "formFactor": "Micro torre slim", "motherboardSupport": "Micro-ATX, Mini-ITX", "powerSupply": "SFX 450W incluida", "driveBays": "1 x 5.25 ODD, 1 x 3.5 HDD, 2 x 2.5 SSD", "frontPorts": "2 x USB 2.0, audio, microfono, lector SD/MMC", "cooling": "1 x 60 mm incluido; soporte adicional 60/80 mm no incluido", "materials": "Metal, plastic front", "color": "Negro brillante",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 19 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CS-729", "stock": 19, "price": 596.72, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["Una frase de Acteck menciona SFX 500W, pero hero, ficha y tiendas coinciden en 450W.", "Marketplaces redondean dimensiones a 8.5 x 31 x 40.5 cm y 3 kg.", "CVA no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "41.4 x 9 x 31 cm", "weight": "2.73 kg" },
+        "sourceRefs": [{ "title": "Acteck Atom GS240 official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-mini-torre-slim-atom-gs240" }, { "title": "Acteck AC-929042 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-929042_V1.pdf?v=1694533623" }, { "title": "Grupo Decme AC-929042 product data", "type": "reseller_spec", "url": "https://grupodecme.com/products/gabinete-acteck-atom-gs240-micro-atx-fuente-450w-1-fan-micro-torre-slim-usb-2-0-ac-929042" }, { "title": "CVA feed AC-929042 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }]
+      }
+    },
+    {
+      "product_id": "mhvlirt8tqauos3",
+      "research": {
+        "confidence": 0.96,
+        "name": "Acteck Kioto GC240 AC-932547 gabinete mini torre Micro-ATX/Mini-ITX con fuente ATX 500W negro",
+        "description": "Gabinete Acteck Kioto GC240 mini torre para tarjetas Micro-ATX y Mini-ITX, fuente ATX 500W incluida, panel frontal con USB 3.0/2.0, bahia 5.25 pulgadas y ventilador trasero instalado.",
+        "manualCategoryPath": "computo/componentes/gabinetes",
+        "semanticCategoryPath": "computo/componentes/gabinetes/mini-torre-micro-atx-con-fuente",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-gc240",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-932547_01_1000px.webp?v=1689707500&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10281395"],
+        "documents": [{ "label": "Acteck AC-932547 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-932547_V1.pdf?v=1694532780" }],
+        "specs": {
+          "brand": "Acteck", "model": "Kioto GC240", "partNumber": "AC-932547", "providerSku": "CS-773", "productType": "PC case", "formFactor": "Mini tower", "motherboardSupport": "Micro-ATX, Mini-ITX", "powerSupply": "ATX 500W incluida", "expansionSlots": "4 PCI slots", "driveBays": "1 x 5.25 ODD y almacenamiento 3.5/2.5 compartido", "frontPorts": "1 x USB 3.0, 1 x USB 2.0, audio, microfono", "cooling": "Frontal 1 x 120 mm opcional, trasero 1 x 80 mm incluido, lateral 1 x 120 mm opcional", "materials": "SPCC/metal y frontal plastico", "color": "Negro",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 10 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CS-773", "stock": 10, "price": 459.02, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Aparece como GC240 en Acteck/feed y como GI240 en algunos marketplaces; se usa GC240.", "Algunas fichas dicen ATX compatible, pero la ficha Acteck limita a Micro-ATX/Mini-ITX.", "CVA no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "31.7 x 19.05 x 35.2 cm", "weight": "2.294 kg" },
+        "sourceRefs": [{ "title": "Acteck Kioto GC240 official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-gc240" }, { "title": "Acteck AC-932547 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-932547_V1.pdf?v=1694532780" }, { "title": "Cyberpuerta GC240/GI240 product data", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Gabinetes/Gabinete-Acteck-Kioto-GI240-Mini-Tower-Micro-ATX-Mini-ITX-USB-2-0-3-0-con-Fuente-de-500W-1-Ventilador-Instalado-Negro.html" }, { "title": "CVA feed AC-932547 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "naqzkdfgx2acr6l",
+      "research": {
+        "confidence": 0.97,
+        "name": "Teclado numerico alambrico Acteck Inspire TN220 USB-A 19 teclas negro AC-932622",
+        "description": "Teclado numerico Acteck Inspire TN220 alambrico USB-A con 19 teclas de membrana, cable de 1.2 m, compatibilidad Windows/Linux y acabado negro.",
+        "manualCategoryPath": "computo/perifericos/teclados/numericos",
+        "semanticCategoryPath": "computo/perifericos/teclados/numericos/alambricos-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/teclado-numerico-inspire-tn220",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-932622_03_1000px.webp?v=1689275326&width=1000", "https://acteck.com/cdn/shop/files/AC-932622_01_1000px.webp?v=1704306462&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10281751"],
+        "documents": [{ "label": "Acteck AC-932622 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-932622_V1.pdf?v=1694462877" }],
+        "specs": {
+          "brand": "Acteck", "model": "Inspire TN220", "partNumber": "AC-932622", "providerSku": "TECACT110 / KB-860", "productType": "Numeric keypad", "layout": "Numerico", "switchType": "Membrana", "keys": "19 teclas", "connection": "USB-A", "cableLength": "1.2 m", "power": "5 Vcc 30 mA", "color": "Negro", "compatibility": "Windows, Linux", "ean": "7506215932622",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 46 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECACT110", "stock": 46, "price": 80.46, "currency": "MXN", "branch": "MX" }, { "providerId": "cva", "providerSku": "KB-860", "stock": 0, "price": 76.50, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["La ficha marca idioma Ingles por las leyendas del keypad; el producto se clasifica por funcion numerica, no por idioma.", "El proveedor no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "8.8 x 2.4 x 14 cm", "weight": "100 g" },
+        "sourceRefs": [{ "title": "Acteck TN220 official page", "type": "manufacturer", "url": "https://acteck.com/products/teclado-numerico-inspire-tn220" }, { "title": "Acteck AC-932622 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-932622_V1.pdf?v=1694462877" }, { "title": "Intercompras AC-932622 product data", "type": "reseller_spec", "url": "https://intercompras.com/p/teclado-numerico-acteck-inspire-tn220-alambrico-usb-negro-269625" }, { "title": "CTOnline and CVA feeds AC-932622 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    },
+    {
+      "product_id": "pe6e29agj8nvwcu",
+      "research": {
+        "confidence": 0.96,
+        "name": "Acteck Kioto GC220 AC-933063 gabinete micro torre slim Micro-ATX/Mini-ITX con fuente ATX 500W negro",
+        "description": "Gabinete Acteck Kioto GC220 micro torre compacta con panel acrilico, soporte Micro-ATX/Mini-ITX, fuente ATX 500W incluida, 4 ranuras PCI y ventilacion opcional sin ventiladores instalados.",
+        "manualCategoryPath": "computo/componentes/gabinetes",
+        "semanticCategoryPath": "computo/componentes/gabinetes/slim-micro-atx-con-fuente",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-ventana-gc220",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-933063_01_v2_1000px.webp?v=1689708620&width=1000", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10313992"],
+        "documents": [{ "label": "Acteck AC-933063 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-933063_V1.pdf?v=1694532671" }],
+        "specs": {
+          "brand": "Acteck", "model": "Kioto GC220", "partNumber": "AC-933063", "providerSku": "CS-787", "productType": "PC case", "formFactor": "Compact micro tower / slim Micro-ATX", "motherboardSupport": "Micro-ATX, Mini-ITX", "powerSupply": "ATX 500W incluida", "expansionSlots": "4 PCI slots", "driveBays": "1 x 3.5/2.5 combo + 3 x 2.5 SSD", "frontPorts": "2 x USB 2.0, audio, microfono", "cooling": "Superior 2 x 120 mm opcional e inferior 1 x 80 mm opcional; sin ventiladores instalados", "materials": "SPCC 0.37 mm, panel izquierdo acrilico, lateral derecho metal, frontal plastico", "color": "Negro",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "MX", "stock": 10 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CS-787", "stock": 10, "price": 431.69, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Descripcion Acteck menciona 1 x USB 3.0 + 1 x USB 2.0, pero ficha y Cyberpuerta indican 2 x USB 2.0; se usa 2 x USB 2.0.", "Decme etiqueta ventiladores incluidos, pero sus specs y Cyberpuerta dicen sin ventiladores instalados.", "CVA no expone sucursal detallada; se conserva ubicacion MX."]
+        },
+        "measurements": { "dimensions": "30 x 15.5 x 35 cm", "weight": "1.4 kg" },
+        "sourceRefs": [{ "title": "Acteck Kioto GC220 official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-ventana-gc220" }, { "title": "Acteck AC-933063 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-933063_V1.pdf?v=1694532671" }, { "title": "Cyberpuerta GC220 product data", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Gabinetes/Gabinete-Acteck-Kioto-GC220-Micro-Tower-Micro-ATX-Mini-ITX-USB-2-0-con-Fuente-de-500W-sin-Ventiladores-Instalados-Negro.html" }, { "title": "CVA feed AC-933063 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }]
+      }
+    }
+  ]
+}
