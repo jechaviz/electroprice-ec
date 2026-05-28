@@ -1,0 +1,474 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b037-2026-05-28",
+  "cycle": 3,
+  "batch": 37,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6djibzs4bu0myr0",
+      "research": {
+        "confidence": 0.96,
+        "name": "Monitor gamer AOC CQ32G2S 31.5 pulgadas curvo QHD VA 165Hz FreeSync Premium",
+        "description": "Monitor gamer AOC CQ32G2S curvo 1500R de 31.5 pulgadas, resolucion QHD 2560 x 1440, panel VA, refresco hasta 165 Hz por DisplayPort, 0.5 ms MPRT, FreeSync Premium, VESA 100 x 100, 2 HDMI 2.0 y 1 DisplayPort 1.4.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/qhd-curvo-165hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://aoc.com/uk/gaming/products/monitors/cq32g2s/specification",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/ae0023f1d08e0d8844021dd4f43db1f747faea89-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://static.ctonline.mx/imagenes/MONAOC690/MONAOC690_5_full.jpg"
+        ],
+        "documents": [
+          { "label": "AOC CQ32G2S manual", "type": "manual", "url": "https://aoc.com/api/download/10353" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "CQ32G2S",
+          "providerSku": "MONAOC690",
+          "productType": "Monitor gamer curvo",
+          "screenSize": "31.5 in",
+          "resolution": "2560 x 1440 QHD",
+          "panel": "VA",
+          "curvature": "1500R",
+          "refreshRate": "165 Hz",
+          "responseTime": "0.5 ms MPRT",
+          "brightness": "300 cd/m2",
+          "contrast": "3000:1",
+          "adaptiveSync": "FreeSync Premium",
+          "ports": ["2 x HDMI 2.0", "1 x DisplayPort 1.4", "3.5 mm headphone out"],
+          "vesa": "100 x 100 mm",
+          "heightAdjust": "110 mm",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CLN", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 7620.00, "currency": "MXN", "branch": "CLN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo describe como 1920 x 1080; la ficha AOC oficial lo confirma como QHD 2560 x 1440.", "Algunas fichas retail redondean a 32 pulgadas o 1 ms; se conserva 31.5 pulgadas y 0.5 ms MPRT oficial.", "El manual indica 165 Hz por DisplayPort y 144 Hz por HDMI."]
+        },
+        "measurements": { "dimensionsWithStand": "713.11 x 530.34 x 244.86 mm", "packageDimensions": "686 x 523 x 214 mm", "weight": "7.65 kg", "packageWeight": "16.86 kg" },
+        "sourceRefs": [
+          { "title": "AOC CQ32G2S official specifications", "type": "manufacturer", "url": "https://aoc.com/uk/gaming/products/monitors/cq32g2s/specification" },
+          { "title": "AOC CQ32G2S official manual", "type": "manual", "url": "https://aoc.com/api/download/10353" },
+          { "title": "CTOnline feed MONAOC690 stock 1 CLN", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2z1nfqy2nknc3zc",
+      "research": {
+        "confidence": 0.97,
+        "name": "Monitor AOC CU34V5CW/BK 34 pulgadas curvo ultrawide WQHD VA 100Hz USB-C webcam Windows Hello",
+        "description": "Monitor profesional AOC CU34V5CW/BK curvo 1500R de 34 pulgadas, resolucion ultrawide 3440 x 1440, panel VA, 100 Hz, USB-C con DisplayPort Alt Mode y carga hasta 65 W, webcam Windows Hello, microfono, 4 USB-A, HDMI y DisplayPort.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/ultrawide-curvo-usb-c-webcam",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aoc.com/es/monitors/cu34v5cw_bk",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/e255c725b10d4491a415c7e8f063a7acb60b40f2-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://cdn.sanity.io/images/hf5b3axp/production/f02ffc841bb6902bbeefbd65f16976733d17ea5a-5083x2860.jpg?auto=format&fit=max&w=1920",
+          "https://static.ctonline.mx/imagenes/MONAOC890/MONAOC890_full.jpg"
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "CU34V5CW/BK",
+          "providerSku": "MONAOC890",
+          "productType": "Monitor profesional ultrawide",
+          "screenSize": "34 in",
+          "resolution": "3440 x 1440 UWQHD",
+          "aspectRatio": "21:9",
+          "panel": "VA",
+          "curvature": "1500R",
+          "refreshRate": "100 Hz",
+          "responseTime": "4 ms GtG / 1 ms MPRT",
+          "brightness": "300 cd/m2",
+          "adaptiveSync": "FreeSync",
+          "camera": "2 MP Windows Hello webcam",
+          "speakers": "2 x 5 W",
+          "ports": ["1 x USB-C 3.2 DP Alt Mode PD 65 W", "1 x HDMI 2.0", "1 x DisplayPort 1.2", "4 x USB-A", "3.5 mm headphone out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 56 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 87, "price": 5243.25, "currency": "MXN", "branch": "DFA/D2A/MTY" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunas fichas omiten el sufijo /BK; AOC lo usa para la variante negra.", "Se usa USB 3.2 Gen 1 oficial sobre textos retail que dicen USB 3.1."]
+        },
+        "measurements": { "dimensionsWithStand": "808.1 x 410.5-540.5 x 250 mm", "dimensionsWithoutStand": "808.1 x 378.5 x 99.9 mm", "packageDimensions": "1071 x 500 x 189 mm", "weight": "9.43 kg", "packageWeight": "11.9 kg" },
+        "sourceRefs": [
+          { "title": "AOC CU34V5CW/BK official specifications", "type": "manufacturer", "url": "https://www.aoc.com/es/monitors/cu34v5cw_bk" },
+          { "title": "B&H AOC CU34V5CW specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1741864-REG/aoc_cu34v5cw_34_21_9_wqhd.html" },
+          { "title": "CTOnline feed MONAOC890 branch stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "euxarfgthwuvrz3",
+      "research": {
+        "confidence": 0.94,
+        "name": "Monitor gamer AOC G2490VX 23.8 pulgadas FHD VA 144Hz FreeSync Premium",
+        "description": "Monitor gamer AOC G2490VX de 23.8 pulgadas, resolucion FHD 1920 x 1080, panel VA, refresco 144 Hz, 1 ms MPRT, FreeSync Premium, brillo 350 cd/m2, VESA 100 x 100, HDMI 1.4, DisplayPort 1.2 y salida de audio.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/fhd-144hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://aoc.com/in-en/gaming/products/monitors/g2490vx",
+        "gallery": [
+          "https://storage.aoc.com/assets/8924/AOC_G_G2490_HERO_VISUAL-big.png",
+          "https://storage.aoc.com/assets/8927/AOC_G2490_PV_-FRONT-big.png",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10408852"
+        ],
+        "documents": [{ "label": "AOC G2490VX/G2790VX manual", "type": "manual", "url": "https://aoc.com/api/download/13086" }],
+        "specs": {
+          "brand": "AOC",
+          "model": "G2490VX",
+          "providerSku": "MNL-2560",
+          "productType": "Monitor gamer",
+          "screenSize": "23.8 in",
+          "resolution": "1920 x 1080 FHD",
+          "panel": "VA",
+          "refreshRate": "144 Hz",
+          "responseTime": "1 ms MPRT",
+          "brightness": "350 cd/m2",
+          "contrast": "4000:1",
+          "adaptiveSync": "FreeSync Premium",
+          "ports": ["1 x HDMI 1.4", "1 x DisplayPort 1.2", "3.5 mm headphone out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 1 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MONAOC700", "stock": 1, "price": 2207.90, "currency": "MXN", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "MNL-2560", "stock": 0, "price": 1872.71, "currency": "MXN", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["No cargar HDR como especificacion principal; la ficha oficial y manual no lo listan como capacidad HDR nativa.", "Las ubicaciones MX:1 y MX:0 corresponden a ofertas distintas de proveedor, no a una unica bodega consolidada."]
+        },
+        "measurements": { "activeArea": "527.04 x 296.46 mm", "packageDimensions": "417 x 627 x 173 mm", "weight": "5.15 kg", "packageWeight": "7.08 kg" },
+        "sourceRefs": [
+          { "title": "AOC G2490VX official page", "type": "manufacturer", "url": "https://aoc.com/in-en/gaming/products/monitors/g2490vx" },
+          { "title": "AOC G2490VX/G2790VX official manual", "type": "manual", "url": "https://aoc.com/api/download/13086" },
+          { "title": "CTOnline/CVA feed G2490VX stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "e6dnnmz9oxkjtjr",
+      "research": {
+        "confidence": 0.95,
+        "name": "Monitor gamer AOC G2790VX 27 pulgadas FHD VA 144Hz FreeSync Premium",
+        "description": "Monitor gamer AOC G2790VX de 27 pulgadas, resolucion FHD 1920 x 1080, panel VA, 144 Hz, 1 ms GtG/MPRT segun ficha regional, FreeSync Premium, brillo 350 cd/m2, VESA 100 x 100, HDMI 1.4, DisplayPort 1.2 y salida de audio.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/fhd-27-144hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://aoc.com/ph/gaming/monitors/g2790vx",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/4441a2c202a188fbfd0732f2bcb4028413dcb579-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://cdn.sanity.io/images/hf5b3axp/production/5a063f1f0539aa51974442555f61148f55a80230-3840x3840.png?auto=format&fit=max&w=1920"
+        ],
+        "documents": [{ "label": "AOC G2490VX/G2790VX manual", "type": "manual", "url": "https://aoc.com/api/download/13086" }],
+        "specs": {
+          "brand": "AOC",
+          "model": "G2790VX",
+          "providerSku": "MNL-2559",
+          "productType": "Monitor gamer",
+          "screenSize": "27 in",
+          "resolution": "1920 x 1080 FHD",
+          "panel": "VA",
+          "refreshRate": "144 Hz",
+          "responseTime": "1 ms",
+          "brightness": "350 cd/m2",
+          "contrast": "4000:1",
+          "adaptiveSync": "FreeSync Premium",
+          "ports": ["1 x HDMI 1.4", "1 x DisplayPort 1.2", "3.5 mm headphone out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 24 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MONAOC870", "stock": 24, "price": 3409.47, "currency": "MXN", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "MNL-2559", "stock": 0, "price": 2165.32, "currency": "MXN", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["La ficha regional reporta dimensiones 423.7 x 558.6 x 199.7 mm, pero el manual lista area activa de 597.888 mm para el panel; se marca como dato de dimensiones sospechoso.", "Las ubicaciones MX:24 y MX:0 corresponden a ofertas distintas de proveedor."]
+        },
+        "measurements": { "activeArea": "597.888 x 336.312 mm", "dimensionsWithStand": "423.7 x 558.6 x 199.7 mm (fuente regional, revisar orientacion)", "packageDimensions": "417 x 627 x 173 mm", "weight": "4.35 kg", "packageWeight": "6.42 kg" },
+        "sourceRefs": [
+          { "title": "AOC G2790VX official page", "type": "manufacturer", "url": "https://aoc.com/ph/gaming/monitors/g2790vx" },
+          { "title": "AOC G2490VX/G2790VX official manual", "type": "manual", "url": "https://aoc.com/api/download/13086" },
+          { "title": "CTOnline/CVA feed G2790VX stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nrz6l8xyyzsp7pr",
+      "research": {
+        "confidence": 0.98,
+        "name": "Monitor profesional AOC Q27P3CW 27 pulgadas QHD IPS 100Hz USB-C webcam Windows Hello",
+        "description": "Monitor profesional AOC Q27P3CW de 27 pulgadas, resolucion QHD 2560 x 1440, panel IPS, 100 Hz, 4 ms GtG, webcam 5 MP Windows Hello, microfono, USB-C con DisplayPort Alt Mode y PD 90 W, RJ45 gigabit, hub USB 3.2, DP-out, bocinas 5 W y base ergonomica.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/qhd-usb-c-webcam",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://aoc.com/us/monitors/q27p3cw",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/b82a9df2802ed0b98f09ac9eaa64fabeede6f787-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://cdn.sanity.io/images/hf5b3axp/production/314787a5eda1e30c7639733fb8651ad7091ffb38-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://static.ctonline.mx/imagenes/MONAOC920/MONAOC920_full.jpg"
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "Q27P3CW",
+          "providerSku": "MONAOC920",
+          "productType": "Monitor profesional USB-C",
+          "screenSize": "27 in",
+          "resolution": "2560 x 1440 QHD",
+          "panel": "IPS",
+          "refreshRate": "100 Hz",
+          "responseTime": "4 ms GtG",
+          "brightness": "350 cd/m2",
+          "camera": "5 MP Windows Hello webcam",
+          "speakers": "2 x 5 W",
+          "network": "RJ45 10/100/1000",
+          "ports": ["1 x USB-C 3.2 DP Alt Mode PD 90 W", "2 x HDMI 1.4", "1 x DisplayPort 1.2", "1 x DisplayPort out 1.2", "4 x USB-A", "1 x audio out"],
+          "ergonomics": "Height 150 mm, swivel 180 deg, pivot -90 to 90 deg, tilt -5 to 35 deg",
+          "vesa": "100 x 100 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 92 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 99, "price": 5121.69, "currency": "MXN", "branch": "D2A/DFA/LMO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["La introduccion AOC US menciona PD 65 W, pero la tabla tecnica y feature list especifican USB-C PD 90 W; se usa 90 W.", "Algunas paginas regionales mencionan VA en texto, pero la ficha tecnica confirma panel IPS."]
+        },
+        "measurements": { "dimensionsWithStand": "613.8 x 412.96-561.24 x 200.1 mm", "dimensionsWithoutStand": "613.8 x 369.6 x 52.8 mm", "packageDimensions": "820 x 481 x 162 mm", "weight": "6.91 kg", "weightWithoutStand": "4.91 kg", "packageWeight": "10.08 kg" },
+        "sourceRefs": [
+          { "title": "AOC Q27P3CW official specifications", "type": "manufacturer", "url": "https://aoc.com/us/monitors/q27p3cw" },
+          { "title": "CTOnline feed MONAOC920 branch stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "g540bwndwaqeido",
+      "research": {
+        "confidence": 0.97,
+        "name": "APC NetShelter Basic Rack PDU AP6037A 0U/1U 208V 8.6kW 3 salidas C19",
+        "description": "PDU basica para rack APC NetShelter AP6037A, montaje 0U/1U, entrada NEMA L15-30P 200-240 VAC 30 A, capacidad 8.6 kVA, tres salidas IEC 60320 C19, proteccion de sobrecorriente y cable de 3.7 m.",
+        "manualCategoryPath": "energia/pdu-rack",
+        "semanticCategoryPath": "energia/pdu-rack/basic-208v-c19",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/us/en/products/Rack-PDU-Basic-0U-1U-208V-8-6kW-3-C19/P-AP6037A",
+        "gallery": ["https://www.bhphotovideo.com/images/images500x500/apc_ap6037a_rack_basic_208v_1586189374_1556943.jpg"],
+        "documents": [{ "label": "APC AP6037A quick user guide", "type": "manual", "url": "https://www.alldataresource.com/assets/apc_schneider_electric/APC-AP6037A-Rack-Pdu-Quick-User-Guide.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "AP6037A",
+          "providerSku": "ACCAPC1870",
+          "productType": "PDU basica para rack",
+          "mounting": "0U/1U rack",
+          "inputVoltage": "200-240 VAC",
+          "nominalVoltage": "208 V",
+          "inputPlug": "NEMA L15-30P",
+          "cordLength": "3.7 m",
+          "maximumInputCurrent": "30 A",
+          "regulatoryDeratedInputCurrent": "24 A",
+          "loadCapacity": "8600 VA",
+          "outputConnections": "3 x IEC 60320 C19",
+          "protection": "Overload protection, 3 internal 20 A two-pole breakers",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "SLP", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 267.74, "currency": "USD", "branch": "SLP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo ubico bajo laptops/montaje; se reclasifica como PDU de rack.", "Si aparece como 230 V, normalizar a nominal 208 V con rango aceptable 200-240 VAC."]
+        },
+        "measurements": { "dimensions": "44 x 388 x 126 mm", "rackHeight": "1U", "weight": "3.6 kg", "packageDimensions": "455 x 332 x 195 mm", "packageWeight": "5.06 kg" },
+        "sourceRefs": [
+          { "title": "APC AP6037A official specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/Rack-PDU-Basic-0U-1U-208V-8-6kW-3-C19/P-AP6037A" },
+          { "title": "B&H AP6037A specs and image", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1556943-REG/apc_ap6037a_rack_basic_208v.html" },
+          { "title": "CTOnline feed ACCAPC1870 stock 3 SLP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "4cuhnh0pt8o60h7",
+      "research": {
+        "confidence": 0.98,
+        "name": "Sensor APC AP9335TH de temperatura y humedad para NetBotz y NMC3",
+        "description": "Sensor ambiental APC AP9335TH cableado para medir temperatura y humedad en centros de datos o closets de red, con conector RJ45, cable de 3.9 m y compatibilidad con NetBotz Appliances o tarjetas APC NMC3 con monitoreo ambiental.",
+        "manualCategoryPath": "energia/accesorios-ups/sensores-ambientales",
+        "semanticCategoryPath": "energia/accesorios-ups/sensores-ambientales/netbotz-nmc3-temperatura-humedad",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/AP9335TH/apc-temperature-humidity-sensor/",
+        "documents": [{ "label": "APC AP9335TH datasheet", "type": "datasheet", "url": "https://resources.ampheo.com/static/datasheets/apc-by-schneider-electric/ap9335th.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "AP9335TH",
+          "providerSku": "AC-1395",
+          "productType": "Sensor ambiental para UPS/NetBotz",
+          "sensors": ["Temperature", "Humidity"],
+          "connector": "RJ45",
+          "cableLength": "3.9 m",
+          "compatibility": ["NetBotz Appliances", "APC NMC3 with Environmental Monitoring"],
+          "operatingTemperature": "0 to 55 C",
+          "operatingHumidity": "0 to 95%",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 12 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCAPC530", "stock": 12, "price": 145.87, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "AC-1395", "stock": 0, "price": 178.17, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["No es sensor IoT generico; requiere NetBotz o NMC compatible.", "La ficha fisica lista dimensiones muy pequenas para el cuerpo del sensor; se conserva cable de 3.9 m como atributo principal."]
+        },
+        "measurements": { "sensorBodyDimensions": "0.6 x 0.5 x 0.5 cm", "weight": "0.18 kg", "packageDimensions": "1.0 x 25.4 x 15.2 cm", "packageWeight": "0.28-0.45 kg segun ficha" },
+        "sourceRefs": [
+          { "title": "APC AP9335TH official page", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/AP9335TH/apc-temperature-humidity-sensor/" },
+          { "title": "APC AP9335TH datasheet", "type": "datasheet", "url": "https://resources.ampheo.com/static/datasheets/apc-by-schneider-electric/ap9335th.pdf" },
+          { "title": "CTOnline/CVA feed AP9335TH stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "n07cvdibxpykao3",
+      "research": {
+        "confidence": 0.97,
+        "name": "APC NetShelter Basic Rack PDU AP9562 1U 15A 120V 10 salidas NEMA 5-15R",
+        "description": "PDU basica APC NetShelter AP9562 para rack 1U, entrada NEMA 5-15P 100-120 V, 15 A nominal con 12 A continuos derated, cable de 3.7 m y diez salidas NEMA 5-15R para distribucion de energia en rack.",
+        "manualCategoryPath": "energia/pdu-rack",
+        "semanticCategoryPath": "energia/pdu-rack/basic-120v-nema-5-15",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/AP9562/apc-netshelter-basic-rack-pdu-1u-15a-120v-10-nema-515-outlets/",
+        "gallery": [
+          "https://download.schneider-electric.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=SPD_STOS-7RTPMJ_FL_H&p_File_Type=rendition_369_jpg",
+          "https://www.bhphotovideo.com/images/images500x500/apc_ap9562_unix_description_rack_pdu_1624297839_863270.jpg"
+        ],
+        "documents": [{ "label": "APC AP9562 AP9563 AP9564 installation guide", "type": "manual", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-ASTE-6Z3S8R_R1_EN.PDF" }],
+        "specs": {
+          "brand": "APC",
+          "model": "AP9562",
+          "providerSku": "AC-274",
+          "productType": "PDU basica para rack",
+          "mounting": "1U rack",
+          "inputVoltage": "100-120 V",
+          "inputPlug": "NEMA 5-15P",
+          "cordLength": "3.66 m",
+          "ratedCurrent": "15 A",
+          "lineRatedCurrent": "12 A",
+          "loadCapacity": "1400 VA conservative / 1800 W nominal retail",
+          "outputConnections": "10 x NEMA 5-15R",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 1 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCAPC440", "stock": 1, "price": 98.55, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "AC-274", "stock": 0, "price": 96.47, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo ubico bajo laptops/montaje; se reclasifica como PDU de rack.", "Fichas retail listan 1800 W por 15 A x 120 V; se conserva 1400 VA/12 A derated como valor conservador de ficha Schneider."]
+        },
+        "measurements": { "dimensions": "44 x 447 x 57 mm", "rackHeight": "1U", "weight": "2.5 kg", "packageDimensions": "70 x 464 x 229 mm", "packageWeight": "3.64 kg" },
+        "sourceRefs": [
+          { "title": "Schneider/APC AP9562 official page", "type": "manufacturer", "url": "https://www.se.com/us/en/product/AP9562/apc-netshelter-basic-rack-pdu-1u-15a-120v-10-nema-515-outlets/" },
+          { "title": "B&H AP9562 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/863270-REG/apc_ap9562_unix_description_rack_pdu.html/overview" },
+          { "title": "CTOnline/CVA feed AP9562 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "h8ymcel59s3j21e",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC AP9641 UPS Network Management Card 3 NMC3 con monitoreo ambiental",
+        "description": "Tarjeta APC AP9641 UPS Network Management Card 3 con monitoreo ambiental para administracion remota segura de UPS APC compatibles, Ethernet 10/100/1000, SNMP, HTTPS/SSH, BACnet/IP, Modbus TCP, logs, notificaciones y sensor de temperatura incluido.",
+        "manualCategoryPath": "energia/accesorios-ups/tarjetas-snmp",
+        "semanticCategoryPath": "energia/accesorios-ups/tarjetas-snmp/apc-nmc3-monitoreo-ambiental",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/AP9641/",
+        "documents": [{ "label": "APC AP9641 datasheet", "type": "datasheet", "url": "https://iportal.se.com/Contents/docs/AP9641_DATA%20SHEET.PDF" }],
+        "specs": {
+          "brand": "APC",
+          "model": "AP9641",
+          "providerSku": "NIC-3492",
+          "productType": "Tarjeta de administracion de red para UPS",
+          "network": "10/100/1000 Base-T",
+          "providedEquipment": ["Temperature sensor", "User manual", "USB cable"],
+          "protocols": ["SNMP v1/v2/v3", "HTTPS", "SSH", "IPv6", "BACnet/IP", "Modbus TCP", "Radius"],
+          "features": ["remote UPS management", "event notifications", "data and event logs", "environmental monitoring"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 4 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCAPC1320", "stock": 4, "price": 497.85, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "NIC-3492", "stock": 0, "price": 504.53, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo clasifico como switch/red; se corrige a accesorio de UPS.", "El producto tiene monitoreo ambiental, pero el sensor incluido es de temperatura; humedad externa requiere accesorio compatible como AP9335TH."]
+        },
+        "measurements": { "dimensions": "12.1 x 3.8 x 11.4 cm", "weight": "0.09 kg", "packageDimensions": "23.5 x 15.9 x 5.1 cm", "packageWeight": "0.34-0.405 kg" },
+        "sourceRefs": [
+          { "title": "Schneider AP9641 official page", "type": "manufacturer", "url": "https://www.se.com/us/en/product/AP9641/" },
+          { "title": "APC AP9641 datasheet", "type": "datasheet", "url": "https://iportal.se.com/Contents/docs/AP9641_DATA%20SHEET.PDF" },
+          { "title": "B&H AP9641 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/803070037-USE/apc_ap9641_ups_network_management_card.html/specs" },
+          { "title": "CTOnline/CVA feed AP9641 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "izn7wqw99frnoak",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC Replacement Battery Cartridge #110 APCRBC110 VRLA 12V 7Ah",
+        "description": "Cartucho de bateria APC Replacement Battery Cartridge #110 APCRBC110 para UPS compatibles, bateria VRLA/plomo-acido de 12 VDC y 7 Ah, hot-swappable, con conectores, guia de reciclaje, guia de instalacion y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc110-12v-7ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-VRLA-battery-7Ah-12VDC-2-year-warranty/P-APCRBC110",
+        "documents": [{ "label": "APC APCRBC110 datasheet", "type": "datasheet", "url": "https://www.abshop.in.th/wp-content/uploads/2021/03/APCRBC110_datasheet.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC110",
+          "providerSku": "FR-412",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "12 VDC",
+          "capacity": "7 Ah",
+          "rbcQuantity": 1,
+          "expectedBatteryLife": "3-5 years",
+          "included": ["All required connectors", "Battery recycling guide", "Installation guide", "Reusable packaging"],
+          "compatibilityExamples": ["BE550R", "BE550G", "BN600G", "BR650CI", "BR650CI-RS"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 79 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATAPC060", "stock": 79, "price": 48.08, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-412", "stock": 0, "price": 48.15, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El proveedor lo ubico como no-break/UPS; se corrige a cartucho de reemplazo RBC.", "Algunas fuentes muestran garantia de 1 ano; se conserva 2 anos cuando la ficha APC actual lo indica."]
+        },
+        "measurements": { "dimensions": "105 x 151 x 65 mm", "weight": "2.5 kg", "packageDimensions": "89 x 175 x 213 mm", "packageWeight": "2.95 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC110 official page", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-VRLA-battery-7Ah-12VDC-2-year-warranty/P-APCRBC110" },
+          { "title": "APC APCRBC110 datasheet", "type": "datasheet", "url": "https://www.abshop.in.th/wp-content/uploads/2021/03/APCRBC110_datasheet.pdf" },
+          { "title": "B&H APCRBC110 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1234751-REG/apc_apcrbc110_replacement_battery_cartridge_110.html" },
+          { "title": "CTOnline/CVA feed APCRBC110 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

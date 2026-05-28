@@ -233,6 +233,16 @@ const researchedBatchCases = [
   ["AOC 27G4E monitor gamer 27 FHD 180Hz", "AOC", "computo/monitores/gaming"],
   ["AOC 27G50F monitor gamer 27 FHD 180Hz", "AOC", "computo/monitores/gaming"],
   ["AOC C24G2 monitor gamer curvo 23.6 165Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC CQ32G2S monitor gamer curvo QHD 165Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC CU34V5CW/BK monitor curvo ultrawide USB-C webcam", "AOC", "computo/monitores/oficina"],
+  ["AOC G2490VX monitor gamer 23.8 FHD 144Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC G2790VX monitor gamer 27 FHD 144Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC Q27P3CW monitor profesional USB-C webcam QHD", "AOC", "computo/monitores/oficina"],
+  ["APC AP6037A NetShelter Basic Rack PDU 208V 8.6kW", "APC", "energia/pdu-rack"],
+  ["APC AP9335TH sensor de temperatura y humedad NetBotz", "APC", "energia/accesorios-ups/sensores-ambientales"],
+  ["APC AP9562 Basic Rack PDU 1U 15A 120V", "APC", "energia/pdu-rack"],
+  ["APC AP9641 UPS Network Management Card 3 NMC3", "APC", "energia/accesorios-ups/tarjetas-snmp"],
+  ["APC APCRBC110 cartucho bateria reemplazo UPS 12V 7Ah", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
