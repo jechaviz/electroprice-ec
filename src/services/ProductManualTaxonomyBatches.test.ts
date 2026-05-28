@@ -176,6 +176,16 @@ const researchedBatchCases = [
   ["Manhattan 701662 pasta termica jeringa 1.5g CPU", "MANHATTAN", "computo/componentes/pasta-termica"],
   ["Manhattan 150859 convertidor USB 2.0 a tarjeta sonido 5.1", "MANHATTAN", "computo/componentes/tarjetas-audio/usb"],
   ["Manhattan 328883 adaptador DVI 29M a HD15H", "MANHATTAN", "accesorios/cables-adaptadores/video-dvi-vga"],
+  ["Manhattan 372503 cable HDMI a DVI-D M-M 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi-dvi"],
+  ["Topaz T-L460-HSB-R digitalizador de firma USB", "TOPAZ", "punto-de-venta/digitalizadores-firma"],
+  ["Perfect Choice PC-030324 toallas limpiadoras pantallas", "PERFECT CHOICE", "computo/accesorios/limpieza/toallas-limpiadoras"],
+  ["Perfect Choice PC-033066 limpiador liquido antiestatico 250 ml", "PERFECT CHOICE", "computo/accesorios/limpieza/liquidos-antiestaticos"],
+  ["Perfect Choice PC-030089 espuma limpiadora E-Foam 400 g", "PERFECT CHOICE", "computo/accesorios/limpieza/espumas-limpiadoras"],
+  ["Multimedia Screens 4365 soporte para proyector techo 20 kg", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion/soportes-proyector"],
+  ["North System NORTH001-BKL rack de piso 45U 19 negro", "NORTH SYSTEM", "infraestructura/racks-enfriamiento/racks-piso"],
+  ["North System NORTH051-BKL charola para monitor rack", "NORTH SYSTEM", "infraestructura/racks-accesorios/charolas-monitor"],
+  ["North System NORTH054-BKL charola para teclado 19 pulgadas", "NORTH SYSTEM", "infraestructura/racks-accesorios/charolas-teclado"],
+  ["North System NORTH080-BKL charola para servidor 19 x 30", "NORTH SYSTEM", "infraestructura/racks-accesorios/charolas-servidor"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
