@@ -1,0 +1,367 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b020-2026-05-27",
+  "cycle": 2,
+  "batch": 20,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "hmc99uaxvewvtqi",
+      "research": {
+        "confidence": 0.94,
+        "name": "Zebra Z-Band Direct 10006995K pulsera termica 1 x 11 in caja 6",
+        "description": "Pulsera termica directa Zebra Z-Band Direct 10006995K de polipropileno blanco, formato 1 x 11 pulgadas, orientada a identificacion hospitalaria y uso con impresoras Zebra de pulseras.",
+        "manualCategoryPath": "impresion/consumibles/pulseras-termicas",
+        "semanticCategoryPath": "impresion/consumibles/pulseras-termicas/hospitalarias-direct-thermal",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Zebra Z-Band Direct spec sheet", "type": "datasheet", "url": "https://prod-www.zebra.com/content/dam/zebra_dam/en/spec-sheets/z-band-direct-wristbands-spec-sheet-en-us.pdf" }
+        ],
+        "specs": {
+          "brand": "ZEBRA",
+          "model": "10006995K",
+          "commercialName": "Z-Band Direct",
+          "providerSku": "ACCZBR1080",
+          "productType": "Pulsera termica de identificacion",
+          "printTechnology": "Direct thermal",
+          "material": "Polipropileno",
+          "color": "Blanco",
+          "format": "1 x 11 in",
+          "pack": "Caja con 6",
+          "applications": ["identificacion de pacientes", "hospitales", "control de visitantes"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 302.78, "currency": "USD", "branch": "CEL/LMO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "labelSize": "25.4 x 279.4 mm", "labelSizeImperial": "1 x 11 in" },
+        "sourceRefs": [
+          { "title": "Zebra Z-Band Direct wristbands spec sheet", "type": "manufacturer", "url": "https://prod-www.zebra.com/content/dam/zebra_dam/en/spec-sheets/z-band-direct-wristbands-spec-sheet-en-us.pdf" },
+          { "title": "HC100 Z-Band datasheet with part 10006995K", "type": "datasheet", "url": "https://rfid4ustore.com/content/data_sheet/z-band-direct%20wristband.pdf" },
+          { "title": "CTOnline feed ACCZBR1080 stock 4 CEL/LMO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "mhd9x6uzf99g8j6",
+      "research": {
+        "confidence": 0.92,
+        "name": "Acteck Energon S-Mate CI730 AC-937146 cargador inalambrico Qi 3 en 1 con reloj",
+        "description": "Cargador inalambrico Acteck Energon S-Mate CI730 color negro para hasta tres dispositivos, compatible Qi, con reloj digital y despertador integrados.",
+        "manualCategoryPath": "energia/cargadores-inalambricos",
+        "semanticCategoryPath": "energia/cargadores-inalambricos/multidispositivo-reloj",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/cargador-inalambrico-energon-s-mate-ci730-3-en-1",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AC-937146",
+          "commercialName": "Energon S-Mate CI730",
+          "providerSku": "AC-11797",
+          "productType": "Cargador inalambrico Qi 3 en 1",
+          "wirelessStandard": "Qi",
+          "chargingPower": "3 W - 15 W",
+          "deviceSlots": 3,
+          "compatibility": ["Apple", "Samsung", "smartphones Qi", "reloj compatible", "audifonos compatibles"],
+          "features": ["reloj digital", "despertador", "base de escritorio"],
+          "color": "Negro",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 3, "price": 242.09, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Acteck Energon S-Mate CI730 official page", "type": "manufacturer", "url": "https://acteck.com/products/cargador-inalambrico-energon-s-mate-ci730-3-en-1" },
+          { "title": "GlobalOffice AC-937146 product PDF", "type": "reseller_spec", "url": "https://globaloffice.com.mx/app/producto/pdf/ac-9371467506215937146" },
+          { "title": "CVA feed AC-11797 stock 3 no branch detail", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "s4utmgckzv6tglg",
+      "research": {
+        "confidence": 0.95,
+        "name": "Epson SJMB6000 C33S021501 caja de mantenimiento ColorWorks CW-C6000/CW-C6500",
+        "description": "Caja de mantenimiento Epson SJMB6000/6500 C33S021501 para impresoras de etiquetas ColorWorks CW-C6000 y CW-C6500; recolecta tinta residual durante ciclos de limpieza.",
+        "manualCategoryPath": "impresion/consumibles/mantenimiento",
+        "semanticCategoryPath": "impresion/consumibles/mantenimiento/cajas-mantenimiento-etiquetas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/Accessories/Printer-Accessories/SJMB-6000-6500-Maintenance-Box-C33S021501/p/C33S021501",
+        "specs": {
+          "brand": "EPSON",
+          "model": "C33S021501",
+          "commercialName": "SJMB6000/6500 Maintenance Box",
+          "providerSku": "CAREPS6570",
+          "alternateProviderSku": "CN-4492",
+          "productType": "Caja de mantenimiento",
+          "compatibleModels": ["ColorWorks CW-C6000A", "ColorWorks CW-C6000P", "ColorWorks CW-C6500A", "ColorWorks CW-C6500P"],
+          "function": "Deposito de tinta residual de limpieza",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 3, "price": 664.53, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 656.5, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Epson SJMB 6000/6500 C33S021501 official page", "type": "manufacturer", "url": "https://epson.com/Accessories/Printer-Accessories/SJMB-6000-6500-Maintenance-Box-C33S021501/p/C33S021501" },
+          { "title": "Epson CW-C6000/C6500 user guide", "type": "manual", "url": "https://files.support.epson.com/pdf/pos/bulk/cw-c6000_c6500_ug_en_05.pdf" },
+          { "title": "CTOnline/CVA feed CAREPS6570 and CN-4492 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "21xjfaw0yrgo27e",
+      "research": {
+        "confidence": 0.94,
+        "name": "Hisense AC121CF minisplit 1 tonelada 115 V solo frio blanco",
+        "description": "Minisplit Hisense AC121CF de 1 tonelada solo frio, 12,000 BTU/h, 115 V, montaje en pared, color blanco, con control remoto, panel LED, filtro de alta densidad y funcion sleep.",
+        "manualCategoryPath": "hogar/electrodomesticos/aires-acondicionados",
+        "semanticCategoryPath": "hogar/electrodomesticos/aires-acondicionados/minisplit-solo-frio",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "HISENSE",
+          "model": "AC121CF",
+          "providerSku": "AIRHSE260",
+          "productType": "Minisplit solo frio",
+          "capacity": "1 tonelada",
+          "coolingCapacity": "12000 BTU/h",
+          "coolingPower": "1440 W",
+          "voltage": "115 V",
+          "seer": "11.5",
+          "installation": "Montaje en pared",
+          "color": "Blanco",
+          "features": ["control remoto", "display LED", "filtro de alta densidad", "temporizador", "sleep", "auto reinicio", "deshumidificacion", "Golden Fin"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "HMO", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 4100.84, "currency": "MXN", "branch": "HMO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "indoorUnit": "790 x 200 x 255 mm", "indoorWeight": "11 kg" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Hisense AC121CF specs", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Hogar/Clima-y-Ambiente/Aires-Acondicionados/Hisense-Aire-Acondicionado-Minisplit-AC121CF-12-000-BTU-h-1440W-Blanco.html" },
+          { "title": "Dimatec AC121CF dimensions and SEER", "type": "reseller_spec", "url": "https://dimatec.mx/productos/linea-blanca/aires-acondicionados/hisense/ac121cf/z-42876" },
+          { "title": "CTOnline feed AIRHSE260 stock 3 HMO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "17seu2ll91k27wd",
+      "research": {
+        "confidence": 0.95,
+        "name": "Kensington K60604WW candado de combinacion Slim NanoSaver serialized",
+        "description": "Candado Kensington Slim NanoSaver K60604WW con combinacion serializada, cabeza slim para ranura Nano, cable de acero al carbono y garantia limitada de 5 anos.",
+        "manualCategoryPath": "accesorios/seguridad-fisica",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-laptop-nano",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/technology-device-security-products/device-security-combination-lock/slim-nanosaver-combination-laptop-lock4/",
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K60604WW",
+          "commercialName": "Slim NanoSaver Combination Laptop Lock",
+          "providerSku": "ACCKNS2000",
+          "upc": "085896606048",
+          "productType": "Candado de combinacion para laptop",
+          "lockManagement": "Serialized combination",
+          "securitySlotType": "Nano",
+          "combination": "4 ruedas, 10000 combinaciones",
+          "cableMaterial": "Acero al carbono",
+          "cableLength": "1.8 m",
+          "warranty": "5 anos limitada",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 577.78, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "1.8 m" },
+        "sourceRefs": [
+          { "title": "Kensington K60604WW official product page", "type": "manufacturer", "url": "https://www.kensington.com/p/products/technology-device-security-products/device-security-combination-lock/slim-nanosaver-combination-laptop-lock4/" },
+          { "title": "Kensington Slim NanoSaver product sheet", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_40700q2_103182647.pdf" },
+          { "title": "CTOnline feed ACCKNS2000 stock 3 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nxs8axycor4bsxc",
+      "research": {
+        "confidence": 0.9,
+        "name": "Lanix XAir 1 14996 purificador de aire inteligente blanco",
+        "description": "Purificador de aire Lanix XAir 1 modelo 14996 color blanco con indicador de calidad de aire, filtrado para polvo, polen, caspa de mascotas, bacterias, virus y VOCs, compatible con Alexa y Google Assistant.",
+        "manualCategoryPath": "hogar/electrodomesticos/purificadores-aire",
+        "semanticCategoryPath": "hogar/electrodomesticos/purificadores-aire/inteligentes",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LANIX",
+          "model": "14996",
+          "commercialName": "XAir 1",
+          "providerSku": "AIRLNX180",
+          "upc": "615916003108",
+          "productType": "Purificador de aire",
+          "coverage": "11 a 15 m2",
+          "filterTargets": ["polen", "polvo", "caspa de mascotas", "virus en aire", "bacterias", "VOCs"],
+          "assistantSupport": ["Alexa", "Google Assistant"],
+          "features": ["indicador de calidad de aire", "ionizador", "control inteligente"],
+          "color": "Blanco",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 1121.27, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Exel Lanix XAir 1 specs", "type": "reseller_spec", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/LXCACCAF004" },
+          { "title": "Lanix XAir 1 PDF", "type": "datasheet", "url": "https://mcashop.mx/up/images/products/14996-0.pdf" },
+          { "title": "CTOnline feed AIRLNX180 stock 3 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "xb23syjc2bx7axz",
+      "research": {
+        "confidence": 0.92,
+        "name": "Lenovo ThinkSystem SR630 V3 4XH7A83845 riser PCIe x16/x16/x16",
+        "description": "Kit riser Lenovo ThinkSystem 4XH7A83845 para servidor SR630 V3, orientado a configuraciones PCIe x16/x16/x16 en chasis 2U/servidor ThinkSystem V3.",
+        "manualCategoryPath": "computo/servidores/componentes",
+        "semanticCategoryPath": "computo/servidores/componentes/riser-pcie",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LENOVO",
+          "model": "4XH7A83845",
+          "providerSku": "ACCLEN4540",
+          "productType": "Riser PCIe para servidor",
+          "compatiblePlatform": "ThinkSystem SR630 V3",
+          "slotConfiguration": "x16/x16/x16",
+          "bus": "PCIe",
+          "generation": "PCIe Gen4/Gen5 family reference",
+          "formFactor": "Riser option kit",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 100.3, "currency": "USD", "branch": "MTY/DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Lenovo SR630 V3 PCIe slots and adapters", "type": "manufacturer", "url": "https://pubs.lenovo.com/sr630-v3/pcie_slots_adapters" },
+          { "title": "Lenovo ThinkSystem SR630 V3 server option listing", "type": "datasheet", "url": "https://www.also.com/pub/assets/e8219ab9-dbff-4b70-8d8b-de29c6c43700.pdf" },
+          { "title": "CTOnline feed ACCLEN4540 stock 3 MTY/DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "dld5gr0lqrxm5jc",
+      "research": {
+        "confidence": 0.95,
+        "name": "Logitech MX Keys Mini 920-010478 teclado Bluetooth rosa",
+        "description": "Teclado compacto Logitech MX Keys Mini color rosa con Bluetooth Low Energy, compatibilidad Logi Bolt, bateria recargable USB-C, retroiluminacion inteligente y soporte multidispositivo.",
+        "manualCategoryPath": "computo/perifericos/teclados",
+        "semanticCategoryPath": "computo/perifericos/teclados/compactos-bluetooth",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "920-010478",
+          "commercialName": "MX Keys Mini",
+          "providerSku": "TECLOG1020",
+          "upc": "097855169648",
+          "productType": "Teclado compacto inalambrico",
+          "layout": "Compacto",
+          "connectivity": ["Bluetooth Low Energy", "Logi Bolt compatible"],
+          "battery": "LiPo recargable 1500 mAh",
+          "chargingPort": "USB-C",
+          "batteryLife": "Hasta 10 dias con retroiluminacion o 5 meses con retroiluminacion apagada",
+          "color": "Rosa",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 1874.12, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "295.99 x 131.95 x 20.97 mm", "weight": "506.4 g" },
+        "sourceRefs": [
+          { "title": "Logitech MX Keys Mini specifications", "type": "manufacturer", "url": "https://support.logi.com/hc/en-150/articles/4409094334231-Specification-MX-Keys-Mini" },
+          { "title": "Invid 920-010478 rose product page", "type": "reseller_spec", "url": "https://www.invidcomputers.com/teclado-logitech-wireless-mx-keys-mini-rose-retroilum-920-010478--det--0414105" },
+          { "title": "CTOnline feed TECLOG1020 stock 3 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9rhf23gjafiyw8v",
+      "research": {
+        "confidence": 0.96,
+        "name": "MSI GeForce RTX 5060 8G Shadow 2X OC tarjeta de video GDDR7",
+        "description": "Tarjeta de video MSI GeForce RTX 5060 8G Shadow 2X OC con 8 GB GDDR7, bus de 128 bits, PCIe Gen 5 x16 usando x8, 3840 nucleos CUDA, dos ventiladores y salidas DisplayPort/HDMI.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/nvidia-rtx-5060",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-SHADOW-2X-OC/Specification",
+        "specs": {
+          "brand": "MSI",
+          "model": "G5060-8S2C",
+          "commercialName": "GeForce RTX 5060 8G Shadow 2X OC",
+          "providerSku": "VC-1400",
+          "productType": "Tarjeta de video",
+          "gpu": "NVIDIA GeForce RTX 5060",
+          "memory": "8 GB GDDR7",
+          "memoryBus": "128-bit",
+          "memorySpeed": "28 Gbps",
+          "interface": "PCI Express Gen 5 x16 (uses x8)",
+          "cudaCores": 3840,
+          "boostClock": "2527 MHz",
+          "extremePerformanceClock": "2535 MHz",
+          "outputs": ["3 x DisplayPort 2.1b", "1 x HDMI 2.1b"],
+          "powerConsumption": "145 W",
+          "powerConnector": "1 x 8-pin",
+          "recommendedPsu": "550 W",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 3, "price": 320.01, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "197 x 120 x 40 mm", "weight": "493 g" },
+        "sourceRefs": [
+          { "title": "MSI GeForce RTX 5060 8G Shadow 2X OC official specs", "type": "manufacturer", "url": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-SHADOW-2X-OC/Specification" },
+          { "title": "MSI GeForce RTX 5060 8G Shadow 2X OC datasheet", "type": "datasheet", "url": "https://storage-asset.msi.com/datasheet/vga/global/GeForce-RTX-5060-8G-SHADOW-2X-OC.pdf" },
+          { "title": "CVA feed VC-1400 stock 3 no branch detail", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "s6wj8tegruit0n7",
+      "research": {
+        "confidence": 0.91,
+        "name": "Mobifree MB-923392 base de carga inalambrica negra",
+        "description": "Base de carga inalambrica Mobifree MB-923392 color negro para smartphone, alimentacion USB y uso interior; formato compacto de escritorio.",
+        "manualCategoryPath": "energia/cargadores-inalambricos",
+        "semanticCategoryPath": "energia/cargadores-inalambricos/base-smartphone",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "MOBIFREE",
+          "model": "MB-923392",
+          "commercialName": "Base de Carga inalambrica",
+          "providerSku": "ACCACT3530",
+          "ean": "7506215923392",
+          "productType": "Cargador inalambrico de base",
+          "chargerType": "Inalambrico",
+          "compatibility": ["smartphone"],
+          "input": "5 V / 1.5 A",
+          "output": "5 V / 2.4 A max",
+          "powerSource": "USB",
+          "includedCables": ["USB"],
+          "color": "Negro",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CUE", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 119.42, "currency": "MXN", "branch": "CUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "101 x 101 x 6 mm", "weight": "0.1 kg" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Mobifree MB-923392 specs", "type": "reseller_spec", "url": "https://compupuebla.com/producto/cargador-inalambrico-mobifree-base-de-carga-inalambrica/" },
+          { "title": "GlobalOffice Mobifree MB-923392 stock reference", "type": "reseller_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/accesorios-para-electronica/cargador-inalambrico-mobifree-base-de-carga-inalam/mb-923392" },
+          { "title": "CTOnline feed ACCACT3530 stock 3 CUE", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
