@@ -373,6 +373,16 @@ const researchedBatchCases = [
   ["TP-Link Deco S7 2 Pack router WiFi Mesh AC1900", "TP-LINK", "redes/routers/mesh-wifi"],
   ["Acteck MI790 mouse trackball ergonomico inalambrico", "ACTECK", "computo/perifericos/mouse/inalambricos/trackball"],
   ["Grandstream GXP1630 telefono IP 3 cuentas SIP PoE", "GRANDSTREAM", "telefonia/telefonos-ip"],
+  ["ADATA AD5S480016G-S memoria SO-DIMM DDR5 16GB 4800MHz CL40", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr5"],
+  ["Intellinet 517874 caja para pared single gang 4.8cm", "INTELLINET", "redes/cableado-estructurado/cajas-pared"],
+  ["Creative Stage SE mini MF8460 soundbar Bluetooth USB-C", "CREATIVE LABS", "audio/barras-sonido/pc"],
+  ["Game Factor MDTD400 cable Mini DisplayPort a DisplayPort 2m 4K", "GAME FACTOR", "accesorios/cables-adaptadores/video-displayport"],
+  ["Dahua DH-HAC-T1A51N-U-IL-A camara HDCVI 5MP Smart Dual Light", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi"],
+  ["Corsair USB100 CU-9000003-NA hub USB-C USB-A 7 puertos", "CORSAIR", "computo/accesorios/hubs-usb/usb-c"],
+  ["Vortred Helmet V-930174 audifonos TWS gamer Bluetooth", "VORTRED", "audio/audifonos/bluetooth/tws"],
+  ["Huawei MatePad SE 11 53014GYW tableta 8GB 128GB", "HUAWEI", "computo/tabletas"],
+  ["Urban Balance UBSC11 dock USB-C 11 en 1 100W", "URBAN BALANCE", "computo/accesorios/docks-hubs/usb-c"],
+  ["Zebra 800033-840 cinta YMCKO ZXP Series 3 200 impresiones", "ZEBRA", "impresion/consumibles/cintas-tarjetas"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

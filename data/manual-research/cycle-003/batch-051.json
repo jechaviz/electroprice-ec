@@ -1,0 +1,463 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b051-2026-05-28",
+  "cycle": 3,
+  "batch": 51,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0bvaaezfsy94fv9",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA Premier AD5S480016G-S memoria SO-DIMM DDR5 16GB 4800MHz",
+        "description": "Modulo ADATA Premier SO-DIMM DDR5 de 16 GB para laptop, AIO y mini PC, velocidad DDR5-4800 PC5-38400, 1.1 V, PMIC y On-die ECC.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr5",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr5/ddr5-4800-16gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/consumer/category/memory/premier-ddr5-4800-so-dimm/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10361612",
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/0556e25f-6574-435d-945e-5709e42c1a08.jpg%3BmaxHeight%3D128%3BmaxWidth%3D64?format=webp",
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/c306697d-8234-4e84-a08e-24893545c104.jpg%3BmaxHeight%3D128%3BmaxWidth%3D64?format=webp",
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/8fe910aa-4298-4d8e-a805-b2b685918286.jpg%3BmaxHeight%3D128%3BmaxWidth%3D64?format=webp"
+        ],
+        "documents": [
+          { "label": "ADATA DDR5-4800 SO-DIMM datasheet v2", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_ddr5_4800_so_dimm_v2.pdf" },
+          { "label": "ADATA DDR5-4800 SO-DIMM datasheet v1", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_ddr5_4800_so_dimm_memory_module_v1.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AD5S480016G-S",
+          "providerSku": "MEMDAT6470 / RAM-3921",
+          "ean": "4711085936592",
+          "productType": "DDR5 SO-DIMM memory module",
+          "capacity": "16 GB, 1 x 16 GB",
+          "speed": "DDR5-4800, PC5-38400",
+          "pinCount": "262-pin SO-DIMM",
+          "voltage": "DRAM VDD 1.1 V, VIN 5 V",
+          "features": "PMIC, On-die ECC, 0 to 85 C operation, lifetime warranty",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 61 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT6470", "stock": 61, "price": 173.11, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "RAM-3921", "stock": 0, "price": 164.73, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider title says 260 pin; official and reseller specifications indicate 262-pin SO-DIMM.", "Some resellers label ECC; official material specifies On-die ECC, not registered/server ECC."]
+        },
+        "measurements": { "dimensions": "170 x 55.6 x 8 mm single tray", "weight": "10.1 g module / 23.4 g single tray", "carton": "340 x 300 x 212 mm, 200 pcs" },
+        "sourceRefs": [
+          { "title": "ADATA DDR5-4800 SO-DIMM datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_ddr5_4800_so_dimm_v2.pdf" },
+          { "title": "Best Buy ADATA AD5S480016G-S listing", "type": "reseller_spec", "url": "https://www.bestbuy.com/product/adata-16gb-262-pin-ddr5-so-dimm-ddr5-4800-pc4-38400-laptop-memory-model-ad5s480016g-s-black/C344QXVF6T" },
+          { "title": "CTOnline and CVA feeds AD5S480016G-S stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0c2l6t3c5j99ccn",
+      "research": {
+        "confidence": 0.96,
+        "name": "Intellinet 517874 caja de pared single gang 4.7 cm blanca",
+        "description": "Caja de pared Intellinet para instalaciones de cableado estructurado, formato single gang, color blanco, profundidad de 4.7 cm e incluye tornillos.",
+        "manualCategoryPath": "redes/cableado-estructurado/cajas-pared",
+        "semanticCategoryPath": "redes/cableado-estructurado/cajas-pared/single-gang-4-7cm",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetsolutions.mx/products/intellinet-es-caja-para-pared-517874",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2020686",
+          "https://intellinetsolutions.mx/cdn/shop/files/caja-para-pared-8809814.jpg?v=1779367766&width=416",
+          "https://intellinetsolutions.mx/cdn/shop/files/caja-para-pared-3077934.jpg?v=1779367766&width=416",
+          "https://intellinetsolutions.mx/cdn/shop/files/caja-para-pared-6929952.jpg?v=1779367766&width=416"
+        ],
+        "documents": [
+          { "label": "Intellinet 517874 datasheet EN", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51790/517874_datasheet_english.pdf" },
+          { "label": "Intellinet 517874 datasheet ES", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51792/517874_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "Intellinet",
+          "model": "517874",
+          "providerSku": "RCKACC1390 / AC-1699",
+          "ean": "0766623517874",
+          "upc": "766623517874",
+          "asin": "B0009JB7OK",
+          "productType": "Single gang network wall box",
+          "color": "White",
+          "mounting": "Wall surface",
+          "certification": "UL listed",
+          "included": "Wall box and screws",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 1233 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "RCKACC1390", "stock": 1233, "price": 2.24, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "AC-1699", "stock": 9, "price": 2.27, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider depth is 4.80 cm while official datasheets list 47 mm / 4.7 cm.", "Some reseller text references Manhattan/IC Intracom, but current official brand is Intellinet."]
+        },
+        "measurements": { "dimensions": "114 x 70 x 47 mm", "weight": "0.07 kg", "package": "Bag" },
+        "sourceRefs": [
+          { "title": "Intellinet Mexico 517874 product page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/intellinet-es-caja-para-pared-517874" },
+          { "title": "Intellinet 517874 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51792/517874_datasheet_spanish.pdf" },
+          { "title": "CTOnline and CVA feeds Intellinet 517874 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0c3au2wuxbumdeg",
+      "research": {
+        "confidence": 0.95,
+        "name": "Creative Stage SE mini MF8460 barra de sonido USB-C Bluetooth 12W negra",
+        "description": "Barra de sonido compacta Creative Stage SE mini para escritorio, USB-C audio y energia, Bluetooth 5.3, dos drivers racetrack y potencia de 12 W RMS.",
+        "manualCategoryPath": "audio/barras-sonido/pc",
+        "semanticCategoryPath": "audio/barras-sonido/pc/usb-c-bluetooth",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://us.creative.com/p/speakers/creative-stage-se-mini",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCCRT110/BOCCRT110_full.jpg",
+          "https://static.bhphoto.com/images/images2500x2500/creative_labs_51mf8460aa000_stage_se_mini_soundbar_1717159304_1837520.jpg",
+          "https://www.dealtargets.com/cdn/shop/files/creative-stage-se-mini-soundbar.jpg"
+        ],
+        "documents": [
+          { "label": "Creative Stage SE mini quick start guide", "type": "manual", "url": "https://files.creative.com/manualdn/Manuals/TSD/14564/ljF2TI71E2/QSG-revb.pdf" },
+          { "label": "Creative Stage SE mini product specification", "type": "datasheet", "url": "https://www.nfm.com/on/demandware.static/-/Library-Sites-NFMSharedLibrary/default/dw5439de60/product-pdfs/067/20/67209122-product-specification-sheet.pdf" }
+        ],
+        "specs": {
+          "brand": "Creative",
+          "model": "Stage SE mini MF8460",
+          "partNumber": "51MF8460AA000",
+          "providerSku": "BOCCRT110",
+          "ean": "5390660195853",
+          "upc": "054651195851",
+          "productType": "2.0 desktop soundbar",
+          "power": "2 x 6 W RMS, 12 W total, 24 W peak",
+          "drivers": "2 x racetrack drivers, 75 x 52 mm",
+          "frequencyResponse": "68 Hz to 20 kHz official",
+          "wireless": "Bluetooth 5.3, A2DP, AVRCP, SBC",
+          "connections": "USB-C audio/power, 3.5 mm CTIA headphone out",
+          "powerInput": "5 V / 3 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BOCCRT110", "stock": 2, "price": 45, "currency": "USD", "branch": "PUE,URP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider title is generic; official identity is Creative Stage SE mini.", "Provider frequency response says 100 Hz to 20 kHz; official specifications state 68 Hz to 20 kHz."]
+        },
+        "measurements": { "dimensions": "410 x 82 x 63 mm", "weight": "0.73 kg", "cable": "1.5 m USB-C cable, 60 g", "shippingWeight": "about 1.01 kg" },
+        "sourceRefs": [
+          { "title": "Creative Stage SE mini official page", "type": "manufacturer", "url": "https://us.creative.com/p/speakers/creative-stage-se-mini" },
+          { "title": "Creative Stage SE mini quick start guide", "type": "manual", "url": "https://files.creative.com/manualdn/Manuals/TSD/14564/ljF2TI71E2/QSG-revb.pdf" },
+          { "title": "CTOnline feed BOCCRT110 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0c3qau5n7sa3nlt",
+      "research": {
+        "confidence": 0.94,
+        "name": "Game Factor MDTD400 cable Mini DisplayPort a DisplayPort 2 m 4K60 negro",
+        "description": "Cable Game Factor MDTD400 Mini DisplayPort macho a DisplayPort macho de 2 m, color negro, soporte 4K a 60 Hz, HDR10 y ancho de banda de 21.6 Gbps.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport/mini-dp-a-dp-2m-4k60",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gamefactor.mx/detalle/156/mdtd400",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CABVGO1000/CABVGO1000_full.jpg",
+          "https://gamefactor.mx/images/cat_articulos/156__imagen_1727390464.png",
+          "https://gamefactor.mx/images/galeria_articulos/MDTD400-01.png",
+          "https://gamefactor.mx/images/galeria_articulos/MDTD400-02.png",
+          "https://gamefactor.mx/images/galeria_articulos/MDTD400-03.png"
+        ],
+        "specs": {
+          "brand": "Game Factor",
+          "model": "MDTD400",
+          "providerSku": "CABVGO1000",
+          "ean": "7503049354378",
+          "productType": "Mini DisplayPort to DisplayPort cable",
+          "connectors": "Mini DisplayPort male to DisplayPort male",
+          "length": "2 m",
+          "bandwidth": "21.6 Gbps",
+          "resolution": "4K at 60 Hz and 2K at 60 Hz",
+          "videoFeatures": "HDR10",
+          "construction": "Aluminum housings, oxygen-free copper, 24K gold plating, triple shielding",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABVGO1000", "stock": 1, "price": 5.88, "currency": "USD", "branch": "MAZ" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Official material states 21.6 Gbps; some reseller text rounds to 21 Gbps.", "No reliable package weight was found in public sources."]
+        },
+        "measurements": { "length": "2 m", "connectorDiameterMiniDisplayPort": "7.65 mm +/- 0.10", "connectorDiameterDisplayPort": "11.05 mm +/- 0.10" },
+        "sourceRefs": [
+          { "title": "Game Factor MDTD400 official page", "type": "manufacturer", "url": "https://gamefactor.mx/detalle/156/mdtd400" },
+          { "title": "Game Factor MDTD400 English page", "type": "manufacturer", "url": "https://www.gamefactor.mx/en/details/156/mdtd400" },
+          { "title": "CTOnline feed CABVGO1000 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0c4py7pdloxk9e0",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dahua DH-HAC-T1A51N-U-IL-A camara HDCVI eyeball 5MP Smart Dual Light",
+        "description": "Camara Dahua HDCVI eyeball Cooper Series de 5 MP con lente fija, Smart Dual Light, microfono integrado, salida CVI/TVI/AHD/CVBS y alimentacion 12 V DC.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/eyeball-5mp-smart-dual-light",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/Cooper-Series/Smart-Dual-Light/HAC-T1A51-U-IL-A-S2",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH6640/CAMDAH6640_full.jpg",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_12_27540/ProductImage/1_0_01_12_27540_521329767.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_12_27540/ProductImage/1_0_01_12_27540_521329766.PNG"
+        ],
+        "documents": [
+          { "label": "Dahua HAC-T1A51-U-IL-A S2 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/HAC-T1A51-U-IL-A_S2_datasheet_20231110.pdf" },
+          { "label": "Dahua HDCVI camera user manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/31927/user_manual/HDCVI_Camera_User_Manual_V1.0.7.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua",
+          "model": "DH-HAC-T1A51N-U-IL-A",
+          "providerSku": "CAMDAH6640",
+          "ean": "6937552412460",
+          "productType": "5 MP HDCVI fixed-focal eyeball camera",
+          "sensor": "5 MP CMOS, max 2880 x 1620",
+          "video": "CVI NTSC 5M at 25 fps, 4M/1080p at 30 fps, CVI/TVI/AHD/CVBS over BNC",
+          "lens": "M12 fixed, 3.6 mm standard, 2.8 mm optional",
+          "illumination": "Smart Dual Light, 25 m IR / 20 m warm light",
+          "audio": "Built-in microphone",
+          "features": "Auto ICR, BLC, HLC, DWDR, 2DNR, privacy masking",
+          "power": "12 V DC +/-30%, max 2.6 W",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6640", "stock": 37, "price": 25.41, "currency": "USD", "branch": "D2A,URP,ACA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider says domo; official datasheet describes eyeball body.", "Provider says pole mount; official datasheet lists wall and ceiling mount only.", "No independent public confirmation of EAN outside the provider feed was found."]
+        },
+        "measurements": { "dimensions": "85.0 mm diameter x 77.1 mm", "weight": "0.11 kg net / 0.12 kg gross", "operatingTemperature": "-40 to 55 C" },
+        "sourceRefs": [
+          { "title": "Dahua HAC-T1A51-U-IL-A S2 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/HAC-T1A51-U-IL-A_S2_datasheet_20231110.pdf" },
+          { "title": "Dahua HDCVI camera user manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/31927/user_manual/HDCVI_Camera_User_Manual_V1.0.7.pdf" },
+          { "title": "CTOnline feed CAMDAH6640 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0cp6x6lwruimbzn",
+      "research": {
+        "confidence": 0.95,
+        "name": "Corsair USB100 CU-9000003-NA hub USB-C y USB-A 7 puertos con adaptador 65W",
+        "description": "Hub Corsair USB100 de 7 puertos USB-C/USB-A SuperSpeed 5 Gbps, con cable USB-C de 1 m, adaptador de corriente de 65 W y carga por puerto hasta 15 W.",
+        "manualCategoryPath": "computo/accesorios/hubs-usb/usb-c",
+        "semanticCategoryPath": "computo/accesorios/hubs-usb/usb-c/7-puertos-alimentado",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/hubs-docks/cu-9000003-na/usb100-7-port-usb-c-usb-a-expansion-hub-cu-9000003-na",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCCOR460/ACCCOR460_full.jpg",
+          "https://assets.corsair.com/image/upload/c_pad%2Cq_85%2Ch_1100%2Cw_1100%2Cf_auto/products/Thunderbolt-Docks/base-usb100-config/Gallery/USB100_01.webp",
+          "https://assets.corsair.com/image/upload/akamai/pdp/usb100/usb100_stack.png",
+          "https://assets.corsair.com/image/upload/akamai/pdp/usb100/usb100_render.png"
+        ],
+        "documents": [
+          { "label": "Corsair USB100 quick start", "type": "manual", "url": "https://www.corsair.com/us/en/explorer/diy-builder/thunderbolt-docks/usb100/" }
+        ],
+        "specs": {
+          "brand": "Corsair",
+          "model": "USB100 CU-9000003-NA",
+          "providerSku": "ACCCOR460",
+          "upc": "840006646471",
+          "regulatoryModel": "RDD0009",
+          "productType": "Powered USB-C / USB-A expansion hub",
+          "ports": "4 x USB-A 5 Gbps, 3 x USB-C 5 Gbps, USB-C upstream",
+          "powerAdapter": "65 W external adapter",
+          "charging": "Front USB-C up to 15 W, front USB-A up to 7.5 W, rear USB-A 4.5 W each, rear USB-C 7.5 W each",
+          "compatibility": "Windows 10+, macOS 10.1+",
+          "included": "Hub, 1 m USB-C cable, 65 W power supply",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TXA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCCOR460", "stock": 3, "price": 62, "currency": "USD", "branch": "TXA,D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider text omits the included 65 W PSU and 1 m cable.", "Corsair lists 0.613 kg for kit/package weight while distributor data separates product weight as 0.073 kg.", "USB-C ports are data/power only; no video over USB-C."]
+        },
+        "measurements": { "dimensions": "156 x 50 x 15 mm", "weight": "0.073 kg product / 0.613 kg retail kit", "packageDimensions": "220 x 106 x 64 mm" },
+        "sourceRefs": [
+          { "title": "Corsair USB100 official product page", "type": "manufacturer", "url": "https://www.corsair.com/us/en/p/hubs-docks/cu-9000003-na/usb100-7-port-usb-c-usb-a-expansion-hub-cu-9000003-na" },
+          { "title": "Corsair USB100 quick start", "type": "manual", "url": "https://www.corsair.com/us/en/explorer/diy-builder/thunderbolt-docks/usb100/" },
+          { "title": "CTOnline feed ACCCOR460 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d15jtkven2y5kn",
+      "research": {
+        "confidence": 0.93,
+        "name": "Vortred Helmet V-930174 audifonos TWS gamer Bluetooth 5.3 y 2.4GHz",
+        "description": "Audifonos in-ear TWS gamer Vortred Helmet con Bluetooth 5.3, enlace 2.4 GHz, baja latencia, ENC, controles tactiles, estuche USB-C y hasta 20 h totales.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/tws",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/tws/gamer-low-latency",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://vortred.com/products/audifonos-gamer-inalambricos-tws-sonido-hq-helmet-vortred",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCMST3910/BOCMST3910_full.jpg",
+          "https://vortred.com/cdn/shop/files/Helmet1.jpg?v=1737054928&width=416",
+          "https://vortred.com/cdn/shop/files/Helmet2.jpg?v=1737054928&width=416",
+          "https://vortred.com/cdn/shop/files/CaracteristicaAudifonosHelmet.jpg?v=1737054928&width=416"
+        ],
+        "documents": [
+          { "label": "Vortred Helmet ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0362/6654/1196/files/V-930174_FT.pdf?v=1737055983" },
+          { "label": "Vortred Helmet manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0362/6654/1196/files/V-930174_M.pdf?v=1737055980" }
+        ],
+        "specs": {
+          "brand": "Vortred",
+          "model": "Helmet V-930174",
+          "providerSku": "BOCMST3910",
+          "upc": "615604930174",
+          "productType": "TWS gamer in-ear headset",
+          "wireless": "Bluetooth 5.3 and 2.4 GHz",
+          "range": "10 m",
+          "batteryEarbuds": "30 mAh official",
+          "batteryCase": "200 mAh official",
+          "runtime": "Up to 20 h total, 5 h per charge",
+          "charge": "USB-C, 5 V / 1 A",
+          "features": "Low latency, game/music mode, ENC noise reduction, touch controls, voice assistant",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BOCMST3910", "stock": 41, "price": 211.09, "currency": "MXN", "branch": "D2A,GDL,CAM,CMT,CUN,DFA,TXL,CUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Official sheet lists 30 mAh earbuds and 200 mAh case; one reseller lists 40 mAh and 350 mAh.", "Provider says gamer Helmet; official brand family is Vortred / Perfect Choice."]
+        },
+        "measurements": { "packageDimensions": "4 x 19 x 10 cm reseller", "packageWeight": "0.1 kg", "chargeTime": "1.5-2 h earbuds, 2-2.5 h case" },
+        "sourceRefs": [
+          { "title": "Vortred Helmet official page", "type": "manufacturer", "url": "https://vortred.com/products/audifonos-gamer-inalambricos-tws-sonido-hq-helmet-vortred" },
+          { "title": "Vortred Helmet ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0362/6654/1196/files/V-930174_FT.pdf?v=1737055983" },
+          { "title": "CTOnline feed BOCMST3910 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d4zxl4r3rjvtst",
+      "research": {
+        "confidence": 0.94,
+        "name": "Huawei MatePad SE 11 53014GYW tableta 8GB 128GB azul con M-Pen Lite",
+        "description": "Tableta Huawei MatePad SE 11 Wi-Fi color azul con pantalla 11 pulgadas 1920 x 1200, 8 GB RAM, 128 GB, bateria 7700 mAh, cuatro bocinas e incluye M-Pen Lite.",
+        "manualCategoryPath": "computo/tabletas",
+        "semanticCategoryPath": "computo/tabletas/harmonyos-11-8gb-128gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/ph/tablets/matepad-se-11/specs/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TLCHUA390/TLCHUA390_full.jpg",
+          "https://www.officedepot.com.mx/medias/101622366.jpg-1200ftw?context=bWFzdGVyfHJvb3R8NDAxMTF8aW1hZ2UvanBlZ3xhRFUyTDJobU15ODVPVFUxT0RJeU1qSTJNVGswTHpFd01UWXlNak0yTmk1cWNHY3xjOTBlNzk1N2EyOTYyMTU1ZTJmMjg3OTJhMTA5MmFjMTk1MTA1ZDJiZjZkOTY1NjkxN2YxZmQzODQzMzc2N2Yw",
+          "https://www.officedepot.com.mx/medias/101622366-1.jpg-1200ftw?context=bWFzdGVyfHJvb3R8Mjc2NjV8aW1hZ2UvanBlZ3xhR1V5TDJnMU15ODVPVFUxT0RJeU1qVXdOalF5THpFd01UWXlNak0yTmkweExtcHdaeTh4TWpBd1puUjN8ODdlMDgxZDk1YzZmY2IyMGUyZTJhNmYxNWM5YTcyYTNkZTU1NjgxMGQyMGRjMmY2YTMwZDNmNDhjZWJhYWZmMw"
+        ],
+        "specs": {
+          "brand": "Huawei",
+          "model": "MatePad SE 11 53014GYW",
+          "providerSku": "TLCHUA390",
+          "ean": "6942103125386",
+          "technicalModel": "Probable AGS6-W09 Wi-Fi",
+          "productType": "Tablet",
+          "display": "11 in TFT LCD IPS, 1920 x 1200, 207 ppi",
+          "memory": "8 GB RAM",
+          "storage": "128 GB",
+          "os": "HarmonyOS regional",
+          "processor": "Kirin 710A reported by Mexico retailers",
+          "cameras": "Rear 8 MP AF 1080p, front 5 MP 720p",
+          "battery": "7700 mAh typical / 7600 mAh nominal",
+          "charging": "22.5 W, 10 V / 2.25 A",
+          "connectivity": "Wi-Fi a/b/g/n/ac, Bluetooth 5.1, USB-C USB 2.0 OTG",
+          "audio": "4 speakers, Huawei Histen 9.0",
+          "included": "Tablet, charger, cable, guide, warranty, M-Pen Lite",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 287 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TLCHUA390", "stock": 291, "price": 3119.7, "currency": "MXN", "branch": "DFA,TXA,TOL,TXL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Some retailer text shows contradictory 13.2 in or gold; model 53014GYW and provider title align to 11 in blue.", "Operating system and processor details vary by market; Mexico retail sources report Kirin 710A."]
+        },
+        "measurements": { "dimensions": "252.3 x 163.8 x 6.9 mm", "weight": "about 475 g" },
+        "sourceRefs": [
+          { "title": "Huawei MatePad SE 11 specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/ph/tablets/matepad-se-11/specs/" },
+          { "title": "Huawei MatePad SE 11 product page", "type": "manufacturer", "url": "https://consumer.huawei.com/ph/tablets/matepad-se-11/" },
+          { "title": "CTOnline feed TLCHUA390 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d7ipr1hf628tc2",
+      "research": {
+        "confidence": 0.9,
+        "name": "Urban Balance UBSC11 Scorpion dock USB-C 11 en 1 con PD 100W",
+        "description": "Docking station USB-C Urban Balance Scorpion UBSC11 de 11 puertos con HDMI 4K, VGA, RJ45, USB 3.0, lector SD/microSD, audio 3.5 mm y Power Delivery hasta 100 W.",
+        "manualCategoryPath": "computo/accesorios/docks-hubs/usb-c",
+        "semanticCategoryPath": "computo/accesorios/docks-hubs/usb-c/11-en-1-100w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/docking-station-urban-balance-ubsc11/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCUBA290/ACCUBA290_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/03/DockStationCargarpidaparaporttil10_UBSC11_1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/03/DockStationCargarpidaparaporttil10_UBSC11_2.jpg"
+        ],
+        "documents": [
+          { "label": "Urban Balance UBSC11 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/DockStationCargarpidaparaporttil10_UBSC11/DockStationCargarpidaparaporttil10_UBSC11.pdf" }
+        ],
+        "specs": {
+          "brand": "Urban Balance",
+          "model": "UBSC11 Scorpion",
+          "providerSku": "ACCUBA290",
+          "ean": "7502289464533",
+          "productType": "USB-C docking station / hub 11-in-1",
+          "host": "USB-C / USB 3.2 Gen 2",
+          "ports": "4 x USB 3.0, HDMI, VGA, RJ45, USB-C PD, SD, microSD/TF, 3.5 mm audio",
+          "video": "HDMI 2.0 up to 4K at 30 Hz, VGA",
+          "network": "RJ45 100 Mbps",
+          "powerDelivery": "Up to 100 W",
+          "cardReader": "SD/TF up to 104 Mbps",
+          "color": "Gray / silver",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCUBA290", "stock": 7, "price": 466.67, "currency": "MXN", "branch": "DFA,CTZ" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Technical sheet says plastic material although product imagery looks metallic.", "Some descriptions mention USB 2.0, while technical port list specifies USB 3.0 ports and USB-C host."]
+        },
+        "measurements": { "dimensions": "10 x 6 x 2 cm", "weight": "100 g", "packageDimensions": "12 x 8 x 3 cm", "packageWeight": "200 g" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Urban Balance UBSC11 product page", "type": "reseller_spec", "url": "https://compupuebla.com/producto/docking-station-urban-balance-ubsc11/" },
+          { "title": "Urban Balance UBSC11 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/DockStationCargarpidaparaporttil10_UBSC11/DockStationCargarpidaparaporttil10_UBSC11.pdf" },
+          { "title": "CTOnline feed ACCUBA290 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0dp8c5w58rhjxxm",
+      "research": {
+        "confidence": 0.93,
+        "name": "Zebra 800033-840 cinta YMCKO True Colours ZXP Series 3 200 impresiones",
+        "description": "Cinta Zebra True Colours / ix Series YMCKO para impresoras de tarjetas ZXP Series 3, rendimiento de 200 imagenes por rollo, con paneles amarillo, magenta, cian, negro resina y overlay.",
+        "manualCategoryPath": "impresion/consumibles/cintas-tarjetas",
+        "semanticCategoryPath": "impresion/consumibles/cintas-tarjetas/zebra-zxp3-ymcko-200",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARZBR055/CARZBR055_full.jpg",
+          "https://static.bhphoto.com/images/images2500x2500/zebra_800033_840_zebra_800033_840_zxp_series_3_1377531552_886390.jpg"
+        ],
+        "documents": [
+          { "label": "Zebra 800033-840 media datasheet", "type": "datasheet", "url": "https://www.thebarcodewarehouse.co.uk/Documents/Zebra/Media/800033-840%20Datasheet.pdf" },
+          { "label": "Zebra ZXP Series 3 specification", "type": "datasheet", "url": "https://prod-www.zebra.com/us/en/products/spec-sheets/printers/card/zxp-series-3.html" }
+        ],
+        "specs": {
+          "brand": "Zebra",
+          "model": "800033-840",
+          "providerSku": "CARZBR055",
+          "substituteProviderSku": "CARZBR690",
+          "productType": "YMCKO card printer ribbon",
+          "compatibility": "Zebra ZXP Series 3 card printers",
+          "yield": "200 images / prints per roll",
+          "panels": "Yellow, Magenta, Cyan, Black resin, Overlay",
+          "technology": "Dye sublimation / thermal transfer",
+          "features": "True Colours ix Series intelligent media, often supplied with cleaning roller",
+          "providerStatus": "discontinued by provider feed but available stock remains",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARZBR055", "stock": 17, "price": 37.33, "currency": "USD", "branch": "MAZ,DFA,QRO,OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Provider marks item discontinued and gives substitute CARZBR690; public sellers still list 800033-840 stock.", "ZXP Series 3 printer specs mention another YMCKO ribbon family at 280 images, but 800033-840 media datasheet states 200 images."]
+        },
+        "measurements": { "ribbon": "97-99 m long, 57 mm +/-0.25 wide, 45.21 mm max outside diameter", "weight": "180 g ribbon", "shipping": "0.35 lb, 5.85 x 4.3 x 2.85 in", "storage": "5 to 25 C, optimum 21 C" },
+        "sourceRefs": [
+          { "title": "Zebra 800033-840 media datasheet", "type": "datasheet", "url": "https://www.thebarcodewarehouse.co.uk/Documents/Zebra/Media/800033-840%20Datasheet.pdf" },
+          { "title": "Zebra ZXP Series 3 specifications", "type": "manufacturer", "url": "https://prod-www.zebra.com/us/en/products/spec-sheets/printers/card/zxp-series-3.html" },
+          { "title": "CTOnline feed CARZBR055 stock and discontinuation flag", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
