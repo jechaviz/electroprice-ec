@@ -42,6 +42,16 @@ const researchedBatchCases = [
   ["Redragon Sacarab Pink A130P-SP keycaps PBT", "REDRAGON", "computo/perifericos/teclados/keycaps"],
   ["Verbatim 95310 DVD+R DL 8.5GB 20 pack", "VERBATIM", "computo/almacenamiento/medios-opticos"],
   ["Fujitsu ScanSnap SV600 escaner elevado A3", "FUJITSU", "impresion/escaneres"],
+  ["Nexxt AW251NXT05 PTKCKKBSDKT01 kit basico herramientas red", "NEXXT", "redes/herramientas-cableado"],
+  ["Pacific Soft SF020 punto de venta para autoservicios", "PACIFIC SOFT", "punto-de-venta/software-pos"],
+  ["Pacific Soft PSF040 comandera movil restaurantes Android", "PACIFIC SOFT", "punto-de-venta/software-pos"],
+  ["Kensington K64704WW VeriMark Pro fingerprint key", "KENSINGTON", "computo/accesorios/seguridad-biometrica"],
+  ["Huawei Band 10 55020EKW Aluminum Blue smartwatch", "HUAWEI", "wearables/smartwatches"],
+  ["Perfect Choice PC-085164 mochila escolar Arcade", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["Pacific Soft KITPSF070 punto de venta para farmacias", "PACIFIC SOFT", "punto-de-venta/software-pos"],
+  ["Orvibo SM11 sensor de puerta ventana Zigbee", "ORVIBO", "domotica/sensores"],
+  ["Multimedia Screens MSC-265 pantalla de proyeccion 120", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion"],
+  ["Poly EncorePro 510 783Q1AA headset Quick Disconnect", "POLY", "audio/audifonos"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

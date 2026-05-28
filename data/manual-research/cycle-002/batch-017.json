@@ -1,0 +1,374 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b017-2026-05-27",
+  "cycle": 2,
+  "batch": 17,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "j92rj75w1u6964l",
+      "research": {
+        "confidence": 0.94,
+        "name": "Nexxt PTKCKKBSDKT01 AW251NXT05 kit basico de herramientas de red",
+        "description": "Kit basico Nexxt Solutions para instalacion y mantenimiento de cableado de red; incluye cortador, pelacables, pinza ponchadora, probador de cable, herramienta de impacto y maletin.",
+        "manualCategoryPath": "redes/herramientas-cableado",
+        "semanticCategoryPath": "redes/herramientas-cableado/kits-basicos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Nexxt AW251NXT05 ficha PDF", "type": "datasheet", "url": "https://img.cartimex.com/v2/pdf/AW251NXT05.pdf" }
+        ],
+        "specs": {
+          "brand": "NEXXT SOLUTIONS",
+          "model": "AW251NXT05",
+          "commercialModel": "PTKCKKBSDKT01",
+          "providerSku": "ACCNXX200",
+          "upc": "798302033214",
+          "productType": "Kit de herramientas para redes",
+          "includedTools": ["probador de cables RJ45", "cortador de cable", "desforrador UTP/STP", "tenaza modular RJ45/RJ12/RJ11", "herramienta de impacto 110", "maletin"],
+          "applications": ["instalacion de redes", "mantenimiento de cableado", "reparacion de cableado estructurado"],
+          "origin": "Taiwan en ficha de canal",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 75.91, "currency": "USD", "branch": "DFA/MOR" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "caseDimensions": "31 x 26 x 7 cm" },
+        "sourceRefs": [
+          { "title": "Palser Nexxt PTKCKKBSDKT01 AW251NXT05 kit details", "type": "reseller_spec", "url": "https://www.palser.com/catalogo/accesorios/herramientas/kit-herramientas-de-red-nexxt-ptkckkbsdkt01-aw251nxt05/" },
+          { "title": "Cartimex AW251NXT05 ficha PDF", "type": "datasheet", "url": "https://img.cartimex.com/v2/pdf/AW251NXT05.pdf" },
+          { "title": "CTOnline feed ACCNXX200 stock 6 DFA/MOR", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "k91k4i99ncjzkyz",
+      "research": {
+        "confidence": 0.88,
+        "name": "Pacific Soft SF020 punto de venta para autoservicios",
+        "description": "Licencia/paquete Pacific Soft SF020 de punto de venta para autoservicios y comercios al detalle, con enfoque administrativo y operativo para cajas de venta.",
+        "manualCategoryPath": "punto-de-venta/software-pos",
+        "semanticCategoryPath": "punto-de-venta/software-pos/autoservicios",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pacificsoft.com.mx/ecosistema/punto-de-venta/autoservicio/",
+        "specs": {
+          "brand": "PACIFIC SOFT",
+          "model": "SF020",
+          "providerSku": "KITPSF020",
+          "productType": "Software punto de venta para autoservicios",
+          "vertical": "Autoservicios",
+          "licenseType": "Certificado/licencia POS de canal mayorista",
+          "featuresObserved": ["punto de venta", "comercios al detalle", "autoservicio", "control administrativo"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 4968.98, "currency": "MXN", "branch": "D2A/DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Pacific Soft autoservicio official page", "type": "manufacturer", "url": "https://pacificsoft.com.mx/ecosistema/punto-de-venta/autoservicio/" },
+          { "title": "CTI Systems Pacific Soft SF020 available stock", "type": "reseller_stock", "url": "https://ctisystems.mx/punto-de-venta-para-autoservicios-pacific-soft-sf020" },
+          { "title": "CTOnline feed KITPSF020 stock 6 D2A/DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nzmg7txj9vkl7r2",
+      "research": {
+        "confidence": 0.9,
+        "name": "Pacific Soft PSF040 comandera movil para restaurantes Android",
+        "description": "Complemento Pacific Soft PSF040 para punto de venta de restaurantes; permite levantar ordenes directamente desde las mesas mediante dispositivos Android.",
+        "manualCategoryPath": "punto-de-venta/software-pos",
+        "semanticCategoryPath": "punto-de-venta/software-pos/restaurantes-comandera-movil",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pacificsoft.com.mx/descargas/productos/comandera-movil/",
+        "specs": {
+          "brand": "PACIFIC SOFT",
+          "model": "PSF040",
+          "providerSku": "KITPSF040",
+          "productType": "Complemento software de comandera movil",
+          "vertical": "Restaurantes",
+          "platform": "Android",
+          "featuresObserved": ["levantar ordenes desde mesas", "complemento POS restaurantes", "comunicacion con cocina por monitor o ticket"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 1650.8, "currency": "MXN", "branch": "D2A/DFA/CTZ" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Pacific Soft Comandera Movil official downloads", "type": "manufacturer", "url": "https://pacificsoft.com.mx/descargas/productos/comandera-movil/" },
+          { "title": "CompuPuebla Pacific Soft PSF040 details", "type": "reseller_spec", "url": "https://compupuebla.com/producto/comandera-movil-pacific-soft-psf040/" },
+          { "title": "CTOnline feed KITPSF040 stock 6 D2A/DFA/CTZ", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "p8amw1u1bo7g2sy",
+      "research": {
+        "confidence": 0.95,
+        "name": "Kensington VeriMark IT K64704WW llave huella USB-A FIDO2",
+        "description": "Llave biometrica USB-A Kensington VeriMark IT para autenticacion empresarial con huella digital, Windows Hello, Windows Hello for Business y estandares FIDO/WebAuthn.",
+        "manualCategoryPath": "computo/accesorios/seguridad-biometrica",
+        "semanticCategoryPath": "computo/accesorios/seguridad-biometrica/fido2-usb-a",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/featured-products/verimark-it-fingerprint-key-fido2-webauth-windows-hello-and-windows-hello-for-business-K64704WW-2/",
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K64704WW",
+          "commercialName": "VeriMark IT Fingerprint Key",
+          "providerSku": "ACCKNS2040",
+          "upc": "085896647041",
+          "productType": "Llave USB de huella digital",
+          "interface": "USB-A",
+          "authenticationStandards": ["Windows Hello", "Windows Hello for Business", "FIDO2", "WebAuthn", "FIDO U2F"],
+          "security": ["Match-in-Sensor", "seguridad cifrada de extremo a extremo en ficha de producto"],
+          "operatingSystems": ["Windows"],
+          "warranty": "2 anos limitada",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 1000, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "30.5 x 15.8 x 9.7 mm" },
+        "sourceRefs": [
+          { "title": "Kensington VeriMark IT K64704WW product page", "type": "manufacturer", "url": "https://www.kensington.com/p/products/featured-products/verimark-it-fingerprint-key-fido2-webauth-windows-hello-and-windows-hello-for-business-K64704WW-2/" },
+          { "title": "Kensington support K64704WW specifications", "type": "manufacturer_support", "url": "https://customer.kensington.com/us/us/s/K64704WW/verimark__it_fingerprint_key___windows_hello____windows_hello_for_business_" },
+          { "title": "CTOnline feed ACCKNS2040 stock 6 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "rfgekjl5u6zidpw",
+      "research": {
+        "confidence": 0.93,
+        "name": "Huawei Band 10 Aluminum Blue 55020EKW smartwatch",
+        "description": "Banda inteligente Huawei Band 10 color azul con caja de aleacion de aluminio, pantalla AMOLED de 1.47 pulgadas, monitoreo de salud, Bluetooth 5.0 y resistencia 5 ATM.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/fitness-bands",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/jp/wearables/band10/specs/",
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "55020EKW",
+          "commercialName": "Band 10 Aluminum Blue",
+          "providerSku": "ACCHUW1500",
+          "productType": "Banda inteligente",
+          "caseMaterial": "Aleacion de aluminio",
+          "color": "Blue",
+          "display": "1.47 in AMOLED 194 x 368, 282 PPI",
+          "waterResistance": "5 ATM",
+          "bluetooth": "5.0",
+          "sensors": ["IMU 9 ejes", "sensor optico de frecuencia cardiaca", "sensor de luz ambiental"],
+          "mobileOsSupport": ["Android 9.0+", "iOS 13.0+"],
+          "wristSize": "130-210 mm para color azul",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MID", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 6, "price": 692.71, "currency": "MXN", "branch": "MID" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43.45 x 24.86 x 8.99 mm", "weightWithoutStrap": "15 g" },
+        "sourceRefs": [
+          { "title": "Huawei Band 10 official specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/jp/wearables/band10/specs/" },
+          { "title": "Huawei Band 10 official Taiwan color/material specs", "type": "manufacturer", "url": "https://consumer.huawei.com/tw/wearables/band10/specs/" },
+          { "title": "CTOnline feed ACCHUW1500 stock 6 MID", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2jgic1etkxx11w6",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice Arcade PC-085164 mochila escolar azul/gris",
+        "description": "Mochila escolar Perfect Choice Arcade PC-085164 para ninos, ergonomica, de poliester, con compartimentos multiples, bolsillo delantero y correas ajustables.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochilas-escolares",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mochila-escolar-para-ninos-ergonomica-perfect-choice-arcade",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085164",
+          "commercialName": "Arcade",
+          "providerSku": "MALGEN5150",
+          "upc": "615604085164",
+          "productType": "Mochila escolar",
+          "color": "Azul/gris en ficha de proveedor; multicolor en ficha de canal",
+          "material": "100% poliester",
+          "recommendedGender": "Nino",
+          "features": ["diseno ergonomico", "multiples compartimentos", "bolsa delantera", "bolsillos con cremallera", "correas ajustables", "asa de transporte"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 574.04, "currency": "MXN", "branch": "AGS/TXA/CUN/DFA/DFT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "420 x 300 x 140 mm", "weight": "600 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Arcade PC-085164 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mochila-escolar-para-ninos-ergonomica-perfect-choice-arcade" },
+          { "title": "PCStore PC-085164 dimensions and images", "type": "image_reference", "url": "https://pcstore.mx/mochilas-y-maletines-perfect-choice-pc-085164-escolar-para-ninos-ergonomica-modelo-arcade" },
+          { "title": "CTOnline feed MALGEN5150 stock 5 AGS/TXA/CUN/DFA/DFT", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "559vrubv6dno5bb",
+      "research": {
+        "confidence": 0.87,
+        "name": "Pacific Soft KITPSF070 punto de venta para farmacias",
+        "description": "Licencia/paquete Pacific Soft KITPSF070 de punto de venta para farmacias, orientado a administracion, control de antibioticos y promociones de farmacia.",
+        "manualCategoryPath": "punto-de-venta/software-pos",
+        "semanticCategoryPath": "punto-de-venta/software-pos/farmacias",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pacificsoft.com.mx/",
+        "specs": {
+          "brand": "PACIFIC SOFT",
+          "model": "KITPSF070",
+          "providerSku": "KITPSF070",
+          "productType": "Software punto de venta para farmacias",
+          "vertical": "Farmacias",
+          "licenseType": "Certificado/licencia POS de canal mayorista",
+          "featuresObserved": ["gestion administrativa", "control de antibioticos", "promociones Circulo de la Salud Oro", "suite integrada"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 2480.34, "currency": "MXN", "branch": "D2A/DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Pacific Soft official product ecosystem", "type": "manufacturer", "url": "https://pacificsoft.com.mx/" },
+          { "title": "Intercompras Pacific Soft KITPSF070 farmacia details", "type": "reseller_spec", "url": "https://intercompras.com/p/punto-venta-pacific-soft-farmacias-kitpsf070-gestion-administrativa-319259" },
+          { "title": "CTOnline feed KITPSF070 stock 5 D2A/DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "75cczb40ikahywn",
+      "research": {
+        "confidence": 0.92,
+        "name": "Orvibo SM11 sensor inteligente puerta/ventana Zigbee",
+        "description": "Sensor inteligente Orvibo SM11/SM10ZW para puerta o ventana, con comunicacion Zigbee, bateria tipo boton y alertas de apertura para sistemas HomeMate/Orvibo.",
+        "manualCategoryPath": "domotica/sensores",
+        "semanticCategoryPath": "domotica/sensores/puerta-ventana-zigbee",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.orvibo.com/en/product/34.html",
+        "specs": {
+          "brand": "ORVIBO",
+          "model": "SM11",
+          "manufacturerModel": "SM10ZW-1VO",
+          "providerSku": "ACCORB120",
+          "ean": "6928986701572",
+          "upc": "190279000228",
+          "productType": "Sensor de puerta/ventana",
+          "wirelessProtocol": "Zigbee HA / IEEE 802.15.4",
+          "frequency": "2.4 GHz",
+          "power": "CR2032/CR2302 button battery segun canal",
+          "material": "PC + ABS",
+          "color": "Blanco",
+          "operatingEnvironment": "-10 a 50 C, 10-90% RH",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 25.88, "currency": "USD", "branch": "DGO/MOR/XLP/CUN/IRA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "transmitterDimensions": "61.5 x 30.3 x 11.7 mm", "magnetDimensions": "44.8 x 10.9 x 7.9 mm" },
+        "sourceRefs": [
+          { "title": "Orvibo Door and Window Sensor official page", "type": "manufacturer", "url": "https://www.orvibo.com/en/product/34.html" },
+          { "title": "CompuPuebla Orvibo SM10ZW-1 SM11 PDF", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/SensordePuertaVentanaOrviboSM10ZW1_SM11_UPC190279000228_EAN6928986701572/SensordePuertaVentanaOrviboSM10ZW1_SM11_UPC190279000228_EAN6928986701572.pdf" },
+          { "title": "CTOnline feed ACCORB120 stock 5 DGO/MOR/XLP/CUN/IRA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8xs5jafg7f2evho",
+      "research": {
+        "confidence": 0.88,
+        "name": "Multimedia Screens MSC-265 pantalla manual 120 pulgadas 16:9",
+        "description": "Pantalla de proyeccion manual Multimedia Screens MSC-265 para colgar, diagonal de 120 pulgadas, formato 16:9 y acabado blanco mate para presentaciones y video.",
+        "manualCategoryPath": "video/accesorios-proyeccion",
+        "semanticCategoryPath": "video/accesorios-proyeccion/pantallas-manuales",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "MULTIMEDIA SCREENS",
+          "model": "MSC-265",
+          "providerSku": "PANSCR480",
+          "productType": "Pantalla de proyeccion manual",
+          "diagonal": "120 in",
+          "aspectRatio": "16:9",
+          "surface": "Blanco mate",
+          "mounting": "Colgar en pared o techo",
+          "operation": "Manual",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 76.47, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "viewAreaReference": "265 x 149 cm para pantallas 120 in 16:9" },
+        "sourceRefs": [
+          { "title": "Cityshop Multimedia Screens MSC-265 images/spec", "type": "image_reference", "url": "https://cityshop.mx/producto/pantalla-de-proyeccion-manual-multimedia-screens-msc-265-colgar-120-formato-169-color-blanco-mate" },
+          { "title": "Intercompras Multimedia Screens MSC-265 listing", "type": "reseller_spec", "url": "https://intercompras.com/c/pantallas-proyeccion-710" },
+          { "title": "CTOnline feed PANSCR480 stock 5 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "dfe8v8wnrv0ygcc",
+      "research": {
+        "confidence": 0.94,
+        "name": "Poly EncorePro 510 783Q1AA audifono monoaural QD",
+        "description": "Audifono monoaural Poly/Plantronics EncorePro 510 para centros de contacto, con conexion Quick Disconnect, microfono con cancelacion de ruido, SoundGuard y diseno sobre la cabeza.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/contact-center-qd",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.hp.com/in-en/product/product-specs/encorepro-500-series/model/2101719560",
+        "documents": [
+          { "label": "HP Poly EncorePro 510 783Q1AA data sheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08408069" }
+        ],
+        "specs": {
+          "brand": "POLY",
+          "legacyBrand": "PLANTRONICS",
+          "model": "EncorePro 510",
+          "commercialModel": "HW510",
+          "productNumber": "783Q1AA",
+          "providerSku": "ACCPTS2390",
+          "upc": "017229144699",
+          "productType": "Audifono monoaural para centro de contacto",
+          "headsetType": "On-ear monoaural sobre la cabeza",
+          "connection": "Quick Disconnect (QD)",
+          "microphone": "Cancelacion de ruido",
+          "features": ["SoundGuard", "Dynamic EQ", "diadema ajustable", "boom flexible", "QD probado para uso intensivo"],
+          "useCases": ["call center", "help desk", "customer service"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 974.74, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "weight": "52 g aproximado en ficha de canal" },
+        "sourceRefs": [
+          { "title": "HP Support EncorePro 510 specifications", "type": "manufacturer_support", "url": "https://support.hp.com/in-en/product/product-specs/encorepro-500-series/model/2101719560" },
+          { "title": "HP Poly EncorePro 510 783Q1AA datasheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08408069" },
+          { "title": "CTOnline feed ACCPTS2390 stock 5 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
