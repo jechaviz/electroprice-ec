@@ -1,0 +1,373 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b009-2026-05-27",
+  "cycle": 1,
+  "batch": 9,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5pn9e5zl1vn86s7",
+      "research": {
+        "confidence": 0.93,
+        "name": "Vortred Aura V-930280 bocinas gamer Bluetooth RGB 2.0",
+        "description": "Par de bocinas gamer Vortred Aura con audio 2.0, Bluetooth 5.3, entrada 3.5 mm, conexion USB para energia/iluminacion RGB y potencia estimada RMS de 10 W.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/bocinas-gamer-rgb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "VORTRED",
+          "model": "V-930280",
+          "line": "Aura",
+          "providerSku": "BOCMST4110",
+          "upc": "0615604930280",
+          "productType": "Bocinas gamer 2.0",
+          "speakerCount": 2,
+          "outputPowerRms": "10 W",
+          "pmpo": "900 W",
+          "frequencyResponse": "65 Hz - 16 kHz",
+          "connectivity": ["Bluetooth 5.3", "3.5 mm", "USB"],
+          "dcInput": "5 V / 1 A",
+          "lighting": "RGB",
+          "color": "Negro",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "perSpeakerDimensions": "280 x 45 x 60 mm", "setWeight": "1.2 kg" },
+        "sourceRefs": [
+          { "title": "MCAShop Vortred V-930280 specifications", "type": "reseller_spec", "url": "https://mcashop.mx/producto/596848/vortred-v-930280-altavoz-negro-inalambrico-10-w" },
+          { "title": "GlobalOffice V-930280 regional listing", "type": "reseller_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/audio-y-sonido/bocinas-vortred-v-930280-perfect-choice-bocinas-ga/v-930280" },
+          { "title": "CTOnline feed BOCMST4110 stock 36", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "39qv9pieq6ipy2k",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA High Endurance microSDXC 64GB UHS-I U3 V30 A2",
+        "description": "Memoria ADATA High Endurance microSDXC de 64 GB con adaptador SD, clase UHS-I U3/V30/A2, disenada para grabacion continua en camaras, dashcams y sistemas de vigilancia.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd-high-endurance",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/br/consumer/category/portable-storage/614/",
+        "documents": [{ "label": "ADATA High Endurance microSD datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_adata_high_endurance_microsd_20210901.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "High Endurance",
+          "manufacturerSku": "AUSDX64GUI3V30SHA2-RA1",
+          "providerSku": "MEMDAT7020",
+          "productType": "microSDXC High Endurance",
+          "capacity": "64 GB",
+          "standard": "SD 6.0",
+          "speedClass": ["UHS-I U3", "Class 10", "V30", "A2"],
+          "readWritePerformance": "Hasta 100/80 MB/s en 32GB/64GB",
+          "durability": ["waterproof", "shockproof", "anti-static", "X-ray proof", "-25 C a 85 C"],
+          "ean": "4710273772141",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "15 x 11 x 1 mm", "weight": "0.25 g" },
+        "sourceRefs": [
+          { "title": "ADATA High Endurance microSD datasheet", "type": "manufacturer_datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_adata_high_endurance_microsd_20210901.pdf" },
+          { "title": "GlobalOffice MEMDAT7020 64GB mapping", "type": "reseller_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/almacenamiento-portatil/memorias-flash-adata-high-endurance-micro-secure-d/ausdx64gui3v30sha2-ra1" },
+          { "title": "CTOnline feed MEMDAT7020 stock 36", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "3v7h2e7j9y4tqu4",
+      "research": {
+        "confidence": 0.95,
+        "name": "Targus DEFCON SCL PA410S-1 candado serializado de combinacion",
+        "description": "Candado de seguridad Targus DEFCON SCL serializado con combinacion fija de 4 digitos, cable de acero galvanizado recubierto de vinilo y ancla de seguridad para laptop.",
+        "manualCategoryPath": "accesorios/seguridad-fisica",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-laptop-combinacion",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.targus.bg/product_detailsb526.html?sku=PA410S-1",
+        "documents": [{ "label": "Targus PA410S-1 specification sheet", "type": "datasheet", "url": "https://www.targus.com/pdfviewer/temp/PA410S-1_7.pdf" }],
+        "specs": {
+          "brand": "TARGUS",
+          "model": "PA410S-1",
+          "providerSku": "ACCTRG3410",
+          "productType": "Candado de seguridad para laptop",
+          "lockType": "Combinacion preestablecida de 4 digitos",
+          "cableMaterial": "Acero galvanizado recubierto en vinilo",
+          "included": ["security base plate anchor", "spacing washers"],
+          "warranty": "1 ano limitada",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "cableLength": "6.5 ft / 1.98 m", "cableDiameter": "0.16 in / 4 mm", "weight": "6.2 oz / 176 g" },
+        "sourceRefs": [
+          { "title": "Targus PA410S-1 specification PDF", "type": "manufacturer_datasheet", "url": "https://www.targus.com/pdfviewer/temp/PA410S-1_7.pdf" },
+          { "title": "B&H Targus PA410S-1 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/615131-REG/targus_pa410s_1_defcon_scl_serialized_cable.html/specs" },
+          { "title": "CTOnline feed ACCTRG3410 stock 34", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "xmxonqv4u38kmye",
+      "research": {
+        "confidence": 0.86,
+        "name": "Yobekan GP-200 termometro infrarrojo sin contacto",
+        "description": "Termometro infrarrojo digital Yobekan GP-200 para medicion sin contacto de temperatura corporal u objetos, con pantalla LCD, alarma de fiebre y apagado automatico.",
+        "manualCategoryPath": "salud/equipo-medico/monitoreo",
+        "semanticCategoryPath": "salud/equipo-medico/monitoreo/termometros-infrarrojos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "YOBEKAN",
+          "model": "GP-200",
+          "providerSku": "TERYOB010",
+          "productType": "Termometro infrarrojo sin contacto",
+          "measurementUnits": ["Celsius", "Fahrenheit"],
+          "bodyMeasurementRange": "32 C - 42.9 C segun retailer",
+          "objectMeasurementRange": "0 C - 60 C segun retailer",
+          "generalTemperatureRange": "0 C - 50 C en ficha Cyberpuerta",
+          "accuracy": "+/- 0.2 C",
+          "highTemperatureAlarm": "38 C",
+          "autoOff": "20 segundos",
+          "batteryNote": "Baterias no incluidas; fuentes regionales discrepan entre AA y 2xAAA",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "weight": "150 g en ficha Expercom" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Yobekan GP-200", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Hogar/Cuidado-Personal/Termometros/Yobekan-Termometro-GP-200-0-50-C.html" },
+          { "title": "Compustar Yobekan GP-200 stock and description", "type": "reseller_stock", "url": "https://www.compustar.mx/producto/termometro-infrarrojo-modelo-gp-200-marca-yobekan-permite-detectar-temperatura-humana-por-via-infrarrojo-funciona-con-baterias-aa-no-incluidas/" },
+          { "title": "Expercom Yobekan GP-200 technical listing", "type": "reseller_spec", "url": "https://www.expercom.mx/producto/termometro-infrarojo-yobekan-gp-200" },
+          { "title": "CTOnline feed TERYOB010 stock 34", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "fx3mx811o9dwc8g",
+      "research": {
+        "confidence": 0.94,
+        "name": "Dell PowerEdge R760xs servidor rack 2U",
+        "description": "Servidor rack Dell PowerEdge R760xs 2U de doble socket, orientado a virtualizacion, VDI y almacenamiento definido por software, con plataforma Intel Xeon Scalable, DDR5 e iDRAC9.",
+        "manualCategoryPath": "computo/servidores/rack",
+        "semanticCategoryPath": "computo/servidores/rack/dell-poweredge-2u",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.delltechnologies.com/asset/en-gb/products/servers/technical-support/poweredge-r760xs-spec-sheet.pdf",
+        "documents": [
+          { "label": "Dell PowerEdge R760xs specification sheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-gb/products/servers/technical-support/poweredge-r760xs-spec-sheet.pdf" },
+          { "label": "Dell PowerEdge R760xs technical specifications", "type": "manufacturer_support", "url": "https://www.dell.com/support/manuals/en-us/poweredge-r760xs/r760xs_ism_pub/technical-specifications" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "PowerEdge R760xs",
+          "providerSku": "SERDDL180",
+          "productType": "Servidor rack 2U",
+          "processorSupport": "Hasta 2 Intel Xeon Scalable 5th Gen 28 cores o 4th Gen 32 cores por procesador",
+          "memory": "16 slots DDR5 RDIMM, hasta 1.5 TB, hasta 5200 MT/s",
+          "storageControllers": ["PERC H965i", "PERC H755", "PERC H755N", "PERC H355", "HBA355i", "HBA465i", "BOSS-N1"],
+          "driveBays": ["hasta 12 x 3.5 in", "hasta 16 x 2.5 in", "hasta 8 x NVMe", "hot swap"],
+          "management": ["iDRAC9", "iDRAC Direct", "Redfish", "OpenManage"],
+          "powerSupplyOptions": ["600 W", "700 W", "800 W", "1100 W", "1400 W", "1800 W segun configuracion"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "formFactor": "2U rack", "dimensionsWithoutBezel": "86.8 x 482 x 707.78 mm", "dimensionsWithBezelDepth": "721.62 mm", "maxWeight": "28.6 kg" },
+        "sourceRefs": [
+          { "title": "Dell PowerEdge R760xs specification sheet", "type": "manufacturer_datasheet", "url": "https://www.delltechnologies.com/asset/en-gb/products/servers/technical-support/poweredge-r760xs-spec-sheet.pdf" },
+          { "title": "Dell support R760xs technical specifications", "type": "manufacturer_support", "url": "https://www.dell.com/support/manuals/en-us/poweredge-r760xs/r760xs_ism_pub/technical-specifications" },
+          { "title": "CTOnline feed SERDDL180 stock 32", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "tqqdfy9qsz7m6be",
+      "research": {
+        "confidence": 0.9,
+        "name": "Stylos M3 STSCM03A scooter electrico azul 350W",
+        "description": "Scooter electrico plegable Stylos M3 STSCM03A en color azul, motor brushless de 350 W, llantas de 8.5 pulgadas, suspension trasera, freno de tambor delantero/trasero y luces LED.",
+        "manualCategoryPath": "movilidad/scooters-electricos",
+        "semanticCategoryPath": "movilidad/scooters-electricos/scooters-plegables-350w",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Stylos M3 STSCM03A/STSCM03O ficha tecnica", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/689/21f/ddc/FICHA_TECNICA_STSCM03A_STSCM03O-1.pdf" }],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STSCM03A",
+          "commercialModel": "M3 / M3 G1",
+          "providerSku": "ACCSTY550",
+          "ean": "07503053078413",
+          "productType": "Scooter electrico plegable",
+          "motor": "350 W brushless",
+          "battery": "36 V 6 Ah litio en tabla SKU; ficha general muestra 36 V 7.8 Ah",
+          "maxSpeed": "25 km/h en tabla SKU; ficha general y retailers muestran hasta 30 km/h",
+          "range": "Hasta 25 km en tabla SKU; ficha general muestra hasta 30 km",
+          "tires": "8.5 pulgadas",
+          "suspension": "Trasera",
+          "brakes": "Tambor delantero y trasero",
+          "lights": ["delantera", "trasera", "freno"],
+          "maxLoad": "120 kg",
+          "frameMaterial": "Aleacion de aluminio",
+          "gripMaterial": "TPR antideslizante",
+          "startSystem": "Non-zero Start",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "foldedSize": "110 x 16.5 x 47 cm", "unfoldedSize": "110 x 59 x 120 cm", "packageSize": "111 x 17.5 x 49 cm", "approxWeight": "~15 kg" },
+        "sourceRefs": [
+          { "title": "Stylos M3 STSCM03A/STSCM03O ficha tecnica", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/689/21f/ddc/FICHA_TECNICA_STSCM03A_STSCM03O-1.pdf" },
+          { "title": "Coppel Stylos STSCM03A 350W listing", "type": "reseller_spec", "url": "https://www.coppel.com/pdp/scooter-electrico-stylos-stscm03a-azul-350w-mkp-747429152" },
+          { "title": "GlobalOffice ACCSTY550 stock listing", "type": "reseller_stock", "url": "https://globaloffice.mx/index.php/app/detalle/producto/null/scooter-stylos-m3hasta-30km-x-hora-350wmax-120/stscm03a" },
+          { "title": "CTOnline feed ACCSTY550 stock 30", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7sqxx37pb23jnv4",
+      "research": {
+        "confidence": 0.94,
+        "name": "Smartbitt SNMP tarjeta de administracion de red para UPS",
+        "description": "Tarjeta Smartbitt SNMP para administracion remota de UPS/SAI por red RJ45, compatible con SNMPv3, ViewPower, MIB RFC1213/RFC1628, notificaciones y registro historico.",
+        "manualCategoryPath": "energia/accesorios-ups/tarjetas-snmp",
+        "semanticCategoryPath": "energia/accesorios-ups/tarjetas-snmp/smartbitt-viewpower",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://storageacctecomptt.blob.core.windows.net/containerblobecomptt/files/SNMP/datasheet/ficha-tecnica-smartbitt-snmp-tarjeta-administracion-red.pdf",
+        "documents": [
+          { "label": "Smartbitt SNMP ficha tecnica", "type": "datasheet", "url": "https://storageacctecomptt.blob.core.windows.net/containerblobecomptt/files/SNMP/datasheet/ficha-tecnica-smartbitt-snmp-tarjeta-administracion-red.pdf" },
+          { "label": "Smartbitt ViewPower manual", "type": "manual", "url": "https://smartbitt.com/assets/software/Manual-ViewPower.pdf" }
+        ],
+        "specs": {
+          "brand": "SMARTBITT",
+          "model": "SNMP",
+          "providerSku": "TARBIT010",
+          "productType": "Tarjeta SNMP para UPS",
+          "protocol": "SNMPv3",
+          "upsSlotType": "Dedo de oro",
+          "network": "RJ45 10/100 Base-T",
+          "supportedMibs": ["RFC1213", "RFC1628"],
+          "software": "ViewPower",
+          "operatingSystems": ["Windows", "Linux", "Mac", "Solaris"],
+          "features": ["monitoreo de multiples SAI", "graficas dinamicas", "alertas por correo/movil/SNMP traps", "registro historico", "actualizacion de firmware"],
+          "powerInput": "12 V",
+          "powerConsumptionNote": "Ficha publica muestra consumo maximo como 2 V; requiere confirmacion de unidad",
+          "environmentalSensorSupport": "temperatura, humedad y humo opcional",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "23 x 47 x 15 mm", "netWeight": "34.7 g", "operatingTemperature": "0 C - 40 C", "operatingHumidity": "0% - 95%" },
+        "sourceRefs": [
+          { "title": "Smartbitt SNMP tarjeta administracion red datasheet", "type": "manufacturer_datasheet", "url": "https://storageacctecomptt.blob.core.windows.net/containerblobecomptt/files/SNMP/datasheet/ficha-tecnica-smartbitt-snmp-tarjeta-administracion-red.pdf" },
+          { "title": "Smartbitt ViewPower manual", "type": "manufacturer_manual", "url": "https://smartbitt.com/assets/software/Manual-ViewPower.pdf" },
+          { "title": "CTOnline feed TARBIT010 stock 27", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2z2pwdwvebe6n8d",
+      "research": {
+        "confidence": 0.96,
+        "name": "Hisense HS2100 barra de sonido 2.1 240W con subwoofer inalambrico",
+        "description": "Barra de sonido Hisense HS2100 de 2.1 canales con subwoofer inalambrico de 5.25 pulgadas, 240 W maximos, Dolby Digital, DTS Virtual:X, Bluetooth 5.3, HDMI ARC/eARC, USB, AUX y entrada optica.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/2-1-subwoofer-inalambrico",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://hisense.com.mx/hs2100",
+        "documents": [{ "label": "Hisense HS2100 product specifications", "type": "datasheet", "url": "https://hisense.com.au/wp-content/uploads/2023/07/HS2100-Product-Specifications.pdf" }],
+        "specs": {
+          "brand": "Hisense",
+          "model": "HS2100",
+          "providerSku": "AUDHSE050",
+          "upc": "888143016740",
+          "productType": "Barra de sonido con subwoofer",
+          "channels": "2.1",
+          "maxOutputPower": "240 W",
+          "speakers": ["2 full range en barra", "subwoofer 5.25 in"],
+          "frequencyResponse": "45 Hz - 20 kHz",
+          "audioDecoders": ["Dolby Digital Plus", "Dolby Digital", "DTS Virtual:X", "PCM"],
+          "soundModes": ["Movie", "Music", "News", "Night", "Sport", "Game"],
+          "connectivity": ["Bluetooth 5.3", "HDMI ARC/eARC CEC", "USB", "AUX 3.5 mm", "Optical"],
+          "powerSupply": "AC 100-240 V, 50/60 Hz",
+          "powerConsumption": "25 W",
+          "standbyConsumption": "<0.5 W",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "soundbarDimensions": "800 x 60 x 90 mm", "soundbarWeight": "1.5 kg", "subwooferDimensions": "110 x 300 x 350 mm", "subwooferWeight": "3.4 kg", "packageDimensions": "890 x 155 x 445 mm", "packageWeight": "6.5 kg" },
+        "sourceRefs": [
+          { "title": "Hisense Mexico HS2100", "type": "manufacturer", "url": "https://hisense.com.mx/hs2100" },
+          { "title": "Hisense USA HS2100 full specs", "type": "manufacturer", "url": "https://shop.hisense-usa.com/products/hs2100" },
+          { "title": "Hisense HS2100 PDF specifications", "type": "manufacturer_datasheet", "url": "https://hisense.com.au/wp-content/uploads/2023/07/HS2100-Product-Specifications.pdf" },
+          { "title": "CTOnline feed AUDHSE050 stock 27", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "lpf26wut7d2rmlo",
+      "research": {
+        "confidence": 0.93,
+        "name": "Perfect Choice EL-994312 funda reversible neopreno laptop 14 negro/verde",
+        "description": "Funda reversible Perfect Choice EL-994312 de neopreno para laptop o ultrabook de hasta 14 pulgadas, color negro/verde segun ficha Cyberpuerta y compatible universal.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/fundas-neopreno-14",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/S/CP-PERFECTCHOICE-EL-994312-1.jpg"],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "EL-994312",
+          "providerSku": "MALGEN3180",
+          "upc": "615604994312",
+          "productType": "Funda reversible para laptop",
+          "screenCompatibility": "Hasta 14 in / 35.6 cm",
+          "material": "Neopreno / policloropreno",
+          "color": "Negro/Verde; algunas fichas regionales describen Negro/Azul",
+          "surfaceColoration": "Monotono",
+          "expandable": false,
+          "quantity": "1 pieza",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "39 x 2 x 26 cm", "weight": "0.17 kg" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Perfect Choice EL-994312 specifications", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Computadoras/Tablets/Fundas-y-Skins/Perfect-Choice-Funda-Reversible-de-Neopreno-para-Laptop-14-Negro-Verde.html" },
+          { "title": "GlobalOffice EL-994312 MALGEN3180 listing", "type": "reseller_stock", "url": "https://www.globaloffice.com.mx/app/detalle/producto/perfect-choice/el-994312/el-994312" },
+          { "title": "PCStore EL-994312 ficha tecnica", "type": "reseller_spec", "url": "https://pcstore.mx/funda-reversible-perfect-choice-el-994312-negro-y-azul-universal" },
+          { "title": "CTOnline feed MALGEN3180 stock 27", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "39nu8ys83va74dh",
+      "research": {
+        "confidence": 0.96,
+        "name": "Logitech Zone 300 audifonos Bluetooth con microfonos beamforming",
+        "description": "Headset Bluetooth Logitech Zone 300 para oficina y llamadas, con microfonos dual beamforming, algoritmos de cancelacion de ruido, drivers de 30 mm, bateria de hasta 16 h en llamada y 20 h de escucha.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/headsets-bluetooth-oficina",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.logi.com/hc/en-us/articles/17139248468631-Specification-Zone-300",
+        "documents": [{ "label": "Logitech Zone 300 datasheet", "type": "datasheet", "url": "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/23M8EJ/dae903d-en-datasheet-zone-300-black-981-001407.pdf" }],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "Zone 300",
+          "providerSku": "BOCLOG2150",
+          "manufacturerPartBlack": "981-001407",
+          "productType": "Headset Bluetooth",
+          "microphone": "Dual beamforming con algoritmos de cancelacion de ruido",
+          "microphoneFrequencyResponse": "100 Hz - 7 kHz",
+          "speakerFrequencyMusic": "50 Hz - 20 kHz",
+          "speakerFrequencyTalk": "100 Hz - 7 kHz",
+          "speakerSensitivity": "96 dB +/-3 dB @1 kHz",
+          "driverSize": "30 mm",
+          "bluetoothVersion": "5.3",
+          "wirelessRange": "Hasta 30 m",
+          "batteryLife": "Hasta 16 h conversacion / 20 h escucha",
+          "chargeTime": "2 h carga completa; 5 min para hasta 1 h conversacion",
+          "software": "Logi Tune",
+          "usbCable": "USB-C a USB-C 1 m",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "headsetDimensions": "172.84 x 166.71 x 66 mm", "headsetWeight": "122 g", "earpadDimensions": "66 x 66 x 16 mm", "packageDimensions": "17.4 x 7.2 x 18.4 cm", "packageWeight": "253 g" },
+        "sourceRefs": [
+          { "title": "Logitech Support Zone 300 specifications", "type": "manufacturer_support", "url": "https://support.logi.com/hc/en-us/articles/17139248468631-Specification-Zone-300" },
+          { "title": "Logitech Zone 300 datasheet black 981-001407", "type": "datasheet", "url": "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/23M8EJ/dae903d-en-datasheet-zone-300-black-981-001407.pdf" },
+          { "title": "CTOnline feed BOCLOG2150 stock 26", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

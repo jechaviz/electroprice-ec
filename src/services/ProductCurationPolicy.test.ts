@@ -272,6 +272,60 @@ describe("product curation policy", () => {
       brand: "NECNON",
       category: "laptops",
     }).path).toBe("wearables/smartwatches");
+
+    expect(classifyManualCategory({
+      name: "Vortred V-930280 bocinas gamer Bluetooth RGB",
+      brand: "VORTRED",
+      category: "gaming",
+    }).path).toBe("audio/bocinas");
+
+    expect(classifyManualCategory({
+      name: "ADATA High Endurance microSD 64GB MEMDAT7020",
+      brand: "ADATA",
+      category: "laptops",
+    }).path).toBe("computo/almacenamiento/memorias-flash");
+
+    expect(classifyManualCategory({
+      name: "Targus PA410S-1 DEFCON SCL serialized cable lock",
+      brand: "TARGUS",
+      category: "laptops",
+    }).path).toBe("accesorios/seguridad-fisica");
+
+    expect(classifyManualCategory({
+      name: "Dell PowerEdge R760xs servidor rack",
+      brand: "DELL",
+      category: "laptops",
+    }).path).toBe("computo/servidores/rack");
+
+    expect(classifyManualCategory({
+      name: "Stylos STSCM03A scooter electrico M3",
+      brand: "STYLOS",
+      category: "gaming",
+    }).path).toBe("movilidad/scooters-electricos");
+
+    expect(classifyManualCategory({
+      name: "Smartbitt SNMP Administrador tarjeta de red UPS",
+      brand: "SMARTBITT",
+      category: "laptops",
+    }).path).toBe("energia/accesorios-ups/tarjetas-snmp");
+
+    expect(classifyManualCategory({
+      name: "Hisense HS2100 barra de sonido con subwoofer",
+      brand: "Hisense",
+      category: "laptops",
+    }).path).toBe("audio/barras-sonido");
+
+    expect(classifyManualCategory({
+      name: "Perfect Choice EL-994312 funda laptop 14 reversible",
+      brand: "PERFECT CHOICE",
+      category: "laptops",
+    }).path).toBe("computo/accesorios/mochilas-fundas");
+
+    expect(classifyManualCategory({
+      name: "Logitech Zone 300 headset Bluetooth",
+      brand: "LOGITECH",
+      category: "laptops",
+    }).path).toBe("audio/audifonos");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {
