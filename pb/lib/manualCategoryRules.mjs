@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_RULES = [
+  ['redes/radioenlaces-antenas/puentes-wifi-exterior', /\b(eap211[\s-]?bridge kit|eap211[\s-]?bridge|kittpl660|nic[\s-]?5049|omada.*bridge|5ghz.*867.*bridge|1 ?km.*bridge|puente.*inalambrico.*exterior)\b/],
+  ['computo/laptops/16-pulgadas', /\b(53014mud|comhua540|6942103175084|matebook d16|i5[\s-]?13420h.*16gb.*512gb|16 pulgadas.*matebook)\b/],
+  ['computo/componentes/gabinetes/atx-mid-tower', /\b(ca[\s-]?1v2[\s-]?00m6wn[\s-]?00|gabtmk2330|4713227528597|841163078600|core p6.*tg.*snow|open frame|showcase.*thermaltake)\b/],
+  ['computo/perifericos/teclados/inalambricos/mecanicos-gaming', /\b(gk979[1i]|tecblr200|7506215940399|dominate expert|outemu red|teclado gamer.*inalambrico|conecta hasta 5 dispositivos|legend series.*rgb)\b/],
+  ['energia/no-breaks-ups/line-interactive/1000va', /\b(10017 usb\/?r|nbkkbz310|fr[\s-]?942|koblenz.*1000va.*500w|1000va.*500w.*8 cont|linea pro.*usb.*rj11)\b/],
+  ['computo/perifericos/mouse/alambricos/basicos', /\b(tzacmoa01|ms[\s-]?1612|mouse.*techzone.*1200|1200 dpi.*1\.5 ?m.*negro|mouse alambrico.*tech zone)\b/],
+  ['seguridad/cctv/camaras-analogicas/bullet-hd', /\b(uac[\s-]?b112[\s-]?f28[\s-]?w|camuni120|uniarch.*b112|camara bala.*uniarch.*2mp|analog hd.*bullet|colourhunter.*analog)\b/],
+  ['oficina/mobiliario-accesorios/sillas-oficina/operativas-sin-brazos', /\b(ne[\s-]?650bg|silnex100|7501811276064|silla.*nextep.*altura ajustable|silla basica.*gris|sin brazos.*120 ?kg|soporta.*120 ?kg)\b/],
+  ['audio/bocinas/portatiles/karaoke-party', /\b(ksp[\s-]?530|bocvgo1980|spk[\s-]?2822|vorago.*ksp.*530|40w rms.*5400mah|flame light.*tws)\b/],
   ['seguridad/cctv/camaras-ip-wifi/pt-exterior', /\b(uho[\s-]?p2a[\s-]?m3f4d|camuni350|outdoor pan.*tilt.*wi[\s-]?fi|pt.*exterior.*3mp|2304.*1296.*auto tracking)\b/],
   ['redes/switches/poe-no-administrables/cctv', /\b(poes[\s-]?0460c[\s+.-]*2i[\s-]?v2|swtpvs340|610840137639|4.*poe.*2.*uplink|cctv mode.*250|modo cctv|60w.*poe.*switch)\b/],
   ['accesorios/cables-adaptadores/video-hdmi/alta-velocidad', /\b(323222|cb[\s-]?489|cabitl1485|766623323222|0766623323222|high speed hdmi.*ethernet|hdmi.*ethernet.*3 ?m|10\.2 ?gbps.*340 ?mhz)\b/],

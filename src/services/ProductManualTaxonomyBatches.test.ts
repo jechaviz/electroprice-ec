@@ -503,6 +503,16 @@ const researchedBatchCases = [
   ["Naceb NA-589R audifonos diadema alambricos 3.5mm rojo con microfono", "NACEB TECHNOLOGY", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono"],
   ["Manhattan 340458 cable USB 2.0 A-B 3m plata 480Mbps", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/3m"],
   ["TP-Link TL-SF1008D switch no administrable Fast Ethernet 8 puertos", "TP LINK", "redes/switches/no-administrables/fast-ethernet"],
+  ["TP-Link EAP211-Bridge Kit Omada puente inalambrico exterior 5GHz 867Mbps 1km", "TP LINK", "redes/radioenlaces-antenas/puentes-wifi-exterior"],
+  ["Huawei MateBook D16 53014MUD laptop 16 pulgadas i5-13420H 16GB 512GB", "HUAWEI", "computo/laptops/16-pulgadas"],
+  ["Thermaltake Core P6 TG Snow CA-1V2-00M6WN-00 gabinete ATX mid tower open frame", "THERMALTAKE", "computo/componentes/gabinetes/atx-mid-tower"],
+  ["Balam Rush GK9791 Dominate Expert teclado gamer mecanico inalambrico RGB", "BALAM RUSH", "computo/perifericos/teclados/inalambricos/mecanicos-gaming"],
+  ["Koblenz 10017 USB/R no break linea pro 1000VA 500W 8 contactos", "KOBLENZ", "energia/no-breaks-ups/line-interactive/1000va"],
+  ["Tech Zone TZACMOA01 mouse alambrico negro 1200 DPI 1.5m", "TECH ZONE ACCESORIOS", "computo/perifericos/mouse/alambricos/basicos"],
+  ["Uniarch UAC-B112-F28-W camara bala analog HD ColourHunter 2MP", "UNIARCH", "seguridad/cctv/camaras-analogicas/bullet-hd"],
+  ["Nextep NE-650BG silla basica gris altura ajustable sin brazos soporta 120 kg", "NEXTEP", "oficina/mobiliario-accesorios/sillas-oficina/operativas-sin-brazos"],
+  ["Vorago KSP-530 bafle karaoke 40W RMS 5400mAh flame light TWS Bluetooth", "VORAGO", "audio/bocinas/portatiles/karaoke-party"],
+  ["Manhattan 421010 mini kit limpiador LCD 60cc pantalla", "MANHATTAN", "computo/accesorios/limpieza/limpiadores-pantalla"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

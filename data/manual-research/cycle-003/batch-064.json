@@ -1,0 +1,495 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b064-2026-05-28",
+  "cycle": 3,
+  "batch": 64,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "10vxsryhc7jd6c2",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Omada EAP211-Bridge KIT puente inalambrico exterior 5GHz AC867 1km, 2 unidades",
+        "description": "Kit TP-Link Omada EAP211-Bridge para enlace inalambrico exterior PtP/PtMP, con dos unidades 5GHz 802.11ac hasta 867Mbps, antenas direccionales MIMO 2x2 de 7dBi, alcance nominal hasta 1km, auto-pairing, LEDs de alineacion, 3 puertos Gigabit, gestion Omada e IP65.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/puentes-wifi-exterior",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/puentes-wifi-exterior/5ghz-ac867-1km",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/business-networking/omada-wifi-outdoor/eap211-bridge-kit/v2/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10470978",
+          "https://static.tp-link.com/upload/image-line/overview_01_large_20241227055941p.jpg",
+          "https://static.tp-link.com/upload/image-line/overview_02_large_20241227055953y.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link EAP211-Bridge KIT datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202508/20250811/Datasheet_EAP211-Bridge%20KIT%20v3%20v3.20.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "EAP211-Bridge KIT",
+          "productType": "Outdoor wireless bridge kit",
+          "wireless": "5GHz 802.11ac up to 867Mbps",
+          "range": "Up to 1km nominal",
+          "antenna": "Internal 2x2 MIMO directional antennas, 7dBi, 70 x 70 degrees",
+          "ports": "3 Gigabit Ethernet ports",
+          "management": "Omada SDN, Omada app, local/cloud Web UI, SNMP v1/v2c/v3, SSH",
+          "protection": "IP65, 6kV lightning protection",
+          "power": "12VDC / 24V passive PoE on v2 MX page; recent v3 datasheet also mentions 802.3af PoE",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "KITTPL660", "stock": 12, "price": 148.75, "currency": "USD", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "NIC-5049", "stock": 0, "price": 141.21, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Stock divergente: CT 12 y CVA 0.",
+            "Pagina oficial MX v2 indica 12VDC / 24V PoE pasivo; datasheets v3 recientes tambien mencionan 802.3af PoE."
+          ]
+        },
+        "measurements": { "unitDimensions": "224 x 79 x 60 mm", "packageWeightRetail": "about 1.48 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link EAP211-Bridge KIT official MX page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/business-networking/omada-wifi-outdoor/eap211-bridge-kit/v2/" },
+          { "title": "TP-Link EAP211-Bridge KIT datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202508/20250811/Datasheet_EAP211-Bridge%20KIT%20v3%20v3.20.pdf" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10wr9y71258fdf7",
+      "research": {
+        "confidence": 0.95,
+        "name": "Huawei MateBook D16 2024 53014MUD laptop 16 pulgadas Intel Core i5-13420H 16GB 512GB sin sistema operativo",
+        "description": "Laptop Huawei MateBook D16 2024 modelo 53014MUD con pantalla IPS 16 pulgadas 16:10 1920x1200, Intel Core i5-13420H, 16GB RAM, SSD NVMe 512GB, Wi-Fi 6, Bluetooth 5.1, bateria 56Wh y chasis metalico gris sin sistema operativo.",
+        "manualCategoryPath": "computo/laptops/16-pulgadas",
+        "semanticCategoryPath": "computo/laptops/16-pulgadas/huawei-matebook-d16-i5-13420h-16gb-512gb-sin-os",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/specs/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/COMHUA540/COMHUA540_full.jpg",
+          "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/pc/matebook-d-16-2024/images/kv/huawei-matebook-d-16-2024-kv.jpg",
+          "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/pc/matebook-d-16-2024/specs/specs.jpg"
+        ],
+        "specs": {
+          "brand": "Huawei",
+          "model": "53014MUD / MateBook D16 2024",
+          "providerSku": "COMHUA540",
+          "ean": "6942103175084",
+          "processor": "Intel Core i5-13420H",
+          "graphics": "Intel UHD Graphics",
+          "memory": "16GB RAM",
+          "storage": "512GB NVMe PCIe SSD",
+          "display": "16 inch IPS, 16:10, 1920 x 1200, 300 nits",
+          "wireless": "Wi-Fi 6 802.11a/b/g/n/ac/ax 2x2 MIMO, Bluetooth 5.1",
+          "ports": "USB-C with charging/DisplayPort, USB 3.2 Gen 1, USB 2.0, HDMI, 3.5mm audio",
+          "battery": "56Wh in i5-13420H variant",
+          "os": "No operating system in provider title",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 175 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMHUA540", "stock": 176, "price": 8713.39, "currency": "MXN", "priceKind": "promo_price", "branch": "PUE:175,PAC:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Proveedor reporta EAN 6942103175084; algunos retailers para 53014MUD muestran 6942103173806.",
+            "Algunos retailers listan 1920 x 1080, pero Huawei oficial para MateBook D16 2024 indica 1920 x 1200."
+          ]
+        },
+        "measurements": { "dimensions": "356.7 x 248.7 x 17 mm", "weight": "about 1.68 kg" },
+        "sourceRefs": [
+          { "title": "Huawei MateBook D16 2024 specs MX", "type": "manufacturer", "url": "https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/specs/" },
+          { "title": "Digitalife Huawei 53014MUD", "type": "retailer", "url": "https://www.digitalife.com.mx/productos/53014mud/laptop-huawei-matebook-d16-16-pulgadas-full-hd-ips-intel-core-i5-13420h-16gb-ram-512gb-ssd-no-incluye-sistemaoperativo-gris" },
+          { "title": "CTOnline feed COMHUA540 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "10x3a4d2cqoeypo",
+      "research": {
+        "confidence": 0.96,
+        "name": "Thermaltake Core P6 TG Snow CA-1V2-00M6WN-00 gabinete ATX mid tower modular vidrio templado blanco",
+        "description": "Gabinete Thermaltake Core P6 Tempered Glass Snow ATX Mid Tower transformable entre cerrado y open-frame, con tres paneles de vidrio templado de 4mm, diseno modular DMD, soporte Mini-ITX/Micro-ATX/ATX/CEB, slots PCI rotables, USB-C frontal y compatibilidad amplia para radiadores.",
+        "manualCategoryPath": "computo/componentes/gabinetes/atx-mid-tower",
+        "semanticCategoryPath": "computo/componentes/gabinetes/atx-mid-tower/modular-open-frame-vidrio-templado",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://thermaltakeusa.com/products/core-p6-tempered-glass-snow-mid-tower-chassis-ca-1v2-00m6wn-00",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GABTMK2330/GABTMK2330_full.jpg",
+          "https://thermaltakeusa.com/cdn/shop/files/CoreP6SnowTGCaseHero.jpg?v=1695151748&width=1946",
+          "https://thermaltakeusa.com/cdn/shop/files/CoreP6SnowTGAIO.jpg?v=1695151748&width=1946"
+        ],
+        "documents": [
+          { "label": "Thermaltake Core P6 TG manual", "type": "manual", "url": "https://file.thermaltake.com/file/qig/CoreP6TG_manual.pdf" }
+        ],
+        "specs": {
+          "brand": "Thermaltake",
+          "model": "CA-1V2-00M6WN-00",
+          "providerSku": "GABTMK2330",
+          "ean": "4713227528597",
+          "upc": "841163078600",
+          "productType": "ATX mid tower transformable chassis",
+          "color": "Snow white",
+          "motherboardSupport": "Mini-ITX, Micro-ATX, ATX, CEB",
+          "panels": "Three 4mm tempered glass panels",
+          "slots": "7 rotatable PCI slots",
+          "driveBays": "4 x 3.5 inch or 8 x 2.5 inch",
+          "psu": "PS2 up to 200mm",
+          "cooling": "Up to thirteen 120mm or eight 140mm fans; 360/280mm radiators front/top/side",
+          "frontIo": "1 x USB-C 3.2 Gen 2, 2 x USB 3.0, 2 x USB 2.0, HD audio",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABTMK2330", "stock": 19, "price": 185.29, "currency": "USD", "branch": "D2A:17,GDL:1,DFA:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Thermaltake USA marca el producto como discontinued, pero proveedor local aun reporta stock 19.",
+            "La pagina oficial usa principalmente el P/N CA-1V2-00M6WN-00; EAN/UPC se confirman por distribucion y retailers."
+          ]
+        },
+        "measurements": { "dimensions": "565 x 255 x 530 mm", "weight": "17.84 kg" },
+        "sourceRefs": [
+          { "title": "Thermaltake Core P6 TG Snow official page", "type": "manufacturer", "url": "https://thermaltakeusa.com/products/core-p6-tempered-glass-snow-mid-tower-chassis-ca-1v2-00m6wn-00" },
+          { "title": "Thermaltake Core P6 TG manual", "type": "manual", "url": "https://file.thermaltake.com/file/qig/CoreP6TG_manual.pdf" },
+          { "title": "CTOnline feed GABTMK2330 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "110v55x5ea2s35g",
+      "research": {
+        "confidence": 0.92,
+        "name": "Balam Rush Dominate Expert GK9791 teclado mecanico inalambrico blanco RGB Outemu Red 105 teclas",
+        "description": "Teclado gamer mecanico Balam Rush Dominate Expert GK9791/GK979I blanco, formato 100% de 105 teclas, switches Outemu Red intercambiables, anti-ghosting, conexion USB-C, 2.4GHz y Bluetooth 5.0 para hasta 5 dispositivos, RGB y bateria recargable de 3000mAh.",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos/mecanicos-gaming",
+        "semanticCategoryPath": "computo/perifericos/teclados/inalambricos/mecanicos-gaming/100-rgb-outemu-red",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://balamrush.com/products/teclado-gamer-mecanico-multidispositivo-dominate-expert-gk979i-2-4-mhz-2-modos-bluetooth-100-estructura-aluminio-premium-perilla-y-botones-multimedia-switch-rojo-intercambiables-rgb-dinamico-recargable-legend-negro-copia",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TECBLR200/TECBLR200_full.jpg",
+          "https://balamrush.com/cdn/shop/files/BR-940399-01.webp?v=1736199731&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-940399-04.webp?v=1736199731&width=1000"
+        ],
+        "specs": {
+          "brand": "Balam Rush",
+          "model": "GK9791 / GK979I",
+          "providerSku": "TECBLR200",
+          "ean": "7506215940399",
+          "productType": "Wireless mechanical gaming keyboard",
+          "layout": "100%, 105 keys, English layout with Spanish print",
+          "switches": "Outemu Red hot-swappable switches",
+          "connectivity": "USB-C to USB-A, 2.4GHz and Bluetooth 5.0",
+          "devices": "Pairs up to 5 devices",
+          "pollingRate": "1000Hz wired/dongle, 125Hz Bluetooth",
+          "lighting": "RGB with 18 modes and 5 speed levels",
+          "battery": "3000mAh, up to 30h with lighting or 300h without lighting",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECBLR200", "stock": 8, "price": 736.66, "currency": "MXN", "priceKind": "promo_price", "branch": "DFA:4,D2A:4" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Fuentes alternan GK979I y GK9791; SKU BR-940399 y EAN 7506215940399 confirman identidad.",
+            "Pagina oficial escribe 2.4 MHz en texto comercial; fichas tecnicas y retailers reportan 2.4GHz."
+          ]
+        },
+        "measurements": { "dimensions": "44.3 x 20.4 x 3.3 cm", "weight": "950 g", "packageDimensions": "48.5 x 25 x 5.3 cm" },
+        "sourceRefs": [
+          { "title": "Balam Rush Dominate Expert official page", "type": "manufacturer", "url": "https://balamrush.com/products/teclado-gamer-mecanico-multidispositivo-dominate-expert-gk979i-2-4-mhz-2-modos-bluetooth-100-estructura-aluminio-premium-perilla-y-botones-multimedia-switch-rojo-intercambiables-rgb-dinamico-recargable-legend-negro-copia" },
+          { "title": "GlobalOffice Balam Rush BR-940399", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/teclados/teclado-mecanico-balam-rush-br-940399-dominate-exp/br-940399" },
+          { "title": "CTOnline feed TECBLR200 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "11ca4x21m8vhwmn",
+      "research": {
+        "confidence": 0.96,
+        "name": "Koblenz 10017 USB/R no break UPS linea interactiva 1000VA 500W 8 contactos USB RJ11",
+        "description": "No break Koblenz Linea Pro 10017 USB/R de 1000VA/500W, linea interactiva cuasisenoidal para 120V, con 8 salidas NEMA 5-15R, 4 con bateria y 4 con supresor, puerto USB, software ViewPower, proteccion RJ11, supresion 450J y bateria VRLA 12V 9Ah.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/1000va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/1000va/koblenz-linea-pro-500w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.koblenz.com.mx/products/no-break-ups-interactivo-onda-senoidal-10017-usb-r",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9534387",
+          "https://www.koblenz.com.mx/cdn/shop/files/10017USB1.png?v=1752110135&width=1200",
+          "https://www.koblenz.com.mx/cdn/shop/files/10017USB2.png?v=1752110135&width=1200"
+        ],
+        "specs": {
+          "brand": "Koblenz",
+          "model": "10017 USB/R",
+          "productType": "Line-interactive UPS",
+          "capacity": "1000VA / 500W",
+          "outputWaveform": "Quasi-sine wave",
+          "input": "85-145VAC, NEMA 5-15P, 1.8m cable",
+          "outlets": "8 x NEMA 5-15R, 4 battery backup and 4 surge only",
+          "battery": "VRLA 12V 9Ah",
+          "runtime": "14 min half load / 3 min full load; up to 80 min with All-in-One according to manufacturer",
+          "interfaces": "USB, ViewPower software, RJ11 phone protection",
+          "surge": "450 joules",
+          "warranty": "3 years UPS, 2 years battery",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKKBZ310", "stock": 164, "price": 1938.89, "currency": "MXN", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "FR-942", "stock": 0, "price": 1943.29, "currency": "MXN", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Stock divergente: CT 164 y CVA 0.",
+            "Algunos retailers detallan 320J, pero Koblenz oficial y ficha tecnica indican 450J."
+          ]
+        },
+        "measurements": { "dimensions": "34 x 12.5 x 14.5 cm", "weight": "7.2 kg", "packageDimensions": "38 x 16 x 21.8 cm", "packageWeight": "7.5 kg" },
+        "sourceRefs": [
+          { "title": "Koblenz 10017 USB/R official page", "type": "manufacturer", "url": "https://www.koblenz.com.mx/products/no-break-ups-interactivo-onda-senoidal-10017-usb-r" },
+          { "title": "Koblenz 10017 USB/R datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=22d2f395d07c5df99e3c&id=7086227" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "11usk7ypwnc93gd",
+      "research": {
+        "confidence": 0.86,
+        "name": "Tech Zone TZACMOA01 mouse alambrico USB negro 1200 DPI 3 botones",
+        "description": "Mouse alambrico Tech Zone TZACMOA01 color negro, conexion USB-A, sensor optico/IR LED de 1200 DPI, 3 botones con rueda, cuerpo ambidiestro ABS y compatibilidad Windows/MacOS para uso basico de oficina.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/oficina-1200dpi",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sysmx.com.mx/perifericos-y-ensamble/mouse/MS-1612-TZACMOA01-TECH-ZONE-ACCESORIOS-MOUSE-MOUSE-ALAMBRICO-TECHZONE-TZACMOA01-1200-DPI-15-MTRS-NEGRO?limit=75",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10437399",
+          "https://compuviper.mx/tienda/wp-content/uploads/2024/09/Mouse-alambrico-techzone-tzacmoa01-1200-dpi-1.5-mtrs-negro.jpg"
+        ],
+        "specs": {
+          "brand": "Tech Zone",
+          "model": "TZACMOA01",
+          "providerSku": "MS-1612",
+          "productType": "Basic wired optical mouse",
+          "connectivity": "USB-A wired",
+          "resolution": "1200 DPI",
+          "buttons": "3 buttons with scroll wheel",
+          "body": "Ambidextrous ABS body",
+          "compatibility": "Windows and MacOS",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "MS-1612", "stock": 10, "price": 25.84, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "No se encontro ficha oficial directa de Tech Zone para TZACMOA01.",
+            "Longitud de cable inconsistente: titulos dicen 1.5m; fichas detalladas indican 1.35m.",
+            "Una fuente lo etiqueta por error como inalambrico, pero descripcion y fotos confirman que es alambrico."
+          ]
+        },
+        "measurements": { "dimensions": "64.8 x 111.5 x 40.5 mm", "weight": "65 g", "cableLength": "1.35 m to 1.5 m depending on source" },
+        "sourceRefs": [
+          { "title": "SysMX Tech Zone TZACMOA01", "type": "retailer", "url": "https://www.sysmx.com.mx/perifericos-y-ensamble/mouse/MS-1612-TZACMOA01-TECH-ZONE-ACCESORIOS-MOUSE-MOUSE-ALAMBRICO-TECHZONE-TZACMOA01-1200-DPI-15-MTRS-NEGRO?limit=75" },
+          { "title": "CompuViper Tech Zone TZACMOA01", "type": "retailer", "url": "https://compuviper.mx/tienda/producto/tech-zone-accesorios-tzacmoa01-mouse-alambrico-techzone-optico-1200-dpi-1-5mtrs-2-botone-scroll-negro/" },
+          { "title": "CVA feed MS-1612 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "11y0ardci4h4t6a",
+      "research": {
+        "confidence": 0.94,
+        "name": "Uniarch UAC-B112-F28-W camara analogica HD bullet ColourHunter 2MP lente 2.8mm IP67",
+        "description": "Camara analogica HD bullet Uniarch UAC-B112-F28-W ColourHunter 2MP con salida TVI/AHD/CVI/CVBS, lente 2.8mm, imagen a color 24/7 con luz blanca de 20m, DWDR, 2D/3D DNR, menu OSD, salida BNC, alimentacion 12VDC e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-analogicas/bullet-hd",
+        "semanticCategoryPath": "seguridad/cctv/camaras-analogicas/bullet-hd/colorhunter-2mp-2-8mm",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniarch.cn/Products/Dedicated_Products/Dedicated_Products/UAC-B112-F28%2840%29-W/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMUNI120/CAMUNI120_full.jpg",
+          "https://www.uniarch.cn/res/202512/30/20251230_2071922_7_993475_575359_0.png"
+        ],
+        "documents": [
+          { "label": "Uniarch UAC-B112-F28(40)-W datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202406/20/20240620_1904093_Uniarch%20UAC-B112-F28%2840%29-W%202MP%20ColourHunter%20HD%20Fixed%20Mini%20Bullet%20Analog%20Camera_993478_575359_0.pdf" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "UAC-B112-F28-W",
+          "providerSku": "CAMUNI120",
+          "productType": "2MP ColourHunter HD analog mini bullet camera",
+          "sensor": "2MP 1/3 inch CMOS",
+          "video": "1080p/720p over TVI/AHD/CVI/CVBS",
+          "lens": "2.8mm M12",
+          "fieldOfView": "H 100.9, V 56.5, D 121.8 degrees",
+          "illumination": "White light up to 20m",
+          "image": "DWDR, 2D/3D DNR, OSD menu in 11 languages",
+          "output": "BNC video output",
+          "power": "DC 12V +/-25%, max 2.4W",
+          "protection": "4kV surge protection, IP67",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 12 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMUNI120", "stock": 29, "price": 13.09, "currency": "USD", "branch": "CMT:12,LEO:10,PUE:4,CAM:2,IRA:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Ficha oficial agrupa F28 y F40; el producto del proveedor corresponde a F28 con lente 2.8mm.",
+            "Es camara analogica HD, no camara IP."
+          ]
+        },
+        "measurements": { "dimensions": "142 x 63 x 65 mm", "weight": "145 g" },
+        "sourceRefs": [
+          { "title": "Uniarch UAC-B112-F28(40)-W official page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Dedicated_Products/Dedicated_Products/UAC-B112-F28%2840%29-W/" },
+          { "title": "Uniarch UAC-B112-F28(40)-W datasheet", "type": "datasheet", "url": "https://www.uniarch.cn/res/202406/20/20240620_1904093_Uniarch%20UAC-B112-F28%2840%29-W%202MP%20ColourHunter%20HD%20Fixed%20Mini%20Bullet%20Analog%20Camera_993478_575359_0.pdf" },
+          { "title": "CTOnline feed CAMUNI120 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "12206zh3d17gyas",
+      "research": {
+        "confidence": 0.86,
+        "name": "Nextep NE-650BG silla basica gris de tela altura ajustable base giratoria sin brazos soporte 120kg",
+        "description": "Silla basica Nextep NE-650BG color gris, con asiento y respaldo acolchados en tela, sin reposabrazos, base giratoria con 5 ruedas, altura ajustable aproximada de 82 a 92cm y capacidad maxima de 120kg.",
+        "manualCategoryPath": "oficina/mobiliario-accesorios/sillas-oficina/operativas-sin-brazos",
+        "semanticCategoryPath": "oficina/mobiliario-accesorios/sillas-oficina/operativas-sin-brazos/tela-gris-120kg",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/sillas-nextep-ne-650bg/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SILNEX100/SILNEX100_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/04/SillaBsicaNextepNE650BGdeAlturaAju_NE650BG_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/04/SillaBsicaNextepNE650BGdeAlturaAju_NE650BG_1.jpg"
+        ],
+        "specs": {
+          "brand": "Nextep",
+          "model": "NE-650BG",
+          "providerSku": "SILNEX100",
+          "ean": "7501811276064",
+          "productType": "Basic office chair",
+          "color": "Gray",
+          "seatBack": "Padded fabric seat and back",
+          "armrests": "No",
+          "headrest": "No",
+          "base": "Swivel base with 5 wheels",
+          "height": "82 to 92 cm",
+          "capacity": "120 kg",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SILNEX100", "stock": 1, "price": 1137.88, "currency": "MXN", "branch": "DFA:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "No se encontro ficha oficial Nextep directa; identidad validada por EAN, modelo y SKU en retailers.",
+            "Algunos listados muestran campos inconsistentes de altura/peso; se conserva medida de 82-92cm y 120kg soportados."
+          ]
+        },
+        "measurements": { "dimensions": "46.5 x 60 x 82/92 cm", "weight": "not reliably published" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Nextep NE-650BG", "type": "retailer", "url": "https://compupuebla.com/producto/sillas-nextep-ne-650bg/" },
+          { "title": "PCStore Nextep NE-650BG", "type": "retailer", "url": "https://pcstore.mx/sillas-nextep-ne-650bg-basica-de-altura-ajustable-color-gris-base-giratoria-tela-en-malla-10-cm-cromada-soporta-hasta-120-kg" },
+          { "title": "CTOnline feed SILNEX100 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "129tx5paer34t9n",
+      "research": {
+        "confidence": 0.94,
+        "name": "Vorago KSP-530 bocina karaoke portatil 40W RMS doble woofer 6 pulgadas Bluetooth TWS USB TF AUX",
+        "description": "Bocina karaoke portatil Vorago KSP-530 con 40W RMS, dos woofers de 6 pulgadas, dos tweeters de 2.5 pulgadas, Bluetooth 5.0, USB, TF/MicroSD, AUX, radio FM, TWS, microfono inalambrico, control remoto, luz LED tipo flama y bateria de 5400mAh.",
+        "manualCategoryPath": "audio/bocinas/portatiles/karaoke-party",
+        "semanticCategoryPath": "audio/bocinas/portatiles/karaoke-party/40w-5400mah-tws",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/descargables/ksp-53058541728597968.pdf",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10485843",
+          "https://innovacionytecnologia.net/cdn/shop/files/bc96eacafb3385c24042643ade4a25b9.png?v=1744354711&width=416",
+          "https://innovacionytecnologia.net/cdn/shop/files/38b22673b5d71a0190ba4c18528be22b.png?v=1744354713&width=416"
+        ],
+        "documents": [
+          { "label": "Vorago KSP-530 ficha tecnica", "type": "datasheet", "url": "https://voragolive.com/descargables/ksp-53058541728597968.pdf" }
+        ],
+        "specs": {
+          "brand": "Vorago",
+          "model": "KSP-530",
+          "ean": "7503049354279",
+          "productType": "Portable karaoke party speaker",
+          "power": "40W RMS",
+          "drivers": "2 x 6 inch woofers + 2 x 2.5 inch tweeters",
+          "connectivity": "Bluetooth 5.0, USB, TF/MicroSD, AUX 3.5mm, FM radio",
+          "tws": "Pairs two KSP-530 speakers",
+          "included": "Wireless microphone and remote control",
+          "lighting": "Flame LED light",
+          "equalizer": "Pop, rock, jazz, classic, flat",
+          "battery": "7.4V 5400mAh",
+          "input": "9VDC 2A",
+          "frequency": "40Hz-18kHz",
+          "snr": ">=65dB",
+          "thd": "<=0.3%",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BOCVGO1980", "stock": 52, "price": 107.88, "currency": "USD", "stockStatus": "in_stock" },
+            { "providerId": "cva", "providerSku": "SPK-2822", "stock": 0, "price": 70.15, "currency": "USD", "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Stock y precio divergentes: CT 52 a 107.88 USD, CVA 0 a 70.15 USD.",
+            "Ficha Vorago indica Bluetooth 5.0; algunos retailers listan Bluetooth 5.3.",
+            "Algunos agregadores la clasifican mal como docking/cradle; ficha Vorago confirma bocina karaoke."
+          ]
+        },
+        "measurements": { "dimensions": "475 x 265 x 220 mm", "weight": "5.85 kg" },
+        "sourceRefs": [
+          { "title": "Vorago KSP-530 ficha tecnica", "type": "datasheet", "url": "https://voragolive.com/descargables/ksp-53058541728597968.pdf" },
+          { "title": "Digitalife Vorago KSP-530", "type": "retailer", "url": "https://www.digitalife.com.mx/productos/1-bocina-vorago-ksp-530-bluetooth-inalambrico-usb-40w-5400mah-negro" },
+          { "title": "CT and CVA provider offers", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "12mi9asf3zd8ozc",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 421010 mini kit limpiador para pantallas LCD 60ml cepillo retractil pano microfibra",
+        "description": "Mini kit Manhattan 421010 para limpieza de pantallas LCD/TFT/Plasma con solucion no aerosol de 60ml libre de alcohol isopropilico, cepillo retractil de 14cm y pano de microfibra de 20 x 19cm para polvo, huellas y manchas.",
+        "manualCategoryPath": "computo/accesorios/limpieza/limpiadores-pantalla",
+        "semanticCategoryPath": "computo/accesorios/limpieza/limpiadores-pantalla/mini-kit-lcd-60ml",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-lcd-mini-cleaning-kit-421010",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=4536686",
+          "https://manhattanproducts.us/cdn/shop/products/lcd-mini-cleaning-kit-421010-1_a9eb374f-302c-48e3-bff7-5d1132f9b5c1.jpg?v=1678688751&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/lcd-mini-cleaning-kit-421010-packaging-3_f40c96ff-a58b-459c-a744-8f5206a23667.jpg?v=1678688751&width=376"
+        ],
+        "documents": [
+          { "label": "Manhattan 421010 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43741/421010_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "421010",
+          "providerSku": "CN-1663",
+          "upc": "766623421010",
+          "ean": "0766623421010",
+          "productType": "LCD mini cleaning kit",
+          "solution": "60ml non-aerosol cleaning solution, free of isopropyl alcohol",
+          "surface": "Safe for LCD, TFT and Plasma surfaces; do not apply directly to screen",
+          "included": "60ml solution, 14cm retractable brush, 20 x 19cm microfiber cloth",
+          "use": "Removes dust, fingerprints and stains without strong abrasives",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CN-1663", "stock": 11, "price": 3.03, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Manhattan US lo muestra agotado con disponibilidad 06/2026, mientras Manhattan MX y CVA lo muestran disponible.",
+            "Algunos retailers listan peso 210g; ficha oficial Manhattan indica 0.12kg."
+          ]
+        },
+        "measurements": { "solutionVolume": "60 ml", "cloth": "20 x 19 cm", "brush": "14 cm", "netGrossWeight": "0.12 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 421010 official US page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-lcd-mini-cleaning-kit-421010" },
+          { "title": "Manhattan 421010 official MX page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-mini-equipo-de-limpieza-para-lcd-421010" },
+          { "title": "CVA feed CN-1663 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
