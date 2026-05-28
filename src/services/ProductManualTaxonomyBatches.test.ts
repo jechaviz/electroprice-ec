@@ -423,6 +423,16 @@ const researchedBatchCases = [
   ["Roku Premiere 3920RW reproductor streaming 4K UHD HDR", "ROKU", "video/streaming/reproductores"],
   ["Intellinet 704823 bobina Cat5e CCA UTP 305m gris", "INTELLINET", "redes/cableado-estructurado/bobinas-utp/cat5e"],
   ["Hikvision AE-VC222T-ITS camara movil Turbo HD 1080p conector aviacion", "HIKVISION", "seguridad/cctv/camaras-moviles/turbo-hd"],
+  ["Manhattan 461344 soporte TV pared movimiento completo 32-55 40kg", "MANHATTAN", "video/soportes-tv/pared"],
+  ["Brother TN229BK toner negro rendimiento estandar 1500 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother"],
+  ["Perfect Choice PC-113294 Sugary bocina Bluetooth IPX6 35 h", "PERFECT CHOICE", "audio/bocinas/bluetooth"],
+  ["ESET HOME Security Essential TMESET-506 antivirus 10 licencias 1 ano", "ESET", "software/seguridad/antivirus"],
+  ["BRobotix 406269 soporte para celular plegable magnetico", "BROBOTIX", "telefonia/accesorios/soportes-celular/magneticos"],
+  ["Bixolon XM7-20iK impresora movil de etiquetas termica directa Bluetooth", "BIXOLON", "impresion/impresoras/etiquetas/termicas-moviles"],
+  ["Urban Balance VGA A HDMI - UB adaptador HDMI a VGA 1080p", "URBAN BALANCE", "accesorios/cables-adaptadores/video-hdmi-vga"],
+  ["Kensington K52801WW ErgoSoft descansa munecas teclado compacto", "KENSINGTON", "computo/perifericos/teclados/descansa-munecas"],
+  ["IMOU IPC-K3DN-5H0WF Bullet 2E 5MP WiFi microfono IP67", "IMOU", "seguridad/cctv/camaras-ip-wifi/bullet-exterior"],
+  ["Canon GI-10 C tanque de tinta cyan 7700 paginas", "CANON", "impresion/consumibles/botellas-tinta-megatank/canon-gi10"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
