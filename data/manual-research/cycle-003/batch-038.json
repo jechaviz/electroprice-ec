@@ -1,0 +1,442 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b038-2026-05-28",
+  "cycle": 3,
+  "batch": 38,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "2tuuhqn9r21nmtb",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC115 Replacement Battery Cartridge #115 VRLA 48V 9Ah para Smart-UPS X",
+        "description": "Cartucho APC APCRBC115 RBC #115 de reemplazo para UPS Smart-UPS X/SMX, bateria sellada plomo-acido VRLA de 48 V, 9 Ah, cuatro bloques por string, hot-swappable, con conectores, guia de reciclaje, guia de instalacion y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc115-48v-9ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-115-with-2-Year-Warranty/P-APCRBC115",
+        "gallery": ["https://static.ctonline.mx/imagenes/BATAPC640/BATAPC640_full.jpg"],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC115",
+          "providerSku": "BATAPC640",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "48 V",
+          "capacity": "9 Ah",
+          "batteryBlocksPerString": 4,
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "included": ["All required connectors", "Battery recycling guide", "Installation guide", "Reusable packaging"],
+          "compatibilityExamples": ["SMX1500RM2U", "SMX1500RM2UC", "SMX1500RM2UNC", "SMX48RMBP2U"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 15 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATAPC640", "stock": 15, "price": 390.55, "currency": "USD", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Se reclasifica de no-break/UPS a cartucho RBC de reemplazo.", "La compatibilidad extendida en retailers puede listar mas modelos SMX que el resumen oficial."]
+        },
+        "measurements": { "dimensions": "419 x 165 x 83 mm", "weight": "10.82 kg", "packageDimensions": "546 x 292 x 190 mm", "packageWeight": "11.73 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC115 official specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-115-with-2-Year-Warranty/P-APCRBC115" },
+          { "title": "B&H APCRBC115 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1143195-REG/apc_apcrbc115_ups_replacement_battery.html" },
+          { "title": "CTOnline feed BATAPC640 stock 15 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hwjgg6mao21zhfb",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC123 Replacement Battery Cartridge VRLA 24V 7Ah para Back-UPS y Smart-UPS",
+        "description": "Cartucho APC APCRBC123 RBC #123 de reemplazo para Back-UPS y Smart-UPS Line Interactive, bateria VRLA de 24 VDC y 7 Ah, hot-swappable, RBC quantity 1, con conectores, guia de reciclaje, guia de instalacion y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc123-24v-7ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC123/apc-replacement-battery-cartridge-for-smartups-line-interactive-24v-7ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=3899688"],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC123",
+          "providerSku": "FR-641",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "24 VDC",
+          "capacity": "7 Ah",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "included": ["All required connectors", "Battery recycling guide", "Installation guide", "Reusable packaging"],
+          "compatibilityExamples": ["BN1250G", "BR1000G", "BX1000G", "BX1300G", "BX1500G", "SMT750RM2U"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 46 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATAPC240", "stock": 46, "price": 76.82, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-641", "stock": 0, "price": 76.94, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["B&H expresa capacidad como 168 VAh; se conserva la ficha APC de 24 VDC y 7 Ah.", "Las ubicaciones MX:46 y MX:0 corresponden a ofertas de proveedor distintas."]
+        },
+        "measurements": { "dimensions": "203 x 152 x 76 mm", "weight": "5.21 kg", "packageDimensions": "275 x 234 x 146 mm", "packageWeight": "5.52 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC123 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC123/apc-replacement-battery-cartridge-for-smartups-line-interactive-24v-7ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "APC APCRBC123 Trade-UPS specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-VRLA-battery-7Ah-24VDC-2-year-warranty/P-APCRBC123" },
+          { "title": "B&H APCRBC123 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1145417-REG/apc_apcrbc123_replacement_battery_cartridge.html/overview" },
+          { "title": "CTOnline/CVA feed APCRBC123 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bgtn7r5bonkbtoy",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC124 Replacement Battery Cartridge VRLA 24V 9Ah para Back-UPS y Smart-UPS",
+        "description": "Cartucho APC APCRBC124 RBC #124 de reemplazo para Back-UPS BR/BX y Smart-UPS SMC Line Interactive, bateria VRLA de 24 VDC y 9 Ah, hot-swappable, RBC quantity 1, con conectores, guia de reciclaje, guia de instalacion y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc124-24v-9ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC124/apc-replacement-battery-cartridge-for-smartups-line-interactive-24v-9ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=4837688"],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC124",
+          "providerSku": "FR-695",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "24 VDC",
+          "capacity": "9 Ah",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "included": ["All required connectors", "Battery recycling guide", "Installation guide", "Reusable packaging"],
+          "compatibilityExamples": ["BR1200G", "BR1500G", "BX1500G", "SMC1000-2U", "SMC1000I-2U"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 37 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATAPC180", "stock": 37, "price": 87.73, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-695", "stock": 0, "price": 87.88, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunos agregadores antiguos listan dimensiones mayores; se usa ficha APC/Schneider de 203 x 152 x 76 mm.", "Las ubicaciones MX:37 y MX:0 corresponden a ofertas de proveedor distintas."]
+        },
+        "measurements": { "dimensions": "203 x 152 x 76 mm", "weight": "5.6 kg", "packageDimensions": "275 x 234 x 146 mm", "packageWeight": "5.83 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC124 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC124/apc-replacement-battery-cartridge-for-smartups-line-interactive-24v-9ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "APC APCRBC124 Trade-UPS specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/ca/en/products/APC-Replacement-Battery-Cartridge-VRLA-battery-9Ah-24VDC-2-year-warranty/P-APCRBC124" },
+          { "title": "APCGuard APCRBC124 specs", "type": "reseller_spec", "url": "https://www.apcguard.com/APCRBC124.asp" },
+          { "title": "CTOnline/CVA feed APCRBC124 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "mcc0emm51o7byhj",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC133 Replacement Battery Cartridge VRLA 24V 9Ah para Smart-UPS Line Interactive",
+        "description": "Cartucho APC APCRBC133 RBC #133 de reemplazo para Smart-UPS Line Interactive, bateria plomo-acido sellada de 24 V y 9 Ah, RBC quantity 1, hot-swappable, con conectores, guia de reciclaje, bandeja o carcasa metalica y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc133-24v-9ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC133/apc-replacement-battery-cartridge-for-smartups-line-interactive-24v-9ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "gallery": ["https://static.ctonline.mx/imagenes/BATAPC500/BATAPC500_full.jpg"],
+        "documents": [{ "label": "APC APCRBC133 datasheet", "type": "datasheet", "url": "https://www.mouser.com/datasheet/2/357/2/APCRBC133_document-3198854.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC133",
+          "providerSku": "BATAPC500",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "24 V",
+          "capacity": "9 Ah",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "included": ["All required connectors", "Battery recycling guide", "Metallic battery tray or enclosure", "Reusable packaging"],
+          "compatibilityExamples": ["SMC2000I", "SMT1500RM2U", "SMT1500RM2UTW", "SMT1500RMI2U", "SMT1500RMUS"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATAPC500", "stock": 21, "price": 314.11, "currency": "USD", "branch": "D2A/MTY" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["B&H/listados mencionan 432 VAh; se mantiene 24 V 9 Ah como spec primaria APC.", "APC FAQ advierte que modelos SmartConnect C como SMT1500RM2UC usan APCRBC159, no APCRBC133."]
+        },
+        "measurements": { "dimensions": "343 x 216 x 83 mm", "weight": "11.96 kg", "packageDimensions": "495 x 368 x 152 mm", "packageWeight": "12.6 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC133 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC133/apc-replacement-battery-cartridge-for-smartups-line-interactive-24v-9ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "Mouser APCRBC133 Schneider datasheet", "type": "datasheet", "url": "https://www.mouser.com/datasheet/2/357/2/APCRBC133_document-3198854.pdf" },
+          { "title": "B&H APCRBC133 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1073232-REG/apc_apcrbc133_apc_replacement_battery_cartridge.html/specs" },
+          { "title": "CTOnline feed BATAPC500 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8cr6rjh4zmby8fh",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC143 Replacement Battery Cartridge VRLA 120V 5Ah para Smart-UPS",
+        "description": "Cartucho APC APCRBC143 RBC #143 de reemplazo para Smart-UPS, bateria plomo-acido sellada de 120 V y 5 Ah, 10 bloques por string, RBC quantity 1, hot-swappable, con conectores, guia de reciclaje, guia de instalacion y empaque reutilizable.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc143-120v-5ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC143/apc-replacement-battery-cartridge-for-smartups-120v-5ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "gallery": ["https://static.ctonline.mx/imagenes/BATAPC670/BATAPC670_1_full.jpg"],
+        "documents": [{ "label": "APC APCRBC143 datasheet", "type": "datasheet", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-APCRBC143_Data%20sheet.pdf" }],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC143",
+          "providerSku": "BATAPC670",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "120 V",
+          "capacity": "5 Ah",
+          "batteryBlocksPerString": 10,
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "included": ["All required connectors", "Battery recycling guide", "Installation guide", "Reusable packaging"],
+          "compatibilityExamples": ["FJX3000RMHV2UNC", "SMX120BP", "SMX2000RMLV2U", "SMX2200RMHV2U", "SMX3000RMLV2U"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATAPC670", "stock": 10, "price": 359.63, "currency": "USD", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunos retailers muestran 600Ah o 600Wh; el calculo correcto es 120 V x 5 Ah = 600 VAh.", "Un datasheet antiguo muestra 1 ano de garantia; la pagina oficial actual usa 2 anos."]
+        },
+        "measurements": { "dimensions": "481 x 279 x 225 mm", "weight": "22.27 kg", "packageDimensions": "495 x 293 x 253 mm", "packageWeight": "25.18 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC143 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC143/apc-replacement-battery-cartridge-for-smartups-120v-5ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "APC APCRBC143 official datasheet", "type": "datasheet", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-APCRBC143_Data%20sheet.pdf" },
+          { "title": "B&H APCRBC143 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1557110-REG/apc_apcrbc143_replacement_battery_cartridge_143.html" },
+          { "title": "CTOnline feed BATAPC670 stock 10 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gbwuwr3w03f6wpf",
+      "research": {
+        "confidence": 0.96,
+        "name": "APC APCRBC152 Replacement Battery Cartridge #152 para Smart-UPS On-Line",
+        "description": "Cartucho APC APCRBC152 RBC #152 de reemplazo para Smart-UPS On-Line, bateria plomo-acido sellada en cartucho cerrado, RBC quantity 1, vida esperada 3 a 5 anos y reemplazo hot-swap por usuario entrenado para restaurar autonomia en equipos compatibles.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc152-smart-ups-online",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/fr/fr/products/Cartouche-de-batterie-de-rechange-APC-152/P-APCRBC152",
+        "gallery": ["https://download.schneider-electric.com/files?p_Doc_Ref=SPD_JPRO-A5PS8W_FL_H&p_File_Name=B8A669D6CF35C4B985257F2B007180A8_JPRO_A5PSA4_f_h_hi_AI-improved_2024_520.jpg"],
+        "documents": [{ "label": "APC APCRBC152 datasheet", "type": "datasheet", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-APCRBC152_DATA%20SHEET.PDF" }],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC152",
+          "providerSku": "FR-1371",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "compatibilityExamples": ["SRT3000RMXLA", "SRT3000XLA", "SRT96BP", "SRT96RMBP"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 41 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATAPC620", "stock": 41, "price": 570.27, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1371", "stock": 0, "price": 573.16, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["APC no publica V/Ah en la ficha principal; B&H lista 480 VAh y terceros infieren voltajes, pero se evita inferir V/Ah OEM.", "El precio de proveedor es menor que varios retailers internacionales, sin afectar la curacion tecnica."]
+        },
+        "measurements": { "dimensions": "762 x 210 x 76 mm", "weight": "15.29 kg", "packageDimensions": "635 x 343 x 203 mm", "packageWeight": "17.55 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC152 official specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/fr/fr/products/Cartouche-de-batterie-de-rechange-APC-152/P-APCRBC152" },
+          { "title": "APC APCRBC152 installation guide", "type": "manual", "url": "https://www.apc.com/us/en/download/document/SPD_JGNY-9K29GH_EN/" },
+          { "title": "B&H APCRBC152 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1557112-REG/apc_apcrbc152_replacement_battery_cartridge_152.html" },
+          { "title": "CTOnline/CVA feed APCRBC152 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "61mmqxpgc0up3pe",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC154 Replacement Battery Cartridge para Back-UPS 12V 6.5Ah",
+        "description": "Cartucho APC APCRBC154 RBC #154 de reemplazo para Back-UPS, bateria plomo-acido sellada de 12 V y 6.5 Ah, leak-proof, hot-swappable, RBC quantity 1, con garantia de 2 anos y soporte de reciclaje APC.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc154-12v-6-5ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/APCRBC154/apc-replacement-battery-cartridge-for-backups-12v-6-5ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "gallery": ["https://www.bhphotovideo.com/images/images500x500/apc_apcrbc154_replacement_battery_cartridge_154_1526406344_1408193.jpg"],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC154",
+          "providerSku": "FR-1436",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "12 V",
+          "capacity": "6.5 Ah",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "warranty": "2 years repair or replace",
+          "compatibilityExamples": ["BE600M1", "BE670M1", "BN650M1", "BN650M1-CA", "BN675M1"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MX", "stock": 36 },
+            { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATAPC680", "stock": 36, "price": 54.84, "currency": "USD", "branch": "MX" },
+            { "providerId": "cva", "providerSku": "FR-1436", "stock": 0, "price": 56.30, "currency": "USD", "branch": "MX" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Compatibles aftermarket alternan 12 V 6 Ah, 6.5 Ah o 5 Ah; se usa 12 V 6.5 Ah oficial Schneider.", "Las ubicaciones MX:36 y MX:0 corresponden a ofertas de proveedor distintas."]
+        },
+        "measurements": { "dimensions": "151 x 98 x 51 mm", "weight": "2.03 kg", "packageDimensions": "216 x 178 x 117 mm", "packageWeight": "2.36 kg" },
+        "sourceRefs": [
+          { "title": "Schneider APCRBC154 official specs", "type": "manufacturer", "url": "https://www.se.com/us/en/product/APCRBC154/apc-replacement-battery-cartridge-for-backups-12v-6-5ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "B&H APCRBC154 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1408193-REG/apc_apcrbc154_replacement_battery_cartridge_154.html" },
+          { "title": "CTOnline/CVA feed APCRBC154 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "di8419tbyrly4hx",
+      "research": {
+        "confidence": 0.97,
+        "name": "APC APCRBC155 Replacement Battery Cartridge #155 para Smart-UPS On-Line",
+        "description": "Cartucho APC APCRBC155 RBC #155 de reemplazo para Smart-UPS On-Line, bateria plomo-acido en cartucho cerrado, RBC quantity 1, vida esperada 3 a 5 anos, hot-swappable y reemplazable por usuario entrenado, con guia de instalacion y garantia de 2 anos.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc155-smart-ups-online",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC155/apc-replacement-battery-cartridge-155-with-2-year-warranty/",
+        "gallery": ["https://static.ctonline.mx/imagenes/BATAPC780/BATAPC780_full.jpg"],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC155",
+          "providerSku": "BATAPC780",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "compatibilityExamples": ["SRT1000XLA", "SRT1500XLA", "SRT48BP", "SRT48RMBP"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 12 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATAPC780", "stock": 14, "price": 340.38, "currency": "USD", "branch": "D2A/HMO/GDL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["APC no publica V/Ah en la ficha principal; compatibles suelen declarar 48 V 9 Ah, pero no se usa como spec OEM.", "Algunos listados muestran dimensiones en orden distinto; se usa la ficha APC."]
+        },
+        "measurements": { "dimensions": "420 x 160 x 75 mm", "weight": "15.29 kg", "packageDimensions": "635 x 343 x 203 mm", "packageWeight": "17.55 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC155 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC155/apc-replacement-battery-cartridge-155-with-2-year-warranty/" },
+          { "title": "APC APCRBC155 Trade-UPS specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-155-with-2-Year-Warranty/P-APCRBC155" },
+          { "title": "B&H APCRBC155 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/a/new/1557114/apc_apcrbc155_replacement_battery_cartridge_155.html" },
+          { "title": "CTOnline feed BATAPC780 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2fv2z2fuuxrte4j",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC159 Replacement Battery Cartridge #159 12V 9Ah para Smart-UPS Line Interactive",
+        "description": "Cartucho APC APCRBC159 RBC #159 de reemplazo para Smart-UPS Line Interactive, bateria plomo-acido de 12 V y 9 Ah segun pagina APC, cartucho cerrado con conectores requeridos, guia de reciclaje y bandeja/carcasa metalica, RBC quantity 1 y garantia de 2 anos.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc159-12v-9ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC159/apc-replacement-battery-cartridge-159-with-2-year-warranty/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BATAPC850/BATAPC850_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/S/CP-APC-APCRBC159-30edba.jpg"
+        ],
+        "documents": [{ "label": "APC APCRBC159 datasheet", "type": "datasheet", "url": "https://iportal.se.com/Contents/docs/APCRBC159_DATA%20SHEET.PDF" }],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC159",
+          "providerSku": "BATAPC850",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "12 V",
+          "capacity": "9 Ah",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "expectedBatteryLife": "3-5 years",
+          "warranty": "2 years repair or replace",
+          "included": ["All required connectors", "Battery recycling guide", "Metallic battery tray or enclosure"],
+          "compatibilityExamples": ["SMT1500RM2U", "SMT1500RM2UC", "SMT1500RM2UNC", "SMT1500RMI2U", "DLT1500RM2U"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 28 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATAPC850", "stock": 28, "price": 320.54, "currency": "USD", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Cyberpuerta titula 12 V 8 Ah; APC oficial/B&H/CDW indican 12 V 9 Ah.", "Compatibles aftermarket pueden describir configuraciones internas de multiples baterias; se guarda el cartucho OEM como RBC quantity 1."]
+        },
+        "measurements": { "dimensions": "343 x 216 x 83 mm", "weight": "11.96 kg", "packageDimensions": "495 x 368 x 152 mm", "packageWeight": "12.6 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC159 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC159/apc-replacement-battery-cartridge-159-with-2-year-warranty/" },
+          { "title": "APC APCRBC159 Trade-UPS specs", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/APC-Replacement-Battery-Cartridge-159-with-2-Year-Warranty/P-APCRBC159" },
+          { "title": "B&H APCRBC159 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1749371-REG/apc_apcrbc159_replacement_battery_cartridge_159.html" },
+          { "title": "CTOnline feed BATAPC850 stock 28 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "qrmp6zau30ocp7n",
+      "research": {
+        "confidence": 0.98,
+        "name": "APC APCRBC160 Replacement Battery Cartridge para Back-UPS 12V 7.2Ah",
+        "description": "Cartucho APC APCRBC160 RBC #160 de reemplazo para Back-UPS, bateria plomo-acido de 12 V y 7.2 Ah, RBC quantity 1, hot-swappable, con empaque reutilizable y guia de instalacion, garantia de 2 anos.",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-rbc160-12v-7-2ah",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC160/apc-replacement-battery-cartridge-for-backups-12v-7-2ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "gallery": ["https://static.ctonline.mx/imagenes/BATAPC840/BATAPC840_full.jpg"],
+        "documents": [{ "label": "APC APCRBC160 installation guide", "type": "manual", "url": "https://www.apc.com/ca/en/download/document/SPD_AHUG-AS869H_EN/" }],
+        "specs": {
+          "brand": "APC",
+          "model": "APCRBC160",
+          "providerSku": "BATAPC840",
+          "productType": "Cartucho de bateria de reemplazo para UPS",
+          "batteryType": "VRLA sealed lead-acid",
+          "voltage": "12 V",
+          "capacity": "7.2 Ah",
+          "rbcQuantity": 1,
+          "hotSwappable": true,
+          "warranty": "2 years repair or replace",
+          "compatibilityExamples": ["BN1100M2", "BR1000MS", "BR1100M2-LM"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 13 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATAPC840", "stock": 15, "price": 93.53, "currency": "USD", "branch": "D2A/CHI/CMT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Compatibles aftermarket declaran 24 V 7 Ah o 2 x 12 V; APC oficial comercializa este cartucho como 12 V 7.2 Ah.", "B&H aclara que BN1500M2 usa APCRBC161, no APCRBC160."]
+        },
+        "measurements": { "dimensions": "302 x 66 x 109 mm", "weight": "4.45 kg", "packageDimensions": "417 x 180 x 185 mm", "packageWeight": "4.9 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC160 official specs", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/APCRBC160/apc-replacement-battery-cartridge-for-backups-12v-7-2ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "APC APCRBC160 installation guide", "type": "manual", "url": "https://www.apc.com/ca/en/download/document/SPD_AHUG-AS869H_EN/" },
+          { "title": "B&H APCRBC160 specs", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1584080-REG/apc_apcrbc160_replacement_battery_cartridge_160.html" },
+          { "title": "CTOnline feed BATAPC840 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

@@ -243,6 +243,16 @@ const researchedBatchCases = [
   ["APC AP9562 Basic Rack PDU 1U 15A 120V", "APC", "energia/pdu-rack"],
   ["APC AP9641 UPS Network Management Card 3 NMC3", "APC", "energia/accesorios-ups/tarjetas-snmp"],
   ["APC APCRBC110 cartucho bateria reemplazo UPS 12V 7Ah", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC115 cartucho bateria reemplazo UPS 48V", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC123 cartucho bateria reemplazo hot-swap", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC124 bateria de reemplazo Back-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC133 cartucho de bateria de sustitucion APC", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC143 replacement battery cartridge 143", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC152 cartucho bateria UPS Smart-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC154 replacement battery cartridge 154", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC155 bateria de reemplazo UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC159 cartucho bateria reemplazo 12V 9Ah", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC APCRBC160 bateria de reemplazo Back-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
