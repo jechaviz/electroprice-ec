@@ -263,6 +263,16 @@ const researchedBatchCases = [
   ["APC BR1500RM2U Back-UPS Pro 1500VA rack tower 2U", "APC", "energia/no-breaks-ups/rack"],
   ["APC BR700G Back-UPS Pro 700VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
   ["APC BV1000 Easy UPS BV 1000VA AVR", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BV500 Easy UPS 500VA AVR", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BV650 Easy UPS 650VA AVR", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BVX700LU-LM Back-UPS 700VA AVR USB", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BVX900L-LM Back-UPS 900VA AVR", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BX1000M-LM60 Back-UPS Pro 1000VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BX1200M-LM Back-UPS 1200VA AVR", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BX1350M-LM60 Back-UPS Pro 1350VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC BX850M-LM60 Back-UPS Pro 850VA AVR LCD", "APC", "energia/no-breaks-ups/line-interactive"],
+  ["APC RBC2 cartucho de bateria de recambio", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
+  ["APC RBC23 bateria de reemplazo Smart-UPS", "APC", "energia/baterias-ups/cartuchos-reemplazo"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
