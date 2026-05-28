@@ -1,0 +1,530 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b036-2026-05-28",
+  "cycle": 3,
+  "batch": 36,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "55f8rw3brl12nij",
+      "research": {
+        "confidence": 0.93,
+        "name": "Procesador AMD Ryzen 5 8400F AM5 6 nucleos 12 hilos sin graficos",
+        "description": "Procesador AMD Ryzen 5 8400F AM5, 6 nucleos y 12 hilos, base 4.2 GHz, boost hasta 4.7 GHz, cache L3 de 16 MB, TDP 65 W, PCIe 4.0, DDR5 y sin graficos integrados; requiere GPU dedicada.",
+        "manualCategoryPath": "computo/componentes/procesadores/amd-ryzen-am5",
+        "semanticCategoryPath": "computo/componentes/procesadores/amd-ryzen-am5/sin-graficos-6-nucleos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8400f.html",
+        "gallery": [
+          "https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/2608523-amd-ryzen-8000-series-processor-product.jpg",
+          "https://cf-images.dustin.eu/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cquality%3D75%2Cwidth%3D828%2Cfit%3Dcontain/image/d2000010011235969/amd-ryzen-5-8400f-42ghz-am5-processor.jpg",
+          "https://static.ctonline.mx/imagenes/CPUAMD2800/CPUAMD2800_1_full.jpg"
+        ],
+        "documents": [
+          { "label": "AMD Ryzen 5 8400F especificaciones", "type": "manufacturer", "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8400f.html" }
+        ],
+        "specs": {
+          "brand": "AMD",
+          "model": "Ryzen 5 8400F",
+          "opnBoxed": "100-100001591BOX",
+          "providerSku": "CPUAMD2800",
+          "productType": "Procesador de escritorio",
+          "platform": "AM5",
+          "architecture": "Zen 4",
+          "cores": 6,
+          "threads": 12,
+          "baseClock": "4.2 GHz",
+          "maxBoostClock": "4.7 GHz",
+          "l3Cache": "16 MB",
+          "tdp": "65 W",
+          "memorySupport": "DDR5-5200",
+          "pcie": "PCIe 4.0",
+          "integratedGraphics": "No",
+          "ryzenAi": "No",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 71 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 83, "price": 142.00, "currency": "USD", "branch": "D2A/DFA/TXA/DFC" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Algunas fichas secundarias listan PCIe 5.0, AI cores o relojes distintos; se usa AMD oficial."]
+        },
+        "measurements": { "packageWeight": "0.44-0.46 kg", "packageDimensions": "125 x 83 x 125 mm" },
+        "sourceRefs": [
+          { "title": "AMD Ryzen 5 8400F official specs", "type": "manufacturer", "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8400f.html" },
+          { "title": "ASBIS Ryzen 5 8400F package data", "type": "reseller", "url": "https://www.asbis.com" },
+          { "title": "CT feed CPUAMD2800 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "rqdy2c5sekca8d7",
+      "research": {
+        "confidence": 0.93,
+        "name": "Procesador AMD Ryzen 7 5700G AM4 8 nucleos con graficos Radeon",
+        "description": "Procesador AMD Ryzen 7 5700G AM4, 8 nucleos y 16 hilos, base 3.8 GHz, boost hasta 4.6 GHz, cache L3 de 16 MB, TDP 65 W, graficos Radeon integrados de 8 nucleos y cooler Wraith Stealth.",
+        "manualCategoryPath": "computo/componentes/procesadores/amd-ryzen-am4",
+        "semanticCategoryPath": "computo/componentes/procesadores/amd-ryzen-am4/graficos-radeon-8-nucleos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+        "gallery": [
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/amd_ryzen_7_5700g_3_8_1628153211_1646171.jpg",
+          "https://static.ctonline.mx/imagenes/CPUAMD2290/CPUAMD2290_full.jpg"
+        ],
+        "documents": [
+          { "label": "AMD Ryzen 7 5700G soporte y especificaciones", "type": "manufacturer", "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html" }
+        ],
+        "specs": {
+          "brand": "AMD",
+          "model": "Ryzen 7 5700G",
+          "opnBoxed": "100-100000263BOX",
+          "providerSku": "CPUAMD2290",
+          "productType": "Procesador de escritorio",
+          "platform": "AM4",
+          "architecture": "Zen 3",
+          "cores": 8,
+          "threads": 16,
+          "baseClock": "3.8 GHz",
+          "maxBoostClock": "4.6 GHz",
+          "l3Cache": "16 MB",
+          "tdp": "65 W",
+          "memorySupport": "DDR4-3200",
+          "pcie": "PCIe 3.0",
+          "integratedGraphics": "AMD Radeon Graphics, 8 cores, 2000 MHz",
+          "cooler": "AMD Wraith Stealth",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 153 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 56 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 22 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 7 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 421, "price": 215.56, "currency": "USD", "branch": "D2A/DFA/ACX/TAM/GDL/ZAC/MID/CMT/OBR/AGS/DFC/TRN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Cache total de 20 MB equivale a L2 4 MB + L3 16 MB."]
+        },
+        "measurements": { "packageWeight": "0.96 lb / 0.44 kg", "packageDimensions": "5.7 x 5.1 x 2.9 in / 14.5 x 13.0 x 7.4 cm" },
+        "sourceRefs": [
+          { "title": "AMD Ryzen 7 5700G support specs", "type": "manufacturer", "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html" },
+          { "title": "B&H Ryzen 7 5700G specs", "type": "reseller", "url": "https://www.bhphotovideo.com/c/product/1646171-REG/amd_ryzen_7_5700g_3_8.html" },
+          { "title": "CT feed CPUAMD2290 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "s9x3aje1kj59szm",
+      "research": {
+        "confidence": 0.93,
+        "name": "Procesador AMD Ryzen 7 8700F AM5 8 nucleos 16 hilos sin graficos",
+        "description": "Procesador AMD Ryzen 7 8700F AM5, 8 nucleos y 16 hilos, base 4.1 GHz, boost hasta 5.0 GHz, cache L3 de 16 MB, TDP 65 W, DDR5, Ryzen AI hasta 16 TOPS y sin graficos integrados; requiere GPU dedicada.",
+        "manualCategoryPath": "computo/componentes/procesadores/amd-ryzen-am5",
+        "semanticCategoryPath": "computo/componentes/procesadores/amd-ryzen-am5/sin-graficos-8-nucleos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html",
+        "gallery": [
+          "https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/2608523-amd-ryzen-8000-series-processor-product.jpg",
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/amd_100_100001590box_amd_ryzen_7_8700f_1715591727_1825662.jpg",
+          "https://static.ctonline.mx/imagenes/CPUAMD2810/CPUAMD2810_full.jpg"
+        ],
+        "documents": [
+          { "label": "AMD Ryzen 7 8700F especificaciones", "type": "manufacturer", "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html" }
+        ],
+        "specs": {
+          "brand": "AMD",
+          "model": "Ryzen 7 8700F",
+          "opnBoxed": "100-100001590BOX",
+          "providerSku": "CPUAMD2810",
+          "productType": "Procesador de escritorio",
+          "platform": "AM5",
+          "architecture": "Zen 4",
+          "cores": 8,
+          "threads": 16,
+          "baseClock": "4.1 GHz",
+          "maxBoostClock": "5.0 GHz",
+          "l3Cache": "16 MB",
+          "tdp": "65 W",
+          "memorySupport": "DDR5-5200",
+          "pcie": "PCIe 4.0",
+          "integratedGraphics": "No",
+          "ryzenAi": "16 TOPS",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 15, "price": 206.94, "currency": "USD", "branch": "D2A/CLN/LMO/XLP/VHA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["B&H tiene campos contradictorios sobre AI; AMD oficial lista Ryzen AI disponible."]
+        },
+        "measurements": { "packageWeight": "0.99 lb / 0.45 kg", "packageDimensions": "5.3 x 5.0 x 3.7 in / 13.5 x 12.7 x 9.4 cm" },
+        "sourceRefs": [
+          { "title": "AMD Ryzen 7 8700F official specs", "type": "manufacturer", "url": "https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-7-8700f.html" },
+          { "title": "B&H Ryzen 7 8700F specs", "type": "reseller", "url": "https://www.bhphotovideo.com/c/product/1825662-REG/amd_100_100001590box_amd_ryzen_7_8700f.html" },
+          { "title": "CT feed CPUAMD2810 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1os1mdf9vx0ti6u",
+      "research": {
+        "confidence": 0.9,
+        "name": "Monitor AOC 22B35HM23 21.5 pulgadas FHD VA 120Hz HDMI VGA",
+        "description": "Monitor AOC 22B35HM23 de 21.45 pulgadas Full HD con panel VA, 120 Hz por HDMI como OC, 1 ms MPRT, brillo 250 cd/m2, contraste 3000:1, entradas HDMI y VGA segun manual/fichas regionales y montaje VESA 100 x 100 mm.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/21-5-fhd-va-120hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aoc.com/us/monitors/22b35hm23",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/eb16a855c094f4f219fcef40aae00809087a0684-5280x4920.png?auto=format&fit=max&w=1920",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10464076"
+        ],
+        "documents": [
+          { "label": "AOC 22B35HM23 manual", "type": "manual", "url": "https://www.aoc.com/api/asset/pi47958?ext=pdf" },
+          { "label": "AOC 22B35HM23 ficha BR", "type": "datasheet", "url": "https://aoc.portaltpv.com.br/uploads/specifications/2025/06/22b35hm23.pdf" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "22B35HM23",
+          "providerSku": "MNL-2969",
+          "alternateProviderSku": "MONAOC1000",
+          "productType": "Monitor",
+          "screenSize": "21.45 in",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "VA, WLED, antiglare",
+          "refreshRate": "120 Hz por HDMI OC; 100 Hz nativo",
+          "responseTime": "1 ms MPRT; 4 ms GtG OD; 9 ms GtG",
+          "brightness": "250 cd/m2",
+          "contrast": "3000:1",
+          "ports": ["HDMI 1.4", "VGA/D-Sub segun manual regional"],
+          "vesa": "100 x 100 mm",
+          "upc": "685417740888",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 163, "price": 1014.84, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 24, "price": 1018.06, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["AOC US lista solo HDMI 1.4; manual y fichas regionales listan HDMI + VGA. 120 Hz es OC por HDMI."]
+        },
+        "measurements": { "dimensionsWithStand": "493.8 x 379.1 x 169.9 mm", "dimensionsWithoutStand": "493.8 x 284.8 x 35.8 mm", "packageDimensions": "565 x 350 x 93 mm", "weightWithStand": "2.05 kg", "weightWithoutStand": "1.79 kg", "grossWeight": "3.52 kg" },
+        "sourceRefs": [
+          { "title": "AOC 22B35HM23 official page", "type": "manufacturer", "url": "https://www.aoc.com/us/monitors/22b35hm23" },
+          { "title": "GlobalOffice MNL-2969", "type": "reseller", "url": "https://globaloffice.mx/app/detalle/producto/monitores/monitor-led-aoc-22b35hm23-color-negro-panel-va-215-hd/22b35hm23" },
+          { "title": "CT/CVA feed 22B35HM23 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "yozu3le75m4fco1",
+      "research": {
+        "confidence": 0.91,
+        "name": "Monitor AOC 24B35H3 23.8 pulgadas FHD IPS 120Hz HDMI VGA",
+        "description": "Monitor AOC 24B35H3 de 23.8 pulgadas Full HD con panel IPS, frecuencia de 120 Hz, 1 ms MPRT, brillo 300 cd/m2, contraste 1500:1, cobertura sRGB cercana a 99%, HDMI y VGA segun ficha CVA/regional y VESA 100 x 100 mm.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/23-8-fhd-ips-120hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aoc.com/us/monitors/24b35h3",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/a42dc15695d242934c87508ae16a7cda45795790-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10464078"
+        ],
+        "documents": [
+          { "label": "CVA AOC 24B35H3 ficha", "type": "datasheet", "url": "https://apicvaservices.grupocva.com/api/v2/pdf_service/descarga_ficha/10464078" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "24B35H3",
+          "providerSku": "MNL-2971",
+          "alternateProviderSku": "MONAOC1010",
+          "productType": "Monitor",
+          "screenSize": "23.8 in",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS, WLED, antiglare",
+          "refreshRate": "120 Hz",
+          "responseTime": "1 ms MPRT; 4 ms GtG OD; 14 ms GtG",
+          "brightness": "300 cd/m2",
+          "contrast": "1500:1",
+          "colorGamut": "99% sRGB overlap",
+          "ports": ["HDMI 1.4", "VGA segun CVA/regional"],
+          "vesa": "100 x 100 mm",
+          "upc": "685417739882",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 687, "price": 1104.47, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 20, "price": 1327.40, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["AOC US solo muestra HDMI; CVA y tiendas MX listan HDMI + VGA. Algunas tiendas marcan VA por error; AOC/CVA listan IPS."]
+        },
+        "measurements": { "dimensionsWithStand": "544.0 x 412.8 x 185.9 mm", "dimensionsWithoutStand": "544.0 x 318.5 x 34.7 mm", "packageDimensions": "615 x 420 x 112 mm", "weightWithStand": "2.47 kg", "weightWithoutStand": "2.21 kg", "grossWeight": "4.12 kg" },
+        "sourceRefs": [
+          { "title": "AOC 24B35H3 official page", "type": "manufacturer", "url": "https://www.aoc.com/us/monitors/24b35h3" },
+          { "title": "CVA AOC 24B35H3 PDF", "type": "provider_spec", "url": "https://apicvaservices.grupocva.com/api/v2/pdf_service/descarga_ficha/10464078" },
+          { "title": "CT/CVA feed 24B35H3 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "w8th5xt6sz8al3f",
+      "research": {
+        "confidence": 0.9,
+        "name": "Monitor gamer AOC 24G50F 23.8 pulgadas FHD IPS 144Hz 0.5ms",
+        "description": "Monitor gamer AOC 24G50F de 23.8 pulgadas Full HD IPS, 144 Hz comercial con hasta 180 Hz OC en tabla AOC US, 0.5 ms MPRT, brillo 300 cd/m2, contraste 1500:1, HDMI, DisplayPort 1.4, salida de audio y VESA 100 x 100 mm.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/23-8-fhd-ips-144hz-180hz-oc",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://aoc.com/us/gaming/monitors/24g50f",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/270f1fc38d5c8ef203d45f6edbc13f0fb021b9f5-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10461557"
+        ],
+        "documents": [
+          { "label": "AOC 24G50F ficha BR", "type": "datasheet", "url": "https://aoc.portaltpv.com.br/uploads/specifications/2025/11/24g50f.pdf" },
+          { "label": "Cyberpuerta AOC 24G50F PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/68f/bb0/4be/68fbb04be364b0.96479207.pdf" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "24G50F",
+          "providerSku": "MNL-2928",
+          "alternateProviderSku": "MONAOC980",
+          "productType": "Monitor gamer",
+          "screenSize": "23.8 in",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS, WLED, antiglare",
+          "refreshRate": "144 Hz comercial; hasta 180 Hz OC segun tabla AOC US",
+          "responseTime": "0.5 ms MPRT; 4 ms GtG OD; 14 ms GtG",
+          "brightness": "300 cd/m2",
+          "contrast": "1500:1",
+          "ports": ["HDMI", "DisplayPort 1.4", "Audio out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 275, "price": 1400.17, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 5, "price": 1558.25, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["AOC US mezcla 144Hz comercial y 180Hz OC en tabla; fuentes BR/Cyberpuerta listan 144Hz."]
+        },
+        "measurements": { "dimensionsWithStand": "544 x 418.1 x 175 mm", "dimensionsWithoutStand": "544 x 318.5 x 36.1 mm", "weightWithStand": "2.49 kg", "weightWithoutStand": "2.25 kg", "grossWeight": "4.29 kg" },
+        "sourceRefs": [
+          { "title": "AOC 24G50F official page", "type": "manufacturer", "url": "https://aoc.com/us/gaming/monitors/24g50f" },
+          { "title": "AOC 24G50F Brazil PDF", "type": "manufacturer", "url": "https://aoc.portaltpv.com.br/uploads/specifications/2025/11/24g50f.pdf" },
+          { "title": "CT/CVA feed 24G50F stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "xmx8957xd3mjvn3",
+      "research": {
+        "confidence": 0.91,
+        "name": "Monitor AOC 27B35H3 27 pulgadas FHD IPS 120Hz HDMI VGA",
+        "description": "Monitor AOC 27B35H3 de 27 pulgadas Full HD IPS, 120 Hz, 1 ms MPRT, brillo 300 cd/m2, contraste 1500:1, HDMI 1.4, VGA/D-Sub y montaje VESA 100 x 100 mm.",
+        "manualCategoryPath": "computo/monitores/oficina",
+        "semanticCategoryPath": "computo/monitores/oficina/27-fhd-ips-120hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://aoc.com/us/monitors/27b35h3",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/d2266b48ced310e14fa77995901219ff95648b33-5280x4920.png?auto=format&fit=max&w=1920",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10464077"
+        ],
+        "documents": [
+          { "label": "AOC 27B35H3 leaflet", "type": "datasheet", "url": "https://aocdlw-prd-printservice-web.azurewebsites.net/api/print/monitor/27b35h3?locale=en-US" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "27B35H3",
+          "providerSku": "MNL-2970",
+          "alternateProviderSku": "MONAOC1020",
+          "productType": "Monitor",
+          "screenSize": "27 in",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS, WLED, antiglare",
+          "refreshRate": "120 Hz",
+          "responseTime": "1 ms MPRT; 4 ms GtG",
+          "brightness": "300 cd/m2",
+          "contrast": "1500:1",
+          "ports": ["HDMI 1.4", "VGA/D-Sub"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 0, "price": 1432.63, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 8, "price": 1472.84, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["AOC lista peso bruto general 5.32 kg y variante CN 4.45 kg; se conserva 5.32 kg."]
+        },
+        "measurements": { "dimensionsWithStand": "616.0 x 447.4 x 191.9 mm", "dimensionsWithoutStand": "616.0 x 358.8 x 35.9 mm", "packageDimensions": "690 x 480 x 124 mm", "weightWithStand": "3.04 kg", "weightWithoutStand": "2.82 kg", "grossWeight": "5.32 kg" },
+        "sourceRefs": [
+          { "title": "AOC 27B35H3 official page", "type": "manufacturer", "url": "https://aoc.com/us/monitors/27b35h3" },
+          { "title": "AOC 27B35H3 leaflet", "type": "manufacturer", "url": "https://aocdlw-prd-printservice-web.azurewebsites.net/api/print/monitor/27b35h3?locale=en-US" },
+          { "title": "CT/CVA feed 27B35H3 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "prw7avkf0028qbj",
+      "research": {
+        "confidence": 0.78,
+        "name": "Monitor gamer AOC 27G4E 27 pulgadas FHD IPS 180Hz 0.5ms",
+        "description": "Monitor gamer AOC 27G4E Full HD IPS con 180 Hz, 1 ms GtG y 0.5 ms MPRT. Existen fichas AOC regionales inconsistentes: AOC MX/US lo muestra como 23.8 pulgadas, mientras AOC SAAS/leaflet y nomenclatura 27G4E lo manejan como 27 pulgadas; conservar validacion manual contra caja/EAN.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/27-fhd-ips-180hz-validar-tamano",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aoc.com/mx/gaming/monitors/27g4e",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/255d8be79709c763f0398a2694173c496d4187f2-5000x5000.png?auto=format&fit=max&w=1920",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10430873"
+        ],
+        "documents": [
+          { "label": "AOC 27G4E SAAS ficha", "type": "datasheet", "url": "https://saas.aoc.com/product/27G4E" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "27G4E",
+          "providerSku": "MNL-2681",
+          "alternateProviderSku": "MONAOC960",
+          "productType": "Monitor gamer",
+          "screenSize": "27 in segun SAAS; 23.8 in en AOC MX/US",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS",
+          "refreshRate": "180 Hz",
+          "responseTime": "1 ms GtG; 0.5 ms MPRT",
+          "brightness": "300 cd/m2",
+          "contrast": "1000:1",
+          "ports": ["HDMI 2.0", "DisplayPort 1.4", "Audio out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 67, "price": 1790.00, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 2077.67, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Discrepancia fuerte: AOC MX/US lista 23.8 in y copy de 24G4E; AOC SAAS lista 27 in. Se marca para validacion fisica."]
+        },
+        "measurements": { "dimensionsWithStand": "613.9 x 460.4 x 177.4 mm segun SAAS 27 in", "dimensionsWithoutStand": "613.9 x 366.3 x 51.2 mm segun SAAS", "alternateDimensions": "540.0 x 380.6-493.6 x 207.6 mm segun AOC MX/US", "weightWithStand": "4.38 kg segun SAAS", "grossWeight": "6.95 kg" },
+        "sourceRefs": [
+          { "title": "AOC Mexico 27G4E page", "type": "manufacturer", "url": "https://www.aoc.com/mx/gaming/monitors/27g4e" },
+          { "title": "AOC SAAS 27G4E", "type": "manufacturer", "url": "https://saas.aoc.com/product/27G4E" },
+          { "title": "CT/CVA feed 27G4E stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "luo80ptwsohzxcp",
+      "research": {
+        "confidence": 0.9,
+        "name": "Monitor gamer AOC 27G50F 27 pulgadas FHD IPS 180Hz OC 0.5ms",
+        "description": "Monitor gamer AOC 27G50F de 27 pulgadas Full HD IPS, hasta 180 Hz OC segun paginas AOC actuales, 0.5 ms MPRT, brillo 300 cd/m2, contraste 1500:1, HDMI, DisplayPort 1.4, salida de audio y VESA 100 x 100 mm. El manual oficial menciona maximo 144 Hz.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/27-fhd-ips-144hz-180hz-oc",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aoc.com/us/gaming/monitors/27g50f",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/7818c848ccc26d9b5b591991ed1d9a594dcb936a-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10461556"
+        ],
+        "documents": [
+          { "label": "AOC 27G50F manual", "type": "manual", "url": "https://www.aoc.com/api/asset/pi48002?ext=pdf&name=27G50F+English+UG+0714" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "27G50F",
+          "providerSku": "MNL-2927",
+          "alternateProviderSku": "MONAOC990",
+          "productType": "Monitor gamer",
+          "screenSize": "27 in",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS, antiglare",
+          "refreshRate": "180 Hz OC segun AOC US/JP; manual indica 144 Hz",
+          "responseTime": "0.5 ms MPRT; 4 ms GtG",
+          "brightness": "300 cd/m2",
+          "contrast": "1500:1",
+          "ports": ["HDMI", "DisplayPort 1.4", "Audio out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 878, "price": 1688.00, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 5, "price": 1835.28, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Manual oficial lista 144Hz maximo; paginas actuales AOC listan 180Hz/OC. HDMI varia por region 1.4/2.0."]
+        },
+        "measurements": { "dimensionsWithStand": "616 x 458.7 x 190 mm", "dimensionsWithoutStand": "616 x 358.8 x 36.2 mm", "packageDimensions": "690 x 480 x 124 mm", "weightWithStand": "3.14 kg", "weightWithoutStand": "2.84 kg", "grossWeight": "5.26 kg" },
+        "sourceRefs": [
+          { "title": "AOC 27G50F official page", "type": "manufacturer", "url": "https://www.aoc.com/us/gaming/monitors/27g50f" },
+          { "title": "AOC 27G50F manual", "type": "manufacturer", "url": "https://www.aoc.com/api/asset/pi48002?ext=pdf&name=27G50F+English+UG+0714" },
+          { "title": "CT/CVA feed 27G50F stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "mm9bsa6qbpn4k4t",
+      "research": {
+        "confidence": 0.86,
+        "name": "Monitor gamer AOC C24G2 23.6 pulgadas curvo FHD VA 165Hz",
+        "description": "Monitor gamer AOC C24G2 de 23.6 pulgadas curvo 1500R Full HD VA, 165 Hz por DisplayPort, 144 Hz por HDMI, 1 ms MPRT, brillo 250 cd/m2, contraste 3000:1, VGA, 2 HDMI, DisplayPort, salida de audifonos y VESA 100 x 100 mm. Se evita ficha MX que parece mezclar datos de 27 pulgadas.",
+        "manualCategoryPath": "computo/monitores/gaming",
+        "semanticCategoryPath": "computo/monitores/gaming/23-6-curvo-fhd-va-165hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ap.aoc.com/product/C24G2",
+        "gallery": [
+          "https://cdn.sanity.io/images/hf5b3axp/production/1acc1a73c5d8c501bb96f165cc67254f5052cb35-3840x3840.png?auto=format&fit=max&w=1920",
+          "https://static.ctonline.mx/imagenes/MONAOC840/MONAOC840_2_full.jpg"
+        ],
+        "documents": [
+          { "label": "AOC C24G2 AP ficha", "type": "manufacturer", "url": "https://ap.aoc.com/product/C24G2" }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "C24G2",
+          "providerSku": "MONAOC840",
+          "productType": "Monitor gamer",
+          "screenSize": "23.6 in",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "VA curvo 1500R, antiglare",
+          "refreshRate": "165 Hz DisplayPort; 144 Hz HDMI; 60 Hz VGA",
+          "responseTime": "1 ms MPRT",
+          "brightness": "250 cd/m2",
+          "contrast": "3000:1",
+          "ports": ["VGA", "2x HDMI", "DisplayPort 1.2", "Headphone out"],
+          "vesa": "100 x 100 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 2762.11, "currency": "MXN", "branch": "ZAC/HMO/TRN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["AOC MX muestra C24G2 como 27 in, pero AOC AP/HQ y nomenclatura C24 indican 23.6 in; se conserva 23.6 in para CT MONAOC840."]
+        },
+        "measurements": { "dimensionsWithStand": "536.1 x 375.3-505.3 x 227.4 mm", "dimensionsWithoutStand": "536.1 x 321 x 68.5 mm", "weightWithStand": "4.35 kg", "weightWithoutStand": "2.99 kg" },
+        "sourceRefs": [
+          { "title": "AOC AP C24G2 official specs", "type": "manufacturer", "url": "https://ap.aoc.com/product/C24G2" },
+          { "title": "AOC Mexico C24G2 variant page", "type": "manufacturer", "url": "https://www.aoc.com/mx/gaming/monitors/c24g2" },
+          { "title": "CT feed MONAOC840 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

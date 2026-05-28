@@ -226,6 +226,13 @@ const researchedBatchCases = [
   ["AMD Athlon 3000G CPUAMD2050 Radeon Vega 3", "AMD", "computo/componentes/procesadores/amd-athlon"],
   ["AMD Ryzen 5 8600G CPUAMD2670 AM5 Radeon 760M", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
   ["AMD Ryzen 5 8500G CPUAMD2680 AM5 Radeon 740M", "AMD", "computo/componentes/procesadores/amd-ryzen-am5"],
+  ["AOC 22B35HM23 monitor 21.5 FHD 120Hz", "AOC", "computo/monitores/oficina"],
+  ["AOC 24B35H3 monitor 23.8 FHD IPS", "AOC", "computo/monitores/oficina"],
+  ["AOC 24G50F monitor gamer 23.8 FHD 144Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC 27B35H3 monitor 27 FHD IPS 120Hz", "AOC", "computo/monitores/oficina"],
+  ["AOC 27G4E monitor gamer 27 FHD 180Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC 27G50F monitor gamer 27 FHD 180Hz", "AOC", "computo/monitores/gaming"],
+  ["AOC C24G2 monitor gamer curvo 23.6 165Hz", "AOC", "computo/monitores/gaming"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
