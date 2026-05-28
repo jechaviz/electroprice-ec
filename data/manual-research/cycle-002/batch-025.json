@@ -1,0 +1,385 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b025-2026-05-27",
+  "cycle": 2,
+  "batch": 25,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "10x4ca5dulrklfu",
+      "research": {
+        "confidence": 0.9,
+        "name": "Microsoft Windows 11 Pro 64-bit multilenguaje ESD",
+        "description": "Licencia digital Microsoft Windows 11 Pro 64-bit multilenguaje para 1 PC, entrega ESD por descarga digital y uso comercial.",
+        "manualCategoryPath": "software/sistemas-operativos",
+        "semanticCategoryPath": "software/sistemas-operativos/windows-pro-esd",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4",
+        "specs": {
+          "brand": "MICROSOFT",
+          "model": "FQC-10572",
+          "providerSku": "SWS-4985",
+          "productType": "Sistema operativo",
+          "licenseType": "ESD / descarga digital",
+          "edition": "Windows 11 Pro",
+          "architecture": "64-bit",
+          "language": "Multilenguaje",
+          "devices": "1 PC",
+          "term": "Perpetua segun reseller",
+          "minimumRequirements": ["CPU 1 GHz 2 nucleos compatible", "4 GB RAM", "64 GB almacenamiento", "UEFI Secure Boot", "TPM 2.0", "DirectX 12 WDDM 2.0", "Pantalla 720p mayor a 9 in"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 1, "price": 184.21, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Microsoft Windows 11 Pro download page", "type": "manufacturer", "url": "https://www.microsoft.com/en-us/d/windows-11-pro/dg7gmgf0d8h4" },
+          { "title": "Microsoft Windows 11 system requirements", "type": "manufacturer_support", "url": "https://support.microsoft.com/es-es/windows/requisitos-del-sistema-de-windows-11-86c11283-ea52-4782-9efd-7674389a7ba3" },
+          { "title": "Stoffel Microsoft FQC-10572 ESD reference", "type": "reseller_spec", "url": "https://www.stoffel.de/product/110382/Microsoft-Windows-11-Pro-64bit%2C-ESD-%28multilingual%2C-PC%29.html" },
+          { "title": "CVA feed SWS-4985 stock 1 no branch", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1dr9fvov9oo7hn2",
+      "research": {
+        "confidence": 0.94,
+        "name": "CDP UPO22-10 UPS online doble conversion 10 kVA 10 kW",
+        "description": "UPS CDP UPO22-10 true online de doble conversion, 10 kVA/10 kW, factor de potencia 1, transferencia 0 ms, salida senoidal y comunicaciones RS232/USB con opcion SNMP.",
+        "manualCategoryPath": "energia/no-breaks-ups/doble-conversion",
+        "semanticCategoryPath": "energia/no-breaks-ups/doble-conversion/online-10kva",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?mf=cHJvdGVjdGlvbg&prd=NTc3&prdn=VVBPMjItMTA",
+        "documents": [
+          { "label": "CDP UPO22-10 catalog", "type": "datasheet", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/577-CATALOGO%20UPO22-10.pdf" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "UPO22-10",
+          "providerSku": "NBKCDP1750",
+          "alternateProviderSku": "FR-2354",
+          "productType": "UPS online doble conversion",
+          "capacity": "10 kVA / 10 kW",
+          "powerFactor": "1.0",
+          "transferTime": "0 ms",
+          "inputVoltage": "208/220/230/240 Vca autosensado",
+          "outputVoltage": "104/110/115/120 o 208/220/230/240 Vca seleccionable",
+          "waveform": "Senoidal",
+          "communications": ["RS232", "USB", "SNMP opcional"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 1, "price": 50000, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 50163.58, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "250 x 800 x 510 mm", "weight": "124 kg" },
+        "sourceRefs": [
+          { "title": "CDP UPO22-10 official product page", "type": "manufacturer", "url": "https://www.cdpenergy.com/productdetails.asp?mf=cHJvdGVjdGlvbg&prd=NTc3&prdn=VVBPMjItMTA" },
+          { "title": "CDP UPO22-10 official catalog", "type": "datasheet", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/577-CATALOGO%20UPO22-10.pdf" },
+          { "title": "CTOnline/CVA feed NBKCDP1750 and FR-2354 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bohydlzrznk5nj",
+      "research": {
+        "confidence": 0.86,
+        "name": "Acteck Dynamic Exact R BS700 bocinas Bluetooth 2.0 50 W negras",
+        "description": "Bocinas activas Acteck Dynamic Exact R BS700 2.0 de escritorio/estudio, 50 W RMS, Bluetooth 5.3, RCA, HDMI ARC, USB, entrada 3.5 mm e iluminacion RGB.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/escritorio-2-0",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/bocinas-activas-para-escritorio-estudio-dynamic-exact-r-bs700-bluetooth-negro",
+        "documents": [
+          { "label": "Acteck R BS700 technical sheet", "type": "datasheet", "url": "https://drive.google.com/file/d/1I8TAzlaXDAZ3DK4tX56NGZd27UPLg8sq/view?usp=sharing" },
+          { "label": "Acteck R BS700 manual", "type": "manual", "url": "https://drive.google.com/uc?export=download&id=1gOJTjsRYFlJ-i_9l1Cg6Bq8cHbIHhu6k" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "R BS700",
+          "partNumber": "AC-940818",
+          "providerSku": "BOCACT680",
+          "ean": "7506215940818",
+          "productType": "Bocinas activas 2.0",
+          "powerRms": "50 W",
+          "channels": "2.0",
+          "connectivity": ["Bluetooth 5.3", "RCA", "HDMI ARC", "USB 2.0", "3.5 mm"],
+          "lighting": "RGB 7 modos",
+          "frequencyRange": "6 Hz - 18 kHz segun pagina Acteck",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 1421.57, "currency": "MXN", "branch": "OAX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "155 x 210 x 245 mm segun retail", "weight": "7 kg segun retail" },
+        "sourceRefs": [
+          { "title": "Acteck R BS700 official page", "type": "manufacturer", "url": "https://acteck.com/products/bocinas-activas-para-escritorio-estudio-dynamic-exact-r-bs700-bluetooth-negro" },
+          { "title": "MCAshop Acteck R BS700 dimensions", "type": "reseller_spec", "url": "https://mcashop.mx/producto/642902/bocinas-acteck-r-bs700" },
+          { "title": "Ofix Acteck R BS700 SKU validation", "type": "reseller_spec", "url": "https://www.ofix.mx/bocinas-acteck-r-bs700-ac-940819/p" },
+          { "title": "CTOnline feed BOCACT680 stock 1 OAX", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "5cmr8jwnlmoaxm5",
+      "research": {
+        "confidence": 0.9,
+        "name": "Hisense WSA1102PCN lavadora semiautomatica doble tina 11 kg",
+        "description": "Lavadora semiautomatica Hisense WSA1102PCN de carga superior con doble tina, capacidad de lavado 11 kg, centrifugado aproximado 5.5 kg, control por perillas y filtro atrapapelusa.",
+        "manualCategoryPath": "hogar/electrodomesticos/lavadoras",
+        "semanticCategoryPath": "hogar/electrodomesticos/lavadoras/semiautomaticas-doble-tina",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Hisense WSA1102PCN datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/621/d00/242/621d0024283833.44537257.pdf" }
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "WSA1102PCN",
+          "providerSku": "LAVHSE030",
+          "ean": "6901101814562",
+          "productType": "Lavadora semiautomatica doble tina",
+          "capacity": "11 kg",
+          "spinCapacity": "5.5 kg aprox.",
+          "loadType": "Carga superior",
+          "controls": "Perillas",
+          "features": ["Lavado y centrifugado simultaneo", "Filtro atrapapelusa", "Storm Wash"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 2591.11, "currency": "MXN", "branch": "DFT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "723 x 408 x 819 mm", "weight": "19 kg" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Hisense WSA1102PCN datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/621/d00/242/621d0024283833.44537257.pdf" },
+          { "title": "Walmart Mexico WSA1102PCN", "type": "reseller_spec", "url": "https://www.walmart.com.mx/ip/lavadora-semiautomatica-doble-tina-11-kilos-hisense-wsa1102pcn/00060567128255" },
+          { "title": "Sanborns WSA1102PCN EAN reference", "type": "reseller_spec", "url": "https://www.sanborns.com.mx/producto/607643/lavadora-semiautomatica-hisense-dos-tinas-11-kg-wsa1102pcn" },
+          { "title": "CTOnline feed LAVHSE030 stock 1 DFT", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7iiqigx4o0w3ufr",
+      "research": {
+        "confidence": 0.82,
+        "name": "Hisense ACR242KG minisplit 2 toneladas solo frio 220 V blanco",
+        "description": "Aire acondicionado minisplit Hisense ACR242KG de 2 toneladas, 22000 BTU/h, solo frio, 220-230 V, color blanco, para climatizacion residencial o comercial ligera.",
+        "manualCategoryPath": "hogar/electrodomesticos/aires-acondicionados",
+        "semanticCategoryPath": "hogar/electrodomesticos/aires-acondicionados/minisplit-2-toneladas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "Hisense",
+          "model": "ACR242KG",
+          "providerSku": "AIRHSE550",
+          "ean": "6926597788319",
+          "productType": "Minisplit solo frio",
+          "capacity": "2 toneladas / 22000 BTU/h",
+          "nominalPower": "2550 W segun distribuidores",
+          "voltage": "220-230 V",
+          "color": "Blanco",
+          "inverter": "No reportado como inverter",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 8733.66, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Abasteo Hisense ACR242KG specs", "type": "reseller_spec", "url": "https://www.abasteo.mx/Electrodomesticos/Clima-y-Ambiente/Aires-Acondicionados/Hisense-Aire-Acondicionado-Minisplit-ACR242KG-22000-BTU-h-2-550W-Solo-Frio-220V-Blanco.html" },
+          { "title": "Zegucom Hisense ACR242KG", "type": "reseller_spec", "url": "https://www.zegucom.com.mx/producto/electrodomesticos/minisplit-aire-acondicionado/minisplit-hisense-2-toneladas-acr242kg-230v-estandar-solo-frio-color/QUNSMjQyS0c%3D" },
+          { "title": "Cityshop Hisense ACR242KG", "type": "reseller_spec", "url": "https://cityshop.mx/producto/minisplit-hisense-2-toneladas-acr242kg-230v-estandar-solo-frio-color-blanco" },
+          { "title": "CTOnline feed AIRHSE550 stock 2 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "81dm7n7m8354hko",
+      "research": {
+        "confidence": 0.93,
+        "name": "TP-Link DeltaStream DS-P7001-16 OLT GPON 16 puertos",
+        "description": "OLT GPON TP-Link DeltaStream DS-P7001-16 de 16 puertos PON, hasta 2048 ONT, uplinks 4 x 10G SFP+ y 2 x Gigabit RJ45, administracion por DPMS/SNMP/CLI/Web UI.",
+        "manualCategoryPath": "redes/fibra-optica/olt-gpon",
+        "semanticCategoryPath": "redes/fibra-optica/olt-gpon/16-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/es/service-provider/gpon/ds-p7001-16/",
+        "documents": [
+          { "label": "TP-Link DS-P7001-16 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202411/20241101/DS-P7001-16%20%28UN%29%201.0%20Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "DS-P7001-16 GPON",
+          "providerSku": "ACCTPL1240",
+          "upcFromProvider": "840030703621",
+          "eanObservedOnline": "4897098683620",
+          "productType": "OLT GPON",
+          "ponPorts": "16 GPON",
+          "splitRatio": "1:128 por puerto",
+          "maxOnt": "2048",
+          "uplinks": ["4 x 10 Gbps SFP+", "2 x RJ45 10/100/1000 Mbps"],
+          "management": ["RJ45 management", "RJ45 console", "alarm port", "SNMP", "CLI", "Web UI", "DPMS"],
+          "gponRate": "2.5 Gbps downstream / 1.25 Gbps upstream",
+          "fiber": "SMF 9/125 um SC/UPC clase C+ hasta 20 km",
+          "power": "AC 100-240 V o DC -38.4 a -72 V",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 1823.53, "currency": "USD", "branch": "CUN/ZAC" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "440 x 260 x 44 mm", "maxPowerConsumption": "70 W" },
+        "sourceRefs": [
+          { "title": "TP-Link DS-P7001-16 official ES page", "type": "manufacturer", "url": "https://www.tp-link.com/es/service-provider/gpon/ds-p7001-16/" },
+          { "title": "TP-Link DS-P7001-16 service-provider page", "type": "manufacturer", "url": "https://service-provider.tp-link.com/gpon/ds-p7001-16/" },
+          { "title": "TP-Link DS-P7001-16 official datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202411/20241101/DS-P7001-16%20%28UN%29%201.0%20Datasheet.pdf" },
+          { "title": "GlobalOffice DS-P7001-16 EAN reference", "type": "reseller_spec", "url": "https://www.globaloffice.com.mx/app/detalle/producto/redes-e-it/deltastream-olt-de-16-puertos-gpon-conexion-de/ds-p7001-16" },
+          { "title": "CTOnline feed ACCTPL1240 stock 2 CUN/ZAC", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "939as9pif4cxddk",
+      "research": {
+        "confidence": 0.8,
+        "name": "Norton 360 Deluxe 3 dispositivos 1 ano caja",
+        "description": "Suscripcion Norton 360 Deluxe retail para 3 dispositivos durante 1 ano, con proteccion antivirus y suite de seguridad para Windows/Mac segun empaque de reseller.",
+        "manualCategoryPath": "software/seguridad",
+        "semanticCategoryPath": "software/seguridad/antivirus-suite-3-dispositivos",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mx.norton.com/products/norton-360-deluxe",
+        "specs": {
+          "brand": "NORTON",
+          "model": "21414731",
+          "providerSku": "SWS-4445",
+          "productType": "Suite de seguridad / antivirus",
+          "licenseType": "Suscripcion retail caja",
+          "devices": "3 dispositivos segun reseller",
+          "term": "1 ano",
+          "platforms": ["Windows", "macOS", "Android", "iOS segun plan Norton 360 Deluxe actual"],
+          "note": "La pagina actual de Norton Mexico describe Norton 360 Deluxe hasta 5 dispositivos; el SKU retail verificado por resellers es variante de 3 dispositivos.",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 2, "price": 352.19, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "sourceRefs": [
+          { "title": "Norton 360 Deluxe Mexico", "type": "manufacturer", "url": "https://mx.norton.com/products/norton-360-deluxe" },
+          { "title": "Norton 360 Deluxe system requirements", "type": "manufacturer_support", "url": "https://support.norton.com/sp/de/de/norton-360-deluxe/25.3/solutions/v133891548" },
+          { "title": "Cyberpuerta Norton 360 Deluxe 3 devices SKU", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Antivirus/Norton-360-Deluxe-Total-Security-3-Dispositivos-1-Ano-Windows-Mac.html" },
+          { "title": "CTI Systems Norton 21414731", "type": "reseller_spec", "url": "https://ctisystems.mx/norton-360-deluxe-3dv-1yr-21414731" },
+          { "title": "CVA feed SWS-4445 stock 2 no branch", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "99y00ww6lvayn5g",
+      "research": {
+        "confidence": 0.93,
+        "name": "Autodesk AutoCAD LT 2025 suscripcion anual single-user ELD",
+        "description": "Suscripcion comercial Autodesk AutoCAD LT 2025 anual para 1 usuario, entrega electronica ELD, orientada a dibujo tecnico y CAD 2D.",
+        "manualCategoryPath": "software/cad-diseno",
+        "semanticCategoryPath": "software/cad-diseno/autocad-lt-2025-anual",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.autodesk.com/products/autocad-lt/overview",
+        "specs": {
+          "brand": "AUTODESK",
+          "model": "057Q1-WW6525-L347",
+          "providerSku": "SOFATD720",
+          "productType": "Software CAD 2D",
+          "productName": "AutoCAD LT 2025",
+          "licenseType": "Suscripcion comercial single-user ELD",
+          "users": "1 usuario",
+          "term": "1 ano",
+          "platforms": ["Windows", "macOS segun soporte Autodesk"],
+          "minimumWindowsRequirements": ["Windows 11 64-bit o Windows 10 1809+", "CPU 2.5-2.9 GHz minimo", "8 GB RAM minimo", "Pantalla 1920 x 1080", "GPU DirectX 11"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 355.83, "currency": "USD", "branch": "GDL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Autodesk AutoCAD LT overview", "type": "manufacturer", "url": "https://www.autodesk.com/products/autocad-lt/overview" },
+          { "title": "Autodesk AutoCAD LT 2025 system requirements", "type": "manufacturer_support", "url": "https://www.autodesk.com/es/support/technical/article/caas/sfdcarticles/sfdcarticles/ESP/System-requirements-for-AutoCAD-LT-2025.html" },
+          { "title": "CTOnline Autodesk SOFATD720", "type": "provider_stock", "url": "https://ctonline.mx/Software_/Licencias-de-Aplicacion-de-Software/AUTODESK/SOFATD720/64438", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "Innovacion y Tecnologia Autodesk 057Q1-WW6525-L347", "type": "reseller_spec", "url": "https://innovacionytecnologia.net/products/autocad-autodesk-057q1-ww6525-l347" },
+          { "title": "Compupuebla Autodesk 057Q1-WW6525-L347", "type": "reseller_spec", "url": "https://compupuebla.com/producto/autocad-autodesk-057q1-ww6525-l347/" }
+        ]
+      }
+    },
+    {
+      "product_id": "bt7spfa0yo41fsa",
+      "research": {
+        "confidence": 0.82,
+        "name": "Zoomy ZWF01 bebedero fuente para mascotas 1.5 L triple filtracion",
+        "description": "Bebedero/fuente Zoomy ZWF01 para perros y gatos, capacidad 1.5 L, triple filtracion, bomba ultrasilenciosa y alimentacion USB segun resellers.",
+        "manualCategoryPath": "mascotas/bebederos-fuentes",
+        "semanticCategoryPath": "mascotas/bebederos-fuentes/fuente-agua-1-5l",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://zoomy.mx/shop/bebederos/bebedero-para-mascotas-zwf01/",
+        "specs": {
+          "brand": "ZOOMY",
+          "model": "ZWF01",
+          "providerSku": "AC-11643",
+          "eanObservedOnline": "7500647007217",
+          "productType": "Bebedero fuente para mascotas",
+          "capacity": "1.5 L",
+          "filtration": "Triple sistema de filtracion",
+          "power": "USB segun retail",
+          "material": "ABS grado alimenticio segun retail",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 3, "price": 170.31, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Zoomy ZWF01 official page", "type": "manufacturer", "url": "https://zoomy.mx/shop/bebederos/bebedero-para-mascotas-zwf01/" },
+          { "title": "FullOffice Zoomy ZWF01 capacity", "type": "reseller_spec", "url": "https://fulloffice.com/products/bebdero-para-mascotas-zoomy-1-5l-con-triple-sistema-de-filtracion-de-agua-ultrasilencioso" },
+          { "title": "Inter-DS Zoomy ZWF01 UPC/material", "type": "reseller_spec", "url": "https://inter-ds.com/products/bebedero-fuente-zoomy-1-5l-para-mascotas-con-triple-filtracion-agua-siempre-limpia-y-fresca-ultrasilencioso" },
+          { "title": "CVA feed AC-11643 stock 3 no branch", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "d58zvjr1yhqrjxr",
+      "research": {
+        "confidence": 0.94,
+        "name": "Dell Essential Backpack 15 ES1520P mochila para laptop 15.6 in",
+        "description": "Mochila Dell Essential Backpack 15 ES1520P color negro para laptops de hasta 15.6 pulgadas, con funda acolchada, material exterior resistente al agua, bolsillos laterales y detalles reflectantes.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/backpack-15-6",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Dell ES1520P data sheet", "type": "datasheet", "url": "https://i.dell.com/sites/csdocuments/Merchandizing_Docs/ja/jp/dell_essential_backpack_15_es1520p_data_sheet.pdf" },
+          { "label": "Dell/Ingram MX ES1520P brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_946089x_47502214.pdf" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "ES1520P",
+          "providerSku": "MALDLL660",
+          "dellSku": "460-BCTJ",
+          "vpn": "ES-BP-15-20",
+          "upcObservedOnline": "884116349129",
+          "eanObservedOnline": "5397184217931",
+          "productType": "Mochila para laptop",
+          "compatibleLaptopSize": "Hasta 15.6 in",
+          "laptopCompartment": "380 x 260 x 25 mm",
+          "capacity": "20 L",
+          "features": ["Funda acolchada", "Panel posterior air mesh", "Asa y tirantes acolchados", "Exterior resistente al agua", "Bolsillo frontal", "Dos bolsillos laterales", "Grafico reflectante"],
+          "warranty": "3 anos limitada segun ficha",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "QRO", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 282.32, "currency": "MXN", "branch": "QRO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "430 x 310 x 140 mm", "weight": "0.45 kg" },
+        "sourceRefs": [
+          { "title": "Dell ES1520P official data sheet", "type": "datasheet", "url": "https://i.dell.com/sites/csdocuments/Merchandizing_Docs/ja/jp/dell_essential_backpack_15_es1520p_data_sheet.pdf" },
+          { "title": "Dell/Ingram MX ES1520P brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_946089x_47502214.pdf" },
+          { "title": "Mactoner Dell ES1520P UPC/SKU reference", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/mochila-essential-backpack-15-dell-es1520p-460-bctj-negro-c-azul/" },
+          { "title": "CTOnline feed MALDLL660 stock 2 QRO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

@@ -122,6 +122,16 @@ const researchedBatchCases = [
   ["Stylos STASWM3CB smartwatch negro", "STYLOS", "wearables/smartwatches"],
   ["Stylos STASWM3CP smartwatch rosa", "STYLOS", "wearables/smartwatches"],
   ["Acteck Shift Plus AB424 receptor Bluetooth 3.5 mm", "ACTECK", "audio/adaptadores-bluetooth"],
+  ["Microsoft Windows 11 Pro FQC-10572 ESD descarga digital", "MICROSOFT", "software/sistemas-operativos"],
+  ["CDP UPO22-10 UPS online doble conversion 10 kVA", "CDP", "energia/no-breaks-ups/doble-conversion"],
+  ["Acteck Dynamic Exact R BS700 bocinas Bluetooth 50W", "ACTECK", "audio/bocinas"],
+  ["Hisense WSA1102PCN lavadora semiautomatica doble tina", "HISENSE", "hogar/electrodomesticos/lavadoras"],
+  ["Hisense ACR242KG minisplit 2 toneladas solo frio", "HISENSE", "hogar/electrodomesticos/aires-acondicionados"],
+  ["TP-Link DeltaStream DS-P7001-16 OLT GPON", "TP-LINK", "redes/fibra-optica/olt-gpon"],
+  ["Norton 360 Deluxe 21414731 3 dispositivos 1 ano", "NORTON", "software/seguridad"],
+  ["Autodesk AutoCAD LT 2025 057Q1-WW6525-L347", "AUTODESK", "software/cad-diseno"],
+  ["Zoomy ZWF01 bebedero fuente para mascotas 1.5 L", "ZOOMY", "mascotas/bebederos-fuentes"],
+  ["Dell Essential Backpack 15 ES1520P mochila laptop", "DELL", "computo/accesorios/mochilas-fundas"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
