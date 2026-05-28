@@ -463,6 +463,16 @@ const researchedBatchCases = [
   ["Meriva MOB-800FS4 camara IP bullet 8MP 4K H.265+ PoE", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet"],
   ["Generico AC-LENOVO-CH cargador laptop 45W 20V 2.25A 4.0x1.7", "GENERICO", "computo/accesorios/cargadores-laptop"],
   ["Brother PTM95 rotulador P-touch termica directa etiquetas 12 mm", "BROTHER", "impresion/impresoras/etiquetas/rotuladores-p-touch"],
+  ["Manhattan 506847 adaptador USB 3.0 a Ethernet Gigabit", "MANHATTAN", "redes/adaptadores-ethernet/usb-gigabit"],
+  ["Acteck RV1200 regulador de voltaje AVR 1200VA 600W", "ACTECK", "energia/supresores-reguladores/reguladores-voltaje/avr"],
+  ["Dahua DH-IPC-HDW1431SN-S4 camara IP turret 4MP PoE IR 30m", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/turret"],
+  ["Dahua DH-IPC-HDW1239T1P-A-LED camara IP Full Color 2MP PoE", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/turret/full-color"],
+  ["Dahua DH-HAC-B1A51N-U-0280B camara bullet HDCVI 5MP", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet"],
+  ["CyberPower CP1000PFCLCDa UPS PFC Sinewave 1000VA 600W LCD", "CYBERPOWER", "energia/no-breaks-ups/line-interactive/senoidal-pura"],
+  ["Meriva MVD-EB200ZA camara IP domo varifocal motorizado 2.8-12mm PoE", "MERIVA", "seguridad/cctv/camaras-ip-poe/domo-varifocal"],
+  ["XPG RIFT R24F2-BKCMX monitor gamer 23.8 FHD 120Hz 1ms", "XPG", "computo/monitores/gaming/24-fhd"],
+  ["DataShield MI-4217 bateria sellada UPS 12V 4.5Ah", "DATASHIELD", "energia/baterias-ups/selladas-12v"],
+  ["Xzeal XZCO413B enfriamiento liquido AIO 240mm ARGB", "XZEAL", "computo/componentes/enfriamiento/liquido-cpu/240mm"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

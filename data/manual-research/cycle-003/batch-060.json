@@ -1,0 +1,527 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b060-2026-05-28",
+  "cycle": 3,
+  "batch": 60,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0uq2hv8o2i2de0j",
+      "research": {
+        "confidence": 0.96,
+        "name": "Manhattan 506847 adaptador USB-A 3.0 a Ethernet Gigabit 10/100/1000 Mbps blanco",
+        "description": "Adaptador Manhattan 506847 USB-A 3.0 a RJ45 Gigabit para agregar red cableada 10/100/1000 Mbps a laptops, ultrabooks, Surface, MacBook y Chromebook. Soporta full-duplex hasta 2 Gbps, Auto MDI-X, Wake-on-LAN, VLAN, QoS y jumbo frames.",
+        "manualCategoryPath": "redes/adaptadores-ethernet/usb-gigabit",
+        "semanticCategoryPath": "redes/adaptadores-ethernet/usb-gigabit/usb-a-3-0-506847",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-usb-30-to-gigabit-network-adapter-506847",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9514986",
+          "https://manhattanproducts.us/cdn/shop/products/usb-30-to-gigabit-network-adapter-506847-1.jpg?v=1679536318&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/usb-30-to-gigabit-network-adapter-506847-2.jpg?v=1679536318&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/usb-30-to-gigabit-network-adapter-506847-packaging-6.jpg?v=1679536318&width=1400"
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "506847",
+          "providerSku": "AD-300",
+          "ctMirrorSku": "TARITL720",
+          "productType": "USB 3.0 to Gigabit Ethernet adapter",
+          "hostInterface": "USB-A 3.0 / USB 3.2 Gen 1",
+          "networkPort": "RJ45 10/100/1000Base-T",
+          "networkFeatures": "Full-duplex up to 2 Gbps, Auto MDI-X, Wake-on-LAN, PXE, VLAN 802.1q, QoS 802.1p",
+          "jumboFrames": "Up to 4 KB",
+          "compatibility": "Windows 7/8/8.1/10/11, macOS 10/11, Chrome OS",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TARITL720", "stock": 259, "price": 13.36, "currency": "USD", "branch": "" },
+            { "providerId": "cva", "providerSku": "AD-300", "stock": 6, "price": 14.21, "currency": "USD", "branch": "" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed inicial lo tenia en switches; la identidad oficial y la descripcion confirman adaptador USB a Ethernet.",
+            "Las claves AD-300 y TARITL720 son internas de proveedor; el modelo comercial confirmado es Manhattan 506847."
+          ]
+        },
+        "measurements": { "dimensions": "59 x 22 x 16 mm", "weight": "145 g", "cableLength": "15 cm" },
+        "sourceRefs": [
+          { "title": "Manhattan 506847 official page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-usb-30-to-gigabit-network-adapter-506847" },
+          { "title": "CVA feed AD-300 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" },
+          { "title": "CTOnline feed TARITL720 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0uuj77mcclh8ouf",
+      "research": {
+        "confidence": 0.95,
+        "name": "Acteck Enertor Protect RV1200 regulador de voltaje AVR 1200VA 600W 8 contactos 2 USB negro",
+        "description": "Regulador de voltaje Acteck Enertor Protect RV1200 / AC-938204 con capacidad de 1200VA y 600W, AVR Plus de dos pasos, proteccion contra picos, 8 contactos NEMA 5-15R y 2 puertos USB-A para carga de 5V 2.4A.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1200va-600w-8-contactos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/regulador-de-voltaje-enertor-protect-rv1200",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/REGACT030/REGACT030_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-938204-1_1.webp?v=1713204549&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-938204-U.webp?v=1713390292&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "RV1200 / AC-938204",
+          "providerSku": "REGACT030",
+          "ean": "7506215938204",
+          "productType": "Automatic voltage regulator",
+          "capacity": "1200 VA / 600 W",
+          "input": "120 V AC, 96-148 V range, 50/60 Hz auto",
+          "output": "120 V AC, 108-132 V range",
+          "outlets": "8 NEMA 5-15R",
+          "usbPorts": "2 USB-A, 5 V 2.4 A max",
+          "surgeProtection": "175 J",
+          "cable": "1 m NEMA 5-15P",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 25 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 5 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "REGACT030", "stock": 30, "price": 326.32, "currency": "MXN", "branch": "D2A:25,HMO:5" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos listados muestran 12000 VA por error; fabricante y CT confirman 1200 VA.",
+            "El nombre aparece como Enerton en algunos feeds; Acteck usa Enertor Protect RV1200."
+          ]
+        },
+        "measurements": { "dimensions": "105 x 171 x 107 mm", "weight": "1.37 kg", "packageDimensions": "17.3 x 15.7 x 11.2 cm" },
+        "sourceRefs": [
+          { "title": "Acteck RV1200 official page", "type": "manufacturer", "url": "https://acteck.com/products/regulador-de-voltaje-enertor-protect-rv1200" },
+          { "title": "Zero1 Acteck RV1200", "type": "reseller", "url": "https://zero1.mx/respaldo-y-regulacion/4140-regulador-acteck-rv1200-7506215938204.html" },
+          { "title": "CTOnline feed REGACT030 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0uvu4lxwjecx2x6",
+      "research": {
+        "confidence": 0.94,
+        "name": "Dahua DH-IPC-HDW1431SN-S4 camara IP turret 4MP PoE lente 2.8mm IR 30m IP67",
+        "description": "Camara IP Dahua DH-IPC-HDW1431SN-S4 tipo eyeball/turret de 4MP con lente fijo de 2.8mm, IR de 30m, WDR real 120dB, compresion Smart H.265+, alimentacion PoE o 12V DC y proteccion IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp-ir30m-wdr120",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/br/products/All-Products/Network-Cameras/Entry-Series/4MP/IPC-HDW1431S-S4",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH2840/CAMDAH2840_full.jpg",
+          "https://material.dahuasecurity.com/uploads/image/20191108/IPC-HDW1431S-S4_thumb.png",
+          "https://cdn.tvc.mx/media/469242/Camara-IP-Domo-de-4-Megapixeles--IPC-HDW1431S-S4.png"
+        ],
+        "documents": [
+          { "label": "Dahua IPC-HDW1431S-S4 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/soft/20220513/DH-IPC-HDW1431S-S4-Datasheet-20220513.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-IPC-HDW1431SN-S4",
+          "providerSku": "CAMDAH2840",
+          "ean": "6939554979576",
+          "productType": "4MP IP eyeball/turret camera",
+          "sensor": "1/3 inch 4MP progressive CMOS",
+          "resolution": "2688 x 1520 at 20 fps; 2560 x 1440 at 25/30 fps",
+          "codec": "H.265/H.264/H.264B/MJPEG, Smart H.265+/H.264+",
+          "lens": "2.8 mm F2.0, 93 deg horizontal",
+          "nightVision": "IR up to 30 m",
+          "imageEnhancement": "WDR 120 dB, 3D NR, BLC, HLC, ROI",
+          "network": "RJ45 10/100, ONVIF Profile S/G/T",
+          "power": "12 V DC or PoE 802.3af, under 4.9 W",
+          "ingressProtection": "IP67",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH2840", "stock": 1, "price": 50.4, "currency": "USD", "branch": "TAM:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed usa DH-IPC-HDW1431SN-S4; la pagina oficial agrupa la familia IPC-HDW1431S-S4 y datasheet lista el part number NTSC.",
+            "Comercialmente aparece como domo/turret; Dahua la denomina eyeball network camera."
+          ]
+        },
+        "measurements": { "dimensions": "84.9 mm x diameter 108 mm", "weight": "0.27 kg net", "packageWeight": "0.40 kg gross" },
+        "sourceRefs": [
+          { "title": "Dahua IPC-HDW1431S-S4 official page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/br/products/All-Products/Network-Cameras/Entry-Series/4MP/IPC-HDW1431S-S4" },
+          { "title": "Dahua IPC-HDW1431S-S4 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/soft/20220513/DH-IPC-HDW1431S-S4-Datasheet-20220513.pdf" },
+          { "title": "CTOnline feed CAMDAH2840 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0uys7pn6q4ocg2v",
+      "research": {
+        "confidence": 0.93,
+        "name": "Dahua DH-IPC-HDW1239T1P-A-LED-S6 camara IP turret Full Color 2MP PoE 2.8mm microfono IP67",
+        "description": "Camara IP Dahua DH-IPC-HDW1239T1P-A-LED-S6 tipo eyeball/turret Full Color de 2MP con lente de 2.8mm, luz calida hasta 30m, microfono integrado, SMD, PoE, 12V DC e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/full-color",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/full-color/2mp-led-microfono",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH6530/CAMDAH6530_full.jpg",
+          "https://cdn.tvc.mx/media/1570874/DAHUA-DHT0040138-CAMARA-DOMO-IP-FULLCOLOR-2MP-PRINCIPAL.png",
+          "https://compupuebla.com/wp-content/uploads/2025/12/CmaraDAHUAHDW1239T1PALED0280BS6cma_HDW1239T1PALED0280BS_EAN6923172567604_0-600x716.jpg"
+        ],
+        "documents": [
+          { "label": "Dahua IPC-HDW1239T1-A-LED S6 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HDW1239T1-A-LED_S6_datasheet_20240131.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-IPC-HDW1239T1P-A-LED-0280B-S6",
+          "providerSku": "CAMDAH6530",
+          "ean": "6923172567604",
+          "productType": "2MP Full Color IP eyeball/turret camera",
+          "sensor": "1/2.8 inch CMOS",
+          "resolution": "1920 x 1080 at 25/30 fps",
+          "codec": "H.265/H.264",
+          "lens": "2.8 mm, horizontal 105 deg, vertical 56 deg, diagonal 126 deg",
+          "illumination": "Warm light up to 30 m",
+          "audio": "Built-in microphone",
+          "analytics": "Human detection SMD",
+          "power": "PoE 802.3af or 12 V DC",
+          "ingressProtection": "IP67",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6530", "stock": 1, "price": 43.64, "currency": "USD", "branch": "TPC:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed omite el prefijo IPC en el nombre corto; por EAN y referencias corresponde a DH-IPC-HDW1239T1P-A-LED-S6.",
+            "Algunos resellers mencionan 15 m de luz blanca; la ficha S6 indica hasta 30 m."
+          ]
+        },
+        "measurements": { "dimensions": "85.5 mm x diameter 109 mm", "weight": "0.25 kg net", "packageWeight": "0.38 kg gross" },
+        "sourceRefs": [
+          { "title": "Dahua IPC-HDW1239T1-A-LED S6 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/IPC-HDW1239T1-A-LED_S6_datasheet_20240131.pdf" },
+          { "title": "GlobalOffice Dahua HDW1239T1P-A-LED", "type": "reseller", "url": "https://globaloffice.com.mx/app/detalle/producto/domo/dahua-dh-ipc-hdw1239t1p-a-led-0280b-s6-camara-ip-domo-full/dh-ipc-hdw1239t1-a-led-s6" },
+          { "title": "CTOnline feed CAMDAH6530 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0uznzdjyarr564l",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dahua DH-HAC-B1A51N-U-0280B camara bullet HDCVI 5MP lente 2.8mm IR 30m IP67",
+        "description": "Camara bullet analogica Dahua DH-HAC-B1A51N-U-0280B HDCVI de 5MP, lente fijo 2.8mm, IR de 30m, DWDR y salida conmutable CVI/TVI/AHD/CVBS por BNC. Es una camara HDCVI analogica, no una camara IP.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/5mp-2-8mm-ir30m",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/hdcvi-products/hdcvi-cameras/cooper-series/5mp/hac-b1a51-u%3Ds3",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH5650/CAMDAH5650_full.jpg",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_12_27491/ProductImage/1_0_01_12_27491_519956980_crop_thumb.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_12_27491/ProductImage/1_0_01_12_27491_519956983_crop_thumb.PNG"
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-HAC-B1A51N-U-0280B",
+          "providerSku": "CAMDAH5650",
+          "ean": "6923172522597",
+          "productType": "5MP HDCVI analog bullet camera",
+          "sensor": "5MP CMOS",
+          "resolution": "2880 x 1620, 16:9",
+          "lens": "2.8 mm, horizontal 105.5 deg, vertical 56.5 deg, diagonal 125.3 deg",
+          "nightVision": "IR up to 30 m",
+          "videoOutput": "CVI/TVI/AHD/CVBS by BNC DIP switch",
+          "imageEnhancement": "DWDR, BLC, HLC, 2D NR",
+          "power": "12 V DC, max 3.5 W",
+          "ingressProtection": "IP67",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "COL", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH5650", "stock": 1, "price": 18.84, "currency": "USD", "branch": "COL:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunos resellers la agrupan en camaras IP, pero la ficha oficial confirma HDCVI analogica por BNC.",
+            "El sitio oficial agrupa HAC-B1A51-U; el sufijo N-U-0280B identifica region NTSC y lente 2.8mm."
+          ]
+        },
+        "measurements": { "dimensions": "146.1 x 70.0 x 69.8 mm", "weight": "0.17 kg net", "packageWeight": "0.25 kg gross" },
+        "sourceRefs": [
+          { "title": "Dahua HAC-B1A51-U official page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/hdcvi-products/hdcvi-cameras/cooper-series/5mp/hac-b1a51-u%3Ds3" },
+          { "title": "GlobalOffice Dahua HAC-B1A51-U", "type": "reseller", "url": "https://globaloffice.com.mx/app/detalle/producto/bullet/dahua-hac-b1a51-u-28-camara-bullet-de-5-megapixe/dh-hac-b1a51n-u-0280b" },
+          { "title": "CTOnline feed CAMDAH5650 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0virfc27at4e5g0",
+      "research": {
+        "confidence": 0.94,
+        "name": "CyberPower CP1000PFCLCDa no-break PFC Sinewave 1000VA 600W AVR LCD 10 contactos",
+        "description": "No-break CyberPower CP1000PFCLCDa de linea interactiva con salida de onda senoidal pura, 1000VA/600W, AVR, pantalla LCD inclinable, 10 contactos NEMA 5-15R, proteccion RJ11/RJ45 y puertos USB-A/USB-C de carga.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/senoidal-pura",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/senoidal-pura/1000va-600w-lcd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web2.cyberpower.com/global/en/product/sku/cp1000pfclcda",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/NBKCYP510/NBKCYP510_full.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/cp1000pfclcd-front-vertical-photo-1-1024x1024.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/cp1000pfclcd-back-vertical-photo-1-1024x1024.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/cp1000pfclcd-enhanced-dims-1-1024x1024.jpg"
+        ],
+        "specs": {
+          "brand": "CyberPower",
+          "model": "CP1000PFCLCDa",
+          "providerSku": "NBKCYP510",
+          "upc": "649532609628",
+          "productType": "Line-interactive PFC sinewave UPS",
+          "capacity": "1000 VA / 600 W",
+          "topology": "Line interactive",
+          "waveform": "Pure sine wave",
+          "input": "120 V, NEMA 5-15P",
+          "outlets": "10 NEMA 5-15R, 5 battery plus surge and 5 surge only",
+          "avr": "Single boost AVR",
+          "runtime": "Approx. 6 min half load / 2 min full load",
+          "rechargeTime": "8 h typical",
+          "replacementBattery": "RB1290",
+          "usbCharging": "USB-A and USB-C 5V/3.1A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 11 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKCYP510", "stock": 11, "price": 4122.97, "currency": "MXN", "branch": "DFA:11" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CP1000PFCLCDa es variante regional; CP1000PFCLCD de CyberPower USA comparte chasis y especificacion base.",
+            "Precio del sitio USA no se compara con el precio proveedor CT en MXN."
+          ]
+        },
+        "measurements": { "dimensions": "100 x 247.5 x 259.1 mm", "weight": "6.9 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower CP1000PFCLCDa official page", "type": "manufacturer", "url": "https://web2.cyberpower.com/global/en/product/sku/cp1000pfclcda" },
+          { "title": "CyberPower CP1000PFCLCD USA page", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/pfc-sinewave/cp1000pfclcd/" },
+          { "title": "CTOnline feed NBKCYP510 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0vl3t0bpai9a5o9",
+      "research": {
+        "confidence": 0.94,
+        "name": "Meriva MVD-EB200ZA camara IP domo 2MP PoE H.265+ lente motorizado 2.8-12mm IR 50m IP67 IK10",
+        "description": "Camara IP domo Meriva Technology MVD-EB200ZA de 2MP con lente varifocal motorizado 2.8-12mm, IR de 30 a 50m, WDR 120dB, PoE, IP67, IK10, microfono integrado, entrada/salida de audio y alarma, microSD hasta 256GB y analiticos MIA 2.0.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo-varifocal",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo-varifocal/2mp-motorizado-ir50m",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MVD-EB200ZA",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=20388876&c=4820964&h=FDKihv0hqX_C32zD-yLkZYBOw8-2nhJeAccFa2QLimGVGNTq",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-MERIVATECHNOLOGY-MVD-EB200ZA-1.jpg"
+        ],
+        "documents": [
+          { "label": "Meriva MVD-EB200ZA ficha tecnica", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=zfRmzlN_3WR4YQtTwG8kRbtEukoYmvNQurg0oID19YdazQr8&id=20962650" }
+        ],
+        "specs": {
+          "brand": "Meriva Technology",
+          "model": "MVD-EB200ZA",
+          "providerSku": "CI111MER70",
+          "productType": "2MP motorized varifocal IP dome camera",
+          "sensor": "1/2.8 inch CMOS",
+          "resolution": "1920 x 1080 at 30 fps",
+          "codec": "H.265+/H.265/H.264+/H.264, triple stream",
+          "lens": "Motorized 2.8-12 mm F1.3, horizontal 105-30 deg, vertical 55-16 deg",
+          "nightVision": "IR 30-50 m",
+          "imageEnhancement": "WDR 120 dB, 3DNR, BLC, HLC, defog",
+          "storage": "MicroSD up to 256 GB",
+          "audioAlarm": "Built-in microphone, audio I/O, alarm I/O, BNC output",
+          "network": "RJ45 10/100, ONVIF, MIA 2.0",
+          "power": "PoE 802.3af or 12 V DC",
+          "ingressProtection": "IP67, IK10",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "MX", "stock": 17 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI111MER70", "stock": 17, "price": 2546.76, "currency": "MXN", "branch": "MX:17" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "El feed no provee sucursal; espejo GlobalOffice indica Almacen Mexico: 17.",
+            "Algunas paginas resumen solo H.265, pero la ficha oficial menciona H.265+."
+          ]
+        },
+        "measurements": { "dimensions": "Diameter 141 x 100.2 mm", "weight": "0.89 kg approx" },
+        "sourceRefs": [
+          { "title": "Meriva MVD-EB200ZA official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MVD-EB200ZA" },
+          { "title": "Meriva MVD-EB200ZA datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=zfRmzlN_3WR4YQtTwG8kRbtEukoYmvNQurg0oID19YdazQr8&id=20962650" },
+          { "title": "Tecnosinergia CI111MER70 feed stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0vnb7s7rhzlhp9s",
+      "research": {
+        "confidence": 0.94,
+        "name": "XPG RIFT R24F2-BKCMX monitor gamer 23.8 pulgadas Full HD IPS 120Hz 1ms HDMI DisplayPort negro",
+        "description": "Monitor gamer XPG RIFT R24F2-BKCMX de 23.8 pulgadas con panel IPS Full HD 1920 x 1080, frecuencia de 120Hz, respuesta 1ms MPRT, Adaptive Sync, 99% sRGB, HDMI 2.0, DisplayPort 1.2 y montaje VESA 75 x 75mm.",
+        "manualCategoryPath": "computo/monitores/gaming/24-fhd",
+        "semanticCategoryPath": "computo/monitores/gaming/24-fhd/ips-120hz-1ms",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xpg.com/mx/xpg/RIFT-R24F2-Monitor-Gaming?tab=spec",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MONDAT030/MONDAT030_5_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-XPG-RIFTR24F2-BKCMX-2e4f70.webp",
+          "https://www.pcgaming.mx/web/image/product.template/494073/image_1920?unique=64ebb22"
+        ],
+        "documents": [
+          { "label": "XPG RIFT R24F2 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/rift_r24f2_datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "XPG",
+          "model": "RIFT R24F2-BKCMX",
+          "providerSku": "MONDAT030",
+          "upc": "842243036848",
+          "productType": "Gaming monitor",
+          "display": "23.8 inch IPS, 1920 x 1080 FHD, 16:9",
+          "refreshRate": "120 Hz",
+          "responseTime": "1 ms MPRT",
+          "sync": "Adaptive Sync",
+          "brightness": "300 nits",
+          "contrast": "1000:1",
+          "color": "99% sRGB, 16.7M colors",
+          "ports": "1 HDMI 2.0, 1 DisplayPort 1.2",
+          "mount": "VESA 75 x 75 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONDAT030", "stock": 7, "price": 90.28, "currency": "USD", "branch": "OAX:4,VHA:1,IRA:1,ACX:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Se vende como 24 pulgadas; la ficha oficial especifica 23.8 pulgadas.",
+            "XPG reutiliza datos de familia para variantes; conservar SKU RIFT R24F2-BKCMX."
+          ]
+        },
+        "measurements": { "dimensions": "210 x 416 x 540 mm", "weight": "2.9 kg net", "packageWeight": "4.0 kg gross" },
+        "sourceRefs": [
+          { "title": "XPG RIFT R24F2 official specs", "type": "manufacturer", "url": "https://www.xpg.com/mx/xpg/RIFT-R24F2-Monitor-Gaming?tab=spec" },
+          { "title": "XPG RIFT R24F2 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/rift_r24f2_datasheet.pdf" },
+          { "title": "CTOnline feed MONDAT030 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0w4ngnnydb1qv5z",
+      "research": {
+        "confidence": 0.93,
+        "name": "DataShield MI-4217 bateria sellada para UPS 12V 4.5Ah libre de mantenimiento",
+        "description": "Bateria sellada recargable DataShield MI-4217 de plomo-acido 12V 4.5Ah para no-breaks, UPS, CCTV, seguridad, robotica y lamparas de emergencia. Es libre de mantenimiento y corresponde a bateria de reemplazo sellada, no a un UPS completo.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/4-5ah-mi4217",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datashield.net/baterias.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BATDTS070/BATDTS070_full.jpg",
+          "https://www.datashield.net/galeria/productos/66.png",
+          "https://s3-bigcom.s3.amazonaws.com/productos/583201/431747_MI4217.jpg"
+        ],
+        "documents": [
+          { "label": "DataShield MI-4217 ficha tecnica", "type": "datasheet", "url": "https://www.datashield.net/fichas/MI-4217.pdf" }
+        ],
+        "specs": {
+          "brand": "DataShield",
+          "model": "MI-4217 / MI4217",
+          "providerSku": "BATDTS070",
+          "ean": "7501859100819",
+          "productType": "Sealed lead-acid replacement battery for UPS",
+          "voltage": "12 V",
+          "capacity": "4.5 Ah",
+          "maintenance": "Sealed, rechargeable, maintenance-free",
+          "applications": "UPS/no-break, CCTV, security, robotics, emergency lamps",
+          "serviceLife": "2 to 3 years official page",
+          "warranty": "1 year for MI batteries",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 43 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 37 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 12 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 4 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATDTS070", "stock": 153, "price": 226.36, "currency": "MXN", "branch": "CMT:43,CUN:37,MID:12,VER:7,CLN:6,TPC:5,DFT:5,IRA:5,LEO:4,CTZ:4,VHA:4,ZAC:4" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "La pagina oficial indica 400 ciclos; el PDF menciona aproximadamente 500 ciclos con descarga mayor al 50%.",
+            "Algunos resellers reportan vida de 3 a 5 anos; DataShield publica 2 a 3 anos."
+          ]
+        },
+        "measurements": { "dimensions": "90 x 70 x 101 mm container, 107 mm total height", "weight": "1.64 kg approx" },
+        "sourceRefs": [
+          { "title": "DataShield batteries official page", "type": "manufacturer", "url": "https://datashield.net/baterias.html" },
+          { "title": "DataShield MI-4217 datasheet", "type": "datasheet", "url": "https://www.datashield.net/fichas/MI-4217.pdf" },
+          { "title": "CTOnline feed BATDTS070 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0w7zdxtulmscq82",
+      "research": {
+        "confidence": 0.92,
+        "name": "Xzeal Vostok AR240 XZCO413B enfriamiento liquido AIO 240mm ARGB PWM Intel AMD negro",
+        "description": "Enfriamiento liquido Xzeal Vostok AR240 XZCO413B para CPU con radiador de 240mm, dos ventiladores ARGB de 120mm, control PWM, bomba integrada, controlador SATA y compatibilidad con sockets Intel y AMD actuales.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/240mm",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/240mm/xzco413b-argb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/VENSTY050/VENSTY050_full.jpg",
+          "https://www.techsmart.com.mx/techsmartv2/images/productos/marcas/XZEAL/VECPUXZE413B_1.jpg",
+          "https://www.techsmart.com.mx/techsmartv2/images/productos/marcas/XZEAL/VECPUXZE413B_2.jpg",
+          "https://media.digitalife.com.mx/products/xzco413b/xzco413b-01-md.webp"
+        ],
+        "documents": [
+          { "label": "Xzeal XZCO413B ficha tecnica", "type": "datasheet", "url": "https://xentra.glomastore.mx/img/productos/pdf/STY-XZCO413B.pdf" }
+        ],
+        "specs": {
+          "brand": "Xzeal",
+          "model": "XZCO413B / XZ413 Vostok AR240",
+          "providerSku": "VENSTY050",
+          "ean": "7503053078468",
+          "productType": "240 mm AIO liquid CPU cooler",
+          "radiator": "240 mm radiator",
+          "fans": "2 x 120 mm ARGB fans",
+          "fanSpeed": "800-1800 RPM +/-10%",
+          "airflow": "48.52 CFM",
+          "noise": "Cooler 32.2 dB, pump 26.9 dB",
+          "pumpMttf": "40000 h",
+          "lighting": "ARGB 3-pin, SATA controller",
+          "compatibility": "AMD AM4/AM5; Intel LGA 775/115X/1700/2011/2011-v3/2066",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 23 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 23 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "VENSTY050", "stock": 52, "price": 914.93, "currency": "MXN", "branch": "DFA:23,D2A:23,VHA:2,LMO:1,SLP:1,TPC:1,IRA:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Algunas fuentes lo nombran XZ413 o Vostok AR240; SKU/EAN confirman XZCO413B.",
+            "El campo de 280W parece capacidad termica/TDP, no consumo electrico real."
+          ]
+        },
+        "measurements": {
+          "radiatorDimensions": "277 x 120 x 25 mm",
+          "fanDimensions": "120 x 120 x 25 mm",
+          "pumpDimensions": "73 x 73 x 51 mm",
+          "tubeLength": "400 mm",
+          "packageDimensions": "27.5 x 32.2 x 13.9 cm",
+          "weight": "Not confirmed"
+        },
+        "sourceRefs": [
+          { "title": "Xzeal XZCO413B datasheet", "type": "datasheet", "url": "https://xentra.glomastore.mx/img/productos/pdf/STY-XZCO413B.pdf" },
+          { "title": "TechSmart Xzeal XZCO413B", "type": "reseller", "url": "https://www.techsmart.com.mx/techsmartv2/Producto.php?Marca=XZEAL&TipoMoneda=MXN&cveProducto=VECPUXZE413B" },
+          { "title": "CTOnline feed VENSTY050 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
