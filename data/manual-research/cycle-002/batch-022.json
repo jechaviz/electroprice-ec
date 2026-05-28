@@ -1,0 +1,359 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b022-2026-05-27",
+  "cycle": 2,
+  "batch": 22,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ybs6z5wrhzlio54",
+      "research": {
+        "confidence": 0.92,
+        "name": "Naceb NA-0801 toallas humedas limpiadoras para computadoras 30 piezas",
+        "description": "Toallas humedas Naceb Technology NA-0801 para limpieza de computadoras, pantallas, teclados y perifericos; presentacion de 30 piezas en empaque rojo.",
+        "manualCategoryPath": "computo/accesorios/limpieza",
+        "semanticCategoryPath": "computo/accesorios/limpieza/toallas-humedas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0801",
+          "providerSku": "ACCNCB770",
+          "ean": "7502262808231",
+          "productType": "Toallas humedas limpiadoras",
+          "pack": "30 piezas",
+          "substance": "Panos humedos",
+          "applications": ["computadoras", "pantallas", "teclados", "perifericos"],
+          "color": "Rojo",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 40, "currency": "MXN", "branch": "IRA/PUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Naceb NA-0801 product page", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-PC-s/Limpiadores-para-Electronicos/Naceb-Toallas-Limpiadoras-Humedas-NA-0801-30-Piezas.html" },
+          { "title": "PCStore NA-0801 UPC and images", "type": "image_reference", "url": "https://pcstore.mx/toallas-naceb-technology-na-0801-rojo-panos-humedos-computadoras" },
+          { "title": "CTOnline feed ACCNCB770 stock 3 IRA/PUE", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "6er5wbmouk5uzsq",
+      "research": {
+        "confidence": 0.95,
+        "name": "DataShield IN-5000 inversor cargador solar hibrido 5000 W 220 V",
+        "description": "Inversor/cargador solar hibrido DataShield IN-5000 de 5000 W para sistemas on-grid/off-grid, entrada/salida 220 VCA, modos programables, MPPT doble y monitoreo en tiempo real.",
+        "manualCategoryPath": "energia/inversores-solares",
+        "semanticCategoryPath": "energia/inversores-solares/hibridos-5000w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "DataShield IN-5000 ficha tecnica", "type": "datasheet", "url": "https://www.datashield.net/fichas/IN-5000.pdf" }
+        ],
+        "specs": {
+          "brand": "DATASHIELD",
+          "model": "IN-5000",
+          "providerSku": "INVDTS030",
+          "ean": "7501859101359",
+          "productType": "Inversor cargador solar hibrido",
+          "ratedPower": "5000 W",
+          "inputVoltage": "220 VCA",
+          "frequency": "50/60 Hz",
+          "waveform": "Onda sinusoidal pura",
+          "solarController": "MPPT doble",
+          "operationModes": ["on-grid", "off-grid", "on-grid con respaldo"],
+          "parallelOperation": "Hasta 6 unidades",
+          "features": ["prioridad de suministro programable", "corriente y voltaje de carga ajustables", "monitoreo en tiempo real"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 19750, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "DataShield IN-5000 official PDF", "type": "datasheet", "url": "https://www.datashield.net/fichas/IN-5000.pdf" },
+          { "title": "TVC IN-5000 feature reference", "type": "reseller_spec", "url": "https://tvc.mx/products/30531" },
+          { "title": "CTOnline feed INVDTS030 stock 1 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "looeuuf0mhu8syy",
+      "research": {
+        "confidence": 0.92,
+        "name": "Manhattan London 439893 portafolio para laptop 14.1 in negro",
+        "description": "Portafolio Manhattan London 439893 para laptop de hasta 14.1 pulgadas, cargador superior, color negro, con compartimento acolchado y organizacion para documentos/accesorios.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-14",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-maletin-para-laptop-141-london-439893",
+        "documents": [
+          { "label": "Manhattan 439893 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/61181/439893_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "439893",
+          "commercialName": "London Laptop Briefcase 14.1",
+          "providerSku": "AC-8286",
+          "alternateProviderSku": "MALITL730",
+          "upc": "766623439893",
+          "ean": "0766623439893",
+          "productType": "Portafolio para laptop",
+          "laptopCompatibility": "Hasta 14.1 in",
+          "color": "Negro",
+          "features": ["cargador superior", "compartimento acolchado", "organizador interno", "asas de transporte"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 0, "price": 8.69, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 1, "price": 8.92, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Manhattan Mexico 439893 official page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-maletin-para-laptop-141-london-439893" },
+          { "title": "Manhattan 439893 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/61181/439893_datasheet_english.pdf" },
+          { "title": "CVA feed AC-8286 stock 1 no branch detail", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1y8qyigcd9prhvn",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP ScanJet Pro N4000 snw1 6FW08A escaner ADF duplex WiFi",
+        "description": "Escaner documental HP ScanJet Pro N4000 snw1 6FW08A con ADF de 50 hojas, duplex de una pasada, hasta 40 ppm/80 ipm, WiFi/WiFi Direct, OCR y ciclo recomendado de 4000 paginas diarias.",
+        "manualCategoryPath": "impresion/escaneres",
+        "semanticCategoryPath": "impresion/escaneres/documentales-adf-duplex",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/hp-scanjet-pro-n4000-snw1-sheet-feed-scanner",
+        "documents": [
+          { "label": "HP ScanJet Pro N4000 snw1 data sheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetPDF.aspx/c07927257" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "N4000 snw1",
+          "partNumber": "6FW08A",
+          "providerSku": "SCAHPI440",
+          "upc": "193808948770",
+          "productType": "Escaner documental ADF",
+          "scanSpeed": "40 ppm / 80 ipm",
+          "dailyDutyCycle": "4000 paginas",
+          "adfCapacity": "50 hojas",
+          "maxScanSize": "216 x 3100 mm",
+          "connectivity": ["USB", "WiFi", "WiFi Direct"],
+          "features": ["duplex una pasada", "OCR", "HP EveryPage", "pantalla tactil 2.8 in"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CAM", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 12329.8, "currency": "MXN", "branch": "CAM" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "300 x 172 x 154 mm", "weight": "2.8 kg" },
+        "sourceRefs": [
+          { "title": "HP ScanJet Pro N4000 official page", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-scanjet-pro-n4000-snw1-sheet-feed-scanner" },
+          { "title": "HP ScanJet Pro N4000 data sheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetPDF.aspx/c07927257" },
+          { "title": "CTOnline feed SCAHPI440 stock 1 CAM", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nssvkoa9439ca66",
+      "research": {
+        "confidence": 0.88,
+        "name": "Bin Zun R6 termometro infrarrojo sin contacto blanco azul",
+        "description": "Termometro infrarrojo Bin Zun R6 sin contacto para medicion frontal, con lectura rapida, unidades Celsius/Fahrenheit y alerta de fiebre.",
+        "manualCategoryPath": "salud/equipo-medico/monitoreo",
+        "semanticCategoryPath": "salud/equipo-medico/monitoreo/termometros-infrarrojos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "BIN ZUN",
+          "model": "R6",
+          "providerSku": "TERBIN020",
+          "ean": "6973111609681",
+          "productType": "Termometro infrarrojo sin contacto",
+          "measurementRange": "32.0 - 43.0 C modo corporal",
+          "accuracy": "+/-0.2 C entre 25 y 42 C",
+          "responseTime": "1 s",
+          "measurementDistance": "< 2.5 cm",
+          "battery": "2 x AAA",
+          "features": ["C/F", "apagado automatico", "alerta de fiebre"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CAM", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 301.21, "currency": "MXN", "branch": "CAM" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "160 x 100 x 40 mm", "weight": "155 g sin baterias" },
+        "sourceRefs": [
+          { "title": "Fedra Bing Zun BZ-R6 technical details", "type": "reseller_spec", "url": "https://el.fedra.com/thermometra-puretou-psifiako/anats-ilektroniko-thermometro-yperuthron-bing-zun-bz-r6/m291574/" },
+          { "title": "Expercom Bin Zun R6 product page", "type": "reseller_spec", "url": "https://www.expercom.mx/producto/termometro-infrarrojo-bin-zun-r6" },
+          { "title": "CTOnline feed TERBIN020 stock 1 CAM", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "29ugtva0sy5dfse",
+      "research": {
+        "confidence": 0.86,
+        "name": "Sonolife LMT-01 oximetro de pulso digital de dedo",
+        "description": "Oximetro de pulso Sonolife LMT-01 de dedo para medicion de saturacion de oxigeno SpO2 y pulso, con sensor digital y alimentacion por bateria AAA.",
+        "manualCategoryPath": "salud/equipo-medico/monitoreo",
+        "semanticCategoryPath": "salud/equipo-medico/monitoreo/oximetros-pulso",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "SONOLIFE",
+          "model": "LMT-01",
+          "providerSku": "ACCSON020",
+          "productType": "Oximetro de pulso",
+          "measurements": ["SpO2", "frecuencia de pulso"],
+          "sensorType": "Digital de dedo",
+          "battery": "AAA",
+          "applications": ["uso clinico", "uso domestico"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 56.82, "currency": "MXN", "branch": "ZAC" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Intercompras Sonolife LMT-01 product page", "type": "reseller_spec", "url": "https://intercompras.com/p/oximetro-pulso-sonolife-lmt-medicion-saturacion-oxigeno-sensor-digital-217817" },
+          { "title": "GlobalOffice Sonolife LMT-01 PDF", "type": "reseller_spec", "url": "https://globaloffice.globaloffice.com.mx/app/producto/pdf/lmt-01" },
+          { "title": "CTOnline feed ACCSON020 stock 1 ZAC", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "vi3bk3n6hdkjt53",
+      "research": {
+        "confidence": 0.95,
+        "name": "Multimedia Screens PM-87IR pizarron interactivo infrarrojo 87 in 20 toques",
+        "description": "Pizarron interactivo Multimedia Screens PM-87IR de 87 pulgadas, formato 4:3, tecnologia tactil infrarroja, 20 toques simultaneos, resolucion 32768 x 32768 y conexion USB.",
+        "manualCategoryPath": "oficina/pizarrones-interactivos",
+        "semanticCategoryPath": "oficina/pizarrones-interactivos/infrarrojos-87",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "MULTIMEDIA SCREENS",
+          "model": "PM-87IR",
+          "providerSku": "PIZ-59",
+          "alternateProviderSku": "ACCMTD530",
+          "productType": "Pizarron interactivo",
+          "screenSize": "87 in",
+          "aspectRatio": "4:3",
+          "touchTechnology": "Infrarroja multi-touch",
+          "touchPoints": 20,
+          "resolution": "32768 x 32768",
+          "responseTime": "10 ms",
+          "activeArea": "1720 x 1220 mm",
+          "connection": "USB 2.0",
+          "includedAccessories": ["cable USB 5 m", "2 plumas opticas", "soportes de montaje"],
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 1, "price": 538.89, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 535.51, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "1795 x 30 x 1295 mm", "weight": "16 kg", "packageWeight": "22 kg" },
+        "sourceRefs": [
+          { "title": "Intercompras PM-87IR specs", "type": "reseller_spec", "url": "https://intercompras.com/p/pizarron-interactivo-multimedia-screens-pm-87ir-puntos-touch-244514" },
+          { "title": "CompuViper PM-87IR extended spec and images", "type": "image_reference", "url": "https://compuviper.mx/tienda/producto/multimedia-screens-pm-87ir-pizarron-interactivo-touch-infrarroja-20-toques-4-usuarios-resolucion-32768-x-32768-87-en-diagonal/" },
+          { "title": "CTOnline/CVA feed ACCMTD530 and PIZ-59 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9w81l9kr8iwvr5c",
+      "research": {
+        "confidence": 0.84,
+        "name": "Clar Systems CSY090 dispensador de toalla",
+        "description": "Dispensador de toalla Clar Systems CSY090 para higiene en oficina, consultorios o areas comunes.",
+        "manualCategoryPath": "oficina/limpieza-higiene/dispensadores",
+        "semanticCategoryPath": "oficina/limpieza-higiene/dispensadores/toalla",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "CLAR SYSTEMS",
+          "model": "CSY090",
+          "providerSku": "DISCSY090",
+          "ean": "8436550220148",
+          "productType": "Dispensador de toalla",
+          "applications": ["oficina", "sanitarios", "areas comunes"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 176.47, "currency": "MXN", "branch": "MOR" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "CompuPuebla Clar Systems CSY090 product page", "type": "reseller_spec", "url": "https://compupuebla.com/producto/dispensador-de-toalla-clar-systems-csy090/" },
+          { "title": "CTOnline feed DISCSY090 stock 1 MOR", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "c60fy3qe3b8mg90",
+      "research": {
+        "confidence": 0.92,
+        "name": "Kensington MicroSaver 2.0 K64430S candado de chasis con llave",
+        "description": "Candado Kensington MicroSaver 2.0 K64430S con llave para chasis de computadora de escritorio o servidor, orientado a seguridad fisica de equipos fijos.",
+        "manualCategoryPath": "accesorios/seguridad-fisica",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-chasis",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K64430S",
+          "commercialName": "MicroSaver 2.0 Keyed Chassis Lock",
+          "providerSku": "ACCKNS1230",
+          "productType": "Candado de chasis con llave",
+          "lockType": "Llave",
+          "compatibility": ["computadora de escritorio", "servidor"],
+          "color": "Plateado",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 222.22, "currency": "MXN", "branch": "VHA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "PC-Canada Kensington K64430S product page", "type": "reseller_spec", "url": "https://www.pc-canada.com/item/kensington-microsaver-2-0-keyed-chassis-lock/k64430s" },
+          { "title": "CTOnline feed ACCKNS1230 stock 1 VHA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "qqxw8ft2fwtjr9j",
+      "research": {
+        "confidence": 0.96,
+        "name": "Kensington SmartFit Conform K60412WW respaldo lumbar negro",
+        "description": "Respaldo lumbar Kensington SmartFit Conform K60412WW color negro para silla de oficina, con sistema SmartFit ajustable, paneles ventilados, resortes independientes y funda lavable.",
+        "manualCategoryPath": "oficina/ergonomia/soportes-lumbares",
+        "semanticCategoryPath": "oficina/ergonomia/soportes-lumbares/silla-oficina",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/ergonomics/back-rests/smartfit-conform-back-rest/",
+        "documents": [
+          { "label": "Kensington K60412WW product sheet", "type": "datasheet", "url": "https://www.bhphotovideo.com/lit_files/256195.pdf" }
+        ],
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K60412WW",
+          "commercialName": "SmartFit Conform Back Rest",
+          "providerSku": "ACCKNS1810",
+          "upc": "085896604129",
+          "productType": "Respaldo lumbar ergonomico",
+          "color": "Negro",
+          "features": ["SmartFit ajustable", "soporte para columna y lumbar", "paneles ventilados", "4 resortes independientes", "funda removible lavable"],
+          "warranty": "2 anos",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 1111.11, "currency": "MXN", "branch": "HMO/DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "140 x 440 x 410 mm", "weight": "2 kg" },
+        "sourceRefs": [
+          { "title": "Kensington K60412WW official page", "type": "manufacturer", "url": "https://www.kensington.com/p/products/ergonomics/back-rests/smartfit-conform-back-rest/" },
+          { "title": "B&H Kensington K60412WW dimensions and UPC", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1205939-REG/kensington_k60412ww_smartfit_conform_back_rest.html/overview" },
+          { "title": "CTOnline feed ACCKNS1810 stock 2 HMO/DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

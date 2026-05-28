@@ -92,6 +92,16 @@ const researchedBatchCases = [
   ["Orvibo SN11 sensor de movimiento PIR Zigbee", "ORVIBO", "domotica/sensores/movimiento"],
   ["Kingston SNA-BR2/35 SSD bracket 2.5 to 3.5", "KINGSTON TECHNOLOGY", "computo/almacenamiento/accesorios-montaje"],
   ["Jabra Speak 510 speakerphone USB Bluetooth", "JABRA", "audio/conferencia-speakerphones"],
+  ["Naceb NA-0801 toallas humedas para computadoras", "NACEB TECHNOLOGY", "computo/accesorios/limpieza"],
+  ["DataShield IN-5000 inversor cargador solar hibrido", "DATASHIELD", "energia/inversores-solares"],
+  ["Manhattan 439893 London maletin laptop 14.1", "MANHATTAN", "computo/accesorios/mochilas-fundas"],
+  ["HP ScanJet Pro N4000 snw1 6FW08A escaner ADF", "HP", "impresion/escaneres"],
+  ["Bin Zun R6 termometro infrarrojo sin contacto", "BIN ZUN", "salud/equipo-medico/monitoreo"],
+  ["Sonolife LMT-01 oximetro de pulso digital", "SONOLIFE", "salud/equipo-medico/monitoreo"],
+  ["Multimedia Screens PM-87IR pizarron interactivo 87 20 toques", "MULTIMEDIA SCREENS", "oficina/pizarrones-interactivos"],
+  ["Clar Systems CSY090 dispensador de toalla", "CLAR SYSTEMS", "oficina/limpieza-higiene/dispensadores"],
+  ["Kensington K64430S MicroSaver 2.0 keyed chassis lock", "KENSINGTON", "accesorios/seguridad-fisica"],
+  ["Kensington K60412WW SmartFit Conform Back Rest", "KENSINGTON", "oficina/ergonomia/soportes-lumbares"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
