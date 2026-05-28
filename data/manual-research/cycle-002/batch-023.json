@@ -1,0 +1,348 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b023-2026-05-27",
+  "cycle": 2,
+  "batch": 23,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "f54vqkton82o4it",
+      "research": {
+        "confidence": 0.92,
+        "name": "Lenovo 5PS0A23193 garantia 3 anos ADP para ThinkPad",
+        "description": "Servicio Lenovo 5PS0A23193 de cobertura Accidental Damage Protection por 3 anos para equipos ThinkPad elegibles con garantia base onsite, con soporte internacional segun elegibilidad Lenovo.",
+        "manualCategoryPath": "servicios/garantias-extendidas",
+        "semanticCategoryPath": "servicios/garantias-extendidas/lenovo-thinkpad-adp",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LENOVO",
+          "model": "5PS0A23193",
+          "providerSku": "EXTLEN620",
+          "alternateProviderSku": "POL-3200",
+          "productType": "Garantia extendida ADP",
+          "coverage": "3 anos",
+          "serviceType": "Accidental Damage Protection",
+          "eligibleLine": "ThinkPad",
+          "delivery": "Onsite / International delivery segun equipo elegible",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 1, "price": 1201.52, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 1149.64, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Lenovo services part transition guide", "type": "manufacturer", "url": "https://www.lenovo.com/content/dam/lenovo/pcsd/north-america/en/solutions/services/flyers/lenovo-services-part-number-transition-guide.pdf" },
+          { "title": "B&H Lenovo 5PS0A23193 ADP warranty", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1479504-REG/lenovo_5ps0a23193_adp_3yr_maintenance_parts_labor_physical_service.html" },
+          { "title": "CTOnline/CVA feed EXTLEN620 and POL-3200 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "6tsjhty69seecv6",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP ScanJet Pro N4600 fnw1 20G07A escaner ADF duplex red",
+        "description": "Escaner documental HP ScanJet Pro N4600 fnw1 con ADF, duplex, hasta 40 ppm/80 ipm, sensor CIS, tamano maximo 216 x 5362 mm y ciclo diario de hasta 6000 paginas.",
+        "manualCategoryPath": "impresion/escaneres",
+        "semanticCategoryPath": "impresion/escaneres/documentales-adf-duplex-red",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.hp.com/us-en/product/product-specs/hp-scanjet-pro-n4600-fnw1-scanner/model/2100674487",
+        "documents": [
+          { "label": "HP ScanJet Pro N4600 data sheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08058044" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "ScanJet Pro N4600 fnw1",
+          "partNumber": "20G07A",
+          "providerSku": "SCAHPI520",
+          "upc": "195697674242",
+          "productType": "Escaner documental ADF",
+          "scanSpeed": "40 ppm / 80 ipm",
+          "dailyDutyCycle": "6000 paginas",
+          "maxScanSize": "216 x 5362 mm",
+          "sensorType": "CIS",
+          "scannerType": "ADF",
+          "connectivity": ["USB", "Ethernet", "WiFi"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 17092.4, "currency": "MXN", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "536.5 x 325.4 x 133.3 mm", "weight": "6.1 kg" },
+        "sourceRefs": [
+          { "title": "HP N4600 fnw1 support specifications", "type": "manufacturer", "url": "https://support.hp.com/us-en/product/product-specs/hp-scanjet-pro-n4600-fnw1-scanner/model/2100674487" },
+          { "title": "HP N4600 fnw1 data sheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c08058044" },
+          { "title": "CTOnline feed SCAHPI520 stock 2 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0b9tskln3sz4n4d",
+      "research": {
+        "confidence": 0.94,
+        "name": "Targus AEH101TT diadema mono alambrica USB-A negra",
+        "description": "Diadema monoaural Targus AEH101TT alambrica con conexion USB-A y microfono boom, disenada para videollamadas, soporte remoto y centros de atencion.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/monoaurales-usb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://us.targus.com/collections/conferencing-solutions/products/wired-mono-headset-aeh101tt",
+        "specs": {
+          "brand": "TARGUS",
+          "model": "AEH101TT",
+          "providerSku": "BOCTRG020",
+          "alternateProviderSku": "SPK-2258",
+          "productType": "Diadema monoaural",
+          "connectivity": "USB-A",
+          "microphone": "Boom",
+          "wearingStyle": "Monoaural",
+          "color": "Negro",
+          "providerBranches": [],
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 2, "price": 18.83, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 20.15, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Targus AEH101TT official page", "type": "manufacturer", "url": "https://us.targus.com/collections/conferencing-solutions/products/wired-mono-headset-aeh101tt" },
+          { "title": "Targus Chile AEH101TT Spanish product page", "type": "reseller_spec", "url": "https://targus.cl/products/wired-mono-headset-aeh101tt" },
+          { "title": "CTOnline/CVA feed BOCTRG020 and SPK-2258 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "070ua7fv5kjcu4h",
+      "research": {
+        "confidence": 0.95,
+        "name": "Acteck Glee Max AP460 AC-934961 bocina Bluetooth TWS 10W negra",
+        "description": "Bocina portatil Acteck Glee Max AP460 AC-934961 con Bluetooth 5.0, funcion TWS, entrada auxiliar 3.5 mm, resistencia IPX5, bateria recargable y potencia RMS de 10 W.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/portatiles-bluetooth",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [
+          { "label": "Acteck AC-934961 ficha tecnica", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/AC-934961.pdf" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AC-934961",
+          "commercialName": "Glee Max AP460",
+          "providerSku": "BOCGEN3620",
+          "ean": "7506215934961",
+          "productType": "Bocina Bluetooth TWS",
+          "connectivity": ["Bluetooth 5.0", "Aux 3.5 mm"],
+          "power": "10 W RMS",
+          "frequencyResponse": "80 Hz - 20 kHz",
+          "impedance": "4 Ohm",
+          "waterResistance": "IPX5",
+          "battery": "Li-Ion recargable",
+          "batteryLife": "Hasta 6 h",
+          "color": "Negro",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 382.2, "currency": "MXN", "branch": "TXA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "85 x 85 x 181 mm", "weight": "550 g" },
+        "sourceRefs": [
+          { "title": "Acteck AC-934961 technical PDF", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/AC-934961.pdf" },
+          { "title": "Techsmart Acteck AC-934961 specs", "type": "reseller_spec", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?Marca=ACTECK&TipoMoneda=MXN&cveProducto=BOBTHACP934961" },
+          { "title": "CTOnline feed BOCGEN3620 stock 1 TXA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "retj8j1pd3aq2hj",
+      "research": {
+        "confidence": 0.88,
+        "name": "Hisense AC122CF minisplit 1 tonelada 220 V solo frio blanco",
+        "description": "Minisplit Hisense AC122CF de 1 tonelada, 12,000 BTU/h, 220 V, color blanco, para enfriamiento residencial o de oficina.",
+        "manualCategoryPath": "hogar/electrodomesticos/aires-acondicionados",
+        "semanticCategoryPath": "hogar/electrodomesticos/aires-acondicionados/minisplit-solo-frio-220v",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "HISENSE",
+          "model": "AC122CF",
+          "providerSku": "AIRHSE270",
+          "ean": "6926597727349",
+          "productType": "Minisplit solo frio",
+          "capacity": "1 tonelada",
+          "coolingCapacity": "12000 BTU/h",
+          "voltage": "220 V",
+          "color": "Blanco",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 4039.04, "currency": "MXN", "branch": "HMO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Hisense AH122CF 1 ton 220V reference", "type": "reseller_spec", "url": "https://www.ectronic.net/shop/hisense-minisplit-hisense-ah122cf-estandar-on-off-1-tonelada-frio-calor-220v-color-blanco-hisense-minisplit-hisense-ah122cf-estandar-on-off-1-tonelada-frio-calor-220v-color-blanco-214741/document/22639" },
+          { "title": "CTOnline feed AIRHSE270 stock 1 HMO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jp8ab20lbi5ujn9",
+      "research": {
+        "confidence": 0.9,
+        "name": "Pacific Soft KITPSF060 punto de venta para comercios y restaurantes",
+        "description": "Sistema Pacific Soft KITPSF060 para punto de venta orientado a comercios/restaurantes, administracion de ventas y operacion POS.",
+        "manualCategoryPath": "punto-de-venta/software-pos",
+        "semanticCategoryPath": "punto-de-venta/software-pos/restaurantes-comercios",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PACIFIC SOFT",
+          "model": "KITPSF060",
+          "providerSku": "KITPSF060",
+          "productType": "Software punto de venta",
+          "vertical": "Comercios y restaurantes",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 2480.34, "currency": "MXN", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "GlobalOffice Pacific Soft KITPSF060", "type": "reseller_spec", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/perifericos-para-pos/punto-de-venta-para-comercios-kitpsf06/kitpsf060" },
+          { "title": "Intercompras KITPSF060 POS reference", "type": "reseller_spec", "url": "https://intercompras.com/p/punto-venta-pacific-soft-comercios-kitpsf060-sistema-administrativo-319257" },
+          { "title": "CTOnline feed KITPSF060 stock 2 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "xs6blfiz4rwducg",
+      "research": {
+        "confidence": 0.9,
+        "name": "Pacific Soft KITPSF050 punto de venta para restaurantes",
+        "description": "Sistema Pacific Soft KITPSF050 para punto de venta en restaurantes, orientado a administracion de ventas y flujo operativo POS.",
+        "manualCategoryPath": "punto-de-venta/software-pos",
+        "semanticCategoryPath": "punto-de-venta/software-pos/restaurantes",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PACIFIC SOFT",
+          "model": "KITPSF050",
+          "providerSku": "KITPSF050",
+          "productType": "Software punto de venta",
+          "vertical": "Restaurantes",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 3, "price": 2480.34, "currency": "MXN", "branch": "D2A/DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "XtremeTecPC Pacific Soft KITPSF050", "type": "reseller_spec", "url": "https://www.xtremetecpc.com/producto/punto-de-venta-para-restaurantes-pacific-soft-kitpsf050-kitpsf050" },
+          { "title": "Cityshop KITPSF050 product page", "type": "image_reference", "url": "https://cityshop.mx/producto/punto-de-venta-para-restaurantes" },
+          { "title": "CTOnline feed KITPSF050 stock 3 D2A/DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "duhaipivfyjkk8i",
+      "research": {
+        "confidence": 0.96,
+        "name": "Acteck Dynamic Exact BS685 bocinas tipo estudio Bluetooth 80W negras",
+        "description": "Bocinas tipo estudio Acteck Dynamic Exact BS685 con 80 W RMS, Bluetooth 5.0, entradas RCA, optica, HDMI ARC y USB-A, sistema estereo 2.0 y respuesta 40 Hz - 20 kHz.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/estudio-bluetooth",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/dynamic-exact-bs685",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "BS685",
+          "commercialName": "Dynamic Exact",
+          "providerSku": "BOCACT190",
+          "ean": "7506215935210",
+          "productType": "Bocinas tipo estudio",
+          "channels": "2.0",
+          "power": "80 W RMS",
+          "speakerPower": "2 x 40 W",
+          "connectivity": ["Bluetooth 5.0", "Aux RCA", "Optica", "HDMI ARC", "USB-A"],
+          "frequencyResponse": "40 Hz - 20 kHz",
+          "color": "Negro",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 1421.61, "currency": "MXN", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "speakerDimensions": "151.5 x 140 x 230 mm", "speakerWeight": "1.196 kg cada una" },
+        "sourceRefs": [
+          { "title": "Acteck Dynamic Exact BS685 official page", "type": "manufacturer", "url": "https://acteck.com/products/dynamic-exact-bs685" },
+          { "title": "GlobalOffice Acteck BS685 PDF", "type": "reseller_spec", "url": "https://globaloffice.com.mx/index.php/app/producto/pdf/ac-935210" },
+          { "title": "CTOnline feed BOCACT190 stock 1 D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "axwzcbahr4uuwlu",
+      "research": {
+        "confidence": 0.86,
+        "name": "Acteck Energon Prime CP20W cargador de pared 20W",
+        "description": "Cargador de pared Acteck Energon Prime CP20W de 20 W para dispositivos moviles, formato compacto y alimentacion de pared.",
+        "manualCategoryPath": "energia/cargadores-usb",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-20w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "CP20W",
+          "commercialName": "Energon Prime CP20W",
+          "providerSku": "ACCACT4360",
+          "ean": "7506215935555",
+          "productType": "Cargador de pared USB",
+          "power": "20 W",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 127.01, "currency": "MXN", "branch": "CUN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "CompuPuebla Acteck CP20W EAN reference", "type": "reseller_spec", "url": "https://compupuebla.com/producto/cargador-acteck-cp20w/" },
+          { "title": "CTOnline feed ACCACT4360 stock 1 CUN", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "o27wjl9j96a9sgh",
+      "research": {
+        "confidence": 0.96,
+        "name": "Acteck Dynamic Trim BS465 barra de sonido 2.1 Bluetooth 60W negra",
+        "description": "Barra de sonido Acteck Dynamic Trim BS465 con subwoofer alambrico, 2.1 canales, 60 W RMS, Bluetooth 5.0, HDMI ARC, entrada optica, USB-A y 3.5 mm.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/2-1-subwoofer",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/dynamic-trim-bs465",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "BS465",
+          "commercialName": "Dynamic Trim",
+          "providerSku": "BOCACT310",
+          "ean": "7506215935234",
+          "productType": "Barra de sonido con subwoofer",
+          "channels": "2.1",
+          "power": "60 W RMS",
+          "speakerPower": "2 x 15 W",
+          "subwooferPower": "30 W",
+          "connectivity": ["Bluetooth 5.0", "USB-A", "HDMI ARC", "Optica", "3.5 mm"],
+          "frequencyResponse": "Altavoces 100 Hz - 20 kHz; subwoofer 45 Hz - 400 Hz",
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 2, "price": 1033.14, "currency": "MXN", "branch": "DFA/CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "soundbarDimensions": "410 x 76 x 76 mm", "soundbarWeight": "0.97 kg", "subwooferDimensions": "220 x 140 x 360 mm", "subwooferWeight": "2.67 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Dynamic Trim BS465 official page", "type": "manufacturer", "url": "https://acteck.com/products/dynamic-trim-bs465" },
+          { "title": "Cyberpuerta BS465 images and specs", "type": "image_reference", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Audio/Bocinas/Barras-de-Sonido/Acteck-Barra-de-Sonido-con-Subwoofer-BS465-Bluetooth-Alambrico-Inalambrico-2-1-Canales-60W-RMS.html" },
+          { "title": "CTOnline feed BOCACT310 stock 2 DFA/CEL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

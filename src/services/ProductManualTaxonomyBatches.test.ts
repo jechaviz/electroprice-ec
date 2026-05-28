@@ -102,6 +102,16 @@ const researchedBatchCases = [
   ["Clar Systems CSY090 dispensador de toalla", "CLAR SYSTEMS", "oficina/limpieza-higiene/dispensadores"],
   ["Kensington K64430S MicroSaver 2.0 keyed chassis lock", "KENSINGTON", "accesorios/seguridad-fisica"],
   ["Kensington K60412WW SmartFit Conform Back Rest", "KENSINGTON", "oficina/ergonomia/soportes-lumbares"],
+  ["Lenovo 5PS0A23193 3 year ADP warranty extension", "LENOVO", "servicios/garantias-extendidas"],
+  ["HP ScanJet Pro N4600 fnw1 escaner documental", "HP", "impresion/escaneres"],
+  ["Targus AEH101TT Wired Mono Headset", "TARGUS", "audio/audifonos"],
+  ["Acteck AC-934961 Glee Max AP460 bocina Bluetooth 10W", "ACTECK", "audio/bocinas"],
+  ["Hisense AC122CF minisplit 1 tonelada solo frio", "HISENSE", "hogar/electrodomesticos/aires-acondicionados"],
+  ["Pacific Soft KITPSF060 punto de venta para restaurantes", "PACIFIC SOFT", "punto-de-venta/software-pos"],
+  ["Pacific Soft KITPSF050 punto de venta para restaurantes", "PACIFIC SOFT", "punto-de-venta/software-pos"],
+  ["Acteck BS685 Dynamic Exact bocinas tipo estudio 80W", "ACTECK", "audio/bocinas"],
+  ["Acteck CP20W cargador de pared USB-C 20W", "ACTECK", "energia/cargadores-usb"],
+  ["Acteck BS465 Dynamic Trim barra de sonido 2.1 60W", "ACTECK", "audio/barras-sonido"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
