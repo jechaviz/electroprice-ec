@@ -443,6 +443,16 @@ const researchedBatchCases = [
   ["Getttech GPI-GVN100A-01M PC Desktop Intel N100 8GB 240GB SSD", "GETTTECH", "computo/desktops/mini-pc"],
   ["Logitech BRIO 500 960-001412 webcam FHD USB-C", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
   ["Dahua DH-PFA120 caja de conexiones PTZ junction box", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-montaje/cajas-conexion"],
+  ["BRobotix 110910N convertidor HDMI macho a VGA hembra 24.5 cm", "BROBOTIX", "accesorios/cables-adaptadores/video-hdmi-vga"],
+  ["Dell 24 AIO EC24250 XNT23 Core i7-1355U 16GB 1TB", "DELL", "computo/desktops/all-in-one"],
+  ["TP-Link Tapo P100 mini contacto inteligente Wi-Fi 1200W", "TP LINK", "domotica/enchufes-inteligentes"],
+  ["BRobotix 6001431 cable adaptador PCI Express 6 pines a 8 pines", "BROBOTIX", "computo/componentes/cables-internos/alimentacion-pcie"],
+  ["TP-Link Omada ER7212PC router VPN 3 en 1 PoE controlador", "TP-LINK", "redes/routers/vpn/omada"],
+  ["Naceb NA-0321 audifonos in-ear USB-C con control", "NACEB TECHNOLOGY", "audio/audifonos/in-ear/usb-c"],
+  ["Kingston DTXM/128GB DataTraveler Exodia M USB 3.2 rojo", "KINGSTON", "computo/almacenamiento/memorias-flash/usb"],
+  ["Logitech M720 Triathlon 910-004790 mouse Unifying Bluetooth", "LOGITECH", "computo/perifericos/mouse/inalambricos/multi-dispositivo"],
+  ["ADATA AX5S5600C468G-SBHT XPG Hunter DDR5 SO-DIMM 8GB 5600", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr5"],
+  ["EZVIZ CS-H9C/6MP camara PT doble lente 3MP+3MP WiFi", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-doble-lente"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
