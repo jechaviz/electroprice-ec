@@ -52,6 +52,16 @@ const researchedBatchCases = [
   ["Orvibo SM11 sensor de puerta ventana Zigbee", "ORVIBO", "domotica/sensores"],
   ["Multimedia Screens MSC-265 pantalla de proyeccion 120", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion"],
   ["Poly EncorePro 510 783Q1AA headset Quick Disconnect", "POLY", "audio/audifonos"],
+  ["Anviz AN-C2Slim-BT control de acceso lector de huella", "ANVIZ", "seguridad/control-acceso/biometricos"],
+  ["Anviz AN-EMICARD tarjeta RFID 125Khz PVC", "ANVIZ", "seguridad/control-acceso/tarjetas-rfid"],
+  ["IMOU ARD311-SW contacto magnetico inalambrico", "IMOU", "domotica/sensores"],
+  ["Multimedia Screens MSC-332 pantalla manual 150 16:9", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion"],
+  ["Multimedia Screens MSE-332 pantalla electrica 150 16:9", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion"],
+  ["Perfect Choice PC-085089 Kiddo Monstruos mochila escolar", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["Perfect Choice PC-114024 Emphoria barra de audio RGB 70W", "PERFECT CHOICE", "audio/barras-sonido"],
+  ["Tripp Lite N206-FP02-IND bulkhead wall plate", "TRIPP-LITE", "redes/cableado-estructurado/placas-keystone"],
+  ["DataShield IS-1000 inversor cargador solar", "DATASHIELD", "energia/inversores-solares"],
+  ["DataShield IS-3000 inversor solar hibrido", "DATASHIELD", "energia/inversores-solares"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

@@ -1,0 +1,393 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b018-2026-05-27",
+  "cycle": 2,
+  "batch": 18,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "iphz2ljpcq4gp1o",
+      "research": {
+        "confidence": 0.95,
+        "name": "Anviz C2 Slim BT AN-C2Slim-BT control de acceso biometrico",
+        "description": "Terminal compacto Anviz C2 Slim BT para control de acceso y asistencia con huella digital, tarjeta RFID, PoE/TCP-IP, RS485, Wiegand e instalacion exterior IP65.",
+        "manualCategoryPath": "seguridad/control-acceso/biometricos",
+        "semanticCategoryPath": "seguridad/control-acceso/biometricos/terminales-huella-rfid",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.anviz.com/product/c2slim-access-control.html",
+        "documents": [
+          { "label": "Anviz C2 Slim catalogue", "type": "datasheet", "url": "https://www.anviz.com/file/download/10294/Anviz-C2Slim-Catalogue.pdf" }
+        ],
+        "specs": {
+          "brand": "ANVIZ",
+          "model": "AN-C2Slim-BT",
+          "commercialName": "C2 Slim BT",
+          "providerSku": "SOFAVZ570",
+          "productType": "Terminal de control de acceso biometrico",
+          "identificationModes": ["huella", "tarjeta RFID", "huella + tarjeta"],
+          "rfidSupport": ["EM 125 kHz", "MIFARE 13.56 MHz"],
+          "capacity": { "fingerprints": 3000, "cards": 3000, "logs": 50000 },
+          "communications": ["PoE TCP/IP", "RS485", "Wiegand in/out"],
+          "features": ["IP65", "BioNANO", "tamper alarm", "web server", "master card enrollment"],
+          "operatingVoltage": "DC 12V",
+          "scanArea": "22 x 18 mm",
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 151.65, "currency": "USD", "branch": "D2A/DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "50 x 159 x 25 mm", "operatingTemperature": "-30 C to 60 C" },
+        "sourceRefs": [
+          { "title": "Anviz C2 Slim official product page", "type": "manufacturer", "url": "https://www.anviz.com/product/c2slim-access-control.html" },
+          { "title": "Anviz C2 Slim catalogue PDF", "type": "datasheet", "url": "https://www.anviz.com/file/download/10294/Anviz-C2Slim-Catalogue.pdf" },
+          { "title": "CTOnline feed SOFAVZ570 stock 5 D2A/DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "x07oabccj8rx2yf",
+      "research": {
+        "confidence": 0.93,
+        "name": "Anviz AN-EMICARD tarjeta RFID 125 kHz PVC",
+        "description": "Tarjeta de proximidad RFID Anviz AN-EMICARD para sistemas de control de acceso y asistencia; opera a 125 kHz, es de solo lectura y viene en formato tipo tarjeta.",
+        "manualCategoryPath": "seguridad/control-acceso/tarjetas-rfid",
+        "semanticCategoryPath": "seguridad/control-acceso/tarjetas-rfid/em-125khz",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://anvizespana.com/producto/tarjetas-rfid/",
+        "specs": {
+          "brand": "ANVIZ",
+          "model": "AN-EMICARD",
+          "providerSku": "SOFAVZ070",
+          "productType": "Tarjeta RFID de proximidad",
+          "frequency": "125 kHz EM",
+          "readRange": "2-15 cm en canal mayorista",
+          "mode": "Solo lectura",
+          "material": "PVC",
+          "memory": "64-128 bit en canal mayorista",
+          "format": "Tarjeta tipo credito",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 0.33, "currency": "USD", "branch": "PAC/GDL/PUE" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "86 x 54 x 0.8 mm" },
+        "sourceRefs": [
+          { "title": "Anviz Espana tarjetas RFID official page", "type": "manufacturer", "url": "https://anvizespana.com/producto/tarjetas-rfid/" },
+          { "title": "Altatec Monterrey AN-EMICARD specs", "type": "reseller_spec", "url": "https://altatecmonterrey.com/c/227-tarjeta-rfid-125khz-anviz-an-emicard.html" },
+          { "title": "CTOnline feed SOFAVZ070 stock 5 PAC/GDL/PUE", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ui9t46d0n4x73c7",
+      "research": {
+        "confidence": 0.9,
+        "name": "IMOU ARD311-SW contacto magnetico inalambrico 433 MHz",
+        "description": "Contacto magnetico inalambrico IMOU ARD311-SW para puerta o ventana, con radiofrecuencia 433 MHz, notificacion LED, antisabotaje y bateria CR123A de larga duracion.",
+        "manualCategoryPath": "domotica/sensores",
+        "semanticCategoryPath": "domotica/sensores/puerta-ventana-rf",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "IMOU",
+          "model": "ARD311-SW",
+          "providerSku": "ACCDAH1160",
+          "ean": "6939554973093",
+          "productType": "Contacto magnetico inalambrico",
+          "wirelessInterface": "RF 433 MHz",
+          "useFor": ["puerta", "ventana"],
+          "rangeOutdoor": "200 m",
+          "battery": "1 x CR123A",
+          "batteryLife": "36 meses",
+          "indicators": ["LED de notificacion"],
+          "features": ["antisabotaje", "conexion inalambrica", "uso interior"],
+          "color": "Blanco",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "XLP", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 12.43, "currency": "USD", "branch": "XLP" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "packageDimensionsReference": "99 x 135 x 27 mm", "packageWeight": "0.15 kg", "operatingTemperature": "-10 C to 55 C", "operatingHumidity": "0-95%" },
+        "sourceRefs": [
+          { "title": "Intercompras IMOU ARD311-SW specifications", "type": "reseller_spec", "url": "https://intercompras.com/p/contacto-magnetico-imou-ard311-sw-inalambrico-mhz-blanco-alcance-m-led-220242" },
+          { "title": "Innova-Tech IMOU ARD311-SW images and specs", "type": "image_reference", "url": "https://innovacionytecnologia.net/products/contacto-magnetico-imou-imou-ard311-sw" },
+          { "title": "CTOnline feed ACCDAH1160 stock 5 XLP", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "k9ku1sp4y4u3qu4",
+      "research": {
+        "confidence": 0.89,
+        "name": "Multimedia Screens MSC-332 pantalla manual 150 pulgadas 16:9",
+        "description": "Pantalla de proyeccion manual Multimedia Screens MSC-332 para pared o techo, diagonal de 150 pulgadas, formato 16:9 y superficie blanco mate.",
+        "manualCategoryPath": "video/accesorios-proyeccion",
+        "semanticCategoryPath": "video/accesorios-proyeccion/pantallas-manuales",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "MULTIMEDIA SCREENS",
+          "model": "MSC-332",
+          "providerSku": "PANSCR490",
+          "productType": "Pantalla de proyeccion manual",
+          "diagonal": "150 in",
+          "aspectRatio": "16:9",
+          "surface": "Blanco mate",
+          "mounting": "Pared o techo / colgar",
+          "operation": "Manual",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 131.9, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "viewAreaReference": "332 x 187 cm" },
+        "sourceRefs": [
+          { "title": "Cityshop Multimedia Screens MSC-332 images/spec", "type": "image_reference", "url": "https://cityshop.mx/producto/pantalla-de-proyeccion-manual-multimedia-screens-msc-332-colgar-150-formato-16-9-blanco-mate" },
+          { "title": "Intercompras pantallas de proyeccion MSC-332", "type": "reseller_spec", "url": "https://intercompras.com/c/pantallas-proyeccion-710" },
+          { "title": "CTOnline feed PANSCR490 stock 5 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "j9q94ox413mqdw9",
+      "research": {
+        "confidence": 0.89,
+        "name": "Multimedia Screens MSE-332 pantalla electrica 150 pulgadas 16:9",
+        "description": "Pantalla de proyeccion electrica Multimedia Screens MSE-332 de 150 pulgadas, formato 16:9 y acabado blanco mate para salas, aulas y presentaciones.",
+        "manualCategoryPath": "video/accesorios-proyeccion",
+        "semanticCategoryPath": "video/accesorios-proyeccion/pantallas-electricas",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "MULTIMEDIA SCREENS",
+          "model": "MSE-332",
+          "providerSku": "PANSCR500",
+          "productType": "Pantalla de proyeccion electrica",
+          "diagonal": "150 in",
+          "aspectRatio": "16:9",
+          "surface": "Blanco mate",
+          "mounting": "Pared o techo",
+          "operation": "Electrica",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 392.77, "currency": "USD", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "viewAreaReference": "332 x 187 cm" },
+        "sourceRefs": [
+          { "title": "Cityshop Multimedia Screens MSE-332 images/spec", "type": "image_reference", "url": "https://cityshop.mx/producto/pantalla-de-proyeccion-electrica-multimedia-screens-mse-332-150-formato-169-blanco-mate" },
+          { "title": "Intercompras pantallas de proyeccion MSE-332", "type": "reseller_spec", "url": "https://intercompras.com/c/pantallas-proyeccion-710" },
+          { "title": "CTOnline feed PANSCR500 stock 5 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "mwgt2zqatd6lxrr",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice Kiddo Monstruos PC-085089 mochila escolar azul",
+        "description": "Mochila escolar Perfect Choice Kiddo Monstruos PC-085089 para ninos, color azul, con multiples compartimentos, tirantes acolchados, bolsillos laterales y material ligero.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/mochilas-escolares",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mochila-escolar-para-ninos-multiples-compartimentos-kiddo-monstruos-perfect-choice",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085089",
+          "commercialName": "Kiddo Monstruos",
+          "providerSku": "MALGEN4750",
+          "upc": "615604085089",
+          "productType": "Mochila escolar",
+          "color": "Azul",
+          "material": "15% nailon en cubierta / 85% poliester en forro",
+          "recommendedGender": "Nino",
+          "features": ["multiples compartimentos", "tirantes acolchados", "bolsillos laterales", "bolsillos con cremallera", "asa de transporte"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 545.3, "currency": "MXN", "branch": "DFA/TXA/MTY" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "400 x 290 x 130 mm", "weight": "600 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Kiddo Monstruos PC-085089 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mochila-escolar-para-ninos-multiples-compartimentos-kiddo-monstruos-perfect-choice" },
+          { "title": "CompuPuebla PC-085089 stock and images", "type": "image_reference", "url": "https://compupuebla.com/producto/mochilas-y-maletines-perfect-choice-pc-085089/" },
+          { "title": "CTOnline feed MALGEN4750 stock 5 DFA/TXA/MTY", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "qdovzi8u0t6u1ne",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice Emphoria PC-114024 barra de audio RGB 70W",
+        "description": "Barra de audio Perfect Choice Emphoria PC-114024 con subwoofer, potencia RMS de 70 W, Bluetooth 5.3, HDMI ARC, auxiliar 3.5 mm, USB e iluminacion RGB.",
+        "manualCategoryPath": "audio/barras-sonido",
+        "semanticCategoryPath": "audio/barras-sonido/2-1-subwoofer",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-114024",
+          "commercialName": "Emphoria",
+          "providerSku": "BOCMST4180",
+          "upc": "615604114024",
+          "productType": "Barra de audio con subwoofer",
+          "channels": "2.1",
+          "rmsPower": "70 W",
+          "pmpo": "1200 W",
+          "snr": "80 dB",
+          "connectivity": ["Bluetooth 5.3", "HDMI ARC", "AUX 3.5 mm", "USB"],
+          "driverSize": "2.25 in x 2 + 4 in x 1",
+          "material": "ABS + MDF",
+          "features": ["luz RGB 3 modos", "subwoofer incluido", "alambrico e inalambrico"],
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 1148.79, "currency": "MXN", "branch": "D2A/TXA/OAX/CEL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "soundbarDimensions": "410 x 68.5 x 90 mm", "soundbarWeight": "725 g", "subwooferDimensions": "120 x 350 x 200 mm", "subwooferWeight": "1.95 kg" },
+        "sourceRefs": [
+          { "title": "PCStore Perfect Choice PC-114024 specifications and images", "type": "image_reference", "url": "https://pcstore.mx/bocinas-perfect-choice-pc-114024-barra-de-audio-con-luz-rgb-y-subwoofer-70w-emphoria" },
+          { "title": "Expercom PC-114024 feature sheet", "type": "reseller_spec", "url": "https://www.expercom.mx/producto/bocinas-perfect-choice-pc-114024" },
+          { "title": "CTOnline feed BOCMST4180 stock 5 D2A/TXA/OAX/CEL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "lxyglxlvtc50wms",
+      "research": {
+        "confidence": 0.95,
+        "name": "Eaton Tripp Lite N206-FP02-IND placa industrial 2 puertos IP44",
+        "description": "Placa frontal industrial Eaton Tripp Lite N206-FP02-IND de acero inoxidable, una posicion, dos recortes, IP44, para acopladores bulkhead Cat5e/Cat6, USB 3.0 o HDMI 4K.",
+        "manualCategoryPath": "redes/cableado-estructurado/placas-keystone",
+        "semanticCategoryPath": "redes/cableado-estructurado/placas-keystone/industriales-ip44",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tripplite.eaton.com/2-port-single-gang-faceplate-stainless-steel-industrial-grade-ip44-taa~N206FP02IND",
+        "documents": [
+          { "label": "Eaton Tripp Lite N206-FP02-IND datasheet", "type": "datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/n206fp02ind.pdf" }
+        ],
+        "specs": {
+          "brand": "EATON TRIPP LITE",
+          "model": "N206-FP02-IND",
+          "providerSku": "CABTRL4150",
+          "upc": "037332206268",
+          "productType": "Placa frontal industrial",
+          "ports": 2,
+          "gang": "Single gang",
+          "material": "Acero inoxidable / metal",
+          "ingressProtection": "IP44",
+          "technology": ["Cat5/5e", "Cat6", "USB 3.0", "4K HDMI"],
+          "compatibleSeries": ["N206", "U325", "P569"],
+          "taaCompliant": true,
+          "color": "Plata",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CAM", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 5, "price": 120.76, "currency": "MXN", "branch": "CAM" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "unitDimensions": "195.6 x 127.0 x 12.7 mm", "shippingWeight": "0.08 kg" },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite N206-FP02-IND product PDF", "type": "datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/n206fp02ind.pdf" },
+          { "title": "DigiKey N206-FP02-IND product attributes", "type": "reseller_spec", "url": "https://www.digikey.com/en/products/detail/eaton-tripp-lite/N206-FP02-IND/9951365" },
+          { "title": "CTOnline feed CABTRL4150 stock 5 CAM", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7f6d3mvwnfnlq3c",
+      "research": {
+        "confidence": 0.94,
+        "name": "DataShield IS-1000 inversor cargador solar 1000VA 800W",
+        "description": "Inversor/cargador solar hibrido DataShield IS-1000 para sistemas fuera de red, 1000 VA/800 W, 120 V, 50/60 Hz, eficiencia maxima 95% y pantalla/controles de operacion.",
+        "manualCategoryPath": "energia/inversores-solares",
+        "semanticCategoryPath": "energia/inversores-solares/off-grid-hibridos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.datashield.net/fichas/IS-1000.pdf",
+        "documents": [
+          { "label": "DataShield IS-1000 ficha", "type": "datasheet", "url": "https://www.datashield.net/fichas/IS-1000.pdf" }
+        ],
+        "specs": {
+          "brand": "DATASHIELD",
+          "model": "IS-1000",
+          "providerSku": "INVDTS010",
+          "ean": "7501859101205",
+          "productType": "Inversor cargador solar",
+          "systemType": "Hibrido / off-grid",
+          "nominalDcVoltage": "120 V",
+          "maxDcCurrent": "15 A",
+          "mppVoltageRange": "70-145 V",
+          "nominalAcPower": "0.8 kW",
+          "nominalAcVoltage": "110/120 V",
+          "frequency": "50/60 Hz",
+          "maxEfficiency": "95%",
+          "color": "Plata",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 5990, "currency": "MXN", "branch": "DFA/TXA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "355 x 272 x 100 mm", "weight": "6.8 kg", "operatingTemperature": "0 C to 55 C", "humidity": "5-95%" },
+        "sourceRefs": [
+          { "title": "DataShield IS-1000 manufacturer PDF", "type": "datasheet", "url": "https://www.datashield.net/fichas/IS-1000.pdf" },
+          { "title": "ENF Solar IS series 1000 DataShield specs", "type": "reseller_spec", "url": "https://www.enfsolar.com/pv/inverter-datasheet/18117" },
+          { "title": "CTOnline feed INVDTS010 stock 4 DFA/TXA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a6u8z73wek3kp0n",
+      "research": {
+        "confidence": 0.94,
+        "name": "DataShield IS-3000 inversor cargador solar 3000VA 2400W",
+        "description": "Inversor/cargador solar hibrido DataShield IS-3000 para respaldo y energia renovable, 3000 VA/2400 W, 120 V, 50/60 Hz, eficiencia maxima 95% y pantalla LCD.",
+        "manualCategoryPath": "energia/inversores-solares",
+        "semanticCategoryPath": "energia/inversores-solares/off-grid-hibridos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "DATASHIELD",
+          "model": "IS-3000",
+          "providerSku": "INVDTS020",
+          "ean": "7501859101144",
+          "productType": "Inversor cargador solar",
+          "systemType": "Hibrido / off-grid",
+          "nominalDcVoltage": "120 V",
+          "startDcVoltage": "24 V",
+          "nominalAcPower": "2.4 kW",
+          "maxAcCurrent": "40 A",
+          "frequencyRange": "70-145 Hz en ficha ENF",
+          "frequency": "50/60 Hz",
+          "maxEfficiency": "95%",
+          "display": "LCD",
+          "color": "Plata",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 4, "price": 14980, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "440 x 300 x 125 mm", "weight": "10.5 kg", "operatingTemperature": "0 C to 55 C", "humidity": "5-95%" },
+        "sourceRefs": [
+          { "title": "ENF Solar IS series 3000 DataShield specs", "type": "reseller_spec", "url": "https://www.enfsolar.com/pv/inverter-datasheet/18116" },
+          { "title": "Intercompras DataShield IS-3000 details", "type": "reseller_spec", "url": "https://intercompras.com/p/inversor-datashield-is-3000va-2400w-senoidal-pura-149681" },
+          { "title": "CTOnline feed INVDTS020 stock 4 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

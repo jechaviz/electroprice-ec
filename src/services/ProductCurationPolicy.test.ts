@@ -40,6 +40,46 @@ describe("product curation policy", () => {
     });
   });
 
+  it("expands supplier branch summaries into stock locations", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-1b",
+      name: "Anviz AN-C2Slim-BT",
+      brand: "Anviz",
+      category: "laptops",
+      total_stock: 5,
+      wholesaler_stock: [{ wholesalerId: "ctonline", price: 151.65, stock: 5 }],
+      specs: { "Stock Location If Available": "D2A:4,DFA:1", Provider: "ctonline" },
+    });
+
+    expect(patch.stock_locations).toEqual([
+      expect.objectContaining({ providerId: "ctonline", warehouse: "D2A", stock: 4 }),
+      expect.objectContaining({ providerId: "ctonline", warehouse: "DFA", stock: 1 }),
+    ]);
+  });
+
+  it("uses researched provider branches when applying manual enrichment", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-1c",
+      name: "Pacific Soft SF020",
+      brand: "Pacific Soft",
+      category: "software",
+      total_stock: 6,
+      wholesaler_stock: [{ wholesalerId: "ctonline", price: 4968.98, stock: 6 }],
+      specs: {},
+    }, {
+      research: {
+        specs: {
+          providerBranches: [
+            { providerId: "ctonline", warehouseCode: "D2A", stock: 4 },
+            { providerId: "ctonline", warehouseCode: "DFA", stock: 2 },
+          ],
+        },
+      },
+    });
+
+    expect(patch.stock_locations.map((item) => `${item.warehouse}:${item.stock}`)).toEqual(["D2A:4", "DFA:2"]);
+  });
+
   it("marks unavailable products as obsolescence candidates after the threshold", () => {
     const patch = buildProductCurationPatch({
       id: "product-2",

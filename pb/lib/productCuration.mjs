@@ -64,11 +64,44 @@ const normalizeStockLocation = (stockItem) => ({
   source: stockItem.warehouse || stockItem.branch || stockItem.sucursal ? 'provider' : 'provider_stock_without_branch',
 });
 
-export const summarizeStockLocations = (product) => (
-  toArray(valueOf(product, 'wholesaler_stock'))
+const normalizeBranchLocation = (branch, fallbackProviderId = '') => ({
+  providerId: branch.providerId || branch.wholesalerId || fallbackProviderId,
+  warehouse: branch.warehouseCode || branch.warehouse || branch.branch || '',
+  country: branch.country || 'MX',
+  region: branch.region || branch.state || '',
+  city: branch.city || '',
+  stock: Math.max(0, Number(branch.stock) || 0),
+  source: 'provider_branch_summary',
+});
+
+const parseBranchSummary = (product) => {
+  const specs = toObject(product.specs);
+  const summary = String(specs['Stock Location If Available'] || '').trim();
+  if (!summary) return [];
+  const providerId = toArray(valueOf(product, 'wholesaler_stock'))[0]?.wholesalerId || specs.Provider || '';
+
+  return summary.split(',')
+    .map((part) => {
+      const [warehouse, stock] = part.split(':').map((value) => String(value || '').trim());
+      return normalizeBranchLocation({ warehouseCode: warehouse, stock }, providerId);
+    })
+    .filter((item) => item.providerId && item.warehouse);
+};
+
+export const summarizeStockLocations = (product, research = {}) => {
+  const researchBranches = toArray(toObject(research.specs).providerBranches)
+    .map((branch) => normalizeBranchLocation(branch))
+    .filter((item) => item.providerId && item.warehouse);
+  if (researchBranches.length) return researchBranches;
+
+  const stockLocations = toArray(valueOf(product, 'wholesaler_stock'))
     .map(normalizeStockLocation)
-    .filter((item) => item.providerId)
-);
+    .filter((item) => item.providerId);
+  if (stockLocations.some((item) => item.source === 'provider')) return stockLocations;
+
+  const parsedBranches = parseBranchSummary(product);
+  return parsedBranches.length ? parsedBranches : stockLocations;
+};
 
 export const resolveAvailabilityPatch = (product, options = {}) => {
   const now = options.now || new Date().toISOString();
@@ -100,9 +133,9 @@ export const resolveAvailabilityPatch = (product, options = {}) => {
 
 export const buildProductCurationPatch = (product, options = {}) => {
   const manualCategory = classifyManualCategory(product);
-  const stockLocations = summarizeStockLocations(product);
   const specs = inferMeasurementSpecs(product);
   const research = options.research || {};
+  const stockLocations = summarizeStockLocations(product, research);
   const manualCategoryPath = research.manualCategoryPath || manualCategory.path;
   const legacyCategory = research.legacyCategory || manualCategory.legacyCategory;
   const categoryReviewStatus = PRODUCT_CATEGORY_REVIEW_STATUSES.has(research.categoryReviewStatus)
