@@ -481,6 +481,23 @@ describe("product curation policy", () => {
     for (const [name, brand, path] of batchThirteenCases) {
       expect(classifyManualCategory({ name, brand, category: "laptops" }).path).toBe(path);
     }
+
+    const batchFourteenCases = [
+      ["KSA GKSA01-B goggles de proteccion anti empanante", "KSA", "seguridad/epp/proteccion-ocular"],
+      ["TopVision TBDL200A camara HD bullet 2MP TVI AHD CVI", "TOPVISION", "seguridad/cctv/camaras-turbohd"],
+      ["Laces LA100KSP kit de soportes de pared para rack", "LACES", "infraestructura/racks-accesorios/soportes-pared"],
+      ["Logitech PRO X 60 920-011921 teclado gaming wireless", "LOGITECH", "computo/perifericos/teclados"],
+      ["Dell PowerEdge R470 R470271 servidor rack 1U", "DELL", "computo/servidores/rack"],
+      ["TechZone TZLBP02 mochila laptop 15.6 pulgadas", "TECHZONE", "computo/accesorios/mochilas-fundas"],
+      ["Nexxt AW222NXT67 NPS-V11U3B charola para rack 1U", "NEXXT", "infraestructura/racks-accesorios/charolas"],
+      ["Vorago KSP-205 mini bafle karaoke bluetooth RGB", "VORAGO", "audio/bocinas"],
+      ["Syble XB-VP1106 verificador de precios POS", "SYBLE", "punto-de-venta/verificadores-precio"],
+      ["Perfect Choice PC-085027 bolso cruzado Holdy avellana", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+    ];
+
+    for (const [name, brand, path] of batchFourteenCases) {
+      expect(classifyManualCategory({ name, brand, category: "laptops" }).path).toBe(path);
+    }
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {

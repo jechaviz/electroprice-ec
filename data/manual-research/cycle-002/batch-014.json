@@ -1,0 +1,372 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c002-b014-2026-05-27",
+  "cycle": 2,
+  "batch": 14,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "4kbwtu2cq9813lu",
+      "research": {
+        "confidence": 0.9,
+        "name": "KSA GKSA01-B goggles de proteccion medica antiempanante",
+        "description": "Goggles de proteccion KSA GKSA01-B con cuatro valvulas de respiracion, grado medico, ajuste elastico, sello ocular y tratamiento antiempanante.",
+        "manualCategoryPath": "seguridad/epp/proteccion-ocular",
+        "semanticCategoryPath": "seguridad/epp/proteccion-ocular/goggles-medicos",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "KSA",
+          "model": "GKSA01-B",
+          "providerSku": "ACCKSA020",
+          "productType": "Goggles de proteccion ocular",
+          "protectionGrade": "Grado medico en ficha de canal",
+          "ventilation": "4 valvulas de respiracion",
+          "fit": "Elastico de sujecion y fijacion de sellado para ojos",
+          "antiFog": true,
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 22.22, "currency": "MXN", "branch": "ZAC" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Intercompras KSA GKSA01-B goggles", "type": "reseller_spec", "url": "https://intercompras.com/p/goggles-proteccion-ksa-gksa01-b-grado-medico-valvulas-respiracion-anti-215941" },
+          { "title": "ISCOMexico KSA GKSA01-B image/spec", "type": "image_reference", "url": "https://shop.iscomexico.com/productos/z-31906" },
+          { "title": "CTOnline feed ACCKSA020 stock 9 ZAC", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "n3jna2rgt57kq51",
+      "research": {
+        "confidence": 0.93,
+        "name": "TopVision TBDL200A camara HD bullet 2MP luz dual",
+        "description": "Camara HD bullet TopVision/Meriva TBDL200A de 2MP con senal AHD/TVI/CVI/CVBS, lente 2.8 mm, IR 30 m, luz calida 20 m, microfono integrado e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet-2mp-luz-dual",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "TOPVISION POWERED BY MERIVA",
+          "model": "TBDL200A",
+          "providerSku": "TBDL200A",
+          "productType": "Camara HD bullet analogica",
+          "resolution": "2 MP",
+          "videoSignals": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "illumination": "IR 30 m / luz calida 20 m",
+          "audio": "Microfono integrado; audio por coaxial o UTP solo por TVI",
+          "ingressProtection": "IP67",
+          "housing": "Metal/plastico",
+          "power": "12 VCD",
+          "features": ["COC", "imagen a color 24x7"],
+          "providerOffers": [{ "providerId": "tecnosinergia", "stock": 9, "price": 208.18, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "sourceRefs": [
+          { "title": "Grupo Reysa TopVision TBDL200A", "type": "reseller_spec", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl200a/" },
+          { "title": "Tecnosinergia portal TBDL200A stock 9", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "s50vfwm9ht07wt9",
+      "research": {
+        "confidence": 0.9,
+        "name": "Laces LA100KSP kit de soportes de pared para rack",
+        "description": "Kit de soportes de pared Laces LA100KSP en acero negro, ajustable de 12 a 24 pulgadas para montaje de rack o equipo de comunicaciones.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/soportes-pared",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/soportes-pared/ajustables",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LACES",
+          "model": "LA100KSP",
+          "providerSku": "KITLCS020",
+          "productType": "Kit de soportes de pared para rack",
+          "material": "Acero",
+          "color": "Negro",
+          "adjustmentRange": "12 a 24 in segun ficha de canal",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 9, "price": 23.53, "currency": "USD", "branch": "DFA/MTY/D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Intercompras Laces LA100KSP", "type": "reseller_spec", "url": "https://intercompras.com/p/soportes-laces-ajustable-a-156638" },
+          { "title": "CompuPuebla Laces LA100KSP", "type": "reseller_spec", "url": "https://compupuebla.com/producto/kit-de-soportes-de-pared-laces-la100ksp/" },
+          { "title": "Cyberpuerta Laces LA100KSP images", "type": "image_reference", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Servidores/Accesorios-para-Servidores/Soportes-y-Paneles/Laces-Kit-de-Soportes-de-Pared-LA100KSP-Negro.html" },
+          { "title": "CTOnline feed KITLCS020 stock 9 DFA/MTY/D2A", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "d54a3vtheqtw55x",
+      "research": {
+        "confidence": 0.97,
+        "name": "Logitech G PRO X 60 LIGHTSPEED teclado gaming blanco tactile",
+        "description": "Teclado gaming compacto 60% Logitech G PRO X 60 LIGHTSPEED 920-011921 con switches opticos GX tactile, RGB LIGHTSYNC, conexion LIGHTSPEED, Bluetooth y USB-C.",
+        "manualCategoryPath": "computo/perifericos/teclados",
+        "semanticCategoryPath": "computo/perifericos/teclados/gaming-60-wireless",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitechg.com/en-sg/products/gaming-keyboards/pro-x-60-wireless-keyboard.html",
+        "specs": {
+          "brand": "LOGITECH G",
+          "model": "PRO X 60 LIGHTSPEED",
+          "manufacturerSku": "920-011921",
+          "providerSku": "TECLOG1330",
+          "upc": "097855188335",
+          "productType": "Teclado gaming inalambrico 60%",
+          "layout": "60% compact",
+          "switches": "GX tactile optical",
+          "lighting": "LIGHTSYNC RGB",
+          "connectivity": ["LIGHTSPEED 2.4 GHz", "Bluetooth", "USB-C"],
+          "battery": "1500 mAh",
+          "batteryLife": "Hasta 65 h",
+          "included": ["adaptador USB-A LIGHTSPEED", "cable USB-A a USB-C", "estuche", "keycap Logitech G"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 8 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 8, "price": 2208.24, "currency": "MXN", "branch": "GDL" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "290 x 103 x 39 mm", "weight": "610 g", "cableLength": "1.8 m" },
+        "sourceRefs": [
+          { "title": "Logitech G PRO X 60 official page", "type": "manufacturer", "url": "https://www.logitechg.com/en-sg/products/gaming-keyboards/pro-x-60-wireless-keyboard.html" },
+          { "title": "B&H Logitech 920-011921 specifications", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1824971-REG/logitech_920_011921_pro_x_60_lightspeed.html" },
+          { "title": "CTOnline feed TECLOG1330 stock 8 GDL", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "e2b9gbr0iyb8tbt",
+      "research": {
+        "confidence": 0.91,
+        "name": "Dell PowerEdge R470 servidor rack 1U configuracion R470271_6505P432",
+        "description": "Servidor Dell PowerEdge R470 de 1U para centro de datos; plataforma con procesadores Intel Xeon 6, 16 ranuras DIMM, fuentes redundantes y opciones de almacenamiento EDSFF/SATA/NVMe.",
+        "manualCategoryPath": "computo/servidores/rack",
+        "semanticCategoryPath": "computo/servidores/rack/dell-poweredge-r470",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/manuals/en-us/poweredge-r470/r470_ism/technical-specifications?guid=guid-4dab03e4-40da-4268-a059-a74ab1cc558a",
+        "documents": [{ "label": "Dell PowerEdge R470 specification sheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-ca/products/servers/technical-support/poweredge-r470-spec-sheet.pdf" }],
+        "specs": {
+          "brand": "DELL",
+          "line": "PowerEdge",
+          "model": "R470",
+          "configurationCode": "R470271_6505P432",
+          "providerSku": "SERDDL070",
+          "productType": "Servidor rack 1U",
+          "processorFamily": "Intel Xeon 6",
+          "processorReference": "6505P aparece en el codigo de configuracion; validar BOM final con Dell/CT antes de cotizar",
+          "memorySlots": "16 DIMM",
+          "powerSupply": "Hasta 2 fuentes redundantes AC/DC",
+          "storageOptions": ["hasta 16 EDSFF E3.S Gen5 NVMe frontales", "hasta 10 bahias 2.5 in SATA", "hasta 4 bahias 3.5 in SATA"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 8 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 8, "price": 167357, "currency": "MXN", "branch": "DFA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Dell PowerEdge R470 technical specifications", "type": "manufacturer", "url": "https://www.dell.com/support/manuals/en-us/poweredge-r470/r470_ism/technical-specifications?guid=guid-4dab03e4-40da-4268-a059-a74ab1cc558a" },
+          { "title": "Dell PowerEdge R470 spec sheet", "type": "manufacturer_datasheet", "url": "https://www.delltechnologies.com/asset/en-ca/products/servers/technical-support/poweredge-r470-spec-sheet.pdf" },
+          { "title": "CTOnline feed SERDDL070 stock 8 DFA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "e7eely2d3e3j0xh",
+      "research": {
+        "confidence": 0.92,
+        "name": "TechZone TZLBP02 mochila basic para laptop 15.6 pulgadas negra",
+        "description": "Mochila TechZone Basic TZLBP02 color negro para laptop de hasta 15.6 pulgadas, confeccionada en nylon, con diseno delgado y compartimientos organizadores.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-15-6",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZLBP02",
+          "providerSku": "ACCTCH9440",
+          "ean": "7501950168411",
+          "productType": "Mochila para laptop",
+          "laptopCompatibility": "Hasta 15.6 in",
+          "material": "Nylon",
+          "color": "Negro",
+          "features": ["compartimento acolchado", "asa reforzada", "compartimientos organizadores"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 8, "price": 171.11, "currency": "MXN", "branch": "MID/CUN/DFA/ACA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Mactoner TechZone TZLBP02", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/mochila-techzone-tzlbp02/" },
+          { "title": "Intercompras TechZone TZLBP02", "type": "reseller_spec", "url": "https://intercompras.com/p/mochila-techzone-tzlbp02-laptop-negro-280109" },
+          { "title": "Cyberpuerta TechZone TZLBP02 images", "type": "image_reference", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-Portatiles/Mochilas-para-Laptops/Techzone-Mochila-de-Nylon-TZLBP02-para-Laptop-15-6-Negro.html" },
+          { "title": "CTOnline feed ACCTCH9440 stock 8 MID/CUN/DFA/ACA", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "oclxilm2ud3lx86",
+      "research": {
+        "confidence": 0.96,
+        "name": "Nexxt NPS-V11U3B AW222NXT67 charola para rack 19 pulgadas 1U",
+        "description": "Bandeja sencilla ventilada Nexxt NPS-V11U3B/AW222NXT67 para rack de 19 pulgadas, 1U, acero SPCC calibre 18, montaje fijo y capacidad de carga de hasta 20 kg.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/charolas",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/charolas/1u-ventiladas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NPS-V11U3B_SPA.pdf",
+        "documents": [{ "label": "Nexxt NPS-V11U3B ficha SPA", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NPS-V11U3B_SPA.pdf" }],
+        "specs": {
+          "brand": "NEXXT SOLUTIONS INFRASTRUCTURE",
+          "model": "NPS-V11U3B",
+          "providerSku": "ACCNXX120",
+          "alternateSku": "AW222NXT67",
+          "upc": "798302036581",
+          "productType": "Charola ventilada para rack",
+          "rackSize": "19 in",
+          "rackUnits": "1U",
+          "material": "Acero SPCC calibre 18",
+          "mounting": "Bastidores de 2 y 4 postes; orificios cuadrados, redondos y roscados",
+          "loadCapacity": "20 kg",
+          "equipmentDepth": "Hasta 254 mm",
+          "included": "4 juegos de tuerca con reten M6",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 8, "price": 33.93, "currency": "USD", "branch": "DFA/D2A/GDL/DFP/CMT" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43 x 483 x 300 mm", "packageDimensions": "49.5 x 5 x 30.5 cm", "weight": "2 kg reference; 20 kg is load capacity" },
+        "sourceRefs": [
+          { "title": "Nexxt NPS-V11U3B official Spanish datasheet", "type": "manufacturer_datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NPS-V11U3B_SPA.pdf" },
+          { "title": "Cyberpuerta Nexxt AW222NXT67 images/specs", "type": "image_reference", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Servidores/Accesorios-para-Servidores/Charolas-para-Racks-y-Gabinetes/Nexxt-Solutions-Charola-para-Rack-19-1U-20kg.html" },
+          { "title": "CTOnline feed ACCNXX120 stock 8 DFA/D2A/GDL/DFP/CMT", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "z1tm71dorlm56b1",
+      "research": {
+        "confidence": 0.92,
+        "name": "Vorago KSP-205 mini bafle karaoke Bluetooth RGB",
+        "description": "Mini bafle/karaoke speaker Vorago KSP-205 negro con Bluetooth, TWS, luz RGB, bateria recargable de 1500 mAh y diseno compacto para reuniones.",
+        "manualCategoryPath": "audio/bocinas",
+        "semanticCategoryPath": "audio/bocinas/bafles-karaoke-portatiles",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Vorago KSP-205 ficha", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/ksp-20527971724178456.pdf" }],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "KSP-205",
+          "providerSku": "BOCVGO1910",
+          "alternateProviderSku": "SPK-2690",
+          "productType": "Mini bafle karaoke Bluetooth",
+          "wireless": "Bluetooth",
+          "features": ["TWS", "iluminacion RGB", "recargable", "karaoke"],
+          "battery": "3.7 V, 1500 mAh",
+          "color": "Negro",
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 8, "price": 12.4, "currency": "USD", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 12.13, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Vorago KSP-205 ficha PDF", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/ksp-20527971724178456.pdf" },
+          { "title": "CTOnline feed BOCVGO1910 stock 8 and CVA SPK-2690 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0t60r56i5ftkyfa",
+      "research": {
+        "confidence": 0.96,
+        "name": "Syble XB-VP1106 verificador de precios POS Android 13",
+        "description": "Kiosco verificador de precios Syble XB-VP1106 con pantalla tactil 11.6 pulgadas, Android 13, lector 1D/2D, WiFi, Bluetooth, Ethernet PoE y montaje VESA 75.",
+        "manualCategoryPath": "punto-de-venta/verificadores-precio",
+        "semanticCategoryPath": "punto-de-venta/verificadores-precio/kioscos-android",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "documents": [{ "label": "Syble XB-VP1106 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/VERIFICADORDEPRECIOSSYBLEXBVP1106_XBVP1106/VERIFICADORDEPRECIOSSYBLEXBVP1106_XBVP1106.pdf" }],
+        "specs": {
+          "brand": "SYBLE",
+          "model": "XB-VP1106",
+          "providerSku": "KIOSYB010",
+          "productType": "Verificador de precios POS",
+          "processor": "RK3188 Cortex 1.6 GHz quad-core",
+          "operatingSystem": "Android 13",
+          "memory": "2 GB DDR3",
+          "storage": "32 GB eMMC",
+          "display": "11.6 in TFT LCD WXGA 1366 x 768, tactil capacitiva 10 puntos",
+          "scanner": "Codigos 1D y 2D",
+          "connectivity": ["WiFi 2.4/5.1 GHz", "Bluetooth", "RJ45 Ethernet PoE", "HDMI", "USB 2.0 x3", "USB 3.0 x1", "RJ11", "AUX 3.5 mm", "tarjeta SD"],
+          "mounting": "VESA 75, incluye soporte para pared segun ficha de canal",
+          "ingressProtection": "IP54 panel frontal",
+          "power": "AC 100-240 V, 50-60 Hz / DC 12 V",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 7, "price": 420.46, "currency": "USD", "branch": "DFP/QRO" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "bodyDimensions": "268 x 190 x 40 mm", "bodyWeight": "1.5 kg", "kitReference": "310 x 250 x 60 mm / 3.0 kg en ficha de canal con montaje/fuente" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Syble XB-VP1106 ficha tecnica", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/VERIFICADORDEPRECIOSSYBLEXBVP1106_XBVP1106/VERIFICADORDEPRECIOSSYBLEXBVP1106_XBVP1106.pdf" },
+          { "title": "Innova-Tech Syble XB-VP1106 detailed specs", "type": "reseller_spec", "url": "https://innovacionytecnologia.net/products/verificador-de-precios-syble-xb-vp1106" },
+          { "title": "GlobalOffice Syble XB-VP1106 stock Mexico", "type": "reseller_stock", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/perifericos/verificador-de-precios-syble-xb-vp1106-verificador/xb-vp1106" },
+          { "title": "CTOnline feed KIOSYB010 stock 7 DFP/QRO", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "2tipz9m73qa9k7m",
+      "research": {
+        "confidence": 0.95,
+        "name": "Perfect Choice Holdi PC-085027 bolso cruzado avellana",
+        "description": "Bolso crossbody Perfect Choice Holdi PC-085027 color cafe/avellana, ligero y acolchado, 100% poliester, resistente a derrames, con bolsillos y correa ajustable.",
+        "manualCategoryPath": "oficina/mochilas-bolsas",
+        "semanticCategoryPath": "oficina/mochilas-bolsas/bolsos-cruzados",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/bolso-crossbody-cruzado-ligero-y-acolchado-holdi-perfect-choice",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-085027",
+          "commercialName": "Holdi",
+          "providerSku": "MALGEN4660",
+          "alternateProviderSku": "AC-12376",
+          "productType": "Bolso cruzado / crossbody",
+          "color": "Cafe / avellana",
+          "material": "100% poliester exterior y forro",
+          "protectiveFeatures": ["resistente a derrames", "ligero", "acolchado"],
+          "pockets": ["1 bolsillo delantero con cremallera", "1 bolsillo trasero"],
+          "closure": "Cierre metalico",
+          "strap": "Correa ajustable",
+          "providerOffers": [
+            { "providerId": "ctonline", "stock": 7, "price": 124.22, "currency": "MXN", "branch": "not_available" },
+            { "providerId": "cva", "stock": 0, "price": 244.37, "currency": "MXN", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "19 x 13 x 28.8 cm", "weight": "178 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Holdi PC-085027 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/bolso-crossbody-cruzado-ligero-y-acolchado-holdi-perfect-choice" },
+          { "title": "Digitalife PC-085027 specs and images", "type": "image_reference", "url": "https://www.digitalife.com.mx/productos/1-bolso-cruzado-de-poliester-perfect-choice-pc-085027-19-x-13-x-288-cm-avellana" },
+          { "title": "CTOnline feed MALGEN4660 stock 7 and CVA AC-12376 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
