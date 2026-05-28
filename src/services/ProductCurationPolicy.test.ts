@@ -31,7 +31,7 @@ describe("product curation policy", () => {
     });
 
     expect(patch.availability_status).toBe("active");
-    expect(patch.manual_category_path).toBe("redes/access-points");
+    expect(patch.manual_category_path).toBe("redes/access-points/wifi-7");
     expect(patch.stock_locations[0]).toMatchObject({
       providerId: "cva",
       warehouse: "Guadalajara",
@@ -191,7 +191,7 @@ describe("product curation policy", () => {
       name: "Dell CP5724S EcoLoop Pro Slim Backpack",
       brand: "DELL",
       category: "laptops",
-    }).path).toBe("computo/accesorios/mochilas-fundas");
+    }).path).toBe("computo/accesorios/mochilas-fundas/mochilas-laptop");
 
     expect(classifyManualCategory({
       name: "Creative Labs SB1870 Sound Blaster Audigy Fx V2",

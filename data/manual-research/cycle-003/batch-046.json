@@ -1,0 +1,488 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b046-2026-05-28",
+  "cycle": 3,
+  "batch": 46,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "004dk1pqb1ix35b",
+      "research": {
+        "confidence": 0.96,
+        "name": "UNV Uniview IPC3624LE-ADF28K-WP-L camara IP turret 4MP ColorHunter Wise-ISP PoE lente 2.8 mm",
+        "description": "Camara IP turret UNV/Uniview Owlview IPC3624LE-ADF28K-WP-L de 4MP con sensor 1/1.8 CMOS, lente fijo 2.8 mm F1.0, ColorHunter Wise-ISP, WDR 120 dB, luz calida 30 m, microfono integrado, MicroSD hasta 512 GB, ONVIF e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret-colorhunter-4mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://global.uniview.com/es/Products/Network_Cameras/Owlview_Series/Owlview/IPC3624LE-ADF28K-WP-L/",
+        "gallery": [
+          "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/fab0bba1-cb52-4b61-97ac-a98fb061160f.png",
+          "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/0270ecdd-7203-4eca-9477-77702e9e0ff0.png",
+          "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/6b044f5a-5cf1-4ad8-ae80-c453aaed8660.png",
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=24563902&c=4820964&h=ENdjwZUx3Tk58gshnuqdyv1imm8n-CfjBZeZhhyAqJ9UsoXv"
+        ],
+        "documents": [
+          { "label": "UNV IPC3624LE-ADF28(40)K-WP-L datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/b3f33bc4-2733-4972-8a6a-8a5bb16e79de/ce7a8090-1d11-4106-b177-c9e0d7865d13.pdf" },
+          { "label": "UNV network camera user manual", "type": "manual", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/08aac4f1-82e0-4f30-bd37-0743d62a9817/0b28c9ca-698d-4ded-9498-e784ad028e4e.pdf" }
+        ],
+        "specs": {
+          "brand": "UNV / Uniview",
+          "model": "IPC3624LE-ADF28K-WP-L",
+          "providerSku": "CI128UNV29",
+          "productType": "IP turret PoE security camera",
+          "resolution": "4 MP, 2560 x 1440 up to 25 fps",
+          "sensor": "1/1.8 CMOS",
+          "lens": "2.8 mm fixed, F1.0",
+          "fieldOfView": "H 107.6 deg, V 58.4 deg, D 126.4 deg",
+          "videoCompression": "Ultra 265, H.265, H.264, MJPEG",
+          "lowLight": "Color 0.0003 lux, ColorHunter Wise-ISP",
+          "wdr": "120 dB",
+          "supplementalLight": "Warm light up to 30 m",
+          "storage": "MicroSD up to 512 GB",
+          "audio": "Built-in microphone",
+          "network": "RJ45 10/100, ONVIF Profile S/G/T",
+          "ingressProtection": "IP67",
+          "power": "12 VDC +/-25% or PoE IEEE 802.3af, max 3.5 W",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "MX", "stock": 99 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI128UNV29", "stock": 99, "price": 1408.88, "currency": "MXN", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "sourceDiscrepancies": ["ElectroPrice no es fabricante; el fabricante verificado es UNV/Uniview.", "CI128UNV29 parece codigo interno de proveedor.", "LED30M se normaliza como luz calida 30 m, no IR.", "El titulo de proveedor menciona Smart Intrusion Prevention Lite, pero la ficha oficial de esta variante lista deteccion de movimiento, ultra motion, tamper y audio detection."]
+        },
+        "measurements": { "dimensions": "118 mm diameter x 106 mm height", "weight": "0.41 kg" },
+        "sourceRefs": [
+          { "title": "Uniview IPC3624LE-ADF28K-WP-L official page", "type": "manufacturer", "url": "https://global.uniview.com/es/Products/Network_Cameras/Owlview_Series/Owlview/IPC3624LE-ADF28K-WP-L/" },
+          { "title": "Uniview IPC3624LE-ADF28(40)K-WP-L datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/b3f33bc4-2733-4972-8a6a-8a5bb16e79de/ce7a8090-1d11-4106-b177-c9e0d7865d13.pdf" },
+          { "title": "Tecnosinergia feed CI128UNV29 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "006zcjzzk6yg9kt",
+      "research": {
+        "confidence": 0.94,
+        "name": "BRobotix 406351 cable HDMI 2.0 en espiral HDMI-A macho a HDMI-A macho 30-80 cm negro",
+        "description": "Cable BRobotix 406351 HDMI-A macho a HDMI-A macho en espiral, longitud extendible 30 a 80 cm, color negro con conectores chapados en oro y carcasa de aleacion de aluminio.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/hdmi-a-macho-macho-espiral",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/productos/cable-hdmi-v2-0-en-espiral-soporta-8k_406351_5008",
+        "gallery": [
+          "https://datacomponents.com.mx/imgProductos/Img390/406351_1.jpg",
+          "https://datacomponents.com.mx/imgProductos/Img390/406351_2.jpg",
+          "https://datacomponents.com.mx/imgProductos/Img390/406351_3.jpg",
+          "https://static.ctonline.mx/imagenes/ACCRBT8900/ACCRBT8900_full.jpg"
+        ],
+        "documents": [{ "label": "BRobotix 406351 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/406351_ft.pdf" }],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "406351",
+          "providerSku": "ACCRBT8900",
+          "ean": "7503055406351",
+          "productType": "HDMI spiral cable",
+          "connector1": "HDMI-A male",
+          "connector2": "HDMI-A male",
+          "length": "30-80 cm / 0.8 m",
+          "color": "Negro",
+          "hdmiVersion": "2.0 according to manufacturer listing",
+          "declaredResolution": "8K@60Hz, 4K@120Hz, 2K@240Hz",
+          "declaredBandwidth": "48 Gbit/s",
+          "connectorPlating": "Gold plated",
+          "packageQuantity": "1 pieza",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT8900", "stock": 6, "price": 7.12, "currency": "USD", "branch": "D2A" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Fabricante lo declara HDMI 2.0, pero tambien declara 48 Gbit/s, 8K60 y 4K120; esas capacidades son inconsistentes con HDMI 2.0 convencional."]
+        },
+        "measurements": { "length": "30-80 cm", "weight": "24 g without package" },
+        "sourceRefs": [
+          { "title": "DataComponents BRobotix 406351 product page", "type": "manufacturer", "url": "https://datacomponents.com.mx/productos/cable-hdmi-v2-0-en-espiral-soporta-8k_406351_5008" },
+          { "title": "DataComponents BRobotix 406351 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/406351_ft.pdf" },
+          { "title": "CTOnline feed ACCRBT8900 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0098homnftyw7zw",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link Omada EAP773 BE11000 access point Wi-Fi 7 tri-banda de techo con puerto 10G PoE+",
+        "description": "Access point empresarial TP-Link Omada EAP773 Wi-Fi 7 tri-banda para montaje en techo, con puerto Ethernet 10G, MLO, 4K-QAM, OFDMA, MU-MIMO, Omada SDN y alimentacion PoE+ o 12V DC.",
+        "manualCategoryPath": "redes/access-points/wifi-7",
+        "semanticCategoryPath": "redes/access-points/wifi-7/techo-tri-banda-10g",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.omadanetworks.com/mx/business-networking/omada-wifi-ceiling-mount/eap773/",
+        "gallery": [
+          "https://static.tp-link.com/upload/image-line/EAP773_EU_2.0_overview_01_large_20251204032005i.jpg",
+          "https://static.tp-link.com/upload/image-line/EAP773_EU_2.0_overview_02_large_20260225032356s.jpg",
+          "https://static.tp-link.com/upload/image-line/EAP773_EU_2.0_overview_03_large_20251204032006m.jpg",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10453736"
+        ],
+        "documents": [{ "label": "TP-Link Omada EAP773 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202605/20260508/Datasheet_EAP773%202.0.pdf" }],
+        "specs": {
+          "brand": "TP-Link Omada",
+          "model": "EAP773",
+          "providerSku": "ACPTPL730 / NIC-4843",
+          "productType": "Ceiling mount Wi-Fi 7 access point",
+          "regionalClass": "BE11000 for MX/US; BE9300 for EU/regional variant",
+          "wirelessStandard": "IEEE 802.11 a/b/g/n/ac/ax/be",
+          "bands": "2.4 GHz, 5 GHz, 6 GHz",
+          "dataRate": "MX/US 574 Mbps + 4320 Mbps + 5760 Mbps; EU 574 Mbps + 2880 Mbps + 5760 Mbps",
+          "streams": "2x2 on 2.4/5/6 GHz",
+          "ethernet": "1 x 10G RJ45",
+          "power": "802.3at PoE+ or 12V/2.5A DC",
+          "wirelessFeatures": "MLO, 4K-QAM, MU-MIMO, OFDMA, mesh, band steering, airtime fairness, 24 SSIDs",
+          "management": "Omada SDN, hardware/software/cloud controllers",
+          "coverage": "Approx. 140 m2 / 1500 ft2",
+          "clientCapacity": "380+ concurrent clients",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 40 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACPTPL730", "stock": 40, "price": 193.18, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "NIC-4843", "stock": 0, "price": 183.39, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["ACPTPL730 aparece como BE9300 en algunos listados, pero Mexico/US y la velocidad 574+4320+5760 corresponden a BE11000.", "Algunos resellers citan 360 MHz; oficial es 320 MHz.", "Se usa PoE+ 802.3at para esta revision segun fuente oficial actual."]
+        },
+        "measurements": { "dimensions": "220 x 220 x 32.5 mm", "weight": "736 g approx.", "packageDimensions": "265 x 262 x 95 mm", "shippingWeight": "1.2 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link Omada EAP773 Mexico official page", "type": "manufacturer", "url": "https://www.omadanetworks.com/mx/business-networking/omada-wifi-ceiling-mount/eap773/" },
+          { "title": "TP-Link EAP773 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202605/20260508/Datasheet_EAP773%202.0.pdf" },
+          { "title": "CTOnline and CVA feeds EAP773 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "00v379z552dc5df",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 6006528 maletin rigido de neopreno para laptop hasta 12 pulgadas negro",
+        "description": "Maletin/funda rigida BRobotix 6006528 de neopreno para laptop de hasta 12 pulgadas, color negro, compatible universal y con asa de transporte.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/neopreno-rigido-12",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://www.brobotix.com.mx",
+        "gallery": [
+          "https://ofixmx.vtexassets.com/arquivos/ids/217894-800-auto?aspect=true&height=auto&v=638996470243230000&width=800",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-BROBOTIX-6006528-2c8ef7.jpg",
+          "https://static.ctonline.mx/imagenes/MALRBT390/MALRBT390_full.jpg"
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "6006528",
+          "providerSku": "MALRBT390",
+          "ean": "7500896006528",
+          "productType": "Laptop sleeve / briefcase",
+          "material": "Neopreno",
+          "color": "Negro",
+          "maxLaptopSize": "30.5 cm / 12 in verified in detailed sheets",
+          "commercialAlias": "11-13.8 in in reseller titles",
+          "caseType": "Funda / maletin rigido",
+          "surfaceColoration": "Monocromatico",
+          "compatibleBrand": "Universal",
+          "handle": "Yes",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TRN", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALRBT390", "stock": 12, "price": 27.29, "currency": "USD", "branch": "TRN,DFA,MTY,VHA,TXA,ZAC" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Titulos comerciales dicen 11-13.8 o 13.8 pulgadas, pero fichas detalladas dan 12 pulgadas / 30.5 cm.", "No se encontro ficha publica especifica del fabricante BRobotix para 6006528."]
+        },
+        "measurements": { "dimensions": "350 x 40 x 265 mm", "weight": "559.2 g", "packageWeight": "581.5 g" },
+        "sourceRefs": [
+          { "title": "CompuPuebla BRobotix 6006528 product data", "type": "reseller_spec", "url": "https://compupuebla.com/producto/fundas-y-maletines-brobotix-6006528/" },
+          { "title": "Ofix BRobotix 6006528 product data", "type": "reseller_spec", "url": "https://www.ofix.mx/mochilas-y-maletines-brobotix-6006528-6006528/p" },
+          { "title": "CTOnline feed MALRBT390 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "01a0xo0ikpel71u",
+      "research": {
+        "confidence": 0.96,
+        "name": "BRobotix 263786 plug modular RJ45 Cat5e UTP 8P8C bote con 100 piezas transparente",
+        "description": "Bote BRobotix 263786 con 100 plugs modulares RJ45 Cat5e UTP 8P8C transparentes para terminacion de cables de red.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-rj45",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-rj45/cat5e-utp-8p8c",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/productos/plug-rj45-cat5e--8-posiciones--bote-con-100-piezas_263786_4597",
+        "gallery": [
+          "https://datacomponents.com.mx/imgProductos/Img390/263786_1.jpg",
+          "https://datacomponents.com.mx/imgProductos/Img390/263786_2.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/PlugsRJ45CAT5eMultifilarModularUTP_263786_EAN7503032263786_0.jpg",
+          "https://static.ctonline.mx/imagenes/ACCRBT6460/ACCRBT6460_2_full.jpg"
+        ],
+        "documents": [{ "label": "BRobotix 263786 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/263786_ft.pdf" }],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "263786",
+          "providerSku": "ACCRBT6460",
+          "ean": "7503032263786",
+          "productType": "RJ45 Cat5e modular plugs",
+          "connector": "RJ45 8P8C",
+          "category": "Cat5e",
+          "cableType": "UTP",
+          "packageQuantity": "100 piezas",
+          "color": "Transparente",
+          "standard": "Cat5 ANSI/TIA/EIA-568-A, Cat5e TIA/EIA-568-B",
+          "insulator": "Policarbonato",
+          "contacts": "Fosforo bronce",
+          "goldPlating": "15 micropulgadas in official sheet",
+          "terminal": "2 puntas",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 218 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 180 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 98 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT6460", "stock": 827, "price": 9.09, "currency": "USD", "branch": "GDL,DFA,D2A,DFC,CMT,MTY,DFT,TXA,DFP,ACX,VHA,MID" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["CT/CompuPuebla describen chapa oro 30 micras; ficha oficial indica 15 micropulgadas.", "Multifilar / UTP solido aparece en retail, pero no queda confirmado como especificacion oficial."]
+        },
+        "measurements": { "containerDimensions": "12 cm height x 7 cm diameter" },
+        "sourceRefs": [
+          { "title": "DataComponents BRobotix 263786 product page", "type": "manufacturer", "url": "https://datacomponents.com.mx/productos/plug-rj45-cat5e--8-posiciones--bote-con-100-piezas_263786_4597" },
+          { "title": "DataComponents BRobotix 263786 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/263786_ft.pdf" },
+          { "title": "CTOnline feed ACCRBT6460 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "01qr3iyh7kjut57",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice Branston PC-084716 portafolio ejecutivo para laptop 16.7 pulgadas negro",
+        "description": "Portafolio ejecutivo Perfect Choice Branston PC-084716 para laptop de hasta 16.7 pulgadas, fabricado en poliester, color negro, con asa, correa de hombro, correa para trolley y multiples compartimentos.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/portafolios-laptop-16-7",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/portafolio-ejecutivo-para-laptop-diseno-elegante-y-funcional-branston-perfect-choice",
+        "gallery": [
+          "https://perfectchoice.me/cdn/shop/files/PC-084716_A01_800x.jpg?v=1737666890",
+          "https://perfectchoice.me/cdn/shop/files/Portafolio_Branston_800x.jpg?v=1760983441",
+          "https://perfectchoice.me/cdn/shop/files/PC-084716_A05_800x.jpg?v=1760983441",
+          "https://static.ctonline.mx/imagenes/MALGEN5180/MALGEN5180_full.jpg"
+        ],
+        "documents": [{ "label": "Perfect Choice PC-084716 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-084716_FT.pdf?v=1737667106" }],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-084716",
+          "line": "Branston",
+          "providerSku": "MALGEN5180",
+          "upc": "615604084716",
+          "productType": "Executive laptop briefcase",
+          "material": "Forro 100% poliester, cubierta 100% poliester",
+          "color": "Negro",
+          "maxLaptopSize": "16.7 in in official datasheet; rounded to 17 in by some resellers",
+          "features": "Asa, correa ajustable para hombro, correa para trolley, multiples compartimentos",
+          "contents": "1 portafolio and warranty policy",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALGEN5180", "stock": 1, "price": 310.71, "currency": "MXN", "branch": "ACA" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Pagina oficial menciona hasta 16 pulgadas en descripcion; ficha oficial indica 16.7 pulgadas.", "Algunos resellers redondean a 17 pulgadas.", "Pagina oficial dice 1 mochila en contenido, pero la ficha corrige a 1 portafolio."]
+        },
+        "measurements": { "dimensions": "46 x 7.5 x 30.5 cm", "weight": "485 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Branston official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/portafolio-ejecutivo-para-laptop-diseno-elegante-y-funcional-branston-perfect-choice" },
+          { "title": "Perfect Choice PC-084716 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-084716_FT.pdf?v=1737667106" },
+          { "title": "CTOnline feed MALGEN5180 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "01td11iwng6nfpf",
+      "research": {
+        "confidence": 0.95,
+        "name": "Silimex Laptop Cleaner kit de limpieza para laptop y pantallas 100 ml + removedor 170 ml",
+        "description": "Kit Silimex Laptop Cleaner para limpieza y proteccion de laptops y pantallas, con limpiador 100 ml, removedor de polvo 170 ml y toallita de microfibra 20 x 20 cm.",
+        "manualCategoryPath": "computo/accesorios/limpieza/kits-limpieza",
+        "semanticCategoryPath": "computo/accesorios/limpieza/kits-limpieza/laptop-pantallas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://silimex.com.mx/producto/laptop-cleaner/",
+        "gallery": [
+          "https://silimex.com.mx/wp-content/uploads/2022/11/web-silimex-laptop-cleaner-1-600x600.jpg",
+          "https://silimex.com.mx/wp-content/uploads/2022/11/web-silimex-laptop-cleaner-2-600x600.jpg",
+          "https://silimex.com.mx/wp-content/uploads/2022/11/web-silimex-laptop-cleaner-3-600x600.jpg",
+          "https://static.ctonline.mx/imagenes/SLXLMP340/SLXLMP340_full.jpg"
+        ],
+        "documents": [{ "label": "Silimex Laptop Cleaner datasheet", "type": "datasheet", "url": "https://comeind.com.mx/wp-content/uploads/2022/09/SILIMEX-LAPTOP-CLEANER-KIT-2021.pdf" }],
+        "specs": {
+          "brand": "Silimex",
+          "model": "Laptop Cleaner",
+          "providerSku": "SLXLMP340",
+          "ean": "7503002196250",
+          "productType": "Electronics cleaning kit",
+          "recommendedUse": "Laptops, pantallas, smartphones, tabletas, GPS, monitores, camaras y lentes",
+          "features": "Elimina polvo, grasa, suciedad y huellas; proteccion antiestatica y UV; elimina bacterias",
+          "contents": "Microfiber cloth 20 x 20 cm, cleaner 100 ml, dust remover 170 ml",
+          "packaging": "Caja de carton sulfatada",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "VER", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SLXLMP340", "stock": 192, "price": 148.81, "currency": "MXN", "branch": "VER,PUE,CUE,TOL,ZAC,CDV,CEL,XLP,TPC,CUN,TXL,CHI" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Formula sin alcohol aparece en reseller, no en la ficha fabricante; se conserva como claim secundario no verificado.", "Algunas fuentes mencionan cepillo, pero la ficha tecnica de 2021 no lo lista en incluye."]
+        },
+        "measurements": { "kitDimensions": "16.5 x 5.5 x 12 cm", "cloth": "20 x 20 cm", "masterBox": "21 x 30 x 37 cm, 5.240 kg for 15 pieces" },
+        "sourceRefs": [
+          { "title": "Silimex Laptop Cleaner official page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/laptop-cleaner/" },
+          { "title": "Silimex Laptop Cleaner datasheet", "type": "datasheet", "url": "https://comeind.com.mx/wp-content/uploads/2022/09/SILIMEX-LAPTOP-CLEANER-KIT-2021.pdf" },
+          { "title": "CTOnline feed SLXLMP340 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "02c37ycxsl1qvj0",
+      "research": {
+        "confidence": 0.97,
+        "name": "Game Factor MAG500 brazo ajustable para microfono y webcam metalico negro",
+        "description": "Brazo ajustable Game Factor MAG500 para microfono o webcam, estructura metalica, clip universal para escritorio hasta 4.5 cm, movimiento 360 grados, alcance documentado entre 1 m y 1.2 m, y soporte maximo de 2 kg.",
+        "manualCategoryPath": "audio/microfonos/soportes-brazos",
+        "semanticCategoryPath": "audio/microfonos/soportes-brazos/brazo-articulado-webcam",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gamefactor.mx/detalle/58/mag500",
+        "gallery": [
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_00.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_01.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_02.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_03.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_04.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_05.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_06.png",
+          "https://www.gamefactor.mx/images/galeria_articulos/MAG500_07.png",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10476340"
+        ],
+        "documents": [
+          { "label": "Game Factor MAG500 data sheet", "type": "datasheet", "url": "https://www.gamefactor.mx/descargables/mag50071101607709153.pdf" },
+          { "label": "Game Factor MAG500 quick guide", "type": "manual", "url": "https://www.gamefactor.mx/descargables/mag50019651607709153.pdf" }
+        ],
+        "specs": {
+          "brand": "Game Factor",
+          "model": "MAG500",
+          "providerSku": "ACCVGO2110 / AC-13410",
+          "productType": "Microphone arm",
+          "material": "Metal",
+          "color": "Negro",
+          "movement": "360 grados",
+          "reach": "1 m to 1.2 m depending on manufacturer document",
+          "deskClamp": "Up to 4.5 cm",
+          "microphoneThread": "3/8 in",
+          "includedAdapters": "5/8 in and 1/4 in",
+          "maxLoad": "2 kg",
+          "boxContents": "Arm, table clip, microphone clip and 3 adapters",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 20 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCVGO2110", "stock": 20, "price": 14.53, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "AC-13410", "stock": 0, "price": 14.21, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Feed CVA lo habia clasificado como webcam/camara; fabricante confirma brazo para microfono compatible con webcam.", "Documentacion oficial reporta alcance entre 1 m y 1.2 m; se conserva la discrepancia."]
+        },
+        "measurements": { "reach": "1.2 m", "maxLoad": "2 kg", "deskClamp": "4.5 cm" },
+        "sourceRefs": [
+          { "title": "Game Factor MAG500 official page", "type": "manufacturer", "url": "https://www.gamefactor.mx/detalle/58/mag500" },
+          { "title": "Game Factor MAG500 quick guide", "type": "manual", "url": "https://www.gamefactor.mx/descargables/mag50019651607709153.pdf" },
+          { "title": "CTOnline and CVA feeds MAG500 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "02caxfzl5ya5e6r",
+      "research": {
+        "confidence": 0.97,
+        "name": "Gigabyte B850 EAGLE WIFI6E tarjeta madre ATX socket AM5 DDR5 Wi-Fi 6E PCIe 5.0",
+        "description": "Tarjeta madre Gigabyte B850 EAGLE WIFI6E rev. 1.x para AMD socket AM5, chipset B850, formato ATX, 4 ranuras DDR5 hasta 256 GB, 3 ranuras M.2, PCIe 5.0 x16, Wi-Fi 6E, Bluetooth y LAN GbE.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am5",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am5/b850-atx-wifi6e",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Motherboard/B850-EAGLE-WIFI6E-rev-1x",
+        "gallery": [
+          "https://www.gigabyte.com/FileUpload/Global/KeyFeature/3825/innergigabyte/images/product/hero.png",
+          "https://www.gigabyte.com/FileUpload/Global/KeyFeature/3825/innergigabyte/images/product/diagram.png",
+          "https://www.gigabyte.com/FileUpload/Global/KeyFeature/3825/innergigabyte/images/product/diagram_connectivity.png",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10447896"
+        ],
+        "documents": [
+          { "label": "Gigabyte B850 EAGLE WIFI6E manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_b850-eagle-wf6e-gaming-wf6_1002_e.pdf" },
+          { "label": "Gigabyte AMD 800 series installation guide", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_installation-guide_800series.pdf" }
+        ],
+        "specs": {
+          "brand": "Gigabyte",
+          "model": "B850 EAGLE WIFI6E",
+          "providerSku": "MBDGIG5480 / MB-1429",
+          "productType": "Motherboard",
+          "socket": "AMD AM5",
+          "chipset": "AMD B850",
+          "formFactor": "ATX",
+          "cpuSupport": "AMD Ryzen 9000/8000/7000 series",
+          "memory": "4 x DDR5 DIMM, up to 256 GB, DDR5 8200(OC), EXPO/XMP",
+          "pcie": "PCIe 5.0 x16 reinforced slot",
+          "storage": "3 x M.2 sockets, 4 x SATA 6 Gb/s",
+          "network": "Realtek GbE LAN, Wi-Fi 6E 802.11ax, Bluetooth 5.3",
+          "displayOutputs": "HDMI 2.1 and DisplayPort 1.4 via CPU integrated graphics",
+          "internalPower": "24-pin ATX, 8-pin + 4-pin CPU power",
+          "dimensions": "30.5 x 24.4 cm",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "MX", "stock": 105 }, { "providerId": "cva", "warehouseCode": "MX", "stock": 0 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG5480", "stock": 105, "price": 158.52, "currency": "USD", "branch": "MX" }, { "providerId": "cva", "providerSku": "MB-1429", "stock": 0, "price": 143.48, "currency": "USD", "branch": "MX" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Feed lo habia clasificado como networking por Wi-Fi; categoria correcta es tarjeta madre AMD AM5.", "Algunos listados de distribuidor reportan 64 GB maximo; ficha oficial indica hasta 256 GB."]
+        },
+        "measurements": { "formFactor": "ATX", "dimensions": "30.5 x 24.4 cm" },
+        "sourceRefs": [
+          { "title": "Gigabyte B850 EAGLE WIFI6E official page", "type": "manufacturer", "url": "https://www.gigabyte.com/Motherboard/B850-EAGLE-WIFI6E-rev-1x" },
+          { "title": "Gigabyte B850 EAGLE WIFI6E specifications", "type": "manufacturer_spec", "url": "https://www.gigabyte.com/us/Motherboard/B850-EAGLE-WIFI6E-rev-1x/sp" },
+          { "title": "CTOnline and CVA feeds B850 EAGLE WIFI6E stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "02mlqs1fp76gi3i",
+      "research": {
+        "confidence": 0.95,
+        "name": "Lenovo ThinkPad T14 Gen 6 AMD Copilot+ PC 14 pulgadas Ryzen AI 7 PRO 350 32GB 1TB Windows 11 Pro 21QK000WLM",
+        "description": "Laptop empresarial Lenovo ThinkPad T14 Gen 6 AMD Copilot+ PC, configuracion 21QK000WLM con Ryzen AI 7 PRO 350, 32 GB DDR5, SSD 1 TB, pantalla WUXGA 14 pulgadas y Windows 11 Pro.",
+        "manualCategoryPath": "computo/laptops/empresariales",
+        "semanticCategoryPath": "computo/laptops/empresariales/thinkpad-14-amd-ai-pro",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14_Gen_6_AMD/ThinkPad_T14_Gen_6_AMD_Spec.html",
+        "gallery": [
+          "https://download.lenovo.com/images/ProdImageLaptops/tp_t14_gen6.jpg",
+          "https://p2-ofp.static.pub//fes/cms/2025/09/22/rc4hksp6he1ucydx54owo3cpyqgfip502937.png?height=584&width=584",
+          "https://static.ctonline.mx/imagenes/COMLEV6500/COMLEV6500_full.jpg"
+        ],
+        "documents": [
+          { "label": "Lenovo ThinkPad T14 Gen 6 AMD PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14_Gen_6_AMD/ThinkPad_T14_Gen_6_AMD_Spec.PDF" }
+        ],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "ThinkPad T14 Gen 6 AMD",
+          "partNumber": "21QK000WLM",
+          "providerSku": "COMLEV6500",
+          "upc": "199272185987",
+          "productType": "Business laptop",
+          "display": "14 in WUXGA 1920 x 1200 IPS, 400 nits, 45% NTSC, 60 Hz, non-touch",
+          "processor": "AMD Ryzen AI 7 PRO 350, 8 cores / 16 threads, 2.0 GHz to 5.0 GHz",
+          "graphics": "Integrated AMD Radeon 860M",
+          "npu": "AMD Ryzen AI, up to 50 TOPS",
+          "memory": "32 GB DDR5-5600, 1 x 32 GB SO-DIMM",
+          "memoryMax": "64 GB DDR5-5600",
+          "storage": "1 TB M.2 PCIe 4.0 NVMe SSD",
+          "operatingSystem": "Windows 11 Pro",
+          "wireless": "Wi-Fi 7 2x2 + Bluetooth 5.4",
+          "ethernet": "Gigabit Ethernet",
+          "camera": "5 MP + IR with privacy shutter",
+          "battery": "52.5 Wh",
+          "powerAdapter": "65 W USB-C",
+          "keyboard": "Spanish layout, non-backlit according to exact configuration",
+          "security": "Windows Hello IR camera, camera privacy shutter, TPM/Pluton platform security, Kensington Nano slot",
+          "ports": "2 x Thunderbolt 4/USB-C, HDMI, Ethernet RJ45, USB-A, audio combo",
+          "dimensions": "315.9 x 223.7 x 10.9/16.1 mm",
+          "weight": "1.46 kg",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CLN", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMLEV6500", "stock": 6, "price": 31191.00, "currency": "MXN", "branch": "CLN,QRO,DGO,MTY" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Feed lo habia clasificado como monitor; categoria correcta es laptop empresarial.", "Registro original tenia storage=32 GB por error de normalizacion; titulo/fuente proveedor indican 1 TB SSD.", "PSREF describe familia/plataforma y la configuracion exacta 21QK000WLM se confirma desde proveedor/UPC."]
+        },
+        "measurements": { "dimensions": "315.9 x 223.7 x 10.9/16.1 mm", "weight": "1.46 kg" },
+        "sourceRefs": [
+          { "title": "Lenovo ThinkPad T14 Gen 6 AMD PSREF", "type": "manufacturer_spec", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14_Gen_6_AMD/ThinkPad_T14_Gen_6_AMD_Spec.html" },
+          { "title": "Lenovo ThinkPad T14 Gen 6 AMD datasheet", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkPad/ThinkPad_T14_Gen_6_AMD/ThinkPad_T14_Gen_6_AMD_Spec.PDF" },
+          { "title": "CTOnline feed COMLEV6500 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

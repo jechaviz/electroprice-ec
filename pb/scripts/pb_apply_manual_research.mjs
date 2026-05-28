@@ -66,6 +66,29 @@ const ensureManualTaxonomy = async () => {
   }
 };
 
+const receiptRecord = (receipt) => ({
+  batch_id: receipt.batch_id,
+  product_id: receipt.product_id,
+  status: receipt.status,
+  fields: receipt.fields,
+  source_refs: receipt.source_refs,
+  research_status: receipt.research_status,
+});
+
+const upsertReceipt = async (receipt) => {
+  const record = receiptRecord(receipt);
+  try {
+    const existing = await pb.collection('product_curation_receipts').getFirstListItem(pb.filter(
+      'batch_id = {:batchId} && product_id = {:productId}',
+      { batchId: receipt.batch_id, productId: receipt.product_id },
+    ));
+    return await pb.collection('product_curation_receipts').update(existing.id, record);
+  } catch (error) {
+    if (error?.status !== 404) throw error;
+    return await pb.collection('product_curation_receipts').create(record);
+  }
+};
+
 const applyItem = async ({ batchId, item }) => {
   const product = await withRetry(`fetch=${item.product_id}`, () => pb.collection('products').getOne(item.product_id));
   const fields = buildProductCurationPatch(product, {
@@ -81,14 +104,7 @@ const applyItem = async ({ batchId, item }) => {
 
   if (apply) {
     await withRetry(`product=${item.product_id}`, () => pb.collection('products').update(item.product_id, fields));
-    await withRetry(`receipt=${item.product_id}`, () => pb.collection('product_curation_receipts').create({
-      batch_id: receipt.batch_id,
-      product_id: receipt.product_id,
-      status: receipt.status,
-      fields: receipt.fields,
-      source_refs: receipt.source_refs,
-      research_status: receipt.research_status,
-    }));
+    await withRetry(`receipt=${item.product_id}`, () => upsertReceipt(receipt));
   }
 
   return receipt;
