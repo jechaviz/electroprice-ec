@@ -112,6 +112,16 @@ const researchedBatchCases = [
   ["Acteck BS685 Dynamic Exact bocinas tipo estudio 80W", "ACTECK", "audio/bocinas"],
   ["Acteck CP20W cargador de pared USB-C 20W", "ACTECK", "energia/cargadores-usb"],
   ["Acteck BS465 Dynamic Trim barra de sonido 2.1 60W", "ACTECK", "audio/barras-sonido"],
+  ["APC AP9643 Network Management Card 3 NMC3", "APC", "energia/accesorios-ups/tarjetas-snmp"],
+  ["Verbatim 49976 CD DVD paper sleeves with clear window", "VERBATIM", "computo/almacenamiento/medios-opticos/accesorios"],
+  ["Acteck CI710 cargador de pared USB", "ACTECK", "energia/cargadores-usb"],
+  ["Perfect Choice PC-084396 mochila", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
+  ["HP DesignJet T200/T600 automatic sheet feeder 8AJ60A", "HP", "impresion/accesorios/bandejas-alimentadores"],
+  ["DataShield IN-6000 inversor cargador solar", "DATASHIELD", "energia/inversores-solares"],
+  ["Stylos STASWM3CA smartwatch azul", "STYLOS", "wearables/smartwatches"],
+  ["Stylos STASWM3CB smartwatch negro", "STYLOS", "wearables/smartwatches"],
+  ["Stylos STASWM3CP smartwatch rosa", "STYLOS", "wearables/smartwatches"],
+  ["Acteck Shift Plus AB424 receptor Bluetooth 3.5 mm", "ACTECK", "audio/adaptadores-bluetooth"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
