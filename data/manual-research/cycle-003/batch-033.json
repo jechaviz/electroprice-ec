@@ -1,0 +1,497 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b033-2026-05-28",
+  "cycle": 3,
+  "batch": 33,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5e6wzr652tt5yp0",
+      "research": {
+        "confidence": 0.91,
+        "name": "Cajon de dinero 3nStar CD250 negro RJ11 4 billetes 8 monedas",
+        "description": "Cajon de dinero metalico 3nStar CD250 para punto de venta, compacto y resistente, con cerradura de 3 posiciones, micro switch, 4 compartimentos para billetes, 8 para monedas y conexion RJ11 hacia impresora POS.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalico-330mm-rj11-4-billetes-8-monedas",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2016/12/CD250.pdf",
+        "gallery": [
+          "https://www.posofamerica.com/cdn/shop/products/CD250-1_grande.png?v=1586385659",
+          "https://www.posofamerica.com/cdn/shop/products/CD250-2_grande.png?v=1586385659",
+          "https://www.posofamerica.com/cdn/shop/products/CD250-3_grande.png?v=1586385659",
+          "https://www.posofamerica.com/cdn/shop/products/CD250-4_grande.png?v=1586385659"
+        ],
+        "documents": [
+          { "label": "3nStar CD250 ficha tecnica", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2016/12/CD250.pdf" },
+          { "label": "PCH Mayoreo CD250 ficha", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/CD250.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "CD250",
+          "providerSku": "CAJ-15",
+          "productType": "Cajon de dinero POS",
+          "material": "Acero laminado en frio y bandeja ABS",
+          "interface": "RJ11",
+          "optionalInterfaces": ["RJ12", "USB trigger", "RS232 trigger", "DC 2.5/3.5 mm"],
+          "billCompartments": 4,
+          "coinCompartments": 8,
+          "mediaSlots": 2,
+          "lock": "3 posiciones / 4 funciones",
+          "microSwitch": true,
+          "cycleLife": "1,000,000+ aperturas",
+          "identifiers": { "upc": "0853211005896" },
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 1, "price": 33.39, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "330 x 343 x 90 mm", "netWeight": "4.35 kg", "alternateWeight": "4.25 kg", "packageDimensions": "470 x 480 x 170 mm", "shippingWeight": "5.00 kg" },
+        "sourceRefs": [
+          { "title": "3nStar CD250 official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2016/12/CD250.pdf" },
+          { "title": "POS of America CD250 page", "type": "reseller", "url": "https://www.posofamerica.com/collections/3nstar-cash-drawers/products/3nstar-cash-drawer-size-330mm-x-343mm-cd250" },
+          { "title": "CVA feed CAJ-15 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "5l93kzlu0fk7hdx",
+      "research": {
+        "confidence": 0.82,
+        "name": "Impresora termica de recibos 3nStar RPT001 58 mm USB corte manual",
+        "description": "Miniprinter termica 3nStar RPT001 para recibos POS de 58 mm, con interfaz USB, emulacion ESC/POS, velocidad de 90 mm/s y puerto para cajon de dinero.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/58mm-usb-corte-manual",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2019/07/RPT001.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/PR-2018/PR-2018_full.jpg",
+          "https://www.tecno-hub.com/web/image/product.template/6665/image_1024"
+        ],
+        "documents": [
+          { "label": "3nStar RPT001 ficha", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2019/07/RPT001.pdf" },
+          { "label": "3nStar RPT001 manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2023/07/RPT001-User-Manual.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "RPT001",
+          "providerSku": "PR-2018",
+          "productType": "Impresora termica de recibos POS",
+          "paperWidth": "57.5 +/- 0.5 mm",
+          "printWidth": "48 mm",
+          "printSpeed": "90 mm/s",
+          "resolution": "8 dots/mm, 384 dots/line",
+          "interface": "USB",
+          "cashDrawerPort": "1 puerto DC 12V/1A",
+          "cutter": "Manual",
+          "emulation": "ESC/POS",
+          "drivers": ["Windows", "Linux", "Android"],
+          "barcodes1D": ["UPC-A", "UPC-E", "EAN-13", "EAN-8", "CODE39", "ITF", "CODABAR", "CODE93", "CODE128"],
+          "sourceDiscrepancies": ["Algunas fichas secundarias listan 576 dots/line, rollo 60 mm y DK 24V; se conserva ficha oficial 384 dots/line, rollo 50 mm maximo y DK 12V"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 5, "price": 25.04, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "185 x 132 x 110 mm", "netWeight": "0.6 kg", "packageDimensions": "215 x 195 x 147 mm", "grossWeight": "0.79 kg" },
+        "sourceRefs": [
+          { "title": "3nStar RPT001 official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2019/07/RPT001.pdf" },
+          { "title": "Manual.ec RPT001 specs", "type": "manual_index", "url": "https://www.manual.ec/3nstar/rpt001/manual" },
+          { "title": "CVA feed PR-2018 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bo3io28vw2wvwmb",
+      "research": {
+        "confidence": 0.93,
+        "name": "Impresora termica de recibos 3nStar RPT004 80 mm USB Ethernet autocorte",
+        "description": "Impresora termica directa 3nStar RPT004 para tickets POS de 80 mm, con interfaces USB y Ethernet, velocidad de 230 mm/s, resolucion 576 puntos por linea y cortador automatico.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/80mm-usb-ethernet-autocorte-230mms",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2023/11/RPT004-EN.pdf",
+        "gallery": [
+          "https://m.media-amazon.com/images/I/61pE6z6YbWL.jpg",
+          "https://static.ctonline.mx/imagenes/PR-2618/PR-2618_full.jpg"
+        ],
+        "documents": [
+          { "label": "3nStar RPT004 ficha EN", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2023/11/RPT004-EN.pdf" },
+          { "label": "3nStar RPT004 manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2023/12/RPT004-manual.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "RPT004",
+          "providerSku": "PR-2618",
+          "productType": "Impresora termica de recibos POS",
+          "paperWidth": "79.5 +/- 0.5 mm",
+          "mediaSize": "80 x 80 mm",
+          "printSpeed": "230 mm/s",
+          "resolution": "8 dots/mm, 576 dots/line",
+          "interfaces": ["USB", "Ethernet"],
+          "cutter": "Automatico",
+          "autoCutterLife": "1,500,000 cortes",
+          "cashDrawerPort": "1 puerto DC 24V",
+          "emulation": "ESC/POS",
+          "drivers": ["Windows", "Linux", "Android", "OPOS", "JPOS"],
+          "identifiers": { "upc": "850013523825" },
+          "sourceDiscrepancies": ["El manual cubre variantes con Wi-Fi, pero este SKU/ficha corresponde a USB + Ethernet"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 10, "price": 65.32, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "181 x 138 x 123 mm", "netWeight": "0.89 kg", "packageDimensions": "290 x 225 x 193 mm", "grossWeight": "1.52 kg" },
+        "sourceRefs": [
+          { "title": "3nStar RPT004 official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2023/11/RPT004-EN.pdf" },
+          { "title": "Device.report RPT004 specs", "type": "spec_index", "url": "https://device.report/3nstar/RPT004" },
+          { "title": "CVA feed PR-2618 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "fjdp0fbzmnl1lo2",
+      "research": {
+        "confidence": 0.88,
+        "name": "Impresora termica de recibos 3nStar RPT006S 80 mm USB serial Ethernet autocorte",
+        "description": "Impresora termica directa 3nStar RPT006S para recibos POS de 80 mm, con interfaces USB, serial y Ethernet, velocidad de 260 mm/s y cortador automatico.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/80mm-usb-serial-ethernet-autocorte-260mms",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2023/10/RPT006-SBW.pdf",
+        "gallery": [
+          "https://m.media-amazon.com/images/I/51mFEpJXorL.jpg",
+          "https://static.ctonline.mx/imagenes/PR-2391/PR-2391_full.jpg"
+        ],
+        "documents": [
+          { "label": "3nStar RPT006-SBW ficha", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2023/10/RPT006-SBW.pdf" },
+          { "label": "3nStar RPT006 user manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2023/12/RPT006-User-Manual.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "RPT006S",
+          "providerSku": "PR-2391",
+          "productType": "Impresora termica de recibos POS",
+          "paperWidth": "79.5 +/- 0.5 mm",
+          "printSpeed": "260 mm/s",
+          "resolution": "8 dots/mm, 576 dots/line",
+          "interfaces": ["USB", "Serial", "Ethernet"],
+          "cutter": "Automatico",
+          "autoCutterLife": "1,500,000 cortes",
+          "printHeadLife": "150 km",
+          "cashDrawerPort": "1 puerto DC 24V/1A",
+          "barcodeSupport": ["1D", "2D", "QR Code", "PDF417", "Code128"],
+          "drivers": ["Windows", "Linux", "OPOS"],
+          "sourceDiscrepancies": ["Algunas fichas genericas RPT006 citan 200 mm/s; la variante RPT006S del proveedor y ficha especifica indican 260 mm/s"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 4, "price": 82.74, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "180 x 140 x 134.1 mm", "netWeight": "1.2 kg", "packageDimensions": "265 x 205 x 210 mm", "grossWeight": "2.2 kg" },
+        "sourceRefs": [
+          { "title": "3nStar RPT006-SBW official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2023/10/RPT006-SBW.pdf" },
+          { "title": "Manuals.plus RPT006 series manual", "type": "manual_index", "url": "https://manuals.plus/asin/B09QBSQK1F.pdf" },
+          { "title": "CVA feed PR-2391 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wspydgrwo7qozjm",
+      "research": {
+        "confidence": 0.9,
+        "name": "Impresora termica de recibos 3nStar RPT008 80 mm USB RS-232 Ethernet autocorte",
+        "description": "Impresora termica 3nStar RPT008 de 80 mm para recibos POS con interfaces RS-232, USB y Ethernet, velocidad de 260 mm/s, reimpresion y cortador automatico tipo guillotina.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/80mm-usb-rs232-ethernet-autocorte-260mms",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2016/12/RPT008.pdf",
+        "gallery": [
+          "https://m.media-amazon.com/images/I/714RwF8ADGL.jpg",
+          "https://static.ctonline.mx/imagenes/PR-1918/PR-1918_full.jpg"
+        ],
+        "documents": [
+          { "label": "3nStar RPT008 ficha", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2016/12/RPT008.pdf" },
+          { "label": "3nStar RPT008 manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2023/07/RPT008-User-Manual.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "RPT008",
+          "providerSku": "PR-1918",
+          "productType": "Impresora termica de recibos POS",
+          "paperWidth": "79.5 +/- 0.5 mm",
+          "effectivePrintWidth": "76 mm",
+          "printSpeed": "260 mm/s",
+          "resolution": "8 dots/mm, 576 dots/line",
+          "interfaces": ["RS-232", "USB", "Ethernet"],
+          "cutter": "Guillotina automatica",
+          "autoCutterLife": "1,500,000 cortes",
+          "printHeadLife": "100 km",
+          "cashDrawerPort": "1 puerto DC 24V/1A",
+          "emulation": "ESC/POS",
+          "barcodeSupport": ["UPC-A", "UPC-E", "EAN-13", "EAN-8", "CODE39", "ITF", "CODABAR", "CODE93", "CODE128", "QR Code", "PDF417"],
+          "identifiers": { "upc": "853211005902", "asin": "B0793XJ5MR" },
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 1, "price": 84.92, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "185 x 143.5 x 138 mm", "netWeight": "1.1 kg", "packageDimensions": "300 x 200 x 190 mm", "grossWeight": "2.0 kg" },
+        "sourceRefs": [
+          { "title": "3nStar RPT008 official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2016/12/RPT008.pdf" },
+          { "title": "TiendaMax RPT008 detailed page", "type": "reseller", "url": "https://www.tiendamax.com/punto-de-venta/6362-miniprinter-termica-3nstar-rpt008-autocortador-usb-serial-ethernet-80mm-negra-260mm-seg.html" },
+          { "title": "CVA feed PR-1918 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ex01snbo1i95o5x",
+      "research": {
+        "confidence": 0.74,
+        "name": "Lector de codigo de barras 3nStar SC050 laser 1D USB gris con base",
+        "description": "Lector cableado 3nStar SC050 para codigos de barras 1D, con sensor laser lineal, USB, proteccion IP54, resistencia a caidas de 1.5 m y base incluida.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/laser-1d-usb-gris-base",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2024/10/SC050.pdf",
+        "gallery": [
+          "https://www.posofamerica.com/cdn/shop/files/SC050_200x200.jpg?v=1711977746",
+          "https://www.posofamerica.com/cdn/shop/files/SC050banner_200x200.jpg?v=1711977746"
+        ],
+        "documents": [
+          { "label": "3nStar SC050 ficha EN", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC050.pdf" },
+          { "label": "3nStar SC050 ficha SP", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC050-SP.pdf" },
+          { "label": "3nStar SC050 programming manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2020/07/SC050-Programming-Manual-V2.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "SC050",
+          "providerSku": "LEC-53",
+          "productType": "Lector de codigo de barras 1D",
+          "scannerType": "Laser lineal 1D",
+          "lightSource": "Laser visible 650 nm",
+          "scanRate": "100 lecturas/s segun proveedor; 350 lecturas/s en ficha 2024",
+          "depthOfField": "17-300 mm",
+          "precision": "4 mil",
+          "interface": "USB",
+          "protection": "IP54",
+          "dropResistance": "1.5 m",
+          "cable": "1.8 m",
+          "decodeCapabilities": ["EAN-8", "EAN-13", "UPC-A", "UPC-E", "Code 39", "Code 128", "EAN128", "Codabar", "Industrial 2 of 5", "Interleave 2 of 5", "Matrix 2 of 5", "MSI"],
+          "sourceDiscrepancies": ["3nStar 2024 indica 350 lecturas/s; CVA y resellers equivalentes indican 100 lecturas/s"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 4, "price": 20.03, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "168 x 70 x 95 mm", "netWeight": "120 g" },
+        "sourceRefs": [
+          { "title": "3nStar SC050 official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC050.pdf" },
+          { "title": "POS of America SC050 page", "type": "reseller", "url": "https://www.posofamerica.com/products/3nstar-1d-handheld-barcode-scanner-sc050" },
+          { "title": "CVA feed LEC-53 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "lfbv8yh58cl2tux",
+      "research": {
+        "confidence": 0.8,
+        "name": "Lector de codigo de barras 3nStar SC100 laser 1D USB con base autosense",
+        "description": "Lector 3nStar SC100 para codigos de barras 1D con base para lectura automatica, conexion USB, sensor laser/CCD, proteccion IP54 y resistencia a caidas.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/laser-1d-usb-base-autosense",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2024/10/SC100-EN.pdf",
+        "gallery": [
+          "https://braincorp.com.ve/wp-content/uploads/2019/04/3NS-POS-SC100.jpg",
+          "https://static.ctonline.mx/imagenes/LEC-52/LEC-52_full.jpg"
+        ],
+        "documents": [
+          { "label": "3nStar SC100 ficha EN", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC100-EN.pdf" },
+          { "label": "3nStar SC100 ficha SP", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC100-SP.pdf" },
+          { "label": "3nStar SC100 user manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2020/04/SC100-User-Manual.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "SC100",
+          "providerSku": "LEC-52",
+          "productType": "Lector de codigo de barras 1D",
+          "scannerType": "Laser lineal 1D / CCD",
+          "lightSource": "Laser visible 650 nm",
+          "scanRate": "300 lecturas/s en fabricante; 100 lecturas/s en proveedor",
+          "depthOfField": "0-280 mm",
+          "precision": "4 mil",
+          "interface": "USB",
+          "operationModes": ["Manual", "Automatico con base"],
+          "protection": "IP54",
+          "dropResistance": "1.5 m",
+          "decodeCapabilities": ["EAN-8", "EAN-13", "UPC-A", "UPC-E", "Code 39", "Code 128", "EAN128", "Codabar", "Industrial 2 of 5", "Interleave 2 of 5", "Matrix 2 of 5", "MSI"],
+          "sourceDiscrepancies": ["Proveedor lista 100 lecturas/s y color negro; fabricante y POS of America listan 300 lecturas/s y algunas fichas color gris"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 3, "price": 28.94, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "170 x 98 x 68 mm", "netWeight": "128 g", "alternateWeight": "150 g" },
+        "sourceRefs": [
+          { "title": "3nStar SC100 official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC100-EN.pdf" },
+          { "title": "Brateisa SC100 detailed page", "type": "reseller", "url": "https://brateisa.com/ve/producto/3nstar-sc100-lector-codigo-barras-1d-3ns-pos-sc100/" },
+          { "title": "CVA feed LEC-52 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gpagjne0u3m6g4a",
+      "research": {
+        "confidence": 0.91,
+        "name": "Lector de codigo de barras 3nStar SC310BT laser 1D Bluetooth 2.4 GHz USB gris oscuro",
+        "description": "Lector inalambrico 3nStar SC310BT para codigos de barras 1D, con receptor USB, modos Bluetooth y radio 2.4 GHz, bateria recargable, memoria interna y hasta 100 m de alcance en espacio abierto.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/laser-1d-bluetooth-2-4ghz-usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://3nstar.com/wp-content/uploads/2024/10/SC310BT.pdf",
+        "gallery": [
+          "https://www.posofamerica.com/cdn/shop/products/SC310BT-1_200x200.png?v=1721227384",
+          "https://www.posofamerica.com/cdn/shop/products/SC310-1A_200x200.jpg?v=1721227382",
+          "https://www.posofamerica.com/cdn/shop/files/sc310bt_banner_2_grande.jpg?v=1721227374"
+        ],
+        "documents": [
+          { "label": "3nStar SC310BT ficha EN", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC310BT.pdf" },
+          { "label": "3nStar SC310BT ficha SP", "type": "datasheet", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC310BT-SP.pdf" },
+          { "label": "3nStar SC310BT user manual", "type": "manual", "url": "https://3nstar.com/wp-content/uploads/2020/04/SC310BT-User-Manual.pdf" }
+        ],
+        "specs": {
+          "brand": "3NSTAR",
+          "model": "SC310BT",
+          "providerSku": "LEC-110",
+          "productType": "Lector inalambrico de codigo de barras 1D",
+          "scannerType": "Laser lineal 1D",
+          "scanRate": "300 lecturas/s",
+          "depthOfField": "0-280 mm",
+          "precision": "3 mil",
+          "interfaces": ["Receptor USB", "Bluetooth", "Radio 2.4 GHz"],
+          "wirelessRange": "Hasta 100 m en radio / 10 m en Bluetooth",
+          "battery": "2000 mAh recargable",
+          "batteryLife": "Hasta 100,000 lecturas por carga",
+          "chargeTime": "4 h",
+          "memory": "Memoria interna para lectura fuera de rango",
+          "dropResistance": "1.5 m",
+          "decodeCapabilities": ["Code 39", "Code 128", "UPC-A", "UPC-E", "EAN-13", "EAN-8", "ISSN", "ISBN", "Code 93", "Industrial 25", "Matrix 25", "Interleave 25", "Codabar", "MSI/Plessey", "GS1-RSS14", "GS1-Limited", "GS1-Expanded"],
+          "sourceDiscrepancies": ["El proveedor dice negro y alcance 30 mm; fabricante indica gris oscuro y ese valor parece ancho de lectura cercano, no alcance inalambrico"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 1, "price": 50.08, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z"
+        },
+        "measurements": { "dimensions": "170 x 71 x 98 mm", "netWeight": "180 g", "packageDimensions": "240 x 100 x 80 mm", "grossWeight": "0.35 kg" },
+        "sourceRefs": [
+          { "title": "3nStar SC310BT official datasheet", "type": "manufacturer", "url": "https://3nstar.com/wp-content/uploads/2024/10/SC310BT.pdf" },
+          { "title": "POS of America SC310BT page", "type": "reseller", "url": "https://www.posofamerica.com/collections/barcode-scanners/products/3nstar-1d-cordless-barcode-scanner-sc310" },
+          { "title": "CVA feed LEC-110 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "74vf87g4a0g35ty",
+      "research": {
+        "confidence": 0.86,
+        "name": "Estacion gaming 4Gamers UGS-V1-BLK-4G para PS5 con headset C6-100 negra",
+        "description": "Kit 4Gamers Ultimate Gaming Station UGS-V1-BLK-4G para PlayStation 5 con base organizadora, soporte para auriculares, dock/carga para controles DualSense, cable USB trenzado de 2 m y headset C6-100 incluido.",
+        "manualCategoryPath": "gaming/accesorios/estaciones-carga",
+        "semanticCategoryPath": "gaming/accesorios/estaciones-carga/ps5-estacion-carga-headset-c6-100",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.4gamers.net/4gamers-range/ugs-v1-wht",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-4GAMERS-UGS-V1-BLK-4G-1.jpg",
+          "https://static.ctonline.mx/imagenes/ACCGAM010/ACCGAM010_full.jpg"
+        ],
+        "documents": [
+          { "label": "4Gamers UGS-V1 manual", "type": "manual", "url": "https://www.4gamers.net/_files/ugd/3a919c_25e9b6c79be748d6b378cf2c18a3216c.pdf" },
+          { "label": "Cyberpuerta UGSV1BLK4G ficha", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/UGSV1BLK4G.pdf" }
+        ],
+        "specs": {
+          "brand": "4GAMERS",
+          "model": "UGS-V1-BLK-4G",
+          "providerSku": "ACCGAM010",
+          "productType": "Estacion de carga y organizacion para PS5 con headset",
+          "compatibility": ["PlayStation 5", "Control DualSense"],
+          "includedHeadset": "C6-100",
+          "headsetConnection": "Alambrico",
+          "headsetFeatures": ["Microfono flexible", "Cable trenzado", "Control de volumen", "Silencio integrado"],
+          "power": "USB",
+          "controllerDock": "Base para 2 controles, 1 punto de carga",
+          "cableLength": "2 m",
+          "ledIndicator": true,
+          "color": "Negro",
+          "identifiers": { "ean": "5055269713265", "gtin": "5055269713265" },
+          "sourceDiscrepancies": ["El titulo del proveedor dice diadema, pero el producto real es una estacion/kit PS5 con headset; peso fuente 4 g es error frente a 1 kg armado"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 1, "price": 1055.56, "currency": "MXN", "branch": "CUN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "assembledDimensions": "40 x 20 x 30 cm", "assembledWeight": "1 kg", "sourceWeightConflict": "4 g en feed proveedor" },
+        "sourceRefs": [
+          { "title": "4Gamers UGS-V1 manufacturer page", "type": "manufacturer", "url": "https://www.4gamers.net/4gamers-range/ugs-v1-wht" },
+          { "title": "Cyberpuerta UGSV1BLK4G ficha PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/UGSV1BLK4G.pdf" },
+          { "title": "CTOnline feed ACCGAM010 branch stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9zo72u5qe3ikcj0",
+      "research": {
+        "confidence": 0.96,
+        "name": "Procesador AMD Ryzen 7 5700G 100-100000263BOX AM4 8 nucleos 16 hilos Radeon Graphics Wraith Stealth",
+        "description": "Procesador de escritorio AMD Ryzen 7 5700G boxed, arquitectura Zen 3 Cezanne para socket AM4, 8 nucleos y 16 hilos, graficos Radeon integrados, TDP 65 W y disipador Wraith Stealth incluido.",
+        "manualCategoryPath": "computo/componentes/procesadores",
+        "semanticCategoryPath": "computo/componentes/procesadores/amd-am4-ryzen-7-5700g-boxed",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html",
+        "gallery": [
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6474/6474406_sd.jpg",
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6474/6474406cv11d.jpg",
+          "https://www.bhphotovideo.com/images/images500x500/amd_ryzen_7_5700g_3_8_1628153211_1646171.jpg"
+        ],
+        "documents": [{ "label": "AMD Ryzen 7 5700G support and specs", "type": "manufacturer", "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html" }],
+        "specs": {
+          "brand": "AMD",
+          "model": "Ryzen 7 5700G",
+          "providerSku": "CP-1234",
+          "mpn": "100-100000263BOX",
+          "productType": "Procesador de escritorio boxed",
+          "architecture": "Zen 3",
+          "codename": "Cezanne",
+          "socket": "AM4",
+          "cores": 8,
+          "threads": 16,
+          "baseClock": "3.8 GHz",
+          "boostClock": "Hasta 4.6 GHz",
+          "l2Cache": "4 MB",
+          "l3Cache": "16 MB",
+          "tdp": "65 W",
+          "configurableTdp": "45-65 W",
+          "process": "TSMC 7nm FinFET",
+          "unlocked": true,
+          "includedCooler": "AMD Wraith Stealth",
+          "maxTemperature": "95 C",
+          "memory": "DDR4 hasta 3200 MT/s, 2 canales",
+          "pcie": "PCIe 3.0",
+          "integratedGraphics": "Radeon Graphics, 8 nucleos GPU, 2000 MHz",
+          "launchDate": "2021-04-13",
+          "identifiers": { "upc": "730143313377", "boxed": "100-100000263BOX", "tray": "100-000000263", "mpk": "100-100000263MPK" },
+          "sourceDiscrepancies": ["Peso fuente 5700 g es error por arrastre del modelo 5700G; caja retail real ronda 410-444 g"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "cva", "stock": 15, "price": 151.35, "currency": "USD", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "packageDimensions": "5.7 x 5.1 x 2.9 in / 145 x 130 x 74 mm", "packageWeight": "0.96 lb / 435 g", "alternatePackageDimensions": "137 x 134 x 75 mm", "alternatePackageWeight": "444 g" },
+        "sourceRefs": [
+          { "title": "AMD Ryzen 7 5700G official specs", "type": "manufacturer", "url": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-5000-series/amd-ryzen-7-5700g.html" },
+          { "title": "B&H Ryzen 7 5700G specs and packaging", "type": "reseller", "url": "https://www.bhphotovideo.com/a/new/1646171/amd_ryzen_7_5700g_3_8.html/specs" },
+          { "title": "CVA feed CP-1234 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

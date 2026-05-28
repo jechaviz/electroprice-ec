@@ -104,6 +104,7 @@ export const MANUAL_CATEGORY_TREE = [
   { path: 'impresion/consumibles/pulseras-termicas', name: 'Pulseras termicas de identificacion', legacyCategory: 'laptops' },
   { path: 'punto-de-venta/lectores-codigo-barras', name: 'Lectores de codigo de barras', legacyCategory: 'laptops' },
   { path: 'punto-de-venta/cajones-dinero', name: 'Cajones de dinero POS', legacyCategory: 'laptops' },
+  { path: 'punto-de-venta/impresoras-recibos', name: 'Impresoras termicas de recibos POS', legacyCategory: 'laptops' },
   { path: 'punto-de-venta/digitalizadores-firma', name: 'Digitalizadores de firma', legacyCategory: 'laptops' },
   { path: 'punto-de-venta/verificadores-precio', name: 'Verificadores de precio POS', legacyCategory: 'laptops' },
   { path: 'punto-de-venta/terminales-accesorios', name: 'Terminales y accesorios POS', legacyCategory: 'laptops' },
@@ -142,6 +143,7 @@ export const MANUAL_CATEGORY_TREE = [
   { path: 'video/accesorios-proyeccion/soportes-proyector', name: 'Soportes para proyector', legacyCategory: 'tvs' },
   { path: 'gaming/consolas', name: 'Consolas', legacyCategory: 'gaming' },
   { path: 'gaming/accesorios', name: 'Accesorios gaming', legacyCategory: 'gaming' },
+  { path: 'gaming/accesorios/estaciones-carga', name: 'Estaciones de carga y soportes gaming', legacyCategory: 'gaming' },
   { path: 'oficina/mobiliario-accesorios', name: 'Mobiliario y accesorios de oficina', legacyCategory: 'laptops' },
   { path: 'oficina/mochilas-bolsas', name: 'Mochilas y bolsas de uso diario', legacyCategory: 'laptops' },
   { path: 'oficina/papel-consumibles', name: 'Papel y consumibles de oficina', legacyCategory: 'laptops' },
@@ -169,6 +171,11 @@ export const MANUAL_CATEGORY_TREE = [
 ];
 
 const rules = [
+  ['punto-de-venta/cajones-dinero', /\b(cd250|caj-15|3nstar cd250|cajon de dinero 3nstar|gaveta de dinero 3nstar|cash drawer.*cd250)\b/],
+  ['punto-de-venta/impresoras-recibos', /\b(rpt001|rpt004|rpt006s|rpt008|pr-2018|pr-2618|pr-2391|pr-1918|miniprinter 3nstar|impresora.*recibos?.*termica|thermal receipt printer|printer.*receipt.*3nstar)\b/],
+  ['punto-de-venta/digitalizadores-firma', /\b(t-l460-hsb-r|tl460hsbr|accitr070|digitalizador de firma|signature pad|siglite|topaz t-l460|851718004107)\b/],
+  ['punto-de-venta/lectores-codigo-barras', /\b(sc050|sc100|sc310bt|lec-53|lec-52|lec-110|scanner|scaner|lector codigo|codigo de barras|barcode|ev 3006|ev-3006|ev 3007|ev-3007|honeywell|xenon|ms7820|3nstar sc|zebra ds|zebra ls|topaz t)\b/],
+  ['gaming/accesorios/estaciones-carga', /\b(ugs-v1-blk-4g|ugs v1 blk 4g|accgam010|gaming station 4gamers|base de carga 4gamers|estacion de juegos.*ps5|soporte.*auriculares.*ps5)\b/],
   ['seguridad/control-acceso/cerraduras-inteligentes', /\b(dl05|cerradura inteligente|smart fingerprint lock|smart lock|fechadura inteligente)\b/],
   ['seguridad/control-acceso/biometricos', /\b(an c2slim bt|an-c2slim-bt|c2 slim|c2slim|sofavz570|control de acceso anviz|lector de huella digital)\b/],
   ['seguridad/control-acceso/tarjetas-rfid', /\b(an emicard|an-emicard|sofavz070|tarjeta rfid anviz|rfid 125 khz|125khz|tarjeta de proximidad)\b/],
@@ -297,8 +304,6 @@ const rules = [
   ['impresion/consumibles/pulseras-termicas', /\b(z-band direct|z band direct|10006995k|acczbr1080|pulsera termica|wristband|wristbands)\b/],
   ['impresion/escaneres', /\b(scanjet pro n4600|n4600 fnw1|scanjet pro n4000|n4000 snw1|scanjet pro 3000|scanjet pro 2000|scanjet pro 2600|20g07a|6fw08a|6fw07a|6fw06a|20g05a|scahpi520|scahpi440|scahpi455|scahpi465|scahpi510|fi 70f|fi-70f|scafjt430|sv600|scansnap sv600|scafjt040|fujitsu fi|epson ds|workforce ds|document scanner|escaner documental)\b/],
   ['impresion/impresoras', /\b(impresora|printer|laserjet|deskjet|ecotank|multifuncional|zebra pc 200994)\b/],
-  ['punto-de-venta/digitalizadores-firma', /\b(t-l460-hsb-r|tl460hsbr|accitr070|digitalizador de firma|signature pad|siglite|topaz t-l460|851718004107)\b/],
-  ['punto-de-venta/lectores-codigo-barras', /\b(scanner|scaner|lector codigo|codigo de barras|barcode|ev 3006|ev-3006|ev 3007|ev-3007|honeywell|xenon|ms7820|3nstar sc|3nstar cd|zebra ds|zebra ls|topaz t)\b/],
   ['punto-de-venta/cajones-dinero', /\b(qoc 143sk|qoc-143sk|cjnqia030|cajon de dinero|caja para dinero|cash drawer)\b/],
   ['punto-de-venta/verificadores-precio', /\b(xb vp1106|xb-vp1106|kiosyb010|syble|verificador de precios|price checker)\b/],
   ['punto-de-venta/software-pos', /\b(psf030|kitpsf030|sf020|kitpsf020|psf040|kitpsf040|kitpsf050|kitpsf060|kitpsf070|pacific soft|software punto de venta|punto de venta para farmacias|punto de venta para autoservicios|punto de venta para restaurantes|comandera movil|software pos)\b/],

@@ -196,6 +196,16 @@ const researchedBatchCases = [
   ["OvalTech OTAC-E55 cargador laptop Acer 90W 19V 4.74A", "OVALTECH", "computo/accesorios/cargadores-laptop"],
   ["OvalTech OTAC-E60 cargador laptop ASUS 65W 4.0 x 1.35", "OVALTECH", "computo/accesorios/cargadores-laptop"],
   ["OvalTech OTAC-E71 cargador laptop Samsung 60W 16V 5.5 x 3.0", "OVALTECH", "computo/accesorios/cargadores-laptop"],
+  ["3nStar CD250 cajon de dinero negro RJ11 4 billetes 8 monedas", "3NSTAR", "punto-de-venta/cajones-dinero"],
+  ["3nStar RPT001 miniprinter termica recibos 58mm USB", "3NSTAR", "punto-de-venta/impresoras-recibos"],
+  ["3nStar RPT004 impresora termica recibos 80mm USB Ethernet", "3NSTAR", "punto-de-venta/impresoras-recibos"],
+  ["3nStar RPT006S miniprinter termica 80mm USB serial ethernet", "3NSTAR", "punto-de-venta/impresoras-recibos"],
+  ["3nStar RPT008 thermal receipt printer 80mm RS-232 USB Ethernet", "3NSTAR", "punto-de-venta/impresoras-recibos"],
+  ["3nStar SC050 lector codigo de barras laser 1D USB gris", "3NSTAR", "punto-de-venta/lectores-codigo-barras"],
+  ["3nStar SC100 lector codigo de barras laser USB con base", "3NSTAR", "punto-de-venta/lectores-codigo-barras"],
+  ["3nStar SC310BT lector codigo de barras Bluetooth USB 1D", "3NSTAR", "punto-de-venta/lectores-codigo-barras"],
+  ["4Gamers UGS-V1-BLK-4G gaming station PS5 con headset", "4GAMERS", "gaming/accesorios/estaciones-carga"],
+  ["AMD Ryzen 7 5700G 100-100000263BOX AM4 8 nucleos", "AMD", "computo/componentes/procesadores"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
