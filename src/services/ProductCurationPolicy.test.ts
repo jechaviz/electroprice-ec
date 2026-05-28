@@ -254,6 +254,24 @@ describe("product curation policy", () => {
       brand: "EVOTEC",
       category: "laptops",
     }).path).toBe("punto-de-venta/consumibles/rollos-termicos");
+
+    expect(classifyManualCategory({
+      name: "Logitech Spotlight presentation remote",
+      brand: "LOGITECH",
+      category: "laptops",
+    }).path).toBe("computo/perifericos/presentadores");
+
+    expect(classifyManualCategory({
+      name: "Canon BH-10 + CH-10 kit cabezal",
+      brand: "CANON",
+      category: "laptops",
+    }).path).toBe("impresion/consumibles/cabezales");
+
+    expect(classifyManualCategory({
+      name: "NECNON NSW-101 smartwatch",
+      brand: "NECNON",
+      category: "laptops",
+    }).path).toBe("wearables/smartwatches");
   });
 
   it("accepts researched manual category overrides within PocketBase select values", () => {

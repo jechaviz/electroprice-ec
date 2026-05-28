@@ -1,0 +1,343 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c001-b008-2026-05-27",
+  "cycle": 1,
+  "batch": 8,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "s5xlzx4sgi9aw9x",
+      "research": {
+        "confidence": 0.96,
+        "name": "Logitech Spotlight presentador inalambrico Bluetooth/2.4 GHz",
+        "description": "Presentador Logitech Spotlight con resaltado digital, control inalambrico Bluetooth Smart o receptor Logitech 2.4 GHz, sensor de movimiento y bateria recargable.",
+        "manualCategoryPath": "computo/perifericos/presentadores",
+        "semanticCategoryPath": "computo/perifericos/presentadores/presentadores-recargables",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.logi.com/hc/en-au/articles/360023303034-Logitech-Spotlight-Presenter-Technical-Specifications",
+        "documents": [{ "label": "Logitech Spotlight technical specifications", "type": "manufacturer_support", "url": "https://support.logi.com/hc/en-au/articles/360023303034-Logitech-Spotlight-Presenter-Technical-Specifications" }],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "Spotlight",
+          "providerSku": "MOULOG1800",
+          "hardwareModel": "R-R0011",
+          "receiverModel": "C-U0016",
+          "productType": "Presentador inalambrico",
+          "wireless": ["Bluetooth Smart", "Logitech 2.4 GHz receiver"],
+          "sensors": ["3D accelerometer", "gyroscope"],
+          "supportedPlatforms": ["Windows", "macOS", "Chrome OS", "Android", "Linux via receiver"],
+          "included": ["presentador", "receptor propietario", "cable de carga", "pouch", "documentacion"],
+          "warranty": "1 ano limitada en ficha B2B / soporte Logitech segun region",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "131.3 x 28.1 x 12.1 mm", "weight": "49.2 g", "receiverDimensions": "40.4 x 17.2 x 6.8 mm", "receiverWeight": "3.3 g" },
+        "sourceRefs": [
+          { "title": "Logitech Spotlight Presenter technical specifications", "type": "manufacturer_support", "url": "https://support.logi.com/hc/en-au/articles/360023303034-Logitech-Spotlight-Presenter-Technical-Specifications" },
+          { "title": "Logitech Spotlight education PDF", "type": "datasheet", "url": "https://www.logitech.com/content/dam/logitech/en/education/pdf/logitech-spotlight-presentation-remote.pdf" },
+          { "title": "CTOnline feed MOULOG1800 stock 46", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "eukdptwlgfmgzy7",
+      "research": {
+        "confidence": 0.94,
+        "name": "Canon BH-10 + CH-10 kit de cabezales para PIXMA G",
+        "description": "Kit Canon BH-10 + CH-10 de cabezales negro/color para impresoras PIXMA MegaTank serie G compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cabezales",
+        "semanticCategoryPath": "impresion/consumibles/cabezales/canon-pixma-g",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.canon.cl/productos/tinta/kit-bh-10-ch-10",
+        "documents": [{ "label": "Canon BH-10 + CH-10 official page", "type": "manufacturer_page", "url": "https://www.canon.cl/productos/tinta/kit-bh-10-ch-10" }],
+        "specs": {
+          "brand": "CANON",
+          "model": "BH-10+CH-10",
+          "providerSku": "CARCNN6710",
+          "manufacturerSku": "3418C004",
+          "productType": "Kit de cabezales de impresion",
+          "printColors": ["Negro", "Color"],
+          "compatibleModels": ["PIXMA G5010", "PIXMA G7010", "PIXMA G2160", "PIXMA G3160", "PIXMA G6010"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Canon Kit BH-10 + CH-10", "type": "manufacturer", "url": "https://www.canon.cl/productos/tinta/kit-bh-10-ch-10" },
+          { "title": "Canon replacing print head BH-10 & CH-10 PDF", "type": "manufacturer_manual", "url": "https://www.cla.canon.com/es_PA/app/pdf/brochures/G-Series_Inkjet_Printers/Replacing-the-Print-Head2.pdf" },
+          { "title": "CTOnline feed CARCNN6710 stock 46", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "isrmc6vxv5x2r9k",
+      "research": {
+        "confidence": 0.95,
+        "name": "Logitech H540 diadema USB stereo con microfono",
+        "description": "Diadema Logitech H540 USB plug-and-play con sonido stereo, microfono boom con reduccion de ruido, controles en auricular e indicador de mute.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/diademas-usb-oficina",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.av-iq.com/avcat/ctl1642/index.cfm?manufacturer=logitech&product=981-000510",
+        "documents": [{ "label": "Logitech H540 datasheet", "type": "datasheet", "url": "https://images10.newegg.com/UploadFilesForNewegg/itemintelligence/Logitech/h540_datasheet1453064738757.pdf" }],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "H540",
+          "providerSku": "BOCLOG1230",
+          "manufacturerPartNumber": "981-000510",
+          "upc": "097855089601",
+          "productType": "Diadema USB con microfono",
+          "soundMode": "Stereo",
+          "connection": "USB-A wired",
+          "usbProtocol": "USB 2.0 high-speed",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "microphone": "Boom giratorio con reduccion de ruido",
+          "microphoneFrequency": "100 Hz - 6.5 kHz",
+          "controls": ["volumen", "mute", "LED indicador mute"],
+          "cableLength": "1.8 m aprox.",
+          "warranty": "2 anos limitada",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "185 x 201 x 66 mm", "weight": "0.13 kg" },
+        "sourceRefs": [
+          { "title": "AV-iQ Logitech H540 981-000510 specs", "type": "reseller_spec", "url": "https://www.av-iq.com/avcat/ctl1642/index.cfm?manufacturer=logitech&product=981-000510" },
+          { "title": "Best Buy Logitech H540 specifications", "type": "reseller_spec", "url": "https://www.bestbuy.com/product/logitech-h540-wired-on-ear-headset-black/J7H7ZY7WYJ" },
+          { "title": "CTOnline feed BOCLOG1230 stock 46", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "v07of1i0q42jtnc",
+      "research": {
+        "confidence": 0.94,
+        "name": "Huawei Band 10 55020EES smartwatch negro",
+        "description": "Banda inteligente Huawei Band 10 color negro con pantalla AMOLED 1.47 pulgadas, Bluetooth 5.0, sensores de salud, 100 modos deportivos, 5 ATM y bateria de hasta 14 dias.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/bandas-fitness",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/ca/wearables/band10/specs/",
+        "documents": [{ "label": "Huawei Band 10 official specifications", "type": "manufacturer_page", "url": "https://consumer.huawei.com/ca/wearables/band10/specs/" }],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "55020EES",
+          "commercialModel": "Huawei Band 10 Black",
+          "providerSku": "ACCHUW1360",
+          "productType": "Banda inteligente / smartwatch",
+          "display": "1.47 in AMOLED 194 x 368, 282 PPI",
+          "caseMaterial": "Polimero durable",
+          "strapColor": "Negro",
+          "sensors": ["IMU 9 ejes", "frecuencia cardiaca optica", "SpO2", "luz ambiental"],
+          "waterResistance": "5 ATM",
+          "batteryLife": "Hasta 14 dias uso tipico en fichas retailer",
+          "bluetooth": "5.0",
+          "compatibility": ["Android", "iOS"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43.45 x 24.86 x 8.99 mm", "weight": "14 g sin correa" },
+        "sourceRefs": [
+          { "title": "Huawei Band 10 official specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/ca/wearables/band10/specs/" },
+          { "title": "Chedraui Huawei Band 10 55020EES", "type": "reseller_spec", "url": "https://www.chedraui.com.mx/smartband-huawei-band-10-55020ees-negro-3877551/p" },
+          { "title": "CTOnline feed ACCHUW1360 stock 46", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nd3fg4oj0ie9k3i",
+      "research": {
+        "confidence": 0.91,
+        "name": "Naceb Gaming NA-0304R diadema gamer alambrica negro/rojo",
+        "description": "Diadema gamer Naceb Gaming NA-0304R alambrica con microfono boom, formato circumaural/binaural, conexion 3.5 mm y diseno negro/rojo.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/headsets-gaming",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/diadema-gaming-naceb-technology-na-0304r/",
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "NA-0304R",
+          "providerSku": "BOCNCB530",
+          "ean": "7502262806725",
+          "productType": "Diadema gamer",
+          "connectivity": "Alambrica 3.5 mm",
+          "headphoneType": "Circumaural / binaural",
+          "microphone": "Boom",
+          "recommendedUse": "PC / juegos",
+          "color": "Negro / rojo",
+          "packageQuantity": 1,
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "CompuPuebla Naceb NA-0304R", "type": "reseller_spec", "url": "https://compupuebla.com/producto/diadema-gaming-naceb-technology-na-0304r/" },
+          { "title": "PCStore Naceb NA-0304R specifications", "type": "reseller_spec", "url": "https://pcstore.mx/diadema-gaming-naceb-na-0304r-technology-negro" },
+          { "title": "CTOnline feed BOCNCB530 stock 46", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "iqjd2xdgxpf0b01",
+      "research": {
+        "confidence": 0.94,
+        "name": "Canon 0692C004AA cabezal negro para PIXMA G",
+        "description": "Cabezal de impresion Canon 0692C004AA color negro, original, para impresoras PIXMA G1100/G2100/G3100/G4100 y variantes.",
+        "manualCategoryPath": "impresion/consumibles/cabezales",
+        "semanticCategoryPath": "impresion/consumibles/cabezales/canon-pixma-g",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/consumibles/cabezal-canon-de-tinta-negra-botella-de/0692c004aa",
+        "specs": {
+          "brand": "CANON",
+          "model": "0692C004AA",
+          "providerSku": "CARCNN6230",
+          "upc": "660685215481",
+          "productType": "Cabezal de impresion",
+          "printColor": "Negro",
+          "original": true,
+          "packageQuantity": "1 pieza",
+          "compatibleModels": ["PIXMA G1110", "PIXMA G1100", "PIXMA G2100", "PIXMA G2110", "PIXMA G3100", "PIXMA G3110", "PIXMA G4100", "PIXMA G4110"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "CompuPuebla Canon 0692C004AA", "type": "reseller_spec", "url": "https://compupuebla.com/producto/cabezal-canon-0692c004aa/" },
+          { "title": "Mactoner Canon 0692C004AA", "type": "reseller_spec", "url": "https://www.mactoner.com.mx/producto/cabezal-canon-0692c004aa-negro/" },
+          { "title": "CTOnline feed CARCNN6230 stock 42", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "m4bp6heswbz1c2m",
+      "research": {
+        "confidence": 0.93,
+        "name": "Necnon NSW-101 smartwatch IP67 Bluetooth 5.0",
+        "description": "Smartwatch Necnon NSW-101 con pantalla 2.01 pulgadas, IP67, Bluetooth 5.0, app FitPro, bateria 180 mAh, monitoreo cardiaco, presion arterial, calorias y podometro.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/smartwatch-fitness",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://necnontrade.com/producto/nsw-101/",
+        "documents": [{ "label": "Necnon NSW-101 user manual", "type": "manual", "url": "https://necnontrade.com/wp-content/uploads/2024/06/Manual-usuario-NSW-101.pdf" }],
+        "specs": {
+          "brand": "NECNON",
+          "model": "NSW-101",
+          "providerSku": "ACCNNN370",
+          "manufacturerSku": "NBSW112021",
+          "productType": "Smartwatch",
+          "display": "2.01 in",
+          "ingressProtection": "IP67",
+          "bluetooth": "5.0",
+          "app": "FitPro",
+          "battery": "180 mAh",
+          "features": ["ritmo cardiaco", "presion arterial", "contador de calorias", "podometro", "alertas de mensajes", "multimedia", "buscar telefono", "fotos a distancia"],
+          "included": ["smartwatch", "cable de carga magnetico", "manual"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "Necnon NSW-101 official product page", "type": "manufacturer", "url": "https://necnontrade.com/producto/nsw-101/" },
+          { "title": "Necnon NSW-101 manual", "type": "manual", "url": "https://necnontrade.com/wp-content/uploads/2024/06/Manual-usuario-NSW-101.pdf" },
+          { "title": "CTOnline feed ACCNNN370 stock 42", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "l1atyk50cbab25p",
+      "research": {
+        "confidence": 0.93,
+        "name": "Acteck Active Plus HC560 audifono alambrico 3.5 mm",
+        "description": "Audifono de diadema Acteck Active Plus HC560 alambrico con conexion auxiliar 3.5 mm, microfono unidireccional y diseno negro.",
+        "manualCategoryPath": "audio/audifonos",
+        "semanticCategoryPath": "audio/audifonos/diademas-3-5mm-oficina",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/auriculares-acteck-hc560/",
+        "specs": {
+          "brand": "ACTECK",
+          "model": "HC560",
+          "commercialModel": "Active Plus HC560",
+          "providerSku": "BOCACT720",
+          "manufacturerPartNumber": "AC-942935",
+          "ean": "7506215942935",
+          "productType": "Audifono de diadema con microfono",
+          "connectivity": "Alambrica 3.5 mm",
+          "style": "Diadema",
+          "microphone": "Unidireccional",
+          "color": "Negro",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "sourceRefs": [
+          { "title": "CompuPuebla Acteck HC560", "type": "reseller_spec", "url": "https://compupuebla.com/producto/auriculares-acteck-hc560/" },
+          { "title": "CTOnline feed BOCACT720 stock 40", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jezinqywh6yi53i",
+      "research": {
+        "confidence": 0.93,
+        "name": "Evotec EV-3025C caja 100 rollos papel termico 57 x 60 mm",
+        "description": "Caja de 100 rollos de papel termico Evotec EV-3025C/TR5760 para impresoras POS, rollo 57 mm x 60 mm, papel 58 g/m2.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/57mm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/rollos-de-papel-evotec-ev-3025c/",
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3025C",
+          "providerSku": "ACCEVO070",
+          "ean": "7502262801942",
+          "productType": "Rollos de papel termico POS",
+          "paperType": "Termico",
+          "rollSize": "57 x 60 mm",
+          "quantity": "100 rollos por caja",
+          "commercialCode": "TR5760",
+          "paperWeight": "58 g/m2",
+          "coreDiameter": "1.3 cm",
+          "color": "Blanco",
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollWidth": "57 mm", "rollDiameter": "60 mm", "rollWeight": "99-104 g segun retailer", "packageDimensions": "315 x 315 x 245 mm" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Evotec EV-3025C ACCEVO070", "type": "reseller_spec", "url": "https://compupuebla.com/producto/rollos-de-papel-evotec-ev-3025c/" },
+          { "title": "Intercompras Evotec EV-3025C detailed specs", "type": "reseller_spec", "url": "https://intercompras.com/p/rollos-papel-termico-evotec-ev-3025c-mm-mm-diametro-papel-termico-caja-con-440254" },
+          { "title": "CTOnline feed ACCEVO070 stock 38", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "vt4wb0sue2m3gij",
+      "research": {
+        "confidence": 0.94,
+        "name": "Huawei Band 10 55020EEL smartwatch rosa",
+        "description": "Banda inteligente Huawei Band 10 color rosa con pantalla AMOLED 1.47 pulgadas, Bluetooth 5.0, sensores de salud, 100 modos deportivos, 5 ATM y bateria de hasta 14 dias.",
+        "manualCategoryPath": "wearables/smartwatches",
+        "semanticCategoryPath": "wearables/smartwatches/bandas-fitness",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/ca/wearables/band10/specs/",
+        "documents": [{ "label": "Huawei Band 10 official specifications", "type": "manufacturer_page", "url": "https://consumer.huawei.com/ca/wearables/band10/specs/" }],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "55020EEL",
+          "commercialModel": "Huawei Band 10 Pink",
+          "providerSku": "ACCHUW1350",
+          "productType": "Banda inteligente / smartwatch",
+          "display": "1.47 in AMOLED 194 x 368, 282 PPI",
+          "caseMaterial": "Polimero durable",
+          "strapColor": "Rosa",
+          "sensors": ["IMU 9 ejes", "frecuencia cardiaca optica", "SpO2", "luz ambiental"],
+          "waterResistance": "5 ATM",
+          "batteryLife": "Hasta 14 dias uso tipico en fichas retailer",
+          "bluetooth": "5.0",
+          "compatibility": ["Android", "iOS"],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "43.45 x 24.86 x 8.99 mm", "weight": "14 g sin correa" },
+        "sourceRefs": [
+          { "title": "Huawei Band 10 official specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/ca/wearables/band10/specs/" },
+          { "title": "CompuPuebla Huawei 55020EEL", "type": "reseller_spec", "url": "https://compupuebla.com/producto/smartwatch-huawei-55020eel/" },
+          { "title": "CTOnline feed ACCHUW1350 stock 36", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
