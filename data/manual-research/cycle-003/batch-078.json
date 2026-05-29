@@ -1,0 +1,531 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b078-2026-05-28",
+  "cycle": 3,
+  "batch": 78,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1w8ewxw2rjjyhg9",
+      "research": {
+        "confidence": 0.95,
+        "name": "Lenovo ThinkPad E14 Gen 7 21TA000FLM Core 5 210H 14 WUXGA 16GB 512GB Windows 11 Pro",
+        "description": "Laptop empresarial Lenovo ThinkPad E14 Gen 7 de 14 pulgadas con Intel Core 5 210H, 16GB DDR5, SSD NVMe 512GB, pantalla WUXGA IPS 300 nits, Wi-Fi 6E, Windows 11 Pro y garantia Premier Support segun fichas publicas.",
+        "manualCategoryPath": "computo/laptops/empresariales/14-pulgadas",
+        "semanticCategoryPath": "computo/laptops/empresariales/14-pulgadas/lenovo-thinkpad-e14-g7-21ta000flm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aztecacompras.com/mx0000107312-lenovo-21ta000flm-laptop-thinkpad-e14-g7-intel-core-5-210h-notouch-w11p64-sp-en-16-gb-512gb-ssd-3yr-premier-nbd.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMLEV6370/COMLEV6370_full.jpg"],
+        "documents": [
+          { "label": "AztecaCompras Lenovo 21TA000FLM listing", "type": "retail", "url": "https://www.aztecacompras.com/mx0000107312-lenovo-21ta000flm-laptop-thinkpad-e14-g7-intel-core-5-210h-notouch-w11p64-sp-en-16-gb-512gb-ssd-3yr-premier-nbd.html" }
+        ],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "21TA000FLM / ThinkPad E14 Gen 7",
+          "providerSku": "COMLEV6370",
+          "upc": "198158790871",
+          "productType": "Business laptop",
+          "processor": "Intel Core 5 210H, 8 cores 4P+4E, 12 threads, up to 4.8GHz P-core, 12MB cache",
+          "graphics": "Integrated Intel graphics",
+          "memory": "16GB DDR5-5600 SO-DIMM, 2 slots",
+          "storage": "512GB M.2 2242 PCIe 4.0x4 NVMe Opal 2.0 SSD",
+          "display": "14 in WUXGA 1920 x 1200 IPS, 300 nits, anti-glare, 100% sRGB, 60Hz, non-touch",
+          "camera": "FHD 1080p + IR with privacy shutter",
+          "audio": "2x 2W speakers with Dolby Atmos/Harman, dual array microphones",
+          "network": "Wi-Fi 6E AX211, Bluetooth 5.3, Gigabit Ethernet",
+          "ports": "2x USB-A, Thunderbolt 4/USB4 USB-C, USB-C 20Gbps, HDMI 2.1, RJ-45 and combo audio",
+          "batteryPower": "48Wh battery, 65W USB-C adapter",
+          "security": "Discrete TPM 2.0, fingerprint reader in power button",
+          "operatingSystem": "Windows 11 Pro",
+          "keyboard": "Latin American Spanish, not backlit",
+          "certifications": "ENERGY STAR 9.0, EPEAT Gold, TCO 10.0, MIL-STD-810H reported by public listings",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "COMLEV6370", "stock": 20, "price": 17368.4, "currency": "MXN", "branch": "MAZ:4,LMO:3,VER:3,CTZ:2,OAX:2,XLP:1,PUE:1,VHA:1,TXA:1,ACA:1,CAM:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CTOnline JSON validates COMLEV6370 and image but showed MXN 17948.98 and stock 165, conflicting with private CTOnline MXN 17368.40 and branch stock 20; no public CT branch split found."]
+        },
+        "measurements": { "dimensions": "313 x 220.3 x 10.1/15.25 mm, max 20.5 mm", "weight": "from 1.34 kg" },
+        "sourceRefs": [
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "AztecaCompras Lenovo 21TA000FLM", "type": "retail", "url": "https://www.aztecacompras.com/mx0000107312-lenovo-21ta000flm-laptop-thinkpad-e14-g7-intel-core-5-210h-notouch-w11p64-sp-en-16-gb-512gb-ssd-3yr-premier-nbd.html" },
+          { "title": "Intercompras Lenovo ThinkPad E14 G7", "type": "retail", "url": "https://intercompras.com/p/lenovo-thinkpad-e14-g7-laptop-intel-core-i5-210h-16gb-ram-512gb-ssd-windows-438436" }
+        ]
+      }
+    },
+    {
+      "product_id": "1wm8z5pjbc6hmpl",
+      "research": {
+        "confidence": 0.92,
+        "name": "Acteck Haptos CW480 AC-933056 webcam 2K USB 2.0 con microfono negra",
+        "description": "Webcam Acteck Haptos CW480 AC-933056 con sensor CMOS OV5648, resolucion maxima 2592 x 1944, microfono integrado, montaje tipo clip y cable USB-A de 1.5 m para Windows, macOS y Linux.",
+        "manualCategoryPath": "computo/perifericos/webcams/usb-2k",
+        "semanticCategoryPath": "computo/perifericos/webcams/usb-2k/acteck-haptos-cw480-ac-933056",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zegucom.com.mx/producto/camaras/webcams/camara-web-acteck-haptos-cw480-con-microfono-full-hd-usb-negro/QUMtOTMzMDU2",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMACT480/CAMACT480_3_full.jpg", "https://www.zegucom.com.mx/productos/AC-933056/img_1.jpg"],
+        "documents": [
+          { "label": "Zegucom Acteck CW480 listing", "type": "retail", "url": "https://www.zegucom.com.mx/producto/camaras/webcams/camara-web-acteck-haptos-cw480-con-microfono-full-hd-usb-negro/QUMtOTMzMDU2" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Haptos CW480 / AC-933056",
+          "providerSku": "CAMACT480",
+          "ean": "7506215933056",
+          "productType": "USB webcam",
+          "sensor": "OV5648 CMOS",
+          "resolution": "2592 x 1944 maximum image/video",
+          "video": "2.7K up to 15fps, 15-30fps range reported by public listings",
+          "formats": "YUY2/MJPG video, BMP/JPEG image",
+          "microphone": "Integrated, 38dB sensitivity, 2.2K impedance, 50Hz-10kHz response",
+          "focusNote": "Some listings report autofocus and others fixed focus; verify box before advertising autofocus",
+          "mount": "Clip mount",
+          "cable": "USB-A 1.5 m",
+          "compatibility": "Windows, macOS and Linux",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMACT480", "stock": 64, "price": 441.48, "currency": "MXN", "branch": "GDL:20,LEO:5,VER:5,HMO:4,COL:4,CMT:4,LMO:3,TXA:3,TPC:3,CUE:3,AGS:2,TOL:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CTOnline JSON validates CAMACT480 and MXN 441.48 but showed stock 37, conflicting with private CTOnline stock 64; feed branch list sums 58, leaving 6 units without visible branch in extract."]
+        },
+        "measurements": { "dimensions": "70 x 55 x 44 mm", "weight": "108.6 g", "packageDimensions": "139 x 53 x 101 mm", "packageWeight": "200 g" },
+        "sourceRefs": [
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "Zegucom Acteck CW480", "type": "retail", "url": "https://www.zegucom.com.mx/producto/camaras/webcams/camara-web-acteck-haptos-cw480-con-microfono-full-hd-usb-negro/QUMtOTMzMDU2" },
+          { "title": "Sanborns Acteck Haptos CW480", "type": "retail", "url": "https://www.sanborns.com.mx/producto/355911/camara-web-haptos-cw480" },
+          { "title": "Tecnowow Acteck webcam 2K", "type": "retail", "url": "https://tecnowow.mx/construye-tu-pc/perifericos/webcams/webcam-acteck-2k-ov5648-autofocus-negra-haptos-cw680-usb-windows-linux-ios" }
+        ]
+      }
+    },
+    {
+      "product_id": "1x13v3sldm1qfzr",
+      "research": {
+        "confidence": 0.95,
+        "name": "Tripp Lite by Eaton SMART750USB UPS line-interactive 750VA 450W 120V torre USB",
+        "description": "UPS line-interactive Tripp Lite SMART750USB de 750VA/450W para 120V, formato torre, AVR, USB HID, 6 tomas NEMA 5-15R, bateria hot-swap y supresion de sobretensiones para oficina o PC.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/750va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/750va/tripp-lite-smart750usb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://assets.tripplite.com/product-pdfs/es/smart750usb.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKTRL070/NBKTRL070_full.jpg"],
+        "documents": [
+          { "label": "Tripp Lite SMART750USB datasheet ES", "type": "datasheet", "url": "https://assets.tripplite.com/product-pdfs/es/smart750usb.pdf" }
+        ],
+        "specs": {
+          "brand": "TRIPP-LITE",
+          "model": "SMART750USB",
+          "providerSku": "NBKTRL070 / FR-66",
+          "productType": "Line-interactive UPS",
+          "capacity": "750VA / 450W",
+          "input": "120VAC single phase, NEMA 5-15P, 1.8 m cord",
+          "output": "110/115/120VAC 60Hz, 6 NEMA 5-15R outlets, 3 battery+surge and 3 surge-only",
+          "waveform": "Sine wave AC, PWM sine wave on battery",
+          "runtime": "2.2 min full load, 8.3 min half load, up to 45 min for basic PC per manufacturer",
+          "battery": "VRLA 12V, RBC51 replacement, hot-swap access door",
+          "recharge": "Less than 4.5 h from 10% to 90%",
+          "avr": "Corrects low voltage from 89V",
+          "surge": "510 joules, TEL/DSL/Ethernet protection",
+          "management": "USB HID, LEDs, audible alarm, cold start",
+          "certifications": "UL1778, CSA, NOM, FCC, RoHS",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 7 }, { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKTRL070", "stock": 7, "price": 3502.75, "currency": "MXN", "branch": "total:7" },
+            { "providerId": "cva", "providerSku": "FR-66", "stock": 0, "price": 3504.77, "currency": "MXN", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CTOnline JSON validates NBKTRL070 and MXN 3502.75 but showed stock 16, conflicting with private CTOnline stock 7; public reseller FR-66 prices differ from private CVA MXN 3504.77."]
+        },
+        "measurements": { "dimensions": "132 x 191 x 274 mm", "weight": "6.80 kg", "packageDimensions": "35.51 x 21.01 x 26.49 cm", "packageWeight": "7.78 kg" },
+        "sourceRefs": [
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "Tripp Lite SMART750USB datasheet ES", "type": "datasheet", "url": "https://assets.tripplite.com/product-pdfs/es/smart750usb.pdf" },
+          { "title": "Sumistore SMART750USB", "type": "retail", "url": "https://www.sumistore.mx/NOBREAK-TRIPP-LITE-SMART750USB%2C99250__1461123990" },
+          { "title": "Grupo Reysa SMART750USB", "type": "retail", "url": "https://gruporeysa.com.mx/producto/tripp-lite-smart750usb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1xqgo5mbwnmvwb7",
+      "research": {
+        "confidence": 0.96,
+        "name": "Ubiquiti RocketDish RD-5G30 antena parabolica airMAX 5GHz 30dBi 2x2 MIMO",
+        "description": "Antena parabolica direccional Ubiquiti RocketDish RD-5G30 para enlaces PtP airMAX en 5GHz, ganancia 30dBi, polarizacion dual lineal, 2x2 MIMO, montaje universal a poste y cubierta protectora.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/antenas-parabolicas/5ghz-30dbi",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/antenas-parabolicas/5ghz-30dbi/ubiquiti-rocketdish-rd-5g30",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.bhphotovideo.com/c/product/1079104-REG/ubiquiti_networks_rd_5g30_rocketdish_airmax_5_1.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ANTUBI140/ANTUBI140_full.jpg"],
+        "documents": [
+          { "label": "B&H Ubiquiti RD-5G30 listing", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1079104-REG/ubiquiti_networks_rd_5g30_rocketdish_airmax_5_1.html" }
+        ],
+        "specs": {
+          "brand": "UBIQUITI",
+          "model": "RD-5G30 / RocketDish",
+          "providerSku": "ANTUBI140",
+          "upc": "810354021282",
+          "productType": "Directional dish antenna",
+          "frequency": "5.1-5.8GHz per B&H; some distributors list 4.9-5.9GHz",
+          "gain": "30dBi at 5GHz range, 26dBi at 4.9GHz reported by reseller",
+          "polarization": "Dual-linear",
+          "mimo": "2x2 MIMO",
+          "beamwidth": "5 deg HPOL and 5 deg VPOL",
+          "frontToBackRatio": "34dB",
+          "vswr": "1.4:1 max",
+          "crossPolIsolation": "35dB minimum",
+          "standard": "ETSI EN 302 326 DN2 reported by public listing",
+          "included": "Universal pole mount, protective shroud, Rocket M bracket and RF jumpers; radio not included",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ANTUBI140", "stock": 1, "price": 175.88, "currency": "USD", "branch": "ACA:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CTOnline JSON validates ANTUBI140, USD 175.88 and stock 1 but does not expose ACA branch; GlobalOffice public stock differs and appears to be a separate feed."]
+        },
+        "measurements": { "dimensions": "65 x 65 x 30.4 cm", "weight": "9.8 kg / 21.6 lb", "windLoad": "177 lbf at 125 mph", "windSurvival": "125 mph / 200 km/h" },
+        "sourceRefs": [
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "GlobalOffice Ubiquiti RD-5G30", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/redes-e-it/antena-direccional-rocketdish-airmax-ideal-para-en/rd-5g30" },
+          { "title": "B&H Ubiquiti RD-5G30", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1079104-REG/ubiquiti_networks_rd_5g30_rocketdish_airmax_5_1.html" },
+          { "title": "MacToner Ubiquiti RD-5G30", "type": "retail", "url": "https://www.mactoner.com.mx/producto/antena-ubiquiti-rd-5g30-5-1-5-8/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1xs0jbgzhiw2bti",
+      "research": {
+        "confidence": 0.95,
+        "name": "Provision-ISR NVR8-16400AN(1U)-V2 NVR IP 16 canales 8MP 2 SATA 1U",
+        "description": "NVR Provision-ISR NVR8-16400AN(1U)-V2 de 16 canales IP hasta 8MP, compresion H.265/H.264, salida HDMI 4K, ancho de banda 96Mbps, 2 bahias SATA hasta 20TB total y analiticas DDA2.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-ip/16-canales",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-ip/16-canales/provision-isr-nvr8-16400an-1u-v2",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/nvr8-16400an1u-v2/",
+        "gallery": ["https://provision-isr.com/wp-content/uploads/2024/02/1U.png"],
+        "documents": [
+          { "label": "Provision-ISR NVR8-16400AN(1U)-V2 official listing", "type": "manufacturer", "url": "https://provision-isr.com/products/nvr8-16400an1u-v2/" }
+        ],
+        "specs": {
+          "brand": "PROVISION-ISR",
+          "model": "NVR8-16400AN(1U)-V2",
+          "providerSku": "NVRPVS450",
+          "upc": "610840139268",
+          "productType": "Network video recorder",
+          "channels": "16 IP channels",
+          "recording": "16ch 8MP real-time",
+          "compression": "H.265, H.265+, H.265S, H.264",
+          "videoOutput": "HDMI 4K/1080p and VGA",
+          "bandwidth": "96Mbps input / 96Mbps output",
+          "storage": "2 SATA bays, 10TB max per HDD, 20TB total",
+          "network": "Gigabit RJ-45, ONVIF Profile T/S/G, P2P",
+          "usb": "2x USB 2.0",
+          "alarm": "Manufacturer lists 4+IPC inputs and 1+IPC output; some retailers list 8 inputs",
+          "analytics": "DDA2, line crossing, sterile area, counting, LPR, face detection and smart search",
+          "software": "Provision Cam2 and Ossia VMS",
+          "compliance": "Check Point Quantum IoT Nano and NDAA reported by manufacturer",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 3 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NVRPVS450", "stock": 11, "price": 112.55, "currency": "USD", "branch": "GDL:4,DFA:4,D2A:3" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["GlobalOffice validates SKU NVRPVS450 and total 11 but does not expose GDL/DFA/D2A branch split; no public CTOnline price confirmation for USD 112.55 was found."]
+        },
+        "measurements": { "dimensions": "375 x 275 x 50 mm", "weight": "1.53 kg retailer-reported; manufacturer weight not confirmed" },
+        "sourceRefs": [
+          { "title": "Provision-ISR NVR8-16400AN(1U)-V2", "type": "manufacturer", "url": "https://provision-isr.com/products/nvr8-16400an1u-v2/" },
+          { "title": "GlobalOffice Provision-ISR NVR8-16400AN", "type": "retail", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/videograbadores/nvr-provision-isr-nvr8-16400an1u-v2-16-ch-8/nvr8-16400an1u-v2" },
+          { "title": "Intercompras Provision-ISR NVR8-16400AN", "type": "retail", "url": "https://intercompras.com/p/grabador-nvr-provision-isr-nvr8-16400an-canales-ip-mp-max-sin-puertos-poe-352654" }
+        ]
+      }
+    },
+    {
+      "product_id": "1ybczr3ntnur201",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dahua ZZM10/PDU(8 USA 250) PDU rack 19 pulgadas 8 contactos USA 15A",
+        "description": "PDU Dahua ZZM10/PDU(8 USA 250) para gabinete de 19 pulgadas con 8 contactos USA, cable de 3 m, proteccion contra sobrecarga, switch e indicador de estado, carcasa de aluminio/acero.",
+        "manualCategoryPath": "energia/pdu-rack/multicontactos-8",
+        "semanticCategoryPath": "energia/pdu-rack/multicontactos-8/dahua-zzm10-pdu-8-usa-250",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/la/products/All-Products/Accessories/Cabling/Cabinets/PDU",
+        "gallery": [
+          "https://www.dahuasecurity.com/asset/upload/uploads/image/20170811/20170811100756_55796.png",
+          "https://www.dahuasecurity.com/asset/upload/uploads/image/20170811/20170811100808_17259.png",
+          "https://www.dahuasecurity.com/asset/upload/uploads/image/20170811/20170811100819_77192.png"
+        ],
+        "documents": [
+          { "label": "Dahua PDU official listing", "type": "manufacturer", "url": "https://www.dahuasecurity.com/la/products/All-Products/Accessories/Cabling/Cabinets/PDU" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "ZZM10/PDU(8 USA 250) / NA+C1C11:G21",
+          "providerSku": "ACCDAH2110",
+          "productType": "Rack PDU",
+          "outlets": "8 USA 3-pin outlets",
+          "rack": "Horizontal mount for 19 in cabinet",
+          "cable": "3 m North American cable, 1.3 mm2",
+          "protection": "Overload protection with switch and status indicator",
+          "material": "Aluminum/steel housing",
+          "color": "Black",
+          "electrical": "125VAC 15A 1875W on current Dahua public spec; older listings mention 250VAC 10A 2500W",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 56 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCDAH2110", "stock": 183, "price": 34.33, "currency": "USD", "branch": "D2A:56,CMT:50,GDL:30,LEO:13,TOL:8,ACA:5,AGS:3,DFC:3,CUE:2,IRA:2,URP:2,CDV:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Cyberpuerta, Intercompras and Cityshop validate product identity and public stock around 191-195 pieces, but no public CTOnline USD 34.33 price or branch split was found; feed branch list sums 176, leaving 7 units without visible branch."]
+        },
+        "measurements": { "dimensions": "482.6 x 45 x 45 mm", "weight": "1.0 kg", "packageWeight": "1.1 kg" },
+        "sourceRefs": [
+          { "title": "Dahua PDU official listing", "type": "manufacturer", "url": "https://www.dahuasecurity.com/la/products/All-Products/Accessories/Cabling/Cabinets/PDU" },
+          { "title": "Cyberpuerta Dahua PDU", "type": "retail", "url": "https://www.cyberpuerta.mx/Energia/PDU-s/Dahua-PDU-para-Rack-ZZM10-PDU-8-USA-250-15A-1875W-8-Contactos.html" },
+          { "title": "Intercompras Dahua PDU", "type": "retail", "url": "https://intercompras.com/p/pdu-dahua-zzm10pdu8-usa-tomas-usa-v-a-w-proteccion-contra-sobrecarga-cable-m-423700" },
+          { "title": "Cityshop Dahua PDU", "type": "retail", "url": "https://cityshop.mx/producto/barra-multicontactos-de-8-contactos-zzm10pdu8-usa-250" }
+        ]
+      }
+    },
+    {
+      "product_id": "1ycackmsgroshpa",
+      "research": {
+        "confidence": 0.96,
+        "name": "Samsung Odyssey G3 LS24DG300ELXZX monitor gamer 24 FHD VA 180Hz 1ms",
+        "description": "Monitor gamer Samsung Odyssey G3 LS24DG300ELXZX de 24 pulgadas Full HD VA plano, 180Hz, 1ms MPRT, AMD FreeSync, HDMI 2.0, DisplayPort 1.4, VESA 100 x 100 y base ajustable.",
+        "manualCategoryPath": "computo/monitores/gaming/24-fhd/180hz",
+        "semanticCategoryPath": "computo/monitores/gaming/24-fhd/180hz/samsung-odyssey-g3-ls24dg300elxzx",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.samsung.com/mx/monitors/gaming/odyssey-g3-g30d-24-inch-180hz-freesync-ls24dg300elxzx/",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-SAMSUNG-LS24DG300ELXZX-1.png",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-SAMSUNG-LS24DG300ELXZX-3.png",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-SAMSUNG-LS24DG300ELXZX-5.png",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-SAMSUNG-LS24DG300ELXZX-7.png"
+        ],
+        "documents": [
+          { "label": "Cyberpuerta Samsung LS24DG300ELXZX PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/671/bba/fb7/671bbafb752a53.25902929.pdf" }
+        ],
+        "specs": {
+          "brand": "SAMSUNG",
+          "model": "LS24DG300ELXZX / Odyssey G3 G30D",
+          "providerSku": "MONSMG2070 / MNL-2746",
+          "productType": "Gaming monitor",
+          "screenSize": "24 in / 61 cm",
+          "panel": "Flat VA LCD",
+          "resolution": "1920 x 1080 Full HD",
+          "aspectRatio": "16:9",
+          "refreshRate": "180Hz",
+          "responseTime": "1ms MPRT",
+          "brightness": "250 cd/m2 typical, 200 cd/m2 minimum",
+          "contrast": "3000:1",
+          "viewingAngles": "178/178 degrees",
+          "colors": "16.7M, sRGB 95%",
+          "sync": "AMD FreeSync, no G-Sync",
+          "ergonomics": "120 mm height, pivot -2 to 92, swivel -15 to 15, tilt -5 to 20",
+          "mount": "VESA 100 x 100",
+          "ports": "1x HDMI 2.0, 1x DisplayPort 1.4, headphone out",
+          "audio": "No speakers",
+          "power": "External adapter, 25W max",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 90 }, { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MONSMG2070", "stock": 90, "price": 2395.26, "currency": "MXN", "branch": "total:90" },
+            { "providerId": "cva", "providerSku": "MNL-2746", "stock": 0, "price": 2319.31, "currency": "MXN", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Samsung Mexico promo price MXN 2399 aligns with CTOnline MXN 2395.26, but public Cyberpuerta/GlobalOffice/CVA-channel stock differs; no public CTOnline branch split found."]
+        },
+        "measurements": { "withStand": "544 x 234.2 x 498.7 mm, 3.9 kg", "withoutStand": "544 x 92 x 333.3 mm, 2.4 kg", "packageDimensions": "618 x 439 x 184 mm", "packageWeight": "5.6 kg" },
+        "sourceRefs": [
+          { "title": "Samsung Mexico Odyssey G3 LS24DG300ELXZX", "type": "manufacturer", "url": "https://www.samsung.com/mx/monitors/gaming/odyssey-g3-g30d-24-inch-180hz-freesync-ls24dg300elxzx/" },
+          { "title": "Cyberpuerta Samsung Odyssey G3", "type": "retail", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Gamer-Samsung-Odyssey-LCD-24-1920x1080-Full-HD-FreeSync-180Hz-HDMI-DisplayPort-Negro.html" },
+          { "title": "GlobalOffice Samsung Odyssey G3", "type": "retail", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/computadoras/monitor-samsung-odyssey-24-g3-fhd-va-1ms-mprt-180hz-hdmi-dp/ls24dg300elxzx" },
+          { "title": "Cimsystem MNL-2746", "type": "retail", "url": "https://cimsystem.mx/tienda/producto.php?clave=MNL-2746" }
+        ]
+      }
+    },
+    {
+      "product_id": "1yeqpbvo1wvf71o",
+      "research": {
+        "confidence": 0.94,
+        "name": "Intellinet 210546 jack keystone RJ45 Cat5e UTP azul punch-down",
+        "description": "Modulo keystone Intellinet 210546 RJ45 Cat5e UTP azul de impacto, 8P8C hembra, compatible con cable 22-26 AWG, ponchadoras 110/Krone y codigos de color T568A/B.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/intellinet-210546-azul",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.techly.com/keystone-rj45-cat-5e-utp-idc-90-blue.html",
+        "gallery": ["https://www.techly.com/media/catalog/product/cache/4/image/600x/9df78eab33525d08d6e5fb8d27136e95/1/1/11ad7430a15c207e9d4aae0af2991f47e3e947fc_max_210546pro.jpg"],
+        "documents": [
+          { "label": "Intellinet 210546 PDF", "type": "datasheet", "url": "https://gzhls.at/blob/ldb/8/4/e/f/bc64307ee1f60399ba86afa0aaef0a60a9d7.pdf" }
+        ],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "210546",
+          "providerSku": "RCKACC1440 / AC-1700",
+          "upc": "766623210546",
+          "productType": "RJ45 Cat5e keystone jack",
+          "connector": "RJ45 8P8C female",
+          "shielding": "U/UTP unshielded",
+          "termination": "Punch-down / IDC 90",
+          "cable": "Cat5e UTP solid or stranded 22-26 AWG",
+          "tools": "110 and Krone compatible",
+          "wiring": "T568A/B color code",
+          "color": "Blue",
+          "certifications": "ANSI/TIA/EIA 568B.2, UL and RoHS reported by public sources",
+          "operatingTemperature": "-40 to 80 C",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 406 }, { "providerId": "cva", "warehouseCode": "total", "stock": 10 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC1440", "stock": 406, "price": 1.5, "currency": "USD", "branch": "total:406" },
+            { "providerId": "cva", "providerSku": "AC-1700", "stock": 10, "price": 1.52, "currency": "USD", "branch": "total:10" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["CTOnline public page identifies RCKACC1440 but requires login for price/stock; public AC-1700 resellers validate SKU identity but not private CVA stock 10 or USD 1.52."]
+        },
+        "measurements": { "dimensions": "31.98 mm depth, 16.03/21.63 mm height, 14.45/18.26 mm width", "weight": "0.011 kg", "packageDimensions": "6.8 x 2.1 x 10.2 cm", "packageWeight": "0.01 kg" },
+        "sourceRefs": [
+          { "title": "CTOnline Intellinet RCKACC1440", "type": "retail", "url": "https://ctonline.mx/Cables/Jacks/INTELLINET/RCKACC1440/7327" },
+          { "title": "Techly Intellinet 210546", "type": "retail", "url": "https://www.techly.com/keystone-rj45-cat-5e-utp-idc-90-blue.html" },
+          { "title": "Intellinet 210546 PDF", "type": "datasheet", "url": "https://gzhls.at/blob/ldb/8/4/e/f/bc64307ee1f60399ba86afa0aaef0a60a9d7.pdf" },
+          { "title": "PCREDCOM AC-1700", "type": "retail", "url": "https://pcredcom.com/jack-rj45-cat5e-intellinet-utp-keystone-de-impacto-azul-210546-df-ac-1700.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "1yfjby81pjlat0u",
+      "research": {
+        "confidence": 0.95,
+        "name": "Logitech Pebble Keys 2 K380s teclado Bluetooth multidispositivo blanco tonal",
+        "description": "Teclado compacto inalambrico Logitech Pebble Keys 2 K380s blanco tonal, Bluetooth Low Energy, Easy-Switch para 3 dispositivos, teclas silenciosas de bajo perfil, funciones personalizables y 2 baterias AAA.",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos/multidispositivo",
+        "semanticCategoryPath": "computo/perifericos/teclados/inalambricos/multidispositivo/logitech-pebble-keys-2-k380s-blanco",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/en-us/shop/p/pebble-keys-2.920-011776",
+        "gallery": [
+          "https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/pebble-keys-2-k380s/2026/gallery/tonal-white/pebble-keys-k380s-2-tonal-white-top-angle-gallery-1.png",
+          "https://resource.logitech.com/w_544%2Ch_544%2Car_1%2Cc_fill%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/pebble-keys-2-k380s/2026/gallery/tonal-white/pebble-keys-k380s-2-tonal-white-lifestyle-gallery-2-new.jpg"
+        ],
+        "documents": [
+          { "label": "Logitech Pebble Keys 2 K380s specifications", "type": "manufacturer", "url": "https://support.logi.com/hc/en-gb/articles/16170852473751-Specification-Pebble-Keys-2-K380s" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "Pebble Keys 2 K380s / Y-R0091",
+          "providerSku": "TECLOG1300",
+          "mpn": "920-011784",
+          "upc": "097855186355",
+          "productType": "Compact multi-device wireless keyboard",
+          "color": "Tonal White",
+          "layout": "QWERTY, Spanish layout reported by Mexican listings",
+          "connectivity": "Bluetooth Low Energy; Logi Bolt compatible in some listings, receiver not included",
+          "switching": "Easy-Switch for up to 3 devices",
+          "compatibility": "Windows, macOS, iPadOS, iOS, Android and Logi Options+",
+          "keys": "Low-profile silent scissor keys, customizable FN keys",
+          "durability": "10M keystrokes standard keys, 3M function/cursor keys",
+          "actuation": "60 +/- 10 gf, 1.5 +/- 0.3 mm travel",
+          "battery": "2x AAA",
+          "range": "More than 10 m",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TECLOG1300", "stock": 1, "price": 769.41, "currency": "MXN", "branch": "TXA:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["CTOnline public family page requires login for TECLOG1300 price/stock; public GlobalOffice and Tony listings validate UPC/SKU but show different prices and stock."]
+        },
+        "measurements": { "dimensions": "279.5 x 124.2 x 16.4 mm", "weight": "395 g without batteries, 415 g with batteries", "packageDimensions": "136 x 31 x 136 mm", "packageWeight": "508 g without batteries, 528 g with batteries" },
+        "sourceRefs": [
+          { "title": "Logitech Pebble Keys 2", "type": "manufacturer", "url": "https://www.logitech.com/en-us/shop/p/pebble-keys-2.920-011776" },
+          { "title": "Logitech Pebble Keys 2 K380s specifications", "type": "manufacturer", "url": "https://support.logi.com/hc/en-gb/articles/16170852473751-Specification-Pebble-Keys-2-K380s" },
+          { "title": "CTOnline Logitech keyboards", "type": "retail", "url": "https://ctonline.mx/Accesorios-para-Componentes/Teclados/LOGITECH/" },
+          { "title": "GlobalOffice Logitech 920-011784", "type": "retail", "url": "https://www.globaloffice.com.mx/app/detalle/producto/accesorios-para-laptops/teclados-logitech-pebble-keys-2-k380s-teclado-logitech-pebbl/920-011784" },
+          { "title": "Tony Logitech 920-011784", "type": "retail", "url": "https://www.tony.com.mx/teclado-logitech-pebble-keys-2-k380s-920-011784-teclado-bluetooth-estilizado-y-minimalista-con-teclas-personalizables/p" }
+        ]
+      }
+    },
+    {
+      "product_id": "1ytoh89zgum13g7",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Archer BE400 router Wi-Fi 7 BE6500 doble banda 2.5GbE EasyMesh",
+        "description": "Router TP-Link Archer BE400 Wi-Fi 7 BE6500 doble banda con 5764Mbps en 5GHz y 688Mbps en 2.4GHz, MLO, 4K-QAM, EasyMesh, WAN 2.5GbE, LAN 2.5GbE, 3 LAN gigabit y USB 3.0.",
+        "manualCategoryPath": "redes/routers/wifi-7/be6500",
+        "semanticCategoryPath": "redes/routers/wifi-7/be6500/tp-link-archer-be400",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/au/home-networking/wifi-router/archer-be400/",
+        "gallery": [
+          "https://static.tp-link.com/upload/image-line/Archer_BE6500_US_1.0_overview_01_normal_20240704032045r.jpg",
+          "https://static.tp-link.com/upload/image-line/Archer_BE6500_US_1.0_overview_02_normal_20240704032045x.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link Archer BE400 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202601/20260115/Archer%20BE400%201.0_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "Archer BE400",
+          "providerSku": "ROUTPL1310 / NIC-5127",
+          "upc": "810142822220",
+          "productType": "Dual-band Wi-Fi 7 router",
+          "wifiStandard": "802.11be/ax/ac/n/a 5GHz and 802.11be/ax/n/g/b 2.4GHz",
+          "wifiSpeed": "5764Mbps at 5GHz plus 688Mbps at 2.4GHz, BE6500 total",
+          "bands": "Dual band, no 6GHz",
+          "streams": "4",
+          "antennas": "6 external antennas",
+          "wifi7Features": "MLO, 4K-QAM, Multi-RUs",
+          "efficiency": "MU-MIMO, OFDMA, Airtime Fairness, DFS",
+          "modes": "Router and access point",
+          "mesh": "EasyMesh compatible",
+          "ports": "1x 2.5Gbps WAN, 1x 2.5Gbps LAN, 3x 1Gbps LAN",
+          "usb": "1x USB 3.0 with FTP, media server and Samba; NTFS, exFAT, HFS+ and FAT32",
+          "security": "SPI firewall, access control, IP/MAC binding, ALG and HomeShield",
+          "encryption": "WPA, WPA2, WPA3 and WPA/WPA2-Enterprise 802.1x",
+          "vpn": "OpenVPN, PPTP, L2TP and WireGuard server/client",
+          "power": "12V 2.5A",
+          "environment": "0-40 C, 10%-90% humidity non-condensing",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 1 }, { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTPL1310", "stock": 1, "price": 115.91, "currency": "USD", "branch": "total:1" },
+            { "providerId": "cva", "providerSku": "NIC-5127", "stock": 0, "price": 110.03, "currency": "USD", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["GlobalOffice validates ROUTPL1310 with 1 unit in Almacen Mexico; public NIC-5127 resellers show mixed stock from 0 to 8 and MXN price variance; no public CTOnline USD 115.91 or CVA USD 110.03 confirmation found."]
+        },
+        "measurements": { "dimensions": "200 x 176 x 59 mm from TP-Link JP datasheet; regional hardware may vary", "alternateDimensions": "268.6 x 153 x 47.6 mm reseller listing", "weight": "1.37 lb Consumer Reports; official AU/US page did not list weight" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer BE400 AU", "type": "manufacturer", "url": "https://www.tp-link.com/au/home-networking/wifi-router/archer-be400/" },
+          { "title": "TP-Link Archer BE400 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202601/20260115/Archer%20BE400%201.0_Datasheet.pdf" },
+          { "title": "GlobalOffice TP-Link Archer BE400", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/redes/router-tp-link-wi-fi-7-archer-be400-dual-band-be6500-easymesh-compatible-mlo-2x2-mu-mimo-2x-25gbps/archer-be400" },
+          { "title": "TecnoHardware TP-Link Archer BE400", "type": "retail", "url": "https://www.tecnohardware.com.mx/Router-Wi-fi-7-Tp-Link-Be6500-De-Doble-Banda-Tp-Link-A%2C224682__1111111838" },
+          { "title": "SysMX NIC-5127", "type": "retail", "url": "https://www.sysmx.com.mx/redes/switch-router-accesspoint-repetidor/NIC-5127-ARCHER-BE400-TP-LINK-REDES-ROUTER-WI-FI-7-TP-LINK-BE6500-DE-DOBLE-BANDA" },
+          { "title": "Compuviper Archer BE400", "type": "retail", "url": "https://compuviper.mx/tienda/producto/tp-link-archer-be400-router-wi-fi-7-be6500-de-doble-banda/" }
+        ]
+      }
+    }
+  ]
+}

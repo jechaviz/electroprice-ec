@@ -343,6 +343,16 @@ const researchedBatchCases = [
   ["Balam Rush GR850G fuente ATX 850W 80 Plus Gold", "BALAM RUSH", "computo/componentes/fuentes-poder/atx-80-plus-gold/850w"],
   ["Nextep NE-515 cajon de dinero acero 8 monedas 5 billetes", "NEXTEP", "punto-de-venta/cajones-dinero/metalicos"],
   ["LG 32LR600BPSC television LED 32 pulgadas HD webOS", "LG", "video/televisores/led-webos/32-hd"],
+  ["Lenovo ThinkPad E14 G7 21TA000FLM Core 5 210H 14 pulgadas", "LENOVO", "computo/laptops/empresariales/14-pulgadas"],
+  ["Acteck CW480 webcam 2K USB 2592 x 1944 AC-933056", "ACTECK", "computo/perifericos/webcams/usb-2k"],
+  ["Tripp Lite SMART750USB UPS interactivo 750VA 450W AVR", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/750va"],
+  ["Ubiquiti RD-5G30 RocketDish antena 5GHz 30dBi", "UBIQUITI", "redes/radioenlaces-antenas/antenas-parabolicas/5ghz-30dbi"],
+  ["Provision ISR NVR8-16400AN 16 canales 8MP 2 SATA 20TB", "PROVISION-ISR", "seguridad/cctv/dvr-nvr/nvr-ip/16-canales"],
+  ["Dahua NA+C1C11:G21 PDU barra 8 contactos USA", "DAHUA TECHNOLOGY", "energia/pdu-rack/multicontactos-8"],
+  ["Samsung Odyssey G3 LS24DG300ELXZX monitor 24 FHD 180Hz", "SAMSUNG", "computo/monitores/gaming/24-fhd/180hz"],
+  ["Intellinet 210546 jack keystone Cat5e azul de impacto", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e"],
+  ["Logitech Pebble Keys 2 K380s teclado Bluetooth blanco", "LOGITECH", "computo/perifericos/teclados/inalambricos/multidispositivo"],
+  ["TP-Link Archer BE400 router Wi-Fi 7 BE6500 doble banda", "TP LINK", "redes/routers/wifi-7/be6500"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
