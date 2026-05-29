@@ -542,6 +542,16 @@ const researchedBatchCases = [
   ["Dell Pro Dock WD25 docking USB-C 100W HDMI DisplayPort 6K", "DELL", "computo/accesorios/docks-hubs/usb-c/profesionales"],
   ["Naceb Gaming NA-0928 silla gaming negro rojo soporte 150 kg", "NACEB GAMING", "oficina/mobiliario-accesorios/sillas-gaming"],
   ["APC SRT96BP banco externo baterias Smart-UPS SRT 96V 3kVA", "APC", "energia/accesorios-ups/bancos-baterias-rack-torre/96v-srt"],
+  ["Forza FDC-1001RUL UPS doble conversion online 1000VA 800W", "FORZA", "energia/no-breaks-ups/doble-conversion/rack-torre/1000va"],
+  ["Kingston FURY Impact KF432S20IB/16 memoria RAM SO-DIMM DDR4 16GB 3200", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/sodimm-ddr4/16gb-3200"],
+  ["TechZone TZ19MOU01-INAR mouse inalambrico rojo 1600 DPI", "TECHZONE", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi"],
+  ["Kingston KCP432SS8/8 memoria RAM SO-DIMM DDR4 8GB 3200", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/sodimm-ddr4/8gb-3200"],
+  ["Provision-ISR OES-24300C+2G switch PoE CCTV 24 puertos 300W", "PROVISION-ISR", "redes/switches/poe-no-administrables/cctv/24-puertos"],
+  ["XPG GAMMIX S70 BLADE AGAMMIXS70B-1T-CS SSD M.2 NVMe PCIe 4.0 1TB", "ADATA", "computo/almacenamiento/ssd/m2-nvme/1tb-gen4"],
+  ["Belden AX101321 jack keystone RJ45 Cat6 KeyConnect negro", "BELDEN", "redes/cableado-estructurado/conectores-keystone/rj45-cat6"],
+  ["Stylos STACHV1B adaptador HDMI a VGA AUX 15 cm", "STYLOS", "accesorios/cables-adaptadores/video-hdmi-vga"],
+  ["BRobotix 6007204 mouse alambrico USB optico 1600 DPI negro", "BROBOTIX", "computo/perifericos/mouse/alambricos/basicos/1600-dpi"],
+  ["Hikvision DS-XS6412-S/B gabinete rack pared 12U 600 x 450 negro", "HIKVISION", "infraestructura/racks-enfriamiento/gabinetes-pared/12u"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

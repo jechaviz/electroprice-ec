@@ -16,6 +16,7 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'redes/switches/poe-no-administrables', name: 'Switches PoE no administrables', legacyCategory: 'networking' },
   { path: 'redes/switches/poe-no-administrables/cctv', name: 'Switches PoE no administrables para CCTV', legacyCategory: 'networking' },
   { path: 'redes/switches/poe-no-administrables/cctv/16-puertos', name: 'Switches PoE CCTV de 16 puertos', legacyCategory: 'networking' },
+  { path: 'redes/switches/poe-no-administrables/cctv/24-puertos', name: 'Switches PoE CCTV de 24 puertos', legacyCategory: 'networking' },
   { path: 'redes/switches/no-administrables', name: 'Switches no administrables', legacyCategory: 'networking' },
   { path: 'redes/switches/no-administrables/fast-ethernet', name: 'Switches Fast Ethernet no administrables', legacyCategory: 'networking' },
   { path: 'redes/switches/no-administrables/fast-ethernet/16-puertos', name: 'Switches Fast Ethernet no administrables de 16 puertos', legacyCategory: 'networking' },
