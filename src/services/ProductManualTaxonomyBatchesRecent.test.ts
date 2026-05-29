@@ -482,7 +482,7 @@ const researchedBatchCases = [
   ["BRobotix 651763 adaptador USB Bluetooth 5.0 negro", "BROBOTIX", "redes/adaptadores-bluetooth/usb"],
   ["HP 1X644AA Prelude Pro mochila laptop reciclada 15.6 pulgadas", "HP", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
   ["Balam Rush HYX24 enfriamiento liquido CPU 240mm con pantalla LCD", "BALAM RUSH", "computo/componentes/enfriamiento/liquido-cpu/240mm/pantalla-lcd"],
-  ["Dell KM5221W kit teclado y mouse inalambrico 2.4GHz negro", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos"],
+  ["Dell KM5221W kit teclado y mouse inalambrico 2.4GHz negro", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad"],
   ["Grandstream GWN7630LR access point exterior Wi-Fi 5 4x4 300m", "GRANDSTREAM", "redes/access-points/wifi-5/exterior"],
   ["Ovaltech OVTV-F60100 soporte fijo pared TV 60 a 100 75kg", "OVALTECH", "video/soportes-tv/pared/fijos-60-100"],
   ["Acteck AC-944526 Captive Brite CB185 monitor 18.5 HD 60Hz", "ACTECK", "computo/monitores/oficina/18-5-hd"],

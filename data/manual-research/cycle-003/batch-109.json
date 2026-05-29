@@ -1,0 +1,411 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b109-2026-05-29",
+  "cycle": 3,
+  "batch": 109,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "vqvdvz0a4snx93k",
+      "research": {
+        "confidence": 0.98,
+        "name": "Manhattan 151467 convertidor HDMI a VGA 1080p negro",
+        "description": "Convertidor activo Manhattan 151467 HDMI macho a VGA hembra para conectar equipos HDMI a monitores, proyectores o pantallas VGA hasta 1080p.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi-vga",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi-vga/manhattan-151467",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-conversor-hdmi-a-vga-151467",
+        "gallery": ["https://manhattanproducts.us/products/manhattan-en-hdmi-to-vga-converter-151467"],
+        "documents": [{ "label": "Manhattan 151467 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43991/151467_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "151467",
+          "providerSkus": ["ACCITL540", "AC-4245"],
+          "upc": "766623151467",
+          "ean": "0766623151467",
+          "productType": "Convertidor HDMI a VGA",
+          "input": "HDMI 19-pin male",
+          "output": "VGA HD15 female",
+          "maxResolution": "1080p analog video output",
+          "hdmiVersion": "HDMI 1.3",
+          "powerPort": "Micro-USB optional power input",
+          "contacts": "Gold-plated contacts",
+          "cableLength": "30 cm",
+          "packaging": "Bag",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCITL540", "stock": 1764, "price": 5.89, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-4245", "stock": 19, "price": 5.98, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous monitors path was incorrect; this is a video adapter/converter, not a monitor.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "300 x 45 x 15 mm by Manhattan; active cable length 30 cm", "weight": "34 g net; 0.05 kg gross" },
+        "sourceRefs": [
+          { "title": "Manhattan Mexico 151467 official page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-conversor-hdmi-a-vga-151467" },
+          { "title": "Manhattan US 151467 official page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hdmi-to-vga-converter-151467" },
+          { "title": "Manhattan 151467 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43991/151467_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "oh950dnfsne4627",
+      "research": {
+        "confidence": 0.97,
+        "name": "Dell DW316 unidad optica externa USB 2.0 DVD+/-RW negra",
+        "description": "Unidad optica externa Dell DW316 USB 2.0 para leer y grabar CD/DVD, con diseno slim, bandeja, alimentacion por bus USB y software CyberLink Media Suite.",
+        "manualCategoryPath": "computo/almacenamiento/unidades-opticas/dvd-externas",
+        "semanticCategoryPath": "computo/almacenamiento/unidades-opticas/dvd-externas/dell-dw316",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-usb-slim-dvd-rw-drive-dw316/apd/429-aauq/storage-drives-media",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/storage-devices/external-usb-slim-dvd-rw/dw316/media-gallery/dell-dvd-rw-dw316-gallery-1.psd"],
+        "documents": [
+          { "label": "Dell DW316 user guide", "type": "manual", "url": "https://dl.dell.com/manuals/all-products/esuprt_electronics/esuprt_external_storage/dell-external-usb-slim-dvd-optical-drive-dw316_user%27s%20guide_en-us.pdf?linkId=36332726" },
+          { "label": "Dell DW316 quick start guide", "type": "manual", "url": "https://downloads.dell.com/manuals/all-products/esuprt_electronics/esuprt_external_storage/dell-external-usb-slim-dvd-optical-drive-dw316_setup%20guide_en-us.pdf" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "DW316",
+          "partNumber": "429-AAUQ",
+          "providerSku": "CDRDLL040",
+          "upc": "884116288473",
+          "productType": "Unidad optica DVD+/-RW externa",
+          "interface": "USB 2.0",
+          "mediaLoadType": "Tray",
+          "readWrite": "DVD+/-RW and CD-RW read/write; DVD 8x max by Dell reference",
+          "power": "USB bus powered, 5 VDC, 8 W operational",
+          "software": "CyberLink Media Suite",
+          "osSupport": "Windows 11 or below by Dell current page; older guide covers Windows 7 and later",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":953},{"providerId":"ctonline","warehouseCode":"DFA","stock":445},{"providerId":"ctonline","warehouseCode":"XLP","stock":99},{"providerId":"ctonline","warehouseCode":"CMT","stock":66},{"providerId":"ctonline","warehouseCode":"CUN","stock":30},{"providerId":"ctonline","warehouseCode":"HMO","stock":22},{"providerId":"ctonline","warehouseCode":"CLN","stock":13},{"providerId":"ctonline","warehouseCode":"MID","stock":13},{"providerId":"ctonline","warehouseCode":"OAX","stock":12},{"providerId":"ctonline","warehouseCode":"AGS","stock":9},{"providerId":"ctonline","warehouseCode":"MOR","stock":9},{"providerId":"ctonline","warehouseCode":"PUE","stock":8}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CDRDLL040", "stock": 1781, "price": 586.96, "currency": "MXN", "branch": "D2A:953,DFA:445,XLP:99,CMT:66,CUN:30,HMO:22,CLN:13,MID:13,OAX:12,AGS:9,MOR:9,PUE:8" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cables-adaptadores path was too broad; this is an external optical storage drive.", "Provider title says reader, but DW316 is a DVD+/-RW reader/writer.", "Visible branch sum is 1679 while feed total_stock is 1781, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "144 x 137.5 x 14 mm by Dell guide; retail page rounds to 5.4 x 5.7 x 0.6 in", "weight": "About 200 g" },
+        "sourceRefs": [
+          { "title": "Dell DW316 official page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-usb-slim-dvd-rw-drive-dw316/apd/429-aauq/storage-drives-media" },
+          { "title": "Dell DW316 user guide", "type": "manual", "url": "https://dl.dell.com/manuals/all-products/esuprt_electronics/esuprt_external_storage/dell-external-usb-slim-dvd-optical-drive-dw316_user%27s%20guide_en-us.pdf?linkId=36332726" },
+          { "title": "GlobalOffice Dell DW316 CDRDLL040 UPC", "type": "retailer", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/ensamble/unidad-de-dvd-externo-dell-unidadlectora-unidad-o/dw316" }
+        ]
+      }
+    },
+    {
+      "product_id": "qri2q27iu53j14x",
+      "research": {
+        "confidence": 0.97,
+        "name": "SanDisk Cruzer Blade SDCZ50-016G-B35 memoria USB 2.0 16GB negro rojo",
+        "description": "Memoria USB SanDisk Cruzer Blade de 16GB con interfaz USB-A 2.0, diseno compacto sin tapa y color negro con rojo.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/sandisk-cruzer-blade-sdcz50-016g-b35",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/en-ie/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-016G-B35",
+        "gallery": ["https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-blade-usb-2-0/cruzer-blade-usb-2-0.png"],
+        "documents": [{ "label": "SanDisk Cruzer Blade USB 2.0 datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-blade-usb-2-0/data-sheet-cruzer-blade-usb-2-0.pdf" }],
+        "specs": {
+          "brand": "SANDISK",
+          "model": "Cruzer Blade",
+          "partNumber": "SDCZ50-016G-B35",
+          "providerSku": "MEMSAN1090",
+          "upc": "619659000431",
+          "productType": "Memoria USB",
+          "capacity": "16 GB",
+          "interface": "USB-A 2.0",
+          "color": "Negro / Rojo",
+          "design": "Compact capless body",
+          "compatibility": "Windows and Mac by SanDisk retail references",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":964},{"providerId":"ctonline","warehouseCode":"AGS","stock":500},{"providerId":"ctonline","warehouseCode":"TRN","stock":88},{"providerId":"ctonline","warehouseCode":"CDV","stock":48},{"providerId":"ctonline","warehouseCode":"SLP","stock":39},{"providerId":"ctonline","warehouseCode":"TXA","stock":34},{"providerId":"ctonline","warehouseCode":"MOR","stock":27},{"providerId":"ctonline","warehouseCode":"VER","stock":15},{"providerId":"ctonline","warehouseCode":"CUN","stock":14},{"providerId":"ctonline","warehouseCode":"IRA","stock":13},{"providerId":"ctonline","warehouseCode":"MID","stock":8},{"providerId":"ctonline","warehouseCode":"SLT","stock":7}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSAN1090", "stock": 1773, "price": 4.51, "currency": "USD", "branch": "GDL:964,AGS:500,TRN:88,CDV:48,SLP:39,TXA:34,MOR:27,VER:15,CUN:14,IRA:13,MID:8,SLT:7" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is portable USB flash storage.", "Visible branch sum is 1757 while feed total_stock is 1773, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "17.6 x 7.4 x 41.5 mm by retailer references", "weight": "Approx 2.5 g by retailer references" },
+        "sourceRefs": [
+          { "title": "SanDisk Cruzer Blade official page", "type": "manufacturer", "url": "https://www.sandisk.com/en-ie/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-016G-B35" },
+          { "title": "SanDisk Cruzer Blade datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-blade-usb-2-0/data-sheet-cruzer-blade-usb-2-0.pdf" },
+          { "title": "UPCItemDB SanDisk 619659000431 reference", "type": "catalog", "url": "https://www.upcitemdb.com/upc/619659000431" }
+        ]
+      }
+    },
+    {
+      "product_id": "9sc5qmy9bifdwhg",
+      "research": {
+        "confidence": 0.96,
+        "name": "Provision-ISR PR-12V3A fuente de poder CCTV 12V 3A negra",
+        "description": "Fuente individual Provision-ISR PR-12V3A para CCTV con entrada universal AC 100-240V y salida DC 12V 3A para alimentar camaras y equipos de seguridad.",
+        "manualCategoryPath": "seguridad/cctv/fuentes-poder/12v-3a",
+        "semanticCategoryPath": "seguridad/cctv/fuentes-poder/12v-3a/provision-isr-pr-12v3a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/accesories/pr-12v3a/",
+        "gallery": ["https://provision-isr.com/accesories/pr-12v3a/", "https://www.cyberpuerta.mx/img/product/XS/CP-PROVISION-ISR-PR-12V3A-010514.jpg"],
+        "documents": [{ "label": "Provision-ISR PR-12V3A spec sheet reference", "type": "datasheet", "url": "https://www.southwestautomated.com/surveillance/miscellaneous-cctv-items/power-products/provisionisr_pr-12v3a" }],
+        "specs": {
+          "brand": "PROVISION ISR",
+          "model": "PR-12V3A",
+          "providerSku": "ACCPVS360",
+          "ean": "0611355704484",
+          "productType": "Fuente de poder individual CCTV",
+          "inputVoltage": "AC 100-240 V, 47-63 Hz",
+          "outputVoltage": "DC 12 V +/-5%",
+          "outputCurrent": "3 A",
+          "outputPower": "36 W max",
+          "connector": "1 DC plug",
+          "protections": "Over-current, short-circuit and auto recovery",
+          "certification": "CE by supplier/spec references",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":269},{"providerId":"ctonline","warehouseCode":"DFA","stock":193},{"providerId":"ctonline","warehouseCode":"CMT","stock":129},{"providerId":"ctonline","warehouseCode":"XLP","stock":76},{"providerId":"ctonline","warehouseCode":"COL","stock":63},{"providerId":"ctonline","warehouseCode":"TPC","stock":54},{"providerId":"ctonline","warehouseCode":"TXA","stock":52},{"providerId":"ctonline","warehouseCode":"IRA","stock":52},{"providerId":"ctonline","warehouseCode":"TAM","stock":45},{"providerId":"ctonline","warehouseCode":"VHA","stock":41},{"providerId":"ctonline","warehouseCode":"CDV","stock":40},{"providerId":"ctonline","warehouseCode":"TRN","stock":39}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPVS360", "stock": 1695, "price": 8.14, "currency": "USD", "branch": "GDL:269,DFA:193,CMT:129,XLP:76,COL:63,TPC:54,TXA:52,IRA:52,TAM:45,VHA:41,CDV:40,TRN:39" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous PC power-supply path was incorrect; this is a CCTV/security power adapter.", "Visible branch sum is 1053 while feed total_stock is 1695, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "95 x 43 x 31 mm by research reference; alternate retailer lists 12 x 4 x 6 cm package-like dimensions", "weight": "176 g by research reference; alternate retailer weight appears inconsistent" },
+        "sourceRefs": [
+          { "title": "Provision-ISR PR-12V3A official page", "type": "manufacturer", "url": "https://provision-isr.com/accesories/pr-12v3a/" },
+          { "title": "Southwest Automated PR-12V3A spec reference", "type": "catalog", "url": "https://www.southwestautomated.com/surveillance/miscellaneous-cctv-items/power-products/provisionisr_pr-12v3a" },
+          { "title": "Cyberpuerta Provision-ISR PR-12V3A", "type": "retailer", "url": "https://www.cyberpuerta.mx/Energia/Energia-para-Seguridad-Vigilancia/Energia-para-Camaras-y-Grabadoras/Provision-ISR-Fuente-de-Poder-para-Camara-PR-12V3A-Salida-12V.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "od5bcwmj5gg1e9q",
+      "research": {
+        "confidence": 0.96,
+        "name": "IMOU IPC-PS8D-3V0 camara domo IP PoE 3MP IP67 Smart Color",
+        "description": "Camara IMOU IPC-PS8D-3V0 tipo domo/turret IP PoE de 3MP para exterior, con Smart Color, microfono, sirena, luces de disuasion y deteccion humano/vehiculo.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/3mp/imou-ipc-ps8d-3v0",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.imou.com/en/product/detail/ps8d-3mp",
+        "gallery": ["https://www.imou.com/en/product/detail/ps8d-3mp"],
+        "documents": [{ "label": "IMOU PS8D 3MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/" }],
+        "specs": {
+          "brand": "IMOU",
+          "model": "IPC-PS8D-3V0",
+          "providerSku": "CAMDAH6790",
+          "ean": "6937479643152",
+          "productType": "Camara IP PoE domo/turret",
+          "sensor": "1/3 inch progressive CMOS",
+          "resolution": "2304 x 1296, 3MP",
+          "codec": "H.265/H.264",
+          "lens": "3.6 mm F1.6 by researched official/retailer references",
+          "nightVision": "IR up to 30 m plus white light/Smart Color",
+          "audio": "Built-in microphone, speaker and siren by PS8D feature set",
+          "network": "RJ45 10/100 Mbps, ONVIF",
+          "storage": "microSD up to 512 GB",
+          "power": "PoE or 12 VDC 1 A",
+          "weatherRating": "IP67",
+          "analytics": "Human and vehicle detection",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":908},{"providerId":"ctonline","warehouseCode":"D2A","stock":749},{"providerId":"ctonline","warehouseCode":"CAM","stock":20}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6790", "stock": 1677, "price": 26.16, "currency": "USD", "branch": "DFA:908,D2A:749,CAM:20" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous CCTV camera path was acceptable but too broad; classify as 3MP PoE dome/turret IP camera.", "FOV and frame-rate values vary slightly across retailer sheets; prioritize IMOU/Visiotech/Cyberpuerta references."]
+        },
+        "measurements": { "dimensions": "109.9 x 109.9 x 95.7 mm", "weight": "254 g" },
+        "sourceRefs": [
+          { "title": "IMOU PS8D 3MP official page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps8d-3mp" },
+          { "title": "Visiotech IMOU IPC-PS8D-3V0 PDF", "type": "datasheet", "url": "https://www.visiotechsecurity.com/en/products/cctv/ip-cameras/cube-dome-camera/imou-ipc-ps8d-3v0-detail" },
+          { "title": "Zegucom IMOU IPC-PS8D-3V0 EAN reference", "type": "retailer", "url": "https://zegucom.com.mx/" }
+        ]
+      }
+    },
+    {
+      "product_id": "y9779ymfdxx2vso",
+      "research": {
+        "confidence": 0.96,
+        "name": "IMOU IPC-PS3D-3M0 camara bala IP PoE 3MP IP67",
+        "description": "Camara bullet IMOU IPC-PS3D-3M0 IP PoE de 3MP para exterior, con H.265, Smart Color, microfono, spotlight y deteccion humano/vehiculo.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/3mp/imou-ipc-ps3d-3m0",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.imou.com/en/product/detail/ps3d-3mp",
+        "gallery": ["https://www.imou.com/en/product/detail/ps3d-3mp"],
+        "documents": [{ "label": "IMOU PS3D 3MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/ae29f002-e470-4c58-97e2-bbaaf50b7de9.pdf" }],
+        "specs": {
+          "brand": "IMOU",
+          "model": "IPC-PS3D-3M0",
+          "providerSku": "CAMDAH6780",
+          "ean": "6937479643343",
+          "productType": "Camara IP PoE bullet",
+          "sensor": "1/3 inch progressive CMOS",
+          "resolution": "2304 x 1296, 3MP",
+          "codec": "H.265/H.264",
+          "frameRate": "25/30 fps by IMOU datasheet",
+          "lens": "2.8 mm or 3.6 mm F1.6 by version",
+          "nightVision": "IR up to 30 m",
+          "audio": "Built-in microphone",
+          "storage": "microSD up to 512 GB",
+          "network": "RJ45 100 Mbps, ONVIF",
+          "power": "PoE or 12 VDC 1 A, consumption below 6 W",
+          "weatherRating": "IP67",
+          "analytics": "Human and vehicle detection",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":874},{"providerId":"ctonline","warehouseCode":"D2A","stock":753},{"providerId":"ctonline","warehouseCode":"CAM","stock":20}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6780", "stock": 1647, "price": 25.85, "currency": "USD", "branch": "DFA:874,D2A:753,CAM:20" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous CCTV camera path was acceptable but too broad; classify as 3MP PoE bullet IP camera.", "Some retailer pages vary on lens/FOV/temperature values; prioritize official IMOU datasheet."]
+        },
+        "measurements": { "dimensions": "147.7 x 74.2 x 74.2 mm", "weight": "220 g" },
+        "sourceRefs": [
+          { "title": "IMOU PS3D 3MP official page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps3d-3mp" },
+          { "title": "IMOU PS3D 3MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/ae29f002-e470-4c58-97e2-bbaaf50b7de9.pdf" },
+          { "title": "GlobalOffice IMOU IPC-PS3D-3M0 reference", "type": "retailer", "url": "https://globaloffice.mx/app/detalle/producto/videovigilancia/camara-imou-ips3d-3mp-camara-bullet-3mp-poe-ip67-h265-smart/ipc-ps3d-3m0" }
+        ]
+      }
+    },
+    {
+      "product_id": "gxq3n5wdqhdhviy",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link Archer C50 router Wi-Fi AC1200 dual band V6",
+        "description": "Router TP-Link Archer C50 Wi-Fi 5 AC1200 dual band con cuatro antenas fijas, 1 WAN Fast Ethernet, 4 LAN Fast Ethernet y modos router, access point y extensor.",
+        "manualCategoryPath": "redes/routers/wifi-5/ac1200",
+        "semanticCategoryPath": "redes/routers/wifi-5/ac1200/tp-link-archer-c50-v6",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/wifi-router/archer-c50/v6/",
+        "gallery": ["https://static.tp-link.com/Archer-C54UN1001large_15934027875811.jpg"],
+        "documents": [{ "label": "TP-Link Archer C50 V6 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2021/202105/20210514/Archer%20C50%28ES%29%206.0_datasheet.pdf" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer C50 V6",
+          "providerSkus": ["ROUTPL990", "NIC-2146"],
+          "productType": "Router Wi-Fi 5 AC1200",
+          "wirelessStandard": "IEEE 802.11ac/n/a and 802.11n/b/g",
+          "speed": "867 Mbps at 5 GHz plus 300 Mbps at 2.4 GHz",
+          "antennas": "4 fixed antennas",
+          "ethernet": "1 WAN 10/100 Mbps and 4 LAN 10/100 Mbps",
+          "modes": "Router, Access Point and Range Extender",
+          "features": "Beamforming, MU-MIMO, guest network, parental controls, QoS, IPv4/IPv6",
+          "security": "WPA/WPA2 by TP-Link V6 reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTPL990", "stock": 1629, "price": 17.61, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-2146", "stock": 0, "price": 16.72, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path was incomplete; although AP mode exists, primary class is Wi-Fi router.", "Provider title misspells TP-LINK as TP-LIINK.", "CVA lists this SKU with zero stock at verification time; CTOnline stock remains active."]
+        },
+        "measurements": { "dimensions": "115 x 106.7 x 24.3 mm by TP-Link V6 datasheet", "weight": "Official product weight not published" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer C50 V6 Mexico page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/wifi-router/archer-c50/v6/" },
+          { "title": "TP-Link Archer C50 V6 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2021/202105/20210514/Archer%20C50%28ES%29%206.0_datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "aljcu01nl4gni5t",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dell KM5221W kit teclado y mouse inalambrico espanol negro",
+        "description": "Combo Dell KM5221W de teclado completo y mouse optico inalambricos 2.4 GHz con receptor USB, layout espanol, teclas de acceso rapido y administracion con Dell Peripheral Manager.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/productividad",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/productividad/dell-km5221w-580-ajiu",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/es-es/shop/teclado-y-rat%C3%B3n-dell-pro-km5221w-espa%C3%B1ol-qwerty-negro/apd/580-ajrq/accesorios-para-pc",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/km5221w/pdp/dell-keyboard-mouse-km5221w-pdp-campaign-hero-504x350.jpg"],
+        "documents": [{ "label": "Dell KM5221W product page", "type": "manufacturer", "url": "https://www.dell.com/es-es/shop/teclado-y-rat%C3%B3n-dell-pro-km5221w-espa%C3%B1ol-qwerty-negro/apd/580-ajrq/accesorios-para-pc" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "KM5221W",
+          "partNumber": "580-AJIU",
+          "providerSkus": ["KITDLL1500", "KB-881"],
+          "productType": "Combo teclado y mouse inalambrico",
+          "wireless": "2.4 GHz USB receiver",
+          "keyboard": "Full-size keyboard with numeric keypad and 12 shortcut keys",
+          "keyboardSecurity": "AES-128 keyboard encryption by Dell references",
+          "mouse": "Optical 3-button mouse",
+          "mouseDpi": "1000/1600/2400/4000 DPI adjustable",
+          "software": "Dell Peripheral Manager",
+          "batteries": "2 AAA for keyboard and 1 AA for mouse",
+          "batteryLife": "Up to 36 months by Dell references",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "KITDLL1500", "stock": 1617, "price": 577.78, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "KB-881", "stock": 2, "price": 502.51, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous keyboard-only path lost that this is a keyboard and mouse kit.", "Dell official page cited is Spain 580-AJRQ; Mexican/retailer feed confirms Latin America Spanish variant 580-AJIU."]
+        },
+        "measurements": { "dimensions": "Keyboard 433 x 123 x 34 mm; mouse 115.51 x 61.96 x 38.14 mm", "weight": "Keyboard 400 g; mouse 91.8 g" },
+        "sourceRefs": [
+          { "title": "Dell KM5221W Spain product page", "type": "manufacturer", "url": "https://www.dell.com/es-es/shop/teclado-y-rat%C3%B3n-dell-pro-km5221w-espa%C3%B1ol-qwerty-negro/apd/580-ajrq/accesorios-para-pc" },
+          { "title": "Compustar Dell KM5221 580-AJIU reference", "type": "retailer", "url": "https://www.compustar.mx/producto/kit-teclado-y-mouse-dell-km5221-espanol-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "877fknc8rkc5rbz",
+      "research": {
+        "confidence": 0.96,
+        "name": "Provision-ISR PR-12V5A fuente de poder CCTV 12V 5A negra",
+        "description": "Fuente individual Provision-ISR PR-12V5A para CCTV con entrada universal AC 100-240V y salida DC 12V 5A para camaras y equipos de seguridad.",
+        "manualCategoryPath": "seguridad/cctv/fuentes-poder/12v-5a",
+        "semanticCategoryPath": "seguridad/cctv/fuentes-poder/12v-5a/provision-isr-pr-12v5a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/accesories/pr-12v5a/",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/S/CP-PROVISION-ISR-PR-12V5A-1.jpg"],
+        "documents": [{ "label": "Provision-ISR PR-12V5A official page", "type": "manufacturer", "url": "https://provision-isr.com/accesories/pr-12v5a/" }],
+        "specs": {
+          "brand": "PROVISION ISR",
+          "model": "PR-12V5A",
+          "providerSkus": ["ACCPVS460", "AC-5177"],
+          "productType": "Fuente de poder individual CCTV",
+          "inputVoltage": "AC 100-240 V, 47-63 Hz",
+          "outputVoltage": "DC 12 V",
+          "outputCurrent": "5 A",
+          "connector": "1 DC plug",
+          "protections": "Over-current and short-circuit with auto recovery by retailer/spec references",
+          "color": "Negro",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCPVS460", "stock": 1613, "price": 10.72, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-5177", "stock": 0, "price": 10.76, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cameras path was incorrect; this is a power source for CCTV, not a camera.", "CVA lists this SKU with zero stock at verification time; CTOnline stock remains active.", "Some retailers report inconsistent weight; prefer Cyberpuerta dimensions/weight for publication."]
+        },
+        "measurements": { "dimensions": "123 x 59 x 39 mm by Cyberpuerta", "weight": "272 g by Cyberpuerta" },
+        "sourceRefs": [
+          { "title": "Provision-ISR PR-12V5A official page", "type": "manufacturer", "url": "https://provision-isr.com/accesories/pr-12v5a/" },
+          { "title": "Cyberpuerta Provision-ISR PR-12V5A", "type": "retailer", "url": "https://www.cyberpuerta.mx/Energia/Energia-para-Seguridad-Vigilancia/Energia-para-Camaras-y-Grabadoras/Provision-ISR-Fuente-de-Poder-PR-12V5A-Entrada-100-240V-Salida-12V-Negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "fm73un7tlpyoxa1",
+      "research": {
+        "confidence": 0.93,
+        "name": "Naceb Technology NA-620 aire comprimido para electronicos 440 ml",
+        "description": "Aerosol de aire comprimido Naceb Technology NA-620 de 440 ml para remover polvo en teclados, computadoras, monitores, impresoras y otros electronicos.",
+        "manualCategoryPath": "computo/accesorios/limpieza/aire-comprimido/440ml",
+        "semanticCategoryPath": "computo/accesorios/limpieza/aire-comprimido/440ml/naceb-technology-na-620",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mipc.com.mx/aire-comprimido-naceb-na-620-rojo-para-teclados.html",
+        "gallery": ["https://www.cyberpuerta.mx/Computadoras/Accesorios-para-PC-s/Limpiadores-para-Electronicos/Naceb-Aire-Comprimido-para-Remover-Polvo-NA-620-440ml.html"],
+        "documents": [{ "label": "Naceb NA-620 retailer specification", "type": "catalog", "url": "https://mipc.com.mx/aire-comprimido-naceb-na-620-rojo-para-teclados.html" }],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-620",
+          "providerSku": "ACCNCB340",
+          "ean": "7502262806206",
+          "productType": "Aire comprimido para electronicos",
+          "content": "440 ml",
+          "uses": "Teclados, computadoras, monitores, impresoras and electronic equipment",
+          "color": "Rojo / multicolor by retailer references",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":400},{"providerId":"ctonline","warehouseCode":"DFA","stock":328},{"providerId":"ctonline","warehouseCode":"IRA","stock":194},{"providerId":"ctonline","warehouseCode":"HMO","stock":93},{"providerId":"ctonline","warehouseCode":"LEO","stock":69},{"providerId":"ctonline","warehouseCode":"CTZ","stock":55},{"providerId":"ctonline","warehouseCode":"PUE","stock":52},{"providerId":"ctonline","warehouseCode":"TAM","stock":49},{"providerId":"ctonline","warehouseCode":"OAX","stock":49},{"providerId":"ctonline","warehouseCode":"MID","stock":39},{"providerId":"ctonline","warehouseCode":"CAM","stock":34},{"providerId":"ctonline","warehouseCode":"DFT","stock":23}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCNCB340", "stock": 1604, "price": 68.57, "currency": "MXN", "branch": "D2A:400,DFA:328,IRA:194,HMO:93,LEO:69,CTZ:55,PUE:52,TAM:49,OAX:49,MID:39,CAM:34,DFT:23" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cleaning path was acceptable but too broad; classify as 440 ml compressed air.", "Some retailer pages mix keyboard specifications into this cleaning product; discard inconsistent keyboard-like fields.", "Visible branch sum is 1385 while feed total_stock is 1604, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "8 x 6 x 14 cm by Walmart/Bodega Aurrera style references", "weight": "0.38 kg by Walmart/Bodega Aurrera style references" },
+        "sourceRefs": [
+          { "title": "MiPC Naceb NA-620", "type": "retailer", "url": "https://mipc.com.mx/aire-comprimido-naceb-na-620-rojo-para-teclados.html" },
+          { "title": "CompuPuebla Naceb Technology NA-620", "type": "retailer", "url": "https://compupuebla.com/producto/aire-comprimido-naceb-technology-na-620/" },
+          { "title": "Cyberpuerta Naceb NA-620", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-PC-s/Limpiadores-para-Electronicos/Naceb-Aire-Comprimido-para-Remover-Polvo-NA-620-440ml.html" }
+        ]
+      }
+    }
+  ]
+}

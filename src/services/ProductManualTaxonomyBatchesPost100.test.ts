@@ -72,6 +72,16 @@ const researchedBatchCases = [
   ["ADATA SU630 ASU630SS-480GQ-R SSD 480GB 2.5 SATA", "ADATA", "computo/almacenamiento/ssd/2-5-sata/480gb"],
   ["Intellinet 210737 jack keystone Cat6 azul de impacto", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat6"],
   ["Acteck Captive Lite CL185 monitor 18.5 HD 1366x768", "ACTECK", "computo/monitores/oficina/18-5-hd"],
+  ["Manhattan 151467 convertidor HDMI a VGA bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi-vga"],
+  ["Dell DW316 unidad DVD externa USB 884116288473", "DELL", "computo/almacenamiento/unidades-opticas/dvd-externas"],
+  ["SanDisk Cruzer Blade 16GB memoria USB SDCZ50", "SANDISK", "computo/almacenamiento/memorias-flash/usb/16gb"],
+  ["Provision ISR PR-12V3A fuente de poder CCTV 12V 3A", "PROVISION ISR", "seguridad/cctv/fuentes-poder/12v-3a"],
+  ["IMOU IPC-PS8D-3V0 camara domo IP PoE 3MP", "IMOU", "seguridad/cctv/camaras-ip-poe/domo/3mp"],
+  ["IMOU IPC-PS3D-3M0 camara bala IP PoE 3MP", "IMOU", "seguridad/cctv/camaras-ip-poe/bullet/3mp"],
+  ["TP-Link Archer C50 router Wi-Fi AC1200 dual band", "TP-LINK", "redes/routers/wifi-5/ac1200"],
+  ["Dell KM5221W kit teclado y mouse inalambrico espanol", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad"],
+  ["Provision ISR PR-12V5A fuente de poder CCTV 12V 5A", "PROVISION ISR", "seguridad/cctv/fuentes-poder/12v-5a"],
+  ["Naceb Technology NA-620 aire comprimido 440ml", "NACEB TECHNOLOGY", "computo/accesorios/limpieza/aire-comprimido/440ml"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
