@@ -573,6 +573,16 @@ const researchedBatchCases = [
   ["HPE P38995-B21 fuente Flex Slot Platinum 800W hot-plug", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/componentes/fuentes-poder/flex-slot"],
   ["Tenda MW5G 2-Pack router mesh Wi-Fi AC1200", "TENDA", "redes/routers/mesh-wifi/wifi-5-ac1200"],
   ["Perfect Choice PC-030331 E-Duster aire comprimido ecologico 330 ml", "PERFECT CHOICE", "computo/accesorios/limpieza/aire-comprimido"],
+  ["Naceb Gaming PLAYER Crystal Case NA-0603 gabinete Full ATX negro", "NACEB GAMING", "computo/componentes/gabinetes/gaming/full-atx"],
+  ["Koblenz 20015 OL USB/R UPS online 2000VA 1800W rack tower", "KOBLENZ", "energia/no-breaks-ups/doble-conversion/2000va"],
+  ["Mirati MISW2 mini switch inteligente WiFi 2.4GHz 3680W", "MIRATI", "domotica/interruptores-inteligentes/wifi"],
+  ["TP-Link Tapo C210 camara IP WiFi interior 3MP pan tilt", "TP LINK", "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp"],
+  ["BRobotix USB V2.0 a RJ45 adaptador Ethernet 10/100 blanco", "BROBOTIX", "redes/adaptadores-ethernet/usb-fast-ethernet"],
+  ["ADATA Speed Plus microSDXC 256GB UHS-I U3 V30 A2", "ADATA", "computo/almacenamiento/memorias-flash/microsd/256gb-v30-a2"],
+  ["BRobotix 500074A mouse pad gel azul marino", "BROBOTIX", "computo/accesorios/mousepads/gel"],
+  ["Gigabyte GV-N506TEAGLE OC-8GD GeForce RTX 5060 Ti 8GB GDDR7", "GIGABYTE", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5060-ti"],
+  ["Tripp Lite SMART1000LCD UPS 1000VA 500W LCD", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/1000va/lcd"],
+  ["TP-Link RE815XE repetidor Wi-Fi 6E Mesh AXE5400 tri-band", "TP LINK", "redes/extensores-wifi/tri-band/wifi-6e-axe5400"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
