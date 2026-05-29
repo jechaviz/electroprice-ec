@@ -553,6 +553,16 @@ const researchedBatchCases = [
   ["Game Factor WG400 webcam Full HD 1080p 30fps LED microfono", "GAME FACTOR", "computo/perifericos/webcams/usb-fhd"],
   ["Logitech G535 Lightspeed headset gaming inalambrico 40mm 33 horas", "LOGITECH", "audio/audifonos/gaming-inalambricos"],
   ["Balam Rush GR Burst GR550B BR-937696 fuente ATX 550W 80 Plus Bronze", "BALAM RUSH", "computo/componentes/fuentes-poder/atx-80-plus-bronze"],
+  ["Dahua DH-SF1005L switch Fast Ethernet no administrable 5 puertos", "DAHUA TECHNOLOGY", "redes/switches/no-administrables/fast-ethernet"],
+  ["BRobotix 406160 funda uso rudo Galaxy A9 Plus 11 giro 360", "BROBOTIX", "computo/tabletas/accesorios/fundas-uso-rudo"],
+  ["Uniarch IPC-B242-ADF28K-WP OwlView camara bullet IP PoE 2MP", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/2mp-owlview"],
+  ["Uniarch IPC-T134-AF28-ECO camara IP turret 4MP PoE microfono", "UNIARCH", "seguridad/cctv/camaras-ip-poe/turret/4mp"],
+  ["TP-Link Deco S7 3-Pack sistema WiFi Mesh AC1900 tres puertos Gigabit", "TP LINK", "redes/routers/mesh-wifi/wifi-5-ac1900"],
+  ["Logitech M280 mouse inalambrico rojo 1000 DPI", "LOGITECH", "computo/perifericos/mouse/inalambricos/basicos"],
+  ["Perfect Choice PC-084037 Rohe portafolio laptop 15.6 gris", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/maletines-laptop"],
+  ["TP-Link RE205 extensor de rango AC750 dual band 300 433 Mbps", "TP LINK", "redes/extensores-wifi/dual-band/ac750"],
+  ["Naceb NA-0643 Oasis monitor gaming 32 QHD 165Hz 1ms", "NACEB GAMING", "computo/monitores/gaming/32-qhd"],
+  ["Hisense 55QD6QV televisor QLED VIDAA 55 4K Quantum Dot", "HISENSE", "video/televisores/qled-vidaa-tv"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

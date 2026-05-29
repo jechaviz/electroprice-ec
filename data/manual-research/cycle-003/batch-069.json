@@ -1,0 +1,584 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b069-2026-05-28",
+  "cycle": 3,
+  "batch": 69,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1ac3cz5h1yrq2u8",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dahua DH-SF1005L switch Fast Ethernet no administrable de 5 puertos",
+        "description": "Switch Dahua DH-SF1005L compacto de escritorio no administrable con 5 puertos RJ45 10/100Mbps, plug and play, capacidad de conmutacion de 1Gbps, tabla MAC 2K, carcasa plastica blanca y alimentacion DC 5V 1A.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/dahua-dh-sf1005l-5-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/Dedicated-Products/Project-Exclusive/Transmission/SF1005",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SWTDAH540/SWTDAH540_full.jpg",
+          "https://images.dahuasecurity.com//uploads/image/20230328/DH-SF1005L_web_thumb.png"
+        ],
+        "documents": [
+          { "label": "Dahua DH-SF1005L datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SF1005L_datasheet_20240110.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA",
+          "model": "DH-SF1005L",
+          "providerSku": "SWTDAH540",
+          "ean": "6923172574725",
+          "productType": "5-port unmanaged Fast Ethernet switch",
+          "ports": "5 x RJ45 10/100 Base-T",
+          "switchingCapacity": "1Gbps",
+          "packetForwardingRate": "0.744Mpps",
+          "macAddressTable": "2K",
+          "packetBuffer": "768Kbit",
+          "power": "DC 5V / 1A",
+          "powerConsumption": "0.1W idle, 0.5W full load",
+          "esdProtection": "Air discharge 8kV, contact discharge 4kV",
+          "lightningProtection": "Common mode 2kV",
+          "housing": "Plastic, white",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 159 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 36 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 22 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTDAH540", "stock": 280, "price": 5.23, "currency": "USD", "branch": "D2A:159,TXA:36,TAM:22,OAX:20,DFA:11,VER:10,TOL:10,IRA:8,ZAC:2,SLT:1,PUE:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider legacy path was CCTV cameras; manual review confirms Ethernet switch."
+          ]
+        },
+        "measurements": { "dimensions": "86.4 x 52.0 x 23.0 mm", "weight": "0.12 kg", "packageDimensions": "110 x 93 x 65 mm", "grossWeight": "0.23 kg" },
+        "sourceRefs": [
+          { "title": "Dahua SF1005 product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/All-Products/Dedicated-Products/Project-Exclusive/Transmission/SF1005" },
+          { "title": "Dahua DH-SF1005L datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/SF1005L_datasheet_20240110.pdf" },
+          { "title": "CTOnline feed SWTDAH540 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1afp4hqj8xng75z",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 406160 funda uso rudo 360 para Samsung Galaxy Tab A9+ 11 pulgadas",
+        "description": "Funda BRobotix 406160 tipo glass uso rudo para Samsung Galaxy Tab A9+ de 11 pulgadas modelos X210, X216 y X218, con protector transparente, giro de 360 grados, correa de mano giratoria y materiales de policarbonato y silicon.",
+        "manualCategoryPath": "computo/tabletas/accesorios/fundas-uso-rudo",
+        "semanticCategoryPath": "computo/tabletas/accesorios/fundas-uso-rudo/galaxy-tab-a9-plus-11-360",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/funda-brobotix-giro-galaxy-a9-424561",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT8630/ACCRBT8630_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/08/FUNDAGLASSCONGIRO360PARAGALAXYA911_406160_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/08/FUNDAGLASSCONGIRO360PARAGALAXYA911_406160_1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/08/FUNDAGLASSCONGIRO360PARAGALAXYA911_406160_2.jpg"
+        ],
+        "documents": [
+          { "label": "Intercompras BRobotix 406160 listing", "type": "retail", "url": "https://intercompras.com/p/funda-brobotix-giro-galaxy-a9-424561" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "406160",
+          "providerSku": "ACCRBT8630",
+          "ean": "7503055406160",
+          "productType": "Rugged tablet case",
+          "compatibleDevice": "Samsung Galaxy Tab A9+ 11 inch",
+          "compatibleModels": ["X210", "X216", "X218"],
+          "caseType": "Protector uso rudo, transparent back, 360-degree rotating hand strap",
+          "material": "Polycarbonate and silicone",
+          "color": "Black and transparent",
+          "features": "Shock and impact resistant design with hand strap and kickstand",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 24 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 21 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 11 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT8630", "stock": 56, "price": 18, "currency": "USD", "branch": "DFA:24,D2A:21,GDL:11" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider legacy path was monitors; manual review confirms tablet accessory."
+          ]
+        },
+        "sourceRefs": [
+          { "title": "Intercompras BRobotix 406160", "type": "retail", "url": "https://intercompras.com/p/funda-brobotix-giro-galaxy-a9-424561" },
+          { "title": "CompuPuebla BRobotix 406160", "type": "retail", "url": "https://compupuebla.com/producto/funda-brobotix-406160/" },
+          { "title": "PCStore BRobotix 406160", "type": "retail", "url": "https://pcstore.mx/funda-brobotix-406160-glass-con-giro-360-para-galaxy-a9-11-pulgadas-x210x216x218-trasparente-incluye-correa-de-mano-giratoria" },
+          { "title": "CTOnline feed ACCRBT8630 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1b05oxgaooq7c6a",
+      "research": {
+        "confidence": 0.94,
+        "name": "Uniarch IPC-B242-ADF28K-WP OwlView camara IP bullet PoE 2MP lente 2.8mm",
+        "description": "Camara IP bullet Uniarch IPC-B242-ADF28K-WP serie Halo/OwlView de 2MP con lente fijo 2.8mm, True WDR 120dB, luz calida y blanca hasta 30m, microfono integrado, microSD hasta 512GB, Ultra Motion Detection, Ultra265, PoE 802.3af, ONVIF, NDAA e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-owlview",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-owlview/uniarch-ipc-b242-adf28k-wp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cctv.net/uniview-ipc-b242-adf28k-wp-unv-ipc-b242-adf28k-wp-2mp-halo-fixed-camera-uniarch",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=22713236&c=4820964&h=WS6zYuzYZcyWtc52YchTAVYgersdkT7xeOq073PedgZF0S5C",
+          "https://cctv.net/sites/default/files/product/images/IPC-B242-ADF28K-WP_1.jpg"
+        ],
+        "documents": [
+          { "label": "Uniarch IPC-B242-ADF28K-WP datasheet", "type": "datasheet", "url": "https://cctv.net/sites/default/files/product/files/UV-IPC-B242-ADF28K-WP_EN.pdf" }
+        ],
+        "specs": {
+          "brand": "UNIARCH",
+          "model": "IPC-B242-ADF28K-WP",
+          "providerSku": "CI121UNI18",
+          "productType": "2MP IP PoE bullet camera",
+          "series": "Halo / OwlView",
+          "sensor": "1/2.7 inch CMOS",
+          "resolution": "2MP / 1920 x 1080 at 30fps",
+          "lens": "2.8mm F1.0 fixed",
+          "fieldOfView": "Horizontal 99 deg, vertical 53 deg, diagonal 118 deg",
+          "wdr": "True WDR 120dB",
+          "illumination": "Warm light 30m and white light 30m",
+          "audio": "Integrated microphone",
+          "storage": "microSD up to 512GB",
+          "compression": "Ultra265 / H.265 / H.264 / MJPEG",
+          "network": "PoE 802.3af, ONVIF",
+          "protection": "IP67",
+          "features": "ColorHunter/Wise-ISP, Ultra Motion Detection, 3-axis, corridor mode, NDAA",
+          "powerConsumption": "2.6W max",
+          "providerBranches": [
+            { "providerId": "tecnosinergia", "warehouseCode": "total", "stock": 99 }
+          ],
+          "providerOffers": [
+            { "providerId": "tecnosinergia", "providerSku": "CI121UNI18", "stock": 99, "price": 647.64, "currency": "MXN", "branch": "total:99" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "197.8 x 73.0 x 72.9 mm", "weight": "0.29 kg" },
+        "sourceRefs": [
+          { "title": "Uniarch IPC-B242-ADF28K-WP official page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Network_Cameras/Halo_Series/Halo_Series/IPC-B242-ADF28K-WP/" },
+          { "title": "Uniarch IPC-B242-ADF28K-WP datasheet mirror", "type": "datasheet", "url": "https://cctv.net/sites/default/files/product/files/UV-IPC-B242-ADF28K-WP_EN.pdf" },
+          { "title": "PCEL Uniarch IPC-B242-ADF28K-WP", "type": "retail", "url": "https://www.pcel.com/camaras/camaras-de-vigilancia/Uniarch-IPC-B242-ADF28K-WP-Camara-IP-Tipo-Bala-Uniarch-IPC-B242-ADF28K-WP-de-2MP-1920-x-1080-Lente-de-2-8mm-Iluminacion-LED-hasta-30m-IP67-Color-Blanco-549972" },
+          { "title": "Tecnosinergia feed CI121UNI18 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1b2l6wqf5r0bn5a",
+      "research": {
+        "confidence": 0.94,
+        "name": "Uniarch IPC-T134-AF28-ECO camara IP turret PoE 4MP con microfono",
+        "description": "Camara IP turret Uniarch IPC-T134-AF28-ECO de 4MP con lente fijo 2.8mm, microfono integrado, IR hasta 30m, Ultra265, ONVIF, PoE y montaje en techo, pared o poste.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp/uniarch-ipc-t134-af28-eco-mic",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.acghar.com/product/uniarch-4-mp-audio-turret-camera-ipc-t134-af28-eco",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMUNI390/CAMUNI390_full.jpg"
+        ],
+        "documents": [
+          { "label": "AC GHAR Uniarch IPC-T134-AF28-ECO product page", "type": "product_page", "url": "https://www.acghar.com/product/uniarch-4-mp-audio-turret-camera-ipc-t134-af28-eco" }
+        ],
+        "specs": {
+          "brand": "UNIARCH",
+          "model": "IPC-T134-AF28-ECO",
+          "providerSku": "CAMUNI390",
+          "productType": "4MP IP PoE turret camera",
+          "sensor": "1/3 inch CMOS",
+          "resolution": "4MP / 2560 x 1440",
+          "lens": "2.8mm fixed",
+          "fieldOfView": "Horizontal 97 deg, vertical 54.9 deg, diagonal 111.9 deg",
+          "nightVision": "IR up to 30m",
+          "audio": "Integrated microphone",
+          "audioFeatures": "Audio detection",
+          "imageEnhancement": "DWDR, UMD, Human Body Detection 2.0",
+          "compression": "Ultra265 / H.265 / H.264",
+          "network": "10/100 Ethernet, PoE 802.3af, ONVIF/SDK",
+          "mounting": "Ceiling, wall, pole",
+          "operatingTemperature": "-30 C to 60 C",
+          "material": "Plastic",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 60 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMUNI390", "stock": 151, "price": 23.86, "currency": "USD", "branch": "GDL:60,CUE:19,CMT:19,PAC:15,DFP:10,MOR:7,PUE:7,D2A:7,CLN:3,MID:2,CUN:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "118 mm diameter x 100 mm", "weight": "190 g" },
+        "sourceRefs": [
+          { "title": "Uniarch IPC-T134-AF28-ECO listing", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/" },
+          { "title": "Visiotech IPC-T134-AF28-ECO datasheet", "type": "datasheet", "url": "https://s3-eu-west-1.amazonaws.com/files.visiotech.es/files/pdf/UV-IPC-T134-AF28-ECO_ES.pdf" },
+          { "title": "AC GHAR Uniarch IPC-T134-AF28-ECO", "type": "retail", "url": "https://www.acghar.com/product/uniarch-4-mp-audio-turret-camera-ipc-t134-af28-eco" },
+          { "title": "CTOnline feed CAMUNI390 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1bb0fily23vlir2",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Deco S7 3-Pack sistema Wi-Fi Mesh AC1900 con puertos Gigabit",
+        "description": "Sistema TP-Link Deco S7 de 3 unidades Wi-Fi Mesh AC1900 para todo el hogar, doble banda 2.4GHz 600Mbps y 5GHz 1300Mbps, roaming seamless, MU-MIMO, beamforming, modos router y access point, hasta 100 dispositivos y 3 puertos Gigabit por unidad.",
+        "manualCategoryPath": "redes/routers/mesh-wifi/wifi-5-ac1900",
+        "semanticCategoryPath": "redes/routers/mesh-wifi/wifi-5-ac1900/tplink-deco-s7-3-pack",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/baltic/home-networking/deco/deco-s7/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10375077",
+          "https://static.tp-link.com/upload/image-line/Deco-S7-3pack_UN_1.0_normal_1655277419205p.png"
+        ],
+        "documents": [
+          { "label": "TP-Link Deco S7 datasheet", "type": "datasheet", "url": "https://cdn.tvc.mx/media/2024008/TP-LINK-DECO-S7-3PACK-SISTEMA-MESH-FICHA-TECNICA-INGLES.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Deco S7(3-Pack)",
+          "providerSkus": ["KITTPL470", "NIC-4316"],
+          "productType": "AC1900 whole-home mesh Wi-Fi system",
+          "wirelessStandard": "Wi-Fi 5 / IEEE 802.11ac/n/a/g/b",
+          "speed": "5GHz 1300Mbps, 2.4GHz 600Mbps",
+          "coverage": "3-pack whole-home mesh coverage",
+          "ethernet": "3 x Gigabit Ethernet ports per unit",
+          "modes": "Router mode and Access Point mode",
+          "features": "Seamless roaming, adaptive path selection, self-healing, MU-MIMO, beamforming",
+          "deviceCapacity": "100+ devices",
+          "security": "WPA/WPA2, SPI firewall, access control",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 41 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "KITTPL470", "stock": 41, "price": 117.05, "currency": "USD", "branch": "total:41" },
+            { "providerId": "cva", "providerSku": "NIC-4316", "stock": 0, "price": 111.11, "currency": "USD", "branch": "not_available" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "162.3 x 90.7 x 90.7 mm per unit" },
+        "sourceRefs": [
+          { "title": "TP-Link Deco S7 official page", "type": "manufacturer", "url": "https://www.tp-link.com/baltic/home-networking/deco/deco-s7/" },
+          { "title": "TP-Link Deco S7 datasheet", "type": "datasheet", "url": "https://cdn.tvc.mx/media/2024008/TP-LINK-DECO-S7-3PACK-SISTEMA-MESH-FICHA-TECNICA-INGLES.pdf" },
+          { "title": "CTOnline/CVA feeds KITTPL470 NIC-4316 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1blx7vtcdtvyxtu",
+      "research": {
+        "confidence": 0.95,
+        "name": "Logitech M280 mouse inalambrico optico rojo 1000 DPI",
+        "description": "Mouse inalambrico Logitech M280 rojo con receptor USB nano 2.4GHz, sensor optico 1000 DPI, tres botones, rueda de desplazamiento, diseno ergonomico para mano derecha y bateria AA de larga duracion.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/logitech-m280-rojo-1000dpi",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/es-mx/products/mice/m280-wireless-mouse.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MOULOG1340/MOULOG1340_full.jpg",
+          "https://www.allplus.com/web/aspx/Imagem.aspx?Ordem=1&ProdutoID=54833&Tamanho=4",
+          "https://www.allplus.com/web/aspx/Imagem.aspx?Ordem=2&ProdutoID=54833&Tamanho=4",
+          "https://resources.sears.com.mx/medios-plazavip/mkt/5f35ce1f052c3_910-004286jpg.jpg?qlty=75&scale=500"
+        ],
+        "documents": [
+          { "label": "Logitech M280 datasheet mirror", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/097855107435-L.pdf" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "M280",
+          "providerSku": "MOULOG1340",
+          "upc": "097855107459",
+          "productType": "Wireless optical mouse",
+          "color": "Red",
+          "connectivity": "2.4GHz wireless USB nano receiver",
+          "wirelessRange": "10m",
+          "sensor": "Optical, 1000 DPI",
+          "buttons": 3,
+          "scrollWheel": "Mechanical scroll wheel",
+          "battery": "1 x AA",
+          "batteryLife": "Up to 18 months",
+          "handedness": "Right-handed ergonomic shape",
+          "compatibility": "Windows, macOS, ChromeOS, Linux",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 27 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 13 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "COL", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOULOG1340", "stock": 111, "price": 334.12, "currency": "MXN", "branch": "D2A:30,DFA:27,GDL:13,TOL:10,OBR:6,COL:6,TXA:4,AGS:3,CMT:3,HMO:2,MID:2,IRA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "105.4 x 67.9 x 38.4 mm", "weight": "91 g with battery" },
+        "sourceRefs": [
+          { "title": "Logitech M280 official page", "type": "manufacturer", "url": "https://www.logitech.com/es-mx/products/mice/m280-wireless-mouse.html" },
+          { "title": "PCH Mayoreo M280 datasheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/097855107435-L.pdf" },
+          { "title": "GlobalOffice Logitech M280 red listing", "type": "retail", "url": "https://www.globaloffice.mx/app/detalle/producto/accesorios-para-laptops/mouse-logitech-m280-rojo-optico-inalambrico/910-004286" },
+          { "title": "CTOnline feed MOULOG1340 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1bxnr7gdg6yduza",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice PC-084037 Rohe portafolio para laptop 15.6 pulgadas gris",
+        "description": "Portafolio Perfect Choice Rohe PC-084037 para laptop de hasta 15.6 pulgadas, color gris, material resistente y compartimento acolchado para transporte diario.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/perfect-choice-rohe-15-6-gris",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/portafolio-para-laptop-15-6-rohe",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MALGEN4260/MALGEN4260_full.jpg",
+          "https://perfectchoice.me/cdn/shop/files/PC-084037_A02_1024x.jpg?v=1707862825",
+          "https://perfectchoice.me/cdn/shop/files/PC-084037_B05_1024x.jpg?v=1707862825",
+          "https://perfectchoice.me/cdn/shop/files/PC-084037_2_1024x.jpg?v=1707862825"
+        ],
+        "documents": [
+          { "label": "Perfect Choice PC-084037 product page", "type": "product_page", "url": "https://perfectchoice.me/products/portafolio-para-laptop-15-6-rohe" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-084037",
+          "providerSku": "MALGEN4260",
+          "upc": "615604084037",
+          "productType": "Laptop briefcase",
+          "line": "Rohe",
+          "compatibleLaptopSize": "Up to 15.6 inches",
+          "color": "Gray",
+          "material": "99 percent polyester, 1 percent polyurethane retail reported",
+          "features": "Padded compartment, resistant material, side pocket",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 9 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MALGEN4260", "stock": 19, "price": 187.78, "currency": "MXN", "branch": "DFA:10,D2A:9" }
+          ],
+          "externalPriceChecks": [
+            { "source": "Perfect Choice", "price": 348, "currency": "MXN", "status": "available" },
+            { "source": "GlobalOffice", "price": 351, "currency": "MXN", "status": "2_disponibles" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider legacy path was monitors; manual review confirms laptop briefcase."
+          ]
+        },
+        "measurements": { "dimensions": "385 x 275 x 30 mm", "weight": "250 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Rohe PC-084037 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/portafolio-para-laptop-15-6-rohe" },
+          { "title": "Perfect Choice PC-084037 official datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-084037_FT.pdf?v=1659362646" },
+          { "title": "Altec Computacion PC-084037 listing", "type": "retail", "url": "https://www.alteccomputacion.com/tienda/62401-portafolio-para-laptop-de-156-pulgadas-con-compartimientos-acolchonados-y-materiales-resistentes-99-poliester-1-poliuretano.html" },
+          { "title": "CTOnline feed MALGEN4260 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1c2rqv1o2t3cap2",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link RE205 extensor de rango Wi-Fi AC750 doble banda con modo AP",
+        "description": "Extensor de rango TP-Link RE205 AC750 doble banda con velocidades de hasta 300Mbps en 2.4GHz y 433Mbps en 5GHz, modo Range Extender y Access Point, puerto RJ45 Fast Ethernet, boton WPS, indicador inteligente de senal y dos antenas externas.",
+        "manualCategoryPath": "redes/extensores-wifi/dual-band/ac750",
+        "semanticCategoryPath": "redes/extensores-wifi/dual-band/ac750/tplink-re205-modo-ap",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/range-extender/re205/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10016104",
+          "https://static.tp-link.com/RE205_US_1.0_01_large_1515461617448n.jpg",
+          "https://static.tp-link.com/RE205_US_1.0_02_large_1515461628580c.jpg",
+          "https://static.tp-link.com/RE205_US_1.0_03_large_1515461640043o.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link RE205 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/RE205_1.0-datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "RE205",
+          "providerSkus": ["ACPTPL400", "NIC-2551"],
+          "productType": "AC750 Wi-Fi range extender",
+          "wirelessStandard": "IEEE 802.11ac/n/g/b/a",
+          "speed": "2.4GHz 300Mbps, 5GHz 433Mbps",
+          "modes": "Range Extender mode, Access Point mode",
+          "ethernet": "1 x 10/100Mbps RJ45",
+          "buttons": "WPS, reset",
+          "antennas": "2 external antennas",
+          "powerConsumption": "7.3W max",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 139 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACPTPL400", "stock": 139, "price": 22.16, "currency": "USD", "branch": "total:139" },
+            { "providerId": "cva", "providerSku": "NIC-2551", "stock": 0, "price": 21.04, "currency": "USD", "branch": "not_available" }
+          ],
+          "externalPriceChecks": [
+            { "source": "GlobalOffice", "price": 568, "currency": "MXN", "status": "15_disponibles" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "80 x 78 x 77 mm" },
+        "sourceRefs": [
+          { "title": "TP-Link RE205 official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/range-extender/re205/" },
+          { "title": "GlobalOffice TP-Link RE205 listing", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/repetidores-wifi/repetidor-extensor-de-cobertura-wifi-ac-750-mbps/re205" },
+          { "title": "CTOnline/CVA feeds ACPTPL400 NIC-2551 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1c4aitqgwlqprvv",
+      "research": {
+        "confidence": 0.95,
+        "name": "Naceb Gaming NA-0643 monitor gamer LED 32 pulgadas QHD 165Hz VA 1ms",
+        "description": "Monitor gamer Naceb Gaming NA-0643 Oasis plano de 32 pulgadas con resolucion QHD 2560 x 1440, panel VA, brillo 300cd/m2, contraste 3000:1, 165Hz, 1ms, FreeSync/G-Sync, dos HDMI, dos DisplayPort y montaje VESA 100 x 100mm.",
+        "manualCategoryPath": "computo/monitores/gaming/32-qhd",
+        "semanticCategoryPath": "computo/monitores/gaming/32-qhd/naceb-na-0643-165hz-va",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://naceb.com.mx/producto/na-0643-v1/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MONNCB080/MONNCB080_full.jpg",
+          "https://naceb.com.mx/wp-content/uploads/2025/01/NA-0643-1-600x600.webp",
+          "https://naceb.com.mx/wp-content/uploads/2025/01/NA-0643-2-600x600.webp",
+          "https://naceb.com.mx/wp-content/uploads/2025/01/NA-0643-4-600x600.webp"
+        ],
+        "documents": [
+          { "label": "Naceb NA-0643 official product page", "type": "product_page", "url": "https://naceb.com.mx/producto/na-0643-v1/" }
+        ],
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "NA-0643",
+          "providerSku": "MONNCB080",
+          "ean": "7502262801492",
+          "productType": "32-inch QHD gaming monitor",
+          "displaySize": "32 inches",
+          "resolution": "2560 x 1440 QHD",
+          "panelType": "VA",
+          "brightness": "300 cd/m2",
+          "contrast": "3000:1",
+          "refreshRate": "165Hz",
+          "responseTime": "1ms",
+          "sync": "FreeSync / G-Sync compatible",
+          "inputs": "2 x HDMI, 2 x DisplayPort",
+          "vesa": "100 x 100 mm",
+          "included": "DisplayPort cable and power cable",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "COL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MONNCB080", "stock": 9, "price": 3932.8, "currency": "MXN", "branch": "CEL:2,LMO:1,COL:1,TXA:1,MID:1,MAZ:1,CUE:1,CUN:1", "priceKind": "promo_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "755 x 120 x 495 mm retail reported", "weight": "6.3 kg retail reported" },
+        "sourceRefs": [
+          { "title": "Naceb NA-0643 official product page", "type": "manufacturer", "url": "https://naceb.com.mx/producto/na-0643-v1/" },
+          { "title": "Cyberpuerta Naceb NA-0643 listing", "type": "retail", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Gamer-Naceb-NA-0643-LED-32-2560x1440-Quad-HD-G-Sync-FreeSync-165Hz-HDMI-DisplayPort-Negro.html" },
+          { "title": "CTOnline feed MONNCB080 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1c4tp33de5pchx2",
+      "research": {
+        "confidence": 0.96,
+        "name": "Hisense 55QD6QV televisor QLED 55 pulgadas 4K UHD VIDAA Smart TV",
+        "description": "Televisor Hisense 55QD6QV QLED de 55 pulgadas con resolucion 4K UHD 3840 x 2160, Quantum Dot Wide Color Gamut, panel plano 60Hz, Motion Rate 120, Dolby Vision, HDR10+, HDR10, HLG, VIDAA Smart TV, Dolby Atmos, Game Mode Plus, VRR/ALLM, Wi-Fi 5 y Bluetooth.",
+        "manualCategoryPath": "video/televisores/qled-vidaa-tv",
+        "semanticCategoryPath": "video/televisores/qled-vidaa-tv/hisense-55qd6qv-55-4k",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hisense-canada.com/en/home-entertainment/view-all/55QD6QV_hisense-55-qled-4k-uhd-vidaa-tv",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/PANHSE1960/PANHSE1960_full.jpg",
+          "https://assets.hisense-canada.com/assets/GalleryImages/Product/582/2f7d4027f4/QD6QV-43-50-1__ScaleMaxHeightWzc1MF0.jpg",
+          "https://assets.hisense-canada.com/assets/GalleryImages/Product/582/0392923a12/QD6QV-43-50-11__ScaleMaxHeightWzc1MF0.jpg",
+          "https://assets.hisense-canada.com/assets/GalleryImages/Product/582/69e8edfca6/QD6QV-43-50-55-65-75-85-10__ScaleMaxHeightWzc1MF0.jpg"
+        ],
+        "documents": [
+          { "label": "Hisense 55QD6QV specification sheet", "type": "datasheet", "url": "https://inquirecontent2.ingrammicro.com/Manufacturer-Brochure/1086475150.pdf" }
+        ],
+        "specs": {
+          "brand": "HISENSE",
+          "model": "55QD6QV",
+          "providerSku": "PANHSE1960",
+          "ean": "6942351414898",
+          "upc": "888143022055",
+          "productType": "55-inch QLED 4K VIDAA Smart TV",
+          "screenSize": "55 inches",
+          "resolution": "3840 x 2160 4K UHD",
+          "displayTechnology": "QLED Quantum Dot",
+          "refreshRate": "60Hz native, Motion Rate 120",
+          "brightness": "350 nits",
+          "hdr": "Dolby Vision, HDR10+, HDR10, HLG",
+          "smartTv": "VIDAA",
+          "audio": "Dolby Atmos",
+          "gaming": "Game Mode Plus, VRR, ALLM",
+          "wireless": "Wi-Fi 5, Bluetooth",
+          "ports": "3 x HDMI 2.0, 2 x USB 2.0",
+          "vesa": "200 x 400 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 109 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "PANHSE1960", "stock": 109, "price": 6077.14, "currency": "MXN", "branch": "DFA:109", "priceKind": "promo_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": [
+            "UPC 888143022055 is confirmed by public listings; EAN 6942351414898 remains provider-sourced."
+          ]
+        },
+        "measurements": {
+          "withStand": "1234 x 752 x 297 mm",
+          "withoutStand": "1234 x 714 x 74 mm",
+          "weightWithStand": "9.5 kg",
+          "weightWithoutStand": "9.3 kg"
+        },
+        "sourceRefs": [
+          { "title": "Hisense Canada 55QD6QV official page", "type": "manufacturer", "url": "https://www.hisense-canada.com/en/home-entertainment/view-all/55QD6QV_hisense-55-qled-4k-uhd-vidaa-tv" },
+          { "title": "Hisense 55QD6QV specification sheet", "type": "datasheet", "url": "https://inquirecontent2.ingrammicro.com/Manufacturer-Brochure/1086475150.pdf" },
+          { "title": "CTOnline feed PANHSE1960 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
