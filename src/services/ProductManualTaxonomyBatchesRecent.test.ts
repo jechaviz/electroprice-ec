@@ -353,6 +353,16 @@ const researchedBatchCases = [
   ["Intellinet 210546 jack keystone Cat5e azul de impacto", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e"],
   ["Logitech Pebble Keys 2 K380s teclado Bluetooth blanco", "LOGITECH", "computo/perifericos/teclados/inalambricos/multidispositivo"],
   ["TP-Link Archer BE400 router Wi-Fi 7 BE6500 doble banda", "TP LINK", "redes/routers/wifi-7/be6500"],
+  ["Kyocera TK-1122 toner negro 3000 paginas TONKYC100", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-1122"],
+  ["Techzone ECO HERO mochila laptop 15.6 pulgadas negra", "TECHZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
+  ["Hikvision DS-2CE78U0T-LXTS turret 8MP ColorVu sirena estrobo", "HIKVISION", "seguridad/cctv/camaras-turbohd/turret/8mp-colorvu"],
+  ["Canon GPR-52 toner cian 16500 paginas CARCNN6050", "CANON", "impresion/consumibles/toner-laser/canon/gpr-52"],
+  ["Brobotix 044695R base enfriadora laptop 15 pulgadas LED", "BROBOTIX", "computo/accesorios/bases-enfriadoras/15-pulgadas"],
+  ["Dahua Hero-K51H camara WiFi PT interior 5MP 2880 x 1620", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-wifi/pt-interior/5mp"],
+  ["Manhattan 323215 cable HDMI 2.0m Ethernet alta velocidad", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/2m-ethernet"],
+  ["Manhattan 208222 switch HDMI 3 entradas 4K60 HDR", "MANHATTAN", "video/accesorios-av/switches-hdmi/3x1-4k60"],
+  ["Hikvision DS-3E1526P-EI switch PoE administrable 24 puertos", "HIKVISION", "redes/switches/poe-administrables/gigabit/24-puertos"],
+  ["Dahua DH-IPC-HDW2449T-S-IL camara IP turret 4MP WizSense dual light", "DAHUA", "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

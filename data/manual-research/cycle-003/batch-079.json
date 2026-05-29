@@ -1,0 +1,517 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b079-2026-05-28",
+  "cycle": 3,
+  "batch": 79,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1yx8hrfxr0y4ltp",
+      "research": {
+        "confidence": 0.95,
+        "name": "Kyocera TK-1122 toner negro original 3000 paginas",
+        "description": "Toner original Kyocera TK-1122 negro para equipos ECOSYS FS-1060DN, FS-1025MFP y FS-1125MFP, con rendimiento oficial de 3000 paginas al 5% / ISO 19752.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-1122",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-1122/kyocera-tk-1122-negro",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kyoceradocumentsolutions.mx/es/products/printers/ECOSYSFS1060DN.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/TONKYC100/TONKYC100_full.jpg"],
+        "documents": [
+          { "label": "Kyocera FS-1060DN brochure", "type": "datasheet", "url": "https://www.kyoceradocumentsolutions.mx/content/download-center-americas/mx/documents/brochures-and-specs/MX_ECOSYS_FS1060DN_pdf.download.pdf" }
+        ],
+        "specs": {
+          "brand": "KYOCERA",
+          "model": "TK-1122 / 1T02M70UX0",
+          "providerSku": "TONKYC100",
+          "upc": "632983029725",
+          "productType": "Original black toner cartridge",
+          "color": "Black",
+          "yield": "3000 pages at 5% / ISO 19752 per Kyocera Mexico",
+          "compatiblePrinters": "Kyocera ECOSYS FS-1060DN, FS-1025MFP and FS-1125MFP",
+          "unit": "1 cartridge",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TONKYC100", "stock": 18, "price": 48.89, "currency": "USD", "branch": "DFA:15,MAZ:2,TPC:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public retailers validate TONKYC100 but not DFA/MAZ/TPC branch split; TekDigital public price/stock differs. Some retailers report 3500 pages, but Kyocera Mexico/PDF support 3000 pages."]
+        },
+        "measurements": { "packageDimensions": "10 x 32 x 12 cm retailer-reported; conflicting 9 x 7 x 8 cm listing also found", "packageWeight": "0.65 kg retailer-reported; conflicting 180 g listing also found" },
+        "sourceRefs": [
+          { "title": "Kyocera Mexico ECOSYS FS-1060DN", "type": "manufacturer", "url": "https://www.kyoceradocumentsolutions.mx/es/products/printers/ECOSYSFS1060DN.html" },
+          { "title": "Kyocera FS-1060DN PDF", "type": "datasheet", "url": "https://www.kyoceradocumentsolutions.mx/content/download-center-americas/mx/documents/brochures-and-specs/MX_ECOSYS_FS1060DN_pdf.download.pdf" },
+          { "title": "TekDigital Kyocera TK-1122", "type": "retail", "url": "https://tekdigital.mx/producto/toner-kyocera-tk-1122-negro-3000-paginas-negro-kyocera/" },
+          { "title": "CompuPuebla Kyocera TK-1122", "type": "retail", "url": "https://compupuebla.com/producto/toner-kyocera-tk-1122/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1z1q6fjz8iiphgs",
+      "research": {
+        "confidence": 0.95,
+        "name": "TechZone Eco Hero Black TZLBP56W-N mochila rPET para laptop 15.6 pulgadas",
+        "description": "Mochila urbana TechZone Eco Hero Black fabricada en 100% rPET/PET reciclado, para laptop de hasta 15.6 pulgadas, con compartimento acolchado, bolsa para tablet, organizador y dos compartimentos frontales.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/techzone-eco-hero-black",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techzone.com.mx/products/eco-hero-black",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MALTCH190/MALTCH190_full.jpg",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP56W-N-1_7b5aaf5e-c704-45bd-8570-6e07a737fff7.jpg?v=1697833885",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP56W-N-2_0d3b004a-4da3-4193-8acc-d156b3e3a436.jpg?v=1697833885",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP56W-N-3_82583d7b-760a-48c3-9bc8-0a61e99075ba.jpg?v=1697833885"
+        ],
+        "documents": [
+          { "label": "TechZone Eco Hero official listing", "type": "manufacturer", "url": "https://techzone.com.mx/products/eco-hero-black" }
+        ],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "Eco Hero Black / TZLBP56W-N",
+          "providerSku": "MALTCH190",
+          "ean": "7501801414773",
+          "productType": "Laptop backpack",
+          "screenCompatibility": "Up to 15.6 in",
+          "material": "100% rPET / recycled PET",
+          "color": "Black",
+          "compartments": "Main compartment with padded laptop pocket, padded tablet pocket, organizer and 2 front compartments",
+          "straps": "Padded 7.6 cm shoulder straps",
+          "warranty": "Limited lifetime warranty reported by manufacturer",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MALTCH190", "stock": 1, "price": 277.78, "currency": "MXN", "branch": "MTY:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["GlobalOffice validates MALTCH190 with 1 unit in Almacen Mexico but not MTY branch; public price is higher. Some stores write Echo Hero, but manufacturer uses Eco Hero."]
+        },
+        "measurements": { "dimensions": "29 x 10.7 x 43 cm", "weight": "453 g", "packageDimensions": "29 x 10.7 x 43 cm" },
+        "sourceRefs": [
+          { "title": "TechZone Eco Hero Black", "type": "manufacturer", "url": "https://techzone.com.mx/products/eco-hero-black" },
+          { "title": "Cyberpuerta TechZone Eco Hero", "type": "retail", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-Portatiles/Mochilas-para-Laptops/TechZone-Mochila-Eco-Hero-Black-de-PET-para-Laptop-15-6-Negro.html" },
+          { "title": "GlobalOffice TechZone Eco Hero", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/mochilas/mochila-backpack-techzone-echo-hero-de-156-tzlbp56/tzlbp56w-n" },
+          { "title": "Zegucom TechZone Eco Hero", "type": "retail", "url": "https://www.zegucom.com.mx/producto/maletines-mochilas-fundas/maletines-y-mochilas-para-tablet-y-laptop/mochila-techzone-tzlbp56w-n-tamano-max-de-pantalla-15-6-tereftalato-d/VFpMQlA1NlctTg%3D%3D" }
+        ]
+      }
+    },
+    {
+      "product_id": "1zdt5nvuqqv7pgd",
+      "research": {
+        "confidence": 0.96,
+        "name": "Hikvision DS-2CE78U0T-LXTS turret TurboHD 4K 8MP ColorVu audio bidireccional",
+        "description": "Camara turret Hikvision DS-2CE78U0T-LXTS TurboHD/TVI 8MP con lente 2.8 mm, Smart Hybrid Light, IR y luz blanca 40 m, sirena, estrobo, microfono y bocina integrados, audio bidireccional e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/turret/8mp-colorvu",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret/8mp-colorvu/hikvision-ds-2ce78u0t-lxts",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/sg/products/Turbo-HD-Products/Turbo-HD-Cameras/Value-Series/ds-2ce78u0t-lxts/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMHKV5230/CAMHKV5230_full.jpg",
+          "https://www.radiomex.mx/wp-content/uploads/2026/02/DS-2CE78U0T-LXTS-main-2.webp",
+          "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/DS2CE78U0TLXTS/DS2CE78U0TLXTS-p.PNG"
+        ],
+        "documents": [
+          { "label": "Hikvision DS-2CE78U0T-LXTS datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000159009/DS-2CE78U0T-LXTS_Datasheet_20241217.pdf" }
+        ],
+        "specs": {
+          "brand": "HIKVISION",
+          "model": "DS-2CE78U0T-LXTS",
+          "providerSku": "CAMHKV5230",
+          "ean": "6936422128852",
+          "productType": "TurboHD / TVI turret camera",
+          "resolution": "8MP 4K CMOS, 3840 x 2160",
+          "lens": "2.8 mm fixed M12",
+          "fieldOfView": "113 deg horizontal, 62 deg vertical, 134 deg diagonal per 2024 datasheet",
+          "illumination": "IR 40 m plus white light 40 m, Smart Hybrid Light",
+          "deterrence": "Red/blue strobe, siren, integrated microphone and speaker, two-way audio",
+          "imageEnhancement": "D-WDR, BLC, HLC and 2D DNR",
+          "output": "1 analog HD output, PAL/NTSC",
+          "power": "12VDC plus/minus 25%, max 8.6W",
+          "protection": "IP67, -40 to 60 C operation",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMHKV5230", "stock": 53, "price": 43.44, "currency": "USD", "branch": "D2A:23,GDL:11,TXA:8,DFA:5,COL:4,IRA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["GlobalOffice snippet validates CAMHKV5230 total 53 but not branch split; public reseller prices/stocks differ. Hikvision HTML and datasheet disagree on 2.8 mm FOV; datasheet value retained."]
+        },
+        "measurements": { "dimensions": "110 mm diameter x 102.7 mm", "weight": "390 g" },
+        "sourceRefs": [
+          { "title": "Hikvision DS-2CE78U0T-LXTS official", "type": "manufacturer", "url": "https://www.hikvision.com/sg/products/Turbo-HD-Products/Turbo-HD-Cameras/Value-Series/ds-2ce78u0t-lxts/" },
+          { "title": "Hikvision DS-2CE78U0T-LXTS datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000159009/DS-2CE78U0T-LXTS_Datasheet_20241217.pdf" },
+          { "title": "CompuPuebla Hikvision DS-2CE78U0T-LXTS", "type": "retail", "url": "https://compupuebla.com/producto/camara-turret-ip-hikvision-ds-2ce78u0t-lxts/" },
+          { "title": "Radiomex DS-2CE78U0T-LXTS", "type": "retail", "url": "https://www.radiomex.mx/ds-2ce78u0t-lxts/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1zx34bsfh3gl4lg",
+      "research": {
+        "confidence": 0.93,
+        "name": "Canon GPR-52 9107B003 toner cian original 11500 paginas",
+        "description": "Toner original Canon GPR-52 cian, numero 9107B003/9107B003AA/GPR52C, compatible con imageRUNNER C1325iF, C1335iF y C1335iFC. Se corrige rendimiento a 11500 paginas; 16500 corresponde al negro.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/canon/gpr-52",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/canon/gpr-52/canon-gpr-52-cian",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.toner.com/productdetails/Canon/Toner/9107B003/132869.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARCNN6050/CARCNN6050_full.jpg",
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/02dccdbc-67ea-485e-b029-b4626f2bcfb2.jpg%3BmaxHeight%3D422%3BmaxWidth%3D264?format=webp",
+          "https://suministrosmircompu.com/imagenes/toner-canon-gpr-52-original-cyan.jpg.webp"
+        ],
+        "documents": [
+          { "label": "Toner.com Canon 9107B003 listing", "type": "retail", "url": "https://www.toner.com/productdetails/Canon/Toner/9107B003/132869.html" }
+        ],
+        "specs": {
+          "brand": "CANON",
+          "model": "GPR-52 Cyan / 9107B003 / 9107B003AA / GPR52C",
+          "providerSku": "CARCNN6050",
+          "upc": "013803244854",
+          "productType": "Original cyan laser toner cartridge",
+          "color": "Cyan",
+          "yield": "11500 pages; feed 16500 page claim appears to belong to black GPR-52",
+          "compatiblePrinters": "Canon imageRUNNER C1325iF, C1335iF and C1335iFC",
+          "unit": "1 cartridge",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CARCNN6050", "stock": 2, "price": 2535.34, "currency": "MXN", "branch": "DFA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["TekDigital validates CARCNN6050 with 2 units but public price is higher and repeats the likely incorrect 16500-page claim. BestBuy metadata says black while title/product is cyan."]
+        },
+        "measurements": { "contentWeight": "197 g toner content", "shippingWeight": "0.95 lb retailer-reported", "packageDimensions": "Conflicting retail dimensions found; official Canon dimensions not confirmed" },
+        "sourceRefs": [
+          { "title": "Toner.com Canon 9107B003", "type": "retail", "url": "https://www.toner.com/productdetails/Canon/Toner/9107B003/132869.html" },
+          { "title": "BestBuy Canon GPR-52 cyan", "type": "retail", "url": "https://www.bestbuy.com/product/canon-gpr-52-original-toner-cartridge-cyan/J7C86SGHKX" },
+          { "title": "SunData Canon GPR-52", "type": "retail", "url": "https://www.sundatasupply.com/product-detail/canon-gpr-52-9107b003_20186/imagerunner-c1325if" },
+          { "title": "TekDigital Canon GPR-52", "type": "retail", "url": "https://tekdigital.mx/producto/toner-canon-gpr-52-cian-aproximadamente-16-500-paginas-de-rendimiento/" }
+        ]
+      }
+    },
+    {
+      "product_id": "206ba8rexjcwu98",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 044695R base enfriadora para laptop 9 a 15 pulgadas negro rojo",
+        "description": "Base enfriadora BRobotix 044695R para laptop de 9 a 15 pulgadas, color negro/rojo, con un ventilador de 6 cm, luz LED, angulo ajustable, alimentacion USB y un puerto USB integrado.",
+        "manualCategoryPath": "computo/accesorios/bases-enfriadoras/15-pulgadas",
+        "semanticCategoryPath": "computo/accesorios/bases-enfriadoras/15-pulgadas/brobotix-044695r",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/base-enfriadora-brobotix-044695r/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT1020/ACCRBT1020_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BaseEnfriadoraLuzLedAnguloAjustabl_044695R_EAN4260093044695_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BaseEnfriadoraLuzLedAnguloAjustabl_044695R_EAN4260093044695_1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/BaseEnfriadoraLuzLedAnguloAjustabl_044695R_EAN4260093044695_2.jpg"
+        ],
+        "documents": [
+          { "label": "CompuPuebla BRobotix 044695R listing", "type": "retail", "url": "https://compupuebla.com/producto/base-enfriadora-brobotix-044695r/" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "044695R",
+          "providerSku": "ACCRBT1020",
+          "ean": "4260093044695",
+          "productType": "Laptop cooling pad",
+          "screenCompatibility": "9 to 15 in",
+          "fan": "1 fan, 6 cm, 320 RPM",
+          "features": "LED light, adjustable angle, 1 USB hub/port, USB power",
+          "color": "Black/red",
+          "materials": "Metal mesh, plastic and rubber reported by public listings",
+          "limitations": "No speed control and no speakers reported",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT1020", "stock": 12, "price": 4.96, "currency": "USD", "branch": "CMT:8,PUE:3,TAM:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CT feed validates USD 4.96 but showed stock 58, conflicting with private CT stock 12; no public CMT/PUE/TAM split found. Public material and dimension labels vary."]
+        },
+        "measurements": { "dimensions": "300 x 255 x 30 mm", "weight": "0.4 kg retailer-reported" },
+        "sourceRefs": [
+          { "title": "CompuPuebla BRobotix 044695R", "type": "retail", "url": "https://compupuebla.com/producto/base-enfriadora-brobotix-044695r/" },
+          { "title": "Ofix BRobotix 044695R", "type": "retail", "url": "https://www.ofix.mx/base-enfriadora-brobotix-044695r-044695r/p" },
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "CTI Systems BRobotix 044695R", "type": "retail", "url": "https://ctisystems.mx/base-enfriadora-brobotix-044695r-luz-led-angulo-ajustable-1-hub-usb-15-pulgadas-negro-rojo" }
+        ]
+      }
+    },
+    {
+      "product_id": "20knikf8cw4gop0",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dahua DH-H5A Hero-K51H camara IP Wi-Fi PT interior 5MP",
+        "description": "Camara IP Wi-Fi Dahua DH-H5A / Hero-K51H de interior con pan 355 grados, tilt -5 a 80 grados, resolucion 5MP 2880 x 1620, deteccion humana, auto tracking, audio bidireccional, Wi-Fi 6 2.4GHz y microSD hasta 256GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/5mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/5mp/dahua-hero-k51h",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/la/products/All-Products/Network-Cameras/Wireless-Series/Indoor-Camera/Hero-Series/H5A",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH5470/CAMDAH5470_full.jpg",
+          "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_04_43217/ProductImage/1_0_01_04_43217_524425120_thumb.png",
+          "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_04_43217/ProductImage/1_0_01_04_43217_524425122_thumb.png"
+        ],
+        "documents": [
+          { "label": "Dahua H5A official listing", "type": "manufacturer", "url": "https://www.dahuasecurity.com/la/products/All-Products/Network-Cameras/Wireless-Series/Indoor-Camera/Hero-Series/H5A" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-H5A / Hero-K51H / Hero A1",
+          "providerSku": "CAMDAH5470",
+          "ean": "6923172567444",
+          "productType": "Indoor Wi-Fi pan/tilt IP camera",
+          "sensor": "1/3 in CMOS",
+          "resolution": "2880 x 1620, 5MP",
+          "video": "H.265, main stream 2880 x 1620 at 1-25/30fps, substream 640 x 360",
+          "lens": "F2.0, FOV H 74 deg / V 41 deg / D 88 deg",
+          "panTilt": "Pan 0-355 deg, tilt -5 to 80 deg",
+          "nightVision": "IR up to 10 m",
+          "smartFeatures": "Human detection, motion detection, auto tracking, pet detection, preset patrol, sound alarm and privacy mode",
+          "audio": "Built-in microphone and speaker, G.711a",
+          "network": "RJ-45 10/100 and 2.4GHz Wi-Fi 802.11 b/g/n/ax",
+          "storage": "microSD up to 256GB",
+          "power": "5VDC, 1.9W basic, 4W max",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 37 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMDAH5470", "stock": 114, "price": 25.28, "currency": "USD", "branch": "VER:37,DFA:16,MOR:14,CUN:10,TOL:9,IRA:9,CUE:5,MID:4,D2A:3,CTZ:2,TAM:2,TXA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CT feed validates USD 25.28 but showed stock 251, not private stock 114. Feed text says local fija, but official product is pan/tilt; focal fija refers to lens only."]
+        },
+        "measurements": { "dimensions": "77.8 mm diameter x 108.1 mm", "weight": "195 g" },
+        "sourceRefs": [
+          { "title": "Dahua H5A official listing", "type": "manufacturer", "url": "https://www.dahuasecurity.com/la/products/All-Products/Network-Cameras/Wireless-Series/Indoor-Camera/Hero-Series/H5A" },
+          { "title": "CompuPuebla Dahua Hero-K51H", "type": "retail", "url": "https://compupuebla.com/producto/camara-dahua-technology-k51h/" },
+          { "title": "Ofix Dahua Hero-K51H", "type": "retail", "url": "https://www.ofix.mx/camara-dahua-technology-hero-k51h-hero-k51h/p" },
+          { "title": "TekDigital Dahua Hero-K51H", "type": "retail", "url": "https://tekdigital.mx/producto/camara-ip-wifi-local-fija-5mp-hero-k51h-nb/" },
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" }
+        ]
+      }
+    },
+    {
+      "product_id": "20otne5niwi6odn",
+      "research": {
+        "confidence": 0.95,
+        "name": "Manhattan 323215 cable HDMI alta velocidad con Ethernet 2 m negro",
+        "description": "Cable Manhattan 323215 HDMI tipo A macho a macho de 2 m, High Speed HDMI con Ethernet, ARC, 3D, Deep Color, 4K, ancho de banda 10.2Gbps/340MHz, doble blindaje y terminales PVC moldeadas.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/2m-ethernet",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/2m-ethernet/manhattan-323215",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-con-canal-ethernet-323215",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5909685",
+          "https://manhattan.lat/cdn/shop/files/high-speed-hdmi-cable-with-ethernet-323215-1.jpg?v=1779533288",
+          "https://manhattan.lat/cdn/shop/files/high-speed-hdmi-cable-with-ethernet-323215-2.jpg?v=1779533288",
+          "https://manhattan.lat/cdn/shop/files/high-speed-hdmi-cable-with-ethernet-323215-3.jpg?v=1779533288"
+        ],
+        "documents": [
+          { "label": "Manhattan 323215 ficha tecnica", "type": "datasheet", "url": "https://cdn.tvc.mx/media/145798/Ficha-tecnica-323215-esp-manhattan.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "323215",
+          "providerSku": "CABITL1465 / CB-480",
+          "upc": "766623323215",
+          "ean": "0766623323215",
+          "productType": "High Speed HDMI cable with Ethernet",
+          "connectors": "HDMI Type-A male to HDMI Type-A male, 19 pin",
+          "length": "2 m",
+          "features": "HEC, ARC, 3D, Deep Color, 4K at 30Hz",
+          "bandwidth": "10.2Gbps / 340MHz",
+          "ethernet": "Up to 100Mbps",
+          "contacts": "Nickel-plated",
+          "construction": "PVC molded boots, aluminum plus braid double shielding, 30 AWG",
+          "electrical": "0.5A DC current, 300VDC dielectric resistance, 50MOhm insulation",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 941 }, { "providerId": "cva", "warehouseCode": "total", "stock": 54 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1465", "stock": 941, "price": 1.78, "currency": "USD", "branch": "total:941" },
+            { "providerId": "cva", "providerSku": "CB-480", "stock": 54, "price": 1.81, "currency": "USD", "branch": "total:54" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Pcredcom validates SL-CABITL1465 stock 941 but retail price differs. Public Acomee CT showed USD 1.93 and stock 982. CVA-channel public sources show much higher CB-480 stock than private CVA stock 54."]
+        },
+        "measurements": { "length": "2 m", "weight": "0.09 kg net, 0.1 kg gross", "packageDimensions": "1.5 x 13 x 23 cm retailer-reported" },
+        "sourceRefs": [
+          { "title": "Manhattan 323215 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-con-canal-ethernet-323215" },
+          { "title": "Manhattan 323215 PDF", "type": "datasheet", "url": "https://cdn.tvc.mx/media/145798/Ficha-tecnica-323215-esp-manhattan.pdf" },
+          { "title": "PCREDCOM SL-CABITL1465", "type": "retail", "url": "https://pcredcom.com/323215-cable-hdmi-4k-de-alta-velocidad-con-canal-ethernet-macho-a-macho-blindado-negro-2-m-sl-cabitl1465.html" },
+          { "title": "PCREDCOM DF-CB-480", "type": "retail", "url": "https://pcredcom.com/cable-hdmi-de-alta-velocidad-con-canal-ethernet-m-m-blindado-negro-2-m-323215-df-cb-480.html" },
+          { "title": "Compuviper Manhattan 323215", "type": "retail", "url": "https://compuviper.mx/tienda/producto/manhattan-323215-cable-hdmi-1-4-m-m-2-0methernet/" }
+        ]
+      }
+    },
+    {
+      "product_id": "20pjgj33hf4lh1v",
+      "research": {
+        "confidence": 0.95,
+        "name": "Manhattan 208222 switch HDMI 2.0 3x1 4K 60Hz HDR HDCP 2.2",
+        "description": "Switch HDMI Manhattan 208222 de 3 entradas y 1 salida, HDMI 2.0, 4K@60Hz, HDR, Dolby Vision, Dolby Atmos, 18Gbps, HDCP 2.2, cambio automatico/manual/IR, carcasa metalica y alimentacion USB-C 5V.",
+        "manualCategoryPath": "video/accesorios-av/switches-hdmi/3x1-4k60",
+        "semanticCategoryPath": "video/accesorios-av/switches-hdmi/3x1-4k60/manhattan-208222",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/collections/switches-hdmi/products/manhattan-es-switch-hdmi-de-3-puertos-4k-208222",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10454838",
+          "https://static.ctonline.mx/imagenes/SWTITL620/SWTITL620_1_full.jpg",
+          "https://manhattanproducts.mx/cdn/shop/files/phpThumb_e79f5ce3-eaca-476a-8b28-e0fc67fa5879.jpg?v=1780005355",
+          "https://manhattanproducts.mx/cdn/shop/files/phpThumb_cd8666a5-da7f-4d3a-a454-91831b4c95fa.jpg?v=1780005355"
+        ],
+        "documents": [
+          { "label": "Manhattan 208222 official listing", "type": "manufacturer", "url": "https://manhattanproducts.mx/collections/switches-hdmi/products/manhattan-es-switch-hdmi-de-3-puertos-4k-208222" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "208222",
+          "providerSku": "SWTITL620 / NIC-4853",
+          "productType": "3-port HDMI switch",
+          "hdmiVersion": "HDMI 2.0",
+          "ports": "3 HDMI inputs, 1 HDMI output",
+          "power": "USB-C 5V/1A, max 5W",
+          "resolution": "4K at 60Hz, 3840 x 2160",
+          "bandwidth": "18Gbps / 600MHz",
+          "videoFeatures": "HDR, Dolby Vision, 3D, Deep Color 36-bit, 4:4:4",
+          "copyProtection": "HDCP 2.2 backwards compatible",
+          "audio": "DTS-HD MA, LPCM 7.1, Dolby TrueHD and 32-channel audio",
+          "switching": "Automatic switching, front button and IR remote",
+          "housing": "Metal",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 1 }, { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTITL620", "stock": 1, "price": 25.22, "currency": "USD", "branch": "total:1" },
+            { "providerId": "cva", "providerSku": "NIC-4853", "stock": 0, "price": 25.59, "currency": "USD", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee public CT feed validates SWTITL620 stock 1 but showed USD 27.32, not private USD 25.22. Some retailers classify it as network switch; corrected to HDMI switch."]
+        },
+        "measurements": { "dimensions": "112 x 56 x 14 mm", "weight": "128 g net, 280 g gross", "operatingTemperature": "0-70 C", "humidity": "5%-90%" },
+        "sourceRefs": [
+          { "title": "Manhattan Mexico 208222", "type": "manufacturer", "url": "https://manhattanproducts.mx/collections/switches-hdmi/products/manhattan-es-switch-hdmi-de-3-puertos-4k-208222" },
+          { "title": "CompuPuebla Manhattan 208222", "type": "retail", "url": "https://compupuebla.com/producto/switch-manhattan-208222/" },
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" }
+        ]
+      }
+    },
+    {
+      "product_id": "2153e6lhdzxdvl3",
+      "research": {
+        "confidence": 0.95,
+        "name": "Hikvision DS-3E1526P-EI switch PoE administrable Gigabit 24 puertos 370W",
+        "description": "Switch smart PoE Hikvision DS-3E1526P-EI con 24 puertos Gigabit PoE, 1 uplink RJ45 Gigabit, 1 SFP Gigabit, presupuesto PoE 370W, switching 56Gbps, PoE Watchdog, VLAN, STP/RSTP y gestion web/Hik-Partner Pro.",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/24-puertos",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/24-puertos/hikvision-ds-3e1526p-ei",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://assets.hikvision.com/prd/normal/all/doc/m000034946/DS-3E1526P-EI_Datasheet_20260119.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTHKV450/SWTHKV450_full.jpg"],
+        "documents": [
+          { "label": "Hikvision DS-3E1526P-EI datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/m000034946/DS-3E1526P-EI_Datasheet_20260119.pdf" }
+        ],
+        "specs": {
+          "brand": "HIKVISION",
+          "model": "DS-3E1526P-EI",
+          "providerSku": "SWTHKV450 / NIC-4932",
+          "productType": "Smart managed Gigabit PoE switch",
+          "ports": "24 Gigabit PoE ports, 1 Gigabit RJ45 uplink, 1 Gigabit SFP",
+          "poe": "IEEE 802.3af/at, 370W budget, up to 30W per port",
+          "switchingCapacity": "56Gbps",
+          "forwardingRate": "41.66Mpps",
+          "macTable": "8K",
+          "cache": "4.1Mbits",
+          "layer2": "802.1Q VLAN, trunk/access, up to 32 VLAN, STP/RSTP, static link aggregation",
+          "management": "Web, Hik-Central Pro and Hik-Partner Pro",
+          "features": "QoS SP/WRR, port isolation, DHCP client/snooping, LLDP, port mirroring, cable detection, PoE Watchdog, long range up to 300 m",
+          "surgeProtection": "6kV",
+          "power": "100-240VAC, 50/60Hz, max 6.3A; max 400W, idle 30W",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 2 }, { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTHKV450", "stock": 2, "price": 296.14, "currency": "USD", "branch": "total:2" },
+            { "providerId": "cva", "providerSku": "NIC-4932", "stock": 0, "price": 268.32, "currency": "USD", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Toyseco and GSX validate NIC-4932 stock 0, matching CVA. Public source for CT SWTHKV450 stock 2/USD 296.14 not found beyond static image. Feed text included 100Mbps uplink, but 2026 datasheet states Gigabit uplinks."]
+        },
+        "measurements": { "dimensions": "440 x 220.8 x 44 mm", "weight": "3.1 kg net, 3.3 kg gross", "mounting": "Rack ears included", "operatingTemperature": "0-45 C" },
+        "sourceRefs": [
+          { "title": "Hikvision DS-3E1526P-EI datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/m000034946/DS-3E1526P-EI_Datasheet_20260119.pdf" },
+          { "title": "Toyseco NIC-4932", "type": "retail", "url": "https://www.toyseco.com.mx/SWITCH-GIGABIT-POE-HIKVISION--ADMINISTRABLE--24-PUERTOS-1000-MBPS-POE--1-PUERTO-100-UPLINK--1-PUERTO-1000-MBPS-UPLINK--1-PUERTOS-SFP-UPLINK--CONFIGURACI-%2C292188_1461124104" },
+          { "title": "GSX Digital NIC-4932", "type": "retail", "url": "https://www.gsxdigital.com.mx/SWITCH-GIGABIT-POE-HIKVISION--ADMINISTRABLE--24-PUERTOS-1000-MBPS-POE--1-PUERTO-100-UPLINK--1-PUERTO-1000-MBPS-UPLINK--1-PUERTOS-SFP-UPLINK--CONFIGURACI-%2C244407_1489535567" }
+        ]
+      }
+    },
+    {
+      "product_id": "218awl1dpqutx1c",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dahua IPC-HDW2449T-S-IL camara IP eyeball WizSense 4MP Smart Dual Light",
+        "description": "Camara IP Dahua IPC-HDW2449T-S-IL WizSense tipo eyeball 4MP con lente fija 2.8 mm, Smart Dual Light IR/luz calida 30 m, WDR 120dB, microfono integrado, microSD, ONVIF, IVS/SMD, PoE e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light/dahua-ipc-hdw2449t-s-il",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/2-Series/Smart-Dual-Light/IPC-HDW2449T-S-IL",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH4740/CAMDAH4740_1_full.jpg",
+          "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_04_38799/ProductImage/1_0_01_04_38799_526955256_crop_thumb.png",
+          "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_04_38799/ProductImage/1_0_01_04_38799_526954782_crop_thumb.png"
+        ],
+        "documents": [
+          { "label": "Dahua IPC-HDW2449T-S-IL official listing", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/2-Series/Smart-Dual-Light/IPC-HDW2449T-S-IL" }
+        ],
+        "specs": {
+          "brand": "DAHUA",
+          "model": "DH-IPC-HDW2449T-S-IL / IPC-HDW2449T-S-IL",
+          "providerSku": "CV-1669",
+          "productType": "WizSense Smart Dual Light fixed-focal eyeball network camera",
+          "sensor": "1/2.9 in 4MP CMOS",
+          "resolution": "2688 x 1520 max; 20fps at 4MP, 25/30fps at 2560 x 1440",
+          "lens": "M12 fixed 2.8 mm or 3.6 mm, F1.6",
+          "fieldOfView": "2.8 mm: H 95 deg / V 52 deg / D 114 deg",
+          "illumination": "IR and warm light up to 30 m, Smart Dual Light",
+          "imageEnhancement": "120dB WDR, 3D NR, BLC, HLC, 4 ROI areas and 4 privacy areas",
+          "compression": "H.265, H.264, MJPEG, Smart H.265+, Smart H.264+",
+          "audio": "Integrated microphone",
+          "storage": "microSD up to 256GB",
+          "network": "RJ45 10/100, ONVIF S/G/T and CGI",
+          "analytics": "IVS intrusion/tripwire with human/vehicle classification, SMD",
+          "power": "12VDC or PoE 802.3af",
+          "protection": "IP67, -40 to 60 C operation",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "total", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "CV-1669", "stock": 1, "price": 67.51, "currency": "USD", "branch": "total:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["JD Tecnologias and Compuviper show CV-1669 total 15 with Guadalajara 14 and Queretaro 1, not private CVA total 1. Dahua calls this Eyeball, while some feeds call it domo or even analog/bullet incorrectly."]
+        },
+        "measurements": { "dimensions": "100.9 mm x 109.9 mm diameter", "weight": "0.37 kg net, 0.51 kg gross", "powerConsumption": "4.4W at 12VDC / 5.2W PoE max" },
+        "sourceRefs": [
+          { "title": "Dahua IPC-HDW2449T-S-IL official", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/network-products/network-cameras/WizSense-Series/2-Series/Smart-Dual-Light/IPC-HDW2449T-S-IL" },
+          { "title": "JD Tecnologias CV-1669", "type": "retail", "url": "https://www.jdtecnologias.mx/CAMARA-IP-DAHUA-DH-IPC-HDW2449T-S-IL-CAMARA-DOMO-IP-DE-4-MEGAPIXELES-CON-ILUMINADOR-DUAL-INTELIGENTEFULL-COLOR-WIZSENSE-LENTE-DE-2-8MM-95-GRADOS-MICROFONO-INTEGRADO-30-MTS-DE-IR%2C102883__1461123947" },
+          { "title": "Compuviper CV-1669", "type": "retail", "url": "https://compuviper.mx/tienda/producto/dahua-dh-ipc-hdw2449t-s-il-camara-ip-camara-domo-ip-de-4-megapixeles-con-iluminador-dual-inteligentefull-color-wizsense-lente-de-2-8mm-95-grados-microfono-integrado-30-mts-de-ir-y-luz-visible-m/" }
+        ]
+      }
+    }
+  ]
+}
