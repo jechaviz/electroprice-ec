@@ -373,6 +373,16 @@ const researchedBatchCases = [
   ["TP-Link RE200 repetidor Wi-Fi AC750 433 300 Mbps", "TP LINK", "redes/extensores-wifi/dual-band/ac750"],
   ["ADATA AD4U266616G19-SGN memoria UDIMM DDR4 16GB 2666MHz", "ADATA", "computo/componentes/memoria-ram/udimm-ddr4/16gb-2666"],
   ["Manhattan 440271 candado laptop con llave 1.4m K-slot", "MANHATTAN", "accesorios/seguridad-fisica/candados-laptop/llave"],
+  ["Manhattan 323239 cable HDMI alta velocidad Ethernet 5m", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m-ethernet"],
+  ["Logitech M90 910-004053 mouse USB alambrico 1000 DPI", "LOGITECH", "computo/perifericos/mouse/alambricos/basicos"],
+  ["Stylos STMSSD4B SSD 1TB SATA III 2.5 pulgadas", "STYLOS", "computo/almacenamiento/ssd/2-5-sata/1tb"],
+  ["Manhattan MW6200 190343 mouse inalambrico 6 botones 1600 DPI", "MANHATTAN", "computo/perifericos/mouse/inalambricos"],
+  ["Barkan E310+ soporte TV pared inclinable 50kg", "BARKAN", "video/soportes-tv/pared/inclinables"],
+  ["Kingston DataTraveler SE9 G3 64GB USB 3.2 oro", "KINGSTON", "computo/almacenamiento/memorias-flash/usb/64gb"],
+  ["Streamax MADKIT kit ADAS DSM R-Watch para MDVR", "STREAMAX", "seguridad/cctv/camaras-moviles/adas-dsm"],
+  ["GHIA GSOM3 lector codigo barras QR 2D omnidireccional USB", "GHIA", "punto-de-venta/lectores-codigo-barras/2d-omnidireccionales"],
+  ["Brother LC402XLM cartucho tinta magenta alto rendimiento", "BROTHER", "impresion/consumibles/cartuchos-tinta/brother-lc402xl"],
+  ["HP 154A W1540A kit recarga toner LaserJet Tank negro", "HP", "impresion/consumibles/toner-laser/hp/laserjet-tank-154a"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
