@@ -502,6 +502,16 @@ const researchedBatchCases = [
   ["Brother BT6001BK botella de tinta negra 6000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-bt6001"],
   ["Kingston FURY Beast RGB EXPO DDR5 16GB memoria RAM", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/udimm-ddr5/rgb-expo"],
   ["Manhattan 151573 cable USB 2.0 extension activa 10m", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/activas/10m"],
+  ["BRobotix 263069 bocina Bluetooth FM redonda negra USB microSD", "BROBOTIX", "audio/bocinas/bluetooth/portatiles/fm-usb"],
+  ["BRobotix 110964N convertidor HDMI a VGA con audio 3.5mm", "BROBOTIX", "accesorios/cables-adaptadores/video-hdmi-vga"],
+  ["Enson ENS-FAN-120 ventilador 120mm 110V negro", "ENSON", "computo/componentes/enfriamiento/ventiladores-gabinete"],
+  ["ASUS GT730-SL-2GD5-BRK GeForce GT 730 2GB GDDR5 bajo perfil", "ASUS", "computo/componentes/tarjetas-video/nvidia-geforce/gt-700"],
+  ["Koblenz 7016-USB/R no break 700VA 360W 6 contactos", "KOBLENZ", "energia/no-breaks-ups/line-interactive/700va"],
+  ["Dahua DH-IPC-HDW1230T1P-A-0280B-S6 camara domo IP 2MP PoE", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/domo/2mp"],
+  ["Xerox 006R04381 toner negro B305 B310 B315 20000 paginas", "XEROX", "impresion/consumibles/toner-laser/xerox/b305-b315"],
+  ["TP-Link UH7020C hub USB-C 7 en 1 HDMI 4K60 PD 100W", "TP LINK", "computo/accesorios/hubs-usb/usb-c/7-en-1"],
+  ["Koblenz PV-2500 D supresor de picos pared TV 2500VA 2000W", "KOBLENZ", "energia/supresores-reguladores/supresores-picos/multicontactos-pared-tv"],
+  ["Kyocera TK-3102 toner negro 12500 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-3102"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
