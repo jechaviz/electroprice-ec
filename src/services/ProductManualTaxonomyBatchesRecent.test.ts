@@ -572,6 +572,16 @@ const researchedBatchCases = [
   ["Logitech Z407 bocinas 2.1 Bluetooth subwoofer 40W RMS", "LOGITECH", "computo/perifericos/bocinas-audio/2-1/bluetooth"],
   ["Logitech K400 Plus teclado inalambrico touchpad Unifying", "LOGITECH", "computo/perifericos/teclados/inalambricos/touchpad-tv"],
   ["Acteck TI755 Inspire Krea teclado inalambrico multidispositivo Bluetooth", "ACTECK", "computo/perifericos/teclados/inalambricos/multidispositivo/rf-bluetooth"],
+  ["Lanix 12755 Ilium Pad RX8 Kids tablet Android 12 8 pulgadas 2GB 32GB", "LANIX", "computo/tabletas/android/8-pulgadas/kids"],
+  ["BRobotix 345673A lector de memoria microSD USB 2.0 azul", "BROBOTIX", "computo/almacenamiento/lectores-memoria/usb-2-microsd"],
+  ["Perfect Choice PC-084617 funda Trova verde para laptop 15.6 pulgadas", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas"],
+  ["Koblenz RI20C regulador voltaje equipo motor 1900VA 1400W", "KOBLENZ", "energia/supresores-reguladores/reguladores-voltaje/equipo-motor/1900va"],
+  ["HiLook DVR-104G-M1/T DVR TurboHD 4 canales 1080p Lite", "HILOOK", "seguridad/cctv/dvr-nvr/dvr-turbohd/4-canales-1080p-lite"],
+  ["Kingston DataTraveler 70 DT70/64GB memoria USB-C 64GB", "KINGSTON TECHNOLOGY", "computo/almacenamiento/memorias-flash/usb-c/64gb"],
+  ["TP-Link Archer BE550 router tri-band Wi-Fi 7 BE9300", "TP-LINK", "redes/routers/wifi-7/tri-band/be9300"],
+  ["HP 104A W1104A tambor de imagen laser negro", "HP", "impresion/consumibles/tambores/hp/104a"],
+  ["Meriva MOB-EB600Z camara IP bullet PoE 6MP lente motorizado", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet/6mp-motorizada"],
+  ["Silimex Aerojet 440 aire comprimido para electronica", "SILIMEX", "computo/accesorios/limpieza/aire-comprimido/440ml"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
