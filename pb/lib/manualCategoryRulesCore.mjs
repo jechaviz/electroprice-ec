@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_RULES_CORE = [
+  ['energia/baterias-ups/selladas-12v/9ah', /\b(slb12[\s-]?9|slb[\s-]?12[\s-]?9|batcdp030|879071001038|cdp.*12v.*9\s?ah|cdp.*slb12.*9)\b/],
+  ['energia/baterias-ups/selladas-12v/7ah', /\b(mi[\s-]?4218|mi4218|batdts020|7501859100642|datashield.*12v.*7\.?2\s?ah|bateria.*datashield.*4218)\b/],
+  ['energia/baterias-ups/selladas-12v/9ah', /\b(mi[\s-]?4219|mi4219|batdts050|7501859100659|datashield.*12v.*9\s?ah|bateria.*datashield.*4219)\b/],
+  ['computo/accesorios/baterias-laptop/hp', /\b(oth5173|batovl160|hp cq42|hp.*cq42|ovaltech.*hp.*cq42|bateria.*hp.*cq42|11\.?1v.*4400mah.*hp)\b/],
+  ['computo/perifericos/bocinas-audio/2-0', /\b(ax[\s-]?2500|aub[o0][\s-]?014|bocgen300|7502213293093|acteck.*ax[\s-]?2500|bocinas.*2\.0.*6w|3w.*x.*2)\b/],
+  ['audio/audifonos/alambricos-3-5mm/diadema-con-microfono', /\b(164429|spk[\s-]?405|bocitl070|766623164429|manhattan.*164429|diadema.*3\.5.*microfono|stereo headset.*3\.5)\b/],
+  ['audio/microfonos/escritorio-3-5mm', /\b(pc[\s-]?110279|spk[\s-]?143|bocmst210|perfect choice.*microfono.*escritorio|microfono.*cuello flexible.*3\.5|omnidireccional.*3\.5)\b/],
+  ['accesorios/cables-adaptadores/usb/mini-usb', /\b(333412|cb[\s-]?201|cabitl010|766623333412|usb.*mini[\s-]?b.*1\.?8|mini[\s-]?b.*480\s?mbps|manhattan.*333412)\b/],
+  ['computo/componentes/cables-internos/alimentacion-molex', /\b(301503|cb[\s-]?159|cabitl015|766623301503|molex.*dual|molex.*2x|5\.25.*macho.*hembra|cable.*y.*molex)\b/],
   ['redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-sfp', /\b(mc220l|acctpl060|ac[\s-]?2741|tp[\s-]?link.*mc220l|convertidor.*medios.*gigabit.*sfp|media converter.*gigabit.*sfp)\b/],
   ['redes/transceptores-convertidores/convertidores-medios/fibra-rj45/fast-ethernet-wdm-monomodo-sc', /\b(mc111cs|acctpl080|ac[\s-]?2743|845973030414|tp[\s-]?link.*mc111cs|wdm.*10\/100|1550.*1310.*sc)\b/],
   ['redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-multimodo-sc', /\b(mc200cm|acctpl100|ac[\s-]?2014|tp[\s-]?link.*mc200cm|gigabit.*multimodo.*sc|850 ?nm.*0\.?55 ?km)\b/],

@@ -1,0 +1,592 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b087-2026-05-29",
+  "cycle": 3,
+  "batch": 87,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "d26py8f6zxp9sgi",
+      "research": {
+        "confidence": 0.94,
+        "name": "CDP SLB12-9 Bateria SLA/VRLA 12V 9Ah para UPS/No Break",
+        "description": "Bateria de reemplazo CDP SLB12-9 sellada VRLA/SLA de 12V 9Ah para UPS, no-breaks, alarmas, CCTV, luces de emergencia y sistemas de respaldo.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v/9ah",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/9ah/cdp-slb12-9",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdpenergy.com/productdetails.asp?ccoun=tt&mf=cHJvdGVjdGlvbg&prd=NDIy&prdn=U0xCMTIvOS4wQUg",
+        "gallery": ["https://cdpenergy.com/Content_Elements/product_main_images/PRID-422-Main-9.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/BATCDP030_full.jpg"],
+        "documents": [
+          {
+            "label": "CDP LSB9 12 catalog",
+            "type": "datasheet",
+            "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/422-Catalogo%20LSB%209-12%20%2812V%209Ah%29%20SPA.pdf"
+          }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "manufacturer": "Chicago Digital Power",
+          "model": "SLB12-9",
+          "alternateModels": "SLB 12-9, SLB12/9.0AH, B-12/9",
+          "providerSku": "BATCDP030",
+          "upc": "879071001038",
+          "productType": "Bateria sellada para UPS",
+          "batteryType": "VRLA/SLA sealed lead acid",
+          "voltage": "12 V",
+          "capacity": "9 Ah",
+          "maxDischargeCurrent": "90 A (5 sec)",
+          "internalResistance": "18 mOhm",
+          "floatChargeVoltage": "13.7 - 13.9 V",
+          "cycleChargeVoltage": "14.6 - 14.8 V",
+          "maxChargeCurrent": "2.7 A",
+          "terminal": "Faston F2/T250",
+          "applications": ["UPS", "no-break", "alarmas", "CCTV", "luces de emergencia"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 21 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 4 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATCDP030", "stock": 146, "price": 382.88, "currency": "MXN", "branch": "SLT:21,TPC:16,ZAC:14,TOL:11,VER:10,MTY:10,TRN:8,CTZ:7,XLP:6,CUN:6,DFC:6,AGS:4" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Current rule bucket was no-break equipment; this item is a replacement SLA battery."]
+        },
+        "measurements": { "dimensions": "151 x 65 x 100 mm", "weight": "2.55 kg" },
+        "sourceRefs": [
+          { "title": "CDP SLB12/9.0AH official product", "type": "manufacturer", "url": "https://cdpenergy.com/productdetails.asp?mf=cHJvdGVjdGlvbg&prd=NDIy&prdn=U0xCIDEyLzkuMEFIICgxMDgtV2F0dCBob3VyKQ" },
+          { "title": "CDP LSB9 12 catalog", "type": "datasheet", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/422-Catalogo%20LSB%209-12%20%2812V%209Ah%29%20SPA.pdf" },
+          { "title": "Mactoner CDP B-12/9", "type": "retail", "url": "https://www.mactoner.com.mx/producto/bateria-modelo-cdp-b-12-9-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "k5qt11n0pum364a",
+      "research": {
+        "confidence": 0.96,
+        "name": "DataShield MI-4218 Bateria SLA/VRLA 12V 7.2Ah para UPS/No Break",
+        "description": "Bateria sellada libre de mantenimiento DataShield MI4218 de 12V 7.2Ah para UPS/no-break; vida util estimada de 2 a 3 anos o cerca de 400 ciclos con descarga mayor al 50%.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v/7ah",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/7ah/datashield-mi4218",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.datashield.net/fichas/BATERIAMI-4218.pdf",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-DATASHIELD-MI-4218-1.jpg", "https://www.cocompu.com/wp-content/uploads/2025/06/14381655-9284.jpg"],
+        "documents": [
+          { "label": "DataShield MI-4218 datasheet", "type": "datasheet", "url": "https://www.datashield.net/fichas/BATERIAMI-4218.pdf" }
+        ],
+        "specs": {
+          "brand": "DATASHIELD",
+          "model": "MI4218",
+          "alternateModels": "MI-4218",
+          "providerSku": "BATDTS020",
+          "ean": "7501859100642",
+          "productType": "Bateria sellada para UPS",
+          "batteryType": "Sealed lead acid",
+          "voltage": "12 V",
+          "capacity": "7.2 Ah",
+          "capacity20Hr": "7.2 Ah at 0.36 A",
+          "capacity5Hr": "5.76 Ah at 1.15 A",
+          "capacity1Hr": "4.32 Ah at 4.32 A",
+          "internalResistance": "22 mOhm",
+          "floatChargeVoltage": "13.65 V +/- 0.15 V",
+          "cycleChargeVoltage": "14.7 V +/- 0.3 V",
+          "maxDischargeCurrent": "90 A (5 sec)",
+          "maxChargeCurrent": "2.16 A",
+          "caseMaterial": "UL94HB ABS / UL94V-0 ABS",
+          "compatibleUpsSeries": "BS, BNT, KS, KIN, UT, VGD",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 165 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 127 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 121 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 114 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 107 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 85 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 70 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 46 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 37 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 33 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 29 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATDTS020", "stock": 1350, "price": 291.03, "currency": "MXN", "branch": "MID:165,GDL:127,DFA:121,CTZ:114,CMT:107,D2A:85,HMO:70,CUN:46,PAC:37,TOL:33,CHI:30,VER:29" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "151 x 65 x 100 mm", "containerHeight": "94 mm", "weight": "2.45 kg", "pack": "Caja de 5 piezas" },
+        "sourceRefs": [
+          { "title": "DataShield MI-4218 datasheet", "type": "manufacturer", "url": "https://www.datashield.net/fichas/BATERIAMI-4218.pdf" },
+          { "title": "Cocompu DataShield MI-4218", "type": "retail", "url": "https://www.cocompu.com/product/datashield-mi-4218-12-v-7-2-ah/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3f1u3fi6yfhzq0l",
+      "research": {
+        "confidence": 0.94,
+        "name": "DataShield MI-4219 bateria sellada UPS 12V 9Ah",
+        "description": "Bateria sellada libre de mantenimiento DataShield MI-4219 de 12V 9Ah para UPS/no-break, lamparas de emergencia, seguridad, CCTV y robotica.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v/9ah",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/9ah/datashield-mi4219",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.datashield.net/fichas/MI-4219.pdf",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-DATASHIELD-MI-4219-1.jpg"],
+        "documents": [
+          { "label": "DataShield MI-4219 datasheet", "type": "datasheet", "url": "https://www.datashield.net/fichas/MI-4219.pdf" }
+        ],
+        "specs": {
+          "brand": "DATASHIELD",
+          "model": "MI-4219",
+          "providerSku": "BATDTS050",
+          "ean": "7501859100659",
+          "productType": "Bateria sellada para UPS",
+          "batteryType": "Sealed lead acid",
+          "voltage": "12 V",
+          "capacity": "9 Ah",
+          "serviceLife": "2 a 3 anos en condiciones normales",
+          "cycleLife": "aprox. 400 ciclos con descarga mayor al 50%",
+          "compatibleUpsSeries": "BS, BNT, KS, KIN, UT, VGD",
+          "applications": ["No-break", "lampara de emergencia", "robotica", "seguridad", "CCTV"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 154 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 103 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 53 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 37 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 31 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 28 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 13 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 12 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATDTS050", "stock": 624, "price": 388.04, "currency": "MXN", "branch": "MID:154,GDL:103,CMT:53,DFA:37,DGO:31,CTZ:28,TXA:20,QRO:17,IRA:17,CUN:14,CUE:13,CHI:12" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria corregida manualmente: bateria de reemplazo SLA para UPS/no-break."]
+        },
+        "measurements": { "dimensions": "151 x 65 x 100 mm", "containerHeight": "94 mm", "weight": "aprox. 2.9 kg" },
+        "sourceRefs": [
+          { "title": "DataShield MI-4219 datasheet", "type": "manufacturer", "url": "https://www.datashield.net/fichas/MI-4219.pdf" },
+          { "title": "Cyberpuerta DataShield MI-4219", "type": "retail", "url": "https://www.cyberpuerta.mx/Energia/No-Break-UPS/Baterias-para-No-Break/DataShield-Bateria-de-Reemplazo-para-UPS-MI-4219-12V-9Ah-para-Series-BS-BNT-KS-KIN-UT-VGD.html" },
+          { "title": "Sily DataShield MI-4219", "type": "retail", "url": "https://sily.mx/products/bateria-datashield-mi-4219-12v-9ah-reemplazo-para-ups-y-no-break-series-bs-bnt-ks-kin-ut-vgd" }
+        ]
+      }
+    },
+    {
+      "product_id": "2p2o16shpqcjt4j",
+      "research": {
+        "confidence": 0.91,
+        "name": "OvalTech OTH5173 bateria Li-ion 6 celdas para HP CQ42 series",
+        "description": "Bateria Li-ion OvalTech OTH5173 de 6 celdas para laptops HP/Compaq CQ42 y familias compatibles; el catalogo la publica como 10.8V 6400mAh y algunas fichas de reseller como 11.1V 4400mAh.",
+        "manualCategoryPath": "computo/accesorios/baterias-laptop/hp",
+        "semanticCategoryPath": "computo/accesorios/baterias-laptop/hp/cq42-series",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/wp-content/uploads/2025/01/OT-Catalogo-2025.pdf",
+        "gallery": ["https://compuplus.com.mx/uploads/_/BATOVL160.jpg", "https://fulloffice.com/cdn/shop/files/BATOVL160_full.jpg?crop=center&height=1200&v=1759193404&width=1200"],
+        "documents": [
+          { "label": "OvalTech catalogo 2025", "type": "manufacturer_catalog", "url": "https://www.ovaltech.com.mx/wp-content/uploads/2025/01/OT-Catalogo-2025.pdf" }
+        ],
+        "specs": {
+          "brand": "OVALTECH",
+          "model": "OTH5173",
+          "providerSku": "BATOVL160",
+          "productType": "Bateria para laptop",
+          "batteryType": "Li-ion",
+          "compatibleBrand": "HP",
+          "compatibleSeries": "HP CQ42, CQ32, CQ43, CQ57, CQ62, CQ72, HP 630, Pavilion G42/G62/G72/G4/G6/G7, Envy 15/17",
+          "cells": "6",
+          "voltage": "10.8 V catalog; 11.1 V provider spec",
+          "capacity": "6400 mAh catalog/title; 4400 mAh provider spec",
+          "compatiblePartNumbers": ["586006", "586007", "586028", "588178", "592260", "593015", "593550-001", "593553-001", "593554-001", "593555-001", "MU06", "MU09", "HSTNN series"],
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATOVL160", "stock": 56, "price": 55.18, "currency": "USD", "branch": "D2A:14,DFA:7,CMT:4,HMO:3,DGO:3,QRO:3,GDL:3,PUE:3,ACX:3,OBR:2,TPC:2,MAZ:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria corregida manualmente: bateria de laptop HP, no bateria UPS.", "Catalogo/titulos publican 6400mAh; tablas de reseller listan 4400mAh."]
+        },
+        "measurements": { "dimensions": "204 x 50 x 20 mm", "weight": "368-400 g" },
+        "sourceRefs": [
+          { "title": "OvalTech catalogo 2025", "type": "manufacturer_catalog", "url": "https://www.ovaltech.com.mx/wp-content/uploads/2025/01/OT-Catalogo-2025.pdf" },
+          { "title": "Compuplus OTH5173", "type": "retail", "url": "https://compuplus.com.mx/productos/accesorios-para-computo/baterias-laptops/ovaltech/oth5173/z-628" },
+          { "title": "FullOffice BATOVL160", "type": "retail", "url": "https://fulloffice.com/products/bateria-color-negro-6-celdas-ovaltech-para-hp-cq42-series" }
+        ]
+      }
+    },
+    {
+      "product_id": "wgyzdpsmmcxe17e",
+      "research": {
+        "confidence": 0.93,
+        "name": "Acteck AX-2500 bocinas estereo 2.0 6W 3.5mm negras",
+        "description": "Set de bocinas estereo 2.0 Acteck AX-2500 para escritorio, con entrada auxiliar 3.5mm, potencia total 6W RMS y control integrado de volumen.",
+        "manualCategoryPath": "computo/perifericos/bocinas-audio/2-0",
+        "semanticCategoryPath": "computo/perifericos/bocinas-audio/2-0/acteck-ax-2500",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/ax-2500",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AUBO-014_03_1000PX.webp?v=1690226240&width=1000",
+          "https://acteck.com/cdn/shop/files/AUBO-014-U.png?v=1704482083&width=1000",
+          "https://acteck.com/cdn/shop/files/AUBO-014_01_1000PX.webp?v=1704482083&width=1000"
+        ],
+        "documents": [
+          { "label": "Acteck AX-2500 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AUBO-014_V1.pdf?v=1694448304" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AX-2500",
+          "alternateModel": "AUBO-014",
+          "providerSku": "BOCGEN300",
+          "ean": "7502213293093",
+          "productType": "Bocinas estereo para PC",
+          "speakerConfiguration": "2.0",
+          "connection": "Auxiliar 3.5 mm",
+          "power": "3W x 2 / 6W RMS total",
+          "powerInput": "9V - 0.2A",
+          "frequencyResponse": "70 Hz - 20 kHz",
+          "impedance": "8 ohm",
+          "thd": "<10%",
+          "cableLength": "1.2 m",
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 207 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 182 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 27 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 14 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BOCGEN300", "stock": 744, "price": 170.29, "currency": "MXN", "branch": "DFA:207,D2A:182,CMT:30,MAZ:27,PAC:20,HMO:19,PUE:19,GDL:17,CHI:16,OAX:16,TAM:15,MID:14" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "7.5 x 8.4 x 18 cm", "weight": "426 g", "packageDimensions": "17.2 x 8 x 18.1 cm", "packageWeight": "512 g" },
+        "sourceRefs": [
+          { "title": "Acteck AX-2500 official", "type": "manufacturer", "url": "https://acteck.com/products/ax-2500" },
+          { "title": "Acteck AX-2500 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AUBO-014_V1.pdf?v=1694448304" },
+          { "title": "Tecsirius Acteck AX-2500", "type": "retail", "url": "https://tecsirius.com/tienda/bocinas-estereo-2-0-acteck-ax-2500-conexion-3-5-mm-control-en-escritorio-negro/" },
+          { "title": "Acteck AX-2500 Ingram hoja de producto", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_g59007h_88994781.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "yqiyut3wpblhg78",
+      "research": {
+        "confidence": 0.96,
+        "name": "Manhattan 164429 audifonos estereo 3.5mm con microfono",
+        "description": "Audifonos Manhattan 164429 de diadema con microfono flexible, almohadillas de espuma, control de volumen en linea y conectores 3.5mm para audio y microfono.",
+        "manualCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono",
+        "semanticCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono/manhattan-164429",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.eu/products/manhattan-en-stereo-headset-164429",
+        "gallery": [
+          "https://manhattanproducts.eu/cdn/shop/files/stereo-headset-164429-1_be88a3bc-a263-4c5c-8ac5-54521f21ab65.jpg",
+          "https://manhattanproducts.eu/cdn/shop/files/stereo-headset-164429-packaging-4.jpg",
+          "https://manhattanproducts.eu/cdn/shop/files/stereo-headset-164429-2_d72fc61f-f5cf-4249-847a-d01a375b3819.jpg"
+        ],
+        "documents": [
+          { "label": "Manhattan 164429 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42013/164429_datasheet_english.pdf" },
+          { "label": "Manhattan 164429 manual", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7824/164429_manual_en_de_es_fr_pl_it_sl_sk_hr_02.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "164429",
+          "providerSku": "SPK-405 / BOCITL070",
+          "upc": "766623164429",
+          "ean": "0766623164429",
+          "productType": "Audifonos estereo con microfono",
+          "headphoneFrequencyResponse": "20 Hz - 20 kHz",
+          "headphoneImpedance": "32 ohm",
+          "headphoneSensitivity": "100 dB SPL",
+          "maxInput": "80 mW",
+          "microphoneType": "Condensador omnidireccional",
+          "microphoneFrequencyResponse": "30 Hz - 15 kHz",
+          "microphoneSensitivity": "-54 +/- 3 dB",
+          "microphoneImpedance": "2.2 kOhm",
+          "connectors": "2 x 3.5 mm plug, audio and microphone",
+          "cableLength": "1.8 m",
+          "certifications": ["CE", "FCC", "RoHS", "WEEE"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 6 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BOCITL070", "stock": 6, "price": 3.09, "currency": "USD", "branch": "CT:6" },
+            { "providerId": "cva", "providerSku": "SPK-405", "stock": 2, "price": 3.13, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "165 x 145 x 45 mm", "weight": "87.8 g", "packagingDimensions": "170 x 160 x 50 mm", "grossWeight": "0.12 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 164429 official", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-stereo-headset-164429" },
+          { "title": "Manhattan 164429 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42013/164429_datasheet_english.pdf" },
+          { "title": "CVA feed SPK-405 stock", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "yvqswbcxbf469y7",
+      "research": {
+        "confidence": 0.97,
+        "name": "Logitech H390 audifonos USB con microfono noise-cancelling",
+        "description": "Diadema USB Logitech H390 con audio estereo digital, microfono bidireccional con cancelacion de ruido, controles en linea de volumen y mute, compatible con aplicaciones de llamadas.",
+        "manualCategoryPath": "audio/audifonos/usb/diadema-microfono",
+        "semanticCategoryPath": "audio/audifonos/usb/diadema-microfono/logitech-h390",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.logi.com/hc/en-ch/articles/360024878073-Specifications-USB-Headset-H390",
+        "gallery": [
+          "https://resource.logitech.com/content/dam/logitech/en/products/headsets/h390-usb-headset/new-gallery/h390-gallery-black-1-1.png",
+          "https://resource.logitech.com/content/dam/logitech/en/products/headsets/h390-usb-headset/new-gallery/h390-gallery-black-3-1.png",
+          "https://resource.logitech.com/content/dam/logitech/en/products/headsets/h390-usb-headset/new-gallery/h390-gallery-black-4-1.png"
+        ],
+        "documents": [
+          { "label": "Logitech H390 support specifications", "type": "manufacturer_support", "url": "https://support.logi.com/hc/en-ch/articles/360024878073-Specifications-USB-Headset-H390" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "H390",
+          "manufacturerModel": "A00146",
+          "partNumbers": "981-000060 / 981-000406",
+          "providerSku": "BOCLOG330",
+          "upc": "097855046901",
+          "productType": "Diadema USB con microfono",
+          "connection": "USB-A or USB-C depending on variant",
+          "controls": "Volume +, Volume -, Mic Mute",
+          "earpads": "Leatherette padded",
+          "headphoneFrequencyResponse": "20 Hz - 20 kHz",
+          "microphoneFrequencyResponse": "100 Hz - 10 kHz",
+          "inputImpedance": "32 ohm",
+          "headphoneSensitivity": "94 dBV/Pa +/- 3 dB",
+          "microphoneSensitivity": "-17 dBV/Pa +/- 4 dB",
+          "microphoneType": "Noise-cancelling bidirectional",
+          "driverSize": "30 mm",
+          "cableLength": "1.9 m",
+          "operatingVoltage": "4.75 to 5.25 VDC",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 269 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 171 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 141 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 103 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 55 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 28 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 10 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BOCLOG330", "stock": 923, "price": 535.29, "currency": "MXN", "branch": "CMT:269,D2A:171,MTY:141,DFA:103,HMO:55,LEO:28,PAC:20,TAM:16,AGS:15,QRO:15,SLP:11,DFP:10" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Previous category treated H390 as PC speakers; product is a USB headset."]
+        },
+        "measurements": { "dimensions": "171 x 151 x 68 mm", "weight": "197 g" },
+        "sourceRefs": [
+          { "title": "Logitech Support H390 specifications", "type": "manufacturer_support", "url": "https://support.logi.com/hc/en-ch/articles/360024878073-Specifications-USB-Headset-H390" },
+          { "title": "Logitech H390 product page", "type": "manufacturer", "url": "https://www.logitech.com/en-ae/products/headsets/h390-usb-headset.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "xphew24vqcp381u",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice PC-110279 microfono de escritorio 3.5mm cuello flexible",
+        "description": "Microfono alambrico Perfect Choice PC-110279 para escritorio, con cuello flexible, base con entrada para audifonos, control de encendido y captacion omnidireccional de 360 grados.",
+        "manualCategoryPath": "audio/microfonos/escritorio-3-5mm",
+        "semanticCategoryPath": "audio/microfonos/escritorio-3-5mm/perfect-choice-pc-110279",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pcdomino.com/products/microfono-alambrico-3-5mm-longitud-del-cable-2-metros-cuello-flexible-base-para-escritorio-perfect-choice-pc-110279",
+        "gallery": [
+          "https://perfectchoice.me/cdn/shop/products/PC-110279_B01_Microfono_MicrofonoDeEscritorio_Microphone_DesktopMicrophone.png?v=1760466195",
+          "https://perfectchoice.me/cdn/shop/products/PC-110279_B02_Microfono_MicrofonoDeEscritorio_Microphone_DesktopMicrophone_1_1600x.png?v=1760466195",
+          "https://perfectchoice.me/cdn/shop/products/PC-110279_B05_Microfono_MicrofonoDeEscritorio_Microphone_DesktopMicrophone_1600x.png?v=1764354594"
+        ],
+        "documents": [
+          { "label": "Perfect Choice PC-110279 PDF", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-110279.pdf?v=1587146706" },
+          { "label": "PCDomino PC-110279 product page", "type": "retail", "url": "https://pcdomino.com/products/microfono-alambrico-3-5mm-longitud-del-cable-2-metros-cuello-flexible-base-para-escritorio-perfect-choice-pc-110279" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-110279",
+          "providerSku": "SPK-143 / BOCMST210",
+          "productType": "Microfono de escritorio",
+          "mounting": "Escritorio",
+          "connection": "3.5 mm",
+          "directivity": "Omnidireccional",
+          "pickup": "360 grados",
+          "frequencyResponse": "50 Hz - 16 kHz official; 100 Hz - 16 kHz reseller",
+          "impedance": "2.2 kOhm",
+          "sensitivity": "-58 dB",
+          "cableLength": "2 m",
+          "features": ["Cuello flexible", "Base con entrada para audifonos", "Control de encendido"],
+          "finish": "Mate",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 22 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BOCMST210", "stock": 22, "price": 84.08, "currency": "MXN", "branch": "CT:22" },
+            { "providerId": "cva", "providerSku": "SPK-143", "stock": 5, "price": 97.27, "currency": "MXN", "branch": "CVA:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Previous category was office furniture/accessories; product is an audio microphone."]
+        },
+        "measurements": { "dimensions": "10 x 11.5 x 30 cm", "weight": "158 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-110279 official", "type": "manufacturer", "url": "https://perfectchoice.me/products/microfono-flexible" },
+          { "title": "Perfect Choice PC-110279 PDF", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-110279.pdf?v=1587146706" },
+          { "title": "PCDomino Perfect Choice PC-110279", "type": "retail", "url": "https://pcdomino.com/products/microfono-alambrico-3-5mm-longitud-del-cable-2-metros-cuello-flexible-base-para-escritorio-perfect-choice-pc-110279" },
+          { "title": "HarTunning PC-110279 images", "type": "retail", "url": "https://hartunning.com.mx/producto/accesorios/microfonos-accesorios/microfono-perfect-choice-flexible-para-escritorio-recepcion-de-sonido-de-360-3-5mm-omnidireccional-trrs-negro-pc-110279/" }
+        ]
+      }
+    },
+    {
+      "product_id": "9oem9bbco5sln68",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 333412 cable USB 2.0 A macho a Mini-B 5 pines 1.8m",
+        "description": "Cable Manhattan 333412 USB 2.0 Hi-Speed de USB-A macho a Mini-B macho de 5 pines, 1.8m, hasta 480Mbps, con contactos banados en oro, blindaje y botas moldeadas.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/mini-usb",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/mini-usb/manhattan-333412",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-mini-b-device-cable-333412",
+        "gallery": [
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-mini-b-device-cable-333412-1_c496476b-5c0e-4905-98e0-9fb8494fe8f2.jpg?v=1678689414&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-mini-b-device-cable-333412-packaging-6.jpg?v=1678689414&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-mini-b-device-cable-333412-2_bcc44049-eb4d-443d-ac46-c94b1f9e6848.jpg?v=1678689414&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 333412 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43656/333412_datasheet_english.pdf" },
+          { "label": "Manhattan 333412 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43658/333412_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "333412",
+          "providerSku": "CB-201 / CABITL010",
+          "upc": "766623333412",
+          "ean": "0766623333412",
+          "asin": "B0007OWNYK",
+          "productType": "Cable USB Mini-B",
+          "standard": "USB 2.0",
+          "connectors": "USB 2.0 Type-A male to USB 2.0 Mini-B male 5-pin",
+          "dataRate": "Up to 480 Mbps",
+          "contacts": "Gold plated",
+          "cable": "28 AWG shielded",
+          "boot": "Molded PVC boot",
+          "withstandVoltage": "300 V DC 10 ms",
+          "insulationResistance": "5 MOhms",
+          "contactResistance": "10 Ohms",
+          "color": "Translucent silver",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 425 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 15 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL010", "stock": 425, "price": 1.68, "currency": "USD", "branch": "CT:425" },
+            { "providerId": "cva", "providerSku": "CB-201", "stock": 15, "price": 1.71, "currency": "USD", "branch": "CVA:15" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "1.8 m", "dimensions": "1.8 m", "weight": "0.04 kg", "grossWeight": "0.05 kg", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 333412 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-mini-b-device-cable-333412" },
+          { "title": "Manhattan 333412 official Spanish", "type": "manufacturer", "url": "https://es.manhattanproducts.eu/products/manhattan-es-cable-para-dispositivos-usb-mini-b-de-alta-velocidad-333412" },
+          { "title": "Manhattan 333412 datasheet Spanish", "type": "datasheet", "url": "https://cdn.tvc.mx/media/480484/333412_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3am51l81x3k7tdx",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 301503 cable Y Molex 4 pines macho a 2x hembra 20cm",
+        "description": "Cable interno de alimentacion Manhattan 301503 tipo Y, Molex 4 pines macho a dos conectores Molex 4 pines hembra, 20cm, para dividir una salida de fuente de poder hacia dos perifericos internos.",
+        "manualCategoryPath": "computo/componentes/cables-internos/alimentacion-molex",
+        "semanticCategoryPath": "computo/componentes/cables-internos/alimentacion-molex/manhattan-301503",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-y-de-alimentacion-301503",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/power-y-cable-301503-1.jpg?v=1763815398&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 301503 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42722/301503_datasheet_english.pdf" },
+          { "label": "Manhattan 301503 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42724/301503_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "301503",
+          "providerSku": "CB-159 / CABITL015",
+          "upc": "766623301503",
+          "ean": "0766623301503",
+          "asin": "B00173I5WE",
+          "productType": "Cable Y de alimentacion interna",
+          "connectors": "5.25 inch Molex 4-pin male to dual 5.25 inch Molex 4-pin female",
+          "useCase": "Alimenta dos perifericos desde una conexion de fuente de poder; DVD-ROM, discos duros IDE y similares",
+          "boot": "PVC molded",
+          "warranty": "5 anos region MX/LATAM",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL015", "stock": 0, "price": 1.59, "currency": "USD", "branch": "CT:0" },
+            { "providerId": "cva", "providerSku": "CB-159", "stock": 1, "price": 1.62, "currency": "USD", "branch": "CVA:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Total active stock is 1 in CVA; CTOnline offer is out of stock but product remains active due CVA availability."]
+        },
+        "measurements": { "length": "20 cm", "dimensions": "0.20 m", "weight": "0.02 kg", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 301503 official MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-y-de-alimentacion-301503" },
+          { "title": "Manhattan 301503 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-y-de-alimentacion-301503" },
+          { "title": "PCDomino Manhattan 301503", "type": "retail", "url": "https://pcdomino.com/products/cable-de-energia-molex-molex-h-h-0-20-metros-manhattan-301503" },
+          { "title": "Intercompras Manhattan 301503", "type": "retail", "url": "https://intercompras.com/p/extension-fuente-poder-manhattan-molex-pines-2x-molex-cm-43449" }
+        ]
+      }
+    }
+  ]
+}

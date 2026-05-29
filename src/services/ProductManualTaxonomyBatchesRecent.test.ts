@@ -433,6 +433,15 @@ const researchedBatchCases = [
   ["TP-Link POE150S inyector PoE Gigabit IEEE 802.3af 48V 15.4W", "TP-LINK", "redes/poe/inyectores/802-3af"],
   ["Perfect Choice PC-041078 mousepad ergonomico con gel antiderrapante", "PERFECT CHOICE", "computo/accesorios/mousepads/ergonomicos-con-gel"],
   ["CDP B-12/7 bateria sellada UPS 12V 7Ah", "CDP", "energia/baterias-ups/selladas-12v/7ah"],
+  ["CDP SLB12-9 bateria sellada UPS 12V 9Ah", "CDP", "energia/baterias-ups/selladas-12v/9ah"],
+  ["DataShield MI4218 bateria sellada UPS 12V 7.2Ah", "DATASHIELD", "energia/baterias-ups/selladas-12v/7ah"],
+  ["DataShield MI-4219 bateria sellada UPS 12V 9Ah", "DATASHIELD", "energia/baterias-ups/selladas-12v/9ah"],
+  ["Ovaltech OTH5173 bateria laptop HP CQ42 11.1V 4400mAh", "OVALTECH", "computo/accesorios/baterias-laptop/hp"],
+  ["Acteck AX-2500 bocinas estereo 2.0 6W 3.5mm", "ACTECK", "computo/perifericos/bocinas-audio/2-0"],
+  ["Manhattan 164429 audifonos diadema 3.5mm con microfono", "MANHATTAN", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono"],
+  ["Perfect Choice PC-110279 microfono escritorio cuello flexible 3.5mm", "PERFECT CHOICE", "audio/microfonos/escritorio-3-5mm"],
+  ["Manhattan 333412 cable USB 2.0 A a Mini-B 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/usb/mini-usb"],
+  ["Manhattan 301503 cable Y Molex 4 pines macho a dual hembra 20cm", "MANHATTAN", "computo/componentes/cables-internos/alimentacion-molex"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
