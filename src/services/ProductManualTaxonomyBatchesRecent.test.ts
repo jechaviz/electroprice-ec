@@ -472,6 +472,16 @@ const researchedBatchCases = [
   ["Manhattan 33382 cable USB V2.0 A-B 3.0m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/3m"],
   ["Manhattan 307116 cable DisplayPort v1.2 2m 4K60Hz", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport/2m"],
   ["Intellinet 319812 cable patch Cat5e UTP gris 4.2m 14ft", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat5e/4-2m"],
+  ["Naceb Technology NA-0111 adaptador USB-C HDMI USB 3.0 PD", "NACEB TECHNOLOGY", "computo/accesorios/docks-hubs/usb-c/hdmi-usb-pd"],
+  ["Intellinet 780094 probador de cable red 5 en 1 RJ11 RJ45 USB BNC FireWire", "INTELLINET", "redes/herramientas-cableado/probadores-cable"],
+  ["Naceb Technology NA-0118B mini mouse inalambrico Urban 1000 DPI", "NACEB TECHNOLOGY", "computo/perifericos/mouse/inalambricos/mini"],
+  ["Tenda IC7-LRS-4 camara IP PoE domo 4MP 2560 x 1440", "TENDA", "seguridad/cctv/camaras-ip-poe/domo/4mp"],
+  ["APC SRT5KRMXLT Smart-UPS online rack torre 5000VA 208V", "APC", "energia/no-breaks-ups/doble-conversion/rack-torre/5000va"],
+  ["Brother RJ3250WBL impresora movil termica 3 pulgadas WiFi Bluetooth", "BROTHER", "punto-de-venta/impresoras-recibos/moviles-3-pulgadas"],
+  ["Lenovo 21MM0018LM ThinkPad T14 Gen 5 Core Ultra 7 14 pulgadas", "LENOVO", "computo/laptops/empresariales/14-pulgadas/thinkpad-t14"],
+  ["BRobotix 651763 adaptador USB Bluetooth 5.0 negro", "BROBOTIX", "redes/adaptadores-bluetooth/usb"],
+  ["HP 1X644AA Prelude Pro mochila laptop reciclada 15.6 pulgadas", "HP", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
+  ["Balam Rush HYX24 enfriamiento liquido CPU 240mm con pantalla LCD", "BALAM RUSH", "computo/componentes/enfriamiento/liquido-cpu/240mm/pantalla-lcd"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
