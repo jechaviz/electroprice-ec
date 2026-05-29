@@ -122,6 +122,16 @@ const researchedBatchCases = [
   ["Dahua DH-PFM979-DCS conector DC hembra 5.5 x 2.1 mm", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra"],
   ["Nextep NE-511 miniprinter termica POS 80mm USB RJ11 LAN", "NEXTEP", "punto-de-venta/impresoras-recibos/80mm-lan"],
   ["Smartbitt SBAVR1200S regulador AVR 1200VA 600W 4 contactos", "SMARTBITT", "energia/supresores-reguladores/reguladores-voltaje/avr/1200va"],
+  ["Nextep NE-514 cajon de dinero RJ11 4 billetes 8 monedas", "NEXTEP", "punto-de-venta/cajones-dinero/metalicos/rj11/4-billetes-8-monedas"],
+  ["ADATA C906 AC906-32G-RBK memoria USB 32GB USB 2.0 negra", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["SanDisk SSD Plus SDSSDA3N-1T00-G26 M.2 NVMe 1TB Gen3", "SANDISK", "computo/almacenamiento/ssd/m2-nvme/1tb-gen3"],
+  ["Huawei WiFi AX3S PSDN-AX30-30 router Wi-Fi 6 AX3000", "HUAWEI", "redes/routers/wifi-6/ax3000"],
+  ["Acteck Captive Vivid SP215 monitor 21.5 FHD 75Hz", "ACTECK", "computo/monitores/oficina/22-fhd-75hz"],
+  ["PCM RDC110074EN35AJ27 ribbon cera basica 110mm x 74m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-74m"],
+  ["PCM RDC110450EN08AA63 ribbon cera premium 110mm x 450m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-450m"],
+  ["PCM RDC110450EN35AA63 ribbon cera basica 110mm x 450m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-450m"],
+  ["Perfect Choice PC-045137 Root Pro mouse inalambrico 1600 DPI", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi"],
+  ["PCM RDC110074EN08AJ27 ribbon cera premium 110mm x 74m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-74m"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

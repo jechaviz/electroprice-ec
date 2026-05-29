@@ -24,6 +24,7 @@ export const MANUAL_CATEGORY_TREE_CORE = [
   { path: 'computo/monitores/oficina', name: 'Monitores de oficina', legacyCategory: 'monitors' },
   { path: 'computo/monitores/oficina/18-5-hd', name: 'Monitores HD de 18.5 pulgadas', legacyCategory: 'monitors' },
   { path: 'computo/monitores/oficina/19-wxga', name: 'Monitores WXGA de 19 pulgadas', legacyCategory: 'monitors' },
+  { path: 'computo/monitores/oficina/22-fhd-75hz', name: 'Monitores FHD de 22 pulgadas 75Hz', legacyCategory: 'monitors' },
   { path: 'computo/monitores/oficina/24-25-fhd', name: 'Monitores FHD de 24 a 25 pulgadas', legacyCategory: 'monitors' },
   { path: 'computo/monitores/oficina/24-fhd-100hz', name: 'Monitores FHD de 24 pulgadas 100Hz', legacyCategory: 'monitors' },
   { path: 'computo/monitores/oficina/24-fhd-120hz', name: 'Monitores FHD de 24 pulgadas 120Hz', legacyCategory: 'monitors' },

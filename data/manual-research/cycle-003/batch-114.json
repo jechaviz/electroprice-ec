@@ -1,0 +1,411 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b114-2026-05-29",
+  "cycle": 3,
+  "batch": 114,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "nln922jguicn7fm",
+      "research": {
+        "confidence": 0.95,
+        "name": "Nextep NE-514 cajon de dinero RJ11 negro 4 billetes 8 monedas",
+        "description": "Cajon de dinero Nextep NE-514 para punto de venta, carcasa de acero, frente plastico, conexion RJ11, 4 compartimentos de billetes y 8 de monedas.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/4-billetes-8-monedas",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/4-billetes-8-monedas/nextep-ne-514",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/productos/ne-514/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CJNNTE010/CJNNTE010_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CajndeDineroNextepNe514NegroAcero84_Ne514_EAN7501811271793_0.jpg",
+          "https://www.unicom.mx/ecommerce/uploads/PVCAJONNEXNE-514.jpg"
+        ],
+        "documents": [{ "label": "Nextep NE-514 technical sheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/NE-514.pdf" }],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-514",
+          "providerSku": "CJNNTE010",
+          "ean": "7501811271793",
+          "productType": "Cajon de dinero POS",
+          "connection": "RJ11",
+          "opening": "Manual and electronic opening",
+          "voltage": "12 V",
+          "compartments": "4 bill compartments and 8 coin compartments",
+          "documentSlot": "1 document slot",
+          "lock": "3-position lock",
+          "durability": "1 million operations reference",
+          "included": "Cash drawer, coin tray, RJ11 cable 75 cm and 2 keys",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":491},{"providerId":"ctonline","warehouseCode":"D2A","stock":217},{"providerId":"ctonline","warehouseCode":"HMO","stock":22},{"providerId":"ctonline","warehouseCode":"MID","stock":18},{"providerId":"ctonline","warehouseCode":"CUN","stock":18},{"providerId":"ctonline","warehouseCode":"QRO","stock":17},{"providerId":"ctonline","warehouseCode":"AGS","stock":16},{"providerId":"ctonline","warehouseCode":"TXA","stock":15},{"providerId":"ctonline","warehouseCode":"DFP","stock":13},{"providerId":"ctonline","warehouseCode":"XLP","stock":12},{"providerId":"ctonline","warehouseCode":"LMO","stock":10},{"providerId":"ctonline","warehouseCode":"CHI","stock":8}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CJNNTE010", "stock": 972, "price": 482.96, "currency": "MXN", "branch": "DFA:491,D2A:217,HMO:22,MID:18,CUN:18,QRO:17,AGS:16,TXA:15,DFP:13,XLP:12,LMO:10,CHI:8" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous category was laptops and the manual path was generic POS accessories; classify as RJ11 metal cash drawer.", "Some retailers publish package dimensions as product dimensions.", "A retailer reference shows an incorrect EAN 7501810000000; provider/PCH use 7501811271793.", "Visible branch sum is 857 while feed total_stock is 972, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "335 x 368 x 90 mm plus 10 mm base; package 435 x 395 x 145 mm", "weight": "3.5 kg net; 4.0 kg gross" },
+        "sourceRefs": [
+          { "title": "Nextep NE-514 technical sheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/NE-514.pdf" },
+          { "title": "CompuPuebla Nextep NE-514 reference", "type": "retailer", "url": "https://compupuebla.com/producto/cajon-de-dinero-nextep-ne-514/" },
+          { "title": "GlobalOffice Nextep NE-514 reference", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/cajon-de-dinero/cajon-de-dinero-nextep-4-billetes-8-m-ne-514/ne-514" }
+        ]
+      }
+    },
+    {
+      "product_id": "ilb7wg5kged5b9h",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA C906 AC906-32G-RBK memoria USB 32GB USB 2.0 negra",
+        "description": "Memoria USB ADATA C906 de 32GB con interfaz USB 2.0, diseno compacto color negro, tapa que se acopla al cuerpo y compatibilidad plug-and-play.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/adata-c906-ac906-32g-rbk",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/en/consumer/category/portable-storage/12/",
+        "gallery": ["https://static.ctonline.mx/imagenes/MEMDAT4140/MEMDAT4140_2_full.jpg", "https://webapi3.adata.com/storage/product/c906_pk_2000x2000_32g_02_bk.png"],
+        "documents": [{ "label": "ADATA C906 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_c906_usb_flash_drive_20231023.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AC906-32G-RBK",
+          "series": "C906",
+          "providerSku": "MEMDAT4140",
+          "ean": "4713435791912",
+          "productType": "Memoria USB flash",
+          "capacity": "32 GB",
+          "interface": "USB 2.0",
+          "color": "Black",
+          "material": "Plastic",
+          "cap": "Cap can be attached to rear of drive",
+          "compatibility": "Windows Vista/7/8/8.1/10/11, Mac OS X 10.6+, Linux 2.6+",
+          "warranty": "Limited 5-year warranty by ADATA reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"AGS","stock":221},{"providerId":"ctonline","warehouseCode":"PUE","stock":79},{"providerId":"ctonline","warehouseCode":"CMT","stock":74},{"providerId":"ctonline","warehouseCode":"OAX","stock":68},{"providerId":"ctonline","warehouseCode":"TRN","stock":64},{"providerId":"ctonline","warehouseCode":"CUN","stock":50},{"providerId":"ctonline","warehouseCode":"CDV","stock":50},{"providerId":"ctonline","warehouseCode":"TOL","stock":40},{"providerId":"ctonline","warehouseCode":"SLP","stock":37},{"providerId":"ctonline","warehouseCode":"MOR","stock":34},{"providerId":"ctonline","warehouseCode":"COL","stock":28},{"providerId":"ctonline","warehouseCode":"ZAC","stock":27}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT4140", "stock": 967, "price": 4.21, "currency": "USD", "branch": "AGS:221,PUE:79,CMT:74,OAX:68,TRN:64,CUN:50,CDV:50,TOL:40,SLP:37,MOR:34,COL:28,ZAC:27" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path under memory RAM was incorrect; this is removable USB storage.", "Provider weight shows 32 g while ADATA datasheet lists 9 g, likely retail package or provider error.", "Visible branch sum is 772 while feed total_stock is 967, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "58 x 18 x 10 mm", "weight": "9 g official drive weight" },
+        "sourceRefs": [
+          { "title": "ADATA C906 product page", "type": "manufacturer", "url": "https://www.adata.com/en/consumer/category/portable-storage/12/" },
+          { "title": "ADATA C906 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_c906_usb_flash_drive_20231023.pdf" },
+          { "title": "CompuPuebla ADATA C906 reference", "type": "retailer", "url": "https://compupuebla.com/producto/memoria-usb-adata-c906-4/" }
+        ]
+      }
+    },
+    {
+      "product_id": "j0k2m8mpfaf58pj",
+      "research": {
+        "confidence": 0.97,
+        "name": "SanDisk SSD Plus SDSSDA3N-1T00-G26 M.2 NVMe 1TB PCIe Gen3",
+        "description": "SSD interno SanDisk SSD Plus M.2 NVMe de 1TB, formato M.2 2280 PCIe Gen3 x4, con lectura hasta 3200 MB/s y escritura hasta 2500 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/1tb-gen3",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/1tb-gen3/sandisk-ssd-plus-sdssda3n-1t00-g26",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/ssd/internal-ssd/sandisk-ssd-plus-m2-nvme?sku=SDSSDA3N-1T00-G26",
+        "gallery": ["https://static.ctonline.mx/imagenes/DDUWSD2720/DDUWSD2720_full.jpg", "https://www.sandisk.com/content/dam/store/en-us/assets/products/internal-storage/sandisk-ssd-plus-nvme/gallery/sandisk-ssd-plus-nvme-1tb-front.png"],
+        "documents": [{ "label": "SanDisk SSD Plus M.2 NVMe datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/ssd-plus-nvme/data-sheet-sandisk-ssd-plus-m2-nvme.pdf" }],
+        "specs": {
+          "brand": "SANDISK",
+          "model": "SDSSDA3N-1T00-G26",
+          "providerSku": "DDUWSD2720",
+          "alternateProviderSku": "HD-3320",
+          "upc": "619659208301",
+          "productType": "SSD interno M.2 NVMe",
+          "capacity": "1 TB",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe Gen 3.0 x4 NVMe",
+          "sequentialRead": "Up to 3200 MB/s",
+          "sequentialWrite": "Up to 2500 MB/s",
+          "endurance": "100 TBW",
+          "software": "Western Digital Dashboard",
+          "warranty": "3-year limited warranty by SanDisk reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "DDUWSD2720", "stock": 967, "price": 164.77, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "HD-3320", "stock": 0, "price": 204.92, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider suffix AC is not part of the SanDisk model.", "Previous path under laptops was incorrect; classify as M.2 NVMe Gen3 SSD.", "CVA has a higher price and zero stock, so CTOnline is the effective stocked offer.", "Provider branch-level locations are not available."]
+        },
+        "measurements": { "dimensions": "80 x 22 x 2.38 mm", "weight": "7.5 g +/- 1 g datasheet reference" },
+        "sourceRefs": [
+          { "title": "SanDisk SSD Plus M.2 NVMe product page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/sandisk-ssd-plus-m2-nvme?sku=SDSSDA3N-1T00-G26" },
+          { "title": "SanDisk SSD Plus M.2 NVMe datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/ssd-plus-nvme/data-sheet-sandisk-ssd-plus-m2-nvme.pdf" },
+          { "title": "GlobalOffice SanDisk HD-3320 reference", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/null/ssd-interno-sandisk-plus-nvme-1tb-pci-express-30-m/sdssda3n-1t00-g26" }
+        ]
+      }
+    },
+    {
+      "product_id": "4jt9ynzz28urvbo",
+      "research": {
+        "confidence": 0.97,
+        "name": "Huawei WiFi AX3S PSDN-AX30-30 router Wi-Fi 6 Plus AX3000 negro",
+        "description": "Router Huawei WiFi AX3S Wi-Fi 6 Plus AX3000 de doble banda con 4 puertos Gigabit WAN/LAN autoadaptables, HarmonyOS Mesh+, control parental y WPA3.",
+        "manualCategoryPath": "redes/routers/wifi-6/ax3000",
+        "semanticCategoryPath": "redes/routers/wifi-6/ax3000/huawei-wifi-ax3s-psdn-ax30",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/mx/routers/ax3s/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ROUHUW190/ROUHUW190_full.jpg", "https://consumer.huawei.com/content/dam/huawei-cbg-site/latam/br/mkt/pdp/routers/ax3s/specs-img/ax3s.png"],
+        "documents": [{ "label": "Huawei AX3S specs", "type": "manufacturer", "url": "https://consumer.huawei.com/mx/routers/ax3s/specs/" }],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "PSDN-AX30-30",
+          "manufacturerModel": "PSDN-AX30",
+          "providerSku": "ROUHUW190",
+          "manufacturerSku": "53030DPQ",
+          "ean": "6942103173011",
+          "productType": "Router Wi-Fi 6",
+          "wifi": "Wi-Fi 6 Plus AX3000, up to 2976 Mbps",
+          "bands": "574 Mbps at 2.4 GHz plus 2402 Mbps at 5 GHz",
+          "antennas": "2 x 2 MU-MIMO on 2.4 GHz and 5 GHz",
+          "ports": "4 x 10/100/1000 Mbps WAN/LAN auto-adaptive Ethernet ports",
+          "security": "WPA3, HomeSec and guest Wi-Fi references",
+          "features": "HarmonyOS Mesh+, visual Wi-Fi diagnosis, parental control, IPv4/IPv6, PPPoE/DHCP/static IP/WAN bridge modes",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":940},{"providerId":"ctonline","warehouseCode":"OAX","stock":14},{"providerId":"ctonline","warehouseCode":"TXA","stock":6}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUHUW190", "stock": 960, "price": 626.97, "currency": "MXN", "branch": "DFA:940,OAX:14,TXA:6" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path was incorrect/incomplete; this is a Wi-Fi 6 router.", "Huawei uses PSDN-AX30 while provider adds regional suffix -30 and SKU 53030DPQ.", "Visible branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "258.6 x 203.3 x 40.3 mm", "weight": "Approx 324 g" },
+        "sourceRefs": [
+          { "title": "Huawei AX3S product page", "type": "manufacturer", "url": "https://consumer.huawei.com/mx/routers/ax3s/" },
+          { "title": "Huawei AX3S specifications", "type": "manufacturer", "url": "https://consumer.huawei.com/mx/routers/ax3s/specs/" },
+          { "title": "Huawei AX3S support", "type": "support", "url": "https://consumer.huawei.com/mx/support/routers/ax3s/" }
+        ]
+      }
+    },
+    {
+      "product_id": "yuhqyas5co7l4pw",
+      "research": {
+        "confidence": 0.96,
+        "name": "Acteck Captive Vivid SP215 monitor VA 21.5 pulgadas FHD 75Hz HDMI VGA",
+        "description": "Monitor Acteck Captive Vivid SP215 de 21.5 pulgadas Full HD con panel VA, 75Hz, entradas HDMI y VGA, montaje VESA y acabado negro.",
+        "manualCategoryPath": "computo/monitores/oficina/22-fhd-75hz",
+        "semanticCategoryPath": "computo/monitores/oficina/22-fhd-75hz/acteck-captive-vivid-sp215",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/monitor-captive-vivid-sp215",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONACT020/MONACT020_6_full.jpg", "https://acteck.com/cdn/shop/files/AC-933858-FRONTAL.webp?v=1690211489&width=1000"],
+        "documents": [{ "label": "Acteck AC-933858 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-933858_V1.pdf?v=1694529486" }],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Captive Vivid SP215",
+          "manufacturerModel": "AC-933858",
+          "providerSku": "MONACT020",
+          "ean": "7506215933858",
+          "productType": "Monitor FHD de oficina",
+          "display": "21.5 in VA, 1920 x 1080 FHD",
+          "refreshRate": "75 Hz",
+          "brightness": "200-250 cd/m2 by official/retail references",
+          "contrast": "1000:1",
+          "responseTime": "5-8 ms by official/retail references",
+          "viewingAngles": "178 degrees horizontal / 178 degrees vertical",
+          "ports": "HDMI, VGA and DC input",
+          "vesa": "75 x 75 mm by technical sheet",
+          "speakers": "No speakers",
+          "warranty": "3 years by Acteck reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":97},{"providerId":"ctonline","warehouseCode":"OAX","stock":85},{"providerId":"ctonline","warehouseCode":"VHA","stock":72},{"providerId":"ctonline","warehouseCode":"TRN","stock":57},{"providerId":"ctonline","warehouseCode":"D2A","stock":56},{"providerId":"ctonline","warehouseCode":"HMO","stock":53},{"providerId":"ctonline","warehouseCode":"DGO","stock":50},{"providerId":"ctonline","warehouseCode":"MOR","stock":43},{"providerId":"ctonline","warehouseCode":"DFP","stock":43},{"providerId":"ctonline","warehouseCode":"ACA","stock":35},{"providerId":"ctonline","warehouseCode":"CHI","stock":29},{"providerId":"ctonline","warehouseCode":"PAC","stock":27}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACT020", "stock": 959, "price": 876.13, "currency": "MXN", "branch": "PUE:97,OAX:85,VHA:72,TRN:57,D2A:56,HMO:53,DGO:50,MOR:43,DFP:43,ACA:35,CHI:29,PAC:27" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider says 8 ms and 250 cd/m2; Acteck PDF lists 5-8 ms and 200-250 cd/m2.", "Acteck product page mentions VESA 100 x 100, while the PDF and other listings indicate 75 x 75.", "Visible branch sum is 647 while feed total_stock is 959, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "49.2 x 15.2 x 37.4 cm product; 54.2 x 11.7 x 35.5 cm package", "weight": "1.98 kg product; 2.68 kg package" },
+        "sourceRefs": [
+          { "title": "Acteck Captive Vivid SP215 product page", "type": "manufacturer", "url": "https://acteck.com/products/monitor-captive-vivid-sp215" },
+          { "title": "Acteck AC-933858 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-933858_V1.pdf?v=1694529486" },
+          { "title": "GlobalOffice Acteck SP215 reference", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/monitores/monitor-led-captive-vivid-sp215-plano-215inc-75-h/ac-933858" }
+        ]
+      }
+    },
+    {
+      "product_id": "8e7p5qcjolnupxm",
+      "research": {
+        "confidence": 0.91,
+        "name": "PCM RDC110074EN35AJ27 ribbon cera basica 110 mm x 74 m azul",
+        "description": "Ribbon PCM de cera basica color azul, 110 mm x 74 m, para impresion por transferencia termica de etiquetas en papel y materiales de vida corta.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-74m",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-74m/pcm-rdc110074en35aj27",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/etiquetas-y-ribbons/ribbon-para-impresora/ribbon-de-cera",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM1860/ACCPCM1860_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-rdc110074en35aj27-ribbon-pcm-cera-basica-pcm_0.webp"],
+        "documents": [{ "label": "PCM etiquetas y ribbons", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons/ribbon-para-impresora/ribbon-de-cera" }],
+        "specs": {
+          "brand": "PCM",
+          "model": "RDC110074EN35AJ27",
+          "providerSku": "ACCPCM1860",
+          "productType": "Ribbon de transferencia termica",
+          "material": "Wax / cera basica",
+          "color": "Blue",
+          "width": "110 mm",
+          "length": "74 m",
+          "packageQuantity": "1 roll retail reference",
+          "useCase": "Thermal transfer labels on paper/cardboard; short-life labels, not high heat or chemical resistance",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":240},{"providerId":"ctonline","warehouseCode":"CMT","stock":240},{"providerId":"ctonline","warehouseCode":"D2A","stock":240},{"providerId":"ctonline","warehouseCode":"GDL","stock":239}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1860", "stock": 959, "price": 0.92, "currency": "USD", "branch": "DFA:240,CMT:240,D2A:240,GDL:239" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is a thermal-transfer ribbon consumable.", "No official PCM public sheet was found for this exact SKU; official source validates the ribbon family and retailers validate the SKU.", "Public retail prices and stock vary widely; provider branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "110 mm x 74 m roll", "weight": "Not reliably published" },
+        "sourceRefs": [
+          { "title": "PCM ribbon de cera official family page", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons/ribbon-para-impresora/ribbon-de-cera" },
+          { "title": "CompuPuebla PCM RDC110074EN35AJ27 reference", "type": "retailer", "url": "https://compupuebla.com/producto/cintas-pcm-rdc110074en35aj27/" },
+          { "title": "Cityshop PCM RDC110074EN35AJ27 reference", "type": "retailer", "url": "https://cityshop.mx/producto/ribbon-pcm-cera-basica-pcm-110mm-x-74mts" }
+        ]
+      }
+    },
+    {
+      "product_id": "df9v6tuommtj664",
+      "research": {
+        "confidence": 0.92,
+        "name": "PCM RDC110450EN08AA63 ribbon cera premium 110 mm x 450 m azul",
+        "description": "Ribbon PCM de cera premium color azul, 110 mm x 450 m, para impresion por transferencia termica de etiquetas en papel y carton.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-450m",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-450m/pcm-rdc110450en08aa63",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/etiquetas-y-ribbons",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM1850/ACCPCM1850_2_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-rdc110450en08aa63-ribbon-pcm-cera-premium-pcm_0.webp"],
+        "documents": [{ "label": "PCM productos ribbons PDF", "type": "datasheet", "url": "https://www.pcm.com.mx/hubfs/Actualizacion-Learning-Center/Etiquetas-y-Ribbons/Productos-Ribbons.pdf" }],
+        "specs": {
+          "brand": "PCM",
+          "model": "RDC110450EN08AA63",
+          "providerSku": "ACCPCM1850",
+          "productType": "Ribbon de transferencia termica",
+          "material": "Wax / cera premium",
+          "color": "Blue",
+          "width": "110 mm",
+          "length": "450 m",
+          "core": "25.4 mm / 1 in retail reference",
+          "packageQuantity": "1 roll",
+          "useCase": "Thermal transfer labels on paper/cardboard",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"CMT","stock":240},{"providerId":"ctonline","warehouseCode":"GDL","stock":235},{"providerId":"ctonline","warehouseCode":"D2A","stock":235},{"providerId":"ctonline","warehouseCode":"DFA","stock":233},{"providerId":"ctonline","warehouseCode":"HMO","stock":5},{"providerId":"ctonline","warehouseCode":"CUE","stock":2},{"providerId":"ctonline","warehouseCode":"MOR","stock":1}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1850", "stock": 951, "price": 7.97, "currency": "USD", "branch": "CMT:240,GDL:235,D2A:235,DFA:233,HMO:5,CUE:2,MOR:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is a thermal-transfer ribbon consumable.", "Abasteo simplifies this SKU as wax ribbon, while Cityshop/Tony/TiendaClic identify the premium formulation.", "Public retail prices and stock vary widely; provider branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "110 mm x 450 m roll", "weight": "Not reliably published" },
+        "sourceRefs": [
+          { "title": "PCM etiquetas y ribbons official page", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons" },
+          { "title": "PCM productos ribbons PDF", "type": "datasheet", "url": "https://www.pcm.com.mx/hubfs/Actualizacion-Learning-Center/Etiquetas-y-Ribbons/Productos-Ribbons.pdf" },
+          { "title": "Abasteo PCM RDC110450EN08AA63 reference", "type": "retailer", "url": "https://www.abasteo.mx/Impresion-y-Consumibles/Consumibles-para-Impresoras/Cintas/Cintas-de-Transferencia-Termica/PCM-Cinta-de-Cera-RDC110450EN08AA63-25-4-mm-de-Diametro-Interno-110-mm-x-450-Metros-1-Rollo.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "817w7pkhsedtvlv",
+      "research": {
+        "confidence": 0.9,
+        "name": "PCM RDC110450EN35AA63 ribbon cera basica 110 mm x 450 m azul",
+        "description": "Ribbon PCM de cera basica color azul, 110 mm x 450 m, para impresion por transferencia termica en etiquetas POS e industriales.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-450m",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-450m/pcm-rdc110450en35aa63",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/etiquetas-y-ribbons",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM1830/ACCPCM1830_full.jpg", "https://images.pcel.com/600/Impresion-Cintas-PCM-RDC110450EN35AA63-576994-kAU8HZy0eEln9VVJ.jpg"],
+        "documents": [{ "label": "PCM etiquetas y ribbons", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons" }],
+        "specs": {
+          "brand": "PCM",
+          "model": "RDC110450EN35AA63",
+          "providerSku": "ACCPCM1830",
+          "productType": "Ribbon de transferencia termica",
+          "material": "Wax / cera basica",
+          "color": "Blue",
+          "width": "110 mm",
+          "length": "450 m",
+          "core": "25.4 mm / 1 in likely by 110 x 450 m family reference",
+          "packageQuantity": "1 roll retail reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":240},{"providerId":"ctonline","warehouseCode":"DFA","stock":240},{"providerId":"ctonline","warehouseCode":"D2A","stock":235},{"providerId":"ctonline","warehouseCode":"CMT","stock":230},{"providerId":"ctonline","warehouseCode":"HMO","stock":5}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1830", "stock": 950, "price": 4.5, "currency": "USD", "branch": "GDL:240,DFA:240,D2A:235,CMT:230,HMO:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is a thermal-transfer ribbon consumable.", "PCEL calls the item cera-resina basica, while CTOnline/Tony use cera basica; retain cera basica with discrepancy noted.", "Public retail prices and stock vary widely; provider branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "110 mm x 450 m roll", "weight": "Not reliably published" },
+        "sourceRefs": [
+          { "title": "PCM etiquetas y ribbons official page", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons" },
+          { "title": "Intercompras PCM RDC110450EN35AA63 reference", "type": "retailer", "url": "https://intercompras.com/p/consumibles-pcm-pos-rdc110450en35aa63-cinta-azul-impresoras-pos-alta-461225" },
+          { "title": "PCEL PCM RDC110450EN35AA63 reference", "type": "retailer", "url": "https://www.pcel.com/accesorios/cintas/PCM-RDC110450EN35AA63-Cinta-PCM-RDC110450EN35AA63-de-Cera-Resina-Basica-110mm-450m-Color-Azul-576994" }
+        ]
+      }
+    },
+    {
+      "product_id": "dht1arr27y5rh9m",
+      "research": {
+        "confidence": 0.94,
+        "name": "Perfect Choice Root Pro PC-045137 mouse inalambrico optico 1600 DPI negro",
+        "description": "Mouse inalambrico Perfect Choice Root Pro PC-045137 de 2.4GHz con receptor USB, sensor optico hasta 1600 DPI, boton DPI y diseno ergonomico negro.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi/perfect-choice-root-pro-pc-045137",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mouse-inalambrico-negro",
+        "gallery": ["https://perfectchoice.me/cdn/shop/files/PC-045137_A01_800x.jpg?v=1706655967", "https://perfectchoice.me/cdn/shop/files/PC-045137_B02_800x.jpg?v=1706655967"],
+        "documents": [{ "label": "Perfect Choice PC-045137 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-045137_FT_OUT.pdf?v=1689877475" }],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-045137",
+          "providerSku": "MOUMST1760",
+          "alternateProviderSku": "MS-1529",
+          "productType": "Mouse inalambrico optico",
+          "connection": "2.4 GHz RF with USB nano receiver",
+          "sensor": "Optical",
+          "resolution": "Up to 1600 DPI; provider and retailers mention 1000/1200/1600 DPI steps",
+          "buttons": "4 buttons with DPI button",
+          "range": "10 m",
+          "battery": "1 x AA",
+          "color": "Black",
+          "compatibility": "Windows XP/Vista/7/8/10 reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOUMST1760", "stock": 938, "price": 92.78, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "MS-1529", "stock": 9, "price": 91.26, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous category was laptops and path was generic mouse; classify as basic 1600 DPI wireless mouse.", "Manufacturer page says 1600 DPI, while provider/retailers detail 1000/1200/1600 DPI steps.", "The linked manual is shared with adjacent Perfect Choice models and may not be specific to PC-045137.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "100 x 60 x 30 mm", "weight": "49 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-045137 product page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mouse-inalambrico-negro" },
+          { "title": "Perfect Choice PC-045137 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-045137_FT_OUT.pdf?v=1689877475" },
+          { "title": "CompuPuebla Perfect Choice PC-045137 reference", "type": "retailer", "url": "https://compupuebla.com/producto/mouse-perfect-choice-pc-045137/" }
+        ]
+      }
+    },
+    {
+      "product_id": "xohqp5d84s0a297",
+      "research": {
+        "confidence": 0.91,
+        "name": "PCM RDC110074EN08AJ27 ribbon cera premium 110 mm x 74 m azul",
+        "description": "Ribbon PCM de cera premium color azul, 110 mm x 74 m con nucleo de 12.7 mm, para impresion por transferencia termica de etiquetas.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-74m",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-74m/pcm-rdc110074en08aj27",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/cotizacion-ribbons",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM1880/ACCPCM1880_full.jpg", "https://www.cyberpuerta.mx/img/product/XL/CP-PCM-RDC110074EN08AJ27-f6f0d3.png"],
+        "documents": [{ "label": "PCM productos ribbons PDF", "type": "datasheet", "url": "https://www.pcm.com.mx/hubfs/Actualizacion-Learning-Center/Etiquetas-y-Ribbons/Productos-Ribbons.pdf" }],
+        "specs": {
+          "brand": "PCM",
+          "model": "RDC110074EN08AJ27",
+          "providerSku": "ACCPCM1880",
+          "productType": "Ribbon de transferencia termica",
+          "material": "Wax / cera premium",
+          "color": "Blue",
+          "width": "110 mm",
+          "length": "74 m",
+          "core": "12.7 mm retail reference",
+          "packageQuantity": "1 roll",
+          "useCase": "Short-life thermal transfer labels on paper/cardboard",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":240},{"providerId":"ctonline","warehouseCode":"CMT","stock":240},{"providerId":"ctonline","warehouseCode":"D2A","stock":240},{"providerId":"ctonline","warehouseCode":"GDL","stock":199},{"providerId":"ctonline","warehouseCode":"LEO","stock":20}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1880", "stock": 939, "price": 1.64, "currency": "USD", "branch": "DFA:240,CMT:240,D2A:240,GDL:199,LEO:20" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is a thermal-transfer ribbon consumable.", "PCM official source validates the family while exact SKU details come from retailers.", "Cyberpuerta has generic use text that is less specific than PCM ribbon-family context.", "Public retail prices and stock vary widely; provider branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "110 mm x 74 m roll; 12.7 mm inner core", "weight": "Not reliably published" },
+        "sourceRefs": [
+          { "title": "PCM cotizacion ribbons", "type": "manufacturer", "url": "https://www.pcm.com.mx/cotizacion-ribbons" },
+          { "title": "PCM productos ribbons PDF", "type": "datasheet", "url": "https://www.pcm.com.mx/hubfs/Actualizacion-Learning-Center/Etiquetas-y-Ribbons/Productos-Ribbons.pdf" },
+          { "title": "Cyberpuerta PCM RDC110074EN08AJ27 reference", "type": "retailer", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Consumibles-para-Impresoras/Cintas/Cintas-de-Transferencia-Termica/PCM-Cinta-de-Cera-RDC110074EN08AJ27-12-7-mm-de-Diametro-Interno-110-mm-x-74-Metros-1-Rollo-Rollo.html" }
+        ]
+      }
+    }
+  ]
+}
