@@ -442,6 +442,16 @@ const researchedBatchCases = [
   ["Perfect Choice PC-110279 microfono escritorio cuello flexible 3.5mm", "PERFECT CHOICE", "audio/microfonos/escritorio-3-5mm"],
   ["Manhattan 333412 cable USB 2.0 A a Mini-B 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/usb/mini-usb"],
   ["Manhattan 301503 cable Y Molex 4 pines macho a dual hembra 20cm", "MANHATTAN", "computo/componentes/cables-internos/alimentacion-molex"],
+  ["Manhattan 349369 cable corriente interno HDD SATA doble", "MANHATTAN", "computo/componentes/cables-internos/alimentacion-sata"],
+  ["Manhattan 340496 cable USB 2.0 extension 3m plata", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones"],
+  ["Manhattan 317863 cable USB A-B 3m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/3m"],
+  ["Manhattan 371315 cable SVGA monitor 5mm HD15 macho 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15-1-8m"],
+  ["Manhattan 165211 cable USB extension 1.8m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones"],
+  ["Manhattan 311731 cable SVGA monitor 8mm HD15 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15-1-8m"],
+  ["Manhattan 311748 cable SVGA monitor 8mm HD15 3m", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15-3m"],
+  ["Manhattan 342766 cable alimentacion interno HDD SATA", "MANHATTAN", "computo/componentes/cables-internos/alimentacion-sata"],
+  ["Manhattan 317887 cable USB A-A 1.8m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-a"],
+  ["Manhattan 340700 cable SATA HDD 50cm", "MANHATTAN", "computo/componentes/cables-internos/datos-sata"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

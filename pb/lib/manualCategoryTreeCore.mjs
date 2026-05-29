@@ -76,6 +76,7 @@ export const MANUAL_CATEGORY_TREE_CORE = [
   { path: 'computo/componentes/cables-internos/alimentacion-pcie', name: 'Adaptadores de alimentacion PCIe', legacyCategory: 'laptops' },
   { path: 'computo/componentes/cables-internos/alimentacion-sata', name: 'Cables internos de alimentacion SATA', legacyCategory: 'laptops' },
   { path: 'computo/componentes/cables-internos/alimentacion-molex', name: 'Cables internos de alimentacion Molex', legacyCategory: 'laptops' },
+  { path: 'computo/componentes/cables-internos/datos-sata', name: 'Cables internos de datos SATA', legacyCategory: 'laptops' },
   { path: 'computo/almacenamiento/ssd', name: 'SSD', legacyCategory: 'laptops' },
   { path: 'computo/almacenamiento/ssd/m2-nvme', name: 'SSD M.2 NVMe', legacyCategory: 'laptops' },
   { path: 'computo/almacenamiento/ssd/m2-nvme/1tb-gen3', name: 'SSD M.2 NVMe Gen3 de 1TB', legacyCategory: 'laptops' },

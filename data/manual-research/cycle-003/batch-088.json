@@ -1,0 +1,523 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b088-2026-05-29",
+  "cycle": 3,
+  "batch": 88,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "sw01818m780vopa",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 349369 cable Y de alimentacion SATA Molex 4 pines a 2x SATA 15 pines 15cm",
+        "description": "Cable divisor interno Manhattan 349369 para convertir una salida Molex 4 pines de fuente de poder en dos conectores de alimentacion SATA 15 pines para HDD, SSD u otros perifericos internos.",
+        "manualCategoryPath": "computo/componentes/cables-internos/alimentacion-sata",
+        "semanticCategoryPath": "computo/componentes/cables-internos/alimentacion-sata/manhattan-349369",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-y-de-alimentacion-sata-349369",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/sata-power-y-cable-349369-1.jpg?v=1758972615&width=1946",
+          "https://manhattan.lat/cdn/shop/files/sata-power-y-cable-349369-2.jpg?v=1758972615&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 349369 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/45436/349369_datasheet_spanish.pdf" },
+          { "label": "Manhattan 349369 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/5216/349369_datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "349369",
+          "providerSku": "CABITL025 / CB-205",
+          "upc": "766623349369",
+          "ean": "0766623349369",
+          "productType": "Cable Y de alimentacion SATA interno",
+          "connectors": "Molex 4 pines macho a 2 conectores SATA 15 pines macho",
+          "contacts": "Conectores SATA banados en oro",
+          "boot": "PVC moldeado",
+          "cableGauge": "18 AWG",
+          "withstandingVoltage": "300 V DC",
+          "certifications": ["RU", "CE"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 25 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL025", "stock": 25, "price": 2.06, "currency": "USD", "branch": "CT:25" },
+            { "providerId": "cva", "providerSku": "CB-205", "stock": 0, "price": 2.00, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de almacenamiento/discos duros corregida manualmente a cable interno de alimentacion SATA."]
+        },
+        "measurements": { "length": "15 cm nominal / 16 cm datasheet", "weight": "0.03 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 349369 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-y-de-alimentacion-sata-349369" },
+          { "title": "Manhattan 349369 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-sata-power-y-cable-349369" },
+          { "title": "InterDS Manhattan 349369", "type": "retail", "url": "https://inter-ds.com/products/cable-alimentacion-manhattan-convertidor-de-1-molex-a-2-sata-15cm-349369" }
+        ]
+      }
+    },
+    {
+      "product_id": "heayhmr8y9as2i7",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 340496 cable de extension USB 2.0 A macho a A hembra 3m plata translucido",
+        "description": "Extension USB 2.0 Manhattan 340496 de 3 metros, USB-A macho a USB-A hembra, para ampliar conexiones de perifericos con transferencia hasta 480 Mbps.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/manhattan-340496",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-20-de-alta-velocidad-340496",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/hi-speed-usb-extension-cable-340496-1_a8af2ddc-22ea-4cd7-ae47-ac4221a87afe.jpg?v=1779533913&width=1946",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-extension-cable-340496-2_34a54fb1-c557-40f0-afbd-5a5087abee1a.jpg?v=1678689223&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 340496 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/5163/340496_datasheet.pdf" },
+          { "label": "Manhattan 340496 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/48122/340496_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "340496",
+          "providerSku": "CABITL035 / CB-222",
+          "upc": "766623340496",
+          "ean": "0766623340496",
+          "productType": "Cable de extension USB",
+          "standard": "USB 2.0",
+          "connectors": "USB-A macho a USB-A hembra",
+          "dataRate": "Hasta 480 Mbps",
+          "contacts": "Banados en oro",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Plata translucido",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 3 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL035", "stock": 3, "price": 2.43, "currency": "USD", "branch": "CT:3" },
+            { "providerId": "cva", "providerSku": "CB-222", "stock": 0, "price": 2.37, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa generica de cables adaptadores refinada a extension USB."]
+        },
+        "measurements": { "length": "3 m", "weight": "0.08 kg", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 340496 official MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-20-de-alta-velocidad-340496" },
+          { "title": "Manhattan 340496 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-extension-cable-340496" },
+          { "title": "DigiKey Manhattan 340496", "type": "retail", "url": "https://www.digikey.com/en/products/detail/manhattan-products/340496/28314229" }
+        ]
+      }
+    },
+    {
+      "product_id": "3lx6bj7w18c9bw6",
+      "research": {
+        "confidence": 0.95,
+        "name": "Manhattan 317863 cable USB A macho a B macho 3m gris",
+        "description": "Cable Manhattan 317863 USB-A macho a USB-B macho de 3 metros para impresoras, hubs, gabinetes y otros dispositivos USB full-speed.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/3m/manhattan-317863",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-para-dispositivos-usb-317863",
+        "gallery": [
+          "https://images.icecat.biz/img/norm/high/7054053-7256.jpg",
+          "https://images.icecat.biz/img/gallery_mediums/img_7054053_medium_1481543336_3352_14419.jpg"
+        ],
+        "documents": [
+          { "label": "Manhattan 317863 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63565/317863_datasheet_english.pdf" },
+          { "label": "Manhattan 317863 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63567/317863_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "317863",
+          "providerSku": "CABITL060 / CB-199",
+          "upc": "766623317863",
+          "ean": "0766623317863",
+          "productType": "Cable USB para dispositivo/impresora",
+          "standard": "USB 1.1 full-speed",
+          "connectors": "USB-A macho a USB-B macho",
+          "dataRate": "Hasta 12 Mbps",
+          "contacts": "Niquelados",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Gris",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 417 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL060", "stock": 417, "price": 1.91, "currency": "USD", "branch": "CT:417" },
+            { "providerId": "cva", "providerSku": "CB-199", "stock": 5, "price": 1.94, "currency": "USD", "branch": "CVA:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "3 m", "weight": "0.08 kg", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 317863 official MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-para-dispositivos-usb-317863" },
+          { "title": "Manhattan 317863 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63565/317863_datasheet_english.pdf" },
+          { "title": "Icecat Manhattan 317863", "type": "catalog", "url": "https://icecat.biz/us/p/manhattan/317863/usb%2Bcables-0766623317863-317863-7054084.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "nbf3wdlct377m2m",
+      "research": {
+        "confidence": 0.92,
+        "name": "Manhattan 371315 cable SVGA HD15 macho a macho 5mm 1.8m negro",
+        "description": "Cable SVGA Manhattan 371315 de 1.8 metros, HD15 macho a HD15 macho, blindado y con cable mini-coax RGB para conectar fuentes VGA/SVGA a monitores o switches KVM.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-8m/manhattan-371315",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tvc.mx/products/41631",
+        "gallery": [
+          "https://cdn.tvc.mx/media/314099/Cable-Para-Monitor-SVGA-1.8-Metros-371315-Manhattan-1.png",
+          "https://cdn.tvc.mx/media/314123/Cable-Para-Monitor-SVGA-6.png"
+        ],
+        "documents": [
+          { "label": "TVC Manhattan 371315 product page", "type": "retail_specs", "url": "https://tvc.mx/products/41631" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "371315",
+          "providerSku": "CABITL065 / CB-237",
+          "upc": "766623371315",
+          "productType": "Cable SVGA/VGA",
+          "connectors": "2 x HD15 macho",
+          "cableDiameter": "8 mm",
+          "resolution": "1360 x 768 reportado por TVC",
+          "cableDiameter": "5 mm",
+          "contacts": "Banados en niquel",
+          "cableGauge": "28 AWG",
+          "shielding": "Forro y trenzado; mini-coax RGB y par de video",
+          "withstandingVoltage": "300 V DC",
+          "certifications": ["UL 2919"],
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 111 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL065", "stock": 111, "price": 3.46, "currency": "USD", "branch": "CT:111" },
+            { "providerId": "cva", "providerSku": "CB-237", "stock": 0, "price": 3.51, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de monitores corregida manualmente a cable VGA/SVGA."]
+        },
+        "measurements": { "length": "1.8 m", "weight": "0.17 kg", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "TVC Manhattan 371315", "type": "retail_specs", "url": "https://tvc.mx/products/41631" },
+          { "title": "Oasify Manhattan 371315", "type": "retail", "url": "https://oasify.com/cables-vga/cable-371315-para-monitor-svga-18-metros-negro" }
+        ]
+      }
+    },
+    {
+      "product_id": "mm0522cifpbemqx",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 165211 cable de extension USB A macho a A hembra 1.8m gris",
+        "description": "Extension USB Manhattan 165211 de 1.8 metros, USB-A macho a USB-A hembra, para extender conexiones full-speed hacia impresoras, teclados, gabinetes y perifericos.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/manhattan-165211",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-de-alta-velocidad-165211",
+        "gallery": [
+          "https://images.icecat.biz/img/norm/high/7054079-7801.jpg",
+          "https://images.icecat.biz/img/gallery_mediums/img_7054079_medium_1481543358_025_14419.jpg"
+        ],
+        "documents": [
+          { "label": "Manhattan 165211 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63557/165211_datasheet_spanish.pdf" },
+          { "label": "PCH Mayoreo 165211 datasheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/766623165211-M.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "165211",
+          "providerSku": "CABITL070 / CB-164",
+          "upc": "766623165211",
+          "ean": "0766623165211",
+          "productType": "Cable de extension USB",
+          "standard": "USB 1.1 full-speed",
+          "connectors": "USB-A macho a USB-A hembra",
+          "dataRate": "Hasta 12 Mbps",
+          "contacts": "Niquelados",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Gris",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 436 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 29 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL070", "stock": 436, "price": 1.50, "currency": "USD", "branch": "CT:436" },
+            { "providerId": "cva", "providerSku": "CB-164", "stock": 29, "price": 1.52, "currency": "USD", "branch": "CVA:29" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de discos duros refinada a extension USB."]
+        },
+        "measurements": { "length": "1.8 m", "weight": "0.05 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 165211 official MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-de-alta-velocidad-165211" },
+          { "title": "TVC Manhattan 165211", "type": "retail_specs", "url": "https://tvc.mx/products/39182" },
+          { "title": "Oasify Manhattan 165211", "type": "retail", "url": "https://oasify.com/cables-pc/40897-cable-extension-165211-usb-macho-usb-hembra-18-metros-gris-manhattan-0766623165211.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "lkbwcrjw7g2hlb5",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 311731 cable SVGA HD15 macho a macho 1.8m negro",
+        "description": "Cable SVGA Manhattan 311731 de 1.8 metros, HD15 macho a HD15 macho, blindado con mini-coax RGB y par de video para conexion de monitor, KVM o divisor VGA.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-8m/manhattan-311731",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-18m-311731",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/svga-monitor-cable-311731-1_4cfec164-bbaf-420b-b6e3-e924fe7c6cff.jpg?v=1779533991&width=1946",
+          "https://manhattan.lat/cdn/shop/files/svga-monitor-cable-311731-2_ea7f1d6a-de25-494d-91e6-6a76a6ee23a3.jpg?v=1779533991&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 311731 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43022/311731_datasheet_english.pdf" },
+          { "label": "Manhattan 311731 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43024/311731_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "311731",
+          "providerSku": "CABITL080 / CB-162",
+          "upc": "766623311731",
+          "ean": "0766623311731",
+          "productType": "Cable SVGA/VGA",
+          "connectors": "2 x HD15 macho",
+          "contacts": "Banados en niquel",
+          "cableGauge": "28 AWG",
+          "shielding": "Forro y trenzado; mini-coax RGB y par de video",
+          "withstandingVoltage": "300 V DC",
+          "certifications": ["UL 2919"],
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 1693 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 9 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL080", "stock": 1693, "price": 3.46, "currency": "USD", "branch": "CT:1693" },
+            { "providerId": "cva", "providerSku": "CB-162", "stock": 9, "price": 3.51, "currency": "USD", "branch": "CVA:9" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de monitores corregida manualmente a cable VGA/SVGA."]
+        },
+        "measurements": { "length": "1.8 m", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 311731 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-18m-311731" },
+          { "title": "Manhattan 311731 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43024/311731_datasheet_spanish.pdf" },
+          { "title": "Rapid Manhattan 311731", "type": "retail", "url": "https://www.rapidonline.com/manhattan-311731-svga-monitor-cable-1-8m-58-5874" }
+        ]
+      }
+    },
+    {
+      "product_id": "526j80gc3ex7kic",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 311748 cable SVGA HD15 macho a macho 3m negro",
+        "description": "Cable SVGA Manhattan 311748 de 3 metros, HD15 macho a HD15 macho, blindado para reducir EMI y conectar computadoras, KVM o divisores a monitores VGA/SVGA.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-3m/manhattan-311748",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-3m-311748",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/svga-monitor-cable-311748-packaging-1_7dbcb572-337e-4a76-aa6f-0ec9e99bb9ca.jpg?v=1779533981&width=1946",
+          "https://manhattan.lat/cdn/shop/files/svga-monitor-cable-311748-2_8b96c4e5-3f46-4846-8e74-ebcbcc8955ed.jpg?v=1779533981&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 311748 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43028/311748_datasheet_english.pdf" },
+          { "label": "Manhattan 311748 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43030/311748_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "311748",
+          "providerSku": "CABITL090 / CB-172",
+          "upc": "766623311748",
+          "ean": "0766623311748",
+          "productType": "Cable SVGA/VGA",
+          "connectors": "2 x HD15 macho",
+          "resolution": "1360 x 768 reportado por pagina oficial LATAM",
+          "cableDiameter": "8 mm",
+          "contacts": "Banados en niquel",
+          "cableGauge": "28 AWG",
+          "shielding": "Forro y trenzado; mini-coax RGB y par de video",
+          "withstandingVoltage": "300 V DC",
+          "certifications": ["UL 2919"],
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 147 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL090", "stock": 147, "price": 5.23, "currency": "USD", "branch": "CT:147" },
+            { "providerId": "cva", "providerSku": "CB-172", "stock": 0, "price": 5.12, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de monitores corregida manualmente a cable VGA/SVGA."]
+        },
+        "measurements": { "length": "3 m", "weight": "0.25 kg reportado por retail; 0.211-0.278 kg rango retail", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 311748 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-3m-311748" },
+          { "title": "Manhattan 311748 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43030/311748_datasheet_spanish.pdf" },
+          { "title": "Apollo Office Systems Manhattan 311748", "type": "retail", "url": "https://shop.apolloofficesystems.com/10-ft-svga-hd15-m-m-cable" }
+        ]
+      }
+    },
+    {
+      "product_id": "hme7v2ukks4eirc",
+      "research": {
+        "confidence": 0.96,
+        "name": "Manhattan 342766 cable de energia SATA Molex 4 pines a SATA 15 pines 16cm",
+        "description": "Cable interno Manhattan 342766 para convertir una conexion Molex 4 pines de fuente de poder en alimentacion SATA 15 pines para HDD, SSD u otros dispositivos internos.",
+        "manualCategoryPath": "computo/componentes/cables-internos/alimentacion-sata",
+        "semanticCategoryPath": "computo/componentes/cables-internos/alimentacion-sata/manhattan-342766",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-de-energia-sata-342766",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/sata-power-cable-342766-1_f56f6ae0-326a-41f6-a701-52966db1842c.jpg?v=1764419697&width=1946",
+          "https://manhattan.lat/cdn/shop/files/sata-power-cable-342766-2_c4be2645-bd6c-4219-8271-a8a9ac25c161.jpg?v=1764419697&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 342766 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/45019/342766_datasheet_spanish.pdf" },
+          { "label": "Manhattan 342766 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/45017/342766_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "342766",
+          "providerSku": "CABITL100 / CB-160",
+          "upc": "766623342766",
+          "ean": "0766623342766",
+          "productType": "Cable de alimentacion SATA interno",
+          "connectors": "Molex 4 pines macho a SATA 15 pines macho",
+          "contacts": "SATA banado en oro",
+          "boot": "PVC moldeado",
+          "cableGauge": "18 AWG",
+          "withstandingVoltage": "300 V DC",
+          "certifications": ["RU", "CE"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 131 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 8 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL100", "stock": 131, "price": 1.31, "currency": "USD", "branch": "CT:131" },
+            { "providerId": "cva", "providerSku": "CB-160", "stock": 8, "price": 1.24, "currency": "USD", "branch": "CVA:8" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de almacenamiento/discos duros corregida manualmente a cable interno de alimentacion SATA."]
+        },
+        "measurements": { "length": "16 cm", "weight": "0.021 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 342766 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-de-energia-sata-342766" },
+          { "title": "Manhattan 342766 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/45017/342766_datasheet_english.pdf" },
+          { "title": "FullOffice Manhattan 342766", "type": "retail", "url": "https://fulloffice.com/products/cable-de-energia-sata-de-4-a-15-pines-16cm-manhattan-342766" }
+        ]
+      }
+    },
+    {
+      "product_id": "ejgz50d5tqpcyur",
+      "research": {
+        "confidence": 0.91,
+        "name": "Manhattan 317887 cable USB A macho a A macho 1.8m gris",
+        "description": "Cable Manhattan 317887 USB tipo A macho a USB tipo A macho de 1.8 metros para conectar hubs o dispositivos USB compatibles a una computadora o a otro hub.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-a",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-a/manhattan-317887",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.techly.com/icoc-u-aa-18-u.html",
+        "gallery": [
+          "https://images.icecat.biz/img/norm/high/5926462-1031.jpg",
+          "https://images.icecat.biz/img/gallery_mediums/img_5926462_medium_1481199475_1283_8346.jpg"
+        ],
+        "documents": [
+          { "label": "Icecat Manhattan 317887 PDF", "type": "catalog_pdf", "url": "https://icecat.biz/rest/product-pdf?productId=5926462&lang=en" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "317887",
+          "providerSku": "CABITL1025 / CB-239",
+          "upc": "766623317887",
+          "ean": "0766623317887",
+          "productType": "Cable USB A-A",
+          "connectors": "USB-A macho a USB-A macho",
+          "dataRate": "Hasta 12 Mbps segun catalogos retail/Techly",
+          "gender": "Macho/Macho",
+          "color": "Gris",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 402 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 13 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1025", "stock": 402, "price": 1.50, "currency": "USD", "branch": "CT:402" },
+            { "providerId": "cva", "providerSku": "CB-239", "stock": 13, "price": 1.52, "currency": "USD", "branch": "CVA:13" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "1.8 m", "weight": "0.05-0.084 kg reportado por retailers" },
+        "sourceRefs": [
+          { "title": "Techly/Manhattan 317887", "type": "retail_specs", "url": "https://www.techly.com/icoc-u-aa-18-u.html" },
+          { "title": "CompuPuebla Manhattan 317887", "type": "retail", "url": "https://compupuebla.com/producto/cable-usb-manhattan-317887/" },
+          { "title": "Icecat Manhattan 317887", "type": "catalog", "url": "https://icecat.co.uk/en/p/manhattan/317887/usb%2Bcables-0766623317887-317887-5926462.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "qfh8d5rq4jzyte4",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 340700 cable de datos SATA 7 pines macho a macho 50cm rojo",
+        "description": "Cable interno Manhattan 340700 SATA de datos, 7 pines macho a 7 pines macho, 50 cm, rojo, para conectar unidades SATA a controladores con transferencia hasta 6.0 Gbps.",
+        "manualCategoryPath": "computo/componentes/cables-internos/datos-sata",
+        "semanticCategoryPath": "computo/componentes/cables-internos/datos-sata/manhattan-340700",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-de-datos-sata-340700",
+        "gallery": [
+          "https://manhattanproducts.eu/cdn/shop/products/sata-data-cable-340700-1_935d913f-cb94-47ad-ae40-17e54bac04db.jpg?v=1678760193&width=1946",
+          "https://manhattanproducts.eu/cdn/shop/products/sata-data-cable-340700-2_d584b32a-70e9-48ab-bc8e-ca990bd3e0e3.jpg?v=1678760193&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 340700 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7736/340700_datasheet_spanish.pdf" },
+          { "label": "Manhattan 340700 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7712/340700_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "340700",
+          "providerSku": "CABITL1100 / CB-200",
+          "upc": "766623340700",
+          "ean": "0766623340700",
+          "productType": "Cable interno de datos SATA",
+          "connectors": "2 x SATA 7 pines macho",
+          "dataRate": "Hasta 6.0 Gbps",
+          "contacts": "Niquelados",
+          "cableGauge": "26 AWG",
+          "shielding": "Blindado",
+          "color": "Rojo",
+          "certifications": ["UL 2725"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 414 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1100", "stock": 414, "price": 1.97, "currency": "USD", "branch": "CT:414" },
+            { "providerId": "cva", "providerSku": "CB-200", "stock": 5, "price": 1.52, "currency": "USD", "branch": "CVA:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de discos duros corregida manualmente a cable interno de datos SATA."]
+        },
+        "measurements": { "length": "50 cm", "weight": "0.02 kg neto / 0.03 kg bruto", "packagingDimensions": "240 x 133 x 15 mm", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 340700 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-de-datos-sata-340700" },
+          { "title": "Manhattan 340700 official EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-sata-data-cable-340700" },
+          { "title": "Manhattan 340700 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7736/340700_datasheet_spanish.pdf" }
+        ]
+      }
+    }
+  ]
+}
