@@ -1,0 +1,456 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b096-2026-05-29",
+  "cycle": 3,
+  "batch": 96,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "2ow8ggymr0r18qs",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 963562 cable USB-C macho a USB-C macho 1m negro nylon",
+        "description": "Cable BRobotix 963562 USB-C macho a USB-C macho de 1 m, color negro, conectores rectos, forro de nylon y presentacion de una pieza.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-c-c/1m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-c-c/1m/brobotix-963562",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mipc.com.mx/cable-de-datos-brobotix-963562-usb-c-macho-a-usb-c-macho-1m-negro.html",
+        "gallery": [
+          "https://mipc.com.mx/cable-de-datos-brobotix-963562-usb-c-macho-a-usb-c-macho-1m-negro.html",
+          "https://pcstore.mx/cable-usb-v30-brobotix-963562-machomacho-1-negro",
+          "https://www.cyberpuerta.mx/img/product/M/CP-BROBOTIX-963562-1.jpg"
+        ],
+        "documents": [{ "label": "MiPC BRobotix 963562 product page", "type": "product_page", "url": "https://mipc.com.mx/cable-de-datos-brobotix-963562-usb-c-macho-a-usb-c-macho-1m-negro.html" }],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "963562",
+          "providerSku": "CABRBT3200",
+          "ean": "7503033963562",
+          "productType": "Cable USB-C",
+          "connector1": "USB-C male",
+          "connector2": "USB-C male",
+          "connectorForm": "Straight",
+          "length": "1 m",
+          "usbVersion": "USB 3.2 Gen 1 retailer reference",
+          "dataRate": "480 Mbps retailer reference; inconsistent with USB 3.x label",
+          "chargingCurrent": "Up to 3 A retailer reference",
+          "jacket": "Nylon",
+          "cableType": "Round cable",
+          "color": "Black",
+          "quantity": "1 piece",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CMT", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABRBT3200", "stock": 1, "price": 3.54, "currency": "USD", "branch": "CMT:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["El feed lo nombra USB V3.0; fuentes externas verifican conectores USB-C a USB-C y publican velocidad 480 Mbps, inconsistente con USB 3.x."]
+        },
+        "measurements": { "dimensions": "No publicado por fuentes consultadas", "weight": "No publicado por fuentes consultadas" },
+        "sourceRefs": [
+          { "title": "MiPC BRobotix 963562", "type": "retailer", "url": "https://mipc.com.mx/cable-de-datos-brobotix-963562-usb-c-macho-a-usb-c-macho-1m-negro.html" },
+          { "title": "PCStore BRobotix 963562", "type": "retailer", "url": "https://pcstore.mx/cable-usb-v30-brobotix-963562-machomacho-1-negro" }
+        ]
+      }
+    },
+    {
+      "product_id": "2pgrokk4ya58wcy",
+      "research": {
+        "confidence": 0.96,
+        "name": "Uniarch by UNV UAC-B112-F28-X-H camara analogica bullet IR 2MP 2.8mm IP67",
+        "description": "Camara analogica bullet Uniarch UAC-B112-F28-X-H de 2MP para CCTV, lente fijo 2.8 mm, salida TVI/AHD/CVI/CVBS, IR de 20 m, 1080p a 30 fps, carcasa IP67 y alimentacion 12 VDC.",
+        "manualCategoryPath": "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-ir",
+        "semanticCategoryPath": "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-ir/uniarch-uac-b112-f28-x-h",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniview.com/es/Products/Analog/UAC-B112-F28%2840%29/",
+        "gallery": [
+          "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-analoga-bullet-uniarch-uac-b112-f28-x-h-2mp-tvia/uac-b112-f28-x-h",
+          "https://www.uniview.com/es/Products/Analog/UAC-B112-F28%2840%29/"
+        ],
+        "documents": [{ "label": "Uniarch UAC-B112-F28-X-H datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=070OGozVCWJTLgF3OtnL21j6Qits-TJEX-VuBpSwQPM89LPd&id=22753262" }],
+        "specs": {
+          "brand": "UNIARCH",
+          "manufacturer": "Uniview",
+          "model": "UAC-B112-F28-X-H",
+          "providerSku": "UAC-B112-F28-X-H",
+          "distributorCode": "CA111UNI04",
+          "productType": "Camara analogica bullet",
+          "sensor": "1/3 inch CMOS",
+          "resolution": "2 MP / 1080p",
+          "frameRate": "1080p up to 30 fps",
+          "lens": "2.8 mm fixed M12",
+          "fieldOfView": "90.5 deg H / 49.6 deg V / 109.5 deg D",
+          "videoFormats": "TVI/AHD/CVI/CVBS",
+          "infraredRange": "20 m",
+          "features": "DWDR, Smart IR, 2D/3D DNR, OSD, 180 degree flip",
+          "ingressProtection": "IP67",
+          "material": "Plastic",
+          "power": "12 VDC +/-25%, max 2 W",
+          "operatingTemperature": "-30 to 60 C",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "not_available", "stock": 8 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "UAC-B112-F28-X-H", "stock": 8, "price": 169.48, "currency": "MXN", "branch": "not_available" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["El feed local tenia marca ElectroPrice y categoria de tarjeta madre; las fuentes del fabricante/distribuidor lo verifican como camara CCTV analogica Uniarch/UNV.", "GlobalOffice publica existencias separadas de 5 pzas y Almacen Mexico 1556 pzas, no equivalentes al stock 8 del feed Tecnosinergia."]
+        },
+        "measurements": { "dimensions": "142 x 63 x 65 mm", "weight": "145 g" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Uniarch UAC-B112-F28-X-H", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-analoga-bullet-uniarch-uac-b112-f28-x-h-2mp-tvia/uac-b112-f28-x-h" },
+          { "title": "Uniview UAC-B112-F28(40) official", "type": "manufacturer", "url": "https://www.uniview.com/es/Products/Analog/UAC-B112-F28%2840%29/" },
+          { "title": "Uniarch UAC-B112-F28-X-H datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=070OGozVCWJTLgF3OtnL21j6Qits-TJEX-VuBpSwQPM89LPd&id=22753262" }
+        ]
+      }
+    },
+    {
+      "product_id": "2px6cf8b81a98lv",
+      "research": {
+        "confidence": 0.98,
+        "name": "Brother TN920XXL toner original negro super alto rendimiento 11000 paginas",
+        "description": "Cartucho de toner original Brother TN920XXL negro de super alto rendimiento para impresoras laser monocromaticas Brother, con rendimiento aproximado de 11000 paginas bajo ISO/IEC 19752.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-920/xxl-negro",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-920/xxl-negro/brother-tn920xxl",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/tn920xxl",
+        "gallery": [
+          "https://www.brother.com.mx/products/tn920xxl",
+          "https://globaloffice.mx/app/detalle/producto/toner/toner-brother-super-alto-rendimiento-negro-11000-paginas-tn/tn920xxl",
+          "https://www.bhphotovideo.com/c/product/1794908-OREG/brother_tn920xxl_super_high_yield.html"
+        ],
+        "documents": [{ "label": "Brother ISO/IEC 19752 page yield declaration", "type": "datasheet", "url": "https://www.brother.com/pub/iso_yield/mono_19752/declared_page_yield_iso19752_en.pdf" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN920XXL",
+          "providerSku": "CARBRT4240",
+          "upc": "012502665960",
+          "productType": "Toner laser monocromatico",
+          "color": "Black",
+          "yield": "Approximately 11000 pages",
+          "yieldStandard": "ISO/IEC 19752",
+          "quantity": "1 cartridge",
+          "compatibility": "Brother HL-L5210, HL-L6210, HL-L6310, HL-L6415, DCP-L5510 and MFC-L5710/L5915/L6810/L6915 families retailer/manufacturer reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":36},{"providerId":"ctonline","warehouseCode":"DFA","stock":19},{"providerId":"ctonline","warehouseCode":"CMT","stock":15},{"providerId":"ctonline","warehouseCode":"DGO","stock":6},{"providerId":"ctonline","warehouseCode":"LEO","stock":6},{"providerId":"ctonline","warehouseCode":"GDL","stock":6},{"providerId":"ctonline","warehouseCode":"HMO","stock":4},{"providerId":"ctonline","warehouseCode":"CHI","stock":4},{"providerId":"ctonline","warehouseCode":"TAM","stock":4},{"providerId":"ctonline","warehouseCode":"MTY","stock":4},{"providerId":"ctonline","warehouseCode":"MAZ","stock":4},{"providerId":"ctonline","warehouseCode":"CUN","stock":4}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT4240", "stock": 137, "price": 2072.00, "currency": "MXN", "branch": "D2A:36,DFA:19,CMT:15,DGO:6,LEO:6,GDL:6,HMO:4,CHI:4,TAM:4,MTY:4,MAZ:4,CUN:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Las sucursales visibles suman 112 unidades y el stock total del feed es 137; se conserva el total del proveedor y el desglose publicado."]
+        },
+        "measurements": { "dimensions": "Package 14.2 x 9.8 x 5.8 in retailer reference", "weight": "Package 2.385 lb retailer reference" },
+        "sourceRefs": [
+          { "title": "Brother Mexico TN920XXL", "type": "manufacturer", "url": "https://www.brother.com.mx/products/tn920xxl" },
+          { "title": "B&H Brother TN920XXL", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1794908-OREG/brother_tn920xxl_super_high_yield.html" },
+          { "title": "GlobalOffice Brother TN920XXL", "type": "retailer", "url": "https://globaloffice.mx/app/detalle/producto/toner/toner-brother-super-alto-rendimiento-negro-11000-paginas-tn/tn920xxl" }
+        ]
+      }
+    },
+    {
+      "product_id": "2q2c6djql25zmrw",
+      "research": {
+        "confidence": 0.93,
+        "name": "PCM RDC110074EN26AJ27 ribbon cera estandar azul 110mm x 74m",
+        "description": "Ribbon PCM RDC110074EN26AJ27 de cera estandar color azul para transferencia termica, medida 110 mm x 74 m, orientado a impresoras de etiquetas/POS compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/pcm-rdc110074en26aj27",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/cintas-pcm-rdc110074en26aj27/",
+        "gallery": [
+          "https://compupuebla.com/producto/cintas-pcm-rdc110074en26aj27/",
+          "https://intercompras.com/p/ribbon-pcm-rdc110074en26aj27-cera-estandar-mm-x-m-compatible-con-456867",
+          "https://www.tiendaclic.mx/ver-detalle/cintas-pcm-rdc110074en26aj27-pcm-rdc110074en26aj27"
+        ],
+        "documents": [{ "label": "CompuPuebla PCM RDC110074EN26AJ27 product page", "type": "product_page", "url": "https://compupuebla.com/producto/cintas-pcm-rdc110074en26aj27/" }],
+        "specs": {
+          "brand": "PCM",
+          "model": "RDC110074EN26AJ27",
+          "providerSku": "ACCPCM1870",
+          "productType": "Ribbon de transferencia termica",
+          "ribbonType": "Wax / cera estandar",
+          "width": "110 mm",
+          "length": "74 m",
+          "color": "Blue",
+          "quantity": "1 roll",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":240},{"providerId":"ctonline","warehouseCode":"GDL","stock":239},{"providerId":"ctonline","warehouseCode":"DFA","stock":228},{"providerId":"ctonline","warehouseCode":"CMT","stock":170}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1870", "stock": 877, "price": 1.34, "currency": "USD", "branch": "D2A:240,GDL:239,DFA:228,CMT:170" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Producto estaba en tinta/toner generico; las fuentes externas lo verifican como ribbon de cera para transferencia termica."]
+        },
+        "measurements": { "dimensions": "Ribbon 110 mm x 74 m", "weight": "No publicado por fuentes consultadas" },
+        "sourceRefs": [
+          { "title": "CompuPuebla PCM RDC110074EN26AJ27", "type": "retailer", "url": "https://compupuebla.com/producto/cintas-pcm-rdc110074en26aj27/" },
+          { "title": "Intercompras PCM RDC110074EN26AJ27", "type": "retailer", "url": "https://intercompras.com/p/ribbon-pcm-rdc110074en26aj27-cera-estandar-mm-x-m-compatible-con-456867" },
+          { "title": "TiendaClic PCM RDC110074EN26AJ27", "type": "retailer", "url": "https://www.tiendaclic.mx/ver-detalle/cintas-pcm-rdc110074en26aj27-pcm-rdc110074en26aj27" }
+        ]
+      }
+    },
+    {
+      "product_id": "2qfngkppij202ae",
+      "research": {
+        "confidence": 0.98,
+        "name": "Kensington SureTrack Dual K75350WW mouse inalambrico dual azul",
+        "description": "Mouse inalambrico Kensington SureTrack Dual K75350WW color azul, con Bluetooth 3.0/5.0, nano receptor USB-A 2.4 GHz, sensor optico, 3 botones, DPI seleccionable 1200/2400/4000 y cifrado AES de 128 bits.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/multi-dispositivo",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/multi-dispositivo/kensington-k75350ww",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/es-mx/p/productos/control/mouse/rat%C3%B3n-inal%C3%A1mbrico-dual-suretrack-azul/",
+        "gallery": [
+          "https://www.kensington.com/es-mx/p/productos/control/mouse/rat%C3%B3n-inal%C3%A1mbrico-dual-suretrack-azul/",
+          "https://fireowls.com/products/k75350ww-kensington-suretrack-dual-wireless-mouse",
+          "https://www.tiendaclic.mx/ver-detalle/mouse-kensington-k75350ww-kensington-k75350ww"
+        ],
+        "documents": [{ "label": "ACCO/Kensington SureTrack Dual datasheet", "type": "datasheet", "url": "https://accobrands.cl/wp-content/uploads/2025/10/K75298WW-K75350WW-K75351WW-K75352WW-K75353WW-Mouse-Inalambrico-SureTrack%E2%84%A2-Conexion-Bluetooth-3.0-USB-2.4-GHz.pdf" }],
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K75350WW",
+          "providerSku": "MOUKNS150",
+          "upc": "085896753506",
+          "productType": "Mouse inalambrico dual",
+          "series": "SureTrack Dual",
+          "color": "Blue",
+          "connectivity": "Bluetooth 3.0/5.0 and 2.4 GHz USB-A nano receiver",
+          "sensor": "Optical",
+          "buttons": "3",
+          "dpi": "1200/2400/4000 selectable",
+          "range": "Up to 10 m",
+          "security": "AES 128-bit encryption",
+          "battery": "1 AA battery included",
+          "compatibility": "Windows, macOS, Chrome OS and Android",
+          "warranty": "3 years manufacturer reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":20},{"providerId":"ctonline","warehouseCode":"TXA","stock":3},{"providerId":"ctonline","warehouseCode":"VHA","stock":2}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUKNS150", "stock": 25, "price": 388.89, "currency": "MXN", "branch": "DFA:20,TXA:3,VHA:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["El feed destaca 2400 DPI, pero la ficha oficial/ACCO lista tres modos 1200, 2400 y 4000 DPI."]
+        },
+        "measurements": { "dimensions": "62 x 110 x 36 mm; retail package 48 x 104 x 184 mm", "weight": "65 g; retail package 0.22 kg" },
+        "sourceRefs": [
+          { "title": "Kensington Mexico K75350WW", "type": "manufacturer", "url": "https://www.kensington.com/es-mx/p/productos/control/mouse/rat%C3%B3n-inal%C3%A1mbrico-dual-suretrack-azul/" },
+          { "title": "ACCO/Kensington SureTrack Dual datasheet", "type": "datasheet", "url": "https://accobrands.cl/wp-content/uploads/2025/10/K75298WW-K75350WW-K75351WW-K75352WW-K75353WW-Mouse-Inalambrico-SureTrack%E2%84%A2-Conexion-Bluetooth-3.0-USB-2.4-GHz.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "2qkti55g8yuujau",
+      "research": {
+        "confidence": 0.95,
+        "name": "Stylos STMS641B memoria microSDHC 64GB Clase 10 con adaptador SD negra",
+        "description": "Memoria Stylos STMS641B microSDHC de 64GB Clase 10 color negro, con adaptador SD incluido y velocidad reportada por distribuidor de 17-20 MB/s lectura y 10-14 MB/s escritura.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10/stylos-stms641b",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://stylos.mx/producto/memoria-microsd-64gb/",
+        "gallery": [
+          "https://stylos.mx/producto/memoria-microsd-64gb/",
+          "https://stylos.mx/wp-content/uploads/2023/11/msd64-1100x1467.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-STYLOS-STMS641B-9446d8.jpg"
+        ],
+        "documents": [{ "label": "Stylos STMS641B official product page", "type": "product_page", "url": "https://stylos.mx/producto/memoria-microsd-64gb/" }],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STMS641B",
+          "providerSku": "MEMSTY280",
+          "ean": "7503024582826",
+          "productType": "Memoria microSD",
+          "capacity": "64 GB",
+          "format": "microSDHC",
+          "speedClass": "Class 10",
+          "includedAdapter": "SD adapter",
+          "color": "Black",
+          "interface": "SD2.0/SD3.0 distributor reference",
+          "voltage": "2.7 to 3.6 V distributor reference",
+          "readSpeed": "17-20 MB/s distributor reference",
+          "writeSpeed": "10-14 MB/s distributor reference",
+          "operatingTemperature": "0 to 70 C distributor reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":31},{"providerId":"ctonline","warehouseCode":"AGS","stock":6},{"providerId":"ctonline","warehouseCode":"VER","stock":4}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSTY280", "stock": 41, "price": 8.11, "currency": "USD", "branch": "PUE:31,AGS:6,VER:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Producto estaba en memoria RAM; fuentes lo verifican como memoria flash microSD. Techsmart publica peso de empaque 990 g, probable error, por lo que no se usa como peso real."]
+        },
+        "measurements": { "dimensions": "Package approx 9 x 11 cm x 1 mm distributor reference", "weight": "No publicado de forma confiable" },
+        "sourceRefs": [
+          { "title": "Stylos STMS641B official", "type": "manufacturer", "url": "https://stylos.mx/producto/memoria-microsd-64gb/" },
+          { "title": "Techsmart Stylos MDC10STY641B", "type": "distributor", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?Marca=STYLOS&TipoMoneda=USD&cveProducto=MDC10STY641B" },
+          { "title": "Cyberpuerta Stylos STMS641B", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Memorias-RAM-y-Flash/Memorias-Flash/Memoria-Flash-Stylos-STMS641B-64GB-MicroSDHC-Clase-10.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2r0pzpljgbgsb5r",
+      "research": {
+        "confidence": 0.97,
+        "name": "Vorago MO-501 mouse gamer alambrico optico USB 3200 DPI negro",
+        "description": "Mouse gamer Vorago MO-501 alambrico USB-A con sensor optico, 6 botones, resolucion ajustable 1000/1600/2400/3200 DPI, cable de 1.8 m y color negro.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/gaming/3200-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/gaming/3200-dpi/vorago-mo-501",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.voragolive.com/descargables/Fichas/ficha-MO-501.pdf",
+        "gallery": [
+          "https://www.cyberpuerta.mx/Computo-Hardware/Dispositivos-de-Entrada/Mouse/Mouse-Gamer-Ergonomico-Vorago-MO-501-Alambrico-Optico-3-200DPI-USB-A-Negro.html",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-VORAGO-MO-501-1.jpg",
+          "https://lbstore.com.mx/products/mouse-gaming-vorago-mo-501"
+        ],
+        "documents": [
+          { "label": "Vorago MO-501 ficha oficial", "type": "datasheet", "url": "https://www.voragolive.com/descargables/Fichas/ficha-MO-501.pdf" },
+          { "label": "Vorago MO-501 manual oficial", "type": "manual", "url": "https://voragolive.com/descargables/Manuales/manual-MO-501.pdf" }
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "MO-501",
+          "providerSku": "MOUVGO330",
+          "ean": "7502266672340",
+          "productType": "Mouse gamer alambrico",
+          "interface": "USB",
+          "sensor": "Optical",
+          "buttons": "6",
+          "dpi": "1000/1600/2400/3200",
+          "frameRate": "4000 fps",
+          "cableLength": "1.8 m",
+          "power": "5 VDC <100 mA",
+          "features": "Plug and Play",
+          "color": "Black",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"CLN","stock":1}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUVGO330", "stock": 1, "price": 5.24, "currency": "USD", "branch": "CLN:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["El feed del proveedor marca Descontinuado pero conserva stock CLN:1; la limpieza por obsolescencia debe ejecutarse solo cuando deje de aparecer o llegue a stock 0 despues de la ventana configurada.", "Ficha y manual oficiales difieren en dimensiones: ficha 124 x 71 x 40 mm, manual 113 x 71 x 38.5 mm."]
+        },
+        "measurements": { "dimensions": "124 x 71 x 40 mm official datasheet; 113 x 71 x 38.5 mm official manual", "weight": "65 g" },
+        "sourceRefs": [
+          { "title": "Vorago MO-501 official datasheet", "type": "manufacturer", "url": "https://www.voragolive.com/descargables/Fichas/ficha-MO-501.pdf" },
+          { "title": "Vorago MO-501 official manual", "type": "manual", "url": "https://voragolive.com/descargables/Manuales/manual-MO-501.pdf" },
+          { "title": "Cyberpuerta Vorago MO-501", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Dispositivos-de-Entrada/Mouse/Mouse-Gamer-Ergonomico-Vorago-MO-501-Alambrico-Optico-3-200DPI-USB-A-Negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2rfqlbx5b87f7ux",
+      "research": {
+        "confidence": 0.94,
+        "name": "Backdrop TWS-8 audifonos deportivos inalambricos Bluetooth 5.3 negros",
+        "description": "Audifonos Backdrop TWS-8 inalambricos tipo true wireless para deporte, Bluetooth 5.3, color negro, microfono integrado, estuche de carga USB-C y autonomia de musica aproximada de 4 a 5 horas.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/tws/deportivos",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/tws/deportivos/backdrop-tws-8",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://backdrop.com.mx/producto/audifonos-inalambricos-tws-8/",
+        "gallery": [
+          "https://backdrop.com.mx/producto/audifonos-inalambricos-tws-8/",
+          "https://backdrop.com.mx/wp-content/uploads/2024/06/IMG_FINAL.png",
+          "https://backdrop.com.mx/wp-content/uploads/2024/06/BOX_TWS8.png",
+          "https://www.cyberpuerta.mx/img/product/M/CP-BACKDROP-TWS-8-14c2e8.jpg"
+        ],
+        "documents": [{ "label": "Backdrop TWS-8 manual oficial", "type": "manual", "url": "https://backdrop.com.mx/wp-content/uploads/2024/08/TWS-8-Manual-WEB.pdf" }],
+        "specs": {
+          "brand": "BACKDROP",
+          "model": "TWS-8",
+          "providerSku": "SPK-2352",
+          "productType": "Audifonos TWS deportivos",
+          "connectivity": "Bluetooth 5.3",
+          "range": "10 m",
+          "formFactor": "In-ear true wireless",
+          "chargingPort": "USB-C",
+          "earbudBattery": "25 mAh each",
+          "caseBattery": "380 mAh",
+          "input": "5 VDC 1 A",
+          "earbudChargingTime": "1 h",
+          "caseChargingTime": "2 h",
+          "musicTime": "4-5 h",
+          "color": "Black",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "CVA", "stock": 11 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "SPK-2352", "stock": 11, "price": 151.78, "currency": "MXN", "branch": "CVA:11" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z"
+        },
+        "measurements": { "dimensions": "No publicado por fuente oficial consultada", "weight": "No publicado por fuente oficial consultada" },
+        "sourceRefs": [
+          { "title": "Backdrop TWS-8 official", "type": "manufacturer", "url": "https://backdrop.com.mx/producto/audifonos-inalambricos-tws-8/" },
+          { "title": "Backdrop TWS-8 manual", "type": "manual", "url": "https://backdrop.com.mx/wp-content/uploads/2024/08/TWS-8-Manual-WEB.pdf" },
+          { "title": "Cyberpuerta Backdrop TWS-8", "type": "retailer", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Audio/Audifonos-Intrauriculares/Backdrop-Audifonos-Intrauriculares-con-Microfono-TWS-8-Inalambrico-Bluetooth-USB-C-Negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2rfsz5lol00lh8d",
+      "research": {
+        "confidence": 0.96,
+        "name": "Zoomy ZN01 limador electrico de unas para mascotas con laser USB-C blanco",
+        "description": "Limador de unas para mascotas Zoomy ZN01 para perros y gatos, con luz laser/LED integrada, funcionamiento silencioso, diseno ergonomico, cuerpo ABS y recarga USB-C.",
+        "manualCategoryPath": "mascotas/higiene/limadores-unas-electricos",
+        "semanticCategoryPath": "mascotas/higiene/limadores-unas-electricos/zoomy-zn01",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://zoomy.mx/shop/estetica-y-cuidado/limador-para-mascotas-zn01/",
+        "gallery": [
+          "https://zoomy.mx/shop/estetica-y-cuidado/limador-para-mascotas-zn01/",
+          "https://zoomy.mx/wp-content/uploads/2024/08/AC-11594-1-600x600.jpg",
+          "https://zoomy.mx/wp-content/uploads/2024/08/AC-11594-3.jpg",
+          "https://zoomy.mx/wp-content/uploads/2024/08/AC-11594-6.jpg",
+          "https://zoomy.mx/wp-content/uploads/2025/01/ZN01-02-2.jpg"
+        ],
+        "documents": [{ "label": "Zoomy ZN01 official product page", "type": "product_page", "url": "https://zoomy.mx/shop/estetica-y-cuidado/limador-para-mascotas-zn01/" }],
+        "specs": {
+          "brand": "ZOOMY",
+          "model": "ZN01",
+          "providerSku": "AC-11594",
+          "upc": "7500647007378",
+          "productType": "Limador electrico de unas para mascotas",
+          "useCase": "Dogs and cats",
+          "features": "Silent operation, ergonomic design, integrated laser/LED light",
+          "chargingPort": "USB-C",
+          "material": "ABS",
+          "input": "5 V 1 A",
+          "color": "White",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AC-11594", "stock": 5, "price": 175.41, "currency": "MXN", "branch": "CVA:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Producto estaba en cables/adaptadores; las fuentes externas lo clasifican como cuidado e higiene para mascotas.", "Intercompras y CompuViper publican existencias mayores y sucursales propias; se conserva el stock CVA del feed para sincronizacion productiva."]
+        },
+        "measurements": { "dimensions": "47 x 18 x 171 mm", "weight": "150 g" },
+        "sourceRefs": [
+          { "title": "Zoomy ZN01 official", "type": "manufacturer", "url": "https://zoomy.mx/shop/estetica-y-cuidado/limador-para-mascotas-zn01/" },
+          { "title": "Intercompras Zoomy ZN01", "type": "retailer", "url": "https://intercompras.com/p/limador-unas-zoomy-zn01-laser-mascotas-seguro-preciso-373783" },
+          { "title": "TiendaClic Zoomy ZN01", "type": "retailer", "url": "https://www.tiendaclic.mx/ver-detalle/limador-de-unas-para-mascotas-con-laser-zoomy-zn01" }
+        ]
+      }
+    },
+    {
+      "product_id": "2rjju02v1torkrx",
+      "research": {
+        "confidence": 0.98,
+        "name": "Brother TN229XLY toner original amarillo alto rendimiento 2300 paginas",
+        "description": "Cartucho de toner original Brother TN229XLY amarillo de alto rendimiento XL, 1 cartucho, rendimiento aproximado de 2300 paginas bajo ISO/IEC 19798 para impresoras Brother laser color compatibles.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-229/xl-amarillo",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-229/xl-amarillo/brother-tn229xly",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.ca/en/p/TN229XLY",
+        "gallery": [
+          "https://www.brother.ca/en/p/TN229XLY",
+          "https://cdn-tp1.mozu.com/21830-33325/cms/33325/files/a084d982-cc15-4aa8-8f6e-9b1682d718d8?_mzcb=_1778858238220&max=500",
+          "https://cdn-tp1.mozu.com/21830-33325/cms/33325/files/e0ad6105-acf6-4b10-abe2-15c8d5db637d?_mzcb=_1778858238220&max=500",
+          "https://www.bhphotovideo.com/c/product/1789837-REG/brother_tn229xly_yellow_high_yield_toner.html"
+        ],
+        "documents": [{ "label": "Brother ISO/IEC 19798 page yield declaration", "type": "datasheet", "url": "https://www.brother.com/pub/iso_yield/colour_19798/declared_page_yield_iso19798_en.pdf" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN229XLY",
+          "providerSku": "CARBRT4370",
+          "upc": "012502666189",
+          "productType": "Toner laser color",
+          "color": "Yellow",
+          "yield": "Approximately 2300 pages",
+          "yieldStandard": "ISO/IEC 19798",
+          "quantity": "1 cartridge",
+          "compatibility": "Brother HL-L3220CDW, HL-L3280CDW, HL-L3295CDW, HL-L3300CDW, HL-L8245CDW, MFC-L3720CDW, MFC-L3765CDW, MFC-L3780CDW and MFC-L8395CDW retailer/manufacturer reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":71},{"providerId":"ctonline","warehouseCode":"GDL","stock":12},{"providerId":"ctonline","warehouseCode":"MOR","stock":2},{"providerId":"ctonline","warehouseCode":"TPC","stock":2},{"providerId":"ctonline","warehouseCode":"MAZ","stock":2},{"providerId":"ctonline","warehouseCode":"PAC","stock":2},{"providerId":"ctonline","warehouseCode":"IRA","stock":2},{"providerId":"ctonline","warehouseCode":"LEO","stock":1},{"providerId":"ctonline","warehouseCode":"MTY","stock":1},{"providerId":"ctonline","warehouseCode":"MID","stock":1},{"providerId":"ctonline","warehouseCode":"OAX","stock":1}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT4370", "stock": 97, "price": 1701.11, "currency": "MXN", "branch": "PUE:71,GDL:12,MOR:2,TPC:2,MAZ:2,PAC:2,IRA:2,LEO:1,MTY:1,MID:1,OAX:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["CompuPuebla muestra un detalle con texto Magenta; Brother y B&H confirman que TN229XLY es amarillo."]
+        },
+        "measurements": { "dimensions": "Package 15.5 x 6.4 x 4.2 in retailer reference", "weight": "Package 1.425 lb / approx 646 g retailer reference" },
+        "sourceRefs": [
+          { "title": "Brother Canada TN229XLY", "type": "manufacturer", "url": "https://www.brother.ca/en/p/TN229XLY" },
+          { "title": "B&H Brother TN229XLY", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1789837-REG/brother_tn229xly_yellow_high_yield_toner.html" },
+          { "title": "CompuPuebla Brother TN229XLY", "type": "retailer", "url": "https://compupuebla.com/producto/toner-brother-tn229xly/" }
+        ]
+      }
+    }
+  ]
+}

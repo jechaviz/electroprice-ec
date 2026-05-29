@@ -522,6 +522,16 @@ const researchedBatchCases = [
   ["Vertiv Liebert PSA5-1000MT-120 UPS line-interactive 1000VA 600W LCD", "VERTIV", "energia/no-breaks-ups/line-interactive/1000va"],
   ["Epson DS-770 II escaner documental duplex 45ppm 90ipm 7000 paginas", "EPSON", "impresion/escaneres/documentales-duplex"],
   ["APC SMX120RMBP2U banco externo baterias Smart-UPS X 120V rack torre", "APC", "energia/accesorios-ups/bancos-baterias-rack-torre"],
+  ["BRobotix 963562 cable USB-C macho a USB-C macho 1m negro nylon", "BROBOTIX", "accesorios/cables-adaptadores/usb/usb-c-c/1m"],
+  ["Uniarch UAC-B112-F28-X-H camara bullet analogica 2MP IR 2.8mm", "UNIARCH", "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-ir"],
+  ["Brother TN920XXL toner negro ultra alto rendimiento 11000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-920/xxl-negro"],
+  ["PCM RDC110074EN26AJ27 ribbon cera azul transferencia termica 110x74", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera"],
+  ["Kensington K75350WW SureTrack mouse inalambrico Bluetooth 2.4GHz azul", "KENSINGTON", "computo/perifericos/mouse/inalambricos/multi-dispositivo"],
+  ["Stylos STMS641B memoria Micro SD 64GB Clase 10 negra", "STYLOS", "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10"],
+  ["Vorago MO-501 mouse gaming USB optico 3200 DPI negro", "VORAGO", "computo/perifericos/mouse/alambricos/gaming/3200-dpi"],
+  ["Backdrop TWS-8 audifonos inalambricos Bluetooth TWS sport negros", "BACKDROP", "audio/audifonos/bluetooth/tws/deportivos"],
+  ["Zoomy ZN01 limador de unas para mascotas con laser", "ZOOMY", "mascotas/higiene/limadores-unas-electricos"],
+  ["Brother TN229XLY toner amarillo alto rendimiento 2300 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-229/xl-amarillo"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

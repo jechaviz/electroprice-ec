@@ -142,6 +142,7 @@ export const MANUAL_CATEGORY_TREE_CORE = [
   { path: 'computo/perifericos/mouse/alambricos', name: 'Mouse alambricos', legacyCategory: 'laptops' },
   { path: 'computo/perifericos/mouse/alambricos/basicos', name: 'Mouse alambricos basicos', legacyCategory: 'laptops' },
   { path: 'computo/perifericos/mouse/alambricos/gaming', name: 'Mouse gaming alambricos', legacyCategory: 'laptops' },
+  { path: 'computo/perifericos/mouse/alambricos/gaming/3200-dpi', name: 'Mouse gaming alambricos hasta 3200 DPI', legacyCategory: 'laptops' },
   { path: 'computo/perifericos/mouse/alambricos/gaming/alto-dpi', name: 'Mouse gaming alambricos de alto DPI', legacyCategory: 'laptops' },
   { path: 'computo/perifericos/combos-teclado-mouse', name: 'Combos de teclado y mouse', legacyCategory: 'laptops' },
   { path: 'computo/perifericos/combos-teclado-mouse/inalambricos', name: 'Combos inalambricos de teclado y mouse', legacyCategory: 'laptops' },
