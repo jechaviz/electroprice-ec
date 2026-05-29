@@ -22,6 +22,16 @@ const researchedBatchCases = [
   ["Stylos ST100 STMUSB2B memoria USB 16GB USB 2.0 plata", "STYLOS", "computo/almacenamiento/memorias-flash/usb/16gb/metalicas"],
   ["Epson T504420-AL botella tinta amarilla 504 EcoTank 70 ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t504/amarillo"],
   ["TP-Link TL-WA850RE extensor Wi-Fi N300 2.4GHz", "TP-LINK", "redes/extensores-wifi/n300"],
+  ["ADATA C008 AC008-16G-RKD memoria USB 2.0 retractil 16GB negro", "ADATA", "computo/almacenamiento/memorias-flash/usb/16gb/retractiles"],
+  ["Epson T504120-AL botella tinta negra 504 EcoTank 127 ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t504/negro"],
+  ["Xerox Marathon 003M02051 papel bond carta 5000 hojas 70 g", "XEROX", "oficina/papel-consumibles/papel-bond/carta/5000-hojas"],
+  ["Perfect Choice PC-030331 E-Duster aire comprimido 230 g", "PERFECT CHOICE", "computo/accesorios/limpieza/aire-comprimido/e-duster"],
+  ["Brother DCP-T530DW multifuncional tinta continua duplex Wi-Fi", "BROTHER", "impresion/impresoras/multifuncionales-tinta-continua/brother-dcp"],
+  ["Koblenz RS-1410 regulador voltaje AVR 1410VA 700W 8 contactos", "KOBLENZ", "energia/supresores-reguladores/reguladores-voltaje/avr/1410va"],
+  ["Brother DCP-T730DW multifuncional tinta continua duplex Wi-Fi 23 ppm", "BROTHER", "impresion/impresoras/multifuncionales-tinta-continua/brother-dcp"],
+  ["Epson T544120-AL botella tinta negra Dye EcoTank L3110 65 ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t544/negro"],
+  ["LG 24U411A-B.AWMQ monitor 23.8 FHD IPS 120Hz HDR10", "LG", "computo/monitores/oficina/24-fhd-120hz"],
+  ["PCM T8070S rollo termico 80 x 70 mm paquete 50", "PCM", "punto-de-venta/consumibles/rollos-termicos/80x70"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

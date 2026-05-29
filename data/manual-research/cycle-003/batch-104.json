@@ -1,0 +1,433 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b104-2026-05-29",
+  "cycle": 3,
+  "batch": 104,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "dhh6tgvzrvg6p28",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA C008 AC008-16G-RKD memoria USB 2.0 retractil 16GB negro rojo",
+        "description": "Memoria USB 2.0 ADATA C008 de 16GB con diseno retractil sin tapa, cuerpo plastico negro/rojo, orificio para llavero y compatibilidad plug and play con Windows, macOS y Linux.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/retractiles",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/retractiles/adata-c008-ac008-16g-rkd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/consumer/category/13/107/",
+        "gallery": ["https://www.adata.com/us/consumer/category/13/107/", "https://webapi3.adata.com/storage/product/c008_c008_bk.jpg", "https://webapi3.adata.com/storage/product/c008_pk_2000x2000_16g_bk.png"],
+        "documents": [{ "label": "ADATA C008 USB flash drive datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_c008_usb_flash_drive_20240620.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "C008",
+          "partNumber": "AC008-16G-RKD",
+          "providerSku": "MEMDAT1380",
+          "ean": "4718050609604",
+          "productType": "Memoria USB 2.0 retractil",
+          "capacity": "16 GB",
+          "interface": "USB-A 2.0",
+          "body": "Plastic retractable capless design",
+          "color": "Negro / rojo",
+          "compatibility": "Windows, macOS, Linux",
+          "warranty": "5 years by ADATA datasheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":2450},{"providerId":"ctonline","warehouseCode":"HMO","stock":805},{"providerId":"ctonline","warehouseCode":"XLP","stock":403},{"providerId":"ctonline","warehouseCode":"OBR","stock":237},{"providerId":"ctonline","warehouseCode":"CMT","stock":204},{"providerId":"ctonline","warehouseCode":"MOR","stock":193},{"providerId":"ctonline","warehouseCode":"ZAC","stock":191},{"providerId":"ctonline","warehouseCode":"CLN","stock":128},{"providerId":"ctonline","warehouseCode":"LEO","stock":123},{"providerId":"ctonline","warehouseCode":"QRO","stock":108},{"providerId":"ctonline","warehouseCode":"DGO","stock":100},{"providerId":"ctonline","warehouseCode":"TAM","stock":100}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT1380", "stock": 6113, "price": 3.78, "currency": "USD", "branch": "D2A:2450,HMO:805,XLP:403,OBR:237,CMT:204,MOR:193,ZAC:191,CLN:128,LEO:123,QRO:108,DGO:100,TAM:100" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path computo/componentes/memoria-ram was incorrect; this is USB flash storage.", "Provider title says negro, while official EAN/part maps to red-black AC008-16G-RKD.", "Visible branch sum is 5042 while feed total_stock is 6113, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "60 x 20 x 9 mm", "weight": "10 g" },
+        "sourceRefs": [
+          { "title": "ADATA C008 product family", "type": "manufacturer", "url": "https://www.adata.com/us/consumer/category/13/107/" },
+          { "title": "ADATA C008 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_c008_usb_flash_drive_20240620.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "nkb0q2ppnol704a",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson T504120-AL botella de tinta negra 504 EcoTank 127 ml",
+        "description": "Botella original Epson T504120-AL de tinta negra serie 504 para impresoras EcoTank compatibles, con contenido de 127 ml y rendimiento aproximado de hasta 7500 paginas negras segun fuentes Epson regionales.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504/negro/epson-t504120-al",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.pe/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504",
+        "gallery": ["https://epson.com.pe/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504", "https://shop.epson.com.co/epson-504-127-ml-black", "https://shop.epson.com.co/media/catalog/product/A/S/AS207EPS95_1.jpg"],
+        "documents": [{ "label": "Epson EcoTank L6171 compatible ink reference", "type": "product_page", "url": "https://epson.com.mx/Para-el-trabajo/Impresoras/Inyecci%C3%B3n-de-Tinta/Impresora-multifuncional-Epson-EcoTank-L6171/p/C11CG20301" }],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T504120-AL",
+          "series": "Epson 504",
+          "providerSkus": ["CAREPS5570", "CN-3562"],
+          "upc": "010343938748",
+          "productType": "Botella de tinta EcoTank",
+          "color": "Negro",
+          "inkVolume": "127 ml",
+          "yield": "Up to 7500 black pages by Epson regional references",
+          "compatibility": "Epson EcoTank L4150, L4160, L6161, L6171, L6191; regional sources also list L4260, L4360, L6270, L6370, L14150",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS5570", "stock": 5867, "price": 207.27, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-3562", "stock": 38, "price": 204.76, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Feed calls it cartucho, but official presentation is an EcoTank ink bottle.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Compatibility varies by regional Epson page; keep exact model and family compatibility."]
+        },
+        "measurements": { "dimensions": "Retail bottle dimensions not published reliably", "weight": "127 ml ink volume; package weight not published reliably" },
+        "sourceRefs": [
+          { "title": "Epson T504 ink bottle regional page", "type": "manufacturer", "url": "https://epson.com.pe/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504" },
+          { "title": "Epson Colombia 504 black bottle", "type": "manufacturer", "url": "https://shop.epson.com.co/epson-504-127-ml-black" },
+          { "title": "Epson Mexico L6171 compatibility reference", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-trabajo/Impresoras/Inyecci%C3%B3n-de-Tinta/Impresora-multifuncional-Epson-EcoTank-L6171/p/C11CG20301" }
+        ]
+      }
+    },
+    {
+      "product_id": "pt5i4xtss839lj7",
+      "research": {
+        "confidence": 0.96,
+        "name": "Xerox Marathon 003M02051 papel bond carta 70 g/m2 caja 5000 hojas",
+        "description": "Caja de papel bond Xerox Marathon 003M02051 tamano carta, 70 g/m2, 99% blancura, con 10 resmas de 500 hojas para impresion laser, inkjet, fotocopiado, escuela y oficina.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/xerox-marathon-003m02051",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xerox.com/es-mx/suministros-para-impresoras/papel",
+        "gallery": ["https://www.officemax.com.mx/papel-xe-marathon-tc-5000h-de-70-gr-7501712320521/p", "https://compupuebla.com/producto/papel-bond-marathon-carta-xerox-marathon/", "https://oasify.com/papel-etiquetas-y-rollos/238314-papel-marathon-xerox-003m02051-carta-5000-hojas-7501712320521.html"],
+        "documents": [
+          { "label": "Xerox Mexico paper catalogue", "type": "catalog", "url": "https://www.xerox.com/downloads/mex/es/supplies/Catalogo-Papel-Xerox.pdf" },
+          { "label": "Xerox Marathon 003M02051 retailer PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/MarathonCarta003M02051.pdf" }
+        ],
+        "specs": {
+          "brand": "XEROX",
+          "model": "Marathon",
+          "partNumber": "003M02051",
+          "providerSku": "PAPXRX140",
+          "ean": "7501712320521",
+          "productType": "Papel bond carta",
+          "paperSize": "Carta 8.5 x 11 in / 216 x 279 mm",
+          "basisWeight": "70 g/m2",
+          "brightness": "99%",
+          "sheets": "5000 sheets",
+          "packs": "10 packs of 500 sheets",
+          "recommendedUse": "Laser, inkjet, digital printing, photocopying, school, office",
+          "certification": "NOM NMX-144 by retailer references",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DGO","stock":845},{"providerId":"ctonline","warehouseCode":"LMO","stock":667},{"providerId":"ctonline","warehouseCode":"D2A","stock":665},{"providerId":"ctonline","warehouseCode":"TRN","stock":539},{"providerId":"ctonline","warehouseCode":"GDL","stock":476},{"providerId":"ctonline","warehouseCode":"IRA","stock":339},{"providerId":"ctonline","warehouseCode":"CLN","stock":310},{"providerId":"ctonline","warehouseCode":"CMT","stock":308},{"providerId":"ctonline","warehouseCode":"CEL","stock":279},{"providerId":"ctonline","warehouseCode":"DFA","stock":193},{"providerId":"ctonline","warehouseCode":"CAM","stock":122},{"providerId":"ctonline","warehouseCode":"MAZ","stock":119}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "PAPXRX140", "stock": 5375, "price": 567.52, "currency": "MXN", "branch": "DGO:845,LMO:667,D2A:665,TRN:539,GDL:476,IRA:339,CLN:310,CMT:308,CEL:279,DFA:193,CAM:122,MAZ:119" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path computo/monitores was incorrect; this is office paper.", "Xerox/OfficeMax/CompuPuebla/Oasify align on box of 5000 sheets, while one older PDF snippet may be ambiguous about 500 versus 5000 sheets.", "Feed mixes whiteness/opacidad 99; normalized field uses brightness 99%.", "Visible branch sum is 4862 while feed total_stock is 5375, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Sheet 216 x 279 mm / 8.5 x 11 in", "weight": "70 g/m2 paper; box weight not published reliably by primary source" },
+        "sourceRefs": [
+          { "title": "Xerox Mexico paper supplies", "type": "manufacturer", "url": "https://www.xerox.com/es-mx/suministros-para-impresoras/papel" },
+          { "title": "Xerox Mexico paper catalogue", "type": "catalog", "url": "https://www.xerox.com/downloads/mex/es/supplies/Catalogo-Papel-Xerox.pdf" },
+          { "title": "OfficeMax Xerox Marathon 5000 sheets", "type": "retailer", "url": "https://www.officemax.com.mx/papel-xe-marathon-tc-5000h-de-70-gr-7501712320521/p" },
+          { "title": "Oasify Xerox Marathon 003M02051", "type": "retailer", "url": "https://oasify.com/papel-etiquetas-y-rollos/238314-papel-marathon-xerox-003m02051-carta-5000-hojas-7501712320521.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "5fqo7hy1bl8htha",
+      "research": {
+        "confidence": 0.95,
+        "name": "Perfect Choice PC-030331 E-Duster removedor de polvo 330 ml 230 g",
+        "description": "Removedor de polvo Perfect Choice E-Duster PC-030331 para limpieza de teclados, laptops, CPU, camaras, impresoras y superficies delicadas, en aerosol sin CFC con contenido 330 ml y peso neto 230 g.",
+        "manualCategoryPath": "computo/accesorios/limpieza/aire-comprimido/e-duster",
+        "semanticCategoryPath": "computo/accesorios/limpieza/aire-comprimido/e-duster/perfect-choice-pc-030331",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/removedor-de-polvo-e-duster",
+        "gallery": ["https://perfectchoice.me/products/removedor-de-polvo-e-duster", "https://perfectchoice.me/cdn/shop/products/RemovedordepolvoPerfectChoice.png?v=1639004052&width=1024"],
+        "documents": [
+          { "label": "Perfect Choice PC-030331 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-030331.pdf?v=1613556272" },
+          { "label": "Perfect Choice PC-030331 safety sheet", "type": "safety_sheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-030331_REMOVEDOR_DE_POLVO_HS2023_1.pdf?v=1677794042" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-030331",
+          "providerSku": "ACCMST4010",
+          "upc": "615604030331",
+          "productType": "Removedor de polvo para electronica",
+          "content": "330 ml",
+          "netWeight": "230 g",
+          "cfcFree": "Yes",
+          "uses": "Keyboards, laptops, CPU, cameras, printers, delicate surfaces",
+          "safety": "Aerosol inflamable clase 2.1 / ONU 1950 by safety sheet",
+          "ingredients": "Compressed gas blend including tetrafluoroethane and hydrocarbons by safety sheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":2184},{"providerId":"ctonline","warehouseCode":"GDL","stock":974},{"providerId":"ctonline","warehouseCode":"CMT","stock":950},{"providerId":"ctonline","warehouseCode":"D2A","stock":209},{"providerId":"ctonline","warehouseCode":"HMO","stock":180},{"providerId":"ctonline","warehouseCode":"MID","stock":109},{"providerId":"ctonline","warehouseCode":"OAX","stock":78},{"providerId":"ctonline","warehouseCode":"MTY","stock":56},{"providerId":"ctonline","warehouseCode":"CUN","stock":39},{"providerId":"ctonline","warehouseCode":"TRN","stock":38},{"providerId":"ctonline","warehouseCode":"CHI","stock":37},{"providerId":"ctonline","warehouseCode":"MOR","stock":35}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCMST4010", "stock": 5340, "price": 55.56, "currency": "MXN", "branch": "DFA:2184,GDL:974,CMT:950,D2A:209,HMO:180,MID:109,OAX:78,MTY:56,CUN:39,TRN:38,CHI:37,MOR:35" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official title and feed use 230 g while technical sheet uses 330 ml; retain both as weight and volume.", "Technical PDF shows UPC with an extra zero, while official page/retail feed use 615604030331.", "Visible branch sum is 4849 while feed total_stock is 5340, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "6.5 x 6.5 x 21.5 cm", "weight": "0.23 kg net" },
+        "sourceRefs": [
+          { "title": "Perfect Choice E-Duster official", "type": "manufacturer", "url": "https://perfectchoice.me/products/removedor-de-polvo-e-duster" },
+          { "title": "Perfect Choice PC-030331 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-030331.pdf?v=1613556272" },
+          { "title": "Perfect Choice PC-030331 safety sheet", "type": "safety_sheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-030331_REMOVEDOR_DE_POLVO_HS2023_1.pdf?v=1677794042" }
+        ]
+      }
+    },
+    {
+      "product_id": "ngk1y8of64sq92s",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother DCP-T530DW multifuncional tinta continua color Wi-Fi duplex",
+        "description": "Multifuncional Brother DCP-T530DW de tinta continua InkBenefit Tank con impresion, copia y escaneo, duplex automatico, Wi-Fi dual band, Wi-Fi Direct, USB 2.0, AirPrint, Mopria y Brother Mobile Connect.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/brother-dcp",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/brother-dcp/brother-dcp-t530dw",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/dcpt530dw",
+        "gallery": ["https://www.brother.com.mx/products/dcpt530dw", "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2025/10/30/17/50/dcp-t530dw-front-spanish.jpg"],
+        "documents": [{ "label": "Brother DCP-T530DW brochure Mexico", "type": "brochure", "url": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2025/10/16/14/46/bluchure-dcp-t530dw-mex.pdf" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "DCP-T530DW",
+          "providerSku": "IMPMTB970",
+          "upc": "012502676850",
+          "productType": "Multifuncional tinta continua 3 en 1",
+          "functions": "Print, copy, scan",
+          "printSpeedEco": "Up to 27 ppm black, 11 ppm color",
+          "printSpeedIso": "16 ipm black, 9 ipm color",
+          "resolution": "6000 x 1200 dpi",
+          "duplex": "Automatic duplex printing",
+          "connectivity": "USB 2.0, Wi-Fi 802.11 b/g/n 2.4/5 GHz, Wi-Fi Direct",
+          "mobilePrint": "AirPrint, Mopria, Brother Mobile Connect",
+          "paperInput": "150-sheet tray",
+          "scanner": "Flatbed letter/A4 class",
+          "display": "1-line LCD",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1221},{"providerId":"ctonline","warehouseCode":"DFA","stock":1081},{"providerId":"ctonline","warehouseCode":"PUE","stock":1006},{"providerId":"ctonline","warehouseCode":"GDL","stock":842},{"providerId":"ctonline","warehouseCode":"CMT","stock":778},{"providerId":"ctonline","warehouseCode":"PAC","stock":13},{"providerId":"ctonline","warehouseCode":"MTY","stock":10},{"providerId":"ctonline","warehouseCode":"AGS","stock":9},{"providerId":"ctonline","warehouseCode":"TOL","stock":9},{"providerId":"ctonline","warehouseCode":"OAX","stock":8},{"providerId":"ctonline","warehouseCode":"TXA","stock":7},{"providerId":"ctonline","warehouseCode":"TPC","stock":7}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPMTB970", "stock": 5099, "price": 3182.55, "currency": "MXN", "branch": "D2A:1221,DFA:1081,PUE:1006,GDL:842,CMT:778,PAC:13,MTY:10,AGS:9,TOL:9,OAX:8,TXA:7,TPC:7" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path redes/access-points was incorrect; this is an ink tank multifunction printer.", "Normalize feed model DCPT530DW to official DCP-T530DW.", "One official box-content line mentions DCP-T530W, but product page and brochure identify the product as DCP-T530DW.", "Visible branch sum is 4991 while feed total_stock is 5099, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "390 x 343 x 149 mm", "weight": "6.5 kg" },
+        "sourceRefs": [
+          { "title": "Brother DCP-T530DW official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/dcpt530dw" },
+          { "title": "Brother DCP-T530DW brochure Mexico", "type": "brochure", "url": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2025/10/16/14/46/bluchure-dcp-t530dw-mex.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "5swsqqhgxdiw54g",
+      "research": {
+        "confidence": 0.96,
+        "name": "Koblenz RS-1410 regulador de voltaje AVR 1410VA 700W 8 contactos",
+        "description": "Regulador de voltaje Koblenz RS-1410 para hogar y oficina, 1410VA/700W, 8 contactos NEMA 5-15R regulados y aterrizados, rango de regulacion 108-132V, desconexion por alto voltaje, switch termico, indicadores LED y garantia de 2 anos.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1410va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1410va/koblenz-rs-1410",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://servicio.koblenz.com.mx/Files/KE/PortalServicio/RS-1410%2C%20BP-1450%202024.pdf",
+        "gallery": ["https://www.xtremetecpc.com/public/producto/regulador-de-voltaje-koblenz-rs-1410-1400va-700w-8-contactos-00-1599-00-0", "https://www.walmart.com.mx/ip/regulador-de-voltaje-koblenz-rs-1410-1410va-700w-8-contactos/00009905301582"],
+        "documents": [
+          { "label": "Koblenz RS-1410 service manual", "type": "manual", "url": "https://servicio.koblenz.com.mx/Files/KE/PortalServicio/RS-1410%2C%20BP-1450%202024.pdf" },
+          { "label": "Koblenz RS-1410 user manual mirror", "type": "manual", "url": "https://m.media-amazon.com/images/I/C1EbnRXWgFL.pdf" }
+        ],
+        "specs": {
+          "brand": "KOBLENZ",
+          "model": "RS-1410",
+          "partNumber": "00-1599-00-0",
+          "providerSkus": ["REGKBZ230", "RE-179"],
+          "upcCandidate": "099053015994",
+          "productType": "Regulador de voltaje AVR",
+          "capacity": "1410 VA / 700 W",
+          "outputRange": "108 V to 132 V",
+          "regulationSteps": "3",
+          "outlets": "8 grounded regulated NEMA 5-15R outlets by service manual",
+          "protection": "High voltage disconnection, thermal breaker, rugged on/off switch",
+          "indicators": "LED indicators",
+          "warranty": "2 years by commercial references",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "REGKBZ230", "stock": 4878, "price": 214.44, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "RE-179", "stock": 0, "price": 278.08, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path redes/switches was incorrect; this is power protection.", "Some retailers say 1400VA, while feed and Koblenz service manual use 1410VA.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "UPC varies across retailers; keep as candidate until provider barcode is confirmed."]
+        },
+        "measurements": { "dimensions": "17.7 x 9.8 x 11.6 cm by retailer; Walmart variant lists 17.6 x 9.2 x 11.7 cm", "weight": "1.2 kg by retailer; Walmart variant lists 1.024 kg net" },
+        "sourceRefs": [
+          { "title": "Koblenz RS-1410 service manual", "type": "manufacturer", "url": "https://servicio.koblenz.com.mx/Files/KE/PortalServicio/RS-1410%2C%20BP-1450%202024.pdf" },
+          { "title": "Koblenz RS-1410 user manual mirror", "type": "manual", "url": "https://m.media-amazon.com/images/I/C1EbnRXWgFL.pdf" },
+          { "title": "Walmart Koblenz RS-1410", "type": "retailer", "url": "https://www.walmart.com.mx/ip/regulador-de-voltaje-koblenz-rs-1410-1410va-700w-8-contactos/00009905301582" }
+        ]
+      }
+    },
+    {
+      "product_id": "p3ej8lo0zj4wtjc",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother DCP-T730DW multifuncional InkBenefit Tank color Wi-Fi duplex ADF",
+        "description": "Multifuncional Brother DCP-T730DW de tinta continua InkBenefit Tank 3 en 1 con impresion, copia y escaneo, duplex automatico, alimentador automatico de documentos, Wi-Fi dual band, Wireless Direct, USB 2.0 y apps moviles.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/brother-dcp",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/brother-dcp/brother-dcp-t730dw",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/dcpt730dw",
+        "gallery": ["https://www.brother.com.mx/products/dcpt730dw", "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2025/10/30/18/43/dcp-t730dw-front-spanish.jpg"],
+        "documents": [
+          { "label": "Brother DCP-T730DW brochure Mexico", "type": "brochure", "url": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2025/07/23/15/06/brochure_dcp-t730dw-mex.pdf" },
+          { "label": "Brother DCP-T730DW support", "type": "support", "url": "https://support.brother.com/g/b/link.aspx?c=mx&lang=es&prod=dcpt730dw_all" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "DCP-T730DW",
+          "providerSku": "IMPMTB980",
+          "upc": "012502676867",
+          "productType": "Multifuncional tinta continua 3 en 1",
+          "functions": "Print, copy, scan",
+          "printSpeedEco": "Up to 27 ppm black, 23 ppm color",
+          "printSpeedIso": "16 ipm black, 15 ipm color",
+          "resolution": "6000 x 1200 dpi",
+          "duplex": "Automatic duplex printing",
+          "adf": "20-sheet ADF",
+          "paperInput": "150-sheet tray",
+          "paperOutput": "50 sheets",
+          "scanner": "Flatbed, optical 2400 x 1200 dpi",
+          "memory": "128 MB",
+          "monthlyDutyCycle": "Up to 2500 pages",
+          "connectivity": "USB 2.0, Wi-Fi 2.4/5 GHz, Wireless Direct",
+          "mobilePrint": "AirPrint, Mopria, Brother Mobile Connect",
+          "display": "1-line LCD",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":1104},{"providerId":"ctonline","warehouseCode":"D2A","stock":1100},{"providerId":"ctonline","warehouseCode":"GDL","stock":911},{"providerId":"ctonline","warehouseCode":"DFA","stock":810},{"providerId":"ctonline","warehouseCode":"CMT","stock":580},{"providerId":"ctonline","warehouseCode":"TOL","stock":19},{"providerId":"ctonline","warehouseCode":"MID","stock":10},{"providerId":"ctonline","warehouseCode":"DGO","stock":6},{"providerId":"ctonline","warehouseCode":"MOR","stock":5},{"providerId":"ctonline","warehouseCode":"VER","stock":5},{"providerId":"ctonline","warehouseCode":"VHA","stock":5},{"providerId":"ctonline","warehouseCode":"TXA","stock":5}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPMTB980", "stock": 4641, "price": 3987.27, "currency": "MXN", "branch": "PUE:1104,D2A:1100,GDL:911,DFA:810,CMT:580,TOL:19,MID:10,DGO:6,MOR:5,VER:5,VHA:5,TXA:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path redes/access-points was incorrect; this is an ink tank multifunction printer.", "Normalize feed model DCPT730DW to official DCP-T730DW.", "Visible branch sum is 4560 while feed total_stock is 4641, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "390 x 343 x 183 mm unit; package 463 x 260 x 456 mm", "weight": "7.9 kg unit; 9.3 kg package" },
+        "sourceRefs": [
+          { "title": "Brother DCP-T730DW official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/dcpt730dw" },
+          { "title": "Brother DCP-T730DW brochure Mexico", "type": "brochure", "url": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2025/07/23/15/06/brochure_dcp-t730dw-mex.pdf" },
+          { "title": "Brother DCP-T730DW support", "type": "support", "url": "https://support.brother.com/g/b/link.aspx?c=mx&lang=es&prod=dcpt730dw_all" }
+        ]
+      }
+    },
+    {
+      "product_id": "444hosr0pjpeun3",
+      "research": {
+        "confidence": 0.93,
+        "name": "Epson T544120-AL botella de tinta negra Dye EcoTank 65 ml",
+        "description": "Botella original Epson T544120-AL / Epson 544 de tinta negra para EcoTank, identificada por UPC 010343941977, con 65 ml y compatibilidad reportada para EcoTank L1110, L1210, L1250, L3110, L3150, L3160, L3210, L3250, L3260, L5190, L5290 y L5590 segun fuentes Epson y resellers.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t544/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t544/negro/epson-t544120-al",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/i/c11cg87301",
+        "gallery": ["https://compupuebla.com/producto/cartucho-epson-dye/", "https://compupuebla.com/wp-content/uploads/2024/04/CartuchoEPSONDYENegroEpson_DYE_UPC010343941977_0-600x1102.jpg"],
+        "documents": [{ "label": "Epson L5590 ink FAQ", "type": "support", "url": "https://epson.com.mx/faq/SPT_C11CK57301~faq-00007ec-l5590?faq_cat=faq-topFaqs" }],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T544120-AL",
+          "series": "Epson 544",
+          "providerSku": "CAREPS5820",
+          "upc": "010343941977",
+          "productType": "Botella de tinta EcoTank",
+          "color": "Negro",
+          "inkVolume": "65 ml",
+          "inkType": "Dye by reseller/feed naming; confirm per printer family before display",
+          "yield": "Up to 4500 black pages on compatible Epson regional references",
+          "compatibility": "EcoTank L1110, L1210, L1250, L3110, L3150, L3160, L3210, L3250/L3251, L3260, L5190, L5290, L5590 by source references",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1825},{"providerId":"ctonline","warehouseCode":"MTY","stock":276},{"providerId":"ctonline","warehouseCode":"ACA","stock":192},{"providerId":"ctonline","warehouseCode":"OAX","stock":174},{"providerId":"ctonline","warehouseCode":"CMT","stock":174},{"providerId":"ctonline","warehouseCode":"MOR","stock":146},{"providerId":"ctonline","warehouseCode":"ZAC","stock":134},{"providerId":"ctonline","warehouseCode":"SLP","stock":132},{"providerId":"ctonline","warehouseCode":"TOL","stock":128},{"providerId":"ctonline","warehouseCode":"TXA","stock":121},{"providerId":"ctonline","warehouseCode":"PUE","stock":110},{"providerId":"ctonline","warehouseCode":"VER","stock":89}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAREPS5820", "stock": 4483, "price": 159.3, "currency": "MXN", "branch": "DFA:1825,MTY:276,ACA:192,OAX:174,CMT:174,MOR:146,ZAC:134,SLP:132,TOL:128,TXA:121,PUE:110,VER:89" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Feed says model DYE and cartucho, but UPC maps to Epson 544/T544120-AL ink bottle.", "This is not toner.", "Visible branch sum is 3501 while feed total_stock is 4483, so provider likely has hidden or truncated locations.", "Official Epson Mexico link is printer/FAQ-oriented; exact consumable details rely on reseller pages and compatibility references."]
+        },
+        "measurements": { "dimensions": "Retail bottle dimensions not published reliably", "weight": "65 ml ink volume; package weight not published reliably" },
+        "sourceRefs": [
+          { "title": "Epson Mexico EcoTank product/ink reference", "type": "manufacturer", "url": "https://epson.com.mx/i/c11cg87301" },
+          { "title": "Epson Mexico L5590 ink FAQ", "type": "support", "url": "https://epson.com.mx/faq/SPT_C11CK57301~faq-00007ec-l5590?faq_cat=faq-topFaqs" },
+          { "title": "CompuPuebla Epson DYE CAREPS5820", "type": "retailer", "url": "https://compupuebla.com/producto/cartucho-epson-dye/" }
+        ]
+      }
+    },
+    {
+      "product_id": "djsjgkjwidzsd15",
+      "research": {
+        "confidence": 0.97,
+        "name": "LG 24U411A-B.AWMQ monitor 23.8 pulgadas FHD IPS 120Hz HDR10 negro",
+        "description": "Monitor LG 24U411A-B.AWMQ de 23.8 pulgadas Full HD IPS con frecuencia de 120Hz, HDR10, sRGB 99%, reduccion de desenfoque 1ms MBR, diseno casi sin bordes, HDMI, D-Sub, salida de audifonos, inclinacion y montaje VESA 100 x 100.",
+        "manualCategoryPath": "computo/monitores/oficina/24-fhd-120hz",
+        "semanticCategoryPath": "computo/monitores/oficina/24-fhd-120hz/lg-24u411a-b-awmq",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/mx/monitores/monitores-full-hd-qhd/24u411a-b/",
+        "gallery": ["https://www.lg.com/mx/monitores/monitores-full-hd-qhd/24u411a-b/", "https://www.lg.com/cac/monitors/lg-24u411a-b", "https://globaloffice.com.mx/app/detalle/producto/lg/monitor-lg-238-pulg-24u411a-b-19201080-120hz-hdmi/24u411a-bawmq"],
+        "documents": [{ "label": "LG 24U411A-B.AWMQ distributor PDF", "type": "datasheet", "url": "https://master.abasteo.mx/getpdf.php?anid=682fa3cd67c643fe72b3ce8da57e9627&cl=cptopdf_details&pt=24U411A-B.AWMQ" }],
+        "specs": {
+          "brand": "LG",
+          "model": "24U411A-B.AWMQ",
+          "providerSku": "MONLGE3480",
+          "ean": "8806096587058",
+          "productType": "Monitor IPS Full HD",
+          "screenSize": "23.8 inch / 60 cm",
+          "resolution": "1920 x 1080",
+          "panel": "IPS",
+          "refreshRate": "120 Hz",
+          "responseTime": "5 ms faster; 1 ms MBR",
+          "hdr": "HDR10",
+          "colorGamut": "sRGB 99% typical",
+          "brightness": "250 cd/m2 typical",
+          "contrast": "1500:1 typical by LG Mexico/CAC",
+          "viewingAngle": "178/178 degrees",
+          "ports": "HDMI x1, D-Sub/VGA, 3-pole headphone out",
+          "vesa": "100 x 100 mm",
+          "tilt": "-5 to 20 degrees",
+          "power": "External adapter, 100-240V 50/60Hz",
+          "includedCable": "HDMI by LG Mexico page",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1905},{"providerId":"ctonline","warehouseCode":"D2A","stock":887},{"providerId":"ctonline","warehouseCode":"GDL","stock":847},{"providerId":"ctonline","warehouseCode":"CMT","stock":92},{"providerId":"ctonline","warehouseCode":"URP","stock":7},{"providerId":"ctonline","warehouseCode":"MTY","stock":6},{"providerId":"ctonline","warehouseCode":"CUN","stock":6},{"providerId":"ctonline","warehouseCode":"CLN","stock":5},{"providerId":"ctonline","warehouseCode":"QRO","stock":5},{"providerId":"ctonline","warehouseCode":"COL","stock":5},{"providerId":"ctonline","warehouseCode":"TAM","stock":5},{"providerId":"ctonline","warehouseCode":"TXA","stock":5}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONLGE3480", "stock": 3792, "price": 1440.86, "currency": "MXN", "branch": "DFA:1905,D2A:887,GDL:847,CMT:92,URP:7,MTY:6,CUN:6,CLN:5,QRO:5,COL:5,TAM:5,TXA:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Feed says 24 pulgadas; official active size is 23.8 inches.", "LG US page shows UPC for AWMQ/AUSQ regional variant; provider EAN 8806096587058 is retained for Mexico/LATAM SKU.", "Contrast ratio differs by region/source, so LG Mexico/CAC 1500:1 is preferred.", "Visible branch sum is 3775 while feed total_stock is 3792, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "With stand 539.2 x 417.6 x 220 mm; package 605 x 385 x 145 mm", "weight": "3.2 kg with stand; 2.3 kg without stand; 4.4 kg shipping" },
+        "sourceRefs": [
+          { "title": "LG 24U411A-B official Mexico", "type": "manufacturer", "url": "https://www.lg.com/mx/monitores/monitores-full-hd-qhd/24u411a-b/" },
+          { "title": "LG 24U411A-B official CAC", "type": "manufacturer", "url": "https://www.lg.com/cac/monitors/lg-24u411a-b" },
+          { "title": "LG 24U411A-B US", "type": "manufacturer", "url": "https://www.lg.com/us/monitors/lg-24u411a-b-fhd-monitor/" },
+          { "title": "GlobalOffice LG 24U411A-B.AWMQ", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/lg/monitor-lg-238-pulg-24u411a-b-19201080-120hz-hdmi/24u411a-bawmq" }
+        ]
+      }
+    },
+    {
+      "product_id": "lnhpk1sqfkoa84s",
+      "research": {
+        "confidence": 0.94,
+        "name": "PCM T8070S rollo termico 80 x 70 mm blanco caja con 50",
+        "description": "Caja de 50 rollos termicos PCM T8070S blancos para punto de venta y tickets, formato comercial 80 x 70 mm, ancho real 79 mm, diametro real 68 mm, centro panal 12 mm y marca de fin de rollo.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70/pcm-t8070s",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/rollo-termico-sencillo-pcm-t8070s/",
+        "gallery": ["https://compupuebla.com/producto/rollo-termico-sencillo-pcm-t8070s/", "https://compupuebla.com/wp-content/uploads/2024/04/RolloTrmicoSencilloPCMT8070S50Colo_T8070S_EAN7501604301058_0-600x600.jpg", "https://ctisystems.mx/rollo-termico-sencillo-pcm-t8070s-50-color-blanco"],
+        "documents": [{ "label": "PCM T8070S datasheet mirror", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/RolloTrmicoSencilloPCMT8070S50Colo_T8070S_EAN7501604301058/RolloTrmicoSencilloPCMT8070S50Colo_T8070S_EAN7501604301058.pdf" }],
+        "specs": {
+          "brand": "PCM",
+          "model": "T8070S",
+          "providerSku": "ACCPCM1160",
+          "ean": "7501604301058",
+          "productType": "Rollo termico POS",
+          "packQuantity": "50 rolls",
+          "commercialSize": "80 x 70 mm",
+          "realWidth": "79 mm",
+          "realDiameter": "68 mm",
+          "core": "P12 panal 12 mm",
+          "paperWeight": "58 g/m2",
+          "color": "Blanco",
+          "printed": "No",
+          "endMark": "Yes",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"CUN","stock":417},{"providerId":"ctonline","warehouseCode":"MOR","stock":324},{"providerId":"ctonline","warehouseCode":"HMO","stock":242},{"providerId":"ctonline","warehouseCode":"TAM","stock":242},{"providerId":"ctonline","warehouseCode":"DFC","stock":242},{"providerId":"ctonline","warehouseCode":"LEO","stock":194},{"providerId":"ctonline","warehouseCode":"DFP","stock":170},{"providerId":"ctonline","warehouseCode":"ZAC","stock":154},{"providerId":"ctonline","warehouseCode":"IRA","stock":140},{"providerId":"ctonline","warehouseCode":"DFT","stock":125},{"providerId":"ctonline","warehouseCode":"SLP","stock":106},{"providerId":"ctonline","warehouseCode":"OBR","stock":100}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1160", "stock": 3773, "price": 696.59, "currency": "MXN", "branch": "CUN:417,MOR:324,HMO:242,TAM:242,DFC:242,LEO:194,DFP:170,ZAC:154,IRA:140,DFT:125,SLP:106,OBR:100" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Feed and store titles use 80 x 70, while technical sheet indicates description 80 x 68 and real measurements 79 x 68 mm.", "Previous path impresion/consumibles/etiquetas-papel was broad; POS thermal rolls is more exact.", "Visible branch sum is 2456 while feed total_stock is 3773, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Roll 79 mm width x 68 mm diameter, 12 mm core; package approx 35.5 x 36 x 17 cm by secondary source", "weight": "Package approx 13 kg by secondary source" },
+        "sourceRefs": [
+          { "title": "CompuPuebla PCM T8070S", "type": "retailer", "url": "https://compupuebla.com/producto/rollo-termico-sencillo-pcm-t8070s/" },
+          { "title": "PCM T8070S datasheet mirror", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/RolloTrmicoSencilloPCMT8070S50Colo_T8070S_EAN7501604301058/RolloTrmicoSencilloPCMT8070S50Colo_T8070S_EAN7501604301058.pdf" },
+          { "title": "CTI Systems PCM T8070S", "type": "retailer", "url": "https://ctisystems.mx/rollo-termico-sencillo-pcm-t8070s-50-color-blanco" }
+        ]
+      }
+    }
+  ]
+}
