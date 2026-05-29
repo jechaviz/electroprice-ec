@@ -393,6 +393,16 @@ const researchedBatchCases = [
   ["HiLook DS-7204HGHI-M1(T) DVR 4 canales TurboHD AcuSense", "HILOOK", "seguridad/cctv/dvr-nvr/dvr-4-canales"],
   ["Saxxon LKV312HDR-V2.0 splitter HDMI 1x2 4K", "SAXXON", "video/accesorios-av/splitters-hdmi/1x2-4k"],
   ["Cooler Master HAF 500 H500-WGNN-S00 gabinete ATX alto flujo", "COOLER MASTER", "computo/componentes/gabinetes/gaming/atx-alto-flujo"],
+  ["SanDisk Ultra Shift SDCZ410-128G-G46BB memoria USB 128GB turquesa", "SANDISK", "computo/almacenamiento/memorias-flash/usb/128gb"],
+  ["Generico AC-ASUS AGUJA cargador Asus 40W 19V 2.1A 2.5 x 0.7", "GENERICO", "computo/accesorios/cargadores-laptop/asus-aguja-40w"],
+  ["Logitech H390 diadema USB con microfono noise-cancelling", "LOGITECH", "audio/audifonos/usb/diadema-microfono"],
+  ["Brobotix 170144 adaptador jack plug VCD macho a terminal CCTV", "BROBOTIX", "seguridad/cctv/accesorios-cableado/conectores-corriente"],
+  ["PCM 50000B0015A etiquetas TT 4 x 6 transferencia termica 4000", "PCM", "impresion/consumibles/etiquetas-papel/transferencia-termica"],
+  ["Brobotix 651480 adaptador USB 3.0 tipo C macho a USB-A hembra", "BROBOTIX", "accesorios/cables-adaptadores/usb/otg-usb-c"],
+  ["Brother BT5001M botella de tinta magenta 48.8 ml 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-bt5001"],
+  ["Vorago Slimbay A SBA RZN 3200G-TR-3 Ryzen 3 3200G 8GB 240GB", "VORAGO", "computo/desktops/slim"],
+  ["Yeyian Raiden YFB-55020-01 fuente 550W 80 Plus Bronze", "YEYIAN", "computo/componentes/fuentes-poder/atx-80-plus-bronze/550w"],
+  ["Hikvision DS-7104HGHI-K1(S) DVR 4 canales H.265 Pro 1080p Lite", "HIKVISION", "seguridad/cctv/dvr-nvr/dvr-4-canales"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
