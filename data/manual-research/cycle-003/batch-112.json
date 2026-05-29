@@ -1,0 +1,415 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b112-2026-05-29",
+  "cycle": 3,
+  "batch": 112,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "i414r17zg0dm4ne",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dahua HAC-B1A21N-U-IL-A camara bala HDCVI 2MP Smart Dual Light",
+        "description": "Camara bala analogica Dahua HAC-B1A21N-U-IL-A HDCVI de 2MP/1080p con Smart Dual Light, microfono integrado, proteccion IP67 y salida CVI/CVBS/AHD/TVI.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-dual-light/dahua-hac-b1a21n-u-il-a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/Cooper-Series/1080P/HAC-B1A21-U",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMDAH6250/CAMDAH6250_full.jpg"],
+        "documents": [
+          { "label": "Dahua HAC-B1A21-U-IL-A datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/HAC-B1A21-U-IL-A_S0_datasheet_20231129.pdf" },
+          { "label": "Dahua HAC-B1A21-U product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/Cooper-Series/1080P/HAC-B1A21-U" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "HAC-B1A21N-U-IL-A",
+          "manufacturerModel": "DH-HAC-B1A21N-U-IL-A",
+          "providerSku": "CAMDAH6250",
+          "ean": "6939554919770",
+          "productType": "Camara bala HDCVI analogica",
+          "sensor": "2MP CMOS",
+          "resolution": "1920 x 1080",
+          "frameRate": "Up to 30 fps at 1080p",
+          "illumination": "Smart Dual Light, IR up to 30 m and warm light up to 20 m",
+          "audio": "Integrated microphone",
+          "videoOutput": "CVI/CVBS/AHD/TVI",
+          "ingressProtection": "IP67",
+          "power": "12 VDC, max 3.3 W",
+          "lens": "3.6 mm default; 2.8 mm and 6 mm optional by Dahua reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":328},{"providerId":"ctonline","warehouseCode":"TAM","stock":124},{"providerId":"ctonline","warehouseCode":"GDL","stock":81},{"providerId":"ctonline","warehouseCode":"D2A","stock":77},{"providerId":"ctonline","warehouseCode":"CDV","stock":72},{"providerId":"ctonline","warehouseCode":"ACA","stock":59},{"providerId":"ctonline","warehouseCode":"CUN","stock":57},{"providerId":"ctonline","warehouseCode":"CMT","stock":52},{"providerId":"ctonline","warehouseCode":"MID","stock":50},{"providerId":"ctonline","warehouseCode":"TXA","stock":40},{"providerId":"ctonline","warehouseCode":"PAC","stock":38},{"providerId":"ctonline","warehouseCode":"VER","stock":34}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6250", "stock": 1272, "price": 15.14, "currency": "USD", "branch": "DFA:328,TAM:124,GDL:81,D2A:77,CDV:72,ACA:59,CUN:57,CMT:52,MID:50,TXA:40,PAC:38,VER:34" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous CCTV camera path was correct only at family level; classify as HDCVI analog bullet 2MP dual light.", "Dahua lists PAL and NTSC variants; provider model includes N for NTSC.", "Some retailers publish 2.8 mm lens, while Dahua datasheet lists 3.6 mm default and 2.8/6 mm optional.", "Visible branch sum is 1012 while feed total_stock is 1272, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "146.1 x 70.0 x 69.8 mm", "weight": "0.15 kg net; 0.20 kg gross" },
+        "sourceRefs": [
+          { "title": "Dahua HAC-B1A21-U-IL-A datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/HAC-B1A21-U-IL-A_S0_datasheet_20231129.pdf" },
+          { "title": "Dahua HAC-B1A21-U product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/Cooper-Series/1080P/HAC-B1A21-U" }
+        ]
+      }
+    },
+    {
+      "product_id": "mizb0lt5hcyokmi",
+      "research": {
+        "confidence": 0.97,
+        "name": "Gigabyte H610M K DDR4 tarjeta madre mATX LGA1700 H610",
+        "description": "Tarjeta madre Gigabyte H610M K DDR4 micro ATX para procesadores Intel LGA1700, chipset Intel H610, 2 ranuras DDR4, HDMI, GbE, M.2 y SATA.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/gigabyte-h610m-k-ddr4",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Motherboard/H610M-K-DDR4-rev-10/sp",
+        "gallery": ["https://static.ctonline.mx/imagenes/MBDGIG5040/MBDGIG5040_full.jpg"],
+        "documents": [{ "label": "Gigabyte H610M K DDR4 official page", "type": "manufacturer", "url": "https://www.gigabyte.com/Motherboard/H610M-K-DDR4-rev-10/sp" }],
+        "specs": {
+          "brand": "GIGABYTE",
+          "model": "H610M K DDR4",
+          "providerSku": "MBDGIG5040",
+          "ean": "4719331851675",
+          "upc": "889523035498",
+          "productType": "Tarjeta madre micro ATX",
+          "chipset": "Intel H610",
+          "socket": "LGA1700",
+          "cpuSupport": "Intel Core 14th/13th/12th Gen, Pentium Gold and Celeron processors",
+          "memory": "2 x DDR4 DIMM, up to 64 GB",
+          "videoOutput": "HDMI up to 4096 x 2160 at 60 Hz",
+          "network": "Realtek GbE",
+          "audio": "7.1-channel audio",
+          "expansionSlots": "1 x PCIe x16 4.0, 1 x PCIe x1 3.0",
+          "storage": "1 x M.2 PCIe 3.0 x4/x2, 2 x SATA",
+          "usb": "USB 3.2 and USB 2.0",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1102},{"providerId":"ctonline","warehouseCode":"DFA","stock":35},{"providerId":"ctonline","warehouseCode":"TAM","stock":20},{"providerId":"ctonline","warehouseCode":"CMT","stock":19},{"providerId":"ctonline","warehouseCode":"LMO","stock":18},{"providerId":"ctonline","warehouseCode":"CTZ","stock":13},{"providerId":"ctonline","warehouseCode":"ACA","stock":12},{"providerId":"ctonline","warehouseCode":"XLP","stock":9},{"providerId":"ctonline","warehouseCode":"COL","stock":5},{"providerId":"ctonline","warehouseCode":"TPC","stock":5},{"providerId":"ctonline","warehouseCode":"CUN","stock":5},{"providerId":"ctonline","warehouseCode":"DGO","stock":4}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG5040", "stock": 1271, "price": 59.09, "currency": "USD", "branch": "D2A:1102,DFA:35,TAM:20,CMT:19,LMO:18,CTZ:13,ACA:12,XLP:9,COL:5,TPC:5,CUN:5,DGO:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path under processors was incorrect; this is a motherboard.", "Gigabyte has revision-specific pages; provider data does not include revision.", "Visible branch sum is 1247 while feed total_stock is 1271, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "22.6 x 18.5 cm board; package 265 x 235 x 52 mm", "weight": "717 g package reference" },
+        "sourceRefs": [
+          { "title": "Gigabyte H610M K DDR4 official page", "type": "manufacturer", "url": "https://www.gigabyte.com/Motherboard/H610M-K-DDR4-rev-10/sp" },
+          { "title": "Mi Atlantic H610M K DDR4 reference", "type": "retailer", "url": "https://miatlantic.com/h610m-k-ddr4" }
+        ]
+      }
+    },
+    {
+      "product_id": "rvzmpc4l7d0fyi8",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA UV220 32GB USB 2.0 memoria retractil rosa turquesa",
+        "description": "Memoria USB ADATA UV220 de 32GB con interfaz USB 2.0, conector deslizable sin tapa, orificio para correa y acabado rosa/turquesa.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/adata-uv220-rgnpk",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/upload/downloadfile/Datasheet-UV220_202010.pdf",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XS/CP-ADATA-AUV220-32G-RGNPK-1.jpg"],
+        "documents": [
+          { "label": "ADATA UV220 datasheet 2020", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/Datasheet-UV220_202010.pdf" },
+          { "label": "ADATA UV220 datasheet 2023", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv220_usb_flash_drive_20230911.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AUV220-32G-RGNPK",
+          "providerSku": "MEMDAT6400",
+          "ean": "4710273770703",
+          "productType": "Memoria USB retractil",
+          "capacity": "32 GB",
+          "interface": "USB 2.0",
+          "color": "Rosa / turquesa",
+          "connector": "Sliding capless USB-A",
+          "lanyardMount": "Yes",
+          "warranty": "Limited 5-year warranty by ADATA reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1080},{"providerId":"ctonline","warehouseCode":"MTY","stock":79},{"providerId":"ctonline","warehouseCode":"DGO","stock":69},{"providerId":"ctonline","warehouseCode":"IRA","stock":11},{"providerId":"ctonline","warehouseCode":"TRN","stock":7},{"providerId":"ctonline","warehouseCode":"OAX","stock":5},{"providerId":"ctonline","warehouseCode":"VHA","stock":3},{"providerId":"ctonline","warehouseCode":"TXA","stock":3},{"providerId":"ctonline","warehouseCode":"DFP","stock":2},{"providerId":"ctonline","warehouseCode":"DFT","stock":2}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT6400", "stock": 1261, "price": 4.11, "currency": "USD", "branch": "D2A:1080,MTY:79,DGO:69,IRA:11,TRN:7,OAX:5,VHA:3,TXA:3,DFP:2,DFT:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path under memoria RAM was incorrect; this is removable USB storage.", "Newer ADATA UV220 datasheet omits this color, but the 2020 datasheet and retailers confirm AUV220-32G-RGNPK.", "Visible branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "55 x 19.5 x 10.2 mm", "weight": "7.9 g" },
+        "sourceRefs": [
+          { "title": "ADATA UV220 datasheet 2020", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/Datasheet-UV220_202010.pdf" },
+          { "title": "Abasteo ADATA UV220 32GB reference", "type": "retailer", "url": "https://www.abasteo.mx/Almacenamiento-de-Datos/Memoria-Flash-Media/Memorias-USB/Memoria-USB-Adata-UV220-32GB-USB-2-0-Rosa-Turquesa.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "c0hbdep79ndtgj5",
+      "research": {
+        "confidence": 0.95,
+        "name": "Intellinet 790055 plug RJ45 Cat5e UTP multifilar 100 piezas",
+        "description": "Bote con 100 plugs modulares Intellinet 790055 RJ45 Cat5e UTP para cable multifilar, contactos con bano de oro de 15 micras y diseno 8P8C.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-rj45/cat5e",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-rj45/cat5e/intellinet-790055",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://es.intellinetnetwork.eu/products/intellinet-es-plug-rj45-cat5e-multifilar-utp-bote-100-pzas-oro-15-micras-790055",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1135689"],
+        "documents": [{ "label": "Intellinet 790055 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/55748/790055_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "790055",
+          "providerSku": "RCKACC1430",
+          "alternateProviderSku": "CN-1071",
+          "upc": "766623790055",
+          "ean": "0766623790055",
+          "productType": "Plug modular RJ45",
+          "categoryRating": "Cat5e",
+          "connector": "RJ45 8P8C UTP",
+          "cableType": "Stranded / multifilar round cable",
+          "wireGauge": "24 to 26 AWG",
+          "contacts": "15 micro-inch gold plated contacts",
+          "packageQuantity": "100 pieces",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC1430", "stock": 1232, "price": 13.55, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-1071", "stock": 10, "price": 13.75, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous accessories/cables path was generic; classify as RJ45 Cat5e plugs.", "Official page shows a placeholder 0 kg weight; use no reliable product weight beyond package references.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "Not reliably published", "weight": "Approx 0.20 kg package reference; official page has placeholder 0 kg" },
+        "sourceRefs": [
+          { "title": "Intellinet 790055 official page", "type": "manufacturer", "url": "https://es.intellinetnetwork.eu/products/intellinet-es-plug-rj45-cat5e-multifilar-utp-bote-100-pzas-oro-15-micras-790055" },
+          { "title": "Intellinet 790055 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/55748/790055_datasheet_english.pdf" },
+          { "title": "SuperWarehouse 790055 reference", "type": "retailer", "url": "https://www.superwarehouse.com/100-pack-cat5e-rj45-modular-plugs-790055.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "500l6zbx4ocwwje",
+      "research": {
+        "confidence": 0.95,
+        "name": "Intellinet 502344 plug RJ45 Cat6 UTP multifilar 100 piezas",
+        "description": "Bote con 100 plugs modulares Intellinet 502344 RJ45 Cat6 UTP para cable multifilar, contactos con bano de oro de 15 micras y diseno 8P8C.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-rj45/cat6",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-rj45/cat6/intellinet-502344",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-100-pack-cat6-rj45-modular-plugs-502344",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2676685"],
+        "documents": [{ "label": "Intellinet 502344 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/46896/502344_datasheet_spanish.pdf" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "502344",
+          "providerSku": "RCKACC070",
+          "alternateProviderSku": "CN-1288",
+          "productType": "Plug modular RJ45",
+          "categoryRating": "Cat6",
+          "connector": "RJ45 8P8C UTP",
+          "cableType": "Stranded / multifilar round cable",
+          "wireGauge": "24 to 26 AWG",
+          "contacts": "15 micro-inch gold plated contacts",
+          "packageQuantity": "100 pieces",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC070", "stock": 1225, "price": 16.35, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-1288", "stock": 9, "price": 16.59, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous accessories/cables path was generic; classify as RJ45 Cat6 plugs.", "Regional warranty text differs between Intellinet pages.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "67.3 x 67.3 x 110 mm package", "weight": "0.19 kg gross package" },
+        "sourceRefs": [
+          { "title": "Intellinet 502344 official page", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-100-pack-cat6-rj45-modular-plugs-502344" },
+          { "title": "Intellinet 502344 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/46896/502344_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "n9c4o9cxh35owhn",
+      "research": {
+        "confidence": 0.96,
+        "name": "Forza NT-751 UPS 750VA 375W 120V AVR 6 NEMA RJ11",
+        "description": "UPS Forza NT-751 line-interactive de 750VA/375W con AVR, 6 tomas NEMA 5-15R, proteccion RJ-11, bateria 12V 7Ah y respaldo estimado de hasta 25 minutos.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/750va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/750va/forza-nt-751",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-751-ENG.pdf",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/04/NoBreakNT751UPS110V750VA350W_NT751UPS110V_UPC798302107663_0-300x300.jpg"],
+        "documents": [{ "label": "Forza NT-751 datasheet", "type": "datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-751-ENG.pdf" }],
+        "specs": {
+          "brand": "FORZA",
+          "model": "NT-751",
+          "providerSku": "NBKFZA220",
+          "upc": "798302107663",
+          "productType": "UPS line-interactive",
+          "capacity": "750 VA / 375 W",
+          "input": "120 V, 78-145 VAC, 45-65 Hz",
+          "output": "120 V +/-10%",
+          "waveform": "Modified sine wave",
+          "avr": "Boost and buck AVR",
+          "outlets": "6 x NEMA 5-15R",
+          "protection": "RJ-11 and 200 J surge protection",
+          "battery": "12 V 7 Ah",
+          "backupTime": "Up to 25 minutes estimated",
+          "rechargeTime": "6 h",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":413},{"providerId":"ctonline","warehouseCode":"D2A","stock":281},{"providerId":"ctonline","warehouseCode":"GDL","stock":203},{"providerId":"ctonline","warehouseCode":"DFT","stock":34},{"providerId":"ctonline","warehouseCode":"LMO","stock":33},{"providerId":"ctonline","warehouseCode":"DFP","stock":26},{"providerId":"ctonline","warehouseCode":"CUN","stock":25},{"providerId":"ctonline","warehouseCode":"ACA","stock":23},{"providerId":"ctonline","warehouseCode":"LEO","stock":15},{"providerId":"ctonline","warehouseCode":"CUE","stock":15},{"providerId":"ctonline","warehouseCode":"VER","stock":14},{"providerId":"ctonline","warehouseCode":"PUE","stock":13}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKFZA220", "stock": 1191, "price": 36.08, "currency": "USD", "branch": "DFA:413,D2A:281,GDL:203,DFT:34,LMO:33,DFP:26,CUN:25,ACA:23,LEO:15,CUE:15,VER:14,PUE:13" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official Forza datasheet lists 120 V and 375 W, while some provider/retailer text says 110 V or 350 W.", "Visible branch sum is 1095 while feed total_stock is 1191, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "11 x 4 x 5.6 in approx 279 x 102 x 142 mm", "weight": "10.6 lb / 4.8 kg" },
+        "sourceRefs": [
+          { "title": "Forza NT-751 datasheet", "type": "datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-751-ENG.pdf" },
+          { "title": "CompuPuebla Forza NT-751 reference", "type": "retailer", "url": "https://compupuebla.com/producto/no-break-forza-nt-751-ups110v/" }
+        ]
+      }
+    },
+    {
+      "product_id": "z04zv4w9kez99gs",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link TL-WN823N adaptador USB WiFi N300 2.4GHz",
+        "description": "Mini adaptador USB TP-Link TL-WN823N Wi-Fi N300 de 2.4GHz para conectar PC o laptop a redes inalambricas, con WPS y modo SoftAP.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/n300-mini",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/n300-mini/tp-link-tl-wn823n",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/uk/home-networking/adapter/tl-wn823n/",
+        "gallery": ["https://static.tp-link.com/TL-WN823N_UN_3.0_01_large_1507511477600x.jpg"],
+        "documents": [{ "label": "TP-Link TL-WN823N official page", "type": "manufacturer", "url": "https://www.tp-link.com/uk/home-networking/adapter/tl-wn823n/" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WN823N",
+          "providerSku": "TARTPL380",
+          "alternateProviderSku": "NIC-1428",
+          "productType": "Adaptador USB Wi-Fi",
+          "interface": "USB 2.0",
+          "wifiStandard": "IEEE 802.11b/g/n",
+          "band": "2.4 GHz",
+          "maxWirelessRate": "300 Mbps",
+          "antenna": "Internal antenna",
+          "security": "WEP, WPA/WPA2",
+          "features": "WPS button and SoftAP mode",
+          "compatibility": "Windows 11/10/8.1/8/7/XP, Mac OS and Linux by TP-Link reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TARTPL380", "stock": 1182, "price": 7.39, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-1428", "stock": 9, "price": 7.01, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path was incorrect; this is a client USB Wi-Fi adapter.", "UPC/EAN varies by region, including 845973050696 and 6935364050696.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "39 x 18.35 x 7.87 mm", "weight": "Not published by TP-Link" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-WN823N official page", "type": "manufacturer", "url": "https://www.tp-link.com/uk/home-networking/adapter/tl-wn823n/" },
+          { "title": "CompuPuebla TL-WN823N reference", "type": "retailer", "url": "https://compupuebla.com/producto/adaptador-mini-usb-tp-link-tl-wn823n/" }
+        ]
+      }
+    },
+    {
+      "product_id": "aar3bws5hjp1nfx",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP GT52 M0H54AL botella de tinta cian 70ml",
+        "description": "Botella original HP GT52 M0H54AL de tinta cian de 70 ml para sistemas HP Ink Tank/Smart Tank compatibles, con rendimiento aproximado de 8000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/hp-gt52/cian",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/hp-gt52/cian/hp-m0h54al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/emea_middle_east-en/products/ink-toner/product-details/product-specifications/12206750",
+        "gallery": ["https://hp.widen.net/content/pgphmsmj9z/png/pgphmsmj9z.png?w=800&h=600&dpi=72&color=ffffff00"],
+        "documents": [{ "label": "HP GT52 Cyan product specifications", "type": "manufacturer", "url": "https://www.hp.com/emea_middle_east-en/products/ink-toner/product-details/product-specifications/12206750" }],
+        "specs": {
+          "brand": "HP",
+          "model": "GT52 / M0H54AL",
+          "providerSku": "CARHPP3220",
+          "upc": "190780132524",
+          "productType": "Botella de tinta",
+          "color": "Cian",
+          "capacity": "70 ml",
+          "pageYield": "Approx 8000 pages",
+          "inkType": "Dye-based",
+          "printTechnology": "HP Thermal Inkjet",
+          "packageContent": "1 bottle",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":414},{"providerId":"ctonline","warehouseCode":"CMT","stock":124},{"providerId":"ctonline","warehouseCode":"DFC","stock":48},{"providerId":"ctonline","warehouseCode":"OAX","stock":44},{"providerId":"ctonline","warehouseCode":"D2A","stock":44},{"providerId":"ctonline","warehouseCode":"MOR","stock":41},{"providerId":"ctonline","warehouseCode":"ACA","stock":40},{"providerId":"ctonline","warehouseCode":"ACX","stock":40},{"providerId":"ctonline","warehouseCode":"GDL","stock":36},{"providerId":"ctonline","warehouseCode":"CAM","stock":27},{"providerId":"ctonline","warehouseCode":"LMO","stock":24},{"providerId":"ctonline","warehouseCode":"TXA","stock":22}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARHPP3220", "stock": 1162, "price": 140.9, "currency": "MXN", "branch": "DFA:414,CMT:124,DFC:48,OAX:44,D2A:44,MOR:41,ACA:40,ACX:40,GDL:36,CAM:27,LMO:24,TXA:22" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous tinta-toner path was acceptable but too broad; classify as HP GT52 cyan ink bottle.", "Some listings confuse GT52 cyan with 54 ml or M0H56AL, but HP GT52 M0H54AL references use 70 ml.", "Visible branch sum is 904 while feed total_stock is 1162, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "47 x 47 x 150 mm package", "weight": "0.1 kg product; 0.11 kg package approx" },
+        "sourceRefs": [
+          { "title": "HP GT52 Cyan product specifications", "type": "manufacturer", "url": "https://www.hp.com/emea_middle_east-en/products/ink-toner/product-details/product-specifications/12206750" },
+          { "title": "CompuPuebla HP GT52 reference", "type": "retailer", "url": "https://compupuebla.com/producto/botella-de-tinta-hp-gt52/" }
+        ]
+      }
+    },
+    {
+      "product_id": "8civxs17qg4p9gr",
+      "research": {
+        "confidence": 0.95,
+        "name": "TechZone TZMOU01 Initially Black mouse USB alambrico 1000 DPI",
+        "description": "Mouse alambrico USB TechZone TZMOU01 Initially Black con sensor infrarrojo de 1000 DPI, 3 botones, cable de 1.35 m y compatibilidad Windows/macOS.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi/techzone-tzmou01",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techzone.com.mx/products/mouse-optico-alambrico-br-tzmou01",
+        "gallery": ["https://techzone.com.mx/cdn/shop/products/TZMOU01-1_600.png?v=1652210529"],
+        "documents": [{ "label": "TechZone TZMOU01 datasheet", "type": "datasheet", "url": "https://techzone.com.mx/cdn/shop/files/TZMOU01-151223.pdf?v=14113057302729159309" }],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZMOU01",
+          "providerSku": "MOUTCH250",
+          "ean": "7501950042858",
+          "productType": "Mouse alambrico USB",
+          "sensor": "Infrared / optical retail wording",
+          "resolution": "1000 DPI",
+          "buttons": "3",
+          "cableLength": "1.35 m by official sheet",
+          "color": "Negro",
+          "compatibility": "Windows and macOS",
+          "warranty": "1 year by provider reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":390},{"providerId":"ctonline","warehouseCode":"GDL","stock":370},{"providerId":"ctonline","warehouseCode":"D2A","stock":200},{"providerId":"ctonline","warehouseCode":"MTY","stock":107},{"providerId":"ctonline","warehouseCode":"CMT","stock":60}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUTCH250", "stock": 1127, "price": 41.67, "currency": "MXN", "branch": "DFA:390,GDL:370,D2A:200,MTY:107,CMT:60" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous mouse path was acceptable but too broad; classify as wired basic 1000 DPI mouse.", "Some resellers say optical and 1.2 m cable, while official sheet says infrared sensor and 1.35 m cable.", "Visible branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "52 x 97 x 34 mm; package 72 x 35 x 103 mm", "weight": "53 g; package 66 g" },
+        "sourceRefs": [
+          { "title": "TechZone TZMOU01 official page", "type": "manufacturer", "url": "https://techzone.com.mx/products/mouse-optico-alambrico-br-tzmou01" },
+          { "title": "TechZone TZMOU01 datasheet", "type": "datasheet", "url": "https://techzone.com.mx/cdn/shop/files/TZMOU01-151223.pdf?v=14113057302729159309" }
+        ]
+      }
+    },
+    {
+      "product_id": "f214ol7dn1yi1ig",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA Premier AD4S320016G22-SGN 16GB DDR4-3200 SODIMM CL22",
+        "description": "Modulo de memoria ADATA Premier SO-DIMM DDR4 de 16GB a 3200MHz, CL22, 260 pines y 1.2V para laptops, AIO y mini PCs compatibles.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/16gb-3200",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/16gb-3200/adata-ad4s320016g22-sgn",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/storage/downloadfile/datasheet_premier_ddr4_3200_so_dimm.pdf",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/04/MemoriaDDR4de16GBSODIMM3200MHzADAT_AD4S320016G22SGN_EAN4711085931481_0-600x600.jpg"],
+        "documents": [{ "label": "ADATA Premier DDR4 3200 SO-DIMM datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_premier_ddr4_3200_so_dimm.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AD4S320016G22-SGN",
+          "providerSku": "MEMDAT5890",
+          "alternateProviderSku": "RAM-3663",
+          "ean": "4711085931481",
+          "productType": "Memoria RAM SO-DIMM DDR4",
+          "capacity": "16 GB",
+          "speed": "3200 MHz / PC4-25600",
+          "casLatency": "CL22",
+          "pins": "260-pin",
+          "voltage": "1.2 V",
+          "kit": "1 x 16 GB",
+          "temperatureRange": "0 to 85 C",
+          "warranty": "Limited lifetime warranty by ADATA reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MEMDAT5890", "stock": 1111, "price": 120, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "RAM-3663", "stock": 3, "price": 121.82, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous no-breaks/UPS path was incorrect; this is laptop RAM.", "Some RAM-3663 listings use EAN 4710273776613, while ADATA and several references for this model list 4711085931481.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "Single-tray package 170 x 55 x 9 mm; retail package 228 x 101 x 8 mm", "weight": "20 g single-tray package; 10 g module; 24 g retail package reference" },
+        "sourceRefs": [
+          { "title": "ADATA Premier DDR4 3200 SO-DIMM datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_premier_ddr4_3200_so_dimm.pdf" },
+          { "title": "Memory4Less ADATA AD4S320016G22-SGN reference", "type": "retailer", "url": "https://www.memory4less.com/adata-laptop-memory-ad4s320016g22-sgn" }
+        ]
+      }
+    }
+  ]
+}

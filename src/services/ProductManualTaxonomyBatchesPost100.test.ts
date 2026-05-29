@@ -102,6 +102,16 @@ const researchedBatchCases = [
   ["Intellinet 163293 faceplate 2 perforaciones blanco", "INTELLINET", "redes/cableado-estructurado/placas-keystone/2-puertos"],
   ["Poly Blackwire 3315 76J12AA diadema USB-A monoaural", "PLANTRONICS", "audio/audifonos/usb/diadema-microfono/monoaurales"],
   ["Intellinet 210355 jack Cat5e keystone impacto blanco", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e"],
+  ["Dahua HAC-B1A21N-U-IL-A camara bullet HDCVI 2MP dual light", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-dual-light"],
+  ["Gigabyte H610M K DDR4 tarjeta madre Intel LGA1700", "GIGABYTE", "computo/componentes/tarjetas-madre/intel-lga1700"],
+  ["ADATA AUV220-32G-RGNPK memoria USB 32GB USB 2.0", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["Intellinet 790055 plug RJ45 Cat5e UTP multifilar 100 piezas", "INTELLINET", "redes/cableado-estructurado/conectores-rj45/cat5e"],
+  ["Intellinet 502344 plug RJ45 Cat6 UTP multifilar 100 piezas", "INTELLINET", "redes/cableado-estructurado/conectores-rj45/cat6"],
+  ["Forza NT-751 UPS 750VA 375W line interactive", "FORZA", "energia/no-breaks-ups/line-interactive/750va"],
+  ["TP-Link TL-WN823N mini adaptador USB Wi-Fi N300", "TP LINK", "redes/adaptadores-wifi/usb/n300-mini"],
+  ["HP GT52 M0H54AL botella de tinta cian", "HP", "impresion/consumibles/botellas-tinta/hp-gt52/cian"],
+  ["TechZone TZMOU01 mouse alambrico USB 1000 DPI negro", "TECHZONE", "computo/perifericos/mouse/alambricos/basicos/1000-dpi"],
+  ["ADATA AD4S320016G22-SGN SODIMM DDR4 16GB 3200MHz", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr4/16gb-3200"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
