@@ -283,6 +283,16 @@ const researchedBatchCases = [
   ["Gigabyte GV-N506TEAGLE OC-8GD GeForce RTX 5060 Ti 8GB GDDR7", "GIGABYTE", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5060-ti"],
   ["Tripp Lite SMART1000LCD UPS 1000VA 500W LCD", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/1000va/lcd"],
   ["TP-Link RE815XE repetidor Wi-Fi 6E Mesh AXE5400 tri-band", "TP LINK", "redes/extensores-wifi/tri-band/wifi-6e-axe5400"],
+  ["Meriva Streamax MC38 camara AHD para placa vehicular 2MP IP69K", "MERIVA", "seguridad/cctv/camaras-moviles/ahd-placa"],
+  ["Perfect Choice Silhouette PC-084129 portafolio laptop 15.6 negro", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/maletines-laptop/15-6"],
+  ["Meriva MOB-808D camara IP bullet 8MP PoE iluminacion dual", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet/8mp"],
+  ["Getttech GFS-60020-01 fuente poder ATX 600W ventilador 120mm", "GETTTECH", "computo/componentes/fuentes-poder/atx-600w"],
+  ["Generico AC-HP-PinCentral cargador laptop 65W 18.5V 3.5A", "GENERICO", "computo/accesorios/cargadores-laptop/hp-pin-central"],
+  ["ADATA R050 PR050-11LB power bank magnetico 5000mAh azul", "ADATA", "energia/power-banks/magneticos/5000mah"],
+  ["Aspel PSAEL1AN actualizacion usuario adicional SAE 10 fisico", "ASPEL", "software/licencias/aspel-sae"],
+  ["Tripp Lite OMNIVS1200LCD UPS interactivo 1200VA 600W LCD", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/1200va/lcd"],
+  ["Kyocera TK-5417C toner cian 13000 paginas TASKalfa", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5417"],
+  ["Perfect Choice PC-113218 Owty bocina Bluetooth portatil teclas mecanicas", "PERFECT CHOICE", "audio/bocinas/bluetooth/portatiles"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
