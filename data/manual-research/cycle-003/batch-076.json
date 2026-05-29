@@ -1,0 +1,518 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b076-2026-05-28",
+  "cycle": 3,
+  "batch": 76,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1qxgvpif8tzc0ot",
+      "research": {
+        "confidence": 0.94,
+        "name": "OvalTech OTDGJKNX bateria 7.7V 8200mAh 62Wh para Dell Latitude",
+        "description": "Bateria interna OvalTech OTDGJKNX / GJKNX de polimero Li-ion para laptops Dell Latitude e Inspiron compatibles, 7.7V, 8200mAh, 62Wh, 4 celdas y color negro.",
+        "manualCategoryPath": "computo/accesorios/baterias-laptop/dell",
+        "semanticCategoryPath": "computo/accesorios/baterias-laptop/dell/ovaltech-otdgjknx",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-dell-2/otdgjknx/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BATOVL1330/BATOVL1330_1_full.jpg",
+          "https://www.ovaltech.com.mx/wp-content/uploads/2024/02/OTDGJKNX-LATERAL-300x300.png",
+          "https://www.ovaltech.com.mx/wp-content/uploads/2024/02/OTDGJKNX-FRONTAL-300x300.png"
+        ],
+        "documents": [
+          { "label": "OvalTech OTDGJKNX official listing", "type": "manufacturer", "url": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-dell-2/otdgjknx/" }
+        ],
+        "specs": {
+          "brand": "OVALTECH",
+          "model": "OTDGJKNX",
+          "providerSku": "BATOVL1330",
+          "partNumbers": "GJKNX, GD1JP, 0GD1JP, DY9NT, 0DY9NT, 5YHR4, 451-BBZG",
+          "productType": "Laptop replacement battery",
+          "batteryChemistry": "Li-ion polymer",
+          "capacity": "8200mAh / 62Wh",
+          "voltage": "7.7V",
+          "cells": "4",
+          "color": "Black",
+          "compatibleModels": "Dell Latitude 5480, 5580, 5280, 5288, 5290, 5488, 5490, 5491, 5495, 5590, 5591, E5280, E5288, E5480, E5490, E5491, E5580, E5590, E5591; Inspiron 15 3520/3530",
+          "warranty": "24 months reported by OvalTech",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATOVL1330", "stock": 5, "price": 63.71, "currency": "USD", "branch": "DFA:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public retail sources do not validate the private CTOnline DFA:5 stock or USD 63.71 price; Mactoner lists no stock and GlobalOffice lists alternate public stock."]
+        },
+        "sourceRefs": [
+          { "title": "OvalTech OTDGJKNX", "type": "manufacturer", "url": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-dell-2/otdgjknx/" },
+          { "title": "Mactoner OvalTech OTDGJKNX", "type": "retail", "url": "https://www.mactoner.com.mx/producto/bateria-ovaltech-otdgjknx-8200mah/" },
+          { "title": "GlobalOffice baterias laptop", "type": "retail", "url": "https://www.globaloffice.com.mx/app/producto/grupo/baterias-laptops" }
+        ]
+      }
+    },
+    {
+      "product_id": "1r0kgab1lx1dqax",
+      "research": {
+        "confidence": 0.95,
+        "name": "Acteck Shift Plus AV400 AC-934756 adaptador HDMI a VGA negro 20 cm",
+        "description": "Adaptador de video Acteck Shift Plus AV400 AC-934756 con HDMI macho a VGA hembra, cable de 20 cm, plug and play y soporte de entrada HDMI 4K segun ficha comercial.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi-vga",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi-vga/acteck-shift-plus-av400",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/shift-plus-av400",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10362012",
+          "https://acteck.com/cdn/shop/files/AC-934756-1.webp?v=1691431350&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934756-U.webp?v=1713304312&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934756_HL_1.webp?v=1713304309&width=1000"
+        ],
+        "documents": [
+          { "label": "Acteck AC-934756 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-934756_V1.pdf?v=1694790065" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Shift Plus AV400 / AC-934756",
+          "providerSku": "AC-10939",
+          "ean": "7506215934756",
+          "productType": "HDMI to VGA video adapter",
+          "connectors": "HDMI male to VGA female",
+          "length": "20 cm",
+          "color": "Black in official listing; datasheet also reports silver/gold",
+          "features": "Plug and play, HDMI 4K input support reported by public listing",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "total", "stock": 18 }
+          ],
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "AC-10939", "stock": 18, "price": 64.36, "currency": "MXN", "branch": "total:18" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources with AC-10939 validate model/SKU but not the private CVA stock 18 or MXN 64.36 price."]
+        },
+        "measurements": { "dimensions": "7.94 x 2.19 x 1.2 cm", "weight": "18 g", "packageDimensions": "18 x 12 cm" },
+        "sourceRefs": [
+          { "title": "Acteck Shift Plus AV400", "type": "manufacturer", "url": "https://acteck.com/products/shift-plus-av400" },
+          { "title": "Acteck AC-934756 datasheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-934756_V1.pdf?v=1694790065" },
+          { "title": "GlobalOffice Acteck AC-934756", "type": "retail", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/accesorios/adaptador-acteck-shift-plus-av400-hdmi-a-vga-2/ac-934756" },
+          { "title": "Grupo Reysa Acteck AC-934756", "type": "retail", "url": "https://gruporeysa.com.mx/producto/acteck-ac-934756/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1rlc7drvw1je47n",
+      "research": {
+        "confidence": 0.95,
+        "name": "Smartbitt SBAVRC2000 regulador 2000VA 1200W para linea blanca",
+        "description": "Regulador de voltaje Smartbitt SBAVRC2000 / SBAVRAC2000 para linea blanca y aplicaciones con motor CA, 2000VA/1200W, 1 contacto NEMA 5-15R, retardo de 3 minutos y supresion de picos 312J.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/linea-blanca",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/linea-blanca/smartbitt-sbavrc2000",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBAVRC2000.pdf",
+        "gallery": [
+          "https://www.grupocva.com/detalle_articulo/9781497.jpg"
+        ],
+        "documents": [
+          { "label": "Smartbitt SBAVRC2000 datasheet", "type": "datasheet", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBAVRC2000.pdf" }
+        ],
+        "specs": {
+          "brand": "SMARTBITT",
+          "model": "SBAVRC2000 / SBAVRAC2000",
+          "providerSku": "REGBIT070 / RE-141",
+          "productType": "AVR voltage regulator for appliances",
+          "capacity": "2000VA / 1200W",
+          "input": "120VAC 50/60Hz NEMA 5-15P, 90-145VAC range",
+          "output": "120VAC +/-10%, 50/60Hz, 1 NEMA 5-15R outlet",
+          "overload": "10A",
+          "surgeSuppression": "312J",
+          "delay": "3 minutes",
+          "indicators": "Green power, amber regulation, red delay",
+          "controls": "On/Off/Reset switch and breaker",
+          "cableLength": "1150 mm",
+          "color": "White",
+          "mounting": "Floor",
+          "operatingConditions": "0-40 C, 0-95% RH non-condensing, <=40dB",
+          "warranty": "5 years reported by public listings",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 29 },
+            { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "REGBIT070", "stock": 29, "price": 896.9, "currency": "MXN", "branch": "total:29" },
+            { "providerId": "cva", "providerSku": "RE-141", "stock": 0, "price": 880.27, "currency": "MXN", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate RE-141/SBAVRC2000 but show different stock/price snapshots; provider legacy path was laptops."]
+        },
+        "measurements": { "dimensions": "196.8 x 110 x 123.5 mm", "weight": "4 kg", "alternateDimensions": "190 x 110 x 125 mm", "alternateWeight": "4.3 kg" },
+        "sourceRefs": [
+          { "title": "Smartbitt SBAVRC2000 datasheet", "type": "datasheet", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBAVRC2000.pdf" },
+          { "title": "GlobalOffice Smartbitt SBAVRC2000", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/regulador-de-voltaje-smartbitt-2000va1200w-1-contacto-para/sbavrc2000sbavrac2000" },
+          { "title": "Mitech Smartbitt SBAVRC2000", "type": "retail", "url": "https://www.mitech.mx/REGULADOR-DE-VOLTAJE-SMARTBITT-2000VA-1200W-1-CONTACTO-PARA-LINEA-BLANCA-Y-APLICACIONES-CON-MOTOR-CA-SMARTBITT-SBAVRC2000-SBAVRAC2000%2C83894__1461123983" },
+          { "title": "TiendaDeTodo Smartbitt SBAVRC2000", "type": "retail", "url": "https://www.tiendadetodo.com.mx/REGULADOR-DE-VOLTAJE-SMARTBITT-SBAVRC2000-2000VA-1200W-1-CONTACTO-PARA-LINEA-BLANCA-Y-APLICACIONES-CON-MOTOR-CA-SMARTBITT-SBAVRC2000-SBAVRAC2000%2C242785__1717125290" }
+        ]
+      }
+    },
+    {
+      "product_id": "1rmvnm71ijwl3ma",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Omada TL-SG3428MP JetStream switch L2+ 24 PoE+ 4 SFP",
+        "description": "Switch administrable TP-Link Omada JetStream TL-SG3428MP L2+ con 24 puertos Gigabit PoE+ 802.3af/at, 4 ranuras SFP Gigabit, presupuesto PoE 384W, switching 56Gbps, montaje rack y administracion Omada/cloud.",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/24-puertos",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/24-puertos/tp-link-tl-sg3428mp",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/business-networking/managed-switch/tl-sg3428mp/v1/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SWTTPL880/SWTTPL880_full.jpg",
+          "https://static.tp-link.com/TL-SG3428MP_UN_1.0_01_normal_1603785944578p.jpg",
+          "https://static.tp-link.com/TL-SG3428MP_UN_1.0_02_normal_1603785952064t.jpg",
+          "https://static.tp-link.com/TL-SG3428MP_UN_1.0_03_normal_1603785960827x.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link SG3428MP datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202512/20251224/SG3428MP%28UN%296.30_datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "line": "Omada / JetStream",
+          "model": "TL-SG3428MP / SG3428MP",
+          "providerSku": "SWTTPL880",
+          "upc": "845973010157",
+          "productType": "L2+ managed PoE+ Gigabit switch",
+          "ports": "24 RJ45 10/100/1000Mbps PoE+, 4 Gigabit SFP, RJ45 console and Micro-USB console",
+          "poe": "802.3af/at, up to 30W per port, 384W total budget",
+          "switchingCapacity": "56Gbps",
+          "forwardingRate": "41.66Mpps",
+          "features": "Static routing, VLAN 4K, QoS, ACL, IGMP/MLD snooping, LACP, STP/RSTP/MSTP, 802.1X, SNMP, Omada controller/cloud",
+          "power": "100-240VAC 50/60Hz",
+          "cooling": "2 fans",
+          "mounting": "Rack mount",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL880", "stock": 4, "price": 298.3, "currency": "USD", "branch": "D2A:3,PUE:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Omada is the product line; canonical brand is TP-Link. Public sources validate SWTTPL880/UPC but not the private CTOnline branch stock and USD price."]
+        },
+        "measurements": { "dimensions": "440 x 330 x 44 mm" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-SG3428MP", "type": "manufacturer", "url": "https://www.tp-link.com/us/business-networking/managed-switch/tl-sg3428mp/v1/" },
+          { "title": "TP-Link SG3428MP datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202512/20251224/SG3428MP%28UN%296.30_datasheet.pdf" },
+          { "title": "GlobalOffice SG3428MP", "type": "retail", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/red-activa/switch-poe-omada-tl-sg3428mp-switch-poe-tp-link-sg/sg3428mp" },
+          { "title": "GlobalOffice TL-SG3428MP", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/red-activa/switch-poe-tp-link-tl-sg3428mp-negro-24-tl-sg34/tl-sg3428mp" }
+        ]
+      }
+    },
+    {
+      "product_id": "1rr85e6mwsh3ypa",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link TL-POE10E extensor PoE+ Fast Ethernet",
+        "description": "Extensor PoE+ TP-Link TL-POE10E plug and play con 1 puerto PoE IN y 1 puerto PoE OUT Fast Ethernet 10/100Mbps, compatible IEEE 802.3af/at, salida hasta 20W y extension PoE hasta 100 m o 250 m en modo 10Mbps.",
+        "manualCategoryPath": "redes/poe/extensores/fast-ethernet",
+        "semanticCategoryPath": "redes/poe/extensores/fast-ethernet/tp-link-tl-poe10e",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/au/business-networking/accessory/poe10e/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCTPL1030/ACCTPL1030_full.jpg",
+          "https://static.tp-link.com/upload/image-line/TL-POE10E_UN_1.0_overview_01_normal_20250126023331c.jpg",
+          "https://static.tp-link.com/upload/image-line/TL-POE10E_UN_1.0_overview_02_normal_20250126023408m.jpg",
+          "https://static.tp-link.com/upload/image-line/TL-POE10E_UN_1.0_normal_20250207064739f.png"
+        ],
+        "documents": [
+          { "label": "TP-Link TL-POE10E datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202306/20230620/TL-POE10E%28UN%291.0_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-POE10E / POE10E",
+          "providerSku": "ACCTPL1030",
+          "upc": "840030706592",
+          "productType": "Fast Ethernet PoE+ extender",
+          "ports": "2 RJ45 10/100Mbps, 1 PoE IN and 1 PoE OUT",
+          "poe": "IEEE 802.3af/at, output up to 20W",
+          "distance": "Extends PoE/PoE+ 100 m; up to 250 m at 10Mbps mode",
+          "cabling": "UTP/STP Cat5e or better",
+          "features": "Plug and play, plastic housing",
+          "certifications": "FCC, CE, RoHS",
+          "operatingConditions": "0-45 C, 10%-90% RH non-condensing",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCTPL1030", "stock": 1, "price": 11.25, "currency": "USD", "branch": "TAM:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate model but not the private CTOnline TAM:1 stock or USD 11.25 price; provider legacy path was switches."]
+        },
+        "measurements": { "dimensions": "71 x 26 x 16 mm", "packageWeight": "0.145 lb", "packageDimensions": "4.9 x 3.2 x 1.5 in" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-POE10E", "type": "manufacturer", "url": "https://www.tp-link.com/au/business-networking/accessory/poe10e/" },
+          { "title": "TP-Link TL-POE10E datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202306/20230620/TL-POE10E%28UN%291.0_Datasheet.pdf" },
+          { "title": "LB Store TL-POE10E", "type": "retail", "url": "https://lbstore.com.mx/products/extensor-poe-tp-link-tl-poe10e" },
+          { "title": "B&H TP-Link POE10E", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1829508-REG/tp_link_poe10e_omada_fast_ethernet.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "1s92wqr7iplnazj",
+      "research": {
+        "confidence": 0.94,
+        "name": "Silimex Silijet 40 aflojatodo antioxidante anticorrosivo aerosol 454 ml",
+        "description": "Aerosol Silimex Silijet 40 de 454 ml, aflojatodo mecanico, protector de metales antioxidante y anticorrosivo con alto poder penetrante, resistencia a intemperismo humedo/salino y agentes antidesgaste y antifriccion.",
+        "manualCategoryPath": "mantenimiento/quimicos/aflojatodo-anticorrosivo",
+        "semanticCategoryPath": "mantenimiento/quimicos/aflojatodo-anticorrosivo/silimex-silijet-40-454ml",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://silimex.com.mx/producto/silijet-40/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9612890",
+          "https://compuviper.mx/tienda/wp-content/uploads/2023/12/Silijet-40-aflojatodo-antioxidante-en-aerosol-silimex-para-componentes-electronicos-454-ml.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-SILIMEX-SILIJET40-1.jpg"
+        ],
+        "documents": [
+          { "label": "Silimex Silijet 40 technical sheet", "type": "datasheet", "url": "https://silimex.com.mx/wp-content/uploads/2023/04/fichas-tecnicas-silimex_silijet-40.pdf" }
+        ],
+        "specs": {
+          "brand": "SILIMEX",
+          "model": "SILI JET 40 454 ML",
+          "providerSku": "CN-2637",
+          "upc": "750300219621",
+          "productType": "Anticorrosive penetrating lubricant aerosol",
+          "presentation": "454 ml",
+          "features": "Aflojatodo, metal protector, antioxidant, anticorrosive, anti-wear and anti-friction agents, CFC/HCFC free",
+          "ph": "7.06",
+          "density": "1.22 g/ml",
+          "solubility": "Partial in water",
+          "appearance": "Amber liquid with characteristic aroma",
+          "storage": "Cool storage, below 50 C",
+          "shelfLife": "More than 12 months",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "total", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "CN-2637", "stock": 2, "price": 70.42, "currency": "MXN", "branch": "total:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public Compuviper/Cyberpuerta stock and price differ from private CVA stock 2/MXN 70.42; provider legacy path was computo cleaning."]
+        },
+        "measurements": { "canHeight": "20.0 cm", "canDiameter": "7.0 cm", "caseDimensions": "21.0 x 22.5 x 34.5 cm", "caseWeight": "6.440 kg for 15 pieces" },
+        "sourceRefs": [
+          { "title": "Silimex Silijet 40", "type": "manufacturer", "url": "https://silimex.com.mx/producto/silijet-40/" },
+          { "title": "Silimex Silijet 40 datasheet", "type": "datasheet", "url": "https://silimex.com.mx/wp-content/uploads/2023/04/fichas-tecnicas-silimex_silijet-40.pdf" },
+          { "title": "CompuViper Silimex Silijet 40", "type": "retail", "url": "https://compuviper.mx/tienda/producto/silimex-sili-jet-40-454-ml-aerosol-afloja-todo-protector-de-metales-antioxidante-y-anticorrosion/" },
+          { "title": "Cyberpuerta Silimex SiliJet 40", "type": "retail", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-PC-s/Protectores-para-PC-s/Silimex-SiliJet-40-Protege-Piezas-Metalicas-Expuestas-a-la-Oxidacion-454ml.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "1sgojfopp9de09t",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Archer GE800 router gaming Wi-Fi 7 BE19000 triple banda",
+        "description": "Router gaming TP-Link Archer GE800 Wi-Fi 7 BE19000 triple banda con 6GHz 11520Mbps, 5GHz 5760Mbps, 2.4GHz 1376Mbps, puertos 10G WAN/LAN, LAN 2.5G, USB 3.0, HomeShield, VPN y administracion Tether/Web.",
+        "manualCategoryPath": "redes/routers/wifi-7/gaming-be19000",
+        "semanticCategoryPath": "redes/routers/wifi-7/gaming-be19000/tp-link-archer-ge800",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ge800/v1/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10464360",
+          "https://static.tp-link.com/upload/image-line/02_normal_20240523052711l.jpg",
+          "https://static.tp-link.com/upload/image-line/01_normal_20230915035020s.jpg",
+          "https://static.tp-link.com/upload/image-line/03_normal_20240523052831t.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link Archer GE800 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202504/20250410/Archer%20GE800-Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer GE800",
+          "providerSku": "ROUTPL1240 / NIC-4999",
+          "productType": "Tri-band Wi-Fi 7 gaming router",
+          "wifi": "BE19000, 6GHz 11520Mbps, 5GHz 5760Mbps, 2.4GHz 1376Mbps, 320MHz, 4K-QAM",
+          "processor": "Quad-core CPU",
+          "memory": "2GB RAM",
+          "antennas": "8 internal high-performance antennas",
+          "ports": "2 10G WAN/LAN including combo SFP+/RJ45, 4 2.5G LAN, USB 3.0",
+          "features": "EasyMesh, IoT network, HomeShield, gaming acceleration, guest networks, IPv4/IPv6, IPTV VLAN, media server, Samba, FTP",
+          "security": "WPA/WPA2/WPA3, SPI firewall, access control, IP and MAC binding",
+          "vpn": "OpenVPN, PPTP, L2TP, WireGuard server/client",
+          "management": "TP-Link Tether app and web UI",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 3 },
+            { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTPL1240", "stock": 3, "price": 438.64, "currency": "USD", "branch": "total:3" },
+            { "providerId": "cva", "providerSku": "NIC-4999", "stock": 0, "price": 416.4, "currency": "USD", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate Archer GE800/NIC-4999 but not CTOnline ROUTPL1240 stock 3 or CVA stock 0 snapshots; provider legacy path was access-points."]
+        },
+        "measurements": { "dimensions": "292 x 207 x 224 mm", "retailWeight": "2.21 kg / 4.87 lb", "packageWeight": "11.335 lb", "packageDimensions": "14.2 x 11 x 11 in" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer GE800", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/wifi-router/archer-ge800/v1/" },
+          { "title": "TP-Link Archer GE800 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202504/20250410/Archer%20GE800-Datasheet.pdf" },
+          { "title": "B&H TP-Link Archer GE800", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1838573-REG/tp_link_archer_ge800_be19000_tri_band.html/specs" },
+          { "title": "SysMX TP-Link Archer GE800", "type": "retail", "url": "https://www.sysmx.com.mx/NIC-4999-ARCHER-GE800-TP-LINK-REDES-ROUTER-TP-LINK-ARCHER-GE800-GAMING-WI-FI-7-TRIPLE-BANDA-ARCHER-GE800-BE19000" }
+        ]
+      }
+    },
+    {
+      "product_id": "1simhfzkumpk9rc",
+      "research": {
+        "confidence": 0.94,
+        "name": "TechZone Backpack Max III TZLBP27-A mochila para laptop 16 pulgadas",
+        "description": "Mochila TechZone Backpack Max III TZLBP27-A de poliester negro para laptop hasta 16 pulgadas, con compartimento acolchado, espacio para documentos, organizador interno, dos bolsas frontales, dos laterales, tirantes acolchados y asa superior.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas/techzone-tzlbp27-a",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techzone.com.mx/products/max-iii",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10459967",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP27-A_1.webp",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP27-A_2.webp",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP27-A_3.webp",
+          "https://techzone.com.mx/cdn/shop/files/TZLBP27-A_4.webp"
+        ],
+        "documents": [
+          { "label": "TechZone Backpack Max III listing", "type": "manufacturer", "url": "https://techzone.com.mx/products/max-iii" }
+        ],
+        "specs": {
+          "brand": "TECH ZONE",
+          "model": "TZLBP27-A",
+          "providerSku": "AC-13036",
+          "productType": "Laptop backpack",
+          "laptopSize": "Up to 16 in",
+          "material": "Polyester",
+          "color": "Black",
+          "features": "Padded laptop compartment, document compartment, organizer with internal pockets, 2 front pockets, 2 side pockets, padded shoulder straps, top handle",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "total", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "AC-13036", "stock": 5, "price": 342.39, "currency": "MXN", "branch": "total:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public retailers validate the product/SKU but not the private CVA stock 5 or MXN 342.39 price; provider legacy path was laptops."]
+        },
+        "measurements": { "dimensions": "44 x 31 x 12 cm" },
+        "sourceRefs": [
+          { "title": "TechZone Backpack Max III", "type": "manufacturer", "url": "https://techzone.com.mx/products/max-iii" },
+          { "title": "Mactoner TechZone TZLBP27-A", "type": "retail", "url": "https://mactoner.com.mx/products/mochila-techzone-tzlbp27-a" },
+          { "title": "TekDigital TechZone TZLBP27-A", "type": "retail", "url": "https://tekdigital.com.mx/productos/mochila-techzone-backpack-max-iii-negro-poliester-16-tzlbp27-a" },
+          { "title": "Grupo Reysa TechZone Backpack Max III", "type": "retail", "url": "https://gruporeysa.mx/computadoras-2/18451-mochila-backpack-max-iii-para-laptops-de-hasta-16-pulgadas-negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "1sirtqmx3apbv41",
+      "research": {
+        "confidence": 0.94,
+        "name": "Stylos STMSDS4B memoria microSDHC 64GB Clase 10 UHS-I con adaptador",
+        "description": "Memoria microSDHC Stylos STMSDS4B de 64GB Clase 10 UHS-I con adaptador SD, EAN 7503027017066; fichas publicas reportan velocidades entre 10/4 MB/s y 25/14 MB/s segun retailer.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10/stylos-stmsds4b",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/memoria-flash-micro-sdhc-stylos-stmsds4b-64gb-clase-10-178303",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMSTY070/MEMSTY070_full.jpg",
+          "https://resources.claroshop.com/medios-plazavip/mkt/6410d32230d0e_memoria-stylos-micro-sd-64gb-c10-100811jpg.jpg",
+          "https://intercompras.com/images/product/STYLOS_STMSDS4B_ICB5E5.jpg",
+          "https://www.zegucom.com.mx/productos/zoom/memoria-micro-sd-64gb-stylos-stmsds4b-clase-10-con-adaptador-sd-20241008174735.webp"
+        ],
+        "documents": [
+          { "label": "Intercompras Stylos STMSDS4B listing", "type": "retail", "url": "https://intercompras.com/p/memoria-flash-micro-sdhc-stylos-stmsds4b-64gb-clase-10-178303" }
+        ],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STMSDS4B",
+          "providerSku": "MEMSTY070",
+          "ean": "7503027017066",
+          "productType": "microSDHC flash memory card",
+          "capacity": "64GB",
+          "class": "Class 10, UHS-I",
+          "adapter": "SD adapter included",
+          "readSpeed": "10MB/s in provider feed; up to 25MB/s in some public listings",
+          "writeSpeed": "4MB/s in provider feed; up to 14MB/s in some public listings",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 28 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 11 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MEMSTY070", "stock": 54, "price": 5.99, "currency": "USD", "branch": "DFC:28,IRA:15,VHA:11" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources do not validate CTOnline branch stock DFC/IRA/VHA or USD 5.99 promo price; provider legacy path was memory RAM."]
+        },
+        "sourceRefs": [
+          { "title": "CompuPuebla Stylos STMSDS4B", "type": "retail", "url": "https://compupuebla.com/product/7503027017066" },
+          { "title": "TekDigital Stylos STMSDS4B", "type": "retail", "url": "https://tekdigital.com.mx/productos/memoria-micro-sd-64gb-c10-lectura-10-mb-s-escritura-4-mb-s-stylos-stmsds4b" },
+          { "title": "Intercompras Stylos STMSDS4B", "type": "retail", "url": "https://intercompras.com/p/memoria-flash-micro-sdhc-stylos-stmsds4b-64gb-clase-10-178303" },
+          { "title": "Zegucom Stylos STMSDS4B", "type": "retail", "url": "https://www.zegucom.com.mx/producto/7635/memoria-micro-sd-64gb-stylos-stmsds4b-clase-10-con-adaptador-sd" }
+        ]
+      }
+    },
+    {
+      "product_id": "1t0e5qpy9hulciw",
+      "research": {
+        "confidence": 0.95,
+        "name": "Balam Rush Heimdall Spectrum BR-922999 mousepad RGB con carga inalambrica Qi",
+        "description": "Mousepad gamer rigido Balam Rush Heimdall Spectrum BR-922999 de acrilico con superficie microtexturizada, iluminacion RGB con 10 efectos, carga inalambrica Qi de 10W, conexion USB y cable incluido.",
+        "manualCategoryPath": "computo/accesorios/mousepads/gaming-carga-inalambrica",
+        "semanticCategoryPath": "computo/accesorios/mousepads/gaming-carga-inalambrica/balam-rush-heimdall-spectrum",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcdigital.com.mx/balam-rush/br-922999-mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro-45302.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBLR010/ACCBLR010_5_full.jpg",
+          "https://www.pcdigital.com.mx/imagenes/BR-922999_2.jpg",
+          "https://www.pcdigital.com.mx/imagenes/BR-922999_3.jpg",
+          "https://www.zegucom.com.mx/productos/miniatura/mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro-20241008174904.webp"
+        ],
+        "documents": [
+          { "label": "PCDigital Balam Rush BR-922999 listing", "type": "retail", "url": "https://www.pcdigital.com.mx/balam-rush/br-922999-mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro-45302.html" }
+        ],
+        "specs": {
+          "brand": "BALAM RUSH",
+          "model": "BR-922999 / Heimdall Spectrum",
+          "providerSku": "ACCBLR010",
+          "ean": "7506215922999",
+          "productType": "Gaming mousepad with wireless charger",
+          "material": "Acrylic",
+          "surface": "Rigid microtextured surface",
+          "lighting": "RGB with 10 effects",
+          "wirelessCharging": "Qi, 10W",
+          "connectivity": "USB",
+          "features": "Plug and play, cable included, smartphone Qi charging area",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 3 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCBLR010", "stock": 3, "price": 431.11, "currency": "MXN", "branch": "ACA:3" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public retailers validate model/EAN but not the private CTOnline ACA:3 stock or MXN 431.11 price; provider legacy path was mouse."]
+        },
+        "measurements": { "dimensions": "256 x 356 x 8.5 mm", "weight": "560 g", "packageDimensions": "270 x 380 x 30 mm", "packageWeight": "700 g" },
+        "sourceRefs": [
+          { "title": "PCDigital Balam Rush BR-922999", "type": "retail", "url": "https://www.pcdigital.com.mx/balam-rush/br-922999-mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro-45302.html" },
+          { "title": "Tecnowow Balam Rush BR-922999", "type": "retail", "url": "https://tecnowow.mx/products/mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro" },
+          { "title": "Zegucom Balam Rush BR-922999", "type": "retail", "url": "https://www.zegucom.com.mx/producto/7469/mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro" },
+          { "title": "CTI Store Balam Rush BR-922999", "type": "retail", "url": "https://ctistore.com.mx/producto/accesorios/mouse-y-teclados/mousepad-gamer-balam-rush-br-922999-heimdall-spectrum-con-carga-inalambrica-usb-rgb-negro/" }
+        ]
+      }
+    }
+  ]
+}

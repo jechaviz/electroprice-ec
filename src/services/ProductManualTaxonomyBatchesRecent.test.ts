@@ -323,6 +323,16 @@ const researchedBatchCases = [
   ["Grandstream GWN7701 switch gigabit no administrable 8 puertos", "GRANDSTREAM", "redes/switches/no-administrables/gigabit/8-puertos"],
   ["Patriot P300P1TBM28 SSD 1TB M.2 NVMe PCIe Gen3x4", "PATRIOT", "computo/almacenamiento/ssd/m2-nvme/1tb-gen3"],
   ["Brobotix 263045 bocina Bluetooth portatil radio FM USB azul", "BROBOTIX", "audio/bocinas/bluetooth/portatiles/fm-usb"],
+  ["Ovaltech OTDGJKNX bateria laptop Dell Latitude 5480 8200mAh", "OVALTECH", "computo/accesorios/baterias-laptop/dell"],
+  ["Acteck Shift Plus AV400 AC-934756 adaptador HDMI a VGA 20 cm", "ACTECK", "accesorios/cables-adaptadores/video-hdmi-vga"],
+  ["Smartbitt SBAVRC2000 regulador voltaje 2000VA linea blanca", "SMARTBITT", "energia/supresores-reguladores/reguladores-voltaje/avr/linea-blanca"],
+  ["TP-Link Omada SG3428MP switch PoE administrable 24 puertos gigabit", "TP LINK", "redes/switches/poe-administrables/gigabit/24-puertos"],
+  ["TP-Link POE10E extensor PoE Fast Ethernet", "TP LINK", "redes/poe/extensores/fast-ethernet"],
+  ["Silimex Sili Jet 40 454 ml aflojatodo anticorrosivo", "SILIMEX", "mantenimiento/quimicos/aflojatodo-anticorrosivo"],
+  ["TP-Link Archer GE800 router gaming Wi-Fi 7 BE19000", "TP LINK", "redes/routers/wifi-7/gaming-be19000"],
+  ["Tech Zone TZLBP27-A Backpack Max III mochila laptop 16", "TECH ZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
+  ["Stylos STMSDS4B memoria micro SD 64GB Clase 10", "STYLOS", "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10"],
+  ["Balam Rush BR-922999 Heimdall Spectrum mousepad carga inalambrica RGB", "BALAM RUSH", "computo/accesorios/mousepads/gaming-carga-inalambrica"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
