@@ -1,0 +1,424 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b108-2026-05-29",
+  "cycle": 3,
+  "batch": 108,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "oqli220mfbkxpdb",
+      "research": {
+        "confidence": 0.94,
+        "name": "BRobotix 497264 mouse pad ultra delgado 24 x 20 cm negro con bolsa",
+        "description": "Mouse pad BRobotix 497264 negro ultra delgado con superficie sintetica de baja friccion, base antiderrapante y empaque en bolsa.",
+        "manualCategoryPath": "computo/accesorios/mousepads/basicos-ultradelgados",
+        "semanticCategoryPath": "computo/accesorios/mousepads/basicos-ultradelgados/brobotix-497264-negro",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/mouse-pad-ultra-delgado-negro-con-bolsa-brobotix-497264/",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/04/MousePadUltraDelgadoNegroconBolsaB_497264_EAN7503027497264_0.jpg", "https://intercompras.com/p/mousepad-brobotix-ultra-delgado-24x20cm-negro-175544"],
+        "documents": [{ "label": "BRobotix 497264 retailer technical reference", "type": "catalog", "url": "https://compupuebla.com/producto/mouse-pad-ultra-delgado-negro-con-bolsa-brobotix-497264/" }],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "497264",
+          "providerSku": "ACCRBT5790",
+          "ean": "7503027497264",
+          "productType": "Mouse pad ultra delgado",
+          "color": "Negro",
+          "surface": "Monocromatica sintetica de baja friccion",
+          "base": "Antiderrapante",
+          "wristRest": "No",
+          "packageType": "Bolsa",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":729},{"providerId":"ctonline","warehouseCode":"CMT","stock":403},{"providerId":"ctonline","warehouseCode":"GDL","stock":358},{"providerId":"ctonline","warehouseCode":"D2A","stock":346},{"providerId":"ctonline","warehouseCode":"CHI","stock":44},{"providerId":"ctonline","warehouseCode":"MID","stock":22},{"providerId":"ctonline","warehouseCode":"CTZ","stock":20},{"providerId":"ctonline","warehouseCode":"CUE","stock":20},{"providerId":"ctonline","warehouseCode":"TOL","stock":20},{"providerId":"ctonline","warehouseCode":"CUN","stock":20},{"providerId":"ctonline","warehouseCode":"SLT","stock":18},{"providerId":"ctonline","warehouseCode":"CDV","stock":17}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT5790", "stock": 2077, "price": 0.91, "currency": "USD", "branch": "DFA:729,CMT:403,GDL:358,D2A:346,CHI:44,MID:22,CTZ:20,CUE:20,TOL:20,CUN:20,SLT:18,CDV:17" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous mouse path was too broad; this is a mouse pad accessory, not a mouse.", "Sources vary between 1 mm and 2 mm thickness; retain 24 x 20 cm and note ultra-thin form factor.", "Visible branch sum is 2017 while feed total_stock is 2077, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "24 x 20 cm; thickness 1 to 2 mm depending on source", "weight": "Approx 0.05 kg by alternate catalog" },
+        "sourceRefs": [
+          { "title": "CompuPuebla BRobotix 497264", "type": "catalog", "url": "https://compupuebla.com/producto/mouse-pad-ultra-delgado-negro-con-bolsa-brobotix-497264/" },
+          { "title": "Intercompras BRobotix 497264", "type": "retailer", "url": "https://intercompras.com/p/mousepad-brobotix-ultra-delgado-24x20cm-negro-175544" },
+          { "title": "TiendaClic BRobotix 497264", "type": "retailer", "url": "https://www.tiendaclic.mx/ver-detalle/mousepad-brobotix-ultra-delgado-color-negro-brobotix-497264" }
+        ]
+      }
+    },
+    {
+      "product_id": "kkqpk1xcfw805rv",
+      "research": {
+        "confidence": 0.97,
+        "name": "Mercusys MW300UM adaptador mini USB Wi-Fi N300 300 Mbps",
+        "description": "Adaptador USB mini Mercusys MW300UM para agregar conectividad Wi-Fi N de 2.4 GHz hasta 300 Mbps a PC o laptop.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/n300-mini",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/n300-mini/mercusys-mw300um",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mercusys.com/cac/product/adapter/mw300um/v3/",
+        "gallery": ["https://static.mercusys.com/product-image/localTest_MW300UM_EU_3.0_01_large20200513082108.jpg"],
+        "documents": [{ "label": "Mercusys MW300UM datasheet", "type": "datasheet", "url": "https://static.mercusys.com/manual/MW300UM_%28EU%293.0-datasheet20200401094427.pdf" }],
+        "specs": {
+          "brand": "MERCUSYS",
+          "model": "MW300UM",
+          "providerSku": "TARMER010",
+          "upc": "849439000348",
+          "productType": "Adaptador USB Wi-Fi",
+          "wirelessStandard": "IEEE 802.11b/g/n",
+          "band": "2.4 GHz",
+          "speed": "Hasta 300 Mbps",
+          "interface": "USB 2.0",
+          "antenna": "Interna",
+          "security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+          "osSupport": "Windows 11/10/8.1/8/7/XP by Mercusys reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1104},{"providerId":"ctonline","warehouseCode":"DFA","stock":523},{"providerId":"ctonline","warehouseCode":"CMT","stock":155},{"providerId":"ctonline","warehouseCode":"AGS","stock":90},{"providerId":"ctonline","warehouseCode":"GDL","stock":30},{"providerId":"ctonline","warehouseCode":"LMO","stock":21},{"providerId":"ctonline","warehouseCode":"MOR","stock":20},{"providerId":"ctonline","warehouseCode":"ACA","stock":19},{"providerId":"ctonline","warehouseCode":"TPC","stock":11},{"providerId":"ctonline","warehouseCode":"OAX","stock":10},{"providerId":"ctonline","warehouseCode":"TOL","stock":8},{"providerId":"ctonline","warehouseCode":"PUE","stock":7}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARMER010", "stock": 2059, "price": 5.41, "currency": "USD", "branch": "D2A:1104,DFA:523,CMT:155,AGS:90,GDL:30,LMO:21,MOR:20,ACA:19,TPC:11,OAX:10,TOL:8,PUE:7" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cables-adaptadores path was incorrect; this is a network Wi-Fi adapter.", "UPC is validated by retailers, while Mercusys official page focuses on model and hardware version.", "Visible branch sum is 1998 while feed total_stock is 2059, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "42.9 x 17.2 x 8.5 mm", "weight": "Official product weight not published" },
+        "sourceRefs": [
+          { "title": "Mercusys MW300UM official page", "type": "manufacturer", "url": "https://www.mercusys.com/cac/product/adapter/mw300um/v3/" },
+          { "title": "Mercusys MW300UM datasheet", "type": "datasheet", "url": "https://static.mercusys.com/manual/MW300UM_%28EU%293.0-datasheet20200401094427.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "fmk8qwa6en5b0wj",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice PC-201038 teclado alambrico USB antiderrames negro",
+        "description": "Teclado USB Perfect Choice PC-201038 de membrana, color negro, con drenaje contra derrames, cable de 1.5 m y operacion Plug and Play.",
+        "manualCategoryPath": "computo/perifericos/teclados/alambricos/usb/resistentes-salpicaduras",
+        "semanticCategoryPath": "computo/perifericos/teclados/alambricos/usb/resistentes-salpicaduras/perfect-choice-pc-201038",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/teclado-alambrico-usb",
+        "gallery": ["https://perfectchoice.me/cdn/shop/products/PC-201038_A01_teclados_alambricos_antiderrames_wired_keyboard_antispill.png?v=1760460401"],
+        "documents": [
+          { "label": "Perfect Choice PC-201038 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-201038_FT.pdf?v=1587147043" },
+          { "label": "Perfect Choice PC-201038 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-201038_M.pdf?v=1599148730" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-201038",
+          "providerSkus": ["TECMST990", "KB-704"],
+          "upc": "615604201038",
+          "productType": "Teclado alambrico USB",
+          "switchType": "Membrana",
+          "interface": "USB-A",
+          "layout": "Espanol latinoamericano by regional product context",
+          "spillResistance": "Drenaje contra salpicaduras",
+          "cableLength": "1.5 m",
+          "power": "5 Vcc 500 mA",
+          "osSupport": "Windows 7/8/10",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TECMST990", "stock": 1993, "price": 78.19, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "KB-704", "stock": 31, "price": 76.9, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous keyboard category was acceptable but too broad; this deserves USB spill-resistant keyboard subcategory.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "43.8 x 13.7 x 2.38 cm", "weight": "373 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice teclado alambrico USB official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/teclado-alambrico-usb" },
+          { "title": "Perfect Choice PC-201038 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-201038_FT.pdf?v=1587147043" },
+          { "title": "Perfect Choice PC-201038 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-201038_M.pdf?v=1599148730" }
+        ]
+      }
+    },
+    {
+      "product_id": "dxrf5fmerpe64bd",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link TL-WA855RE extensor de rango Wi-Fi N300 300 Mbps",
+        "description": "Extensor de rango TP-Link TL-WA855RE Wi-Fi N300 de 2.4 GHz con dos antenas externas, puerto Ethernet 10/100 y modo punto de acceso.",
+        "manualCategoryPath": "redes/extensores-wifi/n300",
+        "semanticCategoryPath": "redes/extensores-wifi/n300/tp-link-tl-wa855re",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/range-extender/tl-wa855re/",
+        "gallery": ["https://static.tp-link.com/TL-WA855RE_US_2.0_01_large_1559790938633t.jpg"],
+        "documents": [{ "label": "TP-Link TL-WA855RE datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2018/201812/20181220/TL-WA855RE%28US%29%204.0%20Datasheet.pdf" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WA855RE",
+          "providerSkus": ["ACPTPL320", "NIC-2099"],
+          "productType": "Extensor de rango Wi-Fi",
+          "wirelessStandard": "IEEE 802.11b/g/n",
+          "band": "2.4 GHz",
+          "speed": "Hasta 300 Mbps",
+          "antennas": "2 externas",
+          "ethernet": "1 puerto RJ45 10/100 Mbps",
+          "modes": "Range Extender and Access Point",
+          "security": "WEP, WPA-PSK, WPA2-PSK",
+          "buttons": "WPS and Reset",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACPTPL320", "stock": 1971, "price": 12.5, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-2099", "stock": 10, "price": 11.87, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path overstates the secondary AP mode; primary product class is Wi-Fi range extender/repeater.", "Dimensions vary by hardware revision; retain official Mexico V2 dimensions for publication.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "80 x 77.8 x 77.3 mm by TP-Link Mexico V2 page", "weight": "Official product weight not published" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-WA855RE Mexico page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/range-extender/tl-wa855re/" },
+          { "title": "TP-Link TL-WA855RE datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2018/201812/20181220/TL-WA855RE%28US%29%204.0%20Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "ehx7t7wjf897rhd",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link Archer T2U Nano adaptador USB Wi-Fi AC600 doble banda",
+        "description": "Adaptador USB nano TP-Link Archer T2U Nano Wi-Fi AC600 de doble banda para PC o laptop, con hasta 433 Mbps en 5 GHz y 200 Mbps en 2.4 GHz.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/ac600-nano",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/ac600-nano/tp-link-archer-t2u-nano",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/adapter/archer-t2u-nano/",
+        "gallery": ["https://static.tp-link.com/Archer_T2U_Nano_EU_3.0_01_large_1536928386841s.jpg"],
+        "documents": [{ "label": "TP-Link Archer T2U Nano datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202010/20201019/Archer%20T2U%20Nano%28EU%26US%291.0_Datasheet.pdf" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer T2U Nano",
+          "providerSkus": ["TARTPL510", "NIC-2977"],
+          "productType": "Adaptador USB Wi-Fi",
+          "wirelessStandard": "IEEE 802.11ac/a/n/g/b",
+          "bands": "2.4 GHz and 5 GHz",
+          "speed": "433 Mbps at 5 GHz plus 200 Mbps at 2.4 GHz",
+          "interface": "USB 2.0",
+          "antenna": "Omnidirectional internal",
+          "security": "WEP, WPA-PSK, WPA2-PSK, 802.1x",
+          "osSupport": "Windows and macOS depending on hardware/driver version",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TARTPL510", "stock": 1967, "price": 9.09, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-2977", "stock": 11, "price": 8.63, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path was incorrect; this is a USB Wi-Fi client adapter.", "OS support varies by hardware version and regional TP-Link page; publish as driver/version dependent.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "15 x 7.1 x 18.6 mm", "weight": "Official product weight not published" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer T2U Nano Mexico page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/adapter/archer-t2u-nano/" },
+          { "title": "TP-Link Archer T2U Nano datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202010/20201019/Archer%20T2U%20Nano%28EU%26US%291.0_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "lcumdxzo5hcx4yu",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP Poly Blackwire 3220 8X228A6 diadema USB-C con adaptador USB-A",
+        "description": "Diadema alambrica stereo HP Poly Blackwire 3220 con conexion USB-C, adaptador USB-A incluido, microfono con cancelacion de ruido y controles en linea.",
+        "manualCategoryPath": "audio/audifonos/usb/diadema-microfono",
+        "semanticCategoryPath": "audio/audifonos/usb/diadema-microfono/hp-poly-blackwire-3220-8x228a6",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2101953858",
+        "gallery": ["https://hp.widen.net/content/yllaruhe8j/png/yllaruhe8j.png?w=800&h=600&dpi=72&color=ffffff00", "https://networkdevicesinc.com/cdn/shop/files/8X228A6_1_794f374c-f7f4-4c6f-a7f9-2b38f0cfaeb6_600x_crop_center.webp?v=1740421849"],
+        "documents": [
+          { "label": "HP Poly Blackwire 3220 8X228A6 specs", "type": "manufacturer", "url": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2101953858" },
+          { "label": "Poly Blackwire 3220 USB-C datasheet", "type": "datasheet", "url": "https://www.headsetsdirect.com/wp-content/uploads/2018/04/Blackwire-3220-Data-Sheet.pdf" }
+        ],
+        "specs": {
+          "brand": "POLY",
+          "legacyBrand": "PLANTRONICS",
+          "model": "Blackwire 3220",
+          "partNumber": "8X228A6",
+          "providerSku": "ACCPTS2400",
+          "upc": "197498433073",
+          "productType": "Diadema alambrica USB con microfono",
+          "headphoneType": "On-ear stereo",
+          "connectivity": "USB-C with USB-C to USB-A adapter",
+          "microphone": "Noise-canceling boom, 130 mm",
+          "speakerSize": "28 mm",
+          "impedance": "32 ohm",
+          "controls": "Call answer/end, mute, volume, redial and hold by HP reference",
+          "cableLength": "154 to 161 cm total depending on HP/datasheet revision",
+          "osSupport": "Windows 11/10, macOS, Android and iOS by HP reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":763},{"providerId":"ctonline","warehouseCode":"DFA","stock":493},{"providerId":"ctonline","warehouseCode":"GDL","stock":338},{"providerId":"ctonline","warehouseCode":"CMT","stock":140},{"providerId":"ctonline","warehouseCode":"HMO","stock":41},{"providerId":"ctonline","warehouseCode":"DFP","stock":26},{"providerId":"ctonline","warehouseCode":"LEO","stock":16},{"providerId":"ctonline","warehouseCode":"AGS","stock":14},{"providerId":"ctonline","warehouseCode":"CEL","stock":14},{"providerId":"ctonline","warehouseCode":"CUN","stock":12},{"providerId":"ctonline","warehouseCode":"CHI","stock":11},{"providerId":"ctonline","warehouseCode":"CUE","stock":9}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPTS2400", "stock": 1937, "price": 600, "currency": "MXN", "branch": "D2A:763,DFA:493,GDL:338,CMT:140,HMO:41,DFP:26,LEO:16,AGS:14,CEL:14,CUN:12,CHI:11,CUE:9" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cables-adaptadores path was incorrect; included adapter is accessory context, not product class.", "HP page for 8X228A6 reports 154 cm total cable while Poly datasheet for related 8X228AA reports 161 cm; keep both as revision-dependent.", "Visible branch sum is 1877 while feed total_stock is 1937, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "155 x 32 x 178 mm; package 178 x 254 x 10 mm by HP reference", "weight": "119 g with cable; 92 g without cable; package 300 g by HP reference" },
+        "sourceRefs": [
+          { "title": "HP Poly Blackwire 3220 8X228A6 specifications", "type": "manufacturer", "url": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2101953858" },
+          { "title": "HP Poly Blackwire 3220 official image", "type": "manufacturer_image", "url": "https://hp.widen.net/content/yllaruhe8j/png/yllaruhe8j.png?w=800&h=600&dpi=72&color=ffffff00" },
+          { "title": "Poly Blackwire 3220 datasheet", "type": "datasheet", "url": "https://www.headsetsdirect.com/wp-content/uploads/2018/04/Blackwire-3220-Data-Sheet.pdf" },
+          { "title": "Network Devices 8X228A6 image reference", "type": "retailer", "url": "https://networkdevicesinc.com/products/8x228a6" }
+        ]
+      }
+    },
+    {
+      "product_id": "irh7y4touqm0rzd",
+      "research": {
+        "confidence": 0.92,
+        "name": "BRobotix 500074N mouse pad ergonomico con gel negro",
+        "description": "Mouse pad BRobotix 500074N negro con descansa munecas de gel, base antiderrapante y superficie de poliester para uso de oficina.",
+        "manualCategoryPath": "computo/accesorios/mousepads/ergonomicos-con-gel",
+        "semanticCategoryPath": "computo/accesorios/mousepads/ergonomicos-con-gel/brobotix-500074n-negro",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/mouse-pad-brobotix-500074n/",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/M/CP-BROBOTIX-500074N-1.jpg"],
+        "documents": [{ "label": "BRobotix 500074N retailer specification", "type": "catalog", "url": "https://compupuebla.com/producto/mouse-pad-brobotix-500074n/" }],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "500074N",
+          "providerSku": "ACCRBT1170",
+          "providerEan": "7503027308270",
+          "alternateEan": "6956028500074",
+          "productType": "Mouse pad ergonomico con gel",
+          "color": "Negro",
+          "surface": "Monocromatica",
+          "materials": "Gel, neopreno and poliester by Cyberpuerta; poliester/gel by CompuPuebla",
+          "wristRest": "Si",
+          "base": "Antiderrapante",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":598},{"providerId":"ctonline","warehouseCode":"DFA","stock":578},{"providerId":"ctonline","warehouseCode":"D2A","stock":172},{"providerId":"ctonline","warehouseCode":"CMT","stock":114},{"providerId":"ctonline","warehouseCode":"HMO","stock":39},{"providerId":"ctonline","warehouseCode":"TAM","stock":30},{"providerId":"ctonline","warehouseCode":"MTY","stock":23},{"providerId":"ctonline","warehouseCode":"SLP","stock":20},{"providerId":"ctonline","warehouseCode":"MOR","stock":19},{"providerId":"ctonline","warehouseCode":"DGO","stock":17},{"providerId":"ctonline","warehouseCode":"CUE","stock":16},{"providerId":"ctonline","warehouseCode":"TOL","stock":16}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT1170", "stock": 1866, "price": 4.34, "currency": "USD", "branch": "GDL:598,DFA:578,D2A:172,CMT:114,HMO:39,TAM:30,MTY:23,SLP:20,MOR:19,DGO:17,CUE:16,TOL:16" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous mouse path was too broad; this is a mouse pad accessory, not a mouse.", "Provider EAN 7503027308270 conflicts with retailer EAN 6956028500074; keep both until supplier barcode is rechecked.", "Retailers differ between 20 x 23 cm and wider package/product dimensions; publish functional size with discrepancy note.", "Visible branch sum is 1642 while feed total_stock is 1866, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "20.3 x 24.1 x 2 cm by provider-style catalog; retailers also report 20 x 23 x 2 cm and 215 x 245 x 2 mm", "weight": "176 g by Cyberpuerta; alternate catalog lists 0.25 kg" },
+        "sourceRefs": [
+          { "title": "CTOnline BRobotix 500074N supplier page", "type": "supplier", "url": "https://ctonline.mx/Accesorios-para-Componentes/Mouse-Pads/BROBOTIX/ACCRBT1170/27356" },
+          { "title": "Cyberpuerta BRobotix 500074N", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Dispositivos-de-entrada/Mousepads/Mousepad-Gamer-BRobotix-con-Descansa-Munecas-de-Gel-20x23cm-Grosor-20mm-Negro.html" },
+          { "title": "CompuPuebla BRobotix 500074N", "type": "catalog", "url": "https://compupuebla.com/producto/mouse-pad-brobotix-500074n/" }
+        ]
+      }
+    },
+    {
+      "product_id": "ksthcki3uwm3y26",
+      "research": {
+        "confidence": 0.97,
+        "name": "ADATA Ultimate SU630 ASU630SS-480GQ-R SSD 480GB 2.5 SATA III",
+        "description": "Unidad de estado solido ADATA Ultimate SU630 de 480GB en formato 2.5 pulgadas, interfaz SATA III 6 Gb/s, memoria 3D QLC NAND y soporte LDPC ECC.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/2-5-sata/480gb",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/2-5-sata/480gb/adata-su630-asu630ss-480gq-r",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/global/consumer/category/ssds/591/",
+        "gallery": ["https://webapi3.adata.com/storage/product/p_su630_480gb.png", "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/adata_technology_asu630ss_480gq_r_ultimate_su630_480gb_internal_1591628748_1567826.jpg"],
+        "documents": [{ "label": "ADATA SU630 datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_su630_qlc_25_inch_sata_ssd.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "Ultimate SU630",
+          "partNumber": "ASU630SS-480GQ-R",
+          "providerSkus": ["DDUDAT1300", "HD-2394"],
+          "productType": "SSD interno 2.5 SATA",
+          "capacity": "480 GB",
+          "interface": "SATA III 6 Gb/s",
+          "formFactor": "2.5 inch, 7 mm",
+          "nand": "3D QLC NAND",
+          "sequentialReadWrite": "Up to 520/450 MB/s max by ADATA datasheet",
+          "randomReadWrite": "Up to 40K/65K IOPS for 480GB by ADATA datasheet",
+          "tbw": "100 TB for 480GB by ADATA datasheet",
+          "shockResistance": "1500G/0.5 ms by ADATA datasheet",
+          "features": "LDPC ECC, S.M.A.R.T, TRIM, NCQ",
+          "mtbf": "Up to 1.5 million hours by ADATA reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "DDUDAT1300", "stock": 1817, "price": 69.44, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "HD-2394", "stock": 22, "price": 69.56, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is a 2.5 inch SATA SSD component.", "Some retailer copies list 500/440 MB/s typical sequential speeds while ADATA datasheet lists max 520/450 MB/s.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "100.45 x 69.85 x 7 mm", "weight": "47.5 g by ADATA current datasheet; older sheets may show 50.8 g" },
+        "sourceRefs": [
+          { "title": "ADATA SU630 official product page", "type": "manufacturer", "url": "https://www.adata.com/global/consumer/category/ssds/591/" },
+          { "title": "ADATA SU630 datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_su630_qlc_25_inch_sata_ssd.pdf" },
+          { "title": "ADATA SU630 480GB product image", "type": "manufacturer_image", "url": "https://webapi3.adata.com/storage/product/p_su630_480gb.png" },
+          { "title": "B&H ADATA ASU630SS-480GQ-R", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1567826-REG/adata_technology_asu630ss_480gq_r_ultimate_su630_480gb_internal.html/specs" }
+        ]
+      }
+    },
+    {
+      "product_id": "9riug7lzynbht2j",
+      "research": {
+        "confidence": 0.98,
+        "name": "Intellinet 210737 jack keystone RJ45 Cat6 azul",
+        "description": "Jack keystone Intellinet 210737 RJ45 Cat6 azul tipo punch-down, UTP, compatible con cable solido o trenzado 22 a 26 AWG y aplicaciones PoE hasta IEEE 802.3bt.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6/intellinet-210737-azul",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetsolutions.mx/products/intellinet-es-jack-keystone-perforado-cat6-azul-210737",
+        "gallery": ["https://intellinetnetwork.eu/cdn/shop/products/cat6-keystone-jack-210737-1_82ec3887-d1c2-438a-9ebe-7195a0a900c0.jpg?v=1695255986&width=1946"],
+        "documents": [{ "label": "Intellinet 210737 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/48514/210737_datasheet_spanish.pdf" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "210737",
+          "providerSkus": ["RCKACC505", "AC-2183"],
+          "upc": "766623210737",
+          "ean": "0766623210737",
+          "productType": "Jack keystone RJ45 Cat6",
+          "category": "Cat6 UTP",
+          "termination": "Punch-down LSA compatible with 110 and Krone tools",
+          "contacts": "50 micro-inch gold-plated phosphor copper",
+          "wiring": "568A/B color coded",
+          "wireGauge": "22 to 26 AWG solid or stranded",
+          "speedFrequency": "Up to 10 Gbps and 250 MHz by Intellinet reference",
+          "poe": "Supports PoE standards up to IEEE 802.3bt / PoE++ / 4PPoE",
+          "housing": "ABS plastic, blue",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC505", "stock": 1817, "price": 1.78, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-2183", "stock": 9, "price": 1.81, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cableado-estructurado category was acceptable but too broad; classify as RJ45 Cat6 keystone connector.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "28.3 x 18 x 20.8 mm; package 105 x 67 x 20 mm", "weight": "10 g net; 12 g gross" },
+        "sourceRefs": [
+          { "title": "Intellinet Mexico 210737 page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/intellinet-es-jack-keystone-perforado-cat6-azul-210737" },
+          { "title": "Intellinet 210737 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/48514/210737_datasheet_spanish.pdf" },
+          { "title": "Intellinet Europe 210737 specifications", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-cat6-punch-down-keystone-jack-blue-210737" }
+        ]
+      }
+    },
+    {
+      "product_id": "vem51i25zmsqtbw",
+      "research": {
+        "confidence": 0.93,
+        "name": "Acteck Captive Lite CL185 monitor 18.5 HD 1366 x 768 60 Hz",
+        "description": "Monitor LED Acteck Captive Lite CL185 de 18.5 pulgadas con panel TN, resolucion HD 1366 x 768, 60 Hz, tiempo de respuesta 5 ms, entradas HDMI y VGA, y montaje VESA 75 x 75 mm.",
+        "manualCategoryPath": "computo/monitores/oficina/18-5-hd",
+        "semanticCategoryPath": "computo/monitores/oficina/18-5-hd/acteck-captive-lite-cl185",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcel.com/Acteck-AC-944519-Monitor-LED-Acteck-Captive-Lite-CL185-de-18-5-Resolucion-1366-x-768-5-ms-60-Hz-Color-Negro-577184",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-ACTECK-AC-944519-219f3d.png", "https://images.pcel.com/600/Electronica-Monitores-Acteck-AC-944519-577184-qTMHaVB5zrJDHpnQ.jpg"],
+        "documents": [{ "label": "Acteck CL185 retailer technical reference", "type": "catalog", "url": "https://www.pcel.com/Acteck-AC-944519-Monitor-LED-Acteck-Captive-Lite-CL185-de-18-5-Resolucion-1366-x-768-5-ms-60-Hz-Color-Negro-577184" }],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Captive Lite CL185",
+          "partNumber": "AC-944519",
+          "providerSku": "MONACT130",
+          "ean": "7506215944519",
+          "productType": "Monitor LED de oficina",
+          "screenSize": "18.5 inch",
+          "panel": "TN",
+          "resolution": "1366 x 768",
+          "refreshRate": "60 Hz",
+          "responseTime": "5 ms",
+          "brightness": "250 cd/m2 by PCEL reference",
+          "viewingAngle": "178/178 by PCEL reference",
+          "colors": "16.7 million by Sears reference",
+          "inputs": "HDMI 1.4 and VGA",
+          "vesa": "75 x 75 mm",
+          "tilt": "-5 to 15 degrees by Sears reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":530},{"providerId":"ctonline","warehouseCode":"D2A","stock":304},{"providerId":"ctonline","warehouseCode":"DFA","stock":129},{"providerId":"ctonline","warehouseCode":"GDL","stock":109},{"providerId":"ctonline","warehouseCode":"CMT","stock":79},{"providerId":"ctonline","warehouseCode":"DGO","stock":45},{"providerId":"ctonline","warehouseCode":"IRA","stock":44},{"providerId":"ctonline","warehouseCode":"CHI","stock":39},{"providerId":"ctonline","warehouseCode":"VHA","stock":38},{"providerId":"ctonline","warehouseCode":"ACA","stock":36},{"providerId":"ctonline","warehouseCode":"ACX","stock":36},{"providerId":"ctonline","warehouseCode":"HMO","stock":33}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACT130", "stock": 1792, "price": 436.5, "currency": "MXN", "branch": "PUE:530,D2A:304,DFA:129,GDL:109,CMT:79,DGO:45,IRA:44,CHI:39,VHA:38,ACA:36,ACX:36,HMO:33" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous monitores path was acceptable but too broad; classify as 18.5 inch HD office monitor.", "Official Acteck public page was not reliably indexed; specs are cross-checked across PCEL, Sears, Walmart and Coppel marketplace pages.", "Visible branch sum is 1422 while feed total_stock is 1792, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "44.4 x 5.4 x 34.8 cm by PCEL; Coppel lists 45 x 5 x 35 cm", "weight": "2.4 kg by PCEL reference" },
+        "sourceRefs": [
+          { "title": "PCEL Acteck Captive Lite CL185", "type": "retailer", "url": "https://www.pcel.com/Acteck-AC-944519-Monitor-LED-Acteck-Captive-Lite-CL185-de-18-5-Resolucion-1366-x-768-5-ms-60-Hz-Color-Negro-577184" },
+          { "title": "Cyberpuerta Acteck CL185 image/spec reference", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Acteck-Captive-Lite-CL185-LCD-18-5-1366x768-HD-60Hz-HDMI-Negro.html" },
+          { "title": "Sears Acteck CL185", "type": "retailer", "url": "https://www.sears.com.mx/producto/3871175/monitor-plano-acteck-18-5-captive-lite-cl185" },
+          { "title": "Walmart Mexico Acteck CL185", "type": "retailer", "url": "https://www.walmart.com.mx/ip/monitor-plano-acteck-18-5-captive-lite-cl185-hd-1366x768-60hz-vga-hdmi-1-4/00750621594451" }
+        ]
+      }
+    }
+  ]
+}

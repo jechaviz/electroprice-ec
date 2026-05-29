@@ -62,6 +62,16 @@ const researchedBatchCases = [
   ["Stylos STMUSB4B memoria USB 2.0 64GB plata", "STYLOS", "computo/almacenamiento/memorias-flash/usb/64gb/metalicas"],
   ["HP GT53 1VV22AL botella de tinta negra", "HP", "impresion/consumibles/botellas-tinta/hp-gt53/negro"],
   ["Intellinet 163286 faceplate tapa keystone 1 perforacion blanco", "INTELLINET", "redes/cableado-estructurado/placas-keystone/1-puerto"],
+  ["BRobotix 497264 mouse pad ultra delgado negro con bolsa", "BROBOTIX", "computo/accesorios/mousepads/basicos-ultradelgados"],
+  ["Mercusys MW300UM adaptador mini USB Wi-Fi N300 300Mbps", "MERCUSYS", "redes/adaptadores-wifi/usb/n300-mini"],
+  ["Perfect Choice PC-201038 teclado USB resistente a salpicaduras negro", "PERFECT CHOICE", "computo/perifericos/teclados/alambricos/usb/resistentes-salpicaduras"],
+  ["TP-Link TL-WA855RE extensor Wi-Fi N300 2 antenas externas", "TP-LINK", "redes/extensores-wifi/n300"],
+  ["TP-Link Archer T2U Nano adaptador USB Wi-Fi AC600 dual band", "TP-LINK", "redes/adaptadores-wifi/usb/ac600-nano"],
+  ["HP Poly Blackwire 3220 8X228A6 diadema USB-C con adaptador USB-A", "PLANTRONICS", "audio/audifonos/usb/diadema-microfono"],
+  ["BRobotix 500074N mouse pad ergonomico con gel negro", "BROBOTIX", "computo/accesorios/mousepads/ergonomicos-con-gel"],
+  ["ADATA SU630 ASU630SS-480GQ-R SSD 480GB 2.5 SATA", "ADATA", "computo/almacenamiento/ssd/2-5-sata/480gb"],
+  ["Intellinet 210737 jack keystone Cat6 azul de impacto", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat6"],
+  ["Acteck Captive Lite CL185 monitor 18.5 HD 1366x768", "ACTECK", "computo/monitores/oficina/18-5-hd"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

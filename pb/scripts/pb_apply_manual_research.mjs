@@ -19,6 +19,26 @@ pb.autoCancellation(false);
 const nowIso = () => new Date().toISOString();
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const retryDelays = [0, 1000, 3000, 7000, 15000, 30000, 60000];
+const fallbackCategoryValues = [
+  'laptops',
+  'desktops',
+  'monitors',
+  'smartphones',
+  'tablets',
+  'tvs',
+  'headphones',
+  'audio',
+  'cameras',
+  'gaming',
+  'networking',
+  'printers_scanners',
+  'components',
+  'storage',
+  'security',
+  'power',
+  'software',
+  'accessories',
+];
 
 const withRetry = async (label, action) => {
   let lastError;
@@ -47,6 +67,17 @@ const writeJson = (name, value) => {
   const outPath = path.join(outDir, name);
   fs.writeFileSync(outPath, `${JSON.stringify(value, null, 2)}\n`);
   return outPath;
+};
+
+const loadCategoryValues = () => {
+  try {
+    const taxonomyPath = path.resolve(process.cwd(), 'config/catalog/product_taxonomy.json');
+    const taxonomy = JSON.parse(fs.readFileSync(taxonomyPath, 'utf8'));
+    const values = taxonomy.categories?.map((category) => category.id).filter(Boolean);
+    return new Set(values?.length ? values : fallbackCategoryValues);
+  } catch {
+    return new Set(fallbackCategoryValues);
+  }
 };
 
 const upsertCategory = async (category) => {
@@ -105,7 +136,7 @@ const upsertReceipt = async (receipt) => {
   }
 };
 
-const applyItem = async ({ batchId, item }) => {
+const prepareItem = async ({ batchId, item }) => {
   const product = await withRetry(`fetch=${item.product_id}`, () => pb.collection('products').getOne(item.product_id));
   const fields = buildProductCurationPatch(product, {
     research: item.research || {},
@@ -118,12 +149,22 @@ const applyItem = async ({ batchId, item }) => {
     researchStatus: 'manual_web',
   });
 
-  if (apply) {
-    await withRetry(`product=${item.product_id}`, () => pb.collection('products').update(item.product_id, fields));
-    await withRetry(`receipt=${item.product_id}`, () => upsertReceipt(receipt));
-  }
+  return { item, fields, receipt };
+};
 
-  return receipt;
+const validatePreparedItems = (preparedItems) => {
+  const categoryValues = loadCategoryValues();
+  const invalid = preparedItems
+    .filter(({ fields }) => fields.category && !categoryValues.has(fields.category))
+    .map(({ item, fields }) => `${item.product_id}:${fields.category}`);
+  if (invalid.length) {
+    throw new Error(`Manual research has invalid product category value(s): ${invalid.join(', ')}`);
+  }
+};
+
+const applyPreparedItem = async ({ item, fields, receipt }) => {
+  await withRetry(`product=${item.product_id}`, () => pb.collection('products').update(item.product_id, fields));
+  await withRetry(`receipt=${item.product_id}`, () => upsertReceipt(receipt));
 };
 
 const main = async () => {
@@ -135,11 +176,19 @@ const main = async () => {
   await withRetry('auth', () => pb.collection('_superusers').authWithPassword(config.email, config.password));
   await ensureManualTaxonomy(items);
 
-  const receipts = [];
+  const preparedItems = [];
   for (const item of items) {
-    receipts.push(await applyItem({ batchId, item }));
+    preparedItems.push(await prepareItem({ batchId, item }));
+  }
+  validatePreparedItems(preparedItems);
+
+  if (apply) {
+    for (const preparedItem of preparedItems) {
+      await applyPreparedItem(preparedItem);
+    }
   }
 
+  const receipts = preparedItems.map(({ receipt }) => receipt);
   const outPath = writeJson(`${batchId.replace(/[:]/g, '-')}.json`, {
     schema_version: 'electroprice.manual_web_research_receipts.v1',
     batch_id: batchId,

@@ -348,6 +348,7 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'accesorios/limpieza/pantallas', name: 'Limpieza de pantallas', legacyCategory: 'laptops' },
   { path: 'accesorios/limpieza/pantallas/kits-lcd', name: 'Kits de limpieza LCD', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/mousepads', name: 'Mousepads y tapetes para mouse', legacyCategory: 'laptops' },
+  { path: 'computo/accesorios/mousepads/basicos-ultradelgados', name: 'Mousepads basicos ultradelgados', legacyCategory: 'accessories' },
   { path: 'computo/accesorios/mousepads/gel', name: 'Mousepads con gel', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/mousepads/ergonomicos-con-gel', name: 'Mousepads ergonomicos con gel', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/mousepads/gaming-rgb', name: 'Mousepads gaming RGB', legacyCategory: 'laptops' },
