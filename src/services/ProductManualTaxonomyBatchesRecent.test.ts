@@ -492,6 +492,16 @@ const researchedBatchCases = [
   ["Game Factor MO-602-WH mouse gamer alambrico blanco 19000 DPI", "GAME FACTOR", "computo/perifericos/mouse/alambricos/gaming/alto-dpi"],
   ["Intellinet 169950 organizador horizontal 19 1U para rack", "INTELLINET", "infraestructura/racks-accesorios/organizadores-cable/horizontales-1u"],
   ["TP-Link Archer TX1U Nano adaptador USB Wi-Fi 6 AX300", "TP LINK", "redes/adaptadores-wifi/usb/wifi-6-nano"],
+  ["Logitech MX Keys S 920-011561 teclado inalambrico Logi Bolt USB-C grafito", "LOGITECH", "computo/perifericos/teclados/inalambricos/productividad"],
+  ["Intellinet 210843 jack RJ11 RJ12 de impacto blanco", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj11-rj12"],
+  ["LG 34G600A-B monitor gaming ultrawide curvo 34 3440 x 1440", "LG", "computo/monitores/gaming/ultrawide-curvos"],
+  ["BRobotix 497462 video balun CCTV para UTP", "BROBOTIX", "seguridad/cctv/accesorios-cableado/baluns-video"],
+  ["Uniarch IPC-T244-ADF28K-WP camara IP turret OwlView 4MP PoE", "UNIARCH", "seguridad/cctv/camaras-ip-poe/turret/4mp-owlview"],
+  ["TP-Link Omada SG3452P switch PoE administrable 48 puertos Gigabit", "TP LINK", "redes/switches/poe-administrables/gigabit/48-puertos"],
+  ["XPG RIFT R27F6-BKCMX monitor gamer 27 FHD 165Hz 1ms", "XPG", "computo/monitores/gaming/27-fhd"],
+  ["Brother BT6001BK botella de tinta negra 6000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-bt6001"],
+  ["Kingston FURY Beast RGB EXPO DDR5 16GB memoria RAM", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/udimm-ddr5/rgb-expo"],
+  ["Manhattan 151573 cable USB 2.0 extension activa 10m", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/activas/10m"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
