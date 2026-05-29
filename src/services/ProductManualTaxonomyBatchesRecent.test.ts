@@ -403,6 +403,16 @@ const researchedBatchCases = [
   ["Vorago Slimbay A SBA RZN 3200G-TR-3 Ryzen 3 3200G 8GB 240GB", "VORAGO", "computo/desktops/slim"],
   ["Yeyian Raiden YFB-55020-01 fuente 550W 80 Plus Bronze", "YEYIAN", "computo/componentes/fuentes-poder/atx-80-plus-bronze/550w"],
   ["Hikvision DS-7104HGHI-K1(S) DVR 4 canales H.265 Pro 1080p Lite", "HIKVISION", "seguridad/cctv/dvr-nvr/dvr-4-canales"],
+  ["Brother TN229XXLY toner amarillo super alto rendimiento 4000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-229/xxl-amarillo"],
+  ["Mercusys MS105GS switch Gigabit 5 puertos RJ45 metalico", "MERCUSYS", "redes/switches/no-administrables/gigabit/5-puertos"],
+  ["Stylos STPTEC6B teclado alambrico USB membrana 104 teclas", "STYLOS", "computo/perifericos/teclados/alambricos/usb"],
+  ["TP-Link Tapo L530E 4-Pack focos Wi-Fi multicolor E26 RGBW", "TP-LINK", "domotica/iluminacion-inteligente/focos-wifi/rgb/e26-4-pack"],
+  ["MSI Cubi 5 12M-086BUS mini PC barebone Core i3-1215U dual LAN", "MSI", "computo/desktops/mini-pc/barebone"],
+  ["Anviz AN-GC100 checador biometrico huella RFID 1000 usuarios", "ANVIZ", "seguridad/control-acceso/biometricos/checadores-asistencia"],
+  ["BRobotix 406498 soporte POS tablet iPad antirrobo giro 360", "BROBOTIX", "punto-de-venta/terminales-accesorios/soportes-tablet"],
+  ["DataShield KS800 LCD no-break 800VA 480W 6 contactos", "DATASHIELD", "energia/no-breaks-ups/line-interactive/800va-lcd"],
+  ["Perfect Choice Thumb PC-045120 mouse inalambrico silencioso 1600 DPI azul", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/ergonomicos"],
+  ["Provision ISR PoES-16250C+2Combo-V2 switch PoE 16 puertos CCTV 250W", "PROVISION-ISR", "redes/switches/poe-no-administrables/cctv/16-puertos"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

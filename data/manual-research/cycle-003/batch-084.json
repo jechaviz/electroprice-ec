@@ -1,0 +1,480 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b084-2026-05-28",
+  "cycle": 3,
+  "batch": 84,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "2b5z6z4cmfax3ls",
+      "research": {
+        "confidence": 0.97,
+        "name": "Toner Brother TN229XXLY amarillo super alto rendimiento 4000 paginas",
+        "description": "Cartucho original Brother TN229XXLY de toner laser amarillo super alto rendimiento, rendimiento aproximado de 4000 paginas conforme ISO/IEC 19798 y compatibilidad con impresoras Brother color seleccionadas.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-229/xxl-amarillo",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-229/xxl-amarillo/tn229xxly",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother-usa.com/products/tn229xxly",
+        "gallery": [
+          "https://www.brother-usa.com/-/media/brother/product-catalog-media/images/2023/09/28/15/30/tn229xxl_1y.jpg?h=423&hash=ED09754AA164291B21E79303FB0928B8",
+          "https://www.brother-usa.com/-/media/brother/product-catalog-media/images/2023/09/28/15/32/tn229xxl_2y.jpg?h=423&hash=D98AEE63E55CC36111E71237142A50EA"
+        ],
+        "documents": [
+          { "label": "Brother TN229XXLY official", "type": "manufacturer", "url": "https://www.brother-usa.com/products/tn229xxly" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN229XXLY",
+          "providerSku": "CARBRT4410",
+          "upc": "012502666141",
+          "productType": "Original laser toner cartridge",
+          "color": "Yellow",
+          "yield": "Approx. 4000 pages",
+          "yieldStandard": "ISO/IEC 19798",
+          "supplyFamily": "TN229XXL",
+          "drumSystem": "Works with Brother DR229CL drum unit",
+          "compatibility": "HL-L3295CDW, HL-L8245CDW, MFC-L3780CDW, MFC-L8395CDW",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT4410", "stock": 59, "price": 2126, "currency": "MXN", "branch": "D2A:19,PUE:10,DFA:10,GDL:8,CMT:6,VHA:3,COL:2,TOL:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Current inherited category was generic ink/toner; product is specifically Brother TN229XXL yellow laser toner."]
+        },
+        "measurements": { "cartonDimensions": "38.9 x 10.9 x 15.5 cm / 15.3 x 4.3 x 6.1 in", "cartonWeight": "0.65 kg / 1.44 lb" },
+        "sourceRefs": [
+          { "title": "Brother TN229XXLY", "type": "manufacturer", "url": "https://www.brother-usa.com/products/tn229xxly" },
+          { "title": "B&H Brother TN229XXLY", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1789841-REG/brother_tn229xxly_yellow_super_high_yield.html" },
+          { "title": "Brother supplies guide", "type": "datasheet", "url": "https://www.bhphotovideo.com/lit_files/1072703.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "2baag5xiy0qs3uq",
+      "research": {
+        "confidence": 0.96,
+        "name": "Switch Mercusys MS105GS Gigabit no administrable 5 puertos RJ45",
+        "description": "Switch Mercusys MS105GS de escritorio con 5 puertos RJ45 10/100/1000Mbps, carcasa metalica, plug and play, Auto-MDI/MDIX, IGMP Snooping, QoS 802.1p/DSCP y diseno sin ventilador.",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/5-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/5-puertos/mercusys-ms105gs",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mercusys.com.mx/product/details/ms105gs",
+        "gallery": [
+          "https://static.mercusys.com/product-image/MS105GS_overview_01_normal20230613063105.jpg",
+          "https://static.mercusys.com/product-image/MS105GS_overview_02_normal20230601074714.jpg"
+        ],
+        "documents": [
+          { "label": "Mercusys MS105GS datasheet", "type": "datasheet", "url": "https://static.mercusys.com/manual/MS105GS%28UN%29_2.0-datasheet20240410024856.pdf" }
+        ],
+        "specs": {
+          "brand": "MERCUSYS",
+          "model": "MS105GS",
+          "providerSku": "SWTMER050",
+          "upc": "849439001314",
+          "ports": "5 x RJ45 10/100/1000Mbps",
+          "management": "Unmanaged / plug and play",
+          "switchingCapacity": "10Gbps",
+          "macAddressTable": "2K",
+          "buffer": "1Mbit",
+          "jumboFrame": "15KB",
+          "features": "Auto-negotiation, Auto-MDI/MDIX, IGMP Snooping, 802.1p/DSCP QoS, flow control, fanless metal housing",
+          "powerSupply": "5V / 0.6A",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTMER050", "stock": 6, "price": 8.92, "currency": "USD", "branch": "TOL:5,CUN:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Official datasheet does not publish product weight; reseller weights are treated as reference only."]
+        },
+        "measurements": { "dimensions": "99.8 x 98 x 25.1 mm", "referenceWeight": "160 g to 0.32 kg in reseller logistics references" },
+        "sourceRefs": [
+          { "title": "Mercusys MS105GS Mexico", "type": "manufacturer", "url": "https://www.mercusys.com.mx/product/details/ms105gs" },
+          { "title": "Mercusys MS105GS datasheet", "type": "datasheet", "url": "https://static.mercusys.com/manual/MS105GS%28UN%29_2.0-datasheet20240410024856.pdf" },
+          { "title": "CTI Systems Mercusys MS105GS", "type": "retail", "url": "https://ctisystems.mx/switch-mercusys-ms105gs-de-escritorio-gigabit-puertos" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bc9vuu3jcbbokz",
+      "research": {
+        "confidence": 0.94,
+        "name": "Teclado Stylos STPTEC6B alambrico USB membrana 104 teclas espanol negro",
+        "description": "Teclado alambrico Stylos STPTEC6B con conexion USB-A, mecanismo de membrana, 104 teclas, distribucion en espanol, color negro y cable de 1.15m segun ficha Techsmart.",
+        "manualCategoryPath": "computo/perifericos/teclados/alambricos/usb",
+        "semanticCategoryPath": "computo/perifericos/teclados/alambricos/usb/stylos-stptec6b",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.techsmart.com.mx/techsmartv2/Producto?TipoMoneda=MXN&cveProducto=TEUSBSTYPTEC6B",
+        "gallery": ["https://zero1.mx/10089-large_default/teclados-stylos-stptec6b.jpg"],
+        "documents": [
+          { "label": "Techsmart Stylos STPTEC6B", "type": "retail", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?TipoMoneda=MXN&cveProducto=TEUSBSTYPTEC6B" }
+        ],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STPTEC6B",
+          "providerSku": "TECSTY090",
+          "ean": "7503053078123",
+          "keyboardType": "Membrane",
+          "layout": "Spanish",
+          "keys": "104",
+          "connectivity": "Wired USB-A",
+          "color": "Black",
+          "material": "Plastic",
+          "cableLength": "1.15m in Techsmart reference",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 68 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 3 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECSTY090", "stock": 132, "price": 112.8, "currency": "MXN", "branch": "D2A:68,DFA:24,XLP:9,CUN:9,CEL:8,TXA:7,PAC:4,VHA:3" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Some retailers list a 1.5m cable; Techsmart-specific sheet lists 1.15m and is retained as stronger exact reference."]
+        },
+        "measurements": { "packageDimensions": "44.9 x 18 x 3.05 cm", "weight": "427 g" },
+        "sourceRefs": [
+          { "title": "Techsmart Stylos STPTEC6B", "type": "retail", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?TipoMoneda=MXN&cveProducto=TEUSBSTYPTEC6B" },
+          { "title": "Zegucom Stylos STPTEC6B", "type": "retail", "url": "https://www.zegucom.com.mx/producto/tablets-y-accesorios-para-tablet/teclados-para-tablets/teclado-ala-mbrico-stylos-stptec6b-membrana-100-104-teclas-conexia-n/U1RQVEVDNkI%3D" },
+          { "title": "GlobalOffice Stylos STPTEC6B", "type": "retail", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/teclados/teclado-alambrico-stylos-stptec6b-membrana-104-tec/stptec6b" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bdz2y7xgc5lt8m",
+      "research": {
+        "confidence": 0.97,
+        "name": "Kit 4 focos inteligentes TP-Link Tapo L530E Wi-Fi multicolor E26",
+        "description": "Paquete de 4 focos inteligentes TP-Link Tapo L530E A19/E26 multicolor RGBW, Wi-Fi 2.4GHz sin hub, 800/806 lumens, temperatura 2500-6500K, atenuacion 1-100% y compatibilidad Alexa/Google.",
+        "manualCategoryPath": "domotica/iluminacion-inteligente/focos-wifi/rgb/e26-4-pack",
+        "semanticCategoryPath": "domotica/iluminacion-inteligente/focos-wifi/rgb/e26-4-pack/tapo-l530e",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/smart-bulb/tapo-l530e/v3%20%282-pack%29/",
+        "gallery": [
+          "https://static.tp-link.com/upload/image-line/Overview_2-Pack_large_20241101033636o.jpg",
+          "https://static.tp-link.com/upload/image-line/overview_02_large_20241101033635j.jpg"
+        ],
+        "documents": [
+          { "label": "Tapo L530E US datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202501/20250120/Tapo%20L530E%28US%293.20%20datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK TAPO",
+          "model": "Tapo L530E(4-Pack)",
+          "providerSku": "ACCTPL700",
+          "upc": "840030707964",
+          "packQuantity": 4,
+          "formFactor": "A19",
+          "base": "E26",
+          "brightness": "800 lm official / 806 lm retail reference",
+          "colorTemperature": "2500-6500K",
+          "colors": "16 million / RGBW",
+          "dimming": "1-100%",
+          "beamAngle": "220 degrees",
+          "cri": ">=90 in official V3.20 datasheet",
+          "power": "8.8W max",
+          "inputVoltage": "120V 60Hz",
+          "wireless": "Wi-Fi IEEE 802.11b/g/n 2.4GHz",
+          "voiceAssistants": "Amazon Alexa, Google Assistant",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCTPL700", "stock": 8, "price": 25, "currency": "USD", "branch": "DFP:6,MOR:1,ZAC:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Current category access-points is wrong; product belongs to smart-home lighting."]
+        },
+        "measurements": { "bulbDimensions": "115 x 60 mm each", "packWeight": "240 g official for 4-pack; B&H lists 0.75 lb package" },
+        "sourceRefs": [
+          { "title": "TP-Link Tapo L530E official", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/smart-bulb/tapo-l530e/v3%20%282-pack%29/" },
+          { "title": "Tapo L530E US datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202501/20250120/Tapo%20L530E%28US%293.20%20datasheet.pdf" },
+          { "title": "B&H Tapo L530E 4-Pack", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1719376-REG/tp_link_tapo_l530e_4_pack_tapo_l530e_smart_wi_fi.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bh4qo57jxg7feb",
+      "research": {
+        "confidence": 0.96,
+        "name": "Mini PC barebone MSI Cubi 5 12M-086BUS Core i3-1215U WiFi 6E dual LAN",
+        "description": "Mini PC barebone MSI Cubi 5 12M-086BUS con Intel Core i3-1215U, sin RAM, sin almacenamiento y sin sistema operativo, soporte DDR4 SO-DIMM hasta 64GB, M.2/2.5in SATA, WiFi 6E, dual LAN y Thunderbolt 4.",
+        "manualCategoryPath": "computo/desktops/mini-pc/barebone",
+        "semanticCategoryPath": "computo/desktops/mini-pc/barebone/msi-cubi-5-12m-086bus",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://us-store.msi.com/Desktops/Cubi-5-12M-086BUS",
+        "gallery": [
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/msi_cubi_5_12m_086bus_cubi_5_12m_mini_1708989333_1810198.jpg"
+        ],
+        "documents": [
+          { "label": "MSI Cubi 5 12M specification", "type": "manufacturer", "url": "https://ca.msi.com/Business-Productivity-PC/Cubi-5-12M/Specification" }
+        ],
+        "specs": {
+          "brand": "MSI OEM",
+          "model": "Cubi 5 12M-086BUS",
+          "manufacturerPart": "CUBI512M086B",
+          "providerSku": "PC-6169",
+          "upc": "824142335208",
+          "processor": "Intel Core i3-1215U, 6 cores / 8 threads, 10MB cache, up to 4.4GHz",
+          "format": "Barebone mini PC, no RAM, no storage, no OS",
+          "memorySupport": "2 x DDR4 2666/3200MHz SO-DIMM, up to 64GB",
+          "storageSupport": "M.2 NVMe PCIe Gen4 x4 / SATA auto-switch plus 2.5in SATA bay",
+          "graphics": "Intel UHD Graphics",
+          "network": "1GbE Realtek RTL8111H plus 2.5GbE Realtek RTL8125BG-CG",
+          "wireless": "Intel Wi-Fi 6E AX211, Bluetooth 5.2/5.3 depending source",
+          "frontIo": "2 x USB 3.2 Gen 2 Type-A, 1 x Thunderbolt 4 USB-C, audio combo",
+          "rearIo": "HDMI 2.0b, DisplayPort 1.4, 2 x RJ45, 2 x USB 3.2 Gen 2 Type-A, DC jack",
+          "power": "65W AC adapter",
+          "mounting": "VESA 75 x 75 and 100 x 100 mm",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "PC-6169", "stock": 2, "price": 197.22, "currency": "USD", "branch": "CVA:2" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Current desktop category is broad; product is specifically a mini PC barebone."]
+        },
+        "measurements": { "dimensions": "124 x 124 x 53.7 mm / 4.88 x 4.88 x 2.11 in", "netWeight": "0.55-0.57 kg / 1.21 lb", "grossWeight": "about 1.4 kg / 3.06 lb" },
+        "sourceRefs": [
+          { "title": "MSI Cubi 5 12M-086BUS official store", "type": "manufacturer", "url": "https://us-store.msi.com/Desktops/Cubi-5-12M-086BUS" },
+          { "title": "MSI Cubi 5 12M specifications", "type": "manufacturer", "url": "https://ca.msi.com/Business-Productivity-PC/Cubi-5-12M/Specification" },
+          { "title": "B&H MSI Cubi 5 12M-086BUS", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1810198-REG/msi_cubi_5_12m_086bus_cubi_5_12m_mini.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bm2zxhe952wiix",
+      "research": {
+        "confidence": 0.92,
+        "name": "Checador biometrico Anviz AN-GC100 huella RFID PIN WiFi LAN 1000 usuarios",
+        "description": "Terminal Anviz AN-GC100/GC100 para control de asistencia con huella BioNano, RFID EM 125kHz, PIN, pantalla LCD color de 2.8in, TCP/IP, RS485, MiniUSB, CrossChex y capacidad para 1000 usuarios y 100000 registros.",
+        "manualCategoryPath": "seguridad/control-acceso/biometricos/checadores-asistencia",
+        "semanticCategoryPath": "seguridad/control-acceso/biometricos/checadores-asistencia/anviz-gc100",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.anviz.com.ar/producto/gc100/",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/SOFAVZ540_full.jpg",
+          "https://static.ctonline.mx/imagenes/SOFAVZ540/SOFAVZ540_full.jpg"
+        ],
+        "documents": [
+          { "label": "GlobalOffice GC100 PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/gc100" }
+        ],
+        "specs": {
+          "brand": "ANVIZ",
+          "model": "AN-GC100 / GC100",
+          "providerSku": "SOFAVZ540",
+          "display": "2.8in color LCD",
+          "processor": "32-bit processor",
+          "biometricEngine": "Anviz BioNano",
+          "capacityUsers": "1000 users",
+          "capacityCards": "1000 RFID cards",
+          "recordCapacity": "100000 attendance records",
+          "identificationModes": "Fingerprint, password/PIN and RFID card",
+          "rfid": "EM 125kHz standard; MIFARE optional depending module",
+          "cardReadDistance": "1-5 cm",
+          "communications": "TCP/IP, RS485, MiniUSB; WiFi/LAN in Mexican reseller description",
+          "software": "CrossChex Lite/Standard",
+          "power": "12V DC / 1A in quick guide references",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SOFAVZ540", "stock": 7, "price": 89.89, "currency": "USD", "branch": "D2A:6,LEO:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Official dimensions were not found; marketplace dimensions are retained as secondary reference."]
+        },
+        "measurements": { "referenceDimensions": "150 x 80 x 35 mm secondary marketplace reference", "referenceWeight": "300 g device / 0.8 kg shipping reference" },
+        "sourceRefs": [
+          { "title": "GlobalOffice GC100 PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/gc100" },
+          { "title": "Anviz Argentina GC100", "type": "manufacturer", "url": "https://www.anviz.com.ar/producto/gc100/" },
+          { "title": "Mactoner Anviz AN-GC100", "type": "retail", "url": "https://www.mactoner.com.mx/producto/terminal-de-control-de-asistencia-de-huella-anviz-an-gc100-gc100-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bpt86msxde59k2",
+      "research": {
+        "confidence": 0.93,
+        "name": "Soporte POS antirrobo BRobotix 406498 para tablet iPad con giro 360 e inclinacion",
+        "description": "Soporte pasivo BRobotix 406498 para tablet/iPad en escritorio o punto de venta, diseno antirrobo, montaje por abrazadera, cuerpo de aluminio y acero, inclinacion -90 a 90 grados, rotacion 360 grados y gestion de cable.",
+        "manualCategoryPath": "punto-de-venta/terminales-accesorios/soportes-tablet",
+        "semanticCategoryPath": "punto-de-venta/terminales-accesorios/soportes-tablet/brobotix-406498",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/soportes-brobotix-406498-tablet-ipad/",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2025/09/ACCRBT8800_full.jpg",
+          "https://static.ctonline.mx/imagenes/ACCRBT8800/ACCRBT8800_full.jpg"
+        ],
+        "documents": [
+          { "label": "Mactoner BRobotix 406498", "type": "retail", "url": "https://www.mactoner.com.mx/producto/soportes-brobotix-406498-tablet-ipad/" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "406498",
+          "providerSku": "ACCRBT8800",
+          "productType": "Anti-theft tablet/iPad POS stand",
+          "useCase": "POS counter, kiosk, customer-facing tablet mount",
+          "mountType": "Clamp mount / desk support",
+          "materials": "Aluminum and steel",
+          "color": "Black",
+          "tilt": "-90 to 90 degrees",
+          "rotation": "360 degrees",
+          "cableManagement": true,
+          "maxLoad": "10 kg in CT-derived product data",
+          "compatibility": "iPad 10th/11th generation listings; verify exact tablet fit before bundling",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT8800", "stock": 2, "price": 106.61, "currency": "USD", "branch": "DFA:2" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Exact installed dimensions were not published in checked sources."]
+        },
+        "measurements": { "weight": "2.74 kg", "dimensions": "Not found" },
+        "sourceRefs": [
+          { "title": "Mactoner BRobotix 406498", "type": "retail", "url": "https://www.mactoner.com.mx/producto/soportes-brobotix-406498-tablet-ipad/" },
+          { "title": "Intercompras BRobotix 406498", "type": "retail", "url": "https://intercompras.com/p/soporte-brobotix-giro-antirrobo-ipad-gen-430525" },
+          { "title": "Cyberpuerta Bases y Soportes BRobotix", "type": "retail", "url": "https://www.cyberpuerta.mx/Bases-y-Soportes-para-iPad-Brobotix/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2bxxh36prkql27b",
+      "research": {
+        "confidence": 0.95,
+        "name": "No-Break DATASHIELD KS800 LCD 800VA 480W 6 contactos LCD negro",
+        "description": "No-break Datashield KS800 LCD de 800VA/480W con topologia line-interactive, pantalla LCD, AVR, 6 salidas AC, puerto USB de monitoreo, arranque en frio, alarma audible y bateria sellada libre de mantenimiento.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/800va-lcd",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/800va-lcd/datashield-ks800-lcd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datashield.net/manual/ks800pro.pdf",
+        "gallery": [
+          "https://zero1.mx/4032-large_default/no-break-datashield-ks800-lcd.jpg",
+          "https://novusred.mx/1877-large_default/nobreak-datashield-ks800-lcd-800-va-480-w-negro-NBKDTS490.jpg"
+        ],
+        "documents": [
+          { "label": "Datashield KS800PRO manual", "type": "datasheet", "url": "https://datashield.net/manual/ks800pro.pdf" }
+        ],
+        "specs": {
+          "brand": "DATASHIELD",
+          "model": "KS800 LCD",
+          "providerSku": "NBKDTS490",
+          "ean": "7501859100406",
+          "productType": "Line-interactive UPS with LCD",
+          "capacity": "800VA / 480W",
+          "inputVoltage": "120V AC nominal, 90-140V AC documented range",
+          "outputVoltage": "120V AC simulated sine wave",
+          "transferTime": "2-6 ms typical",
+          "outlets": "6 AC outlets",
+          "features": "LCD, AVR, USB monitoring, cold start, audible alarm, overload protection, RJ-11 modem/phone protection",
+          "color": "Black",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKDTS490", "stock": 68, "price": 1288.89, "currency": "MXN", "branch": "D2A:9,GDL:8,MID:5,TXA:3,TOL:3,DFP:3,CMT:3,AGS:2,XLP:2,VER:2,CTZ:2,PUE:2" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Battery capacity differs among sources between 12V/9Ah and 12V/7.2Ah; do not overwrite fine battery capacity until provider confirms."]
+        },
+        "measurements": { "dimensions": "300 x 101 x 142 mm", "netWeight": "5 kg" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Datashield KS800 LCD", "type": "retail", "url": "https://compupuebla.com/producto/no-break-datashield-ks800-lcd/" },
+          { "title": "GlobalOffice Datashield KS800 LCD", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/reguladores-y-ups/no-break-datashield-ks800-lcd-nobreak-da/ks800-lcd" },
+          { "title": "Datashield KS800PRO manual", "type": "datasheet", "url": "https://datashield.net/manual/ks800pro.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "2c7llzr99vhtt1s",
+      "research": {
+        "confidence": 0.96,
+        "name": "Mouse inalambrico Perfect Choice Thumb PC-045120 1600DPI silencioso azul mamey",
+        "description": "Mouse ergonomico Perfect Choice Thumb PC-045120 inalambrico RF 2.4GHz con receptor USB, clic silencioso, sensor optico, 6 botones, resolucion ajustable 800/1200/1600DPI, alcance hasta 10m y color azul/mamey.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/perfect-choice-thumb-pc-045120",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mouse-inalambrico-ergonomico-thumb",
+        "gallery": [
+          "https://perfectchoice.me/cdn/shop/files/PC-045120_A01_1_1024x.jpg?v=1760121730",
+          "https://perfectchoice.me/cdn/shop/files/PC-045120_A02_1_1024x.jpg?v=1760121730",
+          "https://perfectchoice.me/cdn/shop/files/PC-045120_A04_1_1024x.jpg?v=1760121730"
+        ],
+        "documents": [
+          { "label": "Perfect Choice Thumb official", "type": "manufacturer", "url": "https://perfectchoice.me/products/mouse-inalambrico-ergonomico-thumb" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "Thumb / PC-045120",
+          "providerSku": "MOUMST1710 / MS-1473",
+          "upc": "615604045120",
+          "sensor": "Optical",
+          "connectivity": "2.4GHz RF wireless with USB receiver",
+          "dpi": "800 / 1200 / 1600 DPI",
+          "buttons": "6",
+          "clickType": "Silent click",
+          "range": "Up to 10m",
+          "power": "Mouse 1.5V 30mA, 2 x AAA batteries; receiver 5V 1A",
+          "formFactor": "Right-handed ergonomic with thumb rest",
+          "color": "Blue / orange-mamey",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 13 }, { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOUMST1710", "stock": 13, "price": 110, "currency": "MXN", "branch": "CT:13" },
+            { "providerId": "cva", "providerSku": "MS-1473", "stock": 0, "price": 108.2, "currency": "MXN", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Use CT as availability canonical because CVA is out of stock in the feed."]
+        },
+        "measurements": { "dimensions": "110 x 73 x 40 mm", "weight": "68 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Thumb official", "type": "manufacturer", "url": "https://perfectchoice.me/products/mouse-inalambrico-ergonomico-thumb" },
+          { "title": "TecnoHub Perfect Choice PC-045120", "type": "retail", "url": "https://www.tecno-hub.com/shop/pc-045120-mouse-ergonomico-perfect-choice-optico-thumb-rf-inalambrico-clic-silencioso-conector-usb-1600dpi-azul-naranja-ms-1473-sku-pc-045120-17900" },
+          { "title": "CompuPuebla Perfect Choice PC-045120", "type": "retail", "url": "https://compupuebla.com/producto/mouse-perfect-choice-pc-045120/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2c9xtgfid9imbul",
+      "research": {
+        "confidence": 0.96,
+        "name": "Switch PoE PROVISION-ISR PoES-16250C+2Combo-V2 16 puertos 250W CCTV",
+        "description": "Switch PoE PROVISION-ISR PoES-16250C+2Combo-V2 para CCTV con 16 puertos RJ45 10/100Mbps PoE, 2 uplinks combo TP/SFP Gigabit, presupuesto PoE 250W, modos Standard/CCTV/VLAN, capacidad 7.2Gbps y formato rack 1U.",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/cctv/16-puertos",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/cctv/16-puertos/provision-isr-poes-16250c-2combo-v2",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/poes-16250c2combo-v2/",
+        "gallery": ["https://provision-isr.com/wp-content/uploads/Range_File_Images/Product%20Image/PoES-16250C%2B2Combo-V2_00.png"],
+        "documents": [
+          { "label": "Provision ISR PoES-16250C+2Combo-V2", "type": "manufacturer", "url": "https://provision-isr.com/products/poes-16250c2combo-v2/" }
+        ],
+        "specs": {
+          "brand": "PROVISION-ISR",
+          "model": "PoES-16250C+2Combo-V2",
+          "providerSku": "SWTPVS410",
+          "upc": "610840137585",
+          "downlinkPorts": "16 x RJ45 10/100Mbps PoE",
+          "uplinkPorts": "2 x 10/100/1000Mbps TP/SFP combo",
+          "poeStandard": "IEEE 802.3af/at",
+          "poeBudget": "250W total",
+          "poePerPort": "15.6W average, 30W max per channel",
+          "switchingCapacity": "7.2Gbps",
+          "buffer": "4Mb",
+          "macAddressTable": "16K",
+          "modes": "Standard, CCTV up to 250m at 10Mbps, VLAN/automatic downlink isolation",
+          "powerSupply": "100-240VAC internal",
+          "powerConsumption": "270W max PoE on, 20W max PoE off",
+          "protection": "Differential surge +/-2KV and common mode +/-4KV",
+          "fan": "Yes",
+          "operatingTemperature": "-40C to 70C",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTPVS410", "stock": 5, "price": 191.79, "currency": "USD", "branch": "GDL:2,D2A:2,DFA:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Some secondary sources vary depth by a few mm; official Provision-ISR dimensions are retained."]
+        },
+        "measurements": { "dimensions": "440 x 207 x 44 mm", "weight": "2.7 kg" },
+        "sourceRefs": [
+          { "title": "Provision ISR PoES-16250C+2Combo-V2 official", "type": "manufacturer", "url": "https://provision-isr.com/products/poes-16250c2combo-v2/" },
+          { "title": "PCEL Provision ISR PoES-16250C+2Combo-V2", "type": "retail", "url": "https://www.pcel.com/PROVISION-ISR-PoES-16250C-2Combo-V2-Switch-Provision-ISR-PoES-16250-2Combo-de-16-Puertos10-100-PoE-2-RJ-45-y-2-Ranuras-SFP-500614" },
+          { "title": "FullOffice Provision ISR PoES-16250C+2Combo-V2", "type": "retail", "url": "https://fulloffice.com/products/switch-provision-isr-poes-16250c-2combo-v2" }
+        ]
+      }
+    }
+  ]
+}
