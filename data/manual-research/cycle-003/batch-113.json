@@ -1,0 +1,422 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b113-2026-05-29",
+  "cycle": 3,
+  "batch": 113,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "a53rnfvny7whvef",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link TL-SG108 switch gigabit no administrable 8 puertos",
+        "description": "Switch de escritorio TP-Link TL-SG108 no administrable con 8 puertos RJ45 gigabit 10/100/1000, carcasa metalica, diseno sin ventilador, QoS e IGMP Snooping.",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos/tp-link-tl-sg108",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg108/v5/",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTTPL310/SWTTPL310_full.jpg"],
+        "documents": [
+          { "label": "TP-Link TL-SG108 product page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg108/v5/" },
+          { "label": "TP-Link TL-SG108 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/TL-SG105_%26_TL-SG108_V3_Datasheet_1479040787021d.pdf" }
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "TL-SG108",
+          "providerSku": "SWTTPL310",
+          "alternateProviderSku": "NIC-1492",
+          "productType": "Switch gigabit no administrable",
+          "ports": "8 x RJ45 10/100/1000 Mbps with Auto-Negotiation and Auto-MDI/MDIX",
+          "switchingCapacity": "16 Gbps",
+          "packetForwardingRate": "11.9 Mpps",
+          "macAddressTable": "4K entries",
+          "jumboFrame": "16 KB",
+          "features": "Plug and play, fanless metal case, desktop or wall mount, 802.1p/DSCP QoS and IGMP Snooping",
+          "power": "External adapter 9 VDC / 0.6 A",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL310", "stock": 1111, "price": 19.32, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-1492", "stock": 0, "price": 18.34, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider title suffix AC is not part of the TP-Link model name.", "CVA publishes a lower price but had zero available stock in the feed, so CTOnline is the effective stocked offer.", "Provider branch-level locations are not available for this item."]
+        },
+        "measurements": { "dimensions": "158 x 101 x 25 mm", "weight": "Not reliably published in official datasheet" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-SG108 product page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/8-port-switch/tl-sg108/v5/" },
+          { "title": "TP-Link TL-SG108 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/TL-SG105_%26_TL-SG108_V3_Datasheet_1479040787021d.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "kn1g5d5hf7y8zkg",
+      "research": {
+        "confidence": 0.95,
+        "name": "Acteck Optimize MI240 mouse inalambrico 2.4GHz negro 1200 DPI",
+        "description": "Mouse inalambrico Acteck Optimize MI240 de 2.4GHz con receptor USB, sensor optico de 1200 DPI, rueda de desplazamiento y alimentacion por bateria AA.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1200-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1200-dpi/acteck-mi240",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/mouse-estandar-optimize-mi240",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUACT060/MOUACT060_full.jpg"],
+        "documents": [{ "label": "Acteck Optimize MI240 product page", "type": "manufacturer", "url": "https://acteck.com/products/mouse-estandar-optimize-mi240" }],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "MI240",
+          "manufacturerModel": "AC-928885",
+          "providerSku": "MOUACT060",
+          "ean": "7506215928885",
+          "productType": "Mouse inalambrico optico",
+          "connection": "2.4 GHz wireless USB receiver",
+          "sensor": "Optical",
+          "resolution": "1200 DPI by official Acteck reference",
+          "buttons": "2 buttons plus scroll wheel",
+          "battery": "1 x AA",
+          "color": "Black",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":245},{"providerId":"ctonline","warehouseCode":"GDL","stock":202},{"providerId":"ctonline","warehouseCode":"CMT","stock":178},{"providerId":"ctonline","warehouseCode":"CUN","stock":42},{"providerId":"ctonline","warehouseCode":"TRN","stock":34},{"providerId":"ctonline","warehouseCode":"PUE","stock":31},{"providerId":"ctonline","warehouseCode":"TAM","stock":26},{"providerId":"ctonline","warehouseCode":"TPC","stock":22},{"providerId":"ctonline","warehouseCode":"OAX","stock":20},{"providerId":"ctonline","warehouseCode":"MOR","stock":19},{"providerId":"ctonline","warehouseCode":"COL","stock":19},{"providerId":"ctonline","warehouseCode":"DGO","stock":17}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUACT060", "stock": 1110, "price": 67.82, "currency": "MXN", "branch": "DFA:245,GDL:202,CMT:178,CUN:42,TRN:34,PUE:31,TAM:26,TPC:22,OAX:20,MOR:19,COL:19,DGO:17" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path under laptops was incorrect; this is a basic wireless mouse.", "Some retailers publish 1600 DPI or four buttons, while the official Acteck page lists 1200 DPI and a basic two-button-plus-scroll layout.", "Visible branch sum is 855 while feed total_stock is 1110, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Approx 11.3 x 2.3 x 5.7 cm retail reference", "weight": "Not reliably published" },
+        "sourceRefs": [
+          { "title": "Acteck Optimize MI240 product page", "type": "manufacturer", "url": "https://acteck.com/products/mouse-estandar-optimize-mi240" },
+          { "title": "Exel Acteck MI240 reference", "type": "retailer", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/AKCACCAC012" }
+        ]
+      }
+    },
+    {
+      "product_id": "e2qh1liaoyoijms",
+      "research": {
+        "confidence": 0.94,
+        "name": "Xerox Digital Paper 003M02000 papel bond carta 75 g/m2 99 blancura caja 5000 hojas",
+        "description": "Caja de papel Xerox Digital Paper 003M02000 tamano carta, 75 g/m2, blancura 99, para impresion laser, inkjet, digital, copiado y uso escolar/oficina.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/digital-75g",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/digital-75g/xerox-003m02000",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xerox.com/es-mx/suministros-para-impresoras/papel",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPXRX090/PAPXRX090_full.jpg"],
+        "documents": [
+          { "label": "Xerox paper catalog", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/64a/866/062/XeroxCatalogodePapelRojo.pdf" },
+          { "label": "Xerox paper official page", "type": "manufacturer", "url": "https://www.xerox.com/es-mx/suministros-para-impresoras/papel" }
+        ],
+        "specs": {
+          "brand": "XEROX",
+          "model": "003M02000",
+          "providerSku": "PAPXRX090",
+          "ean": "7501712320019",
+          "productType": "Papel bond carta",
+          "paperSize": "Carta 8.5 x 11 in / 216 x 279 mm",
+          "basisWeight": "75 g/m2",
+          "whiteness": "99",
+          "packageQuantity": "5000 sheets, 10 packs of 500 sheets",
+          "applications": "Laser, inkjet, digital, copy, school and office printing",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DGO","stock":504},{"providerId":"ctonline","warehouseCode":"TRN","stock":248},{"providerId":"ctonline","warehouseCode":"OBR","stock":212},{"providerId":"ctonline","warehouseCode":"D2A","stock":54},{"providerId":"ctonline","warehouseCode":"CUE","stock":23},{"providerId":"ctonline","warehouseCode":"ACX","stock":22},{"providerId":"ctonline","warehouseCode":"TXA","stock":18},{"providerId":"ctonline","warehouseCode":"DFA","stock":15},{"providerId":"ctonline","warehouseCode":"DFT","stock":12},{"providerId":"ctonline","warehouseCode":"PUE","stock":1}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "PAPXRX090", "stock": 1109, "price": 612.79, "currency": "MXN", "branch": "DGO:504,TRN:248,OBR:212,D2A:54,CUE:23,ACX:22,TXA:18,DFA:15,DFT:12,PUE:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous monitor category was incorrect; this is office paper.", "Provider label Rojo refers to the red Xerox paper line/packaging, not red-colored sheets.", "Some retail snippets state 500 sheets, but the provider and Xerox catalog reference confirm the 5000-sheet case.", "Visible branch sum equals feed total_stock."]
+        },
+        "measurements": { "dimensions": "Carta 216 x 279 mm sheets; carton dimensions not reliably published", "weight": "Approx 23.2 kg calculated from 75 g/m2 carta 5000 sheets before packaging" },
+        "sourceRefs": [
+          { "title": "Xerox paper official page", "type": "manufacturer", "url": "https://www.xerox.com/es-mx/suministros-para-impresoras/papel" },
+          { "title": "Xerox Catalogo de Papel Rojo", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/64a/866/062/XeroxCatalogodePapelRojo.pdf" },
+          { "title": "Cyberpuerta Xerox 003M02000 reference", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Consumibles/Papeles-Especiales/Xerox-Digital-Paper-Tamano-Carta-Color-Blanco-5000-Hojas.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "qsvcptci9q8w9hk",
+      "research": {
+        "confidence": 0.9,
+        "name": "BROBOTIX 170120 adaptador DC hembra 5.5 x 2.1 mm a terminales de tornillo para CCTV",
+        "description": "Conector de corriente BROBOTIX 170120 tipo jack DC hembra a terminales de tornillo, usado para alimentacion en instalaciones CCTV y tiras LED.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra/brobotix-170120",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/conector-dc-jack-hembra-brobotix/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCRBT4550/ACCRBT4550_full.jpg"],
+        "documents": [{ "label": "BROBOTIX 170120 PDF reference", "type": "datasheet", "url": "https://static.pcenlinea.com/media/fichas/170120.pdf" }],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "170120",
+          "providerSku": "ACCRBT4550",
+          "ean": "7503028558742",
+          "productType": "Conector DC hembra a terminal de tornillo",
+          "connector": "DC jack female 5.5 x 2.1 mm retail reference",
+          "terminals": "2-pole screw terminals",
+          "contacts": "Copper contacts retail reference",
+          "useCase": "CCTV power, LED strips and low-voltage DC wiring",
+          "packageQuantity": "1 piece",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":262},{"providerId":"ctonline","warehouseCode":"DFC","stock":152},{"providerId":"ctonline","warehouseCode":"DFA","stock":104},{"providerId":"ctonline","warehouseCode":"ACA","stock":64},{"providerId":"ctonline","warehouseCode":"D2A","stock":52},{"providerId":"ctonline","warehouseCode":"CUE","stock":51},{"providerId":"ctonline","warehouseCode":"TOL","stock":45},{"providerId":"ctonline","warehouseCode":"MOR","stock":33},{"providerId":"ctonline","warehouseCode":"MTY","stock":31},{"providerId":"ctonline","warehouseCode":"CHI","stock":30},{"providerId":"ctonline","warehouseCode":"PUE","stock":27},{"providerId":"ctonline","warehouseCode":"TAM","stock":24}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT4550", "stock": 1041, "price": 0.22, "currency": "USD", "branch": "GDL:262,DFC:152,DFA:104,ACA:64,D2A:52,CUE:51,TOL:45,MOR:33,MTY:31,CHI:30,PUE:27,TAM:24" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is CCTV/power wiring hardware.", "Retail references disagree between 3.5 mm and 5.5 x 2.1 mm connector text; use the 5.5 x 2.1 mm description with lower confidence.", "Visible branch sum is 875 while feed total_stock is 1041, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Approx 8 x 0.5 x 15 cm retail package reference", "weight": "Approx 0.05 kg retail package reference" },
+        "sourceRefs": [
+          { "title": "CompuPuebla BROBOTIX DC jack reference", "type": "retailer", "url": "https://compupuebla.com/producto/conector-dc-jack-hembra-brobotix/" },
+          { "title": "BROBOTIX 170120 PDF reference", "type": "datasheet", "url": "https://static.pcenlinea.com/media/fichas/170120.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "ruid1k2aerg2kev",
+      "research": {
+        "confidence": 0.96,
+        "name": "CDP RAVR1408 regulador automatico AVR 1410VA 700W 8 salidas NEMA 5-15R",
+        "description": "Regulador automatico de voltaje CDP RAVR1408 de 1410VA/700W con 8 salidas NEMA 5-15R, proteccion contra picos, montaje a pared y breaker de reinicio.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1410va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1410va/cdp-ravr1408",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdpenergy.com/download.asp?fileid=1776",
+        "gallery": ["https://static.ctonline.mx/imagenes/REGCDP1100/REGCDP1100_full.jpg"],
+        "documents": [{ "label": "CDP RAVR1408 manual", "type": "manual", "url": "https://cdpenergy.com/download.asp?fileid=1776" }],
+        "specs": {
+          "brand": "CDP",
+          "model": "RAVR1408",
+          "providerSku": "REGCDP1100",
+          "alternateProviderSku": "RE-220",
+          "productType": "Regulador automatico de voltaje AVR",
+          "capacity": "1410 VA / 700 W",
+          "inputRange": "98-145 VAC",
+          "outputRange": "108-132 VAC",
+          "outlets": "8 x NEMA 5-15R; 4 AVR plus surge and 4 surge-only by manual reference",
+          "surgeProtection": "300 J by manual reference",
+          "indicators": "LED status indicators",
+          "mounting": "Wall mount capable",
+          "breaker": "Resettable circuit breaker",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "REGCDP1100", "stock": 1029, "price": 216.3, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "RE-220", "stock": 8, "price": 217.01, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is a voltage regulator, not a UPS/no-break.", "Some retailer text mentions 175 J, while CDP manual details 300 J surge protection.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "89 x 92.5 x 161 mm", "weight": "1.06 kg" },
+        "sourceRefs": [
+          { "title": "CDP RAVR1408 manual", "type": "manual", "url": "https://cdpenergy.com/download.asp?fileid=1776" },
+          { "title": "Exel CDP RAVR1408 reference", "type": "retailer", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/CDPREGCDP040" },
+          { "title": "TVC CDP RAVR1408 reference", "type": "retailer", "url": "https://www.tvc.mx/shop/product/RAVR1408-1" }
+        ]
+      }
+    },
+    {
+      "product_id": "y0epuev4lh6b6nr",
+      "research": {
+        "confidence": 0.97,
+        "name": "HP Series 3 Pro 324pv monitor 23.8 pulgadas FHD VA 100Hz HDMI VGA",
+        "description": "Monitor HP Series 3 Pro 324pv de 23.8 pulgadas FHD con panel VA, hasta 100Hz por HDMI, entrada HDMI/VGA y montaje VESA 100 para oficina.",
+        "manualCategoryPath": "computo/monitores/oficina/24-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/24-fhd-100hz/hp-series-3-pro-324pv",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/hp-series-3-pro-238-inch-fhd-monitor-324pv-p-9u5c1aa-aba-1",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONHPI820/MONHPI820_full.jpg"],
+        "documents": [
+          { "label": "HP Series 3 Pro 324pv product page", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-series-3-pro-238-inch-fhd-monitor-324pv-p-9u5c1aa-aba-1" },
+          { "label": "HP Series 3 Pro 324pv support", "type": "support", "url": "https://support.hp.com/us-en/product/setup-user-guides/hp-series-3-pro-23.8-inch-fhd-monitor-324pv/2102197078/" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "HP Series 3 Pro 324pv",
+          "manufacturerModel": "9U5C1AA#ABA",
+          "providerSku": "MONHPI820",
+          "upc": "198122210343",
+          "productType": "Monitor FHD de oficina",
+          "display": "23.8 in VA LCD, 1920 x 1080 FHD",
+          "refreshRate": "Up to 100 Hz through HDMI; 60 Hz through VGA",
+          "brightness": "250 nits",
+          "contrast": "3000:1",
+          "responseTime": "5 ms GtG",
+          "ports": "HDMI 1.4 and VGA",
+          "vesa": "100 x 100 mm",
+          "speakers": "No integrated speakers by HP reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":470},{"providerId":"ctonline","warehouseCode":"D2A","stock":461},{"providerId":"ctonline","warehouseCode":"MTY","stock":28},{"providerId":"ctonline","warehouseCode":"DFP","stock":11},{"providerId":"ctonline","warehouseCode":"LEO","stock":8},{"providerId":"ctonline","warehouseCode":"GDL","stock":6},{"providerId":"ctonline","warehouseCode":"TPC","stock":4},{"providerId":"ctonline","warehouseCode":"TOL","stock":2},{"providerId":"ctonline","warehouseCode":"PAC","stock":2},{"providerId":"ctonline","warehouseCode":"ZAC","stock":2},{"providerId":"ctonline","warehouseCode":"DFC","stock":2},{"providerId":"ctonline","warehouseCode":"DGO","stock":1}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONHPI820", "stock": 1003, "price": 2315.79, "currency": "MXN", "branch": "DFA:470,D2A:461,MTY:28,DFP:11,LEO:8,GDL:6,TPC:4,TOL:2,PAC:2,ZAC:2,DFC:2,DGO:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["HP uses Series 3 Pro 324pv naming while provider text may omit Series 3 Pro.", "Panel is VA per HP reference, not IPS.", "Visible branch sum is 997 while feed total_stock is 1003, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "With stand 21.22 x 7.11 x 15.67 in; without stand 21.22 x 2.02 x 12.74 in; package 23.43 x 4.88 x 15.39 in", "weight": "7.84 lb net without stand reference; 12.22 lb package" },
+        "sourceRefs": [
+          { "title": "HP Series 3 Pro 324pv product page", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-series-3-pro-238-inch-fhd-monitor-324pv-p-9u5c1aa-aba-1" },
+          { "title": "HP Series 3 Pro 324pv support page", "type": "support", "url": "https://support.hp.com/us-en/product/setup-user-guides/hp-series-3-pro-23.8-inch-fhd-monitor-324pv/2102197078/" }
+        ]
+      }
+    },
+    {
+      "product_id": "qonrnmpvtwut4fl",
+      "research": {
+        "confidence": 0.97,
+        "name": "HP Everyday 16 inch Laptop Backpack A08KLUT Odyssey Gray 21L",
+        "description": "Mochila HP Everyday para laptop de hasta 16 pulgadas, 21 litros, poliester 600D resistente al agua, compartimento acolchado y organizacion diaria.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas/hp-everyday-a08klut",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/hp-everyday-16-inch-laptop-backpack-a08klut",
+        "gallery": ["https://static.ctonline.mx/imagenes/MALHPI160/MALHPI160_full.jpg"],
+        "documents": [
+          { "label": "HP Everyday 16 inch Laptop Backpack product page", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-everyday-16-inch-laptop-backpack-a08klut" },
+          { "label": "HP Everyday 16 inch Laptop Backpack datasheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/getpdf.aspx/c09013950.pdf" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "A08KLUT#ABM",
+          "providerSku": "MALHPI160",
+          "ean": "4582712466481",
+          "upc": "198122955565",
+          "productType": "Mochila para laptop",
+          "capacity": "21 L",
+          "laptopCompatibility": "Up to 16.1 in laptop",
+          "material": "600D water-resistant polyester with 60% post-consumer recycled plastic by HP reference",
+          "features": "Padded laptop compartment, organizer pockets, quick pocket, bottle/umbrella pocket, cable pass-through, key fob, trolley strap, padded back and straps",
+          "color": "Odyssey Gray",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":526},{"providerId":"ctonline","warehouseCode":"D2A","stock":396},{"providerId":"ctonline","warehouseCode":"TAM","stock":21},{"providerId":"ctonline","warehouseCode":"QRO","stock":10},{"providerId":"ctonline","warehouseCode":"CTZ","stock":10},{"providerId":"ctonline","warehouseCode":"TXA","stock":7},{"providerId":"ctonline","warehouseCode":"TXL","stock":7},{"providerId":"ctonline","warehouseCode":"OAX","stock":5},{"providerId":"ctonline","warehouseCode":"CUN","stock":5},{"providerId":"ctonline","warehouseCode":"VER","stock":3},{"providerId":"ctonline","warehouseCode":"TOL","stock":3},{"providerId":"ctonline","warehouseCode":"XLP","stock":2}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALHPI160", "stock": 998, "price": 288.89, "currency": "MXN", "branch": "DFA:526,D2A:396,TAM:21,QRO:10,CTZ:10,TXA:7,TXL:7,OAX:5,CUN:5,VER:3,TOL:3,XLP:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous monitors category was incorrect; this is a laptop backpack.", "HP product pages list A08KLUT while the regional provider model includes A08KLUT#ABM.", "Visible branch sum is 995 while feed total_stock is 998, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "310 x 155 x 440 mm / 12.2 x 6.1 x 17.32 in; laptop compartment 400 x 270 x 30 mm", "weight": "570 g / 1.25 lb" },
+        "sourceRefs": [
+          { "title": "HP Everyday 16 inch Laptop Backpack product page", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-everyday-16-inch-laptop-backpack-a08klut" },
+          { "title": "HP Everyday 16 inch Laptop Backpack datasheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/getpdf.aspx/c09013950.pdf" },
+          { "title": "B&H HP Everyday 16 inch backpack reference", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1860786-REG/hp_a08klut_hp_everyday_16_laptop.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "x9locimw1p2vkg7",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dahua DH-PFM979-DCS conector DC hembra 5.5 x 2.1 mm para CCTV",
+        "description": "Conector Dahua DH-PFM979-DCS tipo DC hembra 5.5 x 2.1 mm para alimentacion CCTV, con terminales de tornillo y ferrula de cobre niquelado.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra/dahua-dh-pfm979-dcs",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://download.masterbc.com/static/documents/dahua-pfm979-dcs-specifikacije-engleski.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCDAH2580/ACCDAH2580_full.jpg"],
+        "documents": [{ "label": "Dahua DH-PFM979-DCS datasheet", "type": "datasheet", "url": "https://download.masterbc.com/static/documents/dahua-pfm979-dcs-specifikacije-engleski.pdf" }],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFM979-DCS",
+          "providerSku": "ACCDAH2580",
+          "ean": "6923172576859",
+          "productType": "Conector DC hembra para CCTV",
+          "connector": "DC female 5.5 x 2.1 mm",
+          "terminals": "Screw terminal connector",
+          "material": "H65 nickel-plated copper ferrule; PVC black/green housing",
+          "rating": "18 V / 2 A by datasheet",
+          "durability": "500 mating cycles",
+          "electrical": "Contact resistance <=30 mOhm; insulation resistance >=500 mOhm; 1000 V / 60 s dielectric strength",
+          "compliance": "RoHS and REACH by datasheet",
+          "package": "Datasheet references 50 pcs per bag and 40 bags per carton",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"TOL","stock":184},{"providerId":"ctonline","warehouseCode":"VER","stock":134},{"providerId":"ctonline","warehouseCode":"IRA","stock":119},{"providerId":"ctonline","warehouseCode":"ACX","stock":81},{"providerId":"ctonline","warehouseCode":"CDV","stock":76},{"providerId":"ctonline","warehouseCode":"HMO","stock":60},{"providerId":"ctonline","warehouseCode":"CLN","stock":57},{"providerId":"ctonline","warehouseCode":"LEO","stock":48},{"providerId":"ctonline","warehouseCode":"CHI","stock":45},{"providerId":"ctonline","warehouseCode":"SLP","stock":37},{"providerId":"ctonline","warehouseCode":"LMO","stock":28},{"providerId":"ctonline","warehouseCode":"VHA","stock":26}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCDAH2580", "stock": 981, "price": 0.1, "currency": "USD", "branch": "TOL:184,VER:134,IRA:119,ACX:81,CDV:76,HMO:60,CLN:57,LEO:48,CHI:45,SLP:37,LMO:28,VHA:26" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous CCTV camera path was too broad; this is a power connector accessory, not a camera.", "Datasheet packaging references 50-piece bags while provider price appears to be unit-level.", "Visible branch sum is 895 while feed total_stock is 981, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "PE bag 170 x 190 mm; carton 415 x 255 x 215 mm by datasheet packaging reference", "weight": "394 g +/-10 g per 50-piece bag by datasheet packaging reference" },
+        "sourceRefs": [
+          { "title": "Dahua DH-PFM979-DCS datasheet", "type": "datasheet", "url": "https://download.masterbc.com/static/documents/dahua-pfm979-dcs-specifikacije-engleski.pdf" },
+          { "title": "Ticam Dahua PFM979-DCS reference", "type": "retailer", "url": "https://ticam.com/producto/dahua-dh-pfm979-dcs/" },
+          { "title": "Shoppable Dahua PFM979-DCS reference", "type": "retailer", "url": "https://shoppable.com.mx/producto/dh-pfm979-dcs/" }
+        ]
+      }
+    },
+    {
+      "product_id": "pc7766x351ac7r8",
+      "research": {
+        "confidence": 0.96,
+        "name": "Nextep NE-511 impresora termica POS 80mm USB RJ11 LAN",
+        "description": "Impresora termica Nextep NE-511 para punto de venta, recibos de 80 mm, 203 dpi, USB, Ethernet LAN, RJ11 para cajon de dinero y compatibilidad ESC/POS.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos/80mm-lan",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/80mm-lan/nextep-ne-511",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/product/NE-511",
+        "gallery": ["https://static.ctonline.mx/imagenes/IMPNTE020/IMPNTE020_full.jpg"],
+        "documents": [
+          { "label": "Nextep NE-511 product page", "type": "manufacturer", "url": "https://nextep.com.mx/product/NE-511" },
+          { "label": "Nextep NE-511 PCH technical sheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/NE-511.pdf" }
+        ],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-511",
+          "providerSku": "IMPNTE020",
+          "ean": "7501811272752",
+          "productType": "Impresora termica POS",
+          "printTechnology": "Direct thermal",
+          "paperWidth": "79.5 +/-0.5 mm",
+          "printWidth": "72 mm",
+          "resolution": "203 dpi",
+          "interfaces": "USB, LAN TCP/IP and RJ11 cash drawer",
+          "commandSet": "ESC/POS",
+          "cutter": "Automatic cutter",
+          "barcodeSupport": "UPC, EAN, JAN, Code39, ITF, Codabar, QR, PDF417, Code93 and Code128 references",
+          "osCompatibility": "Windows, Linux, macOS and iOS by product references",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":503},{"providerId":"ctonline","warehouseCode":"D2A","stock":296},{"providerId":"ctonline","warehouseCode":"HMO","stock":24},{"providerId":"ctonline","warehouseCode":"TRN","stock":17},{"providerId":"ctonline","warehouseCode":"QRO","stock":8},{"providerId":"ctonline","warehouseCode":"MAZ","stock":8},{"providerId":"ctonline","warehouseCode":"OAX","stock":7},{"providerId":"ctonline","warehouseCode":"TOL","stock":6},{"providerId":"ctonline","warehouseCode":"ACA","stock":6},{"providerId":"ctonline","warehouseCode":"URP","stock":6},{"providerId":"ctonline","warehouseCode":"CEL","stock":6},{"providerId":"ctonline","warehouseCode":"OBR","stock":5}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPNTE020", "stock": 976, "price": 1113.64, "currency": "MXN", "branch": "DFA:503,D2A:296,HMO:24,TRN:17,QRO:8,MAZ:8,OAX:7,TOL:6,ACA:6,URP:6,CEL:6,OBR:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous accessories/cables path was incorrect; this is a POS receipt printer.", "Print speed varies across retailers between 160, 200 and 220 mm/s; preserve manufacturer/PCH 200 mm/s reference when exposed downstream.", "Visible branch sum is 892 while feed total_stock is 976, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "18.5 x 14.5 x 13.2 cm", "weight": "1.20 kg" },
+        "sourceRefs": [
+          { "title": "Nextep NE-511 product page", "type": "manufacturer", "url": "https://nextep.com.mx/product/NE-511" },
+          { "title": "Nextep NE-511 PCH technical sheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/NE-511.pdf" },
+          { "title": "SAME NE-511 reference", "type": "retailer", "url": "https://same.mx/producto/impresora-termica-ne-511/" }
+        ]
+      }
+    },
+    {
+      "product_id": "zlbgcrr1u63gsyn",
+      "research": {
+        "confidence": 0.96,
+        "name": "Smartbitt R-Bitt 1200S SBAVR1200S regulador AVR 1200VA 600W 4 contactos",
+        "description": "Regulador automatico Smartbitt R-Bitt 1200S de 1200VA/600W con 4 contactos NEMA 5-15R regulados y protegidos contra sobretension.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1200va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1200va/smartbitt-sbavr1200s",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://fichastecnicas.pchmayoreo.com/7503024837117-S.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/REGBIT080/REGBIT080_full.jpg"],
+        "documents": [{ "label": "Smartbitt SBAVR1200S PCH technical sheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/7503024837117-S.pdf" }],
+        "specs": {
+          "brand": "SMARTBITT",
+          "model": "SBAVR1200S",
+          "providerSku": "REGBIT080",
+          "alternateProviderSku": "RE-161",
+          "ean": "7503024837117",
+          "productType": "Regulador automatico de voltaje AVR",
+          "capacity": "1200 VA / 600 W",
+          "output": "120 VAC +/-10%",
+          "frequency": "50/60 Hz",
+          "outlets": "4 x NEMA 5-15R regulated and surge protected",
+          "inputPlug": "NEMA 5-15P",
+          "regulationRange": "90-145 VAC by PCH technical sheet reference",
+          "overloadProtection": "7 A",
+          "surgeProtection": "100 J / 4500 A / 650 VAC",
+          "indicators": "LED status indicators and on/off/reset switch",
+          "cableLength": "900 mm",
+          "mounting": "Wall or floor placement",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "REGBIT080", "stock": 945, "price": 212.25, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "RE-161", "stock": 30, "price": 208.31, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous laptops path was incorrect; this is an AVR voltage regulator.", "Retailer dimensions and input range vary; prioritize the PCH/Smartbitt technical sheet for core specs.", "CVA has the lower price and available stock, while CTOnline has most of the availability; provider branch-level locations are not available."]
+        },
+        "measurements": { "dimensions": "230 x 76 x 68 mm", "weight": "1.1 kg" },
+        "sourceRefs": [
+          { "title": "Smartbitt SBAVR1200S PCH technical sheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/7503024837117-S.pdf" },
+          { "title": "Cyberpuerta Smartbitt SBAVR1200S reference", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Energia/Reguladores/Regulador-Smartbitt-SBAVR1200S-1200VA-600W-4-Contactos.html" },
+          { "title": "Oasify Smartbitt SBAVR1200S reference", "type": "retailer", "url": "https://www.oasify.com/smartbitt-sbavr1200s-regulador-1200va" }
+        ]
+      }
+    }
+  ]
+}

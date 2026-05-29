@@ -112,6 +112,16 @@ const researchedBatchCases = [
   ["HP GT52 M0H54AL botella de tinta cian", "HP", "impresion/consumibles/botellas-tinta/hp-gt52/cian"],
   ["TechZone TZMOU01 mouse alambrico USB 1000 DPI negro", "TECHZONE", "computo/perifericos/mouse/alambricos/basicos/1000-dpi"],
   ["ADATA AD4S320016G22-SGN SODIMM DDR4 16GB 3200MHz", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr4/16gb-3200"],
+  ["TP-Link TL-SG108 switch gigabit no administrable 8 puertos", "TP-LINK", "redes/switches/no-administrables/gigabit/8-puertos"],
+  ["Acteck Optimize MI240 mouse inalambrico 2.4GHz 1200 DPI negro", "ACTECK", "computo/perifericos/mouse/inalambricos/basicos/1200-dpi"],
+  ["Xerox Digital Paper 003M02000 papel bond carta 75 g 5000 hojas", "XEROX", "oficina/papel-consumibles/papel-bond/carta/5000-hojas/digital-75g"],
+  ["BROBOTIX 170120 adaptador DC hembra 5.5 x 2.1 mm CCTV", "BROBOTIX", "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra"],
+  ["CDP RAVR1408 regulador automatico AVR 1410VA 700W 8 salidas", "CDP", "energia/supresores-reguladores/reguladores-voltaje/avr/1410va"],
+  ["HP Series 3 Pro 324pv monitor 23.8 FHD 100Hz HDMI VGA", "HP", "computo/monitores/oficina/24-fhd-100hz"],
+  ["HP Everyday 16 inch Laptop Backpack A08KLUT Odyssey Gray", "HP", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
+  ["Dahua DH-PFM979-DCS conector DC hembra 5.5 x 2.1 mm", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra"],
+  ["Nextep NE-511 miniprinter termica POS 80mm USB RJ11 LAN", "NEXTEP", "punto-de-venta/impresoras-recibos/80mm-lan"],
+  ["Smartbitt SBAVR1200S regulador AVR 1200VA 600W 4 contactos", "SMARTBITT", "energia/supresores-reguladores/reguladores-voltaje/avr/1200va"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
