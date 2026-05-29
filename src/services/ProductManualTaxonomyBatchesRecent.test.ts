@@ -452,6 +452,16 @@ const researchedBatchCases = [
   ["Manhattan 342766 cable alimentacion interno HDD SATA", "MANHATTAN", "computo/componentes/cables-internos/alimentacion-sata"],
   ["Manhattan 317887 cable USB A-A 1.8m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-a"],
   ["Manhattan 340700 cable SATA HDD 50cm", "MANHATTAN", "computo/componentes/cables-internos/datos-sata"],
+  ["Manhattan 322539 cable HDMI 1.3 M-M 10m", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/10m"],
+  ["Manhattan 306119 cable HDMI 1.3 M-M 1.8m bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/1-8m"],
+  ["Manhattan 333368 cable USB V2.0 A-B 1.8m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/1-8m"],
+  ["Manhattan 304955 cable HDMI a Mini-HDMI 1.8m bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/mini-hdmi/1-8m"],
+  ["Manhattan 179300 cable USB extension activa 60m via RJ45", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/activas/rj45"],
+  ["Manhattan 340465 cable USB V2.0 A-B 4.5m plata", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/4-5m"],
+  ["Manhattan 308441 cable HDMI 1.3 M-M 7.5m bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/7-5m"],
+  ["Manhattan 345408 cable USB V2.0 A-B 5.0m plata", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/5m"],
+  ["Manhattan 519779 cable USB V2.0 extension activa 4.9m", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/activas/5m"],
+  ["Manhattan 340960 cable USB extension 4.5m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/4-5m"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

@@ -1,0 +1,502 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b089-2026-05-29",
+  "cycle": 3,
+  "batch": 89,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5hdtp68tt2nzvs6",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 322539 cable HDMI de alta velocidad macho a macho 10m negro",
+        "description": "Cable HDMI Manhattan 322539 de alta velocidad, HDMI macho a macho, 10 metros, blindado, para video 1080p, Deep Color y equipos HDMI como Blu-ray, consolas, PCs y pantallas.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/10m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/10m/manhattan-322539",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.eu/products/manhattan-en-high-speed-hdmi-cable-322539",
+        "gallery": [
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-322539-1_a259d6d9-7f44-48e0-9a4f-1cf4e3f09eed.jpg?v=1678758948",
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-322539-2_aeac9e49-b0ba-43b2-948d-013b7780103b.jpg?v=1678758948"
+        ],
+        "documents": [
+          { "label": "Manhattan 322539 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42794/322539_datasheet_english.pdf" },
+          { "label": "Manhattan 322539 declaration", "type": "declaration_of_conformity", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63461/322539_declaration_of_conformity.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "322539",
+          "providerSku": "CABITL115 / CB-308",
+          "upc": "766623322539",
+          "ean": "0766623322539",
+          "productType": "Cable HDMI de alta velocidad",
+          "connectors": "2 x HDMI 19 pines macho",
+          "resolution": "1080p, Deep Color",
+          "bandwidth": "10.2 Gbps at 340 MHz",
+          "contacts": "Niquelados",
+          "cableGauge": "28 AWG",
+          "shielding": "Doble blindaje foil + trenzado",
+          "withstandingVoltage": "300 V DC",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 485 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 3 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL115", "stock": 485, "price": 11.21, "currency": "USD", "branch": "CT:485" },
+            { "providerId": "cva", "providerSku": "CB-308", "stock": 3, "price": 11.37, "currency": "USD", "branch": "CVA:3" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a cable HDMI de alta velocidad por longitud."]
+        },
+        "measurements": { "length": "10 m", "dimensions": "10 x 0.02 x 0.011 m", "weight": "0.51 kg neto / 0.53 kg bruto", "packageDimensions": "190 x 190 x 40 mm", "packaging": "Donut" },
+        "sourceRefs": [
+          { "title": "Manhattan 322539 official EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-high-speed-hdmi-cable-322539" },
+          { "title": "DeviceReport Manhattan 322539", "type": "catalog", "url": "https://device.report/manhattan/322539" }
+        ]
+      }
+    },
+    {
+      "product_id": "un89q6n4c2qfd11",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 306119 cable HDMI de alta velocidad macho a macho 1.8m negro",
+        "description": "Cable HDMI Manhattan 306119 de alta velocidad, 1.8 metros, HDMI macho a macho, blindado, compatible con 4K@30Hz, 3D y Deep Color.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/1-8m/manhattan-306119",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-306119",
+        "gallery": [
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-306119-1.jpg?v=1678759354",
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-306119-packaging-4_0aa0f830-af68-4b5a-9c37-385f2258127b.jpg?v=1678759354"
+        ],
+        "documents": [
+          { "label": "Manhattan 306119 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42752/306119_datasheet_english.pdf" },
+          { "label": "Manhattan 306119 datasheet Spanish", "type": "datasheet", "url": "https://cdn.tvc.mx/media/1774843/MANHATTAN-306119-DATASHEET-ESPA%C3%91OL.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "306119",
+          "providerSku": "CABITL1255 / CB-166",
+          "upc": "766623306119",
+          "ean": "0766623306119",
+          "productType": "Cable HDMI de alta velocidad",
+          "connectors": "2 x HDMI macho",
+          "resolution": "4K@30Hz, 3D, Deep Color",
+          "bandwidth": "10.2 Gbps at 340 MHz",
+          "shielding": "Blindado",
+          "boot": "PVC moldeado",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 2051 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 6 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1255", "stock": 2051, "price": 1.78, "currency": "USD", "branch": "CT:2051" },
+            { "providerId": "cva", "providerSku": "CB-166", "stock": 6, "price": 1.81, "currency": "USD", "branch": "CVA:6" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "1.8 m", "weight": "0.08 kg neto / 0.09 kg bruto", "packageDimensions": "235 x 120 x 15 mm", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 306119 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-306119" },
+          { "title": "Manhattan 306119 official EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-high-speed-hdmi-cable-306119" }
+        ]
+      }
+    },
+    {
+      "product_id": "7z66k0i9hr2umf7",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 333368 cable USB 2.0 A macho a B macho 1.8m negro",
+        "description": "Cable USB 2.0 Manhattan 333368 de USB-A macho a USB-B macho, 1.8 metros, negro, para impresoras, hubs, gabinetes externos y otros dispositivos USB-B.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/1-8m/manhattan-333368",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-333368",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/hi-speed-usb-b-device-cable-333368-1_be7535a3-55de-4c0d-bac6-b1c12e5b8959.jpg?v=1678688989",
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/hi-speed-usb-b-device-cable-333368-packaging-6_70d57c29-3ad0-4578-a5d5-96916a2ab883.jpg?v=1678688989"
+        ],
+        "documents": [
+          { "label": "Manhattan 333368 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42449/333368_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "333368",
+          "providerSku": "CABITL1290 / CB-207",
+          "upc": "766623333368",
+          "ean": "0766623333368",
+          "productType": "Cable USB 2.0 para dispositivo",
+          "standard": "USB 2.0",
+          "connectors": "USB-A macho a USB-B macho",
+          "dataRate": "Hasta 480 Mbps",
+          "contacts": "Banados en oro",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Negro",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 2 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 16 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1290", "stock": 2, "price": 1.41, "currency": "USD", "branch": "CT:2" },
+            { "providerId": "cva", "providerSku": "CB-207", "stock": 16, "price": 1.24, "currency": "USD", "branch": "CVA:16" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "1.8 m", "weight": "0.04 kg neto / 0.05 kg bruto", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 333368 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-333368" },
+          { "title": "Manhattan 333368 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42449/333368_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3e8ainbzqx846qy",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 304955 cable Mini HDMI a HDMI de alta velocidad 1.8m negro",
+        "description": "Cable Manhattan 304955 de Mini HDMI macho a HDMI macho, 1.8 metros, blindado, para camaras, tablets o dispositivos con salida Mini HDMI hacia pantallas HDMI.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/mini-hdmi/1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/mini-hdmi/1-8m/manhattan-304955",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-304955",
+        "gallery": [
+          "https://manhattanproducts.mx/cdn/shop/files/phpThumb_31329fbb-d43c-4bd1-b361-61e2f9341e0c.jpg?v=1780012742",
+          "https://manhattanproducts.mx/cdn/shop/files/phpThumb_0b485a76-73c1-4983-bb67-62babd6bbb33.jpg?v=1780012742"
+        ],
+        "documents": [
+          { "label": "Manhattan 304955 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/44165/304955_datasheet_english.pdf" },
+          { "label": "Manhattan 304955 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/44167/304955_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "304955",
+          "providerSku": "CABITL1295 / CB-261",
+          "upc": "766623304955",
+          "ean": "0766623304955",
+          "productType": "Cable Mini HDMI a HDMI",
+          "connectors": "Mini HDMI 19 pines macho a HDMI 19 pines macho",
+          "resolution": "4K, 3D, Deep Color",
+          "bandwidth": "10.2 Gbps at 340 MHz",
+          "shielding": "Blindado",
+          "boot": "PVC moldeado",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 165 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1295", "stock": 165, "price": 4.48, "currency": "USD", "branch": "CT:165" },
+            { "providerId": "cva", "providerSku": "CB-261", "stock": 2, "price": 4.55, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "1.8 m", "weight": "0.09 kg neto", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 304955 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-304955" },
+          { "title": "DigiKey Manhattan 304955", "type": "retail", "url": "https://www.digikey.com/en/products/detail/manhattan-products/304955/28716826" }
+        ]
+      }
+    },
+    {
+      "product_id": "96oz25dgduvbecx",
+      "research": {
+        "confidence": 0.98,
+        "name": "Manhattan 179300 extensor activo USB por RJ45 hasta 60m",
+        "description": "Extensor de linea USB Manhattan 179300 con unidad local USB-A/RJ45 y unidad remota USB-A hembra/RJ45 para ampliar dispositivos USB 1.1 hasta 60 metros mediante cable de red RJ45.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/activas/rj45",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/activas/rj45/manhattan-179300",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-usb-line-extender-179300",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/usb-line-extender-179300-1.jpg?v=1679446511",
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/usb-line-extender-179300-packaging-1.jpg?v=1679446511"
+        ],
+        "documents": [
+          { "label": "Manhattan 179300 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/9305/179300_datasheet_english.pdf" },
+          { "label": "Manhattan 179300 quick install guide", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/8530/179300_qig_en_de_es_fr_pl_it_05.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "179300",
+          "providerSku": "CABITL1350 / CB-259",
+          "upc": "766623179300",
+          "ean": "0766623179300",
+          "asin": "B002KHURMW",
+          "productType": "Extensor activo USB por RJ45",
+          "standard": "USB 1.1",
+          "ports": "Unidad local USB-A macho + RJ45 hembra; unidad remota USB-A hembra + RJ45 hembra",
+          "dataRate": "12 Mbps",
+          "maxDistance": "60 m por cable RJ45 no incluido",
+          "power": "Alimentado por bus, sin fuente externa",
+          "compatibility": "Windows y Mac",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 9 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1350", "stock": 9, "price": 21.02, "currency": "USD", "branch": "CT:9" },
+            { "providerId": "cva", "providerSku": "CB-259", "stock": 2, "price": 21.33, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de teclados corregida manualmente a extensor activo USB."]
+        },
+        "measurements": { "dimensions": "305 x 30 x 28 mm", "cableLength": "11.5 cm", "weight": "66 g neto / 91 g bruto", "packaging": "Retail box" },
+        "sourceRefs": [
+          { "title": "Manhattan 179300 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-usb-line-extender-179300" },
+          { "title": "Manhattan 179300 official MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-extensor-de-linea-usb-179300" }
+        ]
+      }
+    },
+    {
+      "product_id": "ewiqpkp5rlq9mh7",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 340465 cable USB 2.0 A macho a B macho 4.5m plata translucido",
+        "description": "Cable USB 2.0 Manhattan 340465 de USB-A macho a USB-B macho, 4.5 metros, plata translucido, con contactos banados en oro y blindaje para perifericos USB-B.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/4-5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/4-5m/manhattan-340465",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.techly.com/icoc-u-ab-45-u2sil.html",
+        "gallery": ["https://www.zegucom.com.mx/productos/340465/img_1.jpg"],
+        "documents": [
+          { "label": "Manhattan 340465 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/4706/340465_datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "340465",
+          "providerSku": "CABITL140 / CB-211",
+          "upc": "766623340465",
+          "ean": "0766623340465",
+          "productType": "Cable USB 2.0 para dispositivo",
+          "standard": "USB 2.0",
+          "connectors": "USB-A macho a USB-B macho",
+          "dataRate": "Hasta 480 Mbps",
+          "contacts": "Banados en oro",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Plata translucido",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 0 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL140", "stock": 0, "price": 3.09, "currency": "USD", "branch": "CT:0" },
+            { "providerId": "cva", "providerSku": "CB-211", "stock": 2, "price": 3.13, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["CTOnline sin stock; CVA mantiene producto activo con 2 piezas."]
+        },
+        "measurements": { "length": "4.5 m", "weight": "0.158 kg reportado por retail" },
+        "sourceRefs": [
+          { "title": "Manhattan 340465 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/4706/340465_datasheet.pdf" },
+          { "title": "Techly Manhattan 340465", "type": "retail_specs", "url": "https://www.techly.com/icoc-u-ab-45-u2sil.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "p3umvmvuzcgpsf5",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 308441 cable HDMI de alta velocidad macho a macho 7.5m negro",
+        "description": "Cable HDMI Manhattan 308441 de alta velocidad, HDMI macho a macho, 7.5 metros, blindado, para video 1080p/Deep Color y equipos HDMI.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/7-5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/7-5m/manhattan-308441",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-308441",
+        "gallery": [
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-308441-2_04da14a5-fcf5-4718-8e66-52a3dc3cc69b.jpg?v=1705108529",
+          "https://manhattanproducts.eu/cdn/shop/products/high-speed-hdmi-cable-308441-packaging-4_cc8005ec-cfad-4230-83bd-f3b3901a6df8.jpg?v=1705108529"
+        ],
+        "documents": [
+          { "label": "Manhattan 308441 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42782/308441_datasheet_english.pdf" },
+          { "label": "Manhattan 308441 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42784/308441_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "308441",
+          "providerSku": "CABITL1520 / CB-234",
+          "upc": "766623308441",
+          "ean": "0766623308441",
+          "productType": "Cable HDMI de alta velocidad",
+          "connectors": "2 x HDMI macho",
+          "resolution": "1080p, Deep Color",
+          "bandwidth": "10.2 Gbps at 340 MHz",
+          "shielding": "Blindado",
+          "boot": "PVC moldeado",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 349 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1520", "stock": 349, "price": 6.91, "currency": "USD", "branch": "CT:349" },
+            { "providerId": "cva", "providerSku": "CB-234", "stock": 5, "price": 7.01, "currency": "USD", "branch": "CVA:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "7.5 m", "weight": "0.32 kg neto / 0.32 kg bruto", "packageDimensions": "170 x 170 x 25.7 mm", "packaging": "Donut" },
+        "sourceRefs": [
+          { "title": "Manhattan 308441 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-308441" },
+          { "title": "Manhattan 308441 official EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-high-speed-hdmi-cable-308441" }
+        ]
+      }
+    },
+    {
+      "product_id": "fghnhvnfbf5mx94",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 345408 cable USB 2.0 A macho a B macho 5m plata translucido",
+        "description": "Cable USB 2.0 Manhattan 345408 de USB-A macho a USB-B macho, 5 metros, plata translucido, para conectar perifericos USB-B con transferencia hasta 480 Mbps.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/5m/manhattan-345408",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-345408",
+        "gallery": [
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-b-device-cable-345408-1.jpg?v=1678688899&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-b-device-cable-345408-packaging-1.jpg?v=1678688899&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 345408 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43562/345408_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "345408",
+          "providerSku": "CABITL1590 / CB-358",
+          "upc": "766623345408",
+          "ean": "0766623345408",
+          "productType": "Cable USB 2.0 para dispositivo",
+          "standard": "USB 2.0",
+          "connectors": "USB-A macho a USB-B macho",
+          "dataRate": "Hasta 480 Mbps",
+          "contacts": "Banados en oro",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Plata translucido",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 363 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1590", "stock": 363, "price": 3.09, "currency": "USD", "branch": "CT:363" },
+            { "providerId": "cva", "providerSku": "CB-358", "stock": 5, "price": 3.13, "currency": "USD", "branch": "CVA:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "5 m", "weight": "0.11 kg neto / 0.12 kg bruto", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Manhattan 345408 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-345408" },
+          { "title": "Manhattan 345408 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43562/345408_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "a5grwoytgshz2v6",
+      "research": {
+        "confidence": 0.98,
+        "name": "Manhattan 519779 cable de extension activo USB 2.0 A macho a A hembra 5m",
+        "description": "Cable activo Manhattan 519779 USB 2.0 de extension, USB-A macho a USB-A hembra, 5 metros, alimentado por bus y encadenable hasta 15 metros con tres extensiones.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/activas/5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/activas/5m/manhattan-519779",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-de-extension-activo-usb-20-de-alta-velocidad-519779",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0274/1986/9297/files/hi-speed-usb-20-active-extension-cable-519779-1.jpg?v=1733365404",
+          "https://cdn.shopify.com/s/files/1/0274/1986/9297/files/hi-speed-usb-20-active-extension-cable-519779-packaging-1.jpg?v=1733365404"
+        ],
+        "documents": [
+          { "label": "Manhattan 519779 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42147/519779_datasheet_english.pdf" },
+          { "label": "Manhattan 519779 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42149/519779_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "519779",
+          "providerSku": "CABITL160 / CB-257",
+          "upc": "766623519779",
+          "ean": "0766623519779",
+          "asin": "B0009JCVJU",
+          "productType": "Extension activa USB 2.0",
+          "standard": "USB 2.0 compatible USB 1.1",
+          "connectors": "USB-A macho a USB-A hembra",
+          "dataRate": "Hasta 480 Mbps",
+          "maxDistance": "15 m usando hasta 3 extensiones en cadena",
+          "power": "Alimentado por bus, sin fuente externa",
+          "usbPowerOutput": "5.0 V +/-5%, 0.37 A, 1.85 W",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 38 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL160", "stock": 38, "price": 13.08, "currency": "USD", "branch": "CT:38" },
+            { "providerId": "cva", "providerSku": "CB-257", "stock": 0, "price": 13.27, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["Categoria previa de discos duros corregida manualmente a extension activa USB."]
+        },
+        "measurements": { "length": "5 m", "weight": "138 g neto / 181 g bruto", "packageDimensions": "125 x 125 x 50 mm" },
+        "sourceRefs": [
+          { "title": "Manhattan 519779 official LATAM", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-de-extension-activo-usb-20-de-alta-velocidad-519779" },
+          { "title": "Manhattan 519779 official EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-hi-speed-usb-20-active-extension-cable-519779" }
+        ]
+      }
+    },
+    {
+      "product_id": "qoqokhsorhrpeua",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 340960 cable de extension USB A macho a A hembra 4.5m gris",
+        "description": "Extension USB Manhattan 340960 de 4.5 metros, USB-A macho a USB-A hembra, gris, para ampliar conexiones USB full-speed.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/4-5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/4-5m/manhattan-340960",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://s3.amazonaws.com/assets.mhint/downloads/63649/340960_datasheet_english.pdf",
+        "gallery": [
+          "https://www.intracommexico.com/content/images/thumbs/0000249_cable-usb-extension-45m-gris_550.jpg",
+          "https://tecnoprice.mx/uploads/_/CABITL170.jpg"
+        ],
+        "documents": [
+          { "label": "Manhattan 340960 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63649/340960_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "340960",
+          "providerSku": "CABITL170 / CB-203",
+          "upc": "766623317238",
+          "ean": "0766623317238",
+          "productType": "Cable de extension USB",
+          "standard": "USB 1.1 full-speed",
+          "connectors": "USB-A macho a USB-A hembra",
+          "dataRate": "Hasta 12 Mbps",
+          "contacts": "Niquelados",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "color": "Gris",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 397 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL170", "stock": 397, "price": 2.80, "currency": "USD", "branch": "CT:397" },
+            { "providerId": "cva", "providerSku": "CB-203", "stock": 2, "price": 2.84, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "sourceDiscrepancies": ["El SKU/modelo del proveedor es 340960; la ficha oficial lista UPC 766623317238."]
+        },
+        "measurements": { "length": "4.5 m", "maxExtension": "5 m", "packaging": "1 pieza" },
+        "sourceRefs": [
+          { "title": "Manhattan 340960 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63649/340960_datasheet_english.pdf" },
+          { "title": "Intracom Mexico Manhattan 340960", "type": "retail_specs", "url": "https://www.intracommexico.com/cable-usb-manhattan-extension-4_5-mts-gris-340960" },
+          { "title": "Exel Manhattan 340960 conflicting UPC", "type": "retail", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/MNCCALAB039" }
+        ]
+      }
+    }
+  ]
+}

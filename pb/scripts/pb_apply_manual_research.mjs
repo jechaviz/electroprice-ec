@@ -51,7 +51,9 @@ const writeJson = (name, value) => {
 
 const upsertCategory = async (category) => {
   try {
-    const existing = await pb.collection('catalog_categories').getFirstListItem(pb.filter('path = {:path}', { path: category.path }));
+    const existing = await withRetry(`category-fetch=${category.path}`, () => (
+      pb.collection('catalog_categories').getFirstListItem(pb.filter('path = {:path}', { path: category.path }))
+    ));
     await withRetry(`category=${category.path}`, () => pb.collection('catalog_categories').update(existing.id, category));
   } catch (error) {
     if (error?.status !== 404) throw error;
@@ -59,9 +61,23 @@ const upsertCategory = async (category) => {
   }
 };
 
-const ensureManualTaxonomy = async () => {
+const taxonomySeedsForItems = (items) => {
+  if (!argEnabled(args.batchTaxonomy)) return getManualCategorySeeds();
+
+  const requiredPaths = new Set();
+  for (const item of items) {
+    const pathValue = String(item.research?.manualCategoryPath || '').trim();
+    const parts = pathValue.split('/').filter(Boolean);
+    for (let index = 1; index <= parts.length; index += 1) {
+      requiredPaths.add(parts.slice(0, index).join('/'));
+    }
+  }
+  return getManualCategorySeeds().filter((category) => requiredPaths.has(category.path));
+};
+
+const ensureManualTaxonomy = async (items) => {
   if (!apply) return;
-  for (const category of getManualCategorySeeds()) {
+  for (const category of taxonomySeedsForItems(items)) {
     await upsertCategory(category);
   }
 };
@@ -117,7 +133,7 @@ const main = async () => {
   if (!items.length) throw new Error('Manual research file has no products.');
 
   await withRetry('auth', () => pb.collection('_superusers').authWithPassword(config.email, config.password));
-  await ensureManualTaxonomy();
+  await ensureManualTaxonomy(items);
 
   const receipts = [];
   for (const item of items) {
