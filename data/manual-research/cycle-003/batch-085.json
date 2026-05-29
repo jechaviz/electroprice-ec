@@ -1,0 +1,516 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b085-2026-05-28",
+  "cycle": 3,
+  "batch": 85,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "2dfb99b6kzx4p43",
+      "research": {
+        "confidence": 0.95,
+        "name": "Comedero inteligente ZOOMY ZPF03 6L con camara Wi-Fi y app para perros y gatos",
+        "description": "Comedero inteligente ZOOMY ZPF03 para mascotas con deposito de 6L, camara integrada, control por app, programacion de porciones y plato removible de acero inoxidable.",
+        "manualCategoryPath": "mascotas/alimentacion/comederos-inteligentes/con-camara-6l",
+        "semanticCategoryPath": "mascotas/alimentacion/comederos-inteligentes/con-camara-6l/zoomy-zpf03",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://zoomy.mx/shop/alimentadores/alimentador-inteligente-con-camara-6l/",
+        "gallery": [
+          "https://zoomy.mx/wp-content/uploads/2024/05/Artboard-11_753247f7-62ca-435a-85f6-16171e13f8d7.png",
+          "https://zoomy.mx/wp-content/uploads/2024/05/Artboard-10_e53fbe9c-2586-4ea7-9ca1-c26f93713250.png",
+          "https://compuviper.mx/wp-content/uploads/2025/10/ZPF03.jpg"
+        ],
+        "documents": [
+          { "label": "ZOOMY ZPF03 official product page", "type": "manufacturer", "url": "https://zoomy.mx/shop/alimentadores/alimentador-inteligente-con-camara-6l/" }
+        ],
+        "specs": {
+          "brand": "ZOOMY",
+          "model": "ZPF03",
+          "providerSku": "AC-11644",
+          "capacity": "6 L",
+          "foodType": "Dry pet food",
+          "camera": "Integrated remote monitoring camera",
+          "connectivity": "Wi-Fi with mobile app control",
+          "audio": "Microphone and speaker reported by retail sources",
+          "feedingControl": "Scheduled portions and feeding times from app",
+          "bowl": "Removable stainless steel bowl",
+          "power": "AC power with battery backup reported by retail sources",
+          "color": "White / black",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "CVA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AC-11644", "stock": 5, "price": 1072.63, "currency": "MXN", "branch": "CVA:5" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["The inherited CCTV category was incorrect; the camera is secondary to the pet feeder use case."]
+        },
+        "measurements": { "dimensions": "Approx. 35 x 19 x 20 cm; some retail pages list package/logistic dimensions near 44.1 x 19.7 x 19.7 cm", "weight": "2.0 to 2.1 kg" },
+        "sourceRefs": [
+          { "title": "ZOOMY alimentador inteligente con camara 6L", "type": "manufacturer", "url": "https://zoomy.mx/shop/alimentadores/alimentador-inteligente-con-camara-6l/" },
+          { "title": "Compuviper ZOOMY ZPF03", "type": "retail", "url": "https://compuviper.mx/tienda/producto/zoomy-zpf03-comedero-inteligente-con-camara-para-mascotas-de-6-litros-manejo-con-app-con-plato-de-acero-inoxidable-para-perros-y-gatos/" },
+          { "title": "PCLAPSC ZPF03", "type": "retail", "url": "https://pclapsc.com.mx/producto/comedero-inteligente-con-camara-para-mascotas/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2djdpd8r4zegxlo",
+      "research": {
+        "confidence": 0.96,
+        "name": "Memoria USB dual SanDisk Ultra Dual Drive Go 128GB USB-C USB-A negra",
+        "description": "Memoria USB SanDisk Ultra Dual Drive Go SDDDC3-128G-G46 de 128GB con conectores USB-C y USB-A, diseno giratorio, soporte para Android OTG y app SanDisk Memory Zone.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb-dual/128gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb-dual/128gb/sandisk-sdddc3-128g-g46",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/en-gb/products/usb-flash-drives/sandisk-ultra-dual-drive-go-usb-3-1-type-c?sku=SDDDC3-128G-G46",
+        "gallery": [
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/ultra-dual-drive-go-usb-c/gallery/ultra-dual-drive-go-usb-type-c-black-front.png.wdthumb.1280.1280.png",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/ultra-dual-drive-go-usb-c/gallery/ultra-dual-drive-go-usb-type-c-black-angled.png.wdthumb.1280.1280.png"
+        ],
+        "documents": [
+          { "label": "SanDisk Ultra Dual Drive Go official", "type": "manufacturer", "url": "https://www.sandisk.com/en-gb/products/usb-flash-drives/sandisk-ultra-dual-drive-go-usb-3-1-type-c?sku=SDDDC3-128G-G46" }
+        ],
+        "specs": {
+          "brand": "SANDISK",
+          "model": "Ultra Dual Drive Go",
+          "manufacturerPart": "SDDDC3-128G-G46",
+          "capacity": "128GB",
+          "interfaces": "USB Type-C and USB Type-A",
+          "usbStandard": "USB 3.1 Gen 1 / USB 3.2 Gen 1 compatible",
+          "readSpeed": "Supplier and local distributor references list up to 150 MB/s; current SanDisk page may list newer packaging up to 400 MB/s",
+          "design": "Dual reversible rotating connector with keyring hole",
+          "color": "Black",
+          "software": "SanDisk Memory Zone app for Android management and backup",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "RAM-3655", "stock": 2, "price": 22.6, "currency": "USD", "branch": "CVA:2" },
+            { "providerId": "ctonline", "providerSku": "MEMWSD050", "stock": 0, "price": 15.83, "currency": "USD", "branch": "CT:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Use CVA as availability canonical because CT is out of stock; read speed varies by source/packaging."]
+        },
+        "measurements": { "dimensions": "44.41 x 12.1 x 8.6 mm", "weight": "Weight not published consistently; do not infer." },
+        "sourceRefs": [
+          { "title": "SanDisk Ultra Dual Drive Go official", "type": "manufacturer", "url": "https://www.sandisk.com/en-gb/products/usb-flash-drives/sandisk-ultra-dual-drive-go-usb-3-1-type-c?sku=SDDDC3-128G-G46" },
+          { "title": "GlobalOffice SDDDC3-128G-G46 PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/sdddc3-128g-g46" },
+          { "title": "B&H SDDDC3-128G-G46", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1595424-REG/sandisk_sdddc3_128g_g46_128gb_ultra_dual_drive.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2dkb1ckz0c5y1ks",
+      "research": {
+        "confidence": 0.94,
+        "name": "Verificador de precios EC Line EC-PC-801A Android 8in 2GB 16GB lector 1D 2D NFC",
+        "description": "Verificador de precios EC Line EC-PC-801A para punto de venta con pantalla tactil de 8 pulgadas, Android 9, procesador Cortex-A17, 2GB RAM, 16GB flash, lector 1D/2D y NFC segun fichas de distribuidor.",
+        "manualCategoryPath": "punto-de-venta/verificadores-precio/android-8-pulgadas",
+        "semanticCategoryPath": "punto-de-venta/verificadores-precio/android-8-pulgadas/ec-line-ec-pc-801a",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/producto/pdf/ec-pc-801-a",
+        "gallery": [
+          "https://www.exel.com.mx/img/productos/EKHALLAG006.jpg",
+          "https://www.zegucom.com.mx/productos/EC-PC-801A/miniatura/webp/img_1.webp",
+          "https://globaloffice.com.mx/app/producto/imagen/ec-pc-801-a"
+        ],
+        "documents": [
+          { "label": "EC-PC-801A distributor PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/ec-pc-801-a" }
+        ],
+        "specs": {
+          "brand": "EC LINE",
+          "model": "EC-PC-801A",
+          "alternateModel": "EC-PC-801-A",
+          "deviceType": "Price checker / POS verifier",
+          "display": "8 in capacitive touch display",
+          "processor": "Quad-core Cortex-A17 1.8GHz",
+          "memory": "2GB RAM",
+          "storage": "16GB flash",
+          "scanner": "1D/2D barcode reader",
+          "nfc": "Listed by distributor title/spec; one retail reference conflicts, validate before using as critical claim",
+          "operatingSystem": "Android 9.0",
+          "wireless": "Wi-Fi 2.4GHz / 5GHz and Bluetooth listed by retail sources",
+          "ethernet": "10/100 Mbps",
+          "ports": "USB, micro USB, microSD/TF, RJ45, audio out reported by commercial source",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 6 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCECL280", "stock": 6, "price": 351.14, "currency": "USD", "branch": "CT:6" },
+            { "providerId": "cva", "providerSku": "LEC-136", "stock": 0, "price": 343.91, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["The inherited monitor category was incorrect; use CT as availability canonical because CVA is out of stock."]
+        },
+        "measurements": { "dimensions": "226 x 205 x 76 mm", "weight": "1.86 kg commercial/logistic weight" },
+        "sourceRefs": [
+          { "title": "Exel EC-PC-801A", "type": "retail", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/EKHALLAG006" },
+          { "title": "GlobalOffice EC-PC-801-A PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/ec-pc-801-a" },
+          { "title": "CityShop EC Line EC-PC-801A", "type": "retail", "url": "https://cityshop.mx/producto/verificador-de-precios-8-blanco-ec-line-ec-pc-801a/" },
+          { "title": "Zegucom EC-PC-801A", "type": "retail", "url": "https://www.zegucom.com.mx/producto/terminales-punto-de-venta/accesorios-punto-de-venta/verificador-de-precios-ec-line-ec-pc-801a-blanco-8-touch-scr/RUMtUEMtODAxQQ%3D" }
+        ]
+      }
+    },
+    {
+      "product_id": "2dzdy0a7xonl2of",
+      "research": {
+        "confidence": 0.96,
+        "name": "Camara IP bullet Uniarch IPC-B132-AF28-ECO 2MP 2.8mm PoE IR 30m",
+        "description": "Camara IP bullet Uniarch by Uniview IPC-B132-AF28-ECO de 2MP/1080p con lente fijo 2.8mm, Smart IR 30m, Ultra 265/H.265/H.264, PoE IEEE 802.3af e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp/uniarch-ipc-b132-af28-eco",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://uniarch.uniview.com/Products/Transmission/IPC-B132-AF28-ECO/",
+        "gallery": [
+          "https://uniarch.uniview.com/Products/Transmission/IPC-B132-AF28-ECO.png",
+          "https://www.visiotechsecurity.com/images/thumbs/UV-IPC-B132-AF28-ECO_thumb_900x900.png",
+          "https://tecnosinergia.com/media/catalog/product/i/p/ipc-b132-af28-eco.jpg"
+        ],
+        "documents": [
+          { "label": "Uniarch IPC-B132-AF28-ECO official", "type": "manufacturer", "url": "https://uniarch.uniview.com/Products/Transmission/IPC-B132-AF28-ECO/" }
+        ],
+        "specs": {
+          "brand": "UNIARCH BY UNIVIEW",
+          "model": "IPC-B132-AF28-ECO",
+          "providerSku": "IPC-B132-AF28-ECO",
+          "sensor": "1/2.8 in progressive scan CMOS",
+          "resolution": "2MP / 1920 x 1080",
+          "lens": "2.8 mm fixed lens",
+          "fieldOfView": "Approx. 112.7 deg horizontal",
+          "compression": "Ultra 265, H.265, H.264, MJPEG",
+          "frameRate": "Up to 30fps at 1080p",
+          "ir": "Smart IR up to 30 m",
+          "wdr": "DWDR",
+          "audio": "Integrated microphone listed by Visiotech commercial sheet",
+          "network": "RJ45 10/100 Mbps",
+          "poe": "IEEE 802.3af PoE",
+          "power": "12V DC or PoE",
+          "ingressProtection": "IP67",
+          "providerBranches": [{ "providerId": "tecnosinergia", "warehouseCode": "TS", "stock": 30 }],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "IPC-B132-AF28-ECO", "stock": 30, "price": 319.58, "currency": "MXN", "branch": "TS:30" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Evidence points to 2MP/1080p, not 3MP; keep this correction in curated specs."]
+        },
+        "measurements": { "dimensions": "161 x 63 x 62 mm", "weight": "0.21 kg approx." },
+        "sourceRefs": [
+          { "title": "Uniarch IPC-B132-AF28-ECO official", "type": "manufacturer", "url": "https://uniarch.uniview.com/Products/Transmission/IPC-B132-AF28-ECO/" },
+          { "title": "Visiotech UV-IPC-B132-AF28-ECO", "type": "retail", "url": "https://www.visiotechsecurity.com/en/products/ip-cctv-1/professional-ip-cameras-11/uniview---uniarch-312/bullet-cameras-313/uv-ipc-b132-af28-eco-detail" },
+          { "title": "Tecnosinergia IPC-B132-AF28-ECO", "type": "supplier", "url": "https://www.tecnosinergia.com/camara-ip-bullet-2mp-lente-2-8mm-ipc-b132-af28-eco.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "2e4rrr2o3oh9ivz",
+      "research": {
+        "confidence": 0.95,
+        "name": "Aire comprimido Perfect Choice PC-034148 E-Duster ecologico 2 x 374ml",
+        "description": "Paquete de dos latas Perfect Choice PC-034148 E-Duster de aire comprimido de 374ml cada una para limpieza de equipos electronicos, teclados, laptops, PCs, consolas, camaras, ventiladores y racks.",
+        "manualCategoryPath": "computo/accesorios/limpieza/aire-comprimido/e-duster",
+        "semanticCategoryPath": "computo/accesorios/limpieza/aire-comprimido/e-duster/perfect-choice-pc-034148",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/limpieza-perfect-choice-pc-034148/",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2025/03/TwopackAireComprimidoPERFECTCHOICE_PC034148_UPC615604034148_0-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/03/TwopackAireComprimidoPERFECTCHOICE_PC034148_UPC615604034148_1-600x600.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-pc-034148-twopack-aire-comprimido-perfect-choice.webp"
+        ],
+        "documents": [
+          { "label": "Perfect Choice PC-034148 commercial sheet", "type": "retail", "url": "https://intercompras.com/p/aire-comprimido-perfect-choice-pc-paquete-piezas-374ml-400262" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-034148",
+          "providerSku": "ACCMST4830 / CN-5269",
+          "upc": "615604034148",
+          "productType": "Compressed air / dust remover for electronics cleaning",
+          "packQuantity": "2 cans",
+          "volumePerCan": "374 ml",
+          "totalVolume": "748 ml",
+          "replacementFor": "CN-3973 / PC-034100",
+          "claims": "No CFCs, ozone-safe claim visible in product imagery",
+          "accessory": "Precision nozzle / trigger",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 514 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCMST4830", "stock": 514, "price": 117.69, "currency": "MXN", "branch": "CT:514" },
+            { "providerId": "cva", "providerSku": "CN-5269", "stock": 0, "price": 115.76, "currency": "MXN", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Use CT as canonical because CVA is out of stock; reliable physical dimensions/weight were not found."]
+        },
+        "measurements": { "presentation": "2 x 374 ml", "dimensions": "Not published reliably", "weight": "Not published reliably" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Perfect Choice PC-034148", "type": "retail", "url": "https://compupuebla.com/producto/limpieza-perfect-choice-pc-034148/" },
+          { "title": "Intercompras PC-034148", "type": "retail", "url": "https://intercompras.com/p/aire-comprimido-perfect-choice-pc-paquete-piezas-374ml-400262" },
+          { "title": "GlobalOffice PC-034148", "type": "retail", "url": "https://globaloffice.mx/app/detalle/producto/accesorios-computacionales/aire-comprimido-perfect-choice-paquete-de-2pz-de-3/pc-034148" }
+        ]
+      }
+    },
+    {
+      "product_id": "2e6e6p04u49ts3r",
+      "research": {
+        "confidence": 0.97,
+        "name": "Memoria USB ADATA C008 16GB USB 2.0 retractil blanco azul",
+        "description": "Memoria USB ADATA C008 AC008-16G-RWE de 16GB con interfaz USB 2.0, conector retractil sin tapa, cuerpo blanco/azul, orificio para llavero y garantia limitada de 5 anos.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/adata-c008-ac008-16g-rwe",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/consumer/category/13/107/",
+        "gallery": [
+          "https://www.grupocva.com/detalle_articulo/10125769.jpg",
+          "https://intercompras.com/images/content/intercompras/Adata/Adata-AC008-16G-RWE-1.png",
+          "https://intercompras.com/images/content/intercompras/Adata/Adata-AC008-16G-RWE-2.png"
+        ],
+        "documents": [
+          { "label": "ADATA C008 datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/Datasheet-C008_202010.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "C008",
+          "partNumber": "AC008-16G-RWE",
+          "eanUpc": "4718050609642",
+          "capacity": "16GB",
+          "interface": "USB 2.0",
+          "backwardCompatibility": "USB 1.1 listed by retail sources",
+          "design": "Capless retractable connector",
+          "bodyMaterial": "Plastic",
+          "color": "White / blue",
+          "features": "Keyring hole, scratch/dirt-resistant texture, USB bus powered, hot plug and play",
+          "warranty": "5-year limited warranty",
+          "providerBranches": [{ "providerId": "cva", "warehouseCode": "CVA", "stock": 40 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "RAM-3180", "stock": 40, "price": 3.63, "currency": "USD", "branch": "CVA:40" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["The inherited memory RAM category was incorrect; product is USB flash storage."]
+        },
+        "measurements": { "dimensions": "60 x 20 x 9 mm official; some retail pages list 59.6 x 19.5 x 9.5 mm", "weight": "10 g" },
+        "sourceRefs": [
+          { "title": "ADATA C008 datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/Datasheet-C008_202010.pdf" },
+          { "title": "ADATA C008 official category page", "type": "manufacturer", "url": "https://www.adata.com/us/consumer/category/13/107/" },
+          { "title": "GlobalOffice AC008-16G-RWE", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/memorias/memoria-usb-adata-16gb-20-retractil-c008-blanco-a/ac008-16g-rwe" },
+          { "title": "PCDigital ADATA C008 16GB", "type": "retail", "url": "https://www.pcdigital.com.mx/memoria-usb-16gb-adata-c008-blanco-azul-ac008-16gb-rwe/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2e94o5cvd0ro1fy",
+      "research": {
+        "confidence": 0.97,
+        "name": "Regulador CyberPower CL2000VR AVR 2000VA 1000W 120V 8 contactos",
+        "description": "Regulador de voltaje CyberPower CL2000VR de 2000VA/1000W con AVR, entrada 120V, 8 tomacorrientes NEMA 5-15R, supresion 245J, filtrado EMI/RFI y sin respaldo por bateria.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/2000va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/2000va/cyberpower-cl2000vr",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/cl2000vr",
+        "gallery": ["https://www.unicom.mx/ecommerce/uploads/REGCYB-CL2000VR.jpg"],
+        "documents": [
+          { "label": "CyberPower CL2000VR official", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/cl2000vr" }
+        ],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "CL2000VR",
+          "providerSku": "REGCYP030 / RE-187",
+          "upc": "649532932931",
+          "productType": "Voltage regulator / AVR; not a UPS",
+          "capacity": "2000VA / 1000W",
+          "nominalInputVoltage": "120 VAC +/-10%",
+          "inputVoltageRange": "82-148 VAC reported by commercial sheets",
+          "inputFrequency": "45-65 Hz",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "8 x NEMA 5-15R",
+          "surgeSuppression": "245 J",
+          "filtering": "EMI/RFI",
+          "batteryBackup": false,
+          "certifications": "NOM, RoHS",
+          "warranty": "3 years",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 334 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 10 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "REGCYP030", "stock": 334, "price": 611.11, "currency": "MXN", "branch": "CT:334" },
+            { "providerId": "cva", "providerSku": "RE-187", "stock": 10, "price": 610.38, "currency": "MXN", "branch": "CVA:10" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["The inherited no-break/UPS category was incorrect because this model has no battery backup."]
+        },
+        "measurements": { "dimensions": "205 x 115 x 146 mm", "shippingDimensions": "214 x 126 x 189 mm", "weight": "3.28 kg", "shippingWeight": "3.42 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower CL2000VR official", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/cl2000vr" },
+          { "title": "GlobalOffice CL2000VR", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/regulador-negro-2000-va-cyberpower-cl2000vr-neg/cl2000vr" },
+          { "title": "Compuviper CL2000VR", "type": "retail", "url": "https://compuviper.mx/tienda/producto/cyberpower-cl2000vr-regulador-2000va-1000w-120v-8-tomacorrientes-5-15r-3-aos-de-garantia/" },
+          { "title": "Innova Seguridad CL2000VR", "type": "retail", "url": "https://tienda.innovaseguridad.com.mx/cyberpower-regulador-negro-2000-va-cyberpower-cl2000vr/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2eey3kgku2gbst6",
+      "research": {
+        "confidence": 0.98,
+        "name": "SSD SanDisk WD Green 2TB SATA III 2.5in 7mm WDS200T5G0A",
+        "description": "Unidad de estado solido SanDisk WD Green WDS200T5G0A de 2TB en formato 2.5 pulgadas 7mm, interfaz SATA III 6Gb/s, SanDisk 3D NAND y lectura secuencial hasta 545MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/2-5-sata/2tb",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/2-5-sata/2tb/sandisk-wd-green-wds200t5g0a",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/es-mx/products/ssd/internal-ssd/wd-green-sata-internal-ssd-7mm?sku=WDS200T5G0A-00CPT0",
+        "gallery": [
+          "https://www.sandisk.com/content/dam/sandisk/en-us/assets/products/internal-storage/wd-green-sata-internal-ssd/featured/feature-wdgreen-sata-cased-refresh.jpg.wdthumb.1280.1280.webp",
+          "https://www.sandisk.com/content/dam/sandisk/en-us/assets/products/internal-storage/wd-green-sata-internal-ssd/featured/wd-green-sata-internal-ssd-featured1.jpg.wdthumb.1280.1280.webp",
+          "https://cdn.tsukumo.co.jp/image/item/0619659219277_0.jpg"
+        ],
+        "documents": [
+          { "label": "WD Green SATA Internal SSD datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/western-digital/product/internal-drives/wd-green-ssd/datasheet-wd-green-sata-internal-ssd-cased.pdf" }
+        ],
+        "specs": {
+          "brand": "SANDISK / WD GREEN",
+          "model": "WDS200T5G0A",
+          "fullSku": "WDS200T5G0A-00CPT0",
+          "upc": "619659219277",
+          "capacity": "2TB",
+          "formFactor": "2.5 in / 7mm cased",
+          "interface": "SATA III 6 Gb/s",
+          "nand": "SanDisk 3D NAND",
+          "sequentialRead": "Up to 545 MB/s",
+          "averageActivePower": "61 mW for 2TB model",
+          "maxReadPower": "1560 mW",
+          "maxWritePower": "2455 mW",
+          "mttf": "Up to 2 million hours",
+          "warranty": "3-year limited warranty",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUWSD2790", "stock": 1, "price": 315.17, "currency": "USD", "branch": "TAM:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["The inherited monitor category was incorrect; product is 2.5 in SATA SSD storage."]
+        },
+        "measurements": { "dimensions": "100.50 x 69.85 x 7.0 mm", "weight": "32.7 g" },
+        "sourceRefs": [
+          { "title": "SanDisk WD Green SATA official", "type": "manufacturer", "url": "https://www.sandisk.com/es-mx/products/ssd/internal-ssd/wd-green-sata-internal-ssd-7mm?sku=WDS200T5G0A-00CPT0" },
+          { "title": "WD Green SATA datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/western-digital/product/internal-drives/wd-green-ssd/datasheet-wd-green-sata-internal-ssd-cased.pdf" },
+          { "title": "Tsukumo WDS200T5G0A", "type": "retail", "url": "https://shop.tsukumo.co.jp/goods/0619659219277/" }
+        ]
+      }
+    },
+    {
+      "product_id": "2efn7jqk130uw6k",
+      "research": {
+        "confidence": 0.94,
+        "name": "No-Break VICA S2200 2200VA 1200W LCD NEMA 5-15R RJ11 RJ45",
+        "description": "UPS interactivo VICA S2200 con regulador integrado, 2200VA/1200W, pantalla LCD, bateria 2 x 12V/9Ah, tiempo de transferencia 2-6ms y proteccion de linea RJ11/RJ45 en la variante de proveedor.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/2200va-lcd",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/2200va-lcd/vica-s2200",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://vica.com.mx/products/no-break-con-regulador-integrado-s2200-vica",
+        "gallery": [
+          "https://vica.com.mx/cdn/shop/files/S2200-_2ch.png?v=1694469802",
+          "https://vica.com.mx/cdn/shop/files/S2200.png?v=1694469802",
+          "https://inter-ds.com/cdn/shop/files/3678685.jpg?v=1761070639"
+        ],
+        "documents": [
+          { "label": "Cyberpuerta S2200 technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FTS2200.pdf" }
+        ],
+        "specs": {
+          "brand": "VICA",
+          "model": "S2200",
+          "providerSku": "NBKVIC140 / FR-627",
+          "upcSeenInRetail": "7501693300352",
+          "productType": "Line-interactive UPS with integrated AVR",
+          "capacity": "2200VA / 1200W",
+          "inputVoltage": "127 VAC 60Hz",
+          "inputCurrent": "20 A",
+          "batteryModeOutput": "120 VAC +/-10%",
+          "transferTime": "2-6 ms",
+          "waveform": "Quasi-sine",
+          "battery": "2 x 12V / 9Ah",
+          "rechargeTime": "8 hours to 90%",
+          "outlets": "Feed/FR-627 variant lists 10 NEMA 5-15R outlets; official VICA page lists 8 outlets",
+          "lineProtection": "RJ11/RJ45 in provider variant; official page lists RJ11",
+          "display": "LCD",
+          "features": "AVR, cold start, audible alarm, microprocessor control, thermal breaker",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 2 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKVIC140", "stock": 2, "price": 5554.44, "currency": "MXN", "branch": "CT:2" },
+            { "providerId": "cva", "providerSku": "FR-627", "stock": 2, "price": 5670.67, "currency": "MXN", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources conflict between 8 and 10 outlets; keep provider variant note instead of overwriting blindly."]
+        },
+        "measurements": { "dimensions": "343 x 135 x 208 mm for FR-627/10-outlet variant; official retail page lists 29 x 20 x 15 cm for 8-outlet variant", "weight": "11.5 kg commercial FR-627; official VICA page lists 11 kg" },
+        "sourceRefs": [
+          { "title": "VICA S2200 official", "type": "manufacturer", "url": "https://vica.com.mx/products/no-break-con-regulador-integrado-s2200-vica" },
+          { "title": "Compuviper VICA S2200", "type": "retail", "url": "https://compuviper.mx/tienda/producto/vica-s2200-no-break-ups-2200va-1200w-10-tomas-nema-5-15r-5-5-rj11-45-pantalla-lcd-3-aos-de-garantia/" },
+          { "title": "Cyberpuerta S2200 PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FTS2200.pdf" },
+          { "title": "Inter-DS VICA S2200", "type": "retail", "url": "https://inter-ds.com/products/no-break-ups-vica-s2200-2200va-1200w-10-tomas-nema-5-15r-5-5-rj11-45-pantalla-lcd-3-anos-de-garantia" }
+        ]
+      }
+    },
+    {
+      "product_id": "2eljymp3kyozc6e",
+      "research": {
+        "confidence": 0.95,
+        "name": "Mouse gaming alambrico GETTTECH GPM-RGBWR-G1-RD RGB 7200DPI 8 botones rojo naranja",
+        "description": "Mouse gaming alambrico GETTTECH GPM-RGBWR-G1-RD con sensor Instant 725F, switches HUANO, 7200 DPI ajustable, 8 botones personalizables, iluminacion RGB, cable trenzado de 1.5m y cuerpo rojo/naranja.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/gaming/alto-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/gaming/alto-dpi/getttech-gpm-rgbwr-g1-rd",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pclapsc.com/products/mouse-gamer-getttech-gpm-rgbwr-g1-rd-7200-dpi-rgb-usb-rojo-naranja",
+        "gallery": [
+          "https://www.pclapsc.com/cdn/shop/files/1_22996026-cd2b-4ae8-9d71-7ad1f1042c59.png?v=1745010109&width=3840",
+          "https://www.pclapsc.com/cdn/shop/files/2_187bd937-ccbc-4877-b24b-fddc6d3dccb0.png?v=1745010109&width=3840",
+          "https://www.pclapsc.com/cdn/shop/files/3_43a919fb-05f5-4283-ab11-61e413587ea0.png?v=1745010109&width=3840"
+        ],
+        "documents": [
+          { "label": "PCLAPSC GETTTECH GPM-RGBWR-G1-RD", "type": "retail", "url": "https://www.pclapsc.com/products/mouse-gamer-getttech-gpm-rgbwr-g1-rd-7200-dpi-rgb-usb-rojo-naranja" }
+        ],
+        "specs": {
+          "brand": "GETTTECH",
+          "model": "GPM-RGBWR-G1-RD",
+          "providerSku": "MOUGET090",
+          "ean": "7500619012355",
+          "productType": "Wired gaming mouse",
+          "sensor": "Instant 725F",
+          "switches": "HUANO",
+          "interface": "USB Type-A",
+          "maxDpi": "7200 DPI adjustable",
+          "buttons": "8 customizable buttons",
+          "pollingRate": "125 Hz",
+          "lighting": "Aura RGB / customizable RGB",
+          "macroKeys": true,
+          "softwareSupport": true,
+          "cable": "1.5 m braided cable",
+          "formFactor": "Right-handed ergonomic",
+          "material": "ABS",
+          "color": "Red / orange",
+          "buttonLife": "3 million clicks",
+          "osSupport": "Windows 10, Windows 11, macOS",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUGET090", "stock": 6, "price": 9.52, "currency": "USD", "branch": "GDL:2,CMT:2,TOL:1,D2A:1" }],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["General mouse category was valid but too broad; refine to wired gaming high-DPI."]
+        },
+        "measurements": { "dimensions": "125 x 82 x 41 mm", "weight": "120 g" },
+        "sourceRefs": [
+          { "title": "PCLAPSC GETTTECH GPM-RGBWR-G1-RD", "type": "retail", "url": "https://www.pclapsc.com/products/mouse-gamer-getttech-gpm-rgbwr-g1-rd-7200-dpi-rgb-usb-rojo-naranja" },
+          { "title": "Zegucom GETTTECH GPM-RGBWR-G1-RD", "type": "retail", "url": "https://www.zegucom.com.mx/producto/mouses-y-accesorios-de-mouse/mouse-opticos-laser/mouse-getttech-gpm-rgbwr-g1-rd-8-botones-7200-dpi-usb-tipo-a-naranja/R1BNLVJHQldSLUcxLVJE" },
+          { "title": "Mactoner GETTTECH GPM-RGBWR-G1-RD", "type": "retail", "url": "https://www.mactoner.com.mx/producto/mouse-getttech-gpm-rgbwr-g1-rd-8-botones/" },
+          { "title": "Walmart Mexico GETTTECH GPM-RGBWR-G1-RD", "type": "retail", "url": "https://www.walmart.com.mx/ip/mouse-gamer-getttech-gpm-rgbwr-g1-rd-iluminacion-rgb-7200-dpi-ajustable-8-botones-personalizables-alambrico-1-5m-color-rojo/00750061901235" }
+        ]
+      }
+    }
+  ]
+}

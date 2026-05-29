@@ -413,6 +413,16 @@ const researchedBatchCases = [
   ["DataShield KS800 LCD no-break 800VA 480W 6 contactos", "DATASHIELD", "energia/no-breaks-ups/line-interactive/800va-lcd"],
   ["Perfect Choice Thumb PC-045120 mouse inalambrico silencioso 1600 DPI azul", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/ergonomicos"],
   ["Provision ISR PoES-16250C+2Combo-V2 switch PoE 16 puertos CCTV 250W", "PROVISION-ISR", "redes/switches/poe-no-administrables/cctv/16-puertos"],
+  ["ZOOMY ZPF03 comedero inteligente con camara Wi-Fi 6L para mascotas", "ZOOMY", "mascotas/alimentacion/comederos-inteligentes/con-camara-6l"],
+  ["SanDisk Ultra Dual Drive Go SDDDC3-128G-G46 USB-C USB-A 128GB", "SANDISK", "computo/almacenamiento/memorias-flash/usb-dual/128gb"],
+  ["EC Line EC-PC-801A verificador de precios Android 8 pulgadas 1D 2D NFC", "EC LINE", "punto-de-venta/verificadores-precio/android-8-pulgadas"],
+  ["Uniarch IPC-B132-AF28-ECO camara IP bullet 2MP PoE 1080p 2.8mm", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/2mp"],
+  ["Perfect Choice PC-034148 E-Duster aire comprimido 2 latas 374ml", "PERFECT CHOICE", "computo/accesorios/limpieza/aire-comprimido/e-duster"],
+  ["ADATA C008 AC008-16G-RWE memoria USB 2.0 retractil 16GB blanco azul", "ADATA", "computo/almacenamiento/memorias-flash/usb/16gb"],
+  ["CyberPower CL2000VR regulador AVR 2000VA 1000W 8 NEMA 5-15R", "CYBERPOWER", "energia/supresores-reguladores/reguladores-voltaje/avr/2000va"],
+  ["SanDisk WD Green WDS200T5G0A SSD 2TB SATA III 2.5 7mm", "SANDISK", "computo/almacenamiento/ssd/2-5-sata/2tb"],
+  ["VICA S2200 UPS 2200VA 1200W LCD 10 tomas NEMA RJ11 RJ45", "VICA", "energia/no-breaks-ups/line-interactive/2200va-lcd"],
+  ["GETTTECH GPM-RGBWR-G1-RD mouse gamer alambrico RGB 7200 DPI 8 botones", "GETTTECH", "computo/perifericos/mouse/alambricos/gaming/alto-dpi"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
