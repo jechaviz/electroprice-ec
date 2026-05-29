@@ -92,6 +92,16 @@ const researchedBatchCases = [
   ["Silimex 750300219663 removedor de polvo", "SILIMEX", "computo/accesorios/limpieza/removedores-polvo"],
   ["Epson T664320-AL tinta magenta para EcoTank", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t664/magenta"],
   ["Stylos STPMOT3B monitor 19 pulgadas 1440 x 900", "STYLOS", "computo/monitores/oficina/19-wxga"],
+  ["Epson T664220-AL tinta cian para EcoTank", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t664/cian"],
+  ["Epson T664420-AL tinta amarillo para EcoTank", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t664/amarillo"],
+  ["Silimex Kit LCD Cleaner SLXLMP270 limpiador pantalla", "SILIMEX", "computo/accesorios/limpieza/limpiadores-pantalla/kits"],
+  ["Brother MFC-T930DW multifuncional tinta continua duplex Wi-Fi", "BROTHER", "impresion/impresoras/multifuncionales-tinta-continua/brother-mfc"],
+  ["Dell 580-ADRC teclado USB alambrico espanol", "DELL", "computo/perifericos/teclados/alambricos/usb/basicos"],
+  ["Mercusys MW302R router Wi-Fi N300 multimodo", "MERCUSYS", "redes/routers/wifi-n/n300"],
+  ["TP-Link Tapo C200 camara Wi-Fi PT 2MP 1080p", "TP LINK", "seguridad/cctv/camaras-ip-wifi/pt-interior/2mp"],
+  ["Intellinet 163293 faceplate 2 perforaciones blanco", "INTELLINET", "redes/cableado-estructurado/placas-keystone/2-puertos"],
+  ["Poly Blackwire 3315 76J12AA diadema USB-A monoaural", "PLANTRONICS", "audio/audifonos/usb/diadema-microfono/monoaurales"],
+  ["Intellinet 210355 jack Cat5e keystone impacto blanco", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

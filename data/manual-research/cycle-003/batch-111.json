@@ -1,0 +1,414 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b111-2026-05-29",
+  "cycle": 3,
+  "batch": 111,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ivccjsbhjet7y86",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson T664220-AL botella de tinta 664 cian 70ml EcoTank",
+        "description": "Botella original Epson 664 T664220-AL de tinta cian para impresoras EcoTank y series L compatibles; reemplaza el titulo generico de cartucho por botella de tinta.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/cian",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/cian/epson-t664220-al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/For-Home/Ink/Epson%C2%AE-664%E2%84%A2-Ink/i/T664220-S",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=4177685"],
+        "documents": [
+          { "label": "Epson T664220-S product page", "type": "manufacturer", "url": "https://epson.com/For-Home/Ink/Epson%C2%AE-664%E2%84%A2-Ink/i/T664220-S" },
+          { "label": "Epson T664220-AL MSDS", "type": "datasheet", "url": "https://files.support.epson.com/pdf/msds/t664220.pdf" }
+        ],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T664220-AL",
+          "providerSku": "CAREPS3910",
+          "alternateProviderSku": "CN-1615",
+          "productType": "Botella de tinta EcoTank",
+          "series": "Epson 664",
+          "color": "Cian",
+          "capacity": "70 ml",
+          "inkType": "Dye-based color ink in Epson 664 equivalent references",
+          "compatibleSeries": "Epson L110, L200, L210, L300, L350, L355, L555, L1300 and related EcoTank/L-series references",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS3910", "stock": 1382, "price": 159.3, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-1615", "stock": 12, "price": 157.26, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider title says cartucho, but Epson references identify T664220 as an ink bottle.", "Provider branch-level locations are not available for either CTOnline or CVA."]
+        },
+        "measurements": { "dimensions": "1.7 x 1.7 x 6.4 in", "weight": "0.2 lb approx" },
+        "sourceRefs": [
+          { "title": "Epson 664 T664220-S product page", "type": "manufacturer", "url": "https://epson.com/For-Home/Ink/Epson%C2%AE-664%E2%84%A2-Ink/i/T664220-S" },
+          { "title": "Epson T664220-AL MSDS", "type": "datasheet", "url": "https://files.support.epson.com/pdf/msds/t664220.pdf" },
+          { "title": "Epson ink bottle guide with T664220-AL", "type": "support", "url": "https://files.support.epson.com/docid/cpd6/cpd60508.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "h9z87kff7rbic6m",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson T664420-AL botella de tinta 664 amarillo 70ml EcoTank",
+        "description": "Botella original Epson 664 T664420-AL de tinta amarilla para impresoras EcoTank y series L compatibles; el producto es botella de tinta, no cartucho.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/amarillo",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/amarillo/epson-t664420-al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/For-Home/Ink/Epson%C2%AE-664%E2%84%A2-Ink/i/T664420-S",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=4178686"],
+        "documents": [
+          { "label": "Epson T664420-S product page", "type": "manufacturer", "url": "https://epson.com/For-Home/Ink/Epson%C2%AE-664%E2%84%A2-Ink/i/T664420-S" },
+          { "label": "Epson T664420-AL MSDS", "type": "datasheet", "url": "https://files.support.epson.com/pdf/msds/t664420.pdf" }
+        ],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T664420-AL",
+          "providerSku": "CAREPS3930",
+          "alternateProviderSku": "CN-1617",
+          "productType": "Botella de tinta EcoTank",
+          "series": "Epson 664",
+          "color": "Amarillo",
+          "capacity": "70 ml",
+          "inkType": "Dye-based color ink in Epson 664 equivalent references",
+          "compatibleSeries": "Epson L110, L200, L210, L300, L350, L355, L555, L1300 and related EcoTank/L-series references",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS3930", "stock": 1369, "price": 159.3, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-1617", "stock": 14, "price": 157.26, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider title says cartucho, but Epson references identify T664420 as an ink bottle.", "Provider branch-level locations are not available for either CTOnline or CVA."]
+        },
+        "measurements": { "dimensions": "1.7 x 1.7 x 6.4 in", "weight": "0.2 lb approx" },
+        "sourceRefs": [
+          { "title": "Epson 664 T664420-S product page", "type": "manufacturer", "url": "https://epson.com/For-Home/Ink/Epson%C2%AE-664%E2%84%A2-Ink/i/T664420-S" },
+          { "title": "Epson T664420-AL MSDS", "type": "datasheet", "url": "https://files.support.epson.com/pdf/msds/t664420.pdf" },
+          { "title": "Epson ink bottle guide with T664420-AL", "type": "support", "url": "https://files.support.epson.com/docid/cpd6/cpd60508.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "a2rcdsvdps2lgm2",
+      "research": {
+        "confidence": 0.94,
+        "name": "Silimex Kit LCD Cleaner 60ml con pano de microfibra",
+        "description": "Kit Silimex LCD Cleaner para limpiar y proteger pantallas, smartphones, tablets, monitores, laptops y lentes; incluye limpiador de 60 ml y pano de microfibra.",
+        "manualCategoryPath": "computo/accesorios/limpieza/limpiadores-pantalla/kits",
+        "semanticCategoryPath": "computo/accesorios/limpieza/limpiadores-pantalla/kits/silimex-lcd-cleaner-60ml",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://silimex.com.mx/producto/kit-lcd-cleaner-60-ml/",
+        "gallery": ["https://static.ctonline.mx/imagenes/SLXLMP270/SLXLMP270_2_full.jpg"],
+        "documents": [
+          { "label": "Silimex Kit LCD Cleaner official page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/kit-lcd-cleaner-60-ml/" },
+          { "label": "Silimex LCD Cleaner technical sheet", "type": "datasheet", "url": "https://uelectronics.com/wp-content/uploads/2025/07/FICHA-TECNICA-SILIMEX-LCDCLEANER-KIT-caja.pdf" }
+        ],
+        "specs": {
+          "brand": "SILIMEX",
+          "model": "Kit LCD Cleaner",
+          "providerSku": "SLXLMP270",
+          "ean": "7503002196663",
+          "productType": "Kit limpiador de pantallas",
+          "content": "60 ml",
+          "includedAccessory": "Pano de microfibra 30 x 30 cm",
+          "useCases": "Pantallas LCD, smartphones, tablets, monitores, laptops and lenses",
+          "properties": "Antistatic and antibacterial cleaner/protector by manufacturer reference",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"ZAC","stock":87},{"providerId":"ctonline","warehouseCode":"COL","stock":80},{"providerId":"ctonline","warehouseCode":"PUE","stock":80},{"providerId":"ctonline","warehouseCode":"MTY","stock":80},{"providerId":"ctonline","warehouseCode":"CUE","stock":80},{"providerId":"ctonline","warehouseCode":"TOL","stock":79},{"providerId":"ctonline","warehouseCode":"CDV","stock":79},{"providerId":"ctonline","warehouseCode":"TXL","stock":78},{"providerId":"ctonline","warehouseCode":"CAM","stock":78},{"providerId":"ctonline","warehouseCode":"URP","stock":77},{"providerId":"ctonline","warehouseCode":"XLP","stock":73},{"providerId":"ctonline","warehouseCode":"CTZ","stock":72}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SLXLMP270", "stock": 1380, "price": 66.76, "currency": "MXN", "branch": "ZAC:87,COL:80,PUE:80,MTY:80,CUE:80,TOL:79,CDV:79,TXL:78,CAM:78,URP:77,XLP:73,CTZ:72" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path under monitors was incorrect; this is a cleaning accessory, not a monitor.", "Official Silimex SKU appears without the GTIN check digit while provider EAN includes 7503002196663.", "Visible branch sum is 933 while feed total_stock is 1380, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Bottle approx 13.5 x 4 cm; microfiber cloth 30 x 30 cm", "weight": "Not reliably published" },
+        "sourceRefs": [
+          { "title": "Silimex Kit LCD Cleaner official page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/kit-lcd-cleaner-60-ml/" },
+          { "title": "Silimex LCD Cleaner technical sheet", "type": "datasheet", "url": "https://uelectronics.com/wp-content/uploads/2025/07/FICHA-TECNICA-SILIMEX-LCDCLEANER-KIT-caja.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "t2te5udh7ak3j47",
+      "research": {
+        "confidence": 0.97,
+        "name": "Brother MFC-T930DW multifuncional InkBenefit Tank WiFi duplex",
+        "description": "Multifuncional Brother MFC-T930DW de tinta continua con impresion, copia, escaneo y fax, duplex, ADF, Wi-Fi doble banda, Ethernet y USB.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/brother-mfc",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/brother-mfc/brother-mfc-t930dw",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/mfct930dw",
+        "gallery": ["https://static.ctonline.mx/imagenes/IMPMTB990/IMPMTB990_full.jpg"],
+        "documents": [
+          { "label": "Brother MFC-T930DW official page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/mfct930dw" },
+          { "label": "Brother MFC-T930DW brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b49332_0b49332.pdf" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "MFC-T930DW",
+          "providerSku": "IMPMTB990",
+          "upc": "012502676829",
+          "productType": "Multifuncional de tinta continua",
+          "functions": "Print, copy, scan and fax",
+          "printSpeedEco": "30 ppm black / 26 ppm color",
+          "maxResolution": "6000 x 1200 dpi",
+          "duplex": "Automatic duplex printing",
+          "connectivity": "Wi-Fi 2.4/5 GHz, Ethernet and USB",
+          "adf": "20 sheets",
+          "inputTray": "150 sheets",
+          "multiPurposeTray": "80 sheets",
+          "display": "1.8 inch LCD",
+          "memory": "128 MB",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":599},{"providerId":"ctonline","warehouseCode":"CMT","stock":333},{"providerId":"ctonline","warehouseCode":"D2A","stock":192},{"providerId":"ctonline","warehouseCode":"PUE","stock":161},{"providerId":"ctonline","warehouseCode":"TAM","stock":10},{"providerId":"ctonline","warehouseCode":"CAM","stock":7},{"providerId":"ctonline","warehouseCode":"ACA","stock":6},{"providerId":"ctonline","warehouseCode":"OAX","stock":4},{"providerId":"ctonline","warehouseCode":"ZAC","stock":4},{"providerId":"ctonline","warehouseCode":"MOR","stock":3},{"providerId":"ctonline","warehouseCode":"AGS","stock":2},{"providerId":"ctonline","warehouseCode":"SLP","stock":2}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPMTB990", "stock": 1337, "price": 5254.88, "currency": "MXN", "branch": "GDL:599,CMT:333,D2A:192,PUE:161,TAM:10,CAM:7,ACA:6,OAX:4,ZAC:4,MOR:3,AGS:2,SLP:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path under access points was incorrect; Wi-Fi is only a connectivity feature.", "Normalize model capitalization to MFC-T930DW.", "Visible branch sum is 1323 while feed total_stock is 1337, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "435 x 418 x 180 mm", "weight": "10 kg; package 508 x 278 x 542 mm, 11.5 kg" },
+        "sourceRefs": [
+          { "title": "Brother Mexico MFC-T930DW official page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/mfct930dw" },
+          { "title": "Brother/Ingram MFC-T930DW brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b49332_0b49332.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "lra6ad53cp2p20r",
+      "research": {
+        "confidence": 0.97,
+        "name": "Dell KB216 580-ADRC teclado USB espanol negro",
+        "description": "Teclado Dell KB216 580-ADRC alambrico USB en espanol, negro, con teclado numerico y teclas multimedia para uso de oficina.",
+        "manualCategoryPath": "computo/perifericos/teclados/alambricos/usb/basicos",
+        "semanticCategoryPath": "computo/perifericos/teclados/alambricos/usb/basicos/dell-kb216-espanol",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-spanish-black/apd/580-adrc/pc-accessories",
+        "gallery": ["https://static.ctonline.mx/imagenes/TECDLL040/TECDLL040_0_full.jpg"],
+        "documents": [{ "label": "Dell KB216 580-ADRC official page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-spanish-black/apd/580-adrc/pc-accessories" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "KB216 / 580-ADRC",
+          "providerSku": "TECDLL040",
+          "upc": "884116180487",
+          "productType": "Teclado alambrico USB",
+          "layout": "Espanol",
+          "color": "Negro",
+          "interface": "USB",
+          "switchType": "Membrana",
+          "features": "Numeric keypad and multimedia keys",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":284},{"providerId":"ctonline","warehouseCode":"CMT","stock":253},{"providerId":"ctonline","warehouseCode":"GDL","stock":182},{"providerId":"ctonline","warehouseCode":"DFA","stock":170},{"providerId":"ctonline","warehouseCode":"AGS","stock":41},{"providerId":"ctonline","warehouseCode":"MOR","stock":39},{"providerId":"ctonline","warehouseCode":"OAX","stock":29},{"providerId":"ctonline","warehouseCode":"LEO","stock":27},{"providerId":"ctonline","warehouseCode":"QRO","stock":24},{"providerId":"ctonline","warehouseCode":"TOL","stock":20},{"providerId":"ctonline","warehouseCode":"TRN","stock":19},{"providerId":"ctonline","warehouseCode":"VER","stock":17}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECDLL040", "stock": 1315, "price": 160.83, "currency": "MXN", "branch": "D2A:284,CMT:253,GDL:182,DFA:170,AGS:41,MOR:39,OAX:29,LEO:27,QRO:24,TOL:20,TRN:19,VER:17" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous keyboard path was broadly correct but title lacked KB216, USB, Spanish layout and color.", "Visible branch sum is 1085 while feed total_stock is 1315, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "442 x 127 x 24.4 mm", "weight": "503 g" },
+        "sourceRefs": [
+          { "title": "Dell wired keyboard KB216 Spanish black", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-spanish-black/apd/580-adrc/pc-accessories" },
+          { "title": "Cyberpuerta Dell KB216 reference sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/59a/0b2/31b/59a0b231be416.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "rjx895uxvbfquix",
+      "research": {
+        "confidence": 0.96,
+        "name": "Mercusys MW302R router WiFi N300 2.4GHz 2 antenas",
+        "description": "Router inalambrico Mercusys MW302R N300 de 2.4 GHz con 2 antenas externas, puertos Fast Ethernet y modos Router, Access Point, Range Extender y WISP.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/mercusys-mw302r",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mercusys.com/en/product/wifi-router/mw302r/",
+        "gallery": ["https://static.mercusys.com/product-image/localTest_01_large20200513085216.jpg"],
+        "documents": [{ "label": "Mercusys MW302R official page", "type": "manufacturer", "url": "https://www.mercusys.com/en/product/wifi-router/mw302r/" }],
+        "specs": {
+          "brand": "MERCUSYS",
+          "model": "MW302R",
+          "providerSku": "ROUMER080",
+          "upc": "845973089351",
+          "productType": "Router WiFi N300",
+          "wifiStandard": "IEEE 802.11b/g/n",
+          "band": "2.4 GHz",
+          "maxWirelessRate": "300 Mbps",
+          "ports": "1 WAN 10/100 Mbps and 2 LAN 10/100 Mbps",
+          "antennas": "2 external antennas",
+          "modes": "Router, Access Point, Range Extender and WISP",
+          "security": "WPA/WPA2",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"OBR","stock":321},{"providerId":"ctonline","warehouseCode":"CMT","stock":277},{"providerId":"ctonline","warehouseCode":"GDL","stock":100},{"providerId":"ctonline","warehouseCode":"LMO","stock":78},{"providerId":"ctonline","warehouseCode":"CHI","stock":62},{"providerId":"ctonline","warehouseCode":"VHA","stock":54},{"providerId":"ctonline","warehouseCode":"URP","stock":51},{"providerId":"ctonline","warehouseCode":"AGS","stock":50},{"providerId":"ctonline","warehouseCode":"CUN","stock":34},{"providerId":"ctonline","warehouseCode":"DFC","stock":25},{"providerId":"ctonline","warehouseCode":"OAX","stock":24},{"providerId":"ctonline","warehouseCode":"TXA","stock":21}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUMER080", "stock": 1313, "price": 7.57, "currency": "USD", "branch": "OBR:321,CMT:277,GDL:100,LMO:78,CHI:62,VHA:54,URP:51,AGS:50,CUN:34,DFC:25,OAX:24,TXA:21" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path was incomplete; primary product class is router N300 multimode.", "Visible branch sum is 1097 while feed total_stock is 1313, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "114 x 94 x 26 mm; package 238 x 165 x 36 mm", "weight": "103 g; package 227 g" },
+        "sourceRefs": [
+          { "title": "Mercusys MW302R official page", "type": "manufacturer", "url": "https://www.mercusys.com/en/product/wifi-router/mw302r/" },
+          { "title": "GlobalOffice Mercusys MW302R reference", "type": "retailer", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/red-activa/router-mercusys-inalambrico-n-multimodo-a-300mbps/mw302r" }
+        ]
+      }
+    },
+    {
+      "product_id": "geusx2nzuh86nra",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Tapo C200 camara IP WiFi 1080p Pan Tilt",
+        "description": "Camara IP interior TP-Link Tapo C200 con video Full HD 1080p, movimiento pan/tilt, vision nocturna, audio bidireccional y almacenamiento microSD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/2mp/tp-link-tapo-c200",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/hk/home-networking/cloud-camera/tapo-c200/",
+        "gallery": ["https://static.tp-link.com/Tapo-C200_EU_1.0_1908_English_01_normal_1568705560286e.png"],
+        "documents": [{ "label": "TP-Link Tapo C200 official page", "type": "manufacturer", "url": "https://www.tp-link.com/hk/home-networking/cloud-camera/tapo-c200/" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Tapo C200",
+          "providerSku": "CAMTPL180",
+          "alternateProviderSku": "CV-1219",
+          "productType": "Camara IP WiFi PT interior",
+          "resolution": "1080p Full HD / 2MP",
+          "panTilt": "360 degrees horizontal, 114 degrees vertical by TP-Link reference",
+          "nightVision": "IR up to 30 ft / 9 m",
+          "audio": "Two-way audio",
+          "storage": "microSD; capacity varies by hardware version from 128 GB to 512 GB",
+          "wifi": "2.4 GHz 802.11b/g/n",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMTPL180", "stock": 1307, "price": 20.46, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CV-1219", "stock": 0, "price": 20.07, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current name includes AC, but the product uses 2.4 GHz 802.11b/g/n, not WiFi AC.", "Hardware versions vary on microSD capacity; keep 128 GB to 512 GB as version-dependent.", "Provider branch-level locations are not available."]
+        },
+        "measurements": { "dimensions": "86.6 x 85 x 117.7 mm; package 250 x 225 x 110 mm", "weight": "190 g; package 0.83 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link Tapo C200 official page", "type": "manufacturer", "url": "https://www.tp-link.com/hk/home-networking/cloud-camera/tapo-c200/" },
+          { "title": "TP-Link Tapo C200 regional specification", "type": "manufacturer", "url": "https://www.tp-link.com/baltic/home-networking/cloud-camera/tapo-c200/" },
+          { "title": "Tecno-Hub CAMTPL180 reference", "type": "retailer", "url": "https://www.tecno-hub.com/shop/tapo-c200-tp-link-camara-ip-smart-wifi-domo-para-interiores-tapo-c200-inalambrico-1280-x-720-pixeles-dia-noche-camtpl180-sku-tapo-c200-654" }
+        ]
+      }
+    },
+    {
+      "product_id": "hkcgoddgqnnrx0u",
+      "research": {
+        "confidence": 0.95,
+        "name": "Intellinet 163293 faceplate keystone 2 puertos blanco",
+        "description": "Placa de pared Intellinet 163293 blanca con 2 perforaciones para modulos keystone estandar; incluye tapas antipolvo y tornillos.",
+        "manualCategoryPath": "redes/cableado-estructurado/placas-keystone/2-puertos",
+        "semanticCategoryPath": "redes/cableado-estructurado/placas-keystone/2-puertos/intellinet-163293",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcdigital.com.mx/placa-de-pared-con-2-puertos-rj45-intellinet-163293-color-blanco/",
+        "gallery": [
+          "https://www.pcdigital.com.mx/wp-content/uploads/2011/07/163293_1-500x521.jpg",
+          "https://www.pcdigital.com.mx/wp-content/uploads/2011/07/163293_2-500x521.jpg"
+        ],
+        "documents": [{ "label": "Intellinet 163293 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51682/163293_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "163293",
+          "providerSku": "RCKACC1220",
+          "alternateProviderSku": "AC-1705",
+          "productType": "Faceplate / placa keystone",
+          "ports": "2 keystone openings",
+          "color": "Blanco",
+          "mounting": "Flush wall mount",
+          "included": "Dust covers and two #6 25 mm screws",
+          "certification": "UL listed by datasheet reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC1220", "stock": 1287, "price": 1.03, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-1705", "stock": 12, "price": 1.05, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["This item is only a faceplate/tapa; it does not include RJ45 keystone jacks.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "114 x 70 mm; screw spacing 82.5 mm; depth approx 9.5 mm", "weight": "0.042 kg reference; some retailers list shipping weight 0.3 kg" },
+        "sourceRefs": [
+          { "title": "Intellinet 163293 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51682/163293_datasheet_english.pdf" },
+          { "title": "PCDigital Intellinet 163293 reference", "type": "retailer", "url": "https://www.pcdigital.com.mx/placa-de-pared-con-2-puertos-rj45-intellinet-163293-color-blanco/" }
+        ]
+      }
+    },
+    {
+      "product_id": "494serle81360v1",
+      "research": {
+        "confidence": 0.94,
+        "brand": "POLY",
+        "name": "Poly Blackwire 3315 76J12AA diadema USB-A monoaural negra",
+        "description": "Diadema Poly Blackwire 3315 monoaural on-ear con cable USB-A, conector 3.5 mm, microfono boom unidireccional y controles en linea para llamadas.",
+        "manualCategoryPath": "audio/audifonos/usb/diadema-microfono/monoaurales",
+        "semanticCategoryPath": "audio/audifonos/usb/diadema-microfono/monoaurales/poly-blackwire-3315-usb-a",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/poly/headsets/usb-headsets/blackwire-3300.html",
+        "gallery": ["https://www.hp.com/content/dam/sites/worldwide/poly/headsets/usb-headsets/blackwire-3300/KSP-3-desktop.png"],
+        "documents": [{ "label": "Poly Blackwire 3300 datasheet", "type": "datasheet", "url": "https://media.flixcar.com/webp/synd-asset/hp-193897361-c08775615.pdf" }],
+        "specs": {
+          "brand": "POLY",
+          "legacyBrand": "PLANTRONICS",
+          "model": "Blackwire 3315 / 76J12AA",
+          "providerSku": "ACCPTS2530",
+          "upc": "197029480330",
+          "productType": "Diadema USB monoaural con microfono",
+          "wearingStyle": "Monaural on-ear",
+          "connectivity": "USB-A plus 3.5 mm",
+          "microphone": "Unidirectional boom microphone",
+          "controls": "Inline call, mute and volume controls",
+          "hearingProtection": "SoundGuard",
+          "management": "Poly Lens",
+          "compatibility": "Windows and macOS",
+          "cableLength": "215 cm total USB to headset",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":737},{"providerId":"ctonline","warehouseCode":"D2A","stock":300},{"providerId":"ctonline","warehouseCode":"CMT","stock":120},{"providerId":"ctonline","warehouseCode":"GDL","stock":99},{"providerId":"ctonline","warehouseCode":"CUN","stock":17},{"providerId":"ctonline","warehouseCode":"LEO","stock":5}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPTS2530", "stock": 1278, "price": 17.27, "currency": "USD", "branch": "DFA:737,D2A:300,CMT:120,GDL:99,CUN:17,LEO:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Plantronics is legacy branding; HP/Poly is current product branding.", "Previous path under cables/adapters was incorrect; the product is a USB headset.", "Visible branch sum is 1278 and matches feed total_stock."]
+        },
+        "measurements": { "dimensions": "15.5 x 3.2 x 17.8 cm; package 207 x 185 x 56 mm", "weight": "102 g; package 224.27 g" },
+        "sourceRefs": [
+          { "title": "HP Poly Blackwire 3300 family page", "type": "manufacturer", "url": "https://www.hp.com/us-en/poly/headsets/usb-headsets/blackwire-3300.html" },
+          { "title": "Poly Blackwire 3300 datasheet", "type": "datasheet", "url": "https://media.flixcar.com/webp/synd-asset/hp-193897361-c08775615.pdf" },
+          { "title": "Onedirect Blackwire 3315 USB-A reference", "type": "retailer", "url": "https://www.onedirect.es/productos/plantronics/plantronics-blackwire-3315-usb-a-jack-3-5" }
+        ]
+      }
+    },
+    {
+      "product_id": "4knxl035ohjovfe",
+      "research": {
+        "confidence": 0.96,
+        "name": "Intellinet 210355 jack keystone RJ45 Cat5e UTP blanco",
+        "description": "Jack keystone Intellinet 210355 RJ45 Cat5e UTP blanco de impacto, compatible con herramientas 110/Krone y cable solido o multifilar 22 a 26 AWG.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/intellinet-210355",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://es.intellinetnetwork.eu/products/intellinet-es-jack-rj45-cat5e-keystone-de-impacto-blanco-210355",
+        "gallery": ["https://es.intellinetnetwork.eu/cdn/shop/products/phpThumb_de95db60-3ca3-4884-a59a-8d441b6c91d6_300x300.jpg?v=1641934896"],
+        "documents": [{ "label": "Intellinet 210355 official page", "type": "manufacturer", "url": "https://es.intellinetnetwork.eu/products/intellinet-es-jack-rj45-cat5e-keystone-de-impacto-blanco-210355" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "210355",
+          "providerSku": "RCKACC1450",
+          "alternateProviderSku": "AC-1701",
+          "productType": "Jack keystone RJ45 Cat5e",
+          "categoryRating": "Cat5e",
+          "connector": "RJ45 UTP",
+          "color": "Blanco",
+          "termination": "Punch-down / impacto",
+          "toolCompatibility": "110 and Krone",
+          "wireGauge": "22 to 26 AWG solid or stranded",
+          "wiring": "T568A/B",
+          "standards": "EIA/TIA and UL references",
+          "temperatureRange": "-40 to 80 C",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC1450", "stock": 1253, "price": 1.5, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-1701", "stock": 19, "price": 1.52, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cableado estructurado path was acceptable but too broad; classify under Cat5e keystone jacks.", "Provider branch-level locations are not available; total stock equals CTOnline plus CVA stock."]
+        },
+        "measurements": { "dimensions": "28.3 x 18 x 20.8 mm", "weight": "0.01 kg" },
+        "sourceRefs": [
+          { "title": "Intellinet 210355 official page", "type": "manufacturer", "url": "https://es.intellinetnetwork.eu/products/intellinet-es-jack-rj45-cat5e-keystone-de-impacto-blanco-210355" },
+          { "title": "Mactoner Intellinet 210355 reference", "type": "retailer", "url": "https://www.mactoner.com.mx/producto/keystone-jack-cat5e-intellinet-210355-color-blanco/" }
+        ]
+      }
+    }
+  ]
+}
