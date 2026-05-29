@@ -1,0 +1,404 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b110-2026-05-29",
+  "cycle": 3,
+  "batch": 110,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "8tg6mkvpuvsgjkl",
+      "research": {
+        "confidence": 0.97,
+        "name": "Logitech K120 teclado USB alambrico espanol negro",
+        "description": "Teclado Logitech K120 de tamano completo con conexion USB-A, teclado numerico, patas ajustables y diseno resistente a derrames para uso diario.",
+        "manualCategoryPath": "computo/perifericos/teclados/alambricos/usb/basicos",
+        "semanticCategoryPath": "computo/perifericos/teclados/alambricos/usb/basicos/logitech-k120-espanol",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer",
+        "gallery": ["https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/k120/gallery/k120-gallery-01-new.png"],
+        "documents": [{ "label": "Logitech K120 official page", "type": "manufacturer", "url": "https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer" }],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "K120",
+          "providerSku": "TECLOG250",
+          "upc": "097855088741",
+          "productType": "Teclado alambrico USB",
+          "layout": "Espanol",
+          "interface": "USB-A",
+          "formFactor": "Full-size with numeric keypad",
+          "spillResistance": "Up to 60 ml by Logitech reference",
+          "keyLife": "Approx 10 million keystrokes",
+          "cableLength": "1.5 m",
+          "indicators": "Caps Lock, Num Lock and Scroll Lock",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":509},{"providerId":"ctonline","warehouseCode":"D2A","stock":275},{"providerId":"ctonline","warehouseCode":"DFT","stock":206},{"providerId":"ctonline","warehouseCode":"CMT","stock":106},{"providerId":"ctonline","warehouseCode":"OBR","stock":56},{"providerId":"ctonline","warehouseCode":"TRN","stock":49},{"providerId":"ctonline","warehouseCode":"GDL","stock":39},{"providerId":"ctonline","warehouseCode":"CUN","stock":39},{"providerId":"ctonline","warehouseCode":"ACX","stock":30},{"providerId":"ctonline","warehouseCode":"OAX","stock":27},{"providerId":"ctonline","warehouseCode":"TPC","stock":20},{"providerId":"ctonline","warehouseCode":"ACA","stock":18}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECLOG250", "stock": 1595, "price": 220, "currency": "MXN", "branch": "DFA:509,D2A:275,DFT:206,CMT:106,OBR:56,TRN:49,GDL:39,CUN:39,ACX:30,OAX:27,TPC:20,ACA:18" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous keyboard path was correct but too broad; classify as basic wired USB keyboard.", "Visible branch sum is 1374 while feed total_stock is 1595, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "450 x 155 x 23.5 mm", "weight": "550 g" },
+        "sourceRefs": [
+          { "title": "Logitech K120 official page", "type": "manufacturer", "url": "https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer" },
+          { "title": "Logitech K120 product image", "type": "manufacturer_image", "url": "https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/k120/gallery/k120-gallery-01-new.png" },
+          { "title": "Macrosistemas Logitech K120 Spanish UPC reference", "type": "retailer", "url": "https://www.macrosistemas.com/producto/logitech-teclado-usb-plug-and-play-k120-espanol/" }
+        ]
+      }
+    },
+    {
+      "product_id": "mxinqfmgzybtgsw",
+      "research": {
+        "confidence": 0.97,
+        "name": "Logitech MK120 kit teclado y mouse USB alambrico espanol negro",
+        "description": "Combo alambrico Logitech MK120 con teclado K120 de tamano completo y mouse optico M100, ambos USB, para uso de oficina o hogar.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos/basicos/logitech-mk120-espanol",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/en-ca/products/combos/mk120-usb-keyboard-mouse.html",
+        "gallery": ["https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mk120/gallery/mk120-gallery-1-new.png"],
+        "documents": [
+          { "label": "Logitech MK120 data sheet", "type": "datasheet", "url": "https://www.logitech.com/content/dam/logitech/en/business/pdf/mk120-corded-combo-data-sheet.pdf" },
+          { "label": "Logitech MK120 technical specifications", "type": "support", "url": "https://support.logi.com/hc/en-ph/articles/360023239554-MK120-Technical-Specifications" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "Media Combo MK120",
+          "providerSku": "KITLOG380",
+          "upc": "097855088802",
+          "productType": "Combo teclado y mouse alambrico USB",
+          "keyboard": "K120 full-size 105-key keyboard with numeric keypad",
+          "keyboardSpillResistance": "Up to 60 ml by Logitech reference",
+          "mouse": "M100 optical ambidextrous mouse, 3 buttons",
+          "mouseDpi": "1000 DPI",
+          "interface": "USB 2.0 low-speed",
+          "tilt": "0 or 8 degrees",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":481},{"providerId":"ctonline","warehouseCode":"CMT","stock":292},{"providerId":"ctonline","warehouseCode":"D2A","stock":140},{"providerId":"ctonline","warehouseCode":"ACX","stock":77},{"providerId":"ctonline","warehouseCode":"MAZ","stock":50},{"providerId":"ctonline","warehouseCode":"DFA","stock":50},{"providerId":"ctonline","warehouseCode":"HMO","stock":40},{"providerId":"ctonline","warehouseCode":"QRO","stock":37},{"providerId":"ctonline","warehouseCode":"AGS","stock":35},{"providerId":"ctonline","warehouseCode":"OAX","stock":35},{"providerId":"ctonline","warehouseCode":"CLN","stock":23},{"providerId":"ctonline","warehouseCode":"CUN","stock":23}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITLOG380", "stock": 1557, "price": 334.12, "currency": "MXN", "branch": "GDL:481,CMT:292,D2A:140,ACX:77,MAZ:50,DFA:50,HMO:40,QRO:37,AGS:35,OAX:35,CLN:23,CUN:23" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous keyboard path lost that this is a keyboard and mouse kit.", "Visible branch sum is 1283 while feed total_stock is 1557, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Keyboard 450 x 155 x 23.5 mm; mouse 113 x 62 x 38 mm", "weight": "Keyboard 550 g; mouse 90 g" },
+        "sourceRefs": [
+          { "title": "Logitech MK120 official page", "type": "manufacturer", "url": "https://www.logitech.com/en-ca/products/combos/mk120-usb-keyboard-mouse.html" },
+          { "title": "Logitech MK120 datasheet", "type": "datasheet", "url": "https://www.logitech.com/content/dam/logitech/en/business/pdf/mk120-corded-combo-data-sheet.pdf" },
+          { "title": "Logitech MK120 support specs", "type": "support", "url": "https://support.logi.com/hc/en-ph/articles/360023239554-MK120-Technical-Specifications" }
+        ]
+      }
+    },
+    {
+      "product_id": "pztb95kijwp3urq",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link LS1008G switch gigabit no administrable 8 puertos",
+        "description": "Switch TP-Link LS1008G de escritorio o pared con 8 puertos RJ45 Gigabit, Plug and Play, Auto-MDI/MDIX, carcasa plastica y diseno sin ventilador.",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos/tp-link-ls1008g",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/baltic/business-networking/soho-switch-unmanaged/ls1008g/",
+        "gallery": ["https://static.tp-link.com/LS1008G-01_normal_1564562206436l.jpg"],
+        "documents": [{ "label": "TP-Link LS1008G product page", "type": "manufacturer", "url": "https://www.tp-link.com/baltic/business-networking/soho-switch-unmanaged/ls1008g/" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "LS1008G",
+          "providerSkus": ["SWTTPL760", "NIC-3481"],
+          "productType": "Switch Gigabit no administrable",
+          "ports": "8 RJ45 10/100/1000 Mbps",
+          "standards": "IEEE 802.3i/u/ab/x, 802.3x flow control",
+          "switchingCapacity": "16 Gbps",
+          "forwardingRate": "11.9 Mpps",
+          "macTable": "4K",
+          "jumboFrame": "16 KB",
+          "features": "Store-and-forward, Auto-MDI/MDIX, fanless",
+          "powerConsumption": "3.9 W max",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL760", "stock": 1557, "price": 13.64, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-3481", "stock": 0, "price": 12.94, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous switches path was acceptable but too broad.", "Provider title mentions Omada, but LS1008G is an unmanaged desktop switch, not an Omada managed device.", "CVA lists this SKU with zero stock at verification time; CTOnline stock remains active."]
+        },
+        "measurements": { "dimensions": "127 x 66.5 x 23 mm", "weight": "Official product weight not published" },
+        "sourceRefs": [
+          { "title": "TP-Link LS1008G official page", "type": "manufacturer", "url": "https://www.tp-link.com/baltic/business-networking/soho-switch-unmanaged/ls1008g/" },
+          { "title": "TP-Link LS1008G product image", "type": "manufacturer_image", "url": "https://static.tp-link.com/LS1008G-01_normal_1564562206436l.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "57oojb4qy6p82ft",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA Premier microSDXC UHS-I U1 Class 10 64GB con adaptador SD",
+        "description": "Tarjeta ADATA Premier microSDXC de 64GB UHS-I U1 Class 10 con adaptador SD, para moviles, camaras y video Full HD.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10/adata-premier-ausdx64guicl10-ra1",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/consumer/category/memory-cards/451/",
+        "gallery": ["https://www.adata.com/us/consumer/category/memory-cards/451/"],
+        "documents": [{ "label": "ADATA Premier microSD UHS-I Class 10 datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_premier_microsdxc_sdhc_uhs_i_class10_r80.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "Premier microSDXC UHS-I U1",
+          "partNumber": "AUSDX64GUICL10-RA1",
+          "providerSku": "MEMDAT2380",
+          "ean": "4713435796849",
+          "productType": "Tarjeta microSDXC",
+          "capacity": "64 GB",
+          "speedClass": "UHS-I U1, Class 10",
+          "readWrite": "Up to 80/10 MB/s by ADATA reference",
+          "adapter": "SD adapter included",
+          "features": "ECC, water/shock/static/X-ray resistance by ADATA reference",
+          "operatingTemperature": "-25 to 85 C",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"CMT","stock":486},{"providerId":"ctonline","warehouseCode":"XLP","stock":198},{"providerId":"ctonline","warehouseCode":"CUE","stock":148},{"providerId":"ctonline","warehouseCode":"PUE","stock":107},{"providerId":"ctonline","warehouseCode":"TAM","stock":80},{"providerId":"ctonline","warehouseCode":"TRN","stock":71},{"providerId":"ctonline","warehouseCode":"IRA","stock":56},{"providerId":"ctonline","warehouseCode":"PAC","stock":49},{"providerId":"ctonline","warehouseCode":"CHI","stock":46},{"providerId":"ctonline","warehouseCode":"CUN","stock":34},{"providerId":"ctonline","warehouseCode":"CDV","stock":33},{"providerId":"ctonline","warehouseCode":"DGO","stock":32}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT2380", "stock": 1534, "price": 7.3, "currency": "USD", "branch": "CMT:486,XLP:198,CUE:148,PUE:107,TAM:80,TRN:71,IRA:56,PAC:49,CHI:46,CUN:34,CDV:33,DGO:32" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is removable flash storage.", "Some listings say microSDHC, but 64GB capacity is microSDXC.", "Visible branch sum is 1340 while feed total_stock is 1534, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "15 x 11 x 1 mm", "weight": "0.25 g" },
+        "sourceRefs": [
+          { "title": "ADATA Premier microSD official page", "type": "manufacturer", "url": "https://www.adata.com/us/consumer/category/memory-cards/451/" },
+          { "title": "ADATA Premier microSD datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_premier_microsdxc_sdhc_uhs_i_class10_r80.pdf" },
+          { "title": "HardwareOnline ADATA 64GB EAN reference", "type": "retailer", "url": "https://hardwareonline.com/adata-uhs-i-clase-10-64gb" }
+        ]
+      }
+    },
+    {
+      "product_id": "7c5x8lfsp4ak7hj",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link TL-WR850N router Wi-Fi N300 2.4GHz 4 LAN Fast Ethernet",
+        "description": "Router TP-Link TL-WR850N Wi-Fi N300 de 2.4 GHz con modo WISP, 4 puertos LAN Fast Ethernet, 1 puerto WAN Fast Ethernet y 2 antenas externas fijas.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/tp-link-tl-wr850n",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/in/home-networking/wifi-router/tl-wr850n/",
+        "gallery": ["https://static.tp-link.com/TL-WR850N_01_large_1614852924837g.jpg"],
+        "documents": [{ "label": "TP-Link TL-WR850N datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202011/20201116/TL-WR850N%28EU%292.0-datasheet.pdf" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WR850N",
+          "providerSkus": ["ROUTPL830", "NIC-2575"],
+          "productType": "Router Wi-Fi N300",
+          "wirelessStandard": "IEEE 802.11n/g/b",
+          "speed": "Up to 300 Mbps at 2.4 GHz",
+          "ports": "4 LAN 10/100 Mbps, 1 WAN 10/100 Mbps",
+          "antennas": "2 fixed external antennas",
+          "power": "9 V 0.6 A",
+          "features": "WISP, WDS bridge, WMM, bandwidth control, DHCP, port forwarding, UPnP, DMZ, DDNS, VPN pass-through, SPI firewall, IPv4/IPv6, guest network",
+          "security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTPL830", "stock": 1452, "price": 12.27, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-2575", "stock": 15, "price": 11.65, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous access-points path was incorrect; this is a router with WISP support.", "No branch-level stock exposed in prompt for this two-provider item."]
+        },
+        "measurements": { "dimensions": "182 x 128 x 35 mm", "weight": "Official product weight not published" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-WR850N official page", "type": "manufacturer", "url": "https://www.tp-link.com/in/home-networking/wifi-router/tl-wr850n/" },
+          { "title": "TP-Link TL-WR850N service provider page", "type": "manufacturer", "url": "https://www.tp-link.com/es/service-provider/wifi-router/tl-wr850n/" },
+          { "title": "TP-Link TL-WR850N datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202011/20201116/TL-WR850N%28EU%292.0-datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "kedxtae8v2w6941",
+      "research": {
+        "confidence": 0.97,
+        "name": "SanDisk Cruzer Blade SDCZ50-032G-B35 memoria USB 2.0 32GB negro rojo",
+        "description": "Memoria USB SanDisk Cruzer Blade de 32GB con interfaz USB-A 2.0 y diseno compacto negro/rojo para respaldo y transporte de archivos.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/sandisk-cruzer-blade-sdcz50-032g-b35",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/en-gb/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-032G-BQ35",
+        "gallery": ["https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.thumb.1280.1280.png"],
+        "documents": [{ "label": "SanDisk Cruzer Blade official page", "type": "manufacturer", "url": "https://www.sandisk.com/en-gb/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-032G-BQ35" }],
+        "specs": {
+          "brand": "SANDISK",
+          "model": "Cruzer Blade",
+          "partNumber": "SDCZ50-032G-B35",
+          "providerSku": "MEMSAN600",
+          "upc": "619659069193",
+          "productType": "Memoria USB",
+          "capacity": "32 GB",
+          "interface": "USB-A 2.0",
+          "color": "Negro / Rojo",
+          "warranty": "2 years limited by SanDisk reference",
+          "certifications": "FCC, CE and UKCA by public listings",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":630},{"providerId":"ctonline","warehouseCode":"AGS","stock":200},{"providerId":"ctonline","warehouseCode":"CMT","stock":200},{"providerId":"ctonline","warehouseCode":"CUN","stock":100},{"providerId":"ctonline","warehouseCode":"TXA","stock":98},{"providerId":"ctonline","warehouseCode":"DFA","stock":70},{"providerId":"ctonline","warehouseCode":"MOR","stock":49},{"providerId":"ctonline","warehouseCode":"ACA","stock":30},{"providerId":"ctonline","warehouseCode":"IRA","stock":25},{"providerId":"ctonline","warehouseCode":"CDV","stock":20},{"providerId":"ctonline","warehouseCode":"SLT","stock":15},{"providerId":"ctonline","warehouseCode":"URP","stock":10}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSAN600", "stock": 1461, "price": 5.4, "currency": "USD", "branch": "D2A:630,AGS:200,CMT:200,CUN:100,TXA:98,DFA:70,MOR:49,ACA:30,IRA:25,CDV:20,SLT:15,URP:10" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is portable USB storage.", "Visible branch sum is 1447 while feed total_stock is 1461, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "7.4 x 17.6 x 41.5 mm", "weight": "3 g by SanDisk reference" },
+        "sourceRefs": [
+          { "title": "SanDisk Cruzer Blade 32GB official page", "type": "manufacturer", "url": "https://www.sandisk.com/en-gb/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-032G-BQ35" },
+          { "title": "Best Buy SanDisk Cruzer Blade 32GB UPC reference", "type": "retailer", "url": "https://www.bestbuy.com/site/sandisk-cruzer-blade-32-gb-usb-2-0-flash-drive-black/5278724.p" }
+        ]
+      }
+    },
+    {
+      "product_id": "ty1nia69wy38j0w",
+      "research": {
+        "confidence": 0.96,
+        "name": "Acteck Blazar Prime FT500P AC-938143 fuente ATX 500W no modular negra",
+        "description": "Fuente de poder ATX Acteck Blazar Prime FT500P de 500W, no modular, con ventilador de 80 mm, conectores ATX/SATA/Molex y protecciones basicas.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-500w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-500w/acteck-blazar-prime-ft500p-ac-938143",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/fuente-de-poder-blazar-prime-ft500p-atx-500w",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-938143_1.webp?v=1699299200&width=1000"],
+        "documents": [{ "label": "Acteck FT500P technical sheet", "type": "datasheet", "url": "https://www.zegucom.com.mx/productos/AC-938143/files/ficha.pdf" }],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Blazar Prime FT500P",
+          "partNumber": "AC-938143",
+          "providerSkus": ["GABACT340", "CSP-574"],
+          "ean": "7506215938143",
+          "productType": "Fuente de poder ATX",
+          "power": "500 W",
+          "modularity": "No modular",
+          "efficiency": "68%, Non PLUS by technical sheet",
+          "input": "115/230 VAC, 6A/3A, 50/60 Hz",
+          "fan": "80 x 80 x 25 mm, 2200 RPM",
+          "noise": "30-35 dB",
+          "connectors": "1 ATX 20+4, 1 ATX12V 4-pin, 2 SATA, 2 Molex",
+          "protections": "UVP, OVP, OPP, SCP",
+          "warranty": "1 year",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "GABACT340", "stock": 1413, "price": 177.02, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CSP-574", "stock": 30, "price": 193.46, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some retailers say 80 Plus or 120 mm fan; Acteck/Zegucom sheet indicates 68% efficiency, Non PLUS and 80 mm fan.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "150 x 110 x 85 mm", "weight": "0.62 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Blazar Prime FT500P official page", "type": "manufacturer", "url": "https://acteck.com/products/fuente-de-poder-blazar-prime-ft500p-atx-500w" },
+          { "title": "Zegucom Acteck AC-938143 ficha tecnica", "type": "datasheet", "url": "https://www.zegucom.com.mx/productos/AC-938143/files/ficha.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "6cym78lt1wipqyy",
+      "research": {
+        "confidence": 0.93,
+        "name": "Silimex AeroJet 360 removedor de polvo aire comprimido 660 ml",
+        "description": "Removedor de polvo Silimex AeroJet 360 en aerosol de 660 ml, con valvula 360, para limpiar electronica, computo, seguridad, audio y equipos del hogar.",
+        "manualCategoryPath": "computo/accesorios/limpieza/removedores-polvo",
+        "semanticCategoryPath": "computo/accesorios/limpieza/removedores-polvo/silimex-aerojet-360-660ml",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://proesa.com/products/aire-comprimido-aerojet-360o-660ml-silimex-r-aerosol-7503002196632",
+        "gallery": ["https://proesa.com/cdn/shop/files/art_639077_01_1000x.jpg?v=1768063637"],
+        "documents": [{ "label": "Silimex public catalog", "type": "catalog", "url": "https://www.agelectronica.com/catalogos/silimex.pdf" }],
+        "specs": {
+          "brand": "SILIMEX",
+          "model": "AeroJet 360 / 750300219663",
+          "providerSku": "SLXLMP800",
+          "providerEan": "7503018454177",
+          "publicUpc": "7503002196632",
+          "productType": "Removedor de polvo / aire comprimido",
+          "content": "660 ml",
+          "valve": "360 degrees",
+          "uses": "Electronica, computo, seguridad, audio and hogar",
+          "properties": "No moisture, CFC/HFC free by catalog references",
+          "usage": "Use at 15-20 cm with short bursts by retailer guidance",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"HMO","stock":200},{"providerId":"ctonline","warehouseCode":"LEO","stock":110},{"providerId":"ctonline","warehouseCode":"ZAC","stock":100},{"providerId":"ctonline","warehouseCode":"DFC","stock":100},{"providerId":"ctonline","warehouseCode":"DFA","stock":56},{"providerId":"ctonline","warehouseCode":"OBR","stock":50},{"providerId":"ctonline","warehouseCode":"LMO","stock":50},{"providerId":"ctonline","warehouseCode":"QRO","stock":50},{"providerId":"ctonline","warehouseCode":"OAX","stock":50},{"providerId":"ctonline","warehouseCode":"DFP","stock":50},{"providerId":"ctonline","warehouseCode":"DFT","stock":50},{"providerId":"ctonline","warehouseCode":"ACA","stock":50}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SLXLMP800", "stock": 1414, "price": 122.06, "currency": "MXN", "branch": "HMO:200,LEO:110,ZAC:100,DFC:100,DFA:56,OBR:50,LMO:50,QRO:50,OAX:50,DFP:50,DFT:50,ACA:50" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider EAN 7503018454177 conflicts with public AeroJet 660/360 code 750300219663 or 7503002196632; validate GTIN before overwriting barcode.", "Physical dimensions and weight are not published consistently; publish 660 ml presentation.", "Visible branch sum is 916 while feed total_stock is 1414, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Physical dimensions not consistently published", "weight": "Not consistently published; 660 ml presentation confirmed" },
+        "sourceRefs": [
+          { "title": "Proesa Silimex AeroJet 360 660 ml", "type": "retailer", "url": "https://proesa.com/products/aire-comprimido-aerojet-360o-660ml-silimex-r-aerosol-7503002196632" },
+          { "title": "Exel Silimex product reference", "type": "retailer", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/S1PAIRAB002" },
+          { "title": "AG Electronica Silimex catalog", "type": "catalog", "url": "https://www.agelectronica.com/catalogos/silimex.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "ycfdads9xba51vw",
+      "research": {
+        "confidence": 0.97,
+        "name": "Epson 664 T664320-AL botella de tinta magenta 70 ml EcoTank",
+        "description": "Botella original Epson 664 T664320-AL de tinta magenta de 70 ml para impresoras EcoTank/L-Series compatibles.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/magenta",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/magenta/epson-t664320-al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T664/i/T664320-AL",
+        "gallery": ["https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/epson_t664320_s_t664_magenta_ink_bottle_1445871955_1189995.jpg"],
+        "documents": [{ "label": "Epson T664320-AL official page", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T664/i/T664320-AL" }],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T664320-AL",
+          "providerSkus": ["CAREPS3920", "CN-1616"],
+          "productType": "Botella de tinta EcoTank",
+          "series": "Epson 664",
+          "color": "Magenta",
+          "content": "70 ml",
+          "inkType": "Dye-based color ink by equivalent T664 references",
+          "compatibility": "Epson L110, L200, L210, L220, L300, L310, L350, L355, L380, L395, L455, L475, L555, L565, L575, L606, L655, L656, L1300 and related L-Series by Epson/Ingram references",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS3920", "stock": 1393, "price": 159.3, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-1616", "stock": 14, "price": 157.26, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider title says cartucho, but Epson code T664320-AL is an EcoTank ink bottle.", "Provider feed does not expose branch-level stock for this two-provider item."]
+        },
+        "measurements": { "dimensions": "Bottle content 70 ml; equivalent retail package approx 6.3 x 1.7 x 1.7 in", "weight": "Equivalent retail package approx 0.25 lb" },
+        "sourceRefs": [
+          { "title": "Epson Mexico T664320-AL official page", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T664/i/T664320-AL" },
+          { "title": "Ingram Micro Epson T664 compatibility brochure", "type": "catalog", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_70800ow_78914737.pdf" },
+          { "title": "B&H Epson T664320-S reference", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1189995-REG/epson_t664320_s_t664_magenta_ink_bottle.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "hh0hl8i0xi7cv5d",
+      "research": {
+        "confidence": 0.94,
+        "name": "Stylos STPMOT3B monitor 19 HD+ 1440x900 HDMI VGA negro",
+        "description": "Monitor LED Stylos STPMOT3B de 19 pulgadas para oficina o punto de venta, resolucion 1440 x 900, 60 Hz, 5 ms, entradas HDMI y VGA.",
+        "manualCategoryPath": "computo/monitores/oficina/19-wxga",
+        "semanticCategoryPath": "computo/monitores/oficina/19-wxga/stylos-stpmot3b",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://inter-ds.com/products/monitor-stylos-19-hd-hdmi-vga-60hz-5ms-ideal-para-oficina-o-punto-de-venta-elegante-y-versatil",
+        "gallery": ["https://inter-ds.com/cdn/shop/files/monitor-stylos-19-hd-1440900-px-vga-hdmi-60hz-5-ms-negro-stpmot3b-489_1200x.jpg?v=1708027176"],
+        "documents": [{ "label": "Stylos STPMOT3B technical sheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/Monitor19pulgadasStylosSTPMOT3B_STPMOT3B_EAN7503030903653/Monitor19pulgadasStylosSTPMOT3B_STPMOT3B_EAN7503030903653.pdf" }],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STPMOT3B",
+          "internalModel": "SMOT3",
+          "providerSku": "MONSTY150",
+          "ean": "7503030903653",
+          "productType": "Monitor LED de oficina",
+          "screenSize": "19 inch",
+          "resolution": "1440 x 900",
+          "refreshRate": "60 Hz",
+          "responseTime": "5 ms",
+          "inputs": "HDMI and VGA",
+          "power": "DC 12 V / 2.5 A",
+          "includedCable": "HDMI cable",
+          "warranty": "1 year",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":895},{"providerId":"ctonline","warehouseCode":"MID","stock":127},{"providerId":"ctonline","warehouseCode":"MTY","stock":79},{"providerId":"ctonline","warehouseCode":"GDL","stock":72},{"providerId":"ctonline","warehouseCode":"OBR","stock":69},{"providerId":"ctonline","warehouseCode":"TXA","stock":49},{"providerId":"ctonline","warehouseCode":"CUN","stock":27},{"providerId":"ctonline","warehouseCode":"MOR","stock":19},{"providerId":"ctonline","warehouseCode":"CTZ","stock":14},{"providerId":"ctonline","warehouseCode":"COL","stock":13},{"providerId":"ctonline","warehouseCode":"ACA","stock":12},{"providerId":"ctonline","warehouseCode":"PAC","stock":8}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONSTY150", "stock": 1406, "price": 480.5, "currency": "MXN", "branch": "PUE:895,MID:127,MTY:79,GDL:72,OBR:69,TXA:49,CUN:27,MOR:19,CTZ:14,COL:13,ACA:12,PAC:8" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous monitor path was acceptable but too broad; classify as 19 inch WXGA/HD+ office monitor.", "Retailers mix HD and HD+ wording; 1440 x 900 is better described as WXGA+/HD+.", "InterDS includes a residual XZEAL brand line, but STPMOT3B sheet/EAN confirm Stylos.", "Visible branch sum is 1384 while feed total_stock is 1406, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "49.2 x 11.5 x 46 cm", "weight": "2.3 kg net; 3.18 kg gross" },
+        "sourceRefs": [
+          { "title": "Stylos STPMOT3B technical sheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/Monitor19pulgadasStylosSTPMOT3B_STPMOT3B_EAN7503030903653/Monitor19pulgadasStylosSTPMOT3B_STPMOT3B_EAN7503030903653.pdf" },
+          { "title": "InterDS Stylos STPMOT3B reference", "type": "retailer", "url": "https://inter-ds.com/products/monitor-stylos-19-hd-hdmi-vga-60hz-5ms-ideal-para-oficina-o-punto-de-venta-elegante-y-versatil" }
+        ]
+      }
+    }
+  ]
+}

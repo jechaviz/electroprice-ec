@@ -82,6 +82,16 @@ const researchedBatchCases = [
   ["Dell KM5221W kit teclado y mouse inalambrico espanol", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad"],
   ["Provision ISR PR-12V5A fuente de poder CCTV 12V 5A", "PROVISION ISR", "seguridad/cctv/fuentes-poder/12v-5a"],
   ["Naceb Technology NA-620 aire comprimido 440ml", "NACEB TECHNOLOGY", "computo/accesorios/limpieza/aire-comprimido/440ml"],
+  ["Logitech K120 teclado USB alambrico negro", "LOGITECH", "computo/perifericos/teclados/alambricos/usb/basicos"],
+  ["Logitech Media Combo MK120 kit teclado y mouse USB", "LOGITECH", "computo/perifericos/combos-teclado-mouse/alambricos/basicos"],
+  ["TP-Link LS1008G switch gigabit 8 puertos no administrable", "TP-LINK", "redes/switches/no-administrables/gigabit/8-puertos"],
+  ["ADATA UHS-I U1 microSD 64GB clase 10", "ADATA", "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10"],
+  ["TP-Link TL-WR850N router WISP N300 4 LAN", "TP-LINK", "redes/routers/wifi-n/n300"],
+  ["SanDisk Cruzer Blade 32GB memoria USB 2.0 roja", "SANDISK", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["Acteck Blazar Prime FT500P fuente ATX 500W AC-938143", "ACTECK", "computo/componentes/fuentes-poder/atx-500w"],
+  ["Silimex 750300219663 removedor de polvo", "SILIMEX", "computo/accesorios/limpieza/removedores-polvo"],
+  ["Epson T664320-AL tinta magenta para EcoTank", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t664/magenta"],
+  ["Stylos STPMOT3B monitor 19 pulgadas 1440 x 900", "STYLOS", "computo/monitores/oficina/19-wxga"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

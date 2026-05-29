@@ -120,6 +120,8 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t504', name: 'Botellas Epson T504', legacyCategory: 'laptops' },
   { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t504/negro', name: 'Botellas Epson T504 negro', legacyCategory: 'laptops' },
   { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t504/amarillo', name: 'Botellas Epson T504 amarillo', legacyCategory: 'laptops' },
+  { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t664', name: 'Botellas Epson T664', legacyCategory: 'printers_scanners' },
+  { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t664/magenta', name: 'Botellas Epson T664 magenta', legacyCategory: 'printers_scanners' },
   { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t544', name: 'Botellas Epson T544', legacyCategory: 'laptops' },
   { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t544/negro', name: 'Botellas Epson T544 negro', legacyCategory: 'laptops' },
   { path: 'impresion/consumibles/botellas-tinta-ecotank/epson-t574', name: 'Botellas Epson T574', legacyCategory: 'laptops' },
