@@ -552,6 +552,16 @@ const researchedBatchCases = [
   ["Stylos STACHV1B adaptador HDMI a VGA AUX 15 cm", "STYLOS", "accesorios/cables-adaptadores/video-hdmi-vga"],
   ["BRobotix 6007204 mouse alambrico USB optico 1600 DPI negro", "BROBOTIX", "computo/perifericos/mouse/alambricos/basicos/1600-dpi"],
   ["Hikvision DS-XS6412-S/B gabinete rack pared 12U 600 x 450 negro", "HIKVISION", "infraestructura/racks-enfriamiento/gabinetes-pared/12u"],
+  ["Belden HDE001MB cable HDMI alta velocidad 1 m negro", "BELDEN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/1m"],
+  ["Intellinet 711081 kit tuercas enjauladas M6 50 piezas para rack", "INTELLINET", "infraestructura/racks-accesorios/herrajes/m6/50-piezas"],
+  ["TP-Link TL-SG1016 switch Gigabit no administrable 16 puertos", "TP-LINK", "redes/switches/no-administrables/gigabit/16-puertos"],
+  ["Epson S015329 cinta negra para impresora FX-890 matriz de punto", "EPSON", "impresion/consumibles/cintas-matriz-punto/epson-fx-890"],
+  ["Hikvision DS-3WR12C router WISP AC1200 doble banda Wi-Fi 5", "HIKVISION", "redes/routers/wisp/wifi-5-ac1200"],
+  ["Synology DS1825+ NAS 8 bahias 2.5GbE M.2 NVMe", "SYNOLOGY", "computo/almacenamiento/nas/8-bahias"],
+  ["Acteck FT600EW Blazar Evo fuente ATX 600W blanca", "ACTECK", "computo/componentes/fuentes-poder/atx-600w"],
+  ["BRobotix 6007815 funda con teclado Bluetooth y panel tactil para iPad Air 11", "BROBOTIX", "computo/tabletas/accesorios/fundas-con-teclado/ipad-air-11"],
+  ["Corsair RS140 CO-9050190-WW ventilador PWM 140mm negro", "CORSAIR", "computo/componentes/enfriamiento/ventiladores-gabinete/140mm-pwm"],
+  ["Brother TN760 toner negro alto rendimiento 3000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-760"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
