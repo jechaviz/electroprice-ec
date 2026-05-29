@@ -512,6 +512,16 @@ const researchedBatchCases = [
   ["TP-Link UH7020C hub USB-C 7 en 1 HDMI 4K60 PD 100W", "TP LINK", "computo/accesorios/hubs-usb/usb-c/7-en-1"],
   ["Koblenz PV-2500 D supresor de picos pared TV 2500VA 2000W", "KOBLENZ", "energia/supresores-reguladores/supresores-picos/multicontactos-pared-tv"],
   ["Kyocera TK-3102 toner negro 12500 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-3102"],
+  ["BRobotix 963234 teclado numerico USB alambrico 18 teclas negro", "BROBOTIX", "computo/perifericos/teclados/numericos"],
+  ["Eaton Tripp Lite OMNISMART500 UPS line-interactive 500VA 300W USB", "TRIPP LITE", "energia/no-breaks-ups/line-interactive/500va"],
+  ["BRobotix 256117 funda basica para laptop 17 pulgadas neopreno negra", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/17-pulgadas"],
+  ["BRobotix 6006054 cable USB-C a USB-C USB 3.2 Gen 2 1m negro", "BROBOTIX", "accesorios/cables-adaptadores/usb/usb-c-c/1m"],
+  ["Zebra DS4608-SR7U2100SGW lector codigo barras 1D 2D PDF417 USB", "ZEBRA", "punto-de-venta/lectores-codigo-barras/2d-usb"],
+  ["Kingston KCP432SD8/32 memoria RAM SO-DIMM DDR4 32GB 3200MT/s", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/sodimm-ddr4/32gb-3200"],
+  ["Netis ST3105GC switch Gigabit 5 puertos 10/100/1000 no administrable", "NETIS", "redes/switches/no-administrables/gigabit/5-puertos"],
+  ["Vertiv Liebert PSA5-1000MT-120 UPS line-interactive 1000VA 600W LCD", "VERTIV", "energia/no-breaks-ups/line-interactive/1000va"],
+  ["Epson DS-770 II escaner documental duplex 45ppm 90ipm 7000 paginas", "EPSON", "impresion/escaneres/documentales-duplex"],
+  ["APC SMX120RMBP2U banco externo baterias Smart-UPS X 120V rack torre", "APC", "energia/accesorios-ups/bancos-baterias-rack-torre"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
