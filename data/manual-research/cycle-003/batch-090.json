@@ -1,0 +1,523 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b090-2026-05-29",
+  "cycle": 3,
+  "batch": 90,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "uxmk6cfck4igt9x",
+      "research": {
+        "confidence": 0.98,
+        "name": "Intellinet 342605 cable patch Cat6 U/UTP RJ45 macho a macho 3m azul",
+        "description": "Cable patch Intellinet 342605 Cat6 U/UTP de 3 metros, RJ45 macho a macho, color azul, 24 AWG, 250 MHz y soporte hasta 10 Gbps para cableado estructurado.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/3m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/3m/intellinet-342605",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-342605",
+        "gallery": [
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat6-utp-342605-1.jpg?v=1666306223&width=1946",
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat6-utp-342605-packaging-4.jpg?v=1666306223&width=1946",
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat6-utp-342605-2.jpg?v=1666306223&width=1946"
+        ],
+        "documents": [
+          { "label": "Intellinet 342605 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51462/342605_datasheet_english.pdf" },
+          { "label": "Intellinet 342605 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51464/342605_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "342605",
+          "seriesSku": "IEC-C6-BL-10",
+          "providerSku": "CABITL1790 / CB-453",
+          "upc": "766623342605",
+          "ean": "0766623342605",
+          "productType": "Cable patch Cat6 U/UTP",
+          "connectors": "2 x RJ45 macho",
+          "categoryRating": "Cat6",
+          "shielding": "U/UTP",
+          "frequency": "250 MHz",
+          "speed": "Hasta 10 Gbps",
+          "cableGauge": "24 AWG",
+          "conductorType": "Stranded CCA",
+          "jacket": "PVC CM",
+          "contacts": "6 micro-inch gold-plated",
+          "poeSupport": "IEEE 802.3bt / PoE++ / 4PPoE / Ultra PoE",
+          "standards": ["ISO/IEC 11801", "EN 50288", "ANSI/TIA-568.2-D", "RoHS", "REACH"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 325 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1790", "stock": 325, "price": 3.36, "currency": "USD", "branch": "CT:325" },
+            { "providerId": "cva", "providerSku": "CB-453", "stock": 0, "price": 3.41, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a patch cord Cat6 por longitud."]
+        },
+        "measurements": { "length": "3 m / 10 ft", "dimensions": "3 x 0.01 x 0.015 m", "weight": "0.11 kg neto / 0.12 kg bruto", "packageDimensions": "280 x 175 x 20 mm", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Intellinet 342605 official EU", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-342605" },
+          { "title": "Intellinet 342605 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51462/342605_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "2yfurvj5a4vb6bl",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 313629 cable SVGA HD15 macho a macho 15m negro",
+        "description": "Cable de monitor SVGA Manhattan 313629 de 15 metros, HD15 macho a HD15 macho, blindaje foil y trenzado, conductor 28 AWG y alivio de tension moldeado.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-15m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-15m/manhattan-313629",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-svga-monitor-cable-313629",
+        "gallery": [
+          "https://manhattanproducts.us/cdn/shop/products/svga-monitor-cable-313629-1_43aef6a2-eba4-44fc-a4ff-1128bf48f074.jpg?v=1678689297&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 313629 datasheet", "type": "datasheet", "url": "https://www.manhattanshop.it/amfilerating/file/download/file_id/14794/" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "313629",
+          "providerSku": "CABITL180 / CB-208",
+          "upc": "766623313629",
+          "ean": "0766623313629",
+          "productType": "Cable SVGA para monitor",
+          "connectors": "2 x HD15 macho",
+          "cableGauge": "28 AWG",
+          "color": "Negro",
+          "shielding": "Foil + trenzado",
+          "boot": "PVC moldeado con alivio de tension",
+          "certifications": ["UL 2919"],
+          "warranty": "Lifetime",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 32 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL180", "stock": 32, "price": 21.02, "currency": "USD", "branch": "CT:32" },
+            { "providerId": "cva", "providerSku": "CB-208", "stock": 0, "price": 18.0, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria previa de monitor refinada a cable VGA HD15 de 15 m."]
+        },
+        "measurements": { "length": "15 m / 50 ft", "weight": "1.08 kg neto / 1.09 kg bruto", "packaging": "Donut" },
+        "sourceRefs": [
+          { "title": "Manhattan 313629 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-svga-monitor-cable-313629" },
+          { "title": "Rapid Manhattan 313629", "type": "catalog", "url": "https://www.rapidonline.com/manhattan-313629-svga-monitor-cable-15m-58-5875" }
+        ]
+      }
+    },
+    {
+      "product_id": "qjnvlc3zqre1wuh",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 308458 cable HDMI de alta velocidad macho a macho 22.5m negro",
+        "description": "Cable HDMI Manhattan 308458 de alta velocidad, 22.5 metros, HDMI macho a macho, doble blindaje y contactos niquelados para video 1080p y Deep Color.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/22-5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/22-5m/manhattan-308458",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-308458",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/high-speed-hdmi-cable-308458-1.jpg?v=1678688576",
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/high-speed-hdmi-cable-308458-packaging-5.jpg?v=1678688576"
+        ],
+        "documents": [
+          { "label": "Manhattan 308458 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42788/308458_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "308458",
+          "providerSku": "CABITL195 / CB-423",
+          "upc": "766623308458",
+          "ean": "0766623308458",
+          "productType": "Cable HDMI de alta velocidad",
+          "connectors": "2 x HDMI 19 pines macho",
+          "resolution": "1080p, Deep Color",
+          "contacts": "Niquelados",
+          "cableGauge": "28 AWG",
+          "shielding": "Doble blindaje",
+          "certifications": ["CE", "RoHS", "REACH"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 5 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL195", "stock": 5, "price": 40.17, "currency": "USD", "branch": "CT:5" },
+            { "providerId": "cva", "providerSku": "CB-423", "stock": 0, "price": 46.43, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a HDMI de alta velocidad 22.5 m."]
+        },
+        "measurements": { "length": "22.5 m / 75 ft", "dimensions": "22.5 x 0.20 x 0.13 m", "weight": "1.20 kg neto / 1.25 kg bruto", "packaging": "Donut" },
+        "sourceRefs": [
+          { "title": "Manhattan 308458 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-308458" },
+          { "title": "Manhattan 308458 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42788/308458_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "tdbkoc7zenjh6fb",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 306133 cable HDMI de alta velocidad macho a macho 5m negro",
+        "description": "Cable HDMI Manhattan 306133 de alta velocidad, 5 metros, HDMI macho a macho, doble blindaje, 10.2 Gbps a 340 MHz y compatibilidad 4K@30Hz, 3D y Deep Color.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m/manhattan-306133",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-306133",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/high-speed-hdmi-cable-306133-1_2e9e27c0-caa8-4618-8e4f-d4a1e4507933.jpg?v=1678688711",
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/high-speed-hdmi-cable-306133-2_ac46a693-e4e6-4b9d-92dc-86218aa3070a.jpg?v=1678688711"
+        ],
+        "documents": [
+          { "label": "Manhattan 306133 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42764/306133_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "306133",
+          "providerSku": "CABITL1975 / CB-274",
+          "upc": "766623306133",
+          "ean": "0766623306133",
+          "productType": "Cable HDMI de alta velocidad",
+          "connectors": "2 x HDMI 19 pines macho",
+          "resolution": "4K@30Hz, 3D, 1080p Deep Color",
+          "bandwidth": "10.2 Gbps at 340 MHz",
+          "contacts": "Niquelados",
+          "cableGauge": "30 AWG",
+          "shielding": "Doble blindaje",
+          "certifications": ["CE", "RoHS", "REACH"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 981 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 26 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1975", "stock": 981, "price": 5.14, "currency": "USD", "branch": "CT:981" },
+            { "providerId": "cva", "providerSku": "CB-274", "stock": 26, "price": 5.22, "currency": "USD", "branch": "CVA:26" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a HDMI de alta velocidad 5 m."]
+        },
+        "measurements": { "length": "5 m / 16.5 ft", "weight": "0.20 kg neto / 0.21 kg bruto", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 306133 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-306133" },
+          { "title": "Manhattan 306133 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42764/306133_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "v9olu6woqc90zvl",
+      "research": {
+        "confidence": 0.98,
+        "name": "Intellinet 318129 cable patch Cat5e UTP RJ45 macho a macho 0.5m azul",
+        "description": "Cable patch Intellinet 318129 Cat5e UTP de 0.5 metros, RJ45 macho a macho, color azul, 350 MHz y contactos dorados para conexiones Ethernet.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/0-5m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/0-5m/intellinet-318129",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat5e-utp-318129",
+        "gallery": [
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat5e-utp-318129-1.jpg?v=1665007154&width=1946",
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat5e-utp-318129-packaging-1.jpg?v=1665007154&width=1946"
+        ],
+        "documents": [
+          { "label": "Intellinet 318129 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/58120/318129_datasheet_english.pdf" },
+          { "label": "Intellinet 318129 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/58122/318129_datasheet_spanish.pdf" }
+        ],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "318129",
+          "providerSku": "CABITL2040 / CB-380",
+          "upc": "766623318129",
+          "ean": "0766623318129",
+          "asin": "B002IXPBII",
+          "productType": "Cable patch Cat5e UTP",
+          "connectors": "2 x RJ45 macho",
+          "categoryRating": "Cat5e",
+          "shielding": "UTP",
+          "frequency": "350 MHz",
+          "contacts": "Gold-plated",
+          "jacket": "PVC",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 10 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL2040", "stock": 10, "price": 0.93, "currency": "USD", "branch": "CT:10" },
+            { "providerId": "cva", "providerSku": "CB-380", "stock": 2, "price": 0.95, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a patch cord Cat5e de 0.5 m."]
+        },
+        "measurements": { "length": "0.5 m / 1.5 ft", "weight": "0.02 kg neto / 0.03 kg bruto", "packageDimensions": "225 x 125 x 15 mm", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Intellinet 318129 official EU", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat5e-utp-318129" },
+          { "title": "Intellinet 318129 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/58120/318129_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "5h5riim33cyfuyn",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 306126 cable HDMI de alta velocidad con Ethernet macho a macho 3m negro",
+        "description": "Cable HDMI Manhattan 306126 de alta velocidad con Ethernet, 3 metros, HDMI macho a macho, 10.2 Gbps a 340 MHz y soporte ARC, 3D y 4K@30Hz.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m/manhattan-306126",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-306126",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/high-speed-hdmi-cable-306126-1.jpg?v=1678688720",
+          "https://cdn.shopify.com/s/files/1/0414/6112/1174/products/high-speed-hdmi-cable-306126-2.jpg?v=1678688720"
+        ],
+        "documents": [
+          { "label": "Manhattan 306126 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42758/306126_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "306126",
+          "providerSku": "CABITL2045 / CB-319",
+          "upc": "766623306126",
+          "ean": "0766623306126",
+          "productType": "Cable HDMI de alta velocidad con Ethernet",
+          "connectors": "2 x HDMI 19 pines macho",
+          "features": ["HDMI Ethernet Channel", "ARC", "3D Video", "4K@30Hz", "Deep Color"],
+          "bandwidth": "10.2 Gbps at 340 MHz",
+          "contacts": "Niquelados",
+          "cableGauge": "30 AWG",
+          "shielding": "Doble blindaje",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 2093 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 25 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL2045", "stock": 2093, "price": 2.43, "currency": "USD", "branch": "CT:2093" },
+            { "providerId": "cva", "providerSku": "CB-319", "stock": 25, "price": 2.46, "currency": "USD", "branch": "CVA:25" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a HDMI de alta velocidad 3 m."]
+        },
+        "measurements": { "length": "3 m / 10 ft", "weight": "0.12 kg neto", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 306126 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-high-speed-hdmi-cable-306126" },
+          { "title": "Manhattan 306126 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42758/306126_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "rq66zw13zshvvmz",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 338653 cable de extension USB 2.0 A macho a A hembra 1.8m negro",
+        "description": "Cable de extension USB 2.0 Manhattan 338653 de 1.8 metros, con USB-A macho a USB-A hembra, 480 Mbps, contactos dorados y blindaje para perifericos USB.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/1-8m/manhattan-338653",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-extension-cable-338653",
+        "gallery": [
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-extension-cable-338653-1.jpg?v=1678688890&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-extension-cable-338653-2.jpg?v=1678688890&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 338653 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42196/338653_datasheet_english.pdf" },
+          { "label": "Manhattan 338653 declaration", "type": "declaration_of_conformity", "url": "https://s3.amazonaws.com/assets.mhint/downloads/65422/338653_declaration_of_conformity.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "338653",
+          "providerSku": "CABITL1600",
+          "substituteSku": "CABITL1265",
+          "upc": "766623338653",
+          "ean": "0766623338653",
+          "productType": "Cable de extension USB 2.0",
+          "usbVersion": "USB 2.0",
+          "connectors": "USB-A macho a USB-A hembra",
+          "dataRate": "480 Mbps",
+          "color": "Negro",
+          "cableGauge": "28 AWG",
+          "contacts": "Gold-plated",
+          "certifications": ["UL 2725", "USB 2.0"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL1600", "stock": 11, "price": 1.5, "currency": "USD", "branch": "CMT:4,D2A:4,HMO:2,TRN:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Modelo ausente en proveedor: UPC y SKU mapean a Manhattan 338653."]
+        },
+        "measurements": { "length": "1.8 m / 6 ft", "weight": "0.05 kg neto / 0.05 kg bruto", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 338653 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-extension-cable-338653" },
+          { "title": "Manhattan 338653 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/42196/338653_datasheet_english.pdf" },
+          { "title": "NovusRed CABITL1600", "type": "catalog", "url": "https://novusred.mx/computo-y-multimedia/cables-y-adaptadores-para-computo/cables-usb/61849-cable-de-extensi%C3%B3n-usb20-de-alta-velocidad-338653-manhattan-usb-20-a-macho-a-hembra-480-mbps-18m-color-negro-CABITL1600.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "tpirii75tfa0tgl",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 333382 cable USB 2.0 A macho a B macho 3m negro",
+        "description": "Cable USB 2.0 Manhattan 333382 de 3 metros, USB-A macho a USB-B macho, 480 Mbps, contactos dorados y blindaje para impresoras y dispositivos USB-B.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/3m/manhattan-333382",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-333382",
+        "gallery": [
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-b-device-cable-333382-1.jpg?v=1678688980&width=1400",
+          "https://manhattanproducts.us/cdn/shop/products/hi-speed-usb-b-device-cable-333382-packaging-3.jpg?v=1678688980&width=1400"
+        ],
+        "documents": [
+          { "label": "Manhattan 333382 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43496/333382_datasheet_english.pdf" },
+          { "label": "Manhattan 333382 declaration", "type": "declaration_of_conformity", "url": "https://s3.amazonaws.com/assets.mhint/downloads/68724/333382_declaration_of_conformity_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "333382",
+          "providerSku": "CABITL2090 / CB-232",
+          "upc": "766623333382",
+          "ean": "0766623333382",
+          "asin": "B00173JJBA",
+          "productType": "Cable USB 2.0 A-B",
+          "usbVersion": "USB 2.0",
+          "connectors": "USB-A macho a USB-B macho",
+          "dataRate": "480 Mbps",
+          "color": "Negro",
+          "cableGauge": "28 AWG",
+          "contacts": "Gold-plated",
+          "certifications": ["UL 2725", "USB 2.0"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 204 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL2090", "stock": 204, "price": 1.87, "currency": "USD", "branch": "CT:204" },
+            { "providerId": "cva", "providerSku": "CB-232", "stock": 2, "price": 1.9, "currency": "USD", "branch": "CVA:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Titulo de proveedor usa 33382; se normaliza al modelo oficial 333382."]
+        },
+        "measurements": { "length": "3 m / 10 ft", "dimensions": "3 x 0.015 x 0.014 m", "weight": "0.07 kg neto / 0.08 kg bruto", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 333382 official US", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-b-device-cable-333382" },
+          { "title": "Manhattan 333382 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43496/333382_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "azebs1xg2uf4688",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 307116 cable DisplayPort 1.2 macho a macho 2m negro 4K60Hz",
+        "description": "Cable DisplayPort Manhattan 307116 de 2 metros, DisplayPort macho a macho con pestillos, version 1.2, 21.6 Gbps HBR2 y soporte 4K@60Hz.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport/2m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport/2m/manhattan-307116",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.eu/products/manhattan-en-4kat60hz-displayport-monitor-cable-307116",
+        "gallery": [
+          "https://cdn.shopify.com/s/files/1/0274/1986/9297/products/4kat60hz-displayport-monitor-cable-307116-1_f416524c-8270-4c08-a6fe-86851d8da1c7.jpg?v=1678759242",
+          "https://cdn.shopify.com/s/files/1/0274/1986/9297/products/4kat60hz-displayport-monitor-cable-307116-packaging-5_1db60658-e0d2-465a-914a-d4d870d43768.jpg?v=1678759242"
+        ],
+        "documents": [
+          { "label": "Manhattan 307116 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/44320/307116_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "307116",
+          "providerSku": "CABITL255 / CB-355",
+          "upc": "766623307116",
+          "ean": "0766623307116",
+          "productType": "Cable DisplayPort 1.2",
+          "connectors": "2 x DisplayPort 20 pines macho con pestillos",
+          "resolution": "Hasta 4K@60Hz",
+          "bandwidth": "21.6 Gbps HBR2",
+          "audio": "24-bit 8-channel uncompressed",
+          "cableGauge": "30 AWG",
+          "contacts": "Niquelados",
+          "jacket": "PVC",
+          "certifications": ["UL 20276"],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 2 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL255", "stock": 2, "price": 4.86, "currency": "USD", "branch": "CT:2" },
+            { "providerId": "cva", "providerSku": "CB-355", "stock": 0, "price": 3.98, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria generica refinada a cable DisplayPort 2 m."]
+        },
+        "measurements": { "length": "2 m / 6.6 ft", "weight": "0.14 kg neto / 0.15 kg bruto", "packageDimensions": "315 x 189 x 20 mm", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan 307116 official EU", "type": "manufacturer", "url": "https://manhattanproducts.eu/products/manhattan-en-4kat60hz-displayport-monitor-cable-307116" },
+          { "title": "Manhattan 307116 official MX", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-4kat60hz-cable-displayport-307116" }
+        ]
+      }
+    },
+    {
+      "product_id": "hzmq86qnbonhsq6",
+      "research": {
+        "confidence": 0.97,
+        "name": "Intellinet 319812 cable patch Cat5e UTP RJ45 macho a macho 4.2m gris",
+        "description": "Cable patch Intellinet 319812 Cat5e UTP de 4.2 metros, RJ45 macho a macho, color gris, 350 MHz y alivio de tension moldeado para redes 10/100/1000BASE-T.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/4-2m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/4-2m/intellinet-319812",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat5e-utp-319812",
+        "gallery": [
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat5e-utp-319812-1_df5472dc-d8ba-4cf2-b53a-82ffa899951e.jpg?v=1665006942&width=1946",
+          "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat5e-utp-319812-packaging-1_a1dfab62-f912-48fa-be74-42c3e822a5fb.jpg?v=1665006942&width=1946"
+        ],
+        "documents": [
+          { "label": "Intellinet 319812 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/50993/319812_datasheet_english.pdf" },
+          { "label": "Intellinet 319812 datasheet Spanish", "type": "datasheet", "url": "https://www.icintracom.biz/amfilerating/file/download/file_id/24114/" }
+        ],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "319812",
+          "seriesSku": "IEC-C5-GY-14",
+          "providerSku": "CABITL260 / CB-218",
+          "upc": "766623319812",
+          "ean": "0766623319812",
+          "asin": "B0013IYBEE",
+          "productType": "Cable patch Cat5e UTP",
+          "connectors": "2 x RJ45 macho",
+          "categoryRating": "Cat5e",
+          "shielding": "UTP",
+          "frequency": "350 MHz",
+          "contacts": "Gold-plated",
+          "jacket": "PVC",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CT", "stock": 101 },
+            { "providerId": "cva", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL260", "stock": 101, "price": 4.4, "currency": "USD", "branch": "CT:101" },
+            { "providerId": "cva", "providerSku": "CB-218", "stock": 0, "price": 4.46, "currency": "USD", "branch": "CVA:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Categoria de switch corregida a patch cord Cat5e de 4.2 m."]
+        },
+        "measurements": { "length": "4.2 m / 14 ft", "weight": "0.14 kg neto", "packageDimensions": "280 x 175 x 35 mm", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Intellinet 319812 official EU", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat5e-utp-319812" },
+          { "title": "Intellinet 319812 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/50993/319812_datasheet_english.pdf" }
+        ]
+      }
+    }
+  ]
+}

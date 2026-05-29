@@ -462,6 +462,16 @@ const researchedBatchCases = [
   ["Manhattan 345408 cable USB V2.0 A-B 5.0m plata", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/5m"],
   ["Manhattan 519779 cable USB V2.0 extension activa 4.9m", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/activas/5m"],
   ["Manhattan 340960 cable USB extension 4.5m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/4-5m"],
+  ["Intellinet 342605 cable patch Cat6 UTP azul 3m", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/3m"],
+  ["Manhattan 313629 cable SVGA monitor HD15 macho macho 15m", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15-15m"],
+  ["Manhattan 308458 cable HDMI 1.3 M-M 22.5m bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/22-5m"],
+  ["Manhattan 306133 cable HDMI 1.3 M-M 5.0m bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m"],
+  ["Intellinet 318129 cable patch Cat5e UTP azul 0.5m", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat5e/0-5m"],
+  ["Manhattan 306126 cable HDMI 1.3 M-M 3.0m bolsa", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m"],
+  ["Manhattan 338653 cable USB extension A macho a A hembra 1.8m", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/1-8m"],
+  ["Manhattan 33382 cable USB V2.0 A-B 3.0m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-b/3m"],
+  ["Manhattan 307116 cable DisplayPort v1.2 2m 4K60Hz", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport/2m"],
+  ["Intellinet 319812 cable patch Cat5e UTP gris 4.2m 14ft", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat5e/4-2m"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
