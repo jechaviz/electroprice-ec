@@ -374,7 +374,7 @@ const researchedBatchCases = [
   ["ADATA AD4U266616G19-SGN memoria UDIMM DDR4 16GB 2666MHz", "ADATA", "computo/componentes/memoria-ram/udimm-ddr4/16gb-2666"],
   ["Manhattan 440271 candado laptop con llave 1.4m K-slot", "MANHATTAN", "accesorios/seguridad-fisica/candados-laptop/llave"],
   ["Manhattan 323239 cable HDMI alta velocidad Ethernet 5m", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m-ethernet"],
-  ["Logitech M90 910-004053 mouse USB alambrico 1000 DPI", "LOGITECH", "computo/perifericos/mouse/alambricos/basicos"],
+  ["Logitech M90 910-004053 mouse USB alambrico 1000 DPI", "LOGITECH", "computo/perifericos/mouse/alambricos/basicos/1000-dpi"],
   ["Stylos STMSSD4B SSD 1TB SATA III 2.5 pulgadas", "STYLOS", "computo/almacenamiento/ssd/2-5-sata/1tb"],
   ["Manhattan MW6200 190343 mouse inalambrico 6 botones 1600 DPI", "MANHATTAN", "computo/perifericos/mouse/inalambricos"],
   ["Barkan E310+ soporte TV pared inclinable 50kg", "BARKAN", "video/soportes-tv/pared/inclinables"],

@@ -1,0 +1,438 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b103-2026-05-29",
+  "cycle": 3,
+  "batch": 103,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "kjf91i5772swqbs",
+      "research": {
+        "confidence": 0.96,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DHI-USB-U106-20-16GB memoria USB 2.0 16GB metalica",
+        "description": "Memoria USB-A Dahua DHI-USB-U106-20-16GB de 16GB con interfaz USB 2.0, carcasa metalica compacta, formato FAT32, diseno portatil resistente a agua, golpes y caidas, compatible con Windows, macOS y Linux.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/metalicas/dahua-dhi-usb-u106-20-16gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/memory/usb-flash-drives/u106/usb-u106-20-16gb",
+        "gallery": ["https://www.dahuasecurity.com/products/memory/usb-flash-drives/u106/usb-u106-20-16gb", "https://material.dahuasecurity.com/uploads/image/20210220/USB6.png", "https://compupuebla.com/producto/memoria-usb-naceb-16gb/"],
+        "documents": [
+          { "label": "Dahua USB-U106-20-16GB datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/USB-U106-20-16GB_datasheet_20231025.pdf" },
+          { "label": "Dahua USB flash drive quick start guide", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/9907/user_manual/USB_Flash_Drive_Quick_Start_Guide-V1.0.0-20250711.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DHI-USB-U106-20-16GB",
+          "providerSku": "MEMNCB020",
+          "ean": "7502262803106",
+          "productType": "Memoria USB 2.0",
+          "capacity": "16 GB",
+          "interface": "USB-A 2.0",
+          "casing": "Metal mini casing",
+          "fileSystem": "FAT32",
+          "readSpeed": "10 MB/s to 25 MB/s",
+          "writeSpeed": "3 MB/s to 10 MB/s",
+          "compatibility": "Windows 7/8/10, macOS 10.15 or later, Linux 2.4 or later",
+          "power": "5 V, 150 mA",
+          "warranty": "5 years by official datasheet",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMNCB020", "stock": 37365, "price": 3.22, "currency": "USD", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider and some Mexico reseller labels use Naceb, but the exact model is Dahua DHI-USB-U106-20-16GB.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Official Dahua page does not publish EAN, so EAN is retained from provider feed."]
+        },
+        "measurements": { "dimensions": "40.4 x 12.25 x 4.65 mm device; package 100 x 132 x 5.6 mm", "weight": "5.7 g net; 14.2 g gross package" },
+        "sourceRefs": [
+          { "title": "Dahua USB-U106-20-16GB official", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/memory/usb-flash-drives/u106/usb-u106-20-16gb" },
+          { "title": "Dahua USB-U106-20-16GB datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/USB-U106-20-16GB_datasheet_20231025.pdf" },
+          { "title": "CompuPuebla USB-U106-20-16GB listing", "type": "retailer", "url": "https://compupuebla.com/producto/memoria-usb-naceb-16gb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "p5zmkad701slb6c",
+      "research": {
+        "confidence": 0.97,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DH-PFM800-E balun pasivo HDCVI 1080p para CCTV",
+        "description": "Balun pasivo Dahua DH-PFM800-E de 1 canal para transmision HDCVI por cable UTP CAT5E/6, sin fuente de poder, con conector BNC hembra y terminales atornillables, compatible con HDCVI, AHD, TVI y CVBS.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/baluns-video/hdcvi-1080p",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/baluns-video/hdcvi-1080p/dahua-dh-pfm800-e",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/mena/products/All-Products/HDCVI-Cameras/HDCVI-Accessories/Baluns/PFM800-E",
+        "gallery": ["https://www.dahuasecurity.com/mena/products/All-Products/HDCVI-Cameras/HDCVI-Accessories/Baluns/PFM800-E", "https://material.dahuasecurity.com/upfiles/PFM800-E_thumb.png", "https://eps.com.mx/productos/349-PFM800-E/"],
+        "documents": [
+          { "label": "Dahua PFM800-E datasheet", "type": "datasheet", "url": "https://www.dahuasecurity.com/asset/upload/product/20180507/PFM800-E_datasheet_20180507.pdf" },
+          { "label": "Dahua PFM800-E manual ES", "type": "manual", "url": "https://cdn.tvc.mx/media/1415263/Dahua-PFM800-E-MANUAL-DE-USUARIO-ESPA%C3%91OL.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFM800-E",
+          "providerSku": "ACCDAH650",
+          "ean": "6923172519320",
+          "productType": "Balun pasivo HDCVI",
+          "channels": "1 channel",
+          "transmissionDistance": "HDCVI 720p up to 400 m; 1080p up to 250 m",
+          "cable": "UTP CAT5E/CAT6",
+          "connectors": "Female BNC and pluggable screw terminals",
+          "compatibility": "HDCVI, AHD, TVI, CVBS",
+          "antiInterference": ">60 dB",
+          "impedance": "BNC 75 ohm; UTP 100 ohm",
+          "mtbf": ">10000 h",
+          "operatingTemperature": "-10 C to 55 C",
+          "humidity": "0% to 95%",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCDAH650", "stock": 19150, "price": 1.74, "currency": "USD", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Some reseller pages describe the item generically as video balun, but Dahua identifies it as a passive HDCVI balun."]
+        },
+        "measurements": { "dimensions": "180 x 19 x 16 mm", "weight": "42 g per pair by Dahua specification" },
+        "sourceRefs": [
+          { "title": "Dahua PFM800-E official", "type": "manufacturer", "url": "https://www.dahuasecurity.com/mena/products/All-Products/HDCVI-Cameras/HDCVI-Accessories/Baluns/PFM800-E" },
+          { "title": "Dahua PFM800-E datasheet", "type": "datasheet", "url": "https://www.dahuasecurity.com/asset/upload/product/20180507/PFM800-E_datasheet_20180507.pdf" },
+          { "title": "EPS PFM800-E", "type": "retailer", "url": "https://eps.com.mx/productos/349-PFM800-E/" }
+        ]
+      }
+    },
+    {
+      "product_id": "hg6cjuyrh6clfr2",
+      "research": {
+        "confidence": 0.96,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DHI-USB-U106-20-8GB memoria USB 2.0 8GB metalica",
+        "description": "Memoria USB-A Dahua DHI-USB-U106-20-8GB de 8GB con interfaz USB 2.0, carcasa metalica compacta, formato FAT32, diseno portatil resistente a agua, golpes y caidas, compatible con Windows, macOS y Linux.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/8gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/8gb/metalicas/dahua-dhi-usb-u106-20-8gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/memory/usb-flash-drives/u106/usb-u106-20-8gb",
+        "gallery": ["https://www.dahuasecurity.com/products/memory/usb-flash-drives/u106/usb-u106-20-8gb", "https://material.dahuasecurity.com/uploads/image/20210220/USB6.png", "https://compupuebla.com/producto/memoria-usb-naceb-8gb/"],
+        "documents": [{ "label": "Dahua USB-U106-20-8GB datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/USB-U106-20-8GB_datasheet_20231025.pdf" }],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DHI-USB-U106-20-8GB",
+          "providerSku": "MEMNCB010",
+          "ean": "7502262803090",
+          "productType": "Memoria USB 2.0",
+          "capacity": "8 GB",
+          "interface": "USB-A 2.0",
+          "casing": "Metal mini casing",
+          "fileSystem": "FAT32",
+          "readSpeed": "10 MB/s to 25 MB/s",
+          "writeSpeed": "3 MB/s to 10 MB/s",
+          "compatibility": "Windows 7/8/10, macOS 10.15 or later, Linux 2.4 or later",
+          "power": "5 V, 150 mA",
+          "warranty": "5 years by official datasheet",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMNCB010", "stock": 14971, "price": 2.94, "currency": "USD", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider and some Mexico reseller labels use Naceb, but the exact model is Dahua DHI-USB-U106-20-8GB.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Official Dahua page does not publish EAN, so EAN is retained from provider feed."]
+        },
+        "measurements": { "dimensions": "40.4 x 12.25 x 4.65 mm device; package 100 x 132 x 5.6 mm", "weight": "5.7 g net; 14.2 g gross package" },
+        "sourceRefs": [
+          { "title": "Dahua USB-U106-20-8GB official", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/memory/usb-flash-drives/u106/usb-u106-20-8gb" },
+          { "title": "Dahua USB-U106-20-8GB datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/USB-U106-20-8GB_datasheet_20231025.pdf" },
+          { "title": "CompuPuebla USB-U106-20-8GB listing", "type": "retailer", "url": "https://compupuebla.com/producto/memoria-usb-naceb-8gb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "gs33kl4c4no8x49",
+      "research": {
+        "confidence": 0.97,
+        "brand": "TP-LINK",
+        "name": "TP-Link TL-WR840N router Wi-Fi N300 2.4GHz 4 puertos LAN",
+        "description": "Router TP-Link TL-WR840N Wi-Fi 4 de 300 Mbps en 2.4 GHz con 1 puerto WAN y 4 puertos LAN 10/100 Mbps, dos antenas fijas, modos router, access point, range extender y WISP, red de invitados, control parental, QoS y firewall SPI.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/tp-link-tl-wr840n",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/wifi-router/tl-wr840n/",
+        "gallery": ["https://www.tp-link.com/mx/home-networking/wifi-router/tl-wr840n/", "https://globaloffice.com.mx/app/detalle/producto/redes/router-tplink-tlwr840n-inalambrico-300mb/tl-wr840n"],
+        "documents": [
+          { "label": "TP-Link TL-WR840N downloads", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tl-wr840n/" },
+          { "label": "TP-Link TL-WR840N quick installation guide", "type": "manual", "url": "https://www.tp-link.com/mx/document/70237/" },
+          { "label": "TP-Link TL-WR840N datasheet", "type": "datasheet", "url": "https://www.tp-link.com/mx/document/20566/" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WR840N",
+          "providerSkus": ["ROUTPL560", "NIC-2198"],
+          "upc": "845973070533",
+          "productType": "Router Wi-Fi N300",
+          "wirelessStandard": "IEEE 802.11b/g/n, Wi-Fi 4",
+          "speed": "300 Mbps at 2.4 GHz",
+          "ports": "1 x 10/100 Mbps WAN, 4 x 10/100 Mbps LAN",
+          "antennas": "2 fixed antennas",
+          "modes": "Router, access point, range extender, WISP",
+          "security": "WEP, WPA, WPA2, WPA/WPA2-Enterprise",
+          "features": "Guest network, parental controls, QoS, SPI firewall, IPv4, IPv6",
+          "power": "9 VDC, 0.6 A",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTPL560", "stock": 13255, "price": 11.93, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-2198", "stock": 138, "price": 11.33, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Existing Wi-Fi N category was correct but broad; refined to N300 router.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Hardware version and regional power plug are not included in provider feed; TP-Link support documents vary by version."]
+        },
+        "measurements": { "dimensions": "182 x 128 x 35 mm", "weight": "Not published reliably by primary source" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-WR840N official Mexico", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/wifi-router/tl-wr840n/" },
+          { "title": "TP-Link TL-WR840N support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tl-wr840n/" },
+          { "title": "GlobalOffice TL-WR840N", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/redes/router-tplink-tlwr840n-inalambrico-300mb/tl-wr840n" }
+        ]
+      }
+    },
+    {
+      "product_id": "zpn6tcwwvs9cnoy",
+      "research": {
+        "confidence": 0.94,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DH-PFM979-1S4P cable divisor de alimentacion DC 1 a 4 para CCTV",
+        "description": "Cable divisor de alimentacion Dahua DH-PFM979-1S4P para CCTV, con una entrada DC hembra y cuatro salidas DC macho 5.5 x 2.1 mm, fabricado en PVC negro, para distribuir energia de 12V a varias camaras o accesorios.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/divisores-energia-dc",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/divisores-energia-dc/dahua-dh-pfm979-1s4p",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/cable-divisor-alimentacion-pfm979-1s4p/",
+        "gallery": ["https://compupuebla.com/producto/cable-divisor-alimentacion-pfm979-1s4p/", "https://compupuebla.com/wp-content/uploads/2025/07/CableDivisorAlimentacinPFM9791S4P_PFM9791S4P_0.jpg", "https://unimart.com/products/cable-divisor-dahua-dh-pfm979-1s4p"],
+        "documents": [
+          { "label": "Dahua PFM979-1S4P datasheet mirror", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/CableDivisorAlimentacinPFM9791S4P_PFM9791S4P/CableDivisorAlimentacinPFM9791S4P_PFM9791S4P.pdf" },
+          { "label": "Dahua DH-PFM979-1S4P datasheet reseller copy", "type": "datasheet", "url": "https://images.jumpseller.com/store/ticam/28961321/attachments/e9e8ef93b7ee65fb08e11487775610b3/DH-PFM979-1S4P_datasheet_20231009.pdf?1751609971" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFM979-1S4P",
+          "providerSku": "ACCDAH2600",
+          "ean": "6923172569547",
+          "productType": "Divisor de alimentacion DC para CCTV",
+          "connector": "1 female DC to 4 male DC",
+          "connectorSize": "5.5 x 2.1 mm",
+          "ratedInput": "12 V, 5 A by reseller datasheets",
+          "material": "PVC",
+          "color": "Negro",
+          "certifications": "RoHS, REACH by reseller datasheet",
+          "insulation": ">=20 Mohm",
+          "conductorResistance": "<=1 ohm",
+          "insertionCycles": "500 cycles",
+          "package": "1 piece PE bag; 300 bags per carton",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCDAH2600", "stock": 9287, "price": 0.86, "currency": "USD", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["No reliable public Dahua product page was found, so reseller-hosted datasheets were used.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Some datasheet drawings differ between 220 mm and 245 mm section lengths; retain total cable tolerance."]
+        },
+        "measurements": { "dimensions": "Approx 100 x 245 mm body/lead drawing; total length 370 mm +/-10 mm; carton 400 x 330 x 200 mm", "weight": "33.4 g per bag" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Dahua PFM979-1S4P", "type": "retailer", "url": "https://compupuebla.com/producto/cable-divisor-alimentacion-pfm979-1s4p/" },
+          { "title": "Dahua PFM979-1S4P datasheet mirror", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/CableDivisorAlimentacinPFM9791S4P_PFM9791S4P/CableDivisorAlimentacinPFM9791S4P_PFM9791S4P.pdf" },
+          { "title": "Unimart Dahua DH-PFM979-1S4P", "type": "retailer", "url": "https://unimart.com/products/cable-divisor-dahua-dh-pfm979-1s4p" }
+        ]
+      }
+    },
+    {
+      "product_id": "p2h3qpzrelfa3dx",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother BT5001Y botella de tinta amarilla 48.8 ml 5000 paginas",
+        "description": "Botella original Brother BT5001Y de tinta amarilla de ultra alto rendimiento para sistemas InkBenefit Tank, contenido 48.8 ml y rendimiento aproximado de hasta 5000 paginas segun fuentes comerciales.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-bt5001/amarillo",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-bt5001/amarillo/brother-bt5001y",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/bt5001y",
+        "gallery": ["https://www.brother.com.mx/products/bt5001y", "https://mcashop.mx/producto/botella-de-tinta-amarillo-bt5001y-brother/119322", "https://zegucom.com.mx/producto/consumible-brother-bt5001y-tinta-amarillo/"],
+        "documents": [
+          { "label": "Brother BT5001Y reseller datasheet", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/119322" },
+          { "label": "Brother BT5001Y technical sheet mirror", "type": "datasheet", "url": "https://micom.mx/storage/recursos/Ficha_t%C3%A9cnica_BT5001Y.pdf" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BT5001Y",
+          "providerSku": "CARBRT3090",
+          "upc": "012502641032",
+          "productType": "Botella de tinta amarilla",
+          "color": "Amarillo",
+          "inkVolume": "48.8 ml",
+          "yield": "Up to 5000 pages by commercial datasheets",
+          "compatibleFamilies": "Brother InkBenefit Tank DCP, MFC and HL models using BT5001 series",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT3090", "stock": 8890, "price": 155.56, "currency": "MXN", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some stores call this item cartridge or toner; official product is an ink bottle.", "A 41.8 ml external value was discarded because Brother product imagery and Mexico data align with 48.8 ml.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Compatibility lists vary by country and printer generation; keep family-level compatibility unless an exact printer list is supplied."]
+        },
+        "measurements": { "dimensions": "Retail bottle dimensions not published reliably", "weight": "Not published reliably" },
+        "sourceRefs": [
+          { "title": "Brother BT5001Y official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/bt5001y" },
+          { "title": "MCAshop Brother BT5001Y", "type": "retailer", "url": "https://mcashop.mx/producto/botella-de-tinta-amarillo-bt5001y-brother/119322" },
+          { "title": "Zegucom Brother BT5001Y", "type": "retailer", "url": "https://zegucom.com.mx/producto/consumible-brother-bt5001y-tinta-amarillo/" }
+        ]
+      }
+    },
+    {
+      "product_id": "pnao2lkh2wzkr70",
+      "research": {
+        "confidence": 0.97,
+        "name": "Logitech M90 mouse USB alambrico optico 1000 DPI negro",
+        "description": "Mouse alambrico Logitech M90 con conexion USB-A, sensor optico de 1000 DPI, diseno ambidiestro, tres botones con rueda de desplazamiento, instalacion plug and play y compatibilidad con Windows, macOS, ChromeOS y Linux.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi/logitech-m90",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/pt-br/shop/p/m90-corded-mouse.910-004053",
+        "gallery": ["https://www.logitech.com/pt-br/shop/p/m90-corded-mouse.910-004053", "https://www.logitech-mexico.com/wp-content/uploads/2019/03/M90_Datasheet.pdf", "https://www.pcel.com/Logitech-910-004053-Mouse-Logitech-M90-Optico-Alambrico-USB-Color-Negro-20775"],
+        "documents": [
+          { "label": "Logitech M90 quick start guide", "type": "manual", "url": "https://www.logitech.com/assets/51940/2/m90-quick-start-guide.pdf" },
+          { "label": "Logitech M90 Mexico datasheet", "type": "datasheet", "url": "https://www.logitech-mexico.com/wp-content/uploads/2019/03/M90_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "M90",
+          "partNumber": "910-004053",
+          "providerSku": "MOULOG1230",
+          "alternateSku": "MS-936",
+          "upc": "097855102355",
+          "productType": "Mouse optico alambrico",
+          "interface": "USB-A wired",
+          "sensor": "Optical",
+          "resolution": "1000 DPI",
+          "buttons": "3 buttons including scroll wheel",
+          "handedness": "Ambidextrous",
+          "compatibility": "Windows, macOS, ChromeOS, Linux",
+          "cableLength": "1.8 m by retailer references",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOULOG1230", "stock": 8329, "price": 120, "currency": "MXN", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Existing wired mouse category was correct but broad; refined to basic 1000 DPI wired mice.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Primary Logitech page is Brazil for part 910-004053 because current Mexico public page was not reliably available."]
+        },
+        "measurements": { "dimensions": "113 x 62 x 38 mm product; package 8.70 x 4.20 x 13.20 cm by Mexico datasheet", "weight": "90 g product; 150 g package by Mexico datasheet" },
+        "sourceRefs": [
+          { "title": "Logitech M90 official part 910-004053", "type": "manufacturer", "url": "https://www.logitech.com/pt-br/shop/p/m90-corded-mouse.910-004053" },
+          { "title": "Logitech M90 quick start guide", "type": "manual", "url": "https://www.logitech.com/assets/51940/2/m90-quick-start-guide.pdf" },
+          { "title": "Logitech M90 Mexico datasheet", "type": "datasheet", "url": "https://www.logitech-mexico.com/wp-content/uploads/2019/03/M90_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "6ubw6l3at1maisc",
+      "research": {
+        "confidence": 0.93,
+        "brand": "STYLOS",
+        "name": "Stylos ST100 STMUSB2B memoria USB 16GB USB 2.0 plata",
+        "description": "Memoria USB Stylos ST100 STMUSB2B de 16GB en color plata, formato compacto metalico, interfaz USB 2.0, plug and play y compatibilidad con puertos USB 2.0/1.1/3.0 segun fuentes comerciales.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/metalicas/stylos-st100-stmusb2b",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://stylos.mx/producto/usb-16-gb/",
+        "gallery": ["https://stylos.mx/producto/usb-16-gb/", "https://www.pclapsc.com/cdn/shop/files/STMUSB2B.png?v=1741578679", "https://www.pclapsc.com/products/memoria-stylos-usb-16gb-stmusb2b-plata"],
+        "documents": [{ "label": "Stylos STMUSB2B product page", "type": "product_page", "url": "https://stylos.mx/producto/usb-16-gb/" }],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "ST100",
+          "partNumber": "STMUSB2B",
+          "providerSku": "MEMSTY050",
+          "ean": "7503024582383",
+          "productType": "Memoria USB 2.0",
+          "capacity": "16 GB",
+          "interface": "USB-A 2.0",
+          "color": "Plata",
+          "casing": "Metal compact body",
+          "compatibility": "USB 2.0, USB 1.1 and USB 3.0 ports by reseller references",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSTY050", "stock": 7655, "price": 3.1, "currency": "USD", "branch": "provider_stock_without_branch" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Manufacturer page is minimal, so dimensions and weight rely on reseller listings.", "Some external pages list 990 g, likely a logistical or catalog error and not the device weight.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Resistance claims appear in stores but no IP rating is published."]
+        },
+        "measurements": { "dimensions": "Approx 11 x 15 x 1 mm by reseller listings", "weight": "Approx 1 g by reseller listings; 990 g listings discarded as erroneous" },
+        "sourceRefs": [
+          { "title": "Stylos USB 16GB official", "type": "manufacturer", "url": "https://stylos.mx/producto/usb-16-gb/" },
+          { "title": "PCLAPSC Stylos STMUSB2B", "type": "retailer", "url": "https://www.pclapsc.com/products/memoria-stylos-usb-16gb-stmusb2b-plata" },
+          { "title": "Exel del Norte Stylos STMUSB2B", "type": "retailer", "url": "https://exel.com.mx/catalogo/producto/stmusb2b" }
+        ]
+      }
+    },
+    {
+      "product_id": "lwlus330650zn81",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson T504420-AL botella de tinta amarilla 504 EcoTank 70 ml",
+        "description": "Botella original Epson T504420-AL de tinta amarilla serie 504 para impresoras EcoTank compatibles, contenido 70 ml, consumible individual para equipos Epson L4150, L4160, L4260, L4360, L6161, L6171, L6191, L6270, L6370 y L14150 segun fuentes de compatibilidad.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504/amarillo",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t504/amarillo/epson-t504420-al",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504420-AL",
+        "gallery": ["https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504420-AL", "https://zegucom.com.mx/producto/tinta-epson-t504420-al-amarillo-ecotank/", "https://globaloffice.com.mx/app/detalle/producto/consumibles/tinta-epson-t504420al-botella-amarillo/t504420-al"],
+        "documents": [
+          { "label": "Epson EcoTank L4260 guide with 504 ink references", "type": "manual", "url": "https://files.support.epson.com/docid/cpd6/cpd60164.pdf" },
+          { "label": "Epson T504420-AL reseller datasheet", "type": "datasheet", "url": "https://mx.ingrammicro.com/_layouts/CommerceServer/IM/ProductDetails.aspx?idProducto=885228" }
+        ],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T504420-AL",
+          "series": "Epson 504",
+          "providerSkus": ["CAREPS5600", "CN-3565"],
+          "upcCandidates": ["010343938779", "010343939707"],
+          "productType": "Botella de tinta EcoTank",
+          "color": "Amarillo",
+          "inkVolume": "70 ml",
+          "compatibility": "Epson EcoTank L4150, L4160, L4260, L4360, L6161, L6171, L6191, L6270, L6370, L14150 by source references",
+          "yield": "External sources commonly list up to 6000 color pages; Epson yield depends on printer and ISO method",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS5600", "stock": 6284, "price": 159.3, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-3565", "stock": 39, "price": 157.26, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Existing Epson T504 category was correct but broad; refined to yellow bottle.", "Official Epson consumable page does not expose a reliable UPC or page yield in the visible page, so UPC candidates are retained as external identifiers.", "Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Color bottle page yield differs by printer model and method; avoid overpromising in display copy."]
+        },
+        "measurements": { "dimensions": "Retail bottle dimensions not published reliably", "weight": "Not published reliably" },
+        "sourceRefs": [
+          { "title": "Epson T504420-AL official Mexico", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T504/i/T504420-AL" },
+          { "title": "Epson EcoTank L4260 guide", "type": "manual", "url": "https://files.support.epson.com/docid/cpd6/cpd60164.pdf" },
+          { "title": "Zegucom Epson T504420-AL", "type": "retailer", "url": "https://zegucom.com.mx/producto/tinta-epson-t504420-al-amarillo-ecotank/" }
+        ]
+      }
+    },
+    {
+      "product_id": "jvi4pxxcnod1hak",
+      "research": {
+        "confidence": 0.97,
+        "brand": "TP-LINK",
+        "name": "TP-Link TL-WA850RE extensor Wi-Fi N300 2.4GHz con puerto Ethernet",
+        "description": "Extensor de rango TP-Link TL-WA850RE Wi-Fi N300 para 2.4 GHz con velocidad de hasta 300 Mbps, puerto Ethernet 10/100 Mbps, modos range extender y access point, boton Range Extender, indicadores LED de senal y dos antenas internas.",
+        "manualCategoryPath": "redes/extensores-wifi/n300",
+        "semanticCategoryPath": "redes/extensores-wifi/n300/tp-link-tl-wa850re",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/range-extender/tl-wa850re/",
+        "gallery": ["https://www.tp-link.com/mx/home-networking/range-extender/tl-wa850re/", "https://www.syscom.mx/productos/154816", "https://globaloffice.com.mx/app/detalle/producto/redes/extensor-de-rango-tp-link-tl-wa850re-300mbps/tl-wa850re"],
+        "documents": [
+          { "label": "TP-Link TL-WA850RE support downloads", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tl-wa850re/" },
+          { "label": "TP-Link TL-WA850RE user guide", "type": "manual", "url": "https://www.tp-link.com/mx/document/70283/" },
+          { "label": "TP-Link TL-WA850RE datasheet", "type": "datasheet", "url": "https://www.tp-link.com/mx/document/20613/" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WA850RE",
+          "providerSkus": ["ACPTPL150", "NIC-1547"],
+          "productType": "Extensor Wi-Fi N300",
+          "wirelessStandard": "IEEE 802.11b/g/n, Wi-Fi 4",
+          "speed": "300 Mbps at 2.4 GHz",
+          "ports": "1 x RJ45 10/100 Mbps Ethernet",
+          "modes": "Range extender, access point",
+          "buttons": "Range Extender, Reset",
+          "security": "WEP, WPA-PSK, WPA2-PSK",
+          "antennas": "2 internal antennas",
+          "powerConsumption": "Approx 3 W",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACPTPL150", "stock": 6167, "price": 10.8, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-1547", "stock": 28, "price": 10.25, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider feed did not expose branch-level warehouses for this SKU; stock_locations remain provider-level only.", "Hardware version and plug type are not specified in provider feed; support documents default to currently visible versions.", "Distributor EAN/UPC values vary by region, so no single barcode is promoted without provider confirmation."]
+        },
+        "measurements": { "dimensions": "110 x 65.8 x 75.2 mm", "weight": "Not published reliably by primary source" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-WA850RE official Mexico", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/range-extender/tl-wa850re/" },
+          { "title": "TP-Link TL-WA850RE support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tl-wa850re/" },
+          { "title": "SYSCOM TL-WA850RE", "type": "retailer", "url": "https://www.syscom.mx/productos/154816" }
+        ]
+      }
+    }
+  ]
+}
