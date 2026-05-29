@@ -42,6 +42,16 @@ const researchedBatchCases = [
   ["Brother BTD100M botella de tinta magenta 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd100/magenta"],
   ["ADATA UV250 AUV250-16G-RBK memoria USB 2.0 16GB plata", "ADATA", "computo/almacenamiento/memorias-flash/usb/16gb/metalicas"],
   ["Brother BTD100Y botella de tinta amarilla 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd100/amarillo"],
+  ["Stylos STMUSB3B memoria USB 2.0 32GB plata", "STYLOS", "computo/almacenamiento/memorias-flash/usb/32gb/metalicas"],
+  ["Dell KB216 teclado alambrico USB ingles negro", "DELL", "computo/perifericos/teclados/alambricos/usb/ingles"],
+  ["Samsung Galaxy Tab A11 Enterprise Edition 8.7 pulgadas 4GB 64GB Wi-Fi", "SAMSUNG", "computo/tabletas/android/8-pulgadas/enterprise"],
+  ["Brother BTD100C botella de tinta cian 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd100/cian"],
+  ["TP-Link LS1005G LiteWave switch gigabit no administrable 5 puertos", "TP-LINK", "redes/switches/no-administrables/gigabit/5-puertos"],
+  ["Brother BT5001C botella de tinta cian 48.8 ml 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-bt5001/cian"],
+  ["Brother BTD100BK botella de tinta negra 7500 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd100/negro"],
+  ["Nextep NE-529 rollo termico 80 x 70 mm paquete 5", "NEXTEP", "punto-de-venta/consumibles/rollos-termicos/80x70"],
+  ["TP-Link Tapo C500 camara Wi-Fi exterior 360 1080p IP65", "TP-LINK", "seguridad/cctv/camaras-ip-wifi/pt-exterior/2mp"],
+  ["Dell MS116 mouse USB optico alambrico 1000 DPI negro", "DELL", "computo/perifericos/mouse/alambricos/basicos/1000-dpi"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

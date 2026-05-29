@@ -1,0 +1,403 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b106-2026-05-29",
+  "cycle": 3,
+  "batch": 106,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "inlsqije29jdno9",
+      "research": {
+        "confidence": 0.93,
+        "name": "Stylos ST100 STMUSB3B memoria USB 2.0 32GB plata",
+        "description": "Memoria USB metalica Stylos ST100 de 32GB, color plata, para almacenamiento portatil basico con interfaz USB 2.0.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/metalicas/stylos-st100-stmusb3b",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FICHA_TECNICA_STMUSB1B_STMUSB2B_STMUSB3B_STMUSB4B_STMUSB5B_STMUSB6B.pdf",
+        "gallery": ["https://www.zegucom.com.mx/productos/STMUSB3B/img_1.jpg"],
+        "documents": [
+          { "label": "Stylos ST100 STMUSB series technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FICHA_TECNICA_STMUSB1B_STMUSB2B_STMUSB3B_STMUSB4B_STMUSB5B_STMUSB6B.pdf" },
+          { "label": "Ingram Micro Stylos STMUSB3B brochure", "type": "brochure", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_d0600ba_109536326.pdf" }
+        ],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "ST100",
+          "partNumber": "STMUSB3B",
+          "providerSku": "MEMSTY060",
+          "ean": "7503024582390",
+          "productType": "Memoria USB metalica",
+          "capacity": "32 GB",
+          "interface": "USB-A 2.0",
+          "color": "Plata",
+          "fileSystems": "NTFS, FAT32, exFAT by Stylos sheet",
+          "writeProtection": "Yes by Stylos sheet",
+          "warranty": "Lifetime warranty by Stylos sheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"COL","stock":830},{"providerId":"ctonline","warehouseCode":"ACA","stock":636},{"providerId":"ctonline","warehouseCode":"CDV","stock":307},{"providerId":"ctonline","warehouseCode":"ZAC","stock":150},{"providerId":"ctonline","warehouseCode":"OAX","stock":118},{"providerId":"ctonline","warehouseCode":"CAM","stock":108},{"providerId":"ctonline","warehouseCode":"PAC","stock":88},{"providerId":"ctonline","warehouseCode":"CUN","stock":78},{"providerId":"ctonline","warehouseCode":"CUE","stock":76},{"providerId":"ctonline","warehouseCode":"HMO","stock":74},{"providerId":"ctonline","warehouseCode":"OBR","stock":67},{"providerId":"ctonline","warehouseCode":"IRA","stock":64}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSTY060", "stock": 2790, "price": 4.04, "currency": "USD", "branch": "COL:830,ACA:636,CDV:307,ZAC:150,OAX:118,CAM:108,PAC:88,CUN:78,CUE:76,HMO:74,OBR:67,IRA:64" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is USB flash storage.", "Package dimensions vary between retail sources, so only the product dimensions from the technical sheet are retained.", "Visible branch sum is 2596 while feed total_stock is 2790, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "11 x 15 x 1 mm by technical sheet", "weight": "1 g by technical sheet" },
+        "sourceRefs": [
+          { "title": "Stylos ST100 STMUSB series technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FICHA_TECNICA_STMUSB1B_STMUSB2B_STMUSB3B_STMUSB4B_STMUSB5B_STMUSB6B.pdf" },
+          { "title": "Ingram Micro Stylos STMUSB3B brochure", "type": "brochure", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_d0600ba_109536326.pdf" },
+          { "title": "Zegucom Stylos STMUSB3B image", "type": "retailer", "url": "https://www.zegucom.com.mx/productos/STMUSB3B/img_1.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "brdzv0t7xcctmvg",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dell KB216 teclado alambrico USB ingles negro",
+        "description": "Teclado Dell KB216 alambrico USB con distribucion US English, teclas tipo chiclet, teclado numerico y color negro para oficina.",
+        "manualCategoryPath": "computo/perifericos/teclados/alambricos/usb/ingles",
+        "semanticCategoryPath": "computo/perifericos/teclados/alambricos/usb/ingles/dell-kb216-580-admt",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-us-english-black/apd/580-admt/pc-accessories",
+        "gallery": ["https://snpi.dell.com/snp/images/products/large/en-US~580-ADMT_v1/580-ADMT_v1.jpg", "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-us-english-black/apd/580-admt/pc-accessories"],
+        "documents": [{ "label": "Dell KB216 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell_multimedia_keyboard_kb216_data_sheet.pdf.external" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "KB216",
+          "partNumber": "580-ADMT",
+          "providerSku": "TECDLL080",
+          "ean": "5397063704378",
+          "upc": "884116180470",
+          "productType": "Teclado USB alambrico",
+          "layout": "US English",
+          "color": "Negro",
+          "interface": "USB",
+          "keyboardType": "Chiclet / plunger",
+          "numericKeypad": "Yes",
+          "multimediaKeys": "Yes",
+          "backlight": "No",
+          "cableLength": "1.8 m",
+          "warranty": "1 year by Dell",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1076},{"providerId":"ctonline","warehouseCode":"D2A","stock":744},{"providerId":"ctonline","warehouseCode":"GDL","stock":589},{"providerId":"ctonline","warehouseCode":"MTY","stock":101},{"providerId":"ctonline","warehouseCode":"CMT","stock":63},{"providerId":"ctonline","warehouseCode":"TRN","stock":48},{"providerId":"ctonline","warehouseCode":"MOR","stock":20},{"providerId":"ctonline","warehouseCode":"TOL","stock":17},{"providerId":"ctonline","warehouseCode":"TAM","stock":15},{"providerId":"ctonline","warehouseCode":"QRO","stock":11},{"providerId":"ctonline","warehouseCode":"AGS","stock":10},{"providerId":"ctonline","warehouseCode":"SLT","stock":9}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TECDLL080", "stock": 2742, "price": 165.56, "currency": "MXN", "branch": "DFA:1076,D2A:744,GDL:589,MTY:101,CMT:63,TRN:48,MOR:20,TOL:17,TAM:15,QRO:11,AGS:10,SLT:9" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["EAN appears to be a regional packaging code while Dell US page lists UPC 884116180470.", "Name must retain English/Ingles layout to avoid mixing with Spanish KB216 variants.", "Visible branch sum is 2703 while feed total_stock is 2742, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "441.7 x 127.3 x 24.32 mm", "weight": "400.5 g" },
+        "sourceRefs": [
+          { "title": "Dell KB216 US English product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wired-keyboard-kb216-us-english-black/apd/580-admt/pc-accessories" },
+          { "title": "Dell KB216 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell_multimedia_keyboard_kb216_data_sheet.pdf.external" }
+        ]
+      }
+    },
+    {
+      "product_id": "w12di5gv348qnyp",
+      "research": {
+        "confidence": 0.95,
+        "name": "Samsung Galaxy Tab A11 Enterprise Edition 8.7 pulgadas 4GB 64GB Wi-Fi gris",
+        "description": "Tablet Android Samsung Galaxy Tab A11 de 8.7 pulgadas con Wi-Fi, 4GB RAM, 64GB de almacenamiento, microSD hasta 2TB y color gris.",
+        "manualCategoryPath": "computo/tabletas/android/8-pulgadas/enterprise",
+        "semanticCategoryPath": "computo/tabletas/android/8-pulgadas/enterprise/samsung-galaxy-tab-a11-sm-x133nzaal06",
+        "legacyCategory": "tablets",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.samsung.com/mx/tablets/galaxy-tab-a/galaxy-tab-a11-gray-64gb-sm-x133nzaal06/",
+        "gallery": ["https://shop.samsung.com/latin/pub/media/catalog/product/g/a/galaxy-tab-a11_gray_000_product-image_combo_thumb_4.png", "https://www.samsung.com/mx/tablets/galaxy-tab-a/galaxy-tab-a11-gray-64gb-sm-x133nzaal06/"],
+        "documents": [{ "label": "Samsung Galaxy Tab A11 business page", "type": "manufacturer", "url": "https://www.samsung.com/mx/business/tablets/galaxy-tab-a/galaxy-tab-a11-gray-sm-x133nzaal06/buy/" }],
+        "specs": {
+          "brand": "SAMSUNG",
+          "model": "Galaxy Tab A11",
+          "partNumber": "SM-X133NZAAL06",
+          "providerSku": "TABSMG810",
+          "ean": "8806097820802",
+          "productType": "Tablet Android Wi-Fi",
+          "display": "8.7 in TFT, 1340 x 800, 90 Hz",
+          "processor": "Octa-core 2.2 GHz / 2.0 GHz by Samsung",
+          "memory": "4 GB RAM",
+          "storage": "64 GB",
+          "expandableStorage": "microSD up to 2 TB",
+          "wireless": "Wi-Fi 5, Bluetooth 5.3",
+          "ports": "USB 2.0",
+          "cameras": "8 MP rear, 5 MP front",
+          "battery": "5100 mAh",
+          "color": "Gray",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1675},{"providerId":"ctonline","warehouseCode":"CMT","stock":804},{"providerId":"ctonline","warehouseCode":"GDL","stock":25},{"providerId":"ctonline","warehouseCode":"CHI","stock":20},{"providerId":"ctonline","warehouseCode":"MID","stock":14},{"providerId":"ctonline","warehouseCode":"CLN","stock":11},{"providerId":"ctonline","warehouseCode":"OAX","stock":11},{"providerId":"ctonline","warehouseCode":"OBR","stock":10},{"providerId":"ctonline","warehouseCode":"TRN","stock":9},{"providerId":"ctonline","warehouseCode":"CUN","stock":9},{"providerId":"ctonline","warehouseCode":"CAM","stock":9},{"providerId":"ctonline","warehouseCode":"URP","stock":8}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TABSMG810", "stock": 2740, "price": 2005.44, "currency": "MXN", "branch": "DFA:1675,CMT:804,GDL:25,CHI:20,MID:14,CLN:11,OAX:11,OBR:10,TRN:9,CUN:9,CAM:9,URP:8" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous redes/access-points path was incorrect; this is an Android tablet.", "Samsung Mexico consumer page names Galaxy Tab A11 Gray 64GB, while provider/retail channel identifies Enterprise Edition.", "Visible branch sum is 2605 while feed total_stock is 2740, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "211.0 x 124.7 x 8.0 mm", "weight": "335 g" },
+        "sourceRefs": [
+          { "title": "Samsung Galaxy Tab A11 Mexico", "type": "manufacturer", "url": "https://www.samsung.com/mx/tablets/galaxy-tab-a/galaxy-tab-a11-gray-64gb-sm-x133nzaal06/" },
+          { "title": "Samsung Galaxy Tab A11 business Mexico", "type": "manufacturer", "url": "https://www.samsung.com/mx/business/tablets/galaxy-tab-a/galaxy-tab-a11-gray-sm-x133nzaal06/buy/" }
+        ]
+      }
+    },
+    {
+      "product_id": "xn1uy9sqx6urwet",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother BTD100C botella de tinta cian InkBenefit Tank 48.8 ml 5000 paginas",
+        "description": "Tinta original Brother BTD100C cian para equipos InkBenefit Tank, botella antiderrames de alto rendimiento.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/cian",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/cian/brother-btd100c",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/btd100cmex",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/07/005_btd100c-carton.png"],
+        "documents": [{ "label": "Brother BTD100C retailer technical reference", "type": "datasheet", "url": "https://www.redcorp.com/en/product/supplies-ink-cartridge/brother/ink-bottle-btd100c-5000-pages-cyan-btd100c/0735a813" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BTD100C",
+          "providerSkus": ["CARBRT4520", "CN-5015"],
+          "productType": "Botella de tinta para tanque",
+          "color": "Cian",
+          "inkVolume": "48.8 ml",
+          "yield": "Up to 5000 pages",
+          "compatibility": "Brother MFC-T930DW, DCP-T830DW, DCP-T730DW, DCP-T530DW, DCP-T430W, DCP-T230",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CARBRT4520", "stock": 2737, "price": 155.56, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-5015", "stock": 0, "price": 136.74, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["AC suffix is not part of the official model.", "CVA listed this SKU with zero stock at verification time; CTOnline stock remains available.", "Current tinta-toner path is broadly valid but color-specific bottle category is more precise."]
+        },
+        "measurements": { "dimensions": "56 x 123 x 55.5 mm by retailer", "weight": "91 g product, 136 g package by retailer" },
+        "sourceRefs": [
+          { "title": "Brother BTD100C official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd100cmex" },
+          { "title": "Redcorp Brother BTD100C reference", "type": "retailer", "url": "https://www.redcorp.com/en/product/supplies-ink-cartridge/brother/ink-bottle-btd100c-5000-pages-cyan-btd100c/0735a813" }
+        ]
+      }
+    },
+    {
+      "product_id": "o12fu46q2bq9irj",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link LS1005G LiteWave switch gigabit no administrable 5 puertos",
+        "description": "Switch de escritorio TP-Link LiteWave LS1005G no administrable con 5 puertos RJ45 Gigabit, plug and play, fanless y tecnologia Green Ethernet.",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/5-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/5-puertos/tp-link-ls1005g",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/au/business-networking/litewave-switch/ls1005g/v1/",
+        "gallery": ["https://static.tp-link.com/upload/image-header/LS1005G(UN)_1.0-B_normal_20231212022020u.png", "https://static.tp-link.com/LS1005G_01_large_1564574076894y.jpg"],
+        "documents": [{ "label": "TP-Link LS1005G official page", "type": "manufacturer", "url": "https://www.tp-link.com/au/business-networking/litewave-switch/ls1005g/v1/" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "LS1005G",
+          "providerSkus": ["SWTTPL750", "NIC-3456"],
+          "productType": "Switch gigabit no administrable",
+          "ports": "5 RJ45 10/100/1000 Mbps",
+          "features": "Auto-negotiation, Auto-MDI/MDIX, plug and play, fanless, Green Ethernet",
+          "flowControl": "IEEE 802.3x",
+          "switchingCapacity": "10 Gbps",
+          "forwardingRate": "7.4 Mpps",
+          "macTable": "2K",
+          "jumboFrame": "16 KB",
+          "power": "5 VDC / 0.6 A",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL750", "stock": 2730, "price": 8.18, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "NIC-3456", "stock": 0, "price": 7.77, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["AC suffix is not part of official LS1005G model.", "Current redes/switches path was correct but too broad.", "CVA listed this SKU with zero stock at verification time; CTOnline stock remains available."]
+        },
+        "measurements": { "dimensions": "90 x 72 x 23 mm", "weight": "Official weight not published" },
+        "sourceRefs": [
+          { "title": "TP-Link LS1005G official page", "type": "manufacturer", "url": "https://www.tp-link.com/au/business-networking/litewave-switch/ls1005g/v1/" }
+        ]
+      }
+    },
+    {
+      "product_id": "5y6mkqg8yla64fp",
+      "research": {
+        "confidence": 0.95,
+        "name": "Brother BT5001C botella de tinta cian 48.8 ml 5000 paginas",
+        "description": "Botella original Brother BT5001C de tinta cian para equipos InkBenefit Tank, rendimiento aproximado de 5000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-bt5001/cian",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-bt5001/cian/brother-bt5001c",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/bt5001c",
+        "gallery": ["https://www.brother.com.br/-/media/brother/product-catalog-media/images/2024/03/01/19/44/bt5001c_cartonwithbottle.png"],
+        "documents": [{ "label": "Brother DCP-T220 compatible supplies", "type": "support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=btl&lang=es&prod=dcpt220_all" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BT5001C",
+          "providerSku": "CARBRT3070",
+          "upc": "012502641018",
+          "productType": "Botella de tinta para tanque",
+          "color": "Cian",
+          "inkVolume": "48.8 ml",
+          "yield": "Up to 5000 pages using Brother ISO/IEC 24712 method",
+          "compatibility": "Brother DCP-T220, DCP-T520W, DCP-T720DW, MFC-T920DW and related InkBenefit Tank models",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":1971},{"providerId":"ctonline","warehouseCode":"TOL","stock":214},{"providerId":"ctonline","warehouseCode":"MOR","stock":100},{"providerId":"ctonline","warehouseCode":"OAX","stock":74},{"providerId":"ctonline","warehouseCode":"TXL","stock":65},{"providerId":"ctonline","warehouseCode":"DFA","stock":50},{"providerId":"ctonline","warehouseCode":"LEO","stock":40},{"providerId":"ctonline","warehouseCode":"D2A","stock":34},{"providerId":"ctonline","warehouseCode":"MAZ","stock":24},{"providerId":"ctonline","warehouseCode":"TPC","stock":19},{"providerId":"ctonline","warehouseCode":"ZAC","stock":19},{"providerId":"ctonline","warehouseCode":"ACA","stock":19}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT3070", "stock": 2729, "price": 155.56, "currency": "MXN", "branch": "PUE:1971,TOL:214,MOR:100,OAX:74,TXL:65,DFA:50,LEO:40,D2A:34,MAZ:24,TPC:19,ZAC:19,ACA:19" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some feed text lists DCP-T520DW, while Brother references DCP-T520W.", "Official Brother page does not publish package dimensions reliably.", "Visible branch sum is 2629 while feed total_stock is 2729, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Retail package approx 5 x 5 x 12 cm", "weight": "Retail shipping weight approx 80-90 g; official weight not published" },
+        "sourceRefs": [
+          { "title": "Brother BT5001C official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/bt5001c" },
+          { "title": "Brother DCP-T220 compatible supplies", "type": "support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=btl&lang=es&prod=dcpt220_all" },
+          { "title": "Toner.com Brother BT5001C reference", "type": "retailer", "url": "https://www.toner.com/productdetails/Brother/Ink/BT5001C/132724.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "jvv7wxsuaeiiy1d",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother BTD100BK botella de tinta negra InkBenefit Tank 108 ml 7500 paginas",
+        "description": "Tinta original Brother BTD100BK negra para equipos InkBenefit Tank, botella antiderrames de ultra alto rendimiento.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/negro/brother-btd100bk",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/btd100bkmex",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/06/btd100bk-carton.png", "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/05/bro9769-bt-d100bk-label-050724.jpg"],
+        "documents": [{ "label": "PCEL Brother BTD100BK package reference", "type": "retailer", "url": "https://www.pcel.com/Brother-BTD100BK-Botella-de-Tinta-Brother-BTD100BK-Ultra-Alto-Rendimiento-Color-Negro-525792" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BTD100BK",
+          "providerSkus": ["CARBRT4510", "CN-5014"],
+          "productType": "Botella de tinta para tanque",
+          "color": "Negro",
+          "inkVolume": "108 ml",
+          "yield": "Up to 7500 pages",
+          "compatibility": "Brother MFC-T930DW, DCP-T830DW, DCP-T730DW, DCP-T530DW, DCP-T430W, DCP-T230",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CARBRT4510", "stock": 2697, "price": 155.56, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-5014", "stock": 0, "price": 136.74, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["AC suffix is not part of official model.", "Official compatibility list is broader than the feed text.", "CVA listed this SKU with zero stock at verification time; CTOnline stock remains available."]
+        },
+        "measurements": { "dimensions": "56 x 123 x 55.5 mm by retailer", "weight": "120 g product, 180 g package by retailer" },
+        "sourceRefs": [
+          { "title": "Brother BTD100BK official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd100bkmex" },
+          { "title": "PCEL Brother BTD100BK reference", "type": "retailer", "url": "https://www.pcel.com/Brother-BTD100BK-Botella-de-Tinta-Brother-BTD100BK-Ultra-Alto-Rendimiento-Color-Negro-525792" }
+        ]
+      }
+    },
+    {
+      "product_id": "63y4iqjonjfqebf",
+      "research": {
+        "confidence": 0.95,
+        "name": "Nextep NE-529 paquete de 5 rollos de papel termico 80 x 70 mm",
+        "description": "Paquete Nextep NE-529 con 5 rollos de papel termico para impresoras POS, tamano 80 x 70 mm, gramaje 55 g/m2 y largo aproximado de 55 m.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70/nextep-ne-529-c5",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/productos/ne-529/",
+        "gallery": ["https://proesa.com/cdn/shop/files/art_444111_01_1000x.jpg?v=1760818335", "https://proesa.com/products/rollo-papel-termico-paquete-c-5-80x70mm-nextep-r-ne-529-paquete-7501811272479"],
+        "documents": [{ "label": "Nextep NE-529 technical sheet", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/piotnet-addons-for-elementor/Ficha-tecnica-PAPEL-TE%E2%95%A0uRMICO_NE-529-68c4851b4616c.pdf" }],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-529",
+          "providerSku": "ACCNEX400",
+          "ean": "7501811272479",
+          "productType": "Rollo de papel termico POS",
+          "rollSize": "80 x 70 mm",
+          "paperWeight": "55 g/m2",
+          "rollLength": "55 m +/-5%",
+          "packQuantity": "5 rolls",
+          "printColor": "Negro",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1278},{"providerId":"ctonline","warehouseCode":"MTY","stock":722},{"providerId":"ctonline","warehouseCode":"DGO","stock":310},{"providerId":"ctonline","warehouseCode":"AGS","stock":139},{"providerId":"ctonline","warehouseCode":"CUN","stock":76},{"providerId":"ctonline","warehouseCode":"LEO","stock":28},{"providerId":"ctonline","warehouseCode":"MOR","stock":26},{"providerId":"ctonline","warehouseCode":"IRA","stock":17},{"providerId":"ctonline","warehouseCode":"OBR","stock":15},{"providerId":"ctonline","warehouseCode":"DFA","stock":10},{"providerId":"ctonline","warehouseCode":"TPC","stock":8},{"providerId":"ctonline","warehouseCode":"CTZ","stock":5}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCNEX400", "stock": 2640, "price": 74.68, "currency": "MXN", "branch": "D2A:1278,MTY:722,DGO:310,AGS:139,CUN:76,LEO:28,MOR:26,IRA:17,OBR:15,DFA:10,TPC:8,CTZ:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous etiquetas-papel path was close but not exact; this is POS thermal roll paper, not adhesive label stock.", "Package weight is only confirmed by retailers, not Nextep.", "Visible branch sum is 2634 while feed total_stock is 2640, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Roll 80 mm width x 70 mm diameter; retailer package approx 8 x 8 x 20 cm", "weight": "Retailer package approx 0.25 kg; official weight not published" },
+        "sourceRefs": [
+          { "title": "Nextep NE-529 official page", "type": "manufacturer", "url": "https://nextep.com.mx/productos/ne-529/" },
+          { "title": "Nextep NE-529 technical sheet", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/piotnet-addons-for-elementor/Ficha-tecnica-PAPEL-TE%E2%95%A0uRMICO_NE-529-68c4851b4616c.pdf" },
+          { "title": "Proesa Nextep NE-529 retail reference", "type": "retailer", "url": "https://proesa.com/products/rollo-papel-termico-paquete-c-5-80x70mm-nextep-r-ne-529-paquete-7501811272479" }
+        ]
+      }
+    },
+    {
+      "product_id": "5bcjl56hz9mz0g9",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Tapo C500 camara Wi-Fi exterior pan tilt 1080p IP65",
+        "description": "Camara exterior TP-Link Tapo C500 con movimiento pan/tilt, video Full HD 1080p, vision nocturna, audio bidireccional, IP65 y almacenamiento microSD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/2mp/tp-link-tapo-c500",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tapo.com/us/product/smart-camera/tapo-c500/",
+        "gallery": ["https://static.tp-link.com/upload/image-line/Tapo_C500_EU_2.0_overview_2406_English_01-1_normal_20240620080043d.jpg", "https://www.tapo.com/us/product/smart-camera/tapo-c500/"],
+        "documents": [{ "label": "TP-Link Tapo C500 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202408/20240807/Tapo%20C500%202.0%262.6%262.8_Datasheet.pdf" }],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Tapo C500",
+          "providerSkus": ["CAMTPL300", "CV-1631"],
+          "productType": "Camara IP Wi-Fi exterior pan/tilt",
+          "resolution": "1920 x 1080 at 30 fps",
+          "compression": "H.264",
+          "sensor": "1/3 in CMOS",
+          "lens": "3.89 mm F2.0",
+          "panTilt": "340 degree pan with 360 degree coverage, 90 degree tilt with 132 degree coverage",
+          "nightVision": "850 nm IR up to 29.9 m",
+          "storage": "microSD up to 512 GB",
+          "wireless": "2.4 GHz Wi-Fi",
+          "protocols": "RTSP, ONVIF",
+          "weatherproof": "IP65",
+          "audio": "Two-way audio",
+          "detection": "Motion, person and tamper detection",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMTPL300", "stock": 2601, "price": 31.25, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CV-1631", "stock": 0, "price": 30.66, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["AC suffix is not part of official model.", "Specs verified against Tapo C500 V2/2.0-2.8 datasheet; distributor hardware revision is not exposed.", "CVA listed this SKU with zero stock at verification time; CTOnline stock remains available."]
+        },
+        "measurements": { "dimensions": "123.8 x 123 x 90 mm", "weight": "364 g" },
+        "sourceRefs": [
+          { "title": "TP-Link Tapo C500 official page", "type": "manufacturer", "url": "https://www.tapo.com/us/product/smart-camera/tapo-c500/" },
+          { "title": "TP-Link Tapo C500 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202408/20240807/Tapo%20C500%202.0%262.6%262.8_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "hvtxdmrrrowptjm",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dell MS116 mouse optico USB alambrico negro 1000 DPI",
+        "description": "Mouse Dell MS116 optico alambrico USB para oficina, color negro, sensor de 1000 DPI y rueda mecanica.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi/dell-ms116",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-wired-mouse-ms116-black/apd/275-bbcb/pc-accessories",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/mouse/dell-ms116-optical-mouse-sapphire-1001a-black-hero-504x350.jpg?hei=402&op_usm=1.75%2C0.3%2C2%2C0&pscan=auto&qtl=90%2C0&resMode=sharp", "https://www.dell.com/en-us/shop/dell-wired-mouse-ms116-black/apd/275-bbcb/pc-accessories"],
+        "documents": [{ "label": "Dell MS116 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-optical-mouse-ms116-data-sheet.pdf.external" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "MS116",
+          "providerSku": "MOUDLL020",
+          "ean": "5397063763597",
+          "upc": "884116194682",
+          "productType": "Mouse optico USB alambrico",
+          "color": "Negro",
+          "interface": "USB wired",
+          "sensor": "Optical LED",
+          "dpi": "1000 DPI",
+          "buttons": "3 by Dell datasheet",
+          "scroll": "Mechanical scroll wheel",
+          "cableLength": "1.8 m",
+          "compatibility": "Windows, macOS, Linux, ChromeOS, Android by Dell datasheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1063},{"providerId":"ctonline","warehouseCode":"D2A","stock":658},{"providerId":"ctonline","warehouseCode":"GDL","stock":187},{"providerId":"ctonline","warehouseCode":"CMT","stock":104},{"providerId":"ctonline","warehouseCode":"HMO","stock":59},{"providerId":"ctonline","warehouseCode":"CHI","stock":41},{"providerId":"ctonline","warehouseCode":"AGS","stock":36},{"providerId":"ctonline","warehouseCode":"VER","stock":34},{"providerId":"ctonline","warehouseCode":"TAM","stock":33},{"providerId":"ctonline","warehouseCode":"OAX","stock":29},{"providerId":"ctonline","warehouseCode":"DFP","stock":27},{"providerId":"ctonline","warehouseCode":"PAC","stock":25}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUDLL020", "stock": 2596, "price": 115.56, "currency": "MXN", "branch": "DFA:1063,D2A:658,GDL:187,CMT:104,HMO:59,CHI:41,AGS:36,VER:34,TAM:33,OAX:29,DFP:27,PAC:25" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Feed says 2 buttons while Dell datasheet identifies 3 buttons.", "Dell source weights differ slightly between datasheet and product page.", "UPC/EAN appears to map to regional 275-BBCC packaging while Dell US page shows 275-BBCB.", "Visible branch sum is 2296 while feed total_stock is 2596, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "36 x 113.6 x 61.1 mm", "weight": "87 g by datasheet; 90 g by product page" },
+        "sourceRefs": [
+          { "title": "Dell MS116 official product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wired-mouse-ms116-black/apd/275-bbcb/pc-accessories" },
+          { "title": "Dell MS116 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-optical-mouse-ms116-data-sheet.pdf.external" }
+        ]
+      }
+    }
+  ]
+}
