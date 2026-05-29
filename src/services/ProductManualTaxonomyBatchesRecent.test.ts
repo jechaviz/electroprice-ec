@@ -333,6 +333,16 @@ const researchedBatchCases = [
   ["Tech Zone TZLBP27-A Backpack Max III mochila laptop 16", "TECH ZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
   ["Stylos STMSDS4B memoria micro SD 64GB Clase 10", "STYLOS", "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10"],
   ["Balam Rush BR-922999 Heimdall Spectrum mousepad carga inalambrica RGB", "BALAM RUSH", "computo/accesorios/mousepads/gaming-carga-inalambrica"],
+  ["Nextep NE-205 lampara detectora billetes falsos", "NEXTEP", "punto-de-venta/detectores-billetes"],
+  ["Ubiquiti POE-24-24W inyector PoE 24V 24W", "UBIQUITI", "redes/poe/inyectores/24v"],
+  ["SanDisk SDCZ50C-016G-B35PE Cruzer Blade USB 16GB Electric Pink", "SANDISK", "computo/almacenamiento/memorias-flash/usb/16gb"],
+  ["Naceb NA-0139N mouse inalambrico dual mode 2.4G BT 1600 DPI", "NACEB TECHNOLOGY", "computo/perifericos/mouse/inalambricos/multi-dispositivo"],
+  ["Perfect Choice PC-101260 adaptador USB Tipo C a HDMI 4K 60Hz", "PERFECT CHOICE", "accesorios/cables-adaptadores/video-usb-c-hdmi"],
+  ["ADATA Premier Pro V30 tarjeta SD 64GB Clase 10 100MBs 80MBs", "ADATA", "computo/almacenamiento/memorias-flash/sd/64gb-v30"],
+  ["Manhattan 312721 cable SVGA HD15 macho macho 4.5m", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15-4-5m"],
+  ["Balam Rush GR850G fuente ATX 850W 80 Plus Gold", "BALAM RUSH", "computo/componentes/fuentes-poder/atx-80-plus-gold/850w"],
+  ["Nextep NE-515 cajon de dinero acero 8 monedas 5 billetes", "NEXTEP", "punto-de-venta/cajones-dinero/metalicos"],
+  ["LG 32LR600BPSC television LED 32 pulgadas HD webOS", "LG", "video/televisores/led-webos/32-hd"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

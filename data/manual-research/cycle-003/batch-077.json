@@ -1,0 +1,566 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b077-2026-05-28",
+  "cycle": 3,
+  "batch": 77,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1t6nyvqw0826efz",
+      "research": {
+        "confidence": 0.94,
+        "name": "Nextep NE-205 lampara UV detectora de billetes falsos negra",
+        "description": "Lampara UV Nextep NE-205 para detectar billetes falsos y validar tarjetas, vales e identificaciones, con dos lamparas UV de 6W, alimentacion 110V CA y cable de 110 cm.",
+        "manualCategoryPath": "punto-de-venta/detectores-billetes",
+        "semanticCategoryPath": "punto-de-venta/detectores-billetes/nextep-ne-205",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/5ce/2fa/4e2/5ce2fa4e2bb55.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNTE010/ACCNTE010_1_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-NEXTEP-NE-205-1.jpg"
+        ],
+        "documents": [
+          { "label": "Nextep NE-205 datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/5ce/2fa/4e2/5ce2fa4e2bb55.pdf" }
+        ],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-205",
+          "providerSku": "ACCNTE010",
+          "ean": "7501811271342",
+          "productType": "UV counterfeit bill detector lamp",
+          "validationTargets": "Bills, cards, vouchers, IDs and licenses",
+          "lamps": "2 UV lamps, 6W each",
+          "power": "110VAC 60Hz, 20W",
+          "cableLength": "110 cm",
+          "color": "Black",
+          "operatingConditions": "0-40 C, humidity under 85%",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCNTE010", "stock": 1, "price": 201.5, "currency": "MXN", "branch": "TXL:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public retailers validate model/SKU/EAN but not the private CTOnline TXL:1 stock or MXN 201.50 price; provider legacy path was office accessories."]
+        },
+        "measurements": { "dimensions": "27 x 12 x 10 cm", "weight": "480 g", "alternateDimensions": "27 x 10.5 x 11.5 cm", "alternateWeight": "600 g", "packageDimensions": "12.5 x 12.5 x 29 cm", "packageWeight": "0.57 kg" },
+        "sourceRefs": [
+          { "title": "Nextep NE-205 datasheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/5ce/2fa/4e2/5ce2fa4e2bb55.pdf" },
+          { "title": "Cyberpuerta Nextep NE-205", "type": "retail", "url": "https://www.cyberpuerta.mx/Home-Office/Articulos-de-Oficina/Accesorios-para-Escritorio/Detectora-de-Billetes-Falsos/Nextep-Lampara-Detectora-de-Billetes-Falsos-NE-205-Negro.html" },
+          { "title": "CompuPuebla Nextep NE-205", "type": "retail", "url": "https://compupuebla.com/producto/lampata-detectora-billetes-falsos-nextep-ne-205/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1t7ggm0bg16l9tc",
+      "research": {
+        "confidence": 0.95,
+        "name": "Ubiquiti POE-24-24W inyector PoE pasivo 24V 24W 10/100Mbps",
+        "description": "Inyector PoE pasivo Ubiquiti POE-24-24W con salida 24VDC 1A 24W, entrada 90-260VAC, un puerto LAN 10/100 y un puerto PoE, reset remoto, indicador de energia y proteccion ESD/sobretension.",
+        "manualCategoryPath": "redes/poe/inyectores/24v",
+        "semanticCategoryPath": "redes/poe/inyectores/24v/ubiquiti-poe-24-24w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.bhphotovideo.com/c/product/1079128-REG/ubiquiti_networks_poe_24_24w_poe_adapter_poe.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCUBI220/ACCUBI220_full.jpg",
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/ubiquiti_networks_poe_24_24w_poe_adapter_poe_1409847684_1079128.jpg"
+        ],
+        "documents": [
+          { "label": "B&H Ubiquiti POE-24-24W listing", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1079128-REG/ubiquiti_networks_poe_24_24w_poe_adapter_poe.html" }
+        ],
+        "specs": {
+          "brand": "UBIQUITI",
+          "model": "POE-24-24W",
+          "providerSku": "ACCUBI220",
+          "upc": "810354021206",
+          "productType": "Passive PoE injector",
+          "output": "24VDC 1.0A, 24W",
+          "input": "90-260VAC, 47/63Hz or 50/60Hz depending on source",
+          "ports": "1 LAN RJ45 10/100, 1 PoE RJ45",
+          "acConnector": "IEC C6",
+          "features": "Remote reset, reset button, power indicator, ESD/surge protection",
+          "pinout": "4-pair: pins 1,2,4,5 positive and 3,6,7,8 negative",
+          "operatingConditions": "0-40 C, 35%-95% humidity",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCUBI220", "stock": 1, "price": 14.89, "currency": "USD", "branch": "IRA:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate ACCUBI220/UPC but not the private CTOnline IRA:1 stock or USD 14.89 price; provider legacy path was switches."]
+        },
+        "measurements": { "dimensions": "88 x 57 x 33 mm", "weight": "135 g", "alternateWeight": "158.5 g" },
+        "sourceRefs": [
+          { "title": "B&H Ubiquiti POE-24-24W", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1079128-REG/ubiquiti_networks_poe_24_24w_poe_adapter_poe.html" },
+          { "title": "GlobalOffice Ubiquiti POE-24-24W", "type": "retail", "url": "https://globaloffice.mx/app/detalle/producto/inyectores-poe/ubiquiti-poe-24-24w-inyector-poe-pasivo-para-equipos-ubiqu/poe-24-24w" }
+        ]
+      }
+    },
+    {
+      "product_id": "1tb1dbft43cl0gu",
+      "research": {
+        "confidence": 0.94,
+        "name": "SanDisk Cruzer Blade Z50 SDCZ50C-016G-B35PE USB 2.0 16GB Electric Pink",
+        "description": "Memoria USB SanDisk Cruzer Blade Z50 de 16GB en color Electric Pink, interfaz USB-A 2.0, diseno compacto de plastico y soporte de software SanDisk SecureAccess segun catalogos.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/sandisk-cruzer-blade-z50-pink",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/memorias/memoria-sandisk-16gb-usb-20-cruzer-blade-z50-elec/sdcz50c-016g-b35pe",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10108564",
+          "https://www.grupocva.com/detalle_articulo/10108564.jpg"
+        ],
+        "documents": [
+          { "label": "SanDisk flash drive catalog", "type": "datasheet", "url": "https://www.bizgram.com/?eflws_download=SANDISK_SD+CARD_FLASH+DRIVE.pdf" }
+        ],
+        "specs": {
+          "brand": "SANDISK",
+          "model": "SDCZ50C-016G-B35PE",
+          "providerSku": "RAM-3068",
+          "ean": "619659141066",
+          "productType": "USB flash drive",
+          "capacity": "16GB",
+          "interface": "USB-A 2.0",
+          "color": "Electric Pink",
+          "material": "Plastic",
+          "series": "Cruzer Blade Z50",
+          "theoreticalTransfer": "USB 2.0 up to 480Mbps",
+          "operatingTemperature": "0-45 C",
+          "software": "SanDisk SecureAccess/password protection reported by catalog sources",
+          "providerBranches": [
+            { "providerId": "cva", "warehouseCode": "total", "stock": 7 }
+          ],
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "RAM-3068", "stock": 7, "price": 5.94, "currency": "USD", "branch": "total:7" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate product and RAM-3068 association but not private CVA stock 7 or USD 5.94 price; provider legacy path was memory RAM."]
+        },
+        "measurements": { "dimensions": "41.5 x 17.6 x 7.4 mm", "weight": "3 g" },
+        "sourceRefs": [
+          { "title": "GlobalOffice SanDisk SDCZ50C-016G-B35PE", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/memorias/memoria-sandisk-16gb-usb-20-cruzer-blade-z50-elec/sdcz50c-016g-b35pe" },
+          { "title": "Hama SanDisk Cruzer Blade 16GB pink", "type": "retail", "url": "https://www.hama.cz/sandisk-cruzer-blade-16-gb-elektricky-ruzova/" },
+          { "title": "SanDisk flash drive catalog", "type": "datasheet", "url": "https://www.bizgram.com/?eflws_download=SANDISK_SD+CARD_FLASH+DRIVE.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "1tk94t4ol286xul",
+      "research": {
+        "confidence": 0.94,
+        "name": "Naceb NA-0139N mouse inalambrico dual mode 2.4GHz Bluetooth negro",
+        "description": "Mouse optico Naceb NA-0139N negro de modo dual 2.4GHz + Bluetooth, sensor Pixart 3212, DPI 800/1200/1600, 5 botones mas rueda, scroll frontal y horizontal, agarre palma y bateria AA.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/multi-dispositivo",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/multi-dispositivo/naceb-na-0139n",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.techsmart.com.mx/techsmartv2/Producto?Marca=NACEB&TipoMoneda=MXN&cveProducto=MSUSBNAP0139N",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MOUNCB670/MOUNCB670_full.jpg",
+          "https://www.techsmart.com.mx/techsmartv2/images/productos/marcas/NACEB/NA-0139N.jpg",
+          "https://www.techsmart.com.mx/techsmartv2/images/productos/marcas/NACEB/NA-0139N_1.jpg",
+          "https://www.techsmart.com.mx/techsmartv2/images/productos/marcas/NACEB/NA-0139N_2.jpg"
+        ],
+        "documents": [
+          { "label": "TechSmart Naceb NA-0139N listing", "type": "retail", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?Marca=NACEB&TipoMoneda=MXN&cveProducto=MSUSBNAP0139N" }
+        ],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0139N",
+          "providerSku": "MOUNCB670",
+          "ean": "7502262801126",
+          "productType": "Dual-mode wireless optical mouse",
+          "connectivity": "2.4GHz USB receiver and Bluetooth",
+          "sensor": "Pixart 3212",
+          "dpi": "800/1200/1600 DPI",
+          "buttons": "5 buttons plus wheel",
+          "scroll": "Front and horizontal scroll",
+          "handedness": "Right-handed palm grip",
+          "material": "PVC",
+          "color": "Black",
+          "battery": "1 AA battery",
+          "compatibility": "Windows 10/11; some retailers also list macOS/Linux",
+          "warranty": "1 year",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 3 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOUNCB670", "stock": 112, "price": 164.12, "currency": "MXN", "branch": "OBR:11,D2A:9,SLP:6,TOL:6,PAC:6,CEL:5,LMO:4,TAM:4,OAX:4,ZAC:4,ACX:4,TRN:3" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public retailers validate EAN/SKU/product but not private CTOnline total 112 or branch split; feed branch list sums 66, leaving 46 units without visible branch in the available extract."]
+        },
+        "measurements": { "dimensions": "10.2 x 5.8 x 4 cm", "weight": "89 g", "packageDimensions": "8 x 4.5 x 15.4 cm", "packageWeight": "0.08 kg" },
+        "sourceRefs": [
+          { "title": "TechSmart Naceb NA-0139N", "type": "retail", "url": "https://www.techsmart.com.mx/techsmartv2/Producto?Marca=NACEB&TipoMoneda=MXN&cveProducto=MSUSBNAP0139N" },
+          { "title": "CompuPuebla Naceb NA-0139N", "type": "retail", "url": "https://compupuebla.com/producto/mouse-naceb-technology-na-0139n/" },
+          { "title": "Tecnowow Naceb NA-0139N", "type": "retail", "url": "https://tecnowow.mx/construye-tu-pc/perifericos/mouse/mouse-inalambrico-naceb-na-0139n-dual-mode-1600dpi-negro" },
+          { "title": "SonRobots Naceb NA-0139N", "type": "retail", "url": "https://sonrobots.com/producto/mouse-naceb-technology-na-0139n-5-botones/" }
+        ]
+      }
+    },
+    {
+      "product_id": "1tq790hs8qdxjic",
+      "research": {
+        "confidence": 0.95,
+        "name": "Perfect Choice PC-101260 adaptador USB-C a HDMI 4K 60Hz 14.5 cm",
+        "description": "Adaptador Perfect Choice PC-101260 con USB-C macho a HDMI hembra, soporte 4K a 60Hz, cable de 14.5 cm, plug and play, alimentacion 5Vcc 1A y compatibilidad Windows Surface, macOS y Android.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-usb-c-hdmi",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-usb-c-hdmi/perfect-choice-pc-101260",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/adaptador-usb-c-a-hdmi-4k",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10247311",
+          "https://perfectchoice.me/cdn/shop/products/PC-101260_A01_adaptador_USBC_HDMI_1600x.png?v=1609942865",
+          "https://perfectchoice.me/cdn/shop/products/PC-101260_1600x.png?v=1609942876"
+        ],
+        "documents": [
+          { "label": "Perfect Choice PC-101260 official listing", "type": "manufacturer", "url": "https://perfectchoice.me/products/adaptador-usb-c-a-hdmi-4k" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-101260",
+          "providerSku": "ACCMST4180 / AC-9377",
+          "ean": "0615604101260",
+          "productType": "USB-C to HDMI video adapter",
+          "input": "USB Type-C male",
+          "output": "HDMI female",
+          "video": "4K at 60Hz, Full HD compatible",
+          "power": "5Vcc 1A",
+          "length": "14.5 cm",
+          "features": "Plug and play",
+          "compatibility": "Windows Surface, macOS, Android",
+          "color": "Black/gray",
+          "contents": "Adapter and user guide",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 18 },
+            { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCMST4180", "stock": 18, "price": 211.18, "currency": "MXN", "branch": "total:18" },
+            { "providerId": "cva", "providerSku": "AC-9377", "stock": 0, "price": 244.37, "currency": "MXN", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate PC-101260 and AC-9377 association but not CTOnline ACCMST4180 stock 18/promo price; Pcredcom shows AC-9377 stock 3 while private CVA feed shows stock 0."]
+        },
+        "measurements": { "dimensions": "25 x 14 x 242 mm", "weight": "27 g", "cableLength": "14.5 cm" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-101260", "type": "manufacturer", "url": "https://perfectchoice.me/products/adaptador-usb-c-a-hdmi-4k" },
+          { "title": "Coolbox Perfect Choice PC-101260", "type": "retail", "url": "https://www.coolbox.com.mx/adaptador-perfect-choice-usb-tipo-c-cable-plug-play-pc-101260/p" },
+          { "title": "Pcredcom Perfect Choice PC-101260", "type": "retail", "url": "https://pcredcom.com/adaptador-usb-c-a-hdmi-4k-60hz-perfect-choice-pc-101260-df-ac-9377.html" },
+          { "title": "GlobalOffice Perfect Choice PC-101260", "type": "retail", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-computo/adaptador-usb-c-a-hdmi-4k-perfect-choice-pc-101260/pc-101260" }
+        ]
+      }
+    },
+    {
+      "product_id": "1tz5a6gx67089f6",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA Premier Pro V30 ASDX64GUI3V30S-R SDXC 64GB UHS-I U3",
+        "description": "Tarjeta ADATA Premier Pro SDXC UHS-I U3 Class 10 V30 de 64GB, modelo ASDX64GUI3V30S-R, lectura hasta 100MB/s, escritura hasta 80MB/s, V30 para video 4K y proteccion contra agua, golpes, estatica y rayos X.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/sd/64gb-v30",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/sd/64gb-v30/adata-premier-pro-v30-64gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://webapi3.adata.com/storage/downloadfile/datasheet_premier_pro_sdxc_uhs_i_class_10_memory_card_v30s_v3.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMDAT4090/MEMDAT4090_full.jpg",
+          "https://tonypapelerias.vtexassets.com/arquivos/ids/266850-150-auto?aspect=true&height=auto&v=638449287062100000&width=150",
+          "https://tonypapelerias.vtexassets.com/arquivos/ids/266968-150-auto?aspect=true&height=auto&v=638449287447200000&width=150"
+        ],
+        "documents": [
+          { "label": "ADATA Premier Pro SDXC V30 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_premier_pro_sdxc_uhs_i_class_10_memory_card_v30s_v3.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "line": "Premier Pro",
+          "model": "ASDX64GUI3V30S-R / Premier Pro V30",
+          "providerSku": "MEMDAT4090",
+          "ean": "4713218463913",
+          "productType": "SDXC memory card",
+          "capacity": "64GB",
+          "standard": "SD 5.0",
+          "class": "UHS-I, U3, Class 10, V30",
+          "readSpeed": "Up to 100MB/s",
+          "writeSpeed": "Up to 80MB/s",
+          "video": "V30, minimum 30MB/s; Full HD and 4K Ultra HD support",
+          "useCase": "D-SLR, D-SLM, 4K cameras and burst photography",
+          "protection": "Waterproof, shockproof, anti-static, X-ray proof",
+          "operatingTemperature": "-25 C to 85 C",
+          "features": "Write-in protection, ECC",
+          "color": "Blue/black",
+          "warranty": "Lifetime reported by datasheet",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 8 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MEMDAT4090", "stock": 8, "price": 10.44, "currency": "USD", "branch": "D2A:8" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public Tony listing validates MEMDAT4090/EAN but does not expose numeric stock matching CTOnline D2A:8 or USD 10.44; provider legacy path was memory RAM."]
+        },
+        "measurements": { "dimensions": "24 x 32 x 2.1 mm", "weight": "2 g" },
+        "sourceRefs": [
+          { "title": "ADATA Premier Pro SDXC UHS-I V30 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_premier_pro_sdxc_uhs_i_class_10_memory_card_v30s_v3.pdf" },
+          { "title": "Tony ADATA Premier Pro V30 MEMDAT4090", "type": "retail", "url": "https://www.tony.com.mx/memoria-sd-adata-premier-pro-v30-memdat4090-1/p" }
+        ]
+      }
+    },
+    {
+      "product_id": "1ulqo0nn8qvkrvs",
+      "research": {
+        "confidence": 0.95,
+        "name": "Manhattan 312721 cable SVGA HD15 macho a HD15 macho 4.5 m negro",
+        "description": "Cable Manhattan 312721 para monitor SVGA/VGA de 4.5 m, HD15 macho a HD15 macho, negro, completamente blindado para reducir EMI, contactos niquelados y terminales moldeadas en PVC.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-4-5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-4-5m/manhattan-312721",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-312721",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1844687",
+          "https://compupuebla.com/wp-content/uploads/2024/04/312721CableparamonitorSVGAHD15mach_312721_UPC766623312721_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/312721CableparamonitorSVGAHD15mach_312721_UPC766623312721_1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/312721CableparamonitorSVGAHD15mach_312721_UPC766623312721_2.jpg"
+        ],
+        "documents": [
+          { "label": "Manhattan 312721 listing", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-312721" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "312721",
+          "providerSku": "CABITL350 / CB-225",
+          "upc": "766623312721",
+          "productType": "SVGA/VGA monitor cable",
+          "connectors": "HD15 male to HD15 male",
+          "length": "4.5 m / 15 ft",
+          "color": "Black",
+          "resolution": "1360 x 768 reported by Manhattan LATAM",
+          "shielding": "Fully shielded to reduce EMI, foil and braid shielding",
+          "contacts": "Nickel-plated",
+          "terminals": "Molded PVC strain-relief construction",
+          "internalConstruction": "RGB mini coaxial and video pair",
+          "conductors": "30 AWG",
+          "breakdownVoltage": "300V DC",
+          "jacket": "Thermoplastic",
+          "certification": "UL 2919",
+          "warranty": "5 years in LATAM listing; lifetime in some US sources",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 91 },
+            { "providerId": "cva", "warehouseCode": "total", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABITL350", "stock": 91, "price": 7.1, "currency": "USD", "branch": "total:91" },
+            { "providerId": "cva", "providerSku": "CB-225", "stock": 2, "price": 6.92, "currency": "USD", "branch": "total:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Public sources validate CABITL350/CB-225 associations but not private CTOnline stock 91/USD 7.10 or CVA stock 2/USD 6.92; provider legacy path was monitors."]
+        },
+        "measurements": { "length": "4.5 m / 15 ft" },
+        "sourceRefs": [
+          { "title": "Manhattan 312721", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-para-monitor-svga-312721" },
+          { "title": "CompuPuebla Manhattan 312721", "type": "retail", "url": "https://compupuebla.com/producto/cable-vga-manhattan-312721/" },
+          { "title": "Grupo Reysa Manhattan 312721", "type": "retail", "url": "https://gruporeysa.com.mx/producto/manhattan-312721/" },
+          { "title": "SuperWarehouse Manhattan 312721", "type": "retail", "url": "https://www.superwarehouse.com/15-ft-svga-monitor-cable-312721.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "1usw04vjncvs783",
+      "research": {
+        "confidence": 0.93,
+        "name": "Balam Rush GR Burst GR850G 850W 80 Plus Gold ATX 3.1 full modular negra",
+        "description": "Fuente de poder gamer Balam Rush GR Burst GR850G de 850W, 80 Plus Gold, ATX 3.1 / PCIe 5.1, full modular, color negro, ventilador de 120mm y conector 12V-2x6 de 600W.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-gold/850w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-gold/850w/balam-rush-gr850g",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://coregaming.com.mx/producto/fuente-de-poder-gamer-balam-rush-gr-burst-gr850g-850w-80-plus-gold-atx-full-modular-color-negro-br-937658",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GABBLR470/GABBLR470_full.jpg",
+          "https://coregaming.com.mx/assets/uploads/sw_br_937658.png",
+          "https://coregaming.com.mx/assets/uploads/sw_br_937658_2.png",
+          "https://coregaming.com.mx/assets/uploads/sw_br_937658_3.png"
+        ],
+        "documents": [
+          { "label": "Core Gaming Balam Rush GR850G listing", "type": "retail", "url": "https://coregaming.com.mx/producto/fuente-de-poder-gamer-balam-rush-gr-burst-gr850g-850w-80-plus-gold-atx-full-modular-color-negro-br-937658" }
+        ],
+        "specs": {
+          "brand": "BALAM RUSH",
+          "model": "GR850G / BR-937658",
+          "providerSku": "GABBLR470",
+          "ean": "7506215937658",
+          "productType": "ATX power supply",
+          "power": "850W",
+          "efficiency": "80 Plus Gold",
+          "standard": "ATX 3.1 / PCIe 5.1 reported by public listing",
+          "modularity": "Full modular",
+          "color": "Black",
+          "fan": "120 mm",
+          "connectors": "20+4 pin motherboard, 2x CPU 4+4 pin, 3x PCIe 6+2 pin, 1x PCIe 5.1 / 12V-2x6 600W, 6x SATA, 3x Molex",
+          "protections": "OVP, OPP, SCP, UVP",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "GABBLR470", "stock": 39, "price": 1044.43, "currency": "MXN", "branch": "DFA:11,GDL:7,CHI:5,QRO:4,MOR:3,MID:2,MAZ:2,ACX:2,CDV:2,DFT:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee/CTOnline public JSON validates SKU and image but shows MXN 1305.54 and stock 12, conflicting with private CTOnline promo MXN 1044.43 and stock 39."]
+        },
+        "measurements": { "dimensions": "125 x 150 x 86 mm", "weight": "2.05 kg" },
+        "sourceRefs": [
+          { "title": "Core Gaming Balam Rush GR850G", "type": "retail", "url": "https://coregaming.com.mx/producto/fuente-de-poder-gamer-balam-rush-gr-burst-gr850g-850w-80-plus-gold-atx-full-modular-color-negro-br-937658" },
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "CTOnline GABBLR470 image", "type": "image", "url": "https://static.ctonline.mx/imagenes/GABBLR470/GABBLR470_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "1vm0hs3gk7ful2a",
+      "research": {
+        "confidence": 0.95,
+        "name": "Nextep NE-515 cajon de dinero de acero negro 5 billetes 8 monedas",
+        "description": "Cajon de dinero Nextep NE-515 para punto de venta, de acero negro, con 5 compartimentos para billetes, 8 para monedas, cerradura con llave e interfaz RJ11/RJ12 para impresora POS segun fichas publicas.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/metalicos",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalicos/nextep-ne-515",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/wp-content/uploads/2024/10/NE-515.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CJNNTE020/CJNNTE020_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CajndeDineroNextepNE515NegroAcero85_NE515_EAN7501811271809_0-300x300.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CajndeDineroNextepNE515NegroAcero85_NE515_EAN7501811271809_0-150x150.jpg"
+        ],
+        "documents": [
+          { "label": "Nextep NE-515 datasheet", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/2024/10/NE-515.pdf" }
+        ],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-515",
+          "providerSku": "CJNNTE020",
+          "ean": "7501811271809",
+          "productType": "POS cash drawer",
+          "material": "Steel",
+          "color": "Black",
+          "billCompartments": "5",
+          "coinCompartments": "8",
+          "security": "Key lock reported by public listings",
+          "interface": "RJ11/RJ12 for POS printer reported by public listing",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 484 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 165 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 14 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 6 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CJNNTE020", "stock": 836, "price": 584.77, "currency": "MXN", "branch": "DFA:484,D2A:165,TOL:20,HMO:19,OAX:14,TXA:9,CUN:9,SLP:8,TPC:8,MOR:7,CHI:6,LEO:6" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Acomee/CTOnline public JSON validates MXN 584.77 price but shows stock 518, conflicting with private feed total 836; feed branch list sums 755, leaving 81 units without visible branch in the available extract."]
+        },
+        "measurements": { "dimensions": "40.5 x 42 x 9 cm", "weight": "5.6 kg" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Nextep NE-515", "type": "retail", "url": "https://compupuebla.com/producto/cajon-de-dinero-nextep-ne-515/" },
+          { "title": "Nextep NE-515 datasheet", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/2024/10/NE-515.pdf" },
+          { "title": "Acomee CTOnline JSON", "type": "retail", "url": "https://www.acomee.com.mx/json1.php" },
+          { "title": "CTOnline CJNNTE020 image", "type": "image", "url": "https://static.ctonline.mx/imagenes/CJNNTE020/CJNNTE020_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "1w2kfej9djqtmsx",
+      "research": {
+        "confidence": 0.94,
+        "name": "LG 32LR600BPSC Smart TV LED 32 pulgadas HD webOS",
+        "description": "Televisor Smart TV LED LG 32LR600BPSC de 32 pulgadas con resolucion oficial HD 1366 x 768, webOS, procesador alpha 5 AI Gen6, HDR10/HLG y funciones ThinQ AI. Se corrige el texto del proveedor que lo marcaba como 4K.",
+        "manualCategoryPath": "video/televisores/led-webos/32-hd",
+        "semanticCategoryPath": "video/televisores/led-webos/32-hd/lg-32lr600bpsc",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/cl/tv-soundbars/smart-tvs/32lr600bpsc/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/PANLGE3850/PANLGE3850_full.jpg",
+          "https://www.lg.com/content/dam/channel/wcms/cl/smart-tv/32lr600bpsc/GALLERY/basic..jpg",
+          "https://www.lg.com/content/dam/channel/wcms/cl/smart-tv/32lr600bpsc/feature/hd-lr60-05-webos-23-d.jpg",
+          "https://www.lg.com/content/dam/channel/wcms/cl/smart-tv/32lr600bpsc/feature/hd-lr60-07-wow-interface-d-v2.jpg"
+        ],
+        "documents": [
+          { "label": "LG 32LR600BPSC official listing", "type": "manufacturer", "url": "https://www.lg.com/cl/tv-soundbars/smart-tvs/32lr600bpsc/" }
+        ],
+        "specs": {
+          "brand": "LG",
+          "model": "32LR600BPSC",
+          "providerSku": "PANLGE3850",
+          "ean": "8806096406120",
+          "productType": "Smart TV LED",
+          "screenSize": "32 in",
+          "resolution": "HD 1366 x 768",
+          "operatingSystem": "webOS",
+          "processor": "alpha 5 AI Processor Gen6",
+          "hdr": "HDR10/HLG reported by official/regional listing",
+          "smartFeatures": "ThinQ AI, webOS apps depending on region",
+          "connectivity": "HDMI, USB, LAN, Wi-Fi, Bluetooth, RF input and optical output reported by public sources; verify regional variant before publishing as legal spec",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 451 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 212 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 61 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "PANLGE3850", "stock": 769, "price": 2506.32, "currency": "MXN", "branch": "D2A:451,DFA:212,CLN:61,MOR:7,MTY:5,TAM:3,TOL:3,QRO:2,LEO:2,CTZ:2,TXA:2,DFT:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Provider source title says 4K HDR, but official LG page identifies HD 1366 x 768; public reseller stock/price differ from private CTOnline total 769/MXN 2506.32; feed branch list sums 752, leaving 17 units without visible branch in the available extract."]
+        },
+        "sourceRefs": [
+          { "title": "LG 32LR600BPSC official listing", "type": "manufacturer", "url": "https://www.lg.com/cl/tv-soundbars/smart-tvs/32lr600bpsc/" },
+          { "title": "GlobalOffice LG 32LR600BPSC", "type": "retail", "url": "https://www.globaloffice.com.mx/app/detalle/producto/electronica-de-consumo/television-lg-hd-32in-lq600b-smart-tv-con-procesador-inteli/32lr600bpsc" },
+          { "title": "CompuPuebla LG 32LR600BPSC", "type": "retail", "url": "https://compupuebla.com/producto/televisiones-lg-32lr600bpsc/" },
+          { "title": "CTOnline PANLGE3850 image", "type": "image", "url": "https://static.ctonline.mx/imagenes/PANLGE3850/PANLGE3850_full.jpg" }
+        ]
+      }
+    }
+  ]
+}
