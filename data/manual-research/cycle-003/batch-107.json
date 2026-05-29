@@ -1,0 +1,404 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b107-2026-05-29",
+  "cycle": 3,
+  "batch": 107,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ly6o5m9qdjsoyor",
+      "research": {
+        "confidence": 0.95,
+        "name": "Epson ERC-38B cinta negra para miniprinter POS",
+        "description": "Cinta de tela negra Epson ERC-38B para impresoras POS de impacto compatibles, incluyendo modelos TM-U220, TM-U230, TM-U325 y TM-U375.",
+        "manualCategoryPath": "impresion/consumibles/cintas-matriz-punto/epson-erc-38",
+        "semanticCategoryPath": "impresion/consumibles/cintas-matriz-punto/epson-erc-38/epson-erc-38b",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/Accessories/Printer-Accessories/Black-Fabric-Ribbon-TMU-TM-IT---ERC-38B/p/ERC-38B",
+        "gallery": ["https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/epson_erc_38b_black_fabric_ribbon_1416331299_1088554.jpg"],
+        "documents": [{ "label": "Epson ERC-38B product page", "type": "manufacturer", "url": "https://epson.com/Accessories/Printer-Accessories/Black-Fabric-Ribbon-TMU-TM-IT---ERC-38B/p/ERC-38B" }],
+        "specs": {
+          "brand": "EPSON",
+          "model": "ERC-38B",
+          "providerSkus": ["CAREPS940", "CN-134"],
+          "productType": "Cinta para impresora POS de matriz de punto",
+          "color": "Negro",
+          "ribbonLife": "3000000 characters in TM-U220 by B&H reference",
+          "compatibility": "Epson TM-U220, TM-U230, TM-U325, TM-U375 by Epson; POS catalogs also list TM-U200, TM-U210 and TM-U300",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS940", "stock": 2562, "price": 37.39, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-134", "stock": 0, "price": 36.94, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["AC suffix is not part of the official model.", "Previous tinta-toner path was too broad; this is a POS impact-printer ribbon.", "Epson official page does not list all older TM-U200/TM-U300 compatibility entries found in POS catalogs.", "CVA listed this SKU with zero stock at verification time; CTOnline stock remains available."]
+        },
+        "measurements": { "dimensions": "Retail package 5.276 x 3.15 x 1.102 in by B&H", "weight": "Retail package approx 0.1 lb" },
+        "sourceRefs": [
+          { "title": "Epson ERC-38B official page", "type": "manufacturer", "url": "https://epson.com/Accessories/Printer-Accessories/Black-Fabric-Ribbon-TMU-TM-IT---ERC-38B/p/ERC-38B" },
+          { "title": "B&H Epson ERC-38B reference", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1088554-REG/epson_erc_38b_black_fabric_ribbon.html/overview" },
+          { "title": "BarcodeFactory Epson ERC-38B compatibility", "type": "catalog", "url": "https://www.barcodefactory.com/epson/ribbons/erc-38b" }
+        ]
+      }
+    },
+    {
+      "product_id": "vr3vo58pqm4c9a2",
+      "research": {
+        "confidence": 0.96,
+        "name": "Lexar JumpDrive V40 LJDV40-32GAB memoria USB 2.0 32GB negra",
+        "description": "Memoria USB Lexar JumpDrive V40 de 32GB con interfaz USB 2.0, diseno compacto negro y uso plug-and-play.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/lexar-jumpdrive-v40-ljdv40-32gab",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://americas.lexar.com/product/lexar-jumpdrive-v40-usb-flash-drive/",
+        "gallery": ["https://www-oss.lexar.com/uploads/product_images/V40N_slider_32GB_1.png", "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/lexar_ljdv40_32gabvna_jumpdrive_v40_32gb_usb_1629192937_1656843.jpg"],
+        "documents": [{ "label": "Lexar JumpDrive V40 official page", "type": "manufacturer", "url": "https://americas.lexar.com/product/lexar-jumpdrive-v40-usb-flash-drive/" }],
+        "specs": {
+          "brand": "LEXAR",
+          "model": "JumpDrive V40",
+          "partNumber": "LJDV40-32GAB",
+          "providerSku": "MEMLEX010",
+          "upc": "843367105205",
+          "productType": "Memoria USB",
+          "capacity": "32 GB",
+          "interface": "USB-A 2.0",
+          "color": "Negro",
+          "compatibility": "PC and Mac by Lexar reference",
+          "operatingTemperature": "0 to 60 C",
+          "warranty": "2 years limited by Lexar",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"CMT","stock":1437},{"providerId":"ctonline","warehouseCode":"D2A","stock":225},{"providerId":"ctonline","warehouseCode":"PUE","stock":163},{"providerId":"ctonline","warehouseCode":"ACA","stock":146},{"providerId":"ctonline","warehouseCode":"TXA","stock":136},{"providerId":"ctonline","warehouseCode":"MOR","stock":98},{"providerId":"ctonline","warehouseCode":"HMO","stock":47},{"providerId":"ctonline","warehouseCode":"OBR","stock":44},{"providerId":"ctonline","warehouseCode":"CAM","stock":36},{"providerId":"ctonline","warehouseCode":"XLP","stock":33},{"providerId":"ctonline","warehouseCode":"ZAC","stock":30},{"providerId":"ctonline","warehouseCode":"IRA","stock":21}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMLEX010", "stock": 2519, "price": 3.5, "currency": "USD", "branch": "CMT:1437,D2A:225,PUE:163,ACA:146,TXA:136,MOR:98,HMO:47,OBR:44,CAM:36,XLP:33,ZAC:30,IRA:21" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is USB flash storage.", "Lexar Americas often publishes suffix LJDV40-32GABVNA, while provider uses LJDV40-32GAB and UPC 843367105205.", "Visible branch sum is 2416 while feed total_stock is 2519, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "20.04 x 54.7 x 9.6 mm", "weight": "8 g" },
+        "sourceRefs": [
+          { "title": "Lexar JumpDrive V40 official page", "type": "manufacturer", "url": "https://americas.lexar.com/product/lexar-jumpdrive-v40-usb-flash-drive/" },
+          { "title": "B&H Lexar LJDV40-32GABVNA specs", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1656843-REG/lexar_ljdv40_32gabvna_jumpdrive_v40_32gb_usb.html/specs" }
+        ]
+      }
+    },
+    {
+      "product_id": "trw0k05jtt3sjd1",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 497202 K1 mouse optico USB alambrico negro",
+        "description": "Mouse optico BRobotix K1/497202 alambrico USB-A, color negro, para oficina y uso basico plug-and-play.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/brobotix-497202-k1",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/497202_ft.pdf",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/04/MouseBsicoUSBBROBOTIX497202Negro3B_497202_EAN7503027497202_0.jpg"],
+        "documents": [{ "label": "BRobotix 497202 technical sheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/497202_ft.pdf" }],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "497202 / K1",
+          "providerSku": "ACCRBT5810",
+          "ean": "7503027497202",
+          "productType": "Mouse optico USB alambrico",
+          "interface": "USB-A",
+          "color": "Negro",
+          "sensor": "Optical",
+          "dpi": "1000 DPI by technical sheet; some retailers list 1200 DPI",
+          "buttons": "2 primary buttons plus scroll wheel; retailers often describe 3 buttons",
+          "cableLength": "1 m",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":719},{"providerId":"ctonline","warehouseCode":"GDL","stock":535},{"providerId":"ctonline","warehouseCode":"D2A","stock":275},{"providerId":"ctonline","warehouseCode":"CMT","stock":233},{"providerId":"ctonline","warehouseCode":"DFC","stock":171},{"providerId":"ctonline","warehouseCode":"LEO","stock":72},{"providerId":"ctonline","warehouseCode":"TRN","stock":34},{"providerId":"ctonline","warehouseCode":"TAM","stock":34},{"providerId":"ctonline","warehouseCode":"HMO","stock":25},{"providerId":"ctonline","warehouseCode":"TXA","stock":22},{"providerId":"ctonline","warehouseCode":"SLP","stock":21},{"providerId":"ctonline","warehouseCode":"COL","stock":20}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT5810", "stock": 2445, "price": 1.81, "currency": "USD", "branch": "DFA:719,GDL:535,D2A:275,CMT:233,DFC:171,LEO:72,TRN:34,TAM:34,HMO:25,TXA:22,SLP:21,COL:20" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Sources differ on 2 versus 3 buttons and 1000 versus 1200 DPI; retain conservative primary-sheet values and note wheel-click convention.", "Visible branch sum is 2161 while feed total_stock is 2445, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "11.5 x 6 x 3.5 cm product; retail package 15.5 x 8 x 4.2 cm", "weight": "Retail package approx 0.1 kg" },
+        "sourceRefs": [
+          { "title": "BRobotix 497202 technical sheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/497202_ft.pdf" },
+          { "title": "CompuPuebla BRobotix 497202", "type": "retailer", "url": "https://compupuebla.com/producto/mouse-basico-usb-brobotix-497202/" },
+          { "title": "Oasify BRobotix 497202", "type": "retailer", "url": "https://oasify.com/mouse/120726-mouse-basico-usb-brobotix-497202-7503027497202.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "vyprmd624h797z8",
+      "research": {
+        "confidence": 0.96,
+        "name": "Perfect Choice PC-034087 limpiador alcohol isopropilico antiestatico 250 ml",
+        "description": "Limpiador antiestatico Perfect Choice PC-034087 de 250 ml para partes, tarjetas y componentes electronicos, de evaporacion rapida y sin residuos visibles.",
+        "manualCategoryPath": "computo/accesorios/limpieza/alcohol-isopropilico",
+        "semanticCategoryPath": "computo/accesorios/limpieza/alcohol-isopropilico/perfect-choice-pc-034087",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/limpiador-de-alcohol-para-componentes-electronicos-250ml",
+        "gallery": ["https://perfectchoice.me/cdn/shop/files/PC-034087_1_800x.jpg?v=1749075840"],
+        "documents": [
+          { "label": "Perfect Choice PC-034087 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034087.pdf?v=1613556272" },
+          { "label": "Perfect Choice PC-034087 safety sheet", "type": "safety_sheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034087_LIMPIADOR_DE_ALCOHOL_PARA_COMPONENTES_ELECTRONICOS.pdf?v=1692983627" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-034087",
+          "providerSkus": ["ACCMST1060", "CN-2955"],
+          "upc": "615604034087",
+          "productType": "Limpiador antiestatico para electronica",
+          "content": "250 ml",
+          "uses": "Parts, cards and electronic components",
+          "properties": "Fast evaporation, anti-static, no visible marks or residue",
+          "ingredients": "Water, alcohol, preservative and fragrance by safety sheet",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCMST1060", "stock": 2382, "price": 36.57, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-2955", "stock": 48, "price": 35.97, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Do not publish as pure isopropyl alcohol; official safety sheet does not disclose concentration and lists a mixed cleaner formula.", "AC suffix is not part of the official model."]
+        },
+        "measurements": { "dimensions": "5 x 21 cm", "weight": "0.234 kg" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-034087 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/limpiador-de-alcohol-para-componentes-electronicos-250ml" },
+          { "title": "Perfect Choice PC-034087 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034087.pdf?v=1613556272" },
+          { "title": "Perfect Choice PC-034087 safety sheet", "type": "safety_sheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034087_LIMPIADOR_DE_ALCOHOL_PARA_COMPONENTES_ELECTRONICOS.pdf?v=1692983627" }
+        ]
+      }
+    },
+    {
+      "product_id": "m65nc1u7wrc4xrv",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link UB500 adaptador nano USB Bluetooth 5.0",
+        "description": "Adaptador nano USB-A TP-Link UB500 para agregar conectividad Bluetooth 5.0 a equipos Windows, con compatibilidad hacia atras con versiones Bluetooth anteriores.",
+        "manualCategoryPath": "redes/adaptadores-bluetooth/usb",
+        "semanticCategoryPath": "redes/adaptadores-bluetooth/usb/tp-link-ub500",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/adapter/ub500/",
+        "gallery": ["https://static.tp-link.com/upload/image-line/Overview_UB500_US_2106_01_large_20210805112046i.jpg"],
+        "documents": [
+          { "label": "TP-Link UB500 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2021/202105/20210526/UB500%28UN%29_1.0%20Datasheet.pdf" },
+          { "label": "TP-Link UB500 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2022/202204/20220401/1910013050_UB500_UG_V1.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "UB500",
+          "providerSkus": ["TARTPL580", "AC-9718"],
+          "productType": "Adaptador USB Bluetooth",
+          "bluetooth": "Bluetooth 5.0, backward compatible with 4.0/3.0/2.1/2.0/1.1",
+          "interface": "USB-A 2.0",
+          "supportedDevices": "Up to 7 devices by TP-Link references",
+          "osSupport": "Windows 11/10/8.1/7; driver required for Windows 7",
+          "operatingTemperature": "0 to 40 C",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TARTPL580", "stock": 2373, "price": 4.55, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-9718", "stock": 12, "price": 4.46, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous cables-adaptadores path was too generic; this is a Bluetooth network/peripheral adapter.", "Hardware version is not exposed in provider feed; validate lot version before promising beyond Bluetooth 5.0 references."]
+        },
+        "measurements": { "dimensions": "14.8 x 6.8 x 18.9 mm", "weight": "Official product weight not published; retail package approx 0.075 lb" },
+        "sourceRefs": [
+          { "title": "TP-Link UB500 Mexico product page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/adapter/ub500/" },
+          { "title": "TP-Link UB500 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2021/202105/20210526/UB500%28UN%29_1.0%20Datasheet.pdf" },
+          { "title": "TP-Link UB500 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2022/202204/20220401/1910013050_UB500_UG_V1.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "kfiodolcya1wewj",
+      "research": {
+        "confidence": 0.96,
+        "name": "Logitech M170 mouse inalambrico 2.4 GHz USB negro gris 1000 DPI",
+        "description": "Mouse inalambrico compacto Logitech M170 con receptor USB nano, conexion 2.4 GHz, sensor optico de 1000 DPI y bateria AA.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1000-dpi/logitech-m170",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/en-us/shop/p/m170-wireless-mouse.910-004940",
+        "gallery": ["https://www.logitech.com/en-us/shop/p/m170-wireless-mouse.910-004940"],
+        "documents": [{ "label": "Logitech M170 technical specifications", "type": "support", "url": "https://support.logi.com/hc/en-ph/articles/360023301394-M170-M171-B170-Technical-Specifications" }],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "M170",
+          "partNumber": "910-004940",
+          "providerSku": "MOULOG1760",
+          "upc": "097855124180",
+          "productType": "Mouse inalambrico USB",
+          "wireless": "2.4 GHz USB receiver",
+          "range": "10 m / 33 ft",
+          "dpi": "1000 DPI",
+          "buttons": "Left/right plus clickable scroll wheel",
+          "battery": "1 AA, up to 12 months",
+          "handedness": "Ambidextrous",
+          "receiver": "Logitech non-Unifying nano receiver",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":861},{"providerId":"ctonline","warehouseCode":"D2A","stock":576},{"providerId":"ctonline","warehouseCode":"GDL","stock":366},{"providerId":"ctonline","warehouseCode":"CMT","stock":191},{"providerId":"ctonline","warehouseCode":"TOL","stock":43},{"providerId":"ctonline","warehouseCode":"ZAC","stock":39},{"providerId":"ctonline","warehouseCode":"HMO","stock":29},{"providerId":"ctonline","warehouseCode":"QRO","stock":28},{"providerId":"ctonline","warehouseCode":"CHI","stock":20},{"providerId":"ctonline","warehouseCode":"LMO","stock":18},{"providerId":"ctonline","warehouseCode":"MTY","stock":17},{"providerId":"ctonline","warehouseCode":"MAZ","stock":17}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOULOG1760", "stock": 2380, "price": 200, "currency": "MXN", "branch": "DFA:861,D2A:576,GDL:366,CMT:191,TOL:43,ZAC:39,HMO:29,QRO:28,CHI:20,LMO:18,MTY:17,MAZ:17" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["UPC 097855124180 cross-references black MFR 910-004940 while feed says gray; retain black/gray wording.", "Some retailers list 2 buttons; 3 buttons is valid when counting clickable scroll wheel.", "Visible branch sum is 2205 while feed total_stock is 2380, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "35.2 x 61.9 x 97.3 mm", "weight": "70.5 g" },
+        "sourceRefs": [
+          { "title": "Logitech M170 official page", "type": "manufacturer", "url": "https://www.logitech.com/en-us/shop/p/m170-wireless-mouse.910-004940" },
+          { "title": "Logitech M170 technical specifications", "type": "support", "url": "https://support.logi.com/hc/en-ph/articles/360023301394-M170-M171-B170-Technical-Specifications" },
+          { "title": "B&H Logitech M170 reference", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1433572-REG/logitech_910004940_m170_wireless_mouse_black.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "5rxdzk7j766erqv",
+      "research": {
+        "confidence": 0.92,
+        "name": "Provision-ISR PTR-102VP-HD+ balun pasivo video y energia CCTV",
+        "description": "Balun pasivo Provision-ISR PTR-102VP-HD+ para transmitir video analogico HD y energia por cable Cat5/5e/6 en sistemas CCTV.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/baluns-video/video-poder",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/baluns-video/video-poder/provision-isr-ptr-102vp-hd-plus",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://vssnederland.nl/files/products/2207/datasheet-ptr-102vp-hd-plus.pdf",
+        "gallery": ["https://provision-isr.com/accesories/ptr-102vp-hd-8/"],
+        "documents": [{ "label": "Provision-ISR PTR-102VP-HD+ datasheet", "type": "datasheet", "url": "https://vssnederland.nl/files/products/2207/datasheet-ptr-102vp-hd-plus.pdf" }],
+        "specs": {
+          "brand": "PROVISION ISR",
+          "model": "PTR-102VP-HD+",
+          "providerSkus": ["ACCPVS540", "AC-6999"],
+          "productType": "Balun pasivo CCTV con video y energia",
+          "channels": "1 channel",
+          "connectors": "BNC video plus 12 VDC power input/output",
+          "videoFormats": "AHD, CVI, TVI, CVBS, PAL/NTSC",
+          "cabling": "RJ45 Cat5/5e/6",
+          "protection": "2 kV",
+          "operatingTemperature": "-20 to 70 C",
+          "humidity": "0-90% RH",
+          "distance": "Up to 200 m AHD/CVBS or 150 m CVI/TVI by datasheet",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCPVS540", "stock": 2328, "price": 5.34, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-6999", "stock": 0, "price": 5.34, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider/retail text often claims 8MP, but PTR-102VP-HD+ datasheet is more conservative and Provision also has a PTR-102VP-HD-8 variant; do not publish 8MP unless physical inventory confirms '-8'.", "CVA listed this SKU with zero stock at verification time; CTOnline stock remains available."]
+        },
+        "measurements": { "dimensions": "73 x 29 x 20 mm plus 113 mm cable", "weight": "60 g; retail package approx 4 x 13.5 x 10.5 cm / 0.1 kg" },
+        "sourceRefs": [
+          { "title": "Provision-ISR PTR-102VP-HD+ datasheet", "type": "datasheet", "url": "https://vssnederland.nl/files/products/2207/datasheet-ptr-102vp-hd-plus.pdf" },
+          { "title": "Provision-ISR PTR-102VP-HD-8 reference", "type": "manufacturer", "url": "https://provision-isr.com/accesories/ptr-102vp-hd-8/" },
+          { "title": "InterDS Provision balun retail reference", "type": "retailer", "url": "https://inter-ds.com/products/provision-video-balum-pasivo-energia-1ch-de-8mp-ptr-102vp-hd" }
+        ]
+      }
+    },
+    {
+      "product_id": "dyvi13f6olg95ji",
+      "research": {
+        "confidence": 0.94,
+        "name": "Stylos ST100 STMUSB4B memoria USB 2.0 64GB plata",
+        "description": "Memoria USB metalica Stylos ST100 de 64GB, color plata, para almacenamiento portatil con interfaz USB 2.0.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/metalicas/stylos-st100-stmusb4b",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/5f1/0ca/368/FICHA_TECNICA_STMUSB1B_STMUSB2B_STMUSB3B_STMUSB4B_STMUSB5B_STMUSB6B.pdf",
+        "gallery": ["https://www.cyberpuerta.mx/Computo-Hardware/Memorias-RAM-y-Flash/Memorias-USB/Memoria-USB-Stylos-ST100-64GB-USB-2-0-Plata.html", "https://www.zegucom.com.mx/producto/memorias/memorias-usb/memoria-usb-stylos-tech-st100-usb-2-0-64gb-plata-stmusb4b/U1RNVVNCNEI%3D"],
+        "documents": [{ "label": "Stylos ST100 STMUSB series technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/5f1/0ca/368/FICHA_TECNICA_STMUSB1B_STMUSB2B_STMUSB3B_STMUSB4B_STMUSB5B_STMUSB6B.pdf" }],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "ST100",
+          "partNumber": "STMUSB4B",
+          "providerSku": "MEMSTY140",
+          "ean": "7503024582598",
+          "productType": "Memoria USB metalica",
+          "capacity": "64 GB",
+          "interface": "USB-A 2.0",
+          "color": "Plata",
+          "fileSystems": "NTFS, FAT32, exFAT by Stylos sheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"ACA","stock":589},{"providerId":"ctonline","warehouseCode":"COL","stock":335},{"providerId":"ctonline","warehouseCode":"TXA","stock":300},{"providerId":"ctonline","warehouseCode":"TOL","stock":153},{"providerId":"ctonline","warehouseCode":"CUN","stock":150},{"providerId":"ctonline","warehouseCode":"ZAC","stock":138},{"providerId":"ctonline","warehouseCode":"CAM","stock":116},{"providerId":"ctonline","warehouseCode":"XLP","stock":98},{"providerId":"ctonline","warehouseCode":"CUE","stock":90},{"providerId":"ctonline","warehouseCode":"VHA","stock":50},{"providerId":"ctonline","warehouseCode":"PAC","stock":42},{"providerId":"ctonline","warehouseCode":"CDV","stock":29}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSTY140", "stock": 2218, "price": 5.53, "currency": "USD", "branch": "ACA:589,COL:335,TXA:300,TOL:153,CUN:150,ZAC:138,CAM:116,XLP:98,CUE:90,VHA:50,PAC:42,CDV:29" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is USB flash storage.", "Strong conflict in product dimensions/weight across sources; do not publish USB-C or Micro-USB without visual validation.", "Visible branch sum is 2090 while feed total_stock is 2218, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "11 x 15 x 1 mm by Stylos sheet; some retailers list 11 x 10 x 1 mm", "weight": "1 g by Stylos sheet; some retailers list 14 g" },
+        "sourceRefs": [
+          { "title": "Stylos ST100 STMUSB series technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/5f1/0ca/368/FICHA_TECNICA_STMUSB1B_STMUSB2B_STMUSB3B_STMUSB4B_STMUSB5B_STMUSB6B.pdf" },
+          { "title": "Cyberpuerta Stylos ST100 64GB", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Memorias-RAM-y-Flash/Memorias-USB/Memoria-USB-Stylos-ST100-64GB-USB-2-0-Plata.html" },
+          { "title": "Zegucom Stylos STMUSB4B", "type": "retailer", "url": "https://www.zegucom.com.mx/producto/memorias/memorias-usb/memoria-usb-stylos-tech-st100-usb-2-0-64gb-plata-stmusb4b/U1RNVVNCNEI%3D" }
+        ]
+      }
+    },
+    {
+      "product_id": "vw7jywk0gxji4wi",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP GT53 1VV22AL botella de tinta negra original 90 ml",
+        "description": "Botella original HP GT53 negra 1VV22AL de 90 ml para impresoras HP Smart Tank e Ink Tank compatibles.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/hp-gt53/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/hp-gt53/negro/hp-gt53-1vv22al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ve-es/products/ink-toner/product-details/24596872",
+        "gallery": ["https://www.coppel.com/pdp/cartuchos/botella-de-tinta-original-hp-gt53-1vv22al-negro-pm-2627973"],
+        "documents": [
+          { "label": "HP GT53 product details", "type": "manufacturer", "url": "https://www.hp.com/ve-es/products/ink-toner/product-details/24596872" },
+          { "label": "HP GT53 technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/682/e29/6a3/682e296a337829.94301768.pdf" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "GT53",
+          "partNumber": "1VV22AL",
+          "providerSku": "CARHPP4170",
+          "upc": "192545527583",
+          "productType": "Botella de tinta original",
+          "color": "Negro",
+          "inkType": "Pigment black",
+          "inkVolume": "90 ml",
+          "yield": "Approximately 4000 pages by HP references",
+          "origin": "Malaysia by technical sheet",
+          "compatibility": "HP Smart Tank and Ink Tank compatible families; validate exact printer model before PDP compatibility claims",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1021},{"providerId":"ctonline","warehouseCode":"D2A","stock":333},{"providerId":"ctonline","warehouseCode":"PUE","stock":98},{"providerId":"ctonline","warehouseCode":"CMT","stock":61},{"providerId":"ctonline","warehouseCode":"GDL","stock":51},{"providerId":"ctonline","warehouseCode":"OAX","stock":38},{"providerId":"ctonline","warehouseCode":"MOR","stock":30},{"providerId":"ctonline","warehouseCode":"MAZ","stock":30},{"providerId":"ctonline","warehouseCode":"TOL","stock":27},{"providerId":"ctonline","warehouseCode":"PAC","stock":26},{"providerId":"ctonline","warehouseCode":"ACA","stock":26},{"providerId":"ctonline","warehouseCode":"VER","stock":25}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARHPP4170", "stock": 2122, "price": 140.9, "currency": "MXN", "branch": "DFA:1021,D2A:333,PUE:98,CMT:61,GDL:51,OAX:38,MOR:30,MAZ:30,TOL:27,PAC:26,ACA:26,VER:25" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some retail text labels the bottle as color even though this SKU is black.", "Compatibility varies by source; exact printer compatibility should be validated before rendering a full compatibility matrix.", "Visible branch sum is 1766 while feed total_stock is 2122, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "47 x 47 x 150 mm", "weight": "120 g product; 130 g package" },
+        "sourceRefs": [
+          { "title": "HP GT53 product details", "type": "manufacturer", "url": "https://www.hp.com/ve-es/products/ink-toner/product-details/24596872" },
+          { "title": "HP GT53 technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/682/e29/6a3/682e296a337829.94301768.pdf" },
+          { "title": "OFIX HP GT53 sheet", "type": "datasheet", "url": "https://ofix-fichas-tecnicas.s3.amazonaws.com/1280241.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "bpwzliqgji6ial9",
+      "research": {
+        "confidence": 0.96,
+        "name": "Intellinet 163286 faceplate keystone 1 puerto blanco",
+        "description": "Placa de pared Intellinet 163286 blanca de 1 puerto para modulo keystone, montaje al ras, con tapa antipolvo y tornillos.",
+        "manualCategoryPath": "redes/cableado-estructurado/placas-keystone/1-puerto",
+        "semanticCategoryPath": "redes/cableado-estructurado/placas-keystone/1-puerto/intellinet-163286",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://s3.amazonaws.com/assets.mhint/downloads/54637/163286_datasheet_english.pdf",
+        "gallery": ["https://www.intracommexico.com/tapa-faceplate-1-perforacion-blanco-intellinet-163286", "https://rescatepc.com/productos/cables/placas-de-pared/intellinet/163286/z-2735"],
+        "documents": [{ "label": "Intellinet 163286 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/54637/163286_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "163286",
+          "providerSkus": ["RCKACC1230", "AC-1702"],
+          "upc": "766623163286",
+          "productType": "Faceplate keystone",
+          "ports": "1 keystone opening",
+          "color": "Blanco",
+          "mounting": "Flush wall mount for single-gang box",
+          "compatibility": "Standard keystone jack",
+          "included": "Dust cap and two #6 25 mm screws",
+          "certification": "UL E157358 by datasheet",
+          "warranty": "Lifetime by Intellinet datasheet; some distributors state 5 years",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC1230", "stock": 2075, "price": 1.03, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-1702", "stock": 15, "price": 1.05, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Warranty differs between Intellinet datasheet and some local distributors.", "Newer Intellinet equivalent products can appear under a different SKU, but 163286 is confirmed by datasheet, UPC and distributor references."]
+        },
+        "measurements": { "dimensions": "114 x 70 x 9.5-10 mm; screw spacing 82.5 mm", "weight": "Approx 0.032 kg" },
+        "sourceRefs": [
+          { "title": "Intellinet 163286 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/54637/163286_datasheet_english.pdf" },
+          { "title": "Intracom Mexico Intellinet 163286", "type": "distributor", "url": "https://www.intracommexico.com/tapa-faceplate-1-perforacion-blanco-intellinet-163286" },
+          { "title": "RescatePC Intellinet 163286", "type": "retailer", "url": "https://rescatepc.com/productos/cables/placas-de-pared/intellinet/163286/z-2735" }
+        ]
+      }
+    }
+  ]
+}

@@ -52,6 +52,16 @@ const researchedBatchCases = [
   ["Nextep NE-529 rollo termico 80 x 70 mm paquete 5", "NEXTEP", "punto-de-venta/consumibles/rollos-termicos/80x70"],
   ["TP-Link Tapo C500 camara Wi-Fi exterior 360 1080p IP65", "TP-LINK", "seguridad/cctv/camaras-ip-wifi/pt-exterior/2mp"],
   ["Dell MS116 mouse USB optico alambrico 1000 DPI negro", "DELL", "computo/perifericos/mouse/alambricos/basicos/1000-dpi"],
+  ["Epson ERC-38B cinta negra para miniprinter TM-U200", "EPSON", "impresion/consumibles/cintas-matriz-punto/epson-erc-38"],
+  ["Lexar JumpDrive V40 LJDV40-32GAB memoria USB 2.0 32GB negra", "LEXAR", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["Brobotix 497202 mouse basico USB optico negro 3 botones", "BROBOTIX", "computo/perifericos/mouse/alambricos/basicos"],
+  ["Perfect Choice PC-034087 alcohol isopropilico antiestatico 250 ml", "PERFECT CHOICE", "computo/accesorios/limpieza/alcohol-isopropilico"],
+  ["TP-Link UB500 adaptador nano USB Bluetooth 5.0", "TP-LINK", "redes/adaptadores-bluetooth/usb"],
+  ["Logitech M170 mouse inalambrico gris 1000 DPI", "LOGITECH", "computo/perifericos/mouse/inalambricos/basicos/1000-dpi"],
+  ["Provision ISR PTR-102VP-HD+ video balun energia 4 en 1", "PROVISION ISR", "seguridad/cctv/accesorios-cableado/baluns-video/video-poder"],
+  ["Stylos STMUSB4B memoria USB 2.0 64GB plata", "STYLOS", "computo/almacenamiento/memorias-flash/usb/64gb/metalicas"],
+  ["HP GT53 1VV22AL botella de tinta negra", "HP", "impresion/consumibles/botellas-tinta/hp-gt53/negro"],
+  ["Intellinet 163286 faceplate tapa keystone 1 perforacion blanco", "INTELLINET", "redes/cableado-estructurado/placas-keystone/1-puerto"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
