@@ -297,7 +297,7 @@ const researchedBatchCases = [
   ["Acteck Optimize MI440 R100 AC-916462 mouse inalambrico 1600 DPI", "ACTECK", "computo/perifericos/mouse/inalambricos"],
   ["Acteck Optimize MA210 AC-928830 mouse alambrico USB 1200 DPI", "ACTECK", "computo/perifericos/mouse/alambricos"],
   ["Acteck Optimize MI240 AC-928885 mouse inalambrico 1200 DPI", "ACTECK", "computo/perifericos/mouse/inalambricos"],
-  ["Acteck Inspire TA210 AC-928946 teclado alambrico USB", "ACTECK", "computo/perifericos/teclados/alambricos"],
+  ["Acteck Inspire TA210 AC-928946 teclado alambrico USB", "ACTECK", "computo/perifericos/teclados/alambricos/usb"],
   ["Acteck Creator MK210 AC-928984 kit teclado y mouse USB", "ACTECK", "computo/perifericos/combos-teclado-mouse"],
   ["Acteck Atom GS240 AC-929042 gabinete micro torre slim", "ACTECK", "computo/componentes/gabinetes"],
   ["Acteck Kioto GC240 AC-932547 gabinete mini torre", "ACTECK", "computo/componentes/gabinetes"],

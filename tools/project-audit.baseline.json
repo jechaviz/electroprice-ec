@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-29T05:07:19.216Z",
-  "fileCount": 260,
-  "fileNameHash": "2e63abe86f372d9d4e33c0a8739b25325fe4a484bd5c5da052bc49da6f5dabef",
+  "generatedAt": "2026-05-29T17:43:23.332Z",
+  "fileCount": 261,
+  "fileNameHash": "d2be8e06b577f66e56ecfddd016aeaf0388b217e7a5d0ce1f4cf46c6c2bd1ee4",
   "files": [
     ".env.example",
     ".gitignore",
@@ -214,6 +214,7 @@
     "src/services/ProductCatalogService.ts",
     "src/services/ProductCurationPolicy.test.ts",
     "src/services/ProductManualTaxonomyBatches.test.ts",
+    "src/services/ProductManualTaxonomyBatchesPost100.test.ts",
     "src/services/ProductManualTaxonomyBatchesRecent.test.ts",
     "src/services/PromotionService.ts",
     "src/services/ProviderCycleMatrix.test.ts",
