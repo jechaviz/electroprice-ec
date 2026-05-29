@@ -142,6 +142,16 @@ const researchedBatchCases = [
   ["Acteck Blazar Evo FS500E ES-05002E fuente SFX 500W", "ACTECK", "computo/componentes/fuentes-poder/sfx-500w"],
   ["TP-Link Archer T3U adaptador USB Wi-Fi AC1300 MU-MIMO", "TP LINK", "redes/adaptadores-wifi/usb/ac1300-mini"],
   ["TP-Link Tapo C320WS camara Wi-Fi exterior 2K 4MP IP66", "TP LINK", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-2k"],
+  ["Manhattan 151993 adaptador DisplayPort macho a HDMI hembra pasivo", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos"],
+  ["TP-Link LiteWave LS1008 switch 8 puertos RJ45 10/100 no administrable", "TP LINK", "redes/switches/no-administrables/fast-ethernet/8-puertos"],
+  ["TP-Link Archer C24 router Wi-Fi AC750 dual band WISP", "TP LINK", "redes/routers/wifi-5/ac750"],
+  ["IMOU IPC-PS70FN-10M0 PS70F camara PT doble lente 10MP PoE", "IMOU", "seguridad/cctv/camaras-ip-poe/pt-doble-lente/10mp"],
+  ["Samsung LS32H5000FFXZX Smart TV Monitor H5000 32 HD Tizen", "SAMSUNG", "video/televisores/led-tizen/32-hd"],
+  ["Lenovo V15 G4 ABP 82YY0037LM Ryzen 5 7430U 16GB 512GB 15.6 FHD", "LENOVO", "computo/laptops/empresariales/15-6-pulgadas"],
+  ["Nexxt AB361NXT12 patch cord Cat6 UTP RJ45 7ft gris", "NEXXT", "redes/cableado-estructurado/patch-cords/cat6/2-1m"],
+  ["Canon GI-190 BK botella tinta negra 135ml MegaTank", "CANON", "impresion/consumibles/botellas-tinta-megatank/canon-gi190/negro"],
+  ["TP-Link Archer T2U adaptador USB Wi-Fi AC600 dual band", "TP LINK", "redes/adaptadores-wifi/usb/ac600-mini"],
+  ["Silimex Silimpo espuma limpiadora 454 ml", "SILIMEX", "computo/accesorios/limpieza/espumas-limpiadoras/454ml"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

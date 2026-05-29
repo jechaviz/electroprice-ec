@@ -1,0 +1,584 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b116-2026-05-29",
+  "cycle": 3,
+  "batch": 116,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "8x2w7rinpdqgfom",
+      "research": {
+        "confidence": 0.97,
+        "name": "Manhattan 151993 adaptador DisplayPort macho a HDMI hembra pasivo",
+        "description": "Adaptador pasivo Manhattan 151993 para conectar una fuente DisplayPort a una pantalla HDMI, con conector DisplayPort macho con seguro y puerto HDMI hembra.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos/manhattan-151993",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-adaptador-displayport-a-hdmi-pasivo-151993",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCITL3840/ACCITL3840_full.jpg", "https://manhattan.lat/products/manhattan-es-adaptador-displayport-a-hdmi-pasivo-151993"],
+        "documents": [
+          { "label": "Manhattan 151993 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/49777/151993_datasheet_english.pdf" },
+          { "label": "Manhattan 151993 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/49779/151993_datasheet_spanish.pdf" },
+          { "label": "Manhattan 151993 declaration of conformity", "type": "certificate", "url": "https://s3.amazonaws.com/assets.mhint/downloads/68673/151993_declaration_of_conformity_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "151993",
+          "providerSku": "ACCITL3840",
+          "cvaSku": "AC-5439",
+          "ean": "0766623151993",
+          "upc": "766623151993",
+          "productType": "Adaptador pasivo DisplayPort a HDMI",
+          "inputConnector": "DisplayPort 20-pin male with latch",
+          "outputConnector": "HDMI 19-pin female",
+          "direction": "DisplayPort source to HDMI display",
+          "standard": "DisplayPort 1.1, HDCP compatible",
+          "maxResolution": "1920 x 1200, 1080p at 60 Hz",
+          "bandwidth": "10.8 Gbps",
+          "contacts": "Gold-plated contacts",
+          "color": "Black",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCITL3840", "stock": 888, "price": 5.23, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "AC-5439", "stock": 9, "price": 5.31, "currency": "USD" }
+          ],
+          "providerBranches": [],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider feed did not expose branch-level stock for either offer.",
+            "The incoming AC suffix is a supplier label, not part of the official Manhattan model.",
+            "Warranty wording varies by region, so the record keeps the technical identity instead of a warranty promise."
+          ]
+        },
+        "measurements": { "dimensions": "7 x 2.2 x 1.4 cm", "weight": "14 g net, 18 g gross" },
+        "sourceRefs": [
+          { "title": "Manhattan LAT 151993 product page", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-adaptador-displayport-a-hdmi-pasivo-151993" },
+          { "title": "Manhattan US 151993 product page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-passive-displayport-to-hdmi-adapter-151993" },
+          { "title": "Manhattan 151993 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/49779/151993_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "amnx5n1f99y5ff5",
+      "research": {
+        "confidence": 0.97,
+        "name": "TP-Link LiteWave LS1008 switch 8 puertos RJ45 10/100 no administrable",
+        "description": "Switch de escritorio TP-Link LS1008 LiteWave no administrable con 8 puertos RJ45 Fast Ethernet 10/100 Mbps, auto-negociacion y diseno fanless plug and play.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet/8-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/8-puertos/tp-link-ls1008",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/soho-switch/ls1008/",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTTPL740/SWTTPL740_full.jpg", "https://www.tp-link.com/mx/home-networking/soho-switch/ls1008/"],
+        "documents": [
+          { "label": "TP-Link LiteWave switch datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202305/20230526/LiteWave%20Switch%20Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "LS1008",
+          "providerSku": "SWTTPL740",
+          "cvaSku": "NIC-3150",
+          "productType": "Switch no administrable Fast Ethernet",
+          "ports": "8 RJ45 10/100 Mbps",
+          "standards": "IEEE 802.3i, 802.3u, 802.3x",
+          "switchingCapacity": "1.6 Gbps",
+          "forwardingRate": "1.2 Mpps",
+          "macAddressTable": "2K",
+          "features": "Auto-MDI/MDIX, store-and-forward, flow control, Green Ethernet",
+          "power": "5 V DC 0.6 A",
+          "maxPowerConsumption": "2.64 W Mexico page; 1.86 W datasheet reference",
+          "fanless": true,
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTTPL740", "stock": 891, "price": 5.46, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "NIC-3150", "stock": 0, "price": 5.18, "currency": "USD" }
+          ],
+          "providerBranches": [],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "CVA had a lower price but zero stock at verification time.",
+            "Provider did not expose branch-level stock for this record.",
+            "Power consumption differs between regional product page and shared LiteWave datasheet."
+          ]
+        },
+        "measurements": { "dimensions": "124.6 x 48.7 x 22.8 mm", "weight": null },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico LS1008", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/soho-switch/ls1008/" },
+          { "title": "TP-Link LS1008 support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/ls1008/" },
+          { "title": "TP-Link LiteWave switch datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2023/202305/20230526/LiteWave%20Switch%20Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "389vawsifko1tdm",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Archer C24 router Wi-Fi AC750 doble banda",
+        "description": "Router TP-Link Archer C24 Wi-Fi 5 AC750 de doble banda con cuatro antenas fijas, modos router, punto de acceso y extensor de rango, administrable desde web o app Tether.",
+        "manualCategoryPath": "redes/routers/wifi-5/ac750",
+        "semanticCategoryPath": "redes/routers/wifi-5/ac750/tp-link-archer-c24",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/wifi-router/archer-c24/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ROUTPL960/ROUTPL960_full.jpg", "https://www.tp-link.com/mx/home-networking/wifi-router/archer-c24/"],
+        "documents": [
+          { "label": "TP-Link Archer C24 datasheet", "type": "datasheet", "url": "https://www.tp-link.com/mx/document/89124/" },
+          { "label": "TP-Link Archer C24 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2023/202303/20230309/1910013356_Archer%20C24%28EU%29_UG_V1.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer C24",
+          "providerSku": "ROUTPL960",
+          "cvaSku": "NIC-3514",
+          "productType": "Router Wi-Fi 5",
+          "wifiClass": "AC750",
+          "wirelessSpeed": "433 Mbps at 5 GHz plus 300 Mbps at 2.4 GHz",
+          "standards": "IEEE 802.11ac/n/a 5 GHz and 802.11n/b/g 2.4 GHz",
+          "antennas": "4 fixed antennas",
+          "ethernet": "1 WAN and 4 LAN 10/100 Mbps ports",
+          "modes": "Router, access point and range extender",
+          "security": "SPI firewall, access control, IP/MAC binding, guest network; WPA3 depends on hardware/firmware version",
+          "management": "TP-Link Tether app and web UI",
+          "power": "9 V DC 0.6 A",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTPL960", "stock": 882, "price": 18.18, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "NIC-3514", "stock": 0, "price": 17.26, "currency": "USD" }
+          ],
+          "providerBranches": [],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Incoming category as access point was incomplete; official product is a router with AP mode.",
+            "Provider text mentions WISP, while official current modes list router, AP and range extender.",
+            "Hardware revision is not present in the supplier feed, so WPA3 and firmware-sensitive specs are kept conditional."
+          ]
+        },
+        "measurements": { "dimensions": "115 x 106.7 x 24.3 mm", "weight": null },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico Archer C24", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/wifi-router/archer-c24/" },
+          { "title": "TP-Link Archer C24 support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/archer-c24/" },
+          { "title": "TP-Link Archer C24 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2023/202303/20230309/1910013356_Archer%20C24%28EU%29_UG_V1.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "okdpsgso1chdjfv",
+      "research": {
+        "confidence": 0.93,
+        "name": "IMOU PS70F IPC-PS70FN-10M0 camara IP PoE PT doble lente 10MP",
+        "description": "Camara IP exterior Imou PS70F de doble lente 5MP + 5MP, alimentacion PoE o 12 V, paneo e inclinacion motorizada, vision nocturna, audio bidireccional y analiticas IA.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/pt-doble-lente/10mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/pt-doble-lente/10mp/imou-ps70f-ipc-ps70fn-10m0",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.imou.com/en/product/detail/ps70f-5mp-plus5mp",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMDAH6820/CAMDAH6820_full.jpg", "https://www.imou.com/en/product/detail/ps70f-5mp-plus5mp"],
+        "documents": [
+          { "label": "IMOU PS70F 10MP datasheet EN/ES", "type": "datasheet", "url": "https://cdn.tvc.mx/media/2083083/PS70F-10MP.en.es.pdf" },
+          { "label": "IMOU PS70F 10MP datasheet", "type": "datasheet", "url": "https://cdn.tvc.mx/media/2063258/PS70F-10MP.pdf" }
+        ],
+        "specs": {
+          "brand": "IMOU",
+          "model": "IPC-PS70FN-10M0",
+          "series": "PS70F 5MP+5MP",
+          "providerSku": "CAMDAH6820",
+          "cvaSku": "CV-2191",
+          "ean": "6937479640243",
+          "productType": "Camara IP PoE PT doble lente exterior",
+          "sensors": "Dual 1/3 inch 5 MP CMOS",
+          "resolution": "2880 x 1620 per lens, 10 MP combined marketing class",
+          "lens": "3.6 mm fixed lenses",
+          "fieldOfView": "76 degrees horizontal, 41 degrees vertical, 91 degrees diagonal per lens",
+          "movement": "Fixed lens manual pan 0-260 degrees and tilt 0-25 degrees; PT lens motor pan 0-355 degrees and tilt 0-90 degrees",
+          "nightVision": "IR up to 30 m, Smart Color, spotlight and red-blue warning lights",
+          "compression": "H.265/H.264",
+          "frameRate": "15 fps",
+          "audio": "Built-in mic and speaker, two-way audio, 110 dB siren",
+          "network": "100 Mbps Ethernet, ONVIF and Imou app",
+          "storage": "microSD up to 512 GB, NVR and cloud",
+          "analytics": "Motion, human, vehicle, intrusion, line crossing and missing object detection",
+          "power": "PoE or 12 V DC 1 A, less than 12 W",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMDAH6820", "stock": 878, "price": 51.82, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "CV-2191", "stock": 0, "price": 50.29, "currency": "USD" }
+          ],
+          "providerBranches": [],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "No Wi-Fi capability was confirmed in official or TVC material despite some retailer titles mentioning Wi-Fi.",
+            "Weatherproof/IP rating varies across commercial references, so the record avoids a single IP claim.",
+            "FP/FN variant labels appear in reseller data; the supplier record and CVA/TVC identify IPC-PS70FN-10M0."
+          ]
+        },
+        "measurements": { "dimensions": "202 x 115 x 159 mm", "weight": "622 g" },
+        "sourceRefs": [
+          { "title": "IMOU PS70F product page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps70f-5mp-plus5mp" },
+          { "title": "IMOU PS70F specifications", "type": "manufacturer", "url": "https://www.imou.com/en/product/specs/ps70f-5mp-plus5mp" },
+          { "title": "TVC PS70F 10MP datasheet", "type": "datasheet", "url": "https://cdn.tvc.mx/media/2083083/PS70F-10MP.en.es.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "61p8coemfymln4e",
+      "research": {
+        "confidence": 0.96,
+        "name": "Samsung H5000 LS32H5000FFXZX Smart TV LED 32 pulgadas HD Tizen",
+        "description": "Smart TV Samsung H5000 de 32 pulgadas con resolucion HD 1366 x 768, sistema Tizen, Wi-Fi integrado, dos HDMI, USB, LAN, HDR10+ y audio de 10 W.",
+        "manualCategoryPath": "video/televisores/led-tizen/32-hd",
+        "semanticCategoryPath": "video/televisores/led-tizen/32-hd/samsung-h5000-ls32h5000ffxzx",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.samsung.com/mx/monitors/smart/smart-monitor-32-in-32-inch-ls32h5000ffxzx/",
+        "gallery": ["https://static.ctonline.mx/imagenes/BIZSMG260/BIZSMG260_full.jpg", "https://images.samsung.com/is/image/samsung/p6pim/mx/ls32h5000ffxzx/gallery/mx-ls32h5000ffxzx-smart-monitor-ls32h5000ffxzx-547978860?$Q90_2052_1641_JPG$", "https://images.samsung.com/is/image/samsung/p6pim/mx/ls32h5000ffxzx/gallery/mx-ls32h5000ffxzx-smart-monitor-ls32h5000ffxzx-547879762?$Q90_2052_1641_JPG$", "https://images.samsung.com/is/image/samsung/p6pim/mx/ls32h5000ffxzx/gallery/mx-ls32h5000ffxzx-smart-monitor-ls32h5000ffxzx-547879765?$Q90_2052_1641_JPG$"],
+        "documents": [
+          { "label": "Samsung LS32H5000FFXZX manual ES", "type": "manual", "url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_MX&OriginYN=N&ModelType=N&ModelName=S32H5000FF&CttFileID=10639938&CDCttType=UM&VPath=UM%2F202507%2F20250711044549001%2FBN81-25561A-820_EUG_ROPATSCD_NA_M-SPA_250429.0.pdf" },
+          { "label": "Samsung LS32H5000FFXZX manual EN", "type": "manual", "url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_MX&OriginYN=N&ModelType=N&ModelName=S32H5000FF&CttFileID=10639234&CDCttType=UM&VPath=UM%2F202507%2F20250711042215001%2FBN81-25561A-820_EUG_ROPATSCD_NA_ENG-US_250429.0.pdf" }
+        ],
+        "specs": {
+          "brand": "SAMSUNG",
+          "model": "LS32H5000FFXZX",
+          "series": "H5000",
+          "providerSku": "BIZSMG260",
+          "cvaSku": "TV-1169",
+          "productType": "Smart TV LED",
+          "screenSize": "32 inches",
+          "resolution": "HD 1366 x 768",
+          "refreshRate": "60 Hz max",
+          "panel": "Flat 16:9, 178/178 viewing angle",
+          "hdr": "HDR and HDR10+ support",
+          "smartPlatform": "Tizen",
+          "wireless": "Wi-Fi 4 integrated",
+          "ports": "2 HDMI, 1 USB 2.0, 1 LAN",
+          "audio": "10 W speakers with Adaptive Sound",
+          "mount": "VESA 200 x 200 mm",
+          "power": "110-127 V 50/60 Hz, 50 W max",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BIZSMG260", "stock": 874, "price": 2490.03, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "TV-1169", "stock": 0, "price": 2535.44, "currency": "MXN" }
+          ],
+          "providerBranches": [],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Incoming semantic path as networking/access-points was wrong; this is a television/smart monitor product.",
+            "Provider title uses business TV wording while Samsung Mexico lists it in Smart Monitor/Smart TV H5000 family; storefront category is kept under TV/video because supplier SKUs and features are television-oriented.",
+            "Samsung page title includes UHD 4K wording in some snippets, but the official specs and distributor text identify HD 1366 x 768.",
+            "Provider package weight 8 kg conflicts with Samsung official package weight 5.4 kg.",
+            "No branch-level stock was exposed in the supplier feed."
+          ]
+        },
+        "measurements": {
+          "dimensionsWithStand": "733.2 x 451.8 x 117.3 mm",
+          "dimensionsWithoutStand": "733.2 x 438.9 x 72.2 mm",
+          "packageDimensions": "800 x 500 x 114 mm",
+          "weight": "3.8 kg with stand, 5.4 kg packaged"
+        },
+        "sourceRefs": [
+          { "title": "Samsung Mexico LS32H5000FFXZX", "type": "manufacturer", "url": "https://www.samsung.com/mx/monitors/smart/smart-monitor-32-in-32-inch-ls32h5000ffxzx/" },
+          { "title": "Global Office LS32H5000FFXZX reference", "type": "retailer", "url": "https://www.globaloffice.com.mx/index.php/app/detalle/producto/electronica-de-consumo/monitor-smart-tv-samsung-led-profesional-32-mh5000/ls32h5000ffxzx" }
+        ]
+      }
+    },
+    {
+      "product_id": "8lqo1knowv3pm3k",
+      "research": {
+        "confidence": 0.94,
+        "name": "Lenovo V15 G4 ABP 82YY0037LM Ryzen 5 7430U 16GB 512GB 15.6 FHD Windows 11 Pro",
+        "description": "Laptop Lenovo V15 G4 ABP empresarial de 15.6 pulgadas con AMD Ryzen 5 7430U, 16GB DDR4, SSD 512GB, pantalla FHD y Windows 11 Pro.",
+        "manualCategoryPath": "computo/laptops/empresariales/15-6-pulgadas",
+        "semanticCategoryPath": "computo/laptops/empresariales/15-6-pulgadas/lenovo-v15-g4-abp-82yy0037lm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://psref.lenovo.com/Product/Lenovo/Lenovo_V15_G4_ABP",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMLEV6540/COMLEV6540_full.jpg", "https://download.lenovo.com/images/ProdImageLaptops/lenovo_v14_15_g4.jpg", "https://www.cyberpuerta.mx/img/product/XL/CP-LENOVO-82YY0037LM-c1240a.png", "https://www.cyberpuerta.mx/img/product/L/CP-LENOVO-82YY0037LM-cd0d47.png"],
+        "documents": [
+          { "label": "Lenovo V15 G4 ABP PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo/Lenovo_V15_G4_ABP/Lenovo_V15_G4_ABP_Spec.PDF" },
+          { "label": "Lenovo V14/V15 Gen 4 setup guide multilingual", "type": "manual", "url": "https://download.lenovo.com/consumer/mobiles_pub/lenovo_v14v15_gen4_sg_en_es_bg_pt-br_pl_pt.pdf" },
+          { "label": "Lenovo safety and warranty guide ES", "type": "warranty", "url": "https://download.lenovo.com/pccbbs/mobiles_pdf/class_b_ml_swg_es_pt-br_bg.pdf" }
+        ],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "82YY0037LM",
+          "series": "V15 G4 ABP",
+          "providerSku": "COMLEV6540",
+          "ean": "0198155549496",
+          "upc": "198155549496",
+          "productType": "Laptop empresarial",
+          "processor": "AMD Ryzen 5 7430U, 6 cores, 12 threads, up to 4.3 GHz",
+          "graphics": "Integrated AMD Radeon Graphics",
+          "memory": "16 GB DDR4-3200",
+          "storage": "512 GB SSD",
+          "display": "15.6 inch FHD 1920 x 1080",
+          "operatingSystem": "Windows 11 Pro",
+          "camera": "720p camera with privacy shutter by platform reference",
+          "audio": "Stereo 1.5 W x2 Dolby Audio and dual microphones by platform reference",
+          "ports": "RJ45 Gigabit, USB-A 5Gbps, USB-C 5Gbps with PD and DisplayPort 1.2, USB 2.0, HDMI 1.4b, combo audio and round-tip power",
+          "keyboard": "Spanish keyboard by retail/provider references",
+          "security": "TPM 2.0 and Kensington Nano slot by platform reference",
+          "externalDisplaySupport": "Native display plus up to two external monitors via HDMI and USB-C on platform reference",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 342 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 245 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 172 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 24 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "COMLEV6540", "stock": 870, "price": 11496.7, "currency": "MXN", "branch": "DFA:342,D2A:245,GDL:172,MTY:24,DGO:18,CUN:11,HMO:10,CHI:10,LMO:5,TRN:5,TAM:5,MAZ:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Incoming category as monitors was wrong; this is a 15.6 inch laptop.",
+            "Visible branch sum is 852 while feed total_stock is 870, so the provider likely has hidden or truncated locations.",
+            "PSREF is a platform reference and some specs can vary by exact machine type; the supplier SKU anchors processor, RAM, SSD and OS."
+          ]
+        },
+        "measurements": { "dimensions": "359.2 x 235.8 x 19.9 mm platform reference", "weight": "Starting at 1.65 kg; varies by battery and panel" },
+        "sourceRefs": [
+          { "title": "Lenovo V15 G4 ABP PSREF", "type": "manufacturer", "url": "https://psref.lenovo.com/Product/Lenovo/Lenovo_V15_G4_ABP" },
+          { "title": "Lenovo V15 G4 ABP PSREF PDF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo/Lenovo_V15_G4_ABP/Lenovo_V15_G4_ABP_Spec.PDF" },
+          { "title": "Global Office 82YY0037LM reference", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/computadoras/laptops-lenovo-82yy0037lm-laptop-lenovo-v15-g4-amd-ryzen-5-7/82yy0037lm" }
+        ]
+      }
+    },
+    {
+      "product_id": "ngf9jfvi58z7bji",
+      "research": {
+        "confidence": 0.95,
+        "name": "Nexxt AB361NXT12 patch cord Cat6 UTP RJ45 7 ft gris",
+        "description": "Cable patch cord Nexxt Solutions Cat6 UTP gris de 7 pies, RJ45 macho a macho, 24 AWG multifilar, para enlaces Ethernet de hasta 1Gbps/250MHz.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/2-1m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/2-1m/nexxt-ab361nxt12",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/AB361NXT-SPA.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/CABNXX010/CABNXX010_full.jpg", "https://www.cyberpuerta.mx/img/product/XL/CP-NEXXTSOLUTIONS-AB361NXT12-1.jpg"],
+        "documents": [
+          { "label": "Nexxt AB361NXT Spanish datasheet", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/AB361NXT-SPA.pdf" },
+          { "label": "Cyberpuerta Nexxt AB361NXT12 PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/597/8e6/e0e/5978e6e0e0f1f.pdf" }
+        ],
+        "specs": {
+          "brand": "NEXXT",
+          "model": "AB361NXT12",
+          "providerSku": "CABNXX010",
+          "ean": "798302030404",
+          "productType": "Patch cord Cat6 UTP",
+          "length": "7 ft / 2.1 m",
+          "color": "Gray",
+          "connectors": "RJ45 male to male",
+          "cableType": "UTP stranded CM",
+          "conductors": "4 pairs, 8 conductors, 24 AWG stranded copper",
+          "jacket": "PVC",
+          "insulation": "HDPE",
+          "diameter": "6.0 +/- 0.3 mm",
+          "impedance": "100 ohm +/- 15%",
+          "ratedPerformance": "Cat6, 250 MHz, 1 Gbps",
+          "standards": "ANSI/TIA/EIA-568-C.2, ISO/IEC 11801, UL/ETL",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 250 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 244 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 40 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 40 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 25 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 20 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABNXX010", "stock": 866, "price": 1.66, "currency": "USD", "branch": "D2A:250,DFA:244,DFP:40,CMT:40,OBR:30,GDL:30,XLP:30,VER:30,CUN:25,TXA:20,TOL:20,DFT:20" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Incoming category under laptop accessories was too broad; this is structured cabling.",
+            "Some OCR/reseller text renders 2.31 m, but 7 ft is approximately 2.1 m and matches the reviewed SKU.",
+            "Visible branch sum is 779 while feed total_stock is 866, so some stock is hidden or omitted."
+          ]
+        },
+        "measurements": { "length": "7 ft / 2.1 m", "diameter": "6.0 +/- 0.3 mm", "weight": null },
+        "sourceRefs": [
+          { "title": "Nexxt AB361NXT Spanish datasheet", "type": "datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/AB361NXT-SPA.pdf" },
+          { "title": "Cyberpuerta AB361NXT12 PDF", "type": "retailer", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/597/8e6/e0e/5978e6e0e0f1f.pdf" },
+          { "title": "Cyberpuerta AB361NXT12 image reference", "type": "retailer_image", "url": "https://www.cyberpuerta.mx/img/product/XL/CP-NEXXTSOLUTIONS-AB361NXT12-1.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "myor40j1xq7vq6e",
+      "research": {
+        "confidence": 0.95,
+        "name": "Canon GI-190 BK botella de tinta negra 135 ml MegaTank",
+        "description": "Botella original Canon GI-190 BK de tinta negra pigmentada de 135 ml para impresoras PIXMA MegaTank/G-series compatibles, rendimiento aproximado de 6000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-megatank/canon-gi190/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-megatank/canon-gi190/negro/canon-gi190-bk",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.loja.canon.com.br/pt/canonbr/frasco-de-tinta-gi-190-b-preto",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARCNN4700/CARCNN4700_full.jpg", "https://www.loja.canon.com.br/pt/canonbr/frasco-de-tinta-gi-190-b-preto"],
+        "documents": [
+          { "label": "Canon Mexico G-series fiche", "type": "datasheet", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/779_1064157104_1P.pdf" },
+          { "label": "Canon G2110 page yield PDF", "type": "yield", "url": "https://www.cla.canon.com/en_US/app/pdf/page_yield/G2110_Page_Yield.pdf" }
+        ],
+        "specs": {
+          "brand": "CANON",
+          "model": "GI-190 BK",
+          "partNumber": "0667C001AB",
+          "providerSku": "CARCNN4700",
+          "ean": "4549292054729",
+          "upc": "013803268201",
+          "productType": "Botella de tinta MegaTank",
+          "inkColor": "Black",
+          "inkType": "Pigment black",
+          "capacity": "135 ml",
+          "yield": "Approximately 6000 pages by ISO/IEC 24711/24712 references",
+          "compatibility": "PIXMA G1100, G1110, G2100, G2110, G3100, G3102, G3110, G3111, G4100, G4110, G4111 and related regional G-series models",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 334 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 122 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 52 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 24 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 21 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 13 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CARCNN4700", "stock": 859, "price": 211.95, "currency": "MXN", "branch": "DFA:334,GDL:122,CMT:52,MOR:24,TOL:21,TPC:20,OAX:20,SLP:17,ACA:16,LEO:15,PUE:15,ZAC:13" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Regional part suffix appears as AA, AB or AC; supplier EAN/UPC match the GI-190 black bottle family.",
+            "Visible branch sum is 669 while feed total_stock is 859, indicating hidden/truncated provider locations.",
+            "Compatibility varies by market; list keeps the conservative PIXMA G-series set repeated across Canon references."
+          ]
+        },
+        "measurements": { "capacity": "135 ml", "dimensions": "Bottle approx 5.4 cm diameter x 12.6 cm; package approx 5.7 x 5.7 x 18.1 cm", "weight": "Approx 0.2 kg packaged reseller reference" },
+        "sourceRefs": [
+          { "title": "Canon Brazil GI-190 BK", "type": "manufacturer", "url": "https://www.loja.canon.com.br/pt/canonbr/frasco-de-tinta-gi-190-b-preto" },
+          { "title": "Canon Mexico G-series fiche", "type": "datasheet", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/779_1064157104_1P.pdf" },
+          { "title": "Canon G2110 page yield", "type": "yield", "url": "https://www.cla.canon.com/en_US/app/pdf/page_yield/G2110_Page_Yield.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "yew7scfdnp4ua7s",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Archer T2U adaptador USB Wi-Fi AC600 doble banda",
+        "description": "Adaptador inalambrico TP-Link Archer T2U USB 2.0 AC600 de doble banda, compacto, con soporte 802.11ac para equipos de escritorio o laptop.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/ac600-mini",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/ac600-mini/tp-link-archer-t2u",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/adapter/archer-t2u/v1/?app=web",
+        "gallery": ["https://static.ctonline.mx/imagenes/TARTPL450/TARTPL450_full.jpg", "https://www.tp-link.com/mx/home-networking/adapter/archer-t2u/v1/?app=web"],
+        "documents": [
+          { "label": "TP-Link Archer T2U V1 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/resources/document/Archer_T2U_V1_Datasheet.pdf" },
+          { "label": "TP-Link Archer T2U V1 user guide", "type": "manual", "url": "https://static.tp-link.com/Archer_T2U%28US%29_V1_User_Guide_1481005054356c.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer T2U",
+          "providerSku": "TARTPL450",
+          "cvaSku": "NIC-1709",
+          "productType": "Adaptador Wi-Fi USB",
+          "interface": "USB 2.0",
+          "wifiClass": "AC600",
+          "wirelessSpeed": "433 Mbps at 5 GHz plus 150 Mbps at 2.4 GHz on V1 reference",
+          "standards": "IEEE 802.11a/b/g/n/ac",
+          "bands": "2.4 GHz and 5 GHz",
+          "security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK, 802.1x",
+          "modes": "Ad-Hoc and Infrastructure",
+          "certifications": "CE, FCC, RoHS",
+          "packageContents": "Adapter, CD and quick installation guide by V1 reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TARTPL450", "stock": 857, "price": 8.52, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "NIC-1709", "stock": 1, "price": 8.09, "currency": "USD" }
+          ],
+          "providerBranches": [],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider feed does not expose hardware revision, so V1 dimensions and speed split are used as the strongest official match.",
+            "This is Archer T2U, not T2U Nano, T2U Plus or T2UH; the new category uses mini instead of nano.",
+            "CVA was cheaper but only had one unit in stock at verification time."
+          ]
+        },
+        "measurements": { "dimensions": "41 x 19.5 x 8.7 mm", "weight": null },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico Archer T2U V1", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/adapter/archer-t2u/v1/?app=web" },
+          { "title": "TP-Link Archer T2U support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/archer-t2u/v1/" },
+          { "title": "TP-Link Archer T2U V1 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/resources/document/Archer_T2U_V1_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "i5o2wg0xpnsnydm",
+      "research": {
+        "confidence": 0.94,
+        "name": "Silimex Silimpo espuma limpiadora 454 ml",
+        "description": "Espuma limpiadora Silimex Silimpo en aerosol de 454 ml para limpieza externa de superficies de equipos de computo, electronica, audio, fotografia, hogar, auto e industria.",
+        "manualCategoryPath": "computo/accesorios/limpieza/espumas-limpiadoras/454ml",
+        "semanticCategoryPath": "computo/accesorios/limpieza/espumas-limpiadoras/454ml/silimex-silimpo",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://silimex.com.mx/producto/silimpo-454-ml/",
+        "gallery": ["https://static.ctonline.mx/imagenes/SLXLMP030/SLXLMP030_full.jpg", "https://silimex.com.mx/producto/silimpo-454-ml/"],
+        "documents": [
+          { "label": "Silimex Silimpo 454 ml product page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/silimpo-454-ml/" }
+        ],
+        "specs": {
+          "brand": "SILIMEX",
+          "model": "Silimpo",
+          "providerSku": "SLXLMP030",
+          "ean": "7503002196113",
+          "productType": "Espuma limpiadora para electronica",
+          "capacity": "454 ml",
+          "use": "External surface cleaner and degreaser",
+          "formula": "Water-based, foaming, low-residue cleaner",
+          "properties": "Anti-static and UV protection claims in commercial PDF references",
+          "applications": "Computing, electronics, gaming, cameras, audio, home, automotive and industrial surfaces",
+          "precautions": "Aerosol; do not expose to temperatures above 50 C and follow label precautions",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 100 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 84 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 63 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 49 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 46 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 44 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 39 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 31 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 30 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 29 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 25 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SLXLMP030", "stock": 853, "price": 67.18, "currency": "MXN", "branch": "HMO:100,DFA:84,CTZ:63,CAM:49,DFP:46,MOR:44,TXA:39,PAC:31,TAM:30,DFC:30,MID:29,ACA:25" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Incoming path was already a cleaning accessory, but it now has a capacity-specific manual subcategory.",
+            "Supplier feed exposes a promotional price but no promotion end date.",
+            "Visible branch sum is 570 while feed total_stock is 853, so provider locations are partial."
+          ]
+        },
+        "measurements": { "capacity": "454 ml", "dimensions": null, "weight": null },
+        "sourceRefs": [
+          { "title": "Silimex Silimpo 454 ml", "type": "manufacturer", "url": "https://silimex.com.mx/producto/silimpo-454-ml/" },
+          { "title": "Silimex catalog reference", "type": "catalog", "url": "https://silimex.com.mx/" }
+        ]
+      }
+    }
+  ]
+}
