@@ -156,6 +156,7 @@ export const buildProductCurationPatch = (product, options = {}) => {
   };
 
   if (research.name && research.confidence >= 0.8) fields.name = research.name;
+  if (research.brand && research.confidence >= 0.85) fields.brand = research.brand;
   if (research.description) fields.description = research.description;
   if (research.manufacturerUrl) fields.manufacturer_url = research.manufacturerUrl;
   if (research.gallery?.length) fields.gallery = research.gallery;

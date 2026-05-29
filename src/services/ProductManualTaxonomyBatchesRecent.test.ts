@@ -562,6 +562,16 @@ const researchedBatchCases = [
   ["BRobotix 6007815 funda con teclado Bluetooth y panel tactil para iPad Air 11", "BROBOTIX", "computo/tabletas/accesorios/fundas-con-teclado/ipad-air-11"],
   ["Corsair RS140 CO-9050190-WW ventilador PWM 140mm negro", "CORSAIR", "computo/componentes/enfriamiento/ventiladores-gabinete/140mm-pwm"],
   ["Brother TN760 toner negro alto rendimiento 3000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-760"],
+  ["Hyundai HYTab Plus HT8WB3RBK01 tableta Android 8 pulgadas 4GB 64GB", "HYUNDAI", "computo/tabletas/android/8-pulgadas"],
+  ["TP-Link TL-SF1008LP switch PoE no administrable 8 puertos 10/100", "TP-LINK", "redes/switches/poe-no-administrables/fast-ethernet/8-puertos"],
+  ["EZVIZ CS-H80X H80x Dual camara PT WiFi 4K exterior doble lente", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-doble-lente/4k-exterior"],
+  ["Dahua DH-AX15M router Wi-Fi 6 AX1500 doble banda", "DAHUA TECHNOLOGY", "redes/routers/wifi-6/ax1500"],
+  ["Kaspersky KL1041ZDAFS Standard licencia ESD 1 dispositivo 365 dias", "KASPERSKY", "software/seguridad/antivirus/kaspersky-standard/1-dispositivo"],
+  ["Brother TN433M toner magenta alto rendimiento 4000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-433/magenta"],
+  ["Xzeal XZSXZ25A silla gamer azul XZ25 soporte 150 kg", "XZEAL", "gaming/mobiliario/sillas-gamer/tela/reclinable-180"],
+  ["Logitech Z407 bocinas 2.1 Bluetooth subwoofer 40W RMS", "LOGITECH", "computo/perifericos/bocinas-audio/2-1/bluetooth"],
+  ["Logitech K400 Plus teclado inalambrico touchpad Unifying", "LOGITECH", "computo/perifericos/teclados/inalambricos/touchpad-tv"],
+  ["Acteck TI755 Inspire Krea teclado inalambrico multidispositivo Bluetooth", "ACTECK", "computo/perifericos/teclados/inalambricos/multidispositivo/rf-bluetooth"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

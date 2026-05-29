@@ -549,4 +549,28 @@ describe("product curation policy", () => {
 
     expect(patch.category_review_status).toBe("manual_rule_applied");
   });
+
+  it("accepts high-confidence manual brand corrections", () => {
+    const patch = buildProductCurationPatch({
+      id: "product-6",
+      name: "Electroprice CSH80X",
+      brand: "ElectroPrice",
+      category: "cameras",
+      model_number: "CSH80X",
+      total_stock: 1,
+      wholesaler_stock: [{ wholesalerId: "syscom", stock: 1, price: 157 }],
+      specs: {},
+    }, {
+      research: {
+        confidence: 0.95,
+        brand: "EZVIZ",
+        name: "EZVIZ H80x Dual CS-H80X camara PT WiFi 4K exterior",
+        manualCategoryPath: "seguridad/cctv/camaras-ip-wifi/pt-doble-lente/4k-exterior",
+        categoryReviewStatus: "manual_verified",
+      },
+    });
+
+    expect(patch.brand).toBe("EZVIZ");
+    expect(patch.search_text).toContain("ezviz");
+  });
 });
