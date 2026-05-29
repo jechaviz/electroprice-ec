@@ -132,6 +132,16 @@ const researchedBatchCases = [
   ["PCM RDC110450EN35AA63 ribbon cera basica 110mm x 450m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/basica/110mm-450m"],
   ["Perfect Choice PC-045137 Root Pro mouse inalambrico 1600 DPI", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi"],
   ["PCM RDC110074EN08AJ27 ribbon cera premium 110mm x 74m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/premium/110mm-74m"],
+  ["ADATA UV220 AUV220-32G-RBKBL memoria USB 32GB negro azul", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["Intel Core i5-14400 CM8071504821112 tray LGA1700", "INTEL", "computo/componentes/procesadores/intel-core-i5-lga1700"],
+  ["Epson T664120-AL botella tinta negra 664 EcoTank 70ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t664/negro"],
+  ["EZVIZ H8c 2K camara PTZ IP exterior Wi-Fi 3MP", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-2k"],
+  ["Intel Laminar RM1 BXTSRM1 disipador CPU LGA1700 65W", "INTEL", "computo/componentes/enfriamiento/disipadores-cpu/intel-lga1700-65w"],
+  ["Lenovo V14 G4 ABP 82YX0042LM Ryzen 5 7430U 14 FHD", "LENOVO", "computo/laptops/empresariales/14-pulgadas"],
+  ["Perfect Choice Essential PC-044758 mouse inalambrico 1600 DPI", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi"],
+  ["Acteck Blazar Evo FS500E ES-05002E fuente SFX 500W", "ACTECK", "computo/componentes/fuentes-poder/sfx-500w"],
+  ["TP-Link Archer T3U adaptador USB Wi-Fi AC1300 MU-MIMO", "TP LINK", "redes/adaptadores-wifi/usb/ac1300-mini"],
+  ["TP-Link Tapo C320WS camara Wi-Fi exterior 2K 4MP IP66", "TP LINK", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-2k"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

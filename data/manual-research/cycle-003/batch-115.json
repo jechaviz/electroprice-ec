@@ -1,0 +1,556 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b115-2026-05-29",
+  "cycle": 3,
+  "batch": 115,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "acyg06om9g62bx9",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA UV220 32GB USB 2.0 memoria USB retractil negra azul",
+        "description": "Memoria USB ADATA UV220 de 32GB con conector USB 2.0 Type-A deslizable sin tapa, cuerpo plastico negro con acento azul y orificio para correa.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/adata-uv220-rbkbl",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/us/support/product/504/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMDAT4340/MEMDAT4340_full.jpg",
+          "https://www.adata.com/upload/downloadfile/datasheet_uv220_usb_flash_drive_20230911.pdf"
+        ],
+        "documents": [
+          { "label": "ADATA UV220 USB Flash Drive datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_uv220_usb_flash_drive_20230911.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AUV220-32G-RBKBL",
+          "series": "UV220",
+          "providerSku": "MEMDAT4340",
+          "ean": "4713218462749",
+          "productType": "Memoria USB flash",
+          "capacity": "32 GB",
+          "interface": "USB 2.0 Type-A",
+          "color": "Black and blue",
+          "material": "Plastic",
+          "connector": "Retractable sliding connector",
+          "strapMount": true,
+          "compatibility": "Windows, Mac OS and Linux",
+          "warranty": "Limited 5-year warranty by ADATA reference",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 306 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 153 },
+            { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 58 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 50 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 49 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 47 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 43 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 38 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 36 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 26 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 16 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MEMDAT4340", "stock": 924, "price": 4.08, "currency": "USD", "branch": "OAX:306,XLP:153,CDV:58,SLP:50,CUN:49,D2A:47,AGS:43,PUE:38,MOR:36,CTZ:26,DGO:20,CEL:16" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Previous path under cables/adaptadores was incorrect; this is removable USB storage.",
+            "Provider title only says black, while official ADATA material identifies the black/blue RBKBL variant.",
+            "Visible branch sum is 842 while feed total_stock is 924, so provider likely has hidden or truncated locations.",
+            "No official sustained read/write speed was published in the reviewed datasheet."
+          ]
+        },
+        "measurements": { "dimensions": "55 x 19.5 x 10.2 mm", "weight": "7.9 g" },
+        "sourceRefs": [
+          { "title": "ADATA UV220 support page", "type": "manufacturer", "url": "https://www.adata.com/us/support/product/504/" },
+          { "title": "ADATA UV220 datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_uv220_usb_flash_drive_20230911.pdf" },
+          { "title": "PCDigital ADATA UV220 32GB reference", "type": "retailer", "url": "https://pcdigital.com.mx/" }
+        ]
+      }
+    },
+    {
+      "product_id": "ht9j98dxc6jjr1r",
+      "research": {
+        "confidence": 0.97,
+        "name": "Intel Core i5-14400 tray CM8071504821112 procesador LGA1700",
+        "description": "Procesador Intel Core i5-14400 en presentacion tray para socket LGA1700, 10 nucleos hibridos, 16 hilos, cache Intel Smart Cache de 20 MB y graficos Intel UHD 730.",
+        "manualCategoryPath": "computo/componentes/procesadores/intel-core-i5-lga1700",
+        "semanticCategoryPath": "computo/componentes/procesadores/intel-core-i5-lga1700/intel-core-i5-14400-tray-cm8071504821112",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/CPUINT5090/CPUINT5090_full.jpg"],
+        "documents": [],
+        "specs": {
+          "brand": "INTEL",
+          "model": "Core i5-14400",
+          "orderCode": "CM8071504821112",
+          "specCode": "SRN46",
+          "providerSku": "CPUINT5090",
+          "productType": "Procesador desktop tray",
+          "socket": "FCLGA1700",
+          "cores": "10 cores: 6 performance cores and 4 efficient cores",
+          "threads": 16,
+          "maxTurboFrequency": "4.7 GHz",
+          "performanceCoreBaseFrequency": "2.5 GHz",
+          "efficientCoreBaseFrequency": "1.8 GHz",
+          "cache": "20 MB Intel Smart Cache and 9.5 MB L2",
+          "processorBasePower": "65 W",
+          "maximumTurboPower": "148 W",
+          "graphics": "Intel UHD Graphics 730",
+          "memorySupport": "DDR5-4800 and DDR4-3200, up to 192 GB",
+          "pcie": "PCIe 5.0 and PCIe 4.0 support",
+          "stepping": "B0",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CPUINT5090", "stock": 923, "price": 173.33, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "CP-1474", "stock": 0, "price": 163.44, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "The CVA offer was cheaper but reported zero stock at verification time.",
+            "This order code is tray CM8071504821112, not boxed BX8071514400.",
+            "A different tray order code CM8071505093012 exists for another stepping; this record follows CM8071504821112/SRN46."
+          ]
+        },
+        "measurements": { "dimensions": "45 x 37.5 mm package size", "weight": null, "thermal": "Tjunction 100 C" },
+        "sourceRefs": [
+          { "title": "Intel Core i5-14400 specifications", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html" },
+          { "title": "Intel Core i5-14400 ordering and compliance", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/ordering.html" },
+          { "title": "LambdaTek Core i5-14400 tray reference", "type": "retailer", "url": "https://www.lambda-tek.com/" }
+        ]
+      }
+    },
+    {
+      "product_id": "gjwvj2mu63qz6nt",
+      "research": {
+        "confidence": 0.96,
+        "name": "Epson T664120-AL botella de tinta negra 664 70ml EcoTank",
+        "description": "Botella original Epson T664120-AL de tinta negra para impresoras EcoTank y equipos Epson L-series compatibles, presentacion de 70 ml con rendimiento aproximado de 4000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-ecotank/epson-t664/negro/epson-t664120-al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T664/i/T664120-AL",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAREPS3900/CAREPS3900_full.jpg"],
+        "documents": [
+          { "label": "Ficha tecnica Epson T664120-AL", "type": "datasheet", "url": "https://micom.mx/storage/recursos/Ficha_t%C3%A9cnica_T664120AL.pdf" }
+        ],
+        "specs": {
+          "brand": "EPSON",
+          "model": "T664120-AL",
+          "series": "664",
+          "providerSku": "CAREPS3900",
+          "upc": "010343885295",
+          "productType": "Botella de tinta EcoTank",
+          "inkColor": "Black",
+          "inkType": "Inkjet dye ink by EcoTank family reference",
+          "capacity": "70 ml",
+          "yield": "Approximately 4000 pages",
+          "compatibility": "Epson L110, L121, L200, L220, L310, L365, L375, L380, L395, L455, L475, L495, L565, L575, L850, L1300 and related L-series references",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAREPS3900", "stock": 918, "price": 159.3, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "CN-1614", "stock": 0, "price": 157.26, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider classifies this as cartucho, but the product is a refill bottle.",
+            "UPC appears with and without leading zero across commercial references.",
+            "Compatibility lists differ by country and retailer, so the record keeps a conservative L-series family list."
+          ]
+        },
+        "measurements": { "capacity": "70 ml", "dimensions": "1.77 x 1.77 x 5.51 cm low-confidence reseller reference", "weight": "0.234 kg low-confidence reseller reference" },
+        "sourceRefs": [
+          { "title": "Epson Mexico T664120-AL", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Tintas/Botellas-de-Tinta-Epson-T664/i/T664120-AL" },
+          { "title": "Ficha tecnica T664120-AL", "type": "datasheet", "url": "https://micom.mx/storage/recursos/Ficha_t%C3%A9cnica_T664120AL.pdf" },
+          { "title": "CVA Epson T664120-AL reference", "type": "retailer", "url": "https://www.cva.com.mx/" }
+        ]
+      }
+    },
+    {
+      "product_id": "l14eqvnjaek4bo8",
+      "research": {
+        "confidence": 0.95,
+        "name": "EZVIZ H8c 2K camara PTZ IP exterior Wi-Fi 3MP",
+        "description": "Camara IP Wi-Fi EZVIZ H8c 2K para exterior con resolucion 2304 x 1296, paneo e inclinacion, vision nocturna, deteccion de humanos, audio bidireccional y ranura microSD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-2k/ezviz-h8c-2k",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/product/H8c-2K/45058",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMEZV570/CAMEZV570_full.jpg",
+          "https://www.ezviz.com/product/H8c-2K/45058"
+        ],
+        "documents": [
+          { "label": "EZVIZ H8c 2K datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/H8c%202K.pdf?ver=19154" },
+          { "label": "EZVIZ H8c user manual ES-LA", "type": "manual", "url": "https://mfs.ezvizlife.com/H8c_User%20Manual_ES%28LA%29_V1.0.0.pdf?ver=19154" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H8c (2K)",
+          "providerSku": "CAMEZV570",
+          "ean": "6941545622651",
+          "productType": "Camara IP Wi-Fi PT exterior",
+          "sensor": "1/3 inch progressive scan CMOS",
+          "resolution": "2304 x 1296",
+          "lens": "4 mm or 6 mm variant",
+          "videoCompression": "H.265/H.264",
+          "frameRate": "Up to 30 fps",
+          "network": "2.4 GHz Wi-Fi 802.11 b/g/n and RJ45 10/100",
+          "storage": "microSD up to 512 GB",
+          "power": "12 V DC 1 A, max 12 W",
+          "movement": "Pan 350 degrees and tilt about 80 to 90 degrees depending source",
+          "audio": "Two-way audio, siren and strobe",
+          "analytics": "AI human detection and auto tracking",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 741 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 40 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 20 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 15 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "VER", "stock": 6 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMEZV570", "stock": 917, "price": 34.78, "currency": "USD", "branch": "DFA:741,OAX:40,CUN:20,IRA:17,MID:15,MAZ:10,TXA:9,PAC:9,ZAC:9,CEL:7,XLP:6,VER:6" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider title says H8c 2K/3MP; manufacturer model is CS-H8c (2K).",
+            "Lens is sold in 4 mm and 6 mm variants; provider feed does not expose the lens variant.",
+            "Tilt range differs slightly across datasheet/manual references.",
+            "Visible branch sum is 889 while feed total_stock is 917, so provider likely has hidden or truncated locations."
+          ]
+        },
+        "measurements": { "dimensions": "Camera 100.05 x 129.19 x 149.75 mm; package 140 x 140 x 192 mm", "weight": "480 g net; 936 g package by reviewed reference" },
+        "sourceRefs": [
+          { "title": "EZVIZ H8c 2K product page", "type": "manufacturer", "url": "https://www.ezviz.com/product/H8c-2K/45058" },
+          { "title": "EZVIZ H8c 2K support page", "type": "manufacturer", "url": "https://support.ezviz.com/product/h8c%2B2k/45058" },
+          { "title": "EZVIZ H8c 2K datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/H8c%202K.pdf?ver=19154" }
+        ]
+      }
+    },
+    {
+      "product_id": "guoby3euw09cwwb",
+      "research": {
+        "confidence": 0.94,
+        "name": "Intel Laminar RM1 BXTSRM1 99ATJR disipador CPU LGA1700 65W",
+        "description": "Disipador Intel Laminar RM1 para procesadores Intel Core desktop LGA1700 de 65 W, con ventilador PWM de 4 pines y perfil bajo.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/intel-lga1700-65w",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/intel-lga1700-65w/intel-laminar-rm1-bxtsrm1",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.intel.com/content/www/us/en/products/sku/227818/intel-laminar-rm1-cooler/specifications.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/VENINT060/VENINT060_full.jpg"],
+        "documents": [
+          { "label": "Intel Laminar Coolers product brief", "type": "datasheet", "url": "https://cdrdv2-public.intel.com/838779/Intel-Laminar-Coolers-Product-Brief-Public.pdf" },
+          { "label": "Intel Laminar cooler installation support", "type": "manual", "url": "https://www.intel.com/content/www/us/en/support/articles/000089627/processors.html" }
+        ],
+        "specs": {
+          "brand": "INTEL",
+          "model": "Laminar RM1",
+          "mpn": "BXTSRM1 / 99ATJR",
+          "providerSku": "VENINT060",
+          "ean": "5032037240512",
+          "upc": "735858506281",
+          "productType": "Disipador CPU",
+          "socket": "Intel LGA1700",
+          "thermalDesignPower": "65 W",
+          "fanControl": "4-pin PWM",
+          "speed": "600 to 3150 RPM",
+          "noise": "29 dBA reference",
+          "power": "12 V, peak current 400 mA",
+          "compatibility": "Intel Core desktop 12th, 13th and 14th Gen 65 W processors using LGA1700 mounting",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 905 },
+            { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "VENINT060", "stock": 916, "price": 9.4, "currency": "USD", "branch": "GDL:905,CLN:3,TPC:3,CTZ:2,SLP:1,TAM:1,ACX:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Previous category path was processors, but this SKU is a CPU cooler.",
+            "Intel references bulk packaging in some contexts while supplier sells a unit SKU.",
+            "Material descriptions vary across retailers, so the record keeps only electrical and compatibility specs from official Intel material."
+          ]
+        },
+        "measurements": { "dimensions": "100 x 100 x 47 mm", "weight": "Up to 350 g reference" },
+        "sourceRefs": [
+          { "title": "Intel Laminar RM1 cooler specifications", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/227818/intel-laminar-rm1-cooler/specifications.html" },
+          { "title": "Intel Laminar Coolers product brief", "type": "datasheet", "url": "https://cdrdv2-public.intel.com/838779/Intel-Laminar-Coolers-Product-Brief-Public.pdf" },
+          { "title": "BarcodesInc Intel BXTSRM1 reference", "type": "retailer", "url": "https://www.barcodesinc.com/" }
+        ]
+      }
+    },
+    {
+      "product_id": "5dx25ixyna57m74",
+      "research": {
+        "confidence": 0.94,
+        "name": "Lenovo V14 G4 ABP 82YX0042LM Ryzen 5 7430U 16GB 512GB 14 FHD Windows 11 Pro",
+        "description": "Laptop empresarial Lenovo V14 G4 ABP de 14 pulgadas con Ryzen 5 7430U, 16GB DDR4, SSD NVMe 512GB, pantalla FHD, Wi-Fi 6 y Windows 11 Pro en espanol.",
+        "manualCategoryPath": "computo/laptops/empresariales/14-pulgadas",
+        "semanticCategoryPath": "computo/laptops/empresariales/14-pulgadas/lenovo-v14-g4-abp-82yx0042lm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-v-series-laptops/lenovo-v14-g4-abp/82yx",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMLEV6590/COMLEV6590_full.jpg"],
+        "documents": [
+          { "label": "Lenovo V14 G4 ABP PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo/Lenovo_V14_G4_ABP/Lenovo_V14_G4_ABP_Spec.PDF?v=75cb4af1-c5fc-4779-ad22-386a122442cd" }
+        ],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "82YX0042LM",
+          "series": "V14 G4 ABP",
+          "providerSku": "COMLEV6590",
+          "productType": "Laptop empresarial",
+          "processor": "AMD Ryzen 5 7430U, 6 cores, 12 threads, 2.3 GHz base, up to 4.3 GHz",
+          "graphics": "Integrated AMD Radeon Graphics",
+          "memory": "16 GB DDR4-3200: 8 GB soldered plus 8 GB SO-DIMM",
+          "storage": "512 GB M.2 2242 PCIe 4.0 x4 NVMe SSD",
+          "display": "14 inch FHD anti-glare, TN 250 nits by exact SKU references",
+          "network": "Wi-Fi 6 and Bluetooth 5.2, RJ45 Ethernet",
+          "ports": "USB-C 3.2 Gen 1 with Power Delivery and DisplayPort 1.2, HDMI 1.4b, USB-A and audio combo",
+          "camera": "720p HD with privacy shutter",
+          "keyboard": "Spanish",
+          "operatingSystem": "Windows 11 Pro Spanish",
+          "battery": "45 Wh",
+          "adapter": "65 W round tip",
+          "warranty": "1 year reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "COMLEV6590", "stock": 911, "price": 11496.7, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "NOT-10673", "stock": 0, "price": 10926.93, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Provider title says V14 G4 AMN, while Lenovo type 82YX support and PSREF point to V14 G4 ABP.",
+            "PSREF includes TN and IPS variants; exact SKU references reviewed identify TN 250 nits.",
+            "One retailer reference had an obvious typo indicating SSD 16GB."
+          ]
+        },
+        "measurements": { "dimensions": "324.2 x 215.2 x 19.9 mm", "weight": "From 1.43 kg", "touchpad": "62 x 104 mm" },
+        "sourceRefs": [
+          { "title": "Lenovo support V14 G4 ABP 82YX", "type": "manufacturer", "url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-v-series-laptops/lenovo-v14-g4-abp/82yx" },
+          { "title": "Lenovo V14 G4 ABP PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo/Lenovo_V14_G4_ABP/Lenovo_V14_G4_ABP_Spec.PDF?v=75cb4af1-c5fc-4779-ad22-386a122442cd" },
+          { "title": "GlobalOffice Lenovo 82YX0042LM reference", "type": "retailer", "url": "https://globaloffice.com.mx/" }
+        ]
+      }
+    },
+    {
+      "product_id": "8n4jhqvx273t7mu",
+      "research": {
+        "confidence": 0.95,
+        "name": "Perfect Choice Essential PC-044758 mouse inalambrico optico 1600 DPI negro",
+        "description": "Mouse inalambrico Perfect Choice Essential PC-044758 negro con receptor USB 2.4GHz, sensor optico ajustable hasta 1600 DPI y alimentacion por una bateria AA.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi/perfect-choice-essential-pc-044758",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mouse-inalambrico-essential-negro",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUMST1440/MOUMST1440_full.jpg"],
+        "documents": [
+          { "label": "Perfect Choice PC-044758 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-044758.pdf?v=1587146872" },
+          { "label": "Perfect Choice PC-044758 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-044758_a4079f29-adbe-41b3-80d7-7d24dd4e442f.pdf?v=1599148559" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-044758",
+          "providerSku": "MOUMST1440",
+          "upc": "615604044758",
+          "productType": "Mouse inalambrico optico",
+          "connection": "2.4 GHz RF USB receiver",
+          "sensor": "Optical",
+          "dpi": "800/1200/1600 DPI official steps",
+          "range": "10 m",
+          "power": "1 AA 1.5 V battery, 14 mA reference",
+          "compatibility": "Windows 7, 8, 8.1 and 10",
+          "color": "Black",
+          "included": "Mouse, USB receiver and AA battery",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOUMST1440", "stock": 899, "price": 108.39, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "MS-1099", "stock": 12, "price": 106.61, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Some reseller pages add a 1000 DPI step, but the official ficha lists 800/1200/1600.",
+            "Perfect Choice page is multivariant and may show a turquoise related SKU; black SKU PC-044758 is confirmed by ficha and UPC."
+          ]
+        },
+        "measurements": { "dimensions": "5.6 x 9.5 x 3.4 cm", "weight": "51 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Essential PC-044758", "type": "manufacturer", "url": "https://perfectchoice.me/products/mouse-inalambrico-essential-negro" },
+          { "title": "Perfect Choice PC-044758 ficha", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-044758.pdf?v=1587146872" },
+          { "title": "GSX Perfect Choice PC-044758 reference", "type": "retailer", "url": "https://www.gsx.com.mx/" }
+        ]
+      }
+    },
+    {
+      "product_id": "xoxe8vwcbzd6y1s",
+      "research": {
+        "confidence": 0.94,
+        "name": "Acteck Blazar Evo FS500E ES-05002E fuente SFX 500W no modular negra",
+        "description": "Fuente de poder Acteck Blazar Evo FS500E formato SFX de 500 W, no modular, color negro, con ventilador de 80 mm y conectores ATX, ATX12V, SATA y Molex.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/sfx-500w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/sfx-500w/acteck-blazar-evo-fs500e-es-05002e",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/fuente-de-poder-blazar-evo-fs500e-sfx-fuente-de-poder",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABACT390/GABACT390_full.jpg"],
+        "documents": [
+          { "label": "Acteck ES-05002E ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_ES-05002E_V1.pdf?v=1712767972" },
+          { "label": "Acteck ES-05002E manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/ES-05002E_MANUAL__WEB.pdf?v=1698952316" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "ES-05002E",
+          "series": "Blazar Evo FS500E",
+          "providerSku": "GABACT390",
+          "ean": "7506215937603",
+          "productType": "Fuente de poder SFX",
+          "formFactor": "SFX",
+          "wattage": "500 W",
+          "modularity": "Non modular",
+          "efficiency": "68 percent reference, no 80 Plus certification",
+          "material": "SECC 0.5 mm",
+          "fan": "80 x 80 x 25 mm, 2200 RPM, 30-35 dB",
+          "input": "115/230 VAC, 6 A/3 A, 50/60 Hz",
+          "outputs": "+5V 26A, +3.3V 20A, +12V 24A, -12V 0.5A, +5VSB 2A",
+          "connectors": "1 ATX 20+4, 1 ATX12V 4-pin, 2 SATA, 1 Molex by ficha/manual",
+          "warranty": "3 years reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "GABACT390", "stock": 886, "price": 260.51, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "CSP-575", "stock": 18, "price": 254.74, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Marketing copy says ATX in some fields, while title/ficha/manual identify SFX.",
+            "Marketing mentions 2 Molex and ATX12V 4+4, but ficha/manual list 1 Molex and ATX12V 4-pin.",
+            "Some commercial pages list a 120 mm fan; official ficha/manual list 80 mm."
+          ]
+        },
+        "measurements": { "dimensions": "125 x 100 x 64 mm", "weight": "0.6 kg", "package": "20 x 7.16 x 13.6 cm; master carton 41.4 x 30.1 x 22.9 cm, 12 pieces" },
+        "sourceRefs": [
+          { "title": "Acteck Blazar Evo FS500E", "type": "manufacturer", "url": "https://acteck.com/products/fuente-de-poder-blazar-evo-fs500e-sfx-fuente-de-poder" },
+          { "title": "Acteck ES-05002E ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_ES-05002E_V1.pdf?v=1712767972" },
+          { "title": "GlobalOffice Acteck FS500E reference", "type": "retailer", "url": "https://globaloffice.com.mx/" }
+        ]
+      }
+    },
+    {
+      "product_id": "urpuxt3qjxlm0iw",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Archer T3U adaptador USB Wi-Fi AC1300 MU-MIMO",
+        "description": "Adaptador USB TP-Link Archer T3U mini AC1300 dual band con USB 3.0, Wi-Fi 5, MU-MIMO y antena interna omnidireccional.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/ac1300-mini",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/ac1300-mini/tp-link-archer-t3u",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/adapter/archer-t3u/",
+        "gallery": ["https://static.ctonline.mx/imagenes/TARTPL520/TARTPL520_full.jpg"],
+        "documents": [
+          { "label": "TP-Link Archer T3U datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202010/20201019/Archer%20T3U%28EU%26US%29_1.0_datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer T3U",
+          "providerSku": "TARTPL520",
+          "upc": "840030700026",
+          "productType": "Adaptador USB Wi-Fi",
+          "interface": "USB 3.0",
+          "wirelessStandard": "Wi-Fi 5, IEEE 802.11ac/a/n/g/b",
+          "bands": "2.4 GHz and 5 GHz",
+          "speed": "400 Mbps at 2.4 GHz plus 867 Mbps at 5 GHz",
+          "features": "MU-MIMO, internal omnidirectional antenna, LED",
+          "security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+          "compatibility": "Windows 10/8.1/8/7/XP and Mac OS X by datasheet reference",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TARTPL520", "stock": 901, "price": 12.5, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "NIC-2975", "stock": 0, "price": 11.87, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Previous manual path access-points was incorrect; this is a USB client adapter.",
+            "CVA offer was cheaper but reported zero stock at verification time.",
+            "Some retailer templates call it wired because the host interface is USB, but network function is Wi-Fi."
+          ]
+        },
+        "measurements": { "dimensions": "40.5 x 19.72 x 10.29 mm", "weight": null },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico Archer T3U", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/adapter/archer-t3u/" },
+          { "title": "TP-Link Archer T3U support", "type": "manufacturer", "url": "https://www.tp-link.com/mx/support/download/archer-t3u/v1/" },
+          { "title": "TP-Link Archer T3U datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202010/20201019/Archer%20T3U%28EU%26US%29_1.0_datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "ggynl0sqii6r2hc",
+      "research": {
+        "confidence": 0.95,
+        "name": "TP-Link Tapo C320WS camara Wi-Fi exterior 2K QHD 4MP IP66",
+        "description": "Camara TP-Link Tapo C320WS para exterior con resolucion 2K QHD 4MP, Wi-Fi 2.4GHz, Ethernet, vision nocturna a color, deteccion inteligente, audio bidireccional e IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-2k/tp-link-tapo-c320ws",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/cloud-camera/tapo-c320ws/",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMTPL270/CAMTPL270_full.jpg"],
+        "documents": [
+          { "label": "TP-Link Tapo C320WS user guide", "type": "manual", "url": "https://www.tp-link.com/mx/document/34564/" },
+          { "label": "TP-Link Tapo C320WS datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202403/20240319/Tapo%20C320WS%202.0%262.20%262.6%262.28_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Tapo C320WS",
+          "providerSku": "CAMTPL270",
+          "upc": "840030707032",
+          "productType": "Camara IP Wi-Fi bullet exterior",
+          "sensor": "1/3 inch sensor",
+          "resolution": "4 MP, 2560 x 1440",
+          "lens": "F1.61, 3.18 mm",
+          "nightVision": "850 nm IR up to 30 m plus color/starlight night vision",
+          "videoCompression": "H.264",
+          "frameRate": "15 fps reference",
+          "network": "2.4 GHz Wi-Fi 802.11 b/g/n and RJ45 Ethernet",
+          "audio": "Two-way audio",
+          "analytics": "Motion/person/vehicle detection depending hardware and firmware version",
+          "alarm": "Light and sound alarm",
+          "storage": "microSD up to 256 GB in MX/provider references; newer datasheets list up to 512 GB",
+          "smartHome": "Google Assistant and Amazon Alexa reference",
+          "rating": "IP66",
+          "power": "9 V DC 0.6 A adapter",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CAMTPL270", "stock": 898, "price": 34.67, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "CV-1490", "stock": 2, "price": 34, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": [
+            "Previous path was generic CCTV cameras; this is a Wi-Fi/IP bullet exterior 4MP 2K model.",
+            "Storage limit differs by region/version: provider and Mexico references say 256GB, newer datasheets say 512GB.",
+            "Some retailers publish 2160 x 1440; official TP-Link materials list 2560 x 1440.",
+            "Provider feed emphasizes Wi-Fi, while official materials also include Ethernet."
+          ]
+        },
+        "measurements": { "dimensions": "142.3 x 103.4 x 64.3 mm", "weight": "220 g" },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico Tapo C320WS", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/cloud-camera/tapo-c320ws/" },
+          { "title": "TP-Link Tapo C320WS support", "type": "manufacturer", "url": "https://www.tp-link.com/mx/support/download/tapo-c320ws/" },
+          { "title": "TP-Link Tapo C320WS datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202403/20240319/Tapo%20C320WS%202.0%262.20%262.6%262.28_Datasheet.pdf" }
+        ]
+      }
+    }
+  ]
+}
