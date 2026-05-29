@@ -32,6 +32,16 @@ const researchedBatchCases = [
   ["Epson T544120-AL botella tinta negra Dye EcoTank L3110 65 ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t544/negro"],
   ["LG 24U411A-B.AWMQ monitor 23.8 FHD IPS 120Hz HDR10", "LG", "computo/monitores/oficina/24-fhd-120hz"],
   ["PCM T8070S rollo termico 80 x 70 mm paquete 50", "PCM", "punto-de-venta/consumibles/rollos-termicos/80x70"],
+  ["Dell KM3322W 580-AKCU combo teclado y mouse inalambrico espanol", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos/basicos"],
+  ["Kingston DataTraveler Exodia M DTXM/64GB USB 3.2 retractil azul", "KINGSTON TECHNOLOGY", "computo/almacenamiento/memorias-flash/usb/64gb/retractiles"],
+  ["Mercusys MW150US adaptador nano USB Wi-Fi N150 150Mbps", "MERCUSYS", "redes/adaptadores-wifi/usb/n150-nano"],
+  ["Nextep NE-528 rollo termico 57 x 40 mm paquete 10", "NEXTEP", "punto-de-venta/consumibles/rollos-termicos/57x40"],
+  ["Dell KM300C 580-AKKW combo teclado y mouse USB espanol", "DELL", "computo/perifericos/combos-teclado-mouse/alambricos/basicos"],
+  ["Intellinet 210591 jack keystone RJ45 Cat6 blanco de impacto", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat6"],
+  ["Xerox Ecologico papel bond carta 5000 hojas 75 g 93 blancura", "XEROX", "oficina/papel-consumibles/papel-bond/carta/5000-hojas/ecologico"],
+  ["Brother BTD100M botella de tinta magenta 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd100/magenta"],
+  ["ADATA UV250 AUV250-16G-RBK memoria USB 2.0 16GB plata", "ADATA", "computo/almacenamiento/memorias-flash/usb/16gb/metalicas"],
+  ["Brother BTD100Y botella de tinta amarilla 5000 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd100/amarillo"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

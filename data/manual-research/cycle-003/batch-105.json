@@ -1,0 +1,408 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b105-2026-05-29",
+  "cycle": 3,
+  "batch": 105,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "c0vry0j661r3a21",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dell KM3322W 580-AKCU kit teclado y mouse inalambrico espanol negro",
+        "description": "Combo Dell KM3322W para oficina con teclado completo espanol y mouse optico inalambricos de 2.4 GHz, receptor USB, diseno negro y mouse de 1000 DPI.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos/dell-km3322w-580-akcu",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wireless-keyboard-and-mouse-combo-km3322w-datasheet.pdf",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/km3322w/media-gallery/keyboard-mouse-km3322w-gallery-1.psd?fmt=png-alpha", "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-componentes/kit-teclado-y-mouse-dell-580-akcu-espanol-negro/km3322w"],
+        "documents": [{ "label": "Dell KM3322W datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wireless-keyboard-and-mouse-combo-km3322w-datasheet.pdf" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "KM3322W",
+          "partNumber": "580-AKCU",
+          "providerSku": "KITDLL1160",
+          "ean": "5397184620939",
+          "upc": "884116416432",
+          "productType": "Kit teclado y mouse inalambrico",
+          "layout": "Espanol",
+          "color": "Negro",
+          "wireless": "2.4 GHz USB receiver",
+          "mouse": "Optical, 3 buttons, 1000 DPI",
+          "keyboard": "Full-size, numeric keypad, multimedia keys, spill resistant",
+          "security": "AES-128 encryption by Dell datasheet",
+          "batteries": "2 AAA for keyboard, 1 AA for mouse",
+          "warranty": "3 years by Dell datasheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1882},{"providerId":"ctonline","warehouseCode":"CMT","stock":487},{"providerId":"ctonline","warehouseCode":"D2A","stock":357},{"providerId":"ctonline","warehouseCode":"GDL","stock":326},{"providerId":"ctonline","warehouseCode":"CUN","stock":153},{"providerId":"ctonline","warehouseCode":"HMO","stock":41},{"providerId":"ctonline","warehouseCode":"SLT","stock":25},{"providerId":"ctonline","warehouseCode":"LMO","stock":24},{"providerId":"ctonline","warehouseCode":"PUE","stock":22},{"providerId":"ctonline","warehouseCode":"SLP","stock":21},{"providerId":"ctonline","warehouseCode":"TRN","stock":19},{"providerId":"ctonline","warehouseCode":"OBR","stock":18}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITDLL1160", "stock": 3627, "price": 343.5, "currency": "MXN", "branch": "DFA:1882,CMT:487,D2A:357,GDL:326,CUN:153,HMO:41,SLT:25,LMO:24,PUE:22,SLP:21,TRN:19,OBR:18" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["580-AKCU maps to KM3322W LATAM Spanish variant; Dell public pages often show nearby US variants.", "Previous broad keyboard path needed a kit-specific wireless subcategory."]
+        },
+        "measurements": { "dimensions": "Keyboard 449.2 x 123 x 25.3 mm; mouse 58.32 x 104.9 x 38.87 mm", "weight": "Keyboard 497.12 g; mouse 57.8 g" },
+        "sourceRefs": [
+          { "title": "Dell KM3322W datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wireless-keyboard-and-mouse-combo-km3322w-datasheet.pdf" },
+          { "title": "Icecat Dell KM3322W-R-LTN GTIN reference", "type": "catalog", "url": "https://icecat.biz/en/p/dell/km3322w-r-ltn/keyboards-5397184620939-km3322w-97426642.html" },
+          { "title": "Global Office Dell 580-AKCU channel reference", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-componentes/kit-teclado-y-mouse-dell-580-akcu-espanol-negro/km3322w" }
+        ]
+      }
+    },
+    {
+      "product_id": "gbzbww7e0ny6sjd",
+      "research": {
+        "confidence": 0.97,
+        "name": "Kingston DataTraveler Exodia M DTXM/64GB memoria USB 3.2 Gen 1 64GB azul",
+        "description": "Memoria USB-A Kingston DataTraveler Exodia M de 64GB con diseno retractil, tapa movil azul/negro y aro para llavero.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/retractiles",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/retractiles/kingston-datatraveler-exodia-m-dtxm-64gb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/en/usb-flash-drives/datatraveler-exodia-m-moving-usb-3-2-usb-flash-drive?capacity=64gb",
+        "gallery": ["https://media.kingston.com/kingston/product/ktc-product-usb-dtxm-64gb-1-lg.jpg", "https://media.kingston.com/kingston/product/ktc-product-usb-dtxm-64gb-3-lg.jpg"],
+        "documents": [{ "label": "Kingston DataTraveler Exodia M datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/dtxm_en.pdf" }],
+        "specs": {
+          "brand": "KINGSTON TECHNOLOGY",
+          "model": "DataTraveler Exodia M",
+          "partNumber": "DTXM/64GB",
+          "providerSku": "MEMKGN3640",
+          "upc": "740617326260",
+          "productType": "Memoria USB retractil",
+          "capacity": "64 GB",
+          "interface": "USB-A 3.2 Gen 1",
+          "color": "Azul / negro",
+          "compatibility": "Windows 11/10, macOS, Linux 4.4+, Chrome OS",
+          "warranty": "5 years by Kingston",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"MTY","stock":3301},{"providerId":"ctonline","warehouseCode":"D2A","stock":228},{"providerId":"ctonline","warehouseCode":"CEL","stock":20}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMKGN3640", "stock": 3549, "price": 4.78, "currency": "USD", "branch": "MTY:3301,D2A:228,CEL:20" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous path memoria-ram was incorrect; this is USB flash storage.", "Kingston does not publish a fixed MB/s rate for this family, so speed is normalized only to USB 3.2 Gen 1."]
+        },
+        "measurements": { "dimensions": "67.4 x 21.8 x 11.6 mm", "weight": "10 g" },
+        "sourceRefs": [
+          { "title": "Kingston DataTraveler Exodia M official page", "type": "manufacturer", "url": "https://www.kingston.com/en/usb-flash-drives/datatraveler-exodia-m-moving-usb-3-2-usb-flash-drive?capacity=64gb" },
+          { "title": "Kingston DataTraveler Exodia M datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/dtxm_en.pdf" },
+          { "title": "B&H Kingston DTXM/64GB UPC reference", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1703236-REG/kingston_dtxm_64gb_64gb_datatraveler_exodia_m.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "uqt3o4r2m6fre4e",
+      "research": {
+        "confidence": 0.96,
+        "name": "Mercusys MW150US adaptador nano USB Wi-Fi N150 2.4 GHz",
+        "description": "Adaptador nano USB 2.0 Mercusys MW150US para agregar Wi-Fi 2.4 GHz N150 a laptop o PC de escritorio.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/n150-nano",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/n150-nano/mercusys-mw150us",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mercusys.com/uk/product/adapter/mw150us/v1/",
+        "gallery": ["https://static.mercusys.com/MW150US_un_V1_23_normal_0.00_20160619170255.jpg", "https://static.mercusys.com/23_normal_0_20160619170600.jpg"],
+        "documents": [{ "label": "Mercusys USB adapter quick installation guide", "type": "manual", "url": "https://static.mercusys.com/manual/USB_Adapter_QIG_85x7520250730090416.pdf" }],
+        "specs": {
+          "brand": "MERCUSYS",
+          "model": "MW150US",
+          "providerSku": "TARMER020",
+          "upc": "849439000324",
+          "productType": "Adaptador USB Wi-Fi nano",
+          "wirelessStandard": "IEEE 802.11n/g/b",
+          "frequency": "2.400-2.4835 GHz",
+          "speed": "Up to 150 Mbps",
+          "interface": "USB 2.0",
+          "antenna": "Internal",
+          "security": "WEP, WPA/WPA2, WPA-PSK/WPA2-PSK",
+          "transmitPower": "<20 dBm",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":886},{"providerId":"ctonline","warehouseCode":"CMT","stock":580},{"providerId":"ctonline","warehouseCode":"DFA","stock":459},{"providerId":"ctonline","warehouseCode":"AGS","stock":384},{"providerId":"ctonline","warehouseCode":"GDL","stock":361},{"providerId":"ctonline","warehouseCode":"CHI","stock":158},{"providerId":"ctonline","warehouseCode":"PUE","stock":107},{"providerId":"ctonline","warehouseCode":"DGO","stock":81},{"providerId":"ctonline","warehouseCode":"TXA","stock":71},{"providerId":"ctonline","warehouseCode":"CUN","stock":70},{"providerId":"ctonline","warehouseCode":"MID","stock":34},{"providerId":"ctonline","warehouseCode":"XLP","stock":31}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARMER020", "stock": 3501, "price": 3.03, "currency": "USD", "branch": "D2A:886,CMT:580,DFA:459,AGS:384,GDL:361,CHI:158,PUE:107,DGO:81,TXA:71,CUN:70,MID:34,XLP:31" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous accesorios/cables-adaptadores path was too generic; this is a Wi-Fi network adapter.", "Official V1 page is end-of-life and provider feed does not expose hardware revision."]
+        },
+        "measurements": { "dimensions": "18.9 x 14.8 x 6.85 mm", "weight": "Official weight not published" },
+        "sourceRefs": [
+          { "title": "Mercusys MW150US official page", "type": "manufacturer", "url": "https://www.mercusys.com/uk/product/adapter/mw150us/v1/" },
+          { "title": "Mercusys MW150US downloads", "type": "support", "url": "https://www.mercusys.com/uk/download/mw150us/" },
+          { "title": "Mercusys USB adapter quick installation guide", "type": "manual", "url": "https://static.mercusys.com/manual/USB_Adapter_QIG_85x7520250730090416.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "u31krquthb1kttw",
+      "research": {
+        "confidence": 0.94,
+        "name": "Nextep NE-528 paquete de 10 rollos de papel termico 57 x 40 mm",
+        "description": "Paquete Nextep NE-528 con 10 rollos de papel termico para tickets y recibos POS, tamano 57 x 40 mm, gramaje 55 g/m2 e impresion negra.",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos/57x40",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/57x40/nextep-ne-528-c10",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/productos/ne-528/",
+        "gallery": ["https://nextep.com.mx/2025/09/NE-528-Rollo-Papel-Nextep-Termico-57x40mm-C-10_02-768x768-1.jpg", "https://nextep.com.mx/2025/09/NE-528-Rollo-Papel-Nextep-Termico-57x40mm-C-10_03.jpg"],
+        "documents": [{ "label": "Nextep NE-528 technical sheet", "type": "datasheet", "url": "https://nextep.com.mx/piotnet-addons-for-elementor/Ficha-tecnica-PAPEL-TE%E2%95%A0uRMICO_NE-528-68c485530821f.pdf" }],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-528",
+          "providerSku": "ACCNEX390",
+          "ean": "7501811272462",
+          "productType": "Rollo de papel termico POS",
+          "rollSize": "57 x 40 mm",
+          "paperWeight": "55 g/m2",
+          "rollLength": "14 m +/-5%",
+          "packQuantity": "10 rolls",
+          "printColor": "Negro",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1969},{"providerId":"ctonline","warehouseCode":"ZAC","stock":1449},{"providerId":"ctonline","warehouseCode":"AGS","stock":17},{"providerId":"ctonline","warehouseCode":"MOR","stock":10},{"providerId":"ctonline","warehouseCode":"LEO","stock":8},{"providerId":"ctonline","warehouseCode":"TRN","stock":2},{"providerId":"ctonline","warehouseCode":"CEL","stock":2}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCNEX390", "stock": 3457, "price": 33.11, "currency": "MXN", "branch": "D2A:1969,ZAC:1449,AGS:17,MOR:10,LEO:8,TRN:2,CEL:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous etiquetas-papel path was close but not exact; this is POS thermal roll paper, not label stock.", "Official Nextep API categorizes it under limpieza, likely a catalog error."]
+        },
+        "measurements": { "dimensions": "Roll 57 mm width x 40 mm diameter; retailer pack approx 5 x 19 x 7 cm", "weight": "Official weight not published; retailer pack approx 1 kg" },
+        "sourceRefs": [
+          { "title": "Nextep NE-528 official page", "type": "manufacturer", "url": "https://nextep.com.mx/productos/ne-528/" },
+          { "title": "Nextep NE-528 API reference", "type": "manufacturer_api", "url": "https://nextep.com.mx/api/public/api/products/NE-528" },
+          { "title": "Nextep NE-528 technical sheet", "type": "datasheet", "url": "https://nextep.com.mx/piotnet-addons-for-elementor/Ficha-tecnica-PAPEL-TE%E2%95%A0uRMICO_NE-528-68c485530821f.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "v9vuhi9slp3tgik",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dell KM300C 580-AKKW kit teclado y mouse alambrico USB-A espanol negro",
+        "description": "Combo Dell KM300C cableado para oficina con teclado completo espanol USB-A y mouse optico de 1000 DPI, color negro.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos/basicos/dell-km300c-580-akkw",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-wired-keyboard-and-mouse-km300c/apd/580-akkv/pc-accessories",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/images/products/electronics-and-accessories/dell/keyboards/kb216-and-ms116-wired-combo/kb216-ms116-kbm-02-bk.psd?fmt=png-alpha", "https://www.dell.com/en-us/shop/dell-wired-keyboard-and-mouse-km300c/apd/580-akkv/pc-accessories"],
+        "documents": [{ "label": "Dell KM300C datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wired-keyboard-and-mouse-km300c-datasheet.pdf" }],
+        "specs": {
+          "brand": "DELL",
+          "model": "KM300C",
+          "partNumber": "580-AKKW",
+          "providerSku": "KITDLL1280",
+          "ean": "5397184687581",
+          "upc": "884116431657",
+          "productType": "Kit teclado y mouse alambrico",
+          "layout": "Espanol",
+          "color": "Negro",
+          "interface": "USB-A",
+          "cableLength": "1.8 m",
+          "mouse": "MS116 optical, 3 buttons, 1000 DPI",
+          "keyboard": "Full-size plunger/chiclet, numeric keypad, multimedia keys, spill resistant",
+          "warranty": "1 year by Dell datasheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1435},{"providerId":"ctonline","warehouseCode":"CMT","stock":822},{"providerId":"ctonline","warehouseCode":"MTY","stock":130},{"providerId":"ctonline","warehouseCode":"GDL","stock":79},{"providerId":"ctonline","warehouseCode":"TXL","stock":53},{"providerId":"ctonline","warehouseCode":"VER","stock":52},{"providerId":"ctonline","warehouseCode":"PUE","stock":50},{"providerId":"ctonline","warehouseCode":"MAZ","stock":38},{"providerId":"ctonline","warehouseCode":"DFT","stock":35},{"providerId":"ctonline","warehouseCode":"ACA","stock":34},{"providerId":"ctonline","warehouseCode":"DFP","stock":33},{"providerId":"ctonline","warehouseCode":"CHI","stock":32}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITDLL1280", "stock": 3245, "price": 256.67, "currency": "MXN", "branch": "D2A:1435,CMT:822,MTY:130,GDL:79,TXL:53,VER:52,PUE:50,MAZ:38,DFT:35,ACA:34,DFP:33,CHI:32" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["580-AKKW is the Spanish/LATAM variant; Dell public retail page may show nearby 580-AKKV US variant.", "Name already had KM300C but needed wired USB-A normalization."]
+        },
+        "measurements": { "dimensions": "Keyboard 442 x 127 x 25 mm; mouse 61 x 113 x 36 mm", "weight": "Keyboard 450 g; mouse 92 g" },
+        "sourceRefs": [
+          { "title": "Dell KM300C datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wired-keyboard-and-mouse-km300c-datasheet.pdf" },
+          { "title": "Dell KM300C product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wired-keyboard-and-mouse-km300c/apd/580-akkv/pc-accessories" },
+          { "title": "Icecat Dell KM300C-LTN GTIN reference", "type": "catalog", "url": "https://icecat.biz/en/p/dell/dell-km300c-ltn/keyboards-5397184687581-km300c-99828195.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "dyxaowlwbk22qzo",
+      "research": {
+        "confidence": 0.97,
+        "name": "Intellinet 210591 jack keystone RJ45 Cat6 UTP blanco punch-down",
+        "description": "Jack keystone RJ45 8P8C Intellinet Cat6 UTP color blanco para placas, patch panels o cajas de superficie, con terminacion punch-down 110/Krone.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6/intellinet-210591",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetsolutions.com/products/intellinet-en-cat6-punch-down-keystone-jack-white-210591",
+        "gallery": ["https://intellinetnetwork.eu/cdn/shop/products/cat6-keystone-jack-210591-1_e142cce7-9b8c-448a-97cc-56d220a8236d.jpg?v=1695255715&width=1946"],
+        "documents": [{ "label": "Intellinet 210591 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/48488/210591_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "210591",
+          "providerSkus": ["RCKACC1510", "AC-2171"],
+          "ean": "0766623210591",
+          "upc": "766623210591",
+          "productType": "Jack keystone RJ45 Cat6 UTP",
+          "category": "Cat6 UTP",
+          "termination": "LSA/punch-down, 110/Krone compatible",
+          "wiring": "T568A/B",
+          "ratedSpeed": "Up to 10 Gbps",
+          "bandwidth": "250 MHz",
+          "wireGauge": "22-26 AWG solid or stranded",
+          "contacts": "50 micro-inch gold plated contacts",
+          "poe": "Up to IEEE 802.3bt by datasheet",
+          "standards": "ISO/IEC 11801, ANSI/TIA/EIA 568B.2-1, UL, CE, RoHS, REACH",
+          "temperature": "-40 to 80 C",
+          "warranty": "Lifetime by Intellinet",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RCKACC1510", "stock": 3207, "price": 1.78, "currency": "USD", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "AC-2171", "stock": 35, "price": 1.81, "currency": "USD", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["AC appears as the CVA SKU but not as an official Intellinet product model.", "Current cableado-estructurado path was broadly correct; manual enrichment adds keystone RJ45 Cat6 subcategory."]
+        },
+        "measurements": { "dimensions": "28.3 x 18 x 20.8 mm; package 100 x 70 x 20 mm", "weight": "10 g net; 12 g gross" },
+        "sourceRefs": [
+          { "title": "Intellinet 210591 official page", "type": "manufacturer", "url": "https://intellinetsolutions.com/products/intellinet-en-cat6-punch-down-keystone-jack-white-210591" },
+          { "title": "Intellinet 210591 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/48488/210591_datasheet_english.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "ciu4guehfk13cno",
+      "research": {
+        "confidence": 0.94,
+        "name": "Xerox Ecologico 003M02010 papel bond carta 75 g/m2 caja 5000 hojas",
+        "description": "Caja de papel bond Xerox Ecologico tamano carta para laser, inkjet, digital, fotocopiado, offset, escuela y oficina, con 10 resmas de 500 hojas.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/ecologico",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/ecologico/xerox-ecologico-003m02010",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xerox.com/downloads/mex/es/supplies/Catalogo-Papel-Xerox.pdf",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/04/XEROXPAPELECOLOGICOCARTA93BLANCURA_Ecolgico_EAN7501712320118_0.jpg", "https://compupuebla.com/producto/papel-bond-ecologico-carta-xerox-ecologico/"],
+        "documents": [
+          { "label": "Xerox Mexico paper catalogue", "type": "catalog", "url": "https://www.xerox.com/downloads/mex/es/supplies/Catalogo-Papel-Xerox.pdf" },
+          { "label": "CompuPuebla Xerox Ecologico product sheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/XEROXPAPELECOLOGICOCARTA93BLANCURA_Ecolgico_EAN7501712320118/XEROXPAPELECOLOGICOCARTA93BLANCURA_Ecolgico_EAN7501712320118.pdf" }
+        ],
+        "specs": {
+          "brand": "XEROX",
+          "model": "Ecologico",
+          "partNumber": "003M02010",
+          "providerSku": "PAPXRX080",
+          "ean": "7501712320118",
+          "productType": "Papel bond carta ecologico",
+          "paperSize": "Carta 8.5 x 11 in / 216 x 279 mm",
+          "basisWeight": "75 g/m2",
+          "brightness": "93%",
+          "sheets": "5000 sheets",
+          "packs": "10 packs of 500 sheets",
+          "recycledContent": "Minimum 50% recycled fiber by retailer datasheet",
+          "acidFree": "Yes by retailer datasheet",
+          "origin": "Mexico by retailer datasheet",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"MOR","stock":617},{"providerId":"ctonline","warehouseCode":"D2A","stock":508},{"providerId":"ctonline","warehouseCode":"CEL","stock":377},{"providerId":"ctonline","warehouseCode":"OBR","stock":231},{"providerId":"ctonline","warehouseCode":"VHA","stock":218},{"providerId":"ctonline","warehouseCode":"GDL","stock":196},{"providerId":"ctonline","warehouseCode":"CMT","stock":163},{"providerId":"ctonline","warehouseCode":"SLP","stock":122},{"providerId":"ctonline","warehouseCode":"MAZ","stock":119},{"providerId":"ctonline","warehouseCode":"XLP","stock":92},{"providerId":"ctonline","warehouseCode":"CDV","stock":66},{"providerId":"ctonline","warehouseCode":"AGS","stock":62}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "PAPXRX080", "stock": 3172, "price": 573, "currency": "MXN", "branch": "MOR:617,D2A:508,CEL:377,OBR:231,VHA:218,GDL:196,CMT:163,SLP:122,MAZ:119,XLP:92,CDV:66,AGS:62" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous computo/monitores path was incorrect; this is office paper.", "Feed says opacidad 93%; Xerox/retailer material normalizes it as 93% brightness/whiteness.", "Catalog and retail references disagree on GTIN for 003M02010, so keep provider EAN 7501712320118 until barcode is reverified.", "Visible branch sum is 2771 while feed total_stock is 3172, so provider likely has hidden or truncated locations."]
+        },
+        "measurements": { "dimensions": "Sheet 216 x 279 mm / 8.5 x 11 in", "weight": "75 g/m2 paper; calculated paper net approx 22.6 kg per 5000-sheet box without packaging" },
+        "sourceRefs": [
+          { "title": "Xerox Mexico paper catalogue", "type": "catalog", "url": "https://www.xerox.com/downloads/mex/es/supplies/Catalogo-Papel-Xerox.pdf" },
+          { "title": "CompuPuebla Xerox Ecologico", "type": "retailer", "url": "https://compupuebla.com/producto/papel-bond-ecologico-carta-xerox-ecologico/" },
+          { "title": "CompuPuebla Xerox Ecologico datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/XEROXPAPELECOLOGICOCARTA93BLANCURA_Ecolgico_EAN7501712320118/XEROXPAPELECOLOGICOCARTA93BLANCURA_Ecolgico_EAN7501712320118.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "i3ys2fczoebf143",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother BTD100M botella de tinta magenta InkBenefit Tank 48.8 ml 5000 paginas",
+        "description": "Tinta original Brother BTD100M magenta para multifuncionales InkBenefit Tank, botella antiderrames de ultra alto rendimiento.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/magenta",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/magenta/brother-btd100m",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/btd100mmex",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/08/009_btd100m-carton.png", "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/08/bro9769-bt-d100m-label-050724.jpg"],
+        "documents": [{ "label": "Brother BTD100 color 3-pack compatibility", "type": "product_page", "url": "https://www.brother.com.mx/products/btd100cl3pkmex" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BTD100M",
+          "providerSkus": ["CARBRT4530", "CN-5016"],
+          "ean": "012502676775",
+          "productType": "Botella de tinta para tanque",
+          "color": "Magenta",
+          "inkVolume": "48.8 ml",
+          "yield": "Up to 5000 pages",
+          "compatibility": "Brother MFC-T930DW, DCP-T830DW, DCP-T730DW, DCP-T530DW, DCP-T430W, DCP-T230; pack references also list DCP-T236, DCP-T436W, DCP-T536DW",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CARBRT4530", "stock": 2882, "price": 155.56, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-5016", "stock": 0, "price": 136.74, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current tinta-toner path is broadly valid; manual enrichment adds Brother BTD100 bottle color subcategory.", "CVA listed this SKU with zero stock at verification time."]
+        },
+        "measurements": { "dimensions": "Bottle dimensions not published reliably", "weight": "48.8 ml ink volume; package weight not published reliably" },
+        "sourceRefs": [
+          { "title": "Brother BTD100M official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd100mmex" },
+          { "title": "Brother BTD100 color 3-pack Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd100cl3pkmex" }
+        ]
+      }
+    },
+    {
+      "product_id": "5ld9a0thbkn6l4v",
+      "research": {
+        "confidence": 0.97,
+        "name": "ADATA UV250 AUV250-16G-RBK memoria USB 2.0 16GB plata",
+        "description": "Unidad flash USB 2.0 ADATA UV250 de 16GB con cuerpo metalico plata, diseno sin tapa y orificio para correa o llavero.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/metalicas/adata-uv250-auv250-16g-rbk",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://us-shop.adata.com/products/adata-uv250-usb-flash-drive",
+        "gallery": ["https://us-shop.adata.com/cdn/shop/files/8c2ed795-b437-4b8f-b48b-5e70148293e1.jpg?v=1742257559&width=1946", "https://us-shop.adata.com/products/adata-uv250-usb-flash-drive"],
+        "documents": [{ "label": "ADATA UV250 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv250_usb_flash_drive_v2.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "UV250",
+          "partNumber": "AUV250-16G-RBK",
+          "providerSku": "MEMDAT4820",
+          "ean": "4713218468796",
+          "productType": "Memoria USB metalica",
+          "capacity": "16 GB",
+          "interface": "USB-A 2.0",
+          "color": "Plata",
+          "body": "Metal textured capless design",
+          "compatibility": "Windows XP/Vista/7/8/8.1/10, macOS X 10.6+, Linux kernel 2.6+",
+          "warranty": "5 years limited by ADATA",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"AGS","stock":813},{"providerId":"ctonline","warehouseCode":"CMT","stock":372},{"providerId":"ctonline","warehouseCode":"XLP","stock":333},{"providerId":"ctonline","warehouseCode":"D2A","stock":170},{"providerId":"ctonline","warehouseCode":"DFC","stock":113},{"providerId":"ctonline","warehouseCode":"GDL","stock":109},{"providerId":"ctonline","warehouseCode":"SLP","stock":76},{"providerId":"ctonline","warehouseCode":"COL","stock":71},{"providerId":"ctonline","warehouseCode":"ZAC","stock":66},{"providerId":"ctonline","warehouseCode":"ACA","stock":65},{"providerId":"ctonline","warehouseCode":"CEL","stock":54},{"providerId":"ctonline","warehouseCode":"OAX","stock":51}],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT4820", "stock": 2851, "price": 3.89, "currency": "USD", "branch": "AGS:813,CMT:372,XLP:333,D2A:170,DFC:113,GDL:109,SLP:76,COL:71,ZAC:66,ACA:65,CEL:54,OAX:51" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Previous memoria-ram path was incorrect; this is USB flash storage.", "ADATA shop stock/packaging can differ from the provider feed; datasheet confirms unit family specs."]
+        },
+        "measurements": { "dimensions": "42.4 x 14.95 x 5.35 mm", "weight": "5.6 g" },
+        "sourceRefs": [
+          { "title": "ADATA UV250 product page", "type": "manufacturer_store", "url": "https://us-shop.adata.com/products/adata-uv250-usb-flash-drive" },
+          { "title": "ADATA UV250 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv250_usb_flash_drive_v2.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "r6b7rnvheiqrqfj",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother BTD100Y botella de tinta amarilla InkBenefit Tank 48.8 ml 5000 paginas",
+        "description": "Tinta original Brother BTD100Y amarilla para multifuncionales InkBenefit Tank, botella antiderrames de ultra alto rendimiento.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/amarillo",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd100/amarillo/brother-btd100y",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/btd100ymex",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/10/013_btd100y-carton.png", "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2024/09/18/19/09/bro9769-bt-d100y-label-050724.jpg"],
+        "documents": [{ "label": "Brother BTD100 color 3-pack compatibility", "type": "product_page", "url": "https://www.brother.com.mx/products/btd100cl3pkmex" }],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "BTD100Y",
+          "providerSkus": ["CARBRT4540", "CN-5017"],
+          "ean": "012502676782",
+          "productType": "Botella de tinta para tanque",
+          "color": "Amarillo",
+          "inkVolume": "48.8 ml",
+          "yield": "Up to 5000 pages",
+          "compatibility": "Brother MFC-T930DW, DCP-T830DW, DCP-T730DW, DCP-T530DW, DCP-T430W, DCP-T230; pack references also list DCP-T236, DCP-T436W, DCP-T536DW",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CARBRT4540", "stock": 2849, "price": 155.56, "currency": "MXN", "branch": "provider_stock_without_branch" },
+            { "providerId": "cva", "providerSku": "CN-5017", "stock": 0, "price": 136.74, "currency": "MXN", "branch": "provider_stock_without_branch" }
+          ],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current tinta-toner path is broadly valid; manual enrichment adds Brother BTD100 bottle color subcategory.", "Brother Mexico page has a minor copy typo mentioning BTD100M in one bullet, while title, images and kit page confirm BTD100Y yellow.", "CVA listed this SKU with zero stock at verification time."]
+        },
+        "measurements": { "dimensions": "Bottle dimensions not published reliably", "weight": "48.8 ml ink volume; package weight not published reliably" },
+        "sourceRefs": [
+          { "title": "Brother BTD100Y official Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd100ymex" },
+          { "title": "Brother BTD100 color 3-pack Mexico", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd100cl3pkmex" },
+          { "title": "Ingram Micro Brother BTD100Y brochure", "type": "brochure", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b49335_0b49335.pdf" }
+        ]
+      }
+    }
+  ]
+}
