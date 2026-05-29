@@ -543,6 +543,16 @@ const researchedBatchCases = [
   ["Lenovo 4XB7A77446 ThinkSystem HDD 2TB 3.5 7.2K SATA Simple Swap", "LENOVO", "computo/servidores/componentes/discos-hdd"],
   ["Ovaltech OTR4551 bateria para Acer AS5742 10.8V 6 celdas", "OVALTECH", "computo/accesorios/baterias-laptop/acer"],
   ["XPG GAMMIX D35 AX4U32008G16A-SBKD35 UDIMM DDR4 8GB 3200MHz", "ADATA", "computo/componentes/memoria-ram/udimm-ddr4"],
+  ["Netis ST108GD switch no administrable Gigabit 8 puertos metalico", "NETIS", "redes/switches/no-administrables/gigabit/8-puertos"],
+  ["Gigabyte Radeon RX 9060 XT Gaming OC ICE 16GB GDDR6", "GIGABYTE", "computo/componentes/tarjetas-video/amd-radeon/rx-9000/rx-9060-xt"],
+  ["Gigabyte B850 Gaming X WiFi6E tarjeta madre AMD AM5 DDR5", "GIGABYTE", "computo/componentes/tarjetas-madre/amd-am5"],
+  ["Tech Zone TZ20COMB02-INA combo teclado y mouse inalambrico azul", "TECH ZONE ACCESORIOS", "computo/perifericos/combos-teclado-mouse/inalambricos"],
+  ["Thermaltake View 51 TG ARGB gabinete full tower E-ATX negro", "THERMALTAKE", "computo/componentes/gabinetes/full-tower/e-atx"],
+  ["Synology DS725+ NAS 2 bahias Ryzen R1600 2.5GbE M.2 NVMe", "SYNOLOGY", "computo/almacenamiento/nas/2-bahias"],
+  ["Manhattan 180764 mini teclado USB inalambrico compacto 82 teclas", "MANHATTAN", "computo/perifericos/teclados/inalambricos/compactos"],
+  ["Game Factor WG400 webcam Full HD 1080p 30fps LED microfono", "GAME FACTOR", "computo/perifericos/webcams/usb-fhd"],
+  ["Logitech G535 Lightspeed headset gaming inalambrico 40mm 33 horas", "LOGITECH", "audio/audifonos/gaming-inalambricos"],
+  ["Balam Rush GR Burst GR550B BR-937696 fuente ATX 550W 80 Plus Bronze", "BALAM RUSH", "computo/componentes/fuentes-poder/atx-80-plus-bronze"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
