@@ -363,6 +363,16 @@ const researchedBatchCases = [
   ["Manhattan 208222 switch HDMI 3 entradas 4K60 HDR", "MANHATTAN", "video/accesorios-av/switches-hdmi/3x1-4k60"],
   ["Hikvision DS-3E1526P-EI switch PoE administrable 24 puertos", "HIKVISION", "redes/switches/poe-administrables/gigabit/24-puertos"],
   ["Dahua DH-IPC-HDW2449T-S-IL camara IP turret 4MP WizSense dual light", "DAHUA", "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light"],
+  ["Lanix XBook B15 42138 Core i5-13500H 15.6 Windows 11 Pro", "LANIX", "computo/laptops/empresariales/15-6-pulgadas"],
+  ["Brother TN436BK toner negro 6500 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-436bk"],
+  ["ESET Small Office Security Pack 5 licencias 1 ano", "ESET", "software/seguridad/antivirus/small-office"],
+  ["Ovaltech OVTV-CA3255 soporte carrito TV 32 a 55 35kg", "OVALTECH", "video/soportes-tv/piso-carrito/32-55"],
+  ["Kyocera TK-3432 toner negro 21000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-3432"],
+  ["Kaspersky Standard KL1041Z5EFS-22 5 dispositivos 1 ano", "KASPERSKY", "software/seguridad/antivirus/multidispositivo/5-dispositivos"],
+  ["Gigabyte B850M D3HP tarjeta madre AMD AM5 DDR5 micro ATX", "GIGABYTE", "computo/componentes/tarjetas-madre/amd-am5/b850m"],
+  ["TP-Link RE200 repetidor Wi-Fi AC750 433 300 Mbps", "TP LINK", "redes/extensores-wifi/dual-band/ac750"],
+  ["ADATA AD4U266616G19-SGN memoria UDIMM DDR4 16GB 2666MHz", "ADATA", "computo/componentes/memoria-ram/udimm-ddr4/16gb-2666"],
+  ["Manhattan 440271 candado laptop con llave 1.4m K-slot", "MANHATTAN", "accesorios/seguridad-fisica/candados-laptop/llave"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
