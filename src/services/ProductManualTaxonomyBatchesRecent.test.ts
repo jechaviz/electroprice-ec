@@ -313,6 +313,16 @@ const researchedBatchCases = [
   ["Ovaltech OVPR-580MM soporte acero proyector 380-580mm", "OVALTECH", "video/accesorios-proyeccion/soportes-proyector"],
   ["CDP UPO11-1RTAX UPS online 1000VA 1000W rack torre", "CDP", "energia/no-breaks-ups/doble-conversion/rack-torre/1000va"],
   ["SanDisk SDSQXAO-512G-GNCZN microSDXC 512GB Nintendo Switch", "SANDISK", "computo/almacenamiento/memorias-flash/microsd/512gb-nintendo-switch"],
+  ["Sabo 053-100 espuma limpiadora multisurface 590 ml", "SABO", "computo/accesorios/limpieza/espumas-limpiadoras/590ml"],
+  ["Balam Rush DRIFT PRO MG7 mouse gamer inalambrico 2.4GHz", "BALAM RUSH", "computo/perifericos/mouse/inalambricos/gaming/2-4ghz"],
+  ["Kensington K60397WW Simply Portable Lite mochila laptop 16 verde", "KENSINGTON", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
+  ["ZKTeco VK07-C51 videoportero analogico 7 pulgadas 4 hilos", "ZKTECO", "seguridad/control-acceso/videoporteros-analogicos/kits"],
+  ["Manhattan 461993 soporte TV pared fijo 60 a 100 100kg", "MANHATTAN", "video/soportes-tv/pared/fijos-60-100"],
+  ["TP-Link TL-SF1016D switch 16 puertos 10/100 no administrable", "TP LINK", "redes/switches/no-administrables/fast-ethernet/16-puertos"],
+  ["Necnon NBHG-DRAGON HI-FI headset gaming alambrico azul vibracion", "NECNON", "audio/audifonos/gaming-alambricos"],
+  ["Grandstream GWN7701 switch gigabit no administrable 8 puertos", "GRANDSTREAM", "redes/switches/no-administrables/gigabit/8-puertos"],
+  ["Patriot P300P1TBM28 SSD 1TB M.2 NVMe PCIe Gen3x4", "PATRIOT", "computo/almacenamiento/ssd/m2-nvme/1tb-gen3"],
+  ["Brobotix 263045 bocina Bluetooth portatil radio FM USB azul", "BROBOTIX", "audio/bocinas/bluetooth/portatiles/fm-usb"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
