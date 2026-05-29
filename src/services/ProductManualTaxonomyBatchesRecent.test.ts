@@ -303,6 +303,16 @@ const researchedBatchCases = [
   ["Naceb NA-0132 mouse inalambrico 10000 DPI 5 botones negro", "NACEB TECHNOLOGY", "computo/perifericos/mouse/inalambricos/alto-dpi"],
   ["TP-Link Tapo C220 camara WiFi 2K QHD IA pan tilt", "TP LINK", "seguridad/cctv/camaras-ip-wifi/pt-interior/4mp-2k"],
   ["Provision ISR BSH-340IPBN-28 camara bala IP 4MP PoE microfono", "PROVISION-ISR", "seguridad/cctv/camaras-ip-poe/bullet/4mp-mic"],
+  ["Brobotix 180824 cable SATA corriente doble 0.15m", "BROBOTIX", "computo/componentes/cables-internos/alimentacion-sata"],
+  ["Perfect Choice PC-201076 kit teclado y mouse alambrico USB negro", "PERFECT CHOICE", "computo/perifericos/combos-teclado-mouse/alambricos"],
+  ["Urban Balance HDMI-TIPC-UB adaptador HDMI a USB-C 2.0 gris", "URBAN BALANCE", "accesorios/cables-adaptadores/video-usb-c-hdmi"],
+  ["HP X4E75AL cabezal impresion negro Smart Tank", "HP", "impresion/consumibles/cabezales/hp-smart-tank"],
+  ["Lenovo ThinkPad E14 Gen 6 21M8000VLM Core Ultra 7", "LENOVO", "computo/laptops/empresariales/14-pulgadas"],
+  ["Tripp Lite ECO1000LCD UPS 1000VA 600W Energy Star LCD", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/1000va/lcd"],
+  ["LG 24U421A-B monitor 23.8 FHD curvo 100Hz", "LG", "computo/monitores/oficina/24-fhd-100hz"],
+  ["Ovaltech OVPR-580MM soporte acero proyector 380-580mm", "OVALTECH", "video/accesorios-proyeccion/soportes-proyector"],
+  ["CDP UPO11-1RTAX UPS online 1000VA 1000W rack torre", "CDP", "energia/no-breaks-ups/doble-conversion/rack-torre/1000va"],
+  ["SanDisk SDSQXAO-512G-GNCZN microSDXC 512GB Nintendo Switch", "SANDISK", "computo/almacenamiento/memorias-flash/microsd/512gb-nintendo-switch"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
