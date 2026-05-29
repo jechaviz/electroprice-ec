@@ -293,6 +293,16 @@ const researchedBatchCases = [
   ["Tripp Lite OMNIVS1200LCD UPS interactivo 1200VA 600W LCD", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/1200va/lcd"],
   ["Kyocera TK-5417C toner cian 13000 paginas TASKalfa", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5417"],
   ["Perfect Choice PC-113218 Owty bocina Bluetooth portatil teclas mecanicas", "PERFECT CHOICE", "audio/bocinas/bluetooth/portatiles"],
+  ["Provision ISR I2-320A-28 camara AHD bala 2MP IR 20m", "PROVISION ISR", "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-ahd"],
+  ["Silimex Compucare locion limpiadora protectora 1 LT", "SILIMEX", "computo/accesorios/limpieza/lociones-limpiadoras"],
+  ["CDP B-12/9.0 bateria UPS 12V 9Ah", "CDP", "energia/baterias-ups/selladas-12v/9ah"],
+  ["HiLook IPC-D120HA-LUC domo IP 2MP PoE AcuSense Lite", "HILOOK", "seguridad/cctv/camaras-ip-poe/domo/2mp"],
+  ["Naceb NA-0146 gabinete externo disco duro 2.5 USB 3.1 aluminio", "NACEB TECHNOLOGY", "computo/almacenamiento/gabinetes-externos/2-5-usb-3-1"],
+  ["SanDisk SDCZ50C-016G-B35BE Cruzer Blade USB 16GB azul", "SANDISK", "computo/almacenamiento/memorias-flash/usb/16gb"],
+  ["Tripp Lite N206-KJ01-IND conector keystone Cat6 Cat5e negro", "TRIPP-LITE", "redes/cableado-estructurado/conectores-keystone/rj45-cat6-industrial"],
+  ["Naceb NA-0132 mouse inalambrico 10000 DPI 5 botones negro", "NACEB TECHNOLOGY", "computo/perifericos/mouse/inalambricos/alto-dpi"],
+  ["TP-Link Tapo C220 camara WiFi 2K QHD IA pan tilt", "TP LINK", "seguridad/cctv/camaras-ip-wifi/pt-interior/4mp-2k"],
+  ["Provision ISR BSH-340IPBN-28 camara bala IP 4MP PoE microfono", "PROVISION-ISR", "seguridad/cctv/camaras-ip-poe/bullet/4mp-mic"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
