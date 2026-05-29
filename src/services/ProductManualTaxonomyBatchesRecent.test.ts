@@ -532,6 +532,16 @@ const researchedBatchCases = [
   ["Backdrop TWS-8 audifonos inalambricos Bluetooth TWS sport negros", "BACKDROP", "audio/audifonos/bluetooth/tws/deportivos"],
   ["Zoomy ZN01 limador de unas para mascotas con laser", "ZOOMY", "mascotas/higiene/limadores-unas-electricos"],
   ["Brother TN229XLY toner amarillo alto rendimiento 2300 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-229/xl-amarillo"],
+  ["CDP UPO11-3RTAX UPS online rack torre 3000VA 3000W", "CDP", "energia/no-breaks-ups/doble-conversion/rack-torre/3000va"],
+  ["Tenda IT7-LCS-4 camara bullet IP 4MP full color 4mm", "TENDA", "seguridad/cctv/camaras-ip-poe/bullet/4mp-full-color"],
+  ["BRobotix 406108 hub USB-A 3.2 Gen 1 4 puertos aluminio plata", "BROBOTIX", "computo/accesorios/hubs-usb/usb-a/4-puertos"],
+  ["BRobotix 764731 cable siames CCTV BNC DC 15 m negro", "BROBOTIX", "seguridad/cctv/cable-coaxial-siames/15m"],
+  ["Lanix LX160 14980 monitor portatil 15.6 FHD IPS USB-C Mini HDMI", "LANIX", "computo/monitores/portatiles/15-6-fhd"],
+  ["Balam Rush Pulsar 650PR fuente ATX 650W 80 Plus White negra", "BALAM RUSH", "computo/componentes/fuentes-poder/atx-80-plus-white/650w"],
+  ["Dahua HAC-HDW1239TLQN-A-LED camara HDCVI domo eyeball 2MP full color", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/domo-eyeball/2mp-full-color"],
+  ["Dell Pro Dock WD25 docking USB-C 100W HDMI DisplayPort 6K", "DELL", "computo/accesorios/docks-hubs/usb-c/profesionales"],
+  ["Naceb Gaming NA-0928 silla gaming negro rojo soporte 150 kg", "NACEB GAMING", "oficina/mobiliario-accesorios/sillas-gaming"],
+  ["APC SRT96BP banco externo baterias Smart-UPS SRT 96V 3kVA", "APC", "energia/accesorios-ups/bancos-baterias-rack-torre/96v-srt"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
