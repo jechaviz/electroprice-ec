@@ -1,0 +1,524 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b070-2026-05-28",
+  "cycle": 3,
+  "batch": 70,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1c6dpf1x5unba49",
+      "research": {
+        "confidence": 0.94,
+        "name": "Evotec EV-3001 lector de codigo de barras 1D USB",
+        "description": "Lector Evotec EV-3001 alambrico USB para codigos de barras 1D, plug and play, con modos de lectura manual, continuo e intermitente, profundidad de escaneo de 10 a 380 mm y uso tipico en punto de venta.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/1d-usb",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/1d-usb/evotec-ev-3001",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.evotec.mx/ev-3001",
+        "gallery": [
+          "https://static.wixstatic.com/media/22e373_a232c34a494341f493611d0ab2a6f362~mv2.png/v1/fill/w_445%2Ch_445%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/imagen_ev-3001.png",
+          "https://static.wixstatic.com/media/22e373_923c05a312ca47e0baa5778a5b6bee22~mv2.png/v1/fill/w_515%2Ch_346%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/medidas_POS_3001tb.png"
+        ],
+        "documents": [
+          { "label": "Evotec EV-3001 product page", "type": "product_page", "url": "https://www.evotec.mx/ev-3001" }
+        ],
+        "specs": {
+          "brand": "EVOTEC",
+          "model": "EV-3001",
+          "providerSku": "SCAEVO010",
+          "ean": "7502262800006",
+          "productType": "1D USB barcode scanner",
+          "interface": "USB wired",
+          "scanModes": "Manual, continuous and intermittent",
+          "scanDepth": "10 to 380 mm",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SCAEVO010", "stock": 5, "price": 327.78, "currency": "MXN", "branch": "MAZ:2,VHA:1,MTY:1,PAC:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Provider legacy path was cables/adapters; manual review confirms POS barcode scanner."]
+        },
+        "measurements": { "dimensions": "50 x 70 x 96 mm", "weight": "250 g" },
+        "sourceRefs": [
+          { "title": "Evotec EV-3001 official page", "type": "manufacturer", "url": "https://www.evotec.mx/ev-3001" },
+          { "title": "CTOnline feed SCAEVO010 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1c7jj2d0aexdwpz",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA AD4S32008G22-SGN memoria RAM SO-DIMM DDR4 8GB 3200MHz",
+        "description": "Modulo ADATA Premier AD4S32008G22-SGN SO-DIMM DDR4 de 8GB para laptop, velocidad 3200MHz PC4-25600, latencia CL22, 260 pines, 1.2V y diseno non-ECC.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/8gb-3200",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/8gb-3200/adata-ad4s32008g22-sgn",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/upload/downloadfile/datasheet_premier_ddr4_3200_so_dimm.pdf",
+        "gallery": [
+          "https://www.memory4less.com/images/products/img0922a/AD4S32008G22-SGN-lg.jpg"
+        ],
+        "documents": [
+          { "label": "ADATA Premier DDR4 3200 SO-DIMM datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_premier_ddr4_3200_so_dimm.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AD4S32008G22-SGN",
+          "providerSku": "RAM-3650",
+          "ean": "4711085930774",
+          "productType": "Notebook memory module",
+          "capacity": "8GB",
+          "memoryType": "DDR4 SO-DIMM",
+          "speed": "3200MHz / PC4-25600",
+          "latency": "CL22",
+          "pins": "260-pin",
+          "voltage": "1.2V",
+          "ecc": "Non-ECC",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "RAM-3650", "stock": 5, "price": 61.22, "currency": "USD", "branch": "total:5" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Provider legacy path was desktops; manual review confirms notebook SO-DIMM RAM."]
+        },
+        "measurements": { "weight": "8.1 g", "packageDimensions": "170 x 55 x 9 mm" },
+        "sourceRefs": [
+          { "title": "ADATA Premier DDR4 3200 SO-DIMM datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_premier_ddr4_3200_so_dimm.pdf" },
+          { "title": "Memory4Less AD4S32008G22-SGN image", "type": "retail", "url": "https://www.memory4less.com/adata-8gb-ddr4-pc25600-ad4s32008g22-sgn" },
+          { "title": "CTOnline feed RAM-3650 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1c9gp7byfpmhsnk",
+      "research": {
+        "confidence": 0.9,
+        "name": "Stylos STCBHUB42G hub USB-C 4 en 1 color plata",
+        "description": "Hub Stylos STCBHUB42G 4 en 1 con conector host USB-C y cuatro puertos USB tipo A, tres USB 2.0 y un puerto USB 3.x, diseno plug and play en color plata para ampliar conectividad de laptops y tablets.",
+        "manualCategoryPath": "computo/accesorios/hubs-usb/usb-c/4-puertos",
+        "semanticCategoryPath": "computo/accesorios/hubs-usb/usb-c/4-puertos/stylos-stcbhub42g",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/hub-stylos-stcbhub42g/",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/AdaptadorHUB4En1StylosSTCBHUB42G_STCBHUB42G_EAN7503035946303_0-600x878.png",
+          "https://compupuebla.com/wp-content/uploads/2024/04/AdaptadorHUB4En1StylosSTCBHUB42G_STCBHUB42G_EAN7503035946303_1-600x400.png"
+        ],
+        "documents": [
+          { "label": "CompuPuebla Stylos STCBHUB42G listing", "type": "retail", "url": "https://compupuebla.com/producto/hub-stylos-stcbhub42g/" }
+        ],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STCBHUB42G",
+          "providerSku": "ACCSTY380",
+          "ean": "7503035946303",
+          "productType": "USB-C hub",
+          "hostConnector": "USB-C",
+          "ports": "3 x USB 2.0 Type-A and 1 x USB 3.x Type-A",
+          "dataRate": "480Mbit/s on USB 2.0 ports",
+          "color": "Silver",
+          "features": "Plug and play",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCSTY380", "stock": 23, "price": 67.9, "currency": "MXN", "branch": "TXA:5,MID:5,TPC:4,TOL:4,D2A:4,DFP:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "15 x 125 x 60 mm", "weight": "50 g", "alternateDimensions": "183 x 7 x 12 mm", "alternateWeight": "16 g" },
+        "sourceRefs": [
+          { "title": "CompuPuebla Stylos STCBHUB42G", "type": "retail", "url": "https://compupuebla.com/producto/hub-stylos-stcbhub42g/" },
+          { "title": "Intercompras Stylos STCBHUB42G", "type": "retail", "url": "https://intercompras.com/p/hub-usb-c-stylos-stcbhub42g-4-puertos-424689" },
+          { "title": "CTOnline feed ACCSTY380 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1cpueim23a4xw6n",
+      "research": {
+        "confidence": 0.93,
+        "name": "BRobotix 6000410 Duo Pack pluma stylus para tablet color plata",
+        "description": "Paquete BRobotix 6000410 de dos plumas stylus universales para pantallas capacitivas de tablets y smartphones, con punta de goma, clip y boligrado de tinta negra en cuerpo plata.",
+        "manualCategoryPath": "computo/tabletas/accesorios/stylus",
+        "semanticCategoryPath": "computo/tabletas/accesorios/stylus/brobotix-6000410-duopack-plata",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000410_ft.pdf",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/PlumaStylusTabletDuopkPLBROBOTIX60_6000410_EAN7500896000410_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/PlumaStylusTabletDuopkPLBROBOTIX60_6000410_EAN7500896000410_1.jpg"
+        ],
+        "documents": [
+          { "label": "BRobotix 6000410 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000410_ft.pdf" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "6000410",
+          "providerSku": "ACCRBT6710",
+          "ean": "7500896000410",
+          "productType": "Capacitive stylus duo pack",
+          "compatibility": "Tablets and smartphones with capacitive screens",
+          "tip": "Rubber tip",
+          "ink": "Black ballpoint ink",
+          "color": "Silver",
+          "features": "Clip and universal touch tip",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT6710", "stock": 38, "price": 1.48, "currency": "USD", "branch": "GDL:9,CMT:9,DFA:6,CUE:5,TXA:4,TPC:2,TAM:1,PUE:1,CEL:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "13.6 cm length x 0.8 cm diameter", "weight": "37.3 g", "packageDimensions": "8.7 x 19.3 cm" },
+        "sourceRefs": [
+          { "title": "BRobotix 6000410 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000410_ft.pdf" },
+          { "title": "CompuPuebla BRobotix 6000410", "type": "retail", "url": "https://compupuebla.com/producto/pluma-stylus-tablet-duopk-plata-brobotix-6000410/" },
+          { "title": "CTOnline feed ACCRBT6710 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1d1izwjlwzpdh57",
+      "research": {
+        "confidence": 0.96,
+        "name": "Grandstream GWN7801 switch administrable L2+ Gigabit 8 puertos y 2 SFP",
+        "description": "Switch administrable Grandstream GWN7801 L2+ con 8 puertos Gigabit RJ45, 2 puertos SFP Gigabit y puerto de consola, capacidad de conmutacion de 20Gbps, throughput de 14.88Mpps, VLAN, QoS, IGMP, ACL y funciones de seguridad.",
+        "manualCategoryPath": "redes/switches/administrables/gigabit",
+        "semanticCategoryPath": "redes/switches/administrables/gigabit/grandstream-gwn7801-8g-2sfp",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.grandstream.com/hubfs/Product_Documentation/GWN7800%20Series/Datasheet_GWN7801%28P%29_GWN7802%28P%29_GWN7803%28P%29_English.pdf",
+        "gallery": [
+          "https://www.grandstream.com/hubfs/Product%20Images/GWN7800%20Series/GWN7800%20Series%20Website%20Pic%201.png"
+        ],
+        "documents": [
+          { "label": "Grandstream GWN7801 datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/GWN7800%20Series/Datasheet_GWN7801%28P%29_GWN7802%28P%29_GWN7803%28P%29_English.pdf" }
+        ],
+        "specs": {
+          "brand": "GRANDSTREAM",
+          "model": "GWN7801",
+          "providerSkus": ["SWTGDM050", "NIC-4152"],
+          "productType": "Layer 2+ managed Gigabit switch",
+          "ports": "8 x RJ45 Gigabit, 2 x SFP 1G, 1 x console",
+          "poe": "No PoE",
+          "switchingCapacity": "20Gbps",
+          "nonBlockingThroughput": "10Gbps",
+          "forwardingRate": "14.88Mpps",
+          "memory": "128MB RAM, 32MB flash",
+          "jumboFrames": "10240 bytes",
+          "features": "VLAN, QoS, IGMP snooping, ACL, DHCP snooping, ARP inspection, IPv4/IPv6",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 4 },
+            { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SWTGDM050", "stock": 4, "price": 66.98, "currency": "USD", "branch": "total:4" },
+            { "providerId": "cva", "providerSku": "NIC-4152", "stock": 0, "price": 84.9, "currency": "USD", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "330 x 175 x 44 mm", "weight": "1.8 kg" },
+        "sourceRefs": [
+          { "title": "Grandstream GWN7801 datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/GWN7800%20Series/Datasheet_GWN7801%28P%29_GWN7802%28P%29_GWN7803%28P%29_English.pdf" },
+          { "title": "Grandstream Direct GWN7801", "type": "retail", "url": "https://grandstreamdirect.com/products/gwn7801" },
+          { "title": "B&H Grandstream GWN7801", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1925134-REG/grandstream_gwn7801_layer_2_managed.html" },
+          { "title": "Provider feeds SWTGDM050 and NIC-4152 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1d2983azgaxl3c4",
+      "research": {
+        "confidence": 0.97,
+        "name": "Intel Core i5-14400 procesador LGA1700 10 nucleos con graficos UHD 730",
+        "description": "Procesador Intel Core i5-14400 de 14a generacion para socket LGA1700, con 10 nucleos 6P+4E, 16 hilos, turbo hasta 4.70GHz, 20MB de cache, base processor power de 65W y graficos Intel UHD 730.",
+        "manualCategoryPath": "computo/componentes/procesadores/intel-core-i5-lga1700",
+        "semanticCategoryPath": "computo/componentes/procesadores/intel-core-i5-lga1700/intel-core-i5-14400",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CPUINT4520/CPUINT4520_full.jpg"
+        ],
+        "documents": [
+          { "label": "Intel Core i5-14400 specifications", "type": "product_page", "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html" }
+        ],
+        "specs": {
+          "brand": "INTEL",
+          "model": "Core i5-14400",
+          "orderingCode": "BX8071514400",
+          "providerSku": "CPUINT4520",
+          "ean": "5032037279130",
+          "upc": "735858547574",
+          "productType": "Desktop processor",
+          "cores": "10 cores (6 performance, 4 efficient)",
+          "threads": "16",
+          "maxTurboFrequency": "4.70GHz",
+          "baseFrequencies": "P-core 2.5GHz, E-core 1.8GHz",
+          "cache": "20MB Intel Smart Cache",
+          "processorBasePower": "65W",
+          "maximumTurboPower": "148W",
+          "socket": "FCLGA1700",
+          "graphics": "Intel UHD Graphics 730",
+          "memorySupport": "DDR5-4800 and DDR4-3200",
+          "pcie": "PCIe 5.0 and 4.0",
+          "includedThermalSolution": "Intel Laminar RM1 cooler in boxed kit",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 19 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CPUINT4520", "stock": 64, "price": 197.78, "currency": "USD", "branch": "CHI:19,DGO:10,ACX:10,DFC:8,VHA:6,CUE:5,TXA:4,TRN:1,URP:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "packageDimensions": "45.0 x 37.5 mm processor package" },
+        "sourceRefs": [
+          { "title": "Intel Core i5-14400 specifications", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/specifications.html" },
+          { "title": "Intel Core i5-14400 ordering", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/236788/intel-core-i5-processor-14400-20m-cache-up-to-4-70-ghz/ordering.html" },
+          { "title": "B&H Intel Core i5-14400 boxed", "type": "retail", "url": "https://www.bhphotovideo.com/c/product/1802185-REG/intel_bx8071514400_ic_i5_14400_desktop_processor10.html" },
+          { "title": "CTOnline feed CPUINT4520 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1d8k7d80it0trvo",
+      "research": {
+        "confidence": 0.9,
+        "name": "BRobotix 263793 convertidor de audio a Bluetooth para auto",
+        "description": "Adaptador BRobotix 263793 para convertir entrada auxiliar 3.5mm de auto o bocina en receptor Bluetooth, con Bluetooth 4.1, bateria recargable, microfono para manos libres, indicadores LED y accesorios de carga/audio.",
+        "manualCategoryPath": "audio/adaptadores-bluetooth/auto",
+        "semanticCategoryPath": "audio/adaptadores-bluetooth/auto/brobotix-263793",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/convertidor-audio-a-bluetooth-para-auto-brobotix-263793/",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/ConvertidorAudioaBluetoothparaAuto_263793_EAN7503032263793_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/ConvertidorAudioaBluetoothparaAuto_263793_EAN7503032263793_1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/ConvertidorAudioaBluetoothparaAuto_263793_EAN7503032263793_3.jpg"
+        ],
+        "documents": [
+          { "label": "CompuPuebla BRobotix 263793 listing", "type": "retail", "url": "https://compupuebla.com/producto/convertidor-audio-a-bluetooth-para-auto-brobotix-263793/" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "263793",
+          "providerSku": "ACCRBT6470",
+          "ean": "7503032263793",
+          "productType": "Car Bluetooth audio receiver",
+          "bluetooth": "Bluetooth 4.1",
+          "audioConnector": "3.5mm auxiliary",
+          "battery": "Rechargeable",
+          "microphone": "Integrated microphone for hands-free calls",
+          "includedAccessories": "3.5mm audio cable, MicroUSB cable and USB-A adapter",
+          "material": "Metal and plastic",
+          "color": "Black",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 21 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 17 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT6470", "stock": 81, "price": 5.02, "currency": "USD", "branch": "DFA:21,CMT:17,D2A:11,AGS:6,ACA:4,DGO:3,SLP:3,LEO:3,GDL:3,IRA:3,PUE:2,TOL:2" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "58 x 14 x 15 mm", "weight": "8 g" },
+        "sourceRefs": [
+          { "title": "CompuPuebla BRobotix 263793", "type": "retail", "url": "https://compupuebla.com/producto/convertidor-audio-a-bluetooth-para-auto-brobotix-263793/" },
+          { "title": "MiPC BRobotix 263793", "type": "retail", "url": "https://mipc.com.mx/transmisor-de-audio-para-auto-brobotix-263793-bluetooth-negro.html" },
+          { "title": "CityShop BRobotix 263793", "type": "retail", "url": "https://cityshop.mx/producto/convertidor-audio-a-bluetooth-para-auto-brobotix-263793-bluetooth-negro" },
+          { "title": "CTOnline feed ACCRBT6470 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1daqed4fq34mtr0",
+      "research": {
+        "confidence": 0.96,
+        "name": "HPE P38995-B21 fuente Flex Slot Platinum 800W hot-plug low halogen",
+        "description": "Fuente de poder HPE P38995-B21 Flexible Slot Platinum de 800W para servidor, hot-plug, low halogen, compatible con servidores HPE que usan bahias Flex Slot y eficiencia 80 PLUS Platinum.",
+        "manualCategoryPath": "computo/servidores/componentes/fuentes-poder/flex-slot",
+        "semanticCategoryPath": "computo/servidores/componentes/fuentes-poder/flex-slot/hpe-p38995-b21-800w-platinum",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/options/power-supplies/server-power-supplies/flexible-slot-power-supplies/hpe-800w-flex-slot-platinum-hot-plug-low-halogen-power-supply-kit/p/p38995-b21",
+        "gallery": [
+          "https://www.tech-america.com/dd2/img/item/300x300-ORIGINAL/P/P38995-B21.jpg",
+          "https://www.staples-3p.com/s7/is/image/Staples/79A6D237-831B-4664-8929FB7B6D4F1904_sc7?hei=90&wid=90"
+        ],
+        "documents": [
+          { "label": "HPE P38995-B21 product page", "type": "manufacturer", "url": "https://buy.hpe.com/us/en/options/power-supplies/server-power-supplies/flexible-slot-power-supplies/hpe-800w-flex-slot-platinum-hot-plug-low-halogen-power-supply-kit/p/p38995-b21" }
+        ],
+        "specs": {
+          "brand": "HPE",
+          "model": "P38995-B21",
+          "providerSkus": ["ACCHPE3070", "CSP-453"],
+          "productType": "Server hot-plug power supply",
+          "power": "800W",
+          "inputVoltage": "100-240 VAC",
+          "efficiency": "94% / 80 PLUS Platinum",
+          "formFactor": "HPE Flexible Slot",
+          "features": "Hot-plug, low halogen",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 5 },
+            { "providerId": "cva", "warehouseCode": "total", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCHPE3070", "stock": 5, "price": 276.32, "currency": "USD", "branch": "total:5" },
+            { "providerId": "cva", "providerSku": "CSP-453", "stock": 0, "price": 272.06, "currency": "USD", "branch": "total:0" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z",
+          "sourceDiscrepancies": ["Provider legacy path was UPS/no-breaks; manual review confirms server power supply."]
+        },
+        "measurements": { "dimensions": "6.80 x 4.04 x 22.53 cm", "weight": "1.43 kg" },
+        "sourceRefs": [
+          { "title": "HPE P38995-B21 product page", "type": "manufacturer", "url": "https://buy.hpe.com/us/en/options/power-supplies/server-power-supplies/flexible-slot-power-supplies/hpe-800w-flex-slot-platinum-hot-plug-low-halogen-power-supply-kit/p/p38995-b21" },
+          { "title": "HPE Flexible Slot power supplies specifications", "type": "manufacturer", "url": "https://www.hpe.com/cn/zh/product-catalog/compute/power-supplies/pip.specifications.hpe-flexible-slot-power-supplies.1013273573.html" },
+          { "title": "Staples HPE P38995-B21", "type": "retail", "url": "https://www.staples.com/hpe-flexible-slot-800w-80-plus-platinum-external-power-supply-silver-p38995-b21/product_IM19DC985" },
+          { "title": "Provider feeds ACCHPE3070 and CSP-453 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1djbz4vg0kihvfw",
+      "research": {
+        "confidence": 0.95,
+        "name": "Tenda Nova MW5G 2-Pack sistema Wi-Fi mesh AC1200 Gigabit",
+        "description": "Sistema Wi-Fi mesh Tenda Nova MW5G de 2 nodos con Wi-Fi 5 AC1200, banda 2.4GHz hasta 300Mbps y 5GHz hasta 867Mbps, dos puertos Gigabit por nodo, Beamforming, MU-MIMO y administracion por app.",
+        "manualCategoryPath": "redes/routers/mesh-wifi/wifi-5-ac1200",
+        "semanticCategoryPath": "redes/routers/mesh-wifi/wifi-5-ac1200/tenda-nova-mw5g-2-pack",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tendacn.com/us/product/support/MW5G2-Pack",
+        "gallery": [
+          "https://static.tenda.com.cn/tdeweb/UserFiles/Image/Product/20201224/202012241104017316.jpg",
+          "https://static.tenda.com.cn/tdeweb/UserFiles/Image/Product/20201224/202012241103598737.jpg",
+          "https://static.tenda.com.cn/tdeweb/UserFiles/Image/Product/20201224/202012241104018198.jpg"
+        ],
+        "documents": [
+          { "label": "Tenda MW5G 2-Pack support page", "type": "manufacturer", "url": "https://www.tendacn.com/us/product/support/MW5G2-Pack" }
+        ],
+        "specs": {
+          "brand": "TENDA",
+          "model": "MW5G 2-Pack",
+          "providerSku": "ROUTND530",
+          "ean": "6932849428520",
+          "upc": "885397272458",
+          "productType": "Whole-home mesh Wi-Fi system",
+          "wirelessStandard": "Wi-Fi 5 / IEEE 802.11ac",
+          "wirelessSpeed": "AC1200: 2.4GHz 300Mbps plus 5GHz 867Mbps",
+          "processor": "1GHz CPU",
+          "memory": "128MB RAM",
+          "ports": "2 x 10/100/1000 RJ45 per node",
+          "antennas": "2 internal antennas",
+          "security": "WPA/WPA2-PSK",
+          "features": "MU-MIMO, Beamforming, router mode, bridge mode, remote app management",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ROUTND530", "stock": 20, "price": 62.22, "currency": "USD", "branch": "D2A:10,DFA:6,SLP:2,MOR:1,CUE:1" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "91 x 91 x 93 mm per node", "weight": "Not published in official source" },
+        "sourceRefs": [
+          { "title": "Tenda MW5G 2-Pack official support page", "type": "manufacturer", "url": "https://www.tendacn.com/us/product/support/MW5G2-Pack" },
+          { "title": "TekDigital Tenda MW5G 2-Pack", "type": "retail", "url": "https://tekdigital.mx/producto/router-mesh-mw5g-2-pack-wi-fi-ac1200/" },
+          { "title": "CTI Systems Tenda MW5G 2-Pack", "type": "retail", "url": "https://ctisystems.mx/router-tenda-mw5g-2-pack-mesh-wi-fi-ac1200" },
+          { "title": "CTOnline feed ROUTND530 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "1dmbzyenrygxwlq",
+      "research": {
+        "confidence": 0.93,
+        "name": "Perfect Choice PC-030331 E-Duster aire comprimido ecologico 330 ml",
+        "description": "Removedor de polvo Perfect Choice E-Duster PC-030331 de 330 ml para teclados, componentes electronicos y superficies delicadas, libre de CFC segun ficha del fabricante y presentado en lata aerosol.",
+        "manualCategoryPath": "computo/accesorios/limpieza/aire-comprimido",
+        "semanticCategoryPath": "computo/accesorios/limpieza/aire-comprimido/perfect-choice-pc-030331-330ml",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/removedor-de-polvo-e-duster",
+        "gallery": [
+          "https://perfectchoice.me/cdn/shop/products/RemovedordepolvoPerfectChoice_800x.png?v=1639004052",
+          "https://perfectchoice.me/cdn/shop/products/RemovedordepolvoPerfectChoice_3_800x.png?v=1762969780",
+          "https://perfectchoice.me/cdn/shop/products/RemovedordepolvoPerfectChoice_2_800x.png?v=1762969780"
+        ],
+        "documents": [
+          { "label": "Perfect Choice PC-030331 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-030331.pdf?v=1613556272" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-030331",
+          "providerSku": "CN-3935",
+          "productType": "Compressed air dust remover",
+          "content": "330 ml",
+          "gas": "Tetrafluoroethane, butane, isobutane and propane blend",
+          "uses": "Keyboards, electronic equipment and delicate components",
+          "cfc": "No CFCs according to manufacturer sheet",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "total", "stock": 40 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CN-3935", "stock": 40, "price": 54.63, "currency": "MXN", "branch": "total:40" }
+          ],
+          "providerStockVerifiedAt": "2026-05-28T00:00:00Z"
+        },
+        "measurements": { "dimensions": "6.5 x 6.5 x 21.5 cm", "weight": "0.23 kg" },
+        "sourceRefs": [
+          { "title": "Perfect Choice E-Duster official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/removedor-de-polvo-e-duster" },
+          { "title": "Perfect Choice PC-030331 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-030331.pdf?v=1613556272" },
+          { "title": "Cyberpuerta Perfect Choice e-Duster", "type": "retail", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-PC-s/Limpiadores-para-Electronicos/Perfect-Choice-e-Duster-Aire-Comprimido-para-Remover-Polvo-330ml.html" },
+          { "title": "CTOnline feed CN-3935 stock", "type": "provider_stock", "observedAt": "2026-05-28T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}

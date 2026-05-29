@@ -563,6 +563,16 @@ const researchedBatchCases = [
   ["TP-Link RE205 extensor de rango AC750 dual band 300 433 Mbps", "TP LINK", "redes/extensores-wifi/dual-band/ac750"],
   ["Naceb NA-0643 Oasis monitor gaming 32 QHD 165Hz 1ms", "NACEB GAMING", "computo/monitores/gaming/32-qhd"],
   ["Hisense 55QD6QV televisor QLED VIDAA 55 4K Quantum Dot", "HISENSE", "video/televisores/qled-vidaa-tv"],
+  ["Evotec EV-3001 lector codigo de barras 1D USB", "EVOTEC", "punto-de-venta/lectores-codigo-barras/1d-usb"],
+  ["ADATA AD4S32008G22-SGN memoria SO-DIMM DDR4 8GB 3200MHz", "ADATA", "computo/componentes/memoria-ram/sodimm-ddr4/8gb-3200"],
+  ["Stylos STCBHUB42G hub USB-C 4 puertos plata", "STYLOS", "computo/accesorios/hubs-usb/usb-c/4-puertos"],
+  ["BRobotix 6000410 pluma stylus tablet Duopk plata", "BROBOTIX", "computo/tabletas/accesorios/stylus"],
+  ["Grandstream GWN7801 switch administrable L2+ Gigabit 8 puertos 2 SFP", "GRANDSTREAM", "redes/switches/administrables/gigabit"],
+  ["Intel Core i5-14400 procesador LGA1700 10 nucleos 16 hilos", "INTEL", "computo/componentes/procesadores/intel-core-i5-lga1700"],
+  ["BRobotix 263793 convertidor audio a Bluetooth para auto negro", "BROBOTIX", "audio/adaptadores-bluetooth/auto"],
+  ["HPE P38995-B21 fuente Flex Slot Platinum 800W hot-plug", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/componentes/fuentes-poder/flex-slot"],
+  ["Tenda MW5G 2-Pack router mesh Wi-Fi AC1200", "TENDA", "redes/routers/mesh-wifi/wifi-5-ac1200"],
+  ["Perfect Choice PC-030331 E-Duster aire comprimido ecologico 330 ml", "PERFECT CHOICE", "computo/accesorios/limpieza/aire-comprimido"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
