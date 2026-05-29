@@ -1,6 +1,8 @@
 export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'redes/poe/inyectores', name: 'Inyectores PoE', legacyCategory: 'networking' },
   { path: 'redes/poe/inyectores/24v', name: 'Inyectores PoE pasivos 24V', legacyCategory: 'networking' },
+  { path: 'redes/poe/inyectores/802-3af', name: 'Inyectores PoE IEEE 802.3af', legacyCategory: 'networking' },
+  { path: 'redes/poe/splitters', name: 'Splitters PoE', legacyCategory: 'networking' },
   { path: 'redes/poe/extensores', name: 'Extensores PoE', legacyCategory: 'networking' },
   { path: 'redes/poe/extensores/fast-ethernet', name: 'Extensores PoE Fast Ethernet', legacyCategory: 'networking' },
   { path: 'redes/switches', name: 'Switches', legacyCategory: 'networking' },
@@ -264,6 +266,7 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'accesorios/limpieza/pantallas/kits-lcd', name: 'Kits de limpieza LCD', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/mousepads', name: 'Mousepads y tapetes para mouse', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/mousepads/gel', name: 'Mousepads con gel', legacyCategory: 'laptops' },
+  { path: 'computo/accesorios/mousepads/ergonomicos-con-gel', name: 'Mousepads ergonomicos con gel', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/mousepads/gaming-carga-inalambrica', name: 'Mousepads gaming con carga inalambrica', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/herramientas-esd', name: 'Herramientas antiestaticas ESD', legacyCategory: 'laptops' },
   { path: 'energia/power-banks', name: 'Baterias externas y power banks', legacyCategory: 'laptops' },

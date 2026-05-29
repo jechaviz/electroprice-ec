@@ -423,6 +423,16 @@ const researchedBatchCases = [
   ["SanDisk WD Green WDS200T5G0A SSD 2TB SATA III 2.5 7mm", "SANDISK", "computo/almacenamiento/ssd/2-5-sata/2tb"],
   ["VICA S2200 UPS 2200VA 1200W LCD 10 tomas NEMA RJ11 RJ45", "VICA", "energia/no-breaks-ups/line-interactive/2200va-lcd"],
   ["GETTTECH GPM-RGBWR-G1-RD mouse gamer alambrico RGB 7200 DPI 8 botones", "GETTTECH", "computo/perifericos/mouse/alambricos/gaming/alto-dpi"],
+  ["TP-Link MC220L convertidor de medios Gigabit RJ45 a SFP", "TP LINK", "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-sfp"],
+  ["TP-Link MC111CS convertidor de medios WDM 10/100 monomodo SC", "TP LINK", "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/fast-ethernet-wdm-monomodo-sc"],
+  ["TP-Link MC200CM convertidor de medios Gigabit multimodo SC 850nm", "TP LINK", "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-multimodo-sc"],
+  ["TP-Link MC210CS convertidor de medios Gigabit monomodo SC 1310nm", "TP LINK", "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-monomodo-sc"],
+  ["TP-Link SM311LM modulo SFP miniGBIC 1000Base-SX multimodo 550m", "TP-LINK", "redes/transceptores-convertidores/modulos-sfp/sfp-1g/multimodo-1000base-sx"],
+  ["TP-Link SM311LS modulo SFP miniGBIC 1000Base-LX monomodo 10km", "TP LINK", "redes/transceptores-convertidores/modulos-sfp/sfp-1g/monomodo-1000base-lx"],
+  ["TP-Link POE10R splitter PoE Gigabit salida 5V 9V 12V 12W", "TP-LINK", "redes/poe/splitters"],
+  ["TP-Link POE150S inyector PoE Gigabit IEEE 802.3af 48V 15.4W", "TP-LINK", "redes/poe/inyectores/802-3af"],
+  ["Perfect Choice PC-041078 mousepad ergonomico con gel antiderrapante", "PERFECT CHOICE", "computo/accesorios/mousepads/ergonomicos-con-gel"],
+  ["CDP B-12/7 bateria sellada UPS 12V 7Ah", "CDP", "energia/baterias-ups/selladas-12v/7ah"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {

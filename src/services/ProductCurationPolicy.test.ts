@@ -143,7 +143,7 @@ describe("product curation policy", () => {
       name: "TP Link Sm311lm transceptor",
       brand: "TP-LINK",
       category: "laptops",
-    }).path).toBe("redes/transceptores-convertidores");
+    }).path).toBe("redes/transceptores-convertidores/modulos-sfp/sfp-1g/multimodo-1000base-sx");
 
     expect(classifyManualCategory({
       name: "Microsoft Cfq7ttc0lh18p1ya",
