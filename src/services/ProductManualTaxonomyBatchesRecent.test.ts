@@ -383,6 +383,16 @@ const researchedBatchCases = [
   ["GHIA GSOM3 lector codigo barras QR 2D omnidireccional USB", "GHIA", "punto-de-venta/lectores-codigo-barras/2d-omnidireccionales"],
   ["Brother LC402XLM cartucho tinta magenta alto rendimiento", "BROTHER", "impresion/consumibles/cartuchos-tinta/brother-lc402xl"],
   ["HP 154A W1540A kit recarga toner LaserJet Tank negro", "HP", "impresion/consumibles/toner-laser/hp/laserjet-tank-154a"],
+  ["Dahua DH-HAC-HFW1500TLN-0280B-S2 camara bullet HDCVI 5MP", "DAHUA", "seguridad/cctv/camaras-hdcvi/bullet"],
+  ["Brobotix 651879 adaptador USB-C a RJ45 Gigabit", "BROBOTIX", "redes/adaptadores-ethernet/usb-gigabit"],
+  ["Nextep NE-512 mini impresora termica portatil 58mm Bluetooth", "NEXTEP", "punto-de-venta/impresoras-recibos/portatiles-58mm"],
+  ["Aspel PCOIL1AO COI 11 usuario adicional fisico", "ASPEL", "software/licencias/aspel-coi"],
+  ["Synology DS925+ NAS 4 bahias Ryzen V1500B 2.5GbE", "SYNOLOGY", "computo/almacenamiento/nas/4-bahias"],
+  ["Tech Zone POS TZPOIMT01 miniprinter termica 58mm USB RJ11", "TECH ZONE POS", "punto-de-venta/impresoras-recibos"],
+  ["Lenovo 13FA003VLS ThinkCentre neo 55a 24 Gen 6 All in One", "LENOVO", "computo/desktops/all-in-one"],
+  ["HiLook DS-7204HGHI-M1(T) DVR 4 canales TurboHD AcuSense", "HILOOK", "seguridad/cctv/dvr-nvr/dvr-4-canales"],
+  ["Saxxon LKV312HDR-V2.0 splitter HDMI 1x2 4K", "SAXXON", "video/accesorios-av/splitters-hdmi/1x2-4k"],
+  ["Cooler Master HAF 500 H500-WGNN-S00 gabinete ATX alto flujo", "COOLER MASTER", "computo/componentes/gabinetes/gaming/atx-alto-flujo"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
