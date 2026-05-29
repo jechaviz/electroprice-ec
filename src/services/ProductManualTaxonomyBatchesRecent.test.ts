@@ -482,6 +482,16 @@ const researchedBatchCases = [
   ["BRobotix 651763 adaptador USB Bluetooth 5.0 negro", "BROBOTIX", "redes/adaptadores-bluetooth/usb"],
   ["HP 1X644AA Prelude Pro mochila laptop reciclada 15.6 pulgadas", "HP", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
   ["Balam Rush HYX24 enfriamiento liquido CPU 240mm con pantalla LCD", "BALAM RUSH", "computo/componentes/enfriamiento/liquido-cpu/240mm/pantalla-lcd"],
+  ["Dell KM5221W kit teclado y mouse inalambrico 2.4GHz negro", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos"],
+  ["Grandstream GWN7630LR access point exterior Wi-Fi 5 4x4 300m", "GRANDSTREAM", "redes/access-points/wifi-5/exterior"],
+  ["Ovaltech OVTV-F60100 soporte fijo pared TV 60 a 100 75kg", "OVALTECH", "video/soportes-tv/pared/fijos-60-100"],
+  ["Acteck AC-944526 Captive Brite CB185 monitor 18.5 HD 60Hz", "ACTECK", "computo/monitores/oficina/18-5-hd"],
+  ["Grandstream UCM6302 PBX IP 2 FXO 2 FXS 1000 extensiones", "GRANDSTREAM", "telefonia/pbx-ip/grandstream-ucm6300"],
+  ["Uniview IPC3232SA-AHDZK-PI-I1 domo IP LightHunter 2MP 2.7-13.5 WDR130", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/domo-varifocal/motorizadas"],
+  ["Meriva MOB-200S4LD camara IP bullet 2MP iluminacion dual MIA 2.0", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet/2mp/iluminacion-dual"],
+  ["Game Factor MO-602-WH mouse gamer alambrico blanco 19000 DPI", "GAME FACTOR", "computo/perifericos/mouse/alambricos/gaming/alto-dpi"],
+  ["Intellinet 169950 organizador horizontal 19 1U para rack", "INTELLINET", "infraestructura/racks-accesorios/organizadores-cable/horizontales-1u"],
+  ["TP-Link Archer TX1U Nano adaptador USB Wi-Fi 6 AX300", "TP LINK", "redes/adaptadores-wifi/usb/wifi-6-nano"],
 ] as const;
 
 describe("manual taxonomy researched batches", () => {
