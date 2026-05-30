@@ -451,6 +451,16 @@ const researchedBatchCases = [
   ["HPE ProLiant ML30 Gen11 P86723-DM5 servidor torre Xeon 6325P 32GB", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/torre/hpe-proliant-ml30"],
   ["Aspel SAE 10 PSAE1AN actualizacion sistema base 1 usuario 99 empresas", "ASPEL", "software/licencias/aspel-sae/actualizacion-base"],
   ["Amazon Echo Pop B09ZXJDSL5-L bocina inteligente Alexa Lavender Bloom", "AMAZON", "audio/bocinas/inteligentes/alexa"],
+  ["CDP R-SMART2010 UPS line-interactive 2000VA 1200W 10 contactos", "CDP", "energia/no-breaks-ups/line-interactive/2000va"],
+  ["Naceb Zion NA-0612 gabinete gamer ATX negro RGB 3 ventiladores", "NACEB GAMING", "computo/componentes/gabinetes/gaming/atx-mid-tower"],
+  ["Intellinet 343305 patch cord Cat6 UTP azul 5 m", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/5m"],
+  ["Acteck Inspire Krea TI750 AC-940092 teclado inalambrico multidispositivo", "ACTECK", "computo/perifericos/teclados/inalambricos/multidispositivo/rf-bluetooth"],
+  ["Acteck Energon S-Mate CI7407 cargador inalambrico 3 en 1 15W", "ACTECK", "energia/cargadores-inalambricos/3-en-1"],
+  ["Brother TN810XLBK toner negro original alto rendimiento 12000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-810xlbk"],
+  ["Meriva Streamax M4PIN 7M cable Tipo-B para camara MCA20D ADAS", "MERIVA TECHNOLOGY", "seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m4pin"],
+  ["Brobotix 651961 kit de herramientas para laptops y celulares 24 piezas", "BROBOTIX", "computo/accesorios/herramientas-reparacion/kits-laptop-celular"],
+  ["Acteck Fusion II GI440 AC-935753 gabinete Micro ATX con fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-fuente-500w"],
+  ["WAM CAT5E-GRIS bobina cable UTP Cat5e CCA 305 m gris", "WAM", "redes/cableado-estructurado/bobinas-utp/cat5e/cca-305m"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

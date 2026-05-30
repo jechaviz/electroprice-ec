@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'energia/no-breaks-ups/line-interactive/2000va', name: 'UPS line-interactive 2000VA', legacyCategory: 'power' },
+  { path: 'redes/cableado-estructurado/patch-cords/cat6/5m', name: 'Patch cords Cat6 de 5 m', legacyCategory: 'networking' },
+  { path: 'energia/cargadores-inalambricos/3-en-1', name: 'Cargadores inalambricos 3 en 1', legacyCategory: 'accessories' },
+  { path: 'impresion/consumibles/toner-laser/brother/tn-810xlbk', name: 'Toner Brother TN-810XLBK negro', legacyCategory: 'printers_scanners' },
+  { path: 'seguridad/cctv/accesorios-cableado/cables-camaras-moviles', name: 'Cables para camaras moviles CCTV', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m4pin', name: 'Cables Streamax M4PIN para camaras moviles', legacyCategory: 'cameras' },
+  { path: 'computo/accesorios/herramientas-reparacion', name: 'Herramientas de reparacion para computo', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/herramientas-reparacion/kits-laptop-celular', name: 'Kits de herramientas para laptop y celular', legacyCategory: 'accessories' },
+  { path: 'redes/cableado-estructurado/bobinas-utp/cat5e/cca-305m', name: 'Bobinas UTP Cat5e CCA de 305 m', legacyCategory: 'networking' },
   { path: 'computo/componentes/gabinetes/atx-mid-tower/fuente-500w', name: 'Gabinetes ATX mid tower con fuente 500W', legacyCategory: 'components' },
   { path: 'computo/perifericos/teclados/gaming/membrana-rainbow', name: 'Teclados gamer de membrana con iluminacion rainbow', legacyCategory: 'gaming' },
   { path: 'audio/bocinas/portatiles-karaoke/doble-8-pulgadas', name: 'Bafles karaoke portatiles doble 8 pulgadas', legacyCategory: 'headphones' },
