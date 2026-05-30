@@ -2,6 +2,16 @@ import { describe, expect, it } from "vitest";
 import { classifyManualCategory } from "../../pb/lib/manualTaxonomy.mjs";
 
 const researchedBatchCases = [
+  ["Grandstream PSU-GRP26x/2612-S fuente 5V 600mA para telefonos IP GRP260x", "GRANDSTREAM", "telefonia/telefonos-ip/accesorios/fuentes-poder"],
+  ["Brobotix 651848 funda para laptop 15.6 pulgadas poliester negra", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas"],
+  ["Evolis R2011 cinta negra monocromatica para impresoras de tarjetas 1000 impresiones", "EVOLIS", "impresion/consumibles/cintas-tarjetas/evolis/monocromas-negras"],
+  ["Balam Rush Glimm Tower BG575 bocinas gamer 2.0 RGB Bluetooth negras", "BALAM RUSH", "computo/perifericos/bocinas-audio/gaming/2-0-rgb"],
+  ["Balam Rush Splendor Glow IT3000 torres LED RGB para setup gamer 2 piezas", "BALAM RUSH", "gaming/accesorios/iluminacion/torres-rgb"],
+  ["Lenovo ThinkPad P16 Gen 2 workstation 16 pulgadas i7-13850HX RTX 2000 Ada 32GB 1TB Windows 11 Pro", "LENOVO", "computo/laptops/workstations/16-pulgadas/lenovo-thinkpad-p16"],
+  ["Getttech GCU-UCQC-01 cable USB-C a USB-C 2 m negro", "GETTTECH", "accesorios/cables-adaptadores/usb/usb-c-c/2m"],
+  ["Xerox 006R04845 toner negro original AltaLink B8245 B8255 52000 paginas", "XEROX", "impresion/consumibles/toner-laser/xerox/006r04845"],
+  ["Brobotix 144755-7 mousepad antiderrapante naranja 18.5 x 22.5 cm", "BROBOTIX", "computo/accesorios/mousepads/basicos-antiderrapantes"],
+  ["Perfect Choice Lenso PC-320531 webcam 2K 5MP con bocina dual y microfono", "PERFECT CHOICE", "computo/perifericos/webcams/usb-2k/bocina-dual"],
   ["Grandstream GRP2602 telefono IP 2 lineas 4 cuentas SIP sin PoE", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/2-lineas"],
   ["WD Elements SE WDBAYN0010BBK-WESN SSD externo portatil 1TB USB 3.0 negro", "SANDISK", "computo/almacenamiento/ssd/externos/usb-3/1tb"],
   ["Manhattan 461405 soporte articulado de pared para TV 13 a 43 pulgadas 20 kg", "MANHATTAN", "video/soportes-tv/pared/articulados-13-43-20kg"],
