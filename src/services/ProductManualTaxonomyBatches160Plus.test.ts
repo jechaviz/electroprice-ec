@@ -162,6 +162,16 @@ const batch160PlusCases = [
   ["Tripp Lite N001-005-WH cable patch Cat5e UTP RJ45 5ft blanco", "TRIPP-LITE", "redes/cableado-estructurado/patch-cords/cat5e/1-5m-blanco", "networking"],
   ["Dell Premier KM7321W combo teclado y mouse inalambrico multi-dispositivo", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad", "accessories"],
   ["Redragon Hylas Lunar White H260-W headset gaming alambrico RGB 50mm", "REDRAGON", "gaming/audio/headsets/alambricos/rgb", "gaming"],
+  ["Kensington K58352WW MagPro filtro de privacidad magnetico laptop 14 16:9", "KENSINGTON", "computo/accesorios/filtros-privacidad/laptops/14-16-9", "accessories"],
+  ["Netis ST3126GS switch Gigabit no administrable 26 puertos 24 RJ45 2 SFP", "NETIS", "redes/switches/no-administrables/gigabit/26-puertos-sfp", "networking"],
+  ["Stylos STMUS564B ST500 memoria USB 64GB USB-A 2.0 plata", "STYLOS", "computo/almacenamiento/memorias-flash/usb/64gb/usb-2-metalicas", "storage"],
+  ["Necnon NBHK-PUG audifonos infantiles alambricos 3.5mm volumen seguro 95dB", "NECNON", "audio/audifonos/alambricos-3-5mm/infantiles", "headphones"],
+  ["HPE Q2079A cinta LTO-9 Ultrium 45TB RW", "HEWLETT PACKARD ENTERPRISE", "computo/almacenamiento/cintas-lto/lto-9", "storage"],
+  ["Perfect Choice PC-084761 mochila laptop Essential 17 pulgadas morada", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/mochilas-laptop/17-pulgadas", "accessories"],
+  ["Kingston KCP432SS8/8 memoria RAM SO-DIMM DDR4 8GB 3200MT/s CL22", "KINGSTON", "computo/componentes/memoria-ram/sodimm-ddr4/8gb-3200", "components"],
+  ["Naceb Gaming NA-0972G teclado mecanico Red Phyton RGB switch Brown", "NACEB GAMING", "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb", "gaming"],
+  ["Dahua DH-HAC-HFW1801TN-A-0280B camara HDCVI bullet 8MP IR con microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/8mp-ir-mic", "cameras"],
+  ["Forza HT-650LCD UPS line-interactive 650VA 390W con LCD", "FORZA", "energia/no-breaks-ups/line-interactive/650va/lcd", "power"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

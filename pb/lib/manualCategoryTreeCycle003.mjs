@@ -109,4 +109,13 @@ export const MANUAL_CATEGORY_TREE_CYCLE003 = [
   { path: 'gaming/audio/headsets', name: 'Headsets gaming', legacyCategory: 'gaming' },
   { path: 'gaming/audio/headsets/alambricos', name: 'Headsets gaming alambricos', legacyCategory: 'gaming' },
   { path: 'gaming/audio/headsets/alambricos/rgb', name: 'Headsets gaming alambricos RGB', legacyCategory: 'gaming' },
+  { path: 'computo/accesorios/filtros-privacidad/laptops/14-16-9', name: 'Filtros de privacidad laptop 14 pulgadas 16:9', legacyCategory: 'accessories' },
+  { path: 'redes/switches/no-administrables/gigabit/26-puertos-sfp', name: 'Switches Gigabit no administrables 26 puertos con SFP', legacyCategory: 'networking' },
+  { path: 'computo/almacenamiento/memorias-flash/usb/64gb/usb-2-metalicas', name: 'Memorias USB 2.0 metalicas de 64GB', legacyCategory: 'storage' },
+  { path: 'audio/audifonos/alambricos-3-5mm/infantiles', name: 'Audifonos infantiles alambricos 3.5 mm', legacyCategory: 'headphones' },
+  { path: 'computo/almacenamiento/cintas-lto', name: 'Cintas LTO para respaldo', legacyCategory: 'storage' },
+  { path: 'computo/almacenamiento/cintas-lto/lto-9', name: 'Cintas LTO-9 para respaldo', legacyCategory: 'storage' },
+  { path: 'seguridad/cctv/camaras-hdcvi/bullet/8mp-ir-mic', name: 'Camaras HDCVI bullet 8MP IR con microfono', legacyCategory: 'cameras' },
+  { path: 'energia/no-breaks-ups/line-interactive/650va', name: 'UPS line-interactive 650VA', legacyCategory: 'power' },
+  { path: 'energia/no-breaks-ups/line-interactive/650va/lcd', name: 'UPS line-interactive 650VA con LCD', legacyCategory: 'power' },
 ];
