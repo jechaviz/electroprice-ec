@@ -182,6 +182,16 @@ const researchedBatchCases = [
   ["Nextep 8-040-1 folder Printeck carta crema paquete 100", "NEXTEP", "oficina/papel-consumibles/folders/carta/crema-100"],
   ["TP-Link Tapo C520WS camara Wi-Fi PT exterior 4MP 2K QHD", "TP LINK", "seguridad/cctv/camaras-ip-wifi/pt-exterior/4mp-2k"],
   ["Dell Pro 14 PC14250 laptop Core Ultra 7 255U 16GB 512GB", "DELL", "computo/laptops/empresariales/14-pulgadas/dell-pro"],
+  ["Gigabyte Radeon RX 7600 Gaming OC 8G GV-R76GAMING OC-8GD", "GIGABYTE", "computo/componentes/tarjetas-video/amd-radeon/rx-7000/rx-7600"],
+  ["HP 9F3N4AL combo botellas tinta GT52 GT53 4 colores", "HP", "impresion/consumibles/botellas-tinta/hp-gt52-gt53/kit-4-colores"],
+  ["PCM RDC110450EN26AA63 ribbon cera estandar 110mm x 450m azul", "PCM", "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/estandar/110mm-450m"],
+  ["ASUS TUF Gaming VG27VQMY monitor 27 FHD 240Hz VA", "ASUS", "computo/monitores/gaming/27-fhd/240hz"],
+  ["Brother TN-B022 toner negro 2600 paginas TNB022", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-b022"],
+  ["Smartbitt SBAVR2200 regulador AVR 2200VA 1100W 8 contactos", "SMARTBITT", "energia/supresores-reguladores/reguladores-voltaje/avr/2200va"],
+  ["Poly Plantronics 85Q48AA adaptador USB-C a USB-A negro", "PLANTRONICS", "accesorios/cables-adaptadores/usb/otg-usb-c"],
+  ["Brother DCP-L2540DW multifuncional laser monocromatico WiFi duplex", "BROTHER", "impresion/impresoras/multifuncionales-laser/brother-dcp"],
+  ["Logitech C920 webcam Full HD 1080p USB", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
+  ["Perfect Choice PC-240747 cargador universal laptop puntas intercambiables USB", "PERFECT CHOICE", "computo/accesorios/cargadores-laptop/universales-puntas-usb"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

@@ -1,0 +1,448 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b120-2026-05-30",
+  "cycle": 3,
+  "batch": 120,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "x6ly9zgyec124rs",
+      "research": {
+        "confidence": 0.96,
+        "name": "Gigabyte Radeon RX 7600 Gaming OC 8G tarjeta de video 8GB GDDR6",
+        "description": "Tarjeta de video Gigabyte Radeon RX 7600 Gaming OC 8G con 8GB GDDR6, bus PCIe 4.0, memoria 128-bit, sistema WINDFORCE de triple ventilador y salidas 2 DisplayPort 1.4a + 2 HDMI 2.1a.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/amd-radeon/rx-7000/rx-7600",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/amd-radeon/rx-7000/rx-7600/gigabyte-gv-r76gaming-oc-8gd",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/sp",
+        "gallery": ["https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/gallery", "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/cb0a4197-d143-4f93-b128-9c5c5fe0d066.jpg"],
+        "documents": [
+          { "label": "Gigabyte GV-R76GAMING OC-8GD specs", "type": "manufacturer", "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/sp" },
+          { "label": "Gigabyte GV-R76GAMING OC-8GD support", "type": "support", "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/support" }
+        ],
+        "specs": {
+          "brand": "GIGABYTE",
+          "model": "GV-R76GAMING OC-8GD",
+          "providerSku": "TVIGIG3080",
+          "ean": "4719331313425",
+          "upc": "889523038055",
+          "revision": "1.0/1.1",
+          "productType": "Tarjeta de video AMD Radeon",
+          "gpu": "AMD Radeon RX 7600",
+          "streamProcessors": 2048,
+          "boostClock": "Up to 2755 MHz",
+          "gameClock": "Up to 2355 MHz",
+          "memory": "8 GB GDDR6, 128-bit, 18 Gbps",
+          "bus": "PCI Express 4.0",
+          "outputs": "2 DisplayPort 1.4a, 2 HDMI 2.1a",
+          "maxResolution": "7680 x 4320",
+          "power": "1 x 8-pin, 550 W PSU recommended",
+          "features": "WINDFORCE triple fan, RGB Fusion, dual BIOS, metal back plate",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 446 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 187 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TVIGIG3080", "stock": 735, "price": 272.35, "currency": "USD", "branch": "D2A:446,DFA:187,CMT:47,DFC:27,TAM:9,ZAC:6,QRO:4,SLT:3,LEO:2,OAX:2,LMO:1,SLP:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current path computo/componentes/procesadores is wrong; this is a graphics card/GPU.", "Some retailer aggregators report wrong outputs or memory speed; official Gigabyte specs say 2 DisplayPort 1.4a + 2 HDMI 2.1a and 18 Gbps memory.", "Gigabyte does not expose GTIN on the official page; UPC/EAN were cross-checked with retailers."]
+        },
+        "measurements": { "dimensions": "282 x 115 x 50 mm", "weight": "not published by manufacturer; retailer references range around 1.85-2.2 lb" },
+        "sourceRefs": [
+          { "title": "Gigabyte Radeon RX 7600 Gaming OC 8G specs", "type": "manufacturer", "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/sp" },
+          { "title": "Gigabyte Radeon RX 7600 Gaming OC 8G support", "type": "support", "url": "https://www.gigabyte.com/Graphics-Card/GV-R76GAMING-OC-8GD-rev-10-11/support" },
+          { "title": "BestBuy GV-R76GAMING OC-8GD UPC reference", "type": "retailer", "url": "https://www.bestbuy.com/product/gigabyte-radeon-rx-7600-gaming-oc-8gb-gddr6-pci-express-4-0-graphics-card-black/6545813" }
+        ]
+      }
+    },
+    {
+      "product_id": "ob8rgvfb4nc2zca",
+      "research": {
+        "confidence": 0.94,
+        "name": "HP 9F3N4AL combo botellas de tinta GT53/GT52 negro cian magenta amarillo",
+        "description": "Paquete original HP GT53/GT52 9F3N4AL con 4 botellas de tinta para impresoras HP Ink Tank y Smart Tank: negro GT53, cian GT52, magenta GT52 y amarillo GT52.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/hp-gt52-gt53/kit-4-colores",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/hp-gt52-gt53/kit-4-colores/hp-9f3n4al",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ec-es/products/ink-toner/product-details/2102345641",
+        "gallery": ["https://hp.widen.net/content/6tv9rjrjcj/png/6tv9rjrjcj.png?w=800&h=600&dpi=72&color=ffffff00"],
+        "documents": [
+          { "label": "HP 9F3N4AL product page", "type": "manufacturer", "url": "https://www.hp.com/ec-es/products/ink-toner/product-details/2102345641" },
+          { "label": "HP 9F3N4AL store specs", "type": "manufacturer", "url": "https://www.hp.com/pe-es/shop/combo-de-botella-de-tinta-hp-gt53-gt52-pack-de-4-9f3n4al.html" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "GT53/GT52",
+          "manufacturerPartNumber": "9F3N4AL",
+          "providerSku": "CARHPP4390",
+          "upc": "197961509342",
+          "ean": "0197961509342",
+          "productType": "Kit de botellas de tinta original",
+          "contents": "4 bottles: black, cyan, magenta, yellow",
+          "yield": "Approx. 4000 black pages, 8000 color pages",
+          "technology": "HP Thermal Inkjet ink",
+          "inkType": "Dye-based",
+          "compatibility": "HP DeskJet GT5800, HP Ink Tank 100/300/400, HP Smart Tank 200/300/400/500/600/700",
+          "origin": "Malaysia",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 465 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 61 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 55 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARHPP4390", "stock": 732, "price": 535.39, "currency": "MXN", "branch": "GDL:465,D2A:61,DFA:55,CMT:20,TOL:18,HMO:12,PUE:8,OAX:8,CUN:7,OBR:4,AGS:4,QRO:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming tinta-toner path is broad; this is a bottle-ink kit, not toner.", "HP and retailer dimensions/weight include ambiguous values; stored normalized retailer package size.", "Visible branch stock sums to 666 vs total stock 732, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "202 x 51.3 x 198.9 mm package by retailer normalization", "weight": "about 480 g / 1.05 lb package" },
+        "sourceRefs": [
+          { "title": "HP 9F3N4AL product details", "type": "manufacturer", "url": "https://www.hp.com/ec-es/products/ink-toner/product-details/2102345641" },
+          { "title": "HP 9F3N4AL store specs", "type": "manufacturer", "url": "https://www.hp.com/pe-es/shop/combo-de-botella-de-tinta-hp-gt53-gt52-pack-de-4-9f3n4al.html" },
+          { "title": "Ingram 9F3N4AL fiche", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/pe/assets/media/brochure/6264398_6264398.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "zn9dyjwhtm6uyjh",
+      "research": {
+        "confidence": 0.9,
+        "name": "PCM RDC110450EN26AA63 ribbon cera estandar 110mm x 450m azul",
+        "description": "Ribbon PCM de cera estandar color azul para transferencia termica, medida 110 mm x 450 m, nucleo 25.4 mm, recomendado para etiquetas de papel recubierto o sin recubrimiento.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/estandar/110mm-450m",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/transferencia-termica/ribbon-cera/estandar/110mm-450m/pcm-rdc110450en26aa63",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/etiquetas-y-ribbons/ribbon-para-impresora/ribbon-de-cera",
+        "gallery": ["https://www.pcm.com.mx/hs-fs/hubfs/ribbon-cera-galeria-3.jpg?name=ribbon-cera-galeria-3.jpg&width=98", "https://pcredcom.com/var/images/product/800.800//import/2/1/4/7/0/6/214706_1.jpg"],
+        "documents": [
+          { "label": "PCM ribbon cera family page", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons/ribbon-para-impresora/ribbon-de-cera" },
+          { "label": "PCM ribbon guide", "type": "guide", "url": "https://www.pcm.com.mx/hubfs/%C2%BFConoces%20cua%CC%81l%20es%20el%20ribbon%20ideal_.pdf" }
+        ],
+        "specs": {
+          "brand": "PCM",
+          "model": "RDC110450EN26AA63",
+          "providerSku": "ACCPCM1840",
+          "productType": "Ribbon de transferencia termica",
+          "formulation": "Cera estandar",
+          "color": "Azul",
+          "width": "110 mm",
+          "length": "450 m",
+          "core": "25.4 mm",
+          "rollsPerPack": 1,
+          "recommendedUse": "Logistica, paqueteria, produccion, almacen y etiquetas de corta duracion",
+          "materials": "Papel/material recubierto y sin recubrimiento",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 240 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 207 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 158 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 91 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPCM1840", "stock": 730, "price": 6.5, "currency": "USD", "branch": "GDL:240,DFA:207,CMT:158,D2A:91,MTY:29,HMO:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["PCM publishes official family data rather than an exact official sheet for this SKU; exact color/size were corroborated with distributors.", "Incoming tinta-toner path is broad; this is a thermal-transfer ribbon."]
+        },
+        "measurements": { "dimensions": "110 mm x 450 m, 25.4 mm core", "weight": "0.1 kg by distributor reference" },
+        "sourceRefs": [
+          { "title": "PCM ribbon cera official family page", "type": "manufacturer", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons/ribbon-para-impresora/ribbon-de-cera" },
+          { "title": "Abasteo PCM RDC110450EN26AA63", "type": "retailer", "url": "https://www.abasteo.mx/Impresion-y-Consumibles/Consumibles-para-Impresoras/Cintas/Cintas-de-Transferencia-Termica/PCM-Cinta-de-Cera-RDC110450EN26AA63-25-4-mm-de-Diametro-Interno-110-mm-x-450-Metros-1-Rollo.html" },
+          { "title": "Pcredcom PCM RDC110450EN26AA63", "type": "retailer", "url": "https://pcredcom.com/consumibles/cintas-para-impresora/ribbon-pcm-cera-estandar-pcm-110mm-x-450mts-sl-accpcm1840.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "pog4y7v1210yaz4",
+      "research": {
+        "confidence": 0.96,
+        "name": "ASUS TUF Gaming VG27VQMY monitor curvo 27 pulgadas FHD VA 240Hz",
+        "description": "Monitor gaming curvo ASUS TUF Gaming VG27VQMY de 27 pulgadas FHD 1920x1080, panel VA 1500R, 240Hz, 1ms MPRT, HDR10, FreeSync Premium, bocinas y base ajustable.",
+        "manualCategoryPath": "computo/monitores/gaming/27-fhd/240hz",
+        "semanticCategoryPath": "computo/monitores/gaming/27-fhd/240hz/asus-tuf-gaming-vg27vqmy",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.asus.com/mx/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27vqmy/techspec/",
+        "gallery": ["https://dlcdnwebimgs.asus.com/gain/01e2361b-b45f-4a31-855c-a81c6e93668f/w692", "https://dlcdnwebimgs.asus.com/gain/3257f58a-3988-4ec9-80fd-71701ce6ea59//w184"],
+        "documents": [
+          { "label": "ASUS VG27VQMY tech specs", "type": "manufacturer", "url": "https://www.asus.com/mx/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27vqmy/techspec/" },
+          { "label": "ASUS VG27VQMY manuals", "type": "support", "url": "https://www.asus.com/us/supportonly/vg27vqmy/helpdesk_manual/" }
+        ],
+        "specs": {
+          "brand": "ASUS",
+          "model": "VG27VQMY",
+          "providerSku": "MONASS1840",
+          "ean": "4711387156858",
+          "upc": "197105156852",
+          "productType": "Monitor gaming curvo",
+          "display": "27 in VA, 1500R, 1920 x 1080 FHD, 16:9",
+          "refreshRate": "240 Hz",
+          "response": "1 ms MPRT",
+          "brightness": "350 cd/m2",
+          "contrast": "3000:1",
+          "hdr": "HDR10",
+          "gamut": "105% sRGB",
+          "sync": "Adaptive-Sync / AMD FreeSync Premium",
+          "ports": "1 DisplayPort 1.2, 2 HDMI 2.0, 2 USB 3.2 Gen 1 Type-A, USB upstream, headphone jack",
+          "audio": "2 W x 2",
+          "mount": "VESA 100 x 100",
+          "stand": "Tilt +25/-5, swivel +/-90, height 0-120 mm",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 683 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONASS1840", "stock": 726, "price": 165.59, "currency": "USD", "branch": "D2A:683,DFA:20,ACA:9,OBR:4,MTY:3,TXA:2,MAZ:2,LEO:1,IRA:1,URP:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some snippets confuse the panel as IPS or G-SYNC; ASUS specifies VA with Adaptive-Sync/FreeSync Premium.", "ASUS does not show UPC/EAN in official specs; identifiers were corroborated with distributors."]
+        },
+        "measurements": { "dimensions": "60.90 x 38.69 x 21.12 cm with stand; 60.90 x 35.99 x 4.40 cm without stand", "weight": "6 kg net, 3.77 kg without stand, 8.2 kg gross" },
+        "sourceRefs": [
+          { "title": "ASUS TUF Gaming VG27VQMY official", "type": "manufacturer", "url": "https://www.asus.com/mx/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27vqmy/" },
+          { "title": "ASUS TUF Gaming VG27VQMY tech specs", "type": "manufacturer", "url": "https://www.asus.com/mx/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg27vqmy/techspec/" },
+          { "title": "CompuPuebla VG27VQMY", "type": "retailer", "url": "https://compupuebla.com/producto/monitores-gaming-asus-vg27vqmy/" }
+        ]
+      }
+    },
+    {
+      "product_id": "ny0dczgsqrso2l6",
+      "research": {
+        "confidence": 0.94,
+        "name": "Brother TN-B022 toner original negro rendimiento aproximado 2600 paginas",
+        "description": "Cartucho de toner original Brother TN-B022/TNB022 negro con rendimiento aproximado de 2600 paginas, compatible con equipos Brother DCP-B7535DW y DCP-B7640DW.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-b022",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-b022/brother-tnb022",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=tn&lang=es&pfs=1&prod=dcpb7535dw_us",
+        "gallery": ["https://support.brother.com/g/b/img/consumables/idc/tn/tnb022.jpg"],
+        "documents": [
+          { "label": "Brother DCP-B7535DW consumables", "type": "support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=tn&lang=es&pfs=1&prod=dcpb7535dw_us" },
+          { "label": "Brother DCP-B7640DW consumables", "type": "support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=tn&lang=es&prod=dcpb7640dw_us_as" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN-B022",
+          "modelAlt": "TNB022",
+          "providerSku": "CARBRT3840",
+          "upc": "012502656463",
+          "productType": "Cartucho de toner original",
+          "color": "Negro",
+          "yield": "Approx. 2600 pages",
+          "compatibility": "DCP-B7535DW, DCP-B7640DW",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 222 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 129 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 99 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 89 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT3840", "stock": 725, "price": 417.78, "currency": "MXN", "branch": "GDL:222,PUE:129,D2A:99,DFA:89,CMT:50,OAX:18,CUN:13,IRA:10,VHA:9,DFP:7,DGO:6,DFT:6" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Brother uses TN-B022 with hyphen in some support pages and TNB022 without hyphen in distribution; this appears to be the same regional consumable.", "Visible branch stock sums to 658 vs total stock 725, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "not published by Brother in checked support pages", "weight": "not published by Brother in checked support pages" },
+        "sourceRefs": [
+          { "title": "Brother DCP-B7535DW consumables", "type": "support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=tn&lang=es&pfs=1&prod=dcpb7535dw_us" },
+          { "title": "Brother DCP-B7640DW consumables", "type": "support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=tn&lang=es&prod=dcpb7640dw_us_as" },
+          { "title": "GlobalOffice TNB022", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/consumibles/toner-brother-original-tnb022-negro-tnb0/tnb022" }
+        ]
+      }
+    },
+    {
+      "product_id": "xooqtrgtjz1sjvy",
+      "research": {
+        "confidence": 0.94,
+        "name": "Smartbitt SBAVR2200 regulador AVR 2200VA 1100W 8 contactos",
+        "description": "Regulador electronico Smartbitt SBAVR2200 de 2200VA/1100W con 8 contactos NEMA 5-15R, AVR, proteccion contra sobrecarga, supresion y linea telefonica RJ-11.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/2200va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/2200va/smartbitt-sbavr2200",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBAVR1350_2200.pdf",
+        "gallery": ["https://www.unicom.mx/ecommerce/uploads/REGSMBSBAVR2200.jpg"],
+        "documents": [
+          { "label": "Smartbitt SBAVR1350/SBAVR2200 ficha tecnica", "type": "datasheet", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBAVR1350_2200.pdf" },
+          { "label": "Smartbitt SBAVR1350/SBAVR2200 manual", "type": "manual", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/Manual_SBAVRs_2200_1350.pdf" }
+        ],
+        "specs": {
+          "brand": "SMARTBITT",
+          "model": "SBAVR2200",
+          "line": "R-BITT 2200",
+          "providerSku": "REGBIT030",
+          "cvaSku": "RE-130",
+          "ean": "7503015709119",
+          "productType": "Regulador electronico AVR",
+          "capacity": "2200 VA / 1100 W",
+          "input": "120 V AC nominal, 90-145 V AC, 50/60 Hz, NEMA 5-15P",
+          "output": "120 V AC +/-10%, 8 NEMA 5-15R outlets",
+          "protection": "Overload, 20 J surge suppression, RJ-11 telephone line",
+          "indicators": "Power and regulation",
+          "warranty": "5 years",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "REGBIT030", "stock": 707, "price": 313.41, "currency": "MXN" }, { "providerId": "cva", "providerSku": "RE-130", "stock": 12, "price": 307.6, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current energia/no-breaks-ups path is wrong: SBAVR2200 is an AVR regulator without battery, not a UPS/no-break.", "Some stores write 2200V; the correct capacity is 2200 VA.", "Minor differences in input range/dimensions exist across manual and stores; stored values follow Smartbitt technical sheet."]
+        },
+        "measurements": { "dimensions": "248 x 88 x 90 mm", "weight": "1.9 kg" },
+        "sourceRefs": [
+          { "title": "Smartbitt SBAVR1350/SBAVR2200 datasheet", "type": "datasheet", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBAVR1350_2200.pdf" },
+          { "title": "Smartbitt SBAVR1350/SBAVR2200 manual", "type": "manual", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/Manual_SBAVRs_2200_1350.pdf" },
+          { "title": "GlobalOffice SBAVR2200", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/regulador-de-voltaje-smartbitt-2200va1100w-8-con/sbavr2200" }
+        ]
+      }
+    },
+    {
+      "product_id": "zj55bqce16jduba",
+      "research": {
+        "confidence": 0.9,
+        "name": "HP Poly 85Q48AA adaptador USB-A a USB-C negro",
+        "description": "Adaptador HP Poly 85Q48AA USB-A hembra a USB-C macho para conectar diademas y dispositivos Poly/Plantronics Blackwire, Savi, Calisto y Voyager UC a equipos USB-C.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/otg-usb-c",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/otg-usb-c/hp-poly-85q48aa",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/emea_africa-en/products/accessories/product-details/2101764940",
+        "gallery": ["https://hp.widen.net/content/z3jrjvkds6/png/z3jrjvkds6.png?w=800&h=600&dpi=72&color=ffffff00"],
+        "documents": [{ "label": "HP Poly 85Q48AA product page", "type": "manufacturer", "url": "https://www.hp.com/emea_africa-en/products/accessories/product-details/2101764940" }],
+        "specs": {
+          "brand": "HP POLY",
+          "legacyBrand": "PLANTRONICS",
+          "model": "85Q48AA",
+          "legacySku": "209505-01",
+          "providerSku": "ACCPTS2510",
+          "upc": "197497572247",
+          "ean": "0197497572247",
+          "productType": "Adaptador USB para diademas",
+          "connectors": "USB-A female to USB-C male",
+          "color": "Black",
+          "compatibility": "PC/Mac; Poly/Plantronics Blackwire, Savi, Calisto and Voyager UC",
+          "quantity": "1 adapter",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 390 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 322 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPTS2510", "stock": 715, "price": 81.16, "currency": "MXN", "branch": "D2A:390,DFA:322,ZAC:2,IRA:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider title is incomplete; product is the HP Poly USB-A to USB-C adapter, not a generic USB-C cable.", "The route accesorios/cables-adaptadores is valid but the USB adapter child path is more precise."]
+        },
+        "measurements": { "dimensions": "unit dimensions not published by HP; package 190 x 210 x 55 mm by retailer", "weight": "300 g package by retailer" },
+        "sourceRefs": [
+          { "title": "HP Poly 85Q48AA product details", "type": "manufacturer", "url": "https://www.hp.com/emea_africa-en/products/accessories/product-details/2101764940" },
+          { "title": "PCNation HP 209505-01 connector reference", "type": "retailer", "url": "https://www.pcnation.com/hp-inc-209505-01-270t25" },
+          { "title": "HeadsetPlus Poly cross-reference", "type": "retailer", "url": "https://headsetplus.com/product2057/product_info.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "jwk3k4h949al86q",
+      "research": {
+        "confidence": 0.95,
+        "name": "Brother DCP-L2540DW multifuncional laser monocromatica Wi-Fi duplex",
+        "description": "Multifuncional laser monocromatica Brother DCP-L2540DW con impresion, copia y escaneo, hasta 30 ppm, duplex automatico de impresion, ADF de 35 hojas, Wi-Fi, Ethernet y USB.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/brother-dcp",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/brother-dcp/brother-dcp-l2540dw",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/dcpl2540dw",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2021/01/20/15/14/dcpl2540dw_front-20210120.png", "https://support.brother.com/g/s/id/spec/cv_dcpl2500d/en-us/img/GUID-5DB99750-72A8-4B5E-824C-5099DEFC390C-low.gif"],
+        "documents": [
+          { "label": "Brother DCP-L2540DW product page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/dcpl2540dw" },
+          { "label": "Brother DCP-L2540DW support", "type": "support", "url": "https://support.brother.com/g/b/producttop.aspx?c=mx&lang=es&prod=dcpl2540dw_us_as" },
+          { "label": "Brother DCP-L2540DW brochure", "type": "brochure", "url": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2021/07/27/17/27/mex_brochure_dcpl2540dw.pdf" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "DCP-L2540DW",
+          "modelAlt": "DCPL2540DW",
+          "providerSku": "IMPMTB560",
+          "ctSubstituteSku": "17239",
+          "upc": "012502638858",
+          "productType": "Multifuncional laser monocromatica",
+          "functions": "Print, copy, scan; no fax",
+          "speed": "Up to 30 ppm/cpm",
+          "duplex": "Automatic duplex printing; duplex copy/scan not supported",
+          "connectivity": "Wi-Fi 802.11b/g/n, Ethernet 10/100, USB 2.0",
+          "adf": "35 sheets",
+          "paper": "250-sheet tray, 1-sheet manual feed, 100-sheet output",
+          "resolution": "2400 x 600 dpi print; scanner 600 x 2400 dpi flatbed / 600 x 600 dpi ADF; interpolated 19200 x 19200 dpi",
+          "memory": "32 MB",
+          "dutyCycle": "10000 pages/month max; 250-2000 recommended",
+          "consumables": "TN630, TN660, DR630",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 211 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 181 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 116 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 115 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPMTB560", "stock": 712, "price": 3147.06, "currency": "MXN", "branch": "D2A:211,DFA:181,GDL:116,CMT:115,HMO:11,OBR:7,CLN:5,AGS:5,VER:5,SLP:4,OAX:4,PAC:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current redes/access-points path is wrong; this is a laser multifunction printer.", "Provider name 'Impresora' is incomplete because this is a 3-in-1 multifunction with ADF.", "Brother USA marks it discontinued while Brother Mexico and provider feed still show product/stock."]
+        },
+        "measurements": { "dimensions": "409 x 398.5 x 316.5 mm / 16.1 x 15.7 x 12.5 in", "weight": "11.1 kg / 24.5 lb" },
+        "sourceRefs": [
+          { "title": "Brother Mexico DCP-L2540DW", "type": "manufacturer", "url": "https://www.brother.com.mx/products/dcpl2540dw" },
+          { "title": "Brother DCP-L2540DW specifications", "type": "support", "url": "https://support.brother.com/g/b/spec.aspx?c=us&lang=en&prod=dcpl2540dw_us_as" },
+          { "title": "BestBuy DCP-L2540DW UPC reference", "type": "retailer", "url": "https://www.bestbuy.com/site/brother-dcp-l2540dw-wireless-and-white-all-in-one-printer-black/9093201.p?skuId=9093201" }
+        ]
+      }
+    },
+    {
+      "product_id": "jwn38xrk5p22jim",
+      "research": {
+        "confidence": 0.96,
+        "name": "Logitech C920 HD Pro webcam Full HD 1080p USB",
+        "description": "Camara web Logitech C920 HD Pro USB con video Full HD 1080p a 30fps, lente de cristal con enfoque automatico, campo de vision 78 grados, dos microfonos estereo y tecnologia RightLight 2.",
+        "manualCategoryPath": "computo/perifericos/webcams/usb-fhd",
+        "semanticCategoryPath": "computo/perifericos/webcams/usb-fhd/logitech-c920",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/es-mx/shop/p/c920-pro-hd-webcam.960-000764",
+        "gallery": ["https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c920/gallery/c920-gallery-1.png", "https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c920/gallery/c920-gallery-3.png", "https://resource.logitech.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/webcams/c920/gallery/c920-gallery-4.png"],
+        "documents": [
+          { "label": "Logitech C920 product page", "type": "manufacturer", "url": "https://www.logitech.com/es-mx/shop/p/c920-pro-hd-webcam.960-000764" },
+          { "label": "Logitech C920 technical specifications", "type": "support", "url": "https://support.logi.com/hc/en-us/articles/360023307294-C920-Technical-Specifications" },
+          { "label": "Logitech C920 quick start guide", "type": "manual", "url": "https://www.logitech.com/assets/42685/4/c920-quickstart-guide.pdf" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "C920",
+          "manufacturerPartNumber": "960-000764",
+          "providerSku": "CAMLOG460",
+          "upc": "097855074355",
+          "usbPid": "082D",
+          "productType": "Webcam USB Full HD",
+          "video": "1080p/30fps, 720p/30fps",
+          "photo": "3 MP real, up to 15 MP by software",
+          "lens": "Glass lens, autofocus",
+          "fieldOfView": "78 degrees diagonal",
+          "audio": "2 stereo microphones",
+          "connection": "USB 2.0 UVC",
+          "lighting": "RightLight 2",
+          "mount": "Universal clip and tripod thread",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 312 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 149 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 42 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMLOG460", "stock": 707, "price": 1337.65, "currency": "MXN", "branch": "DFA:312,D2A:149,CMT:42,CLN:30,DFP:24,HMO:23,GDL:11,CHI:10,ZAC:9,OBR:7,ACA:7,CEL:6" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current seguridad/cctv/camaras path is wrong: C920 is a USB webcam for video calls, not CCTV.", "Visible branch stock sums to 630 vs total stock 707, so provider locations are partial.", "Logitech Mexico official price observed differs from CT customer price."]
+        },
+        "measurements": { "dimensions": "94 x 24 x 29 mm", "weight": "162 g; cable about 1.5 m" },
+        "sourceRefs": [
+          { "title": "Logitech C920 official Mexico", "type": "manufacturer", "url": "https://www.logitech.com/es-mx/shop/p/c920-pro-hd-webcam.960-000764" },
+          { "title": "Logitech C920 technical specifications", "type": "support", "url": "https://support.logi.com/hc/en-us/articles/360023307294-C920-Technical-Specifications" },
+          { "title": "Logitech C920 quick start guide", "type": "manual", "url": "https://www.logitech.com/assets/42685/4/c920-quickstart-guide.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "bmf7b76v3u3ivmv",
+      "research": {
+        "confidence": 0.95,
+        "name": "Perfect Choice PC-240747 cargador universal inteligente 65W con 7 puntas y USB",
+        "description": "Cargador universal inteligente Perfect Choice PC-240747 de 65W para laptops, con 7 puntas intercambiables, salida automatica 18.5/19/19.5/20V y puerto USB 5V para carga auxiliar.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop/universales-puntas-usb",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/universales-puntas-usb/perfect-choice-pc-240747",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/cargador-universal-inteligente-7-puntas",
+        "gallery": ["https://perfectchoice.me/cdn/shop/products/PC-240747_04A_1_800x.jpg?v=1760554887", "https://perfectchoice.me/cdn/shop/products/Proyectonuevo_1_800x.png?v=1764351733", "https://perfectchoice.me/cdn/shop/products/Proyectonuevo_2_800x.png?v=1764351733"],
+        "documents": [
+          { "label": "Perfect Choice PC-240747 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-240747_FT.pdf?v=1678382552" },
+          { "label": "Perfect Choice PC-240747 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-240747_M.pdf?v=1678382552" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-240747",
+          "providerSku": "ACCMST3550",
+          "cvaSku": "AC-4836",
+          "upc": "615604240747",
+          "productType": "Cargador universal para laptop",
+          "input": "100-240 V AC, 50-60 Hz, 1.8 A",
+          "laptopOutput": "18.5 / 19 / 19.5 / 20 V DC",
+          "usbOutput": "5 V DC / 1 A",
+          "power": "65 W max",
+          "tips": "7 interchangeable intelligent tips",
+          "compatibility": "HP, Lenovo, Compaq, Dell, Toshiba, Acer, IBM, LiteOn and more",
+          "protections": "Overload, overheat and short circuit",
+          "contents": "Adapter, power cable, 7 tips, user guide",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCMST3550", "stock": 701, "price": 335.62, "currency": "MXN" }, { "providerId": "cva", "providerSku": "AC-4836", "stock": 5, "price": 330.12, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current accesorios/cables-adaptadores path is too generic; product is a universal laptop charger.", "Provider feed omitted UPC; official Perfect Choice sheet reports 615604240747.", "Official Perfect Choice price differs from CT and CVA customer prices."]
+        },
+        "measurements": { "dimensions": "11.6 x 5.5 x 3 cm", "weight": "277 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-240747 official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/cargador-universal-inteligente-7-puntas" },
+          { "title": "Perfect Choice PC-240747 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-240747_FT.pdf?v=1678382552" },
+          { "title": "Perfect Choice PC-240747 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-240747_M.pdf?v=1678382552" }
+        ]
+      }
+    }
+  ]
+}
