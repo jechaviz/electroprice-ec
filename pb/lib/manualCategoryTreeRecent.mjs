@@ -1,4 +1,12 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/accesorios/limpieza/lubricantes-silicon', name: 'Lubricantes de silicon para electronica', legacyCategory: 'laptops' },
+  { path: 'computo/accesorios/limpieza/lubricantes-silicon/baja-viscosidad-28g', name: 'Lubricantes de silicon baja viscosidad 28 g', legacyCategory: 'laptops' },
+  { path: 'seguridad/cctv/camaras-ip-poe/bullet/2mp-lighthunter', name: 'Camaras IP PoE bullet 2MP LightHunter', legacyCategory: 'cameras' },
+  { path: 'video/soportes-tv/pared/articulados-32-70-35kg', name: 'Soportes articulados de pared TV 32 a 70 pulgadas 35 kg', legacyCategory: 'tvs' },
+  { path: 'impresion/impresoras/multifuncionales-laser/monocromaticas/brother-mfc-l5915dw', name: 'Brother MFC-L5915DW multifuncionales laser monocromaticas', legacyCategory: 'printers_scanners' },
+  { path: 'redes/cableado-estructurado/conectores-keystone/usb-a-2-0', name: 'Jacks keystone USB-A 2.0 hembra a hembra', legacyCategory: 'networking' },
+  { path: 'computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5070', name: 'Tarjetas NVIDIA GeForce RTX 5070', legacyCategory: 'gaming' },
+  { path: 'computo/componentes/gabinetes/gaming/atx-mid-tower/cubo-cristal-argb', name: 'Gabinetes gamer ATX cubo con cristal ARGB', legacyCategory: 'components' },
   { path: 'computo/monitores/oficina/19-5-hd', name: 'Monitores de oficina 19.5 pulgadas HD', legacyCategory: 'monitors' },
   { path: 'computo/laptops/workstations/16-pulgadas/dell-pro-max-16', name: 'Dell Pro Max 16 workstations moviles', legacyCategory: 'laptops' },
   { path: 'audio/bocinas/inteligentes/alexa/echo-dot-5', name: 'Amazon Echo Dot 5 con Alexa', legacyCategory: 'headphones' },

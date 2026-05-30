@@ -541,6 +541,16 @@ const researchedBatchCases = [
   ["Switch TP-Link Omada SL2428P smart PoE 24 puertos 10/100 con uplinks Gigabit", "TP LINK", "redes/switches/poe-administrables/fast-ethernet/24-puertos"],
   ["Etiquetas Zebra PolyPro 4000D 10010063 termico directo 2.25 x 1.25 pulgadas 6 rollos", "ZEBRA", "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/polypro-4000d"],
   ["Camara domo IP HiLook IPC-D140HA-U 4MP 2.8mm IR 30m PoE WDR IP67", "HILOOK", "seguridad/cctv/camaras-ip-poe/domo/4mp"],
+  ["Lubricante de silicon baja viscosidad Silimex SILUB BV 28.33 g para mecanismos electronicos", "SILIMEX", "computo/accesorios/limpieza/lubricantes-silicon/baja-viscosidad-28g"],
+  ["Camara IP bullet Uniview IPC2B12SS-ADF28K-I1 LightHunter 2MP lente 2.8mm IR 80m microfono", "UNV", "seguridad/cctv/camaras-ip-poe/bullet/2mp-lighthunter"],
+  ["Camara IP bullet Dahua DH-IPC-HFW1431S1P-A-0280B-S4-QH2 4MP PoE microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/bullet/4mp-mic"],
+  ["Soporte articulado de pared Naceb NA-0219 para pantalla 32 a 70 pulgadas VESA 60x40 35kg", "NACEB TECHNOLOGY", "video/soportes-tv/pared/articulados-32-70-35kg"],
+  ["Multifuncional laser monocromatico Brother MFC-L5915DW duplex WiFi Ethernet 52 ppm", "BROTHER", "impresion/impresoras/multifuncionales-laser/monocromaticas/brother-mfc-l5915dw"],
+  ["Lector codigo de barras TechZone TZBESC4 1D 2D USB base ajustable 100 lecturas por segundo", "TECHZONE", "punto-de-venta/lectores-codigo-barras/2d-usb"],
+  ["Camara mini domo movil Meriva Streamax MCA39A 2MP 1080p IR 10m microfono DIN 4 pines", "MERIVA TECHNOLOGY", "seguridad/cctv/camaras-moviles/ahd-domo/2mp-audio"],
+  ["Jack USB Brobotix 65616 keystone USB-A hembra a hembra 2.0 blanco", "BROBOTIX", "redes/cableado-estructurado/conectores-keystone/usb-a-2-0"],
+  ["Tarjeta de video ASUS Dual GeForce RTX 5070 OC 12GB GDDR7 DUAL-RTX5070-O12G", "ASUS", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5070"],
+  ["Gabinete gamer Ocelot Gaming W-CUBE 2 blanco mid tower ATX cristal templado 3 ventiladores ARGB", "OCELOT GAMING", "computo/componentes/gabinetes/gaming/atx-mid-tower/cubo-cristal-argb"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
