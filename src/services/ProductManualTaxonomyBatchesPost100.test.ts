@@ -202,6 +202,16 @@ const researchedBatchCases = [
   ["Easy Line EL-994121 mouse optico USB negro 1200 DPI", "EASY LINE", "computo/perifericos/mouse/alambricos/basicos/1200-dpi"],
   ["Samsung LS24D300GALXZX S30GD monitor 24 FHD IPS 100Hz", "SAMSUNG", "computo/monitores/oficina/24-fhd-100hz"],
   ["TP-Link Archer AX53 router AX3000 Gigabit Wi-Fi 6", "TP-LINK", "redes/routers/wifi-6/ax3000"],
+  ["Dahua DHI-DAE-HC1311GW-S6 dashcam vehicular Full HD Wi-Fi", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-moviles/dashcam"],
+  ["Gigabyte B650 Eagle AX tarjeta madre AMD AM5 ATX Wi-Fi 6E", "GIGABYTE", "computo/componentes/tarjetas-madre/amd-am5/b650"],
+  ["BRobotix 034600 pasta termica plata en jeringa 1.5 g", "BROBOTIX", "computo/componentes/pasta-termica/jeringa-1-5g"],
+  ["Intellinet 342599 patch cord Cat6 UTP azul 2 m 7 ft", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/2-1m"],
+  ["Manhattan 151962 adaptador activo DisplayPort a VGA 15 cm", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport-vga"],
+  ["Dahua DH-PFM350-480-A UPS line-interactive 800VA 480W", "DAHUA TECHNOLOGY", "energia/no-breaks-ups/line-interactive/800va"],
+  ["TP-Link TL-WN722N adaptador USB Wi-Fi N150 alta ganancia 4dBi", "TP-LINK", "redes/adaptadores-wifi/usb/n150-alta-ganancia"],
+  ["Brother BTD60BK botella tinta negra 6500 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd60/negro"],
+  ["Silimex Silijet E Plus limpiador lubricante dielectrico naranja", "SILIMEX", "computo/accesorios/limpieza/limpiadores-contactos"],
+  ["Dell CP3724 EcoLoop Essential mochila laptop 14 a 16 pulgadas 460-BDSW", "DELL", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

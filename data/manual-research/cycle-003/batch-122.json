@@ -1,0 +1,546 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b122-2026-05-30",
+  "cycle": 3,
+  "batch": 122,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "e5mrdleqkxe9dm2",
+      "research": {
+        "confidence": 0.91,
+        "name": "Dahua S6 DHI-DAE-HC1311GW-S6 dashcam vehicular Full HD Wi-Fi",
+        "description": "Camara de tablero Dahua S6 DHI-DAE-HC1311GW-S6 de 2 MP para grabacion vehicular frontal y trasera, con pantalla tactil de 3 pulgadas, Wi-Fi AP, microfono y bocina integrados, G-Sensor para bloqueo por colision y soporte MicroSD hasta 128 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-moviles/dashcam",
+        "semanticCategoryPath": "seguridad/cctv/camaras-moviles/dashcam/dahua-s6-dhi-dae-hc1311gw-s6",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/la/products/All-Products/Mobile/Dash-Camera/S6",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH5110/CAMDAH5110_5_full.jpg",
+          "https://material.dahuasecurity.com/uploads/image/20231204/s6_thumb.png",
+          "https://material.dahuasecurity.com/uploads/image/20231204/s62_thumb.png",
+          "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1.0.99.01.10547/ProductImage/1855493149621_thumb.png"
+        ],
+        "documents": [
+          { "label": "Dahua S6 official product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/la/products/All-Products/Mobile/Dash-Camera/S6" },
+          { "label": "Dahua S6 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1.0.99.01.10547/Datasheet/S6_datasheet_20230719.pdf" },
+          { "label": "Dahua DHI-DAE-HC1311GW-S6 distributor page", "type": "distributor", "url": "https://bydemes.com/en/products/cctv/network-cameras/vehicles/DAHUA-4668" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DHI-DAE-HC1311GW-S6",
+          "modelAlternate": "DHI-DAE-HC1311GWV-S6",
+          "providerSku": "CAMDAH5110",
+          "ean": "6923172557254",
+          "productType": "Dashcam vehicular",
+          "sensor": "1/2.9 inch CMOS",
+          "resolution": "2 MP; 1920 x 1080 at 25 fps and 1280 x 720 at 25 fps dual-channel",
+          "fieldOfView": "134 degrees",
+          "lens": "F2.0",
+          "screen": "3 inch touch screen, 320 x 640",
+          "videoCompression": "H.264",
+          "storage": "1 TF/MicroSD slot up to 128 GB",
+          "connectivity": "Wi-Fi AP",
+          "audio": "Built-in microphone and speaker",
+          "features": ["G-Sensor collision detection and video lock", "Front and rear recording", "GPS track playback", "DH Dashcam app support"],
+          "power": "Mini USB, DC 5V/1.5A, <=7.5W",
+          "operatingTemperature": "-20 C to 70 C",
+          "humidity": "<95% non-condensing",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 349 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 166 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 59 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH5110", "stock": 673, "price": 49.57, "currency": "USD", "branch": "D2A:349,GDL:166,DFA:59,VER:33,PUE:20,MID:11,CUN:8,IRA:5,QRO:3,MOR:3,TOL:3,PAC:3" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official datasheet title uses DHI-DAE-HC1311GWV-S6 while provider and retailers use DHI-DAE-HC1311GW-S6.", "By Demes lists 320 x 240 screen resolution while Dahua official page and datasheet list 320 x 640.", "Current category was generic CCTV cameras; product is specifically a vehicle dashcam."]
+        },
+        "measurements": { "dimensions": "91 x 58 x 39 mm", "weight": "108.9 g" },
+        "sourceRefs": [
+          { "title": "Dahua Latin America S6 official product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/la/products/All-Products/Mobile/Dash-Camera/S6" },
+          { "title": "Dahua S6 official datasheet PDF", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1.0.99.01.10547/Datasheet/S6_datasheet_20230719.pdf" },
+          { "title": "Cyberpuerta Mexico Dahua S6 retail page", "type": "retailer", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Foto-y-Video/Camaras-de-Video/Camara-de-Video-Dahua-S6-Dashcam-HD-MicroSD.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "c867xkhnzweuwh8",
+      "research": {
+        "confidence": 0.88,
+        "name": "Gigabyte B650 Eagle AX tarjeta madre ATX AM5 DDR5 Wi-Fi 6E",
+        "description": "Tarjeta madre Gigabyte B650 Eagle AX ATX para procesadores AMD Ryzen AM5, con chipset AMD B650, cuatro ranuras DDR5, tres ranuras M.2, Wi-Fi 6E, Bluetooth 5.3, LAN Gigabit, HDMI, DisplayPort, Smart Fan 6 y Q-Flash Plus.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am5/b650",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am5/b650/gigabyte-b650-eagle-ax",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/us/Motherboard/B650-EAGLE-AX-rev-12",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10418921",
+          "https://files.pccasegear.com/images/B650-EAGLE-AX-thumb.jpg",
+          "https://files.pccasegear.com/images/B650-EAGLE-AX-add1.jpg",
+          "https://files.pccasegear.com/images/B650-EAGLE-AX-add2.jpg"
+        ],
+        "documents": [
+          { "label": "Gigabyte B650 Eagle AX Rev. 1.2 product page", "type": "manufacturer", "url": "https://www.gigabyte.com/us/Motherboard/B650-EAGLE-AX-rev-12" },
+          { "label": "Gigabyte B650 Eagle AX Rev. 1.2 specifications", "type": "manufacturer_specs", "url": "https://www.gigabyte.com/us/Motherboard/B650-EAGLE-AX-rev-12/sp" },
+          { "label": "Gigabyte B650 Eagle AX Rev. 1.2 manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_b650-eagle-ax_1201_e.pdf" }
+        ],
+        "specs": {
+          "brand": "Gigabyte",
+          "model": "B650 EAGLE AX",
+          "providerSku": "MBDGIG5110",
+          "cvaSku": "MB-1331",
+          "productType": "Tarjeta madre ATX",
+          "socket": "AMD AM5",
+          "chipset": "AMD B650",
+          "cpuSupport": "AMD Ryzen 7000/8000/9000 Series",
+          "formFactor": "ATX",
+          "memory": "4 x DDR5 DIMM, dual-channel, up to 256 GB on Rev. 1.2, DDR5 8000(OC), EXPO/XMP",
+          "graphicsOutputs": "1 x DisplayPort 1.4 up to 3840 x 2160 at 144Hz, 1 x HDMI 2.1 up to 4096 x 2160 at 60Hz",
+          "networking": "Realtek GbE LAN; Intel Wi-Fi 6E AX210; Bluetooth 5.3",
+          "storage": "3 x M.2 sockets; 4 x SATA 6Gb/s; RAID 0/1/10",
+          "expansion": "1 x main PCIe x16 slot plus additional PCIe x16 physical slots running x1",
+          "usbBackPanel": "2 x USB 3.2 Gen 2 Type-A, 1 x USB-C 3.2 Gen 1, 6 x USB 2.0",
+          "audio": "Realtek HD Audio, 2/4/5.1/7.1-channel",
+          "features": ["12+2+2 digital VRM", "M.2 Thermal Guard", "EZ-Latch", "Smart Fan 6", "Q-Flash Plus", "RGB Fusion headers"],
+          "osSupport": "Windows 10 64-bit, Windows 11 64-bit",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG5110", "stock": 672, "price": 135.44, "currency": "USD" }, { "providerId": "cva", "providerSku": "MB-1331", "stock": 0, "price": 131.75, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider name includes AC, but official commercial model is B650 EAGLE AX.", "Current path redes/access-points is incorrect; product is a motherboard.", "Exact PCB revision is unknown. Rev. 1.2 lists DDR5 8000 and 256 GB; older revs and retailers list DDR5 7600 and 192 GB.", "Weight and height are retailer-derived; official measurement confirmed is ATX 30.5 x 24.4 cm."]
+        },
+        "measurements": { "dimensions": "305 x 244 mm", "weight": "771 g approximate retailer value", "packageWeight": "1.74-1.94 kg retailer range" },
+        "sourceRefs": [
+          { "title": "GIGABYTE B650 EAGLE AX Rev. 1.2 product page", "type": "manufacturer", "url": "https://www.gigabyte.com/us/Motherboard/B650-EAGLE-AX-rev-12" },
+          { "title": "GIGABYTE B650 EAGLE AX Rev. 1.2 specifications", "type": "manufacturer_specs", "url": "https://www.gigabyte.com/us/Motherboard/B650-EAGLE-AX-rev-12/sp" },
+          { "title": "Intercompras Mexico B650 Eagle AX retail specs", "type": "retailer", "url": "https://intercompras.com/p/tarjeta-madre-gigabyte-b650-eagle-ax-socket-am5-4x-ddr5-mhz-hdmi-376206" }
+        ]
+      }
+    },
+    {
+      "product_id": "hrby4krab8k4v09",
+      "research": {
+        "confidence": 0.91,
+        "name": "BRobotix 034600 pasta termica plata en jeringa 1.5 g",
+        "description": "Pasta termica BRobotix 034600 en jeringa resellable de 1.5 g para mejorar la transferencia de calor entre CPU y disipador; presentacion en blister color plata/gris.",
+        "manualCategoryPath": "computo/componentes/pasta-termica/jeringa-1-5g",
+        "semanticCategoryPath": "computo/componentes/pasta-termica/jeringa-1-5g/brobotix-034600",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/productos/pasta-termica-jeringa-de-1-5-g_034600_2601",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT180/ACCRBT180_1_full.jpg",
+          "https://datacomponents.com.mx/imgProductos/Img390/034600_1.jpg",
+          "https://datacomponents.com.mx/imgProductos/Img390/034600_2.jpg",
+          "https://media.digitalife.com.mx/products/034600/034600-01-md.webp"
+        ],
+        "documents": [
+          { "label": "BRobotix 034600 product page", "type": "brand_owner", "url": "https://datacomponents.com.mx/productos/pasta-termica-jeringa-de-1-5-g_034600_2601" },
+          { "label": "BRobotix 034600 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/034600_ft.pdf" },
+          { "label": "GlobalOffice 034600 PDF", "type": "distributor", "url": "https://globaloffice.com.mx/app/producto/pdf/034600" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "034600",
+          "providerSku": "ACCRBT180",
+          "ean": "7503027308232",
+          "productType": "Pasta termica",
+          "content": "1.5 g",
+          "color": "Plata/gris",
+          "composition": "Silicon 50%, carbon compounds 20%, metal oxide compounds 30%",
+          "thermalConductivity": ">0.965 W/m-K",
+          "thermalImpedance": "<0.255 C-in2/W",
+          "specificGravity": ">2.3",
+          "evaporation": "<0.001%",
+          "dielectricConstantA": ">5.1",
+          "thixotropicIndex": "380 +/-10 1/10 mm",
+          "operatingTemperature": "-30 C to 180 C",
+          "packageType": "Blister",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 157 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 128 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 60 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 52 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 44 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT180", "stock": 670, "price": 0.91, "currency": "USD", "branch": "GDL:157,CMT:128,D2A:60,DFC:52,DFA:44,TOL:33,DFP:21,TPC:20,ACA:14,TXA:12,OAX:11,CHI:10" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Legacy path in processors is too broad; sources classify it as thermal paste/cooling.", "Color appears as gray and silver; normalized as silver/gray.", "Datasheet states 1.5 g and also 0.5 oz inconsistently; selected 1.5 g.", "Warranty varies by channel: DataComponents sheet shows 2 months while some retailers show 1 year."]
+        },
+        "measurements": { "netContentWeight": "1.5 g", "productDepth": "70 mm", "packageDimensions": "46 x 112 mm", "packageWeight": "7.5 g" },
+        "sourceRefs": [
+          { "title": "DataComponents BRobotix 034600 product page", "type": "brand_owner", "url": "https://datacomponents.com.mx/productos/pasta-termica-jeringa-de-1-5-g_034600_2601" },
+          { "title": "DataComponents BRobotix 034600 datasheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/034600_ft.pdf" },
+          { "title": "Cyberpuerta BRobotix 034600 category page", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Enfriamiento-y-Ventilacion/Pasta-Termica/BRobotix-Pasta-Termica-Jeringa-1-5-Gramos.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "9afozuk67kysdgi",
+      "research": {
+        "confidence": 0.96,
+        "name": "Intellinet 342599 patch cord Cat6 UTP azul 2 m",
+        "description": "Cable de conexion de red Intellinet Cat6 U/UTP azul de 2 m con conectores RJ45 macho, botas anti-enganche, contactos chapados en oro, 24 AWG, soporte 10 Gbps, 250 MHz y PoE hasta IEEE 802.3bt.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/2-1m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/2-1m/intellinet-342599",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetsolutions.mx/products/intellinet-es-cable-de-conexion-de-red-uutp-cat6-2-m-azul-342599",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2409685",
+          "https://intellinetsolutions.mx/cdn/shop/files/phpThumb_8860c0b4-00c8-4fdd-bca4-cf948c343663.jpg?v=1780100378",
+          "https://intellinetsolutions.mx/cdn/shop/files/phpThumb_5207084e-3d32-401b-9bb6-d8a74c2429da.jpg?v=1780100378",
+          "https://intellinetsolutions.mx/cdn/shop/files/phpThumb_b73411c6-dde5-48b5-8ef8-2d4c3288bed0.jpg?v=1780100378"
+        ],
+        "documents": [
+          { "label": "Intellinet 342599 Mexico product page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/intellinet-es-cable-de-conexion-de-red-uutp-cat6-2-m-azul-342599" },
+          { "label": "Intellinet 342599 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51458/342599_datasheet_spanish.pdf" },
+          { "label": "Intellinet 342599 English datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/68501/342599_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "Intellinet",
+          "model": "342599",
+          "providerSku": "RCKACC1280",
+          "cvaSku": "CB-295",
+          "ean": "0766623342599",
+          "upc": "766623342599",
+          "productType": "Cable patch de red Cat6",
+          "category": "Cat6 U/UTP",
+          "length": "2 m / 7 ft",
+          "color": "Azul",
+          "connectors": "2 x RJ45 macho, 8P8C",
+          "wireGauge": "24 AWG",
+          "shielding": "U/UTP",
+          "wireMaterial": "CCA",
+          "conductorType": "Stranded",
+          "jacket": "PVC CM",
+          "cableShape": "Round",
+          "contacts": "6 micro-inch gold-plated",
+          "maxTransferSpeed": "10 Gbps",
+          "maxFrequency": "250 MHz",
+          "poeSupport": "IEEE 802.3bt / PoE++ / 4PPoE / Ultra PoE",
+          "standards": ["ISO/IEC 11801", "EN 50288", "ANSI/TIA-568.2-D", "1000Base-T", "10GBase-T", "RoHS", "REACH"],
+          "matingCycles": ">=750",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "RCKACC1280", "stock": 670, "price": 2.43, "currency": "USD" }, { "providerId": "cva", "providerSku": "CB-295", "stock": 0, "price": 2.27, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider text says UTP; official sheet normalizes as U/UTP.", "Warranty differs: Mexico product page/datasheet says 5 years while English datasheet and some retailers mention lifetime.", "One retailer lists 100% copper, but official sheets and Office Depot specify CCA.", "Legacy path is generic accessories; product belongs under structured cabling."]
+        },
+        "measurements": { "dimensions": "2 m x 0.01 m x 0.015 m", "jacketOuterDiameter": "5.5 mm", "netWeight": "70 g", "grossWeight": "75 g" },
+        "sourceRefs": [
+          { "title": "Intellinet Mexico 342599 product page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/intellinet-es-cable-de-conexion-de-red-uutp-cat6-2-m-azul-342599" },
+          { "title": "Intellinet 342599 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51458/342599_datasheet_spanish.pdf" },
+          { "title": "Office Depot Intellinet 342599 cross-check", "type": "retailer", "url": "https://www.officedepot.com/a/products/396114/Intellinet-Network-Patch-Cable-Cat6-2m/" }
+        ]
+      }
+    },
+    {
+      "product_id": "afrt20vtms9cj1f",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 151962 adaptador activo DisplayPort a VGA 15 cm",
+        "description": "Adaptador activo Manhattan 151962 DisplayPort macho a VGA HD15 hembra de 15 cm para conectar computadoras con DisplayPort a monitores, proyectores o pantallas VGA, con resolucion hasta 1920 x 1080p.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport-vga",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport-vga/manhattan-151962",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-convertidor-de-diplayport-a-vga-151962",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9856201",
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_d782c0d8-f77e-409f-aa72-bb0d248930a2.jpg?v=1780097665",
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_3276b092-93a6-4ba4-97b1-7ac2302366dd.jpg?v=1780097665",
+          "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_c0076174-a3e7-4e55-8e6e-fec72132896c.jpg?v=1780097665"
+        ],
+        "documents": [
+          { "label": "Manhattan 151962 Mexico product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-convertidor-de-diplayport-a-vga-151962" },
+          { "label": "Manhattan 151962 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/49754/151962_datasheet_spanish.pdf" },
+          { "label": "Manhattan 151962 quick instruction guide", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/67279/MH_151962_QIG_0722_REV_5.11.pdf" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "151962",
+          "providerSku": "CABITL1320",
+          "cvaSku": "AC-5398",
+          "ean": "0766623151962",
+          "upc": "766623151962",
+          "productType": "Adaptador activo DisplayPort a VGA",
+          "inputConnector": "DisplayPort 20-pin male",
+          "outputConnector": "VGA HD15 female",
+          "maxResolution": "1920 x 1080p",
+          "frequency": "154 MHz / 144 MHz (60 Hz)",
+          "bandwidth": "2.7 Gbps for VGA",
+          "contacts": "Gold-plated",
+          "cableGauge": "32 AWG",
+          "color": "Negro",
+          "certifications": ["UL 20276", "CE", "FCC", "RoHS", "WEEE"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABITL1320", "stock": 660, "price": 7.39, "currency": "USD" }, { "providerId": "cva", "providerSku": "AC-5398", "stock": 10, "price": 7.49, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official Mexico page spells Diplayport; normalized to DisplayPort.", "Manhattan lists 55 g in physical characteristics, 0.04 kg in physical specifications, and Shopify JSON shows 35 g."]
+        },
+        "measurements": { "length": "15 cm", "weight": "55 g", "listedNetWeight": "0.04 kg", "packaging": "Bag" },
+        "sourceRefs": [
+          { "title": "Manhattan Mexico 151962 product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-convertidor-de-diplayport-a-vga-151962" },
+          { "title": "Manhattan US 151962 product page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-displayport-to-vga-converter-cable-151962" },
+          { "title": "Manhattan 151962 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/49754/151962_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "9utqh42vpy4ajbc",
+      "research": {
+        "confidence": 0.72,
+        "name": "Dahua DH-PFM350-480-A UPS line-interactive 800VA 480W",
+        "description": "UPS/no break compacto Dahua DH-PFM350-480-A de 800VA/480W, topologia line-interactive con AVR, bateria plomo-acido 12V 9Ah, arranque en frio y protecciones contra sobrecarga, sobredescarga y sobrecarga de bateria.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/800va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/800va/dahua-dh-pfm350-480-a",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/Accessories/Power/UPS/PFM350-480-A",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/NBKDAH020/NBKDAH020_full.jpg",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/82085/image/1_0_99_19_10113_526667070.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/82085/image/1_0_99_19_10113_526667072.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/82085/image/1_0_99_19_10113_914191322.PNG"
+        ],
+        "documents": [
+          { "label": "Dahua PFM350-480-A product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/Accessories/Power/UPS/PFM350-480-A" },
+          { "label": "Dahua DH-PFM350-480-A datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/82085/datasheet/DH-PFM350-480-A_datasheet_20260210.pdf" },
+          { "label": "Dahua UPS user manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/DOR/PUM0008567/202503/Dahua_Uninterruptible_Power_Supply_User_s_Manual_V1.0.0.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-PFM350-480-A",
+          "providerSku": "NBKDAH020",
+          "ean": "6939554921926",
+          "alternateGtin": "6923172507730",
+          "productType": "UPS line-interactive",
+          "capacity": "800 VA",
+          "outputPower": "480 W mains / 380 W battery",
+          "topology": "Line-interactive",
+          "inputVoltageOfficial": "150-275 VAC",
+          "outputVoltageOfficial": "220 VAC +/-10%",
+          "frequency": "50/60 Hz",
+          "powerFactor": "0.85",
+          "transferTime": "<10 ms",
+          "waveform": "Pure sine in mains; modified sine on battery",
+          "battery": "Lead-acid 12 V, 9 Ah x 1",
+          "charging": "Up to 90% in 6 hours; current <=2 A; voltage-limited 13.75 V",
+          "outputSocketsOfficial": 2,
+          "inputCableLength": "1 m",
+          "material": "Steel and plastic",
+          "color": "Negro",
+          "certifications": ["CE"],
+          "protections": ["Overload", "Over-discharge", "Battery overcharge"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 488 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKDAH020", "stock": 664, "price": 42.02, "currency": "USD", "branch": "D2A:488,LMO:31,OAX:14,ACA:11,MTY:10,TPC:10,MAZ:9,DGO:8,DFP:8,LEO:6,VHA:6,CUN:6" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Dahua global lists a 220V version with 2 outlets; multiple Mexico sources market NBKDAH020 as 110-120V and/or 4 outlets.", "Provider EAN and several Mexico stores use 6939554921926 while Icecat/Cyberpuerta-derived sheets show 6923172507730.", "Some Mexico titles state 110-120V while copied specifications still show the official 220V sheet."]
+        },
+        "measurements": { "dimensions": "335 x 87 x 143 mm", "packageDimensions": "417 x 169 x 234 mm", "weight": "5 kg", "grossWeight": "5.6 kg" },
+        "sourceRefs": [
+          { "title": "Dahua PFM350-480-A product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/Accessories/Power/UPS/PFM350-480-A" },
+          { "title": "GlobalOffice Dahua DH-PFM350-480-A Mexico listing", "type": "distributor", "url": "https://www.globaloffice.mx/app/detalle/producto/reguladores-y-ups/ups-dahua-technology-dh-pfm350-480-a-nobreak-110v-800va480w/dh-pfm350-480-a" },
+          { "title": "Icecat Dahua PFM350-480-A specs", "type": "spec_aggregator", "url": "https://icecat.biz/en/p/dahua%2Btechnology/dh-pfm350-480-a/uninterruptible%2Bpower%2Bsupplies%2B-upss-6923172507730-pfm350-480-a-122129770.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "f1l28t6dy7mhee7",
+      "research": {
+        "confidence": 0.94,
+        "name": "TP-Link TL-WN722N adaptador USB Wi-Fi N150 alta ganancia",
+        "description": "Adaptador Wi-Fi USB 2.0 TP-Link TL-WN722N para computadora de escritorio o laptop, con Wi-Fi 4/N a 2.4GHz, velocidad hasta 150Mbps, boton WPS/QSS y antena omnidireccional desmontable RP-SMA de 4 dBi.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/n150-alta-ganancia",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/n150-alta-ganancia/tp-link-tl-wn722n",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/latam/home-networking/adapter/tl-wn722n/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2350689",
+          "https://static.tp-link.com/TL-WN722N_EU_3.0_01_large_1506586482853c.jpg",
+          "https://static.tp-link.com/TL-WN722N_EU_3.0_02_large_1506586260889r.jpg",
+          "https://static.tp-link.com/TL-WN722N_EU_3.0_03_large_1506586519153q.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link TL-WN722N product page", "type": "manufacturer", "url": "https://www.tp-link.com/latam/home-networking/adapter/tl-wn722n/" },
+          { "label": "TP-Link TL-WN722N support/download page", "type": "support", "url": "https://www.tp-link.com/latam/support/download/tl-wn722n/" },
+          { "label": "TP-Link TL-WN722N V3 datasheet", "type": "datasheet", "url": "https://www.tp-link.com/latam/document/66678/" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "TL-WN722N",
+          "providerSku": "TARTPL200",
+          "cvaSku": "NIC-799",
+          "productType": "Adaptador Wi-Fi USB",
+          "interface": "USB 2.0 / USB-A",
+          "wifiClass": "N150 / Wi-Fi 4",
+          "standards": ["IEEE 802.11n", "IEEE 802.11g", "IEEE 802.11b"],
+          "frequency": "2.400-2.4835 GHz",
+          "maxSignalRate": "150 Mbps on 802.11n",
+          "antenna": "Detachable omnidirectional RP-SMA",
+          "antennaGain": "4 dBi",
+          "button": "WPS/QSS",
+          "wirelessModes": ["Ad-Hoc", "Infrastructure"],
+          "security": ["64/128-bit WEP", "WPA-PSK", "WPA2-PSK"],
+          "transmitPower": "<20 dBm",
+          "certifications": ["CE", "FCC", "RoHS"],
+          "packageContents": ["Wireless adapter", "4 dBi detachable antenna", "USB extension cable", "Resource CD", "Quick installation guide"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARTPL200", "stock": 645, "price": 7.84, "currency": "USD" }, { "providerId": "cva", "providerSku": "NIC-799", "stock": 5, "price": 7.44, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["TP-Link Latam overview text says 3dBi external antenna, but official specs, package contents and datasheet state 4 dBi; selected 4 dBi.", "OS support varies by hardware revision and region; kept official Latam/support wording."]
+        },
+        "measurements": { "dimensions": "93.5 x 26 x 11 mm", "packageWeight": "204 g retailer source" },
+        "sourceRefs": [
+          { "title": "TP-Link Latam TL-WN722N product page", "type": "manufacturer", "url": "https://www.tp-link.com/latam/home-networking/adapter/tl-wn722n/" },
+          { "title": "TP-Link Latam TL-WN722N support/download", "type": "support", "url": "https://www.tp-link.com/latam/support/download/tl-wn722n/" },
+          { "title": "B&H TP-Link TL-WN722N specs", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/810074-REG/TP_Link_TL_WN722N_150_Mbps_High_Gain.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "q51fronydmq5twj",
+      "research": {
+        "confidence": 0.8,
+        "name": "Brother BTD60BK botella de tinta negra 6500 paginas",
+        "description": "Botella original Brother BTD60BK de tinta negra para impresoras Brother InkBenefit Tank y sistemas de tanque de tinta; recarga de 108 ml para impresion de alto volumen con rendimiento referencial de 6500 paginas.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd60/negro",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/brother-btd60/negro/btd60bk",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/btd60bk",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARBRT3600/CARBRT3600_full.jpg",
+          "https://www.brother.com.ph/-/media/884d579015d5459da764dcdd3eff80ff.png?as=0&h=454&hash=EB3226BBE1FE2BA2E0C37D56F4165C9E&rev=ec48b49dc5574b438540b68f965e355a&w=454",
+          "https://www.officedepot.com.mx/medias/83147.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MTY4MzQwfGltYWdlL2pwZWd8YURZM0wyaGtPQzh4TWpFNU5UQTVNVE0wT1RVek5DODRNekUwTnk1cWNHZGZNVEl3TUdaMGR3fGJhMDI0MjYzNDYzNjk4ZWJkNmVjZjkyODNjNjNhZWNhMTU3YmQwYWQyM2ExNTAxZTM5NjM4ZTdkNWUxNWEzM2Y"
+        ],
+        "documents": [
+          { "label": "Brother Mexico BTD60BK product page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd60bk" },
+          { "label": "Brother Mexico DCP-T520W brochure", "type": "manufacturer_brochure", "url": "https://www.brother.com.mx/-/media/brother/product-catalog-media/documents/2022/01/04/10/15/mex_brochure_dcpt520.pdf" },
+          { "label": "Ingram Micro Mexico BTD60BK sheet", "type": "distributor", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_08100xy_55002342.pdf" }
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "BTD60BK",
+          "providerSku": "CARBRT3600",
+          "upc": "012502650386",
+          "productType": "Botella de tinta",
+          "color": "Negro",
+          "capacity": "108 ml",
+          "printTechnology": "Inkjet",
+          "inkType": "Pigment-based black ink per distributor PIM",
+          "yieldPagesSelected": "6500 pages",
+          "yieldPagesAlternateOfficialRegional": "7500 pages approximate in Brother Mexico brochures and Brother PH",
+          "compatibleModelsConservative": ["DCP-T510W", "DCP-T710W", "MFC-T810W", "MFC-T910DW"],
+          "compatibleModelsSeenOnPackagingOrRegionalRefs": ["DCP-T220", "DCP-T226", "DCP-T310", "DCP-T420W", "DCP-T426W", "DCP-T510W", "DCP-T520W", "DCP-T710W", "DCP-T720DW", "DCP-T820DW", "MFC-T810W", "MFC-T910DW", "MFC-T920DW", "MFC-T925DW", "HL-T4000DW", "MFC-T4500DW"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "PUE", "stock": 613 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT3600", "stock": 649, "price": 155.56, "currency": "MXN", "branch": "PUE:613,IRA:18,MOR:7,CEL:7,ACA:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Yield conflicts: Brother Mexico brochures and Brother PH list around 7500 pages, while Mexico UPC-linked distributors/retailers, Office Depot and Ingram list 6500 pages. Selected 6500 because it is tied to UPC 012502650386 and Mexican distributor listings.", "Some CT/GlobalOffice-style listings title CARBRT3600 as 5000 pages while detailed PIM/spec sections commonly show 6500 pages.", "Compatibility lists vary by printer generation.", "Ink type is not clear on Brother Mexico product page; distributor PIM says pigment-based while some retail titles say water-based."]
+        },
+        "measurements": { "dimensions": "55 x 134 x 63 mm distributor/PIM", "weight": "136 g distributor/PIM", "packageWeight": "180 g distributor/PIM" },
+        "sourceRefs": [
+          { "title": "Brother Mexico BTD60BK product page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/btd60bk" },
+          { "title": "Brother Philippines BTD60BK page", "type": "manufacturer", "url": "https://www.brother.com.ph/en/supplies/supplies-detail/btd60bk" },
+          { "title": "Office Depot Mexico BTD60BK product page", "type": "retailer", "url": "https://www.officedepot.com.mx/officedepot/en/Categor%C3%ADa/Todas/Impresi%C3%B3n/Tintas-y-T%C3%B3ners/Botellas-de-Tinta/Botella-de-Tinta-Brother-BTD60BK-Negro-6500-p%C3%A1ginas/p/83147" }
+        ]
+      }
+    },
+    {
+      "product_id": "po6hvjimf98j532",
+      "research": {
+        "confidence": 0.93,
+        "name": "Silimex Silijet E-Plus limpiador lubricante dielectrico 170 ml",
+        "description": "Aerosol dielectrico Silimex Silijet E-Plus a base de silicon para limpiar, lubricar y proteger componentes electronicos, circuitos, sensores, tarjetas y piezas plasticas o metalicas; repele polvo y ayuda contra corrosion.",
+        "manualCategoryPath": "computo/accesorios/limpieza/limpiadores-contactos",
+        "semanticCategoryPath": "computo/accesorios/limpieza/limpiadores-contactos/silimex-silijet-e-plus",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://silimex.com.mx/producto/silijet-e-plus-170-ml/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SLXLMP150/SLXLMP150_full.jpg",
+          "https://silimex.com.mx/wp-content/uploads/2022/11/web-silimex-silijet-e-plus-1-600x600.jpg",
+          "https://silimex.com.mx/wp-content/uploads/2022/11/web-silimex-silijet-e-plus-2-600x600.jpg"
+        ],
+        "documents": [
+          { "label": "Silimex Silijet E-Plus product page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/silijet-e-plus-170-ml/" },
+          { "label": "Silimex Silijet E-Plus technical data sheet", "type": "datasheet", "url": "https://comeind.com.mx/wp-content/uploads/2022/09/SILIMEX-SILIJET-E-PLUS-2021.pdf" }
+        ],
+        "specs": {
+          "brand": "Silimex",
+          "model": "Silijet E-Plus",
+          "providerSku": "SLXLMP150",
+          "ean": "7503002196021",
+          "productType": "Limpiador lubricante dielectrico",
+          "presentation": "Aerosol",
+          "netContent": "170 ml",
+          "formula": "Silicone-based with fine solvents",
+          "properties": ["Dielectric", "Dust repellent", "Protects against corrosion", "Does not damage plastics", "CFC and HCFC free"],
+          "applications": ["Circuits", "Electronic boards", "Sensors", "Cables", "Electrical components", "Computing equipment"],
+          "appearance": "Transparent liquid",
+          "density": "0.96 g/ml",
+          "pH": "4.5",
+          "waterSolubility": "Insoluble",
+          "conductivity": "0 uS",
+          "storage": "Cool place, no more than 50 C",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 210 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 54 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 12 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SLXLMP150", "stock": 646, "price": 63.55, "currency": "MXN", "branch": "DFA:210,TOL:54,GDL:50,TRN:32,SLP:30,VER:20,MID:20,VHA:18,MOR:15,MTY:14,URP:13,CUE:12" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official page shows SKU 750300219602 while distributors list EAN/UPC 7503002196021; kept 13-digit EAN.", "Several feeds name it orange liquid; this appears to describe can color, while technical sheet states transparent liquid.", "Some retailers add degreaser; official source defines it mainly as dielectric cleaner/lubricant."]
+        },
+        "measurements": { "unitCan": "13.5 cm height x 5.0 cm diameter", "retailUnitDimensions": "14 x 6 x 6 cm", "weight": "0.22 kg", "casePack": "25 pieces, 34.5 x 22.5 x 15 cm, 5.4 kg" },
+        "sourceRefs": [
+          { "title": "Silimex Silijet E-Plus 170 ml product page", "type": "manufacturer", "url": "https://silimex.com.mx/producto/silijet-e-plus-170-ml/" },
+          { "title": "Silimex Silijet E-Plus technical data sheet", "type": "datasheet", "url": "https://comeind.com.mx/wp-content/uploads/2022/09/SILIMEX-SILIJET-E-PLUS-2021.pdf" },
+          { "title": "Exel Silimex Silijet E-Plus listing", "type": "distributor", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/S1PLIMAB021" }
+        ]
+      }
+    },
+    {
+      "product_id": "rwotco09ta45qw0",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dell CP3724 EcoLoop Essential mochila laptop 14 a 16 pulgadas",
+        "description": "Mochila Dell EcoLoop Essential 14-16 CP3724 para laptop de hasta 16 pulgadas, con acolchado 360 grados, tela 400D resistente al agua, organizador interno, bolsillo frontal, dos bolsillos laterales de malla y detalles reflectantes.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas/dell-cp3724-ecoloop-essential",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-ecoloop-essential-backpack-14-16/apd/460-bdsw/laptop-bags-and-cases",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10408772",
+          "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/carrying-cases/cp3724/mg/accessories-dell-ecoloop-backpack-cp3724-bk-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=770&qlt=100,1&resMode=sharp2&size=770,804&chrss=full",
+          "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/carrying-cases/cp3724/mg/accessories-dell-ecoloop-backpack-cp3724-bk-gallery-3.psd?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=593&qlt=100,1&resMode=sharp2&size=593,804&chrss=full",
+          "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/carrying-cases/cp3724/mg/accessories-dell-ecoloop-backpack-cp3724-bk-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=804&wid=595&qlt=100,1&resMode=sharp2&size=595,804&chrss=full"
+        ],
+        "documents": [
+          { "label": "Dell CP3724 product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-ecoloop-essential-backpack-14-16/apd/460-bdsw/laptop-bags-and-cases" },
+          { "label": "Dell EcoLoop Essential Backpack 14-16 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-ecoloop-essential-backpack-14-16-cp3724-datasheet.pdf" },
+          { "label": "Dell CP3724 product carbon footprint", "type": "carbon_footprint", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-ecoloop-essential-backpack-14-16-cp3724-pcf-datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "CP3724",
+          "dellPart": "460-BDSW",
+          "manufacturerPart": "XFG7W",
+          "vpnCode": "Dell-CP3724",
+          "providerSku": "MALDLL630",
+          "cvaSku": "AC-11827",
+          "upcProvider": "884116349129",
+          "upcOfficialFor460BDSW": "884116462903",
+          "ean": "5397184821237",
+          "productType": "Mochila para laptop",
+          "color": "Negro",
+          "laptopCompatibility": "Up to 16 inches",
+          "maxLaptopDimensions": "400 x 270 x 25 mm",
+          "material": ["400D fabric", "Polyester", "Foam"],
+          "sustainability": "Main exterior fabric 100% recycled plastic, approximately 8 bottles",
+          "features": ["360-degree padding", "Water resistant", "Large main compartment", "Padded laptop sleeve", "Integrated organizer", "Zipped front pocket", "2 side mesh pockets", "Reflective details", "Padded back panel"],
+          "warranty": "3-year limited",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALDLL630", "stock": 645, "price": 348.89, "currency": "MXN" }, { "providerId": "cva", "providerSku": "AC-11827", "stock": 0, "price": 374.37, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider UPC 884116349129 corresponds officially to Dell Essential Backpack 15 ES1520P / 460-BCTJ, not CP3724 / 460-BDSW.", "Dell and current retailers for 460-BDSW/CP3724 list UPC 884116462903 and EAN 5397184821237; some Mexico AC-11827 listings mix CP3724 specs with old UPC 884116349129.", "Dell USA title says Dell 14-16 EcoLoop Backpack - CP3724 while datasheet says Dell EcoLoop Essential Backpack 14-16; kept EcoLoop Essential from official datasheet.", "Weight: product page/datasheet say 0.5 kg; carbon footprint sheet uses 0.53 kg calculation assumption."]
+        },
+        "measurements": { "dimensions": "440 x 310 x 140 mm", "weight": "0.5 kg", "capacity": "18 L", "maxLaptopDimensions": "400 x 270 x 25 mm" },
+        "sourceRefs": [
+          { "title": "Dell EcoLoop Essential Backpack 14-16 product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-ecoloop-essential-backpack-14-16/apd/460-bdsw/laptop-bags-and-cases" },
+          { "title": "Dell CP3724 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-ecoloop-essential-backpack-14-16-cp3724-datasheet.pdf" },
+          { "title": "GlobalOffice Dell CP3724 listing", "type": "distributor", "url": "https://globaloffice.mx/app/detalle/producto/portatiles/mochila-dell-ecoloop-esential-backpack-1/460-bdsw" }
+        ]
+      }
+    }
+  ]
+}
