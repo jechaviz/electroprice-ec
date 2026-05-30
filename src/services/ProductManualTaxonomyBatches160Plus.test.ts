@@ -52,6 +52,16 @@ const batch160PlusCases = [
   ["Vica VIC12-9A bateria sellada VRLA 12V 9Ah para UPS", "VICA", "energia/baterias-ups/selladas-12v/9ah", "power"],
   ["HiLook by Hikvision HL1080PS(C) kit TurboHD DVR 4 canales 4 camaras 2MP", "HIKVISION", "seguridad/cctv/kits-turbohd/4-canales/4-camaras-2mp", "cameras"],
   ["Kyocera TK-582C 1T02KTCUS0 toner cian original", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/cian", "printers_scanners"],
+  ["Acteck Captive Vivid SP215 AC-933858 monitor 21.5 FHD 75Hz negro", "ACTECK", "computo/monitores/oficina/22-fhd-75hz", "monitors"],
+  ["Complet RPLUS 2000 ERV-6-012 regulador de voltaje 2000VA 1000W", "COMPLET", "energia/supresores-reguladores/reguladores-voltaje/avr/2000va", "power"],
+  ["Manhattan 307178 cable USB 2.0 A macho a Micro-B macho 1.8 m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-1-8m", "accessories"],
+  ["Perfect Choice PC-331148 transmisor Bluetooth FM para auto con 2 USB", "PERFECT CHOICE", "audio/accesorios/transmisores-fm/bluetooth-12v", "audio"],
+  ["Vorago Slimbay A 5 N4020-NOS-5 PC Celeron N4020 8GB 240GB SSD", "VORAGO", "computo/desktops/slim/celeron-n4020-8gb-240gb", "desktops"],
+  ["TP-Link Tapo C310 camara Wi-Fi exterior 2K IP66 microSD", "TP LINK", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k", "cameras"],
+  ["Xerox 006R04644 toner negro extra alta capacidad 25000 paginas C620 C625", "XEROX", "impresion/consumibles/toner-laser/xerox/006r04644-negro", "printers_scanners"],
+  ["Smartbitt SBOL10KRTG1-2 UPS online doble conversion 10kVA 10kW rack torre", "SMARTBITT", "energia/no-breaks-ups/doble-conversion/rack-torre/10000va", "power"],
+  ["Ocelot Gaming OEL360 enfriamiento liquido AIO 360mm ARGB negro", "OCELOT GAMING", "computo/componentes/enfriamiento/liquido-cpu/360mm/argb", "components"],
+  ["Naceb Technology NA-0313A audifonos diadema alambricos 3.5mm azul verde", "NACEB TECHNOLOGY", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono", "headphones"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

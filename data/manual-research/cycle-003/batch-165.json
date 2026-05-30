@@ -1,0 +1,389 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b165-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 165,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5gq3ngvmj1uc7b6",
+      "research": {
+        "confidence": 0.9,
+        "name": "Acteck Captive Vivid SP215 Monitor 21.5 FHD 75Hz Negro AC-933858",
+        "description": "Monitor Acteck Captive Vivid SP215 de 21.5 pulgadas Full HD, panel VA, frecuencia de 75Hz, entradas HDMI y VGA, soporte VESA 75 x 75 y color negro.",
+        "manualCategoryPath": "computo/monitores/oficina/22-fhd-75hz",
+        "semanticCategoryPath": "computo/monitores/oficina/22-fhd-75hz/acteck-sp215-ac-933858",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10320254"],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AC-933858",
+          "commercialModel": "Captive Vivid SP215",
+          "providerSku": "MNL-2127",
+          "ean": "7506215933858",
+          "productType": "Monitor de oficina",
+          "display": "21.5 in VA, 1920 x 1080",
+          "refreshRate": "75 Hz",
+          "responseTime": "5 a 8 ms",
+          "contrast": "1000:1",
+          "brightness": "200 a 250 cd/m2",
+          "ports": ["HDMI", "VGA", "DC"],
+          "vesa": "75 x 75 mm",
+          "power": "12V 2.5A, consumo hasta 25W",
+          "warranty": "3 anos",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA reporta stock total 30.",
+          "providerOffers": [{"providerId":"cva","providerSku":"MNL-2127","stock":30,"price":1048.65,"currency":"MXN","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La descripcion previa menciona SP240, pero modelo, ficha y proveedor apuntan a SP215."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"dimensions":"49.2 x 15.2 x 37.4 cm", "packageDimensions":"54.2 x 11.7 x 35.5 cm", "weight":"1.98 kg", "packageWeight":"2.68 kg"},
+        "sourceRefs": [
+          {"title":"Acteck AC-933858 datasheet", "type":"manufacturer_datasheet", "url":"https://dicom.mx/imgs/Acteck/AC-933858/AC-933858.pdf"},
+          {"title":"CVA MNL-2127 image and stock 30", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5h95ueg9ga4rwdm",
+      "research": {
+        "confidence": 0.9,
+        "name": "Complet RPLUS 2000 Regulador de Voltaje 2000VA 1000W ERV-6-012",
+        "description": "Regulador de voltaje Complet RPLUS 2000 ERV-6-012 con supresor de picos, 2000VA/1000W, ocho salidas NEMA 5-15R y proteccion termica.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/2000va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/2000va/complet-rplus-2000-erv-6-012",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10447262"],
+        "specs": {
+          "brand": "COMPLET",
+          "model": "ERV-6-012",
+          "commercialModel": "RPLUS 2000",
+          "providerSku": "REGCOM320 / RE-214",
+          "productType": "Regulador AVR con supresor",
+          "capacity": "2000VA / 1000W",
+          "input": "100 a 140 Vca, 60Hz",
+          "output": "120 Vca onda senoidal",
+          "outlets": "8 NEMA 5-15R",
+          "surgeProtection": "504 J",
+          "efficiency": "Mayor a 97%",
+          "thermalProtection": "10 A",
+          "warranty": "60 meses",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 33 y CVA 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"REGCOM320","stock":33,"price":398.15,"currency":"MXN","priceKind":"best_price"},
+            {"providerId":"cva","providerSku":"RE-214","stock":0,"price":0,"currency":"MXN","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["La categoria base previa era laptops; el producto es energia/regulador."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"dimensions":"13.36 x 12.35 x 10.27 cm", "packageDimensions":"14.8 x 16 x 14.7 cm", "weight":"1.76 kg", "packageWeight":"1.85 kg"},
+        "sourceRefs": [
+          {"title":"Complet ERV-6-012 ficha tecnica", "type":"manufacturer_datasheet", "url":"https://energiayredes.com/wp-content/uploads/ERV-6-012.Ficha_.pdf"},
+          {"title":"CTOnline REGCOM320 and CVA RE-214 stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5hky0uv71uz3yxd",
+      "research": {
+        "confidence": 0.9,
+        "name": "Manhattan 307178 Cable USB 2.0 A Macho a Micro-B Macho 1.8 m Negro",
+        "description": "Cable Manhattan 307178 USB 2.0 A macho a Micro-B macho de 1.8 m para transferencia de datos hasta 480Mbps y carga de dispositivos compatibles.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-1-8m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-1-8m/manhattan-307178",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=3437686"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "307178",
+          "providerSku": "CABITL315 / CB-336",
+          "upc": "766623307178",
+          "productType": "Cable USB 2.0",
+          "connectors": ["USB-A macho", "Micro-B macho"],
+          "speed": "480 Mbps",
+          "length": "1.8 m",
+          "jacket": "PVC negro",
+          "contacts": "Niquelados",
+          "conductors": "28 AWG, blindado, UL 2725",
+          "warranty": "De por vida",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 283 y CVA 20.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"CABITL315","stock":283,"price":1.68,"currency":"USD","priceKind":"best_price"},
+            {"providerId":"cva","providerSku":"CB-336","stock":20,"price":0,"currency":"USD","priceKind":"seen_available"}
+          ],
+          "sourceDiscrepancies": ["La ruta previa laptops era incorrecta; no es cable SuperSpeed, es USB 2.0."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"length":"1.8 m", "weight":"0.04 kg"},
+        "sourceRefs": [
+          {"title":"Manhattan 307178 official product page", "type":"manufacturer_spec", "url":"https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-micro-b-device-cable-307178"},
+          {"title":"CTOnline CABITL315 and CVA CB-336 stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5hw9ua7tcsmjt1c",
+      "research": {
+        "confidence": 0.88,
+        "name": "Perfect Choice PC-331148 Transmisor Bluetooth FM para Auto con 2 USB Negro",
+        "description": "Transmisor FM Perfect Choice PC-331148 para auto, con Bluetooth 5.0, alimentacion 12-24V, dos puertos USB y salida FM 87.5 a 108MHz.",
+        "manualCategoryPath": "audio/accesorios/transmisores-fm/bluetooth-12v",
+        "semanticCategoryPath": "audio/accesorios/transmisores-fm/bluetooth-12v/perfect-choice-pc-331148",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMST4360/ACCMST4360_full.jpg"],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-331148",
+          "providerSku": "ACCMST4360",
+          "upc": "615604331148",
+          "productType": "Transmisor Bluetooth FM para auto",
+          "bluetoothVersion": "5.0",
+          "fmFrequency": "87.5 a 108 MHz",
+          "powerInput": "12 a 24 Vdc",
+          "bluetoothRange": "8 m",
+          "fmRange": "2 m",
+          "usbOutput": "5Vcc 50mA",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: LEO 2, VHA 1, DFC 1, TXL 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"LEO","stock":2},{"providerId":"ctonline","warehouseCode":"VHA","stock":1},{"providerId":"ctonline","warehouseCode":"DFC","stock":1},{"providerId":"ctonline","warehouseCode":"TXL","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCMST4360","stock":5,"price":159.53,"currency":"MXN","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La ruta previa de cables/adaptadores era incorrecta; es accesorio de audio automotriz."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"dimensions":"4 x 4.5 x 7.5 cm", "weight":"No encontrado"},
+        "sourceRefs": [
+          {"title":"Perfect Choice PC-331148 official product page", "type":"manufacturer_spec", "url":"https://perfectchoice.me/products/transmisor-bluetooth-fm-2-puertos-usb"},
+          {"title":"CTOnline ACCMST4360 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5ihnwlohwl1gb18",
+      "research": {
+        "confidence": 0.88,
+        "name": "Vorago Slimbay A 5 PC Intel Celeron N4020 8GB 240GB SSD Sin SO",
+        "description": "Computadora de escritorio Vorago Slimbay A 5 con Intel Celeron N4020, 8GB de memoria, SSD SATA III de 240GB y sin sistema operativo.",
+        "manualCategoryPath": "computo/desktops/slim/celeron-n4020-8gb-240gb",
+        "semanticCategoryPath": "computo/desktops/slim/celeron-n4020-8gb-240gb/vorago-slimbay-a-5-n4020-nos-5",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CPUVGO6000/CPUVGO6000_full.jpg"],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "N4020-NOS-5",
+          "commercialModel": "Slimbay A 5",
+          "providerSku": "CPUVGO6000",
+          "productType": "PC de escritorio slim",
+          "processor": "Intel Celeron N4020",
+          "memory": "8GB",
+          "storage": "240GB SSD SATA III",
+          "operatingSystem": "Sin sistema operativo",
+          "ports": ["HDMI", "VGA", "USB"],
+          "opticalDrive": "No incluye DVD",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 18, GDL 12, OAX 8, DFA 7, VER 2.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":18},{"providerId":"ctonline","warehouseCode":"GDL","stock":12},{"providerId":"ctonline","warehouseCode":"OAX","stock":8},{"providerId":"ctonline","warehouseCode":"DFA","stock":7},{"providerId":"ctonline","warehouseCode":"VER","stock":2}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"CPUVGO6000","stock":47,"price":268.82,"currency":"USD","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La ruta previa de procesadores era incorrecta: es una computadora completa."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"dimensions":"No confiable en fuentes abiertas", "weight":"No confiable en fuentes abiertas"},
+        "sourceRefs": [
+          {"title":"Cyberpuerta Vorago Slimbay A 5 N4020-NOS-5", "type":"reseller_spec", "url":"https://www.cyberpuerta.mx/Computadoras/PC-s-de-Escritorio/Computadora-Vorago-Slimbay-A-5-Intel-Celeron-N4020-8GB-240GB-SSD-sin-Sistema-Operativo.html"},
+          {"title":"CTOnline CPUVGO6000 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5ioq6hapa88nqw3",
+      "research": {
+        "confidence": 0.92,
+        "name": "TP-Link Tapo C310 Camara Wi-Fi Exterior 2K IP66",
+        "description": "Camara fija TP-Link Tapo C310 para exterior, resolucion 2K 2304 x 1296, Wi-Fi 2.4GHz, Ethernet, audio bidireccional, microSD y proteccion IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k/tp-link-tapo-c310",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10240977"],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "Tapo C310",
+          "providerSku": "CV-1359",
+          "productType": "Camara IP Wi-Fi exterior",
+          "resolution": "2304 x 1296",
+          "sensor": "1/2.8 in CMOS",
+          "lens": "3.9 mm F2.0",
+          "nightVision": "IR 850 nm hasta 30 m",
+          "video": "H.264 hasta 15 fps",
+          "storage": "MicroSD hasta 512GB",
+          "network": "Wi-Fi 2.4GHz 802.11b/g/n y Ethernet 10/100",
+          "standards": ["RTSP", "ONVIF"],
+          "protection": "IP66",
+          "power": "9V 0.6A, 2.3W tipico, 4W max",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA reporta stock total 8.",
+          "providerOffers": [{"providerId":"cva","providerSku":"CV-1359","stock":8,"price":30.1,"currency":"USD","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["El titulo de proveedor dice PT exterior; Tapo C310 es camara fija exterior."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"dimensions":"142.3 x 103.4 x 64.3 mm", "weight":"220 g"},
+        "sourceRefs": [
+          {"title":"TP-Link Tapo C310 datasheet", "type":"manufacturer_datasheet", "url":"https://static.tp-link.com/upload/product-overview/2026/202604/20260421/Tapo%20C310%202.0%262.20%262.26%262.28_Datasheet.pdf"},
+          {"title":"CVA CV-1359 image and stock 8", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5iqtiyvueyic39l",
+      "research": {
+        "confidence": 0.88,
+        "name": "Xerox 006R04644 Toner Negro Alta Capacidad 25000 Paginas VersaLink C620 C625",
+        "description": "Toner original Xerox 006R04644 negro de alta capacidad para equipos VersaLink C625, con rendimiento reportado de 25000 paginas y compatibilidad comercial C620/C625.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/xerox/006r04644-negro",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/xerox/006r04644-negro/xerox-006r04644",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455319"],
+        "specs": {
+          "brand": "XEROX",
+          "model": "006R04644",
+          "providerSku": "CARXRX7370 / CN-5122",
+          "productType": "Toner laser original",
+          "color": "Negro",
+          "yield": "25000 paginas",
+          "compatibility": "Xerox VersaLink C625; fuentes comerciales tambien listan C620/C625",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 8 y CVA 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"CARXRX7370","stock":8,"price":212.77,"currency":"USD","priceKind":"best_price"},
+            {"providerId":"cva","providerSku":"CN-5122","stock":0,"price":0,"currency":"USD","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["Xerox oficial confirma C625; C620 proviene de proveedor/fuentes comerciales y queda indicado como compatibilidad comercial."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"dimensions":"No encontrado", "weight":"No encontrado"},
+        "sourceRefs": [
+          {"title":"Xerox 006R04644 official supply page", "type":"manufacturer_spec", "url":"https://www.xerox.com/en-in/supplies-and-accessories/006R04644"},
+          {"title":"Teodomi Xerox 006R04644 C620 C625 reference", "type":"reseller_spec", "url":"https://teodomi.com/producto/toner-xerox-006r04644-negro-original-versalink-c620-c625/"},
+          {"title":"CTOnline CARXRX7370 and CVA CN-5122 stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5iz0dbxax39r2mg",
+      "research": {
+        "confidence": 0.9,
+        "name": "Smartbitt SBOL10KRTG1-2 UPS On-Line Bifasico 10kVA 10kW Rack Torre",
+        "description": "UPS Smartbitt SBOL10KRTG1-2 online doble conversion de 10kVA/10kW, formato rack/torre, salida senoidal, USB, RS-232 y banco de baterias externo.",
+        "manualCategoryPath": "energia/no-breaks-ups/doble-conversion/rack-torre/10000va",
+        "semanticCategoryPath": "energia/no-breaks-ups/doble-conversion/rack-torre/10000va/smartbitt-sbol10krtg1-2",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9857101"],
+        "specs": {
+          "brand": "SMARTBITT",
+          "model": "SBOL10KRTG1-2",
+          "providerSku": "NBKBIT120 / FR-1178",
+          "productType": "UPS online rack torre",
+          "capacity": "10000VA / 10000W",
+          "topology": "Doble conversion online",
+          "input": "208/220/230/240 VAC, 176 a 300 VAC, 40 a 70 Hz",
+          "output": "208/220/230/240 VAC y 105/110/115/120 VAC con transformador",
+          "transferTime": "0 ms",
+          "waveform": "Senoidal pura",
+          "interfaces": ["USB", "RS-232", "SNMP opcional"],
+          "battery": "240VDC, 20 baterias 12V/9Ah",
+          "runtime": "5 min al 100%, 12 min al 50%",
+          "protection": "IP21",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 2 y CVA 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"NBKBIT120","stock":2,"price":82814.5,"currency":"MXN","priceKind":"best_price"},
+            {"providerId":"cva","providerSku":"FR-1178","stock":0,"price":0,"currency":"MXN","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["CT reporta stock activo; CVA conserva precio/ficha sin disponibilidad."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"upsModule":"610 x 438 x 88 mm, 20 kg", "batteryModule":"715 x 438 x 133 mm, 53 kg", "transformerModule":"607 x 438 x 133 mm, 102 kg"},
+        "sourceRefs": [
+          {"title":"Smartbitt SBOL10KRTG1-2 brochure", "type":"manufacturer_datasheet", "url":"https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/c15008a_c15008a.pdf"},
+          {"title":"CTOnline NBKBIT120 and CVA FR-1178 stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5izyj5fdcd76msc",
+      "research": {
+        "confidence": 0.9,
+        "name": "Ocelot Gaming OEL360 Enfriamiento Liquido AIO 360mm ARGB Negro",
+        "description": "Sistema de enfriamiento liquido AIO Ocelot Gaming OEL360 con radiador de 360mm, bomba de 2500RPM, tres ventiladores ARGB PWM y compatibilidad Intel/AMD.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/360mm/argb",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/360mm/argb/ocelot-gaming-oel360",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10425272"],
+        "specs": {
+          "brand": "OCELOT GAMING",
+          "model": "OEL360",
+          "providerSku": "CF-476",
+          "productType": "Enfriamiento liquido AIO",
+          "radiator": "397 x 120 x 27 mm aluminio",
+          "hose": "EPDM trenzado 380 mm",
+          "pump": "12V, 3.6W, 2500RPM, 25dB",
+          "lighting": "ARGB 3-pin 5V",
+          "fanSpeed": "800 a 1800 RPM",
+          "airflow": "67.96 CFM max",
+          "staticPressure": "2.28 mm H2O",
+          "noise": "15 a 35 dBA",
+          "bearing": "Hidraulico, 30000 h",
+          "compatibility": "Intel LGA 115x/1200/1366/1700/2011/2066 y AMD FM/AM hasta AM5",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA reporta stock total 2.",
+          "providerOffers": [{"providerId":"cva","providerSku":"CF-476","stock":2,"price":66.7,"currency":"USD","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La ruta previa infraestructura/racks-enfriamiento era incorrecta; proveedor menciona 70CFM y manual 67.96CFM."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"weight":"2260 g", "packageWeight":"2500 g"},
+        "sourceRefs": [
+          {"title":"Ocelot Gaming OEL360 official product page", "type":"manufacturer_spec", "url":"https://ocelot.com.mx/producto/enfriamiento-liquido-oel-360/"},
+          {"title":"Ocelot Gaming OEL360 manual", "type":"manufacturer_manual", "url":"https://ocelot.com.mx/wp-content/uploads/2024/12/MANUAL-OEL360.pdf"},
+          {"title":"CVA CF-476 image and stock 2", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5j5uabehrjtcphi",
+      "research": {
+        "confidence": 0.86,
+        "name": "Naceb Technology NA-0313A Audifonos Diadema Alambricos Azul Verde",
+        "description": "Audifonos de diadema Naceb Technology NA-0313A alambricos con conector 3.5mm, microfono en linea, cable de 1.2 m y acabado azul/verde.",
+        "manualCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono",
+        "semanticCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono/naceb-na-0313a",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCNCB700/BOCNCB700_1_full.jpg"],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0313A",
+          "providerSku": "BOCNCB700",
+          "ean": "7502262808408",
+          "productType": "Audifonos de diadema alambricos",
+          "connector": "3.5 mm",
+          "microphone": "En linea",
+          "frequencyResponse": "20 Hz a 20000 Hz",
+          "cableLength": "1.2 m",
+          "color": "Azul y verde",
+          "providerBranchSummary": "Disponible por sucursal proveedor: TRN 10, CDV 9, LEO 6, CHI 5, SLT 5, XLP 5, VER 5, PUE 5, MID 5, PAC 5, DFT 5, ACX 5; resto no desglosado.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"TRN","stock":10},{"providerId":"ctonline","warehouseCode":"CDV","stock":9},{"providerId":"ctonline","warehouseCode":"LEO","stock":6},{"providerId":"ctonline","warehouseCode":"CHI","stock":5},{"providerId":"ctonline","warehouseCode":"SLT","stock":5},{"providerId":"ctonline","warehouseCode":"XLP","stock":5},{"providerId":"ctonline","warehouseCode":"VER","stock":5},{"providerId":"ctonline","warehouseCode":"PUE","stock":5},{"providerId":"ctonline","warehouseCode":"MID","stock":5},{"providerId":"ctonline","warehouseCode":"PAC","stock":5},{"providerId":"ctonline","warehouseCode":"DFT","stock":5},{"providerId":"ctonline","warehouseCode":"ACX","stock":5}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"BOCNCB700","stock":151,"price":74,"currency":"MXN","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["Stock total 151; sucursales visibles suman 70 y el resto no viene desglosado."],
+          "providerStockVerifiedAt": "2026-05-30T20:20:00Z"
+        },
+        "measurements": {"cableLength":"1.2 m", "weight":"No encontrado"},
+        "sourceRefs": [
+          {"title":"MCAShop Naceb NA-0313A ficha", "type":"reseller_spec", "url":"https://mcashop.mx/producto/descargar/137303"},
+          {"title":"CompuPuebla Naceb NA-0313A", "type":"reseller_spec", "url":"https://compupuebla.com/producto/diadema-naceb-technology-na-0313a/"},
+          {"title":"CTOnline BOCNCB700 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T20:20:00Z"}
+        ]
+      }
+    }
+  ]
+}
