@@ -1,0 +1,413 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b171-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 171,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5vf1bnaydqcjqka",
+      "research": {
+        "confidence": 0.9,
+        "name": "LG VO182H1 Smart Inverter Minisplit 1.5 toneladas frio calor 18000 BTU 230V",
+        "description": "Minisplit LG VO182H1 Smart Inverter de 1.5 toneladas, 18000 BTU frio/calor, 230V, refrigerante R32 y conectividad Wi-Fi ThinQ.",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/minisplit/inverter/18000-btu",
+        "semanticCategoryPath": "climatizacion/aires-acondicionados/minisplit/inverter/18000-btu/lg-vo182h1",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/mx/aire-acondicionado/minisplit-inverter/vo182h1/",
+        "gallery": ["https://www.lg.com/content/dam/channel/wcms/mx/images/aire-acondicionado/vo182h1_atm_gwmamxs_eamx_mx_c/gallery/DZ-1.jpg"],
+        "specs": {
+          "brand": "LG",
+          "model": "VO182H1",
+          "commercialModel": "Smart Inverter",
+          "providerSku": "AIRLGE630",
+          "productType": "Minisplit inverter frio/calor",
+          "capacity": "18000 BTU / 1.5 toneladas",
+          "voltage": "230V / 60Hz",
+          "refrigerant": "R32",
+          "seer": "16.0",
+          "connectivity": "Wi-Fi ThinQ",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFC 1.",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "DFC", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "AIRLGE630", "stock": 1, "price": 8183.33, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es climatizacion/minisplit.", "LG referencia la familia S3-W18HZAAA.DXWAMEX en especificaciones regionales."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"indoorDimensions": "890 x 300 x 220 mm", "indoorWeight": "11.0 kg", "outdoorDimensions": "810 x 595 x 280 mm", "outdoorWeight": "30.0 kg"},
+        "sourceRefs": [
+          {"title": "LG Mexico VO182H1 official page", "type": "manufacturer_spec", "url": "https://www.lg.com/mx/aire-acondicionado/minisplit-inverter/vo182h1/"},
+          {"title": "CTOnline AIRLGE630 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5vkpm3wr0hzkzam",
+      "research": {
+        "confidence": 0.86,
+        "brand": "UNV",
+        "name": "UNV IPC3616SB-ADF28KMC-I1 camara IP turret ColorHunter Wise-ISP 6MP 2.8mm PoE",
+        "description": "Camara IP turret UNV Uniview IPC3616SB-ADF28KMC-I1 de 6MP con ColorHunter Wise-ISP, lente 2.8mm, iluminacion dual, microfono, bocina, microSD y PoE.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light/unv-ipc3616sb-adf28kmc-i1",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.visiotechsecurity.com/en/products/ip-cctv-1/professional-ip-cameras-11/uniview---uniarch-312/turret-cameras-704/uv-ipc3616sb-adf28kmc-i1-detail",
+        "gallery": ["https://static.tecnosinergia.com/media/catalog/product/cache/f5e3c6d8aef6b4d3c0a0d9f6d3d3e3a3/c/i/ci128unv28.jpg"],
+        "specs": {
+          "brand": "UNV",
+          "model": "IPC3616SB-ADF28KMC-I1",
+          "providerSku": "CI128UNV28",
+          "productType": "Camara IP turret PoE",
+          "resolution": "6MP 3200 x 1800",
+          "lens": "2.8 mm",
+          "illumination": "IR 30 m y luz blanca 30 m",
+          "wdr": "130 dB",
+          "storage": "microSD hasta 512GB",
+          "audio": "Microfono y bocina",
+          "power": "12V DC o PoE 802.3af",
+          "protection": "IP67",
+          "providerBranchSummary": "Sucursal proveedor no disponible; Tecnosinergia stock 9.",
+          "providerOffers": [{"providerId": "tecnosinergia", "providerSku": "CI128UNV28", "stock": 9, "price": 2445.89, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed usa marca ElectroPrice; el SKU CI128UNV28 corresponde a UNV/Uniview.", "No hay sucursal visible en el feed."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"dimensions": "Diametro 111 x 98 mm", "weight": "470 g"},
+        "sourceRefs": [
+          {"title": "Visiotech UNV IPC3616SB-ADF28KMC-I1", "type": "retail_spec", "url": "https://www.visiotechsecurity.com/en/products/ip-cctv-1/professional-ip-cameras-11/uniview---uniarch-312/turret-cameras-704/uv-ipc3616sb-adf28kmc-i1-detail"},
+          {"title": "Tecnosinergia CI128UNV28 stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5vuqjyoyyircud4",
+      "research": {
+        "confidence": 0.9,
+        "name": "Perfect Choice PC-171652 hub USB-C 4 puertos negro",
+        "description": "Hub Perfect Choice PC-171652 USB-C para laptop y dispositivos moviles con 3 puertos USB-A/USB-C de datos y cable integrado de 15 cm.",
+        "manualCategoryPath": "computo/accesorios/docks-hubs/usb-c",
+        "semanticCategoryPath": "computo/accesorios/docks-hubs/usb-c/perfect-choice-pc-171652",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/hub-tipo-c-para-laptop-y-dispositivos-moviles",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMST4510/ACCMST4510_full.jpg"],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-171652",
+          "providerSku": "ACCMST4510",
+          "productType": "Hub USB-C",
+          "input": "USB-C",
+          "ports": "1 USB-A 3.0 hasta 5Gbps; 2 USB-C hasta 480Mbps segun ficha",
+          "cableLength": "15 cm",
+          "compatibility": "Windows, macOS y Linux",
+          "upc": "615604171652",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 50, PUE 3, GDL 2.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 50},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCMST4510", "stock": 55, "price": 111.46, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es hub/adaptador USB-C."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"dimensions": "85 x 28 x 10 mm", "weight": "23 g", "cableLength": "15 cm"},
+        "sourceRefs": [
+          {"title": "Perfect Choice PC-171652 official page", "type": "manufacturer_spec", "url": "https://perfectchoice.me/products/hub-tipo-c-para-laptop-y-dispositivos-moviles"},
+          {"title": "GlobalOffice PC-171652", "type": "retail_spec", "url": "https://globaloffice.mx/app/detalle/producto/portatiles/hub-usb-tipo-c-3-puertos-usb-a-1-puerto-usb-c-pc/pc-171652"},
+          {"title": "CTOnline ACCMST4510 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5w46hpl2yjmulm5",
+      "research": {
+        "confidence": 0.88,
+        "name": "Vorago AU-600 cargador de pared USB-C PD 100W 5 puertos",
+        "description": "Cargador de pared Vorago AU-600 de 100W maximo con 3 puertos USB-C, 2 USB-A, Power Delivery 3.0 y Quick Charge 3.0.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c/100w-multipuerto",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c/100w-multipuerto/vorago-au-600",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manuals.plus/vorago/au-600-wall-charger-manual",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCVGO2590/ACCVGO2590_full.jpg"],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "AU-600",
+          "providerSku": "ACCVGO2590",
+          "productType": "Cargador de pared USB multipuerto",
+          "input": "110-240V 50/60Hz 2.5A",
+          "power": "100W max",
+          "ports": "3 USB-C y 2 USB-A",
+          "protocols": "PD 3.0, QC 3.0",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 11, CMT 5, ACA 4, OBR 3, QRO 3, GDL 3, MOR 3, XLP 3, PUE 3, SLP 2, VHA 2, TXA 2. Desglose visible parcial.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 11},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "OBR", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "QRO", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "XLP", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "SLP", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "VHA", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "TXA", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCVGO2590", "stock": 51, "price": 35.76, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa headphones era incorrecta; es cargador de pared.", "Sucursales visibles suman 44 contra total_stock 51; se conserva total PB y se marca desglose parcial."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"weight": "No disponible confiable"},
+        "sourceRefs": [
+          {"title": "Vorago AU-600 manual", "type": "manufacturer_reference", "url": "https://manuals.plus/vorago/au-600-wall-charger-manual"},
+          {"title": "GlobalOffice Vorago AU-600", "type": "retail_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/laptops/cargador-de-pared-vorago-au-600-tipo-c-100w-pd-5/au-600"},
+          {"title": "CTOnline ACCVGO2590 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5wedu32v6agak0l",
+      "research": {
+        "confidence": 0.9,
+        "name": "Bixolon SPP-R310 impresora movil termica 3 pulgadas para recibos y etiquetas",
+        "description": "Impresora movil Bixolon SPP-R310 termica directa de 3 pulgadas para recibos, linerless y etiquetas, 203 dpi, bateria Li-ion y opciones Bluetooth/WLAN.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/termicas-moviles",
+        "semanticCategoryPath": "impresion/impresoras/etiquetas/termicas-moviles/bixolon-spp-r310",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://bixoloneu.com/product/spp-r310/?lang=es",
+        "gallery": ["https://static.ctonline.mx/imagenes/IMPSMP830/IMPSMP830_full.jpg"],
+        "specs": {
+          "brand": "BIXOLON",
+          "model": "SPP-R310",
+          "providerSku": "IMPSMP830",
+          "productType": "Impresora movil termica",
+          "printTechnology": "Termica directa",
+          "resolution": "203 dpi",
+          "speed": "Hasta 100 mm/s recibos; 80 mm/s linerless",
+          "media": "Ancho 80 mm; rollo hasta 50 mm",
+          "connectivity": "USB/serial base; Bluetooth/WLAN opcional segun configuracion",
+          "battery": "Li-ion 7.3V 2850mAh",
+          "rugged": "IP54 con funda; caida 1.8 m",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 6.",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "DFA", "stock": 6}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "IMPSMP830", "stock": 6, "price": 295.77, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa monitors era incorrecta; es impresora movil termica."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"dimensions": "105 x 126 x 58 mm", "weight": "385 g con bateria"},
+        "sourceRefs": [
+          {"title": "Bixolon SPP-R310 official page", "type": "manufacturer_spec", "url": "https://bixoloneu.com/product/spp-r310/?lang=es"},
+          {"title": "CTOnline IMPSMP830 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5wpwhcvtcwatnyd",
+      "research": {
+        "confidence": 0.86,
+        "name": "Balam Rush Eolox Blaze EX50KW kit 3 ventiladores ARGB 120mm blancos",
+        "description": "Kit Balam Rush Eolox Blaze EX50KW con 3 ventiladores ARGB de 120mm en color blanco para gabinete gamer.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb/balam-rush-eolox-blaze-ex50kw",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/VENBLR160/VENBLR160_full.jpg"],
+        "specs": {
+          "brand": "BALAM RUSH",
+          "model": "EX50KW",
+          "partNumber": "BR-937993",
+          "providerSku": "VENBLR160",
+          "productType": "Kit ventiladores ARGB para gabinete",
+          "fans": "3 ventiladores",
+          "diameter": "120 mm",
+          "speed": "1500 RPM max",
+          "airflow": "28.76 CFM",
+          "noise": "23.3 dB",
+          "connector": "3 pines",
+          "voltage": "5/12V",
+          "color": "Blanco",
+          "ean": "7506215937993",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 9, D2A 6, GDL 4, MOR 1, MTY 1, ZAC 1, CDV 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 9},
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "MTY", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "CDV", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "VENBLR160", "stock": 23, "price": 329.8, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es enfriamiento de gabinete."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"packageDimensions": "8 x 16 x 12.6 cm aprox.", "packageWeight": "0.45 kg aprox.", "fanDimensions": "120 x 120 x 25 mm"},
+        "sourceRefs": [
+          {"title": "CompuPuebla Balam Rush EX50KW", "type": "retail_spec", "url": "https://compupuebla.com/producto/ventiladores-balam-rush-ex50kw/"},
+          {"title": "CTOnline VENBLR160 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5xj22vx12y2wkot",
+      "research": {
+        "confidence": 0.88,
+        "name": "Complet Tulum 1500 no-break UPS 1500VA 750W 10 contactos",
+        "description": "No-break Complet Tulum 1500 de 1500VA/750W con 10 contactos, baterias 2 x 12V/9Ah y proteccion para equipos electronicos.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/1500va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/1500va/complet-tulum-1500",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.completstore.com/product-page/t1500",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKCOM240/NBKCOM240_full.jpg"],
+        "specs": {
+          "brand": "COMPLET",
+          "model": "Tulum 1500",
+          "providerSku": "NBKCOM240",
+          "productType": "No-break / UPS line-interactive",
+          "capacity": "1500VA / 750W",
+          "outlets": "10 contactos",
+          "battery": "2 x 12V/9Ah",
+          "protection": "Protector termico de sobrecarga",
+          "warranty": "24 meses baterias; 60 meses componentes segun fabricante",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 4, DGO 2, DFA 2, TRN 1, COL 1, MID 1, IRA 1, TXL 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "DGO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "COL", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "MID", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "TXL", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "NBKCOM240", "stock": 13, "price": 2026.09, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es no-break/UPS."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"weight": "No disponible confiable"},
+        "sourceRefs": [
+          {"title": "Complet Tulum 1500 official page", "type": "manufacturer_spec", "url": "https://www.completstore.com/product-page/t1500"},
+          {"title": "CTOnline NBKCOM240 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5y61xa37klin99t",
+      "research": {
+        "confidence": 0.9,
+        "name": "Logitech G309 LIGHTSPEED mouse gaming inalambrico Bluetooth blanco",
+        "description": "Mouse gaming Logitech G309 LIGHTSPEED inalambrico con sensor HERO 25K, switches LIGHTFORCE, Bluetooth, LIGHTSPEED y compatibilidad POWERPLAY.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/gaming",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/gaming/logitech-g309-lightspeed",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitechg.com/es-ar/products/gaming-mice/g309-lightspeed-gaming-mouse.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOULOG3210/MOULOG3210_full.jpg"],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "G309 LIGHTSPEED",
+          "providerSku": "MOULOG3210",
+          "productType": "Mouse gaming inalambrico",
+          "sensor": "HERO 25K",
+          "switches": "LIGHTFORCE hibridos optico-mecanicos",
+          "wireless": "LIGHTSPEED y Bluetooth",
+          "tracking": "400+ IPS",
+          "color": "Blanco",
+          "providerBranchSummary": "Disponible por sucursal proveedor: ZAC 2, DGO 1, DFA 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "DGO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "MOULOG3210", "stock": 4, "price": 1304.71, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa networking era incorrecta; es mouse gaming."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"weight": "86 g con bateria AA; 68 g usando POWERPLAY sin AA"},
+        "sourceRefs": [
+          {"title": "Logitech G309 LIGHTSPEED official page", "type": "manufacturer_spec", "url": "https://www.logitechg.com/es-ar/products/gaming-mice/g309-lightspeed-gaming-mouse.html"},
+          {"title": "CTOnline MOULOG3210 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5yxmyu2povlnr6x",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dahua DH-HAC-HFW1239TLMN-A-LED-0360B camara bullet HDCVI Full Color 2MP 3.6mm con microfono",
+        "description": "Camara Dahua HDCVI bullet Full Color 2MP con lente 3.6mm, luz blanca 40m, WDR real 130dB, microfono integrado y proteccion IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color/dahua-hac-hfw1239tlmn-a-led-0360b",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/Discontinued-Products/HDCVI-Cameras/HAC-HFW1239TLM(-A)-LED",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMDAH2150/CAMDAH2150_full.jpg"],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-HAC-HFW1239TLMN-A-LED-0360B",
+          "providerSku": "CAMDAH2150",
+          "productType": "Camara bullet HDCVI",
+          "resolution": "2MP 1080p",
+          "lens": "3.6 mm fijo",
+          "illumination": "Full Color 24/7; luz blanca 40 m",
+          "wdr": "130 dB true WDR",
+          "audio": "Microfono integrado",
+          "video": "CVI/CVBS/AHD/TVI conmutable",
+          "power": "12V DC",
+          "protection": "IP67",
+          "providerBranchSummary": "Disponible por sucursal proveedor: TRN 1.",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "TRN", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAMDAH2150", "stock": 1, "price": 31.89, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El nombre previo omitia guiones del modelo.", "El precio esta en USD en CTOnline; no es MXN."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"dimensions": "198.4 x 80.2 x 76.2 mm", "weight": "0.31 kg neto aprox."},
+        "sourceRefs": [
+          {"title": "Dahua HAC-HFW1239TLM-A-LED official page", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/products/All-Products/Discontinued-Products/HDCVI-Cameras/HAC-HFW1239TLM%28-A%29-LED"},
+          {"title": "Tacticas en Seguridad Dahua DH-HAC-HFW1239TLMN-A-LED-0360B", "type": "retail_spec", "url": "https://www.tacticasenseguridad.com/producto/dh-hac-hfw1239tlmn-led-0360b-dahua-bala-2mp-3-6mm-full-color-cctv/"},
+          {"title": "CTOnline CAMDAH2150 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5yyluf8zj2kdqxf",
+      "research": {
+        "confidence": 0.9,
+        "name": "Kyocera TK-5282K toner negro original rendimiento 13000 paginas",
+        "description": "Toner original Kyocera TK-5282K negro para equipos ECOSYS P6235cdn, M6235cidn y M6635cidn, rendimiento aproximado de 13000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-5282k",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-5282k/negro-13000-paginas",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kyoceradocumentsolutions.us/en/products/consumables/TK-5282K.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/TONKYC1610/TONKYC1610_full.jpg"],
+        "specs": {
+          "brand": "KYOCERA",
+          "model": "TK-5282K",
+          "providerSku": "TONKYC1610",
+          "productType": "Toner laser original",
+          "color": "Negro",
+          "yield": "13000 paginas ISO/IEC 19798",
+          "compatibility": "ECOSYS P6235cdn, ECOSYS M6235cidn, ECOSYS M6635cidn",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 6, GDL 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "TONKYC1610", "stock": 7, "price": 100, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es consumible de impresion.", "Precio del proveedor esta en USD."],
+          "providerStockVerifiedAt": "2026-05-30T23:55:00Z"
+        },
+        "measurements": {"weight": "No disponible confiable"},
+        "sourceRefs": [
+          {"title": "Kyocera TK-5282K official consumable page", "type": "manufacturer_spec", "url": "https://www.kyoceradocumentsolutions.us/en/products/consumables/TK-5282K.html"},
+          {"title": "CTOnline TONKYC1610 branch stock", "type": "provider_stock", "observedAt": "2026-05-30T23:55:00Z"}
+        ]
+      }
+    }
+  ]
+}

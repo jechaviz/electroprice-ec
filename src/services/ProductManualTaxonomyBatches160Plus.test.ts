@@ -112,6 +112,16 @@ const batch160PlusCases = [
   ["Swann SWDVK-846806MQB-US kit DVR 8 canales 6 camaras 1080p 1TB", "SWANN", "seguridad/cctv/kits-dvr/8-canales/6-camaras-1080p", "cameras"],
   ["be quiet! Light Base 600 LX White gabinete ATX panoramico ARGB", "BE QUIET", "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb", "components"],
   ["Generico AP2-60W cargador Apple MagSafe 2 60W 16.5V 3.65A blanco", "GENERICO", "computo/accesorios/cargadores-laptop/apple-magsafe-2/60w", "laptops"],
+  ["LG VO182H1 Smart Inverter Minisplit 1.5 toneladas frio calor 18000 BTU 230V", "LG", "climatizacion/aires-acondicionados/minisplit/inverter/18000-btu", "accessories"],
+  ["UNV IPC3616SB-ADF28KMC-I1 camara IP turret ColorHunter Wise-ISP 6MP 2.8mm PoE", "UNV", "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light", "cameras"],
+    ["Perfect Choice PC-171652 hub USB-C 4 puertos negro", "PERFECT CHOICE", "computo/accesorios/docks-hubs/usb-c", "accessories"],
+  ["Vorago AU-600 cargador de pared USB-C PD 100W 5 puertos", "VORAGO", "energia/cargadores-usb/pared-usb-c/100w-multipuerto", "accessories"],
+  ["Bixolon SPP-R310 impresora movil termica 3 pulgadas para recibos y etiquetas", "BIXOLON", "impresion/impresoras/etiquetas/termicas-moviles", "printers_scanners"],
+  ["Balam Rush Eolox Blaze EX50KW kit 3 ventiladores ARGB 120mm blancos", "BALAM RUSH", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb", "components"],
+  ["Complet Tulum 1500 no-break UPS 1500VA 750W 10 contactos", "COMPLET", "energia/no-breaks-ups/line-interactive/1500va", "power"],
+  ["Logitech G309 LIGHTSPEED mouse gaming inalambrico Bluetooth blanco", "LOGITECH", "computo/perifericos/mouse/inalambricos/gaming", "accessories"],
+  ["Dahua DH-HAC-HFW1239TLMN-A-LED-0360B camara bullet HDCVI Full Color 2MP 3.6mm con microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color", "cameras"],
+  ["Kyocera TK-5282K toner negro original rendimiento 13000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5282k", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

@@ -55,4 +55,11 @@ export const MANUAL_CATEGORY_TREE_CYCLE003 = [
   { path: 'seguridad/cctv/kits-dvr/8-canales/6-camaras-1080p', name: 'Kits DVR 8 canales con 6 camaras 1080p', legacyCategory: 'cameras' },
   { path: 'computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb', name: 'Gabinetes gamer ATX panoramicos ARGB', legacyCategory: 'components' },
   { path: 'computo/accesorios/cargadores-laptop/apple-magsafe-2/60w', name: 'Cargadores MagSafe 2 de 60W', legacyCategory: 'laptops' },
+  { path: 'climatizacion/aires-acondicionados/minisplit/inverter/18000-btu', name: 'Minisplit inverter 18000 BTU', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/docks-hubs/usb-c', name: 'Docks y hubs USB-C multipuerto', legacyCategory: 'accessories' },
+  { path: 'energia/cargadores-usb/pared-usb-c/100w-multipuerto', name: 'Cargadores de pared USB-C multipuerto 100W', legacyCategory: 'accessories' },
+  { path: 'impresion/impresoras/etiquetas/termicas-moviles', name: 'Impresoras termicas moviles de etiquetas', legacyCategory: 'printers_scanners' },
+  { path: 'computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb', name: 'Ventiladores de gabinete 120 mm ARGB', legacyCategory: 'components' },
+  { path: 'energia/no-breaks-ups/line-interactive/1500va', name: 'UPS line-interactive 1500VA', legacyCategory: 'power' },
+  { path: 'impresion/consumibles/toner-laser/kyocera/tk-5282k', name: 'Toner Kyocera TK-5282K negro', legacyCategory: 'printers_scanners' },
 ];
