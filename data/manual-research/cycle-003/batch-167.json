@@ -1,0 +1,433 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b167-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 167,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5ma7v7zxzd2ylhw",
+      "research": {
+        "confidence": 0.9,
+        "name": "be quiet! Pure Loop 2 FX BW014 enfriamiento liquido AIO 280mm ARGB",
+        "description": "Enfriamiento liquido AIO be quiet! Pure Loop 2 FX BW014 con radiador de 280mm, dos ventiladores Light Wings PWM de 140mm, bomba PWM y compatibilidad Intel/AMD moderna.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/280mm/argb",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/280mm/argb/be-quiet-pure-loop-2-fx-bw014",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/VENBEQ190/VENBEQ190_full.jpg"],
+        "manufacturerUrl": "https://www.bequiet.com/es/watercooler/3744",
+        "specs": {
+          "brand": "BE QUIET",
+          "model": "BW014",
+          "commercialModel": "Pure Loop 2 FX 280mm",
+          "providerSku": "VENBEQ190",
+          "ean": "4260052189030",
+          "productType": "Enfriamiento liquido AIO para CPU",
+          "radiator": "280 mm",
+          "fans": "2 x Light Wings 140mm PWM high-speed",
+          "pumpSpeed": "4000-5500 rpm PWM",
+          "noise": "10.8 / 22.4 / 32.8 dBA",
+          "socketIntel": "1851, 1700, 1200, 2066, 115x, 2011-3",
+          "socketAmd": "AM5, AM4",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 14, TXA 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":14},
+            {"providerId":"ctonline","warehouseCode":"TXA","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"VENBEQ190","stock":15,"price":117.22,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa infraestructura/racks-enfriamiento era incorrecta; es enfriamiento liquido para CPU."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"radiatorWithFans":"317 x 140 x 52 mm", "radiator":"317 x 140 x 27 mm", "weight":"1.29 kg"},
+        "sourceRefs": [
+          {"title":"be quiet! Pure Loop 2 FX 280mm official product page", "type":"manufacturer_spec", "url":"https://www.bequiet.com/es/watercooler/3744"},
+          {"title":"be quiet! Pure Loop 2 FX datasheet", "type":"manufacturer_datasheet", "url":"https://gzhls.at/blob/ldb/d/e/5/c/dfe2dbf4c79be39079a585610795fa7d02c1.pdf"},
+          {"title":"CTOnline VENBEQ190 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5mb7lkcfw048s0p",
+      "research": {
+        "confidence": 0.89,
+        "name": "Perfect Choice Bagiq PC-084273 funda neopreno para laptop 15.6 in rosa",
+        "description": "Funda Perfect Choice Bagiq PC-084273 de neopreno acolchado para laptop de hasta 15.6 pulgadas, color rosa.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/neopreno",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/neopreno/perfect-choice-bagiq-pc-084273",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10383294"],
+        "manufacturerUrl": "https://perfectchoice.me/products/funda-de-neopreno-para-laptop-15-bagiq",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-084273",
+          "line": "Bagiq",
+          "providerSku": "MALGEN4150 / AC-11311",
+          "productType": "Funda para laptop",
+          "compatibility": "Hasta 15.6 pulgadas",
+          "material": "Neopreno acolchado / poliester",
+          "color": "Rosa",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 7 y CVA stock 2.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"MALGEN4150","stock":7,"price":143.12,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"AC-11311","stock":2,"price":140.78,"currency":"MXN","priceKind":"best_price"}
+          ],
+          "sourceDiscrepancies": ["La categoria previa monitores era incorrecta; es una funda para laptop.", "Fuentes externas difieren en peso: 480 g contra 170 g."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"dimensions":"39.5 x 30 cm", "weight":"480 g fabricante; 170 g en retail alterno"},
+        "sourceRefs": [
+          {"title":"Perfect Choice Bagiq PC-084273 official product page", "type":"manufacturer_spec", "url":"https://perfectchoice.me/products/funda-de-neopreno-para-laptop-15-bagiq"},
+          {"title":"FullOffice PC-084273 retail reference", "type":"retail_spec", "url":"https://fulloffice.com/products/funda-perfect-choice-pc-084273"},
+          {"title":"CTOnline MALGEN4150 and CVA AC-11311 stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5mixy2varngjn98",
+      "research": {
+        "confidence": 0.9,
+        "name": "Logitech MX Mechanical teclado inalambrico mecanico iluminado grafito",
+        "description": "Teclado Logitech MX Mechanical full-size inalambrico, mecanico de bajo perfil, retroiluminacion inteligente, Bluetooth Low Energy y Logi Bolt.",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos/mecanicos",
+        "semanticCategoryPath": "computo/perifericos/teclados/inalambricos/mecanicos/logitech-mx-mechanical",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TECLOG1040/TECLOG1040_full.jpg"],
+        "manufacturerUrl": "https://www.logitech.com/en-us/shop/p/mx-mechanical.920-010547",
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "MX Mechanical",
+          "providerSku": "TECLOG1040",
+          "upc": "097855174536",
+          "productType": "Teclado mecanico inalambrico",
+          "layout": "Full-size",
+          "switches": "Tactile Quiet, Clicky o Linear segun variante",
+          "backlight": "Retroiluminacion inteligente",
+          "connectivity": "Bluetooth Low Energy y Logi Bolt",
+          "easySwitch": "Hasta 3 dispositivos",
+          "color": "Grafito",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 4, CMT 4, D2A 3.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":4},
+            {"providerId":"ctonline","warehouseCode":"CMT","stock":4},
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":3}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"TECLOG1040","stock":11,"price":2844.71,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es un teclado periferico."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"weight":"39.86 oz en ficha retail; dimensiones no confirmadas en fuente oficial abierta"},
+        "sourceRefs": [
+          {"title":"Logitech MX Mechanical official product page", "type":"manufacturer_spec", "url":"https://www.logitech.com/en-us/shop/p/mx-mechanical.920-010547"},
+          {"title":"Logitech MX Mechanical retail datasheet", "type":"retail_datasheet", "url":"https://www.jarcomputers.com/images/custom/docs/1c2483f8d367e46c838faafe50a12a4f91185380_bb855e69_8961_43b1_918b_b35bbc1d5426-169828720721.pdf"},
+          {"title":"CTOnline TECLOG1040 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5n6c4xvzcubsu35",
+      "research": {
+        "confidence": 0.9,
+        "name": "Brother LC402XLY cartucho de tinta amarillo XL alto rendimiento",
+        "description": "Cartucho original Brother LC402XLY amarillo de alto rendimiento para impresoras INKvestment Tank compatibles, hasta 1500 paginas ISO/IEC 24711.",
+        "manualCategoryPath": "impresion/consumibles/cartuchos-tinta/brother/lc402/amarillo-xl",
+        "semanticCategoryPath": "impresion/consumibles/cartuchos-tinta/brother/lc402/amarillo-xl/brother-lc402xly",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARBRT4150/CARBRT4150_full.jpg"],
+        "manufacturerUrl": "https://www.brother.ca/en/p/LC402XLYS",
+        "specs": {
+          "brand": "BROTHER",
+          "model": "LC402XLY",
+          "providerSku": "CARBRT4150",
+          "upc": "012502667063",
+          "productType": "Cartucho de tinta original",
+          "color": "Amarillo",
+          "yield": "Hasta 1500 paginas ISO/IEC 24711",
+          "series": "INKvestment Tank",
+          "compatibility": "MFC-J5340DW, MFC-J6540DW, MFC-J6940DW",
+          "providerBranchSummary": "Disponible por sucursal proveedor: QRO 18, CUN 7, LEO 2, XLP 2, TOL 2, ZAC 2, ACA 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"QRO","stock":18},
+            {"providerId":"ctonline","warehouseCode":"CUN","stock":7},
+            {"providerId":"ctonline","warehouseCode":"LEO","stock":2},
+            {"providerId":"ctonline","warehouseCode":"XLP","stock":2},
+            {"providerId":"ctonline","warehouseCode":"TOL","stock":2},
+            {"providerId":"ctonline","warehouseCode":"ZAC","stock":2},
+            {"providerId":"ctonline","warehouseCode":"ACA","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"CARBRT4150","stock":34,"price":566.67,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es consumible de impresion."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"dimensions":"No disponible confiable", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Brother LC402XLYS official supply page", "type":"manufacturer_spec", "url":"https://www.brother.ca/en/p/LC402XLYS"},
+          {"title":"CTOnline CARBRT4150 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5naz4fq58oksufv",
+      "research": {
+        "confidence": 0.88,
+        "name": "Lenovo ThinkPad Bluetooth Silent Mouse 4Y50X88823 2400 DPI negro",
+        "description": "Mouse Lenovo ThinkPad Bluetooth Silent 4Y50X88823 con sensor optico azul, DPI ajustable 800/1600/2400, conexion Bluetooth 5.0 y operacion silenciosa.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/bluetooth/silenciosos",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/bluetooth/silenciosos/lenovo-thinkpad-4y50x88823",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/RELLEN8560/RELLEN8560_4_full.jpg"],
+        "manufacturerUrl": "https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/mice/4y50x88822",
+        "specs": {
+          "brand": "LENOVO",
+          "model": "4Y50X88823",
+          "commercialModel": "ThinkPad Bluetooth Silent Mouse",
+          "providerSku": "RELLEN8560",
+          "ean": "0194632481594",
+          "productType": "Mouse Bluetooth silencioso",
+          "sensor": "Optico azul",
+          "dpi": "800 / 1600 / 2400",
+          "connectivity": "Bluetooth 5.0",
+          "dualHost": "2 dispositivos",
+          "buttons": "3",
+          "battery": "1 x AA, hasta 1 ano",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"RELLEN8560","stock":1,"price":48.06,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Lenovo publica familia 4Y50X88822; datasheets comerciales separan 4Y50X88823 como variante sin bateria.", "La categoria previa computo/laptops era incorrecta; es mouse."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"dimensions":"5.8 x 10.7 x 2.9 cm", "weight":"61 g sin bateria"},
+        "sourceRefs": [
+          {"title":"Lenovo ThinkPad Bluetooth Silent Mouse official family page", "type":"manufacturer_spec", "url":"https://www.lenovo.com/us/en/p/accessories-and-software/keyboards-and-mice/mice/4y50x88822"},
+          {"title":"Lenovo 4Y50X88822/4Y50X88823 datasheet", "type":"manufacturer_datasheet", "url":"https://media.distrelec.com/Web/Downloads/_t/ds/Lenovo_4Y50X88822_eng_tds.pdf"},
+          {"title":"CTOnline RELLEN8560 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5nb529ho0outieq",
+      "research": {
+        "confidence": 0.9,
+        "name": "Nexxt Home NHE-T100 interruptor inteligente Wi-Fi 3 circuitos blanco",
+        "description": "Interruptor inteligente Nexxt Home NHE-T100 Wi-Fi de 3 circuitos para control por app, Alexa y Google Assistant, 110-240V y Wi-Fi 2.4GHz.",
+        "manualCategoryPath": "hogar/casa-inteligente/interruptores-wifi/3-circuitos",
+        "semanticCategoryPath": "hogar/casa-inteligente/interruptores-wifi/3-circuitos/nexxt-home-nhe-t100",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNEX350/ACCNEX350_full.jpg"],
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NHE-T100_DS_ENG.pdf",
+        "specs": {
+          "brand": "NEXXT SOLUTIONS HOME",
+          "model": "NHE-T100",
+          "providerSku": "ACCNEX350",
+          "upc": "798302057548",
+          "productType": "Interruptor Wi-Fi inteligente de 3 circuitos",
+          "voltage": "110-240 V",
+          "frequency": "50/60 Hz",
+          "current": "10 A",
+          "power": "600 W incandescente / 150 W LED",
+          "wifi": "2.4 GHz 802.11n",
+          "voiceControl": "Alexa y Google Assistant",
+          "installation": "Requiere neutro, single-pole",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 35, HMO 6, TOL 5, IRA 4, LMO 3, CLN 3, D2A 3, MOR 2, TAM 2, PUE 2, MID 2, TXA 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":35},
+            {"providerId":"ctonline","warehouseCode":"HMO","stock":6},
+            {"providerId":"ctonline","warehouseCode":"TOL","stock":5},
+            {"providerId":"ctonline","warehouseCode":"IRA","stock":4},
+            {"providerId":"ctonline","warehouseCode":"LMO","stock":3},
+            {"providerId":"ctonline","warehouseCode":"CLN","stock":3},
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":3},
+            {"providerId":"ctonline","warehouseCode":"MOR","stock":2},
+            {"providerId":"ctonline","warehouseCode":"TAM","stock":2},
+            {"providerId":"ctonline","warehouseCode":"PUE","stock":2},
+            {"providerId":"ctonline","warehouseCode":"MID","stock":2},
+            {"providerId":"ctonline","warehouseCode":"TXA","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCNEX350","stock":68,"price":19.99,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa redes/access-points era incorrecta; es interruptor de casa inteligente."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"withPlate":"4.6 x 2.95 x 1.4 in", "withoutPlate":"4.5 x 2.95 x 1.4 in", "weight":"0.33 lb"},
+        "sourceRefs": [
+          {"title":"Nexxt Home NHE-T100 datasheet", "type":"manufacturer_datasheet", "url":"https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/NHE-T100_DS_ENG.pdf"},
+          {"title":"CTOnline ACCNEX350 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5no3konfepon7t0",
+      "research": {
+        "confidence": 0.86,
+        "name": "Hisense ARU122KAW minisplit inverter 12000 BTU frio calor 230V blanco",
+        "description": "Aire acondicionado minisplit Hisense ARU122KAW inverter de 12000 BTU/h, frio/calor, 220-230V, color blanco.",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/minisplit/inverter/12000-btu",
+        "semanticCategoryPath": "climatizacion/aires-acondicionados/minisplit/inverter/12000-btu/hisense-aru122kaw",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/AIRHSE410/AIRHSE410_full.jpg"],
+        "specs": {
+          "brand": "HISENSE",
+          "model": "ARU122KAW",
+          "providerSku": "AIRHSE410",
+          "ean": "6926597763170",
+          "productType": "Aire acondicionado minisplit inverter",
+          "capacity": "12000 BTU/h",
+          "coolingPower": "3.370 W segun retail",
+          "functions": "Frio / calor",
+          "voltage": "220-230 V",
+          "color": "Blanco",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"AIRHSE410","stock":1,"price":5114.82,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa infraestructura/racks-enfriamiento era incorrecta; es climatizacion.", "PB solo indicaba enfriamiento, pero fuentes comerciales listan frio/calor."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"dimensions":"No disponible confiable", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Cyberpuerta Hisense ARU122KAW retail specification", "type":"retail_spec", "url":"https://www.cyberpuerta.mx/Hogar/Clima-y-Ambiente/Aires-Acondicionados/Hisense-Aire-Acondicionado-Minisplit-Inverter-ARU122KAW-12000-BTU-h-3-370W-Frio-Calor-Blanco.html"},
+          {"title":"Venpli Hisense ARU122KAW retail reference", "type":"retail_spec", "url":"https://venpli.mx/products/minisplit-hisense-inverter-aru122kaw-12000-frio-calor-220v"},
+          {"title":"CTOnline AIRHSE410 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5nq0tfnh9du0iug",
+      "research": {
+        "confidence": 0.89,
+        "name": "BRobotix 6005989 kit de limpieza 7 en 1 para audifonos y smartphones",
+        "description": "Kit de limpieza BRobotix 6005989 de 7 piezas para audifonos, smartphones y electronica, con cepillos, puntas de limpieza, removedor de teclas y pano de microfibra.",
+        "manualCategoryPath": "computo/accesorios/limpieza/kits/telefonos-audifonos",
+        "semanticCategoryPath": "computo/accesorios/limpieza/kits/telefonos-audifonos/brobotix-6005989",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITRBT230/KITRBT230_full.jpg"],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "6005989",
+          "providerSku": "KITRBT230",
+          "ean": "7500896005989",
+          "productType": "Kit de limpieza para electronica",
+          "pieces": "7 en 1",
+          "compatibility": "Audifonos, smartphones y dispositivos electronicos",
+          "material": "ABS",
+          "includes": "Cepillo retractil, pluma doble punta, punta de silicona, minicepillo, esponja microfibra, removedor de teclas, pano microfibra",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 17, COL 4, CLN 1, QRO 1, OAX 1, IRA 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":17},
+            {"providerId":"ctonline","warehouseCode":"COL","stock":4},
+            {"providerId":"ctonline","warehouseCode":"CLN","stock":1},
+            {"providerId":"ctonline","warehouseCode":"QRO","stock":1},
+            {"providerId":"ctonline","warehouseCode":"OAX","stock":1},
+            {"providerId":"ctonline","warehouseCode":"IRA","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"KITRBT230","stock":25,"price":5.04,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa audio/audifonos era incorrecta; es accesorio de limpieza."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"dimensions":"43 x 29 x 124 mm", "weight":"78.8 g", "package":"61 x 36 x 142 mm, 97.4 g"},
+        "sourceRefs": [
+          {"title":"CTI Systems BRobotix 6005989 retail specification", "type":"retail_spec", "url":"https://ctisystems.mx/kit-de-limpieza-brobotix-6005989-para-audifonos-yo-smartphones-7-en-1"},
+          {"title":"Intercompras BRobotix 6005989 retail reference", "type":"retail_spec", "url":"https://intercompras.com/p/kit-limpieza-brobotix-en-344458"},
+          {"title":"CTOnline KITRBT230 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5nqoxguld3g5hhk",
+      "research": {
+        "confidence": 0.9,
+        "name": "ASUS TUF Gaming B550M-PLUS Wi-Fi motherboard micro ATX AM4",
+        "description": "Tarjeta madre ASUS TUF Gaming B550M-PLUS Wi-Fi micro ATX para AMD AM4, chipset B550, DDR4, doble M.2, 2.5GbE, Wi-Fi 6 y Bluetooth 5.1.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx/wifi",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx/wifi/asus-tuf-gaming-b550m-plus-wifi",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MBDASS4890/MBDASS4890_full.jpg"],
+        "manufacturerUrl": "https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550m-plus-wi-fi/techspec/",
+        "specs": {
+          "brand": "ASUS",
+          "model": "B550M-PLUS Wi-Fi",
+          "commercialModel": "TUF Gaming B550M-PLUS Wi-Fi",
+          "providerSku": "MBDASS4890",
+          "upc": "195553305709",
+          "productType": "Tarjeta madre",
+          "socket": "AMD AM4",
+          "chipset": "AMD B550",
+          "formFactor": "Micro ATX",
+          "memory": "4 x DIMM DDR4 hasta 128GB",
+          "storage": "2 x M.2, 4 x SATA 6Gb/s",
+          "network": "Realtek 2.5Gb Ethernet",
+          "wireless": "Wi-Fi 6 Intel AX200, Bluetooth 5.1",
+          "video": "HDMI 2.1 y DisplayPort 1.2",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 173, DFA 15, CUE 13, TRN 9, TXA 3, ACA 3.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":173},
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":15},
+            {"providerId":"ctonline","warehouseCode":"CUE","stock":13},
+            {"providerId":"ctonline","warehouseCode":"TRN","stock":9},
+            {"providerId":"ctonline","warehouseCode":"TXA","stock":3},
+            {"providerId":"ctonline","warehouseCode":"ACA","stock":3}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"MBDASS4890","stock":216,"price":125.33,"currency":"USD","priceKind":"promo_price"}],
+          "sourceDiscrepancies": ["La categoria previa redes/access-points era incorrecta; es tarjeta madre.", "El modelo PB omitia sufijo Wi-Fi presente en proveedor y fuentes tecnicas."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"dimensions":"24.4 x 24.4 cm / 9.6 x 9.6 in", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"ASUS TUF Gaming B550M-PLUS Wi-Fi tech specs", "type":"manufacturer_spec", "url":"https://www.asus.com/us/motherboards-components/motherboards/tuf-gaming/tuf-gaming-b550m-plus-wi-fi/techspec/"},
+          {"title":"ASUS TUF Gaming B550M-PLUS Wi-Fi user manual", "type":"manufacturer_datasheet", "url":"https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/TUF_GAMING_B550M-PLUS_%28WI-FI%29/E17266_TUF_GAMING_B550M-PLUS_WI-FI_UM_v2_WEB.pdf"},
+          {"title":"CTOnline MBDASS4890 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5o4dj6jjqib03e7",
+      "research": {
+        "confidence": 0.9,
+        "name": "CyberPower Smart App LCD OR500LCDRM1U UPS rack 1U 500VA 300W",
+        "description": "UPS CyberPower Smart App LCD OR500LCDRM1U line-interactive rack 1U, 500VA/300W, salida senoidal simulada, 6 tomas NEMA 5-15R, AVR y administracion USB/Relay/SNMP opcional.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/rack-1u/500va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/rack-1u/500va/cyberpower-or500lcdrm1u",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=289690"],
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/ups/smart-app-lcd/or500lcdrm1u/",
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "OR500LCDRM1U",
+          "providerSku": "NBKCYP130 / FR-458",
+          "productType": "UPS rackmount",
+          "capacity": "500VA / 300W",
+          "topology": "Line interactive",
+          "waveform": "Senoidal simulada",
+          "input": "NEMA 5-15P, cable 10 ft",
+          "output": "6 x NEMA 5-15R; 4 respaldo+supresion y 2 solo supresion",
+          "formFactor": "Rack 1U",
+          "communication": "USB, Relay, SNMP opcional",
+          "software": "PowerPanel Business",
+          "avr": true,
+          "warranty": "3 anos",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 17 y CVA stock 1.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"NBKCYP130","stock":17,"price":4283.33,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"FR-458","stock":1,"price":4334.13,"currency":"MXN","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["La ruta previa energia/no-breaks-ups era correcta solo a nivel general; se baja a rack 1U 500VA."],
+          "providerStockVerifiedAt": "2026-05-30T22:00:00Z"
+        },
+        "measurements": {"formFactor":"Rack 1U", "dimensionsWeight":"No capturado en fuente abierta usada"},
+        "sourceRefs": [
+          {"title":"CyberPower OR500LCDRM1U official product page", "type":"manufacturer_spec", "url":"https://www.cyberpowersystems.com/product/ups/smart-app-lcd/or500lcdrm1u/"},
+          {"title":"CyberPower OR500LCDRM1U datasheet", "type":"manufacturer_datasheet", "url":"https://bigc-products.s3.amazonaws.com/CyberPower_OR500LCDRM1U_Datasheet.pdf"},
+          {"title":"CTOnline NBKCYP130 and CVA FR-458 stock", "type":"provider_stock", "observedAt":"2026-05-30T22:00:00Z"}
+        ]
+      }
+    }
+  ]
+}

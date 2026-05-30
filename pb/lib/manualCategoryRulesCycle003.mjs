@@ -1,0 +1,12 @@
+export const MANUAL_CATEGORY_RULES_CYCLE003 = [
+  ['computo/componentes/enfriamiento/liquido-cpu/280mm/argb', /\b(bw014|venbeq190|4260052189030|pure loop 2 fx.*280|be quiet.*280\s?mm)\b/],
+  ['computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/neopreno', /\b(pc[\s-]?084273|malgen4150|ac[\s-]?11311|perfect choice.*bagiq|funda.*neopreno.*15\.?6.*rosa)\b/],
+  ['computo/perifericos/teclados/inalambricos/mecanicos', /\b(mx mechanical|teclog1040|097855174536|logitech.*mx.*mechanical|teclado.*mecanico.*logitech)\b/],
+  ['impresion/consumibles/cartuchos-tinta/brother/lc402/amarillo-xl', /\b(lc402xly|carbrt4150|012502667063|brother.*lc402.*(?:yellow|amarillo)|tinta.*lc402.*amarillo)\b/],
+  ['computo/perifericos/mouse/inalambricos/bluetooth/silenciosos', /\b(4y50x88823|rellen8560|0194632481594|194632481594|thinkpad.*bluetooth.*silent.*mouse|lenovo.*mouse.*2400\s?dpi)\b/],
+  ['hogar/casa-inteligente/interruptores-wifi/3-circuitos', /\b(nhe[\s-]?t100|accnex350|798302057548|nexxt.*3[\s-]?circuit|interruptor.*3.*circuitos?)\b/],
+  ['climatizacion/aires-acondicionados/minisplit/inverter/12000-btu', /\b(aru122kaw|airhse410|6926597763170|hisense.*12000.*(?:frio|calor)|minisplit.*aru122kaw)\b/],
+  ['computo/accesorios/limpieza/kits/telefonos-audifonos', /\b(6005989|kitrbt230|7500896005989|brobotix.*kit.*limpieza|limpieza.*(?:audifonos|smartphones))\b/],
+  ['computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx/wifi', /\b(b550m[\s-]?plus|mbdass4890|195553305709|tuf gaming b550m[\s-]?plus.*wi[\s-]?fi|asus.*tuf.*b550m[\s-]?plus.*wi[\s-]?fi)\b/],
+  ['energia/no-breaks-ups/line-interactive/rack-1u/500va', /\b(or500lcdrm1u|nbkcyp130|fr[\s-]?458|cyberpower.*or500|ups.*500\s?va.*rack.*1u)\b/],
+];

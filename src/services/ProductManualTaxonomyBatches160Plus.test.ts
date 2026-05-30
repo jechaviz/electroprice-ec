@@ -72,6 +72,16 @@ const batch160PlusCases = [
   ["Intellinet 210478 Jack Modular Keystone Cat5e UTP Rojo", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/rojo", "networking"],
   ["Yeyian Hussar Plus YCM-ASHUS-01 Gabinete Mid Tower ATX Negro", "YEYIAN", "computo/componentes/gabinetes/gaming/atx-mid-tower", "components"],
   ["Game Factor SMG500 Base Gamer para Monitor VESA hasta 27 in", "GAME FACTOR", "computo/accesorios/soportes-monitor/vesa/27-5kg", "accessories"],
+  ["be quiet! Pure Loop 2 FX BW014 enfriamiento liquido AIO 280mm ARGB", "BE QUIET", "computo/componentes/enfriamiento/liquido-cpu/280mm/argb", "components"],
+  ["Perfect Choice Bagiq PC-084273 funda de neopreno para laptop 15.6 pulgadas rosa", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/neopreno", "accessories"],
+  ["Logitech MX Mechanical teclado inalambrico iluminado mecanico grafito TECLOG1040", "LOGITECH", "computo/perifericos/teclados/inalambricos/mecanicos", "accessories"],
+  ["Brother LC402XLY cartucho de tinta amarillo alto rendimiento 1500 paginas", "BROTHER", "impresion/consumibles/cartuchos-tinta/brother/lc402/amarillo-xl", "printers_scanners"],
+  ["Lenovo ThinkPad Bluetooth Silent Mouse 4Y50X88823 2400 DPI negro", "LENOVO", "computo/perifericos/mouse/inalambricos/bluetooth/silenciosos", "accessories"],
+  ["Nexxt Home NHE-T100 interruptor inteligente Wi-Fi de 3 circuitos blanco", "NEXXT SOLUTIONS HOME", "hogar/casa-inteligente/interruptores-wifi/3-circuitos", "accessories"],
+  ["Hisense ARU122KAW minisplit inverter 12000 BTU frio calor 230V blanco", "HISENSE", "climatizacion/aires-acondicionados/minisplit/inverter/12000-btu", "accessories"],
+  ["BRobotix 6005989 kit de limpieza 7 en 1 para audifonos y smartphones", "BROBOTIX", "computo/accesorios/limpieza/kits/telefonos-audifonos", "accessories"],
+  ["ASUS TUF Gaming B550M-PLUS Wi-Fi motherboard micro ATX AM4", "ASUS", "computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx/wifi", "components"],
+  ["CyberPower Smart App LCD OR500LCDRM1U UPS rack 1U 500VA 300W", "CYBERPOWER", "energia/no-breaks-ups/line-interactive/rack-1u/500va", "power"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
