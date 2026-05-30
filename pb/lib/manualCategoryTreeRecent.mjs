@@ -1,4 +1,11 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'impresion/consumibles/toner-laser/brother/tn-229/amarillo', name: 'Toner Brother TN-229 amarillo estandar', legacyCategory: 'printers_scanners' },
+  { path: 'colaboracion/video-conferencia/barras-video', name: 'Barras de video para videoconferencia', legacyCategory: 'accessories' },
+  { path: 'colaboracion/video-conferencia/barras-video/usb-4k', name: 'Barras de video USB 4K para videoconferencia', legacyCategory: 'accessories' },
+  { path: 'seguridad/cctv/camaras-ip-poe/domo/2mp-analytics-mic', name: 'Camaras IP PoE domo 2MP con analitica y microfono', legacyCategory: 'cameras' },
+  { path: 'infraestructura/racks-accesorios/charolas/1u-300mm-25kg', name: 'Charolas rack 1U 300 mm 25 kg', legacyCategory: 'networking' },
+  { path: 'gaming/accesorios/volantes-simulacion', name: 'Volantes de simulacion racing', legacyCategory: 'gaming' },
+  { path: 'gaming/accesorios/volantes-simulacion/trueforce', name: 'Volantes Logitech TRUEFORCE para simulacion racing', legacyCategory: 'gaming' },
   { path: 'computo/almacenamiento/ssd/externos/usb-c/1tb/sandisk-portable', name: 'SSD externos SanDisk Portable USB-C 1TB', legacyCategory: 'storage' },
   { path: 'gaming/mobiliario/sillas-gamer/tela/reclinable-135-120kg', name: 'Sillas gamer de tela reclinables 135 grados 120 kg', legacyCategory: 'gaming' },
   { path: 'redes/adaptadores-wifi/pcie/n150', name: 'Adaptadores Wi-Fi PCIe N150', legacyCategory: 'networking' },
