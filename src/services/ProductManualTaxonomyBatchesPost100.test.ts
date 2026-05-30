@@ -222,6 +222,16 @@ const researchedBatchCases = [
   ["SanDisk Cruzer Glide SDCZ600-064G-G35 memoria USB 64GB USB 3.0", "SANDISK", "computo/almacenamiento/memorias-flash/usb/64gb"],
   ["ADATA UV210 memoria USB 32GB USB 2.0 plata", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb/metalicas"],
   ["SanDisk Cruzer Blade SDCZ50-128G-B35 memoria USB 128GB USB-A", "SANDISK", "computo/almacenamiento/memorias-flash/usb/128gb"],
+  ["Brother TN-1060 toner negro 1000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-1060"],
+  ["Kensington K72359WW Expert Mouse trackball inalambrico", "KENSINGTON", "computo/perifericos/mouse/inalambricos/trackball"],
+  ["Smartbitt SBNB750 UPS line-interactive 750VA 375W 6 contactos", "SMARTBITT", "energia/no-breaks-ups/line-interactive/750va"],
+  ["Intellinet 342575 patch cord Cat6 UTP azul 1 m 3 ft", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/1m"],
+  ["Hyundai HTN4020MPC04 mini PC Intel Celeron 128GB SSD", "HYUNDAI", "computo/desktops/mini-pc/celeron/128gb-ssd"],
+  ["Dell 15 laptop 15.6 pulgadas Core i7-1355U 16GB Windows 11 Home", "DELL", "computo/laptops/consumo/15-6-pulgadas/dell-15"],
+  ["Koblenz 5216 R UPS line-interactive 520VA 240W 6 contactos", "KOBLENZ", "energia/no-breaks-ups/line-interactive/520va"],
+  ["Plantronics Voyager 5200 UC auricular Bluetooth monoaural", "PLANTRONICS", "audio/audifonos/bluetooth/monoaurales-uc"],
+  ["Acteck GI215 gabinete micro tower Micro ATX Mini ITX negro", "ACTECK", "computo/componentes/gabinetes/micro-tower/micro-atx-itx"],
+  ["Vorago CLN-300 aire comprimido 660 ml removedor de polvo", "VORAGO", "computo/accesorios/limpieza/aire-comprimido/660ml"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

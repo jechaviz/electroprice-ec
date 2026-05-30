@@ -1,0 +1,537 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b124-2026-05-30",
+  "cycle": 3,
+  "batch": 124,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "zxjp9axvapbd1p7",
+      "research": {
+        "confidence": 0.94,
+        "name": "Toner original Brother TN-1060 negro rendimiento estandar 1000 paginas",
+        "description": "Cartucho de toner original Brother TN-1060 color negro para impresoras laser Brother compatibles, con rendimiento aproximado de 1000 paginas conforme a la informacion comercial de Brother Mexico.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-1060",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-1060/brother-tn1060",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/tn1060",
+        "gallery": [
+          "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2022/08/26/14/16/tn1060_toner_original_brother_01.png",
+          "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2022/08/26/14/16/tn1060_toner_original_brother_02.png",
+          "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2022/08/26/14/17/tn1060_toner_original_brother_03.png"
+        ],
+        "documents": [
+          { "label": "Brother Mexico TN1060 product page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/tn1060" },
+          { "label": "Ingram Micro Mexico Brother TN1060 brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_08100de_54792368.pdf" },
+          { "label": "Zegucom Brother TN-1060 retail cross-check", "type": "retailer", "url": "https://www.zegucom.com.mx/producto/consumibles-e-insumos/toners/toner-brother-tn-1060-para-hl1110-1112-dcp-1512-mfc-1810-1815-origina/VE4xMDYw" }
+        ],
+        "specs": {
+          "brand": "Brother",
+          "model": "TN1060",
+          "aliases": ["Brother TN-1060", "Brother TN1060", "Toner Brother TN 1060 negro"],
+          "providerSku": "CARBRT2880",
+          "upc": "012502635642",
+          "productType": "Cartucho de toner",
+          "cartridgeType": "Original",
+          "printTechnology": "Laser",
+          "printColor": "Negro",
+          "yield": "Aprox. 1000 paginas",
+          "yieldStandard": "ISO/IEC 19798 reported by Brother Mexico",
+          "packageQuantity": "1 pieza",
+          "compatibility": ["Brother HL-1110", "Brother HL-1112", "Brother DCP-1512", "Brother MFC-1810", "Brother MFC-1815", "Brother DCP-1512R"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 236 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 107 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 83 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 48 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT2880", "stock": 618, "price": 630.21, "currency": "MXN", "branch": "GDL:236,PUE:107,CMT:83,DFA:48,HMO:32,D2A:24,ACX:9,DGO:7,LEO:7,DFP:6,AGS:5,COL:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Brother Mexico states ISO/IEC 19798 while some retailers express yield as 1000 pages at 5% coverage.", "Compatibility models vary by source; selected the union of Brother/Ingram and retail evidence.", "Many compatible/generic TN1060 listings exist; UPC and provider SKU point to original Brother toner."]
+        },
+        "measurements": { "notes": "Official dimensions and weight were not verified in open Brother source for TN1060." },
+        "sourceRefs": [
+          { "title": "Brother Mexico TN1060 official page", "type": "manufacturer", "url": "https://www.brother.com.mx/products/tn1060" },
+          { "title": "Ingram Micro Mexico TN1060 brochure", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_08100de_54792368.pdf" },
+          { "title": "Zegucom Brother TN-1060 UPC cross-check", "type": "retailer", "url": "https://www.zegucom.com.mx/producto/consumibles-e-insumos/toners/toner-brother-tn-1060-para-hl1110-1112-dcp-1512-mfc-1810-1815-origina/VE4xMDYw" }
+        ]
+      }
+    },
+    {
+      "product_id": "rlpegbesv5m793v",
+      "research": {
+        "confidence": 0.93,
+        "name": "Trackball inalambrico Kensington Expert Mouse K72359WW Bluetooth/USB negro",
+        "description": "Trackball inalambrico ambidiestro Kensington Expert Mouse K72359WW con conexion Bluetooth LE o receptor USB nano 2.4 GHz, bola de 55 mm, anillo de desplazamiento y 4 botones personalizables.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/trackball",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/trackball/kensington-k72359ww",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/electronic-control-solutions/trackball-products/expert-mouse-wireless-trackball-1/",
+        "gallery": [
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/kensington_k72359ww_expert_mouse_wireless_trackball_1449228028_1205096.jpg"
+        ],
+        "documents": [
+          { "label": "Kensington Expert Mouse Wireless product page", "type": "manufacturer", "url": "https://www.kensington.com/p/products/electronic-control-solutions/trackball-products/expert-mouse-wireless-trackball-1/" },
+          { "label": "Kensington K72359WW product sheet", "type": "datasheet", "url": "https://az31609c.azureedge.net/literature/457956ba-4697-42e0-9d87-c0a7921d4773.pdf" },
+          { "label": "B&H Kensington K72359WW cross-check", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1205096-REG/kensington_k72359ww_expert_mouse_wireless_trackball.html" }
+        ],
+        "specs": {
+          "brand": "Kensington",
+          "model": "K72359WW",
+          "providerSku": "ACCKNS1730",
+          "upc": "085896723592",
+          "productType": "Trackball / mouse de bola",
+          "color": "Negro con bola roja",
+          "handOrientation": "Ambidiestro",
+          "connectivity": ["Bluetooth LE / Bluetooth 4.0 Smart", "Receptor USB nano 2.4 GHz"],
+          "sensor": "Optico DiamondEye",
+          "dpi": 400,
+          "buttons": 4,
+          "controls": ["Botones personalizables", "Anillo de desplazamiento Scroll Ring"],
+          "trackballDiameter": "55 mm",
+          "battery": "2 pilas AA",
+          "software": "KensingtonWorks / TrackballWorks depending source",
+          "osSupport": ["Windows", "macOS", "Chrome OS"],
+          "includedItems": ["Trackball", "Receptor USB nano", "Reposamunecas desmontable"],
+          "warranty": "3 anos limitada",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 607 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCKNS1730", "stock": 617, "price": 1044.44, "currency": "MXN", "branch": "DFA:607,PUE:3,MTY:3,PAC:3,TRN:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Kensington/B&H describe Bluetooth 4.0 LE; some aggregate sheets simplify to Bluetooth LE or Bluetooth 5.0 LE.", "Kensington software naming differs between KensingtonWorks and older TrackballWorks references.", "Some distributor dimensions appear to be packaging rather than product."]
+        },
+        "measurements": { "dimensions": "203.2 x 155.45 x 88.9 mm / 8 x 6.12 x 3.5 in", "weight": "612 g / 1.35 lb", "packageDimensions": "10.15 x 7.05 x 4.05 in", "packageWeight": "1.405 lb" },
+        "sourceRefs": [
+          { "title": "Kensington Expert Mouse Wireless official page", "type": "manufacturer", "url": "https://www.kensington.com/p/products/electronic-control-solutions/trackball-products/expert-mouse-wireless-trackball-1/" },
+          { "title": "Kensington K72359WW official sheet", "type": "datasheet", "url": "https://az31609c.azureedge.net/literature/457956ba-4697-42e0-9d87-c0a7921d4773.pdf" },
+          { "title": "B&H Kensington K72359WW retail specs", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1205096-REG/kensington_k72359ww_expert_mouse_wireless_trackball.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "b2jjg86chft9qej",
+      "research": {
+        "confidence": 0.88,
+        "name": "No-break interactivo Smartbitt SBNB750 750VA/375W 120V 6 contactos",
+        "description": "UPS/no-break interactivo Smartbitt SBNB750 tipo torre para hogar u oficina, 750 VA/375 W, entrada 120 Vca, clavija NEMA 5-15P, 6 contactos NEMA 5-15R, AVR, supresion de picos y bateria sellada 12 V 7 Ah.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/750va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/750va/smartbitt-sbnb750",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://smartbitt.com/producto/SBNB750",
+        "gallery": [
+          "https://www.unicom.mx/ecommerce/uploads/REUPSMB-SBNB750.jpg",
+          "https://dicom.mx/wp-content/uploads/2022/05/SBNB750-1-500x500.jpg",
+          "https://dicom.mx/wp-content/uploads/2022/05/SBNB750-2-500x500.jpg"
+        ],
+        "documents": [
+          { "label": "Smartbitt SBNB750 user manual", "type": "manual", "url": "https://downloads.smartbitt.com/artworks/UM-SBNB750USB.pdf" },
+          { "label": "Smartbitt SBNB750 datasheet", "type": "datasheet", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBNB750.pdf" },
+          { "label": "GlobalOffice Smartbitt SBNB750", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/no-break-ups/smartbitt-no-break-750va375wat-linea-interactiva/sbnb750" }
+        ],
+        "specs": {
+          "brand": "Smartbitt",
+          "model": "SBNB750",
+          "aliases": ["Smartbitt NB750", "UPS Smartbitt Smart Interactive NB750"],
+          "providerSku": "FR-1023",
+          "eanUpc": "7503015709010",
+          "productType": "UPS/no-break interactivo",
+          "capacity": "750 VA / 375 W",
+          "topology": "Line-interactive con AVR",
+          "inputVoltage": "120 Vca",
+          "inputVoltageRange": "90-145 Vca datasheet; 81-145 Vca manual",
+          "inputPlug": "NEMA 5-15P",
+          "outputVoltage": "120 Vca +/-10%",
+          "frequency": "50/60 Hz",
+          "transferTime": "4-6 ms datasheet; 2-6 ms manual",
+          "waveform": "Senoidal simulada",
+          "outlets": "6 x NEMA 5-15R",
+          "battery": "1 x 12 V 7 Ah SLA",
+          "rechargeTime": "4 h to 90% datasheet; 4-6 h manual",
+          "runtime": "3 min full load / 7 min half load datasheet; up to 35 min low load",
+          "indicators": ["LED encendido", "Modo bateria", "Bateria baja", "Sobrecarga", "Falla"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline_indexed", "providerSku": "SBNB750", "stock": 570, "price": 958.56, "currency": "MXN" }, { "providerId": "cva", "providerSku": "FR-1023", "stock": 40, "price": 958.56, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Runtime differs between datasheet and retail/manual because runtime depends heavily on load.", "Input range and dimensions vary between official indexed datasheet and manual.", "Provider stock is aggregated without branch detail in PocketBase for this item; CVA SKU FR-1023 is confirmed."]
+        },
+        "measurements": { "dimensions": "275 x 96 x 144 mm preferred; 287 x 100 x 142 mm alternate manual", "weight": "4.2 kg", "cableLength": "1200 mm", "operatingTemperature": "0 C to 40 C", "noise": "<40 dB" },
+        "sourceRefs": [
+          { "title": "Smartbitt SBNB750 manual", "type": "manual", "url": "https://downloads.smartbitt.com/artworks/UM-SBNB750USB.pdf" },
+          { "title": "Smartbitt SBNB750 datasheet", "type": "datasheet", "url": "https://smartbitt.com/SMARTBITT_Imagenes/SoporteTecnico/SBNB750.pdf" },
+          { "title": "Dicom Smartbitt SBNB750", "type": "retailer", "url": "https://dicom.mx/producto/no-break-interactivo-de-750va-375w-con-6-contactos-smartbitt-sbnb750/" }
+        ]
+      }
+    },
+    {
+      "product_id": "pfda4d42k4diykl",
+      "research": {
+        "confidence": 0.97,
+        "name": "Cable patch Intellinet 342575 Cat6 U/UTP azul RJ45 1 m",
+        "description": "Cable patch Ethernet Intellinet 342575 Cat6 U/UTP azul de 1 m / 3 ft, 24 AWG, conectores RJ45 macho con bota anti-enganche, contactos chapados en oro, soporte 10 Gbps, 250 MHz y PoE hasta IEEE 802.3bt.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/1m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/1m/intellinet-342575",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetsolutions.mx/products/intellinet-es-cable-de-conexion-de-red-cat6-uutp-1-m-3-ft-azul-342575",
+        "gallery": [
+          "https://intellinetsolutions.mx/cdn/shop/files/phpThumb_1e5e87d8-281f-4456-8e76-ca47c43cf0a5.jpg?v=1780014158",
+          "https://intellinetsolutions.mx/cdn/shop/files/phpThumb_be9972dc-aced-491b-acb8-4faccd892625.jpg?v=1780014158",
+          "https://intellinetsolutions.mx/cdn/shop/files/phpThumb_4ed1ed0b-6112-4e6a-b991-80a47978b774.jpg?v=1780014158"
+        ],
+        "documents": [
+          { "label": "Intellinet Mexico 342575 product page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/intellinet-es-cable-de-conexion-de-red-cat6-uutp-1-m-3-ft-azul-342575" },
+          { "label": "Intellinet 342575 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51446/342575_datasheet_spanish.pdf" },
+          { "label": "Intellinet Europe 342575 product page", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-342575" }
+        ],
+        "specs": {
+          "brand": "Intellinet Network Solutions",
+          "model": "342575",
+          "alternateSku": "IEC-C6-BL-3",
+          "providerSku": "CB-455",
+          "ean": "0766623342575",
+          "upc": "766623342575",
+          "productType": "Cable patch Ethernet",
+          "category": "Cat6",
+          "shielding": "U/UTP",
+          "color": "Azul",
+          "length": "1 m / 3 ft",
+          "connectors": "2 x RJ45 macho",
+          "contacts": "6 micro-inch gold-plated",
+          "wireGauge": "24 AWG",
+          "conductor": "CCA stranded",
+          "jacket": "PVC CM",
+          "outerDiameter": "5.5 mm",
+          "maxSpeed": "10 Gbps",
+          "frequency": "250 MHz",
+          "poeSupport": "IEEE 802.3bt / PoE++ / 4PPoE / Ultra PoE",
+          "standards": ["ISO/IEC 11801", "EN 50288", "RoHS", "REACH", "1000Base-T", "10GBase-T", "ANSI/TIA-568.2-D"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline_indexed", "providerSku": "342575", "stock": 609, "price": 1.5, "currency": "USD" }, { "providerId": "cva", "providerSku": "CB-455", "stock": 0, "price": 1.5, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Mexico page lists five-year warranty while Europe page lists lifetime warranty.", "Provider branch detail is unavailable in PocketBase for this item."]
+        },
+        "measurements": { "dimensions": "1 m x 0.01 m x 0.015 m", "netWeight": "40 g", "grossWeight": "45 g", "packaging": "Bolsa" },
+        "sourceRefs": [
+          { "title": "Intellinet Mexico 342575 official page", "type": "manufacturer", "url": "https://intellinetsolutions.mx/products/intellinet-es-cable-de-conexion-de-red-cat6-uutp-1-m-3-ft-azul-342575" },
+          { "title": "Intellinet 342575 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/51446/342575_datasheet_spanish.pdf" },
+          { "title": "Intellinet Europe 342575 page", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-342575" }
+        ]
+      }
+    },
+    {
+      "product_id": "4qealkis4e0ecs8",
+      "research": {
+        "confidence": 0.86,
+        "name": "Mini PC Hyundai HTN4020MPC04 Intel Celeron N4020 4GB DDR4 128GB SSD Windows 11 Home",
+        "description": "Mini PC compacta Hyundai HTN4020MPC04 para oficina, punto de venta, educacion o tareas basicas, con Intel Celeron N4020, 4 GB DDR4, SSD de 128 GB, Wi-Fi/Bluetooth y Windows 11 Home.",
+        "manualCategoryPath": "computo/desktops/mini-pc/celeron/128gb-ssd",
+        "semanticCategoryPath": "computo/desktops/mini-pc/celeron/128gb-ssd/hyundai-htn4020mpc04",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://hyundaitechnology.com/shop/htn4020mpc02-new-hyundai-mini-pc-windows-11-home-intel-n4020-4gb-ram-128gb-storage-usb-c-dual-monitor-support-4k-uhd-fanless-ac-wifi-63",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2025/11/MiniPCHYUNDAIHTN4020MPC04IntelCele_HTN4020MPC04_0-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/11/MiniPCHYUNDAIHTN4020MPC04IntelCele_HTN4020MPC04_1-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/11/MiniPCHYUNDAIHTN4020MPC04IntelCele_HTN4020MPC04_2-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/11/MiniPCHYUNDAIHTN4020MPC04IntelCele_HTN4020MPC04_3-600x600.jpg"
+        ],
+        "documents": [
+          { "label": "CompuPuebla Hyundai HTN4020MPC04", "type": "retailer", "url": "https://compupuebla.com/producto/mini-pc-hyundai-htn4020mpc04/" },
+          { "label": "Intercompras Hyundai HTN4020MPC04", "type": "retailer", "url": "https://intercompras.com/p/mini-pc-hyundai-htn4020mpc04-compacta-intel-celeron-n4020-4gb-ddr4-128gb-447637" },
+          { "label": "Hyundai Technology HTN4020MPC family manual", "type": "manufacturer", "url": "https://hyundaitechnology.com/web/content/26328" }
+        ],
+        "specs": {
+          "brand": "Hyundai Technology",
+          "model": "HTN4020MPC04",
+          "providerSku": "CPUHYU140",
+          "upc": "810127264076",
+          "productType": "Mini PC",
+          "processor": "Intel Celeron N4020",
+          "memory": "4 GB DDR4; some sheets indicate expandable up to 8 GB",
+          "storage": "128 GB SSD",
+          "operatingSystem": "Windows 11 Home; some sources call it Windows 11 Home S Mode",
+          "graphics": "Intel UHD Graphics",
+          "wireless": "802.11 AC/B/G/N, Bluetooth 4.2",
+          "portsObserved": ["RJ45 Ethernet", "HDMI", "VGA", "USB Type-C", "USB 3.0", "USB 2.0", "microSD", "Audio 3.5 mm", "DC-in"],
+          "includedAccessories": ["Adaptador", "Guia rapida/manual", "Soporte VESA"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 361 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 64 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CPUHYU140", "stock": 606, "price": 2554.35, "currency": "MXN", "branch": "D2A:361,CMT:64,DFA:35,LMO:31,MTY:21,AGS:15,DFC:14,QRO:11,VER:5,TAM:5,PUE:5,ACA:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Exact official HTN4020MPC04 page was not found; official Hyundai source covers the same HTN4020MPC family.", "Hyundai manual lists Windows 10 Pro while Mexico retailers and provider list Windows 11 Home/S Mode.", "Ports vary by source; photos and retailer data support HDMI, VGA, RJ45, USB and USB-C."]
+        },
+        "measurements": { "notes": "Exact dimensions and weight for HTN4020MPC04 were not verified in an official open source." },
+        "sourceRefs": [
+          { "title": "CompuPuebla Hyundai HTN4020MPC04", "type": "retailer", "url": "https://compupuebla.com/producto/mini-pc-hyundai-htn4020mpc04/" },
+          { "title": "Intercompras Hyundai HTN4020MPC04", "type": "retailer", "url": "https://intercompras.com/p/mini-pc-hyundai-htn4020mpc04-compacta-intel-celeron-n4020-4gb-ddr4-128gb-447637" },
+          { "title": "Hyundai Technology HTN4020MPC family support", "type": "manufacturer", "url": "https://hyundaitechnology.com/web/content/26328" }
+        ]
+      }
+    },
+    {
+      "product_id": "8vw1hb89mpsosu0",
+      "research": {
+        "confidence": 0.94,
+        "name": "Laptop Dell 15 DC15250 15.6 FHD Core i7-1355U 16GB DDR4 512GB SSD Windows 11 Home plata",
+        "description": "Laptop Dell 15 DC15250 de 15.6 pulgadas Full HD color plata, con Intel Core i7-1355U de 13a generacion, 16 GB DDR4, SSD NVMe 512 GB, Windows 11 Home, Wi-Fi 6 y bateria de 54 Wh.",
+        "manualCategoryPath": "computo/laptops/consumo/15-6-pulgadas/dell-15",
+        "semanticCategoryPath": "computo/laptops/consumo/15-6-pulgadas/dell-15/dell-dc15250-0y8rm",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-laptops/dell-15-laptop/spd/dell-dc15250-laptop",
+        "gallery": [
+          "https://titan.com.pa/cdn/shop/files/laptop-dell-15-dc15250-intel-core-i7-1355u-16gb-ram-512gb-ssd-silver-dell-11094447-2546935.jpg?v=1773867776&width=416",
+          "https://titan.com.pa/cdn/shop/files/laptop-dell-15-dc15250-intel-core-i7-1355u-16gb-ram-512gb-ssd-silver-dell-11094447-3736973.jpg?v=1773867776&width=416",
+          "https://titan.com.pa/cdn/shop/files/laptop-dell-15-dc15250-intel-core-i7-1355u-16gb-ram-512gb-ssd-silver-dell-11094447-2679477.jpg?v=1773867776&width=416"
+        ],
+        "documents": [
+          { "label": "Dell 15 DC15250 product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-laptops/dell-15-laptop/spd/dell-dc15250-laptop" },
+          { "label": "Dell 15 DC15250 owner manual specifications", "type": "manual", "url": "https://www.dell.com/support/manuals/en-us/dell-dc15250-laptop/dell_15_dc15250_owners_manual/specifications-of-dell-15-dc15250?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9" },
+          { "label": "Tek Digital Dell 15 DC15250 0Y8RM", "type": "retailer", "url": "https://tekdigital.mx/producto/nb-dell-15-dc15250_i7rplu16512pwhs_1w-0y8rm-core-i7-1355u-ram-16gb-16gbx1-15-6-pulgadas-512gb-windows-11-home-garantia-1-year/" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "Dell 15 DC15250",
+          "partNumber": "0Y8RM",
+          "providerSku": "COMDDL7930",
+          "upc": "884116488453",
+          "productType": "Laptop",
+          "processor": "Intel Core i7-1355U, 13th Gen, 10 cores / 12 threads, up to 5.0 GHz",
+          "memory": "16 GB DDR4-SDRAM 3200 MHz, 1 x 16 GB",
+          "storage": "512 GB SSD NVMe PCIe M.2 2230",
+          "display": "15.6 inch FHD 1920x1080, IPS/WVA, anti-glare, 120 Hz, 250 nits",
+          "graphics": "Intel UHD Graphics",
+          "operatingSystem": "Windows 11 Home 64-bit",
+          "wireless": "Wi-Fi 6 802.11ax, Bluetooth",
+          "ports": ["1x USB 2.0", "1x USB-A 3.2 Gen 1", "1x USB-C 3.2 Gen 1", "1x HDMI 1.4", "Audio combo 3.5 mm", "SD reader", "Power input"],
+          "keyboard": "Spanish numeric keyboard; backlight varies by listing",
+          "battery": "54 Wh, Li-polymer, 4 cells",
+          "powerAdapter": "65 W",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 206 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 119 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 85 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMDDL7930", "stock": 606, "price": 7276.84, "currency": "MXN", "branch": "D2A:206,DFA:119,CMT:85,GDL:47,HMO:14,CUN:13,QRO:12,PUE:10,TPC:6,DFT:6,DFC:4,LMO:3" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current category monitors is incorrect; product is a laptop.", "Dell dynamic page may not always show exact 16GB/512GB config; 0Y8RM/UPC are confirmed by distributors.", "Dell titles may mention Iris Xe while the specific 1x16GB configuration is often listed as Intel UHD Graphics.", "Keyboard backlight differs by retailer and is not treated as critical."]
+        },
+        "measurements": { "width": "358.5 mm", "depth": "234.9 mm", "heightFront": "15.5 mm", "heightRear": "17.5 mm", "weight": "1.94 kg" },
+        "sourceRefs": [
+          { "title": "Dell 15 DC15250 official page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-laptops/dell-15-laptop/spd/dell-dc15250-laptop" },
+          { "title": "Dell 15 DC15250 owner manual specifications", "type": "manual", "url": "https://www.dell.com/support/manuals/en-us/dell-dc15250-laptop/dell_15_dc15250_owners_manual/specifications-of-dell-15-dc15250?guid=guid-7c9f07ce-626e-44ca-be3a-a1fb036413f9" },
+          { "title": "Tek Digital Dell 15 DC15250 0Y8RM", "type": "retailer", "url": "https://tekdigital.mx/producto/nb-dell-15-dc15250_i7rplu16512pwhs_1w-0y8rm-core-i7-1355u-ram-16gb-16gbx1-15-6-pulgadas-512gb-windows-11-home-garantia-1-year/" }
+        ]
+      }
+    },
+    {
+      "product_id": "4iwp1kuw5kmya4g",
+      "research": {
+        "confidence": 0.93,
+        "name": "No-break UPS Koblenz 5216 R 520VA/240W line-interactive 6 contactos 120V negro",
+        "description": "UPS/no-break Koblenz 5216 R monofasico de 520 VA/240 W en formato torre, con regulador integrado, onda senoidal simulada, 6 salidas NEMA 5-15R, 3 con respaldo de bateria y 3 con supresion de picos.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/520va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/520va/koblenz-5216-r",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.koblenz.com.mx/products/no-break-ups-5216-r",
+        "gallery": [
+          "https://www.koblenz.com.mx/cdn/shop/files/5216R.png?v=1752110054&width=1000",
+          "https://www.koblenz.com.mx/cdn/shop/files/5216R_1.png?v=1752110054&width=1000",
+          "https://www.koblenz.com.mx/cdn/shop/files/5216R_2.png?v=1752110055&width=1000"
+        ],
+        "documents": [
+          { "label": "Koblenz 5216 R product page", "type": "manufacturer", "url": "https://www.koblenz.com.mx/products/no-break-ups-5216-r" },
+          { "label": "Koblenz 5216 R Ingram datasheet", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b28120_koblenz-no-break-5216-r.pdf" },
+          { "label": "Intercompras Koblenz 5216 R", "type": "retailer", "url": "https://intercompras.com/p/ups-koblenz-r-520va-240w-linea-interactiva-contactos-nema-15r-bateria-12v-123952" }
+        ],
+        "specs": {
+          "brand": "Koblenz",
+          "model": "5216 R / 5216 USB/R",
+          "manufacturerPartNumber": "00-4241-00-6",
+          "providerSku": "FR-1215",
+          "barcodeOrSkuOnKoblenzSite": "099053042419",
+          "productType": "UPS/no-break line-interactive",
+          "capacity": "520 VA / 240 W",
+          "phase": "Monofasica",
+          "inputVoltage": "120 Vca",
+          "inputVoltageRange": "90 - 145 Vca",
+          "inputFrequency": "60 Hz",
+          "outputVoltage": "120 Vca +/-10%",
+          "waveform": "Senoidal simulada / cuasisenoidal",
+          "outlets": "6 x NEMA 5-15R, 3 battery-backed + 3 surge-only",
+          "plugType": "NEMA 5-15P",
+          "surgeProtection": "268 J datasheet; 320 J commercial page",
+          "battery": "1 x 12 V 4.5 Ah VRLA SLA",
+          "runtime": "Hasta 34 min with AIO commercial claim; 8 min half-load datasheet",
+          "rechargeTime": "4 h to 90%",
+          "interfacePort": "Not supported",
+          "audibleNoise": "<40 dBA",
+          "warranty": "3 years equipment / 2 years battery",
+          "certifications": ["NOM-001-SCFI-2018", "ISO 9001:2015"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline_indexed", "providerSku": "5216 R", "stock": 599, "price": 797.46, "currency": "MXN" }, { "providerId": "cva", "providerSku": "FR-1215", "stock": 0, "price": 797.46, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Surge protection differs: Koblenz page says 320 J while technical sheet says 268 J.", "Unpacked dimensions differ slightly between Koblenz page and datasheet.", "Commercial page SKU differs from distributor part 00-4241-00-6.", "Provider branch detail is unavailable in PocketBase for this item."]
+        },
+        "measurements": { "dimensions": "280 x 100 x 145 mm manufacturer page; 291 x 100 x 139 mm datasheet", "weight": "3.55 kg", "packageDimensions": "32 x 14 x 22 cm", "packageWeight": "4.0 kg" },
+        "sourceRefs": [
+          { "title": "Koblenz 5216 R official page", "type": "manufacturer", "url": "https://www.koblenz.com.mx/products/no-break-ups-5216-r" },
+          { "title": "Koblenz 5216 R datasheet", "type": "datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b28120_koblenz-no-break-5216-r.pdf" },
+          { "title": "Intercompras Koblenz 5216 R retail specs", "type": "retailer", "url": "https://intercompras.com/p/ups-koblenz-r-520va-240w-linea-interactiva-contactos-nema-15r-bateria-12v-123952" }
+        ]
+      }
+    },
+    {
+      "product_id": "mrjqhcwzzrtajgi",
+      "research": {
+        "confidence": 0.94,
+        "name": "Auricular Bluetooth mono Poly Voyager 5200 UC USB-A con adaptador BT700 y estuche de carga",
+        "description": "Auricular Bluetooth monoaural Poly/Plantronics Voyager 5200 UC para llamadas profesionales, con 4 microfonos con cancelacion de ruido, WindSmart, adaptador USB-A BT700, estuche de carga y compatibilidad con PC, Mac y smartphones.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/monoaurales-uc",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/monoaurales-uc/poly-voyager-5200-uc-7k2f3aa",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/emea_middle_east-en/products/accessories/product-details/2101720189",
+        "gallery": [
+          "https://hp.widen.net/content/12ueidpim4/png/12ueidpim4.png?w=800&h=600&dpi=72&color=ffffff00",
+          "https://hp.widen.net/content/660mgy8x63/png/660mgy8x63.png?w=800&h=600&dpi=72&color=ffffff00",
+          "https://hp.widen.net/content/glxusdhsqj/png/glxusdhsqj.png?w=800&h=600&dpi=72&color=ffffff00",
+          "https://hp.widen.net/content/odrehko0ga/png/odrehko0ga.png?w=800&h=600&dpi=72&color=ffffff00"
+        ],
+        "documents": [
+          { "label": "HP Poly Voyager 5200 UC product page", "type": "manufacturer", "url": "https://www.hp.com/emea_middle_east-en/products/accessories/product-details/2101720189" },
+          { "label": "HP Poly Voyager 5200 UC specifications", "type": "manufacturer_specs", "url": "https://www.hp.com/emea_middle_east-en/products/accessories/product-details/product-specifications/2101720189" },
+          { "label": "HP Poly Voyager 5200 UC product sheet", "type": "datasheet", "url": "https://pcb.inc.hp.com/dc/api/productsheet/us-en/2101720189/pdf/7K2F3AA.pdf" }
+        ],
+        "specs": {
+          "brand": "Poly / HP",
+          "legacyBrand": "Plantronics",
+          "model": "Voyager 5200 UC",
+          "manufacturerPartNumber": "7K2F3AA",
+          "providerSku": "ACCPTS1810",
+          "upc": "197192519974",
+          "productType": "Auricular monoaural in-ear / over-the-ear",
+          "connectivity": "Bluetooth + adaptador USB-A BT700",
+          "bluetoothVersion": "5.0",
+          "bluetoothProfiles": ["A2DP", "HFP", "HSP", "PBAP", "SSP2"],
+          "pairedDevices": "Hasta 8",
+          "multipoint": true,
+          "wirelessRange": "Hasta 30 m / 98 ft",
+          "microphones": 4,
+          "microphoneType": "Cancelacion de ruido",
+          "speakerBandwidth": "100 Hz - 20 kHz",
+          "audioTechnologies": ["WindSmart", "DSP", "HD Voice", "SoundGuard"],
+          "controls": ["Redial", "Mute", "Volume +/-", "Answer/ignore/end call", "Play/pause/track"],
+          "voiceAssistant": ["Siri", "Google Assistant"],
+          "compatibleOS": ["Windows 11", "Windows 10", "macOS", "Android", "iOS"],
+          "battery": "Rechargeable Li-ion polymer, up to 7 h talk time, up to 9 days standby, <1.6 h charge",
+          "boxContents": ["Voyager 5200 UC headset", "BT700 USB-A Bluetooth adapter", "Charging case", "Micro USB cable", "Eartips S/M/L", "Quick guide"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 321 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 241 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPTS1810", "stock": 599, "price": 97.77, "currency": "USD", "branch": "DFA:321,D2A:241,GDL:23,SLT:4,VHA:3,LEO:2,IRA:2,CAM:2,DFT:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider uses Plantronics name while current manufacturer branding is Poly/HP.", "UPC 197192519974 corresponds to 7K2F3AA with BT700; older Voyager 5200 UC listings may use BT600 or part 206110-01.", "Warranty differs by channel: HP/Poly standard 2 years, some retailers list 1 year.", "Current cables/adapters path is semantically wrong; this is a Bluetooth UC headset."]
+        },
+        "measurements": { "headsetDimensions": "91 x 53 x 15 mm", "headsetWeight": "20 g", "packageDimensions": "7.48 x 8.26 x 2.16 in", "packageWeight": "0.44 lb" },
+        "sourceRefs": [
+          { "title": "HP Poly Voyager 5200 UC product page", "type": "manufacturer", "url": "https://www.hp.com/emea_middle_east-en/products/accessories/product-details/2101720189" },
+          { "title": "HP Poly Voyager 5200 UC specifications", "type": "manufacturer_specs", "url": "https://www.hp.com/emea_middle_east-en/products/accessories/product-details/product-specifications/2101720189" },
+          { "title": "OfficeCrave Poly Voyager 5200 UC UPC cross-check", "type": "retailer", "url": "https://www.officecrave.com/poly-voyager-5200-uc-usb-a-bluetooth-headset-bt700-adapter-7k2f3aa.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "ch9weos99boi14n",
+      "research": {
+        "confidence": 0.91,
+        "name": "Gabinete Acteck Performance II GI215 mini torre Micro ATX/ITX negro con fuente 500W",
+        "description": "Gabinete Acteck Performance II GI215 mini torre negro para ensambles Micro ATX/ITX, con fuente ATX 500 W incluida, panel frontal con 2 USB 2.0, audio y microfono 3.5 mm.",
+        "manualCategoryPath": "computo/componentes/gabinetes/micro-tower/micro-atx-itx",
+        "semanticCategoryPath": "computo/componentes/gabinetes/micro-tower/micro-atx-itx/acteck-performance-ii-gi215",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-mini-torre-performance-ii-gi215",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-935777-7.webp?v=1689709347&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-935777-16.webp?v=1704381010&width=800",
+          "https://acteck.com/cdn/shop/files/AC-935777-12.webp?v=1704381010&width=4000"
+        ],
+        "documents": [
+          { "label": "Acteck Performance II GI215 product page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-mini-torre-performance-ii-gi215" },
+          { "label": "Acteck AC-935777 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-935777_V1.pdf?v=1694532310" },
+          { "label": "Acteck AC-935777 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-935777_MANUAL_WEB_V1.pdf?v=1702401216" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "GI215",
+          "manufacturerSku": "AC-935777",
+          "providerSku": "GABACT320",
+          "ean": "7506215935777",
+          "productType": "Gabinete mini torre para PC",
+          "color": "Negro",
+          "motherboardSupport": ["Micro ATX", "ITX"],
+          "includedPowerSupply": "ATX 500 W no modular incluida",
+          "psuPlacement": "Superior",
+          "frontIO": ["2 x USB 2.0", "Audio 3.5 mm", "Microfono 3.5 mm", "Power", "Reset"],
+          "bays": { "5.25_ODD": 0, "3.5_HDD": 1, "2.5_SSD": 1 },
+          "expansionSlots": 4,
+          "fanSupport": ["2 x 120 mm frontal/lateral no incluidos", "1 x 120 mm superior/trasero no incluido"],
+          "maxCpuCoolerHeight": "150 mm",
+          "maxGpuLength": "280 mm",
+          "materials": "SPCC 0.4 mm, metal side panels, plastic front panel",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "HMO", "stock": 59 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 19 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABACT320", "stock": 596, "price": 418.24, "currency": "MXN", "branch": "HMO:59,TRN:40,DGO:35,URP:32,CDV:29,OAX:27,OBR:25,TXA:22,TPC:20,CLN:19,SLP:19,PUE:19" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Visible Acteck page includes mixed table data from another model; the official AC-935777 datasheet is preferred.", "Retailers alternate between micro tower and mini tower wording; route uses micro-tower because the case targets Micro ATX/ITX."]
+        },
+        "measurements": { "dimensions": "32.5 x 20 x 35.3 cm", "weight": "2.6 kg", "packageDimensions": "37.4 x 22.5 x 39 cm", "psuDimensions": "14 x 15 x 8.6 cm", "psuWeight": "0.68 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Performance II GI215 official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-mini-torre-performance-ii-gi215" },
+          { "title": "Acteck AC-935777 official technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-935777_V1.pdf?v=1694532310" },
+          { "title": "CompuPuebla Acteck GI215 cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/gabinete-acteck-gi215/" }
+        ]
+      }
+    },
+    {
+      "product_id": "s0x9d47y6q7npvz",
+      "research": {
+        "confidence": 0.86,
+        "name": "Aire comprimido Vorago CLN-300 removedor de polvo 660 ml",
+        "description": "Removedor de polvo Vorago CLN-300 en aerosol de 660 ml para limpieza de equipos electronicos, componentes, teclados y superficies, con tubo aplicador y formula libre de CFC/HCFC segun fabricante.",
+        "manualCategoryPath": "computo/accesorios/limpieza/aire-comprimido/660ml",
+        "semanticCategoryPath": "computo/accesorios/limpieza/aire-comprimido/660ml/vorago-cln-300",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/aire-comprimido-vorago-cln-300-660-ml.html",
+        "gallery": [
+          "https://voragolive.com/media/catalog/product/c/l/cln-300_1.jpg?height=792&image-type=image&store=vorago_view&width=647",
+          "https://voragolive.com/media/catalog/product/8/3/8326_2_b3df7a3b33fe9056f6faa391dca3b4a1ee137fa1.jpg?height=110&image-type=thumbnail&store=vorago_view&width=88",
+          "https://compuviper.mx/tienda/wp-content/uploads/2026/05/Aire-comprimido-vorago-cln-300-660-ml.jpg"
+        ],
+        "documents": [
+          { "label": "Vorago CLN-300 product page", "type": "manufacturer", "url": "https://voragolive.com/aire-comprimido-vorago-cln-300-660-ml.html" },
+          { "label": "Vorago CLN-300 datasheet", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/cln-30082381618844482.pdf" },
+          { "label": "Vorago CLN-300 safety sheet", "type": "safety_sheet", "url": "https://voragolive.com/media/vorago/descargables/cln-30053171718840705.pdf" }
+        ],
+        "specs": {
+          "brand": "Vorago",
+          "model": "CLN-300",
+          "mpn": "CLN-300-AC",
+          "providerSku": "CN-5152",
+          "eanUpc": "7502266678618",
+          "productType": "Aire comprimido / removedor de polvo",
+          "volume": "660 ml",
+          "packageQuantity": "1 pieza",
+          "color": ["Azul", "Negro"],
+          "useCases": ["Componentes internos", "Superficies externas", "Equipos y accesorios", "Computadoras", "Celulares", "Tabletas", "Electronica"],
+          "statedProperties": ["Libre de CFC", "Libre de HCFC", "No corrosivo", "No flamable according to commercial sheet"],
+          "includedAccessory": "Tubo aplicador",
+          "chemicalRefs": { "commercialDatasheet": "tetrafluoroetano", "safetySheet2024": "difluoroetano CAS 75-37-6 90%, propano-butano 10%" },
+          "safetyNotes": ["Contiene gas a presion; puede explotar si se calienta.", "No exponer a mas de 50 C / 122 F.", "Usar en lugar ventilado y evitar inhalar aerosoles."],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline_indexed", "providerSku": "CLN-300", "stock": 596, "price": 4.53, "currency": "USD" }, { "providerId": "cva", "providerSku": "CN-5152", "stock": 0, "price": 4.53, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some retailers list 600 ml, but manufacturer and stronger cross-checks list 660 ml.", "Vorago has an alternate page with apparent PIM errors for a 30 ml screen cleaner; the CLN-300 page and datasheet are preferred.", "Commercial sheet and safety sheet differ on chemical composition; safety sheet should be used for regulatory handling.", "Provider branch detail is unavailable in PocketBase for this item."]
+        },
+        "measurements": { "contentVolume": "660 ml", "retailWeight": "0.36-0.4 kg retailer range", "retailDimensions": "8 x 24 x 6.5 cm reported by one retailer; another retailer likely has unit error" },
+        "sourceRefs": [
+          { "title": "Vorago CLN-300 official product page", "type": "manufacturer", "url": "https://voragolive.com/aire-comprimido-vorago-cln-300-660-ml.html" },
+          { "title": "Vorago CLN-300 official datasheet", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/cln-30082381618844482.pdf" },
+          { "title": "GlobalOffice Vorago CLN-300 cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/productos-de-limpieza/aire-comprimido-vorago-cln-300-660-ml/cln-300" }
+        ]
+      }
+    }
+  ]
+}
