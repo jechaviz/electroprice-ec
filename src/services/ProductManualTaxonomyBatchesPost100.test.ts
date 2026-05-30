@@ -301,6 +301,16 @@ const researchedBatchCases = [
   ["Meriva MTD-203D camara IP domo turret PoE 2MP dual light microfono", "MERIVA", "seguridad/cctv/camaras-ip-poe/turret/2mp-dual-light-mic"],
   ["EZVIZ CS-E4P camara WiFi fisheye 360 3K+ doble banda", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/panoramicas/fisheye-3k"],
   ["SmartHome by Epcom SCAM2PTP4G camara PT 4G 4MP bateria solar", "SMARTHOME BY EPCOM", "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar"],
+  ["Brobotix 181005 bobina UTP Cat5e exterior con gel 100 m negra", "BROBOTIX", "redes/cableado-estructurado/bobinas-utp/cat5e/exterior-gel-100m"],
+  ["Gigabyte B760M DS3H WIFI6E GEN5 tarjeta madre micro ATX LGA1700 DDR5", "GIGABYTE", "computo/componentes/tarjetas-madre/intel-lga1700/b760m-ddr5-wifi6e"],
+  ["ASUS Chromebook CR11 CR1104CTA-C8G64-C2 11.6 pulgadas Intel N150", "ASUS BUSINESS", "computo/laptops/chromebooks/11-6-pulgadas/educacion"],
+  ["Perfect Choice Clix PC-045144 mouse inalambrico recargable 1600 DPI negro", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/ergonomicos/recargables-1600-dpi"],
+  ["CDP UPO11-3RT UPS online rack torre 3000VA 2700W", "CDP", "energia/no-breaks-ups/doble-conversion/rack-torre/3000va"],
+  ["Intel Core i7-12700 procesador LGA1700 12 nucleos UHD 770", "INTEL", "computo/componentes/procesadores/intel-core-i7-lga1700"],
+  ["Dell Alienware 16 AW5625P mochila gaming resistente al agua", "DELL", "computo/accesorios/mochilas-fundas/mochilas-gaming/16-pulgadas"],
+  ["DBUGG DB-FF01 camara foco WiFi E27 2MP interior", "DBUGG", "seguridad/cctv/camaras-ip-wifi/interior/foco-e27-2mp"],
+  ["EC Line EC-CD-100-P cajon de dinero metalico RJ11 5 billetes 8 monedas", "EC LINE", "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas"],
+  ["Balam Rush Cosmos Edge MCE27P monitor gaming 27 FHD IPS 240Hz", "BALAM RUSH", "computo/monitores/gaming/27-fhd/240hz"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

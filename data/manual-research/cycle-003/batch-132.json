@@ -1,0 +1,457 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b132-2026-05-30",
+  "cycle": 3,
+  "batch": 132,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "33wagfyk3bofrg4",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BROBOTIX",
+        "name": "Brobotix 181005 bobina UTP Cat5e exterior con gel 100 m negra",
+        "description": "Bobina de cable UTP Cat5e Brobotix 181005 de 100 m para exterior, color negro, conductor CCA, cubierta con gel y presentacion de una pieza para instalaciones de red y CCTV.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat5e/exterior-gel-100m",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat5e/exterior-gel-100m/brobotix-181005",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/cables/bobina-cat-5e-cca-utp-100-m-ngo-con-gel-brobotix/181005",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCRBT4080/ACCRBT4080_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-181005-bobina-utp-cat5e-100_0.webp"],
+        "documents": [
+          { "label": "GlobalOffice Brobotix 181005 page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/cables/bobina-cat-5e-cca-utp-100-m-ngo-con-gel-brobotix/181005" },
+          { "label": "Intercompras Brobotix 181005 specs", "type": "retailer", "url": "https://intercompras.com/p/bobina-brobotix-cat5e-100m-gel-negro-152606" },
+          { "label": "Cityshop Brobotix 181005 page", "type": "retailer", "url": "https://cityshop.mx/producto/bobina-utp-cat5e-100-m-exterior-con-gel-negro-cca-brobotix-181005" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "181005",
+          "providerSku": "ACCRBT4080",
+          "ean": "7503027445302",
+          "productType": "Bobina de cable UTP exterior con gel",
+          "categoryStandard": "Cat5e",
+          "length": "100 m",
+          "shielding": "U/UTP",
+          "conductor": "CCA",
+          "awg": "24 AWG",
+          "jacket": ["PE", "PVC"],
+          "color": "Negro",
+          "certifications": ["ISO/IEC 11801", "ANSI/TIA/EIA-568A"],
+          "providerBranchSummary": "TXA:17,OAX:12,GDL:11,DFC:9,PUE:8,CTZ:5,IRA:5,MID:4,DFT:4,DFP:3,ZAC:3,CAM:3",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT4080", "stock": 99, "price": 30.56, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider category was generic cables/adaptadores; corrected to structured cabling bobbin."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Brobotix 181005 page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/cables/bobina-cat-5e-cca-utp-100-m-ngo-con-gel-brobotix/181005" },
+          { "title": "Intercompras Brobotix 181005 specs", "type": "retailer", "url": "https://intercompras.com/p/bobina-brobotix-cat5e-100m-gel-negro-152606" },
+          { "title": "Cityshop Brobotix 181005 page", "type": "retailer", "url": "https://cityshop.mx/producto/bobina-utp-cat5e-100-m-exterior-con-gel-negro-cca-brobotix-181005" }
+        ]
+      }
+    },
+    {
+      "product_id": "343ccelvave2qvu",
+      "research": {
+        "confidence": 0.95,
+        "brand": "GIGABYTE",
+        "name": "Gigabyte B760M DS3H WIFI6E GEN5 tarjeta madre micro ATX LGA1700 DDR5",
+        "description": "Tarjeta madre Gigabyte B760M DS3H WIFI6E GEN5 micro ATX para procesadores Intel LGA1700 de 12a, 13a y 14a generacion, memoria DDR5, PCIe 5.0 x16, dos M.2 PCIe 4.0, LAN 2.5GbE, Wi-Fi 6E y Bluetooth 5.3.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/b760m-ddr5-wifi6e",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/b760m-ddr5-wifi6e/gigabyte-b760m-ds3h-wf6e-gen5",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/au/Motherboard/B760M-DS3H-WIFI6E-GEN5/sp",
+        "gallery": ["https://static.ctonline.mx/imagenes/MBDGIG5640/MBDGIG5640_full.jpg", "https://www.gigabyte.com/FileUpload/Global/KeyFeature/4018/innergigabyte/images/product/hero.png"],
+        "documents": [
+          { "label": "Gigabyte B760M DS3H WIFI6E GEN5 specifications", "type": "manufacturer", "url": "https://www.gigabyte.com/au/Motherboard/B760M-DS3H-WIFI6E-GEN5/sp" },
+          { "label": "Gigabyte B760M DS3H WIFI6E GEN5 manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_b760m-ds3h-wifi6e-gen5_1001_e.pdf?v=4e5dfe80c671cdc26bf69f5a62d58b8f" }
+        ],
+        "specs": {
+          "brand": "GIGABYTE",
+          "model": "B760M DS3H WIFI6E GEN5",
+          "aliases": ["B760M DS3H WF6E GEN5"],
+          "providerSku": "MBDGIG5640",
+          "ean": "4719331872809",
+          "upc": "889523050507",
+          "chipset": "Intel B760 Express",
+          "socket": "LGA1700",
+          "formFactor": "Micro ATX",
+          "memory": "4 x DDR5 DIMM, hasta 256 GB",
+          "expansion": ["PCIe 5.0 x16", "2 x PCIe 3.0 x1"],
+          "storage": ["2 x M.2 PCIe 4.0", "4 x SATA 6Gb/s"],
+          "network": ["Realtek 2.5GbE", "Intel Wi-Fi 6E AX210", "Bluetooth 5.3"],
+          "videoOutputs": ["HDMI 2.1", "2 x DisplayPort 1.2"],
+          "providerBranchSummary": "D2A:109,DFA:59,GDL:40,CMT:9,LMO:3,SLP:3,MAZ:3,ZAC:3,XLP:2,PUE:2,TXA:2,TPC:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG5640", "stock": 236, "price": 113.49, "currency": "USD", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider path said procesadores; corrected to Intel LGA1700 motherboard."]
+        },
+        "measurements": { "dimensions": "24.4 x 24.4 cm", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Gigabyte B760M DS3H WIFI6E GEN5 specifications", "type": "manufacturer", "url": "https://www.gigabyte.com/au/Motherboard/B760M-DS3H-WIFI6E-GEN5/sp" },
+          { "title": "Gigabyte B760M DS3H WIFI6E GEN5 manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_b760m-ds3h-wifi6e-gen5_1001_e.pdf?v=4e5dfe80c671cdc26bf69f5a62d58b8f" }
+        ]
+      }
+    },
+    {
+      "product_id": "344gv9oy9vty5fa",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ASUS BUSINESS",
+        "name": "ASUS Chromebook CR11 CR1104CTA-C8G64-C2 11.6 pulgadas Intel N150",
+        "description": "Chromebook educativo ASUS CR11 CR1104CTA-C8G64-C2 con pantalla HD de 11.6 pulgadas, procesador Intel N150, 8 GB LPDDR5, 64 GB eMMC, ChromeOS, Wi-Fi 6/6E segun configuracion, chasis MIL-STD-810H y teclado resistente a derrames.",
+        "manualCategoryPath": "computo/laptops/chromebooks/11-6-pulgadas/educacion",
+        "semanticCategoryPath": "computo/laptops/chromebooks/11-6-pulgadas/educacion/asus-cr1104cta-c8g64-c2",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cr11-cr1104c/techspec/",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMASS9460/COMASS9460_full.jpg"],
+        "documents": [
+          { "label": "ASUS Chromebook CR11 tech specs", "type": "manufacturer", "url": "https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cr11-cr1104c/techspec/" },
+          { "label": "MCA ASUS CR1104CTA-C8G64-C2 PDF", "type": "retailer_pdf", "url": "https://mcashop.mx/producto/descargar/671385" }
+        ],
+        "specs": {
+          "brand": "ASUS BUSINESS",
+          "model": "CR1104CTA-C8G64-C2",
+          "providerSku": "COMASS9460",
+          "upc": "197105997783",
+          "productType": "Chromebook educativo",
+          "processor": "Intel Processor N150, 4 nucleos, hasta 3.6 GHz",
+          "graphics": "Intel UHD Graphics",
+          "memory": "8 GB LPDDR5",
+          "storage": "64 GB eMMC",
+          "display": "11.6 pulgadas HD; tactil segun SKU/listado",
+          "os": "ChromeOS",
+          "ports": ["2 x USB-C con display/power delivery", "2 x USB-A", "HDMI 1.4", "Combo audio 3.5 mm"],
+          "wireless": ["Wi-Fi 6/6E segun configuracion", "Bluetooth 5.4"],
+          "battery": "42 Wh o 50 Wh segun configuracion",
+          "ruggedization": ["MIL-STD-810H", "teclado resistente a derrames"],
+          "providerBranchSummary": "VHA:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMASS9460", "stock": 1, "price": 6496.62, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider path said monitores; corrected to Chromebook/laptop education.", "Retail sources differ on touch support; marked as SKU/listing dependent."]
+        },
+        "measurements": { "dimensions": "296.9 x 213.0 x 21.2 mm", "weight": "1.31-1.33 kg aprox. segun configuracion" },
+        "sourceRefs": [
+          { "title": "ASUS Chromebook CR11 tech specs", "type": "manufacturer", "url": "https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cr11-cr1104c/techspec/" },
+          { "title": "MCA ASUS CR1104CTA-C8G64-C2 PDF", "type": "retailer_pdf", "url": "https://mcashop.mx/producto/descargar/671385" }
+        ]
+      }
+    },
+    {
+      "product_id": "349gqtqbibx4vem",
+      "research": {
+        "confidence": 0.91,
+        "brand": "PERFECT CHOICE",
+        "name": "Perfect Choice Clix PC-045144 mouse inalambrico recargable 1600 DPI negro",
+        "description": "Mouse inalambrico recargable Perfect Choice Clix PC-045144 color negro, conexion 2.4 GHz con receptor USB, clic silencioso, diseno ergonomico, bateria recargable por USB-C y resolucion ajustable hasta 1600 DPI.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/recargables-1600-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/recargables-1600-dpi/perfect-choice-clix-pc-045144",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mouse-inalambrico-recargable-clic-silencioso-clix-perfect-choice",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10413433", "https://www.cyberpuerta.mx/img/product/XS/CP-PERFECTCHOICE-PC-045144-6a6a26.jpg"],
+        "documents": [
+          { "label": "Perfect Choice Clix official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mouse-inalambrico-recargable-clic-silencioso-clix-perfect-choice" },
+          { "label": "PCEL Perfect Choice PC-045144 page", "type": "retailer", "url": "https://www.pcel.com/Perfect-Choice-PC-045144-Mouse-Optico-Inalambrico-Perfect-Choice-Clix-PC-045144-hasta-1600-dpi-5-botones-USB-Color-Negro-502782" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-045144",
+          "aliases": ["Clix", "MS-1578", "MOUMST1790"],
+          "productType": "Mouse inalambrico recargable",
+          "color": "Negro",
+          "connectivity": "2.4 GHz con dongle USB",
+          "dpi": "800 / 1200 / 1600",
+          "buttons": "5 a 6 segun ficha",
+          "charging": "USB-C",
+          "battery": "400-500 mAh segun ficha",
+          "range": "Hasta 10 m",
+          "clickType": "Clic silencioso",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "MOUMST1790", "stock": 43, "price": 186.18, "currency": "MXN", "priceKind": "customer_price" },
+            { "providerId": "cva", "providerSku": "MS-1578", "stock": 5, "price": 183.13, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider naming had AC suffix and generic mouse path; corrected to ergonomic rechargeable wireless mouse.", "Closely related Perfect Choice Clix listings differ between 5 and 6 buttons and 400/500 mAh."]
+        },
+        "measurements": { "dimensions": "104 x 70 x 36 mm", "weight": "82.7 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice Clix official page", "type": "manufacturer", "url": "https://perfectchoice.me/products/mouse-inalambrico-recargable-clic-silencioso-clix-perfect-choice" },
+          { "title": "PCEL Perfect Choice PC-045144 page", "type": "retailer", "url": "https://www.pcel.com/Perfect-Choice-PC-045144-Mouse-Optico-Inalambrico-Perfect-Choice-Clix-PC-045144-hasta-1600-dpi-5-botones-USB-Color-Negro-502782" }
+        ]
+      }
+    },
+    {
+      "product_id": "34bzfx47cuu7x1o",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CDP",
+        "name": "CDP UPO11-3RT UPS online rack torre 3000VA 2700W",
+        "description": "UPS online CDP UPO11-3RT de doble conversion para montaje rack/torre, capacidad 3000VA/2700W, onda senoidal pura, pantalla LCD, salidas NEMA, USB/RS232, opcion SNMP y baterias internas.",
+        "manualCategoryPath": "energia/no-breaks-ups/doble-conversion/rack-torre/3000va",
+        "semanticCategoryPath": "energia/no-breaks-ups/doble-conversion/rack-torre/3000va/cdp-upo11-3rt",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/21-Catalogo%20UPO11-3RT%20SPA.pdf",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10123089", "https://res.cloudinary.com/seguridadparati-panama/image/upload/c_fit%2Ch_400%2Cw_400/q_auto/f_avif/v1/products/prod_ups-cdp-upo11-3rt_aboynt.webp"],
+        "documents": [
+          { "label": "CDP UPO11-3RT catalog", "type": "manufacturer_pdf", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/21-Catalogo%20UPO11-3RT%20SPA.pdf" },
+          { "label": "TVC CDP UPO11-3RT page", "type": "retailer", "url": "https://tvc.mx/products/6599" },
+          { "label": "SeguridadParaTi CDP UPO11-3RT page", "type": "retailer", "url": "https://www.seguridadparati.com/panama/electricidad/ups-online/ups-cdp-modelo-upo11-3rt-de-rack-torre.html" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "UPO11-3RT",
+          "aliases": ["FR-1444", "NBKCDP610"],
+          "productType": "UPS online doble conversion rack/torre",
+          "capacity": "3000VA / 2700W",
+          "topology": "Doble conversion online",
+          "formFactor": "Rack / torre",
+          "powerFactor": "0.9",
+          "output": "Onda senoidal pura, 110/115/120/127 V",
+          "interfaces": ["USB", "RS232", "SNMP opcional"],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "NBKCDP610", "stock": 5, "price": 17667.4, "currency": "MXN", "priceKind": "customer_price" },
+            { "providerId": "cva", "providerSku": "FR-1444", "stock": 0, "price": 17725.19, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["CVA listing is out of stock while CTOnline still has stock; best active offer kept from CTOnline.", "Dimensions vary by rack/tower source; preserved as approximate."]
+        },
+        "measurements": { "dimensions": "Aprox. 190 x 318-335 x 421 mm en torre; equivalente rack 2U segun catalogo", "weight": "27.6-28 kg aprox." },
+        "sourceRefs": [
+          { "title": "CDP UPO11-3RT catalog", "type": "manufacturer_pdf", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/21-Catalogo%20UPO11-3RT%20SPA.pdf" },
+          { "title": "TVC CDP UPO11-3RT page", "type": "retailer", "url": "https://tvc.mx/products/6599" },
+          { "title": "SeguridadParaTi CDP UPO11-3RT page", "type": "retailer", "url": "https://www.seguridadparati.com/panama/electricidad/ups-online/ups-cdp-modelo-upo11-3rt-de-rack-torre.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "34eq3dbodjopctq",
+      "research": {
+        "confidence": 0.96,
+        "brand": "INTEL",
+        "name": "Intel Core i7-12700 procesador LGA1700 12 nucleos UHD 770",
+        "description": "Procesador Intel Core i7-12700 de 12a generacion Alder Lake para escritorio, 12 nucleos (8P+4E), 20 hilos, hasta 4.90 GHz, 25 MB Intel Smart Cache, Intel UHD Graphics 770, 65 W base y socket LGA1700.",
+        "manualCategoryPath": "computo/componentes/procesadores/intel-core-i7-lga1700",
+        "semanticCategoryPath": "computo/componentes/procesadores/intel-core-i7-lga1700/intel-core-i7-12700",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.intel.com/content/www/us/en/products/sku/134591/intel-core-i712700-processor-25m-cache-up-to-4-90-ghz/specifications.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/CPUINT4160/CPUINT4160_full.jpg"],
+        "documents": [
+          { "label": "Intel Core i7-12700 specifications", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/134591/intel-core-i712700-processor-25m-cache-up-to-4-90-ghz/specifications.html" },
+          { "label": "Intel LA Core i7-12700 specifications", "type": "manufacturer", "url": "https://www.intel.la/content/www/xl/es/products/sku/134591/intel-core-i7-12700-processor-25m-cache-up-to-4-90-ghz.html" }
+        ],
+        "specs": {
+          "brand": "INTEL",
+          "model": "Core i7-12700",
+          "providerSku": "CPUINT4160",
+          "ean": "5032037237840",
+          "upc": "735858503129",
+          "codeName": "Alder Lake",
+          "socket": "FCLGA1700",
+          "cores": "12 nucleos (8P + 4E)",
+          "threads": 20,
+          "maxTurboFrequency": "4.90 GHz",
+          "basePower": "65 W",
+          "maxTurboPower": "180 W",
+          "cache": "25 MB Intel Smart Cache",
+          "graphics": "Intel UHD Graphics 770",
+          "memorySupport": ["DDR5-4800", "DDR4-3200"],
+          "pcie": "PCIe 5.0 y 4.0, hasta 20 lineas",
+          "providerBranchSummary": "D2A:75,CHI:24,CMT:23,LMO:14,VER:5,TAM:4,HMO:2,TXA:2,CLN:1,CUE:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CPUINT4160", "stock": 151, "price": 328.06, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z"
+        },
+        "measurements": { "dimensions": "45.0 x 37.5 mm", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Intel Core i7-12700 specifications", "type": "manufacturer", "url": "https://www.intel.com/content/www/us/en/products/sku/134591/intel-core-i712700-processor-25m-cache-up-to-4-90-ghz/specifications.html" },
+          { "title": "Intel LA Core i7-12700 specifications", "type": "manufacturer", "url": "https://www.intel.la/content/www/xl/es/products/sku/134591/intel-core-i7-12700-processor-25m-cache-up-to-4-90-ghz.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "34f15569kbl6sce",
+      "research": {
+        "confidence": 0.94,
+        "brand": "DELL",
+        "name": "Dell Alienware 16 AW5625P mochila gaming resistente al agua",
+        "description": "Mochila Dell Alienware 16 AW5625P para laptops de hasta 16 pulgadas, color negro, resistente al agua, suciedad y condiciones ambientales, con tela 600D Oxford reciclada, compartimento para equipo de hasta 365 x 290 x 27 mm y garantia limitada de 3 anos.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-gaming/16-pulgadas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-gaming/16-pulgadas/dell-alienware-aw5625p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/es-es/shop/mochila-alienware-16-aw5625p/apd/460-bfcr/juego-de-azar-juego-de-azar-accesorios",
+        "gallery": ["https://static.ctonline.mx/imagenes/MALDLL1010/MALDLL1010_full.jpg", "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/alienware/backpack/aw5625p-backpack/media-gallery/backpack-alienware-aw5625p-bk-gallery-1.psd?chrss=full&fmt=png-alpha&hei=804&pscan=auto&qlt=100%2C1&resMode=sharp2&scl=1&size=526%2C804&wid=526"],
+        "documents": [
+          { "label": "Dell Alienware 16 AW5625P official page", "type": "manufacturer", "url": "https://www.dell.com/es-es/shop/mochila-alienware-16-aw5625p/apd/460-bfcr/juego-de-azar-juego-de-azar-accesorios" },
+          { "label": "Newegg Alienware 16 AW5625P page", "type": "retailer", "url": "https://www.newegg.com/p/13U-00S3-00018" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "AW5625P",
+          "providerSku": "MALDLL1010",
+          "upc": "884116493167",
+          "productType": "Mochila gaming para laptop",
+          "capacity": "21 L",
+          "compatibility": "Laptops de hasta 16 pulgadas; equipo maximo 365 x 290 x 27 mm",
+          "color": "Negro",
+          "materials": ["Tela 600D Oxford reciclada", "XPE", "PU", "TPU"],
+          "durability": ["Resistente al agua", "Resistente a suciedad", "Resistente a condiciones ambientales"],
+          "warranty": "3 anos limitada",
+          "providerBranchSummary": "DFA:40,D2A:36,VER:4,CUN:2,HMO:1,QRO:1,TXA:1,OAX:1,CMT:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALDLL1010", "stock": 87, "price": 964.44, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider path said monitores; corrected to Alienware 16 gaming backpack."]
+        },
+        "measurements": { "dimensions": "475 x 325 x 195 mm", "weight": "762 g" },
+        "sourceRefs": [
+          { "title": "Dell Alienware 16 AW5625P official page", "type": "manufacturer", "url": "https://www.dell.com/es-es/shop/mochila-alienware-16-aw5625p/apd/460-bfcr/juego-de-azar-juego-de-azar-accesorios" },
+          { "title": "Newegg Alienware 16 AW5625P page", "type": "retailer", "url": "https://www.newegg.com/p/13U-00S3-00018" }
+        ]
+      }
+    },
+    {
+      "product_id": "34sk5n7jehc8rb9",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DBUGG",
+        "name": "DBUGG DB-FF01 camara foco WiFi E27 2MP interior",
+        "description": "Camara de seguridad IP tipo foco DBUGG DB-FF01 para interior, conexion WiFi, roseta E27, formato 1080p/2MP, vision nocturna, microfono integrado, montaje en techo y alimentacion por corriente alterna.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/foco-e27-2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/foco-e27-2mp/dbugg-db-ff01",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctonline.mx/Video-Vigilancia/Camara-PTZ-Analoga/DBUGG/CAMDBU010/64446",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMDBU010/CAMDBU010_full.jpg"],
+        "documents": [
+          { "label": "CTOnline DBUGG DB-FF01 page", "type": "provider_spec", "url": "https://ctonline.mx/Video-Vigilancia/Camara-PTZ-Analoga/DBUGG/CAMDBU010/64446" },
+          { "label": "Intercompras DBUGG DB-FF01 specs", "type": "retailer", "url": "https://intercompras.com/p/camara-foco-dbugg-db-ff01-2mp-wi-fi-conecta-a-roseta-e27-400511" },
+          { "label": "GlobalOffice DBUGG DB-FF01 page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/video-vigilancia/camara-ptz-analoga-dbugg-db-ff01-camara-foco-dbugg/db-ff01" }
+        ],
+        "specs": {
+          "brand": "DBUGG",
+          "model": "DB-FF01",
+          "providerSku": "CAMDBU010",
+          "ean": "7502289463604",
+          "productType": "Camara IP WiFi tipo foco E27",
+          "placement": "Interior",
+          "resolution": "2MP / 1080p",
+          "connectivity": "WiFi",
+          "mount": "Techo / roseta E27",
+          "formFactor": "Foco",
+          "nightVision": true,
+          "audio": "Microfono incorporado",
+          "power": "Corriente alterna",
+          "ethernet": false,
+          "providerBranchSummary": "CUN:12,ZAC:6,OBR:5,COL:5,MTY:5,VHA:4,DFP:4,TRN:2,CHI:2,ACX:2,TXL:1,CAM:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDBU010", "stock": 49, "price": 254.44, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider subcategory says camara PTZ analoga, but specs and product body identify it as IP WiFi foco E27.", "Some reseller PDFs say 3MP; CTOnline/Intercompras batch evidence says 2MP."]
+        },
+        "measurements": { "dimensions": "Aprox. 10 x 5 x 5 cm sin empaque segun PDF reseller conflictivo", "weight": "Aprox. 250 g sin empaque segun PDF reseller conflictivo" },
+        "sourceRefs": [
+          { "title": "CTOnline DBUGG DB-FF01 page", "type": "provider_spec", "url": "https://ctonline.mx/Video-Vigilancia/Camara-PTZ-Analoga/DBUGG/CAMDBU010/64446" },
+          { "title": "Intercompras DBUGG DB-FF01 specs", "type": "retailer", "url": "https://intercompras.com/p/camara-foco-dbugg-db-ff01-2mp-wi-fi-conecta-a-roseta-e27-400511" },
+          { "title": "GlobalOffice DBUGG DB-FF01 page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/video-vigilancia/camara-ptz-analoga-dbugg-db-ff01-camara-foco-dbugg/db-ff01" }
+        ]
+      }
+    },
+    {
+      "product_id": "34ube919mg8x1rv",
+      "research": {
+        "confidence": 0.92,
+        "brand": "EC LINE",
+        "name": "EC Line EC-CD-100-P cajon de dinero metalico RJ11 5 billetes 8 monedas",
+        "description": "Cajon de dinero metalico EC Line EC-CD-100-P color negro para punto de venta, con 5 compartimentos ajustables para billetes, 8 para monedas, ranura de documentos, cerradura de 3 posiciones, interfaz RJ11 y charola de acero.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas/ec-line-ec-cd-100-p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/index.php/app/detalle/producto/cajon-de-dinero/cajon-de-dinero-ec-line-ec-cd-100-p-negro-comparti/ec-cd-100-p",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9967303", "https://digiglobal.ph/web/image/product.template/296/image_1920?unique=625cef1"],
+        "documents": [
+          { "label": "GlobalOffice EC Line EC-CD-100-P page", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/cajon-de-dinero/cajon-de-dinero-ec-line-ec-cd-100-p-negro-comparti/ec-cd-100-p" },
+          { "label": "ClaroShop EC Line EC-CD-100-P specs", "type": "retailer", "url": "https://www.claroshop.com/producto/864608/cajon-de-dinero-metalico-5-billetes-8-monedas-ec-line-reforzado-rj11-ec-cd-100-p" },
+          { "label": "Sensetech EC Line CD-100P page", "type": "retailer", "url": "https://www.sensetech.com.mx/Cajon-de-Dinero/cajon-de-dinero-ecline/Cajon-de-dinero-EC-Line-CD-100P" }
+        ],
+        "specs": {
+          "brand": "EC LINE",
+          "model": "EC-CD-100-P",
+          "aliases": ["EC-CD100P", "CAJ-17"],
+          "productType": "Cajon de dinero POS",
+          "color": "Negro",
+          "billCompartments": "5 ajustables",
+          "coinCompartments": "7-8 u 8 segun charola/ficha",
+          "interface": "RJ11",
+          "lock": "Llave de 3 posiciones",
+          "documentSlot": true,
+          "material": "Acero",
+          "inputVoltage": "12/24 V",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CAJ-17", "stock": 3, "price": 57.58, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider path was infraestructura/racks-enfriamiento; corrected to POS cash drawer.", "Retailer dimensions/weights vary; saved both known ranges."]
+        },
+        "measurements": { "dimensions": "350.5 x 403.8 x 88.9 mm; otros listados 400 x 405 x 85 mm", "weight": "4.3 kg; otros listados 7.3 kg" },
+        "sourceRefs": [
+          { "title": "GlobalOffice EC Line EC-CD-100-P page", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/cajon-de-dinero/cajon-de-dinero-ec-line-ec-cd-100-p-negro-comparti/ec-cd-100-p" },
+          { "title": "ClaroShop EC Line EC-CD-100-P specs", "type": "retailer", "url": "https://www.claroshop.com/producto/864608/cajon-de-dinero-metalico-5-billetes-8-monedas-ec-line-reforzado-rj11-ec-cd-100-p" },
+          { "title": "Sensetech EC Line CD-100P page", "type": "retailer", "url": "https://www.sensetech.com.mx/Cajon-de-Dinero/cajon-de-dinero-ecline/Cajon-de-dinero-EC-Line-CD-100P" }
+        ]
+      }
+    },
+    {
+      "product_id": "34z73ct33a9ouj0",
+      "research": {
+        "confidence": 0.94,
+        "brand": "BALAM RUSH",
+        "name": "Balam Rush Cosmos Edge MCE27P monitor gaming 27 FHD IPS 240Hz",
+        "description": "Monitor gamer Balam Rush Cosmos Edge MCE27P de 27 pulgadas con panel IPS plano, resolucion Full HD 1920 x 1080, frecuencia 240Hz, tiempo de respuesta 1 ms, FreeSync/G-Sync adaptativo, HDMI 2.0, DisplayPort 1.4, bocinas de 3W y montaje VESA 75 x 75 mm.",
+        "manualCategoryPath": "computo/monitores/gaming/27-fhd/240hz",
+        "semanticCategoryPath": "computo/monitores/gaming/27-fhd/240hz/balam-rush-cosmos-edge-mce27p",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://balamrush.com/products/monitor-gamer-27-ips-cosmos-edge-mce27p-negro",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONBLR420/MONBLR420_full.jpg", "https://balamrush.com/cdn/shop/files/BR-944120-01_dd2a3356-9e9b-476a-966e-cbf806ea610d.png?v=1768260244&width=1000"],
+        "documents": [
+          { "label": "Balam Rush Cosmos Edge MCE27P official page", "type": "manufacturer", "url": "https://balamrush.com/products/monitor-gamer-27-ips-cosmos-edge-mce27p-negro" },
+          { "label": "GlobalOffice Balam Rush MCE27P page", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/computadoras/monitores-gaming-balam-rush-cosmos-edge-mce27p-mon/br-944120" },
+          { "label": "Balam Rush MCE27P PDF", "type": "retailer_pdf", "url": "https://xentra.glomastore.mx/img/productos/pdf/ACT-BR-944120.pdf" }
+        ],
+        "specs": {
+          "brand": "BALAM RUSH",
+          "model": "COSMOS EDGE MCE27P",
+          "providerSku": "MONBLR420",
+          "manufacturerSku": "BR-944120",
+          "ean": "7506215944120",
+          "productType": "Monitor gamer IPS",
+          "screenSize": "27 pulgadas",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS plano",
+          "refreshRate": "240 Hz",
+          "responseTime": "1 ms MPRT",
+          "brightness": "300 cd/m2",
+          "contrast": "3000:1",
+          "color": "16.7M, 8-bit, sRGB 99%",
+          "sync": ["FreeSync", "G-Sync compatible/adaptativo"],
+          "ports": ["HDMI 2.0", "DisplayPort 1.4", "Salida de audio"],
+          "speakers": "2 x 3 W",
+          "vesa": "75 x 75 mm",
+          "eyeCare": ["Flicker-Free", "Low Blue Light"],
+          "providerBranchSummary": "D2A:9",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONBLR420", "stock": 9, "price": 2077.42, "currency": "MXN", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T09:20:00Z",
+          "sourceDiscrepancies": ["Provider category was monitores generic; refined to gaming 27 FHD 240Hz."]
+        },
+        "measurements": { "dimensions": "615 x 169 x 449 mm", "weight": "3.85 kg" },
+        "sourceRefs": [
+          { "title": "Balam Rush Cosmos Edge MCE27P official page", "type": "manufacturer", "url": "https://balamrush.com/products/monitor-gamer-27-ips-cosmos-edge-mce27p-negro" },
+          { "title": "GlobalOffice Balam Rush MCE27P page", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/computadoras/monitores-gaming-balam-rush-cosmos-edge-mce27p-mon/br-944120" },
+          { "title": "Balam Rush MCE27P PDF", "type": "retailer_pdf", "url": "https://xentra.glomastore.mx/img/productos/pdf/ACT-BR-944120.pdf" }
+        ]
+      }
+    }
+  ]
+}
