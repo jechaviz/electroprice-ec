@@ -501,6 +501,16 @@ const researchedBatchCases = [
   ["Switch Mercusys MS108G 8 puertos Gigabit 10/100/1000 Mbps", "MERCUSYS", "redes/switches/no-administrables/gigabit/8-puertos"],
   ["Mochila TechZone Loud TZ21LBP09 para laptop 15.6 pulgadas negra", "TECHZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
   ["SSD ADATA LEGEND 710 ALEG-710-512GCS 512GB M.2 NVMe PCIe Gen3x4", "ADATA", "computo/almacenamiento/ssd/m2-nvme/512gb-gen3"],
+  ["Toner Kyocera TK-1172 negro original rendimiento 7200 paginas ECOSYS M2040dn", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-1172"],
+  ["UPS online Complet SIGNAL 3KT220M 3000VA 3000W 220V doble conversion rack torre", "COMPLET", "energia/no-breaks-ups/doble-conversion/rack-torre/3000va"],
+  ["Telefono IP Grandstream GRP2601P 2 lineas 2 cuentas SIP PoE", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/2-lineas/poe"],
+  ["Pantalla profesional LG 86UL5Q-E UHD Signage 86 pulgadas 4K 500 nits webOS", "LG", "video/senalizacion-digital/pantallas-profesionales/86-uhd"],
+  ["DVR XVR Dahua DH-XVR5108HE-I3 WizSense 8 canales H.265+ 5MP-N", "DAHUA TECHNOLOGY", "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-wizsense"],
+  ["Cajon de dinero EC Line EC-CD-200M RJ11 negro 5 billetes 8 monedas", "EC LINE", "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas"],
+  ["Conectores RJ45 Qian NW6100 Cat6 UTP bote 100 piezas contactos banados en oro", "QIAN", "redes/cableado-estructurado/conectores-rj45/cat6/100-piezas"],
+  ["Sistema WiFi mesh TP-Link Deco BE22 2-Pack WiFi 7 BE3600 doble banda", "TP LINK", "redes/routers/mesh-wifi/wifi-7-be3600/2-pack"],
+  ["Bitdefender Antivirus Plus TMBD-403 licencia 5 usuarios 1 ano espanol", "BITDEFENDER", "software/seguridad/antivirus/bitdefender-antivirus-plus/5-usuarios-1-ano"],
+  ["Organizador de cables vertical Brobotix 6007143 articulado plata ABS acero", "BROBOTIX", "infraestructura/racks-accesorios/organizadores-cable/verticales"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
