@@ -1,0 +1,481 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b126-2026-05-30",
+  "cycle": 3,
+  "batch": 126,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "jzdk9l42rkun04w",
+      "research": {
+        "confidence": 0.94,
+        "brand": "SanDisk",
+        "name": "SSD SanDisk WD Green SN350 250GB M.2 NVMe PCIe 3.0",
+        "description": "SSD interno SanDisk WD Green SN350 WDS250G2G0C de 250 GB en formato M.2 2280, interfaz PCIe Gen3 x4 NVMe 1.3, lectura secuencial hasta 2400 MB/s y escritura secuencial hasta 1500 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/250gb-gen3",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/250gb-gen3/sandisk-wd-green-sn350",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS250G2G0C-00CDH0",
+        "gallery": ["https://static.ctonline.mx/imagenes/DDUWSD2170/DDUWSD2170_1_full.jpg"],
+        "documents": [
+          { "label": "SanDisk WD Green SN350 official product page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS250G2G0C-00CDH0" },
+          { "label": "SHI WDS250G2G0C UPC/spec cross-check", "type": "retailer", "url": "https://www.uk.shi.com/product/49405112/WD-Green-SN350-NVMe-SSD-WDS250G2G0C-00CDH0" },
+          { "label": "Komputronik WD Green SN350 250GB image/spec cross-check", "type": "retailer", "url": "https://www.komputronik.pl/product/950989/dysk-wd-green-sn350-m-2-pcie-nvme-250gb.html" }
+        ],
+        "specs": {
+          "brand": "SanDisk",
+          "model": "WDS250G2G0C",
+          "aliases": ["WD Green SN350 250GB", "WDS250G2G0C-00CDH0", "DDUWSD2170"],
+          "providerSku": "DDUWSD2170",
+          "upc": "718037880075",
+          "productType": "SSD M.2 NVMe",
+          "capacity": "250 GB",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe Gen3 x4 NVMe 1.3",
+          "sequentialRead": "Hasta 2400 MB/s",
+          "sequentialWrite": "Hasta 1500 MB/s",
+          "randomReadWrite": "Hasta 300K/300K IOPS",
+          "endurance": "40 TBW",
+          "warranty": "3 anos limitada",
+          "operatingTemperature": "0 a 70 C",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 241 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 101 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 38 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUWSD2170", "stock": 564, "price": 55.57, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider source lists write speed as 3500 MB/s, but official/public cross-checks for the 250GB SN350 class indicate up to 1500 MB/s write; stored official figure.", "Commercial branding appears as WD Green under the SanDisk/WD portfolio; provider brand remains SanDisk."]
+        },
+        "measurements": { "dimensions": "80.15 x 22.15 x 2.38 mm", "weight": "8.5 g" },
+        "sourceRefs": [
+          { "title": "SanDisk WD Green SN350 official product page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS250G2G0C-00CDH0" },
+          { "title": "SHI WDS250G2G0C UPC/spec cross-check", "type": "retailer", "url": "https://www.uk.shi.com/product/49405112/WD-Green-SN350-NVMe-SSD-WDS250G2G0C-00CDH0" },
+          { "title": "Komputronik WD Green SN350 250GB cross-check", "type": "retailer", "url": "https://www.komputronik.pl/product/950989/dysk-wd-green-sn350-m-2-pcie-nvme-250gb.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "zy7bf06yirm6gwl",
+      "research": {
+        "confidence": 0.9,
+        "name": "No break CDP R-UPR604 600VA/300W interactivo AVR 4 contactos",
+        "description": "UPS/no break CDP R-UPR604 de 600 VA/300 W con topologia line-interactive, AVR, onda senoidal simulada, 4 contactos NEMA 5-15R con respaldo y supresion de picos.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/600va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/600va/cdp-r-upr604",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.mx/app/detalle/producto/reguladores-y-ups/cdp-rupr604-600va300w-ups-interactiva-avr-4-sali/r-upr604",
+        "gallery": ["https://www.ectronic.net/web/image/product.product/309042/image_1920?unique=8f1b969", "https://www.ectronic.net/web/image/product.image/538302/image_1024/image?unique=9b20d21", "https://www.ectronic.net/web/image/product.image/539695/image_1024/image?unique=bf41dae"],
+        "documents": [
+          { "label": "GlobalOffice CDP R-UPR604 listing", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/reguladores-y-ups/cdp-rupr604-600va300w-ups-interactiva-avr-4-sali/r-upr604" },
+          { "label": "Ectronic CDP RUPR604 listing", "type": "retailer", "url": "https://www.ectronic.net/shop/no-break-cdp-rupr604-no-break-cdp-rupr604-454395" },
+          { "label": "Coimprit CDP RUPR604 cross-check", "type": "retailer", "url": "https://www.coimprit.com.mx/producto/ups-cdp-rupr604-600va-300w-4-salidas-nema-5-15r/" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "R-UPR604",
+          "aliases": ["RUPR604", "FR-2253", "NBKCDP1740"],
+          "providerSku": "FR-2253",
+          "upc": "879071007146",
+          "productType": "UPS / No break",
+          "topology": "Linea interactiva con AVR",
+          "capacity": "600 VA / 300 W",
+          "inputVoltage": "120 Vca 50/60 Hz",
+          "inputRange": "80-150 Vca",
+          "outputVoltage": "120 Vca",
+          "waveform": "Onda senoidal simulada",
+          "transferTime": "2-4 ms tipico",
+          "outlets": "4 NEMA 5-15R con respaldo, AVR y supresion",
+          "surgeProtection": "175 J",
+          "battery": "12 V 4.5 Ah",
+          "rechargeTime": "4 h al 90%",
+          "mounting": "Torre o pared",
+          "protections": ["Sobrecarga", "Sobredescarga", "Corto circuito", "Sobretension", "Bajo voltaje"],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKCDP1740", "stock": 561, "price": 694.23, "currency": "MXN", "priceKind": "customer_price" }, { "providerId": "cva", "providerSku": "FR-2253", "stock": 0, "price": 696.5, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Listings alternate RUPR604 and R-UPR604 notation; do not confuse with RU-AVR604 regulator without battery.", "Current provider exposes no branch-level locations for this item, only provider-level stock."]
+        },
+        "measurements": { "dimensions": "220 x 150 x 85 mm", "weight": "4.2 kg; some listings report up to 5 kg" },
+        "sourceRefs": [
+          { "title": "GlobalOffice CDP R-UPR604 listing", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/reguladores-y-ups/cdp-rupr604-600va300w-ups-interactiva-avr-4-sali/r-upr604" },
+          { "title": "Ectronic CDP RUPR604 listing", "type": "retailer", "url": "https://www.ectronic.net/shop/no-break-cdp-rupr604-no-break-cdp-rupr604-454395" },
+          { "title": "Coimprit CDP RUPR604 cross-check", "type": "retailer", "url": "https://www.coimprit.com.mx/producto/ups-cdp-rupr604-600va-300w-4-salidas-nema-5-15r/" }
+        ]
+      }
+    },
+    {
+      "product_id": "ilka4tbs0kupqww",
+      "research": {
+        "confidence": 0.95,
+        "name": "Fuente de poder Acteck Blazar Evo FT500E ATX 500W no modular",
+        "description": "Fuente de poder Acteck Blazar Evo FT500E ES-05001E ATX de 500 W, no modular, color negro, con ventilador de 120 mm, switch de voltaje y protecciones electricas basicas.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-500w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-500w/acteck-blazar-evo-ft500e",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/fuente-de-poder-blazar-evo-ft500e-atx-500w",
+        "gallery": ["https://acteck.com/cdn/shop/files/ES-05001E_4.webp?v=1704385873&width=2048", "https://acteck.com/cdn/shop/files/ES-05001E_1_9698098d-23f0-4ece-a0d6-60a2461c51f7.webp?v=1732227845&width=1000", "https://acteck.com/cdn/shop/files/ES-05001E_2_a5f3f6e7-97d1-4aaf-864b-f591c948c2e6.webp?v=1732227845&width=1000"],
+        "documents": [
+          { "label": "Acteck Blazar Evo FT500E official product page", "type": "manufacturer", "url": "https://acteck.com/products/fuente-de-poder-blazar-evo-ft500e-atx-500w" },
+          { "label": "Acteck ES-05001E technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/Ficha_Tecnica_ES05001E_V1.pdf" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "ES-05001E",
+          "aliases": ["Blazar Evo FT500E", "FT500E", "CSP-573", "GABACT380"],
+          "providerSku": "CSP-573",
+          "productType": "Fuente de poder ATX",
+          "wattage": "500 W",
+          "formFactor": "ATX",
+          "modularity": "No modular",
+          "efficiency": "68%",
+          "certification": "Sin certificacion 80 Plus declarada",
+          "caseMaterial": "SECC 0.5 mm",
+          "fan": "120 x 120 x 25 mm, 1300 RPM, 25-30 dB",
+          "voltageSwitch": "Si",
+          "protections": ["UVP", "OVP", "OPP", "SCP"],
+          "connectors": ["1x ATX 20+4 pines", "1x ATX12V 4 pines", "2x SATA", "1x Molex"],
+          "warranty": "3 anos",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABACT380", "stock": 535, "price": 208.74, "currency": "MXN", "priceKind": "promo_price" }, { "providerId": "cva", "providerSku": "CSP-573", "stock": 17, "price": 228.13, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider category was inherited as switches/networking; manufacturer confirms this is an ATX power supply.", "Provider exposes no branch-level warehouse codes for this item."]
+        },
+        "measurements": { "dimensions": "150 x 140 x 86 mm", "weight": "0.8 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Blazar Evo FT500E official product page", "type": "manufacturer", "url": "https://acteck.com/products/fuente-de-poder-blazar-evo-ft500e-atx-500w" },
+          { "title": "Acteck ES-05001E technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/Ficha_Tecnica_ES05001E_V1.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "p43nvub3a4php04",
+      "research": {
+        "confidence": 0.95,
+        "name": "Switch TP-Link LiteWave LS1005 5 puertos Fast Ethernet 10/100 no administrable",
+        "description": "Switch no administrable TP-Link LiteWave LS1005 con 5 puertos RJ45 10/100 Mbps, Auto-MDI/MDIX, plug and play, diseno fanless de escritorio y fuente externa de 5 V.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet/5-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/5-puertos/tp-link-ls1005",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/baltic/business-networking/unmanaged-switch/ls1005/",
+        "gallery": ["https://static.tp-link.com/LS1005_01_large_1563262851927i.jpg", "https://static.tp-link.com/LS1005(UN)1.0-88x82x84-L-7022506556_normal_1564370876639e.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10168472"],
+        "documents": [
+          { "label": "TP-Link LS1005 official product page", "type": "manufacturer", "url": "https://www.tp-link.com/baltic/business-networking/unmanaged-switch/ls1005/" },
+          { "label": "TP-Link Fast Ethernet switch datasheet cross-family", "type": "datasheet", "url": "https://static.tp-link.com/resources/document/TL-SF1005D_V11_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "LS1005",
+          "aliases": ["LiteWave LS1005", "NIC-3149", "SWTTPL730"],
+          "providerSku": "NIC-3149",
+          "productType": "Switch no administrable",
+          "ports": "5 RJ45 10/100 Mbps auto-negociacion",
+          "standards": ["IEEE 802.3i", "IEEE 802.3u", "IEEE 802.3x"],
+          "features": ["Auto-MDI/MDIX", "Plug and play", "Store-and-forward", "Control de flujo 802.3x", "Back pressure", "Fanless"],
+          "enclosure": "Plastico, escritorio",
+          "power": "Adaptador externo 5 VDC / 0.6 A",
+          "maxPowerConsumption": "1.65 W",
+          "heatDissipation": "5.627 BTU/h",
+          "certifications": ["CE", "FCC", "RoHS"],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTTPL730", "stock": 550, "price": 4.43, "currency": "USD", "priceKind": "customer_price" }, { "providerId": "cva", "providerSku": "NIC-3149", "stock": 0, "price": 4.21, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["LS1005 is Fast Ethernet 10/100, not the gigabit LS1005G variant.", "Current provider exposes no branch-level warehouse codes for this item."]
+        },
+        "measurements": { "dimensions": "83.6 x 45.7 x 22.8 mm", "weight": "No publicado con confianza" },
+        "sourceRefs": [
+          { "title": "TP-Link LS1005 official product page", "type": "manufacturer", "url": "https://www.tp-link.com/baltic/business-networking/unmanaged-switch/ls1005/" },
+          { "title": "TP-Link Fast Ethernet switch datasheet cross-family", "type": "datasheet", "url": "https://static.tp-link.com/resources/document/TL-SF1005D_V11_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "fhxztw8iqt7dts7",
+      "research": {
+        "confidence": 0.96,
+        "name": "Monitor gamer Gigabyte GS25F2 24.5 FHD SS IPS 200Hz 1ms",
+        "description": "Monitor gamer Gigabyte GS25F2-US de 24.5 pulgadas Full HD con panel SS IPS, frecuencia de hasta 200 Hz, respuesta 1 ms GTG, HDR10, Adaptive-Sync y bocinas integradas.",
+        "manualCategoryPath": "computo/monitores/gaming/24-5-fhd/200hz",
+        "semanticCategoryPath": "computo/monitores/gaming/24-5-fhd/200hz/gigabyte-gs25f2",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Monitor/GS25F2/sp",
+        "gallery": ["https://www.gigabyte.com/FileUpload/Global/KeyFeature/3903/innergigabyte/images/design-left.png", "https://www.gigabyte.com/FileUpload/Global/KeyFeature/3903/innergigabyte/images/design-right.png", "https://www.gigabyte.com/FileUpload/Global/KeyFeature/3903/innergigabyte/images/gallery/03.png"],
+        "documents": [
+          { "label": "Gigabyte GS25F2 official specs", "type": "manufacturer", "url": "https://www.gigabyte.com/Monitor/GS25F2/sp" },
+          { "label": "Gigabyte GS25F2 user manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/GIGABYTE_GS25F2_G25F2_UM_English_20250110.pdf?v=84a666b1d43db3035fd65df2e0180386" }
+        ],
+        "specs": {
+          "brand": "Gigabyte",
+          "model": "GS25F2-US",
+          "aliases": ["GS25F2", "MONGIG240"],
+          "providerSku": "MONGIG240",
+          "upc": "889523046487",
+          "productType": "Monitor gamer",
+          "screenSize": "24.5 pulgadas",
+          "panel": "SS IPS Edge LED",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "200 Hz",
+          "responseTime": "1 ms GTG",
+          "colorGamut": "120% sRGB",
+          "brightness": "300 cd/m2",
+          "contrast": "1000:1",
+          "viewingAngles": "178/178",
+          "features": ["HDR10", "Adaptive-Sync", "Flicker-Free", "Low Blue Light", "OSD Sidekick", "Aim Stabilizer", "Black Equalizer", "Crosshair", "Timer", "Smart OD"],
+          "speakers": "2 x 2 W",
+          "ports": ["2x HDMI 2.0", "1x DisplayPort 1.4", "Salida audifonos"],
+          "vesa": "100 x 100 mm",
+          "tilt": "-5 a +20 grados",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 524 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONGIG240", "stock": 545, "price": 89.25, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["UPC is supplied by provider; official Gigabyte specs confirm model family and technical attributes."]
+        },
+        "measurements": { "dimensions": "Con base 556.9 x 402.0 x 179.4 mm; sin base 556.9 x 321.5 x 51.3 mm; caja 630 x 414 x 123 mm", "weight": "3.11 kg con base; 2.73 kg sin base; 4.0 kg bruto" },
+        "sourceRefs": [
+          { "title": "Gigabyte GS25F2 official specs", "type": "manufacturer", "url": "https://www.gigabyte.com/Monitor/GS25F2/sp" },
+          { "title": "Gigabyte GS25F2 user manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/GIGABYTE_GS25F2_G25F2_UM_English_20250110.pdf?v=84a666b1d43db3035fd65df2e0180386" }
+        ]
+      }
+    },
+    {
+      "product_id": "649bwct56bxl6tr",
+      "research": {
+        "confidence": 0.95,
+        "name": "Gabinete Acteck Performance Mini III GI215M mini torre Micro-ATX/Mini-ITX negro con fuente 500W",
+        "description": "Gabinete Acteck Performance Mini III GI215M AC-944571 mini torre color negro para tarjetas Micro-ATX y Mini-ITX, con fuente ATX de 500 W incluida, bahias 3.5/2.5 y panel frontal USB 2.0.",
+        "manualCategoryPath": "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w",
+        "semanticCategoryPath": "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w/acteck-gi215m",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-mini-torre-performance-mini-iii-gi215m-negro",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-944571_02.webp?v=1772664650&width=1600", "https://acteck.com/cdn/shop/files/AC-944571_04.webp?v=1772664650&width=1600", "https://acteck.com/cdn/shop/files/AC-944571_05.webp?v=1772664650&width=1600"],
+        "documents": [
+          { "label": "Acteck Performance Mini III GI215M official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-mini-torre-performance-mini-iii-gi215m-negro" },
+          { "label": "GlobalOffice Acteck GI215M EAN/spec cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/gabinetes/gabinete-acteck-performance-mini-iii-gi215m-mini-torre-m/ac-944571" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Performance Mini III GI215M",
+          "partNumber": "AC-944571",
+          "aliases": ["GI215M", "GABACT660", "Performance Mini III"],
+          "providerSku": "GABACT660",
+          "ean": "7506215944571",
+          "productType": "Gabinete mini torre",
+          "color": "Negro",
+          "materials": "Metal/plastico, acero SPCC 0.4 mm",
+          "motherboardSupport": ["Micro-ATX", "Mini-ITX"],
+          "includedPsu": "ATX 500 W, ubicacion superior",
+          "expansionSlots": "4",
+          "driveBays": ["1x 3.5/2.5 combo", "1x 2.5 SSD"],
+          "frontIo": ["2x USB 2.0", "Audio 3.5 mm", "Microfono 3.5 mm"],
+          "fansSupported": ["1x trasero 80 mm", "1x lateral 120 mm"],
+          "fansIncluded": "No incluidos",
+          "clearance": "CPU 148 mm, GPU 250 mm, cableado 5 mm detras de motherboard",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 188 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 106 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 38 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABACT660", "stock": 544, "price": 337.65, "currency": "MXN", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider category was inherited as motherboard/component fallback; manufacturer confirms gabinete with included PSU."]
+        },
+        "measurements": { "dimensions": "26.6 x 16.8 x 35.0 cm", "weight": "2.5 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Performance Mini III GI215M official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-mini-torre-performance-mini-iii-gi215m-negro" },
+          { "title": "GlobalOffice Acteck GI215M EAN/spec cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/gabinetes/gabinete-acteck-performance-mini-iii-gi215m-mini-torre-m/ac-944571" }
+        ]
+      }
+    },
+    {
+      "product_id": "94njrxdde3sghkw",
+      "research": {
+        "confidence": 0.86,
+        "name": "Monitor Naceb NA-0504 19.5 HD+ VA 75Hz 6ms",
+        "description": "Monitor Naceb Technology NA-0504 de 19.5 pulgadas con panel VA, resolucion HD+ 1600 x 900, frecuencia 60-75 Hz, respuesta 6 ms, entrada HDMI y VGA, color negro.",
+        "manualCategoryPath": "computo/monitores/oficina/20-wxga-75hz",
+        "semanticCategoryPath": "computo/monitores/oficina/20-wxga-75hz/naceb-na-0504",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.digitalife.com.mx/productos/na-0504/monitor-naceb-na-0504-195-pulgadas-va-1600x900-hd-75hz-6ms-1x-hdmi-1x-vga-negro",
+        "gallery": ["https://media.digitalife.com.mx/products/na-0504/na-0504-02-md.webp", "https://media.digitalife.com.mx/products/na-0504/na-0504-01-md.webp", "https://static.ctonline.mx/imagenes/MONNCB130/MONNCB130_full.jpg"],
+        "documents": [
+          { "label": "Digitalife Naceb NA-0504 specs", "type": "retailer", "url": "https://www.digitalife.com.mx/productos/na-0504/monitor-naceb-na-0504-195-pulgadas-va-1600x900-hd-75hz-6ms-1x-hdmi-1x-vga-negro" },
+          { "label": "GlobalOffice Naceb NA-0504 cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/naceb-technology/naceb-monitor-hd-195-75hz-1600900-na-0504/na-0504" },
+          { "label": "Abasteo Naceb NA-0504 PDF", "type": "datasheet", "url": "https://master.abasteo.mx/getpdf.php?anid=bc0ea1e254b846be464ba6ae15ee069e&cl=cptopdf_details&pt=NA-0504" }
+        ],
+        "specs": {
+          "brand": "Naceb Technology",
+          "model": "NA-0504",
+          "aliases": ["MONNCB130"],
+          "providerSku": "MONNCB130",
+          "ean": "7502262802314",
+          "productType": "Monitor LED/LCD",
+          "screenSize": "19.5 pulgadas",
+          "panel": "VA",
+          "resolution": "1600 x 900 HD+",
+          "refreshRate": "60-75 Hz",
+          "responseTime": "6 ms",
+          "brightness": "150 cd/m2",
+          "contrast": "500:1",
+          "aspectRatio": "16:9",
+          "ports": ["1x HDMI", "1x VGA"],
+          "vesa": "75 x 75 mm",
+          "color": "Negro",
+          "powerAdapter": "12 V 2 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 97 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 79 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONNCB130", "stock": 544, "price": 522.58, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Digitalife/GlobalOffice list 75 Hz while one PDF lists 60 Hz; stored as 60-75 Hz and categorized under 75Hz because provider catalog also states 75 Hz.", "Weight was not located with confidence."]
+        },
+        "measurements": { "dimensions": "46.1 x 14.4 x 35.6 cm", "weight": "No localizado con confianza" },
+        "sourceRefs": [
+          { "title": "Digitalife Naceb NA-0504 specs", "type": "retailer", "url": "https://www.digitalife.com.mx/productos/na-0504/monitor-naceb-na-0504-195-pulgadas-va-1600x900-hd-75hz-6ms-1x-hdmi-1x-vga-negro" },
+          { "title": "GlobalOffice Naceb NA-0504 cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/naceb-technology/naceb-monitor-hd-195-75hz-1600900-na-0504/na-0504" },
+          { "title": "Abasteo Naceb NA-0504 PDF", "type": "datasheet", "url": "https://master.abasteo.mx/getpdf.php?anid=bc0ea1e254b846be464ba6ae15ee069e&cl=cptopdf_details&pt=NA-0504" }
+        ]
+      }
+    },
+    {
+      "product_id": "u6ihohq2yr4ly5g",
+      "research": {
+        "confidence": 0.95,
+        "name": "Monitor Acteck Captive Lite CL215 21.5 Full HD VA 60Hz 5ms",
+        "description": "Monitor Acteck Captive Lite CL215 AC-943253 de 21.5 pulgadas Full HD con panel VA, 60 Hz, 5 ms, bocinas integradas, HDMI 1.4, VGA, salida de audio, VESA 75x75 y tecnologias HDR, Low Blue Light y Flicker-Free.",
+        "manualCategoryPath": "computo/monitores/oficina/22-fhd-60hz",
+        "semanticCategoryPath": "computo/monitores/oficina/22-fhd-60hz/acteck-cl215",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/monitores-acteck-captive-lite-cl215/",
+        "gallery": ["https://www.supermexdigital.mx/web/image/product.template/32010/image_1920?unique=34959e4", "https://www.supermexdigital.mx/web/image/product.image/83798/image_1920/AC-943253-1.webp?unique=a169f14", "https://www.supermexdigital.mx/web/image/product.image/83799/image_1920/AC-943253-2.webp?unique=a169f14", "https://www.supermexdigital.mx/web/image/product.image/83800/image_1920/AC-943253-0.webp?unique=a169f14"],
+        "documents": [
+          { "label": "Acteck Captive Lite CL215 technical sheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorPlano215PulgadasCAPTIVELITE_CAPTIVELITECL215/MonitorPlano215PulgadasCAPTIVELITE_CAPTIVELITECL215.pdf" },
+          { "label": "CompuPuebla Acteck CL215 listing", "type": "retailer", "url": "https://compupuebla.com/producto/monitores-acteck-captive-lite-cl215/" },
+          { "label": "SuperMex Acteck CL215 EAN/spec cross-check", "type": "retailer", "url": "https://www.supermexdigital.mx/en/shop/7506215943253-monitor-22-acteck-captive-lite-cl215-5ms-60hz-full-hd-va-bocinas-ac-943253-12m-de-garantia-32010" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Captive Lite CL215",
+          "partNumber": "AC-943253",
+          "aliases": ["CL215", "MONACT110"],
+          "providerSku": "MONACT110",
+          "ean": "7506215943253",
+          "productType": "Monitor LED/LCD",
+          "screenSize": "21.5 pulgadas",
+          "panel": "VA plano",
+          "resolution": "1920 x 1080 Full HD",
+          "aspectRatio": "16:9",
+          "refreshRate": "60 Hz",
+          "responseTime": "5 ms",
+          "colorDepth": "16.7M colores",
+          "brightness": "200 cd/m2",
+          "contrast": "1000:1",
+          "colorGamut": "92% sRGB",
+          "features": ["HDR", "Low Blue Light", "Flicker-Free", "Kensington"],
+          "speakers": "3 W",
+          "ports": ["1x VGA", "1x HDMI 1.4", "Salida audio 3.5 mm"],
+          "vesa": "75 x 75 mm",
+          "tilt": "-5 a +15 grados",
+          "power": "100-240 V, consumo maximo 30 W, espera <1 W",
+          "warranty": "3 anos",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "SLP", "stock": 95 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 44 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 36 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 14 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACT110", "stock": 543, "price": 731.19, "currency": "MXN", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider diagonal is 21.5 inches; some retailers title it as 22 inches, which is display class rounding."]
+        },
+        "measurements": { "dimensions": "Producto 50.7 x 38.8 x 42 cm; empaque 54.5 x 10.5 x 43.5 cm", "weight": "2.2 kg producto; 3.2 kg empaque" },
+        "sourceRefs": [
+          { "title": "Acteck Captive Lite CL215 technical sheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/MonitorPlano215PulgadasCAPTIVELITE_CAPTIVELITECL215/MonitorPlano215PulgadasCAPTIVELITE_CAPTIVELITECL215.pdf" },
+          { "title": "CompuPuebla Acteck CL215 listing", "type": "retailer", "url": "https://compupuebla.com/producto/monitores-acteck-captive-lite-cl215/" },
+          { "title": "SuperMex Acteck CL215 EAN/spec cross-check", "type": "retailer", "url": "https://www.supermexdigital.mx/en/shop/7506215943253-monitor-22-acteck-captive-lite-cl215-5ms-60hz-full-hd-va-bocinas-ac-943253-12m-de-garantia-32010" }
+        ]
+      }
+    },
+    {
+      "product_id": "8jpth5rnjkyqh78",
+      "research": {
+        "confidence": 0.88,
+        "name": "Bateria Smartbitt SBBA12-7 de reemplazo para UPS 12V 7Ah sellada VRLA/AGM",
+        "description": "Bateria de reemplazo Smartbitt SBBA12-7/SBBA7-12 para UPS y no breaks, sellada de plomo-acido VRLA/AGM, 12 V, 7 Ah, libre de mantenimiento.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v/7ah",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/7ah/smartbitt-sbba12-7",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/energia/bateria-smartbitt-sbba12-7-12v7ah-compatible-con-sbnb750-sb/sbba12-7sbba7-12",
+        "gallery": ["https://sieeg.com.mx/wp-content/uploads/2026/01/Bateria-de-Reemplazo-Smartbitt-SBBA12-7-12V-7Ah-001-600x600.png.webp", "https://static.ctonline.mx/imagenes/BATBIT050/BATBIT050_2_full.jpg"],
+        "documents": [
+          { "label": "GlobalOffice Smartbitt SBBA12-7 listing", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/bateria-smartbitt-sbba12-7-12v7ah-compatible-con-sbnb750-sb/sbba12-7sbba7-12" },
+          { "label": "KitGlobals Smartbitt SBBA12-7 listing", "type": "retailer", "url": "https://www.kitglobals.com/productos/bateria-smartbitt-sbba12-7-12v-7ah/" },
+          { "label": "SIEEG Smartbitt SBBA12-7 image/spec cross-check", "type": "retailer", "url": "https://sieeg.com.mx/producto/bateria-de-reemplazo-smartbitt-sbba12-7-12v-7ah/" }
+        ],
+        "specs": {
+          "brand": "Smartbitt",
+          "model": "SBBA12-7",
+          "aliases": ["SBBA7-12", "BATBIT050"],
+          "providerSku": "BATBIT050",
+          "productType": "Bateria sellada para UPS",
+          "chemistry": "Plomo-acido sellada SLA/VRLA/AGM",
+          "voltage": "12 V",
+          "capacity": "7 Ah",
+          "cells": "6",
+          "maintenance": "Libre de mantenimiento",
+          "color": "Negro",
+          "useCase": "UPS, no break y EPS",
+          "compatibility": ["Smartbitt SBNB750", "SBNB1200", "SBNB1800", "SBNB1200SI", "SBNB2200PROII", "SBNB3200PROII"],
+          "maxDischarge": "70 A por 5 s segun distribuidor; algunos retail reportan 90 A por 5 s",
+          "internalResistance": "Aprox. 30 mOhm",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 146 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 110 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 34 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 8 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "BATBIT050", "stock": 538, "price": 278.9, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["No official dedicated manufacturer spec sheet was found; core 12V 7Ah VRLA specs agree across distributors.", "Maximum discharge and weight vary slightly by listing."]
+        },
+        "measurements": { "dimensions": "151 x 65 x 100 mm", "weight": "Aprox. 2.04 kg" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Smartbitt SBBA12-7 listing", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/energia/bateria-smartbitt-sbba12-7-12v7ah-compatible-con-sbnb750-sb/sbba12-7sbba7-12" },
+          { "title": "KitGlobals Smartbitt SBBA12-7 listing", "type": "retailer", "url": "https://www.kitglobals.com/productos/bateria-smartbitt-sbba12-7-12v-7ah/" },
+          { "title": "SIEEG Smartbitt SBBA12-7 image/spec cross-check", "type": "retailer", "url": "https://sieeg.com.mx/producto/bateria-de-reemplazo-smartbitt-sbba12-7-12v-7ah/" }
+        ]
+      }
+    },
+    {
+      "product_id": "akjzr6otj1j8awx",
+      "research": {
+        "confidence": 0.92,
+        "name": "Mochila Brobotix Champion 6000830 para laptop 15.6 pulgadas negra con asa metalica",
+        "description": "Mochila/backpack Brobotix Champion 6000830 para laptop de 15.6 pulgadas, color negro, fabricada en poliester, con asa metalica, correas acolchonadas ajustables, compartimento principal acolchado y bolsa frontal con cierre.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/brobotix-6000830",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000830_ft.pdf",
+        "gallery": ["https://resources.sears.com.mx/medios-plazavip/t1/172366842701jpg?qlty=75&scale=500", "https://resources.sears.com.mx/medios-plazavip/t1/172366797804jpg?qlty=75&scale=500", "https://resources.sears.com.mx/medios-plazavip/t1/172366838103jpg?qlty=75&scale=500", "https://resources.sears.com.mx/medios-plazavip/t1/172366846702jpg?qlty=75&scale=500"],
+        "documents": [
+          { "label": "DataComponents Brobotix 6000830 technical sheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000830_ft.pdf" },
+          { "label": "Sears Brobotix 6000830 image/spec cross-check", "type": "retailer", "url": "https://www.sears.com.mx/producto/3313226/mochila-15-6-pulgadas-champion-asa-metalica-backpack-negro-brobotix-6000830" },
+          { "label": "MiPC Brobotix 6000830 cross-check", "type": "retailer", "url": "https://mipc.com.mx/mochila-brobotix-backpack-champion-para-laptop-15-6-pulgadas-negro-6000830.html" },
+          { "label": "CompuPuebla Brobotix 6000830 cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/maletin-backpack-para-laptop-brobotix-6000830/" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "6000830",
+          "aliases": ["MALRBT320", "Backpack Champion"],
+          "providerSku": "MALRBT320",
+          "ean": "7500896000830",
+          "productType": "Mochila para laptop",
+          "line": "Champion",
+          "maxScreenSize": "15.6 pulgadas nominal; ficha DataComponents menciona hasta 17 pulgadas segun medidas del equipo",
+          "material": "Poliester",
+          "color": "Negro",
+          "features": ["Asa metalica", "Correas ajustables acolchonadas", "Broche en correas", "Compartimento principal con division acolchonada y velcro", "Compartimento frontal con cierre"],
+          "compatibility": "Universal",
+          "quantity": "1",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 209 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 69 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 48 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 36 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALRBT320", "stock": 535, "price": 8.13, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Capacity is listed as 15.6 inches by most retail sources; DataComponents notes up to 17 inches depending physical laptop dimensions."]
+        },
+        "measurements": { "dimensions": "33 x 43 x 13 cm", "weight": "400 g" },
+        "sourceRefs": [
+          { "title": "DataComponents Brobotix 6000830 technical sheet", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6000830_ft.pdf" },
+          { "title": "Sears Brobotix 6000830 image/spec cross-check", "type": "retailer", "url": "https://www.sears.com.mx/producto/3313226/mochila-15-6-pulgadas-champion-asa-metalica-backpack-negro-brobotix-6000830" },
+          { "title": "MiPC Brobotix 6000830 cross-check", "type": "retailer", "url": "https://mipc.com.mx/mochila-brobotix-backpack-champion-para-laptop-15-6-pulgadas-negro-6000830.html" },
+          { "title": "CompuPuebla Brobotix 6000830 cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/maletin-backpack-para-laptop-brobotix-6000830/" }
+        ]
+      }
+    }
+  ]
+}

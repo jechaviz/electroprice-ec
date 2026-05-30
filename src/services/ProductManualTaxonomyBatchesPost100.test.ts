@@ -242,6 +242,16 @@ const researchedBatchCases = [
   ["Manhattan 317238 cable extension USB-A macho a hembra 3 m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/3m"],
   ["Epson S015631 cinta negra para impresora LX-350 LX-300+II", "EPSON", "impresion/consumibles/cintas-matriz-punto/epson-lx-350"],
   ["WD Green SN350 WDS500G2G0C SSD 500GB M.2 NVMe PCIe 3.0", "SANDISK", "computo/almacenamiento/ssd/m2-nvme/500gb-gen3"],
+  ["SSD SanDisk WD Green SN350 WDS250G2G0C 250GB M.2 NVMe PCIe 3.0", "SANDISK", "computo/almacenamiento/ssd/m2-nvme/250gb-gen3"],
+  ["CDP R-UPR604 UPS line-interactive 600VA 300W 4 contactos", "CDP", "energia/no-breaks-ups/line-interactive/600va"],
+  ["Acteck Blazar Evo FT500E ES-05001E fuente ATX 500W no modular", "ACTECK", "computo/componentes/fuentes-poder/atx-500w"],
+  ["TP-Link LiteWave LS1005 switch 5 puertos Fast Ethernet 10/100 no administrable", "TP-LINK", "redes/switches/no-administrables/fast-ethernet/5-puertos"],
+  ["Gigabyte GS25F2-US monitor gamer 24.5 FHD SS IPS 200Hz 1ms", "GIGABYTE", "computo/monitores/gaming/24-5-fhd/200hz"],
+  ["Acteck Performance Mini III GI215M gabinete mini torre Micro ATX Mini ITX fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w"],
+  ["Naceb Technology NA-0504 monitor 19.5 HD+ 1600 x 900 VA 75Hz", "NACEB TECHNOLOGY", "computo/monitores/oficina/20-wxga-75hz"],
+  ["Acteck Captive Lite CL215 monitor 21.5 Full HD VA 60Hz 5ms", "ACTECK", "computo/monitores/oficina/22-fhd-60hz"],
+  ["Smartbitt SBBA12-7 bateria de reemplazo UPS 12V 7Ah VRLA AGM", "SMARTBITT", "energia/baterias-ups/selladas-12v/7ah"],
+  ["Mochila Brobotix Champion 6000830 para laptop 15.6 pulgadas negra", "BROBOTIX", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
