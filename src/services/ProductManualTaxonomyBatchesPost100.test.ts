@@ -411,6 +411,16 @@ const researchedBatchCases = [
   ["EZVIZ CS-H8-3K camara PT WiFi exterior 5MP 3K dual light", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light"],
   ["StarTech HD2VGAA2 adaptador HDMI a VGA con audio 1080p negro", "STARTECH.COM", "accesorios/cables-adaptadores/video-hdmi-vga/audio"],
   ["Kyocera 1T02KTBUS0 toner magenta 7000 paginas TASKalfa 306ci 307ci", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5197m-magenta"],
+  ["Brother TN830XL toner negro original alto rendimiento 3000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-830xl"],
+  ["CDP SLB12-5 bateria sellada VRLA AGM 12V 5Ah para UPS", "CDP", "energia/baterias-ups/selladas-12v/5ah"],
+  ["Brother DK-1201 etiquetas papel blanco direcciones 29 x 90.3 mm 400 etiquetas", "BROTHER", "impresion/consumibles/etiquetas-papel/brother-dk/29x90mm"],
+  ["Ocelot Gaming OM27-03 monitor gamer IPS 27 FHD 240Hz FreeSync", "OCELOT GAMING", "computo/monitores/gaming/27-fhd/240hz"],
+  ["Ubiquiti UB-AM Universal Antenna Mount soporte montaje antena blanco", "UBIQUITI", "redes/radioenlaces-antenas/accesorios-montaje/soportes-antena"],
+  ["ADATA R050 PR050-11BK power bank magnetico 5000mAh USB-C negro", "ADATA", "energia/power-banks/magneticos/5000mah"],
+  ["HiLook IPC-D140HA-LUC camara domo IP PoE 4MP Smart Hybrid Light mic", "HILOOK", "seguridad/cctv/camaras-ip-poe/domo/4mp-smart-hybrid-light"],
+  ["Lenovo ThinkVision T27-40 monitor 27 FHD IPS 120Hz", "LENOVO", "computo/monitores/oficina/27-fhd-120hz"],
+  ["Naceb Starfall NA-0636N gabinete gamer Micro-ATX negro cristal templado", "NACEB GAMING", "computo/componentes/gabinetes/gaming/micro-atx"],
+  ["Star Micronics BSC-10 BSC10UD impresora termica tickets 80mm USB Serial 250mm/s", "STAR MICRONICS", "punto-de-venta/impresoras-recibos/80mm-usb-serial"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

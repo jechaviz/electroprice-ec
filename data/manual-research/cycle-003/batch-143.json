@@ -1,0 +1,498 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b143-2026-05-30",
+  "cycle": 3,
+  "batch": 143,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3vibpwav45vonoq",
+      "research": {
+        "confidence": 0.94,
+        "brand": "BROTHER",
+        "name": "Brother TN830XL toner negro original alto rendimiento 3000 paginas",
+        "description": "Cartucho de toner laser negro original Brother TN830XL de alto rendimiento, con rendimiento aproximado de 3000 paginas bajo ISO/IEC 19752 y compatibilidad confirmada con Brother DCP-L2660DW en Mexico.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-830xl",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-830xl/brother-tn830xl",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/tn830xl",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2023/12/29/15/42/tn830xl_spinners_1.jpg"],
+        "documents": [
+          { "label": "Brother Mexico TN830XL", "type": "manufacturer", "url": "https://www.brother.com.mx/products/tn830xl" },
+          { "label": "Brother USA TN830XL", "type": "manufacturer", "url": "https://www.brother-usa.com/products/tn830xl" },
+          { "label": "B&H Brother TN830XL", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1809857-REG/brother_tn830xl_tn830_high_yield_black.html" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN830XL",
+          "providerSku": "CARBRT4480",
+          "upc": "012502673163",
+          "productType": "Toner laser original",
+          "color": "Negro",
+          "yield": "3000 paginas ISO/IEC 19752",
+          "compatibility": ["DCP-L2660DW", "DCP-L2640DW", "DCP-L2647DW", "HL-L24xx", "MFC-L27xx", "MFC-L29xx"],
+          "providerBranchSummary": "PB/CT reporta PUE:29,GDL:16,CMT:13,QRO:1.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "PUE", "stock": 29 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "GDL", "stock": 16 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CMT", "stock": 13 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "QRO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT4480", "stock": 59, "price": 1204.42, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["PB estaba en tinta-toner generico; se reclasifica al toner Brother TN-830XL.", "Brother USA no lista DCP-L2660DW, pero Brother Mexico si lo vincula al TN830XL."]
+        },
+        "measurements": { "dimensions": "Paquete aprox. 37.8 x 17.5 x 12.2 cm", "weight": "0.685 kg paquete aprox." },
+        "sourceRefs": [
+          { "title": "Brother Mexico TN830XL", "type": "manufacturer", "url": "https://www.brother.com.mx/products/tn830xl" },
+          { "title": "B&H Brother TN830XL", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1809857-REG/brother_tn830xl_tn830_high_yield_black.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "3w700fkihzcxj95",
+      "research": {
+        "confidence": 0.93,
+        "brand": "CDP",
+        "name": "CDP SLB12-5 bateria sellada VRLA AGM 12V 5Ah para UPS",
+        "description": "Bateria sellada de plomo-acido CDP SLB12-5, 12V 5Ah, VRLA AGM libre de mantenimiento para UPS, no-breaks, CCTV, alarmas y respaldo de energia.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v/5ah",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/5ah/cdp-slb12-5",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?mf=cHJvdGVjdGlvbg&prd=NjM4&prdn=U0xCMTIvNUFI",
+        "gallery": ["https://cdn.tvc.mx/media/2273753/SLB12-5.webp", "https://cdn.tvc.mx/media/2273748/Banner-SLB5-12.webp"],
+        "documents": [
+          { "label": "CDP SLB12-5", "type": "manufacturer", "url": "https://www.cdpenergy.com/productdetails.asp?mf=cHJvdGVjdGlvbg&prd=NjM4&prdn=U0xCMTIvNUFI" },
+          { "label": "TVC CDP SLB12V-5Ah ficha", "type": "datasheet", "url": "https://cdn.tvc.mx/media/2273773/FichaTecnica-SLB12V-5Ah-Spa.pdf" },
+          { "label": "RET CDP2360009", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/collections/baterias/products/cdp2360009" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "SLB12-5",
+          "alternateModels": ["B-12/5", "SLB 12.5", "SLB12/5AH"],
+          "providerSkus": ["BATCDP240", "FR-2328"],
+          "upc": "879071004763",
+          "productType": "Bateria sellada VRLA AGM",
+          "voltage": "12 V",
+          "capacity": "5 Ah @ 20 h",
+          "cells": 6,
+          "maxDischargeCurrent": "75 A por 5 s",
+          "internalResistance": "21 mOhm aprox.",
+          "applications": ["UPS", "No-break", "CCTV", "Alarmas", "Telecomunicaciones"],
+          "providerBranchSummary": "PB reporta CT stock 101 y CVA stock 0; sucursal no confiable disponible.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CT", "stock": 101 },
+            { "providerId": "9843crmo1ndkn7l", "warehouseCode": "CVA", "stock": 0 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATCDP240", "stock": 101, "price": 190.79, "currency": "MXN", "priceKind": "customer_price" },
+            { "providerId": "cva", "providerSku": "FR-2328", "stock": 0, "price": 191.42, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["PB venia en no-breaks generic; es bateria de reemplazo sellada 12V 5Ah.", "Canales externos publican identificadores CDP2360009/B-12/5 para el mismo tipo de bateria."]
+        },
+        "measurements": { "dimensions": "90 x 70 x 106 mm", "weight": "1.48 kg aprox." },
+        "sourceRefs": [
+          { "title": "TVC CDP SLB12-5", "type": "distributor", "url": "https://tvc.mx/products/84300" },
+          { "title": "CDP SLB12-5 official", "type": "manufacturer", "url": "https://www.cdpenergy.com/productdetails.asp?mf=cHJvdGVjdGlvbg&prd=NjM4&prdn=U0xCMTIvNUFI" }
+        ]
+      }
+    },
+    {
+      "product_id": "3w72fuhtxow5ksi",
+      "research": {
+        "confidence": 0.95,
+        "brand": "BROTHER",
+        "name": "Brother DK-1201 etiquetas papel blanco direcciones 29 x 90.3 mm 400 etiquetas",
+        "description": "Rollo Brother DK-1201 de etiquetas precortadas de papel blanco para direcciones, negro sobre blanco, tamano 29 x 90.3 mm, 400 etiquetas por rollo, compatible con impresoras Brother QL.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas-papel/brother-dk/29x90mm",
+        "semanticCategoryPath": "impresion/consumibles/etiquetas-papel/brother-dk/29x90mm/brother-dk1201",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/dk1201",
+        "gallery": [
+          "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2020/08/18/18/35/dk-1201_spinner1.png",
+          "https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2020/08/14/15/43/dk-1201-front.png"
+        ],
+        "documents": [
+          { "label": "Brother Mexico DK1201", "type": "manufacturer", "url": "https://www.brother.com.mx/products/dk1201" },
+          { "label": "Brother USA DK1201", "type": "manufacturer", "url": "https://www.brother-usa.com/products/dk1201" }
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "DK-1201 / DK1201",
+          "providerSku": "CARBRT1050",
+          "upc": "012502611639",
+          "productType": "Etiquetas precortadas de papel",
+          "labelSize": "29 x 90.3 mm / 1.1 x 3.5 in",
+          "labelsPerRoll": 400,
+          "color": "Blanco; impresion negro sobre blanco",
+          "compatibleSeries": "Brother QL",
+          "providerBranchSummary": "PB/CT reporta CUE:40,TPC:16,QRO:14,CMT:10,CHI:9,SLP:8,MOR:8,SLT:6,MID:6,HMO:5,VHA:5,MAZ:5.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CUE", "stock": 40 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "TPC", "stock": 16 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "QRO", "stock": 14 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CMT", "stock": 10 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CHI", "stock": 9 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "SLP", "stock": 8 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MOR", "stock": 8 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "SLT", "stock": 6 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MID", "stock": 6 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "HMO", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "VHA", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MAZ", "stock": 5 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARBRT1050", "stock": 168, "price": 134.53, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["Walmart normaliza erroneamente DK-1201 como DK_1_201; se conserva DK-1201 oficial.", "Peso/empaque provienen de retailers, no de Brother."]
+        },
+        "measurements": { "dimensions": "Etiqueta 29 x 90.3 mm; paquete retail 12 x 6 x 12 cm reportado", "weight": "0.254 kg reportado por Uline" },
+        "sourceRefs": [
+          { "title": "Brother Mexico DK1201", "type": "manufacturer", "url": "https://www.brother.com.mx/products/dk1201" },
+          { "title": "Brother USA DK1201", "type": "manufacturer", "url": "https://www.brother-usa.com/products/dk1201" }
+        ]
+      }
+    },
+    {
+      "product_id": "3w81tn2q9lclnnv",
+      "research": {
+        "confidence": 0.9,
+        "brand": "OCELOT GAMING",
+        "name": "Ocelot Gaming OM27-03 monitor gamer IPS 27 FHD 240Hz FreeSync",
+        "description": "Monitor gamer plano Ocelot Gaming OM27-03 de 27 pulgadas, panel IPS Full HD 1920 x 1080, 240Hz, respuesta 1-2 ms, FreeSync/Adaptive Sync, HDMI, DisplayPort y salida de audio.",
+        "manualCategoryPath": "computo/monitores/gaming/27-fhd/240hz",
+        "semanticCategoryPath": "computo/monitores/gaming/27-fhd/240hz/ocelot-om27-03",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ocelot.com.mx/producto/monitor-gamer-27-pulgadas-240hz-ips-om27-03/",
+        "gallery": [
+          "https://ocelot.com.mx/wp-content/uploads/2025/11/OM27-03-HD-12.jpg",
+          "https://ocelot.com.mx/wp-content/uploads/2025/11/OM27-03-HD-1.jpg"
+        ],
+        "documents": [
+          { "label": "Ocelot OM27-03", "type": "manufacturer", "url": "https://ocelot.com.mx/producto/monitor-gamer-27-pulgadas-240hz-ips-om27-03/" },
+          { "label": "Cyberpuerta OM27-03", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Gamer-Ocelot-Gaming-OM27-03-LCD-27-1920x1080-Full-HD-FreeSync-240Hz-HDMI-DisplayPort-Bocinas-Integradas-Negro.html" }
+        ],
+        "specs": {
+          "brand": "OCELOT GAMING",
+          "model": "OM27-03",
+          "providerSku": "MNL-2926",
+          "eanCandidate": "7500647013768",
+          "productType": "Monitor gamer IPS",
+          "screenSize": "27 pulgadas",
+          "resolution": "1920 x 1080 FHD",
+          "refreshRate": "240Hz",
+          "responseTime": "1-2 ms; MPRT 1 ms",
+          "brightness": "300 cd/m2",
+          "contrast": "1000:1",
+          "sync": "FreeSync / Adaptive Sync",
+          "ports": "1 HDMI 2.0 y 1 DisplayPort 2.0 segun Ocelot; retailers reportan 2 HDMI + 1 DP",
+          "providerBranchSummary": "PB/CVA reporta stock total 5 sin sucursal.",
+          "providerBranches": [{ "providerId": "9843crmo1ndkn7l", "warehouseCode": "CVA", "stock": 5 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "MNL-2926", "stock": 5, "price": 112.32, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["Ocelot oficial tiene bullets mezclados de 180Hz/23.6; se usa tabla tecnica y retailers para 27 FHD 240Hz.", "VESA varia entre 75 x 75 y 100 x 100 segun fuente."]
+        },
+        "measurements": { "dimensions": "613.8 x 475.8 x 202.1 mm", "weight": "3.68 kg neto; 5.81 kg bruto" },
+        "sourceRefs": [
+          { "title": "Ocelot OM27-03", "type": "manufacturer", "url": "https://ocelot.com.mx/producto/monitor-gamer-27-pulgadas-240hz-ips-om27-03/" },
+          { "title": "Intercompras OM27-03", "type": "retailer", "url": "https://intercompras.com/p/monitor-gamer-ocelot-om27-full-hd-240hz-panel-ips-1ms-freesync-hdmi-446277" }
+        ]
+      }
+    },
+    {
+      "product_id": "3wht7f9iy563knd",
+      "research": {
+        "confidence": 0.93,
+        "brand": "UBIQUITI",
+        "name": "Ubiquiti UB-AM Universal Antenna Mount soporte montaje antena blanco",
+        "description": "Soporte universal Ubiquiti UB-AM para montar antenas y equipos Ubiquiti en pared o poste, acabado blanco, instalacion rapida y estructura metalica para radioenlaces.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/accesorios-montaje/soportes-antena",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/accesorios-montaje/soportes-antena/ubiquiti-ub-am",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://store.ui.com/us/en/products/universal-antenna-mount",
+        "gallery": [
+          "https://cdn.adiglobaldistribution.us/pim/300X300/10278/KX-UBAM.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-UBIQUITINETWORKS-UB-AM-1.jpg"
+        ],
+        "documents": [
+          { "label": "Ubiquiti UB-AM store", "type": "manufacturer", "url": "https://store.ui.com/us/en/products/universal-antenna-mount" },
+          { "label": "Ubiquiti UB-AM quick install", "type": "manual", "url": "https://dl.ui.com/qig/ub-am" },
+          { "label": "ADI UB-AM", "type": "distributor", "url": "https://www.adiglobaldistribution.us/Product/KX-UBAM" }
+        ],
+        "specs": {
+          "brand": "UBIQUITI",
+          "model": "UB-AM",
+          "providerSku": "ACCUBI190",
+          "upc": "810354021374",
+          "productType": "Soporte universal para antena",
+          "mounting": ["Pared", "Poste"],
+          "color": "Blanco",
+          "providerBranchSummary": "PB/CT reporta LEO:2.",
+          "providerBranches": [{ "providerId": "tgg7bun9chh7pvg", "warehouseCode": "LEO", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCUBI190", "stock": 2, "price": 8.39, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["Algunos distribuidores normalizan el SKU como UBAM/KX-UBAM.", "MacToner lista UPC N/A; ADI reporta 810354021374."]
+        },
+        "measurements": { "dimensions": "484.8 x 162.1 x 125 mm", "weight": "1.01 kg" },
+        "sourceRefs": [
+          { "title": "Ubiquiti UB-AM store", "type": "manufacturer", "url": "https://store.ui.com/us/en/products/universal-antenna-mount" },
+          { "title": "Ubiquiti UB-AM quick install", "type": "manual", "url": "https://dl.ui.com/qig/ub-am" }
+        ]
+      }
+    },
+    {
+      "product_id": "3wjl8bpu27467n8",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADATA",
+        "name": "ADATA R050 PR050-11BK power bank magnetico 5000mAh USB-C negro",
+        "description": "Power bank magnetico ADATA R050 PR050-11BK negro de 5000mAh, bateria Li-Polymer, USB-C PD/QC hasta 20W, carga inalambrica Qi hasta 15W y soporte plegable.",
+        "manualCategoryPath": "energia/power-banks/magneticos/5000mah",
+        "semanticCategoryPath": "energia/power-banks/magneticos/5000mah/adata-r050-pr050-11bk",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/global/consumer/category/15/power-bank-r050-magnetic/",
+        "gallery": [
+          "https://us-shop.adata.com/cdn/shop/files/R050_A_2000x2000_1.jpg?v=1739228635&width=1946",
+          "https://us-shop.adata.com/cdn/shop/files/R050_A_2000x2000_4.jpg?v=1739228635&width=1946"
+        ],
+        "documents": [
+          { "label": "ADATA R050", "type": "manufacturer", "url": "https://www.adata.com/global/consumer/category/15/power-bank-r050-magnetic/" },
+          { "label": "ADATA R050 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_r050_magnetic_power_bank_20241015.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "R050 / PR050-11BK",
+          "providerSku": "AC-11957",
+          "ean": "4711085945983",
+          "productType": "Power bank magnetico",
+          "capacity": "5000mAh / 19.25Wh",
+          "ratedCapacity": "5V/3100mAh; 9V/1600mAh",
+          "battery": "Li-Polymer",
+          "input": "USB-C 5V/3A, 9V/2A, 18W max",
+          "outputUsbC": "5V/3A, 9V/2.22A, 20W max",
+          "wirelessOutput": "5W / 7.5W / 10W / 15W",
+          "combinedOutput": "15W max",
+          "providerBranchSummary": "PB/CVA reporta stock total 1 sin sucursal publica.",
+          "providerBranches": [{ "providerId": "9843crmo1ndkn7l", "warehouseCode": "CVA", "stock": 1 }],
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AC-11957", "stock": 1, "price": 13.98, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["B&H menciona USB-A en copy, pero ADATA oficial y specs indican USB-C entrada/salida.", "PR050-11BK es negro; otras tiendas mezclan colores LB/PK."]
+        },
+        "measurements": { "dimensions": "105 x 67 x 13.9 mm", "weight": "148 g" },
+        "sourceRefs": [
+          { "title": "ADATA R050 official", "type": "manufacturer", "url": "https://www.adata.com/global/consumer/category/15/power-bank-r050-magnetic/" },
+          { "title": "ADATA R050 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_r050_magnetic_power_bank_20241015.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3wjznubr47fswya",
+      "research": {
+        "confidence": 0.9,
+        "brand": "HILOOK",
+        "name": "HiLook IPC-D140HA-LUC camara domo IP PoE 4MP Smart Hybrid Light mic",
+        "description": "Camara domo IP HiLook IPC-D140HA-LUC de 4MP con lente 2.8mm, PoE, Smart Hybrid Light IR + luz blanca hasta 20m, microfono integrado, H.265+, deteccion humana y ONVIF.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/4mp-smart-hybrid-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/4mp-smart-hybrid-light/hilook-ipc-d140ha-luc",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://assets.hikvision.com/prd/normal/all/doc/m000064181/IPC-D140HA-LU_Datasheet_20260320.pdf",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2026/01/DomoIPde4mpUsoeninteriorLente28mm2_IPCD140HALUC_EAN6942160461717_0-600x600.jpg",
+          "https://www.securimport.com/web/image/product.template/36170/image_1920?unique=21d7e2b"
+        ],
+        "documents": [
+          { "label": "CompuPuebla IPC-D140HA-LUC ficha", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/DomoIPde4mpUsoeninteriorLente28mm2_IPCD140HALUC_EAN6942160461717/DomoIPde4mpUsoeninteriorLente28mm2_IPCD140HALUC_EAN6942160461717.pdf" },
+          { "label": "HiLook IPC-D140HA-LU official nearby datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/m000064181/IPC-D140HA-LU_Datasheet_20260320.pdf" }
+        ],
+        "specs": {
+          "brand": "HILOOK",
+          "model": "IPC-D140HA-LUC",
+          "providerSku": "CAMHKV5180",
+          "ean": "6942160461717",
+          "productType": "Camara domo IP PoE",
+          "resolution": "4MP 2560 x 1440",
+          "lens": "2.8 mm fijo",
+          "illumination": "IR + luz blanca Smart Hybrid Light hasta 20 m",
+          "audio": "Microfono integrado",
+          "network": "RJ45 10/100, ONVIF Profile S/T, ISAPI",
+          "power": "12 VDC +/-25% o PoE IEEE 802.3af clase 3",
+          "compression": "H.265+, H.265, H.264+, H.264",
+          "providerBranchSummary": "PB/CT reporta D2A:35,DFA:30,GDL:10,CUN:5,MOR:3,SLP:1,LEO:1.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "D2A", "stock": 35 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFA", "stock": 30 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "GDL", "stock": 10 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CUN", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MOR", "stock": 3 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "SLP", "stock": 1 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "LEO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMHKV5180", "stock": 85, "price": 43.32, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["No se encontro pagina primaria exacta LUC en dominio Hikvision; se usa ficha LUC de distribuidor y ficha oficial cercana LU.", "PB dice AcuSense Lite; fichas lo nombran Human Detection / Motion Detection 2.0."]
+        },
+        "measurements": { "dimensions": "Diametro 121.5 x 97.6 mm; empaque 150 x 150 x 141 mm", "weight": "570 g producto; 780 g paquete aprox." },
+        "sourceRefs": [
+          { "title": "CompuPuebla IPC-D140HA-LUC ficha", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/DomoIPde4mpUsoeninteriorLente28mm2_IPCD140HALUC_EAN6942160461717/DomoIPde4mpUsoeninteriorLente28mm2_IPCD140HALUC_EAN6942160461717.pdf" },
+          { "title": "HiLook IPC-D140HA-LU official nearby", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/m000064181/IPC-D140HA-LU_Datasheet_20260320.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3wnkm2tyhvw0y1y",
+      "research": {
+        "confidence": 0.96,
+        "brand": "LENOVO",
+        "name": "Lenovo ThinkVision T27-40 monitor 27 FHD IPS 120Hz",
+        "description": "Monitor Lenovo ThinkVision T27-40 de 27 pulgadas FHD IPS, 120Hz, 4ms, 99% sRGB, HDMI, DisplayPort, VGA, hub USB y ergonomia completa con altura, giro, pivote e inclinacion.",
+        "manualCategoryPath": "computo/monitores/oficina/27-fhd-120hz",
+        "semanticCategoryPath": "computo/monitores/oficina/27-fhd-120hz/lenovo-thinkvision-t27-40",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkVision/ThinkVision_T27_40/ThinkVision_T27_40_Spec.pdf",
+        "gallery": ["https://p3-ofp.static.pub//fes/cms/2025/11/04/w5z5o4ce33cecgviw0nz5jktdnl3dm190089.png?height=584&width=584"],
+        "documents": [
+          { "label": "Lenovo ThinkVision T27-40 PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkVision/ThinkVision_T27_40/ThinkVision_T27_40_Spec.pdf" },
+          { "label": "Lenovo Peru 64A5MAR6LA", "type": "manufacturer", "url": "https://www.lenovo.com/pe/es/p/accessories-and-software/monitors/office/64a5mar6la" }
+        ],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "ThinkVision T27-40",
+          "partNumber": "64A5MAR6LA",
+          "providerSku": "MONLEN1480",
+          "upc": "198155815393",
+          "productType": "Monitor IPS para oficina",
+          "screenSize": "27 pulgadas",
+          "resolution": "1920 x 1080 FHD",
+          "refreshRate": "48-120Hz",
+          "responseTime": "4 ms GtG extremo; 6 ms normal",
+          "brightness": "300 cd/m2",
+          "contrast": "1500:1",
+          "colorCoverage": "99% sRGB, 99% BT.709",
+          "ports": ["HDMI 1.4", "DisplayPort 1.2", "VGA", "USB-B upstream", "3x USB-A 5Gbps", "USB-C downstream 5Gbps PD 15W"],
+          "providerBranchSummary": "PB/CT reporta LEO:1.",
+          "providerBranches": [{ "providerId": "tgg7bun9chh7pvg", "warehouseCode": "LEO", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONLEN1480", "stock": 1, "price": 4736.84, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["PB nombra T27; fuentes Lenovo lo identifican como ThinkVision T27-40 / 64A5MAR6LA.", "Lenovo Mexico aparece sin disponibilidad, pero PB conserva una unidad CT."]
+        },
+        "measurements": { "dimensions": "611.9 x 195 x 382.8-537.8 mm con base; panel 611.9 x 46 x 355.2 mm", "weight": "6.5 kg con base; 4.4 kg panel; 9.1 kg empaque" },
+        "sourceRefs": [
+          { "title": "Lenovo ThinkVision T27-40 PSREF", "type": "datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkVision/ThinkVision_T27_40/ThinkVision_T27_40_Spec.pdf" },
+          { "title": "CompuPuebla Lenovo T27", "type": "retailer", "url": "https://compupuebla.com/producto/monitor-lenovo-t27/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3x7f6uvrltritwo",
+      "research": {
+        "confidence": 0.9,
+        "brand": "NACEB GAMING",
+        "name": "Naceb Starfall NA-0636N gabinete gamer Micro-ATX negro cristal templado",
+        "description": "Gabinete gamer Naceb Starfall NA-0636N negro tipo Micro-ATX/Mini-ITX, con panel frontal y lateral de cristal templado, 3 ventiladores RGB/ARGB incluidos, bahias para HDD/SSD y puertos USB/audio frontales.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/micro-atx",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/micro-atx/naceb-starfall-na-0636n",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://naceb.com.mx/producto/na-0636/",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XS/CP-NACEBTECHNOLOGY-NA-0636N-613a2f.jpg",
+          "https://naceb.com.mx/wp-content/uploads/2025/01/NA-0636B-2-600x600.webp"
+        ],
+        "documents": [
+          { "label": "Naceb NA-0636", "type": "manufacturer", "url": "https://naceb.com.mx/producto/na-0636/" },
+          { "label": "Naceb Starfall datasheet", "type": "datasheet", "url": "https://static.compupuebla.com/product_images/NACEBGABINETEGAMERCVENTANACristalt_Na0636B_EAN7502262801133/NACEBGABINETEGAMERCVENTANACristalt_Na0636B_EAN7502262801133.pdf" }
+        ],
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "NA-0636N",
+          "providerSku": "GABNCB180",
+          "ean": "7502262801225",
+          "productType": "Gabinete gamer Micro-ATX",
+          "color": "Negro",
+          "motherboardSupport": "Micro-ATX / Mini-ITX",
+          "panels": "Cristal templado frontal y lateral",
+          "fansIncluded": "3 ventiladores RGB/ARGB 120 mm",
+          "driveBays": "1 HDD, 3 SSD",
+          "expansionSlots": 5,
+          "frontPorts": "USB 3.0 y USB 2.0; audio/microfono HD",
+          "providerBranchSummary": "PB/CT reporta PUE:2.",
+          "providerBranches": [{ "providerId": "tgg7bun9chh7pvg", "warehouseCode": "PUE", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABNCB180", "stock": 2, "price": 687.78, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["PB estaba en tarjetas madre; es gabinete gamer.", "Fuentes difieren en USB: 1x USB 3.0 + 2x USB 2.0 o 2x USB 3.0 + 1x USB 2.0."]
+        },
+        "measurements": { "dimensions": "34 x 27.5 x 36 cm; empaque 38 x 32 x 40 cm", "weight": "4 kg producto; 5.3 kg empaque" },
+        "sourceRefs": [
+          { "title": "Naceb NA-0636", "type": "manufacturer", "url": "https://naceb.com.mx/producto/na-0636/" },
+          { "title": "CompuPuebla NA-0636N", "type": "retailer", "url": "https://compupuebla.com/producto/gabinetes-gaming-naceb-technology-na-0636n/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3xkcputlm2yez8p",
+      "research": {
+        "confidence": 0.93,
+        "brand": "STAR MICRONICS",
+        "name": "Star Micronics BSC-10 BSC10UD impresora termica tickets 80mm USB Serial 250mm/s",
+        "description": "Impresora termica de tickets Star Micronics BSC-10/BSC10UD para punto de venta, 80/58mm, 203 dpi, velocidad hasta 250 mm/s, autocortador, emulacion ESC/POS y variantes USB/Serial.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos/80mm-usb-serial",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/80mm-usb-serial/star-micronics-bsc10ud",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://starmicronics.com/product/bsc-10-thermal-printers/",
+        "gallery": [
+          "https://starmicronics.com/wp-content/uploads/2022/02/BSC-10-1-scaled.jpg.webp",
+          "https://starmicronics.com/wp-content/uploads/2022/02/BSC-10-5-300x300.jpg.webp"
+        ],
+        "documents": [
+          { "label": "Star Micronics BSC-10", "type": "manufacturer", "url": "https://starmicronics.com/product/bsc-10-thermal-printers/" },
+          { "label": "BSC-10 product sheet ES", "type": "datasheet", "url": "https://www.starmicronics.com/Resources/UploadedDataSheet/BSC-10_Prod_Sheet_SP.pdf" },
+          { "label": "BSC-10 hardware manual", "type": "manual", "url": "https://www.starmicronics.com/support/Mannualfolder/bsc10_hm_en.pdf" }
+        ],
+        "specs": {
+          "brand": "STAR MICRONICS",
+          "model": "BSC-10 / BSC10UD",
+          "providerSku": "IMPSTR880",
+          "ean": "4951319246008",
+          "upc": "088047246001",
+          "productType": "Impresora termica de recibos POS",
+          "printMethod": "Termica directa",
+          "resolution": "203 dpi",
+          "printSpeed": "250 mm/s; 45 recibos por minuto",
+          "paperWidth": "80 mm / 58 mm",
+          "rollDiameter": "Hasta 102 mm",
+          "emulation": "ESC/POS",
+          "interfaces": "USB/Serial segun variante BSC10UD; familia BSC-10 tambien ofrece Ethernet",
+          "providerBranchSummary": "PB/CT reporta D2A:27,DFA:6,GDL:5,QRO:3,HMO:2,ACA:2,CLN:1,CHI:1,LEO:1.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "D2A", "stock": 27 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFA", "stock": 6 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "GDL", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "QRO", "stock": 3 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "HMO", "stock": 2 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "ACA", "stock": 2 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CLN", "stock": 1 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CHI", "stock": 1 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "LEO", "stock": 1 }
+          ],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPSTR880", "stock": 48, "price": 92.36, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T21:10:00Z",
+          "sourceDiscrepancies": ["PB estaba en limpieza; es impresora termica POS.", "EAN/UPC validados en distribuidores MX; pagina Star abierta no los muestra."]
+        },
+        "measurements": { "dimensions": "142 x 212 x 149 mm", "weight": "No publicado por fuente primaria consultada" },
+        "sourceRefs": [
+          { "title": "Star Micronics BSC-10", "type": "manufacturer", "url": "https://starmicronics.com/product/bsc-10-thermal-printers/" },
+          { "title": "BSC-10 product sheet ES", "type": "datasheet", "url": "https://www.starmicronics.com/Resources/UploadedDataSheet/BSC-10_Prod_Sheet_SP.pdf" }
+        ]
+      }
+    }
+  ]
+}
