@@ -441,6 +441,16 @@ const researchedBatchCases = [
   ["Lenovo ThinkVision T27-40 monitor 27 FHD IPS 120Hz", "LENOVO", "computo/monitores/oficina/27-fhd-120hz"],
   ["Naceb Starfall NA-0636N gabinete gamer Micro-ATX negro cristal templado", "NACEB GAMING", "computo/componentes/gabinetes/gaming/micro-atx"],
   ["Star Micronics BSC-10 BSC10UD impresora termica tickets 80mm USB Serial 250mm/s", "STAR MICRONICS", "punto-de-venta/impresoras-recibos/80mm-usb-serial"],
+  ["Evotec EV-1025 gabinete ATX con fuente 500W negro", "EVOTEC", "computo/componentes/gabinetes/atx-mid-tower/fuente-500w"],
+  ["Acteck Creator Aurean II TA220G teclado gamer alambrico USB rainbow negro", "ACTECK", "computo/perifericos/teclados/gaming/membrana-rainbow"],
+  ["Vorago KSP-503 bafle karaoke Bluetooth doble 8 pulgadas TWS RGB", "VORAGO", "audio/bocinas/portatiles-karaoke/doble-8-pulgadas"],
+  ["Silimex alcohol isopropilico aerosol 250 ml para electronica", "SILIMEX", "computo/accesorios/limpieza/alcohol-isopropilico/250ml"],
+  ["Brobotix 6001639 candado nano de llave para laptop 1.8 m", "BROBOTIX", "accesorios/seguridad-fisica/candados-laptop/llave/nano"],
+  ["CyberPower OM900ATLCD UPS line-interactive 900VA 420W LCD", "CYBERPOWER", "energia/no-breaks-ups/line-interactive/900va/lcd"],
+  ["Kingston A400 SA400S37/240G SSD 2.5 SATA 240GB", "KINGSTON", "computo/almacenamiento/ssd/2-5-sata/240gb"],
+  ["HPE ProLiant ML30 Gen11 P86723-DM5 servidor torre Xeon 6325P 32GB", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/torre/hpe-proliant-ml30"],
+  ["Aspel SAE 10 PSAE1AN actualizacion sistema base 1 usuario 99 empresas", "ASPEL", "software/licencias/aspel-sae/actualizacion-base"],
+  ["Amazon Echo Pop B09ZXJDSL5-L bocina inteligente Alexa Lavender Bloom", "AMAZON", "audio/bocinas/inteligentes/alexa"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
