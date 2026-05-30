@@ -1,0 +1,448 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b129-2026-05-30",
+  "cycle": 3,
+  "batch": 129,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "85aoea4q74i1sav",
+      "research": {
+        "confidence": 0.9,
+        "name": "Camara turret HD Topvision TDDL500A 5MP 2.8mm dual light mic IP67",
+        "description": "Camara turret analogica HD Topvision TDDL500A de 5MP con lente 2.8 mm, iluminacion dual IR/luz calida, microfono integrado, audio por coaxial o UTP, COC e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/turret/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret/5mp-dual-light/topvision-tddl500a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://fulloffice.com/products/camara-hd-turret-topvision-tddl500a-5mp-ahd-tvi-cvi-sd-2-8mm-30m-ir-20m-luz-calida-luz-dual-microfono-integrado-ip67-coc-carcasa-metal-plastica-12vcd-imagen-a-color-24x7-audio-por-coaxial-o-utp",
+        "gallery": ["https://fulloffice.com/cdn/shop/files/media_d63b1857-f113-4c16-ac58-f2ecaf5b4a24.jpg?v=1759290593&width=3000"],
+        "documents": [
+          { "label": "FullOffice Topvision TDDL500A listing", "type": "retailer", "url": "https://fulloffice.com/products/camara-hd-turret-topvision-tddl500a-5mp-ahd-tvi-cvi-sd-2-8mm-30m-ir-20m-luz-calida-luz-dual-microfono-integrado-ip67-coc-carcasa-metal-plastica-12vcd-imagen-a-color-24x7-audio-por-coaxial-o-utp" },
+          { "label": "Global Office Topvision TDDL500A listing", "type": "retailer", "url": "https://globaloffice.mx/index.php/app/detalle/producto/camaras/camara-hd-turret-topvision-tddl500a-5mp-ahdtv/tddl500a" }
+        ],
+        "specs": {
+          "brand": "Topvision",
+          "model": "TDDL500A",
+          "aliases": ["C4112TOP08", "Topvision powered by Meriva"],
+          "providerSku": "C4112TOP08",
+          "productType": "Camara TurboHD turret dual light",
+          "resolution": "5MP",
+          "videoFormats": ["AHD", "TVI", "CVI", "CVBS/SD"],
+          "lens": "2.8 mm",
+          "illumination": "IR 30 m y luz calida 20 m",
+          "features": ["Imagen a color 24/7", "Microfono integrado", "Audio por coaxial o UTP", "COC", "IP67"],
+          "body": "Metal + plastico",
+          "power": "12 VCD",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "C4112TOP08", "stock": 500, "price": 354.85, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; model normalized to Topvision TDDL500A.", "No reliable dimensions or net weight were found in open sources.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "FullOffice Topvision TDDL500A listing", "type": "retailer", "url": "https://fulloffice.com/products/camara-hd-turret-topvision-tddl500a-5mp-ahd-tvi-cvi-sd-2-8mm-30m-ir-20m-luz-calida-luz-dual-microfono-integrado-ip67-coc-carcasa-metal-plastica-12vcd-imagen-a-color-24x7-audio-por-coaxial-o-utp" }
+        ]
+      }
+    },
+    {
+      "product_id": "8kx4vw9tcitqojo",
+      "research": {
+        "confidence": 0.95,
+        "name": "Kit camara EZVIZ CS-CB8/SP 3MP WiFi bateria 10400mAh con panel solar",
+        "description": "Kit EZVIZ CS-CB8/SP con camara PT Wi-Fi de exterior 3MP, bateria de 10400 mAh y panel solar incluido para vigilancia sin cableado fijo.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-bateria-solar",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-bateria-solar/ezviz-cs-cb8-sp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/inter/product/CB8/42368",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSCB8_SP/CSCB8_SP-l.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSCB8_SP/CSCB8_SP-FRENTE-l.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSCB8_SP/CSCB8_SP-LAT-IZQ-l.PNG"],
+        "documents": [
+          { "label": "Syscom EZVIZ CS-CB8/SP product page", "type": "provider", "url": "https://www.syscom.mx/products/231286" },
+          { "label": "EZVIZ CB8 official page", "type": "manufacturer", "url": "https://www.ezviz.com/inter/product/CB8/42368" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-CB8/SP",
+          "aliases": ["CS-CB8 3MP", "XMRCAM1080", "231286"],
+          "providerSku": "XMRCAM1080",
+          "productType": "Kit camara IP Wi-Fi PT exterior con bateria y panel solar",
+          "resolution": "2304 x 1296 3MP",
+          "lens": "4 mm",
+          "panTilt": "Pan 340 grados; tilt 65 grados",
+          "nightVision": "IR hasta 15 m",
+          "audio": "Audio bidireccional",
+          "video": "H.264/H.265",
+          "storage": "microSD hasta 256 GB; EZVIZ CloudPlay",
+          "battery": "10400 mAh",
+          "solarPanel": "4.5 W incluido",
+          "wireless": "Wi-Fi 2.4 GHz",
+          "protection": "IP65",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "XMRCAM1080", "stock": 500, "price": 61.49, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider model XMRCAM1080 is generic/crossed; image and Syscom page identify EZVIZ CS-CB8/SP.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "Camara 183 x 116 x 166 mm; empaque 216 x 145 x 203 mm", "weight": "803 g neto; 1060 g con paquete" },
+        "sourceRefs": [
+          { "title": "Syscom EZVIZ CS-CB8/SP product page", "type": "provider", "url": "https://www.syscom.mx/products/231286" },
+          { "title": "EZVIZ CB8 official page", "type": "manufacturer", "url": "https://www.ezviz.com/inter/product/CB8/42368" }
+        ]
+      }
+    },
+    {
+      "product_id": "8n92h1g3nkfgsld",
+      "research": {
+        "confidence": 0.95,
+        "name": "Camara EZVIZ CS-BC1C 1080p WiFi bateria 7800mAh 32GB IP66",
+        "description": "Camara EZVIZ CS-BC1C exterior con bateria recargable de 7800 mAh, video Full HD 2MP, audio bidireccional, sirena, vision nocturna y memoria eMMC interna de 32 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/2mp/ezviz-cs-bc1c",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ezviz.mx/product/cs-bc1c/",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSBC1C/CSBC1C-l.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSBC1C/CSBC1C-FRENTE-l.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSBC1C/CSBC1C-LAT-IZQ-l.PNG"],
+        "documents": [
+          { "label": "Syscom EZVIZ CS-BC1C product page", "type": "provider", "url": "https://www.syscom.mx/products/203817" },
+          { "label": "EZVIZ Mexico CS-BC1C page", "type": "manufacturer", "url": "https://ezviz.mx/product/cs-bc1c/" },
+          { "label": "EZVIZ BC1C Spanish datasheet", "type": "datasheet", "url": "https://ezviz.mx/wp-content/uploads/2022/11/BC1C-ficha-espanol-1.pdf" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-BC1C",
+          "aliases": ["CSBC1C", "203817"],
+          "providerSku": "CSBC1C",
+          "productType": "Camara IP Wi-Fi exterior con bateria",
+          "resolution": "1920 x 1080 2MP",
+          "lens": "2.8 mm",
+          "fieldOfView": "107 grados horizontal",
+          "wireless": "Wi-Fi 2.4 GHz",
+          "audio": "Audio bidireccional",
+          "activeDefense": ["Sirena", "Alertas de voz personalizables"],
+          "nightVision": "IR 10 m y color por spotlights",
+          "detection": "Deteccion humana",
+          "video": "H.264/H.265",
+          "storage": "32 GB eMMC interno; no microSD; EZVIZ CloudPlay",
+          "battery": "7800 mAh",
+          "protection": "IP66",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSBC1C", "stock": 500, "price": 223.12, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider name says Cable; source title, image and Syscom page confirm camera.", "Syscom reports depth 82.80 mm while EZVIZ datasheet reports 62.80 mm.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "104.76 x 62.80 x 62.80 mm official; Syscom 104.76 x 62.80 x 82.80 mm; empaque 186 x 103 x 103 mm", "weight": "365 g producto; 835 g paquete" },
+        "sourceRefs": [
+          { "title": "Syscom EZVIZ CS-BC1C product page", "type": "provider", "url": "https://www.syscom.mx/products/203817" },
+          { "title": "EZVIZ BC1C Spanish datasheet", "type": "datasheet", "url": "https://ezviz.mx/wp-content/uploads/2022/11/BC1C-ficha-espanol-1.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "9gymkxeubiddo2p",
+      "research": {
+        "confidence": 0.87,
+        "name": "Kit camara EZVIZ HB8c Lite 4G WiFi 2K+ bateria 5200mAh con panel solar 5W",
+        "description": "Kit EZVIZ HB8c Lite 4G/Wi-Fi con camara PT exterior 4MP 2K+, bateria de 5200 mAh, panel solar 5W, Nano SIM, deteccion IA y almacenamiento microSD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar/ezviz-hb8c-lite",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/products/247022",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSHB8C_SP_4G_W/CSHB8C_SP_4G_W-l.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSHB8C_SP_4G_W/CSHB8C_SP_4G_W-AD-1-l.PNG"],
+        "documents": [
+          { "label": "Syscom EZVIZ CSHB8C/SP/4G/W product page", "type": "provider", "url": "https://www.syscom.mx/products/247022" },
+          { "label": "Syscom Yealink UVC86 cross-check for mismatch", "type": "provider", "url": "https://www.syscom.mx/products/243967" },
+          { "label": "Yealink UVC86 official page", "type": "manufacturer", "url": "https://www.yealink.com/en/product-detail/camera-uvc86" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CSHB8C/SP/4G/W",
+          "aliases": ["CS-HB8c Lite", "CSHB8C/4G/W", "247022"],
+          "providerSku": "CSHB8C/4G/W",
+          "productType": "Camara IP 4G/Wi-Fi PT exterior con bateria y solar",
+          "resolution": "2560 x 1440 2K+ / 4MP a 15 fps",
+          "lens": "4 mm F1.6",
+          "fieldOfView": "90 grados diagonal",
+          "panTilt": "Pan 340 grados; tilt 80 grados",
+          "network": ["4G LTE", "Wi-Fi 6", "Nano SIM"],
+          "video": "H.265/H.264",
+          "nightVision": "IR 15 m y vision nocturna a color",
+          "detection": ["Deteccion IA humano", "Deteccion IA vehiculo", "Seguimiento automatico"],
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "battery": "5200 mAh",
+          "solarPanel": "5 W IP65; cable Type-C 3 m",
+          "integrations": ["Google Assistant", "Amazon Alexa"],
+          "protection": "IP65",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSHB8C/4G/W", "stock": 500, "price": 2779.92, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Record title and image point to Yealink UVC86, but SKU/model/price match Syscom EZVIZ CSHB8C/SP/4G/W; normalized to EZVIZ.", "Captured SKU omits /SP but matches the Syscom solar kit variant.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "Camara 168 x 100 x 137.2 mm; panel solar 210 x 154 x 33 mm", "weight": "Camara 660 g; Yealink crossed record would be 3.27 kg and is not the catalog item" },
+        "sourceRefs": [
+          { "title": "Syscom EZVIZ CSHB8C/SP/4G/W product page", "type": "provider", "url": "https://www.syscom.mx/products/247022" },
+          { "title": "Yealink UVC86 official mismatch cross-check", "type": "manufacturer", "url": "https://www.yealink.com/en/product-detail/camera-uvc86" }
+        ]
+      }
+    },
+    {
+      "product_id": "9iwqi9y08uilg12",
+      "research": {
+        "confidence": 0.92,
+        "name": "Camara HD turret Topvision TDDL200A 2MP dual light con microfono IP67",
+        "description": "Camara turret analogica HD Topvision TDDL200A de 2MP con lente 2.8 mm, iluminacion dual IR/luz calida, microfono integrado, audio por coaxial o UTP e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light/topvision-tddl200a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tddl200a/",
+        "gallery": ["https://gruporeysa.com.mx/wp-content/uploads/2025/11/media-7-600x600.jpeg"],
+        "documents": [
+          { "label": "Grupo Reysa Topvision TDDL200A listing", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tddl200a/" },
+          { "label": "Global Office Topvision TDDL200A listing", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/camaras/camara-hd-turret-topvision-tddl200a-2mp-ahdtv/tddl200a" },
+          { "label": "Grupo Reysa TDDL200A linked datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?id=23611323&c=4820964&h=pigjWQObM5Fl8yVgRymSNCFhcbWHqIoDJsgYKD8DTWnRR3j_&_xt=.pdf" }
+        ],
+        "specs": {
+          "brand": "Topvision",
+          "model": "TDDL200A",
+          "aliases": ["C4112TOP07", "Topvision powered by Meriva"],
+          "providerSku": "C4112TOP07",
+          "productType": "Camara TurboHD turret dual light",
+          "resolution": "2MP 1920 x 1080 a 25/30 fps",
+          "videoFormats": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "illumination": "IR 20-30 m y luz blanca/calida 20 m",
+          "features": ["Imagen a color 24/7", "Microfono integrado", "Audio por coaxial o UTP", "COC", "OSD", "IP67"],
+          "body": "Metal + plastico",
+          "power": "12 VCD",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "C4112TOP07", "stock": 500, "price": 208.18, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider brand generic ElectroPrice corrected to Topvision.", "Weight from reseller is logistics-level; dimensions not verified.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "0.39 kg reported by reseller" },
+        "sourceRefs": [
+          { "title": "Grupo Reysa Topvision TDDL200A listing", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tddl200a/" },
+          { "title": "Global Office Topvision TDDL200A listing", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/camaras/camara-hd-turret-topvision-tddl200a-2mp-ahdtv/tddl200a" }
+        ]
+      }
+    },
+    {
+      "product_id": "9ryyn67f8q0g4m3",
+      "research": {
+        "confidence": 0.9,
+        "name": "Camara bala IP WiFi SmartHome by Epcom SCAM2B 2MP audio IP65",
+        "description": "Camara bala IP Wi-Fi SmartHome by Epcom SCAM2B de 2MP para exterior, con lente 4 mm, audio bidireccional, microSD, nube EpcomSmart Home, ONVIF e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/2mp/smarthome-epcom-scam2b",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://betaweb.syscom.mx/producto/outlet-SCAM2B-SMARTHOME-BY-EPCOM-233376.html",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2B/SCAM2B-g.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2B/SCAM2B-l.PNG", "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2B/SCAM2B-AD-1-l.PNG"],
+        "documents": [
+          { "label": "Syscom SCAM2B product page", "type": "provider", "url": "https://betaweb.syscom.mx/producto/outlet-SCAM2B-SMARTHOME-BY-EPCOM-233376.html" },
+          { "label": "Syscom SCAM2B official label", "type": "provider", "url": "https://www.syscom.mx/ajax/etiqueta_producto_pdf.php?dest=D&id=233376" },
+          { "label": "Radioelectronics SCAM2B listing", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/scam2b" }
+        ],
+        "specs": {
+          "brand": "SmartHome by Epcom",
+          "model": "SCAM2B",
+          "aliases": ["233376"],
+          "providerSku": "SCAM2B",
+          "manufacturer": "Zhejiang Lingzhu Technology Co. Ltd.",
+          "productType": "Camara IP Wi-Fi bullet exterior",
+          "resolution": "1920 x 1080 2MP",
+          "lens": "4 mm",
+          "fieldOfView": "90 diagonal; 80 horizontal",
+          "wireless": "Wi-Fi 2.4 GHz 802.11b/g/n",
+          "audio": "Audio bidireccional",
+          "nightVision": "Cambio automatico dia/noche",
+          "storage": "microSD hasta 256 GB; nube EpcomSmart Home",
+          "features": ["Deteccion de movimiento", "Grabacion continua", "ONVIF"],
+          "power": "12 V / 1 A, eliminador incluido",
+          "protection": "IP65 exterior",
+          "operatingTemperature": "-10 a 50 C",
+          "humidity": "Menor a 95% sin condensacion",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "SCAM2B", "stock": 500, "price": 56, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider name was too generic; Syscom label confirms SmartHome by Epcom SCAM2B.", "Dimensions not found; reseller weight is package/logistics-level.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "0.38 kg reported by reseller" },
+        "sourceRefs": [
+          { "title": "Syscom SCAM2B product page", "type": "provider", "url": "https://betaweb.syscom.mx/producto/outlet-SCAM2B-SMARTHOME-BY-EPCOM-233376.html" },
+          { "title": "Syscom SCAM2B official label", "type": "provider", "url": "https://www.syscom.mx/ajax/etiqueta_producto_pdf.php?dest=D&id=233376" }
+        ]
+      }
+    },
+    {
+      "product_id": "9vw513cf4cjr7eu",
+      "research": {
+        "confidence": 0.94,
+        "name": "Camara bala TurboHD HiLook THC-B157-LTS 3K 5MP dual light audio IP67",
+        "description": "Camara bala TurboHD HiLook THC-B157-LTS de 3K/5MP con Smart Hybrid Light, microfono y bocina integrados, audio bidireccional, lente 2.8 mm, cuerpo metalico e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light-audio",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light-audio/hilook-thc-b157-lts",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://radioelectronicsenlinea.mx/products/thcb157lts",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/HiLook%20by%20HIKVISION/THCB157LTS/portada_0S1000.PNG", "https://radioelectronicsenlinea.mx/cdn/shop/files/portada_0S1000_9a5e2898-9794-49e1-9ecd-f0a24867481f_grande.png?v=1752848578"],
+        "documents": [
+          { "label": "Syscom THC-B157-LTS technical PDF", "type": "datasheet", "url": "https://ftp3.syscom.mx/usuarios/nicolas.jimenez/Especificaciones%20Tecnicas%20-%20THC-B157-LTS.pdf" },
+          { "label": "Radioelectronics THC-B157-LTS listing", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/thcb157lts" },
+          { "label": "Senetic THC-B157-LTS cross-check", "type": "retailer", "url": "https://www.senetic.ie/product/THC-B157-LTS" }
+        ],
+        "specs": {
+          "brand": "HiLook by Hikvision",
+          "model": "THC-B157-LTS",
+          "aliases": ["THCB157LTS"],
+          "providerSku": "THCB157LTS",
+          "productType": "Camara TurboHD bullet 3K dual light con audio bidireccional",
+          "resolution": "2960 x 1665 3K / 5MP",
+          "sensor": "CMOS 3K",
+          "lens": "2.8 mm; variante 3.6 mm tambien publicada",
+          "fieldOfView": "2.8 mm: 112 horizontal; 62 vertical; 131 diagonal",
+          "illumination": "Smart Hybrid Light; IR 30 m y luz blanca 20 m",
+          "audio": "Microfono y bocina integrados; audio bidireccional full duplex hasta 5 m",
+          "imageFeatures": ["dWDR", "BLC", "HLC", "2D DNR", "Smart IR"],
+          "videoOutput": "Analogica HD; HIKVISION-C",
+          "power": "12 VDC +/-25%, max 5.4 W",
+          "body": "Metal",
+          "protection": "IP67",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "THCB157LTS", "stock": 500, "price": 43.92, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Do not confuse with THC-B157-LPTS, which has different body, weight and illumination values.", "Provider brand generic ElectroPrice corrected to HiLook by Hikvision.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "179 x 66 x 69.1 mm", "weight": "410 g approx" },
+        "sourceRefs": [
+          { "title": "Syscom THC-B157-LTS technical PDF", "type": "datasheet", "url": "https://ftp3.syscom.mx/usuarios/nicolas.jimenez/Especificaciones%20Tecnicas%20-%20THC-B157-LTS.pdf" },
+          { "title": "Radioelectronics THC-B157-LTS listing", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/thcb157lts" }
+        ]
+      }
+    },
+    {
+      "product_id": "cc0e2lwg7jyzzsb",
+      "research": {
+        "confidence": 0.94,
+        "name": "Uniarch IPC-B132-AF28-ECO camara IP mini bullet PoE 2MP microfono",
+        "description": "Camara IP mini bullet Uniarch IPC-B132-AF28-ECO de 2MP con lente 2.8 mm, IR 30 m, microfono integrado, deteccion humana 2.0, PoE, Ultra265, ONVIF e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-mic/uniarch-ipc-b132-af28-eco",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.mx/app/detalle/producto/camaras/camara-ip-mini-bullet-uniarch-ipc-b132-af28-eco-2mp-lent/ipc-b132-af28-eco",
+        "gallery": ["https://api.tecnosinergia.info/storage/item_img/imagen_67f73ecc993a8.jpg"],
+        "documents": [
+          { "label": "Tecnosinergia/Uniarch IPC-B132-AF28-ECO datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=QySxu97LwKvLuWLnKJROQk5EvFY5BIaxISiksK5w9Y0rm-Ma&id=21932095" },
+          { "label": "Global Office IPC-B132-AF28-ECO listing", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/camaras/camara-ip-mini-bullet-uniarch-ipc-b132-af28-eco-2mp-lent/ipc-b132-af28-eco" },
+          { "label": "Global Office IPC-B132-AF28-E suffix discrepancy", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/camaras/camara-ip-mini-bullet-uniarch-ipc-b132-af28-e-2m/ipc-b132-af28-e" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "IPC-B132-AF28-ECO",
+          "aliases": ["CI111UNV88", "IPC-B132-AF28-E"],
+          "providerSku": "CI111UNV88",
+          "productType": "Camara IP mini bullet PoE",
+          "sensor": "1/3 in CMOS",
+          "resolution": "1920 x 1080 a 30 fps",
+          "lens": "2.8 mm F2.0",
+          "fieldOfView": "87.8 horizontal; 48.9 vertical; 99 diagonal",
+          "nightVision": "Smart IR 850 nm hasta 30 m",
+          "imageFeatures": ["DWDR", "2D/3D DNR", "ROI"],
+          "compression": ["Ultra 265", "H.265", "H.264"],
+          "audio": "Microfono integrado; G.711U/G.711A; sin audio bidireccional",
+          "analytics": ["Deteccion de movimiento", "Audio detection", "Human body detection 2.0"],
+          "network": ["RJ45 10/100", "ONVIF Profile S/T", "API/SDK"],
+          "power": "PoE IEEE 802.3af; max 2.5 W",
+          "protection": "IP67",
+          "operatingTemperature": "-30 a 60 C",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI111UNV88", "stock": 500, "price": 319.58, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["One distributor page omits ECO suffix, but original title/PDF and another listing point to IPC-B132-AF28-ECO.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "140 x 61 x 65 mm", "weight": "0.15 kg" },
+        "sourceRefs": [
+          { "title": "Tecnosinergia/Uniarch IPC-B132-AF28-ECO datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=QySxu97LwKvLuWLnKJROQk5EvFY5BIaxISiksK5w9Y0rm-Ma&id=21932095" },
+          { "title": "Global Office IPC-B132-AF28-ECO listing", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/camaras/camara-ip-mini-bullet-uniarch-ipc-b132-af28-eco-2mp-lent/ipc-b132-af28-eco" }
+        ]
+      }
+    },
+    {
+      "product_id": "d2pxal614v3duwa",
+      "research": {
+        "confidence": 0.88,
+        "name": "DuoSmart E41 camara WiFi bullet exterior 3MP con bateria recargable",
+        "description": "Camara inteligente DuoSmart E41 Wi-Fi 2.4 GHz de exterior tipo bullet, 3MP, bateria recargable integrada, audio bidireccional, vision nocturna y microSD hasta 128 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/3mp/duosmart-e41",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://duosmart.mx/detail/E41.html",
+        "gallery": ["https://novusred.mx/107799-large_default/camara-inteligente-100-por-ciento-inalambrica-duosmart-e41-wifi-24-ghz-3mp-compatible-con-app-duosmart-con-bateria-recargable-in.jpg"],
+        "documents": [
+          { "label": "DuoSmart E41 official page", "type": "manufacturer", "url": "https://duosmart.mx/detail/E41.html" },
+          { "label": "Global Office DuoSmart E41 listing", "type": "retailer", "url": "https://globaloffice.mx/app/detalle/producto/duosmart/camara-inteligente-100-por-ciento-inalambrica-duosmart-e41-w/e41" },
+          { "label": "Novusred DuoSmart E41 AN500DUO09 listing", "type": "retailer", "url": "https://novusred.mx/sin-clasificacion/62860-camara-inteligente-100-por-ciento-inalambrica-duosmart-e41-wifi-24-ghz-3mp-compatible-con-app-duosmart-con-bateria-recargable-in.html" }
+        ],
+        "specs": {
+          "brand": "DuoSmart",
+          "model": "E41",
+          "aliases": ["AN500DUO09"],
+          "providerSku": "AN500DUO09",
+          "productType": "Camara IP Wi-Fi exterior con bateria",
+          "resolution": "3MP Full HD",
+          "lens": "3.6 mm",
+          "wireless": "Wi-Fi 2.4 GHz",
+          "battery": "Bateria recargable integrada de larga duracion",
+          "audio": "Audio bidireccional",
+          "nightVision": "Hasta 10 m",
+          "storage": "microSD hasta 128 GB clase 10, no incluida",
+          "features": ["Deteccion de movimiento", "Control por app DuoSmart", "Ecosistema Tuya indicado en imagen comercial"],
+          "power": "Carga/alimentacion 5 VDC / 1 A incluida",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "AN500DUO09", "stock": 500, "price": 553.37, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider brand generic ElectroPrice corrected to DuoSmart E41.", "Tecnosinergia lists E41 with substitute E70; keep this note for obsolescence/supersession review.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "DuoSmart E41 official page", "type": "manufacturer", "url": "https://duosmart.mx/detail/E41.html" },
+          { "title": "Global Office DuoSmart E41 listing", "type": "retailer", "url": "https://globaloffice.mx/app/detalle/producto/duosmart/camara-inteligente-100-por-ciento-inalambrica-duosmart-e41-w/e41" }
+        ]
+      }
+    },
+    {
+      "product_id": "da40isiw9dff5ad",
+      "research": {
+        "confidence": 0.86,
+        "name": "DuoSmart E11 camara WiFi interior 3MP audio bidireccional microSD 128GB",
+        "description": "Camara inteligente DuoSmart E11 Wi-Fi 2.4 GHz para interior con resolucion 3MP, audio bidireccional, vision nocturna, deteccion de movimiento y microSD hasta 128 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/3mp/duosmart-e11",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://duosmart.mx/detail/E11.html",
+        "gallery": ["https://novusred.mx/107798-large_default/camara-inteligente-duosmart-e11-wifi-24-ghz-para-interior-de-facil-colocacion-con-audio-bidireccional-full-hd-3mp-compatible-con.jpg"],
+        "documents": [
+          { "label": "DuoSmart E11 official page", "type": "manufacturer", "url": "https://duosmart.mx/detail/E11.html" },
+          { "label": "Novusred DuoSmart E11 AN500DUO08 listing", "type": "retailer", "url": "https://novusred.mx/sin-clasificacion/62859-camara-inteligente-duosmart-e11-wifi-24-ghz-para-interior-de-facil-colocacion-con-audio-bidireccional-full-hd-3mp-compatible-con.html" },
+          { "label": "Grupo Reysa DuoSmart E11 listing", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/duosmart-e11/" }
+        ],
+        "specs": {
+          "brand": "DuoSmart",
+          "model": "E11",
+          "aliases": ["AN500DUO08"],
+          "providerSku": "AN500DUO08",
+          "productType": "Camara IP Wi-Fi interior",
+          "resolution": "3MP Full HD",
+          "wireless": "Wi-Fi 2.4 GHz",
+          "audio": "Audio bidireccional",
+          "nightVision": "Vision nocturna indicada en ficha oficial",
+          "storage": "microSD hasta 128 GB clase 10, no incluida",
+          "features": ["Facil colocacion", "Control por app DuoSmart", "Deteccion de movimiento"],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "AN500DUO08", "stock": 500, "price": 190.22, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T06:00:00Z",
+          "sourceDiscrepancies": ["Provider brand generic ElectroPrice corrected to DuoSmart E11.", "PCDigital reports dimensions/weight but its ficha contains contradictory brand/PoE/RJ45 data, so measurements are not loaded as authoritative.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No confirmado; PCDigital low-confidence 96 x 96 mm", "weight": "No confirmado; PCDigital low-confidence 205 g" },
+        "sourceRefs": [
+          { "title": "DuoSmart E11 official page", "type": "manufacturer", "url": "https://duosmart.mx/detail/E11.html" },
+          { "title": "Novusred DuoSmart E11 AN500DUO08 listing", "type": "retailer", "url": "https://novusred.mx/sin-clasificacion/62859-camara-inteligente-duosmart-e11-wifi-24-ghz-para-interior-de-facil-colocacion-con-audio-bidireccional-full-hd-3mp-compatible-con.html" }
+        ]
+      }
+    }
+  ]
+}

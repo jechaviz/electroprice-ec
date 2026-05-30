@@ -473,7 +473,7 @@ describe("product curation policy", () => {
       name: "TopVision TDDL200A camara HD turret 2MP TVI AHD CVI",
       brand: "TOPVISION",
       category: "laptops",
-    }).path).toBe("seguridad/cctv/camaras-turbohd");
+    }).path).toBe("seguridad/cctv/camaras-turbohd/turret/2mp-dual-light");
 
     expect(classifyManualCategory({
       name: "HP ScanJet Pro 2000 s2 6FW06A escaner documental",

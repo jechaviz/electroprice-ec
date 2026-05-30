@@ -416,7 +416,7 @@ const researchedBatchCases = [
   ["ZOOMY ZPF03 comedero inteligente con camara Wi-Fi 6L para mascotas", "ZOOMY", "mascotas/alimentacion/comederos-inteligentes/con-camara-6l"],
   ["SanDisk Ultra Dual Drive Go SDDDC3-128G-G46 USB-C USB-A 128GB", "SANDISK", "computo/almacenamiento/memorias-flash/usb-dual/128gb"],
   ["EC Line EC-PC-801A verificador de precios Android 8 pulgadas 1D 2D NFC", "EC LINE", "punto-de-venta/verificadores-precio/android-8-pulgadas"],
-  ["Uniarch IPC-B132-AF28-ECO camara IP bullet 2MP PoE 1080p 2.8mm", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/2mp"],
+  ["Uniarch IPC-B132-AF28-ECO camara IP bullet 2MP PoE 1080p 2.8mm", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/2mp-mic"],
   ["Perfect Choice PC-034148 E-Duster aire comprimido 2 latas 374ml", "PERFECT CHOICE", "computo/accesorios/limpieza/aire-comprimido/e-duster"],
   ["ADATA C008 AC008-16G-RWE memoria USB 2.0 retractil 16GB blanco azul", "ADATA", "computo/almacenamiento/memorias-flash/usb/16gb"],
   ["CyberPower CL2000VR regulador AVR 2000VA 1000W 8 NEMA 5-15R", "CYBERPOWER", "energia/supresores-reguladores/reguladores-voltaje/avr/2000va"],

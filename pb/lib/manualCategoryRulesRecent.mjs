@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_RULES_RECENT = [
+  ['seguridad/cctv/camaras-turbohd/turret/5mp-dual-light', /\b(tddl500a|c4112top08|topvision.*tddl500|turret.*5mp.*dual light|5mp.*tddl.*microfono)\b/],
+  ['seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-bateria-solar', /\b(cs[\s-]?cb8\/?sp|cscb8[\s_]?sp|xmrcam1080|231286|ezviz.*cb8.*(?:solar|10400))\b/],
+  ['seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar', /\b(cs[\s-]?hb8c\/?sp\/?4g\/?w|cshb8c[\s_]?sp[\s_]?4g[\s_]?w|cshb8c\/?4g\/?w|247022|hb8c.*4g.*solar)\b/],
+  ['seguridad/cctv/camaras-turbohd/turret/2mp-dual-light', /\b(tddl200a|c4112top07|topvision.*tddl200|turret.*2mp.*dual light|2mp.*tddl.*microfono)\b/],
+  ['seguridad/cctv/camaras-ip-wifi/bullet-exterior/2mp', /\b(scam2b|233376|smarthome.*epcom.*2mp|camara.*bala.*wifi.*2mp.*epcom)\b/],
+  ['seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light-audio', /\b(thc[\s-]?b157[\s-]?lts|thcb157lts|hilook.*b157.*lts|3k.*5mp.*audio bidireccional)\b/],
+  ['seguridad/cctv/camaras-ip-poe/bullet/2mp-mic', /\b(ipc[\s-]?b132[\s-]?af28[\s-]?eco|ci111unv88|uniarch.*b132.*eco|mini bullet.*2mp.*microfono)\b/],
+  ['seguridad/cctv/camaras-ip-wifi/bateria-exterior/3mp', /\b(duosmart\s*e41|an500duo09|e41.*duosmart|camara.*duosmart.*bateria.*3mp)\b/],
+  ['seguridad/cctv/camaras-ip-wifi/interior/3mp', /\b(duosmart\s*e11|an500duo08|e11.*duosmart|camara.*duosmart.*interior.*3mp)\b/],
   ['energia/no-breaks-ups/line-interactive/500va', /\b(nt[\s-]?511|nbkfza210|798302107632|forza.*500\s?va.*250\s?w|no[\s-]?break.*nt[\s-]?511)\b/],
   ['redes/switches/no-administrables/fast-ethernet/5-puertos', /\b(st105d|swtnet050|6972012673951|088591202997|netis.*5.*fast ethernet|5.*10\/100.*netis)\b/],
   ['seguridad/cctv/camaras-ip-wifi/pt-interior/3mp', /\b(tapo\s*c210|tapoc210|177054|tp[\s-]?link.*c210|2304.*1296.*tapo)\b/],

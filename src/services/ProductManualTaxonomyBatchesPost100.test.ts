@@ -272,6 +272,16 @@ const researchedBatchCases = [
   ["HiLook THC-T129-MS camara turret 2MP ColorVu audio 2.8mm", "HILOOK BY HIKVISION", "seguridad/cctv/camaras-turbohd/turret/2mp-colorvu-audio"],
   ["UNV IPC322LB-AF28K-A2 domo IP PoE 2MP mic microSD 512GB", "UNV", "seguridad/cctv/camaras-ip-poe/domo/2mp-microsd-mic"],
   ["Topvision TBDL500A camara bullet 5MP dual light microfono IP67", "TOPVISION", "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light"],
+  ["Topvision TDDL500A camara turret 5MP dual light microfono IP67", "TOPVISION", "seguridad/cctv/camaras-turbohd/turret/5mp-dual-light"],
+  ["EZVIZ CS-CB8/SP kit camara PT WiFi 3MP bateria solar 10400mAh", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-bateria-solar"],
+  ["EZVIZ CS-BC1C camara WiFi bateria 2MP 1080p 32GB IP66", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/bateria-exterior/2mp"],
+  ["EZVIZ CSHB8C/SP/4G/W HB8c Lite camara 4G WiFi 4MP bateria solar", "EZVIZ", "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar"],
+  ["Topvision TDDL200A camara turret 2MP dual light microfono IP67", "TOPVISION", "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light"],
+  ["SmartHome by Epcom SCAM2B camara bala WiFi 2MP audio IP65", "SMARTHOME BY EPCOM", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/2mp"],
+  ["HiLook THC-B157-LTS camara bullet 3K 5MP dual light audio bidireccional", "HILOOK BY HIKVISION", "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light-audio"],
+  ["Uniarch IPC-B132-AF28-ECO camara IP mini bullet PoE 2MP microfono", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/2mp-mic"],
+  ["DuoSmart E41 camara WiFi bullet exterior 3MP bateria recargable", "DUOSMART", "seguridad/cctv/camaras-ip-wifi/bateria-exterior/3mp"],
+  ["DuoSmart E11 camara WiFi interior 3MP audio bidireccional", "DUOSMART", "seguridad/cctv/camaras-ip-wifi/interior/3mp"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

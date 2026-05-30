@@ -36,7 +36,7 @@ const researchedBatchCases = [
   ["Perfect Choice PC-270157 smartwatch Mercury negro", "PERFECT CHOICE", "wearables/smartwatches"],
   ["Perfect Choice PC-270218 smartwatch Minoro llamadas", "PERFECT CHOICE", "wearables/smartwatches"],
   ["Nexxt AW222NXT66 NPS-S11U3B charola lisa rack", "NEXXT", "infraestructura/racks-accesorios/charolas"],
-  ["TopVision TDDL500A camara HD turret 5MP", "TOPVISION", "seguridad/cctv/camaras-turbohd"],
+  ["TopVision TDDL500A camara HD turret 5MP", "TOPVISION", "seguridad/cctv/camaras-turbohd/turret/5mp-dual-light"],
   ["Meriva MDL-3202A camara HD turret 2MP", "MERIVA", "seguridad/cctv/camaras-turbohd"],
   ["Vorago KSP-350 bocina bluetooth 30W", "VORAGO", "audio/bocinas"],
   ["Redragon Sacarab Pink A130P-SP keycaps PBT", "REDRAGON", "computo/perifericos/teclados/keycaps"],
