@@ -1,4 +1,11 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light', name: 'Camaras IP PoE turret 6MP dual light', legacyCategory: 'cameras' },
+  { path: 'redes/switches/poe-no-administrables/fast-ethernet/10-puertos', name: 'Switches PoE Fast Ethernet no administrables de 10 puertos', legacyCategory: 'networking' },
+  { path: 'redes/extensores-wifi/dual-band/ac1200', name: 'Extensores Wi-Fi dual band AC1200', legacyCategory: 'networking' },
+  { path: 'seguridad/cctv/accesorios-montaje', name: 'Accesorios de montaje CCTV', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/accesorios-montaje/soportes-pared', name: 'Soportes de pared para camaras CCTV', legacyCategory: 'cameras' },
+  { path: 'computo/servidores/rack/1u', name: 'Servidores rack 1U', legacyCategory: 'laptops' },
+  { path: 'impresion/impresoras/multifuncionales-laser/monocromaticas', name: 'Multifuncionales laser monocromaticas', legacyCategory: 'printers_scanners' },
   { path: 'audio/audifonos/bluetooth/diadema-on-ear', name: 'Audifonos Bluetooth de diadema on-ear', legacyCategory: 'headphones' },
   { path: 'punto-de-venta/lectores-codigo-barras/2d-inalambricos', name: 'Lectores inalambricos 2D QR de codigo de barras', legacyCategory: 'laptops' },
   { path: 'redes/switches/poe-administrables/gigabit/16-puertos', name: 'Switches PoE Gigabit administrables de 16 puertos', legacyCategory: 'networking' },

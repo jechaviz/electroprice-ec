@@ -1,0 +1,461 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b140-2026-05-30",
+  "cycle": 3,
+  "batch": 140,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3oa6uk28a11hhlg",
+      "research": {
+        "confidence": 0.92,
+        "brand": "ACTECK",
+        "name": "Acteck Blazar Basic FT500B AC-938150 fuente ATX 500W plata",
+        "description": "Fuente de poder Acteck Blazar Basic FT500B AC-938150 formato ATX de 500 W, color plata, no modular, con protecciones UVP, OVP, OPP y SCP para ensambles de escritorio basicos.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-500w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-500w/acteck-blazar-basic-ft500b",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/caja-x12-bulk-fuente-de-poder-blazar-basic-ft500b",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-938150_1.webp?v=1699299883&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-938150_2.webp?v=1704385082&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-938150_4.webp?v=1704385082&width=1000"
+        ],
+        "documents": [
+          { "label": "Acteck Blazar Basic FT500B", "type": "manufacturer", "url": "https://acteck.com/products/caja-x12-bulk-fuente-de-poder-blazar-basic-ft500b" },
+          { "label": "GlobalOffice AC-938150", "type": "distributor", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/energia/fuente-de-poder-acteck-blazar-basic-ft500b-atx/ac-938150" },
+          { "label": "Integratech AC-938150", "type": "retailer", "url": "https://www.integratechservicios.com/FUENTE-DE-PODER-ACTECK-BLAZAR-BASIC-FT500B--ATX--500-W--VENTILADOR-120-MM--BAJO-NIVEL-DE-RUIDO--METALICO--AC-938150-ACTECK-AC-938150-%2C3295_1461123804" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AC-938150",
+          "providerSku": "CSP-632",
+          "ean": "7506215938150",
+          "productType": "Fuente de poder ATX",
+          "power": "500 W",
+          "modularity": "No modular",
+          "connectors": ["ATX 20+4", "ATX12V 4 pin", "2 SATA", "2 Molex"],
+          "protections": ["UVP", "OVP", "OPP", "SCP"],
+          "color": "Plata / metalico",
+          "providerBranchSummary": "PB no incluye sucursal; CVA reporta stock total. GlobalOffice reporta disponibilidad variable y referencia a Almacen Mexico.",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CSP-632", "stock": 15, "price": 155.97, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["Acteck oficial muestra no disponible aunque CVA/PB reporta stock. Fuentes difieren en ventilador 120 mm contra 80 mm; no se normaliza como dato definitivo."]
+        },
+        "measurements": { "dimensions": "150 x 110 x 85 mm", "weight": "0.6 kg" },
+        "sourceRefs": [
+          { "title": "Acteck Blazar Basic FT500B", "type": "manufacturer", "url": "https://acteck.com/products/caja-x12-bulk-fuente-de-poder-blazar-basic-ft500b" },
+          { "title": "GlobalOffice AC-938150", "type": "distributor", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/energia/fuente-de-poder-acteck-blazar-basic-ft500b-atx/ac-938150" }
+        ]
+      }
+    },
+    {
+      "product_id": "3ocf07yzshsf9hi",
+      "research": {
+        "confidence": 0.95,
+        "brand": "TECHZONE",
+        "name": "TechZone TZAPL03 apuntador laser presentador 2.4GHz alcance 50m",
+        "description": "Presentador y apuntador laser TechZone TZAPL03 negro con receptor USB 2.4 GHz, alcance de hasta 50 m, controles de avance, retroceso, pantalla completa, pantalla oscura y bateria AAA incluida.",
+        "manualCategoryPath": "computo/perifericos/presentadores",
+        "semanticCategoryPath": "computo/perifericos/presentadores/techzone-tzapl03",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techzone.com.mx/products/apuntador-laser-tzapl03",
+        "gallery": [
+          "https://techzone.com.mx/cdn/shop/files/TZAPL03-1.jpg?v=1695969942",
+          "https://techzone.com.mx/cdn/shop/files/TZAPL03-2_886ec776-b7ec-4df2-b492-316286538788.jpg?v=1695969942",
+          "https://techzone.com.mx/cdn/shop/files/TZAPL03-3_87931919-abfb-422d-8230-6e2e013e692e.jpg?v=1695969942"
+        ],
+        "documents": [
+          { "label": "TechZone TZAPL03", "type": "manufacturer", "url": "https://techzone.com.mx/products/apuntador-laser-tzapl03" },
+          { "label": "CompuViper TZAPL03", "type": "retailer", "url": "https://compuviper.mx/tienda/producto/tech-zone-accesorios-tzapl03-presentador-techzone-apuntador-laser-negro-50-mts-usb/" },
+          { "label": "Grupo Reysa AC-11335", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/tech-zone-accesorios-tzapl03/" }
+        ],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZAPL03",
+          "providerSku": "AC-11335",
+          "productType": "Presentador laser",
+          "wireless": "2.4 GHz con receptor USB",
+          "range": "Hasta 50 m",
+          "battery": "1 AAA incluida",
+          "features": ["Avance", "Retroceso", "Pantalla completa", "Pantalla oscura", "Puntero laser", "Funda de tela"],
+          "providerBranchSummary": "PB no incluye sucursal; CVA reporta stock total. CompuViper reporta Guadalajara, Pachuca y Toluca como referencia externa.",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AC-11335", "stock": 2, "price": 131.87, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB marca TECH ZONE ACCESORIOS se normaliza a TECHZONE. Categoria PB de cables/adaptadores era incorrecta. La potencia laser publicada por fabricante parece sospechosa y no se usa como dato duro."]
+        },
+        "measurements": { "dimensions": "134 x 20 x 14 mm; empaque 210 x 90 x 45 mm", "weight": "30 g; empaque 58 g" },
+        "sourceRefs": [
+          { "title": "TechZone TZAPL03", "type": "manufacturer", "url": "https://techzone.com.mx/products/apuntador-laser-tzapl03" },
+          { "title": "CompuViper TZAPL03", "type": "retailer", "url": "https://compuviper.mx/tienda/producto/tech-zone-accesorios-tzapl03-presentador-techzone-apuntador-laser-negro-50-mts-usb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3os5w27dugwoi3h",
+      "research": {
+        "confidence": 0.93,
+        "brand": "BROBOTIX",
+        "name": "BRobotix 6006580 funda uso rudo 360 para Samsung Galaxy Tab A9 Plus 11",
+        "description": "Funda protectora BRobotix 6006580 de uso rudo para Samsung Galaxy Tab A9 Plus 11 pulgadas, modelos X210, X216 y X218, con giro 360 grados, mica protectora, correa de hombro y soporte de escritorio.",
+        "manualCategoryPath": "computo/tabletas/accesorios/fundas-uso-rudo",
+        "semanticCategoryPath": "computo/tabletas/accesorios/fundas-uso-rudo/brobotix-6006580-galaxy-tab-a9-plus",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/6006580_ft.pdf",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/FUNDADEUSORUDOCONCORREAYGIRO360PAR_6006580_EAN7500896006580_0-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/FUNDADEUSORUDOCONCORREAYGIRO360PAR_6006580_EAN7500896006580_1-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/FUNDADEUSORUDOCONCORREAYGIRO360PAR_6006580_EAN7500896006580_2-600x600.jpg"
+        ],
+        "documents": [
+          { "label": "BRobotix 6006580 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6006580_ft.pdf" },
+          { "label": "GlobalOffice 6006580", "type": "distributor", "url": "https://globaloffice.com.mx/app/detalle/producto/fundas/funda-de-uso-rudo-con-correa-y-giro-360o-para-sam/6006580" },
+          { "label": "CompuPuebla BRobotix 6006580", "type": "retailer", "url": "https://compupuebla.com/producto/funda-de-uso-rudo-brobotix-6006580/" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "6006580",
+          "providerSku": "ACCRBT7770",
+          "ean": "7500896006580",
+          "productType": "Funda de uso rudo para tableta",
+          "compatibility": "Samsung Galaxy Tab A9 Plus 11 pulgadas X210/X216/X218",
+          "materials": ["Policarbonato", "Silicon"],
+          "color": "Negro",
+          "features": ["Mica protectora", "Correa desmontable", "Correa de mano ajustable", "Soporte giratorio 360 grados", "Soporte para lapiz no incluido"],
+          "providerBranchSummary": "PB no incluye sucursal; CT reporta stock y CVA reporta sin stock. GlobalOffice reporta Almacen Mexico como referencia externa.",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT7770", "stock": 207, "price": 17.68, "currency": "USD", "priceKind": "customer_price" },
+            { "providerId": "cva", "providerSku": "AC-11536", "stock": 0, "price": 19.32, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["Categoria PB de tarjetas madre era incorrecta; es funda para tableta. Peso varia entre retailers; se usa dimension de ficha tecnica y peso retail solo como aproximado."]
+        },
+        "measurements": { "dimensions": "23 x 14.7 x 2.5 cm", "weight": "298.3 g a 0.5 kg segun retail; no confirmado por ficha tecnica" },
+        "sourceRefs": [
+          { "title": "BRobotix 6006580 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/6006580_ft.pdf" },
+          { "title": "GlobalOffice 6006580", "type": "distributor", "url": "https://globaloffice.com.mx/app/detalle/producto/fundas/funda-de-uso-rudo-con-correa-y-giro-360o-para-sam/6006580" }
+        ]
+      }
+    },
+    {
+      "product_id": "3p00qxkuevouh8y",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MERIVA TECHNOLOGY",
+        "name": "Meriva Technology MTD-600FS4D camara IP turret 6MP dual light PoE",
+        "description": "Camara IP turret Meriva Technology MTD-600FS4D de 6 MP con lente fijo 2.8 mm, iluminacion dual IR/luz calida, PoE, microfono integrado, IP67, WDR 120 dB y analitica MIA 2.0.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light/meriva-mtd-600fs4d",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MTD-600FS4D",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=qe6kE0yRE-fZaMyWgA5vXBGlHhs2Okrlw7s7f3y-wGDI3uUU&id=19569574",
+          "https://novusred.mx/107870-home_default/camara-ip-domo-meriva-technology-mtd600fs4d6mp28mmh265iluminacion-dual-ir-luz-calida-30mmicrofono-integradoip67p2pmia20-detecci%C3%B3.jpg"
+        ],
+        "documents": [
+          { "label": "Meriva MTD-600FS4D", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MTD-600FS4D" },
+          { "label": "Grupo Reysa Meriva MTD-600FS4D", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mtd-600fs4d/" },
+          { "label": "Novusred MTD600FS4D", "type": "retailer", "url": "https://novusred.mx/sin-clasificacion/62931-camara-ip-domo-meriva-technology-mtd600fs4d6mp28mmh265iluminacion-dual-ir-luz-calida-30mmicrofono-integradoip67p2pmia20-detecci%C3%B3.html" }
+        ],
+        "specs": {
+          "brand": "MERIVA TECHNOLOGY",
+          "model": "MTD-600FS4D",
+          "providerSku": "CI122MER41",
+          "productType": "Camara IP PoE turret",
+          "resolution": "6 MP, 3200 x 1800 a 20 fps",
+          "lens": "2.8 mm",
+          "illumination": "IR / luz calida 20 a 30 m",
+          "compression": ["H.265+", "H.265", "H.264"],
+          "features": ["WDR 120 dB", "3DNR", "HLC", "BLC", "Microfono integrado", "MicroSD hasta 256 GB", "IP67", "ONVIF", "MIA 2.0"],
+          "power": "PoE 802.3af o 12 VCD",
+          "providerBranchSummary": "PB no incluye sucursal; Tecnosinergia reporta stock total desde portal.",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI122MER41", "stock": 99, "price": 1547.66, "currency": "MXN", "priceKind": "unknown" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB marca ElectroPrice es placeholder; CI122MER41 corresponde a Meriva MTD-600FS4D. Stock/precio retail externo no coincide de forma estable con el portal proveedor."]
+        },
+        "measurements": { "dimensions": "Diagrama oficial disponible; medidas numericas no publicadas en ficha HTML", "weight": "No disponible con confiabilidad" },
+        "sourceRefs": [
+          { "title": "Meriva MTD-600FS4D", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MTD-600FS4D" },
+          { "title": "Grupo Reysa MTD-600FS4D", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mtd-600fs4d/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3p55o3odqrcerge",
+      "research": {
+        "confidence": 0.95,
+        "brand": "NETIS",
+        "name": "Netis ST110PDI-2-130 switch PoE 10 puertos 8 PoE Fast Ethernet 130W",
+        "description": "Switch PoE no administrable Netis ST110PDI-2-130 Fast Ethernet de 10 puertos 10/100 Mbps, 8 puertos PoE y 2 uplink, fuente integrada 130 W, modo extend hasta 250 m y proteccion contra sobretension.",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/fast-ethernet/10-puertos",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/fast-ethernet/10-puertos/netis-st110pdi-2-130",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.netis-systems.com/index.php/business/ST110PDI_2_130.html",
+        "gallery": [
+          "https://www.netis-systems.com/uploads/image/20241114/a6749a651edf27958eb405cb09f982cc.jpg",
+          "https://www.netis-systems.com/uploads/image/20241114/d70ae04e02614f24408bd627eec4cab3.jpg"
+        ],
+        "documents": [
+          { "label": "Netis ST110PDI-2-130", "type": "manufacturer", "url": "https://www.netis-systems.com/index.php/business/ST110PDI_2_130.html" },
+          { "label": "Netis support download", "type": "support", "url": "https://www.netis-systems.com/index.php/support/downinfo.html?id=68&type=business" },
+          { "label": "Mactoner SWTNET220", "type": "retailer", "url": "https://www.mactoner.com.mx/producto/switches-netis-st110pdi-2-130-10-puertos/" }
+        ],
+        "specs": {
+          "brand": "NETIS",
+          "model": "ST110PDI-2-130",
+          "providerSku": "SWTNET220",
+          "ean": "6972012674408",
+          "productType": "Switch PoE no administrable Fast Ethernet",
+          "ports": "10 puertos 10/100 Mbps, 8 PoE y 2 uplink",
+          "poe": "IEEE 802.3af/at, hasta 30 W por puerto",
+          "poeBudget": "120 W PoE, fuente integrada 130 W",
+          "switchingCapacity": "2 Gbps",
+          "macTable": "2K",
+          "features": ["Modo extend hasta 250 m", "DIP normal/extend", "Carcasa de acero", "Proteccion 4 kV"],
+          "providerBranchSummary": "PB no incluye sucursal; CT reporta stock total.",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTNET220", "stock": 32, "price": 31.32, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["Algunas tiendas dicen Gigabit o backplane 20 Gbps; ficha oficial Netis confirma Fast Ethernet 10/100 y 2 Gbps."]
+        },
+        "measurements": { "dimensions": "190 x 140 x 43 mm", "weight": "No oficial; retailer lista 1.5 kg con baja confianza" },
+        "sourceRefs": [
+          { "title": "Netis ST110PDI-2-130", "type": "manufacturer", "url": "https://www.netis-systems.com/index.php/business/ST110PDI_2_130.html" },
+          { "title": "TekDigital SWTNET220", "type": "retailer", "url": "https://tekdigital.mx/producto/switch-netis-st110pdi-2-130-10-puertos-10-100m-8-puertos-poe-2-puertos-de-enlace-ascendente/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3pbmrwvk2puzo0u",
+      "research": {
+        "confidence": 0.95,
+        "brand": "TP-LINK",
+        "name": "TP-Link RE305 extensor de rango WiFi AC1200 dual band OneMesh",
+        "description": "Extensor de rango TP-Link RE305 Wi-Fi 5 AC1200 doble banda, 300 Mbps en 2.4 GHz y 867 Mbps en 5 GHz, con modo repetidor, modo punto de acceso, puerto RJ45 10/100, WPS y compatibilidad OneMesh segun version regional.",
+        "manualCategoryPath": "redes/extensores-wifi/dual-band/ac1200",
+        "semanticCategoryPath": "redes/extensores-wifi/dual-band/ac1200/tp-link-re305",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/za/home-networking/range-extender/re305/",
+        "gallery": [
+          "https://static.tp-link.com/RE305-01_1487555835366q.jpg",
+          "https://static.tp-link.com/RE305-02_1487555977397v.jpg",
+          "https://static.tp-link.com/RE305-03_1487556029346b.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link RE305 product page", "type": "manufacturer", "url": "https://www.tp-link.com/za/home-networking/range-extender/re305/" },
+          { "label": "TP-Link RE305 US v4 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2021/202105/20210526/RE305%28US%29%204.0%20Datasheet.pdf" },
+          { "label": "Cityshop RE305", "type": "retailer", "url": "https://cityshop.mx/producto/extensor-de-rango-wi-fi-ac1200-tp-link-re305" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "RE305",
+          "providerSku": "ACPTPL390",
+          "productType": "Extensor de rango Wi-Fi",
+          "wifi": "Wi-Fi 5 AC1200",
+          "bands": ["2.4 GHz 300 Mbps", "5 GHz 867 Mbps"],
+          "port": "RJ45 10/100",
+          "modes": ["Repetidor", "Punto de acceso"],
+          "features": ["2 antenas externas", "WPS", "OneMesh segun version", "WEP/WPA-PSK/WPA2-PSK"],
+          "providerBranchSummary": "PB no incluye sucursal; CT y CVA reportan stock total.",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACPTPL390", "stock": 334, "price": 22.73, "currency": "USD", "priceKind": "customer_price" },
+            { "providerId": "cva", "providerSku": "NIC-2446", "stock": 3, "price": 21.57, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB path redes/access-points era impreciso; aunque tiene modo AP, el producto se vende como extensor de rango. Dimensiones varian por version regional."]
+        },
+        "measurements": { "dimensions": "80 x 78 x 77 mm; datasheet US v4 77.8 x 40 x 80 mm", "weight": "No oficial; referencia externa 5.6 oz aprox." },
+        "sourceRefs": [
+          { "title": "TP-Link RE305", "type": "manufacturer", "url": "https://www.tp-link.com/za/home-networking/range-extender/re305/" },
+          { "title": "TP-Link RE305 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2021/202105/20210526/RE305%28US%29%204.0%20Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3pe4tzn26tsf8n9",
+      "research": {
+        "confidence": 0.96,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DH-PFB2203W soporte de pared para camaras domo PFB2203W",
+        "description": "Soporte mural Dahua DH-PFB2203W para camaras domo, fabricado en SGCC y aleacion de aluminio, color blanco, para instalacion en pared y carga maxima oficial de 1 kg.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-pared",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-pared/dahua-pfb2203w",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/Accessories/Camera-Accessories/Camera-Mounts/Wall-Mount-Brackets/PFB2203W",
+        "gallery": [
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_44_10588/ProductImage/1_0_99_44_10588_767681981_crop_thumb.png",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_44_10588/ProductImage/1_0_99_44_10588_767681980_crop_thumb.png",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_44_10588/ProductImage/1_0_99_44_10588_767681982_crop_thumb.png"
+        ],
+        "documents": [
+          { "label": "Dahua PFB2203W product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/Accessories/Camera-Accessories/Camera-Mounts/Wall-Mount-Brackets/PFB2203W" },
+          { "label": "GlobalOffice DH-PFB2203W", "type": "distributor", "url": "https://globaloffice.com.mx/app/detalle/producto/soportes-y-bases/dahua-dh-pfb2203w-brazo-de-pared-para-camaras-domo-dahua/dh-pfb2203w" },
+          { "label": "Cityshop DH-PFB2203W", "type": "retailer", "url": "https://cityshop.mx/producto/dahua-dh-pfb2203w-brazo-de-pared-para-camaras-domo-dahua" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFB2203W",
+          "providerSku": "ACCDAH2820",
+          "productType": "Soporte de pared para camara",
+          "material": "SGCC y aleacion de aluminio",
+          "color": "Blanco",
+          "maxLoad": "1.0 kg oficial",
+          "environment": "-40 a 60 C, humedad menor a 90%",
+          "mounting": "Pared",
+          "providerBranchSummary": "PB no incluye sucursal; CT reporta stock total.",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCDAH2820", "stock": 137, "price": 9.09, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB path camaras era incorrecto: no es camara, es soporte. Algunas tiendas publican 4 kg; ficha oficial Dahua indica 1.0 kg."]
+        },
+        "measurements": { "dimensions": "162 x 129.4 x 80 mm; empaque 172 x 137 x 86 mm", "weight": "0.48 kg neto; 0.56 kg bruto" },
+        "sourceRefs": [
+          { "title": "Dahua PFB2203W", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/Accessories/Camera-Accessories/Camera-Mounts/Wall-Mount-Brackets/PFB2203W" },
+          { "title": "GlobalOffice DH-PFB2203W", "type": "distributor", "url": "https://globaloffice.com.mx/app/detalle/producto/soportes-y-bases/dahua-dh-pfb2203w-brazo-de-pared-para-camaras-domo-dahua/dh-pfb2203w" }
+        ]
+      }
+    },
+    {
+      "product_id": "3q2fem8nycg2ipr",
+      "research": {
+        "confidence": 0.95,
+        "brand": "PROVISION-ISR",
+        "name": "Provision-ISR I2-320IPSN-28-V4 camara IP bullet 2MP PoE IR 20m",
+        "description": "Camara IP bullet Provision-ISR I2-320IPSN-28-V4 de 2 MP, lente fijo 2.8 mm, IR 20 m, PoE, IP67, True WDR, codecs H.265/H.264 y analiticos DDA para humano y vehiculo.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp/provision-isr-i2-320ipsn-28-v4",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/i2-320ipsn-28-v4/",
+        "gallery": [
+          "https://provision-isr.com/wp-content/uploads/2023/10/Small_Bullet_White_CP_Fixed_IR.png"
+        ],
+        "documents": [
+          { "label": "Provision-ISR I2-320IPSN-28-V4", "type": "manufacturer", "url": "https://provision-isr.com/products/i2-320ipsn-28-v4/" },
+          { "label": "Sinacsa CAMPVS3540", "type": "retailer", "url": "https://tienda.sinacsa.mx/producto/camara-bala-ip-provision-isr-i2-320ipsn-28-v4-2-mp/" },
+          { "label": "LB Store I2-320IPSN-28-V4", "type": "retailer", "url": "https://lbstore.com.mx/products/camara-bala-ip-provision-isr-i2-320ipsn-28-v4" }
+        ],
+        "specs": {
+          "brand": "PROVISION-ISR",
+          "model": "I2-320IPSN-28-V4",
+          "providerSku": "CAMPVS3540",
+          "productType": "Camara IP PoE bullet",
+          "resolution": "2 MP 1920 x 1080 a 25/30 fps",
+          "sensor": "1/2.8 in CMOS",
+          "lens": "2.8 mm, 105 grados",
+          "illumination": "IR 20 m",
+          "compression": ["H.265+", "H.264+", "H.265", "H.264", "MJPEG"],
+          "features": ["True WDR", "BLC", "HLC", "ROI", "3D-DNR", "DDA humano/vehiculo", "MicroSD hasta 256 GB", "Audio input", "ONVIF T/S/G", "IP67", "NDAA"],
+          "providerBranchSummary": "PB no incluye sucursal; CT reporta stock total.",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMPVS3540", "stock": 33, "price": 53.35, "currency": "USD", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB path camaras era aceptable pero demasiado generico; nombre pierde guiones del modelo, se normaliza a I2-320IPSN-28-V4."]
+        },
+        "measurements": { "dimensions": "172.2 x 73.4 x 74.5 mm", "weight": "510 g bruto aprox." },
+        "sourceRefs": [
+          { "title": "Provision-ISR I2-320IPSN-28-V4", "type": "manufacturer", "url": "https://provision-isr.com/products/i2-320ipsn-28-v4/" },
+          { "title": "Sinacsa CAMPVS3540", "type": "retailer", "url": "https://tienda.sinacsa.mx/producto/camara-bala-ip-provision-isr-i2-320ipsn-28-v4-2-mp/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3q8tmpsoe8ixg8r",
+      "research": {
+        "confidence": 0.89,
+        "brand": "HEWLETT PACKARD ENTERPRISE",
+        "name": "HPE ProLiant Compute DL360 Gen12 P89196-005 servidor rack 1U 6505P",
+        "description": "Servidor rack 1U HPE ProLiant Compute DL360 Gen12, configuracion asociada a P89196-005/SERHPE1830 con Intel Xeon 6505P 12 cores, 64 GB DDR5, 8SFF, MR408i-o, 2 SSD 480 GB y 2 fuentes 800 W.",
+        "manualCategoryPath": "computo/servidores/rack/1u",
+        "semanticCategoryPath": "computo/servidores/rack/1u/hpe-proliant-dl360-gen12-p89196-005",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl300-servers/hpe-proliant-compute-dl360-gen12-6505p-12c-1p-2x32gb%E2%80%91r-8sff-mr408i%E2%80%91o-2x480gb-ssd-2x800w-ps-na-server/p/p89196-005",
+        "gallery": [
+          "https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl300-servers/hpe-proliant-compute-dl360-gen12-6505p-12c-1p-2x32gb%E2%80%91r-8sff-mr408i%E2%80%91o-2x480gb-ssd-2x800w-ps-na-server/p/p89196-005"
+        ],
+        "documents": [
+          { "label": "HPE P89196-005 product page", "type": "manufacturer", "url": "https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl300-servers/hpe-proliant-compute-dl360-gen12-6505p-12c-1p-2x32gb%E2%80%91r-8sff-mr408i%E2%80%91o-2x480gb-ssd-2x800w-ps-na-server/p/p89196-005" },
+          { "label": "HPE DL360 Gen12 QuickSpecs", "type": "datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%20ProLiant%20Compute%20DL360%20Gen12%20QuickSpecs-a50006984enw.pdf" },
+          { "label": "Desarrollos TI SERHPE1830", "type": "retailer", "url": "https://store.desarrollosti.com.mx/ProductsByBrand.aspx?BrandId=77&IDP=5&sRepeat=S" }
+        ],
+        "specs": {
+          "brand": "HEWLETT PACKARD ENTERPRISE",
+          "model": "DL360 Gen12 / P89196-005",
+          "providerSku": "SERHPE1830",
+          "productType": "Servidor rack 1U",
+          "processor": "Intel Xeon 6505P 12 cores",
+          "memory": "64 GB DDR5 RDIMM, 2 x 32 GB",
+          "storage": "2 x 480 GB SSD SATA RI SFF BC",
+          "bays": "8 SFF",
+          "controller": "HPE MR408i-o Gen11, 4 GB cache OCP",
+          "power": "2 x 800 W Flex Slot Platinum hot-plug",
+          "management": "iLO 7",
+          "warranty": "3/3/3",
+          "providerBranchSummary": "PB no incluye sucursal; CT reporta stock total.",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SERHPE1830", "stock": 2, "price": 10860.6, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB dice DL360 Gen11 y path procesadores; evidencia CT/HPE apunta a servidor completo DL360 Gen12 P89196-005."]
+        },
+        "measurements": { "dimensions": "4.29 x 43.46 x 75.31 cm para chasis SFF", "weight": "14.87 a 19.94 kg segun configuracion SFF" },
+        "sourceRefs": [
+          { "title": "HPE P89196-005", "type": "manufacturer", "url": "https://buy.hpe.com/us/en/compute/rack-servers/proliant-dl300-servers/hpe-proliant-compute-dl360-gen12-6505p-12c-1p-2x32gb%E2%80%91r-8sff-mr408i%E2%80%91o-2x480gb-ssd-2x800w-ps-na-server/p/p89196-005" },
+          { "title": "HPE DL360 Gen12 QuickSpecs", "type": "datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%20ProLiant%20Compute%20DL360%20Gen12%20QuickSpecs-a50006984enw.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3qkssyn7d4ospo9",
+      "research": {
+        "confidence": 0.96,
+        "brand": "PANTUM",
+        "name": "Pantum M6550NW multifuncional laser monocromatica WiFi Ethernet ADF",
+        "description": "Multifuncional laser monocromatica Pantum M6550NW con impresion, copia y escaneo, Wi-Fi, Ethernet, USB 2.0, ADF de 35 hojas, 22 ppm A4/23 ppm carta y ciclo mensual maximo de 20,000 paginas.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/pantum-m6550nw",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pantum-latam.com/series/m6550nw/index.htm",
+        "gallery": [
+          "https://compupuebla.com/producto/multifuncional-pantum-m6550nw/",
+          "https://www.pantum-latam.com/series/m6550nw/index.htm"
+        ],
+        "documents": [
+          { "label": "Pantum LatAm M6550NW", "type": "manufacturer", "url": "https://www.pantum-latam.com/series/m6550nw/index.htm" },
+          { "label": "CompuPuebla M6550NW", "type": "retailer", "url": "https://compupuebla.com/producto/multifuncional-pantum-m6550nw/" },
+          { "label": "Mactoner M6550NW", "type": "retailer", "url": "https://www.mactoner.com.mx/producto/multifuncional-pantum-m6550nw-20000-paginas-por-mes/" }
+        ],
+        "specs": {
+          "brand": "PANTUM",
+          "model": "M6550NW",
+          "providerSku": "MTFPTM060",
+          "productType": "Multifuncional laser monocromatica",
+          "functions": ["Impresion", "Copia", "Escaneo"],
+          "speed": "22 ppm A4 / 23 ppm carta",
+          "resolution": "1200 x 1200 dpi",
+          "firstPage": "Menos de 7.8 s",
+          "processor": "600 MHz",
+          "memory": "128 MB",
+          "duplex": "Manual",
+          "connectivity": ["USB 2.0", "Ethernet 10/100Base-TX", "Wi-Fi 802.11b/g/n"],
+          "adf": "35 hojas",
+          "paperCapacity": "Entrada 150 hojas, salida 100 hojas",
+          "monthlyDutyCycle": "20,000 paginas",
+          "providerBranchSummary": "PB no incluye sucursal; CT reporta stock total. Mactoner publica contacto/operacion CDMX como referencia externa.",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MTFPTM060", "stock": 10, "price": 128.02, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T17:05:00Z",
+          "sourceDiscrepancies": ["PB path procesadores era incorrecto; es multifuncional laser. Medidas/peso de empaque de retailers son mayores que ficha fabricante."]
+        },
+        "measurements": { "dimensions": "417 x 305 x 301 mm; empaque retail aprox. 38 x 51 x 39.5 cm", "weight": "8.5 kg con cartucho; empaque retail aprox. 10.05 kg" },
+        "sourceRefs": [
+          { "title": "Pantum LatAm M6550NW", "type": "manufacturer", "url": "https://www.pantum-latam.com/series/m6550nw/index.htm" },
+          { "title": "CompuPuebla M6550NW", "type": "retailer", "url": "https://compupuebla.com/producto/multifuncional-pantum-m6550nw/" }
+        ]
+      }
+    }
+  ]
+}

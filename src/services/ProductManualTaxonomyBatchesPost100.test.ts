@@ -381,6 +381,16 @@ const researchedBatchCases = [
   ["Kyocera TK-5372M toner magenta 5000 paginas ECOSYS MA3500cifx", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5372m-magenta"],
   ["Manhattan 353298 cable USB 2.0 USB-A macho a USB-C macho 1 m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-c/1m"],
   ["Hyundai HT14CB10S02BK HYbook Plus 14.1 Core i5 16GB 1TB Windows 11", "HYUNDAI TECHNOLOGY", "computo/laptops/consumo/14-pulgadas/hyundai-hybook"],
+  ["Acteck Blazar Basic FT500B AC-938150 fuente ATX 500W plata", "ACTECK", "computo/componentes/fuentes-poder/atx-500w"],
+  ["TechZone TZAPL03 apuntador laser presentador 2.4GHz alcance 50m", "TECHZONE", "computo/perifericos/presentadores"],
+  ["BRobotix 6006580 funda uso rudo 360 para Samsung Galaxy Tab A9 Plus 11", "BROBOTIX", "computo/tabletas/accesorios/fundas-uso-rudo"],
+  ["Meriva Technology MTD-600FS4D camara IP turret 6MP dual light PoE", "MERIVA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light"],
+  ["Netis ST110PDI-2-130 switch PoE 10 puertos 8 PoE Fast Ethernet 130W", "NETIS", "redes/switches/poe-no-administrables/fast-ethernet/10-puertos"],
+  ["TP-Link RE305 extensor de rango WiFi AC1200 dual band OneMesh", "TP-LINK", "redes/extensores-wifi/dual-band/ac1200"],
+  ["Dahua DH-PFB2203W soporte de pared para camaras domo PFB2203W", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-montaje/soportes-pared"],
+  ["Provision-ISR I2-320IPSN-28-V4 camara IP bullet 2MP PoE IR 20m", "PROVISION-ISR", "seguridad/cctv/camaras-ip-poe/bullet/2mp"],
+  ["HPE ProLiant Compute DL360 Gen12 P89196-005 servidor rack 1U 6505P", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/rack/1u"],
+  ["Pantum M6550NW multifuncional laser monocromatica WiFi Ethernet ADF", "PANTUM", "impresion/impresoras/multifuncionales-laser/monocromaticas"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
