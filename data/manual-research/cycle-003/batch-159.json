@@ -1,0 +1,372 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b159-2026-05-30",
+  "cycle": 3,
+  "batch": 159,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "4z0d8e9udijlain",
+      "research": {
+        "confidence": 0.91,
+        "name": "TP-Link XC220-G3v Router GPON VoIP AC1200 Dual Band",
+        "description": "Router XPON/GPON TP-Link XC220-G3v AC1200 doble banda con 4 puertos Gigabit LAN, puerto SC/APC GPON y puerto RJ11 FXS para VoIP.",
+        "manualCategoryPath": "redes/routers/gpon-ont/ac1200-voip",
+        "semanticCategoryPath": "redes/routers/gpon-ont/ac1200-voip/tp-link-xc220-g3v",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.tp-link.com/XC220-G3V_F_normal_1611276437782x.jpg",
+          "https://static.tp-link.com/XC220-G3V_R__normal_1611276480163h.jpg",
+          "https://static.tp-link.com/XC220-G3V_B__normal_1611276496794s.jpg"
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "XC220-G3v",
+          "productType": "Router GPON ONT VoIP",
+          "wifi": "802.11ac/n/a 5GHz y 802.11b/g/n 2.4GHz",
+          "wirelessSpeed": "867 Mbps 5GHz + 300 Mbps 2.4GHz",
+          "interfaces": ["4 x RJ45 LAN 10/100/1000 Mbps", "1 x SC/APC GPON", "1 x RJ11 FXS"],
+          "gpon": "ITU-T G.984/G.988, hasta 2.488 Gbps downstream y 1.244 Gbps upstream",
+          "antennas": "2 externas doble banda",
+          "power": "12 V / 1 A",
+          "security": ["WPA/WPA2", "WPA-PSK/WPA2-PSK", "NAT firewall", "Access control", "Filtrado MAC/IP/URL"],
+          "management": ["Web", "TR-069", "OMCI", "CLI", "Firmware web", "Diagnosticos"],
+          "features": ["VLAN 802.1q", "QoS", "NAT", "DDNS", "IGMP v1/v2/v3", "EasyMesh/OneMesh"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 193.",
+          "providerOffers": [{"stock": 193, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "No encontrado", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "TP-Link XC220-G3v product page", "type": "manufacturer_spec", "url": "https://www.tp-link.com/za/service-provider/gpon/xc220-g3v/"},
+          {"title": "TP-Link XC220-G3v datasheet", "type": "manufacturer_pdf", "url": "https://static.tp-link.com/upload/product-overview/2024/202406/20240611/Datasheet-XC220-G3v.pdf"},
+          {"title": "Provider stock total 193", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4z85cecrc21t0c1",
+      "research": {
+        "confidence": 0.88,
+        "name": "Brobotix 577012 soporte universal para proyector techo o pared blanco 10 kg",
+        "description": "Soporte universal Brobotix 577012 para proyector, instalacion en techo o pared, altura ajustable de 70 a 120 cm y carga maxima de 10 kg.",
+        "manualCategoryPath": "video/accesorios-proyeccion/soportes-proyector/techo-pared/10kg",
+        "semanticCategoryPath": "video/accesorios-proyeccion/soportes-proyector/techo-pared/10kg/brobotix-577012",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "577012",
+          "upc": "7503027497004",
+          "productType": "Soporte universal para proyector",
+          "mountType": "Techo o pared",
+          "maxLoad": "10 kg",
+          "heightAdjustment": "700 a 1200 mm",
+          "rotation": "8 grados reportado",
+          "tilt": "-15 a 15 grados",
+          "material": "Acero reportado",
+          "color": "Blanco",
+          "mountKitIncluded": true,
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 46.",
+          "providerOffers": [{"stock": 46, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "Altura ajustable 70 a 120 cm", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "PC Store Brobotix 577012", "type": "reseller_spec", "url": "https://pcstore.mx/soporte-para-proyector-brobotix-577012-de-universal-techo-o-pared-expandible-a-120-cms-en-acero-con-resistencia-10-kgs-color-blanco"},
+          {"title": "CT Online Brobotix 577012", "type": "reseller_spec", "url": "https://ctonline.mx/Accesorios-para-Electronica/Soporte-para-Proyector/BROBOTIX/ACCRBT2400/30202"},
+          {"title": "Provider stock total 46", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4z9zmqilepfjqec",
+      "research": {
+        "confidence": 0.9,
+        "name": "Stylos STEN251S gabinete externo para disco duro 2.5 SATA III USB-C 3.1 plata",
+        "description": "Gabinete externo Stylos STEN251S para HDD/SSD de 2.5 pulgadas con interfaz SATA III, conexion USB-C 3.1, soporte UAS y carcasa plata de aluminio/ABS.",
+        "manualCategoryPath": "computo/almacenamiento/gabinetes-externos/2-5-sata-usb-c",
+        "semanticCategoryPath": "computo/almacenamiento/gabinetes-externos/2-5-sata-usb-c/stylos-sten251s",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-STYLOS-STEN251S-1.jpg"],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STEN251S",
+          "productType": "Gabinete externo para disco 2.5",
+          "driveFormat": "2.5 pulgadas",
+          "driveThickness": "Hasta 9.5 mm",
+          "driveInterface": "SATA III",
+          "usbConnector": "USB-C",
+          "usbVersion": "USB 3.1",
+          "protocol": "UAS",
+          "materials": ["Aluminio", "ABS"],
+          "color": "Plata",
+          "warranty": "1 ano fabricante reportado",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 7.",
+          "providerOffers": [{"stock": 7, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "No encontrado", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Cyberpuerta Stylos STEN251S", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Discos-Duros-SSD-NAS/Accesorios-para-Discos-Duros/Gabinetes-de-Discos-Duros/Stylos-Gabinete-de-Disco-Duro-Stylos-STEN251S-2-5-SATA-III-USB-C-3-1.html"},
+          {"title": "CityShop Stylos STEN251S", "type": "reseller_spec", "url": "https://cityshop.mx/producto/enclosure-stylos-sten251s-25-pulgadas-interfaz-tipo-c-gabinete-para-ssd-y-hdd-de-25-pulgadas-con"},
+          {"title": "Provider stock total 7", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4zfxjgi1778u08f",
+      "research": {
+        "confidence": 0.92,
+        "name": "Dahua DH-PFB303S soporte parapeto para camara PTZ blanco",
+        "description": "Soporte de parapeto Dahua DH-PFB303S para camaras PTZ, fabricado en aluminio y SUS 430, apto para exterior y carga maxima de 7 kg.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-parapeto/ptz",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-parapeto/ptz/dahua-pfb303s",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFB303S",
+          "productType": "Soporte parapeto para camara",
+          "material": "Aluminio y SUS 430",
+          "color": "Blanco",
+          "maxLoad": "7 kg",
+          "operatingTemperature": "-40 C a +60 C",
+          "humidity": "0-90% RH",
+          "included": ["Soporte x1", "Ancla metalica x4", "Llave x1"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 5.",
+          "providerOffers": [{"stock": 5, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "879 x 836 x 180 mm", "weight": "4.3 kg"},
+        "sourceRefs": [
+          {"title": "Dahua DH-PFB303S datasheet", "type": "manufacturer_pdf", "url": "https://www.dahuasecurity.com/asset/upload/product/20180523/DH-PFB303S_datasheet.pdf"},
+          {"title": "Provider stock total 5", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4zkpgev6qxcd7ie",
+      "research": {
+        "confidence": 0.93,
+        "name": "Kingston FURY Impact KF548S38IB-8 memoria RAM 8GB DDR5 4800 SODIMM",
+        "description": "Modulo Kingston FURY Impact DDR5 SO-DIMM para laptop de 8GB, 4800MT/s, CL38, 262 pines, 1.1V y soporte Intel XMP 3.0.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr5/8gb-4800",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr5/8gb-4800/kingston-kf548s38ib-8",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://media.kingston.com/kingston/product/FURY_Impact_Black_DDR5_1R_1-tn.png"],
+        "specs": {
+          "brand": "KINGSTON TECHNOLOGY",
+          "model": "KF548S38IB-8",
+          "productType": "Memoria RAM SO-DIMM DDR5",
+          "capacity": "8GB",
+          "configuration": "1G x 64-bit",
+          "speed": "4800 MT/s",
+          "latency": "CL38-38-38",
+          "voltage": "1.1 V",
+          "rank": "1Rx16",
+          "pins": "262-pin",
+          "ecc": "On-die ECC; modulo Non-ECC Unbuffered",
+          "xmp": "Intel XMP 3.0",
+          "operatingTemperature": "0 C a +85 C",
+          "storageTemperature": "-55 C a +100 C",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 53.",
+          "providerOffers": [{"stock": 53, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "Altura 30 mm", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Kingston KF548S38IB-8 datasheet", "type": "manufacturer_pdf", "url": "https://www.kingston.com/datasheets/KF548S38IB-8.pdf"},
+          {"title": "Kingston memory search KF548S38IB-8", "type": "manufacturer_spec", "url": "https://www.kingston.com/unitedkingdom/en/memory/search?partid=KF548S38IB-8"},
+          {"title": "Provider stock total 53", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4zms79frivbgync",
+      "research": {
+        "confidence": 0.94,
+        "name": "Intel Core i9-14900 procesador 24 nucleos LGA1700 5.8GHz UHD 770",
+        "description": "Procesador Intel Core i9-14900 de 14a generacion para escritorio LGA1700 con 24 nucleos, 32 hilos, turbo hasta 5.8GHz y graficos Intel UHD 770.",
+        "manualCategoryPath": "computo/componentes/procesadores/intel-core-i9-lga1700/14-gen",
+        "semanticCategoryPath": "computo/componentes/procesadores/intel-core-i9-lga1700/14-gen/intel-i9-14900",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "INTEL",
+          "model": "Core i9-14900",
+          "productType": "Procesador de escritorio",
+          "family": "Intel Core i9 14th Gen",
+          "socket": "FCLGA1700",
+          "cores": "24 total: 8 P-cores + 16 E-cores",
+          "threads": "32",
+          "maxTurboFrequency": "5.8 GHz",
+          "pCoreBase": "2.0 GHz",
+          "eCoreBase": "1.5 GHz",
+          "cache": "36 MB Intel Smart Cache; 32 MB L2",
+          "processorBasePower": "65 W",
+          "maxTurboPower": "219 W",
+          "memory": "Hasta 192GB; DDR5-5600 o DDR4-3200; 2 canales",
+          "graphics": "Intel UHD Graphics 770",
+          "pcie": "PCIe 5.0 y 4.0, hasta 20 lanes",
+          "tjunction": "100 C",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 54.",
+          "providerOffers": [{"stock": 54, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "Paquete 45.0 x 37.5 mm", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Intel Core i9-14900 specifications", "type": "manufacturer_spec", "url": "https://www.intel.com/content/www/us/en/products/sku/236793/intel-core-i9-processor-14900-36m-cache-up-to-5-80-ghz/specifications.html"},
+          {"title": "Provider stock total 54", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4znh8hbp2w0luil",
+      "research": {
+        "confidence": 0.9,
+        "name": "Naceb Gaming NA-0970 Gray Basiliks teclado mecanico 85 RGB blanco",
+        "description": "Teclado mecanico gamer compacto Naceb Gaming NA-0970 Gray Basiliks, formato 85%, switches Huano Red, RGB dinamico, anti-ghosting, N-Key rollover y conexion USB-A a USB-C.",
+        "manualCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/compactos-85-rgb",
+        "semanticCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/compactos-85-rgb/naceb-na-0970",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://naceb.com.mx/wp-content/uploads/2025/12/NA-0970-05-600x600.webp",
+          "https://naceb.com.mx/wp-content/uploads/2025/12/NA-0970-10-600x600.webp",
+          "https://naceb.com.mx/wp-content/uploads/2025/12/NA-0970-12-600x600.webp"
+        ],
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "NA-0970 Gray Basiliks",
+          "productType": "Teclado mecanico gamer",
+          "format": "85%",
+          "keys": "85",
+          "switch": "HUANO RED Alta Precision",
+          "keyColor": "Blanco",
+          "chassisColor": "Blanco",
+          "materials": "ABS; teclas laser reportado",
+          "features": ["Plug & Play", "Anti-Ghosting", "N-Key Rollover", "RGB dinamico"],
+          "lighting": "RGB; 7 colores + Mix; 19 modos",
+          "connection": "USB-A a USB-C alambrico",
+          "compatibility": ["Windows", "Mac"],
+          "power": "5 V / 1 A",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 168.",
+          "providerOffers": [{"stock": 168, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "31 x 12 x 4 cm", "weight": "633 g"},
+        "sourceRefs": [
+          {"title": "Naceb NA-0970 Gray Basiliks", "type": "manufacturer_spec", "url": "https://naceb.com.mx/producto/na-0970-gray-basiliks/"},
+          {"title": "Provider stock total 168", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4zrigctwrod2rt1",
+      "research": {
+        "confidence": 0.92,
+        "name": "Brother DR431CL unidad de tambor original 30000 paginas",
+        "description": "Unidad de tambor original Brother DR431CL para impresoras laser color Brother seleccionadas, rendimiento aproximado de 30000 paginas a 1 pagina por trabajo.",
+        "manualCategoryPath": "impresion/consumibles/tambores/brother/dr-431cl",
+        "semanticCategoryPath": "impresion/consumibles/tambores/brother/dr-431cl",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.brother-usa.com/-/media/brother/product-catalog-media/images/2022/07/19/08/27/dr431cl.png?hash=B7F29B5E43CE0A1392617A38ACD43087&w=195"],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "DR431CL",
+          "upc": "012502646228",
+          "productType": "Unidad de tambor original",
+          "yield": "Aprox. 30000 paginas a 1 pagina por trabajo; hasta 50000 a 3 paginas por trabajo",
+          "compatibility": ["HL-L8260CDW", "HL-L8360CDW", "HL-L8360CDWT", "MFC-L8610CDW", "MFC-L8895CDW", "MFC-L8900CDW", "MFC-L8905CDW"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 18.",
+          "providerOffers": [{"stock": 18, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "Caja 17.6 x 16.7 x 8.7 in", "weight": "Paquete 5.9 lb"},
+        "sourceRefs": [
+          {"title": "Brother USA DR431CL", "type": "manufacturer_spec", "url": "https://www.brother-usa.com/products/dr431cl"},
+          {"title": "B&H Brother DR431CL", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1333331-REG/brother_dr431cl_drum_unit.html"},
+          {"title": "Provider stock total 18", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "506d8xmx8z4my9g",
+      "research": {
+        "confidence": 0.91,
+        "name": "Brother TN15 toner negro original alto rendimiento 4500 paginas",
+        "description": "Cartucho de toner negro original Brother TN15 de alto rendimiento para DCP-L2551DW, con rendimiento aproximado de 4500 paginas ISO/IEC 19752.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-15",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-15",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.brother.com.mx/-/media/brother/product-catalog-media/images/2021/09/16/22/21/tn_15_4.png"],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN15",
+          "productType": "Cartucho de toner original",
+          "color": "Negro",
+          "yield": "Aprox. 4500 paginas conforme ISO/IEC 19752",
+          "compatibility": ["DCP-L2551DW"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 353.",
+          "providerOffers": [{"stock": 353, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "No encontrado", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Brother Mexico TN15", "type": "manufacturer_spec", "url": "https://www.brother.com.mx/products/tn15"},
+          {"title": "Brother DCP-L2551DW supplies", "type": "manufacturer_support", "url": "https://support.brother.com/g/b/colist.aspx?c=mx&cao=tn&lang=es&prod=dcpl2551dw_us"},
+          {"title": "Provider stock total 353", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "50vq70ddyntfvi4",
+      "research": {
+        "confidence": 0.93,
+        "name": "TP-Link TL-SG1210PP switch gigabit 10 puertos PoE++ 123W",
+        "description": "Switch no administrable TP-Link TL-SG1210PP Gigabit de 10 puertos con 6 puertos PoE+, 2 puertos PoE++, presupuesto PoE total de 123W, modo extendido y recuperacion PoE.",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/gigabit/10-puertos-123w",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/gigabit/10-puertos-123w/tp-link-tl-sg1210pp",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.tp-link.com/upload/image-line/TL-SG1210PP_UN_1.0_01_thumb_20240123020034c.jpg",
+          "https://static.tp-link.com/upload/image-line/TL-SG1210PP_UN_1.0_02_thumb_20240123020057d.jpg"
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "TL-SG1210PP",
+          "productType": "Switch PoE no administrable",
+          "ports": "9 x RJ45 10/100/1000 Mbps + 1 x combo SFP/RJ45 Gigabit",
+          "poe": "Puertos 1-2 IEEE 802.3af/at/bt; puertos 3-8 IEEE 802.3af/at",
+          "poePower": "Hasta 30W por PoE+, 60W por PoE++, 123W total",
+          "switchingCapacity": "20 Gbps",
+          "forwardingRate": "14.88 Mpps",
+          "macTable": "4K",
+          "powerSupply": "Adaptador externo 53.5 VDC / 2.43 A",
+          "fan": "Fanless",
+          "features": ["QoS 802.1p/DSCP", "IGMP Snooping", "Flow Control", "Extend Mode 250 m", "PoE Auto Recovery", "Isolation Mode", "Priority Mode"],
+          "certifications": ["FCC", "CE", "RoHS"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 7.",
+          "providerOffers": [{"stock": 7, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "209 x 126 x 26 mm", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "TP-Link TL-SG1210PP product page", "type": "manufacturer_spec", "url": "https://www.tp-link.com/us/business-networking/unmanaged-switch/tl-sg1210pp/"},
+          {"title": "TP-Link TL-SG1210PP downloads", "type": "manufacturer_support", "url": "https://www.tp-link.com/us/support/download/tl-sg1210pp/"},
+          {"title": "Provider stock total 7", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    }
+  ]
+}

@@ -2,6 +2,16 @@ import { describe, expect, it } from "vitest";
 import { classifyManualCategory } from "../../pb/lib/manualTaxonomy.mjs";
 
 const researchedBatchCases = [
+  ["TP-Link XC220-G3v Router GPON VoIP AC1200 Dual Band", "TP LINK", "redes/routers/gpon-ont/ac1200-voip"],
+  ["Brobotix 577012 soporte universal para proyector techo o pared blanco 10 kg", "BROBOTIX", "video/accesorios-proyeccion/soportes-proyector/techo-pared/10kg"],
+  ["Stylos STEN251S gabinete externo para disco duro 2.5 SATA III USB-C 3.1 plata", "STYLOS", "computo/almacenamiento/gabinetes-externos/2-5-sata-usb-c"],
+  ["Dahua DH-PFB303S soporte parapeto para camara PTZ blanco", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-montaje/soportes-parapeto/ptz"],
+  ["Kingston FURY Impact KF548S38IB-8 memoria RAM 8GB DDR5 4800 SODIMM", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/sodimm-ddr5/8gb-4800"],
+  ["Intel Core i9-14900 procesador 24 nucleos LGA1700 5.8GHz UHD 770", "INTEL", "computo/componentes/procesadores/intel-core-i9-lga1700/14-gen"],
+  ["Naceb Gaming NA-0970 Gray Basiliks teclado mecanico 85 RGB blanco", "NACEB GAMING", "computo/perifericos/teclados/gaming/mecanicos/compactos-85-rgb"],
+  ["Brother DR431CL unidad de tambor original 30000 paginas", "BROTHER", "impresion/consumibles/tambores/brother/dr-431cl"],
+  ["Brother TN15 toner negro original alto rendimiento 4500 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-15"],
+  ["TP-Link TL-SG1210PP switch gigabit 10 puertos PoE++ 123W", "TP LINK", "redes/switches/poe-no-administrables/gigabit/10-puertos-123w"],
   ["Cargador universal Generico USBC-65W USB-C 65W 20V 3.25A blanco", "GENERICO", "computo/accesorios/cargadores-laptop/usb-c/65w-universales"],
   ["Silimex COMPUTOALLAS 30 PZ toallas humedas antibacteriales antiestaticas", "SILIMEX", "computo/accesorios/limpieza/toallas-limpiadoras/silimex-computoallas"],
   ["Mouse Acteck Optimize Trip Pro MI580 multidispositivo Bluetooth 2.4GHz 1600 DPI negro", "ACTECK", "computo/perifericos/mouse/inalambricos/multi-dispositivo/recargables-1600-dpi"],
