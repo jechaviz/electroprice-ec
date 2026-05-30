@@ -341,6 +341,16 @@ const researchedBatchCases = [
   ["Manhattan 151399 adaptador pasivo Mini DisplayPort a HDMI 1080p blanco", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos/mini-displayport-1080p"],
   ["TP-Link DS-PMA-C+ modulo transceptor SFP GPON Clase C+ 20 km AC-12905", "TP-LINK", "redes/transceptores-convertidores/modulos-sfp/gpon/gpon-clase-c-plus"],
   ["Generico AP2-85W adaptador MagSafe 2 para MacBook 85W blanco", "GENERICO", "computo/accesorios/cargadores-laptop/apple-magsafe-2/85w"],
+  ["Manhattan 461184 soporte proyector techo articulado 13.5 kg negro", "MANHATTAN", "video/accesorios-proyeccion/soportes-proyector/techo/13-5kg"],
+  ["Perfect Choice Whisper PC-045182 mouse inalambrico dual USB-A USB-C rosa 1000 DPI", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/ergonomicos/silenciosos-dual-receptor-1000-dpi"],
+  ["TechZone Start Silver TZ19MOU01-INAPL mouse inalambrico 1600 DPI plata", "TECHZONE", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi"],
+  ["Grandstream UCM6302A PBX IP audio 500 usuarios 2 FXS 2 FXO", "GRANDSTREAM", "telefonia/pbx-ip/grandstream-ucm6300/audio-2fxo-2fxs"],
+  ["Multimedia Screens MSE-365 pantalla electrica proyeccion 203 pulgadas 1:1", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion/pantallas-electricas/203-pulgadas"],
+  ["Brother DR890 unidad de tambor negro laser 50000 paginas", "BROTHER", "impresion/consumibles/tambores/brother/dr890"],
+  ["Dell UltraSharp U2724D monitor 27 QHD IPS Black 120Hz", "DELL", "computo/monitores/profesionales/27-qhd-120hz"],
+  ["BRobotix 406467 estacion de carga USB 9 en 1 140W gris", "BROBOTIX", "energia/cargadores-usb/estaciones-carga/usb-9-en-1-140w"],
+  ["Redragon Kumara White RGB K552W-RGB-1R-SP teclado mecanico switch rojo", "REDRAGON", "computo/perifericos/teclados/gaming/mecanicos/tkl-rgb"],
+  ["Intellinet 334112 cable patch Cat6 UTP 2m 7ft gris CB-294", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/2-1m"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
