@@ -1,4 +1,12 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/almacenamiento/ssd/externos/usb-c/1tb/sandisk-portable', name: 'SSD externos SanDisk Portable USB-C 1TB', legacyCategory: 'storage' },
+  { path: 'gaming/mobiliario/sillas-gamer/tela/reclinable-135-120kg', name: 'Sillas gamer de tela reclinables 135 grados 120 kg', legacyCategory: 'gaming' },
+  { path: 'redes/adaptadores-wifi/pcie/n150', name: 'Adaptadores Wi-Fi PCIe N150', legacyCategory: 'networking' },
+  { path: 'redes/routers/wifi-7/be3600', name: 'Routers Wi-Fi 7 BE3600', legacyCategory: 'networking' },
+  { path: 'punto-de-venta/consumibles/rollos-autocopia/76x70', name: 'Rollos autocopia POS 76 x 70 mm', legacyCategory: 'laptops' },
+  { path: 'audio/audifonos/bluetooth/tws/estuche-display', name: 'Audifonos Bluetooth TWS con estuche display', legacyCategory: 'headphones' },
+  { path: 'seguridad/cctv/camaras-turbohd/bullet/5mp', name: 'Camaras TurboHD bullet 5MP', legacyCategory: 'cameras' },
+  { path: 'computo/monitores/gaming/ultrawide-curvos/34-uwqhd-180hz', name: 'Monitores gaming ultrawide curvos 34 pulgadas UWQHD 180Hz', legacyCategory: 'monitors' },
   { path: 'redes/routers/gpon-ont', name: 'Routers GPON ONT', legacyCategory: 'networking' },
   { path: 'redes/routers/gpon-ont/ac1200-voip', name: 'Routers GPON ONT AC1200 con VoIP', legacyCategory: 'networking' },
   { path: 'video/accesorios-proyeccion/soportes-proyector/techo-pared', name: 'Soportes de techo o pared para proyector', legacyCategory: 'accessories' },
