@@ -172,6 +172,16 @@ const researchedBatchCases = [
   ["Kingston A400 KC-S44480-7S SA400S37 480GB SSD 2.5 SATA", "KINGSTON TECHNOLOGY", "computo/almacenamiento/ssd/2-5-sata/480gb"],
   ["TP-Link Tapo C310 camara WiFi exterior 3MP 2K IP66", "TP-LINK", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k"],
   ["Dell WM126 mouse inalambrico optico USB 2.4GHz 1000 DPI", "DELL", "computo/perifericos/mouse/inalambricos/basicos/1000-dpi"],
+  ["TP-Link UE300 adaptador USB 3.0 a Ethernet Gigabit RJ45", "TP LINK", "redes/adaptadores-ethernet/usb-gigabit"],
+  ["IMOU IPC-PS3D-5M0 camara IP bala PoE exterior 5MP Smart Color", "IMOU", "seguridad/cctv/camaras-ip-poe/bullet/5mp-dual-light"],
+  ["Dahua HFW1209CN-A-LED-S3 camara bala HDCVI 2MP full color", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color"],
+  ["Tenda N301 router Wi-Fi N300 2.4GHz 2 antenas", "TENDA", "redes/routers/wifi-n/n300"],
+  ["Acteck Entry Optimize MA210 mouse alambrico 1200 DPI USB", "ACTECK", "computo/perifericos/mouse/alambricos/basicos/1200-dpi"],
+  ["TP-Link TG-3468 tarjeta de red PCI Express Gigabit RJ45", "TP LINK", "redes/tarjetas-red/pcie/gigabit"],
+  ["CyberPower CP1000AVRLCDa UPS line-interactive LCD 1000VA 600W", "CYBERPOWER", "energia/no-breaks-ups/line-interactive/1000va/lcd"],
+  ["Nextep 8-040-1 folder Printeck carta crema paquete 100", "NEXTEP", "oficina/papel-consumibles/folders/carta/crema-100"],
+  ["TP-Link Tapo C520WS camara Wi-Fi PT exterior 4MP 2K QHD", "TP LINK", "seguridad/cctv/camaras-ip-wifi/pt-exterior/4mp-2k"],
+  ["Dell Pro 14 PC14250 laptop Core Ultra 7 255U 16GB 512GB", "DELL", "computo/laptops/empresariales/14-pulgadas/dell-pro"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

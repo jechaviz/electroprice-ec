@@ -1,0 +1,446 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b119-2026-05-30",
+  "cycle": 3,
+  "batch": 119,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "xqxv0iznr8b8aua",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link UE300 adaptador USB 3.0 a Ethernet Gigabit RJ45",
+        "description": "Adaptador TP-Link UE300 USB-A 3.0 a Ethernet Gigabit RJ45, portatil, plug and play y compatible con redes 10/100/1000 Mbps.",
+        "manualCategoryPath": "redes/adaptadores-ethernet/usb-gigabit",
+        "semanticCategoryPath": "redes/adaptadores-ethernet/usb-gigabit/tp-link-ue300",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/usb-converter/ue300/v3/",
+        "gallery": ["https://static.tp-link.com/2_normal_1557038856362v.jpg", "https://static.tp-link.com/3_normal_1557038867927h.jpg", "https://static.tp-link.com/8_normal_1557038918491e.jpg"],
+        "documents": [
+          { "label": "TP-Link UE300 product page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/usb-converter/ue300/v3/" },
+          { "label": "TP-Link UE300 support", "type": "support", "url": "https://www.tp-link.com/us/support/download/ue300/" },
+          { "label": "USB converter user guide", "type": "manual", "url": "https://static.tp-link.com/manual/2021/202106/20210607/7106508740_USB%20ConverterUG.pdf" }
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "UE300",
+          "providerSku": "ACCTPL380",
+          "cvaSku": "AC-5233",
+          "upc": "845973091743",
+          "eanAlt": "6935364091743",
+          "chipset": "Realtek RTL8153",
+          "productType": "Adaptador USB a Ethernet Gigabit",
+          "hostInterface": "USB 3.0 Type-A",
+          "networkPort": "1 RJ45 10/100/1000 Mbps",
+          "features": "Plug and play, auto-negotiation, foldable portable cable",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCTPL380", "stock": 764, "price": 7.96, "currency": "USD" }, { "providerId": "cva", "providerSku": "AC-5233", "stock": 4, "price": 7.8, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider category redes/switches is incorrect; UE300 is an adapter, not a switch.", "Dimensions vary slightly by hardware revision; stored value follows TP-Link V3."]
+        },
+        "measurements": { "dimensions": "71 x 26 x 16.2 mm", "weight": "not published by manufacturer" },
+        "sourceRefs": [
+          { "title": "TP-Link UE300 official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/usb-converter/ue300/v3/" },
+          { "title": "TP-Link UE300 support", "type": "support", "url": "https://www.tp-link.com/us/support/download/ue300/" },
+          { "title": "B&H UE300 UPC reference", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1541534-REG/tp_link_ue300_usb_3_0_to_gigabit.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "ushdeafar12npv9",
+      "research": {
+        "confidence": 0.93,
+        "name": "IMOU IPC-PS3D-5M0 PS3D camara IP bala PoE exterior 5MP",
+        "description": "Camara bullet IP IMOU PS3D de 5MP para exterior, con PoE o 12V DC, H.265, vision nocturna Smart Color, microfono, deteccion humano/vehiculo e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/5mp-dual-light/imou-ipc-ps3d-5m0",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.imou.com/en/product/detail/ps3d-5mp",
+        "gallery": ["https://static-website.imou.com/86f2db6f-5c00-466e-942d-84c67e5f42f9.png", "https://static-website.imou.com/f6c9c88c-4557-464f-8540-67392bec2b9b.png", "https://static-website.imou.com/f6dcd307-4f54-45b6-a83a-8e96129c16ab.png"],
+        "documents": [
+          { "label": "IMOU PS3D 5MP product page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps3d-5mp" },
+          { "label": "IMOU PS3D 5MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/f5a3353f-37e3-4b03-8848-d612ce0f7a9a.pdf" },
+          { "label": "IMOU PS3D support", "type": "support", "url": "https://www.imou.com/en/support/product-support/ps3d-5mp" }
+        ],
+        "specs": {
+          "brand": "IMOU",
+          "model": "IPC-PS3D-5M0",
+          "providerSku": "CAMDAH6800",
+          "ean": "6937479643466",
+          "productType": "Camara IP bala exterior PoE",
+          "resolution": "5 MP, official 2880 x 1620",
+          "sensor": "1/3 in progressive CMOS",
+          "lens": "2.8 mm or 3.6 mm F1.6 by region",
+          "nightVision": "Smart Color Night Vision up to 30 m",
+          "video": "H.265/H.264, up to 25/30 fps by region",
+          "audio": "Built-in microphone",
+          "network": "PoE or 12 V DC, 100 Mbps Ethernet, ONVIF",
+          "storage": "microSD up to 512 GB, NVR, cloud",
+          "protection": "IP67",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 450 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 310 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6800", "stock": 765, "price": 30.34, "currency": "USD", "branch": "D2A:450,DFA:310,CTZ:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official datasheet lists 2880 x 1620 while some distributor PDFs list lower values; keep official resolution with discrepancy noted.", "Some aggregators say PoC, but manufacturer documents PoE or 12 V DC."]
+        },
+        "measurements": { "dimensions": "147.7 x 74.2 x 74.2 mm", "weight": "220 g" },
+        "sourceRefs": [
+          { "title": "IMOU PS3D 5MP official page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps3d-5mp" },
+          { "title": "IMOU PS3D 5MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/f5a3353f-37e3-4b03-8848-d612ce0f7a9a.pdf" },
+          { "title": "GlobalOffice IPC-PS3D-5M0 reference", "type": "retailer", "url": "https://globaloffice.mx/app/detalle/producto/videovigilancia/camara-imou-ips3d-5m0-camara-bullet-5mp-poe-ip67-h265-smart/ipc-ps3d-5m0" }
+        ]
+      }
+    },
+    {
+      "product_id": "ya0rkcri76yds5k",
+      "research": {
+        "confidence": 0.94,
+        "name": "Dahua DH-HAC-HFW1209CN-A-LED-S3 camara bala HDCVI 2MP Full Color con microfono",
+        "description": "Camara bala analogica Dahua HDCVI Full Color de 2MP, lente 2.8mm, microfono integrado, luz calida hasta 30m, salida BNC conmutable e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color/dahua-hfw1209cn-a-led-s3",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tvc.mx/products/69215",
+        "gallery": ["https://cdn.tvc.mx/media/1623034/Camara-de-Seguridad-Bullet-Dahua-HAC-HFW1209CN-A-LED-S3.png"],
+        "documents": [
+          { "label": "Dahua ficha tecnica espanol", "type": "datasheet", "url": "https://cdn.tvc.mx/media/1493962/DAHUA-DHT0290098-CAMARA-BULLET-FULLCOLOR-1080P-FICHA-TECNICA-ESPA%C3%91OL.pdf" },
+          { "label": "Dahua ficha tecnica ingles", "type": "datasheet", "url": "https://cdn.tvc.mx/media/1493970/DAHUA-DHT0290098-CAMARA-BULLET-FULLCOLOR-1080P-FICHA-TECNICA-INGLES.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-HAC-HFW1209CN-A-LED-S3",
+          "providerSku": "CAMDAH5870",
+          "ean": "6939554916724",
+          "productType": "Camara bala analogica HDCVI",
+          "resolution": "2 MP, 1920 x 1080 at 30 fps NTSC",
+          "videoOutput": "BNC switchable CVI/TVI/AHD/CVBS",
+          "lens": "2.8 mm F1.6 M12, 3.6 mm optional",
+          "fieldOfView": "H 107.8 deg, V 58.9 deg, D 126.8 deg with 2.8 mm lens",
+          "illumination": "2 warm LEDs, Full Color, up to 30 m",
+          "audio": "Built-in microphone",
+          "imageProcessing": "Smart Light+, Super Adapt, 3D NR, BLC, HLC, DWDR",
+          "power": "12 V DC +/-30%, max 2.9 W",
+          "protection": "IP67",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 264 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 219 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 36 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 11 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH5870", "stock": 758, "price": 17.39, "currency": "USD", "branch": "DFA:264,D2A:219,ACA:36,PAC:32,TAM:24,TPC:22,OAX:20,XLP:17,DGO:15,TXA:15,DFC:14,LMO:11" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["This is analog HDCVI over BNC, not an IP or PoE camera.", "TVC title and datasheet differ between HFW1209C and HFW1209CN variant naming; provider EAN and model include CN-A-LED-S3."]
+        },
+        "measurements": { "dimensions": "161.6 x 69.7 x 70.0 mm", "weight": "0.19 kg net, 0.28 kg gross" },
+        "sourceRefs": [
+          { "title": "TVC Dahua HFW1209CN-A-LED-S3", "type": "retailer", "url": "https://tvc.mx/products/69215" },
+          { "title": "Dahua Spanish datasheet", "type": "datasheet", "url": "https://cdn.tvc.mx/media/1493962/DAHUA-DHT0290098-CAMARA-BULLET-FULLCOLOR-1080P-FICHA-TECNICA-ESPA%C3%91OL.pdf" },
+          { "title": "TekDigital Dahua HFW1209CN", "type": "retailer", "url": "https://tekdigital.mx/producto/camara-bala-fc-2-mp-hfw1209cn-a-led-s3/" }
+        ]
+      }
+    },
+    {
+      "product_id": "iicokybjb9jbqu1",
+      "research": {
+        "confidence": 0.96,
+        "name": "Tenda N301 router inalambrico N300 Wi-Fi 4 2.4GHz",
+        "description": "Router Tenda N301 Wi-Fi 4 N300 de 2.4GHz con dos antenas externas 5dBi, un puerto WAN y tres LAN 10/100, modos router, repetidor, WISP y AP.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/tenda-n301",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tendacn.com/uk/product/overview/N301",
+        "gallery": ["https://static.tenda.com.cn/img/2025/06/03/c42cdbae9a0048eb9447b56dccc4e91b/22.png", "https://static.tenda.com.cn/img/2025/06/03/9ac57dd19d5f4060afb52b0f28e6e502/11.png"],
+        "documents": [
+          { "label": "Tenda N301 specifications", "type": "manufacturer", "url": "https://www.tendacn.com/uk/product/specification/N301" },
+          { "label": "Tenda N301 datasheet", "type": "datasheet", "url": "https://static.tenda.com.cn/tdeweb/download/N301/N301%20Datasheet.pdf" },
+          { "label": "Tenda N301 support", "type": "support", "url": "https://www.tendacn.com/uk/product/help/N301" }
+        ],
+        "specs": {
+          "brand": "TENDA",
+          "model": "N301",
+          "providerSku": "ROUTND190",
+          "ean": "6932849406894",
+          "upc": "885397270638",
+          "productType": "Router Wi-Fi N300",
+          "wireless": "802.11b/g/n 2.4 GHz up to 300 Mbps",
+          "antennas": "2 external 5 dBi antennas",
+          "ports": "1 WAN 10/100 Mbps, 3 LAN 10/100 Mbps",
+          "modes": "Wireless router, universal repeater, WISP, AP",
+          "security": "WPA/WPA2, WPS",
+          "power": "9 V DC 0.6 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "PUE", "stock": 482 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 81 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 44 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUTND190", "stock": 753, "price": 9.78, "currency": "USD", "branch": "PUE:482,VER:81,CUN:44,CAM:25,TOL:23,CLN:21,DGO:20,OBR:11,SLP:10,PAC:10,ACX:5,CHI:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Hardware revisions v2 and v5 have different firmware pages; version should be checked before firmware updates.", "Retail weights appear to be package weights because Tenda does not publish product weight."]
+        },
+        "measurements": { "dimensions": "127.4 x 90.5 x 26 mm", "weight": "not published by manufacturer" },
+        "sourceRefs": [
+          { "title": "Tenda N301 official overview", "type": "manufacturer", "url": "https://www.tendacn.com/uk/product/overview/N301" },
+          { "title": "Tenda N301 specifications", "type": "manufacturer", "url": "https://www.tendacn.com/uk/product/specification/N301" },
+          { "title": "Tenda N301 datasheet", "type": "datasheet", "url": "https://static.tenda.com.cn/tdeweb/download/N301/N301%20Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "e5c8zdv9h212429",
+      "research": {
+        "confidence": 0.95,
+        "name": "Acteck Optimize MA210 mouse alambrico optico USB 1200 DPI negro",
+        "description": "Mouse alambrico Acteck Optimize MA210 de oficina con conexion USB-A, sensor optico de 1200 DPI, dos botones y rueda de desplazamiento.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1200-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1200-dpi/acteck-optimize-ma210",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/mouse-alambrico-optimize-ma210",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-928830Frontal1000x1000.png?v=1768592232&width=1000", "https://acteck.com/cdn/shop/files/AC-928830-2.webp?v=1768592232&width=1000", "https://acteck.com/cdn/shop/files/AC-928830_Mockup.webp?v=1768592232&width=1000"],
+        "documents": [{ "label": "Acteck MA210 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-928830_V1.pdf?v=1702402522" }],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Optimize MA210",
+          "manufacturerPartNumber": "AC-928830",
+          "providerSku": "MOUACT050",
+          "ean": "7506215928830",
+          "aliases": ["Entry", "Entry 100", "MA210"],
+          "productType": "Mouse alambrico optico",
+          "connectivity": "USB-A",
+          "dpi": "1200",
+          "buttons": "2 plus scroll",
+          "cable": "1.4 m official sheet, 1.5 m in product copy",
+          "power": "5 V DC 100 mA",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "VHA", "stock": 65 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 59 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 57 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 54 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 54 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 53 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 37 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 23 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUACT050", "stock": 750, "price": 37.93, "currency": "MXN", "branch": "VHA:65,TRN:59,TOL:57,HMO:54,CUE:54,XLP:53,TXA:40,LMO:37,LEO:31,SLP:28,PAC:24,AGS:23" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider/retail title Entry maps to official Acteck Optimize MA210 AC-928830.", "Some listings say 1000 DPI; manufacturer and Exel identify 1200 DPI."]
+        },
+        "measurements": { "dimensions": "11.8 x 3.9 x 5.9 cm", "weight": "64 g" },
+        "sourceRefs": [
+          { "title": "Acteck Optimize MA210 official", "type": "manufacturer", "url": "https://acteck.com/products/mouse-alambrico-optimize-ma210" },
+          { "title": "Acteck AC-928830 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-928830_V1.pdf?v=1702402522" },
+          { "title": "Exel Acteck MA210 reference", "type": "retailer", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/AKCMOSAB055" }
+        ]
+      }
+    },
+    {
+      "product_id": "ioxkht2pg1k2f0a",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link TG-3468 tarjeta de red PCI Express Gigabit RJ45",
+        "description": "Tarjeta de red interna TP-Link TG-3468 PCI Express con puerto RJ45 Gigabit 10/100/1000 Mbps, Wake-on-LAN, Auto MDI/MDIX, VLAN 802.1Q y prioridad 802.1p.",
+        "manualCategoryPath": "redes/tarjetas-red/pcie/gigabit",
+        "semanticCategoryPath": "redes/tarjetas-red/pcie/gigabit/tp-link-tg-3468",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/pci-adapter/tg-3468/",
+        "gallery": ["https://static.tp-link.com/res/images/products/gallery/TG-3468%28UN%292.0-01.jpg", "https://static.tp-link.com/res/images/products/gallery/TG-3468%28UN%292.0-02.jpg"],
+        "documents": [
+          { "label": "TP-Link TG-3468 product page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/pci-adapter/tg-3468/" },
+          { "label": "TP-Link TG-3468 support", "type": "support", "url": "https://www.tp-link.com/us/support/download/tg-3468/" },
+          { "label": "TP-Link TG-3468 document 17020", "type": "datasheet", "url": "https://www.tp-link.com/us/document/17020/" }
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "TG-3468",
+          "providerSku": "TARTPL230",
+          "cvaSku": "NIC-991",
+          "upc": "845973001049",
+          "eanAlt": "6935364001049",
+          "productType": "Tarjeta Ethernet PCI Express Gigabit",
+          "hostInterface": "32-bit PCI Express",
+          "networkPort": "1 RJ45 10/100/1000 Mbps",
+          "standards": "IEEE 802.3, 802.3u, 802.3ab, 802.3x, 802.1Q, 802.1p",
+          "features": "Auto-negotiation, Auto MDI/MDIX, Wake-on-LAN, flow control, VLAN, priority tagging",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARTPL230", "stock": 748, "price": 7.96, "currency": "USD" }, { "providerId": "cva", "providerSku": "NIC-991", "stock": 0, "price": 7.55, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider category redes/switches is incorrect; TG-3468 is an internal PCIe Ethernet adapter.", "CVA NIC-991 is a distributor key, not manufacturer MPN."]
+        },
+        "measurements": { "dimensions": "78.5 x 120.8 x 21.5 mm", "weight": "not published by manufacturer" },
+        "sourceRefs": [
+          { "title": "TP-Link TG-3468 official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/pci-adapter/tg-3468/" },
+          { "title": "TP-Link TG-3468 support", "type": "support", "url": "https://www.tp-link.com/us/support/download/tg-3468/" },
+          { "title": "GlobalOffice TG-3468 reference", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/redes-e-it/tp-link-tg-3468-tarjeta-de-red-pci-express-alambrico-ieee-80/tg-3468" }
+        ]
+      }
+    },
+    {
+      "product_id": "z3y345szg7kbqbm",
+      "research": {
+        "confidence": 0.94,
+        "name": "CyberPower CP1000AVRLCDa no-break UPS line-interactive 1000VA 600W LCD",
+        "description": "No-break CyberPower CP1000AVRLCDa de linea interactiva con 1000VA/600W, AVR, pantalla LCD, 9 contactos NEMA 5-15R, gestion USB/serial y proteccion RJ45/RJ11/coaxial.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/1000va/lcd",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/1000va/lcd/cyberpower-cp1000avrlcda",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/cp1000avrlcda",
+        "gallery": ["https://compupuebla.com/wp-content/uploads/2024/04/NoBreakCyberPower1000VA600W8hHogar_CP1000AVRLCDa_UPC649532010004_0.jpg", "https://compupuebla.com/wp-content/uploads/2024/04/NoBreakCyberPower1000VA600W8hHogar_CP1000AVRLCDa_UPC649532010004_1.jpg", "https://compupuebla.com/wp-content/uploads/2024/04/NoBreakCyberPower1000VA600W8hHogar_CP1000AVRLCDa_UPC649532010004_2.jpg"],
+        "documents": [
+          { "label": "CyberPower CP1000AVRLCDa product page", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/cp1000avrlcda" },
+          { "label": "CyberPower CP1000AVRLCD user manual", "type": "manual", "url": "https://dl4jz3rbrsfum.cloudfront.net/documents/CyberPower_UM_CP1000AVRLCD.pdf" },
+          { "label": "CyberPower CP1000AVRLCD datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--HlOu2vLC--/0b9e6390b59a1270d2210962b1c81918de3ea6d1.pdf" }
+        ],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "CP1000AVRLCDa",
+          "providerSku": "NBKCYP170",
+          "cvaSku": "FR-440",
+          "upc": "649532010004",
+          "productType": "No-break UPS line-interactive",
+          "capacity": "1000 VA / 600 W",
+          "waveform": "Simulated sine wave",
+          "input": "120 V AC, 60 Hz",
+          "outlets": "9 NEMA 5-15R, 5 battery plus surge, 4 surge only",
+          "avr": "Single boost AVR",
+          "runtime": "8-9 minutes half load, 2 minutes full load by variant",
+          "battery": "VRLA 12 V 9 Ah, RB1290/RB1290A by sheet",
+          "management": "USB/serial, PowerPanel Personal",
+          "surgeProtection": "1080 J, EMI/RFI, RJ45/RJ11 and coaxial",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKCYP170", "stock": 743, "price": 3055.56, "currency": "MXN" }, { "providerId": "cva", "providerSku": "FR-440", "stock": 0, "price": 3086.34, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["CP1000AVRLCDa and CP1000AVRLCD references share family specs, but dimensions/runtime differ by regional revision.", "Public mirrors show dynamic CVA/retail stock different from this batch; keep batch feed as authoritative for current curation."]
+        },
+        "measurements": { "dimensions": "100 x 227.5 x 260 mm", "weight": "6.8 kg; package 7.38 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower CP1000AVRLCDa official MX", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/cp1000avrlcda" },
+          { "title": "CyberPower CP1000AVRLCD USA page", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/intelligent-lcd/cp1000avrlcd/" },
+          { "title": "CompuPuebla CP1000AVRLCDa reference", "type": "retailer", "url": "https://compupuebla.com/producto/no-break-cyberpower-cp1000avrlcda/" }
+        ]
+      }
+    },
+    {
+      "product_id": "w0kfsxzt8jpdrrp",
+      "research": {
+        "confidence": 0.9,
+        "brand": "PRINTECK",
+        "name": "Printeck 8-040-1 folder tamano carta color crema paquete con 100 piezas",
+        "description": "Paquete de 100 folders Printeck 8-040-1 tamano carta color crema para archivo de oficina, escuela u hogar; catalogado por el proveedor bajo Nextep.",
+        "manualCategoryPath": "oficina/papel-consumibles/folders/carta/crema-100",
+        "semanticCategoryPath": "oficina/papel-consumibles/folders/carta/crema-100/printeck-8-040-1",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://albe.com.mx/collections/printeck/products/folder-t-carta-crema",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-NEXTEP-8-040-1-8bedf3.jpg", "https://compupuebla.com/wp-content/uploads/2026/01/FolderPrinteckcartacolorcremaC1008_80401_EAN7502280570387_0.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-8-040-1-folder-printeck-carta-color-crema_0.webp", "https://albe.com.mx/cdn/shop/files/8-040-1-CJA_1120x.jpg?v=1682537797"],
+        "documents": [],
+        "specs": {
+          "brand": "PRINTECK",
+          "catalogBrand": "NEXTEP",
+          "model": "8-040-1",
+          "providerSku": "ACCNEX2080",
+          "ean": "7502280570387",
+          "productType": "Folder de archivo",
+          "format": "Carta",
+          "color": "Crema",
+          "material": "Cartulina/carton",
+          "presentation": "Paquete con 100 piezas",
+          "capacity": "50 hojas por folder by retailer references",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 425 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 289 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCNEX2080", "stock": 742, "price": 117.96, "currency": "MXN", "branch": "D2A:425,DFA:289,LEO:23,ZAC:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider category consumibles/OKIDATA is incorrect; product is office stationery.", "Provider and some retailers catalog under Nextep, while product box/listings identify Printeck; store Printeck as visible brand and Nextep as catalog brand.", "No official manufacturer datasheet was located; dimensions come from retailer/package references."]
+        },
+        "measurements": { "dimensions": "29.3 x 24 x 4.5 cm package", "weight": "not located" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Nextep 8-040-1", "type": "retailer", "url": "https://www.cyberpuerta.mx/Home-Office/Articulos-de-Oficina/Papeleria/Archivo/Folder/Nextep-Folder-8-040-1-Tamano-Carta-Crema-100-Piezas.html" },
+          { "title": "Albe Printeck folder carta crema", "type": "retailer", "url": "https://albe.com.mx/collections/printeck/products/folder-t-carta-crema" },
+          { "title": "Computol Printeck 8-040-1", "type": "retailer", "url": "https://www.computol.com.mx/producto/folder-printeck-carta-color-crema-c-100-8-040-1-dimensiones-29-3-cm-de-largo-x24-cm-de-ancho-4-5-de-grosor-capacidad-para-50-hojas/" }
+        ]
+      }
+    },
+    {
+      "product_id": "bdzao0apw47jqu0",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Tapo C520WS camara IP Wi-Fi exterior PT 360 2K QHD",
+        "description": "Camara inteligente TP-Link Tapo C520WS para exterior con resolucion 4MP 2K QHD, movimiento pan/tilt, vision nocturna a color, Wi-Fi 2.4GHz, Ethernet, audio bidireccional e IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/4mp-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/4mp-2k/tp-link-tapo-c520ws",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tapo.com/mx/product/smart-camera/tapo-c520ws/v1/",
+        "gallery": ["https://static.tp-link.com/upload/image-line/Tapo_C520WS_EU_1.0_overview_01_large_20230518095424f_normal_20251119153516x.jpg", "https://static.tp-link.com/upload/image-line/Tapo-C520WS_02_normal_20251119153530w.jpg", "https://static.tp-link.com/upload/image-line/Tapo_C520WS%28EU%29_1.0-210x160x145mm-7022510880_large_20240509020024n_normal_20251119153632r.png"],
+        "documents": [
+          { "label": "Tapo C520WS product page", "type": "manufacturer", "url": "https://www.tapo.com/mx/product/smart-camera/tapo-c520ws/v1/" },
+          { "label": "Tapo C520WS support", "type": "support", "url": "https://www.tp-link.com/us/support/download/tapo-c520ws/v1/" },
+          { "label": "Tapo C520WS datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202403/20240319/Tapo%20C520WS%201.0_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "Tapo C520WS",
+          "providerSku": "CAMTPL330",
+          "cvaSku": "CV-1715",
+          "upc": "840030706042",
+          "productType": "Camara IP Wi-Fi PT exterior",
+          "resolution": "4 MP 2K QHD, 2560 x 1440",
+          "sensor": "1/3 in CMOS",
+          "lens": "3.18 mm, F1.61",
+          "panTilt": "360 deg horizontal, 130 deg vertical",
+          "nightVision": "IR 850 nm up to 30 m plus Starlight color with 2 spotlights",
+          "network": "Wi-Fi 2.4 GHz 802.11b/g/n and RJ45 Ethernet",
+          "storage": "microSD up to 512 GB and Tapo Care",
+          "audio": "Built-in microphone and speaker, two-way audio",
+          "protection": "IP66",
+          "detection": "Motion, person, pet, vehicle, line crossing, tampering",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMTPL330", "stock": 729, "price": 45.46, "currency": "USD" }, { "providerId": "cva", "providerSku": "CV-1715", "stock": 11, "price": 44.59, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some retailers call it wired or indoor/outdoor; correct manual category is outdoor Wi-Fi PT camera with optional Ethernet.", "CT CAMTPL330 and CVA CV-1715 point to the same UPC/model."]
+        },
+        "measurements": { "dimensions": "123.8 x 123 x 90 mm", "weight": "396.84 g" },
+        "sourceRefs": [
+          { "title": "Tapo C520WS official MX", "type": "manufacturer", "url": "https://www.tapo.com/mx/product/smart-camera/tapo-c520ws/v1/" },
+          { "title": "TP-Link Tapo C520WS support", "type": "support", "url": "https://www.tp-link.com/us/support/download/tapo-c520ws/v1/" },
+          { "title": "Dimercom CV-1715 reference", "type": "retailer", "url": "https://dimercom.mx/ccvv_cv-1715/" }
+        ]
+      }
+    },
+    {
+      "product_id": "hdf3t3105sw71vt",
+      "research": {
+        "confidence": 0.91,
+        "name": "Dell Pro 14 PC14250 2HWN3 laptop 14 FHD+ Core Ultra 7 255U 16GB 512GB Windows 11 Pro",
+        "description": "Laptop empresarial Dell Pro 14 PC14250 2HWN3 de 14 pulgadas FHD+, Intel Core Ultra 7 255U, 16GB DDR5, SSD 512GB NVMe, Windows 11 Pro, Wi-Fi 6E, RJ45 y garantia de 3 anos segun configuracion.",
+        "manualCategoryPath": "computo/laptops/empresariales/14-pulgadas/dell-pro",
+        "semanticCategoryPath": "computo/laptops/empresariales/14-pulgadas/dell-pro/dell-pro-14-pc14250-2hwn3",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-laptops/dell-pro-14-laptop/spd/dell-pro-pc14250-laptop/gcto_pc14250_usx",
+        "gallery": ["https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/DE/DEHLATAB880_zoom.jpg", "https://www.dell.com/en-us/shop/dell-laptops/dell-pro-14-laptop/spd/dell-pro-pc14250-laptop/gcto_pc14250_usx"],
+        "documents": [
+          { "label": "Dell Pro 14 manuals", "type": "support", "url": "https://www.dell.com/support/product-details/en-us/product/dell-pro-pc14250-laptop/resources/manuals" },
+          { "label": "Dell Pro 14 dimensions and weight", "type": "manual", "url": "https://www.dell.com/support/manuals/en-us/dell-pro-pc14250-laptop/dell-pro-14-pc14250-owners-manual/dimensions-and-weight" },
+          { "label": "Dell Pro 14 and 16 brochure", "type": "brochure", "url": "https://www.delltechnologies.com/asset/en-in/products/laptops-and-2-in-1s/technical-support/dell-pro-14-16-laptop-product-brochure.pdf" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "family": "Dell Pro 14",
+          "model": "PC14250",
+          "partNumber": "2HWN3",
+          "configuration": "PC14250_U7ARL16512WPS_3W",
+          "reportedProviderSku": "COMDDL8840",
+          "correctProviderSku": "COMDDL7700",
+          "upc": "884116490562",
+          "productType": "Laptop empresarial",
+          "processor": "Intel Core Ultra 7 255U, 12 cores, 14 threads, up to 5.2 GHz, 15 W, NPU 12 TOPS",
+          "memory": "16 GB DDR5 5600 MT/s",
+          "storage": "512 GB M.2 2230 PCIe Gen4 NVMe SSD",
+          "display": "14 in FHD+ 1920 x 1200 IPS, non-touch, 60 Hz",
+          "graphics": "Intel integrated graphics",
+          "operatingSystem": "Windows 11 Pro",
+          "network": "Wi-Fi 6E / Intel AX211 by channel sheet, Bluetooth, RJ45 1GbE",
+          "ports": "USB-A, USB-C 10Gbps with DP/PD, Thunderbolt 4, HDMI 2.1, headset",
+          "warranty": "3 years by _3W configuration",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 148 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 90 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMDDL8840", "stock": 738, "price": 13905.26, "currency": "MXN", "branch": "D2A:148,DFA:90,GDL:13,CMT:12,SLT:7,DFT:6,HMO:3,MAZ:2,AGS:1,VER:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current category monitors is incorrect; all checked sources describe a Dell Pro 14 laptop.", "Input SKU COMDDL8840 is inconsistent with UPC 884116490562; public channel references map this UPC/spec to 2HWN3 / COMDDL7700.", "Batch stock/price under COMDDL8840 should be treated as suspect until the provider feed is rechecked by UPC or COMDDL7700."]
+        },
+        "measurements": { "dimensions": "313.70 x 225.30 x 18.89-20.37 mm", "weight": "from 1.35 kg; about 1.36 kg in channel sheets" },
+        "sourceRefs": [
+          { "title": "Dell Pro 14 dimensions and weight", "type": "manufacturer", "url": "https://www.dell.com/support/manuals/en-us/dell-pro-pc14250-laptop/dell-pro-14-pc14250-owners-manual/dimensions-and-weight" },
+          { "title": "Dell Pro 14 product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-laptops/dell-pro-14-laptop/spd/dell-pro-pc14250-laptop/gcto_pc14250_usx" },
+          { "title": "GlobalOffice Dell Pro 14 2HWN3", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/laptops/laptop-dell-pro-14-pc14250-intel-ultra-7-255u-ram-16gb-ssd-5/2hwn3" },
+          { "title": "TekDigital Dell Pro 14 2HWN3", "type": "retailer", "url": "https://tekdigital.mx/producto/nb-pro-14-pc14250_u7arl16512wps_3w-2hwn3-core%C2%99-ultra-7-255u-ram-16-gb-14-512-gb-ssd-w-11-pro-garantia-3-year-color-silver-2/" }
+        ]
+      }
+    }
+  ]
+}
