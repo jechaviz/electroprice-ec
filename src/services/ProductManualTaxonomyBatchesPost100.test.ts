@@ -371,6 +371,16 @@ const researchedBatchCases = [
   ["Perfect Choice Graypack PC-084532 mochila ejecutiva laptop 15.6 gris", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
   ["Brother TZe-FX231 cinta flexible ID laminada 12mm x 8m negro blanco", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-tze/flexible-id/12mm"],
   ["Dahua DH-XVR1B16-I/T XVR WizSense 16 canales HDCVI 1080N", "DAHUA TECHNOLOGY", "seguridad/cctv/dvr-nvr/xvr-hdcvi/16-canales-wizsense"],
+  ["BRobotix 569441 adaptador USB-C macho a HDMI hembra 13 cm blanco", "BROBOTIX", "accesorios/cables-adaptadores/video-usb-c-hdmi"],
+  ["Panasonic RB-HF630BE-A audifonos Bluetooth on-ear azul 72 horas", "PANASONIC", "audio/audifonos/bluetooth/diadema-on-ear"],
+  ["Nextep NE-503I lector inalambrico codigo de barras QR 1D 2D USB Bluetooth", "NEXTEP", "punto-de-venta/lectores-codigo-barras/2d-inalambricos"],
+  ["BRobotix 256349-3 funda neopreno laptop 15.6 pulgadas azul marino", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/neopreno"],
+  ["Ubiquiti USW-LITE-16-POE UniFi Switch Lite 16 PoE Gigabit administrable", "UBIQUITI", "redes/switches/poe-administrables/gigabit/16-puertos"],
+  ["BRobotix 6000977 ancla adhesiva K-Slot para candado seguridad plata", "BROBOTIX", "accesorios/seguridad-fisica/candados-laptop/anclas-k-slot"],
+  ["Eaton Tripp Lite SMART750RMXL2U UPS SmartPro 750VA rack torre senoidal", "TRIPP-LITE", "energia/no-breaks-ups/line-interactive/rack-torre/750va-senoidal"],
+  ["Kyocera TK-5372M toner magenta 5000 paginas ECOSYS MA3500cifx", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5372m-magenta"],
+  ["Manhattan 353298 cable USB 2.0 USB-A macho a USB-C macho 1 m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-c/1m"],
+  ["Hyundai HT14CB10S02BK HYbook Plus 14.1 Core i5 16GB 1TB Windows 11", "HYUNDAI TECHNOLOGY", "computo/laptops/consumo/14-pulgadas/hyundai-hybook"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
