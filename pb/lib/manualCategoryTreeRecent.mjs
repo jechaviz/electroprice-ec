@@ -1,4 +1,10 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'accesorios/cables-adaptadores/usb/extensiones', name: 'Extensiones USB', legacyCategory: 'accessories' },
+  { path: 'accesorios/cables-adaptadores/usb/extensiones/5m', name: 'Extensiones USB 5 m', legacyCategory: 'accessories' },
+  { path: 'seguridad/control-acceso/cerraduras-inteligentes/huella-rfid-wifi', name: 'Cerraduras inteligentes con huella RFID y Wi-Fi', legacyCategory: 'security' },
+  { path: 'computo/tabletas/android/10-1-pulgadas', name: 'Tabletas Android de 10.1 pulgadas', legacyCategory: 'tablets' },
+  { path: 'redes/cableado-estructurado/patch-cords/cat5e/7-5m', name: 'Patch cords Cat5e de 7.5 m', legacyCategory: 'networking' },
+  { path: 'computo/perifericos/mouse/inalambricos/ergonomicos/1600-dpi', name: 'Mouse ergonomicos inalambricos 1600 DPI', legacyCategory: 'accessories' },
   { path: 'hogar/casa-inteligente', name: 'Casa inteligente', legacyCategory: 'accessories' },
   { path: 'hogar/casa-inteligente/interruptores-wifi', name: 'Interruptores Wi-Fi inteligentes', legacyCategory: 'accessories' },
   { path: 'hogar/casa-inteligente/interruptores-wifi/monopolares', name: 'Interruptores Wi-Fi inteligentes monopolares', legacyCategory: 'accessories' },

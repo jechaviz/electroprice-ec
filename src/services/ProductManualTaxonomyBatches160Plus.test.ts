@@ -32,6 +32,16 @@ const batch160PlusCases = [
   ["ADATA Premier Pro AUSDX128GUI3V30SA2-RA1 microSDXC 128GB UHS-I V30 A2 con adaptador", "ADATA", "computo/almacenamiento/memorias-flash/microsd/128gb-uhs-i-v30-a2", "storage"],
   ["Manhattan 371377 cable VGA SVGA HD15 macho macho 11m negro", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15/11m", "accessories"],
   ["Brother TZe-641 cinta laminada P-touch 18mm x 8m negro sobre amarillo", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/18mm/negro-sobre-amarillo", "printers_scanners"],
+  ["Hyundai HYtab Plus 8WB1 HT8WB1RBK02A tablet 8 pulgadas Wi-Fi negra", "HYUNDAI", "computo/tabletas/android/8-pulgadas", "tablets"],
+  ["Lenovo B210 4X40T84059 mochila para laptop 15.6 pulgadas negra", "LENOVO", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6", "accessories"],
+  ["Brobotix 030570 cable extension USB-A 2.0 macho a hembra 4.9 m negro", "BROBOTIX", "accesorios/cables-adaptadores/usb/extensiones/5m", "accessories"],
+  ["Mirati MSL02 cerradura inteligente Wi-Fi con huella RFID teclado y llave", "MIRATI", "seguridad/control-acceso/cerraduras-inteligentes/huella-rfid-wifi", "security"],
+  ["GHIA Vector Plus GVPN tablet Android 13 10.1 pulgadas 4GB 64GB negra", "GHIA", "computo/tabletas/android/10-1-pulgadas", "tablets"],
+  ["Intellinet 319874 patch cord Cat5e UTP RJ45 7.5 m azul", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat5e/7-5m", "networking"],
+  ["Stylos STPKTM3B combo teclado y mouse inalambrico USB negro 105 teclas", "STYLOS", "computo/perifericos/combos-teclado-mouse/inalambricos/basicos", "accessories"],
+  ["Acteck Captive Brite CB195 AC-939409 monitor 19.5 pulgadas TN HD HDMI VGA negro", "ACTECK", "computo/monitores/oficina/19-5-hd", "monitors"],
+  ["TP-Link LS108G switch no administrable Gigabit de 8 puertos", "TP LINK", "redes/switches/no-administrables/gigabit/8-puertos", "networking"],
+  ["Getttech GAC-24404P mouse ergonomico inalambrico 2.4GHz 1600 DPI rosa", "GETTTECH", "computo/perifericos/mouse/inalambricos/ergonomicos/1600-dpi", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

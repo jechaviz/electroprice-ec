@@ -1,0 +1,391 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b163-2026-05-30",
+  "cycle": 3,
+  "batch": 163,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5aioq2jk9a6gdtl",
+      "research": {
+        "confidence": 0.86,
+        "name": "Hyundai HYtab Plus 8WB1 HT8WB1RBK02A tablet 8 pulgadas Wi-Fi negra",
+        "description": "Tablet Hyundai HYtab Plus 8WB1 de 8 pulgadas para uso personal, con Android, conectividad Wi-Fi y almacenamiento interno reportado por proveedor de 64GB.",
+        "manualCategoryPath": "computo/tabletas/android/8-pulgadas",
+        "semanticCategoryPath": "computo/tabletas/android/8-pulgadas/hyundai-hytab-plus-8wb1-ht8wb1rbk02a",
+        "legacyCategory": "tablets",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TLCHYU350/TLCHYU350_full.jpg"],
+        "specs": {
+          "brand": "HYUNDAI",
+          "model": "HT8WB1RBK02A",
+          "providerSku": "TLCHYU350",
+          "upc": "810033038334",
+          "productType": "Tablet Android",
+          "display": "8 in IPS 1280 x 800 reportado por fuentes de canal",
+          "processor": "Allwinner A133 quad-core reportado por B&H",
+          "memoryStorage": "Proveedor MX reporta 4GB/64GB; fuentes de canal de UPC reportan 3GB/32GB",
+          "wireless": ["Wi-Fi", "Bluetooth"],
+          "cameras": "Proveedor MX reporta 5MP/8MP; B&H reporta 2MP/5MP",
+          "battery": "3500 mAh reportado por B&H",
+          "providerBranchSummary": "Disponible por sucursal proveedor: TXL 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"TXL","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"TLCHYU350","stock":1,"price":1133.33,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Ruta anterior redes/access-points era incorrecta.", "Proveedor MX y fuentes por UPC discrepan en RAM/almacenamiento, Android y camaras.", "Peso proveedor 4 g es imposible."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "203.2 x 121.9 x 10.2 mm fuente B&H", "weight": "0.33 kg fuente B&H"},
+        "sourceRefs": [
+          {"title": "GlobalOffice Hyundai HT8WB1RBK02A", "type": "reseller_spec", "url": "https://globaloffice.mx/app/detalle/producto/tabletas/hyundai-hytab-plus-8wb1-8-800x1280-hd-ips-300-nits-allwinner/ht8wb1rbk02a"},
+          {"title": "B&H Hyundai HT8WB1RBK02A", "type": "reseller_spec", "url": "https://www.bhphotovideo.com/c/product/1729874-REG/hyundai_ht8wb1rbk02a_8_hytab_plus_32gb.html"},
+          {"title": "CTOnline TLCHYU350 branch stock 1", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5aqrgr5fi5y7po9",
+      "research": {
+        "confidence": 0.91,
+        "name": "Lenovo B210 4X40T84059 mochila para laptop 15.6 pulgadas negra",
+        "description": "Mochila Lenovo B210 para laptop de hasta 15.6 pulgadas con tela de poliester snow-yarn, compartimento acolchado y bolsillo frontal con cierre.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/lenovo-b210-4x40t84059",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10307334"],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "4X40T84059",
+          "commercialModel": "B210",
+          "providerSku": "AC-9947",
+          "alternateProviderSku": "MALLEN110",
+          "productType": "Mochila para laptop",
+          "compatibility": "Laptops hasta 15.6 pulgadas",
+          "material": "Poliester snow-yarn",
+          "features": ["Compartimento acolchado", "Bolsillo frontal con cremallera", "Panel posterior acolchado"],
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal no disponible; CTOnline reporta stock 31. CVA mantiene oferta alterna sin stock.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"MALLEN110","stock":31,"price":315.22,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"AC-9947","stock":0,"price":444.44,"currency":"MXN","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["Lenovo actualiza familias ECO/16in en fichas recientes; proveedor y fuentes de canal alinean este PN como B210 15.6."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "340 x 150 x 455 mm fuente canal", "weight": "453 g fuente canal"},
+        "sourceRefs": [
+          {"title": "MoreCoCo Lenovo 4X40T84059", "type": "reseller_spec", "url": "https://www.morecoco.co.uk/a?pid=4X40T84059%3E%3ELenovo"},
+          {"title": "Lenovo backpack datasheet reference", "type": "manufacturer_datasheet", "url": "https://techtoday.lenovo.com/sites/default/files/2024-08/16in-laptop-backpack-datasheet-ww-en.pdf?cid=at%3Asem%7Cse%7Cgoogle"},
+          {"title": "Provider stock CTOnline 31 and CVA 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5atagpl318ns447",
+      "research": {
+        "confidence": 0.93,
+        "name": "Brobotix 030570 cable extension USB-A 2.0 macho a hembra 4.9 m negro",
+        "description": "Cable extension USB Brobotix 030570 USB-A macho a USB-A hembra, USB 2.0, longitud 4.9 m y color negro.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/5m/brobotix-030570",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CABRBT1780/CABRBT1780_2_full.jpg"],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "030570",
+          "providerSku": "CABRBT1780",
+          "ean": "7503028372812",
+          "productType": "Cable extension USB 2.0",
+          "connectors": ["USB-A macho", "USB-A hembra"],
+          "length": "4.9 m",
+          "speed": "480 Mbit/s",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 5.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":5}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"CABRBT1780","stock":5,"price":12.12,"currency":"USD","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"length": "4.9 m", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "CompuPuebla Brobotix 030570", "type": "reseller_spec", "url": "https://compupuebla.com/producto/cable-usb-brobotix-030570/"},
+          {"title": "CTOnline CABRBT1780 branch stock 5", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5ay6nqvchu0hz81",
+      "research": {
+        "confidence": 0.9,
+        "name": "Mirati MSL02 cerradura inteligente Wi-Fi con huella RFID teclado y llave",
+        "description": "Cerradura inteligente Mirati MSL02 de aleacion de aluminio y cristal templado con apertura por huella, RFID, teclado, Wi-Fi/app y llave fisica.",
+        "manualCategoryPath": "seguridad/control-acceso/cerraduras-inteligentes/huella-rfid-wifi",
+        "semanticCategoryPath": "seguridad/control-acceso/cerraduras-inteligentes/huella-rfid-wifi/mirati-msl02",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10458742"],
+        "specs": {
+          "brand": "MIRATI",
+          "model": "MSL02",
+          "providerSku": "SH-57",
+          "productType": "Cerradura inteligente",
+          "materials": ["Aleacion de aluminio", "Cristal templado"],
+          "openingMethods": ["Llave fisica", "Huella dactilar", "Tarjeta RFID", "Password", "Wi-Fi/app"],
+          "battery": "4 baterias AA",
+          "emergencyPower": "USB-C 5V/1A",
+          "wireless": "Wi-Fi 2.4 GHz",
+          "password": "6 a 12 digitos",
+          "operatingTemperature": "-20 C a 55 C",
+          "providerBranchSummary": "Sucursal no disponible; CVA reporta stock total 4.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId":"cva","providerSku":"SH-57","stock":4,"price":1153.35,"currency":"MXN","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "No encontrado", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "GlobalOffice Mirati MSL02", "type": "reseller_spec", "url": "https://mail.globaloffice.com.mx/app/detalle/producto/smart-home/cerradura-inteligente-con-deteccin-de-huella-dactilar-tarjet/msl02"},
+          {"title": "Intercompras Mirati MSL02", "type": "reseller_spec", "url": "https://intercompras.com/p/cerradura-inteligente-mirati-home-msl02-huella-dactilar-tarjeta-rfid-451872"},
+          {"title": "CVA SH-57 stock 4", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5b67ctx0xbd5ogy",
+      "research": {
+        "confidence": 0.92,
+        "name": "GHIA Vector Plus GVPN tablet Android 13 10.1 pulgadas 4GB 64GB negra",
+        "description": "Tablet GHIA Vector Plus GVPN de 10.1 pulgadas con Android 13, 4GB RAM, 64GB de almacenamiento, procesador A523 octa-core, Wi-Fi, Bluetooth y bateria 5000mAh.",
+        "manualCategoryPath": "computo/tabletas/android/10-1-pulgadas",
+        "semanticCategoryPath": "computo/tabletas/android/10-1-pulgadas/ghia-vector-plus-gvpn",
+        "legacyCategory": "tablets",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10343833"],
+        "specs": {
+          "brand": "GHIA",
+          "model": "GVPN",
+          "providerSku": "NOTGHIA-378",
+          "ean": "7500647004445",
+          "productType": "Tablet Android",
+          "processor": "A523 Octa Core 2.0GHz",
+          "memory": "4 GB RAM",
+          "storage": "64 GB ROM, expandible TF hasta 128GB",
+          "display": "10.1 in IPS 1280 x 800",
+          "cameras": ["Frontal 2MP", "Trasera 5MP"],
+          "os": "Android 13",
+          "battery": "5000 mAh",
+          "ports": ["USB-C 3.0"],
+          "wireless": ["Wi-Fi b/g/n", "Bluetooth 4.0 BLE"],
+          "providerBranchSummary": "Sucursal no disponible; CVA reporta stock total 11.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId":"cva","providerSku":"NOTGHIA-378","stock":11,"price":1032.39,"currency":"MXN","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "No encontrado", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "GHIA Vector Plus GVPN ficha PDF", "type": "reseller_pdf", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/65b/41c/8bd/65b41c8bd5b0d3.54989279.pdf"},
+          {"title": "OfficeMax GHIA Vector Plus", "type": "reseller_spec", "url": "https://interlomas.officemax.com.mx/tablet-ghia-vector-plus-64gb-android-13-10-1--negra-7500647004445/p"},
+          {"title": "CVA NOTGHIA-378 stock 11", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5boxlye7kuecb92",
+      "research": {
+        "confidence": 0.94,
+        "name": "Intellinet 319874 patch cord Cat5e UTP RJ45 7.5 m azul",
+        "description": "Cable patch Intellinet 319874 Cat5e UTP RJ45 macho a macho de 7.5 m, color azul, con contactos dorados, botas snag-free y soporte 10/100/1000BASE-T.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/7-5m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/7-5m/intellinet-319874",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5157687"],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "319874",
+          "providerSku": "CB-445",
+          "alternateProviderSku": "CABITL740",
+          "upc": "766623319874",
+          "productType": "Patch cord Cat5e UTP",
+          "connectors": ["RJ45 macho", "RJ45 macho"],
+          "length": "7.5 m / 25 ft",
+          "color": "Azul",
+          "bandwidth": "350 MHz reportado por ficha de canal",
+          "standards": ["10/100/1000BASE-T", "CE", "RoHS", "REACH"],
+          "providerBranchSummary": "Sucursal no disponible; CVA reporta stock 1. CTOnline mantiene oferta alterna sin stock.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"cva","providerSku":"CB-445","stock":1,"price":6.25,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"ctonline","providerSku":"CABITL740","stock":0,"price":6.45,"currency":"USD","priceKind":"customer_price"}
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"length": "7.5 m", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Intellinet 319874 datasheet", "type": "datasheet", "url": "https://www.icintracom.biz/amfilerating/file/download/file_id/24160/"},
+          {"title": "Inter-DS Intellinet 319874", "type": "reseller_spec", "url": "https://inter-ds.com/products/cable-patch-intellinet-rj45-7-6m25-0f-cat5e-utp-azul-m-m-319874"},
+          {"title": "Provider stock CVA 1 and CTOnline 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5c9rv8skb74t9tk",
+      "research": {
+        "confidence": 0.91,
+        "name": "Stylos STPKTM3B combo teclado y mouse inalambrico USB negro 105 teclas",
+        "description": "Combo Stylos STPKTM3B inalambrico RF USB con teclado completo de 105 teclas en espanol, mouse incluido, color negro y mouse de 1000 DPI segun proveedor.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos/stylos-stpktm3b",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITSTY080/KITSTY080_full.jpg"],
+        "specs": {
+          "brand": "STYLOS",
+          "model": "STPKTM3B",
+          "providerSku": "KITSTY080",
+          "ean": "7503030903240",
+          "productType": "Combo teclado y mouse inalambrico",
+          "keyboard": "105 teclas, formato completo, espanol",
+          "mouse": "1000 DPI proveedor; algunas fuentes reportan 1200 DPI",
+          "connectivity": "RF inalambrico USB",
+          "color": "Negro",
+          "batteries": ["Teclado 2 x AAA", "Mouse 1 x AA"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 57, MTY 48, OAX 22, PUE 14, SLP 10, MOR 9, ACA 9, OBR 8, DFP 8, CLN 7, VHA 7, HMO 5. La suma visible es 204 y el proveedor reporta total 226.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":57},{"providerId":"ctonline","warehouseCode":"MTY","stock":48},{"providerId":"ctonline","warehouseCode":"OAX","stock":22},{"providerId":"ctonline","warehouseCode":"PUE","stock":14},{"providerId":"ctonline","warehouseCode":"SLP","stock":10},{"providerId":"ctonline","warehouseCode":"MOR","stock":9},{"providerId":"ctonline","warehouseCode":"ACA","stock":9},{"providerId":"ctonline","warehouseCode":"OBR","stock":8},{"providerId":"ctonline","warehouseCode":"DFP","stock":8},{"providerId":"ctonline","warehouseCode":"CLN","stock":7},{"providerId":"ctonline","warehouseCode":"VHA","stock":7},{"providerId":"ctonline","warehouseCode":"HMO","stock":5}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"KITSTY080","stock":226,"price":143.48,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Suma visible de sucursales 204 vs total_stock 226.", "DPI 1000 vs 1200 segun fuente."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"keyboardDimensions": "520 x 160 x 40 mm", "keyboardWeight": "585 g"},
+        "sourceRefs": [
+          {"title": "TekDigital Stylos STPKTM3B", "type": "reseller_spec", "url": "https://tekdigital.mx/producto/kit-inalambrico-stylos-stpktm3b/"},
+          {"title": "Zegucom Stylos STPKTM3B", "type": "reseller_spec", "url": "https://www.zegucom.com.mx/producto/teclados/teclado-raton-inalambrico/kit-teclado-y-mouse-inalambrico-stylos-stpktm3b-multimedia-105-teclas/U1RQS1RNM0I%3D"},
+          {"title": "CTOnline KITSTY080 branch stock 226", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5cephpnn4326v2u",
+      "research": {
+        "confidence": 0.91,
+        "name": "Acteck Captive Brite CB195 AC-939409 monitor 19.5 pulgadas TN HD HDMI VGA negro",
+        "description": "Monitor Acteck Captive Brite CB195 AC-939409 de 19.5 pulgadas, panel TN HD, tiempo de respuesta 5 ms, puertos HDMI y VGA, montaje VESA 75x75 y color negro.",
+        "manualCategoryPath": "computo/monitores/oficina/19-5-hd",
+        "semanticCategoryPath": "computo/monitores/oficina/19-5-hd/acteck-captive-brite-cb195-ac-939409",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10425352"],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AC-939409",
+          "commercialModel": "Captive Brite CB195",
+          "providerSku": "MNL-2650",
+          "alternateProviderSku": "MONACT050",
+          "productType": "Monitor de oficina",
+          "displaySize": "19.5 pulgadas",
+          "panel": "TN",
+          "resolution": "HD; fuente proveedor dice 1600x900 y ficha canal indica 1440x900",
+          "responseTime": "5 ms",
+          "brightness": "250 cd/m2",
+          "contrast": "1000:1",
+          "ports": ["HDMI 1.4", "VGA", "DC"],
+          "mount": "VESA 75 x 75",
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal no disponible; CTOnline reporta stock 404 y CVA reporta stock 20.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"MONACT050","stock":404,"price":493.55,"currency":"MXN","priceKind":"promo_price"},
+            {"providerId":"cva","providerSku":"MNL-2650","stock":20,"price":583.78,"currency":"MXN","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["Feed fuente dice 1600x900/60Hz; PDF PCH dice 1440x900 y 75Hz-60Hz; pagina Acteck solo afirma HD/60Hz."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "43.8 x 36.5 x 4.5 cm", "weight": "2.6 kg"},
+        "sourceRefs": [
+          {"title": "Acteck monitors product page", "type": "manufacturer_spec", "url": "https://acteck.com/products/monitor"},
+          {"title": "PCH Mayoreo AC-939409 PDF", "type": "reseller_pdf", "url": "https://fichastecnicas.pchmayoreo.com/AC-939409.pdf"},
+          {"title": "Provider stock CTOnline 404 and CVA 20", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5chyq0cyntggi0w",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link LS108G switch no administrable Gigabit de 8 puertos",
+        "description": "Switch TP-Link LiteWave LS108G no administrable de 8 puertos RJ45 Gigabit, carcasa metalica, fanless, montaje escritorio/pared, QoS y tecnologia Green Ethernet.",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos/tp-link-ls108g",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/nordic/business-networking/unmanaged-switch/ls108g/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10178909"],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "LS108G",
+          "providerSku": "NIC-3225",
+          "alternateProviderSku": "SWTTPL720",
+          "productType": "Switch no administrable Gigabit",
+          "ports": "8 x RJ45 10/100/1000 Auto-Negotiation Auto-MDI/MDIX",
+          "standards": ["IEEE 802.3i", "802.3u", "802.3ab", "802.3x", "802.1p"],
+          "switching": "Store-and-forward",
+          "features": ["Green Ethernet", "QoS 802.1p/DSCP", "Fanless", "Metal"],
+          "macTable": "4K",
+          "jumboFrame": "16 KB",
+          "providerBranchSummary": "Sucursal no disponible; CTOnline reporta stock 184. CVA mantiene oferta alterna sin stock.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"SWTTPL720","stock":184,"price":18.18,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"NIC-3225","stock":0,"price":17.26,"currency":"USD","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["Feed CVA dice OMADA, pero LS108G es LiteWave/no administrable, no Omada."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "158 x 99.1 x 25 mm", "powerConsumption": "3.7 W"},
+        "sourceRefs": [
+          {"title": "TP-Link LS108G official page", "type": "manufacturer_spec", "url": "https://www.tp-link.com/nordic/business-networking/unmanaged-switch/ls108g/"},
+          {"title": "TP-Link LS105G LS108G datasheet", "type": "manufacturer_datasheet", "url": "https://static.tp-link.com/2019/201903/20190326/LS105G%28UN%29%201.0%26LS108G%28UN%29%201.0_datasheet.pdf"},
+          {"title": "Provider stock CTOnline 184 and CVA 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5cuape7dfebu5r9",
+      "research": {
+        "confidence": 0.9,
+        "name": "Getttech GAC-24404P mouse ergonomico inalambrico 2.4GHz 1600 DPI rosa",
+        "description": "Mouse Getttech GAC-24404P ergonomico inalambrico 2.4GHz USB-A color rosa, sensor ajustable 800/1200/1600 DPI y alcance de hasta 10 m.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/1600-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/1600-dpi/getttech-gac-24404p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUGET020/MOUGET020_full.jpg"],
+        "specs": {
+          "brand": "GETTTECH",
+          "model": "GAC-24404P",
+          "providerSku": "MOUGET020",
+          "ean": "7503028761647",
+          "productType": "Mouse ergonomico inalambrico",
+          "connectivity": "2.4 GHz USB-A",
+          "color": "Rosa",
+          "sensor": "FCT3065 reportado por fuente",
+          "dpi": "800/1200/1600 DPI",
+          "buttons": "2 botones + rueda + cambio DPI",
+          "range": "10 m",
+          "compatibility": ["Windows", "Mac"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 13.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":13}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"MOUGET020","stock":13,"price":4.72,"currency":"USD","priceKind":"promo_price"}],
+          "sourceDiscrepancies": ["Source title en PB dice smartwatch; imagen, SKU y fuentes online confirman mouse."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "104.01 x 66.26 x 40.01 mm", "weight": "90 g +/-5 g"},
+        "sourceRefs": [
+          {"title": "Yeyian/Getttech GAC-24404P", "type": "manufacturer_spec", "url": "https://mx.yeyiangaming.com/getttech/products/getttech-mouse-ergonomico-inalambrico-1-600-dpi-usb-a-rosa-modelo-gac-24404p"},
+          {"title": "FullOffice Getttech GAC-24404P", "type": "reseller_spec", "url": "https://fulloffice.com/products/mouse-wireless-getttech-gac-24404p-colorful-rosa"},
+          {"title": "CTOnline MOUGET020 branch stock 13", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    }
+  ]
+}
