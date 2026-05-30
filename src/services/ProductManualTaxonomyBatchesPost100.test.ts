@@ -2,6 +2,16 @@ import { describe, expect, it } from "vitest";
 import { classifyManualCategory } from "../../pb/lib/manualTaxonomy.mjs";
 
 const researchedBatchCases = [
+  ["Cargador universal Generico USBC-65W USB-C 65W 20V 3.25A blanco", "GENERICO", "computo/accesorios/cargadores-laptop/usb-c/65w-universales"],
+  ["Silimex COMPUTOALLAS 30 PZ toallas humedas antibacteriales antiestaticas", "SILIMEX", "computo/accesorios/limpieza/toallas-limpiadoras/silimex-computoallas"],
+  ["Mouse Acteck Optimize Trip Pro MI580 multidispositivo Bluetooth 2.4GHz 1600 DPI negro", "ACTECK", "computo/perifericos/mouse/inalambricos/multi-dispositivo/recargables-1600-dpi"],
+  ["Dell 450-BFWZ cargador universal laptop USB-C 65W negro cable americano", "DELL", "computo/accesorios/cargadores-laptop/compatibles-dell/usb-c-65w"],
+  ["Hisense 100QD7N Smart TV QLED 100 pulgadas 4K Google TV 144Hz", "HISENSE", "video/televisores/qled-google-tv/100-4k-144hz"],
+  ["Manhattan 462402 soporte de pared inclinable TV 32 a 70 pulgadas 45 kg", "MANHATTAN", "video/soportes-tv/pared/inclinables-32-70-45kg"],
+  ["Manhattan 325424 cable USB 3.2 Gen 1 A macho a Micro-B 2 m azul", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-micro-b/superspeed-2m"],
+  ["Cable USB Brobotix 364105 USB A macho Micro-USB B macho 0.6 m azul", "BROBOTIX", "accesorios/cables-adaptadores/usb/usb-a-micro-b/superspeed-0-6m"],
+  ["Aspel PCOIL1O COI 11 1 usuario adicional nuevo fisico", "ASPEL", "software/licencias/aspel-coi/usuarios-adicionales/coi-11"],
+  ["Naceb Gaming NA-0911 kit teclado y mouse gamer USB RGB 3200 DPI Cyborg", "NACEB GAMING", "computo/perifericos/combos-teclado-mouse/gaming/alambricos-rgb-3200-dpi"],
   ["Checador biometrico Nextep NE-234 control de asistencia rostro huella USB", "NEXTEP", "seguridad/control-acceso/biometricos/checadores-asistencia"],
   ["Lubricante de silicon alta viscosidad Silimex SILUB AV 28.33 g para mecanismos", "SILIMEX", "computo/accesorios/limpieza/lubricantes-silicon/alta-viscosidad-28g"],
   ["Tablet Huawei MatePad SE 11 53014GYU 8GB 128GB gris con M-Pen Lite", "HUAWEI", "computo/tabletas/android/11-pulgadas/huawei-matepad-se"],
@@ -267,7 +277,7 @@ const researchedBatchCases = [
   ["SanDisk Ultra Shift SDCZ410-064G-G46 memoria USB 64GB USB 3.0 negra", "SANDISK", "computo/almacenamiento/memorias-flash/usb/64gb/usb-3"],
   ["CDP R-UPR508 UPS line-interactive 500VA 250W 8 contactos", "CDP", "energia/no-breaks-ups/line-interactive/500va"],
   ["Kingston NV3 SNV3S/500G SSD 500GB M.2 NVMe PCIe 4.0", "KINGSTON TECHNOLOGY", "computo/almacenamiento/ssd/m2-nvme/500gb-gen4"],
-  ["Silimex COMPUTOALLAS toallas humedas bote 30 piezas", "SILIMEX", "computo/accesorios/limpieza/toallas-limpiadoras"],
+  ["Silimex COMPUTOALLAS toallas humedas bote 30 piezas", "SILIMEX", "computo/accesorios/limpieza/toallas-limpiadoras/silimex-computoallas"],
   ["Canon GI-190 C botella tinta cian 70 ml MegaTank", "CANON", "impresion/consumibles/botellas-tinta-megatank/canon-gi190/cian"],
   ["Manhattan 317238 cable extension USB-A macho a hembra 3 m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/3m"],
   ["Epson S015631 cinta negra para impresora LX-350 LX-300+II", "EPSON", "impresion/consumibles/cintas-matriz-punto/epson-lx-350"],
