@@ -1,0 +1,612 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b164-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 164,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5cvuvsm6evs6wbq",
+      "research": {
+        "confidence": 0.88,
+        "name": "Naceb NA-0145 cargador de pared GaN 100W 2 USB-C 1 USB-A negro",
+        "description": "Cargador de pared Naceb NA-0145 con tecnologia GaN, salida total de 100W y tres puertos para carga rapida de laptops, tablets y telefonos.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-gan/100w",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-gan/100w/naceb-na-0145",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNCB1430/ACCNCB1430_full.jpg"
+        ],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0145",
+          "providerSku": "ACCNCB1430",
+          "ean": "7502262801690",
+          "productType": "Cargador de pared GaN",
+          "power": "100 W",
+          "ports": "2 USB-C + 1 USB-A",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: LMO 9, TRN 6, OBR 5, GDL 5, SLT 5, XLP 5, COL 5, TAM 5, ZAC 5, DFT 5, IRA 5, DFC 5; resto no desglosado.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 9 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "COL", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCNCB1430", "stock": 146, "price": 450.59, "currency": "MXN", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Ruta anterior accesorios/cables-adaptadores era incorrecta: es cargador de pared.",
+            "La suma visible por sucursales es menor al stock total 146."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "sourceRefs": [
+          {
+            "title": "Intercompras Naceb NA-0145",
+            "type": "reseller_spec",
+            "url": "https://intercompras.com/p/cargador-pared-naceb-na-2x-usb-c-1x-usb-a-gan-100w-carga-rapida-compacto-negro-443993"
+          },
+          {
+            "title": "CTOnline ACCNCB1430 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5egj4llz1jan3bk",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Meriva Technology",
+        "name": "Meriva MOB-202FS4D camara IP bullet 2MP PoE iluminacion dual microfono",
+        "description": "Camara IP bullet Meriva MOB-202FS4D de 2MP con H.265+, lente 2.8 mm, PoE 802.3af, iluminacion dual, microfono integrado, entrada de audio y proteccion IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic/meriva-mob-202fs4d",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=21818633&c=4820964&h=84n-Ic6CjRd1sFNIyzasvgwC1eDlyQUHyZVVcKD5K2MOstxc"
+        ],
+        "specs": {
+          "brand": "MERIVA TECHNOLOGY",
+          "model": "MOB-202FS4D",
+          "providerSku": "CI111MER65",
+          "productType": "Camara IP bullet PoE",
+          "resolution": "2MP 1920 x 1080 a 30 fps",
+          "codec": "H.265+",
+          "lens": "2.8 mm",
+          "illumination": "IR y luz calida hasta 20 a 30 m",
+          "power": "12 VCD o PoE 802.3af",
+          "audio": "Microfono integrado y entrada de audio 3.5 mm",
+          "storage": "MicroSD hasta 256 GB no incluida",
+          "protection": "IP67",
+          "analytics": "MIA 2.0 para humano y vehiculo",
+          "providerBranchSummary": "Sucursal proveedor no disponible; stock total 3.",
+          "providerOffers": [
+            { "providerId": "tecnosinergia", "providerSku": "CI111MER65", "stock": 3, "price": 933.12, "currency": "MXN", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Marca anterior ElectroPrice era un error de normalizacion; el titulo de proveedor identifica Meriva Technology MOB-202FS4D."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "sourceRefs": [
+          {
+            "title": "Meriva Technology MOB-202FS4D",
+            "type": "manufacturer_spec",
+            "url": "https://merivatechnology.com/producto/MOB-202FS4D"
+          },
+          {
+            "title": "Tecnosinergia CI111MER65 stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5exym1p1xm2dw7p",
+      "research": {
+        "confidence": 0.88,
+        "name": "Targus ASP61LA candado de seguridad T-Lock con combinacion 1.5 m negro",
+        "description": "Candado de cable Targus ASP61LA para laptop, tipo T-Lock, con combinacion reiniciable, cable de acero recubierto y longitud de 1.5 m.",
+        "manualCategoryPath": "accesorios/seguridad-fisica/candados-laptop/combinacion",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-laptop/combinacion/targus-asp61la",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10343993"
+        ],
+        "specs": {
+          "brand": "TARGUS",
+          "model": "ASP61LA",
+          "providerSku": "ACCTRG2190 / AC-10648",
+          "upc": "0092636303402",
+          "productType": "Candado de cable para laptop",
+          "lockType": "Combinacion reiniciable T-Lock",
+          "compatibility": "Ranura Kensington T-Bar/T-Lock",
+          "cable": "Acero recubierto con vinil",
+          "length": "1.5 m",
+          "thickness": "4.4 mm",
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal proveedor no disponible; stock CT 8 y CVA 0.",
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCTRG2190", "stock": 8, "price": 9.86, "currency": "USD", "priceKind": "best_price" },
+            { "providerId": "cva", "providerSku": "AC-10648", "stock": 0, "price": 0, "currency": "MXN", "priceKind": "seen_unavailable" }
+          ],
+          "sourceDiscrepancies": [
+            "La ruta previa accesorios/cables-adaptadores no describe la funcion de seguridad fisica.",
+            "CVA conserva ficha sin stock; stock activo proviene de CT."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "measurements": {
+          "dimensions": "Cable 1.5 m x 4.4 mm segun Targus Mexico",
+          "weight": "130 g segun Targus Mexico"
+        },
+        "sourceRefs": [
+          {
+            "title": "Targus Mexico ASP61LA",
+            "type": "manufacturer_spec",
+            "url": "https://www.targus.mx/producto/targus-candado-de-seguridad-para-laptop-con-cable-de-1-5-metros-de-combinacion-elaborado-en-acero-recubierto-con-vinyl/"
+          },
+          {
+            "title": "CVA AC-10648 image and offer",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5f63yvt1ub2w944",
+      "research": {
+        "confidence": 0.92,
+        "name": "Epson EcoTank L14150 multifuncional A3 Plus Wi-Fi tinta continua",
+        "description": "Multifuncional Epson EcoTank L14150 A3+ de tinta continua con impresion, copia, escaneo y fax, conectividad USB, Ethernet, Wi-Fi y Wi-Fi Direct.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-ecotank/a3-plus",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-ecotank/a3-plus/epson-l14150",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/IMPEPS3430/IMPEPS3430_full.jpg"
+        ],
+        "specs": {
+          "brand": "EPSON",
+          "model": "L14150",
+          "providerSku": "IMPEPS3430",
+          "upc": "010343951303",
+          "productType": "Multifuncional EcoTank A3+",
+          "functions": "Imprime, copia, escanea y fax",
+          "printTechnology": "PrecisionCore inkjet",
+          "resolution": "4800 x 1200 dpi",
+          "speedIso": "17 ppm negro / 9 ppm color",
+          "speedDraft": "38 ppm negro / 24 ppm color",
+          "duplex": "A4",
+          "adf": "35 hojas",
+          "tray": "250 hojas",
+          "interfaces": "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
+          "mobile": "Epson Connect, AirPrint, Mopria, Epson Smart Panel",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 2, TXA 1, D2A 1.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "IMPEPS3430", "stock": 4, "price": 17609, "currency": "MXN", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Ruta anterior impresion/consumibles/tinta-toner era incorrecta: es impresora multifuncional."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "measurements": {
+          "dimensions": "498 x 358 x 245 mm",
+          "weight": "9.7 kg"
+        },
+        "sourceRefs": [
+          {
+            "title": "Epson Mexico EcoTank L14150",
+            "type": "manufacturer_spec",
+            "url": "https://epson.com.mx/Para-el-trabajo/Impresoras/Inyecci%C3%B3n-de-Tinta/Impresora-Multifuncional-Epson-EcoTank-L14150/p/C11CH96301"
+          },
+          {
+            "title": "Epson Europe EcoTank L14150 specifications",
+            "type": "manufacturer_spec",
+            "url": "https://www.epson.eu/en_EU/products/printers/inkjet/consumer/ecotank-l14150/p/28885"
+          },
+          {
+            "title": "CTOnline IMPEPS3430 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5feo7xrvmedffud",
+      "research": {
+        "confidence": 0.86,
+        "name": "Getttech GUE-MSSBT-01-YW audifonos deportivos Bluetooth negros",
+        "description": "Audifonos deportivos inalambricos Getttech GUE-MSSBT-01-YW con conectividad Bluetooth, alcance de 10 m y diseno para uso activo.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/deportivos/oreja-abierta",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/deportivos/oreja-abierta/getttech-gue-mssbt-01-yw",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCGET440/BOCGET440_full.jpg"
+        ],
+        "specs": {
+          "brand": "GETTTECH",
+          "model": "GUE-MSSBT-01-YW",
+          "providerSku": "BOCGET440",
+          "ean": "7500619012577",
+          "productType": "Audifonos deportivos Bluetooth",
+          "connectivity": "Bluetooth",
+          "bluetoothVersion": "5.3 reportado por retailers",
+          "range": "10 m",
+          "batteryLife": "Hasta 12 h reportado por retailer",
+          "charging": "USB-C reportado por retailer",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 3, MOR 2, CMT 2, MTY 1, OAX 1, CUN 1.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 2 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BOCGET440", "stock": 10, "price": 9.76, "currency": "USD", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Algunas fuentes solo listan Bluetooth y alcance; retailers agregan Bluetooth 5.3, 12 h y USB-C."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "sourceRefs": [
+          {
+            "title": "Interds Getttech GUE-MSSBT-01-YW",
+            "type": "reseller_spec",
+            "url": "https://inter-ds.com/products/audifonos-deportivos-getttech-inalambricos-gue-mssbt-01-yw"
+          },
+          {
+            "title": "CTOnline BOCGET440 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5flmqgopms763bh",
+      "research": {
+        "confidence": 0.9,
+        "name": "Complet XPower ERV-9-001 regulador 1300VA 650W con supresor 8 contactos",
+        "description": "Regulador de voltaje Complet XPower ERV-9-001 de 1300VA/650W con supresor de picos integrado, 8 contactos NEMA 5-15R y salida 120V.",
+        "manualCategoryPath": "energia/reguladores/supresor-picos/1300va",
+        "semanticCategoryPath": "energia/reguladores/supresor-picos/1300va/complet-xpower-erv-9-001",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/REGCOM250/REGCOM250_3_full.jpg"
+        ],
+        "specs": {
+          "brand": "COMPLET",
+          "model": "XPOWER / ERV-9-001",
+          "providerSku": "REGCOM250",
+          "ean": "7501693401790",
+          "productType": "Regulador con supresor",
+          "capacity": "1300 VA",
+          "power": "650 W",
+          "outlets": "8 NEMA 5-15R",
+          "input": "100-140 VCA",
+          "output": "120 VCA",
+          "frequency": "60 Hz",
+          "surge": "504 J",
+          "efficiency": "97%",
+          "warranty": "60 meses",
+          "providerBranchSummary": "Disponible por sucursal proveedor: TXA 18, MTY 16, TAM 8, CUN 8, OAX 7, MAZ 6, CEL 6, HMO 5, DFP 5, LEO 4, PAC 4, XLP 2; resto no desglosado.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 18 },
+            { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 8 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 6 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 4 },
+            { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "REGCOM250", "stock": 100, "price": 237.68, "currency": "MXN", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Ruta anterior energia/no-breaks-ups era demasiado amplia: es regulador con supresor, no UPS.",
+            "La suma visible por sucursales es menor al stock total 100."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "measurements": {
+          "dimensions": "15 x 15 x 8 cm",
+          "weight": "1 kg aproximado en retail"
+        },
+        "sourceRefs": [
+          {
+            "title": "Complet ERV-9-001 ficha tecnica",
+            "type": "manufacturer_spec",
+            "url": "https://www.complet.mx/downloads/regulador/ERV-9-001.pdf"
+          },
+          {
+            "title": "GlobalOffice Complet XPower ERV-9-001",
+            "type": "reseller_spec",
+            "url": "https://globaloffice.com.mx/app/detalle/producto/energia/regulador-de-voltaje-complet-xpower-1300-erv-9-001-1300va-65/erv-9-001"
+          },
+          {
+            "title": "CTOnline REGCOM250 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5ft1e51j9442hv1",
+      "research": {
+        "confidence": 0.88,
+        "name": "Thermaltake Toughpower GF1 PS-TPD-0850FNFAGU-H fuente ATX 850W 80 Plus Gold modular",
+        "description": "Fuente de poder Thermaltake Toughpower GF1 de 850W para PC ATX, certificacion 80 Plus Gold, diseno modular y protecciones electricas integradas.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-gold/850w/modular",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-gold/850w/modular/thermaltake-toughpower-gf1",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GABTMK2450/GABTMK2450_full.jpg"
+        ],
+        "specs": {
+          "brand": "THERMALTAKE",
+          "model": "PS-TPD-0850FNFAGU-H",
+          "providerSku": "GABTMK2450",
+          "ean": "4713227537568",
+          "upc": "841163087572",
+          "series": "Toughpower GF1",
+          "watts": "850 W",
+          "certification": "80 Plus Gold",
+          "formFactor": "ATX",
+          "modular": "Full modular",
+          "fan": "120 mm FDB en version 2024 / 140 mm en variante regional previa",
+          "pfc": "Active PFC",
+          "input": "100-240 V, 50-60 Hz",
+          "protections": "OCP, OVP, UVP, OPP, SCP, OTP",
+          "providerBranchSummary": "Disponible por sucursal proveedor: CUN 5.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 5 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "GABTMK2450", "stock": 5, "price": 128.61, "currency": "USD", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Proveedor usa sufijo regional -H; pagina publica de Thermaltake y B&H muestran variantes cercanas -P/-1.",
+            "Mantener sufijo de proveedor hasta confirmacion de fabricante/distribuidor."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "measurements": {
+          "dimensions": "150 x 140 x 86 mm para variante Toughpower GF1 2024",
+          "weight": "No disponible"
+        },
+        "sourceRefs": [
+          {
+            "title": "Thermaltake Toughpower GF1 850W 2024",
+            "type": "manufacturer_spec",
+            "url": "https://thermaltakeusa.com/products/toughpower-gf1-2024-version-850w-tt-premium-edition-us-ps-tpd-0850fnfagu-p"
+          },
+          {
+            "title": "B&H Thermaltake Toughpower GF1 850W",
+            "type": "reseller_spec",
+            "url": "https://www.bhphotovideo.com/c/product/1880279-REG/thermaltake_ps_tpd_0850fnfagu_p_toughpower_gf1_850w_80.html"
+          },
+          {
+            "title": "CTOnline GABTMK2450 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5fx5cssbwtescbn",
+      "research": {
+        "confidence": 0.9,
+        "name": "Vica VIC12-9A bateria sellada VRLA 12V 9Ah para UPS",
+        "description": "Bateria sellada Vica VIC12-9A de 12V 9Ah para reemplazo en UPS/no-break, sistemas CCTV, alarmas y control de acceso.",
+        "manualCategoryPath": "energia/baterias-ups/selladas-12v/9ah",
+        "semanticCategoryPath": "energia/baterias-ups/selladas-12v/9ah/vica-vic12-9a",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BATVIC040/BATVIC040_1_full.jpg"
+        ],
+        "specs": {
+          "brand": "VICA",
+          "model": "VIC12-9A / VIC12V-9A",
+          "providerSku": "BATVIC040",
+          "productType": "Bateria sellada VRLA/AGM para UPS",
+          "voltage": "12 V",
+          "capacity": "9 Ah",
+          "capacityDetail": "9.00 Ah 20hr; 8.20 Ah 10hr; 8.00 Ah 5hr; 7.30 Ah 3hr; 5.50 Ah 1hr",
+          "maxDischargeCurrent": "127.5 A",
+          "terminal": "F1/F2",
+          "case": "ABS UL-94HB",
+          "internalResistance": "+/- 24 mOhm",
+          "nominalTemp": "25 +/- 3 C",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 29, DFA 11, MID 5, OAX 5, TOL 5, CEL 5, TRN 3, HMO 1, CAM 1.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 29 },
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 11 },
+            { "providerId": "ctonline", "warehouseCode": "MID", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 5 },
+            { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 3 },
+            { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "BATVIC040", "stock": 65, "price": 448.89, "currency": "MXN", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Ruta anterior energia/no-breaks-ups era demasiado amplia: es bateria de reemplazo sellada."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "measurements": {
+          "dimensions": "151 x 65 x 94 mm",
+          "weight": "2.50 kg"
+        },
+        "sourceRefs": [
+          {
+            "title": "Vica VIC12-9A ficha tecnica",
+            "type": "manufacturer_spec",
+            "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FTVIC12V9A.pdf"
+          },
+          {
+            "title": "CTOnline BATVIC040 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5gecll8jj9za47y",
+      "research": {
+        "confidence": 0.88,
+        "brand": "HiLook by Hikvision",
+        "name": "HiLook by Hikvision HL1080PS(C) kit TurboHD DVR 4 canales 4 camaras 2MP",
+        "description": "Kit de videovigilancia HiLook by Hikvision HL1080PS(C) con DVR TurboHD 1080p Lite de 4 canales y 4 camaras bala 2MP con microfono.",
+        "manualCategoryPath": "seguridad/cctv/kits-turbohd/4-canales/4-camaras-2mp",
+        "semanticCategoryPath": "seguridad/cctv/kits-turbohd/4-canales/4-camaras-2mp/hilook-hikvision-hl1080ps-c",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/KITHKV640/KITHKV640_full.jpg"
+        ],
+        "specs": {
+          "brandLine": "HiLook by Hikvision",
+          "model": "HL1080PS(C)",
+          "providerSku": "KITHKV640",
+          "productType": "Kit CCTV TurboHD",
+          "kitIncludes": "1 DVR-104G-K1S, 4 camaras THC-B120-PS, fuente y 4 cables siames 18 m",
+          "channels": "4 analogicos + 1 IP",
+          "cameraResolution": "2MP 1920 x 1080",
+          "cameraForm": "Bala",
+          "lens": "2.8 mm",
+          "nightVision": "25 m",
+          "ipRating": "IP66",
+          "storage": "HDD hasta 6 TB no incluido",
+          "audio": "Audio por coaxitron / microfono integrado",
+          "providerBranchSummary": "Disponible por sucursal proveedor: AGS 1, CAM 1.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 1 },
+            { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "KITHKV640", "stock": 2, "price": 92.5, "currency": "USD", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "La linea de marca comercial es HiLook by Hikvision.",
+            "Algunos retailers omiten (C) o listan variantes HL1080PS/HL108PS; el SKU proveedor KITHKV640 coincide con HL1080PS(C)."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "measurements": {
+          "camera": "58 x 61 x 159 mm, 160 g",
+          "recorder": "200 x 200 x 45 mm, 800 g"
+        },
+        "sourceRefs": [
+          {
+            "title": "Vigilantec HiLook HL1080PS(C)",
+            "type": "reseller_spec",
+            "url": "https://www.vigilantec.mx/products/hilook-by-hikvision-hl1080psc"
+          },
+          {
+            "title": "CTOnline KITHKV640 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "5gmcw73mqsko22c",
+      "research": {
+        "confidence": 0.86,
+        "name": "Kyocera TK-582C 1T02KTCUS0 toner cian original",
+        "description": "Cartucho de toner original Kyocera 1T02KTCUS0, tambien identificado como TK-582C, color cian para impresoras laser Kyocera compatibles.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/kyocera/cian",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-582c-cian",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TONKYC1140/TONKYC1140_full.jpg"
+        ],
+        "specs": {
+          "brand": "KYOCERA",
+          "model": "1T02KTCUS0 / TK-582C",
+          "providerSku": "TONKYC1140",
+          "upc": "632983035689",
+          "productType": "Cartucho toner laser",
+          "color": "Cian",
+          "technology": "Laser",
+          "yield": "2800 paginas en fuentes internacionales; 7000 paginas en fuente Mexico/CT",
+          "compatibilitySeen": "Kyocera ECOSYS FS-C5150DN/P6021cdn en fuentes internacionales; TASKalfa 306ci/307ci en fuentes Mexico",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 16, VHA 10, TXL 7, TXA 1.",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 16 },
+            { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 10 },
+            { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 7 },
+            { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "TONKYC1140", "stock": 34, "price": 103.33, "currency": "USD", "priceKind": "best_price" }
+          ],
+          "sourceDiscrepancies": [
+            "Conflicto de rendimiento/compatibilidad: fuentes internacionales reportan TK-582C 2800 paginas y ECOSYS, mientras datos Mexico reportan 7000 paginas y TASKalfa 306ci/307ci.",
+            "No sobrescribir compatibilidad/rendimiento sin confirmacion del proveedor."
+          ],
+          "providerStockVerifiedAt": "2026-05-30T19:52:00Z"
+        },
+        "sourceRefs": [
+          {
+            "title": "Toner Cartridge Depot Kyocera 1T02KTCUS0 TK-582C",
+            "type": "reseller_spec",
+            "url": "https://www.tonercartridgedepot.com/kyo-1t02ktcus0.htm"
+          },
+          {
+            "title": "CTOnline TONKYC1140 branch stock",
+            "type": "provider_stock",
+            "observedAt": "2026-05-30T19:52:00Z"
+          }
+        ]
+      }
+    }
+  ]
+}

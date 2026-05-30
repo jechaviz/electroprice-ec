@@ -42,6 +42,16 @@ const batch160PlusCases = [
   ["Acteck Captive Brite CB195 AC-939409 monitor 19.5 pulgadas TN HD HDMI VGA negro", "ACTECK", "computo/monitores/oficina/19-5-hd", "monitors"],
   ["TP-Link LS108G switch no administrable Gigabit de 8 puertos", "TP LINK", "redes/switches/no-administrables/gigabit/8-puertos", "networking"],
   ["Getttech GAC-24404P mouse ergonomico inalambrico 2.4GHz 1600 DPI rosa", "GETTTECH", "computo/perifericos/mouse/inalambricos/ergonomicos/1600-dpi", "accessories"],
+  ["Naceb NA-0145 cargador de pared GaN 100W 2 USB-C 1 USB-A negro", "NACEB TECHNOLOGY", "energia/cargadores-usb/pared-gan/100w", "accessories"],
+  ["Meriva MOB-202FS4D camara IP bullet 2MP PoE iluminacion dual microfono", "MERIVA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic", "cameras"],
+  ["Targus ASP61LA candado de seguridad T-Lock con combinacion 1.5 m negro", "TARGUS", "accesorios/seguridad-fisica/candados-laptop/combinacion", "accessories"],
+  ["Epson EcoTank L14150 multifuncional A3 Plus Wi-Fi tinta continua", "EPSON", "impresion/impresoras/multifuncionales-ecotank/a3-plus", "printers_scanners"],
+  ["Getttech GUE-MSSBT-01-YW audifonos deportivos Bluetooth negros", "GETTTECH", "audio/audifonos/bluetooth/deportivos/oreja-abierta", "headphones"],
+  ["Complet XPower ERV-9-001 regulador 1300VA 650W con supresor 8 contactos", "COMPLET", "energia/reguladores/supresor-picos/1300va", "power"],
+  ["Thermaltake Toughpower GF1 PS-TPD-0850FNFAGU-H fuente ATX 850W 80 Plus Gold modular", "THERMALTAKE", "computo/componentes/fuentes-poder/atx-80-plus-gold/850w/modular", "components"],
+  ["Vica VIC12-9A bateria sellada VRLA 12V 9Ah para UPS", "VICA", "energia/baterias-ups/selladas-12v/9ah", "power"],
+  ["HiLook by Hikvision HL1080PS(C) kit TurboHD DVR 4 canales 4 camaras 2MP", "HIKVISION", "seguridad/cctv/kits-turbohd/4-canales/4-camaras-2mp", "cameras"],
+  ["Kyocera TK-582C 1T02KTCUS0 toner cian original", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/cian", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
