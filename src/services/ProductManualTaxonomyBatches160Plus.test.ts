@@ -172,6 +172,16 @@ const batch160PlusCases = [
   ["Naceb Gaming NA-0972G teclado mecanico Red Phyton RGB switch Brown", "NACEB GAMING", "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb", "gaming"],
   ["Dahua DH-HAC-HFW1801TN-A-0280B camara HDCVI bullet 8MP IR con microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/8mp-ir-mic", "cameras"],
   ["Forza HT-650LCD UPS line-interactive 650VA 390W con LCD", "FORZA", "energia/no-breaks-ups/line-interactive/650va/lcd", "power"],
+  ["BRobotix 963579 convertidor USB-A a serial RS-232 DB9 macho 1.8m", "BROBOTIX", "accesorios/cables-adaptadores/usb-serial/db9-rs232", "accessories"],
+  ["Smartbitt SBBA12-5 bateria sellada VRLA para UPS 12V 5Ah", "SMARTBITT", "energia/baterias-ups/selladas-12v/5ah", "power"],
+  ["Ubiquiti UniFi U6 Pro access point Wi-Fi 6 AX5400 PoE techo", "UBIQUITI", "redes/access-points/wifi-6/techo/ax5400", "networking"],
+  ["DataShield MI-4235 bateria AGM ciclo profundo solar 12V 100Ah", "DATASHIELD", "energia/baterias-solares/agm-ciclo-profundo/12v-100ah", "power"],
+  ["Hyundai HYLine Pro HY65PA1402NABL smartphone Android 6GB 128GB azul", "HYUNDAI", "telefonia/smartphones/android/hyundai-hyline-pro/6gb-128gb", "smartphones"],
+  ["Cooler Master Hyper 212 Spectrum V3 RR-S4NA-17PA-R1 disipador CPU ARGB", "COOLER MASTER", "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-argb", "components"],
+  ["VICA Optima 1250 no-break line-interactive 1250VA 600W 6 contactos", "VICA", "energia/no-breaks-ups/line-interactive/1250va", "power"],
+  ["Kaspersky Small Office Security KL4541Z5EFS 5 licencias 1 ano", "KASPERSKY", "software/seguridad/antivirus/kaspersky-small-office/5-licencias-1-ano", "software"],
+  ["Kaspersky Next EDR Foundations KL4065ZAQFS 50-99 licencias 1 ano", "KASPERSKY", "software/seguridad/edr/kaspersky-next-edr-foundations/50-99-licencias-1-ano", "software"],
+  ["Kingston A400 SA400S37/240G SSD SATA III 2.5 pulgadas 240GB", "KINGSTON", "computo/almacenamiento/ssd/2-5-sata/240gb", "storage"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
