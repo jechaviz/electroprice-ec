@@ -102,6 +102,16 @@ const batch160PlusCases = [
   ["BRobotix 651855 funda City poliester gris para laptop 15.6 pulgadas", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas", "accessories"],
   ["Generico cargador compatible Dell 65W 19.5V 3.34A punta 4.5 x 3.0", "GENERICO", "computo/accesorios/cargadores-laptop/compatibles-dell/65w-19-5v-4-5x3-0", "laptops"],
   ["Grandstream GRP2602P telefono IP 2 lineas 4 cuentas SIP PoE", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/2-lineas/poe", "networking"],
+  ["DBUGG DB-USB-SE12 memoria USB 128GB USB-A plata", "DBUGG", "computo/almacenamiento/memorias-flash/usb/128gb", "storage"],
+  ["Logitech Signature M650 L mouse inalambrico Bluetooth Logi Bolt grafito", "LOGITECH", "computo/perifericos/mouse/inalambricos/productividad", "accessories"],
+  ["Acteck Flux Core EC303HR silla ergonomica de oficina malla gris", "ACTECK", "oficina/mobiliario-accesorios/sillas-oficina/ergonomicas-malla", "accessories"],
+  ["Epson EcoTank L8180 C11CJ21301 multifuncional fotografica A3 Plus 6 tintas", "EPSON", "impresion/impresoras/multifuncionales-ecotank/fotografica-a3-plus", "printers_scanners"],
+  ["Necnon NSG-RGB-1 silla gamer RGB reclinable 145 grados negra", "NECNON", "gaming/mobiliario/sillas-gamer/rgb", "gaming"],
+  ["Orvibo VS10ZW-1UO miniHub Zigbee Wi-Fi 2.4GHz blanco", "ORVIBO", "domotica/hubs/zigbee", "accessories"],
+  ["BRobotix 6005835 audifonos Bluetooth TWS in-ear 5.3 blancos", "BROBOTIX", "audio/audifonos/bluetooth/tws/in-ear", "headphones"],
+  ["Swann SWDVK-846806MQB-US kit DVR 8 canales 6 camaras 1080p 1TB", "SWANN", "seguridad/cctv/kits-dvr/8-canales/6-camaras-1080p", "cameras"],
+  ["be quiet! Light Base 600 LX White gabinete ATX panoramico ARGB", "BE QUIET", "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb", "components"],
+  ["Generico AP2-60W cargador Apple MagSafe 2 60W 16.5V 3.65A blanco", "GENERICO", "computo/accesorios/cargadores-laptop/apple-magsafe-2/60w", "laptops"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
