@@ -262,6 +262,16 @@ const researchedBatchCases = [
   ["Adaptador USB Wi-Fi TP-Link Archer T2U Plus AC600 antena 5dBi", "TP-LINK", "redes/adaptadores-wifi/usb/ac600-alta-ganancia"],
   ["Monitor Acteck Captive Vivid II SP270 27 Full HD 100Hz", "ACTECK", "computo/monitores/oficina/27-fhd-100hz"],
   ["Cable de corriente Manhattan 300179 NEMA 5-15 a IEC C13 1.8 m negro", "MANHATTAN", "accesorios/cables-adaptadores/energia/corriente-cpu"],
+  ["Forza NT-511 UPS 500VA 250W 120V 6 contactos", "FORZA", "energia/no-breaks-ups/line-interactive/500va"],
+  ["Netis ST105D switch no administrable 5 puertos Fast Ethernet 10/100", "NETIS", "redes/switches/no-administrables/fast-ethernet/5-puertos"],
+  ["TP-Link Tapo C210 camara Wi-Fi PT interior 2K 3MP", "TP-LINK", "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp"],
+  ["Uniarch UAC-B112-F28-W-X-H camara bullet ColorHunter 2MP analogica", "UNIARCH", "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-colorhunter"],
+  ["EZVIZ CS-BC1C camara IP WiFi exterior con bateria 2MP cero cables", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/bateria-exterior/2mp"],
+  ["Hikvision AE-DC4328-K5 dashcam doble canal 2K 1080p", "HIKVISION", "seguridad/cctv/camaras-moviles/dashcam/doble-canal-2k"],
+  ["EZVIZ CS-H8C/5MP H8c Pro camara PT WiFi exterior 3K", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light"],
+  ["HiLook THC-T129-MS camara turret 2MP ColorVu audio 2.8mm", "HILOOK BY HIKVISION", "seguridad/cctv/camaras-turbohd/turret/2mp-colorvu-audio"],
+  ["UNV IPC322LB-AF28K-A2 domo IP PoE 2MP mic microSD 512GB", "UNV", "seguridad/cctv/camaras-ip-poe/domo/2mp-microsd-mic"],
+  ["Topvision TBDL500A camara bullet 5MP dual light microfono IP67", "TOPVISION", "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

@@ -269,7 +269,7 @@ describe("product curation policy", () => {
       name: "TopVision TBDL500A camara HD TVI AHD CVI",
       brand: "TOPVISION",
       category: "laptops",
-    }).path).toBe("seguridad/cctv/camaras-turbohd");
+    }).path).toBe("seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light");
 
     expect(classifyManualCategory({
       name: "Saxxon SUA-KIT/XVR1E04-I/4-B10P-0280B kit de videovigilancia",

@@ -1,0 +1,467 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b128-2026-05-30",
+  "cycle": 3,
+  "batch": 128,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "vnon3hp22sgbfry",
+      "research": {
+        "confidence": 0.94,
+        "name": "Forza NT-511 UPS 500VA 250W 120V 6 contactos negro",
+        "description": "UPS line-interactive Forza NT-511 de 500VA/250W para equipos de computo y red, con entrada/salida 120V, AVR, seis contactos NEMA 5-15R y proteccion RJ11.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/500va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/500va/forza-nt-511",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-511-ENG.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKFZA210/NBKFZA210_full.jpg", "https://www.grupocva.com/detalle_articulo/10437138.jpg"],
+        "documents": [
+          { "label": "Forza NT-511 official English datasheet", "type": "datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-511-ENG.pdf" },
+          { "label": "Forza NT-511 official Spanish manual", "type": "manual", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-511_Manual_SPA.pdf" },
+          { "label": "Global Office Forza NT-511 UPC cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/reguladores-y-ups/no-break-nt-511-ups110v-500va250w-no-break-nt-511/nt-511" }
+        ],
+        "specs": {
+          "brand": "Forza",
+          "model": "NT-511 UPS110V",
+          "aliases": ["NT-511", "NBKFZA210"],
+          "providerSku": "NBKFZA210",
+          "upc": "798302107632",
+          "productType": "UPS line-interactive",
+          "capacity": "500 VA / 250 W",
+          "inputVoltage": "120 V",
+          "outputVoltage": "120 V +/-10%",
+          "outlets": "6x NEMA 5-15R; 4 con respaldo/AVR y 2 con supresion",
+          "battery": "12 V 4.5 Ah",
+          "waveform": "Onda senoidal modificada",
+          "transferTime": "2 a 4 ms",
+          "rechargeTime": "6 h al 90%",
+          "runtimeReference": "Hasta 18 min segun carga referencial",
+          "surgeProtection": "200 J",
+          "features": ["AVR boost/buck", "Arranque en frio", "Auto-carga", "Proteccion RJ11", "Ruido menor a 40 dB"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 156 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 53 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 45 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKFZA210", "stock": 507, "price": 32.22, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider name was abbreviated; official datasheet confirms NT-511 UPS 500VA/250W.", "Published weight varies across retail sources, so weight is stored with medium confidence."]
+        },
+        "measurements": { "dimensions": "11 x 4 x 5.6 in", "weight": "10.0-10.6 lb reported; weight confidence medium" },
+        "sourceRefs": [
+          { "title": "Forza NT-511 official English datasheet", "type": "datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/NT-511-ENG.pdf" },
+          { "title": "Global Office Forza NT-511 UPC cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/reguladores-y-ups/no-break-nt-511-ups110v-500va250w-no-break-nt-511/nt-511" }
+        ]
+      }
+    },
+    {
+      "product_id": "cu76hqmw5g2pvrf",
+      "research": {
+        "confidence": 0.95,
+        "name": "Netis ST105D switch no administrable 5 puertos Fast Ethernet gris",
+        "description": "Switch Netis ST105D no administrable con cinco puertos RJ45 Fast Ethernet 10/100 Mbps, Auto MDI/MDI-X, carcasa metalica y proteccion contra sobretension.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet/5-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/5-puertos/netis-st105d",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.netis-systems.com/business/ST105D.html",
+        "gallery": ["https://www.netis-systems.com/uploads/image/20240627/76b0e61fc0db4dc0361b06ca6e635663.jpg", "https://static.ctonline.mx/imagenes/SWTNET050/SWTNET050_full.jpg"],
+        "documents": [
+          { "label": "Netis ST105D official product page", "type": "manufacturer", "url": "https://www.netis-systems.com/business/ST105D.html" },
+          { "label": "Netis ST105D official support page", "type": "manufacturer", "url": "https://www.netis-systems.com/support/downinfo.html?id=32&type=business" }
+        ],
+        "specs": {
+          "brand": "Netis",
+          "model": "ST105D",
+          "aliases": ["SWTNET050"],
+          "providerSku": "SWTNET050",
+          "ean": "6972012673951",
+          "upc": "088591202997",
+          "productType": "Switch no administrable Fast Ethernet",
+          "ports": "5x RJ45 10/100 Mbps",
+          "standards": ["IEEE 802.3", "IEEE 802.3u", "IEEE 802.3x"],
+          "switchingMode": "Store-and-forward",
+          "features": ["Auto MDI/MDI-X", "Half/full duplex", "CSMA/CD", "Plug and play", "Montaje en pared o escritorio", "Seguro fisico para conectores"],
+          "surgeProtection": "4 kV",
+          "power": "DC 5 V / 800 mA",
+          "color": "Gris",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "PUE", "stock": 503 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SWTNET050", "stock": 505, "price": 4.19, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider category switches is correct; the enrichment clarifies Fast Ethernet 10/100, not Gigabit.", "Weight is not published by the manufacturer; retail weights appear to be package estimates."]
+        },
+        "measurements": { "dimensions": "100 x 65 x 22.55 mm", "weight": "No publicado por fabricante; retail package estimates 0.25-0.35 kg" },
+        "sourceRefs": [
+          { "title": "Netis ST105D official product page", "type": "manufacturer", "url": "https://www.netis-systems.com/business/ST105D.html" },
+          { "title": "CompuPuebla Netis ST105D local listing", "type": "retailer", "url": "https://compupuebla.com/producto/switches-netis-st105d/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3zym05850o7c9mt",
+      "research": {
+        "confidence": 0.94,
+        "name": "TP-Link Tapo C210 camara Wi-Fi PT interior 2K 3MP",
+        "description": "Camara de seguridad TP-Link Tapo C210 de interior con video 2K 3MP, paneo e inclinacion motorizados, vision nocturna, audio bidireccional y microSD hasta 512 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp/tp-link-tapo-c210",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tapo.com/us/product/smart-camera/tapo-c210/",
+        "gallery": ["https://static.tp-link.com/upload/image-line/01_normal_20230524004739b.jpg", "https://static.tp-link.com/upload/image-line/03_normal_20230524004802a.jpg", "https://static.tp-link.com/upload/image-line/04_normal_20230524004834e.jpg"],
+        "documents": [
+          { "label": "Tapo C210 official page", "type": "manufacturer", "url": "https://www.tapo.com/us/product/smart-camera/tapo-c210/" },
+          { "label": "TP-Link Tapo C210 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2022/202212/20221209/Tapo%20C210%28EU%26US%292.0_Datasheet.pdf" },
+          { "label": "Syscom Tapo C210 product page", "type": "provider", "url": "https://www.syscom.mx/products/208279" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Tapo C210",
+          "aliases": ["177054", "TAPOC210"],
+          "providerSku": "177054",
+          "productType": "Camara IP Wi-Fi PT de interior",
+          "resolution": "2304 x 1296 2K / 3MP",
+          "sensor": "1/2.8 in CMOS",
+          "lens": "4 mm F2.0",
+          "fieldOfView": "98 grados diagonal; 83 horizontal; 45 vertical",
+          "panTilt": "Pan 340 grados; tilt 70 grados; cobertura 360 grados",
+          "nightVision": "IR 850 nm hasta 9 m / 30 ft",
+          "video": "H.264, 15 fps default, hasta 30 fps",
+          "audio": "Microfono y bocina integrados; audio bidireccional",
+          "storage": "microSD hasta 512 GB; Tapo Care opcional",
+          "wireless": "Wi-Fi 2.4 GHz 802.11b/g/n",
+          "integrations": ["RTSP", "ONVIF", "Google Assistant", "Amazon Alexa"],
+          "power": "9 VDC 0.6 A",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "177054", "stock": 500, "price": 32.5, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider record used generic ElectroPrice brand and the image path references TAPOC200; source title and official pages confirm Tapo C210.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "85.4 x 86.8 x 117.7 mm", "weight": "No localizado en fuente oficial consultada" },
+        "sourceRefs": [
+          { "title": "Tapo C210 official page", "type": "manufacturer", "url": "https://www.tapo.com/us/product/smart-camera/tapo-c210/" },
+          { "title": "Syscom Tapo C210 product page", "type": "provider", "url": "https://www.syscom.mx/products/208279" }
+        ]
+      }
+    },
+    {
+      "product_id": "42h2pk00tq9oqex",
+      "research": {
+        "confidence": 0.9,
+        "name": "Uniarch UAC-B112-F28-W-X-H camara bullet ColorHunter 2MP analogica",
+        "description": "Camara analogica bullet Uniarch/Uniview ColorHunter de 2MP con lente 2.8 mm, formatos TVI/AHD/CVI/CVBS, luz blanca 20 m, WDR y proteccion IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-colorhunter",
+        "semanticCategoryPath": "seguridad/cctv/camaras-analogicas/bullet-hd/2mp-colorhunter/uniarch-uac-b112-f28-w-x-h",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniview.com/Products/Analog_Cameras/Dolphin_Series/Dolphin_Series/UAC-B112-F28-W-X/",
+        "gallery": ["https://www.uniarch.cn/res/202406/20/20240620_1904090_1_993471_575359_0.png", "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/885ae562-bc74-4156-bc9a-eb4e1d70f1a5.png", "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/d18fc279-2f2f-48d2-8310-cd9775db5a64.png"],
+        "documents": [
+          { "label": "Uniview UAC-B112-F28-W-X official page", "type": "manufacturer", "url": "https://www.uniview.com/Products/Analog_Cameras/Dolphin_Series/Dolphin_Series/UAC-B112-F28-W-X/" },
+          { "label": "Uniarch UAC-B112-F28(40) official page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Enterprise_Products/Dedicated_Products/UAC-B112-F28%2840%29/" },
+          { "label": "Pcel Uniarch UAC-B112-F28-W-X-H cross-check", "type": "retailer", "url": "https://www.pcel.com/Uniarch-UAC-B112-F28-W-X-H-Camara-Analogica-Tipo-Bala-Uniarch-UAC-B112-F28-W-X-H-de-2MP-1920-x-1080-ColorHunter-IP67-554241" }
+        ],
+        "specs": {
+          "brand": "Uniarch",
+          "model": "UAC-B112-F28-W-X-H",
+          "aliases": ["UAC-B112-F28-W-X", "CA111UNI03"],
+          "providerSku": "CA111UNI03",
+          "productType": "Camara analogica bullet ColorHunter",
+          "sensor": "1/3 in CMOS",
+          "resolution": "2MP 1920 x 1080",
+          "frameRate": "1080p a 25/30 fps",
+          "videoFormats": ["TVI", "AHD", "CVI", "CVBS"],
+          "lens": "2.8 mm M12",
+          "fieldOfView": "100.9 horizontal; 56.5 vertical; 121.8 diagonal",
+          "illumination": "Luz blanca hasta 20 m; color 24/7",
+          "imageFeatures": ["DWDR", "BLC", "HLC", "2D/3D DNR", "Flip horizontal/vertical 180"],
+          "output": "BNC",
+          "power": "12 VDC +/-25%, max 2.0 W",
+          "protection": ["IP67", "Proteccion sobretension 4 kV"],
+          "operatingTemperature": "-30 a 60 C",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CA111UNI03", "stock": 500, "price": 266.32, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider title includes suffix -H; closest official manufacturer pages expose UAC-B112-F28-W-X and family UAC-B112-F28(40).", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "142 x 63 x 65 mm", "weight": "145 g for UAC-B112-F28-W-X; 135 g in related Uniarch family listing" },
+        "sourceRefs": [
+          { "title": "Uniview UAC-B112-F28-W-X official page", "type": "manufacturer", "url": "https://www.uniview.com/Products/Analog_Cameras/Dolphin_Series/Dolphin_Series/UAC-B112-F28-W-X/" },
+          { "title": "Uniarch UAC-B112-F28(40) official page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Enterprise_Products/Dedicated_Products/UAC-B112-F28%2840%29/" }
+        ]
+      }
+    },
+    {
+      "product_id": "512gyo78sewaw5f",
+      "research": {
+        "confidence": 0.92,
+        "name": "EZVIZ CS-BC1C camara IP WiFi exterior con bateria 2MP",
+        "description": "Camara EZVIZ CS-BC1C 100% inalambrica con bateria recargable, video 1080p, vision nocturna, audio bidireccional, sirena, almacenamiento interno y proteccion IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/2mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/2mp/ezviz-cs-bc1c",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/au/product/bc1c-elife/37795",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSBC1C/CSBC1C-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSBC1C/CSBC1C-FRENTE-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSBC1C/CSBC1C-AD-1-l.PNG"],
+        "documents": [
+          { "label": "EZVIZ BC1C official page", "type": "manufacturer", "url": "https://www.ezviz.com/au/product/bc1c-elife/37795" },
+          { "label": "EZVIZ BC1C official datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/BC1C_datasheet.pdf?ver=51559" },
+          { "label": "Syscom EZVIZ CS-BC1C product page", "type": "provider", "url": "https://www.syscom.mx/products/203817" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-BC1C",
+          "aliases": ["BC1C", "203817"],
+          "providerSku": "XMRDOME1080",
+          "productType": "Camara IP Wi-Fi exterior con bateria",
+          "resolution": "1920 x 1080 2MP",
+          "sensor": "1/2.8 in progressive scan CMOS",
+          "lens": "2.8 mm F1.6",
+          "fieldOfView": "125 diagonal; 107 horizontal",
+          "nightVision": "IR hasta 10 m",
+          "video": "H.265/H.264",
+          "wireless": "Wi-Fi 2.4 GHz 802.11b/g/n",
+          "audio": "Audio bidireccional",
+          "detection": "Deteccion humana IA",
+          "activeDefense": ["Sirena", "Alertas de voz personalizables"],
+          "storage": "32 GB eMMC integrado; EZVIZ CloudPlay",
+          "battery": "7800 mAh",
+          "power": "5 VDC / 2 A; max 5 W",
+          "protection": "IP66",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "XMRDOME1080", "stock": 500, "price": 59.89, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider SKU/model XMRDOME1080 appears crossed with a Streamax mini dome listing, while image and source title point to EZVIZ CS-BC1C.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "104.76 x 62.80 x 62.80 mm; Syscom also reports 104.76 x 62.80 x 82.80 mm", "weight": "365 g product; 835 g package" },
+        "sourceRefs": [
+          { "title": "EZVIZ BC1C official datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/BC1C_datasheet.pdf?ver=51559" },
+          { "title": "Syscom EZVIZ CS-BC1C product page", "type": "provider", "url": "https://www.syscom.mx/products/203817" },
+          { "title": "Syscom XMRDOME1080 discrepancy cross-check", "type": "provider", "url": "https://www.syscom.mx/products/143828" }
+        ]
+      }
+    },
+    {
+      "product_id": "5g2gsjhoqrwrzqo",
+      "research": {
+        "confidence": 0.93,
+        "name": "Hikvision AE-DC4328-K5 dashcam doble canal 2K y 1080p",
+        "description": "Dashcam Hikvision AE-DC4328-K5 de dos canales con camara frontal 2K, camara trasera 1080p, pantalla tactil de 3 pulgadas, Wi-Fi, G-Sensor y grabacion H.265.",
+        "manualCategoryPath": "seguridad/cctv/camaras-moviles/dashcam/doble-canal-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-moviles/dashcam/doble-canal-2k/hikvision-ae-dc4328-k5",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/ca-en/products/onboard-security/dash-cameras/consumer-dash-camera/ae-dc4328-k5/",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEDC4328K5/AEDC4328K5-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEDC4328K5/AEDC4328K5-AD-2-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEDC4328K5/AEDC4328K5-AD-4-l.PNG"],
+        "documents": [
+          { "label": "Hikvision AE-DC4328-K5 official page", "type": "manufacturer", "url": "https://www.hikvision.com/ca-en/products/onboard-security/dash-cameras/consumer-dash-camera/ae-dc4328-k5/" },
+          { "label": "Hikvision AE-DC4328-K5 user manual", "type": "manual", "url": "https://www.hikvision.com/content/dam/hikvision/ca/product/dashcam-datasheet/UM-AE-DC4328-K5-032922NA.pdf" },
+          { "label": "Syscom AE-DC4328-K5 product page", "type": "provider", "url": "https://www.syscom.mx/products/200221" }
+        ],
+        "specs": {
+          "brand": "Hikvision",
+          "model": "AE-DC4328-K5",
+          "aliases": ["AEDC4328K5", "200221"],
+          "providerSku": "AEDC4328K5",
+          "productType": "Dashcam doble canal",
+          "frontCamera": "4MP / 1440p a 30 fps",
+          "rearCamera": "1080p a 25 fps",
+          "compression": "H.265",
+          "display": "Pantalla tactil 3 in 854 x 480",
+          "wireless": "Wi-Fi 2.4 GHz para Hik-DashCam",
+          "features": ["G-Sensor con bloqueo de evento", "Grabacion en bucle", "Entrada alarma/reversa", "Microfono y bocina integrados"],
+          "storage": "microSD/TF 16-128 GB segun Hikvision/Syscom; manual menciona hasta 256 GB",
+          "power": "Micro USB 5 VDC / 2 A",
+          "operatingTemperature": "-20 a 70 C",
+          "exclusions": ["Sin GPS", "Sin ADAS"],
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "AEDC4328K5", "stock": 500, "price": 185.3, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider generic ElectroPrice brand corrected to Hikvision.", "Dimensions and weight differ between Syscom and Hikvision/manual sources.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "Syscom 55.80 x 89.30 x 41.87 mm; Hikvision/manual approx 89 x 42 x 80 mm", "weight": "Syscom 177 g; Hikvision/manual approx 110 g" },
+        "sourceRefs": [
+          { "title": "Hikvision AE-DC4328-K5 official page", "type": "manufacturer", "url": "https://www.hikvision.com/ca-en/products/onboard-security/dash-cameras/consumer-dash-camera/ae-dc4328-k5/" },
+          { "title": "Syscom AE-DC4328-K5 product page", "type": "provider", "url": "https://www.syscom.mx/products/200221" }
+        ]
+      }
+    },
+    {
+      "product_id": "6gkwtqxounn2e0m",
+      "research": {
+        "confidence": 0.93,
+        "name": "EZVIZ CS-H8C/5MP H8c Pro 3K camara PT WiFi exterior",
+        "description": "Camara PT Wi-Fi exterior EZVIZ CS-H8C/5MP con resolucion 3K 5MP, vision nocturna a color, deteccion IA de humanos y vehiculos, sirena, luz estroboscopica y microSD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light/ezviz-cs-h8c-5mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/inter/product/H8c-Pro-3K/55562",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C_5MP/CSH8C_5MP-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C/5MP/frontal_0S1000.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C/5MP/lateral_izquierda_0S1000.PNG"],
+        "documents": [
+          { "label": "EZVIZ H8c Pro 3K official page", "type": "manufacturer", "url": "https://www.ezviz.com/inter/product/H8c-Pro-3K/55562" },
+          { "label": "Syscom CS-H8C/5MP product page", "type": "provider", "url": "https://www.syscom.mx/products/237229" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H8C/5MP",
+          "aliases": ["H8c Pro 3K", "237229"],
+          "providerSku": "237229",
+          "productType": "Camara IP Wi-Fi PT exterior",
+          "resolution": "2880 x 1620 3K / 5MP",
+          "lens": "4 mm F1.6",
+          "fieldOfView": "91 horizontal; 108 diagonal",
+          "panTilt": "Pan 350 grados; tilt 80-90 grados segun fuente",
+          "nightVision": "IR hasta 30 m y vision nocturna a color",
+          "detection": ["Deteccion humana IA", "Deteccion vehicular IA", "Auto tracking"],
+          "activeDefense": ["Sirena", "Luz estroboscopica"],
+          "audio": "Audio bidireccional",
+          "video": "H.265/H.264",
+          "network": ["Wi-Fi 2.4 GHz", "RJ45 10/100"],
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "power": "12 VDC / 1 A",
+          "operatingTemperature": "-30 a 50 C",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "237229", "stock": 500, "price": 92.5, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider generic ElectroPrice brand corrected to EZVIZ CS-H8C/5MP.", "Weight varies between Syscom and EZVIZ official page.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "100 x 136 x 140 mm", "weight": "480 g official net; 539.7 g Syscom; 936 g package" },
+        "sourceRefs": [
+          { "title": "EZVIZ H8c Pro 3K official page", "type": "manufacturer", "url": "https://www.ezviz.com/inter/product/H8c-Pro-3K/55562" },
+          { "title": "Syscom CS-H8C/5MP product page", "type": "provider", "url": "https://www.syscom.mx/products/237229" }
+        ]
+      }
+    },
+    {
+      "product_id": "6jp5olo0qb6yalx",
+      "research": {
+        "confidence": 0.9,
+        "name": "HiLook THC-T129-MS camara turret 2MP ColorVu audio 2.8mm IP66",
+        "description": "Camara turret analogica HiLook by Hikvision THC-T129-MS de 2MP con ColorVu, microfono integrado, lente 2.8 mm, salida TVI/AHD/CVI/CVBS y proteccion IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-colorvu-audio",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-colorvu-audio/hilook-thc-t129-ms",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hilooksecurity.com/uk/products/hilook-turbo-hd-products/Turbo-HD-Camera/1080P/thc-t129-ms/",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/HILOOKBYHIKVISION/THCT129MS/THCT129MS-g.PNG"],
+        "documents": [
+          { "label": "HiLook THC-T129-MS official page", "type": "manufacturer", "url": "https://www.hilooksecurity.com/uk/products/hilook-turbo-hd-products/Turbo-HD-Camera/1080P/thc-t129-ms/" },
+          { "label": "Hikvision THC-T129-MS datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000063565/Datasheet-of-THC-T129-MS_20220721.pdf" },
+          { "label": "Syscom THC-T129-MS product page", "type": "provider", "url": "https://www.syscom.mx/products/211954" }
+        ],
+        "specs": {
+          "brand": "HiLook by Hikvision",
+          "model": "THC-T129-MS",
+          "aliases": ["THCT129MS", "211954"],
+          "providerSku": "THCT129MS",
+          "productType": "Camara TurboHD turret ColorVu",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm; variante 3.6 mm tambien publicada",
+          "fieldOfView": "2.8 mm: 105 horizontal; 55 vertical; 125 diagonal",
+          "illumination": "ColorVu F1.0; luz blanca hasta 20 m",
+          "audio": "Microfono integrado; audio sobre coaxial",
+          "videoFormats": ["TVI", "AHD", "CVI", "CVBS"],
+          "imageFeatures": ["dWDR", "BLC", "HLC", "2D/3D DNR"],
+          "power": "12 VDC +/-25%, max 2 W",
+          "body": "Metalico",
+          "protection": "IP66",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "THCT129MS", "stock": 500, "price": 33.65, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider text mentions IR EXIR and 103 degree wide angle; official THC-T129-MS page describes ColorVu with white light and integrated microphone.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "60.17 mm diameter x 69.16 mm", "weight": "243 g approx" },
+        "sourceRefs": [
+          { "title": "HiLook THC-T129-MS official page", "type": "manufacturer", "url": "https://www.hilooksecurity.com/uk/products/hilook-turbo-hd-products/Turbo-HD-Camera/1080P/thc-t129-ms/" },
+          { "title": "Hikvision THC-T129-MS datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000063565/Datasheet-of-THC-T129-MS_20220721.pdf" },
+          { "title": "Syscom THC-T129-MS product page", "type": "provider", "url": "https://www.syscom.mx/products/211954" }
+        ]
+      }
+    },
+    {
+      "product_id": "6u6n93s9o4c332l",
+      "research": {
+        "confidence": 0.95,
+        "name": "UNV IPC322LB-AF28K-A2 domo IP PoE 2MP mic microSD IP67 IK10",
+        "description": "Camara domo IP antivandalica UNV IPC322LB-AF28K-A2 de 2MP con lente 2.8 mm, IR 30 m, microfono, microSD hasta 512 GB, PoE, IP67 e IK10.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/2mp-microsd-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/2mp-microsd-mic/unv-ipc322lb-af28k-a2",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC322LB-AF28K-A2/",
+        "gallery": ["https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/864772a0-9595-451c-b12a-59ecf4f7011a.png", "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/8dff3917-3f1b-4084-a041-142b788d4475.png", "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/c3cb01c1-c833-466b-b8bf-3c166f27d4c2.png"],
+        "documents": [
+          { "label": "UNV IPC322LB-AF28K-A2 official page", "type": "manufacturer", "url": "https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC322LB-AF28K-A2/" },
+          { "label": "Tecnosinergia IPC322LB-AF28K-A2 product page", "type": "provider", "url": "https://tecnosinergia.com/catalogo/item/IPC322LB-AF28K-A2.html" }
+        ],
+        "specs": {
+          "brand": "UNV",
+          "model": "IPC322LB-AF28K-A2",
+          "aliases": ["Uniview IPC322LB-AF28K-A2", "CI128UNV19"],
+          "providerSku": "CI128UNV19",
+          "productType": "Camara IP domo antivandalica",
+          "sensor": "1/3 in CMOS",
+          "resolution": "1920 x 1080 a 25/30 fps",
+          "lens": "2.8 mm F2.0",
+          "fieldOfView": "100 horizontal; 56.5 vertical; 114.4 diagonal",
+          "nightVision": "IR inteligente 30 m",
+          "imageFeatures": ["ICR dia/noche", "DWDR", "HLC", "BLC", "Defog digital", "2D/3D DNR"],
+          "analytics": ["Deteccion de cuerpo humano 2.0", "Movimiento", "Audio"],
+          "compression": ["Ultra 265", "H.265", "H.264"],
+          "audio": "Microfono integrado",
+          "storage": "microSD hasta 512 GB",
+          "network": ["RJ45 10/100", "ONVIF Profile S/T", "API", "SDK"],
+          "power": "PoE IEEE 802.3af o 12 VDC; max 3.9 W",
+          "body": "Metal + plastico",
+          "protection": ["IP67", "IK10"],
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI128UNV19", "stock": 500, "price": 652.98, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider title matches manufacturer; brand normalized from ElectroPrice to UNV/Uniview.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "111 mm diameter x 82.5 mm", "weight": "0.35 kg" },
+        "sourceRefs": [
+          { "title": "UNV IPC322LB-AF28K-A2 official page", "type": "manufacturer", "url": "https://www.uniview.com/Products/Network_Cameras/Easy_Series/EasyBasic_Series/IPC322LB-AF28K-A2/" },
+          { "title": "Tecnosinergia IPC322LB-AF28K-A2 product page", "type": "provider", "url": "https://tecnosinergia.com/catalogo/item/IPC322LB-AF28K-A2.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "7u43ohsjum7zchi",
+      "research": {
+        "confidence": 0.93,
+        "name": "Topvision TBDL500A camara bullet 5MP dual light mic IP67",
+        "description": "Camara bullet HD analogica Topvision TBDL500A de 5MP con lente 2.8 mm, iluminacion dual IR/luz calida, microfono integrado, audio por coaxial, COC e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/5mp-dual-light/topvision-tbdl500a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl500a/",
+        "gallery": ["https://gruporeysa.com.mx/wp-content/uploads/2025/05/media-106.jpeg", "https://gruporeysa.com.mx/wp-content/uploads/2025/05/media-106-768x768.jpeg", "https://gruporeysa.com.mx/wp-content/uploads/2025/05/media-106-600x600.jpeg"],
+        "documents": [
+          { "label": "Tecnosinergia Topvision TBDL500A datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=3UbS4Z2i_VqmLeyorF4Yw8inbITUzDvPHW3cx8jmvwXb7dQj&id=21878239" },
+          { "label": "Grupo Reysa Topvision TBDL500A listing", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl500a/" },
+          { "label": "Bsai Topvision TBDL500A listing", "type": "retailer", "url": "https://bsai.com.mx/products/camara-hd-bullet-topvision-tbdl500a-5mp-ahd-tvi-cvi-sd-2-8mm-30m-ir-20m-luz-calida-luz-dual-microfono-integrado-ip67-coc-carcasa-metal-plastica-12vcd-imagen-a-color-24x7-audio-por-coaxial-o-utp" }
+        ],
+        "specs": {
+          "brand": "Topvision",
+          "model": "TBDL500A",
+          "aliases": ["C4112TOP06", "Topvision powered by Meriva"],
+          "providerSku": "C4112TOP06",
+          "productType": "Camara TurboHD bullet dual light",
+          "sensor": "1/2.5 in CMOS",
+          "resolution": "5MP 2944 x 1656 a 20 fps",
+          "videoFormats": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "illumination": "IR 20-30 m y luz blanca/calida hasta 20 m",
+          "audio": "Microfono integrado; audio por coaxial AOC solo por TVI",
+          "controls": ["COC", "OSD"],
+          "imageFeatures": ["DWDR", "2D DNR", "AGC", "AWB", "BLC"],
+          "power": "12 VDC +/-10%; LED off <1 W; LED on <4 W",
+          "body": "Metal + plastico",
+          "protection": "IP67",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "C4112TOP06", "stock": 500, "price": 339.07, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T05:00:00Z",
+          "sourceDiscrepancies": ["Provider code C4112TOP06 is a commercial key; model normalized to Topvision TBDL500A.", "Retail package weight differs from technical net weight.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "162.1 x 74.8 x 73.8 mm; package listing 19 x 10.3 x 10 cm", "weight": "0.25 kg net; 0.39 kg package/logistics" },
+        "sourceRefs": [
+          { "title": "Tecnosinergia Topvision TBDL500A datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=3UbS4Z2i_VqmLeyorF4Yw8inbITUzDvPHW3cx8jmvwXb7dQj&id=21878239" },
+          { "title": "Grupo Reysa Topvision TBDL500A listing", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl500a/" }
+        ]
+      }
+    }
+  ]
+}
