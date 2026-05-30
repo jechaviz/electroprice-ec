@@ -2,6 +2,16 @@ import { describe, expect, it } from "vitest";
 import { classifyManualCategory } from "../../pb/lib/manualTaxonomy.mjs";
 
 const researchedBatchCases = [
+  ["Grandstream GRP2602 telefono IP 2 lineas 4 cuentas SIP sin PoE", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/2-lineas"],
+  ["WD Elements SE WDBAYN0010BBK-WESN SSD externo portatil 1TB USB 3.0 negro", "SANDISK", "computo/almacenamiento/ssd/externos/usb-3/1tb"],
+  ["Manhattan 461405 soporte articulado de pared para TV 13 a 43 pulgadas 20 kg", "MANHATTAN", "video/soportes-tv/pared/articulados-13-43-20kg"],
+  ["Ovaltech OA04 bateria para laptop HP Compaq 14-D 14-R 15-D 15-G 15-H 15-R", "OVALTECH", "computo/accesorios/baterias-laptop/hp/oa04"],
+  ["Brother TN433C toner cian original alto rendimiento 4000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-433/cian"],
+  ["TP-Link TL-WN822N adaptador WiFi USB N300 alta ganancia 2 antenas 3dBi", "TP LINK", "redes/adaptadores-wifi/usb/n300-alta-ganancia"],
+  ["XPG GAMMIX D35 AX4U320016G16A-SWHD35 memoria RAM DDR4 16GB 3200MHz CL16 UDIMM blanca", "ADATA", "computo/componentes/memoria-ram/udimm-ddr4/16gb-3200"],
+  ["Balam Rush Dragonfly Wood GM580CB gabinete gamer ATX negro con frente madera", "BALAM RUSH", "computo/componentes/gabinetes/gaming/atx-mid-tower/frente-madera"],
+  ["XPG INVADER X gabinete gamer blanco mid tower panoramico ATX GABDAT440", "XPG", "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos"],
+  ["InFocus IN0002SL proyector DLP SVGA 4000 lumenes Genesis III", "INFOCUS", "video/proyectores/dlp/svga-4000-lumenes"],
   ["Naceb Technology NA-0310R audifonos tipo diadema con microfono 3.5 mm rojo negro", "NACEB TECHNOLOGY", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono"],
   ["Streamax ADPLUS 2.0-V1.1 MDVR dashcam vehicular 4G GPS Wi-Fi MOD4AMER33", "STREAMAX", "seguridad/cctv/camaras-moviles/mdvr/4g-gps"],
   ["Acteck TE-200 teclado estandar alambrico USB negro AC-928946", "ACTECK", "computo/perifericos/teclados/alambricos/usb"],
