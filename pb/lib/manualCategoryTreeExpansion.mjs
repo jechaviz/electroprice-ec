@@ -60,6 +60,8 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'telefonia/accesorios/soportes-celular', name: 'Soportes para celular', legacyCategory: 'laptops' },
   { path: 'telefonia/accesorios/soportes-celular/magneticos', name: 'Soportes magneticos para celular', legacyCategory: 'laptops' },
   { path: 'impresion/impresoras', name: 'Impresoras', legacyCategory: 'laptops' },
+  { path: 'impresion/impresoras/multifuncionales-inyeccion-tinta', name: 'Multifuncionales de inyeccion de tinta', legacyCategory: 'printers_scanners' },
+  { path: 'impresion/impresoras/multifuncionales-inyeccion-tinta/hp-deskjet', name: 'Multifuncionales HP DeskJet de inyeccion de tinta', legacyCategory: 'printers_scanners' },
   { path: 'impresion/impresoras/etiquetas', name: 'Impresoras de etiquetas', legacyCategory: 'laptops' },
   { path: 'impresion/impresoras/etiquetas/rotuladores-p-touch', name: 'Rotuladores P-touch y etiquetadoras portatiles', legacyCategory: 'laptops' },
   { path: 'impresion/impresoras/etiquetas/termicas-moviles', name: 'Impresoras termicas moviles de etiquetas', legacyCategory: 'laptops' },

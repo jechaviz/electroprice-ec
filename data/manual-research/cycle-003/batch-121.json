@@ -1,0 +1,469 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b121-2026-05-30",
+  "cycle": 3,
+  "batch": 121,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "jgjr9xap6vp3rz4",
+      "research": {
+        "confidence": 0.96,
+        "name": "HP DeskJet Ink Advantage 2374 multifuncional de tinta USB",
+        "description": "Multifuncional HP DeskJet Ink Advantage 2374 7WQ03A de inyeccion termica de tinta para imprimir, copiar y escanear, con conexion USB 2.0, cama plana y bandeja de entrada de 60 hojas.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-inyeccion-tinta/hp-deskjet",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-inyeccion-tinta/hp-deskjet/hp-deskjet-ink-advantage-2374",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.hp.com/mx-es/document/c06627505",
+        "gallery": ["https://static.ctonline.mx/imagenes/MTFHPI1345/MTFHPI1345_full.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-HP-7WQ03A-197d96.jpg"],
+        "documents": [
+          { "label": "HP DeskJet Ink Advantage 2374 specifications", "type": "manufacturer", "url": "https://support.hp.com/mx-es/document/c06627505" },
+          { "label": "HP DeskJet Ink Advantage 2374 setup guides", "type": "support", "url": "https://support.hp.com/us-en/product/setup-user-guides/hp-deskjet-ink-advantage-2300-all-in-one-printer-series/model/33691572/" },
+          { "label": "HP DeskJet 2300 series user guide", "type": "manual", "url": "https://h10032.www1.hp.com/ctg/Manual/c06644552.pdf" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "DeskJet Ink Advantage 2374",
+          "manufacturerPartNumber": "7WQ03A",
+          "providerSku": "MTFHPI1345",
+          "upc": "194721097927",
+          "productType": "Multifuncional de inyeccion de tinta",
+          "functions": "Print, copy, scan",
+          "technology": "HP Thermal Inkjet",
+          "connectivity": "Hi-Speed USB 2.0; no wireless capability",
+          "printResolution": "Up to 1200 x 1200 rendered dpi black; up to 4800 x 1200 optimized dpi color",
+          "speed": "Up to 7.5 ppm ISO black, 5.5 ppm ISO color",
+          "duplex": "Manual",
+          "scanner": "Flatbed CIS, up to 1200 x 1200 dpi, 24-bit",
+          "copy": "Up to 9 copies, up to 600 x 300 dpi",
+          "paper": "60-sheet input, 25-sheet output",
+          "dutyCycle": "Up to 1000 pages/month",
+          "cartridges": "HP 667 black/tricolor and HP 667XL black/tricolor for Latin America",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 369 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 194 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 34 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MTFHPI1345", "stock": 704, "price": 989.47, "currency": "MXN", "branch": "D2A:369,DFA:194,CMT:34,CHI:19,PUE:19,ACA:9,CLN:6,TRN:5,MAZ:5,IRA:5,GDL:4,VHA:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current manual path computo/accesorios/limpieza is wrong; this is an inkjet multifunction printer.", "HP confirms no Wi-Fi/mobile printing, so do not classify as wireless printer.", "Visible branch sum is 668 while feed total_stock is 704, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "425 x 523.8 x 249 mm maximum operating", "weight": "3.42 kg" },
+        "sourceRefs": [
+          { "title": "HP DeskJet Ink Advantage 2374 specifications", "type": "manufacturer", "url": "https://support.hp.com/mx-es/document/c06627505" },
+          { "title": "HP DeskJet Ink Advantage 2374 setup guides", "type": "support", "url": "https://support.hp.com/us-en/product/setup-user-guides/hp-deskjet-ink-advantage-2300-all-in-one-printer-series/model/33691572/" },
+          { "title": "GlobalOffice HP 7WQ03A UPC reference", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/officejet/multifuncional-hp-advantage-2374-inyec-7wq03a/7wq03a" }
+        ]
+      }
+    },
+    {
+      "product_id": "johh8r0c8spqn7t",
+      "research": {
+        "confidence": 0.95,
+        "name": "LG 22U401A-B.AWMQ monitor 21.5 pulgadas Full HD 100Hz",
+        "description": "Monitor LG 22U401A-B de 21.5 pulgadas Full HD con panel VA, frecuencia maxima de 100Hz, HDR10, sRGB 99%, HDMI, D-Sub, salida de audifonos y montaje VESA 100 x 100.",
+        "manualCategoryPath": "computo/monitores/oficina/22-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/22-fhd-100hz/lg-22u401a-b-awmq",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/mx/monitores/monitores-full-hd-qhd/22u401a-b/",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONLGE3280/MONLGE3280_full.jpg", "https://www.lg.com/content/dam/channel/wcms/mx/2026/january/imagenes-seleccion/350x350/350x350_0012_00-22U401A-B.jpg", "https://www.lg.com/content/dam/channel/wcms/mx/register2025/monitores-y-pantallas-agosto/22u401a-b/gallery/thumbnail/full-hd-qhd-22u401a-2025-gallery-thumbnail-06.jpg"],
+        "documents": [
+          { "label": "LG Mexico 22U401A-B product page", "type": "manufacturer", "url": "https://www.lg.com/mx/monitores/monitores-full-hd-qhd/22u401a-b/" },
+          { "label": "LG 22U401A-B support", "type": "support", "url": "https://www.lg.com/in/support/product-support/cs-22U401A-B/" },
+          { "label": "LG 22U401A EK product sheet", "type": "datasheet", "url": "https://www.lg.com/uk/lgecs.downloadFile.ldwf?DOC_ID=20250429247628&FILE_NAME=22U401A+EK.pdf&GSRI_DOC=GSRI&ORIGINAL_NAME_b1_a1=22U401A+EK%5B20250429043101560%5D.pdf&SPEC_DOWNLOAD=N&TC=DwnCmd" }
+        ],
+        "specs": {
+          "brand": "LG",
+          "model": "22U401A-B.AWMQ",
+          "modelBase": "22U401A-B",
+          "providerSku": "MONLGE3280",
+          "ean": "8806096559246",
+          "productType": "Monitor Full HD",
+          "display": "21.5 in / 54 cm VA, 16:9",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "100 Hz max",
+          "response": "5 ms GtG; 1 ms MBR marketing mode",
+          "brightness": "250 cd/m2 typical",
+          "contrast": "3000:1 typical",
+          "color": "sRGB 99% CIE1931, 16.7M colors",
+          "viewingAngle": "178/178 degrees",
+          "ports": "1 HDMI, 1 D-Sub, 3-pole headphone out",
+          "features": "HDR10, Flicker Safe, Reader Mode, Dynamic Action Sync, Black Stabilizer, Super Resolution+, VRR",
+          "mount": "VESA 100 x 100",
+          "tilt": "-5 to 20 degrees",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 407 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 227 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONLGE3280", "stock": 694, "price": 1279.57, "currency": "MXN", "branch": "GDL:407,D2A:227,OBR:11,ACA:9,MTY:6,MOR:4,QRO:3,TPC:3,MID:3,CDV:3,CLN:2,SLP:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider suffix 22U401A-B.AWMQ is regional; LG Mexico publishes base model 22U401A-B.", "Cyberpuerta sheet for AEKQ shows a different EAN, so keep provider EAN 8806096559246.", "LG specs list 5 ms GtG while marketing highlights 1 ms MBR.", "Visible branch sum is 680 while feed total_stock is 694, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "492.5 x 378.4 x 200.8 mm with stand; 492.5 x 284.6 x 50.7 mm without stand; package 556 x 350 x 138 mm", "weight": "2.3 kg with stand, 1.9 kg without stand, 3.3 kg package" },
+        "sourceRefs": [
+          { "title": "LG Mexico 22U401A-B official", "type": "manufacturer", "url": "https://www.lg.com/mx/monitores/monitores-full-hd-qhd/22u401a-b/" },
+          { "title": "LG 22U401A-B support", "type": "support", "url": "https://www.lg.com/in/support/product-support/cs-22U401A-B/" },
+          { "title": "GlobalOffice LG 22U401A-BQ variant", "type": "retailer", "url": "https://globaloffice.com.mx/app/producto/pdf/22u401a-bq" }
+        ]
+      }
+    },
+    {
+      "product_id": "ygy7rqhxydq256k",
+      "research": {
+        "confidence": 0.94,
+        "name": "Easy Line EL-993377 mouse optico alambrico USB negro 1000 DPI",
+        "description": "Mouse optico alambrico Easy Line EL-993377 color negro con interfaz USB, sensor optico, 1000 DPI, 3 botones, rueda de desplazamiento, cable de 1.5 m y diseno ambidiestro.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi/easy-line-el-993377",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://easyline.me/products/mouse-optico-alambrico-negro-1",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUMST1150/MOUMST1150_2_full.jpg", "https://easyline.me/cdn/shop/products/EL-993377_06C.png?v=1656340179&width=416", "https://easyline.me/cdn/shop/products/EL-993377_01C.png?v=1656338546&width=416", "https://easyline.me/cdn/shop/products/EL-993377_02.2C.png?v=1656338564&width=416"],
+        "documents": [
+          { "label": "Easy Line EL-993377 product page", "type": "manufacturer", "url": "https://easyline.me/products/mouse-optico-alambrico-negro-1" },
+          { "label": "Easy Line EL-993377 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0480/6734/6598/files/EL-993377_compressed.pdf?v=1656520330" }
+        ],
+        "specs": {
+          "brand": "Easy Line",
+          "model": "EL-993377",
+          "providerSku": "MOUMST1150",
+          "upc": "615604993377",
+          "productType": "Mouse optico alambrico",
+          "interface": "USB",
+          "sensor": "Optical",
+          "resolution": "1000 DPI",
+          "buttons": 3,
+          "scroll": "Wheel",
+          "cableLength": "1.5 m",
+          "power": "5 V DC 90 mA",
+          "compatibility": "Windows XP/Vista/7/8/10 and Mac OS",
+          "color": "Black",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 265 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 224 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 7 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUMST1150", "stock": 690, "price": 66.62, "currency": "MXN", "branch": "D2A:265,DFA:224,GDL:35,CMT:29,PUE:16,MTY:10,DFP:9,ZAC:9,ACA:9,CAM:9,TXA:7,OAX:7" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current generic mouse path can be refined to wired 1000 DPI.", "The official PDF header appears to mention EL-994121, but the file/page/SKU are EL-993377.", "UPC is confirmed by Mexican retailers and provider evidence, not the public Easy Line page.", "Visible branch sum is 629 while feed total_stock is 690, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "10 x 5 x 3.5 cm", "weight": "66 g" },
+        "sourceRefs": [
+          { "title": "Easy Line EL-993377 official", "type": "manufacturer", "url": "https://easyline.me/products/mouse-optico-alambrico-negro-1" },
+          { "title": "Easy Line EL-993377 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0480/6734/6598/files/EL-993377_compressed.pdf?v=1656520330" },
+          { "title": "Zegucom Easy Line EL-993377", "type": "retailer", "url": "https://www.zegucom.com.mx/producto/mouses-y-accesorios-de-mouse/mouse-opticos-laser/mouse-optico-easyline-el-993377-1000dpi-usb2-0-negro/RUwtOTkzMzc3" }
+        ]
+      }
+    },
+    {
+      "product_id": "dydb1dl1qpzp1fe",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link TL-WR820N router Wi-Fi N300 2.4GHz multimodo",
+        "description": "Router TP-Link TL-WR820N Wi-Fi N300 de banda 2.4GHz con 2 antenas fijas de 5 dBi, 1 puerto WAN 10/100, 2 puertos LAN 10/100 y modos router, access point, range extender y WISP.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/tp-link-tl-wr820n",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/wifi-router/tl-wr820n/v2/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ROUTPL900/ROUTPL900_full.jpg", "https://static.tp-link.com/TL-WR820N%28EU%292.0_01_normal_1578644739626y.jpg", "https://static.tp-link.com/TL-WR820N%28EU%292.0_02_normal_1578644748272k.jpg"],
+        "documents": [
+          { "label": "TP-Link TL-WR820N product page", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/wifi-router/tl-wr820n/v2/" },
+          { "label": "TP-Link TL-WR820N support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tl-wr820n/v2/" },
+          { "label": "TP-Link TL-WR820N datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202004/20200427/TL-WR820N%28EU%292.0_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WR820N",
+          "providerSku": "ROUTPL900",
+          "cvaSku": "NIC-3036",
+          "ean": "6935364053086",
+          "upc": "845973088705",
+          "productType": "Router Wi-Fi N300",
+          "wirelessStandard": "IEEE 802.11n/b/g",
+          "band": "2.4 GHz",
+          "speed": "300 Mbps",
+          "antennas": "2 fixed 5 dBi",
+          "mimo": "2x2 MIMO",
+          "ports": "1 WAN 10/100 Mbps, 2 LAN 10/100 Mbps",
+          "modes": "Router, Access Point, Range Extender, WISP",
+          "security": "SPI firewall, access control, IP/MAC binding, guest network, WEP/WPA/WPA2",
+          "protocols": "IPv4, IPv6",
+          "iptv": "IGMP Proxy/Snooping, Bridge, Tag VLAN",
+          "power": "5 V DC 0.6 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "AGS", "stock": 302 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 119 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 56 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 46 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUTPL900", "stock": 689, "price": 10.8, "currency": "USD", "branch": "AGS:302,GDL:119,D2A:56,DFA:47,CMT:46,PAC:22,MOR:18,OAX:10,ACA:8,LEO:7,TOL:7,XLP:6" }, { "providerId": "cva", "providerSku": "NIC-3036", "stock": 0, "price": 10.25, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current redes/access-points path is incomplete because the official primary product type is router; it can also operate as AP.", "Retailer dimensions from 1WorldSync differ from official TP-Link product dimensions; use official dimensions.", "Visible CT branch sum is 648 while feed total_stock is 689, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "115 x 106.7 x 24.3 mm", "weight": "not published by manufacturer" },
+        "sourceRefs": [
+          { "title": "TP-Link TL-WR820N official Mexico", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/wifi-router/tl-wr820n/v2/" },
+          { "title": "TP-Link TL-WR820N support", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tl-wr820n/v2/" },
+          { "title": "TP-Link TL-WR820N datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202004/20200427/TL-WR820N%28EU%292.0_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "nj2es06wwoxs0sf",
+      "research": {
+        "confidence": 0.95,
+        "name": "ADATA C906 AC906-32G-RWH memoria USB 32GB blanca USB 2.0",
+        "description": "Memoria USB ADATA C906 de 32GB color blanco, interfaz USB 2.0, diseno plastico ligero y tapa que se fija en la parte trasera para evitar extravios.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/plasticas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/plasticas/adata-c906-ac906-32g-rwh",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/mx/consumer/category/portable-storage/12/",
+        "gallery": ["https://static.ctonline.mx/imagenes/MEMDAT1880/MEMDAT1880_1_full.jpg", "https://webapi3.adata.com/storage/product/c906.png", "https://webapi3.adata.com/storage/product/c906_pk_2000x2000_32g_03_wh.png", "https://webapi3.adata.com/storage/product/product_page_kv_1920x648_c906.jpg"],
+        "documents": [
+          { "label": "ADATA C906 product page", "type": "manufacturer", "url": "https://www.adata.com/mx/consumer/category/portable-storage/12/" },
+          { "label": "ADATA C906 datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/Datasheet-C906_20190118.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "C906",
+          "manufacturerPartNumber": "AC906-32G-RWH",
+          "providerSku": "MEMDAT1880",
+          "cvaSku": "RAM-2009",
+          "ean": "4713435791905",
+          "productType": "Memoria USB",
+          "capacity": "32 GB",
+          "interface": "USB 2.0",
+          "color": "White",
+          "material": "Plastic",
+          "compatibility": "Windows Vista/7/8/8.1/10/11, Mac OS X 10.6+, Linux kernel 2.6+",
+          "warranty": "5 years",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CUE", "stock": 180 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 68 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 67 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 61 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 38 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 17 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT1880", "stock": 687, "price": 4.21, "currency": "USD", "branch": "CUE:180,GDL:68,DFC:67,TOL:61,MOR:47,CDV:38,LEO:35,AGS:32,ZAC:22,IRA:18,TRN:17,PUE:17" }, { "providerId": "cva", "providerSku": "RAM-2009", "stock": 0, "price": 3.97, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current path computo/componentes/memoria-ram is wrong; this is USB flash storage, not RAM.", "CVA SKU RAM-2009 can mislead classification.", "Official ADATA family page lists multiple capacities/colors; exact 32GB white variant is anchored by MPN and EAN.", "Visible CT branch sum is 602 while feed total_stock is 687, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "58 x 18 x 10 mm", "weight": "9 g" },
+        "sourceRefs": [
+          { "title": "ADATA C906 official", "type": "manufacturer", "url": "https://www.adata.com/mx/consumer/category/portable-storage/12/" },
+          { "title": "ADATA C906 datasheet", "type": "datasheet", "url": "https://www.adata.com/upload/downloadfile/Datasheet-C906_20190118.pdf" },
+          { "title": "PC4U ADATA C906 EAN reference", "type": "retailer", "url": "https://www.pc4u.co.jp/view/item/000000080009" }
+        ]
+      }
+    },
+    {
+      "product_id": "h4471w8mse062rd",
+      "research": {
+        "confidence": 0.94,
+        "name": "Logitech MK200 Media Combo kit teclado y mouse USB",
+        "description": "Kit Logitech MK200 Media Combo con teclado de tamano completo y mouse optico alambricos USB, teclas multimedia, teclado numerico, altura ajustable y mouse ambidiestro de 3 botones.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/alambricos/basicos/logitech-mk200",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitech.com/es-mx/shop/p/mk200-media-keyboard-mouse",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITLOG470/KITLOG470_full.jpg", "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mk200/gallery/mk200-gallery-01-new.png", "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mk200/gallery/mk200-gallery-02-new.png"],
+        "documents": [
+          { "label": "Logitech MK200 Mexico product page", "type": "manufacturer", "url": "https://www.logitech.com/es-mx/shop/p/mk200-media-keyboard-mouse" },
+          { "label": "Logitech MK200 support", "type": "support", "url": "https://support.logi.com/hc/es-mx?mID=6680&webcontent=productgettingstarted" }
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "MK200 Media Combo",
+          "manufacturerPartNumber": "920-002716",
+          "providerSku": "KITLOG470",
+          "upc": "097855067180",
+          "productType": "Combo teclado y mouse USB",
+          "connection": "Wired USB; requires 2 USB ports",
+          "keyboard": "Full-size keyboard, numeric keypad, adjustable height, spill-resistant design",
+          "hotkeys": "8 media keys",
+          "keyDurability": "Up to 5 million keystrokes excluding Num Lock",
+          "mouse": "Optical, ambidextrous, 3 buttons, line-by-line scroll",
+          "compatibility": "Windows 10, Windows 11 or later",
+          "warranty": "3-year limited hardware warranty",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 177 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 121 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 60 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 52 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 44 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "KITLOG470", "stock": 687, "price": 367.06, "currency": "MXN", "branch": "D2A:177,DFA:121,GDL:60,DFT:52,CMT:44,ACA:33,CUE:18,QRO:16,MAZ:13,MTY:12,CUN:12,SLT:10" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current keyboard path is too generic because this is a keyboard + mouse combo.", "Logitech US lists close variant 920-002714; keep Mexico/LatAm MPN 920-002716 from provider/retail.", "UPC is confirmed by retailer/provider evidence, not visible on Logitech page.", "Visible branch sum is 568 while feed total_stock is 687, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "Keyboard 450 x 155 x 18 mm, mouse 62 x 113 x 38 mm; cables 180 cm", "weight": "Keyboard 550 g, mouse 90 g" },
+        "sourceRefs": [
+          { "title": "Logitech MK200 official Mexico", "type": "manufacturer", "url": "https://www.logitech.com/es-mx/shop/p/mk200-media-keyboard-mouse" },
+          { "title": "Logitech MK200 support", "type": "support", "url": "https://support.logi.com/hc/es-mx?mID=6680&webcontent=productgettingstarted" },
+          { "title": "GlobalOffice Logitech MK200 MPN reference", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/teclados/kit-tecladomouse-logitech-mk200-920-002716/920-002716" }
+        ]
+      }
+    },
+    {
+      "product_id": "7bczli0hjrfr8px",
+      "research": {
+        "confidence": 0.95,
+        "name": "WD Green WDS100T5G0A SSD interno 1TB 2.5 pulgadas SATA III",
+        "description": "SSD interno WD Green WDS100T5G0A de 1TB en formato 2.5 pulgadas/7 mm con interfaz SATA III 6Gb/s, NAND 3D SanDisk y lectura secuencial de hasta 545 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/2-5-sata/1tb",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/2-5-sata/1tb/wd-green-wds100t5g0a",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sata-internal-ssd-7mm?sku=WDS100T5G0A-00CPT0",
+        "gallery": ["https://static.ctonline.mx/imagenes/DDUWSD2780/DDUWSD2780_full.jpg", "https://www.sandisk.com/content/dam/sandisk/en-us/assets/products/internal-storage/wd-green-sata-internal-ssd/gallery/wd-green-sata-ssd-cased-1tb-front.png.wdthumb.1280.1280.png"],
+        "documents": [
+          { "label": "SanDisk WD Green SATA SSD product page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sata-internal-ssd-7mm?sku=WDS100T5G0A-00CPT0" },
+          { "label": "WD Green SATA SSD datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/wd-green-ssd/data-sheet-wd-green-sata-ssd.pdf" }
+        ],
+        "specs": {
+          "brand": "SANDISK / WD",
+          "model": "WDS100T5G0A",
+          "manufacturerPartNumber": "WDS100T5G0A-00CPT0",
+          "providerSku": "DDUWSD2780",
+          "upc": "619659219260",
+          "productType": "SSD interno SATA",
+          "capacity": "1 TB",
+          "formFactor": "2.5 in / 7 mm",
+          "interface": "SATA III 6 Gb/s",
+          "nand": "SanDisk 3D NAND",
+          "sequentialRead": "Up to 545 MB/s",
+          "mttf": "Up to 2,000,000 hours",
+          "warranty": "3 years limited",
+          "operatingTemperature": "0 to 70 C",
+          "shock": "1500 G at 0.5 ms",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 430 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 43 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 38 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUWSD2780", "stock": 677, "price": 123.86, "currency": "USD", "branch": "D2A:430,AGS:50,CMT:43,GDL:38,CUE:19,LEO:17,MOR:11,CLN:9,SLP:9,OAX:9,ACA:6,SLT:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["UPC/EAN is corroborated by distributors rather than official SanDisk page.", "GlobalOffice lists 500 MB/s read and 400 MB/s write; official datasheet lists read up to 545 MB/s and does not confirm write for this SKU.", "Visible branch sum is 646 while feed total_stock is 677, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "100.50 x 69.85 x 7.0 mm", "weight": "32.7 g" },
+        "sourceRefs": [
+          { "title": "SanDisk WD Green SATA SSD official", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sata-internal-ssd-7mm?sku=WDS100T5G0A-00CPT0" },
+          { "title": "WD Green SATA SSD datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/internal-drives/wd-green-ssd/data-sheet-wd-green-sata-ssd.pdf" },
+          { "title": "GlobalOffice WD Green WDS100T5G0A", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/almacenamiento/unidad-ssd-25-wd-1tb-wds100t5g0a-green-sata3-7mm/wds100t5g0a" }
+        ]
+      }
+    },
+    {
+      "product_id": "v38ojf17ae9vkbw",
+      "research": {
+        "confidence": 0.94,
+        "name": "Easy Line EL-994121 mouse optico alambrico USB negro 1200 DPI",
+        "description": "Mouse optico alambrico Easy Line EL-994121 color negro con conexion USB-A, resolucion 1200 DPI, 3 botones, cable de 1.5 m y diseno simetrico/ambidiestro.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1200-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1200-dpi/easy-line-el-994121",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://easyline.me/products/mouse-optico-alambrico-negro-2",
+        "gallery": ["https://static.ctonline.mx/imagenes/MOUMST1430/MOUMST1430_1_full.jpg", "https://easyline.me/cdn/shop/products/EL-994121_A02_MouseAlambrico_Optico_WiredMouse__Optical.png?v=1655488915&width=416", "https://easyline.me/cdn/shop/products/EL-994121_A03_MouseAlambrico_Optico_WiredMouse__Optical.png?v=1655488744&width=416", "https://www.cyberpuerta.mx/img/product/XL/CP-EASYLINE-EL-994121-1.jpg"],
+        "documents": [
+          { "label": "Easy Line EL-994121 product page", "type": "manufacturer", "url": "https://easyline.me/products/mouse-optico-alambrico-negro-2" },
+          { "label": "Easy Line EL-994121 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0480/6734/6598/files/EL-994121_compressed.pdf?v=1656520330" }
+        ],
+        "specs": {
+          "brand": "Easy Line",
+          "model": "EL-994121",
+          "providerSku": "MOUMST1430",
+          "upc": "615604994121",
+          "productType": "Mouse optico alambrico",
+          "interface": "USB-A",
+          "sensor": "Optical",
+          "resolution": "1200 DPI",
+          "buttons": 3,
+          "cableLength": "1.5 m",
+          "power": "5 V DC 100 mA",
+          "compatibility": "Windows 7/8/10 and Mac OS X",
+          "color": "Black",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 243 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 215 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 44 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 7 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUMST1430", "stock": 676, "price": 36.73, "currency": "MXN", "branch": "D2A:243,DFA:215,CMT:44,GDL:26,LEO:25,OAX:11,DFP:10,CUE:9,TOL:9,PUE:8,PAC:8,CHI:7" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Oasify mixes 1200 DPI and 1000 DPI; official Easy Line sheet confirms 1200 DPI.", "GlobalOffice labels the line as Perfect Choice even though SKU/UPC match Easy Line; keep Easy Line as brand.", "Visible branch sum is 615 while feed total_stock is 676, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "7.1 x 11.6 x 3.8 cm", "weight": "68 g" },
+        "sourceRefs": [
+          { "title": "Easy Line EL-994121 official", "type": "manufacturer", "url": "https://easyline.me/products/mouse-optico-alambrico-negro-2" },
+          { "title": "Easy Line EL-994121 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0480/6734/6598/files/EL-994121_compressed.pdf?v=1656520330" },
+          { "title": "Cyberpuerta Easy Line EL-994121", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Dispositivos-de-Entrada/Mouse/Mouse-Easy-Line-Optico-EL-994121-Alambrico-USB-1200DPI-Negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "n3pavdhpbe7avco",
+      "research": {
+        "confidence": 0.96,
+        "name": "Samsung Essential S3 S30GD LS24D300GALXZX monitor 24 pulgadas FHD IPS 100Hz",
+        "description": "Monitor Samsung Essential S3 S30GD LS24D300GALXZX de 24 pulgadas Full HD con panel IPS, 100Hz, 5ms GTG, HDMI 1.4, D-Sub, Eye Saver Mode, Flicker Free y montaje VESA 100 x 100.",
+        "manualCategoryPath": "computo/monitores/oficina/24-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/24-fhd-100hz/samsung-ls24d300galxzx",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.samsung.com/mx/monitors/full-hd-1080p/essential-monitor-s3-s30gd-24-inch-fhd-ips-100hz-ls24d300galxzx/",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONSMG2090/MONSMG2090_4_full.jpg", "https://images.samsung.com/is/image/samsung/p6pim/mx/ls24d300galxzx/gallery/mx-essential-s3-s30gd-ls24d300galxzx-547958592?$1164_776_PNG$", "https://images.samsung.com/is/image/samsung/p6pim/mx/ls24d300galxzx/gallery/mx-essential-s3-s30gd-ls24d300galxzx-547958592?$Q90_2052_1641_JPG$"],
+        "documents": [
+          { "label": "Samsung LS24D300GALXZX product page", "type": "manufacturer", "url": "https://www.samsung.com/mx/monitors/full-hd-1080p/essential-monitor-s3-s30gd-24-inch-fhd-ips-100hz-ls24d300galxzx/" },
+          { "label": "Samsung LS24D300GALXZX support", "type": "support", "url": "https://www.samsung.com/mx/support/model/LS24D300GALXZX/" },
+          { "label": "Samsung S30GD user manual", "type": "manual", "url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_MX&OriginYN=N&ModelType=N&ModelName=S24D300GAL&CttFileID=10018890&CDCttType=UM&VPath=UM%2F202412%2F20241213040326001%2FBN81-26708A-00_WUG_S30GD+S40GD_NA+LATIN_ENG_241101.0.pdf" }
+        ],
+        "specs": {
+          "brand": "SAMSUNG",
+          "model": "LS24D300GALXZX",
+          "modelBase": "S24D300GAL",
+          "providerSku": "MONSMG2090",
+          "cvaSku": "MNL-2819",
+          "ean": "8806095804262",
+          "productType": "Monitor Full HD IPS",
+          "display": "24 in IPS, flat, 16:9",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "100 Hz max",
+          "response": "5 ms GTG",
+          "brightness": "250 cd/m2 typical",
+          "contrast": "1000:1 typical",
+          "viewingAngle": "178/178 degrees",
+          "colors": "16.7M, NTSC 72%",
+          "ports": "1 HDMI 1.4, 1 D-Sub/VGA",
+          "features": "Eye Saver Mode, Flicker Free, Game Mode, Eco Saving Plus",
+          "mount": "VESA 100 x 100",
+          "power": "AC 100-240 V external adapter, max 25 W",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 590 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONSMG2090", "stock": 663, "price": 1588.42, "currency": "MXN", "branch": "DFA:590,OAX:9,MAZ:8,TXA:6,MTY:6,AGS:5,PUE:5,PAC:5,QRO:4,DFC:4,CUE:3,MID:2" }, { "providerId": "cva", "providerSku": "MNL-2819", "stock": 11, "price": 1499.46, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Generic computo/monitores path is valid but underspecified; refine to 24 FHD 100Hz.", "EAN comes from provider evidence and was not visible on Samsung page.", "Visible CT branch sum is 647 while CT stock is 663, so CT branch locations are partial."]
+        },
+        "measurements": { "dimensions": "540.7 x 428.5 x 175.1 mm with stand; 540.7 x 320.4 x 36.2 mm without stand; package 636 x 100 x 363 mm", "weight": "2.4 kg with stand, 2.0 kg without stand, 3.8 kg package" },
+        "sourceRefs": [
+          { "title": "Samsung LS24D300GALXZX official", "type": "manufacturer", "url": "https://www.samsung.com/mx/monitors/full-hd-1080p/essential-monitor-s3-s30gd-24-inch-fhd-ips-100hz-ls24d300galxzx/" },
+          { "title": "Samsung LS24D300GALXZX support", "type": "support", "url": "https://www.samsung.com/mx/support/model/LS24D300GALXZX/" },
+          { "title": "Samsung S30GD user manual", "type": "manual", "url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_MX&OriginYN=N&ModelType=N&ModelName=S24D300GAL&CttFileID=10018890&CDCttType=UM&VPath=UM%2F202412%2F20241213040326001%2FBN81-26708A-00_WUG_S30GD+S40GD_NA+LATIN_ENG_241101.0.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "nixwv2jr3mhzhe4",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Archer AX53 router AX3000 Gigabit Wi-Fi 6 doble banda",
+        "description": "Router TP-Link Archer AX53 AX3000 Gigabit Wi-Fi 6 de doble banda con 2402 Mbps en 5GHz + 574 Mbps en 2.4GHz, 1 puerto WAN Gigabit, 4 puertos LAN Gigabit, 4 antenas externas, WPA3 y modo router o access point.",
+        "manualCategoryPath": "redes/routers/wifi-6/ax3000",
+        "semanticCategoryPath": "redes/routers/wifi-6/ax3000/tp-link-archer-ax53",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/nordic/home-networking/wifi-router/archer-ax53/",
+        "gallery": ["https://static.tp-link.com/upload/image-line/Overview_AX53_01_normal_20211209063330g.jpg", "https://static.tp-link.com/upload/image-line/Overview_AX53_02_normal_20211209063348h.jpg", "https://static.ctonline.mx/imagenes/ROUTPL1050/ROUTPL1050_full.jpg"],
+        "documents": [
+          { "label": "TP-Link Archer AX53 product page", "type": "manufacturer", "url": "https://www.tp-link.com/nordic/home-networking/wifi-router/archer-ax53/" },
+          { "label": "TP-Link Archer AX53 support", "type": "support", "url": "https://www.tp-link.com/uk/support/download/archer-ax53/" },
+          { "label": "TP-Link Archer AX53 datasheet", "type": "datasheet", "url": "https://www.tp-link.com/uk/document/21997/" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Archer AX53",
+          "providerSku": "ROUTPL1050",
+          "cvaSku": "NIC-3860",
+          "upc": "840030703089",
+          "productType": "Router Wi-Fi 6 AX3000",
+          "wirelessStandard": "IEEE 802.11ax/ac/n/a 5 GHz; IEEE 802.11ax/n/b/g 2.4 GHz",
+          "speed": "2402 Mbps 5 GHz + 574 Mbps 2.4 GHz",
+          "ports": "1 Gigabit WAN, 4 Gigabit LAN",
+          "antennas": "4 fixed external antennas",
+          "modes": "Router Mode, Access Point Mode",
+          "security": "SPI firewall, access control, WPA/WPA2/WPA3, guest network",
+          "vpn": "OpenVPN, PPTP",
+          "features": "OFDMA, Beamforming, HE160, TWT, QoS, HomeShield, Tether App",
+          "power": "12 V / 2 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "PUE", "stock": 172 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 138 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 85 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 59 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 43 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 41 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUTPL1050", "stock": 674, "price": 41.59, "currency": "USD", "branch": "PUE:172,D2A:138,GDL:85,CMT:59,AGS:43,DFA:41,TRN:10,OAX:8,HMO:7,DGO:6,XLP:6,COL:6" }, { "providerId": "cva", "providerSku": "NIC-3860", "stock": 0, "price": 39.48, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current redes/access-points path is not the main product class; TP-Link classifies Archer AX53 as Wi-Fi Router, though it can operate as AP.", "UPC comes from provider evidence and was not visible on TP-Link official pages.", "Functions can vary by region/hardware version; firmware should be matched to local hardware version.", "Visible CT branch sum is 581 while CT stock is 674, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "260.2 x 135 x 41.6 mm", "weight": "not published by manufacturer" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer AX53 official", "type": "manufacturer", "url": "https://www.tp-link.com/nordic/home-networking/wifi-router/archer-ax53/" },
+          { "title": "TP-Link Archer AX53 support", "type": "support", "url": "https://www.tp-link.com/uk/support/download/archer-ax53/" },
+          { "title": "TP-Link Archer AX53 datasheet", "type": "datasheet", "url": "https://www.tp-link.com/uk/document/21997/" }
+        ]
+      }
+    }
+  ]
+}

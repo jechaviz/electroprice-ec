@@ -192,6 +192,16 @@ const researchedBatchCases = [
   ["Brother DCP-L2540DW multifuncional laser monocromatico WiFi duplex", "BROTHER", "impresion/impresoras/multifuncionales-laser/brother-dcp"],
   ["Logitech C920 webcam Full HD 1080p USB", "LOGITECH", "computo/perifericos/webcams/usb-fhd"],
   ["Perfect Choice PC-240747 cargador universal laptop puntas intercambiables USB", "PERFECT CHOICE", "computo/accesorios/cargadores-laptop/universales-puntas-usb"],
+  ["HP DeskJet Ink Advantage 2374 7WQ03A multifuncional tinta USB", "HP", "impresion/impresoras/multifuncionales-inyeccion-tinta/hp-deskjet"],
+  ["LG 22U401A-B AWMQ monitor 21.5 FHD 100Hz VA", "LG", "computo/monitores/oficina/22-fhd-100hz"],
+  ["Easy Line EL-993377 mouse optico USB negro 1000 DPI", "EASY LINE", "computo/perifericos/mouse/alambricos/basicos/1000-dpi"],
+  ["TP-Link TL-WR820N router Wi-Fi N300 2.4GHz", "TP-LINK", "redes/routers/wifi-n/n300"],
+  ["ADATA C906 AC906-32G-RWH memoria USB 32GB blanca", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb/plasticas"],
+  ["Logitech MK200 920-002716 kit teclado y mouse USB", "LOGITECH", "computo/perifericos/combos-teclado-mouse/alambricos/basicos"],
+  ["WD Green WDS100T5G0A SSD 1TB 2.5 SATA", "SANDISK", "computo/almacenamiento/ssd/2-5-sata/1tb"],
+  ["Easy Line EL-994121 mouse optico USB negro 1200 DPI", "EASY LINE", "computo/perifericos/mouse/alambricos/basicos/1200-dpi"],
+  ["Samsung LS24D300GALXZX S30GD monitor 24 FHD IPS 100Hz", "SAMSUNG", "computo/monitores/oficina/24-fhd-100hz"],
+  ["TP-Link Archer AX53 router AX3000 Gigabit Wi-Fi 6", "TP-LINK", "redes/routers/wifi-6/ax3000"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
