@@ -521,6 +521,16 @@ const researchedBatchCases = [
   ["Gabinete de pared WAM WC06UR06-A para rack 19 pulgadas 6U negro", "WAM", "infraestructura/racks-enfriamiento/gabinetes-pared/6u"],
   ["Enfriamiento liquido Gigabyte Gaming 240 ICE GME 240I AIO 240mm blanco ARGB", "GIGABYTE", "computo/componentes/enfriamiento/liquido-cpu/240mm/argb"],
   ["No break Koblenz 7522-USB 750VA 420W interactivo cuasisenoidal 10 contactos pantalla LCD", "KOBLENZ", "energia/no-breaks-ups/line-interactive/750va/lcd-usb"],
+  ["Cable de carga multipuerto Easy Line EL-994329 5 en 1 USB-C USB-A Lightning Micro USB 1.2 m", "EASY LINE", "accesorios/cables-adaptadores/usb/carga-multipuerto/5-en-1"],
+  ["Funda Brobotix 6007839 magnetica con teclado Bluetooth y touchpad para iPad Pro 11 M4", "BROBOTIX", "computo/tabletas/accesorios/fundas-con-teclado/ipad-pro-11-m4"],
+  ["Evolis S10212 CLM Card Lamination Module para Primacy y Primacy 2", "EVOLIS", "impresion/impresoras-tarjetas/accesorios/modulos-laminacion"],
+  ["Teclado gamer Brobotix K630 841581 USB RGB negro", "BROBOTIX", "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb"],
+  ["Memoria USB ADATA UC310 USB 3.2 Gen1 Type-A giratoria negra", "ADATA", "computo/almacenamiento/memorias-flash/usb/usb-3-2"],
+  ["Riel Brobotix 6005804 bracket montaje disco duro HDD SSD 2.5 a 3.5 con tornillos", "BROBOTIX", "computo/almacenamiento/accesorios-montaje/brackets-2-5-a-3-5"],
+  ["Diadema gamer Vortred Cloud Pass V-930433 USB 7.1 blanca cian microfono boom", "VORTRED", "audio/audifonos/gaming-alambricos/usb-7-1"],
+  ["Mouse gaming TechZone NS-GM05 alambrico USB 6 botones 3600 DPI negro", "TECHZONE", "computo/perifericos/mouse/alambricos/gaming/3600-dpi"],
+  ["Router Netis WF2409E WiFi N300 2.4GHz 3 antenas 5dBi 4 LAN 1 WAN", "NETIS", "redes/routers/wifi-n/n300"],
+  ["Audifonos Bluetooth Naceb Cetus NA-0307R diadema on-ear radio FM microSD rojo negro", "NACEB TECHNOLOGY", "audio/audifonos/bluetooth/diadema-on-ear/radio-fm"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
