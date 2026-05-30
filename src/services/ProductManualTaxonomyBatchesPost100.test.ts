@@ -2,6 +2,16 @@ import { describe, expect, it } from "vitest";
 import { classifyManualCategory } from "../../pb/lib/manualTaxonomy.mjs";
 
 const researchedBatchCases = [
+  ["Checador biometrico Nextep NE-234 control de asistencia rostro huella USB", "NEXTEP", "seguridad/control-acceso/biometricos/checadores-asistencia"],
+  ["Lubricante de silicon alta viscosidad Silimex SILUB AV 28.33 g para mecanismos", "SILIMEX", "computo/accesorios/limpieza/lubricantes-silicon/alta-viscosidad-28g"],
+  ["Tablet Huawei MatePad SE 11 53014GYU 8GB 128GB gris con M-Pen Lite", "HUAWEI", "computo/tabletas/android/11-pulgadas/huawei-matepad-se"],
+  ["Cable HDMI Naceb Gaming NA-0121 1.2 m 4K 8K negro macho macho", "NACEB GAMING", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/1-2m"],
+  ["Dock Kensington SD5600T K34009US Thunderbolt 3 USB-C dual 4K 96W PD", "KENSINGTON", "computo/accesorios/docks-hubs/thunderbolt-3/dual-4k-pd-96w"],
+  ["Organizador adhesivo Brobotix 406320 para cables paquete 24 piezas transparente", "BROBOTIX", "computo/accesorios/organizadores-cable/adhesivos"],
+  ["Audifonos gaming Necnon NBHG-KIMERA HI-FI 3.5mm USB RGB microfono fucsia", "NECNON", "audio/audifonos/gaming-alambricos/3-5mm-usb-rgb"],
+  ["Laptop Lanix XBook 42117 15.6 FHD Core i3-1315U 8GB 512GB Windows 11 Pro", "LANIX", "computo/laptops/productividad/15-6-pulgadas/intel-core-i3"],
+  ["Cable interno Brobotix 963852 PCI Express 6 pin hembra a 2 conectores 8 pin macho", "BROBOTIX", "computo/componentes/cables-internos/alimentacion-pcie/6-pin-a-doble-8-pin"],
+  ["Mica protectora Brobotix 6007228 cristal templado Lenovo Tab P12 TB-370FU", "BROBOTIX", "computo/tabletas/accesorios/protectores-pantalla/lenovo-tab-p12"],
   ["Grandstream PSU-GRP26x/2612-S fuente 5V 600mA para telefonos IP GRP260x", "GRANDSTREAM", "telefonia/telefonos-ip/accesorios/fuentes-poder"],
   ["Brobotix 651848 funda para laptop 15.6 pulgadas poliester negra", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas"],
   ["Evolis R2011 cinta negra monocromatica para impresoras de tarjetas 1000 impresiones", "EVOLIS", "impresion/consumibles/cintas-tarjetas/evolis/monocromas-negras"],
