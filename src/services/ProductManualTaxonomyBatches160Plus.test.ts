@@ -114,7 +114,7 @@ const batch160PlusCases = [
   ["Generico AP2-60W cargador Apple MagSafe 2 60W 16.5V 3.65A blanco", "GENERICO", "computo/accesorios/cargadores-laptop/apple-magsafe-2/60w", "laptops"],
   ["LG VO182H1 Smart Inverter Minisplit 1.5 toneladas frio calor 18000 BTU 230V", "LG", "climatizacion/aires-acondicionados/minisplit/inverter/18000-btu", "accessories"],
   ["UNV IPC3616SB-ADF28KMC-I1 camara IP turret ColorHunter Wise-ISP 6MP 2.8mm PoE", "UNV", "seguridad/cctv/camaras-ip-poe/turret/6mp-dual-light", "cameras"],
-    ["Perfect Choice PC-171652 hub USB-C 4 puertos negro", "PERFECT CHOICE", "computo/accesorios/docks-hubs/usb-c", "accessories"],
+  ["Perfect Choice PC-171652 hub USB-C 4 puertos negro", "PERFECT CHOICE", "computo/accesorios/docks-hubs/usb-c", "accessories"],
   ["Vorago AU-600 cargador de pared USB-C PD 100W 5 puertos", "VORAGO", "energia/cargadores-usb/pared-usb-c/100w-multipuerto", "accessories"],
   ["Bixolon SPP-R310 impresora movil termica 3 pulgadas para recibos y etiquetas", "BIXOLON", "impresion/impresoras/etiquetas/termicas-moviles", "printers_scanners"],
   ["Balam Rush Eolox Blaze EX50KW kit 3 ventiladores ARGB 120mm blancos", "BALAM RUSH", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb", "components"],
@@ -122,6 +122,16 @@ const batch160PlusCases = [
   ["Logitech G309 LIGHTSPEED mouse gaming inalambrico Bluetooth blanco", "LOGITECH", "computo/perifericos/mouse/inalambricos/gaming", "accessories"],
   ["Dahua DH-HAC-HFW1239TLMN-A-LED-0360B camara bullet HDCVI Full Color 2MP 3.6mm con microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-full-color", "cameras"],
   ["Kyocera TK-5282K toner negro original rendimiento 13000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5282k", "printers_scanners"],
+  ["Manhattan 461481 soporte de pared inclinable TV 37 a 80 pulgadas 80 kg", "MANHATTAN", "video/soportes-tv/pared/inclinables-37-80-80kg", "tvs"],
+  ["Ghia GCD581 cajon de dinero metalico RJ11 5 billetes 8 monedas negro", "GHIA", "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas", "accessories"],
+  ["Ovaltech OTHHT03XL bateria para laptop HP 11.55V 41Wh 3 celdas", "OVALTECH", "computo/accesorios/baterias-laptop/hp/ht03xl", "laptops"],
+  ["CyberPower CPS1215RM PDU rack 1U 15A 10 contactos NEMA 5-15R", "CYBERPOWER", "energia/pdu-rack/1u-15a-10-contactos", "power"],
+  ["Ultimate Ears WONDERBOOM 4 bocina Bluetooth portatil IP67 14h azul", "ULTIMATE EARS", "audio/bocinas/bluetooth/portatiles/ip67", "audio"],
+  ["Naceb NA-632 mouse gaming alambrico USB con mousepad 1200 DPI negro", "NACEB TECHNOLOGY", "gaming/accesorios/mouse-y-mousepad", "gaming"],
+  ["Ovaltech OVMDP-VGA adaptador Mini DisplayPort a VGA blanco", "OVALTECH", "accesorios/cables-adaptadores/video-displayport-vga/mini-displayport", "accessories"],
+  ["Uniarch IPC-B233-APF40W camara IP bullet Dual-light 3MP 4mm PoE", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/3mp-dual-light", "cameras"],
+  ["Omada ER7206 gateway VPN Gigabit multi-WAN SFP USB", "OMADA", "redes/routers/vpn/omada/er7206", "networking"],
+  ["Necnon NB-08Y bafle Bluetooth inalambrico 8 pulgadas LED con microfono", "NECNON", "audio/bocinas/bafles-portatiles/8-pulgadas", "audio"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

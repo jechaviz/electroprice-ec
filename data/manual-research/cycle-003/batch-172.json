@@ -1,0 +1,426 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b172-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 172,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5z7b07ezvqqcfgy",
+      "research": {
+        "confidence": 0.9,
+        "name": "Manhattan 461481 soporte de pared inclinable TV 37 a 80 pulgadas 80 kg",
+        "description": "Soporte Manhattan 461481 inclinable para pantallas de 37 a 80 pulgadas, capacidad 80 kg, ajuste de inclinacion -10 a +5 grados y VESA hasta 600 x 400.",
+        "manualCategoryPath": "video/soportes-tv/pared/inclinables-37-80-80kg",
+        "semanticCategoryPath": "video/soportes-tv/pared/inclinables-37-80-80kg/manhattan-461481",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-universal-flat-panel-tv-tilting-wall-mount-461481",
+        "gallery": ["https://s3.amazonaws.com/assets.mhint/downloads/57108/461481_datasheet_english.pdf"],
+        "documents": ["https://s3.amazonaws.com/assets.mhint/downloads/57108/461481_datasheet_english.pdf"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "461481",
+          "providerSku": "AC-6253",
+          "alternateProviderSku": "ACCITL4790",
+          "productType": "Soporte inclinable de pared para TV",
+          "screenSize": "37 a 80 pulgadas",
+          "capacity": "80 kg / 176 lb",
+          "vesa": "200x200, 400x200, 300x300, 400x400, 600x400",
+          "tilt": "-10 a +5 grados",
+          "extension": "53 mm",
+          "material": "Acero",
+          "providerBranchSummary": "Sucursal proveedor no disponible; stock combinado 3 entre CTOnline y CVA.",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "ACCITL4790", "stock": 1, "price": 42.03, "currency": "USD", "priceKind": "customer_price"},
+            {"providerId": "cva", "providerSku": "AC-6253", "stock": 2, "price": 43.12, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed lo clasifica como tvs con nombre corto AC; se normaliza como soporte TV inclinable.", "No hay sucursal visible en las ofertas del feed."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "measurements": {"dimensions": "53 x 700 x 440 mm", "weightCapacity": "80 kg"},
+        "sourceRefs": [
+          {"title": "Manhattan 461481 datasheet", "type": "manufacturer_spec", "url": "https://s3.amazonaws.com/assets.mhint/downloads/57108/461481_datasheet_english.pdf"},
+          {"title": "Electroprice provider stock AC-6253 ACCITL4790", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5zdmiyjr7c8ghw5",
+      "research": {
+        "confidence": 0.9,
+        "name": "Ghia GCD581 cajon de dinero metalico RJ11 5 billetes 8 monedas negro",
+        "description": "Cajon de dinero Ghia GCD581 para punto de venta, acero color negro, 5 compartimientos para billetes, 8 para monedas, ranura para documentos y apertura manual/electronica RJ11.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas/ghia-gcd581",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tienda.ghia.com.mx/index.php/cajon-de-dinero-ghia-compartimiento-5-billetes-y-8-monedas-modelo-gcd581.html",
+        "gallery": ["https://tienda.ghia.com.mx/index.php/cajon-de-dinero-ghia-compartimiento-5-billetes-y-8-monedas-modelo-gcd581.html"],
+        "specs": {
+          "brand": "GHIA",
+          "model": "GCD581",
+          "providerSku": "CAJ-26",
+          "productType": "Cajon de dinero POS",
+          "material": "Acero",
+          "color": "Negro",
+          "billCompartments": 5,
+          "coinCompartments": 8,
+          "interface": "RJ11",
+          "opening": "Manual / electronico",
+          "documentSlot": "Si",
+          "lock": "Cerradura con llave de 3 posiciones",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 7.",
+          "providerOffers": [{"providerId": "cva", "providerSku": "CAJ-26", "stock": 7, "price": 549.46, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es accesorio POS para manejo de efectivo.", "No hay sucursal visible en el feed."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "measurements": {"dimensions": "405 x 420 x 100 mm", "weight": "5.8 kg"},
+        "sourceRefs": [
+          {"title": "Ghia tienda GCD581", "type": "manufacturer_spec", "url": "https://tienda.ghia.com.mx/index.php/cajon-de-dinero-ghia-compartimiento-5-billetes-y-8-monedas-modelo-gcd581.html"},
+          {"title": "Punto de Venta para Negocio GCD581 dimensiones", "type": "retail_spec", "url": "https://puntodeventaparanegocio.com/producto/ghia-gcd581-cajon-de-dinero-acero-5-billetes-8-monedas-rj11-negro/"},
+          {"title": "Electroprice provider stock CAJ-26", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5ze0ywrfmoy64v5",
+      "research": {
+        "confidence": 0.9,
+        "name": "Ovaltech OTHHT03XL bateria para laptop HP 11.55V 41Wh 3 celdas",
+        "description": "Bateria Ovaltech OTHHT03XL compatible con HP Pavilion y HP 240/245/250, 11.55V, 3500mAh, 41Wh, 3 celdas Li-ion.",
+        "manualCategoryPath": "computo/accesorios/baterias-laptop/hp/ht03xl",
+        "semanticCategoryPath": "computo/accesorios/baterias-laptop/hp/ht03xl/ovaltech-othht03xl",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-hp-compaq/othht03xl/",
+        "gallery": ["https://www.ovaltech.com.mx/shop/baterias/ovaltech-hp-compaq/othht03xl/"],
+        "specs": {
+          "brand": "OVALTECH",
+          "model": "OTHHT03XL",
+          "providerSku": "BATOVL1400",
+          "productType": "Bateria para laptop HP",
+          "batteryPart": "HT03XL",
+          "voltage": "11.55V",
+          "capacity": "3500mAh",
+          "energy": "41Wh",
+          "cells": 3,
+          "chemistry": "Li-ion",
+          "compatibility": "HP Pavilion 14-CE, 14-CF, 14-CM, 14-CK, 14-DF, 14-MA, 15-DA, 15-CS, 15-DB, HP 240, 245, 250",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 54, DFA 45, TAM 5, CUE 4, XLP 3, HMO 2, TRN 2, AGS 2, LEO 2, MOR 2, SLT 2, COL 2.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 54},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 45},
+            {"providerId": "ctonline", "warehouseCode": "TAM", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "CUE", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "XLP", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "HMO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "AGS", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "SLT", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "COL", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BATOVL1400", "stock": 145, "price": 34.72, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed ya contiene sucursales, pero el nombre corto no expone compatibilidad HP HT03XL."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "measurements": {"batteryEnergy": "41 Wh", "batteryCapacity": "3500 mAh"},
+        "sourceRefs": [
+          {"title": "Ovaltech OTHHT03XL official page", "type": "manufacturer_spec", "url": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-hp-compaq/othht03xl/"},
+          {"title": "Electroprice provider stock BATOVL1400", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5zh3g65lpxyu1r5",
+      "research": {
+        "confidence": 0.9,
+        "name": "CyberPower CPS1215RM PDU rack 1U 15A 10 contactos NEMA 5-15R",
+        "description": "PDU basico CyberPower CPS1215RM de montaje en rack 1U, 15A, 100-125V, 10 salidas NEMA 5-15R posteriores y cable de 15 ft con clavija NEMA 5-15P.",
+        "manualCategoryPath": "energia/pdu-rack/1u-15a-10-contactos",
+        "semanticCategoryPath": "energia/pdu-rack/1u-15a-10-contactos/cyberpower-cps1215rm",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/pdus/basic/cps1215rm/",
+        "gallery": ["https://www.cyberpowersystems.com/product/pdus/basic/cps1215rm/"],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "CPS1215RM",
+          "providerSku": "AC-6923",
+          "alternateProviderSku": "ACCCYP090",
+          "productType": "PDU rack basico",
+          "rackHeight": "1U",
+          "phase": "Single phase",
+          "current": "15A",
+          "voltage": "100-125V",
+          "frequency": "60Hz",
+          "inputPlug": "NEMA 5-15P",
+          "outlets": "10 x NEMA 5-15R",
+          "cordLength": "15 ft / 4.6 m",
+          "material": "Metal",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 15. CVA lista AC-6923 sin stock.",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "ACCCYP090", "stock": 15, "price": 1103.33, "currency": "MXN", "priceKind": "customer_price"},
+            {"providerId": "cva", "providerSku": "AC-6923", "stock": 0, "price": 1114.86, "currency": "MXN", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es distribucion de energia para rack.", "No hay sucursal visible en el feed."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "measurements": {"dimensions": "438 x 44 x 121 mm", "weight": "2.27 kg", "shippingWeight": "2.64 kg"},
+        "sourceRefs": [
+          {"title": "CyberPower CPS1215RM product details", "type": "manufacturer_spec", "url": "https://www.cyberpowersystems.com/product/pdus/basic/cps1215rm/"},
+          {"title": "Electroprice provider stock AC-6923 ACCCYP090", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "60shpqp3dd6a6zs",
+      "research": {
+        "confidence": 0.88,
+        "brand": "ULTIMATE EARS",
+        "name": "Ultimate Ears WONDERBOOM 4 bocina Bluetooth portatil IP67 14h azul",
+        "description": "Bocina portatil Ultimate Ears WONDERBOOM 4 Bluetooth con sonido 360, resistencia IP67, flotante, bateria de hasta 14 horas y modo outdoor/podcast.",
+        "manualCategoryPath": "audio/bocinas/bluetooth/portatiles/ip67",
+        "semanticCategoryPath": "audio/bocinas/bluetooth/portatiles/ip67/ultimate-ears-wonderboom-4",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ultimateears.com/es-mx/shop/p/wonderboom-4.984-001890",
+        "gallery": ["https://www.ultimateears.com/es-mx/shop/p/wonderboom-4.984-001890"],
+        "specs": {
+          "brand": "ULTIMATE EARS",
+          "manufacturer": "Logitech",
+          "model": "WONDERBOOM 4",
+          "partNumber": "984-001890",
+          "providerSku": "SPK-2740",
+          "productType": "Bocina Bluetooth portatil",
+          "connectivity": "Bluetooth",
+          "batteryLife": "Hasta 14 horas",
+          "protection": "IP67",
+          "features": "Sonido 360, flotante, modo outdoor, modo podcast",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 3.",
+          "providerOffers": [{"providerId": "cva", "providerSku": "SPK-2740", "stock": 3, "price": 1715.85, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed usa marca Logitech; la linea comercial es Ultimate Ears WONDERBOOM 4.", "No hay sucursal visible en el feed."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "measurements": {"dimensions": "104 x 95.3 x 95.3 mm", "weight": "420 g"},
+        "sourceRefs": [
+          {"title": "Ultimate Ears WONDERBOOM 4 Mexico", "type": "manufacturer_spec", "url": "https://www.ultimateears.com/es-mx/shop/p/wonderboom-4.984-001890"},
+          {"title": "Wonderboom 4 data sheet dimensions", "type": "retail_spec", "url": "https://media.howard.com/CNET/Product_Data_Sheet/105C4512-BAE7-46EF-8329-AC7BAF835BF2.pdf"},
+          {"title": "Electroprice provider stock SPK-2740", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "61505x81siy9452",
+      "research": {
+        "confidence": 0.9,
+        "brand": "NACEB TECHNOLOGY",
+        "name": "Naceb NA-632 mouse gaming alambrico USB con mousepad 1200 DPI negro",
+        "description": "Kit Naceb NA-632 con mouse optico gaming alambrico USB tipo A de 4 botones, 1200 DPI, forma ambidiestra y mousepad incluido.",
+        "manualCategoryPath": "gaming/accesorios/mouse-y-mousepad",
+        "semanticCategoryPath": "gaming/accesorios/mouse-y-mousepad/naceb-na-632",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zegucom.com.mx/producto/mouses-y-accesorios-de-mouse/mouse-opticos-laser/mouse-optico-alambrico-gaming-naceb-na-632-con-mouse-pad-naceb-usb-4/TkEtNjMy",
+        "gallery": ["https://www.zegucom.com.mx/producto/mouses-y-accesorios-de-mouse/mouse-opticos-laser/mouse-optico-alambrico-gaming-naceb-na-632-con-mouse-pad-naceb-usb-4/TkEtNjMy"],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-632",
+          "upc": "7502262806329",
+          "providerSku": "KITNCB110",
+          "productType": "Kit mouse gaming y mousepad",
+          "interface": "USB tipo A",
+          "buttons": 4,
+          "sensor": "Optico",
+          "resolution": "1200 DPI",
+          "formFactor": "Ambidiestro",
+          "color": "Negro / multicolor",
+          "rechargeable": "No",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 10, SLP 4, GDL 4, TXA 4, CEL 4, DGO 3, AGS 3, LEO 3, MTY 3, ACX 3, CAM 3, CLN 2; stock total 70.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "SLP", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "TXA", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "CEL", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "DGO", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "AGS", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "MTY", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "ACX", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "CAM", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "CLN", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "KITNCB110", "stock": 70, "price": 111.77, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed lo clasifica como laptops; es periferico/accesorio gaming.", "El resumen visible de sucursales no suma todo el stock total de 70, por lo que se conserva el total del proveedor."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "sourceRefs": [
+          {"title": "Zegucom Naceb NA-632 product page", "type": "retail_spec", "url": "https://www.zegucom.com.mx/producto/mouses-y-accesorios-de-mouse/mouse-opticos-laser/mouse-optico-alambrico-gaming-naceb-na-632-con-mouse-pad-naceb-usb-4/TkEtNjMy"},
+          {"title": "Electroprice provider stock KITNCB110", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "616eg8kmxzi0r0s",
+      "research": {
+        "confidence": 0.88,
+        "name": "Ovaltech OVMDP-VGA adaptador Mini DisplayPort a VGA blanco",
+        "description": "Adaptador Ovaltech OVMDP-VGA de Mini DisplayPort macho a VGA hembra para conectar equipos con Mini DisplayPort/Thunderbolt a monitores o proyectores VGA.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport-vga/mini-displayport",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport-vga/mini-displayport/ovaltech-ovmdp-vga",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/shop/accesorios/adaptador/ovmdp-vga/",
+        "gallery": ["https://www.ovaltech.com.mx/shop/accesorios/adaptador/ovmdp-vga/"],
+        "specs": {
+          "brand": "OVALTECH",
+          "model": "OVMDP-VGA",
+          "providerSku": "ACCOVL720",
+          "productType": "Adaptador de video",
+          "input": "Mini DisplayPort macho",
+          "output": "VGA hembra",
+          "color": "Blanco",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 2.",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "DFA", "stock": 2}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCOVL720", "stock": 2, "price": 5.37, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es adaptador de video Mini DisplayPort a VGA."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "sourceRefs": [
+          {"title": "Ovaltech OVMDP-VGA product page", "type": "manufacturer_spec", "url": "https://www.ovaltech.com.mx/shop/accesorios/adaptador/ovmdp-vga/"},
+          {"title": "Electroprice provider stock ACCOVL720", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6173h6u6ngupfdn",
+      "research": {
+        "confidence": 0.9,
+        "name": "Uniarch IPC-B233-APF40W camara IP bullet Dual-light 3MP 4mm PoE",
+        "description": "Camara IP bullet Uniarch IPC-B233-APF40W de 3MP con lente fijo 4mm, iluminacion dual, compresion Ultra 265/H.265, PoE, audio detection, ONVIF y proteccion IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/3mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/3mp-dual-light/uniarch-ipc-b233-apf40w",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://uniarch.cn/product/IPC-B233-APF40W/",
+        "gallery": ["https://uniarch.cn/res/202307/27/20230727_1884356_IPC-B233-APF40W%203MP%20Fixed%20Dual-light%20Bullet%20Network%20Camera_973727_575360_0.pdf"],
+        "documents": ["https://uniarch.cn/res/202307/27/20230727_1884356_IPC-B233-APF40W%203MP%20Fixed%20Dual-light%20Bullet%20Network%20Camera_973727_575360_0.pdf"],
+        "specs": {
+          "brand": "UNIARCH",
+          "model": "IPC-B233-APF40W",
+          "providerSku": "CAMUNI260",
+          "productType": "Camara IP bullet PoE",
+          "resolution": "3MP",
+          "lens": "4 mm",
+          "illumination": "Dual-light",
+          "videoCompression": "Ultra 265, H.265, H.264",
+          "network": "10/100M Ethernet, PoE",
+          "integration": "ONVIF Profile S/T, API",
+          "audio": "Audio detection; sin audio bidireccional",
+          "protection": "IP67",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 30, MOR 20, PUE 10, CUE 10, PAC 10, CMT 9, MID 5, DFP 5, D2A 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 30},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 20},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "CUE", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "PAC", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 9},
+            {"providerId": "ctonline", "warehouseCode": "MID", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "DFP", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAMUNI260", "stock": 100, "price": 30.23, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed no expone en el nombre la resolucion ni el lente; la ficha lo identifica como 3MP dual-light 4mm."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "sourceRefs": [
+          {"title": "Uniarch IPC-B233-APF40W datasheet", "type": "manufacturer_spec", "url": "https://uniarch.cn/res/202307/27/20230727_1884356_IPC-B233-APF40W%203MP%20Fixed%20Dual-light%20Bullet%20Network%20Camera_973727_575360_0.pdf"},
+          {"title": "Electroprice provider stock CAMUNI260", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "61tb8jyle5bsbf6",
+      "research": {
+        "confidence": 0.9,
+        "name": "Omada ER7206 gateway VPN Gigabit multi-WAN SFP USB",
+        "description": "Gateway VPN Omada ER7206 de TP-Link con 1 puerto SFP WAN/LAN Gigabit, 5 puertos RJ45 Gigabit, USB 3.0 para LTE/almacenamiento, balanceo multi-WAN y VPN SSL/IPSec/GRE/WireGuard/PPTP/L2TP/OpenVPN.",
+        "manualCategoryPath": "redes/routers/vpn/omada/er7206",
+        "semanticCategoryPath": "redes/routers/vpn/omada/er7206/tp-link-omada-er7206",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.omadanetworks.com/us/business-networking/omada-router-wired-router/er7206/",
+        "gallery": ["https://www.omadanetworks.com/us/business-networking/omada-router-wired-router/er7206/"],
+        "specs": {
+          "brand": "OMADA",
+          "manufacturer": "TP-Link",
+          "model": "ER7206",
+          "providerSku": "ROUTPL980",
+          "productType": "Gateway VPN Gigabit",
+          "ports": "1 x Gigabit SFP WAN/LAN, 5 x Gigabit RJ45, 1 x USB 3.0",
+          "wan": "Hasta 5 puertos WAN con balanceo de carga",
+          "vpn": "SSL, IPSec, GRE, WireGuard, PPTP, L2TP, OpenVPN",
+          "management": "Omada SDN cloud/web/app",
+          "mounting": "Escritorio, pared o rack",
+          "providerBranchSummary": "Disponible por sucursal proveedor: MAZ 1.",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ROUTPL980", "stock": 1, "price": 80.23, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed ya esta en networking, pero el nombre corto omite que es gateway VPN Omada multi-WAN."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "sourceRefs": [
+          {"title": "Omada ER7206 official product page", "type": "manufacturer_spec", "url": "https://www.omadanetworks.com/us/business-networking/omada-router-wired-router/er7206/"},
+          {"title": "Electroprice provider stock ROUTPL980", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6222iebgmp6198p",
+      "research": {
+        "confidence": 0.88,
+        "name": "Necnon NB-08Y bafle Bluetooth inalambrico 8 pulgadas LED con microfono",
+        "description": "Bafle Bluetooth Necnon NB-08Y de 8 pulgadas con Blue Link, iluminacion LED multicolor, radio FM, USB, microSD, auxiliar 3.5 mm, controles de agudos/graves, display digital y microfono alambrico incluido.",
+        "manualCategoryPath": "audio/bocinas/bafles-portatiles/8-pulgadas",
+        "semanticCategoryPath": "audio/bocinas/bafles-portatiles/8-pulgadas/necnon-nb-08y",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://necnontrade.com/producto/bafle-bluetooth-inalambrico-8-nb-08y/",
+        "gallery": ["https://necnontrade.com/producto/bafle-bluetooth-inalambrico-8-nb-08y/"],
+        "specs": {
+          "brand": "NECNON",
+          "model": "NB-08Y",
+          "providerSku": "BOCNNN880",
+          "productType": "Bafle Bluetooth portatil",
+          "speakerSize": "8 pulgadas",
+          "powerMarketing": "3800 W PMPO",
+          "connectivity": "Bluetooth Blue Link, USB, microSD, AUX 3.5 mm, radio FM",
+          "lighting": "LED multicolor",
+          "controls": "Agudos y graves",
+          "included": "Microfono alambrico, cable de carga, manual",
+          "providerBranchSummary": "Disponible por sucursal proveedor: OAX 5, TXA 3, CUN 2, TRN 1, SLT 1, IRA 1, TXL 1, CAM 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "OAX", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "TXA", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "CUN", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "SLT", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "TXL", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "CAM", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BOCNNN880", "stock": 15, "price": 283.91, "currency": "MXN", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es audio/bafle portatil.", "El color exacto puede variar; el fabricante lista variantes azul, blanco, morado, negro y rojo."],
+          "providerStockVerifiedAt": "2026-05-30T22:20:00Z"
+        },
+        "sourceRefs": [
+          {"title": "Necnon NB-08Y product page", "type": "manufacturer_spec", "url": "https://necnontrade.com/producto/bafle-bluetooth-inalambrico-8-nb-08y/"},
+          {"title": "Electroprice provider stock BOCNNN880", "type": "provider_stock", "observedAt": "2026-05-30T22:20:00Z"}
+        ]
+      }
+    }
+  ]
+}
