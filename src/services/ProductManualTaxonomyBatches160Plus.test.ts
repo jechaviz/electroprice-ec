@@ -92,6 +92,16 @@ const batch160PlusCases = [
   ["Game Factor MPG500 mousepad gamer XL RGB 800 x 300 x 4 mm", "GAME FACTOR", "computo/accesorios/mousepads/gaming-rgb/extendidos", "accessories"],
   ["Zebra ZD220D impresora de etiquetas termica directa 4 pulgadas 203 dpi USB", "ZEBRA", "impresion/impresoras/etiquetas/termicas-directas/desktop-4-pulgadas", "printers_scanners"],
   ["Silimex 7503018454009 toallitas humedas limpiadoras Gamer 30 piezas", "SILIMEX", "computo/accesorios/limpieza/toallitas/gamer-30-piezas", "accessories"],
+  ["Logitech M110 Silent 910-006757 mouse alambrico USB 1000 DPI gris", "LOGITECH", "computo/perifericos/mouse/alambricos/basicos/1000-dpi", "accessories"],
+  ["Logitech Z207 bocinas Bluetooth 2.0 10W pico 5W RMS 3.5mm negras", "LOGITECH", "computo/perifericos/bocinas-audio/2-0", "headphones"],
+  ["Dell Pro Max 16 Core Ultra 9 285H 32GB 1TB RTX PRO 2000 Blackwell", "DELL", "computo/laptops/workstations/16-pulgadas/dell-pro-max-16", "laptops"],
+  ["Uniarch NVR-104E2-P4 NVR 4 canales PoE Ultra265 HDMI 4K", "UNIARCH", "seguridad/cctv/dvr-nvr/nvr-poe", "cameras"],
+  ["Perfect Choice Meucci PC-117223 manos libres Bluetooth 20h USB-C", "PERFECT CHOICE", "audio/audifonos/bluetooth/monoaurales-uc", "headphones"],
+  ["LG UltraGear 24GS60F-B monitor gaming 24 FHD IPS 180Hz 1ms", "LG", "computo/monitores/gaming/24-fhd/180hz", "monitors"],
+  ["Naceb Gaming NA-0122 cable HDMI 2.1 3m 8K 48Gbps eARC", "NACEB TECHNOLOGY", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m", "accessories"],
+  ["BRobotix 651855 funda City poliester gris para laptop 15.6 pulgadas", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas", "accessories"],
+  ["Generico cargador compatible Dell 65W 19.5V 3.34A punta 4.5 x 3.0", "GENERICO", "computo/accesorios/cargadores-laptop/compatibles-dell/65w-19-5v-4-5x3-0", "laptops"],
+  ["Grandstream GRP2602P telefono IP 2 lineas 4 cuentas SIP PoE", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/2-lineas/poe", "networking"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

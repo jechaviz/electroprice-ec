@@ -37,4 +37,6 @@ export const MANUAL_CATEGORY_TREE_CYCLE003 = [
   { path: 'impresion/impresoras/etiquetas/termicas-directas/desktop-4-pulgadas', name: 'Impresoras de etiquetas desktop 4 pulgadas termicas directas', legacyCategory: 'printers_scanners' },
   { path: 'computo/accesorios/limpieza/toallitas', name: 'Toallitas de limpieza para electronica', legacyCategory: 'accessories' },
   { path: 'computo/accesorios/limpieza/toallitas/gamer-30-piezas', name: 'Toallitas gamer de limpieza 30 piezas', legacyCategory: 'accessories' },
+  { path: 'computo/perifericos/mouse/alambricos/basicos/1000-dpi', name: 'Mouse alambricos basicos 1000 DPI', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/cargadores-laptop/compatibles-dell/65w-19-5v-4-5x3-0', name: 'Cargadores Dell 65W 19.5V punta 4.5 x 3.0 mm', legacyCategory: 'laptops' },
 ];

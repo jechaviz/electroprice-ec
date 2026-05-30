@@ -1,0 +1,434 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b169-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 169,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5qmvy5yya6s78ym",
+      "research": {
+        "confidence": 0.9,
+        "name": "Logitech M110 Silent 910-006757 mouse alambrico USB 1000 DPI gris",
+        "description": "Mouse Logitech M110 Silent alambrico USB-A con sensor optico de 1000 DPI, 3 botones, rueda de desplazamiento y tecnologia SilentTouch para reducir ruido de clics.",
+        "manualCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/alambricos/basicos/1000-dpi/logitech-m110-silent",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10433968"],
+        "manufacturerUrl": "https://support.logi.com/hc/en-us/articles/360023465953-M110-Technical-Specifications",
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "M110 Silent",
+          "partNumber": "910-006757",
+          "providerSku": "MOULOG3100 / MS-1608",
+          "productType": "Mouse alambrico USB",
+          "sensor": "Optico",
+          "dpi": "1000",
+          "buttons": "3 botones con rueda",
+          "connection": "USB-A",
+          "cableLength": "1.8 m",
+          "handedness": "Ambidiestro",
+          "color": "Gris",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 3, CTOnline stock 0.",
+          "providerOffers": [
+            {"providerId":"cva","providerSku":"MS-1608","stock":3,"price":136.61,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"ctonline","providerSku":"MOULOG3100","stock":0,"price":102.35,"currency":"MXN","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["El titulo previo no separaba la version Silent; se renombra a M110 Silent alambrico.", "CTOnline aparece sin stock y la oferta positiva viene de CVA."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"dimensions":"112.96 x 61.7 x 38.4 mm", "weight":"85 g", "cableLength":"1.8 m"},
+        "sourceRefs": [
+          {"title":"Logitech M110 Technical Specifications", "type":"manufacturer_spec", "url":"https://support.logi.com/hc/en-us/articles/360023465953-M110-Technical-Specifications"},
+          {"title":"CVA MS-1608 and CTOnline MOULOG3100 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5qpcdc0whvc4jyn",
+      "research": {
+        "confidence": 0.9,
+        "name": "Logitech Z207 bocinas Bluetooth 2.0 10W pico 5W RMS negras",
+        "description": "Bocinas de escritorio Logitech Z207 2.0 con Bluetooth y entrada auxiliar 3.5 mm, 10W pico, 5W RMS, control frontal y salida para audifonos.",
+        "manualCategoryPath": "computo/perifericos/bocinas-audio/2-0",
+        "semanticCategoryPath": "computo/perifericos/bocinas-audio/2-0/logitech-z207",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCLOG1280/BOCLOG1280_full.jpg"],
+        "manufacturerUrl": "https://www.logitech.com/en-us/shop/p/z207-stereo-speakers-bluetooth.980-001294",
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "Z207",
+          "partNumber": "980-001294",
+          "providerSku": "BOCLOG1280",
+          "productType": "Bocinas 2.0 Bluetooth para escritorio",
+          "speakerSystem": "2.0 estereo",
+          "power": "10W pico / 5W RMS",
+          "connectivity": "Bluetooth 4.1/4.2 y entrada auxiliar 3.5 mm",
+          "driverSize": "63.5 mm",
+          "wirelessRange": "Hasta 20 m",
+          "controls": "Encendido, volumen y emparejamiento en satelite derecho",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 4, TXA 2, AGS 1, IRA 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":4},
+            {"providerId":"ctonline","warehouseCode":"TXA","stock":2},
+            {"providerId":"ctonline","warehouseCode":"AGS","stock":1},
+            {"providerId":"ctonline","warehouseCode":"IRA","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"BOCLOG1280","stock":8,"price":1471.77,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Se mantiene en bocinas 2.0; no es audifono ni accesorio generico."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"dimensions":"241 x 90 x 124 mm por satelite", "weight":"992.9 g conjunto"},
+        "sourceRefs": [
+          {"title":"Logitech Z207 product page", "type":"manufacturer_spec", "url":"https://www.logitech.com/en-us/shop/p/z207-stereo-speakers-bluetooth.980-001294"},
+          {"title":"Logitech Z207 Technical Specifications", "type":"manufacturer_spec", "url":"https://support.logi.com/hc/en-gb/articles/360023303754-Z207-Technical-Specifications"},
+          {"title":"CTOnline BOCLOG1280 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5rnryb3afkazt6g",
+      "research": {
+        "confidence": 0.88,
+        "name": "Dell Pro Max 16 Core Ultra 9 285H 32GB 1TB RTX PRO 2000 Blackwell",
+        "description": "Workstation movil Dell Pro Max 16 con Intel Core Ultra 9 285H, 32GB, SSD 1TB, NVIDIA RTX PRO 2000 Blackwell 8GB GDDR7, pantalla 16 pulgadas WUXGA/FHD+ y Windows 11 Pro.",
+        "manualCategoryPath": "computo/laptops/workstations/16-pulgadas/dell-pro-max-16",
+        "semanticCategoryPath": "computo/laptops/workstations/16-pulgadas/dell-pro-max-16/ultra-9-rtx-pro-2000",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/WKSDEL5470/WKSDEL5470_full.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-DELL-30002001240213-7085e5.png"],
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-laptops/dell-pro-max-16-premium-laptop/spd/dell-pro-max-ma16250-laptop/bts104_ma16250_usx",
+        "specs": {
+          "brand": "DELL",
+          "model": "Pro Max 16",
+          "commercialModel": "Dell Pro Max 16 Premium MA16250",
+          "providerSku": "WKSDEL5470",
+          "productType": "Workstation movil",
+          "processor": "Intel Core Ultra 9 285H",
+          "memory": "32GB LPDDR5x",
+          "storage": "1TB SSD",
+          "graphics": "NVIDIA RTX PRO 2000 Blackwell 8GB GDDR7",
+          "display": "16 pulgadas 1920 x 1200 WUXGA/FHD+",
+          "operatingSystem": "Windows 11 Pro",
+          "keyboard": "Ingles segun proveedor",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 31, D2A 25, CMT 11, IRA 5.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":31},
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":25},
+            {"providerId":"ctonline","warehouseCode":"CMT","stock":11},
+            {"providerId":"ctonline","warehouseCode":"IRA","stock":5}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"WKSDEL5470","stock":72,"price":49200.6,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La regla previa de Dell Pro Max 16 cubria variantes Ultra 7/235H; se amplia manualmente a la variante Ultra 9 285H con RTX PRO 2000."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"dimensions":"353.8 x 240.28 x 20.85-22 mm", "weight":"Desde 2.19 kg"},
+        "sourceRefs": [
+          {"title":"Dell Pro Max 16 Premium configuration", "type":"manufacturer_spec", "url":"https://www.dell.com/en-us/shop/dell-laptops/dell-pro-max-16-premium-laptop/spd/dell-pro-max-ma16250-laptop/bts104_ma16250_usx"},
+          {"title":"Dell Pro Max 16 Premium spec sheet", "type":"manufacturer_datasheet", "url":"https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-pro-max-16-premium-laptop-spec-sheet.pdf"},
+          {"title":"CTOnline WKSDEL5470 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5s3mi6squ55xeu2",
+      "research": {
+        "confidence": 0.88,
+        "name": "Uniarch NVR-104E2-P4 NVR 4 canales PoE Ultra265 HDMI 4K",
+        "description": "NVR Uniarch NVR-104E2-P4 para videovigilancia IP con 4 canales, 4 puertos PoE, compresion Ultra265/H.265/H.264, salida HDMI 4K/VGA y bahia SATA para disco duro.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/uniarch-nvr-104e2-p4",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NVRUNI050/NVRUNI050_full.jpg"],
+        "manufacturerUrl": "https://uniarch.cn/res/202212/01/20221201_1863387_Uniarch%20Kit-UNA-4041W%20NVR-104E2-P4%26IPC-T1E4-AF28K%20V1.1_957527_575359_0.pdf",
+        "specs": {
+          "brand": "UNIARCH",
+          "model": "NVR-104E2-P4",
+          "providerSku": "NVRUNI050",
+          "productType": "NVR IP PoE",
+          "channels": "4 canales",
+          "poePorts": "4 puertos PoE IEEE 802.3af/at",
+          "compression": "Ultra265, H.265, H.264",
+          "videoOutput": "HDMI 4K y VGA",
+          "maxResolution": "Hasta 8MP",
+          "storage": "1 x SATA 3.5 hasta 6TB",
+          "bandwidth": "40 Mbps entrada / 40 Mbps salida",
+          "ports": "2 USB 2.0, RJ45",
+          "providerBranchSummary": "Disponible por sucursal proveedor: MOR 2.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"MOR","stock":2}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"NVRUNI050","stock":2,"price":50.52,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Se precisa de DVR/NVR general a NVR PoE de 4 canales."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"dimensions":"260 x 243 x 46 mm", "weight":"<= 1.2 kg sin HDD"},
+        "sourceRefs": [
+          {"title":"Uniarch NVR-104E2-P4 datasheet", "type":"manufacturer_datasheet", "url":"https://uniarch.cn/res/202212/01/20221201_1863387_Uniarch%20Kit-UNA-4041W%20NVR-104E2-P4%26IPC-T1E4-AF28K%20V1.1_957527_575359_0.pdf"},
+          {"title":"CTOnline NVRUNI050 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5s9njh3t8pztj00",
+      "research": {
+        "confidence": 0.9,
+        "name": "Perfect Choice Meucci PC-117223 manos libres Bluetooth 20h USB-C",
+        "description": "Audifono manos libres monoaural Perfect Choice Meucci PC-117223 con Bluetooth 5.2, bateria 180mAh, hasta 20 horas de uso, carga USB-C y compatibilidad Android, iOS y Windows.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/monoaurales-uc",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/monoaurales-uc/perfect-choice-meucci-pc-117223",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10448774"],
+        "manufacturerUrl": "https://perfectchoice.me/products/audifono-manos-libres-bluetooth-20h-de-uso-meucci-perfect-choice",
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-117223",
+          "commercialModel": "Meucci",
+          "providerSku": "BOCMST4160 / SPK-2635",
+          "productType": "Audifono manos libres Bluetooth monoaural",
+          "connectivity": "Bluetooth 5.2 2.4GHz",
+          "range": "Hasta 10 m",
+          "battery": "180 mAh",
+          "autonomy": "Hasta 20 horas",
+          "standby": "Hasta 180 horas segun retail",
+          "chargeTime": "2 horas",
+          "chargeConnector": "USB-C",
+          "compatibility": "Android, iOS, Windows",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 46, CVA stock 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"BOCMST4160","stock":46,"price":217.31,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"SPK-2635","stock":0,"price":213.75,"currency":"MXN","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["Se corrige de bocina/accesorio a manos libres Bluetooth monoaural.", "CVA aparece sin stock; CTOnline mantiene disponibilidad positiva."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"dimensions":"6.9 x 1.8 x 2.9 cm", "weight":"13.2 g"},
+        "sourceRefs": [
+          {"title":"Perfect Choice Meucci PC-117223 official page", "type":"manufacturer_spec", "url":"https://perfectchoice.me/products/audifono-manos-libres-bluetooth-20h-de-uso-meucci-perfect-choice"},
+          {"title":"CTOnline BOCMST4160 and CVA SPK-2635 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5snj23r8u8sl1e6",
+      "research": {
+        "confidence": 0.9,
+        "name": "LG UltraGear 24GS60F-B monitor gaming 24 FHD IPS 180Hz 1ms",
+        "description": "Monitor gamer LG UltraGear 24GS60F-B de 23.8 pulgadas FHD IPS, 180Hz, 1ms GtG, HDR10, sRGB 99%, compatible NVIDIA G-SYNC y AMD FreeSync.",
+        "manualCategoryPath": "computo/monitores/gaming/24-fhd/180hz",
+        "semanticCategoryPath": "computo/monitores/gaming/24-fhd/180hz/lg-ultragear-24gs60f-b",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10465496"],
+        "manufacturerUrl": "https://www.lg.com/us/monitors/lg-24gs60f-b-gaming-monitor",
+        "specs": {
+          "brand": "LG",
+          "model": "24GS60F-B",
+          "providerSku": "MONLGE2880 / MNL-2989",
+          "productType": "Monitor gaming",
+          "screenSize": "23.8 pulgadas",
+          "panel": "IPS",
+          "resolution": "1920 x 1080 FHD",
+          "refreshRate": "180Hz",
+          "responseTime": "1ms GtG",
+          "brightness": "300 cd/m2",
+          "color": "sRGB 99%",
+          "hdr": "HDR10",
+          "adaptiveSync": "NVIDIA G-SYNC Compatible, AMD FreeSync",
+          "ports": "1 HDMI 2.0, 1 DisplayPort 1.4, salida audifonos",
+          "vesa": "100 x 100 mm",
+          "tilt": "-5 a 15 grados",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 47, CVA stock 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"MONLGE2880","stock":47,"price":2708.6,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"MNL-2989","stock":0,"price":0,"currency":"MXN","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["Se identifica como LG UltraGear 24GS60F-B; CVA no mantiene stock positivo."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"withStand":"21.3 x 16.1 x 7.1 in, 8.8 lb", "withoutStand":"21.3 x 12.7 x 1.7 in, 7.7 lb", "package":"24.1 x 5.9 x 15.6 in, 11.5 lb"},
+        "sourceRefs": [
+          {"title":"LG 24GS60F-B official product page", "type":"manufacturer_spec", "url":"https://www.lg.com/us/monitors/lg-24gs60f-b-gaming-monitor"},
+          {"title":"CTOnline MONLGE2880 and CVA MNL-2989 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5t7jd0jk7gfig8x",
+      "research": {
+        "confidence": 0.9,
+        "name": "Naceb Gaming NA-0122 cable HDMI 2.1 3m 8K 48Gbps eARC",
+        "description": "Cable HDMI Naceb Gaming NA-0122 de 3 m version 2.1, 48Gbps, resolucion 8K 60Hz y 4K 60/120Hz, compatible con HDR, VRR, eARC, Dolby Vision y conectores banados en oro.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/3m/naceb-na-0122",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CABNCB480/CABNCB480_1_full.jpg"],
+        "manufacturerUrl": "https://naceb.com.mx/producto/cable-hdmi-2-1-4k-8k-earc-3m/",
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0122",
+          "providerSku": "CABNCB480",
+          "productType": "Cable HDMI 2.1",
+          "length": "3 m",
+          "bandwidth": "48Gbps",
+          "resolution": "8K 60Hz, 4K 60/120Hz",
+          "features": ["HDR", "VRR", "eARC", "Dolby Vision", "Dolby TrueHD", "DTS-HD Master Audio"],
+          "connectorMaterial": "Banado en oro 24K",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: HMO 10, OBR 5, LMO 5, GDL 5, MOR 5, VER 5, COL 5, OAX 5, TOL 5, PAC 5, DFP 5, DFA 5. Desglose visible parcial.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"HMO","stock":10},
+            {"providerId":"ctonline","warehouseCode":"OBR","stock":5},
+            {"providerId":"ctonline","warehouseCode":"LMO","stock":5},
+            {"providerId":"ctonline","warehouseCode":"GDL","stock":5},
+            {"providerId":"ctonline","warehouseCode":"MOR","stock":5},
+            {"providerId":"ctonline","warehouseCode":"VER","stock":5},
+            {"providerId":"ctonline","warehouseCode":"COL","stock":5},
+            {"providerId":"ctonline","warehouseCode":"OAX","stock":5},
+            {"providerId":"ctonline","warehouseCode":"TOL","stock":5},
+            {"providerId":"ctonline","warehouseCode":"PAC","stock":5},
+            {"providerId":"ctonline","warehouseCode":"DFP","stock":5},
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":5}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"CABNCB480","stock":134,"price":176.47,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Sucursales visibles suman 65 contra total_stock 134; conservar total PB y marcar desglose parcial."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"length":"3 m", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Naceb NA-0122 official product page", "type":"manufacturer_spec", "url":"https://naceb.com.mx/producto/cable-hdmi-2-1-4k-8k-earc-3m/"},
+          {"title":"CTOnline CABNCB480 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5tagsetaray53cb",
+      "research": {
+        "confidence": 0.86,
+        "name": "BRobotix 651855 funda City poliester gris para laptop 15.6 pulgadas",
+        "description": "Funda BRobotix City 651855 color gris para laptop de hasta 15.6 pulgadas, fabricada en poliester y de compatibilidad universal.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/brobotix-city-651855-gris",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCRBT6990/ACCRBT6990_full.jpg"],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "651855",
+          "commercialModel": "City",
+          "providerSku": "ACCRBT6990",
+          "productType": "Funda para laptop",
+          "screenCompatibility": "Hasta 15.6 pulgadas / 39.6 cm",
+          "material": "Poliester",
+          "color": "Gris",
+          "compatibility": "Universal",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 15, DFA 5.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":15},
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":5}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCRBT6990","stock":20,"price":7.98,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Se distingue de fundas neopreno/negro previas; esta variante es City poliester gris."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"screenCompatibility":"15.6 pulgadas / 39.6 cm", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Intercompras BRobotix 651855 retail specification", "type":"retail_spec", "url":"https://intercompras.com/p/funda-brobotix-laptop-gris-240228"},
+          {"title":"CTOnline ACCRBT6990 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5txakxo0dnvmid8",
+      "research": {
+        "confidence": 0.84,
+        "name": "Generico cargador compatible Dell 65W 19.5V 3.34A punta 4.5 x 3.0",
+        "description": "Cargador generico compatible con equipos Dell de 65W, salida 19.5V 3.34A y conector tipo punta azul 4.5 x 3.0 mm.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop/compatibles-dell/65w-19-5v-4-5x3-0",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/compatibles-dell/65w-19-5v-4-5x3-0/generico-accgen3040",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCGEN3040/ACCGEN3040_full.jpg"],
+        "specs": {
+          "brand": "GENERICO",
+          "model": "ACCGEN3040",
+          "providerSku": "ACCGEN3040",
+          "productType": "Cargador compatible para laptop Dell",
+          "power": "65W",
+          "output": "19.5V 3.34A",
+          "connector": "4.5 x 3.0 mm",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 99, D2A 22, CHI 10, HMO 9, QRO 7, OBR 6, LEO 6, SLT 5, XLP 5, MOR 4, PUE 4, TPC 4. Desglose visible parcial.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":99},
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":22},
+            {"providerId":"ctonline","warehouseCode":"CHI","stock":10},
+            {"providerId":"ctonline","warehouseCode":"HMO","stock":9},
+            {"providerId":"ctonline","warehouseCode":"QRO","stock":7},
+            {"providerId":"ctonline","warehouseCode":"OBR","stock":6},
+            {"providerId":"ctonline","warehouseCode":"LEO","stock":6},
+            {"providerId":"ctonline","warehouseCode":"SLT","stock":5},
+            {"providerId":"ctonline","warehouseCode":"XLP","stock":5},
+            {"providerId":"ctonline","warehouseCode":"MOR","stock":4},
+            {"providerId":"ctonline","warehouseCode":"PUE","stock":4},
+            {"providerId":"ctonline","warehouseCode":"TPC","stock":4}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCGEN3040","stock":230,"price":8.2,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Se crea subcategoria 65W 19.5V 4.5 x 3.0 mm distinta de la variante Dell 45W ya existente.", "Sucursales visibles suman 181 contra total_stock 230; conservar total PB y marcar desglose parcial."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"connector":"4.5 x 3.0 mm", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Comparable Dell 65W 19.5V 3.34A 4.5x3.0 adapter specification", "type":"retail_spec", "url":"https://www.accetel.es/gb/computer/2671-pca-087-cargador-dell-195v-334a-4530mm-65w-8628047900866.html"},
+          {"title":"CTOnline ACCGEN3040 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5tzivfbxt207jka",
+      "research": {
+        "confidence": 0.9,
+        "name": "Grandstream GRP2602P telefono IP 2 lineas 4 cuentas SIP PoE",
+        "description": "Telefono IP Grandstream GRP2602P carrier-grade de 2 lineas y 4 cuentas SIP, PoE integrado, audio HD, conferencia de 5 vias, GDMS y seguridad con secure boot.",
+        "manualCategoryPath": "telefonia/telefonos-ip/escritorio/2-lineas/poe",
+        "semanticCategoryPath": "telefonia/telefonos-ip/escritorio/2-lineas/poe/grandstream-grp2602p",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10242591"],
+        "manufacturerUrl": "https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/product/grp2602-p",
+        "specs": {
+          "brand": "GRANDSTREAM",
+          "model": "GRP2602P",
+          "providerSku": "TELGDM310 / TEL-213",
+          "productType": "Telefono IP PoE",
+          "lines": "2 lineas",
+          "sipAccounts": "4 cuentas SIP",
+          "display": "LCD 2.4 pulgadas 132 x 48",
+          "network": "2 puertos 10/100 Mbps",
+          "power": "PoE integrado",
+          "conference": "Conferencia de 5 vias",
+          "audio": "Audio HD",
+          "management": "GDMS",
+          "headsetSupport": "EHS",
+          "security": "Secure boot, dual firmware, almacenamiento cifrado",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 125, CVA stock 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"TELGDM310","stock":125,"price":33.89,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"TEL-213","stock":0,"price":36.5,"currency":"USD","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["Se separa GRP2602P PoE de la regla general GRP2602 sin PoE.", "CVA aparece sin stock; la disponibilidad positiva viene de CTOnline."],
+          "providerStockVerifiedAt": "2026-05-30T23:30:00Z"
+        },
+        "measurements": {"dimensions":"208 x 180 x 63.4 mm con auricular", "weight":"670 g unidad, 830 g paquete GRP2602P"},
+        "sourceRefs": [
+          {"title":"Grandstream GRP2602P product page", "type":"manufacturer_spec", "url":"https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/product/grp2602-p"},
+          {"title":"Grandstream GRP2602 datasheet", "type":"manufacturer_datasheet", "url":"https://www.grandstream.com/hubfs/Product_Documentation/Datasheet_GRP2602_English.pdf"},
+          {"title":"CTOnline TELGDM310 and CVA TEL-213 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:30:00Z"}
+        ]
+      }
+    }
+  ]
+}
