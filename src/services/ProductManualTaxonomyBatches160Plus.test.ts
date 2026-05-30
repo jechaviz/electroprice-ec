@@ -82,6 +82,16 @@ const batch160PlusCases = [
   ["BRobotix 6005989 kit de limpieza 7 en 1 para audifonos y smartphones", "BROBOTIX", "computo/accesorios/limpieza/kits/telefonos-audifonos", "accessories"],
   ["ASUS TUF Gaming B550M-PLUS Wi-Fi motherboard micro ATX AM4", "ASUS", "computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx/wifi", "components"],
   ["CyberPower Smart App LCD OR500LCDRM1U UPS rack 1U 500VA 300W", "CYBERPOWER", "energia/no-breaks-ups/line-interactive/rack-1u/500va", "power"],
+  ["Netis E3 AC1200 extensor de rango Wi-Fi dual band", "NETIS", "redes/extensores-wifi/dual-band/ac1200", "networking"],
+  ["XFX Speedster SWFT 210 Radeon RX 7600 Core RX-76PSWFTFY 8GB GDDR6", "XFX", "computo/componentes/tarjetas-video/amd-radeon/rx-7000/rx-7600", "components"],
+  ["BRobotix 170906 caja de mesa RJ45 Cat6 HDMI USB NEMA 5-15R negra", "BROBOTIX", "redes/cableado-estructurado/cajas-mesa/multimedia-rj45-hdmi-usb-corriente", "networking"],
+  ["Tenda S105 switch no administrable Fast Ethernet 5 puertos 10/100 blanco", "TENDA", "redes/switches/no-administrables/fast-ethernet/5-puertos", "networking"],
+  ["Silimex IsoPro 750300219690 alcohol isopropilico aerosol 250 ml", "SILIMEX", "computo/accesorios/limpieza/alcohol-isopropilico/250ml", "accessories"],
+  ["Acteck Optimize Joy MI215 AC-933445 mouse inalambrico 1600 DPI negro", "ACTECK", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi", "accessories"],
+  ["WAM WAM-RACK419 rack abierto de piso 25U 19 pulgadas acero negro", "WAM", "infraestructura/racks-enfriamiento/racks-piso/abiertos-25u", "networking"],
+  ["Game Factor MPG500 mousepad gamer XL RGB 800 x 300 x 4 mm", "GAME FACTOR", "computo/accesorios/mousepads/gaming-rgb/extendidos", "accessories"],
+  ["Zebra ZD220D impresora de etiquetas termica directa 4 pulgadas 203 dpi USB", "ZEBRA", "impresion/impresoras/etiquetas/termicas-directas/desktop-4-pulgadas", "printers_scanners"],
+  ["Silimex 7503018454009 toallitas humedas limpiadoras Gamer 30 piezas", "SILIMEX", "computo/accesorios/limpieza/toallitas/gamer-30-piezas", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

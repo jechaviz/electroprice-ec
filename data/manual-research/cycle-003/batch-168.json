@@ -1,0 +1,438 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b168-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 168,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5o4j7brk5xyjt16",
+      "research": {
+        "confidence": 0.9,
+        "name": "Netis E3 AC1200 extensor de rango Wi-Fi dual band",
+        "description": "Extensor de rango Netis E3 AC1200 dual band con modos router, AP y repetidor, 867Mbps en 5GHz, 300Mbps en 2.4GHz, WPS y puerto RJ45 10/100.",
+        "manualCategoryPath": "redes/extensores-wifi/dual-band/ac1200",
+        "semanticCategoryPath": "redes/extensores-wifi/dual-band/ac1200/netis-e3",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACPNET020/ACPNET020_1_full.jpg"],
+        "manufacturerUrl": "https://www.netis-systems.com/products/E3.html",
+        "specs": {
+          "brand": "NETIS",
+          "model": "E3 AC1200",
+          "providerSku": "ACPNET020",
+          "ean": "6972012671025",
+          "productType": "Extensor de rango Wi-Fi dual band",
+          "wireless": "IEEE 802.11a/b/g/n/ac",
+          "speed": "867Mbps 5GHz + 300Mbps 2.4GHz",
+          "modes": ["Router", "AP", "Repeater"],
+          "ethernet": "1 x RJ45 10/100Mbps",
+          "antennas": "2 x 3dBi dual band",
+          "security": "WEP, WPA-PSK, WPA2-PSK, WPA2-Mixed",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 207, OBR 45, MOR 24, TXL 19, MID 15, OAX 12, AGS 10, CDV 8, LEO 7, ZAC 7, QRO 5, TOL 5.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":207},
+            {"providerId":"ctonline","warehouseCode":"OBR","stock":45},
+            {"providerId":"ctonline","warehouseCode":"MOR","stock":24},
+            {"providerId":"ctonline","warehouseCode":"TXL","stock":19},
+            {"providerId":"ctonline","warehouseCode":"MID","stock":15},
+            {"providerId":"ctonline","warehouseCode":"OAX","stock":12},
+            {"providerId":"ctonline","warehouseCode":"AGS","stock":10},
+            {"providerId":"ctonline","warehouseCode":"CDV","stock":8},
+            {"providerId":"ctonline","warehouseCode":"LEO","stock":7},
+            {"providerId":"ctonline","warehouseCode":"ZAC","stock":7},
+            {"providerId":"ctonline","warehouseCode":"QRO","stock":5},
+            {"providerId":"ctonline","warehouseCode":"TOL","stock":5}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACPNET020","stock":378,"price":21.11,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La ruta previa access-points era demasiado amplia; Netis lo presenta como extensor/repetidor AC1200.", "Sucursales visibles suman 364 contra total_stock 378; conservar total PB y marcar desglose parcial."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"dimensions":"80 x 58 x 54 mm", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Netis E3 official product page", "type":"manufacturer_spec", "url":"https://www.netis-systems.com/products/E3.html"},
+          {"title":"CTOnline ACPNET020 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5o7iz216wv2ksr0",
+      "research": {
+        "confidence": 0.88,
+        "name": "XFX Speedster SWFT 210 Radeon RX 7600 Core 8GB GDDR6",
+        "description": "Tarjeta de video XFX Speedster SWFT 210 Radeon RX 7600 Core Edition RX-76PSWFTFY con 8GB GDDR6, bus 128-bit, PCIe 4.0, HDMI y DisplayPort para gaming 1080p.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/amd-radeon/rx-7000/rx-7600",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/amd-radeon/rx-7000/rx-7600/xfx-rx-76pswftfy",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10409232"],
+        "specs": {
+          "brand": "XFX",
+          "model": "RX-76PSWFTFY",
+          "commercialModel": "Speedster SWFT 210 Radeon RX 7600 Core Edition",
+          "providerSku": "VC-1174",
+          "productType": "Tarjeta de video",
+          "gpu": "AMD Radeon RX 7600",
+          "memory": "8GB GDDR6",
+          "memoryBus": "128-bit",
+          "memorySpeed": "18Gbps",
+          "boostClock": "Hasta 2655MHz",
+          "baseClock": "1875MHz en fuente retail exacta",
+          "interface": "PCI Express 4.0",
+          "outputs": "1 x HDMI 2.1, 3 x DisplayPort 2.1 segun fuentes retail",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 5.",
+          "providerOffers": [{"providerId":"cva","providerSku":"VC-1174","stock":5,"price":249.67,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa monitores era incorrecta; es tarjeta de video.", "Fuentes retail varian entre 2 y 3 DisplayPort para subvariantes; se conserva referencia exacta RX-76PSWFTFY cuando esta disponible."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"dimensions":"No disponible confiable para RX-76PSWFTFY en fuente oficial abierta", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"PCCaseGear XFX RX-76PSWFTFY retail specification", "type":"retail_spec", "url":"https://www.pccasegear.com/products/71490/xfx-radeon-rx-7600-speedster-swft-210-core-edition-8gb"},
+          {"title":"Pangoly XFX RX-76PSWFTFY specification", "type":"retail_spec", "url":"https://pangoly.com/en/product/xfx-speedster-swft-210-radeon-rx-7600-core-edition"},
+          {"title":"CVA VC-1174 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5o84tgcbd2hyybc",
+      "research": {
+        "confidence": 0.89,
+        "name": "BRobotix 170906 caja de mesa RJ45 Cat6 HDMI USB NEMA negra",
+        "description": "Caja de mesa BRobotix 170906 para sala, escritorio o mesa de proyeccion con conectividad RJ45 Cat6, HDMI, USB 2.0 y tomas NEMA 5-15R.",
+        "manualCategoryPath": "redes/cableado-estructurado/cajas-mesa/multimedia-rj45-hdmi-usb-corriente",
+        "semanticCategoryPath": "redes/cableado-estructurado/cajas-mesa/multimedia-rj45-hdmi-usb-corriente/brobotix-170906",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCRBT4800/ACCRBT4800_full.jpg"],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "170906",
+          "providerSku": "ACCRBT4800",
+          "ean": "7503027764694",
+          "productType": "Caja de mesa para conectividad",
+          "ports": "RJ45 Cat6, HDMI, USB 2.0, NEMA 5-15R",
+          "material": "Metal",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 10, LEO 5, CUN 3, IRA 3, DFA 2, CMT 2, CTZ 1, MAZ 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":10},
+            {"providerId":"ctonline","warehouseCode":"LEO","stock":5},
+            {"providerId":"ctonline","warehouseCode":"CUN","stock":3},
+            {"providerId":"ctonline","warehouseCode":"IRA","stock":3},
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":2},
+            {"providerId":"ctonline","warehouseCode":"CMT","stock":2},
+            {"providerId":"ctonline","warehouseCode":"CTZ","stock":1},
+            {"providerId":"ctonline","warehouseCode":"MAZ","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCRBT4800","stock":27,"price":66.26,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La ruta previa accesorios/cables-adaptadores era demasiado amplia; es caja de mesa multimedia y red."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"width":"22.3 cm", "length":"25 cm", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"PCEL BRobotix 170906 retail specification", "type":"retail_spec", "url":"https://www.pcel.com/Brobotix2-170906-Caja-para-mesa-de-Proyector-Brobotix-170906-Entradas-HDMI-USB-RJ45-Color-Negro-310864"},
+          {"title":"Intercompras BRobotix 170906 retail reference", "type":"retail_spec", "url":"https://intercompras.com/p/caja-mesa-brobotix-puertos-hdmi-usb-rj45-cat6-corriente-negra-163228"},
+          {"title":"CTOnline ACCRBT4800 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5olbofhs4dbz1g7",
+      "research": {
+        "confidence": 0.9,
+        "name": "Tenda S105 switch Fast Ethernet no administrable 5 puertos blanco",
+        "description": "Switch Tenda S105 no administrable de escritorio con 5 puertos RJ45 10/100, Auto MDI/MDIX, store-and-forward y uso plug-and-play.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet/5-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/5-puertos/tenda-s105",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTTND210/SWTTND210_5_full.jpg"],
+        "manufacturerUrl": "https://www.tendacn.com/product/specification/S105v10",
+        "specs": {
+          "brand": "TENDA",
+          "model": "S105",
+          "providerSku": "SWTTND210",
+          "ean": "6932849431049",
+          "upc": "885397270317",
+          "productType": "Switch Fast Ethernet no administrable",
+          "ports": "5 x RJ45 10/100 Base-TX Auto MDI/MDIX",
+          "switchingCapacity": "1.0Gbps",
+          "forwardingRate": "0.74Mpps",
+          "macTable": "1K",
+          "power": "5V 0.6A externo",
+          "material": "Plastico",
+          "providerBranchSummary": "Disponible por sucursal proveedor: PUE 19, CAM 14, CUN 7, TAM 1, ACX 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"PUE","stock":19},
+            {"providerId":"ctonline","warehouseCode":"CAM","stock":14},
+            {"providerId":"ctonline","warehouseCode":"CUN","stock":7},
+            {"providerId":"ctonline","warehouseCode":"TAM","stock":1},
+            {"providerId":"ctonline","warehouseCode":"ACX","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"SWTTND210","stock":42,"price":4.78,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La ruta previa switches era correcta solo a nivel general; se precisa Fast Ethernet 5 puertos."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"dimensions":"82 x 52 x 22.3 mm", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Tenda S105 official specification", "type":"manufacturer_spec", "url":"https://www.tendacn.com/product/specification/S105v10"},
+          {"title":"Tenda S105 V10 datasheet", "type":"manufacturer_datasheet", "url":"https://static.tenda.com.cn/tdeweb/download/S105V10/S105%20V10.0%20Datasheet.pdf"},
+          {"title":"CTOnline SWTTND210 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5oxkk3le6luujsi",
+      "research": {
+        "confidence": 0.9,
+        "name": "Silimex IsoPro alcohol isopropilico aerosol 250 ml",
+        "description": "Alcohol isopropilico Silimex IsoPro en aerosol de 250ml para limpieza de circuitos, mecanismos y componentes de computo y electronica.",
+        "manualCategoryPath": "computo/accesorios/limpieza/alcohol-isopropilico/250ml",
+        "semanticCategoryPath": "computo/accesorios/limpieza/alcohol-isopropilico/250ml/silimex-isopro-750300219690",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SLXLMP750/SLXLMP750_full.jpg"],
+        "manufacturerUrl": "https://silimex.com.mx/producto/alcohol-isopropilico-250-ml/",
+        "specs": {
+          "brand": "SILIMEX",
+          "model": "750300219690",
+          "providerSku": "SLXLMP750",
+          "ean": "7503002196908",
+          "productType": "Alcohol isopropilico para electronica",
+          "presentation": "Aerosol 250 ml",
+          "use": "Limpieza de circuitos, mecanismos y componentes de equipos de computo y electronica",
+          "applications": ["Electronica", "Computo", "Gamer", "Industrial", "Seguridad"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: ACA 12, TXA 11, MOR 5, OAX 4, TPC 2, D2A 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"ACA","stock":12},
+            {"providerId":"ctonline","warehouseCode":"TXA","stock":11},
+            {"providerId":"ctonline","warehouseCode":"MOR","stock":5},
+            {"providerId":"ctonline","warehouseCode":"OAX","stock":4},
+            {"providerId":"ctonline","warehouseCode":"TPC","stock":2},
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"SLXLMP750","stock":35,"price":52.76,"currency":"MXN","priceKind":"promo_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es consumible/accesorio de limpieza electronica."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"volume":"250 ml", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Silimex alcohol isopropilico 250 ml official page", "type":"manufacturer_spec", "url":"https://silimex.com.mx/producto/alcohol-isopropilico-250-ml/"},
+          {"title":"CTOnline SLXLMP750 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5p9oqtj2l6dmi3l",
+      "research": {
+        "confidence": 0.88,
+        "name": "Acteck Optimize Joy MI215 AC-933445 mouse inalambrico 1600 DPI negro",
+        "description": "Mouse optico inalambrico Acteck Optimize Joy MI215 AC-933445 con receptor USB, 3 botones mas scroll, resolucion hasta 1600 DPI y color negro.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi/acteck-mi215-ac-933445",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10451449"],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AC-933445",
+          "commercialModel": "Optimize Joy MI215",
+          "providerSku": "MS-1657",
+          "ean": "7506215933445",
+          "productType": "Mouse inalambrico",
+          "sensor": "Optico",
+          "dpi": "Hasta 1600",
+          "connection": "RF USB",
+          "buttons": "3 botones + scroll",
+          "compatibility": "Windows, Linux, Mac OS segun proveedor",
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 5.",
+          "providerOffers": [{"providerId":"cva","providerSku":"MS-1657","stock":5,"price":83.86,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La ruta previa laptops era incorrecta; es mouse inalambrico.", "Algunas fichas externas escriben 16000 DPI por error; proveedor y ficha coherente indican 1600 DPI."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"dimensions":"No disponible confiable", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"PCEL Acteck AC-933445 retail specification", "type":"retail_spec", "url":"https://www.pcel.com/Acteck-AC-933445-MOUSE-ACTECK-CONFORTABLE-OPTIMIZE-JOY-MI215-INALAMBRICO-2-4-GHZ-800-1600-DPI-3-NVLS-3-BOTONES-COLOR-NEGRO-503012"},
+          {"title":"PCH Acteck Optimize Joy MI215 retail reference", "type":"retail_spec", "url":"https://shop.pchconnect.com/productos/mouse-acteck-optimize-joy-mi215-inalambrico-1600-dpi-negro-ac-933445"},
+          {"title":"CVA MS-1657 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5pkt77hm1yd65kv",
+      "research": {
+        "confidence": 0.88,
+        "name": "WAM WAM-RACK419 rack abierto de piso 25U 19 in acero negro",
+        "description": "Rack WAM WAM-RACK419 de piso abierto para equipos de 19 pulgadas, capacidad 25U, estructura de acero y color negro.",
+        "manualCategoryPath": "infraestructura/racks-enfriamiento/racks-piso/abiertos-25u",
+        "semanticCategoryPath": "infraestructura/racks-enfriamiento/racks-piso/abiertos-25u/wam-rack419",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/RCKWAM020/RCKWAM020_full.jpg"],
+        "specs": {
+          "brand": "WAM",
+          "model": "WAM-RACK419",
+          "providerSku": "RCKWAM020",
+          "productType": "Rack abierto de piso",
+          "rackUnits": "25U",
+          "width": "19 pulgadas",
+          "material": "Acero",
+          "color": "Negro",
+          "mounting": "Piso",
+          "providerBranchSummary": "Disponible por sucursal proveedor: CMT 2, TAM 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"CMT","stock":2},
+            {"providerId":"ctonline","warehouseCode":"TAM","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"RCKWAM020","stock":3,"price":81.87,"currency":"USD","priceKind":"promo_price"}],
+          "sourceDiscrepancies": ["La categoria previa monitores era incorrecta; es infraestructura rack."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"rackUnits":"25U", "width":"19 in", "weight":"No disponible confiable"},
+        "sourceRefs": [
+          {"title":"Intercompras WAM-RACK419 retail specification", "type":"retail_spec", "url":"https://intercompras.com/p/rack-wam-wam-rack419-25u-acero-negro-piso-postes-387720"},
+          {"title":"Mactoner WAM-RACK419 retail reference", "type":"retail_spec", "url":"https://www.mactoner.com.mx/producto/rack-wam-wam-rack419-acero/"},
+          {"title":"CTOnline RCKWAM020 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5prappnr463vm5n",
+      "research": {
+        "confidence": 0.9,
+        "name": "Game Factor MPG500 mousepad gamer XL RGB negro",
+        "description": "Tapete gamer Game Factor MPG500 XL con iluminacion RGB, superficie microtexturizada de microfibra MultiSpandex, base de goma natural y puerto micro USB.",
+        "manualCategoryPath": "computo/accesorios/mousepads/gaming-rgb/extendidos",
+        "semanticCategoryPath": "computo/accesorios/mousepads/gaming-rgb/extendidos/game-factor-mpg500",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10478845"],
+        "manufacturerUrl": "https://gamefactor.mx/detalle/62/mpg500",
+        "specs": {
+          "brand": "GAME FACTOR",
+          "model": "MPG500",
+          "providerSku": "ACCVGO2230 / AC-13500",
+          "productType": "Mousepad gamer XL RGB",
+          "material": "Spandex, microfibra y base de goma",
+          "lighting": "RGB, 12 modos",
+          "port": "Micro USB",
+          "voltage": "5V cc 1.5A",
+          "color": "Negro con luz RGB",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 66 y CVA stock 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"ACCVGO2230","stock":66,"price":10.59,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"AC-13500","stock":0,"price":9.84,"currency":"USD","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["El titulo previo parecia mouse; es mousepad/tapete gamer.", "CVA aparece sin stock; oferta activa positiva viene de CTOnline."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"dimensions":"800 x 300 x 4 mm", "weight":"540 g"},
+        "sourceRefs": [
+          {"title":"Game Factor MPG500 official Spanish product page", "type":"manufacturer_spec", "url":"https://gamefactor.mx/detalle/62/mpg500"},
+          {"title":"Game Factor MPG500 official English product page", "type":"manufacturer_spec", "url":"https://www.gamefactor.mx/en/details/62/mpg500"},
+          {"title":"CTOnline ACCVGO2230 and CVA AC-13500 stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5qdqnkaqlvq5tcw",
+      "research": {
+        "confidence": 0.9,
+        "name": "Zebra ZD220D impresora de etiquetas termica directa 4 in USB",
+        "description": "Impresora de etiquetas Zebra ZD220D desktop de 4 pulgadas, termica directa, 203 dpi, USB, velocidad hasta 4 ips / 102 mm/s y lenguajes ZPL/EPL.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/termicas-directas/desktop-4-pulgadas",
+        "semanticCategoryPath": "impresion/impresoras/etiquetas/termicas-directas/desktop-4-pulgadas/zebra-zd220d",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/IMPZBR2700/IMPZBR2700_full.jpg"],
+        "manufacturerUrl": "https://www.zebra.com/us/en/products/spec-sheets/printers/desktop/zd220.html",
+        "specs": {
+          "brand": "ZEBRA",
+          "model": "ZD220D",
+          "providerSku": "IMPZBR2700",
+          "productType": "Impresora de etiquetas desktop",
+          "printTechnology": "Termica directa",
+          "resolution": "203 dpi / 8 dots per mm",
+          "printSpeed": "4 ips / 102 mm/s",
+          "maxPrintWidth": "4.09 in / 104 mm",
+          "connectivity": "USB",
+          "languages": "ZPL II, EPL 2, XML",
+          "memory": "128MB Flash, 128MB SDRAM",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 22, D2A 20, CHI 8, VHA 5, LEO 3, VER 3, HMO 2, QRO 2, CLN 1, MOR 1, DFP 1, ZAC 1.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFA","stock":22},
+            {"providerId":"ctonline","warehouseCode":"D2A","stock":20},
+            {"providerId":"ctonline","warehouseCode":"CHI","stock":8},
+            {"providerId":"ctonline","warehouseCode":"VHA","stock":5},
+            {"providerId":"ctonline","warehouseCode":"LEO","stock":3},
+            {"providerId":"ctonline","warehouseCode":"VER","stock":3},
+            {"providerId":"ctonline","warehouseCode":"HMO","stock":2},
+            {"providerId":"ctonline","warehouseCode":"QRO","stock":2},
+            {"providerId":"ctonline","warehouseCode":"CLN","stock":1},
+            {"providerId":"ctonline","warehouseCode":"MOR","stock":1},
+            {"providerId":"ctonline","warehouseCode":"DFP","stock":1},
+            {"providerId":"ctonline","warehouseCode":"ZAC","stock":1}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"IMPZBR2700","stock":69,"price":228.01,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["La ruta previa accesorios/cables-adaptadores era incorrecta; es impresora de etiquetas."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"dimensions":"220 x 176 x 151 mm", "weight":"1.1 kg"},
+        "sourceRefs": [
+          {"title":"Zebra ZD220 official specification sheet", "type":"manufacturer_spec", "url":"https://www.zebra.com/us/en/products/spec-sheets/printers/desktop/zd220.html"},
+          {"title":"Zebra ZD220D product page", "type":"manufacturer_spec", "url":"https://prod-www.zebra.com/us/en/products/printers/desktop/zd200-series/zd220.html"},
+          {"title":"CTOnline IMPZBR2700 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5qjl0uj1nmh9n57",
+      "research": {
+        "confidence": 0.9,
+        "name": "Silimex toallitas humedas limpiadoras Gamer 30 piezas",
+        "description": "Toallitas humedas limpiadoras Silimex Gamer para limpieza de superficies plasticas de equipos y consolas gamer, presentacion de 30 piezas.",
+        "manualCategoryPath": "computo/accesorios/limpieza/toallitas/gamer-30-piezas",
+        "semanticCategoryPath": "computo/accesorios/limpieza/toallitas/gamer-30-piezas/silimex-7503018454009",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SLXLMP700/SLXLMP700_full.jpg"],
+        "manufacturerUrl": "https://silimex.com.mx/producto/toallitas-humedas-limpiadoras-gamer/",
+        "specs": {
+          "brand": "SILIMEX",
+          "model": "7503018454009",
+          "providerSku": "SLXLMP700",
+          "ean": "7503018454009",
+          "productType": "Toallitas humedas limpiadoras",
+          "line": "Gamer",
+          "presentation": "30 piezas",
+          "use": "Limpieza de superficies plasticas de equipos y consolas gamer",
+          "applications": ["Electronico", "Computo", "Gamer"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFT 33, VER 30, CEL 30, CDV 29, CTZ 25, CUE 25, CUN 25, COL 21, TOL 20, MTY 19, TPC 15, URP 12.",
+          "providerBranches": [
+            {"providerId":"ctonline","warehouseCode":"DFT","stock":33},
+            {"providerId":"ctonline","warehouseCode":"VER","stock":30},
+            {"providerId":"ctonline","warehouseCode":"CEL","stock":30},
+            {"providerId":"ctonline","warehouseCode":"CDV","stock":29},
+            {"providerId":"ctonline","warehouseCode":"CTZ","stock":25},
+            {"providerId":"ctonline","warehouseCode":"CUE","stock":25},
+            {"providerId":"ctonline","warehouseCode":"CUN","stock":25},
+            {"providerId":"ctonline","warehouseCode":"COL","stock":21},
+            {"providerId":"ctonline","warehouseCode":"TOL","stock":20},
+            {"providerId":"ctonline","warehouseCode":"MTY","stock":19},
+            {"providerId":"ctonline","warehouseCode":"TPC","stock":15},
+            {"providerId":"ctonline","warehouseCode":"URP","stock":12}
+          ],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"SLXLMP700","stock":312,"price":44.52,"currency":"MXN","priceKind":"promo_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es accesorio de limpieza.", "Sucursales visibles suman 284 contra total_stock 312; conservar total PB y marcar desglose parcial."],
+          "providerStockVerifiedAt": "2026-05-30T23:00:00Z"
+        },
+        "measurements": {"wipeSize":"20 x 20 cm segun descripcion proveedor", "presentation":"30 piezas"},
+        "sourceRefs": [
+          {"title":"Silimex Toallitas humedas limpiadoras Gamer official page", "type":"manufacturer_spec", "url":"https://silimex.com.mx/producto/toallitas-humedas-limpiadoras-gamer/"},
+          {"title":"CTOnline SLXLMP700 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T23:00:00Z"}
+        ]
+      }
+    }
+  ]
+}
