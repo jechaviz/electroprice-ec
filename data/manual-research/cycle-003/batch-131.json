@@ -1,0 +1,449 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b131-2026-05-30",
+  "cycle": 3,
+  "batch": 131,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ht84n29w0gqfeqg",
+      "research": {
+        "confidence": 0.92,
+        "brand": "MERIVA",
+        "name": "Meriva MTD-404D camara IP domo turret PoE 4MP dual light microfono",
+        "description": "Camara IP domo/turret Meriva MTD-404D de 4MP con lente 2.8 mm, iluminacion dual, microfono integrado, MIA 2.0, ONVIF, video estructurado, PoE e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light/meriva-mtd-404d",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MTD-404D",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=22862335&c=4820964&h=or7LfaynIxUZ_0GVB2QwBtIk4n_9_sK7lhiS8uaBDcT3o3Hc"],
+        "documents": [
+          { "label": "Meriva MTD-404D official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MTD-404D" },
+          { "label": "GlobalOffice Meriva MTD-404D page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-ip-domo-turret-meriva-technology-mtd-404d-4-mp-h265/mtd-404d" }
+        ],
+        "specs": {
+          "brand": "MERIVA",
+          "model": "MTD-404D",
+          "aliases": ["CI121MER08"],
+          "providerSku": "CI121MER08",
+          "productType": "Camara IP domo/turret PoE dual light",
+          "resolution": "4MP",
+          "lens": "2.8 mm",
+          "illumination": "IR 20-30 m y luz blanca 10-20 m",
+          "audio": "Microfono integrado",
+          "video": "H.265+",
+          "network": ["PoE", "ONVIF"],
+          "analytics": ["MIA 2.0", "Intrusion", "Cruce de linea"],
+          "body": "Metal + plastico",
+          "protection": "IP67",
+          "power": "Solo PoE",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI121MER08", "stock": 500, "price": 482.59, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Meriva.", "Provider branch-level locations were not exposed in the current PocketBase record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Meriva MTD-404D official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MTD-404D" },
+          { "title": "GlobalOffice Meriva MTD-404D page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-ip-domo-turret-meriva-technology-mtd-404d-4-mp-h265/mtd-404d" }
+        ]
+      }
+    },
+    {
+      "product_id": "hysn53jozjmrzpq",
+      "research": {
+        "confidence": 0.9,
+        "brand": "MERIVA",
+        "name": "Meriva MC4002HD camara domo movil AHD 2MP interior con microfono",
+        "description": "Camara domo movil AHD Meriva MC4002HD de 2MP para interior, lente 2.5 mm, IR 10 m, microfono integrado, conector DIN de 4 pines y alimentacion 12 VCD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-moviles/ahd-domo/2mp-audio",
+        "semanticCategoryPath": "seguridad/cctv/camaras-moviles/ahd-domo/2mp-audio/meriva-mc4002hd",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gruporeysa.com.mx/producto/meriva-technology-mc4002hd/",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=23843261&c=4820964&h=5AVQFt4Lc2MPRbFxhPwW2x31eRRyDrJAxi8nMaNK-YJbOk5-"],
+        "documents": [
+          { "label": "Grupo Reysa Meriva MC4002HD page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mc4002hd/" },
+          { "label": "GlobalOffice Meriva MC4002HD page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-domo-ahd-meriva-technology-mc4002hd-2mp/mc4002hd" }
+        ],
+        "specs": {
+          "brand": "MERIVA",
+          "model": "MC4002HD",
+          "aliases": ["MOC10MER34", "Meriva Technology - Streamax"],
+          "providerSku": "MOC10MER34",
+          "productType": "Camara domo movil AHD con audio",
+          "resolution": "2MP",
+          "lens": "2.5 mm",
+          "illumination": "IR hasta 10 m",
+          "audio": "Microfono integrado",
+          "connector": "DIN 4 pines",
+          "installation": "Interior",
+          "protection": "IP54",
+          "power": "12 VCD",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "MOC10MER34", "stock": 500, "price": 589.08, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Meriva.", "No branch-level provider locations were exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Grupo Reysa Meriva MC4002HD page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mc4002hd/" },
+          { "title": "GlobalOffice Meriva MC4002HD page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-domo-ahd-meriva-technology-mc4002hd-2mp/mc4002hd" }
+        ]
+      }
+    },
+    {
+      "product_id": "jd81r2p9xqqr51m",
+      "research": {
+        "confidence": 0.91,
+        "brand": "TOPVISION",
+        "name": "Topvision TBDL200A camara HD bullet 2MP dual light microfono IP67",
+        "description": "Camara HD bullet Topvision TBDL200A de 2MP con AHD/TVI/CVI/CVBS, lente 2.8 mm, IR 30 m, luz calida 20 m, microfono integrado, COC, carcasa metal-plastica e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio/topvision-tbdl200a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl200a/",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=21545605&c=4820964&h=YFRH58qrGnJZT_2NRKnG_eEuHb52dSnl5BivEhNnK2TSU23Y"],
+        "documents": [
+          { "label": "Grupo Reysa Topvision TBDL200A page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl200a/" },
+          { "label": "GlobalOffice Topvision TBDL200A page", "type": "retailer", "url": "https://globaloffice.mx/index.php/app/detalle/producto/camaras/camara-hd-bullet-topvision-tbdl200a-2mp-ahdtv/tbdl200a" }
+        ],
+        "specs": {
+          "brand": "TOPVISION",
+          "model": "TBDL200A",
+          "aliases": ["C4112TOP05", "Topvision powered by Meriva"],
+          "providerSku": "C4112TOP05",
+          "productType": "Camara HD analogica bullet dual light",
+          "resolution": "2MP",
+          "videoFormats": ["AHD", "TVI", "CVI", "CVBS/SD"],
+          "lens": "2.8 mm",
+          "illumination": "IR 30 m y luz calida 20 m",
+          "audio": "Microfono integrado; audio por coaxial o UTP",
+          "features": ["COC", "Imagen a color 24x7"],
+          "body": "Metal + plastico",
+          "protection": "IP67",
+          "power": "12 VCD",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "C4112TOP05", "stock": 500, "price": 208.18, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Topvision.", "Earlier local research had only a generic TurboHD path; this batch records the manual bullet 2MP dual-light audio category."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Grupo Reysa Topvision TBDL200A page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/topvision-powered-by-meriva-tbdl200a/" },
+          { "title": "Prior batch 014 TBDL200A research refinement", "type": "local_research", "url": "data/manual-research/cycle-002/batch-014.json" }
+        ]
+      }
+    },
+    {
+      "product_id": "kkcaqh70nupu1qx",
+      "research": {
+        "confidence": 0.9,
+        "brand": "MERIVA",
+        "name": "Meriva MC4000HD camara domo movil AHD antivandalica 2MP exterior",
+        "description": "Camara domo movil AHD antivandalica Meriva MC4000HD de 2MP con lente 2.8 mm, IR 10 m, conector DIN de 4 pines, alimentacion 12 VCD e IP66 para exterior.",
+        "manualCategoryPath": "seguridad/cctv/camaras-moviles/ahd-domo/2mp-antivandalico",
+        "semanticCategoryPath": "seguridad/cctv/camaras-moviles/ahd-domo/2mp-antivandalico/meriva-mc4000hd",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gruporeysa.com.mx/producto/meriva-technology-mc4000hd/",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=23843259&c=4820964&h=OQrg3JrCwriwVPpS6-CLa0SdldggWwp6AV8ChHDTSrnX8bZj"],
+        "documents": [
+          { "label": "Grupo Reysa Meriva MC4000HD page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mc4000hd/" },
+          { "label": "GlobalOffice Meriva MC4000HD page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-domo-antivandalica-ahd-meriva-technology-mc4000hd-2mp/mc4000hd" }
+        ],
+        "specs": {
+          "brand": "MERIVA",
+          "model": "MC4000HD",
+          "aliases": ["MOC10MER27", "Meriva Technology - Streamax"],
+          "providerSku": "MOC10MER27",
+          "productType": "Camara domo movil AHD antivandalica",
+          "resolution": "2MP",
+          "lens": "2.8 mm",
+          "illumination": "IR hasta 10 m",
+          "connector": "DIN 4 pines",
+          "installation": "Exterior",
+          "protection": "IP66",
+          "power": "12 VCD",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "MOC10MER27", "stock": 500, "price": 592.5, "currency": "USD", "priceKind": "customer_price" }],
+          "observedRetailStock": [{ "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 1259, "observedAt": "2026-05-30" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Meriva.", "GlobalOffice branch stock is recorded as retail reference; current provider record did not expose branch-level locations."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Grupo Reysa Meriva MC4000HD page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mc4000hd/" },
+          { "title": "GlobalOffice Meriva MC4000HD page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-domo-antivandalica-ahd-meriva-technology-mc4000hd-2mp/mc4000hd" }
+        ]
+      }
+    },
+    {
+      "product_id": "lyvs3n96wosdmzn",
+      "research": {
+        "confidence": 0.91,
+        "brand": "SMARTHOME BY EPCOM",
+        "name": "SmartHome by Epcom SCAM2PT4G camara IP PT 4G 2MP Cloud SIM",
+        "description": "Camara IP PT 4G SmartHome by Epcom SCAM2PT4G de 2MP con Cloud SIM, audio bidireccional, autoseguimiento, grabacion continua, microSD hasta 128GB e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim/smarthome-epcom-scam2pt4g",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/products/233550",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2PT4G/SCAM2PT4G-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2PT4G/SCAM2PT4G-AD-1-l.PNG"],
+        "documents": [
+          { "label": "Syscom SCAM2PT4G product page", "type": "provider", "url": "https://www.syscom.mx/products/233550" },
+          { "label": "Sensando SCAM2PT4G page", "type": "retailer", "url": "https://sensando.mx/products/scam2pt4g" }
+        ],
+        "specs": {
+          "brand": "SMARTHOME BY EPCOM",
+          "model": "SCAM2PT4G",
+          "aliases": ["230512", "233550"],
+          "providerSku": "230512",
+          "productType": "Camara IP PT 4G Cloud SIM",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm; 96 horizontal; 115 diagonal",
+          "panTilt": "Pan 340 grados; tilt 140 grados",
+          "nightVision": "IR hasta 15 m y modo color",
+          "network": "Cloud SIM 4G LTE multicarrier",
+          "lteBands": ["B2", "B3", "B4", "B5", "B7", "B8", "B28", "B66"],
+          "storage": "microSD hasta 128 GB; grabacion continua",
+          "detection": ["Deteccion de movimiento", "Autoseguimiento"],
+          "audio": "Audio bidireccional",
+          "protection": "IP65",
+          "power": "12 V / 1 A",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "230512", "stock": 500, "price": 84, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider product id/SKU was numeric 230512; product identity was normalized to SCAM2PT4G.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "Provider AI extraction had 4 g but it is implausible and was not trusted." },
+        "sourceRefs": [
+          { "title": "Syscom SCAM2PT4G product page", "type": "provider", "url": "https://www.syscom.mx/products/233550" },
+          { "title": "Sensando SCAM2PT4G page", "type": "retailer", "url": "https://sensando.mx/products/scam2pt4g" }
+        ]
+      }
+    },
+    {
+      "product_id": "nv1rtf38vp2i7o8",
+      "research": {
+        "confidence": 0.95,
+        "brand": "HIKVISION",
+        "name": "Hikvision AE-DC4328-K5 dashcam doble canal 2K y 1080p",
+        "description": "Dashcam Hikvision AE-DC4328-K5 de dos canales con camara frontal 4MP 2K, camara trasera 1080p, pantalla tactil de 3 pulgadas, WiFi, H.265 y entrada de alarma para reversa.",
+        "manualCategoryPath": "seguridad/cctv/camaras-moviles/dashcam/doble-canal-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-moviles/dashcam/doble-canal-2k/hikvision-ae-dc4328-k5",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/ca-en/products/onboard-security/dash-cameras/consumer-dash-camera/ae-dc4328-k5/",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEDC4328K5/AEDC4328K5-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/HIKVISION/AEDC4328K5/AEDC4328K5-AD-2-l.PNG"],
+        "documents": [
+          { "label": "Hikvision AE-DC4328-K5 official page", "type": "manufacturer", "url": "https://www.hikvision.com/ca-en/products/onboard-security/dash-cameras/consumer-dash-camera/ae-dc4328-k5/" },
+          { "label": "Syscom AE-DC4328-K5 product page", "type": "provider", "url": "https://www.syscom.mx/products/200221" }
+        ],
+        "specs": {
+          "brand": "HIKVISION",
+          "model": "AE-DC4328-K5",
+          "aliases": ["AEDC4328K5", "200221"],
+          "providerSku": "200221",
+          "productType": "Dashcam doble canal",
+          "frontCamera": "4MP / 1440p a 30 fps",
+          "rearCamera": "1080p a 25 fps",
+          "display": "Pantalla tactil 3 in",
+          "compression": "H.265",
+          "wireless": "WiFi 2.4 GHz",
+          "features": ["G-Sensor", "Grabacion en bucle", "Entrada alarma/reversa", "Microfono y bocina integrados"],
+          "storage": "microSD 16-128 GB segun ficha principal; manual menciona hasta 256 GB",
+          "power": "Micro USB 5 VDC / 2 A",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "200221", "stock": 500, "price": 68.34, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Hikvision.", "This numeric SKU duplicates earlier AE-DC4328-K5 research but with current price/stock from the live record."]
+        },
+        "measurements": { "dimensions": "Syscom 55.80 x 89.30 x 41.87 mm; Hikvision/manual approx 89 x 42 x 80 mm", "weight": "Syscom 177 g; Hikvision/manual approx 110 g" },
+        "sourceRefs": [
+          { "title": "Hikvision AE-DC4328-K5 official page", "type": "manufacturer", "url": "https://www.hikvision.com/ca-en/products/onboard-security/dash-cameras/consumer-dash-camera/ae-dc4328-k5/" },
+          { "title": "Syscom AE-DC4328-K5 product page", "type": "provider", "url": "https://www.syscom.mx/products/200221" }
+        ]
+      }
+    },
+    {
+      "product_id": "qoy73g06gis28wy",
+      "research": {
+        "confidence": 0.88,
+        "brand": "EPCOM PROFESSIONAL",
+        "name": "Epcom Professional E8-TURBO-G2W camara turret TurboHD 2MP metalica",
+        "description": "Camara turret TurboHD Epcom Professional E8-TURBO-G2W de 2MP con lente 2.8 mm gran angular, IR EXIR, salida TVI/AHD/CVI/CVBS, cuerpo metalico y proteccion exterior.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-ir",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-ir/epcom-e8-turbo-g2w",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.epcom.net/product/E8-TURBO-G2W-EPCOM-167227.html",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EPCOMPROFESSIONAL/E8TURBOG2W/E8TURBOG2W-l.PNG"],
+        "documents": [
+          { "label": "Epcom E8-TURBO-G2W product page", "type": "manufacturer", "url": "https://www.epcom.net/product/E8-TURBO-G2W-EPCOM-167227.html" },
+          { "label": "Syscom E8-TURBO-G2W product page", "type": "provider", "url": "https://www.syscom.mx/products/167227" }
+        ],
+        "specs": {
+          "brand": "EPCOM PROFESSIONAL",
+          "model": "E8-TURBO-G2W",
+          "aliases": ["E8TURBOG2W", "167227"],
+          "providerSku": "E8TURBOG2W",
+          "productType": "Camara TurboHD turret",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm gran angular",
+          "nightVision": "IR EXIR exterior",
+          "videoFormats": ["TVI", "AHD", "CVI", "CVBS"],
+          "imageFeatures": ["dWDR"],
+          "body": "Metalico",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "E8TURBOG2W", "stock": 500, "price": 26.8, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Current source title and image were crossed with HiLook THC-B157-LTS 5MP bullet; SKU/model resolve to EPCOM Professional E8-TURBO-G2W.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "82.6 x 69.66 mm", "weight": "230 g aprox." },
+        "sourceRefs": [
+          { "title": "Epcom E8-TURBO-G2W product page", "type": "manufacturer", "url": "https://www.epcom.net/product/E8-TURBO-G2W-EPCOM-167227.html" },
+          { "title": "Syscom E8-TURBO-G2W product page", "type": "provider", "url": "https://www.syscom.mx/products/167227" }
+        ]
+      }
+    },
+    {
+      "product_id": "sfb5masmt9ovy1c",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MERIVA",
+        "name": "Meriva MTD-203D camara IP domo turret PoE 2MP dual light microfono",
+        "description": "Camara IP domo/turret Meriva MTD-203D de 2MP con lente 2.8 mm, iluminacion dual, microfono integrado, MIA 2.0, ONVIF, PoE e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-dual-light-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-dual-light-mic/meriva-mtd-203d",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.mx/app/detalle/producto/camaras/camara-ip-domo-meriva-technology-mtd-203d-2mp-h265-2/mtd-203d",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=RZeYTRAYTy1AppAjFqiqC2F9VtUd4UrhYaiDRLEXXkxYuV2a&id=24093342"],
+        "documents": [
+          { "label": "GlobalOffice Meriva MTD-203D product page", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/camaras/camara-ip-domo-meriva-technology-mtd-203d-2mp-h265-2/mtd-203d" },
+          { "label": "Meriva MTD-203D datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=STJ7WFH6RJkFx2ObHLJvYCBfayvgN1HN0OTVx2s0UJ2QaqmC&id=23416427" }
+        ],
+        "specs": {
+          "brand": "MERIVA",
+          "model": "MTD-203D",
+          "aliases": ["CI111MER79"],
+          "providerSku": "CI111MER79",
+          "productType": "Camara IP domo/turret PoE dual light",
+          "resolution": "2MP 1920 x 1080 a 30 fps",
+          "lens": "2.8 mm F2.0; 94 horizontal; 107 diagonal",
+          "illumination": "IR 20-30 m y luz blanca 10-20 m",
+          "audio": "Microfono integrado",
+          "video": "H.265+/H.265/H.264+/H.264",
+          "network": ["PoE IEEE 802.3af", "ONVIF"],
+          "analytics": ["MIA 2.0", "Intrusion", "Cruce de linea"],
+          "body": "Metal + plastico",
+          "protection": "IP67",
+          "power": "PoE; consumo menor a 6.1 W",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI111MER79", "stock": 500, "price": 340.65, "currency": "USD", "priceKind": "customer_price" }],
+          "observedRetailStock": [{ "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 4150, "observedAt": "2026-05-30" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Meriva.", "GlobalOffice branch stock is recorded as retail reference; current provider record did not expose branch-level locations."]
+        },
+        "measurements": { "dimensions": "94.6 x 82.8 mm", "weight": "0.28 kg aprox." },
+        "sourceRefs": [
+          { "title": "GlobalOffice Meriva MTD-203D product page", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/camaras/camara-ip-domo-meriva-technology-mtd-203d-2mp-h265-2/mtd-203d" },
+          { "title": "Meriva MTD-203D datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=STJ7WFH6RJkFx2ObHLJvYCBfayvgN1HN0OTVx2s0UJ2QaqmC&id=23416427" }
+        ]
+      }
+    },
+    {
+      "product_id": "tb5sgnj17wfdgp1",
+      "research": {
+        "confidence": 0.94,
+        "brand": "EZVIZ",
+        "name": "EZVIZ CS-E4P camara WiFi fisheye 360 3K+ doble banda",
+        "description": "Camara WiFi panoramica EZVIZ E4p CS-E4P con lente fisheye 360 grados, resolucion 3K+, IR 10 m, deteccion IA humana, audio bidireccional, WiFi 2.4/5 GHz, H.265 y microSD hasta 512GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/panoramicas/fisheye-3k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/panoramicas/fisheye-3k/ezviz-cs-e4p",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/la/product/e4p/341457",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSE4P/CSE4P-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSE4P/frontal_0S1000.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSE4P/lateral_izquierda_0S1000.PNG"],
+        "documents": [
+          { "label": "Syscom CSE4P product page", "type": "provider", "url": "https://www.syscom.mx/products/246849" },
+          { "label": "EZVIZ E4p official page", "type": "manufacturer", "url": "https://www.ezviz.com/la/product/e4p/341457" },
+          { "label": "EZVIZ E4p datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/20250723/E4p_Datasheet.pdf?ver=97324" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-E4P",
+          "manufacturerModel": "CS-E4p-R100-8C6WKF",
+          "aliases": ["CSE4P", "E4p", "246849"],
+          "providerSku": "CSE4P",
+          "productType": "Camara WiFi panoramica fisheye 360",
+          "resolution": "2320 x 2320 3K+",
+          "lens": "Fisheye 360 grados",
+          "nightVision": "IR hasta 10 m, 4 LEDs IR",
+          "detection": ["Deteccion IA humana", "Deteccion de ruido fuerte"],
+          "audio": "Audio bidireccional con reduccion de ruido",
+          "wireless": "WiFi doble banda 2.4/5 GHz 802.11 a/b/g/n/ac",
+          "video": "H.265/H.264",
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "power": "USB-C DC 5V/2A, 8 W max",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSE4P", "stock": 500, "price": 48.15, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider image was crossed with Hikvision AE-VC222T-ITS vehicular camera; corrected to EZVIZ CSE4P gallery.", "Provider brand was generic ElectroPrice; corrected to EZVIZ."]
+        },
+        "measurements": { "dimensions": "80 x 35 mm", "packageDimensions": "114 x 114 x 120 mm", "weight": "122 g", "packageWeight": "610 g" },
+        "sourceRefs": [
+          { "title": "Syscom CSE4P product page", "type": "provider", "url": "https://www.syscom.mx/products/246849" },
+          { "title": "EZVIZ E4p official page", "type": "manufacturer", "url": "https://www.ezviz.com/la/product/e4p/341457" },
+          { "title": "EZVIZ E4p datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/20250723/E4p_Datasheet.pdf?ver=97324" }
+        ]
+      }
+    },
+    {
+      "product_id": "tfbqz2xbryvt64q",
+      "research": {
+        "confidence": 0.93,
+        "brand": "SMARTHOME BY EPCOM",
+        "name": "SmartHome by Epcom SCAM2PTP4G camara PT 4G 4MP bateria solar",
+        "description": "Camara PT 4G SmartHome by Epcom SCAM2PTP4G de 4MP con bateria recargable, panel solar de 5W, autoseguimiento, deteccion PIR, vision nocturna a color, audio bidireccional, grabacion continua e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar/smarthome-epcom-scam2ptp4g",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/ajax/etiqueta_producto_pdf.php?dest=D&id=234076",
+        "gallery": ["https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/SMARTHOME%20BY%20EPCOM/SCAM2PTP4G/portada_0S1000.PNG", "https://www.cyberpuerta.mx/img/product/XL/CP-SMARTHOMEBYEPCOM-SCAM2PTP4G-33cf6d.png"],
+        "documents": [
+          { "label": "Syscom SCAM2PTP4G PDF label", "type": "provider", "url": "https://www.syscom.mx/ajax/etiqueta_producto_pdf.php?dest=D&id=234076" },
+          { "label": "RadioElectronics SCAM2PTP4G page", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/scam2ptp4g" },
+          { "label": "Cyberpuerta SCAM2PTP4G page", "type": "retailer", "url": "https://www.cyberpuerta.mx/Seguridad-y-Vigilancia/Camaras-y-Sistemas-de-Vigilancia/Camaras-de-Seguridad-IP/SmartHome-by-Epcom-Camara-de-Seguridad-IP-PTZ-para-Exteriores-SCAM2PTP4G-Inalambrico-2560-x-1440-Pixeles-Dia-Noche-Incluye-Panel-Solar.html" }
+        ],
+        "specs": {
+          "brand": "SMARTHOME BY EPCOM",
+          "model": "SCAM2PTP4G",
+          "aliases": ["234076"],
+          "providerSku": "SCAM2PTP4G",
+          "productType": "Camara IP PT 4G con bateria y panel solar",
+          "resolution": "4MP 2560 x 1440 a 15 fps",
+          "secondaryStream": "720p a 20 fps",
+          "fieldOfView": "99 horizontal; 54 vertical; 115 diagonal",
+          "panTilt": "Pan 355 grados; tilt 70 grados",
+          "nightVision": "Color/luz blanca hasta 10 m",
+          "detection": ["Autoseguimiento inteligente", "PIR hasta 8 m con angulo 110 grados"],
+          "audio": "Microfono y altavoz integrados; audio bidireccional",
+          "video": "H.264/H.265",
+          "network": "4G LTE-FDD; configuracion por QR; app EpcomSmart Home",
+          "storage": "microSD hasta 256 GB; grabacion continua",
+          "battery": "9200 mAh no removible",
+          "solarPanel": "5 W incluido",
+          "power": "USB-C 5 VDC / 1.5 A, fuente no incluida",
+          "protection": "IP65",
+          "operatingTemperature": "-20 a 50 C",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "SCAM2PTP4G", "stock": 500, "price": 165.66, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T08:25:00Z",
+          "sourceDiscrepancies": ["Provider AI extraction had 4 g weight, which was not trusted.", "Provider branch-level locations were not exposed in the current record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Syscom SCAM2PTP4G PDF label", "type": "provider", "url": "https://www.syscom.mx/ajax/etiqueta_producto_pdf.php?dest=D&id=234076" },
+          { "title": "RadioElectronics SCAM2PTP4G page", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/scam2ptp4g" },
+          { "title": "Cyberpuerta SCAM2PTP4G page", "type": "retailer", "url": "https://www.cyberpuerta.mx/Seguridad-y-Vigilancia/Camaras-y-Sistemas-de-Vigilancia/Camaras-de-Seguridad-IP/SmartHome-by-Epcom-Camara-de-Seguridad-IP-PTZ-para-Exteriores-SCAM2PTP4G-Inalambrico-2560-x-1440-Pixeles-Dia-Noche-Incluye-Panel-Solar.html" }
+        ]
+      }
+    }
+  ]
+}

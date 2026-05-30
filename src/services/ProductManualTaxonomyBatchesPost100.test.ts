@@ -291,6 +291,16 @@ const researchedBatchCases = [
   ["HiLook THC-T127-LMS camara turret TurboHD 2MP dual light audio", "HILOOK BY HIKVISION", "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light-audio"],
   ["EZVIZ CS-CB5/4K camara WiFi bateria solar integrada 4K", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/bateria-exterior/4k-solar"],
   ["Meriva MOB-203D camara IP bullet PoE 2MP dual light microfono", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic"],
+  ["Meriva MTD-404D camara IP domo turret PoE 4MP dual light microfono", "MERIVA", "seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light"],
+  ["Meriva MC4002HD camara domo movil AHD 2MP interior con microfono", "MERIVA", "seguridad/cctv/camaras-moviles/ahd-domo/2mp-audio"],
+  ["Topvision TBDL200A camara HD bullet 2MP dual light microfono IP67", "TOPVISION", "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio"],
+  ["Meriva MC4000HD camara domo movil AHD antivandalica 2MP exterior", "MERIVA", "seguridad/cctv/camaras-moviles/ahd-domo/2mp-antivandalico"],
+  ["SmartHome by Epcom SCAM2PT4G camara IP PT 4G 2MP Cloud SIM", "SMARTHOME BY EPCOM", "seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim"],
+  ["Hikvision AE-DC4328-K5 dashcam doble canal 2K 1080p", "HIKVISION", "seguridad/cctv/camaras-moviles/dashcam/doble-canal-2k"],
+  ["Epcom Professional E8-TURBO-G2W camara turret TurboHD 2MP metalica", "EPCOM PROFESSIONAL", "seguridad/cctv/camaras-turbohd/turret/2mp-ir"],
+  ["Meriva MTD-203D camara IP domo turret PoE 2MP dual light microfono", "MERIVA", "seguridad/cctv/camaras-ip-poe/turret/2mp-dual-light-mic"],
+  ["EZVIZ CS-E4P camara WiFi fisheye 360 3K+ doble banda", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/panoramicas/fisheye-3k"],
+  ["SmartHome by Epcom SCAM2PTP4G camara PT 4G 4MP bateria solar", "SMARTHOME BY EPCOM", "seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

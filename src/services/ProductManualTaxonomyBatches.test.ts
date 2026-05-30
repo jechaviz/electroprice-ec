@@ -13,7 +13,7 @@ const researchedBatchCases = [
   ["Perfect Choice PC-084433 mochila escolar Delfin Astro", "PERFECT CHOICE", "oficina/mochilas-bolsas"],
   ["Duosmart E21 camara inteligente WiFi 3MP PIR", "DUOSMART", "seguridad/cctv/camaras-ip-wifi"],
   ["KSA GKSA01-B goggles de proteccion anti empanante", "KSA", "seguridad/epp/proteccion-ocular"],
-  ["TopVision TBDL200A camara HD bullet 2MP TVI AHD CVI", "TOPVISION", "seguridad/cctv/camaras-turbohd"],
+  ["TopVision TBDL200A camara HD bullet 2MP TVI AHD CVI", "TOPVISION", "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio"],
   ["Laces LA100KSP kit de soportes de pared para rack", "LACES", "infraestructura/racks-accesorios/soportes-pared"],
   ["Logitech PRO X 60 920-011921 teclado gaming wireless", "LOGITECH", "computo/perifericos/teclados"],
   ["Dell PowerEdge R470 R470271 servidor rack 1U", "DELL", "computo/servidores/rack"],

@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_RULES_RECENT = [
+  ['seguridad/cctv/camaras-ip-poe/turret/4mp-dual-light', /\b(mtd[\s-]?404d|ci121mer08|meriva.*mtd.*404d|meriva.*turret.*4mp.*dual light.*microfono)\b/],
+  ['seguridad/cctv/camaras-moviles/ahd-domo/2mp-audio', /\b(mc4002hd|moc10mer34|meriva.*mc4002|domo.*ahd.*2mp.*microfono)\b/],
+  ['seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio', /\b(tbdl200a|c4112top05|topvision.*tbdl200|topvision.*bullet.*2mp.*dual light.*(?:microfono|audio))\b/],
+  ['seguridad/cctv/camaras-moviles/ahd-domo/2mp-antivandalico', /\b(mc4000hd|moc10mer27|meriva.*mc4000|domo.*antivandalica.*ahd.*2mp)\b/],
+  ['seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim', /\b(230512|scam2pt4g|csim.*4g|cloud sim.*4g.*2mp)\b/],
+  ['seguridad/cctv/camaras-turbohd/turret/2mp-ir', /\b(e8[\s-]?turbo[\s-]?g2w|e8turbog2w|167227|epcom.*e8.*turbo|turret.*turbohd.*2mp.*ir)\b/],
+  ['seguridad/cctv/camaras-ip-poe/turret/2mp-dual-light-mic', /\b(mtd[\s-]?203d|ci111mer79|meriva.*mtd.*203d|meriva.*turret.*2mp.*dual light.*microfono)\b/],
+  ['seguridad/cctv/camaras-ip-wifi/panoramicas/fisheye-3k', /\b(cs[\s-]?e4p|cse4p|e4p|246849|ezviz.*e4p|fisheye.*3k|panoramica.*360)\b/],
+  ['seguridad/cctv/camaras-ip-4g/pt-exterior/4mp-bateria-solar', /\b(scam2ptp4g|234076|smart.?home.*4g.*solar|panel solar.*5w.*4g)\b/],
   ['seguridad/cctv/camaras-ip-poe/bullet/4mp-full-color', /\b(cs[\s-]?h4\/?poe|csh4\/?poe|cs[\s-]?h4[\s-]?r201|ezviz.*h4.*poe|h4.*poe.*2k)\b/],
   ['seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra', /\b(psubr13b|accsax040|tvn109001|saxxon.*conectores?.*hembra|conectores?.*dc.*hembra.*saxxon)\b/],
   ['seguridad/cctv/camaras-ip-poe/pt-exterior/3mp', /\b(cs[\s-]?h8c\/?3mp\/?poe|csh8c[\s_]?3mp[\s_]?poe|230513|h8c.*poe.*2k|ezviz.*h8c.*poe)\b/],
