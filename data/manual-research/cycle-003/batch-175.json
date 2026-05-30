@@ -1,0 +1,484 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b175-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 175,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "66zy6ounegrfk3e",
+      "research": {
+        "confidence": 0.91,
+        "name": "Dahua DH-PFA134 caja de conexion para camaras CCTV blanca",
+        "description": "Caja de conexion Dahua DH-PFA134 para montaje de camaras CCTV, fabricada en aluminio y SECC, color blanco, rosca G1/2 y capacidad de carga de 1 kg.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-montaje/cajas-conexion/dahua-pfa134",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-montaje/cajas-conexion/dahua-pfa134/dh-pfa134",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/Accessories/Camera-Accessories/Camera-Mounts/Junction-Boxes/PFA134",
+        "gallery": [
+          "https://www.dahuasecurity.com/products/All-Products/Accessories/Camera-Accessories/Camera-Mounts/Junction-Boxes/PFA134"
+        ],
+        "documents": [
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/PFA134_datasheet_20250314.pdf"
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFA134",
+          "providerSku": "ACCDAH1020",
+          "productType": "Caja de conexion para camara CCTV",
+          "material": "Aluminio y SECC",
+          "color": "Blanco",
+          "thread": "G1/2",
+          "loadBearing": "1 kg",
+          "installation": "Junction mount",
+          "operatingTemperature": "-40 C a 60 C",
+          "operatingHumidity": "Menor a 90% RH",
+          "providerBranchSummary": "Disponible por sucursal proveedor: HMO 2, LEO 2, VHA 1, ACX 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "HMO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "VHA", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "ACX", "stock": 1}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "ACCDAH1020", "stock": 6, "price": 6.99, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed omite la categoria real de accesorio de montaje y separadores del modelo."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "94.3 x 36.1 mm", "netWeight": "0.23 kg", "grossWeight": "0.29 kg"},
+        "sourceRefs": [
+          {"title": "Dahua DH-PFA134 product page", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/products/All-Products/Accessories/Camera-Accessories/Camera-Mounts/Junction-Boxes/PFA134"},
+          {"title": "Electroprice provider stock ACCDAH1020", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "67366uvi7h64v6b",
+      "research": {
+        "confidence": 0.89,
+        "name": "Vorago AU-402-WH cargador de pared GaN 45W dual USB-C blanco",
+        "description": "Cargador de pared Vorago AU-402-WH con tecnologia GaN, Power Delivery 3.0, dos puertos USB-C y potencia maxima de 45W en formato compacto color blanco.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-gan/45w-dual-usb-c",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-gan/45w-dual-usb-c/vorago-au-402-wh",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/cargador-de-pared-usb-c-vorago-au-402-wh-45w-gan-pd-2-puertos-carga-rapida-compacto-blanco.html",
+        "gallery": [
+          "https://voragolive.com/cargador-de-pared-usb-c-vorago-au-402-wh-45w-gan-pd-2-puertos-carga-rapida-compacto-blanco.html",
+          "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/Vorago-Cargador-de-Pared-AU-402-WH-45W-20V-2-x-USB-C.html"
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "AU-402-WH",
+          "providerSku": "AC-13478",
+          "alternateProviderSku": "ACCVGO2690",
+          "productType": "Cargador de pared USB-C GaN",
+          "ports": "2 x USB-C",
+          "fastCharge": "Power Delivery 3.0",
+          "inputVoltage": "110 V a 240 V",
+          "inputFrequency": "50/60 Hz",
+          "maxPower": "45 W",
+          "plugType": "Tipo A",
+          "color": "Blanco",
+          "providerBranchSummary": "Proveedor con inventario consolidado; sucursal no publicada en el feed.",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "ACCVGO2690", "stock": 90, "price": 9.59, "currency": "USD", "priceKind": "customer_price"},
+            {"providerId": "cva", "providerSku": "AC-13478", "stock": 0, "price": 8.91, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es cargador de pared USB-C."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "35 x 35 x 64 mm", "netWeight": "57 g"},
+        "sourceRefs": [
+          {"title": "Vorago AU-402-WH product page", "type": "manufacturer_spec", "url": "https://voragolive.com/cargador-de-pared-usb-c-vorago-au-402-wh-45w-gan-pd-2-puertos-carga-rapida-compacto-blanco.html"},
+          {"title": "Cyberpuerta Vorago AU-402-WH listing", "type": "marketplace_spec", "url": "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/Vorago-Cargador-de-Pared-AU-402-WH-45W-20V-2-x-USB-C.html"},
+          {"title": "Electroprice provider stock AC-13478", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "67b7ebn11pe0cfi",
+      "research": {
+        "confidence": 0.88,
+        "brand": "UNV",
+        "name": "UNV OEU-301S-HMKA kit videoportero IP departamental con monitor OEI-371S-H-W 7 pulgadas",
+        "description": "Kit de videoportero IP UNV para edificio departamental con frente OEU-301S-HMKA, monitor interior OEI-371S-H-W de 7 pulgadas, PoE, lector IC, intercomunicacion, alarma y monitoreo de camaras.",
+        "manualCategoryPath": "seguridad/videoporteros/ip/kits-departamentales/7-pulgadas",
+        "semanticCategoryPath": "seguridad/videoporteros/ip/kits-departamentales/7-pulgadas/unv-oeu-301s-hmka-oei-371s-h-w",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://global.uniview.com/Products/Video_Intercoms/Door_Stations/Apartment_Door_Stations/OEU-301S-HMKA/",
+        "gallery": [
+          "https://global.uniview.com/Products/Video_Intercoms/Door_Stations/Apartment_Door_Stations/OEU-301S-HMKA/",
+          "https://www.uniview.com/Products/Video_Intercoms/Indoor_Stations/Indoor_Stations/OEI-371S-H-W/"
+        ],
+        "documents": [
+          "https://global.uniview.com/res/202407/23/20240723_1906135_UNV%20OEU-301S-HMKA%20Apartment%20Door%20Station_994710_168459_0.pdf",
+          "https://global.uniview.com/res/202312/04/20231204_1894474_UNV%20OEI-371S-H-W%20Indoor%20Station%20Datasheet%20V1.00-EN_983161_168459_0.pdf"
+        ],
+        "specs": {
+          "brand": "UNV",
+          "model": "OEU-301S-HMKA + OEI-371S-H-W",
+          "providerSku": "CC161UNV02",
+          "productType": "Kit de videoportero IP departamental",
+          "outdoorStation": "OEU-301S-HMKA, 15 teclas, lector IC, PoE, IP65, IK08",
+          "indoorStation": "OEI-371S-H-W, pantalla tactil TFT 7 pulgadas 1024 x 600",
+          "network": "Puerto 100 Mbps, IEEE 802.3af PoE",
+          "protocols": "TCP/IP, IPv4, HTTP, RTP, RTSP, NTP, protocolo privado UNV",
+          "capacity": "Hasta 500 monitores interiores conectados en frente OEU-301S-HMKA",
+          "features": "Intercomunicacion, desbloqueo remoto, monitoreo de camaras, alarma, tamper",
+          "providerBranchSummary": "Proveedor Tecnosinergia con inventario consolidado; sucursal no publicada en el feed.",
+          "providerOffers": [
+            {"providerId": "tecnosinergia", "providerSku": "CC161UNV02", "stock": 7, "price": 5932.13, "currency": "MXN", "priceKind": "unknown"}
+          ],
+          "sourceDiscrepancies": ["El feed lo nombraba como monitor Electroprice; el SKU corresponde a kit UNV de videoportero IP."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {
+          "dimensions": "Frente 125 x 358 x 53 mm; monitor 193.2 x 143.4 x 24.3 mm",
+          "netWeight": "Frente 2.10 kg; monitor 0.377 kg"
+        },
+        "sourceRefs": [
+          {"title": "UNV OEU-301S-HMKA product page", "type": "manufacturer_spec", "url": "https://global.uniview.com/Products/Video_Intercoms/Door_Stations/Apartment_Door_Stations/OEU-301S-HMKA/"},
+          {"title": "UNV OEI-371S-H-W product page", "type": "manufacturer_spec", "url": "https://www.uniview.com/Products/Video_Intercoms/Indoor_Stations/Indoor_Stations/OEI-371S-H-W/"},
+          {"title": "Electroprice provider stock CC161UNV02", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "685dljhj2bipd7k",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dahua DH-HAC-HFW1509TN-A-LED-0360B camara HDCVI bullet 5MP Full-Color con microfono",
+        "description": "Camara HDCVI bullet Dahua DH-HAC-HFW1509TN-A-LED-0360B de 5MP Full-Color Starlight, lente fijo 3.6mm, microfono integrado, luz blanca, multiformato CVI/TVI/AHD/CVBS e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/5mp-full-color-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/5mp-full-color-mic/dahua-hac-hfw1509tn-a-led-0360b",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/my/products/All-Products/HDCVI-Cameras/Lite-Series/5MP/Full-color/HAC-HFW1509T%28-A%29-LED%3DS2",
+        "gallery": [
+          "https://www.dahuasecurity.com/my/products/All-Products/HDCVI-Cameras/Lite-Series/5MP/Full-color/HAC-HFW1509T%28-A%29-LED%3DS2"
+        ],
+        "documents": [
+          "https://www.dahuasecurity.com/asset/upload/uploads/soft/20210422/DH-HAC-HFW1509T%28-A%29-LED_datasheet_20210409.pdf"
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-HAC-HFW1509TN-A-LED-0360B",
+          "providerSku": "CAMDAH4830",
+          "productType": "Camara HDCVI bullet Full-Color",
+          "resolution": "5MP",
+          "sensor": "1/2.7 pulgadas CMOS",
+          "frameRate": "20 fps a 5MP",
+          "lens": "3.6 mm fijo",
+          "illumination": "Luz blanca hasta 40 m",
+          "audio": "Microfono integrado",
+          "videoOutput": "CVI/TVI/AHD/CVBS conmutable",
+          "power": "12 V DC",
+          "protection": "IP67",
+          "providerBranchSummary": "Disponible por sucursal proveedor: ZAC 3, ACA 3, IRA 3, MOR 1, URP 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "ZAC", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "URP", "stock": 1}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "CAMDAH4830", "stock": 11, "price": 35.18, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed conserva modelo sin prefijo DH- y sin marcar microfono/Full-Color."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "174.5 x 72.3 x 70.6 mm", "netWeight": "0.29 kg"},
+        "sourceRefs": [
+          {"title": "Dahua HAC-HFW1509T(-A)-LED product page", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/my/products/All-Products/HDCVI-Cameras/Lite-Series/5MP/Full-color/HAC-HFW1509T%28-A%29-LED%3DS2"},
+          {"title": "Electroprice provider stock CAMDAH4830", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "685we5kr402gbzn",
+      "research": {
+        "confidence": 0.87,
+        "name": "Acteck BE220 Frezze Book Prime base enfriadora y soporte para laptop 15.5 pulgadas",
+        "description": "Base Acteck BE220 Frezze Book Prime para laptop de hasta 15.5 pulgadas, con diseno tipo soporte, inclinacion ergonomica, plastico negro y capacidad de carga de hasta 15 kg.",
+        "manualCategoryPath": "computo/accesorios/soportes-laptop/bases-enfriadoras",
+        "semanticCategoryPath": "computo/accesorios/soportes-laptop/bases-enfriadoras/acteck-be220-frezze-book-prime",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/base-para-laptop-frezze-book-prime-be220",
+        "gallery": [
+          "https://acteck.com/products/base-para-laptop-frezze-book-prime-be220"
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "BE220",
+          "providerSku": "ACCACT4890",
+          "productType": "Base y soporte para laptop",
+          "series": "Frezze Book Prime",
+          "compatibleSize": "Hasta 15.5 pulgadas",
+          "loadCapacity": "15 kg",
+          "tilt": "Hasta 35 grados",
+          "material": "Plastico",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: CMT 3, D2A 3, TRN 1, PUE 1, ZAC 1, IRA 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 1}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "ACCACT4890", "stock": 10, "price": 101.87, "currency": "MXN", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed lo coloco en monitores; es accesorio/soporte para laptop."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "28 x 25 x 1.5 cm", "netWeight": "0.50 kg"},
+        "sourceRefs": [
+          {"title": "Acteck BE220 Frezze Book Prime product page", "type": "manufacturer_spec", "url": "https://acteck.com/products/base-para-laptop-frezze-book-prime-be220"},
+          {"title": "Electroprice provider stock ACCACT4890", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6873kfqqscl9abv",
+      "research": {
+        "confidence": 0.86,
+        "name": "Necnon NBAB042600 NBH-04 Pro audifonos Bluetooth over-ear con radio FM MicroSD negro verde",
+        "description": "Audifonos Necnon NBH-04 Pro NBAB042600 de diadema Bluetooth 5.0 en color negro/verde, con radio FM, ranura MicroSD, entrada auxiliar 3.5mm, microfono integrado y modo manos libres.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/diadema-over-ear/radio-fm-microsd",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/diadema-over-ear/radio-fm-microsd/necnon-nbab042600-nbh-04-pro",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://necnontrade.com/producto/nbh-04-pro/",
+        "gallery": [
+          "https://necnontrade.com/producto/nbh-04-pro/",
+          "https://cityshop.mx/producto/audifonos-over-ear-bluetooth-nbh-04-pro-alta-potencia-radio-fm-micro-sd-35mml-manos-libres-negroverde"
+        ],
+        "specs": {
+          "brand": "NECNON",
+          "model": "NBAB042600 / NBH-04 Pro",
+          "providerSku": "BOCNNN410",
+          "gtin": "750363515054",
+          "productType": "Audifonos Bluetooth de diadema",
+          "color": "Negro/verde",
+          "connectivity": "Bluetooth 5.0, auxiliar 3.5 mm",
+          "features": "Radio FM, MicroSD, manos libres, Super Bass",
+          "microphone": "Integrado",
+          "headphoneFrequency": "20 Hz a 20 kHz",
+          "impedance": "32 ohm",
+          "maxInputPower": "40 mW",
+          "wirelessRange": "10 m",
+          "providerBranchSummary": "Disponible por sucursal proveedor: CUN 3, OBR 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "CUN", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "OBR", "stock": 1}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "BOCNNN410", "stock": 4, "price": 131.03, "currency": "MXN", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed solo indicaba NBAB042600; retailers y fabricante lo asocian a NBH-04 Pro negro/verde."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "200 x 220 x 80 mm", "netWeight": "310 g"},
+        "sourceRefs": [
+          {"title": "Necnon NBH-04 Pro product page", "type": "manufacturer_spec", "url": "https://necnontrade.com/producto/nbh-04-pro/"},
+          {"title": "Cityshop Necnon NBAB042600 listing", "type": "marketplace_spec", "url": "https://cityshop.mx/producto/audifonos-over-ear-bluetooth-nbh-04-pro-alta-potencia-radio-fm-micro-sd-35mml-manos-libres-negroverde"},
+          {"title": "Electroprice provider stock BOCNNN410", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "689extnh7d1sojy",
+      "research": {
+        "confidence": 0.9,
+        "name": "Kyocera TK-5292K toner negro original rendimiento 17000 paginas",
+        "description": "Toner original Kyocera TK-5292K negro para impresora ECOSYS P7240cdn, rendimiento aproximado de 17000 paginas bajo ISO/IEC 19798.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-5292k",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-5292k/original-negro-17000-paginas",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kyoceradocumentsolutions.us/en/products/consumables/TK-5292K.html",
+        "gallery": [
+          "https://www.kyoceradocumentsolutions.us/en/products/consumables/TK-5292K.html"
+        ],
+        "specs": {
+          "brand": "KYOCERA",
+          "model": "TK-5292K",
+          "partNumber": "1T02TX0US0",
+          "providerSku": "TONKYC1570",
+          "productType": "Toner laser original",
+          "color": "Negro",
+          "yield": "17000 paginas",
+          "yieldStandard": "ISO/IEC 19798",
+          "compatiblePrinter": "ECOSYS P7240cdn",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 5.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 5}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "TONKYC1570", "stock": 5, "price": 118.89, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es consumible de impresion Kyocera."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "Consumible para ECOSYS P7240cdn; dimensiones de caja no publicadas en fuente oficial", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Kyocera TK-5292K official consumable page", "type": "manufacturer_spec", "url": "https://www.kyoceradocumentsolutions.us/en/products/consumables/TK-5292K.html"},
+          {"title": "Electroprice provider stock TONKYC1570", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "68wd12ajgnbq8ro",
+      "research": {
+        "confidence": 0.88,
+        "name": "Tripp Lite N001-005-WH cable patch Cat5e UTP RJ45 5ft blanco",
+        "description": "Cable patch Ethernet Tripp Lite N001-005-WH Cat5e UTP blanco de 5 pies, RJ45 macho a macho, conectores snagless, conductor 26 AWG y soporte de hasta 350 MHz/1 Gbps.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/1-5m-blanco",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/1-5m-blanco/tripp-lite-n001-005-wh",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.officedepot.com/a/products/6679779/Tripp-Lite-5ft-Cat5-Cat5e-Snagless/",
+        "gallery": [
+          "https://www.officedepot.com/a/products/6679779/Tripp-Lite-5ft-Cat5-Cat5e-Snagless/",
+          "https://www.pcnation.com/tripp-lite-n001-005-wh-8r2523"
+        ],
+        "specs": {
+          "brand": "TRIPP-LITE",
+          "model": "N001-005-WH",
+          "providerSku": "CABTRL4240",
+          "upc": "037332202604",
+          "productType": "Cable patch Ethernet Cat5e",
+          "category": "Cat5e",
+          "length": "5 ft / 1.52 m",
+          "color": "Blanco",
+          "connector": "RJ45 macho a macho snagless",
+          "cableType": "UTP 4 pares",
+          "wireGauge": "26 AWG",
+          "frequency": "350 MHz",
+          "dataRate": "1 Gbps",
+          "providerBranchSummary": "Disponible por sucursal proveedor: LEO 126.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 126}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "CABTRL4240", "stock": 126, "price": 26.44, "currency": "MXN", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed conserva nombre generico cable; se especifica Cat5e 5ft blanco N001-005-WH."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "Longitud 1.52 m", "netWeight": "0.10 lb listado por retailer"},
+        "sourceRefs": [
+          {"title": "Office Depot Tripp Lite N001-005-WH listing", "type": "marketplace_spec", "url": "https://www.officedepot.com/a/products/6679779/Tripp-Lite-5ft-Cat5-Cat5e-Snagless/"},
+          {"title": "PCNation Eaton Tripp Lite N001-005-WH listing", "type": "marketplace_spec", "url": "https://www.pcnation.com/tripp-lite-n001-005-wh-8r2523"},
+          {"title": "Electroprice provider stock CABTRL4240", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "68xghnqhghkgntf",
+      "research": {
+        "confidence": 0.91,
+        "name": "Dell Premier KM7321W combo teclado y mouse inalambrico multi-dispositivo titan gray",
+        "description": "Combo Dell Premier KM7321W de teclado y mouse inalambricos para productividad, con conexion RF 2.4 GHz y Bluetooth 5.0, control multi-dispositivo, 12 teclas programables y bateria de hasta 36 meses.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/productividad",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/productividad/dell-premier-km7321w",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-premier-multi-device-wireless-keyboard-and-mouse-km7321w/apd/580-ajix/pc-accessories",
+        "gallery": [
+          "https://www.dell.com/en-us/shop/dell-premier-multi-device-wireless-keyboard-and-mouse-km7321w/apd/580-ajix/pc-accessories",
+          "https://www.bhphotovideo.com/c/product/1643894-REG/dell_km7321wgy_us_premier_multi_device_wireless_keyboard.html/overview"
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "KM7321W",
+          "providerSku": "KITDLL1260",
+          "dellPart": "580-AJIX",
+          "manufacturerPart": "D2GPX",
+          "productType": "Combo teclado y mouse inalambrico",
+          "connectivity": "RF 2.4 GHz con receptor USB y Bluetooth 5.0",
+          "keyboard": "Tamano completo, 12 teclas programables F1-F12",
+          "mouse": "7 botones, DPI 1000/1600/2400/4000",
+          "battery": "Teclado 2 AAA, mouse 1 AA; hasta 36 meses",
+          "color": "Titan Gray",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 12, DFA 12, SLP 7, QRO 4, LMO 3, VHA 2, CHI 1, SLT 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 12},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 12},
+            {"providerId": "ctonline", "warehouseCode": "SLP", "stock": 7},
+            {"providerId": "ctonline", "warehouseCode": "QRO", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "LMO", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "VHA", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CHI", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "SLT", "stock": 1}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "KITDLL1260", "stock": 42, "price": 1254.44, "currency": "MXN", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es combo de perifericos de productividad."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "Teclado 434 x 122 x 28 mm; mouse 114 x 69 x 41 mm", "netWeight": "Teclado 561 g; mouse 85 g"},
+        "sourceRefs": [
+          {"title": "Dell KM7321W product page", "type": "manufacturer_spec", "url": "https://www.dell.com/en-us/shop/dell-premier-multi-device-wireless-keyboard-and-mouse-km7321w/apd/580-ajix/pc-accessories"},
+          {"title": "B&H Dell KM7321W specifications", "type": "marketplace_spec", "url": "https://www.bhphotovideo.com/c/product/1643894-REG/dell_km7321wgy_us_premier_multi_device_wireless_keyboard.html/overview"},
+          {"title": "Electroprice provider stock KITDLL1260", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "69pgdihmty3hmmy",
+      "research": {
+        "confidence": 0.89,
+        "name": "Redragon Hylas Lunar White H260-W headset gaming alambrico RGB 50mm",
+        "description": "Headset gamer Redragon Hylas Lunar White H260-W con drivers de 50mm, iluminacion RGB Redragon Chroma, microfono omnidireccional flexible, conexion 3.5mm para audio/microfono y USB solo para iluminacion.",
+        "manualCategoryPath": "gaming/audio/headsets/alambricos/rgb",
+        "semanticCategoryPath": "gaming/audio/headsets/alambricos/rgb/redragon-hylas-lunar-white-h260-w",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.redragon.com.br/hylaslunarwhite",
+        "gallery": [
+          "https://www.redragon.com.br/hylaslunarwhite"
+        ],
+        "specs": {
+          "brand": "REDRAGON",
+          "model": "H260-W",
+          "providerSku": "BOCRDG040",
+          "ean": "6950376706393",
+          "productType": "Headset gaming alambrico",
+          "color": "Lunar White",
+          "driver": "50 mm",
+          "frequencyResponse": "20 Hz a 20000 Hz",
+          "sensitivity": "110 +/- 3 dB",
+          "impedance": "16 ohm +/- 15%",
+          "microphone": "Omnidireccional flexible, capsula 40 mm",
+          "lighting": "RGB Redragon Chroma",
+          "connectors": "3.5 mm audio, 3.5 mm microfono, USB para iluminacion, cable Y",
+          "cableLength": "1.8 m",
+          "providerBranchSummary": "Disponible por sucursal proveedor: MTY 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "MTY", "stock": 1}
+          ],
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "BOCRDG040", "stock": 1, "price": 309.91, "currency": "MXN", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["El feed lo tenia en headphones; se reclasifica a audio gaming/headset alambrico RGB."],
+          "providerStockVerifiedAt": "2026-05-30T23:50:00Z"
+        },
+        "measurements": {"dimensions": "Diadema over-ear; empaque no publicado en fuente oficial", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Redragon Hylas Lunar White H260-W product page", "type": "manufacturer_spec", "url": "https://www.redragon.com.br/hylaslunarwhite"},
+          {"title": "Electroprice provider stock BOCRDG040", "type": "provider_stock", "observedAt": "2026-05-30T23:50:00Z"}
+        ]
+      }
+    }
+  ]
+}

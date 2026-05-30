@@ -152,6 +152,16 @@ const batch160PlusCases = [
   ["Grandstream UCM6304 PBX IP 2000 usuarios 4 FXS 4 FXO", "GRANDSTREAM", "telefonia/pbx-ip/grandstream-ucm6300/4fxs-4fxo", "networking"],
   ["PCM 50000B0161A etiquetas termicas directas 4x6 pulgadas caja 12 rollos", "PCM", "impresion/consumibles/etiquetas-papel/termicas-directas/102x152mm", "printers_scanners"],
   ["BRobotix 810533 rack abierto 19 pulgadas 24U 1.20m con tornilleria M6", "BROBOTIX", "infraestructura/racks-enfriamiento/racks-piso/abiertos-24u", "networking"],
+  ["Dahua DH-PFA134 caja de conexion para camaras CCTV blanca", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-montaje/cajas-conexion/dahua-pfa134", "cameras"],
+  ["Vorago AU-402-WH cargador pared GaN 45W 2 USB-C blanco", "VORAGO", "energia/cargadores-usb/pared-gan/45w-dual-usb-c", "accessories"],
+  ["UNV OEU-301S-HMKA kit videoportero IP departamental con monitor OEI-371S-H-W 7 pulgadas", "UNV", "seguridad/videoporteros/ip/kits-departamentales/7-pulgadas", "security"],
+  ["Dahua DH-HAC-HFW1509TN-A-LED-0360B camara HDCVI bullet 5MP Full-Color microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/5mp-full-color-mic", "cameras"],
+  ["Acteck BE220 Frezze Book Prime base enfriadora para laptop 15.5 pulgadas", "ACTECK", "computo/accesorios/soportes-laptop/bases-enfriadoras", "laptops"],
+  ["Necnon NBAB042600 NBH-04 Pro audifonos Bluetooth over-ear radio FM MicroSD verdes", "NECNON", "audio/audifonos/bluetooth/diadema-over-ear/radio-fm-microsd", "headphones"],
+  ["Kyocera TK-5292K toner negro original rendimiento 17000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5292k", "printers_scanners"],
+  ["Tripp Lite N001-005-WH cable patch Cat5e UTP RJ45 5ft blanco", "TRIPP-LITE", "redes/cableado-estructurado/patch-cords/cat5e/1-5m-blanco", "networking"],
+  ["Dell Premier KM7321W combo teclado y mouse inalambrico multi-dispositivo", "DELL", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad", "accessories"],
+  ["Redragon Hylas Lunar White H260-W headset gaming alambrico RGB 50mm", "REDRAGON", "gaming/audio/headsets/alambricos/rgb", "gaming"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
