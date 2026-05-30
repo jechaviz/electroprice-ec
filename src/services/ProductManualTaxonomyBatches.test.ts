@@ -300,7 +300,7 @@ const researchedBatchCases = [
   ["Acteck Inspire TA210 AC-928946 teclado alambrico USB", "ACTECK", "computo/perifericos/teclados/alambricos/usb"],
   ["Acteck Creator MK210 AC-928984 kit teclado y mouse USB", "ACTECK", "computo/perifericos/combos-teclado-mouse"],
   ["Acteck Atom GS240 AC-929042 gabinete micro torre slim", "ACTECK", "computo/componentes/gabinetes"],
-  ["Acteck Kioto GC240 AC-932547 gabinete mini torre", "ACTECK", "computo/componentes/gabinetes"],
+  ["Acteck Kioto GC240 AC-932547 gabinete mini torre", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-fuente-500w"],
   ["Acteck Inspire TN220 AC-932622 teclado numerico USB", "ACTECK", "computo/perifericos/teclados/numericos"],
 ] as const;
 

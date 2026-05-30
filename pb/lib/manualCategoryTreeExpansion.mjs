@@ -54,6 +54,8 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'telefonia/pbx-ip', name: 'PBX y conmutadores IP', legacyCategory: 'networking' },
   { path: 'telefonia/pbx-ip/grandstream-ucm6300', name: 'PBX IP Grandstream UCM6300', legacyCategory: 'networking' },
   { path: 'telefonia/telefonos', name: 'Telefonos', legacyCategory: 'laptops' },
+  { path: 'telefonia/telefonos/alambricos', name: 'Telefonos alambricos', legacyCategory: 'accessories' },
+  { path: 'telefonia/telefonos/alambricos/basicos', name: 'Telefonos alambricos basicos', legacyCategory: 'accessories' },
   { path: 'telefonia/telefonos/inalambricos', name: 'Telefonos inalambricos', legacyCategory: 'laptops' },
   { path: 'telefonia/telefonos-ip', name: 'Telefonos IP', legacyCategory: 'networking' },
   { path: 'telefonia/accesorios', name: 'Accesorios para telefonia movil', legacyCategory: 'laptops' },

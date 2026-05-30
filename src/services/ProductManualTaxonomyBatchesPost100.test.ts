@@ -212,6 +212,16 @@ const researchedBatchCases = [
   ["Brother BTD60BK botella tinta negra 6500 paginas", "BROTHER", "impresion/consumibles/botellas-tinta/brother-btd60/negro"],
   ["Silimex Silijet E Plus limpiador lubricante dielectrico naranja", "SILIMEX", "computo/accesorios/limpieza/limpiadores-contactos"],
   ["Dell CP3724 EcoLoop Essential mochila laptop 14 a 16 pulgadas 460-BDSW", "DELL", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
+  ["Acteck Kioto GI240 GC240 gabinete Micro ATX Mini ITX con fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-fuente-500w"],
+  ["BRobotix 764762 cable divisor de energia DC para CCTV", "BROBOTIX", "seguridad/cctv/accesorios-cableado/conectores-corriente/divisores-energia-dc"],
+  ["Nextep NE-500 lector codigo de barras 1D USB con base", "NEXTEP", "punto-de-venta/lectores-codigo-barras/1d-usb"],
+  ["ASUS PRIME H610M-K tarjeta madre Micro ATX LGA1700 DDR5", "ASUS", "computo/componentes/tarjetas-madre/intel-lga1700/h610m-ddr5"],
+  ["Panasonic KX-TS500MEW telefono alambrico basico unilinea blanco", "PANASONIC", "telefonia/telefonos/alambricos/basicos"],
+  ["CDP R-UPR758 UPS line-interactive 750VA 375W 8 contactos", "CDP", "energia/no-breaks-ups/line-interactive/750va"],
+  ["TP-Link Archer T3U Plus adaptador USB Wi-Fi AC1300 alta ganancia", "TP-LINK", "redes/adaptadores-wifi/usb/ac1300-alta-ganancia"],
+  ["SanDisk Cruzer Glide SDCZ600-064G-G35 memoria USB 64GB USB 3.0", "SANDISK", "computo/almacenamiento/memorias-flash/usb/64gb"],
+  ["ADATA UV210 memoria USB 32GB USB 2.0 plata", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb/metalicas"],
+  ["SanDisk Cruzer Blade SDCZ50-128G-B35 memoria USB 128GB USB-A", "SANDISK", "computo/almacenamiento/memorias-flash/usb/128gb"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

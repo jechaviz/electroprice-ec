@@ -1,0 +1,517 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b123-2026-05-30",
+  "cycle": 3,
+  "batch": 123,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "yvx4m7thtwoxvs2",
+      "research": {
+        "confidence": 0.86,
+        "name": "Gabinete compacto mini torre Acteck Kioto GC240 Micro ATX/Mini ITX con fuente 500W",
+        "description": "Gabinete compacto mini torre Acteck Kioto GC240 negro para PC, compatible con tarjetas madre Micro ATX y Mini ITX, con fuente ATX de 500 W incluida, puertos USB frontales y ventilador trasero de 80 mm incluido.",
+        "manualCategoryPath": "computo/componentes/gabinetes/mini-tower/micro-atx-fuente-500w",
+        "semanticCategoryPath": "computo/componentes/gabinetes/mini-tower/micro-atx-fuente-500w/acteck-kioto-gc240-ac-932547",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-gc240",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-932547_01_1000px.webp?v=1689707500&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-932547_03_1000px.webp?v=1704381927&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-932547_09_1000px.webp?v=1704381927&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-932547_02_1000px.webp?v=1704381927&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-932547_12_1000px.webp?v=1704381927&width=1000"
+        ],
+        "documents": [
+          { "label": "Acteck Kioto GC240 product page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-gc240" },
+          { "label": "Acteck AC-932547 technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-932547_V1.pdf?v=1694532780" },
+          { "label": "MCA AC-932547 distributor sheet", "type": "distributor", "url": "https://mcashop.mx/producto/descargar/472969" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "AC-932547",
+          "aliases": ["Kioto GI240", "GI240 A GC240", "Kioto GC240"],
+          "providerSku": "GABACT140",
+          "ean": "7506215932547",
+          "productType": "Gabinete compacto mini torre para PC",
+          "color": "Negro",
+          "motherboardSupport": ["Micro ATX", "Mini ITX"],
+          "psuIncluded": true,
+          "psu": "ATX 500 W",
+          "expansionSlots": 4,
+          "fanSupport": ["Frontal 1x120 mm no incluido", "Trasero 1x80 mm incluido", "Lateral 1x120 mm no incluido"],
+          "frontIO": ["1x USB 2.0", "1x USB 3.0", "Audio 3.5 mm", "Microfono 3.5 mm"],
+          "materials": ["SPCC/metal", "plastico"],
+          "warranty": "3 anos",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 64 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 23 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABACT140", "stock": 644, "price": 469.41, "currency": "MXN", "branch": "DFA:64,HMO:50,MID:40,PUE:35,TRN:33,COL:29,LMO:28,SLP:28,MOR:28,DGO:26,OBR:24,PAC:23" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Provider names use GI240/GI240 A GC240 while official current page uses GC240 for the same AC-932547/EAN.", "Official PDF lists Micro ATX and Mini ITX support; visible product page has broader text, so the PDF is preferred.", "USB and GPU clearance vary by source; selected official technical sheet values."]
+        },
+        "measurements": { "dimensions": "31.7 x 19.05 x 35.2 cm", "weight": "2.294 kg", "packageDimensions": "39.5 x 21 x 35 cm", "packageWeight": "3.1 kg", "maxCpuCoolerHeight": "145 mm", "maxGpuLength": "250 mm" },
+        "sourceRefs": [
+          { "title": "Acteck Kioto GC240 official page", "type": "manufacturer", "url": "https://acteck.com/products/gabinete-compacto-mini-torre-kioto-gc240" },
+          { "title": "Acteck AC-932547 official technical sheet", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_tecnica_AC-932547_V1.pdf?v=1694532780" },
+          { "title": "Compuviper Acteck AC-932547 cross-check", "type": "retailer", "url": "https://compuviper.mx/tienda/producto/acteck-ac-932547-gabinete-kioto-gc240-mini-torre-micro-atx-mini-itx-fuente-500w-metal-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "61auhp2x58j3wk4",
+      "research": {
+        "confidence": 0.74,
+        "name": "Cable divisor de fuente de poder BRobotix 764762 para CCTV 1 hembra a 4 machos 50 cm",
+        "description": "Divisor de energia DC tipo pulpo para CCTV que permite alimentar hasta cuatro camaras desde una sola fuente, con 1 conector hembra de entrada y 4 conectores macho 5.5/2.1 mm de salida, color negro.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/divisores-energia-dc",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/divisores-energia-dc/brobotix-764762",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://www.brobotix.com.mx",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableCCTVDivisordeFuentedePoderBRO_764762_EAN7503027764762_0-600x600.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableCCTVDivisordeFuentedePoderBRO_764762_EAN7503027764762_1.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/CableCCTVDivisordeFuentedePoderBRO_764762_EAN7503027764762_2.jpg",
+          "https://mipc.com.mx/media/catalog/product/4/3/43186668.jpg?height=480&image-type=image&store=default&width=480",
+          "https://mipc.com.mx/media/catalog/product/4/3/43186669.jpg?height=480&image-type=image&store=default&width=480"
+        ],
+        "documents": [
+          { "label": "CompuPuebla BRobotix 764762", "type": "retailer", "url": "https://compupuebla.com/producto/cable-cctv-divisor-de-fuente-de-poder-brobotix-764762/" },
+          { "label": "FullOffice BRobotix 764762", "type": "retailer", "url": "https://fulloffice.com/products/cable-cctv-divisor-de-fuente-de-poder-brobotix-764762" },
+          { "label": "MiPC BRobotix 764762", "type": "retailer", "url": "https://mipc.com.mx/cable-cctv-brobotix-divisor-de-fuente-de-poder-hembra-4x-4x-5-5-2-1mm-macho-50cm-negro-764762.html" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "764762",
+          "providerSku": "CABRBT2520",
+          "ean": "7503027764762",
+          "productType": "Divisor de fuente de poder para CCTV",
+          "cableType": "Divisor de energia DC tipo pulpo",
+          "length": "50 cm",
+          "color": "Negro",
+          "connectorInput": "1x hembra DC",
+          "connectorOutputs": "4x macho DC 2.1 mm",
+          "connectorFormFactor": "Derecho",
+          "packageQuantity": "1 pieza",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "SLP", "stock": 287 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 127 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABRBT2520", "stock": 640, "price": 1.13, "currency": "USD", "branch": "SLP:287,LEO:127,VER:35,CLN:33,QRO:32,HMO:27,TXA:15,D2A:15,MAZ:12,DFA:9,COL:8,TPC:6" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Titles and descriptions repeatedly indicate 50 cm; some structured retailer fields show 5 m, likely inherited data error.", "Retail categories vary between network cables, electrical protection and CCTV; semantic use is CCTV DC power distribution."]
+        },
+        "measurements": { "length": "50 cm" },
+        "sourceRefs": [
+          { "title": "CompuPuebla BRobotix 764762", "type": "retailer", "url": "https://compupuebla.com/producto/cable-cctv-divisor-de-fuente-de-poder-brobotix-764762/" },
+          { "title": "TiendaClic divisor BRobotix 764762", "type": "retailer", "url": "https://www.tiendaclic.mx/ver-detalle/divisor-de-fuente-de-poder-brobotix-1-entrada-a-4-salidas-brobotix-764762" },
+          { "title": "MiPC BRobotix 764762 product page", "type": "retailer", "url": "https://mipc.com.mx/cable-cctv-brobotix-divisor-de-fuente-de-poder-hembra-4x-4x-5-5-2-1mm-macho-50cm-negro-764762.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "97s4aa4dh2phe3t",
+      "research": {
+        "confidence": 0.86,
+        "name": "Lector de codigos de barras Nextep NE-500 1D USB con base ajustable",
+        "description": "Lector laser 1D Nextep NE-500 con conexion USB, base ajustable, lectura manual o automatica, confirmacion con luz y sonido, cable de 1.8 m y compatibilidad con Windows, Linux, Android y macOS.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/1d-usb",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/1d-usb/nextep-ne-500",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/wp-content/uploads/2024/08/Ficha-Te%E2%95%A0ucnica-LECTOR_NE-500.pdf",
+        "gallery": [
+          "https://ofixmx.vtexassets.com/arquivos/ids/171788-800-auto?aspect=true&height=auto&v=638417590979570000&width=800",
+          "https://ofixmx.vtexassets.com/arquivos/ids/205025-800-auto?aspect=true&height=auto&v=638601588550970000&width=800",
+          "https://ofixmx.vtexassets.com/arquivos/ids/205026-800-auto?aspect=true&height=auto&v=638601588525700000&width=800",
+          "https://ofixmx.vtexassets.com/arquivos/ids/205027-800-auto?aspect=true&height=auto&v=638601588622470000&width=800",
+          "https://www.unicom.mx/ecommerce/uploads/PVNEXTEPNE-500.jpg"
+        ],
+        "documents": [
+          { "label": "Nextep NE-500 official technical sheet", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/2024/08/Ficha-Te%E2%95%A0ucnica-LECTOR_NE-500.pdf" },
+          { "label": "Ofix Nextep NE-500 PDF", "type": "datasheet", "url": "https://ofix-fichas-tecnicas.s3.amazonaws.com/3250040.pdf" },
+          { "label": "Ofix Nextep NE-500 product page", "type": "retailer", "url": "https://www.ofix.mx/lector-manual-de-codigo-de-barras-nextep-1d--200-lineas-por-segundo---nextep-ne-500/p" }
+        ],
+        "specs": {
+          "brand": "Nextep",
+          "model": "NE-500",
+          "providerSku": "LCTNTE010",
+          "ean": "7501811271755",
+          "productType": "Lector laser de codigos de barras 1D",
+          "connectivity": "USB cableado",
+          "scanModes": ["Manual por gatillo", "Automatico"],
+          "speed": "300 lineas por segundo",
+          "readingRange": "2 a 35 cm",
+          "supportedCodes": ["Code25", "Code39", "Code93", "Code128", "EAN/JAN13", "EAN/JAN8", "UPC-A", "UPCE0", "Codabar", "MSI", "Plessey", "Code11"],
+          "color": "Negro",
+          "includes": ["Lector", "Cable", "Base"],
+          "power": "DC 5V +/-5%, 320-550 mW maximo, 105 mW en espera",
+          "environment": "0 C a 50 C, 20-85% HR",
+          "ipRating": "IP42",
+          "dropResistance": "1.5 m",
+          "cableLength": "1.8 m",
+          "systems": ["Linux", "Android", "Windows XP/7/8/10", "macOS"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 269 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 162 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 41 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "LCTNTE010", "stock": 635, "price": 327.61, "currency": "MXN", "branch": "DFA:269,D2A:162,CUE:41,CLN:33,CUN:18,AGS:15,TAM:12,TOL:12,TPC:10,TXA:8,MID:8,PUE:6" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Speed appears as 300 lines/sec in official sheet and 200 lines/sec in some retail titles.", "Some listings mention LAN/USB/RJ45, but matched SKU is USB scanner with base.", "Provider key LCTNTE010 differs from alternate internal codes such as NXCLECAD001."]
+        },
+        "measurements": { "dimensions": "180.1 x 88.7 x 66.3 mm", "weight": "112 +/-5 g without cable" },
+        "sourceRefs": [
+          { "title": "Nextep NE-500 official PDF", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/2024/08/Ficha-Te%E2%95%A0ucnica-LECTOR_NE-500.pdf" },
+          { "title": "Ofix Nextep NE-500 product page", "type": "retailer", "url": "https://www.ofix.mx/lector-manual-de-codigo-de-barras-nextep-1d--200-lineas-por-segundo---nextep-ne-500/p" },
+          { "title": "GlobalOffice Nextep NE-500", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/perifericos-para-pos/lector-de-codigos-de-barra-nextep-1d-usb-con-base-lector-de/ne-500" }
+        ]
+      }
+    },
+    {
+      "product_id": "qrlmfzvkdi7fxn1",
+      "research": {
+        "confidence": 0.94,
+        "name": "Tarjeta madre ASUS PRIME H610M-K DDR5 Intel H610 LGA1700 micro-ATX HDMI/VGA",
+        "description": "Tarjeta madre ASUS PRIME H610M-K micro-ATX para procesadores Intel LGA1700 de 14a, 13a y 12a generacion, chipset Intel H610, memoria DDR5, ranura M.2 PCIe 3.0, LAN Gigabit, HDMI y VGA.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/h610m-ddr5",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/h610m-ddr5/asus-prime-h610m-k",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.asus.com/mx/motherboards-components/motherboards/prime/prime-h610m-k/",
+        "gallery": [
+          "https://dlcdnwebimgs.asus.com/gain/3c6317a3-876b-4253-a468-7b9e472cfbae/w692",
+          "https://dlcdnwebimgs.asus.com/gain/eb6af592-21fd-4592-81f3-d342cf769939/w800",
+          "https://dlcdnwebimgs.asus.com/gain/720544b2-a1e1-4f18-a567-e291a1478814/w800",
+          "https://dlcdnwebimgs.asus.com/gain/44fb478c-66f8-42c8-bfe2-7919611f2e42/w800",
+          "https://dlcdnwebimgs.asus.com/gain/cd25b06a-9cae-4436-83a8-bd661f66ae96/w800"
+        ],
+        "documents": [
+          { "label": "ASUS PRIME H610M-K specifications", "type": "manufacturer_specs", "url": "https://www.asus.com/mx/motherboards-components/motherboards/prime/prime-h610m-k/techspec/" },
+          { "label": "ASUS PRIME H610M-K manual", "type": "manual", "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME_H610M-K/E22450_PRIME_H610M-K_UM_WEB.pdf?model=PRIME+H610M-K" },
+          { "label": "ASUS PRIME H610M-K BIOS/support", "type": "support", "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-k/helpdesk_bios?model2Name=PRIME-H610M-K" }
+        ],
+        "specs": {
+          "brand": "ASUS",
+          "model": "PRIME H610M-K",
+          "mpn": "90MB1GA0-M0EAY0",
+          "providerSku": "MBDASS6240",
+          "ean": "4711387336328",
+          "upc": "197105336322",
+          "productType": "Tarjeta madre micro-ATX",
+          "chipset": "Intel H610",
+          "socket": "Intel LGA1700",
+          "cpuSupport": "Intel Core 14th/13th/12th Gen, Pentium Gold and Celeron",
+          "memory": "2 x DIMM DDR5, dual-channel, max 96 GB, Intel XMP, non-ECC",
+          "expansion": "1 x PCIe 4.0 x16, 1 x PCIe 3.0 x1",
+          "storage": "1 x M.2 2242/2260/2280 PCIe 3.0 x4, 4 x SATA 6Gb/s",
+          "rearIO": "HDMI, VGA, 2 x USB 3.2 Gen 1, 4 x USB 2.0, RJ45 Realtek 1GbE, audio, PS/2",
+          "audio": "Realtek 7.1-channel HD audio",
+          "osSupport": "Windows 11, Windows 10 64-bit",
+          "formFactor": "microATX",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 337 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 58 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDASS6240", "stock": 634, "price": 65.56, "currency": "USD", "branch": "D2A:337,TAM:58,ACA:22,MID:20,CUN:16,DFA:16,HMO:14,TRN:13,AGS:13,SLP:12,CLN:11,DFC:10" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Do not merge with PRIME H610M-K D4; this SKU/EAN is DDR5.", "CPU support wording varies by region and BIOS level.", "Official board dimensions are confirmed; weight is only retailer-derived, so not selected as primary."]
+        },
+        "measurements": { "dimensions": "23.4 x 20.3 cm / 9.2 x 8.0 in", "packageWeight": "0.82-0.95 kg retailer range" },
+        "sourceRefs": [
+          { "title": "ASUS Mexico PRIME H610M-K product page", "type": "manufacturer", "url": "https://www.asus.com/mx/motherboards-components/motherboards/prime/prime-h610m-k/" },
+          { "title": "ASUS PRIME H610M-K specifications", "type": "manufacturer_specs", "url": "https://www.asus.com/mx/motherboards-components/motherboards/prime/prime-h610m-k/techspec/" },
+          { "title": "ASUS PRIME H610M-K manual PDF", "type": "manual", "url": "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME_H610M-K/E22450_PRIME_H610M-K_UM_WEB.pdf?model=PRIME+H610M-K" }
+        ]
+      }
+    },
+    {
+      "product_id": "gqh4u8zble3vldd",
+      "research": {
+        "confidence": 0.93,
+        "name": "Telefono alambrico analogico Panasonic KX-TS500MEW una linea blanco",
+        "description": "Telefono fijo analogico Panasonic KX-TS500MEW de una linea, color blanco, con remarcado del ultimo numero, modo tono/pulso, boton flash, volumen ajustable de auricular, timbre alto/bajo/apagado y montaje en pared.",
+        "manualCategoryPath": "telefonia/telefonos/alambricos/basicos",
+        "semanticCategoryPath": "telefonia/telefonos/alambricos/basicos/panasonic-kx-ts500mew",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.panasonic.com/mx/consumo/comunicaciones/telefonia/alambricos/kx-ts500.html",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-PANASONIC-KX-TS500MEW-1.jpg",
+          "https://panasonic.scene7.com/is/image/Panasonic/ast-2596394?fmt=png-alpha&hei=455&wid=561"
+        ],
+        "documents": [
+          { "label": "Panasonic Mexico KX-TS500", "type": "manufacturer", "url": "https://www.panasonic.com/mx/consumo/comunicaciones/telefonia/alambricos/kx-ts500.html" },
+          { "label": "Panasonic KX-TS500 user manual", "type": "manual", "url": "https://www.panasonic.com/content/dam/Panasonic/MEA/pdf-download/Telephones/telecom/KX-TS500_PNQX1287TA.pdf" },
+          { "label": "Cyberpuerta Panasonic KX-TS500MEW", "type": "retailer", "url": "https://www.cyberpuerta.mx/Telefonia/Telefonos/Telefonos-Alambricos/Telefono-Alambrico-Panasonic-KX-TS500MEW-1-Linea-Blanco.html" }
+        ],
+        "specs": {
+          "brand": "Panasonic",
+          "model": "KX-TS500MEW",
+          "family": "KX-TS500",
+          "providerSku": "TELPAN080",
+          "cvaSku": "TEL-4",
+          "productType": "Telefono alambrico analogico",
+          "lines": 1,
+          "color": "Blanco",
+          "dialing": ["DTMF tono", "Pulso"],
+          "features": ["Remarcado del ultimo numero", "Flash 600 ms", "Volumen de auricular ajustable", "Timbre apagado/bajo/alto", "Montaje en pared"],
+          "notIncluded": ["Altavoz", "Pantalla LCD", "Identificador de llamadas confirmado"],
+          "power": "Alimentado por la linea telefonica",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TELPAN080", "stock": 630, "price": 352.74, "currency": "MXN" }, { "providerId": "cva", "providerSku": "TEL-4", "stock": 3, "price": 358.68, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official Panasonic page is family KX-TS500 while distributors carry exact MEW white SKU.", "Some retailer listings add caller ID or memory features not present in the official/manual feature set.", "Current smartphone category is incorrect; product is a basic wired analog phone."]
+        },
+        "measurements": { "dimensions": "150 x 200 x 96 mm approximate", "weight": "475 g approximate" },
+        "sourceRefs": [
+          { "title": "Panasonic Mexico KX-TS500 official page", "type": "manufacturer", "url": "https://www.panasonic.com/mx/consumo/comunicaciones/telefonia/alambricos/kx-ts500.html" },
+          { "title": "Panasonic KX-TS500 user manual", "type": "manual", "url": "https://www.panasonic.com/content/dam/Panasonic/MEA/pdf-download/Telephones/telecom/KX-TS500_PNQX1287TA.pdf" },
+          { "title": "Cyberpuerta Panasonic KX-TS500MEW", "type": "retailer", "url": "https://www.cyberpuerta.mx/Telefonia/Telefonos/Telefonos-Alambricos/Telefono-Alambrico-Panasonic-KX-TS500MEW-1-Linea-Blanco.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "dcjk2ya24hh6kjp",
+      "research": {
+        "confidence": 0.86,
+        "name": "No Break UPS interactivo CDP R-UPR758 750VA/375W 120V 8 contactos",
+        "description": "UPS/no-break line-interactive CDP R-UPR758 de 750 VA/375 W para 120 Vca, con regulacion AVR, 8 contactos NEMA 5-15R, proteccion contra sobretension, bateria SLA 12 V 7 Ah y autonomia aproximada de 4 minutos a carga completa.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/750va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/750va/cdp-r-upr758",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?ccoun=mx&mf=cHJvdGVjdGlvbg&prd=MTA1&prdn=Ui1VUFI3NTg",
+        "gallery": [
+          "https://www.cdpenergy.com/Content_Elements/product_main_images/PRID-105-Main-17.jpg",
+          "https://www.cdpenergy.com/Content_Elements/product_extra_images/PRID-105-EXTIMG-4620.jpg"
+        ],
+        "documents": [
+          { "label": "CDP R-UPR758 product page", "type": "manufacturer", "url": "https://www.cdpenergy.com/productdetails.asp?ccoun=mx&mf=cHJvdGVjdGlvbg&prd=MTA1&prdn=Ui1VUFI3NTg" },
+          { "label": "CDP R-UPR758 download 1324", "type": "datasheet", "url": "https://www.cdpenergy.com/download.asp?fileid=1324" },
+          { "label": "CDP R-UPR 508/758/1008 user manual", "type": "manual", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Manuals/588-Manual%20de%20usuario%20R-UPR%20508%20758%201008.pdf" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "R-UPR758",
+          "providerSku": "NBKCDP1690",
+          "cvaSku": "FR-1083",
+          "productType": "UPS/no-break line-interactive",
+          "capacity": "750 VA / 375 W",
+          "inputVoltage": "120 Vca",
+          "inputRange": "85-145 Vca",
+          "outputVoltage": "120 Vca +/-10%",
+          "waveform": "PWM / senoide simulada",
+          "powerFactor": "0.6",
+          "outlets": "8 x NEMA 5-15R, 4 con respaldo y supresion + 4 solo supresion",
+          "inputPlug": "NEMA 5-15P",
+          "surgeProtection": "300 J",
+          "transferTime": "2-4 ms",
+          "rechargeTime": "90% en 4 horas",
+          "runtime": "4 min carga completa / 8 min media carga",
+          "battery": "12 V 7 Ah SLA, 84 Wh",
+          "protections": ["Sobrecarga", "TVSS", "Minibreaker 6 A", "NOM"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKCDP1690", "stock": 623, "price": 1000, "currency": "MXN" }, { "providerId": "cva", "providerSku": "FR-1083", "stock": 9, "price": 1181.03, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official page copy mentions 8 outlets while one table variation reports 10; CT, CVA and retail listings match 8 outlets.", "Dimensions differ by regional sheet; selected values keep the official/range evidence instead of one unsupported exact value.", "Runtime varies by load and source; official 4/8 min values are selected."]
+        },
+        "measurements": { "dimensions": "95 x 140 x 300 mm / 101 x 142 x 279 mm depending regional variant", "weight": "4.4-4.6 kg" },
+        "sourceRefs": [
+          { "title": "CDP R-UPR758 official product page", "type": "manufacturer", "url": "https://www.cdpenergy.com/productdetails.asp?ccoun=mx&mf=cHJvdGVjdGlvbg&prd=MTA1&prdn=Ui1VUFI3NTg" },
+          { "title": "CDP R-UPR758 official download", "type": "datasheet", "url": "https://www.cdpenergy.com/download.asp?fileid=1324" },
+          { "title": "CDP R-UPR user manual", "type": "manual", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Manuals/588-Manual%20de%20usuario%20R-UPR%20508%20758%201008.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "o7g9r7mxramgfgm",
+      "research": {
+        "confidence": 0.92,
+        "name": "TP-Link Archer T3U Plus adaptador USB Wi-Fi AC1300 doble banda alta ganancia",
+        "description": "Adaptador USB Wi-Fi TP-Link Archer T3U Plus AC1300 de doble banda con antena externa de alta ganancia, interfaz USB 3.0, MU-MIMO, velocidades de 400 Mbps en 2.4 GHz y 867 Mbps en 5 GHz.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/ac1300-alta-ganancia",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/ac1300-alta-ganancia/tp-link-archer-t3u-plus",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t3u-plus/",
+        "gallery": [
+          "https://static.tp-link.com/ArcherT3UPlus%28EU%291001large_1587619658546f.jpg",
+          "https://static.tp-link.com/Archer-T3U_Plus-2_large_1587619709042c.jpg",
+          "https://static.tp-link.com/Archer-T3U_Plus-3-2_large_1587619722063n.jpg",
+          "https://static.tp-link.com/Archer-T3U_Plus-4_large_1587619735725c.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link Archer T3U Plus product page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t3u-plus/" },
+          { "label": "TP-Link Archer T3U Plus datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202001/20200121/Archer%20T3U%20Plus_1.0_Datasheet.pdf" },
+          { "label": "TP-Link Archer T3U Plus user guide", "type": "manual", "url": "https://static.tp-link.com/2020/202002/20200227/1910012742_Archer%20T3U%20Plus_UG_V1.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Archer T3U Plus",
+          "providerSku": "TARTPL550",
+          "cvaSku": "NIC-3470",
+          "productType": "Adaptador USB Wi-Fi",
+          "interface": "USB 3.0",
+          "wifiStandard": "Wi-Fi 5 / IEEE 802.11a/b/g/n/ac",
+          "speed": "AC1300, 400 Mbps 2.4 GHz + 867 Mbps 5 GHz",
+          "bands": ["2.4 GHz", "5 GHz"],
+          "antenna": "Antena externa de alta ganancia",
+          "features": ["MU-MIMO", "Doble banda", "Modo infraestructura", "LED de estado"],
+          "security": ["WEP", "WPA", "WPA2"],
+          "certifications": ["FCC", "CE", "RoHS"],
+          "osSupport": ["Windows 11", "Windows 10", "Windows 8.1", "Windows 8", "Windows 7", "macOS 10.15 o anterior"],
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARTPL550", "stock": 628, "price": 12.5, "currency": "USD" }, { "providerId": "cva", "providerSku": "NIC-3470", "stock": 0, "price": 11.87, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Some TP-Link regional pages describe internal dual antennas while retail titles simplify as one high-gain antenna.", "Official spec page does not list net weight; 18 g is secondary retailer evidence.", "Current access-point path is incorrect; product is a USB client adapter."]
+        },
+        "measurements": { "dimensions": "57.8 x 18 x 173.4 mm", "weight": "18 g secondary source" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer T3U Plus official page", "type": "manufacturer", "url": "https://www.tp-link.com/us/home-networking/usb-adapter/archer-t3u-plus/" },
+          { "title": "TP-Link Archer T3U Plus datasheet PDF", "type": "datasheet", "url": "https://static.tp-link.com/2020/202001/20200121/Archer%20T3U%20Plus_1.0_Datasheet.pdf" },
+          { "title": "TP-Link Archer T3U Plus support downloads", "type": "support", "url": "https://www.tp-link.com/us/support/download/archer-t3u-plus/" }
+        ]
+      }
+    },
+    {
+      "product_id": "ncir26k4ng6v3l7",
+      "research": {
+        "confidence": 0.95,
+        "name": "Memoria USB SanDisk Cruzer Glide 64GB USB 3.0 negro/rojo",
+        "description": "Unidad flash USB-A SanDisk Cruzer Glide SDCZ600-064G-G35 de 64 GB con interfaz USB 3.0, compatible con USB 2.0, con conector retractil, diseno negro/rojo y software SanDisk SecureAccess.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/sandisk-cruzer-glide-sdcz600-064g-g35",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/es-mx/products/usb-flash-drives/sandisk-cruzer-glide-usb-3-0?sku=SDCZ600-064G-G35",
+        "gallery": [
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-glide-usb-3-0/gallery/cruzer-glide-usb-3-0-left-angled-open.png.wdthumb.1280.1280.png",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-glide-usb-3-0/gallery/cruzer-glide-usb-3-0-left-angled-closed.png.wdthumb.1280.1280.png",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-glide-usb-3-0/gallery/cruzer-glide-usb-3-0-right-angled-closed.png.wdthumb.1280.1280.png",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-glide-usb-3-0/gallery/cruzer-glide-usb-3-0-front-closed.png.wdthumb.1280.1280.png"
+        ],
+        "documents": [
+          { "label": "SanDisk Cruzer Glide 3.0 64GB product page", "type": "manufacturer", "url": "https://www.sandisk.com/es-mx/products/usb-flash-drives/sandisk-cruzer-glide-usb-3-0?sku=SDCZ600-064G-G35" },
+          { "label": "SanDisk Cruzer Glide 3.0 data sheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-glide-usb-3-0/data-sheet-cruzer-glide-usb-3-0.pdf" },
+          { "label": "Western Digital Cruzer Glide 3.0 data sheet mirror", "type": "datasheet", "url": "https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-glide-usb-3-0/data-sheet-cruzer-glide-usb-3-0.pdf" }
+        ],
+        "specs": {
+          "brand": "SanDisk",
+          "model": "Cruzer Glide 3.0",
+          "mpn": "SDCZ600-064G-G35",
+          "providerSku": "MEMSAN2470",
+          "upc": "619659115906",
+          "productType": "Memoria flash USB",
+          "capacity": "64 GB",
+          "connector": "USB-A",
+          "interface": "USB 3.0",
+          "backwardCompatibility": "USB 2.0",
+          "color": "Negro/rojo",
+          "design": "Conector retractil",
+          "software": "SanDisk SecureAccess",
+          "warranty": "5 anos limitada",
+          "certifications": ["FCC", "ICES", "CE", "UKCA", "BSMI", "RCM", "EAC", "KCC", "Ukraine"],
+          "operatingTemperature": "0 C a 45 C",
+          "nonOperatingTemperature": "-10 C a 70 C",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "AGS", "stock": 100 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 100 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 96 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 94 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 51 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 42 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSAN2470", "stock": 625, "price": 6.21, "currency": "USD", "branch": "AGS:100,CMT:100,GDL:96,TXA:94,CUN:51,D2A:42,XLP:40,LEO:32,CEL:25,TOL:21,COL:12,DFP:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["SanDisk official page and datasheet call this USB 3.0; some retailers label it USB 3.1.", "Dimensions are confirmed from SanDisk current page/datasheet.", "Current RAM category is incorrect; product is a USB flash drive."]
+        },
+        "measurements": { "dimensions": "59.44 x 21.84 x 8.38 mm", "weight": "9.07 g" },
+        "sourceRefs": [
+          { "title": "SanDisk Cruzer Glide 3.0 official page", "type": "manufacturer", "url": "https://www.sandisk.com/es-mx/products/usb-flash-drives/sandisk-cruzer-glide-usb-3-0?sku=SDCZ600-064G-G35" },
+          { "title": "SanDisk Cruzer Glide 3.0 data sheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-glide-usb-3-0/data-sheet-cruzer-glide-usb-3-0.pdf" },
+          { "title": "SanDisk Canada Cruzer Glide 64GB page cross-check", "type": "manufacturer", "url": "https://www.sandisk.com/en-ca/products/usb-flash-drives/sandisk-cruzer-glide-usb-3-0?sku=SDCZ600-064G-G35" }
+        ]
+      }
+    },
+    {
+      "product_id": "4u5681069q5vnm8",
+      "research": {
+        "confidence": 0.96,
+        "name": "Unidad flash USB ADATA UV210 32GB USB 2.0 metalica plata",
+        "description": "Memoria USB ADATA UV210 de 32 GB con cuerpo metalico de aleacion de zinc, interfaz USB 2.0, diseno sin tapa, montaje para correa y tecnologia COB resistente a agua, polvo y golpes sin certificacion IP declarada.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/metalicas",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/metalicas/adata-uv210-auv210-32g-rgd",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/mx/consumer/category/portable-storage/374/",
+        "gallery": [
+          "https://webapi3.adata.com/storage/product/uv210_p_01_2000x2000_32gb.png",
+          "https://webapi3.adata.com/storage/product/uv210_p_02_2000x2000_32gb.jpg",
+          "https://webapi3.adata.com/storage/product/uv210_pk_2000x2000_32gb_gd.png"
+        ],
+        "documents": [
+          { "label": "ADATA UV210 product page", "type": "manufacturer", "url": "https://www.adata.com/mx/consumer/category/portable-storage/374/" },
+          { "label": "ADATA UV210 datasheet 20230710", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv210_usb_flash_drive_20230710.pdf" },
+          { "label": "ADATA UV210 datasheet 20230914", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv210_usb_flash_drive_20230914.pdf" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "UV210",
+          "mpn": "AUV210-32G-RGD",
+          "providerSku": "MEMDAT3240",
+          "gtin13": "4712366965843",
+          "productType": "Memoria flash USB",
+          "capacity": "32 GB",
+          "interface": "USB 2.0",
+          "material": "Aleacion de zinc / metal",
+          "color": "Plata metalica",
+          "design": ["Sin tapa", "Orificio para correa", "Plug and play", "COB"],
+          "durability": "Resistencia declarada a agua, polvo y golpes; sin IP oficial",
+          "warranty": "5 anos",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TXA", "stock": 98 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 80 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 48 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 46 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 45 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 43 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 27 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 25 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT3240", "stock": 622, "price": 4.33, "currency": "USD", "branch": "TXA:98,TOL:80,ACA:48,ACX:46,CLN:45,CHI:43,MOR:28,DFC:28,AGS:27,PUE:27,ZAC:26,CUN:25" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current RAM path is incorrect; product is a USB flash drive.", "Official color field is sparse, but official images and retailers identify the 32GB unit as silver/metallic.", "Durability is marketing-level water/dust/shock resistance without an IP rating."]
+        },
+        "measurements": { "dimensions": "39 x 12.2 x 4.5 mm", "weight": "6 g" },
+        "sourceRefs": [
+          { "title": "ADATA Mexico UV210 official page", "type": "manufacturer", "url": "https://www.adata.com/mx/consumer/category/portable-storage/374/" },
+          { "title": "ADATA UV210 datasheet 20230710", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv210_usb_flash_drive_20230710.pdf" },
+          { "title": "ADATA UV210 datasheet 20230914", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_uv210_usb_flash_drive_20230914.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "4ho5233udjd2ya4",
+      "research": {
+        "confidence": 0.95,
+        "name": "Unidad flash USB SanDisk Cruzer Blade 128GB USB 2.0 rojo/negro",
+        "description": "Memoria USB-A SanDisk Cruzer Blade SDCZ50-128G-B35 de 128 GB con interfaz USB 2.0, diseno compacto rojo/negro y respaldo de garantia limitada regional de SanDisk.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/128gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/128gb/sandisk-cruzer-blade-sdcz50-128g-b35",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/es-mx/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-128G-B35",
+        "gallery": [
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/gallery/cruzer-blade-usb-2-0-angle.png.wdthumb.1280.1280.png",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/cruzer-blade-usb-2-0/featured/cruzer-blade-usb-2-0-featured.jpg.wdthumb.1280.1280.jpg"
+        ],
+        "documents": [
+          { "label": "SanDisk Cruzer Blade 128GB product page", "type": "manufacturer", "url": "https://www.sandisk.com/es-mx/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-128G-B35" },
+          { "label": "SanDisk Cruzer Blade data sheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-blade-usb-2-0/data-sheet-cruzer-blade-usb-2-0.pdf" },
+          { "label": "TME SanDisk SDCZ50-128G-B35", "type": "retailer", "url": "https://www.tme.com/mx/es/details/sdcz50-128g-b35/memorias-usb/sandisk/" }
+        ],
+        "specs": {
+          "brand": "SanDisk",
+          "model": "Cruzer Blade",
+          "mpn": "SDCZ50-128G-B35",
+          "providerSku": "MEMSAN2430",
+          "upc": "619659125905",
+          "productType": "Memoria flash USB",
+          "capacity": "128 GB",
+          "connector": "USB-A",
+          "interface": "USB 2.0",
+          "color": "Rojo/negro",
+          "features": ["Diseno compacto", "Transferencia drag-and-drop"],
+          "warranty": "5 anos limitada en MX/ROW; 2 anos en pagina US/PDF",
+          "operatingTemperature": "0 C a 45 C",
+          "certifications": ["FCC", "ICES", "CE", "UKCA", "BSMI", "RCM", "EAC", "KCC", "Ukraine"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 258 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 166 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 49 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMSAN2430", "stock": 619, "price": 9.99, "currency": "USD", "branch": "D2A:258,OAX:166,CUN:50,TXA:49,TRN:30,CTZ:20,LEO:18,HMO:9,DFA:8,ACA:7,TAM:3,SLP:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Current RAM path is incorrect; product is a USB flash drive.", "Warranty differs by region: 5 years in MX/ROW references and 2 years in US page/PDF.", "SanDisk page has generic compatibility blocks; Android compatibility text is not material for this USB-A drive."]
+        },
+        "measurements": { "dimensions": "41.5 x 17.6 x 7.4 mm", "weight": "3 g", "packageGrossWeight": "11.1 g" },
+        "sourceRefs": [
+          { "title": "SanDisk Cruzer Blade 128GB official page", "type": "manufacturer", "url": "https://www.sandisk.com/es-mx/products/usb-flash-drives/sandisk-cruzer-blade-usb-2-0?sku=SDCZ50-128G-B35" },
+          { "title": "SanDisk Cruzer Blade data sheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/cruzer-blade-usb-2-0/data-sheet-cruzer-blade-usb-2-0.pdf" },
+          { "title": "TME SanDisk SDCZ50-128G-B35 cross-check", "type": "retailer", "url": "https://www.tme.com/mx/es/details/sdcz50-128g-b35/memorias-usb/sandisk/" }
+        ]
+      }
+    }
+  ]
+}
