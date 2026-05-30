@@ -1,0 +1,482 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b135-2026-05-30",
+  "cycle": 3,
+  "batch": 135,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3au7b1wq6g0piqz",
+      "research": {
+        "confidence": 0.96,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 130424 adaptador USB 3.0 a SATA 2.5 pulgadas para HDD/SSD",
+        "description": "Adaptador Manhattan SuperSpeed USB 3.0 a SATA para conectar discos duros o SSD SATA de 2.5 pulgadas por USB, con transferencia hasta 5 Gbps, soporte LBA de 48 bits y operacion plug and play.",
+        "manualCategoryPath": "computo/almacenamiento/adaptadores-usb/usb-3-sata/2-5-pulgadas",
+        "semanticCategoryPath": "computo/almacenamiento/adaptadores-usb/usb-3-sata/2-5-pulgadas/manhattan-130424",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-adaptador-superspeed-usb-30-a-sata-130424",
+        "gallery": [
+          "https://manhattan.lat/cdn/shop/files/superspeed-usb-30-to-sata-adapter-130424-1.jpg?v=1776510347&width=1946",
+          "https://manhattan.lat/cdn/shop/files/superspeed-usb-30-to-sata-adapter-130424-packaging-5_a8578a20-b801-4347-b6b6-816694efeee6.jpg?v=1776510347&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 130424 product page", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-adaptador-superspeed-usb-30-a-sata-130424" },
+          { "label": "Manhattan 130424 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/44078/130424_datasheet_spanish.pdf" },
+          { "label": "Manhattan 130424 quick install guide", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/64650/MH_130424_QIG_0121_REV_5.12.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "130424",
+          "providerSku": "AD-340",
+          "upc": "766623130424",
+          "ean": "0766623130424",
+          "productType": "Adaptador USB a SATA para disco 2.5 pulgadas",
+          "hostInterface": "USB 3.0, compatible USB 2.0/1.1",
+          "driveInterface": "SATA para HDD/SSD 2.5 pulgadas",
+          "maxTransferRate": "5 Gbps",
+          "features": ["LBA 48-bit", "Hot-swap", "Plug and play", "Puerto opcional Micro-USB 5 V"],
+          "compatibility": ["Windows", "macOS", "Linux"],
+          "providerBranchSummary": "No disponible; proveedor reporta stock total sin sucursal",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AD-340", "stock": 173, "price": 9.81, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Provider had monitor category; corrected to storage USB-SATA adapter. DirectDial shows another UPC, but Manhattan sources and regional retailers align with 766623130424."]
+        },
+        "measurements": { "dimensions": "7.3 x 2.8 x 1.1 cm; cable USB 15 cm", "weight": "10 g" },
+        "sourceRefs": [
+          { "title": "Manhattan 130424 product page", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-adaptador-superspeed-usb-30-a-sata-130424" },
+          { "title": "Manhattan 130424 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/44078/130424_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3b27ahvwphe92ug",
+      "research": {
+        "confidence": 0.96,
+        "brand": "TP-LINK TAPO",
+        "name": "TP-Link Tapo C211 camara IP WiFi interior Pan/Tilt 2K 3MP",
+        "description": "Camara IP WiFi TP-Link Tapo C211 para interior con video 2K 3MP, movimiento Pan/Tilt 360 grados horizontal y 114 grados vertical, audio bidireccional, vision nocturna IR y almacenamiento microSD hasta 512 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp/tapo-c211",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tapo.com/us/product/smart-camera/tapo-c211/v2.60/",
+        "gallery": [
+          "https://static.tp-link.com/upload/image-line/01_normal_20230818094130w.jpg",
+          "https://static.tp-link.com/upload/image-line/03_normal_20230818094155q.jpg",
+          "https://static.tp-link.com/upload/image-line/04_normal_20230821060319x.jpg"
+        ],
+        "documents": [
+          { "label": "TP-Link Tapo C211 product page", "type": "manufacturer", "url": "https://www.tapo.com/us/product/smart-camera/tapo-c211/v2.60/" },
+          { "label": "Tapo C211 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202403/20240319/Tapo%20C211%202.0%262.6_Datasheet.pdf" },
+          { "label": "Tapo C211 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2024/202406/20240619/1910013431_Tapo%20C211_UG_V1.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK TAPO",
+          "model": "Tapo C211",
+          "providerSku": "CV-1778",
+          "upc": "840030706752",
+          "ean": "4895252502060",
+          "productType": "Camara IP WiFi Pan/Tilt de interior",
+          "resolution": "2304 x 1296, 3MP",
+          "sensor": "1/2.8 inch CMOS",
+          "lens": "4 mm F2.0",
+          "panTilt": "360 grados horizontal, 114 grados vertical",
+          "nightVision": "IR 850 nm hasta 10 m / 30 ft",
+          "storage": "microSD hasta 512 GB y Tapo Care opcional",
+          "network": "WiFi 2.4 GHz 802.11b/g/n",
+          "protocols": ["RTSP", "ONVIF Profile S"],
+          "audio": "Audio bidireccional",
+          "power": "9 V 0.6 A",
+          "providerBranchSummary": "No disponible; proveedor reporta stock total sin sucursal",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "CV-1778", "stock": 125, "price": 22.73, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Some TP-Link/Tapo pages mention 116 degree vertical view; product page, datasheet and provider title align with 114 degrees. Regional EAN/UPC values vary."]
+        },
+        "measurements": { "dimensions": "85.4 x 86.8 x 117.7 mm", "weight": "190 g" },
+        "sourceRefs": [
+          { "title": "TP-Link Tapo C211 product page", "type": "manufacturer", "url": "https://www.tapo.com/us/product/smart-camera/tapo-c211/v2.60/" },
+          { "title": "Tapo C211 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202403/20240319/Tapo%20C211%202.0%262.6_Datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3b3qw6tazauzefw",
+      "research": {
+        "confidence": 0.95,
+        "brand": "THERMALTAKE",
+        "name": "Thermaltake The Tower 100 Turquoise gabinete Mini-ITX con vidrio templado",
+        "description": "Gabinete vertical Thermaltake The Tower 100 Turquoise para motherboard Mini-ITX, con tres paneles de vidrio templado de 4 mm, dos ventiladores de 120 mm preinstalados, USB-C frontal y soporte para GPU de hasta 330 mm.",
+        "manualCategoryPath": "computo/componentes/gabinetes/mini-tower/mini-itx/vidrio-templado",
+        "semanticCategoryPath": "computo/componentes/gabinetes/mini-tower/mini-itx/vidrio-templado/thermaltake-tower-100-turquoise",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://thermaltakeusa.com/products/the-tower-100-turquoise-mini-chassis-ca-1r3-00sbwn-00",
+        "gallery": [
+          "https://thermaltakeusa.com/cdn/shop/files/Tower100TurquoiseCaseHero.jpg?v=1695156593&width=1946",
+          "https://thermaltakeusa.com/cdn/shop/files/towe100_1t.jpg?v=1695156593&width=1946"
+        ],
+        "documents": [
+          { "label": "Thermaltake The Tower 100 Turquoise product page", "type": "manufacturer", "url": "https://thermaltakeusa.com/products/the-tower-100-turquoise-mini-chassis-ca-1r3-00sbwn-00" },
+          { "label": "Thermaltake Tower 100 manual", "type": "manual", "url": "https://thermaltake.azureedge.net/media/productattach/c/a/ca-1r3-00s1wn-00_the_tower_100_manual_201013_1.pdf" }
+        ],
+        "specs": {
+          "brand": "THERMALTAKE",
+          "model": "The Tower 100 Turquoise",
+          "partNumber": "CA-1R3-00SBWN-00",
+          "providerSku": "GABTMK2160",
+          "ean": "4713227528702",
+          "upc": "841163078716",
+          "productType": "Gabinete Mini-ITX vertical",
+          "material": ["SPCC", "Vidrio templado"],
+          "sidePanel": "3 paneles de vidrio templado de 4 mm",
+          "motherboardSupport": ["Mini-ITX"],
+          "preinstalledFans": "2 x 120 mm arriba/atras",
+          "driveBays": "2 x 2.5 pulgadas con bracket lateral o 2 x 2.5/3.5 sin ventilador trasero",
+          "expansionSlots": 2,
+          "ioPorts": ["USB 3.2 Gen2 Type-C", "2 x USB 3.0", "2 x HD Audio"],
+          "psuSupport": "PS2 PSU estandar",
+          "clearance": ["CPU cooler 190 mm", "GPU 330 mm", "PSU 180 mm"],
+          "radiatorSupport": "Superior 120 mm",
+          "providerBranchSummary": "GDL:12",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABTMK2160", "stock": 12, "price": 100.06, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Provider category was motherboard; corrected to Mini-ITX PC chassis. Manufacturer marks this color as discontinued/sold out, while provider still reports channel inventory."]
+        },
+        "measurements": { "dimensions": "462.8 x 266 x 266 mm; empaque 327 x 348 x 559 mm", "weight": "6.1 kg neto; 7.45 kg bruto" },
+        "sourceRefs": [
+          { "title": "Thermaltake The Tower 100 Turquoise product page", "type": "manufacturer", "url": "https://thermaltakeusa.com/products/the-tower-100-turquoise-mini-chassis-ca-1r3-00sbwn-00" },
+          { "title": "Thermaltake Tower 100 manual", "type": "manual", "url": "https://thermaltake.azureedge.net/media/productattach/c/a/ca-1r3-00s1wn-00_the_tower_100_manual_201013_1.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3bt5oebwxsdvyev",
+      "research": {
+        "confidence": 0.94,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DH-HAC-HFW1801TLMN-IL-A camara bullet HDCVI 4K dual light con microfono",
+        "description": "Camara bullet HDCVI Dahua DH-HAC-HFW1801TLMN-IL-A de 4K/8MP para exterior, con iluminacion dual inteligente IR + luz calida hasta 40 m, microfono integrado, salida CVI/CVBS/AHD/TVI e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/4k-dual-light-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/4k-dual-light-mic/dahua-hac-hfw1801tlmn-il-a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/HDCVI-Cameras/Lite-Series/4K/Smart-Dual-Light/HAC-HFW1801TLM-IL-A=S3",
+        "gallery": [
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_12_26842/ProductImage/1_0_01_12_26842_766083459_crop.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_12_26842/ProductImage/1_0_01_12_26842_793266562_crop.PNG"
+        ],
+        "documents": [
+          { "label": "Dahua HAC-HFW1801TLM-IL-A S3 product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/HDCVI-Cameras/Lite-Series/4K/Smart-Dual-Light/HAC-HFW1801TLM-IL-A=S3" },
+          { "label": "Dahua HAC-HFW1801TLM-IL-A S3 datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-HAC-HFW1801TLMP-IL-A_S3_datasheet_20250430.pdf" },
+          { "label": "Dahua HDCVI Camera User Manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/83395/user_manual/HDCVI_Camera_User_Manual_V1.0.7.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-HAC-HFW1801TLMN-IL-A",
+          "providerSku": "CAMDAH4930",
+          "ean": "6923172586995",
+          "productType": "Camara bullet HDCVI exterior",
+          "resolution": "3840 x 2160, 4K/8MP",
+          "frameRate": "Hasta 15 fps en 4K",
+          "illumination": "Smart Dual Light IR + luz calida hasta 40 m",
+          "microphone": "Integrado",
+          "lens": "3.6 mm; 2.8 mm opcional por region",
+          "videoOutput": "CVI/CVBS/AHD/TVI por BNC",
+          "power": "12 VDC +/-30%",
+          "ingressProtection": "IP67",
+          "providerBranchSummary": "DFA:38,D2A:38,MOR:8,XLP:8,IRA:8,TPC:7,ZAC:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH4930", "stock": 108, "price": 65.34, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["S2 legacy page is EOL/discontinued; S3 is current. Retailers may mix S2/S3 specs, so SKU-level physical validation is recommended when exact WDR and consumption matter."]
+        },
+        "measurements": { "dimensions": "198.4 x 80.2 x 76.2 mm", "weight": "0.32 kg neto; 0.49 kg bruto" },
+        "sourceRefs": [
+          { "title": "Dahua HAC-HFW1801TLM-IL-A S3 product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/products/HDCVI-Cameras/Lite-Series/4K/Smart-Dual-Light/HAC-HFW1801TLM-IL-A=S3" },
+          { "title": "Dahua HAC-HFW1801TLM-IL-A S3 datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-HAC-HFW1801TLMP-IL-A_S3_datasheet_20250430.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3c0n9bu1a3fwp75",
+      "research": {
+        "confidence": 0.95,
+        "brand": "BELDEN",
+        "name": "Belden 2412 008A1000 bobina cable UTP Cat6+ CMR 305 m gris",
+        "description": "Bobina Belden DataTwist 2400 2412 008A1000 de cable UTP Cat6+ Enhanced 350 MHz, 4 pares de cobre solido 23 AWG, chaqueta PVC CMR gris y longitud de 1000 ft / 305 m para cableado estructurado interior.",
+        "manualCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat6/cmr-305m",
+        "semanticCategoryPath": "redes/cableado-estructurado/bobinas-utp/cat6/cmr-305m/belden-2412-008a1000",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.belden.com/products/cable/ethernet-cable/category-6-cable/2412",
+        "gallery": [
+          "https://www.belden.com/-/media/project/belden/catalog-assets/images/2026/02/07/19/29/jpg197343.jpg?rev=c3bf675892dc460098b920e736022ec0",
+          "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/003/209/062/MFG_2412%25200092500_sml%28200x200%29.jpg"
+        ],
+        "documents": [
+          { "label": "Belden 2412 product page", "type": "manufacturer", "url": "https://www.belden.com/products/cable/ethernet-cable/category-6-cable/2412" },
+          { "label": "Belden 2412 tech data", "type": "datasheet", "url": "https://catalog.belden.com/techdata/EN/2412_techdata.pdf" },
+          { "label": "DigiKey Belden 2412 008A1000", "type": "retailer", "url": "https://www.digikey.com/en/products/detail/belden-inc/2412-008A1000/8813096" }
+        ],
+        "specs": {
+          "brand": "BELDEN",
+          "model": "2412 008A1000",
+          "providerSku": "ACCBEL330",
+          "upc": "612825061175",
+          "productType": "Bobina cable UTP Cat6+ interior",
+          "series": "DataTwist 2400",
+          "categoryRating": "Category 6+ Enhanced, 350 MHz",
+          "length": "1000 ft / 304.8 m",
+          "conductor": "4 pares U/UTP, cobre solido desnudo 23 AWG",
+          "jacket": "PVC riser CMR gris",
+          "applications": ["10/100/1000BASE-T", "PoE", "PoE+", "PoE++/802.3bt"],
+          "nominalDiameter": "0.224 in / 5.69 mm",
+          "pullTension": "25 lb / 11 kg maximo",
+          "bendRadius": "25 mm estacionario; 57.2 mm instalacion",
+          "providerBranchSummary": "DFA:18,CMT:11,XLP:5,GDL:4,CAM:4,QRO:3,TOL:3,D2A:2,CLN:1,TRN:1,LEO:1,VER:1; 3 piezas sin sucursal listada",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCBEL330", "stock": 57, "price": 154.55, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Belden calls this Cat6+ Enhanced 350 MHz while many retailers simplify it as Cat6. Listed provider branches sum 54 units, leaving 3 units without branch data."]
+        },
+        "measurements": { "dimensions": "1000 ft / 304.8 m; diametro 5.69 mm", "weight": "22 lb por 1000 ft aprox. 10.0 kg" },
+        "sourceRefs": [
+          { "title": "Belden 2412 product page", "type": "manufacturer", "url": "https://www.belden.com/products/cable/ethernet-cable/category-6-cable/2412" },
+          { "title": "Belden 2412 tech data", "type": "datasheet", "url": "https://catalog.belden.com/techdata/EN/2412_techdata.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3cidaihkgsh8thl",
+      "research": {
+        "confidence": 0.88,
+        "brand": "GENERICO",
+        "name": "Cargador generico AC-Samsung para laptop 90W 19V 4.74A punta 5.5 x 3.0 mm",
+        "description": "Cargador/adaptador AC generico compatible con laptops Samsung, potencia 90 W, salida 19 V 4.74 A, conector 5.5 x 3.0 mm y color negro. Producto aftermarket sin ficha oficial de fabricante.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop/compatibles-samsung/90w-19v-5-5x3-0",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/compatibles-samsung/90w-19v-5-5x3-0/generico-ac-samsung",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/cargador-para-laptop-generico-ac-samsung/",
+        "gallery": ["https://tienda.sinacsa.mx/wp-content/uploads/2025/04/ACCGEN390_1_full-50x50.jpg"],
+        "documents": [
+          { "label": "CompuPuebla AC-Samsung listing", "type": "retailer", "url": "https://compupuebla.com/producto/cargador-para-laptop-generico-ac-samsung/" },
+          { "label": "Sinacsa AC-Samsung listing", "type": "retailer", "url": "https://tienda.sinacsa.mx/producto/cargador-para-laptop-generico-ac-samsung-negro/" },
+          { "label": "GlobalOffice AC-Samsung listing", "type": "retailer", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/accesorios-para-laptops/cargador-para-laptop-generico-ac-samsung-cargador/ac-samsung" }
+        ],
+        "specs": {
+          "brand": "GENERICO",
+          "model": "AC-Samsung",
+          "providerSku": "ACCGEN390",
+          "productType": "Cargador compatible para laptop Samsung",
+          "outputPower": "90 W",
+          "outputVoltage": "19 V",
+          "outputCurrent": "4.74 A",
+          "connector": "5.5 x 3.0 mm",
+          "color": "Negro",
+          "providerBranchSummary": "DFA:34,D2A:28,ACA:4,CUE:3,CMT:3,CHI:2,AGS:2,LEO:2,VHA:2,TPC:2,CUN:2,DFP:2; 14 piezas sin sucursal listada",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCGEN390", "stock": 100, "price": 7.48, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["No official manufacturer page was found; dimensions and weight are not assigned because comparable adapters are not SKU-exact. Provider branch list sums 86 units, leaving 14 units without branch data."]
+        },
+        "measurements": { "dimensions": "No localizado para SKU exacto", "weight": "No localizado para SKU exacto" },
+        "sourceRefs": [
+          { "title": "CompuPuebla AC-Samsung listing", "type": "retailer", "url": "https://compupuebla.com/producto/cargador-para-laptop-generico-ac-samsung/" },
+          { "title": "Sinacsa AC-Samsung listing", "type": "retailer", "url": "https://tienda.sinacsa.mx/producto/cargador-para-laptop-generico-ac-samsung-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3cme0hgwqd38kxp",
+      "research": {
+        "confidence": 0.96,
+        "brand": "DAHUA TECHNOLOGY",
+        "name": "Dahua DHI-LM22-A211Y monitor CCTV 21.45 pulgadas FHD IPS 100Hz",
+        "description": "Monitor Dahua DHI-LM22-A211Y de 21.45 pulgadas para videovigilancia/comercial, panel IPS Full HD, 100 Hz con overclock a 120 Hz por HDMI, entradas HDMI y VGA, VESA 100 x 100 mm y operacion 7 x 16 h.",
+        "manualCategoryPath": "seguridad/cctv/monitores-vigilancia/22-fhd-100hz",
+        "semanticCategoryPath": "seguridad/cctv/monitores-vigilancia/22-fhd-100hz/dahua-lm22-a211y",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Commercial-Series/LM22-A211Y%3DV1",
+        "gallery": [
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_12_10817/ProductImage/1_0_99_12_10817_848661722.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_12_10817/ProductImage/1_0_99_12_10817_848661721.JPEG"
+        ],
+        "documents": [
+          { "label": "Dahua LM22-A211Y product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Commercial-Series/LM22-A211Y%3DV1" },
+          { "label": "Dahua LM22-A211Y datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/84740/datasheet/LM22-A211Y_V1_datasheet_20260403.pdf" },
+          { "label": "Dahua LM22-A211Y user manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/84740/user_manual/Dahua_LED_Monitor_%28DHI-LM22-A211Y%29_User_Manual_V1.0.0.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DHI-LM22-A211Y",
+          "providerSku": "MONDAH270",
+          "ean": "6937552425774",
+          "productType": "Monitor para videovigilancia",
+          "displaySize": "21.45 pulgadas",
+          "panel": "IPS ELED",
+          "resolution": "1920 x 1080 FHD",
+          "aspectRatio": "16:9",
+          "refreshRate": "100 Hz, overclock a 120 Hz por HDMI",
+          "brightness": "250 cd/m2",
+          "contrast": "1000:1",
+          "responseTime": "1 ms MPRT",
+          "viewingAngles": "178/178 grados",
+          "ports": ["HDMI 1.4", "VGA"],
+          "power": "12 VDC 2 A, 19.2 W tipico",
+          "operatingDuty": "7 x 16 h",
+          "vesa": "100 x 100 mm",
+          "providerBranchSummary": "D2A:291,ACA:17,DFA:13,SLP:3,MOR:3,QRO:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONDAH270", "stock": 328, "price": 52.6, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Some Mexican listings have wrong LM24-A200Y text while SKU/EAN/model resolve to DHI-LM22-A211Y. Manufacturer states 21.45 inches, not exactly 21.5."]
+        },
+        "measurements": { "dimensions": "491.4 x 290.8 x 45.2 mm; empaque 540 x 395 x 116 mm", "weight": "2.3 kg neto; 3.3 kg bruto" },
+        "sourceRefs": [
+          { "title": "Dahua LM22-A211Y product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Commercial-Series/LM22-A211Y%3DV1" },
+          { "title": "Dahua LM22-A211Y datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/84740/datasheet/LM22-A211Y_V1_datasheet_20260403.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3d4t615y5rrv8lu",
+      "research": {
+        "confidence": 0.96,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 151399 adaptador pasivo Mini DisplayPort a HDMI 1080p blanco",
+        "description": "Adaptador pasivo Manhattan 151399 Mini DisplayPort macho a HDMI hembra, color blanco, para conectar una fuente Mini DisplayPort/Thunderbolt compatible DP++ a una pantalla HDMI hasta 1080p a 60 Hz.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos/mini-displayport-1080p",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos/mini-displayport-1080p/manhattan-151399",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-adaptador-pasivo-mini-displayport-a-hdmi-151399",
+        "gallery": [
+          "https://manhattanproducts.mx/cdn/shop/files/passive-mini-displayport-to-hdmi-adapter-151399-1.jpg?v=1769215492&width=1946",
+          "https://manhattanproducts.mx/cdn/shop/files/passive-mini-displayport-to-hdmi-adapter-151399-packaging-5.jpg?v=1769215492&width=1946"
+        ],
+        "documents": [
+          { "label": "Manhattan 151399 product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-adaptador-pasivo-mini-displayport-a-hdmi-151399" },
+          { "label": "Manhattan 151399 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/9387/151399_datasheet_spanish.pdf" },
+          { "label": "Manhattan 151399 English datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/9382/151399_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "151399",
+          "providerSku": "AD-305",
+          "upc": "766623151399",
+          "ean": "0766623151399",
+          "productType": "Adaptador pasivo Mini DisplayPort a HDMI",
+          "connector1": "Mini DisplayPort macho 20 pines",
+          "connector2": "HDMI hembra 19 pines",
+          "resolution": "1080p@60Hz",
+          "requirements": "Fuente compatible con DP++ / modo dual",
+          "standards": ["DisplayPort 1.2", "HDMI 1.3"],
+          "bandwidth": "10.8 Gbps",
+          "construction": ["Contactos niquelados", "Blindaje Mylar/aluminio", "Cable 30 AWG"],
+          "power": "Sin alimentacion externa",
+          "providerBranchSummary": "No disponible; proveedor reporta stock total sin sucursal",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AD-305", "stock": 144, "price": 9.07, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Provider had monitor category; corrected to Mini DisplayPort video adapter. Manhattan pages show conflicting weight units, so 0.02 kg physical section is retained as conservative."]
+        },
+        "measurements": { "dimensions": "170 x 20 x 11 mm; cable 12 cm", "weight": "0.02 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 151399 product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-adaptador-pasivo-mini-displayport-a-hdmi-151399" },
+          { "title": "Manhattan 151399 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/9387/151399_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3d6n0xmojtwv5hu",
+      "research": {
+        "confidence": 0.9,
+        "brand": "TP-LINK",
+        "name": "TP-Link DS-PMA-C+ modulo transceptor SFP GPON Clase C+ 20 km SC/UPC",
+        "description": "Modulo transceptor TP-Link DS-PMA-C+ SFP GPON Clase C+ para OLT, fibra monomodo 9/125 um, conector SC/UPC, Tx 1490 nm, Rx 1310 nm, 2.488 Gbps de bajada, 1.244 Gbps de subida, DDM y alcance de 20 km.",
+        "manualCategoryPath": "redes/transceptores-convertidores/modulos-sfp/gpon/gpon-clase-c-plus",
+        "semanticCategoryPath": "redes/transceptores-convertidores/modulos-sfp/gpon/gpon-clase-c-plus/tp-link-ds-pma-c-plus",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://service-provider.tp-link.com/es/gpon/ds-pma-c%2B/",
+        "gallery": [
+          "https://www.tp-link.com/assets/images/product-page/ds-pma-c+/v1/img1.png",
+          "https://www.tp-link.com/assets/images/product-page/ds-pma-c+/v1/img2.png"
+        ],
+        "documents": [
+          { "label": "TP-Link DS-PMA-C+ product page", "type": "manufacturer", "url": "https://service-provider.tp-link.com/es/gpon/ds-pma-c%2B/" },
+          { "label": "TP-Link DS-PMA-C+ datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202402/20240219/Datasheet-DS-PMA-C%2B.pdf" },
+          { "label": "TP-Link DS-PMA-C+ install guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2024/202402/20240219/7106509235_DS-PMA-C%2B%28UN%291.0_IG.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "DS-PMA-C+",
+          "providerSku": "AC-12905",
+          "ean": "4897098687505",
+          "productType": "Modulo SFP GPON Clase C+",
+          "formFactor": "SFP / 2x10 SFF",
+          "connector": "SC/UPC",
+          "fiberType": "Monomodo 9/125 um",
+          "wavelength": "Tx 1490 nm, Rx 1310 nm",
+          "dataRate": "Tx 2488.32 Mbit/s, Rx 1244.16 Mbit/s",
+          "transmissionDistance": "20 km",
+          "powerLevel": "Class C+; Tx +3 a +7 dBm; Rx sensitivity menor a -30 dBm; saturation mayor a -12 dBm",
+          "voltage": "3.3 V",
+          "features": ["Hot-pluggable", "DDM", "OMCI"],
+          "providerBranchSummary": "No disponible; proveedor reporta stock total sin sucursal",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "AC-12905", "stock": 22, "price": 18.71, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Provider text says DS-PMA-C++ and 1480nm, but SKU AC-12905 and retailers match DS-PMA-C+ Class C+ with 1490/1310 nm. If physical label says C++, split to a C++ category later."]
+        },
+        "measurements": { "dimensions": "Form factor SFP; dimensiones no publicadas", "weight": "0.06 kg comercial aproximado" },
+        "sourceRefs": [
+          { "title": "TP-Link DS-PMA-C+ product page", "type": "manufacturer", "url": "https://service-provider.tp-link.com/es/gpon/ds-pma-c%2B/" },
+          { "title": "TP-Link DS-PMA-C+ datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202402/20240219/Datasheet-DS-PMA-C%2B.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3dbif0i6q6f925d",
+      "research": {
+        "confidence": 0.88,
+        "brand": "GENERICO",
+        "name": "Adaptador generico AP2-85W MagSafe 2 para MacBook 85W blanco",
+        "description": "Adaptador/cargador generico AP2-85W compatible con Apple MacBook MagSafe 2, potencia 85 W, salida publicada por retailers 18.5 V 4.6 A, color blanco. Producto aftermarket, no original Apple.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop/apple-magsafe-2/85w",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/apple-magsafe-2/85w/generico-ap2-85w",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.altercomx.com/products/ap2-85w",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/M/CP-GENERICO-AP2-85W-e35cf3.jpg",
+          "https://tienda.solucionesryj.com.mx/uploads/_/ACCGEN3010.jpg"
+        ],
+        "documents": [
+          { "label": "Alterco AP2-85W listing", "type": "retailer", "url": "https://www.altercomx.com/products/ap2-85w" },
+          { "label": "Cyberpuerta AP2-85W listing", "type": "retailer", "url": "https://www.cyberpuerta.mx/Apple/Mac/Accesorios-para-Mac/Cargadores-para-Apple/Generico-Adaptador-Cargador-de-Corriente-AP2-85W-MagSafe-2-85W-para-MacBook.html" },
+          { "label": "Apple 85W MagSafe 2 adapter reference", "type": "manufacturer_reference", "url": "https://cdsassets.apple.com/live/6GJYWVAV/user/85w-magsafe-2-power-adapter.pdf" }
+        ],
+        "specs": {
+          "brand": "GENERICO",
+          "model": "AP2-85W",
+          "providerSku": "ACCGEN3010",
+          "productType": "Cargador compatible MagSafe 2 para MacBook",
+          "outputPower": "85 W",
+          "outputVoltageRetail": "18.5 V",
+          "outputCurrentRetail": "4.6 A",
+          "connector": "MagSafe 2",
+          "color": "Blanco",
+          "compatibility": ["MacBook Pro Retina 15 pulgadas segun retailers", "Adaptador tipo A1424/A1398 segun retailers"],
+          "providerBranchSummary": "D2A:3,OAX:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCGEN3010", "stock": 4, "price": 11.65, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T12:20:00Z",
+          "sourceDiscrepancies": ["Retailers publish 18.5 V / 4.6 A for this generic unit while Apple original 85W MagSafe 2 reference is 20 V / 4.25 A. Classified as compatible generic, not original Apple."]
+        },
+        "measurements": { "dimensions": "No localizado para SKU exacto", "weight": "No localizado para SKU exacto" },
+        "sourceRefs": [
+          { "title": "Alterco AP2-85W listing", "type": "retailer", "url": "https://www.altercomx.com/products/ap2-85w" },
+          { "title": "Apple 85W MagSafe 2 adapter reference", "type": "manufacturer_reference", "url": "https://cdsassets.apple.com/live/6GJYWVAV/user/85w-magsafe-2-power-adapter.pdf" }
+        ]
+      }
+    }
+  ]
+}

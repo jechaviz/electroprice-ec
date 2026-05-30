@@ -331,6 +331,16 @@ const researchedBatchCases = [
   ["Brobotix 017828 cable MHL HDMI a USB/micro USB rojo", "BROBOTIX", "accesorios/cables-adaptadores/video-hdmi/mhl"],
   ["Balam Rush Eolox Bora EXB85 ventilador ARGB 120mm 1600RPM negro", "BALAM RUSH", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-1600rpm-argb"],
   ["Thermaltake Core P6 TG CA-1V2-00M1WN-00 gabinete ATX mid tower negro", "THERMALTAKE", "computo/componentes/gabinetes/atx-mid-tower/open-frame"],
+  ["Manhattan 130424 adaptador USB 3.0 a SATA 2.5 pulgadas para HDD SSD", "MANHATTAN", "computo/almacenamiento/adaptadores-usb/usb-3-sata/2-5-pulgadas"],
+  ["TP-Link Tapo C211 camara IP WiFi interior Pan Tilt 2K 3MP", "TP-LINK TAPO", "seguridad/cctv/camaras-ip-wifi/pt-interior/3mp"],
+  ["Thermaltake The Tower 100 Turquoise gabinete Mini ITX vidrio templado", "THERMALTAKE", "computo/componentes/gabinetes/mini-tower/mini-itx/vidrio-templado"],
+  ["Dahua DH-HAC-HFW1801TLMN-IL-A camara bullet HDCVI 4K dual light microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/4k-dual-light-mic"],
+  ["Belden 2412 008A1000 bobina cable UTP Cat6 CMR 305 m gris", "BELDEN", "redes/cableado-estructurado/bobinas-utp/cat6/cmr-305m"],
+  ["Generico AC-Samsung cargador laptop Samsung 90W 19V 4.74A 5.5 x 3.0", "GENERICO", "computo/accesorios/cargadores-laptop/compatibles-samsung/90w-19v-5-5x3-0"],
+  ["Dahua DHI-LM22-A211Y monitor CCTV 21.45 pulgadas FHD IPS 100Hz", "DAHUA TECHNOLOGY", "seguridad/cctv/monitores-vigilancia/22-fhd-100hz"],
+  ["Manhattan 151399 adaptador pasivo Mini DisplayPort a HDMI 1080p blanco", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport-hdmi/adaptadores-pasivos/mini-displayport-1080p"],
+  ["TP-Link DS-PMA-C+ modulo transceptor SFP GPON Clase C+ 20 km AC-12905", "TP-LINK", "redes/transceptores-convertidores/modulos-sfp/gpon/gpon-clase-c-plus"],
+  ["Generico AP2-85W adaptador MagSafe 2 para MacBook 85W blanco", "GENERICO", "computo/accesorios/cargadores-laptop/apple-magsafe-2/85w"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
