@@ -471,6 +471,16 @@ const researchedBatchCases = [
   ["TP-Link Omada EAP668-Outdoor HD access point exterior WiFi 6 AX3600", "TP LINK", "redes/access-points/wifi-6/exterior/ax3600"],
   ["Naceb Technology NA-0108A base enfriadora para laptop 15 pulgadas azul", "NACEB TECHNOLOGY", "computo/accesorios/bases-enfriadoras/15-pulgadas"],
   ["Brother TN227BK toner negro original alto rendimiento 3000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-227/negro"],
+  ["Mochila Perfect Choice Forter PC-084686 para laptop 15.6 a 17 pulgadas morado", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/mochilas-laptop/17-pulgadas"],
+  ["Cable HDMI Brobotix 963486 HDMI 2.0 macho a macho 1.8 m 4K negro", "BROBOTIX", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/1-8m"],
+  ["PC GHIA Frontier Slim 2.0 Intel N100 8GB SSD 128GB Windows 11", "GHIA", "computo/desktops/slim"],
+  ["Memoria RAM Patriot Signature Premium PSP416G3200H1 DDR4 16GB 3200MHz CL22 UDIMM", "PATRIOT", "computo/componentes/memoria-ram/udimm-ddr4/16gb-3200"],
+  ["Teclado gamer Corsair K70 PRO RGB CH-910951A-NA OPX blanco", "CORSAIR", "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb"],
+  ["DVR XVR Dahua DH-XVR1B04-I/T WizSense 4 canales 1080P Lite", "DAHUA TECHNOLOGY", "seguridad/cctv/dvr-nvr/xvr-pentahibrido/4-canales-1080p-lite"],
+  ["Filtro de privacidad Kensington MagPro K58356WW monitor 23.8 pulgadas 16:9", "KENSINGTON", "computo/accesorios/filtros-privacidad/monitores/23-8-16-9"],
+  ["Monitor BenQ GW2791 27 pulgadas IPS Full HD 100Hz Eye-Care", "BENQ", "computo/monitores/oficina/27-fhd-100hz"],
+  ["Proyector BenQ LW550 LED DLP WXGA 3000 lumenes HDMI", "BENQ", "video/proyectores/dlp/wxga-3000-lumenes"],
+  ["UPS No Break VICA Beta Interactive 1.5K 1500VA 900W rack torre", "VICA", "energia/no-breaks-ups/line-interactive/rack-torre/1500va"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

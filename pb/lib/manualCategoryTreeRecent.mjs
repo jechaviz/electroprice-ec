@@ -1,4 +1,12 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/accesorios/mochilas-fundas/mochilas-laptop/17-pulgadas', name: 'Mochilas para laptop hasta 17 pulgadas', legacyCategory: 'accessories' },
+  { path: 'computo/perifericos/teclados/gaming/mecanicos/full-size-rgb', name: 'Teclados gaming mecanicos full-size RGB', legacyCategory: 'gaming' },
+  { path: 'seguridad/cctv/dvr-nvr/xvr-pentahibrido/4-canales-1080p-lite', name: 'XVR pentahibridos 4 canales 1080P Lite', legacyCategory: 'cameras' },
+  { path: 'computo/accesorios/filtros-privacidad', name: 'Filtros de privacidad para computo', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/filtros-privacidad/monitores', name: 'Filtros de privacidad para monitores', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/filtros-privacidad/monitores/23-8-16-9', name: 'Filtros de privacidad para monitor 23.8 pulgadas 16:9', legacyCategory: 'accessories' },
+  { path: 'video/proyectores/dlp/wxga-3000-lumenes', name: 'Proyectores DLP WXGA 3000 lumenes', legacyCategory: 'tvs' },
+  { path: 'energia/no-breaks-ups/line-interactive/rack-torre/1500va', name: 'UPS line-interactive rack torre 1500VA', legacyCategory: 'power' },
   { path: 'computo/almacenamiento/memorias-flash/microsd/32gb-clase-10', name: 'Tarjetas microSD 32GB Clase 10', legacyCategory: 'storage' },
   { path: 'computo/componentes/cables-internos/alimentacion-sata/molex-a-doble-sata', name: 'Cables Molex a doble SATA de alimentacion interna', legacyCategory: 'accessories' },
   { path: 'accesorios/cables-adaptadores/video-hdmi/coples', name: 'Coples y uniones HDMI', legacyCategory: 'accessories' },
