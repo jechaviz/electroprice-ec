@@ -134,4 +134,13 @@ export const MANUAL_CATEGORY_TREE_CYCLE003 = [
   { path: 'software/seguridad/edr', name: 'EDR y seguridad endpoint', legacyCategory: 'software' },
   { path: 'software/seguridad/edr/kaspersky-next-edr-foundations', name: 'Kaspersky Next EDR Foundations', legacyCategory: 'software' },
   { path: 'software/seguridad/edr/kaspersky-next-edr-foundations/50-99-licencias-1-ano', name: 'Kaspersky Next EDR Foundations 50 a 99 licencias 1 ano', legacyCategory: 'software' },
+  { path: 'foto-video', name: 'Fotografia y video', legacyCategory: 'accessories' },
+  { path: 'foto-video/accesorios', name: 'Accesorios de fotografia y video', legacyCategory: 'accessories' },
+  { path: 'foto-video/accesorios/selfie-sticks', name: 'Bastones selfie para smartphones', legacyCategory: 'accessories' },
+  { path: 'energia/no-breaks-ups/doble-conversion/rack-torre/3000va/120v', name: 'UPS online rack torre 3000VA 120V', legacyCategory: 'power' },
+  { path: 'computo/accesorios/baterias-laptop/dell/latitude-e5420-e6420', name: 'Baterias Dell Latitude E5420 y E6420', legacyCategory: 'laptops' },
+  { path: 'computo/perifericos/mouse/inalambricos/gaming/esports-60g', name: 'Mouse gaming inalambricos esports 60 g', legacyCategory: 'gaming' },
+  { path: 'impresion/consumibles/toner-laser/kyocera/tk-5417/amarillo', name: 'Toner Kyocera TK-5417Y amarillo', legacyCategory: 'printers_scanners' },
+  { path: 'computo/perifericos/mouse/alambricos/gaming/alto-dpi/32000-dpi', name: 'Mouse gaming alambricos 32000 DPI', legacyCategory: 'gaming' },
+  { path: 'redes/switches/administrables/gigabit/24-puertos-4-sfp-plus', name: 'Switches administrables 24 puertos Gigabit con 4 SFP+', legacyCategory: 'networking' },
 ];

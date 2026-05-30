@@ -182,6 +182,16 @@ const batch160PlusCases = [
   ["Kaspersky Small Office Security KL4541Z5EFS 5 licencias 1 ano", "KASPERSKY", "software/seguridad/antivirus/kaspersky-small-office/5-licencias-1-ano", "software"],
   ["Kaspersky Next EDR Foundations KL4065ZAQFS 50-99 licencias 1 ano", "KASPERSKY", "software/seguridad/edr/kaspersky-next-edr-foundations/50-99-licencias-1-ano", "software"],
   ["Kingston A400 SA400S37/240G SSD SATA III 2.5 pulgadas 240GB", "KINGSTON", "computo/almacenamiento/ssd/2-5-sata/240gb", "storage"],
+  ["Naceb NA-595AZ baston selfie para smartphone 18-74 cm azul plug 3.5 mm", "NACEB TECHNOLOGY", "foto-video/accesorios/selfie-sticks", "accessories"],
+  ["Complet SIGNAL 3KT120M UPS online doble conversion 3000VA 3000W rack torre 120V", "COMPLET", "energia/no-breaks-ups/doble-conversion/rack-torre/3000va/120v", "power"],
+  ["Naceb NA-0123 kit teclado y mouse inalambrico 2.4GHz espanol negro", "NACEB TECHNOLOGY", "computo/perifericos/combos-teclado-mouse/inalambricos/basicos", "accessories"],
+  ["Vorago PSU-101 fuente de poder ATX 500W no modular gris", "VORAGO", "computo/componentes/fuentes-poder/atx-500w", "components"],
+  ["Ovaltech OTD6420 bateria Dell Latitude E5420 E6420 11.1V 6 celdas negra", "OVALTECH", "computo/accesorios/baterias-laptop/dell/latitude-e5420-e6420", "laptops"],
+  ["Logitech G PRO X SUPERLIGHT 2 910-006629 mouse gamer inalambrico LIGHTSPEED negro 60g", "LOGITECH G", "computo/perifericos/mouse/inalambricos/gaming/esports-60g", "gaming"],
+  ["Kyocera TK-5417Y toner amarillo original rendimiento 13000 paginas", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5417/amarillo", "printers_scanners"],
+  ["Patriot Signature Premium PSP48G3200H1 memoria RAM DDR4 8GB 3200MHz CL22 UDIMM", "PATRIOT", "computo/componentes/memoria-ram/udimm-ddr4/8gb-3200", "components"],
+  ["Redragon Storm Elite White M988W mouse gamer alambrico RGB Pixart P3389 32000 DPI", "REDRAGON", "computo/perifericos/mouse/alambricos/gaming/alto-dpi/32000-dpi", "gaming"],
+  ["TP-Link Omada TL-SG3428X switch administrable L2+ JetStream 24 puertos Gigabit 4 SFP+ 10G", "TP LINK", "redes/switches/administrables/gigabit/24-puertos-4-sfp-plus", "networking"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
