@@ -62,6 +62,16 @@ const batch160PlusCases = [
   ["Smartbitt SBOL10KRTG1-2 UPS online doble conversion 10kVA 10kW rack torre", "SMARTBITT", "energia/no-breaks-ups/doble-conversion/rack-torre/10000va", "power"],
   ["Ocelot Gaming OEL360 enfriamiento liquido AIO 360mm ARGB negro", "OCELOT GAMING", "computo/componentes/enfriamiento/liquido-cpu/360mm/argb", "components"],
   ["Naceb Technology NA-0313A audifonos diadema alambricos 3.5mm azul verde", "NACEB TECHNOLOGY", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono", "headphones"],
+  ["Intellinet 340373 Cable Patch Cat6 UTP RJ45 1 m gris", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/1m", "networking"],
+  ["Samsung Essential Monitor S3 LS22D300GALXZX 22 in Full HD IPS 100Hz", "SAMSUNG", "computo/monitores/oficina/22-fhd-100hz", "monitors"],
+  ["Huawei MateBook D 16 53014MSJ Core i5-13420H 16GB 1TB SSD 16 in", "HUAWEI", "computo/laptops/consumo/16-pulgadas/huawei-matebook-d16", "laptops"],
+  ["ASUS TUF Gaming A520M-PLUS WiFi Motherboard Micro-ATX AM4 DDR4", "ASUS", "computo/componentes/tarjetas-madre/amd-am4/a520m", "components"],
+  ["Ghia GT4000BB Kit Teclado y Mouse Inalambrico USB Negro", "GHIA", "computo/perifericos/combos-teclado-mouse/inalambricos/basicos", "accessories"],
+  ["Synology Plus Series HAT3320-8T Disco Duro NAS 8TB SATA 3.5 in", "SYNOLOGY", "computo/almacenamiento/discos-duros/3-5-sata/nas/8tb", "storage"],
+  ["Xerox 006R04765 Toner Cyan Alta Capacidad para C410 C415 7000 Paginas", "XEROX", "impresion/consumibles/toner-laser/xerox/006r04765-cian", "printers_scanners"],
+  ["Intellinet 210478 Jack Modular Keystone Cat5e UTP Rojo", "INTELLINET", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/rojo", "networking"],
+  ["Yeyian Hussar Plus YCM-ASHUS-01 Gabinete Mid Tower ATX Negro", "YEYIAN", "computo/componentes/gabinetes/gaming/atx-mid-tower", "components"],
+  ["Game Factor SMG500 Base Gamer para Monitor VESA hasta 27 in", "GAME FACTOR", "computo/accesorios/soportes-monitor/vesa/27-5kg", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

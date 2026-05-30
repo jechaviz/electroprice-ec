@@ -326,4 +326,12 @@ export const MANUAL_CATEGORY_TREE_RECENT = [
   { path: 'computo/desktops/slim/celeron-n4020-8gb-240gb', name: 'PCs slim Celeron N4020 8GB 240GB SSD', legacyCategory: 'desktops' },
   { path: 'impresion/consumibles/toner-laser/xerox/006r04644-negro', name: 'Toner Xerox 006R04644 negro', legacyCategory: 'printers_scanners' },
   { path: 'energia/no-breaks-ups/doble-conversion/rack-torre/10000va', name: 'UPS online rack torre 10000VA', legacyCategory: 'power' },
+  { path: 'computo/laptops/consumo/16-pulgadas/huawei-matebook-d16', name: 'Huawei MateBook D 16 de consumo', legacyCategory: 'laptops' },
+  { path: 'computo/almacenamiento/discos-duros/3-5-sata/nas', name: 'Discos duros NAS 3.5 SATA', legacyCategory: 'storage' },
+  { path: 'computo/almacenamiento/discos-duros/3-5-sata/nas/8tb', name: 'Discos duros NAS 8TB 3.5 SATA', legacyCategory: 'storage' },
+  { path: 'impresion/consumibles/toner-laser/xerox/006r04765-cian', name: 'Toner Xerox 006R04765 cian', legacyCategory: 'printers_scanners' },
+  { path: 'redes/cableado-estructurado/conectores-keystone/rj45-cat5e/rojo', name: 'Conectores keystone RJ45 Cat5e rojos', legacyCategory: 'networking' },
+  { path: 'computo/accesorios/soportes-monitor', name: 'Soportes para monitor', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/soportes-monitor/vesa', name: 'Soportes VESA para monitor', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/soportes-monitor/vesa/27-5kg', name: 'Soportes VESA para monitor hasta 27 pulgadas y 5 kg', legacyCategory: 'accessories' },
 ];

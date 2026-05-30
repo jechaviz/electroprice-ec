@@ -1,0 +1,378 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b166-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 166,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "5j885vv5gs5cdh9",
+      "research": {
+        "confidence": 0.9,
+        "name": "Intellinet 340373 Cable Patch Cat6 U/UTP RJ45 1 m Gris",
+        "description": "Cable patch Intellinet 340373 Cat6 U/UTP de 1 m color gris, RJ45 macho a RJ45 macho, 250MHz, hasta 10Gbps y compatible con PoE++.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/1m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/1m/intellinet-340373",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=3429221"],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "340373",
+          "providerSku": "RCKACC520 / CB-411",
+          "upc": "766623340373",
+          "productType": "Cable patch Cat6",
+          "category": "Cat6 U/UTP",
+          "length": "1 m",
+          "color": "Gris",
+          "connectors": "RJ45 macho a RJ45 macho",
+          "speed": "Hasta 10Gbps",
+          "frequency": "250MHz",
+          "conductor": "24AWG CCA",
+          "poe": "IEEE 802.3bt PoE++ compatible",
+          "warranty": "De por vida",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 90 y CVA 4.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"RCKACC520","stock":90,"price":1.5,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"CB-411","stock":4,"price":1.43,"currency":"USD","priceKind":"best_price"}
+          ],
+          "sourceDiscrepancies": ["Ruta previa de switches era incorrecta; el producto es cable patch Cat6."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"diameter":"5.5 mm", "weight":"0.04 kg neto / 0.045 kg bruto"},
+        "sourceRefs": [
+          {"title":"Intellinet 340373 official product page", "type":"manufacturer_spec", "url":"https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-340373"},
+          {"title":"CTOnline RCKACC520 and CVA CB-411 stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5ja0dpo32yv3wej",
+      "research": {
+        "confidence": 0.9,
+        "name": "Samsung Essential Monitor S3 LS22D300GALXZX 22 in Full HD IPS 100Hz",
+        "description": "Monitor Samsung Essential S3 S30GD de 22 pulgadas Full HD, panel IPS, frecuencia de 100Hz, entradas HDMI y VGA, modo Eye Saver y VESA 100 x 100.",
+        "manualCategoryPath": "computo/monitores/oficina/22-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/22-fhd-100hz/samsung-ls22d300galxzx",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10460145"],
+        "specs": {
+          "brand": "SAMSUNG",
+          "model": "LS22D300GALXZX",
+          "commercialModel": "Essential Monitor S3 S30GD",
+          "providerSku": "MONSMG2120 / MNL-2820",
+          "productType": "Monitor de oficina",
+          "display": "22 in IPS, 1920 x 1080",
+          "refreshRate": "100 Hz",
+          "ports": ["HDMI", "VGA"],
+          "vesa": "100 x 100 mm",
+          "features": ["Eye Saver Mode", "Flicker Free", "Game Mode"],
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 14 y CVA 5.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"MONSMG2120","stock":14,"price":1441.05,"currency":"MXN","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"MNL-2820","stock":5,"price":1348.44,"currency":"MXN","priceKind":"best_price"}
+          ],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"withStand":"489.9 x 175.1 x 400 mm, 2.1 kg", "withoutStand":"489.9 x 36.2 x 291.9 mm, 1.6 kg", "package":"585 x 334 x 100 mm, 3.1 kg"},
+        "sourceRefs": [
+          {"title":"Samsung Essential Monitor S3 22 official reference", "type":"manufacturer_spec", "url":"https://www.samsung.com/ar/monitors/full-hd-1080p/essential-monitor-s3-s30gd-22-inch-fhd-ips-100hz-ls22d300galxzb/"},
+          {"title":"CTOnline MONSMG2120 and CVA MNL-2820 stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5jkdfi3cczjznt3",
+      "research": {
+        "confidence": 0.9,
+        "name": "Huawei MateBook D 16 53014MSJ Core i5-13420H 16GB 1TB SSD 16 in",
+        "description": "Laptop Huawei MateBook D 16 2024 con Intel Core i5-13420H, pantalla 16 pulgadas WUXGA, 16GB de memoria, SSD NVMe 1TB, Wi-Fi 6 y lector de huella.",
+        "manualCategoryPath": "computo/laptops/consumo/16-pulgadas/huawei-matebook-d16",
+        "semanticCategoryPath": "computo/laptops/consumo/16-pulgadas/huawei-matebook-d16/huawei-53014msj",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMHUA560/COMHUA560_full.jpg"],
+        "specs": {
+          "brand": "HUAWEI",
+          "model": "53014MSJ",
+          "providerSku": "COMHUA560",
+          "ean": "6942103173806",
+          "productType": "Laptop de consumo",
+          "processor": "Intel Core i5-13420H",
+          "memory": "16GB",
+          "storage": "1TB NVMe PCIe SSD",
+          "display": "16 in WUXGA 1920 x 1200 IPS, 300 nits, 100% sRGB",
+          "wireless": ["Wi-Fi 6", "Bluetooth 5.1"],
+          "battery": "56 Wh",
+          "security": "Boton de encendido con huella",
+          "providerBranchSummary": "Disponible por sucursal proveedor: VER 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"VER","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"COMHUA560","stock":1,"price":11772.34,"currency":"MXN","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La categoria previa monitores era incorrecta; el producto es laptop. Fuentes comerciales discrepan en variante de sistema operativo."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"dimensions":"356.7 x 248.7 x 18.4 mm", "weight":"1.7 kg"},
+        "sourceRefs": [
+          {"title":"Huawei Mexico MateBook D 16 2024 specs", "type":"manufacturer_spec", "url":"https://consumer.huawei.com/mx/laptops/matebook-d-16-2024/specs/"},
+          {"title":"CTOnline COMHUA560 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5jsnlzkkfpmp8lv",
+      "research": {
+        "confidence": 0.91,
+        "name": "ASUS TUF Gaming A520M-PLUS WiFi Motherboard Micro-ATX AM4 DDR4",
+        "description": "Tarjeta madre ASUS TUF Gaming A520M-PLUS WiFi Micro-ATX para procesadores AMD AM4, chipset A520, DDR4, M.2, SATA, Ethernet Gigabit, Wi-Fi 5 y Bluetooth 5.0.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/a520m",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/a520m/asus-tuf-gaming-a520m-plus-wifi",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MBDASS5480/MBDASS5480_full.jpg"],
+        "specs": {
+          "brand": "ASUS",
+          "model": "TUF GAMING A520M-PLUS WIFI",
+          "providerSku": "MBDASS5480",
+          "ean": "4711081154273",
+          "upc": "195553154277",
+          "productType": "Tarjeta madre",
+          "socket": "AMD AM4",
+          "chipset": "AMD A520",
+          "formFactor": "Micro-ATX",
+          "memory": "DDR4 hasta 128GB",
+          "expansion": ["PCIe 3.0", "M.2", "SATA"],
+          "network": ["Realtek Gigabit Ethernet", "Wi-Fi 5", "Bluetooth 5.0"],
+          "videoOutputs": ["HDMI", "DisplayPort", "D-Sub"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 80, MAZ 26, URP 9, TXA 8, GDL 5, CUE 3, DFA 3, ZAC 3, TRN 2, TPC 2, HMO 1, COL 1; stock visible 143 de 145.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"D2A","stock":80},{"providerId":"ctonline","warehouseCode":"MAZ","stock":26},{"providerId":"ctonline","warehouseCode":"URP","stock":9},{"providerId":"ctonline","warehouseCode":"TXA","stock":8},{"providerId":"ctonline","warehouseCode":"GDL","stock":5},{"providerId":"ctonline","warehouseCode":"CUE","stock":3},{"providerId":"ctonline","warehouseCode":"DFA","stock":3},{"providerId":"ctonline","warehouseCode":"ZAC","stock":3},{"providerId":"ctonline","warehouseCode":"TRN","stock":2},{"providerId":"ctonline","warehouseCode":"TPC","stock":2},{"providerId":"ctonline","warehouseCode":"HMO","stock":1},{"providerId":"ctonline","warehouseCode":"COL","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"MBDASS5480","stock":145,"price":72.56,"currency":"USD","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La ruta previa redes/access-points era incorrecta; es motherboard AM4."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "sourceRefs": [
+          {"title":"ASUS TUF Gaming A520M-PLUS WiFi tech specs", "type":"manufacturer_spec", "url":"https://www.asus.com/ca-en/motherboards-components/motherboards/tuf-gaming/tuf-gaming-a520m-plus-wifi/techspec/"},
+          {"title":"CTOnline MBDASS5480 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5k391p6uevfkfp1",
+      "research": {
+        "confidence": 0.87,
+        "name": "Ghia GT4000BB Kit Teclado y Mouse Inalambrico USB Negro",
+        "description": "Combo GHIA GT4000BB con teclado multimedia y mouse optico inalambricos, receptor USB, alcance de hasta 10 m y color negro.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos/ghia-gt4000bb",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10414746"],
+        "specs": {
+          "brand": "GHIA",
+          "model": "GT4000BB",
+          "providerSku": "KB-1113",
+          "productType": "Kit teclado y mouse inalambrico",
+          "connectivity": "RF con receptor USB",
+          "range": "Hasta 10 m",
+          "mouse": "Optico 1000 DPI",
+          "keyboard": "Compacto con teclas multimedia",
+          "battery": "Mouse 2 AAA",
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA reporta stock total 16.",
+          "providerOffers": [{"providerId":"cva","providerSku":"KB-1113","stock":16,"price":156.76,"currency":"MXN","priceKind":"best_price"}],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "sourceRefs": [
+          {"title":"GHIA GT4000BB official store page", "type":"manufacturer_spec", "url":"https://tienda.ghia.com.mx/index.php/kit-teclado-y-mouse-ghia-inalambrico-receptor-usb-color-negro-modelo-gt4000bb.html"},
+          {"title":"CVA KB-1113 stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5km5k7nejecbwqo",
+      "research": {
+        "confidence": 0.9,
+        "name": "Synology Plus Series HAT3320-8T Disco Duro NAS 8TB SATA 3.5 in",
+        "description": "Disco duro Synology Plus Series HAT3320-8T de 8TB, formato 3.5 pulgadas, SATA 6Gb/s, 7200RPM, cache 512MB y perfil para NAS Synology.",
+        "manualCategoryPath": "computo/almacenamiento/discos-duros/3-5-sata/nas/8tb",
+        "semanticCategoryPath": "computo/almacenamiento/discos-duros/3-5-sata/nas/8tb/synology-hat3320-8t",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10443688"],
+        "specs": {
+          "brand": "SYNOLOGY",
+          "model": "HAT3320-8T",
+          "providerSku": "DDUTRD080 / HD-3428",
+          "productType": "Disco duro NAS",
+          "capacity": "8TB",
+          "formFactor": "3.5 in",
+          "interface": "SATA 6Gb/s",
+          "rpm": "7200 RPM",
+          "cache": "512MB",
+          "sustainedTransfer": "281 MB/s",
+          "power": "5.74W idle, 9.07W random read/write",
+          "temperature": "5 a 60 C",
+          "warranty": "3 anos",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 1 y CVA 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"DDUTRD080","stock":1,"price":305.22,"currency":"USD","priceKind":"best_price"},
+            {"providerId":"cva","providerSku":"HD-3428","stock":0,"price":430.93,"currency":"USD","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["CVA mantiene ficha sin stock; stock activo proviene de CT."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"dimensions":"147 x 101.85 x 26.1 mm", "weight":"755 g reportado por canal"},
+        "sourceRefs": [
+          {"title":"Synology HAT3320-8T product spec", "type":"manufacturer_datasheet", "url":"https://global.download.synology.com/download/Document/Hardware/ProductSpec/Hard%20Drives/25-year/HAT3320-8T/enu/Product_Spec_HAT3320-8T_enu.pdf"},
+          {"title":"CTOnline DDUTRD080 and CVA HD-3428 stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5kx90xatrexitza",
+      "research": {
+        "confidence": 0.9,
+        "name": "Xerox 006R04765 Toner Cyan Alta Capacidad para C410 C415 7000 Paginas",
+        "description": "Toner original Xerox 006R04765 cian de alta capacidad para Xerox C410 y VersaLink C415, rendimiento ISO aproximado de 7000 paginas.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/xerox/006r04765-cian",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/xerox/006r04765-cian/xerox-006r04765",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455326"],
+        "specs": {
+          "brand": "XEROX",
+          "model": "006R04765",
+          "providerSku": "CARXRX7440 / CN-5022",
+          "productType": "Toner laser original",
+          "color": "Cian",
+          "yield": "7000 paginas",
+          "compatibility": "Xerox C410 y VersaLink C415",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CT stock 2 y CVA 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"CARXRX7440","stock":2,"price":155.21,"currency":"USD","priceKind":"best_price"},
+            {"providerId":"cva","providerSku":"CN-5022","stock":0,"price":125.66,"currency":"USD","priceKind":"seen_unavailable"}
+          ],
+          "sourceDiscrepancies": ["Precio CVA menor pero sin stock; la oferta activa es CT."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "sourceRefs": [
+          {"title":"Xerox 006R04765 official supply page", "type":"manufacturer_spec", "url":"https://www.xerox.com/en-in/supplies-and-accessories/006R04765"},
+          {"title":"CTOnline CARXRX7440 and CVA CN-5022 stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5kysib9zc823105",
+      "research": {
+        "confidence": 0.89,
+        "name": "Intellinet 210478 Jack Modular Keystone Cat5e UTP Rojo",
+        "description": "Jack modular Intellinet 210478 keystone RJ45 Cat5e UTP rojo, para terminacion por impacto 110/Krone y cableado estructurado.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/rojo",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/rojo/intellinet-210478",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=3429337"],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "210478",
+          "providerSku": "RCKACC635 / AC-1757",
+          "upc": "766623210478",
+          "productType": "Jack keystone RJ45",
+          "category": "Cat5e UTP",
+          "color": "Rojo",
+          "termination": "Impacto 110 / Krone / LSA+",
+          "standard": "ANSI/TIA/EIA 568B.2",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 2 y CT 0.",
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"RCKACC635","stock":0,"price":1.5,"currency":"USD","priceKind":"seen_unavailable"},
+            {"providerId":"cva","providerSku":"AC-1757","stock":2,"price":1.52,"currency":"USD","priceKind":"best_price"}
+          ],
+          "sourceDiscrepancies": ["La ruta previa accesorios/cables-adaptadores era demasiado amplia; es conector keystone RJ45 Cat5e."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"weight":"0.01 kg"},
+        "sourceRefs": [
+          {"title":"Intellinet 210478 official product page", "type":"manufacturer_spec", "url":"https://es.intellinetnetwork.eu/products/intellinet-es-jack-rj45-cat5e-keystone-de-impacto-rojo-210478"},
+          {"title":"CTOnline RCKACC635 and CVA AC-1757 stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5lysaeeqmkg8g0a",
+      "research": {
+        "confidence": 0.9,
+        "brand": "YEYIAN",
+        "name": "Yeyian Hussar Plus YCM-ASHUS-01 Gabinete Mid Tower ATX Negro",
+        "description": "Gabinete Yeyian Hussar Plus YCM-ASHUS-01 mid tower ATX negro con panel lateral de vidrio templado, frente mesh y soporte para tarjetas de video de hasta 354mm.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/yeyian-hussar-plus-ycm-ashus-01",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABYEY380/GABYEY380_full.jpg"],
+        "specs": {
+          "brand": "YEYIAN",
+          "model": "YCM-ASHUS-01",
+          "commercialModel": "Hussar Plus",
+          "providerSku": "GABYEY380",
+          "ean": "7500619011372",
+          "productType": "Gabinete ATX mid tower",
+          "compatibility": "ATX, Micro-ATX, Mini-ITX",
+          "material": "Acero GSS, vidrio templado y malla",
+          "gpuClearance": "354 mm",
+          "cpuCoolerClearance": "167 mm",
+          "expansionSlots": "7",
+          "frontIo": ["USB 3.0", "USB-C", "Audio"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 6, D2A 6, CMT 3, GDL 2.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":6},{"providerId":"ctonline","warehouseCode":"D2A","stock":6},{"providerId":"ctonline","warehouseCode":"CMT","stock":3},{"providerId":"ctonline","warehouseCode":"GDL","stock":2}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"GABYEY380","stock":17,"price":33.78,"currency":"USD","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["La ruta previa enfriamiento-gabinetes era demasiado amplia; es gabinete mid tower."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"dimensions":"413 x 204 x 397.7 mm", "weight":"4.6 kg"},
+        "sourceRefs": [
+          {"title":"Yeyian Hussar Plus detailed specification", "type":"manufacturer_datasheet", "url":"https://mma.prnewswire.com/media/2274247/YEYIAN_HUSSAR_PLUS_Detail_Specification.pdf?p=pdf"},
+          {"title":"CTOnline GABYEY380 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5m4p7k7xzwlj9je",
+      "research": {
+        "confidence": 0.89,
+        "name": "Game Factor SMG500 Base Gamer para Monitor VESA hasta 27 in",
+        "description": "Base para monitor Game Factor SMG500 compatible con VESA 75 x 75 y 100 x 100, monitores de hasta 27 pulgadas o 5kg, ajuste de altura, inclinacion, giro y pivote.",
+        "manualCategoryPath": "computo/accesorios/soportes-monitor/vesa/27-5kg",
+        "semanticCategoryPath": "computo/accesorios/soportes-monitor/vesa/27-5kg/game-factor-smg500",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCVGO1960/ACCVGO1960_full.jpg"],
+        "specs": {
+          "brand": "GAME FACTOR",
+          "model": "SMG500",
+          "providerSku": "ACCVGO1960",
+          "ean": "7502266678670",
+          "productType": "Base VESA para monitor",
+          "screenCompatibility": "Hasta 27 in",
+          "loadCapacity": "5 kg",
+          "vesa": "75 x 75 mm y 100 x 100 mm",
+          "heightAdjustment": "130 mm",
+          "tilt": "-5 a 17 grados",
+          "swivel": "30 grados",
+          "pivot": "90 grados",
+          "material": "Metal y plastico",
+          "providerBranchSummary": "Disponible por sucursal proveedor: CUN 5, D2A 4.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"CUN","stock":5},{"providerId":"ctonline","warehouseCode":"D2A","stock":4}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCVGO1960","stock":9,"price":38.82,"currency":"USD","priceKind":"best_price"}],
+          "sourceDiscrepancies": ["El titulo previo dice Monitor, pero la ficha y proveedor indican base/stand para monitor."],
+          "providerStockVerifiedAt": "2026-05-30T21:00:00Z"
+        },
+        "measurements": {"dimensions":"390 x 110 x 220 mm", "weight":"2 kg"},
+        "sourceRefs": [
+          {"title":"Game Factor SMG500 official product page", "type":"manufacturer_spec", "url":"https://www.gamefactor.mx/en/details/31/smg500"},
+          {"title":"Game Factor SMG500 datasheet", "type":"manufacturer_datasheet", "url":"https://gamefactor.mx/descargables/Ficha-SMG500.pdf"},
+          {"title":"CTOnline ACCVGO1960 branch stock", "type":"provider_stock", "observedAt":"2026-05-30T21:00:00Z"}
+        ]
+      }
+    }
+  ]
+}
