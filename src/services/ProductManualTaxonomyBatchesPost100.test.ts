@@ -152,6 +152,16 @@ const researchedBatchCases = [
   ["Canon GI-190 BK botella tinta negra 135ml MegaTank", "CANON", "impresion/consumibles/botellas-tinta-megatank/canon-gi190/negro"],
   ["TP-Link Archer T2U adaptador USB Wi-Fi AC600 dual band", "TP LINK", "redes/adaptadores-wifi/usb/ac600-mini"],
   ["Silimex Silimpo espuma limpiadora 454 ml", "SILIMEX", "computo/accesorios/limpieza/espumas-limpiadoras/454ml"],
+  ["BRobotix 263564 soporte plegable de aluminio para laptop tablet 7 angulos", "BROBOTIX", "computo/accesorios/soportes-laptop/plegables"],
+  ["ADATA UV240 AUV240-32G-RRD memoria USB 32GB roja", "ADATA", "computo/almacenamiento/memorias-flash/usb/32gb"],
+  ["Mercusys MW306R router inalambrico N300 2.4GHz multimodo", "MERCUSYS", "redes/routers/wifi-n/n300"],
+  ["Dell SE2426H 210-BTTL monitor 23.8 FHD IPS 144Hz", "DELL", "computo/monitores/oficina/24-fhd-144hz"],
+  ["Kingston DataTraveler Exodia S DTXS/256GB memoria USB 3.2 naranja", "KINGSTON TECHNOLOGY", "computo/almacenamiento/memorias-flash/usb/256gb"],
+  ["ASUS ExpertBook BM1403CDA-R58G512-P2 laptop 14 Ryzen 5 7535HS Windows 11 Pro", "ASUS BUSINESS", "computo/laptops/empresariales/14-pulgadas/asus-expertbook"],
+  ["Provision ISR PR-CA20 cable siames coaxial CCTV BNC DC 20 metros", "PROVISION ISR", "seguridad/cctv/cable-coaxial-siames/20m"],
+  ["Manhattan 162272 mini hub USB-A 4 puertos negro", "MANHATTAN", "computo/accesorios/hubs-usb/usb-a/4-puertos"],
+  ["Perfect Choice PC-034094 alcohol isopropilico antiestatico 1 litro", "PERFECT CHOICE", "computo/accesorios/limpieza/alcohol-isopropilico/1l"],
+  ["Dahua DH-PFM350-360-A UPS line-interactive 600VA 360W 4 salidas", "DAHUA TECHNOLOGY", "energia/no-breaks-ups/line-interactive/600va"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

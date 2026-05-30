@@ -1,0 +1,425 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b117-2026-05-29",
+  "cycle": 3,
+  "batch": 117,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3cik4ry8v2c60yw",
+      "research": {
+        "confidence": 0.95,
+        "name": "BRobotix 263564 soporte plegable de aluminio para laptop tablet y celular",
+        "description": "Soporte plegable de aluminio BRobotix 263564 con siete angulos ajustables para laptop, tablet, celular o libro, compatible con dispositivos de 1.8 a 17 pulgadas.",
+        "manualCategoryPath": "computo/accesorios/soportes-laptop/plegables",
+        "semanticCategoryPath": "computo/accesorios/soportes-laptop/plegables/brobotix-263564",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://www.brobotix.com.mx",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCRBT6940/ACCRBT6940_full.jpg", "https://compupuebla.com/wp-content/uploads/2024/04/SoportedeAluminioPlegable7AngulosA_263564_EAN7503032263564_0.jpg", "https://www.cyberpuerta.mx/img/product/XL/CP-BROBOTIX-263564-1.jpg"],
+        "documents": [
+          { "label": "BRobotix 263564 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/263564_ft.pdf" },
+          { "label": "GlobalOffice 263564 PDF", "type": "retailer_pdf", "url": "https://globaloffice.mx/app/producto/pdf/263564" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "263564",
+          "providerSku": "ACCRBT6940",
+          "ean": "7503032263564",
+          "productType": "Soporte plegable para laptop",
+          "material": "Aluminio",
+          "color": "Plata",
+          "adjustments": "7 angulos: 15, 20, 25, 30, 35, 40 y 45 grados",
+          "compatibility": "Laptop, tablet, celular y libros de 1.8 a 17 pulgadas",
+          "features": "Plegable, portatil, almohadillas antiderrapantes y ventilacion amplia",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 229 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 122 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 114 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 94 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 24 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 15 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCRBT6940", "stock": 851, "price": 8.07, "currency": "USD", "branch": "DFA:229,D2A:122,CMT:114,GDL:94,OAX:24,TOL:23,VER:21,TPC:18,MOR:17,HMO:16,CHI:15,LEO:15" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming category as monitors was wrong; this is a laptop/device stand.", "Retail dimensions vary; product dimensions come from DataComponents and package values from retailers are lower confidence.", "Visible branch sum is 708 while feed total_stock is 851, so provider locations are partial."]
+        },
+        "measurements": { "dimensionsExtended": "18.7 x 25.5 x 14.0 cm max", "dimensionsFolded": "4.5 x 25.5 cm", "weight": "0.25 kg retail reference" },
+        "sourceRefs": [
+          { "title": "BRobotix 263564 ficha tecnica", "type": "datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/263564_ft.pdf" },
+          { "title": "CompuPuebla BRobotix 263564", "type": "retailer", "url": "https://compupuebla.com/producto/soporte-de-aluminio-para-laptop-multifuncion-brobotix-263564/" },
+          { "title": "Cyberpuerta BRobotix 263564", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-Laptops/Bases-para-Laptops/BRobotix-Base-263564-para-Laptop-45-Aluminio.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "fp0jebnvzjmplh1",
+      "research": {
+        "confidence": 0.92,
+        "name": "ADATA UV240 32GB USB 2.0 memoria USB roja",
+        "description": "Memoria USB ADATA UV240 roja de 32GB con interfaz USB 2.0 Type-A y tapa abatible, para almacenamiento portatil de documentos y archivos.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/adata-uv240-roja",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/mx/consumer/category/portable-storage/554/",
+        "gallery": ["https://webapi3.adata.com/storage/product/uv240_v81_32gb_rd.png", "https://static.ctonline.mx/imagenes/MEMDAT4710/MEMDAT4710_full.jpg", "https://compupuebla.com/wp-content/uploads/2024/04/MemoriaUSB20de32GBADATAUV240Rojo32_UV240_EAN4713218466150_0-600x600.jpg"],
+        "documents": [{ "label": "ADATA UV240 datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_uv240_usb_flash_drive_20220911.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AUV240-32G-RRD",
+          "series": "UV240",
+          "providerSku": "MEMDAT4710",
+          "feedProviderSku": "MEMDAT4700",
+          "ean": "4713218466150",
+          "productType": "Memoria USB flash",
+          "capacity": "32 GB",
+          "interface": "USB 2.0 Type-A",
+          "color": "Red",
+          "formFactor": "Flip cap",
+          "compatibility": "Windows Vista/7/8/8.1/10/11, Mac OS X 10.6+, Linux kernel 2.6+",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 265 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 218 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 183 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 128 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 63 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 16 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMDAT4700", "stock": 851, "price": 4.21, "currency": "USD", "branch": "D2A:265,DGO:218,MOR:183,CMT:128,PUE:63,ZAC:35,SLP:33,CDV:33,CTZ:31,CAM:31,XLP:29,MID:16" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming path as memoria RAM was wrong; product is USB flash storage.", "ADATA red 32GB is MEMDAT4710/AUV240-32G-RRD/EAN 4713218466150, while wholesaler_stock shows MEMDAT4700 which public CT references associate with black UV240.", "Visible branch sum is 1065, higher than feed total_stock 851, so provider branch summary and stock reduction are inconsistent and must be refreshed against provider feed."]
+        },
+        "measurements": { "dimensions": "54.6 x 19.2 x 8.3 mm", "weight": "7 g" },
+        "sourceRefs": [
+          { "title": "ADATA UV240 product page", "type": "manufacturer", "url": "https://www.adata.com/mx/consumer/category/portable-storage/554/" },
+          { "title": "ADATA UV240 datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_uv240_usb_flash_drive_20220911.pdf" },
+          { "title": "CompuPuebla ADATA UV240 red", "type": "retailer", "url": "https://compupuebla.com/producto/memoria-usb-2-0-de-32gb-adata-uv240-2/" }
+        ]
+      }
+    },
+    {
+      "product_id": "q3t4m234hqp4xtr",
+      "research": {
+        "confidence": 0.96,
+        "name": "Mercusys MW306R router inalambrico N300 2.4GHz multimodo",
+        "description": "Router inalambrico Mercusys MW306R Wi-Fi 4 N300 de 2.4GHz con tres antenas fijas, modos router, access point, extensor y WISP, y puertos Fast Ethernet.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/mercusys-mw306r",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mercusys.com.mx/product/details/mw306r/",
+        "gallery": ["https://static.mercusys.com/product-image/MW306R%28EU%291.0_Spotlight_2009_English_01_large20201112014545.jpg", "https://static.mercusys.com/product-image/MW306R%28EU%291.0_Spotlight_2009_English_02_large20201112014630.jpg"],
+        "documents": [
+          { "label": "Mercusys MW306R datasheet", "type": "datasheet", "url": "https://static.mercusys.com/manual/MW306R%28EU%291.0_Datasheet20201027030858.pdf" },
+          { "label": "Mercusys MW306R user guide", "type": "manual", "url": "https://static.mercusys.com/manual/1910080057_MW306R_UG_REV1.0.020201105074508.pdf" }
+        ],
+        "specs": {
+          "brand": "MERCUSYS",
+          "model": "MW306R",
+          "providerSku": "ROUMER090",
+          "ean": "6957939000592",
+          "upc": "849439000607",
+          "productType": "Router Wi-Fi N",
+          "wirelessSpeed": "Up to 300 Mbps on 2.4 GHz",
+          "standards": "IEEE 802.11b/g/n",
+          "modes": "Router, Access Point, Range Extender and WISP",
+          "antennas": "3 fixed 5 dBi antennas",
+          "ethernet": "1 WAN 10/100 Mbps and 3 LAN 10/100 Mbps",
+          "power": "5 V DC 0.6 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 149 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 143 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 82 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 53 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 52 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 33 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 20 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUMER090", "stock": 843, "price": 8.65, "currency": "USD", "branch": "GDL:149,ACA:143,CMT:82,CUN:53,AGS:52,LMO:40,MTY:33,CAM:33,TXA:28,MOR:26,DGO:25,IRA:20" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Use 147 x 115 x 34 mm for V1 unless hardware revision indicates V1.20.", "Visible branch sum is 664 while feed total_stock is 843, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "147 x 115 x 34 mm", "weight": "150 g low-confidence V1.20 reference" },
+        "sourceRefs": [
+          { "title": "Mercusys Mexico MW306R", "type": "manufacturer", "url": "https://www.mercusys.com.mx/product/details/mw306r/" },
+          { "title": "Mercusys MW306R datasheet", "type": "datasheet", "url": "https://static.mercusys.com/manual/MW306R%28EU%291.0_Datasheet20201027030858.pdf" },
+          { "title": "Mercusys MW306R download page", "type": "support", "url": "https://www.mercusys.com/en/download/mw306r/" }
+        ]
+      }
+    },
+    {
+      "product_id": "aa3f4h2fx58yeww",
+      "research": {
+        "confidence": 0.91,
+        "name": "Dell SE2426H monitor 23.8 pulgadas FHD IPS 144Hz",
+        "description": "Monitor Dell SE2426H de 23.8 pulgadas Full HD con panel IPS, frecuencia maxima 144Hz, AMD FreeSync, certificacion TUV Eye Comfort y dos puertos HDMI.",
+        "manualCategoryPath": "computo/monitores/oficina/24-fhd-144hz",
+        "semanticCategoryPath": "computo/monitores/oficina/24-fhd-144hz/dell-se2426h",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-24-monitor-se2426h/apd/210-bttl/monitors-monitor-accessories",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/s-series/se2426h/monitor-se2426h-pdp-hero.psd?fmt=png-alpha&wid=800", "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/s-series/se2426h/media-gallery/monitor-dell-se2426h-bk-gallery-2.psd?fmt=png-alpha&wid=800"],
+        "documents": [
+          { "label": "Dell SE2426H datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-24-monitor-se2426h-datasheet.pdf" },
+          { "label": "Dell SE2426H user guide", "type": "manual", "url": "https://dl.dell.com/content/manual85683692-dell-24-monitor-se2426h-user-s-guide.pdf?language=en-us" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "SE2426H",
+          "canonicalDellPart": "210-BTTL",
+          "reportedCvaDellPart": "210-BQJZ",
+          "providerSku": "MONDLL8360",
+          "cvaSku": "MNL-3169",
+          "upc": "884116692058",
+          "screenSize": "23.8 inches",
+          "resolution": "1920 x 1080",
+          "refreshRate": "144 Hz",
+          "panel": "IPS",
+          "response": "1 ms MPRT, 4 ms GTG fast, 8 ms GTG normal",
+          "brightness": "300 cd/m2",
+          "contrast": "1000:1",
+          "ports": "2 HDMI 1.4 with HDCP 1.4",
+          "mount": "VESA 100 x 100 mm",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONDLL8360", "stock": 841, "price": 1578.95, "currency": "MXN" }, { "providerId": "cva", "providerSku": "MNL-3169", "stock": 0, "price": 1595.69, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Treat as Dell SE2426H / 210-BTTL / 144Hz based on Dell official and CT stock title.", "CVA title mixes 100Hz HDMI/VGA and 210-BQJZ, which Dell assigns to SE2425HM, so CVA offer is not used for canonical specs.", "Provider did not expose branch-level stock."]
+        },
+        "measurements": { "dimensionsWithStand": "412.26 x 538.64 x 178.81 mm", "dimensionsWithoutStand": "324.21 x 538.64 x 47.70 mm", "weight": "2.76 kg panel; 3.37 kg with stand and cables; 4.94 kg packaged" },
+        "sourceRefs": [
+          { "title": "Dell SE2426H official", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-24-monitor-se2426h/apd/210-bttl/monitors-monitor-accessories" },
+          { "title": "Dell SE2425HM official comparison reference", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-24-monitor-se2425hm/apd/210-bqjz/monitors-monitor-accessories" },
+          { "title": "Dell SE2426H datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-24-monitor-se2426h-datasheet.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "37u4fp2y0p2hm3l",
+      "research": {
+        "confidence": 0.96,
+        "name": "Kingston DataTraveler Exodia S 256GB USB 3.2 Gen 1 negro naranja",
+        "description": "Memoria USB Kingston DataTraveler Exodia S DTXS/256GB con interfaz USB 3.2 Gen 1 Type-A, tapa giratoria y acabado negro/naranja.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/256gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/256gb/kingston-dtxs",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/latam/usb-flash-drives/datatraveler-exodia-s-swivel-usb-3-2-usb-flash-drive?capacity=256gb",
+        "gallery": ["https://media.kingston.com/kingston/product/DTXS_256GB-tn.png", "https://media.kingston.com/kingston/highlights/ktc-highlights-flash-usb-dtxs-hl2.webp"],
+        "documents": [{ "label": "Kingston DataTraveler Exodia S datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/DTXS_en.pdf" }],
+        "specs": {
+          "brand": "KINGSTON TECHNOLOGY",
+          "model": "DTXS/256GB",
+          "providerSku": "MEMKGN5250",
+          "upc": "740617348736",
+          "productType": "Memoria USB flash",
+          "capacity": "256 GB",
+          "interface": "USB 3.2 Gen 1 Type-A",
+          "color": "Black and orange",
+          "cap": "Swivel cap",
+          "compatibility": "Windows 11, macOS, Linux and Chrome OS",
+          "warranty": "5 years",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 285 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 96 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 80 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 67 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 60 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 41 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 11 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MEMKGN5250", "stock": 839, "price": 18.8, "currency": "USD", "branch": "D2A:285,TXA:96,ACA:80,LMO:67,CUE:60,CUN:50,DFA:47,TPC:41,TOL:19,DFP:12,CAM:12,MOR:11" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming category as memoria RAM was wrong; product is USB flash storage.", "Kingston official page confirms part DTXS/256GB but retailers confirm UPC.", "No official read/write MB/s was found; keep interface class only.", "Visible branch sum is 780 while feed total_stock is 839, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "57 x 19 x 11.8 mm", "weight": "8.72 g" },
+        "sourceRefs": [
+          { "title": "Kingston DataTraveler Exodia S LATAM", "type": "manufacturer", "url": "https://www.kingston.com/latam/usb-flash-drives/datatraveler-exodia-s-swivel-usb-3-2-usb-flash-drive?capacity=256gb" },
+          { "title": "Kingston DTXS datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/DTXS_en.pdf" },
+          { "title": "Kingston DTXS support", "type": "support", "url": "https://www.kingston.com/en/support/technical/products/dtxs" }
+        ]
+      }
+    },
+    {
+      "product_id": "jajujiagpyvg7xd",
+      "research": {
+        "confidence": 0.94,
+        "name": "ASUS ExpertBook BM1403CDA-R58G512-P2 14 FHD Ryzen 5 7535HS 8GB 512GB Windows 11 Pro",
+        "description": "Laptop empresarial ASUS ExpertBook BM1 BM1403CDA de 14 pulgadas con AMD Ryzen 5 7535HS, 8GB DDR5, SSD 512GB, Wi-Fi 6E, Windows 11 Pro y garantia de canal indicada como 3 anos.",
+        "manualCategoryPath": "computo/laptops/empresariales/14-pulgadas/asus-expertbook",
+        "semanticCategoryPath": "computo/laptops/empresariales/14-pulgadas/asus-expertbook/bm1403cda-r58g512-p2",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.asus.com/mx/laptops/for-work/expertbook/asus-expertbook-bm1-bm1403/",
+        "gallery": ["https://dlcdnwebimgs.asus.com/gain/3c775430-96cd-459d-bd95-797381741844/w800", "https://dlcdnwebimgs.asus.com/gain/faa52246-81d6-41cc-96e4-d41f6d80f781/w800", "https://dlcdnwebimgs.asus.com/gain/e856e2d9-94ac-42a6-98ca-c6eb1a61e6a3/w800"],
+        "documents": [
+          { "label": "ASUS ExpertBook BM1403CDA datasheet", "type": "datasheet", "url": "https://www.asus.com/mx/event/datasheet/expertbook-bm1_bm1403cda.pdf" },
+          { "label": "ASUS BM1403CDA downloads", "type": "support", "url": "https://www.asus.com/mx/laptops/for-work/expertbook/asus-expertbook-bm1-bm1403/helpdesk_download?model2Name=BM1403CDA" }
+        ],
+        "specs": {
+          "brand": "ASUS BUSINESS",
+          "model": "BM1403CDA-R58G512-P2",
+          "asusPart": "90NX0831-M01MS0",
+          "providerSku": "COMASS9750",
+          "upc": "199291244528",
+          "productType": "Laptop empresarial",
+          "processor": "AMD Ryzen 5 7535HS, 6 cores, 12 threads, 3.3 to 4.55 GHz",
+          "graphics": "AMD Radeon 660M integrated",
+          "memory": "8 GB DDR5 SO-DIMM, up to 64 GB platform support",
+          "storage": "512 GB M.2 2280 NVMe PCIe 4.0 SSD",
+          "display": "14 inch FHD 1920 x 1080 anti-glare, 300 nits, 45% NTSC",
+          "wireless": "Wi-Fi 6E 2x2 and Bluetooth 5.4 by exact fichas",
+          "ports": "2 USB-C 3.2 Gen2 with PD/DP, 2 USB-A 3.2 Gen1, HDMI 1.4, RJ45, combo audio",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 787 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 1 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMASS9750", "stock": 829, "price": 8854.17, "currency": "MXN", "branch": "DFA:787,MID:19,TAM:5,CUE:5,CUN:5,OBR:2,SLT:2,MOR:1,VHA:1,TOL:1,ACX:1" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming path as access point was wrong; product is a business laptop.", "CT title says Radeon 680M, while exact Ryzen 5 7535HS/ASUS fichas indicate Radeon 660M.", "Warranty differs: channel says 3 years while generic ASUS series PDF can say 1 year.", "ASUS text varies between Bluetooth 5.3 and 5.4; exact fichas use 5.4."]
+        },
+        "measurements": { "dimensions": "32.45 x 21.44 x 1.97 cm", "weight": "1.39 to 1.40 kg by ASUS/channel reference" },
+        "sourceRefs": [
+          { "title": "ASUS ExpertBook BM1403CDA datasheet", "type": "datasheet", "url": "https://www.asus.com/mx/event/datasheet/expertbook-bm1_bm1403cda.pdf" },
+          { "title": "ASUS ExpertBook BM1 official", "type": "manufacturer", "url": "https://www.asus.com/mx/laptops/for-work/expertbook/asus-expertbook-bm1-bm1403/" },
+          { "title": "AMD Ryzen 5 7535HS", "type": "manufacturer", "url": "https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7535hs.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "qj22vq125q4n1rf",
+      "research": {
+        "confidence": 0.92,
+        "name": "Provision ISR PR-CA20 cable siames coaxial CCTV BNC y energia 20 m",
+        "description": "Cable siames coaxial preensamblado Provision ISR PR-CA20 de 20 metros con conectores de video BNC y energia DC para camaras CCTV y DVR.",
+        "manualCategoryPath": "seguridad/cctv/cable-coaxial-siames/20m",
+        "semanticCategoryPath": "seguridad/cctv/cable-coaxial-siames/20m/provision-isr-pr-ca20",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.provision-isr.com.mx/",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/9685446.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCPVS430_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-pr-ca20-cable-siames-marca-provision-pr-ca20_0.webp"],
+        "documents": [{ "label": "GlobalOffice PR-CA20 PDF", "type": "retailer_pdf", "url": "https://globaloffice.com.mx/app/producto/pdf/pr-ca20" }],
+        "specs": {
+          "brand": "PROVISION ISR",
+          "model": "PR-CA20",
+          "providerSku": "ACCPVS430",
+          "cvaSku": "CB-844",
+          "productType": "Cable siames coaxial CCTV preensamblado",
+          "length": "20 m",
+          "connectors": "BNC video and DC power connectors, both ends",
+          "use": "CCTV DVR and camera video/power cabling",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCPVS430", "stock": 822, "price": 6.5, "currency": "USD", "priceKind": "promo_price" }, { "providerId": "cva", "providerSku": "CB-844", "stock": 0, "price": 5.61, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Color varies by retailer, with black more common and one source saying white.", "Some stores use PR-CA20-1, while CT/CVA and most references use PR-CA20.", "UPC and package measurements are not reliable across retailers.", "Provider did not expose branch-level stock."]
+        },
+        "measurements": { "length": "20 m", "weight": "0.9 to 1 kg low-confidence retailer reference" },
+        "sourceRefs": [
+          { "title": "GlobalOffice PR-CA20", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/cables/cable-pre-ensamblado-provision-isr-pr-ca20-c/pr-ca20" },
+          { "title": "PCEL PR-CA20", "type": "retailer", "url": "https://www.pcel.com/PROVISION-ISR-PR-CA20-Bobina-pre-ensamblada-siames-Provision-ISR-PR-CA20-de-cable-coaxial-y-energia-20m-127874" },
+          { "title": "Intercompras PR-CA20", "type": "retailer", "url": "https://intercompras.com/p/cable-siames-pre-ensamblado-provision-bnc-dc-20mts-97507" }
+        ]
+      }
+    },
+    {
+      "product_id": "zn95dkfqixg4txd",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 162272 mini hub USB-A 4 puertos negro",
+        "description": "Mini hub Manhattan 162272 de cuatro puertos USB-A hembra, alimentado por bus, con cable integrado flexible y conexion plug and play.",
+        "manualCategoryPath": "computo/accesorios/hubs-usb/usb-a/4-puertos",
+        "semanticCategoryPath": "computo/accesorios/hubs-usb/usb-a/4-puertos/manhattan-162272",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-mini-hub-usb-20-de-4-puertos-162272",
+        "gallery": ["https://manhattan.lat/cdn/shop/files/4-port-usb-20-mini-hub-162272-1_0d5831f4-bd76-4f1c-8b28-f255a06fcabe.jpg?v=1779532811", "https://manhattan.lat/cdn/shop/files/4-port-usb-20-mini-hub-162272-packaging-8_8ad0109a-858a-4f27-8d37-677315b2b123.jpg?v=1779532811", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCITL2570_full.jpg"],
+        "documents": [
+          { "label": "Manhattan 162272 datasheet English", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43669/162272_datasheet_english.pdf" },
+          { "label": "Manhattan 162272 datasheet Spanish", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43671/162272_datasheet_spanish.pdf" },
+          { "label": "Manhattan 162272 manual", "type": "manual", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43675/162272_man_en_de_es_fr_pl_it_ru_sk_uk_01.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "162272",
+          "providerSku": "ACCITL2570",
+          "cvaSku": "AC-3939",
+          "ean": "0766623162272",
+          "upc": "766623162272",
+          "productType": "Mini hub USB-A",
+          "ports": "4 USB-A female",
+          "power": "Bus powered, 5 V / 500 mA input, up to 5 V / 500 mA output",
+          "features": "Plug and play, hot-swappable, integrated flexible cable",
+          "speed": "12 Mbps full-speed despite USB 2.0 naming in some pages",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCITL2570", "stock": 814, "price": 4.77, "currency": "USD" }, { "providerId": "cva", "providerSku": "AC-3939", "stock": 0, "price": 4.65, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Official name says USB 2.0 but official/Techly specs state USB 1.1/full-speed 12 Mbps; curate speed as 12 Mbps.", "Color appears black or black/transparent depending retailer.", "Provider did not expose branch-level stock."]
+        },
+        "measurements": { "dimensions": "7 x 7 x 1.5 cm Techly reference", "weight": "70 g Techly reference", "cableLength": "50 cm Techly reference" },
+        "sourceRefs": [
+          { "title": "Manhattan LAT 162272", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-mini-hub-usb-20-de-4-puertos-162272" },
+          { "title": "Techly 162272", "type": "datasheet", "url": "https://www.techly.com/4-port-mini-usb-hub.html" },
+          { "title": "Manhattan 162272 Spanish datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43671/162272_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "y26z6vi7xzduv9y",
+      "research": {
+        "confidence": 0.93,
+        "name": "Perfect Choice PC-034094 alcohol isopropilico antiestatico 1 litro",
+        "description": "Limpiador de alcohol isopropilico Perfect Choice PC-034094 de 1 litro para partes y componentes electronicos, de rapida evaporacion y sin dejar residuos.",
+        "manualCategoryPath": "computo/accesorios/limpieza/alcohol-isopropilico/1l",
+        "semanticCategoryPath": "computo/accesorios/limpieza/alcohol-isopropilico/1l/perfect-choice-pc-034094",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/alcohol-isopropilico-para-limpieza-de-equipo-electronico-1l",
+        "gallery": ["https://perfectchoice.me/cdn/shop/products/PC-034094_A_07_Limpieza-Equipo_Alcohol-Isopropilico_Equipment-Cleaning_Isopropyl-Alcohol.png?v=1678385473", "https://www.unicom.mx/ecommerce/uploads/ACPC094.jpg", "https://static.ctonline.mx/imagenes/ACCMST1070/ACCMST1070_full.jpg"],
+        "documents": [
+          { "label": "Perfect Choice PC-034094 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034094_FT_ab4a7311-4700-49e5-bcc2-8da32ec6c192.pdf?v=1762886140" },
+          { "label": "Perfect Choice PC-034094 hoja de seguridad", "type": "safety_data_sheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034094_ALCOHOL_ISOPROPILICO_PARA_LIMPIEZA_DE_EQUIPO_ELECTRONICO_1L.pdf?v=1762887432" }
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-034094",
+          "providerSku": "ACCMST1070",
+          "cvaSku": "CN-2956",
+          "ean": "0615604034094",
+          "upc": "615604034094",
+          "productType": "Alcohol isopropilico para electronica",
+          "capacity": "1 L",
+          "ingredients": "Agua, alcohol, conservador y fragancia; HDS reporta alcohol 48%",
+          "properties": "Antiestatico, rapida evaporacion, no deja marca o residuos",
+          "uses": "Cabezas magneticas, componentes, tarjetas y partes electronicas",
+          "safetyData": "pH 6, densidad 1.103 g/ml, conductividad 0 us by HDS",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCMST1070", "stock": 797, "price": 86.67, "currency": "MXN" }, { "providerId": "cva", "providerSku": "CN-2956", "stock": 16, "price": 85.14, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Do not catalog as pure 99% isopropyl alcohol; HDS reports 48% alcohol in a mixed cleaner.", "Provider source text has spelling noise such as antiestetico; normalize to antiestatico.", "Branch-level stock was not exposed; only provider-level stock appears.", "Same UPC appears in public listings with ACCMST1070, CN-2956, ACPC094 and PC-034094 codes."]
+        },
+        "measurements": { "dimensions": "13 x 6.8 x 19.5 cm", "weight": "0.915 kg", "capacity": "1 L" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-034094 product page", "type": "manufacturer", "url": "https://perfectchoice.me/products/alcohol-isopropilico-para-limpieza-de-equipo-electronico-1l" },
+          { "title": "Perfect Choice PC-034094 ficha tecnica", "type": "datasheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034094_FT_ab4a7311-4700-49e5-bcc2-8da32ec6c192.pdf?v=1762886140" },
+          { "title": "Perfect Choice PC-034094 hoja de seguridad", "type": "safety_data_sheet", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-034094_ALCOHOL_ISOPROPILICO_PARA_LIMPIEZA_DE_EQUIPO_ELECTRONICO_1L.pdf?v=1762887432" },
+          { "title": "PCLAPSC Perfect Choice PC-034094", "type": "retailer", "url": "https://www.pclapsc.com/products/alcohol-isopropilico-perfect-choice-1l-pc-034094" },
+          { "title": "Hergui Perfect Choice PC-034094", "type": "retailer", "url": "https://www.herguimusical.com/products/alcohol-isopropilico-1l-perfect-choice-pc-034094" },
+          { "title": "PCByteTX Perfect Choice PC-034094", "type": "retailer", "url": "https://www.pcbytetx.com/construye-tu-pc/accesorios-computo/limpieza/perfect-choice-alcohol-isopropilico-1-litro-pc-034094" }
+        ]
+      }
+    },
+    {
+      "product_id": "jlqrqux4kk6yszu",
+      "research": {
+        "confidence": 0.95,
+        "name": "Dahua DH-PFM350-360-A UPS no-break linea interactiva 600VA 360W 2 salidas",
+        "description": "UPS Dahua DH-PFM350-360-A line-interactive de 600VA/360W con AVR, bateria de respaldo y dos salidas segun ficha oficial para energia de equipos electronicos y CCTV.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/600va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/600va/dahua-dh-pfm350-360-a",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/mx/products/All-Products/Accessories/Power/UPS/PFM350-360-A",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKDAH010/NBKDAH010_full.jpg", "https://cdn.tvc.mx/media/1324688/DAHUA-DHT2300004-UPS-600VA-360W-ESTABILIZADOR-DE-VOLTAJE-AVR-PRINCIPAL.png", "https://cdn.tvc.mx/media/1493174/DAHUA-DHT2300004-UPS-600VA-360W-ESTABILIZADOR-DE-VOLTAJE-AVR-PRINCIPAL-CARRUCEL-TVC.png"],
+        "documents": [
+          { "label": "Dahua DH-PFM350-360-A datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/82084/datasheet/PFM350-360-A_datasheet_20260210.pdf" },
+          { "label": "Dahua UPS user manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/DOR/PUM0008567/202503/Dahua_Uninterruptible_Power_Supply_User_s_Manual_V1.0.0.pdf" },
+          { "label": "Dahua DH-PFM350-360-A dimensions", "type": "drawing", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/82084/drawings/PFM350-360-A_DIMENSIONS.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFM350-360-A",
+          "providerSku": "NBKDAH010",
+          "ean": "6939554919046",
+          "productType": "UPS line-interactive",
+          "capacity": "600 VA / 360 W",
+          "outlets": "2 salidas by official datasheet; provider titles may say 4",
+          "inputVoltage": "150-275 VAC",
+          "outputVoltage": "220 VAC +/-10%",
+          "battery": "12 V / 7 Ah lead-acid x1, 90% charge in 6 h",
+          "transferTime": "<10 ms",
+          "features": "Line-interactive UPS, AVR and battery backup",
+          "color": "Black",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 692 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "CDV", "stock": 5 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "NBKDAH010", "stock": 806, "price": 32.04, "currency": "USD", "branch": "D2A:692,LMO:25,HMO:12,OBR:10,CLN:10,TAM:8,GDL:7,VER:6,PAC:6,COL:5,VHA:5,CDV:5" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming category as CCTV cameras was wrong; this is a UPS/no-break.", "Official Dahua datasheet for DH-PFM350-360-A shows 220V class and 2 outlets, while provider or retailer texts may mix 110-120V, 4 outlets, or the non-A DH-PFM350-360 variant.", "Provider text says capacidad de potencia de salida VA: 220 V, which is voltage not VA; official datasheet identifies 600VA/360W.", "EAN is not shown by Dahua official page; public sources conflict between 6939554919046, 6923172507723 and 6923172559944.", "Visible branch sum is 791 while feed total_stock is 806, so provider locations are partial."]
+        },
+        "measurements": { "capacity": "600 VA / 360 W", "dimensions": "335 x 87 x 143 mm", "packageDimensions": "417 x 169 x 234 mm", "weight": "4.4 kg", "packageWeight": "5 kg" },
+        "sourceRefs": [
+          { "title": "Dahua PFM350-360-A product page", "type": "manufacturer", "url": "https://www.dahuasecurity.com/mx/products/All-Products/Accessories/Power/UPS/PFM350-360-A" },
+          { "title": "Dahua DH-PFM350-360-A datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/82084/datasheet/PFM350-360-A_datasheet_20260210.pdf" },
+          { "title": "Dahua UPS user manual", "type": "manual", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/DOR/PUM0008567/202503/Dahua_Uninterruptible_Power_Supply_User_s_Manual_V1.0.0.pdf" },
+          { "title": "Dahua DH-PFM350-360-A dimensions", "type": "drawing", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/82084/drawings/PFM350-360-A_DIMENSIONS.pdf" },
+          { "title": "TVC Dahua DH-PFM350-360-A datasheet", "type": "retailer_pdf", "url": "https://cdn.tvc.mx/media/1228827/DAHUA-DHT2300004-UPS-600VA-360W-ESTABILIZADOR-DE-VOLTAJE-AVR-FICHA-TECNICA-ESPA%C3%91OL-TV.pdf" }
+        ]
+      }
+    }
+  ]
+}

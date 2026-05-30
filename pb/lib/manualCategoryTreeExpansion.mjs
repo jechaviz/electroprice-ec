@@ -266,6 +266,7 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'seguridad/cctv/accesorios-montaje/cajas-conexion', name: 'Cajas de conexion CCTV', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/cable-coaxial-siames', name: 'Cable coaxial siames CCTV', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/cable-coaxial-siames/15m', name: 'Cable coaxial siames CCTV 15 m', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/cable-coaxial-siames/20m', name: 'Cable coaxial siames CCTV 20 m', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/fuentes-poder', name: 'Fuentes de poder para CCTV', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/fuentes-poder/12v-3a', name: 'Fuentes CCTV 12V 3A', legacyCategory: 'cameras' },
   { path: 'seguridad/cctv/fuentes-poder/12v-5a', name: 'Fuentes CCTV 12V 5A', legacyCategory: 'cameras' },
