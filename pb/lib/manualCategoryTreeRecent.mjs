@@ -1,4 +1,11 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/tabletas/accesorios/fundas-uso-rudo/lenovo-tab-k10-11', name: 'Fundas uso rudo Lenovo Tab K10 11 pulgadas', legacyCategory: 'accessories' },
+  { path: 'computo/componentes/tarjetas-madre/amd-am4/b550m-wifi-ac', name: 'Tarjetas madre AMD AM4 B550M con WiFi AC', legacyCategory: 'components' },
+  { path: 'computo/componentes/tarjetas-madre/intel-lga1200', name: 'Tarjetas madre Intel LGA1200', legacyCategory: 'components' },
+  { path: 'computo/componentes/tarjetas-madre/intel-lga1200/h510m', name: 'Tarjetas madre Intel LGA1200 H510M', legacyCategory: 'components' },
+  { path: 'seguridad/cctv/camaras-ip-poe/ptz/4mp-16x-lighthunter', name: 'Camaras IP PoE PTZ 4MP 16x LightHunter', legacyCategory: 'cameras' },
+  { path: 'computo/componentes/fuentes-poder/atx-80-plus-gold/1000w', name: 'Fuentes ATX 80 Plus Gold 1000W', legacyCategory: 'components' },
+  { path: 'software/productividad-oficina/microsoft-365/business-standard', name: 'Microsoft 365 Business Standard', legacyCategory: 'software' },
   { path: 'computo/accesorios/mochilas-fundas/mochilas-laptop/17-pulgadas', name: 'Mochilas para laptop hasta 17 pulgadas', legacyCategory: 'accessories' },
   { path: 'computo/perifericos/teclados/gaming/mecanicos/full-size-rgb', name: 'Teclados gaming mecanicos full-size RGB', legacyCategory: 'gaming' },
   { path: 'seguridad/cctv/dvr-nvr/xvr-pentahibrido/4-canales-1080p-lite', name: 'XVR pentahibridos 4 canales 1080P Lite', legacyCategory: 'cameras' },

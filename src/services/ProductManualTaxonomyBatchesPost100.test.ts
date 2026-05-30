@@ -481,6 +481,16 @@ const researchedBatchCases = [
   ["Monitor BenQ GW2791 27 pulgadas IPS Full HD 100Hz Eye-Care", "BENQ", "computo/monitores/oficina/27-fhd-100hz"],
   ["Proyector BenQ LW550 LED DLP WXGA 3000 lumenes HDMI", "BENQ", "video/proyectores/dlp/wxga-3000-lumenes"],
   ["UPS No Break VICA Beta Interactive 1.5K 1500VA 900W rack torre", "VICA", "energia/no-breaks-ups/line-interactive/rack-torre/1500va"],
+  ["Funda Brobotix 406078 uso rudo 360 para Lenovo Tab K10 TB311FU 11 pulgadas", "BROBOTIX", "computo/tabletas/accesorios/fundas-uso-rudo/lenovo-tab-k10-11"],
+  ["Motherboard ASUS PRIME B550M-A AC micro ATX AM4 DDR4 WiFi AC", "ASUS", "computo/componentes/tarjetas-madre/amd-am4/b550m-wifi-ac"],
+  ["Motherboard ASUS PRIME H510M-K R2.0 micro ATX LGA1200 DDR4", "ASUS", "computo/componentes/tarjetas-madre/intel-lga1200/h510m"],
+  ["Camara IP IMOU Cruiser SE Plus IPC-K7CN-3H1WE WiFi 6 PT 3MP exterior", "IMOU", "seguridad/cctv/camaras-ip-wifi/pt-exterior/3mp-2k"],
+  ["Cajon de dinero Hostech HT-300 metalico negro RJ12 4 billetes 8 monedas", "HOSTECH", "punto-de-venta/cajones-dinero/metalicos/rj11/4-billetes-8-monedas"],
+  ["Monitor Naceb Gaming NA-0653 LED IPS 23.8 pulgadas Full HD 100Hz", "NACEB GAMING", "computo/monitores/oficina/24-fhd-100hz"],
+  ["Audifonos Logitech Zone Vibe 100 981-001214 Bluetooth diadema negros", "LOGITECH", "audio/audifonos/bluetooth/diadema-on-ear"],
+  ["Camara PTZ UNV IPC6434LR-X16-VG1 LightHunter 4MP 16x IR 100m", "UNV", "seguridad/cctv/camaras-ip-poe/ptz/4mp-16x-lighthunter"],
+  ["Fuente de poder Naceb Gaming NA-0627 ATX 1000W 80 PLUS Gold modular", "NACEB GAMING", "computo/componentes/fuentes-poder/atx-80-plus-gold/1000w"],
+  ["Microsoft 365 Business Standard licencia comercial anual por usuario CFQ7TTC0LDPBP1YM", "MICROSOFT", "software/productividad-oficina/microsoft-365/business-standard"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
