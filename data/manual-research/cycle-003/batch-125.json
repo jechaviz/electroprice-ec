@@ -1,0 +1,499 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b125-2026-05-30",
+  "cycle": 3,
+  "batch": 125,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "uajxf0uwhu53dgu",
+      "research": {
+        "confidence": 0.91,
+        "name": "Laptop HP 255R G10 15.6 FHD Ryzen 3 7335U 8GB 512GB Windows 11 Home",
+        "description": "Laptop HP 255R G10 de 15.6 pulgadas FHD con procesador AMD Ryzen 3 7335U, graficos Radeon 660M integrados, 8 GB DDR5, SSD NVMe de 512 GB y Windows 11 Home.",
+        "manualCategoryPath": "computo/laptops/empresariales/15-6-pulgadas/hp-255r",
+        "semanticCategoryPath": "computo/laptops/empresariales/15-6-pulgadas/hp-255r/ryzen-3-7335u",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c09076289",
+        "gallery": [
+          "https://www.hp.com/it-it/shop/media/catalog/product/f/b/fb7b785a-e960-4fab-ab03-24d087c9e46c.png?auto=avif&bg-color=ffffff&fit=bounds&format=jpg&image-type=image&quality=100&store=it-it&type=image-product&width=960",
+          "https://static.ctonline.mx/imagenes/COMHPI4170/COMHPI4170_full.jpg"
+        ],
+        "documents": [
+          { "label": "HP 255R G10 official datasheet", "type": "manufacturer", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c09076289" },
+          { "label": "HP 255R G10 product specifications", "type": "manufacturer", "url": "https://www.hp.com/cz-cs/products/laptops/product-details/product-specifications/2103459670" },
+          { "label": "HP 255R G10 shop image cross-check", "type": "manufacturer", "url": "https://www.hp.com/it-it/shop/products/laptops/hp-255r-15-6-inch-g10-notebook-pc-d5he4at-abz" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "255R G10",
+          "aliases": ["HP 255R G10", "HP 255r G10", "HP 255R 15.6 inch G10 Notebook PC"],
+          "providerSku": "COMHPI4170",
+          "upc": "199642203006",
+          "productType": "Laptop",
+          "screenSize": "15.6 pulgadas",
+          "display": "FHD 1920 x 1080, antirreflejante, 250 nits, 45% NTSC, no tactil",
+          "processor": "AMD Ryzen 3 7335U, 4 nucleos, 8 hilos, hasta 4.3 GHz, 8 MB L3",
+          "graphics": "AMD Radeon 660M integrada",
+          "memory": "8 GB DDR5-4800, 1 x 8 GB, 2 ranuras SODIMM",
+          "storage": "512 GB PCIe NVMe SSD",
+          "operatingSystem": "Windows 11 Home",
+          "wireless": "Wi-Fi 6 Realtek RTL8852BE-VT 2x2 y Bluetooth 5.4",
+          "ports": ["USB-C 10Gbps con Power Delivery y DisplayPort 1.4", "2 USB-A 5Gbps", "HDMI 1.4b", "Combo audio", "Entrada de alimentacion"],
+          "battery": "3 celdas, 41 Wh",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "TXA", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMHPI4170", "stock": 595, "price": 9013.68, "currency": "MXN", "branch": "TXA:4,TXL:2,TPC:1" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["HP has regional CTO/part-number variants for 255R G10; selected specs that match Ryzen 3 7335U, 8 GB, 512 GB and Windows 11 Home.", "Provider branch summary exposes only TXA/TXL/TPC while product total stock is higher; saved as partial branch evidence."]
+        },
+        "measurements": { "dimensions": "359.8 x 236 x 11.7-15.7 mm", "weight": "Desde 1.66 kg" },
+        "sourceRefs": [
+          { "title": "HP 255R G10 official datasheet", "type": "manufacturer", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c09076289" },
+          { "title": "HP 255R G10 official specifications", "type": "manufacturer", "url": "https://www.hp.com/cz-cs/products/laptops/product-details/product-specifications/2103459670" },
+          { "title": "HP Italy 255R G10 image cross-check", "type": "manufacturer", "url": "https://www.hp.com/it-it/shop/products/laptops/hp-255r-15-6-inch-g10-notebook-pc-d5he4at-abz" }
+        ]
+      }
+    },
+    {
+      "product_id": "7kzhkb31dqq64t7",
+      "research": {
+        "confidence": 0.9,
+        "name": "Maletin Brobotix Champion para laptop 15.6 pulgadas negro con asa y correa",
+        "description": "Maletin Brobotix Champion 742767 para laptop de hasta 15.6 pulgadas, color negro, fabricado en nylon, con asa, correa para hombro y compartimentos para equipo y accesorios.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/15-6",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/15-6/brobotix-742767",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/maletin-brobotix-742767/",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/Maletn156PulgadasChampionCAsayCorr_742767_EAN7503027963776_0.jpg",
+          "https://resources.sanborns.com.mx/medios-plazavip/t1/172306253201jpg?qlty=75&scale=500",
+          "https://resources.sanborns.com.mx/medios-plazavip/t1/172306239502jpg?qlty=75&scale=500"
+        ],
+        "documents": [
+          { "label": "CompuPuebla Brobotix 742767 product page", "type": "retailer", "url": "https://compupuebla.com/producto/maletin-brobotix-742767/" },
+          { "label": "TiendaClic Brobotix 742767 description", "type": "retailer", "url": "https://www.depot.tiendaclic.mx/ver-detalle/maletin-brobotix-champion-156-pulgadas-negro-brobotix-742767" },
+          { "label": "Sanborns Brobotix 742767 visual cross-check", "type": "retailer", "url": "https://www.sanborns.com.mx/producto/520141/maletin-15-6-pulgadas-champion-c-asa-y-correa-negro-brobotix-742767" }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "742767",
+          "aliases": ["Brobotix 742767", "Maletin Champion 15.6 Brobotix", "MALRBT210"],
+          "providerSku": "MALRBT210",
+          "ean": "7503027963776",
+          "productType": "Maletin para laptop",
+          "caseType": "Bandolera / portafolio",
+          "maxScreenSize": "15.6 pulgadas / 39.6 cm",
+          "compatibleBrand": "Universal",
+          "material": "Nylon",
+          "color": "Negro",
+          "features": ["Asa", "Correa ajustable para hombro", "Compartimento acolchado para laptop", "Compartimento frontal para archivos y accesorios"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 180 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 146 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 63 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 49 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 7 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALRBT210", "stock": 593, "price": 7.12, "currency": "MXN", "branch": "D2A:180,DFA:146,GDL:63,CMT:49,CHI:10,ACA:10,HMO:9,SLP:9,CTZ:9,PUE:8,MTY:8,ZAC:7" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Sanborns is used only as a visual/descriptive cross-check because the strongest EAN/SKU match is CompuPuebla.", "Open sources did not provide reliable external dimensions or weight."]
+        },
+        "measurements": { "notes": "No reliable public dimensions or weight found for Brobotix 742767." },
+        "sourceRefs": [
+          { "title": "CompuPuebla Brobotix 742767 specs", "type": "retailer", "url": "https://compupuebla.com/producto/maletin-brobotix-742767/" },
+          { "title": "TiendaClic Brobotix 742767 descriptive cross-check", "type": "retailer", "url": "https://www.depot.tiendaclic.mx/ver-detalle/maletin-brobotix-champion-156-pulgadas-negro-brobotix-742767" },
+          { "title": "Sanborns Brobotix 742767 images", "type": "retailer", "url": "https://www.sanborns.com.mx/producto/520141/maletin-15-6-pulgadas-champion-c-asa-y-correa-negro-brobotix-742767" }
+        ]
+      }
+    },
+    {
+      "product_id": "r3cj12v1tqj8fbp",
+      "research": {
+        "confidence": 0.95,
+        "name": "Memoria USB SanDisk Ultra Shift 64GB USB 3.0 negra",
+        "description": "Unidad flash USB-A SanDisk Ultra Shift SDCZ410-064G-G46 de 64 GB color negro, interfaz USB 3.0/USB 3.2 Gen 1 y lectura secuencial de hasta 100 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/usb-3",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/usb-3/sandisk-ultra-shift",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb?sku=SDCZ410-064G-G46",
+        "gallery": [
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/ultra-shift-usb-3-2/gallery/ultra-shift-usb-3-2-black-front.png.wdthumb.1280.1280.png",
+          "https://www.sandisk.com/content/dam/store/en-us/assets/products/usb-flash-drives/ultra-shift-usb-3-2/gallery/ultra-shift-usb-3-2-black-front.png.wdthumb.319.319.webp",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10334433"
+        ],
+        "documents": [
+          { "label": "SanDisk Ultra Shift official product page", "type": "manufacturer", "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb?sku=SDCZ410-064G-G46" },
+          { "label": "SanDisk Ultra Shift USB 3.0 data sheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/ultra-shift-usb-3-0/data-sheet-ultra-shift-usb-3-0.pdf" }
+        ],
+        "specs": {
+          "brand": "SanDisk",
+          "model": "SDCZ410-064G-G46",
+          "aliases": ["SanDisk Ultra Shift 64GB", "SDCZ410 064G G46", "RAM-3846"],
+          "providerSku": "RAM-3846",
+          "capacity": "64 GB",
+          "productType": "Memoria USB",
+          "interface": "USB 3.0 / USB 3.2 Gen 1, compatible con USB 2.0",
+          "sequentialRead": "Hasta 100 MB/s",
+          "color": "Negro",
+          "software": "SanDisk SecureAccess descargable para proteccion con contrasena",
+          "compatibility": ["Windows 10+", "macOS 12+"],
+          "warranty": "5 anos limitada",
+          "operatingTemperature": "0 a 45 C",
+          "storageTemperature": "-10 a 70 C",
+          "providerOffers": [{ "providerId": "ctonline", "stock": 591, "price": 6.39, "currency": "MXN" }, { "providerId": "cva", "providerSku": "RAM-3846", "stock": 1, "price": 6.39, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Some provider text says USB 3.0 while SanDisk currently markets the same SKU family as USB 3.2 Gen 1; both refer to the 5Gbps generation.", "Manufacturer page HTML has an inconsistent dimension unit in one rendered line; datasheet/product image confirm the compact USB-A form."]
+        },
+        "measurements": { "dimensions": "41.50 x 17.60 x 7.40 mm", "weight": "3 g" },
+        "sourceRefs": [
+          { "title": "SanDisk Ultra Shift official page by SKU", "type": "manufacturer", "url": "https://www.sandisk.com/products/usb-flash-drives/sandisk-ultra-shift-usb?sku=SDCZ410-064G-G46" },
+          { "title": "SanDisk Ultra Shift USB 3.0 datasheet", "type": "datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/usb-flash/ultra-shift-usb-3-0/data-sheet-ultra-shift-usb-3-0.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "91ffvw3u6s67nfu",
+      "research": {
+        "confidence": 0.88,
+        "name": "No break CDP R-UPR508 interactivo 500VA/250W 8 contactos AVR",
+        "description": "UPS/no break interactivo CDP R-UPR508 de 500 VA/250 W con regulador AVR, supresion de picos y 8 contactos NEMA 5-15R para respaldo y proteccion de equipos de oficina y computo.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/500va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/500va/cdp-r-upr508",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/104-CATALOGO%20R-UPR508.pdf",
+        "gallery": [
+          "https://cdn.tvc.mx/media/168773/CDP-RUPR508-UPS-Supresor-De-Picos-500Va-250W-4.png",
+          "https://cdn.tvc.mx/media/1552564/htygfkj.png",
+          "https://inter-ds.com/cdn/shop/files/nobreak-ups-marca-cdp-modelo-r-upr508-500va-250w-8-contactos-335_large.jpg?v=1708042548"
+        ],
+        "documents": [
+          { "label": "CDP R-UPR508 catalog", "type": "datasheet", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/104-CATALOGO%20R-UPR508.pdf" },
+          { "label": "CDP R-UPR508 user manual", "type": "manual", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Manuals/345-Manual%20de%20Usuario%20R-UPR%20508%20758%201008%20120V%20SPA.pdf" },
+          { "label": "TVC CDP R-UPR508 current listing", "type": "retailer", "url": "https://tvc.mx/products/8074/cdp-r-upr508-ups-500-va-250w-8-terminales-de-salida" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "R-UPR508",
+          "aliases": ["CDP R-UPR508", "R UPR508", "FR-1081"],
+          "providerSku": "FR-1081",
+          "productType": "UPS / No break",
+          "topology": "Linea interactiva con AVR",
+          "capacity": "500 VA / 250 W",
+          "inputVoltage": "120 Vca, rango 80-145 Vca",
+          "frequency": "50/60 Hz automatico",
+          "outlets": "8 NEMA 5-15R, 4 con respaldo/AVR y 4 con supresion de picos",
+          "waveform": "Onda senoidal simulada",
+          "transferTime": "2-4 ms tipico",
+          "battery": "12 V; fuentes actuales citan 4.5 Ah y manual antiguo cita 7 Ah",
+          "rechargeTime": "4 h al 90%",
+          "runtime": "Aprox. 10 min con 1 PC en ficha TVC; manual antiguo cita hasta 30 min segun carga",
+          "surgeProtection": "300 J",
+          "protections": ["Sobrecarga", "Sobredescarga", "Cortocircuito", "Breaker", "Supresion de picos"],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 578, "price": 815.22, "currency": "MXN" }, { "providerId": "cva", "providerSku": "FR-1081", "stock": 8, "price": 815.22, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Capacity, topology and 8 outlets are consistent across CDP/TVC/retail sources.", "Battery amp-hour, runtime and weight vary between old manual and current reseller sheets, so those fields are stored with variation notes."]
+        },
+        "measurements": { "dimensions": "300 x 95 x 140 mm", "weight": "3.55 kg segun TVC; 3.8 kg in some retail sheets" },
+        "sourceRefs": [
+          { "title": "CDP R-UPR508 catalog PDF", "type": "datasheet", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/104-CATALOGO%20R-UPR508.pdf" },
+          { "title": "CDP R-UPR508 user manual", "type": "manual", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Manuals/345-Manual%20de%20Usuario%20R-UPR%20508%20758%201008%20120V%20SPA.pdf" },
+          { "title": "TVC CDP R-UPR508 listing", "type": "retailer", "url": "https://tvc.mx/products/8074/cdp-r-upr508-ups-500-va-250w-8-terminales-de-salida" },
+          { "title": "Inter-DS CDP R-UPR508 retail cross-check", "type": "retailer", "url": "https://inter-ds.com/products/nobreak-ups-marca-cdp-mod-r-upr508-500va-250w-8-cont-regulador-bateri" }
+        ]
+      }
+    },
+    {
+      "product_id": "iolt9zavrxtag5n",
+      "research": {
+        "confidence": 0.96,
+        "name": "SSD Kingston NV3 500GB M.2 2280 NVMe PCIe 4.0",
+        "description": "Unidad de estado solido Kingston NV3 SNV3S/500G de 500 GB, formato M.2 2280, interfaz PCIe 4.0 x4 NVMe, lectura secuencial hasta 5000 MB/s y escritura hasta 3000 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/500gb-gen4",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/500gb-gen4/kingston-nv3",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/unitedkingdom/en/ssd/nv3-nvme-pcie-ssd?capacity=500gb",
+        "gallery": [
+          "https://www.kingstonstore.com.br/cdn/shop/files/NV35001.jpg?v=1724102961&width=416",
+          "https://www.kingstonstore.com.br/cdn/shop/files/NV35002.jpg?v=1724102961&width=416",
+          "https://www.kingstonstore.com.br/cdn/shop/files/NV35003.jpg?v=1724102961&width=416",
+          "https://www.kingstonstore.com.br/cdn/shop/files/NV3rear_3c58e295-3847-4116-a155-ec296323cd7a.jpg?v=1724102961&width=416"
+        ],
+        "documents": [
+          { "label": "Kingston NV3 official product page", "type": "manufacturer", "url": "https://www.kingston.com/unitedkingdom/en/ssd/nv3-nvme-pcie-ssd?capacity=500gb" },
+          { "label": "Kingston NV3 datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/snv3s_en.pdf" },
+          { "label": "B&H Kingston SNV3S/500G UPC cross-check", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1850030-REG/kingston_snv3s_500g_500gb_nv3_m_2_2280.html/overview" }
+        ],
+        "specs": {
+          "brand": "Kingston",
+          "model": "SNV3S/500G",
+          "series": "NV3",
+          "aliases": ["Kingston NV3 500GB", "SNV3S 500G", "DDUKGT2410"],
+          "providerSku": "DDUKGT2410",
+          "upc": "740617344806",
+          "capacity": "500 GB",
+          "productType": "SSD M.2 NVMe",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe 4.0 x4 NVMe",
+          "nand": "3D NAND",
+          "sequentialRead": "Hasta 5000 MB/s",
+          "sequentialWrite": "Hasta 3000 MB/s",
+          "endurance": "160 TBW",
+          "mtbf": "2,000,000 horas",
+          "operatingTemperature": "0 a 70 C",
+          "warranty": "5 anos limitada",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CMT", "stock": 117 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 105 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 36 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 11 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUKGT2410", "stock": 586, "price": 86.39, "currency": "MXN", "branch": "CMT:117,DFA:105,TAM:36,CHI:32,MID:32,VER:20,MAZ:19,AGS:18,CUN:17,D2A:14,VHA:13,QRO:11" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Kingston page and datasheet confirm 5000/3000 MB/s for 500GB; provider data matches model family but uses internal substitute SKU DDUKGT2410."]
+        },
+        "measurements": { "dimensions": "22 x 80 x 2.3 mm", "weight": "7 g" },
+        "sourceRefs": [
+          { "title": "Kingston NV3 official 500GB page", "type": "manufacturer", "url": "https://www.kingston.com/unitedkingdom/en/ssd/nv3-nvme-pcie-ssd?capacity=500gb" },
+          { "title": "Kingston NV3 datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/snv3s_en.pdf" },
+          { "title": "B&H Kingston SNV3S/500G UPC cross-check", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1850030-REG/kingston_snv3s_500g_500gb_nv3_m_2_2280.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "ie6zdfumehgotak",
+      "research": {
+        "confidence": 0.88,
+        "name": "Toallas humedas Silimex CompuToallas para limpieza de electronicos bote 30 piezas",
+        "description": "Bote con 30 toallas humedas Silimex CompuToallas para limpieza externa de equipos electronicos, computo, pantallas, gabinetes, teclados, impresoras y equipos de oficina.",
+        "manualCategoryPath": "computo/accesorios/limpieza/toallas-limpiadoras",
+        "semanticCategoryPath": "computo/accesorios/limpieza/toallas-limpiadoras/silimex-computoallas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://sily.mx/products/toallas-humedas-silimex-computoallas-limpieza-de-equipos-electronicos-bote-30-piezas",
+        "gallery": [
+          "https://sily.mx/cdn/shop/products/COMPUTOALLAS-h_a001ac9b-9666-41ad-96c9-f5c141cb007a.png?v=1654720372&width=2048",
+          "https://sily.mx/cdn/shop/files/COMPUTOALLAS-AD-1-l-Photoroom.jpg?v=1738777322&width=2048",
+          "https://ofixmx.vtexassets.com/arquivos/ids/165135-800-auto?aspect=true&height=auto&v=638417592270970000&width=800"
+        ],
+        "documents": [
+          { "label": "Sily Silimex Computoallas product page", "type": "manufacturer", "url": "https://sily.mx/products/toallas-humedas-silimex-computoallas-limpieza-de-equipos-electronicos-bote-30-piezas" },
+          { "label": "Silimex Computoallas technical sheet", "type": "datasheet", "url": "https://uelectronics.com/wp-content/uploads/2025/07/FICHA-TECNICA-SILIMEX-COMPUTOALLAS.pdf" },
+          { "label": "Syscom Silimex Computoallas label", "type": "datasheet", "url": "https://www.syscom.mx/ajax/etiqueta_producto_pdf.php?dest=D&id=160988" }
+        ],
+        "specs": {
+          "brand": "Silimex",
+          "model": "COMPUTOALLAS",
+          "aliases": ["Silimex Computoallas", "SLXLMP130", "Toallas humedas Silimex"],
+          "providerSku": "SLXLMP130",
+          "ean": "7503002196724",
+          "content": "Bote con 30 toallas humedas",
+          "productType": "Toallas limpiadoras",
+          "use": "Limpieza externa de equipos y componentes electronicos",
+          "suitableFor": ["Gabinetes", "Teclados", "Pantallas LCD/LED/plasma", "Smartphones", "Impresoras", "Copiadoras", "Audio", "Video", "Telefonia"],
+          "reportedProperties": ["Efecto antiestatico", "No deja residuo", "Menor evaporacion", "Limpieza profunda"],
+          "appearance": "Toallas humedas blancas",
+          "storage": "Almacenar en lugar fresco, no mayor a 50 C",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 45 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 34 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 20 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 19 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SLXLMP130", "stock": 581, "price": 42.37, "currency": "MXN", "branch": "CTZ:50,HMO:45,VHA:34,XLP:32,QRO:30,TXA:30,OAX:30,MID:28,TOL:28,SLP:20,SLT:20,ACA:19" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["EAN/model/content match across provider and retail evidence.", "Reliable public dimensions and product weight were not found."]
+        },
+        "measurements": { "notes": "No reliable dimensions or weight found in open sources." },
+        "sourceRefs": [
+          { "title": "Sily Silimex Computoallas product page", "type": "manufacturer", "url": "https://sily.mx/products/toallas-humedas-silimex-computoallas-limpieza-de-equipos-electronicos-bote-30-piezas" },
+          { "title": "Silimex Computoallas technical sheet", "type": "datasheet", "url": "https://uelectronics.com/wp-content/uploads/2025/07/FICHA-TECNICA-SILIMEX-COMPUTOALLAS.pdf" },
+          { "title": "Ofix Silimex Computoallas retail cross-check", "type": "retailer", "url": "https://www.ofix.mx/toallas-antiestaticas-para-computo-c-30-pzas---silimex-computoallas/p" }
+        ]
+      }
+    },
+    {
+      "product_id": "3ooqdfz97keygb3",
+      "research": {
+        "confidence": 0.93,
+        "name": "Botella de tinta Canon GI-190 Cian 70 ml para MegaTank",
+        "description": "Botella de tinta original Canon GI-190 C color cian de 70 ml para impresoras Canon MegaTank PIXMA G1100/G2100/G3100/G4100 y variantes regionales compatibles.",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta-megatank/canon-gi190/cian",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta-megatank/canon-gi190/cian/canon-gi190c",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/botella-de-tinta-gi-190-cian",
+        "gallery": [
+          "https://s7d1.scene7.com/is/image/canon/0668C001_gi-190-cyan_primary?wid=730",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-CANON-0668C001-e1361e.jpg",
+          "https://static.ctonline.mx/imagenes/CARCNN4710/CARCNN4710_full.jpg"
+        ],
+        "documents": [
+          { "label": "Canon Mexico GI-190 Cian product page", "type": "manufacturer", "url": "https://www.tiendacanon.com.mx/es_mx/p/botella-de-tinta-gi-190-cian" },
+          { "label": "Canon GI-190 MegaTank brochure", "type": "datasheet", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/778_Brochure_1064157104_1P-min.pdf" },
+          { "label": "Canon GI-190C retailer dimensions cross-check", "type": "retailer", "url": "https://alcaplus.cl/canon-tinta-gi-190-cyan-0668c001/" }
+        ],
+        "specs": {
+          "brand": "Canon",
+          "model": "GI-190 C",
+          "manufacturerSku": "0668C001",
+          "aliases": ["Canon GI-190 C", "Canon GI-190 Cyan", "CARCNN4710"],
+          "providerSku": "CARCNN4710",
+          "ean": "4549292041828",
+          "upc": "013803258998",
+          "productType": "Botella de tinta",
+          "inkColor": "Cian",
+          "capacity": "70 ml",
+          "yield": "Hasta 7000 paginas a color, segun familia MegaTank y cobertura declarada por Canon",
+          "compatibility": ["Canon PIXMA G1100", "Canon PIXMA G1110", "Canon PIXMA G2100", "Canon PIXMA G2110", "Canon PIXMA G2111", "Canon PIXMA G3100", "Canon PIXMA G3110", "Canon PIXMA G3111", "Canon PIXMA G4100", "Canon PIXMA G4110", "Canon PIXMA G4111"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 205 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 61 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 30 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 8 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CARCNN4710", "stock": 577, "price": 211.95, "currency": "MXN", "branch": "DFA:205,GDL:61,CMT:30,MOR:15,MTY:14,OAX:14,TXL:11,QRO:10,PUE:9,ZAC:9,CEL:9,CHI:8" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Canon source confirms color, SKU family and compatibility; dimensions/weight are retained as provider approximate only."]
+        },
+        "measurements": { "dimensions": "Aprox. 50 x 80 x 50 mm segun proveedor", "weight": "Aprox. 0.06 kg segun proveedor" },
+        "sourceRefs": [
+          { "title": "Canon Mexico GI-190 Cian product page", "type": "manufacturer", "url": "https://www.tiendacanon.com.mx/es_mx/p/botella-de-tinta-gi-190-cian" },
+          { "title": "Canon GI-190 MegaTank brochure", "type": "datasheet", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/778_Brochure_1064157104_1P-min.pdf" },
+          { "title": "Alcaplus Canon GI-190 Cyan dimensions cross-check", "type": "retailer", "url": "https://alcaplus.cl/canon-tinta-gi-190-cyan-0668c001/" }
+        ]
+      }
+    },
+    {
+      "product_id": "n43ksxgr9kf55ld",
+      "research": {
+        "confidence": 0.94,
+        "name": "Cable de extension USB-A Manhattan 317238 macho a hembra 3 m gris",
+        "description": "Cable Manhattan 317238 de extension USB-A macho a USB-A hembra, longitud 3 m, color gris, para extender conexiones USB Full-Speed/USB 1.1. La referencia 3.0 corresponde a metros, no a USB 3.0.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/3m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/3m/manhattan-317238",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-de-alta-velocidad-317238",
+        "gallery": [
+          "https://d4zz7sav6ye2y.cloudfront.net/catalog/img/items/cached/0089b_img.jpg",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1736696"
+        ],
+        "documents": [
+          { "label": "Manhattan 317238 Mexico product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-de-alta-velocidad-317238" },
+          { "label": "Manhattan 317238 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63560/317238_datasheet_english.pdf" },
+          { "label": "TiendaClic Manhattan 317238 cross-check", "type": "retailer", "url": "https://www.tiendaclic.mx/ver-detalle/cable-usb-11-extension-manhattan-30-mts-tipo-a-macho-a-hembra-gris-manhattan-317238" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "317238",
+          "aliases": ["Manhattan 317238", "CB-202", "Cable USB 1.1 extension 3.0 mts"],
+          "providerSku": "CB-202",
+          "upc": "0766623317238",
+          "ean": "766623317238",
+          "productType": "Cable de extension USB",
+          "length": "3 m / 10 ft",
+          "connectors": ["USB-A macho", "USB-A hembra"],
+          "standard": "USB 1.1 / Full-Speed",
+          "dataRate": "Hasta 12 Mbps",
+          "color": "Gris",
+          "cableGauge": "28 AWG",
+          "shielding": "Blindado",
+          "contacts": "Niquelados",
+          "jacket": "PVC",
+          "providerOffers": [{ "providerId": "ctonline", "stock": 564, "price": 2.01, "currency": "MXN" }, { "providerId": "cva", "providerSku": "CB-202", "stock": 13, "price": 2.01, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["The provider title uses 3.0M as length; manufacturer data confirms this is not a USB 3.0/SuperSpeed cable.", "Some market pages call it hi-speed generically, but Manhattan datasheet identifies Full-Speed USB extension for part 317238."]
+        },
+        "measurements": { "length": "3 m", "weight": "0.08 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan 317238 Mexico product page", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-cable-de-extension-usb-de-alta-velocidad-317238" },
+          { "title": "Manhattan 317238 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/63560/317238_datasheet_english.pdf" },
+          { "title": "TiendaClic Manhattan 317238 USB 1.1 extension listing", "type": "retailer", "url": "https://www.tiendaclic.mx/ver-detalle/cable-usb-11-extension-manhattan-30-mts-tipo-a-macho-a-hembra-gris-manhattan-317238" }
+        ]
+      }
+    },
+    {
+      "product_id": "njpctugmgrtiqaj",
+      "research": {
+        "confidence": 0.95,
+        "name": "Cinta Epson S015631 negra para impresora matriz LX-350 LX-300+II LX-300+",
+        "description": "Cartucho de cinta de tela negra Epson S015631 para impresoras matriciales Epson LX-350, LX-300+II y LX-300+, con rendimiento aproximado de 4 millones de caracteres.",
+        "manualCategoryPath": "impresion/consumibles/cintas-matriz-punto/epson-lx-350",
+        "semanticCategoryPath": "impresion/consumibles/cintas-matriz-punto/epson-lx-350/s015631",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/Accessories/Printer-Accessories/Ribbon-Cartridge---S015631/p/S015631",
+        "gallery": [
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=SIDM-ribbon-generic_icon_690x460&clid=SAPDAM&id=5d813a7f774057e00fb355363f1fbcb7706d9877&prclid=banner&prid=1200Wx1200H&vid=5d813a7f774057e00fb355363f1fbcb7706d9877",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=SIDM-ribbon-generic_icon_690x460&clid=SAPDAM&id=5d813a7f774057e00fb355363f1fbcb7706d9877&prclid=productpictures&prid=300Wx300H&vid=5d813a7f774057e00fb355363f1fbcb7706d9877",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9488835"
+        ],
+        "documents": [
+          { "label": "Epson S015631 official product page", "type": "manufacturer", "url": "https://epson.com/Accessories/Printer-Accessories/Ribbon-Cartridge---S015631/p/S015631" },
+          { "label": "Epson LX-350 specifications", "type": "datasheet", "url": "https://files.support.epson.com/pdf/lx350_/lx350_spec.pdf" },
+          { "label": "Epson LX-350 ribbon replacement guide", "type": "manual", "url": "https://files.support.epson.com/htmldocs/lx350_/lx350_ug/html/optn_2.htm" }
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "S015631",
+          "aliases": ["Epson S015631", "CN-2285", "Cinta Epson LX-350"],
+          "providerSku": "CN-2285",
+          "productType": "Cartucho de cinta para impresora matriz",
+          "color": "Negro",
+          "material": "Cinta de tela",
+          "printTechnology": "Matriz de punto / impacto 9 pines",
+          "yield": "Hasta 4 millones de caracteres a 14 puntos/caracter",
+          "compatibility": ["Epson LX-350", "Epson LX-300+II", "Epson LX-300+"],
+          "providerOffers": [{ "providerId": "ctonline", "stock": 574, "price": 108.97, "currency": "MXN" }, { "providerId": "cva", "providerSku": "CN-2285", "stock": 0, "price": 108.97, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Epson confirms S015631 for LX-350 and its spec sheet states backward compatibility with LX-300+II/LX-300+.", "Do not generalize to older LX-300 variants without checking regional ribbon compatibility."]
+        },
+        "measurements": { "packageDimensions": "13.2 x 3.1 x 1.0 in from retail cross-check", "packageWeight": "0.25 lb from retail cross-check" },
+        "sourceRefs": [
+          { "title": "Epson S015631 official page", "type": "manufacturer", "url": "https://epson.com/Accessories/Printer-Accessories/Ribbon-Cartridge---S015631/p/S015631" },
+          { "title": "Epson LX-350 specification PDF", "type": "datasheet", "url": "https://files.support.epson.com/pdf/lx350_/lx350_spec.pdf" },
+          { "title": "Epson LX-350 ribbon replacement guide", "type": "manual", "url": "https://files.support.epson.com/htmldocs/lx350_/lx350_ug/html/optn_2.htm" },
+          { "title": "B&H Epson S015631 retail specs", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1088543-REG/epson_s015631_black_fabric_ribbon.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "vpxg5xlbqbb1i00",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Western Digital",
+        "name": "SSD WD Green SN350 500GB M.2 2280 NVMe PCIe 3.0 WDS500G2G0C",
+        "description": "SSD interno WD Green SN350 WDS500G2G0C de 500 GB, formato M.2 2280, interfaz PCIe Gen3 x4 NVMe v1.3, lectura secuencial hasta 2400 MB/s y escritura hasta 1500 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/500gb-gen3",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/500gb-gen3/wd-green-sn350",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS500G2G0C-00CDH0",
+        "gallery": [
+          "https://www.unicom.mx/ecommerce/uploads/LTSSDWDS500G2G0C.jpg",
+          "https://cdn.cs.1worldsync.com/syndication/feeds/wd/inline-content/97/BF76244FEDC941D45ED79292637DC1537793AF6EWDGREENSN350NVMESSD500GBHEROw400hero.png",
+          "https://static.ctonline.mx/imagenes/DDUWSD2240/DDUWSD2240_1_full.jpg"
+        ],
+        "documents": [
+          { "label": "SanDisk/WD Green SN350 official product page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS500G2G0C-00CDH0" },
+          { "label": "WD Green SN350 product brief", "type": "datasheet", "url": "https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/internal-drives/wd-green-ssd/product-brief-wd-green-sn350-nvme-ssd.pdf" },
+          { "label": "Barcode/UPC cross-check WDS500G2G0C", "type": "retailer", "url": "https://barcodeindex.com/upc/718037880099" }
+        ],
+        "specs": {
+          "brand": "Western Digital",
+          "model": "WDS500G2G0C",
+          "series": "WD Green SN350",
+          "aliases": ["WD Green SN350 500GB", "WDS500G2G0C-00CDH0", "DDUWSD2240", "SanDisk WDS500G2G0C"],
+          "providerSku": "DDUWSD2240",
+          "upc": "718037880099",
+          "capacity": "500 GB",
+          "productType": "SSD M.2 NVMe",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe Gen3 x4, NVMe v1.3",
+          "nand": "TLC",
+          "sequentialRead": "Hasta 2400 MB/s",
+          "sequentialWrite": "Hasta 1500 MB/s",
+          "randomRead": "300K IOPS",
+          "randomWrite": "300K IOPS",
+          "endurance": "60 TBW",
+          "warranty": "3 anos limitada o limite TBW",
+          "compatibility": "PC o laptop con ranura M.2 2280 NVMe",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 481 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUWSD2240", "stock": 574, "price": 84.09, "currency": "MXN", "branch": "D2A:481,MAZ:22,CUE:19,DFA:19,MID:7,HMO:6,MOR:6,XLP:5,GDL:3,CUN:3,CMT:3" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider brand was normalized as SanDisk because WD/SanDisk share corporate catalog assets; UPC and model identify this as Western Digital WD Green SN350.", "Some sources list weight as 7.5 g and current SanDisk page as 8.5 g; both are lightweight M.2 drive figures."]
+        },
+        "measurements": { "dimensions": "80 x 22 x 2.38 mm / 3.16 x 0.87 x 0.09 in", "weight": "7.5-8.5 g depending source" },
+        "sourceRefs": [
+          { "title": "SanDisk/WD Green SN350 official page", "type": "manufacturer", "url": "https://www.sandisk.com/products/ssd/internal-ssd/wd-green-sn350-nvme-ssd?sku=WDS500G2G0C-00CDH0" },
+          { "title": "WD Green SN350 product brief", "type": "datasheet", "url": "https://documents.westerndigital.com/content/dam/doc-library/en_us/assets/public/western-digital/product/internal-drives/wd-green-ssd/product-brief-wd-green-sn350-nvme-ssd.pdf" },
+          { "title": "Global Office WDS500G2G0C cross-check", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/estado-solido-ssd/ssd-wd-sn350-500gb-nvme-500gb-m2-1500-mbs-escrit/wds500g2g0c" }
+        ]
+      }
+    }
+  ]
+}

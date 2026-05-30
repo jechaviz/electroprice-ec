@@ -232,6 +232,16 @@ const researchedBatchCases = [
   ["Plantronics Voyager 5200 UC auricular Bluetooth monoaural", "PLANTRONICS", "audio/audifonos/bluetooth/monoaurales-uc"],
   ["Acteck GI215 gabinete micro tower Micro ATX Mini ITX negro", "ACTECK", "computo/componentes/gabinetes/micro-tower/micro-atx-itx"],
   ["Vorago CLN-300 aire comprimido 660 ml removedor de polvo", "VORAGO", "computo/accesorios/limpieza/aire-comprimido/660ml"],
+  ["HP 255R G10 laptop 15.6 FHD Ryzen 3 7335U 8GB 512GB Windows 11 Home", "HP", "computo/laptops/empresariales/15-6-pulgadas/hp-255r"],
+  ["Maletin Brobotix Champion 742767 para laptop 15.6 pulgadas negro", "BROBOTIX", "computo/accesorios/mochilas-fundas/maletines-laptop/15-6"],
+  ["SanDisk Ultra Shift SDCZ410-064G-G46 memoria USB 64GB USB 3.0 negra", "SANDISK", "computo/almacenamiento/memorias-flash/usb/64gb/usb-3"],
+  ["CDP R-UPR508 UPS line-interactive 500VA 250W 8 contactos", "CDP", "energia/no-breaks-ups/line-interactive/500va"],
+  ["Kingston NV3 SNV3S/500G SSD 500GB M.2 NVMe PCIe 4.0", "KINGSTON TECHNOLOGY", "computo/almacenamiento/ssd/m2-nvme/500gb-gen4"],
+  ["Silimex COMPUTOALLAS toallas humedas bote 30 piezas", "SILIMEX", "computo/accesorios/limpieza/toallas-limpiadoras"],
+  ["Canon GI-190 C botella tinta cian 70 ml MegaTank", "CANON", "impresion/consumibles/botellas-tinta-megatank/canon-gi190/cian"],
+  ["Manhattan 317238 cable extension USB-A macho a hembra 3 m gris", "MANHATTAN", "accesorios/cables-adaptadores/usb/extensiones/3m"],
+  ["Epson S015631 cinta negra para impresora LX-350 LX-300+II", "EPSON", "impresion/consumibles/cintas-matriz-punto/epson-lx-350"],
+  ["WD Green SN350 WDS500G2G0C SSD 500GB M.2 NVMe PCIe 3.0", "SANDISK", "computo/almacenamiento/ssd/m2-nvme/500gb-gen3"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

@@ -56,7 +56,7 @@ const researchedBatchCases = [
   ["TP-Link Archer TXE70UH adaptador USB Wi-Fi 6E tribanda", "TP-LINK", "redes/adaptadores-wifi/usb"],
   ["Brother TN815Y toner amarillo alto rendimiento 12000 paginas", "BROTHER", "impresion/consumibles/toner-laser"],
   ["Seagate ST2000LM015 BarraCuda disco duro 2TB 2.5 SATA 5400RPM", "SEAGATE", "computo/almacenamiento/discos-duros/2-5-sata"],
-  ["WD Green SN350 WDS500G2G0C SSD 500GB M.2 2280 NVMe PCIe Gen3", "SANDISK", "computo/almacenamiento/ssd/m2-nvme"],
+  ["WD Green SN350 WDS500G2G0C SSD 500GB M.2 2280 NVMe PCIe Gen3", "SANDISK", "computo/almacenamiento/ssd/m2-nvme/500gb-gen3"],
   ["Hikvision DS-2CD3T86G2H-LISU camara bala IP 8MP", "HIKVISION", "seguridad/cctv/camaras-ip-poe/bullet"],
   ["Forza FSI-3011RUL UPS 3000VA 2700W bastidor torre", "FORZA", "energia/no-breaks-ups/rack-torre"],
   ["Manhattan 190329 mouse optico inalambrico USB", "MANHATTAN", "computo/perifericos/mouse/inalambricos"],
