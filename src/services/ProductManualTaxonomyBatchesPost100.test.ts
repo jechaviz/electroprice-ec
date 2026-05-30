@@ -511,6 +511,16 @@ const researchedBatchCases = [
   ["Sistema WiFi mesh TP-Link Deco BE22 2-Pack WiFi 7 BE3600 doble banda", "TP LINK", "redes/routers/mesh-wifi/wifi-7-be3600/2-pack"],
   ["Bitdefender Antivirus Plus TMBD-403 licencia 5 usuarios 1 ano espanol", "BITDEFENDER", "software/seguridad/antivirus/bitdefender-antivirus-plus/5-usuarios-1-ano"],
   ["Organizador de cables vertical Brobotix 6007143 articulado plata ABS acero", "BROBOTIX", "infraestructura/racks-accesorios/organizadores-cable/verticales"],
+  ["Lenovo ThinkPad P14s Gen 5 Intel 14.5 pulgadas mobile workstation Core Ultra", "LENOVO", "computo/laptops/workstations/14-5-pulgadas/lenovo-thinkpad-p14s"],
+  ["SSD interno Quaroni QSSD256 256GB 2.5 SATA III 7mm negro", "QUARONI", "computo/almacenamiento/ssd/2-5-sata/256gb"],
+  ["Power bank magnetico Perfect Choice Magnify PC-241027 10000mAh carga rapida MagSafe 22.5W", "PERFECT CHOICE", "energia/power-banks/magneticos/10000mah-magsafe"],
+  ["Gabinete Acteck Zenith GI656 mini torre blanco Micro-ATX Mini-ITX con fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w"],
+  ["Aire comprimido Sabo 053-300 Duster 590 ml para limpieza electronica", "SABO", "computo/accesorios/limpieza/aire-comprimido/590ml"],
+  ["Hub USB-C Naceb Technology NA-0148 4 en 1 dual HDMI 4K USB 3.0 PD 100W", "NACEB TECHNOLOGY", "computo/accesorios/docks-hubs/usb-c/dual-hdmi-pd-100w"],
+  ["Cargador generico AP-60W para laptop Apple MagSafe 1 60W 16.5V 3.65A blanco", "GENERICO", "computo/accesorios/cargadores-laptop/apple-magsafe-1/60w"],
+  ["Gabinete de pared WAM WC06UR06-A para rack 19 pulgadas 6U negro", "WAM", "infraestructura/racks-enfriamiento/gabinetes-pared/6u"],
+  ["Enfriamiento liquido Gigabyte Gaming 240 ICE GME 240I AIO 240mm blanco ARGB", "GIGABYTE", "computo/componentes/enfriamiento/liquido-cpu/240mm/argb"],
+  ["No break Koblenz 7522-USB 750VA 420W interactivo cuasisenoidal 10 contactos pantalla LCD", "KOBLENZ", "energia/no-breaks-ups/line-interactive/750va/lcd-usb"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
