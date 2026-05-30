@@ -461,6 +461,16 @@ const researchedBatchCases = [
   ["Brobotix 651961 kit de herramientas para laptops y celulares 24 piezas", "BROBOTIX", "computo/accesorios/herramientas-reparacion/kits-laptop-celular"],
   ["Acteck Fusion II GI440 AC-935753 gabinete Micro ATX con fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-fuente-500w"],
   ["WAM CAT5E-GRIS bobina cable UTP Cat5e CCA 305 m gris", "WAM", "redes/cableado-estructurado/bobinas-utp/cat5e/cca-305m"],
+  ["Dell Pro 14 6F1NR laptop 14 FHD+ Ryzen 5 PRO 230 16GB 512GB Windows 11 Pro", "DELL", "computo/laptops/empresariales/14-pulgadas/dell-pro"],
+  ["Stylos STMSDS3B memoria MicroSDHC 32GB Clase 10 UHS-I", "STYLOS", "computo/almacenamiento/memorias-flash/microsd/32gb-clase-10"],
+  ["Balam Rush Tank Expert Curve 7800 gabinete gamer ATX panoramico ARGB", "BALAM RUSH", "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos"],
+  ["Brobotix 102259 cable Molex 4 pines a doble SATA 15 cm", "BROBOTIX", "computo/componentes/cables-internos/alimentacion-sata/molex-a-doble-sata"],
+  ["Manhattan 353465 cople HDMI hembra a hembra 4K negro", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/coples/hembra-hembra"],
+  ["Bitdefender Internet Security TMBD-405 licencia 1 usuario 1 ano", "BITDEFENDER", "software/seguridad/antivirus/bitdefender-internet-security/1-usuario-1-ano"],
+  ["Brobotix 256014 funda neopreno para laptop 14 pulgadas negra", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/14-pulgadas/neopreno"],
+  ["TP-Link Omada EAP668-Outdoor HD access point exterior WiFi 6 AX3600", "TP LINK", "redes/access-points/wifi-6/exterior/ax3600"],
+  ["Naceb Technology NA-0108A base enfriadora para laptop 15 pulgadas azul", "NACEB TECHNOLOGY", "computo/accesorios/bases-enfriadoras/15-pulgadas"],
+  ["Brother TN227BK toner negro original alto rendimiento 3000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-227/negro"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
