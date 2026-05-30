@@ -1,4 +1,12 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/monitores/oficina/19-5-hd', name: 'Monitores de oficina 19.5 pulgadas HD', legacyCategory: 'monitors' },
+  { path: 'computo/laptops/workstations/16-pulgadas/dell-pro-max-16', name: 'Dell Pro Max 16 workstations moviles', legacyCategory: 'laptops' },
+  { path: 'audio/bocinas/inteligentes/alexa/echo-dot-5', name: 'Amazon Echo Dot 5 con Alexa', legacyCategory: 'headphones' },
+  { path: 'computo/componentes/gabinetes/gaming/atx-mid-tower/cristal-templado-rgb', name: 'Gabinetes gamer ATX mid tower con cristal templado RGB', legacyCategory: 'components' },
+  { path: 'redes/switches/poe-administrables/fast-ethernet', name: 'Switches PoE administrables Fast Ethernet', legacyCategory: 'networking' },
+  { path: 'redes/switches/poe-administrables/fast-ethernet/24-puertos', name: 'Switches PoE administrables Fast Ethernet de 24 puertos', legacyCategory: 'networking' },
+  { path: 'impresion/consumibles/etiquetas-papel/termicas-directas/zebra', name: 'Etiquetas termicas directas Zebra', legacyCategory: 'printers_scanners' },
+  { path: 'impresion/consumibles/etiquetas-papel/termicas-directas/zebra/polypro-4000d', name: 'Etiquetas Zebra PolyPro 4000D termicas directas', legacyCategory: 'printers_scanners' },
   { path: 'accesorios/cables-adaptadores/usb/carga-multipuerto', name: 'Cables USB de carga multipuerto', legacyCategory: 'accessories' },
   { path: 'accesorios/cables-adaptadores/usb/carga-multipuerto/5-en-1', name: 'Cables USB de carga multipuerto 5 en 1', legacyCategory: 'accessories' },
   { path: 'computo/tabletas/accesorios/fundas-con-teclado/ipad-pro-11-m4', name: 'Fundas con teclado para iPad Pro 11 M4', legacyCategory: 'accessories' },

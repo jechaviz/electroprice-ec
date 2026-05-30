@@ -1,0 +1,367 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b155-2026-05-30",
+  "cycle": 3,
+  "batch": 155,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "4oxvl9czs2q6der",
+      "research": {
+        "confidence": 0.91,
+        "name": "Switch Netis ST108D no administrable Fast Ethernet 8 puertos 10/100 Mbps",
+        "description": "Switch Netis ST108D no administrable de escritorio con 8 puertos RJ45 10/100 Mbps, arquitectura store-and-forward, control de flujo IEEE 802.3x y operacion plug and play.",
+        "manualCategoryPath": "redes/switches/no-administrables/fast-ethernet/8-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/fast-ethernet/8-puertos/netis-st108d",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.netisru.com/uploads/image/20240519/00a979eef9249a8b61f93dd753f0f538.jpg"],
+        "specs": {
+          "brand": "NETIS",
+          "model": "ST108D",
+          "productType": "Switch no administrable Fast Ethernet",
+          "ports": "8 x RJ45 10/100 Mbps",
+          "standards": ["IEEE 802.3", "IEEE 802.3u", "IEEE 802.3x"],
+          "switchingMethod": "Store-and-forward",
+          "switchingCapacity": "1.6Gbps",
+          "macAddressTable": "2K",
+          "power": "DC 5V/800mA",
+          "plugAndPlay": true,
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 402.",
+          "providerOffers": [{"stock": 402, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "150 x 70 x 22.55 mm", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Netis ST108D product page", "type": "manufacturer_spec", "url": "https://www.netisru.com/business/ST108D.html"},
+          {"title": "Netis ST108D support downloads", "type": "manufacturer_download", "url": "https://www.netis-technology.id/support/downinfo.html?id=34&type=business"},
+          {"title": "Provider stock total 402", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4p4kkfhtj2a4odq",
+      "research": {
+        "confidence": 0.88,
+        "name": "Monitor Quaroni MQ19-03 LED 19.5 pulgadas HD TN 60Hz HDMI VGA negro",
+        "description": "Monitor Quaroni MQ19-03 de 19.5 pulgadas con panel TN, resolucion HD 1366 x 768, frecuencia 60Hz, tiempo de respuesta 5ms y entradas HDMI/VGA.",
+        "manualCategoryPath": "computo/monitores/oficina/19-5-hd",
+        "semanticCategoryPath": "computo/monitores/oficina/19-5-hd/quaroni-mq19-03",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/10450000.jpg"],
+        "specs": {
+          "brand": "QUARONI",
+          "model": "MQ19-03",
+          "productType": "Monitor LED de oficina",
+          "screenSize": "19.5 pulgadas",
+          "panel": "TN",
+          "resolution": "1366 x 768 HD",
+          "refreshRate": "60Hz",
+          "responseTime": "5ms",
+          "brightness": "200 cd/m2",
+          "contrastRatio": "500:1 tipico",
+          "inputs": ["HDMI", "VGA"],
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 20.",
+          "providerOffers": [{"stock": 20, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "46.3 x 34.5 x 17.0 cm con base reportado por retail", "weight": "No encontrado confiable"},
+        "sourceRefs": [
+          {"title": "Global Office Quaroni MQ19-03", "type": "reseller_spec", "url": "https://globaloffice.mx/index.php/app/detalle/producto/monitores/monitor-quaroni-mq19-03-195-pulgadas-tn-hd/mq19-03"},
+          {"title": "CVA Quaroni MQ19-03 ficha", "type": "reseller_pdf", "url": "https://apicvaservices.grupocva.com/api/v2/pdf_service/descarga_ficha/10450000"},
+          {"title": "Cyberpuerta Quaroni MQ19-03", "type": "reseller_spec", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores/Monitor-Quaroni-MQ19-03-LED-19-5-1366x768-HD-60Hz-HDMI-Negro.html"},
+          {"title": "Provider stock total 20", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4pydp1iko91cb2b",
+      "research": {
+        "confidence": 0.93,
+        "name": "Teclado gamer mecanico Ocelot Gaming OK-TKL2 TKL RGB switch rojo USB negro",
+        "description": "Teclado gamer Ocelot Gaming OK-TKL2 mecanico formato TKL de 88 teclas, switches rojos, iluminacion Full RGB, anti-ghosting completo, interfaz USB 2.0 y cable de 1.5 m.",
+        "manualCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/tkl-rgb",
+        "semanticCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/tkl-rgb/ocelot-ok-tkl2",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://ocelot.com.mx/wp-content/uploads/2023/03/thumb_sw_fondo_oscuro_ok_tkl2_1.jpg"],
+        "specs": {
+          "brand": "OCELOT GAMING",
+          "model": "OK-TKL2",
+          "productType": "Teclado gamer mecanico TKL",
+          "keys": 88,
+          "switches": "Rojos",
+          "lighting": "Full RGB",
+          "antiGhosting": "100%",
+          "interface": "USB 2.0",
+          "cableLength": "1.5 m",
+          "material": "ABS",
+          "compatibility": ["Windows", "macOS", "Linux", "Consolas compatibles"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 1.",
+          "providerOffers": [{"stock": 1, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "348 x 120 x 36 mm", "weight": "650 g sin empaque"},
+        "sourceRefs": [
+          {"title": "Ocelot OK-TKL2 product page", "type": "manufacturer_spec", "url": "https://ocelot.com.mx/catalogo-productos-gamer/teclados-gamer-mecanicos-membrana-cat/teclado-mecanico-ok-tkl-2/"},
+          {"title": "Ocelot OK-TKL2 ficha tecnica", "type": "manufacturer_pdf", "url": "https://ocelot.com.mx/wp-content/uploads/2024/12/Teclado-OK-TKL2.pdf"},
+          {"title": "Ocelot OK-TKL2 manual", "type": "manufacturer_pdf", "url": "https://ocelot.com.mx/wp-content/uploads/2024/12/MANUAL-OK-TKL2.pdf"},
+          {"title": "Provider stock total 1", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4qgsuka08n7wc7y",
+      "research": {
+        "confidence": 0.86,
+        "name": "Laptop workstation Dell Pro Max 16 MC16250 16 pulgadas Windows 11 Pro",
+        "description": "Workstation movil Dell Pro Max 16 MC16250 de 16 pulgadas con Windows 11 Pro; configuraciones base reportadas con Intel Core Ultra 5 235H vPro, 16GB DDR5, SSD PCIe NVMe y conectividad empresarial.",
+        "manualCategoryPath": "computo/laptops/workstations/16-pulgadas/dell-pro-max-16",
+        "semanticCategoryPath": "computo/laptops/workstations/16-pulgadas/dell-pro-max-16/mc16250",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/dell-pro-max/mc16250/media-gallery/fpr/notebook-16-mc16250-pro-max-t-black-fpr-gallery-20.psd?chrss=full&fmt=png-alpha&hei=402&pscan=auto&qlt=100%2C1&resMode=sharp2&scl=1&size=504%2C402&wid=504"],
+        "specs": {
+          "brand": "DELL",
+          "model": "Pro Max 16 MC16250",
+          "productType": "Mobile workstation",
+          "screen": "16 pulgadas FHD+ no tactil 300 nits en configuracion base",
+          "processorBase": "Intel Core Ultra 5 235H vPro",
+          "memoryBase": "16GB DDR5 5600",
+          "storageBase": "256GB PCIe NVMe",
+          "graphicsBase": "Intel Arc/Arc Pro segun configuracion",
+          "ports": ["2 x Thunderbolt 4", "2 x USB-A", "HDMI 2.1", "RJ45", "Audio 3.5mm"],
+          "wireless": "Wi-Fi 6E AX211, Bluetooth 5.3",
+          "operatingSystem": "Windows 11 Pro",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 63. La configuracion exacta del proveedor no incluye todos los componentes.",
+          "providerOffers": [{"stock": 63, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "358 x 256 x 15.08-25.60 mm", "weight": "Desde 2.11 kg"},
+        "sourceRefs": [
+          {"title": "Dell Pro Max 16 MC16250 product page", "type": "manufacturer_spec", "url": "https://www.dell.com/en-us/shop/dell-laptops/dell-pro-max-16-laptop/spd/dell-pro-max-mc16250-laptop"},
+          {"title": "Dell Pro Max 16 premium laptop spec sheet", "type": "manufacturer_pdf", "url": "https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/dell-pro-max-16-premium-laptop-spec-sheet.pdf.external"},
+          {"title": "Provider stock total 63", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4qk9is89kq4lwcc",
+      "research": {
+        "confidence": 0.91,
+        "name": "Bocina inteligente Amazon Echo Dot 5ta gen B09B93ZDG4 con Alexa azul Deep Sea",
+        "description": "Amazon Echo Dot de quinta generacion B09B93ZDG4 en color Deep Sea Blue, bocina inteligente con Alexa, Wi-Fi doble banda, Bluetooth, sensor de movimiento y sensor de temperatura interior.",
+        "manualCategoryPath": "audio/bocinas/inteligentes/alexa/echo-dot-5",
+        "semanticCategoryPath": "audio/bocinas/inteligentes/alexa/echo-dot-5/amazon-b09b93zdg4",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://images.thdstatic.com/productImages/5defa875-294c-46bf-b81a-b5a9e97b7d7a/svn/deep-sea-blue-amazon-smart-speakers-and-displays-b09b93zdg4-64_600.jpg"],
+        "specs": {
+          "brand": "AMAZON",
+          "model": "Echo Dot 5th Gen B09B93ZDG4",
+          "upc": "840080527079",
+          "productType": "Bocina inteligente",
+          "assistant": "Alexa",
+          "color": "Deep Sea Blue",
+          "connectivity": ["Wi-Fi doble banda", "Bluetooth"],
+          "sensors": ["Movimiento", "Temperatura interior"],
+          "speakerDriver": "1.73 pulgadas",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 181.",
+          "providerOffers": [{"stock": 181, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "100 x 100 x 89 mm", "weight": "304 g"},
+        "sourceRefs": [
+          {"title": "Amazon Echo Dot B09B93ZDG4", "type": "manufacturer_spec", "url": "https://www.amazon.com/dp/B09B93ZDG4"},
+          {"title": "Home Depot Echo Dot 5th Gen B09B93ZDG4", "type": "reseller_spec", "url": "https://www.homedepot.com/p/Amazon-Echo-Dot-5th-Gen-Smart-Speaker-with-Alexa-Deep-Sea-Blue-B09B93ZDG4/323260668"},
+          {"title": "Device.report Amazon B09B93ZDG4", "type": "spec_reference", "url": "https://device.report/amazon/b09b93zdg4"},
+          {"title": "Provider stock total 181", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4qriv4kn8f8ynph",
+      "research": {
+        "confidence": 0.9,
+        "name": "Gabinete gamer Naceb Gaming White Nova NA-0633 blanco cristal templado 4 ventiladores RGB",
+        "description": "Gabinete gamer Naceb Gaming White Nova NA-0633 color blanco con panel de cristal templado, soporte ATX/Micro-ATX/Mini-ITX, 4 ventiladores RGB de 120 mm, USB-C frontal y bahias HDD/SSD.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/cristal-templado-rgb",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/cristal-templado-rgb/naceb-white-nova-na-0633",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABNCB150/GABNCB150_full.jpg"],
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "White Nova NA-0633",
+          "ean": "7502262800747",
+          "productType": "Gabinete gamer ATX",
+          "color": "Blanco",
+          "sidePanel": "Cristal templado",
+          "motherboardSupport": ["ATX", "Micro-ATX", "Mini-ITX"],
+          "bays": ["2 x HDD", "2 x SSD"],
+          "expansionSlots": 7,
+          "fansIncluded": "3 laterales + 1 trasero RGB 120 mm",
+          "frontIO": ["1 x USB 3.0", "1 x USB-C", "Audio", "Microfono"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 97.",
+          "providerOffers": [{"stock": 97, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "39 x 27.2 x 42 cm", "weight": "9.47 kg"},
+        "sourceRefs": [
+          {"title": "Cyberpuerta Naceb White Nova PDF", "type": "reseller_pdf", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/660/f62/06b/660f6206bdebe9.88104155.pdf"},
+          {"title": "CTOnline Naceb GABNCB150", "type": "reseller_spec", "url": "https://ctonline.mx/Accesorios-Gaming/Gabinetes-Gaming/Naceb-Gaming/GABNCB150/61915"},
+          {"title": "Naceb official site", "type": "manufacturer_site", "url": "https://naceb.com.mx/"},
+          {"title": "Provider stock total 97", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4qx10dvt2dmckn0",
+      "research": {
+        "confidence": 0.9,
+        "name": "Combo teclado y mouse inalambrico TechZone Trim TZ16COMB01-INA 2.4GHz negro",
+        "description": "Combo TechZone Trim TZ16COMB01-INA con teclado QWERTY de 105 teclas y mouse inalambrico de 4 botones, conexion 2.4GHz, alcance de 10 m y resolucion de mouse 800/1200/1600 DPI.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/basicos/techzone-trim-tz16comb01-ina",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://techzone.com.mx/cdn/shop/files/TZ16COMB01-INA-1_e0e3a94f-7c35-4ef5-86bd-d40d5555a652.jpg?v=1760726452"],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZ16COMB01-INA",
+          "upc": "7501950030732",
+          "productType": "Combo teclado y mouse inalambrico",
+          "wireless": "2.4GHz",
+          "range": "10 m",
+          "keyboard": "105 teclas QWERTY con teclado numerico e indicadores LED",
+          "mouse": "4 botones, 800/1200/1600 DPI",
+          "batteries": "Teclado 1 x AA; mouse 2 x AAA",
+          "compatibility": ["Windows", "macOS", "Android/iOS/iPadOS con adaptador compatible"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 10.",
+          "providerOffers": [{"stock": 10, "price": null, "currency": null, "priceKind": "not_available"}],
+          "sourceDiscrepancies": ["La ficha comercial contiene una mencion de contenido alambrico, pero producto y especificaciones describen conexion inalambrica."],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"keyboard": "44 x 14.3 x 3 cm, 390 g", "mouse": "6.2 x 10 x 3.6 cm, 75 g", "package": "52 x 14.5 x 4.5 cm, 572 g"},
+        "sourceRefs": [
+          {"title": "TechZone TZ16COMB01-INA product page", "type": "manufacturer_spec", "url": "https://techzone.com.mx/products/teclado-y-mouse-inalambrico-tz16comb01-ina"},
+          {"title": "TechZone TZ16COMB01-INA ficha tecnica", "type": "manufacturer_pdf", "url": "https://techzone.com.mx/cdn/shop/files/TZ16COMB01-INA-171025.pdf?v=17368943420540264774"},
+          {"title": "Provider stock total 10", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4qxx70a3yvrq0gu",
+      "research": {
+        "confidence": 0.91,
+        "name": "Switch TP-Link Omada SL2428P smart PoE+ 24 puertos 10/100 + 4 uplinks Gigabit",
+        "description": "Switch smart TP-Link Omada SL2428P con 24 puertos PoE+ Fast Ethernet, 2 uplinks RJ45 Gigabit y 2 puertos combo RJ45/SFP Gigabit, presupuesto PoE 250W y administracion Omada SDN.",
+        "manualCategoryPath": "redes/switches/poe-administrables/fast-ethernet/24-puertos",
+        "semanticCategoryPath": "redes/switches/poe-administrables/fast-ethernet/24-puertos/tp-link-omada-sl2428p",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.tp-link.com/upload/image-line/SL2428P_UN_6.20_01_large_20240227072818i.jpg"],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Omada SL2428P",
+          "productType": "Switch smart PoE+ administrable",
+          "ports": "24 x 10/100 PoE+, 2 x RJ45 Gigabit, 2 x combo RJ45/SFP Gigabit",
+          "poe": "802.3af/at, 250W total, 30W por puerto",
+          "management": ["Omada SDN", "Web", "CLI", "SNMP", "RMON"],
+          "features": ["VLAN", "ACL", "QoS", "IGMP Snooping", "Routing estatico"],
+          "switchingCapacity": "12.8Gbps",
+          "forwardingRate": "9.52Mpps",
+          "macAddressTable": "8K",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 6.",
+          "providerOffers": [{"stock": 6, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "440 x 180 x 44 mm", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "TP-Link Omada SL2428P product page", "type": "manufacturer_spec", "url": "https://www.tp-link.com/us/business-networking/omada-switch-smart/sl2428p/v6/"},
+          {"title": "TP-Link T1500-28PCT datasheet reference", "type": "manufacturer_pdf", "url": "https://static.tp-link.com/resources/document/T1500-28PCT_V1_Datasheet.pdf"},
+          {"title": "Provider stock total 6", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4r4l1efi2psz723",
+      "research": {
+        "confidence": 0.91,
+        "name": "Etiquetas Zebra PolyPro 4000D 10010063 polipropileno termico directo 2.25 x 1.25 pulgadas caja 6 rollos",
+        "description": "Etiquetas Zebra 10010063 PolyPro 4000D de polipropileno blanco mate para impresion termica directa, tamano 2.25 x 1.25 pulgadas, nucleo de 1 pulgada, 2000 etiquetas por rollo y caja con 6 rollos.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/polypro-4000d",
+        "semanticCategoryPath": "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/polypro-4000d/10010063-2-25x1-25",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.barcodefactory.com/images/product/large/rl-2-25wx1-25l-perf-1incore-5inod.png"],
+        "specs": {
+          "brand": "ZEBRA",
+          "model": "10010063",
+          "line": "PolyPro 4000D",
+          "productType": "Etiquetas termicas directas",
+          "material": "Polipropileno blanco mate",
+          "printTechnology": "Termica directa",
+          "labelSize": "2.25 x 1.25 pulgadas / 57.2 x 31.8 mm",
+          "core": "1 pulgada",
+          "outerDiameter": "5 pulgadas",
+          "adhesive": "Acrilico permanente all-temp",
+          "presentation": "2000 etiquetas por rollo, 6 rollos por caja",
+          "totalLabels": 12000,
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 4.",
+          "providerOffers": [{"stock": 4, "price": null, "currency": null, "priceKind": "not_available"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"packageDimensions": "8.7 x 11.4 x 5.7 pulgadas reportado por distribuidor", "packageWeight": "8.05 a 12 lb segun distribuidor"},
+        "sourceRefs": [
+          {"title": "Zebra labels and tags", "type": "manufacturer_spec", "url": "https://www.zebra.com/us/en/products/supplies/labels-tags.html"},
+          {"title": "Barcodes Inc Zebra 10010063", "type": "reseller_spec", "url": "https://www.barcodesinc.com/zebra/part-10010063.htm"},
+          {"title": "Barcode Factory Zebra PolyPro 4000D 10010063", "type": "reseller_spec", "url": "https://www.barcodefactory.com/zebra/labels/polypro-4000d/10010063"},
+          {"title": "Barcode Factory PolyPro 4000D PDF", "type": "reseller_pdf", "url": "https://www.barcodefactory.com/pdf2/PolyPro_4000D.pdf"},
+          {"title": "Provider stock total 4", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4rd9az4vnfis58t",
+      "research": {
+        "confidence": 0.88,
+        "name": "Camara domo IP HiLook by Hikvision IPC-D140HA-U 4MP 2.8mm IR 30m PoE WDR IP67",
+        "description": "Camara domo IP HiLook IPC-D140HA-U de 4MP con lente fijo 2.8mm, IR hasta 30m, WDR 120dB, compresion H.265+/H.265/H.264+/H.264, alimentacion 12VDC o PoE 802.3af y proteccion IP67/IK10 en la familia IPC-D140HA.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/4mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/4mp/hilook-ipc-d140ha-u",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "HILOOK",
+          "model": "IPC-D140HA-U",
+          "productType": "Camara domo IP PoE",
+          "resolution": "4MP 2560 x 1440",
+          "lens": "2.8 mm fijo",
+          "irRange": "30 m",
+          "compression": ["H.265+", "H.265", "H.264+", "H.264"],
+          "wdr": "120 dB",
+          "network": "RJ45 10/100, ONVIF Profile S/T",
+          "power": "12VDC o PoE 802.3af",
+          "protection": "IP67/IK10 en ficha IPC-D140HA",
+          "audio": "Microfono integrado reportado para variante -U por distribuidores",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 7.",
+          "providerOffers": [{"stock": 7, "price": null, "currency": null, "priceKind": "not_available"}],
+          "sourceDiscrepancies": ["La fuente oficial primaria disponible corresponde a IPC-D140HA base; el sufijo -U se valida en distribuidores."],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {"dimensions": "Diametro 110.8 x 84.7 mm", "weight": "520 g neto; 720 g con empaque"},
+        "sourceRefs": [
+          {"title": "HiLook IPC-D140HA product page", "type": "manufacturer_spec", "url": "https://www.hikvision.com/ph/products/HiLook-IP-Products/Network-Cameras/Value-Camera/ipc-d140ha/"},
+          {"title": "HiLook IPC-D140HA datasheet", "type": "manufacturer_pdf", "url": "https://assets.hikvision.com/prd/public/all/doc/sm000041074/IPC-D140HA_Datasheet_V5.7.1_20221223.pdf"},
+          {"title": "Hikvision Store Mexico IPC-D140HA-U", "type": "reseller_spec", "url": "https://hikvision-store.mx/domo-exterior/3931-ipc-d140ha-u.html"},
+          {"title": "Syscom IPC-D140HA-U", "type": "reseller_spec", "url": "https://www.syscom.mx/products/234373"},
+          {"title": "Provider stock total 7", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    }
+  ]
+}

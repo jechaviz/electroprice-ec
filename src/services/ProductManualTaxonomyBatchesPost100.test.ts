@@ -531,6 +531,16 @@ const researchedBatchCases = [
   ["Mouse gaming TechZone NS-GM05 alambrico USB 6 botones 3600 DPI negro", "TECHZONE", "computo/perifericos/mouse/alambricos/gaming/3600-dpi"],
   ["Router Netis WF2409E WiFi N300 2.4GHz 3 antenas 5dBi 4 LAN 1 WAN", "NETIS", "redes/routers/wifi-n/n300"],
   ["Audifonos Bluetooth Naceb Cetus NA-0307R diadema on-ear radio FM microSD rojo negro", "NACEB TECHNOLOGY", "audio/audifonos/bluetooth/diadema-on-ear/radio-fm"],
+  ["Switch Netis ST108D no administrable Fast Ethernet 8 puertos 10/100 Mbps", "NETIS", "redes/switches/no-administrables/fast-ethernet/8-puertos"],
+  ["Monitor Quaroni MQ19-03 LED 19.5 pulgadas HD TN 60Hz HDMI VGA negro", "QUARONI", "computo/monitores/oficina/19-5-hd"],
+  ["Teclado gamer Ocelot Gaming OK-TKL2 mecanico TKL RGB switch rojo USB negro", "OCELOT GAMING", "computo/perifericos/teclados/gaming/mecanicos/tkl-rgb"],
+  ["Laptop workstation Dell Pro Max 16 MC16250 Core Ultra 5 235H Windows 11 Pro", "DELL", "computo/laptops/workstations/16-pulgadas/dell-pro-max-16"],
+  ["Bocina inteligente Amazon Echo Dot 5ta gen B09B93ZDG4 Alexa azul Deep Sea", "AMAZON", "audio/bocinas/inteligentes/alexa/echo-dot-5"],
+  ["Gabinete gamer Naceb Gaming White Nova NA-0633 blanco cristal templado 4 ventiladores RGB", "NACEB GAMING", "computo/componentes/gabinetes/gaming/atx-mid-tower/cristal-templado-rgb"],
+  ["Combo teclado y mouse inalambrico TechZone Trim TZ16COMB01-INA 2.4GHz negro", "TECHZONE", "computo/perifericos/combos-teclado-mouse/inalambricos/basicos"],
+  ["Switch TP-Link Omada SL2428P smart PoE 24 puertos 10/100 con uplinks Gigabit", "TP LINK", "redes/switches/poe-administrables/fast-ethernet/24-puertos"],
+  ["Etiquetas Zebra PolyPro 4000D 10010063 termico directo 2.25 x 1.25 pulgadas 6 rollos", "ZEBRA", "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/polypro-4000d"],
+  ["Camara domo IP HiLook IPC-D140HA-U 4MP 2.8mm IR 30m PoE WDR IP67", "HILOOK", "seguridad/cctv/camaras-ip-poe/domo/4mp"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
