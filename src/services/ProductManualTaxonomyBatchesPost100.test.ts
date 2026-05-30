@@ -311,6 +311,16 @@ const researchedBatchCases = [
   ["DBUGG DB-FF01 camara foco WiFi E27 2MP interior", "DBUGG", "seguridad/cctv/camaras-ip-wifi/interior/foco-e27-2mp"],
   ["EC Line EC-CD-100-P cajon de dinero metalico RJ11 5 billetes 8 monedas", "EC LINE", "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas"],
   ["Balam Rush Cosmos Edge MCE27P monitor gaming 27 FHD IPS 240Hz", "BALAM RUSH", "computo/monitores/gaming/27-fhd/240hz"],
+  ["TP-Link Omada EAP225-Outdoor punto de acceso exterior AC1200 PoE", "TP-LINK OMADA", "redes/access-points/wifi-5/exterior/ac1200-poe"],
+  ["Brobotix 256349-6 funda de neopreno para laptop 15.6 pulgadas lila", "BROBOTIX", "computo/accesorios/mochilas-fundas/fundas-laptop/15-6-pulgadas/neopreno"],
+  ["Dell Pro 16 PC16250 DVRC5 laptop empresarial Core Ultra 5 235U", "DELL", "computo/laptops/empresariales/16-pulgadas/dell-pro-16"],
+  ["Acteck Gate 8V DH676 hub USB-C 8 en 1 HDMI DisplayPort PD 100W", "ACTECK", "computo/accesorios/docks-hubs/usb-c/hdmi-displayport-pd-100w"],
+  ["Kingston ValueRAM KVR32N22S8/8 memoria DDR4 8GB 3200MT/s UDIMM", "KINGSTON", "computo/componentes/memoria-ram/udimm-ddr4/8gb-3200"],
+  ["Targus DOCK310USZ docking station USB-C DV4K 65W", "TARGUS", "computo/accesorios/docks-hubs/usb-c/profesionales/dual-4k-65w"],
+  ["Naceb Everest NA-0631 enfriamiento liquido CPU 360mm ARGB", "NACEB GAMING", "computo/componentes/enfriamiento/liquido-cpu/360mm/argb"],
+  ["Thermaltake SWAFAN EX12 CL-F183-PL12BU-A kit 3 ventiladores ARGB 120mm", "THERMALTAKE", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-pwm-argb"],
+  ["Epson T673420-AL botella de tinta 673 amarilla 70 ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t673/amarillo"],
+  ["PCM 50000B0159A etiquetas termicas directas 102 x 51 mm caja 12 rollos", "PCM", "impresion/consumibles/etiquetas-papel/termicas-directas/102x51mm"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
