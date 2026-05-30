@@ -80,7 +80,7 @@ const researchedBatchCases = [
   ["Lanix 14996 XAir 1 purificador de aire", "LANIX", "hogar/electrodomesticos/purificadores-aire"],
   ["Lenovo 4XH7A83845 PCIe riser SR630 V3", "LENOVO", "computo/servidores/componentes"],
   ["Logitech 920-010478 MX Keys Mini rosa", "LOGITECH", "computo/perifericos/teclados"],
-  ["MSI GeForce RTX 5060 8G Shadow 2X OC", "MSI", "computo/componentes/tarjetas-video"],
+  ["MSI GeForce RTX 5060 8G Shadow 2X OC", "MSI", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5060"],
   ["Mobifree base de carga inalambrica 10W Qi", "MOBIFREE", "energia/cargadores-inalambricos"],
   ["North System NORTH115-BKL organizador vertical rack", "NORTH SYSTEM", "infraestructura/racks-accesorios/organizadores-cable"],
   ["Verbatim 95093 DVD-R 4.7GB 16X", "VERBATIM", "computo/almacenamiento/medios-opticos"],

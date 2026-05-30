@@ -351,6 +351,16 @@ const researchedBatchCases = [
   ["BRobotix 406467 estacion de carga USB 9 en 1 140W gris", "BROBOTIX", "energia/cargadores-usb/estaciones-carga/usb-9-en-1-140w"],
   ["Redragon Kumara White RGB K552W-RGB-1R-SP teclado mecanico switch rojo", "REDRAGON", "computo/perifericos/teclados/gaming/mecanicos/tkl-rgb"],
   ["Intellinet 334112 cable patch Cat6 UTP 2m 7ft gris CB-294", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/2-1m"],
+  ["BRobotix 406788 funda Smart Folio para iPad A16 11 pulgadas 2025 negro", "BROBOTIX", "computo/tabletas/accesorios/fundas/ipad-a16-11"],
+  ["Logitech Slim Folio 920-009473 funda con teclado Bluetooth para iPad 10.2", "LOGITECH", "computo/tabletas/accesorios/fundas-con-teclado/ipad-10-2"],
+  ["Meriva Streamax MC205HD-V2 camara movil AHD box 2MP IR 2.8mm", "MERIVA", "seguridad/cctv/camaras-moviles/ahd-box/2mp-ir"],
+  ["TP-Link Omada EAP613 access point WiFi 6 AX1800 de techo", "TP-LINK OMADA", "redes/access-points/wifi-6/techo/ax1800"],
+  ["VANKYO Leisure 570D L570D proyector portatil smart 1080p 200 ANSI", "VANKYO", "video/proyectores/portatiles/1080p-smart"],
+  ["ASUS Dual GeForce RTX 5060 OC 8GB GDDR7 DUAL-RTX5060-O8G", "ASUS", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5060"],
+  ["Perfect Choice PC-101246 hub USB-C 5 en 1 HDMI 3 USB-A PD", "PERFECT CHOICE", "computo/accesorios/docks-hubs/usb-c/hdmi-usb-pd"],
+  ["Acteck Fuji GC470 gabinete mini torre Micro ATX Mini ITX fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w"],
+  ["BRobotix 6001547 cable USB-C a USB-C 1 m gris carga rapida", "BROBOTIX", "accesorios/cables-adaptadores/usb/usb-c-c/1m"],
+  ["Kingston DataTraveler Exodia S DTXS/128GB memoria USB 128GB", "KINGSTON", "computo/almacenamiento/memorias-flash/usb/128gb"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

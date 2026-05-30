@@ -1,4 +1,13 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/tabletas/accesorios/fundas/ipad-a16-11', name: 'Fundas para iPad A16 11 pulgadas', legacyCategory: 'accessories' },
+  { path: 'computo/tabletas/accesorios/fundas-con-teclado/ipad-10-2', name: 'Fundas con teclado para iPad 10.2 pulgadas', legacyCategory: 'accessories' },
+  { path: 'seguridad/cctv/camaras-moviles/ahd-box', name: 'Camaras moviles AHD tipo box', legacyCategory: 'security' },
+  { path: 'seguridad/cctv/camaras-moviles/ahd-box/2mp-ir', name: 'Camaras moviles AHD box 2MP con IR', legacyCategory: 'security' },
+  { path: 'redes/access-points/wifi-6/techo', name: 'Access points WiFi 6 de techo', legacyCategory: 'networking' },
+  { path: 'redes/access-points/wifi-6/techo/ax1800', name: 'Access points WiFi 6 de techo AX1800', legacyCategory: 'networking' },
+  { path: 'video/proyectores/portatiles', name: 'Proyectores portatiles', legacyCategory: 'monitors' },
+  { path: 'video/proyectores/portatiles/1080p-smart', name: 'Proyectores portatiles 1080p smart', legacyCategory: 'monitors' },
+  { path: 'computo/componentes/tarjetas-video/nvidia-geforce/rtx-50/rtx-5060', name: 'Tarjetas de video NVIDIA GeForce RTX 5060', legacyCategory: 'components' },
   { path: 'video/accesorios-proyeccion/soportes-proyector/techo', name: 'Soportes de techo para proyector', legacyCategory: 'accessories' },
   { path: 'video/accesorios-proyeccion/soportes-proyector/techo/13-5kg', name: 'Soportes de techo para proyector hasta 13.5 kg', legacyCategory: 'accessories' },
   { path: 'computo/perifericos/mouse/inalambricos/ergonomicos/silenciosos-dual-receptor-1000-dpi', name: 'Mouse ergonomicos inalambricos silenciosos USB-A USB-C 1000 DPI', legacyCategory: 'accessories' },
