@@ -132,6 +132,16 @@ const batch160PlusCases = [
   ["Uniarch IPC-B233-APF40W camara IP bullet Dual-light 3MP 4mm PoE", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/3mp-dual-light", "cameras"],
   ["Omada ER7206 gateway VPN Gigabit multi-WAN SFP USB", "OMADA", "redes/routers/vpn/omada/er7206", "networking"],
   ["Necnon NB-08Y bafle Bluetooth inalambrico 8 pulgadas LED con microfono", "NECNON", "audio/bocinas/bafles-portatiles/8-pulgadas", "audio"],
+  ["Dahua HAC-HFW1200T camara bullet HDCVI 2MP 3.6mm IR IP67", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-ir-ip67", "cameras"],
+  ["Balam Rush Tank Mini GI930 gabinete gamer Micro-ATX mini tower ARGB negro", "BALAM RUSH", "computo/componentes/gabinetes/gaming/micro-atx/mini-tower-argb", "components"],
+  ["Provision ISR DB-320WIPN videoportero IP WiFi PoE 2MP ONVIF", "PROVISION-ISR", "seguridad/videoporteros/ip/wifi-poe", "security"],
+  ["BRobotix 6000380 duo pack lapiz stylus universal azul", "BROBOTIX", "computo/tabletas/accesorios/stylus/universales-duopack", "accessories"],
+  ["Ghia Whale G43W25 Smart TV 43 pulgadas Full HD WiFi Bluetooth", "GHIA", "video/televisores/smart-tv/43-fhd", "tvs"],
+  ["Naceb Silver Fang NA-0969 teclado gaming mecanico 75 por ciento RGB", "NACEB TECHNOLOGY", "computo/perifericos/teclados/gaming/mecanicos/75-rgb", "gaming"],
+  ["Tenda IC7-PRS-4 camara IP concha PoE 4MP IR microfono", "TENDA", "seguridad/cctv/camaras-ip-poe/domo/4mp-ir-poe", "cameras"],
+  ["Vorago CAB-M01W cable USB-A a Micro-USB 2.0 1m blanco", "VORAGO", "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-1m", "accessories"],
+  ["Smartbitt SBOL30KTII-3K UPS online trifasico 30kVA 30kW", "SMARTBITT", "energia/no-breaks-ups/doble-conversion/trifasicos/30000va", "power"],
+  ["Naceb Boreal NA-0656N enfriamiento liquido AIO 360mm ARGB con pantalla", "NACEB GAMING", "computo/componentes/enfriamiento/liquido-cpu/360mm/argb-pantalla", "components"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
