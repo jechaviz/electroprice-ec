@@ -22,6 +22,16 @@ const batch160PlusCases = [
   ["Intellinet 715072 charola rack 19 pulgadas 1U 300mm 25kg negra", "INTELLINET", "infraestructura/racks-accesorios/charolas/1u-300mm-25kg", "networking"],
   ["Quaroni QD4S08G1 memoria RAM SO-DIMM DDR4 8GB 3200MHz CL22", "QUARONI", "computo/componentes/memoria-ram/sodimm-ddr4/8gb-3200", "components"],
   ["Logitech G923 TRUEFORCE volante y pedales racing PS5 PS4 PC", "LOGITECH", "gaming/accesorios/volantes-simulacion/trueforce", "gaming"],
+  ["Nexxt Solutions Home NHE-S100 interruptor inteligente Wi-Fi monopolar blanco", "NEXXT SOLUTIONS HOME", "hogar/casa-inteligente/interruptores-wifi/monopolares", "accessories"],
+  ["Manhattan 152082 tarjeta serial PCI Express 2 puertos DB9", "MANHATTAN", "computo/componentes/tarjetas-expansion/serial-pcie/db9-2-puertos", "components"],
+  ["Kensington K55256WW MagPro filtro de privacidad magnetico para laptop 16 16:10", "KENSINGTON", "computo/accesorios/filtros-privacidad/laptops/16-16-10", "accessories"],
+  ["Koblenz 9022 USB no break interactivo 900VA 450W LCD", "KOBLENZ", "energia/no-breaks-ups/line-interactive/900va/lcd", "power"],
+  ["Polaroid PASU100-63 rollo papel sublimacion 100gsm 63in x 100m blanco", "POLAROID", "impresion/consumibles/papel-sublimacion/rollos/63in-100m-100gsm", "printers_scanners"],
+  ["PCM 50000B0160A etiquetas transferencia termica 4x2 R-700 caja 12 rollos", "PCM", "impresion/consumibles/etiquetas-transferencia-termica/4x2/r-700-12-rollos", "printers_scanners"],
+  ["Brother TN890 toner negro ultra alto rendimiento 20000 paginas", "BROTHER", "impresion/consumibles/toner-laser/brother/tn-890", "printers_scanners"],
+  ["ADATA Premier Pro AUSDX128GUI3V30SA2-RA1 microSDXC 128GB UHS-I V30 A2 con adaptador", "ADATA", "computo/almacenamiento/memorias-flash/microsd/128gb-uhs-i-v30-a2", "storage"],
+  ["Manhattan 371377 cable VGA SVGA HD15 macho macho 11m negro", "MANHATTAN", "accesorios/cables-adaptadores/video-vga/hd15/11m", "accessories"],
+  ["Brother TZe-641 cinta laminada P-touch 18mm x 8m negro sobre amarillo", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/18mm/negro-sobre-amarillo", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

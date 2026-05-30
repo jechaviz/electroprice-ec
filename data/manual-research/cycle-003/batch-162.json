@@ -1,0 +1,386 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b162-2026-05-30",
+  "cycle": 3,
+  "batch": 162,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "57k4584xvzlniot",
+      "research": {
+        "confidence": 0.94,
+        "name": "Nexxt Solutions Home NHE-S100 interruptor inteligente Wi-Fi monopolar blanco",
+        "description": "Interruptor inteligente Nexxt NHE-S100 monopolar para iluminacion, Wi-Fi 2.4GHz, control por app Nexxt Home, carga maxima 15A/500W y requisito de cable neutro.",
+        "manualCategoryPath": "hogar/casa-inteligente/interruptores-wifi/monopolares",
+        "semanticCategoryPath": "hogar/casa-inteligente/interruptores-wifi/monopolares/nexxt-nhe-s100",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/Smart%20Light%20Switch_DS_ENG.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNEX160/ACCNEX160_full.jpg"],
+        "specs": {
+          "brand": "NEXXT SOLUTIONS HOME",
+          "model": "NHE-S100",
+          "providerSku": "ACCNEX160",
+          "ean": "798302056800",
+          "productType": "Interruptor inteligente Wi-Fi monopolar",
+          "voltage": "110-240 V 50/60 Hz",
+          "amperage": "15 A",
+          "ratedPower": "500 W",
+          "wireless": "Wi-Fi 802.11n 2.4 GHz",
+          "requirements": ["Cable neutro", "App Nexxt Home"],
+          "notCompatible": "Circuitos 3-way o multi-location",
+          "color": "Blanco",
+          "providerBranchSummary": "Disponible por sucursal proveedor: HMO 2.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"HMO","stock":2}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCNEX160","stock":2,"price":12.58,"currency":"USD","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "4.1 x 1.4 x 1.7 in", "weight": "5.3 oz"},
+        "sourceRefs": [
+          {"title": "Nexxt Smart Light Switch datasheet", "type": "manufacturer_datasheet", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/Smart%20Light%20Switch_DS_ENG.pdf"},
+          {"title": "CTOnline ACCNEX160 branch stock 2", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "581a2465e34pchu",
+      "research": {
+        "confidence": 0.94,
+        "name": "Manhattan 152082 tarjeta serial PCI Express 2 puertos DB9",
+        "description": "Tarjeta Manhattan 152082 PCI Express x1 con dos puertos seriales DB9 macho para agregar conectividad RS-232 a equipos de escritorio compatibles con ranuras PCIe.",
+        "manualCategoryPath": "computo/componentes/tarjetas-expansion/serial-pcie/db9-2-puertos",
+        "semanticCategoryPath": "computo/componentes/tarjetas-expansion/serial-pcie/db9-2-puertos/manhattan-152082",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://es.manhattanproducts.eu/products/manhattan-es-tarjeta-serial-pci-express-152082",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9975205"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "152082",
+          "providerSku": "HDC-115",
+          "alternateProviderSku": "ACCITL3860",
+          "upc": "766623152082",
+          "productType": "Tarjeta de expansion serial PCI Express",
+          "ports": "2 x DB9 macho",
+          "bus": "PCI Express x1 compatible con ranuras x1/x4/x8/x16",
+          "chipset": "WCH",
+          "uart": "16C550/16C552/16C554/16C750",
+          "providerBranchSummary": "Sucursal no disponible; CTOnline reporta stock 370 y CVA reporta stock 5.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"ctonline","providerSku":"ACCITL3860","stock":370,"price":18.59,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"cva","providerSku":"HDC-115","stock":5,"price":18.86,"currency":"USD","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["La pagina Manhattan mezcla 230400 bps en resumen y 115200 bps en especificaciones; conservar 115200 bps como dato estricto."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "12 x 6.8 x 2 cm", "weight": "53.8 g"},
+        "sourceRefs": [
+          {"title": "Manhattan 152082 tarjeta serial PCI Express", "type": "manufacturer_spec", "url": "https://es.manhattanproducts.eu/products/manhattan-es-tarjeta-serial-pci-express-152082"},
+          {"title": "Provider stock CTOnline 370 and CVA 5", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "583lb1pikudc084",
+      "research": {
+        "confidence": 0.95,
+        "name": "Kensington K55256WW MagPro filtro de privacidad magnetico para laptop 16 16:10",
+        "description": "Filtro de privacidad magnetico Kensington MagPro K55256WW para laptops de 16 pulgadas 16:10, reversible, con reduccion de angulo de vision a +/-30 grados y montaje magnetico.",
+        "manualCategoryPath": "computo/accesorios/filtros-privacidad/laptops/16-16-10",
+        "semanticCategoryPath": "computo/accesorios/filtros-privacidad/laptops/16-16-10/kensington-k55256ww",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/data-protection/privacy-screens/magpro-magnetic-privacy-screen-for-laptops-16.0-1610-taa/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCKNS2380/ACCKNS2380_full.jpg"],
+        "specs": {
+          "brand": "KENSINGTON",
+          "model": "K55256WW",
+          "providerSku": "ACCKNS2380",
+          "upc": "085896552567",
+          "productType": "Filtro de privacidad magnetico para laptop",
+          "screenSize": "16 pulgadas",
+          "aspectRatio": "16:10",
+          "material": "PET",
+          "viewingAngle": "+/-30 grados",
+          "reversible": true,
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 7.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":7}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCKNS2380","stock":7,"price":972.22,"currency":"MXN","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "344 x 220 x 0.8 mm", "weight": "55 g", "package": "385 x 260 x 5 mm / 249 g"},
+        "sourceRefs": [
+          {"title": "Kensington MagPro 16 16:10 K55256WW", "type": "manufacturer_spec", "url": "https://www.kensington.com/p/products/data-protection/privacy-screens/magpro-magnetic-privacy-screen-for-laptops-16.0-1610-taa/"},
+          {"title": "Kensington K55256WW manual", "type": "manual", "url": "https://manuals.plus/m/f5d6e446f2656a41b529a0ce18ccb60f62663697b25edd776f9cfe9859fa30d9.pdf"},
+          {"title": "CTOnline ACCKNS2380 branch stock 7", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "584u6ix73w7lxk5",
+      "research": {
+        "confidence": 0.95,
+        "name": "Koblenz 9022 USB no break interactivo 900VA 450W LCD",
+        "description": "No break Koblenz 9022 USB line-interactive de 900VA/450W con pantalla LCD, 10 contactos NEMA 5-15R, regulador, supresor de picos, puerto USB tipo B y proteccion RJ-11.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/900va/lcd",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/900va/lcd/koblenz-9022-usb",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.koblenz.com.mx/products/no-break-9022-usb",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKKBZ390/NBKKBZ390_1_full.jpg"],
+        "specs": {
+          "brand": "KOBLENZ",
+          "model": "9022 USB",
+          "manufacturerModel": "00-4258-00-0",
+          "providerSku": "NBKKBZ390",
+          "upc": "099053042587",
+          "productType": "No break line-interactive con LCD",
+          "capacity": "900 VA / 450 W oficial",
+          "waveform": "Onda cuasisenoidal",
+          "outlets": "10 NEMA 5-15R; 5 respaldo y 5 supresion",
+          "ports": ["USB tipo B", "RJ-11"],
+          "battery": "12 V / 9 Ah",
+          "backup": "Hasta 76 min con AIO segun Koblenz",
+          "warranty": "3 anos equipo / 2 anos bateria segun Koblenz",
+          "color": "Negro",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 23, CAM 11, CTZ 3, PUE 3, PAC 2, VHA 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":23},{"providerId":"ctonline","warehouseCode":"CAM","stock":11},{"providerId":"ctonline","warehouseCode":"CTZ","stock":3},{"providerId":"ctonline","warehouseCode":"PUE","stock":3},{"providerId":"ctonline","warehouseCode":"PAC","stock":2},{"providerId":"ctonline","warehouseCode":"VHA","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"NBKKBZ390","stock":43,"price":1774.44,"currency":"MXN","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["PB/proveedor reporta 460 W; ficha oficial Koblenz reporta 450 W."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "35 x 12 x 20 cm", "weight": "4.4 kg", "package": "39.2 x 14.5 x 26 cm / 4.6 kg"},
+        "sourceRefs": [
+          {"title": "Koblenz no break 9022 USB", "type": "manufacturer_spec", "url": "https://www.koblenz.com.mx/products/no-break-9022-usb"},
+          {"title": "CTOnline NBKKBZ390 branch stock 43", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "58x2cwl8tdaoaxr",
+      "research": {
+        "confidence": 0.87,
+        "name": "Polaroid PASU100-63 rollo papel sublimacion 100gsm 63in x 100m blanco",
+        "description": "Rollo de papel Polaroid PASU100-63 para sublimacion y plotter, color blanco, gramaje 100 gsm y formato 63 pulgadas por 100 m.",
+        "manualCategoryPath": "impresion/consumibles/papel-sublimacion/rollos/63in-100m-100gsm",
+        "semanticCategoryPath": "impresion/consumibles/papel-sublimacion/rollos/63in-100m-100gsm/polaroid-pasu100-63",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPOL010/PAPPOL010_full.jpg"],
+        "specs": {
+          "brand": "POLAROID",
+          "model": "PASU100-63",
+          "providerSku": "PAPPOL010",
+          "ean": "7503023113533",
+          "productType": "Rollo de papel de sublimacion para plotter",
+          "color": "Blanco",
+          "grammage": "100 gsm",
+          "roll": "63 in x 100 m",
+          "applications": ["Textiles poliester", "Ropa deportiva", "Banderas", "Banners"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: TRN 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"TRN","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"PAPPOL010","stock":1,"price":32.97,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Proveedor lo describe genericamente como papel plotter; resellers lo identifican como sublimacion 100gsm. No se encontro ficha oficial Polaroid confiable."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "63 in / 1600 mm x 100 m", "weight": "No publicado confiable"},
+        "sourceRefs": [
+          {"title": "MCA Shop Polaroid PASU100-63", "type": "reseller_spec", "url": "https://mcashop.mx/producto/206702/polaroid-pasu100-63-papel-para-plotter-100-m"},
+          {"title": "Digitalife Polaroid PASU100-63", "type": "reseller_spec", "url": "https://www.digitalife.com.mx/productos/1-rollo-de-papel-polaroid-de-sublimacion-para-plotter-100-gsm-63-x-100-metros-1-pieza"},
+          {"title": "CTOnline PAPPOL010 branch stock 1", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "58zffg21i59g1ji",
+      "research": {
+        "confidence": 0.91,
+        "name": "PCM 50000B0160A etiquetas transferencia termica 4x2 R-700 caja 12 rollos",
+        "description": "Caja de etiquetas PCM 50000B0160A para transferencia termica, medida 4 x 2 pulgadas, R-700, core 1 pulgada, papel blanco con adhesivo permanente y 12 rollos.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas-transferencia-termica/4x2/r-700-12-rollos",
+        "semanticCategoryPath": "impresion/consumibles/etiquetas-transferencia-termica/4x2/r-700-12-rollos/pcm-50000b0160a",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM1810/ACCPCM1810_full.jpg"],
+        "specs": {
+          "brand": "PCM",
+          "model": "50000B0160A",
+          "providerSku": "ACCPCM1810",
+          "productType": "Etiquetas de transferencia termica",
+          "size": "4 x 2 in / 102 x 51 mm",
+          "adhesive": "Permanente",
+          "core": "1 in",
+          "pleca": true,
+          "rolls": 12,
+          "labelsPerRoll": 700,
+          "material": "Papel blanco",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 10, CMT 10, D2A 10, DFA 9.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"GDL","stock":10},{"providerId":"ctonline","warehouseCode":"CMT","stock":10},{"providerId":"ctonline","warehouseCode":"D2A","stock":10},{"providerId":"ctonline","warehouseCode":"DFA","stock":9}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"ACCPCM1810","stock":39,"price":41.39,"currency":"USD","priceKind":"customer_price"}],
+          "sourceDiscrepancies": ["Intercompras dice transferencia termica, pero tambien usa material papel termico blanco; se guarda tecnologia como transferencia termica por SKU/descripcion."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"labelDimensions": "4 x 2 in", "weight": "No encontrado"},
+        "sourceRefs": [
+          {"title": "Intercompras PCM 50000B0160A", "type": "reseller_spec", "url": "https://intercompras.com/p/etiquetas-transferencia-pcm-50000b0160a-transferencia-termica-101x51-445348"},
+          {"title": "CityShop etiqueta TT 4x2 R-700", "type": "reseller_spec", "url": "https://cityshop.mx/producto/etiqueta-tt-4-x-2-r-700-cp-c-1-caja-con-12-rollos"},
+          {"title": "CTOnline ACCPCM1810 branch stock 39", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "59ojv75vauizuy3",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother TN890 toner negro ultra alto rendimiento 20000 paginas",
+        "description": "Toner original Brother TN890 negro de ultra alto rendimiento, hasta 20000 paginas ISO/IEC 19752, compatible con impresoras Brother HL-L6400DW/HL-L6400DWT y MFC-L6900DW.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/brother/tn-890",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/brother/tn-890/negro-20000-paginas",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/tn890",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARBRT3300/CARBRT3300_full.jpg"],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TN890",
+          "providerSku": "CARBRT3300",
+          "upc": "012502642510",
+          "productType": "Toner laser original",
+          "color": "Negro",
+          "yield": "20000 paginas",
+          "yieldStandard": "ISO/IEC 19752",
+          "compatibility": ["HL-L6400DW", "HL-L6400DWT", "MFC-L6900DW"],
+          "providerBranchSummary": "Disponible por sucursal proveedor: PUE 24, CMT 4, CHI 2, SLP 2, VHA 2, D2A 2, COL 1, MTY 1, OAX 1, URP 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"PUE","stock":24},{"providerId":"ctonline","warehouseCode":"CMT","stock":4},{"providerId":"ctonline","warehouseCode":"CHI","stock":2},{"providerId":"ctonline","warehouseCode":"SLP","stock":2},{"providerId":"ctonline","warehouseCode":"VHA","stock":2},{"providerId":"ctonline","warehouseCode":"D2A","stock":2},{"providerId":"ctonline","warehouseCode":"COL","stock":1},{"providerId":"ctonline","warehouseCode":"MTY","stock":1},{"providerId":"ctonline","warehouseCode":"OAX","stock":1},{"providerId":"ctonline","warehouseCode":"URP","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"CARBRT3300","stock":40,"price":1816,"currency":"MXN","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"packageDimensions": "14.30 x 9.77 x 5.91 in reseller", "weight": "3.31 lb reseller"},
+        "sourceRefs": [
+          {"title": "Brother Mexico TN890", "type": "manufacturer_spec", "url": "https://www.brother.com.mx/products/tn890"},
+          {"title": "Brother USA TN890", "type": "manufacturer_spec", "url": "https://www.brother-usa.com/products/tn890"},
+          {"title": "CTOnline CARBRT3300 branch stock 40", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5a0nzj8gq7l6l2q",
+      "research": {
+        "confidence": 0.94,
+        "name": "ADATA Premier Pro AUSDX128GUI3V30SA2-RA1 microSDXC 128GB UHS-I V30 A2 con adaptador",
+        "description": "Tarjeta ADATA Premier Pro microSDXC AUSDX128GUI3V30SA2-RA1 de 128GB con adaptador, UHS-I U3, clase 10, V30 y A2, lectura/escritura hasta 100/85 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/microsd/128gb-uhs-i-v30-a2",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd/128gb-uhs-i-v30-a2/adata-premier-pro",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/upload/downloadfile/datasheet_adata_premier_pro_microsdxc_sdhc_uhs_i_class_10_memory_card_v30s_20210901.pdf",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10361440"],
+        "specs": {
+          "brand": "ADATA",
+          "model": "AUSDX128GUI3V30SA2-RA1",
+          "providerSku": "RAM-3914",
+          "alternateProviderSku": "MEMDAT6490",
+          "ean": "4710273771335",
+          "productType": "Tarjeta microSDXC con adaptador",
+          "capacity": "128 GB",
+          "standard": "SD 6.0",
+          "speedClass": ["UHS-I U3", "Class 10", "V30", "A2"],
+          "readWrite": "Hasta 100/85 MB/s",
+          "operatingTemp": "-25 C a 85 C",
+          "providerBranchSummary": "Sucursal no disponible; CTOnline reporta stock 6 y CVA reporta stock 1.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"cva","providerSku":"RAM-3914","stock":1,"price":21.73,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"ctonline","providerSku":"MEMDAT6490","stock":6,"price":22.78,"currency":"USD","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["SKU CVA RAM-3914 es ambiguo y no debe forzar categoria RAM; la descripcion y ficha ADATA confirman microSDXC."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"dimensions": "15 x 11 x 1 mm", "weight": "0.25 g"},
+        "sourceRefs": [
+          {"title": "ADATA Premier Pro microSDXC V30S datasheet", "type": "manufacturer_datasheet", "url": "https://www.adata.com/upload/downloadfile/datasheet_adata_premier_pro_microsdxc_sdhc_uhs_i_class_10_memory_card_v30s_20210901.pdf"},
+          {"title": "Provider stock CVA 1 and CTOnline 6", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5adzxwuhgbe3bph",
+      "research": {
+        "confidence": 0.88,
+        "name": "Manhattan 371377 cable VGA SVGA HD15 macho macho 11m negro",
+        "description": "Cable Manhattan 371377 VGA/SVGA HD15 macho a macho de 11 m en color negro, para conexion de monitor o proyector analogico.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15/11m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15/11m/manhattan-371377",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1853691"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "371377",
+          "providerSku": "CB-231",
+          "alternateProviderSku": "CABITL780",
+          "upc": "766623371377",
+          "productType": "Cable VGA/SVGA",
+          "connector1": "HD15/VGA macho",
+          "connector2": "HD15/VGA macho",
+          "length": "11 m",
+          "diameter": "8 mm reportado por fuentes de canal",
+          "shielding": "Triple blindaje reportado por fuentes de canal",
+          "color": "Negro",
+          "providerBranchSummary": "Sucursal no disponible; CTOnline reporta stock 21 y CVA reporta stock 2.",
+          "providerBranches": [],
+          "providerOffers": [
+            {"providerId":"cva","providerSku":"CB-231","stock":2,"price":14.69,"currency":"USD","priceKind":"customer_price"},
+            {"providerId":"ctonline","providerSku":"CABITL780","stock":21,"price":15.13,"currency":"USD","priceKind":"customer_price"}
+          ],
+          "sourceDiscrepancies": ["No se encontro pagina oficial Manhattan vigente para 371377; se conserva evidencia de canal y proveedor."],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"length": "11 m", "packageWeight": "1.50 kg reseller no oficial", "packageDimensions": "19 x 6 x 46 cm reseller no oficial"},
+        "sourceRefs": [
+          {"title": "TiendaClic Manhattan 371377", "type": "reseller_spec", "url": "https://www.depot.tiendaclic.mx/ver-detalle/cable-vga-manhattan-para-monitor-o-proyector-11-mts-negro-macho-macho-manhattan-371377--61d69e40446ee"},
+          {"title": "MiPC Manhattan 371377", "type": "reseller_spec", "url": "https://mipc.com.mx/cable-monitor-manhattan-svga-8mm-hd15m-m-11-0m-371377.html"},
+          {"title": "Provider stock CVA 2 and CTOnline 21", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "5afdz0woxb8u2qo",
+      "research": {
+        "confidence": 0.96,
+        "name": "Brother TZe-641 cinta laminada P-touch 18mm x 8m negro sobre amarillo",
+        "description": "Cinta laminada Brother TZe-641 para rotuladores P-touch, 18 mm x 8 m, impresion negra sobre fondo amarillo, adhesivo estandar y tecnologia de transferencia termica.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/18mm/negro-sobre-amarillo",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/18mm/negro-sobre-amarillo/tze-641",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.brother.com.mx/products/tze641",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARBRT540/CARBRT540_1_full.jpg"],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TZE641",
+          "providerSku": "CARBRT540",
+          "upc": "012502625957",
+          "productType": "Cinta laminada Brother TZe para P-touch",
+          "width": "18 mm / 0.7 in",
+          "length": "8 m / 26.2 ft",
+          "printColor": "Negro",
+          "tapeColor": "Amarillo",
+          "adhesive": "Estandar",
+          "technology": "Transferencia termica",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 3, DFC 3, GDL 1, PUE 1.",
+          "providerBranches": [{"providerId":"ctonline","warehouseCode":"DFA","stock":3},{"providerId":"ctonline","warehouseCode":"DFC","stock":3},{"providerId":"ctonline","warehouseCode":"GDL","stock":1},{"providerId":"ctonline","warehouseCode":"PUE","stock":1}],
+          "providerOffers": [{"providerId":"ctonline","providerSku":"CARBRT540","stock":8,"price":205.33,"currency":"MXN","priceKind":"customer_price"}],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": {"tape": "18 mm x 8 m", "grossWeight": "65.12 g reseller/TME"},
+        "sourceRefs": [
+          {"title": "Brother Mexico TZe-641", "type": "manufacturer_spec", "url": "https://www.brother.com.mx/products/tze641"},
+          {"title": "Brother USA TZe641G", "type": "manufacturer_spec", "url": "https://www.brother-usa.com/products/TZe641G"},
+          {"title": "CTOnline CARBRT540 branch stock 8", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z"}
+        ]
+      }
+    }
+  ]
+}
