@@ -1,4 +1,10 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'impresion/impresoras/multifuncionales-laser/monocromaticas/hp-laserjet-tank', name: 'Multifuncionales laser monocromaticas HP LaserJet Tank', legacyCategory: 'printers_scanners' },
+  { path: 'video/televisores/led-tizen/43-4k', name: 'Televisores LED Tizen 43 pulgadas 4K', legacyCategory: 'tvs' },
+  { path: 'punto-de-venta/impresoras-recibos/80mm-usb-serial-ethernet', name: 'Impresoras POS termicas 80 mm USB serial Ethernet', legacyCategory: 'printers_scanners' },
+  { path: 'accesorios/cables-adaptadores/video-hdmi/alta-velocidad/4-5m', name: 'Cables HDMI alta velocidad 4.5 m', legacyCategory: 'accessories' },
+  { path: 'accesorios/cables-adaptadores/video-hdmi-vga/audio', name: 'Adaptadores HDMI a VGA con audio', legacyCategory: 'accessories' },
+  { path: 'impresion/consumibles/toner-laser/kyocera/tk-5197m-magenta', name: 'Toner Kyocera TK-5197M magenta', legacyCategory: 'printers_scanners' },
   { path: 'accesorios/cables-adaptadores/video-vga/hd15-1-5m', name: 'Cables VGA HD15 de 1.5 m', legacyCategory: 'accessories' },
   { path: 'computo/accesorios/cargadores-laptop/compatibles-dell', name: 'Cargadores compatibles para laptops Dell', legacyCategory: 'laptops' },
   { path: 'computo/accesorios/cargadores-laptop/compatibles-dell/45w-19-5v-4-5x3-0', name: 'Cargadores Dell 45W 19.5V punta 4.5 x 3.0 mm', legacyCategory: 'laptops' },

@@ -401,6 +401,16 @@ const researchedBatchCases = [
   ["Vica SUP USB 9P multicontacto supresor 10 tomas USB-C blanco", "VICA", "energia/supresores-reguladores/supresores-picos/multicontactos/usb-c-10-contactos"],
   ["Manhattan 462228 soporte pared antirrobo tablet iPad 9.7 a 10.5 blanco", "MANHATTAN", "punto-de-venta/terminales-accesorios/soportes-tablet/antirrobo-pared"],
   ["ADATA SC740-1000G-CBU SSD externo 1TB USB-C integrado azul", "ADATA", "computo/almacenamiento/ssd/externos/usb-c/1tb"],
+  ["Perfect Choice FIXEL PC-320548 camara web USB 2K 5MP autofocus", "PERFECT CHOICE", "computo/perifericos/webcams/usb-2k"],
+  ["HP LaserJet Tank MFP 2602sdw multifuncional laser monocromatica WiFi duplex", "HP", "impresion/impresoras/multifuncionales-laser/monocromaticas/hp-laserjet-tank"],
+  ["Xzeal YRDEN XZ-140 XZCGB08W gabinete gamer ATX blanco 4 ARGB", "XZEAL", "computo/componentes/gabinetes/gaming/atx-mid-tower"],
+  ["Lanix LX215 monitor 21.5 FHD 75Hz HDMI VGA bocinas", "LANIX", "computo/monitores/oficina/22-fhd-75hz"],
+  ["Samsung UN43U8200FFXZX Crystal U8200F Smart TV LED Tizen 43 4K", "SAMSUNG", "video/televisores/led-tizen/43-4k"],
+  ["Epson TM-T20IV-SP C31CL47022 impresora termica recibos USB Serial Ethernet", "EPSON", "punto-de-venta/impresoras-recibos/80mm-usb-serial-ethernet"],
+  ["Brobotix 558940 cable HDMI v2.0 4K 4.5 metros negro", "BROBOTIX", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/4-5m"],
+  ["EZVIZ CS-H8-3K camara PT WiFi exterior 5MP 3K dual light", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light"],
+  ["StarTech HD2VGAA2 adaptador HDMI a VGA con audio 1080p negro", "STARTECH.COM", "accesorios/cables-adaptadores/video-hdmi-vga/audio"],
+  ["Kyocera 1T02KTBUS0 toner magenta 7000 paginas TASKalfa 306ci 307ci", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5197m-magenta"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
