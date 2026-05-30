@@ -391,6 +391,16 @@ const researchedBatchCases = [
   ["Provision-ISR I2-320IPSN-28-V4 camara IP bullet 2MP PoE IR 20m", "PROVISION-ISR", "seguridad/cctv/camaras-ip-poe/bullet/2mp"],
   ["HPE ProLiant Compute DL360 Gen12 P89196-005 servidor rack 1U 6505P", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/rack/1u"],
   ["Pantum M6550NW multifuncional laser monocromatica WiFi Ethernet ADF", "PANTUM", "impresion/impresoras/multifuncionales-laser/monocromaticas"],
+  ["Naceb Technology NA-0588 cable VGA HD15 macho macho 1.5 m", "NACEB TECHNOLOGY", "accesorios/cables-adaptadores/video-vga/hd15-1-5m"],
+  ["Hikvision DS-K1T8003EF terminal biometrica asistencia huella EM", "HIKVISION", "seguridad/control-acceso/biometricos/checadores-asistencia"],
+  ["Generico AC-Dell Punta Azul cargador laptop 45W 19.5V 2.31A", "GENERICO", "computo/accesorios/cargadores-laptop/compatibles-dell/45w-19-5v-4-5x3-0"],
+  ["CyberPower SX650U no-break standby 650VA 360W 8 contactos USB", "CYBERPOWER", "energia/no-breaks-ups/standby/650va"],
+  ["Yeyian Elara YCM-APELA-M1 gabinete gamer ATX negro ARGB", "YEYIAN", "computo/componentes/gabinetes/gaming/atx-mid-tower"],
+  ["Dell Pro 24 Plus P2425HE monitor USB-C Hub 23.8 FHD 100Hz", "DELL", "computo/monitores/oficina/24-fhd-100hz/usb-c-hub"],
+  ["Uniarch XVR-108F DVR XVR pentahibrido 8 canales 1080P Lite", "UNIARCH", "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-1080p-lite"],
+  ["Vica SUP USB 9P multicontacto supresor 10 tomas USB-C blanco", "VICA", "energia/supresores-reguladores/supresores-picos/multicontactos/usb-c-10-contactos"],
+  ["Manhattan 462228 soporte pared antirrobo tablet iPad 9.7 a 10.5 blanco", "MANHATTAN", "punto-de-venta/terminales-accesorios/soportes-tablet/antirrobo-pared"],
+  ["ADATA SC740-1000G-CBU SSD externo 1TB USB-C integrado azul", "ADATA", "computo/almacenamiento/ssd/externos/usb-c/1tb"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

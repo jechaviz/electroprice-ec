@@ -1,0 +1,574 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b141-2026-05-30",
+  "cycle": 3,
+  "batch": 141,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3qrtsj7m298chul",
+      "research": {
+        "confidence": 0.86,
+        "brand": "NACEB TECHNOLOGY",
+        "name": "Naceb Technology NA-0588 cable VGA HD15 macho macho 1.5 m",
+        "description": "Cable VGA Naceb Technology NA-0588 de 1.5 m para video analogico, con conectores VGA/HD15 macho a macho y acabado negro con azul.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-5m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-5m/naceb-na-0588",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XS/CP-NACEBTECHNOLOGY-NA-0588-1.jpg"
+        ],
+        "documents": [
+          { "label": "Abasteo Naceb NA-0588", "type": "retailer", "url": "https://www.abasteo.mx/Computo-y-Hardware/Cables/Cables-PC/Cables-PC-VGA-HD15/Naceb-Cable-VGA-D-Sub-Macho-VGA-D-Sub-Macho-1-5-Metros-Negro-Azul.html" },
+          { "label": "Sinacsa NA-0588", "type": "retailer", "url": "https://tienda.sinacsa.mx/producto/cable-vga-naceb-technology-na-0588-na-588-vga/" },
+          { "label": "CTI NA-0588", "type": "retailer", "url": "https://ctisystems.mx/cable-vga-naceb-technology-na-0588-15-m-hd15-machomacho" }
+        ],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0588",
+          "alternateModel": "NA-588",
+          "providerSku": "CABNCB120",
+          "ean": "7502262800594",
+          "productType": "Cable VGA analogico",
+          "length": "1.5 m",
+          "connectors": ["VGA / HD15 macho", "VGA / HD15 macho"],
+          "gender": "Macho a macho",
+          "color": "Negro / azul",
+          "audioSupport": "No transmite audio",
+          "providerBranchSummary": "PB/CT reporta MTY:1; fuentes externas muestran disponibilidad variable.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MTY", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "CABNCB120", "stock": 1, "price": 42.35, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "Algunos comercios escriben 15 m por perdida del decimal; las especificaciones verificadas corresponden a 1.5 m.",
+            "No se encontro ficha oficial Naceb con dimensiones de empaque o peso confiable."
+          ]
+        },
+        "measurements": { "dimensions": "Longitud de cable 1.5 m; empaque no publicado", "weight": "No publicado por fuentes consultadas" },
+        "sourceRefs": [
+          { "title": "Abasteo Naceb NA-0588", "type": "retailer", "url": "https://www.abasteo.mx/Computo-y-Hardware/Cables/Cables-PC/Cables-PC-VGA-HD15/Naceb-Cable-VGA-D-Sub-Macho-VGA-D-Sub-Macho-1-5-Metros-Negro-Azul.html" },
+          { "title": "Sinacsa NA-0588", "type": "retailer", "url": "https://tienda.sinacsa.mx/producto/cable-vga-naceb-technology-na-0588-na-588-vga/" }
+        ]
+      }
+    },
+    {
+      "product_id": "3r3qenjqwdf9put",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HIKVISION",
+        "name": "Hikvision DS-K1T8003EF terminal biometrica asistencia huella EM",
+        "description": "Terminal biometrica Hikvision DS-K1T8003EF para control de acceso y asistencia con huella, tarjetas EM, pantalla LCD-TFT de 2.4 pulgadas, TCP/IP, USB y capacidad para 1000 usuarios.",
+        "manualCategoryPath": "seguridad/control-acceso/biometricos/checadores-asistencia",
+        "semanticCategoryPath": "seguridad/control-acceso/biometricos/checadores-asistencia/hikvision-ds-k1t8003ef",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/mx/products/Access-Control-Products/FingerPrint-Terminals/Value-Series/ds-k1t8003ef/",
+        "gallery": [
+          "https://cdn11.bigcommerce.com/s-misgix1hxt/images/stencil/608x608/products/492/35471/DS-K1T8003EF__95268.1758301179.jpg?c=1"
+        ],
+        "documents": [
+          { "label": "Hikvision DS-K1T8003EF", "type": "manufacturer", "url": "https://www.hikvision.com/mx/products/Access-Control-Products/FingerPrint-Terminals/Value-Series/ds-k1t8003ef/" },
+          { "label": "DS-K1T8003EF datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/m000039793/DS-K1T8003EF-Fingerprint-Access-Control-Terminal_Datasheet_V1.0_20220825.pdf" },
+          { "label": "DS-K1T8003 series user manual", "type": "manual", "url": "https://assets.hikvision.com/prd/public/all/doc/m000001502/UD12587B-F_Baseline_DS-K1T8003-Series-Fingerprint-Access-Control-Terminal_User-Manual_V1.3_20221124.pdf" }
+        ],
+        "specs": {
+          "brand": "HIKVISION",
+          "model": "DS-K1T8003EF",
+          "providerSku": "ACCHKV4500",
+          "ean": "6941264011644",
+          "productType": "Terminal biometrica de control de acceso y asistencia",
+          "display": "LCD-TFT 2.4 pulgadas",
+          "credentialTypes": ["Huella optica", "Tarjeta EM"],
+          "capacity": { "users": 1000, "fingerprints": 1000, "cards": 1000, "events": 100000 },
+          "network": "TCP/IP 10/100 Mbps, ISUP",
+          "interfaces": ["USB", "1 red", "1 control de chapa", "1 boton de salida", "1 contacto de puerta", "tamper"],
+          "power": "12 VDC / 1 A",
+          "environment": "-10 a 55 C; 10 a 90% HR sin condensacion",
+          "providerBranchSummary": "PB/CT reporta TRN:1. Cyberpuerta, Relematic y GlobalOffice muestran existencias publicas variables.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "TRN", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCHKV4500", "stock": 1, "price": 59.88, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "La categoria PB de camaras CCTV era incorrecta; este producto es control de acceso/asistencia.",
+            "El EAN viene de retailers, no de la ficha oficial Hikvision."
+          ]
+        },
+        "measurements": { "dimensions": "140 x 155 x 30 mm", "weight": "0.22 kg neto; 0.78 kg bruto" },
+        "sourceRefs": [
+          { "title": "Hikvision DS-K1T8003EF", "type": "manufacturer", "url": "https://www.hikvision.com/mx/products/Access-Control-Products/FingerPrint-Terminals/Value-Series/ds-k1t8003ef/" },
+          { "title": "DS-K1T8003EF datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/normal/all/doc/m000039793/DS-K1T8003EF-Fingerprint-Access-Control-Terminal_Datasheet_V1.0_20220825.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3r8ju9hltpvk6wj",
+      "research": {
+        "confidence": 0.82,
+        "brand": "GENERICO",
+        "name": "Generico AC-Dell Punta Azul cargador laptop 45W 19.5V 2.31A",
+        "description": "Adaptador generico para laptop Dell de 45 W, salida 19.5 V 2.31 A, con conector punta azul 4.5 x 3.0 mm y acabado negro.",
+        "manualCategoryPath": "computo/accesorios/cargadores-laptop/compatibles-dell/45w-19-5v-4-5x3-0",
+        "semanticCategoryPath": "computo/accesorios/cargadores-laptop/compatibles-dell/45w-19-5v-4-5x3-0/generico-ac-dell-punta-azul",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/CargadorAdaptadorparaLaptopGENERIC_ACDellPuntaAzul_0.jpg"
+        ],
+        "documents": [
+          { "label": "CompuPuebla AC-Dell Punta Azul", "type": "retailer", "url": "https://compupuebla.com/producto/cargador-para-laptop-generico-ac-dell-punta-azul/" },
+          { "label": "FullOffice AC-Dell Punta Azul", "type": "retailer", "url": "https://fulloffice.com/products/cargador-para-laptop-generico-ac-dell-punta-azul" },
+          { "label": "Acomee ACCGEN380", "type": "retailer", "url": "https://www.acomee.com.mx/articulo.php?id=GENERICO&pro=ACCGEN380&search=ACCGEN380" }
+        ],
+        "specs": {
+          "brand": "GENERICO",
+          "model": "AC-Dell Punta Azul",
+          "providerSku": "ACCGEN380",
+          "productType": "Cargador compatible para laptop Dell",
+          "outputPower": "45 W",
+          "outputVoltage": "19.5 V",
+          "outputCurrent": "2.31 A",
+          "connector": "4.5 x 3.0 mm punta azul",
+          "compatibleBrand": "Dell",
+          "color": "Negro",
+          "packageQuantity": "1 pieza",
+          "providerBranchSummary": "PB/CT reporta DFA:66, D2A:16, ACA:12, HMO:5, PUE:5, VHA:5, MOR:3, MTY:3, OAX:3, PAC:3, CHI:2, QRO:2.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFA", "stock": 66 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "D2A", "stock": 16 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "ACA", "stock": 12 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "HMO", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "PUE", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "VHA", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MOR", "stock": 3 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MTY", "stock": 3 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "OAX", "stock": 3 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "PAC", "stock": 3 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CHI", "stock": 2 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "QRO", "stock": 2 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "ACCGEN380", "stock": 154, "price": 7.78, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "Producto generico sin ficha de fabricante ni EAN/UPC verificable.",
+            "El stock total PB 154 no coincide con la suma de sucursales raw 125; se conserva la discrepancia como dato de proveedor.",
+            "Categoria PB de laptops era demasiado amplia."
+          ]
+        },
+        "measurements": { "dimensions": "No publicado por fuentes consultadas", "weight": "No publicado por fuentes consultadas" },
+        "sourceRefs": [
+          { "title": "CompuPuebla AC-Dell Punta Azul", "type": "retailer", "url": "https://compupuebla.com/producto/cargador-para-laptop-generico-ac-dell-punta-azul/" },
+          { "title": "FullOffice AC-Dell Punta Azul", "type": "retailer", "url": "https://fulloffice.com/products/cargador-para-laptop-generico-ac-dell-punta-azul" }
+        ]
+      }
+    },
+    {
+      "product_id": "3rcwumpo88h0gdv",
+      "research": {
+        "confidence": 0.93,
+        "brand": "CYBERPOWER",
+        "name": "CyberPower SX650U no-break standby 650VA 360W 8 contactos USB",
+        "description": "No-break CyberPower SX650U standby de 650 VA / 360 W para 120 V, con 8 contactos NEMA 5-15R, supresion de picos, carga USB y administracion PowerPanel por USB HID.",
+        "manualCategoryPath": "energia/no-breaks-ups/standby/650va",
+        "semanticCategoryPath": "energia/no-breaks-ups/standby/650va/cyberpower-sx650u",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/sx650u",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-CYBERPOWER-SX650U-e9d085.jpg"
+        ],
+        "documents": [
+          { "label": "CyberPower MX SX650U", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/sx650u" },
+          { "label": "CyberPower US SX650U", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/battery-backup/sx650u/" },
+          { "label": "SX650U datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--x7GkKoFL--/20d4b6b7b54724f6b93a5812d4e8fd0c284d74cc.pdf" }
+        ],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "SX650U",
+          "providerSku": "FR-2139",
+          "alternateSku": "NBKCYP1660",
+          "upc": "649532621347",
+          "productType": "UPS / no-break standby",
+          "capacity": "650 VA / 360 W",
+          "topology": "Standby / fuera de linea",
+          "waveformOnBattery": "Onda senoidal simulada",
+          "output": "120 VAC +/- 5%",
+          "outlets": "8 NEMA 5-15R; 4 bateria y supresion, 4 solo supresion",
+          "inputPlug": "NEMA 5-15P, cable 1.5 m",
+          "battery": "SLA 12 V / 5.5 Ah",
+          "runtime": "8.7 a 9 min media carga; 2 a 3 min carga completa segun ficha",
+          "usb": "2 USB-A de carga 2.4 A compartidos; puerto USB HID",
+          "surgeSuppression": "890 J",
+          "warranty": "3 anos limitada fabricante",
+          "providerBranchSummary": "PB no incluye sucursal para este registro; stock total 47 y CVA FR-2139 con precio 1500 MXN.",
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "FR-2139", "stock": 47, "price": 1500, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "Fabricante lo clasifica como standby; no debe caer en line-interactive.",
+            "CyberPower oficial indica garantia 3 anos, mientras algunos retailers mexicanos muestran 1 ano.",
+            "Runtime a carga completa varia entre 2 y 3 min segun resumen/ficha."
+          ]
+        },
+        "measurements": { "dimensions": "249 x 147 x 81 mm; empaque 358.78 x 200.03 x 117.48 mm", "weight": "2.27 kg; empaque 3.08 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower MX SX650U", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/sx650u" },
+          { "title": "SX650U datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--x7GkKoFL--/20d4b6b7b54724f6b93a5812d4e8fd0c284d74cc.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3rnnhypbuuswhp6",
+      "research": {
+        "confidence": 0.94,
+        "brand": "YEYIAN",
+        "name": "Yeyian Elara YCM-APELA-M1 gabinete gamer ATX negro ARGB",
+        "description": "Gabinete gamer Yeyian Elara YCM-APELA-M1 media torre compatible con ATX, Micro-ATX e ITX, vidrio templado, 4 ventiladores ARGB PWM incluidos y soporte para radiador frontal de hasta 360 mm.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/yeyian-elara-ycm-apela-m1",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mx.yeyiangaming.com/products/yeyian-gabinete-gamer-elara-media-torre-atx-m-atx-e-itx-modelo-ycm-apela-m1",
+        "gallery": [
+          "https://mx.yeyiangaming.com/storage/catalog/product/AawKmZT7a1ZIm8NKoqrQpmIp1UIUeDUiWkODuuD3.webp",
+          "https://mx.yeyiangaming.com/storage/catalog/product/gallery/bOJO2ymVI8EXs6kaamsBRAtDEcmjlLmWODW93NtN.webp"
+        ],
+        "documents": [
+          { "label": "Yeyian Elara YCM-APELA-M1", "type": "manufacturer", "url": "https://mx.yeyiangaming.com/products/yeyian-gabinete-gamer-elara-media-torre-atx-m-atx-e-itx-modelo-ycm-apela-m1" },
+          { "label": "Yeyian Elara manual", "type": "manual", "url": "https://docs.yeyiangaming.com/indexV2.php?file=Manual+-+Elara+-+YCM-APELA-M1_Final.pdf&lvl4=manual&sku=YCM-APELA-M1" },
+          { "label": "Yeyian Elara brochure", "type": "datasheet", "url": "https://docs.yeyiangaming.com/indexV2.php?file=YCM-APELA-M1_Elara+case_Brochure-desk_LAT.pdf&lvl4=es_mx&lvl5=brochure&sku=YCM-APELA-M1" }
+        ],
+        "specs": {
+          "brand": "YEYIAN",
+          "model": "YCM-APELA-M1",
+          "providerSku": "GABYEY410",
+          "ean": "7500619014762",
+          "productType": "Gabinete gamer ATX media torre",
+          "motherboardSupport": ["ATX", "Micro-ATX", "ITX"],
+          "material": "Vidrio templado y chasis de acero",
+          "gpuMaxLength": "330 mm por ficha tecnica; texto promocional menciona 360 mm",
+          "cpuCoolerMaxHeight": "165 mm",
+          "driveBays": ["2 x 2.5 pulgadas", "1 x 3.5 pulgadas", "1 combo 2.5/3.5 pulgadas"],
+          "expansionSlots": 7,
+          "psuSupport": "ATX 2.0 / ATX 3.0",
+          "cooling": "Radiador frontal hasta 360 mm; superior hasta 280 mm",
+          "fansIncluded": "4 ARGB PWM; 3 frontales 120 mm y 1 trasero 120 mm",
+          "frontIO": ["USB-A 3.0 Gen1", "USB-A 2.0", "USB-C 3.0 Gen1", "Audio HD", "Boton LED"],
+          "providerBranchSummary": "PB/CT reporta TXA:8, DFA:5, GDL:4, LMO:2, CMT:2, D2A:1.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "TXA", "stock": 8 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFA", "stock": 5 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "GDL", "stock": 4 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "LMO", "stock": 2 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CMT", "stock": 2 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "D2A", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "GABYEY410", "stock": 22, "price": 53.12, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "Categoria PB de tarjetas madre era incorrecta; es gabinete para PC.",
+            "Ficha tecnica Yeyian usa GPU max 330 mm, pero marketing menciona 360 mm."
+          ]
+        },
+        "measurements": { "dimensions": "408 x 210 x 485 mm", "weight": "6.30 kg" },
+        "sourceRefs": [
+          { "title": "Yeyian Elara YCM-APELA-M1", "type": "manufacturer", "url": "https://mx.yeyiangaming.com/products/yeyian-gabinete-gamer-elara-media-torre-atx-m-atx-e-itx-modelo-ycm-apela-m1" },
+          { "title": "Yeyian Elara manual", "type": "manual", "url": "https://docs.yeyiangaming.com/indexV2.php?file=Manual+-+Elara+-+YCM-APELA-M1_Final.pdf&lvl4=manual&sku=YCM-APELA-M1" }
+        ]
+      }
+    },
+    {
+      "product_id": "3rsz08qj8c5r94k",
+      "research": {
+        "confidence": 0.96,
+        "brand": "DELL",
+        "name": "Dell Pro 24 Plus P2425HE monitor USB-C Hub 23.8 FHD 100Hz",
+        "description": "Monitor Dell Pro 24 Plus P2425HE de 23.8 pulgadas FHD IPS a 100 Hz con hub USB-C, entrega de energia de hasta 90 W, RJ45, DisplayPort MST y ergonomia completa.",
+        "manualCategoryPath": "computo/monitores/oficina/24-fhd-100hz/usb-c-hub",
+        "semanticCategoryPath": "computo/monitores/oficina/24-fhd-100hz/usb-c-hub/dell-p2425he",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-pro-24-plus-usb-c-hub-monitor-p2425he/apd/210-bmkk/monitors-monitor-accessories",
+        "gallery": [
+          "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/p-series/p2425he/mg/monitor-pseries-p2425he-bk-gallery-1.psd?chrss=full&fmt=png-alpha&hei=804&pscan=auto&qlt=100%2C1&resMode=sharp2&scl=1&size=913%2C804&wid=913",
+          "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/p-series/p2425he/spi/monitor-p2425he-black-relsize-500-ng.psd?fmt=png-alpha&hei=335&wid=500"
+        ],
+        "documents": [
+          { "label": "Dell P2425HE product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-pro-24-plus-usb-c-hub-monitor-p2425he/apd/210-bmkk/monitors-monitor-accessories" },
+          { "label": "Dell P2425HE manuals", "type": "manufacturer", "url": "https://www.dell.com/support/product-details/en-us/product/p2425he-monitor/resources/manuals" },
+          { "label": "Dell P2425HE user guide", "type": "manual", "url": "https://dl.dell.com/content/manual18365253-dell-p2425he-monitor-user-s-guide.pdf?language=en-us" },
+          { "label": "Dell P2425HE outline dimensions", "type": "datasheet", "url": "https://dl.dell.com/content/manual18364588-dell-p2425he-monitor-outline-dimensions.pdf?language=en-us" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "P2425HE",
+          "providerSku": "MNL-2657",
+          "dellPart": "210-BMKK",
+          "manufacturerPart": "WKHJY",
+          "ean": "0884116468714",
+          "upc": "884116468714",
+          "productType": "Monitor USB-C hub",
+          "display": "23.8 pulgadas IPS FHD 1920 x 1080, 100 Hz, 16:9",
+          "brightness": "250 cd/m2",
+          "contrast": "1500:1",
+          "color": "99% sRGB, 16.7 millones de colores",
+          "response": "5 ms GtG rapido / 8 ms normal",
+          "ports": ["HDMI 1.4", "DisplayPort 1.4", "DisplayPort out MST", "RJ45 1GbE", "USB-C upstream DP Alt Mode 90W", "3 USB-A downstream", "USB-C downstream 15W"],
+          "ergonomics": "Altura 150 mm, tilt -5/+21, swivel -45/+45, pivot -90/+90",
+          "vesa": "100 x 100 mm",
+          "speakers": "No integrados",
+          "warranty": "3 anos Dell Advanced Exchange / Premium Panel Exchange",
+          "providerBranchSummary": "PB no incluye sucursal; CVA/PB reporta stock total 56 con precio 3822.11 MXN.",
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "MNL-2657", "stock": 56, "price": 3822.11, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "El sufijo AC en PB no parece ser variante de modelo; el modelo oficial es P2425HE.",
+            "Dell oficial usa 210-BMKK/WKHJY, mientras PB usa MNL-2657."
+          ]
+        },
+        "measurements": { "dimensions": "Con base 496.53/364 x 538.64 x 181.75 mm; sin base 314.23 x 538.64 x 50.03 mm", "weight": "5.44 kg con base/cables; panel 3.69 kg; empaque 7.24 kg" },
+        "sourceRefs": [
+          { "title": "Dell P2425HE product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-pro-24-plus-usb-c-hub-monitor-p2425he/apd/210-bmkk/monitors-monitor-accessories" },
+          { "title": "Dell P2425HE user guide", "type": "manual", "url": "https://dl.dell.com/content/manual18365253-dell-p2425he-monitor-user-s-guide.pdf?language=en-us" }
+        ]
+      }
+    },
+    {
+      "product_id": "3s3pn4kwmovj74x",
+      "research": {
+        "confidence": 0.93,
+        "brand": "UNIARCH",
+        "name": "Uniarch XVR-108F DVR XVR pentahibrido 8 canales 1080P Lite",
+        "description": "DVR/XVR pentahibrido Uniarch XVR-108F de 8 canales BNC 1080P Lite con 2 canales IP adicionales, compresion Ultra 265/H.265/H.264, HDMI/VGA y bahia SATA para disco de hasta 6 TB.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-1080p-lite",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-1080p-lite/uniarch-xvr-108f",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniarch.cn/Products/Enterprise_Products/Video_Recorder/XVR-F/",
+        "gallery": [
+          "https://www.uniarch.cn/res/202309/04/20230904_1887262_1_975820_575359_0.png"
+        ],
+        "documents": [
+          { "label": "Uniarch XVR-F product page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Enterprise_Products/Video_Recorder/XVR-F/" },
+          { "label": "Visiotech XVR-108F ficha", "type": "datasheet", "url": "https://www.visiotechsecurity.com/es/productos/cctv/video-grabadores-cctv/video-grabadores-hdcvi-hdtvi-ahd-cvbs/video-grabadores-ahd-uniarch/XVR-108F-detail" },
+          { "label": "GlobalOffice XVR-108F", "type": "distributor", "url": "https://globaloffice.com.mx/app/detalle/producto/seguridad/dvr-uniarch-xvr-108f/xvr-108f" }
+        ],
+        "specs": {
+          "brand": "UNIARCH",
+          "model": "XVR-108F",
+          "providerSku": "DVRUNI020",
+          "productType": "DVR/XVR pentahibrido",
+          "channels": "8 BNC + 2 IP",
+          "analogInputs": ["TVI", "AHD", "CVI", "CVBS"],
+          "compression": ["Ultra 265", "H.265", "H.264"],
+          "recording": "1080P Lite / 720P / D1",
+          "playback": "8 canales sincronicos",
+          "storage": "1 SATA hasta 6 TB",
+          "videoOutputs": ["HDMI", "VGA"],
+          "network": "RJ45",
+          "usb": "USB 2.0",
+          "power": "12 VDC",
+          "providerBranchSummary": "PB/CT reporta TAM:20.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "TAM", "stock": 20 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "DVRUNI020", "stock": 20, "price": 28.5, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "PB tenia cantidad de canales 4; XVR-108F corresponde a 8 BNC + 2 IP. 4 canales corresponde a XVR-104F.",
+            "Algunas fichas externas mezclan campos de XVR-104F; se prioriza ficha de fabricante."
+          ]
+        },
+        "measurements": { "dimensions": "190 x 202 x 42 mm", "weight": "0.6 kg maximo" },
+        "sourceRefs": [
+          { "title": "Uniarch XVR-F product page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Enterprise_Products/Video_Recorder/XVR-F/" },
+          { "title": "Visiotech XVR-108F ficha", "type": "datasheet", "url": "https://www.visiotechsecurity.com/es/productos/cctv/video-grabadores-cctv/video-grabadores-hdcvi-hdtvi-ahd-cvbs/video-grabadores-ahd-uniarch/XVR-108F-detail" }
+        ]
+      }
+    },
+    {
+      "product_id": "3s8numpg0cel2us",
+      "research": {
+        "confidence": 0.82,
+        "brand": "VICA",
+        "name": "Vica SUP USB 9P multicontacto supresor 10 tomas USB-C blanco",
+        "description": "Multicontacto Vica SUP USB 9P / SUPVIC060 blanco con supresor de picos, 10 tomas NEMA 5-15R, 3 puertos USB-A, 1 USB-C, interruptor y montaje a pared.",
+        "manualCategoryPath": "energia/supresores-reguladores/supresores-picos/multicontactos/usb-c-10-contactos",
+        "semanticCategoryPath": "energia/supresores-reguladores/supresores-picos/multicontactos/usb-c-10-contactos/vica-sup-usb-9p",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://mipc.com.mx/pub/media/catalog/product/cache/cd9c870953b4d9e0508e095f2908fb3f/v/i/vi-supvic060_1.jpg",
+          "https://cdn.exel.com.mx/xlstore/0003158697.jpg"
+        ],
+        "documents": [
+          { "label": "CT Online Vica SUPVIC060", "type": "distributor", "url": "https://ctonline.mx/producto/Multicontacto-Vica-SUPVIC060-10-x-Tomas-de-Corriente-3-x-USB-A-1-x-USB-C-Blanco-18983" },
+          { "label": "MIPC SUPVIC060", "type": "retailer", "url": "https://mipc.com.mx/multicontacto-vica-supvic060-10-x-tomas-de-corriente-3-x-usb-a-1-x-usb-c-blanco.html" },
+          { "label": "Oasify SUPVIC060", "type": "retailer", "url": "https://oasify.com.mx/producto/multicontacto-vica-supvic060/" }
+        ],
+        "specs": {
+          "brand": "VICA",
+          "model": "SUP USB 9P",
+          "providerSku": "SUPVIC060",
+          "ean": "7501693304497",
+          "productType": "Multicontacto con supresor de picos",
+          "outlets": "10 NEMA 5-15R",
+          "usbPorts": "3 USB-A + 1 USB-C",
+          "rating": "15 A, 125 V, 1875 W",
+          "cableLength": "1.8 m",
+          "features": ["Supresor de picos", "Interruptor encendido/apagado", "Montaje en pared"],
+          "color": "Blanco",
+          "providerBranchSummary": "PB/CT reporta D2A:19, DFA:12, VHA:4, CAM:4, MTY:1, DFT:1.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "D2A", "stock": 19 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFA", "stock": 12 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "VHA", "stock": 4 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CAM", "stock": 4 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "MTY", "stock": 1 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFT", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "SUPVIC060", "stock": 41, "price": 386.02, "currency": "MXN", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "El EAN aparece en fuentes externas con variantes VICAEX/USB 9P de menor capacidad; el match mas fuerte para PB es SUPVIC060 de 10 tomas, 3 USB-A y 1 USB-C.",
+            "Dimensiones/peso provienen de retailer, no de fabricante."
+          ]
+        },
+        "measurements": { "dimensions": "14.8 x 34 x 3.8 cm", "weight": "606 g" },
+        "sourceRefs": [
+          { "title": "CT Online Vica SUPVIC060", "type": "distributor", "url": "https://ctonline.mx/producto/Multicontacto-Vica-SUPVIC060-10-x-Tomas-de-Corriente-3-x-USB-A-1-x-USB-C-Blanco-18983" },
+          { "title": "MIPC SUPVIC060", "type": "retailer", "url": "https://mipc.com.mx/multicontacto-vica-supvic060-10-x-tomas-de-corriente-3-x-usb-a-1-x-usb-c-blanco.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "3sf7dh4rudch256",
+      "research": {
+        "confidence": 0.95,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 462228 soporte pared antirrobo tablet iPad 9.7 a 10.5 blanco",
+        "description": "Soporte de pared antirrobo Manhattan 462228 para tabletas e iPad de 9.7 a 10.5 pulgadas, compatible con VESA 75 x 75, fabricado en acero/plastico blanco con tornillos de bloqueo y gestion interna de cable.",
+        "manualCategoryPath": "punto-de-venta/terminales-accesorios/soportes-tablet/antirrobo-pared",
+        "semanticCategoryPath": "punto-de-venta/terminales-accesorios/soportes-tablet/antirrobo-pared/manhattan-462228",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-soporte-para-montaje-en-pared-para-tableta-y-ipad-462228",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XS/CP-MANHATTAN-462228-3e74c0.jpg"
+        ],
+        "documents": [
+          { "label": "Manhattan 462228 Mexico", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-soporte-para-montaje-en-pared-para-tableta-y-ipad-462228" },
+          { "label": "Manhattan 462228 datasheet ES", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/65796/462228_datasheet_spanish.pdf" },
+          { "label": "Manhattan 462228 datasheet EN", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/65794/462228_datasheet_english.pdf" }
+        ],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "462228",
+          "providerSku": "AC-10793",
+          "ean": "0766623462228",
+          "upc": "766623462228",
+          "productType": "Soporte de pared antirrobo para tablet",
+          "compatibility": "Tabletas 9.7 a 10.5 pulgadas; iPad 9.7, iPad 10.2, iPad Air/Pro 10.5, Galaxy Tab A 10.1 2019",
+          "mounting": "Pared directa o VESA 75 x 75",
+          "material": "Acero y plastico",
+          "color": "Blanco",
+          "security": "Tornillos de bloqueo",
+          "cableManagement": "Gestion interna de cable",
+          "warranty": "3 anos para mercado Mexico; datasheet EN menciona lifetime warranty",
+          "providerBranchSummary": "PB no incluye sucursal; CVA/PB reporta stock total 4 y precio 23.35 USD.",
+          "providerOffers": [
+            { "providerId": "cva", "providerSku": "AC-10793", "stock": 4, "price": 23.35, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "Categoria PB de monitores era incorrecta; es soporte/carcasa antirrobo para tablet.",
+            "Garantia varia por documento/mercado: Mexico 3 anos, datasheet EN lifetime warranty."
+          ]
+        },
+        "measurements": { "dimensions": "323 x 220 x 18 mm", "weight": "1.39 kg neto; 1.57 kg bruto" },
+        "sourceRefs": [
+          { "title": "Manhattan 462228 Mexico", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-soporte-para-montaje-en-pared-para-tableta-y-ipad-462228" },
+          { "title": "Manhattan 462228 datasheet ES", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/65796/462228_datasheet_spanish.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "3sfmyfa5u63xzpy",
+      "research": {
+        "confidence": 0.96,
+        "brand": "ADATA",
+        "name": "ADATA SC740-1000G-CBU SSD externo 1TB USB-C integrado azul",
+        "description": "SSD externo portatil ADATA SC740 de 1 TB con USB-C integrado, interfaz USB 3.2 Gen 2 / USB 10Gbps, lectura hasta 1050 MB/s, escritura hasta 1000 MB/s y resistencia a caidas MIL-STD-810G 516.6.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/externos/usb-c/1tb",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/externos/usb-c/1tb/adata-sc740",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://webapi3.adata.com/storage/downloadfile/datasheet_sc740_external_solid_state_drive_20250826.pdf",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XS/CP-ADATA-SC740-1000G-CBU-fd4740.jpg"
+        ],
+        "documents": [
+          { "label": "ADATA SC740 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_sc740_external_solid_state_drive_20250826.pdf" },
+          { "label": "Cyberpuerta ADATA SC740", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Discos-Duros-SSD-NAS/Discos-Duros-Externos/Disco-Duro-Externo-Adata-SC740-2-5-1TB-USB-C-3-1-Negro-Azul-Resistente-a-Golpes-para-Xbox-Series-X-S.html" },
+          { "label": "MacToner ADATA SC740", "type": "retailer", "url": "https://www.mactoner.com.mx/producto/ssd-adata-sc740-sc740-1000g-cbu-1-tb/" }
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "SC740",
+          "mpn": "SC740-1000G-CBU",
+          "providerSku": "DDUDAT2240",
+          "ean": "4711085949868",
+          "upc": "842243034943",
+          "productType": "SSD externo portatil",
+          "capacity": "1 TB",
+          "interface": "USB 3.2 Gen 2 / USB 10Gbps",
+          "connector": "USB-C integrado con clip",
+          "readSpeed": "Hasta 1050 MB/s",
+          "writeSpeed": "Hasta 1000 MB/s",
+          "dropResistance": "MIL-STD-810G 516.6, 1.22 m",
+          "compatibility": ["Windows 10/11", "macOS 13+", "Linux Kernel 6+", "Android 13+"],
+          "warranty": "5 anos fabricante",
+          "providerBranchSummary": "PB/CT reporta DFA:8, CMT:4, D2A:2, GDL:1; stock total PB 41.",
+          "providerBranches": [
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "DFA", "stock": 8 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "CMT", "stock": 4 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "D2A", "stock": 2 },
+            { "providerId": "tgg7bun9chh7pvg", "warehouseCode": "GDL", "stock": 1 }
+          ],
+          "providerOffers": [
+            { "providerId": "ctonline", "providerSku": "DDUDAT2240", "stock": 41, "price": 75, "currency": "USD", "priceKind": "customer_price" }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T18:40:00Z",
+          "sourceDiscrepancies": [
+            "Stock total PB 41 no coincide con la suma de sucursales raw 15; se conserva discrepancia.",
+            "Algunos retailers rotulan el EAN como UPC; el UPC validado por fuentes externas es 842243034943."
+          ]
+        },
+        "measurements": { "dimensions": "121.75 x 40.5 x 22.3 mm; cable 127 mm", "weight": "40 g" },
+        "sourceRefs": [
+          { "title": "ADATA SC740 datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_sc740_external_solid_state_drive_20250826.pdf" },
+          { "title": "Cyberpuerta ADATA SC740", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Discos-Duros-SSD-NAS/Discos-Duros-Externos/Disco-Duro-Externo-Adata-SC740-2-5-1TB-USB-C-3-1-Negro-Azul-Resistente-a-Golpes-para-Xbox-Series-X-S.html" }
+        ]
+      }
+    }
+  ]
+}
