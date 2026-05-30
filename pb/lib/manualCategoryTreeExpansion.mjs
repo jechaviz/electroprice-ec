@@ -462,6 +462,7 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m-ethernet', name: 'Cables HDMI alta velocidad 5 m con Ethernet', legacyCategory: 'laptops' },
   { path: 'accesorios/cables-adaptadores/video-hdmi/alta-velocidad/7-5m', name: 'Cables HDMI alta velocidad 7.5 m', legacyCategory: 'laptops' },
   { path: 'accesorios/cables-adaptadores/video-hdmi/alta-velocidad/10m', name: 'Cables HDMI alta velocidad 10 m', legacyCategory: 'laptops' },
+  { path: 'accesorios/cables-adaptadores/video-hdmi/alta-velocidad/15m', name: 'Cables HDMI alta velocidad 15 m', legacyCategory: 'laptops' },
   { path: 'accesorios/cables-adaptadores/video-hdmi/alta-velocidad/22-5m', name: 'Cables HDMI alta velocidad 22.5 m', legacyCategory: 'laptops' },
   { path: 'accesorios/cables-adaptadores/video-hdmi/fibra-optica', name: 'Cables HDMI activos de fibra optica', legacyCategory: 'laptops' },
   { path: 'accesorios/cables-adaptadores/video-hdmi/mini-hdmi', name: 'Cables HDMI a Mini HDMI', legacyCategory: 'laptops' },

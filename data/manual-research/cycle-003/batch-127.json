@@ -1,0 +1,486 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b127-2026-05-30",
+  "cycle": 3,
+  "batch": 127,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "h59k4mvwncut7ho",
+      "research": {
+        "confidence": 0.94,
+        "name": "Router inalambrico Dahua DH-N3 N300 2.4GHz negro",
+        "description": "Router inalambrico Dahua DH-N3 N300 de 2.4 GHz con Wi-Fi 4 802.11b/g/n, velocidad hasta 300 Mbps, dos antenas externas, 1 puerto WAN 10/100 y 3 puertos LAN 10/100.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "redes/routers/wifi-n/n300/dahua-dh-n3",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://dahua.co/product/dh-n3/",
+        "gallery": ["https://dahua.co/wp-content/uploads/2024/06/20230214-n3_2_thumb91114-optimized.webp", "https://dahua.co/wp-content/uploads/2024/06/20230214-n3_3_thumb40307-optimized.webp", "https://dahua.co/wp-content/uploads/2024/06/20230214-n3_1_thumb86518-optimized.webp"],
+        "documents": [
+          { "label": "Dahua DH-N3 official product page", "type": "manufacturer", "url": "https://dahua.co/product/dh-n3/" },
+          { "label": "Dahua DH-N3 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/N3_datasheet_20221209.pdf" }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-N3",
+          "aliases": ["N3", "ROUDAH010"],
+          "providerSku": "ROUDAH010",
+          "ean": "6923172560070",
+          "productType": "Router Wi-Fi N",
+          "wirelessStandard": "IEEE 802.11b/g/n",
+          "band": "2.4 GHz",
+          "wirelessSpeed": "Hasta 300 Mbps",
+          "antennas": "2 externas omnidireccionales de 3 dBi",
+          "ports": ["1x WAN 10/100 Mbps", "3x LAN 10/100 Mbps"],
+          "modes": ["Router", "Repetidor"],
+          "wanTypes": ["DHCP", "PPPoE", "IP estatica"],
+          "security": ["WPA-PSK", "WPA2-PSK", "WPA2-Mixed"],
+          "networkFeatures": ["WPS/Reset", "DHCP server", "Reserva de direccion", "Port forwarding", "DMZ", "UPnP", "QoS por dispositivo"],
+          "power": "12 VDC 0.5 A",
+          "powerConsumption": "3.2 W",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 296 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 9 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ROUDAH010", "stock": 533, "price": 8.52, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider category was CCTV cameras; official Dahua page confirms router.", "Provider EAN differs from one regional distributor listing; official datasheet did not expose EAN."]
+        },
+        "measurements": { "dimensions": "172 x 121 x 33 mm; empaque 218 x 245 x 45 mm", "weight": "0.125 kg neto; 0.303 kg bruto" },
+        "sourceRefs": [
+          { "title": "Dahua DH-N3 official product page", "type": "manufacturer", "url": "https://dahua.co/product/dh-n3/" },
+          { "title": "Dahua DH-N3 datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/N3_datasheet_20221209.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "gxzzhtacxmsc66x",
+      "research": {
+        "confidence": 0.95,
+        "name": "Mochila HP Prelude 15.6 gris para laptop",
+        "description": "Mochila HP Prelude 1E7D6UT para laptop de hasta 15.6 pulgadas, color gris, con compartimento dedicado para notebook, bolsillos internos y externos, correas acolchadas ajustables y asa superior.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/hp-prelude",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ie-en/products/accessories/product-details/2100425708",
+        "gallery": ["https://vsf-api.klick.ee/img/806/1000/resize/1/_/1_4034.jpg", "https://vsf-api.klick.ee/img/806/1000/resize/2/_/2_3624.jpg", "https://vsf-api.klick.ee/img/806/1000/resize/3/_/3_3235.jpg", "https://static.ctonline.mx/imagenes/MALHPI140/MALHPI140_full.jpg"],
+        "documents": [
+          { "label": "HP Prelude Backpack 15.6 official page", "type": "manufacturer", "url": "https://www.hp.com/ie-en/products/accessories/product-details/2100425708" },
+          { "label": "HP Prelude Backpack 15.6 official specifications", "type": "manufacturer", "url": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2100425708" },
+          { "label": "Klick HP Prelude image/EAN cross-check", "type": "retailer", "url": "https://www.klick.ee/seljakott-hp-prelude-15-6-backpack-1" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "1E7D6UT",
+          "aliases": ["HP Prelude Backpack 15.6", "MALHPI140"],
+          "providerSku": "MALHPI140",
+          "upc": "195122283681",
+          "productType": "Mochila para laptop",
+          "maxScreenSize": "15.6 pulgadas",
+          "color": "Gris",
+          "material": "Poliester",
+          "features": ["Compartimento dedicado para laptop", "Compartimentos para documentos y accesorios", "Bolsillo exterior de acceso rapido", "Correas ajustables acolchadas", "Asa superior"],
+          "sustainability": "Bolsa LDPE con plastico reciclado y etiqueta de papel reciclado segun HP",
+          "warranty": "1 ano limitada",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 262 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 208 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "TXL", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MALHPI140", "stock": 529, "price": 276.67, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider category was monitors; official HP page confirms backpack.", "UPC is the non-leading-zero form of EAN 0195122283681."]
+        },
+        "measurements": { "dimensions": "41 x 28.6 x 9 cm; empaque 31 x 9 x 42 cm", "weight": "0.49 kg; empaque 0.52 kg" },
+        "sourceRefs": [
+          { "title": "HP Prelude Backpack 15.6 official page", "type": "manufacturer", "url": "https://www.hp.com/ie-en/products/accessories/product-details/2100425708" },
+          { "title": "HP Prelude Backpack official specifications", "type": "manufacturer", "url": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2100425708" },
+          { "title": "Klick HP Prelude image/EAN cross-check", "type": "retailer", "url": "https://www.klick.ee/seljakott-hp-prelude-15-6-backpack-1" }
+        ]
+      }
+    },
+    {
+      "product_id": "zc4f7xbeh0waeae",
+      "research": {
+        "confidence": 0.95,
+        "name": "Cable HDMI Manhattan 308434 alta velocidad macho a macho 15m negro",
+        "description": "Cable HDMI Manhattan 308434 de alta velocidad, HDMI-A macho a HDMI-A macho, 15 metros, color negro, doble apantallado, compatible con 4K a 30Hz, 3D y ancho de banda de 10.2 Gbps.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/15m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/15m/manhattan-308434",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-308434",
+        "gallery": ["https://manhattan.lat/cdn/shop/files/high-speed-hdmi-cable-308434-packaging-5_e23cc312-42ae-4088-affc-57a9c1d74689.jpg?v=1779533451&width=1946", "https://manhattan.lat/cdn/shop/files/high-speed-hdmi-cable-308434-2_0989d123-bf50-43c8-8383-b615a0af2a2e.jpg?v=1779533451&width=1946", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1855686"],
+        "documents": [
+          { "label": "Manhattan 308434 official LATAM page", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-308434" },
+          { "label": "Manhattan 308434 Spanish datasheet", "type": "datasheet", "url": "https://mh-int.com/_scripts/tcpdf/dscreate.php?barcode=308434&language=spanish" },
+          { "label": "DigiKey Manhattan 308434 technical cross-check", "type": "retailer", "url": "https://www.digikey.com/en/products/detail/manhattan-products/308434/28716847" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "308434",
+          "aliases": ["CB-233", "CABITL415"],
+          "providerSku": "CB-233",
+          "productType": "Cable HDMI",
+          "connectorA": "HDMI-A macho",
+          "connectorB": "HDMI-A macho",
+          "length": "15 m / 50 ft",
+          "color": "Negro",
+          "videoSupport": ["4K@30Hz", "1080p", "3D", "Deep Color"],
+          "bandwidth": "10.2 Gbps a 340 MHz",
+          "shielding": "Doble apantallado",
+          "wireGauge": "26 AWG",
+          "contacts": "Banados en niquel",
+          "moldedBoots": "PVC",
+          "certifications": ["CE", "RoHS", "REACH"],
+          "warranty": "5 anos segun region",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABITL415", "stock": 511, "price": 23.82, "currency": "USD", "priceKind": "customer_price" }, { "providerId": "cva", "providerSku": "CB-233", "stock": 12, "price": 24.17, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider title says 1.3 M-M; manufacturer markets it as High Speed HDMI, not as an HDMI 1.3-only product.", "Current providers expose no branch-level warehouse codes for this item."]
+        },
+        "measurements": { "dimensions": "Longitud 15 m", "weight": "No localizado con confianza" },
+        "sourceRefs": [
+          { "title": "Manhattan 308434 official LATAM page", "type": "manufacturer", "url": "https://manhattan.lat/products/manhattan-es-cable-hdmi-de-alta-velocidad-308434" },
+          { "title": "Manhattan 308434 Spanish datasheet", "type": "datasheet", "url": "https://mh-int.com/_scripts/tcpdf/dscreate.php?barcode=308434&language=spanish" },
+          { "title": "DigiKey Manhattan 308434 technical cross-check", "type": "retailer", "url": "https://www.digikey.com/en/products/detail/manhattan-products/308434/28716847" }
+        ]
+      }
+    },
+    {
+      "product_id": "fud385czamkqjcp",
+      "research": {
+        "confidence": 0.91,
+        "name": "Mouse inalambrico Perfect Choice Essential PC-044819 optico 1600 DPI turquesa",
+        "description": "Mouse inalambrico Perfect Choice Essential PC-044819 con receptor USB-A 2.4 GHz, sensor optico, resolucion ajustable 800/1200/1600 DPI, diseno ambidiestro, 3 botones y color turquesa.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi/perfect-choice-pc-044819",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mcashop.mx/producto/descargar/206528",
+        "gallery": ["https://www.officedepot.com.mx/medias/92368.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MTc0MTE1fGltYWdlL2pwZWd8YURaa0wyaGxOaTg1TnpreU9EUXpOVEV6T0RnMkxtcHdad3w2ZWNlNWFlNTQ5MjQ0NjExOWVhMTNhOWNjZmFkYTA4YTk0YjJhNDhkNTRhNzg1MzNkNjYyNGRiNDRkN2Q0YzQ3", "https://www.officedepot.com.mx/medias/92368-2.jpg-515ftw?context=bWFzdGVyfHJvb3R8NTI0MjF8aW1hZ2UvanBlZ3xhRFppTDJneE5TODVOemt5T0RRek1qVXhOelF5TG1wd1p3fGYwMWU1M2E4YjkzYzgwNDE2NDgzMTE2MDJhNzk3Njc2YjEyZDg0ZTQ4NzFmN2RkOTM4ZmZjOWZiZmNhYjdlMjQ", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10070723"],
+        "documents": [
+          { "label": "MCA Perfect Choice PC-044819 technical sheet", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/206528" },
+          { "label": "Lumen Perfect Choice PC-044819 listing", "type": "retailer", "url": "https://lumen.com.mx/mouse-perfect-choice-pc-044819-24gz-1200dpi-turquesa-marca-perfect-choice-sku-267923" },
+          { "label": "Office Depot Perfect Choice PC-044819 image/spec cross-check", "type": "retailer", "url": "https://www.officedepot.com.mx/officedepot/en/Categor%C3%ADa/Todas/computo/teclados-mouse-y-camaras-web/mouse-inalambrico/Mouse-Inal%C3%A1mbrico-Perfect-Choice-PC-044819-Receptor-USB-Azul-PC-Laptop/p/92368" }
+        ],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-044819",
+          "aliases": ["MS-1241", "MOUMST1510", "Perfect Choice Essential"],
+          "providerSku": "MS-1241",
+          "productType": "Mouse inalambrico",
+          "interface": "RF 2.4 GHz con receptor USB-A",
+          "sensor": "Optico",
+          "dpi": "800 / 1200 / 1600 DPI ajustable",
+          "buttons": "3 botones y rueda",
+          "formFactor": "Ambidiestro / simetrico",
+          "wirelessRange": "10 m",
+          "battery": "1 bateria AA alcalina",
+          "color": "Turquesa / gris",
+          "packageType": "Blister",
+          "compatibility": ["Windows 7", "Windows 8", "Windows 8.1", "Windows 10"],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUMST1510", "stock": 517, "price": 108.39, "currency": "MXN", "priceKind": "customer_price" }, { "providerId": "cva", "providerSku": "MS-1241", "stock": 5, "price": 106.61, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["One retailer title mentions Bluetooth, but technical sheets and product context indicate 2.4 GHz RF with USB receiver.", "Open sources vary color wording between turquesa, azul and menta; provider title uses turquesa."]
+        },
+        "measurements": { "dimensions": "56 x 95 x 34 mm", "weight": "51 g segun retail; empaque/listing hasta 0.07 kg" },
+        "sourceRefs": [
+          { "title": "MCA Perfect Choice PC-044819 technical sheet", "type": "datasheet", "url": "https://mcashop.mx/producto/descargar/206528" },
+          { "title": "Lumen Perfect Choice PC-044819 listing", "type": "retailer", "url": "https://lumen.com.mx/mouse-perfect-choice-pc-044819-24gz-1200dpi-turquesa-marca-perfect-choice-sku-267923" },
+          { "title": "Office Depot Perfect Choice PC-044819 image/spec cross-check", "type": "retailer", "url": "https://www.officedepot.com.mx/officedepot/en/Categor%C3%ADa/Todas/computo/teclados-mouse-y-camaras-web/mouse-inalambrico/Mouse-Inal%C3%A1mbrico-Perfect-Choice-PC-044819-Receptor-USB-Azul-PC-Laptop/p/92368" }
+        ]
+      }
+    },
+    {
+      "product_id": "k3srdfsn2pxmsiu",
+      "research": {
+        "confidence": 0.88,
+        "name": "Monitor Naceb NA-628 21.5 Full HD LED 60Hz negro",
+        "description": "Monitor Naceb Technology NA-628 de 21.5 pulgadas Full HD 1920 x 1080, tecnologia LED, entradas HDMI y VGA, brillo 200 cd/m2, respuesta 2 ms y color negro.",
+        "manualCategoryPath": "computo/monitores/oficina/22-fhd-60hz",
+        "semanticCategoryPath": "computo/monitores/oficina/22-fhd-60hz/naceb-na-628",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://naceb.com.mx/producto/na-628/",
+        "gallery": ["https://naceb.com.mx/wp-content/uploads/2023/10/NA-628-600x600.webp", "https://compupuebla.com/wp-content/uploads/2024/04/MonitorNacebTechnologyNA628215pulg_NA628_EAN7502262806282_1-600x478.jpg", "https://compupuebla.com/wp-content/uploads/2024/04/MonitorNacebTechnologyNA628215pulg_NA628_EAN7502262806282_2-600x478.jpg"],
+        "documents": [
+          { "label": "Naceb NA-628 official product page", "type": "manufacturer", "url": "https://naceb.com.mx/producto/na-628/" },
+          { "label": "CompuPuebla Naceb NA-628 EAN/spec cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/monitor-naceb-technology-na-628/" },
+          { "label": "ClaroShop Naceb NA-628 cross-check", "type": "retailer", "url": "https://www.claroshop.com/producto/1423620/monitor-gamer-21-5-naceb-2ms-60hz-full-hd-vga-hdmi-widescreen-na-628" }
+        ],
+        "specs": {
+          "brand": "Naceb Technology",
+          "model": "NA-628",
+          "aliases": ["MONNCB020"],
+          "providerSku": "MONNCB020",
+          "ean": "7502262806282",
+          "productType": "Monitor LED/LCD",
+          "screenSize": "21.5 pulgadas",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "60 Hz",
+          "responseTime": "2 ms",
+          "brightness": "200 cd/m2",
+          "contrast": "5000:1 segun retail; pagina oficial NA-628 publica 1000:1 en ficha generica",
+          "aspectRatio": "16:9",
+          "ports": ["1x HDMI", "1x VGA"],
+          "color": "Negro",
+          "power": "100-240 V 50/60 Hz con adaptador AC",
+          "includedAccessories": ["Cable de corriente", "Cable HDMI o VGA segun listing", "Manual", "Adaptador AC"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 94 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 84 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 60 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 35 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 25 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "ACX", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONNCB020", "stock": 522, "price": 849.46, "currency": "MXN", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider subcategory says gaming, but official/public specs describe a basic 60Hz FHD monitor.", "Open sources disagree on included cable and weight; stored as discrepancy."]
+        },
+        "measurements": { "dimensions": "55.3 x 40.5 x 10.3 cm", "weight": "3.5 kg segun CompuPuebla; 2.8 kg segun ClaroShop" },
+        "sourceRefs": [
+          { "title": "Naceb NA-628 official product page", "type": "manufacturer", "url": "https://naceb.com.mx/producto/na-628/" },
+          { "title": "CompuPuebla Naceb NA-628 EAN/spec cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/monitor-naceb-technology-na-628/" },
+          { "title": "ClaroShop Naceb NA-628 cross-check", "type": "retailer", "url": "https://www.claroshop.com/producto/1423620/monitor-gamer-21-5-naceb-2ms-60hz-full-hd-vga-hdmi-widescreen-na-628" }
+        ]
+      }
+    },
+    {
+      "product_id": "ktsq40p4lduazzy",
+      "research": {
+        "confidence": 0.95,
+        "name": "Cable patch Intellinet Cat6 U/UTP RJ45 1.5m gris",
+        "description": "Cable patch Intellinet 340380 Cat6 U/UTP de 1.5 metros, RJ45 macho a RJ45 macho, 24 AWG, 250 MHz, compatible hasta 10 Gbps y PoE++/4PPoE, color gris.",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/1-5m",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat6/1-5m/intellinet-340380",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-340380",
+        "gallery": ["https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat6-utp-340380-1_ad530968-4e81-4081-8018-844b05dd0526.jpg?v=1665006489&width=1946", "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat6-utp-340380-2_ee56895c-3d34-4851-af03-19909a65b20c.jpg?v=1665006489&width=1946", "https://intellinetnetwork.eu/cdn/shop/products/network-cable-cat6-utp-340380-packaging-1_e9b65cf1-7267-46a4-89e7-4528efe0d915.jpg?v=1665006489&width=1946"],
+        "documents": [
+          { "label": "Intellinet 340380 official product page", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-340380" },
+          { "label": "CompuPuebla Intellinet Cat6 cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/cable-de-red-cat6-intellinet/" },
+          { "label": "Novusred Intellinet 340380 SKU cross-check", "type": "retailer", "url": "https://novusred.mx/computo-y-multimedia/cables-y-adaptadores-para-computo/cables-de-red-para-computo/38259-rckacc1015-340380-cable-patch-cat-6-15m-50f-utp-color-gris--RCKACC1015.html" }
+        ],
+        "specs": {
+          "brand": "Intellinet",
+          "model": "340380",
+          "aliases": ["IEC-C6-GY-5", "RCKACC1015"],
+          "providerSku": "RCKACC1015",
+          "upc": "766623340380",
+          "productType": "Patch cord Cat6",
+          "categoryRating": "Cat6 U/UTP",
+          "length": "1.5 m / 5 ft",
+          "connectors": "RJ45 macho a RJ45 macho",
+          "wireGauge": "24 AWG",
+          "conductor": "Trenzado CCA",
+          "jacket": "PVC CM",
+          "color": "Gris",
+          "frequency": "250 MHz",
+          "speed": "Hasta 10 Gbps",
+          "poeSupport": "Hasta IEEE 802.3bt / PoE++ / 4PPoE / Ultra PoE",
+          "features": ["Contactos banados en oro", "Botas snag-free", "Compatible T568A/T568B", "Compatible hacia atras con Cat5e/Cat5"],
+          "certifications": ["ISO/IEC 11801", "EN 50288", "RoHS", "REACH", "ANSI/TIA-568.2-D", "1000Base-T", "10GBase-T"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "DFA", "stock": 178 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 123 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 50 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 23 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "CTZ", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 6 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "RCKACC1015", "stock": 521, "price": 1.97, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider specs say white, but manufacturer and cross-check listings identify SKU 340380 as gray; gallery also shows gray."]
+        },
+        "measurements": { "dimensions": "Longitud 1.5 m; empaque 220 x 125 x 15 mm", "weight": "60 g neto; 65-70 g bruto" },
+        "sourceRefs": [
+          { "title": "Intellinet 340380 official product page", "type": "manufacturer", "url": "https://intellinetnetwork.eu/products/intellinet-en-network-cable-cat6-utp-340380" },
+          { "title": "CompuPuebla Intellinet Cat6 cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/cable-de-red-cat6-intellinet/" },
+          { "title": "Novusred Intellinet 340380 SKU cross-check", "type": "retailer", "url": "https://novusred.mx/computo-y-multimedia/cables-y-adaptadores-para-computo/cables-de-red-para-computo/38259-rckacc1015-340380-cable-patch-cat-6-15m-50f-utp-color-gris--RCKACC1015.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "h9fi9h675jqrave",
+      "research": {
+        "confidence": 0.93,
+        "name": "Monitor Stylos STPMOT7B 23.8 Full HD VA 100Hz 5ms negro",
+        "description": "Monitor Stylos STPMOT7B de 23.8 pulgadas Full HD con panel VA, frecuencia de 100 Hz, respuesta 5 ms, brillo 300 cd/m2, entradas HDMI 1.4 y VGA, color negro.",
+        "manualCategoryPath": "computo/monitores/oficina/24-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/24-fhd-100hz/stylos-stpmot7b",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://stylos.mx/producto/monitor-23-8-smot7-fhd-100hz-5ms/",
+        "gallery": ["https://stylos.mx/wp-content/uploads/2025/10/STPMOT7B_1100X1100_1.jpg", "https://compupuebla.com/wp-content/uploads/2025/10/MonitorStylos238StylosSMOT7FlatPan_STPMOT7B_EAN7503053078512_0-600x600.jpg", "https://compupuebla.com/wp-content/uploads/2025/10/MonitorStylos238StylosSMOT7FlatPan_STPMOT7B_EAN7503053078512_1-600x600.jpg"],
+        "documents": [
+          { "label": "Stylos STPMOT7B official product page", "type": "manufacturer", "url": "https://stylos.mx/producto/monitor-23-8-smot7-fhd-100hz-5ms/" },
+          { "label": "Stylos STPMOT7B technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/68d/848/c49/FICHA_TECNICA_STPMOT7B-2.pdf" },
+          { "label": "CompuPuebla Stylos STPMOT7B EAN/spec cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/monitor-stylos-stpmot7b/" }
+        ],
+        "specs": {
+          "brand": "Stylos",
+          "model": "STPMOT7B",
+          "aliases": ["STOMOT7B", "SMOT7", "MONSTY390"],
+          "providerSku": "MONSTY390",
+          "ean": "7503053078512",
+          "productType": "Monitor LED/LCD",
+          "screenSize": "23.8 pulgadas",
+          "panel": "VA",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "100 Hz",
+          "responseTime": "5 ms",
+          "brightness": "300 cd/m2",
+          "contrast": "1000:1",
+          "aspectRatio": "16:9",
+          "colorDepth": "16.7 millones de colores / 8-bit",
+          "ports": ["1x HDMI 1.4", "1x VGA"],
+          "color": "Negro",
+          "powerConsumption": "24 W uso; 1 W reposo",
+          "includedAccessories": ["Cable HDMI 1.5 m", "Adaptador de corriente", "Manual", "Garantia"],
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "PUE", "stock": 370 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 86 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 22 }, { "providerId": "ctonline", "warehouseCode": "CAM", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "COL", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "VHA", "stock": 3 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 2 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 1 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONSTY390", "stock": 519, "price": 1031.13, "currency": "MXN", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["VESA appears as 75 x 75 mm in the PDF table but 100 x 100 mm in visual/commercial sheets; left out of key specs pending stronger confirmation."]
+        },
+        "measurements": { "dimensions": "58.9 x 11.7 x 38.2 cm", "weight": "3.7 kg" },
+        "sourceRefs": [
+          { "title": "Stylos STPMOT7B official product page", "type": "manufacturer", "url": "https://stylos.mx/producto/monitor-23-8-smot7-fhd-100hz-5ms/" },
+          { "title": "Stylos STPMOT7B technical sheet", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/68d/848/c49/FICHA_TECNICA_STPMOT7B-2.pdf" },
+          { "title": "CompuPuebla Stylos STPMOT7B EAN/spec cross-check", "type": "retailer", "url": "https://compupuebla.com/producto/monitor-stylos-stpmot7b/" }
+        ]
+      }
+    },
+    {
+      "product_id": "opr060enddeszso",
+      "research": {
+        "confidence": 0.95,
+        "name": "Adaptador USB Wi-Fi TP-Link Archer T2U Plus AC600 doble banda con antena 5dBi",
+        "description": "Adaptador USB Wi-Fi TP-Link Archer T2U Plus AC600 de doble banda con antena externa de alta ganancia 5 dBi, USB 2.0, velocidades de hasta 200 Mbps en 2.4 GHz y 433 Mbps en 5 GHz.",
+        "manualCategoryPath": "redes/adaptadores-wifi/usb/ac600-alta-ganancia",
+        "semanticCategoryPath": "redes/adaptadores-wifi/usb/ac600-alta-ganancia/tp-link-archer-t2u-plus",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/uk/home-networking/adapter/archer-t2u-plus/",
+        "gallery": ["https://static.tp-link.com/Archer-T2U-Plus_EU_1.0_01_large_1547190016631d.jpg", "https://static.tp-link.com/Archer-T2U-Plus_EU_1.0_01_normal_1547190016631t.jpg", "https://static.tp-link.com/Archer-T2U-Plus_EU_1.0_02_normal_1547190027916n.jpg"],
+        "documents": [
+          { "label": "TP-Link Archer T2U Plus official page", "type": "manufacturer", "url": "https://www.tp-link.com/uk/home-networking/adapter/archer-t2u-plus/" },
+          { "label": "TP-Link Archer T2U Plus datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202010/20201019/Archer%20T2U%20Plus%28EU%26US%291.0%20Datasheet.pdf" },
+          { "label": "B&H Archer T2U Plus specs cross-check", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1506571-REG/tp_link_archer_t2u_plus_ac600.html/overview" }
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Archer T2U Plus",
+          "aliases": ["TARTPL530", "NIC-3468", "AC600 High Gain Wireless Dual Band USB Adapter"],
+          "providerSku": "NIC-3468",
+          "upc": "840030700033",
+          "productType": "Adaptador USB Wi-Fi",
+          "interface": "USB 2.0",
+          "wifiClass": "AC600 / Wi-Fi 5",
+          "bands": ["2.4 GHz hasta 200 Mbps", "5 GHz hasta 433 Mbps"],
+          "antenna": "1 externa ajustable de 5 dBi",
+          "standards": ["IEEE 802.11a", "802.11b", "802.11g", "802.11n", "802.11ac"],
+          "modes": ["Ad-Hoc", "Infrastructure"],
+          "security": ["WEP", "WPA", "WPA-PSK", "WPA2", "WPA2-PSK"],
+          "certifications": ["FCC", "CE", "RoHS"],
+          "compatibility": ["Windows 11", "Windows 10", "Windows 8.1", "Windows 8", "Windows 7", "Windows XP", "macOS segun version de driver"],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARTPL530", "stock": 516, "price": 11.36, "currency": "USD", "priceKind": "customer_price" }, { "providerId": "cva", "providerSku": "NIC-3468", "stock": 0, "price": 10.79, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider path was access-points; product is a USB Wi-Fi adapter.", "Manufacturer does not publish net weight clearly; retail package weights vary."]
+        },
+        "measurements": { "dimensions": "57.8 x 18 x 173.4 mm con antena vertical", "weight": "No publicado con confianza; retail reporta 20 g o paquete aprox. 0.325 lb" },
+        "sourceRefs": [
+          { "title": "TP-Link Archer T2U Plus official page", "type": "manufacturer", "url": "https://www.tp-link.com/uk/home-networking/adapter/archer-t2u-plus/" },
+          { "title": "TP-Link Archer T2U Plus datasheet", "type": "datasheet", "url": "https://static.tp-link.com/2020/202010/20201019/Archer%20T2U%20Plus%28EU%26US%291.0%20Datasheet.pdf" },
+          { "title": "B&H Archer T2U Plus specs cross-check", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1506571-REG/tp_link_archer_t2u_plus_ac600.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "irwy43qyyyoldxs",
+      "research": {
+        "confidence": 0.9,
+        "name": "Monitor Acteck Captive Vivid II SP270 27 Full HD VA 100Hz 5ms negro",
+        "description": "Monitor Acteck Captive Vivid II SP270 AC-943154 de 27 pulgadas Full HD con panel VA, frecuencia de 100 Hz, respuesta 5 ms, HDMI, VGA, VESA 100 x 100 y color negro.",
+        "manualCategoryPath": "computo/monitores/oficina/27-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/27-fhd-100hz/acteck-sp270",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://grupodecme.com/products/monitor-27-acteck-captive-vivid-ii-sp270-5ms-100hz-full-hd-va-led-hdmi-ac-943154",
+        "gallery": ["https://i5.walmartimages.com/asr/568d0d1b-161c-482d-a6ab-d1d3fae5ba5e.d416c148b9bb4341ed2d4f84e21a3df6.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640", "https://i5.walmartimages.com/asr/ace86c91-86e1-4aef-bd39-be637e0c4511.38720bee4b2a297122ca551027424af8.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640", "https://static.ctonline.mx/imagenes/MONACT120/MONACT120_full.jpg"],
+        "documents": [
+          { "label": "Grupo Decme Acteck SP270 listing", "type": "retailer", "url": "https://grupodecme.com/products/monitor-27-acteck-captive-vivid-ii-sp270-5ms-100hz-full-hd-va-led-hdmi-ac-943154" },
+          { "label": "Walmart Acteck SP270 listing", "type": "retailer", "url": "https://www.walmart.com.mx/ip/monitor-27-acteck-captive-vivid-ii-sp270-5ms-100hz-full-hd-va-led-hdmi-ac-943154-negro/00750621594315" },
+          { "label": "Tecnowow Acteck SP270 EAN cross-check", "type": "retailer", "url": "https://tecnowow.mx/construye-tu-pc/perifericos/monitores/monitor-acteck-captivvivid-ii-sp270-27-pulgadas-fhd-100hz" }
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Captive Vivid II SP270",
+          "partNumber": "AC-943154",
+          "aliases": ["CAPTIVE VIVI II SP270", "MONACT120"],
+          "providerSku": "MONACT120",
+          "ean": "7506215943154",
+          "productType": "Monitor LED/LCD",
+          "screenSize": "27 pulgadas",
+          "panel": "VA plano",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "100 Hz",
+          "responseTime": "5 ms",
+          "brightness": "250 cd/m2",
+          "contrast": "1000:1",
+          "aspectRatio": "16:9",
+          "viewingAngles": "178/178 grados",
+          "colorDepth": "16.7 millones de colores",
+          "features": ["Diseno sin marcos", "Low Blue Light", "Kensington lock", "Seleccion de temperatura de color"],
+          "ports": ["HDMI", "VGA"],
+          "vesa": "100 x 100 mm",
+          "tilt": "-5 a +15 grados",
+          "speakers": "Sin bocinas integradas",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 172 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 130 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 12 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 8 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONACT120", "stock": 515, "price": 1440.86, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider model says Captive Vivi II; retail sources normalize it as Captive Vivid II/CAPTIVVIVID II.", "Some listings group the item under Balam Rush while EAN/part number point to Acteck."]
+        },
+        "measurements": { "dimensions": "61.4 x 16.7 x 44.1 cm", "weight": "3.5 kg" },
+        "sourceRefs": [
+          { "title": "Grupo Decme Acteck SP270 listing", "type": "retailer", "url": "https://grupodecme.com/products/monitor-27-acteck-captive-vivid-ii-sp270-5ms-100hz-full-hd-va-led-hdmi-ac-943154" },
+          { "title": "Walmart Acteck SP270 listing", "type": "retailer", "url": "https://www.walmart.com.mx/ip/monitor-27-acteck-captive-vivid-ii-sp270-5ms-100hz-full-hd-va-led-hdmi-ac-943154-negro/00750621594315" },
+          { "title": "Tecnowow Acteck SP270 EAN cross-check", "type": "retailer", "url": "https://tecnowow.mx/construye-tu-pc/perifericos/monitores/monitor-acteck-captivvivid-ii-sp270-27-pulgadas-fhd-100hz" }
+        ]
+      }
+    },
+    {
+      "product_id": "r7xfdz9srski3m0",
+      "research": {
+        "confidence": 0.95,
+        "name": "Cable de corriente Manhattan 300179 NEMA 5-15 a IEC C13 1.8m negro",
+        "description": "Cable de alimentacion Manhattan 300179 para PC, monitor, impresora o TV, con conector NEMA 5-15 a IEC 60320 C13, longitud 1.8 m, 18 AWG, 10 A y color negro.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/energia/corriente-cpu",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/energia/corriente-cpu/manhattan-300179",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-power-cable-300179",
+        "gallery": ["https://manhattanproducts.us/cdn/shop/products/power-cable-300179-1.jpg?v=1678689387&width=1400", "https://manhattanproducts.us/cdn/shop/products/power-cable-300179-2.jpg?v=1678689387&width=1400", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1844685"],
+        "documents": [
+          { "label": "Manhattan 300179 official US page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-power-cable-300179" },
+          { "label": "Manhattan 300179 Spanish page", "type": "manufacturer", "url": "https://es.manhattanproducts.eu/products/manhattan-es-cable-de-alimentacion-300179" },
+          { "label": "PCLAPSC Manhattan 300179 local cross-check", "type": "retailer", "url": "https://www.pclapsc.com/products/cable-de-corriente-cpu-monitor-a-pared-1-8m-manhattan-300179" }
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "300179",
+          "aliases": ["CB-224", "CABITL300"],
+          "providerSku": "CB-224",
+          "upc": "766623300179",
+          "ean": "0766623300179",
+          "productType": "Cable de corriente",
+          "connectorA": "NEMA 5-15 macho",
+          "connectorB": "IEC 60320 C13",
+          "length": "1.8 m / 6 ft",
+          "color": "Negro",
+          "ratingC13": "10 A / 250 V",
+          "ratingNema": "10-13 A / 125 V",
+          "cores": "3 conductores 18 AWG",
+          "strand": "41 hilos de 0.16 mm",
+          "insulationThickness": "0.6 mm",
+          "jacketThickness": "0.38 mm",
+          "diameter": "6.8 mm nominal",
+          "temperature": "Hasta 105 C",
+          "features": ["Conexiones moldeadas", "Alivio de tension", "Aprobacion UL"],
+          "warranty": "De por vida segun fabricante",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABITL300", "stock": 505, "price": 3.55, "currency": "USD", "priceKind": "customer_price" }, { "providerId": "cva", "providerSku": "CB-224", "stock": 10, "price": 3.32, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T04:00:00Z",
+          "sourceDiscrepancies": ["Provider category was processors; manufacturer confirms power cable.", "Published physical dimensions appear to represent packaged listing format rather than cable body."]
+        },
+        "measurements": { "dimensions": "Longitud 1.8 m; diametro nominal 6.8 mm", "weight": "0.18 kg neto; 0.19 kg bruto" },
+        "sourceRefs": [
+          { "title": "Manhattan 300179 official US page", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-power-cable-300179" },
+          { "title": "Manhattan 300179 Spanish page", "type": "manufacturer", "url": "https://es.manhattanproducts.eu/products/manhattan-es-cable-de-alimentacion-300179" },
+          { "title": "PCLAPSC Manhattan 300179 local cross-check", "type": "retailer", "url": "https://www.pclapsc.com/products/cable-de-corriente-cpu-monitor-a-pared-1-8m-manhattan-300179" }
+        ]
+      }
+    }
+  ]
+}

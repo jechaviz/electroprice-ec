@@ -252,6 +252,16 @@ const researchedBatchCases = [
   ["Acteck Captive Lite CL215 monitor 21.5 Full HD VA 60Hz 5ms", "ACTECK", "computo/monitores/oficina/22-fhd-60hz"],
   ["Smartbitt SBBA12-7 bateria de reemplazo UPS 12V 7Ah VRLA AGM", "SMARTBITT", "energia/baterias-ups/selladas-12v/7ah"],
   ["Mochila Brobotix Champion 6000830 para laptop 15.6 pulgadas negra", "BROBOTIX", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
+  ["Router Dahua DH-N3 N300 2.4GHz 300Mbps negro", "DAHUA TECHNOLOGY", "redes/routers/wifi-n/n300"],
+  ["Mochila HP Prelude 1E7D6UT para laptop 15.6 pulgadas gris", "HP", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
+  ["Cable HDMI Manhattan 308434 alta velocidad macho a macho 15 m negro", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/15m"],
+  ["Mouse inalambrico Perfect Choice PC-044819 Essential 1600 DPI turquesa", "PERFECT CHOICE", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi"],
+  ["Monitor Naceb NA-628 21.5 Full HD LED 60Hz negro", "NACEB TECHNOLOGY", "computo/monitores/oficina/22-fhd-60hz"],
+  ["Cable patch Intellinet 340380 Cat6 UTP RJ45 1.5 m gris", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat6/1-5m"],
+  ["Monitor Stylos STPMOT7B 23.8 Full HD VA 100Hz 5ms negro", "STYLOS", "computo/monitores/oficina/24-fhd-100hz"],
+  ["Adaptador USB Wi-Fi TP-Link Archer T2U Plus AC600 antena 5dBi", "TP-LINK", "redes/adaptadores-wifi/usb/ac600-alta-ganancia"],
+  ["Monitor Acteck Captive Vivid II SP270 27 Full HD 100Hz", "ACTECK", "computo/monitores/oficina/27-fhd-100hz"],
+  ["Cable de corriente Manhattan 300179 NEMA 5-15 a IEC C13 1.8 m negro", "MANHATTAN", "accesorios/cables-adaptadores/energia/corriente-cpu"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
