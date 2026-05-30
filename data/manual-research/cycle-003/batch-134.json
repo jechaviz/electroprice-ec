@@ -1,0 +1,492 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b134-2026-05-30",
+  "cycle": 3,
+  "batch": 134,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "38gyxnyfzlz80rp",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ASPEL",
+        "name": "Aspel Sellado CFDI paquete de 1000 timbres fiscales",
+        "description": "Paquete electronico Aspel Sellado CFDI con 1000 timbres fiscales para emitir Comprobantes Fiscales Digitales por Internet desde sistemas Aspel compatibles como SAE, CAJA, NOI o FACTURE.",
+        "manualCategoryPath": "software/licencias/aspel-sellado-cfdi/timbres-1000",
+        "semanticCategoryPath": "software/licencias/aspel-sellado-cfdi/timbres-1000/aspel-1000-timbres",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcel.com/Aspel-FACTE-1000-Timbres-Aspel-sellado-CFDI-con-1000-Timbres-106134",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFAPL2920/SOFAPL2920_full.jpg"],
+        "documents": [
+          { "label": "PCEL Aspel Sellado CFDI 1000 timbres", "type": "retailer", "url": "https://www.pcel.com/Aspel-FACTE-1000-Timbres-Aspel-sellado-CFDI-con-1000-Timbres-106134" },
+          { "label": "Sistro Aspel 1000 timbres", "type": "retailer", "url": "https://www.sistro.net/aspel-timbres-aspel-folios-dIgitales-on-line-cfdi-paquete-anual-de-1000-timbres" },
+          { "label": "Cade Aspel 1000 timbres CFDI", "type": "retailer", "url": "https://cade.com.mx/products/1000-timbres-aspel-cfdi" }
+        ],
+        "specs": {
+          "brand": "ASPEL",
+          "model": "PAQUETE DE 1000 TIMBRES",
+          "providerSku": "SOFAPL2920",
+          "productType": "Paquete de timbres fiscales CFDI",
+          "service": "Aspel Sellado CFDI",
+          "licenseQuantity": "1000 timbres",
+          "delivery": "Electronico",
+          "validity": "1 ano a partir del primer timbrado segun retailers",
+          "compatibleSystems": ["Aspel SAE", "Aspel CAJA", "Aspel NOI", "Aspel FACTURE"],
+          "cfdiVersion": "CFDI 4.0 compatible segun fuentes recientes",
+          "providerBranchSummary": "D2A:21",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "SOFAPL2920", "stock": 21, "price": 1462.56, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider only states SAE compatibility; retailers also list CAJA, NOI and FACTURE. Classified as Aspel Sellado CFDI timbres instead of generic license."]
+        },
+        "measurements": { "dimensions": "No aplica, licencia/servicio digital", "weight": "No aplica, licencia/servicio digital" },
+        "sourceRefs": [
+          { "title": "PCEL Aspel Sellado CFDI 1000 timbres", "type": "retailer", "url": "https://www.pcel.com/Aspel-FACTE-1000-Timbres-Aspel-sellado-CFDI-con-1000-Timbres-106134" },
+          { "title": "Sistro Aspel 1000 timbres", "type": "retailer", "url": "https://www.sistro.net/aspel-timbres-aspel-folios-dIgitales-on-line-cfdi-paquete-anual-de-1000-timbres" },
+          { "title": "Cade Aspel 1000 timbres CFDI", "type": "retailer", "url": "https://cade.com.mx/products/1000-timbres-aspel-cfdi" }
+        ]
+      }
+    },
+    {
+      "product_id": "38ihwk2wwidmfba",
+      "research": {
+        "confidence": 0.96,
+        "brand": "UBIQUITI",
+        "name": "Ubiquiti Rocket 5AC Lite R5AC-LITE radio base airMAX AC 5GHz",
+        "description": "Radio base Ubiquiti Rocket 5AC Lite R5AC-LITE para enlaces PtP/PtMP airMAX AC de 5 GHz, 1 puerto Gigabit Ethernet, salida hasta 27 dBm, administracion UISP/airOS y alimentacion PoE pasiva 24V.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/radios-base/airmax-ac/5ghz",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/radios-base/airmax-ac/5ghz/ubiquiti-r5ac-lite",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techspecs.ui.com/uisp/wireless/r5ac-lite",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACPUBI020/ACPUBI020_full.jpg"],
+        "documents": [
+          { "label": "Ubiquiti R5AC-LITE tech specs", "type": "manufacturer", "url": "https://techspecs.ui.com/uisp/wireless/r5ac-lite" },
+          { "label": "Ubiquiti Rocket5ac datasheet", "type": "datasheet", "url": "https://dl.ubnt.com/datasheets/RocketAC/Rocket5ac_DS.pdf" },
+          { "label": "ManualsLib Rocket 5AC Lite quick start", "type": "manual", "url": "https://www.manualslib.com/manual/971008/Ubiquiti-Rocket-5ac-Lite.html" }
+        ],
+        "specs": {
+          "brand": "UBIQUITI",
+          "model": "R5AC-LITE",
+          "providerSku": "ACPUBI020",
+          "upc": "810354025174",
+          "productType": "Radio base airMAX AC",
+          "frequency": "5 GHz",
+          "wirelessMode": ["PtP", "PtMP"],
+          "platform": ["airMAX AC", "UISP", "airOS"],
+          "maxThroughput": "450+ Mbps segun familia/datasheet",
+          "maxOutputPower": "27 dBm",
+          "interface": "1 x Gigabit Ethernet",
+          "power": "24V passive PoE",
+          "mounting": "Compatible con antenas Rocket y RocketDish",
+          "providerBranchSummary": "MOR:3,OAX:2",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACPUBI020", "stock": 5, "price": 156.89, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider path was generic access point; corrected to airMAX 5GHz radio base for wireless links."]
+        },
+        "measurements": { "dimensions": "162 x 84 x 37 mm", "weight": "250 g" },
+        "sourceRefs": [
+          { "title": "Ubiquiti R5AC-LITE tech specs", "type": "manufacturer", "url": "https://techspecs.ui.com/uisp/wireless/r5ac-lite" },
+          { "title": "Ubiquiti Rocket5ac datasheet", "type": "datasheet", "url": "https://dl.ubnt.com/datasheets/RocketAC/Rocket5ac_DS.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "39b7717t18aqpwa",
+      "research": {
+        "confidence": 0.93,
+        "brand": "FRONT",
+        "name": "Front CDFR410G58-B cajon de dinero metalico RJ11 5 billetes 8 monedas",
+        "description": "Cajon de dinero Front CDFR410G58-B color negro para punto de venta, gabinete metalico, interfaz RJ11, bandeja removible, 5 compartimentos para billetes y 8 para monedas.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas/front-cdfr410g58-b",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://oasify.com/cajones-de-dinero/cajon-de-dinero-front-cdfr410g58-b",
+        "gallery": ["https://static.ctonline.mx/imagenes/CJNFRT020/CJNFRT020_full.jpg"],
+        "documents": [
+          { "label": "Oasify Front CDFR410G58-B specs", "type": "retailer", "url": "https://oasify.com/cajones-de-dinero/cajon-de-dinero-front-cdfr410g58-b" },
+          { "label": "Codbar Front CDFR410G58-B page", "type": "retailer", "url": "https://codbar.shop/products/cajon-de-dinero-front-cdfr410g58-b" },
+          { "label": "Intercompras Front CDFR410G58-B page", "type": "retailer", "url": "https://intercompras.com/p/cajon-dinero-front-billetes-monedas-negro-94978" }
+        ],
+        "specs": {
+          "brand": "FRONT",
+          "model": "CDFR410G58-B",
+          "providerSku": "CJNFRT020",
+          "productType": "Cajon de dinero POS",
+          "material": "Metal/acero resistente",
+          "color": "Negro",
+          "interface": "RJ11",
+          "billCompartments": 5,
+          "coinCompartments": 8,
+          "tray": "Removible",
+          "lock": "Llave incluida",
+          "providerBranchSummary": "GDL:18,DFA:18,CMT:18,DGO:8,OBR:5,HMO:4,CHI:4,VHA:4,MOR:3,CLN:1,TRN:1,SLP:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CJNFRT020", "stock": 90, "price": 57.22, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider path was limpieza; corrected to POS cash drawer. Dimensions vary slightly by retailer; 400 x 410 x 85 mm used as conservative repeated value."]
+        },
+        "measurements": { "dimensions": "400 x 410 x 85 mm", "weight": "4.5 kg aproximado" },
+        "sourceRefs": [
+          { "title": "Oasify Front CDFR410G58-B specs", "type": "retailer", "url": "https://oasify.com/cajones-de-dinero/cajon-de-dinero-front-cdfr410g58-b" },
+          { "title": "Codbar Front CDFR410G58-B page", "type": "retailer", "url": "https://codbar.shop/products/cajon-de-dinero-front-cdfr410g58-b" }
+        ]
+      }
+    },
+    {
+      "product_id": "39e0mblgnfemk71",
+      "research": {
+        "confidence": 0.88,
+        "brand": "LENOVO",
+        "name": "Lenovo ThinkBook 14 G8 IRL laptop empresarial Core 7 32GB 1TB",
+        "description": "Laptop empresarial Lenovo ThinkBook 14 G8 IRL de 14 pulgadas con Windows 11 Pro, 32 GB de memoria, SSD 1 TB y procesador Intel Core 7. La ficha Lenovo PSREF para G8 IRL lista Core 7 240H; el proveedor reporta 155H, por lo que se conserva la discrepancia en specs.",
+        "manualCategoryPath": "computo/laptops/empresariales/14-pulgadas/lenovo-thinkbook",
+        "semanticCategoryPath": "computo/laptops/empresariales/14-pulgadas/lenovo-thinkbook/thinkbook-14-g8-irl-32gb-1tb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14_G8_IRL/ThinkBook_14_G8_IRL_Spec.PDF",
+        "gallery": ["https://static.ctonline.mx/imagenes/COMLEV6770/COMLEV6770_full.jpg"],
+        "documents": [
+          { "label": "Lenovo ThinkBook 14 G8 IRL PSREF", "type": "manufacturer", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14_G8_IRL/ThinkBook_14_G8_IRL_Spec.PDF" },
+          { "label": "Lenovo ThinkBook 14 Gen 8 product page", "type": "manufacturer", "url": "https://www.lenovo.com/us/en/p/laptops/thinkbook/thinkbook-series/lenovo-thinkbook-14-gen-8-14-inch-intel/len101b0052" },
+          { "label": "Syntax PC COMLEV6770 listing", "type": "retailer", "url": "https://syntaxpc.econoglobalx.com/producto/laptops-lenovo-thinkbook-14-g8-irl/" }
+        ],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "ThinkBook 14 G8 IRL",
+          "providerSku": "COMLEV6770",
+          "upc": "198157006744",
+          "productType": "Laptop empresarial",
+          "processorProvider": "Intel Core 7 155H",
+          "processorPsref": "Intel Core 7 240H",
+          "memory": "32 GB",
+          "storage": "1 TB SSD M.2 PCIe NVMe",
+          "display": "14 pulgadas, WUXGA/FHD+ segun familia PSREF",
+          "operatingSystem": "Windows 11 Pro",
+          "ports": ["USB-C con PD y DisplayPort", "Thunderbolt 4", "2 x USB-A", "HDMI", "RJ45", "SD card reader", "Audio combo"],
+          "security": ["Kensington Nano slot", "TPM firmware", "Webcam privacy shutter en familia"],
+          "providerBranchSummary": "AGS:1,XLP:1,CTZ:1,VHA:1,TXA:1,OAX:1,CUE:1,ACA:1,TXL:1,CAM:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "COMLEV6770", "stock": 10, "price": 1293.68, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider says processor model 155H while Lenovo PSREF for ThinkBook 14 G8 IRL lists Core 7 240H options; kept both fields until SKU-level confirmation."]
+        },
+        "measurements": { "dimensions": "No localizado SKU exacto; familia ThinkBook 14 G8 IRL 14 pulgadas", "weight": "No localizado SKU exacto" },
+        "sourceRefs": [
+          { "title": "Lenovo ThinkBook 14 G8 IRL PSREF", "type": "manufacturer", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkBook/ThinkBook_14_G8_IRL/ThinkBook_14_G8_IRL_Spec.PDF" },
+          { "title": "Syntax PC COMLEV6770 listing", "type": "retailer", "url": "https://syntaxpc.econoglobalx.com/producto/laptops-lenovo-thinkbook-14-g8-irl/" }
+        ]
+      }
+    },
+    {
+      "product_id": "39hicejoxnfxyf9",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ACTECK",
+        "name": "Acteck Vantage Aero TI555 AC-943468 teclado inalambrico espanol 2.4GHz",
+        "description": "Teclado inalambrico Acteck Vantage Aero TI555 AC-943468 con dongle USB-A 2.4 GHz, distribucion en espanol, formato completo 105 teclas, mecanismo de membrana, teclas chiclet ABS de perfil bajo y color negro.",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos/productividad/2-4ghz",
+        "semanticCategoryPath": "computo/perifericos/teclados/inalambricos/productividad/2-4ghz/acteck-ti555",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/teclado-inalambrico-vantage-aero-ti555-negro",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10477203"],
+        "documents": [
+          { "label": "Acteck Vantage Aero TI555 official page", "type": "manufacturer", "url": "https://acteck.com/products/teclado-inalambrico-vantage-aero-ti555-negro" },
+          { "label": "GlobalOffice Acteck AC-943468 page", "type": "retailer", "url": "https://www.globaloffice.mx/app/detalle/producto/accesorios-para-laptops/teclados-acteck-vantage-aero-ti555-teclado-inalamb/ac-943468" },
+          { "label": "Intercompras Acteck TI555 specs", "type": "retailer", "url": "https://intercompras.com/p/teclado-acteck-vantage-aero-ti555-ac-inalambrico-dongle-usb-mecanismo-452436" }
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Vantage Aero TI555",
+          "manufacturerSku": "AC-943468",
+          "providerSku": "KB-1169",
+          "ean": "7506215943468",
+          "productType": "Teclado inalambrico",
+          "connection": "Dongle USB-A 2.4 GHz",
+          "wirelessRange": "Hasta 10 m",
+          "layout": "Espanol",
+          "format": "100% full-size",
+          "keys": 105,
+          "mechanism": "Membrana",
+          "keycaps": "ABS low profile chiclet",
+          "multimedia": "Funciones multimedia",
+          "battery": "1 x AA",
+          "estimatedBatteryLife": "Hasta 20 h de uso continuo segun fabricante",
+          "color": "Negro",
+          "compatibility": "Windows",
+          "providerOffers": [{ "providerId": "cva", "providerSku": "KB-1169", "stock": 5, "price": 251.37, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Some retailer snippets list 100 keys, while provider says 105; keep provider/retailer detailed full-size 105-key value."]
+        },
+        "measurements": { "dimensions": "No localizado para SKU individual; kit sibling lists 42.1 x 12.2 x 2.3 cm", "weight": "No localizado para SKU individual" },
+        "sourceRefs": [
+          { "title": "Acteck Vantage Aero TI555 official page", "type": "manufacturer", "url": "https://acteck.com/products/teclado-inalambrico-vantage-aero-ti555-negro" },
+          { "title": "Intercompras Acteck TI555 specs", "type": "retailer", "url": "https://intercompras.com/p/teclado-acteck-vantage-aero-ti555-ac-inalambrico-dongle-usb-mecanismo-452436" }
+        ]
+      }
+    },
+    {
+      "product_id": "39kteyzmnzlw2c2",
+      "research": {
+        "confidence": 0.92,
+        "brand": "VORAGO",
+        "name": "Vorago PSU-200 fuente de poder ATX 600W negra",
+        "description": "Fuente de poder Vorago PSU-200 de 600 W para PC de escritorio/gaming basico, color negro, formato ATX 12V 1.3, ventilador superior con iluminacion azul y conectores ATX 20+4, CPU 4+4, SATA, Molex y PCI-E 6+2.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-600w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-600w/vorago-psu-200",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/descargables/Fichas/ficha-PSU-200.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/GABVGO070/GABVGO070_full.jpg",
+          "https://voragolive.com/media/catalog/product/f/u/fuente-de-poder-psu-200-start-the-game-02.jpg?height=792&image-type=image&store=vorago_view&width=647"
+        ],
+        "documents": [
+          { "label": "Vorago PSU-200 official product page", "type": "manufacturer", "url": "https://voragolive.com/fuente-de-poder-vorago-psu-200-600watts-2-x-sata.html" },
+          { "label": "Vorago PSU-200 datasheet", "type": "manufacturer", "url": "https://voragolive.com/descargables/Fichas/ficha-PSU-200.pdf" },
+          { "label": "Vorago PSU-200 manual", "type": "manual", "url": "https://voragolive.com/descargables/Manuales/manual-PSU-200.pdf" },
+          { "label": "Icecat Vorago PSU-200 specs", "type": "retailer", "url": "https://icecat.biz/en/p/vorago/psu-200/power%2Bsupply%2Bunits-7502266675280-psu-200-34395593.html" }
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "PSU-200",
+          "providerSku": "GABVGO070",
+          "ean": "7502266675280",
+          "productType": "Fuente de poder ATX",
+          "nominalPower": "600 W",
+          "standard": "ATX 12V 1.3",
+          "formFactor": "ATX",
+          "color": "Negro",
+          "inputVoltage": "100-120 / 200-240 Vca, 50-60 Hz segun ficha",
+          "voltageSwitch": "110/240 V",
+          "efficiency": ">=70% segun ficha",
+          "protections": ["OVP", "UVP", "OPP"],
+          "modular": "No modular",
+          "fan": "Ventilador superior con iluminacion azul",
+          "mainConnector": "20+4 pin ATX",
+          "cpuConnector": "4+4 pin x1",
+          "sataConnectors": "2 x SATA",
+          "molexConnectors": "2 x Molex",
+          "pciExpressConnector": "6+2 pin x1",
+          "floppyConnector": "1 x floppy",
+          "cableLengths": "Entrada 120 cm; salida 40 cm segun ficha",
+          "useCase": "PC escritorio/gaming basico",
+          "providerBranchSummary": "D2A:68,TXA:6,GDL:4,IRA:4,CHI:2,LMO:1,LEO:1,MTY:1,PAC:1,ACA:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABVGO070", "stock": 89, "price": 19.43, "currency": "USD", "priceKind": "promo_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider path was storage drives; corrected to ATX PSU. Some retailers mention 80 Plus, but manufacturer/provider evidence is insufficient, so certification is omitted.", "Retail pages vary between 110-230 V and split 100-120/200-240 V input ranges; datasheet value is retained."]
+        },
+        "measurements": { "dimensions": "150 x 140 x 86 mm", "weight": "1.028-1.03 kg" },
+        "sourceRefs": [
+          { "title": "Vorago PSU-200 official product page", "type": "manufacturer", "url": "https://voragolive.com/fuente-de-poder-vorago-psu-200-600watts-2-x-sata.html" },
+          { "title": "Vorago PSU-200 datasheet", "type": "manufacturer", "url": "https://voragolive.com/descargables/Fichas/ficha-PSU-200.pdf" },
+          { "title": "Vorago PSU-200 manual", "type": "manual", "url": "https://voragolive.com/descargables/Manuales/manual-PSU-200.pdf" },
+          { "title": "Icecat Vorago PSU-200 specs", "type": "retailer", "url": "https://icecat.biz/en/p/vorago/psu-200/power%2Bsupply%2Bunits-7502266675280-psu-200-34395593.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "3aex511ga6ltfip",
+      "research": {
+        "confidence": 0.96,
+        "brand": "HP",
+        "name": "HP Serie 3 Pro 327Pe monitor 27.53 pulgadas FHD IPS 100Hz",
+        "description": "Monitor HP Series 3 Pro 327Pe de 27.53 pulgadas FHD 1920 x 1080, panel IPS 16:9, 100 Hz, 5 ms GtG OD, brillo 250 nits, contraste 1300:1, bocinas 2 x 2 W, entradas DisplayPort 1.2, HDMI 1.4 y VGA, con base ajustable.",
+        "manualCategoryPath": "computo/monitores/oficina/27-fhd-100hz",
+        "semanticCategoryPath": "computo/monitores/oficina/27-fhd-100hz/hp-series-3-pro-327pe",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.hp.com/us-en/product/product-specs/hp-series-3-pro-27-inch-fhd-monitor-327pe/2102767851/",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONHPI840/MONHPI840_full.jpg"],
+        "documents": [
+          { "label": "HP 327pe support specs", "type": "manufacturer", "url": "https://support.hp.com/us-en/product/product-specs/hp-series-3-pro-27-inch-fhd-monitor-327pe/2102767851/" },
+          { "label": "HP Series 3 Pro 27 FHD datasheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c09135583" }
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "Series 3 Pro 327Pe",
+          "providerSku": "MONHPI840",
+          "upc": "198828385161",
+          "productType": "Monitor de oficina",
+          "displaySize": "27.53 pulgadas",
+          "panel": "IPS LCD",
+          "resolution": "FHD 1920 x 1080",
+          "aspectRatio": "16:9",
+          "refreshRate": "Hasta 100 Hz",
+          "responseTime": "5 ms GtG con overdrive",
+          "brightness": "250 nits",
+          "contrast": "1300:1",
+          "colorGamut": "72% NTSC",
+          "viewingAngles": "178/178 grados",
+          "pixelPitch": "0.3114 x 0.3114 mm",
+          "ports": ["DisplayPort 1.2", "HDMI 1.4", "VGA segun datasheet"],
+          "speakers": "2 x 2 W",
+          "eyeCare": ["Antirreflejo", "HP Eye Ease low blue light", "Flicker-free"],
+          "vesa": "100 x 100 mm",
+          "standAdjustments": ["Altura 100 mm", "Inclinacion -5/+20", "Giro +/-30", "Pivote +/-90"],
+          "security": "Standard lock slot",
+          "powerConsumption": "31 W maximo, 17.2 W tipico, 0.5 W standby",
+          "warranty": "3 anos limitada HP",
+          "providerBranchSummary": "DFA:274,D2A:162,MAZ:18,IRA:4,AGS:3,QRO:2,XLP:2,MTY:2,MOR:1,TPC:1,CUE:1,DFT:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MONHPI840", "stock": 474, "price": 2989.47, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider only states 27 FHD; HP support confirms supported 100Hz modes, so classified under 27 FHD 100Hz office monitors."]
+        },
+        "measurements": { "dimensions": "61.19 x 22.96 x 51.31 cm con base; 61.19 x 5.66 x 36.42 cm sin base; empaque 69.5 x 17 x 49.5 cm", "weight": "6.5 kg con base; 4.1 kg sin base; 9.7 kg empaque" },
+        "sourceRefs": [
+          { "title": "HP 327pe support specs", "type": "manufacturer", "url": "https://support.hp.com/us-en/product/product-specs/hp-series-3-pro-27-inch-fhd-monitor-327pe/2102767851/" },
+          { "title": "HP Series 3 Pro 27 FHD datasheet", "type": "datasheet", "url": "https://h20195.www2.hp.com/v2/GetDocument.aspx?docname=c09135583" }
+        ]
+      }
+    },
+    {
+      "product_id": "3af6iln5gg2ar0h",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BROBOTIX",
+        "name": "Brobotix 017828 cable MHL HDMI a USB/micro USB rojo",
+        "description": "Cable adaptador MHL Brobotix 017828 color rojo para enviar video desde dispositivos Android compatibles con MHL hacia HDMI, con conectores HDMI tipo A macho y USB/micro USB o USB-C/micro USB segun fichas retail.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/mhl",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/mhl/brobotix-017828",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/cable-brobotix-hdmi-usb-micro-usb-rojo-145319",
+        "gallery": ["https://static.ctonline.mx/imagenes/CABRBT1500/CABRBT1500_full.jpg"],
+        "documents": [
+          { "label": "Intercompras Brobotix 017828 specs", "type": "retailer", "url": "https://intercompras.com/p/cable-brobotix-hdmi-usb-micro-usb-rojo-145319" },
+          { "label": "CompuPuebla Brobotix 017828 page", "type": "retailer", "url": "https://compupuebla.com/producto/cable-mhl-brobotix-017828/" },
+          { "label": "Cyberpuerta Brobotix 017828 page", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Cables/Cables-de-Audio-Video/Cables-de-Audio-Video-HDMI/BRobotix-Cable-para-Tablet-MHL-HDMI-Macho-USB-micro-USB-Macho-Negro-Rojo.html" }
+        ],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "017828",
+          "providerSku": "CABRBT1500",
+          "productType": "Cable adaptador MHL a HDMI",
+          "connector1": "HDMI tipo A macho",
+          "connector2": "USB/micro USB macho",
+          "alternateConnector2": "USB-C + micro USB segun Intercompras",
+          "technology": "MHL",
+          "deviceRequirement": "Android 4.0 o superior y puerto compatible MHL de 5 u 11 pines",
+          "plugAndPlay": "Si",
+          "color": ["Rojo", "Negro/Rojo"],
+          "packageQuantity": 1,
+          "providerBranchSummary": "CLN:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CABRBT1500", "stock": 1, "price": 7.34, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Retailers differ on whether the secondary connector is USB/micro USB or USB-C + micro USB; classified as MHL HDMI cable and kept both connector notes."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Intercompras Brobotix 017828 specs", "type": "retailer", "url": "https://intercompras.com/p/cable-brobotix-hdmi-usb-micro-usb-rojo-145319" },
+          { "title": "CompuPuebla Brobotix 017828 page", "type": "retailer", "url": "https://compupuebla.com/producto/cable-mhl-brobotix-017828/" },
+          { "title": "Cyberpuerta Brobotix 017828 page", "type": "retailer", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Cables/Cables-de-Audio-Video/Cables-de-Audio-Video-HDMI/BRobotix-Cable-para-Tablet-MHL-HDMI-Macho-USB-micro-USB-Macho-Negro-Rojo.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "3ai6jsz51cz88vc",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BALAM RUSH",
+        "name": "Balam Rush Eolox Bora EXB85 ventilador ARGB 120mm 1600RPM negro",
+        "description": "Ventilador Balam Rush Eolox Bora EXB85 para gabinete, 120 x 25 x 120 mm, PWM 4 pines, ARGB 3 pines, 600 a 1600 RPM, 48 CFM, 2.25 mmH2O, 28 dB y rodamiento hidrodinamico.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-1600rpm-argb",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-1600rpm-argb/balam-rush-exb85",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://balamrush.com/products/ventilador-para-pc-eolox-bora-exb85-negro",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/VENBLR450/VENBLR450_full.jpg",
+          "https://balamrush.com/cdn/shop/files/BR-942201_01.webp?v=1737737347&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-942201_02.webp?v=1737737277&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-942201_04.webp?v=1737737278&width=1000"
+        ],
+        "documents": [
+          { "label": "Balam Rush EXB85 official page", "type": "manufacturer", "url": "https://balamrush.com/products/ventilador-para-pc-eolox-bora-exb85-negro" },
+          { "label": "Intercompras Balam Rush EXB85 black specs", "type": "retailer", "url": "https://intercompras.com/p/ventilador-balam-rush-eolox-bora-exb85-120mm-pin-negro-rgb-414595" },
+          { "label": "GlobalOffice Balam Rush EXB85 PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/br-942201" },
+          { "label": "Coppel Balam Rush EXB85 specs", "type": "retailer", "url": "https://www.coppel.com/pdp/ventilador-gamer-balam-rush-eolox-bora-exb85-120mm-argb-diseno-cuadrado-pwm-4-pin-aura-1600rpm-bla-mkp-39781249n2152" }
+        ],
+        "specs": {
+          "brand": "BALAM RUSH",
+          "model": "EXB85",
+          "providerSku": "VENBLR450",
+          "ean": "7506215942201",
+          "productType": "Ventilador ARGB para gabinete",
+          "fanSize": "120 x 25 x 120 mm",
+          "speed": "600-1600 RPM +/-10%",
+          "airflow": "48 CFM",
+          "airPressure": "2.25 mmH2O",
+          "noise": "28 dB",
+          "bearing": "Hidrodinamico",
+          "fanConnector": "4-pin PWM",
+          "ledConnector": "3-pin ARGB",
+          "ledCount": 16,
+          "voltage": ["Motor 12 V", "Iluminacion 5 V"],
+          "fanBlades": 7,
+          "color": "Negro",
+          "providerBranchSummary": "VHA:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "VENBLR450", "stock": 1, "price": 83.33, "currency": "MXN", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Some sources describe white variants or 3-pack variants; provider EAN 7506215942201 maps to black single fan, so single black variant is used.", "Official page text includes references to sibling Eolox Link EXL95 in places; SKU BR-942201 and EAN confirm EXB85 black single fan."]
+        },
+        "measurements": { "dimensions": "120 x 25 x 120 mm", "weight": "190 g" },
+        "sourceRefs": [
+          { "title": "Balam Rush EXB85 official page", "type": "manufacturer", "url": "https://balamrush.com/products/ventilador-para-pc-eolox-bora-exb85-negro" },
+          { "title": "Intercompras Balam Rush EXB85 black specs", "type": "retailer", "url": "https://intercompras.com/p/ventilador-balam-rush-eolox-bora-exb85-120mm-pin-negro-rgb-414595" },
+          { "title": "GlobalOffice Balam Rush EXB85 PDF", "type": "datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/br-942201" }
+        ]
+      }
+    },
+    {
+      "product_id": "3ase5ng1sr2rox2",
+      "research": {
+        "confidence": 0.96,
+        "brand": "THERMALTAKE",
+        "name": "Thermaltake Core P6 TG CA-1V2-00M1WN-00 gabinete ATX mid tower negro",
+        "description": "Gabinete Thermaltake Core P6 TG Black CA-1V2-00M1WN-00 mid tower transformable en formato cerrado u open-frame, con tres paneles de vidrio templado, soporte Mini-ITX/Micro-ATX/ATX/CEB, USB-C frontal y amplio soporte para radiadores.",
+        "manualCategoryPath": "computo/componentes/gabinetes/atx-mid-tower/open-frame",
+        "semanticCategoryPath": "computo/componentes/gabinetes/atx-mid-tower/open-frame/thermaltake-core-p6-tg",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://thermaltakeusa.com/products/core-p6-tempered-glass-mid-tower-chassis-ca-1v2-00m1wn-00",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABTMK2320/GABTMK2320_full.jpg"],
+        "documents": [
+          { "label": "Thermaltake Core P6 official page", "type": "manufacturer", "url": "https://thermaltakeusa.com/products/core-p6-tempered-glass-mid-tower-chassis-ca-1v2-00m1wn-00" },
+          { "label": "Thermaltake Core P6 manual", "type": "manual", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/62e/420/c58/62e420c58f6ec5.64062107.pdf" },
+          { "label": "Tsukumo Core P6 JAN listing", "type": "retailer", "url": "https://shop.tsukumo.co.jp/goods/4713227528580/" }
+        ],
+        "specs": {
+          "brand": "THERMALTAKE",
+          "model": "Core P6 TG",
+          "partNumber": "CA-1V2-00M1WN-00",
+          "providerSku": "GABTMK2320",
+          "ean": "4713227528580",
+          "upc": "841163078594",
+          "productType": "Gabinete ATX mid tower transformable",
+          "caseType": "Mid Tower / open-frame transformable",
+          "color": "Negro",
+          "material": ["SPCC", "Vidrio templado"],
+          "sidePanel": "Vidrio templado x3",
+          "motherboardSupport": ["Mini-ITX", "Micro-ATX", "ATX", "CEB hasta 267 mm"],
+          "driveBays": "4 x 3.5 in o 8 x 2.5 in",
+          "expansionSlots": "7 rotables",
+          "ioPorts": ["USB 3.2 Gen2 Type-C", "2 x USB 3.0", "2 x USB 2.0", "HD Audio"],
+          "psuSupport": "PS2 PSU opcional",
+          "radiatorSupport": ["Frontal hasta 360/280 mm", "Superior hasta 360/280 mm", "Lateral hasta 360/280 mm", "Inferior hasta 240 mm", "Trasero 120 mm"],
+          "clearance": ["CPU cooler 180 mm", "PSU 200 mm", "VGA 300-458 mm segun configuracion"],
+          "providerBranchSummary": "AGS:2,CDV:1,D2A:1",
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "GABTMK2320", "stock": 4, "price": 185.29, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T11:10:00Z",
+          "sourceDiscrepancies": ["Provider path was cables/adaptadores; corrected to PC chassis. Official part number identifies Core P6 TG, not generic cabinet."]
+        },
+        "measurements": { "dimensions": "565 x 255 x 530 mm", "weight": "17.84 kg / 39.33 lb" },
+        "sourceRefs": [
+          { "title": "Thermaltake Core P6 official page", "type": "manufacturer", "url": "https://thermaltakeusa.com/products/core-p6-tempered-glass-mid-tower-chassis-ca-1v2-00m1wn-00" },
+          { "title": "Thermaltake Core P6 manual", "type": "manual", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/62e/420/c58/62e420c58f6ec5.64062107.pdf" },
+          { "title": "Tsukumo Core P6 JAN listing", "type": "retailer", "url": "https://shop.tsukumo.co.jp/goods/4713227528580/" }
+        ]
+      }
+    }
+  ]
+}

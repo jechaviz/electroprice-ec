@@ -321,6 +321,16 @@ const researchedBatchCases = [
   ["Thermaltake SWAFAN EX12 CL-F183-PL12BU-A kit 3 ventiladores ARGB 120mm", "THERMALTAKE", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-pwm-argb"],
   ["Epson T673420-AL botella de tinta 673 amarilla 70 ml", "EPSON", "impresion/consumibles/botellas-tinta-ecotank/epson-t673/amarillo"],
   ["PCM 50000B0159A etiquetas termicas directas 102 x 51 mm caja 12 rollos", "PCM", "impresion/consumibles/etiquetas-papel/termicas-directas/102x51mm"],
+  ["Aspel Sellado CFDI paquete de 1000 timbres fiscales", "ASPEL", "software/licencias/aspel-sellado-cfdi/timbres-1000"],
+  ["Ubiquiti Rocket 5AC Lite R5AC-LITE radio base airMAX AC 5GHz", "UBIQUITI", "redes/radioenlaces-antenas/radios-base/airmax-ac/5ghz"],
+  ["Front CDFR410G58-B cajon de dinero metalico RJ11 5 billetes 8 monedas", "FRONT", "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas"],
+  ["Lenovo ThinkBook 14 G8 IRL laptop empresarial Core 7 32GB 1TB", "LENOVO", "computo/laptops/empresariales/14-pulgadas/lenovo-thinkbook"],
+  ["Acteck Vantage Aero TI555 AC-943468 teclado inalambrico espanol 2.4GHz", "ACTECK", "computo/perifericos/teclados/inalambricos/productividad/2-4ghz"],
+  ["Vorago PSU-200 fuente de poder ATX 600W negra", "VORAGO", "computo/componentes/fuentes-poder/atx-600w"],
+  ["HP Serie 3 Pro 327Pe monitor 27 pulgadas FHD 100Hz", "HP", "computo/monitores/oficina/27-fhd-100hz"],
+  ["Brobotix 017828 cable MHL HDMI a USB/micro USB rojo", "BROBOTIX", "accesorios/cables-adaptadores/video-hdmi/mhl"],
+  ["Balam Rush Eolox Bora EXB85 ventilador ARGB 120mm 1600RPM negro", "BALAM RUSH", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-1600rpm-argb"],
+  ["Thermaltake Core P6 TG CA-1V2-00M1WN-00 gabinete ATX mid tower negro", "THERMALTAKE", "computo/componentes/gabinetes/atx-mid-tower/open-frame"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

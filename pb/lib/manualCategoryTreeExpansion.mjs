@@ -544,4 +544,12 @@ export const MANUAL_CATEGORY_TREE_EXPANSION = [
   { path: 'impresion/consumibles/etiquetas-papel/termicas-directas', name: 'Etiquetas termicas directas', legacyCategory: 'printers_scanners' },
   { path: 'impresion/consumibles/etiquetas-papel/termicas-directas/102x51mm', name: 'Etiquetas termicas directas 102 x 51 mm', legacyCategory: 'printers_scanners' },
   { path: 'redes/access-points/wifi-5/exterior/ac1200-poe', name: 'Access points Wi-Fi 5 exterior AC1200 PoE', legacyCategory: 'networking' },
+  { path: 'accesorios/cables-adaptadores/video-hdmi/mhl', name: 'Cables MHL a HDMI', legacyCategory: 'accessories' },
+  { path: 'computo/componentes/enfriamiento/ventiladores-gabinete/120mm-1600rpm-argb', name: 'Ventiladores ARGB de 120 mm 1600 RPM para gabinete', legacyCategory: 'components' },
+  { path: 'computo/componentes/gabinetes/atx-mid-tower/open-frame', name: 'Gabinetes ATX mid tower open frame', legacyCategory: 'components' },
+  { path: 'computo/laptops/empresariales/14-pulgadas/lenovo-thinkbook', name: 'Lenovo ThinkBook empresariales de 14 pulgadas', legacyCategory: 'laptops' },
+  { path: 'computo/perifericos/teclados/inalambricos/productividad/2-4ghz', name: 'Teclados inalambricos de productividad 2.4GHz', legacyCategory: 'accessories' },
+  { path: 'redes/radioenlaces-antenas/radios-base/airmax-ac/5ghz', name: 'Radios base airMAX AC de 5GHz', legacyCategory: 'networking' },
+  { path: 'software/licencias/aspel-sellado-cfdi', name: 'Licencias Aspel Sellado CFDI', legacyCategory: 'software' },
+  { path: 'software/licencias/aspel-sellado-cfdi/timbres-1000', name: 'Aspel Sellado CFDI paquete de 1000 timbres', legacyCategory: 'software' },
 ];
