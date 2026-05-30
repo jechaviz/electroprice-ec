@@ -1,0 +1,465 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b118-2026-05-29",
+  "cycle": 3,
+  "batch": 118,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "d2emmxcb9ajlnj6",
+      "research": {
+        "confidence": 0.94,
+        "name": "Dahua Picoo-A59U-DA camara PT Wi-Fi exterior 5MP Smart Dual Light",
+        "description": "Camara IP PT Dahua Picoo-A59U-DA de 5MP para exterior, con Wi-Fi 2.4GHz, Ethernet, Smart Dual Light, audio bidireccional, seguimiento automatico y proteccion IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light/dahua-picoo-a59u-da",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/P5AE-PV_datasheet_20240628.pdf",
+        "gallery": ["https://dahuach.b-cdn.net/wp-content/uploads/2024/12/P5AE-PV-Picoo-Outdoor-PT-5MP-01a-600x600.jpg", "https://dahuach.b-cdn.net/wp-content/uploads/2024/12/P5AE-PV-Picoo-Outdoor-PT-5MP-02-600x600.jpg", "https://static.ctonline.mx/imagenes/CAMDAH5540/CAMDAH5540_full.jpg"],
+        "documents": [
+          { "label": "Dahua P5AE-PV datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/P5AE-PV_datasheet_20240628.pdf" },
+          { "label": "Picoo-A59U-DA regional datasheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/Picoo-A59U-DA.pdf" }
+        ],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "PICOO-A59U-DA",
+          "manufacturerBaseModel": "DH-P5AE-PV",
+          "providerSku": "CAMDAH5540",
+          "ean": "6923172575975",
+          "productType": "Camara IP PT Wi-Fi exterior",
+          "resolution": "5 MP, 2560 x 1920",
+          "sensor": "1/2.8 in CMOS",
+          "lens": "4.0 mm F1.6",
+          "fieldOfView": "H 80.4 deg, V 58.1 deg, D 104.8 deg",
+          "panTilt": "Pan 0-345 deg, tilt 0-80 deg, 300 presets",
+          "videoCompression": "Smart H.265+, H.265, Smart H.264+, H.264B, H.264M, H.264H, MJPEG",
+          "network": "Wi-Fi 2.4 GHz and RJ45 10/100, no PoE",
+          "illumination": "2 IR + 2 warm lights, Smart Dual Light",
+          "aiEvents": "Tripwire, intrusion, linkage tracking, human detection, vehicle detection, SMD 3.0, auto tracking",
+          "audioAlarm": "Two-way audio, light/sound alarm, one built-in sound plus ten custom sounds",
+          "storage": "microSD up to 256 GB, FTP",
+          "protection": "IP66",
+          "power": "12 V DC 1 A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 305 }, { "providerId": "ctonline", "warehouseCode": "D2A", "stock": 164 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 58 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 28 }, { "providerId": "ctonline", "warehouseCode": "LMO", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "ACA", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 12 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH5540", "stock": 802, "price": 33.18, "currency": "USD", "branch": "GDL:305,D2A:164,DGO:58,VER:32,XLP:28,LMO:19,MTY:16,OAX:16,ACA:16,MOR:15,TXA:13,PAC:12" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming subcategory said bullet IP; manufacturer describes a pan-tilt outdoor camera, not a fixed bullet camera.", "PICOO-A59U-DA appears to be the Mexico regional model while DH-P5AE-PV is the manufacturer base model; keep the provider EAN 6923172575975 instead of replacing it with regional partner EANs.", "Official power is 12 V DC; no PoE is documented for this variant.", "Visible branch sum is 694 while feed total_stock is 802, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "140.5 mm x 111.0 mm diameter", "weight": "0.5 kg net, 1 kg gross" },
+        "sourceRefs": [
+          { "title": "Dahua P5AE-PV datasheet", "type": "datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/P5AE-PV_datasheet_20240628.pdf" },
+          { "title": "Dahua CH P5AE-PV product page", "type": "manufacturer_partner", "url": "https://dahua.ch/product/p5ae-pv-picoo-outdoor-pt-5mp/" },
+          { "title": "Picoo-A59U-DA regional datasheet", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/Picoo-A59U-DA.pdf" },
+          { "title": "TekDigital Picoo-A59U-DA", "type": "retailer", "url": "https://tekdigital.mx/producto/camara-dahua-wifi-5mp-picoo-a59u-da-nb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "oybdwjmiv1mrrz7",
+      "research": {
+        "confidence": 0.92,
+        "name": "IMOU PS8D IPC-PS8D-5V0 camara IP domo PoE exterior 5MP",
+        "description": "Camara IP IMOU PS8D de 5MP para exterior con diseno domo/torreta, PoE o 12V DC, Smart Color Night Vision, deteccion de personas y vehiculos, microfono integrado e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light/imou-ipc-ps8d-5v0",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.imou.com/en/product/detail/ps8d-5mp",
+        "gallery": ["https://static-website.imou.com/48782274-16ac-4e7e-9d4a-eed47dac3de4.png", "https://static-website.imou.com/f4aadcb9-bcda-4fc7-9bfa-a5ad453c34dd.png", "https://d1x12lhh8s9nlj.cloudfront.net/images/productos/products/IPC-PS8D-5V0-IMOU/IPC-PS8D-5V0-IMOU.png"],
+        "documents": [
+          { "label": "IMOU PS8D 5MP product page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps8d-5mp" },
+          { "label": "IMOU PS8D 5MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/5bcfd6bd-1f8a-4f4c-a316-f6a4351bdd65.pdf" },
+          { "label": "IMOU PS8D 5MP support", "type": "support", "url": "https://www.imou.com/me/support/product-support/ps8d-5mp-jd" }
+        ],
+        "specs": {
+          "brand": "IMOU",
+          "model": "IPC-PS8D-5V0",
+          "providerSku": "CAMDAH6810",
+          "cvaSku": "CV-2167",
+          "productType": "Camara IP domo PoE exterior",
+          "resolution": "5 MP, 2880 x 1620",
+          "sensor": "1/3 in progressive CMOS",
+          "lens": "2.8 mm or 3.6 mm F1.6 fixed lens; exact suffix not exposed",
+          "fieldOfView": "2.8 mm H94 V52 D111 or 3.6 mm H76 V41 D91",
+          "video": "H.265/H.264 up to 20 fps by official 5MP datasheet, 8x digital zoom",
+          "illumination": "30 m night vision, spotlights, Smart Color Night Vision, red-blue warning lights",
+          "detection": "Motion, human, vehicle and abnormal sound detection",
+          "audio": "Built-in microphone",
+          "storage": "microSD up to 512 GB, NVR, cloud",
+          "network": "100 Mbps Ethernet, PoE or DC 12 V 1 A, ONVIF",
+          "protection": "IP67",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMDAH6810", "stock": 802, "price": 30.46, "currency": "USD" }, { "providerId": "cva", "providerSku": "CV-2167", "stock": 0, "price": 28.2, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["IPC-PS8D-5V0 is a 5MP 2880x1620 variant; IPC-PS8DN-3V0 belongs to the 3MP family and should not be used for this record's specs.", "CVA title mixes IPC-PS8DN-3V0 with IPC-PS8D-5V0; treat it as a title/product identity conflict until provider confirms.", "Official 5MP datasheet says up to 20 fps; some retailers say 25/30 fps.", "Exact lens suffix 0280B or 0360B is not exposed in provider SKU.", "Provider did not expose branch-level stock for this record."]
+        },
+        "measurements": { "dimensions": "109.9 x 109.9 x 95.7 mm", "weight": "254 g" },
+        "sourceRefs": [
+          { "title": "IMOU PS8D 5MP product page", "type": "manufacturer", "url": "https://www.imou.com/en/product/detail/ps8d-5mp" },
+          { "title": "IMOU PS8D 5MP datasheet", "type": "datasheet", "url": "https://static-website.imou.com/5bcfd6bd-1f8a-4f4c-a316-f6a4351bdd65.pdf" },
+          { "title": "IMOU PS8D 5MP support", "type": "support", "url": "https://www.imou.com/me/support/product-support/ps8d-5mp-jd" },
+          { "title": "IMOU PS8D 3MP comparison datasheet", "type": "datasheet_comparison", "url": "https://static-website.imou.com/cc0067d7-9f9d-4960-9bdc-35f15c148a7a.pdf" },
+          { "title": "Visiotech IMOU IPC-PS8D-5V0", "type": "retailer", "url": "https://www.visiotechsecurity.com/es/productos/cctv-ip/ip-home/imou/ipc-ps8d-5v0-imou-detail" }
+        ]
+      }
+    },
+    {
+      "product_id": "qdp58wvgvd1csd3",
+      "research": {
+        "confidence": 0.96,
+        "name": "Gigabyte A520M K V2 tarjeta madre micro ATX AM4 AMD A520",
+        "description": "Tarjeta madre Gigabyte A520M K V2 micro ATX para procesadores AMD AM4, con chipset A520, dos ranuras DDR4, salida HDMI/D-Sub, M.2 PCIe 3.0 y cuatro puertos SATA.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/a520m",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/a520m/gigabyte-a520m-k-v2",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/eu/Motherboard/A520M-K-V2-rev-10",
+        "gallery": ["https://static.gigabyte.com/StaticFile/Image/Global/47647710431f6ae8de46a2f5b96b9bd4/ProductRemoveBg/33878", "https://www.gigabyte.com/FileUpload/Global/KeyFeature/2324/innergigabyteimages/specsmall.jpg", "https://static.ctonline.mx/imagenes/MBDGIG4840/MBDGIG4840_full.jpg"],
+        "documents": [
+          { "label": "Gigabyte A520M K V2 product page", "type": "manufacturer", "url": "https://www.gigabyte.com/eu/Motherboard/A520M-K-V2-rev-10" },
+          { "label": "Gigabyte A520M K V2 specifications", "type": "manufacturer_specs", "url": "https://www.gigabyte.com/eu/Motherboard/A520M-K-V2-rev-10/sp" },
+          { "label": "Gigabyte A520M K series manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_a520m-k-series_e_1101.pdf" }
+        ],
+        "specs": {
+          "brand": "GIGABYTE",
+          "model": "A520M K V2",
+          "providerSku": "MBDGIG4840",
+          "ean": "4719331852771",
+          "upc": "889523036112",
+          "productType": "Tarjeta madre micro ATX",
+          "socket": "AMD AM4",
+          "chipset": "AMD A520",
+          "supportedCpu": "Ryzen 5000, 5000G, 4000G, 3000 and 3000G series",
+          "memory": "2x DDR4 DIMM up to 64 GB, dual channel, up to DDR4 5100 OC, XMP",
+          "videoOutputs": "D-Sub 1920x1200@60Hz and HDMI 4096x2160@60Hz with compatible APU",
+          "expansion": "1x PCIe 3.0 x16, 1x PCIe 3.0 x1",
+          "storage": "1x M.2 2280 SATA/PCIe 3.0 x4/x2, 4x SATA 6 Gb/s, RAID 0/1/10",
+          "networkAudio": "Realtek GbE 1Gbps, Realtek HD Audio 2/4/5.1/7.1",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 578 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 46 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 40 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 31 }, { "providerId": "ctonline", "warehouseCode": "TAM", "stock": 29 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 16 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "PAC", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 3 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MBDGIG4840", "stock": 795, "price": 48.36, "currency": "USD", "branch": "D2A:578,MAZ:46,CUE:40,DFA:31,TAM:29,TXA:16,CMT:14,PAC:11,XLP:10,CHI:7,TPC:4,OAX:3" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming path as processors was wrong; this is a motherboard.", "Provider title omits V2, but public channel and Gigabyte page map the current SKU to A520M K V2; validate physical label if revision precision is required.", "Gigabyte does not publish EAN/UPC on product specs; keep provider identifiers."]
+        },
+        "measurements": { "formFactor": "Micro ATX", "dimensions": "23.3 x 19.8 cm", "weight": null },
+        "sourceRefs": [
+          { "title": "Gigabyte A520M K V2", "type": "manufacturer", "url": "https://www.gigabyte.com/eu/Motherboard/A520M-K-V2-rev-10" },
+          { "title": "Gigabyte A520M K V2 specifications", "type": "manufacturer_specs", "url": "https://www.gigabyte.com/eu/Motherboard/A520M-K-V2-rev-10/sp" },
+          { "title": "Gigabyte A520M K series manual", "type": "manual", "url": "https://download.gigabyte.com/FileList/Manual/mb_manual_a520m-k-series_e_1101.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "tdas9rd912pfr1a",
+      "research": {
+        "confidence": 0.95,
+        "name": "Nextep NE-510 mini impresora termica POS 58mm USB/RJ11",
+        "description": "Mini impresora termica directa Nextep NE-510 para tickets POS de 58mm, con interfaz USB, puerto RJ11 para cajon de dinero, comandos ESC/POS y cortador manual.",
+        "manualCategoryPath": "punto-de-venta/impresoras-recibos/58mm-usb",
+        "semanticCategoryPath": "punto-de-venta/impresoras-recibos/58mm-usb/nextep-ne-510",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/wp-content/uploads/2024/08/Ficha-Te%E2%95%A0ucnica-MINI-IMPRESORAS_NE-510.pdf",
+        "gallery": ["https://www.unicom.mx/ecommerce/uploads/IMNEXNE-510.jpg", "https://static.ctonline.mx/imagenes/IMPNTE010/IMPNTE010_full.jpg"],
+        "documents": [{ "label": "Nextep NE-510 ficha tecnica", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/2024/08/Ficha-Te%E2%95%A0ucnica-MINI-IMPRESORAS_NE-510.pdf" }],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-510",
+          "providerSku": "IMPNTE010",
+          "ean": "7501811271779",
+          "productType": "Mini impresora termica POS",
+          "printTechnology": "Termica directa",
+          "resolution": "203 dpi",
+          "speed": "90 mm/s",
+          "paper": "57 mm roll, 0.06-0.08 mm thickness, up to 50 mm diameter",
+          "printWidth": "48 mm",
+          "interface": "USB and RJ11 cash drawer, no LAN",
+          "cutter": "Manual",
+          "commands": "ESC/POS",
+          "barcodes": "UPC-A, UPC-E, JAN13/EAN13, JAN8/EAN8, Code39, ITF, Codabar, Code93, Code128",
+          "power": "Input 100-240V 1.5A 50/60Hz, output DC 12V/3A; cash drawer DC 12V/1A",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 324 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 298 }, { "providerId": "ctonline", "warehouseCode": "CUE", "stock": 39 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 14 }, { "providerId": "ctonline", "warehouseCode": "XLP", "stock": 10 }, { "providerId": "ctonline", "warehouseCode": "CLN", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "TRN", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "TXA", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "TPC", "stock": 5 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 4 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "IMPNTE010", "stock": 795, "price": 367.05, "currency": "MXN", "branch": "D2A:324,DFA:298,CUE:39,CUN:18,HMO:14,XLP:10,CLN:8,SLP:7,TRN:6,TXA:5,TPC:5,DGO:4" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming cleaning path was wrong; this is a POS receipt printer.", "Official datasheet says manual cutter; ignore listings that say automatic cutter.", "Do not confuse with NE-510X Bluetooth or NE-511 80mm/LAN.", "EAN is kept from provider because it is not shown on the public datasheet.", "Visible branch sum is 738 while feed total_stock is 795, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "17.5 x 13 x 11 cm", "weight": "0.52 kg" },
+        "sourceRefs": [
+          { "title": "Nextep NE-510 ficha tecnica", "type": "datasheet", "url": "https://nextep.com.mx/wp-content/uploads/2024/08/Ficha-Te%E2%95%A0ucnica-MINI-IMPRESORAS_NE-510.pdf" },
+          { "title": "GlobalOffice Nextep NE-510", "type": "retailer", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/perifericos/mini-impresora-nextep-ne-510-impresora-termica-nex/ne-510" },
+          { "title": "SAME Nextep NE-510", "type": "retailer", "url": "https://www.same.com.mx/producto/ne-510/" }
+        ]
+      }
+    },
+    {
+      "product_id": "mg9riyuhq5gzc0x",
+      "research": {
+        "confidence": 0.96,
+        "name": "ADATA XPG SX8200 Pro ASX8200PNP-512GT-C SSD M.2 NVMe 512GB",
+        "description": "SSD ADATA XPG SX8200 Pro de 512GB en formato M.2 2280, PCIe Gen3x4 NVMe 1.3, con NAND 3D TLC, cache SLC y DRAM, hasta 3500 MB/s de lectura.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/512gb-gen3",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/512gb-gen3/adata-xpg-sx8200-pro-512gb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xpg.com/mx/xpg/583?tab=spec",
+        "gallery": ["https://www.xpg.com/mx/xpg/583?tab=gallery", "https://static.ctonline.mx/imagenes/DDUDAT1020/DDUDAT1020_full.jpg"],
+        "documents": [{ "label": "ADATA XPG SX8200 Pro datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_xpg_sx8200_pro_pcie_gen3_x4_m2_ssd_20250609.pdf" }],
+        "specs": {
+          "brand": "ADATA",
+          "model": "ASX8200PNP-512GT-C",
+          "series": "XPG SX8200 Pro",
+          "providerSku": "DDUDAT1020",
+          "ean": "4713218469458",
+          "productType": "SSD M.2 NVMe",
+          "capacity": "512 GB",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe Gen3x4, NVMe 1.3",
+          "nand": "3D TLC",
+          "controller": "SM2262",
+          "cache": "SLC caching plus DRAM cache buffer",
+          "sequentialRead": "Up to 3500 MB/s",
+          "sequentialWrite": "2300 MB/s for 512GB in official performance table",
+          "iops": "390K read / 380K write",
+          "tbw": "320 TB",
+          "mtbf": "2,000,000 hours",
+          "operatingTemperature": "0 to 70 C",
+          "warranty": "5-year limited",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 379 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 315 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 100 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUDAT1020", "stock": 794, "price": 85.78, "currency": "USD", "branch": "D2A:379,DFA:315,DFC:100" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["ASX8200PNP-512GT-C and EAN 4713218469458 map to XPG SX8200 Pro 512GB.", "Current provider specs said 2400 MB/s write; official 2025 datasheet lists 2300 MB/s for 512GB while generic product copy says up to 3000 MB/s.", "Visible branch sum equals feed total_stock 794."]
+        },
+        "measurements": { "dimensions": "80 x 22 x 3.5 mm", "weight": "8 g" },
+        "sourceRefs": [
+          { "title": "XPG SX8200 Pro specifications", "type": "manufacturer", "url": "https://www.xpg.com/mx/xpg/583?tab=spec" },
+          { "title": "ADATA XPG SX8200 Pro datasheet", "type": "datasheet", "url": "https://www.adata.com/storage/downloadfile/datasheet_xpg_sx8200_pro_pcie_gen3_x4_m2_ssd_20250609.pdf" },
+          { "title": "B&H XPG SX8200 Pro 512GB", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1567696-REG/xpg_asx8200pnp_512gt_c_512gb_sx8200_pcie_gen3x4.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "w3b98l65povnloe",
+      "research": {
+        "confidence": 0.95,
+        "name": "CDP R2C-AVR1008 regulador de voltaje AVR 1000VA 500W 8 contactos",
+        "description": "Regulador automatico de voltaje CDP R2C-AVR1008 de 1000VA/500W con ocho contactos NEMA 5-15R, proteccion contra picos y breaker termomagnetico reseteable.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1000va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1000va/cdp-r2c-avr1008",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdpenergy.com/productdetails.asp?ccoun=py&mf=cHJvdGVjdGlvbg&prd=MTI4&prdn=UjJDLUFWUjEwMDg",
+        "gallery": ["https://cdpenergy.com/Content_Elements/product_main_images/PRID-128-Main-42.jpg", "https://cdpenergy.com/Content_Elements/product_extra_images/PRID-455-EXTIMG-421.jpg", "https://cdpenergy.com/Content_Elements/product_extra_images/PRID-128-EXTIMG-1649.jpg", "https://static.ctonline.mx/imagenes/REGCDP1030/REGCDP1030_full.jpg"],
+        "documents": [
+          { "label": "CDP R2C-AVR1008 product page", "type": "manufacturer", "url": "https://cdpenergy.com/productdetails.asp?ccoun=py&mf=cHJvdGVjdGlvbg&prd=MTI4&prdn=UjJDLUFWUjEwMDg" },
+          { "label": "CDP R2C-AVR1008 catalog", "type": "catalog", "url": "https://cdpenergy.com/Content_Elements/downloads/Catalogs/128-CATALOGO%20R2C-AVR1008.pdf" },
+          { "label": "CDP R2C-AVR1008 user manual", "type": "manual", "url": "https://cdpenergy.com/Content_Elements/downloads/Manuals/128-Manual%20de%20usuario%20R2C%28U%29-AVR1008.pdf" }
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "R2C-AVR1008",
+          "providerSku": "REGCDP1030",
+          "cvaSku": "RE-120",
+          "ean": "879071000208",
+          "productType": "Regulador automatico de voltaje AVR",
+          "capacity": "1000 VA / 500 W",
+          "powerFactor": "0.5",
+          "input": "120 Vac, NEMA 5-15P, 85-145 Vac official range, 50/60 Hz",
+          "outlets": "8 NEMA 5-15R; 4 AVR plus suppression and 4 suppression-only by official imagery",
+          "surgeSuppression": "175 J",
+          "outputRegulation": "120 Vac +/-10%",
+          "protection": "Overload, TVSS, coaxial TVSS, resettable 6A thermomagnetic breaker",
+          "cable": "1 m",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "REGCDP1030", "stock": 793, "price": 283.7, "currency": "MXN" }, { "providerId": "cva", "providerSku": "RE-120", "stock": 0, "price": 284.62, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming no-break/UPS grouping is wrong; manufacturer describes an AVR voltage regulator without battery backup.", "Do not confuse with R2CU-AVR1008, the similar USB variant; R2C-AVR1008 does not list USB in the official sheet.", "Official input range is 85-145 Vac; some retailers list 92-144 Vac.", "Branch-level stock was not exposed for CT or CVA."]
+        },
+        "measurements": { "dimensions": "125 x 77 x 146 mm", "weight": "1.11 kg" },
+        "sourceRefs": [
+          { "title": "CDP R2C-AVR1008 product page", "type": "manufacturer", "url": "https://cdpenergy.com/productdetails.asp?ccoun=py&mf=cHJvdGVjdGlvbg&prd=MTI4&prdn=UjJDLUFWUjEwMDg" },
+          { "title": "CDP R2C-AVR1008 catalog", "type": "catalog", "url": "https://cdpenergy.com/Content_Elements/downloads/Catalogs/128-CATALOGO%20R2C-AVR1008.pdf" },
+          { "title": "CDP R2C-AVR1008 user manual", "type": "manual", "url": "https://cdpenergy.com/Content_Elements/downloads/Manuals/128-Manual%20de%20usuario%20R2C%28U%29-AVR1008.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "ewx424irfr20wxv",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link TL-WN881ND adaptador Wi-Fi N300 PCI Express x1",
+        "description": "Adaptador Wi-Fi TP-Link TL-WN881ND N300 para PC de escritorio con interfaz PCI Express x1, dos antenas desmontables RP-SMA y compatibilidad 802.11b/g/n en 2.4GHz.",
+        "manualCategoryPath": "redes/adaptadores-wifi/pcie/n300",
+        "semanticCategoryPath": "redes/adaptadores-wifi/pcie/n300/tp-link-tl-wn881nd",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/pci-adapter/tl-wn881nd/v2/",
+        "gallery": ["https://static.tp-link.com/TL-WN881ND_UN_2.0_01_normal_1507530821900h.jpg", "https://static.tp-link.com/TL-WN881ND_UN_2.0_03_normal_1507531099604a.jpg", "https://static.tp-link.com/TL-WN881ND_UN_2.0_04_normal_1507531117390s.jpg", "https://static.ctonline.mx/imagenes/TARTPL340/TARTPL340_full.jpg"],
+        "documents": [
+          { "label": "TP-Link TL-WN881ND Mexico", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/pci-adapter/tl-wn881nd/v2/" },
+          { "label": "TP-Link TL-WN881ND support", "type": "support", "url": "https://www.tp-link.com/us/support/download/tl-wn881nd/" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WN881ND",
+          "providerSku": "TARTPL340",
+          "cvaSku": "NIC-1292",
+          "productType": "Adaptador Wi-Fi PCIe",
+          "interface": "PCI Express x1",
+          "wifi": "Wi-Fi 4, IEEE 802.11b/g/n, 2.4 GHz, up to 300 Mbps",
+          "mimo": "2x2 MIMO",
+          "antennas": "2 detachable RP-SMA omnidirectional antennas, 2 dBi",
+          "security": "64/128-bit WEP, WPA-PSK/WPA2-PSK",
+          "txPower": "<20 dBm EIRP",
+          "os": "Windows 11/10/8.1/8/7 and Linux; V1 support also lists older Windows versions",
+          "providerBranches": [],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "TARTPL340", "stock": 793, "price": 9.66, "currency": "USD" }, { "providerId": "cva", "providerSku": "NIC-1292", "stock": 0, "price": 9.17, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Incoming access-points path was wrong; this is a PCIe Wi-Fi adapter, not an AP/router.", "TP-Link has V1 and V2 regional support pages; core specs match, but support package may vary by hardware version.", "Official TP-Link page does not publish product weight; retailer weight is only indicative.", "Provider did not expose branch-level stock for this record."]
+        },
+        "measurements": { "dimensions": "120.8 x 78.5 x 21.5 mm", "weight": "about 59-60 g by retailer references, not official" },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico TL-WN881ND V2", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/pci-adapter/tl-wn881nd/v2/" },
+          { "title": "TP-Link UK TL-WN881ND V1", "type": "manufacturer", "url": "https://www.tp-link.com/uk/home-networking/adapter/tl-wn881nd/v1/" },
+          { "title": "TP-Link TL-WN881ND support", "type": "support", "url": "https://www.tp-link.com/us/support/download/tl-wn881nd/" },
+          { "title": "B&H TP-Link TL-WN881ND", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/887061-REG/TP_Link_TL_WN881ND_300Mbps_Wireless_N.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "n8o2j4xf7uxnwur",
+      "research": {
+        "confidence": 0.82,
+        "name": "Kingston KC-S44480-7S SSD SATA 2.5 pulgadas 480GB",
+        "description": "SSD Kingston KC-S44480-7S de 480GB en formato 2.5 pulgadas SATA 6Gb/s, identificado por distribuidores como una variante alineada a A400, con lectura/escritura reportada de 500/450 MB/s.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/2-5-sata/480gb",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/2-5-sata/480gb/kingston-kc-s44480-7s",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/en/ssd/a400-solid-state-drive",
+        "gallery": ["https://www.supermexdigital.mx/web/image/product.template/31245/image_1920?unique=cc97421", "https://www.kingston.com/en/ssd/a400-solid-state-drive", "https://static.ctonline.mx/imagenes/DDUKGT2570/DDUKGT2570_full.jpg"],
+        "documents": [
+          { "label": "Kingston A400 product page", "type": "manufacturer_reference", "url": "https://www.kingston.com/en/ssd/a400-solid-state-drive" },
+          { "label": "Kingston A400 datasheet", "type": "datasheet_reference", "url": "https://www.kingston.com/datasheets/SA400_us.pdf?_=v1" }
+        ],
+        "specs": {
+          "brand": "KINGSTON TECHNOLOGY",
+          "model": "KC-S44480-7S",
+          "providerSku": "DDUKGT2570",
+          "upc": "740617352320",
+          "productType": "SSD SATA 2.5 pulgadas",
+          "capacity": "480 GB",
+          "formFactor": "2.5 in, 7 mm",
+          "interface": "SATA Rev. 3.0 6 Gb/s",
+          "reportedPerformance": "500 MB/s read, 450 MB/s write by distributor references",
+          "possibleA400Reference": "If equivalence is physically confirmed: 3D NAND, 160 TBW, 2M hours MTBF, 41 g",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "GDL", "stock": 349 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 100 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 97 }, { "providerId": "ctonline", "warehouseCode": "VER", "stock": 46 }, { "providerId": "ctonline", "warehouseCode": "MTY", "stock": 34 }, { "providerId": "ctonline", "warehouseCode": "MAZ", "stock": 26 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 21 }, { "providerId": "ctonline", "warehouseCode": "SLP", "stock": 19 }, { "providerId": "ctonline", "warehouseCode": "MID", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "SLT", "stock": 17 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 15 }, { "providerId": "ctonline", "warehouseCode": "CEL", "stock": 10 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "DDUKGT2570", "stock": 792, "price": 71.11, "currency": "USD", "branch": "GDL:349,DFC:100,DFA:97,VER:46,MTY:34,MAZ:26,OAX:21,SLP:19,MID:18,SLT:17,CUN:15,CEL:10" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["No public Kingston datasheet was found for exact code KC-S44480-7S; it appears mostly in Mexican distributor/retailer catalogs.", "UPC 740617352320 does not match the common public SA400S37/480G A400 UPC 740617263442.", "PCH lists KC-S44480-7S and SA400S37/480G as separate lines, so do not merge automatically.", "Not DC600M enterprise and not KC600; keep exact provider code.", "Visible branch sum is 752 while feed total_stock is 792, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "100.0 x 69.9 x 7.0 mm if A400-equivalent is confirmed", "weight": "41 g if A400-equivalent is confirmed" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Kingston KC-S44480-7S", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/almacenamiento-interno/ssd-25-480gb-kingston-sataiii-sa400-6gbs-7mm-kc/kc-s44480-7s" },
+          { "title": "Supermex Digital Kingston KC-S44480-7S", "type": "retailer", "url": "https://www.supermexdigital.mx/shop/740617352320-ssd-kingston-sa400s37-480gb-sata-kc-s44480-7s-11m-de-garantia-31245" },
+          { "title": "Kingston A400 product page reference", "type": "manufacturer_reference", "url": "https://www.kingston.com/en/ssd/a400-solid-state-drive" },
+          { "title": "Kingston DC600M comparison", "type": "manufacturer_comparison", "url": "https://www.kingston.com/en/ssd/dc600m-data-center-solid-state-drive?capacity=480gb&security+features=none" }
+        ]
+      }
+    },
+    {
+      "product_id": "lpl0wvccwq0khcp",
+      "research": {
+        "confidence": 0.96,
+        "name": "TP-Link Tapo C310 camara Wi-Fi de seguridad exterior 2K 3MP",
+        "description": "Camara Wi-Fi exterior TP-Link Tapo C310 de 3MP 2304x1296 con conectividad 2.4GHz y Ethernet, IP66, vision nocturna hasta 30m, audio bidireccional y deteccion inteligente.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k/tp-link-tapo-c310",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/cloud-camera/tapo-c310/",
+        "gallery": ["https://static.tp-link.com/upload/image-line/2_large_1599194417653h_normal_20251119184510x.jpg", "https://static.tp-link.com/upload/image-line/1_large_1599194402144d_normal_20251119184543p.jpg", "https://static.tp-link.com/upload/image-line/TapoC310-CamarainteligenteWi-FideVigilanciaparaExterior360_1080p_DeteccionIA02_normal_20251119184620f.jpg", "https://static.ctonline.mx/imagenes/CAMTPL200/CAMTPL200_full.jpg"],
+        "documents": [
+          { "label": "TP-Link Mexico Tapo C310", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/cloud-camera/tapo-c310/" },
+          { "label": "TP-Link Tapo C310 downloads", "type": "support", "url": "https://www.tp-link.com/mx/support/download/tapo-c310/" },
+          { "label": "Tapo C310 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202604/20260421/Tapo%20C310%202.0%262.20%262.26%262.28_Datasheet.pdf" }
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "Tapo C310",
+          "providerSku": "CAMTPL200",
+          "upc": "840030701832",
+          "productType": "Camara IP Wi-Fi exterior",
+          "resolution": "3 MP, 2304 x 1296",
+          "video": "H.264, 15 fps",
+          "lens": "Recent datasheet: 1/2.8 CMOS, 3.9 mm, F2.0, FoV D100/H84/V46; Mexico V2 page differs slightly",
+          "network": "2.4 GHz 802.11b/g/n Wi-Fi and RJ45 10/100 Ethernet",
+          "protection": "IP66",
+          "nightVision": "850 nm IR up to 30 m",
+          "audio": "Built-in microphone and speaker, two-way audio with noise cancellation",
+          "storage": "microSD local; 512GB on recent V2.20/V2.26/V2.28 datasheet, 128GB on TP-Link MX V2 page",
+          "power": "9 V DC 0.6 A adapter, 3 m cable",
+          "mounting": "Wall-mounted by official guide",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "D2A", "stock": 262 }, { "providerId": "ctonline", "warehouseCode": "DGO", "stock": 181 }, { "providerId": "ctonline", "warehouseCode": "CMT", "stock": 138 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 70 }, { "providerId": "ctonline", "warehouseCode": "DFA", "stock": 39 }, { "providerId": "ctonline", "warehouseCode": "AGS", "stock": 38 }, { "providerId": "ctonline", "warehouseCode": "IRA", "stock": 18 }, { "providerId": "ctonline", "warehouseCode": "OAX", "stock": 7 }, { "providerId": "ctonline", "warehouseCode": "PUE", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "URP", "stock": 6 }, { "providerId": "ctonline", "warehouseCode": "HMO", "stock": 4 }, { "providerId": "ctonline", "warehouseCode": "OBR", "stock": 2 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "CAMTPL200", "stock": 787, "price": 30.68, "currency": "USD", "branch": "D2A:262,DGO:181,CMT:138,GDL:70,DFA:39,AGS:38,IRA:18,OAX:7,PUE:6,URP:6,HMO:4,OBR:2" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Normalize entry name TP-Link C310 to TP-Link Tapo C310.", "microSD capacity differs by official source/version: TP-Link MX V2 says up to 128GB while recent V2.20/V2.26/V2.28 datasheet says up to 512GB.", "Sensor/lens differs by official source: Mexico V2 says 1/2.7, 3.89mm, F2.2 while recent datasheet says 1/2.8, 3.9mm, F2.0.", "Provider mounted category mentions ceiling/wall/pole; official guide backs wall mounting only.", "Visible branch sum is 771 while feed total_stock is 787, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "142.3 x 103.4 x 64.3 mm", "weight": "220 g" },
+        "sourceRefs": [
+          { "title": "TP-Link Mexico Tapo C310", "type": "manufacturer", "url": "https://www.tp-link.com/mx/home-networking/cloud-camera/tapo-c310/" },
+          { "title": "Tapo C310 datasheet", "type": "datasheet", "url": "https://static.tp-link.com/upload/product-overview/2026/202604/20260421/Tapo%20C310%202.0%262.20%262.26%262.28_Datasheet.pdf" },
+          { "title": "Tapo C310 user guide", "type": "manual", "url": "https://static.tp-link.com/upload/manual/2023/202307/20230705/1910013445_Tapo%20C310%202.20_UG_V1.pdf" },
+          { "title": "B&H Tapo C310 UPC check", "type": "retailer", "url": "https://www.bhphotovideo.com/c/product/1703449-REG/tp_link_tapo_c310_outdoor_security.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "3x0i8u9i2lf2dgh",
+      "research": {
+        "confidence": 0.96,
+        "name": "Dell WM126 mouse inalambrico optico USB 2.4GHz negro",
+        "description": "Mouse inalambrico Dell WM126 negro con conexion RF 2.4GHz por receptor USB, sensor optico de 1000 DPI, tres botones, rueda de desplazamiento y bateria AA.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1000-dpi",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1000-dpi/dell-wm126",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-wireless-mouse-wm126-black/apd/570-aalk/pc-accessories",
+        "gallery": ["https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/mouse/wm126/dell-mouse-wm126-504x350.jpg?hei=402&op_usm=1.75%2C0.3%2C2%2C0&pscan=auto&qtl=90%2C0&resMode=sharp", "https://static.ctonline.mx/imagenes/MOUDLL030/MOUDLL030_full.jpg"],
+        "documents": [
+          { "label": "Dell WM126 product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wireless-mouse-wm126-black/apd/570-aalk/pc-accessories" },
+          { "label": "Dell WM126 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wireless-mouse-wm126-data-sheet.pdf.external" },
+          { "label": "Dell WM126 user guide", "type": "manual", "url": "https://dl.dell.com/manuals/all-products/esuprt_electronics/esuprt_mice_keyboards/dell-wireless-mouse-wm126_User%27s%20Guide_en-us.pdf" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "WM126",
+          "providerSku": "MOUDLL030",
+          "upc": "884116198482",
+          "manufacturerPartNumber": "D00FP",
+          "dellPart": "570-AALK",
+          "productType": "Mouse inalambrico optico",
+          "connectivity": "2.4 GHz RF wireless, Dell Universal Pairing",
+          "receiver": "USB Type-A receiver included",
+          "sensor": "Optical LED",
+          "dpi": "1000",
+          "buttons": 3,
+          "battery": "1 AA alkaline battery",
+          "batteryLife": "Up to 12 months",
+          "range": "Up to 10 m by user guide",
+          "color": "Black",
+          "providerBranches": [{ "providerId": "ctonline", "warehouseCode": "CMT", "stock": 281 }, { "providerId": "ctonline", "warehouseCode": "GDL", "stock": 219 }, { "providerId": "ctonline", "warehouseCode": "CUN", "stock": 47 }, { "providerId": "ctonline", "warehouseCode": "QRO", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "DFC", "stock": 32 }, { "providerId": "ctonline", "warehouseCode": "TOL", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "ZAC", "stock": 13 }, { "providerId": "ctonline", "warehouseCode": "LEO", "stock": 11 }, { "providerId": "ctonline", "warehouseCode": "CHI", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "MOR", "stock": 9 }, { "providerId": "ctonline", "warehouseCode": "DFP", "stock": 8 }, { "providerId": "ctonline", "warehouseCode": "DFT", "stock": 8 }],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "MOUDLL030", "stock": 772, "price": 227.78, "currency": "MXN", "branch": "CMT:281,GDL:219,CUN:47,QRO:32,DFC:32,TOL:13,ZAC:13,LEO:11,CHI:9,MOR:9,DFP:8,DFT:8" }],
+          "providerStockVerifiedAt": "2026-05-29T00:00:00Z",
+          "sourceDiscrepancies": ["Weight differs by Dell source: datasheet says 80 g with battery, user guide says 56.95 g without battery and Dell store lists about 57.6 g.", "Part number varies by region: US D00FP/570-AALK and Spain X2T8X/570-AAMH; provider UPC appears in retail as WM126-BK.", "Visible branch sum is 682 while feed total_stock is 772, so provider locations are partial."]
+        },
+        "measurements": { "dimensions": "94.82 x 57.31 x 35.60 mm", "weight": "80 g with battery; 56.95 g without battery" },
+        "sourceRefs": [
+          { "title": "Dell WM126 product page", "type": "manufacturer", "url": "https://www.dell.com/en-us/shop/dell-wireless-mouse-wm126-black/apd/570-aalk/pc-accessories" },
+          { "title": "Dell WM126 datasheet", "type": "datasheet", "url": "https://www.delltechnologies.com/asset/en-us/products/electronics-and-accessories/technical-support/dell-wireless-mouse-wm126-data-sheet.pdf.external" },
+          { "title": "Dell WM126 user guide", "type": "manual", "url": "https://dl.dell.com/manuals/all-products/esuprt_electronics/esuprt_mice_keyboards/dell-wireless-mouse-wm126_User%27s%20Guide_en-us.pdf" },
+          { "title": "Exel Dell WM126 UPC", "type": "retailer", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/DECACCAC016" }
+        ]
+      }
+    }
+  ]
+}

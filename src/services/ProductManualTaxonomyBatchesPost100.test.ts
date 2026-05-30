@@ -162,6 +162,16 @@ const researchedBatchCases = [
   ["Manhattan 162272 mini hub USB-A 4 puertos negro", "MANHATTAN", "computo/accesorios/hubs-usb/usb-a/4-puertos"],
   ["Perfect Choice PC-034094 alcohol isopropilico antiestatico 1 litro", "PERFECT CHOICE", "computo/accesorios/limpieza/alcohol-isopropilico/1l"],
   ["Dahua DH-PFM350-360-A UPS line-interactive 600VA 360W 4 salidas", "DAHUA TECHNOLOGY", "energia/no-breaks-ups/line-interactive/600va"],
+  ["Dahua Picoo A59U-DA camara PT WiFi exterior 5MP dual light", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light"],
+  ["IMOU IPC-PS8D-5V0 camara domo PoE 5MP smart color vision", "IMOU", "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light"],
+  ["Gigabyte A520M K motherboard AMD AM4 micro ATX DDR4", "GIGABYTE", "computo/componentes/tarjetas-madre/amd-am4/a520m"],
+  ["Nextep NE-510 mini impresora termica POS 58mm USB", "NEXTEP", "punto-de-venta/impresoras-recibos/58mm-usb"],
+  ["ADATA XPG SX8200 Pro ASX8200PNP-512GT-C SSD M.2 NVMe 512GB Gen3", "ADATA", "computo/almacenamiento/ssd/m2-nvme/512gb-gen3"],
+  ["CDP R2C-AVR1008 regulador de voltaje AVR 1000VA 500W 8 contactos", "CDP", "energia/supresores-reguladores/reguladores-voltaje/avr/1000va"],
+  ["TP-Link TL-WN881ND adaptador WiFi PCI Express N300", "TP LINK", "redes/adaptadores-wifi/pcie/n300"],
+  ["Kingston A400 KC-S44480-7S SA400S37 480GB SSD 2.5 SATA", "KINGSTON TECHNOLOGY", "computo/almacenamiento/ssd/2-5-sata/480gb"],
+  ["TP-Link Tapo C310 camara WiFi exterior 3MP 2K IP66", "TP-LINK", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k"],
+  ["Dell WM126 mouse inalambrico optico USB 2.4GHz 1000 DPI", "DELL", "computo/perifericos/mouse/inalambricos/basicos/1000-dpi"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
