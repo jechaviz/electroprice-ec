@@ -361,6 +361,16 @@ const researchedBatchCases = [
   ["Acteck Fuji GC470 gabinete mini torre Micro ATX Mini ITX fuente 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w"],
   ["BRobotix 6001547 cable USB-C a USB-C 1 m gris carga rapida", "BROBOTIX", "accesorios/cables-adaptadores/usb/usb-c-c/1m"],
   ["Kingston DataTraveler Exodia S DTXS/128GB memoria USB 128GB", "KINGSTON", "computo/almacenamiento/memorias-flash/usb/128gb"],
+  ["Manhattan 461795 soporte de piso tripode para TV 45 a 65 pulgadas 32 kg", "MANHATTAN", "video/soportes-tv/piso-tripode/45-65-32kg"],
+  ["Dahua DHI-ARA43-W2 repetidor inalambrico de alarma AirShield", "DAHUA TECHNOLOGY", "seguridad/alarmas/accesorios/repetidores-inalambricos"],
+  ["Dahua DH-PFM800-4K balun pasivo HDCVI 4K para UTP", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-cableado/baluns-video/hdcvi-4k"],
+  ["Kingston KCP432NS8/8 memoria RAM UDIMM DDR4 8GB 3200 CL22", "KINGSTON TECHNOLOGY", "computo/componentes/memoria-ram/udimm-ddr4/8gb-3200"],
+  ["Western Digital WD Purple WD85PURZ disco duro 8TB 3.5 SATA vigilancia", "WESTERN DIGITAL", "computo/almacenamiento/discos-duros/3-5-sata/vigilancia/8tb"],
+  ["TCL 43Q3K Smart TV QLED 43 pulgadas Full HD Google TV", "TCL", "video/televisores/qled-google-tv/43-fhd"],
+  ["Naceb X-One NA-09S4R silla gamer negro rojo de malla 140 kg", "NACEB TECHNOLOGY", "gaming/mobiliario/sillas-gamer/malla/140kg"],
+  ["Perfect Choice Graypack PC-084532 mochila ejecutiva laptop 15.6 gris", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
+  ["Brother TZe-FX231 cinta flexible ID laminada 12mm x 8m negro blanco", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-tze/flexible-id/12mm"],
+  ["Dahua DH-XVR1B16-I/T XVR WizSense 16 canales HDCVI 1080N", "DAHUA TECHNOLOGY", "seguridad/cctv/dvr-nvr/xvr-hdcvi/16-canales-wizsense"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {
