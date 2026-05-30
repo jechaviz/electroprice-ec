@@ -491,6 +491,16 @@ const researchedBatchCases = [
   ["Camara PTZ UNV IPC6434LR-X16-VG1 LightHunter 4MP 16x IR 100m", "UNV", "seguridad/cctv/camaras-ip-poe/ptz/4mp-16x-lighthunter"],
   ["Fuente de poder Naceb Gaming NA-0627 ATX 1000W 80 PLUS Gold modular", "NACEB GAMING", "computo/componentes/fuentes-poder/atx-80-plus-gold/1000w"],
   ["Microsoft 365 Business Standard licencia comercial anual por usuario CFQ7TTC0LDPBP1YM", "MICROSOFT", "software/productividad-oficina/microsoft-365/business-standard"],
+  ["PC de escritorio Dell Pro Micro QCM1255 Ryzen 7 PRO 8700GE 16GB DDR5 SSD 512GB Windows 11 Pro", "DELL", "computo/desktops/mini-pc/dell-pro-micro"],
+  ["Telefono IP Grandstream GXP1610 1 cuenta SIP fuente incluida sin PoE", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/1-cuenta-sip"],
+  ["Camara WiFi interior TP-Link Tapo C100 Full HD 1080p audio bidireccional", "TP LINK", "seguridad/cctv/camaras-ip-wifi/interior/1080p"],
+  ["Monitor BenQ GW3290QT 31.5 pulgadas QHD IPS 75Hz USB-C blanco", "BENQ", "computo/monitores/oficina/32-qhd-usb-c"],
+  ["UPS CyberPower OR1500LCDRT2U Smart App LCD 1500VA 900W rack torre 2U", "CYBERPOWER", "energia/no-breaks-ups/line-interactive/rack-torre/1500va"],
+  ["Camara turret analogica HiLook THC-T120-M 2MP IR 20m 4 en 1", "HILOOK", "seguridad/cctv/camaras-analogicas/turret/2mp-ir"],
+  ["Gabinete Thermaltake The Tower 100 CA-1R3-00S1WN-00 Mini-ITX negro vidrio templado", "THERMALTAKE", "computo/componentes/gabinetes/mini-tower/mini-itx/vidrio-templado"],
+  ["Switch Mercusys MS108G 8 puertos Gigabit 10/100/1000 Mbps", "MERCUSYS", "redes/switches/no-administrables/gigabit/8-puertos"],
+  ["Mochila TechZone Loud TZ21LBP09 para laptop 15.6 pulgadas negra", "TECHZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6"],
+  ["SSD ADATA LEGEND 710 ALEG-710-512GCS 512GB M.2 NVMe PCIe Gen3x4", "ADATA", "computo/almacenamiento/ssd/m2-nvme/512gb-gen3"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

@@ -1,0 +1,404 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b151-2026-05-30",
+  "cycle": 3,
+  "batch": 151,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "4d8mcf6dlpzog19",
+      "research": {
+        "confidence": 0.9,
+        "name": "PC de escritorio Dell Pro Micro QCM1255 Ryzen 7 PRO 8700GE, 16GB DDR5, SSD 512GB, Windows 11 Pro",
+        "description": "Desktop Dell Pro Micro QCM1255 en formato micro para uso empresarial, con AMD Ryzen 7 PRO 8700GE, memoria DDR5, SSD NVMe de 512GB y Windows 11 Pro.",
+        "manualCategoryPath": "computo/desktops/mini-pc/dell-pro-micro",
+        "semanticCategoryPath": "computo/desktops/mini-pc/dell-pro-micro/ryzen-7-pro-8700ge-16gb-512gb",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "DELL",
+          "model": "Dell Pro Micro QCM1255",
+          "providerSku": "CPUDDL5190",
+          "productType": "Desktop micro empresarial",
+          "processor": "AMD Ryzen 7 PRO 8700GE, 8 nucleos/16 hilos, hasta 5.1GHz, NPU 16 TOPS",
+          "memory": "16GB DDR5 4800 MT/s",
+          "storage": "SSD 512GB",
+          "operatingSystem": "Windows 11 Pro",
+          "formFactor": "Micro Form Factor",
+          "providerBranchSummary": "Proveedor reporta DFA:24 y VER:1.",
+          "providerBranches": [{"warehouseCode": "DFA", "stock": 24}, {"warehouseCode": "VER", "stock": 1}],
+          "providerOffers": [{"providerSku": "CPUDDL5190", "stock": 25, "price": 14168.42, "currency": "MXN", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "No encontradas en fuentes abiertas usadas",
+          "weight": "No encontrado"
+        },
+        "sourceRefs": [
+          {"title": "Dell Pro Micro QCM1255 official product page", "type": "manufacturer_spec", "url": "https://www.dell.com/en-us/shop/cty/pdp/spd/dell-pro-qcm1255-micro/bts509d_qcm1255_usx"},
+          {"title": "Dell Pro Micro QCM1255 support manual", "type": "manufacturer_spec", "url": "https://www.dell.com/support/manuals/en-us/dell-pro-qcm1255-micro/dell_pro_micro_qcm1255_om/processor?guid=guid-6dd66aed-988b-4db8-b368-4981f5e897b0&lang=en-us"},
+          {"title": "Dell Pro Micro AMD product brochure", "type": "manufacturer_pdf", "url": "https://www.delltechnologies.com/asset/en-us/products/desktops-and-all-in-ones/briefs-summaries/dell-pro-micro-desktop-amd-product-brochure.pdf"},
+          {"title": "Provider stock CPUDDL5190 DFA:24 VER:1", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4da8fjna5t8n0w1",
+      "research": {
+        "confidence": 0.92,
+        "name": "Telefono IP Grandstream GXP1610, 1 cuenta SIP, pantalla LCD, fuente incluida, sin PoE",
+        "description": "Telefono IP Grandstream GXP1610 de escritorio para pequenas oficinas, con una cuenta SIP, pantalla grafica 132 x 48, doble puerto Ethernet 10/100 y fuente incluida; no es la variante PoE.",
+        "manualCategoryPath": "telefonia/telefonos-ip/escritorio/1-cuenta-sip",
+        "semanticCategoryPath": "telefonia/telefonos-ip/escritorio/1-cuenta-sip/grandstream-gxp1610",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TELGDM010/TELGDM010_full.jpg"],
+        "specs": {
+          "brand": "GRANDSTREAM",
+          "model": "GXP1610",
+          "providerSkus": ["TEL-151", "TELGDM010"],
+          "productType": "Telefono IP SIP",
+          "sipAccounts": "1 cuenta SIP, hasta 2 apariencias de llamada",
+          "display": "LCD grafico 132 x 48 de 2.95 pulgadas",
+          "network": "2 puertos Ethernet 10/100 Mbps",
+          "poe": "No; PoE solo en GXP1610P/GXP1615",
+          "power": "Fuente universal 100-240VAC a 5VDC 600mA incluida",
+          "features": ["Altavoz", "RJ9 para headset", "Conferencia de 3 vias", "Agenda XML/LDAP hasta 1000 contactos"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 126.",
+          "providerOffers": [{"providerSku": "TELGDM010", "stock": 126, "price": 28.28, "currency": "USD", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "209 x 184.5 x 76.2 mm",
+          "weight": "0.74 kg; empaque 1.1 kg"
+        },
+        "sourceRefs": [
+          {"title": "Grandstream GXP1610/GXP1615 datasheet", "type": "manufacturer_pdf", "url": "https://www.grandstream.com/hubfs/Product_Documentation/datasheet_gxp1610_1615_english.pdf"},
+          {"title": "Grandstream GXP16xx user guide", "type": "manufacturer_pdf", "url": "https://www.grandstream.com/hubfs/Product_Documentation/gxp16xx_user_guide.pdf"},
+          {"title": "CTOnline image TELGDM010", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/TELGDM010/TELGDM010_full.jpg"},
+          {"title": "Provider stock TELGDM010 total 126", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4dbjnygnmchffrh",
+      "research": {
+        "confidence": 0.9,
+        "name": "Camara WiFi interior TP-Link Tapo C100 Full HD 1080p, audio bidireccional, microSD",
+        "description": "Camara de seguridad interior TP-Link Tapo C100 con video Full HD 1080p, vision nocturna, deteccion de movimiento, audio bidireccional y almacenamiento local por microSD.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/1080p",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/1080p/tp-link-tapo-c100",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "Tapo C100",
+          "providerSku": "CS002TPL02",
+          "productType": "Camara IP WiFi interior",
+          "resolution": "Full HD 1080p",
+          "audio": "Bidireccional, microfono y bocina integrados",
+          "connectivity": "WiFi 2.4GHz",
+          "storage": "microSD; capacidad depende de version/ficha regional",
+          "features": ["Deteccion de movimiento", "Vision nocturna", "Notificaciones", "Modo privacidad"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 7.",
+          "providerOffers": [{"providerSku": "CS002TPL02", "stock": 7, "price": 266.53, "currency": "MXN", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "67.6 x 54.8 x 98.9 mm",
+          "weight": "No encontrado"
+        },
+        "sourceRefs": [
+          {"title": "TP-Link Tapo C100 official page", "type": "manufacturer_spec", "url": "https://www.tp-link.com/es/products/details/tapo-c100.html"},
+          {"title": "TP-Link Tapo C100 datasheet", "type": "manufacturer_pdf", "url": "https://static.tp-link.com/upload/product-overview/2021/202111/20211105/Tapo%20C100%28EU%26US%291.0_Datasheet.pdf"},
+          {"title": "Provider stock CS002TPL02 total 7", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4dkxt7v16p9d2xr",
+      "research": {
+        "confidence": 0.94,
+        "name": "Monitor BenQ GW3290QT 31.5 pulgadas QHD IPS 75Hz blanco con USB-C 65W y bocinas",
+        "description": "Monitor BenQ GW3290QT de 31.5 pulgadas QHD IPS para oficina, con USB-C Power Delivery 65W, DisplayPort MST, bocinas con filtro de ruido y ergonomia completa.",
+        "manualCategoryPath": "computo/monitores/oficina/32-qhd-usb-c",
+        "semanticCategoryPath": "computo/monitores/oficina/32-qhd-usb-c/benq-gw3290qt",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONBNQ1410/MONBNQ1410_full.jpg"],
+        "specs": {
+          "brand": "BENQ",
+          "model": "GW3290QT",
+          "providerSku": "MONBNQ1410",
+          "productType": "Monitor QHD USB-C",
+          "screenSize": "31.5 pulgadas",
+          "resolution": "2560 x 1440 QHD",
+          "panel": "IPS mate",
+          "refreshRate": "75Hz",
+          "brightness": "350 nits",
+          "contrast": "1000:1",
+          "color": "99% sRGB, 1.07 mil millones de colores",
+          "response": "5 ms GtG",
+          "connectivity": ["HDMI 1.4", "DisplayPort 1.2", "DisplayPort out MST", "USB-C 65W PD", "USB-A downstream"],
+          "providerBranchSummary": "Proveedor reporta DFA:8.",
+          "providerBranches": [{"warehouseCode": "DFA", "stock": 8}],
+          "providerOffers": [{"providerSku": "MONBNQ1410", "stock": 8, "price": 6834.41, "currency": "MXN", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "Con base: 488.1-597.7 x 714.6 x 251.5 mm; sin base: 428.7 x 714.6 x 62.6 mm",
+          "weight": "10.1 kg neto; 7.2 kg sin base"
+        },
+        "sourceRefs": [
+          {"title": "BenQ GW3290QT specifications", "type": "manufacturer_spec", "url": "https://www.benq.com/en-us/monitor/home/gw3290qt/spec.html"},
+          {"title": "BenQ GW3290QT datasheet", "type": "manufacturer_pdf", "url": "https://www.benq.eu/content/dam/b2c/en-eu/support/download/datasheet/monitor/gw3290qt-datasheet-eng.pdf"},
+          {"title": "CTOnline image MONBNQ1410", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/MONBNQ1410/MONBNQ1410_full.jpg"},
+          {"title": "Provider stock MONBNQ1410 DFA:8", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4ecre4sj1axiuic",
+      "research": {
+        "confidence": 0.93,
+        "name": "UPS CyberPower OR1500LCDRT2U Smart App LCD 1500VA/900W line-interactive rack/torre 2U",
+        "description": "UPS CyberPower Smart App LCD OR1500LCDRT2U line-interactive convertible rack/torre 2U, 1500VA/900W, salida senoidal simulada, AVR, LCD y 8 contactos NEMA 5-15R.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/rack-torre/1500va",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/rack-torre/1500va/cyberpower-or1500lcdrt2u",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "OR1500LCDRT2U",
+          "providerSkus": ["FR-953", "NBKCYP810"],
+          "productType": "UPS line-interactive rack/torre",
+          "capacity": "1500VA / 900W",
+          "topology": "Line-interactive",
+          "waveform": "Senoidal simulada en bateria",
+          "output": "120VAC",
+          "outlets": "8 x NEMA 5-15R",
+          "plug": "NEMA 5-15P",
+          "rackHeight": "2U",
+          "management": ["USB", "Serial", "SNMP opcional", "PowerPanel Business"],
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 3.",
+          "providerOffers": [{"providerSku": "NBKCYP810", "stock": 3, "price": 9086.67, "currency": "MXN", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "438 x 400 x 88 mm segun ENERGY STAR",
+          "weight": "No encontrado"
+        },
+        "sourceRefs": [
+          {"title": "CyberPower OR1500LCDRT2U official page", "type": "manufacturer_spec", "url": "https://www.cyberpowersystems.com/product/ups/smart-app-lcd/or1500lcdrt2u/"},
+          {"title": "CyberPower Mexico OR1500LCDRT2U", "type": "manufacturer_spec", "url": "https://www.cyberpower.com/mx/es/product/sku/or1500lcdrt2u"},
+          {"title": "ENERGY STAR OR1500LCDRT2U certification", "type": "certification_spec", "url": "https://www.energystar.gov/productfinder/product/certified-uninterruptible-power-supplies/details/2331670/export/pdf/download"},
+          {"title": "Provider stock NBKCYP810 total 3", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4ep0cl8jqhums80",
+      "research": {
+        "confidence": 0.93,
+        "name": "Camara turret analogica HiLook THC-T120-M 2MP CMOS lente fijo IR 20m 4 en 1",
+        "description": "Camara turret analogica HiLook THC-T120-M de 2MP/1080p con lente fijo, IR inteligente hasta 20m, salida HD analogica 4 en 1 TVI/AHD/CVI/CVBS y proteccion IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-analogicas/turret/2mp-ir",
+        "semanticCategoryPath": "seguridad/cctv/camaras-analogicas/turret/2mp-ir/hilook-thc-t120-m",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMHKV3580/CAMHKV3580_full.jpg"],
+        "specs": {
+          "brand": "HILOOK",
+          "model": "THC-T120-M",
+          "providerSku": "CAMHKV3580",
+          "productType": "Camara analogica turret",
+          "sensor": "2MP CMOS",
+          "resolution": "1920 x 1080",
+          "lens": "Fijo; variantes 2.8mm, 3.6mm o 6mm",
+          "nightVision": "Smart IR hasta 20m",
+          "videoOutput": "TVI/AHD/CVI/CVBS conmutable",
+          "protection": "IP66",
+          "power": "12VDC +/-15%, max. 4W",
+          "providerBranchSummary": "Proveedor reporta TAM:17, MID:12, MOR:6, CUE:5, QRO:4, LEO:3, SLT:2, VER:2, OBR:1, ZAC:1, CMT:1.",
+          "providerBranches": [{"warehouseCode": "TAM", "stock": 17}, {"warehouseCode": "MID", "stock": 12}, {"warehouseCode": "MOR", "stock": 6}, {"warehouseCode": "CUE", "stock": 5}, {"warehouseCode": "QRO", "stock": 4}, {"warehouseCode": "LEO", "stock": 3}, {"warehouseCode": "SLT", "stock": 2}, {"warehouseCode": "VER", "stock": 2}, {"warehouseCode": "OBR", "stock": 1}, {"warehouseCode": "ZAC", "stock": 1}, {"warehouseCode": "CMT", "stock": 1}],
+          "providerOffers": [{"providerSku": "CAMHKV3580", "stock": 54, "price": 12.52, "currency": "USD", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "Diametro 82.6 x 69.66 mm",
+          "weight": "230 g"
+        },
+        "sourceRefs": [
+          {"title": "HiLook THC-T120-M official page", "type": "manufacturer_spec", "url": "https://www.hilooksecurity.com/europe/products/hilook-turbo-hd-products/Turbo-HD-Camera/1080P/thc-t120-m/"},
+          {"title": "Hikvision THC-T120-M datasheet", "type": "manufacturer_pdf", "url": "https://assets.hikvision.com/prd/public/all/doc/m000002441/THC-T120-M_Datasheet_20230807.pdf"},
+          {"title": "CTOnline image CAMHKV3580", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/CAMHKV3580/CAMHKV3580_full.jpg"},
+          {"title": "Provider stock CAMHKV3580 multi-branch total 54", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4eulqf8rskoii8y",
+      "research": {
+        "confidence": 0.92,
+        "name": "Gabinete Thermaltake The Tower 100 negro Mini-ITX con 3 paneles de vidrio templado",
+        "description": "Gabinete Thermaltake The Tower 100 CA-1R3-00S1WN-00 en color negro para Mini-ITX, formato vertical, tres paneles de vidrio templado de 4mm y soporte para fuente ATX.",
+        "manualCategoryPath": "computo/componentes/gabinetes/mini-tower/mini-itx/vidrio-templado",
+        "semanticCategoryPath": "computo/componentes/gabinetes/mini-tower/mini-itx/vidrio-templado/thermaltake-the-tower-100-negro",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABTMK2540/GABTMK2540_full.jpg"],
+        "specs": {
+          "brand": "THERMALTAKE",
+          "model": "The Tower 100",
+          "partNumber": "CA-1R3-00S1WN-00",
+          "providerSku": "GABTMK2540",
+          "ean": "4713227525756",
+          "productType": "Gabinete Mini-ITX",
+          "color": "Negro",
+          "material": "SPCC y 3 paneles de vidrio templado de 4 mm",
+          "motherboardSupport": "Mini-ITX",
+          "fansIncluded": "2 x 120 mm",
+          "gpuClearance": "Hasta 330 mm",
+          "psuSupport": "ATX",
+          "frontIO": ["USB-C", "USB 3.0", "Audio"],
+          "providerBranchSummary": "Proveedor reporta MID:4.",
+          "providerBranches": [{"warehouseCode": "MID", "stock": 4}],
+          "providerOffers": [{"providerSku": "GABTMK2540", "stock": 4, "price": 100.06, "currency": "USD", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "462.8 x 266 x 266 mm",
+          "weight": "No encontrado"
+        },
+        "sourceRefs": [
+          {"title": "Thermaltake The Tower 100 official page", "type": "manufacturer_spec", "url": "https://www.thermaltake.com/catalog/product/view/id/1898/s/the-tower-100-mini-chassis/"},
+          {"title": "Thermaltake The Tower 100 manual", "type": "manufacturer_pdf", "url": "https://www.thermaltake.com/media/productattach/c/a/ca-1r3-00s1wn-00_the_tower_100_manual_201013_1.pdf"},
+          {"title": "CTOnline image GABTMK2540", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/GABTMK2540/GABTMK2540_full.jpg"},
+          {"title": "Provider stock GABTMK2540 MID:4", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4fr1tjeh49n051s",
+      "research": {
+        "confidence": 0.94,
+        "name": "Switch Mercusys MS108G de escritorio 8 puertos Gigabit 10/100/1000 Mbps",
+        "description": "Switch Mercusys MS108G no administrable de escritorio con 8 puertos Gigabit, auto-negociacion, Auto-MDI/MDIX, plug and play y tecnologia Green Ethernet.",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/8-puertos/mercusys-ms108g",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTMER040/SWTMER040_full.jpg"],
+        "specs": {
+          "brand": "MERCUSYS",
+          "model": "MS108G",
+          "providerSku": "SWTMER040",
+          "productType": "Switch no administrable",
+          "ports": "8 x RJ45 10/100/1000 Mbps",
+          "management": "No administrable",
+          "features": ["Auto-negociacion", "Auto-MDI/MDIX", "Aprendizaje MAC", "Green Ethernet"],
+          "jumboFrame": "16 KB",
+          "buffer": "64 KB",
+          "power": "9V/0.6A",
+          "providerBranchSummary": "Proveedor reporta AGS:120, D2A:25, TPC:8, CAM:1.",
+          "providerBranches": [{"warehouseCode": "AGS", "stock": 120}, {"warehouseCode": "D2A", "stock": 25}, {"warehouseCode": "TPC", "stock": 8}, {"warehouseCode": "CAM", "stock": 1}],
+          "providerOffers": [{"providerSku": "SWTMER040", "stock": 154, "price": 10.75, "currency": "USD", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "127 x 60.3 x 22 mm",
+          "weight": "No encontrado"
+        },
+        "sourceRefs": [
+          {"title": "Mercusys MS108G official page", "type": "manufacturer_spec", "url": "https://www.mercusys.com/en/product/switch/ms108g/"},
+          {"title": "Mercusys MS108G datasheet", "type": "manufacturer_pdf", "url": "https://static.mercusys.com/manual/MS108G_%28EU%292.0-datasheet20210730020308.pdf"},
+          {"title": "CTOnline image SWTMER040", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/SWTMER040/SWTMER040_full.jpg"},
+          {"title": "Provider stock SWTMER040 multi-branch total 154", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4ft3l898hwnwel0",
+      "research": {
+        "confidence": 0.91,
+        "name": "Mochila TechZone Loud TZ21LBP09 para laptop 15.6 pulgadas negra",
+        "description": "Mochila TechZone Loud TZ21LBP09 para laptop de hasta 15.6 pulgadas, color negro, con compartimiento acolchado, organizadores, puerto USB exterior y bolsillos laterales.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/techzone-loud-tz21lbp09",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MALTCH100/MALTCH100_full.jpg"],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZ21LBP09",
+          "providerSku": "MALTCH100",
+          "ean": "7501950169289",
+          "productType": "Mochila para laptop",
+          "screenCompatibility": "Hasta 15.6 pulgadas",
+          "color": "Negro",
+          "material": "Exterior 100% poliester; ficha reseller tambien menciona nylon/poliester",
+          "features": ["Compartimiento acolchado para laptop", "Organizadores frontales", "Puerto USB exterior", "Bolsillos laterales", "Tirantes acolchados"],
+          "providerBranchSummary": "Proveedor reporta DFA:19, D2A:13, GDL:5, CUN:5, CMT:5.",
+          "providerBranches": [{"warehouseCode": "DFA", "stock": 19}, {"warehouseCode": "D2A", "stock": 13}, {"warehouseCode": "GDL", "stock": 5}, {"warehouseCode": "CUN", "stock": 5}, {"warehouseCode": "CMT", "stock": 5}],
+          "providerOffers": [{"providerSku": "MALTCH100", "stock": 47, "price": 352.33, "currency": "MXN", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "33 x 11 x 40 cm segun TechZone; reseller reporta 10 x 34 x 46 cm",
+          "weight": "623 g segun TechZone; reseller reporta 0.75 kg"
+        },
+        "sourceRefs": [
+          {"title": "TechZone Loud 15.6 official page", "type": "manufacturer_spec", "url": "https://techzone.com.mx/products/backpack-loud"},
+          {"title": "CompuPuebla Backpack TechZone TZ21LBP09", "type": "reseller_spec", "url": "https://compupuebla.com/producto/backpack-techzone-tz21lbp09/"},
+          {"title": "CTOnline image MALTCH100", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/MALTCH100/MALTCH100_full.jpg"},
+          {"title": "Provider stock MALTCH100 multi-branch total 47", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    },
+    {
+      "product_id": "4g0qn0ms0a5z3yy",
+      "research": {
+        "confidence": 0.92,
+        "name": "SSD ADATA LEGEND 710 ALEG-710-512GCS 512GB M.2 2280 NVMe PCIe Gen3x4",
+        "description": "Unidad de estado solido ADATA LEGEND 710 de 512GB, formato M.2 2280, interfaz PCIe Gen3 x4, protocolo NVMe 1.3 y disipador ultradelgado.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/512gb-gen3",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/512gb-gen3/adata-legend-710",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "specs": {
+          "brand": "ADATA",
+          "model": "LEGEND 710",
+          "partNumber": "ALEG-710-512GCS",
+          "providerSku": "HD-3347",
+          "productType": "SSD interno M.2 NVMe",
+          "capacity": "512GB",
+          "formFactor": "M.2 2280",
+          "interface": "PCIe Gen3 x4",
+          "protocol": "NVMe 1.3",
+          "sequentialRead": "Hasta 2400 MB/s",
+          "sequentialWrite": "Hasta 1600-1800 MB/s segun fuente/region",
+          "endurance": "130 TBW",
+          "mtbf": "1.5 millones de horas",
+          "warranty": "3 anos",
+          "providerBranchSummary": "Sucursal no disponible; proveedor reporta stock total 10.",
+          "providerOffers": [{"providerSku": "HD-3347", "stock": 10, "price": 86.34, "currency": "USD", "priceKind": "provider_reported"}],
+          "providerStockVerifiedAt": "2026-05-30T00:00:00-06:00"
+        },
+        "measurements": {
+          "dimensions": "M.2 2280; 80 x 22 x 3.13 mm",
+          "weight": "7 g aprox."
+        },
+        "sourceRefs": [
+          {"title": "ADATA LEGEND 710 official page", "type": "manufacturer_spec", "url": "https://www.adata.com/en/consumer/category/11/solid-state-drives-LEGEND-710/?tab=description"},
+          {"title": "ADATA LEGEND 710 datasheet", "type": "manufacturer_pdf", "url": "https://www.adata.com/storage/downloadfile/datasheet_legend_710_pcie_gen3_x4_m2_2280_ssd_20230215.pdf"},
+          {"title": "Icecat ADATA ALEG-710-512GCS", "type": "catalog_spec", "url": "https://icecat.biz/en/p/adata/aleg-710-512gcs/internal%2Bsolid%2Bstate%2Bdrives-4711085937834-legend%2B710-99119460.html"},
+          {"title": "Provider stock HD-3347 total 10", "type": "provider_stock", "observedAt": "2026-05-30T00:00:00-06:00"}
+        ]
+      }
+    }
+  ]
+}

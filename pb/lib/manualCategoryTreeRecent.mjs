@@ -1,4 +1,10 @@
 export const MANUAL_CATEGORY_TREE_RECENT = [
+  { path: 'computo/desktops/mini-pc/dell-pro-micro', name: 'Dell Pro Micro compactas', legacyCategory: 'laptops' },
+  { path: 'telefonia/telefonos-ip/escritorio/1-cuenta-sip', name: 'Telefonos IP de escritorio 1 cuenta SIP', legacyCategory: 'networking' },
+  { path: 'seguridad/cctv/camaras-ip-wifi/interior/1080p', name: 'Camaras IP WiFi interiores 1080p', legacyCategory: 'cameras' },
+  { path: 'computo/monitores/oficina/32-qhd-usb-c', name: 'Monitores de oficina 32 pulgadas QHD USB-C', legacyCategory: 'monitors' },
+  { path: 'seguridad/cctv/camaras-analogicas/turret', name: 'Camaras analogicas turret', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/camaras-analogicas/turret/2mp-ir', name: 'Camaras analogicas turret 2MP IR', legacyCategory: 'cameras' },
   { path: 'computo/tabletas/accesorios/fundas-uso-rudo/lenovo-tab-k10-11', name: 'Fundas uso rudo Lenovo Tab K10 11 pulgadas', legacyCategory: 'accessories' },
   { path: 'computo/componentes/tarjetas-madre/amd-am4/b550m-wifi-ac', name: 'Tarjetas madre AMD AM4 B550M con WiFi AC', legacyCategory: 'components' },
   { path: 'computo/componentes/tarjetas-madre/intel-lga1200', name: 'Tarjetas madre Intel LGA1200', legacyCategory: 'components' },
