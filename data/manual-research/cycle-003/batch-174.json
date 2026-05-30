@@ -1,0 +1,418 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b174-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 174,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "652tom51w8qgqh6",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dahua DH-IPC-HFW1239S1-LED-S4 camara IP bullet Full-Color 2MP PoE 3.6mm",
+        "description": "Camara IP bullet Dahua DH-IPC-HFW1239S1-LED-S4 Full-Color de 2MP con lente 3.6mm, luz calida, H.265, PoE, ONVIF e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-full-color",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-full-color/dahua-ipc-hfw1239s1-led-s4",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://material.dahuasecurity.com/uploads/soft/20220516/DH-IPC-HFW1239S1-LED-S4_datasheet_20220516.pdf",
+        "gallery": ["https://material.dahuasecurity.com/uploads/soft/20220516/DH-IPC-HFW1239S1-LED-S4_datasheet_20220516.pdf"],
+        "documents": ["https://material.dahuasecurity.com/uploads/soft/20220516/DH-IPC-HFW1239S1-LED-S4_datasheet_20220516.pdf"],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-IPC-HFW1239S1-LED-S4",
+          "providerSku": "CAMDAH5220",
+          "productType": "Camara IP bullet PoE",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "3.6 mm",
+          "illumination": "Luz calida 15 m",
+          "compression": "H.265 / H.264 / MJPEG",
+          "network": "RJ45 10/100, PoE, ONVIF Profile S",
+          "protection": "IP67",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 1.",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "D2A", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAMDAH5220", "stock": 1, "price": 40.24, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed omite prefijo DH- y separadores del modelo."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"dimensions": "162.6 x 70 x 70 mm", "netWeight": "0.22 kg", "grossWeight": "0.34 kg"},
+        "sourceRefs": [
+          {"title": "Dahua DH-IPC-HFW1239S1-LED-S4 datasheet", "type": "manufacturer_spec", "url": "https://material.dahuasecurity.com/uploads/soft/20220516/DH-IPC-HFW1239S1-LED-S4_datasheet_20220516.pdf"},
+          {"title": "Electroprice provider stock CAMDAH5220", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "654vemzz7x21yzd",
+      "research": {
+        "confidence": 0.88,
+        "name": "BRobotix 188533-2 kit teclado y mouse gaming USB alambrico RGB espanol",
+        "description": "Kit gamer BRobotix 188533-2 con teclado QWERTY espanol de membrana, mouse optico USB y retroiluminacion RGB para escritorio gamer.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/gaming/alambricos-rgb",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/gaming/alambricos-rgb/brobotix-188533-2",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/teclado-brobotix-188533-2/",
+        "gallery": ["https://compupuebla.com/producto/teclado-brobotix-188533-2/"],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "188533-2",
+          "upc": "7503028136735",
+          "providerSku": "TECRBT050",
+          "productType": "Kit teclado y mouse gaming",
+          "interface": "USB alambrico",
+          "keyboard": "QWERTY espanol, membrana, numerico, multimedia",
+          "mouse": "Optico alambrico",
+          "lighting": "RGB",
+          "cableLength": "1.5 m",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 10, GDL 5, DFA 4, XLP 3, CMT 3, ZAC 2, CDV 2, OBR 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "XLP", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "ZAC", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CDV", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "OBR", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "TECRBT050", "stock": 30, "price": 18.24, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es combo de perifericos gaming."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "sourceRefs": [
+          {"title": "CompuPuebla BRobotix 188533-2", "type": "retail_spec", "url": "https://compupuebla.com/producto/teclado-brobotix-188533-2/"},
+          {"title": "Electroprice provider stock TECRBT050", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "65l0ohuung8vii9",
+      "research": {
+        "confidence": 0.9,
+        "name": "TP-Link TL-SL1226P switch PoE+ no administrable 24 puertos Fast Ethernet 250W",
+        "description": "Switch TP-Link TL-SL1226P no administrable con 24 puertos PoE+ 10/100, 2 puertos Gigabit RJ45, 2 SFP combo, presupuesto PoE 250W, modo extend, prioridad y aislamiento.",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/fast-ethernet/24-puertos-250w",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/fast-ethernet/24-puertos-250w/tp-link-tl-sl1226p",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/au/business-networking/soho-switch-unmanaged/tl-sl1226p/",
+        "gallery": ["https://www.tp-link.com/au/business-networking/soho-switch-unmanaged/tl-sl1226p/"],
+        "specs": {
+          "brand": "TP LINK",
+          "model": "TL-SL1226P",
+          "providerSku": "NIC-3594",
+          "alternateProviderSku": "SWTTPL1040",
+          "productType": "Switch PoE no administrable",
+          "ports": "24 x PoE+ 10/100 RJ45, 2 x Gigabit RJ45, 2 x combo Gigabit SFP",
+          "poe": "802.3af/at, hasta 30W por puerto, 250W total",
+          "switchingCapacity": "8.8Gbps",
+          "forwardingRate": "6.54Mpps",
+          "features": "Extend 250m, Priority ports 1-8, Isolation, PoE Auto Recovery",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 2. CVA lista NIC-3594 sin stock.",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "SWTTPL1040", "stock": 2, "price": 167.05, "currency": "USD", "priceKind": "customer_price"},
+            {"providerId": "cva", "providerSku": "NIC-3594", "stock": 0, "price": 158.58, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["No hay sucursal visible en el feed.", "CVA lista el SKU pero sin stock."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"dimensions": "440 x 180 x 44 mm"},
+        "sourceRefs": [
+          {"title": "TP-Link TL-SL1226P official product page", "type": "manufacturer_spec", "url": "https://www.tp-link.com/au/business-networking/soho-switch-unmanaged/tl-sl1226p/"},
+          {"title": "Electroprice provider stock NIC-3594 SWTTPL1040", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "65rfcn0tazamke6",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dahua HAC-HFW1200D-0360B camara bullet HDCVI IR 2MP 3.6mm 80m IP67",
+        "description": "Camara bullet Dahua HAC-HFW1200D-0360B HDCVI de 2MP con lente 3.6mm, Smart IR 80m, salida CVI/TVI/AHD/CVBS, DWDR y gabinete IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-ir",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-ir/dahua-hac-hfw1200d-0360b",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/HDCVI-Cameras/Lite-Series/1080P/1080-P/HAC-HFW1200D=S6",
+        "gallery": ["https://material.dahuasecurity.com/uploads/image/20250208/HAC-HFW1200D_View_45left-logo.png"],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "HAC-HFW1200D-0360B",
+          "providerSku": "CAMDAH1520",
+          "productType": "Camara HDCVI bullet",
+          "resolution": "2MP 1080p",
+          "lens": "3.6 mm",
+          "illumination": "Smart IR 80 m",
+          "signal": "CVI / TVI / AHD / CVBS",
+          "wdr": "DWDR",
+          "power": "12V DC +/-30%",
+          "protection": "IP67",
+          "providerBranchSummary": "Disponible por sucursal proveedor: XLP 16, URP 15, TPC 14, IRA 9, PAC 6, ACA 4, CDV 3, MOR 2.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "XLP", "stock": 16},
+            {"providerId": "ctonline", "warehouseCode": "URP", "stock": 15},
+            {"providerId": "ctonline", "warehouseCode": "TPC", "stock": 14},
+            {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 9},
+            {"providerId": "ctonline", "warehouseCode": "PAC", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "CDV", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAMDAH1520", "stock": 69, "price": 25.27, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed abrevia el modelo como HAC HFW1200d 036; se normaliza como HAC-HFW1200D-0360B."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"dimensions": "241.8 x 90.4 x 90.4 mm", "netWeight": "0.60 kg", "grossWeight": "0.79 kg"},
+        "sourceRefs": [
+          {"title": "Dahua HAC-HFW1200D official page", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/products/HDCVI-Cameras/Lite-Series/1080P/1080-P/HAC-HFW1200D=S6"},
+          {"title": "Electroprice provider stock CAMDAH1520", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "65yikhtpuf1ksuj",
+      "research": {
+        "confidence": 0.9,
+        "name": "Kingston KCP432SD8/16 memoria RAM SO-DIMM DDR4 16GB 3200MT/s CL22",
+        "description": "Modulo Kingston KCP432SD8/16 de memoria RAM para laptop, 16GB DDR4 SO-DIMM 3200MT/s, CL22, Non-ECC, 260 pines y 1.2V.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4",
+        "semanticCategoryPath": "computo/componentes/memoria-ram/sodimm-ddr4/kingston-kcp432sd8-16",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kingston.com/tr/memory/search?partId=KCP432SD8%2F16",
+        "gallery": ["https://www.kingston.com/tr/memory/search?partId=KCP432SD8%2F16"],
+        "specs": {
+          "brand": "KINGSTON",
+          "model": "KCP432SD8/16",
+          "providerSku": "RAM-3744",
+          "productType": "Memoria RAM SO-DIMM",
+          "capacity": "16GB",
+          "type": "DDR4 SO-DIMM",
+          "speed": "3200MT/s",
+          "casLatency": "CL22",
+          "rank": "2Rx8",
+          "voltage": "1.2V",
+          "pins": "260-pin",
+          "ecc": "Non-ECC",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CVA stock 3.",
+          "providerOffers": [{"providerId": "cva", "providerSku": "RAM-3744", "stock": 3, "price": 147.65, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era de uso, pero semantica correcta es componente RAM."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "sourceRefs": [
+          {"title": "Kingston KCP432SD8/16 memory search", "type": "manufacturer_spec", "url": "https://www.kingston.com/tr/memory/search?partId=KCP432SD8%2F16"},
+          {"title": "Electroprice provider stock RAM-3744", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "66f3oyeo6rxg11u",
+      "research": {
+        "confidence": 0.9,
+        "name": "Dahua DH-IPC-T1E20 camara IP domo eyeball 2MP IR 30m PoE",
+        "description": "Camara IP Dahua DH-IPC-T1E20 tipo domo/eyeball de 2MP con IR 30m, H.265, PoE/12V DC, DWDR, ONVIF e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/2mp-ir",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/2mp-ir/dahua-ipc-t1e20",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.tvc.mx/media/1392213/DAHUA-DHT0040122-CAMARA-EYEBALL-FOCAL-2MP-IR-FICHA-TECNICA-INGLES.pdf",
+        "gallery": ["https://cdn.tvc.mx/media/1392213/DAHUA-DHT0040122-CAMARA-EYEBALL-FOCAL-2MP-IR-FICHA-TECNICA-INGLES.pdf"],
+        "documents": ["https://cdn.tvc.mx/media/1392213/DAHUA-DHT0040122-CAMARA-EYEBALL-FOCAL-2MP-IR-FICHA-TECNICA-INGLES.pdf"],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-IPC-T1E20",
+          "providerSku": "CAMDAH5720",
+          "productType": "Camara IP domo/eyeball PoE",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm o 3.6 mm fijo",
+          "illumination": "IR 30 m",
+          "compression": "H.265 / H.264 / MJPEG",
+          "wdr": "DWDR",
+          "network": "RJ45 10/100, ONVIF Profile S/T",
+          "power": "12V DC o PoE",
+          "protection": "IP67",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 16, ACA 15, MOR 8, LEO 6, DFA 6, URP 5, CUN 4, TAM 3, XLP 2, CDV 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 16},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 15},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 8},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "URP", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "CUN", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "TAM", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "XLP", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CDV", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAMDAH5720", "stock": 66, "price": 24.77, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["El feed omite prefijo DH- y tipo domo/eyeball."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"dimensions": "103.2 mm x diametro 109.9 mm", "netWeight": "0.24 kg", "grossWeight": "0.38 kg"},
+        "sourceRefs": [
+          {"title": "Dahua DH-IPC-T1E20 datasheet", "type": "manufacturer_spec", "url": "https://cdn.tvc.mx/media/1392213/DAHUA-DHT0040122-CAMARA-EYEBALL-FOCAL-2MP-IR-FICHA-TECNICA-INGLES.pdf"},
+          {"title": "Electroprice provider stock CAMDAH5720", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "66frw4mypq7k9bu",
+      "research": {
+        "confidence": 0.9,
+        "brand": "UNV",
+        "name": "UNV IPC2B24SA-AHDZK-PI-I1 camara IP bullet LightHunter 4MP varifocal PoE",
+        "description": "Camara IP bullet UNV IPC2B24SA-AHDZK-PI-I1 LightHunter de 4MP, lente motorizado 2.7-13.5mm, WDR 130dB, IR 80m, microSD, audio/alarma, PoE, IP67 e IK10.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/4mp-lighthunter-varifocal",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/4mp-lighthunter-varifocal/unv-ipc2b24sa-ahdzk-pi-i1",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEIV_Series/IPC2B24SA-AHDZK-PI-I1/",
+        "gallery": ["https://www.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEIV_Series/IPC2B24SA-AHDZK-PI-I1/"],
+        "specs": {
+          "brand": "UNV",
+          "model": "IPC2B24SA-AHDZK-PI-I1",
+          "providerSku": "CI111UNV97",
+          "productType": "Camara IP bullet PoE",
+          "resolution": "4MP 2688 x 1520 @ 60fps",
+          "lens": "2.7-13.5 mm motorizado P-Iris, zoom 5x",
+          "wdr": "130 dB",
+          "illumination": "IR 80 m",
+          "storage": "microSD hasta 512GB",
+          "audioAlarm": "Audio 1/1, alarma 1/1, microfono dual",
+          "power": "12V DC o PoE 802.3af",
+          "protection": "IP67 / IK10",
+          "providerBranchSummary": "Sucursal proveedor no disponible; Tecnosinergia stock 4.",
+          "providerOffers": [{"providerId": "tecnosinergia", "providerSku": "CI111UNV97", "stock": 4, "price": 4150.27, "currency": "MXN", "priceKind": "unknown"}],
+          "sourceDiscrepancies": ["El feed usa marca ElectroPrice; el SKU CI111UNV97 corresponde a UNV/Uniview.", "No hay sucursal visible en el feed."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"dimensions": "268 x 96 x 86 mm", "weight": "1 kg"},
+        "sourceRefs": [
+          {"title": "UNV IPC2B24SA-AHDZK-PI-I1 official page", "type": "manufacturer_spec", "url": "https://www.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEIV_Series/IPC2B24SA-AHDZK-PI-I1/"},
+          {"title": "Electroprice provider stock CI111UNV97", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "66ompzkcoozysss",
+      "research": {
+        "confidence": 0.9,
+        "name": "Grandstream UCM6304 PBX IP 2000 usuarios 4 FXS 4 FXO",
+        "description": "PBX IP Grandstream UCM6304 de comunicaciones unificadas con hasta 2000 usuarios, 300 llamadas concurrentes, 4 puertos FXS, 4 FXO, 3 Gigabit RJ45 con PoE+, USB 3.0 y SD.",
+        "manualCategoryPath": "telefonia/pbx-ip/grandstream-ucm6300/4fxs-4fxo",
+        "semanticCategoryPath": "telefonia/pbx-ip/grandstream-ucm6300/4fxs-4fxo/grandstream-ucm6304",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.grandstream.com/hubfs/Product_Documentation/Datasheet_UCM6300_Series_English.pdf",
+        "gallery": ["https://www.grandstream.com/hubfs/Product_Documentation/Datasheet_UCM6300_Series_English.pdf"],
+        "documents": ["https://www.grandstream.com/hubfs/Product_Documentation/Datasheet_UCM6300_Series_English.pdf"],
+        "specs": {
+          "brand": "GRANDSTREAM",
+          "model": "UCM6304",
+          "providerSku": "CON-87",
+          "alternateProviderSku": "CONGDM080",
+          "productType": "PBX IP",
+          "users": "Hasta 2000",
+          "concurrentCalls": "300 G.711 / 200 SRTP",
+          "ports": "4 FXS, 4 FXO, 3 Gigabit RJ45 con PoE+, 2 USB 3.0, SD",
+          "platform": "Asterisk 16",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 3. CVA lista CON-87 sin stock.",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "CONGDM080", "stock": 3, "price": 672.39, "currency": "USD", "priceKind": "promo_price"},
+            {"providerId": "cva", "providerSku": "CON-87", "stock": 0, "price": 771.05, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["No confundir con UCM6304A/CON-89; este SKU corresponde a UCM6304.", "No hay sucursal visible en el feed."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"dimensions": "485 x 187.2 x 46.2 mm", "weight": "2490 g", "packageWeight": "3260 g"},
+        "sourceRefs": [
+          {"title": "Grandstream UCM6300 Series datasheet", "type": "manufacturer_spec", "url": "https://www.grandstream.com/hubfs/Product_Documentation/Datasheet_UCM6300_Series_English.pdf"},
+          {"title": "Electroprice provider stock CON-87 CONGDM080", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "66tssmfuap84xrn",
+      "research": {
+        "confidence": 0.9,
+        "name": "PCM 50000B0161A etiquetas termicas directas 4x6 pulgadas caja 12 rollos",
+        "description": "Caja PCM 50000B0161A de etiquetas termicas directas 102 x 152 mm / 4 x 6 pulgadas, 12 rollos con 250 etiquetas por rollo, adhesivo permanente.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas-papel/termicas-directas/102x152mm",
+        "semanticCategoryPath": "impresion/consumibles/etiquetas-papel/termicas-directas/102x152mm/pcm-50000b0161a",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intercompras.com/p/etiquetas-termicas-pcm-50000b0161a-termica-directa-102x152-mm-papel-445347",
+        "gallery": ["https://intercompras.com/p/etiquetas-termicas-pcm-50000b0161a-termica-directa-102x152-mm-papel-445347"],
+        "specs": {
+          "brand": "PCM",
+          "model": "50000B0161A",
+          "providerSku": "ACCPCM1800",
+          "productType": "Etiquetas termicas directas",
+          "labelSize": "102 x 152 mm / 4 x 6 pulgadas",
+          "material": "Papel termico directo",
+          "adhesive": "Permanente",
+          "package": "12 rollos, 250 etiquetas por rollo",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 10, CMT 10, D2A 8, DFA 3, MOR 2, PUE 1, CAM 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 8},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "CAM", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCPCM1800", "stock": 35, "price": 43.49, "currency": "USD", "priceKind": "customer_price"}],
+          "sourceDiscrepancies": ["La categoria previa laptops era incorrecta; es consumible de impresion."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"label": "102 x 152 mm"},
+        "sourceRefs": [
+          {"title": "Intercompras PCM 50000B0161A", "type": "retail_spec", "url": "https://intercompras.com/p/etiquetas-termicas-pcm-50000b0161a-termica-directa-102x152-mm-papel-445347"},
+          {"title": "Electroprice provider stock ACCPCM1800", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "66wsbe8sud9buok",
+      "research": {
+        "confidence": 0.88,
+        "name": "BRobotix 810533 rack abierto 19 pulgadas 24U 1.20m con tornilleria M6",
+        "description": "Rack abierto BRobotix 810533 de 19 pulgadas, 24U y 1.20m de altura, estructura de acero negro, capacidad reportada 200 kg e incluye tornilleria M6.",
+        "manualCategoryPath": "infraestructura/racks-enfriamiento/racks-piso/abiertos-24u",
+        "semanticCategoryPath": "infraestructura/racks-enfriamiento/racks-piso/abiertos-24u/brobotix-810533",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tiendaclic.mx/ver-detalle/rack-brobotix-19-pulgadas-120-mts-24u-con-tornilleria-m6-brobotix-810533",
+        "gallery": ["https://intercompras.com/p/rack-brobotix-24u-1200mm-x-600mm-x-1000mm-acero-negro-postes-requiere-162945"],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "810533",
+          "upc": "7503027963912",
+          "providerSku": "AC-10295",
+          "alternateProviderSku": "RCKRBT010",
+          "productType": "Rack abierto de piso",
+          "rackSize": "19 pulgadas, 24U",
+          "height": "1.20 m",
+          "material": "Acero al carbon calibre 18",
+          "capacity": "200 kg",
+          "included": "20 juegos de tornillos M6 y arandela",
+          "providerBranchSummary": "Sucursal proveedor no disponible; CTOnline stock 14. CVA lista AC-10295 sin stock.",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "RCKRBT010", "stock": 14, "price": 81.83, "currency": "USD", "priceKind": "customer_price"},
+            {"providerId": "cva", "providerSku": "AC-10295", "stock": 0, "price": 82.37, "currency": "USD", "priceKind": "customer_price"}
+          ],
+          "sourceDiscrepancies": ["La categoria previa monitors era incorrecta; es infraestructura de rack.", "Dimensiones de profundidad difieren entre retailers; se conserva altura/rack size y se marca para validacion futura."],
+          "providerStockVerifiedAt": "2026-05-30T23:25:00Z"
+        },
+        "measurements": {"height": "1200 mm", "weight": "10.5 kg", "rackSize": "24U"},
+        "sourceRefs": [
+          {"title": "TiendaClic BRobotix 810533", "type": "retail_spec", "url": "https://www.tiendaclic.mx/ver-detalle/rack-brobotix-19-pulgadas-120-mts-24u-con-tornilleria-m6-brobotix-810533"},
+          {"title": "Intercompras BRobotix 810533", "type": "retail_spec", "url": "https://intercompras.com/p/rack-brobotix-24u-1200mm-x-600mm-x-1000mm-acero-negro-postes-requiere-162945"},
+          {"title": "Electroprice provider stock AC-10295 RCKRBT010", "type": "provider_stock", "observedAt": "2026-05-30T23:25:00Z"}
+        ]
+      }
+    }
+  ]
+}

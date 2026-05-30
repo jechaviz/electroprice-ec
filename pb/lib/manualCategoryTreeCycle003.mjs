@@ -86,4 +86,13 @@ export const MANUAL_CATEGORY_TREE_CYCLE003 = [
   { path: 'energia/no-breaks-ups/doble-conversion/trifasicos', name: 'UPS online trifasicos', legacyCategory: 'power' },
   { path: 'energia/no-breaks-ups/doble-conversion/trifasicos/30000va', name: 'UPS online trifasicos 30000VA', legacyCategory: 'power' },
   { path: 'computo/componentes/enfriamiento/liquido-cpu/360mm/argb-pantalla', name: 'Enfriamiento liquido CPU 360 mm ARGB con pantalla', legacyCategory: 'components' },
+  { path: 'seguridad/cctv/camaras-ip-poe/bullet/2mp-full-color', name: 'Camaras IP PoE bullet 2MP full-color', legacyCategory: 'cameras' },
+  { path: 'computo/perifericos/combos-teclado-mouse/gaming/alambricos-rgb', name: 'Combos gaming teclado y mouse alambricos RGB', legacyCategory: 'gaming' },
+  { path: 'redes/switches/poe-no-administrables/fast-ethernet/24-puertos-250w', name: 'Switches PoE Fast Ethernet no administrables 24 puertos 250W', legacyCategory: 'networking' },
+  { path: 'seguridad/cctv/camaras-hdcvi/bullet/2mp-ir', name: 'Camaras HDCVI bullet 2MP IR', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/camaras-ip-poe/domo/2mp-ir', name: 'Camaras IP PoE domo 2MP IR', legacyCategory: 'cameras' },
+  { path: 'seguridad/cctv/camaras-ip-poe/bullet/4mp-lighthunter-varifocal', name: 'Camaras IP PoE bullet 4MP LightHunter varifocales', legacyCategory: 'cameras' },
+  { path: 'telefonia/pbx-ip/grandstream-ucm6300/4fxs-4fxo', name: 'PBX IP Grandstream UCM6300 4 FXS 4 FXO', legacyCategory: 'networking' },
+  { path: 'impresion/consumibles/etiquetas-papel/termicas-directas/102x152mm', name: 'Etiquetas termicas directas 102 x 152 mm', legacyCategory: 'printers_scanners' },
+  { path: 'infraestructura/racks-enfriamiento/racks-piso/abiertos-24u', name: 'Racks abiertos de piso 24U', legacyCategory: 'networking' },
 ];

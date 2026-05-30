@@ -142,6 +142,16 @@ const batch160PlusCases = [
   ["Vorago CAB-M01W cable USB-A a Micro-USB 2.0 1m blanco", "VORAGO", "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-1m", "accessories"],
   ["Smartbitt SBOL30KTII-3K UPS online trifasico 30kVA 30kW", "SMARTBITT", "energia/no-breaks-ups/doble-conversion/trifasicos/30000va", "power"],
   ["Naceb Boreal NA-0656N enfriamiento liquido AIO 360mm ARGB con pantalla", "NACEB GAMING", "computo/componentes/enfriamiento/liquido-cpu/360mm/argb-pantalla", "components"],
+  ["Dahua DH-IPC-HFW1239S1-LED-S4 camara IP bullet Full-Color 2MP PoE 3.6mm", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/bullet/2mp-full-color", "cameras"],
+  ["BRobotix 188533-2 kit teclado y mouse gaming USB alambrico RGB espanol", "BROBOTIX", "computo/perifericos/combos-teclado-mouse/gaming/alambricos-rgb", "gaming"],
+  ["TP-Link TL-SL1226P switch PoE+ no administrable 24 puertos Fast Ethernet 250W", "TP LINK", "redes/switches/poe-no-administrables/fast-ethernet/24-puertos-250w", "networking"],
+  ["Dahua HAC-HFW1200D-0360B camara bullet HDCVI IR 2MP 3.6mm 80m IP67", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-ir", "cameras"],
+  ["Kingston KCP432SD8/16 memoria RAM SO-DIMM DDR4 16GB 3200MT/s CL22", "KINGSTON", "computo/componentes/memoria-ram/sodimm-ddr4", "components"],
+  ["Dahua DH-IPC-T1E20 camara IP domo eyeball 2MP IR 30m PoE", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/domo/2mp-ir", "cameras"],
+  ["UNV IPC2B24SA-AHDZK-PI-I1 camara IP bullet LightHunter 4MP varifocal PoE", "UNV", "seguridad/cctv/camaras-ip-poe/bullet/4mp-lighthunter-varifocal", "cameras"],
+  ["Grandstream UCM6304 PBX IP 2000 usuarios 4 FXS 4 FXO", "GRANDSTREAM", "telefonia/pbx-ip/grandstream-ucm6300/4fxs-4fxo", "networking"],
+  ["PCM 50000B0161A etiquetas termicas directas 4x6 pulgadas caja 12 rollos", "PCM", "impresion/consumibles/etiquetas-papel/termicas-directas/102x152mm", "printers_scanners"],
+  ["BRobotix 810533 rack abierto 19 pulgadas 24U 1.20m con tornilleria M6", "BROBOTIX", "infraestructura/racks-enfriamiento/racks-piso/abiertos-24u", "networking"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
