@@ -282,6 +282,15 @@ const researchedBatchCases = [
   ["Uniarch IPC-B132-AF28-ECO camara IP mini bullet PoE 2MP microfono", "UNIARCH", "seguridad/cctv/camaras-ip-poe/bullet/2mp-mic"],
   ["DuoSmart E41 camara WiFi bullet exterior 3MP bateria recargable", "DUOSMART", "seguridad/cctv/camaras-ip-wifi/bateria-exterior/3mp"],
   ["DuoSmart E11 camara WiFi interior 3MP audio bidireccional", "DUOSMART", "seguridad/cctv/camaras-ip-wifi/interior/3mp"],
+  ["EZVIZ CS-H4/POE H4 PoE 2K camara IP exterior 4MP", "EZVIZ", "seguridad/cctv/camaras-ip-poe/bullet/4mp-full-color"],
+  ["Saxxon PSUBR13B bolsa 10 conectores DC hembra CCTV", "SAXXON", "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra"],
+  ["EZVIZ CS-H8C/3MP/POE H8c PoE 2K camara PT exterior", "EZVIZ", "seguridad/cctv/camaras-ip-poe/pt-exterior/3mp"],
+  ["Uniarch IPC-T132-AF28-ECO camara IP turret PoE 2MP microfono", "UNIARCH", "seguridad/cctv/camaras-ip-poe/turret/2mp-mic"],
+  ["SmartHome by Epcom SCAM2PT4G camara IP PT 4G 2MP Cloud SIM", "SMARTHOME BY EPCOM", "seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim"],
+  ["Meriva MDL-2202A camara HD bullet 2MP dual light con microfono", "MERIVA", "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio"],
+  ["HiLook THC-T127-LMS camara turret TurboHD 2MP dual light audio", "HILOOK BY HIKVISION", "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light-audio"],
+  ["EZVIZ CS-CB5/4K camara WiFi bateria solar integrada 4K", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/bateria-exterior/4k-solar"],
+  ["Meriva MOB-203D camara IP bullet PoE 2MP dual light microfono", "MERIVA", "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic"],
 ] as const;
 
 describe("manual taxonomy researched post-100 batches", () => {

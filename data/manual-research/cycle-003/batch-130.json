@@ -1,0 +1,485 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b130-2026-05-30",
+  "cycle": 3,
+  "batch": 130,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "dvepl8cqehbmn04",
+      "research": {
+        "confidence": 0.95,
+        "brand": "EZVIZ",
+        "name": "EZVIZ CS-H8C/5MP H8c Pro 3K camara PT WiFi exterior",
+        "description": "Camara PT WiFi exterior EZVIZ H8c Pro 3K CS-H8C/5MP con resolucion 5MP, vision nocturna a color, seguimiento inteligente, deteccion humana y vehicular, audio bidireccional y defensa activa.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/5mp-dual-light/ezviz-cs-h8c-5mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/inter/product/H8c-Pro-3K/55562",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C_5MP/CSH8C_5MP-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C/5MP/frontal_0S1000.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C/5MP/lateral_izquierda_0S1000.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C/5MP/lateral_derecha_0S1000.PNG"],
+        "documents": [
+          { "label": "EZVIZ H8c Pro 3K official page", "type": "manufacturer", "url": "https://www.ezviz.com/inter/product/H8c-Pro-3K/55562" },
+          { "label": "Syscom CS-H8C/5MP product page", "type": "provider", "url": "https://www.syscom.mx/products/237229" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H8C/5MP",
+          "aliases": ["H8c Pro 3K", "CSH8C/5MP", "237229"],
+          "providerSku": "CSH8C/5MP",
+          "productType": "Camara IP WiFi PT exterior",
+          "resolution": "2880 x 1620 3K / 5MP a 30 fps",
+          "lens": "4 mm F1.6",
+          "fieldOfView": "91 horizontal; 108 diagonal",
+          "panTilt": "Cobertura panoramica 360 grados",
+          "nightVision": "IR hasta 30 m y vision nocturna a color",
+          "detection": ["Deteccion humana IA", "Deteccion vehicular IA", "Seguimiento inteligente con zoom automatico"],
+          "activeDefense": ["Sirena", "Luz estroboscopica"],
+          "audio": "Audio bidireccional",
+          "video": "H.265/H.264",
+          "network": ["WiFi 2.4 GHz", "Ethernet RJ45 10/100"],
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "protection": "IP65",
+          "power": "12 VDC / 1 A, 12 W max",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSH8C/5MP", "stock": 500, "price": 72.14, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider image was crossed with SMARTHOME BY EPCOM SCAM2PTP4G; corrected gallery to EZVIZ CS-H8C/5MP.", "Provider brand was generic ElectroPrice; corrected to EZVIZ.", "Provider branch-level locations were not exposed in the current PocketBase record."]
+        },
+        "measurements": { "dimensions": "100 x 136 x 140 mm", "packageDimensions": "140 x 140 x 192 mm", "weight": "539.7 g Syscom net; 480 g official net previously published", "packageWeight": "823.6 g Syscom; 936 g official package previously published" },
+        "sourceRefs": [
+          { "title": "Syscom CS-H8C/5MP product page", "type": "provider", "url": "https://www.syscom.mx/products/237229" },
+          { "title": "EZVIZ H8c Pro 3K official page", "type": "manufacturer", "url": "https://www.ezviz.com/inter/product/H8c-Pro-3K/55562" }
+        ]
+      }
+    },
+    {
+      "product_id": "dzew1yugcsr44pj",
+      "research": {
+        "confidence": 0.94,
+        "brand": "EZVIZ",
+        "name": "EZVIZ H4 PoE 2K CS-H4-R201 camara IP PoE 4MP exterior",
+        "description": "Camara IP PoE EZVIZ H4 2K para exterior con resolucion 4MP, vision nocturna a color, deteccion IA humana y vehicular, audio bidireccional, defensa activa, microSD hasta 512GB e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/4mp-full-color",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/4mp-full-color/ezviz-h4-poe-2k",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/product/H4-PoE-2K/60035",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH4_POE/CSH4_POE-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH4/POE/adicional_1S1000.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH4/POE/adicional_2S1000.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH4/POE/adicional_3S1000.PNG"],
+        "documents": [
+          { "label": "EZVIZ H4 PoE 2K official page", "type": "manufacturer", "url": "https://www.ezviz.com/product/H4-PoE-2K/60035" },
+          { "label": "Syscom CSH4/POE product page", "type": "provider", "url": "https://www.syscom.mx/products/246771" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H4-R201-1H3EKFL",
+          "aliases": ["CSH4/POE", "H4 PoE 2K", "246771"],
+          "providerSku": "CSH4/POE",
+          "productType": "Camara IP PoE exterior full-color",
+          "resolution": "2304 x 1296 2K / 4MP",
+          "sensor": "1/2.8 pulg progressive scan CMOS",
+          "lens": "2.8 mm F1.6 106 horizontal o 4 mm F1.6 86 horizontal",
+          "nightVision": "IR hasta 30 m y vision nocturna a color",
+          "detection": ["Deteccion humana IA", "Deteccion vehicular IA"],
+          "activeDefense": ["Luz", "Sirena"],
+          "audio": "Audio bidireccional",
+          "video": "H.265/H.264",
+          "network": "RJ45 10/100 con PoE",
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "protection": "IP67",
+          "power": "DC 12V/1A + PoE; 8 W max",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSH4/POE", "stock": 500, "price": 73.25, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to EZVIZ H4 PoE.", "Provider branch-level locations were not exposed in the current PocketBase record."]
+        },
+        "measurements": { "dimensions": "106 x 106 x 90 mm", "packageDimensions": "133 x 131 x 159 mm", "weight": "240 g net", "packageWeight": "400 g" },
+        "sourceRefs": [
+          { "title": "Syscom CSH4/POE product page", "type": "provider", "url": "https://www.syscom.mx/products/246771" },
+          { "title": "EZVIZ H4 PoE 2K official page", "type": "manufacturer", "url": "https://www.ezviz.com/product/H4-PoE-2K/60035" }
+        ]
+      }
+    },
+    {
+      "product_id": "dzr6ka782wz873x",
+      "research": {
+        "confidence": 0.92,
+        "brand": "SAXXON",
+        "name": "Saxxon PSUBR13B bolsa de 10 conectores DC hembra para CCTV",
+        "description": "Bolsa de 10 conectores de energia DC hembra Saxxon PSUBR13B con terminales atornillables positivo/negativo para fuentes de poder y camaras CCTV.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-cableado/conectores-corriente/dc-hembra/saxxon-psubr13b",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tvc.mx/products/8878/psubr13b-bolsa-de-10-conectores-hembra-para-atornillar",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCSAX040/ACCSAX040_full.jpg", "https://cdn.tvc.mx/media/150518/SAXXON-PSUBR13-Bolsa-de-10-conectores-hembra-img2.jpg", "https://cdn.tvc.mx/media/150522/SAXXON-PSUBR13-Bolsa-de-10-conectores-hembra-img3.jpg"],
+        "documents": [
+          { "label": "TVC Saxxon PSUBR13B product page", "type": "distributor", "url": "https://tvc.mx/products/8878/psubr13b-bolsa-de-10-conectores-hembra-para-atornillar" },
+          { "label": "Grupo Reysa Saxxon PSUBR13B page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/saxxon-psubr13b/" }
+        ],
+        "specs": {
+          "brand": "SAXXON",
+          "model": "PSUBR13B",
+          "aliases": ["ACCSAX040", "TVN109001"],
+          "providerSku": "ACCSAX040",
+          "productType": "Conector DC hembra para CCTV",
+          "packageContents": "Bolsa de 10 conectores",
+          "connectorType": "Plug hembra DC con bloque atornillable",
+          "wireGauge": ["16 AWG", "18 AWG"],
+          "terminal": "Tornillos de fijacion tipo cruz para positivo y negativo",
+          "materials": ["Plastico ABS", "Metal"],
+          "colors": ["Verde", "Negro"],
+          "applications": ["Fuentes de poder CCTV", "Camaras de seguridad", "Equipos electronicos DC"],
+          "providerOffers": [{ "providerId": "ctonline", "providerSku": "ACCSAX040", "stock": 500, "price": 2.73, "currency": "USD", "priceKind": "customer_price" }],
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouseCode": "DFA", "country": "MX", "stock": 250 },
+            { "providerId": "ctonline", "warehouseCode": "D2A", "country": "MX", "stock": 250 }
+          ],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider branch summary DFA:250,D2A:250 was available in specs and normalized into stock_locations.", "Open sources did not publish reliable dimensions or manufacturer net weight.", "One retailer published 0.66 kg logistical weight, but it was not confirmed by TVC or MCA."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "TVC Saxxon PSUBR13B product page", "type": "distributor", "url": "https://tvc.mx/products/8878/psubr13b-bolsa-de-10-conectores-hembra-para-atornillar" },
+          { "title": "CTOnline product image ACCSAX040", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/ACCSAX040/ACCSAX040_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "emk9ws43howawfi",
+      "research": {
+        "confidence": 0.94,
+        "brand": "EZVIZ",
+        "name": "EZVIZ CS-H8C/3MP/POE H8c PoE 2K camara PT exterior",
+        "description": "Camara PT PoE EZVIZ H8c 2K de 3MP para exterior con giro 350 grados, tilt 80 grados, deteccion humana, seguimiento inteligente, audio bidireccional y microSD hasta 512GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/pt-exterior/3mp",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/pt-exterior/3mp/ezviz-cs-h8c-3mp-poe",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/jp/product/H8c-PoE-2K/61425",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C_3MP_POE/CSH8C_3MP_POE-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSH8C_3MP_POE/CSH8C_3MP_POE-FRENTE-l.PNG", "https://mfs.ezvizlife.com/2b3dd263ad7a45cb96a78c1ba6df1d6c.jpg"],
+        "documents": [
+          { "label": "Syscom CS-H8C/3MP/POE product page", "type": "provider", "url": "https://www.syscom.mx/products/230513" },
+          { "label": "EZVIZ H8c PoE 2K official page", "type": "manufacturer", "url": "https://www.ezviz.com/jp/product/H8c-PoE-2K/61425" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-H8C/3MP/POE",
+          "aliases": ["CS-H8c PoE 2K", "230513"],
+          "providerSku": "CSH8C/3MP/POE",
+          "productType": "Camara IP PoE PT exterior",
+          "resolution": "2304 x 1296 2K / 3MP",
+          "lens": "4 mm F1.6; 89 horizontal; 104 diagonal",
+          "panTilt": "Pan 350 grados; tilt 80 grados; 12 presets",
+          "nightVision": "Color e IR hasta 30 m",
+          "detection": ["Deteccion humana IA", "Seguimiento inteligente"],
+          "audio": "Audio bidireccional",
+          "video": "H.265/H.264",
+          "network": "RJ45 10/100 con PoE; no WiFi",
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "protection": "IP65",
+          "power": "PoE o 12 VDC / 1 A, 12 W max",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSH8C/3MP/POE", "stock": 500, "price": 77.5, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to EZVIZ.", "Provider branch-level locations were not exposed in the current PocketBase record."]
+        },
+        "measurements": { "dimensions": "100 x 136 x 140 mm", "weight": "525 g net; 745 g packaged EU standard" },
+        "sourceRefs": [
+          { "title": "Syscom CS-H8C/3MP/POE product page", "type": "provider", "url": "https://www.syscom.mx/products/230513" },
+          { "title": "EZVIZ CS-H8c PoE 2K specification sheet", "type": "datasheet", "url": "https://ftp3.syscom.mx/usuarios/rcovarrubias/EZVIZ/Manual%20esp-ing/CS-H8c%20PoE%202K%20Spec/CS-H8c%20PoE%202K%20Spec%20.pdf" },
+          { "title": "EZVIZ H8c PoE 2K official page", "type": "manufacturer", "url": "https://www.ezviz.com/jp/product/H8c-PoE-2K/61425" }
+        ]
+      }
+    },
+    {
+      "product_id": "etbknf1s2f10ii0",
+      "research": {
+        "confidence": 0.93,
+        "brand": "UNIARCH",
+        "name": "Uniarch IPC-T132-AF28-ECO camara IP turret PoE 2MP microfono",
+        "description": "Camara IP turret Uniarch IPC-T132-AF28-ECO de 2MP con lente 2.8 mm, IR 30 m, microfono integrado, Human Body Detection 2.0, Ultra265, PoE AF, ONVIF y uso interior.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-mic/uniarch-ipc-t132-af28-eco",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/Entry_Series/IPC-T132-AF28-ECO/",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=21894043&c=4820964&h=epv7UVhgv0pfbF4GDTPZGiTruMitcg0i05JNVz28A91-K4xd", "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=QLc6QfzFpkmAupQwL1SSeK2Ccj1m5rZWQygyxSnGGjIX-5qk&id=21869681", "https://gruporeysa.com.mx/wp-content/uploads/2025/07/media-1-600x600.jpeg"],
+        "documents": [
+          { "label": "Uniarch IPC-T132-AF28-ECO official page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/Entry_Series/IPC-T132-AF28-ECO/" },
+          { "label": "GlobalOffice CI121UNI17 product page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-ip-turret-uniarch-ipc-t132-af28-eco-2mp/ipc-t132-af28-eco" }
+        ],
+        "specs": {
+          "brand": "UNIARCH",
+          "model": "IPC-T132-AF28-ECO",
+          "aliases": ["CI121UNI17", "UV-IPC-T132-AF28-ECO"],
+          "providerSku": "CI121UNI17",
+          "productType": "Camara IP turret PoE",
+          "resolution": "2MP 1920 x 1080 a 30 fps",
+          "sensor": "1/3 pulg CMOS",
+          "lens": "2.8 mm F2.0; 87.8 horizontal; 99 diagonal",
+          "nightVision": "Smart IR hasta 30 m",
+          "detection": ["Human Body Detection 2.0", "ROI", "Audio detection"],
+          "audio": "Microfono integrado",
+          "video": "Ultra265/H.265/H.264",
+          "network": ["PoE IEEE 802.3af", "ONVIF Profile S/T", "API/SDK"],
+          "imageFeatures": ["DWDR", "2D/3D DNR", "BLC", "HLC"],
+          "installation": "Interior; 3-axis; no incluye glandula impermeable",
+          "operatingTemperature": "-30 a 60 C",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI121UNI17", "stock": 500, "price": 285.69, "currency": "USD", "priceKind": "customer_price" }],
+          "observedRetailStock": [{ "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 1053, "observedAt": "2026-05-30" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Uniarch.", "Provider branch-level locations were not exposed in the current PocketBase record; GlobalOffice showed Almacen Mexico as a retail reference only."]
+        },
+        "measurements": { "dimensions": "118 x 100 mm", "weight": "0.19 kg" },
+        "sourceRefs": [
+          { "title": "Uniarch IPC-T132-AF28-ECO official page", "type": "manufacturer", "url": "https://www.uniarch.cn/Products/Network_Cameras/Entry_Series/Entry_Series/IPC-T132-AF28-ECO/" },
+          { "title": "Uniarch IPC-T132-AF28-ECO datasheet", "type": "datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/69dbe1f4-9c11-4fc4-8d6a-8d86f152b76a/c4001af7-d518-43f2-8d9e-dac30b4fd59b.pdf" },
+          { "title": "GlobalOffice IPC-T132-AF28-ECO product page", "type": "retailer", "url": "https://globaloffice.com.mx/app/detalle/producto/camaras/camara-ip-turret-uniarch-ipc-t132-af28-eco-2mp/ipc-t132-af28-eco" }
+        ]
+      }
+    },
+    {
+      "product_id": "futd7argjgmajmd",
+      "research": {
+        "confidence": 0.9,
+        "brand": "SMARTHOME BY EPCOM",
+        "name": "SmartHome by Epcom SCAM2PT4G camara IP PT 4G 2MP Cloud SIM",
+        "description": "Camara IP PT SmartHome by Epcom SCAM2PT4G con resolucion 2MP, conectividad 4G Cloud SIM, vision nocturna a color, audio bidireccional, autoseguimiento, microSD hasta 128GB e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-4g/pt-exterior/2mp-cloud-sim/smarthome-epcom-scam2pt4g",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/products/233550",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2PT4G/SCAM2PT4G-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2PT4G/SCAM2PT4G-AD-1-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/SMARTHOMEBYEPCOM/SCAM2PT4G/SCAM2PT4G-AD-2-l.PNG"],
+        "documents": [
+          { "label": "Syscom SCAM2PT4G product page", "type": "provider", "url": "https://www.syscom.mx/products/233550" },
+          { "label": "Syscom Colombia SCAM2PT4G product page", "type": "provider", "url": "https://www.syscomcolombia.com/producto/SCAM2PT4G-SMARTHOME-BY-EPCOM-233550.html" },
+          { "label": "RadioElectronics SCAM2PT4G stock and specs", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/scam2pt4g" }
+        ],
+        "specs": {
+          "brand": "SMARTHOME BY EPCOM",
+          "model": "SCAM2PT4G",
+          "aliases": ["SCAM3BD in Syscom Colombia spec table", "233550"],
+          "providerSku": "SCAM2PT4G",
+          "productType": "Camara IP PT 4G Cloud SIM",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm; 96 horizontal; 115 diagonal",
+          "panTilt": "Pan 340 grados; tilt 140 grados",
+          "nightVision": "IR hasta 15 m y vision nocturna a color",
+          "network": "Cloud SIM 4G multicarrier; recarga desde app EpcomSmart Home",
+          "lteBands": ["B2", "B3", "B4", "B5", "B7", "B8", "B28", "B66"],
+          "storage": "microSD hasta 128 GB; grabacion continua; fuentes consultadas indican que no soporta almacenamiento en nube",
+          "detection": ["Deteccion de movimiento", "Autoseguimiento"],
+          "audio": "Audio bidireccional",
+          "protection": "IP65",
+          "power": "12 V / 1 A, eliminador incluido",
+          "operatingTemperature": "-10 a 60 C",
+          "observedRetailBranches": ["Cancun", "Chihuahua-C", "Chihuahua-M", "Culiacan", "Gdl-S", "Hermosillo", "Cd.Juarez", "Leon", "Mty-Cen", "Mty-Sen", "Merida", "Mexico Nte", "Mexico Sur", "Puebla", "Queretaro", "SLPotosi", "Tepotzotlan", "Tijuana", "Toluca", "Torreon", "Veracruz", "Villahermosa"],
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "SCAM2PT4G", "stock": 500, "price": 35.93, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["PocketBase source title and image were crossed with EZVIZ CS-BC1C; SKU SCAM2PT4G was corrected to SmartHome by Epcom 4G PT camera.", "Branch detail was found only in RadioElectronics public page, not in the current provider record."]
+        },
+        "measurements": { "dimensions": "No localizado en fuente confiable", "weight": "No localizado en fuente confiable" },
+        "sourceRefs": [
+          { "title": "Syscom SCAM2PT4G product page", "type": "provider", "url": "https://www.syscom.mx/products/233550" },
+          { "title": "Syscom Colombia SCAM2PT4G product page", "type": "provider", "url": "https://www.syscomcolombia.com/producto/SCAM2PT4G-SMARTHOME-BY-EPCOM-233550.html" },
+          { "title": "RadioElectronics SCAM2PT4G product page", "type": "retailer", "url": "https://radioelectronicsenlinea.mx/products/scam2pt4g" }
+        ]
+      }
+    },
+    {
+      "product_id": "g4cxk4pa78upfzl",
+      "research": {
+        "confidence": 0.92,
+        "brand": "MERIVA",
+        "name": "Meriva MDL-2202A camara HD bullet 2MP dual light con microfono",
+        "description": "Camara HD bullet Meriva MDL-2202A de 2MP con salida AHD/TVI/CVI/CVBS, lente 2.8 mm, iluminacion dual, microfono integrado, audio por coaxial o UTP en TVI, carcasa metalica e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-dual-light-audio/meriva-mdl-2202a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MDL-2202A",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=21760078&c=4820964&h=IcRLGAMDWIGX4AcqrPIzjNZ8ksDuGmBGOdVYXnDX2pOyUY77", "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=tJKhb8cXRGJqvcIfjqiLBYIVoXe-ss82_KjPOJsDxPDg47sh&id=21257005", "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=hF0JMSESMtXVFEc1jq353g4Df5Lrv-H0vh1nfrOZIoETtigG&id=21202210"],
+        "documents": [
+          { "label": "Meriva MDL-2202A official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MDL-2202A" },
+          { "label": "Meriva MDL-2202A datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=A893rE9vsZ-pbSf9i7OYMyi5XyG3M3cNnY1gROq9a4Hkyb5c&id=21202308" },
+          { "label": "GlobalOffice Meriva MDL-2202A product page", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/camaras/camara-hd-bullet-meriva-technology-mdl-2202a-2-mp-ahdtv/mdl-2202a" },
+          { "label": "Grupo Reysa Meriva MDL-2202A page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mdl-2202a/" }
+        ],
+        "specs": {
+          "brand": "MERIVA",
+          "model": "MDL-2202A",
+          "aliases": ["C4125MER36"],
+          "providerSku": "C4125MER36",
+          "productType": "Camara HD analogica bullet dual light",
+          "resolution": "2MP 1920 x 1080 a 25/30 fps",
+          "sensor": "1/3 pulg CMOS",
+          "videoFormats": ["AHD", "TVI", "CVI", "CVBS"],
+          "lens": "2.8 mm",
+          "illumination": "IR 20-30 m y luz calida 10 m",
+          "audio": "Microfono integrado; audio por coaxial o UTP solo TVI",
+          "features": ["COC", "Menu OSD", "Imagen a color 24/7", "Digital WDR", "2D DNR", "AGC", "AWB", "BLC"],
+          "body": "Metalico",
+          "protection": "IP67",
+          "power": "12 VDC +/-10%; consumo menor a 1 W LED off y menor a 4 W LED on",
+          "operatingTemperature": "-30 a 50 C",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "C4125MER36", "stock": 500, "price": 302.27, "currency": "USD", "priceKind": "customer_price" }],
+          "observedRetailStock": [{ "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 453, "observedAt": "2026-05-30" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Meriva.", "Provider branch-level locations were not exposed in the current PocketBase record; GlobalOffice showed Almacen Mexico as a retail reference only."]
+        },
+        "measurements": { "dimensions": "167.6 x 75 x 74.6 mm", "weight": "0.4 kg aprox." },
+        "sourceRefs": [
+          { "title": "Meriva MDL-2202A official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MDL-2202A" },
+          { "title": "Meriva MDL-2202A datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=A893rE9vsZ-pbSf9i7OYMyi5XyG3M3cNnY1gROq9a4Hkyb5c&id=21202308" },
+          { "title": "GlobalOffice Meriva MDL-2202A product page", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/camaras/camara-hd-bullet-meriva-technology-mdl-2202a-2-mp-ahdtv/mdl-2202a" },
+          { "title": "Grupo Reysa Meriva MDL-2202A page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mdl-2202a/" }
+        ]
+      }
+    },
+    {
+      "product_id": "h428s15tl1fcfui",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HILOOK BY HIKVISION",
+        "name": "HiLook THC-T127-LMS camara turret TurboHD 2MP dual light audio",
+        "description": "Camara turret TurboHD HiLook THC-T127-LMS de 2MP con dual light, ColorVu, microfono/audio por coaxitron, lente 2.8 mm, IR 30 m, luz blanca 20 m, salida TVI/AHD/CVI/CVBS, cuerpo metalico e IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light-audio",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/turret/2mp-dual-light-audio/hilook-thc-t127-lms",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hikvision.com/ca-en/products/HiLook-Turbo-HD-Product/Turbo-HD-Camera/1080P/thc-t127-lms/",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/HILOOKBYHIKVISION/THCT127LMS/THCT127LMS-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/HILOOKBYHIKVISION/THCT127LMS/THCT127LMS-AD-1-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/HILOOKBYHIKVISION/THCT127LMS/THCT127LMS-AD-2-l.PNG"],
+        "documents": [
+          { "label": "Hikvision HiLook THC-T127-LMS official page", "type": "manufacturer", "url": "https://www.hikvision.com/ca-en/products/HiLook-Turbo-HD-Product/Turbo-HD-Camera/1080P/thc-t127-lms/" },
+          { "label": "Hikvision THC-T127-LMS datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000059528/THC-T127-LMS_Datasheet_20250704.pdf" },
+          { "label": "Syscom THC-T127-LMS product page", "type": "provider", "url": "https://www.syscom.mx/products/239608" }
+        ],
+        "specs": {
+          "brand": "HiLook by Hikvision",
+          "model": "THC-T127-LMS",
+          "aliases": ["THCT127LMS"],
+          "providerSku": "THC-T127-LMS",
+          "productType": "Camara TurboHD turret dual light con audio",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm; 100 grados horizontal",
+          "illumination": "IR hasta 30 m; luz blanca hasta 20 m; Smart Hybrid Light",
+          "audio": "Microfono integrado; audio por coaxitron",
+          "videoFormats": ["TVI", "AHD", "CVI", "CVBS"],
+          "imageFeatures": ["dWDR", "BLC", "HLC", "DNR"],
+          "power": "12 VDC; 3.2 W max",
+          "body": "Metalico",
+          "protection": "IP66",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "THC-T127-LMS", "stock": 500, "price": 26.8, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider image was crossed with EPCOM Professional E8TURBOG2W; corrected to HiLook THC-T127-LMS gallery.", "Provider brand was generic ElectroPrice; corrected to HiLook by Hikvision.", "Provider branch-level locations were not exposed in the current PocketBase record."]
+        },
+        "measurements": { "dimensions": "82.65 x 69.16 mm", "weight": "253 g aprox.; Syscom publica 325 g" },
+        "sourceRefs": [
+          { "title": "Hikvision HiLook THC-T127-LMS official page", "type": "manufacturer", "url": "https://www.hikvision.com/ca-en/products/HiLook-Turbo-HD-Product/Turbo-HD-Camera/1080P/thc-t127-lms/" },
+          { "title": "Hikvision THC-T127-LMS datasheet", "type": "datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000059528/THC-T127-LMS_Datasheet_20250704.pdf" },
+          { "title": "Syscom THC-T127-LMS product page", "type": "provider", "url": "https://www.syscom.mx/products/239608" }
+        ]
+      }
+    },
+    {
+      "product_id": "h8b2rnz2n05lvxm",
+      "research": {
+        "confidence": 0.95,
+        "brand": "EZVIZ",
+        "name": "EZVIZ CS-CB5/4K camara WiFi bateria solar integrada 4K",
+        "description": "Camara EZVIZ CB5 4K con bateria de 10400 mAh, panel solar integrado, WiFi 6, deteccion humana y vehicular, vision nocturna a color, audio bidireccional, microSD hasta 512GB e IP65.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/4k-solar",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bateria-exterior/4k-solar/ezviz-cs-cb5-4k",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ezviz.com/uk/product/cb5%2B4k/60343",
+        "gallery": ["https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSCB54K/CSCB54K-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSCB54K/CSCB54K-FRENTE-l.PNG", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EZVIZ/CSCB54K/CSCB54K-LAT-IZQ-l.PNG"],
+        "documents": [
+          { "label": "EZVIZ CB5 4K official page", "type": "manufacturer", "url": "https://www.ezviz.com/uk/product/cb5%2B4k/60343" },
+          { "label": "EZVIZ CB5 datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/20250120/CB5_datasheet.pdf?ver=51559" },
+          { "label": "Syscom CS-CB5/4K product page", "type": "provider", "url": "https://www.syscom.mx/products/230416" }
+        ],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-CB5/4K",
+          "manufacturerModel": "CS-CB5-R100-2F8WFL",
+          "aliases": ["CSCB54K", "CB5 4K", "230416"],
+          "providerSku": "CSCB54K",
+          "productType": "Camara IP WiFi exterior con bateria y panel solar integrado",
+          "resolution": "3840 x 2160 4K / 8MP a 15 fps",
+          "sensor": "1/2.7 pulg 8MP progressive scan CMOS",
+          "lens": "2.8 mm F1.6; 113 horizontal; 135 diagonal",
+          "nightVision": "IR 15 m y vision nocturna a color 15 m",
+          "detection": ["Deteccion humana IA", "Deteccion vehicular IA"],
+          "audio": "Audio bidireccional",
+          "video": "H.265/H.264",
+          "network": "WiFi 6 2.4 GHz 802.11ax",
+          "storage": "microSD hasta 512 GB; EZVIZ CloudPlay",
+          "battery": "10400 mAh; hasta 180 dias sin carga solar bajo condiciones de laboratorio",
+          "solarPanel": "Panel solar integrado 1.4 W",
+          "protection": "IP65",
+          "power": "DC 5V/2A USB-C",
+          "providerOffers": [{ "providerId": "syscom", "providerSku": "CSCB54K", "stock": 500, "price": 138.48, "currency": "USD", "priceKind": "customer_price" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider image was crossed with SMARTHOME BY EPCOM SCAM2B; corrected to EZVIZ CB5/CSCB54K.", "Provider brand was generic ElectroPrice; corrected to EZVIZ.", "Provider branch-level locations were not exposed in the current PocketBase record."]
+        },
+        "measurements": { "dimensions": "166 x 103 x 54 mm", "weight": "466 g net; 822 g packaged" },
+        "sourceRefs": [
+          { "title": "Syscom CS-CB5/4K product page", "type": "provider", "url": "https://www.syscom.mx/products/230416" },
+          { "title": "EZVIZ CB5 4K official page", "type": "manufacturer", "url": "https://www.ezviz.com/uk/product/cb5%2B4k/60343" },
+          { "title": "EZVIZ CB5 datasheet", "type": "datasheet", "url": "https://mfs.ezvizlife.com/20250120/CB5_datasheet.pdf?ver=51559" }
+        ]
+      }
+    },
+    {
+      "product_id": "hat2svwg1bltjcj",
+      "research": {
+        "confidence": 0.92,
+        "brand": "MERIVA",
+        "name": "Meriva MOB-203D camara IP bullet PoE 2MP dual light microfono",
+        "description": "Camara IP bullet Meriva MOB-203D de 2MP con H.265+, lente 2.8 mm, iluminacion dual, microfono integrado, MIA 2.0, ONVIF, deteccion de intrusion/cruce de linea, solo PoE e IP67.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic/meriva-mob-203d",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MOB-203D",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=24093240&c=4820964&h=hUmxjYD--UN_6NjVeim4kvML0jldROk8VLFcWymt2FZrtB4V", "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=hUmxjYD--UN_6NjVeim4kvML0jldROk8VLFcWymt2FZrtB4V&id=24093240", "https://merivatechnology.com/producto/MOB-203D"],
+        "documents": [
+          { "label": "Meriva MOB-203D official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MOB-203D" },
+          { "label": "Meriva MOB-203D datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=t3arDcmaUiXriHfnlC7TfRRz7tgVj4V2gNrCUms_zH12ygIm&id=23416997" },
+          { "label": "GlobalOffice Meriva MOB-203D product page", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/camaras/camara-ip-bullet-meriva-technology-mob-203d-2mp-h265/mob-203d" },
+          { "label": "Grupo Reysa Meriva MOB-203D page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mob-203d/" }
+        ],
+        "specs": {
+          "brand": "MERIVA",
+          "model": "MOB-203D",
+          "aliases": ["CI111MER80"],
+          "providerSku": "CI111MER80",
+          "productType": "Camara IP bullet PoE dual light con microfono",
+          "resolution": "2MP 1920 x 1080 a 30 fps",
+          "sensor": "1/3 pulg CMOS",
+          "lens": "2.8 mm F2.0; 94 horizontal; 107 diagonal",
+          "illumination": "IR 20-30 m y luz blanca 10-20 m",
+          "audio": "Microfono integrado",
+          "video": "H.265+/H.265/H.264+/H.264",
+          "network": ["PoE IEEE 802.3af", "ONVIF", "RTSP"],
+          "analytics": ["MIA 2.0 deteccion humana", "SMD", "Intrusion", "Cruce de linea"],
+          "streams": "Doble stream",
+          "body": "Metal + plastico",
+          "protection": "IP67",
+          "power": "PoE IEEE 802.3af; consumo menor a 6 W",
+          "providerOffers": [{ "providerId": "tecnosinergia", "providerSku": "CI111MER80", "stock": 500, "price": 340.65, "currency": "USD", "priceKind": "customer_price" }],
+          "observedRetailStock": [{ "source": "GlobalOffice", "warehouse": "Almacen Mexico", "stock": 35, "observedAt": "2026-05-30" }],
+          "providerStockVerifiedAt": "2026-05-30T07:20:00Z",
+          "sourceDiscrepancies": ["Provider brand was generic ElectroPrice; corrected to Meriva.", "Provider branch-level locations were not exposed in the current PocketBase record; GlobalOffice showed Almacen Mexico as a retail reference only."]
+        },
+        "measurements": { "dimensions": "162.1 x 74.8 x 73.8 mm", "weight": "0.25 kg aprox." },
+        "sourceRefs": [
+          { "title": "Meriva MOB-203D official page", "type": "manufacturer", "url": "https://merivatechnology.com/producto/MOB-203D" },
+          { "title": "Meriva MOB-203D datasheet", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=t3arDcmaUiXriHfnlC7TfRRz7tgVj4V2gNrCUms_zH12ygIm&id=23416997" },
+          { "title": "GlobalOffice Meriva MOB-203D product page", "type": "retailer", "url": "https://www.globaloffice.com.mx/app/detalle/producto/camaras/camara-ip-bullet-meriva-technology-mob-203d-2mp-h265/mob-203d" },
+          { "title": "Grupo Reysa Meriva MOB-203D page", "type": "retailer", "url": "https://gruporeysa.com.mx/producto/meriva-technology-mob-203d/" }
+        ]
+      }
+    }
+  ]
+}

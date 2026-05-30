@@ -443,7 +443,7 @@ describe("product curation policy", () => {
       name: "Meriva MOB-203D camara IP bullet PoE 2MP",
       brand: "MERIVA",
       category: "laptops",
-    }).path).toBe("seguridad/cctv/camaras-ip-poe");
+    }).path).toBe("seguridad/cctv/camaras-ip-poe/bullet/2mp-dual-light-mic");
 
     expect(classifyManualCategory({
       name: "Uniarch UAC-T112-F28-X-H camara analogica TVI AHD CVI CVBS",
