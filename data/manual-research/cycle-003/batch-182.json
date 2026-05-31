@@ -1,0 +1,489 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b182-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 182,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6ktzd71vbnd8kxi",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Kaspersky",
+        "name": "Kaspersky Plus KL1042Z5KFS-22 licencia 10 dispositivos 1 ano Windows Mac Android iOS",
+        "description": "Licencia Kaspersky Plus KL1042Z5KFS/KL1042Z5KFS-22 para 10 dispositivos por 1 ano, con proteccion antivirus, anti-phishing, firewall, pagos seguros, VPN ilimitada, password manager y optimizacion de rendimiento.",
+        "manualCategoryPath": "software/seguridad/antivirus/kaspersky-plus/10-dispositivos-1-ano",
+        "semanticCategoryPath": "software/security/consumer-antivirus/kaspersky-plus/10-devices-1-year",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kaspersky.com/plus",
+        "gallery": [
+          "https://www.kaspersky.com/plus",
+          "https://www.cyberpuerta.mx/Software-y-Servicios/Antivirus/Kaspersky-Plus-10-Dispositivos-1-Ano-Windows-Mac.html",
+          "https://static.ctonline.mx/imagenes/SOFKPS890/SOFKPS890_full.jpg"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "KASPERSKY",
+          "model": "KL1042Z5KFS / KL1042Z5KFS-22",
+          "providerSku": "SOFKPS890",
+          "gtin": "787790341802",
+          "productType": "Licencia antivirus multidispositivo",
+          "plan": "Kaspersky Plus",
+          "deviceCount": 10,
+          "licenseTerm": "1 ano",
+          "distribution": "Fisica o ESD segun canal",
+          "features": ["antivirus tiempo real", "anti-phishing", "firewall", "proteccion de pagos", "VPN ilimitada", "password manager", "optimizacion de rendimiento"],
+          "minimumRequirements": {"cpu": "1 GHz", "ram": "2 GB recomendado", "disk": "3.5 GB"},
+          "compatibility": ["Windows 7/8/8.1/10/11", "macOS", "Android", "iOS"],
+          "providerBranchSummary": "CTZ:3,AGS:1,PUE:1",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "CTZ", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "AGS", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SOFKPS890", "stock": 5, "price": 1060.38, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El proveedor trae nombre demasiado corto.", "KL1042Z5KFS aparece como fisica y KL1042Z5KFS-22 como ESD/caja segun reseller; se conservan ambas equivalencias.", "La categoria raw software es correcta pero generica."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"format": "digital", "dimensions": "No aplica", "netWeight": "No aplica"},
+        "sourceRefs": [
+          {"title": "Kaspersky Plus", "type": "manufacturer_spec", "url": "https://www.kaspersky.com/plus"},
+          {"title": "Intercompras KL1042Z5KFS", "type": "marketplace_spec", "url": "https://intercompras.com/p/software-antivirus-kaspersky-kl1042z5kfs-licencia-ano-proteccion-428130"},
+          {"title": "MacToner KL1042Z5KFS-22", "type": "marketplace_spec", "url": "https://www.mactoner.com.mx/producto/antivirus-kaspersky-kl1042z5kfs-22-10-licencias/"},
+          {"title": "Electroprice provider stock SOFKPS890", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6lb1hco4kr3m6xb",
+      "research": {
+        "confidence": 0.91,
+        "brand": "TP-Link",
+        "name": "TP-Link TL-WR845N router Wi-Fi N300 2.4GHz con 3 antenas",
+        "description": "Router TP-Link TL-WR845N Wi-Fi N300 de 2.4GHz con tres antenas fijas, modos router, access point, range extender y WISP, puertos Fast Ethernet y funciones de red domestica.",
+        "manualCategoryPath": "redes/routers/wifi-n/n300",
+        "semanticCategoryPath": "networking/routers/wifi-4-n300/2-4ghz",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/sg/home-networking/wifi-router/tl-wr845n/",
+        "gallery": [
+          "https://www.tp-link.com/sg/home-networking/wifi-router/tl-wr845n/",
+          "https://static.tp-link.com/TL-WR845N-01_1478848650411t.jpg",
+          "https://static.tp-link.com/TL-WR845N-02_1478848680376i.jpg"
+        ],
+        "documents": ["https://static.tp-link.com/2018/201809/20180926/TL-WR845N%28UN%29_V4_Datasheet.pdf"],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "TL-WR845N",
+          "providerSku": "NIC-3455",
+          "standard": "IEEE 802.11n/b/g 2.4GHz",
+          "wirelessSpeed": "300 Mbps",
+          "antennas": "3 fijas",
+          "modes": ["router", "access point", "range extender", "WISP"],
+          "ports": "1 WAN 10/100 + 4 LAN 10/100",
+          "security": ["WEP", "WPA", "WPA2", "WPA/WPA2-Enterprise"],
+          "features": ["IPv4/IPv6", "QoS por dispositivo", "parental controls", "guest network 2.4GHz", "WPS"],
+          "power": "9V 0.6A",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 102",
+          "providerOffers": [{"providerId": "cva", "providerSku": "NIC-3455", "stock": 102, "price": 14.77, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El nombre del proveedor agrega AC, pero TL-WR845N es Wi-Fi N300 2.4GHz y no router 802.11ac.", "Sin sucursal granular disponible."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "230 x 144 x 35 mm", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "TP-Link TL-WR845N", "type": "manufacturer_spec", "url": "https://www.tp-link.com/sg/home-networking/wifi-router/tl-wr845n/"},
+          {"title": "Electroprice provider stock NIC-3455", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6lcq7cxvdcm5n6e",
+      "research": {
+        "confidence": 0.9,
+        "brand": "StarTech.com",
+        "name": "StarTech PXT101 cable de alimentacion NEMA 5-15P a IEC C13 1.8m 10A 125V 18AWG negro",
+        "description": "Cable de alimentacion StarTech PXT101 de 1.8 m para computadora o monitor, con conector NEMA 5-15P a IEC 60320 C13, calibre 18 AWG, 10A, 125V AC y color negro.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/alimentacion/nema-5-15p-c13/1-8m",
+        "semanticCategoryPath": "accessories/power-cables/nema-5-15p-to-c13/1-8m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.startech.com/en-ca/cables/pxt101",
+        "gallery": ["https://www.startech.com/en-ca/cables/pxt101"],
+        "documents": ["https://cdn-docs.av-iq.com/dataSheet/PXT101.pdf"],
+        "specs": {
+          "brand": "STARTECH.COM",
+          "model": "PXT101",
+          "providerSku": "CB-1885",
+          "gtin": "065030200905",
+          "length": "6 ft / 1.8 m",
+          "connectorA": "NEMA 5-15P",
+          "connectorB": "IEC 60320 C13",
+          "wireGauge": "18 AWG",
+          "conductors": 3,
+          "cableType": "SVT",
+          "current": "10A",
+          "voltage": "125V AC",
+          "color": "negro",
+          "warranty": "Lifetime segun StarTech",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 15",
+          "providerOffers": [{"providerId": "cva", "providerSku": "CB-1885", "stock": 15, "price": 121.57, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw monitors es incorrecta; es cable de alimentacion AC.", "No hay sucursal granular disponible."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"length": "1.8 m", "shippingWeight": "0.4 lb / 0.2 kg"},
+        "sourceRefs": [
+          {"title": "StarTech PXT101", "type": "manufacturer_spec", "url": "https://www.startech.com/en-ca/cables/pxt101"},
+          {"title": "GlobalOffice PXT101", "type": "marketplace_spec", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/accesorios-computacionales/cable-de-18m-estandar-de-computadora-nema5-15p-a/pxt101"},
+          {"title": "Electroprice provider stock CB-1885", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6lnzuzj64lwouek",
+      "research": {
+        "confidence": 0.91,
+        "brand": "MSI",
+        "name": "MSI PRO B760M-P DDR4 tarjeta madre micro ATX Intel B760 LGA1700 DDR4",
+        "description": "Tarjeta madre MSI PRO B760M-P DDR4 micro ATX para procesadores Intel LGA1700 de 12a, 13a y 14a generacion, con chipset B760, memoria DDR4, PCIe 4.0, M.2 Gen4 y LAN Gigabit.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/b760/micro-atx/ddr4",
+        "semanticCategoryPath": "computing/components/motherboards/intel-lga1700/b760/matx-ddr4",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ca.msi.com/Motherboard/PRO-B760M-P-DDR4/Overview",
+        "gallery": ["https://us-store.msi.com/PRO-B760M-P-DDR4", "https://ca.msi.com/Motherboard/PRO-B760M-P-DDR4/Overview"],
+        "documents": ["https://www.msi.com/Motherboard/PRO-B760M-P-DDR4/support#manual"],
+        "specs": {
+          "brand": "MSI",
+          "model": "PRO B760M-P DDR4",
+          "providerSku": "MB-1277",
+          "chipset": "Intel B760",
+          "socket": "LGA1700",
+          "cpuSupport": "Intel Core 12/13/14 Gen, Pentium Gold, Celeron, Intel Processor 300",
+          "formFactor": "micro ATX",
+          "memory": "4x DDR4 hasta 128GB, 4800+ MHz OC, dual-channel, XMP",
+          "storage": "2x M.2 Gen4 x4 + 4x SATA 6Gbps",
+          "expansion": "1x PCIe 4.0 x16 + 2x PCIe 4.0 x1",
+          "videoOutputs": ["HDMI 1.4 4K30", "DisplayPort 1.4 4K60", "VGA"],
+          "network": "Realtek RTL8111H Gigabit LAN",
+          "audio": "Realtek ALC897 7.1",
+          "usb": "USB-C 3.2 Gen2 10Gbps trasero, USB-A 3.2 Gen1, USB 2.0",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 10",
+          "providerOffers": [{"providerId": "cva", "providerSku": "MB-1277", "stock": 10, "price": 78.68, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw laptops es incorrecta; es tarjeta madre.", "El titulo del proveedor dice OEM; specs oficiales corresponden a PRO B760M-P DDR4 retail/OEM sin Wi-Fi."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "9.60 x 9.60 in / 244 x 244 mm", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "MSI PRO B760M-P DDR4 store", "type": "manufacturer_spec", "url": "https://us-store.msi.com/PRO-B760M-P-DDR4"},
+          {"title": "MSI PRO B760M-P DDR4 overview", "type": "manufacturer_spec", "url": "https://ca.msi.com/Motherboard/PRO-B760M-P-DDR4/Overview"},
+          {"title": "Electroprice provider stock MB-1277", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6lz0j7x7r213fcl",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dahua Technology",
+        "name": "Dahua DH-PFM320D-015 fuente de poder CCTV 12V 1.5A con indicador",
+        "description": "Fuente de poder Dahua DH-PFM320D-015 para CCTV con entrada universal AC100-240V y salida DC12V 1.5A, protecciones electricas, indicador y uso en camaras o accesorios de seguridad.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-alimentacion/fuentes-12v/1-5a",
+        "semanticCategoryPath": "security/cctv/power-supplies/12v-1-5a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/accessories/power/dc-power-adapter/pfm320d-015",
+        "gallery": [
+          "https://www.dahuasecurity.com/products/accessories/power/dc-power-adapter/pfm320d-015",
+          "https://static.ctonline.mx/imagenes/ACCDAH2120/ACCDAH2120_full.jpg"
+        ],
+        "documents": ["https://material.dahuasecurity.com/download/DH-PFM320D-015_datasheet.pdf"],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-PFM320D-015",
+          "providerSku": "ACCDAH2120",
+          "ean": "6939554930850",
+          "productType": "Adaptador/fuente DC para CCTV",
+          "input": "AC100-240V 50/60Hz 0.6A",
+          "output": "DC12V (+7%, -3%) max 1.5A",
+          "protections": ["sobretension", "sobretemperatura", "sobrecorriente", "carga de voltaje", "surge"],
+          "esd": "+/-6kV contacto, +/-8kV aire",
+          "operatingTemperature": "-30 a 70 C",
+          "humidity": "5-95% RH",
+          "color": "blanco",
+          "connectors": "2 pines entrada L/N y salida +12V/-",
+          "certifications": ["CE", "FCC"],
+          "providerBranchSummary": "LEO:13,PAC:7,DGO:4,TRN:4,CHI:4,LMO:3,XLP:3,HMO:2,CLN:2,MTY:2,OAX:2,CMT:2; detalle suma 48 vs stock total 49",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 13},
+            {"providerId": "ctonline", "warehouseCode": "PAC", "stock": 7},
+            {"providerId": "ctonline", "warehouseCode": "DGO", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "CHI", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "LMO", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "XLP", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "HMO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CLN", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "MTY", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "OAX", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCDAH2120", "stock": 49, "price": 5.23, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw cameras es aceptable como accesorio CCTV, pero requiere subcategoria de alimentacion.", "El detalle por sucursal visible no cuadra exactamente con el stock total."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "77.3 x 51.9 x 30.0 mm", "netWeight": "95 g"},
+        "sourceRefs": [
+          {"title": "Dahua DH-PFM320D-015", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/products/accessories/power/dc-power-adapter/pfm320d-015"},
+          {"title": "Dahua Wiki datasheet PFM320D-015", "type": "manufacturer_spec", "url": "https://dahuawiki.com/images/Files/Specifications/Datasheet_PowerAdapter_12VDC_1_5A_PFM320D_015_v001_001.pdf"},
+          {"title": "Electroprice provider stock ACCDAH2120", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6mhl473tscdlhj1",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Hisense",
+        "name": "Hisense ARU362HBW minisplit inverter 3 toneladas 36000 BTU 230V blanco",
+        "description": "Minisplit inverter Hisense ARU362HBW de 3 toneladas, 36000 BTU/h, 230V, color blanco, con display LED, refrigerante R32 y capacidad reportada de frio/calor en fichas de marca y mayoristas.",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/minisplit/inverter/36000-btu/230v",
+        "semanticCategoryPath": "climate/air-conditioners/mini-split/inverter/36000-btu-230v",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://hisense.com.mx/ARU362HBW",
+        "gallery": [
+          "https://hisense.com.mx/ARU362HBW",
+          "https://static.ctonline.mx/imagenes/AIRHSE440/AIRHSE440_full.jpg"
+        ],
+        "documents": ["https://climaproyectos.com.mx/wp-content/uploads/2025/04/FICHA-TECNICA-HISENSE-AR-CP.pdf"],
+        "specs": {
+          "brand": "HISENSE",
+          "model": "ARU362HBW",
+          "providerSku": "AIRHSE440",
+          "upc": "6926597766058",
+          "productType": "Minisplit inverter",
+          "capacity": "3 toneladas / 36000 BTU/h",
+          "voltage": "230V 60Hz",
+          "mode": "Frio/calor segun Hisense y fichas mayoristas",
+          "color": "blanco",
+          "display": "LED panel frontal",
+          "speeds": 3,
+          "cooling": {"capacity": "36000 BTU/h", "powerConsumption": "3550 W", "maxCurrent": "20.5 A", "efficiency": "18 SEER"},
+          "heating": {"capacity": "36000 BTU/h", "powerConsumption": "3200 W", "maxCurrent": "19.5 A"},
+          "airflowMax": "1800 m3/h",
+          "refrigerant": "R32",
+          "providerBranchSummary": "DFA:5",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "DFA", "stock": 5}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "AIRHSE440", "stock": 5, "price": 17574.1, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw laptops es incorrecta.", "Cyberpuerta lo lista como solo frio y 4.186W; Hisense/PCLAPSC/Exel lo describen como frio-calor 36000 BTU y 18 SEER."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"indoorUnit": "133 x 27.4 x 36.3 cm, 18.5 kg", "outdoorPackage": "106 x 44.5 x 80.5 cm, 61.1 kg reportado por resellers"},
+        "sourceRefs": [
+          {"title": "Hisense ARU362HBW", "type": "manufacturer_spec", "url": "https://hisense.com.mx/ARU362HBW"},
+          {"title": "PCLAPSC Hisense ARU362HBW", "type": "marketplace_spec", "url": "https://www.pclapsc.com/products/minisplit-hisense-inverter-aru362hbw-36000-frio-calor-220v"},
+          {"title": "Cyberpuerta ARU362HBW", "type": "marketplace_spec", "url": "https://www.cyberpuerta.mx/Hogar/Clima-y-Ambiente/Aires-Acondicionados/Hisense-Aire-Acondicionado-Minisplit-Inverter-ARU362HBW-36000-BTU-h-4-186W-Solo-Frio-Blanco.html"},
+          {"title": "Electroprice provider stock AIRHSE440", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6mikohewobfwbx2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Nextep",
+        "name": "Nextep NE-410E mouse inalambrico ergonomico USB 1600 DPI negro",
+        "description": "Mouse inalambrico Nextep NE-410E con receptor USB, sensor optico, 1600 DPI, 4 botones, color negro y bateria AA incluida segun fichas de marca/resellers.",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/basicos/1600-dpi",
+        "semanticCategoryPath": "computing/peripherals/mice/wireless/basic/1600dpi",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nextep.com.mx/productos/ne-410e/",
+        "gallery": [
+          "https://nextep.com.mx/productos/ne-410e/",
+          "https://static.ctonline.mx/imagenes/MOUNEX040/MOUNEX040_full.jpg"
+        ],
+        "documents": ["https://globaloffice.com.mx/app/producto/pdf/ne-410e"],
+        "specs": {
+          "brand": "NEXTEP",
+          "model": "NE-410E",
+          "providerSku": "MOUNEX040",
+          "ean": "7501811273391",
+          "productType": "Mouse inalambrico RF USB",
+          "sensor": "optico",
+          "resolution": "1600 DPI",
+          "buttons": 4,
+          "color": "negro",
+          "form": "ergonomico/ambidiestro segun reseller",
+          "battery": "1 AA incluida segun Nextep/CompuPuebla",
+          "compatibility": ["Windows", "iOS/Mac reportado por Nextep"],
+          "providerBranchSummary": "MTY:4",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "MTY", "stock": 4}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "MOUNEX040", "stock": 4, "price": 83.14, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw laptops es incorrecta.", "Algunos resellers listan 2xAAA; fuente de marca y CompuPuebla indican 1 AA."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Nextep NE-410E", "type": "manufacturer_spec", "url": "https://nextep.com.mx/productos/ne-410e/"},
+          {"title": "GlobalOffice NE-410E", "type": "marketplace_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/computo/mouse-nextep-inalambrico-ergonomico-usb-1600-dpi-b/ne-410e"},
+          {"title": "CompuPuebla NE-410E", "type": "marketplace_spec", "url": "https://compupuebla.com/producto/mouse-nextep-ne-410e/"},
+          {"title": "Electroprice provider stock MOUNEX040", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6mswlk74ol4awks",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Zebra",
+        "name": "Zebra ZD421t impresora de etiquetas transferencia termica 4 pulgadas 203 dpi USB",
+        "description": "Impresora de etiquetas Zebra ZD421t desktop de 4 pulgadas con transferencia termica y termica directa segun configuracion, resolucion 203 dpi, USB 2.0, USB Host y BLE para configuracion.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/transferencia-termica/desktop-4-pulgadas",
+        "semanticCategoryPath": "printing/label-printers/thermal-transfer/desktop-4in",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zebra.com/us/en/products/printers/desktop/zd421.html",
+        "gallery": [
+          "https://www.zebra.com/us/en/products/printers/desktop/zd421.html",
+          "https://static.ctonline.mx/imagenes/IMPZBR2940/IMPZBR2940_full.jpg"
+        ],
+        "documents": ["https://www.zebra.com/content/dam/zebra_dam/en/tech-specs/zd421-tech-specs-en-us.pdf"],
+        "specs": {
+          "brand": "ZEBRA",
+          "series": "ZD421t",
+          "providerSku": "IMPZBR2940",
+          "printMethod": "Transferencia termica y termica directa segun configuracion",
+          "resolution": "203 dpi / 8 dots/mm",
+          "maxPrintWidth": "4.09 in / 104 mm",
+          "maxSpeed": "6 ips / 152 mm/s a 203 dpi",
+          "memory": "512 MB Flash, 256 MB SDRAM",
+          "media": "15-112 mm ancho, rollo max 127 mm OD",
+          "ribbon": "300 m o 74 m, ancho 33.8-109.2 mm",
+          "languages": ["ZPL II", "EPL2", "PDF Direct"],
+          "baseConnectivity": ["USB 2.0", "USB Host", "BLE para setup"],
+          "optionalConnectivity": ["Ethernet 10/100", "RS-232", "Wi-Fi 802.11ac + Bluetooth 4.1"],
+          "power": "24VDC 2.5A; entrada 100-240VAC",
+          "providerBranchSummary": "SLP:10,AGS:2,SLT:2,VER:2,TAM:2,MTY:2,TOL:2,CEL:2,CLN:1,QRO:1,LEO:1,PUE:1; detalle suma 28 vs stock total 33",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "SLP", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "AGS", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "SLT", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "VER", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "TAM", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "MTY", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "TOL", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CEL", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CLN", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "QRO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "IMPZBR2940", "stock": 33, "price": 361.93, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw laptops es incorrecta.", "El stock por sucursal visible suma 28 y no 33.", "Falta confirmar part number exacto ZD4A042-* para interfaces incluidas."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "267 x 202 x 189 mm", "netWeight": "2.05 kg"},
+        "sourceRefs": [
+          {"title": "Zebra ZD421", "type": "manufacturer_spec", "url": "https://www.zebra.com/us/en/products/printers/desktop/zd421.html"},
+          {"title": "Zebra ZD421 tech specs", "type": "manufacturer_spec", "url": "https://www.zebra.com/content/dam/zebra_dam/en/tech-specs/zd421-tech-specs-en-us.pdf"},
+          {"title": "LDLC Zebra ZD421", "type": "marketplace_spec", "url": "https://www.ldlc.com/en/product/PB00671744.html"},
+          {"title": "Electroprice provider stock IMPZBR2940", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6ncso5tub6p7h76",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Vorago",
+        "name": "Vorago AU-302-BK cargador de pared USB-A Fast Charge 5V negro",
+        "description": "Cargador de pared Vorago AU-302-BK Fast Charge con un puerto USB-A, entrada 100-240V, salida 5V, protecciones electricas y color negro.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-a/fast-charge",
+        "semanticCategoryPath": "power/usb-chargers/wall/usb-a/fast-charge-5v",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/cargador-pared-carga-rapida-vorago-au-302-quick-charge-2-4a-negro.html",
+        "gallery": [
+          "https://voragolive.com/cargador-pared-carga-rapida-vorago-au-302-quick-charge-2-4a-negro.html",
+          "https://voragolive.com/media/catalog/product/a/u/au-302-bk-2.jpg?height=792&image-type=image&store=vorago_view&width=647"
+        ],
+        "documents": [
+          "https://voragolive.com/media/vorago/descargables/au-30214621618612639.pdf",
+          "https://voragolive.com/media/vorago/descargables/Manuales/manual-AU-302.pdf"
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "AU-302-BK / AU-302",
+          "providerSku": "AC-13635",
+          "ean": "7502266676935",
+          "productType": "Cargador de pared USB",
+          "ports": "1x USB-A hembra",
+          "input": "100-240V 50/60Hz",
+          "output": "5V",
+          "publishedOutputCurrent": "2.4A en GlobalOffice/SAME; titulo oficial Vorago dice 3.0A",
+          "efficiency": "80%",
+          "protections": ["sobrecorriente", "sobrevoltaje", "cortocircuito"],
+          "color": "negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 53",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-13635", "stock": 53, "price": 4.12, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw laptops es incorrecta.", "La corriente publicada difiere: 2.4A en algunos listados y 3.0A en titulo oficial; se conserva como dato conflictivo hasta validar ficha completa."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "30 x 30 x 52 mm", "netWeight": "20 g"},
+        "sourceRefs": [
+          {"title": "Vorago AU-302-BK", "type": "manufacturer_spec", "url": "https://voragolive.com/cargador-pared-carga-rapida-vorago-au-302-quick-charge-2-4a-negro.html"},
+          {"title": "GlobalOffice AU-302-BK", "type": "marketplace_spec", "url": "https://globaloffice.mx/app/detalle/producto/energia-y-cables/cargador-para-pared-au-302-fast-charge-30a-1-usb/au-302-bk"},
+          {"title": "SAME AU-302-BK", "type": "marketplace_spec", "url": "https://www.same.com.mx/producto/au-302-bk/"},
+          {"title": "Electroprice provider stock AC-13635", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nidgt8qtlapqx2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Vorago",
+        "name": "Vorago CAB-AB018 cable USB 2.0 A macho a USB-B macho para impresora 1.8m negro",
+        "description": "Cable Vorago CAB-AB018 USB 2.0 para impresora o escaner, con conector USB-A macho a USB-B macho, longitud 1.8 m, color negro y uso plug and play.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-b/2-0-1-8m",
+        "semanticCategoryPath": "accessories/usb-cables/usb-a-to-usb-b/usb-2-0/1-8m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/cable-para-impresora-vorago-usb-a-a-usb-b-2-0-1-8m-negro-cab-ab018.html",
+        "gallery": [
+          "https://voragolive.com/cable-para-impresora-vorago-usb-a-a-usb-b-2-0-1-8m-negro-cab-ab018.html",
+          "https://voragolive.com/media/catalog/product/9/4/94692883.jpg?height=792&image-type=image&store=vorago_view&width=647"
+        ],
+        "documents": ["https://globaloffice.com.mx/app/producto/pdf/cab-ab018"],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "CAB-AB018",
+          "providerSku": "CB-3139",
+          "alternateSku": "ACCVGO2610",
+          "ean": "7503049354767",
+          "productType": "Cable USB para impresora/escaner",
+          "standard": "USB 2.0",
+          "connectorA": "USB-A macho",
+          "connectorB": "USB-B macho",
+          "length": "1.8 m",
+          "color": "negro",
+          "compatibility": "PC/Mac con puerto USB; perifericos con USB-B",
+          "plugAndPlay": true,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 1",
+          "providerOffers": [{"providerId": "cva", "providerSku": "CB-3139", "stock": 1, "price": 0.94, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria raw laptops es incorrecta.", "El SKU proveedor CB-3139 convive con clave comercial ACCVGO2610 en varios resellers."],
+          "providerStockVerifiedAt": "2026-05-31T00:10:00Z"
+        },
+        "measurements": {"dimensions": "1820 x 3 x 3 mm", "netWeight": "35 g", "packageDimensions": "120 x 3 x 115 mm", "packageWeight": "45 g"},
+        "sourceRefs": [
+          {"title": "Vorago CAB-AB018", "type": "manufacturer_spec", "url": "https://voragolive.com/cable-para-impresora-vorago-usb-a-a-usb-b-2-0-1-8m-negro-cab-ab018.html"},
+          {"title": "Intercompras CAB-AB018", "type": "marketplace_spec", "url": "https://intercompras.com/p/cable-usb-vorago-cab-ab018-usb-a-a-usb-b-18m-394055"},
+          {"title": "CompuPuebla CAB-AB018", "type": "marketplace_spec", "url": "https://compupuebla.com/producto/cables-usb-vorago-cab-ab018/"},
+          {"title": "Electroprice provider stock CB-3139", "type": "provider_stock", "observedAt": "2026-05-31T00:10:00Z"}
+        ]
+      }
+    }
+  ]
+}

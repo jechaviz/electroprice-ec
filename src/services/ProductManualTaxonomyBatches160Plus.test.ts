@@ -222,6 +222,16 @@ const batch160PlusCases = [
   ["Manhattan MWK7400 180788 combo teclado y mouse inalambrico 2.4GHz", "MANHATTAN", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad/2-4ghz", "accessories"],
   ["Vorago PSU-101 fuente de poder ATX 500W gris", "VORAGO", "computo/componentes/fuentes-poder/atx-500w", "components"],
   ["Gigabyte Radeon RX 9060 XT Gaming OC 16G tarjeta de video PCIe", "GIGABYTE", "computo/componentes/tarjetas-video/amd-radeon/rx-9000/rx-9060-xt", "gaming"],
+  ["Kaspersky Plus KL1042Z5KFS-22 licencia 10 dispositivos 1 ano Windows Mac Android iOS", "KASPERSKY", "software/seguridad/antivirus/kaspersky-plus/10-dispositivos-1-ano", "software"],
+  ["TP-Link TL-WR845N router Wi-Fi 4 N300 2.4GHz con 3 antenas", "TP LINK", "redes/routers/wifi-n/n300", "networking"],
+  ["StarTech PXT101 cable de alimentacion NEMA 5-15P a IEC C13 1.8m 10A 125V", "STARTECH.COM", "accesorios/cables-adaptadores/alimentacion/nema-5-15p-c13/1-8m", "accessories"],
+  ["MSI PRO B760M-P DDR4 tarjeta madre micro ATX Intel B760 LGA1700 DDR4", "MSI", "computo/componentes/tarjetas-madre/intel-lga1700/b760/micro-atx/ddr4", "components"],
+  ["Dahua DH-PFM320D-015 fuente de poder CCTV 12V 1.5A con indicador", "DAHUA TECHNOLOGY", "seguridad/cctv/accesorios-alimentacion/fuentes-12v/1-5a", "cameras"],
+  ["Hisense ARU362HBW minisplit inverter 3 toneladas 36000 BTU 230V blanco", "HISENSE", "climatizacion/aires-acondicionados/minisplit/inverter/36000-btu/230v", "accessories"],
+  ["Nextep NE-410E mouse inalambrico ergonomico USB 1600 DPI negro", "NEXTEP", "computo/perifericos/mouse/inalambricos/basicos/1600-dpi", "accessories"],
+  ["Zebra ZD421t impresora de etiquetas transferencia termica 4 pulgadas 203 dpi USB", "ZEBRA", "impresion/impresoras/etiquetas/transferencia-termica/desktop-4-pulgadas", "printers_scanners"],
+  ["Vorago AU-302-BK cargador de pared USB-A Fast Charge 5V negro", "VORAGO", "energia/cargadores-usb/pared-usb-a/fast-charge", "accessories"],
+  ["Vorago CAB-AB018 cable USB 2.0 A macho a USB-B macho para impresora 1.8m negro", "VORAGO", "accesorios/cables-adaptadores/usb/usb-a-b/2-0-1-8m", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
