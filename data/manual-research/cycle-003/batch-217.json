@@ -1,0 +1,635 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b217-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 217,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "8ec84aq20mkd3yl",
+      "research": {
+        "confidence": 0.95,
+        "brand": "HUAWEI",
+        "name": "Huawei Watch D2 55020FKG-DSR azul 48 mm smartwatch de salud con presion arterial 24 h y ECG",
+        "description": "Smartwatch Huawei Watch D2 color azul con pantalla AMOLED de 1.82 pulgadas, monitoreo ambulatorio de presion arterial 24 h, ECG, SpO2, frecuencia cardiaca, GNSS y llamadas Bluetooth.",
+        "manualCategoryPath": "electronica/wearables/smartwatches/salud-presion-arterial/huawei-watch-d2-55020fkg-dsr",
+        "semanticCategoryPath": "electronica/wearables/smartwatches/salud-presion-arterial",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://consumer.huawei.com/mx/wearables/watch-d2/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10481546",
+          "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-d2/0220/all/0804/img/huawei-watch-d-2-blue-front-blur.jpg",
+          "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-d2/0220/all/0804/img/huawei-watch-d-2-blue-side-blur.jpg",
+          "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/wearables/watch-d2/0220/all/0804/img/huawei-watch-d-2-blue-straps-blur.jpg"
+        ],
+        "documents": [
+          { "label": "Huawei Watch D2 specifications", "type": "manufacturer_spec", "url": "https://consumer.huawei.com/mx/wearables/watch-d2/specs/" }
+        ],
+        "specs": {
+          "brand": "Huawei",
+          "model": "55020FKG-DSR",
+          "providerSku": "RELOJ-179",
+          "productType": "Smartwatch de salud",
+          "display": "AMOLED 1.82 in, 480 x 408, 347 PPI",
+          "caseMaterial": "Aleacion de aluminio",
+          "color": "Azul",
+          "bloodPressure": "ABPM/MAPA 24 h con minibomba y bolsa de aire integrada",
+          "healthSensors": ["ECG", "SpO2", "frecuencia cardiaca", "estres", "temperatura de piel", "sueno"],
+          "sportsModes": "Mas de 80 modos",
+          "connectivity": ["Bluetooth 5.2", "GNSS", "NFC", "microfono", "bocina"],
+          "batteryLife": "Hasta 6 dias uso tipico; 1 dia con MAPA activado",
+          "ingressProtection": "IP68; Huawei aclara que no es para natacion o inmersion",
+          "compatibility": ["Android 8+", "iOS 13+"],
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; TiendaClic y RYGTEC publicaron 0 piezas, Office Depot y Sears lo listaron con precio retail.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "RELOJ-179",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 5035.62,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:10:RELOJ-179"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["Office Depot $7499 MXN.", "Sears $6759 MXN.", "TiendaClic $6396.24 MXN con existencia aproximada 0.", "RYGTEC $6479 MXN con existencias 0."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "48 x 38 x 13.3 mm",
+          "weight": "40 g sin correa",
+          "strapSize": "130-210 mm; ancho 26.5 mm"
+        },
+        "sourceRefs": [
+          { "title": "Huawei Watch D2 Mexico", "type": "manufacturer_product", "url": "https://consumer.huawei.com/mx/wearables/watch-d2/" },
+          { "title": "Huawei Watch D2 specifications", "type": "manufacturer_spec", "url": "https://consumer.huawei.com/mx/wearables/watch-d2/specs/" },
+          { "title": "TiendaClic Huawei 55020FKG-DSR", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/huawei-watch-d2-color-azul-alvoz-microfono-acelerometrosensor-optico-de-frecuencia-cardiaca-sensor-barometrico-sensor-de-presion-carga-inalambrica-resistencia-polvo-y-salpicadura-huawei-55020fkg-dsr" },
+          { "title": "CVA feed RELOJ-179 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8en08zpql1pzk48",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CANON",
+        "name": "Canon kit BH-10 + GI-11 PGBK cabezal negro y botella tinta negra 135 ml para PIXMA MegaTank",
+        "description": "Kit Canon 3418C006AA con cabezal de impresion negro BH-10 y botella de tinta negra pigmento GI-11 PGBK de 135 ml para impresoras PIXMA MegaTank compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cabezales/canon-pixma-megatank/canon-bh-10-gi-11-pgbk",
+        "semanticCategoryPath": "impresion/consumibles/cabezales/canon-pixma-megatank",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/kit-cabezal-de-tinta-negra-bh-10-tinta-gi-11",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARCNN6730/CARCNN6730_full.jpg",
+          "https://s7d1.scene7.com/is/image/canon/3418C006AA-BH-10yTintaGI-11?wid=730",
+          "https://www.loja.canon.com.br/wcsstore/CDBCatalogAssetStore/bh10-gl11.jpg"
+        ],
+        "specs": {
+          "brand": "Canon",
+          "model": "BH-10+GI-11",
+          "partNumber": "3418C006AA",
+          "providerSku": "CARCNN6730",
+          "productType": "Kit cabezal de impresion y tinta",
+          "printhead": "BH-10 negro, 640 boquillas",
+          "inkBottle": "GI-11 PGBK negra pigmento 135 ml",
+          "resolution": "Hasta 4800 x 1200 dpi segun ficha regional",
+          "compatibility": ["PIXMA G2160", "G3160", "G1130", "G2170", "G3170", "G4170", "G3180", "G4180"],
+          "compatibilityNote": "Canon Mexico lista mas modelos que Canon Chile/Brasil; validar impresora exacta del cliente.",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Tienda Canon Mexico lo mostro disponible, Consumibles Juarez, Mactoner y Profoto lo mostraron agotado o sin existencias.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "CARCNN6730",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 944.73,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6601"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Tienda Canon Mexico $1199 MXN disponible.", "Consumibles Juarez $1424.65 MXN agotado.", "Mactoner $1267.29 MXN sin existencias.", "Profoto $1199 MXN agotado."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "printheadDimensions": "3.3 x 5.8 x 3.7 cm",
+          "bottleDimensions": "5.4 x 12.6 cm",
+          "packageWeight": "272 g"
+        },
+        "sourceRefs": [
+          { "title": "Tienda Canon Mexico kit BH-10 GI-11", "type": "manufacturer_store", "url": "https://www.tiendacanon.com.mx/es_mx/p/kit-cabezal-de-tinta-negra-bh-10-tinta-gi-11" },
+          { "title": "Canon GI-11 black ink", "type": "manufacturer_store", "url": "https://www.tiendacanon.com.mx/es_mx/p/botella-de-tinta-gi-11-negro" },
+          { "title": "Canon Brasil BH-10 GI-11 dimensions", "type": "manufacturer_store", "url": "https://www.loja.canon.com.br/pt/canonbr/KIT-Cabeca-Impressao-preta-BH-10-Garrafa-GI-11-PGBK" },
+          { "title": "CTOnline feed CARCNN6730 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8g3wbtw05fl0w0m",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TELTONIKA",
+        "name": "Teltonika TAT100 rastreador GPS/GNSS de activos 2G Bluetooth LE IP68 negro",
+        "description": "Rastreador autonomo Teltonika TAT100 para activos con conectividad 2G GSM/GPRS, GNSS multi-constelacion, Bluetooth, carcasa IP68 y bateria Li-SOCl2 de larga duracion.",
+        "manualCategoryPath": "electronica/rastreo-gps-telematica/rastreadores-activos/teltonika-tat100",
+        "semanticCategoryPath": "electronica/rastreo-gps-telematica/rastreadores-activos",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.teltonika-gps.com/es/products/trackers/assets-workforce/tat100",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/RASTEL030/RASTEL030_full.jpg",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/RASTEL030_full.jpg"
+        ],
+        "documents": [
+          { "label": "Teltonika TAT100 datasheet", "type": "datasheet", "url": "https://wiki.teltonika-gps.com/images/b/b2/Datasheet-TAT100.pdf" }
+        ],
+        "specs": {
+          "brand": "Teltonika",
+          "model": "TAT100",
+          "providerSku": "RASTEL030",
+          "productType": "Rastreador GPS/GNSS de activos",
+          "cellular": "2G GSM/GPRS",
+          "gnss": ["GPS", "GLONASS", "Galileo", "BeiDou", "SBAS", "QZSS", "DGPS", "AGPS"],
+          "bluetooth": "Bluetooth LE",
+          "gnssSensitivity": "-165 dBm",
+          "gnssAccuracy": "<2.5 m CEP",
+          "memory": "128 MB interna",
+          "sensors": ["Acelerometro"],
+          "interface": ["micro-USB 2.0", "micro-SIM", "2 LEDs"],
+          "battery": "Li-SOCl2 no recargable, variante 2S 7.2V 2200mAh o 3S 10.8V 2200mAh",
+          "ingressProtection": "IP68",
+          "sourceCorrections": ["Se corrige el peso inferido de proveedor 2 g; ficha Teltonika publica 119 g o 138 g segun variante de bateria."],
+          "compatibilityNotes": ["Confirmar variante TAIB0/TAIBA y disponibilidad 2G con operador local antes de vender."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Mactoner, TiendaClic y MG Sistemas publicaron sin existencias o agotado.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "RASTEL030",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 64.84,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6756"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MacToner $1710.68 MXN sin existencias.", "TiendaClic $1997.28 MXN con 0 piezas.", "MG Sistemas $2389.71 MXN agotado.", "Capestone EU 39.95 EUR sin IVA en stock."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "78 x 63 x 28 mm",
+          "weight": "119 g bateria 2 celdas; 138 g bateria 3 celdas"
+        },
+        "sourceRefs": [
+          { "title": "Teltonika TAT100 official", "type": "manufacturer_product", "url": "https://www.teltonika-gps.com/es/products/trackers/assets-workforce/tat100" },
+          { "title": "Teltonika TAT100 datasheet", "type": "datasheet", "url": "https://wiki.teltonika-gps.com/images/b/b2/Datasheet-TAT100.pdf" },
+          { "title": "MacToner TAT100 RASTEL030", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/rastreador-de-activos-2g-teltonika-tat100-negro/" },
+          { "title": "CTOnline feed RASTEL030 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8h16recdjuqr4va",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BACO",
+        "name": "Lapices de colores Baco Bacoiris LP003/52544 redondos largos sin madera estuche con 24 colores",
+        "description": "Estuche Baco Bacoiris LP003/52544 con 24 lapices de colores surtidos, redondos, largos y sin madera, para dibujo y uso escolar.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/lapices-color/baco-bacoiris-lp003-24p",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/lapices-color",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://proesa.com/products/color-sin-madera-largos-bacoiris-redondo-colores-est-c-24-baco-r-lp003-estuche-7501174952544",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC2860/ACCBAC2860_full.jpg",
+          "https://lamariposadeleon.com.mx/wp-content/uploads/2021/02/021-072-000000.jpg",
+          "https://mipc.com.mx/media/catalog/product/p/a/pa-531893-m11.jpg?store=default&image-type=image"
+        ],
+        "specs": {
+          "brand": "Baco",
+          "model": "LP003/52544",
+          "providerSku": "ACCBAC2860",
+          "ean": "7501174952544",
+          "productType": "Lapices de colores",
+          "line": "Bacoiris",
+          "presentation": "Estuche con 24 piezas",
+          "shape": "Redondos",
+          "length": "Largos",
+          "materialNotes": ["Sin madera", "No toxicos segun retailer", "Recubrimiento en punta"],
+          "sourceDiscrepancies": ["Walmart lista 18.2 kg, dato implausible para un estuche de 24 lapices; no se usa como peso."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; algunos retailers publicos tienen disponibilidad y otros estan agotados.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC2860",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 54.63,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6697"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Proesa $57.40 MXN agotado.", "La Mariposa $66.14 MXN con 2100 disponibles.", "Intercompras $62 MXN con 52 disponibles.", "MiPC $69.94 MXN con 19 disponibles.", "TiendaClic $121.36 MXN con 0 piezas."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "No confirmadas",
+          "weight": "No confirmado"
+        },
+        "sourceRefs": [
+          { "title": "Proesa Baco Bacoiris LP003", "type": "retailer_spec", "url": "https://proesa.com/products/color-sin-madera-largos-bacoiris-redondo-colores-est-c-24-baco-r-lp003-estuche-7501174952544" },
+          { "title": "La Mariposa Colores Bacoiris C/24", "type": "retailer_spec", "url": "https://lamariposadeleon.com.mx/producto/colores-bacoiris-c-24/" },
+          { "title": "Walmart Baco LP003 52544", "type": "retailer_spec", "url": "https://www.walmart.com.mx/ip/colores-baco-bacoiris-lp003-52544-caja-con-24-lapices-de-color-variados-24-l-redondo-baco-lp003-52544/00750117495254" },
+          { "title": "CTOnline feed ACCBAC2860 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8knopte2b65egmr",
+      "research": {
+        "confidence": 0.89,
+        "brand": "KANGJI",
+        "name": "Termometro infrarrojo frontal sin contacto Kangji KY-111 con memoria de 32 lecturas",
+        "description": "Termometro infrarrojo Kangji KY-111 para medicion frontal sin contacto, con pantalla LCD retroiluminada, memoria de 32 lecturas, alarma de fiebre y medicion en grados C/F.",
+        "manualCategoryPath": "salud/equipo-medico/monitoreo/termometros-infrarrojos/kangji-ky-111",
+        "semanticCategoryPath": "salud/equipo-medico/monitoreo/termometros-infrarrojos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TERKAN010/TERKAN010_full.jpg",
+          "https://media.stockinthechannel.com/pic/Z_bh5xDSQU2gshAjIB2sYg.r.jpg",
+          "https://media.stockinthechannel.com/pic/I3oxYhQDu0KTWXVbjoezZw.r.jpg",
+          "https://static.wixstatic.com/media/86b30b_9ab9a7711c9b47fea4e046ce57a080f9~mv2.jpg/v1/fill/w_560,h_560,al_c,lg_1,q_85/86b30b_9ab9a7711c9b47fea4e046ce57a080f9~mv2.jpg"
+        ],
+        "specs": {
+          "brand": "Kangji",
+          "model": "KY-111",
+          "providerSku": "TERKAN010",
+          "productType": "Termometro infrarrojo sin contacto",
+          "bodyRange": "32.0 a 42.9 C",
+          "objectRange": "5 a 80 C",
+          "distance": "3 a 5 cm, ideal 3 cm",
+          "accuracy": "+/-0.3 C de 32-34.9 C, +/-0.2 C de 35-42 C, +/-0.3 C de 42.1-42.9 C",
+          "resolution": "0.1 C / 0.1 F",
+          "responseTime": "1 segundo",
+          "memory": "32 mediciones",
+          "battery": "2 baterias AAA, DC 3V",
+          "feverAlarm": "38 C",
+          "display": "LCD retroiluminada",
+          "sourceDiscrepancies": ["Medidas publicas varian entre fuentes; se usa 88 x 46 x 174 mm / 130 g como dato preferente y se conserva la variacion como incertidumbre."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop, CTI y PCStore mostraron agotado en Mexico.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "TERKAN010",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 12.05,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:4377"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GPSMARTONER $660 MXN.", "CityShop agotado.", "CTI Systems aprox. $527 MXN agotado.", "PCStore aprox. $515 MXN agotado."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "88 x 46 x 174 mm",
+          "weight": "130 g",
+          "alternateDimensions": "CanalStock 44 x 88 x 153 mm; Power Acoustik 152 x 103 x 39 mm / 175 g"
+        },
+        "sourceRefs": [
+          { "title": "Manualslib Kangji KY-111", "type": "manual", "url": "https://www.manualslib.de/manual/666597/Xiamen-Kangji-Ky-111.html" },
+          { "title": "CanalStock Kangji KY-111", "type": "retailer_spec", "url": "https://www.canalstock.mx/Product/KANGJI-KY-111-termometro-digital-para-el-cuerpo-Termometro-de-teledeteccion-Azul-Blanco-Frente-Botones/839329" },
+          { "title": "GPSMARTONER Kangji KY-111", "type": "retailer_stock", "url": "https://www.gpsmartoner.com/product-page/termometro-infrarojo-ky-111-kangji" },
+          { "title": "CTOnline feed TERKAN010 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8mfsdmvho273e4u",
+      "research": {
+        "confidence": 0.96,
+        "brand": "SYNOLOGY",
+        "name": "Synology DiskStation DS423+ servidor NAS 4 bahias Intel Celeron J4125 2 GB DDR4 sin discos",
+        "description": "Servidor NAS de escritorio Synology DiskStation DS423+ de 4 bahias, procesador Intel Celeron J4125, 2 GB DDR4 ampliables, dos ranuras M.2 NVMe, dos puertos 1GbE y DSM.",
+        "manualCategoryPath": "computo/almacenamiento/nas/4-bahias/synology-ds423-plus",
+        "semanticCategoryPath": "computo/almacenamiento/nas/4-bahias",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.synology.com/es-mx/products/DS423+",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SERTRD1290/SERTRD1290_full.jpg",
+          "https://www.synology.com/img/products/detail/DS423plus/img_og_image.jpg",
+          "https://consumiblesjuarez.com/cdn/shop/files/SERTRD1290_full_5a1512be-f455-4ee8-b44e-882c218262ad.jpg?v=1736925524"
+        ],
+        "documents": [
+          { "label": "Synology DS423+ data sheet", "type": "datasheet", "url": "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS423%2B/spn/Synology_DS423%2B_Data_Sheet_spn.pdf" },
+          { "label": "Synology DS423+ product spec", "type": "datasheet", "url": "https://global.download.synology.com/download/Document/Hardware/ProductSpec/DiskStation/23-year/DS423%2B/enu/Product_Spec_DS423%2B_enu.pdf" }
+        ],
+        "specs": {
+          "brand": "Synology",
+          "model": "DS423+",
+          "providerSku": "SERTRD1290",
+          "upc": "846504005000",
+          "productType": "Servidor NAS",
+          "bays": "4 bahias SATA 3.5/2.5 in, hot-swap",
+          "cpu": "Intel Celeron J4125 4 nucleos 2.0 GHz base / 2.7 GHz turbo",
+          "memory": "2 GB DDR4 non-ECC, ampliable oficialmente a 6 GB",
+          "m2Slots": "2 x M.2 NVMe 2280",
+          "network": "2 x RJ-45 1GbE",
+          "ports": "2 x USB 3.2 Gen 1",
+          "raid": ["SHR", "Basic", "JBOD", "RAID 0", "RAID 1", "RAID 5", "RAID 6", "RAID 10"],
+          "fileSystems": ["Btrfs", "ext4"],
+          "maxSingleVolume": "108 TB",
+          "powerAdapter": "90 W",
+          "powerConsumption": "28.3 W acceso, 8.45 W hibernacion HDD",
+          "included": ["unidad DS423+", "guia rapida", "adaptador/cable AC", "2 cables LAN", "accesorios"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; CompuPuebla, Consumibles Juarez, Zero1 y PCREDCOM mostraron agotado/sin existencia.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "SERTRD1290",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 570,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:9790"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["CompuPuebla $15835 MXN out of stock.", "Consumibles Juarez $15200.99 MXN agotado.", "Zero1 $12146.42 MXN agotado.", "PCREDCOM $13317.48 MXN sin existencia."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "166 x 199 x 223 mm",
+          "weight": "2.18 kg"
+        },
+        "sourceRefs": [
+          { "title": "Synology DS423+ data sheet", "type": "datasheet", "url": "https://global.download.synology.com/download/Document/Hardware/DataSheet/DiskStation/23-year/DS423%2B/spn/Synology_DS423%2B_Data_Sheet_spn.pdf" },
+          { "title": "Synology DS423+ product spec", "type": "datasheet", "url": "https://global.download.synology.com/download/Document/Hardware/ProductSpec/DiskStation/23-year/DS423%2B/enu/Product_Spec_DS423%2B_enu.pdf" },
+          { "title": "CompuPuebla Synology DS423+", "type": "retailer_stock", "url": "https://compupuebla.com/producto/servidor-synology-ds423/" },
+          { "title": "CTOnline feed SERTRD1290 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8rp12pi9u6uvffb",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DELL",
+        "name": "Dell N_DOL2_N1_P3 upgrade 1Y Next Business Day a 3Y ProSupport para Dell Pro laptops",
+        "description": "Extension de garantia Dell ProSupport N_DOL2_N1_P3 para laptops Dell Pro, actualiza cobertura de 1 ano Next Business Day a 3 anos ProSupport. Validar por Service Tag.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops/1y-nbd-a-3y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10464125",
+          "https://venpli.mx/cdn/shop/files/DECGARAB241_zoom.jpg?v=1764922522&width=1946",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_DOL2_N1_P3-3eab94.jpg"
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_DOL2_N1_P3",
+          "providerSku": "POL-10498",
+          "productType": "Extension de garantia y soporte",
+          "serviceLevel": "ProSupport",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Next Business Day",
+          "upgradeTo": "3 anos ProSupport",
+          "coverage": ["piezas y mano de obra", "soporte telefonico", "soporte web", "solucion de problemas", "reemplazo de piezas"],
+          "serviceHours": "24x7x365 segun retailers; terminos Dell sujetos a diagnostico remoto y region",
+          "compatibleModels": ["Dell Pro 14 PC14250", "Dell Pro 16 PC16250", "posibles PC14255/PC16255 segun retailers"],
+          "physicalProduct": false,
+          "compatibilityNotes": ["Validar compatibilidad por Service Tag antes de vender o activar."],
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; Venpli agotado, otros retailers publicaron stock propio.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-10498",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 2519.47,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:48:POL-10498"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["Venpli agotado $2941 MXN IVA incluido.", "AztecaCompras 4 piezas $3136 MXN IVA incluido.", "Intercompras 4 disponibles $2789 MXN IVA incluido."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Venpli Dell N_DOL2_N1_P3", "type": "retailer_service", "url": "https://venpli.mx/products/garantia-dell-pro-laptops-1y-next-bus-day-to-3y-prospt" },
+          { "title": "Icecat Dell N_DOL2_N1_P3", "type": "catalog_spec", "url": "https://icecat.es/p/dell/n_dol2_n1_p3/warranty%2B-%2Bsupport%2Bextensions-1y%2Bnext%2Bbus%2Bday%2Bto%2B3y%2Bprospt-133296704.html" },
+          { "title": "Dell ProSupport for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "CVA feed POL-10498 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8tanbion18kzfkg",
+      "research": {
+        "confidence": 0.93,
+        "brand": "AUTODESK",
+        "name": "Autodesk AutoCAD C1RK1-WW3611-L802 con toolsets especializados ELD comercial 3 anos 1 usuario",
+        "description": "Suscripcion Autodesk AutoCAD comercial nueva de usuario unico ELD por 3 anos, incluyendo toolsets especializados Architecture, Mechanical, Map 3D, MEP, Electrical, Plant 3D y Raster Design.",
+        "manualCategoryPath": "software/cad-diseno/autodesk-autocad/toolsets-3y-1usuario-eld",
+        "semanticCategoryPath": "software/cad-diseno/autodesk-autocad",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.autodesk.com/products/autocad/overview",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SOFATD770/SOFATD770_full.jpg",
+          "https://cdn11.bigcommerce.com/s-2snnk3/images/stencil/1280x1280/products/24671/510140/C1RK1-WW3611-L802-1__30908.1763000388.jpg?c=2",
+          "https://www.quickserv.co.th/products/20251014-103848-gallery.webp"
+        ],
+        "documents": [
+          { "label": "AutoCAD 2026 system requirements", "type": "manufacturer_support", "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-AutoCAD-2026-including-Specialized-Toolsets.html" }
+        ],
+        "specs": {
+          "brand": "Autodesk",
+          "model": "C1RK1-WW3611-L802",
+          "providerSku": "SOFATD770",
+          "productType": "Suscripcion CAD ELD",
+          "licenseType": "Commercial New Single-user ELD",
+          "term": "3 anos",
+          "includedToolsets": ["Architecture", "Mechanical", "Map 3D", "MEP", "Electrical", "Plant 3D", "Raster Design"],
+          "delivery": "Electronic Delivery",
+          "softwareUse": ["CAD 2D", "CAD 3D", "DWG", "documentacion", "automatizacion AutoLISP/API"],
+          "systemRequirementsSummary": "AutoCAD 2026: Windows 11/10 64-bit, RAM 8 GB basica / 32 GB recomendada, disco 10 GB, GPU DirectX 11/12 segun nivel.",
+          "physicalProduct": false,
+          "sourceCorrections": ["No usar peso/dimensiones de ecommerce como especificacion; es entrega electronica."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; CityShop Mexico y Wellent publicaron agotado/out of stock, otros canales internacionales varian.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "SOFATD770",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 5150,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:10765"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Autodesk directo $5315 USD pagado cada 3 anos.", "ITLogic Mexico $111817.54 MXN con impuestos.", "CityShop Mexico $116019 MXN agotado/stock 0.", "MotionMedia call for pricing.", "Wellent HK preorder/out of stock."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Autodesk AutoCAD overview", "type": "manufacturer_product", "url": "https://www.autodesk.com/products/autocad/overview" },
+          { "title": "AutoCAD buy options", "type": "manufacturer_store", "url": "https://www.autodesk.com/campaigns/autocad/buy-options" },
+          { "title": "MotionMedia AutoCAD C1RK1-WW3611-L802", "type": "retailer_spec", "url": "https://www.motionmedia.com/autodesk-autocad-3-year/" },
+          { "title": "CTOnline feed SOFATD770 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8vntbykr1klmbm2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "JANEL",
+        "name": "Notas adhesivas Janel Memo Tip 6590303197 cubo neon 3 x 3 pulgadas 400 hojas",
+        "description": "Cubo de notas adhesivas Janel Memo Tip 6590303197 tamano 3 x 3 pulgadas, colores neon surtidos, 400 hojas autoadhesivas para anotar, identificar y clasificar.",
+        "manualCategoryPath": "oficina/papeleria/notas-adhesivas/3x3/neon/janel-memo-tip-6590303197-400h",
+        "semanticCategoryPath": "oficina/papeleria/notas-adhesivas/3x3/neon",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCJAN060/ACCJAN060_1_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-JANEL-6590303197-1.jpg",
+          "https://ofixmx.vtexassets.com/arquivos/ids/165290-800-auto?aspect=true&height=auto&v=638417650323870000&width=800",
+          "https://www.exel.com.mx/imgProducto/JPPPOSAB004.png"
+        ],
+        "specs": {
+          "brand": "Janel",
+          "model": "6590303197",
+          "providerSku": "ACCJAN060",
+          "ean": "7501035102811",
+          "productType": "Notas adhesivas",
+          "presentation": "1 cubo / bloque",
+          "sheetCount": "400 hojas",
+          "sheetSize": "3 x 3 in / 76.2 x 76.2 mm",
+          "color": "Neon surtido",
+          "shape": "Cuadrada",
+          "adhesive": "Autoadhesivo",
+          "useCases": ["anotar", "identificar", "clasificar"],
+          "sourceDiscrepancies": ["Fuentes difieren entre 6 y 8 colores y entre adhesivo base agua/acrilico; se conserva neon surtido y autoadhesivo sin fijar formulacion."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Novusred con referencia ACCJAN060 tambien figura agotado, aunque Cyberpuerta, Cityshop, GlobalOffice y Ofix muestran inventario propio.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCJAN060",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 49.96,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:5674"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $66 MXN con 1100 piezas.", "Cityshop $59 MXN con 2381 piezas.", "GlobalOffice $61 MXN con 337/352 piezas.", "Ofix $64.50 MXN.", "TiendaClic $115.95 MXN con 0 piezas.", "Novusred $66.64 MXN agotado."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "sheetDimensions": "76.2 x 76.2 mm",
+          "packageDimensions": "No confirmadas",
+          "weight": "No confirmado"
+        },
+        "sourceRefs": [
+          { "title": "Propapel Janel 6590303197", "type": "retailer_spec", "url": "https://propapel.com/" },
+          { "title": "Cyberpuerta Janel 6590303197", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/" },
+          { "title": "Novusred ACCJAN060", "type": "retailer_stock", "url": "https://novusred.mx/" },
+          { "title": "CTOnline feed ACCJAN060 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8xyumd3kzgo3nfs",
+      "research": {
+        "confidence": 0.88,
+        "brand": "DIEM",
+        "name": "Folder DIEM FP10005 rosa pastel tamano carta paquete con 100 piezas",
+        "description": "Paquete de folders DIEM FP10005 color rosa pastel, tamano carta, 100 piezas para archivo y organizacion documental.",
+        "manualCategoryPath": "oficina/papeleria/archivo/folders/carta/pastel/rosa/diem-fp10005-100p",
+        "semanticCategoryPath": "oficina/papeleria/archivo/folders/carta/pastel/rosa",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCDIE810/ACCDIE810_full.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-fp10005-folder-diem-color-rosa-pastel.webp"
+        ],
+        "specs": {
+          "brand": "DIEM",
+          "model": "FP10005",
+          "providerSku": "ACCDIE810",
+          "ean": "7506231506937",
+          "productType": "Folder de archivo",
+          "color": "Rosa pastel",
+          "paperSize": "Carta",
+          "presentation": "Paquete con 100 piezas",
+          "sourceDiscrepancies": ["CTOnline/Cityshop/TiendaClic mencionan 176 g; Papel DIEM asocia EAN 7506231506937 con 163 g. Se conserva gramaje en revision manual."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop y TiendaClic tambien muestran stock 0 o agotado para FP10005.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCDIE810",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 153.88,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6687"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cityshop agotado / stock 0 $199 MXN.", "TiendaClic $236.50 MXN con existencia aproximada 0."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "paperSize": "Carta",
+          "dimensions": "No confirmadas para el folder fisico",
+          "weight": "Gramaje en revision: 176 g proveedor/retail vs 163 g Papel DIEM"
+        },
+        "sourceRefs": [
+          { "title": "Papel DIEM Folder Pastel Rosa 05", "type": "manufacturer_catalog", "url": "https://papeldiem.com/" },
+          { "title": "Cityshop DIEM FP10005", "type": "retailer_stock", "url": "https://cityshop.mx/producto/folder-diem-color-rosa-pastel-con-100-piezas-tamano-carta-176g-fp10005" },
+          { "title": "TiendaClic DIEM FP10005", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/" },
+          { "title": "CTOnline feed ACCDIE810 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
