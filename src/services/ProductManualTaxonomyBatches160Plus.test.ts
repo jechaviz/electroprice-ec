@@ -552,6 +552,16 @@ const batch160PlusCases = [
   ["CyberPower POL-5009 servicio arranque puesta en marcha UPS trifasico", "CYBERPOWER", "servicios-ti/instalacion-puesta-en-marcha/cyberpower/ups-trifasicos/pol-5009", "software"],
   ["Azor 2825 Vision Jr resaltador surtido 5 piezas punta cincel 4mm", "AZOR", "oficina/papeleria/marcadores/resaltadores/surtidos/5-piezas/azor-vision-jr-2825", "accessories"],
   ["BACO 53411 Le Plume boligrafo rojo punto mediano 1.0 mm caja 12", "BACO", "oficina/papeleria/boligrafos/boligrafo-punto-mediano/baco-le-plume-rojo-12-piezas", "accessories"],
+  ["Yeyian Proud Series 3500 YDG-33405 diadema gamer alambrica 3.5 mm RGB negra", "YEYIAN", "gaming/audio/headsets/alambricos/3-5mm-microfono-desmontable/yeyian-proud-ydg-33405", "gaming"],
+  ["GHIA POL-10052 extension de garantia 24 meses adicionales para PCGHIA-3475B", "GHIA", "servicios-ti/soporte-garantias/ghia/pcghia-3475b/24-meses-adicionales/pol-10052", "software"],
+  ["Saxxon SAXM02UF ASC-EM02F tarjeta RFID ID 125 kHz TK4100 con folio impreso", "SAXXON", "seguridad/control-acceso/credenciales-rfid/tarjetas-pvc/em-125khz/saxxon-asc-em02f", "security"],
+  ["Dell N_OPTL1_N3_P3 upgrade 3 anos Basic Onsite a ProSupport para OptiPlex", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/3y-basic-onsite-a-3y-prosupport", "software"],
+  ["Dell N_VOSNBM1_N1_N3 Vostro notebooks 3000 1Y Basic Onsite a 3Y Basic NBD", "DELL", "servicios-ti/soporte-garantias/dell/basic-nbd/vostro-notebooks-3000/1y-a-3y", "software"],
+  ["Wilson Jones P1367 separador alfabetico A-Z carta 26 divisiones", "WILSON JONES", "oficina/papeleria/archivo/separadores-indices/carta/a-z/wilson-jones-p1367", "accessories"],
+  ["Canon imageRUNNER ADVANCE DX C478iF multifuncional laser color 50 ppm", "CANON", "impresion/impresoras/multifuncionales-laser/color/canon-imagerunner-advance-dx-c478if", "printers_scanners"],
+  ["Provision-ISR PR-JB12IP66 caja de conexiones impermeable IP66 para camaras", "PROVISION-ISR", "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip66/provision-pr-jb12ip66", "security"],
+  ["BACO CY004 65476 crayones jumbo redondos colores surtidos caja 6 piezas", "BACO", "oficina/papeleria/material-escolar/dibujo-arte/crayones/baco-jumbo-65476-6p", "accessories"],
+  ["Perfect Choice Sportiva PC-084631 mochila deportiva multiusos naranja negro", "PERFECT CHOICE", "deportes/accesorios/bolsas-deportivas/mochilas-gimnasio/perfect-choice-sportiva-pc-084631", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

@@ -1,0 +1,608 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b215-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 215,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "7jovomqo7uccmca",
+      "research": {
+        "confidence": 0.94,
+        "brand": "YEYIAN",
+        "name": "Yeyian Proud Series 3500 YDG-33405 diadema gamer alambrica 3.5 mm RGB negra",
+        "description": "Diadema gamer alambrica Yeyian Proud Series 3500 YDG-33405 con drivers de 50 mm, audio por 3.5 mm, microfono desmontable, cable trenzado de 1.8 m e iluminacion RGB/LED.",
+        "manualCategoryPath": "gaming/audio/headsets/alambricos/3-5mm-microfono-desmontable/yeyian-proud-ydg-33405",
+        "semanticCategoryPath": "gaming/audio/headsets/alambricos/3-5mm-microfono-desmontable",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mx.yeyiangaming.com/products/yeyian-diadema-gamer-proud-serie-3500-negro-modelo-ydg-33405",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCYEY070/BOCYEY070_full.jpg",
+          "https://mx.yeyiangaming.com/storage/catalog/product/YDG-33405-0.webp",
+          "https://mx.yeyiangaming.com/storage/catalog/product/gallery/YDG-33405-1.webp",
+          "https://mx.yeyiangaming.com/storage/catalog/product/gallery/YDG-33405-2.webp"
+        ],
+        "documents": [
+          "https://docs.yeyiangaming.com/indexV2.php?file=User+Manual.pdf&lvl4=manual&sku=YDG-33405",
+          "https://docs.yeyiangaming.com/indexV2.php?file=YDG-33405+BROCHURE+SPANISH.pdf&lvl4=es_mx&lvl5=brochure&sku=YDG-33405"
+        ],
+        "specs": {
+          "brand": "Yeyian",
+          "model": "YDG-33405",
+          "providerSku": "BOCYEY070",
+          "ean": "7503028761142",
+          "productType": "Diadema gamer alambrica",
+          "driver": "50 mm",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "sensitivity": "119 dB +/- 3 dB",
+          "impedance": "32 ohm +/- 15%",
+          "connector": "3.5 mm; USB probable para iluminacion",
+          "cableLength": "1.8 m",
+          "microphone": "Desmontable, 100 Hz - 10 kHz, -38 dB +/- 3 dB",
+          "compatibility": ["PC", "PS4", "Xbox One", "smartphones"],
+          "providerBranchSummary": "CTOnline stock 0; Yeyian oficial agotado; Arcintech reporto 2 piezas; PCDigital, MacToner y TiendaClic sin stock.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "BOCYEY070",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 17.28,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:4475"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Yeyian oficial agotado.", "Arcintech $442.03 MXN con 2 piezas.", "MacToner y TiendaClic sin existencias."]
+        },
+        "measurements": {
+          "dimensions": "180 x 100 x 210 mm",
+          "weight": "307 g"
+        },
+        "sourceRefs": [
+          { "title": "Yeyian YDG-33405", "type": "manufacturer_product", "url": "https://mx.yeyiangaming.com/products/yeyian-diadema-gamer-proud-serie-3500-negro-modelo-ydg-33405" },
+          { "title": "PCH ficha tecnica YDG-33405", "type": "retailer_spec_pdf", "url": "https://fichastecnicas.pchmayoreo.com/YDG-33405.pdf" },
+          { "title": "CTOnline feed BOCYEY070 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7lripeh8cddwskf",
+      "research": {
+        "confidence": 0.91,
+        "brand": "GHIA",
+        "name": "GHIA POL-10052 extension de garantia 24 meses adicionales para PCGHIA-3475B",
+        "description": "Extension de garantia GHIA POL-10052 por 24 meses adicionales para computadora PCGHIA-3475B. Es una poliza de servicio, no un producto fisico.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3475b/24-meses-adicionales/pol-10052",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3475b/24-meses-adicionales",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ghia.com.mx/pages/producto.php",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10448323"],
+        "specs": {
+          "brand": "GHIA",
+          "model": "POL-10052",
+          "providerSku": "POL-10052",
+          "compatibleModel": "PCGHIA-3475B",
+          "productType": "Extension de garantia",
+          "serviceTerm": "24 meses adicionales",
+          "physicalProduct": false,
+          "coverageNotes": ["Defectos de fabricacion segun politica GHIA", "Diagnostico, piezas y mano de obra sujetos a validacion de poliza", "Requiere comprobante de compra y certificado/poliza"],
+          "exclusions": ["Instalacion", "Mantenimiento", "Capacitacion", "Perdida de datos"],
+          "providerBranchSummary": "CVA stock 0; GHIA lista POL-10052 como poliza de garantia sin precio publico; tienda GHIA no muestra extensiones disponibles.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-10052",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 467.66,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:80:POL-10052"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["La categoria GHIA extensiones de garantia existe pero no muestra productos.", "La PC base PCGHIA-3475 aparece no disponible en tienda GHIA."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "GHIA producto POL-10052 via producto.php", "type": "manufacturer_product_post", "url": "https://ghia.com.mx/pages/producto.php" },
+          { "title": "GHIA politica de garantias", "type": "manufacturer_policy", "url": "https://tienda.ghia.com.mx/index.php/politica-de-garantias" },
+          { "title": "CVA feed POL-10052 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7pip775ymn6lw85",
+      "research": {
+        "confidence": 0.93,
+        "brand": "SAXXON",
+        "name": "Saxxon SAXM02UF ASC-EM02F tarjeta RFID ID 125 kHz TK4100 con folio impreso blanca",
+        "description": "Tarjeta de proximidad Saxxon SAXM02UF / ASC-EM02F para control de acceso, frecuencia 125 kHz, chip TK4100, folio impreso y formato tipo tarjeta blanca.",
+        "manualCategoryPath": "seguridad/control-acceso/credenciales-rfid/tarjetas-pvc/em-125khz/saxxon-asc-em02f",
+        "semanticCategoryPath": "seguridad/control-acceso/credenciales-rfid/tarjetas-pvc/em-125khz",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tvc.mx/products/77760/tarjeta-de-proximidad-id-frecuencia-125-khz-folio-impreso",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCSAX160/ACCSAX160_full.jpg",
+          "https://cdn.tvc.mx/media/1992638/Tarjeta-Proximidad-ID-125KHz-Folio-Impreso-SAXMO2UF-SAXXON.webp",
+          "https://cdn.tvc.mx/media/1995448/Tarjeta-Proximidad-ID-125KHz-Folio-Impreso-Informaci%C3%B3n-General-SAXMO2UF-SAXXON.webp"
+        ],
+        "documents": ["https://cdn.tvc.mx/media/1903588/Tarjeta-Proximidad-SAXM02UF-Ficha-T%C3%A9cnica-Espa%C3%B1ol.pdf"],
+        "specs": {
+          "brand": "Saxxon",
+          "model": "ASC-EM02F",
+          "alternateModel": "SAXM02UF",
+          "providerSku": "ACCSAX160",
+          "tvcSku": "SXN0760005",
+          "satCode": "46171619",
+          "productType": "Tarjeta RFID de proximidad para control de acceso",
+          "chip": "TK4100",
+          "frequency": "125 kHz",
+          "readRange": "0 - 5 cm",
+          "memory": "64 bits",
+          "material": "PVC segun etiqueta/importador; PDF TVC menciona ABS",
+          "warranty": "12 meses segun TVC",
+          "providerBranchSummary": "CTOnline stock 0; retailers MX FullOffice, RadioElectronics, Zektek y Cityshop reportan sin stock o agotado.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCSAX160",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 0.25,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:14913"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["FullOffice $5.09 MXN agotado.", "RadioElectronics $5.15 MXN sin stock.", "Cityshop agotado."]
+        },
+        "measurements": {
+          "dimensions": "86 x 54 mm",
+          "thickness": "0.8 mm a 0.88 mm reportado por retailers; PDF TVC menciona 1.8 mm",
+          "weight": "No confirmado"
+        },
+        "sourceRefs": [
+          { "title": "TVC Saxxon SAXM02UF", "type": "retailer_spec", "url": "https://tvc.mx/products/77760/tarjeta-de-proximidad-id-frecuencia-125-khz-folio-impreso" },
+          { "title": "TVC ficha tecnica SAXM02UF", "type": "retailer_spec_pdf", "url": "https://cdn.tvc.mx/media/1903588/Tarjeta-Proximidad-SAXM02UF-Ficha-T%C3%A9cnica-Espa%C3%B1ol.pdf" },
+          { "title": "CTOnline feed ACCSAX160 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7s0fmdlv0il434i",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DELL",
+        "name": "Dell N_OPTL1_N3_P3 upgrade 3 anos Basic Onsite a ProSupport para OptiPlex",
+        "description": "Upgrade de garantia Dell N_OPTL1_N3_P3 de 3 anos Basic Onsite / NBD a 3 anos ProSupport para OptiPlex compatibles. Es una poliza de servicio y debe validarse por serie o Service Tag.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/3y-basic-onsite-a-3y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_OPTL1_N3_P3-4cda82.jpg"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL1_N3_P3",
+          "providerSkus": ["EXTDLL7260", "POL-7704"],
+          "productType": "Upgrade de garantia ProSupport",
+          "serviceLevel": "ProSupport",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "3 anos Basic Onsite / Next Business Day",
+          "upgradeTo": "3 anos ProSupport",
+          "serviceIncluded": ["Piezas y mano de obra", "Soporte telefonico", "Soporte web", "Solucion de problemas", "Reemplazo de piezas"],
+          "serviceHours": "24x7x365 segun retailers; sujeto a terminos Dell por region",
+          "compatibilityNotes": ["Fuentes MX lo asocian a OptiPlex 3000.", "Otras fuentes lo asocian a OptiPlex MFF/SFF 7010/7020.", "Validar con Service Tag antes de vender o activar."],
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline stock 0 y CVA stock 0; Cyberpuerta agotado; PCZ stock 0; AztecaCompras reporto 50 piezas pero compatibilidad conflictiva.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "EXTDLL7260",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 1192.87,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:11638"
+            },
+            {
+              "providerId": "cva",
+              "providerSku": "POL-7704",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 644.27,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:170:POL-7704"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta ultimo precio $829 MXN agotado.", "PCZ $896.82 MXN con 0 piezas.", "AztecaCompras $1326 MXN con 50 piezas, compatibilidad 7010/7020."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Tech-America Dell N_OPTL1_N3_P3", "type": "retailer_service", "url": "https://www.tech-america.com/item/dell-upgrade-from-3y-basic-onsite-to-3y-prosupport/n-optl1-n3-p3" },
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "CTOnline feed EXTDLL7260 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed POL-7704 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7vugbsp58kw0qfe",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DELL",
+        "name": "Dell N_VOSNBM1_N1_N3 Vostro notebooks 3000 1Y Basic Onsite a 3Y Basic NBD",
+        "description": "Poliza Dell N_VOSNBM1_N1_N3 para notebooks Vostro 3000, actualizacion de 1 ano Basic Onsite / NBD incluido a 3 anos Basic Onsite / NBD. Es servicio, no hardware.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/vostro-notebooks-3000/1y-a-3y",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/vostro-notebooks-3000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/legal/service-contracts-support-services",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-DELL-N_VOSNBM1_N1_N3-4e1d0d.jpg"],
+        "documents": ["https://i.dell.com/sites/csdocuments/Shared-Content_services_Documents/en/us/basic-hardware-support.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_VOSNBM1_N1_N3",
+          "providerSku": "POL-7690",
+          "productType": "Extension/upgrade de garantia Basic NBD",
+          "serviceLevel": "Basic Onsite / Next Business Day",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic Onsite incluido",
+          "upgradeTo": "3 anos Basic Onsite / Next Business Day",
+          "serviceIncluded": ["Piezas y mano de obra", "Soporte telefonico en horario laboral", "Soporte web", "Diagnostico remoto", "Reemplazo de piezas"],
+          "compatibilityNotes": ["Vostro Notebook serie 3000; retailers mencionan Vostro 3420/3530.", "Validar elegibilidad por Service Tag Dell."],
+          "physicalProduct": false,
+          "providerBranchSummary": "CVA stock 0; Cyberpuerta, AztecaCompras y PC Gamer Mexico reportaron agotado; metadatos de Abasteo fueron inconsistentes.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-7690",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 1267.2,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:171:POL-7690"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["Cyberpuerta agotado $1619 MXN.", "AztecaCompras agotado $1919 MXN.", "PC Gamer Mexico agotado $1670 MXN."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Dell service contracts and support services", "type": "manufacturer_support", "url": "https://www.dell.com/en-us/lp/legal/service-contracts-support-services" },
+          { "title": "Dell Basic Hardware Support PDF", "type": "manufacturer_document", "url": "https://i.dell.com/sites/csdocuments/Shared-Content_services_Documents/en/us/basic-hardware-support.pdf" },
+          { "title": "CVA feed POL-7690 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7y0lsp3o1mpxmmd",
+      "research": {
+        "confidence": 0.92,
+        "brand": "WILSON JONES",
+        "name": "Wilson Jones P1367 separador alfabetico A-Z carta 26 divisiones multicolor",
+        "description": "Separador alfabetico A-Z Wilson Jones P1367 tamano carta con 26 divisiones, cartulina blanca, pestanas plastificadas multicolor y 5 perforaciones reforzadas.",
+        "manualCategoryPath": "oficina/papeleria/archivo/separadores-indices/carta/a-z/wilson-jones-p1367",
+        "semanticCategoryPath": "oficina/papeleria/archivo/separadores-indices/carta/a-z",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ofix.mx/separador-26div-carta-alfabetico-a-z--wj---wilson-j--p1367/p",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACO030/ACCACO030_1_full.jpg",
+          "https://unionpapelera.com.mx/wp-content/uploads/2020/04/18971_1.jpg",
+          "https://papira.com.mx/cdn/shop/files/acco-8802336276693.jpg?v=1755619128&width=300"
+        ],
+        "specs": {
+          "brand": "Wilson Jones",
+          "model": "P1367",
+          "providerSku": "ACCACO030",
+          "upc": "078910005101",
+          "productType": "Separador alfabetico para carpeta",
+          "size": "Carta",
+          "divisions": "26 divisiones A-Z",
+          "material": "Cartulina/papel blanco con pestanas plastificadas multicolor",
+          "holes": "5 perforaciones reforzadas",
+          "compatibility": "Carpetas de 2 y 3 argollas",
+          "packQuantity": "1 juego; caja master de 12 juegos en catalogo ACCO",
+          "providerBranchSummary": "CTOnline stock 0; Ofix, Union Papelera, Papira y Colmenero reportan disponibilidad publica.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCACO030",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 75.18,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:5675"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Ofix $83.61 MXN comprable.", "Union Papelera $81.18 MXN en existencia.", "Papira $88 MXN en existencia.", "Colmenero stock 30."]
+        },
+        "measurements": {
+          "dimensions": "216 x 279 mm",
+          "weight": "0.68 kg en feed CTOnline; no confirmado por fabricante"
+        },
+        "sourceRefs": [
+          { "title": "Ofix Wilson Jones P1367", "type": "retailer_spec", "url": "https://www.ofix.mx/separador-26div-carta-alfabetico-a-z--wj---wilson-j--p1367/p" },
+          { "title": "Union Papelera Wilson Jones P1367", "type": "retailer_stock", "url": "https://unionpapelera.com.mx/producto/separador-acco-wilson-jones-a-z-p1367/" },
+          { "title": "CTOnline feed ACCACO030 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7y7pny27c2bzutw",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CANON",
+        "name": "Canon imageRUNNER ADVANCE DX C478iF multifuncional laser color 50 ppm",
+        "description": "Multifuncional laser color Canon imageRUNNER ADVANCE DX C478iF para oficina, con impresion, copiado, escaneo, envio, almacenamiento y fax, velocidad hasta 50 ppm carta y pantalla tactil de 10.1 pulgadas.",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/color/canon-imagerunner-advance-dx-c478if",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/color",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cla.canon.com/en/p/imagerunner-advance-dx-c478if",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/COPCNN450/COPCNN450_full.jpg",
+          "https://www.canon.cl/sites/default/files/styles/thumbnail/public/productos_empresa/iR-DX-C478iF_Front_279x186.png?itok=oAxntKRY",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/COPCNN450_full.jpg"
+        ],
+        "documents": [
+          "https://www.canon.com.mx/media/documentosproducto/fichero/1/999_imageRUNNER_ADVANCE_DX_C478_Series_Brochure.pdf",
+          "https://downloads.canon.com/bicg2022/guides/svc-imagerunner-advance-dx-c568-c478-service-guide-rev3.pdf"
+        ],
+        "specs": {
+          "brand": "Canon",
+          "model": "imageRUNNER ADVANCE DX C478iF",
+          "providerSku": "COPCNN450",
+          "manufacturerPartNumbers": ["4836C001AA", "4836C003AA regionally observed"],
+          "productType": "Multifuncional laser color de oficina",
+          "functions": ["Impresion", "Copia", "Escaneo", "Envio", "Almacenamiento", "Fax"],
+          "printSpeed": "Hasta 50 ppm carta, 39 ppm legal",
+          "display": "Pantalla tactil 10.1 in",
+          "processor": "Dual-core 1.75 GHz",
+          "memory": "4 GB RAM",
+          "storage": "SSD 256 GB",
+          "paperCapacity": "650 hojas estandar, 2300 maxima",
+          "adf": "ADF duplex de un paso 100 hojas",
+          "scanSpeed": "Hasta 200 ipm",
+          "printResolution": "1200 x 600 dpi / 600 x 600 dpi",
+          "connectivity": ["Gigabit Ethernet", "Wi-Fi 802.11 b/g/n", "USB"],
+          "tonerYield": "T04 negro 33000 paginas; cian/magenta/amarillo 27500 paginas",
+          "providerBranchSummary": "CTOnline stock 0; MacToner y Cityshop agotado; Walmart EUA mostro refurb disponible; Compuexpress tuvo senales inconsistentes.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "COPCNN450",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 6198.51,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:7662"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MacToner sin existencias, precio observado $150824.53 MXN.", "Canon Sourcewell Dec-2025 MSRP USD 8501.", "Walmart EUA refurb USD 2707."]
+        },
+        "measurements": {
+          "dimensions": "521 x 642 x 668 mm",
+          "weight": "46 kg",
+          "dimensionsWithFinisher": "521 x 642 x 864 mm",
+          "weightWithFinisher": "55 kg"
+        },
+        "sourceRefs": [
+          { "title": "Canon LatAm imageRUNNER ADVANCE DX C478iF", "type": "manufacturer_product", "url": "https://www.cla.canon.com/en/p/imagerunner-advance-dx-c478if" },
+          { "title": "Canon Mexico brochure C478 Series", "type": "manufacturer_document", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/999_imageRUNNER_ADVANCE_DX_C478_Series_Brochure.pdf" },
+          { "title": "CTOnline feed COPCNN450 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7z3fy71op0pvzju",
+      "research": {
+        "confidence": 0.93,
+        "brand": "PROVISION-ISR",
+        "name": "Provision-ISR PR-JB12IP66 caja de conexiones impermeable IP66 para camaras",
+        "description": "Caja de conexiones impermeable Provision-ISR PR-JB12IP66 para camaras I4, I2, DI-FIX, DI-Basic, DAI-FIX y accesorios compatibles de montaje CCTV.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip66/provision-pr-jb12ip66",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip66",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/accesories/pr-jb12ip66/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCPVS770/ACCPVS770_full.jpg",
+          "https://provision-isr.com/wp-content/uploads/2023/11/PR-JB12IP66.png"
+        ],
+        "documents": ["https://provision-isr.com/wp-content/uploads/Range_File_Images/Brackets%20%26%20Junction%20Boxes%20Sketches/PR-JB12IP66.pdf"],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "PR-JB12IP66",
+          "providerSku": "ACCPVS770",
+          "upc": "619317410695",
+          "productType": "Caja de conexiones impermeable para CCTV",
+          "ingressProtection": "IP66",
+          "color": "Blanco",
+          "compatibility": ["I2", "I4-XXX-36/MVF", "DI-Fixed", "DI-Basic", "DAI-Fixed", "BPAN", "WiFi I2/BSH"],
+          "compatibleAccessories": ["PR-WB12", "PR-CB12", "PR-B50PB", "PR-B50ECB"],
+          "providerBranchSummary": "CTOnline stock 0; CompuPuebla reporto 6 disponibles; MacToner sin existencias; GlobalOffice en llegada; Low Voltage Dealer disponible EUA.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCPVS770",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 14.67,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8018"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["CompuPuebla $409 MXN con 6 disponibles.", "MacToner $373.28 MXN sin existencias.", "Low Voltage Dealer USD 14.14."]
+        },
+        "measurements": {
+          "diameter": "117.9 mm",
+          "depth": "47.0 mm",
+          "overallLengthWithGland": "143.3 mm",
+          "weight": "380 g reportado por retailer"
+        },
+        "sourceRefs": [
+          { "title": "Provision-ISR PR-JB12IP66", "type": "manufacturer_product", "url": "https://provision-isr.com/accesories/pr-jb12ip66/" },
+          { "title": "Provision-ISR PR-JB12IP66 sketch", "type": "manufacturer_document", "url": "https://provision-isr.com/wp-content/uploads/Range_File_Images/Brackets%20%26%20Junction%20Boxes%20Sketches/PR-JB12IP66.pdf" },
+          { "title": "CTOnline feed ACCPVS770 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7zy1ifzq5iuhp6d",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BACO",
+        "name": "BACO CY004 65476 crayones jumbo redondos colores surtidos caja 6 piezas",
+        "description": "Crayones de cera BACO CY004 / 65476 jumbo redondos, colores surtidos, no toxicos, caja con 6 piezas para uso escolar y dibujo.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/crayones/baco-jumbo-65476-6p",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/crayones",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/BAPMACAB067",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC2780/ACCBAC2780_full.jpg",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/BA/BAPMACAB067_zoom.jpg",
+          "https://paperix.mx/cdn/shop/products/7501174965476.png?v=1601072758&width=1946"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "CY004/65476",
+          "providerSku": "ACCBAC2780",
+          "alternateSku": "BAPMACAB067",
+          "ean": "7501174965476",
+          "productType": "Crayones de cera escolares",
+          "format": "Redondos jumbo",
+          "colors": "Surtidos",
+          "packQuantity": "6 piezas",
+          "material": "Cera",
+          "safety": "No toxico segun retailers",
+          "providerBranchSummary": "CTOnline stock 0; MiPC, Cityshop y Paperix reportaron disponibilidad; TiendaClic reporto 0.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC2780",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 17.5,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6819"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MiPC $16 MXN con 56 piezas.", "Cityshop $19 MXN con stock 8.", "Paperix $22.99 MXN con 20 en existencia.", "TiendaClic $78.29 MXN con existencia 0."]
+        },
+        "measurements": {
+          "packQuantity": "6 piezas",
+          "dimensions": "No confirmado",
+          "weight": "No confirmado"
+        },
+        "sourceRefs": [
+          { "title": "Exel BACO CY004", "type": "retailer_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/BAPMACAB067" },
+          { "title": "A Un Clip crayon jumbo BACO", "type": "retailer_spec", "url": "https://www.aunclip.com/products/crayon-jumbo-baco-6piezas" },
+          { "title": "CTOnline feed ACCBAC2780 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "81ynqdgkqre3pu6",
+      "research": {
+        "confidence": 0.93,
+        "brand": "PERFECT CHOICE",
+        "name": "Perfect Choice Sportiva PC-084631 mochila deportiva multiusos naranja negro",
+        "description": "Mochila/bolso deportivo Perfect Choice Sportiva PC-084631 color naranja y negro, fabricada en poliester, con tirantes y compartimento interno para prendas mojadas.",
+        "manualCategoryPath": "deportes/accesorios/bolsas-deportivas/mochilas-gimnasio/perfect-choice-sportiva-pc-084631",
+        "semanticCategoryPath": "deportes/accesorios/bolsas-deportivas/mochilas-gimnasio",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10429654",
+          "https://www.grupocva.com/detalle_articulo/10429654.jpg",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/MC/MCCMOCAB187_ch.jpg",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/MC/MCCMOCAB187_2_ch.jpg"
+        ],
+        "documents": ["https://strapi.promoselect.com.mx/uploads/Catalogo_PC_SEPTIEMBRE_2024_1_7960cb3c21.pdf"],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-084631",
+          "providerSku": "AC-12220",
+          "alternateSku": "MCCMOCAB187",
+          "ean": "615604084631",
+          "upc": "0615604084631",
+          "productType": "Mochila deportiva multiusos",
+          "color": "Naranja/negro",
+          "material": "Poliester; cubierta 100% poliester y forro 100% poliester",
+          "features": ["Compartimento interno para prendas mojadas", "Tirantes", "Uso deportivo/gimnasio", "Unisex"],
+          "packQuantity": "1 pieza",
+          "providerBranchSummary": "CVA stock 0; GlobalOffice, Cityshop, TiendaClic y GSX reportaron existencias publicas; MiPC agotado.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "AC-12220",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 183.13,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:110:AC-12220"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["GlobalOffice $234 MXN con 2 piezas + 12 almacen Mexico.", "Cityshop $159 MXN con 7 piezas.", "TiendaClic $270.43 MXN con 4 piezas.", "MiPC agotado $158.83 MXN."]
+        },
+        "measurements": {
+          "dimensions": "470 x 360 x 170 mm",
+          "weight": "240 g"
+        },
+        "sourceRefs": [
+          { "title": "Exel Perfect Choice PC-084631", "type": "retailer_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/MCCMOCAB187" },
+          { "title": "Perfect Choice catalogo septiembre 2024", "type": "manufacturer_catalog", "url": "https://strapi.promoselect.com.mx/uploads/Catalogo_PC_SEPTIEMBRE_2024_1_7960cb3c21.pdf" },
+          { "title": "CVA feed AC-12220 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}
