@@ -1,0 +1,599 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b218-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 218,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "8yfxuhlvsmu9bmo",
+      "research": {
+        "confidence": 0.93,
+        "brand": "PERFECT CHOICE",
+        "name": "Perfect Choice Holdi PC-085041 bolso cruzado negro resistente a derrames",
+        "description": "Bolso cruzado Perfect Choice Holdi PC-085041 de poliester negro con correa ajustable, cierre, bolsillo frontal y trasero, resistente a derrames.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/bolsos-crossbody/compactos/perfect-choice-holdi-pc-085041",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/bolsos-crossbody/compactos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/bolso-crossbody-cruzado-ligero-y-acolchado-holdi-perfect-choice",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MALGEN4670/MALGEN4670_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-PERFECTCHOICE-PC-085041-dcf783.jpg"
+        ],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-085041",
+          "providerSku": "MALGEN4670",
+          "upc": "615604085041",
+          "productType": "Bolso cruzado crossbody",
+          "color": "Negro",
+          "materials": ["100% poliester exterior", "100% poliester forro"],
+          "features": ["resistente a derrames", "correa ajustable", "cierre", "bolsillo frontal", "bolsillo trasero"],
+          "packageContents": ["bolso", "poliza de garantia"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; TiendaClic y Pcredcom lo listan sin existencia, mientras PCDigital y Cyberpuerta muestran stock publico.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "MALGEN4670",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 248.44,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:MALGEN4670"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Perfect Choice $399 MXN.", "PCDigital $274 MXN con stock.", "Cyberpuerta $271 MXN con stock.", "TiendaClic $341.47 MXN con existencia aproximada 0.", "Pcredcom sin existencia."],
+          "reviewNotes": "El fabricante muestra el SKU base PC-085027 para otra variante; retailers mexicanos asocian el color negro con PC-085041."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "19 x 13 x 28.8 cm",
+          "weight": "178 g"
+        },
+        "sourceRefs": [
+          { "title": "Perfect Choice Holdi crossbody", "type": "manufacturer_product", "url": "https://perfectchoice.me/products/bolso-crossbody-cruzado-ligero-y-acolchado-holdi-perfect-choice" },
+          { "title": "PCDigital Perfect Choice PC-085041", "type": "retailer_stock", "url": "https://www.pcdigital.com.mx/perfect-choice-bolso-cruzado-de-poliester-pc-085041-19-x-13-x-28-8-cm-negro/" },
+          { "title": "Cyberpuerta Perfect Choice PC-085041", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Foto-y-Video/Accesorios-Foto-y-Video/Fundas-y-Estuches/Perfect-Choice-Estuche-de-Hombro-para-Camara-PC-085041-Negro.html" },
+          { "title": "CTOnline feed MALGEN4670 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8zoibfd7szfsz7u",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CANON",
+        "name": "Canon PF-08 5706C003AA cabezal de impresion para imagePROGRAF TC-20",
+        "description": "Cabezal de impresion Canon PF-08 5706C003AA reemplazable por usuario para impresoras imagePROGRAF TC-20 y modelos compatibles de la serie TC.",
+        "manualCategoryPath": "impresion/refacciones/cabezales/inkjet/canon-imageprograf/pf-08-5706c003aa",
+        "semanticCategoryPath": "impresion/refacciones/cabezales/inkjet/canon-imageprograf",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/cabezal-pf-08",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARCNN6950/CARCNN6950_full.jpg",
+          "https://s7d1.scene7.com/is/image/canon/5706C003AA-PF08_primary-v2?fmt=webp-alpha&hei=800&wid=800"
+        ],
+        "specs": {
+          "brand": "Canon",
+          "model": "PF-08",
+          "partNumber": "5706C003AA",
+          "providerSku": "CARCNN6950",
+          "upc": "013803349559",
+          "productType": "Cabezal de impresion inkjet",
+          "packageQuantity": "1 pieza",
+          "compatibility": ["imagePROGRAF TC-20", "imagePROGRAF TC-20M", "imagePROGRAF TC-21", "imagePROGRAF TC-21M"],
+          "compatibilityNote": "Canon Mexico enfatiza TC-20; Canon USA amplia TC-20M/TC-21/TC-21M.",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Canon Mexico y Canon USA agotado, con Cyberpuerta, B&H y AztecaCompras mostrando stock publico.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "CARCNN6950",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 2993.28,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:CARCNN6950"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Canon Mexico $3799 MXN agotado.", "Canon USA $260 USD out of stock/discontinued.", "Cyberpuerta $3769 MXN con 5 piezas.", "AztecaCompras $4338 MXN con 6 piezas.", "Mactoner $4012.31 MXN sin existencias."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "packageWeight": "197 g aprox.",
+          "packageDimensions": "14.5 x 10.7 x 7.9 cm aprox."
+        },
+        "sourceRefs": [
+          { "title": "Canon Mexico PF-08", "type": "manufacturer_store", "url": "https://www.tiendacanon.com.mx/es_mx/p/cabezal-pf-08" },
+          { "title": "Canon USA Printhead PF-08", "type": "manufacturer_product", "url": "https://www.usa.canon.com/shop/p/printhead-pf-08" },
+          { "title": "B&H Canon PF-08 5706C003AA", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1747832-REG/canon_5706c003aa_pf_08_print_head.html" },
+          { "title": "CTOnline feed CARCNN6950 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "905cpho2z99z2wq",
+      "research": {
+        "confidence": 0.9,
+        "brand": "GRANDSTREAM",
+        "name": "Grandstream GS-CONFIGREMOTA poliza de configuracion remota por hora",
+        "description": "Poliza de servicio para horas de configuracion remota Grandstream, asociada a GS-CONFIGREMOTA, C1CB00001432 y CVA POL-10338.",
+        "manualCategoryPath": "servicios-ti/configuracion-remota/telefonia-ip/grandstream/horas-gs-configremota",
+        "semanticCategoryPath": "servicios-ti/configuracion-remota/telefonia-ip/grandstream",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.grandstream.com/support",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10459418",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-cva-gs-configremota-poliza-horas-de-configuracin-remota.webp"
+        ],
+        "specs": {
+          "brand": "Grandstream",
+          "model": "GS-CONFIGREMOTA",
+          "providerSku": "POL-10338",
+          "alternatePartNumber": "C1CB00001432",
+          "productType": "Poliza de configuracion remota",
+          "delivery": "Servicio remoto; no fisico",
+          "supportType": "Configuracion",
+          "scopeNote": "No se encontro SLA publico detallado; validar alcance, duracion minima y requisitos de acceso remoto antes de venta.",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; Cityshop y Compuviper aparecen agotados o sin stock.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-10338",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 84.39,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:POL-10338"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["GlobalOffice GS-CONFIGREMOTA $1993 MXN con existencias por contactar.", "Compuviper $1974 MXN con IVA sin stock.", "Cityshop producto agotado."],
+          "reviewNotes": "El precio proveedor 84.39 MXN contradice publicos cercanos a 1974-1993 MXN; podria ser costo interno, precio incompleto o unidad mal mapeada."
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "No aplica",
+          "weight": "No aplica"
+        },
+        "sourceRefs": [
+          { "title": "Grandstream support", "type": "manufacturer_support", "url": "https://www.grandstream.com/support" },
+          { "title": "Cityshop GS-CONFIGREMOTA", "type": "retailer_stock", "url": "https://cityshop.mx/producto/poliza-horas-de-configuracin-remota-grandstream-c1cb00001432" },
+          { "title": "GlobalOffice Grandstream C1CB00001432", "type": "retailer_spec", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/poliza-de-servicio/poliza-horas-de-configuracin-remota-grandstream-c1cb00001/c1cb00001432" },
+          { "title": "CVA feed POL-10338 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "92d15v4ujvawfs6",
+      "research": {
+        "confidence": 0.93,
+        "brand": "BACO",
+        "name": "BACO Tatoo MR167/61218 marcador permanente morado punta fina caja con 6 piezas",
+        "description": "Marcador permanente BACO Tatoo MR167/61218 color morado con punta fina, caja con 6 piezas para escritura y marcado general.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/tatoo/morado/6-piezas/baco-mr167-61218",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/tatoo/morado/6-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://baco.com.mx/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC2530/ACCBAC2530_full.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-mr16761218-marcador-tatoo-permanente-color-morado.webp",
+          "https://images.pcel.com/600/Especiales-Articulos-de-Escritura-BACO-MR167-452050-5T955dXRlZchlUSZ.jpg"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "MR167/61218",
+          "providerSku": "ACCBAC2530",
+          "gtin": "7501174961218",
+          "productType": "Marcador permanente",
+          "line": "Tatoo",
+          "color": "Morado",
+          "tip": "Punta fina",
+          "packageQuantity": "6 piezas",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop y TiendaClic agotados para el SKU exacto, con PCEL, MiPC e Intercompras mostrando inventario de MR167 equivalente.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC2530",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 64.78,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCBAC2530"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cityshop MR167/61218 agotado.", "TiendaClic $133.14 MXN con existencia 0.", "PCEL $79 MXN con bodega externa.", "Intercompras $73 MXN con stock."],
+          "reviewNotes": "Equivalencia MR167/61218 = MR167 caja con 6 piezas es probable por GTIN y retailers; ficha oficial BACO no respondio."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "packageDimensions": "14.2 x 8 x 1.5 cm no oficial"
+        },
+        "sourceRefs": [
+          { "title": "PCEL BACO MR167", "type": "retailer_spec", "url": "https://www.pcel.com/BACO-MR167-Marcador-Permanente-Baco-Tatoo-de-punta-fina-color-morado-paquete-con-6-piezas-452050" },
+          { "title": "TiendaClic BACO MR167/61218", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/marcador-tatoo-permanente-baco-mr16761218" },
+          { "title": "MiPC BACO MR167", "type": "retailer_stock", "url": "https://mipc.com.mx/marcador-perm-tatoo-p-fino-morado-caja-c-6.html" },
+          { "title": "CTOnline feed ACCBAC2530 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "95fob8zemybgof2",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TP-LINK",
+        "name": "TP-Link Tapo T315 sensor inteligente de temperatura y humedad con pantalla E-Ink",
+        "description": "Sensor inteligente TP-Link Tapo T315 de temperatura y humedad para interior con pantalla E-Ink de 2.7 pulgadas, refresco cada 2 segundos y compatibilidad con hub Tapo.",
+        "manualCategoryPath": "domotica/sensores/temperatura-humedad/tapo-t315",
+        "semanticCategoryPath": "domotica/sensores/temperatura-humedad",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tapo.com/mx/product/smart-plug/tapo-t315/v1/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCTPL1020/ACCTPL1020_full.jpg",
+          "https://static.tp-link.com/upload/image-line/Tapo_T315_1_large_large_20240418024553h.jpg"
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Tapo T315",
+          "providerSku": "ACCTPL1020",
+          "upc": "840030707322",
+          "productType": "Sensor inteligente de temperatura y humedad",
+          "display": "E-Ink 2.7 in",
+          "temperatureRange": "-20 a 60 C",
+          "humidityRange": "0 a 99% HR",
+          "accuracy": "+/-0.3 C y +/-3% HR",
+          "refreshRate": "Cada 2 s",
+          "power": "2 baterias AAA/LR03",
+          "hubRequired": true,
+          "wirelessNote": "Requiere Tapo Hub para funciones inteligentes; no catalogar como sensor Wi-Fi directo.",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; FullOffice y AztecaCompras agotados, tienda Tapo US activa.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCTPL1020",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 21.59,
+              "currency": "USD",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCTPL1020"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Tapo US $27.99 USD.", "FullOffice $416.41 MXN agotado.", "AztecaCompras $676 MXN agotado.", "GlobalOffice sin precio disponible."],
+          "reviewNotes": "La moneda no esta expuesta en el record resumido; 21.59 es plausible como USD, no como MXN."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "62 x 62 x 24.5 mm",
+          "packageWeight": "0.19 lb no oficial"
+        },
+        "sourceRefs": [
+          { "title": "Tapo Mexico T315", "type": "manufacturer_product", "url": "https://www.tapo.com/mx/product/smart-plug/tapo-t315/v1/" },
+          { "title": "TP-Link US Tapo T315", "type": "manufacturer_product", "url": "https://www.tp-link.com/us/smart-home/smart-sensor/tapo-t315/" },
+          { "title": "Tapo Store T315", "type": "manufacturer_store", "url": "https://us.store.tapo.com/products/tapo-t315-smart-temperature-humidity-monitor" },
+          { "title": "CTOnline feed ACCTPL1020 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "95heexczfq32ykh",
+      "research": {
+        "confidence": 0.91,
+        "brand": "BACO",
+        "name": "BACO GS022 borrador base madera para pizarron verde de gis",
+        "description": "Borrador BACO GS022 de base de madera para pizarron verde o de gis, pieza individual para escuela y oficina.",
+        "manualCategoryPath": "oficina/papeleria/pizarrones/accesorios/borradores/base-madera/baco-gs022",
+        "semanticCategoryPath": "oficina/papeleria/pizarrones/accesorios/borradores/base-madera",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://baco.com.mx/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC3310/ACCBAC3310_full.jpg",
+          "https://www.exel.com.mx/imgProducto/BAPBOAAB004.png",
+          "https://marchante.mx/cdn/shop/files/97.1.jpg?v=1771949801&width=1946"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "GS022/72306",
+          "providerSku": "ACCBAC3310",
+          "ean": "7501174972306",
+          "productType": "Borrador para pizarron",
+          "baseMaterial": "Madera",
+          "boardType": "Pizarron verde o de gis",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Marchante agotado, pero GlobalOffice, Cityshop y La Hidalgo muestran inventario.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC3310",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 15.83,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCBAC3310"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice $18 MXN con existencias.", "Cityshop $19 MXN con existencias.", "Marchante $57.99 MXN agotado.", "La Hidalgo $16.50 MXN con stock."],
+          "reviewNotes": "Algunas imagenes de marketplace dicen pizarron blanco; el EAN 7501174972306 se asocia repetidamente a base madera para pizarron."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "packageWeight": "0.04 kg no oficial",
+          "packageDimensions": "2 x 12.5 x 12.5 cm no oficial"
+        },
+        "sourceRefs": [
+          { "title": "GlobalOffice BACO GS022", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/borrador-baco-ppizarron-base-madera/gs022" },
+          { "title": "Exel BACO BAPBOAAB004", "type": "retailer_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/BAPBOAAB004" },
+          { "title": "Marchante BACO GS022", "type": "retailer_stock", "url": "https://marchante.mx/products/borrador-pizarron-verde-gis-baco-madera-pizarra-escolar" },
+          { "title": "CTOnline feed ACCBAC3310 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "95j5lugrphj7xrw",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Azor Pin Point 6840RO boligrafo ultrafino rojo 0.5 mm caja con 12 piezas",
+        "description": "Boligrafo Azor Pin Point Ultrafino 6840RO de tinta roja, punta aguja 0.5 mm, barril translucido y caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-ultrafina/azor-pinpoint-6840ro-rojo-12-piezas",
+        "semanticCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-ultrafina",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/pin-point-ultrafino/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCAZR360/ACCAZR360_full.jpg",
+          "https://web.azor.com.mx/wp-content/uploads/2019/05/azor_boligrafo_ultrafino_6840RO_caja_12pzas.jpg",
+          "https://tonypapelerias.vtexassets.com/arquivos/ids/270321-800-auto?aspect=true&height=auto&v=638556494223100000&width=800"
+        ],
+        "specs": {
+          "brand": "Azor",
+          "model": "6840RO",
+          "providerSku": "ACCAZR360",
+          "ean": "7501428729816",
+          "productType": "Boligrafo punta aguja",
+          "line": "Pin Point Ultrafino",
+          "inkColor": "Rojo",
+          "tip": "0.5 mm",
+          "packageQuantity": "12 piezas",
+          "ink": "Baja viscosidad",
+          "body": "Plastico translucido con sistema anti-rodamiento",
+          "writingLength": "1200 m reportado por fabricante/retailers",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; TiendaClic reporta 0, pero GlobalOffice, Tony, Cityshop e Intercompras muestran stock publico.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCAZR360",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 37.27,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCAZR360"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice $61 MXN con existencias.", "Tony $59.90 MXN regular y $53.91 MXN promo.", "Cityshop $59 MXN con stock.", "TiendaClic $101.23 MXN con existencia 0.", "Intercompras $53 MXN con stock."],
+          "reviewNotes": "Medidas/peso de La Esfera parecen de empaque o familia; no separar pieza individual."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "packageDimensions": "16 x 6.8 x 2.7 cm no oficial",
+          "packageWeight": "0.180 kg no oficial"
+        },
+        "sourceRefs": [
+          { "title": "Azor Pin Point Ultrafino", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/pin-point-ultrafino/" },
+          { "title": "GlobalOffice Azor 6840RO", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/oficina-y-escolar/pluma-pinpoint-azor-6840ro-rojo-05-c/6840ro" },
+          { "title": "TiendaClic Azor 6840RO", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/pluma-pinpoint-azor-6840ro" },
+          { "title": "CTOnline feed ACCAZR360 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "961iekei66keh5l",
+      "research": {
+        "confidence": 0.9,
+        "brand": "LENOVO",
+        "name": "Lenovo 5WS0D80967 actualizacion de garantia onsite ThinkCentre a 3 anos",
+        "description": "Extension electronica de garantia Lenovo 5WS0D80967 para actualizar soporte ThinkCentre a 3 anos onsite, con compatibilidad sujeta a modelo o numero de serie.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/onsite/thinkcentre/3y/5ws0d80967",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/onsite/thinkcentre/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lenovo.com/my/en/p/services/services_warranty-and-maintenance---3-years-%28with-system-purchase%29/5ws0d80967",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10009906",
+          "https://compuviper.mx/tienda/wp-content/uploads/2025/10/Poliza-de-garantia-lenovo-actualizacion-en-sitio-a-3-anos-de-1-ano-en-centro-de-servicio.jpg"
+        ],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "5WS0D80967",
+          "providerSku": "POL-3703",
+          "productType": "Extension de garantia electronica",
+          "serviceTerm": "3 anos",
+          "serviceType": "Onsite support / soporte en sitio",
+          "licenseQuantity": 1,
+          "delivery": "Electronica",
+          "compatibility": "ThinkCentre y equipos Lenovo compatibles; validar por numero de serie.",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; VSCOM, Compuviper y MiPC agotados, con AztecaCompras y retailers internacionales mostrando disponibilidad.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-3703",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 672.36,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:POL-3703"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["VSCOM $967 MXN stock 0.", "Compuviper $920 MXN con IVA stock 0.", "MiPC $1113.23 MXN agotado.", "AztecaCompras $1229 MXN con stock.", "B&H $97.52 USD descarga electronica."],
+          "reviewNotes": "Fuentes difieren entre base 1Y Onsite y 1Y centro de servicio; validar SmartFind/serial antes de activar."
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "No aplica",
+          "weight": "No aplica"
+        },
+        "sourceRefs": [
+          { "title": "Lenovo 5WS0D80967 official", "type": "manufacturer_product", "url": "https://www.lenovo.com/my/en/p/services/services_warranty-and-maintenance---3-years-%28with-system-purchase%29/5ws0d80967" },
+          { "title": "Compuviper Lenovo 5WS0D80967", "type": "retailer_stock", "url": "https://compuviper.mx/tienda/producto/lenovo-5ws0d80967-poliza-de-garantia-actualizacion-en-sitio-a-3-aos-de-1-ao-en-centro-de-servicio/" },
+          { "title": "MiPC Lenovo 5WS0D80967", "type": "retailer_stock", "url": "https://mipc.com.mx/garantia-lenovo-thinkcentre-3-anos-on-site-5ws0d80967.html" },
+          { "title": "CVA feed POL-3703 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "967azdz8c0e4k4m",
+      "research": {
+        "confidence": 0.91,
+        "brand": "LENOVO",
+        "name": "Lenovo 5WS0T36189 Premier Support NBD 5 anos para ThinkCentre AIO",
+        "description": "ePack Lenovo 5WS0T36189 Premier Support NBD de 5 anos para ThinkCentre AIO Mainstream, servicio onsite al siguiente dia habil sujeto a compatibilidad por serial.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/premier-support/thinkcentre-aio/5y-nbd/5ws0t36189",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/premier-support/thinkcentre-aio/5y-nbd",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lenovo.com/sg/en/p/services/services-warranty-and-maintenance-5-years/5ws0t36189",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455196",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-5ws0t36189-5y-premier-support-nbd_1.webp",
+          "https://www.group24.de/media/55/2d/30/1778655391/8786592000_image2.jpeg"
+        ],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "5WS0T36189",
+          "providerSku": "POL-10210",
+          "productType": "ePack de garantia y soporte",
+          "serviceTerm": "5 anos",
+          "serviceType": "Premier Support NBD onsite",
+          "response": "Siguiente dia habil onsite segun disponibilidad y diagnostico",
+          "licenseQuantity": 1,
+          "delivery": "Electronica",
+          "compatibility": "ThinkCentre AIO Mainstream y equipos Lenovo compatibles; validar por numero de serie.",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; GSX Mexico y Cityshop agotados, con algunos retailers europeos mostrando inventario.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-10210",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 1784.83,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:POL-10210"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["GSX Mexico $2484.48 MXN IVA incluido stock 0.", "Cityshop agotado.", "SuperWarehouse US$203.64 out of stock.", "Group24 231.93 EUR con stock.", "Lap4worx 174 EUR ex VAT con stock."],
+          "reviewNotes": "Compatibilidad publica varia entre TC AIO Mainstream y otros equipos; validar en Lenovo SmartFind o por serial."
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "No aplica",
+          "weight": "No aplica"
+        },
+        "sourceRefs": [
+          { "title": "Lenovo SG 5WS0T36189", "type": "manufacturer_product", "url": "https://www.lenovo.com/sg/en/p/services/services-warranty-and-maintenance-5-years/5ws0t36189" },
+          { "title": "Cityshop 5WS0T36189", "type": "retailer_stock", "url": "https://cityshop.mx/producto/5y-premier-support-nbd" },
+          { "title": "SuperWarehouse Lenovo 5WS0T36189", "type": "retailer_stock", "url": "https://www.superwarehouse.com/lenovo-5yr-premier-support-with-onsite-nbd-5ws0t36189.html" },
+          { "title": "CVA feed POL-10210 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "97zb2odj6bk3dfg",
+      "research": {
+        "confidence": 0.95,
+        "brand": "SONOFF",
+        "name": "SONOFF CAM-PT2 camara IP WiFi interior 1080p pan tilt con audio bidireccional",
+        "description": "Camara inteligente interior SONOFF CAM-PT2 Pan-Tilt 2 con video 1080p, rotacion 340 grados horizontal y 180 grados vertical, vision nocturna, audio bidireccional y deteccion humana IA.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/1080p/pan-tilt/sonoff-cam-pt2",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/1080p/pan-tilt",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://sonoff.tech/en-us/products/sonoff-cam-pan-tilt-2-smart-indoor-home-security-camera-cam-pt2",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=24578774&c=4820964&h=8VC-1DIt2wzTqAlaUAKryjdR7GtFu4W-2II_gMqCHiGndqmt",
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=24813144&c=4820964&h=rgoSoHrYpsKxv8DvobUpdRskne1ClhVkrTS7Ao2tjseIi3jG",
+          "https://sonoff.tech/cdn/shop/files/CAM-PT2_777da508-57a9-4c25-ba16-041351cce022.png?v=1751176047&width=1600"
+        ],
+        "documents": [
+          { "label": "SONOFF CAM-PT2 ayuda", "type": "manufacturer_help", "url": "https://help.sonoff.tech/es/docs/cam-pt2" }
+        ],
+        "specs": {
+          "brand": "SONOFF",
+          "model": "CAM-PT2",
+          "providerSku": "CAM-PT2",
+          "tecnosinergiaSku": "CS002SON02",
+          "productType": "Camara IP WiFi interior pan tilt",
+          "resolution": "1080p",
+          "lens": "F2.0, angulo mayor a 100 grados",
+          "videoCompression": "H.264",
+          "panTilt": "340 grados horizontal, 180 grados vertical",
+          "nightVision": "Vision nocturna inteligente",
+          "audio": "Bidireccional",
+          "storage": "Nube y microSD/TF hasta 128 GB",
+          "wireless": "WiFi 2.4 GHz 802.11 b/g/n",
+          "power": "5V 2A USB-C",
+          "operatingTemperature": "-10 a 40 C",
+          "operatingHumidity": "5 a 95% HR",
+          "certifications": ["CE", "FCC", "RoHS"],
+          "providerBranchSummary": "Tecnosinergia reporta stock total 0 y recepcion estimada 18 agosto 2026; GlobalOffice tambien solicita confirmar disponibilidad.",
+          "providerBranches": [
+            {
+              "providerId": "tecnosinergia",
+              "providerSku": "CAM-PT2",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 381.13,
+              "currency": "MXN",
+              "evidenceHash": "tecnosinergia-catalog-proof-20260520:CAM-PT2"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["SONOFF oficial US$24.90.", "Tecnosinergia stockTotal 0, lista $503.16 MXN y niveles distribuidor cercanos a $382.40 MXN.", "GlobalOffice $653 MXN oferta con disponibilidad por confirmar.", "Proshop 22.26 EUR bajo pedido."],
+          "reviewNotes": "Confirmar contenido de caja; adaptador de corriente puede no venir incluido en listados mexicanos."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "diametro 74 x 119 mm",
+          "weight": "193 g sin accesorios",
+          "shippingWeight": "0.5 kg reportado por Tecnosinergia"
+        },
+        "sourceRefs": [
+          { "title": "SONOFF CAM Pan-Tilt 2", "type": "manufacturer_product", "url": "https://sonoff.tech/en-us/products/sonoff-cam-pan-tilt-2-smart-indoor-home-security-camera-cam-pt2" },
+          { "title": "SONOFF CAM-PT2 help", "type": "manufacturer_help", "url": "https://help.sonoff.tech/es/docs/cam-pt2" },
+          { "title": "Tecnosinergia CAM-PT2", "type": "provider_catalog", "url": "https://tecnosinergia.com/catalogo/item/campt2.html" },
+          { "title": "GlobalOffice SONOFF CAM-PT2", "type": "retailer_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/sonoff/camara-de-seguridad-para-interiores-sonoff-cam-pt2-resoluci/cam-pt2" }
+        ]
+      }
+    }
+  ]
+}
