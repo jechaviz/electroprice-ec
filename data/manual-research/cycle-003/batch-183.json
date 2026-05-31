@@ -1,0 +1,430 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b183-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 183,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6njftqt9cd9ic19",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Ruijie Reyee",
+        "name": "Ruijie Reyee RG-EW1800GX PRO router Wi-Fi 6 AX1800 dual-band gigabit",
+        "description": "Router Ruijie Reyee RG-EW1800GX PRO Wi-Fi 6 AX1800 de doble banda con 5 puertos Gigabit Ethernet, 4 antenas externas, Reyee Mesh, administracion Ruijie Cloud y app movil.",
+        "manualCategoryPath": "redes/routers/wifi-6/ax1800",
+        "semanticCategoryPath": "networking/routers/wifi-6-ax1800/dual-band-gigabit",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/rg-ew1800gxpro",
+        "gallery": [
+          "https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/rg-ew1800gxpro",
+          "https://www.visiotechsecurity.com/en/products/rg-ew1800gx-pro-detail"
+        ],
+        "documents": ["https://reyee-uat.ruijie.com/en-global/resources/preview/76730"],
+        "specs": {
+          "brand": "RUIJIE REYEE",
+          "model": "RG-EW1800GX PRO",
+          "productType": "Router Wi-Fi 6 mesh dual-band",
+          "wifiStandard": "Wi-Fi 6 IEEE 802.11ax",
+          "wirelessSpeed": "AX1800: 573 Mbps 2.4GHz + 1200 Mbps 5GHz",
+          "ports": "5 Gigabit Ethernet",
+          "antennas": "4 externas; 4.5 dBi 2.4GHz y 6 dBi 5GHz",
+          "management": ["Ruijie Cloud", "Reyee Router App", "Reyee Mesh 3.0"],
+          "capacity": {"maxClients2_4GHz": 64, "maxClients5GHz": 128, "recommendedClients2_4GHz": 12, "recommendedClients5GHz": 36},
+          "features": ["1024-QAM", "MU-MIMO", "BSS coloring", "beamforming", "parental control", "remote management"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "RG-EW1800GXPRO", "stock": 0, "price": 67.9, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo ubica como access point; es router Wi-Fi 6 mesh.", "Sin sucursal granular; el proveedor reporta stock total 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "No publicado en ficha resumida", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Ruijie Reyee RG-EW1800GX PRO", "type": "manufacturer_spec", "url": "https://reyee.ruijie.com/en-global/products/home-wifi/wifi-router/rg-ew1800gxpro"},
+          {"title": "Ruijie Reyee RG-EW1800GX PRO datasheet", "type": "manufacturer_datasheet", "url": "https://reyee-uat.ruijie.com/en-global/resources/preview/76730"},
+          {"title": "Electroprice provider stock RG-EW1800GXPRO", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nn4mh88elo94uu",
+      "research": {
+        "confidence": 0.92,
+        "brand": "ASRock",
+        "name": "ASRock B550M-HDV tarjeta madre micro ATX AMD AM4 B550 DDR4",
+        "description": "Tarjeta madre ASRock B550M-HDV micro ATX para procesadores AMD AM4 Ryzen, chipset AMD B550, 2 ranuras DDR4, PCIe 4.0 x16, Hyper M.2, HDMI, DVI-D, D-Sub, LAN Gigabit y audio 7.1.",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx",
+        "semanticCategoryPath": "computing/components/motherboards/amd-am4/b550/micro-atx",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.asrock.com/MB/AMD/B550M-HDV/index.asp",
+        "gallery": [
+          "https://www.asrock.com/MB/AMD/B550M-HDV/index.asp",
+          "https://asrock.com/MB/AMD/B550M-HDV/index.anz.asp"
+        ],
+        "documents": ["https://download.asrock.com/Manual/B550M-HDV.pdf"],
+        "specs": {
+          "brand": "ASROCK",
+          "model": "B550M-HDV",
+          "chipset": "AMD B550",
+          "socket": "AMD AM4",
+          "formFactor": "Micro ATX",
+          "memory": "2x DDR4 DIMM, dual-channel, hasta 64GB, 4733+ MHz OC",
+          "expansion": "1x PCIe 4.0 x16, 1x PCIe 3.0 x1",
+          "storage": ["1x Hyper M.2 PCIe Gen4 x4", "1x M.2 PCIe Gen3 x2/SATA3", "4x SATA3 6Gbps"],
+          "videoOutputs": ["HDMI", "DVI-D", "D-Sub"],
+          "network": "Gigabit LAN",
+          "audio": "7.1 CH HD Audio",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 2",
+          "providerOffers": [{"providerId": "cva", "providerSku": "B550M-HDV", "stock": 2, "price": 59.45, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed la traia bajo procesadores/laptops; es tarjeta madre.", "El sufijo AC del feed no coincide con el modelo B550M-HDV base; se conserva B550M-HDV por modelo oficial."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "9.0 x 7.9 in / 22.9 x 20.1 cm", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "ASRock B550M-HDV", "type": "manufacturer_spec", "url": "https://www.asrock.com/MB/AMD/B550M-HDV/index.asp"},
+          {"title": "ASRock B550M-HDV manual", "type": "manufacturer_manual", "url": "https://download.asrock.com/Manual/B550M-HDV.pdf"},
+          {"title": "Electroprice provider stock B550M-HDV", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6npw644ogumxl8e",
+      "research": {
+        "confidence": 0.93,
+        "brand": "StarTech.com",
+        "name": "StarTech SDOCK2U313R duplicador dock SATA USB-C dual bay HDD SSD",
+        "description": "Duplicador y dock StarTech SDOCK2U313R de doble bahia para HDD/SSD SATA de 2.5 y 3.5 pulgadas, con clonacion independiente sector por sector, USB 3.2 Gen 2 10Gbps, UASP y soporte TRIM.",
+        "manualCategoryPath": "computo/almacenamiento/docks-duplicadores/sata/usb-c-dual-bay",
+        "semanticCategoryPath": "computing/storage/docks-duplicators/sata/usb-c-dual-bay",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.startech.com/en-us/hdd/sdock2u313r",
+        "gallery": [
+          "https://www.startech.com/en-us/hdd/sdock2u313r",
+          "https://www.startech.com/en-us/hdd/sdock2u313r#product-gallery"
+        ],
+        "documents": ["https://www.startech.com/en-us/hdd/sdock2u313r#resources"],
+        "specs": {
+          "brand": "STARTECH.COM",
+          "model": "SDOCK2U313R",
+          "productType": "Duplicador/dock dual SATA",
+          "driveBays": 2,
+          "driveCompatibility": "HDD/SSD SATA 2.5 y 3.5 pulgadas",
+          "hostInterface": "USB 3.2 Gen 2 10Gbps",
+          "driveInterface": "SATA III 6Gbps",
+          "duplication": "Standalone sector-by-sector, hasta 28 GB/min",
+          "features": ["UASP", "TRIM", "4Kn", "tool-less", "tray-less", "eject buttons", "LED status"],
+          "included": ["USB-C to B cable", "USB-A to B cable", "universal power adapter", "quick start guide"],
+          "warranty": "2 anos",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "SDOCK2U313R", "stock": 0, "price": 1896.9, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo clasificaba como SSD; en realidad es dock y duplicador de discos.", "Sin sucursal granular; stock actual proveedor 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "14.2 x 13.2 x 7.0 cm", "netWeight": "0.5 kg", "shippingWeight": "1.0 kg"},
+        "sourceRefs": [
+          {"title": "StarTech SDOCK2U313R", "type": "manufacturer_spec", "url": "https://www.startech.com/en-us/hdd/sdock2u313r"},
+          {"title": "Electroprice provider stock SDOCK2U313R", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nr0xe5rt7tnbu1",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Azor / Uni-ball",
+        "name": "Azor Uni-ball Deluxe UB155NE1 boligrafo roller negro 0.5mm blister",
+        "description": "Boligrafo roller Uni-ball Deluxe UB155NE1 de tinta negra y punto ultrafino 0.5 mm, con punta de acero inoxidable, bola de carburo de tungsteno y tecnologia Super Ink resistente al agua, decoloracion y fraude.",
+        "manualCategoryPath": "oficina/papeleria/boligrafos/roller/uni-ball-deluxe",
+        "semanticCategoryPath": "office/stationery/pens/rollerball/uni-ball-deluxe",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/deluxe-roller/",
+        "gallery": [
+          "https://web.azor.com.mx/index.php/producto/deluxe-roller/",
+          "https://www.ofix.mx/boligrafo-roller-deluxe-negro-0-5-mm-blt---uniball-305-ub155ne1/p"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "AZOR / UNI-BALL",
+          "model": "UB155NE1",
+          "productType": "Boligrafo roller",
+          "inkColor": "Negro",
+          "tipSize": "0.5 mm",
+          "tipMaterial": "Acero inoxidable",
+          "ballMaterial": "Carburo de tungsteno",
+          "inkTechnology": "Super Ink",
+          "package": "Blister con 1 pieza",
+          "useCase": ["oficina", "escuela", "documentos"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "UB155NE1", "stock": 0, "price": 33.75, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo traia como laptop; es papeleria de oficina.", "Sin sucursal granular; stock actual proveedor 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Azor Deluxe Roller 0.5mm", "type": "manufacturer_spec", "url": "https://web.azor.com.mx/index.php/producto/deluxe-roller/"},
+          {"title": "Ofix UB155NE1", "type": "marketplace_spec", "url": "https://www.ofix.mx/boligrafo-roller-deluxe-negro-0-5-mm-blt---uniball-305-ub155ne1/p"},
+          {"title": "Electroprice provider stock UB155NE1", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nr5luw5qvivdlx",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Imou",
+        "name": "Imou Cruiser SE+ IPC-S41FEN camara IP Wi-Fi PT exterior 4MP 2K",
+        "description": "Camara IP Imou Cruiser SE+ IPC-S41FEN de 4MP 2K para exterior, con Wi-Fi 2.4GHz, puerto Ethernet, pan 355 grados, tilt 90 grados, vision nocturna 30 m, audio bidireccional, seguimiento automatico, deteccion humana, microSD hasta 256GB e IP66.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/pt-exterior/4mp-2k",
+        "semanticCategoryPath": "security/cctv/ip-cameras/wifi-pt-outdoor/4mp-2k",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.imou.com/ph/support/product-support/cruiser-se",
+        "gallery": [
+          "https://www.imou.com/ph/support/product-support/cruiser-se",
+          "https://www.imou.com/ro/product/specs/cruiser-se",
+          "https://integraalarma.com/product/ipc-s41fen-0360b-imou/"
+        ],
+        "documents": ["https://www.dahuawireless.com/wp-content/uploads/2023/12/IPC-S41FP.pdf"],
+        "specs": {
+          "brand": "IMOU",
+          "model": "IPC-S41FEN-0360B / Cruiser SE+ 4MP",
+          "sensor": "1/3-inch 4MP Progressive CMOS",
+          "resolution": "2560 x 1440",
+          "lens": "3.6 mm fixed",
+          "fieldOfView": "79 deg H, 44 deg V, 94 deg D",
+          "panTilt": "355 deg pan, 0-90 deg tilt",
+          "nightVision": "30 m IR; full-color with white LEDs",
+          "compression": "H.265",
+          "audio": "Two-way audio with built-in microphone and speaker",
+          "network": ["Wi-Fi 2.4GHz IEEE 802.11b/g/n", "1x 100Mbps Ethernet", "ONVIF"],
+          "storage": "microSD up to 256GB",
+          "protection": "IP66",
+          "power": "DC 12V 1A, <6.2W",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "IPC-S41FEN", "stock": 0, "price": 35.29, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed la traia como CCTV generico; se reclasifica como camara IP Wi-Fi PT de exterior 4MP.", "Sin sucursal granular; stock actual proveedor 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "120.7 x 136.2 x 183.3 mm", "netWeight": "390 g"},
+        "sourceRefs": [
+          {"title": "Imou Cruiser SE support", "type": "manufacturer_support", "url": "https://www.imou.com/ph/support/product-support/cruiser-se"},
+          {"title": "Imou Cruiser SE+ 4MP datasheet", "type": "manufacturer_datasheet", "url": "https://www.dahuawireless.com/wp-content/uploads/2023/12/IPC-S41FP.pdf"},
+          {"title": "Electroprice provider stock IPC-S41FEN", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nsi3p4ylt2000q",
+      "research": {
+        "confidence": 0.93,
+        "brand": "PNY",
+        "name": "PNY GeForce RTX 4080 SUPER XLR8 VERTO EPIC-X RGB OC 16GB GDDR6X",
+        "description": "Tarjeta de video PNY GeForce RTX 4080 SUPER XLR8 Gaming VERTO EPIC-X RGB Overclocked Triple Fan con 16GB GDDR6X, bus 256-bit, PCIe 4.0 x16, 10240 CUDA cores, DLSS 3, 3 DisplayPort 1.4a y HDMI 2.1a.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-40/rtx-4080-super",
+        "semanticCategoryPath": "computing/components/graphics-cards/nvidia-geforce/rtx-40/rtx-4080-super",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pny.com/pny-geforce-rtx-4080-super-16-gb-xlr8-gaming-verto-epic-x-rgb-triple-fan-oc",
+        "gallery": [
+          "https://www.pny.com/pny-geforce-rtx-4080-super-16-gb-xlr8-gaming-verto-epic-x-rgb-triple-fan-oc",
+          "https://www.bhphotovideo.com/c/product/1810921-REG/pny_vcg4080s16tfxxpb1_o_geforce_rtx_4080_super.html/specs",
+          "https://marketplace.nvidia.com/es-mx/consumer/graphics-cards/tarjeta-de-video-pny-nvidia-geforce-rtx-4080-super-16gb-xlr8-gaming-verto-epic-x-rgb-oc-triple-fan-dlss-3-16gb-256-bit-gddr6x-pci-express-4-0-x16/"
+        ],
+        "documents": ["https://www.pny.com/file%20library/company/support/product%20brochures/geforce%20graphics/english/xlr8-geforce-rtx-4080-super-16gb-epic-x-oc-tf.pdf"],
+        "specs": {
+          "brand": "PNY",
+          "model": "VCG4080S16TFXXPB1-O",
+          "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+          "architecture": "NVIDIA Ada Lovelace",
+          "memory": "16GB GDDR6X",
+          "memoryBus": "256-bit",
+          "cudaCores": 10240,
+          "boostClock": "2595 MHz",
+          "interface": "PCI Express 4.0 x16",
+          "outputs": ["3x DisplayPort 1.4a", "1x HDMI 2.1a"],
+          "powerConnector": "1x 16-pin PCIe",
+          "recommendedPsu": "750W",
+          "cooling": "Triple fan, EPIC-X RGB",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "VCG4080S16TFXXPB1-O", "stock": 0, "price": 988.21, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed la traia como accesorio/cable; es tarjeta de video gaming.", "Sin sucursal granular; stock actual proveedor 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "331.72 x 137.67 mm, 3.5-slot", "netWeight": "No publicado", "packageWeight": "5.3 lb"},
+        "sourceRefs": [
+          {"title": "PNY RTX 4080 SUPER XLR8", "type": "manufacturer_spec", "url": "https://www.pny.com/pny-geforce-rtx-4080-super-16-gb-xlr8-gaming-verto-epic-x-rgb-triple-fan-oc"},
+          {"title": "PNY RTX 4080 SUPER XLR8 brochure", "type": "manufacturer_datasheet", "url": "https://www.pny.com/file%20library/company/support/product%20brochures/geforce%20graphics/english/xlr8-geforce-rtx-4080-super-16gb-epic-x-oc-tf.pdf"},
+          {"title": "Electroprice provider stock VCG4080S16TFXXPB1-O", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nt44op5q1jxyr0",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Hewlett Packard Enterprise",
+        "name": "HPE HK1Y0E Foundation Care 3Y NBD Exchange Instant On Access Point service",
+        "description": "Servicio HPE Aruba Networking Foundation Care Exchange HK1Y0E por 3 anos con intercambio al siguiente dia habil para access points Instant On, combinando soporte remoto de hardware y software con reemplazo por intercambio.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/hpe-foundation-care/exchange",
+        "semanticCategoryPath": "it-services/support-warranty/hpe-foundation-care/exchange",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/Services-and-Support/Technology-Services/Hardware-Software-Combo-Support-Service/HPE-Foundation-Care-Exchange-Service/HPE-Aruba-Networking-Foundational-Care-3Y-NBD-Exch-Instant-ON-Access-Point-SVC/p/HK1Y0E",
+        "gallery": [
+          "https://buy.hpe.com/us/en/Services-and-Support/Technology-Services/Hardware-Software-Combo-Support-Service/HPE-Foundation-Care-Exchange-Service/HPE-Aruba-Networking-Foundational-Care-3Y-NBD-Exch-Instant-ON-Access-Point-SVC/p/HK1Y0E"
+        ],
+        "documents": ["https://www.hpe.com/psnow/downloadDoc/HPE%20Foundation%20Care%20Exchange%20Service%20data%20sheet%20-%20US%20English-4aa4-8877enw.pdf"],
+        "specs": {
+          "brand": "HEWLETT PACKARD ENTERPRISE",
+          "model": "HK1Y0E",
+          "productType": "Servicio de soporte y garantia",
+          "service": "HPE Aruba Networking Foundational Care 3Y NBD Exchange Instant On Access Point SVC",
+          "term": "3 anos",
+          "serviceLevel": "Next Business Day Exchange",
+          "coverageTarget": "Aruba Instant On Access Point",
+          "delivery": "Servicio/entitlement sin producto fisico",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "HK1Y0E", "stock": 0, "price": 1036.82, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo ubicaba como access point; el SKU es un servicio Foundation Care Exchange.", "Sin sucursal granular; stock actual proveedor 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"format": "servicio", "dimensions": "No aplica", "netWeight": "No aplica"},
+        "sourceRefs": [
+          {"title": "HPE HK1Y0E Store", "type": "manufacturer_spec", "url": "https://buy.hpe.com/us/en/Services-and-Support/Technology-Services/Hardware-Software-Combo-Support-Service/HPE-Foundation-Care-Exchange-Service/HPE-Aruba-Networking-Foundational-Care-3Y-NBD-Exch-Instant-ON-Access-Point-SVC/p/HK1Y0E"},
+          {"title": "HPE Foundation Care Exchange data sheet", "type": "manufacturer_datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%20Foundation%20Care%20Exchange%20Service%20data%20sheet%20-%20US%20English-4aa4-8877enw.pdf"},
+          {"title": "Electroprice provider stock HK1Y0E", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nwg5spevsy04n9",
+      "research": {
+        "confidence": 0.91,
+        "brand": "HP",
+        "name": "HP T1A62AA Keyed Cable Lock 10 mm candado para laptop 1.83 m",
+        "description": "Candado de seguridad HP T1A62AA Keyed Cable Lock 10 mm para notebooks, con cable de acero galvanizado recubierto de vinil de 1.83 m, llave maestra, cabezal giratorio 360 grados y garantia limitada de 1 ano.",
+        "manualCategoryPath": "accesorios/seguridad-fisica/candados-laptop/llave",
+        "semanticCategoryPath": "accessories/physical-security/laptop-locks/keyed-cable",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/hp-keyed-cable-lock-10-mm-p-t1a62aa-1",
+        "gallery": [
+          "https://www.hp.com/us-en/shop/pdp/hp-keyed-cable-lock-10-mm-p-t1a62aa-1"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "HP",
+          "model": "T1A62AA",
+          "productType": "Candado de seguridad para laptop",
+          "lockType": "Keyed cable lock 10 mm",
+          "cable": "Acero galvanizado recubierto de vinil",
+          "cableLength": "6 ft / 1.83 m",
+          "headMovement": "360 grados",
+          "warranty": "1 ano limitado",
+          "providerBranchSummary": "D2A:4,DFA:3",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 3}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "T1A62AA", "stock": 7, "price": 732.22, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo traia bajo cables/adaptadores; es candado de seguridad fisica para notebook.", "Stock granular disponible por sucursal CT: D2A 4, DFA 3."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"length": "1.83 m", "dimensions": "Cable 6 ft", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "HP Keyed Cable Lock 10 mm T1A62AA", "type": "manufacturer_spec", "url": "https://www.hp.com/us-en/shop/pdp/hp-keyed-cable-lock-10-mm-p-t1a62aa-1"},
+          {"title": "Electroprice provider stock T1A62AA", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nz6riqjon6mq3y",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Badgy / Evolis",
+        "name": "Badgy Evolis CBGR0500K ribbon monocromo negro 500 impresiones",
+        "description": "Ribbon monocromo negro Evolis Badgy CBGR0500K para impresoras de tarjetas Badgy100 y Badgy200, con rendimiento de hasta 500 impresiones por rollo.",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/ribbons-monocromo-negro",
+        "semanticCategoryPath": "pos/id-card-printers/consumables/black-monochrome-ribbons",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.evolis.com/solutions/consumables/ribbons-2/monochrome-ribbons/standard-white-monochrome-ribbon/",
+        "gallery": [
+          "https://www.evolis.com/solutions/consumables/ribbons-2/monochrome-ribbons/standard-white-monochrome-ribbon/",
+          "https://www.bhphotovideo.com/c/product/1110227-REG/evolis_cbgr0500k_black_monochrome_ribbon_for.html"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BADGY / EVOLIS",
+          "model": "CBGR0500K",
+          "productType": "Ribbon monocromo para impresora de credenciales",
+          "color": "Negro",
+          "yield": "Hasta 500 impresiones",
+          "compatibility": ["Badgy100", "Badgy200"],
+          "printTechnology": "Monocromo resin/thermal transfer para tarjetas",
+          "providerBranchSummary": "CLN:2,ACA:2,GDL:1",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "CLN", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CBGR0500K", "stock": 5, "price": 14.1, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo traia como limpieza/accesorio de computo; es consumible para credenciales.", "Stock granular disponible por sucursal CT: CLN 2, ACA 2, GDL 1."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Evolis monochrome ribbons", "type": "manufacturer_spec", "url": "https://www.evolis.com/solutions/consumables/ribbons-2/monochrome-ribbons/standard-white-monochrome-ribbon/"},
+          {"title": "B&H Evolis CBGR0500K", "type": "marketplace_spec", "url": "https://www.bhphotovideo.com/c/product/1110227-REG/evolis_cbgr0500k_black_monochrome_ribbon_for.html"},
+          {"title": "Electroprice provider stock CBGR0500K", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6nzwzajlo98rvdl",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Epson",
+        "name": "Epson FX-2190II C11CF38201 impresora matriz de punto 9 pines formato ancho",
+        "description": "Impresora de impacto Epson FX-2190II C11CF38201 de matriz de punto 9 pines y formato ancho para alta demanda, con velocidad hasta 738 cps, cinta de hasta 12 millones de caracteres, interfaces paralela y USB 2.0, soporte ESC/P2, IBM PPDS y MICROLINE.",
+        "manualCategoryPath": "impresion/impresoras/matriz-punto/formato-ancho/9-pines",
+        "semanticCategoryPath": "printing/printers/dot-matrix/wide-format/9-pin",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-trabajo/Impresoras/Matriciales/FX-2190II-Impresora-matriz-de-punto/p/C11CF38201",
+        "gallery": [
+          "https://epson.com.mx/Para-el-trabajo/Impresoras/Matriciales/FX-2190II-Impresora-matriz-de-punto/p/C11CF38201",
+          "https://www.epson.es/es_ES/productos/impresoras/impresoras-matriciales/fx-2190ii/p/22193"
+        ],
+        "documents": ["https://epson.com.bo/Para-el-trabajo/Impresoras/Matriciales/FX-2190II-Impresora-matriz-de-punto/p/C11CF38201"],
+        "specs": {
+          "brand": "EPSON",
+          "model": "FX-2190II / C11CF38201",
+          "productType": "Impresora matriz de punto formato ancho",
+          "printMethod": "Matriz de puntos de impacto de 9 agujas",
+          "maxSpeed": "738 cps en borrador ultra velocidad 12 cpi",
+          "ribbon": "S015335, hasta 12 millones de caracteres",
+          "paperWidth": "Hoja suelta 100-420 mm; continuo 101.6-406.4 mm",
+          "interfaces": ["Paralela IEEE 1284", "USB 2.0"],
+          "printerLanguages": ["Epson ESC/P2", "IBM PPDS", "Okidata MICROLINE"],
+          "inputBuffer": "128KB",
+          "noise": "55 dBA",
+          "power": "AC 100-240V, 50-60Hz",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "C11CF38201", "stock": 0, "price": 14566.86, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed la traia como monitor; es impresora de impacto matriz de punto.", "La descripcion raw dice formato ancho y alta demanda, confirmado por Epson.", "Sin sucursal granular; stock actual proveedor 0."],
+          "providerStockVerifiedAt": "2026-05-31T01:20:00Z"
+        },
+        "measurements": {"dimensions": "61.2 x 17.6 x 37.5 cm", "netWeight": "9.4 kg"},
+        "sourceRefs": [
+          {"title": "Epson Mexico FX-2190II C11CF38201", "type": "manufacturer_spec", "url": "https://epson.com.mx/Para-el-trabajo/Impresoras/Matriciales/FX-2190II-Impresora-matriz-de-punto/p/C11CF38201"},
+          {"title": "Epson Spain FX-2190II specs", "type": "manufacturer_spec", "url": "https://www.epson.es/es_ES/productos/impresoras/impresoras-matriciales/fx-2190ii/p/22193"},
+          {"title": "Electroprice provider stock C11CF38201", "type": "provider_stock", "observedAt": "2026-05-31T01:20:00Z"}
+        ]
+      }
+    }
+  ]
+}

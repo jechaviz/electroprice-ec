@@ -232,6 +232,16 @@ const batch160PlusCases = [
   ["Zebra ZD421t impresora de etiquetas transferencia termica 4 pulgadas 203 dpi USB", "ZEBRA", "impresion/impresoras/etiquetas/transferencia-termica/desktop-4-pulgadas", "printers_scanners"],
   ["Vorago AU-302-BK cargador de pared USB-A Fast Charge 5V negro", "VORAGO", "energia/cargadores-usb/pared-usb-a/fast-charge", "accessories"],
   ["Vorago CAB-AB018 cable USB 2.0 A macho a USB-B macho para impresora 1.8m negro", "VORAGO", "accesorios/cables-adaptadores/usb/usb-a-b/2-0-1-8m", "accessories"],
+  ["Ruijie Reyee RG-EW1800GX PRO router Wi-Fi 6 AX1800 dual-band gigabit", "RUIJIE", "redes/routers/wifi-6/ax1800", "networking"],
+  ["ASRock B550M-HDV tarjeta madre micro ATX AMD AM4 B550 DDR4", "ASROCK", "computo/componentes/tarjetas-madre/amd-am4/b550/micro-atx", "components"],
+  ["StarTech SDOCK2U313R duplicador dock SATA USB-C dual bay HDD SSD", "STARTECH.COM", "computo/almacenamiento/docks-duplicadores/sata/usb-c-dual-bay", "storage"],
+  ["Azor Uni-ball Deluxe UB155NE1 boligrafo roller negro 0.5mm blister", "AZOR", "oficina/papeleria/boligrafos/roller/uni-ball-deluxe", "accessories"],
+  ["Imou Cruiser SE+ IPC-S41FEN camara IP WiFi PT exterior 4MP 2K", "IMOU", "seguridad/cctv/camaras-ip-wifi/pt-exterior/4mp-2k", "cameras"],
+  ["PNY GeForce RTX 4080 SUPER XLR8 VERTO EPIC-X RGB OC 16GB VCG4080S16TFXXPB1-O", "PNY", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-40/rtx-4080-super", "gaming"],
+  ["HPE HK1Y0E Foundation Care 3Y NBD Exchange Instant On Access Point service", "HEWLETT PACKARD ENTERPRISE", "servicios-ti/soporte-garantias/hpe-foundation-care/exchange", "software"],
+  ["HP T1A62AA Keyed Cable Lock 10 mm candado para laptop 1.83m", "HP", "accesorios/seguridad-fisica/candados-laptop/llave", "accessories"],
+  ["Badgy Evolis CBGR0500K ribbon monocromo negro 500 impresiones", "BADGY", "punto-de-venta/credenciales-identificacion/consumibles/ribbons-monocromo-negro", "accessories"],
+  ["Epson FX-2190II C11CF38201 impresora matriz de punto 9 pines formato ancho", "EPSON", "impresion/impresoras/matriz-punto/formato-ancho/9-pines", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
