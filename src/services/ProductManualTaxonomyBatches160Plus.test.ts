@@ -542,6 +542,16 @@ const batch160PlusCases = [
   ["PCM 10B16 papel bond plotter 0.91 x 50 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-50m/pcm-10b16", "printers_scanners"],
   ["PCM 10B18 papel bond plotter 0.91 x 150 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-150m/pcm-10b18", "printers_scanners"],
   ["PCM 10B20 papel bond plotter 0.61 x 100 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m/pcm-10b20", "printers_scanners"],
+  ["Brother BU330CL cinturon de arrastre unidad de banda 50000 paginas", "BROTHER", "impresion/consumibles/unidades-transferencia/brother/bu330cl", "printers_scanners"],
+  ["Peerless-AV DCS400 placa estructural techo multipantalla 544 kg", "PEERLESS-AV", "video/soportes-tv/techo/estructurales-multipantalla/peerless-dcs400", "tvs"],
+  ["Zebra 104523-010 tarjeta PVC adhesiva 10 mil Mylar caja 500", "ZEBRA", "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/adhesivas/zebra-104523-010", "accessories"],
+  ["PCM 10B23 papel bond plotter 0.91 x 100 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-100m/pcm-10b23", "printers_scanners"],
+  ["Ring B08CKHPP52 Video Doorbell Wired timbre inteligente 1080p", "RING", "seguridad/videoporteros/ip/wifi-cableado/ring-b08ckhpp52", "security"],
+  ["BACO BAC3580 guia para archivo oficio 250 x 300 mm 25 piezas", "BACO", "oficina/papeleria/archivo/guias-alfabeticas/oficio/baco-bac3580", "accessories"],
+  ["Amazfit Band 7 pulsera inteligente beige AMOLED 1.47 Android iOS", "AMAZFIT", "electronica/wearables/pulseras-inteligentes/amazfit-band-7", "accessories"],
+  ["CyberPower POL-5009 servicio arranque puesta en marcha UPS trifasico", "CYBERPOWER", "servicios-ti/instalacion-puesta-en-marcha/cyberpower/ups-trifasicos/pol-5009", "software"],
+  ["Azor 2825 Vision Jr resaltador surtido 5 piezas punta cincel 4mm", "AZOR", "oficina/papeleria/marcadores/resaltadores/surtidos/5-piezas/azor-vision-jr-2825", "accessories"],
+  ["BACO 53411 Le Plume boligrafo rojo punto mediano 1.0 mm caja 12", "BACO", "oficina/papeleria/boligrafos/boligrafo-punto-mediano/baco-le-plume-rojo-12-piezas", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
