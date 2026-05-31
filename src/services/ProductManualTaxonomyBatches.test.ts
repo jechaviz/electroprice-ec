@@ -51,7 +51,7 @@ const researchedBatchCases = [
   ["Pacific Soft KITPSF070 punto de venta para farmacias", "PACIFIC SOFT", "punto-de-venta/software-pos"],
   ["Orvibo SM11 sensor de puerta ventana Zigbee", "ORVIBO", "domotica/sensores"],
   ["Multimedia Screens MSC-265 pantalla de proyeccion 120", "MULTIMEDIA SCREENS", "video/accesorios-proyeccion"],
-  ["Poly EncorePro 510 783Q1AA headset Quick Disconnect", "POLY", "audio/audifonos"],
+  ["Poly EncorePro 510 783Q1AA headset Quick Disconnect", "POLY", "audio/audifonos/call-center/alambricas-qd/poly-encorepro-hw510"],
   ["Anviz AN-C2Slim-BT control de acceso lector de huella", "ANVIZ", "seguridad/control-acceso/biometricos"],
   ["Anviz AN-EMICARD tarjeta RFID 125Khz PVC", "ANVIZ", "seguridad/control-acceso/tarjetas-rfid"],
   ["IMOU ARD311-SW contacto magnetico inalambrico", "IMOU", "domotica/sensores"],
