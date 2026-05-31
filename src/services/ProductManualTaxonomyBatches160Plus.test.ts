@@ -282,6 +282,16 @@ const batch160PlusCases = [
   ["Tripp Lite SRVRTBAR barras verticales organizadoras de cable 42U para rack", "TRIPP-LITE", "infraestructura/racks-accesorios/organizadores-cable/verticales/tripp-lite-srvrtbar-42u", "networking"],
   ["Creative MUVO Go MF8405 BU bocina Bluetooth 5.3 IPX7 20W azul", "CREATIVE", "audio/bocinas/bluetooth/portatiles/ipx7-20w/creative-muvo-go", "audio"],
   ["Dell N_OPTL1_N1_P3 garantia OptiPlex 3000 1Y Basic NBD a 3Y ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-nbd-a-3y-prosupport", "software"],
+  ["PCM 50000I0012A etiquetas transferencia termica blancas", "PCM", "impresion/consumibles/etiquetas/transferencia-termica/blancas/pcm-50000i0012a", "printers_scanners"],
+  ["Qian Linyi PA-96R SS5009 sensor movimiento PIR inalambrico", "QIAN", "seguridad/alarmas/sensores/movimiento-pir/inalambricos/qian-pa-96r", "security"],
+  ["LG GM25BPT refrigerador French Door 25 pies negro mate", "LG", "hogar/electrodomesticos/refrigeradores/french-door/25-pies/lg-gm25bpt", "accessories"],
+  ["Soft Restaurant CFDI-10000 paquete 10000 timbres CFDI", "NATIONAL SOFT", "punto-de-venta/software-pos/restaurantes/timbres-cfdi/10000", "software"],
+  ["ALTER EV-OB251 cargador EV wallbox Tipo 2 7kW 32A IP54", "ALTER", "energia/movilidad-electrica/cargadores-ev/wallbox/tipo-2/7kw-32a", "power"],
+  ["Targus Newport TXZ026GL bolso crossbody negro para tablet", "TARGUS", "computo/accesorios/mochilas-fundas/bolsos-crossbody/tablet/targus-newport", "accessories"],
+  ["Vorago KSP-502 bafle karaoke Bluetooth 15 pulgadas 80W negro", "VORAGO", "audio/bocinas/karaoke/bafles-bluetooth/15-pulgadas/80w", "audio"],
+  ["Azor Signal Metalink 30010 marcador permanente plata caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/permanentes/metalicos/plata/12-piezas", "accessories"],
+  ["Dell EXTGAR extension de garantia generica validar service tag", "DELL", "servicios-ti/soporte-garantias/dell/extension-generica", "software"],
+  ["Anviz W1 Pro terminal control asistencia huella RFID WiFi", "ANVIZ", "seguridad/control-acceso/asistencia/biometricos/huella-rfid/anviz-w1-pro", "security"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

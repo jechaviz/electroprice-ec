@@ -1,0 +1,482 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b188-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 188,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1a6l8zlp624e0wd",
+      "research": {
+        "confidence": 0.86,
+        "brand": "PCM",
+        "name": "PCM 50000I0012A etiquetas transferencia termica blancas",
+        "description": "Etiquetas blancas PCM para impresion por transferencia termica, usadas como consumible POS/logistico para codigos de barras, identificacion e inventario. El feed no publica medida ni cantidad por rollo para este numero de parte.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas/transferencia-termica/blancas/pcm-50000i0012a",
+        "semanticCategoryPath": "printing/consumables/labels/thermal-transfer/white/pcm-50000i0012a",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/etiquetas-y-ribbons/etiquetas-transferencia-termica-directa",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCPCM1370_full.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-50000i0012a-etiquetas-tt-pcm-50000i0012a.webp",
+          "https://www.mactoner.com.mx/producto/etiquetas-tt-pcm-50000i0012a-blanco/",
+          "https://www.pcm.com.mx/etiquetas-y-ribbons/etiquetas-transferencia-termica-directa"
+        ],
+        "documents": [
+          "https://www.pcm.com.mx/hubfs/Presentacion-PCM-General.pdf"
+        ],
+        "specs": {
+          "brand": "PCM",
+          "model": "50000I0012A",
+          "providerSku": "ACCPCM1370",
+          "productType": "Etiquetas de transferencia termica",
+          "printTechnology": "Transferencia termica",
+          "color": "Blanco",
+          "useCases": ["Codigos de barras", "Identificacion de productos", "Inventario", "Trazabilidad", "Paqueteria"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCPCM1370", "stock": 0, "price": 55.3, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha publica con medida/cantidad exacta para 50000I0012A; conservar solo atributos confirmados por feed y retail."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {},
+        "sourceRefs": [
+          {"title": "MacToner PCM 50000I0012A", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/etiquetas-tt-pcm-50000i0012a-blanco/"},
+          {"title": "Cityshop PCM 50000I0012A", "type": "retailer_spec", "url": "https://cityshop.mx/producto/etiquetas-tt-pcm-50000i0012a-blanco"},
+          {"title": "PCM etiquetas transferencia termica directa", "type": "manufacturer_category", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons/etiquetas-transferencia-termica-directa"},
+          {"title": "Electroprice provider stock ACCPCM1370", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1b6jjinrys5zevx",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Qian",
+        "name": "Qian Linyi PA-96R SS5009 sensor movimiento PIR inalambrico",
+        "description": "Sensor infrarrojo pasivo inalambrico Qian/Linyi PA-96R SS5009 para deteccion de movimiento en sistemas de alarma. Opera por radiofrecuencia y cubre distancia de deteccion reportada de 12 m.",
+        "manualCategoryPath": "seguridad/alarmas/sensores/movimiento-pir/inalambricos/qian-pa-96r",
+        "semanticCategoryPath": "security/alarms/sensors/pir-motion/wireless/qian-pa-96r",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://ctisystems.mx/detector-de-movimiento-qian-linyi-pa-96r-ss5009-inalambrico",
+          "https://pcstore.mx/detector-movimiento-linyi-inalambrico-qian-pa-96rss5009-inalambrico"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Qian",
+          "model": "PA-96R",
+          "alternateModel": "SS5009",
+          "ean": "7503026359440",
+          "providerSku": "ACCQIA140",
+          "productType": "Sensor de movimiento PIR inalambrico",
+          "sensorType": "Infrarrojo pasivo (PIR)",
+          "connectivity": "RF inalambrico",
+          "frequencyMhz": 433,
+          "detectionDistanceM": 12,
+          "curtainDetectionM": 8,
+          "power": "3 V, 2 pilas AA",
+          "color": "Blanco",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCQIA140", "stock": 0, "price": 6.02, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": [],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {},
+        "sourceRefs": [
+          {"title": "CTI Systems Qian PA-96R SS5009", "type": "retailer_spec", "url": "https://ctisystems.mx/detector-de-movimiento-qian-linyi-pa-96r-ss5009-inalambrico"},
+          {"title": "PCStore Qian PA-96R SS5009", "type": "retailer_spec", "url": "https://pcstore.mx/detector-movimiento-linyi-inalambrico-qian-pa-96rss5009-inalambrico"},
+          {"title": "MacToner Qian PA-96R SS5009", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/detector-de-movimiento-linyi-inalambrico-qian-linyi-pa-96r-ss5009-color-blanco/"},
+          {"title": "Electroprice provider stock ACCQIA140", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1cbnenhvg0vy5c5",
+      "research": {
+        "confidence": 0.88,
+        "brand": "LG",
+        "name": "LG GM25BPT refrigerador French Door 25 pies negro mate",
+        "description": "Refrigerador LG GM25BPT tipo French Door de 25 pies cubicos/710 L segun manual, instalacion independiente, ThinQ, LinearCooling, DoorCooling+, Multi Air Flow y compresor Linear Inverter. Incluye congelador inferior.",
+        "manualCategoryPath": "hogar/electrodomesticos/refrigeradores/french-door/25-pies/lg-gm25bpt",
+        "semanticCategoryPath": "home/appliances/refrigerators/french-door/25-cu-ft/lg-gm25bpt",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/mx/refrigeradores/refrigeradores-french-door/gm25bpt/",
+        "gallery": [
+          "https://www.lg.com/content/dam/channel/wcms/mx/register2025/hs-thumbnail-gallery/ref/2010x1334/GM25BPT.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+          "https://www.lg.com/content/dam/channel/wcms/mx/images/refrigeradores/-gm25bpt%28gallery%29/DZ-09.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+          "https://www.compustar.mx/producto/refrigerador-gm25bpt-25ft-french-door-negro-mte/",
+          "https://www.sams.com.mx/ip/refrigerador-lg-25-pies-cubicos-french-door-gm25bpt/981026384"
+        ],
+        "documents": [
+          "https://gscs-b2c.lge.com/open/downloadFile?fileId=BnvhGyHTsc4sT2y5SK84Q"
+        ],
+        "specs": {
+          "brand": "LG",
+          "model": "GM25BPT",
+          "ean": "8806096203446",
+          "providerSku": "REFLGE140",
+          "productType": "Refrigerador French Door",
+          "capacityL": 710,
+          "capacityFt3": 25,
+          "installation": "Independiente",
+          "doorStyle": "French Door 3 puertas",
+          "color": "Negro mate",
+          "coolingFeatures": ["ThinQ", "LinearCooling", "DoorCooling+", "Multi Air Flow", "No Frost"],
+          "compressor": "Linear Inverter",
+          "voltage": "127 V~ 60 Hz",
+          "ratedCurrentA": 3.5,
+          "estimatedEnergyConsumptionKwhYear": 440,
+          "noiseDb": 38,
+          "freshZone": true,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "REFLGE140", "stock": 0, "price": 16951.1, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["LG oficial y retailers muestran dimensiones/capacidad con pequenas diferencias: manual 710 L y otros canales 707 L; validar ficha final de empaque antes de publicar medidas definitivas."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"widthCm": 83.3, "depthCm": 84.5, "heightCm": 177.4, "weightKg": 103.8},
+        "sourceRefs": [
+          {"title": "LG Mexico GM25BPT", "type": "manufacturer_spec", "url": "https://www.lg.com/mx/refrigeradores/refrigeradores-french-door/gm25bpt/"},
+          {"title": "Manual LG GM25BPT", "type": "manufacturer_document", "url": "https://gscs-b2c.lge.com/open/downloadFile?fileId=BnvhGyHTsc4sT2y5SK84Q"},
+          {"title": "Compustar LG GM25BPT specs", "type": "retailer_spec", "url": "https://www.compustar.mx/producto/refrigerador-gm25bpt-25ft-french-door-negro-mte/"},
+          {"title": "Electroprice provider stock REFLGE140", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1chqm44pyx6k0qh",
+      "research": {
+        "confidence": 0.9,
+        "brand": "National Soft",
+        "name": "Soft Restaurant CFDI-10000 paquete 10000 timbres CFDI",
+        "description": "Paquete de 10000 timbres CFDI para emision de comprobantes fiscales en Soft Restaurant, compatible con los flujos de facturacion de National Soft. Servicio/licencia digital, sin medidas fisicas.",
+        "manualCategoryPath": "punto-de-venta/software-pos/restaurantes/timbres-cfdi/10000",
+        "semanticCategoryPath": "point-of-sale/software/restaurants/cfdi-stamps/10000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.nationalsoft.store/Producto/CatalogoCFDI?clasificacion=SR",
+        "gallery": [
+          "https://www.nationalsoft.store/Producto/CatalogoCFDI?clasificacion=SR",
+          "https://softrestaurant.com/cfdi"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "National Soft",
+          "productLine": "Soft Restaurant",
+          "model": "CFDI-10000",
+          "providerSku": "KITNTS3930",
+          "productType": "Paquete de timbres CFDI",
+          "stampQuantity": 10000,
+          "deliveryFormat": "Licencia/servicio digital",
+          "compatibility": ["Soft Restaurant STD", "Soft Restaurant Pro"],
+          "requiresLicenseData": true,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "KITNTS3930", "stock": 0, "price": 9057.65, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La compra requiere datos de licencia/numero de control; validar activacion con el cliente antes de venta."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"digitalDelivery": true},
+        "sourceRefs": [
+          {"title": "National Soft Store CFDI Soft Restaurant", "type": "manufacturer_store", "url": "https://www.nationalsoft.store/Producto/CatalogoCFDI?clasificacion=SR"},
+          {"title": "Soft Restaurant CFDI", "type": "manufacturer_info", "url": "https://softrestaurant.com/cfdi"},
+          {"title": "Electroprice provider stock KITNTS3930", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1dt3u4rs3k1mspq",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ALTER",
+        "name": "ALTER EV-OB251 cargador EV wallbox Tipo 2 7kW 32A IP54",
+        "description": "Estacion de carga de pared ALTER EV-OB251 para vehiculos electricos con conector Tipo 2, entrada/salida 120-240 VCA, potencia maxima 7 kW, corriente 32 A y proteccion IP54. Se entrega sin plug de corriente electrica.",
+        "manualCategoryPath": "energia/movilidad-electrica/cargadores-ev/wallbox/tipo-2/7kw-32a",
+        "semanticCategoryPath": "power/electric-mobility/ev-chargers/wallbox/type-2/7kw-32a",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://radioelectronicsenlinea.mx/products/fp2cpalt02",
+          "https://fulloffice.com/products/cargador-de-pared-ev-ob251-alter-conector-tipo-2-con-entrada-salida-120-240vca-potencia-max-7kw-ip54-sin-plug-de-corriente-electrica"
+        ],
+        "documents": [
+          "https://bsai.com.mx/cdn/shop/files/1735260344645_ficha_676df8878c943.pdf?v=18372203731380272031"
+        ],
+        "specs": {
+          "brand": "ALTER",
+          "model": "EV-OB251",
+          "providerSku": "ACCALT080",
+          "productType": "Cargador de pared para vehiculos electricos",
+          "connector": "Tipo 2",
+          "inputOutputVoltage": "110-250 VCA 50/60 Hz",
+          "maxPowerKw": 7,
+          "outputCurrentA": 32,
+          "ingressProtection": "IP54",
+          "plugIncluded": false,
+          "cableLengthM": 5,
+          "activation": "Tags RFID incluidos",
+          "packageIncludes": ["Wallbox", "Soporte", "Holder", "Conector pistola Tipo 2", "Tornilleria", "Taquetes", "2 tags RFID", "Manual"],
+          "color": "Negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCALT080", "stock": 0, "price": 277.2, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Ficha tecnica y titulo dicen IP54; algunas descripciones retail dicen IP67. Usar IP54 y validar instalacion electrica profesional."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"widthCm": 22.0, "depthCm": 8.0, "heightCm": 30.0, "weightKg": 4.94, "cableLengthM": 5},
+        "sourceRefs": [
+          {"title": "Radio Electronics ALTER EV-OB251", "type": "retailer_spec", "url": "https://radioelectronicsenlinea.mx/products/fp2cpalt02"},
+          {"title": "Bsai ficha ALTER EV-OB251", "type": "retailer_document", "url": "https://bsai.com.mx/cdn/shop/files/1735260344645_ficha_676df8878c943.pdf?v=18372203731380272031"},
+          {"title": "Tecnosinergia guia instalacion cargadores EV", "type": "distributor_help", "url": "https://tecnosinergia.zendesk.com/hc/es/articles/32282764612251-Gu%C3%ADa-para-la-instalaci%C3%B3n-de-cargadores-de-autos-el%C3%A9ctricos-en-M%C3%A9xico"},
+          {"title": "Electroprice provider stock ACCALT080", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1fkoojrnz5y3oaq",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Targus",
+        "name": "Targus Newport TXZ026GL bolso crossbody negro para tablet",
+        "description": "Bolso crossbody Targus Newport TXZ026GL color negro para articulos diarios y tablet/iPad mini, con correa ajustable/removible, bolsillo frontal y compartimentos interiores. Fabricado en nylon twill repelente al agua con detalles tipo piel.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/bolsos-crossbody/tablet/targus-newport",
+        "semanticCategoryPath": "computing/accessories/bags/crossbody/tablet/targus-newport",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ap.targus.com/products/newport-crossbody-pouch-black",
+        "gallery": [
+          "https://ap.targus.com/products/newport-crossbody-pouch-black",
+          "https://ap.targus.com/cdn/shop/products/TXZ026GL_USE1_1024x1024.jpg?v=1617182243",
+          "https://intercompras.com/p/bolso-targus-newport-crossbody-pouch-negro-311197"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Targus",
+          "model": "TXZ026GL",
+          "upc": "092636347802",
+          "eanFromFeed": "5051794030747",
+          "providerSku": "ACCTRG2990",
+          "productType": "Bolso crossbody para tablet",
+          "series": "Newport",
+          "color": "Negro",
+          "material": "Nylon twill y detalles leatherette",
+          "maxDeviceSizeIn": 8.3,
+          "strap": "Removible y ajustable",
+          "pockets": ["Bolsillo frontal", "Interior forrado con bolsillos"],
+          "protection": "Repelente al agua",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCTRG2990", "stock": 0, "price": 23.38, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Best Buy reporta peso 0.55 oz y distribuidores 8.15 oz; se conserva 8.15 oz como peso mas plausible para bolso fisico."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"widthCm": 23.6, "heightCm": 16.0, "depthCm": 5.6, "weightKg": 0.231},
+        "sourceRefs": [
+          {"title": "Targus AP TXZ026GL", "type": "manufacturer_spec", "url": "https://ap.targus.com/products/newport-crossbody-pouch-black"},
+          {"title": "Best Buy Targus TXZ026GL", "type": "retailer_spec", "url": "https://www.bestbuy.com/site/targus-newport-crossbody-pouch-black/6491336.p"},
+          {"title": "SuperWarehouse Targus TXZ026GL", "type": "retailer_spec", "url": "https://www.superwarehouse.com/targus-group-international-newport-crossbody-pouch-black-txz026gl.html"},
+          {"title": "Electroprice provider stock ACCTRG2990", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1fxgvp8vutop8l7",
+      "research": {
+        "confidence": 0.93,
+        "brand": "VORAGO",
+        "name": "Vorago KSP-502 bafle karaoke Bluetooth 15 pulgadas 80W negro",
+        "description": "Bafle Vorago KSP-502 para karaoke con Bluetooth, entradas 3.5 mm/USB/TF, radio FM, TWS, microfono alambrico incluido, bocina de 15 pulgadas, potencia 80 W y autonomia hasta 4 horas.",
+        "manualCategoryPath": "audio/bocinas/karaoke/bafles-bluetooth/15-pulgadas/80w",
+        "semanticCategoryPath": "audio/speakers/karaoke/bluetooth-pa/15-inch/80w",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/bocina-amplificada-vorago-80w-rms-inalambrico-bluetooth-karaoke-negro-ksp-502.html",
+        "gallery": [
+          "https://voragolive.com/bocina-amplificada-vorago-80w-rms-inalambrico-bluetooth-karaoke-negro-ksp-502.html",
+          "https://voragolive.com/media/catalog/product/7/2/72850180.jpg?height=792&image-type=image&store=vorago_view&width=647",
+          "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/VOCBOCAB047",
+          "https://oasify.com/bocinas/276384-bafle-vorago-karaoke-ksp-502-bluetooth-alambricoinalambrico-80w-rms-usb-20-negro-7503038925145.html"
+        ],
+        "documents": [
+          "https://voragolive.com/media/vorago/descargables/ksp-50276491675800888.pdf",
+          "https://voragolive.com/media/vorago/descargables/ksp-50282131675800888.pdf"
+        ],
+        "specs": {
+          "brand": "Vorago",
+          "model": "KSP-502",
+          "ean": "7503038925145",
+          "providerSku": "BOCVGO1530",
+          "productType": "Bafle karaoke Bluetooth",
+          "connectivity": ["Bluetooth", "3.5 mm", "USB", "TF", "FM"],
+          "wirelessRangeM": 10,
+          "powerW": 80,
+          "frequencyResponse": "180 Hz - 20 kHz",
+          "sensitivityDb": 94,
+          "impedanceOhm": 8,
+          "thd": "<=0.3%",
+          "speakerDiameterIn": 15,
+          "batteryLifeHours": 4,
+          "powerInput": "110-240 V ~ 50-60 Hz 2 A",
+          "microphoneIncluded": true,
+          "color": "Negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BOCVGO1530", "stock": 0, "price": 91.77, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": [],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"widthCm": 40.5, "depthCm": 35.5, "heightCm": 65.0, "weightKg": 11.0},
+        "sourceRefs": [
+          {"title": "Vorago KSP-502 product page", "type": "manufacturer_spec", "url": "https://voragolive.com/bocina-amplificada-vorago-80w-rms-inalambrico-bluetooth-karaoke-negro-ksp-502.html"},
+          {"title": "Vorago KSP-502 ficha PDF", "type": "manufacturer_document", "url": "https://voragolive.com/media/vorago/descargables/ksp-50276491675800888.pdf"},
+          {"title": "Exel Vorago KSP-502", "type": "retailer_spec", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/VOCBOCAB047"},
+          {"title": "Electroprice provider stock BOCVGO1530", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1gk1wbs5nkv4a4c",
+      "research": {
+        "confidence": 0.91,
+        "brand": "AZOR",
+        "name": "Azor Signal Metalink 30010 marcador permanente plata caja 12 piezas",
+        "description": "Caja de 12 marcadores permanentes Azor Signal Metalink color plata, tinta metalizada para superficies claras y oscuras, punta bala/fina de 1.3 mm. Orientado a tarjeteria, arte, diseno y marcado sobre metal, ceramica, papel, tela y CD.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/metalicos/plata/12-piezas",
+        "semanticCategoryPath": "office/stationery/markers/permanent/metallic/silver/12-pack",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mail.azor.com.mx/catalogo/azor-escritura-25.pdf",
+        "gallery": [
+          "https://www.tony.com.mx/marcador-permanente-delgado-plata-caja-con-12-piezas-azor-metalink-30010-30010/p",
+          "https://intercompras.com/p/marcador-permanente-azor-punta-bala-color-plateado-set-piezas-uso-231268"
+        ],
+        "documents": [
+          "https://mail.azor.com.mx/catalogo/azor-escritura-25.pdf"
+        ],
+        "specs": {
+          "brand": "Azor",
+          "line": "Signal Metalink",
+          "model": "30010",
+          "ean": "7501428712658",
+          "providerSku": "ACCAZR620",
+          "productType": "Marcador permanente metalico",
+          "color": "Plata",
+          "tipType": "Bala fina",
+          "tipSizeMm": 1.3,
+          "ink": "Metalizada permanente",
+          "quantity": 12,
+          "surfaceCompatibility": ["Metal", "Ceramica", "Papel", "Tela", "CD", "Superficies claras y oscuras"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCAZR620", "stock": 0, "price": 131.69, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Una fuente menor lista color blanco; EAN y multiples retailers coinciden en plata/plateado para 30010."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"packQuantity": 12},
+        "sourceRefs": [
+          {"title": "Tony Azor Metalink 30010", "type": "retailer_spec", "url": "https://www.tony.com.mx/marcador-permanente-delgado-plata-caja-con-12-piezas-azor-metalink-30010-30010/p"},
+          {"title": "Azor catalogo escritura", "type": "manufacturer_document", "url": "https://mail.azor.com.mx/catalogo/azor-escritura-25.pdf"},
+          {"title": "Electroprice provider stock ACCAZR620", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1h8jlwv1uvlju9o",
+      "research": {
+        "confidence": 0.82,
+        "brand": "DELL",
+        "name": "Dell EXTGAR extension de garantia generica validar service tag",
+        "description": "Extension/renovacion de garantia Dell generica del canal CTOnline. La clave publica no permite inferir duracion, linea de equipo ni nivel de soporte; debe validarse contra service tag/serie y cotizacion Dell antes de venta.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/extension-generica",
+        "semanticCategoryPath": "it-services/support-warranty/dell/generic-extension",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "gallery": [
+          "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+          "https://www.dell.com/en-us/lp/dell-warranty-extensions-upgrades"
+        ],
+        "documents": [
+          "https://www.delltechnologies.com/asset/en-us/services/support/briefs-summaries/dell-prosupport-suite-for-pcs-comparison-chart-commercial.pdf",
+          "https://www.dell.com/en-us/lp/dell-warranty-extensions-upgrades"
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "EXTGAR",
+          "providerSku": "EXTDEL1210",
+          "productType": "Extension de garantia Dell",
+          "serviceLevel": "No especificado por feed",
+          "duration": "No especificada por feed",
+          "requiresServiceTagValidation": true,
+          "deliveryFormat": "Servicio/licencia",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "EXTDEL1210", "stock": 0, "price": 670.98, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha publica exacta para EXTDEL1210/EXTGAR; no publicar compatibilidad ni plazo especifico sin cotizacion Dell."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"digitalDelivery": true},
+        "sourceRefs": [
+          {"title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs"},
+          {"title": "Dell ProSupport comparison PDF", "type": "manufacturer_document", "url": "https://www.delltechnologies.com/asset/en-us/services/support/briefs-summaries/dell-prosupport-suite-for-pcs-comparison-chart-commercial.pdf"},
+          {"title": "Electroprice provider stock EXTDEL1210", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1hchfw8dq4nb6je",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Anviz",
+        "name": "Anviz W1 Pro terminal control asistencia huella RFID WiFi",
+        "description": "Terminal biometrico Anviz W1 Pro para control de asistencia con huella, tarjeta RFID EM 125 kHz y password, pantalla TFT 2.8 pulgadas, TCP/IP, WiFi, USB y administracion CrossChex/CrossChex Cloud.",
+        "manualCategoryPath": "seguridad/control-acceso/asistencia/biometricos/huella-rfid/anviz-w1-pro",
+        "semanticCategoryPath": "security/access-control/time-attendance/biometric/fingerprint-rfid/anviz-w1-pro",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.anviz.com/product/w1pro-time-attendance.html",
+        "gallery": [
+          "https://www.anviz.com/product/w1pro-time-attendance.html",
+          "https://www.anviz.com/W1-Pro.html",
+          "https://anvizespana.com/producto/w1-pro/"
+        ],
+        "documents": [
+          "https://www.anviz.com/file/download/10602/W1ProUserGuideV1.4.pdf",
+          "https://www.anviz.com/file/download/2841/Anviz_W1Pro_Flyer_EN_08.15.2019.pdf",
+          "https://www.anviz.com/file/download/9139.html"
+        ],
+        "specs": {
+          "brand": "Anviz",
+          "model": "W1 Pro",
+          "providerModel": "AN-W1PRO",
+          "providerSku": "SOFAVZ350",
+          "productType": "Terminal de control de asistencia biometrico",
+          "fingerprintCapacity": 3000,
+          "cardCapacity": 3000,
+          "recordCapacity": 100000,
+          "identificationModes": ["Huella", "Password", "Tarjeta EM 125KHz"],
+          "identificationSpeedSec": 0.5,
+          "communications": ["TCP/IP", "WiFi", "USB"],
+          "display": "TFT LCD 2.8 pulgadas",
+          "cpu": "1.0 GHz",
+          "sensor": "AFOS 518 touch active fingerprint sensor",
+          "scanAreaMm": "22 x 18",
+          "software": ["CrossChex Standard", "CrossChex Cloud"],
+          "powerInput": "DC 12V",
+          "workingTemperature": "-30C a 60C",
+          "humidity": "20% a 90%",
+          "color": "Plata",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SOFAVZ350", "stock": 0, "price": 119.9, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Algunas fichas regionales listan capacidades mayores; se conserva la capacidad publicada en pagina global Anviz visible para W1 Pro."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"widthCm": 13.0, "heightCm": 14.0, "depthCm": 3.0, "weightKg": 0.2},
+        "sourceRefs": [
+          {"title": "Anviz Global W1 Pro", "type": "manufacturer_spec", "url": "https://www.anviz.com/product/w1pro-time-attendance.html"},
+          {"title": "Anviz W1 Pro official alternate", "type": "manufacturer_spec", "url": "https://www.anviz.com/W1-Pro.html"},
+          {"title": "Anviz W1 Pro user guide", "type": "manufacturer_document", "url": "https://www.anviz.com/file/download/10602/W1ProUserGuideV1.4.pdf"},
+          {"title": "Electroprice provider stock SOFAVZ350", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    }
+  ]
+}
