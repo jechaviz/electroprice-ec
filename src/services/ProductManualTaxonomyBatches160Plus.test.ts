@@ -332,6 +332,16 @@ const batch160PlusCases = [
   ["Enson ENS-SRJ45-CAT5E plug RJ45 blindado Cat5e para cable UTP", "ENSON", "redes/cableado-estructurado/conectores-rj45/cat5e/blindados/enson-ens-srj45-cat5e", "networking"],
   ["Alter EV-OMB141 cargador portatil EV Tipo 2 1.92kW 16A NEMA 5-15P", "ALTER", "energia/movilidad-electrica/cargadores-ev/portatiles/tipo-2/16a/alter-ev-omb141", "power"],
   ["Dell N_INSPNBL5_C1_C3 garantia Inspiron 2 en 1 1Y Carry-In a 3Y Carry-In", "DELL", "servicios-ti/soporte-garantias/dell/carry-in/inspiron-2-en-1/1y-a-3y", "software"],
+  ["Kodak Alaris i3500 escaner documental ADF A3 110 ppm", "KODAK", "impresion/escaneres/documentales/adf/alto-volumen/kodak-i3500", "printers_scanners"],
+  ["Azor Aquarelo Grip 20012 marcadores lavables base agua 12 colores", "AZOR", "oficina/papeleria/marcadores/base-agua-lavables/12-colores/azor-aquarelo-grip-20012", "accessories"],
+  ["JC Vision JC-XT320PCAP mesa interactiva tactil 32 pulgadas Full HD blanca", "JC Vision", "electronica/pantallas-y-monitores/pizarrones-interactivos/mesas-interactivas/32-pulgadas", "accessories"],
+  ["BACO Le Plume 53404 boligrafo 1.0 mm tinta negra caja 12 piezas", "BACO", "oficina/papeleria/boligrafos/boligrafo-punto-mediano/baco-le-plume-negro-12-piezas", "accessories"],
+  ["Kodak Alaris E1035 escaner documental duplex ADF 80 hojas 35 ppm", "KODAK", "impresion/escaneres/documentales/adf/duplex/kodak-e1035", "printers_scanners"],
+  ["Dell N_OPTL1_N1_N5 garantia OptiPlex 3000 1Y Basic NBD a 5Y Basic NBD", "DELL", "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-3000/1y-a-5y", "software"],
+  ["GHIA PCGHIA-3286A extension de garantia 24 meses adicionales", "GHIA", "servicios-ti/soporte-garantias/ghia/pcghia-3286/24-meses-adicionales", "software"],
+  ["Soft Restaurant Movil comandero con Lenovo Tab One TB305FU 8.7 pulgadas", "SOFT RESTAURANT", "punto-de-venta/software-pos/restaurantes/comandero-movil/tablet-android/lenovo-tab-one-8-7", "software"],
+  ["Lenovo ThinkStation P3 Ultra SFF Gen 2 PA0012 Core Ultra 9 RTX 2000 Ada 5Y Onsite", "LENOVO", "computo/desktops/workstations/lenovo-thinkstation-p3-ultra-sff-gen-2/pa0012-5y-onsite", "desktops"],
+  ["Meriva Streamax M4PIN 7M cable Tipo-B para camara MCA20D ADAS", "MERIVA TECHNOLOGY", "seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m4pin", "cameras"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
