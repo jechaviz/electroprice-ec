@@ -1,0 +1,422 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b230-2026-05-31",
+  "cycle": 3,
+  "batch": 230,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "pwtbo835u3u8st2",
+      "research": {
+        "confidence": 0.93,
+        "brand": "KENSINGTON",
+        "name": "Placa de montaje VESA Kensington K33959WW para docking station",
+        "description": "Placa metalica negra Kensington K33959WW para montar una docking station compatible detras del monitor con patrones VESA 75 x 75 mm y 100 x 100 mm.",
+        "manualCategoryPath": "computo/accesorios/soportes-monitor/vesa/docking-stations/kensington-k33959ww",
+        "semanticCategoryPath": "computo/accesorios/soportes-monitor/vesa/docking-stations",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://customer.kensington.com/us/us/s/k33959ww/docking_station_vesa_mounting_plate",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCKNS1080_full.jpg",
+          "https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/954664/954664_o51_et_14554569/954664_o51_et_14554569.jpg",
+          "https://media.accobrandspartner.com/sections/mediaBankPreview.aspx?id=266974&width=1000&height=1000"
+        ],
+        "specs": {
+          "brand": "Kensington",
+          "model": "K33959WW",
+          "providerSku": "ACCKNS1080",
+          "upc": "085896339595",
+          "productType": "Placa VESA para docking station",
+          "color": "Negro",
+          "material": "Metal",
+          "vesaPatterns": ["75 x 75 mm", "100 x 100 mm"],
+          "includedHardware": ["2 tornillos M4", "2 tornillos M2.5"],
+          "warranty": "2 anos limitada Kensington",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner muestra sin existencias y retailers internacionales conservan disponibilidad parcial.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCKNS1080", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 166.67, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $247.37 MXN, sin existencias.", "ODP Business $14.29 USD.", "CDW $19.99 USD.", "Westend IT Store $10.01 USD, in stock."],
+          "reviewNotes": "Accesorio de montaje VESA para docking station; no es soporte articulado para monitor."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque retail 125 x 180 x 7 mm", "weight": "0.26 kg bruto; MacToner lista 210 g" },
+        "sourceRefs": [
+          { "title": "Kensington K33959WW support", "type": "manufacturer_product", "url": "https://customer.kensington.com/us/us/s/k33959ww/docking_station_vesa_mounting_plate" },
+          { "title": "ACCO K33959WW PDF", "type": "manufacturer_pdf", "url": "https://accoblobstorageus.blob.core.windows.net/literature/b513dfd8-9c90-44f4-aabf-754aea098d0a.pdf" },
+          { "title": "B&H K33959WW PDF", "type": "retailer_pdf", "url": "https://www.bhphotovideo.com/lit_files/266640.pdf" },
+          { "title": "MacToner K33959WW", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/placa-de-montaje-kensington-k33959ww/" },
+          { "title": "CTOnline batch ACCKNS1080 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "du6vmqbq4aza5h9",
+      "research": {
+        "confidence": 0.91,
+        "brand": "HP",
+        "name": "Unidad recolectora de toner residual HP/Samsung CLT-W506 SU437A",
+        "description": "Contenedor de toner residual HP/Samsung CLT-W506 SU437A para equipos laser Samsung compatibles de las familias CLP-680, CLX-6260 y ProXpress.",
+        "manualCategoryPath": "impresion/consumibles/contenedores-desperdicio/hp-samsung/clt-w506-su437a",
+        "semanticCategoryPath": "impresion/consumibles/contenedores-desperdicio/hp-samsung",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/TONHPS1360_full.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-su437a-unidad-recolectora-samsung-clt-w506.webp",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop_su437a_unidad-recolectora-samsung-clt-w506_0.webp",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop_su437a_unidad-recolectora-samsung-clt-w506_1.webp"
+        ],
+        "specs": {
+          "brand": "HP / Samsung",
+          "model": "CLT-W506",
+          "mpn": "SU437A",
+          "providerSku": "TONHPS1360",
+          "upc": "0191628462940",
+          "productType": "Unidad recolectora de toner residual",
+          "technology": "Laser",
+          "yield": "10000 paginas segun CTOnline, MacToner y Cityshop",
+          "compatiblePrinters": ["Samsung CLP-680ND", "Samsung CLP-680DW", "Samsung CLX-6260ND", "Samsung CLX-6260FD", "Samsung CLX-6260FR", "Samsung CLX-6260FW", "Samsung ProXpress compatibles"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Cityshop publica stock 0 con operacion en Leon, Guanajuato.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TONHPS1360", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 324.91, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $491.47 MXN, sin existencias.", "Cityshop $409.00 MXN, stock 0.", "Moddtech $342.05 MXN mas IVA, agotado.", "Sun Data $24.99 USD, in stock.", "LD Products backordered."],
+          "reviewNotes": "Fichas externas reportan 14000 o 17500 paginas; se conserva 10000 paginas como dato proveedor y retailers MX."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Paquete 140 x 113 x 68 mm; AXRO empaque 165 x 130 x 80 mm", "weight": "150 g paquete" },
+        "sourceRefs": [
+          { "title": "MacToner CLT-W506 SU437A", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/unidad-recolectora-hp-clt-w506-su437a-samsung/" },
+          { "title": "Cityshop SU437A", "type": "retailer_stock", "url": "https://cityshop.mx/producto/unidad-recolectora-samsung-clt-w506-su437a-negro-cian-amarillo-magenta" },
+          { "title": "AXRO HP SU437A", "type": "retailer_specs", "url": "https://www.axro.com/en/inks-toner/hp/hp-waste-toner-box-clt-w506-su437a/hp-su437a" },
+          { "title": "Sun Data CLT-W506", "type": "retailer_stock", "url": "https://www.sundatasupply.com/product-detail/samsung-clt-w506-cltw506-su437a-clt-w506see/proxpress-c3060fw" },
+          { "title": "CTOnline batch TONHPS1360 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "n40fjms7wnb3faw",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Marcador para pizarron blanco Azor Magistral Didactico 8350VE verde, punta cincel, caja con 12 piezas",
+        "description": "Caja con 12 marcadores Azor Magistral Didactico 8350VE color verde para pizarron blanco y superficies no porosas, con tinta base alcohol de bajo aroma y punta cincel.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/verde/12-piezas/azor-8350ve",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/verde/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/magistral-didactico/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_8350_prodcutshot_1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_8350_productshot_2.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_8350_productshot_3.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_cincel_8350_caja_12pzas-1.jpg"],
+        "specs": {
+          "brand": "Azor",
+          "model": "8350VE",
+          "providerSku": "ACCAZR020",
+          "ean": "7501428703489",
+          "productType": "Marcador para pizarron blanco",
+          "color": "Verde",
+          "pack": "Caja con 12 piezas",
+          "tip": "Punta cincel, trazo 6 mm",
+          "ink": "Base alcohol, alta intensidad, bajo aroma",
+          "surfaces": ["Porcelana", "Melamina", "Vidrio", "Superficies no porosas"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Intercompras muestra 59 disponibles y pickup Monterrey 3.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 210.27, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["Intercompras $234.00 MXN, 59 disponibles, pickup Monterrey 3.", "TiendaClic $301.91 MXN, existencia aproximada 0.", "Lumen $284.00 MXN, no disponible.", "Cityshop $269.00 MXN, stock 0."],
+          "reviewNotes": "Producto escolar/oficina de escritura, no accesorio de computo."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Medida oficial no localizada; trazo 6 mm", "weight": "Aprox. 200 g por caja segun marketplace" },
+        "sourceRefs": [
+          { "title": "Azor Magistral Didactico", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/magistral-didactico/" },
+          { "title": "TiendaClic 8350VE", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/marcador-magistral-azor-8350ve" },
+          { "title": "Lumen 8350VE", "type": "retailer_stock", "url": "https://lumen.com.mx/marcador-magistral-didactico-paquete-12-unidades-verde-marca-azor-sku-14727004" },
+          { "title": "Intercompras 8350VE", "type": "retailer_stock", "url": "https://intercompras.com/p/marcador-azor-magistral-didactico-verde-piezas-92708" },
+          { "title": "CTOnline batch ACCAZR020 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kif33x1y6o1qzap",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Marcadores base agua Azor Aquarelo Junior 2912 colores surtidos, bolsa con 12 piezas",
+        "description": "Estuche de 12 marcadores Azor Aquarelo Junior 2912 de colores surtidos, con tinta base agua lavable, punta fina y barril triangular ergonomico para uso escolar.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/base-agua-lavables/12-colores/azor-aquarelo-junior-2912",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/base-agua-lavables/12-colores",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/aquarelo-junior/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_aquarelo_junior_2900_productshot_1-1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_aquarelo_junior__2900_productshot_2.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_aquarelo_junior_2900_productshot_3.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_aquarelo_junior_2912_estuche_12pzas-2.jpg", "https://i5-mx.walmartimages.com/mg/gm/1p/images/product-images/img_large/00750142871107l.jpg"],
+        "specs": {
+          "brand": "Azor",
+          "model": "2912",
+          "providerSku": "ACCAZR060",
+          "ean": "7501428711071",
+          "productType": "Marcadores base agua lavables",
+          "color": "Colores surtidos",
+          "pack": "Bolsa con 12 piezas",
+          "tip": "Punta bala fina; Exel reporta 1 mm",
+          "ink": "Base agua, lavable, no toxica",
+          "barrel": "Plastico triangular ergonomico",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Cityshop muestra stock 62 y Mervins ultimas 9 piezas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 47.64, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["Cityshop $59.00 MXN, stock 62.", "Mervins $71.49 MXN, ultimas 9 piezas.", "Lumen $69.00 MXN con boton Agregar visible.", "TiendaClic $113.26 MXN, existencia aproximada 0."],
+          "reviewNotes": "Marcadores para colorear de material escolar, separados de marcadores para pizarron y permanentes."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "19 x 1.7 x 18.3 cm", "weight": "0.14 kg" },
+        "sourceRefs": [
+          { "title": "Azor Aquarelo Junior", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/aquarelo-junior/" },
+          { "title": "TiendaClic 2912", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/marcador-acuarelo-jr-azor-2912" },
+          { "title": "Lumen 2912", "type": "retailer_stock", "url": "https://lumen.com.mx/marcadores-de-agua-aquarelo-jr-paquete-con-12-marca-azor-sku-252221" },
+          { "title": "Exel 2912", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/AZPMACAB038" },
+          { "title": "CTOnline batch ACCAZR060 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wbxyc9zgkzm402g",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Marcador para pizarron blanco Azor Magistral Didactico 8350AZ azul, punta cincel, caja con 12 piezas",
+        "description": "Caja con 12 marcadores Azor Magistral Didactico 8350AZ color azul para pizarron blanco y superficies no porosas, con tinta base alcohol de alta intensidad.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/azul/12-piezas/azor-8350az",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/azul/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/magistral-didactico/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_cincel_8350_caja_12pzas-1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_8350_prodcutshot_1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_magistral_didactico_8350_productshot_2.jpg"],
+        "specs": {
+          "brand": "Azor",
+          "model": "8350AZ",
+          "providerSku": "ACCAZR080",
+          "ean": "7501428702307",
+          "productType": "Marcador para pizarron blanco",
+          "color": "Azul",
+          "pack": "Caja con 12 piezas",
+          "tip": "Punta cincel, trazo 6 mm",
+          "ink": "Base alcohol, alta intensidad, bajo aroma",
+          "surfaces": ["Porcelana", "Melamina", "Vidrio", "Superficies no porosas"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Global Office muestra 2 piezas locales y 48 en Almacen Mexico.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR080", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 210.27, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["Global Office $339.00 MXN, 2 piezas locales y Almacen Mexico 48.", "Cityshop $269.00 MXN, stock 0.", "CTI/PCStore aparecen agotados en resultados publicos."],
+          "reviewNotes": "Variante azul de la familia Magistral Didactico; se separa por color para reposicion manual precisa."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Medida oficial no localizada; trazo 6 mm", "weight": "No localizado en fuentes publicas confiables" },
+        "sourceRefs": [
+          { "title": "Azor Magistral Didactico", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/magistral-didactico/" },
+          { "title": "Exel 8350AZ", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/MGPMACAB003" },
+          { "title": "Global Office 8350AZ", "type": "retailer_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/papeleria-y-art-de-oficina/marcador-magistral-didactico-pizarron-blanco-color-azul-c12/8350az" },
+          { "title": "Cityshop 8350AZ", "type": "retailer_stock", "url": "https://cityshop.mx/producto/marcador-magistral-azor-didactico-paquete-de-12-piezas-azul" },
+          { "title": "CTOnline batch ACCAZR080 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "sajexd3i6o6tuxr",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Marcador permanente Azor Signal Fino 30001 punto fino negro, caja con 12 piezas",
+        "description": "Caja con 12 marcadores permanentes Azor Signal Fino 30001 color negro, punta bala fina de 1.5 mm, tinta base alcohol de secado rapido y resistente al agua.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fino/negro/12-piezas/azor-signal-30001",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fino/negro/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/signal-punto-fino/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_signal_fino_30001_caja_12pzas-1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_signal_fino_30000_productshot_1-2.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_signal_fino_30000_productshot_2-1.jpg"],
+        "specs": {
+          "brand": "Azor",
+          "model": "30001",
+          "providerSku": "ACCAZR100",
+          "ean": "7501428700419",
+          "satCode": "44121708",
+          "productType": "Marcador permanente punto fino",
+          "color": "Negro",
+          "pack": "Caja con 12 piezas",
+          "tip": "Punta bala fina 1.5 mm",
+          "ink": "Base alcohol, secado rapido, resistente al agua",
+          "yield": "450 m lineales",
+          "capOff": "6 horas",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Papeleria Economica/SOPI muestra 6 unidades en Coyoacan, CDMX.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 146.75, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["Papeleria Economica $180.00 MXN, 6 unidades, Coyoacan CDMX.", "Tony $176.00 MXN.", "CompuPuebla $180.00 MXN, sin existencias.", "Cityshop $189.00 MXN, stock 0."],
+          "reviewNotes": "Marcador permanente de papeleria; no debe caer en accesorios genericos."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Caja 12 piezas 9.5 x 2.9 x 14.0 cm; corrugado 144 piezas 16.5 x 20.5 x 20.5 cm", "weight": "Caja 0.125 kg; corrugado 1.632 kg" },
+        "sourceRefs": [
+          { "title": "Azor Signal Punto Fino", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/signal-punto-fino/" },
+          { "title": "Grainger 30001 ficha tecnica", "type": "retailer_pdf", "url": "https://www.grainger.com.mx/static/ft/20095332_TD.PDF" },
+          { "title": "Exel 30001", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/SIPMACAB019" },
+          { "title": "Papeleria Economica 30001", "type": "retailer_stock", "url": "https://papeleriaeconomica.com.mx/esp/item/107/marcador-signal-punto-fino-12pz-azor" },
+          { "title": "CTOnline batch ACCAZR100 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "keq0gmwzb8nm6h1",
+      "research": {
+        "confidence": 0.93,
+        "brand": "AZOR",
+        "name": "Boligrafo Azor Pin Point fino 0.7 mm colores surtidos con espirografo, bolsa con 8 boligrafos",
+        "description": "Bolsa Azor Pin Point 6808 con 8 boligrafos de punta aguja fina 0.7 mm en colores surtidos e incluye espirografo para uso escolar y creativo.",
+        "manualCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-fina/azor-pinpoint-6808-surtidos-8-piezas",
+        "semanticCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-fina",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/pin-point-cuerpo-colores/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_boligrafo_colores_6808_bolsa_9pzas-3.jpg", "https://laesfera.com.mx/page/wp-content/uploads/2020/06/6808-600x600.jpg", "https://lumen.com.mx/Content/Images/productPics/boligrafo-pin-point-fino-0-7mm-con-espirografo-blister-c-8-surtido-marca-azor-sku-263341.jpg", "https://chedrauimx.vtexassets.com/arquivos/ids/67539744-800-800?aspect=true&height=800&width=800"],
+        "specs": {
+          "brand": "Azor",
+          "model": "6808",
+          "providerSku": "ACCAZR130",
+          "ean": "7501428729083",
+          "productType": "Boligrafo punto aguja fino",
+          "color": "Colores surtidos",
+          "pack": "Bolsa con 8 boligrafos",
+          "tip": "Punto aguja 0.7 mm",
+          "ink": "Baja viscosidad, flujo instantaneo",
+          "barrel": "Plastico traslucido multicolor con sistema anti-rodamiento",
+          "extras": ["Incluye espirografo", "Tapon para cordon"],
+          "yield": "1200 m",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; La Esfera indica hay existencias y Lumen muestra disponibilidad por tienda sin conteo.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR130", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 37.35, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["La Esfera $47.59 MXN, hay existencias.", "Lumen $63.00 MXN, disponibilidad por tiendas sin cantidades.", "TiendaClic $101.33 MXN, existencia 0.", "PCStore/CTI reportan agotado en snippets."],
+          "reviewNotes": "La imagen oficial historica dice bolsa 9 piezas, pero retailers MX y el producto de proveedor reportan blister/bolsa con 8 boligrafos; se conserva 8 piezas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "23 x 13 x 1.5 cm", "weight": "0.075 kg" },
+        "sourceRefs": [
+          { "title": "Azor Pin Point cuerpo colores", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/pin-point-cuerpo-colores/" },
+          { "title": "La Esfera 6808", "type": "retailer_stock", "url": "https://laesfera.com.mx/page/tienda/bolsa-con-8-boligrafos-pinpoint-fino-y-espirografo-6808/" },
+          { "title": "Lumen 6808", "type": "retailer_stock", "url": "https://lumen.com.mx/boligrafo-pin-point-fino-07mm-con-espirografo-blister-c8-surtido-marca-azor-sku-263341" },
+          { "title": "TiendaClic 6808", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/pluma-pinpoint-azor-6808" },
+          { "title": "CTOnline batch ACCAZR130 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wzzruo5a2gzt4tq",
+      "research": {
+        "confidence": 0.93,
+        "brand": "AZOR",
+        "name": "Marcador permanente Azor Signal Fino 30003 punto fino azul, caja con 12 piezas",
+        "description": "Caja con 12 marcadores permanentes Azor Signal Fino 30003 color azul, punta bala fina de 1.5 mm, tinta base alcohol de secado rapido y resistente al agua.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fino/azul/12-piezas/azor-signal-30003",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fino/azul/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/signal-punto-fino/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_signal_fino_30000_productshot_1-2.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_signal_fino_30001_caja_12pzas-1.jpg", "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/SIPMACAB028_zoom.jpg", "https://i5.walmartimages.com/asr/792fee1d-4441-4ea1-b2ca-4dae95dcf669.c659346dadea8ac8e9adad85e036aee4.jpeg?odnBg=FFFFFF&odnHeight=640&odnWidth=640"],
+        "specs": {
+          "brand": "Azor",
+          "model": "30003",
+          "providerSku": "ACCAZR180",
+          "ean": "7501428700433",
+          "productType": "Marcador permanente punto fino",
+          "color": "Azul",
+          "pack": "Caja con 12 piezas",
+          "tip": "Punta bala fina 1.5 mm",
+          "ink": "Base alcohol, secado rapido, resistente al agua",
+          "surfaces": ["Vidrio", "Porcelana", "Metal", "Tela", "Madera", "Plastico", "Cartoncillo"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; TiendaClic, PCStore, CTI, Novusred y Walmart muestran senales de agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR180", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 105.26, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic $180.10 MXN, existencia 0.", "PCStore $139.00 MXN, agotado.", "CTI Systems $138.00 MXN, agotado.", "Novusred $140.42 MXN, sin stock.", "Walmart envio no disponible."],
+          "reviewNotes": "Variante azul de Signal Fino; regla separada de 30001 negro para evitar mezclar colores."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Ancho ensamblado 14.5 cm; dimensiones completas no localizadas", "weight": "0.15 kg" },
+        "sourceRefs": [
+          { "title": "Azor Signal Punto Fino", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/signal-punto-fino/" },
+          { "title": "Exel 30003", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/SIPMACAB028" },
+          { "title": "TiendaClic 30003", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/marcador-signal-azor-30003" },
+          { "title": "Walmart 30003", "type": "retailer_stock", "url": "https://www.walmart.com.mx/ip/marcador-permanente-signal-azor-30003-punto-fino-azul-12-12-piezas-azor-signal/00750142870043" },
+          { "title": "CTOnline batch ACCAZR180 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "rzl4yllimssq13b",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Boligrafo Azor Pin Point Ultrafino 6840NE negro, punta aguja 0.5 mm, caja con 12 piezas",
+        "description": "Caja con 12 boligrafos Azor Pin Point Ultrafino 6840NE color negro con punta aguja de 0.5 mm, tinta de baja viscosidad y cuerpo traslucido anti-rodamiento.",
+        "manualCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-ultrafina/azor-pinpoint-6840ne-negro-12-piezas",
+        "semanticCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-ultrafina",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/pin-point-ultrafino/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2019/05/azor_boligrafo_ultrafino_6840NE_caja_12pzas-1.jpg", "https://www.exel.com.mx/imgProducto/AZPBOLAB013.png", "https://www.cyberpuerta.mx/img/product/XL/CP-AZOR-6840NE-960b0a.jpg", "https://ofimart.mx/cdn/shop/files/BOLIGRAFO-ULTRAFINO-NEGRO-PIN-POINT.webp?v=1760458032"],
+        "specs": {
+          "brand": "Azor",
+          "model": "6840NE",
+          "providerSku": "ACCAZR190",
+          "ean": "7501428729793",
+          "productType": "Boligrafo punto aguja ultrafino",
+          "color": "Negro",
+          "pack": "Caja con 12 piezas",
+          "tip": "Punto aguja ultrafino 0.5 mm",
+          "ink": "Baja viscosidad, flujo instantaneo",
+          "barrel": "Plastico traslucido con sistema anti-rodamiento",
+          "yield": "1200 m",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Global Office muestra Almacen Mexico 57, Intercompras 91 disponibles y Cityshop ultimas 10 piezas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR190", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 37.23, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["Global Office $61.00 MXN, 0 local y Almacen Mexico 57.", "Intercompras $53.00 MXN, 91 disponibles, pickup Mexico 14 y Hermosillo 13.", "Cityshop $59.00 MXN, ultimas 10 piezas.", "TiendaClic $101.19 MXN, existencia aproximada 0."],
+          "reviewNotes": "Variante negra 0.5 mm ultrafina; se separa de Pin Point 0.7 mm."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "16 x 6.8 x 2.7 cm", "weight": "0.180 kg" },
+        "sourceRefs": [
+          { "title": "Azor Pin Point Ultrafino", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/pin-point-ultrafino/" },
+          { "title": "Global Office 6840NE", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/boligrafo-azor-pin-point-ultrafino-redon/6840ne" },
+          { "title": "Intercompras 6840NE", "type": "retailer_stock", "url": "https://intercompras.com/p/pluma-pinpoint-azor-6840ne-negro-piezas-189642" },
+          { "title": "La Esfera 6840NE", "type": "retailer_specs", "url": "https://laesfera.com.mx/page/tienda/boligrafo-pinpoint-ultra-fino-cuerpo-traslucido-6840/" },
+          { "title": "CTOnline batch ACCAZR190 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "vm14jew29n6uz12",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AZOR",
+        "name": "Resaltador Azor Vision Plus 2600VE verde fluorescente, punta cincel 6 mm, caja con 12 piezas",
+        "description": "Caja con 12 resaltadores Azor Vision Plus 2600VE color verde fluorescente, tinta base agua lavable, punta cincel de 6 mm y grip para uso en papel.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/resaltadores/verde/12-piezas/azor-vision-plus-2600ve",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/resaltadores/verde/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/vision-plus/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_vison_plus_2600_12pzas-1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_vision_plus_2600_productshot_1-1.jpg", "https://www.exel.com.mx/imgProducto/VPPMACAB012.png", "https://www.cyberpuerta.mx/img/product/XL/CP-AZOR-3012600VE-1.jpg"],
+        "specs": {
+          "brand": "Azor",
+          "model": "2600VE",
+          "providerSku": "ACCAZR200",
+          "ean": "7501428701386",
+          "productType": "Resaltador / marcatextos",
+          "color": "Verde fluorescente",
+          "pack": "Caja con 12 piezas",
+          "tip": "Punta cincel 6 mm",
+          "ink": "Base agua, alta fluorescencia, lavable, no toxica",
+          "features": ["Grip ahulado", "Tapa antiasfixia", "Para papel o superficies absorbentes"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Global Office, Intercompras, Cyberpuerta, Royal Office y Mervins muestran disponibilidad publica.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 92.86, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-31T06:00:00Z",
+          "publicAvailabilitySignals": ["Global Office $191.00 MXN, 32 local y Almacen Mexico 40.", "Intercompras $131.00 MXN, 132 disponibles, pickup Mexico 8, Culiacan 8, Hermosillo 6 y Monterrey 22.", "Cyberpuerta $156.00 MXN, 200 disponibles.", "Royal Office $152.87 MXN, 200 disponibles.", "Mervins $155.56 MXN, 62 piezas."],
+          "reviewNotes": "Variante verde de resaltadores Vision Plus; agrega rama manual por color para pedidos de papeleria."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "14 x 7 x 4 cm", "weight": "0.1 kg" },
+        "sourceRefs": [
+          { "title": "Azor Vision Plus", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/vision-plus/" },
+          { "title": "Global Office 2600VE", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/resaltador-vision-plus-azor-2600ve-verd/2600ve" },
+          { "title": "Intercompras 2600VE", "type": "retailer_stock", "url": "https://intercompras.com/p/marcador-resaltador-azor-vision-plus-2600ve-papel-documentos-verde-92918" },
+          { "title": "Cyberpuerta 2600VE", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Home-Office/Articulos-de-Oficina/Escritura/Marca-Textos/Azor-Marca-Textos-Vision-Plus-Fluorescente-Verde-12-Piezas.html" },
+          { "title": "CTOnline batch ACCAZR200 stock 0", "type": "provider_stock", "observedAt": "2026-05-31T06:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
