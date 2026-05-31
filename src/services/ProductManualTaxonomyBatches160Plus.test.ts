@@ -532,6 +532,16 @@ const batch160PlusCases = [
   ["DataShield PC-3704 tarjeta SNMP interna para UPS UT-6000", "DATASHIELD", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/datashield-pc-3704", "power"],
   ["CyberPower BP36V60ART2U modulo baterias externo 36V 60A 2U", "CYBERPOWER", "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/36v/cyberpower-bp36v60art2u", "power"],
   ["PCM 10B2 papel bond plotter 0.61 x 100 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m/pcm-10b2", "printers_scanners"],
+  ["PCM 10B3 papel bond plotter 0.61 x 150 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-150m/pcm-10b3", "printers_scanners"],
+  ["PCM 10B7 papel bond plotter 0.61 x 50 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-50m/pcm-10b7", "printers_scanners"],
+  ["PCM 10B9 papel bond plotter 0.61 x 150 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-150m/pcm-10b9", "printers_scanners"],
+  ["PCM 10B10 papel bond plotter 0.91 x 50 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-50m/pcm-10b10", "printers_scanners"],
+  ["PCM 10B12 papel bond plotter 0.91 x 150 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-150m/pcm-10b12", "printers_scanners"],
+  ["PCM 10B14 papel bond plotter 0.61 x 100 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m/pcm-10b14", "printers_scanners"],
+  ["PCM 10B15 papel bond plotter 0.61 x 150 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-150m/pcm-10b15", "printers_scanners"],
+  ["PCM 10B16 papel bond plotter 0.91 x 50 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-50m/pcm-10b16", "printers_scanners"],
+  ["PCM 10B18 papel bond plotter 0.91 x 150 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-150m/pcm-10b18", "printers_scanners"],
+  ["PCM 10B20 papel bond plotter 0.61 x 100 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m/pcm-10b20", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
