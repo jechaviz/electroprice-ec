@@ -242,6 +242,16 @@ const batch160PlusCases = [
   ["HP T1A62AA Keyed Cable Lock 10 mm candado para laptop 1.83m", "HP", "accesorios/seguridad-fisica/candados-laptop/llave", "accessories"],
   ["Badgy Evolis CBGR0500K ribbon monocromo negro 500 impresiones", "BADGY", "punto-de-venta/credenciales-identificacion/consumibles/ribbons-monocromo-negro", "accessories"],
   ["Epson FX-2190II C11CF38201 impresora matriz de punto 9 pines formato ancho", "EPSON", "impresion/impresoras/matriz-punto/formato-ancho/9-pines", "printers_scanners"],
+  ["Vorago BP-150-BL mochila rPET ecologica para laptop 15.6 pulgadas azul negro", "VORAGO", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/rpet-ecologicas", "accessories"],
+  ["Canon PG-210 2974B017AA cartucho tinta negra FINE 9ml 250 paginas", "CANON", "impresion/consumibles/cartuchos-tinta/canon/pg-210/negro", "printers_scanners"],
+  ["Perfect Choice PC-030362 kit limpieza pantallas 30ml con microfibra", "PERFECT CHOICE", "computo/accesorios/limpieza/limpiadores-pantalla/kits/30ml-microfibra", "accessories"],
+  ["Naceb Iron Knight NA-0318 headset gamer 3.5mm microfono desmontable PS4 Xbox", "NACEB GAMING", "gaming/audio/headsets/alambricos/3-5mm-microfono-desmontable", "gaming"],
+  ["Acteck Onex GS455 AC-943079 gabinete mini torre slim Micro-ATX fuente SFX 500W", "ACTECK", "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w/slim-sfx", "components"],
+  ["TP-Link CPE710 CPE exterior 5GHz AC 867Mbps 23dBi Pharos", "TP LINK", "redes/radioenlaces-antenas/cpe-exterior/5ghz-ac-867mbps-23dbi", "networking"],
+  ["XPG PROBE700B-BKCUS fuente poder ATX 700W 80 Plus Bronze", "ADATA", "computo/componentes/fuentes-poder/atx-80-plus-bronze/700w", "components"],
+  ["Dell AC027075 memoria RAM 16GB DDR5 4800MHz ECC UDIMM", "DELL", "computo/componentes/memoria-ram/udimm-ddr5/ecc-16gb-4800", "components"],
+  ["Manhattan 153966 USB-C PD docking station 7 en 1 HDMI Ethernet", "MANHATTAN", "computo/accesorios/docks-hubs/usb-c/7-en-1-hdmi-ethernet-pd", "accessories"],
+  ["BRobotix 372782 cable USB 2.0 extension activa 15m macho hembra", "BROBOTIX", "accesorios/cables-adaptadores/usb/extensiones/activas/15m", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

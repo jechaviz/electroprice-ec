@@ -1,0 +1,449 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b184-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 184,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6o2polvm4z5i29e",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Vorago",
+        "name": "Vorago BP-150-BL mochila rPET ecologica para laptop 15.6 pulgadas azul negro",
+        "description": "Mochila Vorago BP-150-BL ecologica de rPET para laptop de hasta 15.6 pulgadas, color azul/negro, con bolsillo lateral, cierre y compatibilidad universal.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/rpet-ecologicas",
+        "semanticCategoryPath": "computing/laptop-accessories/backpacks/15-6/rpet-eco",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/mochila-vorago-ecologica-rpet-para-laptop-15-6-azul-negro-bp-150-bl.html",
+        "gallery": [
+          "https://voragolive.com/mochila-vorago-ecologica-rpet-para-laptop-15-6-azul-negro-bp-150-bl.html",
+          "https://tekdigital.mx/producto/mochila-vorago-bp-150-ecologica-rpet-laptop-15-6-pugladas-azul-negro/"
+        ],
+        "documents": ["https://voragolive.com/media/vorago/descargables/BP-150_Ficha_Licitacion.pdf"],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "BP-150-BL",
+          "gtin": "7503049354033",
+          "productType": "Mochila para laptop",
+          "maxLaptopSize": "15.6 pulgadas / 39.6 cm",
+          "material": "Tereftalato de polietileno reciclado rPET",
+          "color": "Azul/negro",
+          "closure": "Cremallera",
+          "externalPockets": ["bolsillo lateral"],
+          "recycledMaterials": true,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 223",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BP-150", "stock": 223, "price": 10.12, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed la traia como laptop; es mochila/accesorio para laptop.", "El feed omite variante de color; EAN y fichas apuntan a BP-150-BL azul/negro."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"maxScreen": "15.6 pulgadas", "dimensions": "No publicado por fabricante en ficha resumida", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Vorago BP-150-BL", "type": "manufacturer_spec", "url": "https://voragolive.com/mochila-vorago-ecologica-rpet-para-laptop-15-6-azul-negro-bp-150-bl.html"},
+          {"title": "Vorago BP-150 ficha licitacion", "type": "manufacturer_datasheet", "url": "https://voragolive.com/media/vorago/descargables/BP-150_Ficha_Licitacion.pdf"},
+          {"title": "Electroprice provider stock BP-150", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6o6262sa7d1h99j",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Canon",
+        "name": "Canon PG-210 2974B017AA cartucho de tinta negra FINE 9 ml",
+        "description": "Cartucho original Canon PG-210 negro 2974B017AA con tecnologia FINE y cabezal integrado, capacidad 9 ml y rendimiento aproximado de 220 a 250 paginas segun condicion de prueba.",
+        "manualCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/pg-210/negro",
+        "semanticCategoryPath": "printing/consumables/ink-cartridges/canon/pg-210/black",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/cartucho-pg-210-negro",
+        "gallery": [
+          "https://www.tiendacanon.com.mx/es_mx/p/cartucho-pg-210-negro",
+          "https://globaloffice.com.mx/app/detalle/producto/consumibles/cartucho-de-tinta-canon-pg-210-negro-par/2974b017aa"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "CANON",
+          "model": "PG-210",
+          "partNumber": "2974B017AA",
+          "gtin": "4960999973708",
+          "productType": "Cartucho de tinta con cabezal",
+          "color": "Negro",
+          "capacity": "9 ml",
+          "yield": "220-250 paginas aproximadas",
+          "printTechnology": "Inyeccion de tinta Canon FINE",
+          "compatiblePrinters": ["PIXMA iP2700/iP2702", "PIXMA MP230/MP240/MP250/MP270/MP280/MP480/MP490/MP495", "PIXMA MX320/MX330/MX340/MX350/MX360/MX410/MX420"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "2974B017AA", "stock": 0, "price": 473.85, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed no indicaba el modelo PG-210; se infiere por el part number 2974B017AA.", "Rendimiento aparece como 220 o 250 paginas segun distribuidor/metodo; se conserva rango."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"capacity": "9 ml", "packageDimensions": "83 x 53 x 138 mm reportado por distribuidor", "netWeight": "45 g reportado por distribuidor"},
+        "sourceRefs": [
+          {"title": "Canon Tienda PG-210", "type": "manufacturer_store", "url": "https://www.tiendacanon.com.mx/es_mx/p/cartucho-pg-210-negro"},
+          {"title": "GlobalOffice Canon PG-210 2974B017AA", "type": "marketplace_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/consumibles/cartucho-de-tinta-canon-pg-210-negro-par/2974b017aa"},
+          {"title": "Electroprice provider stock 2974B017AA", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6o9o48kgc180hde",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Perfect Choice",
+        "name": "Perfect Choice PC-030362 kit de limpieza para pantallas 30 ml con microfibra",
+        "description": "Kit de limpieza Perfect Choice PC-030362 para pantallas y electronica diaria, con liquido limpiador de 30 ml y microfibra para remover polvo, grasa y huellas sin rayar.",
+        "manualCategoryPath": "computo/accesorios/limpieza/limpiadores-pantalla/kits/30ml-microfibra",
+        "semanticCategoryPath": "computing/accessories/cleaning/screen-cleaner-kits/30ml-microfiber",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/67c/f10/479/67cf104796fae5.60487585.pdf",
+        "gallery": [
+          "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-electronica/liquido-limpiador-para-pantallas-30ml/pc-030362",
+          "https://www.same.com.mx/producto/pc-030362/"
+        ],
+        "documents": [
+          "https://cdn.cyberpuerta.mx/storage/articles/multimedia/67c/f10/479/67cf104796fae5.60487585.pdf",
+          "https://globaloffice.com.mx/app/producto/pdf/pc-030362"
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-030362",
+          "gtin": "615604030362",
+          "productType": "Kit de limpieza para pantallas",
+          "cleanerVolume": "30 ml",
+          "included": ["liquido limpiador", "microfibra"],
+          "compatibleSurfaces": ["tabletas", "pantallas LCD", "camaras digitales", "videocamaras", "smartphones", "monitores", "pantallas de portatiles"],
+          "useCase": "Remueve polvo, grasa, huellas digitales e impurezas de uso cotidiano",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 54 (CTOnline 48, CVA 6)",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "PC-030362", "stock": 48, "price": 60.63, "priceKind": "provider_best_price_raw"},
+            {"providerId": "cva", "providerSku": "PC-030362", "stock": 6, "price": 60.63, "priceKind": "provider_best_price_raw"}
+          ],
+          "sourceDiscrepancies": ["El feed lo traia bajo monitores; es consumible de limpieza para electronica.", "Sin sucursal granular, pero hay dos proveedores con stock agregado."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"cleanerVolume": "30 ml", "dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Perfect Choice PC-030362 PDF", "type": "manufacturer_or_distributor_datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/67c/f10/479/67cf104796fae5.60487585.pdf"},
+          {"title": "GlobalOffice PC-030362", "type": "marketplace_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios-para-electronica/liquido-limpiador-para-pantallas-30ml/pc-030362"},
+          {"title": "Electroprice provider stock PC-030362", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6oa1rmd5mpufxde",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Naceb Gaming",
+        "name": "Naceb Iron Knight NA-0318 headset gamer 3.5 mm con microfono desmontable",
+        "description": "Headset gamer Naceb Iron Knight NA-0318 over-ear alambrico 3.5 mm para PS4 y Xbox, con microfono flexible desmontable, control de volumen y mute, cable de 1.7 m y adaptador de audio/microfono.",
+        "manualCategoryPath": "gaming/audio/headsets/alambricos/3-5mm-microfono-desmontable",
+        "semanticCategoryPath": "gaming/audio/headsets/wired/3-5mm-detachable-mic",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://naceb.com.mx/producto/na-0318/",
+        "gallery": [
+          "https://naceb.com.mx/producto/na-0318/",
+          "https://www.pcdigital.com.mx/diadema-audifono-con-microfono-gamer-naceb-na-0318-iron-knight-para-ps4-xbox-alambrico-1-7-metros-3-5mm-negro/"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "NACEB GAMING",
+          "model": "NA-0318",
+          "productLine": "Iron Knight",
+          "productType": "Headset gaming over-ear",
+          "connection": "Alambrico 3.5 mm",
+          "compatibility": ["PS4", "Xbox", "PC con adaptador"],
+          "cableLength": "1.7 m",
+          "impedance": "62 +/- 5% ohm",
+          "sensitivity": "110 dB +/- 3 dB",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "microphone": "Desmontable, 6 x 2.2 mm",
+          "controls": ["volumen", "mute de microfono"],
+          "included": ["convertidor dos puntas a una", "sujetador de cable"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 19",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "NA-0318", "stock": 19, "price": 439.41, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo traia como audifonos genericos; se clasifica como headset gamer con microfono desmontable.", "Un distribuidor reporta driver 5.3 cm; Naceb solo indica bocina magnetica."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"cableLength": "1.7 m", "netWeight": "No publicado por fabricante"},
+        "sourceRefs": [
+          {"title": "Naceb NA-0318", "type": "manufacturer_spec", "url": "https://naceb.com.mx/producto/na-0318/"},
+          {"title": "PC Digital NA-0318", "type": "marketplace_spec", "url": "https://www.pcdigital.com.mx/diadema-audifono-con-microfono-gamer-naceb-na-0318-iron-knight-para-ps4-xbox-alambrico-1-7-metros-3-5mm-negro/"},
+          {"title": "Electroprice provider stock NA-0318", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6oavlqyj2atg5tt",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Acteck",
+        "name": "Acteck Onex GS455 AC-943079 gabinete mini torre slim Micro-ATX con fuente SFX 500W",
+        "description": "Gabinete Acteck Onex GS455 AC-943079 mini torre slim negro para placas Micro-ATX y Mini-ITX, con fuente SFX 500W incluida, lector SD, USB-C, USB 3.0, 3 USB 2.0 y chasis SPCC 0.6 mm.",
+        "manualCategoryPath": "computo/componentes/gabinetes/mini-tower/micro-atx-itx-fuente-500w/slim-sfx",
+        "semanticCategoryPath": "computing/components/cases/mini-tower/micro-atx-mini-itx/slim-sfx-500w",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/gabinete-mini-torre-slim-onex-gs455-negro",
+        "gallery": [
+          "https://acteck.com/products/gabinete-mini-torre-slim-onex-gs455-negro",
+          "https://www.exel.com.mx/xlstore/Productos/Detalle/AKCGABAB073"
+        ],
+        "documents": [
+          "https://fichastecnicas.pchmayoreo.com/AC-943079.pdf"
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Onex GS455",
+          "partNumber": "AC-943079",
+          "gtin": "7506215943079",
+          "productType": "Gabinete mini torre slim",
+          "formFactor": "Mini-Tower slim",
+          "motherboardSupport": ["Micro-ATX", "Mini-ITX"],
+          "includedPsu": "SFX 500W Elite",
+          "material": "SPCC 0.6 mm + plastico",
+          "driveBays": {"5_25ODD": 1, "3_5HDD": 2, "combo3_5_2_5": 2, "2_5SSD": 2},
+          "frontPorts": ["3x USB 2.0", "1x USB 3.0", "1x USB-C 3.0", "mic", "audio 3.5 mm", "lector SD"],
+          "expansionSlots": 4,
+          "preinstalledFan": "1x lateral 80 mm",
+          "cpuCoolerClearance": "80 mm max",
+          "gpuLength": "220 mm max",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-943079", "stock": 0, "price": 710.38, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo traia como SSD; es gabinete para PC con fuente incluida.", "Algunas fichas resumen solo USB 2.0/3.0 y omiten USB-C; la ficha detallada de Acteck/Exel lo incluye."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"dimensions": "38.5 x 10.3 x 32.5 cm", "netWeight": "3.3 kg"},
+        "sourceRefs": [
+          {"title": "Acteck Onex GS455 AC-943079", "type": "manufacturer_spec", "url": "https://acteck.com/products/gabinete-mini-torre-slim-onex-gs455-negro"},
+          {"title": "Exel AC-943079 ficha", "type": "marketplace_spec", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/AKCGABAB073"},
+          {"title": "Electroprice provider stock AC-943079", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6odilh95gu4sehd",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TP-Link",
+        "name": "TP-Link CPE710 CPE exterior 5GHz AC 867Mbps 23dBi Pharos",
+        "description": "CPE de exterior TP-Link CPE710 para enlaces inalambricos de larga distancia, 5GHz 802.11ac hasta 867Mbps, antena direccional 23dBi MIMO 2x2, carcasa IP65, PoE pasivo 24V y administracion Pharos.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/cpe-exterior/5ghz-ac-867mbps-23dbi",
+        "semanticCategoryPath": "networking/wireless-bridges/outdoor-cpe/5ghz-ac-867mbps-23dbi",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tp-link.com/uk/products/details/cpe710.html",
+        "gallery": [
+          "https://www.tp-link.com/uk/products/details/cpe710.html",
+          "https://www.tp-link.com/ca/business-networking/outdoor-radio/cpe710/"
+        ],
+        "documents": [
+          "https://static.tp-link.com/configuration-guides/2021/202107/20210713/long-rang-wifi-solution.pdf?configurationId=38000"
+        ],
+        "specs": {
+          "brand": "TP-LINK",
+          "model": "CPE710",
+          "productType": "CPE exterior para radioenlace",
+          "wirelessStandard": "IEEE 802.11a/n/ac 5GHz",
+          "wirelessSpeed": "867 Mbps",
+          "antennaGain": "23 dBi direccional 2x2 MIMO",
+          "ethernet": "1x 10/100/1000 Mbps",
+          "power": "24V Passive PoE adapter",
+          "weatherproof": "IP65",
+          "protection": ["15kV ESD", "6kV lightning"],
+          "modes": ["AP", "Client", "AP Router", "AP Client Router WISP"],
+          "management": ["Pharos Control", "web GUI", "SNMP v2c"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 9 (CTOnline 9, CVA 0)",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "CPE710", "stock": 9, "price": 70, "priceKind": "provider_best_price_raw"},
+            {"providerId": "cva", "providerSku": "CPE710", "stock": 0, "price": 70, "priceKind": "provider_best_price_raw"}
+          ],
+          "sourceDiscrepancies": ["El feed lo trae como access point; es CPE exterior/radioenlace direccional.", "Sin sucursal granular por proveedor."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"dimensions": "366 x 280 x 207 mm", "netWeight": "No publicado en resumen local"},
+        "sourceRefs": [
+          {"title": "TP-Link CPE710 UK", "type": "manufacturer_spec", "url": "https://www.tp-link.com/uk/products/details/cpe710.html"},
+          {"title": "TP-Link CPE710 Canada", "type": "manufacturer_spec", "url": "https://www.tp-link.com/ca/business-networking/outdoor-radio/cpe710/"},
+          {"title": "Electroprice provider stock CPE710", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6ofyun3ihsojvgb",
+      "research": {
+        "confidence": 0.91,
+        "brand": "XPG",
+        "name": "XPG PROBE700B-BKCUS fuente de poder ATX 700W 80 Plus Bronze",
+        "description": "Fuente de poder XPG PROBE Bronze PROBE700B-BKCUS de 700W ATX con certificacion 80 Plus Bronze, PFC activo, ventilador de 120 mm, eficiencia hasta 87% al 50% de carga y protecciones electricas.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-bronze/700w",
+        "semanticCategoryPath": "computing/components/power-supplies/atx/80-plus-bronze/700w",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xpg.com/en/xpg/pc-components-probe-bronze?tab=spec",
+        "gallery": [
+          "https://www.xpg.com/en/xpg/pc-components-probe-bronze?tab=spec",
+          "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Fuentes-de-Poder-para-PC-s/Fuente-de-Poder-XPG-Probe-Bronze-80-PLUS-Bronze-ATX-24-pin-ATX-120mm-700W.html"
+        ],
+        "documents": [
+          "https://webapi3.adata.com/storage/downloadfile/xpg_probe_2024_datasheet.pdf",
+          "https://webapi3.adata.com/storage/downloadfile/xpg_probe_psu_datasheet_202511.pdf"
+        ],
+        "specs": {
+          "brand": "ADATA XPG",
+          "model": "PROBE700B-BKCUS",
+          "gtin": "4711085948618",
+          "productType": "Fuente de poder ATX",
+          "wattage": "700W",
+          "efficiency": "80 Plus Bronze, hasta 87% al 50% de carga",
+          "fan": "120 mm bajo ruido",
+          "pfc": "Activo",
+          "formFactor": "ATX",
+          "depth": "140 mm",
+          "rails": {"+12V": "54A", "+5V": "17A", "+3.3V": "19A", "-12V": "0.3A", "+5Vsb": "2.5A"},
+          "connectors": ["20+4 pin ATX", "CPU 4+4 pin", "PCIe 6+2 pin", "SATA", "Molex"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 3",
+          "providerOffers": [{"providerId": "cva", "providerSku": "PROBE700B-BKCUS", "stock": 3, "price": 35.53, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed ya apuntaba a fuente de poder, pero faltaba potencia/certificacion.", "XPG usa variantes regionales PROBE700B-BKCxx; BKCUS es la variante US."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"dimensions": "140 x 150 x 86 mm", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "XPG PROBE Bronze specs", "type": "manufacturer_spec", "url": "https://www.xpg.com/en/xpg/pc-components-probe-bronze?tab=spec"},
+          {"title": "XPG PROBE 2024 datasheet", "type": "manufacturer_datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/xpg_probe_2024_datasheet.pdf"},
+          {"title": "Electroprice provider stock PROBE700B-BKCUS", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6og734wl8v8zn69",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Dell",
+        "name": "Dell AC027075 memoria RAM 16GB DDR5 4800MHz ECC UDIMM",
+        "description": "Modulo de memoria Dell AC027075 de 16GB DDR5-4800 PC5-38400 ECC unbuffered UDIMM, 288 pines, 1.1V y single-rank, para estaciones de trabajo o equipos Dell compatibles.",
+        "manualCategoryPath": "computo/componentes/memoria-ram/udimm-ddr5/ecc-16gb-4800",
+        "semanticCategoryPath": "computing/components/memory/udimm-ddr5/ecc/16gb-4800",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.memory4less.com/dell-16gb-ddr5-pc538400-ac027075",
+        "gallery": [
+          "https://www.memory4less.com/dell-16gb-ddr5-pc538400-ac027075",
+          "https://www.barcodesinc.com/dell/part-ac027075.htm"
+        ],
+        "documents": ["https://etd.gr/wp-content/uploads/AC027075.pdf"],
+        "specs": {
+          "brand": "DELL",
+          "model": "AC027075",
+          "productType": "Modulo de memoria RAM",
+          "capacity": "16GB",
+          "memoryType": "DDR5 SDRAM",
+          "speed": "4800 MHz / PC5-38400",
+          "ecc": true,
+          "buffering": "Unbuffered",
+          "rank": "Single-rank",
+          "pins": 288,
+          "voltage": "1.1V",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC027075", "stock": 0, "price": 4467.41, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha oficial publica de Dell para el SKU exacto; se triangula con distribuidores especializados.", "El feed era memoria RAM pero faltaba DDR5/ECC/capacidad."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"formFactor": "288-pin UDIMM", "dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Memory4Less Dell AC027075", "type": "marketplace_spec", "url": "https://www.memory4less.com/dell-16gb-ddr5-pc538400-ac027075"},
+          {"title": "BarcodesInc Dell AC027075", "type": "marketplace_spec", "url": "https://www.barcodesinc.com/dell/part-ac027075.htm"},
+          {"title": "Electroprice provider stock AC027075", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6oq410wbj8u9og9",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Manhattan",
+        "name": "Manhattan 153966 docking station USB-C PD 7 en 1 4K HDMI Ethernet",
+        "description": "Docking station Manhattan 153966 USB-C PD 7 en 1 para laptop/MacBook, con HDMI 4K, Gigabit Ethernet, lector SD/microSD, USB-A, USB-C Power Delivery hasta 100W y cable USB-C integrado.",
+        "manualCategoryPath": "computo/accesorios/docks-hubs/usb-c/7-en-1-hdmi-ethernet-pd",
+        "semanticCategoryPath": "computing/laptop-accessories/usb-c-docks/7-in-1-hdmi-ethernet-pd",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-estacion-docking-usb-c-con-lector-de-tarjetas-7-en-1-153966",
+        "gallery": [
+          "https://manhattanproducts.mx/products/manhattan-es-estacion-docking-usb-c-con-lector-de-tarjetas-7-en-1-153966",
+          "https://manhattanproducts.us/products/manhattan-en-usb-c-pd-7-in-1-4k-docking-station-multiport-hub-153966"
+        ],
+        "documents": ["https://s3.amazonaws.com/assets.mhint/downloads/69365/153966_datasheet_english.pdf"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "153966",
+          "productType": "Dock USB-C / hub multipuerto 7 en 1",
+          "hostInterface": "USB-C with DP Alt Mode",
+          "ports": ["HDMI 4K", "Gigabit Ethernet", "USB-A", "USB-C Power Delivery", "SD reader", "microSD reader"],
+          "video": "HDMI 4K",
+          "powerDelivery": "Hasta 100W pass-through",
+          "network": "RJ45 Gigabit Ethernet",
+          "compatibility": ["Windows", "macOS", "Chrome OS", "Android con USB-C compatible"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0 (CTOnline 0, CVA 0)",
+          "providerOffers": [
+            {"providerId": "ctonline", "providerSku": "153966", "stock": 0, "price": 50.44, "priceKind": "provider_best_price_raw"},
+            {"providerId": "cva", "providerSku": "153966", "stock": 0, "price": 50.44, "priceKind": "provider_best_price_raw"}
+          ],
+          "sourceDiscrepancies": ["El feed lo traia bajo switches/redes; es dock/hub USB-C.", "La descripcion del feed menciona 7 en 1 y coincide con SKU 153966."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"dimensions": "130 x 54 x 17 mm", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Manhattan Mexico 153966", "type": "manufacturer_spec", "url": "https://manhattanproducts.mx/products/manhattan-es-estacion-docking-usb-c-con-lector-de-tarjetas-7-en-1-153966"},
+          {"title": "Manhattan 153966 datasheet", "type": "manufacturer_datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/69365/153966_datasheet_english.pdf"},
+          {"title": "Electroprice provider stock 153966", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6oungavj5pkhqt0",
+      "research": {
+        "confidence": 0.89,
+        "brand": "BRobotix",
+        "name": "BRobotix 372782 cable USB 2.0 extension activa 15 m macho-hembra negro",
+        "description": "Cable de extension USB 2.0 activa BRobotix 372782 de 15 m, USB-A macho a USB-A hembra, color negro, compatible con USB 1.1 y velocidad USB 2.0 hasta 480 Mbps segun distribuidores.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/extensiones/activas/15m",
+        "semanticCategoryPath": "accessories/cables-adapters/usb/extensions/active/15m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://fulloffice.com/products/cable-usb-v2-0-extension-activa-brobotix-372782",
+        "gallery": [
+          "https://fulloffice.com/products/cable-usb-v2-0-extension-activa-brobotix-372782",
+          "https://tecnoprice.mx/productos/cables/cables-usb/brobotix/372782/z-39783"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "372782",
+          "productType": "Cable extension USB activa",
+          "interface": "USB 2.0",
+          "connectorA": "USB-A macho",
+          "connectorB": "USB-A hembra",
+          "gender": "Macho/Hembra",
+          "length": "15 m",
+          "color": "Negro",
+          "dataRate": "480 Mbps",
+          "compatibility": ["USB 2.0", "USB 1.1"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 7",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "372782", "stock": 7, "price": 19.19, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha oficial activa de BRobotix; se triangula con distribuidores.", "El feed tenia categoria generica de cable; se especifica extension USB activa de 15 m."],
+          "providerStockVerifiedAt": "2026-05-31T02:20:00Z"
+        },
+        "measurements": {"length": "15 m", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "FullOffice BRobotix 372782", "type": "marketplace_spec", "url": "https://fulloffice.com/products/cable-usb-v2-0-extension-activa-brobotix-372782"},
+          {"title": "Tecnoprice BRobotix 372782", "type": "marketplace_spec", "url": "https://tecnoprice.mx/productos/cables/cables-usb/brobotix/372782/z-39783"},
+          {"title": "Electroprice provider stock 372782", "type": "provider_stock", "observedAt": "2026-05-31T02:20:00Z"}
+        ]
+      }
+    }
+  ]
+}
