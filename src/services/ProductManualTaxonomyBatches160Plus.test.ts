@@ -422,6 +422,16 @@ const batch160PlusCases = [
   ["Tripp Lite SRCTMTFRM juego terminacion bastidor contencion pasillo", "TRIPP-LITE", "infraestructura/racks-accesorios/contencion-pasillos/kits-terminacion/tripp-lite-srctmtfrm", "networking"],
   ["PCM 10B24 papel bond plotter rollo 0.91 x 150 ACCPCM815", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-150m/pcm-10b24", "printers_scanners"],
   ["Kensington K55805WW cojin de asiento espuma viscoelastica negro", "KENSINGTON", "oficina/ergonomia/cojines-asiento/espuma-viscoelastica/kensington-k55805ww", "accessories"],
+  ["Peerless-AV ACC570 placa redonda de techo para proyector 68 kg", "PEERLESS-AV", "accesorios/montaje-soportes/audio-video/placas-techo/peerless-acc570", "accessories"],
+  ["Azor Pin Point 6840AZ boligrafo ultrafino azul 0.5 mm caja 12", "AZOR", "oficina/papeleria/boligrafos/boligrafo-punta-ultrafina/azor-pinpoint-6840az-azul-12-piezas", "accessories"],
+  ["HP DesignJet T950 2Y9H1A plotter 36 pulgadas", "HP", "impresion/impresoras/gran-formato/plotters/36-pulgadas/hp-designjet-t950", "printers_scanners"],
+  ["Dell N_INSPNBL3_C1_U3 Inspiron 5000 1Y Carry-In a 3Y Premium Support Plus", "DELL", "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-5000/1y-carry-in-a-3y-premium-support-plus", "software"],
+  ["TechZone NASA NS-HSG03 diadema gamer alambrica 3.5mm USB RGB", "TECHZONE", "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb/techzone-nasa-ns-hsg03", "headphones"],
+  ["Hillstone BDL1-A200-IN12 bundle Basic NGFW para A200 12 meses", "HILLSTONE", "software/licencias/seguridad-red/hillstone/a200/bdl1-12m", "software"],
+  ["HP ScanJet Enterprise Flow N7000 snw1 6FW10A escaner ADF 7500 paginas", "HP", "impresion/escaneres/documentales/adf/alto-volumen/hp-scanjet-enterprise-flow-n7000", "printers_scanners"],
+  ["Hisense RR33D6AGX1 frigobar compacto 3.3 pies plata", "HISENSE", "hogar/electrodomesticos/refrigeradores/frigobares/3-3-pies/hisense-rr33d6agx1", "accessories"],
+  ["EPCOM XP16DC204K fuente CCTV 16 salidas 11-15 VDC 20A", "EPCOM", "seguridad/cctv/accesorios-alimentacion/fuentes-12v/16-salidas-20a/epcom-xp16dc204k", "cameras"],
+  ["Janel Memo Tip 6560303704 notas adhesivas amarillas 3x3 paquete 6", "JANEL", "oficina/papeleria/notas-adhesivas/3x3/amarillas/janel-memo-tip-6560303704-6p", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
