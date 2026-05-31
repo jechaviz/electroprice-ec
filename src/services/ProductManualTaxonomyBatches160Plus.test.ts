@@ -402,6 +402,16 @@ const batch160PlusCases = [
   ["Meriva Streamax M6PIN DJ-TRANSFER cable 6 pines para MDVR MA16MAX", "MERIVA", "seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m6pin-dj-transfer", "cameras"],
   ["GEO 004 caja para archivo carton carta 50x31x25 paquete 20 piezas", "GEO", "oficina/papeleria/archivo/cajas-archivo/carta/20-piezas/geo-004", "accessories"],
   ["Microsoft DG7GMGF0PN43:0002 Commercial Visio LTSC Professional 2024 CSP", "MICROSOFT", "software/licencias/microsoft/visio/ltsc-professional-2024-commercial", "software"],
+  ["BACO G-1000 Superflex grapas estandar caja 1000 piezas", "BACO", "oficina/papeleria/engrapadoras-grapas/grapas-estandar/baco-g1000-1000p", "accessories"],
+  ["Perfect Choice Evoir PC-117292 lentes inteligentes open ear polarizados", "PERFECT CHOICE", "audio/audifonos/wearables/lentes-inteligentes/perfect-choice-evoir", "headphones"],
+  ["Logitech 939-001647 Rally Mic Pod Hub para microfonos videoconferencia", "LOGITECH", "computo/colaboracion/videoconferencia/accesorios/hubs-microfono/logitech-rally-mic-pod-hub", "audio"],
+  ["Epson ELPLP75 V13H010L75 lampara para proyectores PowerLite", "EPSON", "audio-video/proyectores/accesorios/lamparas/epson-elplp75", "accessories"],
+  ["Epson ELPLP71 V13H010L71 lampara de reemplazo PowerLite 475Wi", "EPSON", "audio-video/proyectores/accesorios/lamparas/epson-elplp71", "accessories"],
+  ["Epson ELPLP76 V13H010L76 lampara de reemplazo PowerLite Pro", "EPSON", "audio-video/proyectores/accesorios/lamparas/epson-elplp76", "accessories"],
+  ["BACO G-5000 Superflex 11039 grapas estandar caja 5040 piezas", "BACO", "oficina/papeleria/engrapadoras-grapas/grapas-estandar/baco-g5000-5040p", "accessories"],
+  ["APC AP9335T NetBotz sensor de temperatura RJ-45 13 ft", "APC", "infraestructura/monitoreo-ambiental/sensores-temperatura/apc-ap9335t", "power"],
+  ["Stylos STASWM3P smartwatch SW2 Bluetooth 4.0 rosa", "Stylos", "electronica/wearables/smartwatches/stylos-staswm3p", "accessories"],
+  ["Dell N_ANWNBL1_C1_EC3 Alienware notebook 1Y Basic Carry-In a 3Y Elite Care", "DELL", "servicios-ti/soporte-garantias/dell/alienware-elite-care/notebooks/1y-basic-carry-in-a-3y", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
