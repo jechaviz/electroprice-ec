@@ -442,6 +442,16 @@ const batch160PlusCases = [
   ["BACO 5470 juego de geometria escolar con compas", "BACO", "oficina/papeleria/material-escolar/juegos-geometria/con-compas/baco-5470", "accessories"],
   ["BACO PL007 plastilina marqueta 180 g verde claro no 55", "BACO", "oficina/papeleria/material-escolar/plastilina/marqueta-180g/verde-claro/baco-pl007", "accessories"],
   ["Lenovo Tab M8 4a Gen TB300FU ZABU0027MX 8 pulgadas 3GB 32GB", "LENOVO", "computo/tabletas/android/8-pulgadas/lenovo-tab-m8-4gen-tb300fu", "tablets"],
+  ["SONOFF CAM-S2 camara seguridad interior WiFi 1080p eWeLink", "SONOFF", "seguridad/cctv/camaras-ip-wifi/interior/1080p/sonoff-cam-s2", "cameras"],
+  ["Game Factor TP300 pasta termica 2 g 13.4 W/mK kit aplicador", "GAME FACTOR", "computo/componentes/enfriamiento/pasta-termica/game-factor-tp300-2g", "components"],
+  ["PCM 50000I0014A etiquetas TT transferencia termica blanco", "PCM", "impresion/consumibles/etiquetas/transferencia-termica/blancas/pcm-50000i0014a", "printers_scanners"],
+  ["Stylos STASWM3CD smartwatch SW2 dorado banda beige Bluetooth 4.0", "Stylos", "electronica/wearables/smartwatches/stylos-staswm3cd", "accessories"],
+  ["Norton AntiTrack 21430295 licencia digital 1 dispositivo 1 ano", "NORTON", "software/seguridad/privacidad-antirrastreo/norton-antitrack/1-dispositivo-1-ano", "software"],
+  ["Datamax PHD20-2181-01 cabezal termico I-Class Mark I 203 dpi", "DATAMAX", "impresion/refacciones/cabezales/termicos/datamax-i-class-mark-i-phd20-2181-01", "printers_scanners"],
+  ["Lenovo 5WS1J38550 4Y Premium Care Plus upgrade 1Y Courier Carry-In", "LENOVO", "servicios-ti/soporte-garantias/lenovo/premium-care-plus/4y-upgrade-1y-courier-carry-in/5ws1j38550", "software"],
+  ["NASSA HA0075 sobre correspondencia oficio sin fondo 10.5x24 paquete 500", "NASSA", "oficina/papeleria/sobres/correspondencia/oficio/paquete-500/nassa-ha0075", "accessories"],
+  ["LG GM29BP refrigerador French Door 29 pies plata platino", "LG", "hogar/electrodomesticos/refrigeradores/french-door/29-pies/lg-gm29bp", "accessories"],
+  ["CDP ES-AVR-1524 SOL inversor UPS solar 1500VA 1000W MPPT 24V", "CDP", "energia/solar/inversores-ups/line-interactive/mppt-24v/cdp-es-avr-1524-sol", "power"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
