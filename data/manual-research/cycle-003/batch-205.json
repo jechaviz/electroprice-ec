@@ -1,0 +1,407 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b205-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 205,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "a7keuagi83dd0jx",
+      "research": {
+        "confidence": 0.93,
+        "brand": "APC",
+        "name": "APC ACAC75009 receptor inundado R410A 17 lb 6 x 18 in",
+        "description": "Receptor inundado APC by Schneider Electric ACAC75009 para sistemas de enfriamiento InRow RD/Uniflair con refrigerante R410A, capacidad 17 lb, recipiente nominal de 6 x 18 pulgadas, listado UL e incluye guia de instalacion.",
+        "manualCategoryPath": "infraestructura/enfriamiento-centros-datos/accesorios/receptores-refrigerante/r410a/apc-acac75009",
+        "semanticCategoryPath": "infraestructura/enfriamiento-centros-datos/accesorios/receptores-refrigerante/r410a/apc-acac75009",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/us/en/products/Flooded-Receiver-17lb-R410A-6-Diameter-18-Length/P-ACAC75009",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5784686",
+          "https://download.schneider-electric.com/files?p_Doc_Ref=SPD_STOS-7RSPDA_FL_V&p_File_Name=B843F8BD-5056-AE36-FE14FFA243D3645B_f_v_520.jpg",
+          "https://webobjects2.cdw.com/is/image/CDW/1568158?$product-detail$"
+        ],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "ACAC75009",
+          "providerSku": "AC-2869",
+          "gtin": "00731304266327",
+          "productType": "Receptor inundado para condensador de enfriamiento",
+          "refrigerant": "R410A",
+          "receiverCapacity": "17 lb",
+          "nominalVesselSize": "6 in diametro x 18 in largo",
+          "certifications": ["UL Listed"],
+          "warranty": "1 ano solo partes",
+          "compatibilityModels": ["ACRD100", "ACRD101", "ACCD75214", "ACCD75215", "ACCD75216", "ACCD75217", "ACCD75218", "ACCD75219", "ACCD75220"],
+          "providerBranchSummary": "CVA stock 0; ubicacion MX sin sucursal o almacen declarado.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-2869", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 1771.39, "lastSyncedAt": "2026-05-20T03:07:29Z", "evidenceHash": "cva-api-full-proof-20260519:262:AC-2869" }]
+        },
+        "measurements": { "dimensions": "27.01 x 35.47 x 17.99 in", "weight": "17.06 lb / 7.74 kg", "packageDimensions": "26.73 x 35.51 x 17.76 in", "packageWeight": "51.10 lb / 23.18 kg" },
+        "packageContents": ["Receptor inundado ACAC75009", "Guia de instalacion"],
+        "compatibility": "APC/Schneider Uniflair InRow RD ACRD100/ACRD101 y condensadores ACCD75214 a ACCD75220; validar seleccion con Schneider/APC antes de instalar.",
+        "sourceRefs": [
+          { "title": "APC ACAC75009 official", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/us/en/products/Flooded-Receiver-17lb-R410A-6-Diameter-18-Length/P-ACAC75009" },
+          { "title": "Schneider ACAC75009 installation guide", "type": "manual", "url": "https://download.schneider-electric.com/files?p_Doc_Ref=SPD_MLAN-7ENL8S_EN&p_File_Name=MLAN-7ENL8S_R1_EN.pdf&p_enDocType=User+guide" },
+          { "title": "ACRD100 condenser spec sheet", "type": "manufacturer_spec", "url": "https://www.alldataresource.com/assets/apc_schneider_electric/Schneider_Electric_ACRD100_InRow_RD_Cooling_Spec_Sheet.pdf" },
+          { "title": "CDW ACAC75009", "type": "retailer_spec", "url": "https://www.cdw.com/product/apc-by-schneider-electric-airflow-system-condenser/1568158" }
+        ]
+      }
+    },
+    {
+      "product_id": "x31z1t1sp9ep1bq",
+      "research": {
+        "confidence": 0.95,
+        "brand": "APC",
+        "name": "APC Uniflair InRow RD ACRD100 enfriamiento 300 mm 208-230V 60Hz",
+        "description": "Unidad de enfriamiento APC Uniflair InRow RD ACRD100 para centros de datos, expansion directa refrigerada por aire, ancho 300 mm, entrada 208-230V 60Hz y capacidad cercana a 10 kW.",
+        "manualCategoryPath": "infraestructura/enfriamiento-centros-datos/unidades-inrow/expansion-directa/300mm-aire-208-230v/apc-acrd100",
+        "semanticCategoryPath": "infraestructura/enfriamiento-centros-datos/unidades-inrow/expansion-directa/300mm-aire-208-230v/apc-acrd100",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/ACRD100/uniflair-inrow-rd-300mm-air-cooled-208230v-60hz/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5784685",
+          "https://www.alldataresource.com/assets/apc_schneider_electric/APC-ACRD100-Air-Cooled-Main.jpg",
+          "https://www.surveillance-video.com/media/catalog/product/cache/405a7ba541b1baed5e9c77a8927a01d0/image/184571a264/apc-acrd100-inrow-rd-300mm-air-cooled-208-230v-60hz-acrd100.jpg"
+        ],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "ACRD100",
+          "providerSku": "AA-47",
+          "productType": "Unidad de enfriamiento InRow",
+          "coolingType": "Expansion directa, refrigerada por aire",
+          "capacity": "Hasta 10 kW / 9.9 kW neta tecnica",
+          "inputVoltage": "208-230 V",
+          "phase": "1 fase",
+          "frequency": "60 Hz",
+          "inputPower": "4600 W",
+          "minimumCircuitAmpacity": "25 A",
+          "maximumOvercurrentProtection": "40 A",
+          "rackUnits": "42U",
+          "airflow": "2290 CFM nominal; hasta 2900 CFM maximo segun resumen APC",
+          "compressorType": "Scroll",
+          "fans": "Ventiladores axiales DC de velocidad variable, reemplazables en caliente",
+          "certifications": ["C-Tick", "CE", "cUL Listed", "UL Listed"],
+          "providerBranchSummary": "CVA stock 0; ubicacion MX sin sucursal o almacen declarado.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AA-47", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 13548.14, "lastSyncedAt": "2026-05-20T03:07:29Z", "evidenceHash": "cva-api-full-proof-20260519:262:AA-47" }]
+        },
+        "measurements": { "dimensions": "78.39 x 11.81 x 42.13 in", "weight": "404.86 lb / 183.64 kg", "packageDimensions": "83.39 x 44.76 x 29.37 in", "packageWeight": "489.03 lb / 221.82 kg" },
+        "packageContents": ["Unidad de enfriamiento InRow RD ACRD100", "Guia de instalacion", "Manual de operacion y mantenimiento"],
+        "compatibility": "Arquitectura de enfriamiento en fila para racks y centros de datos; requiere rechazo de calor compatible serie ACCD752xx, instalacion profesional y puesta en marcha autorizada.",
+        "sourceRefs": [
+          { "title": "APC ACRD100 official", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/ACRD100/uniflair-inrow-rd-300mm-air-cooled-208230v-60hz/" },
+          { "title": "APC ACRD100 trade-up spec", "type": "manufacturer_spec", "url": "https://www.apc.com/shop/tradeups/us/en/products/InRow-RD-300mm-Air-Cooled-208-230V-60Hz/P-ACRD100" },
+          { "title": "ACRD100 data sheet", "type": "manufacturer_spec", "url": "https://www.alldataresource.com/assets/apc_schneider_electric/APC-ACRD100-Air-Cooled-Data-Sheet.pdf" },
+          { "title": "Newark ACRD100", "type": "retailer_spec", "url": "https://www.newark.com/apc/acrd100/inrow-rd-300mm-air-cooled-208/dp/03P3844" }
+        ]
+      }
+    },
+    {
+      "product_id": "tujf6cls4i48jaa",
+      "research": {
+        "confidence": 0.94,
+        "brand": "APC",
+        "name": "APC NetBotz NBES0307 sensor de humo cableado 10 ft",
+        "description": "Sensor de humo cableado APC NetBotz NBES0307 para monitoreo ambiental suplementario en centros de datos, racks y closets de red; no sustituye sistemas certificados de seguridad de vida o incendio del edificio.",
+        "manualCategoryPath": "infraestructura/monitoreo-ambiental/sensores-humo/netbotz/apc-nbes0307",
+        "semanticCategoryPath": "infraestructura/monitoreo-ambiental/sensores-humo/netbotz/apc-nbes0307",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/NBES0307/wired-sensor-netbotz-smoke-detection-10-ft-taa/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAPC820/ACCAPC820_full.jpg", "https://service.pcconnection.com/images/inhouse/D2D84D77-AABF-43B6-8087-0E09ED0729D6.jpg"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "NBES0307",
+          "providerSku": "ACCAPC820",
+          "upc": "731304262824",
+          "productType": "Sensor de humo NetBotz cableado",
+          "sensorTechnology": "Fotoelectrico",
+          "connection": "RJ-45 a puerto de sensor NetBotz",
+          "cableLength": "10 ft / 3.05 m",
+          "extension": "Hasta 100 ft / 30.5 m con acoplador RJ-45 y cable CAT5/CAT6",
+          "color": "Blanco",
+          "operatingTemperature": "0 a 45 C",
+          "operatingHumidity": "0 a 95% RH sin condensacion",
+          "warranty": "2 anos",
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal o almacen declarado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAPC820", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 329.87, "lastSyncedAt": "2026-05-20T03:05:42Z", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6665" }]
+        },
+        "measurements": { "dimensions": "13.2 x 17.5 x 16.8 cm", "weight": "0.7 kg", "packageDimensions": "15.2 x 31.2 x 21.6 cm", "packageWeight": "0.978 kg" },
+        "packageContents": ["Sensor de humo con cable 10 ft", "Bracket de montaje", "Acoplador RJ-45", "Tornilleria", "Cinchos", "Bases adhesivas", "Documentacion"],
+        "compatibility": "APC NetBotz con puerto de sensor cableado, incluyendo NetBotz 250A, 750 y 755; uso suplementario de monitoreo ambiental TI.",
+        "sourceRefs": [
+          { "title": "APC NBES0307 official", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/NBES0307/wired-sensor-netbotz-smoke-detection-10-ft-taa/" },
+          { "title": "APC NBES0307 installation guide", "type": "manual", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-JSAI-7FGLN8_R1_EN.pdf" },
+          { "title": "Connection NBES0307", "type": "retailer_spec", "url": "https://www.connection.com/product/apc-netbotz-smoke-sensor-10ft/nbes0307/9742502" }
+        ]
+      }
+    },
+    {
+      "product_id": "d8hu9za167ko8u4",
+      "research": {
+        "confidence": 0.93,
+        "brand": "APC",
+        "name": "APC NetBotz NBWS100H sensor inalambrico de temperatura y humedad",
+        "description": "Sensor inalambrico APC NetBotz NBWS100H para monitorear temperatura y humedad en racks, salas de TI y closets de red, con bateria CR2477 reemplazable y operacion mediante coordinador inalambrico NetBotz.",
+        "manualCategoryPath": "infraestructura/monitoreo-ambiental/sensores-temperatura-humedad/netbotz/inalambricos/apc-nbws100h",
+        "semanticCategoryPath": "infraestructura/monitoreo-ambiental/sensores-temperatura-humedad/netbotz/inalambricos/apc-nbws100h",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/NBWS100H/netbotz-wireless-temperature-humidity-sensor/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAPC1250/ACCAPC1250_full.jpg", "https://service.pcconnection.com/images/inhouse/54331E7E-73F3-4192-B761-E9D31C32BC6A.jpg"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "NBWS100H",
+          "providerSku": "ACCAPC1250",
+          "upc": "731304312703",
+          "productType": "Sensor inalambrico temperatura y humedad",
+          "temperatureRange": "15 a 50 C",
+          "temperatureAccuracy": "+/-1 C",
+          "humidityRange": "11 a 89% RH",
+          "humidityAccuracy": "+/-3% RH",
+          "wirelessRange": "75 ft / 22.9 m linea de vista; sujeto al entorno",
+          "battery": "CR2477 3 V reemplazable",
+          "batteryLife": "3 a 5 anos",
+          "color": "Gris",
+          "warranty": "2 anos",
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal o almacen declarado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAPC1250", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 188.34, "lastSyncedAt": "2026-05-20T03:05:42Z", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:12956" }]
+        },
+        "measurements": { "dimensions": "1.9 x 3.8 x 3.8 cm", "weight": "0.02 kg", "packageDimensions": "5.1 x 23.5 x 16.5 cm", "packageWeight": "0.25 kg" },
+        "packageContents": ["Sensor inalambrico", "Bracket de pared", "Tornillos", "Taquetes", "Cinchos", "Bases adhesivas", "Documentacion"],
+        "compatibility": "APC NetBotz 250/250A, 450/455/456, 570, 750/755 con coordinador inalambrico USB NBWC100U o appliance compatible.",
+        "sourceRefs": [
+          { "title": "APC NBWS100H official", "type": "manufacturer", "url": "https://www.apc.com/us/en/product/NBWS100H/netbotz-wireless-temperature-humidity-sensor/" },
+          { "title": "APC NBWS100H installation guide", "type": "manual", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-JLER-9FYLUH_R1_EN.pdf" },
+          { "title": "Connection NBWS100H", "type": "retailer_spec", "url": "https://www.connection.com/product/apc-netbotz-wireless-temperature-humidity-sensor/nbws100h/30760668" }
+        ]
+      }
+    },
+    {
+      "product_id": "uhpubwewlrd1srm",
+      "research": {
+        "confidence": 0.95,
+        "brand": "APC",
+        "name": "APC SRT5KRMTF transformador reductor Smart-UPS SRT 5kVA 208V a 120V 2U",
+        "description": "Transformador APC Smart-UPS SRT5KRMTF de bajada y aislamiento para UPS SRT rack de 5 kVA, entrada 208V, salida 120V, rack 2U y 12 tomas NEMA 5-20R.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/transformadores-reductores/smart-ups-srt-5kva/apc-srt5krmtf",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/transformadores-reductores/smart-ups-srt-5kva/apc-srt5krmtf",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://shop.se.com/pro/us/en/product/apc-smart-ups-step-down-transformer-5kva-rackmount-2u-12x-nema-5-20r-outlets/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAPC1400/ACCAPC1400_full.jpg", "https://snpi.dell.com/snp/images/products/large/en-us~A8699218/A8699218.jpg"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "SRT5KRMTF",
+          "providerSku": "ACCAPC1400",
+          "upc": "731304318866",
+          "productType": "Transformador reductor para UPS",
+          "loadCapacity": "5000 VA",
+          "inputVoltage": "208 V",
+          "outputVoltage": "120 V",
+          "inputConnection": "NEMA L6-30P",
+          "outlets": "12 x NEMA 5-20R",
+          "lineCurrent": "24 A",
+          "inputCurrentLimit": "30 A",
+          "rackUnits": "2U",
+          "certifications": ["CSA", "UL 1778"],
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal o almacen declarado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAPC1400", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 1030.27, "lastSyncedAt": "2026-05-20T03:05:42Z", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:5068" }]
+        },
+        "measurements": { "dimensions": "8.9 x 43.2 x 63.7 cm", "weight": "43.09 kg", "packageDimensions": "25.4 x 95.2 x 62.2 cm", "packageWeight": "49.9 kg" },
+        "packageContents": ["Transformador SRT5KRMTF", "Hardware de montaje", "Brackets para rack", "Kit de rieles", "Manual", "Tarjeta de garantia"],
+        "compatibility": "UPS APC Smart-UPS SRT On-Line rackmount de 5 kVA con salida/fuente 208V y cargas de 120V dentro de 5000 VA / 24 A.",
+        "sourceRefs": [
+          { "title": "Schneider Store SRT5KRMTF", "type": "manufacturer", "url": "https://shop.se.com/pro/us/en/product/apc-smart-ups-step-down-transformer-5kva-rackmount-2u-12x-nema-5-20r-outlets/" },
+          { "title": "SRT5KRMTF data sheet", "type": "manufacturer_spec", "url": "https://www.mouser.com/datasheet/3/187/7/SRT5KRMTF_document.pdf" },
+          { "title": "SRT5KRMTF installation guide", "type": "manual", "url": "https://iportal2.schneider-electric.com/Contents/docs/UPS-JGNY-9PWDTQ_R1_EN.PDF" },
+          { "title": "Dell SRT5KRMTF", "type": "retailer_spec", "url": "https://www.dell.com/en-us/shop/apc-smart-ups-step-down-transformer-5kva-rackmount-2u-12x-nema-5-20r-outlets/apd/a8699218/power-cooling-data-center-infrastructure" }
+        ]
+      }
+    },
+    {
+      "product_id": "sxmi0as4zjukvsy",
+      "research": {
+        "confidence": 0.94,
+        "brand": "APC",
+        "name": "APC SRTRK3 kit de rieles 2 postes para Smart-UPS SRT",
+        "description": "Kit de rieles APC SRTRK3 para montaje de equipos Smart-UPS SRT en rack de 2 postes, con rieles, tornilleria y brackets de montaje.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/rieles-rack/smart-ups-srt/apc-srtrk3",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/rieles-rack/smart-ups-srt/apc-srtrk3",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/SRTRK3/apc-smartups-srt-2-post-mounting-rail-kit-for-smartups-srt/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAPC750/ACCAPC750_full.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-APC-SRTRK3-1.jpg"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "SRTRK3",
+          "providerSku": "ACCAPC750",
+          "upc": "731304322382",
+          "productType": "Kit de rieles para rack de 2 postes",
+          "line": "Smart-UPS Accessories",
+          "use": "Montaje de Smart-UPS SRT en rack de 2 postes",
+          "officialIncluded": ["Guia de instalacion", "Hardware de montaje", "Brackets para rack"],
+          "warranty": "2 anos",
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal o almacen declarado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAPC750", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 262.37, "lastSyncedAt": "2026-05-20T03:05:42Z", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:2148" }]
+        },
+        "measurements": { "dimensions": "9.2 x 26.0 x 19.0 cm", "weight": "3.85 kg", "packageDimensions": "11.8 x 28.5 x 21.6 cm", "packageWeight": "4.2 kg" },
+        "packageContents": ["Kit APC SRTRK3", "2 pares de rieles", "24 tornillos pan head", "Hardware de montaje", "Brackets", "Guia de instalacion"],
+        "compatibility": "Modelos APC Smart-UPS SRT compatibles con montaje en rack de 2 postes; validar modelo exacto y guia de instalacion.",
+        "sourceRefs": [
+          { "title": "APC SRTRK3 official", "type": "manufacturer", "url": "https://www.se.com/us/en/product/SRTRK3/apc-smartups-srt-2-post-mounting-rail-kit-for-smartups-srt/" },
+          { "title": "SRTRK3 data sheet", "type": "manufacturer_spec", "url": "https://iportal.se.com/Contents/docs/UPS-SRTRK3_DATASHEET.PDF" },
+          { "title": "B&H SRTRK3", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1454737-REG/apc_srtrk3_2_post_mounting_rail_kit.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "s47qyrv77dpsrcy",
+      "research": {
+        "confidence": 0.74,
+        "brand": "APC",
+        "name": "APC WAGSLABOUR visita de mantenimiento preventivo y diagnostico en sitio",
+        "description": "Servicio APC WAGSLABOUR de visita tecnica en sitio para revisar el estado del equipo y diagnosticar componentes o piezas que requieran reemplazo; no incluye hardware ni refacciones salvo cotizacion separada.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apc/mantenimiento-preventivo/visita-diagnostico/wagslabour",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apc/mantenimiento-preventivo/visita-diagnostico/wagslabour",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/us/en/products/UPS-modernization-service/P-WUPSMOD",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5322690"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "WAGSLABOUR",
+          "providerSku": "POL-803",
+          "productType": "Servicio de visita tecnica / mano de obra AGS",
+          "serviceActions": ["Revision del estado del equipo", "Diagnostico de componentes o piezas a reemplazar", "Reporte o recomendacion de mantenimiento"],
+          "satClaveObserved": "81111812",
+          "upcObserved": "NO APLICA",
+          "hardwareIncluded": false,
+          "replacementPartsIncluded": false,
+          "providerBranchSummary": "CVA stock 0; servicio sujeto a cotizacion/validacion local.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-803", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 3146.7, "lastSyncedAt": "2026-05-20T03:07:29Z", "evidenceHash": "cva-api-full-proof-20260519:263:POL-803" }]
+        },
+        "measurements": { "serviceWeight": "0; servicio sin pieza fisica" },
+        "packageContents": ["Orden o activacion de servicio", "Visita de ingeniero certificado APC", "Revision y diagnostico del equipo"],
+        "compatibility": "Equipos APC/Schneider de energia que requieren visita de ingenieria; confirmar modelo, sitio y cobertura con APC/CVA antes de vender.",
+        "sourceRefs": [
+          { "title": "Compuviper WAGSLABOUR", "type": "retailer_spec", "url": "https://compuviper.mx/tienda/producto/apc-wagslabour-viaticos-para-puesta-en-marcha-de-ups-trifasico/" },
+          { "title": "Cityshop WAGSLABOUR", "type": "retailer_spec", "url": "https://cityshop.mx/producto/viaticos-para-puesta-en-marcha-de-ups-symmetra-px-30kva-apc" },
+          { "title": "APC UPS modernization service", "type": "manufacturer_service", "url": "https://www.apc.com/shop/tradeups/us/en/products/UPS-modernization-service/P-WUPSMOD" }
+        ]
+      }
+    },
+    {
+      "product_id": "c7msz4y96mvv3ea",
+      "research": {
+        "confidence": 0.86,
+        "brand": "APC",
+        "name": "APC WLOCALCONTRACT poliza Advantage Ultra Galaxy 3500 20kVA con refacciones",
+        "description": "Contrato local APC WLOCALCONTRACT de mantenimiento para UPS Galaxy 3500 de 20 kVA posterior a garantia, con servicio de emergencia, refacciones excepto baterias, mantenimiento preventivo y soporte 7x24 segun alcance.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apc/advantage-ultra/galaxy-3500-20kva/wlocalcontract",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apc/advantage-ultra/galaxy-3500-20kva/wlocalcontract",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aztecacompras.com/mx0000098352-apc-wlocalcontract-poliza-de-mantenimiento-con-refacciones-para-equipo-glaxy-3500-20-kvas-despus-del-periodo-garantia.html",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9677597"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "WLOCALCONTRACT",
+          "providerSku": "POL-2415",
+          "productType": "Contrato local AGS / poliza de mantenimiento con refacciones",
+          "targetEquipment": "APC Galaxy 3500 20 kVA despues del periodo de garantia",
+          "bundleParts": ["WADVULTRA-G3-22", "WUPG4HR-UG-01", "WPMV-G3-22", "WUPGPMV7X24-UG-01", "WUPGEAA-UG-01"],
+          "duration": "1 ano inferido por componentes de servicio",
+          "responseTime": "4 horas en sitio 7x24 segun upgrade asociado",
+          "preventiveMaintenance": "2 visitas preventivas 7x24 segun ficha externa",
+          "partsCoverage": "Refacciones excepto baterias segun descripcion de distribuidor",
+          "providerBranchSummary": "CVA stock 0; servicio sujeto a cotizacion/validacion local.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-2415", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 2200.31, "lastSyncedAt": "2026-05-20T03:07:29Z", "evidenceHash": "cva-api-full-proof-20260519:255:POL-2415" }]
+        },
+        "measurements": { "serviceWeight": "0; servicio sin pieza fisica" },
+        "packageContents": ["Contrato local AGS WLOCALCONTRACT", "Servicio de emergencia", "Refacciones excepto baterias", "2 visitas preventivas", "Soporte telefonico 7x24x365"],
+        "compatibility": "APC Galaxy 3500 20 kVA y familias Smart-UPS VT/SUVT 20 kVA relacionadas; validar elegibilidad exacta del equipo con APC/CVA.",
+        "sourceRefs": [
+          { "title": "AztecaCompras WLOCALCONTRACT", "type": "retailer_spec", "url": "https://www.aztecacompras.com/mx0000098352-apc-wlocalcontract-poliza-de-mantenimiento-con-refacciones-para-equipo-glaxy-3500-20-kvas-despus-del-periodo-garantia.html" },
+          { "title": "Cityshop WLOCALCONTRACT", "type": "retailer_spec", "url": "https://cityshop.mx/producto/poliza-de-mantenimiento-con-refacciones-para-equipo-glaxy-3500-de-20-kvas-despus-del-periodo-de" },
+          { "title": "Graybar WADVULTRA-G3-22", "type": "service_component", "url": "https://www.graybar.com/1-year-advantage-ultra-service-plan/p/25650094" }
+        ]
+      }
+    },
+    {
+      "product_id": "ocr79ocx8vmg772",
+      "research": {
+        "confidence": 0.93,
+        "brand": "APC",
+        "name": "APC WOE2YR-AX-34 garantia on-site 2 anos para InRow ACRD 300/301",
+        "description": "Poliza APC WOE2YR-AX-34 de extension de garantia en sitio por 2 anos para una unidad InRow ACRD series 300 y 301, con soporte, reparacion en sitio, inspeccion ambiental y cobertura de partes/mano de obra segun contrato.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apc/garantia-extendida/inrow-acrd-300-301/2y-onsite/woe2yr-ax-34",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apc/garantia-extendida/inrow-acrd-300-301/2y-onsite/woe2yr-ax-34",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apc.com/shop/tradeups/uk/en/products/2-Year-On-Site-Warranty-Extension-for-1-In-Row-ACRD-300-and-301-Series/P-WOE2YR-AX-34",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10376634", "https://www.aztecacompras.com/media/catalog/product/cache/045b5a3b3664b9c18c240c61d4305fba/P/O/POL-8395.jpg"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "WOE2YR-AX-34",
+          "providerSku": "POL-8395",
+          "upcObserved": "731304578918",
+          "productType": "Garantia extendida / servicio de mantenimiento",
+          "serviceDuration": "2 anos",
+          "serviceLocation": "En sitio",
+          "coveredUnits": "1 unidad",
+          "coveredEquipment": "InRow ACRD 300 y 301 series",
+          "providedSupport": ["Partes", "Mano de obra", "Reparacion", "Soporte telefonico", "Inspeccion ambiental", "Troubleshooting"],
+          "providerBranchSummary": "CVA stock 0; servicio sujeto a contratacion regional.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-8395", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 5300.96, "lastSyncedAt": "2026-05-20T03:05:42Z", "evidenceHash": "cva-api-full-proof-20260519:149:POL-8395" }]
+        },
+        "measurements": { "serviceWeight": "0.01 kg logistico publicado por retail; servicio sin hardware fisico" },
+        "packageContents": ["Poliza/entitlement de garantia extendida", "Cobertura de servicio en sitio", "Soporte telefonico", "Partes y mano de obra segun contrato"],
+        "compatibility": "Una unidad APC InRow ACRD serie 300 o 301; validar region, equipo y elegibilidad del contrato.",
+        "sourceRefs": [
+          { "title": "APC WOE2YR-AX-34 official", "type": "manufacturer", "url": "https://www.apc.com/shop/tradeups/uk/en/products/2-Year-On-Site-Warranty-Extension-for-1-In-Row-ACRD-300-and-301-Series/P-WOE2YR-AX-34" },
+          { "title": "AztecaCompras WOE2YR-AX-34", "type": "retailer_spec", "url": "https://www.aztecacompras.com/mx0000098353-apc-woe2yr-ax-34-poliza-por-2-a-os-de-extensin-la-garanta-servicio-en-el-establecimiento-para-1-unidad-inrow.html" },
+          { "title": "CompSource WOE2YR-AX-34", "type": "retailer_spec", "url": "https://www.compsource.com/buy/WOE2YRAX34/Apc-Schneider-37/APC-by-Schneider-Electric-WarrantySupport--Extended-Warranty--2-Year--Warranty--24-x-7--Onsit-WOE2YRAX34/" }
+        ]
+      }
+    },
+    {
+      "product_id": "7yyy82oojy6rxum",
+      "research": {
+        "confidence": 0.95,
+        "brand": "APC",
+        "name": "APC WSTRTUP7X24-AX-34 servicio start-up 7x24 para InRow ACRD 300/301",
+        "description": "Servicio APC WSTRTUP7X24-AX-34 de puesta en marcha 7x24 para una unidad InRow ACRD series 300 y 301, con verificacion de instalacion, pruebas funcionales, cobertura de viaje/mano de obra, soporte telefonico y reporte.",
+        "manualCategoryPath": "servicios-ti/instalacion-puesta-en-marcha/apc/inrow-acrd-300-301/7x24/wstrtup7x24-ax-34",
+        "semanticCategoryPath": "servicios-ti/instalacion-puesta-en-marcha/apc/inrow-acrd-300-301/7x24/wstrtup7x24-ax-34",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/WSTRTUP7X24-AX-34/startup-service-7x24-for-1-in-row-acrd-300-and-301-series/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10294051", "https://cdn.adiglobaldistribution.us/pim/500X500/10112/1058904187-1.jpg"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "WSTRTUP7X24-AX-34",
+          "providerSku": "POL-6869",
+          "productType": "Servicio de instalacion y puesta en marcha",
+          "serviceName": "Start-Up",
+          "serviceDescription": "7x24 / 24x7",
+          "coveredUnits": "1 unidad",
+          "coveredEquipment": "InRow ACRD 300 y 301 series",
+          "providedSupport": ["Verificacion de instalacion", "Verificacion funcional", "Coordinacion logistica", "Cobertura de viaje", "Reporte", "Soporte telefonico"],
+          "providerBranchSummary": "CVA stock 0; servicio sujeto a contratacion regional.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-6869", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 2596.42, "lastSyncedAt": "2026-05-20T03:05:42Z", "evidenceHash": "cva-api-full-proof-20260519:188:POL-6869" }]
+        },
+        "measurements": { "serviceWeight": "0.02 lb logistico publicado por retail; servicio sin hardware fisico" },
+        "packageContents": ["Servicio de puesta en marcha", "Verificacion de instalacion", "Energizacion y pruebas funcionales", "Reporte de servicio", "Capacitacion basica si aplica"],
+        "compatibility": "Una unidad APC InRow ACRD serie 300 o 301; requiere checklist de instalacion y programacion regional Schneider/APC.",
+        "sourceRefs": [
+          { "title": "Schneider WSTRTUP7X24-AX-34 official", "type": "manufacturer", "url": "https://www.se.com/us/en/product/WSTRTUP7X24-AX-34/startup-service-7x24-for-1-in-row-acrd-300-and-301-series/" },
+          { "title": "Schneider InRow ACRD start-up SOW", "type": "manufacturer_spec", "url": "https://www.se.com/us/en/download/document/SPD_CFOT-7HFHZS_EN/" },
+          { "title": "ADI WSTRTUP7X24-AX-34", "type": "retailer_spec", "url": "https://www.adiglobaldistribution.us/Product/2G-P7X24AX34" },
+          { "title": "DirectDial WSTRTUP7X24-AX-34", "type": "retailer_spec", "url": "https://www.directdial.com/us/item/apc-by-schneider-electric-start-up-service-7x24-for-1-in-row-acrd-300-and-301-series/wstrtup7x24-ax-34" }
+        ]
+      }
+    }
+  ]
+}

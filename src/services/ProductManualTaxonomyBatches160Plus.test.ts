@@ -452,6 +452,16 @@ const batch160PlusCases = [
   ["NASSA HA0075 sobre correspondencia oficio sin fondo 10.5x24 paquete 500", "NASSA", "oficina/papeleria/sobres/correspondencia/oficio/paquete-500/nassa-ha0075", "accessories"],
   ["LG GM29BP refrigerador French Door 29 pies plata platino", "LG", "hogar/electrodomesticos/refrigeradores/french-door/29-pies/lg-gm29bp", "accessories"],
   ["CDP ES-AVR-1524 SOL inversor UPS solar 1500VA 1000W MPPT 24V", "CDP", "energia/solar/inversores-ups/line-interactive/mppt-24v/cdp-es-avr-1524-sol", "power"],
+  ["APC ACAC75009 receptor sumergido R410A 17 lb diametro 6 long 18", "APC", "infraestructura/enfriamiento-centros-datos/accesorios/receptores-refrigerante/r410a/apc-acac75009", "accessories"],
+  ["APC ACRD100 InRow RD 300mm air cooled 208-230V 60Hz", "APC", "infraestructura/enfriamiento-centros-datos/unidades-inrow/expansion-directa/300mm-aire-208-230v/apc-acrd100", "components"],
+  ["APC NBES0307 NetBotz sensor de humo cableado 10 ft", "APC", "infraestructura/monitoreo-ambiental/sensores-humo/netbotz/apc-nbes0307", "power"],
+  ["APC NBWS100H NetBotz sensor inalambrico temperatura humedad", "APC", "infraestructura/monitoreo-ambiental/sensores-temperatura-humedad/netbotz/inalambricos/apc-nbws100h", "power"],
+  ["APC SRT5KRMTF transformador reductor Smart-UPS SRT 5kVA 2U", "APC", "energia/no-breaks-ups/accesorios/transformadores-reductores/smart-ups-srt-5kva/apc-srt5krmtf", "power"],
+  ["APC SRTRK3 kit rieles rack 2 postes Smart-UPS SRT", "APC", "energia/no-breaks-ups/accesorios/rieles-rack/smart-ups-srt/apc-srtrk3", "power"],
+  ["APC WAGSLABOUR visita mantenimiento preventivo diagnostico en sitio", "APC", "servicios-ti/soporte-garantias/apc/mantenimiento-preventivo/visita-diagnostico/wagslabour", "software"],
+  ["APC WLOCALCONTRACT poliza mantenimiento Galaxy 3500 20 kVA refacciones", "APC", "servicios-ti/soporte-garantias/apc/advantage-ultra/galaxy-3500-20kva/wlocalcontract", "software"],
+  ["APC WOE2YR-AX-34 garantia on-site 2 anos InRow ACRD 300 301", "APC", "servicios-ti/soporte-garantias/apc/garantia-extendida/inrow-acrd-300-301/2y-onsite/woe2yr-ax-34", "software"],
+  ["APC WSTRTUP7X24-AX-34 start-up service 7x24 InRow ACRD 300 301", "APC", "servicios-ti/instalacion-puesta-en-marcha/apc/inrow-acrd-300-301/7x24/wstrtup7x24-ax-34", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
