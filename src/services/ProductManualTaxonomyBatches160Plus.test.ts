@@ -412,6 +412,16 @@ const batch160PlusCases = [
   ["APC AP9335T NetBotz sensor de temperatura RJ-45 13 ft", "APC", "infraestructura/monitoreo-ambiental/sensores-temperatura/apc-ap9335t", "power"],
   ["Stylos STASWM3P smartwatch SW2 Bluetooth 4.0 rosa", "Stylos", "electronica/wearables/smartwatches/stylos-staswm3p", "accessories"],
   ["Dell N_ANWNBL1_C1_EC3 Alienware notebook 1Y Basic Carry-In a 3Y Elite Care", "DELL", "servicios-ti/soporte-garantias/dell/alienware-elite-care/notebooks/1y-basic-carry-in-a-3y", "software"],
+  ["CyberPower BP72V60ART2U banco externo baterias 72V para OL2200RTXL2U", "CYBERPOWER", "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/72v/cyberpower-bp72v60art2u", "power"],
+  ["Kores 124029 lapiz adhesivo 40 g paquete con 6 piezas", "Kores", "oficina/papeleria/adhesivos/lapices-adhesivos/kores-124029-40g-6p", "accessories"],
+  ["TechZone TZLBP27-A Backpack Max III mochila laptop 16 pulgadas", "TECHZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas/techzone-max-iii", "accessories"],
+  ["Azor Vision Plus 2625P resaltador pastel estuche 5 piezas", "AZOR", "oficina/papeleria/marcadores/resaltadores/surtidos/5-piezas/azor-vision-plus-2625p", "accessories"],
+  ["Dell N_VOSDTM2_N1_N3 Vostro Desktop 3000 Basic NBD 1Y a 3Y", "DELL", "servicios-ti/soporte-garantias/dell/basic-nbd/vostro-3000/1y-a-3y", "software"],
+  ["BIC 923997 Cristal Dura Plus boligrafo rojo mediano 1.0 caja 12", "BIC", "oficina/papeleria/boligrafos/boligrafo-punto-mediano/bic-cristal-dura-plus-rojo-12-piezas", "accessories"],
+  ["BACO 65483 crayones jumbo surtidos 12 piezas", "BACO", "oficina/papeleria/material-escolar/dibujo-arte/crayones/baco-jumbo-65483-12p", "accessories"],
+  ["Tripp Lite SRCTMTFRM juego terminacion bastidor contencion pasillo", "TRIPP-LITE", "infraestructura/racks-accesorios/contencion-pasillos/kits-terminacion/tripp-lite-srctmtfrm", "networking"],
+  ["PCM 10B24 papel bond plotter rollo 0.91 x 150 ACCPCM815", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-91cm-150m/pcm-10b24", "printers_scanners"],
+  ["Kensington K55805WW cojin de asiento espuma viscoelastica negro", "KENSINGTON", "oficina/ergonomia/cojines-asiento/espuma-viscoelastica/kensington-k55805ww", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

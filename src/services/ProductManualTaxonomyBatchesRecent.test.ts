@@ -330,7 +330,7 @@ const researchedBatchCases = [
   ["TP-Link POE10E extensor PoE Fast Ethernet", "TP LINK", "redes/poe/extensores/fast-ethernet"],
   ["Silimex Sili Jet 40 454 ml aflojatodo anticorrosivo", "SILIMEX", "mantenimiento/quimicos/aflojatodo-anticorrosivo"],
   ["TP-Link Archer GE800 router gaming Wi-Fi 7 BE19000", "TP LINK", "redes/routers/wifi-7/gaming-be19000"],
-  ["Tech Zone TZLBP27-A Backpack Max III mochila laptop 16", "TECH ZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas"],
+  ["Tech Zone TZLBP27-A Backpack Max III mochila laptop 16", "TECH ZONE", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas/techzone-max-iii"],
   ["Stylos STMSDS4B memoria micro SD 64GB Clase 10", "STYLOS", "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10"],
   ["Balam Rush BR-922999 Heimdall Spectrum mousepad carga inalambrica RGB", "BALAM RUSH", "computo/accesorios/mousepads/gaming-carga-inalambrica"],
   ["Nextep NE-205 lampara detectora billetes falsos", "NEXTEP", "punto-de-venta/detectores-billetes"],
