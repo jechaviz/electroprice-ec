@@ -312,6 +312,16 @@ const batch160PlusCases = [
   ["EC-Line EC-MSR-VP1100 lector banda magnetica USB para VP1100", "EC-LINE", "punto-de-venta/accesorios-pos/lectores-banda-magnetica/ec-line-ec-msr-vp1100", "accessories"],
   ["Datamax PHD20-2278-01 cabezal termico I-4212e 203 dpi", "DATAMAX", "impresion/refacciones/cabezales/termicos/datamax-i-4212e-203dpi", "printers_scanners"],
   ["Zebra G32432-1M cabezal impresion 105SL 203 dpi", "ZEBRA", "impresion/refacciones/cabezales/termicos/zebra-105sl-203dpi", "printers_scanners"],
+  ["Pantum PB-210RB kit recarga toner negro 1600 paginas", "PANTUM", "impresion/consumibles/toner-laser/pantum/pb-210rb-recarga", "printers_scanners"],
+  ["Microsoft Visio LTSC Standard 2024 Education CSP licencia perpetua", "MICROSOFT", "software/licencias/microsoft/visio/ltsc-standard-2024-education", "software"],
+  ["LG LT57BT refrigerador top freezer 20 pies negro mate", "LG", "hogar/electrodomesticos/refrigeradores/top-freezer/20-pies/lg-lt57bt", "accessories"],
+  ["PCM 50000I0017A etiquetas transferencia termica blancas", "PCM", "impresion/consumibles/etiquetas/transferencia-termica/blancas/pcm-50000i0017a", "printers_scanners"],
+  ["Apple Pencil 2a generacion blanco", "APPLE", "computo/accesorios/stylus-tablets/apple-pencil/2-generacion", "accessories"],
+  ["Tenda A18 extensor WiFi AC1200 doble banda blanco", "TENDA", "redes/extensores-wifi/dual-band/ac1200/tenda-a18", "networking"],
+  ["Datalogic 94ACC0325 mango tipo pistola para Skorpio X5", "DATALOGIC", "punto-de-venta/terminales-moviles/accesorios/mangos/datalogic-skorpio-x5", "accessories"],
+  ["Azor Vision Plus 2600RS resaltador rosa fluorescente caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/resaltadores/rosa/12-piezas/azor-2600rs", "accessories"],
+  ["Baco G-30 goma blanca mediana para escuela y oficina", "BACO", "oficina/papeleria/material-escolar/borradores/blancos/baco-g30", "accessories"],
+  ["Hune AT-ACC-WI-001BOS cargador inalambrico Hoja 10W verde", "HUNE", "energia/cargadores-inalambricos/10w/hune-hoja", "power"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

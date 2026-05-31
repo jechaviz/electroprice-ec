@@ -1,0 +1,424 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b191-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 191,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "29fyz8yxiy51q7g",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Pantum",
+        "name": "Pantum PB-210RB kit recarga toner negro 1600 paginas",
+        "description": "Kit de recarga de toner laser monocromatico Pantum PB-210RB en color negro, con botella de toner y chip, para equipos Pantum P2500W y M6550NW segun proveedor y compatibilidad ampliada de la familia P210.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/pantum/pb-210rb-recarga",
+        "semanticCategoryPath": "printing/printer-supplies/toner-laser/pantum/pb-210rb-refill-kit",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pantum-latam.com/cartridges/p210-series/index.htm",
+        "gallery": ["https://www.pantum-latam.com/wp-content/uploads/2016/01/P210.jpg", "https://www.pantum.com.ec/pb210rb/", "https://www.tiendaclic.mx/ver-detalle/toners-pantum-pb-210rb-pantum-pb210rb"],
+        "documents": ["https://www.pantum-latam.com/series/wp-content/uploads/2019/04/P2200-P2500-Serial-Printers-FAQ-181231.pdf"],
+        "specs": {
+          "brand": "Pantum",
+          "model": "PB-210RB",
+          "providerSku": "TONPTM040",
+          "productType": "Kit de recarga para toner laser monocromatico",
+          "color": "Negro",
+          "pageYield": 1600,
+          "yieldStandard": "ISO/IEC 19752 / cobertura 5% segun familia Pantum P210",
+          "primaryCompatibility": ["Pantum P2500W", "Pantum M6550NW"],
+          "detectedExtendedCompatibility": ["P2200", "P2500", "P2500W", "M6500", "M6550", "M6550NW", "M6600"],
+          "includedItems": ["Botella de toner", "Chip"],
+          "ean": "6936358010504",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "TONPTM040", "stock": 0, "price": 9.62, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria actual laptops no corresponde. PB-210RB parece kit de recarga, no cartucho completo P210/PB-210. EAN confirmado por retailers, no por la ficha Pantum Latam consultada."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"pageYield": 1600, "physicalDimensions": null, "weightKg": null},
+        "sourceRefs": [
+          {"title": "Pantum P210 series Latam", "type": "manufacturer_related_specs", "url": "https://www.pantum-latam.com/cartridges/p210-series/index.htm"},
+          {"title": "Pantum PB210RB regional page", "type": "manufacturer_regional_spec", "url": "https://www.pantum.com.ec/pb210rb/"},
+          {"title": "TiendaClic Pantum PB-210RB", "type": "retailer_spec", "url": "https://www.tiendaclic.mx/ver-detalle/toners-pantum-pb-210rb-pantum-pb210rb"},
+          {"title": "Pantum P2200 P2500 FAQ", "type": "manufacturer_document", "url": "https://www.pantum-latam.com/series/wp-content/uploads/2019/04/P2200-P2500-Serial-Printers-FAQ-181231.pdf"},
+          {"title": "Electroprice provider stock TONPTM040", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "29r48cqcc6lkgwf",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Microsoft",
+        "name": "Microsoft Visio LTSC Standard 2024 Education CSP licencia perpetua",
+        "description": "Licencia digital Microsoft Visio LTSC Standard 2024 Education en programa CSP/perpetuo. Producto de software sin entrega fisica; validar elegibilidad educativa y tenant antes de aprovisionar.",
+        "manualCategoryPath": "software/licencias/microsoft/visio/ltsc-standard-2024-education",
+        "semanticCategoryPath": "software/licenses/microsoft/visio/ltsc-standard-2024-education",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview",
+        "gallery": ["https://inter-ds.com/products/microsoft-csp-visio-ltsc-standard-2024-edu-pepertuo", "https://www.tiendaclic.mx/ver-detalle/microsoft-csp-visio-ltsc-standard-2024-edu-pepertuo-microsoft-dg7gmgf0pn42-0002-edu"],
+        "documents": ["https://learn.microsoft.com/en-us/office/ltsc/2024/overview", "https://learn.microsoft.com/ga-ie/lifecycle/products/visio-ltsc-2024"],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "DG7GMGF0PN42:0002:Education",
+          "providerSku": "SWS-5835",
+          "productType": "Licencia de software digital",
+          "product": "Visio LTSC Standard 2024",
+          "segment": "Education",
+          "program": "Microsoft CSP / perpetual",
+          "licenseType": "Perpetua, compra unica",
+          "delivery": "Licencia electronica / consola CSP",
+          "platform": "Windows",
+          "licenseQuantity": 1,
+          "minimumRequirements": {"os": ["Windows 11", "Windows 11 LTSC 2024", "Windows 10 LTSC 2021", "Windows 10 LTSC 2019", "Windows Server 2025", "Windows Server 2022"], "cpu": "1.1 GHz, 2 nucleos", "ram": "4 GB", "storage": "4 GB disponibles", "display": "1280 x 768"},
+          "supportLifecycle": {"start": "2024-09-18", "mainstreamEnd": "2029-10-09"},
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "SWS-5835", "stock": 0, "price": 48.53, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El texto de proveedor dice PEPERTUO; se normaliza a perpetuo. Microsoft documenta LTSC 2024 y ciclo de vida, pero el SKU CSP Education exacto se confirma con retailers/resellers."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"digitalDelivery": true, "physicalDimensions": null, "weightKg": null},
+        "sourceRefs": [
+          {"title": "Microsoft Office LTSC 2024 overview", "type": "manufacturer_document", "url": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview"},
+          {"title": "Microsoft Visio LTSC 2024 lifecycle", "type": "manufacturer_lifecycle", "url": "https://learn.microsoft.com/ga-ie/lifecycle/products/visio-ltsc-2024"},
+          {"title": "Microsoft Visio options", "type": "manufacturer_product_info", "url": "https://www.microsoft.com/en-us/microsoft-365/visio/microsoft-visio-plans-and-pricing-compare-visio-options"},
+          {"title": "InterDS Visio LTSC Standard 2024 EDU", "type": "retailer_spec", "url": "https://inter-ds.com/products/microsoft-csp-visio-ltsc-standard-2024-edu-pepertuo"},
+          {"title": "Electroprice provider stock SWS-5835", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2a5wnjx478m8usv",
+      "research": {
+        "confidence": 0.95,
+        "brand": "LG",
+        "name": "LG LT57BT refrigerador top freezer 20 pies negro mate",
+        "description": "Refrigerador LG LT57BT top freezer de 20 pies cubicos en acabado Esencia Negro Mate, con compresor Smart Inverter BLDC, LinearCooling, Multi Air Flow, repisas de cristal templado y consumo estimado 387 kWh/ano.",
+        "manualCategoryPath": "hogar/electrodomesticos/refrigeradores/top-freezer/20-pies/lg-lt57bt",
+        "semanticCategoryPath": "home-appliances/refrigerators/top-freezer/20-cu-ft/lg-lt57bt",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/mx/refrigeradores/refrigeradores-top-mount-congelador-arriba/lt57bt/",
+        "gallery": ["https://www.lg.com/content/dam/channel/wcms/mx/register2025/hs-thumbnail-gallery/ref/2010x1334/LT57BT.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg", "https://www.lg.com/content/dam/channel/wcms/mx/d2c-content/hs/refrigerator/mx-ref24-topfreezer-lt57bt/gallery/2010x1334/lg-refrigerator-LT57BT-add-1-2010.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg", "https://www.lg.com/content/dam/channel/wcms/mx/d2c-content/hs/refrigerator/mx-ref24-topfreezer-lt57bt/gallery/2010x1334/lg-refrigerator-LT57BT-add-3-2010.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg"],
+        "documents": [],
+        "specs": {
+          "brand": "LG",
+          "model": "LT57BT",
+          "providerSku": "REFLGE130",
+          "productType": "Refrigerador top freezer",
+          "capacity": "20 pies cubicos",
+          "finish": "Esencia Negro Mate",
+          "compressor": "Smart Inverter BLDC",
+          "linearCooling": true,
+          "multiAirFlow": true,
+          "annualEnergyConsumptionKwh": 387,
+          "doorCoolingPlus": false,
+          "thinqWifi": false,
+          "smartDiagnosis": false,
+          "waterDispenser": false,
+          "iceMaker": "No automatico / no fabrica hielo automatica",
+          "doorMaterial": "PET",
+          "handle": "Bolsillo horizontal",
+          "refrigeratorCompartment": {"doorBaskets": "2 canastas, capacidad 2 galones", "light": "LED superior", "temperedGlassShelves": 2, "vegetableDrawers": 2},
+          "freezerCompartment": {"doorBaskets": 2, "temperedGlassShelves": 1},
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "REFLGE130", "stock": 0, "price": 10775.0, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria actual laptops no corresponde. LG indica que imagenes/videos pueden diferir del producto real. No se encontro pagina publica CTOnline para REFLGE130."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"widthMm": 760, "heightMm": 1676, "depthMm": 856, "weightKg": 78.5, "packageWeightKg": 85.5, "installationClearanceMm": 50},
+        "sourceRefs": [
+          {"title": "LG Mexico LT57BT", "type": "manufacturer", "url": "https://www.lg.com/mx/refrigeradores/refrigeradores-top-mount-congelador-arriba/lt57bt/"},
+          {"title": "Electroprice provider stock REFLGE130", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2bjbbnnol79g3qj",
+      "research": {
+        "confidence": 0.86,
+        "brand": "PCM",
+        "name": "PCM 50000I0017A etiquetas transferencia termica blancas",
+        "description": "Etiquetas PCM 50000I0017A blancas para impresion por transferencia termica, orientadas a codigos de barras, identificacion de productos, inventarios, paqueteria, trazabilidad y precios. Requiere ribbon; medidas exactas no localizadas publicamente.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas/transferencia-termica/blancas/pcm-50000i0017a",
+        "semanticCategoryPath": "printing/printer-supplies/labels/thermal-transfer/white/pcm-50000i0017a",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/etiquetas-y-ribbons/etiquetas-transferencia-termica-directa",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCPCM1390_full.jpg", "https://www.pcm.com.mx/hubfs/termica-directa-1.jpg", "https://cityshop.mx/producto/etiquetas-tt-pcm-50000i0017a-blanco"],
+        "documents": [],
+        "specs": {
+          "brand": "PCM",
+          "model": "50000I0017A",
+          "providerSku": "ACCPCM1390",
+          "productType": "Etiquetas TT / transferencia termica",
+          "color": "Blanco",
+          "requiresRibbon": true,
+          "generalUses": ["Codigos de barras", "Identificacion de productos", "Inventarios", "Trazabilidad", "Paqueteria", "Lotificacion", "Precios"],
+          "possibleAdhesivesByFamily": ["Hot melt", "Acrilico", "Refrigeracion o congelados", "Contacto indirecto con alimentos aprobado por FDA"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCPCM1390", "stock": 0, "price": 50.43, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["PCM oficial confirma la familia general de etiquetas, pero no se encontro ficha oficial especifica para 50000I0017A. Retail confirma SKU/no. de parte y color; faltan medidas, rollos por caja y core."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"labelDimensions": null, "rollCount": null, "core": null, "weightKg": null},
+        "sourceRefs": [
+          {"title": "PCM etiquetas transferencia termica directa", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/etiquetas-y-ribbons/etiquetas-transferencia-termica-directa"},
+          {"title": "MacToner PCM 50000I0017A", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/etiquetas-tt-pcm-50000i0017a-blanco/"},
+          {"title": "Cityshop PCM 50000I0017A", "type": "retailer_spec", "url": "https://cityshop.mx/producto/etiquetas-tt-pcm-50000i0017a-blanco"},
+          {"title": "Electroprice provider stock ACCPCM1390", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2crca1s1ik39epg",
+      "research": {
+        "confidence": 0.92,
+        "brand": "APPLE",
+        "name": "Apple Pencil 2a generacion blanco",
+        "description": "Apple Pencil de segunda generacion en color blanco para iPad compatibles, con conectividad Bluetooth, carga y emparejamiento magneticos, baja latencia y gesto de doble toque para cambiar herramientas.",
+        "manualCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/2-generacion",
+        "semanticCategoryPath": "computing/accessories/tablet-stylus/apple-pencil/2nd-generation",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.apple.com/en-by/111889",
+        "gallery": ["https://support.apple.com/en-by/111889", "https://support.apple.com/en-us/108937", "https://www.bhphotovideo.com/c/product/803219936-USE/apple_mu8f2am_a_pencil_2nd_generation.html"],
+        "documents": ["https://support.apple.com/en-by/111889", "https://support.apple.com/en-us/108937"],
+        "specs": {
+          "brand": "APPLE",
+          "model": "Apple Pencil 2nd generation",
+          "providerSku": "ACCMAC2000",
+          "productType": "Stylus para iPad",
+          "partNumberExamples": ["MXN43AM/A", "MU8F2AM/A"],
+          "upc": "190198893277",
+          "color": "Blanco",
+          "connectivity": "Bluetooth",
+          "chargingPairing": "Magnetico en iPad compatible",
+          "gesture": "Doble toque para cambiar herramientas",
+          "officialCompatibility": ["iPad Pro 12.9 3a a 6a generacion", "iPad Pro 11 1a a 4a generacion", "iPad Air 4a y 5a generacion", "iPad mini 6a generacion"],
+          "boxContents": "Apple Pencil 2a generacion",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCMAC2000", "stock": 0, "price": 2277.78, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El modelo proveedor 2A GENERACION es descriptivo, no numero de parte. Apple usa numeros de parte distintos por region; B&H confirma UPC 190198893277 para MU8F2AM/A."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"lengthMm": 166.0, "diameterMm": 8.9, "weightKg": 0.0182},
+        "sourceRefs": [
+          {"title": "Apple Pencil 2nd generation tech specs", "type": "manufacturer_support", "url": "https://support.apple.com/en-by/111889"},
+          {"title": "Apple Pencil compatibility", "type": "manufacturer_support", "url": "https://support.apple.com/en-us/108937"},
+          {"title": "B&H Apple Pencil 2nd generation", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/803219936-USE/apple_mu8f2am_a_pencil_2nd_generation.html"},
+          {"title": "Electroprice provider stock ACCMAC2000", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2f4p6kmpx28aotl",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TENDA",
+        "name": "Tenda A18 extensor WiFi AC1200 doble banda blanco",
+        "description": "Extensor/repetidor WiFi Tenda A18 AC1200 doble banda, con 2.4 GHz hasta 300 Mbps y 5 GHz hasta 867 Mbps, puerto Fast Ethernet, modos repetidor y punto de acceso, WPS y antenas integradas.",
+        "manualCategoryPath": "redes/extensores-wifi/dual-band/ac1200/tenda-a18",
+        "semanticCategoryPath": "networking/wireless-range-extenders/dual-band/ac1200/tenda-a18",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tendacn.com/us/search?keyword=A18",
+        "gallery": ["https://www.tendacn.com/us/search?keyword=A18", "https://globaloffice.mx/app/detalle/producto/redes/access-point-tenda-a18-repetidor-y-extensor-universal-dobl/a18"],
+        "documents": ["https://static.tenda.com.cn/tdeweb/download/A18/A18V2.0_Datasheet.pdf", "https://www.tendacn.com/api/proxy-pdf?urlB64=aHR0cHM6Ly9zdGF0aWMudGVuZGEuY29tLmNuL2RvYy8yMDI1LzA3LzI1L2E3ODQ3ZDYyODJiNzRjN2U4YzZjNWUxZmFiOTE5M2ZhL0ExOFY0LjAgRGF0YXNoZWV0IFYxLjMucGRm"],
+        "specs": {
+          "brand": "TENDA",
+          "model": "A18",
+          "providerSku": "ACPTND130",
+          "productType": "Extensor/repetidor WiFi AC1200",
+          "color": "Blanco",
+          "bands": ["2.4 GHz hasta 300 Mbps", "5 GHz hasta 867 Mbps"],
+          "wifiStandards": ["IEEE 802.11b/g/n 2.4 GHz", "IEEE 802.11a/n/ac 5 GHz"],
+          "ethernetPorts": "1 x 10/100 Mbps",
+          "antennas": "2 antenas doble banda",
+          "modes": ["Repeater Mode", "Access Point Mode"],
+          "security": "WPA-PSK/WPA2-PSK mixto",
+          "buttons": ["WPS", "Reset"],
+          "management": "Web/mobile browser; Tenda App en fichas recientes",
+          "upc": "885397271178",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACPTND130", "stock": 0, "price": 20.0, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Tenda publica variantes A18/A18 V4 y ambas aparecen EOL; la ficha CT/UPC no especifica hardware version. El campo proveedor 2.4 GHz esta incompleto porque A18 oficial es doble banda."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"v2WidthMm": 80, "v2DepthMm": 58, "v2HeightMm": 48, "v4WidthMm": 72, "v4DepthMm": 32, "v4HeightMm": 161, "weightKg": null},
+        "sourceRefs": [
+          {"title": "Tenda A18 product search", "type": "manufacturer", "url": "https://www.tendacn.com/us/search?keyword=A18"},
+          {"title": "Tenda A18 V2 datasheet", "type": "manufacturer_document", "url": "https://static.tenda.com.cn/tdeweb/download/A18/A18V2.0_Datasheet.pdf"},
+          {"title": "Tenda A18 V4 datasheet", "type": "manufacturer_document", "url": "https://www.tendacn.com/api/proxy-pdf?urlB64=aHR0cHM6Ly9zdGF0aWMudGVuZGEuY29tLmNuL2RvYy8yMDI1LzA3LzI1L2E3ODQ3ZDYyODJiNzRjN2U4YzZjNWUxZmFiOTE5M2ZhL0ExOFY0LjAgRGF0YXNoZWV0IFYxLjMucGRm"},
+          {"title": "Global Office Tenda A18 ACPTND130", "type": "retailer_spec", "url": "https://globaloffice.mx/app/detalle/producto/redes/access-point-tenda-a18-repetidor-y-extensor-universal-dobl/a18"},
+          {"title": "Electroprice provider stock ACPTND130", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2fhgnnxgk190kyd",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DATALOGIC",
+        "name": "Datalogic 94ACC0325 mango tipo pistola para Skorpio X5",
+        "description": "Mango/empunadura tipo pistola Datalogic 94ACC0325 acoplable para terminal movil Skorpio X5. Es accesorio POS/logistico, no base de carga.",
+        "manualCategoryPath": "punto-de-venta/terminales-moviles/accesorios/mangos/datalogic-skorpio-x5",
+        "semanticCategoryPath": "point-of-sale/mobile-computers/accessories/pistol-grips/datalogic-skorpio-x5",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.datalogic.com/Download?iddwnfile=33687",
+        "gallery": ["https://www.datalogic.com/eng/retail-manufacturing-transportation-logistics-healthcare/mobile-computers/skorpio-x5-pd-887.html", "https://www.lasystems.be/en/datalogic-94acc0325", "https://www.barcodefactory.com/datalogic/accessories/94acc0325"],
+        "documents": ["https://cdn.datalogic.com/Download?iddwnfile=33687"],
+        "specs": {
+          "brand": "DATALOGIC",
+          "model": "94ACC0325",
+          "providerSku": "ACCPSC300",
+          "productType": "Mango / empunadura tipo pistola acoplable",
+          "compatibility": "Datalogic Skorpio X5",
+          "color": "Gris/negro segun imagen de distribuidor",
+          "packageQuantity": 1,
+          "possibleEan": "5715063121160",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCPSC300", "stock": 0, "price": 83.94, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La subcategoria proveedor Bases no corresponde; la guia Datalogic lo lista como attachable pistol grip / handle. No se localizaron dimensiones oficiales del mango."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"weightLb": 0.397, "weightKg": 0.18, "alternateWeightKg": 0.197, "physicalDimensions": null},
+        "sourceRefs": [
+          {"title": "Datalogic mobile computers guide", "type": "manufacturer_document", "url": "https://cdn.datalogic.com/Download?iddwnfile=33687"},
+          {"title": "Datalogic Skorpio X5 official page", "type": "manufacturer", "url": "https://www.datalogic.com/eng/retail-manufacturing-transportation-logistics-healthcare/mobile-computers/skorpio-x5-pd-887.html"},
+          {"title": "ScanSource Datalogic 94ACC0325", "type": "distributor_spec", "url": "https://www.scansource.com/product?sku=DTL-94ACC0325"},
+          {"title": "LASystems Datalogic 94ACC0325", "type": "retailer_spec", "url": "https://www.lasystems.be/en/datalogic-94acc0325"},
+          {"title": "Electroprice provider stock ACCPSC300", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2lpqw08pbof0dij",
+      "research": {
+        "confidence": 0.9,
+        "brand": "AZOR",
+        "name": "Azor Vision Plus 2600RS resaltador rosa fluorescente caja 12 piezas",
+        "description": "Resaltador de texto Azor Vision Plus 2600RS color rosa fluorescente, punta cincel de 6 mm, tinta base agua fluorescente lavable, grip ahulado y tapa antiasfixia, en caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/resaltadores/rosa/12-piezas/azor-2600rs",
+        "semanticCategoryPath": "office-supplies/writing/highlighters/pink/12-pack/azor-2600rs",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/vision-plus/",
+        "gallery": ["https://web.azor.com.mx/wp-content/uploads/2017/11/azor_vison_plus_2600_12pzas-1.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_vision_plus_2600_productshot_1-1.jpg", "https://www.exel.com.mx/xlstore/Productos/Detalle/VPPMACAB009"],
+        "documents": ["https://mail.azor.com.mx/catalogo/azor-gral-25.pdf"],
+        "specs": {
+          "brand": "AZOR",
+          "model": "2600RS",
+          "providerSku": "ACCAZR030",
+          "productType": "Marcador resaltador",
+          "line": "Vision Plus",
+          "color": "Rosa fluorescente",
+          "ink": "Base agua de alta fluorescencia, lavable",
+          "tip": "Cincel",
+          "tipWidthMm": 6,
+          "barrel": "Plastico con grip ahulado",
+          "cap": "Antiasfixia",
+          "packageQuantity": 12,
+          "ean": "7501428701379",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCAZR030", "stock": 0, "price": 113.33, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Azor oficial confirma la familia Vision Plus; UPC y presentacion exacta se confirmaron con distribuidor Exel. No se encontraron dimensiones fisicas de la caja."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"tipWidthMm": 6, "piecesPerBox": 12, "physicalDimensions": null},
+        "sourceRefs": [
+          {"title": "Azor Vision Plus official", "type": "manufacturer", "url": "https://web.azor.com.mx/index.php/producto/vision-plus/"},
+          {"title": "Azor Vision highlighters blog", "type": "manufacturer_article", "url": "https://web.azor.com.mx/index.php/2018/12/21/conoce-los-nuevos-resaltadores-vision/"},
+          {"title": "Exel Azor 2600RS", "type": "distributor_spec", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/VPPMACAB009"},
+          {"title": "Azor general catalog 2025", "type": "manufacturer_catalog", "url": "https://mail.azor.com.mx/catalogo/azor-gral-25.pdf"},
+          {"title": "Electroprice provider stock ACCAZR030", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2np5gidse5wvsd8",
+      "research": {
+        "confidence": 0.86,
+        "brand": "BACO",
+        "name": "Baco G-30 goma blanca mediana para escuela y oficina",
+        "description": "Borrador/goma blanca Baco G-30 de tamano medio para escuela y oficina, color blanco, identificado por distribuidores con EAN 7501174994100 y variante GO002.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/borradores/blancos/baco-g30",
+        "semanticCategoryPath": "office-supplies/school-supplies/erasers/white/baco-g30",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://proesa.com/products/borrador-blanco-g-60-g-30-g-20-baco-r-pieza-gm001-go002-gm003-7501174994117-7501174994100-7501174994124",
+        "gallery": ["https://proesa.com/products/borrador-blanco-g-60-g-30-g-20-baco-r-pieza-gm001-go002-gm003-7501174994117-7501174994100-7501174994124", "https://ctisystems.mx/goma-blanca-baco-g-30-blanco-para-escuela-y-oficina", "https://www.tiendaclic.mx/ver-detalle/goma-blanca-baco-g30"],
+        "documents": [],
+        "specs": {
+          "brand": "BACO",
+          "model": "G-30",
+          "providerSku": "ACCBAC3800",
+          "productType": "Borrador / goma blanca",
+          "color": "Blanco",
+          "recommendedUse": "Escuela y oficina",
+          "detectedVariant": "Medio",
+          "possibleVariantCode": "GO002",
+          "ean": "7501174994100",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCBAC3800", "stock": 0, "price": 80.14, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se localizo pagina oficial BACO del producto; datos principales triangulados con distribuidores. Proesa lista variante GO002, mientras proveedor CTOnline usa ACCBAC3800."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"widthMm": 38, "heightMm": 27, "depthMm": 9, "weightKg": null},
+        "sourceRefs": [
+          {"title": "Proesa borrador Baco G-30", "type": "retailer_spec", "url": "https://proesa.com/products/borrador-blanco-g-60-g-30-g-20-baco-r-pieza-gm001-go002-gm003-7501174994117-7501174994100-7501174994124"},
+          {"title": "CTI Systems Baco G-30", "type": "retailer_spec", "url": "https://ctisystems.mx/goma-blanca-baco-g-30-blanco-para-escuela-y-oficina"},
+          {"title": "TiendaClic Baco G-30", "type": "retailer_spec", "url": "https://www.tiendaclic.mx/ver-detalle/goma-blanca-baco-g30"},
+          {"title": "Electroprice provider stock ACCBAC3800", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2okg3o6uiy381b8",
+      "research": {
+        "confidence": 0.87,
+        "brand": "HUNE",
+        "name": "Hune AT-ACC-WI-001BOS cargador inalambrico Hoja 10W verde",
+        "description": "Cargador inalambrico Hune Hoja AT-ACC-WI-001BOS de 10 W para dispositivos compatibles con Qi, fabricado con plastico ABS reciclado, entrada USB-C, indicadores LED y empaque de carton FSC con tinta de soja/vegetal.",
+        "manualCategoryPath": "energia/cargadores-inalambricos/10w/hune-hoja",
+        "semanticCategoryPath": "power/wireless-chargers/10w/hune-leaf",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.sysmx.com.mx/AC-10528-AT-ACC-WI-001BOS-HUNE-ACCESORIOS-CARGADOR-INALAMBRICO-HUNE-HOJA-SUSTENTABLE-UNIVERSAL-HOJA",
+        "gallery": ["https://resources.sears.com.mx/medios-plazavip/t1/1718851285file1jpg?qlty=75&scale=500", "https://resources.sears.com.mx/medios-plazavip/t1/1718850948file1jpg?qlty=75&scale=500", "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/Hune-Cargador-Inalambrico-Hoja-10W-Verde.html"],
+        "documents": [],
+        "specs": {
+          "brand": "HUNE",
+          "model": "AT-ACC-WI-001BOS",
+          "providerSku": "AC-10528",
+          "productType": "Cargador inalambrico Qi",
+          "outputPowerW": 10,
+          "compatibility": "Dispositivos con carga inalambrica Qi",
+          "input": "USB-C / Tipo C",
+          "caseMaterial": "Plastico ABS reciclado",
+          "indicators": "LED",
+          "includedAccessories": ["Cable de carga Tipo C"],
+          "packaging": "Carton FSC con tinta de soja/vegetal",
+          "color": "Bosque / verde",
+          "warranty": "1 ano segun distribuidores",
+          "upc": "7502236154890",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-10528", "stock": 0, "price": 283.47, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha oficial directa en dominio HUNE. Hay variantes cercanas AT-ACC-WI-001 y AT-ACC-WI-001BOS; UPC 7502236154890 aparece asociado a ambas en distribuidores. Longitud de cable conflictiva: 10 cm vs 1 m segun canal."],
+          "providerStockVerifiedAt": "2026-05-31T03:42:00Z"
+        },
+        "measurements": {"widthCm": 10.0, "depthCm": 10.0, "heightCm": 1.0, "weightKg": 0.15},
+        "sourceRefs": [
+          {"title": "SYS MX Hune AT-ACC-WI-001BOS", "type": "retailer_spec", "url": "https://www.sysmx.com.mx/AC-10528-AT-ACC-WI-001BOS-HUNE-ACCESORIOS-CARGADOR-INALAMBRICO-HUNE-HOJA-SUSTENTABLE-UNIVERSAL-HOJA"},
+          {"title": "FullOffice Hune AT-ACC-WI-001BOS", "type": "retailer_spec", "url": "https://fulloffice.com/products/cargador-inalambrico-hune-hoja-sustentable-universal-hoja"},
+          {"title": "Sears Hune Hoja 10W", "type": "marketplace_spec", "url": "https://www.sears.com.mx/producto/2927157/cargador-inalambrico-hune-hoja-sustentable-universal-10w"},
+          {"title": "CTI Systems Hune AT-ACC-WI-001BOS", "type": "retailer_spec", "url": "https://ctisystems.mx/cargador-inalambrico-hune-hoja-sustentable-universal-hoja"},
+          {"title": "Electroprice provider stock AC-10528", "type": "provider_stock", "observedAt": "2026-05-31T03:42:00Z"}
+        ]
+      }
+    }
+  ]
+}
