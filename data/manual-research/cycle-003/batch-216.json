@@ -1,0 +1,607 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b216-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 216,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "82vhfb3371iqljs",
+      "research": {
+        "confidence": 0.9,
+        "brand": "AZOR",
+        "name": "Marcador permanente AZOR Signal Metalink 30009 dorado punta bala fina 1.3 mm caja con 12 piezas",
+        "description": "Marcador permanente metalico AZOR Signal Metalink color dorado con punta bala fina de 1.3 mm, tinta visible en superficies claras u oscuras y presentacion caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/metalicos/dorado/12-piezas/azor-signal-metalink-30009",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/metalicos/dorado/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://proesa.com/products/marcador-permanente-signal-r-metalink-azor-r-pieza-30009-30010-30011-30027-7501428712641-7501428712658-7501428712665",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCAZR490/ACCAZR490_1_full.jpg",
+          "https://proesa.com/cdn/shop/files/art_842022_01_005c7ee2-4d9e-4ee7-8d7d-6d7aff697124_1000x.jpg?v=1754173658",
+          "https://www.encuentrotodo.com.mx/web/image/product.template/197853/image_1920?unique=9186f1e"
+        ],
+        "specs": {
+          "brand": "Azor",
+          "model": "30009",
+          "providerSku": "ACCAZR490",
+          "ean": "7501428712641",
+          "productType": "Marcador permanente metalico",
+          "line": "Signal Metalink",
+          "color": "Dorado",
+          "tip": "Bala fina",
+          "strokeWidth": "1.3 mm",
+          "presentation": "Caja con 12 piezas",
+          "recommendedSurfaces": ["papel", "carton", "metal", "ceramica", "tela", "CD", "superficies oscuras"],
+          "sourceDiscrepancies": ["Fuentes publicas varian entre base agua, alcohol o solvente y entre 200 m y 300 m de rendimiento; se conserva solo la punta/color/presentacion confirmada."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; MiPC, TiendaClic y Encuentro Todo mostraron no disponible.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCAZR490",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 131.63,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:4763"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MiPC agotado $207.38 MXN.", "TiendaClic 0 piezas $210.69 MXN.", "Encuentro Todo no disponible $205.99 MXN.", "Proesa pieza agotada $18.60 MXN."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "No publicadas con confianza para la caja de 12 piezas",
+          "weight": "No confirmado"
+        },
+        "sourceRefs": [
+          { "title": "Proesa Azor Signal Metalink dorado 30009", "type": "retailer_spec", "url": "https://proesa.com/products/marcador-permanente-signal-r-metalink-azor-r-pieza-30009-30010-30011-30027-7501428712641-7501428712658-7501428712665" },
+          { "title": "Encuentro Todo Azor Metalink 30009", "type": "retailer_spec", "url": "https://www.encuentrotodo.com.mx/shop/30009-marcador-permanente-signal-metalink-punta-bala-color-dorado-c-12-pzas-197853" },
+          { "title": "CTOnline feed ACCAZR490 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "831f96tkuucvu58",
+      "research": {
+        "confidence": 0.84,
+        "brand": "VICA",
+        "name": "VICA banco de baterias externo para UPS Alpha 1500, BBE Alpha 1500",
+        "description": "Banco de baterias externo para ampliar autonomia de UPS VICA Alpha 1500 / Alpha 1.5K compatibles. La compatibilidad debe validarse contra el modelo exacto del UPS antes de vender.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/1500va/vica-alpha-1500",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/1500va",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://vica.com.mx/products/linea-os-ups-online-1-5k",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10470296",
+          "https://vica.com.mx/cdn/shop/products/ACLINEAOS-UPSONLINE1.5KVA.png?v=1678748441"
+        ],
+        "specs": {
+          "brand": "VICA",
+          "model": "BANCO DE BATERIAS ALPHA 1500",
+          "providerSku": "FR-2285",
+          "productType": "Banco externo de baterias para UPS",
+          "compatibleLine": "VICA Alpha 1500 / Alpha 1.5K",
+          "compatibilityNote": "La pagina oficial de VICA Alpha 1.5K menciona banco de baterias externo opcional; no se localizo ficha publica completa de FR-2285.",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; TiendaClic mostro stock 0.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "FR-2285",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 8713.2,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:38:FR-2285"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["TiendaClic $11067.51 MXN con 0 piezas.", "No se encontro disponibilidad publica confiable para FR-2285 fuera de canales mayoristas."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "weight": "21.5 kg reportado por reseller; no confirmado por fabricante",
+          "dimensions": "No publicadas con confianza"
+        },
+        "sourceRefs": [
+          { "title": "VICA Alpha 1.5K UPS online", "type": "manufacturer_related", "url": "https://vica.com.mx/products/linea-os-ups-online-1-5k" },
+          { "title": "TiendaClic VICA FR-2285", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/" },
+          { "title": "CVA feed FR-2285 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8354noia7fe9nk4",
+      "research": {
+        "confidence": 0.96,
+        "brand": "EATON TRIPP LITE",
+        "name": "Eaton Tripp Lite SmartRack SRCOOL7KRM aire acondicionado para rack 19 pulgadas 7000 BTU 120V 8U",
+        "description": "Unidad de aire acondicionado para rack SmartRack SRCOOL7KRM de 7000 BTU / 2.0 kW, montaje 8U en rack 19 pulgadas, 120 V, refrigerante R410A y ventilacion frontal a posterior.",
+        "manualCategoryPath": "infraestructura/enfriamiento-centros-datos/unidades-rack/aire-acondicionado/8u-120v/tripp-lite-srcool7krm",
+        "semanticCategoryPath": "infraestructura/enfriamiento-centros-datos/unidades-rack/aire-acondicionado/8u-120v",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tripplite.eaton.com/smartrack-7000-btu-120v-rack-mounted-air-conditioning-unit~SRCOOL7KRM",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/AIRTRL030/AIRTRL030_full.jpg",
+          "https://assets.tripplite.com/feature-focus/srcool7krm-features.jpg"
+        ],
+        "documents": [
+          { "label": "Eaton Tripp Lite SRCOOL7KRM PDF", "type": "datasheet", "url": "https://tripplite.eaton.com/shared/product-pages/EN/SRCOOL7KRM.pdf" }
+        ],
+        "specs": {
+          "brand": "Eaton Tripp Lite",
+          "model": "SRCOOL7KRM",
+          "providerSku": "AIRTRL030",
+          "upc": "037332184733",
+          "productType": "Aire acondicionado para rack",
+          "coolingCapacity": "7000 BTU/h / 2.0 kW",
+          "inputVoltage": "120V 60Hz",
+          "rackHeight": "8U",
+          "plug": "NEMA 5-15P cable 7 ft",
+          "powerConsumption": "1020 W",
+          "refrigerant": "R410A",
+          "noiseLevel": "57 dB",
+          "accessories": ["SRCOOLNET2LX opcional", "SRCOOL7KDUCT opcional"],
+          "sourceCorrections": ["Se corrige el peso inferido de 7 kg; las fuentes oficiales publican aproximadamente 27.94 kg / 27.7 kg."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; DigiKey MX mostro stock internacional disponible.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "AIRTRL030",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 15869.7,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:4584"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MacToner sin stock $21559.18 MXN.", "Digitalife $24624.57 MXN.", "Shopline reporto disponibilidad $23561.27 MXN.", "DigiKey MX 9 piezas USD 1124.48."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "35.3 x 44.1 x 57.2 cm",
+          "weight": "27.94 kg",
+          "packageWeight": "36.29 kg"
+        },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite SRCOOL7KRM official", "type": "manufacturer", "url": "https://tripplite.eaton.com/smartrack-7000-btu-120v-rack-mounted-air-conditioning-unit~SRCOOL7KRM" },
+          { "title": "Eaton Tripp Lite SRCOOL7KRM product PDF", "type": "datasheet", "url": "https://tripplite.eaton.com/shared/product-pages/EN/SRCOOL7KRM.pdf" },
+          { "title": "CTOnline feed AIRTRL030 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "84a6ioiggmuygq8",
+      "research": {
+        "confidence": 0.93,
+        "brand": "BACO",
+        "name": "Plastilina Baco PL002 Marqueta 180 g color piel No. 50 pieza",
+        "description": "Plastilina escolar Baco PL002 en marqueta de 180 g color piel, suave y moldeable para manualidades, modelado y trabajos escolares.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/plastilina/marqueta-180g/piel/baco-pl002",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/plastilina/marqueta-180g/piel",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC4020/ACCBAC4020_full.jpg",
+          "https://proesa.com/cdn/shop/files/art_600449_01_1000x.jpg?v=1754170133"
+        ],
+        "specs": {
+          "brand": "Baco",
+          "model": "PL002",
+          "providerSku": "ACCBAC4020",
+          "ean": "7501174965339",
+          "productType": "Plastilina escolar",
+          "presentation": "Marqueta 180 g",
+          "color": "Piel",
+          "colorNumber": "No. 50 segun fuentes publicas",
+          "features": ["suave y moldeable", "reutilizable", "no se endurece al aire", "envuelta en pelicula BOPP", "no toxica segun Proesa"],
+          "sourceDiscrepancies": ["El registro proveedor menciona No. 54, pero fuentes con PL002/EAN 7501174965339 indican color piel No. 50; Proesa asocia No. 54 a otro color/modelo."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Proesa, Abasteo/2io y Cityshop mostraron disponibilidad publica.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC4020",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 12.83,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6928"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Proesa $11.90 MXN con disponibilidad general 106.", "Mariposa $18.94 MXN.", "2io/Abasteo $11.76 MXN con 173 piezas.", "Cityshop $9.00 MXN con 1 pieza."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "netWeight": "180 g",
+          "dimensions": "No confirmadas para PL002 piel"
+        },
+        "sourceRefs": [
+          { "title": "Proesa Baco plastilina PL002 piel", "type": "retailer_spec", "url": "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529" },
+          { "title": "Mariposa Papelerias PL002 piel", "type": "retailer_spec", "url": "https://www.mariposapapelerias.com.mx/es_419/shop/arte-14/7501174965339-plastilina-180gr-piel-baco-50-34561" },
+          { "title": "CTOnline feed ACCBAC4020 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "84aug9212o8zo21",
+      "research": {
+        "confidence": 0.88,
+        "brand": "CDP",
+        "name": "CDP POL-11419 poliza de garantia en sitio por 3 anos para UPS de 6 kVA",
+        "description": "Poliza CDP de garantia en sitio por 3 anos para UPS de 6 kVA. Es un servicio de cobertura, no un producto fisico.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/cdp/polizas-sitio/ups-6kva/pol-11419",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/cdp/polizas-sitio/ups-6kva",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10485003"
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "GARANTIA EN SITIO 6 KVA",
+          "providerSku": "POL-11419",
+          "alternateSku": "GARANTIA EN SITIO 6 KVA",
+          "satCode": "81111819",
+          "productType": "Poliza de servicio",
+          "serviceTerm": "3 anos",
+          "coverageTarget": "UPS 6 kVA",
+          "physicalProduct": false,
+          "imageQualityNote": "No se encontro imagen real del servicio; Compuviper muestra placeholder y la imagen CVA debe tratarse como referencia mayorista.",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; Compuviper publico bajo pedido y existencia 0.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-11419",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 4226.25,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:3:POL-11419"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["Compuviper $5344 MXN con IVA, bajo pedido, existencia total 0."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Compuviper CDP POL-11419 garantia en sitio 6 KVA", "type": "retailer_service", "url": "https://compuviper.mx/tienda/producto/cdp-garantia-en-sitio-6-kva-garantia-en-sitio-por-3-aos-6-kva/" },
+          { "title": "CVA feed POL-11419 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "84e8orixep3tm0i",
+      "research": {
+        "confidence": 0.95,
+        "brand": "CYBERPOWER",
+        "name": "CyberPower PDU24001 PDU ATS medible 15A 1U 120V 2 NEMA 5-15P a 10 NEMA 5-15R",
+        "description": "PDU ATS medible CyberPower PDU24001 de 15A para rack 1U, 120V, con dos entradas NEMA 5-15P, diez salidas NEMA 5-15R, pantalla LCD y transferencia automatica entre fuentes.",
+        "manualCategoryPath": "energia/pdu-rack/ats/1u-15a-10-contactos/cyberpower-pdu24001",
+        "semanticCategoryPath": "energia/pdu-rack/ats/1u-15a-10-contactos",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/pdus/metered-ats/pdu24001/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10463445"
+        ],
+        "specs": {
+          "brand": "CyberPower",
+          "model": "PDU24001",
+          "providerSkus": ["ACCCYP450", "AC-13122"],
+          "productType": "PDU ATS medible",
+          "formFactor": "Rack 1U",
+          "phase": "Monofasico",
+          "inputVoltage": "100-120VAC 50/60Hz",
+          "current": "15A nominal / 12A derated",
+          "inputPlugs": "2 x NEMA 5-15P",
+          "cordLength": "10 ft / 3 m",
+          "outlets": "10 x NEMA 5-15R",
+          "transferTime": "Deteccion 2-3 ms, transferencia 2-7 ms, total menor a 10 ms",
+          "display": "LCD",
+          "enclosure": "Metal",
+          "warranty": "3 anos",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin desglose de sucursal; GlobalOffice publico en llegada.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCCYP450",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 7496.67,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:12322"
+            },
+            {
+              "providerId": "cva",
+              "providerSku": "AC-13122",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 7385.63,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:49:AC-13122"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["RadioElectronics $8052.63 MXN con 4 piezas en Mexico Norte.", "Compustar $9495 MXN sin existencias.", "GlobalOffice $8265 MXN con 2 piezas en almacen Mexico.", "CDW USD 459.95."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "433 x 44 x 215 mm",
+          "weight": "4.35 kg",
+          "packageWeight": "5.76 kg"
+        },
+        "sourceRefs": [
+          { "title": "CyberPower PDU24001 official US", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/pdus/metered-ats/pdu24001/" },
+          { "title": "CyberPower Mexico PDU24001", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/pdu24001" },
+          { "title": "CTOnline feed ACCCYP450 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-13122 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "84w6n7poqtf44kr",
+      "research": {
+        "confidence": 0.9,
+        "brand": "CISCO",
+        "name": "Cisco Meraki LIC-MX64-SEC-3YR licencia Advanced Security y soporte 3 anos para MX64",
+        "description": "Licencia digital Cisco Meraki Advanced Security de 3 anos para appliance MX64, con soporte y funciones de seguridad avanzada. El hardware MX64 esta en ciclo de fin de soporte anunciado para 2027-07-26.",
+        "manualCategoryPath": "software/licencias/seguridad-red/cisco-meraki/mx64/advanced-security-3y",
+        "semanticCategoryPath": "software/licencias/seguridad-red/cisco-meraki/mx64/advanced-security",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://documentation.meraki.com/SASE_and_SD-WAN/MX/Product_Information/Overviews_and_Datasheets/MX64_and_MX65_Overview_and_Specifications",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/LICCIS1630/LICCIS1630_full.jpg"
+        ],
+        "documents": [
+          { "label": "Cisco Meraki MX64/MX65 specifications", "type": "manufacturer_doc", "url": "https://documentation.meraki.com/SASE_and_SD-WAN/MX/Product_Information/Overviews_and_Datasheets/MX64_and_MX65_Overview_and_Specifications" }
+        ],
+        "specs": {
+          "brand": "Cisco Meraki",
+          "model": "LIC-MX64-SEC-3YR",
+          "providerSku": "LICCIS1630",
+          "productType": "Licencia digital de seguridad",
+          "licenseTerm": "3 anos",
+          "licenseLevel": "Advanced Security",
+          "compatibleModel": "Meraki MX64",
+          "features": ["firewall stateful", "VLAN routing", "VPN", "IDS/IPS", "content filtering", "web search filtering"],
+          "physicalProduct": false,
+          "lifecycleNote": "MX64 end-of-sale anunciado 2022-07-26 y end-of-support 2027-07-26.",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; retailers MX mostraron sin stock o disponibilidad variable.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "LICCIS1630",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 14948.4,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:3252"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["TiendaClic $15986.48 MXN stock 0.", "MacToner $22543.70 MXN sin stock.", "CityShop agotado.", "AztecaCompras $23462 MXN.", "CDW USD 843.99 in stock."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Cisco Meraki MX64 and MX65 overview", "type": "manufacturer_doc", "url": "https://documentation.meraki.com/SASE_and_SD-WAN/MX/Product_Information/Overviews_and_Datasheets/MX64_and_MX65_Overview_and_Specifications" },
+          { "title": "Cisco Meraki End-of-Life MX64 announcement", "type": "manufacturer_lifecycle", "url": "https://documentation.meraki.com/General_Administration/Other_Topics/Product_End-of-Life_EOS_Announcement_for_MX64_and_MX64W" },
+          { "title": "CTOnline feed LICCIS1630 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "85gewpw2pxpuy9k",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DELL",
+        "name": "Dell N_INSPDTM1_N1_P3 upgrade 1Y Basic/NBD a 3Y ProSupport para Inspiron Desktop SFF 3030",
+        "description": "Poliza Dell N_INSPDTM1_N1_P3 para Inspiron Desktop SFF 3030 que actualiza la cobertura incluida de 1 ano Basic/NBD a 3 anos ProSupport. Requiere validar compatibilidad por Service Tag.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/inspiron-desktops-sff-3030/1y-basic-nbd-a-3y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/inspiron-desktops-sff-3030",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10427614"
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_INSPDTM1_N1_P3",
+          "providerSkus": ["EXTDLL9000", "POL-9453"],
+          "productType": "Upgrade de garantia ProSupport",
+          "serviceLevel": "ProSupport",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic / Next Business Day incluido",
+          "upgradeTo": "3 anos ProSupport",
+          "compatibleModel": "Inspiron Desktop SFF 3030",
+          "serviceIncluded": ["soporte 24x7x365 reportado por retailers", "piezas y mano de obra", "soporte telefonico y web", "reemplazo de piezas"],
+          "physicalProduct": false,
+          "compatibilityNotes": ["Validar por Service Tag antes de vender o activar.", "Dell oficial ofrece opciones ProSupport/NBD para Inspiron 3030; fuentes retail MX confirman la clave N_INSPDTM1_N1_P3."],
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin desglose de sucursal; Compuviper y Mactoner reportan no disponible/bajo pedido.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "EXTDLL9000",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 3177.19,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:11644"
+            },
+            {
+              "providerId": "cva",
+              "providerSku": "POL-9453",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 2635.73,
+              "currency": "MXN",
+              "evidenceHash": "cva-api-full-proof-20260519:112:POL-9453"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Compuviper $3363 MXN stock 0/bajo pedido.", "MacToner $4792.71 MXN sin existencias."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "Compuviper Dell N_INSPDTM1_N1_P3", "type": "retailer_service", "url": "https://compuviper.mx/" },
+          { "title": "CTOnline feed EXTDLL9000 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed POL-9453 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "88zcj9kxfv1i0lo",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BACO",
+        "name": "Resaltador BACO Bacoflash 99396 naranja punta cincel caja plegadiza con 12 piezas",
+        "description": "Resaltador Baco Bacoflash 99396 color naranja con punta cincel, para marcado de texto en oficina y escuela, presentacion caja plegadiza con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/resaltadores/naranja/12-piezas/baco-bacoflash-99396",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/resaltadores/naranja/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC2420/ACCBAC2420_full.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-99396-resaltador-baco-bacoflash-99396-naranja.webp"
+        ],
+        "specs": {
+          "brand": "Baco",
+          "model": "99396",
+          "providerSku": "ACCBAC2420",
+          "ean": "7501174950786",
+          "productType": "Resaltador / marcatextos",
+          "line": "Bacoflash",
+          "color": "Naranja",
+          "tip": "Cincel",
+          "presentation": "Caja plegadiza con 12 piezas",
+          "sourceDiscrepancies": ["A Un Clip publica base agua/no toxico para la linea, pero su UPC observado no coincide con 7501174950786; se conserva como referencia no concluyente."],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; varias tiendas publicas MX mostraron agotado o 0 piezas.",
+          "providerBranches": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC2420",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 127.27,
+              "currency": "MXN",
+              "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:4721"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["CTI agotado $165 MXN.", "PCStore agotado $166 MXN.", "Cityshop agotado.", "TiendaClic 0 piezas $205.63 MXN.", "Mercado Libre observado $124.70 MXN."]
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "No publicadas con confianza para caja de 12 piezas",
+          "weight": "No confirmado"
+        },
+        "sourceRefs": [
+          { "title": "Cityshop BACO Bacoflash 99396 naranja", "type": "retailer_spec", "url": "https://cityshop.mx/producto/resaltador-baco-bacoflash-99396-naranja-plegadiza-con-12-piezas" },
+          { "title": "CTI BACO Bacoflash 99396", "type": "retailer_stock", "url": "https://cti.com.mx/" },
+          { "title": "CTOnline feed ACCBAC2420 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8aucyn7uuuu79z6",
+      "research": {
+        "confidence": 0.88,
+        "brand": "LENOVO",
+        "name": "Lenovo JZ00YBCX Essential Service 1Y 24x7 4-Hour Response para ThinkSystem ST50 V3",
+        "description": "Servicio Lenovo Essential 24x7 con respuesta onsite 4 horas para ThinkSystem ST50 V3 con garantia base de 1 ano. Es una poliza/servicio y requiere validar maquina y region.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/thinksystem/st50-v3/essential-1y-24x7-4hr/jz00ybcx",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/thinksystem/st50-v3/essential-1y-24x7-4hr",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://lenovopress.lenovo.com/lp1907-thinksystem-st50-v3-server",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10482485"
+        ],
+        "documents": [
+          { "label": "Lenovo ThinkSystem ST50 V3 product guide", "type": "manufacturer_doc", "url": "https://lenovopress.lenovo.com/lp1907-thinksystem-st50-v3-server" }
+        ],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "JZ00YBCX",
+          "providerSku": "POL-11285",
+          "productType": "Servicio de garantia para servidor",
+          "serviceLevel": "Essential Service",
+          "serviceTerm": "1 ano",
+          "serviceHours": "24x7",
+          "responseTime": "4 horas",
+          "compatibleModel": "ThinkSystem ST50 V3",
+          "physicalProduct": false,
+          "compatibilityNotes": ["Lenovo Press lista ST50 V3 con maquinas 7DF4 de garantia base 1 ano y opciones de servicio 24x7 4hr.", "Validar entitlement por numero de serie antes de activar."],
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; no se encontro stock publico confiable para JZ00YBCX/POL-11285.",
+          "providerBranches": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-11285",
+              "warehouse": "provider_total",
+              "country": "MX",
+              "stock": 0,
+              "stockStatus": "out_of_stock",
+              "price": 211.11,
+              "currency": "USD",
+              "evidenceHash": "cva-api-full-proof-20260519:7:POL-11285"
+            }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["No se localizo disponibilidad publica confiable para POL-11285 al 2026-05-31."]
+        },
+        "measurements": {
+          "physicalProduct": false,
+          "dimensions": "N/A",
+          "weight": "N/A"
+        },
+        "sourceRefs": [
+          { "title": "Lenovo Press ThinkSystem ST50 V3", "type": "manufacturer_doc", "url": "https://lenovopress.lenovo.com/lp1907-thinksystem-st50-v3-server" },
+          { "title": "Device.report Lenovo Essential Service reference", "type": "catalog_service", "url": "https://device.report/" },
+          { "title": "CVA feed POL-11285 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}
