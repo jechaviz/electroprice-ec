@@ -1,0 +1,414 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b185-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 185,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "00vha07agdhd817",
+      "research": {
+        "confidence": 0.88,
+        "brand": "EZVIZ",
+        "name": "EZVIZ CS-C3TN OutPro 3MP 2.8 mm camara IP Wi-Fi exterior",
+        "description": "Camara IP Wi-Fi bullet de exterior EZVIZ OutPro CS-C3TN 3MP con lente 2.8 mm, video 2K, H.265, defensa activa con luz/sirena, audio bidireccional y microSD hasta 256 GB.",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k",
+        "semanticCategoryPath": "security/video-surveillance/ip-cameras/wifi-bullet-outdoor/3mp-2k",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://m.ezviz.com/product/C3TN/38067",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10479650",
+          "https://m.ezviz.com/product/C3TN/38067"
+        ],
+        "documents": ["https://mfs.ezvizlife.com/C3TN%203MP_datasheet.pdf?ver=52475"],
+        "specs": {
+          "brand": "EZVIZ",
+          "model": "CS-C3TN",
+          "variant": "3MP 2.8 mm",
+          "productType": "Camara IP Wi-Fi bullet exterior",
+          "resolution": "3MP / 2K",
+          "lens": "2.8 mm",
+          "videoCompression": ["H.265", "H.264"],
+          "nightVision": ["Color night vision", "IR night vision"],
+          "activeDefense": "Luz estroboscopica y sirena",
+          "audio": "Audio bidireccional",
+          "storage": "microSD hasta 256 GB",
+          "wireless": "Wi-Fi 2.4 GHz",
+          "weatherResistance": "Exterior",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "CV-2158", "stock": 0, "price": 30.87, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La pagina publica principal puede listar C3TN de 2MP; el feed y el PDF consultado corresponden a la variante CS-C3TN 3MP 2.8 mm."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"dimensions": "No publicado en feed; validar contra datasheet regional antes de prometer medidas", "netWeight": "No publicado en feed"},
+        "sourceRefs": [
+          {"title": "EZVIZ C3TN 3MP datasheet", "type": "manufacturer_datasheet", "url": "https://mfs.ezvizlife.com/C3TN%203MP_datasheet.pdf?ver=52475"},
+          {"title": "EZVIZ C3TN product page", "type": "manufacturer_page", "url": "https://m.ezviz.com/product/C3TN/38067"},
+          {"title": "Electroprice provider stock CV-2158", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "01h1prlhdt8hu1h",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BIC",
+        "name": "BIC Cristal Dura+ 923995 boligrafo negro punto mediano 1.0 mm caja 12",
+        "description": "Boligrafo BIC Cristal Dura+ negro de punto mediano 1.0 mm, cuerpo hexagonal y tapa ventilada; presentacion caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punto-mediano/bic-dura-plus",
+        "semanticCategoryPath": "office-supplies/writing-instruments/ballpoint-pens/medium-point/black",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBIC040/ACCBIC040_1_full.jpg",
+          "https://globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/boligrafo-bic-cristal-dura-punto-mediano/923995"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BIC",
+          "model": "923995/939529",
+          "gtin": "7501014511023",
+          "productType": "Boligrafo",
+          "inkColor": "Negro",
+          "pointSize": "1.0 mm",
+          "pointType": "Mediano",
+          "body": "Hexagonal",
+          "cap": "Ventilada",
+          "packQuantity": 12,
+          "line": "Cristal Dura+",
+          "writingDistance": "Mas de 2 km reportado por retail",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCBIC040", "stock": 0, "price": 42.21, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed mezcla los codigos 923995 y 939529; las fuentes retail apuntan al SKU 923995 con EAN 7501014511023."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"tip": "1.0 mm", "packQuantity": "12 piezas"},
+        "sourceRefs": [
+          {"title": "Global Office BIC 923995", "type": "retailer_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/boligrafo-bic-cristal-dura-punto-mediano/923995"},
+          {"title": "Ofix BIC Dura+ 923995", "type": "retailer_spec", "url": "https://www.ofix.mx/boligrafo-mediano-negro-dura--bic---bic-7501014511023/p"},
+          {"title": "Electroprice provider stock ACCBIC040", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "02jqznsyw1j0q4c",
+      "research": {
+        "confidence": 0.88,
+        "brand": "NASSA",
+        "name": "NASSA HA0074 PQ500 sobres correspondencia carta sin fondo 60 kg 9.2 x 16.4 cm",
+        "description": "Paquete de sobres de correspondencia NASSA tamano carta sin fondo, papel 60 kg, medida 9.2 x 16.4 cm y presentacion PQ500.",
+        "manualCategoryPath": "oficina/papeleria/sobres/correspondencia/carta/paquete-500",
+        "semanticCategoryPath": "office-supplies/envelopes/correspondence/letter/500-pack",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNAS040/ACCNAS040_1_full.jpg",
+          "https://cityshop.mx/producto/sobre-correspondencia-nassa-carta-sfondo-60-kg-92x164-pq500-ha0074"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "NASSA",
+          "model": "PQ500",
+          "manufacturerCode": "HA0074",
+          "gtin": "7501523711037",
+          "productType": "Sobre de correspondencia",
+          "format": "Carta",
+          "style": "Sin fondo",
+          "paperWeight": "60 kg",
+          "dimensions": "9.2 x 16.4 cm",
+          "packQuantity": 500,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCNAS040", "stock": 0, "price": 406.55, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed reporta peso como 60 kg; se conserva como gramaje comercial de papel, no como peso fisico del paquete."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"widthCm": 9.2, "heightCm": 16.4, "packQuantity": 500},
+        "sourceRefs": [
+          {"title": "Cityshop NASSA HA0074", "type": "retailer_spec", "url": "https://cityshop.mx/producto/sobre-correspondencia-nassa-carta-sfondo-60-kg-92x164-pq500-ha0074"},
+          {"title": "TiendaClic NASSA HA0074", "type": "retailer_spec", "url": "https://www.depot.tiendaclic.mx/ver-detalle/sobre-correspondencia-nassa-ha0074"},
+          {"title": "Electroprice provider stock ACCNAS040", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "02uqelhzv0cm3a9",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BACO",
+        "name": "Baco PL005 plastilina marqueta 180 g rosa",
+        "description": "Plastilina escolar Baco PL005 en marqueta grande de 180 g color rosa, no toxica, maleable y envuelta en pelicula BOPP.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/plastilina/marqueta-180g",
+        "semanticCategoryPath": "office-supplies/school-supplies/modeling-clay/180g",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBAC4030/ACCBAC4030_full.jpg",
+          "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BACO",
+          "model": "PL005",
+          "gtin": "7501174965223",
+          "productType": "Plastilina escolar",
+          "color": "Rosa",
+          "weight": "180 g",
+          "nonToxic": true,
+          "packaging": "Pelicula BOPP",
+          "recommendedUse": "Trabajos escolares y modelado",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCBAC4030", "stock": 0, "price": 12.83, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed no indicaba color ni peso; el GTIN PL005 coincide con la variante rosa de 180 g."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"netWeightG": 180},
+        "sourceRefs": [
+          {"title": "Proesa Baco PL005 180g", "type": "retailer_spec", "url": "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529"},
+          {"title": "MiPC Baco PL005", "type": "retailer_spec", "url": "https://mipc.com.mx/plastilina-baco-marqueta-180gr-rosa-no-53.html"},
+          {"title": "Electroprice provider stock ACCBAC4030", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "03b48nxd800z1ip",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Peerless-AV",
+        "name": "Peerless-AV AEC1012 columna extension ajustable 10 a 12 pies negra",
+        "description": "Columna de extension ajustable Peerless-AV AEC1012 para montajes AV de techo, longitud 10 a 12 pies, tubo NPT 1.5 pulgadas, acero y gestion interna de cableado.",
+        "manualCategoryPath": "accesorios/montaje-soportes/audio-video/columnas-extension/ajustables-10-12ft",
+        "semanticCategoryPath": "av-accessories/mounting/ceiling-extension-columns/adjustable-10-12ft",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.peerless-av.com/products/aec1012",
+        "gallery": [
+          "https://www.peerless-av.com/products/aec1012",
+          "https://www.bhphotovideo.com/c/product/682556-REG/Peerless_Industries_AEC1012_10_12_Adjustable_Extension_Column.html"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Peerless-AV",
+          "model": "AEC1012",
+          "productType": "Columna de extension ajustable para montaje AV",
+          "length": "10 a 12 pies / 3.05 a 3.66 m",
+          "adjustmentIncrement": "1 pulgada / 25 mm",
+          "thread": "1.5 in NPT",
+          "material": "Acero",
+          "color": "Negro",
+          "cableManagement": true,
+          "loadCapacity": "227 kg reportado por proveedor; hasta 900 lb en algunas fichas retail",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-11156", "stock": 0, "price": 5969.06, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed CVA reporta capacidad 227 kg; B&H reporta 900 lb para AEC1012. Se conserva discrepancia para validacion antes de publicar carga maxima final."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"lengthFt": "10-12", "lengthM": "3.05-3.66", "package": "No publicado por proveedor local"},
+        "sourceRefs": [
+          {"title": "Peerless-AV AEC1012", "type": "manufacturer_page", "url": "https://www.peerless-av.com/products/aec1012"},
+          {"title": "B&H Peerless AEC1012 specs", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/682556-REG/Peerless_Industries_AEC1012_10_12_Adjustable_Extension_Column.html"},
+          {"title": "Electroprice provider stock AC-11156", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "03b7l71s87bevm8",
+      "research": {
+        "confidence": 0.86,
+        "brand": "PCM",
+        "name": "PCM 10B19 papel bond BriteWhite para plotter 0.61 x 50 m",
+        "description": "Rollo de papel bond BriteWhite para copias xerograficas y plotter, color blanco, formato 0.61 x 50 m, tipo papel bond.",
+        "manualCategoryPath": "impresion/consumibles/papel-plotter/bond/rollos-61cm-50m",
+        "semanticCategoryPath": "printing/consumables/plotter-paper/bond/61cm-50m",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCPCM765/ACCPCM765_full.jpg",
+          "https://cityshop.mx/producto/papel-bond-britewhite-p-copias-xerograficas-n3"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "PCM",
+          "model": "10B19",
+          "productType": "Rollo de papel bond para plotter",
+          "line": "BriteWhite",
+          "color": "Blanco",
+          "format": "0.61 x 50 m",
+          "paperType": "Bond",
+          "application": "Copias xerograficas / plotter",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCPCM765", "stock": 0, "price": 210.23, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se localizo ficha oficial PCM; se triangulo contra feed de proveedor y Cityshop."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"rollWidthM": 0.61, "rollLengthM": 50},
+        "sourceRefs": [
+          {"title": "Cityshop PCM 10B19", "type": "retailer_spec", "url": "https://cityshop.mx/producto/papel-bond-britewhite-p-copias-xerograficas-n3"},
+          {"title": "Electroprice provider stock ACCPCM765", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "052kn9x2qr3suhq",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Soft Restaurant",
+        "name": "Soft Restaurant Analytics SR-ANALYTICS-R licencia renta mensual",
+        "description": "Licencia de renta mensual para Soft Restaurant Analytics, modulo de reportes y dashboard web para consultar ventas, metricas y metas de restaurantes en tiempo real.",
+        "manualCategoryPath": "punto-de-venta/software-pos/restaurantes/analytics/renta-mensual",
+        "semanticCategoryPath": "point-of-sale/software/restaurants/analytics/monthly-license",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://softrestaurant.com/?Itemid=1969",
+        "gallery": [
+          "https://softrestaurant.com/?Itemid=1969",
+          "https://cityshop.mx/producto/soft-restaurant-analytics-renta-mensual"
+        ],
+        "documents": [
+          "https://softrestaurant.com/docs/file/186-23-ft-soft-restaurant-analytics?tmpl=component",
+          "https://www.nationalsoft.store/FichaTecnica/2021/Permanente/FICHA-TECNICA-ANALYTICS.pdf"
+        ],
+        "specs": {
+          "brand": "Soft Restaurant",
+          "vendor": "National Soft",
+          "model": "SR-ANALYTICS-R",
+          "productType": "Licencia de software POS",
+          "licenseTerm": "Renta mensual",
+          "module": "Soft Restaurant Analytics",
+          "features": ["Dashboard inicial", "Mas de 20 reportes gerenciales", "Ventas en tiempo real", "Metas diarias/mensuales/anuales", "Consulta multisucursal"],
+          "access": "Web / dispositivo movil",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "KITNTS4310", "stock": 0, "price": 238.64, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La pagina oficial describe el modulo; el SKU exacto SR-ANALYTICS-R y renta mensual se confirmo con distribuidor."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"physical": "No aplica, licencia digital"},
+        "sourceRefs": [
+          {"title": "Soft Restaurant Analytics official", "type": "manufacturer_page", "url": "https://softrestaurant.com/?Itemid=1969"},
+          {"title": "Soft Restaurant Analytics ficha tecnica", "type": "manufacturer_datasheet", "url": "https://softrestaurant.com/docs/file/186-23-ft-soft-restaurant-analytics?tmpl=component"},
+          {"title": "Cityshop SR-ANALYTICS-R", "type": "retailer_spec", "url": "https://cityshop.mx/producto/soft-restaurant-analytics-renta-mensual"},
+          {"title": "Electroprice provider stock KITNTS4310", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "077b1o6sm0cjb1d",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Kensington",
+        "name": "Kensington K65049WW llave maestra 5 mm para MicroSaver 2.0",
+        "description": "Llave maestra Kensington de sistema 5 mm para candados MicroSaver 2.0, producto TAA compliant orientado a administracion de llaves corporativas.",
+        "manualCategoryPath": "accesorios/seguridad-fisica/candados-laptop/llave/llave-maestra-microsaver-2-0",
+        "semanticCategoryPath": "physical-security/laptop-locks/master-keys/kensington-microsaver-2-0",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/us/us/s/k65049ww/5mm-master-key-for-microsaver-20-k65049ww",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCKNS1360/ACCKNS1360_full.jpg",
+          "https://www.tech-america.com/item/kensington-5mm-master-key-for-microsaver-2-0/k65049ww"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Kensington",
+          "model": "K65049WW",
+          "gtinCandidates": ["5028052506948", "085896650492"],
+          "productType": "Llave maestra para candado laptop",
+          "keyingSystem": "5 mm",
+          "compatibility": "Kensington MicroSaver 2.0",
+          "compliance": "TAA compliant reportado por distribuidores",
+          "countryOfOrigin": "Taiwan reportado por distribuidores",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCKNS1360", "stock": 0, "price": 55.56, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Fuentes retail discrepan entre UPC 5028052506948 y 085896650492; se conserva como candidatos."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"weight": "0.02 lb reportado por Tech-America"},
+        "sourceRefs": [
+          {"title": "Kensington K65049WW product link", "type": "manufacturer_page", "url": "https://www.kensington.com/us/us/s/k65049ww/5mm-master-key-for-microsaver-20-k65049ww"},
+          {"title": "Tech-America K65049WW", "type": "retailer_spec", "url": "https://www.tech-america.com/item/kensington-5mm-master-key-for-microsaver-2-0/k65049ww"},
+          {"title": "Electroprice provider stock ACCKNS1360", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0avrmihvsd480r0",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Newland",
+        "name": "Newland NLS-STD30i / STD100 base cuello flexible para lector codigo de barras",
+        "description": "Base Newland tipo gooseneck/autosense para lectores de codigo de barras de mano, color negro, compatible con familias HR11x, HR2x y HR3x segun fichas internacionales.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/accesorios/bases-gooseneck",
+        "semanticCategoryPath": "point-of-sale/barcode-scanners/accessories/gooseneck-stands",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.newland-id.com/en/products/handheld-scanners/hr23-dorada-corded",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNWL010/ACCNWL010_full.jpg",
+          "https://www.thebarcodewarehouse.co.uk/shop/Newland/accessories/wearable-and-mounting/newland-nls-std30i/"
+        ],
+        "documents": ["https://www.newland-id.com/datasheets/60/hr23-dorada-corded.pdf"],
+        "specs": {
+          "brand": "Newland",
+          "model": "NLS-STD30i / STD100",
+          "productType": "Base para lector de codigo de barras",
+          "standType": "Gooseneck auto sense stand",
+          "color": "Negro",
+          "compatibleProducts": ["HR11x", "HR2x", "HR3x", "Newland handheld scanners"],
+          "packQuantity": 1,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCNWL010", "stock": 0, "price": 1.14, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El proveedor local usa STD30i / STD100; fuentes internacionales normalizan el accesorio como NLS-STD30i."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"weightKg": "0.3-0.4 kg reportado por retailers internacionales"},
+        "sourceRefs": [
+          {"title": "Newland HR23 datasheet listing NLS-STD30i", "type": "manufacturer_datasheet", "url": "https://www.newland-id.com/datasheets/60/hr23-dorada-corded.pdf"},
+          {"title": "The Barcode Warehouse NLS-STD30i", "type": "retailer_spec", "url": "https://www.thebarcodewarehouse.co.uk/shop/Newland/accessories/wearable-and-mounting/newland-nls-std30i/"},
+          {"title": "TiendaClic Newland STD30i / STD100", "type": "retailer_spec", "url": "https://www.depot.tiendaclic.mx/ver-detalle/base-para-lectores-newland-std30i-std100"},
+          {"title": "Electroprice provider stock ACCNWL010", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0b42d2x8ii8dg7r",
+      "research": {
+        "confidence": 0.78,
+        "brand": "CDP",
+        "name": "CDP POL-11491 poliza de servicio en sitio 10KVA 3 anos",
+        "description": "Poliza CDP de garantia-servicio en sitio para equipo 10KVA por 3 anos, con mano de obra, refacciones y partes incluidas, atencion de lunes a viernes y respuesta de reparacion maxima reportada de 72 horas.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/cdp/polizas-sitio/ups-10kva",
+        "semanticCategoryPath": "it-services/warranty-support/cdp/onsite-service/ups-10kva",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10486686"],
+        "documents": [],
+        "specs": {
+          "brand": "CDP",
+          "model": "POL-11491",
+          "productType": "Poliza de servicio en sitio",
+          "coveredEquipment": "UPS / equipo 10KVA",
+          "serviceTerm": "3 anos",
+          "coverage": ["Mano de obra incluida", "Refacciones incluidas", "Partes incluidas"],
+          "serviceHours": "Lunes a viernes 9:00 a 18:00",
+          "phoneResponse": "Inmediata segun proveedor",
+          "repairResponse": "Maximo 72 horas segun proveedor",
+          "outOfWarrantyPolicy": "Fuera de garantia se cobra mano de obra y refacciones",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "POL-11491", "stock": 0, "price": 7043.76, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se localizo ficha publica oficial CDP para POL-11491; se conserva como poliza de servicio basada en texto del proveedor y se marca menor confianza."],
+          "providerStockVerifiedAt": "2026-05-31T02:45:00Z"
+        },
+        "measurements": {"physical": "No aplica, poliza de servicio"},
+        "sourceRefs": [
+          {"title": "Electroprice provider stock POL-11491", "type": "provider_stock", "observedAt": "2026-05-31T02:45:00Z"},
+          {"title": "CVA product image POL-11491", "type": "provider_media", "url": "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10486686"}
+        ]
+      }
+    }
+  ]
+}

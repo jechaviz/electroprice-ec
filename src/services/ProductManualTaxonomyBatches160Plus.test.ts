@@ -252,6 +252,16 @@ const batch160PlusCases = [
   ["Dell AC027075 memoria RAM 16GB DDR5 4800MHz ECC UDIMM", "DELL", "computo/componentes/memoria-ram/udimm-ddr5/ecc-16gb-4800", "components"],
   ["Manhattan 153966 USB-C PD docking station 7 en 1 HDMI Ethernet", "MANHATTAN", "computo/accesorios/docks-hubs/usb-c/7-en-1-hdmi-ethernet-pd", "accessories"],
   ["BRobotix 372782 cable USB 2.0 extension activa 15m macho hembra", "BROBOTIX", "accesorios/cables-adaptadores/usb/extensiones/activas/15m", "accessories"],
+  ["EZVIZ CS-C3TN 3MP 2.8mm OutPro camara IP WiFi exterior color night", "EZVIZ", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/3mp-2k", "cameras"],
+  ["BIC 923995 939529 Dura Plus boligrafo negro punto mediano", "BIC", "oficina/papeleria/boligrafos/boligrafo-punto-mediano/bic-dura-plus", "accessories"],
+  ["NASSA PQ500 sobre correspondencia carta sin fondo 60kg 9.2 x 16.4 paquete 500", "NASSA", "oficina/papeleria/sobres/correspondencia/carta/paquete-500", "accessories"],
+  ["BACO PL005 plastilina rosa marqueta escolar 180 gramos", "BACO", "oficina/papeleria/material-escolar/plastilina/marqueta-180g", "accessories"],
+  ["Peerless AV AEC1012 columna extension ajustable 10 a 12 pies 227kg", "PEERLESS-AV", "accesorios/montaje-soportes/audio-video/columnas-extension/ajustables-10-12ft", "accessories"],
+  ["PCM 10B19 papel bond BriteWhite plotter 0.61 x 50 m rollo", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-50m", "printers_scanners"],
+  ["Soft Restaurant Analytics SR-ANALYTICS-R renta mensual software POS restaurante", "SOFT RESTAURANT", "punto-de-venta/software-pos/restaurantes/analytics/renta-mensual", "software"],
+  ["Kensington K65049WW llave maestra 5mm para MicroSaver 2.0", "KENSINGTON", "accesorios/seguridad-fisica/candados-laptop/llave/llave-maestra-microsaver-2-0", "accessories"],
+  ["Newland STD30i STD100 base cuello flexible para lector codigo de barras", "NEWLAND", "punto-de-venta/lectores-codigo-barras/accesorios/bases-gooseneck", "accessories"],
+  ["CDP POL-11491 poliza de servicio en sitio 10KVA garantia 3 anos", "CDP", "servicios-ti/soporte-garantias/cdp/polizas-sitio/ups-10kva", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
