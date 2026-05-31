@@ -382,6 +382,16 @@ const batch160PlusCases = [
   ["Dell N_OPTL3_N3_M5 garantia OptiPlex 7010 3Y Basic NBD a 5Y ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-7010/3y-basic-a-5y-prosupport-plus", "software"],
   ["Azor Signal Xtra 40001 marcador permanente negro punta cincel 6mm caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/permanentes/signal-xtra/negro/12-piezas", "accessories"],
   ["Tripp Lite SRCOOL7KDUCT ducto descarga SmartRack para SRCOOL7KRM", "TRIPP-LITE", "infraestructura/racks-accesorios/ventilacion/ductos-descarga/tripp-lite-srcool7kduct", "networking"],
+  ["CT Cloud NCBU250 solucion de backup con licenciamiento 250GB", "CT CLOUD", "software/servicios-nube/ct-cloud/respaldo-nube/250gb", "software"],
+  ["Mimosa Networks B11 radio backhaul PTP 10.0 11.7 GHz", "MIMOSA NETWORKS", "redes/radioenlaces-antenas/radios-backhaul/ptp-licenciados/mimosa-b11", "networking"],
+  ["Adesso CyberTablet K10 tableta grafica 10 x 6 pulgadas", "ADESSO", "computo/perifericos/tabletas-digitalizadoras/adesso-cybertablet-k10", "accessories"],
+  ["Lenovo 5WS0K76347 3Y Depot CCI upgrade from 1Y Depot CCI", "LENOVO", "servicios-ti/soporte-garantias/lenovo/depot-cci/3y-upgrade/5ws0k76347", "software"],
+  ["MAE PH100B protector de hojas carta bolsa 100 piezas", "MAE", "oficina/papeleria/archivo/protectores-hojas/carta/100-piezas/mae-ph100b", "accessories"],
+  ["TechZone TZKL703KD candado de seguridad Nano Lock para laptop", "TECHZONE", "accesorios/seguridad-fisica/candados-laptop/nano-lock/techzone-tzkl703kd", "accessories"],
+  ["Azor 8350NE marcador Magistral Didactico negro para pizarron caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/negro/12-piezas", "accessories"],
+  ["Hillstone BDL1-A200-IN24 bundle de suscripciones A200 24 meses", "HILLSTONE", "software/licencias/seguridad-red/hillstone/a200/bdl1-24m", "software"],
+  ["Dell N_OPTL1_N3_M3 OptiPlex 3000 3Y Basic Onsite a 3Y ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-3000/3y-basic-a-3y-prosupport-plus", "software"],
+  ["Cisco LIC-MX64-SEC-1YR Meraki MX64 Advanced Security License and Support 1 year", "CISCO", "software/licencias/seguridad-red/cisco-meraki/mx64/advanced-security-1y", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

@@ -1,0 +1,437 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b198-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 198,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "4f2602vydrb0o7w",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "CT Cloud NCBU250 Backup en la nube 250GB",
+        "description": "Servicio CT Cloud de respaldo en la nube con licenciamiento y capacidad de 250GB para proteccion de datos.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/respaldo-nube/250gb",
+        "semanticCategoryPath": "software/servicios-nube/respaldo-cloud/ct-cloud/250gb",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/solucion-de-backup-con-licenciamiento-ct-cloud-ncbu250/",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO340_full-600x498.jpg"],
+        "specs": {
+          "brand": "CT CLOUD",
+          "model": "NCBU250",
+          "providerSku": "SERCLO340",
+          "productType": "Servicio de backup en la nube",
+          "capacity": "250GB",
+          "licenseType": "Licenciamiento CT Cloud",
+          "delivery": "Servicio digital",
+          "providerStatus": "provider_unavailable en Electroprice",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; MacToner sin existencias; Cityshop agotado",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "mactoner", "warehouse": "online_mx", "country": "MX", "region": "CDMX", "stock": 0 },
+            { "providerId": "cityshop", "warehouse": "Leon", "country": "MX", "region": "Guanajuato", "city": "Leon", "stock": 0 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio digital", "weight": "0 kg" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud NCBU250", "type": "distributor", "url": "https://www.mactoner.com.mx/producto/solucion-de-backup-con-licenciamiento-ct-cloud-ncbu250/" },
+          { "title": "Cityshop marca CT Cloud", "type": "distributor", "url": "https://cityshop.mx/marca/ct-cloud" }
+        ]
+      }
+    },
+    {
+      "product_id": "4fu0g2f6plgb02s",
+      "research": {
+        "confidence": 0.93,
+        "brand": "MIMOSA NETWORKS",
+        "name": "Mimosa Networks B11 radio backhaul PTP 10.0-11.7GHz",
+        "description": "Radio backhaul punto a punto Mimosa B11 para bandas licenciadas 10.0-11.7GHz, hasta 1.5Gbps agregado, 4x4 MIMO, IP67, Ethernet Gigabit/SFP y PoE pasivo.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/radios-backhaul/ptp-licenciados/mimosa-b11",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/backhaul-ptp/licenciados/10-11ghz/mimosa-b11",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mimosa.co/products/b11",
+        "gallery": ["https://mimosa.co/sites/default/files/2024-08/mimosa-b11.png", "https://ftp3.syscom.mx/cdn-cgi/image/format%3Davif%2Cfit%3Dcontain%2Cwidth%3D220%2Cdpr%3D2%2Cquality%3D95/usuarios/fotos/BancoFotografiasSyscom/MIMOSANETWORKS/B11/B11-p.PNG"],
+        "specs": {
+          "brand": "MIMOSA NETWORKS",
+          "model": "B11",
+          "providerSku": "ACCMIM140",
+          "productType": "Radio backhaul punto a punto",
+          "frequency": "10.0-11.7GHz",
+          "throughput": "Hasta 1.5Gbps IP agregado UL/DL",
+          "latency": "<1 ms",
+          "mimo": "4x4:4 MIMO OFDM hasta 256-QAM",
+          "channelWidths": ["20MHz", "40MHz", "80MHz"],
+          "maxTxPower": "27 dBm",
+          "poe": "Passive PoE 48-56V",
+          "powerConsumption": "30W max",
+          "interfaces": "Ethernet Gigabit 10/100/1000BASE-T o SFP; no simultaneos",
+          "ingressProtection": "IP67",
+          "operatingTemperature": "-40 a 55 C",
+          "security": "AES 128-bit PSK",
+          "gps": "GPS + GLONASS / sincronizacion 1PPS",
+          "compliance": ["FCC Part 101", "RoHS"],
+          "lifecycleNote": "Mimosa lista B11 dentro de productos legacy/EOL 5 Series; garantia actualizada indica EOL efectivo 2025-04-15.",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; PCEL agotado; EPCOM/SYSCOM requiere sesion para stock publico",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "pcel", "warehouse": "online_mx", "country": "MX", "stock": 0 },
+            { "providerId": "epcom", "warehouse": "El Paso", "country": "US", "region": "TX", "stock": 0 },
+            { "providerId": "epcom", "warehouse": "Miami", "country": "US", "region": "FL", "stock": 0 },
+            { "providerId": "epcom", "warehouse": "San Antonio", "country": "US", "region": "TX", "stock": 0 }
+          ]
+        },
+        "measurements": { "dimensions": "260 x 158 x 70 mm", "weight": "2 kg", "heightMm": 260, "widthMm": 158, "depthMm": 70, "weightKg": 2 },
+        "sourceRefs": [
+          { "title": "Mimosa B11 official", "type": "manufacturer", "url": "https://mimosa.co/products/b11" },
+          { "title": "Mimosa B11 specifications", "type": "manufacturer", "url": "https://old.mimosa.co/products/specs/b11" },
+          { "title": "Mimosa-Radisys B11 Datasheet DS-2024-01", "type": "datasheet", "url": "https://mimosa.co/sites/default/files/2024-07/Mimosa-Radisys-B11-Datasheet_DS-2024-01.pdf" },
+          { "title": "Mimosa warranty", "type": "manufacturer", "url": "https://mimosa.co/legal/warranty" },
+          { "title": "PCEL Mimosa Networks B11", "type": "marketplace", "url": "https://www.pcel.com/Mimosa-Networks-B11-Radio-Backhaul-Punto-Punto-MIMO-4X4-4ac-IP67-10-0-11-7-GHz-Alta-Velocidad-hasta-1-5-Gbps-Conectorizado-Monitoreo-a-traves-de-la-nube-522623" },
+          { "title": "EPCOM PtP and PtMP links", "type": "distributor", "url": "https://www.epcom.net/categories/65877?m=networking-ptp-and-ptmp-links" }
+        ]
+      }
+    },
+    {
+      "product_id": "4hvd5ix9s87wglm",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADESSO",
+        "name": "Adesso CyberTablet K10 tableta grafica 10 x 6 pulgadas",
+        "description": "Tableta grafica USB Adesso CyberTablet K10 para PC y Mac, area activa 10 x 6 pulgadas, lapiz pasivo sin bateria, 8192 niveles de presion y 6 teclas programables.",
+        "manualCategoryPath": "computo/perifericos/tabletas-digitalizadoras/adesso-cybertablet-k10",
+        "semanticCategoryPath": "computo/perifericos/tabletas-digitalizadoras/10x6/adesso-cybertablet-k10",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://adesso.com/shop/solutions/retail/cybertablet-k10/",
+        "gallery": ["https://adesso.com/wp-content/uploads/2025/08/CyberTablet-K10_A__1.jpg", "https://adesso.com/wp-content/uploads/2025/08/CyberTablet-K10_A__2.jpg", "https://adesso.com/wp-content/uploads/2025/08/CyberTablet-K10_A__3.jpg", "https://adesso.com/wp-content/uploads/2025/08/CyberTablet-K10_A__4.jpg", "https://adesso.com/wp-content/uploads/2025/08/CyberTablet-K10_A__5.jpg", "https://adesso.com/wp-content/uploads/2025/08/CyberTablet-K10-2-1.jpg"],
+        "specs": {
+          "brand": "ADESSO",
+          "model": "CYBERTABLET K10",
+          "providerSku": "AC-12104",
+          "upc": "783750011341",
+          "productType": "Tableta digitalizadora",
+          "technology": "Passive EMR",
+          "activeArea": "10 x 5.625 in / anunciado como 10 x 6 in",
+          "pressureLevels": 8192,
+          "resolution": "5080 LPI",
+          "reportRate": ">=200 RPS max",
+          "accuracy": "+/-0.01 in en area central",
+          "hovering": "10 mm",
+          "pen": "Passive Pen sin bateria, 2 botones",
+          "hotkeys": 6,
+          "scrollWheel": 1,
+          "connector": "USB / USB Type-C segun datasheet",
+          "power": "5V por USB",
+          "compatibility": "Windows XP/Vista/7/8/10; Mac OS / Mac OS X 10.7+",
+          "boxContents": ["CyberTablet K10", "Stylus Pen", "USB Type-C Cable", "Quick Start Guide"],
+          "certifications": ["FCC", "IC"],
+          "countryOfOrigin": "China",
+          "providerBranchSummary": "Electroprice/CVA stock 0; sin sucursal CVA publica disponible",
+          "providerBranches": [{ "providerId": "cva", "warehouse": "provider_total", "country": "MX", "stock": 0 }]
+        },
+        "measurements": { "dimensions": "310 x 226.9 x 17 mm", "weight": "794 g", "packageDimensions": "12.8 x 9.25 x 2.1 in", "packageWeight": "2.25 lb", "widthMm": 310, "heightMm": 226.9, "depthMm": 17, "weightKg": 0.794 },
+        "sourceRefs": [
+          { "title": "Adesso CyberTablet K10", "type": "manufacturer", "url": "https://adesso.com/shop/solutions/retail/cybertablet-k10/" },
+          { "title": "Adesso CyberTablet K10 Datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/CYBERTABLET-K10-DS.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "4hvfou9y77868ar",
+      "research": {
+        "confidence": 0.88,
+        "brand": "LENOVO",
+        "name": "Lenovo 5WS0K76347 garantia 3Y Depot CCI desde 1Y",
+        "description": "Servicio electronico Lenovo 5WS0K76347 de actualizacion de garantia Depot/CCI desde 1 ano Depot/CCI a 3 anos para equipos compatibles.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/depot-cci/3y-upgrade/5ws0k76347",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/depot-cci/3y/5ws0k76347",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://static.lenovo.com/shop/emea/content/pdf/services-warranty/personal/Warranty-Expedited%20Depot_CB_EMEA_en.pdf",
+        "specs": {
+          "brand": "LENOVO",
+          "model": "5WS0K76347",
+          "providerSku": "POL-10455",
+          "productType": "Warranty upgrade / extended service agreement",
+          "serviceName": "3-Year Depot/CCI Upgrade from 1-Year Depot/CCI Delivery",
+          "term": "3 anos",
+          "licenses": "1 licencia",
+          "serviceLocation": "Service Depot",
+          "serviceType": "Maintenance",
+          "delivery": "Electronic delivery via email segun LASystems",
+          "compatibility": "Depende del equipo Lenovo/base warranty; confirmar compatibilidad por numero de serie",
+          "providerBranchSummary": "Electroprice/CVA stock 0; LASystems VP03 +20/999 referencia externa; ShopBLT back order ETA 2026-06-14",
+          "providerBranches": [
+            { "providerId": "cva", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "lasystems", "warehouse": "VP03", "country": "BE", "stock": 999 },
+            { "providerId": "shopblt", "warehouse": "back_order", "country": "US", "stock": 0 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; garantia electronica", "weight": "0 kg", "serviceTermYears": 3 },
+        "sourceRefs": [
+          { "title": "Provantage Lenovo 5WS0K76347", "type": "distributor", "url": "https://www.provantage.com/lenovo-5ws0k76347~7LENW02N.htm" },
+          { "title": "LASystems Lenovo 5WS0K76347", "type": "distributor", "url": "https://www.lasystems.be/en/lenovo-5ws0k76347" },
+          { "title": "ShopBLT Lenovo 5WS0K76347", "type": "distributor", "url": "https://www.shopblt.com/item/3yr-cci-depot-exchanges-lenovo-no/lenovo_5ws0k76347~b6jz091.html" },
+          { "title": "Lenovo Warranty Services PDF", "type": "manufacturer", "url": "https://static.lenovo.com/shop/emea/content/pdf/services-warranty/personal/Warranty-Expedited%20Depot_CB_EMEA_en.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "4i9ixyzjgkd7xon",
+      "research": {
+        "confidence": 0.84,
+        "name": "MAE PH-100B protectores de hojas carta 100 piezas",
+        "description": "Protectores transparentes de polipropileno para hojas tamano carta, paquete con 100 piezas, multiperforados, borde reforzado y propiedad antiestatica.",
+        "manualCategoryPath": "oficina/papeleria/archivo/protectores-hojas/carta/100-piezas/mae-ph100b",
+        "semanticCategoryPath": "oficina/papeleria/archivo-organizacion/protectores-hojas/carta/100-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mipc.com.mx/protector-mae-hojas-bolsa-articulos-escolar-y-oficina.html",
+        "gallery": ["https://mipc.com.mx/media/catalog/product/7/4/74463017.jpg?height=480&image-type=image&store=default&width=480", "https://marchante.mx/cdn/shop/files/D_894549-MLM70044949063_062023-O.jpg?v=1769492715", "https://marchante.mx/cdn/shop/files/0004199_510.jpg?v=1769492715"],
+        "specs": {
+          "brandCandidate": "MAE",
+          "inputBrand": "BARRILITO",
+          "model": "PH100",
+          "confirmedModel": "PH-100B / PH100B",
+          "providerSku": "ACCMAE340",
+          "gtin": "7502237301507",
+          "productType": "Protector de hojas",
+          "size": "Carta",
+          "sheetDimensions": "220 x 280 mm",
+          "material": "Polipropileno PP",
+          "color": "Transparente",
+          "perforations": "Multiples / universal",
+          "reinforcedEdge": true,
+          "antistatic": true,
+          "packageQuantity": 100,
+          "dataQualityNotes": ["Conflicto de identidad: el input dice BARRILITO PH100, pero EAN 7502237301507 y SKU ACCMAE340 apuntan a MAE PH-100B/PH100B en fuentes actuales."],
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; Colmenero CDMX 5; MiPC 7; TiendaClic 0",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "colmenero", "warehouse": "Jose Maria Bustillos 24 Int 11", "country": "MX", "region": "CDMX", "city": "Ciudad de Mexico", "stock": 5 },
+            { "providerId": "mipc", "warehouse": "online_mx", "country": "MX", "stock": 7 },
+            { "providerId": "tiendaclic", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "dimensions": "220 x 280 mm" },
+        "sourceRefs": [
+          { "title": "MiPC protector MAE hojas bolsa", "type": "distributor", "url": "https://mipc.com.mx/protector-mae-hojas-bolsa-articulos-escolar-y-oficina.html" },
+          { "title": "Colmenero protectores MAE PH100B", "type": "distributor", "url": "https://colmenero.shop/products/protector-de-hojas-mae-tamano-carta-bolsa-con-100-piezas" },
+          { "title": "TiendaClic protector de hojas Barrilito PH100", "type": "distributor", "url": "https://www.tiendaclic.mx/ver-detalle/protector-de-hojas-barrilito-ph100" }
+        ]
+      }
+    },
+    {
+      "product_id": "4k1l107ajxo82c1",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TECHZONE",
+        "name": "TechZone TZKL703KD candado Nano Lock con llave 1.8 m",
+        "description": "Candado de seguridad TechZone TZKL703KD para laptop o monitor con ranura Nano, cable de acero recubierto de 1.8 m, llave tubular y cabezal compacto.",
+        "manualCategoryPath": "accesorios/seguridad-fisica/candados-laptop/nano-lock/techzone-tzkl703kd",
+        "semanticCategoryPath": "computo/accesorios/seguridad/candados-laptop/nano-lock/techzone-tzkl703kd",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techzone.com.mx/products/candado-nano-lock",
+        "gallery": ["https://techzone.com.mx/cdn/shop/files/TZKL703KD.jpg?v=1695938113", "https://techzone.com.mx/cdn/shop/products/TZKL703KD_1.jpg?v=1626213908", "https://compupuebla.com/wp-content/uploads/2024/04/CANDADODESEGURIDADTZKL703KDmarcaTe_TZKL703KD_EAN7501950190931_0-600x584.jpg"],
+        "specs": {
+          "brand": "TECHZONE",
+          "model": "TZKL703KD",
+          "providerSku": "ACCTCH9740",
+          "gtin": "7501950190931",
+          "productType": "Candado de seguridad para laptop",
+          "lockSlotType": "Nano Lock / Nano slot 2.5 x 6 mm",
+          "openingType": "Llave tubular",
+          "cableLength": "1.8 m",
+          "cableDiameter": "4 mm",
+          "color": "Negro",
+          "materials": ["Cuerpo de zinc", "Cable de acero", "Cubierta de PVC"],
+          "compatibility": "MAC, PC o monitor con ranura Nano compatible",
+          "packageType": "Bolsa",
+          "boxContents": ["1 candado", "2 llaves", "Manual de usuario"],
+          "warranty": "1 ano en ficha PDF; pagina de producto menciona 3 anos",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; TechZone disponible por proyecto; CompuPuebla Puebla 11; Acomee 7",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "techzone", "warehouse": "proyecto", "country": "MX", "stock": 0 },
+            { "providerId": "compupuebla", "warehouse": "Puebla", "country": "MX", "region": "Puebla", "stock": 11 },
+            { "providerId": "acomee", "warehouse": "online_mx", "country": "MX", "stock": 7 }
+          ]
+        },
+        "measurements": { "headDimensions": "26 x 12 mm", "packageDimensions": "1 x 20 x 15.5 cm", "weight": "180 g", "weightKg": 0.18 },
+        "sourceRefs": [
+          { "title": "TechZone Candado Nano Lock", "type": "manufacturer", "url": "https://techzone.com.mx/products/candado-nano-lock" },
+          { "title": "TechZone TZKL703KD ficha tecnica PDF", "type": "datasheet", "url": "https://techzone.com.mx/cdn/shop/files/TZKL703KD-190325.pdf?v=15973323438567510092" },
+          { "title": "CompuPuebla TechZone TZKL703KD", "type": "distributor", "url": "https://compupuebla.com/producto/candado-de-seguridad-techzone-tzkl703kd/" }
+        ]
+      }
+    },
+    {
+      "product_id": "4l92hkyhqep0y2h",
+      "research": {
+        "confidence": 0.91,
+        "brand": "AZOR",
+        "name": "Azor Magistral 8350NE marcador pizarron negro 12 piezas",
+        "description": "Marcadores Azor Magistral Didactico 8350NE color negro para pizarron blanco, punta cincel 6 mm, tinta base alcohol de alta intensidad y bajo aroma, caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/negro/12-piezas",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/negro/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://azor.com.mx/us/index.php/product/magistral-didactico/",
+        "gallery": ["https://azor.com.mx/us/wp-content/uploads/2017/11/azor_magistral_didactico_8350_prodcutshot_1.jpg", "https://azor.com.mx/us/wp-content/uploads/2017/11/azor_magistral_didactico_8350_productshot_2.jpg", "https://azor.com.mx/us/wp-content/uploads/2017/11/azor_magistral_didactico_cincel_8350_caja_12pzas-1.jpg", "https://lumen.com.mx/Content/Images/productPics/marcador-para-pizarron-negro-caja-con-12-piezas-marca-magistral-sku-14727002.jpg?v=251113-3334"],
+        "specs": {
+          "brand": "AZOR",
+          "model": "8350NE",
+          "providerSku": "ACCAZR070",
+          "gtin": "7501428702277",
+          "productType": "Marcador para pizarron blanco",
+          "series": "Magistral Didactico",
+          "inkColor": "Negro",
+          "use": "Pizarron blanco / superficies no porosas",
+          "tip": "Cincel",
+          "strokeWidth": "6 mm",
+          "ink": "Base alcohol, alta intensidad, bajo aroma",
+          "barrel": "Plastico",
+          "erasableOn": ["Porcelana", "Melamina", "Vidrio", "Superficies no porosas"],
+          "care": "Mantener tapado y en posicion horizontal cuando no se use",
+          "packageQuantity": 12,
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; Lumen envio 1 a 3 dias; PCStore agotado",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "lumen", "warehouse": "online_mx", "country": "MX", "stock": 0 },
+            { "providerId": "pcstore", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "packageQuantity": 12 },
+        "sourceRefs": [
+          { "title": "Grupo Azor Magistral Didactico", "type": "manufacturer", "url": "https://azor.com.mx/us/index.php/product/magistral-didactico/" },
+          { "title": "Catalogo AZOR 2025", "type": "catalog", "url": "https://mail.azor.com.mx/catalogo/azor-gral-25.pdf" },
+          { "title": "Lumen marcador Magistral negro 12 piezas", "type": "marketplace", "url": "https://lumen.com.mx/marcador-para-pizarron-magistral-didactico-con-12-piezas-negro-marca-magistral-sku-14727002" },
+          { "title": "PCStore Azor 8350NE", "type": "marketplace", "url": "https://pcstore.mx/marcador-magistral-azor-8350ne-paquete-de-12-piezas-negro" }
+        ]
+      }
+    },
+    {
+      "product_id": "4m29jmx7stsf5tj",
+      "research": {
+        "confidence": 0.87,
+        "brand": "HILLSTONE",
+        "name": "Hillstone BDL1-A200-IN24 bundle NGFW A200 24 meses",
+        "description": "Bundle de suscripciones Hillstone BDL1-A200-IN24 Basico NGFW para firewall Hillstone A200, vigencia 24 meses.",
+        "manualCategoryPath": "software/licencias/seguridad-red/hillstone/a200/bdl1-24m",
+        "semanticCategoryPath": "software/seguridad-red/ngfw/licencias/hillstone/a200/bdl1-24m",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hillstonenet.com/wp-content/uploads/Hillstone_A-Series_V5.5R12_EN.pdf",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/FIRHST050_full-600x383.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-bdl1-a200-in24-bundle-de-suscripciones-hillstone-bdl1-a200-in24.webp"],
+        "specs": {
+          "brand": "HILLSTONE",
+          "model": "BDL1-A200-IN24",
+          "providerSku": "FIRHST050",
+          "productType": "Licencia / suscripcion NGFW",
+          "compatibility": "Hillstone A200",
+          "term": "24 meses",
+          "bundle": "BDL1 Basico NGFW",
+          "includedServices": ["IPS", "Antivirus", "Filtrado URL", "Calidad de Servicio QoS"],
+          "dataQualityNotes": ["La hoja oficial Hillstone consultada confirma especificaciones del equipo A200, pero no detalla este SKU BDL1-A200-IN24 como licencia individual."],
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; MacToner sin existencias; Cityshop agotado",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "mactoner", "warehouse": "online_mx", "country": "MX", "stock": 0 },
+            { "providerId": "cityshop", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; licencia digital", "weight": "0 kg", "serviceTermMonths": 24 },
+        "sourceRefs": [
+          { "title": "MacToner Hillstone BDL1-A200-IN24", "type": "distributor", "url": "https://www.mactoner.com.mx/producto/licencias-hillstone-bdl1-a200-in24/" },
+          { "title": "Cityshop Hillstone BDL1-A200-IN24", "type": "distributor", "url": "https://cityshop.mx/producto/bundle-de-suscripciones-hillstone-bdl1-a200-in24-basico-ngfw-para-a200-24-meses" },
+          { "title": "Cityshop marca Hillstone", "type": "distributor", "url": "https://cityshop.mx/marca/hillstone" },
+          { "title": "Hillstone A-Series NGFW Datasheet", "type": "datasheet", "url": "https://www.hillstonenet.com/wp-content/uploads/Hillstone_A-Series_V5.5R12_EN.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "4nswnvwjuxi9o8b",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DELL",
+        "name": "Dell N_OPTL1_N3_M3 ProSupport Plus OptiPlex 3000 3 anos",
+        "description": "Actualizacion Dell N_OPTL1_N3_M3 de 3 anos Basic Onsite a 3 anos ProSupport Plus para OptiPlex 3000, con soporte 24x7 y servicio onsite al siguiente dia habil tras diagnostico remoto.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-3000/3y-basic-a-3y-prosupport-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/optiplex-3000/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "specs": {
+          "brand": "DELL",
+          "model": "N_OPTL1_N3_M3",
+          "providerSku": "POL-7684",
+          "manufacturerPartNumber": "N_OPTL1_N3_M3",
+          "productType": "Servicio / garantia extendida",
+          "serviceName": "ProSupport Plus - Upgrade",
+          "upgradeFrom": "3 Years Basic Onsite",
+          "term": "3 anos",
+          "serviceLocation": "On-site",
+          "serviceType": "Exchange",
+          "serviceFeature": "Labor",
+          "includedSupport": ["Drive Retention", "Phone Support", "Remote Diagnosis", "Repair", "Replacement"],
+          "response": "Next Business Day - Replacement",
+          "proSupportPlusFeatures": ["Soporte tecnico 24x7", "Reparacion onsite siguiente dia habil despues de diagnostico remoto", "Alertas/proactividad via SupportAssist/TechDirect segun cobertura y configuracion", "Keep Your Hard Drive", "Accidental Damage Coverage"],
+          "compatibility": "OptiPlex desktops 3000 segun titulo del proveedor; confirmar por service tag antes de vender",
+          "providerBranchSummary": "Electroprice/CVA stock 0; DirectDial lo lista In Stock como referencia externa",
+          "providerBranches": [
+            { "providerId": "cva", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "directdial", "warehouse": "online_us", "country": "US", "stock": 1 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio", "serviceTermYears": 3 },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "DirectDial Dell N_OPTL1_N3_M3", "type": "distributor", "url": "https://www.directdial.com/us/item/dell-upgrade-from-3y-basic-onsite-to-3y-prosupport-plus/n-optl1-n3-m3" }
+        ]
+      }
+    },
+    {
+      "product_id": "4ntjr9iw3dp8os5",
+      "research": {
+        "confidence": 0.91,
+        "brand": "CISCO",
+        "name": "Cisco Meraki MX64 Advanced Security 1 ano LIC-MX64-SEC-1YR",
+        "description": "Licencia Cisco Meraki Advanced Security and Support por 1 ano para appliance MX64, con servicios cloud, actualizaciones de software y soporte bajo esquema Meraki.",
+        "manualCategoryPath": "software/licencias/seguridad-red/cisco-meraki/mx64/advanced-security-1y",
+        "semanticCategoryPath": "software/seguridad-red/licencias/cisco-meraki/mx64/advanced-security-1y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://documentation.meraki.com/Platform_Management/Product_Information/Licensing/Subscription_-_MX_Licensing",
+        "specs": {
+          "brand": "CISCO",
+          "model": "LIC-MX64-SEC-1YR",
+          "providerSku": "LICCIS860",
+          "manufacturerPartNumber": "LIC-MX64-SEC-1YR",
+          "productType": "Licencia de software / soporte",
+          "associatedProduct": "Cisco Meraki MX64",
+          "term": "1 ano",
+          "licenseLevel": "Advanced Security",
+          "legacyDescription": "Cisco Meraki MX64, 1 year Advanced Security License and Support",
+          "hardwareCompatibility": ["MX64-HW"],
+          "currentLicensingNote": "La documentacion actual de suscripcion Meraki agrupa MX64 dentro de MX Small / LIC-MX-S; el SKU LIC-MX64-SEC-1YR aparece en datasheet/ordering guide legacy.",
+          "relatedCapabilities": ["Gestion centralizada", "Soporte enterprise 24x7", "Auto VPN / site-to-site VPN", "Stateful firewall", "Layer 7 enforcement", "IDS/IPS", "Content Filtering powered by Talos", "Advanced Malware Protection"],
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; MacToner sin existencias",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "digital_provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "mactoner", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; licencia digital", "weight": "0 kg", "serviceTermYears": 1 },
+        "sourceRefs": [
+          { "title": "Cisco Meraki Subscription MX Licensing", "type": "manufacturer", "url": "https://documentation.meraki.com/Platform_Management/Product_Information/Licensing/Subscription_-_MX_Licensing" },
+          { "title": "Cisco Meraki MX Datasheet", "type": "datasheet", "url": "https://www.cisco.com/c/dam/global/en_uk/solutions/meraki/pdf/meraki_datasheet_mx.pdf" },
+          { "title": "MacToner LIC-MX64-SEC-1YR", "type": "distributor", "url": "https://www.mactoner.com.mx/producto/lic-seguridad-avanzad-lic-mx64-sec-1yr-cisco-lic-mx64-sec-1yr/" }
+        ]
+      }
+    }
+  ]
+}
