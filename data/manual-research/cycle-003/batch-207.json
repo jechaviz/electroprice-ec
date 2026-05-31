@@ -1,0 +1,463 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b207-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 207,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "u70z8bgc209i1og",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ACTECK",
+        "name": "Acteck Dynamic Exact BS630 bocinas Bluetooth 2.0 20W negras",
+        "description": "Bocinas de escritorio tipo estudio 2.0 con Bluetooth 5.0, AUX 3.5 mm, USB, potencia RMS de 20W y gabinete negro para PC, laptop o dispositivos moviles.",
+        "manualCategoryPath": "audio/bocinas/computadora/2-0/bluetooth/20w/acteck-bs630",
+        "semanticCategoryPath": "audio/bocinas/computadora/2-0/bluetooth/20w/acteck-bs630",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/dynamic-exact-bs630",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCACT400/BOCACT400_full.jpg",
+          "https://static.ctonline.mx/imagenes/BOCACT400/BOCACT400_1_full.jpg",
+          "https://static.ctonline.mx/imagenes/BOCACT400/BOCACT400_2_full.jpg",
+          "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-935869_2.webp?v=1704398534"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Dynamic Exact BS630",
+          "manufacturerSku": "AC-935869",
+          "providerSku": "BOCACT400",
+          "ean": "7506215935869",
+          "channels": "2.0",
+          "connectivity": ["Bluetooth 5.0", "AUX 3.5 mm", "USB-A", "RCA reportado por algunos retailers"],
+          "powerRms": "20 W",
+          "frequencyResponse": "60 Hz - 20 kHz",
+          "impedance": "4 ohm",
+          "powerInput": "Adaptador 100-240 V 50/60 Hz; salida 21 Vcc 1.5 A",
+          "providerBranchSummary": "CTOnline stock 0; GlobalOffice reporta stock externo en Almacen Mexico no sincronizable.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCACT400", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 760.83, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8191" },
+            { "providerId": "globaloffice", "providerSku": "AC-935869", "warehouse": "almacen_mexico", "country": "MX", "stock": 5, "stockStatus": "external_stock_unverified", "evidenceHash": "globaloffice-bs630-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "14 x 10.2 x 17.8 cm", "weight": "1.4 kg", "packageDimensions": "30.5 x 21 x 14.7 cm", "packageWeight": "1.89 kg aprox." },
+        "packageContents": ["2 bocinas", "Cable de corriente", "Control remoto", "Poliza de garantia", "Manual de usuario"],
+        "compatibility": "PC/laptop con Bluetooth, AUX 3.5 mm o USB-A; smartphone/tablet con Bluetooth.",
+        "sourceRefs": [
+          { "title": "Acteck BS630 official", "type": "manufacturer", "url": "https://acteck.com/products/dynamic-exact-bs630" },
+          { "title": "Acteck BS630 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-935869_V1.pdf?v=1693954040" },
+          { "title": "GlobalOffice BS630", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/audio-y-sonido/bocinas-bluetooth-dynamic-exact-bs630-elite-series/ac-935869" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8191" }
+        ]
+      }
+    },
+    {
+      "product_id": "mrlrw2y3tr0n8zj",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ACTECK",
+        "name": "Acteck Energon Prime CP65W cargador de pared GaN 65W 3 puertos",
+        "description": "Cargador de pared GaN de 65W con dos puertos USB-C y un puerto USB-A para cargar hasta tres dispositivos compatibles. El sitio Acteck usa nombres CE707/CP665, pero SKU/EAN y retailers lo cruzan como CP65W.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/acteck-cp65w",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/acteck-cp65w",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/energon-pro-cp665",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACT4380/ACCACT4380_full.jpg",
+          "https://static.ctonline.mx/imagenes/ACCACT4380/ACCACT4380_1_full.jpg",
+          "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-935579_1.webp?v=1723043028",
+          "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-935579_2.webp?v=1723043029"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "CP65W / Energon Prime",
+          "manufacturerSku": "AC-935579",
+          "providerSku": "ACCACT4380",
+          "ean": "7506215935579",
+          "technology": ["GaN", "USB-C PD"],
+          "ports": "2 USB-C + 1 USB-A",
+          "maxTotalOutput": "65 W",
+          "usbAOutput": "Hasta 36 W segun retailers",
+          "usbCOutput": "Hasta 65 W por puerto",
+          "input": "100-240 V 50/60 Hz",
+          "providerBranchSummary": "CTOnline stock 0; PCEL/PCLAPSC reportan stock externo en bodegas propias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCACT4380", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 337.58, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:7855" },
+            { "providerId": "pcel", "providerSku": "AC-935579", "warehouse": "bodega_externa", "country": "MX", "stock": 6, "stockStatus": "external_stock_unverified", "evidenceHash": "pcel-cp65w-2026-05-31" },
+            { "providerId": "pclapsc", "providerSku": "AC-935579", "warehouse": "centro_distribucion_mty_escobedo", "country": "MX", "stock": 5, "stockStatus": "external_stock_unverified", "evidenceHash": "pclapsc-cp65w-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "72 x 30 x 52 mm", "weight": "120 g", "alternatePackageMeasurement": "9.5 x 4 x 11 cm / 150 g en algunos retailers" },
+        "packageContents": ["1 cargador de pared"],
+        "compatibility": "Smartphones, tablets, laptops USB-C compatibles con PD hasta 65W y accesorios USB-A/USB-C.",
+        "sourceRefs": [
+          { "title": "Acteck CP665/CE707 official", "type": "manufacturer", "url": "https://acteck.com/products/energon-pro-cp665" },
+          { "title": "PCEL CP65W", "type": "retailer_stock", "url": "https://www.pcel.com/Acteck-AC-935579-Cargador-de-pared-65w-Energon-Prime-CP65W-Advanced-Series-474310" },
+          { "title": "PCLAPSC CP65W", "type": "retailer_stock", "url": "https://www.pclapsc.com/products/cargador-turbo-acteck-65w-con-tecnologia-gan-y-2-puertos-usb-c" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:7855" }
+        ]
+      }
+    },
+    {
+      "product_id": "iqhz1nm3gkbsxch",
+      "research": {
+        "confidence": 0.95,
+        "brand": "ACTECK",
+        "name": "Acteck Energon Roam CU494 cargador universal laptop 90W 12 puntas",
+        "description": "Adaptador universal para laptop con salida maxima 90W, rango 15-20 Vcc y 12 conectores intercambiables para varias marcas.",
+        "manualCategoryPath": "energia/cargadores-laptop/universales/90w/12-puntas/acteck-cu494",
+        "semanticCategoryPath": "energia/cargadores-laptop/universales/90w/12-puntas/acteck-cu494",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/cargador-universal-energon-roam-cu494-12-puntas",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACT4860/ACCACT4860_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-937191-1.webp?v=1699980378&width=2000",
+          "https://acteck.com/cdn/shop/files/AC-937191-2.webp?v=1713556597&width=2000",
+          "https://acteck.com/cdn/shop/files/AC-937191-U.webp?v=1713556597&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Energon Roam CU494",
+          "manufacturerSku": "AC-937191",
+          "providerSku": "ACCACT4860",
+          "ean": "7506215937191",
+          "maxPower": "90 W",
+          "input": "110-240 V 50/60 Hz 1.8 A",
+          "outputs": ["15 V 6 A", "16 V 5.6 A", "19 V 4.7 A", "19.5 V 4.6 A", "20 V 4.5 A"],
+          "includedTips": "12 conectores intercambiables",
+          "cableLength": "2.8 m",
+          "providerBranchSummary": "CTOnline stock 0 sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCACT4860", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 293.1, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:9099" }]
+        },
+        "measurements": { "dimensions": "130 x 55 x 30 mm", "weight": "532 g", "packageDimensions": "140 x 50 x 210 mm" },
+        "packageContents": ["Adaptador multivoltaje", "Cable de corriente alterna", "12 conectores intercambiables"],
+        "compatibility": "Laptops que usen 15-20 Vcc hasta 90W; verificar voltaje, polaridad y punta antes de conectar.",
+        "sourceRefs": [
+          { "title": "Acteck CU494 official", "type": "manufacturer", "url": "https://acteck.com/products/cargador-universal-energon-roam-cu494-12-puntas" },
+          { "title": "Acteck CU494 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-937191-MANUAL-WEB_V1.pdf?v=1699980614" },
+          { "title": "Cyberpuerta CU494", "type": "retailer_spec", "url": "https://www.cyberpuerta.mx/Energia/Energia-Computo/Cargadores-para-Laptop/Acteck-Cargador-Universal-para-Laptop-Energon-Roam-CU494-15-20V-Negro.html" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:9099" }
+        ]
+      }
+    },
+    {
+      "product_id": "mca9zmgc2vbczhg",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ACTECK",
+        "name": "Acteck Gate 6 DH660 hub USB-C 6 en 1 HDMI 4K PD 100W",
+        "description": "Hub USB-C compacto 6 en 1 con HDMI 4K@30Hz, USB-A, USB-C Power Delivery y lectores SD/TF. Se conserva nota porque Acteck copy menciona 60W y ficha/retailers indican PD 100W.",
+        "manualCategoryPath": "computo/accesorios/docks-hubs/usb-c/6-en-1/hdmi-pd-sd-tf/acteck-dh660",
+        "semanticCategoryPath": "computo/accesorios/docks-hubs/usb-c/6-en-1/hdmi-pd-sd-tf/acteck-dh660",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/hub-usb-c-gate-6-dh660",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACT4560/ACCACT4560_1_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-934619.webp?v=1691427128&width=2244",
+          "https://acteck.com/cdn/shop/files/AC-934619_HL_1.webp?v=1713304100&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934619_AC_Mockup.webp?v=1713304100&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Gate 6 DH660",
+          "manufacturerSku": "AC-934619",
+          "providerSku": "ACCACT4560",
+          "ean": "7506215934619",
+          "host": "USB-C 3.1",
+          "ports": ["USB-A 3.1 Gen1 5Gbps", "USB-A 2.0 480Mbps", "USB-C PD 3.0 hasta 100W", "HDMI 1.4 4K@30Hz", "SD 2.0", "TF/microSD 2.0"],
+          "cableLength": "15 cm",
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCACT4560", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 320.66, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8043" }]
+        },
+        "measurements": { "dimensions": "11.6 x 3.8 x 1.5 cm", "weight": "68 g", "packageDimensions": "7.7 x 2.3 x 15 cm", "packageWeight": "90 g" },
+        "packageContents": ["Hub USB-C con cable integrado"],
+        "compatibility": "Dispositivos USB-C; HDMI requiere salida de video DP Alt Mode; PD requiere cargador/equipo compatibles.",
+        "sourceRefs": [
+          { "title": "Acteck DH660 official", "type": "manufacturer", "url": "https://acteck.com/products/hub-usb-c-gate-6-dh660" },
+          { "title": "Acteck DH660 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-934619_V1.pdf?v=1694618970" },
+          { "title": "Diten DH660", "type": "retailer_spec", "url": "https://diten.mx/Hub-USB-Acteck-GATE-6-DH660-USB-C-a-HDMI-2x-USB-USB-C-Lector-TF-Lector-SD-AC-934619" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8043" }
+        ]
+      }
+    },
+    {
+      "product_id": "qewheczqv3lif3r",
+      "research": {
+        "confidence": 0.92,
+        "brand": "ACTECK",
+        "name": "Acteck Gate 8 DH675 hub USB-C 8 en 1 HDMI 4K Ethernet SD/TF",
+        "description": "Hub multipuerto USB-C 8 en 1 con HDMI 4K@30Hz, Ethernet gigabit, 3 USB-A, USB-C PD y lector SD/microSD.",
+        "manualCategoryPath": "computo/accesorios/docks-hubs/usb-c/8-en-1/hdmi-ethernet-sd-tf/acteck-dh675",
+        "semanticCategoryPath": "computo/accesorios/docks-hubs/usb-c/8-en-1/hdmi-ethernet-sd-tf/acteck-dh675",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/hub-usb-c-gate-8-dh675",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACT4550/ACCACT4550_4_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-934626_-1.webp?v=1691426872&width=2048",
+          "https://acteck.com/cdn/shop/files/AC-934626_AC_Mockup.webp?v=1713391543&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934626_HL_1.webp?v=1713391543&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Gate 8 DH675",
+          "manufacturerSku": "AC-934626",
+          "providerSku": "ACCACT4550",
+          "ean": "7506215934626",
+          "host": "USB-C 3.1 / USB 3.2 Gen 1",
+          "ports": ["3 USB-A 3.1 Gen1 5Gbps", "USB-C PD hasta 100W", "HDMI 1.4 4K@30Hz", "RJ45 gigabit", "SD 2.0", "TF/microSD 2.0"],
+          "cableLength": "15 cm",
+          "providerBranchSummary": "CTOnline stock 0; GlobalOffice solo en llegada/contactar.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCACT4550", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 600.98, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8042" },
+            { "providerId": "globaloffice", "providerSku": "AC-934626", "warehouse": "guadalajara_local", "country": "MX", "stock": null, "stockStatus": "external_arrival_pending", "evidenceHash": "globaloffice-dh675-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "14.3 x 4.73 x 1.5 cm", "weight": "72.7 g", "packageDimensions": "7.7 x 2.3 x 16.5 cm", "packageWeight": "100 g" },
+        "packageContents": ["Hub USB-C Acteck Gate 8 DH675"],
+        "compatibility": "Hosts USB-C/Thunderbolt; HDMI requiere salida de video; PD 100W requiere cargador/equipo compatibles.",
+        "sourceRefs": [
+          { "title": "Acteck DH675 official", "type": "manufacturer", "url": "https://acteck.com/products/hub-usb-c-gate-8-dh675" },
+          { "title": "Acteck DH675 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-934626_V1.pdf?v=1694616079" },
+          { "title": "GlobalOffice DH675", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/accesorios/hub-acteck-usb-c-8en1-4khdmiethernet3usb-a30sdtfusb-c-ac-934626/ac-934626" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8042" }
+        ]
+      }
+    },
+    {
+      "product_id": "r24bz66yvamthah",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ACTECK",
+        "name": "Acteck Dynamic Exact X BS660 bocinas 2.0 Bluetooth 5.3 50W",
+        "description": "Par de bocinas de escritorio 2.0 con 50W RMS, Bluetooth 5.3, entradas cableadas reportadas y luz LED multicolor.",
+        "manualCategoryPath": "audio/bocinas/computadora/2-0/bluetooth/50w/acteck-bs660",
+        "semanticCategoryPath": "audio/bocinas/computadora/2-0/bluetooth/50w/acteck-bs660",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/bocinas-para-escritorio-dynamic-exact-x-bs660",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCACT520/BOCACT520_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-939812-1.webp?v=1721664801&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939812-2.webp?v=1721664801&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939812-HL-05.webp?v=1721664820&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Dynamic Exact X BS660",
+          "manufacturerSku": "AC-939812",
+          "providerSku": "BOCACT520",
+          "ean": "7506215939812",
+          "channels": "2.0",
+          "powerRms": "50 W",
+          "frequencyResponse": "45 Hz - 20 kHz",
+          "connectivity": ["Bluetooth 5.3", "AUX/3.5 mm", "USB-A", "Optical reportado", "RCA mencionado por Acteck"],
+          "bluetoothRange": "10 m",
+          "material": "PVC + ABS",
+          "providerBranchSummary": "CTOnline stock 0; Acteck y varios retailers muestran stock externo no sincronizable.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCACT520", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 1195.91, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:10416" },
+            { "providerId": "globaloffice", "providerSku": "AC-939812", "warehouse": "almacen_mexico", "country": "MX", "stock": 6, "stockStatus": "external_stock_unverified", "evidenceHash": "globaloffice-bs660-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "10.2 x 13.7 x 25 cm", "weight": "2.8 kg", "packageDimensions": "29.5 x 25.5 x 22.5 cm" },
+        "packageContents": ["2 bocinas", "Control remoto"],
+        "compatibility": "PC/laptop/TV/consola con entrada compatible; Bluetooth 5.3; validar entradas cableadas fisicas.",
+        "sourceRefs": [
+          { "title": "Acteck BS660 official", "type": "manufacturer", "url": "https://acteck.com/products/bocinas-para-escritorio-dynamic-exact-x-bs660" },
+          { "title": "MCA BS660 ficha", "type": "manufacturer_spec", "url": "https://mcashop.mx/producto/descargar/604986" },
+          { "title": "Cyberpuerta BS660", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Audio/Bocinas/Bocinas-para-Computadora/Acteck-Bocina-para-Computadora-Dynamic-Exact-X-BS660-Alambrico-Inalambrico-2-0-Canales-50W-RMS-2-Piezas.html" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:10416" }
+        ]
+      }
+    },
+    {
+      "product_id": "olb15toaip1us3w",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ACTECK",
+        "name": "Acteck Energon Pro CE717 cargador de escritorio GaN 100W USB-C/USB-A",
+        "description": "Cargador GaN de escritorio de 100W para carga simultanea de hasta cuatro dispositivos por 2 USB-C PD y 2 USB-A QC. Acteck lo titula Energon Mate CE717; CTOnline/manual lo cruzan como Energon Pro CE717.",
+        "manualCategoryPath": "energia/cargadores-usb/escritorio-gan/100w/2c-2a/acteck-ce717",
+        "semanticCategoryPath": "energia/cargadores-usb/escritorio-gan/100w/2c-2a/acteck-ce717",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/cargador-de-escritorio-energon-mate-ce717-tecnologia-gan-carga-ultra-rapida-100w-2x-usb-c-pd-2x-usb-a-2-ac-negro",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACT5010/ACCACT5010_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-936491_1.webp?v=1713886186&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-936491_2.webp?v=1713886766&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-936491_HL-8.webp?v=1713886767&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Energon Pro CE717",
+          "manufacturerSku": "AC-936491",
+          "providerSku": "ACCACT5010",
+          "ean": "7506215936491",
+          "maxPower": "100 W",
+          "ports": "2 USB-C PD + 2 USB-A QC",
+          "input": "100-240 V 50/60 Hz 2 A",
+          "usbCOutput": "5/9/12/15 V 3 A; 20 V 5 A",
+          "usbAOutput": "5/9 V 3 A; 12 V 2.5 A",
+          "protection": ["SCP", "OCP", "OTP"],
+          "providerBranchSummary": "CTOnline stock 0; Cyberpuerta reporta stock externo no sincronizable.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCACT5010", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 637.49, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:10404" },
+            { "providerId": "cyberpuerta", "providerSku": "AC-936491", "warehouse": "online", "country": "MX", "stock": 12, "stockStatus": "external_stock_unverified", "evidenceHash": "cyberpuerta-ce717-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "4.4 x 3.7 x 10 cm", "weight": "240 g", "cableLength": "158 cm" },
+        "packageContents": ["Cargador CE717 con cable AC integrado"],
+        "compatibility": "Smartphones, tablets, laptops y dispositivos USB-C/USB-A compatibles con PD/QC.",
+        "sourceRefs": [
+          { "title": "Acteck CE717 official", "type": "manufacturer", "url": "https://acteck.com/products/cargador-de-escritorio-energon-mate-ce717-tecnologia-gan-carga-ultra-rapida-100w-2x-usb-c-pd-2x-usb-a-2-ac-negro" },
+          { "title": "Acteck CE717 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-936491_V1.pdf?v=1713884762" },
+          { "title": "Cyberpuerta CE717", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/Acteck-Cargador-de-Pared-Energon-Mate-CE717-100W-20V-2-x-USB-A-2-x-USB-C.html" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:10404" }
+        ]
+      }
+    },
+    {
+      "product_id": "dovb4ca0iqmak1p",
+      "research": {
+        "confidence": 0.96,
+        "brand": "ACTECK",
+        "name": "Acteck Ergo Tuff ER505 reposapies ajustable negro CTOnline",
+        "description": "Reposapies ergonomico ajustable para escritorio, fabricado en plastico y acero, con inclinacion -20 a 20 grados y soporte maximo de 20 kg. Esta rama confirma la oferta CTOnline ACCACT4780.",
+        "manualCategoryPath": "oficina/ergonomia/reposapies/ajustables/acteck-er505",
+        "semanticCategoryPath": "oficina/ergonomia/reposapies/ajustables/acteck-er505",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/reposapies-ergo-tuff-er505",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCACT4780/ACCACT4780_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-937313-2.webp?v=1698939290&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937313-6.webp?v=1704396538&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937313-5.webp?v=1704396538&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Ergo Tuff ER505",
+          "manufacturerSku": "AC-937313",
+          "providerSku": "ACCACT4780",
+          "ean": "7506215937313",
+          "material": "Plastico y acero",
+          "tiltRange": "-20 a 20 grados",
+          "maxSupportedWeight": "20 kg",
+          "providerBranchSummary": "CTOnline stock 0; se mantiene misma identidad que CVA batch 206.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCACT4780", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 361.68, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8826" }]
+        },
+        "measurements": { "dimensions": "400 x 300 x 99 mm", "weight": "1.5 kg", "packageDimensions": "41.5 x 11 x 32.2 cm" },
+        "packageContents": ["Reposapies Acteck Ergo Tuff ER505"],
+        "compatibility": "Uso en escritorio/oficina; apoyo ergonomico para pies; no requiere energia.",
+        "sourceRefs": [
+          { "title": "Acteck ER505 official", "type": "manufacturer", "url": "https://acteck.com/products/reposapies-ergo-tuff-er505" },
+          { "title": "Acteck ER505 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-937313_V1.pdf?v=1698939141" },
+          { "title": "GlobalOffice ER505", "type": "retailer_stock", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/accesorios-computacionales/reposapies-acteck-ergo-tuff-er505-ergonomico-ajust/ac-937313" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8826" }
+        ]
+      }
+    },
+    {
+      "product_id": "qz6nu5juhh6629a",
+      "research": {
+        "confidence": 0.88,
+        "brand": "ACTECK",
+        "name": "Acteck Dynamic Bass BW676 subwoofer activo Bluetooth 50W negro",
+        "description": "Subwoofer activo Acteck para reforzar graves en setups de audio con Bluetooth 5.0, AUX, RCA y potencia RMS 50W. El feed lo llama Lite Series, pero SKU BOCACT510 coincide con BW676 AC-939829.",
+        "manualCategoryPath": "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676",
+        "semanticCategoryPath": "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/subwoofer-tipo-estudio-dynamic-bass-bw676",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCACT510/BOCACT510_full.jpg",
+          "https://static.ctonline.mx/imagenes/BOCACT510/BOCACT510_1_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-939829-01.webp?v=1721669688&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939829-02.webp?v=1721669688&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Dynamic Bass BW676",
+          "manufacturerSku": "AC-939829",
+          "providerSku": "BOCACT510",
+          "ean": "7506215939829",
+          "productType": "Subwoofer activo",
+          "powerRms": "50 W",
+          "frequencyRecommended": "40-200 Hz",
+          "connectivity": ["Bluetooth 5.0", "AUX", "RCA"],
+          "bluetoothRange": "10 m",
+          "ipRating": "IP20",
+          "powerInput": "100-240 V 50/60 Hz",
+          "providerBranchSummary": "CTOnline stock 0; Acteck directo disponible, retailers externos variables.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCACT510", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 1051.43, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:10415" },
+            { "providerId": "mactoner", "providerSku": "BOCACT510", "warehouse": "roma_norte_cdmx", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 1886.51, "evidenceHash": "mactoner-bw676-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "16 x 16 x 32 cm recomendado; 16 x 32 x 32 cm en mayoristas", "weight": "3.7 kg", "packageDimensions": "38 x 29 x 33.5 cm" },
+        "packageContents": ["Subwoofer activo", "Adaptador 21V/1.5A mencionado en ficha"],
+        "compatibility": "Fuentes de audio Bluetooth, AUX o RCA; PC/TV/DAC/consolas con salida compatible.",
+        "sourceRefs": [
+          { "title": "Acteck BW676 official", "type": "manufacturer", "url": "https://acteck.com/products/subwoofer-tipo-estudio-dynamic-bass-bw676" },
+          { "title": "GlobalOffice BW676", "type": "retailer_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/bocinas/subwoofer-acteck-dynamic-bass-bw676-inalambrico-potencia/ac-939829" },
+          { "title": "Mactoner BW676", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/bocinas-acteck-lite-series-ac-939829-negro/" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:10415" }
+        ]
+      }
+    },
+    {
+      "product_id": "algqt8pbcw8usry",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADATA",
+        "name": "ADATA CHARGERU-0352-QCPDBK cargador de pared GaN 35W USB-C USB-A negro",
+        "description": "Cargador compacto ADATA de pared con tecnologia GaN, 35W maximos, un puerto USB-C y un puerto USB-A, carga rapida PD 3.0/QC/PPS y entrada universal 100-240V.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-chargeru-0352-qcpdbk",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-chargeru-0352-qcpdbk",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/pr/consumer/category/16/rola-charger-35w-gan-usb/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCDAT1640/ACCDAT1640_4_full.jpg",
+          "https://static.ctonline.mx/imagenes/ACCDAT1640/ACCDAT1640_5_full.jpg",
+          "https://static.ctonline.mx/imagenes/ACCDAT1640/ACCDAT1640_6_full.jpg",
+          "https://www.zegucom.com.mx/productos/CHARGERU-0352-QCPDBK/miniatura/webp/img_1.webp?v=06"
+        ],
+        "specs": {
+          "brand": "ADATA",
+          "model": "35W GaN USB Charger",
+          "manufacturerSku": "CHARGERU-0352-QCPDBK",
+          "providerSku": "ACCDAT1640",
+          "ean": "4711085949189",
+          "upc": "842243034554",
+          "ports": "1 USB-C + 1 USB-A",
+          "maxPower": "35 W",
+          "fastCharge": ["GaN", "Power Delivery 3.0", "PPS", "Quick Charge"],
+          "input": "100-240 V 50/60 Hz",
+          "usbCOutput": "5V/3A, 9V/3A, 12V/2.5A, 15V/2.33A, 20V/1.75A; PPS 3.3-11V/3A",
+          "usbAOutput": "5V/3A, 9V/2A, 10V/2.25A, 12V/1.5A",
+          "providerBranchSummary": "CTOnline stock 0; Sabware reporta 2 piezas en Suc. Centro Sabinas Hidalgo, NL.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCDAT1640", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 5.41, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:11633" },
+            { "providerId": "sabware", "providerSku": "CHARGERU-0352-QCPDBK", "warehouse": "sucursal_centro_sabinas_hidalgo_nl", "country": "MX", "stock": 2, "stockStatus": "external_stock_unverified", "priceMxn": 195, "evidenceHash": "sabware-adata-35w-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "35 x 30 x 48.4 mm", "weight": "87.5 g" },
+        "packageContents": ["Cargador de pared ADATA 35W", "No incluye cable USB"],
+        "compatibility": "Dispositivos USB-C/USB-A compatibles con PD/QC/PPS; carga rapida 35W requiere cable y dispositivo compatibles.",
+        "sourceRefs": [
+          { "title": "ADATA 35W GaN official", "type": "manufacturer", "url": "https://www.adata.com/pr/consumer/category/16/rola-charger-35w-gan-usb/" },
+          { "title": "ADATA datasheet", "type": "manufacturer_spec", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_35w_gan_usb_charger_202409121728013838.pdf" },
+          { "title": "Sabware ADATA 35W", "type": "retailer_stock", "url": "https://sabware.com/cargador-de-pared/9460-35w-cargador-pared-adata-usbc-negro-chargeru-0352-qcpdbk.html" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:11633" }
+        ]
+      }
+    }
+  ]
+}

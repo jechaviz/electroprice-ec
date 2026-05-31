@@ -398,4 +398,13 @@ export const MANUAL_CATEGORY_RULES_CYCLE003 = [
   ['audio/accesorios/bases-bocinas/aislamiento/acteck-bb400', /\b(bb400|ac[\s-]?939737|ac[\s-]?12435|7506215939737|vault acoustic.*bb400|base.*bocinas.*acteck)\b/],
   ['audio/bocinas/bluetooth/2-0/5w/acteck-bs475', /\b(bs475|ac[\s-]?936361|ac[\s-]?936378|bocact480|bocact490|7506215936361|7506215936378|dynamic exact mini.*bs475)\b/],
   ['audio/bocinas/computadora/2-1/subwoofer/60w/acteck-bs495', /\b(bs495|ac[\s-]?940832|bocact670|7506215940832|dynamic exact mini.*s[\s-]?pro.*bs495|bocinas.*acteck.*60\s?w)\b/],
+  ['audio/bocinas/computadora/2-0/bluetooth/20w/acteck-bs630', /\b(bs630|ac[\s-]?935869|bocact400|7506215935869|dynamic exact.*bs630|bocinas.*acteck.*20\s?w)\b/],
+  ['energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/acteck-cp65w', /\b(cp65w|cp665|ce707|ac[\s-]?935579|accact4380|7506215935579|energon (?:prime|pro).*(?:65\s?w|cp65w))\b/],
+  ['energia/cargadores-laptop/universales/90w/12-puntas/acteck-cu494', /\b(cu494|ac[\s-]?937191|accact4860|7506215937191|energon roam.*90\s?w|cargador universal.*(?:12|doce).*puntas)\b/],
+  ['computo/accesorios/docks-hubs/usb-c/6-en-1/hdmi-pd-sd-tf/acteck-dh660', /\b(dh660|ac[\s-]?934619|accact4560|7506215934619|gate\s?6.*dh660|acteck.*hub.*usb[\s-]?c.*(?:6|seis))\b/],
+  ['computo/accesorios/docks-hubs/usb-c/8-en-1/hdmi-ethernet-sd-tf/acteck-dh675', /\b(dh675|ac[\s-]?934626|accact4550|7506215934626|gate\s?8.*dh675|hub.*usb[\s-]?c.*(?:8|ocho).*(?:ethernet|rj45))\b/],
+  ['audio/bocinas/computadora/2-0/bluetooth/50w/acteck-bs660', /\b(bs660|ac[\s-]?939812|bocact520|7506215939812|dynamic exact x.*bs660|bocinas.*acteck.*50\s?w)\b/],
+  ['energia/cargadores-usb/escritorio-gan/100w/2c-2a/acteck-ce717', /\b(ce717|ac[\s-]?936491|accact5010|7506215936491|energon (?:pro|mate).*100\s?w|cargador.*acteck.*2x?\s?usb[\s-]?c.*2x?\s?usb[\s-]?a)\b/],
+  ['audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676', /\b(bocact510|acteck lite series)\b/],
+  ['energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-chargeru-0352-qcpdbk', /\b(chargeru[\s-]?0352[\s-]?qcpdbk|accdat1640|4711085949189|842243034554|adata.*35\s?w.*gan|35w.*adata.*usb[\s-]?c)\b/],
 ];

@@ -472,6 +472,16 @@ const batch160PlusCases = [
   ["Acteck AS470 BOCACT320 sistema sonido 2.1 6W subwoofer negro", "ACTECK", "audio/bocinas/computadora/2-1/subwoofer/acteck-as470", "audio"],
   ["Acteck BS475 BOCACT480 bocinas Bluetooth 2.0 5W negras", "ACTECK", "audio/bocinas/bluetooth/2-0/5w/acteck-bs475", "audio"],
   ["Acteck BS495 BOCACT670 bocinas 2.1 subwoofer 60W Bluetooth", "ACTECK", "audio/bocinas/computadora/2-1/subwoofer/60w/acteck-bs495", "audio"],
+  ["Acteck Dynamic Exact BS630 AC-935869 bocinas Bluetooth 2.0 20W negras", "ACTECK", "audio/bocinas/computadora/2-0/bluetooth/20w/acteck-bs630", "audio"],
+  ["Acteck CP65W AC-935579 cargador pared GaN 65W USB-C USB-A", "ACTECK", "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/acteck-cp65w", "power"],
+  ["Acteck Energon Roam CU494 AC-937191 cargador universal laptop 90W 12 puntas", "ACTECK", "energia/cargadores-laptop/universales/90w/12-puntas/acteck-cu494", "power"],
+  ["Acteck Gate 6 DH660 AC-934619 hub USB-C 6 en 1 HDMI PD SD TF", "ACTECK", "computo/accesorios/docks-hubs/usb-c/6-en-1/hdmi-pd-sd-tf/acteck-dh660", "accessories"],
+  ["Acteck Gate 8 DH675 AC-934626 hub USB-C 8 en 1 HDMI Ethernet RJ45", "ACTECK", "computo/accesorios/docks-hubs/usb-c/8-en-1/hdmi-ethernet-sd-tf/acteck-dh675", "accessories"],
+  ["Acteck Dynamic Exact X BS660 AC-939812 bocinas Bluetooth 2.0 50W", "ACTECK", "audio/bocinas/computadora/2-0/bluetooth/50w/acteck-bs660", "audio"],
+  ["Acteck Energon Pro CE717 AC-936491 cargador escritorio GaN 100W 2 USB-C 2 USB-A", "ACTECK", "energia/cargadores-usb/escritorio-gan/100w/2c-2a/acteck-ce717", "power"],
+  ["Acteck ER505 ACCACT4780 reposapies Ergo Tuff 20 kg acero plastico", "ACTECK", "oficina/ergonomia/reposapies/ajustables/acteck-er505", "accessories"],
+  ["Acteck Lite Series Dynamic Bass BW676 AC-939829 subwoofer Bluetooth 50W", "ACTECK", "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676", "audio"],
+  ["ADATA CHARGERU-0352-QCPDBK ACCDAT1640 cargador GaN 35W USB-C USB-A negro", "ADATA", "energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-chargeru-0352-qcpdbk", "power"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
