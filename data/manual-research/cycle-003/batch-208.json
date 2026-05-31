@@ -1,0 +1,260 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b208-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 208,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ms0lu7vs8p0chfn",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ADATA",
+        "name": "ADATA CHARGERU-0653-QCPDBK cargador GaN 65W USB-C USB-A negro",
+        "description": "Cargador de pared GaN de 65W color negro con dos puertos USB-C, un puerto USB-A, carga rapida PD/QC/PPS y enchufe plegable para laptops, tablets y smartphones.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/adata-chargeru-0653-qcpdbk",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/adata-chargeru-0653-qcpdbk",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.adata.com/mx/consumer/category/accessories/charger-65w-gan-usb/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCDAT1650/ACCDAT1650_full.jpg", "https://webapi3.adata.com/storage/product/65w_gan_usb_charger_pd_2000x2000_1_bk.png", "https://webapi3.adata.com/storage/product/65w_gan_usb_charger_pd_2000x2000_2_bk.png", "https://webapi3.adata.com/storage/product/65w_gan_usb_charger_pd_2000x2000_3_bk.png", "https://webapi3.adata.com/storage/product/65w_gan_usb_charger_pk_2000x2000_bk1736993237.png"],
+        "documents": [{ "label": "ADATA 65W GaN USB Charger datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_65w_gan_usb_charger_v1.pdf" }],
+        "specs": {
+          "brand": "ADATA", "model": "CHARGERU-0653-QCPDBK", "providerSku": "ACCDAT1650", "gtin": "4711085947901", "upc": "842243033434", "productType": "Cargador USB de pared", "technology": "GaN", "maxPower": "65 W", "ports": { "usbC": 2, "usbA": 1 }, "input": "100-240 V 50/60 Hz 1.5 A", "outputUsbC": "Hasta 65 W por USB-C", "outputUsbA": "Hasta 60 W por USB-A", "combinedOutput": "C1+C2 45W+20W; C1+A 45W+18W; C2+A 7.5W+7.5W; C1+(C2+A) 45W+15W", "protocols": ["USB PD 3.0", "QC 4.0", "PPS"], "color": "Negro", "plug": "Plegable", "cableIncluded": false, "safetyProtections": ["sobrecorriente", "sobrevoltaje", "sobretemperatura", "cortocircuito"], "warrantyNote": "Pagina ADATA MX indica 2 anos; datasheet 2024 indica 1 ano.", "providerBranchSummary": "CTOnline/Electroprice stock 0; sin sucursal granular publica en el feed.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCDAT1650", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 12.97, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:11766" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "53 x 52.5 x 30.43 mm", "weight": "130 g", "weightKg": 0.13 },
+        "sourceRefs": [
+          { "title": "ADATA 65W GaN USB Charger official", "type": "manufacturer", "url": "https://www.adata.com/mx/consumer/category/accessories/charger-65w-gan-usb/" },
+          { "title": "ADATA 65W GaN USB Charger datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_65w_gan_usb_charger_v1.pdf" },
+          { "title": "Staples ADATA CHARGERU-0653-QCPDBK black", "type": "marketplace", "url": "https://www.staples.com/adata-gan-charger-65w-black-chargeru-0653-qcpdbk/product_IM1970F92" },
+          { "title": "CTOnline feed ACCDAT1650 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zpkslqpbcievout",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADESSO",
+        "name": "Adesso CyberTablet K12 tableta grafica 12 x 7 pulgadas",
+        "description": "Tableta digitalizadora USB para PC y Mac con area activa 12 x 6.8 pulgadas, lapiz pasivo sin bateria, 8192 niveles de presion, rueda y 8 teclas programables.",
+        "manualCategoryPath": "computo/perifericos/tabletas-digitalizadoras/adesso-cybertablet-k12",
+        "semanticCategoryPath": "computo/perifericos/tabletas-digitalizadoras/12x7/adesso-cybertablet-k12",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://adesso.com/shop/solutions/education-solutions/cybertablet-k12/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10426535", "https://adesso.com/shop/solutions/education-solutions/cybertablet-k12/", "https://www.adesso.com.mx/wp-content/uploads/2023/12/CYBERTABLET_K12.jpg", "https://www.adesso.com.mx/wp-content/uploads/2023/12/CYBERTABLET_K12__2.jpg"],
+        "documents": [{ "label": "Adesso CyberTablet K12 datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/CYBERTABLET_K12_DS.pdf" }],
+        "specs": {
+          "brand": "ADESSO", "model": "CYBERTABLET K12", "providerSku": "AC-12105", "upc": "783750011358", "productType": "Tableta digitalizadora", "technology": "Passive EMR", "activeArea": "12 x 6.8 in; comercialmente 12 x 7 in", "pressureLevels": 8192, "resolution": "5080 LPI", "reportRate": ">=200 RPS max", "accuracy": "+/-0.01 in en area central", "hovering": "10 mm", "pen": "Passive Pen sin bateria, 2 botones", "hotkeys": 8, "scrollWheel": 1, "connector": "USB / USB Type-C cable incluido", "power": "5V por USB", "compatibility": "Windows XP/Vista/7/8/10; macOS 10.7+", "boxContents": ["CyberTablet K12", "Stylus Pen", "USB Type-C Cable", "Quick Start Guide"], "certifications": ["FCC", "IC"], "countryOfOrigin": "China", "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "AC-12105", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 116.55, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:113:AC-12105" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "360 x 255.5 x 17 mm", "weight": "1247 g", "packageDimensions": "381 x 267 x 51 mm", "packageWeight": "2.75 lb" },
+        "sourceRefs": [
+          { "title": "Adesso CyberTablet K12 official", "type": "manufacturer", "url": "https://adesso.com/shop/solutions/education-solutions/cybertablet-k12/" },
+          { "title": "Adesso CyberTablet K12 datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/CYBERTABLET_K12_DS.pdf" },
+          { "title": "CVA feed AC-12105 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "isphyob9j76myz6",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADESSO",
+        "name": "Adesso CyberTablet K8 tableta grafica 8 x 5 pulgadas",
+        "description": "Tableta digitalizadora compacta USB para PC y Mac con area activa 8 x 4.6 pulgadas, lapiz pasivo sin bateria, 8192 niveles de presion y 6 teclas programables.",
+        "manualCategoryPath": "computo/perifericos/tabletas-digitalizadoras/adesso-cybertablet-k8",
+        "semanticCategoryPath": "computo/perifericos/tabletas-digitalizadoras/8x5/adesso-cybertablet-k8",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://adesso.com/shop/solutions/education-solutions/cybertablet-k8/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10426553", "https://adesso.com/shop/solutions/education-solutions/cybertablet-k8/"],
+        "documents": [{ "label": "Adesso CyberTablet K8 datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/CYBERTABLET_K8_DS.pdf" }, { "label": "Adesso CyberTablet K8 quick guide", "type": "manual", "url": "https://download.adesso.com/User_Manuals/Cybertablet-K8-QSG.pdf" }, { "label": "CyberTablet driver", "type": "driver", "url": "https://download.adesso.com/software/PenTabletDriver_ADESSO_CyberTablet.zip" }],
+        "specs": {
+          "brand": "ADESSO", "model": "CYBERTABLET K8", "providerSku": "AC-12103", "upc": "783750011334", "productType": "Tableta digitalizadora", "technology": "Passive EMR", "activeArea": "8 x 4.6 in; comercialmente 8 x 5 in", "pressureLevels": 8192, "resolution": "5080 LPI", "reportRate": ">=200 RPS max", "accuracy": "+/-0.01 in en area central", "hovering": "10 mm", "pen": "Passive Pen sin bateria, 2 botones", "hotkeys": 6, "scrollWheel": "N/A", "connector": "USB / USB Type-C cable incluido", "power": "5V por USB", "compatibility": "Windows XP/Vista/7/8/10; macOS 10.7+", "boxContents": ["CyberTablet K8", "Stylus Pen", "USB Type-C Cable", "Quick User Guide"], "certifications": ["FCC", "IC"], "countryOfOrigin": "China", "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "AC-12103", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 71.48, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:113:AC-12103" }], "sourceDiscrepancies": ["Adesso alterna area activa 8 x 4.6 in en ficha/pagina y 8 x 4.5 in en QSG; el nombre comercial conserva 8 x 5 in."], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "259.2 x 198.3 x 10.4 mm", "weight": "1.25 lb", "packageDimensions": "11 x 8 x 1.8 in", "packageWeight": "1.75 lb" },
+        "sourceRefs": [
+          { "title": "Adesso CyberTablet K8 official", "type": "manufacturer", "url": "https://adesso.com/shop/solutions/education-solutions/cybertablet-k8/" },
+          { "title": "Adesso CyberTablet K8 datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/CYBERTABLET_K8_DS.pdf" },
+          { "title": "Adesso CyberTablet K8 quick guide", "type": "manual", "url": "https://download.adesso.com/User_Manuals/Cybertablet-K8-QSG.pdf" },
+          { "title": "CVA feed AC-12103 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ebcpztmap0rddwv",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ADESSO",
+        "name": "Adesso SCR-100 lector USB de tarjetas inteligentes CAC",
+        "description": "Lector USB 2.0 de tarjetas inteligentes de contacto, compatible con CAC, CCID, PC/SC 2.0, ISO 7816 y tarjetas clase A/B/C para autenticacion, banca y firma digital.",
+        "manualCategoryPath": "seguridad/autenticacion/lectores-smart-card/contacto-usb/adesso-scr-100",
+        "semanticCategoryPath": "seguridad/autenticacion/lectores-smart-card/contacto-usb/adesso-scr-100",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://adesso.com/shop/solutions/corporate-solutions/scr-100/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10426403", "https://adesso.com/shop/solutions/corporate-solutions/scr-100/"],
+        "documents": [{ "label": "Adesso SCR-100-TAA datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/SCR-100-TAA_DS.pdf" }],
+        "specs": {
+          "brand": "ADESSO", "model": "SCR-100", "providerSku": "LEC-151", "upc": "783750009997", "productType": "Lector de tarjetas inteligentes", "interface": "USB 2.0 full speed", "cardType": "Smart card de contacto", "standards": ["EMV 4.0 Level 1", "PBOC 2.0 Level 1", "CAC", "CCID", "CT/API", "HBCI", "PC/SC 2.0", "ISO 7816", "Microsoft WHQL", "FIPS 201", "TAA"], "protocols": ["T=0", "T=1"], "cardVoltage": ["5 V", "3 V", "1.8 V"], "features": ["Plug and Play", "USB-IF certified", "TAA compliant"], "osSupport": "Windows 2000/XP/Vista/7/8/10; Mac OS X 10.6+", "countryOfOrigin": "Taiwan / China segun ficha regional", "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "LEC-151", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 13.75, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:114:LEC-151" }], "sourceDiscrepancies": ["La pagina nueva de Adesso muestra pesos inconsistentes en comparador; se priorizan dimensiones/peso del bloque tecnico y datasheet."], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "64 x 84 x 10 mm", "weight": "60 g", "packageDimensions": "81 x 136 x 32 mm", "packageWeight": "2.6 oz" },
+        "sourceRefs": [
+          { "title": "Adesso SCR-100 official", "type": "manufacturer", "url": "https://adesso.com/shop/solutions/corporate-solutions/scr-100/" },
+          { "title": "Adesso SCR-100-TAA datasheet", "type": "datasheet", "url": "https://download.adesso.com/ds/SCR-100-TAA_DS.pdf" },
+          { "title": "CVA feed LEC-151 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bh80axfko1bny5l",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ALTER",
+        "name": "Alter EV-OMB121 cargador portatil EV Tipo 2 1.9kW 16A NEMA 5-15P",
+        "description": "Cargador de viaje regulable para vehiculos electricos con conector Tipo 2, entrada/salida 120VCA, potencia maxima 1.9kW, clavija NEMA 5-15P y selector de corriente/temporizador.",
+        "manualCategoryPath": "energia/movilidad-electrica/cargadores-ev/portatiles/tipo-2/16a/alter-ev-omb121",
+        "semanticCategoryPath": "energia/movilidad-electrica/cargadores-ev/portatiles/tipo-2/16a/alter-ev-omb121",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tecnosinergia.com/catalogo/item/EV-OMB121.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCALT010/ACCALT010_full.jpg", "https://4820964.app.netsuite.com/core/media/media.nl?id=21338121&c=4820964&h=vZn21Xe3nabO8oPJftGsOgqplDqvJFgJtKRKijHTyicAOmrn", "https://4820964.app.netsuite.com/core/media/media.nl?id=21338122&c=4820964&h=_sJed_JJ86cNbqw8UQeQe9E71eVaMAeHIdnal9Pet8RbCPgm"],
+        "documents": [{ "label": "Alter EV-OMB121 ficha tecnica", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?id=21268937&c=4820964&h=HKy_ZbouBm3h64g7vcgpnEIfdSkOFN_iErXSoZJ4OK2nAKhO&_xt=.pdf" }],
+        "specs": {
+          "brand": "ALTER", "model": "EV-OMB121", "providerSku": "ACCALT010", "alternateSku": "FPCV2ALT01", "upc": "0737787925591", "productType": "Cargador EV portatil", "connector": "Tipo 2", "inputOutput": "110-250 VCA 50/60 Hz; titulo comercial 120 VCA", "maxPower": "1.9 kW comercial; 1.92 kW en ficha tecnica", "current": "Ajustable 8/10/13/16 A", "plug": "NEMA 5-15P", "ingressProtection": "IP67", "cableLength": "5 m", "operatingTemperature": "-30 a 50 C", "storageTemperature": "-30 a 70 C", "conductor": "3 x 2.5 mm2 + 1 x 0.5 mm2", "timer": "0/2/4/6/8 h", "satCode": "26111704", "boxContents": ["cargador de viaje", "bolsa de viaje", "conector tipo pistola Tipo 2", "manual"], "providerBranchSummary": "CTOnline stock 0; Tecnosinergia externo reporta stock total 0.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCALT010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 126.13, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:12428" }, { "providerId": "tecnosinergia", "warehouse": "official_catalog_total", "country": "MX", "stock": 0, "stockStatus": "external_stock_unverified" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "chargerBody": "220 x 80 x 70 mm", "cableLength": "5 m", "packageDimensions": "39 x 10.5 x 39 cm", "packageWeight": "3.19 kg", "weight": "1.2 kg reportado por reseller" },
+        "sourceRefs": [
+          { "title": "Tecnosinergia Alter EV-OMB121", "type": "reseller_spec", "url": "https://tecnosinergia.com/catalogo/item/EV-OMB121.html" },
+          { "title": "Tecnosinergia ayuda EV-OMB121 selector", "type": "support", "url": "https://tecnosinergia.zendesk.com/hc/es/articles/32765607168027--Para-qu%C3%A9-sirve-el-bot%C3%B3n-del-cargador-port%C3%A1til-EV-OMB121" },
+          { "title": "CTOnline feed ACCALT010 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nq9qre4zkya59pm",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ALTER",
+        "name": "Alter EV-OMB281 cargador EV wallbox dual Tipo 1 y Tipo 2 7.6kW 32A IP54",
+        "description": "Estacion de carga wallbox para vehiculos BEV/PHEV con conectores duales Tipo 1 y Tipo 2, entrada/salida 120-240VCA, potencia maxima 7.6kW, proteccion IP54 y montaje fijo.",
+        "manualCategoryPath": "energia/movilidad-electrica/cargadores-ev/wallbox/dual-tipo-1-tipo-2/7-6kw-32a/alter-ev-omb281",
+        "semanticCategoryPath": "energia/movilidad-electrica/cargadores-ev/wallbox/dual-tipo-1-tipo-2/7-6kw-32a/alter-ev-omb281",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tecnosinergia.com/catalogo/item/EV-OMB281.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCALT070/ACCALT070_full.jpg", "https://4820964.app.netsuite.com/core/media/media.nl?id=21338126&c=4820964&h=wnO6XiiVFE5S8rCIt2arMs82DE7CV_NB0aNV1T1_pxBnWj0V", "https://4820964.app.netsuite.com/core/media/media.nl?id=21338128&c=4820964&h=J4UUhsg73wIMT4LVqkNUM_QipvkAW2PmNrvE3ORWodhTR7rU"],
+        "documents": [{ "label": "Alter EV-OMB281 ficha tecnica", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?id=21234117&c=4820964&h=Wk-vj8ajcVlnANYePuA2JCdYcXYL9raHReCFgW-ctM0URrhb&_xt=.pdf" }, { "label": "Tecnosinergia ayuda EV-OMB281 carga simultanea", "type": "support", "url": "https://tecnosinergia.zendesk.com/hc/es/articles/50579982964379--C%C3%B3mo-cargar-dos-autos-con-el-cargador-EV-OMB281" }],
+        "specs": {
+          "brand": "ALTER", "model": "EV-OMB281", "providerSku": "ACCALT070", "alternateSku": "FP2CPALT01", "upc": "0737787925614", "productType": "Cargador EV wallbox", "connector": "Dual Tipo 1 y Tipo 2", "inputOutput": "120-240 VCA comercial; ficha 110-250 VCA 50/60 Hz", "maxPower": "7.6 kW comercial; ficha indica 7 kW por pistola", "current": "32 A", "ingressProtection": "IP54", "cableLength": "5 m por pistola", "mode": "Activacion/detencion con tag RFID; incluye 2 tags", "installation": "Instalacion fija a interruptor o tablero electrico; sin plug/receptaculo", "installationRequirements": "Centro de carga minimo 60 A, breaker 40 A dos polos, tierra fisica obligatoria, cable minimo 8 AWG, distancia maxima 40 m", "plugIncluded": false, "satCode": "26111704", "boxContents": ["wallbox", "soporte de montaje", "2 holders", "pistolas Tipo 1 y Tipo 2", "tornilleria/taquetes", "2 tags RFID", "manual"], "sourceDiscrepancies": ["La descripcion embebida antigua dice que carga un solo vehiculo a la vez; articulo Tecnosinergia 2026-05-19 describe carga simultanea de dos autos."], "providerBranchSummary": "CTOnline stock 0; Tecnosinergia externo reporta CDMX 123, GDL 2, Merida 2, Puebla 2, Veracruz 2, Monterrey 1.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCALT070", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 292.6, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:12434" }, { "providerId": "tecnosinergia", "warehouse": "CDMX", "country": "MX", "stock": 123, "stockStatus": "external_stock_unverified" }, { "providerId": "tecnosinergia", "warehouse": "GDL", "country": "MX", "stock": 2, "stockStatus": "external_stock_unverified" }, { "providerId": "tecnosinergia", "warehouse": "MER", "country": "MX", "stock": 2, "stockStatus": "external_stock_unverified" }, { "providerId": "tecnosinergia", "warehouse": "PUE", "country": "MX", "stock": 2, "stockStatus": "external_stock_unverified" }, { "providerId": "tecnosinergia", "warehouse": "VER", "country": "MX", "stock": 2, "stockStatus": "external_stock_unverified" }, { "providerId": "tecnosinergia", "warehouse": "MTY", "country": "MX", "stock": 1, "stockStatus": "external_stock_unverified" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "chargerBody": "300 x 220 x 80 mm", "cableLength": "5 m por pistola", "packageDimensions": "44 x 44 x 18 cm", "packageWeight": "6.97 kg" },
+        "sourceRefs": [
+          { "title": "Tecnosinergia EV-OMB281", "type": "reseller_spec", "url": "https://tecnosinergia.com/catalogo/item/EV-OMB281.html" },
+          { "title": "Alter EV-OMB281 ficha tecnica", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?id=21234117&c=4820964&h=Wk-vj8ajcVlnANYePuA2JCdYcXYL9raHReCFgW-ctM0URrhb&_xt=.pdf" },
+          { "title": "GlobalOffice EV-OMB281 stock Almacen Mexico", "type": "reseller_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/cargadores-ev/cargador-de-pared-ev-omb281-alter-conector-dual-ti/ev-omb281" },
+          { "title": "CTOnline feed ACCALT070 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kk60jqi558ng6d1",
+      "research": {
+        "confidence": 0.94,
+        "brand": "APPLE",
+        "name": "Apple MD179BE/A kit adaptador VESA para iMac y Cinema/Thunderbolt Display",
+        "description": "Kit original para desmontar la base e instalar un adaptador VESA 100 x 100 mm en iMac de 24/27 pulgadas aluminio y cristal, LED Cinema Display y Apple Thunderbolt Display compatibles.",
+        "manualCategoryPath": "computo/accesorios/soportes-monitor/vesa/adaptadores-apple/md179bea",
+        "semanticCategoryPath": "computo/accesorios/soportes-monitor/vesa/adaptadores-apple/md179bea",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/shop/product/MD179BE/A/kit-de-adaptador-de-montaje-vesa-para-imac-y-led-cinema-o-apple-thunderbolt-display",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAC1880/ACCMAC1880_full.jpg", "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MC434?wid=1000&hei=1000&fmt=jpeg&qlt=95&.v=1600726108000", "https://www.cyberpuerta.mx/img/product/XL/CP-APPLE-MD179BEA-1.jpg"],
+        "specs": {
+          "brand": "APPLE", "model": "MD179BE/A", "relatedPartNumber": "MD179ZM/A", "providerSku": "ACCMAC1880", "productType": "Kit adaptador VESA", "vesa": "100 x 100 mm", "standard": "VESA MIS-D 100 version C", "color": "Plata", "compatibleModels": ["iMac 24 pulgadas aluminio y cristal", "iMac 27 pulgadas late 2009/mid 2010/mid 2011", "LED Cinema Display 24 y 27 pulgadas", "Apple Thunderbolt Display 27 pulgadas"], "notCompatible": ["iMac finales de 2012 y posteriores delgados sin kit especifico"], "included": ["Adaptador de montaje VESA", "Herramienta para desmontar la base"], "notIncluded": ["Soporte de pared", "Brazo articulado"], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica en el feed.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAC1880", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 896.87, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:3171" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "compatibleScreenSize": "24 a 27 pulgadas", "vesaPattern": "100 x 100 mm", "packageWeight": "1.55 lb / aprox. 0.70 kg", "boxDimensions": "7.2 x 6.1 x 2.4 in / aprox. 18.3 x 15.5 x 6.1 cm", "assembledDimensions": "1.53 x 5.00 x 15.30 cm" },
+        "sourceRefs": [
+          { "title": "Apple MX MD179BE/A VESA kit", "type": "manufacturer", "url": "https://www.apple.com/mx/shop/product/MD179BE/A/kit-de-adaptador-de-montaje-vesa-para-imac-y-led-cinema-o-apple-thunderbolt-display" },
+          { "title": "B&H Apple MD179ZM/A VESA Mount Adapter Kit specs", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/812536-REG/Apple_MD179ZM_A_VESA_Mount_Adaptor_Kit.html/specs" },
+          { "title": "CTOnline feed ACCMAC1880 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8488tgel67oimsi",
+      "research": {
+        "confidence": 0.92,
+        "brand": "APPLE",
+        "name": "Apple MHXH3AM/A cargador MagSafe inalambrico USB-C 1m blanco",
+        "description": "Cargador inalambrico magnetico MagSafe con cable USB-C integrado de 1m para iPhone y AirPods compatibles; requiere adaptador de corriente USB-C vendido por separado.",
+        "manualCategoryPath": "energia/cargadores-inalambricos/magneticos-magsafe/apple-magsafe-mhxh3am-a",
+        "semanticCategoryPath": "energia/cargadores-inalambricos/magneticos-magsafe/apple-magsafe-mhxh3am-a",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.apple.com/en-us/docs/iphone/300244",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAC2560/ACCMAC2560_full.jpg", "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHXH3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1603835871000", "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MHXH3_AV1?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1603835871000"],
+        "documents": [{ "label": "MagSafe Charger manuals and downloads", "type": "official_manual_index", "url": "https://support.apple.com/en-us/docs/iphone/300244" }, { "label": "MagSafe Charger info PDF", "type": "manual", "url": "https://cdsassets.apple.com/live/6GJYWVAV/information/magsafe-charger-info.pdf" }],
+        "specs": {
+          "brand": "APPLE", "model": "MHXH3AM/A", "modelNumber": "A2140", "providerSku": "ACCMAC2560", "upc": "194252192375", "productType": "Cargador inalambrico magnetico", "technology": ["MagSafe", "Qi"], "connector": "USB-C integrado", "cableLength": "1 m / 3.3 ft", "wirelessPower": "Hasta 15 W para A2140 con adaptador USB-C de 20 W o superior y condiciones compatibles", "powerAdapterRequirement": "USB-C 20 W o superior recomendado; adaptador vendido por separado", "powerAdapterIncluded": false, "color": "Blanco / plata", "compatibility": ["iPhone 12 o posterior para alineacion MagSafe", "iPhone 8 o posterior por Qi", "AirPods con estuche de carga inalambrica"], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica en el feed.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAC2560", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 787.06, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:5344" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "productDimensions": "8.23 x 8.23 x 1.83 cm", "cableLength": "1 m / 3.3 ft", "packageDimensions": "3.3 x 3.2 x 0.7 in", "packageWeight": "0.185 lb" },
+        "sourceRefs": [
+          { "title": "B&H Apple MagSafe Charger MHXH3AM/A", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1598906-REG/apple_mhxh3am_a_magsafe_charger.html/overview" },
+          { "title": "Best Buy Apple MagSafe Charger MHXH3AM/A", "type": "authorized_retailer_spec", "url": "https://www.bestbuy.com/site/apple-magsafe-iphone-charger-white/10907835.p" },
+          { "title": "CTOnline feed ACCMAC2560 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "is28r89yl7mpo6f",
+      "research": {
+        "confidence": 0.91,
+        "brand": "APPLE",
+        "name": "Apple MLUN2AM/A puntas de repuesto para Apple Pencil paquete 4",
+        "description": "Paquete de cuatro puntas de repuesto blancas para Apple Pencil, compatibles con Apple Pencil Pro, Apple Pencil USB-C, Apple Pencil 1a y 2a generacion.",
+        "manualCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/puntas-repuesto/4-pack",
+        "semanticCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/puntas-repuesto/4-pack",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/shop/product/MX763AM/A/apple-pencil-tips-4-pack",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAC1240/ACCMAC1240_full.jpg", "https://www.apple.com/shop/product/MX763AM/A/apple-pencil-tips-4-pack"],
+        "specs": {
+          "brand": "APPLE", "model": "MLUN2AM/A", "replacementPartNumber": "MX763AM/A", "providerSku": "ACCMAC1240", "productType": "Puntas de repuesto para stylus", "quantity": 4, "color": "Blanco", "compatibility": ["Apple Pencil Pro", "Apple Pencil USB-C", "Apple Pencil 2a generacion", "Apple Pencil 1a generacion"], "installation": "Punta roscada, se desenrosca y reemplaza manualmente", "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica en el feed.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAC1240", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 431.67, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:6734" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "packageQuantity": "4 puntas", "dimensions": "No publicadas por Apple" },
+        "sourceRefs": [
+          { "title": "Apple Pencil Tips 4 pack", "type": "manufacturer", "url": "https://www.apple.com/shop/product/MX763AM/A/apple-pencil-tips-4-pack" },
+          { "title": "Best Buy Apple Pencil Tips MLUN2AM/A", "type": "authorized_retailer_spec", "url": "https://www.bestbuy.com/site/apple-pencil-tips-4-pack-white/5140200.p" },
+          { "title": "CTOnline feed ACCMAC1240 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "f2etdn6emlz3k33",
+      "research": {
+        "confidence": 0.93,
+        "brand": "APPLE",
+        "name": "Apple MQLY3BE/A Apple Pencil 1a generacion con adaptador USB-C",
+        "description": "Apple Pencil de primera generacion con conectividad Bluetooth y conector Lightning, paquete regional con adaptador USB-C a Apple Pencil para enlazar y cargar con iPad A16/10a generacion.",
+        "manualCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/1-generacion-usb-c-adapter",
+        "semanticCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/1-generacion-usb-c-adapter",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.apple.com/en-asia/111920",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAC3970/ACCMAC3970_full.jpg", "https://www.bestbuy.com/site/apple-pencil-1st-generation-with-usb-c-to-pencil-adapter-white/6340401.p"],
+        "documents": [{ "label": "Apple Pencil 1st generation tech specs", "type": "manufacturer_support", "url": "https://support.apple.com/en-asia/111920" }],
+        "specs": {
+          "brand": "APPLE", "model": "MQLY3BE/A", "relatedPartNumber": "MQLY3AM/A", "providerSku": "ACCMAC3970", "upc": "194253687887", "productType": "Stylus para iPad", "generation": "1a generacion", "connectivity": "Bluetooth", "connector": "Lightning; incluye adaptador USB-C a Apple Pencil en kit regional", "features": ["precision de pixel", "sensibilidad a presion", "sensibilidad a inclinacion", "baja latencia"], "color": "Blanco", "boxContents": ["Apple Pencil", "Lightning adapter", "USB-C to Apple Pencil Adapter", "Extra tip"], "compatibility": ["iPad Pro 12.9 1a/2a gen", "iPad Pro 10.5", "iPad Pro 9.7", "iPad Air 3a gen", "iPad mini 5a gen", "iPad 6a a 10a gen / iPad A16 segun adaptador"], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica en el feed.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAC3970", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2042.22, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:7706" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "175.7 mm", "diameter": "8.9 mm", "weight": "20.7 g" },
+        "sourceRefs": [
+          { "title": "Apple Pencil 1st generation tech specs", "type": "manufacturer_support", "url": "https://support.apple.com/en-asia/111920" },
+          { "title": "Best Buy Apple Pencil 1st Generation with USB-C Adapter", "type": "authorized_retailer_spec", "url": "https://www.bestbuy.com/site/apple-pencil-1st-generation-with-usb-c-to-pencil-adapter-white/6340401.p" },
+          { "title": "CTOnline feed ACCMAC3970 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

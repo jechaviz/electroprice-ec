@@ -482,6 +482,16 @@ const batch160PlusCases = [
   ["Acteck ER505 ACCACT4780 reposapies Ergo Tuff 20 kg acero plastico", "ACTECK", "oficina/ergonomia/reposapies/ajustables/acteck-er505", "accessories"],
   ["Acteck Lite Series Dynamic Bass BW676 AC-939829 subwoofer Bluetooth 50W", "ACTECK", "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676", "audio"],
   ["ADATA CHARGERU-0352-QCPDBK ACCDAT1640 cargador GaN 35W USB-C USB-A negro", "ADATA", "energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-chargeru-0352-qcpdbk", "power"],
+  ["ADATA CHARGERU-0653-QCPDBK ACCDAT1650 cargador GaN 65W USB-C USB-A negro", "ADATA", "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/adata-chargeru-0653-qcpdbk", "power"],
+  ["Adesso CyberTablet K12 tableta grafica 12 x 7 pulgadas", "ADESSO", "computo/perifericos/tabletas-digitalizadoras/adesso-cybertablet-k12", "accessories"],
+  ["Adesso CyberTablet K8 tableta grafica 8 x 5 pulgadas", "ADESSO", "computo/perifericos/tabletas-digitalizadoras/adesso-cybertablet-k8", "accessories"],
+  ["Adesso SCR-100 lector USB de tarjetas inteligentes CAC TAA", "ADESSO", "seguridad/autenticacion/lectores-smart-card/contacto-usb/adesso-scr-100", "security"],
+  ["Alter EV-OMB121 cargador portatil EV Tipo 2 1.9kW 16A NEMA 5-15P", "ALTER", "energia/movilidad-electrica/cargadores-ev/portatiles/tipo-2/16a/alter-ev-omb121", "power"],
+  ["Alter EV-OMB281 cargador EV wallbox dual Tipo 1 y Tipo 2 7.6kW 32A IP54", "ALTER", "energia/movilidad-electrica/cargadores-ev/wallbox/dual-tipo-1-tipo-2/7-6kw-32a/alter-ev-omb281", "power"],
+  ["Apple MD179BE/A kit adaptador VESA para iMac y Cinema Thunderbolt Display", "APPLE", "computo/accesorios/soportes-monitor/vesa/adaptadores-apple/md179bea", "accessories"],
+  ["Apple MHXH3AM/A cargador MagSafe inalambrico USB-C 1m blanco", "APPLE", "energia/cargadores-inalambricos/magneticos-magsafe/apple-magsafe-mhxh3am-a", "power"],
+  ["Apple MLUN2AM/A puntas de repuesto para Apple Pencil paquete 4", "APPLE", "computo/accesorios/stylus-tablets/apple-pencil/puntas-repuesto/4-pack", "accessories"],
+  ["Apple MQLY3BE/A Apple Pencil 1a generacion con adaptador USB-C", "APPLE", "computo/accesorios/stylus-tablets/apple-pencil/1-generacion-usb-c-adapter", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
