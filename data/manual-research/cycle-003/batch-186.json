@@ -1,0 +1,422 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b186-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 186,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0b7gfjfojz7azh2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "PICO",
+        "name": "PICO Neo 3 Pro PHS-N3-P1018556 visor VR empresarial 256GB",
+        "description": "Visor VR all-in-one empresarial PICO Neo 3 Pro distribuido por PNY, con plataforma Qualcomm Snapdragon XR2, 6GB RAM, almacenamiento UFS 3.0 de 256GB, pantalla casi 4K 3664 x 1920, refresco 72/90Hz y controladores 6DoF.",
+        "manualCategoryPath": "gaming/realidad-virtual/visores/pico-neo-3-pro",
+        "semanticCategoryPath": "gaming/vr-headsets/enterprise/all-in-one/pico-neo-3-pro",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.picoxr.com/jp/products/neo3-pro-eye/specs",
+        "gallery": [
+          "https://www.picoxr.com/jp/products/neo3-pro-eye/specs",
+          "https://www.pny.com/file%20library/company/support/product%20brochures/pico/pico-neo-3/english/pico-neo3-pny.pdf"
+        ],
+        "documents": ["https://www.pny.com/file%20library/company/support/product%20brochures/pico/pico-neo-3/english/pico-neo3-pny.pdf"],
+        "specs": {
+          "brand": "PICO",
+          "model": "Neo 3 Pro",
+          "partNumber": "PHS-N3-P1018556",
+          "productType": "Visor VR empresarial all-in-one",
+          "platform": "Qualcomm Snapdragon XR2",
+          "cpu": "Qualcomm XR2 Kryo 585 octa-core hasta 2.84GHz",
+          "gpu": "Adreno 650",
+          "memory": "6GB LPDDR4X",
+          "storage": "256GB UFS 3.0",
+          "display": "5.5 pulgadas SFR TFT",
+          "resolution": "3664 x 1920",
+          "pixelDensity": "773 PPI",
+          "refreshRate": "72/90Hz",
+          "tracking": "6DoF HMD y 2 controladores 6DoF",
+          "wireless": "Wi-Fi 6 2.4/5GHz 2x2 MIMO, Bluetooth 5.1",
+          "battery": "5300mAh",
+          "ipd": "58 / 63.5 / 69 mm",
+          "operatingSystem": "Android 10",
+          "includedAccessories": ["2 controladores", "Lanyards", "AC adapter", "USB-C 2.0 data cable", "User guide"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-12013", "stock": 0, "price": 610.3, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed usa marca PNY por el canal de distribucion; la familia y ficha tecnica corresponden a PICO Neo 3 Pro."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"deviceWeightG": 395, "totalWeightG": 620, "boxDimensionsMm": "365 x 260 x 180"},
+        "sourceRefs": [
+          {"title": "PNY PICO Neo3 Pro one pager", "type": "manufacturer_distributor_pdf", "url": "https://www.pny.com/file%20library/company/support/product%20brochures/pico/pico-neo-3/english/pico-neo3-pny.pdf"},
+          {"title": "PICO Neo3 Pro specifications", "type": "manufacturer_page", "url": "https://www.picoxr.com/jp/products/neo3-pro-eye/specs"},
+          {"title": "Electroprice provider stock AC-12013", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0csv88n2zq5sn8l",
+      "research": {
+        "confidence": 0.93,
+        "brand": "QNAP",
+        "name": "QNAP QXG-100G2SF-E810 tarjeta PCIe 4.0 dual 100GbE QSFP28",
+        "description": "Tarjeta de red QNAP QXG-100G2SF-E810 para servidores y NAS, con dos puertos 100GbE QSFP28, controlador Intel Ethernet Controller E810-CAM2, PCIe 4.0 x16 y soporte FEC.",
+        "manualCategoryPath": "redes/tarjetas-red/pcie/100gbe/dual-qsfp28",
+        "semanticCategoryPath": "networking/adapters/pcie/100gbe/dual-qsfp28",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.qnap.com/en/product/qxg-100g2sf-e810",
+        "gallery": [
+          "https://www.qnap.com/en/product/qxg-100g2sf-e810",
+          "https://www.qnap.com/en-au/product/qxg-100g2sf-e810/specs/hardware"
+        ],
+        "documents": ["https://www.qnap.com/en-us/product/qxg-100g2sf-e810/specs/hardware/Dual-port%20100%20GbE%20network%20expansion%20card.pdf"],
+        "specs": {
+          "brand": "QNAP",
+          "model": "QXG-100G2SF-E810",
+          "productType": "Tarjeta de red PCIe",
+          "controller": "Intel Ethernet Controller E810-CAM2",
+          "hostInterface": "PCIe 4.0 x16",
+          "ports": "2 x QSFP28",
+          "networkSpeed": "100GbE por puerto",
+          "features": ["Forward Error Correction", "Network redundancy/failover", "Windows/Linux compatibility"],
+          "cableSupport": "QSFP28 DAC, optico o breakout QSFP28 a 4 x SFP28",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "NIC-4342", "stock": 0, "price": 1024.25, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"formFactor": "Tarjeta PCIe de perfil bajo; validar bracket incluido por region"},
+        "sourceRefs": [
+          {"title": "QNAP QXG-100G2SF-E810 product page", "type": "manufacturer_page", "url": "https://www.qnap.com/en/product/qxg-100g2sf-e810"},
+          {"title": "QNAP QXG-100G2SF-E810 hardware specs", "type": "manufacturer_datasheet", "url": "https://www.qnap.com/en-us/product/qxg-100g2sf-e810/specs/hardware/Dual-port%20100%20GbE%20network%20expansion%20card.pdf"},
+          {"title": "Electroprice provider stock NIC-4342", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0dxeugqc3dk964a",
+      "research": {
+        "confidence": 0.86,
+        "brand": "DATASHIELD",
+        "name": "DataShield PC-3705 tarjeta SNMP para inversor cargador solar hibrido",
+        "description": "Tarjeta SNMP DataShield PC-3705 color negro para monitoreo/gestion de inversor cargador solar hibrido compatible DataShield.",
+        "manualCategoryPath": "energia/solar/accesorios/tarjetas-monitoreo-snmp/inversores-hibridos",
+        "semanticCategoryPath": "energy/solar/accessories/snmp-monitoring-cards/hybrid-inverters",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://cityshop.mx/producto/tarjeta-snmp-datashield-pc-3705-tarjeta-snmp-negro-datashield-inversor-cargador-solar-hibrido",
+          "https://www.mactoner.com.mx/producto/tarjeta-snmp-datashield-pc-3705-inversor-cargador-solar-hibrido/"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "DataShield",
+          "model": "PC-3705",
+          "providerSku": "TARDTS010",
+          "productType": "Tarjeta SNMP",
+          "compatibleBrand": "DataShield",
+          "suitableFor": "Inversor cargador solar hibrido",
+          "color": "Negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "TARDTS010", "stock": 0, "price": 4426.67, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se localizo ficha oficial DataShield publica; datos publicos triangulados con distribuidores mexicanos y feed del proveedor."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"dimensions": "No publicado en fuentes abiertas", "netWeight": "No publicado en fuentes abiertas"},
+        "sourceRefs": [
+          {"title": "MacToner DataShield PC-3705", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/tarjeta-snmp-datashield-pc-3705-inversor-cargador-solar-hibrido/"},
+          {"title": "Cityshop DataShield PC-3705", "type": "retailer_spec", "url": "https://cityshop.mx/producto/tarjeta-snmp-datashield-pc-3705-tarjeta-snmp-negro-datashield-inversor-cargador-solar-hibrido"},
+          {"title": "Electroprice provider stock TARDTS010", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0eqsy5fqjol7wo5",
+      "research": {
+        "confidence": 0.9,
+        "brand": "HISENSE",
+        "name": "Hisense AH242CF minisplit estandar 2 toneladas frio/calor 230V",
+        "description": "Minisplit estandar Hisense AH242CF de 2 toneladas, 24000 BTU/h, frio/calor, 230V 60Hz, refrigerante R410A, display LED, control remoto y filtro de alta densidad.",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/minisplit/estandar/24000-btu/frio-calor-220v",
+        "semanticCategoryPath": "hvac/air-conditioners/minisplit/standard/24000-btu/heat-cool-220v",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://www.walmart.com.mx/ip/aire-acondicionado-minisplit-hisense-frio-calor-220v-24-000btu-2ton-ah242cf/00692659772840",
+          "https://www.pcel.com/hisense/Hisense-AH242CF-Mini-Split-Hisense-AH242CF-de-2-Toneladas-Frio-y-Calor-220V-No-incluye-Instalacion-Color-Blanco-461518"
+        ],
+        "documents": ["https://objects.icecat.biz/objects/mmo_110477086_1682026478_9277_20232.pdf"],
+        "specs": {
+          "brand": "Hisense",
+          "model": "AH242CF",
+          "gtin": "6926597728407",
+          "productType": "Minisplit estandar",
+          "capacity": "24000 BTU/h / 2 toneladas",
+          "function": "Frio/Calor",
+          "voltage": "230V 60Hz",
+          "coolingConsumption": "2550 W",
+          "refrigerant": "R410A",
+          "seer": "11.3 reportado por retail",
+          "features": ["Display LED", "Control remoto", "Filtro de alta densidad", "Temporizador", "Sleep", "Auto reinicio", "Deshumidificacion Golden Fin"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "AIRHSE290", "stock": 0, "price": 10207.1, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Fuentes retail alternan 220V y 230V; se conserva 230V 60Hz de la ficha publicada y se categoriza como familia 220V."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"widthCm": 99.8, "depthCm": 32.5, "heightCm": 22.6, "assembledWeightKg": 17},
+        "sourceRefs": [
+          {"title": "Walmart Hisense AH242CF", "type": "retailer_spec", "url": "https://www.walmart.com.mx/ip/aire-acondicionado-minisplit-hisense-frio-calor-220v-24-000btu-2ton-ah242cf/00692659772840"},
+          {"title": "Icecat Hisense AH242CF PDF", "type": "datasheet", "url": "https://objects.icecat.biz/objects/mmo_110477086_1682026478_9277_20232.pdf"},
+          {"title": "Electroprice provider stock AIRHSE290", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0hcqd8vzvx2crt2",
+      "research": {
+        "confidence": 0.86,
+        "brand": "IVANTI",
+        "name": "Ivanti Endpoint Manager 4ZN1N60391 licencia software de gestion endpoint",
+        "description": "Licencia de software Ivanti Endpoint Manager para gestion de dispositivos endpoint, inventario, distribucion de software, control remoto, gestion macOS, reportes y normalizacion de datos.",
+        "manualCategoryPath": "software/gestion-ti/endpoint-management/ivanti-endpoint-manager",
+        "semanticCategoryPath": "software/it-management/endpoint-management/ivanti-endpoint-manager",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ivanti.com/products/endpoint-manager",
+        "gallery": ["https://www.ivanti.com/products/endpoint-manager"],
+        "documents": ["https://rs.ivanti.com/ivi/1726/438383177316.pdf"],
+        "specs": {
+          "brand": "Ivanti",
+          "model": "Endpoint Manager",
+          "partNumber": "4ZN1N60391",
+          "providerSku": "SWS-5646",
+          "productType": "Licencia de software de gestion endpoint",
+          "capabilities": ["Software distribution", "Mac management", "Remote control", "Dashboards and reporting", "Discovery and data normalization"],
+          "licenseDelivery": "Licencia / SKU de software",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "SWS-5646", "stock": 0, "price": 8.97, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed presenta marca Lenovo; la descripcion y fuente de producto corresponden a Ivanti Endpoint Manager."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"digitalDelivery": true},
+        "sourceRefs": [
+          {"title": "Ivanti Endpoint Manager product page", "type": "manufacturer_page", "url": "https://www.ivanti.com/products/endpoint-manager"},
+          {"title": "Ivanti Endpoint Manager data sheet", "type": "manufacturer_datasheet", "url": "https://rs.ivanti.com/ivi/1726/438383177316.pdf"},
+          {"title": "Electroprice provider stock SWS-5646", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0kgcjt2l9hzhs17",
+      "research": {
+        "confidence": 0.8,
+        "brand": "EPCOM",
+        "name": "EPCOM KITEPI2K320 sistema fotovoltaico 2000W",
+        "description": "Sistema fotovoltaico EPCOM KITEPI2K320 de 2000W. Las fuentes publicas confirman modelo y potencia; no publican en abierto el listado completo de componentes del kit.",
+        "manualCategoryPath": "energia/solar/kits-fotovoltaicos/2000w",
+        "semanticCategoryPath": "energy/solar/photovoltaic-kits/2000w",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://cityshop.mx/producto/sistema-de-2000w-epcom-kitepi2k320",
+          "https://cityshop.mx/marca/epcom"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "EPCOM",
+          "model": "KITEPI2K320",
+          "providerSku": "ACCEPC220",
+          "productType": "Sistema fotovoltaico",
+          "ratedPower": "2000W",
+          "application": "Energia solar / modulos fotovoltaicos",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCEPC220", "stock": 0, "price": 2023.91, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha oficial publica con componentes; antes de prometer instalacion o autonomia validar bill of materials con proveedor."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"ratedPowerW": 2000, "dimensions": "No publicado en fuentes abiertas"},
+        "sourceRefs": [
+          {"title": "Cityshop EPCOM KITEPI2K320", "type": "retailer_spec", "url": "https://cityshop.mx/producto/sistema-de-2000w-epcom-kitepi2k320"},
+          {"title": "Cityshop EPCOM brand listing", "type": "retailer_listing", "url": "https://cityshop.mx/marca/epcom"},
+          {"title": "Electroprice provider stock ACCEPC220", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0kldfq6zoqmrryv",
+      "research": {
+        "confidence": 0.92,
+        "brand": "TRANSTECTOR",
+        "name": "Transtector I2R-SPV600-3-40 supresor sobretension 600 VDC tipo 2 DIN rail",
+        "description": "Supresor de sobretensiones Transtector I2R-SPV600-3-40 para lineas DC de energia solar o aplicaciones industriales, montaje DIN rail, tecnologia MOV, 600 VDC nominal, 800 VDC maximo, descarga nominal 20kA e Imax 40kA tipo 2.",
+        "manualCategoryPath": "energia/solar/proteccion-electrica/supresores-sobretension/600vdc",
+        "semanticCategoryPath": "energy/solar/electrical-protection/surge-protectors/600vdc",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.syscom.mx/products/94909",
+        "gallery": [
+          "https://www.syscom.mx/products/94909",
+          "https://www.radiomex.mx/i2r-spv600-3-40/"
+        ],
+        "documents": [
+          "https://ftp3.syscom.mx/usuarios/ftp/descargas/94909/I2RSPV600340_Hoja_de_especificaciones.pdf",
+          "https://ftp3.syscom.mx/usuarios/ftp/descargas/94909/I2RSPV600340_Guia_de_instalacion.pdf"
+        ],
+        "specs": {
+          "brand": "Transtector",
+          "model": "I2R-SPV600-3-40",
+          "manufacturerCode": "1104-11-100",
+          "providerSku": "ACCEPC160",
+          "productType": "Supresor de sobretensiones DC tipo 2",
+          "mounting": "DIN rail",
+          "technology": "MOV",
+          "nominalOperatingVoltage": "600 Vdc",
+          "maximumContinuousOperatingVoltage": "800 Vdc",
+          "nominalDischargeCurrent": "20 kA (8x20 us)",
+          "maximumDischargeCurrent": "40 kA tipo 2 (8x20 us)",
+          "voltageProtectionLevel": "3 kV",
+          "responseTime": "<25 ns",
+          "remoteMonitoring": "Contactos secos forma C 250 Vac/1A",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCEPC160", "stock": 0, "price": 107.14, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo etiqueta como EPCOM por canal/proveedor; las fichas publicas identifican marca TRANSTECTOR."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"listedWeightKg": 0.01},
+        "sourceRefs": [
+          {"title": "SYSCOM I2R-SPV600-3-40", "type": "manufacturer_distributor_page", "url": "https://www.syscom.mx/products/94909"},
+          {"title": "Radiomex I2R-SPV600-3-40", "type": "retailer_spec", "url": "https://www.radiomex.mx/i2r-spv600-3-40/"},
+          {"title": "Electroprice provider stock ACCEPC160", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0lancod39zhzfui",
+      "research": {
+        "confidence": 0.93,
+        "brand": "MIRATI",
+        "name": "Mirati MFA13 freidora de aire 9L doble canasta 1700W negra",
+        "description": "Freidora de aire digital Mirati MFA13 color negro, capacidad total 9L con dos canastas independientes de 4.5L, ventanas de supervision, control de temperatura 80 a 200 C, temporizador hasta 60 minutos y potencia de 1700W.",
+        "manualCategoryPath": "hogar/electrodomesticos/cocina/freidoras-aire/doble-canasta/9l",
+        "semanticCategoryPath": "home-appliances/kitchen/air-fryers/dual-basket/9l",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://miratihome.com/catalogo/electrodomesticos/freidoras-de-aire/freidora-de-aire-mirati-cap-9-litros-2-canastas-4-5-cada-una-con-ventana-de-supervision-incluye-regulacion-de-temperatura-individual-mfa13/",
+        "gallery": [
+          "https://miratihome.com/catalogo/electrodomesticos/freidoras-de-aire/freidora-de-aire-mirati-cap-9-litros-2-canastas-4-5-cada-una-con-ventana-de-supervision-incluye-regulacion-de-temperatura-individual-mfa13/",
+          "https://intercompras.com/p/freidora-aire-mirati-mfa13-aire-litros-totales-cestas-45l-w-regulacion-402825"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Mirati Home",
+          "model": "MFA13",
+          "providerSku": "FRE-9",
+          "productType": "Freidora de aire digital",
+          "capacity": "9L total",
+          "basketConfiguration": "2 canastas independientes de 4.5L",
+          "power": "1700W",
+          "temperatureRange": "80 a 200 C",
+          "timer": "Hasta 60 minutos",
+          "windows": "Ventanas de supervision",
+          "functions": "8 funciones de coccion",
+          "material": "Acero inoxidable SUS304 con recubrimiento aprobado LFGB reportado por fabricante",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "FRE-9", "stock": 0, "price": 796.75, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"capacityL": 9, "basketCapacityL": 4.5, "powerW": 1700},
+        "sourceRefs": [
+          {"title": "Mirati MFA13 product page", "type": "manufacturer_page", "url": "https://miratihome.com/catalogo/electrodomesticos/freidoras-de-aire/freidora-de-aire-mirati-cap-9-litros-2-canastas-4-5-cada-una-con-ventana-de-supervision-incluye-regulacion-de-temperatura-individual-mfa13/"},
+          {"title": "Intercompras Mirati MFA13", "type": "retailer_spec", "url": "https://intercompras.com/p/freidora-aire-mirati-mfa13-aire-litros-totales-cestas-45l-w-regulacion-402825"},
+          {"title": "Electroprice provider stock FRE-9", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0nz0bw04rck5kwa",
+      "research": {
+        "confidence": 0.92,
+        "brand": "ACTECK",
+        "name": "Acteck Energon Prime CP415 AC-937122 cargador GaN USB-C PD 20W negro",
+        "description": "Cargador de pared Acteck Energon Prime CP415 color negro, tecnologia GaN, carga rapida USB-C Power Delivery de 20W y formato compacto para dispositivos moviles.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c/20w-gan",
+        "semanticCategoryPath": "energy/chargers/usb-c-wall/20w-gan",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/cargador-de-pared-energon-prime-cp415",
+        "gallery": [
+          "https://acteck.com/products/cargador-de-pared-energon-prime-cp415",
+          "https://www.ofix.mx/cargadores-acteck-energon-prime-cp415-ac-937122/p"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Energon Prime CP415",
+          "manufacturerCode": "AC-937122",
+          "providerSku": "ACCACT5000",
+          "gtin": "7506215937122",
+          "productType": "Cargador de pared USB-C",
+          "chargingTechnology": "GaN",
+          "outputPower": "20W",
+          "port": "USB-C PD",
+          "color": "Negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCACT5000", "stock": 0, "price": 82.32, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed menciona salida 12V; la pagina Acteck resume el producto como USB-C PD 20W. Validar perfiles exactos con ficha tecnica antes de publicar voltajes por perfil."],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"dimensions": "No publicado en texto abierto", "netWeight": "No publicado en texto abierto"},
+        "sourceRefs": [
+          {"title": "Acteck Energon Prime CP415", "type": "manufacturer_page", "url": "https://acteck.com/products/cargador-de-pared-energon-prime-cp415"},
+          {"title": "Ofix Acteck CP415", "type": "retailer_spec", "url": "https://www.ofix.mx/cargadores-acteck-energon-prime-cp415-ac-937122/p"},
+          {"title": "Electroprice provider stock ACCACT5000", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0u1iq11s3supzpj",
+      "research": {
+        "confidence": 0.92,
+        "brand": "DATALOGIC",
+        "name": "Datalogic PowerScan PBT9600-HPRBK10US lector 2D industrial Bluetooth USB kit",
+        "description": "Kit lector industrial Datalogic PowerScan PBT9600-HPRBK10US, Bluetooth, motor High Performance para codigos 1D/2D, bateria removible, base BC9630-BT, cable USB, fuente y cable de corriente; sellado IP65/IP67 y resistencia a caidas de 2.5 m.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-inalambricos/industriales-powerscan-9600",
+        "semanticCategoryPath": "pos/barcode-scanners/2d-wireless/industrial/datalogic-powerscan-9600",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.datalogic.com/products/product?id=917&lang=eng",
+        "gallery": [
+          "https://www.datalogic.com/products/product?id=917&lang=eng",
+          "https://www.barcodegiant.com/datalogic/part-pbt9600-hprbk10us.htm"
+        ],
+        "documents": ["https://www.jarltech.com/sites/default/files/documents/product/datasheet/en/datalogic_pbt9600.pdf"],
+        "specs": {
+          "brand": "Datalogic",
+          "model": "PowerScan PBT9600-HP",
+          "partNumber": "PBT9600-HPRBK10US",
+          "providerSku": "LCTPSC1060",
+          "productType": "Lector industrial de codigos de barras 2D inalambrico",
+          "scanEngine": "High Performance 1D/2D area imager",
+          "connectivity": ["Bluetooth", "USB kit", "Serial/USB/Ethernet via cradle modules"],
+          "kitIncludes": ["Scanner PBT9600-HP", "Cradle BC9630-BT", "Cable CAB-552", "Power supply 8-0935", "Power cord 6003-0941"],
+          "ruggedness": "IP65/IP67, caidas de 2.5 m sobre concreto",
+          "battery": "Removible",
+          "useCases": ["Manufactura", "Almacen", "Logistica", "Inventario", "Trazabilidad"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "LCTPSC1060", "stock": 0, "price": 1073.86, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:01:23Z"
+        },
+        "measurements": {"scannerWeightG": 415, "dropResistanceM": 2.5},
+        "sourceRefs": [
+          {"title": "Datalogic PowerScan 9600 series", "type": "manufacturer_page", "url": "https://www.datalogic.com/products/product?id=917&lang=eng"},
+          {"title": "Barcode Giant PBT9600-HPRBK10US kit", "type": "retailer_spec", "url": "https://www.barcodegiant.com/datalogic/part-pbt9600-hprbk10us.htm"},
+          {"title": "Electroprice provider stock LCTPSC1060", "type": "provider_stock", "observedAt": "2026-05-31T02:01:23Z"}
+        ]
+      }
+    }
+  ]
+}

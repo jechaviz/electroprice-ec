@@ -262,6 +262,16 @@ const batch160PlusCases = [
   ["Kensington K65049WW llave maestra 5mm para MicroSaver 2.0", "KENSINGTON", "accesorios/seguridad-fisica/candados-laptop/llave/llave-maestra-microsaver-2-0", "accessories"],
   ["Newland STD30i STD100 base cuello flexible para lector codigo de barras", "NEWLAND", "punto-de-venta/lectores-codigo-barras/accesorios/bases-gooseneck", "accessories"],
   ["CDP POL-11491 poliza de servicio en sitio 10KVA garantia 3 anos", "CDP", "servicios-ti/soporte-garantias/cdp/polizas-sitio/ups-10kva", "software"],
+  ["PICO Neo 3 Pro PHS-N3-P1018556 visor VR empresarial 256GB Qualcomm XR2", "PICO", "gaming/realidad-virtual/visores/pico-neo-3-pro", "gaming"],
+  ["QNAP QXG-100G2SF-E810 tarjeta PCIe 4.0 dual 100GbE QSFP28 Intel E810", "QNAP", "redes/tarjetas-red/pcie/100gbe/dual-qsfp28", "networking"],
+  ["DataShield PC-3705 tarjeta SNMP para inversor cargador solar hibrido", "DATASHIELD", "energia/solar/accesorios/tarjetas-monitoreo-snmp/inversores-hibridos", "power"],
+  ["Hisense AH242CF minisplit estandar 2 toneladas 24000 BTU frio calor 220V", "HISENSE", "climatizacion/aires-acondicionados/minisplit/estandar/24000-btu/frio-calor-220v", "accessories"],
+  ["Ivanti Endpoint Manager 4ZN1N60391 licencia software gestion endpoint", "IVANTI", "software/gestion-ti/endpoint-management/ivanti-endpoint-manager", "software"],
+  ["EPCOM KITEPI2K320 sistema fotovoltaico 2000W", "EPCOM", "energia/solar/kits-fotovoltaicos/2000w", "power"],
+  ["Transtector I2R-SPV600-3-40 supresor sobretension 600 VDC tipo 2 DIN rail", "TRANSTECTOR", "energia/solar/proteccion-electrica/supresores-sobretension/600vdc", "power"],
+  ["Mirati MFA13 freidora de aire 9L doble canasta 1700W negra", "MIRATI", "hogar/electrodomesticos/cocina/freidoras-aire/doble-canasta/9l", "accessories"],
+  ["Acteck Energon Prime CP415 AC-937122 cargador GaN USB-C PD 20W negro", "ACTECK", "energia/cargadores-usb/pared-usb-c/20w-gan", "accessories"],
+  ["Datalogic PowerScan PBT9600-HPRBK10US lector 2D industrial Bluetooth USB kit", "DATALOGIC", "punto-de-venta/lectores-codigo-barras/2d-inalambricos/industriales-powerscan-9600", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
