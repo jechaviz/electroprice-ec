@@ -1,0 +1,915 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b192-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 192,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "2qgu080ygezourd",
+      "research": {
+        "confidence": 0.87,
+        "brand": "DELL",
+        "name": "Dell N_ANWNBM3_C1_R3 garantia Alienware X14 1Y Carry-In a 3Y Premium Support",
+        "description": "Extension de garantia Dell para notebooks Alienware X14, de 1 ano basico en centro de servicio Carry-In a 3 anos Premium Support. Servicio digital ligado a validacion de serie o Service Tag antes de aplicar.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support/alienware-x14/1y-carry-in-a-3y-premium",
+        "semanticCategoryPath": "it-services/support-warranties/dell/premium-support/alienware-x14/1y-carry-in-to-3y-premium",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contractservices/es-mx/",
+        "gallery": [
+          "https://www.sysmx.com.mx/POL-8389-N-ANWNBM3-C1-R3-DELL-POLIZAS-DE-GARANTIA",
+          "https://www.abasteo.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Premium-Support-para-Alienware-X14-M16-X14-R2-M16-R2.html",
+          "https://www.cyberpuerta.mx/Garantias-Dell-Premium-Support/"
+        ],
+        "documents": [
+          "https://www.dell.com/support/contents/en-us/article/warranty/premium-support-suite-for-pcs",
+          "https://www.dell.com/support/contractservices/es-mx/",
+          "https://i.dell.com/sites/doccontent/shared-content/services/en/Documents/dell-terms-and-conditions.pdf"
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_ANWNBM3_C1_R3",
+          "providerSku": "POL-8389",
+          "productType": "Poliza / extension de garantia",
+          "service": "1Y Carry-In to 3Y Premium Support",
+          "coverageFamily": "Dell Premium Support",
+          "targetProductFamily": "Alienware notebooks X14; distribuidores tambien listan M16, X14 R2 y M16 R2",
+          "durationYears": 3,
+          "serviceChannel": "Centro de servicio / Carry-In con soporte Premium segun disponibilidad regional",
+          "requiresSerialValidation": true,
+          "delivery": "Servicio digital vinculado a serie o clave de garantia",
+          "satCode": "81111819",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-8389",
+              "stock": 0,
+              "price": 5680,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es una poliza/servicio de garantia.",
+            "No se encontro ficha publica oficial Dell para el MPN exacto; se confirma MPN con distribuidores y condiciones generales con Dell.",
+            "La compatibilidad debe verificarse por Service Tag antes de vender o aplicar la poliza."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "digitalDelivery": true,
+          "physicalDimensions": null,
+          "weightKg": null
+        },
+        "sourceRefs": [
+          {
+            "title": "SYS MX Dell POL-8389",
+            "type": "retailer_spec",
+            "url": "https://www.sysmx.com.mx/POL-8389-N-ANWNBM3-C1-R3-DELL-POLIZAS-DE-GARANTIA"
+          },
+          {
+            "title": "Abasteo Dell N_ANWNBM3_C1_R3",
+            "type": "retailer_spec",
+            "url": "https://www.abasteo.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Premium-Support-para-Alienware-X14-M16-X14-R2-M16-R2.html"
+          },
+          {
+            "title": "Cyberpuerta Garantias Dell Premium Support",
+            "type": "retailer_spec",
+            "url": "https://www.cyberpuerta.mx/Garantias-Dell-Premium-Support/"
+          },
+          {
+            "title": "Dell Premium Support Suite for PCs",
+            "type": "manufacturer_support",
+            "url": "https://www.dell.com/support/contents/en-us/article/warranty/premium-support-suite-for-pcs"
+          },
+          {
+            "title": "Dell Mexico contract services",
+            "type": "manufacturer_support",
+            "url": "https://www.dell.com/support/contractservices/es-mx/"
+          },
+          {
+            "title": "Electroprice provider stock POL-8389",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2tfqyayeskypfft",
+      "research": {
+        "confidence": 0.8,
+        "brand": "CDP",
+        "name": "CDP UPOMODBUS tarjeta interna Modbus RS485 para UPS UPO",
+        "description": "Tarjeta interna de comunicacion CDP UPOMODBUS para equipos UPS UPO, orientada a monitoreo e integracion Modbus/RS485. Debe validarse compatibilidad con el modelo exacto de UPS antes de instalarse.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/modbus/cdp-upomodbus",
+        "semanticCategoryPath": "power/ups/accessories/communication-cards/modbus/cdp-upomodbus",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/subcategorynav.asp?allpview=list&catid=430&catn=QWNjZXNzb3JpZXM&ccoun=pr&mf=cHJvdGVjdGlvbg",
+        "gallery": [
+          "https://www.tiendaclic.mx/ver-detalle/tarjeta-interna-para-upo-cdp-upomodbus",
+          "https://cityshop.mx/producto/tarjeta-interna-para-upo-cdp-upomodbus",
+          "https://tecnocompras.com.co/equipos-para-manejo-de-energia-y-ups/1709-cdp-upomodbus.html"
+        ],
+        "documents": [
+          "https://www.cdpenergy.com/subcategorynav.asp?allpview=list&catid=430&catn=QWNjZXNzb3JpZXM&ccoun=pr&mf=cHJvdGVjdGlvbg",
+          "https://www.cdpenergy.com/prd_download_pop.asp?item_type=Manual",
+          "https://www.cdpenergy.com/prd_download_pop.asp?item_type=Catalog"
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "UPOMODBUS",
+          "providerSku": "ACCCDP290",
+          "productType": "Tarjeta interna de comunicacion para UPS",
+          "protocol": "Modbus RTU",
+          "interface": "RS485",
+          "baudRates": [2400, 4800, 9600, 19200, 38400, 57600, 115200],
+          "parityOptions": ["none", "even", "odd"],
+          "dataBits": 8,
+          "stopBits": [1, 2],
+          "slaveAddressRange": "1-247",
+          "reportedPowerInput": "9-30 VDC segun distribuidor tecnico",
+          "reportedDimensionsMm": {
+            "width": 66,
+            "height": 26,
+            "length": 95
+          },
+          "reportedWeightG": 100,
+          "compatibleFamily": "UPS CDP UPO con ranura/accesorio compatible",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCCDP290",
+              "stock": 0,
+              "price": 2761.96,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es accesorio de energia/UPS.",
+            "La pagina oficial CDP lista UPOMODBUS como accesorio, pero la ficha tecnica detallada se encontro en distribuidores; validar con CDP antes de integracion critica.",
+            "No se localizaron imagenes oficiales en alta resolucion del fabricante."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "widthMm": 66,
+          "heightMm": 26,
+          "lengthMm": 95,
+          "weightKg": 0.1,
+          "measurementSource": "Distribuidor tecnico; no confirmado por ficha oficial publica"
+        },
+        "sourceRefs": [
+          {
+            "title": "CDP Energy accessories list",
+            "type": "manufacturer_related",
+            "url": "https://www.cdpenergy.com/subcategorynav.asp?allpview=list&catid=430&catn=QWNjZXNzb3JpZXM&ccoun=pr&mf=cHJvdGVjdGlvbg"
+          },
+          {
+            "title": "CDP Energy UPOMODBUS manual downloads",
+            "type": "manufacturer_document_index",
+            "url": "https://www.cdpenergy.com/prd_download_pop.asp?item_type=Manual"
+          },
+          {
+            "title": "CDP Energy UPOMODBUS quick guide downloads",
+            "type": "manufacturer_document_index",
+            "url": "https://www.cdpenergy.com/prd_download_pop.asp?item_type=Catalog"
+          },
+          {
+            "title": "TiendaClic CDP UPOMODBUS",
+            "type": "retailer_spec",
+            "url": "https://www.tiendaclic.mx/ver-detalle/tarjeta-interna-para-upo-cdp-upomodbus"
+          },
+          {
+            "title": "Cityshop CDP UPOMODBUS",
+            "type": "retailer_spec",
+            "url": "https://cityshop.mx/producto/tarjeta-interna-para-upo-cdp-upomodbus"
+          },
+          {
+            "title": "TecnoCompras CDP UPOMODBUS technical listing",
+            "type": "retailer_technical_spec",
+            "url": "https://tecnocompras.com.co/equipos-para-manejo-de-energia-y-ups/1709-cdp-upomodbus.html"
+          },
+          {
+            "title": "Electroprice provider stock ACCCDP290",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2tgpvj45w56sq3v",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Anviz",
+        "name": "Anviz M5 Plus control de acceso exterior huella RFID WiFi Bluetooth",
+        "description": "Controlador/lector autonomo Anviz M5 Plus para control de acceso exterior, con huella digital, RFID EM 125 kHz, contrasena, WiFi, Bluetooth, TCP/IP, RS485 y proteccion IP65/IK10.",
+        "manualCategoryPath": "seguridad/control-acceso/lectores-biometricos/huella-rfid/anviz-m5-plus",
+        "semanticCategoryPath": "security/access-control/biometric-readers/fingerprint-rfid/anviz-m5-plus",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.anviz.com/product/m5plus-access-control.html",
+        "gallery": [
+          "https://www.anviz.com/file/image/3190/1000_1000/m5%20plus%20fingerprint%201.png",
+          "https://www.anviz.com/file/image/3192/1000_1000/m5%20plus%20fingerprint2.png",
+          "https://www.canalstock.mx/Product/Anviz-M5-Plus-Lector-de-control-de-acceso-basico-Negro-Plata/1026688"
+        ],
+        "documents": [
+          "https://www.anviz.com/file/download/3268/AnvizM5PlusFlyerEN2020.01.pdf"
+        ],
+        "specs": {
+          "brand": "Anviz",
+          "model": "AN-M5-PLUS",
+          "verifiedModelName": "M5 Plus",
+          "providerSku": "SOFAVZ610",
+          "productType": "Control de acceso biometrico exterior",
+          "authenticationMethods": ["Huella dactilar", "Tarjeta RFID EM 125 kHz", "Contrasena"],
+          "userCapacity": 3000,
+          "cardCapacity": 3000,
+          "recordCapacity": 50000,
+          "cpu": "Linux 1 GHz",
+          "algorithm": "BioNANO",
+          "identificationSpeed": "<0.5 s",
+          "communications": ["TCP/IP", "RS485", "Wi-Fi", "Bluetooth", "Mini USB", "Wiegand 26"],
+          "protection": ["IP65", "IK10"],
+          "powerInput": "DC 12 V",
+          "workingTemperature": "-35 C to 60 C",
+          "workingHumidity": "20% to 90%",
+          "color": "Negro/Plata",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "SOFAVZ610",
+              "stock": 0,
+              "price": 189.28,
+              "currency": "USD",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a seguridad/control de acceso.",
+            "Algunas fichas regionales reportan 100000 registros; se prioriza 50000 por ficha Anviz Global y Canalstock."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "widthMm": 50,
+          "heightMm": 124,
+          "depthMm": 34.5,
+          "weightKg": 0.45
+        },
+        "sourceRefs": [
+          {
+            "title": "Anviz M5 Plus official product page",
+            "type": "manufacturer",
+            "url": "https://www.anviz.com/product/m5plus-access-control.html"
+          },
+          {
+            "title": "Anviz M5 Plus official flyer",
+            "type": "manufacturer_document",
+            "url": "https://www.anviz.com/file/download/3268/AnvizM5PlusFlyerEN2020.01.pdf"
+          },
+          {
+            "title": "Canalstock Anviz M5 Plus",
+            "type": "retailer_spec",
+            "url": "https://www.canalstock.mx/Product/Anviz-M5-Plus-Lector-de-control-de-acceso-basico-Negro-Plata/1026688"
+          },
+          {
+            "title": "Seguridad Profesional Anviz M5Plus",
+            "type": "retailer_measurements",
+            "url": "https://www.seguridadprofesional.es/producto/anviz-m5plus-bt-wifi-mf/"
+          },
+          {
+            "title": "Electroprice provider stock SOFAVZ610",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2tomu8sutqtmdep",
+      "research": {
+        "confidence": 0.87,
+        "brand": "BACO",
+        "name": "BACO PL006 plastilina marqueta 180 g rojo No. 54",
+        "description": "Plastilina BACO en marqueta individual de 180 g color rojo No. 54, no toxica y maleable para uso escolar, arte y manualidades.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/plastilina/marqueta-180g",
+        "semanticCategoryPath": "office-supplies/school-supplies/modeling-clay/plasticine/180g-bar",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529",
+        "gallery": [
+          "https://proesa.com/cdn/shop/files/art_600074_01_1000x.jpg?v=1754170133",
+          "https://mipc.com.mx/media/catalog/product/p/a/pa-537893-m119.jpg?height=480&image-type=image&store=default&width=480",
+          "https://www.depot.tiendaclic.mx/ver-detalle/plastilina-baco-pl006"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BACO",
+          "model": "PL006",
+          "providerSku": "ACCBAC3690",
+          "productType": "Plastilina escolar",
+          "presentation": "Marqueta individual",
+          "color": "Rojo No. 54",
+          "netWeightG": 180,
+          "ean": "7501174965230",
+          "features": ["No toxica", "Maleable", "Colores brillantes", "No mancha", "Envuelta en pelicula BOPP"],
+          "origin": "Mexico",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC3690",
+              "stock": 0,
+              "price": 12.83,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "No se localizo ficha oficial directa de BACO; se verifica con distribuidores y documento gubernamental.",
+            "La categoria actual laptops es incorrecta; corresponde a papeleria/material escolar."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "netWeightKg": 0.18,
+          "physicalDimensions": null,
+          "bulkBoxDimensionsMm": {
+            "width": 340,
+            "depth": 250,
+            "height": 175,
+            "appliesTo": "Caja de 100 piezas segun distribuidor, no pieza individual"
+          },
+          "bulkBoxWeightKg": 18.7
+        },
+        "sourceRefs": [
+          {
+            "title": "Proesa Plastilina BACO PL006",
+            "type": "retailer_spec",
+            "url": "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529"
+          },
+          {
+            "title": "MiPC Plastilina BACO PL006",
+            "type": "retailer_spec",
+            "url": "https://mipc.com.mx/plastilina-baco-marqueta-180gr-rojo-no-54.html"
+          },
+          {
+            "title": "SEPTlaxcala procurement document BACO PL006",
+            "type": "public_document",
+            "url": "https://transparencia.septlaxcala.gob.mx/unidades/direccion_de_administracion_y_finanzas/departamento_de_adquisiciones/2024/ACTA-APERTURA-DE-PROP.-TEC.OMG-LPN-126.pdf"
+          },
+          {
+            "title": "Electroprice provider stock ACCBAC3690",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2uzbdc8hdrta73a",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Hisense",
+        "name": "Hisense AC242CF minisplit estandar solo frio 2 toneladas 230V blanco",
+        "description": "Minisplit estandar Hisense AC242CF de 2 toneladas, 24000 BTU/h, solo frio, 230V 60Hz, con display LED, control remoto, filtro de alta densidad, temporizador, modo Sleep, auto reinicio y Golden Fin.",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/minisplit/estandar/24000-btu/solo-frio-230v",
+        "semanticCategoryPath": "home-appliances/air-conditioning/mini-split/standard/24000-btu/cooling-only-230v",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://hisense.com.mx/AC242CF",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/MINISPLITHISENSE2ToneladaAC242CF22_AC242CF_EAN6926597727554_0-scaled-600x190.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MINISPLITHISENSE2ToneladaAC242CF22_AC242CF_EAN6926597727554_1-scaled-600x334.jpg",
+          "https://www.sanborns.com.mx/producto/574111"
+        ],
+        "documents": [
+          "https://cdn.cyberpuerta.mx/storage/articles/multimedia/AIRHSE300.pdf"
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "AC242CF",
+          "providerSku": "AIRHSE300",
+          "productType": "Minisplit estandar solo frio",
+          "coolingCapacityBtu": 24000,
+          "tons": 2,
+          "voltage": "230 V",
+          "frequencyHz": 60,
+          "coolingPowerW": 2550,
+          "coolingCurrentA": 11.1,
+          "dehumidificationLh": 2.0,
+          "airflowM3h": 1100,
+          "seer": 11.3,
+          "refrigerant": "R410A",
+          "color": "Blanco",
+          "features": ["Display LED frontal", "Control remoto", "Filtro de alta densidad", "Temporizador", "Modo Sleep", "Auto reinicio", "Golden Fin"],
+          "ean": "6926597727554",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "AIRHSE300",
+              "stock": 0,
+              "price": 8631.18,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "Algunos distribuidores publican 220V; Hisense/ficha tecnica usan 230V.",
+            "Algunas fuentes listan EAN alterno 6926597727530; se conserva el EAN del feed confirmado por CompuPuebla y Sanborns.",
+            "Medidas localizadas son de unidad interior; no se confirmaron medidas de unidad exterior."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "indoorUnitWidthCm": 113.1,
+          "indoorUnitHeightCm": 23,
+          "indoorUnitDepthCm": 31.5,
+          "indoorUnitWeightKg": 17
+        },
+        "sourceRefs": [
+          {
+            "title": "Hisense Mexico AC242CF",
+            "type": "manufacturer",
+            "url": "https://hisense.com.mx/AC242CF"
+          },
+          {
+            "title": "Cyberpuerta AIRHSE300 PDF",
+            "type": "datasheet",
+            "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/AIRHSE300.pdf"
+          },
+          {
+            "title": "CompuPuebla Hisense AC242CF",
+            "type": "retailer_spec",
+            "url": "https://compupuebla.com/producto/minisplit-hisense-ac242cf/"
+          },
+          {
+            "title": "Sanborns Hisense AC242CF",
+            "type": "retailer_spec",
+            "url": "https://www.sanborns.com.mx/producto/574111"
+          },
+          {
+            "title": "Electroprice provider stock AIRHSE300",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2wc2b964w1wyiyk",
+      "research": {
+        "confidence": 0.93,
+        "brand": "PROVISION-ISR",
+        "name": "Provision-ISR PR-JB12IP66-G caja de conexiones IP66 para camaras negra",
+        "description": "Caja de conexiones pequena impermeable IP66 Provision-ISR PR-JB12IP66-G para montaje y proteccion de conexiones en camaras AHD/IP compatibles.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip66/provision-pr-jb12ip66-g",
+        "semanticCategoryPath": "security/cctv/camera-accessories/junction-boxes/ip66/provision-pr-jb12ip66-g",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/accesories/pr-jb12ip66/",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/08/CajadeConexionesparaexteriorcompat_PRJB12IP66G_EAN0619317412682_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/08/CajadeConexionesparaexteriorcompat_PRJB12IP66G_EAN0619317412682_1-600x583.jpg",
+          "https://provision-isr.com/wp-content/uploads/2023/11/PR-JB12IP66.png"
+        ],
+        "documents": [
+          "https://provision-isr.com/wp-content/uploads/Range_File_Images/Brackets%20%26%20Junction%20Boxes%20Sketches/PR-JB12IP66.pdf"
+        ],
+        "specs": {
+          "brand": "PROVISION-ISR",
+          "model": "PR-JB12IP66-G",
+          "providerSku": "ACCPVS760",
+          "productType": "Caja de conexiones para camaras",
+          "protection": "IP66",
+          "usage": "Exterior / montaje y proteccion de conexiones",
+          "color": "Negro / antracita",
+          "compatibleCameraFamilies": ["I2", "I4", "BSV", "BSH", "BMH", "BMV", "DI-Fixed", "DI-Basic", "DAI-Fixed", "AHD/IP segun ficha"],
+          "compatibleAccessories": ["PR-WB12-G", "PR-CB12-G", "PR-WB12", "PR-CB12", "PR-B50PB", "PR-B50ECB"],
+          "ean": "0619317412682",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCPVS760",
+              "stock": 0,
+              "price": 14.79,
+              "currency": "USD",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La pagina oficial base esta bajo PR-JB12IP66; el sufijo -G corresponde a variante de color confirmada por distribuidores.",
+            "El color se publica como negro, gris o antracita segun pais; en Mexico se lista como negro.",
+            "No se confirmo material de fabricacion con consistencia suficiente."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "diameterMm": 117.9,
+          "depthMm": 47,
+          "heightWithGlandMm": 143.3,
+          "weightKg": 0.38
+        },
+        "sourceRefs": [
+          {
+            "title": "Provision-ISR PR-JB12IP66 official",
+            "type": "manufacturer",
+            "url": "https://provision-isr.com/accesories/pr-jb12ip66/"
+          },
+          {
+            "title": "Provision-ISR PR-JB12IP66 drawing",
+            "type": "manufacturer_document",
+            "url": "https://provision-isr.com/wp-content/uploads/Range_File_Images/Brackets%20%26%20Junction%20Boxes%20Sketches/PR-JB12IP66.pdf"
+          },
+          {
+            "title": "CompuPuebla Provision-ISR PR-JB12IP66-G",
+            "type": "retailer_spec",
+            "url": "https://compupuebla.com/producto/caja-de-conexiones-provision-isr-pr-jb12ip66-g/"
+          },
+          {
+            "title": "Canalstock Provision-ISR PR-JB12IP66-G",
+            "type": "retailer_spec",
+            "url": "https://www.canalstock.mx/Product/Provision-SR-PR-JB12-P66-G-accesorio-para-camara-de-seguridad-Caja-de-conexiones/1267732"
+          },
+          {
+            "title": "Electroprice provider stock ACCPVS760",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "2zq37r9qpx21dxs",
+      "research": {
+        "confidence": 0.95,
+        "brand": "ACTECK",
+        "name": "Acteck Glee Mini AP420 bocina Bluetooth TWS IPX5 5W negra",
+        "description": "Bocina portatil Acteck Glee Mini AP420 negra con Bluetooth 5.0, TWS, 5W RMS, rango 80 Hz a 20 kHz, proteccion IPX5, bateria Li-Ion hasta 6 horas y carga USB-C.",
+        "manualCategoryPath": "audio/bocinas/bluetooth/portatiles/ipx5-5w/acteck-ap420",
+        "semanticCategoryPath": "audio/speakers/bluetooth/portable/ipx5-5w/acteck-ap420",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/glee-mini-ap420",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-934978-isometrica.webp?v=1690312096&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934978-U.webp?v=1704464739&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934978_01.webp?v=1704464777&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-934978_02.webp?v=1704464779&width=1000"
+        ],
+        "documents": [
+          "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-934978_V1.pdf?v=1694447387"
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "AP420",
+          "manufacturerSku": "AC-934978",
+          "providerSku": "BOCGEN3610",
+          "productType": "Bocina Bluetooth TWS portatil",
+          "ean": "7506215934978",
+          "connectivity": "Bluetooth 5.0",
+          "bluetoothRangeM": 10,
+          "rmsPowerW": 5,
+          "frequencyResponse": "80 Hz - 20 kHz",
+          "soundType": "Estereo",
+          "tws": true,
+          "impedanceOhm": 4,
+          "waterProtection": "IPX5",
+          "color": "Negro",
+          "material": "Plastico",
+          "ports": ["USB-C para carga", "Entrada auxiliar 3.5 mm"],
+          "battery": "Li-Ion recargable hasta 6 horas",
+          "boxContents": ["Bocina", "Cable tipo C y auxiliar", "Poliza de garantia", "Manual de usuario"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "BOCGEN3610",
+              "stock": 0,
+              "price": 300.17,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "BOCGEN3610 es SKU de proveedor; el SKU oficial Acteck es AC-934978.",
+            "Sanborns reporta hasta 8 horas, pero se prioriza autonomia oficial de 6 horas."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "widthMm": 85,
+          "depthMm": 85,
+          "heightMm": 103,
+          "weightKg": 0.37,
+          "packageWeightKg": 0.4,
+          "packageDimensionsCm": {
+            "length": 37.5,
+            "width": 30,
+            "height": 12.7
+          }
+        },
+        "sourceRefs": [
+          {
+            "title": "Acteck Glee Mini AP420 official",
+            "type": "manufacturer",
+            "url": "https://acteck.com/products/glee-mini-ap420"
+          },
+          {
+            "title": "Acteck AC-934978 official datasheet",
+            "type": "manufacturer_document",
+            "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-934978_V1.pdf?v=1694447387"
+          },
+          {
+            "title": "CompuPuebla Acteck AP420",
+            "type": "retailer_spec",
+            "url": "https://compupuebla.com/producto/bocinas-acteck-ap420/"
+          },
+          {
+            "title": "Electroprice provider stock BOCGEN3610",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "31m0g1clqhes2iw",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ENSON",
+        "name": "Enson ENS-SRJ45-CAT5E plug RJ45 blindado Cat5e para cable UTP",
+        "description": "Conector plug SRJ45/RJ45 blindado categoria Cat5e Enson ENS-SRJ45-CAT5E para cable UTP blindado con ponchado tradicional, pieza individual.",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-rj45/cat5e/blindados/enson-ens-srj45-cat5e",
+        "semanticCategoryPath": "networking/structured-cabling/rj45-connectors/cat5e/shielded/enson-ens-srj45-cat5e",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ensoncable.com/producto/CBAC2ENS12",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=Rkg5ChNi3m_anWTOgverp0t4L5ud4MHTPPSe5RSCsM2d2Sjs&id=6448663",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-ENSON-ENS-SRJ45-CAT5E-1.jpg",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-ENSON-ENS-SRJ45-CAT5E-2.jpg",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-ENSON-ENS-SRJ45-CAT5E-3.jpg"
+        ],
+        "documents": [
+          "https://ensoncable.com/ENSON_catalogo.pdf"
+        ],
+        "specs": {
+          "brand": "ENSON",
+          "model": "ENS-SRJ45-CAT5E",
+          "officialCode": "CBAC2ENS12",
+          "providerSku": "ACCMVA930",
+          "productType": "Plug RJ45/SRJ45 blindado",
+          "category": "Cat5e",
+          "conductorGaugeAwg": 24,
+          "shielded": true,
+          "gender": "Macho",
+          "color": "Metalico / gris",
+          "content": "1 pieza",
+          "installation": "Ponchado tradicional",
+          "recommendedUse": "Cableado estructurado y conexiones Ethernet Cat5e",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCMVA930",
+              "stock": 0,
+              "price": 0.14,
+              "currency": "USD",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "No se localizo EAN verificable para este modelo.",
+            "ACCMVA930 parece SKU interno de proveedor; el modelo de fabricante es ENS-SRJ45-CAT5E.",
+            "La longitud de 30 mm solo se encontro en distribuidor, no en fuente oficial."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "connectorLengthMm": 30,
+          "lengthSource": "FullOffice; no confirmado por fuente oficial",
+          "weightKg": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Enson ENS-SRJ45-CAT5E official",
+            "type": "manufacturer",
+            "url": "https://ensoncable.com/producto/CBAC2ENS12"
+          },
+          {
+            "title": "Enson official catalog",
+            "type": "manufacturer_document",
+            "url": "https://ensoncable.com/ENSON_catalogo.pdf"
+          },
+          {
+            "title": "Cyberpuerta Enson ENS-SRJ45-CAT5E",
+            "type": "retailer_spec",
+            "url": "https://www.cyberpuerta.mx/Computo-Hardware/Cables/Accesorios-para-Cables/Conectores/Enson-Conector-Cat5e-RJ-45-Gris.html"
+          },
+          {
+            "title": "FullOffice Enson ENS-SRJ45-CAT5E",
+            "type": "retailer_measurements",
+            "url": "https://fulloffice.com/products/conector-plug-srj45-blindado-cat5e-enson-ens-srj45-cat5e-para-cable-utp-blindado-ponchado-tradicional"
+          },
+          {
+            "title": "Electroprice provider stock ACCMVA930",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "31udb9lfxbx0eub",
+      "research": {
+        "confidence": 0.88,
+        "brand": "ALTER",
+        "name": "Alter EV-OMB141 cargador portatil EV Tipo 2 1.92kW 16A NEMA 5-15P",
+        "description": "Cargador portatil/de viaje Alter EV-OMB141 para vehiculos electricos con conector Tipo 2, clavija NEMA 5-15P, entrada 110-250 VCA, potencia maxima 1.92 kW, salida 16 A, cable de 5 m e indice IP67.",
+        "manualCategoryPath": "energia/movilidad-electrica/cargadores-ev/portatiles/tipo-2/16a/alter-ev-omb141",
+        "semanticCategoryPath": "power/electric-mobility/ev-chargers/portable/type-2/16a/alter-ev-omb141",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://bsai.com.mx/products/cargador-de-viaje-ev-omb141-alter-conector-tipo-2-con-entrada-salida-120vca-potencia-max-1-92kw-con-clavija-universal-tipo-nema-5-15p",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2025/05/ACCALT020_full-600x600.jpg",
+          "https://bsai.com.mx/cdn/shop/files/CARGADOR-DE-VIAJE-EV-OMB141-ALTER-CONECTOR-TIPO-2-CON-ENTRADA-SALIDA-120VCA-POTENCIA-MAX-1.92KW-CON-CLAVIJA-UNIVERSAL-TIPO-NEMA-5-15P-ALTER-158467928.png?v=1758476135&width=1946",
+          "https://globaloffice.com.mx/app/detalle/producto/cargadores-ev/cargador-de-viaje-ev-omb141-alter-conector-tipo-2/ev-omb141"
+        ],
+        "documents": [
+          "https://bsai.com.mx/cdn/shop/files/1735259254925_ficha_676df466a33e4.pdf?v=2997018379446760373"
+        ],
+        "specs": {
+          "brand": "ALTER",
+          "model": "EV-OMB141",
+          "providerSku": "ACCALT020",
+          "alternateSku": "FPCV2ALT02",
+          "productType": "Cargador portatil EV",
+          "evConnector": "Tipo 2",
+          "plug": "NEMA 5-15P",
+          "maxPowerKw": 1.92,
+          "inputVoltage": "110-250 VCA, 50/60 Hz",
+          "outputCurrentA": 16,
+          "color": "Negro",
+          "protection": "IP67",
+          "cableLengthM": 5,
+          "conductor": "3 x 2.5 mm2 + 1 x 0.5 mm2",
+          "boxContents": ["Cargador de viaje", "Bolsa de viaje", "Conector tipo pistola Tipo 2", "Taquete", "Manual"],
+          "satCode": "26111704",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCALT020",
+              "stock": 0,
+              "price": 117.33,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a cargador EV portatil.",
+            "ACCALT020 es SKU de canal; el producto circula tambien como EV-OMB141 y FPCV2ALT02.",
+            "Hay discrepancia de dimensiones entre fichas; se prioriza 220 x 98 x 48 mm como cuerpo del cargador en ficha Rev. 2.0/BSAI."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "chargerLengthMm": 220,
+          "chargerWidthMm": 98,
+          "chargerHeightMm": 48,
+          "publishedWeightKg": 3.35
+        },
+        "sourceRefs": [
+          {
+            "title": "MacToner Alter EV-OMB141",
+            "type": "retailer_spec",
+            "url": "https://www.mactoner.com.mx/producto/cargadores-alter-ev-omb141-negro/"
+          },
+          {
+            "title": "BSAI Alter EV-OMB141",
+            "type": "retailer_spec",
+            "url": "https://bsai.com.mx/products/cargador-de-viaje-ev-omb141-alter-conector-tipo-2-con-entrada-salida-120vca-potencia-max-1-92kw-con-clavija-universal-tipo-nema-5-15p"
+          },
+          {
+            "title": "BSAI Alter EV-OMB141 ficha tecnica",
+            "type": "datasheet",
+            "url": "https://bsai.com.mx/cdn/shop/files/1735259254925_ficha_676df466a33e4.pdf?v=2997018379446760373"
+          },
+          {
+            "title": "Tecnosinergia help EV-OMB141",
+            "type": "technical_article",
+            "url": "https://tecnosinergia.zendesk.com/hc/es/articles/32765607168027--Para-qu%C3%A9-sirve-el-bot%C3%B3n-del-cargador-port%C3%A1til-EV-OMB121"
+          },
+          {
+            "title": "Electroprice provider stock ACCALT020",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "35ku3nx0l1zj0xk",
+      "research": {
+        "confidence": 0.86,
+        "brand": "DELL",
+        "name": "Dell N_INSPNBL5_C1_C3 garantia Inspiron 2 en 1 1Y Carry-In a 3Y Carry-In",
+        "description": "Extension de garantia Dell para notebooks Inspiron 2 en 1, de 1 ano basico en centro de servicios Carry-In a 3 anos en centro de servicios Carry-In. Servicio digital sujeto a validacion de serie/Service Tag.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/carry-in/inspiron-2-en-1/1y-a-3y",
+        "semanticCategoryPath": "it-services/support-warranties/dell/carry-in/inspiron-2-in-1/1y-to-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contractservices/es-mx/",
+        "gallery": [
+          "https://compuviper.mx/tienda/wp-content/uploads/2024/09/Poliza-de-garantia-dell-para-inspiron-notebooks-inspiron-7430-2-in-1-de-1-ano-incluido-en-centro-de-servicios-a-3-anos-en-centro-de-servicios-carry-in.jpg",
+          "https://cityshop.mx/producto/poliza-de-garantia-dell-para-inspiron-notebooks-inspiron-7430-2-in-1-de-1-ano-incluido-en-centro",
+          "https://www.aztecacompras.com/mx0000101600-dell-n-inspnbl5-c1-c3-actualizaci-n-de-1-a-o-carry-in-a-3-a-os.html"
+        ],
+        "documents": [
+          "https://www.dell.com/support/contractservices/es-mx/",
+          "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf"
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_INSPNBL5_C1_C3",
+          "providerSku": "POL-9447",
+          "productType": "Poliza / extension de garantia",
+          "service": "Actualizacion de garantia basica Carry-In de 1 ano a 3 anos",
+          "serviceType": "Carry-In / centro de servicios",
+          "durationYears": 3,
+          "serviceHours": "8x5",
+          "includedService": "Piezas y mano de obra",
+          "phoneSupport": true,
+          "webSupport": true,
+          "troubleshooting": true,
+          "partsReplacement": true,
+          "satCode": "81111819",
+          "reportedCompatibility": ["Inspiron 7430 2-in-1", "Inspiron 14 7440 2-in-1"],
+          "requiresSerialValidation": true,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-9447",
+              "stock": 0,
+              "price": 1675.73,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es una poliza/servicio de garantia.",
+            "No se encontro ficha publica oficial Dell para el MPN exacto; se validan terminos generales con Dell y MPN con distribuidores.",
+            "Existe conflicto de compatibilidad entre 7430 2-in-1 y 7440 2-in-1; confirmar por Service Tag antes de vender."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "digitalDelivery": true,
+          "physicalDimensions": null,
+          "weightKg": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Compuviper Dell N_INSPNBL5_C1_C3",
+            "type": "retailer_spec",
+            "url": "https://compuviper.mx/tienda/producto/dell-n_inspnbl5_c1_c3-poliza-de-garantia-para-inspiron-notebooks-inspiron-7430-2-in-1-de-1-ao-basico-en-centro-de-servicios-carry-in-a-3-aos-en-centro-de-servicios-carry-in-conf-comp-de-ser/"
+          },
+          {
+            "title": "AztecaCompras Dell N_INSPNBL5_C1_C3",
+            "type": "retailer_spec",
+            "url": "https://www.aztecacompras.com/mx0000101600-dell-n-inspnbl5-c1-c3-actualizaci-n-de-1-a-o-carry-in-a-3-a-os.html"
+          },
+          {
+            "title": "Dell Mexico contract services",
+            "type": "manufacturer_support",
+            "url": "https://www.dell.com/support/contractservices/es-mx/"
+          },
+          {
+            "title": "Dell Basic Hardware Service description",
+            "type": "manufacturer_document",
+            "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf"
+          },
+          {
+            "title": "Electroprice provider stock POL-9447",
+            "type": "provider_stock",
+            "observedAt": "2026-05-31T12:00:00Z"
+          }
+        ]
+      }
+    }
+  ]
+}

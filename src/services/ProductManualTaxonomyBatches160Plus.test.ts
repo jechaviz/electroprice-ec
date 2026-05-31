@@ -322,6 +322,16 @@ const batch160PlusCases = [
   ["Azor Vision Plus 2600RS resaltador rosa fluorescente caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/resaltadores/rosa/12-piezas/azor-2600rs", "accessories"],
   ["Baco G-30 goma blanca mediana para escuela y oficina", "BACO", "oficina/papeleria/material-escolar/borradores/blancos/baco-g30", "accessories"],
   ["Hune AT-ACC-WI-001BOS cargador inalambrico Hoja 10W verde", "HUNE", "energia/cargadores-inalambricos/10w/hune-hoja", "power"],
+  ["Dell N_ANWNBM3_C1_R3 garantia Alienware X14 1Y Carry-In a 3Y Premium Support", "DELL", "servicios-ti/soporte-garantias/dell/premium-support/alienware-x14/1y-carry-in-a-3y-premium", "software"],
+  ["CDP UPOMODBUS tarjeta interna Modbus RS485 para UPS UPO", "CDP", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/modbus/cdp-upomodbus", "power"],
+  ["Anviz M5 Plus control de acceso exterior huella RFID WiFi Bluetooth", "ANVIZ", "seguridad/control-acceso/lectores-biometricos/huella-rfid/anviz-m5-plus", "security"],
+  ["BACO PL006 plastilina marqueta 180 g rojo No. 54", "BACO", "oficina/papeleria/material-escolar/plastilina/marqueta-180g", "accessories"],
+  ["Hisense AC242CF minisplit estandar solo frio 2 toneladas 230V blanco", "HISENSE", "climatizacion/aires-acondicionados/minisplit/estandar/24000-btu/solo-frio-230v", "accessories"],
+  ["Provision-ISR PR-JB12IP66-G caja de conexiones IP66 para camaras negra", "PROVISION-ISR", "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip66/provision-pr-jb12ip66-g", "security"],
+  ["Acteck Glee Mini AP420 bocina Bluetooth TWS IPX5 5W negra", "ACTECK", "audio/bocinas/bluetooth/portatiles/ipx5-5w/acteck-ap420", "audio"],
+  ["Enson ENS-SRJ45-CAT5E plug RJ45 blindado Cat5e para cable UTP", "ENSON", "redes/cableado-estructurado/conectores-rj45/cat5e/blindados/enson-ens-srj45-cat5e", "networking"],
+  ["Alter EV-OMB141 cargador portatil EV Tipo 2 1.92kW 16A NEMA 5-15P", "ALTER", "energia/movilidad-electrica/cargadores-ev/portatiles/tipo-2/16a/alter-ev-omb141", "power"],
+  ["Dell N_INSPNBL5_C1_C3 garantia Inspiron 2 en 1 1Y Carry-In a 3Y Carry-In", "DELL", "servicios-ti/soporte-garantias/dell/carry-in/inspiron-2-en-1/1y-a-3y", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
