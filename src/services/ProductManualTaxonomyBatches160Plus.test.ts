@@ -432,6 +432,16 @@ const batch160PlusCases = [
   ["Hisense RR33D6AGX1 frigobar compacto 3.3 pies plata", "HISENSE", "hogar/electrodomesticos/refrigeradores/frigobares/3-3-pies/hisense-rr33d6agx1", "accessories"],
   ["EPCOM XP16DC204K fuente CCTV 16 salidas 11-15 VDC 20A", "EPCOM", "seguridad/cctv/accesorios-alimentacion/fuentes-12v/16-salidas-20a/epcom-xp16dc204k", "cameras"],
   ["Janel Memo Tip 6560303704 notas adhesivas amarillas 3x3 paquete 6", "JANEL", "oficina/papeleria/notas-adhesivas/3x3/amarillas/janel-memo-tip-6560303704-6p", "accessories"],
+  ["Mobifree MB-923408 power bank 8000 mAh carga inalambrica Qi negro verde", "MOBIFREE", "energia/baterias-portatiles/power-banks/8000mah/carga-inalambrica/mobifree-mb-923408", "power"],
+  ["Topaz P-ET110-HN pluma de reemplazo e-tether mini-plug negro", "TOPAZ", "punto-de-venta/digitalizadores-firma/accesorios/plumas/topaz-p-et110-hn", "accessories"],
+  ["Kensington K65042M MicroSaver 2.0 candado laptop llave maestra 10mm", "KENSINGTON", "accesorios/seguridad-fisica/candados-laptop/llave/microsaver-2-0-master-k65042m", "accessories"],
+  ["GEO 005 caja archivo carton oficio 50x35x25 paquete 20 piezas", "GEO", "oficina/papeleria/archivo/cajas-archivo/oficio/20-piezas/geo-005", "accessories"],
+  ["Janel Memo Tip 6590202297 notas adhesivas neon 2x2 400 hojas", "JANEL", "oficina/papeleria/notas-adhesivas/2x2/neon/janel-memo-tip-6590202297-400h", "accessories"],
+  ["BACO 65469 crayones redondos surtidos caja 24 piezas", "BACO", "oficina/papeleria/material-escolar/dibujo-arte/crayones/baco-redondos-65469-24p", "accessories"],
+  ["Kodak Alaris S3060 escaner documental ADF 60 ppm 25000 paginas", "KODAK", "impresion/escaneres/documentales/adf/alto-volumen/kodak-s3060", "printers_scanners"],
+  ["BACO 5470 juego de geometria escolar con compas", "BACO", "oficina/papeleria/material-escolar/juegos-geometria/con-compas/baco-5470", "accessories"],
+  ["BACO PL007 plastilina marqueta 180 g verde claro no 55", "BACO", "oficina/papeleria/material-escolar/plastilina/marqueta-180g/verde-claro/baco-pl007", "accessories"],
+  ["Lenovo Tab M8 4a Gen TB300FU ZABU0027MX 8 pulgadas 3GB 32GB", "LENOVO", "computo/tabletas/android/8-pulgadas/lenovo-tab-m8-4gen-tb300fu", "tablets"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
