@@ -1,0 +1,298 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b196-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 196,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "41d9kcbuqns29f7",
+      "research": {
+        "confidence": 0.91,
+        "brand": "CYBERPOWER",
+        "name": "CyberPower BP48V75ART2U modulo bateria externa UPS 48V 2U",
+        "description": "Modulo externo de baterias CyberPower BP48V75ART2U para extender tiempo de respaldo en UPS rack/torre compatibles PR/OR LCDRTXL, con bateria SLA 48V y formato 2U.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/48v/cyberpower-bp48v75art2u",
+        "semanticCategoryPath": "energia/ups/accesorios/bancos-baterias/rack-torre/48v/cyberpower-bp48v75art2u",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/ups/extended-battery-modules/bp48v75art2u/",
+        "gallery": [
+          "https://www.cyberpowersystems.com/wp-content/uploads/2025/09/bp48v75art2u-front-horizontal-photo-1-1024x1024.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2025/09/bp48v75art2u-front-horizontal-left-photo-1-1024x1024.jpg",
+          "https://www.cyberpowersystems.com/wp-content/uploads/2025/09/bp48v75art2u-back-horizontal-photo-1-1024x1024.jpg"
+        ],
+        "specs": {
+          "brand": "CYBERPOWER", "model": "BP48V75ART2U", "providerSku": "BP48V75ART2U",
+          "productType": "Modulo externo de bateria UPS rack/torre", "manufacturerStatus": "Discontinued",
+          "dcVoltage": "48 VDC", "currentRating": "75 A", "rackHeight": "2U",
+          "battery": "8 baterias SLA 12V 9Ah", "hotSwappable": true, "userReplaceable": true,
+          "rechargeTime": "8 h", "certifications": ["RoHS", "UL1778"], "warranty": "3 anos limitada",
+          "compatibleUps": ["OR1500LCDRTXL2U", "OR2200LCDRTXL2U", "PR1000LCDRTXL2UA", "PR1500LCDRTXL2U", "PR2200LCDRTXL2U", "PR3000LCDRT2U", "PR3000LCDRTXL2U"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}],
+          "sourceDiscrepancies": ["La categoria laptops era incorrecta; es accesorio de energia/UPS.", "CyberPower lo reporta descontinuado, conservar como candidato de obsolescencia si no vuelve a aparecer en proveedores."]
+        },
+        "measurements": {"dimensions": "438 x 89 x 495 mm", "weight": "30.39 kg", "packageDimensions": "553.97 x 244.6 x 609.6 mm", "packageWeight": "38.33 kg", "widthMm": 438, "heightMm": 89, "depthMm": 495, "weightKg": 30.39},
+        "sourceRefs": [
+          {"title": "CyberPower BP48V75ART2U official", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/extended-battery-modules/bp48v75art2u/"},
+          {"title": "CyberPower BP48V75ART2U datasheet", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/extended-battery-modules/bp48v75art2u/"}
+        ]
+      }
+    },
+    {
+      "product_id": "41ny3l43w695ak5",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HP",
+        "name": "HP 744 F9J86A cabezal DesignJet Photo Black/Cyan",
+        "description": "Cabezal de impresion HP 744 F9J86A para plotters DesignJet, colores negro fotografico y cian, tecnologia HP Thermal Inkjet TIJ 4.0.",
+        "manualCategoryPath": "impresion/refacciones/cabezales/inkjet/hp-designjet-744/f9j86a-photo-black-cyan",
+        "semanticCategoryPath": "impresion/refacciones/cabezales/inkjet/designjet/hp-744/f9j86a-photo-black-cyan",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/hp-744-photo-black-cyan-designjet-printhead-f9j86a",
+        "gallery": ["https://hp.widen.net/content/u1tzbomc7b/webp/u1tzbomc7b.png?color=ffffff00&dpi=72&h=430&w=573"],
+        "specs": {
+          "brand": "HP", "model": "744", "providerSku": "F9J86A", "selectability": "744",
+          "productType": "Cabezal de impresion inkjet", "colors": ["Photo Black", "Cyan"],
+          "printTechnology": "HP Thermal Inkjet", "resolutionTechnology": "TIJ 4.0",
+          "nozzles": 2112, "dropSize": "4 pl", "inkType": "Pigment-based", "swath": "0.875 in",
+          "compatiblePrinters": ["HP DesignJet Z2600 PostScript", "HP DesignJet Z5600 PostScript"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}]
+        },
+        "measurements": {"packageDimensions": "28 x 143 x 132 mm", "weight": "0.08 kg", "packageWeight": "0.11 kg", "weightKg": 0.08, "operatingTemperature": "15 a 35 C", "operatingHumidity": "20 a 80% RH"},
+        "sourceRefs": [
+          {"title": "HP 744 Photo Black/Cyan DesignJet Printhead", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-744-photo-black-cyan-designjet-printhead-f9j86a"},
+          {"title": "HP product specifications F9J86A", "type": "manufacturer", "url": "https://www.hp.com/ng-en/products/ink-toner/product-details/product-specifications/10522060"}
+        ]
+      }
+    },
+    {
+      "product_id": "42a797rle26sjrw",
+      "research": {
+        "confidence": 0.9,
+        "brand": "PCM",
+        "name": "PCM DS00232000B Data Stock papel continuo 9.5 x 5.5 3 tantos",
+        "description": "Papel stock continuo PCM Data Stock DS00232000B blanco, 9.5 x 5.5 pulgadas, 3 tantos con papel carbon intercalado, caja con 2000 juegos.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/3-tantos/pcm-ds00232000b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/3-tantos",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Papeles-para-Impresoras/Papel-Stock/PCM-Papel-Stock-3-Tantos-2000-Hojas-de-9-5-x-5-5-Blanco.html",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-PCM-DS00232000B-c2a8ec.jpg", "https://www.exel.com.mx/imgProducto/PMPPAPAD079.png"],
+        "specs": {
+          "brand": "PCM", "model": "DS00232000B", "providerSku": "DS00232000B", "gtin": "7501604300037",
+          "productType": "Papel stock continuo", "series": "Data Stock", "color": "Blanco",
+          "sheetSize": "9.5 x 5.5 in", "parts": "3 tantos", "quantity": "2000 hojas/juegos", "carbonPaper": "Intercalado",
+          "providerBranchSummary": "Electroprice sin sucursal; referencias externas Mexico, Hermosillo y Monterrey",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}]
+        },
+        "measurements": {"sheetSize": "9.5 x 5.5 in", "sheetSizeMm": "241.3 x 139.7 mm", "widthMm": 241.3, "heightMm": 139.7},
+        "sourceRefs": [
+          {"title": "Cyberpuerta PCM DS00232000B", "type": "marketplace", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Papeles-para-Impresoras/Papel-Stock/PCM-Papel-Stock-3-Tantos-2000-Hojas-de-9-5-x-5-5-Blanco.html"},
+          {"title": "Exel PCM Data Stock", "type": "distributor", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/PMPPAPAD079"},
+          {"title": "Ofix PCM DS00232000B", "type": "marketplace", "url": "https://www.ofix.mx/papel-stock-9-5x5-5-1-2cta-blanco-3tt-2000jgs-pcm---pcm-ds00232000b/p"}
+        ]
+      }
+    },
+    {
+      "product_id": "454ard0x3lpjx1g",
+      "research": {
+        "confidence": 0.9,
+        "brand": "NORTON",
+        "name": "Norton AntiTrack 21430244 licencia digital 1 dispositivo 2 anos",
+        "description": "Licencia digital Norton AntiTrack para 1 dispositivo por 2 anos, enfocada en privacidad y reduccion de rastreo online mediante proteccion de huella digital.",
+        "manualCategoryPath": "software/seguridad/privacidad-antirrastreo/norton-antitrack/1-dispositivo-2-anos",
+        "semanticCategoryPath": "software/seguridad/privacidad/antirrastreo/norton-antitrack/1-dispositivo-2-anos",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://es.norton.com/products/norton-antitrack",
+        "gallery": ["https://lumen.com.mx/Content/Images/productPics/norton-antitrack-1-dispositivos-2-a%C3%B1os-marca-norton-sku-335266.jpg"],
+        "specs": {
+          "brand": "NORTON", "model": "21430244", "providerSku": "21430244", "productType": "Licencia digital de privacidad",
+          "product": "Norton AntiTrack", "licenseDevices": 1, "term": "2 anos", "delivery": "ESD / descarga digital",
+          "features": ["Ayuda a ocultar huella digital", "Bloqueo de rastreadores", "Privacidad de navegacion"],
+          "systems": ["Windows 10/11", "macOS 11+", "iOS 15.2+", "Android 8+"],
+          "browsersWindows": ["Chrome", "Firefox", "Microsoft Edge 88+"], "browsersMac": ["Safari 14+", "Chrome", "Firefox"],
+          "providerBranchSummary": "Producto digital; TiendaClic reporta existencia aproximada 0",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "digital_provider_total", "country": "MX", "stock": 0}]
+        },
+        "measurements": {"physicalDimensions": "No aplica; producto digital", "weight": "No aplica"},
+        "sourceRefs": [
+          {"title": "Norton AntiTrack official", "type": "manufacturer", "url": "https://es.norton.com/products/norton-antitrack"},
+          {"title": "TiendaClic Norton 21430244", "type": "distributor", "url": "https://www.depot.tiendaclic.mx/ver-detalle/esd-norton-antitrack-1-dispositivo-2-anos-descarga-digital-norton-tmnr-062"},
+          {"title": "Lumen Norton AntiTrack", "type": "marketplace", "url": "https://lumen.com.mx/norton-antitrack-1-dispositivos-2-a%C3%B1os-sku-335266"}
+        ]
+      }
+    },
+    {
+      "product_id": "457cihwqkzv2zgq",
+      "research": {
+        "confidence": 0.88,
+        "brand": "CLAR SYSTEMS",
+        "name": "Clar Systems Innova CSY060 dispensador jabon ABS humo 1.1 L",
+        "description": "Dispensador manual de jabon Clar Systems Innova CSY060, fabricado en ABS color humo, rellenable, capacidad 1.1 litros para uso institucional.",
+        "manualCategoryPath": "hogar/higiene/dispensadores-jabon/manuales/rellenables-1-1l/clar-innova-csy060",
+        "semanticCategoryPath": "hogar/higiene/dispensadores-jabon/manuales/rellenables/1-1l/clar-innova-csy060",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cityshop.mx/producto/dispensador-de-jabon-innova-abs-industrial-color-humo-rellenable-11-lts",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-csy060-dispensador-de-jabon-innova-abs.webp"],
+        "specs": {
+          "brand": "CLAR SYSTEMS", "model": "CSY060", "providerSku": "CSY060", "productType": "Dispensador de jabon rellenable",
+          "line": "Innova", "material": "ABS", "color": "Humo", "capacity": "1.1 L", "condition": "Nuevo",
+          "providerBranchSummary": "Cityshop Leon, Guanajuato reporta stock 0; Aztecacompras envio nacional stock 0",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}, {"providerId": "cityshop", "warehouse": "Leon", "country": "MX", "region": "Guanajuato", "city": "Leon", "stock": 0}]
+        },
+        "measurements": {"capacity": "1.1 L", "capacityLiters": 1.1},
+        "sourceRefs": [
+          {"title": "Cityshop Clar Systems CSY060", "type": "distributor", "url": "https://cityshop.mx/producto/dispensador-de-jabon-innova-abs-industrial-color-humo-rellenable-11-lts"},
+          {"title": "Aztecacompras Clar Systems CSY060", "type": "marketplace", "url": "https://www.aztecacompras.com/mx00000068796-otros-csy060-clar-systems-dispensador-de-jab-n-innova-abs-industrial-color-humo-rellenable-1-1-lts-.html"},
+          {"title": "Cityshop marca Clar Systems", "type": "distributor", "url": "https://cityshop.mx/marca/clar-systems"}
+        ]
+      }
+    },
+    {
+      "product_id": "462fk3qft7baj36",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BACO",
+        "name": "BACO Bacoflash 99365 resaltador rosa caja 12 piezas",
+        "description": "Resaltador fluorescente grueso BACO Bacoflash 99365 color rosa, presentacion plegadiza/caja con 12 piezas para oficina y papeleria.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/resaltadores/rosa/12-piezas/baco-bacoflash-99365",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/resaltadores/rosa/caja-12/baco-bacoflash-99365",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tony.com.mx/marcador-fluorescente-grueso-rosa-caja-con-12-piezas-bacoflash-99365/p",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-99365-resaltador-baco-bacoflash-99365-rosa.webp", "https://tonypapelerias.vtexassets.com/arquivos/ids/271045/00140196.jpg?v=638556500767800000"],
+        "specs": {
+          "brand": "BACO", "model": "99365", "providerSku": "99365", "gtin": "7501174950779",
+          "productType": "Resaltador fluorescente", "line": "Bacoflash", "color": "Rosa", "tip": "Grueso", "packageQuantity": 12,
+          "providerBranchSummary": "Electroprice sin sucursal; Cityshop y CTI Systems reportan agotado",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}]
+        },
+        "measurements": {"packageQuantity": 12},
+        "sourceRefs": [
+          {"title": "Cityshop BACO 99365", "type": "distributor", "url": "https://cityshop.mx/producto/resaltador-baco-bacoflash-99365-rosa-plegadiza-con-12-piezas"},
+          {"title": "Tony Papelerias BACO 99365", "type": "marketplace", "url": "https://www.tony.com.mx/marcador-fluorescente-grueso-rosa-caja-con-12-piezas-bacoflash-99365/p"},
+          {"title": "CTI Systems BACO 99365", "type": "distributor", "url": "https://ctisystems.mx/resaltador-baco-99365-bacoflash-rosa-plegadiza-con-12-piezas"}
+        ]
+      }
+    },
+    {
+      "product_id": "46oijif24o453ax",
+      "research": {
+        "confidence": 0.94,
+        "brand": "HP",
+        "name": "HP ScanJet Enterprise Flow 7000 s3 L2757A escaner documental ADF",
+        "description": "Escaner documental HP ScanJet Enterprise Flow 7000 s3 L2757A con ADF de 80 hojas, duplex, hasta 75 ppm/150 ipm y ciclo recomendado de 7500 paginas por dia.",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/alto-volumen/hp-scanjet-7000-s3",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/alto-volumen/hp-scanjet-enterprise-flow-7000-s3",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/hp-scanjet-enterprise-flow-7000-s3-sheet-feed-scanner-l2757a-bgj",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-l2757a-escaner-hp-scanjet-enterprise-flow_0.webp", "https://cityshop.mx/assets/imagenes/productos/cityshop-l2757a-escaner-hp-scanjet-enterprise-flow_1.webp", "https://cityshop.mx/assets/imagenes/productos/cityshop-l2757a-escaner-hp-scanjet-enterprise-flow_2.webp", "https://hp.widen.net/content/qqpy06mbni/webp/qqpy06mbni.png?color=ffffff00&dpi=72&h=430&w=573"],
+        "specs": {
+          "brand": "HP", "model": "ScanJet Enterprise Flow 7000 s3", "providerSku": "L2757A", "productType": "Escaner alimentado por hojas",
+          "sensor": "CMOS CIS", "opticalResolution": "600 x 600 dpi", "speed": "75 ppm / 150 ipm", "duplex": true, "adfCapacity": "80 hojas",
+          "dailyDutyCycle": "7500 paginas/dia", "connectivity": ["USB 3.0", "USB 2.0"], "color": "Blanco", "certification": "ENERGY STAR",
+          "providerBranchSummary": "Electroprice stock 0; Cityshop Leon, Guanajuato reporta 16 piezas",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}, {"providerId": "cityshop", "warehouse": "Leon", "country": "MX", "region": "Guanajuato", "city": "Leon", "stock": 16}]
+        },
+        "measurements": {"maxScanSize": "216 x 3100 mm", "dimensions": "310 x 198 x 190 mm", "weight": "3.8 kg", "widthMm": 310, "depthMm": 198, "heightMm": 190, "weightKg": 3.8},
+        "sourceRefs": [
+          {"title": "HP ScanJet Enterprise Flow 7000 s3", "type": "manufacturer", "url": "https://www.hp.com/us-en/shop/pdp/hp-scanjet-enterprise-flow-7000-s3-sheet-feed-scanner-l2757a-bgj"},
+          {"title": "Icecat HP L2757A", "type": "datasheet", "url": "https://icecat.biz/en/p/hp/l2757a/scanjet-scanners-0889894865670-l2757a-33103754.html"},
+          {"title": "Cityshop HP L2757A", "type": "distributor", "url": "https://cityshop.mx/producto/escaner-hp-scanjet-enterprise-flow-7000-s3-l2757a-216-x-3100-mm-alimentacion-de-hojas-cmos-cis-7500"}
+        ]
+      }
+    },
+    {
+      "product_id": "47ni1on0j8ek6w7",
+      "research": {
+        "confidence": 0.84,
+        "brand": "LACES",
+        "name": "LACES LA200KEA2 kit de extractores negro para rack",
+        "description": "Kit de extractores LACES LA200KEA2 color negro para infraestructura de racks, clasificado como accesorio de ventilacion/enfriamiento para red pasiva.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/ventilacion/extractores/laces-la200kea2",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/ventilacion/extractores/laces-la200kea2",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cityshop.mx/producto/kit-de-extractores-laces-la200kea2-negro",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-la200kea2-kit-de-extractores-laces-la200kea2.webp", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCLCS240_0_full.jpg"],
+        "specs": {
+          "brand": "LACES", "model": "LA200KEA2", "providerSku": "LA200KEA2", "alternateSku": "ACCLCS240",
+          "productType": "Kit de extractores para rack", "color": "Negro",
+          "providerBranchSummary": "Cityshop Leon stock 0; MacToner CDMX stock 0; Aztecacompras envio nacional stock 0",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}, {"providerId": "cityshop", "warehouse": "Leon", "country": "MX", "region": "Guanajuato", "city": "Leon", "stock": 0}, {"providerId": "mactoner", "warehouse": "CDMX", "country": "MX", "region": "CDMX", "city": "Ciudad de Mexico", "stock": 0}]
+        },
+        "measurements": {"dimensions": "No publicadas", "weight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Cityshop LACES LA200KEA2", "type": "distributor", "url": "https://cityshop.mx/producto/kit-de-extractores-laces-la200kea2-negro"},
+          {"title": "MacToner LACES LA200KEA2", "type": "distributor", "url": "https://www.mactoner.com.mx/producto/kit-de-extractores-laces-la200kea2-negro/"},
+          {"title": "Aztecacompras LACES LA200KEA2", "type": "marketplace", "url": "https://www.aztecacompras.com/mx00000022575-laces-la200kea2-kit-de-extractores-negro.html"}
+        ]
+      }
+    },
+    {
+      "product_id": "4b0kstfjcbi191r",
+      "research": {
+        "confidence": 0.88,
+        "brand": "DELL",
+        "name": "Dell N_PAM3_N3_M3 garantia 3Y ProSupport Plus Dell Pro 24 AIO",
+        "description": "Poliza Dell N_PAM3_N3_M3 para convertir garantia Basic/Next Business Day a 3 anos ProSupport Plus en Dell Pro desktops/AIO compatibles, con confirmacion por serie.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-24-aio/3y-basic-a-3y-prosupport-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/aio/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_PAM3_N3_M3-e6f361.jpg"],
+        "specs": {
+          "brand": "DELL", "model": "N_PAM3_N3_M3", "providerSku": "POL-10909", "productType": "Poliza de garantia/soporte",
+          "term": "3 anos", "serviceLevel": "ProSupport Plus", "baseService": "Basic / Next Business Day", "response": "Servicio en sitio siguiente dia habil despues de diagnostico remoto",
+          "compatibility": "Dell Pro 24 AIO QC24250/QC24251; confirmar compatibilidad por serie", "satKey": "81111819",
+          "coverage": ["Soporte 24x7", "Ingenieros ProSupport", "Alertas predictivas", "Keep Your Hard Drive", "Dano accidental segun terminos"],
+          "providerBranchSummary": "Compuviper CDMX/CEDI/sucursales 0; mayoristas Mexico/Guadalajara/Monterrey 0",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0}, {"providerId": "compuviper", "warehouse": "CDMX", "country": "MX", "region": "CDMX", "stock": 0}, {"providerId": "compuviper", "warehouse": "CEDI GDL", "country": "MX", "region": "Jalisco", "stock": 0}]
+        },
+        "measurements": {"physicalDimensions": "No aplica; servicio", "weight": "No aplica"},
+        "sourceRefs": [
+          {"title": "Compuviper Dell N_PAM3_N3_M3", "type": "distributor", "url": "https://compuviper.mx/tienda/producto/dell-n_pam3_n3_m3-poliza-de-garantia-para-pro-desktops-3-aos-basico-next-bus-day-a-3-aos-prosupport-plus-importante-confirmar-compatibilidad-de-series-con-clave-de-garantia/"},
+          {"title": "Cyberpuerta Garantias Dell ProSupport Plus", "type": "marketplace", "url": "https://www.cyberpuerta.mx/Garantias-Dell-ProSupport-Plus/"},
+          {"title": "Dell Support for PCs", "type": "manufacturer", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs"}
+        ]
+      }
+    },
+    {
+      "product_id": "4c0t9367alnrc8e",
+      "research": {
+        "confidence": 0.89,
+        "brand": "LENOVO",
+        "name": "Lenovo 4ZN1Q45636 Ivanti Endpoint Manager PMA",
+        "description": "Licenciamiento electronico Lenovo 4ZN1Q45636 para Ivanti Endpoint Manager PMA, antes Management Suite, orientado a gestion de endpoints empresariales.",
+        "manualCategoryPath": "software/gestion-ti/endpoint-management/ivanti-endpoint-manager/pma-4zn1q45636",
+        "semanticCategoryPath": "software/gestion-ti/endpoint-management/uem/ivanti-endpoint-manager/pma",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ivanti.com/products/endpoint-manager",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/10428192.jpg", "https://www.depot.tiendaclic.mx/catalog/img/items/cached/4zn1q45636-lenovo-ivanti-endpoint-manager-pma-formerly-management-suit-1746424.jpg"],
+        "specs": {
+          "brand": "LENOVO", "model": "4ZN1Q45636", "providerSku": "SWS-5647", "productType": "Licenciamiento electronico software empresarial",
+          "product": "Ivanti Endpoint Manager PMA (formerly Management Suite)", "commercialManufacturer": "Lenovo", "platform": "Ivanti Endpoint Manager",
+          "capabilities": ["Gestion de endpoints", "Inventario y discovery", "Distribucion de software", "Control remoto", "Dashboards y reportes", "Soporte Windows/macOS/Linux/Chrome OS/IoT segun Ivanti"],
+          "providerBranchSummary": "TiendaClic 0; Compuviper CDMX/CEDI/transito/sucursales 0; Global Office Guadalajara por confirmar",
+          "providerBranches": [{"providerId": "ctonline", "warehouse": "digital_provider_total", "country": "MX", "stock": 0}, {"providerId": "compuviper", "warehouse": "CDMX", "country": "MX", "region": "CDMX", "stock": 0}, {"providerId": "globaloffice", "warehouse": "Guadalajara", "country": "MX", "region": "Jalisco", "stock": 0}]
+        },
+        "measurements": {"physicalDimensions": "No aplica; licenciamiento electronico", "weight": "No aplica"},
+        "sourceRefs": [
+          {"title": "GlobalOffice Lenovo 4ZN1Q45636", "type": "distributor", "url": "https://globaloffice.com.mx/app/detalle/producto/software/ivanti-endpoint-manager-pma-formerly-management-su/4zn1q45636"},
+          {"title": "TiendaClic Lenovo 4ZN1Q45636", "type": "distributor", "url": "https://www.tiendaclic.mx/ver-detalle/ivanti-endpoint-manager-pma-formerly-management-suit-lenovo-4zn1q45636"},
+          {"title": "Ivanti Endpoint Manager official", "type": "manufacturer", "url": "https://www.ivanti.com/products/endpoint-manager"},
+          {"title": "Compuviper licenciamiento electronico", "type": "distributor", "url": "https://compuviper.mx/tienda/categoria-producto/software/licenciamiento-electronico/"}
+        ]
+      }
+    }
+  ]
+}

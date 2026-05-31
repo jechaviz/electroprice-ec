@@ -362,6 +362,16 @@ const batch160PlusCases = [
   ["Grandstream GS-CAPACITACION capacitacion remota telefonia IP y redes", "GRANDSTREAM", "servicios-ti/capacitacion/telefonia-ip-redes/grandstream-remota", "software"],
   ["Vorago TP-100 pasta termica gris 3 g 1.93 W/mK", "VORAGO", "computo/componentes/enfriamiento/pasta-termica/vorago-tp-100-3g", "components"],
   ["APC SBP40KFC1M1 panel bypass mantenimiento 40kW 208V 3PH", "APC", "energia/no-breaks-ups/accesorios/paneles-bypass/40kw-208v/apc-sbp40kfc1m1", "power"],
+  ["CyberPower BP48V75ART2U banco externo baterias UPS 48V 2U rack torre", "CYBERPOWER", "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/48v/cyberpower-bp48v75art2u", "power"],
+  ["HP 744 F9J86A cabezal DesignJet Photo Black Cyan", "HP", "impresion/refacciones/cabezales/inkjet/hp-designjet-744/f9j86a-photo-black-cyan", "printers_scanners"],
+  ["PCM DS00232000B Data Stock papel continuo 9.5 x 5.5 3 tantos 2000 hojas", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/3-tantos/pcm-ds00232000b", "printers_scanners"],
+  ["Norton AntiTrack 21430244 licencia digital 1 dispositivo 2 anos", "NORTON", "software/seguridad/privacidad-antirrastreo/norton-antitrack/1-dispositivo-2-anos", "software"],
+  ["Clar Systems CSY060 dispensador jabon Innova ABS rellenable 1.1L humo", "CLAR SYSTEMS", "hogar/higiene/dispensadores-jabon/manuales/rellenables-1-1l/clar-innova-csy060", "accessories"],
+  ["BACO Bacoflash 99365 resaltador rosa caja 12 piezas", "BACO", "oficina/papeleria/marcadores/resaltadores/rosa/12-piezas/baco-bacoflash-99365", "accessories"],
+  ["HP ScanJet Enterprise Flow 7000 s3 L2757A escaner documental ADF 75 ppm", "HP", "impresion/escaneres/documentales/adf/alto-volumen/hp-scanjet-7000-s3", "printers_scanners"],
+  ["LACES LA200KEA2 kit de extractores negro para rack", "LACES", "infraestructura/racks-accesorios/ventilacion/extractores/laces-la200kea2", "networking"],
+  ["Dell N_PAM3_N3_M3 garantia ProSupport Plus Pro 24 AIO 3 anos", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-24-aio/3y-basic-a-3y-prosupport-plus", "software"],
+  ["Lenovo 4ZN1Q45636 Ivanti Endpoint Manager PMA formerly Management Suite", "LENOVO", "software/gestion-ti/endpoint-management/ivanti-endpoint-manager/pma-4zn1q45636", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
