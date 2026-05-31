@@ -1,0 +1,418 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b190-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 190,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1xn4e606i8v55w9",
+      "research": {
+        "confidence": 0.9,
+        "brand": "NECNON",
+        "name": "NECNON NPW-05FB NBPB0512FB power bank 5000 mAh blanca",
+        "description": "Bateria externa NECNON NPW-05FB de 5000 mAh en color blanco, con indicador LED, entradas Micro USB y USB-C 5V/2.1A, salidas USB-A y USB-C 5V/2.1A, orientada a carga movil de emergencia.",
+        "manualCategoryPath": "energia/baterias-portatiles/power-banks/5000mah/necnon-npw-05fb",
+        "semanticCategoryPath": "power/portable-batteries/power-banks/5000mah/necnon-npw-05fb",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://necnontrade.com/producto/npw-05fb/",
+        "gallery": ["https://necnontrade.com/wp-content/uploads/2024/06/BLANCO-1.jpg", "https://necnontrade.com/producto/npw-05fb/", "https://mipc.com.mx/power-bank-necnon-npb-05fb-5000mah-indicador-led-1x-usb-blanco-nbpb0512fb.html"],
+        "documents": ["https://necnontrade.com/wp-content/uploads/2024/06/FichaTecnicaNPW-05FB.pdf", "https://necnontrade.com/wp-content/uploads/2024/06/MANUAL-DE-USUARIO-ol.pdf"],
+        "specs": {
+          "brand": "NECNON",
+          "model": "NPW-05FB / NBPB0512FB",
+          "providerSku": "BATNNN080",
+          "manufacturerSku": "NBPB0512FB",
+          "productType": "Power bank / bateria externa",
+          "capacityMah": 5000,
+          "estimatedCharges": "1 a 2 cargas completas segun fabricante",
+          "chargeIndicator": "Luces LED",
+          "inputPorts": ["Micro USB 5V/2.1A", "USB-C 5V/2.1A"],
+          "outputPorts": ["2 USB-A 5V/2.1A", "USB-C 5V/2.1A"],
+          "color": "Blanco",
+          "includedAccessories": ["Cable USB/Tipo-C", "Manual de usuario con poliza de garantia"],
+          "upcProvider": "750363516204",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BATNNN080", "stock": 0, "price": 108.52, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La categoria actual laptops no corresponde. La ficha oficial escribe dimensiones 96 x 64.3 x 14 cm, pero por escala y retail se interpreta como mm. Hay discrepancia UPC/color entre ficha NECNON y feed CT/MiPC; validar etiqueta fisica antes de publicar GTIN definitivo."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"widthMm": 96.0, "depthMm": 64.3, "heightMm": 14.0, "weightKg": 0.102, "packageWidthCm": 12.5, "packageDepthCm": 7.5, "packageHeightCm": 2.0, "packageWeightKg": 0.16},
+        "sourceRefs": [
+          {"title": "NECNON NPW-05FB product page", "type": "manufacturer", "url": "https://necnontrade.com/producto/npw-05fb/"},
+          {"title": "NECNON NPW-05FB datasheet", "type": "manufacturer_document", "url": "https://necnontrade.com/wp-content/uploads/2024/06/FichaTecnicaNPW-05FB.pdf"},
+          {"title": "NECNON NPW-05FB user manual", "type": "manufacturer_document", "url": "https://necnontrade.com/wp-content/uploads/2024/06/MANUAL-DE-USUARIO-ol.pdf"},
+          {"title": "MiPC NECNON NBPB0512FB", "type": "retailer_spec", "url": "https://mipc.com.mx/power-bank-necnon-npb-05fb-5000mah-indicador-led-1x-usb-blanco-nbpb0512fb.html"},
+          {"title": "Electroprice provider stock BATNNN080", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1y91rgub2bshwby",
+      "research": {
+        "confidence": 0.84,
+        "brand": "CT Cloud",
+        "name": "CT Cloud NCSVXPLUSCQ servicio nube XPLUS CQ",
+        "description": "Servicio digital CT Cloud NCSVXPLUSCQ, identificado por canal como servicio de nube/gestion en la nube paquete XPLUS CQ. No es producto fisico y requiere validar alcance, vigencia, usuarios, SLA y entregables con CTOnline antes de venta.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/gestion-nube/xplus-cq",
+        "semanticCategoryPath": "software/cloud-services/ct-cloud/cloud-management/xplus-cq",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/servicio-de-nube-ct-cloud-ncsvxpluscq-servicio-de-nube/",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO330_full-600x499.jpg", "https://intercompras.com/p/servicio-nube-ncsvxpluscq-gestion-en-la-nube-plataforma-ct-cloud-262304", "https://cityshop.mx/producto/servicio-de-nube-ct-cloud-ncsvxpluscq-servicio-de-nube"],
+        "documents": [],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "NCSVXPLUSCQ",
+          "providerSku": "SERCLO330",
+          "productType": "Servicio digital de nube",
+          "softwareType": "Servicio de Nube",
+          "package": "CQ XPLUS",
+          "platform": "CT Cloud",
+          "physicalDelivery": false,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SERCLO330", "stock": 0, "price": 3854.15, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha oficial publica de CT Cloud/CTOnline para el SKU. Las fuentes publicas solo confirman nombre, SKU y tipo de servicio; no publican recursos incluidos, vigencia, usuarios, SLA ni alcance tecnico."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"digitalDelivery": true, "physicalDimensions": null, "weightKg": null},
+        "sourceRefs": [
+          {"title": "MacToner CT Cloud NCSVXPLUSCQ", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/servicio-de-nube-ct-cloud-ncsvxpluscq-servicio-de-nube/"},
+          {"title": "Intercompras CT Cloud NCSVXPLUSCQ", "type": "retailer_spec", "url": "https://intercompras.com/p/servicio-nube-ncsvxpluscq-gestion-en-la-nube-plataforma-ct-cloud-262304"},
+          {"title": "Cityshop CT Cloud NCSVXPLUSCQ", "type": "retailer_spec", "url": "https://cityshop.mx/producto/servicio-de-nube-ct-cloud-ncsvxpluscq-servicio-de-nube"},
+          {"title": "Electroprice provider stock SERCLO330", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "21ty3qks6z7obj2",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ADATA",
+        "name": "ADATA CHARGERU-0352-QCPDWH cargador GaN 35W USB-C USB-A blanco",
+        "description": "Cargador de pared ADATA CHARGERU-0352-QCPDWH de 35 W en color blanco, tecnologia GaN, USB-C PD 3.0/PPS y USB-A QC 3.0, con protecciones electricas y clavija plegable.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-qcpdwh",
+        "semanticCategoryPath": "power/chargers/usb-wall-chargers/usb-c-usb-a/35w-gan/adata-qcpdwh",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://webapi3.adata.com/storage/downloadfile/datasheet_35w_gan_usb_charger_202409121728013838.pdf",
+        "gallery": ["https://images.icecat.biz/img/gallery/942c7f3e8e03e977ec2e5edbbcc06f53fe46f0e6.jpg", "https://icecat.jp/p/adata/chargeru-0352-qcpdwh/mobile%2Bdevice%2Bchargers-4711085948830-chargeru-0352-qcpdwh-128851721.html"],
+        "documents": ["https://webapi3.adata.com/storage/downloadfile/datasheet_35w_gan_usb_charger_202409121728013838.pdf"],
+        "specs": {
+          "brand": "ADATA",
+          "model": "CHARGERU-0352-QCPDWH",
+          "providerSku": "ACCDAT1630",
+          "productType": "Cargador de pared USB",
+          "technology": ["GaN", "USB Power Delivery 3.0", "Quick Charge 3.0", "PPS"],
+          "maxPowerW": 35,
+          "ports": {"usbC": 1, "usbA": 1},
+          "simultaneousDevices": 2,
+          "input": "100-240 V~ 50/60 Hz 0.8 A",
+          "usbCOutput": "5V/3A, 9V/3A, 12V/2.5A, 15V/2.33A, 20V/1.75A; PPS 3.3V-11V/3A",
+          "usbAOutput": "5V/3A, 9V/2A, 12V/1.5A, 10V/2.25A; max 22.5W",
+          "combinedOutput": "5V/3A compartido; max 15W compartido, total max 35W",
+          "protections": ["Sobrecorriente", "Sobretension", "Sobretemperatura", "Cortocircuito"],
+          "foldingPlug": "90 grados",
+          "cableIncluded": false,
+          "color": "Blanco",
+          "ean": "4711085948830",
+          "upcProvider": "842243034059",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCDAT1630", "stock": 0, "price": 5.56, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El dato bruto 100 V - 240 V corresponde a entrada, no salida. La ficha ADATA tiene un encabezado inconsistente que menciona 65W, pero las especificaciones y el modelo CHARGERU-0352-QCPDWH confirman 35W max."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"widthMm": 35.0, "depthMm": 30.0, "heightMm": 48.4, "weightKg": 0.0875},
+        "sourceRefs": [
+          {"title": "ADATA 35W GaN USB Charger datasheet", "type": "manufacturer_document", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_35w_gan_usb_charger_202409121728013838.pdf"},
+          {"title": "Icecat ADATA CHARGERU-0352-QCPDWH", "type": "syndicated_product_data", "url": "https://icecat.jp/p/adata/chargeru-0352-qcpdwh/mobile%2Bdevice%2Bchargers-4711085948830-chargeru-0352-qcpdwh-128851721.html"},
+          {"title": "Icecat JSON ADATA CHARGERU-0352-QCPDWH", "type": "syndicated_json_specs", "url": "https://live.icecat.biz/api?content=&icecat_id=128851721&lang=en&shopname=openICEcat-bot"},
+          {"title": "Electroprice provider stock ACCDAT1630", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "22271wuc53r5h1u",
+      "research": {
+        "confidence": 0.94,
+        "brand": "EPSON",
+        "name": "Epson ELPLP88 V13H010L88 lampara repuesto para proyector",
+        "description": "Lampara Epson ELPLP88/V13H010L88 UHE de repuesto para proyectores PowerLite y Home Cinema compatibles. Es refaccion reemplazable por usuario y debe manejarse con disposicion adecuada por contener mercurio.",
+        "manualCategoryPath": "audio-video/proyectores/accesorios/lamparas/epson-elplp88",
+        "semanticCategoryPath": "audio-video/projectors/accessories/replacement-lamps/epson-elplp88",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/Accessories/Projector-Accessories/ELPLP88-Replacement-Projector-Lamp-Bulb/p/V13H010L88",
+        "gallery": ["https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=ELPLP88&clid=SAPDAM&id=50e8d8e34f4b26f7496d64bdf2ba23ca4b8d552d&prclid=banner&prid=1200Wx1200H&vid=50e8d8e34f4b26f7496d64bdf2ba23ca4b8d552d", "https://www.bhphotovideo.com/c/product/1122639-REG/epson_v13h010l88_elplp88_replacement_projector_lamp.html"],
+        "documents": ["https://files.support.epson.com/docid/cpd4/cpd42724.pdf"],
+        "specs": {
+          "brand": "EPSON",
+          "model": "V13H010L88",
+          "alias": "ELPLP88",
+          "providerSku": "LMPEPS410",
+          "productType": "Lampara de repuesto para proyector",
+          "lampTechnology": "UHE",
+          "userReplaceable": true,
+          "compatibleModels": ["PowerLite S27", "PowerLite X27", "PowerLite W29", "PowerLite 97H", "PowerLite 98H", "PowerLite 99WH", "PowerLite 955WH", "PowerLite 965H", "PowerLite Home Cinema 2040", "PowerLite Home Cinema 2045", "PowerLite Home Cinema 740HD", "EX3240", "EX5240", "EX9200 Pro"],
+          "nominalPowerW": 200,
+          "lampLife": "Hasta 5000 h normal y hasta 10000 h ECO segun retail autorizado",
+          "upc": "010343918573",
+          "ean": "8715946546049",
+          "manufacturerStatus": "Discontinued en Epson US",
+          "materialWarning": "Contiene mercurio; seguir normativa local de disposicion",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "LMPEPS410", "stock": 0, "price": 2518.89, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Epson confirma modelo y compatibilidad; potencia, vida util y medidas de empaque se completan desde B&H. El producto figura descontinuado en Epson US y proveedor lo reporta no disponible."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"packageWidthIn": 6.3, "packageDepthIn": 5.85, "packageHeightIn": 5.55, "packageWeightLb": 0.9},
+        "sourceRefs": [
+          {"title": "Epson ELPLP88 V13H010L88 official page", "type": "manufacturer", "url": "https://epson.com/Accessories/Projector-Accessories/ELPLP88-Replacement-Projector-Lamp-Bulb/p/V13H010L88"},
+          {"title": "Epson Spanish support options and parts", "type": "manufacturer_support", "url": "https://files.support.epson.com/docid/cpd4/cpd42082/source/product_info/reference/pls27_965h/options_and_parts_list_pls27_965h.html"},
+          {"title": "Epson projector manual Spanish", "type": "manufacturer_document", "url": "https://files.support.epson.com/docid/cpd4/cpd42724.pdf"},
+          {"title": "B&H Epson ELPLP88 specs", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1122639-REG/epson_v13h010l88_elplp88_replacement_projector_lamp.html"},
+          {"title": "Electroprice provider stock LMPEPS410", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "22z331nv8sm5uz9",
+      "research": {
+        "confidence": 0.84,
+        "brand": "CT Cloud",
+        "name": "CT Cloud IFTPSFTP instalacion configuracion rol FTP SFTP",
+        "description": "Servicio digital CT Cloud IFTPSFTP para instalacion y configuracion base del rol FTP/SFTP en entorno de nube o servidor. No aplica peso ni dimensiones y requiere confirmar alcance tecnico con proveedor.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/configuracion-servidores/ftp-sftp",
+        "semanticCategoryPath": "software/cloud-services/ct-cloud/server-configuration/ftp-sftp",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/instalacion-y-configuracion-base-del-rol-ct-cloud-iftpsftp-servicio-de-nube/",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO560_full-600x499.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-iftpsftp-instalacion-y-configuracion-base-del.webp"],
+        "documents": [],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "IFTPSFTP",
+          "providerSku": "SERCLO560",
+          "productType": "Servicio digital de nube",
+          "softwareType": "Servicio de Nube",
+          "service": "Instalacion y configuracion base de rol",
+          "role": "FTP/SFTP",
+          "physicalDelivery": false,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SERCLO560", "stock": 0, "price": 1720.01, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se encontro ficha oficial publica de CT Cloud/CTOnline. Cityshop muestra SKU como IFTPSFTP mientras MacToner muestra SKU SERCLO560 y numero de parte IFTPSFTP; se conserva SERCLO560 como SKU de proveedor. La imagen dice FTP/SFPT, probable error tipografico."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"digitalDelivery": true, "physicalDimensions": null, "weightKg": null},
+        "sourceRefs": [
+          {"title": "MacToner CT Cloud IFTPSFTP", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/instalacion-y-configuracion-base-del-rol-ct-cloud-iftpsftp-servicio-de-nube/"},
+          {"title": "Cityshop CT Cloud IFTPSFTP", "type": "retailer_spec", "url": "https://cityshop.mx/producto/instalacion-y-configuracion-base-del-rol-ct-cloud-iftpsftp-servicio-de-nube"},
+          {"title": "Electroprice provider stock SERCLO560", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "2331zcnbm9odh3x",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Anviz",
+        "name": "Anviz AN-EMIDCARD-10PAQ tarjetas RFID EM 125kHz PVC 10 piezas",
+        "description": "Paquete de 10 tarjetas RFID Anviz AN-EMIDCARD-10PAQ de PVC blanco, formato tipo credito, tecnologia EM 125 kHz para control de acceso, asistencia e identificacion de personal.",
+        "manualCategoryPath": "seguridad/control-acceso/credenciales-rfid/tarjetas-pvc/em-125khz/anviz-10-pack",
+        "semanticCategoryPath": "security/access-control/rfid-credentials/pvc-cards/em-125khz/anviz-10-pack",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://anvizespana.com/producto/tarjetas-rfid/",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-an-emidcard-10paq-tarjeta-rfid-anviz-an-emidcard-10paq.webp", "https://anvizespana.com/wp-content/uploads/2025/10/ID-Card-Tarjeta-de-proximidad-RFID-EM-Card-1.png", "https://mipc.com.mx/tarjeta-de-proximidad-anviz-125khz-paquete-10-piezas-pvc-blanco-an-emidcard-10paq.html"],
+        "documents": [],
+        "specs": {
+          "brand": "Anviz",
+          "model": "AN-EMIDCARD-10PAQ",
+          "providerSku": "SOFAVZ670",
+          "productType": "Tarjeta RFID / tarjeta de proximidad",
+          "frequency": "125 kHz",
+          "technology": "EM",
+          "material": "PVC",
+          "color": "Blanco",
+          "packageQuantity": 10,
+          "readMethod": "Sin contacto / proximidad",
+          "compatibility": "Lectores Anviz y lectores RFID EM 125 kHz compatibles",
+          "encoding": "Identificador unico pre-codificado",
+          "typicalUse": ["Control de acceso", "Asistencia", "Identificacion de personal"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SOFAVZ670", "stock": 0, "price": 1.91, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Cityshop ubica el producto en una ruta de impresion/refacciones, probablemente mala categorizacion. Dimensiones varian levemente entre 85.6 x 54 x 0.8 mm y 85 x 54 x 0.88 mm; conservar ambas como rango."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"widthMm": 85.6, "heightMm": 54.0, "thicknessMm": 0.8, "alternateWidthMm": 85.0, "alternateThicknessMm": 0.88},
+        "sourceRefs": [
+          {"title": "Anviz Espana tarjetas RFID", "type": "brand_regional_product_page", "url": "https://anvizespana.com/producto/tarjetas-rfid/"},
+          {"title": "MiPC Anviz AN-EMIDCARD-10PAQ", "type": "retailer_spec", "url": "https://mipc.com.mx/tarjeta-de-proximidad-anviz-125khz-paquete-10-piezas-pvc-blanco-an-emidcard-10paq.html"},
+          {"title": "Cityshop Anviz AN-EMIDCARD-10PAQ", "type": "retailer_spec", "url": "https://cityshop.mx/producto/tarjeta-rfid-anviz-an-emidcard-10paq-blanco"},
+          {"title": "Electroprice provider stock SOFAVZ670", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "24z0tpq86i89lo3",
+      "research": {
+        "confidence": 0.92,
+        "brand": "UNV",
+        "name": "UNV TR-JB03-H-IN-V2 caja conexiones para camara turret metalica",
+        "description": "Caja de conexiones UNV/Uniview TR-JB03-H-IN-V2 para camara turret metalica, fabricada en aleacion de aluminio y apta para cableado desde la parte posterior.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/turret-metalicas/unv-tr-jb03-h-in-v2",
+        "semanticCategoryPath": "security/video-surveillance/camera-accessories/junction-boxes/metal-turret/unv-tr-jb03-h-in-v2",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://sgcdn.uniview.com/es/Products/Accessories/Cameras/Junction_Boxes/TR-JB03-H-IN-V2/",
+        "gallery": ["https://sgcdn.uniview.com/es/res/202605/31/20260531_2247130_2490edcc-8550-4067-8828-ba599fcbd6ac_1052264_798522_0.png", "https://sgcdn.uniview.com/es/Products/Accessories/Cameras/Junction_Boxes/TR-JB03-H-IN-V2/"],
+        "documents": ["https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/157a2bf5-8ef1-4a0d-8036-c5b7512dd2fc/5db6e1aa-7b2a-48a3-89e2-15ddfa78fa8c.pdf"],
+        "specs": {
+          "brand": "UNV / Uniview",
+          "model": "TR-JB03-H-IN-V2",
+          "providerSku": "TR-JB03-H-IN-V2",
+          "provider": "tecnosinergia",
+          "productType": "Caja de conexiones para camara CCTV",
+          "application": "Camara turret metalica; soporta cableado posterior",
+          "material": "Aleacion de aluminio",
+          "color": "No confirmado por texto; imagen oficial muestra cuerpo blanco con tapa gris/negra",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "tecnosinergia", "providerSku": "TR-JB03-H-IN-V2", "stock": 0, "price": 154.95, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La marca recibida ElectroPrice no coincide con fuentes oficiales; se normaliza como UNV/Uniview. No se trasladan compatibilidades de TR-JB03-H-IN sin V2 porque la ficha V2 solo indica camara turret metalica."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"diameterMm": 126.0, "heightMm": 38.5, "weightKg": 0.24},
+        "sourceRefs": [
+          {"title": "Uniview TR-JB03-H-IN-V2 product page", "type": "manufacturer", "url": "https://sgcdn.uniview.com/es/Products/Accessories/Cameras/Junction_Boxes/TR-JB03-H-IN-V2/"},
+          {"title": "Uniview TR-JB03-H-IN-V2 datasheet", "type": "manufacturer_document", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/157a2bf5-8ef1-4a0d-8036-c5b7512dd2fc/5db6e1aa-7b2a-48a3-89e2-15ddfa78fa8c.pdf"},
+          {"title": "Electroprice provider stock TR-JB03-H-IN-V2", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "254ig5ixr2br5l1",
+      "research": {
+        "confidence": 0.92,
+        "brand": "EC-LINE",
+        "name": "EC-Line EC-MSR-VP1100 lector banda magnetica USB para VP1100",
+        "description": "Lector de banda magnetica externo EC-Line EC-MSR-VP1100 para terminal POS EC-VP1100, con interfaz USB y lectura de tracks 1, 2 y 3.",
+        "manualCategoryPath": "punto-de-venta/accesorios-pos/lectores-banda-magnetica/ec-line-ec-msr-vp1100",
+        "semanticCategoryPath": "point-of-sale/pos-accessories/magnetic-stripe-readers/ec-line-ec-msr-vp1100",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.eclinepos.com/Descargas/Manuales/PuntoDeVenta/Manual-EC-VP-1100.pdf",
+        "gallery": ["https://cdn.cs.1worldsync.com/83/d5/83d53478-20af-4d8b-b0f2-35586c723921.jpg", "https://www.mactoner.com.mx/producto/lector-de-banda-magnetica-ec-line-ec-msr-vp1100-negro/", "https://pcredcom.com/lector-de-banda-magnetica-ec-line-ec-msr-vp1100-negro-sl-accecl210.html"],
+        "documents": ["https://www.eclinepos.com/Descargas/Manuales/PuntoDeVenta/Manual-EC-VP-1100.pdf"],
+        "specs": {
+          "brand": "EC-LINE",
+          "model": "EC-MSR-VP1100 / EC-MSR-VP-1100",
+          "providerSku": "ACCECL210",
+          "productType": "Lector de banda magnetica POS",
+          "tracks": ["Track 1", "Track 2", "Track 3"],
+          "interface": "USB",
+          "formFactor": "Externo",
+          "compatibleDevices": ["EC POS Terminal EC-VP1100", "EC-VP-1100-i3", "EC-VP1100-128"],
+          "packageQuantity": 1,
+          "color": "Negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCECL210", "stock": 0, "price": 34.28, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La subcategoria proveedor Lectores de Codigos de Barras no describe el producto; las fuentes lo identifican como lector de banda magnetica. Variacion de escritura EC-MSR-VP1100 vs EC-MSR-VP-1100 parece referirse al mismo accesorio."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"widthCm": 3.0, "depthCm": 11.0, "heightCm": 6.0, "weightKg": 0.13, "packageWidthCm": 11.0, "packageDepthCm": 19.5, "packageHeightCm": 11.0, "packageWeightKg": 0.55},
+        "sourceRefs": [
+          {"title": "EC-Line EC-VP-1100 manual", "type": "manufacturer_document", "url": "https://www.eclinepos.com/Descargas/Manuales/PuntoDeVenta/Manual-EC-VP-1100.pdf"},
+          {"title": "Intcomex EC-MSR-VP1100", "type": "distributor_spec", "url": "https://store.intcomex.com/en-XPE/Product/Detail/369687"},
+          {"title": "PCRedCom EC-MSR-VP1100", "type": "retailer_spec", "url": "https://pcredcom.com/lector-de-banda-magnetica-ec-line-ec-msr-vp1100-negro-sl-accecl210.html"},
+          {"title": "MacToner EC-MSR-VP1100", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/lector-de-banda-magnetica-ec-line-ec-msr-vp1100-negro/"},
+          {"title": "Electroprice provider stock ACCECL210", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "267l1udj6ck2bec",
+      "research": {
+        "confidence": 0.93,
+        "brand": "DATAMAX",
+        "name": "Datamax PHD20-2278-01 cabezal termico I-4212e 203 dpi",
+        "description": "Cabezal de impresion termico Datamax/Honeywell PHD20-2278-01 con smartchip para impresora I-Class Mark II I-4212e, resolucion 203 dpi.",
+        "manualCategoryPath": "impresion/refacciones/cabezales/termicos/datamax-i-4212e-203dpi",
+        "semanticCategoryPath": "printing/spare-parts/printheads/thermal/datamax-i-4212e-203dpi",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/printers/industrial/i-class-mk-ii/documents/sps-ppr-i-class-mark-ii-parts-catalog-92-2582-01-c.pdf",
+        "gallery": ["https://cdn.cs.1worldsync.com/35/62/3562abde-71ab-43ec-907f-56b714c3f40c.jpg", "https://store.intcomex.com/es-XMX/Product/Detail/367443"],
+        "documents": ["https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/printers/industrial/i-class-mk-ii/documents/sps-ppr-i-class-mark-ii-parts-catalog-92-2582-01-c.pdf"],
+        "specs": {
+          "brand": "DATAMAX",
+          "manufacturerNormalized": "Honeywell / Datamax-O'Neil",
+          "model": "PHD20-2278-01",
+          "providerSku": "ACCDTM030",
+          "productType": "Cabezal de impresion termico",
+          "technology": "Termica",
+          "resolutionDpi": 203,
+          "resolutionDotsPerMm": 8,
+          "compatibility": "Datamax-O'Neil / Honeywell I-Class Mark II I-4212e",
+          "properties": "Smartchip",
+          "packageQuantity": 1,
+          "compatiblePrinterPrintWidthMm": 105.7,
+          "compatiblePrinterMediaWidthMm": "25.4-118.1",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCDTM030", "stock": 0, "price": 564.77, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El dato proveedor color de impresion negro parece heredado de ficha comercial; un cabezal no contiene tinta ni toner. Marca aparece como DATAMAX, Datamax-O'Neil y Honeywell segun fuente; se conserva marca comercial DATAMAX y fabricante normalizado Honeywell / Datamax-O'Neil."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"physicalDimensions": null, "weightKg": null},
+        "sourceRefs": [
+          {"title": "Honeywell I-Class Mark II printers", "type": "manufacturer_family_specs", "url": "https://automation.honeywell.com/us/en/products/productivity-solutions/printers/industrial-printers/i-class-mid-range-industrial-printers"},
+          {"title": "Honeywell I-Class Mark II parts catalog", "type": "manufacturer_document", "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/printers/industrial/i-class-mk-ii/documents/sps-ppr-i-class-mark-ii-parts-catalog-92-2582-01-c.pdf"},
+          {"title": "Intcomex Datamax PHD20-2278-01", "type": "distributor_spec", "url": "https://store.intcomex.com/es-XMX/Product/Detail/367443"},
+          {"title": "Electroprice provider stock ACCDTM030", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "28muxf7bfj6b0m4",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ZEBRA",
+        "name": "Zebra G32432-1M cabezal impresion 105SL 203 dpi",
+        "description": "Cabezal de impresion de reemplazo Zebra G32432-1M para impresora industrial Zebra 105SL, resolucion 203 dpi. Pieza para mantenimiento de impresoras termicas de etiquetas.",
+        "manualCategoryPath": "impresion/refacciones/cabezales/termicos/zebra-105sl-203dpi",
+        "semanticCategoryPath": "printing/spare-parts/printheads/thermal/zebra-105sl-203dpi",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://prod-www.zebra.com/gb/en/support-downloads/printers/industrial/105sl.html",
+        "gallery": ["https://www.barcodefactory.com/images/product/large/zebra-printheads.png", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCZBR480_1_full.jpg", "https://www.barcodefactory.com/zebra/printheads/g32432-1m"],
+        "documents": ["https://www.libertysystems.com/assets/pdf/Zebra%20Parts/105SL_partsguide.pdf"],
+        "specs": {
+          "brand": "ZEBRA",
+          "manufacturerNormalized": "Zebra Technologies",
+          "model": "G32432-1M",
+          "providerSku": "ACCZBR480",
+          "productType": "Cabezal de impresion de reemplazo OEM",
+          "compatibility": "Zebra 105SL",
+          "resolutionDpi": 203,
+          "technology": "Impresion termica para impresora industrial de etiquetas",
+          "partNumber": "G32432-1M",
+          "packageQuantity": 1,
+          "compatiblePrinterStatus": "Zebra 105SL descontinuada; soporte de servicio discontinuado 2018-09-30 segun Zebra",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCZBR480", "stock": 0, "price": 517.35, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Algunas fuentes no oficiales lo anuncian como 200 dpi; fuentes de partes y resellers especializados lo ubican como 203 dpi. Radwell indica discontinued/no replacement; distinguir OEM, compatible y disponibilidad real antes de venta."],
+          "providerStockVerifiedAt": "2026-05-31T03:25:00Z"
+        },
+        "measurements": {"weightLb": 0.25, "alternateWeightLb": 0.14},
+        "sourceRefs": [
+          {"title": "Zebra 105SL support page", "type": "manufacturer_support", "url": "https://prod-www.zebra.com/gb/en/support-downloads/printers/industrial/105sl.html"},
+          {"title": "Zebra parts portal", "type": "manufacturer_parts_portal", "url": "https://www.zebra.com/us/en/products/parts.html"},
+          {"title": "Zebra 105SL parts guide mirror", "type": "parts_catalog_mirror", "url": "https://www.libertysystems.com/assets/pdf/Zebra%20Parts/105SL_partsguide.pdf"},
+          {"title": "BarcodeFactory Zebra G32432-1M", "type": "authorized_reseller_spec", "url": "https://www.barcodefactory.com/zebra/printheads/g32432-1m"},
+          {"title": "MacToner Zebra G32432-1M", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/cabezal-de-impresion-de-reemplazo-zebra-g32432-1m/"},
+          {"title": "Electroprice provider stock ACCZBR480", "type": "provider_stock", "observedAt": "2026-05-31T03:25:00Z"}
+        ]
+      }
+    }
+  ]
+}

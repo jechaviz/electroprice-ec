@@ -302,6 +302,16 @@ const batch160PlusCases = [
   ["Kensington MicroSaver 2.0 K64434WW candado laptop con llave 6 ft", "KENSINGTON", "accesorios/seguridad-fisica/candados-laptop/llave/microsaver-2-0-master-k64434ww", "accessories"],
   ["Panasonic SE-NSP360FULL activacion KX-NS500 maxima capacidad IP", "PANASONIC", "telefonia/conmutadores-ip/panasonic-kx-ns500/licencias/activacion-full", "software"],
   ["Tripp Lite SRCTMTSDD kit puertas dobles deslizantes contencion pasillo", "TRIPP-LITE", "infraestructura/racks-accesorios/contencion-pasillos/puertas-deslizantes/tripp-lite-srctmtsdd", "networking"],
+  ["NECNON NPW-05FB NBPB0512FB power bank 5000 mAh blanca", "NECNON", "energia/baterias-portatiles/power-banks/5000mah/necnon-npw-05fb", "power"],
+  ["CT Cloud NCSVXPLUSCQ servicio nube XPLUS CQ", "CT CLOUD", "software/servicios-nube/ct-cloud/gestion-nube/xplus-cq", "software"],
+  ["ADATA CHARGERU-0352-QCPDWH cargador GaN 35W USB-C USB-A blanco", "ADATA", "energia/cargadores-usb/pared-usb-c-usb-a/35w-gan/adata-qcpdwh", "power"],
+  ["Epson ELPLP88 V13H010L88 lampara repuesto para proyector", "EPSON", "audio-video/proyectores/accesorios/lamparas/epson-elplp88", "accessories"],
+  ["CT Cloud IFTPSFTP instalacion configuracion rol FTP SFTP", "CT CLOUD", "software/servicios-nube/ct-cloud/configuracion-servidores/ftp-sftp", "software"],
+  ["Anviz AN-EMIDCARD-10PAQ tarjetas RFID EM 125kHz PVC 10 piezas", "ANVIZ", "seguridad/control-acceso/credenciales-rfid/tarjetas-pvc/em-125khz/anviz-10-pack", "security"],
+  ["UNV TR-JB03-H-IN-V2 caja conexiones para camara turret metalica", "UNV", "seguridad/cctv/accesorios-camaras/cajas-conexion/turret-metalicas/unv-tr-jb03-h-in-v2", "security"],
+  ["EC-Line EC-MSR-VP1100 lector banda magnetica USB para VP1100", "EC-LINE", "punto-de-venta/accesorios-pos/lectores-banda-magnetica/ec-line-ec-msr-vp1100", "accessories"],
+  ["Datamax PHD20-2278-01 cabezal termico I-4212e 203 dpi", "DATAMAX", "impresion/refacciones/cabezales/termicos/datamax-i-4212e-203dpi", "printers_scanners"],
+  ["Zebra G32432-1M cabezal impresion 105SL 203 dpi", "ZEBRA", "impresion/refacciones/cabezales/termicos/zebra-105sl-203dpi", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
