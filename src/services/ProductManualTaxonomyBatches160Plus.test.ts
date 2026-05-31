@@ -202,6 +202,16 @@ const batch160PlusCases = [
   ["be quiet! Light Base 600 DX White gabinete panoramico ATX ARGB blanco BGW66", "BE QUIET", "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb/sin-ventiladores", "components"],
   ["Cisco CAB-AC-C5 cable alimentacion AC NEMA 5-15P a IEC C5", "CISCO", "redes/accesorios/cables-de-alimentacion/cisco-c5", "networking"],
   ["XPG GAMMIX S60 AGAMMIXS60-512G-CS SSD M.2 2280 PCIe Gen4 x4 NVMe 512GB", "ADATA", "computo/almacenamiento/ssd/m2-nvme/512gb-gen4", "storage"],
+  ["Xerox 006R04824 toner cian estandar 1800 paginas para C320 C325", "XEROX", "impresion/consumibles/toner-laser/xerox/006r04824-cian", "printers_scanners"],
+  ["Naceb NA-0110 adaptador USB-C macho a VGA hembra plata", "NACEB TECHNOLOGY", "accesorios/cables-adaptadores/video-usb-c-vga/usb-c-macho-vga-hembra", "accessories"],
+  ["Eaton Tripp Lite ECO1300LCD no-break UPS line-interactive 1300VA 720W LCD 120V", "TRIPP LITE", "energia/no-breaks-ups/line-interactive/1300va/lcd", "power"],
+  ["Cooler Master Mobius 120P ARGB MFZ-M2DN-24NP2-R1 ventilador 120mm PWM ARGB negro", "COOLER MASTER", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-pwm-argb", "components"],
+  ["Manhattan 355247 cable USB-C a USB-C 2m USB 2.0 480Mbps 100W negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-c-c/2m", "accessories"],
+  ["Bixolon XD5-40tK impresora de etiquetas 4 pulgadas transferencia termica 203 dpi USB negra", "BIXOLON", "impresion/impresoras/etiquetas/transferencia-termica/desktop-4-pulgadas", "printers_scanners"],
+  ["Lenovo ThinkCentre neo 30s Gen 5 13DG001NLS PC de escritorio SFF Core i5-13420H 16GB DDR5 512GB SSD Wi-Fi Windows 11 Pro", "LENOVO", "computo/desktops/slim/lenovo-thinkcentre-neo-30s-gen-5", "desktops"],
+  ["Provision-ISR NVR5-4100PXN(MM) NVR PoE 4 canales 5MP NDAA", "PROVISION-ISR", "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-5mp", "cameras"],
+  ["Intellinet 520959 panel de parcheo Cat6 UTP 24 puertos 1U rack 19 pulgadas negro", "INTELLINET", "redes/cableado-estructurado/paneles-parcheo/cat6/24-puertos-1u", "networking"],
+  ["BRobotix 406306 soporte antirrobo ajustable para laptop hasta 17.3 pulgadas con candado y llave plata", "BROBOTIX", "computo/accesorios/soportes-laptop/antirrobo-ajustables", "accessories"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

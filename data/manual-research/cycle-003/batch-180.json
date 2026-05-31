@@ -1,0 +1,498 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b180-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 180,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6gigr9njhzsz8s2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Xerox",
+        "name": "Xerox 006R04824 toner cian estandar 1800 paginas para C320 C325",
+        "description": "Toner original Xerox 006R04824 color cian de rendimiento estandar para impresoras Xerox C320 y C325, con rendimiento aproximado de 1800 paginas ISO/IEC.",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/xerox/006r04824-cian",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/xerox/006r04824-cian/xerox-c320-c325",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xerox.com/en-ge/supplies-and-accessories/006R04824",
+        "gallery": ["https://www.xerox.com/en-in/supplies-and-accessories/006R04824/xerox-c325-multifunction-printer"],
+        "documents": ["https://www.office.xerox.com/latest/C32SS-010.PDF"],
+        "specs": {
+          "brand": "XEROX",
+          "model": "006R04824",
+          "providerSku": "CN-5238",
+          "productType": "Toner laser original",
+          "color": "Cian",
+          "yield": "1800 paginas ISO/IEC",
+          "compatibility": "Xerox C320, Xerox C325",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Proveedor CVA no publico desglose de sucursal; stock total 2.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "CN-5238", "stock": 2, "price": 106.95, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es consumible de impresion.", "No se localizaron medidas o peso publicos confiables."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Xerox 006R04824 supplies page", "type": "manufacturer_spec", "url": "https://www.xerox.com/en-ge/supplies-and-accessories/006R04824"},
+          {"title": "Xerox C320/C325 supplies PDF", "type": "manufacturer_spec", "url": "https://www.office.xerox.com/latest/C32SS-010.PDF"},
+          {"title": "Electroprice provider stock CN-5238", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6god26eefb3zmzc",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Naceb Technology",
+        "name": "Naceb NA-0110 adaptador USB-C macho a VGA hembra plata",
+        "description": "Adaptador Naceb NA-0110 USB-C macho a VGA hembra, color plata, plug and play, para salida de video desde equipos compatibles con USB-C.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-usb-c-vga/usb-c-macho-vga-hembra",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-usb-c-vga/usb-c-macho-vga-hembra/naceb-na-0110",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/adaptador-tipo-c-a-vga-naceb-technology-na-0110/",
+        "gallery": [
+          "https://compupuebla.com/producto/adaptador-tipo-c-a-vga-naceb-technology-na-0110/",
+          "https://pcstore.mx/adaptador-tipo-c-vga-naceb-technology-na-0110",
+          "https://intercompras.com/p/adaptador-naceb-na-tipo-c-a-vga-plata-181841"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0110",
+          "ean": "7502262808583",
+          "providerSku": "ACCNCB960",
+          "productType": "Adaptador de video USB-C a VGA",
+          "inputConnector": "USB-C macho",
+          "outputConnector": "VGA hembra",
+          "maxResolutionProviderClaim": "3840 x 2160",
+          "formats": "720p, 1080p, 2160p",
+          "refreshRateProviderClaim": "Hasta 120 Hz",
+          "transferRateProviderClaim": "5.4 Gbps",
+          "color": "Plata / gris",
+          "plugAndPlay": "Si",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: HMO 19, DFA 13, ACA 6, QRO 5, ACX 5, SLT 4, MID 4, CEL 4, TRN 3, CHI 3, AGS 3, PUE 3. El desglose visible suma 72 contra stock total 129.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "HMO", "stock": 19},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 13},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "QRO", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "ACX", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "SLT", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "MID", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "CEL", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "CHI", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "AGS", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "PUE", "stock": 3}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCNCB960", "stock": 129, "price": 180.26, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es adaptador de video.", "La resolucion 4K por VGA proviene de fichas de retailer/proveedor y se conserva como reclamo de fuente.", "El desglose por sucursal visible no suma el stock total publicado."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No publicado", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "CompuPuebla Naceb NA-0110", "type": "marketplace_spec", "url": "https://compupuebla.com/producto/adaptador-tipo-c-a-vga-naceb-technology-na-0110/"},
+          {"title": "Intercompras Naceb NA-0110", "type": "marketplace_spec", "url": "https://intercompras.com/p/adaptador-naceb-na-tipo-c-a-vga-plata-181841"},
+          {"title": "Electroprice provider stock ACCNCB960", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6gxcrxomlrir0xk",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Tripp Lite",
+        "name": "Eaton Tripp Lite ECO1300LCD no-break UPS line-interactive 1300VA 720W LCD 120V",
+        "description": "UPS Eaton Tripp Lite ECO1300LCD line-interactive de 1300VA/720W con LCD, AVR, USB HID, 10 contactos NEMA 5-15R y autonomia aproximada de 12 minutos a media carga.",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/1300va/lcd",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/1300va/lcd/tripp-lite-eco1300lcd",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.eaton.com/us/en-us/skuPage.ECO1300LCD.html",
+        "gallery": ["https://www.eaton.com/us/en-us/skuPage.ECO1300LCD.html"],
+        "documents": [
+          "https://assets.tripplite.com/product-pdfs/en/eco1300lcd.pdf",
+          "https://assets.tripplite.com/ups-runtime-chart/eco1300lcd-runtime-chart-en.pdf",
+          "https://tripplite.eaton.com/support/owners-manual/771728"
+        ],
+        "specs": {
+          "brand": "TRIPP LITE",
+          "model": "ECO1300LCD",
+          "providerSku": "FR-1495",
+          "productType": "UPS line-interactive",
+          "capacity": "1300 VA / 720 W",
+          "inputOutput": "120 V 50/60 Hz",
+          "outlets": "10 NEMA 5-15R; 5 respaldo y supresion, 5 supresion",
+          "avr": "Si",
+          "usbHid": "Si",
+          "battery": "2 x RBC51 VRLA",
+          "runtime": "12 min media carga, 3 min plena carga",
+          "surgeSuppression": "316 J",
+          "transferTime": "6 ms",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Proveedor CVA no publico desglose de sucursal; stock total 30.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "FR-1495", "stock": 30, "price": 3108.87, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es UPS/no-break.", "Proveedor CVA no publica sucursal en el feed actual."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "410 x 279 x 99 mm", "netWeight": "10.18 kg"},
+        "sourceRefs": [
+          {"title": "Eaton Tripp Lite ECO1300LCD", "type": "manufacturer_spec", "url": "https://www.eaton.com/us/en-us/skuPage.ECO1300LCD.html"},
+          {"title": "Tripp Lite ECO1300LCD product PDF", "type": "manufacturer_spec", "url": "https://assets.tripplite.com/product-pdfs/en/eco1300lcd.pdf"},
+          {"title": "Electroprice provider stock FR-1495", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6hczh805j3ase93",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Cooler Master",
+        "name": "Cooler Master Mobius 120P ARGB MFZ-M2DN-24NP2-R1 ventilador 120mm PWM ARGB negro",
+        "description": "Ventilador Cooler Master Mobius 120P ARGB MFZ-M2DN-24NP2-R1 de 120mm para gabinete/radiador, PWM 0-2400RPM, ARGB Gen2, 75.2CFM, 3.63mmH2O y rodamiento Loop Dynamic Bearing.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-pwm-argb",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-pwm-argb/cooler-master-mobius-120p-argb",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.coolermaster.com/zh-tw/products/mobius-120p-argb.html",
+        "gallery": ["https://www.coolermaster.com/zh-tw/products/mobius-120p-argb.html"],
+        "documents": ["https://fichastecnicas.pchmayoreo.com/MFZ-M2DN-24NP2-R1.pdf"],
+        "specs": {
+          "brand": "COOLER MASTER",
+          "model": "MFZ-M2DN-24NP2-R1",
+          "ean": "4719512126776",
+          "upc": "884102099090",
+          "providerSku": "VENCLR680",
+          "productType": "Ventilador PWM ARGB",
+          "size": "120 x 120 x 25 mm",
+          "speed": "0-2400 RPM +/-10%",
+          "airflow": "75.2 CFM",
+          "staticPressure": "3.63 mmH2O",
+          "noise": "30 dBA",
+          "connector": "4-pin PWM",
+          "lighting": "ARGB Gen2 3-pin 5V",
+          "bearing": "Loop Dynamic Bearing",
+          "mttf": "Mas de 200000 h",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 116, DFA 18, TRN 7, VHA 1, MAZ 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 116},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 18},
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 7},
+            {"providerId": "ctonline", "warehouseCode": "VHA", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "MAZ", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "VENCLR680", "stock": 143, "price": 18.56, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es componente de enfriamiento.", "Regex se mantiene en MPN negro MFZ-M2DN para no capturar la variante blanca MFZ-M2DW."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "120 x 120 x 25 mm", "netWeight": "179 g"},
+        "sourceRefs": [
+          {"title": "Cooler Master Mobius 120P ARGB", "type": "manufacturer_spec", "url": "https://www.coolermaster.com/zh-tw/products/mobius-120p-argb.html"},
+          {"title": "PCH Cooler Master MFZ-M2DN-24NP2-R1", "type": "manufacturer_spec", "url": "https://fichastecnicas.pchmayoreo.com/MFZ-M2DN-24NP2-R1.pdf"},
+          {"title": "Electroprice provider stock VENCLR680", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6htqbtwq1ljoewf",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Manhattan",
+        "name": "Manhattan 355247 cable USB-C a USB-C 2m USB 2.0 480Mbps 100W negro",
+        "description": "Cable Manhattan 355247 USB-C macho a USB-C macho de 2m, USB 2.0 480Mbps, carga hasta 5A/100W, color negro y blindaje interno.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-c-c/2m",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-c-c/2m/manhattan-355247",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-usb-20-type-c-device-cable-355247",
+        "gallery": [
+          "https://manhattanproducts.us/products/manhattan-en-usb-20-type-c-device-cable-355247",
+          "https://es.manhattanproducts.eu/products/manhattan-es-cables-usb-c-de-alta-velocidad-355247"
+        ],
+        "documents": ["https://s3.amazonaws.com/assets.mhint/downloads/58654/355247_datasheet_english.pdf"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "355247",
+          "upc": "766623355247",
+          "ean": "0766623355247",
+          "providerSku": "CABITL4280",
+          "productType": "Cable USB-C a USB-C",
+          "length": "2 m",
+          "speed": "480 Mbps",
+          "charging": "5A / 100W",
+          "standard": "USB 2.0",
+          "connectors": "USB-C macho a USB-C macho",
+          "color": "Negro",
+          "cable": "Blindado 30AWG/23AWG",
+          "diameter": "4.0 mm",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 2.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CABITL4280", "stock": 2, "price": 6.54, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es cable USB.", "Nombre del proveedor omite modelo 355247."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "Longitud 2 m", "netWeight": "0.07 kg"},
+        "sourceRefs": [
+          {"title": "Manhattan 355247 product page", "type": "manufacturer_spec", "url": "https://manhattanproducts.us/products/manhattan-en-usb-20-type-c-device-cable-355247"},
+          {"title": "Manhattan 355247 datasheet", "type": "manufacturer_spec", "url": "https://s3.amazonaws.com/assets.mhint/downloads/58654/355247_datasheet_english.pdf"},
+          {"title": "Electroprice provider stock CABITL4280", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6hw3sz0tzw7h6cm",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Bixolon",
+        "name": "Bixolon XD5-40tK impresora de etiquetas 4 pulgadas transferencia termica 203 dpi USB negra",
+        "description": "Impresora Bixolon XD5-40tK para etiquetas de 4 pulgadas, transferencia termica/direct thermal segun medio, resolucion 203dpi, velocidad 152mm/s, USB y USB Host.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/transferencia-termica/desktop-4-pulgadas",
+        "semanticCategoryPath": "impresion/impresoras/etiquetas/transferencia-termica/desktop-4-pulgadas/bixolon-xd5-40tk",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.bixolon.com/product_view.php?idx=225",
+        "gallery": [
+          "https://bixoloneu.com/product/xd5-40t/",
+          "https://www.bixolon.com/product_view.php?idx=225"
+        ],
+        "documents": ["https://www.bixolon.com/_upload/manual/Manual_user_XD5-40t_%EC%8B%9C%EB%A6%AC%EC%A6%88_ENG_V1.02.pdf"],
+        "specs": {
+          "brand": "BIXOLON",
+          "model": "XD5-40tK",
+          "ean": "8809521198379",
+          "providerSku": "IMPSMP1470",
+          "productType": "Impresora de etiquetas",
+          "printMethod": "Transferencia termica y termica directa segun medio",
+          "resolution": "203 dpi",
+          "speed": "152 mm/s / 6 ips",
+          "printWidth": "108 mm",
+          "printLength": "1000 mm",
+          "media": "15-118 mm, rollo hasta 127 mm",
+          "ribbon": "33-110 mm hasta 300 m",
+          "interface": "USB + USB Host",
+          "memory": "64MB SDRAM / 128MB Flash estandar",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 5.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 5}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "IMPSMP1470", "stock": 5, "price": 269.33, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en monitores; es impresora de etiquetas.", "Velocidad de 178 mm/s aplica a la serie XD5-40d; para XD5-40tK se conserva 152 mm/s."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "210 x 284 x 188 mm", "netWeight": "2.48 kg"},
+        "sourceRefs": [
+          {"title": "Bixolon XD5-40t product page", "type": "manufacturer_spec", "url": "https://www.bixolon.com/product_view.php?idx=225"},
+          {"title": "Bixolon XD5-40t manual", "type": "manufacturer_spec", "url": "https://www.bixolon.com/_upload/manual/Manual_user_XD5-40t_%EC%8B%9C%EB%A6%AC%EC%A6%88_ENG_V1.02.pdf"},
+          {"title": "Electroprice provider stock IMPSMP1470", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6hxtk77gaao5wlw",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Lenovo",
+        "name": "Lenovo ThinkCentre neo 30s Gen 5 13DG001NLS PC de escritorio SFF Core i5-13420H 16GB DDR5 512GB SSD Wi-Fi Windows 11 Pro",
+        "description": "PC de escritorio Lenovo ThinkCentre neo 30s Gen 5 13DG001NLS formato SFF 8.2L, Intel Core i5-13420H, 16GB DDR5, SSD NVMe 512GB, Wi-Fi 6, Windows 11 Pro y video HDMI/VGA.",
+        "manualCategoryPath": "computo/desktops/slim/lenovo-thinkcentre-neo-30s-gen-5",
+        "semanticCategoryPath": "computo/desktops/slim/lenovo-thinkcentre-neo-30s-gen-5/13dg001nls",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_neo_30s_Gen_5/ThinkCentre_neo_30s_Gen_5_Spec.pdf",
+        "gallery": [
+          "https://www.cyberpuerta.mx/Computadoras/PC-s-de-Escritorio/Computadora-Lenovo-ThinkCentre-Neo-30s-Gen-5-Intel-Core-i5-13420H-16GB-512GB-SSD-Wi-Fi-Windows-11-Pro.html",
+          "https://compupuebla.com/producto/pcs-de-escritorio-lenovo-13dg001nls/"
+        ],
+        "documents": ["https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_neo_30s_Gen_5/ThinkCentre_neo_30s_Gen_5_Spec.pdf"],
+        "specs": {
+          "brand": "LENOVO",
+          "model": "13DG001NLS",
+          "providerSku": "CPULEV710",
+          "productType": "PC de escritorio SFF",
+          "cpu": "Intel Core i5-13420H, 8 nucleos, 12 hilos, hasta 4.6GHz",
+          "ram": "16GB DDR5, maximo 64GB, 2 SODIMM",
+          "storage": "512GB M.2 NVMe, hasta 2 M.2",
+          "graphics": "Intel UHD",
+          "video": "HDMI 2.1 + VGA, hasta 2 monitores",
+          "network": "Gigabit Ethernet, Wi-Fi 6, Bluetooth 5.2",
+          "operatingSystem": "Windows 11 Pro",
+          "formFactor": "SFF 8.2L",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: LMO 2, HMO 1, LEO 1, VHA 1, MID 1, TOL 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "LMO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "HMO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "VHA", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "MID", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "TOL", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CPULEV710", "stock": 7, "price": 15091, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops/procesadores; es PC completa de escritorio.", "Un retailer observado aparece sin existencias aunque el proveedor raw reporta stock."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "92.5 x 291.7 x 339.5 mm", "netWeight": "4.63 kg aprox; empaque 6.83 kg aprox"},
+        "sourceRefs": [
+          {"title": "Lenovo ThinkCentre neo 30s Gen 5 PSREF", "type": "manufacturer_spec", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkCentre/ThinkCentre_neo_30s_Gen_5/ThinkCentre_neo_30s_Gen_5_Spec.pdf"},
+          {"title": "CompuPuebla Lenovo 13DG001NLS", "type": "marketplace_spec", "url": "https://compupuebla.com/producto/pcs-de-escritorio-lenovo-13dg001nls/"},
+          {"title": "Electroprice provider stock CPULEV710", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6icqewuwwinw0k8",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Provision-ISR",
+        "name": "Provision-ISR NVR5-4100PXN(MM) NVR PoE 4 canales 5MP NDAA",
+        "description": "NVR Provision-ISR NVR5-4100PXN(MM) de 4 canales IP/PoE, resolucion 5MP, compresion H.265/H.264, salida HDMI/VGA 1080p, 1 bahia SATA hasta 6TB y PoE total 40W.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-5mp",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-5mp/provision-isr-nvr5-4100pxn-mm",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/products/nvr5-4100pxnmm/",
+        "gallery": ["https://provision-isr.com/products/nvr5-4100pxnmm/"],
+        "documents": ["https://provision-isr.com/wp-content/uploads/generatepdf/NVR5-4100PXN%28MM%29.pdf"],
+        "specs": {
+          "brand": "PROVISION-ISR",
+          "model": "NVR5-4100PXN(MM)",
+          "providerSku": "NVRPVS480",
+          "productType": "NVR PoE",
+          "channels": "4 canales IP/PoE",
+          "resolution": "5MP",
+          "compression": "H.265, H.265+, H.265S, H.264",
+          "bandwidth": "40Mbps entrada / 64Mbps salida",
+          "videoOutput": "HDMI/VGA 1080p",
+          "storage": "1 HDD hasta 6TB",
+          "poe": "4 RJ45 802.3af/at, 40W total",
+          "onvif": "Profile T/G v20.12",
+          "usb": "2 USB 2.0",
+          "power": "DC48V/1.36A",
+          "consumption": "5W sin HDD",
+          "ndaa": "Si",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: GDL 10, CMT 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "NVRPVS480", "stock": 11, "price": 61.99, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Categoria cameras era correcta, pero la ruta era demasiado generica.", "Precio raw bajo para NVR; validar moneda/costo proveedor antes de margen."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "255 x 220 x 45 mm", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Provision-ISR NVR5-4100PXN(MM)", "type": "manufacturer_spec", "url": "https://provision-isr.com/products/nvr5-4100pxnmm/"},
+          {"title": "Provision-ISR NVR5-4100PXN(MM) PDF", "type": "manufacturer_spec", "url": "https://provision-isr.com/wp-content/uploads/generatepdf/NVR5-4100PXN%28MM%29.pdf"},
+          {"title": "Electroprice provider stock NVRPVS480", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6iemd5d8anz098w",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Intellinet",
+        "name": "Intellinet 520959 panel de parcheo Cat6 UTP 24 puertos 1U rack 19 pulgadas negro",
+        "description": "Panel de parcheo Intellinet 520959 Cat6 UTP de 24 puertos para rack 19 pulgadas 1U, compatible con herramienta 110/Krone, cable 22-26AWG y contactos chapados en oro.",
+        "manualCategoryPath": "redes/cableado-estructurado/paneles-parcheo/cat6/24-puertos-1u",
+        "semanticCategoryPath": "redes/cableado-estructurado/paneles-parcheo/cat6/24-puertos-1u/intellinet-520959",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-cat6-patch-panel-520959",
+        "gallery": [
+          "https://intellinetnetwork.eu/products/intellinet-en-cat6-patch-panel-520959",
+          "https://tvc.mx/products/40036/intellinet-520959-panel-parcheo-cat-6-24-ptos-1-niv-ra"
+        ],
+        "documents": ["https://shop.mercommbe.com/content/intellinet/520959.pdf"],
+        "specs": {
+          "brand": "INTELLINET",
+          "model": "520959 / IPP-19C624-1U",
+          "providerSku": "AC-1721",
+          "productType": "Panel de parcheo",
+          "ports": "24",
+          "category": "Cat6 UTP",
+          "rack": "19 pulgadas 1U",
+          "contacts": "Chapado oro",
+          "termination": "110 y Krone",
+          "wire": "22-26 AWG solido/trenzado",
+          "standards": "IEEE 802.3, 802.3u, 802.3ab",
+          "certifications": "UL E313857, RoHS",
+          "warranty": "Lifetime segun fabricante",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Proveedor CVA no publico desglose de sucursal; stock total 86.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-1721", "stock": 86, "price": 33.63, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es cableado estructurado.", "Proveedor CVA no publica sucursal en el feed actual."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "482 x 43 x 48 mm", "netWeight": "0.76 kg"},
+        "sourceRefs": [
+          {"title": "Intellinet 520959 Cat6 patch panel", "type": "manufacturer_spec", "url": "https://intellinetnetwork.eu/products/intellinet-en-cat6-patch-panel-520959"},
+          {"title": "TVC Intellinet 520959", "type": "marketplace_spec", "url": "https://tvc.mx/products/40036/intellinet-520959-panel-parcheo-cat-6-24-ptos-1-niv-ra"},
+          {"title": "Electroprice provider stock AC-1721", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6ihqm4kqmy6dpko",
+      "research": {
+        "confidence": 0.88,
+        "brand": "BRobotix",
+        "name": "BRobotix 406306 soporte antirrobo ajustable para laptop hasta 17.3 pulgadas con candado y llave plata",
+        "description": "Soporte antirrobo ajustable BRobotix 406306 para laptop hasta 17.3 pulgadas, color plata, estructura metalica, candado con llave y rango de ajuste reportado de 29.5 a 45 cm.",
+        "manualCategoryPath": "computo/accesorios/soportes-laptop/antirrobo-ajustables",
+        "semanticCategoryPath": "computo/accesorios/soportes-laptop/antirrobo-ajustables/brobotix-406306",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://compupuebla.com/producto/soportes-brobotix-406306/",
+        "gallery": [
+          "https://compupuebla.com/producto/soportes-brobotix-406306/",
+          "https://intercompras.com/p/soporte-antirrobo-brobotix-a-45cm-laptop-438787",
+          "https://www.cyberpuerta.mx/Computadoras/Accesorios-para-Laptops/Bases-para-Laptops/BRobotix-Soporte-Antirrobo-para-Laptop-17-3-Plata.html"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BROBOTIX",
+          "model": "406306",
+          "ean": "7503055406306",
+          "providerSku": "ACCRBT8990",
+          "productType": "Soporte antirrobo para laptop",
+          "compatibility": "Laptops hasta 17.3 pulgadas",
+          "material": "Metal",
+          "color": "Plata",
+          "adjustable": "Si",
+          "adjustmentRange": "29.5 a 45 cm probable",
+          "contents": "Soporte con candado, tornillo de fijacion, 2 llaves",
+          "lockable": "Si",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 5, DFA 2.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 2}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCRBT8990", "stock": 7, "price": 49.59, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es accesorio/soporte.", "Algunas fuentes alternan mm y cm para el rango de ajuste; por uso fisico se interpreta como cm.", "Una fuente contradice candado/ajuste; se priorizan CompuPuebla, Intercompras y Cyberpuerta."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "245 x 105 x 110 mm", "netWeight": "508 g"},
+        "sourceRefs": [
+          {"title": "CompuPuebla BRobotix 406306", "type": "marketplace_spec", "url": "https://compupuebla.com/producto/soportes-brobotix-406306/"},
+          {"title": "Intercompras BRobotix 406306", "type": "marketplace_spec", "url": "https://intercompras.com/p/soporte-antirrobo-brobotix-a-45cm-laptop-438787"},
+          {"title": "Electroprice provider stock ACCRBT8990", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    }
+  ]
+}
