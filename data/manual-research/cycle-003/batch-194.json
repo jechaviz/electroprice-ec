@@ -1,0 +1,880 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b194-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 194,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3g625od7w3ryxcs",
+      "research": {
+        "confidence": 0.9,
+        "brand": "PACIFIC SOFT",
+        "name": "Pacific Soft PSF010 software punto de venta para restaurantes",
+        "description": "Licencia Pacific Soft PSF010 de punto de venta para restaurantes, bares y establecimientos gastronomicos, con suite administrativa para ventas, almacenes, clientes, proveedores, gastos, tesoreria y facturacion web.",
+        "manualCategoryPath": "punto-de-venta/software-pos/restaurantes/pacific-soft-psf010",
+        "semanticCategoryPath": "punto-de-venta/software-pos/restaurantes/pacific-soft-psf010",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://pacificsoft.com.mx/ecosistema/punto-de-venta/restaurante/",
+        "gallery": [
+          "https://imagedelivery.net/wExMwKP1304LY2ReXCyTPg/dacb8056-3f5e-4f9e-c25e-72160868d200/w%3D400%2Ch%3D275",
+          "https://ctonline.mx/img/productos/KITPSF010.jpg"
+        ],
+        "specs": {
+          "brand": "PACIFIC SOFT",
+          "model": "PSF010",
+          "providerSku": "KITPSF010",
+          "productType": "Software POS / punto de venta para restaurantes",
+          "targetBusiness": [
+            "restaurantes",
+            "bares",
+            "establecimientos gastronomicos con o sin mesas",
+            "autoservicio"
+          ],
+          "modules": [
+            "ventas",
+            "almacenes",
+            "clientes y cuentas por cobrar",
+            "proveedores y cuentas por pagar",
+            "gastos y tesoreria",
+            "facturacion web",
+            "apps complementarias"
+          ],
+          "minimumRequirements": [
+            "Windows 10 Profesional",
+            "8 GB RAM",
+            "procesador Core i3"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "KITPSF010",
+              "stock": 0,
+              "price": 4968.98,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es software/licencia POS.",
+            "PCDigital muestra existencia externa, pero Electroprice/CTOnline reporta stock 0."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "digitalDelivery": true,
+          "physicalDimensions": null,
+          "weightKg": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Pacific Soft official site",
+            "type": "manufacturer",
+            "url": "https://pacificsoft.com.mx/"
+          },
+          {
+            "title": "Pacific Soft restaurantes",
+            "type": "manufacturer",
+            "url": "https://pacificsoft.com.mx/ecosistema/punto-de-venta/restaurante/"
+          },
+          {
+            "title": "PCDigital PSF010",
+            "type": "retailer_spec",
+            "url": "https://www.pcdigital.com.mx/software-pacific-soft-de-punto-de-venta-para-restaurantes-psf010/"
+          },
+          {
+            "title": "GlobalOffice PSF010",
+            "type": "retailer_spec",
+            "url": "https://globaloffice.com.mx/app/detalle/producto/sistema-para-puntos-de-venta/software-de-punto-de-venta-para-restaurantes-psf0/psf010"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3g8o6r0uqn8jlud",
+      "research": {
+        "confidence": 0.91,
+        "brand": "SOLA BASIC ISB",
+        "name": "Sola Basic ISB 15-81-120-8000 corrector de voltaje 8000VA 120V",
+        "description": "Corrector electromagnetico de voltaje Sola Basic ISB 15-81-120-8000 de 8000 VA / 8 KVA para instalaciones monofasicas 120/127 V, con gabinete de lamina de acero, soporte de pared e indicadores frontales.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/correctores-electromagneticos/8000va/sola-basic-15-81-120-8000",
+        "semanticCategoryPath": "energia/regulacion-electrica/correctores-voltaje/electromagneticos/8000va/sola-basic-15-81-120-8000",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://regulatronic.mx/catalogo/15-81-120-8000/",
+        "gallery": [
+          "https://www.grupocva.com/detalle_articulo/1710694.jpg",
+          "https://energiayredes.com/wp-content/uploads/1710694.jpg"
+        ],
+        "specs": {
+          "brand": "SOLA BASIC ISB",
+          "model": "15-81-120-8000",
+          "providerSku": "RE-62",
+          "ean": "660077600000",
+          "productType": "Corrector / regulador electromagnetico de voltaje",
+          "capacity": "8000 VA / 8 KVA",
+          "system": "Monofasico",
+          "input": "127 V nominal; rango 85 a 147 V; 60 +/- 3 Hz",
+          "output": "102 a 129 V",
+          "maxCurrent": "Hasta 60 A segun ficha comercial",
+          "powerFactor": "0.98 minimo",
+          "efficiency": "99%",
+          "cabinet": "Lamina de acero con pintura a prueba de intemperie",
+          "mounting": "Soporte para pared",
+          "connections": "Tablilla de entrada/salida",
+          "indicators": "Luminosos frontales",
+          "useCases": [
+            "casa habitacion",
+            "refrigeradores",
+            "lavadoras",
+            "alumbrado",
+            "bombeo",
+            "planchas",
+            "aire acondicionado"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "RE-62",
+              "stock": 0,
+              "price": 4766.63,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; pertenece a energia/regulacion electrica.",
+            "Una fuente lista dimensiones 43 x 44.7 x 25.5 cm; se priorizan 38 x 24 x 29.2 cm por repeticion en fichas comerciales."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "38 x 24 x 29.2 cm",
+          "weight": "18.9 kg",
+          "widthCm": 38,
+          "depthCm": 24,
+          "heightCm": 29.2,
+          "weightKg": 18.9
+        },
+        "sourceRefs": [
+          {
+            "title": "GlobalOffice Sola Basic 8000VA",
+            "type": "retailer_spec",
+            "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/reguladores-y-ups/regulador-industrias-sola-basic-8000-va-regulador/15-81-120-8000"
+          },
+          {
+            "title": "TiendaClic Sola Basic 8000VA",
+            "type": "retailer_spec",
+            "url": "https://www.tiendaclic.mx/ver-detalle/corrector-de-voltaje-sola-basic-isb-8000-va-sola-basic-isb-15-81-120-8000"
+          },
+          {
+            "title": "Energia y Redes Sola Basic 8000VA",
+            "type": "retailer_spec",
+            "url": "https://energiayredes.com/corrector-de-voltaje-sola-basic-isb-8000-va-er/"
+          },
+          {
+            "title": "Regulatronic 15-81-120-8000",
+            "type": "retailer_spec",
+            "url": "https://regulatronic.mx/catalogo/15-81-120-8000/"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3inajih8ch982ed",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BACO",
+        "name": "BACO PL008 plastilina azul oscuro marqueta 180 g No. 56",
+        "description": "Plastilina BACO PL008 en marqueta de 180 gramos color azul oscuro No. 56, material escolar maleable, no toxico y envuelto en pelicula BOPP.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/plastilina/marqueta-180g",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/modelado/plastilina/marqueta-180g/baco-pl008-azul-oscuro",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://proesa.com/cdn/shop/files/art_600076_01_1000x.jpg?v=1754170133"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "PL008",
+          "providerSku": "ACCBAC4010",
+          "ean": "7501174965254",
+          "productType": "Plastilina / marqueta escolar",
+          "content": "180 g",
+          "color": "Azul oscuro / azul obscuro",
+          "colorNumber": "56",
+          "features": [
+            "envuelta en pelicula BOPP",
+            "maleable",
+            "sin manchar",
+            "no toxica"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCBAC4010",
+              "stock": 0,
+              "price": 12.83,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a papeleria/material escolar.",
+            "Proesa y CityShop muestran disponibilidad externa, pero Electroprice/CTOnline reporta stock 0."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "netWeight": "180 g",
+          "physicalDimensions": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Proesa BACO PL008",
+            "type": "retailer_spec",
+            "url": "https://proesa.com/products/plastilina-marqueta-180g-baco-r-pieza-pl003-pl016-pl044-pl009-pl008-ptpla0046-ptpla0038-pl002-pl011-pl046-pl004-pl017-pl013-pl006-pl005-pl019-pl007-pl048-pl018-pl014-pl015-7501174965209-7501174965407-7501174964561-7501174965261-7501174965254-750117496529"
+          },
+          {
+            "title": "CityShop PL008",
+            "type": "retailer_spec",
+            "url": "https://cityshop.mx/producto/plastilina-baco-maqueta-180-gramos-color-azul-obscuro-clave-pl008-no-56"
+          },
+          {
+            "title": "TiendaClic PL008",
+            "type": "retailer_spec",
+            "url": "https://www.tiendaclic.mx/ver-detalle/plastilina-baco-pl008"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3jbm8sq1tkq8ub2",
+      "research": {
+        "confidence": 0.89,
+        "brand": "DELL",
+        "name": "Dell N_VOSDTM2_N1_P3 garantia Vostro 3000 1Y Basic Onsite a 3Y ProSupport",
+        "description": "Extension de soporte Dell N_VOSDTM2_N1_P3 para Vostro desktops 3000, upgrade de 1 ano Basic Onsite incluido a 3 anos ProSupport. Requiere validar Service Tag y condiciones regionales de soporte.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/vostro-3000/1y-basic-onsite-a-3y-prosupport",
+        "semanticCategoryPath": "it-services/support-warranties/dell/prosupport/vostro-3000/1y-basic-onsite-to-3y-prosupport",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contractservices/es-mx/",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-DELL-N_VOSDTM2_N1_P3-4e1d0d.jpg",
+          "https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_VOSDTM2_N1_P3-4e1d0d.jpg"
+        ],
+        "documents": [
+          "https://www.dell.com/content/dam/digitalassets/active/en/unauth/quick-reference-guides/services/dell-prosupport-suite-for-pcs-comparison-chart-commercial.pdf"
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_VOSDTM2_N1_P3",
+          "providerSku": "POL-7687",
+          "productType": "Poliza / extension de garantia y soporte",
+          "service": "1Y Basic Onsite to 3Y ProSupport",
+          "targetProductFamily": "Dell Vostro desktops 3000",
+          "durationYears": 3,
+          "supportLevel": "ProSupport",
+          "supportFeatures": [
+            "soporte tecnico 24x7",
+            "reparacion onsite siguiente dia habil tras diagnostico remoto"
+          ],
+          "requiresSerialValidation": true,
+          "delivery": "Servicio digital vinculado a Service Tag",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-7687",
+              "stock": 0,
+              "price": 1186.13,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es una poliza/servicio de garantia.",
+            "Cyberpuerta y Abasteo reportan agotado; Electroprice/CVA tambien reporta stock 0."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "digitalDelivery": true,
+          "physicalDimensions": null,
+          "weightKg": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Icecat Dell N_VOSDTM2_N1_P3",
+            "type": "catalog_spec",
+            "url": "https://icecat.es/p/dell/n_vosdtm2_n1_p3/warranty%2B-%2Bsupport%2Bextensions-1y%2Bbasic%2Bonsite%2Bto%2B3y%2Bprospt-106158095.html"
+          },
+          {
+            "title": "Cyberpuerta Dell ProSupport Vostro 3000",
+            "type": "retailer_spec",
+            "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-ProSupport-para-Computadoras-Vostro-3000.html"
+          },
+          {
+            "title": "Dell ProSupport comparison",
+            "type": "manufacturer_terms",
+            "url": "https://www.dell.com/content/dam/digitalassets/active/en/unauth/quick-reference-guides/services/dell-prosupport-suite-for-pcs-comparison-chart-commercial.pdf"
+          },
+          {
+            "title": "Abasteo Dell ProSupport Vostro 3000",
+            "type": "retailer_spec",
+            "url": "https://www.abasteo.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-ProSupport-para-Computadoras-Vostro-3000.html"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3kgtyntx4mxdhay",
+      "research": {
+        "confidence": 0.92,
+        "brand": "ACTECK",
+        "name": "Acteck Energon S-Mate CI740 AC-937139 cargador inalambrico 3 en 1 Qi 15W",
+        "description": "Cargador inalambrico Acteck Energon S-Mate CI740 AC-937139 de escritorio, 3 en 1 magnetico para smartphone Qi/iPhone, Apple Watch y AirPods, con potencia hasta 15 W y puerto USB-C.",
+        "manualCategoryPath": "energia/cargadores-inalambricos/3-en-1",
+        "semanticCategoryPath": "energia/cargadores-inalambricos/3-en-1/acteck-energon-s-mate-ci740",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/cargador-inamambrico-energon-s-mate-ci740-3-en-1-magnetico",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-937139_9.webp?v=1746467855&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937139-U.webp?v=1746467855&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937139_7.webp?v=1746467855&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937139_6.webp?v=1746467855&width=1000"
+        ],
+        "documents": [
+          "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-937139_MANUAL_WEB.pdf?v=1699979540"
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "CI740",
+          "partNumber": "AC-937139",
+          "providerSku": "AC-11774",
+          "ean": "7506215937139",
+          "productType": "Cargador inalambrico Qi 3 en 1",
+          "wirelessCharging": true,
+          "devices": 3,
+          "outputPower": "15 W movil/iPhone, 5 W AirPods, 3 W Apple Watch",
+          "input": "5V a 12V, 2A max",
+          "port": "USB-C",
+          "cableIncluded": "USB-A a USB-C",
+          "material": "ABS",
+          "color": "Negro",
+          "compatibility": [
+            "iPhone 12/13/14/15",
+            "Apple Watch",
+            "AirPods",
+            "telefonos Qi"
+          ],
+          "warranty": "1 ano",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "AC-11774",
+              "stock": 0,
+              "price": 260.3,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a cargadores de energia movil.",
+            "El feed muestra CI740; fichas previas/sindicadas a veces escriben CI7407 para el mismo part number AC-937139."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "130 x 100 x 123 mm",
+          "weight": "159 g",
+          "widthMm": 130,
+          "depthMm": 100,
+          "heightMm": 123,
+          "weightKg": 0.159
+        },
+        "sourceRefs": [
+          {
+            "title": "Acteck CI740 official",
+            "type": "manufacturer",
+            "url": "https://acteck.com/products/cargador-inamambrico-energon-s-mate-ci740-3-en-1-magnetico"
+          },
+          {
+            "title": "Acteck AC-937139 manual",
+            "type": "manual",
+            "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-937139_MANUAL_WEB.pdf?v=1699979540"
+          },
+          {
+            "title": "Cyberpuerta Acteck CI740",
+            "type": "retailer_spec",
+            "url": "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/Acteck-Cargador-Inalambrico-Energon-S-Mate-CI740-15W-1x-USB-C-Negro.html"
+          },
+          {
+            "title": "TiendaClic Acteck AC-937139",
+            "type": "retailer_spec",
+            "url": "https://www.tiendaclic.mx/ver-detalle/cargador-acteck-energon-s-mate-ci740-inalambrico-qi-15-w-3-dispositivos-compatible-con-apple-ac-937139-acteck-ac-9371397506215937139"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3kz2gw6gu4zigox",
+      "research": {
+        "confidence": 0.9,
+        "brand": "AZOR",
+        "name": "Azor Signal 30006 marcador permanente naranja punto fino caja 12 piezas",
+        "description": "Marcador permanente Azor Signal 30006 color naranja, punto fino tipo bala de 1.5 mm, tinta base alcohol, resistente al agua, no toxico y presentacion en caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fino/naranja/12-piezas",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fino/naranja/12-piezas/azor-30006",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/signal-punto-fino/",
+        "gallery": [
+          "https://images.pcel.com/600/Especiales-Articulos-de-Escritura-AZOR-30006-449108-cBSPtbt6ZBl16mMV.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-30006-marcador-permanente-azor-signal-30006.webp"
+        ],
+        "specs": {
+          "brand": "AZOR",
+          "model": "30006",
+          "providerSku": "ACCAZR610",
+          "ean": "7501428700792",
+          "productType": "Marcador permanente",
+          "line": "Signal Fino",
+          "inkColor": "Naranja",
+          "pointType": "Punto fino / punta de bala",
+          "tipWidth": "1.5 mm",
+          "inkType": "Base alcohol",
+          "waterResistant": true,
+          "nonToxic": true,
+          "writingLength": "450 m",
+          "barrel": "Plastico con grip ahulado",
+          "packageQuantity": 12,
+          "packageType": "Caja",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCAZR610",
+              "stock": 0,
+              "price": 107.89,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a papeleria/escritura.",
+            "Medidas/peso encontrados solo para familia relacionada, no confirmados para UPC 7501428700792."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "relatedFamilyDimensions": "14 x 9.5 x 3 cm",
+          "relatedFamilyWeight": "0.160 kg",
+          "measurementConfidence": "media-baja; familia Signal, no confirmado para el UPC exacto"
+        },
+        "sourceRefs": [
+          {
+            "title": "Azor Signal Punto Fino",
+            "type": "manufacturer",
+            "url": "https://web.azor.com.mx/index.php/producto/signal-punto-fino/"
+          },
+          {
+            "title": "PCEL Azor 30006",
+            "type": "retailer_spec",
+            "url": "https://www.pcel.com/AZOR-30006-Marcador-Permanente-Azor-Signal-30006-de-punto-fina-color-naranja-Paquete-con-12-piezas-449108"
+          },
+          {
+            "title": "PCStore Azor 30006",
+            "type": "retailer_spec",
+            "url": "https://pcstore.mx/marcador-azor-30006-permanente-signal-naranja-punto-fino-paquete-con-12-piezas"
+          },
+          {
+            "title": "Intercompras Azor Signal 30006",
+            "type": "retailer_spec",
+            "url": "https://intercompras.com/p/marcador-azor-signal-fino-punto-fino-naranja-piezas-231259"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3lt1h3f2vuenfvh",
+      "research": {
+        "confidence": 0.91,
+        "brand": "PROVISION-ISR",
+        "name": "Provision-ISR PR-JB14IP64 caja de conexiones IP64 para camaras CCTV",
+        "description": "Caja de conexiones Provision-ISR PR-JB14IP64 color blanco para camaras AHD/IP tipo I6, DAI-VF y DI-VF, con proteccion IP64 y dimensiones 132 x 38.5 mm.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip64/provision-pr-jb14ip64",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip64/provision-pr-jb14ip64",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://provision-isr.com/wp-content/uploads/2025/08/catalogue-2025-Digital-1.pdf",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCPVS730_full-600x600.jpg",
+          "https://images.pcel.com/s/Electronica-Camaras-de-Vigilancia-PROVISION-ISR-PR-JB14IP64-403568-qazcDwkgSHBZ0Lzh.jpg",
+          "https://images.pcel.com/600/Electronica-Camaras-de-Vigilancia-PROVISION-ISR-PR-JB14IP64-403568-qazcDwkgSHBZ0Lzh.jpg"
+        ],
+        "specs": {
+          "brand": "PROVISION-ISR",
+          "model": "PR-JB14IP64",
+          "providerSku": "ACCPVS730",
+          "upc": "619317411883",
+          "productType": "Caja de conexiones / junction box para camaras CCTV",
+          "protectionRating": "IP64",
+          "color": "Blanco",
+          "compatibility": [
+            "I6 bullet",
+            "DAI-VF dome anti-vandal",
+            "DI-VF turret dome",
+            "AHD/IP con lente VF/MVF"
+          ],
+          "compatibleAccessories": [
+            "PR-WB14",
+            "PR-CB14",
+            "PR-B50PB",
+            "PR-B50ECB"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCPVS730",
+              "stock": 0,
+              "price": 8.56,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a seguridad/CCTV.",
+            "PCEL reporta disponibilidad externa, pero Electroprice/CTOnline reporta stock 0."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "132 x 38.5 mm",
+          "weight": "215 g",
+          "diameterMm": 132,
+          "heightMm": 38.5,
+          "weightKg": 0.215
+        },
+        "sourceRefs": [
+          {
+            "title": "PCEL Provision-ISR PR-JB14IP64",
+            "type": "retailer_spec",
+            "url": "https://www.pcel.com/PROVISION-ISR-PR-JB14IP64-Caja-Provision-ISR-PR-JB14IP64-de-Conexiones-Para-Camaras-Tipo-AHD-IP-IP64-Color-Blanco-403568"
+          },
+          {
+            "title": "MacToner ACCPVS730",
+            "type": "retailer_spec",
+            "url": "https://www.mactoner.com.mx/producto/caja-de-conexiones-provision-isr-pr-jb14ip64/"
+          },
+          {
+            "title": "Delton Global PR-JB14IP64",
+            "type": "retailer_spec",
+            "url": "https://www.deltonglobal.com/126434"
+          },
+          {
+            "title": "Provision-ISR catalogue 2025",
+            "type": "manufacturer_catalog",
+            "url": "https://provision-isr.com/wp-content/uploads/2025/08/catalogue-2025-Digital-1.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3mj7u16wgxmqds6",
+      "research": {
+        "confidence": 0.9,
+        "brand": "UNI PAINT",
+        "name": "uni-ball Uni Paint PX-20 marcador permanente blanco base aceite",
+        "description": "Marcador permanente de pintura uni-ball Uni Paint PX-20 color blanco, tinta base aceite, punta bala/acrilica de trazo medio 2.2 a 2.8 mm, cuerpo de aluminio y uso sobre metal, vidrio, plastico, madera, papel, tela y piedra.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/industriales/base-aceite/uni-paint-px20-blanco",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/industriales/base-aceite/uni-paint-px20-blanco",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mpuni.co.jp/products/felt_tip_pens/oil_based/paint_marker/standard/px_20.html",
+        "gallery": [
+          "https://ofixmx.vtexassets.com/arquivos/ids/179430-800-auto?aspect=true&height=auto&v=639144390318330000&width=800",
+          "https://www.cyberpuerta.mx/img/product/S/CP-AZOR-446048-7fe7cf.jpg",
+          "https://www.mpuni.co.jp/products/app_product_images/186866000.jpg"
+        ],
+        "specs": {
+          "brand": "UNI PAINT",
+          "manufacturer": "Mitsubishi Pencil / uni-ball",
+          "model": "PX-20 White / PX20BL / PX20.1",
+          "providerSku": "ACCAZR770",
+          "jan": "4902778000014",
+          "productType": "Marcador permanente de pintura",
+          "color": "Blanco",
+          "inkType": "Base aceite",
+          "tip": "Punta bala/acrilica, trazo medio",
+          "strokeWidth": "2.2 - 2.8 mm",
+          "surfaces": [
+            "metal",
+            "vidrio",
+            "plastico",
+            "madera",
+            "papel",
+            "tela",
+            "piedra"
+          ],
+          "properties": [
+            "resistente al agua",
+            "resistente a la luz/decoloracion",
+            "secado rapido",
+            "permanente"
+          ],
+          "bodyMaterial": "Aluminio",
+          "origin": "Vietnam",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCAZR770",
+              "stock": 0,
+              "price": 685.62,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a papeleria/marcadores.",
+            "Algunas fichas MX reportan 1.0 mm o base de agua; se prioriza Mitsubishi/uni-ball con base aceite y 2.2-2.8 mm.",
+            "Cyberpuerta muestra paquete de 12 piezas, mientras el feed indica venta individual."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "aprox. 15 x 15 x 143 mm",
+          "weight": "21.8 a 26.736 g",
+          "diameterMm": 15.1,
+          "lengthMm": 143,
+          "weightKg": 0.0267
+        },
+        "sourceRefs": [
+          {
+            "title": "Mitsubishi Pencil PX-20",
+            "type": "manufacturer",
+            "url": "https://www.mpuni.co.jp/products/felt_tip_pens/oil_based/paint_marker/standard/px_20.html"
+          },
+          {
+            "title": "uni-ball UK PX-20",
+            "type": "manufacturer",
+            "url": "https://uniball.co.uk/brands/paint/uni-ball-medium-paint-marker-px-20/"
+          },
+          {
+            "title": "ANA Mall PX20.1",
+            "type": "retailer_spec",
+            "url": "https://anamall.ana.co.jp/shop/g/g0296-PX20-1-TN/"
+          },
+          {
+            "title": "Ofix PX20BL",
+            "type": "retailer_spec",
+            "url": "https://www.ofix.mx/marcador-permanente-uni-paint-marker-blanco-px-20---uniball-305-px20bl/p"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3n4ubsilb9iwrwm",
+      "research": {
+        "confidence": 0.92,
+        "brand": "PEERLESS-AV",
+        "name": "Peerless-AV PLP-UNL placa adaptadora universal para pantallas 32 a 90 pulgadas",
+        "description": "Placa adaptadora universal Peerless-AV PLP-UNL para montaje de pantallas planas de 32 a 90 pulgadas, soporta hasta 150 lb / 68.2 kg, orientacion horizontal o vertical y patron VESA hasta 600 x 400 mm.",
+        "manualCategoryPath": "accesorios/montaje-soportes/audio-video/adaptadores-pantalla/peerless-plp-unl",
+        "semanticCategoryPath": "accesorios/montaje-soportes/audio-video/adaptadores-pantalla/peerless-plp-unl",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://peerless-av.com/products/plp-unl",
+        "gallery": [
+          "https://peerless-av.com/_product-assets/en-us/11199581/Maximum.jpg"
+        ],
+        "specs": {
+          "brand": "PEERLESS-AV",
+          "model": "PLP-UNL",
+          "providerSku": "AC-8501",
+          "upc": "735029241331",
+          "productType": "Placa adaptadora / mounting plate para pantallas",
+          "deviceSupported": "Pantalla plana",
+          "screenSize": "32 a 90 pulgadas",
+          "maxLoad": "150 lb / 68.2 kg",
+          "orientation": "Horizontal o vertical",
+          "vesaCompatible": true,
+          "mountingPattern": "200 x 200 mm minimo; hasta 600 x 400 mm",
+          "material": "Acero laminado en frio",
+          "color": "Negro con recubrimiento powder coat",
+          "included": [
+            "adaptadores universales en forma de I",
+            "hardware de montaje",
+            "hardware de montaje en pantalla",
+            "llave"
+          ],
+          "certifications": [
+            "UL",
+            "TAA",
+            "RoHS"
+          ],
+          "warranty": "5 anos",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "AC-8501",
+              "stock": 0,
+              "price": 1292,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual gaming es incorrecta; corresponde a accesorios de montaje AV.",
+            "El feed no incluye ubicacion granular de proveedor."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "24.38 x 16.78 x 0.71 in / 619 x 426 x 18 mm",
+          "weight": "5.17 lb / 2.34 kg",
+          "widthMm": 619,
+          "heightMm": 426,
+          "depthMm": 18,
+          "weightKg": 2.34
+        },
+        "sourceRefs": [
+          {
+            "title": "Peerless-AV PLP-UNL",
+            "type": "manufacturer",
+            "url": "https://peerless-av.com/products/plp-unl"
+          },
+          {
+            "title": "Stands and Mounts PLP-UNL",
+            "type": "retailer_spec",
+            "url": "https://www.standsandmounts.com/PeerlessAVAdaptorPlates-PLP-UNL.aspx"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3o7dv78a1dyr66n",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HP",
+        "name": "HP DesignJet T830 F9A28D multifuncional gran formato 24 pulgadas",
+        "description": "Impresora multifuncional HP DesignJet T830 F9A28D de gran formato 24 pulgadas para imprimir, copiar y escanear, con tecnologia HP Thermal Inkjet, roll feed, sheet feed, cortador automatico, Ethernet Gigabit, Wi-Fi y Wi-Fi Direct.",
+        "manualCategoryPath": "impresion/impresoras/gran-formato/multifuncionales/24-pulgadas/hp-designjet-t830",
+        "semanticCategoryPath": "impresion/impresoras/gran-formato/multifuncionales/24-pulgadas/hp-designjet-t830",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hp.com/ve-es/products/large-format-printers/product-details/product-specifications/34956016",
+        "gallery": [
+          "https://www.bhphotovideo.com/images/images500x500/hp_f9a28d_b1k_designjet_t830_24_wireless_1615290383_1622923.jpg"
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "DesignJet T830 24-in",
+          "manufacturerPartNumber": "F9A28D",
+          "providerSku": "PLOHPD435",
+          "productType": "Multifuncional inkjet de gran formato / plotter",
+          "functions": [
+            "print",
+            "copy",
+            "scan"
+          ],
+          "printTechnology": "HP Thermal Inkjet",
+          "maxPrintWidth": "24 in / 610 mm",
+          "printSpeed": "26 sec/page en A1; 81 impresiones A1/hora",
+          "printResolution": "Hasta 2400 x 1200 optimized dpi",
+          "inks": "4 cartuchos: cyan, magenta, yellow dye-based; matte black pigment-based",
+          "mediaHandling": [
+            "sheet feed",
+            "roll feed",
+            "input tray",
+            "media bin",
+            "automatic horizontal cutter"
+          ],
+          "mediaRollWidth": "279 - 610 mm",
+          "maxRollWeight": "4.1 kg",
+          "scanner": "Sheetfed CIS, front-load",
+          "scanResolution": "Hasta 600 dpi",
+          "maxScanSize": "610 mm x 2.77 m",
+          "connectivity": [
+            "Gigabit Ethernet",
+            "Wi-Fi 802.11b/g/n",
+            "Wi-Fi Direct",
+            "USB 2.0 high-speed certified connector"
+          ],
+          "mobilePrint": [
+            "HP ePrint",
+            "Apple AirPrint",
+            "HP Smart app"
+          ],
+          "memory": "1 GB",
+          "power": "35 W printing, 3.5 W sleep, 0.2 W off",
+          "boxContents": [
+            "HP DesignJet T830 24-in MFP",
+            "printhead",
+            "ink cartridges",
+            "printer stand",
+            "spindle",
+            "quick reference guide",
+            "setup poster",
+            "startup software",
+            "power cord",
+            "refeed preventers"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "PLOHPD435",
+              "stock": 0,
+              "price": 71341,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es plotter/multifuncional de gran formato.",
+            "El feed no aporta ubicacion granular de proveedor."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "1098 x 605 x 1155 mm",
+          "weight": "46.7 kg",
+          "packageDimensions": "1310 x 570 x 645 mm",
+          "packageWeight": "65.7 kg",
+          "widthMm": 1098,
+          "depthMm": 605,
+          "heightMm": 1155,
+          "weightKg": 46.7
+        },
+        "sourceRefs": [
+          {
+            "title": "HP DesignJet T830 specifications",
+            "type": "manufacturer",
+            "url": "https://www.hp.com/ve-es/products/large-format-printers/product-details/product-specifications/34956016"
+          },
+          {
+            "title": "HP Store DesignJet T830 F9A28D",
+            "type": "manufacturer",
+            "url": "https://www.hp.com/us-en/shop/pdp/hp-designjet-t830-24-in-multifunction-printer-f9a28d-b1k"
+          },
+          {
+            "title": "B&H HP DesignJet T830",
+            "type": "retailer_spec",
+            "url": "https://www.bhphotovideo.com/c/product/1622923-REG/hp_f9a28d_b1k_designjet_t830_24_wireless.html"
+          }
+        ]
+      }
+    }
+  ]
+}

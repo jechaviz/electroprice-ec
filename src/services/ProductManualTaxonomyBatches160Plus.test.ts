@@ -342,6 +342,16 @@ const batch160PlusCases = [
   ["Soft Restaurant Movil comandero con Lenovo Tab One TB305FU 8.7 pulgadas", "SOFT RESTAURANT", "punto-de-venta/software-pos/restaurantes/comandero-movil/tablet-android/lenovo-tab-one-8-7", "software"],
   ["Lenovo ThinkStation P3 Ultra SFF Gen 2 PA0012 Core Ultra 9 RTX 2000 Ada 5Y Onsite", "LENOVO", "computo/desktops/workstations/lenovo-thinkstation-p3-ultra-sff-gen-2/pa0012-5y-onsite", "desktops"],
   ["Meriva Streamax M4PIN 7M cable Tipo-B para camara MCA20D ADAS", "MERIVA TECHNOLOGY", "seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m4pin", "cameras"],
+  ["Pacific Soft PSF010 software punto de venta para restaurantes", "PACIFIC SOFT", "punto-de-venta/software-pos/restaurantes/pacific-soft-psf010", "software"],
+  ["Sola Basic ISB 15-81-120-8000 corrector de voltaje 8000VA 120V", "SOLA BASIC ISB", "energia/supresores-reguladores/reguladores-voltaje/correctores-electromagneticos/8000va/sola-basic-15-81-120-8000", "power"],
+  ["BACO PL008 plastilina azul oscuro marqueta 180 g No. 56", "BACO", "oficina/papeleria/material-escolar/plastilina/marqueta-180g", "accessories"],
+  ["Dell N_VOSDTM2_N1_P3 garantia Vostro 3000 1Y Basic Onsite a 3Y ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/vostro-3000/1y-basic-onsite-a-3y-prosupport", "software"],
+  ["Acteck Energon S-Mate CI740 AC-937139 cargador inalambrico 3 en 1 Qi 15W", "ACTECK", "energia/cargadores-inalambricos/3-en-1", "accessories"],
+  ["Azor Signal 30006 marcador permanente naranja punto fino caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/permanentes/signal-fino/naranja/12-piezas", "accessories"],
+  ["Provision-ISR PR-JB14IP64 caja de conexiones IP64 para camaras CCTV", "PROVISION-ISR", "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip64/provision-pr-jb14ip64", "security"],
+  ["uni-ball Uni Paint PX-20 marcador permanente blanco base aceite", "UNI PAINT", "oficina/papeleria/marcadores/permanentes/industriales/base-aceite/uni-paint-px20-blanco", "accessories"],
+  ["Peerless-AV PLP-UNL placa adaptadora universal para pantallas 32 a 90 pulgadas", "PEERLESS-AV", "accesorios/montaje-soportes/audio-video/adaptadores-pantalla/peerless-plp-unl", "accessories"],
+  ["HP DesignJet T830 F9A28D multifuncional gran formato 24 pulgadas", "HP", "impresion/impresoras/gran-formato/multifuncionales/24-pulgadas/hp-designjet-t830", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
