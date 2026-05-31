@@ -74,6 +74,13 @@ const normalizeBranchLocation = (branch, fallbackProviderId = '') => ({
   source: 'provider_branch_summary',
 });
 
+const sumStock = (stockItems) => stockItems.reduce((sum, item) => sum + Math.max(0, Number(item.stock) || 0), 0);
+
+const resolveWholesalerStock = (product, research = {}) => {
+  const researchedStock = toArray(research.wholesalerStock);
+  return researchedStock.length ? researchedStock : toArray(valueOf(product, 'wholesaler_stock'));
+};
+
 const parseBranchSummary = (product) => {
   const specs = toObject(product.specs);
   const summary = String(specs['Stock Location If Available'] || '').trim();
@@ -135,7 +142,12 @@ export const buildProductCurationPatch = (product, options = {}) => {
   const manualCategory = classifyManualCategory(product);
   const specs = inferMeasurementSpecs(product);
   const research = options.research || {};
-  const stockLocations = summarizeStockLocations(product, research);
+  const wholesalerStock = resolveWholesalerStock(product, research);
+  const hasWholesalerStockOverride = Boolean(toArray(research.wholesalerStock).length);
+  const stockAwareProduct = hasWholesalerStockOverride
+    ? { ...product, wholesaler_stock: wholesalerStock, total_stock: sumStock(wholesalerStock) }
+    : product;
+  const stockLocations = summarizeStockLocations(stockAwareProduct, research);
   const manualCategoryPath = research.manualCategoryPath || manualCategory.path;
   const legacyCategory = research.legacyCategory || manualCategory.legacyCategory;
   const categoryReviewStatus = PRODUCT_CATEGORY_REVIEW_STATUSES.has(research.categoryReviewStatus)
@@ -152,7 +164,8 @@ export const buildProductCurationPatch = (product, options = {}) => {
     stock_locations: stockLocations,
     curation_sources: toArray(research.sourceRefs),
     last_curated_at: options.now || new Date().toISOString(),
-    ...resolveAvailabilityPatch(product, options),
+    ...(hasWholesalerStockOverride ? { wholesaler_stock: wholesalerStock } : {}),
+    ...resolveAvailabilityPatch(stockAwareProduct, options),
   };
 
   if (research.name && research.confidence >= 0.8) fields.name = research.name;

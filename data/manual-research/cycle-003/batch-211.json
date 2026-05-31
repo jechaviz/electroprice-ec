@@ -1,0 +1,263 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b211-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 211,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "dsskrlhcv2rhot9",
+      "research": {
+        "confidence": 0.96,
+        "brand": "EPSON",
+        "name": "Epson S041062 Presentation Matte papel carta 8.5 x 11 100 hojas",
+        "description": "Papel Epson Presentation Matte S041062 tamano carta, acabado mate, paquete con 100 hojas para impresoras de inyeccion de tinta; se corrige la descripcion de proveedor que lo confundia con papel lustre.",
+        "manualCategoryPath": "impresion/consumibles/papel/presentation-matte/carta-100-hojas/epson-s041062",
+        "semanticCategoryPath": "impresion/consumibles/papel/presentation-matte/carta-100-hojas/epson-s041062",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-hogar/Papel/Presentaci%C3%B3n/Papel-Presentation-Matte/m/S041062",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10486806", "https://epson.com.mx/Content/Images/Product/Paper/S041062_1.png"],
+        "documents": [{ "label": "Epson Presentation Paper Matte fact sheet", "type": "manufacturer_pdf", "url": "https://www.freestylephoto.com/static/pdf/pages/product_pdfs/epson/Presentation_Paper_Matte_FactSheet.pdf" }],
+        "specs": {
+          "brand": "EPSON", "model": "S041062", "providerSku": "CN-5363", "alternateProviderSkus": ["PAPEPS360"], "upc": "010343812024", "productType": "Papel mate inkjet para presentacion", "paperLine": "Presentation Paper Matte", "size": "8.5 x 11 in / 21.6 x 27.9 cm", "count": "100 hojas", "basisWeight": "27 lb / 102 g/m2", "thickness": "4.9 mil", "brightness": "90% ISO", "opacity": "90%", "finish": "Mate", "countryOfOrigin": "Japon", "printerCompatibility": "Impresoras de inyeccion de tinta Epson y compatibles con papel matte inkjet", "sourceDiscrepancies": ["El proveedor lo describia como papel fotografico/lustre; Epson lo clasifica como Presentation Matte."], "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; CVA reporta 0 en sucursales/cedis publicos.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPEPS360", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 245.9, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:619" }, { "providerId": "cva", "providerSku": "CN-5363", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 237.48, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:1:CN-5363" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "sheetSize": "8.5 x 11 in / 21.6 x 27.9 cm", "packageDimensions": "8.80 x 0.60 x 11.40 in / 22.4 x 1.5 x 29.0 cm", "packageWeight": "1.55 lb / 0.70 kg" },
+        "sourceRefs": [
+          { "title": "Epson Mexico S041062", "type": "manufacturer", "url": "https://epson.com.mx/Para-el-hogar/Papel/Presentaci%C3%B3n/Papel-Presentation-Matte/m/S041062" },
+          { "title": "Epson US S041062", "type": "manufacturer", "url": "https://epson.com/For-Home/Paper/Presentation/Presentation-Paper-Matte/m/S041062" },
+          { "title": "CVA feed CN-5363 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" },
+          { "title": "CTOnline feed PAPEPS360 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "t24h0m5gty8htt9",
+      "research": {
+        "confidence": 0.92,
+        "brand": "PCM",
+        "name": "PCM DS00113000B Data Stock papel continuo 9.5 x 11 1 tanto 3000 hojas",
+        "description": "Papel stock forma continua PCM Data Stock DS00113000B blanco, formato 9.5 x 11 pulgadas, 1 tanto, caja con 3000 hojas para impresoras de matriz de punto y formas administrativas.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/1-tanto/pcm-ds00113000b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/1-tanto",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPCM030/PAPPCM030_full.jpg", "https://www.pcm.com.mx/hubfs/psfc.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-PCM-DS00113000B-1.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "DS00113000B", "providerSku": "PAPPCM030", "ean": "7501604380824", "productType": "Papel stock forma continua", "series": "Data Stock", "sheetSize": "9.5 x 11 in", "parts": "1 tanto", "quantity": "3000 hojas", "color": "Blanco", "paperWeight": "65 g/m2 reportado por distribuidores", "printerCompatibility": "Impresoras de matriz de punto para formas continuas", "useCases": ["Reportes", "Facturas", "Estados de cuenta", "Remisiones", "Recibos"], "sourceDiscrepancies": ["Algunos distribuidores reportan carbon para 1 tanto; se conserva como dato no canonico porque la familia PCM usa bond/autocopia."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para PAPPCM030.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPPCM030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 711.77, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:627" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Colmenero publico 35 disponibles en CDMX.", "Coavsi publico disponibilidad en Guadalupe, Zacatecas."]
+        },
+        "measurements": { "sheetSize": "9.5 x 11 in / 241.3 x 279.4 mm" },
+        "sourceRefs": [
+          { "title": "PCM papel stock forma continua", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua" },
+          { "title": "Intercompras PCM DS00113000B", "type": "retailer_spec", "url": "https://intercompras.com/p/papel-impresion-pcm-ds00113000b-x-in-papel-stock-blanco-maxima-95234" },
+          { "title": "Cityshop PCM DS00113000B", "type": "retailer_spec", "url": "https://cityshop.mx/producto/papel-para-impresion-pcm-ds00113000b-data-stock-9%C2%BD-x-11-1t-c3000-bco" },
+          { "title": "CTOnline feed PAPPCM030 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "opuskwpj2ywmh08",
+      "research": {
+        "confidence": 0.92,
+        "brand": "PCM",
+        "name": "PCM DS00121500B Data Stock papel continuo 9.5 x 11 2 tantos 1500 juegos",
+        "description": "Papel stock forma continua PCM Data Stock DS00121500B blanco, formato 9.5 x 11 pulgadas, 2 tantos, caja con 1500 juegos para impresion matricial.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/2-tantos/pcm-ds00121500b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/2-tantos",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPCM050/PAPPCM050_full.jpg", "https://www.pcm.com.mx/hubfs/psfc.jpg", "https://coavsi.com.mx/uploads/_/PAPPCM050.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "DS00121500B", "providerSku": "PAPPCM050", "ean": "7501604380831", "productType": "Papel stock forma continua", "series": "Data Stock", "sheetSize": "9.5 x 11 in", "parts": "2 tantos", "quantity": "1500 juegos", "color": "Blanco", "paperWeight": "65 g/m2 reportado por distribuidores", "copyMedia": "Autocopia/blanco-blanco por familia PCM; carbon reportado por algunos canales como dato a validar", "printerCompatibility": "Impresoras de matriz de punto", "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para PAPPCM050.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPPCM050", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1061.18, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:628" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Colmenero publico 6 disponibles en CDMX.", "Coavsi publica sucursal Guadalupe, Zacatecas."]
+        },
+        "measurements": { "sheetSize": "9.5 x 11 in / 241.3 x 279.4 mm", "channelWeight": "1 kg reportado por PCredcom, baja confianza" },
+        "sourceRefs": [
+          { "title": "PCM papel stock forma continua", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua" },
+          { "title": "Coavsi PCM DS00121500B", "type": "retailer_spec", "url": "https://coavsi.com.mx/productos/z-2683" },
+          { "title": "PCredcom PCM DS00121500B", "type": "retailer_spec", "url": "https://pcredcom.com/papel-para-impresion-pcm-data-stock-9-x-11-2t-c-1500-bco-sl-pappcm050.html" },
+          { "title": "CTOnline feed PAPPCM050 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gksrx4jyyv6ulbv",
+      "research": {
+        "confidence": 0.9,
+        "brand": "PCM",
+        "name": "PCM DS0014750B Data Stock papel continuo 9.5 x 11 4 tantos 750 juegos",
+        "description": "Papel stock forma continua PCM Data Stock DS0014750B blanco, formato 9.5 x 11 pulgadas, 4 tantos, caja con 750 juegos para documentos administrativos multicopia.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/4-tantos/pcm-ds0014750b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/4-tantos",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPCM090/PAPPCM090_full.jpg", "https://www.pcm.com.mx/hubfs/psfc.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-PCM-DS0014750B-05c5dc.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "DS0014750B", "providerSku": "PAPPCM090", "productType": "Papel stock forma continua", "series": "Data Stock", "sheetSize": "9.5 x 11 in", "parts": "4 tantos", "quantity": "750 juegos", "color": "Blanco", "paperWeight": "50 g/m2 reportado por Cyberpuerta", "copyMedia": "Autocopia/NCR blanco-blanco inferido por familia PCM", "printerCompatibility": "Impresoras de matriz de punto", "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para PAPPCM090.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPPCM090", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1129.41, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:629" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Cyberpuerta, MiPC y Cityshop lo muestran agotado o sin existencia publica."]
+        },
+        "measurements": { "sheetSize": "9.5 x 11 in / 241.3 x 279.4 mm" },
+        "sourceRefs": [
+          { "title": "PCM papel stock forma continua", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua" },
+          { "title": "Cyberpuerta PCM DS0014750B", "type": "retailer_spec", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Papeles-para-Impresoras/Papel-Stock/PCM-Papel-Stock-4-Tantos-750-Hojas-de-9-5-x-11-Blanco.html" },
+          { "title": "MiPC PCM DS0014750B", "type": "retailer_spec", "url": "https://mipc.com.mx/papel-para-impresion-pcm-ds0014750b-papel-stock-color-blanco.html" },
+          { "title": "CTOnline feed PAPPCM090 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8mrvqyx4nidtpc9",
+      "research": {
+        "confidence": 0.92,
+        "brand": "PCM",
+        "name": "PCM DS00223000B Data Stock papel continuo 9.5 x 5.5 2 tantos 3000 juegos",
+        "description": "Papel stock forma continua PCM Data Stock DS00223000B blanco, media carta 9.5 x 5.5 pulgadas, 2 tantos, caja con 3000 juegos para impresoras matriciales.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/2-tantos/pcm-ds00223000b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/2-tantos",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPCM110/PAPPCM110_full.jpg", "https://www.pcm.com.mx/hubfs/psfc.jpg", "https://ofixmx.vtexassets.com/arquivos/ids/166035-800-auto?aspect=true&height=auto&v=638417631254800000&width=800"],
+        "specs": {
+          "brand": "PCM", "model": "DS00223000B", "providerSku": "PAPPCM110", "ean": "7501604306282", "productType": "Papel stock forma continua", "series": "Data Stock", "sheetSize": "9.5 x 5.5 in", "parts": "2 tantos", "quantity": "3000 juegos", "color": "Blanco", "copyMedia": "Papel carbon intercalado reportado por Ofix; familia PCM usa bond/autocopia", "printerCompatibility": "Impresoras de matriz de punto", "sourceDiscrepancies": ["GlobalOffice publica UPC 7501604300013 para el mismo SKU; se conserva 7501604306282 como EAN de feed y resellers mayoritarios."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para PAPPCM110.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPPCM110", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1061.18, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:630" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Intercompras publico 80 disponibles con recoleccion Mexico/Culiacan/Monterrey.", "Cityshop publico 55 piezas."]
+        },
+        "measurements": { "sheetSize": "9.5 x 5.5 in / 241.3 x 139.7 mm", "packageDimensions": "33.5 x 26.5 x 31.5 cm reportado por Ectronic, baja confianza" },
+        "sourceRefs": [
+          { "title": "PCM papel stock forma continua", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua" },
+          { "title": "Ofix PCM DS00223000B", "type": "retailer_spec", "url": "https://www.ofix.mx/papel-stock-9-5x5-5-1-2cta-blanco-2tt-3000jgs-pcm---pcm-ds00223000b/p" },
+          { "title": "Intercompras PCM DS00223000B", "type": "retailer_stock", "url": "https://intercompras.com/p/papel-data-stock-pcm-ds00223000b-103449" },
+          { "title": "CTOnline feed PAPPCM110 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a8zn9jpe9t75j76",
+      "research": {
+        "confidence": 0.95,
+        "brand": "KODAK ALARIS",
+        "name": "Kodak Alaris ScanMate i940 escaner documental duplex ADF USB",
+        "description": "Escaner documental portatil Kodak Alaris ScanMate i940 con ADF de 20 hojas, duplex, resolucion optica 600 dpi y volumen diario recomendado de hasta 1000 paginas.",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/portatiles/kodak-scanmate-i940",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/portatiles/kodak-scanmate-i940",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kodakalaris.com/es/scanners/scanmate-i940-scanner",
+        "gallery": ["https://static.ctonline.mx/imagenes/SCAKDK200/SCAKDK200_full.jpg", "https://www.kodakalaris.com/sites/default/files/2025-01/SCANMATE%20i940%20Scanner.png", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/SCAKDK200_full.jpg"],
+        "documents": [{ "label": "Kodak ScanMate i940 brochure ES", "type": "manufacturer_pdf", "url": "https://www.kodakalaris.com/sites/default/files/2025-03/KODAK-i940-Scanner-Brochure-ES.pdf" }],
+        "specs": {
+          "brand": "KODAK ALARIS", "model": "ScanMate i940", "manufacturerPartNumber": "1960988", "providerSku": "SCAKDK200", "upc": "041771960988", "productType": "Escaner documental portatil", "scannerType": "ADF duplex", "adfCapacity": "Hasta 20 hojas", "dailyDutyCycle": "Hasta 1000 paginas", "opticalResolution": "600 dpi", "outputResolution": "Hasta 1200 dpi", "speedAC": "Hasta 20 ppm / 40 ipm B/N o grises; color hasta 15 ppm / 30 ipm", "speedUsbPower": "Hasta 8 ppm / 16 ipm", "documentSize": "80 x 52 mm a 216 x 1524 mm", "paperWeight": "30 a 398 g/m2", "cardThickness": "Hasta 1.2-1.25 mm", "drivers": ["TWAIN", "ISIS", "WIA", "Linux TWAIN/SANE", "Mac"], "interfaces": ["USB 2.0 compatible USB 3.x"], "sourceDiscrepancies": ["La pagina oficial ES tiene un probable typo i941 en cuerpo; titulo, MPN, PDF y UPC apuntan a i940.", "Bechtle reporta 500 paginas/dia; Kodak oficial/PDF reporta 1000."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para SCAKDK200.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "SCAKDK200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 191.05, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:910" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["MacToner publica SCAKDK200 sin existencias en Roma Norte CDMX.", "Bechtle confirma MPN/EAN pero producto no disponible."]
+        },
+        "measurements": { "dimensions": "289 x 78 x 107 mm", "weight": "1.3 kg sin adaptador" },
+        "sourceRefs": [
+          { "title": "Kodak Alaris ScanMate i940", "type": "manufacturer", "url": "https://www.kodakalaris.com/es/scanners/scanmate-i940-scanner" },
+          { "title": "Kodak i940 brochure ES", "type": "manufacturer_pdf", "url": "https://www.kodakalaris.com/sites/default/files/2025-03/KODAK-i940-Scanner-Brochure-ES.pdf" },
+          { "title": "MacToner Kodak ScanMate i940 SCAKDK200", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/escaner-kodak-scanmate-i940-1960988-1000-paginas/" },
+          { "title": "CTOnline feed SCAKDK200 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bdcjm9l24z6upk1",
+      "research": {
+        "confidence": 0.95,
+        "brand": "ZEBRA",
+        "name": "Zebra 10010028 Z-Perform 2000D etiquetas termicas directas 2 x 1 caja 6 rollos",
+        "description": "Etiquetas Zebra Z-Perform 2000D de papel termico directo blanco, medida 2 x 1 pulgada, nucleo 1 pulgada, diametro exterior 5 pulgadas, 2340 etiquetas por rollo y 6 rollos por caja.",
+        "manualCategoryPath": "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/z-perform-2000d/2x1-10010028",
+        "semanticCategoryPath": "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/z-perform-2000d/2x1-10010028",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zebra.com/content/dam/zebra_dam/en/spec-sheets/z-perform-2000d-spec-sheet-en-us.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCETI340/ACCETI340_full.jpg"],
+        "documents": [{ "label": "Zebra Z-Perform 2000D spec sheet", "type": "manufacturer_pdf", "url": "https://www.zebra.com/content/dam/zebra_dam/en/spec-sheets/z-perform-2000d-spec-sheet-en-us.pdf" }, { "label": "Zebra ZipShip catalog", "type": "manufacturer_catalog", "url": "https://www.zebra.com/content/dam/zebra_dam/en/brochure/portfolio/zipship-brochure-catalog-en-us.pdf" }],
+        "wholesalerStock": [{ "wholesalerId": "tgg7bun9chh7pvg", "providerSku": "ACCETI340", "stock": 17, "stockStatus": "in_stock", "price": 69.09, "currency": "USD", "priceKind": "customer_price", "sourceSurface": "ctonline_public_catalog", "deliveryEtaDays": 0, "deliveryStatus": "quote_pending", "taxStatus": "unknown", "lastSyncedAt": "2026-05-31T00:00:00Z", "evidenceHash": "manual-web-c003-b211:ctonline-public:ACCETI340" }],
+        "specs": {
+          "brand": "ZEBRA", "model": "10010028", "providerSku": "ACCETI340", "previousProviderSku": "ACCZBR2190", "productType": "Etiqueta termica directa", "mediaLine": "Z-Perform 2000D", "labelSize": "2 x 1 in / 50.8 x 25.4 mm", "core": "1 in", "outerDiameter": "5 in", "labelsPerRoll": 2340, "rollsPerCase": 6, "labelsPerCase": 14040, "material": "Papel blanco termico directo top-coated", "adhesive": "Acrilico permanente all-temp", "ribbonRequired": false, "perforated": true, "printerCompatibility": "Impresoras Zebra termicas directas desktop/industrial/mobile compatibles con nucleo 1 in y OD 5 in", "skuMappingConflict": true, "stockConflictResolved": true, "sourceDiscrepancies": ["El registro venia con providerSku ACCZBR2190, pero fuentes CTOnline publicas asocian 10010028 con ACCETI340. ACCZBR2190 corresponde a otro part number 10026381."], "providerBranchSummary": "CTOnline ACCETI340 stock 17 distribuido en D2A:8,ZAC:5,LMO:1,CHI:1,MOR:1,TAM:1; se corrige stock respecto al SKU erroneo ACCZBR2190.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCETI340", "warehouseCode": "D2A", "country": "MX", "stock": 8 }, { "providerId": "ctonline", "providerSku": "ACCETI340", "warehouseCode": "ZAC", "country": "MX", "stock": 5 }, { "providerId": "ctonline", "providerSku": "ACCETI340", "warehouseCode": "LMO", "country": "MX", "stock": 1 }, { "providerId": "ctonline", "providerSku": "ACCETI340", "warehouseCode": "CHI", "country": "MX", "stock": 1 }, { "providerId": "ctonline", "providerSku": "ACCETI340", "warehouseCode": "MOR", "country": "MX", "stock": 1 }, { "providerId": "ctonline", "providerSku": "ACCETI340", "warehouseCode": "TAM", "country": "MX", "stock": 1 }], "providerStockVerifiedAt": "2026-05-31T00:00:00Z"
+        },
+        "measurements": { "labelSize": "2 x 1 in / 50.8 x 25.4 mm", "core": "1 in", "outerDiameter": "5 in", "caseWeight": "10 lb segun catalogo Zebra ZipShip" },
+        "sourceRefs": [
+          { "title": "Zebra Z-Perform 2000D spec sheet", "type": "manufacturer_pdf", "url": "https://www.zebra.com/content/dam/zebra_dam/en/spec-sheets/z-perform-2000d-spec-sheet-en-us.pdf" },
+          { "title": "Zebra ZipShip catalog 10010028", "type": "manufacturer_catalog", "url": "https://www.zebra.com/content/dam/zebra_dam/en/brochure/portfolio/zipship-brochure-catalog-en-us.pdf" },
+          { "title": "CTOnline ACCETI340 10010028", "type": "provider_stock", "url": "https://ctonline.mx/Accesorios-y-Consumibles-POS/Etiquetas/ZEBRA/ACCETI340/11056/" }
+        ]
+      }
+    },
+    {
+      "product_id": "p21f543xsl387ph",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ZEBRA",
+        "name": "Zebra 104523-210 tarjetas PVC Premier blancas CR-80 10 mil caja 500",
+        "description": "Tarjetas Zebra Premier PVC blancas CR-80 10 mil / 0.25 mm, caja con 500 tarjetas para impresoras Zebra de credenciales compatibles.",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/zebra-104523-210",
+        "semanticCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/zebra-104523-210",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zebra.com/la/es/products/supplies/cards.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCZBR460/ACCZBR460_full.jpg", "https://www.barcodefactory.com/images/category/104523-210.jpg"],
+        "documents": [{ "label": "Zebra ZXP Series 7 specs", "type": "manufacturer_pdf", "url": "https://medialibrary.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/Printers/Card%20Printers/zxp-series-7/spec-sheet/zxp-series-7-spec-sheet-en-us.pdf" }],
+        "specs": {
+          "brand": "ZEBRA", "model": "104523-210", "providerSku": "ACCZBR460", "ctonlineSubstituteSku": "11178", "productType": "Tarjetas PVC para credenciales", "cardType": "Premier PVC blank white CR-80", "thickness": "10 mil / 0.25 mm", "quantity": "500 tarjetas", "magStripe": "No indicada", "printerCompatibility": "Impresoras Zebra de tarjetas compatibles con CR-80 10 mil; ZXP Series 7 soporta 10-50 mil", "sourceDiscrepancies": ["PCredcom reporta 1 kg y BarcodeFactory 7 lb; peso de empaque no se toma como canonico."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para ACCZBR460.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCZBR460", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 39.84, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:932" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["MacToner y PCredcom publican sin existencia; BarcodeFactory publica precio en USD."]
+        },
+        "measurements": { "cardSize": "CR-80 aprox. 3.375 x 2.125 in / 86 x 54 mm", "thickness": "10 mil / 0.25 mm", "weight": "No canonico por discrepancia de resellers" },
+        "sourceRefs": [
+          { "title": "Zebra cards supplies", "type": "manufacturer", "url": "https://www.zebra.com/la/es/products/supplies/cards.html" },
+          { "title": "BarcodeFactory Zebra 104523-210", "type": "authorized_retailer_spec", "url": "https://www.barcodefactory.com/zebra/supplies/id-cards/104523-210" },
+          { "title": "ZXP Series 7 spec sheet", "type": "manufacturer_pdf", "url": "https://medialibrary.zebra.com/content/dam/zebra_new_ia/en-us/solutions-verticals/product/Printers/Card%20Printers/zxp-series-7/spec-sheet/zxp-series-7-spec-sheet-en-us.pdf" },
+          { "title": "CTOnline feed ACCZBR460 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ghqztmo5ye9o5qs",
+      "research": {
+        "confidence": 0.92,
+        "brand": "PCM",
+        "name": "PCM DS00131000B Data Stock papel continuo 9.5 x 11 3 tantos 1000 juegos",
+        "description": "Papel stock forma continua PCM Data Stock DS00131000B blanco, formato 9.5 x 11 pulgadas, 3 tantos, caja con 1000 juegos para impresion matricial.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/3-tantos/pcm-ds00131000b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/3-tantos",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPCM060/PAPPCM060_full.jpg", "https://www.pcm.com.mx/hubfs/psfc.jpg", "https://www.cyberpuerta.mx/img/product/M/CP-PCM-DS00131000B-1.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "DS00131000B", "providerSku": "PAPPCM060", "alternateProviderSkus": ["SL-PAPPCM060"], "ean": "7501604380848", "productType": "Papel stock forma continua", "series": "Data Stock", "sheetSize": "9.5 x 11 in", "parts": "3 tantos", "quantity": "1000 juegos", "color": "Blanco", "copyMedia": "Autocopia/NCR blanco-blanco inferido por familia PCM", "printerCompatibility": "Impresoras de matriz de punto", "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para PAPPCM060.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPPCM060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1072.94, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:951" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Exacto DS00131000B aparece agotado en varios resellers; equivalentes 10R4247 reportan existencia publica en Cityshop/LaptopStore/ITLogic."]
+        },
+        "measurements": { "sheetSize": "9.5 x 11 in / 241.3 x 279.4 mm", "channelWeight": "1 kg reportado por PCredcom, baja confianza" },
+        "sourceRefs": [
+          { "title": "PCM papel stock forma continua", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua" },
+          { "title": "PCredcom PCM DS00131000B", "type": "retailer_spec", "url": "https://pcredcom.com/papel-para-impresion-pcm-ds00131000b-data-stock-9-x-11-3t-c-1000-bco-sl-pappcm060.html" },
+          { "title": "Ofix PCM DS00131000B", "type": "retailer_spec", "url": "https://www.ofix.mx/papel-stock-9-5x11-blanco-3tt-1000jgs-pcm---pcm-ds00131000b/p" },
+          { "title": "CTOnline feed PAPPCM060 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "dukdofdu1y17nj9",
+      "research": {
+        "confidence": 0.92,
+        "brand": "PCM",
+        "name": "PCM DS00216000B Data Stock papel continuo 9.5 x 5.5 1 tanto 6000 hojas",
+        "description": "Papel stock forma continua PCM Data Stock DS00216000B blanco, media carta 9.5 x 5.5 pulgadas, 1 tanto, caja con 6000 hojas para impresoras de matriz de punto.",
+        "manualCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/1-tanto/pcm-ds00216000b",
+        "semanticCategoryPath": "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/1-tanto",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua",
+        "gallery": ["https://static.ctonline.mx/imagenes/PAPPCM100/PAPPCM100_full.jpg", "https://www.pcm.com.mx/hubfs/psfc.jpg", "https://ofixmx.vtexassets.com/arquivos/ids/166032-800-auto?aspect=true&height=auto&v=638417637050870000&width=800"],
+        "specs": {
+          "brand": "PCM", "model": "DS00216000B", "providerSku": "PAPPCM100", "ean": "7501604306220", "alternateEans": ["7501604300020"], "productType": "Papel stock forma continua", "series": "Data Stock", "sheetSize": "9.5 x 5.5 in", "parts": "1 tanto", "quantity": "6000 hojas", "color": "Blanco", "paperWeight": "68 g/m2 reportado por Abasteo/Cyberpuerta", "printerCompatibility": "Impresoras de matriz de punto", "sourceDiscrepancies": ["Exel/Colmenero listan UPC 7501604300020; CTI/PCStore y el feed usan 7501604306220."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para PAPPCM100.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPPCM100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 711.77, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:952" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Intercompras publico 150 disponibles con recoleccion Mexico/Culiacan/Monterrey.", "Cityshop publico 118 piezas.", "Colmenero publico 8 unidades en CDMX."]
+        },
+        "measurements": { "sheetSize": "9.5 x 5.5 in / 241.3 x 139.7 mm", "roundedMetricSize": "140 x 240 mm reportado por Abasteo/Cyberpuerta", "channelWeight": "1 kg reportado por PCredcom, baja confianza" },
+        "sourceRefs": [
+          { "title": "PCM papel stock forma continua", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-stock-forma-continua" },
+          { "title": "Ofix PCM DS00216000B", "type": "retailer_spec", "url": "https://www.ofix.mx/papel-stock-9-5x5-5-1-2cta-blanco-1tt-6000hjs-pcm---pcm-ds00216000b/p" },
+          { "title": "Intercompras PCM DS00216000B", "type": "retailer_stock", "url": "https://intercompras.com/p/papel-pcm-serie-ds00216000b-formato-estandar-blanco-alta-durabilidad-95914" },
+          { "title": "CTOnline feed PAPPCM100 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

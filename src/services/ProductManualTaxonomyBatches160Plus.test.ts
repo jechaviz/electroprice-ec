@@ -512,6 +512,16 @@ const batch160PlusCases = [
   ["Manhattan Time Square 421430 maletin portafolio laptop 15.4 negro", "MANHATTAN", "computo/accesorios/mochilas-fundas/maletines-laptop/15-4/manhattan-times-square-421430", "accessories"],
   ["Epson S041385 Doubleweight Matte Paper rollo 24 x 82 180 g", "EPSON", "impresion/consumibles/papel-plotter/mate/doubleweight/rollos-24in-82ft/epson-s041385", "printers_scanners"],
   ["Epson S041405 Ultra Premium Photo Paper Luster carta 50 hojas", "EPSON", "impresion/consumibles/papel-fotografico/luster/carta-50-hojas/epson-s041405", "printers_scanners"],
+  ["Epson S041062 Presentation Matte papel carta 8.5 x 11 100 hojas", "EPSON", "impresion/consumibles/papel/presentation-matte/carta-100-hojas/epson-s041062", "printers_scanners"],
+  ["PCM DS00113000B Data Stock papel continuo 9.5 x 11 1 tanto 3000 hojas", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/1-tanto/pcm-ds00113000b", "printers_scanners"],
+  ["PCM DS00121500B Data Stock papel continuo 9.5 x 11 2 tantos 1500 juegos", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/2-tantos/pcm-ds00121500b", "printers_scanners"],
+  ["PCM DS0014750B Data Stock papel continuo 9.5 x 11 4 tantos 750 juegos", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/4-tantos/pcm-ds0014750b", "printers_scanners"],
+  ["PCM DS00223000B Data Stock papel continuo 9.5 x 5.5 2 tantos 3000 juegos", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/2-tantos/pcm-ds00223000b", "printers_scanners"],
+  ["Kodak Alaris ScanMate i940 escaner documental duplex ADF USB", "KODAK ALARIS", "impresion/escaneres/documentales/adf/duplex/portatiles/kodak-scanmate-i940", "printers_scanners"],
+  ["Zebra 10010028 Z-Perform 2000D etiquetas termicas directas 2 x 1 caja 6 rollos", "ZEBRA", "impresion/consumibles/etiquetas-papel/termicas-directas/zebra/z-perform-2000d/2x1-10010028", "printers_scanners"],
+  ["Zebra 104523-210 tarjetas PVC Premier blancas CR-80 10 mil caja 500", "ZEBRA", "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/zebra-104523-210", "accessories"],
+  ["PCM DS00131000B Data Stock papel continuo 9.5 x 11 3 tantos 1000 juegos", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/3-tantos/pcm-ds00131000b", "printers_scanners"],
+  ["PCM DS00216000B Data Stock papel continuo 9.5 x 5.5 1 tanto 6000 hojas", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/1-tanto/pcm-ds00216000b", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
