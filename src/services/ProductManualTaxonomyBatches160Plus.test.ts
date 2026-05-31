@@ -522,6 +522,16 @@ const batch160PlusCases = [
   ["Zebra 104523-210 tarjetas PVC Premier blancas CR-80 10 mil caja 500", "ZEBRA", "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/zebra-104523-210", "accessories"],
   ["PCM DS00131000B Data Stock papel continuo 9.5 x 11 3 tantos 1000 juegos", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x11/3-tantos/pcm-ds00131000b", "printers_scanners"],
   ["PCM DS00216000B Data Stock papel continuo 9.5 x 5.5 1 tanto 6000 hojas", "PCM", "impresion/consumibles/papel/formas-continuas/data-stock/9-5x5-5/1-tanto/pcm-ds00216000b", "printers_scanners"],
+  ["Canon PF-03 2251B003AC cabezal imagePROGRAF negro", "CANON", "impresion/refacciones/cabezales/inkjet/canon-imageprograf/pf-03-2251b003ac", "printers_scanners"],
+  ["Enson ENS-DC14 distribuidor corriente tipo pulpo 1 a 4 CCTV", "ENSON", "seguridad/cctv/accesorios-alimentacion/distribuidores-dc/1-a-4/enson-ens-dc14", "cameras"],
+  ["Koblenz 45-0995-00-6 tarjeta SNMP para UPS", "KOBLENZ", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/koblenz-45-0995-00-6", "power"],
+  ["Vorago CLN-101 espuma limpiadora antibacterial 400 ml", "VORAGO", "computo/accesorios/limpieza/espumas/antibacterial/vorago-cln-101", "accessories"],
+  ["Zebra 104524-101 Premier Plus tarjetas PVC CR80 30 mil 500", "ZEBRA", "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/zebra-premier-plus-104524-101", "accessories"],
+  ["Tripp Lite SRCAGENUTS kit M6 tuercas enjauladas 50 juegos", "TRIPP-LITE", "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas/m6/tripp-lite-srcagenuts", "networking"],
+  ["Tripp Lite SRCAGENUTS1224 kit 12-24 tuercas enjauladas 50 juegos", "TRIPP-LITE", "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas/12-24/tripp-lite-srcagenuts1224", "networking"],
+  ["DataShield PC-3704 tarjeta SNMP interna para UPS UT-6000", "DATASHIELD", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/datashield-pc-3704", "power"],
+  ["CyberPower BP36V60ART2U modulo baterias externo 36V 60A 2U", "CYBERPOWER", "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/36v/cyberpower-bp36v60art2u", "power"],
+  ["PCM 10B2 papel bond plotter 0.61 x 100 m", "PCM", "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m/pcm-10b2", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

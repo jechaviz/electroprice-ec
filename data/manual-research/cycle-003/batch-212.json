@@ -1,0 +1,265 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b212-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 212,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "q67nwra4qa79p83",
+      "research": {
+        "confidence": 0.95,
+        "brand": "CANON",
+        "name": "Canon PF-03 cabezal de impresion para imagePROGRAF 2251B003AC negro",
+        "description": "Cabezal de impresion inkjet Canon PF-03 para plotters imagePROGRAF; se conserva como refaccion de gran formato y no como laptop.",
+        "manualCategoryPath": "impresion/refacciones/cabezales/inkjet/canon-imageprograf/pf-03-2251b003ac",
+        "semanticCategoryPath": "impresion/refacciones/cabezales/inkjet/canon-imageprograf",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.usa.canon.com/support/p/imageprograf-ipf605",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARCNN1970/CARCNN1970_full.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/CARCNN1970_full.jpg"],
+        "documents": [{ "label": "Canon imagePROGRAF iPF605 support", "type": "manufacturer_support", "url": "https://www.usa.canon.com/support/p/imageprograf-ipf605" }],
+        "specs": {
+          "brand": "CANON", "model": "PF-03", "mpn": "2251B003AC", "providerSku": "CARCNN1970", "upc": "013803089646", "productType": "Cabezal inkjet para plotter imagePROGRAF", "color": "Negro", "printSystem": "Canon FINE/PF-03", "nozzles": "30720 boquillas totales reportadas para sistemas imagePROGRAF PF-03", "nozzlePitch": "1200 dpi", "minimumDroplet": "4 pl", "maxResolution": "2400 x 1200 dpi en equipos compatibles", "compatibleSeries": ["imagePROGRAF iPF500", "iPF510", "iPF600", "iPF605", "iPF610", "iPF700", "iPF710", "iPF720", "iPF810", "iPF815", "iPF820", "iPF825"], "sourceDiscrepancies": ["B&H lista variante regional 2251B003AD con otro UPC; se conserva 2251B003AC/013803089646 por fuentes MX y feed."], "providerBranchSummary": "CTOnline stock 0; no se encontro sucursal granular publica para CARCNN1970.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "CARCNN1970", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9379.57, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:CARCNN1970" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["MacToner CARCNN1970 sin existencias.", "TiendaClic CARCNN1970 existencia 0.", "B&H muestra stock para variante 2251B003AD, no se usa para stock proveedor MX."]
+        },
+        "measurements": { "packageDimensions": "4.15 x 3.8 x 3.3 in / 10.5 x 9.7 x 8.4 cm", "packageWeight": "0.43 lb / 0.20 kg" },
+        "sourceRefs": [
+          { "title": "Canon imagePROGRAF iPF605 support", "type": "manufacturer_support", "url": "https://www.usa.canon.com/support/p/imageprograf-ipf605" },
+          { "title": "MacToner Canon PF-03 2251B003AC", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/cabezal-canon-pf-03-2251b003ac-negro/" },
+          { "title": "TiendaClic Canon 2251B003AC", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/cabezal-canon-2251b003ac" },
+          { "title": "CTOnline feed CARCNN1970 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "uptdw3pyqifa5q8",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ENSON",
+        "name": "Enson ENS-DC14 distribuidor de corriente DC tipo pulpo 1 a 4 para CCTV",
+        "description": "Cable distribuidor de corriente DC Enson ENS-DC14 para alimentar hasta 4 camaras CCTV desde una salida, con conectores 5.5 x 2.1 mm.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-alimentacion/distribuidores-dc/1-a-4/enson-ens-dc14",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-alimentacion/distribuidores-dc/1-a-4",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tecnosinergia.com/catalogo/item/ens-dc14.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMVA170/ACCMVA170_full.jpg", "https://4820964.app.netsuite.com/core/media/media.nl?id=3817&c=4820964&h=ekx42yuxB1baQJ09J8ApAQJG1iL9CzdhuKfvZfCOnclCClqi", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCMVA170_full.jpg"],
+        "specs": {
+          "brand": "ENSON", "model": "ENS-DC14", "providerSku": "ACCMVA170", "alternateProviderSkus": ["FPA02ENS01"], "upc": "0737787923351", "satCode": "43222602", "productType": "Distribuidor de corriente DC para CCTV", "channels": "1 entrada a 4 salidas", "connector": "DC 5.5 x 2.1 mm macho/hembra", "wireGauge": "22 AWG y 26 AWG", "cableLength": "40 cm", "jacket": "PVC negro", "replacementModel": "ENS-DC15 reportado como alternativa por Tecnosinergia", "providerBranchSummary": "CTOnline stock 0; Tecnosinergia publica inventario por sucursal pero no es el proveedor del registro actual.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMVA170", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1.32, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCMVA170" }], "externalProviderBranches": [{ "providerId": "tecnosinergia-public", "warehouse": "CDMX", "stock": 99 }, { "providerId": "tecnosinergia-public", "warehouse": "Queretaro", "stock": 17 }, { "providerId": "tecnosinergia-public", "warehouse": "Iztapalapa", "stock": 13 }, { "providerId": "tecnosinergia-public", "warehouse": "Puebla", "stock": 12 }, { "providerId": "tecnosinergia-public", "warehouse": "Merida", "stock": 9 }, { "providerId": "tecnosinergia-public", "warehouse": "Guadalajara", "stock": 3 }, { "providerId": "tecnosinergia-public", "warehouse": "Monterrey", "stock": 2 }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Tecnosinergia/GlobalOffice lo reportan de linea con inventario publico.", "PC Digital publica stock total 238; no se usa para stock CTOnline."]
+        },
+        "measurements": { "dimensions": "4 x 41 x 1 cm", "weight": "0.03 kg", "packageDimensions": "5 x 2 x 5 cm", "packageWeight": "0.04 kg" },
+        "sourceRefs": [
+          { "title": "Tecnosinergia Enson ENS-DC14", "type": "manufacturer_or_master_distributor", "url": "https://tecnosinergia.com/catalogo/item/ens-dc14.html" },
+          { "title": "GlobalOffice ENS-DC14", "type": "retailer_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/reguladores-y-ups/distribuidor-tipo-pulpo-enson-ens-dc14-de-1-a-4-ca/ens-dc14" },
+          { "title": "MacToner ACCMVA170", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/distribuidor-de-corriente-enson-ens-dc14-negro/" },
+          { "title": "CTOnline feed ACCMVA170 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ryeed9c3y3rxabo",
+      "research": {
+        "confidence": 0.95,
+        "brand": "KOBLENZ",
+        "name": "Koblenz 45-0995-00-6 tarjeta SNMP para administracion remota de UPS",
+        "description": "Tarjeta de red SNMP Koblenz para monitoreo, alertas y administracion remota de no-breaks/UPS compatibles.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/koblenz-45-0995-00-6",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.koblenz.com.mx/products/tarjeta-snmp",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCKBZ060/ACCKBZ060_full.jpg", "https://www.koblenz.com.mx/cdn/shop/files/TARJETASNMP.png?v=1752110133&width=1200", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-45-0995-00-6-tarjeta-snmp-koblenz-45-0995-00-6.webp"],
+        "specs": {
+          "brand": "KOBLENZ", "model": "45-0995-00-6", "alternateModel": "450995006", "providerSku": "ACCKBZ060", "productType": "Tarjeta SNMP para UPS", "networkPort": "RJ-45", "protocols": ["TCP/IP", "UDP", "SNMP", "SMTP", "SNTP", "HTTP/HTTPS", "SSL", "SSH", "IPv4/IPv6", "DHCP"], "features": ["Graficas de voltaje, frecuencia, carga y bateria", "Alertas por correo y trampas SNMP", "Registro historico", "Actualizacion de firmware", "Proteccion por contrasena", "Soporte para detector ambiental opcional"], "providerBranchSummary": "CTOnline stock 0; Koblenz/Cityshop/TiendaClic/AztecaCompras reportan 0 o agotado.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCKBZ060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 226.67, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCKBZ060" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Koblenz oficial agotado.", "Cityshop y TiendaClic muestran 0 piezas.", "AztecaCompras reporta disponible 0."]
+        },
+        "measurements": { "dimensions": "14 x 7 x 1 cm", "weight": "0.30 kg", "packageDimensions": "18 x 7.5 x 1.5 cm", "packageWeight": "0.50 kg" },
+        "sourceRefs": [
+          { "title": "Koblenz tarjeta SNMP", "type": "manufacturer", "url": "https://www.koblenz.com.mx/products/tarjeta-snmp" },
+          { "title": "AztecaCompras Koblenz 45-0995-00-6", "type": "retailer_spec", "url": "https://www.aztecacompras.com/mx0000086626-koblenz-45-0995-00-6-tarjeta-snmp-.html" },
+          { "title": "Cityshop Koblenz 45-0995-00-6", "type": "retailer_stock", "url": "https://cityshop.mx/producto/tarjeta-snmp-koblenz-45-0995-00-6" },
+          { "title": "CTOnline feed ACCKBZ060 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "duv4or6y8wla67h",
+      "research": {
+        "confidence": 0.95,
+        "brand": "VORAGO",
+        "name": "Vorago CLN-101 espuma limpiadora antibacterial 400 ml para equipos de computo",
+        "description": "Espuma limpiadora Vorago CLN-101 para superficies externas de equipos de computo; se complementa con ficha tecnica y HDS.",
+        "manualCategoryPath": "computo/accesorios/limpieza/espumas/antibacterial/vorago-cln-101",
+        "semanticCategoryPath": "computo/accesorios/limpieza/espumas/antibacterial",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/espuma-limpiadora-vorago-400grs-cln-101.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCVGO030/ACCVGO030_full.jpg", "https://voragolive.com/media/catalog/product/c/l/cln-101-wh-01.jpg", "https://voragolive.com/media/catalog/product/c/l/cln-101-wh-03.jpg"],
+        "documents": [{ "label": "Vorago CLN-101 ficha tecnica", "type": "manufacturer_pdf", "url": "https://voragolive.com/media/vorago/descargables/cln-10196271660669172.pdf" }, { "label": "Vorago CLN-101 HDS", "type": "safety_datasheet", "url": "https://voragolive.com/media/vorago/descargables/cln-10194641597964100.pdf" }],
+        "specs": {
+          "brand": "VORAGO", "model": "CLN-101", "providerSku": "ACCVGO030", "ean": "7502266670186", "productType": "Espuma limpiadora para electronica", "content": "454 g / 400 ml", "color": "Plata", "surfaceUse": "Superficies externas y cubiertas de equipos", "properties": ["Antiestatica", "Antibacterial", "Proteccion UV", "Aroma", "Acabado brillante"], "ingredients": ["Agua desionizada", "Jabones blandos", "Limoneno", "Dimetilpolisiloxano", "HCFC 13%"], "safety": "Aerosol inflamable ONU 1950 segun HDS; no catalogar como no inflamable.", "ph": "7.48", "density": "0.9625 g/ml", "conductivity": "760 uS", "providerBranchSummary": "CTOnline stock 0; Mactoner/CompuPuebla/Oasify agotado, Vorago Live y PCDigital muestran disponibilidad externa.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCVGO030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2.82, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCVGO030" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Vorago Live muestra stock disponible.", "PCDigital reporta 413 en existencia.", "Mactoner y CompuPuebla sin existencia."]
+        },
+        "measurements": { "packageDimensions": "10 x 6 x 21 cm", "packageWeight": "0.9 kg", "content": "454 g / 400 ml" },
+        "sourceRefs": [
+          { "title": "Vorago Live CLN-101", "type": "manufacturer", "url": "https://voragolive.com/espuma-limpiadora-vorago-400grs-cln-101.html" },
+          { "title": "Vorago CLN-101 ficha tecnica", "type": "manufacturer_pdf", "url": "https://voragolive.com/media/vorago/descargables/cln-10196271660669172.pdf" },
+          { "title": "Vorago CLN-101 HDS", "type": "safety_datasheet", "url": "https://voragolive.com/media/vorago/descargables/cln-10194641597964100.pdf" },
+          { "title": "CTOnline feed ACCVGO030 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "95o5ghmi5n2h8an",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ZEBRA",
+        "name": "Zebra 104524-101 Premier Plus tarjetas PVC compuesto CR80 30 mil blancas caja 500",
+        "description": "Tarjetas blancas Zebra Premier Plus de PVC compuesto CR80, 30 mil, caja con 500; se corrige el dato ambiguo de 30 micras a 30 mil.",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/zebra-premier-plus-104524-101",
+        "semanticCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zebra.com/content/dam/support-dam/en/documentation/unrestricted/guide/product/p310i-ug-en.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCZBR440/ACCZBR440_full.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCZBR440_full.jpg", "https://www.barcodesinc.com/media/catalog/product/6/e/3/8/6e38951178bc2eaf8fd7f6232779e260ceaaffa3_white_cards.jpg"],
+        "documents": [{ "label": "Zebra P310i user guide consumables list", "type": "manufacturer_pdf", "url": "https://www.zebra.com/content/dam/support-dam/en/documentation/unrestricted/guide/product/p310i-ug-en.pdf" }],
+        "specs": {
+          "brand": "ZEBRA", "model": "Premier Plus", "mpn": "104524-101", "providerSku": "ACCZBR440", "productType": "Tarjetas PVC para impresora de credenciales", "cardType": "CR80 blancas", "material": "PVC compuesto Premier Plus 60/40", "thickness": "30 mil / 0.762 mm", "quantity": "500 tarjetas (5 paquetes de 100)", "sourceDiscrepancies": ["El feed/retail indica 30 micras; Zebra y resellers especializados corresponden a 30 mil."], "providerBranchSummary": "CTOnline stock 0; Mactoner/SolicitaToner/PBTech sin stock. No hay evidencia de descontinuado por fabricante.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCZBR440", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 78.71, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCZBR440" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Mactoner sin existencias.", "SolicitaToner 0 piezas.", "PBTech out of stock.", "TapeandMedia no expone cantidad clara."]
+        },
+        "measurements": { "cardSize": "CR80 2.125 x 3.375 in / 54 x 86 mm", "thickness": "30 mil / 0.762 mm", "retailShippingWeight": "2.46 kg a 5.7 lb segun canal" },
+        "sourceRefs": [
+          { "title": "Zebra P310i guide", "type": "manufacturer_pdf", "url": "https://www.zebra.com/content/dam/support-dam/en/documentation/unrestricted/guide/product/p310i-ug-en.pdf" },
+          { "title": "Mactoner Zebra 104524-101", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/tarjetas-de-pvc-zebra-premier-104524-101-500/" },
+          { "title": "BarcodeInc Zebra 104524-101", "type": "retailer_spec", "url": "https://www.barcodesinc.com/zebra/part-104524-101.htm" },
+          { "title": "CTOnline feed ACCZBR440 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "q0l4n3u3o323ur3",
+      "research": {
+        "confidence": 0.95,
+        "brand": "TRIPP-LITE",
+        "name": "Eaton Tripp Lite SRCAGENUTS kit M6 de tuercas enjauladas tornillos y arandelas 50 juegos",
+        "description": "Kit SmartRack SRCAGENUTS para racks de orificio cuadrado: 50 juegos M6 con tuercas enjauladas, tornillos y arandelas.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas/m6/tripp-lite-srcagenuts",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas/m6",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.eaton.com/us/en-us/skuPage.SRCAGENUTS.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCTRL730/ACCTRL730_full.jpg", "https://assets.tripplite.com/large-image/srcagenuts-front-l.jpg", "https://assets.tripplite.com/large-image/srcagenuts-other01-l.jpg", "https://assets.tripplite.com/large-image/srcagenuts-other02-l.jpg"],
+        "documents": [{ "label": "Tripp Lite SRCAGENUTS datasheet ES", "type": "manufacturer_pdf", "url": "https://assets.tripplite.com/product-pdfs/es/srcagenuts.pdf" }],
+        "specs": {
+          "brand": "EATON TRIPP LITE", "model": "SRCAGENUTS", "providerSku": "ACCTRL730", "upc": "037332143563", "productType": "Kit de herrajes para rack de orificio cuadrado", "thread": "M6", "contents": ["50 tuercas enjauladas M6 zincadas", "50 tornillos M6 cabeza pan", "50 arandelas negras PVC"], "rackCompatibility": "Racks y gabinetes EIA de orificio cuadrado", "compliance": ["RoHS"], "warranty": "5 anos limitada", "sourceDiscrepancies": ["CTOnline lo marca descontinuado; Eaton mantiene ficha oficial activa."], "providerBranchSummary": "CTOnline stock 0 y status descontinuado; Mactoner/CompuPuebla/Senetic sin stock.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCTRL730", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 194.42, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCTRL730" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Mactoner sin existencias.", "CompuPuebla sin existencias.", "Newark disponible bajo pedido con lead time."]
+        },
+        "measurements": { "packageDimensions": "1.20 x 4.40 x 6.10 in / 3.05 x 11.18 x 15.49 cm", "packageWeight": "1.00 lb / 0.45 kg" },
+        "sourceRefs": [
+          { "title": "Eaton SRCAGENUTS", "type": "manufacturer", "url": "https://www.eaton.com/us/en-us/skuPage.SRCAGENUTS.html" },
+          { "title": "Tripp Lite SRCAGENUTS datasheet", "type": "manufacturer_pdf", "url": "https://assets.tripplite.com/product-pdfs/es/srcagenuts.pdf" },
+          { "title": "Mactoner SRCAGENUTS", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/kit-de-hardware-tripp-lite-srcagenuts-negro/" },
+          { "title": "CTOnline feed ACCTRL730 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "d904s64a9qfvr7t",
+      "research": {
+        "confidence": 0.95,
+        "brand": "TRIPP-LITE",
+        "name": "Eaton Tripp Lite SRCAGENUTS1224 kit 12-24 de tuercas enjauladas tornillos y arandelas 50 juegos",
+        "description": "Kit SmartRack SRCAGENUTS1224 para racks de orificio cuadrado: 50 juegos 12-24 con tuercas enjauladas, tornillos y arandelas.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas/12-24/tripp-lite-srcagenuts1224",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/herrajes/tuercas-enjauladas/12-24",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tripplite.eaton.com/smartrack-square-hole-hardware-kit-50-pcs-12-24-screws-washers~SRCAGENUTS1224",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCTRL490/ACCTRL490_full.jpg", "https://assets.tripplite.com/large-image/srcagenuts1224-front-l.jpg", "https://assets.tripplite.com/large-image/srcagenuts1224-other01-l.jpg", "https://assets.tripplite.com/large-image/srcagenuts1224-other02-l.jpg"],
+        "documents": [{ "label": "Tripp Lite SRCAGENUTS1224 datasheet ES", "type": "manufacturer_pdf", "url": "https://assets.tripplite.com/product-pdfs/es/srcagenuts1224.pdf" }],
+        "specs": {
+          "brand": "EATON TRIPP LITE", "model": "SRCAGENUTS1224", "providerSku": "ACCTRL490", "upc": "037332181725", "productType": "Kit de herrajes para rack de orificio cuadrado", "thread": "12-24", "contents": ["50 tuercas enjauladas 12-24", "50 tornillos 12-24", "50 arandelas negras PVC"], "rackCompatibility": "Racks y gabinetes EIA/ECA-310-E de orificio cuadrado", "compliance": ["RoHS", "EIA/ECA-310-E"], "warranty": "5 anos limitada", "sourceDiscrepancies": ["CTOnline lo marca descontinuado; DigiKey/Eaton lo listan activo."], "providerBranchSummary": "CTOnline stock 0 y status descontinuado; MacToner/Cityshop agotado.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCTRL490", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 397.62, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCTRL490" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["MacToner sin existencias.", "CityShop producto agotado.", "DigiKey MX lo lista activo con stock disponible."]
+        },
+        "measurements": { "packageDimensions": "3.05 x 11.18 x 15.49 cm", "packageWeight": "0.41 kg", "retailWeight": "450 g" },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite SRCAGENUTS1224", "type": "manufacturer", "url": "https://tripplite.eaton.com/smartrack-square-hole-hardware-kit-50-pcs-12-24-screws-washers~SRCAGENUTS1224" },
+          { "title": "Tripp Lite SRCAGENUTS1224 datasheet", "type": "manufacturer_pdf", "url": "https://assets.tripplite.com/product-pdfs/es/srcagenuts1224.pdf" },
+          { "title": "Mactoner SRCAGENUTS1224", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/juego-de-accesorios-tripp-lite-srcagenuts1224-254-cm/" },
+          { "title": "CTOnline feed ACCTRL490 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "8n3m2v6cavmbych",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DATASHIELD",
+        "name": "DataShield PC-3704 tarjeta SNMP interna para UPS UT-6000",
+        "description": "Tarjeta SNMP interna DataShield PC-3704 para monitoreo remoto de UPS/Nobreak Serie UT, validada para UT-6000.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/datashield-pc-3704",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://datashield.net/serieut.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCDTS050/ACCDTS050_full.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCDTS050_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-pc-3704-tarjeta-interna-datashield-negro.webp"],
+        "specs": {
+          "brand": "DATASHIELD", "model": "PC-3704", "providerSku": "ACCDTS050", "productType": "Tarjeta SNMP interna para UPS", "confirmedCompatibility": ["DataShield UT-6000"], "seriesContext": "Serie UT reporta ranura para SNMP y monitoreo remoto; no se generaliza compatibilidad a todos los modelos.", "software": "SNMP Tool Windows disponible en sitio DataShield", "sourceDiscrepancies": ["El feed la clasifica como adaptador de energia; la evidencia corresponde a tarjeta SNMP interna."], "providerBranchSummary": "CTOnline stock 0; MacToner/CityShop/AztecaCompras agotado.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCDTS050", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3111.11, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCDTS050" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["MacToner SKU ACCDTS050 sin existencias.", "CityShop producto agotado.", "AztecaCompras disponible 0."]
+        },
+        "measurements": { "dimensions": "No publicadas", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "DataShield Serie UT", "type": "manufacturer_family", "url": "https://datashield.net/serieut.html" },
+          { "title": "DataShield software SNMP Tool", "type": "manufacturer_support", "url": "https://www.datashield.net/software.html" },
+          { "title": "AztecaCompras DataShield PC-3704", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx0000082892-datashield-pc-3704-tarjeta-interna-negro.html" },
+          { "title": "CTOnline feed ACCDTS050 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "lp0rhwi5xx8uykp",
+      "research": {
+        "confidence": 0.96,
+        "brand": "CYBERPOWER",
+        "name": "CyberPower BP36V60ART2U modulo externo de baterias 36V 60A 2U rack torre",
+        "description": "Modulo externo de baterias CyberPower BP36V60ART2U para UPS Smart App Online compatibles OL1000/OL1500; se corrige la compatibilidad conflictiva con modelos PR de 48V.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/36v/cyberpower-bp36v60art2u",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/36v",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/bp36v60art2u",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9597593", "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/bp36v60art2u-front-horizontal-photo-1-1024x1024.jpg", "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/bp36v60art2u-back-horizontal-photo-1-1024x1024.jpg", "https://www.cyberpowersystems.com/wp-content/uploads/2026/05/bp36v60art2u-enhanced-dims-1-1024x1024.jpg"],
+        "specs": {
+          "brand": "CYBERPOWER", "model": "BP36V60ART2U", "providerSku": "FR-993", "alternateProviderSkus": ["BATCYP080"], "upc": "649532604951", "productType": "Modulo externo de baterias para UPS", "voltage": "36 VDC", "current": "60 A", "formFactor": "2U rack/torre", "battery": "6 baterias SLA 12V 9Ah", "charger": "Cargador integrado", "serviceability": ["Baterias hot-swap", "Baterias reemplazables por usuario", "Encadenable para expansion"], "replacementCartridges": ["RB1290X3R", "RB1290X3L", "RBP0074", "RBP0079"], "compatibleUps": ["OL1000RTXL2U", "OL1000RTXL2UN", "OL1500RTXL2U", "OL1500RTXL2UN"], "sourceDiscrepancies": ["Los modelos PR1000/PR1500/PR2200/PR3000 corresponden a modulos 48V; se retiran de compatibilidad canonica para BP36V60ART2U."], "providerBranchSummary": "CTOnline y CVA stock 0; Mactoner BATCYP080 sin existencias. Stock externo B&H/Compustar no se usa para proveedor actual.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "BATCYP080", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 11836.3, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:BATCYP080" }, { "providerId": "cva", "providerSku": "FR-993", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 11616.83, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:batch212:FR-993" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Mactoner BATCYP080 sin existencias.", "Compustar reporto 18 disponibles el 2026-02-20.", "B&H lo muestra in stock en mercado US.", "Staples agotado."]
+        },
+        "measurements": { "dimensions": "433 x 88 x 430 mm", "weight": "23 kg", "shippingDimensions": "550 x 240 x 575 mm", "shippingWeight": "29.7 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower MX BP36V60ART2U", "type": "manufacturer", "url": "https://www.cyberpower.com/mx/es/product/sku/bp36v60art2u" },
+          { "title": "CyberPower US BP36V60ART2U", "type": "manufacturer", "url": "https://www.cyberpowersystems.com/product/ups/extended-battery-modules/bp36v60art2u/" },
+          { "title": "Mactoner CyberPower BP36V60ART2U", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/paquete-de-baterias-cyberpower-bp36v60art2u-negro/" },
+          { "title": "CTOnline feed BATCYP080 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed FR-993 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ns7moju75z9x7hu",
+      "research": {
+        "confidence": 0.93,
+        "brand": "PCM",
+        "name": "PCM 10B2 rollo papel bond blanco para plotter 0.61 x 100 m",
+        "description": "Rollo de papel bond blanco PCM 10B2 de 0.61 x 100 m para plotter/CAD, planos de ingenieria y arquitectura.",
+        "manualCategoryPath": "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m/pcm-10b2",
+        "semanticCategoryPath": "impresion/consumibles/papel-plotter/bond/rollos-61cm-100m",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pcm.com.mx/rollos-de-papel/papel-bond-para-plotter",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPCM575/ACCPCM575_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-10b2-papel-bond-pcm-10b2.webp", "https://www.pcm.com.mx/hubfs/plotter.jpg"],
+        "specs": {
+          "brand": "PCM", "model": "10B2", "providerSku": "ACCPCM575", "alternateProviderSkus": ["SL-ACCPCM575"], "productType": "Papel bond blanco para plotter", "rollSize": "0.61 x 100 m", "width": "0.61 m / 61 cm", "length": "100 m", "paperType": "Bond blanco", "line": "Papel bond para plotter", "familySpecs": ["75 o 90 g/m2 segun familia PCM", "Alta blancura", "Uso en planos de ingenieria y arquitectura", "Compatible con inkjet, xerografico, toner y laser"], "sourceDiscrepancies": ["PCredcom publica peso 1 kg; por gramaje 75 g/m2 el papel seria aprox. 4.6 kg mas nucleo/empaque, por lo que se conserva como dato de baja confianza."], "providerBranchSummary": "CTOnline stock 0; PCredcom y Cityshop sin existencia.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCPCM575", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 272.73, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:batch212:ACCPCM575" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["PCredcom SL-ACCPCM575 sin existencia.", "Cityshop 10B2 producto agotado."]
+        },
+        "measurements": { "rollSize": "0.61 x 100 m", "estimatedPaperWeight": "4.6 kg aproximado a 75 g/m2 mas nucleo/empaque", "channelWeight": "1 kg reportado por PCredcom, baja confianza" },
+        "sourceRefs": [
+          { "title": "PCM papel bond para plotter", "type": "manufacturer_family", "url": "https://www.pcm.com.mx/rollos-de-papel/papel-bond-para-plotter" },
+          { "title": "PCredcom PCM 10B2", "type": "retailer_stock", "url": "https://pcredcom.com/papel-bond-pcm-10b2-0-61-x-100-papel-bond-color-blanco-sl-accpcm575.html" },
+          { "title": "Cityshop PCM 10B2", "type": "retailer_stock", "url": "https://cityshop.mx/producto/papel-bond-pcm-10b2-061-x-100-papel-bond-color-blanco" },
+          { "title": "CTOnline feed ACCPCM575 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
