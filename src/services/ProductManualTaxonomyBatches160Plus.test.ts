@@ -462,6 +462,16 @@ const batch160PlusCases = [
   ["APC WLOCALCONTRACT poliza mantenimiento Galaxy 3500 20 kVA refacciones", "APC", "servicios-ti/soporte-garantias/apc/advantage-ultra/galaxy-3500-20kva/wlocalcontract", "software"],
   ["APC WOE2YR-AX-34 garantia on-site 2 anos InRow ACRD 300 301", "APC", "servicios-ti/soporte-garantias/apc/garantia-extendida/inrow-acrd-300-301/2y-onsite/woe2yr-ax-34", "software"],
   ["APC WSTRTUP7X24-AX-34 start-up service 7x24 InRow ACRD 300 301", "APC", "servicios-ti/instalacion-puesta-en-marcha/apc/inrow-acrd-300-301/7x24/wstrtup7x24-ax-34", "software"],
+  ["APC WUPG4HR-UG-01 poliza servicio 1 ano 4HR 7X24 UPS 40KVA", "APC", "servicios-ti/soporte-garantias/apc/upgrade-respuesta/ups-hasta-40kva/4hr-7x24/wupg4hr-ug-01", "software"],
+  ["Acteck Elant Act AS470 AC-935241 bocinas 2.1 subwoofer negro", "ACTECK", "audio/bocinas/computadora/2-1/subwoofer/acteck-as470", "audio"],
+  ["Acteck Froost Prime BE225 AC-936170 base enfriadora laptop 11-17 8 niveles", "ACTECK", "computo/accesorios/bases-enfriadoras/11-17-pulgadas/acteck-be225", "accessories"],
+  ["Acteck Polar CP VC100 AC-936736 disipador CPU 80mm TDP 60W", "ACTECK", "computo/componentes/enfriamiento/disipadores-cpu/80mm/tdp-60w/acteck-vc100", "components"],
+  ["Acteck Energon Lumimate CI711 AC-937184 cargador inalambrico Qi 15W con lampara", "ACTECK", "energia/cargadores-inalambricos/lampara/15w/acteck-ci711", "power"],
+  ["Acteck Ergo Tuff ER505 AC-937313 reposapies ajustable 20 kg", "ACTECK", "oficina/ergonomia/reposapies/ajustables/acteck-er505", "accessories"],
+  ["Acteck Vault Acoustic BB400 AC-939737 base bocinas inclinacion 15 vibracion", "ACTECK", "audio/accesorios/bases-bocinas/aislamiento/acteck-bb400", "audio"],
+  ["Acteck AS470 BOCACT320 sistema sonido 2.1 6W subwoofer negro", "ACTECK", "audio/bocinas/computadora/2-1/subwoofer/acteck-as470", "audio"],
+  ["Acteck BS475 BOCACT480 bocinas Bluetooth 2.0 5W negras", "ACTECK", "audio/bocinas/bluetooth/2-0/5w/acteck-bs475", "audio"],
+  ["Acteck BS495 BOCACT670 bocinas 2.1 subwoofer 60W Bluetooth", "ACTECK", "audio/bocinas/computadora/2-1/subwoofer/60w/acteck-bs495", "audio"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

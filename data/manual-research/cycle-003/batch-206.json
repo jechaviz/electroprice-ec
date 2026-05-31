@@ -1,0 +1,453 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b206-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 206,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "uyeavf0aonx4tai",
+      "research": {
+        "confidence": 0.91,
+        "brand": "APC",
+        "name": "APC WUPG4HR-UG-01 poliza servicio 1 ano 4HR 7x24 UPS hasta 40 kVA",
+        "description": "Upgrade APC by Schneider Electric de respuesta en sitio por 1 ano, ventana 7x24 y respuesta 4 horas para UPS cubiertos por garantia de fabrica o contrato vigente hasta 40 kVA.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apc/upgrade-respuesta/ups-hasta-40kva/4hr-7x24/wupg4hr-ug-01",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apc/upgrade-respuesta/ups-hasta-40kva/4hr-7x24/wupg4hr-ug-01",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/WUPG4HR-UG-01/1-year-4hr-7x24-response-upgrade-to-factory-warranty-or-existing-service-contract-for-up-to-40-kva/",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9500636"],
+        "specs": {
+          "brand": "APC by Schneider Electric",
+          "model": "WUPG4HR-UG-01",
+          "providerSku": "POL-1698",
+          "productType": "Poliza de servicio / upgrade de respuesta",
+          "serviceDuration": "1 ano",
+          "coverageWindow": "7x24",
+          "responseTime": "4 horas",
+          "serviceLocation": "En sitio",
+          "supportedEquipment": "UPS APC/Schneider hasta 40 kVA",
+          "eligibility": "Requiere garantia de fabrica o contrato de servicio vigente elegible",
+          "gtinObserved": "3606489647230",
+          "providerBranchSummary": "CVA stock 0; servicio especial sin sucursal fisica declarada.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-1698", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceUsd": 532.55, "evidenceHash": "cva-api-full-proof-20260519:259:POL-1698" }]
+        },
+        "measurements": { "dimensions": "No aplica a servicio electronico", "weight": "No aplica", "packageWeight": "0.01 kg observado en ficha Schneider/Mouser" },
+        "packageContents": ["Entitlement o poliza de upgrade 4HR 7x24 por 1 ano", "Cobertura en sitio sujeta a validacion Schneider/APC"],
+        "compatibility": "UPS APC/Schneider de hasta 40 kVA con garantia o contrato elegible; validar cobertura geografica antes de venta.",
+        "sourceRefs": [
+          { "title": "Schneider Electric WUPG4HR-UG-01", "type": "manufacturer", "url": "https://www.se.com/us/en/product/WUPG4HR-UG-01/1-year-4hr-7x24-response-upgrade-to-factory-warranty-or-existing-service-contract-for-up-to-40-kva/" },
+          { "title": "Schneider datasheet via Mouser", "type": "manufacturer_spec", "url": "https://www.mouser.com/datasheet/2/357/2/WUPG4HR_UG_01_document-3171722.pdf" },
+          { "title": "B&H APC WUPG4HR-UG-01", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1889424-REG/apc_wupg4hr_ug_01_1_year_4_hour_24_7_response.html" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:259:POL-1698" }
+        ]
+      }
+    },
+    {
+      "product_id": "t6e4llwdhrspmtk",
+      "research": {
+        "confidence": 0.88,
+        "brand": "ACTECK",
+        "name": "Acteck Elant Act AS470 bocinas 2.1 con subwoofer, negro",
+        "description": "Sistema de bocinas Acteck AS470 2.1 para escritorio con dos satelites, subwoofer, entrada 3.5 mm y control de volumen. CVA lo titula con Bluetooth 5.0 y 11 W; fabricante y CTOnline lo describen principalmente alambrico 6 W RMS.",
+        "manualCategoryPath": "audio/bocinas/computadora/2-1/subwoofer/acteck-as470",
+        "semanticCategoryPath": "audio/bocinas/computadora/2-1/subwoofer/acteck-as470",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/elant-act-as470",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10473916",
+          "https://acteck.com/cdn/shop/files/AC-935241-1_1000PX_PNG.webp?v=1690225426&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-935241-Sistema-de-sonido-AS470-isometrico.webp?v=1704404878&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-935241-Sistema-de-sonido-AS470-frontal.webp?v=1704404879&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Elant Act AS470",
+          "manufacturerSku": "AC-935241",
+          "providerSku": "SPK-2777",
+          "ean": "7506215935241",
+          "color": "Negro",
+          "channels": "2.1",
+          "connectivity": ["3.5 mm", "USB segun fabricante", "Bluetooth 5.0 reportado por CVA/retail"],
+          "primaryConnectivityInterpretation": "Alambrico 3.5 mm segun ficha tecnica y CanalStock; conservar discrepancia CVA por trazabilidad.",
+          "totalPowerRms": "6 W RMS oficial/CTOnline; CVA/retail reportan 11 W RMS",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "cableLength": "1.5 m",
+          "providerBranchSummary": "CVA stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SPK-2777", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 467.41, "evidenceHash": "cva-api-full-proof-20260519:29:SPK-2777" }]
+        },
+        "measurements": { "satelliteDimensions": "7.5 x 8 x 15 cm", "subwooferDimensions": "15 x 18 x 21 cm", "weight": "1.45 kg", "packageDimensions": "31 x 18.5 x 24 cm" },
+        "packageContents": ["2 bocinas satelite", "Subwoofer", "Cable de corriente", "Poliza de garantia", "Manual de usuario"],
+        "compatibility": "PC, laptop y fuentes de audio con salida 3.5 mm; Bluetooth si la variante CVA corresponde al titulo reportado.",
+        "sourceRefs": [
+          { "title": "Acteck AS470 official", "type": "manufacturer", "url": "https://acteck.com/products/elant-act-as470" },
+          { "title": "PCH ficha AC-935241", "type": "manufacturer_spec", "url": "https://fichastecnicas.pchmayoreo.com/AC-935241.pdf" },
+          { "title": "CanalStock AS470", "type": "retailer_spec", "url": "https://www.canalstock.mx/Product/Acteck-AS470-altavoz-Negro-Alambrico-6-W/1260779" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:29:SPK-2777" }
+        ]
+      }
+    },
+    {
+      "product_id": "h1d41l9quyyvnnc",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ACTECK",
+        "name": "Acteck Froost Prime BE225 base enfriadora laptop 11-17 pulgadas, negra",
+        "description": "Base enfriadora pasiva para laptop con estructura ABS, 8 niveles de altura, base giratoria y antiderrapante, mas porta celular.",
+        "manualCategoryPath": "computo/accesorios/bases-enfriadoras/11-17-pulgadas/acteck-be225",
+        "semanticCategoryPath": "computo/accesorios/bases-enfriadoras/11-17-pulgadas/acteck-be225",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/base-enfriadora-froost-prime-be225",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10407393",
+          "https://acteck.com/cdn/shop/files/AC-936170_1.webp?v=1699904455&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-936170-U.webp?v=1713304875&width=1000",
+          "https://static.ctonline.mx/imagenes/ACCACT4970/ACCACT4970_full.jpg"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Froost Prime BE225",
+          "manufacturerSku": "AC-936170",
+          "providerSku": "AC-11796",
+          "ean": "7506215936170",
+          "material": "ABS",
+          "coolingMethod": "Ventilacion natural/pasiva",
+          "heightAdjustments": "8 niveles",
+          "features": ["Base giratoria 360 grados", "Ajustable", "Antiderrapante", "Porta celular"],
+          "compatibilitySize": "Laptop 11 a 17 pulgadas",
+          "providerBranchSummary": "CVA y CTOnline stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-11796", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 90.36, "evidenceHash": "cva-api-full-proof-20260519:129:AC-11796" },
+            { "providerId": "ctonline", "providerSku": "ACCACT4970", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 95.03, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:9319" }
+          ]
+        },
+        "measurements": { "dimensions": "329 x 255 x 25 mm", "weight": "450 g", "packageDimensions": "28.1 x 6.2 x 25 cm", "packageWeight": "750 g" },
+        "packageContents": ["Base enfriadora Froost Prime BE225", "Holder/porta celular", "Manual de usuario"],
+        "compatibility": "Laptops de 11 a 17 pulgadas.",
+        "sourceRefs": [
+          { "title": "Acteck BE225 official", "type": "manufacturer", "url": "https://acteck.com/products/base-enfriadora-froost-prime-be225" },
+          { "title": "Acteck BE225 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-936170_FT_V1.pdf?v=1699904526" },
+          { "title": "Acteck BE225 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-936170_MANUAL_WEB.pdf?v=1699904608" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:129:AC-11796" }
+        ]
+      }
+    },
+    {
+      "product_id": "k37ry34lm0pnjnq",
+      "research": {
+        "confidence": 0.97,
+        "brand": "ACTECK",
+        "name": "Acteck Polar CP VC100 disipador CPU 80 mm 2200 RPM TDP 60W",
+        "description": "Disipador de aire para CPU con ventilador de 80 mm, 2200 RPM, 27 CFM, ruido de 22 dB y soporte Intel/AMD comun.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/80mm/tdp-60w/acteck-vc100",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/80mm/tdp-60w/acteck-vc100",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/ventilador-polar-cp-vc100",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10394757",
+          "https://acteck.com/cdn/shop/files/AC-936736_1.webp?v=1699548876&width=1000",
+          "https://acteck.com/cdn/shop/files/VentiladorPolarCPVC100.webp?v=1711122327&width=1000",
+          "https://static.ctonline.mx/imagenes/VENACT030/VENACT030_full.jpg"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Polar CP VC100",
+          "manufacturerSku": "AC-936736",
+          "providerSku": "CF-407",
+          "ean": "7506215936736",
+          "fanSize": "80 x 80 x 25 mm",
+          "fanSpeed": "2200 RPM",
+          "airflow": "27 CFM",
+          "noiseLevel": "22 dB",
+          "connector": "Small 3 pin",
+          "bearing": "Hidraulico",
+          "tdp": "60 W",
+          "voltage": "12 V DC",
+          "providerBranchSummary": "CVA y CTOnline stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CF-407", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 57.86, "evidenceHash": "cva-api-full-proof-20260519:137:CF-407" },
+            { "providerId": "ctonline", "providerSku": "VENACT030", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 58.89, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:9320" }
+          ]
+        },
+        "measurements": { "coolerDimensions": "103 x 42.5 mm", "fanDimensions": "80 x 80 x 25 mm", "weight": "120 g", "packageDimensions": "11.5 x 11.5 x 5.8 cm" },
+        "packageContents": ["Disipador Polar CP VC100", "Kit o clips de montaje Intel/AMD", "Manual de usuario"],
+        "compatibility": "Intel LGA775/115x/1200/1366/17xx y AMD AM2/AM3/AM4/AM5/754/939/940 segun manual.",
+        "sourceRefs": [
+          { "title": "Acteck VC100 official", "type": "manufacturer", "url": "https://acteck.com/products/ventilador-polar-cp-vc100" },
+          { "title": "Acteck VC100 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-936736_V1.pdf?v=1700070984" },
+          { "title": "Acteck VC100 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-936736_MANUAL_WEB.pdf?v=1699548715" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:137:CF-407" }
+        ]
+      }
+    },
+    {
+      "product_id": "jrm1j3qc52jbbs3",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ACTECK",
+        "name": "Acteck Energon Lumimate CI711 cargador inalambrico Qi 15W con lampara LED",
+        "description": "Cargador de escritorio 2 en 1 con carga inalambrica Qi hasta 15 W, lampara LED de tres modos y portaplumas integrado.",
+        "manualCategoryPath": "energia/cargadores-inalambricos/lampara/15w/acteck-ci711",
+        "semanticCategoryPath": "energia/cargadores-inalambricos/lampara/15w/acteck-ci711",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/cargador-de-escritorio-energon-lumimate-ci711-lampara-led",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10407136",
+          "https://acteck.com/cdn/shop/files/AC-937184-02.webp?v=1746467144&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937184-U.webp?v=1746467144&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937184-04.webp?v=1746467144&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Energon Lumimate CI711",
+          "manufacturerSku": "AC-937184",
+          "providerSku": "AC-11773",
+          "ean": "7506215937184",
+          "chargingStandard": "Qi",
+          "maxOutputPower": "15 W",
+          "usbPorts": "1 USB-C",
+          "light": "LED con 3 modos y brillo ajustable",
+          "material": "ABS",
+          "providerBranchSummary": "CVA stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-11773", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 120.74, "evidenceHash": "cva-api-full-proof-20260519:129:AC-11773" }]
+        },
+        "measurements": { "dimensions": "176 x 80 x 430 mm", "weight": "194 g", "packageDimensions": "8.5 x 10.5 x 18.5 cm" },
+        "packageContents": ["Cargador-lampara Energon Lumimate CI711", "Cable USB-A a USB-C", "Manual; adaptador de corriente no incluido"],
+        "compatibility": "Smartphones Apple, Samsung y otros equipos compatibles con carga inalambrica Qi.",
+        "sourceRefs": [
+          { "title": "Acteck CI711 official", "type": "manufacturer", "url": "https://acteck.com/products/cargador-de-escritorio-energon-lumimate-ci711-lampara-led" },
+          { "title": "Acteck CI711 manual", "type": "manual", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/AC-937184_MANUAL_WEB.pdf?v=1699980072" },
+          { "title": "CityShop CI711", "type": "retailer_spec", "url": "https://cityshop.mx/producto/cargador-acteck-energon-lumimate-ci711-inalambrico-qi-15-w-apple-samsung-qi-1-dispositivo-incluye" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:129:AC-11773" }
+        ]
+      }
+    },
+    {
+      "product_id": "radrt5z81ozjbfk",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ACTECK",
+        "name": "Acteck Ergo Tuff ER505 reposapies ajustable acero y plastico",
+        "description": "Reposapies ergonomico negro con plataforma texturizada, inclinacion ajustable de -20 a 20 grados y soporte maximo de 20 kg.",
+        "manualCategoryPath": "oficina/ergonomia/reposapies/ajustables/acteck-er505",
+        "semanticCategoryPath": "oficina/ergonomia/reposapies/ajustables/acteck-er505",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/reposapies-ergo-tuff-er505",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10408455",
+          "https://acteck.com/cdn/shop/files/AC-937313-2.webp?v=1698939290&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937313-6.webp?v=1704396538&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-937313-4.webp?v=1704396538&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Ergo Tuff ER505",
+          "manufacturerSku": "AC-937313",
+          "providerSku": "AC-11821",
+          "ean": "7506215937313",
+          "material": "Acero y plastico",
+          "tiltRange": "-20 a 20 grados",
+          "maxSupportedWeight": "20 kg",
+          "surface": "Texturizada / antideslizante",
+          "providerBranchSummary": "CVA stock 0; otros retailers tienen senales mixtas y no sustituyen el feed.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-11821", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 343.89, "evidenceHash": "cva-api-full-proof-20260519:128:AC-11821" },
+            { "providerId": "globaloffice", "providerSku": "AC-937313", "warehouse": "almacen_externo_mexico", "country": "MX", "stock": 16, "stockStatus": "external_stock_unverified", "evidenceHash": "globaloffice-er505-2026-05-31" }
+          ]
+        },
+        "measurements": { "dimensions": "400 x 300 x 99 mm", "weight": "1.5 kg", "packageDimensions": "41.5 x 11 x 32.2 cm" },
+        "packageContents": ["Reposapies Acteck Ergo Tuff ER505"],
+        "compatibility": "Uso bajo escritorio en oficina, home office o estacion de trabajo; no requiere energia.",
+        "sourceRefs": [
+          { "title": "Acteck ER505 official", "type": "manufacturer", "url": "https://acteck.com/products/reposapies-ergo-tuff-er505" },
+          { "title": "Acteck ER505 ficha tecnica", "type": "manufacturer_spec", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-937313_V1.pdf?v=1698939141" },
+          { "title": "Intercompras ER505", "type": "retailer_stock", "url": "https://intercompras.com/p/descansa-pies-acteck-ergo-tuff-er505-ajustable-hasta-capacidad-kg-acero-347008" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:128:AC-11821" }
+        ]
+      }
+    },
+    {
+      "product_id": "jj6qwfg705brsms",
+      "research": {
+        "confidence": 0.92,
+        "brand": "ACTECK",
+        "name": "Acteck Vault Acoustic BB400 bases para bocinas de escritorio",
+        "description": "Bases para bocinas de escritorio en caucho termoplastico, inclinacion de 15 grados y aislamiento de vibracion para mejorar la escucha.",
+        "manualCategoryPath": "audio/accesorios/bases-bocinas/aislamiento/acteck-bb400",
+        "semanticCategoryPath": "audio/accesorios/bases-bocinas/aislamiento/acteck-bb400",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/bases-para-bocinas-de-escritorio-vault-acoustic-bb400",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10440653",
+          "https://acteck.com/cdn/shop/files/AC-939737-2.webp?v=1719943546&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939737-Baseparabocinas-Carrusel-1.webp?v=1721142156&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939737-Baseparabocinas-Carrusel-2.webp?v=1721142156&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Vault Acoustic BB400",
+          "manufacturerSku": "AC-939737",
+          "providerSku": "AC-12435",
+          "ean": "7506215939737",
+          "material": "Caucho termoplastico",
+          "tilt": "15 grados",
+          "supportedWeight": "10 kg",
+          "antiVibration": true,
+          "providerBranchSummary": "CVA stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-12435", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 109.87, "evidenceHash": "cva-api-full-proof-20260519:94:AC-12435" }]
+        },
+        "measurements": { "dimensions": "9.7 x 15.7 x 4.8 cm", "weight": "0.22 kg", "packageDimensions": "16.5 x 6.8 x 10 cm" },
+        "packageContents": ["Par de bases para bocinas Vault Acoustic BB400"],
+        "compatibility": "Bocinas de escritorio de hasta 10 kg segun ficha.",
+        "sourceRefs": [
+          { "title": "Acteck BB400 official", "type": "manufacturer", "url": "https://acteck.com/products/bases-para-bocinas-de-escritorio-vault-acoustic-bb400" },
+          { "title": "Acteck BB400 ficha tecnica", "type": "manufacturer_spec", "url": "https://drive.google.com/file/d/1Q-EWHou6MR9IfFmVxzQ6PVBjGjqv4--D/view?usp=sharing" },
+          { "title": "GlobalOffice BB400", "type": "retailer_spec", "url": "https://globaloffice.mx/app/detalle/producto/accesorios/base-acteck-para-bocinas-vault-acoustic-bb400-me/ac-939737" },
+          { "title": "CVA batch evidence", "type": "provider_feed", "url": "cva-api-full-proof-20260519:94:AC-12435" }
+        ]
+      }
+    },
+    {
+      "product_id": "l9s7fl2zmcuueo9",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ACTECK",
+        "name": "Acteck Elant Act AS470 sistema de sonido 2.1 6W con subwoofer, negro",
+        "description": "Sistema de sonido Acteck AS470 2.1 alambrico para computadora con dos bocinas satelite, subwoofer, entrada 3.5 mm, potencia 6 W RMS y frecuencia 20 Hz a 20 kHz.",
+        "manualCategoryPath": "audio/bocinas/computadora/2-1/subwoofer/acteck-as470",
+        "semanticCategoryPath": "audio/bocinas/computadora/2-1/subwoofer/acteck-as470",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/elant-act-as470",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCACT320/BOCACT320_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-935241-1_1000PX_PNG.webp?v=1690225426&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-935241-Sistema-de-sonido-AS470-frontal.webp?v=1704404879&width=1000"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Elant Act AS470",
+          "manufacturerSku": "AC-935241",
+          "providerSku": "BOCACT320",
+          "ean": "7506215935241",
+          "connectivity": "Alambrico",
+          "audioInput": "3.5 mm",
+          "bluetooth": false,
+          "channels": "2.1",
+          "totalPowerRms": "6 W",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCACT320", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 488.78, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8100" }]
+        },
+        "measurements": { "satelliteDimensions": "7.5 x 8 x 15 cm", "subwooferDimensions": "15 x 18 x 21 cm", "weight": "1.45 kg", "packageDimensions": "31 x 18.5 x 24 cm" },
+        "packageContents": ["2 bocinas satelite", "Subwoofer", "Cable de corriente", "Poliza de garantia", "Manual de usuario"],
+        "compatibility": "Computadoras, laptops y fuentes con salida analogica 3.5 mm.",
+        "sourceRefs": [
+          { "title": "Acteck AS470 official", "type": "manufacturer", "url": "https://acteck.com/products/elant-act-as470" },
+          { "title": "PCH ficha AC-935241", "type": "manufacturer_spec", "url": "https://fichastecnicas.pchmayoreo.com/AC-935241.pdf" },
+          { "title": "CanalStock AS470 BOCACT320", "type": "retailer_spec", "url": "https://www.canalstock.mx/Product/Acteck-AS470-altavoz-Negro-Alambrico-6-W/1260779" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8100" }
+        ]
+      }
+    },
+    {
+      "product_id": "sdrt332rigeuizn",
+      "research": {
+        "confidence": 0.78,
+        "brand": "ACTECK",
+        "name": "Acteck Dynamic Exact Mini BS475 bocinas Bluetooth 2.0 5W",
+        "description": "Bocinas Acteck BS475 de escritorio con sonido 2.0, Bluetooth/AUX/USB y gabinete ABS. La oferta seleccionada mezcla BOCACT480 negro/EAN 7506215936361 con precio/evidencia BOCACT490 blanco; se preservan ambas ramas.",
+        "manualCategoryPath": "audio/bocinas/bluetooth/2-0/5w/acteck-bs475",
+        "semanticCategoryPath": "audio/bocinas/bluetooth/2-0/5w/acteck-bs475",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dicotech.com.mx/productos/AC-936361/files/ficha.pdf",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCACT480/BOCACT480_6_full.jpg",
+          "https://static.ctonline.mx/imagenes/BOCACT480/BOCACT480_1_full.jpg",
+          "https://static.ctonline.mx/imagenes/BOCACT490/BOCACT490_full.jpg"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Dynamic Exact Mini BS475",
+          "manufacturerSku": "AC-936361",
+          "providerSku": "BOCACT490",
+          "primaryCtonlineSku": "BOCACT480",
+          "alternateCtonlineSku": "BOCACT490",
+          "eanPrimary": "7506215936361",
+          "eanAlternate": "7506215936378",
+          "channels": "2.0",
+          "rmsPower": "5 W x 2 / 10 W total interpretado",
+          "frequencyResponse": "50 Hz - 18 kHz",
+          "connectivity": ["Bluetooth", "AUX 3.5 mm", "USB playback"],
+          "variantDiscrepancy": "BOCACT480/AC-936361/EAN 7506215936361 corresponde a negro; BOCACT490/AC-936378/EAN 7506215936378 corresponde a variante blanca con precio 407.36.",
+          "providerBranchSummary": "CTOnline stock 0 para ambas variantes; sin sucursal declarada.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCACT480", "manufacturerSku": "AC-936361", "variant": "Negro", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 509.2, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8827" },
+            { "providerId": "ctonline", "providerSku": "BOCACT490", "manufacturerSku": "AC-936378", "variant": "Blanco", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 407.36, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:8828" }
+          ]
+        },
+        "measurements": { "dimensions": "105 x 120 x 170 mm", "weight": "0.94 kg", "packageDimensions": "27.7 x 21.7 x 19.7 cm" },
+        "packageContents": ["Bocina principal", "Bocina pasiva", "Adaptador de corriente"],
+        "compatibility": "PC, laptop, smartphone, tablet y reproductores con Bluetooth, AUX 3.5 mm o USB.",
+        "sourceRefs": [
+          { "title": "Dicotech BS475 ficha tecnica", "type": "manufacturer_spec", "url": "https://www.dicotech.com.mx/productos/AC-936361/files/ficha.pdf" },
+          { "title": "Manual BS475 AC-936361", "type": "manual", "url": "https://api.pcstore.mx/media/product/763238/media/AC-936361-01DD6D63-3C74-408C-BC86-FCB758921171.pdf" },
+          { "title": "CTOnline BOCACT480 evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8827" },
+          { "title": "CTOnline BOCACT490 evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:8828" }
+        ]
+      }
+    },
+    {
+      "product_id": "vpkplm6zk3oo8kr",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ACTECK",
+        "name": "Acteck Dynamic Exact Mini S-Pro BS495 bocinas 2.1 60W con subwoofer",
+        "description": "Sistema de bocinas Acteck BS495 de 2.1 canales con subwoofer, 60 W RMS, Bluetooth 5.3 y entradas RCA, USB 2.0, AUX 3.5 mm y HDMI reportado por fabricante.",
+        "manualCategoryPath": "audio/bocinas/computadora/2-1/subwoofer/60w/acteck-bs495",
+        "semanticCategoryPath": "audio/bocinas/computadora/2-1/subwoofer/60w/acteck-bs495",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/bocinas-para-computo-con-subwoofer-dynamic-exact-mini-s-pro-bs495-bluetooth-negro",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCACT670/BOCACT670_full.jpg",
+          "https://static.ctonline.mx/imagenes/BOCACT670/BOCACT670_1_full.jpg",
+          "https://acteck.com/cdn/shop/files/AC-940832_1_1.webp?v=1741703071&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-940832-Dynamic-Exact-Mini-S-Pro-BS495-HL0.jpg?v=1736183302&width=1080"
+        ],
+        "specs": {
+          "brand": "Acteck",
+          "model": "Dynamic Exact Mini S-Pro BS495",
+          "manufacturerSku": "AC-940832",
+          "providerSku": "BOCACT670",
+          "ean": "7506215940832",
+          "channels": "2.1",
+          "rmsPower": "60 W",
+          "satelliteSpeakers": "2 x 3 in",
+          "subwoofer": "1 x 4 in",
+          "connectivity": ["Bluetooth 5.3", "RCA", "USB 2.0", "AUX 3.5 mm", "HDMI reportado por Acteck"],
+          "powerInput": "110-240 Vca 50/60 Hz 2 A",
+          "providerBranchSummary": "CTOnline stock 0; ubicacion MX sin sucursal declarada.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCACT670", "warehouse": "provider_stock_without_branch", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "priceMxn": 958.32, "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:12073" }]
+        },
+        "measurements": { "satelliteDimensions": "10 x 12 x 17 cm", "subwooferDimensions": "15.5 x 25.5 x 21.5 cm", "weight": "5.5 kg", "packageDimensions": "29.5 x 25.5 x 22.5 cm" },
+        "packageContents": ["Subwoofer", "2 bocinas satelite", "Cable de alimentacion", "Manual y poliza segun empaque de linea Acteck"],
+        "compatibility": "PC, laptop, TV, smartphone/tablet por Bluetooth, fuentes RCA, AUX 3.5 mm, USB y HDMI cuando aplique.",
+        "sourceRefs": [
+          { "title": "Acteck BS495 official", "type": "manufacturer", "url": "https://acteck.com/products/bocinas-para-computo-con-subwoofer-dynamic-exact-mini-s-pro-bs495-bluetooth-negro" },
+          { "title": "Dicotech BS495 ficha tecnica", "type": "manufacturer_spec", "url": "https://www.dicotech.com.mx/productos/AC-940832/files/ficha.pdf" },
+          { "title": "Intercompras BS495", "type": "retailer_spec", "url": "https://intercompras.com/p/bocinas-acteck-dynamic-exact-mini-s-pro-bs495-60w-bluetooth-negro-415784" },
+          { "title": "CTOnline batch evidence", "type": "provider_feed", "url": "ctonline-ftp-xml-full-proof-20260520:ctonline:12073" }
+        ]
+      }
+    }
+  ]
+}
