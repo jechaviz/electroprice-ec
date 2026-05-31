@@ -1,0 +1,259 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b209-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 209,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "x6gaogdjaoysa5k",
+      "research": {
+        "confidence": 0.93,
+        "brand": "APPLE",
+        "name": "Apple MR3C2ZM/A kit adaptador VESA para iMac Pro gris espacial",
+        "description": "Kit original Apple para sustituir la base del iMac Pro 27 pulgadas y montarlo en soportes VESA 100 x 100 mm; incluye adaptador, tornilleria y herramienta Torx.",
+        "manualCategoryPath": "computo/accesorios/soportes-monitor/vesa/adaptadores-apple/mr3c2zma",
+        "semanticCategoryPath": "computo/accesorios/soportes-monitor/vesa/adaptadores-apple/mr3c2zma",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.bhphotovideo.com/c/product/1381124-REG/apple_mr3c2zm_a_vesa_mount_adapter_kit.html/overview",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAC1870/ACCMAC1870_full.jpg", "https://www.bhphotovideo.com/images/images500x500/apple_mr3c2zm_a_vesa_mount_adapter_kit_1518435386_1381124.jpg"],
+        "documents": [{ "label": "iMac Pro VESA Mount Adapter guide", "type": "installation_guide", "url": "https://documents.cdn.ifixit.com/XojSFupISaBRJplI.pdf" }],
+        "specs": {
+          "brand": "APPLE", "model": "MR3C2ZM/A", "providerSku": "ACCMAC1870", "upc": "190198625489", "productType": "Kit adaptador VESA", "vesa": "100 x 100 mm", "standard": "VESA FDMI MIS-D 100 C", "color": "Gris espacial", "material": "Metal", "compatibleModels": ["iMac Pro 27 pulgadas 2017 o posterior", "iMac Pro A1862"], "notCompatible": ["iMac no Pro", "Apple displays"], "mountRequirement": "Soporte VESA compatible capaz de soportar 21.5 lb / 9.75 kg", "included": ["Brida VESA", "Bracket VESA", "Tornillos M4 x 0.7 mm", "Tornillos M2.5 x 0.45 mm", "Herramienta Torx T10", "Tarjeta de acceso"], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para ACCMAC1870.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAC1870", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1631.67, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:3170" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "lifecycleNote": "iMac Pro fue descontinuado por Apple; B&H marca el accesorio como discontinued."
+        },
+        "measurements": { "vesaPattern": "100 x 100 mm", "packageWeight": "1.1 lb / aprox. 0.50 kg", "boxDimensions": "5.9 x 5.25 x 1.15 in / aprox. 15.0 x 13.3 x 2.9 cm", "supportedComputerWeight": "21.5 lb / 9.75 kg" },
+        "sourceRefs": [
+          { "title": "B&H Apple MR3C2ZM/A VESA Mount Adapter Kit", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1381124-REG/apple_mr3c2zm_a_vesa_mount_adapter_kit.html/overview" },
+          { "title": "iMac Pro VESA Mount Adapter guide", "type": "installation_guide", "url": "https://documents.cdn.ifixit.com/XojSFupISaBRJplI.pdf" },
+          { "title": "CTOnline feed ACCMAC1870 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "x81egnp4fpwb3t4",
+      "research": {
+        "confidence": 0.95,
+        "brand": "APPLE",
+        "name": "Apple Pencil Pro MX2D3AM/A blanco para iPad",
+        "description": "Stylus Apple Pencil Pro para iPad con gesto squeeze, barrel roll por giroscopio, respuesta haptica, doble toque, puntero flotante en modelos compatibles, Bluetooth y carga magnetica.",
+        "manualCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/pro",
+        "semanticCategoryPath": "computo/accesorios/stylus-tablets/apple-pencil/pro",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/shop/product/MX2D3AM/A/apple-pencil-pro",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10444459", "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX2D3?fmt=jpeg&hei=2000&qlt=90&wid=2000", "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX2D3_AV1?fmt=jpeg&hei=2000&qlt=90&wid=2000"],
+        "documents": [{ "label": "Apple Pencil compatibility", "type": "manufacturer_support", "url": "https://support.apple.com/en-us/108937" }],
+        "specs": {
+          "brand": "APPLE", "model": "MX2D3AM/A", "providerSku": "AC-12571", "productType": "Stylus para iPad", "color": "Blanco", "connectivity": "Bluetooth", "charging": "Magnetica en iPad compatible", "features": ["Squeeze para paleta de herramientas", "Barrel roll con giroscopio", "Respuesta haptica", "Doble toque", "Apple Pencil hover", "Find My"], "osRequirement": "iPadOS 17.5 o posterior", "compatibility": ["iPad Pro 13 pulgadas M4 y M5", "iPad Pro 11 pulgadas M4 y M5", "iPad Air 13 pulgadas M2, M3 y M4", "iPad Air 11 pulgadas M2, M3 y M4", "iPad mini A17 Pro"], "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "AC-12571", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2702.3, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:86:AC-12571" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "length": "166 mm", "diameter": "8.9 mm", "weight": "19.15 g" },
+        "sourceRefs": [
+          { "title": "Apple MX Apple Pencil Pro", "type": "manufacturer", "url": "https://www.apple.com/mx/shop/product/MX2D3AM/A/apple-pencil-pro" },
+          { "title": "Apple Pencil compatibility", "type": "manufacturer_support", "url": "https://support.apple.com/en-us/108937" },
+          { "title": "CVA feed AC-12571 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "nol4nt2e4cm8dxg",
+      "research": {
+        "confidence": 0.9,
+        "brand": "APPLE",
+        "name": "AppleCare+ SCV93Z/A para iPad Air 11 M4 electronico 2 anos",
+        "description": "Servicio electronico AppleCare+ para iPad Air de 11 pulgadas con chip M4; el canal lo publica como 1 ano adicional y la cobertura comercial se normaliza como plan de 2 anos total.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m4",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m4",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/applecare/",
+        "gallery": ["https://www.apple.com/mx/applecare/images/overview/plans/ipad_single__dzq694a9v0eq_large.jpg"],
+        "specs": {
+          "brand": "APPLE", "model": "SCV93Z/A", "providerSku": "POL-11311", "productType": "Servicio digital AppleCare+", "serviceFamily": "AppleCare+ para iPad", "format": "Electronico", "serviceTerm": "2 anos total; proveedor lo titula 1 ano adicional", "compatibleDevice": "iPad Air 11 pulgadas M4", "coverage": ["Soporte tecnico prioritario Apple", "Reparacion de hardware certificada", "Incidentes ilimitados de dano accidental sujetos a tarifa", "Cobertura de bateria si conserva menos de 80% de capacidad", "Cubre Apple Pencil y teclado Apple compatible segun condiciones"], "activationNote": "Validar elegibilidad y ventana de compra/registro con Apple o distribuidor antes de vender.", "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "POL-11311", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1288.79, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:5:POL-11311" }], "providerStockVerifiedAt": "2026-05-19T00:00:00Z"
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio electronico", "weight": "0 kg", "serviceTermYears": 2 },
+        "sourceRefs": [
+          { "title": "AppleCare Apple MX", "type": "manufacturer", "url": "https://www.apple.com/mx/applecare/" },
+          { "title": "Apple iPad Air specs MX", "type": "manufacturer_support", "url": "https://www.apple.com/mx/ipad-air/specs/" },
+          { "title": "GlobalOffice Apple SCV93Z/A", "type": "retailer_spec", "url": "https://www.globaloffice.mx/app/detalle/producto/polizas-de-garantia/apple-care-ipad-air-11-m4-electronico-1-ao-adicional/scv93za" },
+          { "title": "CVA feed POL-11311 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "vjhw5geuk09135b",
+      "research": {
+        "confidence": 0.9,
+        "brand": "APPLE",
+        "name": "AppleCare+ SR1A2Z/A para iMac M4 electronico 3 anos",
+        "description": "Servicio electronico AppleCare+ para iMac de 24 pulgadas con chip M4; el proveedor lo describe como 2 anos adicionales y la cobertura se normaliza como 3 anos total para Mac.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/mac/imac-24-m4",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/mac/imac-24-m4",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/applecare/",
+        "gallery": ["https://www.apple.com/mx/applecare/images/overview/plans/mac_single__b38wozuoeq9e_large.jpg"],
+        "specs": {
+          "brand": "APPLE", "model": "SR1A2Z/A", "providerSku": "POL-9932", "productType": "Servicio digital AppleCare+", "serviceFamily": "AppleCare+ para Mac", "format": "Electronico", "serviceTerm": "3 anos total; proveedor lo titula 2 anos adicionales", "compatibleDevice": "iMac 24 pulgadas M4", "coverage": ["Soporte tecnico prioritario Apple", "Servicio certificado para Mac", "Incidentes ilimitados de dano accidental sujetos a tarifa", "Cobertura de bateria si conserva menos de 80% de capacidad"], "activationNote": "Validar elegibilidad por numero de serie antes de activar o vender.", "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "POL-9932", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2792.38, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:84:POL-9932" }], "providerStockVerifiedAt": "2026-05-19T00:00:00Z"
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio electronico", "weight": "0 kg", "serviceTermYears": 3 },
+        "sourceRefs": [
+          { "title": "AppleCare Apple MX", "type": "manufacturer", "url": "https://www.apple.com/mx/applecare/" },
+          { "title": "Apple iMac specs MX", "type": "manufacturer_support", "url": "https://www.apple.com/mx/imac/specs/" },
+          { "title": "Apple iMac M4 technical specs", "type": "manufacturer_support", "url": "https://support.apple.com/es-mx/121557" },
+          { "title": "CVA feed POL-9932 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kx26vs754g2xv0u",
+      "research": {
+        "confidence": 0.9,
+        "brand": "APPLE",
+        "name": "AppleCare+ SUYD2Z/A para iPad 11 A16 electronico 2 anos",
+        "description": "Servicio electronico AppleCare+ para iPad 11 pulgadas con chip A16, cobertura de 2 anos total con soporte Apple y dano accidental sujeto a tarifa.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-11-a16",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-11-a16",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/applecare/",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/S/CP-APPLE-SUYD2ZA-687bf7.jpg"],
+        "specs": {
+          "brand": "APPLE", "model": "SUYD2Z/A", "providerSku": "POL-10148", "productType": "Servicio digital AppleCare+", "serviceFamily": "AppleCare+ para iPad", "format": "Electronico", "serviceTerm": "2 anos total; proveedor lo titula 1 ano adicional", "compatibleDevice": "iPad 11 pulgadas A16 / iPad 2025", "coverage": ["Soporte tecnico prioritario Apple", "Reparacion de hardware certificada", "Incidentes ilimitados de dano accidental sujetos a tarifa", "Cobertura de Apple Pencil y teclado Apple compatible", "Cobertura de bateria si conserva menos de 80% de capacidad"], "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "POL-10148", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1145.2, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:71:POL-10148" }], "providerStockVerifiedAt": "2026-05-19T00:00:00Z"
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio electronico", "weight": "0 kg", "serviceTermYears": 2 },
+        "sourceRefs": [
+          { "title": "AppleCare Apple MX", "type": "manufacturer", "url": "https://www.apple.com/mx/applecare/" },
+          { "title": "Apple iPad A16 technical specs", "type": "manufacturer_support", "url": "https://support.apple.com/es-mx/122240" },
+          { "title": "Cyberpuerta SUYD2Z/A", "type": "retailer_spec", "url": "https://www.cyberpuerta.mx/Apple/AppleCare/AppleCare-para-iPad-10-A16-2-Anos.html" },
+          { "title": "CVA feed POL-10148 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kwwmhe7gksdja6j",
+      "research": {
+        "confidence": 0.89,
+        "brand": "APPLE",
+        "name": "AppleCare+ SV072Z/A para iPad Air 11 M3 electronico 2 anos",
+        "description": "Servicio electronico AppleCare+ para iPad Air de 11 pulgadas con chip M3, cobertura de 2 anos total; vender solo para equipos M3 elegibles.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m3",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/applecare/",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XS/CP-APPLE-SV072ZA-706847.jpg"],
+        "specs": {
+          "brand": "APPLE", "model": "SV072Z/A", "providerSku": "POL-10149", "productType": "Servicio digital AppleCare+", "serviceFamily": "AppleCare+ para iPad", "format": "Electronico", "serviceTerm": "2 anos total; proveedor lo titula 1 ano adicional", "compatibleDevice": "iPad Air 11 pulgadas M3", "coverage": ["Soporte tecnico prioritario Apple", "Reparacion de hardware certificada", "Incidentes ilimitados de dano accidental sujetos a tarifa", "Cobertura de Apple Pencil y teclado Apple compatible", "Cobertura de bateria si conserva menos de 80% de capacidad"], "lifecycleNote": "SKU para iPad Air M3; linea reemplazada por M4 en Apple MX, validar equipo elegible.", "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "POL-10149", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1288.79, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:71:POL-10149" }], "providerStockVerifiedAt": "2026-05-19T00:00:00Z"
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio electronico", "weight": "0 kg", "serviceTermYears": 2 },
+        "sourceRefs": [
+          { "title": "AppleCare Apple MX", "type": "manufacturer", "url": "https://www.apple.com/mx/applecare/" },
+          { "title": "Apple iPad Air M3 newsroom", "type": "manufacturer_news", "url": "https://www.apple.com/mx/newsroom/2025/03/apple-introduces-ipad-air-with-powerful-m3-chip-and-new-magic-keyboard/" },
+          { "title": "Apple iPad Air 11 M3 specs", "type": "manufacturer_support", "url": "https://support.apple.com/es-la/122241" },
+          { "title": "CVA feed POL-10149 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "y8yjmxxm3u142wx",
+      "research": {
+        "confidence": 0.9,
+        "brand": "APPLE",
+        "name": "AppleCare+ SXT02Z/A para iPad Pro 11 M5 electronico 2 anos",
+        "description": "Servicio electronico AppleCare+ para iPad Pro de 11 pulgadas con chip M5, cobertura de 2 anos total con soporte Apple y dano accidental sujeto a tarifa.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-pro-11-m5",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-pro-11-m5",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.apple.com/mx/applecare/",
+        "gallery": ["https://www.apple.com/mx/applecare/images/overview/plans/ipad_single__dzq694a9v0eq_large.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-APPLE-SXT02ZA-fa8fd7.png"],
+        "specs": {
+          "brand": "APPLE", "model": "SXT02Z/A", "providerSku": "POL-11310", "productType": "Servicio digital AppleCare+", "serviceFamily": "AppleCare+ para iPad", "format": "Electronico", "serviceTerm": "2 anos total; proveedor lo titula 1 ano adicional", "compatibleDevice": "iPad Pro 11 pulgadas M5", "coverage": ["Soporte tecnico prioritario Apple", "Reparacion de hardware certificada", "Incidentes ilimitados de dano accidental sujetos a tarifa", "Cobertura de Apple Pencil y teclado Apple compatible", "Cobertura de bateria si conserva menos de 80% de capacidad"], "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "POL-11310", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2505.2, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:5:POL-11310" }], "providerStockVerifiedAt": "2026-05-19T00:00:00Z"
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio electronico", "weight": "0 kg", "serviceTermYears": 2 },
+        "sourceRefs": [
+          { "title": "AppleCare Apple MX", "type": "manufacturer", "url": "https://www.apple.com/mx/applecare/?filter=ipad" },
+          { "title": "Add AppleCare coverage Apple Support", "type": "manufacturer_support", "url": "https://support.apple.com/es-mx/104941" },
+          { "title": "B&H Apple SXT02LL/A AppleCare+ iPad Pro 11 M5", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1925482-REG/apple_sxt02ll_a_applecare_2_year_protection_plan.html" },
+          { "title": "CVA feed POL-11310 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "q5q1wz8cje3zi7x",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ASUS",
+        "name": "ASUS ROG Raikiri Pro GD300X control inalambrico negro para PC y Xbox",
+        "description": "Control gamer ROG Raikiri Pro con pantalla OLED de 1.3 pulgadas, conectividad USB-C, RF 2.4 GHz y Bluetooth en PC, Xbox por cable, 4 botones traseros programables y DAC ESS.",
+        "manualCategoryPath": "gaming/accesorios/controles-gamepad/bluetooth-usb-c/asus-rog-raikiri-pro",
+        "semanticCategoryPath": "gaming/accesorios/controles-gamepad/bluetooth-usb-c/asus-rog-raikiri-pro",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://rog.asus.com/us/controllers/rog-raikiri-pro-model/spec/?config=90GC00W0-BGP000",
+        "gallery": ["https://static.ctonline.mx/imagenes/CONASS020/CONASS020_3_full.jpg", "https://dlcdnwebimgs.asus.com/files/media/861F940F-9C0A-420B-897B-C515713E67DB/v1/img/kv/pd-front.png", "https://dlcdnwebimgs.asus.com/files/media/861F940F-9C0A-420B-897B-C515713E67DB/v1/img/kv/pd-back.png", "https://dlcdnwebimgs.asus.com/files/media/861F940F-9C0A-420B-897B-C515713E67DB/v1/img/material/material-1.jpg"],
+        "documents": [{ "label": "ROG Raikiri Pro quick start guide", "type": "manual", "url": "https://dlcdnets.asus.com/pub/ASUS/Accessory/gamepad/ROG_RAIKIRI_PRO/Q21528a_ROG_PC_Controller_ROG_RAIKIRI_PRO_QSG_100x120mm_WEB.pdf" }],
+        "specs": {
+          "brand": "ASUS", "model": "GD300X RAIKIRI PRO/BK/WW", "manufacturerPartNumber": "90GC00W0-BGP000", "providerSku": "CONASS020", "ean": "4711081919841", "upc": "195553919845", "productType": "Control gamepad", "color": "Negro", "display": "OLED 1.3 in 128 x 40", "connectivity": ["USB-C cableado", "RF 2.4 GHz", "Bluetooth con driver"], "compatibility": ["Windows 10", "Windows 11", "Xbox Series X|S por USB-C", "Xbox One por USB-C"], "buttons": "4 botones traseros programables", "triggers": "Recorrido seleccionable y zonas muertas ajustables", "audio": "Jack 3.5 mm con DAC ESS integrado; audio solo por cable", "batteryLife": "Hasta 48 horas sin iluminacion y vibracion apagada", "cable": "USB-C a USB-A 3 m", "boxContents": ["ROG Raikiri Pro", "Cable USB-C a USB-A", "Dongle USB inalambrico", "Guia rapida", "Garantia"], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para CONASS020.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "CONASS020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 104.44, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:12399" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "lifecycleNote": "Modelo oficial aun vigente en ASUS; generacion madura frente a Raikiri II."
+        },
+        "measurements": { "dimensions": "103 x 64 x 155 mm", "weight": "330 g incluyendo cable" },
+        "sourceRefs": [
+          { "title": "ASUS ROG Raikiri Pro specs", "type": "manufacturer", "url": "https://rog.asus.com/us/controllers/rog-raikiri-pro-model/spec/?config=90GC00W0-BGP000" },
+          { "title": "ASUS ROG Raikiri Pro QSG", "type": "manual", "url": "https://dlcdnets.asus.com/pub/ASUS/Accessory/gamepad/ROG_RAIKIRI_PRO/Q21528a_ROG_PC_Controller_ROG_RAIKIRI_PRO_QSG_100x120mm_WEB.pdf" },
+          { "title": "CTOnline feed CONASS020 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kpi945927vvsrbi",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ASUS ROG",
+        "name": "ASUS ROG Sheath BLK mousepad gamer XL 900 x 440 x 3 mm negro",
+        "description": "Mousepad gamer extendido ASUS ROG Sheath BLK tipo soft, superficie de tela, base de goma antideslizante, bordes cosidos y tamano 900 x 440 x 3 mm para teclado y mouse.",
+        "manualCategoryPath": "computo/accesorios/mousepads/gaming-xl/speed-control/asus-rog-sheath",
+        "semanticCategoryPath": "computo/accesorios/mousepads/gaming-xl/speed-control/asus-rog-sheath",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://rog.asus.com/us/mice-mouse-pads/mouse-pads/rog-sheath-model/spec/?config=90MP00K1-B0AA00",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10373916", "https://dlcdnwebimgs.asus.com/gain/529F9B30-81D9-42F0-9156-C8C59C3886FF/w717/h525/fwebp", "https://dlcdnimgs.asus.com/websites/global/products/qlP6iM3TN93ys7jk/img/main.jpg"],
+        "specs": {
+          "brand": "ASUS ROG", "model": "NC01 ROG SHEATH BLK", "manufacturerPartNumber": "90MP00K3-B0AA00", "providerSku": "AC-11165", "upc": "192876608722", "productType": "Mousepad gamer XL", "type": "Soft", "color": "Negro", "topMaterial": "Tela", "bottomMaterial": "Goma antiderrapante", "features": ["Superficie extendida", "Base antideslizante", "Bordes cosidos"], "contents": ["Mousepad ROG Sheath", "2 calcomanias ROG"], "providerBranchSummary": "CVA stock 0; sin sucursal publica disponible.", "providerBranches": [{ "providerId": "cva", "providerSku": "AC-11165", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 24.53, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:151:AC-11165" }], "providerStockVerifiedAt": "2026-05-19T00:00:00Z"
+        },
+        "measurements": { "dimensions": "900 x 440 x 3 mm", "weight": "695 g" },
+        "sourceRefs": [
+          { "title": "ASUS ROG Sheath specs", "type": "manufacturer", "url": "https://rog.asus.com/us/mice-mouse-pads/mouse-pads/rog-sheath-model/spec/?config=90MP00K1-B0AA00" },
+          { "title": "B&H ASUS ROG Sheath BLK", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1608602-REG/asus_nc01_rog_sheath_blk_rog_sheath_blk_ltd.html/specs" },
+          { "title": "CVA feed AC-11165 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "t7jjnr2x3e9tkk9",
+      "research": {
+        "confidence": 0.88,
+        "brand": "AUTODESK",
+        "name": "Autodesk AutoCAD LT 057Q1-WW9153-L317 suscripcion ELD 3 anos 1 usuario",
+        "description": "Licencia electronica Autodesk AutoCAD LT comercial nueva para 1 usuario designado, suscripcion de 3 anos; las fuentes de SKU indican AutoCAD LT aunque el titulo proveedor dice AutoCAD.",
+        "manualCategoryPath": "software/cad-diseno/autodesk-autocad-lt/3y-1usuario-eld",
+        "semanticCategoryPath": "software/cad-diseno/autodesk-autocad-lt/3y-1usuario-eld",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.autodesk.com/es/products/autocad-lt/overview",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFATD730/SOFATD730_full.jpg", "https://damassets.autodesk.net/content/dam/autodesk/www/products/autodesk-autocad-lt/fy26/overview/images/what-is-autocad-lt-2026-02-thumb-560x362.jpg"],
+        "documents": [{ "label": "AutoCAD LT 2026 system requirements", "type": "manufacturer_support", "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-AutoCAD-LT-2026.html" }],
+        "specs": {
+          "brand": "AUTODESK", "model": "057Q1-WW9153-L317", "providerSku": "SOFATD730", "productType": "Licencia de software CAD", "softwareName": "AutoCAD LT", "edition": "Commercial New Single-user ELD 3-Year Subscription", "delivery": "Electronica / ELD", "licenseTerm": "3 anos", "users": "1 usuario designado", "platforms": ["Windows", "macOS", "Web", "Mobile segun suscripcion"], "capabilities": ["Dibujo y documentacion 2D", "Edicion y anotacion", "Compatibilidad DWG", "AutoLISP en AutoCAD LT"], "licenseNote": "Autodesk vende suscripciones por usuario designado; validar version exacta 2025/2026 con CTOnline antes de publicar.", "sourceDiscrepancies": ["Titulo proveedor dice AutoCAD, fuentes SKU 057Q1-WW9153-L317 indican AutoCAD LT."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para SOFATD730.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "SOFATD730", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1067.5, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:10763" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "physicalDimensions": "No aplica; licencia digital", "weight": "0 kg", "serviceTermYears": 3 },
+        "sourceRefs": [
+          { "title": "Autodesk AutoCAD LT overview", "type": "manufacturer", "url": "https://www.autodesk.com/es/products/autocad-lt/overview" },
+          { "title": "AutoCAD LT 2026 system requirements", "type": "manufacturer_support", "url": "https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-AutoCAD-LT-2026.html" },
+          { "title": "Cityshop 057Q1-WW9153-L317 AutoCAD LT 2025", "type": "retailer_spec", "url": "https://cityshop.mx/producto/autocad-lt-2025-commercial-new-single-user-eld-3-year-subscription-057q1-ww9153-l317-1" },
+          { "title": "CTOnline feed SOFATD730 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

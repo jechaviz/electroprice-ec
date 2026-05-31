@@ -492,6 +492,16 @@ const batch160PlusCases = [
   ["Apple MHXH3AM/A cargador MagSafe inalambrico USB-C 1m blanco", "APPLE", "energia/cargadores-inalambricos/magneticos-magsafe/apple-magsafe-mhxh3am-a", "power"],
   ["Apple MLUN2AM/A puntas de repuesto para Apple Pencil paquete 4", "APPLE", "computo/accesorios/stylus-tablets/apple-pencil/puntas-repuesto/4-pack", "accessories"],
   ["Apple MQLY3BE/A Apple Pencil 1a generacion con adaptador USB-C", "APPLE", "computo/accesorios/stylus-tablets/apple-pencil/1-generacion-usb-c-adapter", "accessories"],
+  ["Apple MR3C2ZM/A kit adaptador VESA para iMac Pro gris espacial", "APPLE", "computo/accesorios/soportes-monitor/vesa/adaptadores-apple/mr3c2zma", "accessories"],
+  ["Apple MX2D3AM/A Apple Pencil Pro blanco para iPad", "APPLE", "computo/accesorios/stylus-tablets/apple-pencil/pro", "accessories"],
+  ["Apple SCV93Z/A AppleCare+ iPad Air 11 M4 electronico 1 ano adicional", "APPLE", "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m4", "software"],
+  ["Apple SR1A2Z/A AppleCare+ iMac M4 2 anos adicionales electronico", "APPLE", "servicios-ti/soporte-garantias/apple/applecare-plus/mac/imac-24-m4", "software"],
+  ["Apple SUYD2Z/A AppleCare+ para iPad 11 A16 electronico", "APPLE", "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-11-a16", "software"],
+  ["Apple SV072Z/A AppleCare+ iPad Air 11 M3 electronico", "APPLE", "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m3", "software"],
+  ["Apple SXT02Z/A AppleCare+ iPad Pro 11 M5 electronico", "APPLE", "servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-pro-11-m5", "software"],
+  ["ASUS GD300X RAIKIRI PRO/BK/WW control inalambrico ROG Raikiri Pro", "ASUS", "gaming/accesorios/controles-gamepad/bluetooth-usb-c/asus-rog-raikiri-pro", "gaming"],
+  ["ASUS ROG Sheath BLK NC01 mousepad gamer XL 900 x 440 x 3 mm", "ASUS ROG", "computo/accesorios/mousepads/gaming-xl/speed-control/asus-rog-sheath", "accessories"],
+  ["Autodesk 057Q1-WW9153-L317 AutoCAD LT suscripcion ELD 3 anos 1 usuario", "AUTODESK", "software/cad-diseno/autodesk-autocad-lt/3y-1usuario-eld", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {

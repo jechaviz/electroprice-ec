@@ -1,0 +1,17 @@
+export const MANUAL_CATEGORY_TREE_CYCLE003_PART003 = [
+  { path: 'computo/accesorios/soportes-monitor/vesa/adaptadores-apple/mr3c2zma', name: 'Apple MR3C2ZM/A adaptador VESA iMac Pro', legacyCategory: 'accessories' },
+  { path: 'computo/accesorios/stylus-tablets/apple-pencil/pro', name: 'Apple Pencil Pro', legacyCategory: 'accessories' },
+  { path: 'servicios-ti/soporte-garantias/apple', name: 'Soporte y garantias Apple', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus', name: 'AppleCare+', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/ipad', name: 'AppleCare+ para iPad', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m4', name: 'AppleCare+ iPad Air 11 M4', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-11-a16', name: 'AppleCare+ iPad 11 A16', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-air-11-m3', name: 'AppleCare+ iPad Air 11 M3', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/ipad/ipad-pro-11-m5', name: 'AppleCare+ iPad Pro 11 M5', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/mac', name: 'AppleCare+ para Mac', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/apple/applecare-plus/mac/imac-24-m4', name: 'AppleCare+ iMac 24 M4', legacyCategory: 'software' },
+  { path: 'gaming/accesorios/controles-gamepad/bluetooth-usb-c/asus-rog-raikiri-pro', name: 'ASUS ROG Raikiri Pro', legacyCategory: 'gaming' },
+  { path: 'computo/accesorios/mousepads/gaming-xl/speed-control/asus-rog-sheath', name: 'ASUS ROG Sheath XL', legacyCategory: 'accessories' },
+  { path: 'software/cad-diseno/autodesk-autocad-lt', name: 'Autodesk AutoCAD LT', legacyCategory: 'software' },
+  { path: 'software/cad-diseno/autodesk-autocad-lt/3y-1usuario-eld', name: 'AutoCAD LT 3 anos 1 usuario ELD', legacyCategory: 'software' },
+];
