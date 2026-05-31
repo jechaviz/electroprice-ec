@@ -1,0 +1,329 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b221-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 221,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "abeh60oj2kgeafl",
+      "research": {
+        "confidence": 0.94,
+        "brand": "SYNOLOGY",
+        "name": "Synology RackStation RS2825RP+ NAS rack 3U sin discos, 16 bahias, PSU redundante",
+        "description": "Servidor NAS rackmount Synology RackStation RS2825RP+ de 16 bahias hot-swap, expandible a 28 con RX1225RP, CPU AMD Ryzen V1780B, memoria ECC y fuente redundante.",
+        "manualCategoryPath": "computo/almacenamiento/nas/rack/16-bahias/synology-rs2825rp-plus",
+        "semanticCategoryPath": "computo/almacenamiento/nas/rack/16-bahias",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.synology.com/en-us/products/RS2825RP+",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SERTRD1400/SERTRD1400_full.jpg",
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/synology_rs2825rp_16_bay_rackstation_diskless_1753268498_1906939.jpg",
+          "https://www.gedateknas.com/web/image/product.product/707/image_1024/Synology%20RS2825RP%2B?unique=267e8d5",
+          "https://www.gedateknas.com/web/image/product.image/189/image_1024/RS2825_REAR.webp?unique=f95511c",
+          "https://cdn.cs.1worldsync.com/dc/a4/dca494f0-4041-4799-8245-cd9c758b9c2e.jpg"
+        ],
+        "documents": [{ "label": "Synology RS2825RP+ datasheet", "type": "manufacturer_datasheet", "url": "https://global.download.synology.com/download/Document/Hardware/DataSheet/RackStation/25-year/RS2825RP%2B/enu/Synology_RS2825RP%2B_Data_Sheet_enu.pdf" }],
+        "specs": {
+          "brand": "Synology", "model": "RS2825RP+", "providerSku": "SERTRD1400", "productType": "NAS rackmount 3U", "bays": 16, "maxBaysWithExpansion": 28, "cpu": "AMD Ryzen V1780B 4C/8T 3.35-3.6 GHz", "memory": "8GB DDR4 ECC UDIMM, max 32GB", "driveSupport": ["3.5in SATA HDD", "2.5in SATA SSD"], "network": ["2 x 1GbE RJ-45", "1 x 10GbE RJ-45"], "ports": ["2 x USB 3.2 Gen 1", "1 x Mini-SAS HD expansion"], "pcie": "Gen3 x8 slot, x4 link", "powerSupply": "550 W redundante", "warranty": "3 anos hardware",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; GlobalOffice/TiendaClic/SHI/B&H muestran inventario publico en canales alternos.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERTRD1400", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3561.94, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:SERTRD1400" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H US$3,799.99 in stock.", "SHI US$3,741 stock 16.", "GlobalOffice $144,314 MXN con 10 en almacen Mexico.", "GEDATEK $100,098.72 MXN entrega inmediata febrero 2026.", "TiendaClic $101,900.14 MXN con existencia aproximada 9."],
+          "reviewNotes": "Confirmar si CT vende unidad diskless sin rieles; Synology indica riel RKS-02 por separado."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "132.3 x 482 x 656.5 mm", "weight": "17.3 kg" },
+        "sourceRefs": [
+          { "title": "Synology RS2825RP+", "type": "manufacturer_product", "url": "https://www.synology.com/en-us/products/RS2825RP+" },
+          { "title": "B&H Synology RS2825RP+", "type": "retailer_stock", "url": "https://www.bhphotovideo.com/c/product/1906939-REG/synology_rs2825rp_16_bay_rackstation_diskless.html" },
+          { "title": "GlobalOffice RS2825RP+", "type": "retailer_stock", "url": "https://www.globaloffice.com.mx/app/detalle/producto/videovigilancia/servidor-de-almacenamiento-rackstation-rs2825rp-16-bahias-3u/rs2825rp" },
+          { "title": "CTOnline feed SERTRD1400 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "aek6qlhe77mis8f",
+      "research": {
+        "confidence": 0.9,
+        "brand": "UNI PAINT",
+        "name": "uni-ball Uni Paint PX-20 amarillo marcador permanente de pintura base aceite, punta media",
+        "description": "Marcador de pintura permanente uni-ball Uni Paint PX-20 amarillo, base aceite, punta bala media de 2.2 a 2.8 mm para superficies como metal, vidrio, plastico, madera, piedra, papel y tela.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/industriales/base-aceite/uni-paint-px20-amarillo",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/industriales/base-aceite",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://uniball.co.uk/brands/paint/uni-ball-medium-paint-marker-px-20/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAZR780/ACCAZR780_1_full.jpg", "https://ofixmx.vtexassets.com/arquivos/ids/179427-800-auto?aspect=true&height=auto&v=637727328741630000&width=800"],
+        "documents": [{ "label": "Uni Paint PX-20 ficha tecnica", "type": "manufacturer_datasheet", "url": "https://ferrincorp.com.pe/wp-content/uploads/2023/11/FT_UNIBALL__PAINT_MARKER_PX-20.pdf" }],
+        "specs": {
+          "brand": "uni-ball / Uni Paint", "model": "PX20AM", "providerSku": "ACCAZR780", "ean": "4902778912263", "productType": "Marcador permanente de pintura", "color": "Amarillo", "inkBase": "Aceite", "tip": "Bala media 2.2-2.8 mm", "surfaces": ["papel", "vidrio", "metal", "plastico", "madera", "tela", "piedra"], "features": ["resistente al agua", "resistente al calor", "resistente a la luz", "sin azufre ni silicona"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop agotado, mientras Intercompras/Royal/Compusistemas muestran stock. Precio CT coincide mejor con caja de 12 que con unidad.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR780", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 685.62, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCAZR780" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Ofix unidad $68.50 MXN.", "Intercompras $659 MXN con 97 disponibles.", "Royal Office $727.16 MXN con 59 disponibles caja 12.", "Compusistemas $698.07 MXN almacen 2 con 61.", "Cityshop $859 MXN agotado.", "Staples US$9.29."],
+          "reviewNotes": "EAN parece de unidad PX-20 amarilla, pero precio CT sugiere caja/multiplo; mantener alerta de presentacion."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "15 x 15 x 143 mm", "weight": "21.7-26.736 g por pieza" },
+        "sourceRefs": [
+          { "title": "uni-ball PX-20", "type": "manufacturer_product", "url": "https://uniball.co.uk/brands/paint/uni-ball-medium-paint-marker-px-20/" },
+          { "title": "Ofix PX20AM", "type": "retailer_stock", "url": "https://www.ofix.mx/marcador-permanente-uni-paint-marker-amarillo-px-20---uniball-305-px20am/p" },
+          { "title": "Intercompras Uni Paint PX20AM", "type": "retailer_stock", "url": "https://intercompras.com/p/marcador-industrial-uni-paint-305px20am-punta-bala-tinta-solvente-254590" },
+          { "title": "CTOnline feed ACCAZR780 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "aftctjgdmv9xpl0",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DELL",
+        "name": "Dell N_OPTL1_N1_M3 ProSupport Plus 3 anos para OptiPlex 3000 desde 1Y Basic NBD",
+        "description": "Extension Dell para OptiPlex 3000 desktops que actualiza de 1 ano Basic Next Business Day a 3 anos ProSupport Plus, sujeta a validacion por service tag.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-3000/1y-basic-a-3y-prosupport-plus/n-optl1-n1-m3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-3000/1y-basic-a-3y-prosupport-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/dt/prosupport-client-suite",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339881"],
+        "documents": [{ "label": "Dell ProSupport Plus for PCs service description", "type": "manufacturer_service_description", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/dell-prosupport-plus-for-pcs-and-tablets-sd-en-amer.pdf" }],
+        "specs": {
+          "brand": "Dell", "model": "N_OPTL1_N1_M3", "providerSku": "POL-7726", "alternateSku": "O3M3_1OS3PSP", "productType": "Poliza de garantia y soporte", "deviceFamily": "OptiPlex desktops 3000", "coverage": "3 anos", "upgradeFrom": "1 ano Basic / Next Business Day", "serviceLevel": "ProSupport Plus", "features": ["acceso prioritario 24/7", "reparacion onsite siguiente dia habil", "monitoreo proactivo", "cobertura dano accidental segun region", "Keep Your Hard Drive segun region"],
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; GlobalOffice muestra existencias en proceso y Cityshop agotado.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-7726", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2467.2, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:POL-7726" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice $3,291 MXN con existencias en proceso.", "Cityshop agotado.", "Technoworld GBP85.85 inc VAT out of stock.", "Dell Online ZA sold out."],
+          "reviewNotes": "La equivalencia internacional O3M3_1OS3PSP no es el mismo codigo exacto. Requiere validar compatibilidad por service tag."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_product", "url": "https://www.dell.com/en-us/lp/dt/prosupport-client-suite" },
+          { "title": "GlobalOffice N_OPTL1_N1_M3", "type": "retailer_stock", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/polizas-de-garantia/poliza-de-garantia-dell-para-optiplex-desktops-300/n-optl1-n1-m3" },
+          { "title": "Cityshop N_OPTL1_N1_M3", "type": "retailer_stock", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-optiplex-desktops-3000-de-1-ano-incluido-a-3-anos-prosupport-plus" },
+          { "title": "CVA feed POL-7726 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "akic84gdb70tggv",
+      "research": {
+        "confidence": 0.94,
+        "brand": "LG",
+        "name": "LG WP600-B webOS Box reproductor para senalizacion digital 4K UHD",
+        "description": "Media player LG WP600-B para senalizacion digital con webOS 6.0, salida HDMI 4K 60Hz, conectividad HDMI/DisplayPort, LAN, RS-232C, USB y Wi-Fi integrado.",
+        "manualCategoryPath": "video/senalizacion-digital/media-players/webos/lg-wp600-b",
+        "semanticCategoryPath": "video/senalizacion-digital/media-players/webos",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lg.com/mx/business/information-display/senalizacion-digital/senalizacion-digital-accesorios/wp600-b/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCLGE110/ACCLGE110_full.jpg",
+          "https://www.lg.com/content/dam/channel/wcms/mx/images/business/wp600-b_awm_enms_mx_b/gallery/DZ-01.jpg?w=800",
+          "https://www.lg.com/content/dam/channel/wcms/mx/images/business/wp600-b_awm_enms_mx_b/gallery/DZ-02.jpg?w=800",
+          "https://www.lg.com/content/dam/channel/wcms/mx/images/business/wp600-b_awm_enms_mx_b/gallery/DZ-03.jpg?w=800",
+          "https://www.lg.com/content/dam/channel/wcms/mx/images/business/wp600-b_awm_enms_mx_b/gallery/DZ-04.jpg?w=800",
+          "https://www.lg.com/content/dam/channel/wcms/mx/images/business/wp600-b_awm_enms_mx_b/gallery/DZ-05.jpg?w=800"
+        ],
+        "documents": [{ "label": "LG WP600 spec sheet", "type": "manufacturer_datasheet", "url": "https://media.us.lg.com/m/60a03c0861a6ffa7/original/WP600-Spec-Sheet.pdf" }],
+        "specs": {
+          "brand": "LG", "model": "WP600-B", "providerSku": "ACCLGE110", "ean": "8806096018279", "usUpc": "195174081440", "productType": "Media player para senalizacion digital", "os": "webOS 6.0", "storage": "8GB", "videoOutput": "UHD 4K 60Hz HDMI", "connectivity": ["2 x HDMI In HDCP 2.2", "1 x HDMI Out", "1 x DisplayPort In", "1 x DisplayPort Out", "RJ45 LAN", "RS-232C In/Out", "IR In", "2 x USB 2.0 Type-A", "Wi-Fi"], "power": "AC 100-240V 50/60Hz", "powerConsumption": "23W tipico / 27W max", "operatingTemperature": "0 a 40 C", "operatingHumidity": "10 a 80%", "software": ["SuperSign CMS", "SuperSign Control", "SuperSign Control+", "SuperSign WB", "SuperSign Cloud", "Mobile CMS", "LG ConnectedCare"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; PCStore, Compuviper y LG US lo muestran agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCLGE110", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5086.96, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCLGE110" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["LG US US$333 Out of Stock.", "PCStore $5,977 MXN agotado.", "Compuviper $7,665 MXN con CDMX/CEDIs/sucursales total 0.", "GlobalOffice precio/existencia en proceso."],
+          "reviewNotes": "PCStore reporta 16GB, pero LG oficial confirma 8GB. Algunos titulos dicen webOS 4.0, specs oficiales confirman webOS 6.0."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "258 x 36.5 x 186 mm", "weight": "0.87 kg", "packageDimensions": "339 x 124 x 314 mm", "packageWeight": "1.77 kg" },
+        "sourceRefs": [
+          { "title": "LG Mexico WP600-B", "type": "manufacturer_product", "url": "https://www.lg.com/mx/business/information-display/senalizacion-digital/senalizacion-digital-accesorios/wp600-b/" },
+          { "title": "LG US WP600", "type": "manufacturer_product", "url": "https://solutions.lg.com/us/digital-signage/lg-wp600" },
+          { "title": "PCStore LG WP600", "type": "retailer_stock", "url": "https://pcstore.mx/plataforma-de-senalizacion-inteligente-lg-wp600-digital-media-player-webos-box" },
+          { "title": "CTOnline feed ACCLGE110 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "al0ybv6dwxre63j",
+      "research": {
+        "confidence": 0.82,
+        "brand": "NASSA",
+        "name": "NASSA PC1006 folder canario/amarillo, caja con 100 piezas, tamano oficio probable",
+        "description": "Folder NASSA PC1006 color canario/amarillo de cartulina, presentacion de 100 piezas; varias fuentes publicas lo catalogan como oficio aunque CT/Cityshop lo describen como carta.",
+        "manualCategoryPath": "oficina/papeleria/archivo/folders/oficio/canario/100-piezas/nassa-pc1006",
+        "semanticCategoryPath": "oficina/papeleria/archivo/folders/oficio/canario/100-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAP030/ACCMAP030_1_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-pc1006-folder-tamano-carta-nassa-pc1006.webp", "https://www.exel.com.mx/imgProducto/NAPFOLAB006.png"],
+        "documents": [{ "label": "Catalogo Arpapel", "type": "manufacturer_catalog", "url": "https://www.arpapel.com.mx/assets/images/catalogos/Catalogo_Oficina_Ok.pdf" }],
+        "specs": {
+          "brand": "NASSA", "model": "PC1006", "providerSku": "ACCMAP030", "ean": "7501523752061", "productType": "Folders de archivo", "color": "Canario / amarillo", "material": "Cartulina", "pieceCount": 100, "size": "Oficio probable; CT/Cityshop dicen carta",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop, Intercompras, GlobalOffice, MiPC y Pcel muestran inventario publico.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAP030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 267.65, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCMAP030" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cityshop $269 MXN ultimas 5.", "Intercompras $248 MXN con 20 disponibles; Mexico 2, Culiacan 4, Guadalajara 1.", "GlobalOffice $360 MXN con 1 disponible y almacen Mexico 6.", "MiPC $350.55 con 13.", "Pcel $259 en existencia."],
+          "reviewNotes": "Conflicto carta/oficio: evidencia publica favorece oficio por Intercompras, GlobalOffice, Pcel y Arpapel; conservar alerta manual."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Cityshop NASSA PC1006", "type": "retailer_stock", "url": "https://cityshop.mx/producto/folder-tamano-carta-nassa-pc1006-amarillo" },
+          { "title": "Intercompras NASSA PC1006", "type": "retailer_stock", "url": "https://intercompras.com/p/folder-nassa-pc1006-tamano-oficio-canario-piezas-230821" },
+          { "title": "GlobalOffice NASSA PC1006", "type": "retailer_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/papeleria-y-art-de-oficina/folder-nassa-oficio-canario-c100-piezas-pc1006/pc1006" },
+          { "title": "CTOnline feed ACCMAP030 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "almrubzzpj4j4mk",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Hillstone",
+        "name": "Hillstone SGSV-A200-IN12U renovacion ServicePack A200 NGFW 12 meses",
+        "description": "Renovacion ServicePack Hillstone SGSV-A200-IN12U por 12 meses para A200 NGFW, con garantia hardware, StoneOS, actualizaciones y soporte remoto segun politica del fabricante/distribuidor.",
+        "manualCategoryPath": "software/licencias/seguridad-red/hillstone/a200/servicepack-12m/sgsv-a200-in12u",
+        "semanticCategoryPath": "software/licencias/seguridad-red/hillstone/a200/servicepack-12m",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.hillstonenet.com/products/network-edge-protection/ngfw/",
+        "gallery": ["https://static.ctonline.mx/imagenes/FIRHST040/FIRHST040_full.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/FIRHST040_full.jpg", "https://ventadepcs.com/tienda/image/cache/catalog/MX-computo/licencias/licencias-Hillstone-SGSV-A200-IN12U-FullHDFIRHST040-228x228.jpg", "https://www.wifidom.com/media/image/ae/96/4c/Logo-Hillstone.png"],
+        "specs": {
+          "brand": "Hillstone", "model": "SGSV-A200-IN12U", "providerSku": "FIRHST040", "productType": "Renovacion ServicePack NGFW", "coverage": "12 meses", "compatibleProduct": "Hillstone A200 NGFW", "features": ["garantia hardware", "StoneOS software", "actualizacion base de identificacion de aplicaciones", "soporte remoto 7x24 segun Wifidom"], "delivery": "Licencia/servicio digital",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; MacToner y Cityshop agotados, VentaDePCs muestra existencia.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "FIRHST040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 47.41, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:FIRHST040" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MacToner $1,251.23 MXN sin existencias.", "Cityshop $1,069 MXN agotado.", "VentaDePCs $1,092.43 MXN en existencia.", "MegaMarket Brasil R$415.22 agotado."],
+          "reviewNotes": "No se encontro pagina oficial con SKU exacto; confirmacion exacta viene de Wifidom/MacToner. Puede aplicar solo a renovacion antes de expirar garantia."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Hillstone NGFW", "type": "manufacturer_product", "url": "https://www.hillstonenet.com/products/network-edge-protection/ngfw/" },
+          { "title": "Wifidom SGSV-A200-IN12U", "type": "retailer_stock", "url": "https://www.wifidom.com/soluciones/seguridad/seguridad-de-redes/cortafuegos-de-nueva-generacion/licencias/105152/sgsv-a200-in12u" },
+          { "title": "MacToner Hillstone SGSV-A200-IN12U", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/licencias-hillstone-sgsv-a200-in12u/" },
+          { "title": "CTOnline feed FIRHST040 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "apd0c593fizn6m9",
+      "research": {
+        "confidence": 0.92,
+        "brand": "AZOR",
+        "name": "Azor Vision Plus 2600AM resaltador amarillo fluorescente, punta cincel 6 mm, caja con 12 piezas",
+        "description": "Resaltador Azor Vision Plus 2600AM amarillo fluorescente con tinta base agua no toxica, punta cincel de 6 mm, clip, grip y presentacion de 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/resaltadores/amarillo/12-piezas/azor-vision-plus-2600am",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/resaltadores/amarillo/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://azor.com.mx/us/index.php/product/vision-plus/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAZR160/ACCAZR160_1_full.jpg", "https://azor.com.mx/us/wp-content/uploads/2017/11/azor_vision_plus_2600_productshot_1-1.jpg", "https://azor.com.mx/us/wp-content/uploads/2017/11/azor_vison_plus_2600_12pzas-1.jpg"],
+        "documents": [{ "label": "Azor 2600AM ficha tecnica CDMX", "type": "retailer_datasheet", "url": "https://mitienditavirtual.finanzas.cdmx.gob.mx/storage/19937/AZO-MAR-2600AM-ficha-tecnica-%281%29.pdf" }],
+        "specs": {
+          "brand": "Azor", "model": "2600AM", "providerSku": "ACCAZR160", "ean": "7501428701355", "productType": "Resaltador fluorescente", "color": "Amarillo", "pieceCount": 12, "tip": "Cincel 6 mm", "inkBase": "Agua", "features": ["no toxico", "clip", "grip", "no retractil"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; MIPC/TiendaClic/CTI/Novusred muestran agotado o existencia 0.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR160", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 91.36, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCAZR160" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MIPC $129.40 MXN agotado.", "TiendaClic $163.98 MXN existencia aproximada 0.", "CTI Systems $120 MXN agotado.", "Novusred $116.58 MXN stock 0."],
+          "reviewNotes": "Medidas/peso solo confirmadas por retailer, no fabricante."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "14 x 7 x 4 cm", "weight": "0.1 kg" },
+        "sourceRefs": [
+          { "title": "Azor Vision Plus", "type": "manufacturer_product", "url": "https://azor.com.mx/us/index.php/product/vision-plus/" },
+          { "title": "MIPC Azor 2600AM", "type": "retailer_stock", "url": "https://mipc.com.mx/resaltador-vision-plus-azor-2600am-amarillo-paq-c-12.html" },
+          { "title": "TiendaClic Azor 2600AM", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/resaltador-vision-plus-azor-2600am" },
+          { "title": "CTOnline feed ACCAZR160 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "apkzozp7izo5r69",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ZEBRA",
+        "name": "Zebra SG-ET5X-SHDRSTP-01 correa de hombro breakaway negra para tablets ET5X/ET4X",
+        "description": "Correa de hombro Zebra SG-ET5X-SHDRSTP-01 color negro, tipo breakaway, compatible con tablets Zebra ET5X y ET4X segun guias de accesorios.",
+        "manualCategoryPath": "punto-de-venta/terminales-moviles/accesorios/correas/zebra-et5x/sg-et5x-shdrstp-01",
+        "semanticCategoryPath": "punto-de-venta/terminales-moviles/accesorios/correas/zebra-et5x",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://prod-www.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/et40-et45-guide-accessory-en-us.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCZBR3410/ACCZBR3410_full.jpg", "https://cdn11.bigcommerce.com/s-tjvqt45f8d/images/stencil/500x659/products/63811/452713/SG-ET5X-SHDRSTP-01__56751.1739245871.jpg?c=1", "https://www.staples-3p.com/s7/is/image/Staples/m007031510_sc7?hei=90&wid=90"],
+        "documents": [{ "label": "Zebra ET40/ET45 accessories guide", "type": "manufacturer_accessory_guide", "url": "https://prod-www.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/et40-et45-guide-accessory-en-us.pdf" }],
+        "specs": {
+          "brand": "Zebra", "model": "SG-ET5X-SHDRSTP-01", "providerSku": "ACCZBR3410", "productType": "Correa de hombro para tablet/terminal movil", "color": "Negro", "design": "Breakaway", "compatibleDevices": ["Zebra ET5X", "Zebra ET4X con rugged boot y D-clips vendidos por separado"], "quantity": 1,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Mactoner Mexico sin existencias, retailers internacionales con stock variable.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCZBR3410", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 43.35, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCZBR3410" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Mactoner $1,144.21 MXN sin existencias.", "BarcodeFactory US$52.56.", "Midwest US$52.97.", "Staples US$87.69.", "PC-Canada CAD$77.99 con stock inconsistente.", "Tiefenbach EUR52.17 con 343 disponibles."],
+          "reviewNotes": "EAN varia en sitios europeos; no usar como llave global unica."
+        },
+        "measurements": { "physicalProduct": true, "weight": "0.11-0.5 lb segun retailers", "dimensions": "no publicadas" },
+        "sourceRefs": [
+          { "title": "Zebra ET40/ET45 accessories guide", "type": "manufacturer_accessory_guide", "url": "https://prod-www.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/et40-et45-guide-accessory-en-us.pdf" },
+          { "title": "Midwest Zebra SG-ET5X-SHDRSTP-01", "type": "retailer_stock", "url": "https://www.midwestbarcodingsolutions.com/sg-et5x-shdrstp-01/" },
+          { "title": "Mactoner Zebra SG-ET5X", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/kit-punto-de-venta-zebra-sg-et5x-shdrstp-01-negro/" },
+          { "title": "CTOnline feed ACCZBR3410 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "apr4ni3o3nwwofn",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Qian",
+        "name": "Qian QOC-143LK caja portatil para dinero de acero negro con llave y bandeja removible",
+        "description": "Caja/cajon portatil Qian QOC-143LK para dinero, acero negro, cerradura con llave, asa metalica y bandeja removible de dos niveles para billetes y monedas.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/cajas-portatiles/con-llave/qian-qoc-143lk",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/cajas-portatiles/con-llave",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.qian.mx/qian-large-metal-cash-box-with-2-layers-of-bill-and-coin-tray-with-key-lock-sku-qoc-143lk.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/CJNQIA040/CJNQIA040_full.jpg", "https://compupuebla.com/wp-content/uploads/2025/09/CajaparaDineroQIANgrandeQOC143LK_QOC143SK_EAN7500619013680_0-1-600x600.jpg", "https://compupuebla.com/wp-content/uploads/2025/09/CajaparaDineroQIANgrandeQOC143LK_QOC143SK_EAN7500619013680_1-1.jpg", "https://shop.pchconnect.com/storage/catalog/product/3s4rGaJalfWeqakcuwddMxuYxYBsFhiZJzKyZ4ob.jpg.webp"],
+        "specs": {
+          "brand": "Qian", "model": "QOC-143LK", "providerSku": "CJNQIA040", "ean": "7500619013680", "productType": "Caja portatil para dinero", "material": "Acero", "color": "Negro", "lock": "Llave", "includedKeys": 2, "handle": "Asa metalica", "tray": "Bandeja removible de dos niveles", "billCompartments": "4 confirmado por Qian/PCH/Cityshop; CT-like dice 5", "coinCompartments": 5, "rj11": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; PCH, Cityshop y MiPC muestran stock publico alto.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CJNQIA040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 15.99, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:CJNQIA040" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Qian MX $514 in stock.", "PCH desde US$18.28 con 289 total; Merida 2, CDMX Aeropuerto 189, Guadalajara 94, OB-ED GDL 4.", "Cityshop $359 MXN ultimas 239.", "MiPC $356.40 MXN stock 238.", "CompuPuebla $446 MXN out of stock.", "PC Digital $411 MXN out of stock."],
+          "reviewNotes": "Conflicto mayor 4 vs 5 billetes; usar 4 billetes + 5 monedas por fabricante/PCH/Cityshop y conservar nota."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "90 x 300 x 240 mm", "weight": "1.7 kg" },
+        "sourceRefs": [
+          { "title": "Qian QOC-143LK", "type": "manufacturer_product", "url": "https://www.qian.mx/qian-large-metal-cash-box-with-2-layers-of-bill-and-coin-tray-with-key-lock-sku-qoc-143lk.html" },
+          { "title": "PCH Qian QOC-143LK", "type": "retailer_stock", "url": "https://shop.pchconnect.com/productos/cajon-de-dinero-qian-con-bandeja-removible-de-dos-niveles-qoc-143lk" },
+          { "title": "Cityshop Qian QOC-143LK", "type": "retailer_stock", "url": "https://cityshop.mx/producto/caja-para-dinero-qian-grande-qoc-143lk" },
+          { "title": "CTOnline feed CJNQIA040 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "aqeo7wzmjjehlld",
+      "research": {
+        "confidence": 0.93,
+        "brand": "CANON",
+        "name": "Canon imageFORMULA DR-C225 II escaner documental ADF duplex USB, 25 ppm / 50 ipm",
+        "description": "Escaner documental Canon imageFORMULA DR-C225 II para escritorio, ADF duplex, sensor CMOS/CIS, USB 2.0, 600 dpi, 25 ppm simplex y 50 ipm duplex.",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4/canon-imageformula-dr-c225-ii",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/escaner-canon-imageformula-dr-c225ii",
+        "gallery": ["https://static.ctonline.mx/imagenes/SCACNN500/SCACNN500_full.jpg", "https://s7d1.scene7.com/is/image/canon/3258C002_imageformula-dr-c225-ii-office-document-scanner_primary?fmt=webp-alpha", "https://s7d1.scene7.com/is/image/canon/3258C002_imageformula-dr-c225-ii-office-document-scanner_6?fmt=webp-alpha", "https://s7d1.scene7.com/is/image/canon/3258C002_imageformula-dr-c225-ii-office-document-scanner_5?fmt=webp-alpha"],
+        "documents": [{ "label": "Canon Mexico DR-C225 II brochure", "type": "manufacturer_brochure", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/825_Brochure_DR-C225_II_min.pdf" }],
+        "specs": {
+          "brand": "Canon", "model": "imageFORMULA DR-C225 II", "providerSku": "SCACNN500", "upc": "013803310214", "partNumbers": ["3258C002", "3258C002AA", "3258C002AB"], "productType": "Escaner documental ADF duplex", "sensor": "CMOS / Contact Image Sensor", "lightSource": "LED RGB", "resolution": "600 dpi", "scanSpeed": "25 ppm simplex / 50 ipm duplex", "adfCapacity": "30 hojas segun brochure Canon Mexico", "dailyDutyCycle": "1500 escaneos/dia recomendado", "interface": "USB 2.0", "drivers": ["ISIS", "TWAIN"], "software": "CaptureOnTouch Windows/Mac",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Mactoner sin existencias, pero Tienda Canon, SuperMex y AztecaCompras muestran disponibilidad o entrega.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SCACNN500", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10912.8, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:SCACNN500" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Tienda Canon Mexico $8,999 MXN disponible.", "Canon USA US$289 promo pero discontinued/no longer available en HTML.", "SuperMex Digital $7,735 MXN entrega 2-3 dias.", "AztecaCompras $8,902 MXN con 9 piezas.", "Sears $15,200 MXN.", "Mactoner $15,192.01 MXN sin existencias."],
+          "reviewNotes": "ADF/volumen diario tienen conflicto: usar 30 hojas y 1500/dia por brochure Canon Mexico; Tienda Canon MX muestra 60 hojas/4000 posiblemente de ficha contaminada."
+        },
+        "measurements": { "physicalProduct": true, "closedDimensions": "30.0 x 15.6 x 22.0 cm", "openDimensions": "30.0 x 23.5 x 33.9 cm", "weight": "2.7 kg" },
+        "sourceRefs": [
+          { "title": "Canon Mexico DR-C225 II brochure", "type": "manufacturer_brochure", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/825_Brochure_DR-C225_II_min.pdf" },
+          { "title": "Tienda Canon DR-C225 II", "type": "manufacturer_product", "url": "https://www.tiendacanon.com.mx/es_mx/p/escaner-canon-imageformula-dr-c225ii" },
+          { "title": "AztecaCompras Canon DR-C225 II", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx00000046300-canon-3258c002aa-escaner-dr-c225-ii-adf-de-30h-25-ppm-oficio.html" },
+          { "title": "CTOnline feed SCACNN500 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
