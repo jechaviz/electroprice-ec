@@ -372,6 +372,16 @@ const batch160PlusCases = [
   ["LACES LA200KEA2 kit de extractores negro para rack", "LACES", "infraestructura/racks-accesorios/ventilacion/extractores/laces-la200kea2", "networking"],
   ["Dell N_PAM3_N3_M3 garantia ProSupport Plus Pro 24 AIO 3 anos", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-24-aio/3y-basic-a-3y-prosupport-plus", "software"],
   ["Lenovo 4ZN1Q45636 Ivanti Endpoint Manager PMA formerly Management Suite", "LENOVO", "software/gestion-ti/endpoint-management/ivanti-endpoint-manager/pma-4zn1q45636", "software"],
+  ["Poly PBLKWIRE312 Blackwire Plus Service 3 anos advance replacement", "POLY", "servicios-ti/soporte-garantias/poly/blackwire/plus-service-3y", "software"],
+  ["Enson ENS-FP62 placa faceplate universal 2 puertos sin jack blanca", "ENSON", "redes/cableado-estructurado/placas-keystone/2-puertos/enson-ens-fp62", "networking"],
+  ["Corsair XTM60 CT-9010015-WW pasta termica alto rendimiento 3 g", "CORSAIR", "computo/componentes/enfriamiento/pasta-termica/corsair-xtm60-3g", "components"],
+  ["Soft Restaurant SR-11LITE-RE 11 Lite renta mensual 2 nodos", "SOFT RESTAURANT", "punto-de-venta/software-pos/restaurantes/licencias-renta-mensual/lite-2-nodos", "software"],
+  ["Amazfit GTS 4 smartwatch Infinite Black Bluetooth GPS AMOLED", "AMAZFIT", "electronica/wearables/smartwatches/amazfit-gts-4", "accessories"],
+  ["Microsoft Visio Professional 2024 EP2-07111 licencia ESD descarga", "MICROSOFT", "software/licencias/microsoft/visio/professional-2024-esd", "software"],
+  ["KSA KN95 cubrebocas blanco caja con 20 piezas", "KSA", "salud/higiene/cubrebocas/kn95/20-piezas/ksa", "accessories"],
+  ["Dell N_OPTL3_N3_M5 garantia OptiPlex 7010 3Y Basic NBD a 5Y ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-7010/3y-basic-a-5y-prosupport-plus", "software"],
+  ["Azor Signal Xtra 40001 marcador permanente negro punta cincel 6mm caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/permanentes/signal-xtra/negro/12-piezas", "accessories"],
+  ["Tripp Lite SRCOOL7KDUCT ducto descarga SmartRack para SRCOOL7KRM", "TRIPP-LITE", "infraestructura/racks-accesorios/ventilacion/ductos-descarga/tripp-lite-srcool7kduct", "networking"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
