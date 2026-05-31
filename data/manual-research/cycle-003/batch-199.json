@@ -1,0 +1,420 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b199-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 199,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "4osrle4hvwvi25v",
+      "research": {
+        "confidence": 0.9,
+        "brand": "CDP",
+        "name": "CDP ES-AVR-612 SOL inversor UPS solar 400W 120V",
+        "description": "Inversor UPS interactivo CDP ES-AVR-612 SOL de onda senoidal con AVR, entrada solar MPPT y cargador de baterias 12V para respaldo y almacenamiento de energia.",
+        "manualCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-12v/cdp-es-avr-612-sol",
+        "semanticCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-12v/cdp-es-avr-612-sol",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/download.asp?fileid=332",
+        "gallery": ["https://www.pcdigital.com.mx/wp-content/uploads/2025/03/ES-AVR-612-SOL.jpg", "https://www.pcdigital.com.mx/wp-content/uploads/2025/03/ES-AVR-612-SOL-150x150.jpg"],
+        "specs": {
+          "brand": "CDP",
+          "model": "ES-AVR-612 SOL",
+          "providerSku": "INVCDP010",
+          "productType": "Inversor UPS solar line-interactive",
+          "color": "Negro",
+          "capacity": "600VA",
+          "power": "400W",
+          "acVoltage": "120Vac entrada/salida",
+          "inputFrequency": "50/60Hz",
+          "batteryCharger": "Hasta 30A, 12VDC",
+          "solarChargeController": "MPPT 30A, 30-72VDC",
+          "waveform": "Onda senoidal",
+          "features": ["AVR", "Pantalla LCD", "Proteccion de sobrecarga", "Ventilador de enfriamiento"],
+          "warranty": "2 anos segun Pcdigital; 1 ano segun Cityshop",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; resellers consultados sin existencias/0 piezas",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "pcdigital", "warehouse": "online_mx", "country": "MX", "stock": 0 },
+            { "providerId": "cityshop", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "weight": "10 kg", "weightKg": 10 },
+        "sourceRefs": [
+          { "title": "PCDigital CDP ES-AVR-612 SOL", "type": "distributor", "url": "https://www.pcdigital.com.mx/inversor-400w-cdp-es-avr-612-sol-120-vac-50-60-hz-argador-hasta-30-amp-12-vdc-negro/" },
+          { "title": "Cityshop CDP ES-AVR-612 SOL", "type": "distributor", "url": "https://cityshop.mx/producto/inversor-cdp-cdp-es-avr-612-sol-50-hz60-hz-negro" },
+          { "title": "Poder y Energia ES-AVR 612 WM", "type": "distributor", "url": "https://poderyenergia.com/index.php/producto/es-avr-612-wm/" },
+          { "title": "CDP Energy guia rapida solar", "type": "manufacturer", "url": "https://www.cdpenergy.com/download.asp?fileid=332" }
+        ]
+      }
+    },
+    {
+      "product_id": "4oy3t7bk9crpm3p",
+      "research": {
+        "confidence": 0.9,
+        "brand": "BASEUS",
+        "name": "Baseus Palm 1C P10111606213-00 cargador USB-C 30W blanco",
+        "description": "Cargador compacto de pared Baseus Palm 1C con un puerto USB-C, carga rapida hasta 30W y protecciones electricas integradas.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c/30w/baseus-palm-1c",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c/30w/baseus-palm-1c-blanco",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.epey.com/sarj-aleti/baseus-palm-1c-30w.html",
+        "gallery": ["https://shopping.jreast.co.jp/html/upload/save_image/shop/17456/product/7094342/image_l.jpg", "https://shopping.jreast.co.jp/html/upload/save_image/shop/17456/product/7094342/image_2.jpg", "https://shopping.jreast.co.jp/html/upload/save_image/shop/17456/product/7094342/image_3.jpg", "https://shopping.jreast.co.jp/html/upload/save_image/shop/17456/product/7094342/image_4.jpg"],
+        "specs": {
+          "brand": "BASEUS",
+          "model": "P10111606213-00",
+          "providerSku": "AC-12653",
+          "productType": "Cargador USB-C de pared",
+          "series": "Baseus Palm 1C",
+          "color": "Blanco / Moon White",
+          "ports": "1 x USB-C",
+          "maxPower": "30W",
+          "chargingProtocols": ["USB PD 3.0", "Qualcomm QC 3.0"],
+          "outputProfiles": ["5-9V/3A", "12V/2.5A", "15V/2A", "20V/1.5A"],
+          "cableIncluded": false,
+          "safetyFeatures": ["Proteccion de corriente", "Proteccion de temperatura", "Proteccion de corto circuito", "Proteccion de voltaje", "Proteccion electrostatica"],
+          "warranty": "2 anos segun JRE/BicCamera",
+          "providerBranchSummary": "Electroprice/CVA stock 0; INNTEC agotado; TiendaClic 0 piezas",
+          "providerBranches": [
+            { "providerId": "cva", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "inntec", "warehouse": "online_mx", "country": "MX", "stock": 0 },
+            { "providerId": "tiendaclic", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "dimensions": "31 x 36 x 31 mm", "weight": "41 g", "weightKg": 0.041 },
+        "sourceRefs": [
+          { "title": "JRE Mall BicCamera Baseus Palm C x1 30W", "type": "marketplace", "url": "https://shopping.jreast.co.jp/products/detail/s248/s248-6932172673048" },
+          { "title": "Epey Baseus Palm 1C 30W", "type": "datasheet", "url": "https://www.epey.com/sarj-aleti/baseus-palm-1c-30w.html" },
+          { "title": "TiendaClic Baseus P10111606213-00", "type": "distributor", "url": "https://www.tiendaclic.mx/ver-detalle/cargador-de-pared-baseus-carga-rapida-tipo-c-30w-color-blanco-baseus-p10111606213-00" },
+          { "title": "INNTEC listado AC-12653", "type": "distributor", "url": "https://www.inntecstore.com/m_categoria.php?cat=30&entry=240&order=1&pagina=13" }
+        ]
+      }
+    },
+    {
+      "product_id": "4pa0epgrsg6ok2e",
+      "research": {
+        "confidence": 0.94,
+        "brand": "STARTECH.COM",
+        "name": "StarTech GC9SM cambiador genero serial DB9 macho a macho",
+        "description": "Adaptador slimline StarTech GC9SM con conectores seriales DB9 macho a macho para convertir un puerto DB9 hembra en DB9 macho.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/serial-db9/cambiadores-genero/startech-gc9sm",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/serial-db9/cambiadores-genero/db9-macho-macho/startech-gc9sm",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.startech.com/en-us/cables/gc9sm",
+        "gallery": ["https://media.startech.com/cms/products/main/gc9sm.main.jpg"],
+        "specs": {
+          "brand": "STARTECH.COM",
+          "model": "GC9SM",
+          "providerSku": "AC-11060",
+          "upc": "065030777520",
+          "productType": "Cambiador de genero / adaptador serial",
+          "connectors": "2 x DB-9 macho, 9 pines, D-Sub",
+          "format": "Slimline / bajo perfil",
+          "color": "Negro",
+          "packageQuantity": 1,
+          "warranty": "De por vida",
+          "providerBranchSummary": "Electroprice/CVA stock 0; sin stock CVA publico por sucursal",
+          "providerBranches": [{ "providerId": "cva", "warehouse": "provider_total", "country": "MX", "stock": 0 }]
+        },
+        "measurements": { "dimensions": "1.8 x 3.1 x 1.3 cm", "weight": "7.5 g", "packageDimensions": "5.4 x 9.0 x 2.1 cm", "packageWeight": "14 g", "weightKg": 0.0075 },
+        "sourceRefs": [
+          { "title": "StarTech GC9SM official", "type": "manufacturer", "url": "https://www.startech.com/en-us/cables/gc9sm" },
+          { "title": "StarTech GC9SM datasheet", "type": "datasheet", "url": "https://media.startech.com/cms/pdfs/gc9sm_datasheet.pdf" },
+          { "title": "Mouser Mexico StarTech GC9SM", "type": "distributor", "url": "https://www.mouser.mx/ProductDetail/StarTech/GC9SM" }
+        ]
+      }
+    },
+    {
+      "product_id": "4qpj41ne8339kab",
+      "research": {
+        "confidence": 0.92,
+        "brand": "CORSAIR",
+        "name": "Corsair HS35 Surround v2 CA-9011386-NA auriculares gamer negros",
+        "description": "Auriculares gamer Corsair HS35 Surround v2 multiplataforma, alambricos, conexion 3.5 mm con adaptador USB, sonido envolvente Dolby en PC/Mac y microfono omnidireccional flexible.",
+        "manualCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb/corsair-hs35-surround-v2",
+        "semanticCategoryPath": "audio/audifonos/gaming/alambricos/3-5mm-usb/corsair-hs35-surround-v2",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011386-na/hs35-surround-v2-multiplatform-gaming-headset-ca-9011386-na",
+        "gallery": ["https://assets.corsair.com/image/upload/c_pad%2Cq_85%2Ch_1100%2Cw_1100%2Cf_auto/products/Gaming-Headsets/HS35v2/CA-9011386/CA-9011386_01.webp"],
+        "specs": {
+          "brand": "CORSAIR",
+          "model": "CA-9011386-NA",
+          "providerSku": "BOCCOR500",
+          "product": "HS35 SURROUND v2 Multiplatform Gaming Headset",
+          "color": "Negro / Carbon",
+          "style": "Diadema, over-ear",
+          "connectivity": "Alambrico",
+          "connection": "3.5 mm universal + adaptador USB incluido",
+          "compatibility": ["PC", "Mac", "PlayStation", "Xbox", "Mobile"],
+          "surround": "Dolby 7.1 Surround en PC/Mac con adaptador USB; ficha Corsair lista Dolby Atmos",
+          "drivers": "50 mm neodimio",
+          "microphone": "Omnidireccional flexible, no desmontable",
+          "controls": "Volumen y mute en auricular",
+          "earpads": "Tela",
+          "lighting": "No",
+          "battery": "No aplica",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; Corsair tienda oficial In Stock como referencia externa",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "corsair", "warehouse": "online_us", "country": "US", "stock": 1 }
+          ]
+        },
+        "measurements": { "weight": "0.252 kg", "cableLength": "1.8 m", "weightKg": 0.252 },
+        "sourceRefs": [
+          { "title": "Corsair HS35 Surround v2 official", "type": "manufacturer", "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011386-na/hs35-surround-v2-multiplatform-gaming-headset-ca-9011386-na" },
+          { "title": "Pichau Corsair HS35 Surround v2", "type": "marketplace", "url": "https://www.pichau.com.br/headset-gamer-corsair-hs35-surround-v2-multiplataforma-7-1-surround-drivers-50mm-preto-ca-9011386-na" }
+        ]
+      }
+    },
+    {
+      "product_id": "4r03svrj0oxet20",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADATA",
+        "name": "ADATA CHARGERU-0653-QCPDWH cargador GaN 65W USB-C USB-A",
+        "description": "Cargador de pared ADATA GaN 65W color blanco con dos puertos USB-C, un puerto USB-A, carga simultanea de hasta 3 dispositivos y enchufe plegable.",
+        "manualCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/adata-chargeru-0653-qcpdwh",
+        "semanticCategoryPath": "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/adata-chargeru-0653-qcpdwh",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://webapi3.adata.com/storage/downloadfile/datasheet_65w_gan_usb_charger_v1.pdf",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/M/CP-ADATA-CHARGERU-0653-QCPDWH-a01af5.jpg", "https://www.staples-3p.com/s7/is/image/Staples/2798F1AB-3F83-40A3-BB7A75D8C232DA97_sc7", "https://cdn.shopify.com/s/files/1/1161/3498/files/AdataCargadordeParedUSB-CDualyUSB-Ade65W_CHARGER-0653-QCPDWH.jpg"],
+        "specs": {
+          "brand": "ADATA",
+          "model": "CHARGERU-0653-QCPDWH",
+          "providerSku": "ACCDAT1660",
+          "gtin": "4711085948397",
+          "upc": "842243033762",
+          "productType": "Cargador USB de pared",
+          "technology": "GaN",
+          "maxPower": "65W",
+          "ports": { "usbC": 2, "usbA": 1 },
+          "input": "100-240V ~ 50/60Hz 1.5A",
+          "outputUsbC": "5V-3A, 9V-3A, 12V-3A, 15V-3A, 20V-3.25A (65W max.)",
+          "outputUsbA": "5V-3A, 9V-3A, 12V-3A, 20V-3A (60W max.)",
+          "protocols": ["PD3.0", "QC4.0", "PPS"],
+          "color": "Blanco",
+          "cableIncluded": false,
+          "warranty": "1 ano",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; sin ubicacion publica de CTOnline",
+          "providerBranches": [{ "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 }]
+        },
+        "measurements": { "dimensions": "53 x 52.5 x 30.43 mm", "weight": "130 g", "weightKg": 0.13 },
+        "sourceRefs": [
+          { "title": "ADATA 65W GaN USB Charger datasheet", "type": "datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_65w_gan_usb_charger_v1.pdf" },
+          { "title": "Cyberpuerta ADATA CHARGERU-0653-QCPDWH", "type": "marketplace", "url": "https://www.cyberpuerta.mx/Energia/Cargadores-Baterias-Pilas/Cargadores-de-Dispositivos-Moviles/Adata-Cargador-de-Pared-65W-1x-USB-A-2x-USB-C-Blanco.html" },
+          { "title": "Staples ADATA GaN USB Charger 65W", "type": "marketplace", "url": "https://www.staples.com/adata-gan-usb-charger-65w-white-chargeru-0653-qcpdwh/product_IM1970F97" }
+        ]
+      }
+    },
+    {
+      "product_id": "4thpfnfmlem4gn9",
+      "research": {
+        "confidence": 0.89,
+        "brand": "DELL",
+        "name": "Dell N_INSPNBL1_C1_U3 Premium Support Plus Inspiron 3000 3 anos",
+        "description": "Poliza Dell para Inspiron notebooks 3000, conversion de 1 ano Basic NBD Carry-In a 3 anos Premium Support Plus; requiere confirmar compatibilidad por serie.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-3000/1y-carry-in-a-3y-premium-support-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-3000/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/premium-support-suite-for-pcs",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_INSPNBL1_C1_U3-4e1d0d.jpg"],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_INSPNBL1_C1_U3",
+          "providerSku": "POL-7736",
+          "productType": "Poliza de garantia / soporte",
+          "appliesTo": "Inspiron notebooks 3000",
+          "upgrade": "1 ano Basic Next Business Day Carry-In a 3 anos Premium Support Plus",
+          "term": "3 anos",
+          "reportedServiceTime": "8x5",
+          "includedService": "Piezas y mano de obra",
+          "support": ["Soporte web", "Soporte telefonico", "Solucion de problemas"],
+          "compatibilityNote": "Confirmar compatibilidad por serie/clave de garantia antes de activar o vender",
+          "manufacturerGeneralNote": "Dell describe Premium Support Plus como soporte para PCs 24x7 con soporte hardware/software, reparacion tras diagnostico remoto y cobertura de danos accidentales.",
+          "providerBranchSummary": "Electroprice/CVA stock 0; Compuviper bajo pedido, CDMX 0, CEDIS GDL 0, transito 0",
+          "providerBranches": [
+            { "providerId": "cva", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "compuviper", "warehouse": "CDMX", "country": "MX", "region": "CDMX", "stock": 0 },
+            { "providerId": "compuviper", "warehouse": "CEDI GDL", "country": "MX", "region": "Jalisco", "stock": 0 },
+            { "providerId": "compuviper", "warehouse": "Transito", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; servicio", "serviceTermYears": 3 },
+        "sourceRefs": [
+          { "title": "Dell Premium Support Suite for PCs", "type": "manufacturer", "url": "https://www.dell.com/support/contents/en-us/article/warranty/premium-support-suite-for-pcs" },
+          { "title": "Cyberpuerta Dell N_INSPNBL1_C1_U3", "type": "marketplace", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Premium-Support-Plus-para-Inspiron-3000.html" },
+          { "title": "Compuviper Dell N_INSPNBL1_C1_U3", "type": "distributor", "url": "https://compuviper.mx/tienda/producto/dell-n_inspnbl1_c1_u3-poliza-de-garantia-para-inspiron-notebooks-3000-de-1-ao-basico-next-bus-day-en-centro-de-servicio-carry-in-a-3-aos-premium-support-plus-conf-comp-de-series-con-clave-d/" },
+          { "title": "SysMX POL-7736", "type": "distributor", "url": "https://www.sysmx.com.mx/POL-7736-N-INSPNBL1-C1-U3-DELL-POLIZAS-DE-GARANTIA" }
+        ]
+      }
+    },
+    {
+      "product_id": "4try1rakkb50nd2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "TOPAZ",
+        "name": "Topaz P-TS01-B pluma reemplazo SigLite con cable rizado",
+        "description": "Pluma de reemplazo Topaz P-TS01-B para digitalizadores de firma SigLite, con conector de lazo, cable rizado y punta no removible.",
+        "manualCategoryPath": "punto-de-venta/digitalizadores-firma/accesorios/plumas/topaz-p-ts01-b",
+        "semanticCategoryPath": "punto-de-venta/digitalizadores-firma/accesorios/plumas/topaz-p-ts01-b",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://topaz-systems.myshopify.com/collections/pens/products/siglite1x5-pen",
+        "gallery": ["https://topaz-systems.myshopify.com/cdn/shop/products/P-TS01-B.png?v=1413997914"],
+        "specs": {
+          "brand": "TOPAZ",
+          "model": "P-TS01-B",
+          "providerSku": "ACCITR660",
+          "productType": "Pluma de reemplazo para pad de firma",
+          "connector": "Loop connector / conector de lazo",
+          "cable": "Curly tether / cable rizado",
+          "tip": "No removible",
+          "compatibility": ["T-S460", "T-S460-BT", "T-L460", "T-LBK460", "T-LBK460-BT", "TM-LBK460", "T-LBK750", "TM-LBK750", "TF-S463", "TF-LBK463"],
+          "antimicrobialTechnology": "GemGuard en versiones actuales segun Topaz",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; MacToner sin existencias",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "mactoner", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "weight": "45 g", "weightKg": 0.045 },
+        "sourceRefs": [
+          { "title": "Topaz P-TS01-B Pen With Curly Tether", "type": "manufacturer", "url": "https://topaz-systems.myshopify.com/collections/pens/products/siglite1x5-pen" },
+          { "title": "Topaz Accessories and Pens PDF", "type": "datasheet", "url": "https://www.topazsystems.com/products/specs/accessory_details.pdf" },
+          { "title": "MacToner Topaz P-TS01-B", "type": "distributor", "url": "https://www.mactoner.com.mx/producto/pluma-de-remplazo-topaz-p-ts01-b/" }
+        ]
+      }
+    },
+    {
+      "product_id": "4vr9zyr382942mo",
+      "research": {
+        "confidence": 0.86,
+        "brand": "MERIVA TECHNOLOGY",
+        "name": "Meriva Streamax M6PIN DJ-TRANSFER cable 6 pines 0.18 m",
+        "description": "Cable convertidor DIN de aviacion Meriva Streamax M6PIN DJ-TRANSFER de 6 pines y 0.18 m para conectar camaras IP y MDVR MA16MAX en videovigilancia movil.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m6pin-dj-transfer",
+        "semanticCategoryPath": "seguridad/cctv/videovigilancia-movil/cables/din-aviacion/streamax-m6pin-dj-transfer",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://merivatechnology.com/producto/M6PIN%20DJ-TRANSFER",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=20913545&c=4820964&h=sNAZRshLyV37CAUiJPUL13pGxAVOgZNBol4vNsiuCoSbyUVl", "https://4820964.app.netsuite.com/core/media/media.nl?id=21028486&c=4820964&h=JWg_k9My0IDlOfcjF02zgPQbMkRnvwxtOFuk1ehYCg14DWga"],
+        "specs": {
+          "brand": "MERIVA TECHNOLOGY",
+          "model": "M6PIN DJ-TRANSFER",
+          "inputBrand": "ElectroPrice",
+          "providerSku": "M6PIN",
+          "alternateChannelKey": "CB060MER04",
+          "productType": "Cable convertidor DIN de aviacion",
+          "connectors": "6 pines",
+          "length": "0.18 m / 180 mm",
+          "compatibility": ["Camaras IP", "MDVR MA16MAX"],
+          "specificConnector": "AHSL6-A",
+          "materialOperatingTemperature": "-40 C a 105 C",
+          "materialCombustionStandard": "GB/T 2408",
+          "combustionClassification": { "horizontal": "HB", "vertical": "V-0" },
+          "boxContents": ["Cable Meriva Streamax M6PIN DJ-TRANSFER"],
+          "providerBranchSummary": "Electroprice/Tecnosinergia stock 0; Meriva sin stock publico; Global Office referencia externa variable",
+          "providerBranches": [
+            { "providerId": "tecnosinergia", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "globaloffice", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "length": "180 mm", "lengthMm": 180 },
+        "sourceRefs": [
+          { "title": "Meriva M6PIN DJ-TRANSFER", "type": "manufacturer", "url": "https://merivatechnology.com/producto/M6PIN%20DJ-TRANSFER" },
+          { "title": "Global Office M6PIN DJ-TRANSFER PDF", "type": "datasheet", "url": "https://www.globaloffice.com.mx/app/producto/pdf/m6pin-dj-transfer" },
+          { "title": "Global Office M6PIN DJ-TRANSFER", "type": "distributor", "url": "https://www.globaloffice.com.mx/app/detalle/producto/soluciones-moviles/cable-meriva-streamax-m6pin-dj-transfer-6pin-1/m6pin-dj-transfer" }
+        ]
+      }
+    },
+    {
+      "product_id": "4xzv1kksrkibidk",
+      "research": {
+        "confidence": 0.9,
+        "brand": "GEO",
+        "name": "GEO 004 caja para archivo carta carton 20 piezas",
+        "description": "Caja armable GEO 004 de carton corrugado sencillo para archivo tamano carta, con tapa integrada y presentacion de 20 piezas.",
+        "manualCategoryPath": "oficina/papeleria/archivo/cajas-archivo/carta/20-piezas/geo-004",
+        "semanticCategoryPath": "oficina/papeleria/archivo-organizacion/cajas-archivo/carta/20-piezas/geo-004",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.globaloffice.mx/app/detalle/producto/papeleria-y-art-de-oficina/caja-geo-archivo-carton-carta-50x31x25-cm-c20-004/004-caja-geo",
+        "gallery": ["https://www.exel.com.mx/imgProducto/GEPCAJAB002.png", "https://i0.wp.com/ryssapapeleria.com.mx/wp-content/uploads/2021/09/GEO0004A.jpg?fit=416%2C369&ssl=1", "https://i0.wp.com/ryssapapeleria.com.mx/wp-content/uploads/2021/09/GEO0004-e1632270530151.jpg?fit=125%2C125&ssl=1"],
+        "specs": {
+          "brand": "GEO",
+          "model": "GEO 004",
+          "providerSku": "ACCGEO010",
+          "gtin": "7501693012378",
+          "productType": "Caja para archivo",
+          "material": "Carton corrugado sencillo",
+          "size": "Carta",
+          "packageQuantity": 20,
+          "lid": "Integrada",
+          "providerBranchSummary": "Electroprice/CTOnline stock 0; Global Office 0 local y 142 Almacen Mexico externo; TiendaClic 0 piezas",
+          "providerBranches": [
+            { "providerId": "ctonline", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "globaloffice", "warehouse": "local", "country": "MX", "stock": 0 },
+            { "providerId": "globaloffice", "warehouse": "Almacen Mexico externo", "country": "MX", "stock": 142 },
+            { "providerId": "tiendaclic", "warehouse": "online_mx", "country": "MX", "stock": 0 }
+          ]
+        },
+        "measurements": { "assembledDimensions": "50 x 31 x 25 cm", "flatDimensions": "134.9 x 120.3 cm" },
+        "sourceRefs": [
+          { "title": "Global Office GEO 004", "type": "distributor", "url": "https://www.globaloffice.mx/app/detalle/producto/papeleria-y-art-de-oficina/caja-geo-archivo-carton-carta-50x31x25-cm-c20-004/004-caja-geo" },
+          { "title": "TiendaClic GEO 004", "type": "distributor", "url": "https://www.depot.tiendaclic.mx/ver-detalle/caja-para-archivo-generico-geo-004" },
+          { "title": "Ryssa Papelerias GEO 004", "type": "distributor", "url": "https://ryssapapeleria.com.mx/producto/caja-para-archivo-geo-carton-t-carta-50x31x25-cms-tapa-integrada-pieza/" }
+        ]
+      }
+    },
+    {
+      "product_id": "53fga80m84h8uu6",
+      "research": {
+        "confidence": 0.93,
+        "brand": "MICROSOFT",
+        "name": "Microsoft Visio LTSC Professional 2024 Commercial CSP",
+        "description": "Licencia comercial CSP Microsoft Visio LTSC Professional 2024 perpetua para crear y compartir diagramas profesionales con plantillas, formas, stencils y vinculacion de datos.",
+        "manualCategoryPath": "software/licencias/microsoft/visio/ltsc-professional-2024-commercial",
+        "semanticCategoryPath": "software/productividad/diagramacion/microsoft-visio/ltsc-professional-2024-commercial",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview",
+        "gallery": ["https://www.depot.tiendaclic.mx/catalog/img/items/cached/dg7gmgf0pn43-0002-com-microsoft-microsoft-csp-visio-ltsc-professional-com-2024-1719588.jpg", "https://service.pcconnection.com/images/inhouse/microsoft.jpg?downsize=%2A%3A38&interpolation=lanczos-none"],
+        "specs": {
+          "brand": "MICROSOFT",
+          "model": "DG7GMGF0PN43:0002:Commercial",
+          "providerSku": "SWS-5782",
+          "product": "Visio LTSC Professional 2024",
+          "segment": "Commercial",
+          "microsoftSku": "DG7GMGF0PN43-0002 / DG7GMGF0PN43:0002:Commercial",
+          "licenseType": "License only / perpetual",
+          "channel": "CSP",
+          "maintenanceIncluded": "No",
+          "delivery": "Virtual/electronica",
+          "mainstreamSupportUntil": "2029-10-09 PT",
+          "features": ["Formas, stencils y plantillas actualizadas", "10+ stencils de Azure en Professional", "Contenido de redes y software como Kubernetes Shapes y Yourdon-Coad Notations", "Busqueda nueva en la barra de titulo", "Vinculacion de diagramas con datos"],
+          "systemRequirements": { "os": ["Windows 11", "Windows 11 LTSC 2024", "Windows 10 LTSC 2021", "Windows 10 LTSC 2019", "Windows Server 2025", "Windows Server 2022"], "cpu": "1.1 GHz, 2 nucleos", "ram": "4 GB", "disk": "4 GB disponibles", "display": "1280 x 768", "note": "64-bit requerido para resoluciones 4K o superiores" },
+          "providerBranchSummary": "Electroprice/CVA stock 0; TiendaClic 0 piezas; Connection In Stock con entrega virtual",
+          "providerBranches": [
+            { "providerId": "cva", "warehouse": "digital_provider_total", "country": "MX", "stock": 0 },
+            { "providerId": "tiendaclic", "warehouse": "online_mx", "country": "MX", "stock": 0 },
+            { "providerId": "connection", "warehouse": "virtual_delivery", "country": "US", "stock": 1 }
+          ]
+        },
+        "measurements": { "physicalDimensions": "No aplica; licencia digital", "shippingWeight": "0 lb", "weight": "0 kg" },
+        "sourceRefs": [
+          { "title": "Microsoft Learn Office LTSC 2024 overview", "type": "manufacturer", "url": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview" },
+          { "title": "Microsoft Support what's new in Visio 2024", "type": "manufacturer", "url": "https://support.microsoft.com/en-us/office/what-s-new-in-visio-2024-0295be56-187c-4254-9463-1b67dd6e0eb1" },
+          { "title": "Microsoft Lifecycle Visio LTSC 2024", "type": "manufacturer", "url": "https://learn.microsoft.com/ga-ie/lifecycle/products/visio-ltsc-2024" },
+          { "title": "TiendaClic Visio LTSC Professional 2024 Commercial", "type": "distributor", "url": "https://www.depot.tiendaclic.mx/ver-detalle/microsoft-csp-visio-ltsc-professional-com-2024-microsoft-dg7gmgf0pn43-0002-com" },
+          { "title": "Connection Visio LTSC Professional 2024", "type": "distributor", "url": "https://www.connection.com/product/microsoft-corp.-csp-visio-ltsc-professional-2024-license-only/dg7gmgf0pn43-0002/41858099" }
+        ]
+      }
+    }
+  ]
+}

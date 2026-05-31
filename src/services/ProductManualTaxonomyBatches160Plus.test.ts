@@ -392,6 +392,16 @@ const batch160PlusCases = [
   ["Hillstone BDL1-A200-IN24 bundle de suscripciones A200 24 meses", "HILLSTONE", "software/licencias/seguridad-red/hillstone/a200/bdl1-24m", "software"],
   ["Dell N_OPTL1_N3_M3 OptiPlex 3000 3Y Basic Onsite a 3Y ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-3000/3y-basic-a-3y-prosupport-plus", "software"],
   ["Cisco LIC-MX64-SEC-1YR Meraki MX64 Advanced Security License and Support 1 year", "CISCO", "software/licencias/seguridad-red/cisco-meraki/mx64/advanced-security-1y", "software"],
+  ["CDP ES-AVR-612 SOL inversor UPS solar 400W MPPT 12V", "CDP", "energia/solar/inversores-ups/line-interactive/mppt-12v/cdp-es-avr-612-sol", "power"],
+  ["Baseus P10111606213-00 Palm 1C cargador USB-C 30W blanco", "BASEUS", "energia/cargadores-usb/pared-usb-c/30w/baseus-palm-1c", "accessories"],
+  ["StarTech GC9SM cambiador genero DB9 serial slimline macho macho", "STARTECH.COM", "accesorios/cables-adaptadores/serial-db9/cambiadores-genero/startech-gc9sm", "accessories"],
+  ["Corsair HS35 Surround v2 CA-9011386-NA auriculares gamer alambricos", "CORSAIR", "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb/corsair-hs35-surround-v2", "headphones"],
+  ["ADATA CHARGERU-0653-QCPDWH cargador GaN 65W USB-C USB-A blanco", "ADATA", "energia/cargadores-usb/pared-usb-c-usb-a/65w-gan/adata-chargeru-0653-qcpdwh", "power"],
+  ["Dell N_INSPNBL1_C1_U3 Inspiron 3000 1Y Carry-In a 3Y Premium Support Plus", "DELL", "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-3000/1y-carry-in-a-3y-premium-support-plus", "software"],
+  ["Topaz P-TS01-B pluma reemplazo SigLite con cable rizado", "TOPAZ", "punto-de-venta/digitalizadores-firma/accesorios/plumas/topaz-p-ts01-b", "accessories"],
+  ["Meriva Streamax M6PIN DJ-TRANSFER cable 6 pines para MDVR MA16MAX", "MERIVA", "seguridad/cctv/accesorios-cableado/cables-camaras-moviles/streamax-m6pin-dj-transfer", "cameras"],
+  ["GEO 004 caja para archivo carton carta 50x31x25 paquete 20 piezas", "GEO", "oficina/papeleria/archivo/cajas-archivo/carta/20-piezas/geo-004", "accessories"],
+  ["Microsoft DG7GMGF0PN43:0002 Commercial Visio LTSC Professional 2024 CSP", "MICROSOFT", "software/licencias/microsoft/visio/ltsc-professional-2024-commercial", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
