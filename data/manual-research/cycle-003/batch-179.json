@@ -1,0 +1,490 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b179-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 179,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6eqp1t8ov9n23ss",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Smartbitt",
+        "name": "Smartbitt SBEC-HD08M extension electrica uso rudo 8m 3 tomas naranja",
+        "description": "Extension electrica Smartbitt SBEC-HD08M de uso rudo, color naranja, longitud 8 m, 3 tomas polarizadas, cable 16 AWG y capacidad reportada de 13A/1625W.",
+        "manualCategoryPath": "energia/extensiones-electricas/uso-rudo",
+        "semanticCategoryPath": "energia/extensiones-electricas/uso-rudo/smartbitt-sbec-hd08m",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://fichastecnicas.pchmayoreo.com/SBEC-DOM08M.pdf",
+        "gallery": [
+          "https://cityshop.mx/producto/extension-de-uso-rudo-smartbitt-sbec-hd08m-naranja-3-8-m",
+          "https://www.cyberpuerta.mx/Extensiones-SMARTBITT/"
+        ],
+        "documents": ["https://fichastecnicas.pchmayoreo.com/SBEC-DOM08M.pdf"],
+        "specs": {
+          "brand": "SMARTBITT",
+          "model": "SBEC-HD08M",
+          "ean": "7503034818502",
+          "providerSku": "ACCBIT180",
+          "productType": "Extension electrica de uso rudo",
+          "length": "8 m",
+          "outlets": "3 tomas polarizadas",
+          "voltage": "125 VCA 60 Hz",
+          "current": "13 A",
+          "power": "1625 W",
+          "wireGauge": "16 AWG",
+          "material": "Alta resistencia, impermeable, retardante a incendios",
+          "color": "Naranja",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: TRN 4, DGO 3, MOR 3, TOL 3, CLN 2, CHI 2, LEO 1, ZAC 1, IRA 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "TRN", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "DGO", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "TOL", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "CLN", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "CHI", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "LEO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "ZAC", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCBIT180", "stock": 20, "price": 72.64, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es energia/extension electrica.", "La ficha PCH agrupa familia SBEC-DOM/SBEC-HD; se usa el bloque de SBEC-HD08M."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "Cable de 8 m", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "PCH ficha Smartbitt SBEC-HD08M", "type": "manufacturer_spec", "url": "https://fichastecnicas.pchmayoreo.com/SBEC-DOM08M.pdf"},
+          {"title": "CityShop Smartbitt SBEC-HD08M", "type": "marketplace_spec", "url": "https://cityshop.mx/producto/extension-de-uso-rudo-smartbitt-sbec-hd08m-naranja-3-8-m"},
+          {"title": "Electroprice provider stock ACCBIT180", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6ezib0o33slyob9",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Perfect Choice",
+        "name": "Perfect Choice Lusso PC-084464 mochila ejecutiva slim para laptop 15.6 pulgadas negra",
+        "description": "Mochila ejecutiva Perfect Choice Lusso PC-084464 de diseno slim para laptop hasta 15.6 pulgadas, color negro, compartimento acolchado y organizadores para accesorios.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/ejecutivas-slim",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/ejecutivas-slim/perfect-choice-lusso-pc-084464",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/mochila-ejecutiva-para-laptop-diseno-slim-lusso-perfect-choice",
+        "gallery": [
+          "https://perfectchoice.me/products/mochila-ejecutiva-para-laptop-diseno-slim-lusso-perfect-choice",
+          "https://intercompras.com/p/perfect-choice-mochila-ejecutiva-laptop-lusso-pc-con-diseno-moderno-407758",
+          "https://globaloffice.com.mx/index.php/app/detalle/producto/accesorios-computacionales/mochila-perfect-choice-ejecutiva-para-laptop-diseno-slim-lus/pc-084464"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "PC-084464 Lusso",
+          "providerSku": "MALGEN5120",
+          "productType": "Mochila ejecutiva para laptop",
+          "laptopCompatibility": "Hasta 15.6 pulgadas segun fabricante; algunos retailers reportan 15.6 a 17 pulgadas",
+          "material": "Poliester",
+          "color": "Negro",
+          "compartments": "Compartimento principal acolchado y organizadores",
+          "extras": "Strap para trolley y puerto USB reportado por retailers",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 10, D2A 4, HMO 2, AGS 2, LMO 1, CLN 1, ACA 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 4},
+            {"providerId": "ctonline", "warehouseCode": "HMO", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "AGS", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "LMO", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "CLN", "stock": 1},
+            {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "MALGEN5120", "stock": 21, "price": 497.51, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es mochila/accesorio.", "Capacidad difiere entre fabricante y retailers; se conserva 15.6 pulgadas como dato principal."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "300 x 115 x 430 mm", "netWeight": "790 g"},
+        "sourceRefs": [
+          {"title": "Perfect Choice Lusso PC-084464", "type": "manufacturer_spec", "url": "https://perfectchoice.me/products/mochila-ejecutiva-para-laptop-diseno-slim-lusso-perfect-choice"},
+          {"title": "Intercompras Perfect Choice Lusso", "type": "marketplace_spec", "url": "https://intercompras.com/p/perfect-choice-mochila-ejecutiva-laptop-lusso-pc-con-diseno-moderno-407758"},
+          {"title": "Electroprice provider stock MALGEN5120", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6f4elcv7h6tau01",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Brother",
+        "name": "Brother PT-E110 rotuladora industrial portatil P-touch para cintas TZe hasta 12mm",
+        "description": "Rotuladora industrial portatil Brother PT-E110/P-touch Edge para cintas TZe y HGe de 3.5 a 12 mm, teclado QWERTY, pantalla LCD, funciones para cables, banderas, faceplate y serializacion.",
+        "manualCategoryPath": "impresion/rotuladoras/portatiles-industriales",
+        "semanticCategoryPath": "impresion/rotuladoras/portatiles-industriales/brother-pt-e110",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.brother.com/g/b/spec.aspx?c=us&lang=es&prod=e110eus",
+        "gallery": [
+          "https://www.brother.com.mx/products/pte110",
+          "https://brothermobilesolutions.com/products/printers/p-touch/edge/pte110/"
+        ],
+        "documents": [
+          "https://download.brother.com/welcome/docp100302/pte110_uss_ug_d01242001_02.pdf",
+          "https://brothermobilesolutions.com/wp-content/uploads/2021/11/PT-E110-Datasheet-2019.pdf"
+        ],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "PT-E110",
+          "providerSku": "ROTBRT180",
+          "productType": "Rotuladora industrial portatil",
+          "printTechnology": "Transferencia termica laminada",
+          "tapes": "TZe/HGe de 3.5, 6, 9 y 12 mm",
+          "printSpeed": "20 mm/s",
+          "keyboard": "QWERTY",
+          "display": "LCD grafico 128 x 16 puntos",
+          "functions": "Cable wrap, cable flag, faceplate y serializacion",
+          "symbols": "200 simbolos industriales",
+          "power": "6 pilas AAA o adaptador opcional",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 10, DFA 6, CMT 5, GDL 2, QRO 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 10},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 6},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 2},
+            {"providerId": "ctonline", "warehouseCode": "QRO", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ROTBRT180", "stock": 24, "price": 940.66, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en monitores; es rotuladora/etiquetadora.", "Modelo feed Pte110 se normaliza a PT-E110."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "109 x 202 x 55 mm aprox", "netWeight": "400 g sin baterias ni cinta"},
+        "sourceRefs": [
+          {"title": "Brother PT-E110 especificaciones", "type": "manufacturer_spec", "url": "https://support.brother.com/g/b/spec.aspx?c=us&lang=es&prod=e110eus"},
+          {"title": "Brother PT-E110 datasheet", "type": "manufacturer_spec", "url": "https://brothermobilesolutions.com/wp-content/uploads/2021/11/PT-E110-Datasheet-2019.pdf"},
+          {"title": "Electroprice provider stock ROTBRT180", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6fcexgmp92cxexh",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Brother",
+        "name": "Brother TZe-221 cinta laminada P-touch 9mm x 8m negro sobre blanco",
+        "description": "Cinta laminada Brother TZe-221 para rotuladoras P-touch compatibles, adhesivo estandar, impresion negra sobre fondo blanco, 9 mm de ancho y 8 m de largo.",
+        "manualCategoryPath": "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/9mm/negro-sobre-blanco",
+        "semanticCategoryPath": "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/9mm/negro-sobre-blanco/brother-tze-221",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://brothermobilesolutions.com/products/media/tapes/tze221/",
+        "gallery": [
+          "https://brothermobilesolutions.com/products/media/tapes/tze221/",
+          "https://www.brother.com.au/en/supplies/supplies-detail/tze-221"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BROTHER",
+          "model": "TZe-221",
+          "providerSku": "CARBRT590",
+          "productType": "Cinta laminada P-touch",
+          "tapeType": "Laminada adhesivo estandar",
+          "color": "Negro sobre blanco",
+          "width": "9 mm",
+          "length": "8 m",
+          "compatibility": "Rotuladoras Brother P-touch compatibles con TZe",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 20, QRO 5, CMT 3, GDL 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 20},
+            {"providerId": "ctonline", "warehouseCode": "QRO", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 3},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CARBRT590", "stock": 29, "price": 179.59, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es consumible de rotuladora."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "Cinta 9 mm x 8 m", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Brother Mobile Solutions TZe-221", "type": "manufacturer_spec", "url": "https://brothermobilesolutions.com/products/media/tapes/tze221/"},
+          {"title": "Brother Australia TZe-221", "type": "manufacturer_spec", "url": "https://www.brother.com.au/en/supplies/supplies-detail/tze-221"},
+          {"title": "Electroprice provider stock CARBRT590", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6fdv4rixdmlngcw",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Manhattan",
+        "name": "Manhattan 353595 cable DisplayPort 1.4 8K 60Hz macho-macho 1m negro",
+        "description": "Cable Manhattan 353595 DisplayPort 1.4 macho a macho de 1 m, compatible con 8K@60Hz, 4K@144Hz, HDR, ancho de banda 32.4Gbps y conectores con seguro.",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-displayport/1m/8k",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-displayport/1m/8k/manhattan-353595",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattan.lat/products/manhattan-es-cable-displayport-8k-v14-353595",
+        "gallery": ["https://manhattan.lat/products/manhattan-es-cable-displayport-8k-v14-353595"],
+        "documents": ["https://s3.amazonaws.com/manhattan-products.com/353595_datasheet_spanish.pdf"],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "353595",
+          "providerSku": "CB-2634",
+          "productType": "Cable DisplayPort",
+          "version": "DisplayPort 1.4",
+          "resolution": "8K@60Hz, 4K@144Hz, 1440p@165Hz, 1080p@240Hz",
+          "bandwidth": "32.4 Gbps",
+          "connectors": "DisplayPort macho 20 pines con seguro a DisplayPort macho",
+          "hdr": "HDR10, Dolby Vision/Atmos reportado",
+          "cable": "30 AWG, triple blindaje, trenzado, pin 20 sin cable",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Proveedor CVA no publico desglose de sucursal; stock total 2.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "CB-2634", "stock": 2, "price": 6.26, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en monitores; es cable de video.", "Precio proveedor muy bajo contra retail; validar moneda/unidad antes de publicar margen."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "Longitud 1 m", "netWeight": "90 g"},
+        "sourceRefs": [
+          {"title": "Manhattan 353595 product page", "type": "manufacturer_spec", "url": "https://manhattan.lat/products/manhattan-es-cable-displayport-8k-v14-353595"},
+          {"title": "Manhattan 353595 datasheet", "type": "manufacturer_spec", "url": "https://s3.amazonaws.com/manhattan-products.com/353595_datasheet_spanish.pdf"},
+          {"title": "Electroprice provider stock CB-2634", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6ffeqqnw2ldny9y",
+      "research": {
+        "confidence": 0.87,
+        "brand": "Tech Zone POS",
+        "name": "TechZone TZBE5B8M100 cajon electronico de dinero POS RJ11 5 billetes 8 monedas",
+        "description": "Cajon electronico de dinero TechZone TZBE5B8M100 para punto de venta, acero laminado negro, interfaz RJ11, compartimento removible de 5 billetes y 8 monedas, llave de seguridad.",
+        "manualCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas",
+        "semanticCategoryPath": "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas/techzone-tzbe5b8m100",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.com.mx/app/detalle/producto/punto-de-venta/cajon-de-dinero-techzone-tzbe5b8m100-capacidad-par/tzbe5b8m100",
+        "gallery": [
+          "https://globaloffice.com.mx/app/detalle/producto/punto-de-venta/cajon-de-dinero-techzone-tzbe5b8m100-capacidad-par/tzbe5b8m100",
+          "https://intercompras.com/p/cajon-dinero-techzone-billetes-monedas-negro-286363"
+        ],
+        "documents": ["https://mcashop.mx/producto/descargar/492282"],
+        "specs": {
+          "brand": "TECH ZONE POS",
+          "model": "TZBE5B8M100",
+          "providerSku": "CAJ-37",
+          "productType": "Cajon electronico de dinero",
+          "material": "Acero laminado",
+          "color": "Negro",
+          "interface": "RJ11 para impresora termica",
+          "compartments": "5 billetes, 8 monedas",
+          "opening": "Llave 3 posiciones, pulso por impresora y apertura manual",
+          "mediaSlot": "Frontal",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Proveedor CVA no publico desglose de sucursal; stock total 2.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "CAJ-37", "stock": 2, "price": 972.53, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es producto de punto de venta.", "El feed normaliza marca como Tech Zone POS; el MPN se conserva TZBE5B8M100."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "410 x 415 x 100 mm", "netWeight": "6.6 kg"},
+        "sourceRefs": [
+          {"title": "GlobalOffice TechZone TZBE5B8M100", "type": "marketplace_spec", "url": "https://globaloffice.com.mx/app/detalle/producto/punto-de-venta/cajon-de-dinero-techzone-tzbe5b8m100-capacidad-par/tzbe5b8m100"},
+          {"title": "Intercompras TechZone TZBE5B8M100", "type": "marketplace_spec", "url": "https://intercompras.com/p/cajon-dinero-techzone-billetes-monedas-negro-286363"},
+          {"title": "Electroprice provider stock CAJ-37", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6fhwx5c1nq5p3j7",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Honeywell",
+        "name": "Honeywell Voyager 1400g lector codigo de barras 1D 2D area-imaging cableado USB",
+        "description": "Lector Honeywell Voyager 1400g area-imager cableado para codigos 1D, PDF417 y 2D segun variante/licencia, matriz 640x480, interfaces USB/RS232/keyboard wedge/IBM 46xx, sello IP42 y resistencia a caidas.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-usb/area-imager",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-usb/area-imager/honeywell-voyager-1400g",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://automation.honeywell.com/mx/es/products/productivity-solutions/barcode-scanners/general-purpose-handheld/voyager-1400g-general-duty-scanner",
+        "gallery": ["https://automation.honeywell.com/mx/es/products/productivity-solutions/barcode-scanners/general-purpose-handheld/voyager-1400g-general-duty-scanner"],
+        "documents": ["https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/es-mx/localized/data-sheets/sps-ppr-voyager-1400g-general-duty-scanner-data-sheet-es-la.pdf"],
+        "specs": {
+          "brand": "HONEYWELL",
+          "model": "Voyager 1400g",
+          "providerSku": "LCTMTR1090",
+          "productType": "Lector de codigo de barras area-imager",
+          "sensor": "640 x 480",
+          "decoding": "1D, PDF417 y 2D segun variante/licencia",
+          "interfaces": "USB, teclado, RS232, IBM 46xx",
+          "seal": "IP42",
+          "dropResistance": "30 caidas a concreto desde 1.5 m",
+          "lightLevels": "0 a 100000 lux",
+          "warranty": "5 anos fabrica",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 25, DFA 19.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 25},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 19}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "LCTMTR1090", "stock": 44, "price": 187.44, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es lector POS.", "La pagina oficial puede usar imagen de familia; se usa ficha PDF para specs."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "43 x 180 x 66 mm", "netWeight": "119 g"},
+        "sourceRefs": [
+          {"title": "Honeywell Voyager 1400g page", "type": "manufacturer_spec", "url": "https://automation.honeywell.com/mx/es/products/productivity-solutions/barcode-scanners/general-purpose-handheld/voyager-1400g-general-duty-scanner"},
+          {"title": "Honeywell Voyager 1400g datasheet ES", "type": "manufacturer_spec", "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/es-mx/localized/data-sheets/sps-ppr-voyager-1400g-general-duty-scanner-data-sheet-es-la.pdf"},
+          {"title": "Electroprice provider stock LCTMTR1090", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6fko1rpeavo2ms6",
+      "research": {
+        "confidence": 0.91,
+        "brand": "be quiet!",
+        "name": "be quiet! Light Base 600 DX White BGW66 gabinete panoramico ATX ARGB blanco sin ventiladores",
+        "description": "Gabinete be quiet! Light Base 600 DX White BGW66 panoramico ATX con iluminacion ARGB, paneles de vidrio, soporte para radiadores de hasta 360 mm, GPU hasta 400 mm y sin ventiladores incluidos.",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb/sin-ventiladores",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb/sin-ventiladores/be-quiet-light-base-600-dx-white",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.bequiet.com/en/case/5297",
+        "gallery": [
+          "https://www.bequiet.com/en/case/5297",
+          "https://www.bequiet.com/es/case/5297"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "BE QUIET!",
+          "model": "Light Base 600 DX White",
+          "articleNumber": "BGW66",
+          "ean": "4260052191729",
+          "providerSku": "GABBEQ250",
+          "productType": "Gabinete PC panoramico",
+          "compatibility": "ATX, micro-ATX, mini-ITX",
+          "color": "Blanco",
+          "panels": "Frontal y lateral panoramicos de vidrio",
+          "includedFans": "0",
+          "maxFans": "10",
+          "radiators": "360 mm arriba y abajo; 240 mm lateral; 120 mm trasero",
+          "gpuClearance": "Hasta 400 mm",
+          "cpuCoolerClearance": "Hasta 170 mm",
+          "bays": "Hasta 2 x 3.5 y 4 x 2.5 pulgadas",
+          "frontIo": "1 USB-C 3.2 Gen2, 2 USB-A 3.2, audio/mic",
+          "lighting": "77 LED ARGB 5V, 1.33 m",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 3.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 3}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "GABBEQ250", "stock": 3, "price": 107.33, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es componente/gabinete.", "Se separa DX de LX porque DX no incluye ventiladores."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "450 x 305 x 435 mm sin patas; 450 x 305 x 455 mm con patas", "netWeight": "12.1 kg"},
+        "sourceRefs": [
+          {"title": "be quiet! Light Base 600 DX White", "type": "manufacturer_spec", "url": "https://www.bequiet.com/en/case/5297"},
+          {"title": "Electroprice provider stock GABBEQ250", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6fm939ni50cm9oj",
+      "research": {
+        "confidence": 0.82,
+        "brand": "Cisco",
+        "name": "Cisco CAB-AC-C5 cable alimentacion AC NEMA 5-15P a IEC C5",
+        "description": "Cable de alimentacion Cisco CAB-AC-C5/CAB-AC-C5= tipo C5 para equipos compatibles, con conector NEMA 5-15P a IEC 60320 C5.",
+        "manualCategoryPath": "redes/accesorios/cables-de-alimentacion/cisco-c5",
+        "semanticCategoryPath": "redes/accesorios/cables-de-alimentacion/cisco-c5/cisco-cab-ac-c5",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cisco.com/c/dam/en/us/products/collateral/wireless/aironet-1850-series-access-points/nb-09-wire-acce-poin-guide-pte-en.pdf",
+        "gallery": [
+          "https://www.cablesandkits.com/accessories/power-cords/cab-ac-c5-6ft/pro-990/",
+          "https://www.technologygalaxy.com/Cisco-AC-Power-Cord-CAB-AC-C5/p/327044"
+        ],
+        "documents": ["https://www.cisco.com/c/dam/en/us/products/collateral/wireless/aironet-1850-series-access-points/nb-09-wire-acce-poin-guide-pte-en.pdf"],
+        "specs": {
+          "brand": "CISCO",
+          "model": "CAB-AC-C5=",
+          "providerSku": "CABCIS320",
+          "productType": "Cable de alimentacion AC",
+          "connectors": "NEMA 5-15P macho a IEC 60320 C5",
+          "rating": "10A/125V reportado por retailers",
+          "color": "Negro",
+          "compatibility": "Equipos Cisco que requieren cable AC tipo C5",
+          "length": "6 ft / 1.8 m en retailers US; 2 m a 2.5 m en fuentes MX/internacionales",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: DFA 1.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 1}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CABCIS320", "stock": 1, "price": 929.67, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Longitud no es consistente entre fuentes; se conserva conector y MPN como datos definitivos.", "Puede publicarse con signo igual como CAB-AC-C5= por ser refaccion Cisco."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "Longitud 1.8 m a 2.5 m segun fuente", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "Cisco Aironet accessory guide mentioning power cable family", "type": "manufacturer_spec", "url": "https://www.cisco.com/c/dam/en/us/products/collateral/wireless/aironet-1850-series-access-points/nb-09-wire-acce-poin-guide-pte-en.pdf"},
+          {"title": "CablesAndKits Cisco CAB-AC-C5", "type": "marketplace_spec", "url": "https://www.cablesandkits.com/accessories/power-cords/cab-ac-c5-6ft/pro-990/"},
+          {"title": "Electroprice provider stock CABCIS320", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6fy6ani1leeo183",
+      "research": {
+        "confidence": 0.9,
+        "brand": "XPG",
+        "name": "XPG GAMMIX S60 AGAMMIXS60-512G-CS SSD M.2 2280 PCIe Gen4 x4 NVMe 512GB",
+        "description": "SSD XPG GAMMIX S60 512GB (EAN 4711085946140) en formato M.2 2280, interfaz PCIe Gen4 x4 NVMe, NAND 3D, hasta 4700MB/s de lectura y 1700MB/s de escritura para la capacidad 512GB.",
+        "manualCategoryPath": "computo/almacenamiento/ssd/m2-nvme/512gb-gen4",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/m2-nvme/512gb-gen4/xpg-gammix-s60-512gb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.xpg.com/nz/xpg/solid-state-drive-gammix-s60?tab=spec",
+        "gallery": ["https://www.xpg.com/nz/xpg/solid-state-drive-gammix-s60?tab=spec"],
+        "documents": ["https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_gammix_s60_pcie_gen4_x4_m2_ssd_20250620.pdf"],
+        "specs": {
+          "brand": "XPG",
+          "model": "GAMMIX S60",
+          "partNumber": "AGAMMIXS60-512G-CS",
+          "ean": "4711085946140",
+          "providerSku": "DDUXPG080",
+          "productType": "SSD M.2 NVMe",
+          "capacity": "512 GB",
+          "interface": "PCIe Gen4 x4 NVMe",
+          "formFactor": "M.2 2280",
+          "nand": "3D NAND",
+          "sequentialRead": "Hasta 4700 MB/s para 512GB",
+          "sequentialWrite": "Hasta 1700 MB/s para 512GB",
+          "tbw": "110 TB para 512GB",
+          "mtbf": "1500000 h",
+          "warranty": "5 anos limitada",
+          "operatingTemperature": "0 a 70 C",
+          "priceCurrencyNote": "PocketBase expone best_price sin moneda; se conserva valor crudo del proveedor.",
+          "providerBranchSummary": "Disponible por sucursal proveedor: D2A 47, DFA 20, GDL 5, CMT 5.",
+          "providerBranches": [
+            {"providerId": "ctonline", "warehouseCode": "D2A", "stock": 47},
+            {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 20},
+            {"providerId": "ctonline", "warehouseCode": "GDL", "stock": 5},
+            {"providerId": "ctonline", "warehouseCode": "CMT", "stock": 5}
+          ],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "DDUXPG080", "stock": 77, "price": 92.22, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed lo tenia en laptops; es almacenamiento SSD.", "El feed no trae capacidad en nombre, pero EAN 4711085946140 corresponde a AGAMMIXS60-512G-CS/512GB en datasheet XPG."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "80 x 22 x 3.13 mm con disipador; 80 x 22 x 2.15 mm sin disipador", "netWeight": "8 g con disipador / 7 g sin disipador"},
+        "sourceRefs": [
+          {"title": "XPG GAMMIX S60 specifications", "type": "manufacturer_spec", "url": "https://www.xpg.com/nz/xpg/solid-state-drive-gammix-s60?tab=spec"},
+          {"title": "XPG GAMMIX S60 datasheet 2025", "type": "manufacturer_spec", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_xpg_gammix_s60_pcie_gen4_x4_m2_ssd_20250620.pdf"},
+          {"title": "Electroprice provider stock DDUXPG080", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    }
+  ]
+}

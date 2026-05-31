@@ -192,6 +192,16 @@ const batch160PlusCases = [
   ["Patriot Signature Premium PSP48G3200H1 memoria RAM DDR4 8GB 3200MHz CL22 UDIMM", "PATRIOT", "computo/componentes/memoria-ram/udimm-ddr4/8gb-3200", "components"],
   ["Redragon Storm Elite White M988W mouse gamer alambrico RGB Pixart P3389 32000 DPI", "REDRAGON", "computo/perifericos/mouse/alambricos/gaming/alto-dpi/32000-dpi", "gaming"],
   ["TP-Link Omada TL-SG3428X switch administrable L2+ JetStream 24 puertos Gigabit 4 SFP+ 10G", "TP LINK", "redes/switches/administrables/gigabit/24-puertos-4-sfp-plus", "networking"],
+  ["Smartbitt SBEC-HD08M extension electrica uso rudo 8m 3 tomas naranja", "SMARTBITT", "energia/extensiones-electricas/uso-rudo", "power"],
+  ["Perfect Choice Lusso PC-084464 mochila ejecutiva slim para laptop 15.6 pulgadas negra", "PERFECT CHOICE", "computo/accesorios/mochilas-fundas/mochilas-laptop/15-6/ejecutivas-slim", "accessories"],
+  ["Brother PT-E110 rotuladora industrial portatil P-touch para cintas TZe hasta 12mm", "BROTHER", "impresion/rotuladoras/portatiles-industriales", "printers_scanners"],
+  ["Brother TZe-221 cinta laminada P-touch 9mm x 8m negro sobre blanco", "BROTHER", "impresion/consumibles/cintas-etiquetas/brother-tze/laminadas/9mm/negro-sobre-blanco", "printers_scanners"],
+  ["Manhattan 353595 cable DisplayPort 1.4 8K 60Hz macho-macho 1m negro", "MANHATTAN", "accesorios/cables-adaptadores/video-displayport/1m/8k", "accessories"],
+  ["TechZone TZBE5B8M100 cajon electronico de dinero POS RJ11 5 billetes 8 monedas", "TECH ZONE POS", "punto-de-venta/cajones-dinero/metalicos/rj11/5-billetes-8-monedas", "accessories"],
+  ["Honeywell Voyager 1400g lector codigo de barras 1D 2D area-imaging cableado USB", "HONEYWELL", "punto-de-venta/lectores-codigo-barras/2d-usb/area-imager", "accessories"],
+  ["be quiet! Light Base 600 DX White gabinete panoramico ATX ARGB blanco BGW66", "BE QUIET", "computo/componentes/gabinetes/gaming/atx-mid-tower/panoramicos-argb/sin-ventiladores", "components"],
+  ["Cisco CAB-AC-C5 cable alimentacion AC NEMA 5-15P a IEC C5", "CISCO", "redes/accesorios/cables-de-alimentacion/cisco-c5", "networking"],
+  ["XPG GAMMIX S60 AGAMMIXS60-512G-CS SSD M.2 2280 PCIe Gen4 x4 NVMe 512GB", "ADATA", "computo/almacenamiento/ssd/m2-nvme/512gb-gen4", "storage"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
