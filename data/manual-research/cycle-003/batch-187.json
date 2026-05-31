@@ -1,0 +1,429 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b187-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 187,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0u7y16romrofrtt",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Kodak Alaris",
+        "name": "Kodak Alaris A3 Flatbed Accessory escaner cama plana A3",
+        "description": "Accesorio de cama plana A3 Kodak Alaris para escanear documentos fragiles, libros, revistas y originales grandes conectado a escaneres Kodak compatibles; soporta area hasta A3/12 x 18 pulgadas segun variante.",
+        "manualCategoryPath": "impresion/escaneres/accesorios/cama-plana-a3",
+        "semanticCategoryPath": "printing/scanners/accessories/a3-flatbed",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kodakalaris.com/en/document/14416",
+        "gallery": [
+          "https://www.bhphotovideo.com/c/product/1091124-REG/kodak_1894351_a3_flatbed_accessory.html",
+          "https://www.shi.com/product/27039885/Kodak-A3-Flatbed-Accessory"
+        ],
+        "documents": [
+          "https://www.kodakalaris.com/sites/default/files/2025-02/Kodak-Alaris-Scanners-Supplies-%26-Consumables.pdf",
+          "https://www.bhphotovideo.com/lit_files/1022730.pdf"
+        ],
+        "specs": {
+          "brand": "Kodak Alaris",
+          "model": "A3 Flatbed Accessory",
+          "likelyManufacturerPart": "1894351",
+          "providerSku": "SCAKDK110",
+          "productType": "Accesorio de escaner cama plana A3",
+          "scanArea": "Hasta 12 x 18 in / 304.8 x 457.2 mm segun ficha 1894351",
+          "supportedFormats": ["A3", "297 x 420 mm", "12 x 18 in"],
+          "connectivity": "USB",
+          "packageIncludes": ["A3 flatbed", "USB cable", "Power supply"],
+          "compatibleScanners": ["Kodak i2420", "Kodak i2620", "Kodak i2820", "Kodak i3250", "Kodak i3400", "Kodak i3450", "Kodak i4250", "Kodak i4650", "Kodak i4850", "Scan Station 730"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SCAKDK110", "stock": 0, "price": 726.32, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed solo dice Kodak A3; las fuentes publicas describen A3 Flatbed Accessory. Validar numero de parte exacto con proveedor antes de prometer compatibilidad final."],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"widthCm": 43.8, "depthCm": 71.1, "heightCm": 15.9, "weightKg": 10.8},
+        "sourceRefs": [
+          {"title": "Kodak Alaris scanners supplies list", "type": "manufacturer_document", "url": "https://www.kodakalaris.com/sites/default/files/2025-02/Kodak-Alaris-Scanners-Supplies-%26-Consumables.pdf"},
+          {"title": "SHI Kodak A3 Flatbed Accessory specs", "type": "retailer_spec", "url": "https://www.shi.com/product/27039885/Kodak-A3-Flatbed-Accessory"},
+          {"title": "Electroprice provider stock SCAKDK110", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0wf83zartq5uvar",
+      "research": {
+        "confidence": 0.84,
+        "brand": "DELL",
+        "name": "Dell N_TOM1_N1_P3 garantia desktops 1Y Basic NBD a 3Y ProSupport",
+        "description": "Poliza de actualizacion Dell para desktops: de 1 ano Basic Next Business Day a 3 anos ProSupport. Debe activarse/validarse contra la serie compatible del equipo antes de venta.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/desktops/1y-nbd-a-3y-prosupport",
+        "semanticCategoryPath": "it-services/support-warranty/dell/prosupport/desktops/1y-nbd-to-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/prosupport-client-suite",
+        "gallery": ["https://www.dell.com/en-us/lp/prosupport-client-suite"],
+        "documents": ["https://www.dell.com/content/dam/digitalassets/active/en/unauth/quick-reference-guides/services/dell-prosupport-suite-for-pcs-comparison-chart-commercial.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_TOM1_N1_P3",
+          "providerSku": "POL-10983",
+          "productType": "Poliza de soporte y garantia",
+          "coverage": "Upgrade de 1Y Basic Next Business Day a 3Y ProSupport",
+          "targetDeviceFamily": "Dell desktops",
+          "serviceDuration": "3 anos",
+          "serviceLevel": "ProSupport",
+          "onsiteResponse": "Next business day onsite repair after remote diagnosis segun descripcion Dell ProSupport",
+          "supportAccess": "24x7 access to in-region experts segun Dell ProSupport",
+          "activationRequirement": "Confirmar compatibilidad por clave de garantia/serie con proveedor",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "POL-10983", "stock": 0, "price": 2896, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No se localizo ficha oficial publica para el SKU N_TOM1_N1_P3; se combino el SKU del canal con la descripcion oficial del servicio Dell ProSupport."],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"digitalDelivery": true, "serviceTermYears": 3},
+        "sourceRefs": [
+          {"title": "Dell ProSupport Suite for PCs", "type": "manufacturer_page", "url": "https://www.dell.com/en-us/lp/prosupport-client-suite"},
+          {"title": "Icecat Dell N_TOM1_N1_P3", "type": "catalog_spec", "url": "https://icecat.nl/p/dell/n_tom1_n1_p3/warranty%2B-%2Bsupport%2Bextensions-1y%2Bnext%2Bbus%2Bday%2Bto%2B3y%2Bprospt-137318057.html"},
+          {"title": "Electroprice provider stock POL-10983", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0wmthdxgeymu6p7",
+      "research": {
+        "confidence": 0.9,
+        "brand": "AUTODESK",
+        "name": "Autodesk AutoCAD C1RK1-WW1762-L158 specialized toolsets licencia anual 1 usuario",
+        "description": "Suscripcion comercial anual Autodesk AutoCAD C1RK1-WW1762-L158 para 1 usuario, entrega electronica, con AutoCAD including specialized toolsets para diseno CAD 2D/3D y toolsets de industria.",
+        "manualCategoryPath": "software/cad-diseno/autodesk-autocad/toolsets-1y-1usuario",
+        "semanticCategoryPath": "software/cad-design/autodesk-autocad/specialized-toolsets/annual-single-user",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.autodesk.com/products/autocad/overview",
+        "gallery": [
+          "https://www.autodesk.com/products/autocad/overview",
+          "https://www.ectronic.net/en/shop/autodesk-c1rk1-ww1762-l158-autocad-autodesk-c1rk1-ww1762-l158-213407"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Autodesk",
+          "model": "C1RK1-WW1762-L158",
+          "providerSku": "SOFATD760",
+          "productType": "Licencia CAD / suscripcion",
+          "softwareName": "AutoCAD including specialized toolsets",
+          "licenseQuantity": "1 usuario",
+          "licenseTerm": "1 ano",
+          "delivery": "Electronic License Delivery (ELD)",
+          "licenseAudience": "Commercial New Single-user",
+          "capabilities": ["Dibujo y anotacion 2D", "Modelado 3D", "Specialized toolsets", "AutoLISP y personalizacion", "AutoCAD web/mobile segun suscripcion"],
+          "platform": "Windows soportado por fuentes de canal; verificar requisitos vigentes por version",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SOFATD760", "stock": 0, "price": 1750, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El precio proveedor luce muy inferior a referencias retail de licencia anual; conservar como precio crudo de proveedor y validar antes de publicar margen o disponibilidad."],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"digitalDelivery": true, "licenseTermYears": 1},
+        "sourceRefs": [
+          {"title": "Autodesk AutoCAD overview", "type": "manufacturer_page", "url": "https://www.autodesk.com/products/autocad/overview"},
+          {"title": "Ectronic AutoCAD C1RK1-WW1762-L158", "type": "retailer_spec", "url": "https://www.ectronic.net/en/shop/autodesk-c1rk1-ww1762-l158-autocad-autodesk-c1rk1-ww1762-l158-213407"},
+          {"title": "Electroprice provider stock SOFATD760", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "0zq401d82cglhhy",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ZEBRA",
+        "name": "Zebra 21-118517-01R kit montaje pared CC600 MK500 negro",
+        "description": "Kit de montaje en pared Zebra 21-118517-01R para kioscos/micro kioscos CC600 y MK500, color negro, incluye placa de pared y tornilleria de montaje.",
+        "manualCategoryPath": "punto-de-venta/kioscos/accesorios/montaje-pared/zebra-cc600-mk500",
+        "semanticCategoryPath": "pos/kiosks/accessories/wall-mount/zebra-cc600-mk500",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.zebra.com/content/dam/support-dam/es_la/documentation/unrestricted/guide/product/cc6000-ug-esla.pdf",
+        "gallery": [
+          "https://www.ptsmobile.com/21-118517-01R.html",
+          "https://www.mactoner.com.mx/producto/kit-de-montaje-zebra-21-118517-01r-negro/"
+        ],
+        "documents": ["https://www.zebra.com/content/dam/support-dam/es_la/documentation/unrestricted/guide/product/cc6000-ug-esla.pdf"],
+        "specs": {
+          "brand": "Zebra",
+          "model": "21-118517-01R",
+          "providerSku": "ACCSYM260",
+          "productType": "Kit de montaje en pared para kiosco",
+          "compatibleDevices": ["Zebra CC600", "Symbol/Zebra MK500"],
+          "color": "Negro",
+          "material": "Metal reportado por retail",
+          "packageIncludes": ["Wall mount plate", "Mounting screws"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCSYM260", "stock": 0, "price": 51.29, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"packageWeightG": 140, "packageDimensionsMm": "180 x 120 x 40"},
+        "sourceRefs": [
+          {"title": "Zebra CC600 user guide accessory table", "type": "manufacturer_document", "url": "https://www.zebra.com/content/dam/support-dam/es_la/documentation/unrestricted/guide/product/cc6000-ug-esla.pdf"},
+          {"title": "PTS Mobile Zebra 21-118517-01R", "type": "retailer_spec", "url": "https://www.ptsmobile.com/21-118517-01R.html"},
+          {"title": "Electroprice provider stock ACCSYM260", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "10bcykfmdeoass4",
+      "research": {
+        "confidence": 0.89,
+        "brand": "BACO",
+        "name": "Baco Bacoflash 99341 resaltador amarillo caja 12 piezas",
+        "description": "Resaltador Baco Bacoflash 99341 color amarillo, tinta fluorescente a base de agua no toxica, presentacion plegadiza con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/resaltadores/amarillos/12-piezas",
+        "semanticCategoryPath": "office-supplies/writing-instruments/highlighters/yellow/12-pack",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://cityshop.mx/producto/resaltador-baco-bacoflash-99341-amarillo-plegadiza-con-12-piezas",
+          "https://mipc.com.mx/marcado-resaltador-baco-plegadiza-con-12-piezas-amarillo-99341.html"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Baco",
+          "model": "99341",
+          "line": "Bacoflash",
+          "providerSku": "ACCBAC2380",
+          "gtin": "7501174950755",
+          "productType": "Resaltador",
+          "inkColor": "Amarillo fluorescente",
+          "inkBase": "Agua",
+          "nonToxic": true,
+          "packQuantity": 12,
+          "packaging": "Plegadiza",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCBAC2380", "stock": 0, "price": 127.27, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"packQuantity": 12},
+        "sourceRefs": [
+          {"title": "TiendaClic Baco 99341", "type": "retailer_spec", "url": "https://www.tiendaclic.mx/ver-detalle/resaltador-baco-99341"},
+          {"title": "Cityshop Baco 99341", "type": "retailer_spec", "url": "https://cityshop.mx/producto/resaltador-baco-bacoflash-99341-amarillo-plegadiza-con-12-piezas"},
+          {"title": "Electroprice provider stock ACCBAC2380", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "12cp3non0x2jn2m",
+      "research": {
+        "confidence": 0.91,
+        "brand": "IMPRESS",
+        "name": "Impress 6951476310602 papel bond carta 70 g 95 blancura caja 5000 hojas",
+        "description": "Papel bond Impress tamano carta 21.6 x 27.9 cm, gramaje 70 g/m2, 95% blancura, color blanco, tipo mate, caja con 10 paquetes de 500 hojas para impresion y copiado.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/impress-70g-95-blancura",
+        "semanticCategoryPath": "office-supplies/paper/bond/letter/5000-sheets/70gsm-95-brightness",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://intercompras.com/p/papel-bond-impress-gm-alta-blancura-tamano-carta-216x279-mm-caja-paquetes-298395",
+          "https://globaloffice.com.mx/app/detalle/producto/consumibles/papel-bond-impress-6951476310602-papel-b/6951476310602"
+        ],
+        "documents": ["https://globaloffice.com.mx/app/producto/pdf/6951476310602"],
+        "specs": {
+          "brand": "Impress",
+          "model": "6951476310602",
+          "providerSku": "ACCIMP010",
+          "gtin": "6951476310602",
+          "productType": "Papel bond",
+          "paperSize": "Carta / 216 x 279 mm",
+          "paperWeight": "70 g/m2",
+          "brightness": "95%",
+          "finish": "Mate",
+          "color": "Blanco",
+          "sheetsPerPack": 500,
+          "packsPerBox": 10,
+          "totalSheets": 5000,
+          "recommendedUse": "Impresion y copiado",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCIMP010", "stock": 0, "price": 661.36, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"widthMm": 216, "heightMm": 279, "paperWeightGsm": 70, "totalSheets": 5000},
+        "sourceRefs": [
+          {"title": "TiendaClic Impress 6951476310602", "type": "retailer_spec", "url": "https://www.depot.tiendaclic.mx/ver-detalle/papel-bond-impress-6951476310602-impress-6951476310602"},
+          {"title": "Intercompras Impress 6951476310602", "type": "retailer_spec", "url": "https://intercompras.com/p/papel-bond-impress-gm-alta-blancura-tamano-carta-216x279-mm-caja-paquetes-298395"},
+          {"title": "Electroprice provider stock ACCIMP010", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "14qbccy7ickzw76",
+      "research": {
+        "confidence": 0.85,
+        "brand": "GENERICO",
+        "name": "Cubrebocas KN95 blanco CN-4102 caja 50 piezas 5 paquetes de 10",
+        "description": "Cubrebocas KN95 color blanco en presentacion de 50 piezas, empacado como 5 paquetes de 10 piezas. Producto generico de higiene/proteccion personal; validar certificacion y cumplimiento sanitario antes de publicarlo con reclamos medicos.",
+        "manualCategoryPath": "salud/higiene/cubrebocas/kn95/50-piezas-blanco",
+        "semanticCategoryPath": "health/hygiene/face-masks/kn95/50-pack-white",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://compuexpresstijuana.com.mx/producto/cubre-bocas-kn95-blanco-con-50-pzas-5-paquetes-con-10-pzas-c-u/",
+          "https://mipc.com.mx/cubre-bocas-kn95-con-50-piezas-5-paquetes-con-10-pzas-c-u-blanco.html"
+        ],
+        "documents": [],
+        "specs": {
+          "brand": "Generico",
+          "model": "CN-4102",
+          "productType": "Cubrebocas KN95",
+          "color": "Blanco",
+          "maskType": "KN95",
+          "totalPieces": 50,
+          "packaging": "5 paquetes con 10 piezas cada uno",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "CN-4102", "stock": 0, "price": 43.5, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Las fuentes publicas de canal no documentan certificacion sanitaria verificable; no publicar claims medicos sin evidencia adicional."],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"packQuantity": 50, "innerPacks": 5, "piecesPerInnerPack": 10},
+        "sourceRefs": [
+          {"title": "Compuexpress Tijuana CN-4102", "type": "retailer_spec", "url": "https://compuexpresstijuana.com.mx/producto/cubre-bocas-kn95-blanco-con-50-pzas-5-paquetes-con-10-pzas-c-u/"},
+          {"title": "MiPC CN-4102", "type": "retailer_spec", "url": "https://mipc.com.mx/cubre-bocas-kn95-con-50-piezas-5-paquetes-con-10-pzas-c-u-blanco.html"},
+          {"title": "Electroprice provider stock CN-4102", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "172xhqzud7z6k5b",
+      "research": {
+        "confidence": 0.92,
+        "brand": "TRIPP-LITE",
+        "name": "Tripp Lite SRVRTBAR barras verticales organizadoras de cable 42U para rack",
+        "description": "Par de barras verticales Tripp Lite SRVRTBAR para administracion de cableado en racks SmartRack 42U, con ranuras tipo keyhole para instalacion sin herramientas de PDUs Zero U y accesorios.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/organizadores-cable/verticales/tripp-lite-srvrtbar-42u",
+        "semanticCategoryPath": "infrastructure/rack-accessories/cable-management/vertical/42u/tripp-lite-srvrtbar",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://assets.tripplite.com/product-pdfs/en/srvrtbar.pdf",
+        "gallery": [
+          "https://www.cdw.com/product/tripp-lite-42u-rack-enclosure-server-cabinet-vertical-cable-management-bars/2348931",
+          "https://www.zoro.com/tripp-lite-rack-42u-vertical-cable-management-bars-srvrtbar/i/G5410581/"
+        ],
+        "documents": [
+          "https://assets.tripplite.com/product-pdfs/en/srvrtbar.pdf",
+          "https://assets.tripplite.com/submittal-drawing/srvrtbar-submittal-drawing-en.pdf"
+        ],
+        "specs": {
+          "brand": "Tripp Lite by Eaton",
+          "model": "SRVRTBAR",
+          "providerSku": "ACCTRL5090",
+          "gtin": "037332164117",
+          "productType": "Barras verticales de administracion de cable para rack",
+          "rackHeight": "42U",
+          "packagedQuantity": 2,
+          "features": ["Montaje vertical adicional", "Soporte para PDUs Zero U", "Ranuras keyhole sin herramientas", "Incluye hardware de montaje"],
+          "compatibility": "Tripp Lite 42U SmartRack enclosure",
+          "color": "Negro",
+          "warranty": "5 anos limitada reportada por fabricante/distribuidores",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCTRL5090", "stock": 0, "price": 922.13, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"heightIn": 76, "widthIn": 4.625, "depthIn": 1.625, "weightLb": 7},
+        "sourceRefs": [
+          {"title": "Tripp Lite SRVRTBAR PDF", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/srvrtbar.pdf"},
+          {"title": "ADI Tripp Lite SRVRTBAR", "type": "retailer_spec", "url": "https://www.adiglobaldistribution.us/product/tc-srvrtbar"},
+          {"title": "Electroprice provider stock ACCTRL5090", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "17pd6fam8tkq376",
+      "research": {
+        "confidence": 0.92,
+        "brand": "CREATIVE",
+        "name": "Creative MUVO Go MF8405 BU bocina Bluetooth 5.3 IPX7 20W azul",
+        "description": "Bocina portatil Creative MUVO Go modelo MF8405 BU color azul, Bluetooth 5.3, resistencia al agua IPX7, 20W RMS, bateria hasta 18 horas, dos drivers de rango completo con radiadores pasivos y carga USB-C.",
+        "manualCategoryPath": "audio/bocinas/bluetooth/portatiles/ipx7-20w/creative-muvo-go",
+        "semanticCategoryPath": "audio/speakers/bluetooth/portable/ipx7-20w/creative-muvo-go",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://us.creative.com/p/speakers/creative-muvo-go",
+        "gallery": [
+          "https://us.creative.com/p/speakers/creative-muvo-go",
+          "https://www.mactoner.com.mx/producto/bocina-portatil-creative-labs-51mf8405aa001-1/"
+        ],
+        "documents": [
+          "https://files.creative.com/manualdn/Manuals/TSD/14429/G6cn1TfcRL/Creative%20MUVO%20Go%20Safe%20Removal%20of%20Built-In%20Battery%20Rev%20A.pdf",
+          "https://insight-distribution.ph/sites/default/files/data%20sheet/Creative%20MUVO%20Go%20PPD_rev0.3_EN.pdf"
+        ],
+        "specs": {
+          "brand": "Creative",
+          "model": "MUVO Go / MF8405",
+          "partNumber": "51MF8405AA001",
+          "providerSku": "BOCCRT190",
+          "productType": "Bocina Bluetooth portatil",
+          "color": "Azul / Cloud Blue",
+          "bluetoothVersion": "5.3",
+          "waterResistance": "IPX7",
+          "batteryLife": "Hasta 18 horas",
+          "powerOutput": "20W RMS / hasta 40W pico",
+          "drivers": "2 x 45 mm full-range con 2 radiadores pasivos",
+          "frequencyResponse": "60-20000 Hz",
+          "charging": "USB-C",
+          "wirelessCodec": "SBC",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BOCCRT190", "stock": 0, "price": 47.78, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El precio proveedor parece demasiado bajo frente a retail; conservar como dato crudo y validar antes de publicar oferta."],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"widthMm": 204, "depthMm": 73, "heightMm": 61, "weightG": 570},
+        "sourceRefs": [
+          {"title": "Creative MUVO Go official specs", "type": "manufacturer_page", "url": "https://us.creative.com/p/speakers/creative-muvo-go"},
+          {"title": "MacToner Creative 51MF8405AA001", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/bocina-portatil-creative-labs-51mf8405aa001-1/"},
+          {"title": "Electroprice provider stock BOCCRT190", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "17yaxwn2nl5phl5",
+      "research": {
+        "confidence": 0.87,
+        "brand": "DELL",
+        "name": "Dell N_OPTL1_N1_P3 garantia OptiPlex 3000 1Y Basic NBD a 3Y ProSupport",
+        "description": "Poliza Dell N_OPTL1_N1_P3 para OptiPlex desktops 3000: upgrade de 1 ano Basic Next Business Day a 3 anos ProSupport. Requiere confirmar compatibilidad por serie/clave de garantia.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-nbd-a-3y-prosupport",
+        "semanticCategoryPath": "it-services/support-warranty/dell/prosupport/optiplex-3000/1y-nbd-to-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/prosupport-client-suite",
+        "gallery": [
+          "https://www.dell.com/en-us/lp/prosupport-client-suite",
+          "https://www.directdial.com/us/item/dell-prosupport/n-optl1-n1-p3"
+        ],
+        "documents": ["https://www.dell.com/content/dam/digitalassets/active/en/unauth/quick-reference-guides/services/dell-prosupport-suite-for-pcs-comparison-chart-commercial.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL1_N1_P3",
+          "providerSku": "POL-7683",
+          "productType": "Poliza de soporte y garantia",
+          "coverage": "Upgrade de 1Y Basic Next Business Day a 3Y ProSupport",
+          "targetDeviceFamily": "Dell OptiPlex desktops 3000",
+          "serviceDuration": "3 anos",
+          "serviceLevel": "ProSupport",
+          "onsiteResponse": "Next business day onsite repair after remote diagnosis segun Dell ProSupport",
+          "supportAccess": "24x7 access to in-region experts segun Dell ProSupport",
+          "activationRequirement": "Confirmar compatibilidad por clave de garantia/serie con proveedor",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "POL-7683", "stock": 0, "price": 1746.13, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El SKU publico N_OPTL1_N1_P3 aparece como upgrade a 3Y ProSupport; el feed agrega familia OptiPlex 3000 y compatibilidad debe verificarse por serie."],
+          "providerStockVerifiedAt": "2026-05-31T02:22:09Z"
+        },
+        "measurements": {"digitalDelivery": true, "serviceTermYears": 3},
+        "sourceRefs": [
+          {"title": "Dell ProSupport Suite for PCs", "type": "manufacturer_page", "url": "https://www.dell.com/en-us/lp/prosupport-client-suite"},
+          {"title": "DirectDial Dell N_OPTL1_N1_P3", "type": "retailer_spec", "url": "https://www.directdial.com/us/item/dell-prosupport/n-optl1-n1-p3"},
+          {"title": "Electroprice provider stock POL-7683", "type": "provider_stock", "observedAt": "2026-05-31T02:22:09Z"}
+        ]
+      }
+    }
+  ]
+}

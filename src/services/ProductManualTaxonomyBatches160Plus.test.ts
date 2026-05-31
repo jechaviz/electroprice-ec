@@ -272,6 +272,16 @@ const batch160PlusCases = [
   ["Mirati MFA13 freidora de aire 9L doble canasta 1700W negra", "MIRATI", "hogar/electrodomesticos/cocina/freidoras-aire/doble-canasta/9l", "accessories"],
   ["Acteck Energon Prime CP415 AC-937122 cargador GaN USB-C PD 20W negro", "ACTECK", "energia/cargadores-usb/pared-usb-c/20w-gan", "accessories"],
   ["Datalogic PowerScan PBT9600-HPRBK10US lector 2D industrial Bluetooth USB kit", "DATALOGIC", "punto-de-venta/lectores-codigo-barras/2d-inalambricos/industriales-powerscan-9600", "accessories"],
+  ["Kodak Alaris A3 Flatbed Accessory escaner cama plana A3 SCAKDK110", "KODAK", "impresion/escaneres/accesorios/cama-plana-a3", "printers_scanners"],
+  ["Dell N_TOM1_N1_P3 garantia desktops 1Y Basic NBD a 3Y ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/desktops/1y-nbd-a-3y-prosupport", "software"],
+  ["Autodesk AutoCAD C1RK1-WW1762-L158 specialized toolsets annual subscription", "AUTODESK", "software/cad-diseno/autodesk-autocad/toolsets-1y-1usuario", "software"],
+  ["Zebra 21-118517-01R kit montaje pared CC600 MK500 negro", "ZEBRA", "punto-de-venta/kioscos/accesorios/montaje-pared/zebra-cc600-mk500", "accessories"],
+  ["Baco Bacoflash 99341 resaltador amarillo caja 12 piezas", "BACO", "oficina/papeleria/marcadores/resaltadores/amarillos/12-piezas", "accessories"],
+  ["Impress 6951476310602 papel bond carta 70 g 95 blancura caja 5000 hojas", "IMPRESS", "oficina/papel-consumibles/papel-bond/carta/5000-hojas/impress-70g-95-blancura", "accessories"],
+  ["Cubrebocas KN95 blanco CN-4102 caja 50 piezas 5 paquetes de 10", "GENERICO", "salud/higiene/cubrebocas/kn95/50-piezas-blanco", "accessories"],
+  ["Tripp Lite SRVRTBAR barras verticales organizadoras de cable 42U para rack", "TRIPP-LITE", "infraestructura/racks-accesorios/organizadores-cable/verticales/tripp-lite-srvrtbar-42u", "networking"],
+  ["Creative MUVO Go MF8405 BU bocina Bluetooth 5.3 IPX7 20W azul", "CREATIVE", "audio/bocinas/bluetooth/portatiles/ipx7-20w/creative-muvo-go", "audio"],
+  ["Dell N_OPTL1_N1_P3 garantia OptiPlex 3000 1Y Basic NBD a 3Y ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-nbd-a-3y-prosupport", "software"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
