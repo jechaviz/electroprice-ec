@@ -1,0 +1,315 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b220-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 220,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "9ted0gvzdi8uvlz",
+      "research": {
+        "confidence": 0.94,
+        "brand": "PNY",
+        "name": "PNY NVIDIA RTX A400 VCNRTXA400ATX-PB tarjeta grafica profesional 4GB GDDR6, 4 mini DisplayPort",
+        "description": "Tarjeta grafica profesional PNY NVIDIA RTX A400 de bajo perfil y una ranura, 4GB GDDR6, arquitectura Ampere, 4 mini DisplayPort 1.4 y consumo maximo de 50W.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/nvidia-rtx-profesional/rtx-a400/pny-vcnrtxa400atx-pb",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/nvidia-rtx-profesional/rtx-a400",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.pny.com/en-eu/rtx-a400",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10425934",
+          "https://d2vfia6k6wrouk.cloudfront.net/productimages/a5f5b6d6-4812-4cdb-9454-b15400c790bb/images/06-nvidia-rtx-a400-front.png",
+          "https://d2vfia6k6wrouk.cloudfront.net/productimages/a5f5b6d6-4812-4cdb-9454-b15400c790bb/images/07-nvidia-rtx-a400-3qtr-left.png",
+          "https://www.pny.com/Image%20Library/Commercial/Explore%20Our%20Products/NVIDIA%20Professional%20Graphics/nvidia-rtx-a400-800x500.png"
+        ],
+        "documents": [{ "label": "PNY RTX A400 datasheet", "type": "manufacturer_datasheet", "url": "https://www.pny.com/file%20library/company/support/product%20brochures/nvidia%20rtx/english/proviz-rtx-400-datasheet.pdf" }],
+        "specs": {
+          "brand": "PNY", "model": "VCNRTXA400ATX-PB", "providerSku": "VC-1212", "gpu": "NVIDIA RTX A400", "architecture": "Ampere", "memory": "4GB GDDR6", "memoryBus": "64-bit", "bandwidth": "96 GB/s", "cudaCores": 768, "tensorCores": 24, "rtCores": 6, "interface": "PCIe 4.0 x8", "outputs": "4 x mini DisplayPort 1.4/1.4a", "maxDisplays": 4, "maxPower": "50 W", "formFactor": "Low profile, single slot",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; GlobalOffice muestra disponibles 0 y almacen Mexico 75, B&H y SabrePC con stock publico.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "VC-1212", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 165.04, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:VC-1212" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H US$199 in stock.", "CDW US$196.99.", "SabrePC US$212.04 in stock.", "Tech-America US$163 out of stock.", "GlobalOffice $3,724 MXN, disponibles 0 y almacen Mexico 75."],
+          "reviewNotes": "El titulo proveedor usa Quadro/PCIe x16 3.0; fuentes PNY/B&H confirman nomenclatura actual NVIDIA RTX A400 y PCIe 4.0 x8."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "2.7 x 6.4 in", "weight": "no publicado; pesos publicos son de envio" },
+        "sourceRefs": [
+          { "title": "PNY RTX A400", "type": "manufacturer_product", "url": "https://www.pny.com/en-eu/rtx-a400" },
+          { "title": "B&H PNY VCNRTXA400ATX-PB", "type": "retailer_stock", "url": "https://www.bhphotovideo.com/c/product/1860620-REG/pny_vcnrtxa400atx_pb_nvidia_rtx_a400_graphics.html/specs" },
+          { "title": "GlobalOffice PNY RTX A400", "type": "retailer_stock", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/laptops/tarjeta-de-video-pny-pro-nvidia-rtx-a400-4gb-low-p/vcnrtxa400atx-pb" },
+          { "title": "CVA feed VC-1212 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9uhr6jh38kbjdja",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BACO",
+        "name": "BACO G-20 94124 goma blanca para lapiz, grande, caja con 20 piezas",
+        "description": "Borrador blanco BACO G-20 modelo 94124 para lapiz, grande, fabricado en caucho sin PVC; presentacion comercial comun en caja con 20 piezas.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/borradores/blancos/baco-g20-94124",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/borradores/blancos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCBAC3640/ACCBAC3640_1_full.jpg", "https://proesa.com/cdn/shop/files/art_600406_01_683a9879-d296-4079-9c6b-dc28e692ebe9_1000x.jpg?v=1754169729"],
+        "specs": {
+          "brand": "BACO", "model": "94124", "providerSku": "ACCBAC3640", "ean": "7501174994124", "alternateKeys": ["GM003", "BAPBOAAB001"], "productType": "Goma para borrar lapiz", "size": "Grande G-20", "material": "Caucho sin PVC", "pieceCount": 20, "color": "Blanco",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; CTI, TiendaClic, Walmart y Proesa muestran agotado, mientras Mervins y GlobalOffice reportan inventario externo.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBAC3640", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 80.15, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCBAC3640" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["PCStore $93 MXN.", "CTI Systems $92 MXN agotado.", "TiendaClic $150.97 MXN con existencia 0.", "Mervins $121.02 MXN con 103 piezas.", "Walmart agotado.", "Proesa G-20 agotado."],
+          "reviewNotes": "Existen llaves 94124, ACCBAC3640, GM003 y BAPBOAAB001 para el mismo EAN; el precio por pieza de Proesa no es comparable con caja/paquete."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "41 x 31 x 11 mm por pieza", "packageDimensions": "8.50 x 3.50 x 10.10 cm reportado por Walmart", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "PCStore BACO 94124", "type": "retailer_stock", "url": "https://pcstore.mx/goma-baco-94124-g-20-94124" },
+          { "title": "Exel BACO G-20", "type": "retailer_stock", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/BAPBOAAB001" },
+          { "title": "Walmart BACO G-20", "type": "retailer_stock", "url": "https://www.walmart.com.mx/ip/papeleria/borrador-grande-baco-para-lapiz-caja-con-20-piezas-goma-g-20-94124-baco-g-20-94124/00750117499412" },
+          { "title": "CTOnline feed ACCBAC3640 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9wob43csjgxxb53",
+      "research": {
+        "confidence": 0.94,
+        "brand": "DATALOGIC",
+        "name": "Datalogic Magellan 1500i MG1501-10211-0200 lector de codigo de barras 2D USB negro con base inclinable",
+        "description": "Lector de presentacion Datalogic Magellan 1500i negro con imager 2D, base inclinable magnetica y cable USB-A, para punto de venta.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-usb/area-imager/datalogic-magellan-1500i",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-usb/area-imager",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.datalogic.com/eng/retail-transportation-logistics-healthcare-other-applications/fixed-retail-scanners/magellan-1500i-pd-848.html",
+        "gallery": ["https://static.ctonline.mx/imagenes/LCTPSC900/LCTPSC900_full.jpg", "https://www.etiden.com/media/catalog/product/m/g/mg1501-10211-0200.jpeg", "https://www.etiden.com/media/catalog/product/cache/8e0900980d802d9bb649187a089d520a/m/g/mg1501-10211-0200.jpeg"],
+        "specs": {
+          "brand": "Datalogic", "model": "Magellan 1500i", "partNumber": "MG1501-10211-0200", "providerSku": "LCTPSC900", "productType": "Lector 2D de presentacion", "sensor": "Area imager 1280 x 800", "interfaces": ["USB Keyboard", "USB COM", "OEM IBM USB", "RS-232"], "protection": "IP52", "readRange": "hasta 25-30 cm segun codigo", "motionTolerance": "1.5 m/s", "minimumResolution": "5 mil", "feedback": ["beeper", "LED", "Datalogic Green Spot"], "included": ["tilting stand with magnetic base", "USB-A cable"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; MBCEStore, Etiden y Digimex muestran disponibilidad publica.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "LCTPSC900", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 267.75, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:LCTPSC900" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Etiden 243.07 EUR sin IVA disponible.", "MBCEStore Mexico US$512 en stock.", "Digimex 252.70 EUR sin IVA con 50+ piezas."],
+          "reviewNotes": "Digimarc puede depender de variante/licencia; dimensiones varian por stand."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "6.0 x 7.5 x 13.8/15.0 cm con base", "weight": "240 g" },
+        "sourceRefs": [
+          { "title": "Datalogic Magellan 1500i", "type": "manufacturer_product", "url": "https://www.datalogic.com/eng/retail-transportation-logistics-healthcare-other-applications/fixed-retail-scanners/magellan-1500i-pd-848.html" },
+          { "title": "Datalogic models and accessories", "type": "manufacturer_catalog", "url": "https://www.datalogic.com/PdfCreate/ModelsAndAccessories/122" },
+          { "title": "MBCEStore Magellan 1500i", "type": "retailer_stock", "url": "https://www.mbcestore.com.mx/datalogic/parte-mg1501-10211-0200.htm" },
+          { "title": "CTOnline feed LCTPSC900 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9wp4bizqdbdity9",
+      "research": {
+        "confidence": 0.94,
+        "brand": "GIGABYTE",
+        "name": "Gigabyte GeForce RTX 4080 Eagle GV-N4080EAGLE-16GD tarjeta grafica 16GB GDDR6X",
+        "description": "Tarjeta grafica Gigabyte GeForce RTX 4080 Eagle 16GB GDDR6X, PCIe 4.0 x16, 3 DisplayPort 1.4a, HDMI 2.1a y sistema de enfriamiento Eagle.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-40/rtx-4080/gigabyte-eagle-gv-n4080eagle-16gd",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-40/rtx-4080",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Graphics-Card/GV-N4080EAGLE-16GD/sp",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10360897"],
+        "specs": {
+          "brand": "Gigabyte", "model": "GV-N4080EAGLE-16GD", "providerSku": "VC-1087", "gpu": "GeForce RTX 4080", "coreClock": "2505 MHz", "cudaCores": 9728, "memory": "16GB GDDR6X", "memoryBus": "256-bit", "memorySpeed": "22.4 Gbps", "interface": "PCIe 4.0 x16", "outputs": ["3 x DisplayPort 1.4a", "1 x HDMI 2.1a"], "maxResolution": "7680 x 4320", "psuRecommended": "850 W", "powerConnector": "1 x 16-pin", "included": ["guia", "anti-sag bracket", "adaptador 16-pin a 3 x 8-pin"],
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; B&H y Sigma lo muestran no disponible, consistente con producto de generacion anterior.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "VC-1087", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1145.25, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:VC-1087" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H No Longer Available.", "Sigma Computer 53,999 EGP out of stock.", "NowInStock/Newegg historico US$1,099.99 hasta septiembre 2023."],
+          "reviewNotes": "No mezclar con GV-N4080EAGLE OC-16GD; este modelo sin OC reporta core clock 2505 MHz."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "342 x 150 x 70 mm", "shippingDimensions": "18.3 x 10.9 x 4.7 in", "shippingWeight": "6.23 lb" },
+        "sourceRefs": [
+          { "title": "Gigabyte GV-N4080EAGLE-16GD", "type": "manufacturer_product", "url": "https://www.gigabyte.com/Graphics-Card/GV-N4080EAGLE-16GD/sp" },
+          { "title": "B&H Gigabyte RTX 4080 Eagle", "type": "retailer_stock", "url": "https://www.bhphotovideo.com/c/product/1731409-REG/gigabyte_gv_n4080eagle_16gd_geforce_rtx_4080_16gb.html" },
+          { "title": "NowInStock RTX 4080 Eagle history", "type": "retailer_stock", "url": "https://www.nowinstock.net/full_historydetails/1592/64041/" },
+          { "title": "CVA feed VC-1087 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a1lj39sj1ond378",
+      "research": {
+        "confidence": 0.9,
+        "brand": "DELL",
+        "name": "Dell N_OPTL1_N1_P1 ProSupport 1 ano Next Business Day para OptiPlex 3000 desktops",
+        "description": "Extension de garantia Dell ProSupport por 1 ano con servicio onsite Next Business Day para desktops OptiPlex 3000, sujeta a validacion por serie o service tag.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-basic-nbd-a-1y-prosupport/n-optl1-n1-p1",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-basic-nbd-a-1y-prosupport",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/desktop-computers/optiplex-3000-tower/spd/optiplex-3000-desktop",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339694"],
+        "specs": {
+          "brand": "Dell", "model": "N_OPTL1_N1_P1", "providerSku": "POL-7701", "productType": "Poliza de garantia y soporte", "deviceFamily": "OptiPlex 3000 desktops", "serviceLevel": "ProSupport onsite Next Business Day", "coverage": "1 ano", "delivery": "Servicio digital",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; Cityshop muestra el SKU exacto agotado.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-7701", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 398.93, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:POL-7701" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cityshop exacto N_OPTL1_N1_P1 agotado.", "Intercompras SKU relacionado N_OPTL1_N3_P3 3 anos ProSupport $989 MXN."],
+          "reviewNotes": "Compatibilidad exacta debe confirmarse con service tag/clave de garantia; no se encontro precio publico exacto del N_OPTL1_N1_P1."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Dell OptiPlex 3000 Tower support options", "type": "manufacturer_product", "url": "https://www.dell.com/en-us/shop/desktop-computers/optiplex-3000-tower/spd/optiplex-3000-desktop" },
+          { "title": "Icecat N_OPTL1_N1_P1", "type": "retailer_stock", "url": "https://icecat.se/p/dell/n_optl1_n1_p1/warranty%2B-%2Bsupport%2Bextensions-n_optl1_n1_p1-134164856.html" },
+          { "title": "Cityshop N_OPTL1_N1_P1", "type": "retailer_stock", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-optiplex-desktops-3000-de-1-ano-incluido-a-1-ano-prosupport" },
+          { "title": "CVA feed POL-7701 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a1nniedqs8kpedb",
+      "research": {
+        "confidence": 0.91,
+        "brand": "AZOR",
+        "name": "Azor Pin Point 6810RO boligrafo punta fina 0.7 mm tinta roja, caja con 12 piezas",
+        "description": "Boligrafo Azor Pin Point 6810RO de punto de aguja 0.7 mm, tinta roja de baja viscosidad, cuerpo amarillo anti-rodamiento y caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-fina/azor-pinpoint-6810ro-rojo-12-piezas",
+        "semanticCategoryPath": "oficina/papeleria/boligrafos/boligrafo-punta-fina",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/pin-point-cuerpo-amarillo/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCAZR040/ACCAZR040_full.jpg", "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_boligrafo_amarillo_6820RO_caja_12pzas.jpg"],
+        "specs": {
+          "brand": "Azor", "model": "6810RO", "providerSku": "ACCAZR040", "ean": "7501428728413", "productType": "Boligrafo Pin Point", "inkColor": "Rojo", "tip": "Punto de aguja 0.7 mm", "pieceCount": 12, "features": ["flujo instantaneo", "tinta de baja viscosidad", "barril plastico amarillo anti-rodamiento", "sin clip"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; TiendaClic, CTI, PCStore, Novusred, Partenon, MIPC y Rappi muestran agotado o no disponible.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 33.76, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCAZR040" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["TiendaClic $97.15 MXN con existencia 0.", "CTI Systems $49 MXN agotado.", "PCStore $49 MXN agotado.", "Novusred $45.02 MXN sin stock.", "Partenon $54.95 MXN sin existencias.", "MIPC $50.82 MXN agotado."],
+          "reviewNotes": "Fabricante confirma familia Pin Point, mientras el modelo exacto queda mejor validado por CT y retailers; imagen fabricante disponible corresponde a serie cercana 6820RO."
+        },
+        "measurements": { "physicalProduct": true, "tipSize": "0.7 mm", "dimensions": "no publicadas", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Azor Pin Point cuerpo amarillo", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/pin-point-cuerpo-amarillo/" },
+          { "title": "TiendaClic Azor 6810RO", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/pluma-pinpoint-azor-6810ro" },
+          { "title": "PCStore Azor 6810RO", "type": "retailer_stock", "url": "https://pcstore.mx/pluma-pinpoint-azor-6810ro-rojo-paquete-de-12-piezas" },
+          { "title": "CTOnline feed ACCAZR040 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a26a755mir90mi4",
+      "research": {
+        "confidence": 0.93,
+        "brand": "BENQ",
+        "name": "BenQ PointWrite PW03 kit interactivo para proyectores, camara y 2 plumas",
+        "description": "Kit interactivo BenQ PointWrite PW03 para proyectores de tiro corto compatibles, con modulo/camara, dos plumas, hasta 10 puntos tactiles y conexion Mini USB.",
+        "manualCategoryPath": "audio-video/proyectores/accesorios/kits-interactivos/benq-pointwrite-pw03",
+        "semanticCategoryPath": "audio-video/proyectores/accesorios/kits-interactivos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.benq.eu/en-eu/education/accessories/pointwrite.html?spec=+PW03",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCBNQ640/ACCBNQ640_full.jpg", "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/benq_5j_jjr26_21e_pw03_pointwrite_kit_for_1647438403_1693689.jpg"],
+        "documents": [{ "label": "BenQ PW03 user manual", "type": "manufacturer_manual", "url": "https://esupportdownload.benq.com/esupport/PROJECTOR/UserManual/PW03/PW03_UM_EN_210401113256.pdf" }],
+        "specs": {
+          "brand": "BenQ", "model": "PW03", "partNumber": "5J.JJR26.21E", "providerSku": "ACCBNQ640", "ean": "4718755084317", "upc": "840046045081", "productType": "Kit interactivo PointWrite", "contents": ["camara PointWrite", "2 plumas"], "touchPoints": 10, "responseTime": "16 ms", "infrared": "940 nm", "software": "QWrite", "interface": "Mini USB", "power": "USB", "compatibility": ["MW826ST", "MX825ST", "LW820ST", "MW809STH", "MX808STH", "EW805ST por retailers/datasheet"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; CTI, MG Sistemas, Cityshop y B&H lo muestran agotado/discontinuado, CompuPuebla contradice con 8 disponibles.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBNQ640", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6080, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCBNQ640" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["CompuPuebla $8,816 MXN in stock 8.", "CTI Systems $7,518 MXN agotado.", "MG Sistemas $9,027.58 MXN agotado.", "Cityshop agotado.", "Connection US$243.33 temporalmente sin stock.", "B&H discontinued."],
+          "reviewNotes": "EAN regional 4718755084317 convive con UPC 840046045081. Compatibilidad EW805ST aparece en retailers/datasheet, no en tabla BenQ EU PW03."
+        },
+        "measurements": { "physicalProduct": true, "moduleDimensions": "93.6 x 71 x 48.3 mm", "moduleWeight": "32 g", "penDimensions": "164 x 16 mm", "penWeight": "27 g sin baterias" },
+        "sourceRefs": [
+          { "title": "BenQ PointWrite PW03", "type": "manufacturer_product", "url": "https://www.benq.eu/en-eu/education/accessories/pointwrite.html?spec=+PW03" },
+          { "title": "B&H BenQ PW03", "type": "retailer_stock", "url": "https://www.bhphotovideo.com/c/product/1693689-REG/benq_5j_jjr26_21e_pw03_pointwrite_kit_for.html" },
+          { "title": "CompuPuebla BenQ PW03", "type": "retailer_stock", "url": "https://compupuebla.com/producto/lamparas-y-lentes-para-proyectores-benq-pw03/" },
+          { "title": "CTOnline feed ACCBNQ640 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a26b0w2udv3898w",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CYBERPOWER",
+        "name": "CyberPower POL-10204 poliza de garantia 3 anos para UPS UT1000GU",
+        "description": "Poliza de garantia extendida CyberPower por 3 anos para UPS UT1000GU; servicio digital asociado a no-break line-interactive 1000VA/500W.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/cyberpower/ups-line-interactive/ut1000gu/3y/pol-10204",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/cyberpower/ups-line-interactive/ut1000gu/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/ut1000gu",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455063", "https://www.cyberpower.com/mx/es/File/GetImageByGuid/9df75385-a359-4051-acd6-622809d35f9a", "https://www.cyberpower.com/mx/es/File/GetImageByGuid/d6d28ecf-3687-4f1b-bc16-c824ac9575bd"],
+        "specs": {
+          "brand": "CyberPower", "model": "POL-10204", "providerSku": "POL-10204", "productType": "Poliza de garantia extendida", "coverage": "3 anos", "compatibleProduct": "CyberPower UT1000GU", "delivery": "Servicio digital", "relatedUpsSpecs": { "capacity": "1000 VA / 500 W", "outlets": "8 x NEMA 5-15R", "topology": "Line-interactive", "avr": true, "surgeProtection": "245 J", "software": "PowerPanel Personal" },
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; SysMX lista la poliza sin sucursal especifica.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-10204", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 843.93, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:POL-10204" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["SysMX lista POLIZA GARANTIA 3 ANOS UT1000GU en $1,287.72 MXN.", "CyberPower fabricante no muestra precio de poliza."],
+          "reviewNotes": "La garantia estandar UT1000GU es 2 anos producto/1 ano bateria; esta poliza parece extension de canal."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica", "weight": "no aplica", "relatedUpsDimensions": "84 x 174 x 280 mm", "relatedUpsWeight": "4.8 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower UT1000GU", "type": "manufacturer_product", "url": "https://www.cyberpower.com/mx/es/product/sku/ut1000gu" },
+          { "title": "CyberPower warranty terms MX", "type": "manufacturer_warranty", "url": "https://www.cyberpower.com/mx/es/warranty/terms" },
+          { "title": "SysMX polizas CyberPower", "type": "retailer_stock", "url": "https://www.sysmx.com.mx/index.php?limit=75&order=ASC&route=product%2Fsearch&sort=p.price&tag=POLIZAS+DE+GARANTIA" },
+          { "title": "CVA feed POL-10204 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a299jicqsjbtafw",
+      "research": {
+        "confidence": 0.93,
+        "brand": "CISCO",
+        "name": "Cisco Catalyst 9200 C9200-NM-4X modulo uplink 4 puertos 1G/10G",
+        "description": "Modulo de red Cisco C9200-NM-4X reemplazable para switches Catalyst 9200 modulares, con 4 puertos uplink 1G/10G SFP/SFP+; no incluye transceptores.",
+        "manualCategoryPath": "redes/switches/modulos-uplink/cisco-catalyst-9200/c9200-nm-4x",
+        "semanticCategoryPath": "redes/switches/modulos-uplink/cisco-catalyst-9200",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCCIS740/ACCCIS740_2_full.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2025/06/ACCCIS740_full.jpg"],
+        "specs": {
+          "brand": "Cisco", "model": "C9200-NM-4X", "providerSku": "ACCCIS740", "productType": "Modulo uplink para switch", "ports": "4 x 1G/10G", "interfaceType": "SFP/SFP+ segun datasheet/imagen", "compatibility": "Cisco Catalyst 9200 modular", "notCompatible": "C9200L/C9200CX segun retailers tecnicos", "transceiversIncluded": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Mactoner y Digitalife MX lo muestran agotado, fuentes refurbished/importacion reportan stock variable.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCIS740", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 24594.6, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCCIS740" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Mactoner $37,090.16 MXN sin existencias.", "Digitalife MX $37,311.47 MXN agotado temporalmente.", "NetworkTigers US$441.99 refurbished con 2 restantes.", "ORMSystems US$645 in stock.", "B&H US$1,009.95 special order."],
+          "reviewNotes": "Algunos retailers dicen RJ-45, pero Cisco/imagen apuntan a SFP/SFP+; mantener alerta de interfaz fisica."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no oficiales; referencias 51 x 36 x 13 mm o 4.45 x 6.97 in", "shippingDimensions": "29 x 18 x 11.5 cm no oficial", "shippingWeight": "1.2 kg no oficial" },
+        "sourceRefs": [
+          { "title": "Cisco Catalyst 9200 datasheet", "type": "manufacturer_datasheet", "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.pdf" },
+          { "title": "Mactoner Cisco C9200-NM-4X", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/modulo-de-red-cisco-c9200-nm-4x/" },
+          { "title": "Digitalife C9200-NM-4X", "type": "retailer_stock", "url": "https://www.digitalife.com.mx/productos/c9200-nm-4x-/modulo-de-red-cisco-catalyst-9200-4x-rj-45-10g" },
+          { "title": "CTOnline feed ACCCIS740 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "a8eym0enurjsxrl",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ZEBRA",
+        "name": "Zebra P1123335-057 kit de cabezal de impresion Enhanced 300 dpi para ZT111, ZT211, ZT231 y ZT231R",
+        "description": "Kit/cabezal de impresion termico Zebra P1123335-057 Enhanced de 300 dpi / 12 dots per mm para impresoras ZT111, ZT211, ZT231 y ZT231R.",
+        "manualCategoryPath": "impresion/refacciones/cabezales/termicos/zebra/zt111-zt211-zt231-300dpi/p1123335-057",
+        "semanticCategoryPath": "impresion/refacciones/cabezales/termicos/zebra/zt111-zt211-zt231-300dpi",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://prod-www.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/print-head-guide-accessories-en-us.pdf",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCZBR3400/ACCZBR3400_full.jpg", "https://www.etiden.com/media/catalog/product/p/1/p1123335-057.jpg", "https://cdn11.bigcommerce.com/s-tjvqt45f8d/images/stencil/1280x1280/products/162983/440241/p1123335-013a__43785.1739042961.jpg?c=1"],
+        "specs": {
+          "brand": "Zebra", "model": "P1123335-057", "providerSku": "ACCZBR3400", "productType": "Cabezal termico de impresion", "printheadType": "Enhanced", "resolution": "300 dpi / 12 dots/mm", "compatibility": ["ZT111", "ZT211", "ZT231", "ZT231R"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Azteca Compras y Etiden muestran disponibilidad limitada, retailers US/Europa con stock variable.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCZBR3400", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 536.03, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCZBR3400" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Barcode Giant US$545.52.", "Barcodes Inc US$746.94.", "Midwest Barcoding US$622.45.", "Arrowhead US$697.74 same-day shipping.", "Azteca Compras MX $13,450 con 1 pieza.", "Etiden EUR488.62 in stock."],
+          "reviewNotes": "CT lo titula como Kit Punto de Venta, pero la categoria correcta es refaccion/cabezal de impresion para impresora Zebra."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "shippingWeight": "3.00 lb reportado por Arrowhead" },
+        "sourceRefs": [
+          { "title": "Zebra print head guide", "type": "manufacturer_datasheet", "url": "https://prod-www.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/print-head-guide-accessories-en-us.pdf" },
+          { "title": "Barcode Giant P1123335-057", "type": "retailer_stock", "url": "https://www.barcodegiant.com/zebra/part-p1123335-057.htm" },
+          { "title": "Azteca Compras Zebra P1123335-057", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx0000101226-zebra-p1123335-057-cabeza-de-impresion-p-zt111-zt211-zt231-zt231r-300dpi.html" },
+          { "title": "CTOnline feed ACCZBR3400 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
