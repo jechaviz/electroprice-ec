@@ -1,0 +1,415 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b189-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 189,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "1i5eei16v5xvaa7",
+      "research": {
+        "confidence": 0.9,
+        "brand": "EC Line",
+        "name": "EC Line EC-WT-CRADLE base acoplamiento para terminal EC-WT-10",
+        "description": "Base de acoplamiento EC Line EC-WT-CRADLE para terminal portatil EC-WT-10, construida en acero negro, con alimentacion CA, salida 2 A, Ethernet RJ45, RS-232 y conexiones POS para escritorio.",
+        "manualCategoryPath": "punto-de-venta/terminales-pos/accesorios/docking/ec-line-ec-wt-cradle",
+        "semanticCategoryPath": "point-of-sale/pos-terminals/accessories/docking/ec-line-ec-wt-cradle",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ecline.com.hk/admin/upload/product/dataSheet/69.pdf",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-ECLINE-EC-WT-CRADLE-1.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ec-wt-cradle-base-para-terminal-portatile-ec_0.webp", "https://intercompras.com/p/base-computadora-ec-line-ec-wt-cradle-escritorio-compatible-con-terminal-135635"],
+        "documents": ["https://www.ecline.com.hk/admin/upload/product/dataSheet/69.pdf", "https://www.ecline.com.hk/admin/upload/product/userManual/58.pdf", "https://cdn.cyberpuerta.mx/storage/articles/multimedia/59a/f23/7a0/5df30d48119af_59af237a0cdee.pdf"],
+        "specs": {
+          "brand": "EC Line",
+          "model": "EC-WT-CRADLE",
+          "providerSku": "AC-6051",
+          "productType": "Base de acoplamiento para terminal POS",
+          "compatibleDevice": "EC Line EC-WT-10",
+          "material": "Acero",
+          "color": "Negro",
+          "powerInput": "AC/DC 24V 2A",
+          "dcOutputA": 2,
+          "ports": ["4 USB 2.0", "4 RS-232 DB9", "RJ11 cajon 24V", "RJ45 Ethernet"],
+          "security": "Llave de bloqueo",
+          "connector": "Pogo pin",
+          "indicator": "LED de encendido",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "AC-6051", "stock": 0, "price": 268.54, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["AC-6051 es SKU de proveedor; SKU fabricante visible es EC-WT-CRADLE. Hay discrepancia fuerte entre medidas retail 205 x 210 x 230 mm / 300 g y datasheet EC Line 240 x 240 x 141 mm / 3000 g; validar empaque antes de publicar medidas definitivas."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"retailWidthCm": 20.5, "retailDepthCm": 21.0, "retailHeightCm": 23.0, "retailWeightKg": 0.3, "datasheetWidthCm": 24.0, "datasheetDepthCm": 24.0, "datasheetHeightCm": 14.1, "datasheetWeightKg": 3.0},
+        "sourceRefs": [
+          {"title": "EC Line EC-WT-CRADLE datasheet", "type": "manufacturer_document", "url": "https://www.ecline.com.hk/admin/upload/product/dataSheet/69.pdf"},
+          {"title": "EC Line EC-WT-CRADLE user manual", "type": "manufacturer_document", "url": "https://www.ecline.com.hk/admin/upload/product/userManual/58.pdf"},
+          {"title": "Intercompras EC Line EC-WT-CRADLE", "type": "retailer_spec", "url": "https://intercompras.com/p/base-computadora-ec-line-ec-wt-cradle-escritorio-compatible-con-terminal-135635"},
+          {"title": "TiendaClic EC-WT-CRADLE", "type": "retailer_spec", "url": "https://www.depot.tiendaclic.mx/ver-detalle/base-para-terminal-portatile-ec-line-de-modelo-ecwt-10-ec-line-ec-wt-cradle"},
+          {"title": "Electroprice provider stock AC-6051", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1jf459qhyyqmnnr",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Zebra",
+        "name": "Zebra TRG-TC2L-SNP1-01 gatillo snap-on para TC22 TC27",
+        "description": "Empunadura/gatillo electronico Zebra TRG-TC2L-SNP1-01 para terminales moviles TC22 y TC27. Convierte el equipo en formato pistola para operaciones intensivas de escaneo y requiere boot protector SG-TC2L-BOOT-01 vendido por separado.",
+        "manualCategoryPath": "punto-de-venta/terminales-moviles/accesorios/gatillos/zebra-tc22-tc27",
+        "semanticCategoryPath": "point-of-sale/mobile-computers/accessories/trigger-handles/zebra-tc22-tc27",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://medialibrary.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/tc22-tc27-guide-accessory-en-us.pdf",
+        "gallery": ["https://www.midwestbarcodingsolutions.com/trg-tc2l-snp1-01/", "https://www.auto-id247.com/en/zebra-handheld-pistol-grip-for-zebra-tc22/TRG-TC2L-SNP1-01"],
+        "documents": ["https://medialibrary.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/tc22-tc27-guide-accessory-en-us.pdf"],
+        "specs": {
+          "brand": "Zebra",
+          "model": "TRG-TC2L-SNP1-01",
+          "providerSku": "ACCZBR3280",
+          "productType": "Gatillo/empunadura para terminal movil",
+          "compatibleDevices": ["Zebra TC22", "Zebra TC27"],
+          "requires": "Protective boot SG-TC2L-BOOT-01 vendido por separado",
+          "compatibleBatteries": "Bateria basica o extendida",
+          "material": "Plastico moldeado durable",
+          "color": "Negro",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCZBR3280", "stock": 0, "price": 217.65, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": [],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"widthCm": 15.24, "heightCm": 10.16, "shippingWeightKg": 1.15},
+        "sourceRefs": [
+          {"title": "Zebra TC22 TC27 Accessories Guide", "type": "manufacturer_document", "url": "https://medialibrary.zebra.com/content/dam/zebra_dam/en/guide/configuration-and-accessories/tc22-tc27-guide-accessory-en-us.pdf"},
+          {"title": "Midwest Barcode Zebra TRG-TC2L-SNP1-01", "type": "retailer_spec", "url": "https://www.midwestbarcodingsolutions.com/trg-tc2l-snp1-01/"},
+          {"title": "Electroprice provider stock ACCZBR3280", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1lr0dsrtssy4uqu",
+      "research": {
+        "confidence": 0.88,
+        "brand": "BACO",
+        "name": "Baco 5050 juego de geometria mediano con compas",
+        "description": "Juego de geometria escolar Baco 5050 mediano con regla de 30 cm, escuadras, transportador y compas, para trazos escolares con graduacion metrica.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/juegos-geometria/medianos/baco-5050",
+        "semanticCategoryPath": "office/stationery/school-supplies/geometry-sets/medium/baco-5050",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": ["https://cityshop.mx/producto/juego-de-geometria-baco-5050", "https://www.ofix.mx/juego-geometria-mediano-e-5050-c-106blt---baco-pteqa0012/p"],
+        "documents": [],
+        "specs": {
+          "brand": "Baco",
+          "model": "5050",
+          "providerSku": "ACCBAC3590",
+          "productType": "Juego de geometria escolar",
+          "size": "Mediano",
+          "includedPieces": ["Regla 30 cm", "Escuadra 45 grados", "Escuadra 60 grados", "Transportador", "Compas"],
+          "material": "Poliestireno cristal / plastico transparente segun canal",
+          "scale": "Sistema metrico",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCBAC3590", "stock": 0, "price": 33.93, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Variantes 5050/E-5050/ND-5050/Neon usan componentes similares; validar empaque exacto si se publican colores."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"widthCm": 18.0, "depthCm": 1.5, "heightCm": 36.5, "weightKg": 0.108},
+        "sourceRefs": [
+          {"title": "Ofix Baco E-5050", "type": "retailer_spec", "url": "https://www.ofix.mx/juego-geometria-mediano-e-5050-c-106blt---baco-pteqa0012/p"},
+          {"title": "FullOffice Baco Neon 5050", "type": "retailer_spec", "url": "https://fulloffice.com/collections/reglas-y-equipo-de-geometria/products/juego-de-geometria-baco-neon-5050-compas-600"},
+          {"title": "Electroprice provider stock ACCBAC3590", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1ovoy991proth0d",
+      "research": {
+        "confidence": 0.95,
+        "brand": "CORSAIR",
+        "name": "Corsair XTM70 CT-9010010-WW pasta termica 3 g kit aplicacion",
+        "description": "Pasta termica Corsair XTM70 de alto rendimiento en jeringa de 3 g para CPU, GPU, consola y componentes de alto TDP. Incluye tarjeta aplicadora, plantillas y toallitas de limpieza; formula no conductiva electricamente.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/pasta-termica/corsair-xtm70-3g",
+        "semanticCategoryPath": "computing/components/cooling/thermal-paste/corsair-xtm70-3g",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/pc-components-accessories/ct-9010010-ww/xtm70-extreme-performance-thermal-paste-ct-9010010-ww",
+        "gallery": ["https://www.corsair.com/us/en/p/pc-components-accessories/ct-9010010-ww/xtm70-extreme-performance-thermal-paste-ct-9010010-ww", "https://www.bhphotovideo.com/c/product/1808775-REG/corsair_ct_9010010_ww_xtm70_extreme_performance_thermal.html"],
+        "documents": ["https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_XTM70_QSG_AA.pdf"],
+        "specs": {
+          "brand": "Corsair",
+          "model": "XTM70",
+          "manufacturerPart": "CT-9010010-WW",
+          "upc": "840006692379",
+          "providerSku": "ACCCOR490",
+          "productType": "Pasta termica",
+          "capacityG": 3,
+          "color": "Gris",
+          "nonElectricallyConductive": true,
+          "includedItems": ["Pasta termica XTM70", "Tarjeta aplicadora", "2 plantillas", "3 toallitas de limpieza"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCCOR490", "stock": 0, "price": 21.28, "currency": "USD", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": [],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"widthCm": 1.55, "depthCm": 2.01, "heightCm": 13.5, "weightKg": 0.04, "netWeightG": 3},
+        "sourceRefs": [
+          {"title": "Corsair XTM70 official", "type": "manufacturer_spec", "url": "https://www.corsair.com/us/en/p/pc-components-accessories/ct-9010010-ww/xtm70-extreme-performance-thermal-paste-ct-9010010-ww"},
+          {"title": "B&H Corsair XTM70", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1808775-REG/corsair_ct_9010010_ww_xtm70_extreme_performance_thermal.html"},
+          {"title": "Electroprice provider stock ACCCOR490", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1pj4wrgaxvperzi",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Lenovo",
+        "name": "Lenovo ThinkSmart Core Gen 2 12WN000JLS kit sala Microsoft Teams Rooms",
+        "description": "Kit Lenovo ThinkSmart Core Gen 2 12WN000JLS para salas Microsoft Teams Rooms, inferido como IP Full Room Kit: unidad Core Gen 2, Lenovo IP Controller y ThinkSmart Bar 180 segun machine type 12WN. Orientado a colaboracion y videoconferencia empresarial.",
+        "manualCategoryPath": "computo/colaboracion/salas-reunion/microsoft-teams-rooms/lenovo-thinksmart-core-gen-2-full-room",
+        "semanticCategoryPath": "computing/collaboration/meeting-rooms/microsoft-teams-rooms/lenovo-thinksmart-core-gen-2-full-room",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://support.lenovo.com/gm/en/solutions/ht517153",
+        "gallery": ["https://media.lenovonews.fiestic.com/2024/10/08035253/03_ThinkSmart_Core_2_Hero_Front_Facing_Left_Tilted-e1728652846525-1024x645.png", "https://support.lenovo.com/gm/en/solutions/ht517153"],
+        "documents": ["https://psref.lenovo.com/syspool/Sys/PDF/ThinkSmart/ThinkSmart_Core_Gen_2_for_Microsoft_Team_Rooms/ThinkSmart_Core_Gen_2_for_Microsoft_Team_Rooms_Spec.pdf", "https://objects.icecat.biz/objects/mmo_124844520_1740994854_5263_353817.pdf"],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "12WN000JLS",
+          "providerSku": "VIC-173",
+          "productType": "Sistema de colaboracion para sala",
+          "platform": "Microsoft Teams Rooms",
+          "family": "ThinkSmart Core Gen 2",
+          "machineType": "12WN",
+          "configuration": "ThinkSmart Core Gen 2 + Lenovo IP Controller Full Room Kit MTR",
+          "processor": "Intel Core Ultra 5 135H, 14C/18T, hasta 4.6 GHz segun PSREF de familia",
+          "memory": "16 GB DDR5-5600",
+          "storage": "256 GB SSD M.2 PCIe 4.0 NVMe Opal 2.0",
+          "graphics": "Intel Arc integrada",
+          "os": "Windows 11 IoT Enterprise for Collaboration / Microsoft Teams Rooms",
+          "connectivity": ["Wi-Fi 6E AX211", "Bluetooth 5.3", "Gigabit Ethernet", "Intel vPro"],
+          "bar180": "3 camaras 13 MP, 3840 x 1080@30, FoV 180, 8 microfonos, 4 bocinas",
+          "roomUse": "Salas de videoconferencia",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "VIC-173", "stock": 0, "price": 77091.92, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El SKU exacto 12WN000JLS aparece en canal mexicano; la inferencia de IP Full Room Kit viene del tipo 12WN y PSREF. Validar contenido de caja, BYOM/2.5GbE y servicios locales antes de publicar componentes incluidos."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"computeWidthCm": 18.5, "computeDepthCm": 22.0, "computeHeightCm": 4.28, "computeWeightKg": 1.01, "ipControllerWidthCm": 24.8, "ipControllerDepthCm": 15.1, "ipControllerHeightCm": 10.0, "ipControllerWeightKg": 0.97, "bar180WidthCm": 65.0, "bar180DepthCm": 8.0, "bar180HeightCm": 12.5, "bar180WeightKg": 2.2},
+        "sourceRefs": [
+          {"title": "Lenovo ThinkSmart Core Gen 2 PSREF", "type": "manufacturer_document", "url": "https://psref.lenovo.com/syspool/Sys/PDF/ThinkSmart/ThinkSmart_Core_Gen_2_for_Microsoft_Team_Rooms/ThinkSmart_Core_Gen_2_for_Microsoft_Team_Rooms_Spec.pdf"},
+          {"title": "Lenovo ThinkSmart Core Gen 2 support overview", "type": "manufacturer_support", "url": "https://support.lenovo.com/gm/en/solutions/ht517153"},
+          {"title": "Lenovo ThinkSmart Core Gen 2 support 12WN", "type": "manufacturer_support", "url": "https://smartsupport.lenovo.com/ng/en/products/smart/smart-collaboration/thinksmart-core-gen-2-and-ip-controller-room-kits/12wn"},
+          {"title": "Electroprice provider stock VIC-173", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1qm2fahvvhc8ngc",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Epson",
+        "name": "Epson S041586 Bright White Pro Paper carta 500 hojas 90 g",
+        "description": "Papel Epson Bright White Pro Paper S041586 tamano carta 8.5 x 11 pulgadas, paquete de 500 hojas, 90 g/m2, 96 de blancura ISO y 95% de opacidad para impresoras inkjet, laser, copiadoras y fax.",
+        "manualCategoryPath": "impresion/consumibles/papel/bright-white-pro/carta-500-hojas",
+        "semanticCategoryPath": "printing/consumables/paper/bright-white-pro/letter-500-sheets",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/For-Work/Paper/Copy-and-Printer-Paper/Bright-White-Pro-Paper/m/S041586",
+        "gallery": ["https://epson.com/For-Work/Paper/Copy-and-Printer-Paper/Bright-White-Pro-Paper/m/S041586", "https://www.bhphotovideo.com/c/product/250019-REG/Epson_S041586_Premium_Bright_White_Paper.html/specs"],
+        "documents": ["https://files.support.epson.com/docid/cpd6/cpd62467/source/printers/source/paper_loading/reference/wfc5310_5890/paper_compatibility_us_canada_wfc5310_5890.html"],
+        "specs": {
+          "brand": "Epson",
+          "model": "S041586",
+          "upc": "010343838192",
+          "providerSku": "PAPEPS250",
+          "productType": "Papel blanco para impresion",
+          "paperSize": "Carta / Letter 8.5 x 11 in",
+          "sheetCount": 500,
+          "basisWeightGsm": 90,
+          "basisWeightLb": 24,
+          "thicknessMil": 4.3,
+          "isoBrightness": 96,
+          "opacityPercent": 95,
+          "printerCompatibility": ["Inkjet", "Laser", "Copiadoras", "Fax"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "PAPEPS250", "stock": 0, "price": 167.09, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": [],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"widthCm": 21.6, "heightCm": 27.9, "sheetCount": 500},
+        "sourceRefs": [
+          {"title": "Epson S041586 official", "type": "manufacturer_spec", "url": "https://epson.com/For-Work/Paper/Copy-and-Printer-Paper/Bright-White-Pro-Paper/m/S041586"},
+          {"title": "B&H Epson S041586 specs", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/250019-REG/Epson_S041586_Premium_Bright_White_Paper.html/specs"},
+          {"title": "Electroprice provider stock PAPEPS250", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1r5cuxf2fgc5o8m",
+      "research": {
+        "confidence": 0.91,
+        "brand": "TechZone",
+        "name": "TechZone TZ15PCAUD diadema alambrica 3.5 mm con microfono",
+        "description": "Diadema TechZone TZ15PCAUD alambrica 3.5 mm con microfono flexible y giratorio, diadema ajustable, sonido estereo, cable de 1.8 m y compatibilidad con PC, laptop, consolas y aplicaciones de videoconferencia.",
+        "manualCategoryPath": "audio/audifonos/diadema/alambricos/3-5mm-microfono/techzone-tz15pcaud",
+        "semanticCategoryPath": "audio/headsets/over-head/wired/3-5mm-mic/techzone-tz15pcaud",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://techzone.com.mx/products/diadema-alambrica-tz15pcaud",
+        "gallery": ["https://techzone.com.mx/products/diadema-alambrica-tz15pcaud", "https://techzone.com.mx/cdn/shop/files/TZ15PCAUD-1.jpg?v=1704734273", "https://techzone.com.mx/cdn/shop/files/TZ15PCAUD-2.jpg?v=1704734273", "https://techzone.com.mx/cdn/shop/files/TZ15PCAUD-3.jpg?v=1704734273"],
+        "documents": ["https://techzone.com.mx/cdn/shop/files/TZ15PCAUD-260124.pdf?v=15174919667861122639"],
+        "specs": {
+          "brand": "TechZone",
+          "model": "TZ15PCAUD",
+          "ean": "7501950095045",
+          "providerSku": "BOCTCH2850",
+          "productType": "Diadema con microfono",
+          "connectivity": "Alambrico 3.5 mm",
+          "headsetStyle": "Diadema binaural",
+          "outputPowerMw": 20,
+          "impedanceOhm": 32,
+          "headphoneSensitivity": "115 dB +/- 3%",
+          "microphoneSensitivity": "-42 dB",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "driverMm": 40,
+          "microphone": "Flexible giratorio omnidireccional 6 x 5 mm",
+          "cableLengthM": 1.8,
+          "color": "Negro",
+          "compatibility": ["PC", "Laptop", "Consolas", "Zoom", "Skype", "Google Meet", "Microsoft Teams", "Cisco Webex"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "BOCTCH2850", "stock": 0, "price": 57.87, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Color oficial negro; algunos retailers describen variante negro/rojo."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"widthCm": 16.0, "depthCm": 7.0, "heightCm": 16.0, "weightKg": 0.095, "packageWidthCm": 16.2, "packageDepthCm": 6.3, "packageHeightCm": 17.2, "packageWeightKg": 0.125, "cableLengthM": 1.8},
+        "sourceRefs": [
+          {"title": "TechZone TZ15PCAUD official", "type": "manufacturer_spec", "url": "https://techzone.com.mx/products/diadema-alambrica-tz15pcaud"},
+          {"title": "TechZone TZ15PCAUD PDF", "type": "manufacturer_document", "url": "https://techzone.com.mx/cdn/shop/files/TZ15PCAUD-260124.pdf?v=15174919667861122639"},
+          {"title": "Electroprice provider stock BOCTCH2850", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1rr1j81210jikf1",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Kensington",
+        "name": "Kensington MicroSaver 2.0 K64434WW candado laptop con llave 6 ft",
+        "description": "Candado Kensington MicroSaver 2.0 K64434WW con llave, cable de acero al carbon de 6 pies, cabeza de bloqueo de 10 mm, tecnologia Hidden Pin y T-Bar para ranura Kensington en notebooks y equipos compatibles.",
+        "manualCategoryPath": "accesorios/seguridad-fisica/candados-laptop/llave/microsaver-2-0-master-k64434ww",
+        "semanticCategoryPath": "accessories/physical-security/laptop-locks/keyed/microsaver-2-0-master-k64434ww",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/technology-device-security-products/device-security-keyed-locks/microsaver-2.0-keyed-laptop-lock-master-keyed-on-demand-taa/",
+        "gallery": ["https://www.bhphotovideo.com/c/product/1464170-REG/kensington_k64434ww_microsaver_2_0_keyed_laptop.html", "https://www.techforless.com/products/Kensington_Technology_Group/Security/K64434WW.html"],
+        "documents": ["https://objects.icecat.biz/objects/mmo_33701102_1630947365_8042_25084.pdf"],
+        "specs": {
+          "brand": "Kensington",
+          "model": "K64434WW",
+          "upc": "085896644347",
+          "providerSku": "ACCKNS1290",
+          "productType": "Candado con cable para laptop",
+          "lockType": "Llave / Master Keyed On Demand",
+          "cableLengthFt": 6,
+          "lockHeadMm": 10,
+          "securityTechnology": ["Hidden Pin", "T-Bar"],
+          "material": "Acero al carbon",
+          "color": "Negro / plata",
+          "deviceSupport": "Notebook y dispositivos con ranura Kensington Security Slot",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCKNS1290", "stock": 0, "price": 611.11, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La pagina oficial visible prioriza variante K64434TAA; K64434WW comparte linea MicroSaver 2.0 y fuentes retail especifican el SKU WW."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"cableLengthM": 1.83},
+        "sourceRefs": [
+          {"title": "Kensington MicroSaver 2.0 official TAA variant", "type": "manufacturer_spec", "url": "https://www.kensington.com/p/products/technology-device-security-products/device-security-keyed-locks/microsaver-2.0-keyed-laptop-lock-master-keyed-on-demand-taa/"},
+          {"title": "B&H Kensington K64434WW", "type": "retailer_spec", "url": "https://www.bhphotovideo.com/c/product/1464170-REG/kensington_k64434ww_microsaver_2_0_keyed_laptop.html"},
+          {"title": "Electroprice provider stock ACCKNS1290", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1tmi0o2slix2v53",
+      "research": {
+        "confidence": 0.84,
+        "brand": "Panasonic",
+        "name": "Panasonic SE-NSP360FULL activacion KX-NS500 maxima capacidad IP",
+        "description": "Servicio/licencia de activacion Panasonic SE-NSP360FULL para llevar KX-NS500 a maxima capacidad en troncales IP, extensiones IP propietarias y de terceros, y funcionalidades completas. Validar compatibilidad con serie/central antes de venta.",
+        "manualCategoryPath": "telefonia/conmutadores-ip/panasonic-kx-ns500/licencias/activacion-full",
+        "semanticCategoryPath": "telephony/ip-pbx/panasonic-kx-ns500/licenses/full-activation",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": ["https://compuviper.mx/tienda/producto/panasonic-se-nsp360full-servicio-de-activacion-a-su-maxima-capacidad-en-troncales-ip-y-ext-ip-propietarias-y-terceros-asi-como-todas-la-funcionalidades-aplica-solo-para-kx-ns500/"],
+        "documents": ["https://www.psn-web.net/cs-im/Global/PBX/pbx/ns500/Information_Leaflet_for_KX-NSP360.pdf", "https://docs.connect.panasonic.com/office/products/pbx/products/pbx/kx_ns500/specifications/index.html"],
+        "specs": {
+          "brand": "Panasonic",
+          "model": "SE-NSP360FULL",
+          "providerSku": "POL-7273",
+          "productType": "Servicio de activacion / licencia PBX",
+          "compatibleSystem": "Panasonic KX-NS500",
+          "officialRelatedPart": "KX-NSP360",
+          "enables": ["Maxima capacidad", "Troncales IP", "Extensiones IP propietarias", "Extensiones IP de terceros", "Funcionalidades completas"],
+          "kxNsp360Capacity": "20 troncales IP H.323/SIP y 60 terminales IP PT/KX-UT SIP/P-SIP",
+          "kxNs500OfficialCapacity": "Hasta 64 troncales IP/SIP, 128 extensiones IP/SIP y 24 canales UM integrados",
+          "deliveryFormat": "Servicio/licencia digital",
+          "requiresCompatibilityValidation": true,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "cva", "providerSku": "POL-7273", "stock": 0, "price": 3892.21, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["SE-NSP360FULL parece SKU de servicio de reseller; Panasonic documenta oficialmente KX-NSP360. Validar requisitos DSP/ID MPR e instalacion con distribuidor certificado."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"digitalDelivery": true},
+        "sourceRefs": [
+          {"title": "Compuviper Panasonic SE-NSP360FULL", "type": "retailer_spec", "url": "https://compuviper.mx/tienda/producto/panasonic-se-nsp360full-servicio-de-activacion-a-su-maxima-capacidad-en-troncales-ip-y-ext-ip-propietarias-y-terceros-asi-como-todas-la-funcionalidades-aplica-solo-para-kx-ns500/"},
+          {"title": "Panasonic KX-NSP360 information leaflet", "type": "manufacturer_document", "url": "https://www.psn-web.net/cs-im/Global/PBX/pbx/ns500/Information_Leaflet_for_KX-NSP360.pdf"},
+          {"title": "Electroprice provider stock POL-7273", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "1x4lqkhbimyz743",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Tripp Lite",
+        "name": "Tripp Lite SRCTMTSDD kit puertas dobles deslizantes contencion pasillo",
+        "description": "Kit Tripp Lite/Eaton SRCTMTSDD de puertas dobles deslizantes para sistema SmartRack de contencion de pasillo frio/caliente. Cierra el extremo del pasillo, ayuda a evitar mezcla de aire y mejora eficiencia termica en racks.",
+        "manualCategoryPath": "infraestructura/racks-accesorios/contencion-pasillos/puertas-deslizantes/tripp-lite-srctmtsdd",
+        "semanticCategoryPath": "infrastructure/rack-accessories/aisle-containment/sliding-doors/tripp-lite-srctmtsdd",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://tripplite.eaton.com/products/smartrack-aisle-containment-system",
+        "gallery": ["https://assets.tripplite.com/products/tn-aisle-containment-system-doors-closed.jpg", "https://assets.tripplite.com/products/tn-aisle-containment-system-doors-open.jpg", "https://www.grainger.com/product/EATON-TRIPP-LITE-Aisle-Containment-System-For-907EX8"],
+        "documents": ["https://assets.tripplite.com/product-pdfs/en/srctmtsdd.pdf", "https://assets.tripplite.com/owners-manual/19-04-416-9338de_reva.pdf", "https://assets.tripplite.com/submittal-drawing/smartrack-aisle-containment-system-configuration-sheet-sracs001-en.pdf"],
+        "specs": {
+          "brand": "Tripp Lite",
+          "manufacturer": "Eaton / Tripp Lite",
+          "model": "SRCTMTSDD",
+          "upc": "037332214324",
+          "providerSku": "ACCTRL4970",
+          "productType": "Kit de puertas dobles deslizantes para contencion de pasillo",
+          "series": "SmartRack",
+          "rackCompatibility": ["600 mm", "750 mm"],
+          "color": "Negro",
+          "features": ["Rieles de balero ajustables", "Ventanas acrilicas transparentes", "Cierre con llave", "Cepillos/sello de aire", "Sello semihermetico para pasillo"],
+          "requirements": ["SRCTMTFRM", "SRCTMTTLBM", "SRCTMTCVR600 o SRCTMTCVR750", "Paneles riser SRCTMTR600/750 segun instalacion"],
+          "standards": ["EIA/ECA-310-E", "RoHS", "REACH"],
+          "includedItems": ["Puerta izquierda", "Puerta derecha", "Cerradura", "2 llaves", "Guias", "Soportes", "Tornilleria", "Tiras de espuma"],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ACCTRL4970", "stock": 0, "price": 15662.4, "currency": "MXN", "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Algunas fichas muestran peso de item 47.6 kg y shipping weight 130 lb; conservar ambos en medidas."],
+          "providerStockVerifiedAt": "2026-05-31T02:58:00Z"
+        },
+        "measurements": {"widthCm": 132.08, "depthCm": 4.57, "heightCm": 203.2, "weightKg": 127.46, "shippingWidthCm": 29.85, "shippingDepthCm": 14.81, "shippingHeightCm": 211.46, "shippingWeightKg": 58.97},
+        "sourceRefs": [
+          {"title": "Tripp Lite SRCTMTSDD datasheet", "type": "manufacturer_document", "url": "https://assets.tripplite.com/product-pdfs/en/srctmtsdd.pdf"},
+          {"title": "Tripp Lite SmartRack aisle containment", "type": "manufacturer_info", "url": "https://tripplite.eaton.com/products/smartrack-aisle-containment-system"},
+          {"title": "Grainger Eaton Tripp Lite SRCTMTSDD", "type": "retailer_spec", "url": "https://www.grainger.com/product/EATON-TRIPP-LITE-Aisle-Containment-System-For-907EX8"},
+          {"title": "Electroprice provider stock ACCTRL4970", "type": "provider_stock", "observedAt": "2026-05-31T02:58:00Z"}
+        ]
+      }
+    }
+  ]
+}

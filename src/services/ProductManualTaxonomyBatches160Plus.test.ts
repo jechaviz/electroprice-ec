@@ -292,6 +292,16 @@ const batch160PlusCases = [
   ["Azor Signal Metalink 30010 marcador permanente plata caja 12 piezas", "AZOR", "oficina/papeleria/marcadores/permanentes/metalicos/plata/12-piezas", "accessories"],
   ["Dell EXTGAR extension de garantia generica validar service tag", "DELL", "servicios-ti/soporte-garantias/dell/extension-generica", "software"],
   ["Anviz W1 Pro terminal control asistencia huella RFID WiFi", "ANVIZ", "seguridad/control-acceso/asistencia/biometricos/huella-rfid/anviz-w1-pro", "security"],
+  ["EC Line EC-WT-CRADLE base acoplamiento para terminal EC-WT-10", "EC LINE", "punto-de-venta/terminales-pos/accesorios/docking/ec-line-ec-wt-cradle", "accessories"],
+  ["Zebra TRG-TC2L-SNP1-01 gatillo snap-on para TC22 TC27", "ZEBRA", "punto-de-venta/terminales-moviles/accesorios/gatillos/zebra-tc22-tc27", "accessories"],
+  ["Baco 5050 juego de geometria mediano con compas", "BACO", "oficina/papeleria/material-escolar/juegos-geometria/medianos/baco-5050", "accessories"],
+  ["Corsair XTM70 CT-9010010-WW pasta termica 3 g kit aplicacion", "CORSAIR", "computo/componentes/enfriamiento/pasta-termica/corsair-xtm70-3g", "components"],
+  ["Lenovo ThinkSmart Core Gen 2 12WN000JLS kit sala Microsoft Teams Rooms", "LENOVO", "computo/colaboracion/salas-reunion/microsoft-teams-rooms/lenovo-thinksmart-core-gen-2-full-room", "desktops"],
+  ["Epson S041586 Bright White Pro Paper carta 500 hojas 90 g", "EPSON", "impresion/consumibles/papel/bright-white-pro/carta-500-hojas", "printers_scanners"],
+  ["TechZone TZ15PCAUD diadema alambrica 3.5 mm con microfono", "TECHZONE", "audio/audifonos/diadema/alambricos/3-5mm-microfono/techzone-tz15pcaud", "audio"],
+  ["Kensington MicroSaver 2.0 K64434WW candado laptop con llave 6 ft", "KENSINGTON", "accesorios/seguridad-fisica/candados-laptop/llave/microsaver-2-0-master-k64434ww", "accessories"],
+  ["Panasonic SE-NSP360FULL activacion KX-NS500 maxima capacidad IP", "PANASONIC", "telefonia/conmutadores-ip/panasonic-kx-ns500/licencias/activacion-full", "software"],
+  ["Tripp Lite SRCTMTSDD kit puertas dobles deslizantes contencion pasillo", "TRIPP-LITE", "infraestructura/racks-accesorios/contencion-pasillos/puertas-deslizantes/tripp-lite-srctmtsdd", "networking"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
