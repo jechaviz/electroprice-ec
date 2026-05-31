@@ -1,0 +1,878 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b195-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 195,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "3p6gyqqh6pwtgv2",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DATALOGIC",
+        "name": "Datalogic PowerScan PD9630-SRK2 lector industrial 2D RS-232 kit",
+        "description": "Kit lector industrial cableado Datalogic PowerScan PD9630-SRK2, configuracion PD9630-SR Standard Range con interfaz RS-232, sensor 1280 x 800, lectura 1D/2D y sellado IP65/IP67.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-cableados/industriales-powerscan-9600/rs232-pd9630-srk2",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/industriales/2d-cableados/powerscan-9600/rs232-pd9630-srk2",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdn.datalogic.com/eng/retail-producci%C3%B3n-transporte-log%C3%ADstica-sanidad-gs1-digital-link/handheld-scanners/powerscan-9600-series-pd-917.html",
+        "gallery": [
+          "https://cdn11.bigcommerce.com/s-lc6v6j0yr8/images/stencil/500x659/products/168520/400205/PSP9600-corded__17538.1694189030.jpg?c=2",
+          "https://cdn11.bigcommerce.com/s-lc6v6j0yr8/images/stencil/500x659/products/168520/400206/PSP9600-rs232__68021.1694189030.jpg?c=2"
+        ],
+        "documents": [
+          "https://www.dynamic-systems.com/dynamic-systems.de/products-import/sites/default/files/documents/product/datasheet/en/powerscan_9600_series_en.pdf"
+        ],
+        "specs": {
+          "brand": "DATALOGIC",
+          "model": "PD9630-SRK2",
+          "providerSku": "LCTPSC1110",
+          "productType": "Lector industrial handheld 1D/2D",
+          "family": "PowerScan 9600 Series",
+          "configuration": "PD9630-SR Standard Range, kit RS-232",
+          "connectivity": "RS-232; familia compatible tambien con USB, Ethernet y protocolos industriales",
+          "symbologies": [
+            "1D",
+            "2D",
+            "postal",
+            "stacked"
+          ],
+          "sensor": "1280 x 800 px",
+          "ingressProtection": "IP65/IP67",
+          "dropResistance": "50 caidas desde 2.5 m a 20 C; 50 desde 2.0 m a -20 C",
+          "color": "Amarillo/negro",
+          "warranty": "3 anos fabrica",
+          "kitIncludes": [
+            "scanner PD9630-SR",
+            "cable RS232 CAB-549"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "LCTPSC1110",
+              "stock": 0,
+              "price": 417.92,
+              "currency": "provider_raw",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es lector industrial de codigo de barras.",
+            "PowerScan 9600 tambien existe en variante PBT inalambrica; este SKU es PD9630-SRK2 cableado RS-232."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "190 x 140 x 79 mm",
+          "weight": "318 g",
+          "heightMm": 190,
+          "depthMm": 140,
+          "widthMm": 79,
+          "weightKg": 0.318
+        },
+        "sourceRefs": [
+          {
+            "title": "Datalogic PowerScan 9600 official",
+            "type": "manufacturer",
+            "url": "https://cdn.datalogic.com/eng/retail-producci%C3%B3n-transporte-log%C3%ADstica-sanidad-gs1-digital-link/handheld-scanners/powerscan-9600-series-pd-917.html"
+          },
+          {
+            "title": "PowerScan 9600 datasheet",
+            "type": "datasheet",
+            "url": "https://www.dynamic-systems.com/dynamic-systems.de/products-import/sites/default/files/documents/product/datasheet/en/powerscan_9600_series_en.pdf"
+          },
+          {
+            "title": "Advanced Automation PD9630-SRK2",
+            "type": "retailer_spec",
+            "url": "https://www.advanced-automationinc.com/datalogic-powerscan-pd9630-barcode-scanner-pd9630-srk2/"
+          },
+          {
+            "title": "Barcode Planet PD9630-SRK2",
+            "type": "retailer_spec",
+            "url": "https://www.barcodeplanet.com/datalogic/part-pd9630-srk2.htm"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3pzovnymay90nth",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Mimosa Networks",
+        "name": "Mimosa Networks C5c radio cliente conectorizado PTP/PTMP 4.9-6.4GHz",
+        "description": "Radio conectorizado Mimosa C5c para enlaces PTP/PTMP en 4.9 a 6.4 GHz, throughput hasta 700 Mbps IP, 2x2:2 MIMO, conectores RP-SMA, PoE pasivo y gestion en nube.",
+        "manualCategoryPath": "redes/radioenlaces-antenas/radios-cpe/ptp-ptmp/mimosa-c5c",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/radios-cpe/ptp-ptmp/mimosa-c5c",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://old.mimosa.co/products/specs/c5c",
+        "gallery": [
+          "https://erp-image.sgliteasset.com/_next/image?q=100&url=https%3A%2F%2Fcdn1.sgliteasset.com%2Fsynchrow%2Fimages%2Fproduct%2Fproduct-6773536%2FjL7FBLFg6882f882b1eeb_1753413762.png&w=3840"
+        ],
+        "documents": [
+          "https://mimosa.co/sites/default/files/2024-06/Mimosa-Radisys-C5c-Datasheet_DS-2024-01.pdf"
+        ],
+        "specs": {
+          "brand": "Mimosa Networks",
+          "model": "C5c",
+          "providerSku": "ACCMIM180",
+          "productType": "Radio cliente/backhaul conectorizado PTP/PTMP",
+          "frequency": "4900-6400 MHz, restringido por pais",
+          "maxThroughput": "700 Mbps IP / 866 Mbps PHY",
+          "mimo": "2x2:2 MIMO OFDM hasta 256-QAM",
+          "channels": "20/40/80 MHz, ajustable en incrementos de 5 MHz para Mimosa SRS",
+          "maxOutputPower": "27 dBm",
+          "antennaConnectors": "2 x RP-SMA hembra",
+          "ethernet": "10/100/1000BASE-T",
+          "power": "Passive PoE 24-56 VDC; fuente 48-56 V",
+          "maxConsumption": "12.9 W",
+          "management": [
+            "Mimosa cloud monitoring",
+            "SNMPv2",
+            "Syslog",
+            "HTTPS",
+            "HTML5 web UI"
+          ],
+          "environment": "IP55; -40 C a +55 C; 5-100% humedad condensing",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCMIM180",
+              "stock": 0,
+              "price": 226.61,
+              "currency": "provider_raw",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; pertenece a redes/radioenlaces.",
+            "La operacion 4.9-6.4 GHz depende de regulacion y pais."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "44 x 65 x 188.4 mm",
+          "weight": "295 g",
+          "depthMm": 44,
+          "widthMm": 65,
+          "heightMm": 188.4,
+          "weightKg": 0.295
+        },
+        "sourceRefs": [
+          {
+            "title": "Mimosa C5c datasheet",
+            "type": "datasheet",
+            "url": "https://mimosa.co/sites/default/files/2024-06/Mimosa-Radisys-C5c-Datasheet_DS-2024-01.pdf"
+          },
+          {
+            "title": "Mimosa C5c legacy specs",
+            "type": "manufacturer",
+            "url": "https://old.mimosa.co/products/specs/c5c"
+          },
+          {
+            "title": "EPCOM C5C",
+            "type": "retailer_spec",
+            "url": "https://www.epcom.net/products/C5C-MIMOSA-NETWORKS-87558.html"
+          },
+          {
+            "title": "Synchroweb C5c",
+            "type": "retailer_spec",
+            "url": "https://shop.synchroweb.com/product/c5c"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3qtqhhx5gb3fj9y",
+      "research": {
+        "confidence": 0.93,
+        "brand": "LOGITECH",
+        "name": "Logitech G560 LIGHTSYNC bocinas gaming 2.1 RGB 120W RMS",
+        "description": "Sistema de bocinas Logitech G560 2.1 para PC gaming con subwoofer, LIGHTSYNC RGB reactivo a juegos/audio, 120 W RMS, conectividad USB, Bluetooth 4.1 y entrada auxiliar 3.5 mm.",
+        "manualCategoryPath": "audio/bocinas/pc/gaming/2-1-rgb/logitech-g560",
+        "semanticCategoryPath": "audio/bocinas/pc/gaming/2-1-rgb/logitech-g560",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.logitechg.com/es-mx/shop/p/g560-rgb-gaming-speakers",
+        "gallery": [
+          "https://resource.logitechg.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g560/2025-update/g560-3qtr-angle-gallery-1.png",
+          "https://resource.logitechg.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g560/2025-update/g560-front-angle-gallery-4.png",
+          "https://resource.logitechg.com/w_544%2Ch_466%2Car_7%3A6%2Cc_pad%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g560/2025-update/g560-in-the-box-gallery-5.png"
+        ],
+        "documents": [
+          "https://www.logitech-mexico.com/wp-content/uploads/2019/03/G560_Datasheet.pdf"
+        ],
+        "specs": {
+          "brand": "LOGITECH",
+          "model": "G560",
+          "partNumber": "980-001300",
+          "providerSku": "SPK-1707",
+          "productType": "Sistema de bocinas 2.1 con subwoofer",
+          "lighting": "LIGHTSYNC RGB reactivo a juego/audio; 4 zonas",
+          "power": {
+            "peak": "240 W",
+            "rms": "120 W",
+            "satellites": "2 x 30 W",
+            "subwoofer": "60 W"
+          },
+          "connectivity": [
+            "USB",
+            "Bluetooth 4.1",
+            "3.5 mm AUX",
+            "salida audifonos en satelite derecho"
+          ],
+          "bluetoothRange": "25 m linea de vista",
+          "compatibility": [
+            "Windows 10/8.1/7",
+            "Mac OS X sin DTS:X",
+            "Bluetooth devices"
+          ],
+          "boxContents": [
+            "2 bocinas satelite",
+            "subwoofer con cable AC",
+            "cable USB",
+            "documentacion"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "SPK-1707",
+              "stock": 0,
+              "price": 4289.62,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria original gaming es comprensible comercialmente, pero la taxonomia manual lo ubica en audio/bocinas.",
+            "El feed no aporta ubicacion granular de proveedor."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "satellites": "148 x 166 x 118 mm; 1.79 kg par",
+          "subwoofer": "404 x 255 x 207 mm; 5.4 a 5.8 kg",
+          "packageDimensions": "42.6 x 36.2 x 27.8 cm",
+          "packageWeight": "8.991 kg"
+        },
+        "sourceRefs": [
+          {
+            "title": "Logitech G560 official MX",
+            "type": "manufacturer",
+            "url": "https://www.logitechg.com/es-mx/shop/p/g560-rgb-gaming-speakers"
+          },
+          {
+            "title": "Logitech G560 technical specifications",
+            "type": "support",
+            "url": "https://support.logi.com/hc/en-au/articles/360024547394-G560-Gaming-Speaker-Technical-Specifications"
+          },
+          {
+            "title": "Logitech G560 datasheet MX",
+            "type": "datasheet",
+            "url": "https://www.logitech-mexico.com/wp-content/uploads/2019/03/G560_Datasheet.pdf"
+          },
+          {
+            "title": "B&H Logitech 980-001300",
+            "type": "retailer_spec",
+            "url": "https://www.bhphotovideo.com/c/product/1418042-REG/logitech_980_001300_g560_lightsync_pc_gaming.html/specs"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3tp7w71phy0s0lk",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ZEBRA",
+        "name": "Zebra P1037974-001 ZebraNet 10/100 print server interno ZT200",
+        "description": "Kit Zebra P1037974-001 de servidor de impresion interno ZebraNet 10/100 para impresoras ZT200 Series, compatible con ZT210, ZT220 y ZT230, con puerto RJ-45 Fast Ethernet.",
+        "manualCategoryPath": "impresion/impresoras/etiquetas/accesorios/servidores-impresion/zebra-zt200-p1037974-001",
+        "semanticCategoryPath": "impresion/impresoras/etiquetas/accesorios/servidores-impresion/zebra-zt200-p1037974-001",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cpws.zebra.com/cpws/docs/ztseries/zt200_series_specifications.htm",
+        "gallery": [
+          "https://www.barcodesinc.com/media/catalog/product/8/9/2/d/892d4d8b7b0afdaec6d39eeddac09fb086434d00_p1037974_001.jpg"
+        ],
+        "specs": {
+          "brand": "ZEBRA",
+          "model": "P1037974-001",
+          "providerSku": "ACCZBR1690",
+          "productType": "Kit servidor de impresion interno",
+          "compatibility": [
+            "Zebra ZT210",
+            "Zebra ZT220",
+            "Zebra ZT230",
+            "ZT200 Series"
+          ],
+          "network": {
+            "port": "1 x RJ-45",
+            "speed": "10/100 Ethernet / 100 Mbit/s",
+            "media": "twisted pair",
+            "technology": "100Base-TX Fast Ethernet"
+          },
+          "formFactor": "Modulo plug-in interno",
+          "features": [
+            "ZebraNet 10/100",
+            "ZebraLink WebView",
+            "Alert features"
+          ],
+          "countryOfOrigin": "China segun distribuidor",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCZBR1690",
+              "stock": 0,
+              "price": 334.07,
+              "currency": "provider_raw",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es accesorio de impresora.",
+            "No se encontraron dimensiones publicas confiables; se conserva peso de distribuidor."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "weight": "0.9 lb / 0.41 kg",
+          "dimensions": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Zebra ZT200 specifications",
+            "type": "manufacturer",
+            "url": "https://cpws.zebra.com/cpws/docs/ztseries/zt200_series_specifications.htm"
+          },
+          {
+            "title": "BarcodesInc Zebra P1037974-001",
+            "type": "retailer_spec",
+            "url": "https://www.barcodesinc.com/zebra/part-p1037974-001.htm"
+          },
+          {
+            "title": "BarcodeFactory Zebra P1037974-001",
+            "type": "retailer_spec",
+            "url": "https://www.barcodefactory.com/zebra/parts/p1037974-001"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3u1jok7ni7r5elp",
+      "research": {
+        "confidence": 0.91,
+        "brand": "PERFECT CHOICE",
+        "name": "Perfect Choice Noctune PC-117278 diadema inalambrica Bluetooth 2.4GHz ENC",
+        "description": "Diadema inalambrica Perfect Choice Noctune PC-117278 con Bluetooth 5.3 y receptor USB 2.4 GHz, microfono con ENC, driver de 40 mm, autonomia de hasta 42 h en musica y proteccion IPX6.",
+        "manualCategoryPath": "audio/audifonos/bluetooth/diadema-over-ear/dual-2-4ghz-enc/perfect-choice-noctune",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/diadema-over-ear/dual-2-4ghz-enc/perfect-choice-noctune",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://perfectchoice.me/products/audifonos-diadema-bluetooth-inalambricos-sonido-estereo-noctune-perfect-choice",
+        "gallery": [
+          "https://perfectchoice.me/cdn/shop/files/PC-117278_A01_800x.jpg?v=1753470084",
+          "https://perfectchoice.me/cdn/shop/files/PC-117278_A02_800x.jpg?v=1760999186",
+          "https://perfectchoice.me/cdn/shop/files/Audifonos_Noctune_800x.jpg?v=1760999186"
+        ],
+        "specs": {
+          "brand": "PERFECT CHOICE",
+          "model": "Noctune / PC-117278",
+          "providerSku": "SPK-2704",
+          "ean": "615604117278",
+          "productType": "Diadema inalambrica estereo con microfono",
+          "connectivity": [
+            "Bluetooth 5.3",
+            "2.4GHz USB receiver"
+          ],
+          "bluetoothProfiles": [
+            "HFP",
+            "A2DP",
+            "HSP",
+            "AVRCP"
+          ],
+          "noiseCancellation": "ENC",
+          "operatingRange": "10-15 m",
+          "battery": "300 mAh",
+          "autonomy": "33 h conversacion / 42 h musica",
+          "driver": "40 mm",
+          "protection": "IPX6",
+          "input": "5 Vcc 1 A",
+          "color": "Negro",
+          "boxContents": [
+            "diadema",
+            "cable de carga",
+            "receptor USB",
+            "guia de usuario"
+          ],
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "SPK-2704",
+              "stock": 0,
+              "price": 461.04,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es audifono/diadema.",
+            "GlobalOffice reporta stock externo en almacen Mexico, pero Electroprice/CVA mantiene stock 0."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "168 x 183 x 70 mm",
+          "weight": "134 g",
+          "widthMm": 168,
+          "heightMm": 183,
+          "depthMm": 70,
+          "weightKg": 0.134
+        },
+        "sourceRefs": [
+          {
+            "title": "Perfect Choice Noctune",
+            "type": "manufacturer",
+            "url": "https://perfectchoice.me/products/audifonos-diadema-bluetooth-inalambricos-sonido-estereo-noctune-perfect-choice"
+          },
+          {
+            "title": "Exel Perfect Choice PC-117278",
+            "type": "retailer_spec",
+            "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/MCCAUDAB243"
+          },
+          {
+            "title": "GlobalOffice PC-117278",
+            "type": "retailer_spec",
+            "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/audifonos/diadema-inalambrica-dual-24ghz-bluetooth-enc/pc-117278"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3uknd5epzrpc5sr",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ACTECK",
+        "name": "Acteck Dynamic Bass BW676 AC-939829 subwoofer activo Bluetooth 50W",
+        "description": "Subwoofer activo Acteck Dynamic Bass BW676 AC-939829 tipo estudio, potencia 50 W RMS, conectividad Bluetooth 5, AUX y RCA, respuesta de 40 Hz a 200 Hz y gabinete negro.",
+        "manualCategoryPath": "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676",
+        "semanticCategoryPath": "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://acteck.com/products/subwoofer-tipo-estudio-dynamic-bass-bw676",
+        "gallery": [
+          "https://acteck.com/cdn/shop/files/AC-939829-01.webp?v=1721669688&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939829-02.webp?v=1721669688&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939829-03.webp?v=1721669689&width=1000",
+          "https://acteck.com/cdn/shop/files/AC-939829-HL-06.webp?v=1756226509&width=4167"
+        ],
+        "specs": {
+          "brand": "ACTECK",
+          "model": "Dynamic Bass BW676 / AC-939829",
+          "providerSku": "SPK-2641",
+          "ean": "7506215939829",
+          "productType": "Subwoofer activo tipo estudio",
+          "power": "50 W RMS",
+          "connectivity": [
+            "Bluetooth 5",
+            "AUX",
+            "RCA"
+          ],
+          "bluetoothRange": "10 m",
+          "frequencyResponse": "40 Hz - 200 Hz",
+          "materials": [
+            "MDF",
+            "plastico"
+          ],
+          "ipProtection": "IP20",
+          "controls": [
+            "switch on/off",
+            "indicador LED"
+          ],
+          "powerInput": "100-240 V, 50/60 Hz",
+          "adapter": "21 V, 1.5 A",
+          "color": "Negro",
+          "warranty": "1 ano",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "SPK-2641",
+              "stock": 0,
+              "price": 1256.83,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es subwoofer/bocina.",
+            "Distribuidores revisados reportan agotado o en proceso de llegada."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "16 x 32 x 32 cm",
+          "weight": "3.7 kg",
+          "packageDimensions": "38 x 29 x 33.5 cm",
+          "widthCm": 16,
+          "depthCm": 32,
+          "heightCm": 32,
+          "weightKg": 3.7
+        },
+        "sourceRefs": [
+          {
+            "title": "Acteck Dynamic Bass BW676",
+            "type": "manufacturer",
+            "url": "https://acteck.com/products/subwoofer-tipo-estudio-dynamic-bass-bw676"
+          },
+          {
+            "title": "TiendaClic Acteck AC-939829",
+            "type": "retailer_spec",
+            "url": "https://www.tiendaclic.mx/ver-detalle/subwoofer-acteck-dynamic-bass-bw676-potencia-50-w-bluetoothaux-rca-elite-series-negro-ac-939829-acteck-ac-939829"
+          },
+          {
+            "title": "GlobalOffice AC-939829 PDF",
+            "type": "retailer_spec",
+            "url": "https://globaloffice.com.mx/app/producto/pdf/ac-939829"
+          },
+          {
+            "title": "CityShop Acteck BW676",
+            "type": "retailer_spec",
+            "url": "https://cityshop.mx/producto/subwoofer-acteck-dynamic-bass-bw676-lite-series-subwoofer-tipo-estudio-bluetooth-auxiliar"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3wnpi7qyr3cm0mw",
+      "research": {
+        "confidence": 0.9,
+        "brand": "START THE GAME",
+        "name": "Vorago Start The Game MPG-301 mousepad gamer XL speed-control negro",
+        "description": "Mousepad gamer XL Vorago Start The Game MPG-301 color negro, superficie de microfibra microtexturizada extra acojinada, base antideslizante, estilo speed/control y tamano 795 x 335 x 5 mm.",
+        "manualCategoryPath": "computo/accesorios/mousepads/gaming-xl/speed-control/vorago-mpg-301",
+        "semanticCategoryPath": "computo/accesorios/mousepads/gaming-xl/speed-control/vorago-mpg-301",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/mousepad-gamer-vorago-mpg-301-xl-335-795-5mm-microfibra-antideslizante-negro.html",
+        "gallery": [
+          "https://voragolive.com/media/catalog/product/7/6/76307073_1.jpg?height=792&image-type=image&store=vorago_view&width=647",
+          "https://story.icecat.biz/images/5ced74406be6c3d7aa63805c83dc7880f66de0d7",
+          "https://story.icecat.biz/images/ac7b9e7db322ad96f8a54b4b1c0c425569412c75"
+        ],
+        "specs": {
+          "brand": "START THE GAME",
+          "manufacturer": "VORAGO",
+          "model": "MPG-301",
+          "providerSku": "AC-13080",
+          "ean": "7503038925091",
+          "productType": "Mousepad gamer XL",
+          "color": "Negro",
+          "surface": "Microfibra microtexturizada",
+          "materials": [
+            "microfibra",
+            "caucho",
+            "spandex"
+          ],
+          "base": "Antideslizante",
+          "style": "Speed/control",
+          "wristRest": false,
+          "packageQuantity": 1,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "AC-13080",
+              "stock": 0,
+              "price": 5.46,
+              "currency": "provider_raw",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es accesorio/mousepad gamer.",
+            "El precio de feed no trae moneda explicita; se conserva como provider_best_price_raw."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "795 x 335 x 5 mm",
+          "weight": "560 g",
+          "packageDimensions": "8.2 x 42.5 x 8 cm",
+          "packageWeight": "0.75 kg",
+          "widthMm": 795,
+          "depthMm": 335,
+          "heightMm": 5,
+          "weightKg": 0.56
+        },
+        "sourceRefs": [
+          {
+            "title": "Vorago MPG-301 official",
+            "type": "manufacturer",
+            "url": "https://voragolive.com/mousepad-gamer-vorago-mpg-301-xl-335-795-5mm-microfibra-antideslizante-negro.html"
+          },
+          {
+            "title": "CompuPuebla MPG-301",
+            "type": "retailer_spec",
+            "url": "https://compupuebla.com/producto/mouse-pad-vorago-mpg-301/"
+          },
+          {
+            "title": "CityShop MPG-301",
+            "type": "retailer_spec",
+            "url": "https://cityshop.mx/producto/tapete-vorago-start-the-game-mpg-301-xl-speed-control-negro"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3x7zmswtycybghz",
+      "research": {
+        "confidence": 0.82,
+        "brand": "GRANDSTREAM",
+        "name": "Grandstream GS-CAPACITACION capacitacion remota telefonia IP y redes",
+        "description": "Servicio de capacitacion remota Grandstream para telefonia IP y redes. No se encontro ficha publica exacta para POL-10170/GS-CAPACITACION, pero la clasificacion como servicio se valida con Grandstream Academy y el titulo del proveedor.",
+        "manualCategoryPath": "servicios-ti/capacitacion/telefonia-ip-redes/grandstream-remota",
+        "semanticCategoryPath": "servicios-ti/capacitacion/telefonia-ip-redes/grandstream-remota",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://academy.grandstream.com/",
+        "gallery": [
+          "https://academy.grandstream.com/assets/full-logo-a43426e98e2772ec1a6e145d2a8856f380dfbfc21dd4d96cee37c54c4c05eb51.png",
+          "https://academy.grandstream.com/smash/image/slider/3.png"
+        ],
+        "specs": {
+          "brand": "GRANDSTREAM",
+          "model": "GS-CAPACITACION",
+          "providerSku": "POL-10170",
+          "productType": "Servicio / capacitacion remota",
+          "modality": "Remota / online",
+          "topics": [
+            "telefonia IP",
+            "redes",
+            "servicios Grandstream"
+          ],
+          "officialTrainingDomains": [
+            "UC Solution",
+            "Networking Solution",
+            "Networking Wireless",
+            "Networking Security",
+            "Routing & Switching"
+          ],
+          "physicalProduct": false,
+          "exactPublicSkuMatchFound": false,
+          "providerBranchSummary": "Servicio sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "POL-10170",
+              "stock": 0,
+              "price": 262.54,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; es servicio/capacitacion.",
+            "No se encontro ficha publica exacta para POL-10170 o GS-CAPACITACION; se usa fuente oficial Grandstream Academy como evidencia de naturaleza del servicio."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "digitalDelivery": true,
+          "physicalDimensions": null,
+          "weightKg": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Grandstream Academy",
+            "type": "manufacturer_training",
+            "url": "https://academy.grandstream.com/"
+          },
+          {
+            "title": "Grandstream Academy courses",
+            "type": "manufacturer_training",
+            "url": "https://academy.grandstream.com/contents/courses"
+          },
+          {
+            "title": "Grandstream Learning Center",
+            "type": "manufacturer_training",
+            "url": "https://www.grandstream.com/learning-center"
+          },
+          {
+            "title": "Intercompras Grandstream training reference",
+            "type": "retailer_reference",
+            "url": "https://intercompras.com/p/certificacion-profesional-grandstream-expertgcp-presencial-298837"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3xzplag3vg83i3r",
+      "research": {
+        "confidence": 0.91,
+        "brand": "VORAGO",
+        "name": "Vorago TP-100 pasta termica gris 3 g 1.93 W/mK",
+        "description": "Pasta termica Vorago TP-100 color gris, contenido 3 g, conductividad termica 1.93 W/mK, base silicona y rango de operacion -30 a 300 C para transferencia de calor en componentes.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/pasta-termica/vorago-tp-100-3g",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/pasta-termica/vorago-tp-100-3g",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/gamer-stg/componentes-gamer/pastas-termicas/pasta-termica-start-the-game-tp-100-3-gramos-1-9w-m-k-gris.html",
+        "gallery": [
+          "https://inter-ds.com/cdn/shop/files/ACCVGO2220_full.jpg?v=1733409579",
+          "https://mascocoa.com/4480-large_default/pasta-termica-vorago-tp100-3gr-19w-m-k-gris.jpg"
+        ],
+        "documents": [
+          "https://voragolive.com/media/vorago/descargables/tp-10087201630103030.pdf"
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "TP-100",
+          "providerSku": "ACCVGO2220",
+          "ean": "7502266679820",
+          "productType": "Pasta termica",
+          "color": "Gris",
+          "content": "3 g",
+          "thermalConductivity": "1.93 W/mK",
+          "operatingTemperature": "-30 a 300 C",
+          "base": "Silicona",
+          "specificGravity": "2",
+          "evaporation": "0.001% a 150 C / 24 h",
+          "dielectricConstant": "5.1 a 100 Hz",
+          "packageQuantity": 1,
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "ctonline",
+              "providerSku": "ACCVGO2220",
+              "stock": 0,
+              "price": 1.33,
+              "currency": "provider_raw",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; corresponde a componentes/enfriamiento.",
+            "Fuentes externas revisadas la muestran agotada."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "netWeight": "3 g",
+          "physicalDimensions": null
+        },
+        "sourceRefs": [
+          {
+            "title": "Vorago TP-100 official",
+            "type": "manufacturer",
+            "url": "https://voragolive.com/gamer-stg/componentes-gamer/pastas-termicas/pasta-termica-start-the-game-tp-100-3-gramos-1-9w-m-k-gris.html"
+          },
+          {
+            "title": "Vorago TP-100 datasheet",
+            "type": "datasheet",
+            "url": "https://voragolive.com/media/vorago/descargables/tp-10087201630103030.pdf"
+          },
+          {
+            "title": "InterDS Vorago TP100",
+            "type": "retailer_spec",
+            "url": "https://inter-ds.com/products/pasta-termica-vorago-tp100-3gr-1-9w-m-k-gris"
+          },
+          {
+            "title": "Mascocoa Vorago TP100",
+            "type": "retailer_spec",
+            "url": "https://mascocoa.com/enfriamiento-y-ventilacion/4684-pasta-termica-vorago-tp100-3gr-19w-m-k-gris.html"
+          }
+        ]
+      }
+    },
+    {
+      "product_id": "3yhnt289o9v63dn",
+      "research": {
+        "confidence": 0.92,
+        "brand": "APC",
+        "name": "APC SBP40KFC1M1 panel bypass mantenimiento 40kW 208V 3PH",
+        "description": "Panel de bypass de mantenimiento APC SBP40KFC1M1 de 40 kW 208 V 3 fases, 1 modulo / 1 main service bypass panel, para aislar el UPS durante servicio, compatible con familias Symmetra PX/Silcon segun documentacion APC.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/paneles-bypass/40kw-208v/apc-sbp40kfc1m1",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/paneles-bypass/40kw-208v/apc-sbp40kfc1m1",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.se.com/us/en/product/SBP40KFC1M1/40kw-208v-1-mod-1-main-service-bypass-panel/",
+        "gallery": [
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/apc_sbp40kfc1m1_40kw_208v_1_mod_1687431925_1766591.jpg"
+        ],
+        "documents": [
+          "https://media.distributordatasolutions.com/schneider_synd/2021q4/documents/ab5f9963424c7dc327c0c53832875ca3fcddb8ce.pdf"
+        ],
+        "specs": {
+          "brand": "APC",
+          "manufacturer": "Schneider Electric",
+          "model": "SBP40KFC1M1",
+          "providerSku": "AC-4693",
+          "gtin": "731304016045",
+          "productType": "Panel bypass de mantenimiento / service bypass panel",
+          "power": "40 kW",
+          "nominalInputVoltage": "208 V 3PH",
+          "cables": 1,
+          "color": "Gris",
+          "included": "Manual de usuario",
+          "useCase": "Aislar completamente el UPS durante operaciones de servicio",
+          "compatibility": "Symmetra PX / Silcon UPS segun documentacion APC",
+          "warranty": "1 ano",
+          "providerBranchSummary": "Sin sucursal granular; stock proveedor total 0",
+          "providerOffers": [
+            {
+              "providerId": "cva",
+              "providerSku": "AC-4693",
+              "stock": 0,
+              "price": 2572.17,
+              "currency": "MXN",
+              "priceKind": "provider_best_price_raw"
+            }
+          ],
+          "sourceDiscrepancies": [
+            "La categoria actual laptops es incorrecta; pertenece a energia critica/accesorios UPS.",
+            "B&H lo lista como special order y TiendaClic MX con existencia 0."
+          ],
+          "providerStockVerifiedAt": "2026-05-31T12:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "96.0 x 75.0 x 23.5 cm",
+          "weight": "50.0 kg",
+          "packageDimensions": "108.7 x 75.0 x 23.5 cm",
+          "packageWeight": "55.0 kg",
+          "heightCm": 96,
+          "widthCm": 75,
+          "depthCm": 23.5,
+          "weightKg": 50
+        },
+        "sourceRefs": [
+          {
+            "title": "Schneider/APC SBP40KFC1M1",
+            "type": "manufacturer",
+            "url": "https://www.se.com/us/en/product/SBP40KFC1M1/40kw-208v-1-mod-1-main-service-bypass-panel/"
+          },
+          {
+            "title": "Schneider SBP40KFC1M1 datasheet",
+            "type": "datasheet",
+            "url": "https://media.distributordatasolutions.com/schneider_synd/2021q4/documents/ab5f9963424c7dc327c0c53832875ca3fcddb8ce.pdf"
+          },
+          {
+            "title": "B&H APC SBP40KFC1M1",
+            "type": "retailer_spec",
+            "url": "https://www.bhphotovideo.com/c/product/1766591-REG/apc_sbp40kfc1m1_40kw_208v_1_mod.html"
+          },
+          {
+            "title": "TiendaClic APC SBP40KFC1M1",
+            "type": "retailer_spec",
+            "url": "https://www.tiendaclic.mx/ver-detalle/bypass-de-mantenimiento-apc-40kw-208v-3ph-apc-sbp40kfc1m1"
+          }
+        ]
+      }
+    }
+  ]
+}

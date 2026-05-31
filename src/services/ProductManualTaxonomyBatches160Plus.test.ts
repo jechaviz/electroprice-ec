@@ -352,6 +352,16 @@ const batch160PlusCases = [
   ["uni-ball Uni Paint PX-20 marcador permanente blanco base aceite", "UNI PAINT", "oficina/papeleria/marcadores/permanentes/industriales/base-aceite/uni-paint-px20-blanco", "accessories"],
   ["Peerless-AV PLP-UNL placa adaptadora universal para pantallas 32 a 90 pulgadas", "PEERLESS-AV", "accesorios/montaje-soportes/audio-video/adaptadores-pantalla/peerless-plp-unl", "accessories"],
   ["HP DesignJet T830 F9A28D multifuncional gran formato 24 pulgadas", "HP", "impresion/impresoras/gran-formato/multifuncionales/24-pulgadas/hp-designjet-t830", "printers_scanners"],
+  ["Datalogic PowerScan PD9630-SRK2 lector industrial 2D RS-232 kit", "DATALOGIC", "punto-de-venta/lectores-codigo-barras/2d-cableados/industriales-powerscan-9600/rs232-pd9630-srk2", "accessories"],
+  ["Mimosa Networks C5c radio cliente conectorizado PTP/PTMP 4.9-6.4GHz", "MIMOSA NETWORKS", "redes/radioenlaces-antenas/radios-cpe/ptp-ptmp/mimosa-c5c", "networking"],
+  ["Logitech G560 LIGHTSYNC bocinas gaming 2.1 RGB 120W RMS", "LOGITECH", "audio/bocinas/pc/gaming/2-1-rgb/logitech-g560", "audio"],
+  ["Zebra P1037974-001 ZebraNet 10/100 print server interno ZT200", "ZEBRA", "impresion/impresoras/etiquetas/accesorios/servidores-impresion/zebra-zt200-p1037974-001", "printers_scanners"],
+  ["Perfect Choice Noctune PC-117278 diadema inalambrica Bluetooth 2.4GHz ENC", "PERFECT CHOICE", "audio/audifonos/bluetooth/diadema-over-ear/dual-2-4ghz-enc/perfect-choice-noctune", "headphones"],
+  ["Acteck Dynamic Bass BW676 AC-939829 subwoofer activo Bluetooth 50W", "ACTECK", "audio/bocinas/subwoofers/bluetooth/50w/acteck-bw676", "audio"],
+  ["Vorago Start The Game MPG-301 mousepad gamer XL speed-control negro", "START THE GAME", "computo/accesorios/mousepads/gaming-xl/speed-control/vorago-mpg-301", "accessories"],
+  ["Grandstream GS-CAPACITACION capacitacion remota telefonia IP y redes", "GRANDSTREAM", "servicios-ti/capacitacion/telefonia-ip-redes/grandstream-remota", "software"],
+  ["Vorago TP-100 pasta termica gris 3 g 1.93 W/mK", "VORAGO", "computo/componentes/enfriamiento/pasta-termica/vorago-tp-100-3g", "components"],
+  ["APC SBP40KFC1M1 panel bypass mantenimiento 40kW 208V 3PH", "APC", "energia/no-breaks-ups/accesorios/paneles-bypass/40kw-208v/apc-sbp40kfc1m1", "power"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
