@@ -1,0 +1,265 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b210-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 210,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "b3p3odjvsiv5e18",
+      "research": {
+        "confidence": 0.88,
+        "brand": "CDP",
+        "name": "CDP UPOSNMP-DB9 tarjeta externa SNMP para monitoreo de UPS",
+        "description": "Tarjeta externa SNMP CDP con conector DB9 para monitoreo y administracion de UPS compatibles mediante red; validar compatibilidad por modelo antes de instalar.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/cdp-uposnmp-db9",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/cdp-uposnmp-db9",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?ccoun=mx&mf=cHJvdGVjdGlvbg&prd=NDMy&prdn=VVBPU05NUCBUWA",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCCDP150/ACCCDP150_full.jpg", "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCCDP150_full-600x388.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-uposnmp-db9-tarjeta-externa-snmp-cdp.webp"],
+        "documents": [{ "label": "CDP SNMP WEB PRO family sheet", "type": "manufacturer_pdf", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Catalogs/432-Catalogo%20Tarjeta%20SNMP%20WEB%20PRO.pdf" }],
+        "specs": {
+          "brand": "CDP", "model": "UPOSNMP-DB9", "providerSku": "ACCCDP150", "productType": "Tarjeta externa SNMP para UPS", "connector": "DB9", "networkManagement": "SNMP/Web via Ethernet en familia CDP SNMP", "managementFunctions": ["Monitoreo remoto de UPS", "Control y notificaciones SNMP", "Servidor web y registros en familia SNMP WEB PRO"], "compatibilityNote": "La compatibilidad exacta de UPOSNMP-DB9 debe validarse por modelo UPS; fuentes de canal la asocian con UPS CDP con puerto serial DB9.", "sourceDiscrepancies": ["No se encontro ficha oficial exacta para UPOSNMP-DB9; la ficha CDP usada corresponde a la familia SNMP WEB PRO."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para ACCCDP150.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCDP150", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5028.44, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:16" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Mactoner publica ACCCDP150 sin existencias en Roma Norte CDMX.", "ITLogic solicita llamar para disponibilidad."]
+        },
+        "measurements": { "physicalDimensions": "No publicado para UPOSNMP-DB9", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Mactoner CDP UPOSNMP-DB9 ACCCDP150", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/tarjeta-externa-snmp-cdp-uposnmp-db9-negro/" },
+          { "title": "Cityshop CDP UPOSNMP-DB9", "type": "retailer_spec", "url": "https://cityshop.mx/producto/tarjeta-externa-snmp-cdp-negro-db9" },
+          { "title": "CDP SNMP WEB PRO family", "type": "manufacturer_family", "url": "https://www.cdpenergy.com/productdetails.asp?ccoun=mx&mf=cHJvdGVjdGlvbg&prd=NDMy&prdn=VVBPU05NUCBUWA" },
+          { "title": "CTOnline feed ACCCDP150 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "i7rcfjdf3oukt8c",
+      "research": {
+        "confidence": 0.86,
+        "brand": "DATASHIELD",
+        "name": "DataShield MI-4100 contacto hembra NEMA L5-30R 30A 125V",
+        "description": "Contacto hembra DataShield MI-4100 de bloqueo NEMA L5-30R para circuitos 125 V / 30 A; el titulo de proveedor usa 5L-30R, normalizado al estandar L5-30R.",
+        "manualCategoryPath": "energia/conectores-electricos/nema/l5-30r/datashield-mi-4100",
+        "semanticCategoryPath": "energia/conectores-electricos/nema/l5-30r/datashield-mi-4100",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/contacto-hembra-datashield-nema-5l-30r-mi-4100-hembra/",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCDTS010/ACCDTS010_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-mi-4100-contacto-hembra-datashield-hembra.webp"],
+        "specs": {
+          "brand": "DATASHIELD", "model": "MI-4100", "providerSku": "ACCDTS010", "productType": "Contacto electrico hembra de bloqueo", "standard": "NEMA L5-30R", "publishedStandardAlias": "Nema 5L-30R", "gender": "Hembra", "rating": "30 A, 125 V AC por estandar NEMA L5-30R", "polesWires": "2 polos, 3 hilos con tierra por estandar NEMA L5-30R", "compatiblePlug": "NEMA L5-30P", "sourceDiscrepancies": ["El EAN 7501859100444 publicado en el feed coincide publicamente con UPS DataShield KS3000, no con MI-4100; no se usa como GTIN confirmado."], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para ACCDTS010.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCDTS010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 611.11, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:19" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "publicAvailabilitySignals": ["Mactoner publica ACCDTS010 sin existencias.", "Cityshop publica MI-4100 agotado."]
+        },
+        "measurements": { "physicalDimensions": "No publicado para MI-4100", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Mactoner DataShield MI-4100 ACCDTS010", "type": "retailer_spec", "url": "https://www.mactoner.com.mx/producto/contacto-hembra-datashield-nema-5l-30r-mi-4100-hembra/" },
+          { "title": "Cityshop DataShield MI-4100", "type": "retailer_spec", "url": "https://cityshop.mx/producto/contacto-hembra-datashield-hembra" },
+          { "title": "AC Works NEMA L5-30R reference", "type": "standard_reference", "url": "https://acworks.com/products/flush-mounting-receptacle-fml530r" },
+          { "title": "CTOnline feed ACCDTS010 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "i2o8ye9jzcsggo9",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 400077 juego de herramientas basicas para computadora 13 piezas",
+        "description": "Juego basico Manhattan 400077 de 13 herramientas para instalacion de componentes, mantenimiento rutinario y reparacion general de computadoras, con estuche de vinil.",
+        "manualCategoryPath": "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-400077-13p",
+        "semanticCategoryPath": "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-400077-13p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-juego-de-herramientas-basicas-para-computadora-400077",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1877693", "https://static.ctonline.mx/imagenes/ACCITL1450/ACCITL1450_full.jpg"],
+        "documents": [{ "label": "Manhattan 400077 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43016/400077_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN", "model": "400077", "providerSku": "AC-1640", "alternateProviderSkus": ["ACCITL1450"], "ean": "0766623400077", "upc": "766623400077", "asin": "B000VYAJG0", "productType": "Kit de herramientas para mantenimiento de computo", "pieceCount": 13, "caseMaterial": "Vinil", "includedTools": ["Insertador de chip antiestatico", "Extractor de chip antiestatico", "Recuperador/extractor antiestatico de tres puntas", "Pinzas antiestaticas para chips", "Nut driver 1/4 in", "Nut driver 3/16 in", "Desarmador T-15", "Desarmadores Phillips #1 y #0", "Desarmadores ranurados 3/16 in y 1/8 in", "Tubo para partes extra", "Estuche de vinil con cierre"], "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; sin sucursal granular publica en feeds.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCITL1450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 14.48, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:31" }, { "providerId": "cva", "providerSku": "AC-1640", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 14.69, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:268:AC-1640" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "155 x 215 x 35 mm", "weight": "0.48 kg", "alternateChannelWeight": "600 g" },
+        "sourceRefs": [
+          { "title": "Manhattan MX 400077", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-juego-de-herramientas-basicas-para-computadora-400077" },
+          { "title": "Manhattan 400077 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43016/400077_datasheet_english.pdf" },
+          { "title": "CTOnline feed ACCITL1450 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-1640 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "sc3nyio5fyhjvh7",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 207348 divisor de video VGA 1 entrada 4 salidas",
+        "description": "Divisor profesional Manhattan 207348 con amplificador integrado para duplicar una senal VGA/SVGA/MultiSync hacia cuatro pantallas, con cascada de hasta tres niveles.",
+        "manualCategoryPath": "video/accesorios-av/splitters-vga/1x4/manhattan-207348",
+        "semanticCategoryPath": "video/accesorios-av/splitters-vga/1x4/manhattan-207348",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-video-splitter-profesional-207348",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=5058691", "https://manhattanproducts.mx/cdn/shop/files/phpThumb_446fbfc7-2305-47ad-a6ca-f909ac5890ee.jpg?v=1780098812", "https://manhattanproducts.mx/cdn/shop/files/phpThumb_f545376b-183f-40f6-9f75-d2ae3973b281.jpg?v=1780098812"],
+        "documents": [{ "label": "Manhattan 207348 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/44177/207348_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN", "model": "207348", "providerSku": "AC-2657", "alternateProviderSkus": ["ACCITL215"], "ean": "0766623207348", "upc": "766623207348", "productType": "Divisor amplificado VGA", "ports": "1 HD15 macho entrada, 4 HD15 hembra salida", "signalTypes": ["VGA", "SVGA", "MultiSync"], "bandwidth": "350 MHz", "maxResolution": "1920 x 1680", "range": "7.5 m PC a splitter; 65 m splitter a monitor", "cascade": "Hasta 3 niveles", "power": "Adaptador 9 V AC 300 mA; puerto 9 V 1000 mA", "certifications": ["FCC", "CE", "ISO9002"], "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; GlobalOffice publico almacen externo Mexico con existencia, no feed primario.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCITL215", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 41.1, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:45" }, { "providerId": "cva", "providerSku": "AC-2657", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 41.69, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:263:AC-2657" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "133 x 94 x 42 mm", "weight": "396 g", "grossWeight": "0.5 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan MX 207348", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-video-splitter-profesional-207348" },
+          { "title": "GlobalOffice 207348 AC-2657", "type": "retailer_stock", "url": "https://mail.globaloffice.com.mx/app/detalle/producto/monitores/video-splitter-vga-svga-hd15-4-ptos-divisor-dupli/207348" },
+          { "title": "CTOnline feed ACCITL215 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-2657 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "em0yiuus543kkr7",
+      "research": {
+        "confidence": 0.95,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 530071 kit de herramientas para mantenimiento de computadora 17 piezas",
+        "description": "Kit Manhattan 530071 de 17 herramientas para tecnicos de computo, con estuche resistente, destornilladores, pinzas, herramientas antiestaticas para chips y cautin.",
+        "manualCategoryPath": "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-530071-17p",
+        "semanticCategoryPath": "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-530071-17p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-kit-de-herramientas-para-mantenimiento-de-computadora-17-piezas-530071",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1877694", "https://static.ctonline.mx/imagenes/ACCITL270/ACCITL270_full.jpg", "https://static.ctonline.mx/imagenes/ACCITL270/ACCITL270_1_full.jpg", "https://cdn.shopify.com/s/files/1/0430/5544/8218/files/phpThumb_f4d06091-5246-4e86-b7db-7e0033b0a75f.jpg?v=1780099592"],
+        "documents": [{ "label": "Manhattan 530071 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43072/530071_datasheet_english.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN", "model": "530071", "providerSku": "AC-1641", "alternateProviderSkus": ["ACCITL270"], "ean": "0766623530071", "upc": "766623530071", "asin": "B000WL4TRC", "productType": "Kit tecnico de herramientas para computo", "pieceCount": 17, "includedTools": ["Cautin con soldadura y malla desoldadora", "Insertador y extractor antiestatico de chips", "Recuperador/extractor antiestatico de tres puntas", "Pinzas antiestaticas para chip", "Pinzas de punta fina", "Nut drivers 1/4 in y 3/16 in", "Desarmador torque T10/T15", "2 Phillips", "2 planos", "Tubo para piezas"], "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; sin sucursal granular publica en feeds.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCITL270", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 30.36, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:50" }, { "providerId": "cva", "providerSku": "AC-1641", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 30.8, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:268:AC-1641" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "200 x 227 x 40 mm", "netWeight": "0.83 kg", "grossWeight": "0.85 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan MX 530071", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-kit-de-herramientas-para-mantenimiento-de-computadora-17-piezas-530071" },
+          { "title": "Manhattan US 530071", "type": "manufacturer", "url": "https://manhattanproducts.us/products/manhattan-en-technician-tool-kit-530071" },
+          { "title": "CTOnline feed ACCITL270 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-1641 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zvwynik2kzt1ywo",
+      "research": {
+        "confidence": 0.95,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 530217 kit universal de herramientas para computadora 145 piezas",
+        "description": "Kit universal Manhattan U145 de 145 piezas para reparacion y mantenimiento de computadoras, perifericos y electronica de oficina, con caja moldeada de carga pesada.",
+        "manualCategoryPath": "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-530217-145p",
+        "semanticCategoryPath": "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-530217-145p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://es.manhattanproducts.eu/products/manhattan-es-juego-de-herramientas-universal-530217",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1804685", "https://static.ctonline.mx/imagenes/ACCITL770/ACCITL770_full.jpg"],
+        "documents": [{ "label": "Manhattan 530217 datasheet Spanish", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43080/530217_datasheet_spanish.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN", "model": "530217", "providerSku": "AC-1598", "alternateProviderSkus": ["ACCITL770"], "ean": "0766623530217", "upc": "766623530217", "asin": "B000PJBR44", "productType": "Kit universal de herramientas para computo", "pieceCount": 145, "includedToolGroups": ["Mini aspiradora con accesorios", "Cautin para soldar, puntas y estano", "Desarmador con 57 terminales intercambiables", "Conectores variados para crimpear", "Martillo", "Linterna", "Juego de 9 llaves Allen", "Cepillo", "6 desarmadores de precision", "Navaja de precision", "Cinchos", "Cortadores de cable", "Pinzas de precision con cortador", "Pelador de cables", "Crimpadora", "Herramientas antiestaticas para chips", "Brazo magnetico telescopico", "Probador de voltaje"], "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; resellers publicos muestran existencias puntuales fuera del feed primario.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCITL770", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 79.4, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:58" }, { "providerId": "cva", "providerSku": "AC-1598", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 80.55, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:269:AC-1598" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "dimensions": "434 x 300 x 80 mm", "weight": "2.7 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan EU 530217", "type": "manufacturer", "url": "https://es.manhattanproducts.eu/products/manhattan-es-juego-de-herramientas-universal-530217" },
+          { "title": "Manhattan 530217 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/43080/530217_datasheet_spanish.pdf" },
+          { "title": "CTOnline feed ACCITL770 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-1598 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ma2hgt9k6mk0ciw",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 177344 extensor VGA con audio por Cat5/5e/6 hasta 300 m",
+        "description": "Extensor Manhattan 177344 para llevar senal VGA y audio por cable Cat5/5e/6 entre transmisor y receptor, con ajuste manual y alcance maximo de 300 m segun resolucion.",
+        "manualCategoryPath": "video/accesorios-av/extensores-vga/audio-cat5e-cat6/manhattan-177344",
+        "semanticCategoryPath": "video/accesorios-av/extensores-vga/audio-cat5e-cat6/manhattan-177344",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-extensor-vga-cat5-5e-6-177344",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=3269685", "https://manhattanproducts.mx/cdn/shop/files/phpThumb_9328ee53-3668-4814-9398-47a1de91aa49.jpg?v=1780099020", "https://manhattanproducts.mx/cdn/shop/files/phpThumb_ac6a7a29-59fb-4b7a-a148-a3ce89b749fa.jpg?v=1780099020"],
+        "documents": [{ "label": "Manhattan 177344 datasheet Spanish", "type": "manufacturer_pdf", "url": "https://cdn.tvc.mx/media/1025702/177344_datasheet_spanish.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN", "model": "177344", "providerSku": "AC-2015", "alternateProviderSkus": ["CABITL1985"], "ean": "0766623177344", "upc": "766623177344", "productType": "Extensor VGA con audio por UTP", "cableType": "Cat5/Cat5e/Cat6", "maxRange": "Hasta 300 m", "maxResolution": "1920 x 1200", "distanceByResolution": ["640x480 y 800x600 hasta 300 m", "1024x768 a 1280x1024 hasta 200 m", "1600x900 a 1920x1080 hasta 100 m", "1920x1200 hasta 10 m"], "transmitterPorts": ["HD15 macho entrada", "HD15 hembra salida", "2 x audio 3.5 mm", "RJ45 salida", "5 V DC"], "receiverPorts": ["HD15 hembra salida", "RJ45 entrada", "Audio 3.5 mm salida", "5 V DC"], "power": "2 adaptadores 5 V DC / 2 A incluidos", "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; fuentes publicas CVA-like reportan existencias mixtas.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "CABITL1985", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 101.81, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:202" }, { "providerId": "cva", "providerSku": "AC-2015", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 103.29, "currency": "USD", "evidenceHash": "cva-api-full-proof-20260519:266:AC-2015" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "receiverDimensions": "81.5 x 43 x 23 mm", "receiverWeight": "108 g", "transmitterDimensions": "100 x 65 x 25 mm", "transmitterWeight": "208 g" },
+        "sourceRefs": [
+          { "title": "Manhattan 177344 manual", "type": "manual", "url": "https://www.manualslib.com/manual/964200/Manhattan-177344.html" },
+          { "title": "Manhattan 177344 datasheet Spanish", "type": "manufacturer_pdf", "url": "https://cdn.tvc.mx/media/1025702/177344_datasheet_spanish.pdf" },
+          { "title": "CTOnline feed CABITL1985 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-2015 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "pcidlxuts0dhstj",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MANHATTAN",
+        "name": "Manhattan 421430 Times Square maletin portafolio laptop 15.4 pulgadas negro",
+        "description": "Maletin portafolio Manhattan Times Square de carga superior para laptop widescreen de hasta 15.4 pulgadas, con compartimiento acolchado, bolsillos y correa ajustable.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/15-4/manhattan-times-square-421430",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/15-4/manhattan-times-square-421430",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.mx/products/manhattan-es-maletin-times-square-para-laptop-421430",
+        "gallery": ["https://static.ctonline.mx/imagenes/MALITL020/MALITL020_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-421430-maletin-manhattan-time-square-negro-poliester-maletin.webp"],
+        "documents": [{ "label": "Manhattan 421430 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7687/421430_datasheet_spanish.pdf" }],
+        "specs": {
+          "brand": "MANHATTAN", "model": "421430", "line": "Times Square", "providerSku": "MALITL020", "ean": "0766623421430", "upc": "766623421430", "productType": "Maletin portafolio para laptop", "compatibleLaptopSize": "Hasta 15.4 pulgadas", "color": "Negro", "materials": "Exterior 93% poliester y 7% PVC; interior 100% poliester con espuma EPE", "features": ["Carga superior", "Compartimiento acolchado", "Bolsillo frontal para accesorios", "Bolsillo posterior con cierre", "Divisor para documentos", "Porta identificacion", "Correa de hombro ajustable/removible"], "providerBranchSummary": "CTOnline stock 0; sin sucursal granular publica para MALITL020.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "MALITL020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 14.2, "currency": "USD", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:500" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z", "sourceDiscrepancies": ["Ficha Manhattan reporta 0.85 kg en datasheet y 0.95 kg en especificaciones fisicas de pagina."]
+        },
+        "measurements": { "mainCompartment": "28 x 37 x 5 cm", "externalDimensions": "29 x 37 x 6 cm", "weight": "0.85 kg", "alternateWeight": "0.95 kg" },
+        "sourceRefs": [
+          { "title": "Manhattan MX Times Square 421430", "type": "manufacturer", "url": "https://manhattanproducts.mx/products/manhattan-es-maletin-times-square-para-laptop-421430" },
+          { "title": "Manhattan 421430 datasheet", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/7687/421430_datasheet_spanish.pdf" },
+          { "title": "CTOnline feed MALITL020 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "7mjfb862xy4ykkj",
+      "research": {
+        "confidence": 0.96,
+        "brand": "EPSON",
+        "name": "Epson S041385 Doubleweight Matte Paper rollo 24 x 82 pies 180 g/m2",
+        "description": "Rollo Epson Doubleweight Matte Paper S041385 de 24 pulgadas x 82 pies para impresoras de gran formato Epson Stylus Pro/SureColor, acabado mate, 180 g/m2 y nucleo de 2 pulgadas.",
+        "manualCategoryPath": "impresion/consumibles/papel-plotter/mate/doubleweight/rollos-24in-82ft/epson-s041385",
+        "semanticCategoryPath": "impresion/consumibles/papel-plotter/mate/doubleweight/rollos-24in-82ft/epson-s041385",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/For-Work/Paper/Presentation/Doubleweight-Matte-Paper/m/S041385",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=6886", "https://www.bhphotovideo.com/images/images500x500/Epson_S041385_Double_Weight_Matte_Paper_212599.jpg"],
+        "specs": {
+          "brand": "EPSON", "model": "S041385", "providerSku": "CN-699", "alternateProviderSkus": ["PAPEPS1340"], "productType": "Papel mate para plotter", "paperLine": "Doubleweight Matte Paper", "format": "Rollo", "size": "24 in x 82 ft / 610 mm x 25 m", "count": "1 rollo", "basisWeight": "180 g/m2", "thickness": "8.3 mil", "brightness": "84% ISO", "opacity": "94%", "finish": "Mate", "core": "2 in", "inkCompatibility": ["Dye", "Pigment"], "printerFamily": ["Epson Stylus Pro", "Epson SureColor gran formato segun compatibilidad de papel"], "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; CVA resellers publicos reportan existencias puntuales no reflejadas en feed.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPEPS1340", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1126.77, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:612" }, { "providerId": "cva", "providerSku": "CN-699", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1088.17, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:273:CN-699" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "rollSize": "24 in x 82 ft / 610 mm x 25 m", "packageWeight": "7.5 lb / 3.4 kg segun B&H", "packageDimensions": "25.7 x 5.2 x 4.9 in segun B&H" },
+        "sourceRefs": [
+          { "title": "Epson S041385 Doubleweight Matte Paper", "type": "manufacturer", "url": "https://epson.com/For-Work/Paper/Presentation/Doubleweight-Matte-Paper/m/S041385" },
+          { "title": "B&H Epson S041385", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/212599-REG/Epson_S041385_Double_Weight_Matte_Paper.html" },
+          { "title": "CTOnline feed PAPEPS1340 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed CN-699 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "kpvteuymmq14vdp",
+      "research": {
+        "confidence": 0.96,
+        "brand": "EPSON",
+        "name": "Epson S041405 Ultra Premium Photo Paper Luster carta 50 hojas",
+        "description": "Papel fotografico Epson Ultra Premium Photo Paper Luster S041405 tamano carta 8.5 x 11 pulgadas, paquete con 50 hojas, base RC de 10 mil y gramaje 240 g/m2.",
+        "manualCategoryPath": "impresion/consumibles/papel-fotografico/luster/carta-50-hojas/epson-s041405",
+        "semanticCategoryPath": "impresion/consumibles/papel-fotografico/luster/carta-50-hojas/epson-s041405",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/For-Home/Paper/Photo/Ultra-Premium-Photo-Paper-Luster/m/S041405",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10480505", "https://www.bhphotovideo.com/images/images500x500/Epson_S041405_Ultra_Premium_Luster_Photo_219807.jpg"],
+        "specs": {
+          "brand": "EPSON", "model": "S041405", "providerSku": "CN-5321", "alternateProviderSkus": ["PAPEPS200"], "upc": "010343832343", "productType": "Papel fotografico luster", "paperLine": "Ultra Premium Photo Paper Luster", "size": "8.5 x 11 in / 21.6 x 27.9 cm", "count": "50 hojas", "basisWeight": "240 g/m2", "thickness": "10 mil", "brightness": "97% ISO", "opacity": "97%", "finish": "Luster", "baseMaterial": "Papel encapsulado en polietileno", "inkCompatibility": "Ideal para tintas Epson", "providerBranchSummary": "CTOnline y CVA stock 0 en feeds; Compuliper reporta bajo pedido con 0 en CDMX/GDL.", "providerBranches": [{ "providerId": "ctonline", "providerSku": "PAPEPS200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 551.61, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ctonline:616" }, { "providerId": "cva", "providerSku": "CN-5321", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 739.88, "currency": "MXN", "evidenceHash": "cva-api-full-proof-20260519:13:CN-5321" }], "providerStockVerifiedAt": "2026-05-20T03:05:42Z"
+        },
+        "measurements": { "sheetSize": "8.5 x 11 in / 21.6 x 27.9 cm", "packageWeight": "1.88 lb / 0.85 kg segun B&H", "packageDimensions": "11.5 x 9 x 0.8 in segun B&H" },
+        "sourceRefs": [
+          { "title": "Epson S041405 Ultra Premium Photo Paper Luster", "type": "manufacturer", "url": "https://epson.com/For-Home/Paper/Photo/Ultra-Premium-Photo-Paper-Luster/m/S041405" },
+          { "title": "B&H Epson S041405", "type": "authorized_retailer_spec", "url": "https://www.bhphotovideo.com/c/product/219807-REG/Epson_S041405_Ultra_Premium_Luster_Photo.html/specs" },
+          { "title": "CTOnline feed PAPEPS200 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed CN-5321 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T00:00:00Z" }
+        ]
+      }
+    }
+  ]
+}

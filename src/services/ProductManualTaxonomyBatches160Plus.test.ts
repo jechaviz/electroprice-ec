@@ -502,6 +502,16 @@ const batch160PlusCases = [
   ["ASUS GD300X RAIKIRI PRO/BK/WW control inalambrico ROG Raikiri Pro", "ASUS", "gaming/accesorios/controles-gamepad/bluetooth-usb-c/asus-rog-raikiri-pro", "gaming"],
   ["ASUS ROG Sheath BLK NC01 mousepad gamer XL 900 x 440 x 3 mm", "ASUS ROG", "computo/accesorios/mousepads/gaming-xl/speed-control/asus-rog-sheath", "accessories"],
   ["Autodesk 057Q1-WW9153-L317 AutoCAD LT suscripcion ELD 3 anos 1 usuario", "AUTODESK", "software/cad-diseno/autodesk-autocad-lt/3y-1usuario-eld", "software"],
+  ["CDP UPOSNMP-DB9 tarjeta externa SNMP para monitoreo UPS", "CDP", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/cdp-uposnmp-db9", "power"],
+  ["DataShield MI-4100 contacto hembra NEMA L5-30R 30A 125V", "DATASHIELD", "energia/conectores-electricos/nema/l5-30r/datashield-mi-4100", "power"],
+  ["Manhattan 400077 juego herramientas basicas computadora 13 piezas", "MANHATTAN", "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-400077-13p", "accessories"],
+  ["Manhattan 207348 video splitter SVGA 1 in 4 out alta resolucion", "MANHATTAN", "video/accesorios-av/splitters-vga/1x4/manhattan-207348", "tvs"],
+  ["Manhattan 530071 kit herramientas mantenimiento computadora 17 piezas", "MANHATTAN", "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-530071-17p", "accessories"],
+  ["Manhattan 530217 kit universal herramientas computadora 145 piezas", "MANHATTAN", "computo/accesorios/herramientas-reparacion/kits-mantenimiento-pc/manhattan-530217-145p", "accessories"],
+  ["Manhattan 177344 extensor VGA audio 300m via CAT 5/6", "MANHATTAN", "video/accesorios-av/extensores-vga/audio-cat5e-cat6/manhattan-177344", "tvs"],
+  ["Manhattan Time Square 421430 maletin portafolio laptop 15.4 negro", "MANHATTAN", "computo/accesorios/mochilas-fundas/maletines-laptop/15-4/manhattan-times-square-421430", "accessories"],
+  ["Epson S041385 Doubleweight Matte Paper rollo 24 x 82 180 g", "EPSON", "impresion/consumibles/papel-plotter/mate/doubleweight/rollos-24in-82ft/epson-s041385", "printers_scanners"],
+  ["Epson S041405 Ultra Premium Photo Paper Luster carta 50 hojas", "EPSON", "impresion/consumibles/papel-fotografico/luster/carta-50-hojas/epson-s041405", "printers_scanners"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
