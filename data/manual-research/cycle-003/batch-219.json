@@ -1,0 +1,471 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b219-2026-05-31",
+  "cycle": "cycle-003",
+  "batch": 219,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "9b2l6ou6ka8s65c",
+      "research": {
+        "confidence": 0.92,
+        "brand": "AZOR",
+        "name": "Azor Signal Fashion 30655 marcadores permanentes surtidos, estuche con 5 piezas",
+        "description": "Estuche Azor Signal Fashion 30655 con 5 marcadores permanentes de colores surtidos, tinta base alcohol, secado rapido, resistente al agua y punta de bala.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fashion/surtidos/5-piezas/azor-30655",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/signal-fashion/surtidos/5-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/signal-fashion/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCAZR450/ACCAZR450_1_full.jpg",
+          "https://static.ctonline.mx/imagenes/ACCAZR450/ACCAZR450_2_full.jpg",
+          "https://static.ctonline.mx/imagenes/ACCAZR450/ACCAZR450_3_full.jpg",
+          "https://web.azor.com.mx/wp-content/uploads/2017/11/azor_signal_fashion_30655_estuche_5pzas-1.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-30655-marcador-permanente-azor-signal-30655.webp"
+        ],
+        "documents": [
+          { "label": "Catalogo Azor escritura 2025", "type": "manufacturer_catalog", "url": "https://mail.azor.com.mx/catalogo/azor-escritura-25.pdf" }
+        ],
+        "specs": {
+          "brand": "Azor",
+          "model": "30655",
+          "providerSku": "ACCAZR450",
+          "ean": "7501428728048",
+          "productType": "Marcadores permanentes surtidos",
+          "line": "Signal Fashion",
+          "pieceCount": 5,
+          "colors": ["fucsia", "azul", "amarillo", "verde", "morado"],
+          "inkBase": "Alcohol permanente",
+          "tip": "Bala 1.5 mm",
+          "features": ["secado rapido", "resistente al agua", "barril plastico con grip ahulado", "marca vidrio, porcelana, metal, tela, madera, plastico y cartoncillo"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop y TiendaClic tambien aparecen agotados o con existencia aproximada 0.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCAZR450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 48.91, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCAZR450" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Technovision $53.81 MXN.", "Cityshop $69 MXN agotado.", "TiendaClic $114.74 MXN con existencia aproximada 0."],
+          "reviewNotes": "Azor 2025 reporta rendimiento 450 m; una imagen historica de ficha muestra 320 m. EAN no fue confirmado en fuente publica, pero el digito verificador EAN-13 es valido."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Azor Signal Fashion", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/signal-fashion/" },
+          { "title": "Catalogo Azor escritura 2025", "type": "manufacturer_catalog", "url": "https://mail.azor.com.mx/catalogo/azor-escritura-25.pdf" },
+          { "title": "Cityshop Azor 30655", "type": "retailer_stock", "url": "https://cityshop.mx/producto/marcador-permanente-azor-signal-30655-fashion-estuche-paquete-con-5-piezas-colores-fucsia-azul-amarillo" },
+          { "title": "CTOnline feed ACCAZR450 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9hvjzcidbc7zvr3",
+      "research": {
+        "confidence": 0.94,
+        "brand": "FORZA",
+        "name": "Forza Zion-2K10 FVP-1201B protector de voltaje 120V blanco, 900J/1800W, 1 contacto",
+        "description": "Protector de voltaje Forza FVP-1201B para 120V con 900J, 1800W, un contacto NEMA 5-15R, enchufe giratorio 350 grados y temporizador seleccionable.",
+        "manualCategoryPath": "energia/supresores-reguladores/protectores-voltaje/120v/1-contacto/forza-fvp-1201b",
+        "semanticCategoryPath": "energia/supresores-reguladores/protectores-voltaje/120v/1-contacto",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.forzaups.com/products/internal/FVP-1201B-esp/",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10441439",
+          "https://forza-ups-frontend.s3.amazonaws.com/media/img/FVP-1201B_1.jpg",
+          "https://forza-ups-frontend.s3.amazonaws.com/media/img/FVP-1201B_2.jpg",
+          "https://forza-ups-frontend.s3.amazonaws.com/media/img/FVP-1201B_3.jpg",
+          "https://forza-ups-frontend.s3.amazonaws.com/media/img/FVP-1201B_4.jpg"
+        ],
+        "documents": [
+          { "label": "Forza FVP-1201B ficha tecnica", "type": "manufacturer_datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/FVP-1201B-SPA.pdf" }
+        ],
+        "specs": {
+          "brand": "Forza",
+          "model": "FVP-1201B",
+          "providerSku": "AC-12450",
+          "series": "Zion-2K10",
+          "productType": "Protector de voltaje",
+          "inputVoltage": "110/120 VCA",
+          "voltageRange": "90-140 VCA",
+          "frequency": "50/60 Hz autodeteccion",
+          "surgeProtection": "900 J",
+          "maxPower": "1800 W",
+          "maxCurrent": "18000 A",
+          "plug": "NEMA 5-15P",
+          "outlets": "1 x NEMA 5-15R",
+          "timer": "15/30/180 segundos",
+          "features": ["enchufe giratorio 350 grados", "interruptor encendido/apagado", "3 indicadores luminosos"],
+          "color": "Blanco",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; retailers publicos con el mismo modelo muestran stock positivo, por lo que el agotado parece especifico de canal.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-12450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10.63, "currency": "USD", "evidenceHash": "cva-feed-proof-20260519:AC-12450" }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["GlobalOffice $281 MXN con 11 en almacen externo.", "Compuenter $299 MXN con existencia 284.", "Toyseco $195 MXN con stock 1.", "Grupo Reysa $245.02 MXN."],
+          "reviewNotes": "El precio CVA 10.63 es inverosimil como MXN y consistente como USD frente a retail nacional de $195-$299 MXN."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "100 x 45 x 45 mm", "weight": "143 g" },
+        "sourceRefs": [
+          { "title": "Forza FVP-1201B", "type": "manufacturer_product", "url": "https://www.forzaups.com/products/internal/FVP-1201B-esp/" },
+          { "title": "Forza FVP-1201B datasheet", "type": "manufacturer_datasheet", "url": "https://forza-ups-frontend.s3.amazonaws.com/media/docs/FVP-1201B-SPA.pdf" },
+          { "title": "GlobalOffice FVP-1201B", "type": "retailer_stock", "url": "https://globaloffice.mx/app/detalle/producto/energia-y-cables/protector-de-voltaje-forza-fvp-1201b-900/fvp-1201b" },
+          { "title": "CVA feed AC-12450 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9i9aytgfdoxf6yg",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CANON",
+        "name": "Canon imageFORMULA DR-C230 2646C003 escaner documental A4 duplex con ADF de 60 hojas",
+        "description": "Escaner documental Canon imageFORMULA DR-C230 para grupos de trabajo, ADF de 60 hojas, A4, USB 2.0, 30 ppm simplex y 60 ipm duplex.",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4/canon-imageformula-dr-c230-2646c003",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.canon.com.mx/productos/escaneres/grupostrabajo/p/ImageFORMULA_DR-C230",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SCACNN550/SCACNN550_full.jpg",
+          "https://www.canon.com.mx/datacenter/image/resize-center/800x800/imagenesproducto/fichero/4597_DRC230_5.png/",
+          "https://www.canon.com.mx/datacenter/image/resize-center/800x800/imagenesproducto/fichero/4598_DRC230_2.png/",
+          "https://www.canon.com.mx/datacenter/image/resize-center/800x800/imagenesproducto/fichero/4599_DRC230_3.png/",
+          "https://www.canon.com.mx/datacenter/image/resize-center/800x800/imagenesproducto/fichero/4600_DRC230_4.png/"
+        ],
+        "specs": {
+          "brand": "Canon",
+          "model": "imageFORMULA DR-C230",
+          "partNumber": "2646C003",
+          "providerSku": "SCACNN550",
+          "upc": "013803300710",
+          "productType": "Escaner documental ADF duplex",
+          "mediaSize": "A4",
+          "adfCapacity": "60 hojas",
+          "resolution": "600 dpi opticos",
+          "scanSpeed": "30 ppm simplex / 60 ipm duplex",
+          "dailyDutyCycle": "3500 escaneos",
+          "interface": "USB 2.0",
+          "sensor": "CMOS CIS con LED RGB",
+          "drivers": ["ISIS", "TWAIN"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cyberpuerta, MacToner y Abasteo lo muestran sin stock, GlobalOffice lo contradice con 4 piezas publicas.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SCACNN550", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9353.59, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:SCACNN550" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice $9,199 MXN con 4 disponibles.", "Cyberpuerta sin existencias.", "MacToner $13,021.59 MXN sin stock.", "Abasteo $12,099 MXN OutOfStock."],
+          "reviewNotes": "2646C003 aparece ligado a EAN 4528472107882 en varias fuentes; UPC 013803300710 aparece en variantes regionales 2646C002/2646C002AC. El modelo fisico confirmado es DR-C230."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "291 x 253 x 231 mm", "weight": "2.8 kg" },
+        "sourceRefs": [
+          { "title": "Canon Mexico imageFORMULA DR-C230", "type": "manufacturer_product", "url": "https://www.canon.com.mx/productos/escaneres/grupostrabajo/p/ImageFORMULA_DR-C230" },
+          { "title": "Canon USA imageFORMULA DR-C230", "type": "manufacturer_product", "url": "https://www.usa.canon.com/shop/p/imageformula-dr-c230" },
+          { "title": "GlobalOffice Canon DR-C230", "type": "retailer_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/digitalizacion-de-documentos/escaner-canon-imageformula-dr-c230-de-30ppm-con-cap-60-hojas/eapcuaab0216c002ac" },
+          { "title": "CTOnline feed SCACNN550 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9j1grk53ask1lfi",
+      "research": {
+        "confidence": 0.87,
+        "brand": "INGRESSIO",
+        "name": "Ingressio en la Nube PyME licencia SaaS para control de asistencia, hasta 50 empleados",
+        "description": "Servicio cloud Ingressio para control de asistencia y puntualidad, version PyME/Basica para hasta 50 empleados por punto, sin lector fisico.",
+        "manualCategoryPath": "software/recursos-humanos/control-asistencia/ingressio-nube/pyme-50-empleados-1y",
+        "semanticCategoryPath": "software/recursos-humanos/control-asistencia/ingressio-nube",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.ingressioenlanube.com",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SOFING1420/SOFING1420_1_full.jpg",
+          "https://www.alteccomputacion.com/tienda/4829-large_default/servicio-ingressio-en-la-nube-para-50-empleados-por-punto-ver-pyme-1-ao-sin-lector.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-ingsfwnubepyme1yr-servicio-ingressio-en-la-nube.webp"
+        ],
+        "documents": [
+          { "label": "Ficha tecnica Ingressio en la Nube", "type": "manufacturer_datasheet", "url": "https://www.ingressio.com/uploads/5/8/3/3/58339667/20190726_fichatecnica_ingressioenlanube.pdf" }
+        ],
+        "specs": {
+          "brand": "Ingressio",
+          "model": "IngSfwNubePyme1yr",
+          "providerSku": "SOFING1420",
+          "productType": "Licencia SaaS de control de asistencia",
+          "employeeLimit": "50 empleados por punto",
+          "delivery": "Digital, sin lector",
+          "features": ["reportes con geolocalizacion", "configuracion de horarios", "justificacion de incidencias", "catalogo de empleados", "consulta movil", "exportacion a nominas comerciales"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Cityshop e Intercompras lo muestran agotado o probablemente descontinuado, Altec contradice con entrega 5 a 7 dias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SOFING1420", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 266.97, "currency": "MXN_UNCERTAIN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:SOFING1420" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Pro-L $1,096.20 MXN para INGSFWNUBEPYME1YR.", "Altec $5,023.28 MXN con entrega 5 a 7 dias.", "Cityshop agotado.", "Intercompras no disponible por largo tiempo."],
+          "reviewNotes": "Existe conflicto de vigencia: CT/Cityshop dicen semestral, mientras SKU 1yr y retailers dicen 1 ano. Precio/moneda CT queda marcado como incierto."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Ingressio en la Nube", "type": "manufacturer_product", "url": "https://www.ingressioenlanube.com" },
+          { "title": "Ficha tecnica Ingressio", "type": "manufacturer_datasheet", "url": "https://www.ingressio.com/uploads/5/8/3/3/58339667/20190726_fichatecnica_ingressioenlanube.pdf" },
+          { "title": "Altec Ingressio PyME 1 ano", "type": "retailer_stock", "url": "https://www.alteccomputacion.com/tienda/6265-servicio-ingressio-en-la-nube-para-50-empleados-por-punto-ver-pyme-1-ao-sin-lector.html" },
+          { "title": "CTOnline feed SOFING1420 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9j1kr1ynp0hobbb",
+      "research": {
+        "confidence": 0.9,
+        "brand": "GEO",
+        "name": "Caja GEO 027 para archivo tamano oficio, plastico blanco translucido con tapa",
+        "description": "Caja plastica GEO 027 para archivo tamano oficio, fabricada en polietileno blanco translucido con fondo y tapa para resguardo de documentos.",
+        "manualCategoryPath": "oficina/papeleria/archivo/cajas-archivo/oficio/plastico/geo-027",
+        "semanticCategoryPath": "oficina/papeleria/archivo/cajas-archivo/oficio/plastico",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCGEO040/ACCGEO040_full.jpg",
+          "https://www.exel.com.mx/imgProducto/GEPCAJAB004.png",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-exel-027-caja-geo-plastica-caja-geo-archivo-plastica-oficio-0.webp",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-027-caja-de-archivo-plastico-tamano.webp"
+        ],
+        "specs": {
+          "brand": "GEO",
+          "model": "027",
+          "providerSku": "ACCGEO040",
+          "exelKey": "GEPCAJAB004",
+          "ean": "7501693012350",
+          "productType": "Caja plastica para archivo",
+          "size": "Oficio",
+          "material": "Polietileno",
+          "color": "Blanco translucido",
+          "packageContents": ["fondo", "tapa"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; retailers publicos muestran disponibilidad positiva en algunos almacenes.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCGEO040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 110.87, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCGEO040" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cityshop $109 MXN con stock 71.", "GlobalOffice $162 MXN con 67 en almacen Mexico.", "TiendaClic $186.61 MXN con existencia aproximada 0.", "Compufax $129 MXN con stock 392."],
+          "reviewNotes": "Las medidas publicas difieren: 30 x 50 x 26 cm en TiendaClic/Cityshop y 50 x 36 x 25 cm en Encuentro Todo; se conserva la variante mas consistente con caja oficio."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "50 x 36 x 25 cm", "alternateDimensions": "30 x 50 x 26 cm", "weight": "0.9 kg" },
+        "sourceRefs": [
+          { "title": "Cityshop GEO 027", "type": "retailer_stock", "url": "https://cityshop.mx/producto/caja-geo-archivo-plastica-oficio" },
+          { "title": "GlobalOffice GEO 027", "type": "retailer_stock", "url": "https://globaloffice.com.mx/" },
+          { "title": "TiendaClic GEO 027", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/" },
+          { "title": "CTOnline feed ACCGEO040 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9l8tvw3h5obyx6k",
+      "research": {
+        "confidence": 0.93,
+        "brand": "AZOR",
+        "name": "Azor Magistral Didactico 8350RO marcador para pizarron blanco rojo, punta cincel 6 mm, caja con 12",
+        "description": "Caja con 12 marcadores Azor Magistral Didactico 8350RO color rojo para pizarron blanco, tinta base alcohol de bajo olor y punta cincel de 6 mm.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/rojo/12-piezas/azor-8350ro",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/pizarron-blanco/magistral-didactico/rojo/12-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://azor.com.co/index.php/producto/magistral-didactico/",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCAZR010/ACCAZR010_1_full.jpg",
+          "https://www.exel.com.mx/imgProducto/AZPMPZAB006.png"
+        ],
+        "specs": {
+          "brand": "Azor",
+          "model": "8350RO",
+          "providerSku": "ACCAZR010",
+          "ean": "7501428702314",
+          "productType": "Marcadores para pizarron blanco",
+          "line": "Magistral Didactico",
+          "pieceCount": 12,
+          "color": "Rojo",
+          "tip": "Cincel 6 mm",
+          "inkBase": "Alcohol de bajo olor",
+          "features": ["borrado en seco sobre superficies no porosas", "alta intensidad de color", "cuerpo plastico"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; GlobalOffice e Intercompras muestran stock publico, TiendaClic y Servicompras sin stock.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCAZR010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 210.27, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCAZR010" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice $339 MXN con stock.", "Intercompras $234 MXN con stock.", "TiendaClic $301.91 MXN con existencia 0.", "Servicompras $238 MXN sin stock."],
+          "reviewNotes": "Intercompras muestra cantidad 1 en metadata, pero EAN/titulo/Exel/GlobalOffice confirman caja de 12 piezas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "14 x 5.5 x 8 cm", "weight": "260 g" },
+        "sourceRefs": [
+          { "title": "Azor Magistral Didactico", "type": "manufacturer_product", "url": "https://azor.com.co/index.php/producto/magistral-didactico/" },
+          { "title": "GlobalOffice Azor 8350RO", "type": "retailer_stock", "url": "https://globaloffice.com.mx/" },
+          { "title": "Intercompras Azor 8350RO", "type": "retailer_stock", "url": "https://intercompras.com/" },
+          { "title": "CTOnline feed ACCAZR010 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9nu7wxftjepvgwa",
+      "research": {
+        "confidence": 0.95,
+        "brand": "BENQ",
+        "name": "BenQ InstaShow WDC15 sistema inalambrico de presentacion 4K UHD para salas pequenas",
+        "description": "Sistema BenQ InstaShow WDC15 de presentacion inalambrica 4K UHD con transmisor y receptor, sin apps ni controladores, Wi-Fi 5, TouchBack y cifrado AES-128.",
+        "manualCategoryPath": "computo/colaboracion/presentacion-inalambrica/benq-instashow/wdc15",
+        "semanticCategoryPath": "computo/colaboracion/presentacion-inalambrica/benq-instashow",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.benq.com/en-us/business/wireless-presentation/wdc15/specifications.html",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCBNQ790/ACCBNQ790_full.jpg",
+          "https://image.benq.com/is/image/benqco/wdc15-all-set",
+          "https://image.benq.com/is/image/benqco/wdc15-all-top",
+          "https://image.benq.com/is/image/benqco/wdc15-rx-front",
+          "https://image.benq.com/is/image/benqco/wdc15-rx-back"
+        ],
+        "specs": {
+          "brand": "BenQ",
+          "model": "WDC15",
+          "providerSku": "ACCBNQ790",
+          "ean": "4718755096419",
+          "upc": "840046052058",
+          "productType": "Sistema de presentacion inalambrica",
+          "resolution": "Hasta 4K UHD 30Hz",
+          "interface": "HDMI 1.4 HDCP",
+          "wireless": "Wi-Fi 5 5GHz AC1200 / 867 Mbps",
+          "security": ["AES-128", "WPA3"],
+          "features": ["sin apps ni drivers", "TouchBack", "hasta 16 conexiones simultaneas"],
+          "packageContents": ["host receptor", "boton transmisor", "base cradle", "adaptador", "2 antenas", "cable HDMI"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; Abasteo MX, B&H y SHI muestran disponibilidad publica.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCBNQ790", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 11333.3, "currency": "MXN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCBNQ790" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Abasteo MX $12,299 MXN InStock.", "B&H US$799 In Stock.", "SHI US$835 con stock 42.", "CDW US$799."],
+          "reviewNotes": "Debe catalogarse como presentacion inalambrica, no como camara ni terminal de videoconferencia."
+        },
+        "measurements": { "physicalProduct": true, "hostDimensions": "110 x 110 x 29 mm", "hostWeight": "205 g", "cradleDimensions": "84.5 x 62.5 x 128 mm", "cradleWeight": "568 g", "shippingWeight": "3.59 lb" },
+        "sourceRefs": [
+          { "title": "BenQ WDC15 specifications", "type": "manufacturer_product", "url": "https://www.benq.com/en-us/business/wireless-presentation/wdc15/specifications.html" },
+          { "title": "B&H BenQ WDC15", "type": "retailer_stock", "url": "https://www.bhphotovideo.com/" },
+          { "title": "Abasteo BenQ WDC15", "type": "retailer_stock", "url": "https://www.abasteo.mx/" },
+          { "title": "CTOnline feed ACCBNQ790 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9ogsm5xaklc5wyc",
+      "research": {
+        "confidence": 0.93,
+        "brand": "DELL",
+        "name": "Dell 452-BDVB soporte VESA con extensor de base para OptiPlex Micro y Thin Client",
+        "description": "Soporte Dell 452-BDVB / 7DTNN para montar OptiPlex Micro, Dell Pro Micro o Thin Client detras de monitores Dell Pro/E-Series con soporte fijo.",
+        "manualCategoryPath": "computo/accesorios/soportes-monitor/vesa/mini-pc/dell-452-bdvb",
+        "semanticCategoryPath": "computo/accesorios/soportes-monitor/vesa/mini-pc",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/stands/apd/452-bdvb/pc-accessories",
+        "gallery": [
+          "https://snpi.dell.com/snp/images/products/large/en-us~452-BDVB_V1/452-BDVB_V1.jpg",
+          "https://snpi.dell.com/snp/images/products/large/en-us~452-BDVB_V2/452-BDVB_V2.jpg",
+          "https://snpi.dell.com/snp/images/products/large/en-us~452-BDVB_V3/452-BDVB_V3.jpg",
+          "https://snpi.dell.com/snp/images/products/large/en-us~452-BDVB_V4/452-BDVB_V4.jpg",
+          "https://snpi.dell.com/snp/images/products/large/en-us~452-BDVB_mvi2/452-BDVB_mvi2.jpg"
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "452-BDVB",
+          "alternatePart": "7DTNN",
+          "manufacturerPart": "KC5FC",
+          "providerSku": "AC-11241",
+          "upc": "884116419969",
+          "productType": "Soporte VESA para mini PC",
+          "vesaPattern": "100 x 100 mm",
+          "compatibility": ["Dell Pro Micro QCM1250/QCM1255", "Dell Pro Micro Plus QBM1250", "OptiPlex 3000/5000/7000 Micro", "OptiPlex 7000 XE Micro", "OptiPlex 7010/7020 Micro", "Dell Thin Client compatible"],
+          "notCompatible": "Monitores Dell Pro/E-Series con soporte de altura ajustable",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; Dell, B&H, Abasteo, GlobalOffice y Cimsystem muestran disponibilidad publica.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-11241", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 482.45, "currency": "MXN", "evidenceHash": "cva-feed-proof-20260519:AC-11241" }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["Dell US$39.99 in stock.", "B&H US$39.99 in stock.", "Abasteo MX $367 InStock.", "GlobalOffice $895 MXN con stock 3.", "Cimsystem $607.89 MXN con stock 29."],
+          "reviewNotes": "No mezclar con Dell 452-BDVC; esta ficha corresponde a 452-BDVB con extensor de base para monitores de soporte fijo."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "shippingDimensions": "12.4 x 7.2 x 1.9 in", "shippingWeight": "1.055 lb" },
+        "sourceRefs": [
+          { "title": "Dell 452-BDVB", "type": "manufacturer_product", "url": "https://www.dell.com/en-us/shop/stands/apd/452-bdvb/pc-accessories" },
+          { "title": "B&H Dell 452-BDVB", "type": "retailer_stock", "url": "https://www.bhphotovideo.com/" },
+          { "title": "Abasteo Dell 452-BDVB", "type": "retailer_stock", "url": "https://www.abasteo.mx/" },
+          { "title": "CVA feed AC-11241 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9rowm49zkmfqdf1",
+      "research": {
+        "confidence": 0.86,
+        "brand": "LENOVO",
+        "name": "Lenovo 5WS0K75663 extension de garantia Depot/CCI 3 anos para IdeaPad",
+        "description": "Servicio Lenovo 5WS0K75663 de soporte Depot/CCI para portatiles IdeaPad, cobertura a 3 anos mediante poliza digital.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/depot-cci/ideapad/3y/5ws0k75663",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/depot-cci/ideapad/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.lenovo.com/",
+        "specs": {
+          "brand": "Lenovo",
+          "model": "5WS0K75663",
+          "providerSku": "POL-8042",
+          "productType": "Poliza de garantia y soporte",
+          "coverage": "3 anos",
+          "serviceLevel": "Depot / CCI",
+          "deviceFamily": "IdeaPad",
+          "delivery": "Servicio digital",
+          "providerBranchSummary": "CVA reporta stock 0 sin desglose de sucursal; por ser poliza digital, el stock publico puede no mapear a inventario fisico.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-8042", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 0.01, "currency": "MXN", "evidenceHash": "cva-feed-proof-20260519:POL-8042" }
+          ],
+          "providerStockVerifiedAt": "2026-05-19T03:07:29Z",
+          "publicAvailabilitySignals": ["El SKU aparece en listados de servicios Lenovo y resellers, sin disponibilidad comparable confiable."],
+          "reviewNotes": "Precio CVA 0.01 MXN es placeholder o dato corrupto; requiere no publicarse sin regla de precio minimo para servicios."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Lenovo services", "type": "manufacturer_catalog", "url": "https://www.lenovo.com/" },
+          { "title": "CVA feed POL-8042 stock 0", "type": "provider_stock", "observedAt": "2026-05-19T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "9s90twwi0h1rcpr",
+      "research": {
+        "confidence": 0.9,
+        "brand": "ENSON",
+        "name": "Enson ENS-DC12 distribuidor pulpo DC 1 a 2 canales para CCTV",
+        "description": "Distribuidor de corriente Enson ENS-DC12 tipo pulpo para CCTV, divide una entrada DC en dos salidas para alimentar camaras o accesorios compatibles.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-alimentacion/distribuidores-dc/1-a-2/enson-ens-dc12",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-alimentacion/distribuidores-dc/1-a-2",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCMVA1140/ACCMVA1140_full.jpg"
+        ],
+        "specs": {
+          "brand": "Enson",
+          "model": "ENS-DC12",
+          "providerSku": "ACCMVA1140",
+          "alternateSku": "FPA01ENS01",
+          "ean": "0737787923344",
+          "productType": "Distribuidor DC para CCTV",
+          "channels": "1 entrada a 2 salidas",
+          "useCase": "Alimentacion de camaras CCTV y accesorios de bajo voltaje DC",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin desglose de sucursal; no se encontro fuente publica fuerte que confirme sucursal especifica.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCMVA1140", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1.01, "currency": "MXN_UNCERTAIN", "evidenceHash": "ctonline-ftp-xml-full-proof-20260520:ACCMVA1140" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Referencias publicas de ENS-DC12 son escasas; productos hermanos ENS-DC14 aparecen en distribuidores CCTV."],
+          "reviewNotes": "Precio 1.01 parece mayorista simbolico o moneda no confirmada; publicar con alerta de revision de precio."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "CTOnline feed ACCMVA1140 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
