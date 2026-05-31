@@ -1,0 +1,357 @@
+{
+  "schema_version": "electroprice.manual_web_research_batch.v1",
+  "batch_id": "manual-web:c003-b181-2026-05-30",
+  "cycle": "cycle-003",
+  "batch": 181,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "6il5resltmhdc6y",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Aspel",
+        "name": "Aspel Sellado CFDI FACTE/400 paquete 400 timbres para facturacion electronica",
+        "description": "Paquete Aspel Sellado CFDI FACTE/400 con 400 timbres fiscales digitales para emision y sellado de CFDI en sistemas Aspel compatibles.",
+        "manualCategoryPath": "software/licencias/aspel-sellado-cfdi/timbres-400",
+        "semanticCategoryPath": "software/licencias/aspel-sellado-cfdi/timbres-400/facte-400",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.aspel.com.mx/productos/sellado-cfdi",
+        "gallery": ["https://www.aspel.com.mx/productos/sellado-cfdi", "https://www.siigo.com/mx/aspel/"],
+        "documents": [],
+        "specs": {
+          "brand": "ASPEL",
+          "model": "FACTE/400",
+          "providerSku": "SOFAPL1480",
+          "productType": "Paquete de timbres CFDI",
+          "licenseFormat": "digital",
+          "quantity": "400 timbres",
+          "compatibility": "Sistemas Aspel con facturacion CFDI",
+          "providerBranchSummary": "D2A:19",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "D2A", "stock": 19}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "SOFAPL1480", "stock": 19, "price": 706.35, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Producto digital sin peso ni dimensiones fisicas.", "El nombre de proveedor omite que FACTE/400 corresponde a 400 timbres."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"format": "digital", "dimensions": "No aplica", "netWeight": "No aplica"},
+        "sourceRefs": [
+          {"title": "Aspel Sellado CFDI", "type": "manufacturer_spec", "url": "https://www.aspel.com.mx/productos/sellado-cfdi"},
+          {"title": "Siigo Aspel", "type": "manufacturer_spec", "url": "https://www.siigo.com/mx/aspel/"},
+          {"title": "Electroprice provider stock SOFAPL1480", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6iwmwaktrv7nqup",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Epson",
+        "name": "Epson ERC-38BR cinta para impresora matriz punto negro rojo",
+        "description": "Cinta original Epson ERC-38BR negro/rojo para impresoras de punto de venta y matriz de punto Epson compatibles.",
+        "manualCategoryPath": "impresion/consumibles/cintas-matriz-punto/epson-erc-38",
+        "semanticCategoryPath": "impresion/consumibles/cintas-matriz-punto/epson-erc-38/negro-rojo",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com/Accessories/Printer-Accessories/ERC-38BR-Ribbon-Cartridge/p/ERC38BR",
+        "gallery": ["https://epson.com/Accessories/Printer-Accessories/ERC-38BR-Ribbon-Cartridge/p/ERC38BR", "https://www.bhphotovideo.com/c/product/281749-REG/Epson_ERC_38BR_ERC_38BR_Ribbon.html"],
+        "documents": [],
+        "specs": {
+          "brand": "EPSON",
+          "model": "ERC-38BR",
+          "providerSku": "CAREPS2610",
+          "productType": "Cinta de matriz de punto / POS",
+          "color": "Negro y rojo",
+          "technology": "Matriz de punto / impacto",
+          "compatibility": "Impresoras Epson seleccionadas compatibles con ERC-38",
+          "providerBranchSummary": "CUN:4,CEL:1",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "CUN", "stock": 4}, {"providerId": "ctonline", "warehouseCode": "CEL", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAREPS2610", "stock": 5, "price": 53.42, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed no indicaba que es cinta bicolor negro/rojo.", "Medidas y peso varian por empaque de reseller."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"packageDimensions": "7.95 x 6 x 2.25 in reportado por reseller", "packageWeight": "0.1 lb aprox reportado por reseller"},
+        "sourceRefs": [
+          {"title": "Epson ERC-38BR", "type": "manufacturer_spec", "url": "https://epson.com/Accessories/Printer-Accessories/ERC-38BR-Ribbon-Cartridge/p/ERC38BR"},
+          {"title": "B&H Epson ERC-38BR", "type": "marketplace_spec", "url": "https://www.bhphotovideo.com/c/product/281749-REG/Epson_ERC_38BR_ERC_38BR_Ribbon.html"},
+          {"title": "Electroprice provider stock CAREPS2610", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6j4rxglz0pkisqu",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dahua Technology",
+        "name": "Dahua DH-HAC-B2A21N-U-IL-A camara HDCVI bullet 2MP dual-light con microfono",
+        "description": "Camara Dahua HDCVI bullet 2MP modelo DH-HAC-B2A21N-U-IL-A con iluminacion Smart Dual Light, microfono integrado, lente fijo y proteccion para exterior.",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-dual-light-mic",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/bullet/2mp-dual-light-mic/dahua-b2a21n-u-il-a",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/WizSense-Series/2MP/DH-HAC-B2A21N-U-IL-A",
+        "gallery": ["https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/WizSense-Series/2MP/DH-HAC-B2A21N-U-IL-A"],
+        "documents": ["https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-HAC-B2A21N-U-IL-A_datasheet.pdf"],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-HAC-B2A21N-U-IL-A",
+          "providerSku": "CAMDAH6620",
+          "sensor": "2MP CMOS",
+          "illumination": "Smart Dual Light",
+          "audio": "Microfono integrado",
+          "videoStandard": "HDCVI",
+          "providerBranchSummary": "LMO:33,TAM:15,OAX:6,ACA:4,CAM:3,MOR:1",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "LMO", "stock": 33}, {"providerId": "ctonline", "warehouseCode": "TAM", "stock": 15}, {"providerId": "ctonline", "warehouseCode": "OAX", "stock": 6}, {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 4}, {"providerId": "ctonline", "warehouseCode": "CAM", "stock": 3}, {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CAMDAH6620", "stock": 62, "price": 16.63, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Debe distinguirse de camaras Dahua B2A21 sin U/IL/audio.", "El feed estaba en categoria CCTV generica."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No confirmado en fuente publica rapida", "netWeight": "No confirmado"},
+        "sourceRefs": [
+          {"title": "Dahua DH-HAC-B2A21N-U-IL-A", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Cameras/WizSense-Series/2MP/DH-HAC-B2A21N-U-IL-A"},
+          {"title": "Dahua datasheet DH-HAC-B2A21N-U-IL-A", "type": "manufacturer_spec", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-HAC-B2A21N-U-IL-A_datasheet.pdf"},
+          {"title": "Electroprice provider stock CAMDAH6620", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6jl35hx4nduq51s",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Naceb Technology",
+        "name": "Naceb NA-0646 escritorio gamer fibra carbono con plataforma para monitor",
+        "description": "Escritorio gamer Naceb NA-0646 con acabado tipo fibra de carbono, estructura para gaming y plataforma superior para monitor.",
+        "manualCategoryPath": "gaming/mobiliario/escritorios/fibra-carbono/plataforma-monitor",
+        "semanticCategoryPath": "gaming/mobiliario/escritorios/fibra-carbono/plataforma-monitor/naceb-na-0646",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://globaloffice.mx/app/detalle/producto/games/escritorio-gamer-naceb-gaming-na-0646-escritorio-ga/na-0646",
+        "gallery": ["https://globaloffice.mx/app/detalle/producto/games/escritorio-gamer-naceb-gaming-na-0646-escritorio-ga/na-0646"],
+        "documents": [],
+        "specs": {
+          "brand": "NACEB TECHNOLOGY",
+          "model": "NA-0646",
+          "providerSku": "ESCNCB020",
+          "productType": "Escritorio gamer",
+          "finish": "Fibra de carbono",
+          "monitorPlatform": true,
+          "providerBranchSummary": "CLN:1",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "CLN", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "ESCNCB020", "stock": 1, "price": 1976, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Fuentes publicas limitadas; se conserva clasificacion por modelo/SKU y titulo de reseller.", "El feed no indicaba plataforma para monitor."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No publicado de forma confiable", "netWeight": "No publicado"},
+        "sourceRefs": [
+          {"title": "GlobalOffice Naceb NA-0646", "type": "marketplace_spec", "url": "https://globaloffice.mx/app/detalle/producto/games/escritorio-gamer-naceb-gaming-na-0646-escritorio-ga/na-0646"},
+          {"title": "Electroprice provider stock ESCNCB020", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6jr6nzfuo375c1j",
+      "research": {
+        "confidence": 0.9,
+        "brand": "CyberPower",
+        "name": "CyberPower CL1500VR regulador AVR 1500VA 750W 8 contactos",
+        "description": "Regulador de voltaje CyberPower CL1500VR con AVR, capacidad 1500VA/750W, 8 contactos NEMA 5-15R y proteccion para equipos electronicos.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1500va",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/avr/1500va/cyberpower-cl1500vr",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/cl1500vr",
+        "gallery": ["https://www.cyberpower.com/mx/es/product/sku/cl1500vr"],
+        "documents": [],
+        "specs": {
+          "brand": "CYBERPOWER",
+          "model": "CL1500VR",
+          "providerSku": "RE-188",
+          "productType": "Regulador de voltaje AVR",
+          "capacity": "1500VA / 750W",
+          "outlets": "8 NEMA 5-15R",
+          "providerBranchSummary": "Proveedor CVA sin desglose de sucursal; stock total 104.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "RE-188", "stock": 104, "price": 477.78, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["No es UPS; es regulador AVR.", "Precio de proveedor se conserva como valor crudo sin inferir moneda final."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No confirmado", "netWeight": "No confirmado"},
+        "sourceRefs": [
+          {"title": "CyberPower CL1500VR", "type": "manufacturer_spec", "url": "https://www.cyberpower.com/mx/es/product/sku/cl1500vr"},
+          {"title": "Electroprice provider stock RE-188", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6jzgtn590hwx0xn",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dahua Technology",
+        "name": "Dahua DH-XVR1B08-I/T XVR pentahibrido WizSense 8 canales",
+        "description": "Grabador Dahua DH-XVR1B08-I/T XVR pentahibrido WizSense de 8 canales para CCTV, compatible con multiples tecnologias analogicas/IP y funciones de analitica inteligente.",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-wizsense",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-wizsense/dahua-xvr1b08-it",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Recorders/WizSense-Series/XVR1B-Series/DH-XVR1B08-I",
+        "gallery": ["https://www.dahuasecurity.com/products/All-Products/HDCVI-Recorders/WizSense-Series/XVR1B-Series/DH-XVR1B08-I"],
+        "documents": [],
+        "specs": {
+          "brand": "DAHUA TECHNOLOGY",
+          "model": "DH-XVR1B08-I/T",
+          "providerSku": "GRDDAH1210",
+          "productType": "XVR pentahibrido",
+          "channels": "8 canales",
+          "analytics": "WizSense",
+          "providerBranchSummary": "CMT:89,TAM:15,CUE:14,IRA:10,TPC:9,MAZ:9,ACA:9,MOR:7,CTZ:7,TXA:7,CUN:7,CDV:7",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "CMT", "stock": 89}, {"providerId": "ctonline", "warehouseCode": "TAM", "stock": 15}, {"providerId": "ctonline", "warehouseCode": "CUE", "stock": 14}, {"providerId": "ctonline", "warehouseCode": "IRA", "stock": 10}, {"providerId": "ctonline", "warehouseCode": "TPC", "stock": 9}, {"providerId": "ctonline", "warehouseCode": "MAZ", "stock": 9}, {"providerId": "ctonline", "warehouseCode": "ACA", "stock": 9}, {"providerId": "ctonline", "warehouseCode": "MOR", "stock": 7}, {"providerId": "ctonline", "warehouseCode": "CTZ", "stock": 7}, {"providerId": "ctonline", "warehouseCode": "TXA", "stock": 7}, {"providerId": "ctonline", "warehouseCode": "CUN", "stock": 7}, {"providerId": "ctonline", "warehouseCode": "CDV", "stock": 7}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "GRDDAH1210", "stock": 243, "price": 42.48, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["La suma visible de sucursales es 190 vs stock total 243; conservar discrepancia de proveedor.", "Debe distinguirse de XVR1B08-I sin sufijo /T si el proveedor lo maneja regionalmente."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No confirmado", "netWeight": "No confirmado"},
+        "sourceRefs": [
+          {"title": "Dahua DH-XVR1B08-I", "type": "manufacturer_spec", "url": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Recorders/WizSense-Series/XVR1B-Series/DH-XVR1B08-I"},
+          {"title": "Electroprice provider stock GRDDAH1210", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6k56ce3id20npbj",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Cooler Master",
+        "name": "Cooler Master Storm Controller CMI-GSCX-BK1 gamepad Bluetooth USB-C negro",
+        "description": "Control gamepad Cooler Master Storm Controller CMI-GSCX-BK1 para juego en PC y dispositivos compatibles, con conectividad Bluetooth y USB-C.",
+        "manualCategoryPath": "gaming/accesorios/controles-gamepad/bluetooth-usb-c",
+        "semanticCategoryPath": "gaming/accesorios/controles-gamepad/bluetooth-usb-c/cooler-master-storm-controller",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.coolermaster.com/catalog/peripheral/controllers/storm-controller/",
+        "gallery": ["https://www.coolermaster.com/catalog/peripheral/controllers/storm-controller/"],
+        "documents": [],
+        "specs": {
+          "brand": "COOLER MASTER",
+          "model": "CMI-GSCX-BK1",
+          "providerSku": "CONCLR010",
+          "productType": "Control gamepad",
+          "connectivity": "Bluetooth y USB-C",
+          "color": "Negro",
+          "providerBranchSummary": "VHA:2,CDV:1",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "VHA", "stock": 2}, {"providerId": "ctonline", "warehouseCode": "CDV", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "CONCLR010", "stock": 3, "price": 33.33, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Fuentes publicas regionales son escasas; conservar MPN CMI-GSCX-BK1.", "No es periferico de oficina; pertenece a gaming/gamepads."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No confirmado", "netWeight": "No confirmado"},
+        "sourceRefs": [
+          {"title": "Cooler Master Storm Controller", "type": "manufacturer_spec", "url": "https://www.coolermaster.com/catalog/peripheral/controllers/storm-controller/"},
+          {"title": "Electroprice provider stock CONCLR010", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6k65x5h11f0ivlg",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Manhattan",
+        "name": "Manhattan MWK7400 180788 combo teclado y mouse inalambrico 2.4GHz",
+        "description": "Combo Manhattan MWK7400 modelo 180788 con teclado y mouse inalambricos de 2.4GHz para productividad diaria.",
+        "manualCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/productividad/2-4ghz",
+        "semanticCategoryPath": "computo/perifericos/combos-teclado-mouse/inalambricos/productividad/2-4ghz/manhattan-mwk7400",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-usb-wireless-keyboard-and-mouse-set-180788",
+        "gallery": ["https://manhattanproducts.us/products/manhattan-en-usb-wireless-keyboard-and-mouse-set-180788"],
+        "documents": [],
+        "specs": {
+          "brand": "MANHATTAN",
+          "model": "MWK7400 / 180788",
+          "providerSku": "KB-1123",
+          "productType": "Combo teclado y mouse inalambrico",
+          "wireless": "2.4GHz",
+          "interface": "Receptor USB",
+          "providerBranchSummary": "Proveedor CVA sin desglose de sucursal; stock total 9.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "KB-1123", "stock": 9, "price": 35.03, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["El feed solo decia MWK7400; modelo comercial 180788 completa la identificacion.", "Sin sucursal granular del proveedor."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No confirmado", "netWeight": "No confirmado"},
+        "sourceRefs": [
+          {"title": "Manhattan 180788 MWK7400", "type": "manufacturer_spec", "url": "https://manhattanproducts.us/products/manhattan-en-usb-wireless-keyboard-and-mouse-set-180788"},
+          {"title": "Electroprice provider stock KB-1123", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6k8huvhxxgpgfg3",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Vorago",
+        "name": "Vorago PSU-101 fuente de poder ATX 500W gris",
+        "description": "Fuente de poder Vorago PSU-101 ATX de 500W no modular para PC, color gris, con conectores ATX y SATA/Molex para equipos basicos.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-500w",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-500w/vorago-psu-101",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://voragolive.com/fuente-de-poder-vorago-psu-101-500w-atx-bulk.html",
+        "gallery": ["https://voragolive.com/fuente-de-poder-vorago-psu-101-500w-atx-bulk.html"],
+        "documents": ["https://voragolive.com/descargables/psu-10168331592930229.pdf"],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "PSU-101",
+          "providerSku": "CSP-709",
+          "productType": "Fuente de poder ATX",
+          "power": "500 W",
+          "cabling": "No modular",
+          "color": "Gris",
+          "providerBranchSummary": "Proveedor CVA sin desglose de sucursal; stock total 5.",
+          "providerBranches": [],
+          "providerOffers": [{"providerId": "cva", "providerSku": "CSP-709", "stock": 5, "price": 10.19, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Producto ya existia en reglas por otro SKU; se agrega CSP-709 para cobertura CVA.", "No es gabinete aunque algunas claves internas historicas lo agruparon con gabinetes."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "140 x 150 x 86 mm", "netWeight": "790 g"},
+        "sourceRefs": [
+          {"title": "Vorago PSU-101", "type": "manufacturer_spec", "url": "https://voragolive.com/fuente-de-poder-vorago-psu-101-500w-atx-bulk.html"},
+          {"title": "Vorago PSU-101 PDF", "type": "manufacturer_spec", "url": "https://voragolive.com/descargables/psu-10168331592930229.pdf"},
+          {"title": "Electroprice provider stock CSP-709", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    },
+    {
+      "product_id": "6kmzsn8wkv07rtv",
+      "research": {
+        "confidence": 0.87,
+        "brand": "Gigabyte",
+        "name": "Gigabyte Radeon RX 9060 XT Gaming OC 16G tarjeta de video PCIe",
+        "description": "Tarjeta de video Gigabyte Radeon RX 9060 XT Gaming OC 16G con 16GB de memoria para gaming y creacion, variante overclock de fabrica.",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/amd-radeon/rx-9000/rx-9060-xt",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/amd-radeon/rx-9000/rx-9060-xt/gigabyte-gaming-oc-16g",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.gigabyte.com/Graphics-Card",
+        "gallery": ["https://www.gigabyte.com/Graphics-Card"],
+        "documents": [],
+        "specs": {
+          "brand": "GIGABYTE",
+          "model": "Radeon RX 9060 XT Gaming OC 16G",
+          "providerSku": "TVIGIG3470",
+          "productType": "Tarjeta de video AMD Radeon",
+          "gpuFamily": "AMD Radeon RX 9000",
+          "memory": "16 GB",
+          "providerBranchSummary": "D2A:205,DFA:16,TXA:1",
+          "providerBranches": [{"providerId": "ctonline", "warehouseCode": "D2A", "stock": 205}, {"providerId": "ctonline", "warehouseCode": "DFA", "stock": 16}, {"providerId": "ctonline", "warehouseCode": "TXA", "stock": 1}],
+          "providerOffers": [{"providerId": "ctonline", "providerSku": "TVIGIG3470", "stock": 222, "price": 438.61, "priceKind": "provider_best_price_raw"}],
+          "sourceDiscrepancies": ["Producto emergente; conservar pagina de familia Gigabyte si la ficha exacta regional cambia.", "Legacy category se conserva gaming por arbol existente de tarjetas de video AMD Radeon."],
+          "providerStockVerifiedAt": "2026-05-30T23:59:00Z"
+        },
+        "measurements": {"dimensions": "No confirmado", "netWeight": "No confirmado"},
+        "sourceRefs": [
+          {"title": "Gigabyte graphics cards", "type": "manufacturer_family", "url": "https://www.gigabyte.com/Graphics-Card"},
+          {"title": "Electroprice provider stock TVIGIG3470", "type": "provider_stock", "observedAt": "2026-05-30T23:59:00Z"}
+        ]
+      }
+    }
+  ]
+}

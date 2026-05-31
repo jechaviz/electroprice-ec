@@ -212,6 +212,16 @@ const batch160PlusCases = [
   ["Provision-ISR NVR5-4100PXN(MM) NVR PoE 4 canales 5MP NDAA", "PROVISION-ISR", "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-5mp", "cameras"],
   ["Intellinet 520959 panel de parcheo Cat6 UTP 24 puertos 1U rack 19 pulgadas negro", "INTELLINET", "redes/cableado-estructurado/paneles-parcheo/cat6/24-puertos-1u", "networking"],
   ["BRobotix 406306 soporte antirrobo ajustable para laptop hasta 17.3 pulgadas con candado y llave plata", "BROBOTIX", "computo/accesorios/soportes-laptop/antirrobo-ajustables", "accessories"],
+  ["Aspel Sellado CFDI FACTE/400 paquete 400 timbres para facturacion electronica", "ASPEL", "software/licencias/aspel-sellado-cfdi/timbres-400", "software"],
+  ["Epson ERC-38BR cinta para impresora matriz punto negro rojo", "EPSON", "impresion/consumibles/cintas-matriz-punto/epson-erc-38", "printers_scanners"],
+  ["Dahua DH-HAC-B2A21N-U-IL-A camara HDCVI bullet 2MP dual-light con microfono", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/bullet/2mp-dual-light-mic", "cameras"],
+  ["Naceb NA-0646 escritorio gamer fibra carbono con plataforma para monitor", "NACEB TECHNOLOGY", "gaming/mobiliario/escritorios/fibra-carbono/plataforma-monitor", "gaming"],
+  ["CyberPower CL1500VR regulador AVR 1500VA 750W 8 contactos", "CYBERPOWER", "energia/supresores-reguladores/reguladores-voltaje/avr/1500va", "power"],
+  ["Dahua DH-XVR1B08-I/T XVR pentahibrido WizSense 8 canales", "DAHUA TECHNOLOGY", "seguridad/cctv/dvr-nvr/xvr-pentahibrido/8-canales-wizsense", "cameras"],
+  ["Cooler Master Storm Controller CMI-GSCX-BK1 gamepad Bluetooth USB-C negro", "COOLER MASTER", "gaming/accesorios/controles-gamepad/bluetooth-usb-c", "gaming"],
+  ["Manhattan MWK7400 180788 combo teclado y mouse inalambrico 2.4GHz", "MANHATTAN", "computo/perifericos/combos-teclado-mouse/inalambricos/productividad/2-4ghz", "accessories"],
+  ["Vorago PSU-101 fuente de poder ATX 500W gris", "VORAGO", "computo/componentes/fuentes-poder/atx-500w", "components"],
+  ["Gigabyte Radeon RX 9060 XT Gaming OC 16G tarjeta de video PCIe", "GIGABYTE", "computo/componentes/tarjetas-video/amd-radeon/rx-9000/rx-9060-xt", "gaming"],
 ] as const;
 
 describe("manual taxonomy batches 160 plus", () => {
