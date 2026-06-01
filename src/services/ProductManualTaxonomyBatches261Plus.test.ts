@@ -144,6 +144,19 @@ const batch271Cases = [
   ["Hikvision DS-2CD2T47G2-L(C) CAMHKV3120 ColorVu 4MP bullet PoE luz blanca", "HIKVISION", "seguridad/cctv/camaras-ip-poe/bullet/4mp-colorvu-luz-blanca/hikvision-ds-2cd2t47g2-l-c", "cameras", {}],
 ] as const;
 
+const batch272Cases = [
+  ["ASUS VT169HE MNL-3049 monitor tactil 15.6 FHD HDMI VGA 10 puntos", "ASUS OEM", "computo/monitores/tactiles/15-6-fhd/asus-vt169he", "monitors", {}],
+  ["Honeywell EDA10A-11BE64N21RK LCTMTR2210 ScanPal EDA10A tablet rugged POS WiFi 6", "HONEYWELL", "punto-de-venta/terminales-moviles/tabletas-rugged/android-10-pulgadas/honeywell-scanpal-eda10a-11be64n21rk", "accessories", {}],
+  ["Acteck AC-937061 AC-11847 Port X4 DH422 hub 4 en 1 USB-A 3 USB 2.0 1 USB 3.0", "ACTECK", "computo/accesorios/hubs-usb/usb-a/4-puertos/acteck-port-x4-dh422-ac-937061", "accessories", {}],
+  ["Lexmark MS531dw 38S0305 PR-2598 impresora laser monocromatica 46ppm WiFi Ethernet duplex", "LEXMARK", "impresion/impresoras/laser/monocromaticas/a4-wifi-duplex/lexmark-ms531dw-38s0305", "printers_scanners", {}],
+  ["Dahua DH-KIT/XVR5104HS-4KL-I3/4-HFW1500CMN-A-0280B-S2 DVR-351 kit 4 canales 5MP", "DAHUA", "seguridad/cctv/kits-videovigilancia/hdcvi/4-canales-5mp/dahua-kit-xvr5104hs-4kl-i3-4-hfw1500cmn-a", "cameras", {}],
+  ["Sharp MXB350P MX-B350P PR-2154 impresora laser monocromatica A4 WiFi duplex 35ppm", "SHARP", "impresion/impresoras/laser/monocromaticas/a4-wifi-duplex/sharp-mx-b350p", "printers_scanners", {}],
+  ["Poly 76U48AA SPK-2279 Voyager 4310 UC monaural Bluetooth USB-A BT700", "POLY", "audio/audifonos/bluetooth/monoaurales-uc/poly-voyager-4310-76u48aa", "headphones", {}],
+  ["QNAP TS-832PX-4G-US SAM-717 NAS 8 bahias SATA 2.5GbE 10GbE SFP+", "QNAP", "computo/almacenamiento/nas/8-bahias/10gbe-2-5gbe/qnap-ts-832px-4g-us", "storage", {}],
+  ["Samsung VM46B-U LFDSMG1130 monitor profesional videowall 46 FHD 500 nits", "SAMSUNG", "video/senalizacion-digital/videowall/46-fhd-500nit/samsung-vm46b-u", "monitors", {}],
+  ["Dahua DH-IPC-HDW2549T-S-PV CAMDAH5800 camara domo IP 5MP dual light disuasion activa", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light/active-deterrence/dahua-ipc-hdw2549t-s-pv", "cameras", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -206,6 +219,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch271Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch272Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

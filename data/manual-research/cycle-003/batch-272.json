@@ -1,0 +1,408 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b272-2026-06-01",
+  "cycle": 3,
+  "batch": 272,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "07wo80yb3c808xn",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ASUS",
+        "name": "Monitor tactil ASUS VT169HE 15.6 FHD IPS HDMI VGA 10 puntos",
+        "description": "Monitor tactil ASUS VT169HE de 15.6 pulgadas FHD 1920 x 1080, panel IPS, tactil capacitivo de 10 puntos, 220 cd/m2, 60Hz, 5ms, HDMI 1.4, VGA, USB-B para senal tactil, VESA 75 x 75 y tecnologia Eye Care. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.asus.com/us/displays-desktops/monitors/touch/vt169he/techspec/",
+        "manualCategoryPath": "computo/monitores/tactiles/15-6-fhd/asus-vt169he",
+        "semanticCategoryPath": "computo/monitores/tactiles/15-6-fhd",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10471363"],
+        "documents": ["https://www.asus.com/us/displays-desktops/monitors/touch/vt169he/techspec/"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MNL-3049", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 133.2, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "VT169HE",
+          "productType": "Monitor tactil FHD",
+          "display": "15.6 pulgadas IPS, 1920 x 1080, 60Hz, 220 cd/m2",
+          "touch": "Capacitivo 10 puntos",
+          "ports": ["HDMI 1.4", "VGA", "USB-B para touch"],
+          "mount": "VESA 75 x 75 mm",
+          "speaker": "No integrado",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MNL-3049. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MNL-3049", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 133.2, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "37.78 x 28.07 x 18.94 cm con base; 37.78 x 23.59 x 4.40 cm sin base", "weight": "1.46 kg", "packageWeight": "2.93 kg" },
+        "sourceRefs": [
+          { "title": "ASUS VT169HE tech specs", "type": "manufacturer_product", "url": "https://www.asus.com/us/displays-desktops/monitors/touch/vt169he/techspec/" },
+          { "title": "Best Buy ASUS VT169HE", "type": "retailer_reference", "url": "https://www.bestbuy.com/site/asus-vt169he-15-6-full-hd-touch-monitor-black/6579188.p" }
+        ]
+      }
+    },
+    {
+      "product_id": "07ww3kophrl0cvv",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Honeywell",
+        "name": "Tableta rugged Honeywell ScanPal EDA10A EDA10A-11BE64N21RK 10.1 4GB 64GB",
+        "description": "Tableta rugged Honeywell ScanPal EDA10A EDA10A-11BE64N21RK para POS, retail y almacen, pantalla 10.1 FHD 1920 x 1200 de 550 nits con Gorilla Glass 5, Snapdragon SM4350-AC octa-core, 4GB RAM, 64GB flash, Wi-Fi 6, Bluetooth 5.1, NFC, bateria hot-swap 8000mAh, IP65 y MIL-STD-810H. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/tablets/scanpal-eda10a-tablet",
+        "manualCategoryPath": "punto-de-venta/terminales-moviles/tabletas-rugged/android-10-pulgadas/honeywell-scanpal-eda10a-11be64n21rk",
+        "semanticCategoryPath": "punto-de-venta/terminales-moviles/tabletas-rugged/android-10-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/LCTMTR2210/LCTMTR2210_full.jpg"],
+        "documents": ["https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/mobile-computers/tablets/eda10a/documents/sps-ppr-scanpal-eda10a-tablet-data-sheet-en-row.pdf?download=false"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "LCTMTR2210", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 706.82, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "EDA10A-11BE64N21RK",
+          "productLine": "ScanPal EDA10A",
+          "productType": "Tableta rugged POS",
+          "display": "10.1 pulgadas, 1920 x 1200, 550 nits, Gorilla Glass 5",
+          "processor": "Qualcomm Snapdragon SM4350-AC octa-core hasta 2.2GHz",
+          "memory": "4GB RAM",
+          "storage": "64GB flash",
+          "cameras": ["16MP trasera", "8MP frontal"],
+          "wireless": ["Wi-Fi 6", "Bluetooth 5.1", "NFC", "WWAN/5G segun variante"],
+          "battery": "8000mAh hot-swap",
+          "durability": ["IP65", "MIL-STD-810H"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para LCTMTR2210. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "LCTMTR2210", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 706.82, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "257 x 166.5 x 11.7 mm", "weight": "674 g" },
+        "sourceRefs": [
+          { "title": "Honeywell ScanPal EDA10A product page", "type": "manufacturer_product", "url": "https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/tablets/scanpal-eda10a-tablet" },
+          { "title": "Honeywell EDA10A datasheet", "type": "manufacturer_datasheet", "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/mobile-computers/tablets/eda10a/documents/sps-ppr-scanpal-eda10a-tablet-data-sheet-en-row.pdf?download=false" }
+        ]
+      }
+    },
+    {
+      "product_id": "07xcsfkyvflgtk8",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Acteck",
+        "name": "Hub USB-A Acteck Port X4 DH422 AC-937061 4 en 1 negro",
+        "description": "Hub USB Acteck Port X4 DH422 AC-937061 negro con conector USB-A, 1 puerto USB 3.0/3.1 Gen1 de 5Gbps y 3 puertos USB 2.0 de 480Mbps, cable de 30cm, carcasa ABS y compatibilidad Windows, macOS y Linux. CVA reporta stock 0.",
+        "manufacturerUrl": "https://acteck.com/products/hub-port-x4-dh422-4-en-1",
+        "manualCategoryPath": "computo/accesorios/hubs-usb/usb-a/4-puertos/acteck-port-x4-dh422-ac-937061",
+        "semanticCategoryPath": "computo/accesorios/hubs-usb/usb-a/4-puertos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10410714"],
+        "documents": ["https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-937061_V1.pdf?v=1699039926"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "AC-11847", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 96.86, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "AC-937061 / DH422",
+          "productLine": "Port X4",
+          "productType": "Hub USB-A 4 en 1",
+          "ports": ["1 x USB 3.0/3.1 Gen1 5Gbps", "3 x USB 2.0 480Mbps"],
+          "hostConnector": "USB-A",
+          "cableLength": "30 cm",
+          "compatibility": ["Windows", "macOS", "Linux"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para AC-11847. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-11847", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 96.86, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "77 x 16.5 x 25 mm", "weight": "35 g", "packageDimensions": "10.5 x 7.7 x 2.3 cm" },
+        "sourceRefs": [
+          { "title": "Acteck Port X4 DH422 product page", "type": "manufacturer_product", "url": "https://acteck.com/products/hub-port-x4-dh422-4-en-1" },
+          { "title": "Acteck AC-937061 datasheet", "type": "manufacturer_datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica_AC-937061_V1.pdf?v=1699039926" }
+        ]
+      }
+    },
+    {
+      "product_id": "0802l7xlnamlpl0",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Lexmark",
+        "name": "Impresora Lexmark MS531dw 38S0305 laser monocromatica A4 Wi-Fi duplex 46ppm",
+        "description": "Impresora laser monocromatica Lexmark MS531dw 38S0305, print-only, hasta 46ppm carta / 44ppm A4, duplex, 1200 x 1200 dpi, Ethernet Gigabit, USB, Wi-Fi, entrada estandar 350 hojas, ciclo mensual maximo 120000 paginas y toner de alto rendimiento hasta 28400 paginas. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.lexmark.com/es_mx/printers/printer/25025/Lexmark-MS531dw",
+        "manualCategoryPath": "impresion/impresoras/laser/monocromaticas/a4-wifi-duplex/lexmark-ms531dw-38s0305",
+        "semanticCategoryPath": "impresion/impresoras/laser/monocromaticas/a4-wifi-duplex",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10417861"],
+        "documents": ["https://www.lexmark.com/es_mx/printers/printer/25025/Lexmark-MS531dw"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "PR-2598", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 397.94, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "MS531dw",
+          "partNumber": "38S0305",
+          "productType": "Impresora laser monocromatica",
+          "printSpeed": "46 ppm carta / 44 ppm A4",
+          "printResolution": "1200 x 1200 dpi",
+          "duplex": "Integrado",
+          "paperInput": "350 hojas estandar",
+          "monthlyDutyCycle": "120000 paginas maximo",
+          "ports": ["Gigabit Ethernet", "USB", "Wi-Fi"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para PR-2598. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "PR-2598", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 397.94, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "263.1 x 399 x 389.4 mm", "weight": "13.5 kg", "packageDimensions": "376 x 470 x 430 mm", "packageWeight": "15.3 kg" },
+        "sourceRefs": [
+          { "title": "Lexmark MS531dw official MX page", "type": "manufacturer_product", "url": "https://www.lexmark.com/es_mx/printers/printer/25025/Lexmark-MS531dw" },
+          { "title": "Cyberpuerta Lexmark MS531dw", "type": "retailer_reference", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Impresoras-y-Multifuncionales/Impresoras/Lexmark-MS531dw-Blanco-y-Negro-Laser-Print.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "081lrfdk7y31b0s",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dahua",
+        "name": "Kit Dahua DH-KIT/XVR5104HS-4KL-I3/4-HFW1500CMN-A 4 canales 5MP WizSense",
+        "description": "Kit Dahua DH-KIT/XVR5104HS-4KL-I3/4-HFW1500CMN-A-0280B-S2 con DVR XVR5104HS-4KL-I3, 4 camaras HAC-HFW1500CMN-A-0280B-S2, 4 cables siameses 18m, fuente y accesorios. DVR H.265+/H.265, 4 BNC, hasta 8 IP, 64Mbps y analitica SMD/AI; camaras 5MP, lente 2.8mm, IR 30m, microfono, HDCVI/TVI/AHD/CVBS e IP67. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Recorders/4K-Value5MP-Series/XVR5104HS-4KL-I3%3DV3",
+        "manualCategoryPath": "seguridad/cctv/kits-videovigilancia/hdcvi/4-canales-5mp/dahua-kit-xvr5104hs-4kl-i3-4-hfw1500cmn-a",
+        "semanticCategoryPath": "seguridad/cctv/kits-videovigilancia/hdcvi/4-canales-5mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10342875"],
+        "documents": ["https://www.dahuasecurity.com/asset/upload/uploads/cpq/DH-HAC-HFW1500CM%28A%29-S2_datasheet_20200923.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "DVR-351", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 174.21, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "DH-KIT/XVR5104HS-4KL-I3/4-HFW1500CMN-A-0280B-S2",
+          "recorder": "XVR5104HS-4KL-I3",
+          "cameras": "4 x HAC-HFW1500CMN-A-0280B-S2",
+          "productType": "Kit CCTV HDCVI 4 canales",
+          "recorderFeatures": ["4 BNC", "hasta 8 canales IP", "64Mbps", "H.265+", "SMD/AI"],
+          "cameraFeatures": ["5MP", "2.8mm", "IR 30m", "microfono", "IP67"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para DVR-351. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "DVR-351", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 174.21, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "DVR 260.0 x 237.8 x 47.6 mm; camara 166.6 x 69.7 x 70.0 mm", "weight": "DVR 0.96 kg neto; camara 0.33 kg neto" },
+        "sourceRefs": [
+          { "title": "Dahua XVR5104HS-4KL-I3 official page", "type": "manufacturer_product", "url": "https://www.dahuasecurity.com/products/All-Products/HDCVI-Recorders/4K-Value5MP-Series/XVR5104HS-4KL-I3%3DV3" },
+          { "title": "TVC Dahua kit exacto", "type": "retailer_reference", "url": "https://tvc.mx/products/38339/kit-dahua-4-canales-xvr5104hs-4kl-i34-hfw1500cmn-a-0280b-s2" }
+        ]
+      }
+    },
+    {
+      "product_id": "0840ci99e8zvojd",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Sharp",
+        "name": "Impresora Sharp MX-B350P laser monocromatica A4 Wi-Fi duplex 35ppm",
+        "description": "Impresora Sharp MX-B350P laser monocromatica A4 de 35ppm, duplex, LCD 5 lineas, 600 x 600 dpi, 1GB RAM, Wi-Fi, USB 2.0, Ethernet 10/100/1000, PCL 6 / PostScript 3 emulation, papel estandar 550 hojas y maximo 1150 hojas. CVA reporta stock 0.",
+        "manufacturerUrl": "https://global.sharp/products/copier/products/mx_b450p/specifications/index.html",
+        "manualCategoryPath": "impresion/impresoras/laser/monocromaticas/a4-wifi-duplex/sharp-mx-b350p",
+        "semanticCategoryPath": "impresion/impresoras/laser/monocromaticas/a4-wifi-duplex",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10123251"],
+        "documents": ["https://global.sharp/products/copier/products/mx_b450p/specifications/index.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "PR-2154", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 19749.59, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "MX-B350P",
+          "productType": "Impresora laser monocromatica A4",
+          "printSpeed": "35 ppm",
+          "resolution": "600 x 600 dpi",
+          "duplex": "Integrado",
+          "display": "LCD 5 lineas",
+          "memory": "1GB",
+          "paperCapacity": "550 hojas estandar, 1150 maximo",
+          "ports": ["USB 2.0", "10/100/1000 Ethernet", "Wi-Fi"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para PR-2154. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "PR-2154", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 19749.59, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "489 x 517 x 440 mm", "weight": "23 kg" },
+        "sourceRefs": [
+          { "title": "Sharp MX-B350P/MX-B450P specifications", "type": "manufacturer_product", "url": "https://global.sharp/products/copier/products/mx_b450p/specifications/index.html" },
+          { "title": "Sears MX-B350P", "type": "retailer_reference", "url": "https://www.sears.com.mx/producto/3605763/impresora-sharp-laser-monocromatico-mx-b350p-blanco-y-negro" }
+        ]
+      }
+    },
+    {
+      "product_id": "0858jz3gzmwv2o2",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Poly",
+        "name": "Diadema Poly Voyager 4310 UC 76U48AA monoaural Bluetooth USB-A BT700",
+        "description": "Diadema inalambrica monoaural Poly Voyager 4310 UC 76U48AA con adaptador BT700 USB-A, Bluetooth, microfonos duales con cancelacion/Acoustic Fence, altavoz 32mm, hasta 24h de conversacion, 47h de musica, 50 dias standby, cable de 1.5m y hasta 8 dispositivos pareados. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2101534668",
+        "manualCategoryPath": "audio/audifonos/bluetooth/monoaurales-uc/poly-voyager-4310-76u48aa",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/monoaurales-uc",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10356332"],
+        "documents": ["https://www.telephonesystems.com/media/25/product/attachments/voyager-4300-uc-series-ds-en.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SPK-2279", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2807.59, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "76U48AA / Voyager 4310 UC",
+          "productType": "Diadema Bluetooth monoaural UC",
+          "connection": ["Bluetooth", "BT700 USB-A", "USB-C cable"],
+          "microphone": "2 microfonos con cancelacion y Acoustic Fence",
+          "speaker": "32 mm",
+          "talkTime": "Hasta 24 h",
+          "listeningTime": "Hasta 47 h",
+          "standbyTime": "Hasta 50 dias",
+          "pairedDevices": "Hasta 8",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SPK-2279. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SPK-2279", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2807.59, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "15.5 x 6.7 x 18.2 cm", "weight": "122 g", "packageDimensions": "186 x 210 x 55 mm", "packageWeight": "292.73 g" },
+        "sourceRefs": [
+          { "title": "HP Poly Voyager 4310 UC specs", "type": "manufacturer_support", "url": "https://www.hp.com/ie-en/products/accessories/product-details/product-specifications/2101534668" },
+          { "title": "B&H Poly 76U48AA", "type": "retailer_reference", "url": "https://www.bhphotovideo.com/c/product/1805140-REG/poly_76u48aa_voyager_4310_usb_a_headset.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "0891gm1n0yw53tu",
+      "research": {
+        "confidence": 0.95,
+        "brand": "QNAP",
+        "name": "NAS QNAP TS-832PX-4G-US 8 bahias SATA 4GB DDR4 2x10GbE SFP+ 2x2.5GbE",
+        "description": "NAS QNAP TS-832PX-4G-US de torre con 8 bahias SATA hot-swap, CPU AnnapurnaLabs AL324 ARM Cortex-A57 quad-core 1.7GHz, 4GB DDR4 ampliable a 16GB, 2 puertos 10GbE SFP+, 2 puertos 2.5GbE RJ45, PCIe Gen2 x2 y 3 USB 3.2 Gen1. No incluye discos. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.qnap.com/en/product/ts-832px/specs/hardware",
+        "manualCategoryPath": "computo/almacenamiento/nas/8-bahias/10gbe-2-5gbe/qnap-ts-832px-4g-us",
+        "semanticCategoryPath": "computo/almacenamiento/nas/8-bahias/10gbe-2-5gbe",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10299713"],
+        "documents": ["https://www.qnap.com/en/product/ts-832px/specs/hardware/TS-832PX-4G.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SAM-717", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 976.57, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "TS-832PX-4G-US",
+          "productType": "NAS de torre 8 bahias",
+          "processor": "AnnapurnaLabs AL324 ARM Cortex-A57 quad-core 1.7GHz",
+          "memory": "4GB DDR4, maximo 16GB",
+          "driveBays": "8 x SATA 3.5/2.5 hot-swap",
+          "network": ["2 x 10GbE SFP+", "2 x 2.5GbE RJ45"],
+          "expansion": "PCIe Gen2 x2",
+          "usb": "3 x USB 3.2 Gen1",
+          "disksIncluded": false,
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SAM-717. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SAM-717", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 976.57, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "180.2 x 329.3 x 280.8 mm", "weight": "7.05 kg", "packageWeight": "8 kg" },
+        "sourceRefs": [
+          { "title": "QNAP TS-832PX hardware specs", "type": "manufacturer_product", "url": "https://www.qnap.com/en/product/ts-832px/specs/hardware" },
+          { "title": "QNAP TS-832PX-4G PDF", "type": "manufacturer_datasheet", "url": "https://www.qnap.com/en/product/ts-832px/specs/hardware/TS-832PX-4G.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "08b088fp9yaokef",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Samsung",
+        "name": "Pantalla videowall Samsung VM46B-U 46 FHD 500 nits bisel 3.5mm",
+        "description": "Pantalla comercial Samsung VM46B-U de 46 pulgadas para videowall y senalizacion digital, IPS FHD 1920 x 1080, 500 nits, contraste 1200:1, operacion 24/7, IP5X, bisel 3.5mm B-to-B, HDMI x2, DisplayPort, DVI, USB, RJ45, RS232 y VESA 600 x 400. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.samsung.com/de/business/smart-signage/video-wall/vmb-u-fhd-1080p-500nit-ip5x-35mm-lh46vmbubgbxen/",
+        "manualCategoryPath": "video/senalizacion-digital/videowall/46-fhd-500nit/samsung-vm46b-u",
+        "semanticCategoryPath": "video/senalizacion-digital/videowall/46-fhd-500nit",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/LFDSMG1130/LFDSMG1130_full.jpg"],
+        "documents": ["https://www.samsung.com/de/business/smart-signage/video-wall/vmb-u-fhd-1080p-500nit-ip5x-35mm-lh46vmbubgbxen/"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "LFDSMG1130", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 26445.6, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "VM46B-U",
+          "ean": "8806094358520",
+          "upc": "887276652450",
+          "productType": "Pantalla profesional para videowall",
+          "display": "46 pulgadas IPS, FHD 1920 x 1080, 500 nits",
+          "operation": "24/7",
+          "bezel": "3.5 mm B-to-B",
+          "protection": "IP5X",
+          "ports": ["2 x HDMI", "DisplayPort 1.2", "DVI", "USB", "RJ45", "RS232"],
+          "vesa": "600 x 400 mm",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para LFDSMG1130. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "LFDSMG1130", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 26445.6, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "1022 x 577 x 69.9 mm", "weight": "15.7 kg", "packageDimensions": "1193 x 719 x 257 mm", "packageWeight": "22.2 kg" },
+        "sourceRefs": [
+          { "title": "Samsung VM46B-U business product page", "type": "manufacturer_product", "url": "https://www.samsung.com/de/business/smart-signage/video-wall/vmb-u-fhd-1080p-500nit-ip5x-35mm-lh46vmbubgbxen/" },
+          { "title": "B&H Samsung VM46B-U", "type": "retailer_reference", "url": "https://www.bhphotovideo.com/c/product/1693874-REG/samsung_lh46vmbubgbxza_vm46b_u_46_500nits_3_5mm.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "08ddoyzx8fi5yym",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Dahua Technology",
+        "name": "Camara IP Dahua IPC-HDW2549T-S-PV 5MP Smart Dual Light disuasion activa 2.8mm",
+        "description": "Camara IP Dahua IPC-HDW2549T-S-PV tipo eyeball/turret de 5MP con sensor 1/2.7 CMOS, Smart Dual Light con IR y luz calida hasta 30m, disuasion activa con sirena y luz, microfono y bocina integrados, SMD Plus, microSD hasta 256GB, 12VDC/PoE, ONVIF S/G/T e IP67. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/mx/products/All-Products/Network-Cameras/2-Series/Active-Deterrence/IPC-HDW2549T-S-PV",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light/active-deterrence/dahua-ipc-hdw2549t-s-pv",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light/active-deterrence",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMDAH5800/CAMDAH5800_full.jpg"],
+        "documents": ["https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-IPC-HDW2549T-S-PV_S0_datasheet_20250321.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAMDAH5800", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 79.8, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "DH-IPC-HDW2549T-S-PV",
+          "productType": "Camara IP PoE eyeball/turret 5MP",
+          "sensor": "1/2.7 in CMOS",
+          "resolution": "5MP, proveedor indica 2960 x 1688",
+          "lens": "2.8mm fijo segun proveedor",
+          "illumination": "IR y luz calida hasta 30m",
+          "activeDeterrence": ["Sirena", "Luz de advertencia"],
+          "audio": ["Microfono integrado", "Bocina integrada", "Audio dos vias"],
+          "analytics": ["SMD Plus", "IVS humano/vehiculo"],
+          "storage": "MicroSD hasta 256GB",
+          "power": ["12 VDC", "PoE"],
+          "ingressProtection": "IP67",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAMDAH5800. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAMDAH5800", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 79.8, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "103.5 mm x 109.9 mm diameter", "weight": "0.39 kg", "packageWeight": "0.57 kg" },
+        "sourceRefs": [
+          { "title": "Dahua IPC-HDW2549T-S-PV official MX page", "type": "manufacturer_product", "url": "https://www.dahuasecurity.com/mx/products/All-Products/Network-Cameras/2-Series/Active-Deterrence/IPC-HDW2549T-S-PV" },
+          { "title": "Dahua IPC-HDW2549T-S-PV datasheet", "type": "manufacturer_datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DH-IPC-HDW2549T-S-PV_S0_datasheet_20250321.pdf" }
+        ]
+      }
+    }
+  ]
+}
