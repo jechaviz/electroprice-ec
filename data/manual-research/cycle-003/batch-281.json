@@ -1,0 +1,394 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b281-2026-06-01",
+  "cycle": 3,
+  "batch": 281,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0giohc08b0zc6tp",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Microsoft",
+        "name": "Licencia Microsoft Power BI Pro SaaS por usuario CFQ7TTC0LHSFP1YM",
+        "description": "Licencia SaaS Microsoft Power BI Pro por usuario para publicar, compartir y colaborar en reportes de Power BI/Fabric. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://learn.microsoft.com/en-us/power-bi/fundamentals/service-features-license-type",
+        "manualCategoryPath": "software/analitica-datos/business-intelligence/microsoft-power-bi/pro-saas/cfq7ttc0lhsfp1ym",
+        "semanticCategoryPath": "software/analitica-datos/business-intelligence/microsoft-power-bi/pro-saas",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NCEMSA230/NCEMSA230_full.jpg"],
+        "documents": ["https://learn.microsoft.com/en-us/power-bi/fundamentals/service-features-license-type", "https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "NCEMSA230", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 13.48, "currency": "USD" }],
+        "specs": {
+          "model": "CFQ7TTC0LHSFP1YM",
+          "aliases": ["CFQ7TTC0LHSFP1YM", "CFQ7TTC0LHSF", "NCEMSA230", "Power BI Pro"],
+          "licenseType": "SaaS por usuario",
+          "productSuite": "Microsoft Power BI / Microsoft Fabric",
+          "features": ["publicar reportes en Power BI Service", "compartir dashboards y reportes", "colaboracion con otros usuarios Pro", "consumo de contenido compartido Pro"],
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para NCEMSA230. CT Internacional tiene presencia nacional; producto digital sin sucursal fisica expuesta en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "NCEMSA230", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 13.48, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Microsoft oficial vende Power BI Pro como licencia por usuario; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false },
+        "sourceRefs": [
+          { "title": "Microsoft Learn Power BI license types", "type": "manufacturer_page", "url": "https://learn.microsoft.com/en-us/power-bi/fundamentals/service-features-license-type" },
+          { "title": "Microsoft Power BI pricing", "type": "manufacturer_page", "url": "https://www.microsoft.com/en-us/power-platform/products/power-bi/pricing" },
+          { "title": "CTOnline feed NCEMSA230 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0gr2hf2wm6h0k14",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Kaspersky",
+        "name": "Kaspersky Next EDR Optimum Plus KL4066ZAUD8 500-999 licencias 2 anos",
+        "description": "Licenciamiento empresarial Kaspersky Next EDR Optimum Plus para rango 500-999 licencias y periodo de 2 anos segun SKU proveedor. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://latam.kaspersky.com/next-edr-optimum",
+        "manualCategoryPath": "software/seguridad/endpoint/kaspersky-next/edr-optimum-plus/500-999-licencias-2-anos/kl4066zaud8",
+        "semanticCategoryPath": "software/seguridad/endpoint/kaspersky-next/edr-optimum-plus/500-999-licencias-2-anos",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFKPS2880/SOFKPS2880_full.jpg"],
+        "documents": ["https://latam.kaspersky.com/next-edr-optimum", "https://content.kaspersky-labs.com/se/media/latam/business-security/kaspersky-next-edr-optimum-datasheet.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "SOFKPS2880", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 837.84, "currency": "MXN" }],
+        "specs": {
+          "model": "KL4066ZAUD8",
+          "aliases": ["KL4066ZAUD8", "SOFKPS2880", "Kaspersky Next EDR Optimum Plus"],
+          "licenseType": "Endpoint security / EDR por volumen",
+          "term": "2 anos",
+          "seatBand": "500-999 licencias",
+          "features": ["endpoint protection", "EDR Optimum", "deteccion de amenazas", "investigacion guiada", "respuesta ante incidentes"],
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para SOFKPS2880. CT Internacional tiene presencia nacional; producto digital sin sucursal fisica expuesta en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SOFKPS2880", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 837.84, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Kaspersky publica el producto Next EDR Optimum; el sufijo Plus/rango 500-999/2 anos corresponde al SKU de canal. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false },
+        "sourceRefs": [
+          { "title": "Kaspersky Next EDR Optimum oficial", "type": "manufacturer_page", "url": "https://latam.kaspersky.com/next-edr-optimum" },
+          { "title": "Kaspersky Next EDR Optimum datasheet", "type": "manufacturer_datasheet", "url": "https://content.kaspersky-labs.com/se/media/latam/business-security/kaspersky-next-edr-optimum-datasheet.pdf" },
+          { "title": "CTOnline feed SOFKPS2880 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0gyutqiefkt9m7o",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Grandstream",
+        "name": "Modulo de expansion Grandstream GXP2200EXT para telefonos IP GXP2140 GXP2170 GXV3240",
+        "description": "Modulo de expansion Grandstream GXP2200EXT con LCD 128 x 384, 20 teclas programables bicolor y hasta 40 extensiones por modulo para telefonos IP compatibles. CTOnline/CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.grandstream.com/products/ip-voice-telephony/extension-modules/product/gxp2200ext-expansion-module",
+        "manualCategoryPath": "telefonia/telefonos-ip/accesorios/modulos-expansion/grandstream-gxp2200ext",
+        "semanticCategoryPath": "telefonia/telefonos-ip/accesorios/modulos-expansion",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10067565", "https://www.grandstream.com/hubfs/Product%20Images/GXP2200EXT/gxp2200_front.png"],
+        "documents": ["https://www.grandstream.com/hubfs/Product_Documentation/datasheet_gxp2200ext_english.pdf?hsLang=en", "https://www.grandstream.com/hubfs/Product_Documentation/datasheet_gxp2200ext_spanish.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "VIDGDM020", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 87.98, "currency": "USD" }, { "wholesalerId": "cva", "sku": "AC-6658", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 93.89, "currency": "USD" }],
+        "specs": {
+          "model": "GXP2200EXT",
+          "aliases": ["GXP2200EXT", "GXP2200-EXT", "VIDGDM020", "AC-6658", "6947273701095"],
+          "ean": "6947273701095",
+          "display": "LCD grafico 128 x 384",
+          "keys": "20 teclas programables bicolor, 2 paginas, hasta 40 contactos por modulo",
+          "maxExpansion": "hasta 4 modulos en cadena / 160 contactos",
+          "compatibility": ["Grandstream GXP2140", "Grandstream GXP2170", "Grandstream GXV3240"],
+          "features": ["BLF", "marcacion rapida", "BLA/SCA", "call park/pickup", "presencia", "intercom", "conferencia", "transferencia", "desvio"],
+          "power": "alimentado/controlado por telefono anfitrion",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para VIDGDM020 y CVA/PB reporta stock 0 para AC-6658. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "VIDGDM020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 87.98, "currency": "USD" }, { "providerId": "cva", "providerSku": "AC-6658", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 93.89, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Grandstream mantiene ficha/datasheet oficial; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "206 x 117 x 32 mm", "weight": "0.38 kg" },
+        "sourceRefs": [
+          { "title": "Grandstream GXP2200EXT oficial", "type": "manufacturer_page", "url": "https://www.grandstream.com/products/ip-voice-telephony/extension-modules/product/gxp2200ext-expansion-module" },
+          { "title": "Grandstream GXP2200EXT datasheet EN", "type": "manufacturer_datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/datasheet_gxp2200ext_english.pdf?hsLang=en" },
+          { "title": "CTOnline feed VIDGDM020 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed AC-6658 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0h1x3cwxriu25bk",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Apple",
+        "name": "Apple iMac 24 Retina 4.5K M4 10C 24GB 1TB plata Z1K1",
+        "description": "iMac 24 pulgadas Retina 4.5K CTO color plata con chip Apple M4 CPU/GPU 10 nucleos, 24GB de memoria unificada, SSD 1TB, cuatro puertos Thunderbolt 4, Ethernet Gigabit y Magic Keyboard con Touch ID. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://support.apple.com/en-euro/121557",
+        "manualCategoryPath": "computo/desktops/all-in-one/apple-imac/24-retina-4-5k/m4-10c-24gb-1tb-plata",
+        "semanticCategoryPath": "computo/desktops/all-in-one/apple-imac/24-retina-4-5k",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10469697"],
+        "documents": ["https://support.apple.com/en-euro/121557", "https://www.apple.com/imac/"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "PC-6781", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 43353.67, "currency": "MXN" }],
+        "specs": {
+          "model": "Z1K1",
+          "aliases": ["Z1K1", "Z1K10LL/A", "PC-6781", "iMac 24 M4 CTO"],
+          "productType": "Computadora all-in-one CTO",
+          "display": "24 pulgadas Retina 4.5K, 4480 x 2520, 500 nits, P3, True Tone",
+          "processor": "Apple M4 CPU 10 nucleos, GPU 10 nucleos, Neural Engine 16 nucleos",
+          "memory": "24GB memoria unificada",
+          "storage": "1TB SSD",
+          "ports": ["4 Thunderbolt 4", "USB 4", "USB 3.1 Gen 2", "DisplayPort", "3.5 mm audio", "Gigabit Ethernet"],
+          "wireless": ["Wi-Fi 6E", "Bluetooth 5.3"],
+          "camera": "12MP Center Stage",
+          "color": "Plata",
+          "included": ["Magic Keyboard con Touch ID", "Magic Mouse", "adaptador 143W", "cable USB-C"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para PC-6781. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "PC-6781", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 43353.67, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Apple oficial confirma la plataforma iMac 24 2024 M4; Z1K1 es configuracion CTO de canal. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "54.7 x 46.1 x 14.7 cm con base", "weight": "4.44 kg" },
+        "sourceRefs": [
+          { "title": "Apple iMac 24-inch 2024 Four ports tech specs", "type": "manufacturer_page", "url": "https://support.apple.com/en-euro/121557" },
+          { "title": "Apple iMac oficial", "type": "manufacturer_page", "url": "https://www.apple.com/imac/" },
+          { "title": "CVA feed PC-6781 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0h2qs4fnawv7aci",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Intellinet",
+        "name": "Cable patch Intellinet 320771 Cat5e UTP RJ45 5m negro",
+        "description": "Cable patch Intellinet 320771 Cat5e UTP negro de 5.0 m/14 ft con conectores RJ45 macho, botas anti-enganche, contactos dorados y chaqueta PVC. CTOnline/CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://intellinetnetwork.eu/fr/products/intellinet-en-network-cable-cat5e-utp-320771",
+        "manualCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/5m/utp-negro/intellinet-320771",
+        "semanticCategoryPath": "redes/cableado-estructurado/patch-cords/cat5e/5m",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2283686"],
+        "documents": ["https://intellinetnetwork.eu/fr/products/intellinet-en-network-cable-cat5e-utp-320771"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "CABITL175", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 4.4, "currency": "USD" }, { "wholesalerId": "cva", "sku": "CB-285", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 4.46, "currency": "USD" }],
+        "specs": {
+          "model": "320771",
+          "aliases": ["320771", "IEC-C5-BK-14", "CABITL175", "CB-285", "766623320771", "0766623320771"],
+          "upc": "766623320771",
+          "ean": "0766623320771",
+          "productType": "Cable patch Cat5e UTP",
+          "length": "5.0 m / 14 ft",
+          "color": "Negro",
+          "connectors": "RJ45 macho / RJ45 macho",
+          "standards": ["Cat5e", "UTP", "EIA/TIA", "350 MHz"],
+          "features": ["contactos dorados", "chaqueta PVC", "botas anti-enganche", "strain relief"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CABITL175 y CVA/PB reporta stock 0 para CB-285. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CABITL175", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4.4, "currency": "USD" }, { "providerId": "cva", "providerSku": "CB-285", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4.46, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Intellinet Europe muestra SKU 320771 agotado; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "5.0 m", "weight": "0.14 kg", "packageDimensions": "280 x 175 x 35 mm" },
+        "sourceRefs": [
+          { "title": "Intellinet 320771 oficial Europe", "type": "manufacturer_page", "url": "https://intellinetnetwork.eu/fr/products/intellinet-en-network-cable-cat5e-utp-320771" },
+          { "title": "CTOnline feed CABITL175 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed CB-285 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0h35hjib93zjaou",
+      "research": {
+        "confidence": 0.94,
+        "brand": "HPE Aruba Networking",
+        "name": "Switch HPE Aruba Networking CX 6000 R8N88A 24G 4SFP administrable",
+        "description": "Switch administrable HPE Aruba Networking CX 6000 R8N88A con 24 puertos 10/100/1000BASE-T, 4 puertos SFP 1G, AOS-CX, L2/static routing, capacidad 56Gbps y modelo no PoE. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/Networking/Switches/Fixed-Port-L3-Managed-Ethernet-Switches/Networking-CX-Switch-Series/HPE-Aruba-Networking-CX-6000-24G-4SFP-Switch/p/R8N88A",
+        "manualCategoryPath": "redes/switches/administrables/gigabit/24-puertos-4-sfp/hpe-aruba-cx-6000-r8n88a",
+        "semanticCategoryPath": "redes/switches/administrables/gigabit/24-puertos-4-sfp",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10286013"],
+        "documents": ["https://buy.hpe.com/us/en/Networking/Switches/Fixed-Port-L3-Managed-Ethernet-Switches/Networking-CX-Switch-Series/HPE-Aruba-Networking-CX-6000-24G-4SFP-Switch/p/R8N88A", "https://www.hpe.com/psnow/downloadDoc/HPE%20Aruba%20Networking%20CX%206000%20Switch%20Series%20QuickSpecs-a50002592enw.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "NIC-3803", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 12336.2, "currency": "MXN" }],
+        "specs": {
+          "model": "R8N88A",
+          "aliases": ["R8N88A", "NIC-3803", "HPE Aruba CX 6000 24G 4SFP"],
+          "ports": ["24 x 10/100/1000BASE-T", "4 x 1G SFP", "USB-C console", "USB-A host"],
+          "switchingCapacity": "56 Gbps",
+          "throughput": "41.6 Mpps",
+          "latency": "1 Gbps: 1.5 usec",
+          "management": ["AOS-CX", "HPE Aruba Networking Central", "Web GUI", "CLI"],
+          "poe": "No PoE",
+          "power": "100-127 VAC / 200-240 VAC, max 33W sin PoE",
+          "memoryProcessor": "Dual Core ARM Cortex A9 1016 MHz, 4GB/8GB DDR3 segun doc, 16GB eMMC",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para NIC-3803. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "NIC-3803", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 12336.2, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["HPE Store muestra producto R8N88A; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "4.4 x 44.2 x 20.1 cm", "weight": "2.6 kg" },
+        "sourceRefs": [
+          { "title": "HPE Store R8N88A", "type": "manufacturer_page", "url": "https://buy.hpe.com/us/en/Networking/Switches/Fixed-Port-L3-Managed-Ethernet-Switches/Networking-CX-Switch-Series/HPE-Aruba-Networking-CX-6000-24G-4SFP-Switch/p/R8N88A" },
+          { "title": "HPE Aruba CX 6000 QuickSpecs", "type": "manufacturer_datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%20Aruba%20Networking%20CX%206000%20Switch%20Series%20QuickSpecs-a50002592enw.pdf" },
+          { "title": "CVA feed NIC-3803 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0h49l0ty2l8o1tq",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Evorok",
+        "name": "Bocina portatil Bluetooth Evorok Cargo EV-927529 verde 3W",
+        "description": "Bocina portatil Bluetooth Evorok Cargo/Trailblazer EV-927529 color verde, audio mono 1.0, 3W RMS segun proveedor CT, rango 130Hz-16kHz y resistencia IP64 indicada por retailers. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/bocina-portatil-bluetooth-evorok-cargo-ev-927529-verde/",
+        "manualCategoryPath": "audio/bocinas/bluetooth/portatiles/ip64-3w/evorok-cargo-ev-927529-verde",
+        "semanticCategoryPath": "audio/bocinas/bluetooth/portatiles/ip64-3w",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCEVK050/BOCEVK050_1_full.jpg"],
+        "documents": ["https://www.mactoner.com.mx/producto/bocina-portatil-bluetooth-evorok-cargo-ev-927529-verde/", "https://cityshop.mx/producto/bocina-portatil-bluetooth-evorok-cargo-3-w-verde-130-hz-16-khz"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "BOCEVK050", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 105.5, "currency": "MXN" }],
+        "specs": {
+          "model": "EV-927529",
+          "aliases": ["Cargo", "EV-927529", "EV927529", "BOCEVK050", "7506215927529"],
+          "ean": "7506215927529",
+          "productType": "Bocina Bluetooth portatil",
+          "audioChannels": "1.0 mono",
+          "powerRms": "3W segun CT/Mactoner; algunos retailers listan 5W",
+          "frequencyRange": "130 Hz - 16 kHz",
+          "connectivity": "Bluetooth",
+          "battery": "1200 mAh litio segun retailers",
+          "waterResistance": "IP64 segun retailers",
+          "color": "Verde",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para BOCEVK050. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCEVK050", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 105.5, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Mactoner/Cityshop la muestran agotada; Cyberpuerta lista inventario externo para el mismo EV-927529. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "weight": "no publicado por fabricante; bateria 1200 mAh segun retailer" },
+        "sourceRefs": [
+          { "title": "Mactoner Evorok Cargo EV-927529", "type": "retailer_specs", "url": "https://www.mactoner.com.mx/producto/bocina-portatil-bluetooth-evorok-cargo-ev-927529-verde/" },
+          { "title": "Cityshop Evorok Cargo EV-927529", "type": "retailer_specs", "url": "https://cityshop.mx/producto/bocina-portatil-bluetooth-evorok-cargo-3-w-verde-130-hz-16-khz" },
+          { "title": "CTOnline feed BOCEVK050 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0h6v8t9xgchuwer",
+      "research": {
+        "confidence": 0.87,
+        "brand": "Nextep",
+        "name": "Sujetadocumentos Nextep NE-157 binder clip 41mm negro 12 piezas",
+        "description": "Sujetadocumentos Nextep NE-157 tipo binder clip color negro, medida 41mm, presentacion de 12 piezas segun ficha publica. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.expercom.mx/producto/bundle-sujeta-documentos-41mm-1-5-8-12-pzs-cont-10-piezas",
+        "manualCategoryPath": "oficina/papeleria/sujetadores/binder-clips/41mm/nextep-ne-157-12p",
+        "semanticCategoryPath": "oficina/papeleria/sujetadores/binder-clips/41mm",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNTE230/ACCNTE230_full.jpg"],
+        "documents": ["https://www.expercom.mx/producto/bundle-sujeta-documentos-41mm-1-5-8-12-pzs-cont-10-piezas"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCNTE230", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 24.96, "currency": "MXN" }],
+        "specs": {
+          "model": "NE-157",
+          "aliases": ["NE-157", "ACCNTE230", "7501811272233", "NE-157 B"],
+          "ean": "7501811272233",
+          "productType": "Sujetadocumentos / binder clip",
+          "size": "41 mm / 1 5/8 in",
+          "color": "Negro",
+          "pack": "12 piezas segun titulo publico; algunos bundles mayoreo agregan 10 paquetes / 120 piezas",
+          "useCase": "organizacion de documentos sin perforar ni engrapar",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCNTE230. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCNTE230", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 24.96, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Ficha publica Expercom identifica NE-157 como sujetadocumentos 41mm; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "width": "41 mm", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Expercom Nextep NE-157", "type": "retailer_specs", "url": "https://www.expercom.mx/producto/bundle-sujeta-documentos-41mm-1-5-8-12-pzs-cont-10-piezas" },
+          { "title": "CTOnline feed ACCNTE230 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0hc5227qsgtyzvh",
+      "research": {
+        "confidence": 0.91,
+        "brand": "EC Line",
+        "name": "Terminal POS All-in-One EC Line EC-VP-1100i3-256-WIN 15 pulgadas i3 8GB 256GB",
+        "description": "Terminal punto de venta all-in-one EC Line EC-VP-1100i3-256-WIN con pantalla multitouch de 15 pulgadas, Intel Core i3-1115G4, 8GB RAM, SSD 256GB y Windows 10 IoT 64 bits. CTOnline/CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://intercompras.com/p/terminal-all-in-one-ec-line-ec-vp-1100i3-win-pantalla-multi-touch-intel-core-347288",
+        "manualCategoryPath": "punto-de-venta/terminales-pos/all-in-one/15-pulgadas/ec-line-ec-vp-1100i3-256-win",
+        "semanticCategoryPath": "punto-de-venta/terminales-pos/all-in-one/15-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10392752"],
+        "documents": ["https://intercompras.com/p/terminal-all-in-one-ec-line-ec-vp-1100i3-win-pantalla-multi-touch-intel-core-347288", "https://www.cyberpuerta.mx/Punto-de-Venta-POS/Sistemas-POS/EC-Line-Sistema-POS-EC-VP-1100i3-256-15-Intel-Core-i3-1115G4-8GB-256GB-Windows-10-IoT-1.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "TERECL470", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1204.55, "currency": "USD" }, { "wholesalerId": "cva", "sku": "POS-128", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1226.61, "currency": "USD" }],
+        "specs": {
+          "model": "EC-VP-1100I3-256-WIN",
+          "aliases": ["EC-VP-1100I3-256-WIN", "EC-VP-1100i3-256-WIN", "TERECL470", "POS-128", "VP-1100i3-256-WIN"],
+          "productType": "Terminal POS all-in-one",
+          "display": "15 pulgadas multitouch capacitiva",
+          "processor": "Intel Core i3-1115G4 11a gen",
+          "memory": "8GB RAM",
+          "storage": "SSD 256GB",
+          "os": "Windows 10 IoT Enterprise 64 bits",
+          "connectivity": ["Ethernet", "USB", "VESA mount"],
+          "power": "adaptador 12V 5A; entrada 100-240V AC segun retailer",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para TERECL470 y CVA/PB reporta stock 0 para POS-128. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TERECL470", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1204.55, "currency": "USD" }, { "providerId": "cva", "providerSku": "POS-128", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1226.61, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Intercompras/Cyberpuerta muestran inventario publico externo; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "displaySize": "38.1 cm / 15 in", "weight": "no publicado por fuente consultada" },
+        "sourceRefs": [
+          { "title": "Intercompras EC-VP-1100i3-256-WIN", "type": "retailer_specs", "url": "https://intercompras.com/p/terminal-all-in-one-ec-line-ec-vp-1100i3-win-pantalla-multi-touch-intel-core-347288" },
+          { "title": "Cyberpuerta EC Line VP-1100i3-256", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Punto-de-Venta-POS/Sistemas-POS/EC-Line-Sistema-POS-EC-VP-1100i3-256-15-Intel-Core-i3-1115G4-8GB-256GB-Windows-10-IoT-1.html" },
+          { "title": "CTOnline feed TERECL470 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed POS-128 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0hf8ak79p6zni9u",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Peerless-AV",
+        "name": "Soporte fijo de pared Peerless-AV SF650 SmartMount para pantallas 39 a 75 pulgadas",
+        "description": "Soporte fijo universal Peerless-AV SF650 SmartMount para pantallas de 39 a 75 pulgadas, carga maxima 175lb/79kg, bajo perfil de 30mm, patron hasta 742 x 405mm y VESA hasta 600 x 400. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://peerless-av.com/products/SF650",
+        "manualCategoryPath": "video/soportes-tv/pared/fijos/39-75-79kg/peerless-av-sf650",
+        "semanticCategoryPath": "video/soportes-tv/pared/fijos/39-75-79kg",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10174169"],
+        "documents": ["https://peerless-av.com/products/SF650", "https://docs.peerless-av.com/SELL%20SHEET-LIT0593-1-9.1-1.PDF"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "AC-8100", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1259.11, "currency": "MXN" }],
+        "specs": {
+          "model": "SF650",
+          "aliases": ["SF650", "AC-8100", "735029281696", "SmartMount Universal Flat Wall Mount"],
+          "upc": "735029281696",
+          "productType": "Soporte fijo de pared para pantalla",
+          "screenSize": "39 a 75 pulgadas",
+          "maxLoad": "175 lb / 79 kg",
+          "mountPattern": "universal hasta 742 x 405 mm; VESA hasta 600 x 400",
+          "profile": "1.20 in / 30 mm",
+          "adjustment": ["0.25 in vertical por bracket", "8 in horizontal para centrado"],
+          "color": "Negro",
+          "certifications": ["UL", "RoHS", "TAA", "VESA"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para AC-8100. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-8100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1259.11, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "publicAvailabilitySignals": ["Peerless-AV mantiene ficha oficial SF650; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "30.87 x 16.89 x 1.20 in", "weight": "5.30 lb" },
+        "sourceRefs": [
+          { "title": "Peerless-AV SF650 oficial", "type": "manufacturer_page", "url": "https://peerless-av.com/products/SF650" },
+          { "title": "Peerless-AV SF650 sell sheet", "type": "manufacturer_datasheet", "url": "https://docs.peerless-av.com/SELL%20SHEET-LIT0593-1-9.1-1.PDF" },
+          { "title": "CVA feed AC-8100 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}

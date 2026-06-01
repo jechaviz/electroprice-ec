@@ -261,6 +261,19 @@ const batch280Cases = [
   ["AMD Ryzen 7 7700X CPUAMD2410 procesador AM5 8 nucleos 40MB cache 730143314428", "AMD", "computo/componentes/procesadores/amd-ryzen/ryzen-7/7000-series/ryzen-7-7700x", "components", {}],
 ] as const;
 
+const batch281Cases = [
+  ["Microsoft Power BI Pro CFQ7TTC0LHSFP1YM NCEMSA230 licencia SaaS usuario", "MICROSOFT", "software/analitica-datos/business-intelligence/microsoft-power-bi/pro-saas/cfq7ttc0lhsfp1ym", "software", {}],
+  ["Kaspersky KL4066ZAUD8 SOFKPS2880 Next EDR Optimum Plus 500-999 licencias 2 anos", "KASPERSKY", "software/seguridad/endpoint/kaspersky-next/edr-optimum-plus/500-999-licencias-2-anos/kl4066zaud8", "software", {}],
+  ["Grandstream GXP2200EXT VIDGDM020 AC-6658 modulo expansion BLF 20 teclas", "GRANDSTREAM", "telefonia/telefonos-ip/accesorios/modulos-expansion/grandstream-gxp2200ext", "networking", {}],
+  ["Apple iMac 24 M4 Z1K1 PC-6781 Retina 4.5K 24GB 1TB plata", "APPLE", "computo/desktops/all-in-one/apple-imac/24-retina-4-5k/m4-10c-24gb-1tb-plata", "desktops", {}],
+  ["Intellinet 320771 CABITL175 CB-285 patch cord Cat5e UTP negro 5m 14ft", "INTELLINET", "redes/cableado-estructurado/patch-cords/cat5e/5m/utp-negro/intellinet-320771", "networking", {}],
+  ["HPE Aruba R8N88A NIC-3803 CX 6000 switch 24G 4SFP administrable capa 2", "HEWLETT PACKARD ENTERPRISE", "redes/switches/administrables/gigabit/24-puertos-4-sfp/hpe-aruba-cx-6000-r8n88a", "networking", {}],
+  ["Evorok Cargo EV-927529 BOCEVK050 bocina Bluetooth IP64 3W verde 7506215927529", "EVOROK", "audio/bocinas/bluetooth/portatiles/ip64-3w/evorok-cargo-ev-927529-verde", "audio", {}],
+  ["Nextep NE-157 ACCNTE230 sujetadocumentos binder clip 41mm 12 piezas 7501811272233", "NEXTEP", "oficina/papeleria/sujetadores/binder-clips/41mm/nextep-ne-157-12p", "accessories", {}],
+  ["EC Line EC-VP-1100I3-256-WIN TERECL470 POS-128 terminal POS touch AIO 15 i3 256", "EC LINE", "punto-de-venta/terminales-pos/all-in-one/15-pulgadas/ec-line-ec-vp-1100i3-256-win", "accessories", {}],
+  ["Peerless-AV SF650 AC-8100 soporte plano SmartMount 39 a 75 pulgadas 79 kg", "PEERLESS-AV", "video/soportes-tv/pared/fijos/39-75-79kg/peerless-av-sf650", "tvs", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -377,6 +390,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch280Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch281Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
