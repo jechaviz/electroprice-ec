@@ -66,6 +66,19 @@ const batch265Cases = [
   ["AOC 27G4 MONAOC910 monitor gaming 27 FHD IPS 180Hz 1ms", "AOC", "computo/monitores/gaming/27-fhd/180hz/aoc-27g4", "monitors", {}],
 ] as const;
 
+const batch266Cases = [
+  ["BRobotix 190432-24 MEMRBT740 memoria USB 32GB Pirata Rudo 7503027764342", "BROBOTIX", "computo/almacenamiento/memorias-flash/usb/32gb/diseno-animado/brobotix-190432-24-pirata-rudo", "storage", {}],
+  ["Acer ED273 Bbmiix MONACR1700 monitor gamer curvo 27 FHD VA 75Hz UM.HE3AA.B01", "ACER", "computo/monitores/gaming/27-fhd/75hz-curvos-va/acer-ed273-bbmiix", "monitors", {}],
+  ["Lenovo 4X41C12468 ACCLEN4410 ThinkPad Essential Eco mochila laptop 16 pulgadas", "LENOVO", "computo/accesorios/mochilas-fundas/mochilas-laptop/16-pulgadas/lenovo-thinkpad-essential-eco-4x41c12468", "accessories", {}],
+  ["Epson T41P220 CN-4039 UltraChrome XD2 cartucho cian 350ml para SureColor T5470M", "EPSON", "impresion/consumibles/cartuchos-tinta/epson/ultrachrome-xd2/350ml/t41p220-cian", "printers_scanners", {}],
+  ["ZKTeco TF1700 SOFZKT170 terminal biometrica huella RFID PIN control acceso", "ZK TECO", "seguridad/control-acceso/asistencia/biometricos/huella-rfid/zkteco-tf1700", "security", {}],
+  ["Lexmark T650A11L TONLXM2150 toner negro T65x retorno 7000 paginas 734646064385", "LEXMARK", "impresion/consumibles/toner-laser/lexmark/t65x/t650a11l", "printers_scanners", {}],
+  ["Sola Basic ISB XL32-22-280-220 S RE-149 Xellence regulador electronico 8000VA 220V", "SOLA BASIC ISB", "energia/supresores-reguladores/reguladores-voltaje/electronicos/bifasicos-220v/8000va/sola-basic-xellence-xl32-22-280-220-s", "power", {}],
+  ["Samsung Odyssey G3 LS27DG300ELXZX MNL-3059 monitor gamer 27 FHD VA 180Hz", "SAMSUNG", "computo/monitores/gaming/27-fhd/180hz/samsung-odyssey-g3-ls27dg300elxzx", "monitors", {}],
+  ["BRobotix 6006757 MALRBT450 maletin Oslo para laptop 17 pulgadas gris", "BROBOTIX", "computo/accesorios/mochilas-fundas/maletines-laptop/17-pulgadas/brobotix-oslo-6006757-gris", "accessories", {}],
+  ["Acteck Blazar Basic FT500B GABACT400 AC-938150 fuente ATX 500W plata", "ACTECK", "computo/componentes/fuentes-poder/atx-500w/acteck-blazar-basic-ft500b", "components", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -92,6 +105,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch265Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch266Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
