@@ -1,0 +1,427 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b258-2026-06-01",
+  "cycle": 3,
+  "batch": 258,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "culslxyj6foyuel",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DELL",
+        "name": "Dell garantia 3 anos ProSupport para laptops Vostro 3000, SKU N_VOSNBM1_N1_P3",
+        "description": "Poliza Dell N_VOSNBM1_N1_P3 para extender laptops Vostro notebooks 3000 de 1 ano Basic/NBD incluido a 3 anos ProSupport. Es un servicio digital sujeto a validacion por Service Tag; no es una laptop fisica.",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/vostro-notebooks-3000/1y-basic-nbd-a-3y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/vostro-notebooks-3000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/S/CP-DELL-N_VOSNBM1_N1_P3-4e1d0d.jpg"],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_VOSNBM1_N1_P3",
+          "providerSkus": ["POL-7738"],
+          "productType": "Poliza electronica de soporte fabricante",
+          "coverage": "3 anos ProSupport",
+          "upgradeFrom": "1 ano Basic/NBD incluido",
+          "compatibleFamily": "Dell Vostro notebooks 3000",
+          "serviceFeatures": ["Acceso 24x7", "Soporte remoto web/telefono", "Reparacion en sitio despues de diagnostico remoto cuando Dell lo autorice"],
+          "notIncluded": ["No es ProSupport Plus", "No confirmar ADP ni Keep Your Hard Drive sin validacion Dell"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-7738. Cyberpuerta y Cityshop lo publican agotado.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7738", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2051.2, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $2,629 MXN agotado.", "Cityshop agotado."],
+          "reviewNotes": "No mezclar con N_VOSNBM1_N1_N3 Basic NBD ni con variantes ProSupport Plus."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "Cyberpuerta Dell N_VOSNBM1_N1_P3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Garantia-Dell-3-Anos-ProSupport-para-Laptops-Vostro-3000.html" },
+          { "title": "Cityshop Dell Vostro notebooks 3000 ProSupport", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-vostro-notebooks-3000-de-1-ano-incluido-a-3-anos-prosupport" }
+        ]
+      }
+    },
+    {
+      "product_id": "d3vffvveyna79td",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Meriva Technology",
+        "name": "Brazo de montaje Meriva Technology MVA-103LPR blanco para camara LPR MAPR-400",
+        "description": "Brazo/soporte de pared Meriva Technology MVA-103LPR para camaras LPR MAPR-400, fabricado en aleacion de aluminio color blanco con base giratoria. Es accesorio de montaje, no camara.",
+        "manufacturerUrl": "https://merivatechnology.com/producto/MVA-103LPR",
+        "manualCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-pared/lpr/meriva-mva-103lpr",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-pared/lpr",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://4820964.app.netsuite.com/core/media/media.nl?id=19842839&c=4820964&h=kXJuCmqkHCqpfLu7pakSmH5Z1wuqDdiJLczOgJdXHPFhomNz",
+          "https://4820964.app.netsuite.com/core/media/media.nl?c=4820964&h=XEeCQgKb6f-MkHs0OwqV8WWOorKdfRAIITy1NNG05vKMjmlO&id=20428209"
+        ],
+        "documents": [
+          { "label": "Meriva MVA-103LPR ficha PDF", "type": "datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=5uqRd_tHM2w51PsEROsAy-rvB5xibE0SGxWgf3i7Gmi2Oisx&id=20428459" }
+        ],
+        "specs": {
+          "brand": "Meriva Technology",
+          "model": "MVA-103LPR",
+          "providerSkus": ["MVA-103LPR", "HC150MER05"],
+          "productType": "Brazo de montaje para camara LPR",
+          "compatibleWith": "MAPR-400",
+          "material": "Aleacion de aluminio",
+          "color": "Blanco",
+          "mounting": "Pared",
+          "panRange": "360 grados",
+          "tiltRange": "-45 a 45 grados",
+          "operatingTemperature": "-40 a 60 C",
+          "humidity": "10 a 90%",
+          "includedAccessories": ["Brazo de montaje"],
+          "providerBranchSummary": "Tecnosinergia reporta stock 0 para MVA-103LPR sin sucursal granular. Sucursales publicas: CDMX, Queretaro, Puebla, Guadalajara, Merida, Veracruz y Monterrey.",
+          "providerBranches": [
+            { "providerId": "tecnosinergia", "providerSku": "MVA-103LPR", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 289.13, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Intercompras $321 MXN con 2 piezas.", "FullOffice desde $319.47 MXN con 1 a 2 unidades.", "Grupo Reysa $363.82 MXN en stock."],
+          "reviewNotes": "No confundir con la camara MAPR-400/MAPR-400N; es solo soporte."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "88 x 116.6 x 297.3 mm", "packageDimensions": "90 x 120 x 300 mm", "weight": "473 g" },
+        "sourceRefs": [
+          { "title": "Meriva MVA-103LPR oficial", "type": "manufacturer_product", "url": "https://merivatechnology.com/producto/MVA-103LPR" },
+          { "title": "Meriva MVA-103LPR ficha PDF", "type": "manufacturer_datasheet", "url": "https://4820964.app.netsuite.com/core/media/media.nl?_xt=.pdf&c=4820964&h=5uqRd_tHM2w51PsEROsAy-rvB5xibE0SGxWgf3i7Gmi2Oisx&id=20428459" },
+          { "title": "Tecnosinergia catalogo CCTV accesorios", "type": "provider_catalog", "url": "https://tecnosinergia.com/catalogo/linea/CCTV%20HD/categoria/Accesorios%20y%20Complementos?category=31&line=3" },
+          { "title": "Intercompras Meriva MVA-103LPR", "type": "retailer_price_stock", "url": "https://intercompras.com/p/brazo-montaje-meriva-mva-103lpr-pared-camara-mapr-373943" }
+        ]
+      }
+    },
+    {
+      "product_id": "d5wwlr9y9o82osj",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DELL",
+        "name": "Dell actualizacion de 3 anos ProSupport a 5 anos ProSupport Plus para Dell Pro Plus 14/16, SKU N_DPNL3_P3_M5",
+        "description": "Poliza Dell N_DPNL3_P3_M5 para actualizar laptops Dell Pro Plus 14 PB14250 y Pro Plus 16 PB16250 de 3 anos ProSupport a 5 anos ProSupport Plus. Es servicio digital; confirmar compatibilidad por Service Tag antes de venta.",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/dell-pro-plus-14-16/3y-prosupport-a-5y-prosupport-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/dell-pro-plus-14-16",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/S/CP-DELL-N_DPNL3_P3_M5-4e1d0d.jpg"],
+        "documents": [
+          { "label": "Dell N_DPNL3_P3_M5 ficha retail PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/690/0dd/f30/6900ddf3050807.98864806.pdf" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_DPNL3_P3_M5",
+          "providerSkus": ["POL-10957"],
+          "productType": "Poliza electronica de soporte fabricante",
+          "coverage": "5 anos ProSupport Plus",
+          "upgradeFrom": "3 anos ProSupport",
+          "compatibleModels": ["Dell Pro Plus 14 PB14250", "Dell Pro Plus 16 PB16250"],
+          "serviceFeatures": ["24x7x365", "Partes y mano de obra", "Soporte telefonico/web", "Reemplazo o reparacion segun diagnostico Dell", "Complete Care/ADP y Keep Your Hard Drive reportados por retail"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10957. Cyberpuerta lo lista en stock con precio publico aproximado.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10957", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 7110.4, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $9,119 MXN en stock.", "Carcmex publica ficha bajo cotizacion."],
+          "reviewNotes": "No clasificar como laptop; la compatibilidad localizada apunta a Dell Pro Plus 14/16, no a cualquier Dell Pro."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "Cyberpuerta Dell N_DPNL3_P3_M5", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-5-Anos-ProSupport-Plus-para-Dell-Pro-Plus-14-PB14250.html" },
+          { "title": "Carcmex Dell N_DPNL3_P3_M5", "type": "reseller_spec", "url": "https://www.carcmex.net/dell-poliza-de-garantia-para-dell-pro-laptops-3-anos-prosupport-a-5-anos-prosupport-plus-con-complete-care-keep-your-hard-drive-vpn-n_dpnl3_p3_m5/" }
+        ]
+      }
+    },
+    {
+      "product_id": "d7wr74fr8ezp9ea",
+      "research": {
+        "confidence": 0.86,
+        "brand": "KOBLENZ",
+        "name": "Koblenz ABB80921 banco de baterias 80 piezas para UPS 30/40 kVA",
+        "description": "Banco de baterias Koblenz ABB80921 para sistemas UPS trifasicos de 30 y 40 kVA, publicado por canales como conjunto de 80 baterias. Es banco externo de baterias, no el UPS completo.",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/trifasicos/30-40kva/koblenz-abb80921",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/trifasicos/30-40kva",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10412112"],
+        "specs": {
+          "brand": "KOBLENZ",
+          "model": "ABB80921",
+          "providerSkus": ["FR-2035", "DF-FR-2035"],
+          "productType": "Banco externo de baterias UPS",
+          "batteryCount": "80 piezas",
+          "compatibleCapacity": "UPS 30/40 kVA",
+          "providerBranchSummary": "CVA reporta stock 0 para FR-2035 sin sucursal granular. RYGTEC publica CDMX/foraneo/CEDIS en 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "FR-2035", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5014.18, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["PCredcom $136,087.09 MXN sin stock.", "TiendaClic $124,899.50 MXN stock 0.", "RYGTEC $114,669 MXN CDMX/foraneo/CEDIS 0."],
+          "reviewNotes": "Varias fichas mezclan datos del UPS asociado; publicar como banco de baterias y validar dimensiones/peso con Koblenz o CVA antes de prometer logistica."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No publicado por fuente oficial verificada", "weight": "7 kg publicado por retailers; validar con Koblenz/CVA" },
+        "sourceRefs": [
+          { "title": "PCredcom Koblenz ABB80921", "type": "retailer_price_stock", "url": "https://pcredcom.com/banco-de-baterias-80-piezas-para-30-y-40-kva-abb80921-df-fr-2035.html" },
+          { "title": "TiendaClic Koblenz ABB80921", "type": "retailer_price_stock", "url": "https://www.tiendaclic.mx/ver-detalle/banco-de-baterias-80-piezas-para-30-y-40-kva-koblenz-abb80921" },
+          { "title": "Cityshop banco de baterias 80 piezas", "type": "retailer_spec", "url": "https://cityshop.mx/producto/banco-de-baterias-80-piezas-para-30-y-40-kva" },
+          { "title": "RYGTEC catalogo energia", "type": "retailer_price_stock", "url": "https://www.rygtec.com/catalogo.php?grupo=ENERGIA" }
+        ]
+      }
+    },
+    {
+      "product_id": "dbaeyqnpcioo6o0",
+      "research": {
+        "confidence": 0.9,
+        "brand": "LENOVO",
+        "name": "Lenovo 5WS0W86735 poliza electronica 5 anos Premier Support NBD para ThinkPad, upgrade de 3Y Premier a 5Y Premier",
+        "description": "Servicio electronico Lenovo 5WS0W86735 para extender equipos ThinkPad compatibles de 3 anos Premier Support a 5 anos Premier Support. La activacion y elegibilidad dependen del modelo/serial Lenovo; no es hardware.",
+        "manufacturerUrl": "https://www.lenovo.com/us/en/premier-support/",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/premier-support/thinkpad/3y-a-5y/5ws0w86735",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/premier-support/thinkpad/3y-a-5y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LENOVO",
+          "model": "5WS0W86735",
+          "providerSkus": ["POL-7115"],
+          "productType": "Poliza electronica Premier Support",
+          "coverage": "5 anos",
+          "upgradeFrom": "3Y Premier to 5Y Premier Support",
+          "compatibleFamily": "ThinkPad con garantia base Premier elegible",
+          "serviceFeatures": ["Soporte avanzado 24x7x365", "Punto unico de contacto", "Gestion de casos", "Partes y mano de obra prioritarias donde aplique", "NBD reportado por retail"],
+          "providerBranchSummary": "CVA reporta stock 0 y precio placeholder $0.01 MXN para POL-7115 sin sucursal granular.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7115", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 0.01, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Solucionix $0.02 MXN stock 0.", "Aztecacompras $2,334 MXN con 50 piezas.", "Bechtle ES EUR 215.99 sin IVA."],
+          "reviewNotes": "El precio de centavos en CVA parece placeholder; no publicarlo como precio comercial real sin validacion."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Lenovo Premier Support", "type": "manufacturer_support", "url": "https://www.lenovo.com/us/en/premier-support/" },
+          { "title": "Bechtle Lenovo 5WS0W86735", "type": "reseller_spec", "url": "https://www.bechtle.com/es-en/shop/lenovo-3y-premier-to-5y-premier-support--4491378-12--p" },
+          { "title": "Aztecacompras Lenovo 5WS0W86735", "type": "retailer_price_stock", "url": "https://www.aztecacompras.com/mx0000109547-lenovo-5ws0w86735-extensi-n-de-la-garant-a-1-licencia-s-5-a-o-s-.html" },
+          { "title": "RYGTEC Lenovo 5WS0W86735", "type": "retailer_price_stock", "url": "https://www.rygtec.com/computo/punto-de-venta/producto.php?clave=POL-7115&codigo=5WS0W86735&marca=LENOVO" }
+        ]
+      }
+    },
+    {
+      "product_id": "dc9j42s66sf9h4n",
+      "research": {
+        "confidence": 0.9,
+        "brand": "LENOVO",
+        "name": "Lenovo 5WS0U26647 garantia electronica 3 anos Premier Support NBD para ThinkCentre con 3 anos in situ",
+        "description": "Servicio Lenovo 5WS0U26647 Premier Support de 3 anos para ThinkCentre elegible, con soporte telefonico/en sitio segun cobertura Lenovo y activacion electronica. No es Premium Care ni proteccion accidental.",
+        "manufacturerUrl": "https://www.lenovo.com/us/en/premier-support/",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/premier-support/thinkcentre/3y/5ws0u26647",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/premier-support/thinkcentre/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "specs": {
+          "brand": "LENOVO",
+          "model": "5WS0U26647",
+          "providerSkus": ["POL-4922"],
+          "productType": "Poliza electronica Premier Support",
+          "coverage": "3 anos",
+          "compatibleFamily": "ThinkCentre con garantia base onsite elegible",
+          "serviceFeatures": ["Premier Support", "Soporte 24x7x365 reportado por agregadores", "Atencion telefonica y en sitio segun elegibilidad", "Respuesta NBD reportada por retail"],
+          "notIncluded": ["No es ADP", "No es Premium Care"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-4922.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-4922", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 45.58, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Global Office $1,501 MXN disponibilidad por confirmar.", "Tienda Lenovo ES EUR 139 con 100 unidades.", "ShopBLT US$43.63 backorder."],
+          "reviewNotes": "La cobertura debe validarse por serial/MTM; no prometer visita en sitio fuera de lo autorizado por Lenovo."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Lenovo Premier Support", "type": "manufacturer_support", "url": "https://www.lenovo.com/us/en/premier-support/" },
+          { "title": "Global Office Lenovo 5WS0U26647", "type": "retailer_price_stock", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/polizas-de-garantia/polizas-de-garantia-warranty-3y-premier-support/5ws0u26647" },
+          { "title": "Tienda Lenovo ES 5WS0U26647", "type": "retailer_price_stock", "url": "https://www.tiendalenovo.es/garantia-3-a-os-premier-nbd-para-thinkcentre-con-3-a-os-depot-5ws0u26647" },
+          { "title": "ShopBLT Lenovo 5WS0U26647", "type": "retailer_price_stock", "url": "https://www.shopblt.com/item/3yr-business-day-exchanges-lenovo-next/lenovo_5ws0u26647.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "deipa4c7y2ggz88",
+      "research": {
+        "confidence": 0.94,
+        "brand": "VORAGO",
+        "name": "Diadema gamer Vorago Start The Game HS-501 alambrica 3.5 mm + USB RGB, 40 mm, negra",
+        "description": "Diadema gamer alambrica Vorago Start The Game HS-501 con audio/microfono por conectores 3.5 mm, USB para iluminacion RGB, drivers de 40 mm y microfono flexible. No es Bluetooth.",
+        "manufacturerUrl": "https://voragolive.com/diadema-gamer-vorago-start-the-game-hs-501-3-5mm-rgb-40mm.html",
+        "manualCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb/vorago-start-the-game-hs-501",
+        "semanticCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://voragolive.com/media/catalog/product/h/s/hs-501_1.jpg"],
+        "documents": [
+          { "label": "Vorago HS-501 ficha tecnica", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/hs-50147381618848969.pdf" },
+          { "label": "Vorago HS-501 manual", "type": "manual", "url": "https://voragolive.com/media/vorago/descargables/hs-50177381618848969.pdf" }
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "HS-501",
+          "line": "Start The Game",
+          "providerSkus": ["SPK-2790"],
+          "productType": "Diadema gamer alambrica",
+          "connectivity": ["2 x 3.5 mm", "USB para RGB"],
+          "driverSize": "40 mm",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "impedance": "32 ohm",
+          "headphoneSensitivity": "108 dB",
+          "microphoneSensitivity": "-56 dB",
+          "cableLength": "2.2 m",
+          "color": "Negro",
+          "microphone": "Flexible/boom",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para SPK-2790. Vorago Live reporta 82 piezas.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SPK-2790", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10.93, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Vorago Live $336.89 MXN con 82 piezas.", "Global Office $356 MXN con 4 + 27 piezas segun almacen.", "ClaroShop $299 MXN agotado."],
+          "reviewNotes": "El USB alimenta la iluminacion RGB; el audio y microfono usan conectores 3.5 mm separados."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No publicadas", "weight": "262 g", "cableLength": "2.2 m" },
+        "sourceRefs": [
+          { "title": "Vorago HS-501 oficial", "type": "manufacturer_product", "url": "https://voragolive.com/diadema-gamer-vorago-start-the-game-hs-501-3-5mm-rgb-40mm.html" },
+          { "title": "Vorago HS-501 ficha PDF", "type": "manufacturer_datasheet", "url": "https://voragolive.com/media/vorago/descargables/hs-50147381618848969.pdf" },
+          { "title": "Global Office Vorago HS-501", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/audifonos/vorago-diadema-gamer-start-the-game-hs-501-rgb-40/hs-501" },
+          { "title": "ClaroShop Vorago HS-501", "type": "retailer_price_stock", "url": "https://www.claroshop.com/producto/902449/diadema-gamer-vorago-start-the-game-rgb-40mm-hs-501" }
+        ]
+      }
+    },
+    {
+      "product_id": "df6mtm0ua720wb5",
+      "research": {
+        "confidence": 0.87,
+        "brand": "GHIA",
+        "name": "Extension de garantia GHIA 24 meses adicionales para Mini PC GHIA PCGHIA-3410",
+        "description": "Poliza GHIA POL-10077 / PCGHIA-3410B para 24 meses adicionales de garantia sobre Mini PC GHIA PCGHIA-3410 compatible. Es extension de garantia, no la mini PC fisica.",
+        "manufacturerUrl": "https://ghia.com.mx/pages/categorias.php?categoria=PCs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3410/24-meses-adicionales/pol-10077",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3410/24-meses-adicionales",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/10422772.jpg"],
+        "specs": {
+          "brand": "GHIA",
+          "model": "POL-10077",
+          "providerSkus": ["POL-10077", "PCGHIA-3410B"],
+          "productType": "Extension de garantia fabricante",
+          "coverage": "24 meses adicionales",
+          "compatibleModel": "PCGHIA-3410",
+          "coveredEquipmentSummary": "Mini PC GHIA GCUBE Intel N100 hasta 3.40 GHz, 4GB DDR4, SSD NVMe 128GB, Wi-Fi, Bluetooth, Windows 11 Pro, 127 x 127 x 44 mm, 0.450 kg.",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10077. GHIA publica red nacional de centros de servicio.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10077", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 419.79, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["No se encontro precio publico exacto para POL-10077.", "Equipo asociado PCGHIA-3410 visto en TiendaClic a $3,972.23 MXN con 15 piezas."],
+          "serviceLocations": "Centros GHIA publicados en CDMX, Guadalajara, Monterrey, Merida, Queretaro y otras plazas; soporte 800 700 GHIA.",
+          "reviewNotes": "No usar fotos o especificaciones de la Mini PC como si fueran de la poliza; se guardan solo como equipo compatible/asociado."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "GHIA catalogo PCs", "type": "manufacturer_catalog", "url": "https://ghia.com.mx/pages/categorias.php?categoria=PCs" },
+          { "title": "GHIA centros de servicio", "type": "manufacturer_support", "url": "https://ghia.com.mx/pages/centros-servicio.php" },
+          { "title": "GHIA politica de garantias", "type": "manufacturer_policy", "url": "https://tienda.ghia.com.mx/index.php/politica-de-garantias" },
+          { "title": "TiendaClic PCGHIA-3410 equipo asociado", "type": "retailer_price_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/mini-pc-ghia-gcube-intel-n100-series-quad-core-340-ghz-4-gb-ssd-128-gb-nvme-wifi-bt-win-11-pro-ghia-mbns" },
+          { "title": "GlobalOffice PCGHIA-3410 equipo asociado", "type": "reseller_spec", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/pcs/mini-pc-ghia-gcube-intel-n100-series-4-nucleos-m/mbns" }
+        ]
+      }
+    },
+    {
+      "product_id": "dv7go3kq2iqxarg",
+      "research": {
+        "confidence": 0.91,
+        "brand": "DELL",
+        "name": "Poliza Dell para laptops: upgrade de 1 ano Basic Carry-In a 3 anos ProSupport, SKU N_DN_L1_C1_P3",
+        "description": "Poliza Dell N_DN_L1_C1_P3 para actualizar laptops Dell elegibles de 1 ano Basic Carry-In a 3 anos ProSupport. Es servicio digital de soporte; confirmar compatibilidad por Service Tag/serie antes de vender.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/category/warranty",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-laptops/1y-carry-in-a-3y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-laptops",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10469239"],
+        "documents": [
+          { "label": "Dell service contracts", "type": "service_contracts", "url": "https://www.dell.com/en-us/lp/legal/service-contracts-support-services" }
+        ],
+        "specs": {
+          "brand": "DELL",
+          "model": "N_DN_L1_C1_P3",
+          "providerSkus": ["POL-10710"],
+          "productType": "Poliza electronica de soporte fabricante",
+          "coverage": "3 anos ProSupport",
+          "upgradeFrom": "1 ano Basic Carry-In",
+          "compatibleFamily": "Dell laptops elegibles",
+          "serviceClass": "Warranty & Support Extensions",
+          "satCodeReported": "81111819",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10710. Compuviper publica sucursales CEDI Guadalajara, CDMX, Monterrey, Puebla, Queretaro y otras en 0; total 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10710", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3610.67, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Compuviper $4,566 MXN con IVA, bajo pedido/precio estimado, existencia total 0."],
+          "reviewNotes": "Carry-In no equivale a Onsite; no prometer visita en sitio salvo que Dell lo confirme para el Service Tag."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Icecat Dell N_DN_L1_C1_P3", "type": "aggregator_spec", "url": "https://icecat.dk/p/dell/n_dn_l1_c1_p3/warranty%2B-%2Bsupport%2Bextensions-1y%2Bcarry-in%2Bto%2B3y%2Bprospt-137318066.html" },
+          { "title": "Compuviper Dell POL-10710", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/dell-n_dn_l1_c1_p3-poliza-de-garantia-para-laptops-1-aos-basico-carry-in-a-3-aos-prosupport-importante-confirmar-compatibilidad-de-series-con-clave-de-garantia/" },
+          { "title": "Dell Mexico soporte y contratos", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/category/warranty" },
+          { "title": "Dell service contracts", "type": "manufacturer_contracts", "url": "https://www.dell.com/en-us/lp/legal/service-contracts-support-services" }
+        ]
+      }
+    },
+    {
+      "product_id": "dvtrgwtcdfrytz2",
+      "research": {
+        "confidence": 0.87,
+        "brand": "GHIA",
+        "name": "Extension de garantia GHIA 12 meses adicionales para PC GHIA PCGHIA-3581",
+        "description": "Poliza GHIA POL-10967 / PCGHIA-3581A para 12 meses adicionales de garantia sobre PC GHIA PCGHIA-3581 compatible. Es extension de garantia, no computadora de escritorio fisica.",
+        "manufacturerUrl": "https://ghia.com.mx/pages/categorias.php?categoria=PCs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3581/12-meses-adicionales/pol-10967",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3581/12-meses-adicionales",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://tienda.ghia.com.mx/wp-content/uploads/2026/02/cva-PCGHIA-3581-0.jpg",
+          "https://www.cimsystem.mx/ecommerce/images/cache/PCGHIA-3581.800.webp"
+        ],
+        "specs": {
+          "brand": "GHIA",
+          "model": "POL-10967",
+          "providerSkus": ["POL-10967", "PCGHIA-3581A", "CVPCGHIA-3581A"],
+          "productType": "Extension de garantia fabricante",
+          "coverage": "12 meses adicionales",
+          "compatibleModel": "PCGHIA-3581",
+          "coveredEquipmentSummary": "GHIA Frontier Slim 2.0 AMD Ryzen 5 5600GT/5600G, 16GB DDR4 3200, SSD NVMe 1TB, sin sistema operativo, graficos Radeon, formato slim con teclado y mouse.",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10967. GHIA publica red nacional de centros de servicio.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10967", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 463.99, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["No se encontro precio publico exacto para POL-10967.", "Equipo asociado Tienda GHIA $9,829 MXN agotado.", "Cityshop $9,359 MXN con 7 piezas.", "Cimsystem $8,199 + IVA con 73 piezas."],
+          "serviceLocations": "Centros GHIA publicados a nivel nacional; consultar red vigente y soporte 800 700 GHIA.",
+          "reviewNotes": "No titular con CPU o RAM porque la venta es de garantia; fuentes alternan Ryzen 5 5600GT y 5600G para el equipo asociado."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "GHIA catalogo PCs", "type": "manufacturer_catalog", "url": "https://ghia.com.mx/pages/categorias.php?categoria=PCs" },
+          { "title": "GHIA centros de servicio", "type": "manufacturer_support", "url": "https://ghia.com.mx/pages/centros-servicio.php" },
+          { "title": "GHIA politica de garantias", "type": "manufacturer_policy", "url": "https://tienda.ghia.com.mx/index.php/politica-de-garantias" },
+          { "title": "Tienda GHIA PCGHIA-3581 equipo asociado", "type": "manufacturer_store", "url": "https://tienda.ghia.com.mx/producto/ghia-frontier-slim-2-0-amd-ryzen-5-5600gt-6-nucleos-max-4-6-ghz-ram-16-gb-ssd-nvme-1-tb-sin-sistema/" },
+          { "title": "Cityshop PCGHIA-3581 equipo asociado", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/ghia-frontier-slim-20-amd-ryzen-5-5600gt-6-nucleos-max-46-ghz-ram-16-gb-ssd-nvme-1-tb-sin-sistema" },
+          { "title": "Cimsystem PCGHIA-3581A equipo asociado", "type": "retailer_price_stock", "url": "https://www.cimsystem.mx/ecommerce/computadoras/pc-de-escritorio/ghia/pcghia-3581-computadora-de-escritorio-ghia-frontier-slim-2.0-amd-ryzen-5-5600gt-integrada-16-gb-ram-ddr4-1-tb-ssd-nvme-sin-sistema-operativo-slim-6-n%C3%BAcleos-4.6-ghz-m%C3%A1x.html" }
+        ]
+      }
+    }
+  ]
+}
