@@ -1,0 +1,400 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b287-2026-06-01",
+  "cycle": 3,
+  "batch": 287,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0lme4pi7hjl5yzm",
+      "research": {
+        "confidence": 0.94,
+        "brand": "AMD",
+        "name": "AMD Ryzen 5 5600G procesador AM4 6 nucleos con Radeon Graphics",
+        "description": "Procesador AMD Ryzen 5 5600G para socket AM4 con 6 nucleos, 12 hilos, frecuencia base 3.9GHz, boost hasta 4.4GHz, cache L3 de 16MB, graficos Radeon integrados y TDP de 65W. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600g.html",
+        "manualCategoryPath": "computo/componentes/procesadores/amd-ryzen/ryzen-5/5000-series/apu-am4/ryzen-5-5600g",
+        "semanticCategoryPath": "computo/componentes/procesadores/amd-ryzen/ryzen-5/5000-series/apu-am4",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CPUAMD2270/CPUAMD2270_full.jpg"],
+        "documents": ["https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600g.html", "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Procesadores/Procesador-AMD-Ryzen-5-5600G-S-AM4-3-90GHz-Six-Core-16MB-L3-Cache-con-Disipador-Wraith-Stealth.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "CPUAMD2270", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 117.78, "currency": "USD" }],
+        "specs": {
+          "model": "Ryzen 5 5600G",
+          "aliases": ["Ryzen 5 5600G", "100-100000252BOX", "CPUAMD2270", "730143313414"],
+          "upc": "730143313414",
+          "socket": "AM4",
+          "cores": 6,
+          "threads": 12,
+          "baseClock": "3.9 GHz",
+          "maxBoostClock": "4.4 GHz",
+          "cache": "16MB L3",
+          "graphics": "AMD Radeon Graphics integrado",
+          "tdp": "65W",
+          "cooler": "Wraith Stealth incluido en version box",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CPUAMD2270. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CPUAMD2270", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 117.78, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["AMD mantiene ficha oficial; Cyberpuerta/retailers mexicanos listan el SKU box. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "40 x 40 mm package AM4", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "AMD Ryzen 5 5600G oficial", "type": "manufacturer_page", "url": "https://www.amd.com/en/products/processors/desktops/ryzen/5000-series/amd-ryzen-5-5600g.html" },
+          { "title": "Cyberpuerta AMD Ryzen 5 5600G", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Procesadores/Procesador-AMD-Ryzen-5-5600G-S-AM4-3-90GHz-Six-Core-16MB-L3-Cache-con-Disipador-Wraith-Stealth.html" },
+          { "title": "CTOnline feed CPUAMD2270 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lq56lmsbmimy76",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Corsair",
+        "name": "Corsair iCUE H100x RGB Elite CW-9060065-WW2 enfriamiento liquido 240mm",
+        "description": "Enfriamiento liquido AIO Corsair iCUE H100x RGB Elite CW-9060065-WW2 con radiador de 240mm, dos ventiladores SP120 RGB Elite, soporte Intel LGA 1700/1200/115x y AMD AM5/AM4, iluminacion RGB y control PWM. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/cpu-coolers/cw-9060065-ww2/icue-h100x-rgb-elite-liquid-cpu-cooler-cw-9060065-ww2",
+        "manualCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/240mm/argb/corsair-icue-h100x-rgb-elite-cw9060065ww2",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/liquido-cpu/240mm/argb",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10414532"],
+        "documents": ["https://www.corsair.com/us/en/p/cpu-coolers/cw-9060065-ww2/icue-h100x-rgb-elite-liquid-cpu-cooler-cw-9060065-ww2", "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Enfriamiento-y-Ventilacion/Enfriamiento-Liquido/Corsair-iCUE-H100x-RGB-ELITE-Enfriamiento-Liquido-CPU-240mm-Negro.html"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "CF-442", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 88.24, "currency": "USD" }],
+        "specs": {
+          "model": "CW-9060065-WW2",
+          "aliases": ["CW-9060065-WW2", "CF-442", "iCUE H100x RGB Elite"],
+          "type": "AIO liquid CPU cooler",
+          "radiatorSize": "240 mm",
+          "fansIncluded": "2 x 120 mm SP120 RGB Elite",
+          "fanSpeed": "400-1500 RPM",
+          "sockets": ["Intel LGA 1700", "Intel LGA 1200", "Intel LGA 115x", "AMD AM5", "AMD AM4"],
+          "lighting": "RGB",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para CF-442. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CF-442", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 88.24, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Corsair mantiene ficha oficial; Cyberpuerta lista ficha mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Radiador 277 x 120 x 27 mm", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "Corsair iCUE H100x RGB Elite oficial", "type": "manufacturer_page", "url": "https://www.corsair.com/us/en/p/cpu-coolers/cw-9060065-ww2/icue-h100x-rgb-elite-liquid-cpu-cooler-cw-9060065-ww2" },
+          { "title": "Cyberpuerta Corsair H100x RGB Elite", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Enfriamiento-y-Ventilacion/Enfriamiento-Liquido/Corsair-iCUE-H100x-RGB-ELITE-Enfriamiento-Liquido-CPU-240mm-Negro.html" },
+          { "title": "CVA feed CF-442 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lqxay45tr74mho",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Tripp Lite",
+        "name": "Tripp Lite RBC58-2U cartucho de baterias de reemplazo 48V 2U",
+        "description": "Cartucho de baterias de reemplazo Tripp Lite/Eaton RBC58-2U de 48VCD para sistemas UPS selectos, formato 2U, dos juegos de cuatro baterias y garantia limitada de 1 ano. CTOnline/PB y CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://tripplite.eaton.com/replacement-battery-cartridge-select-2u-smartpro-ups~RBC582U",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/tripp-lite-rbc58-2u",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10375419"],
+        "documents": ["https://tripplite.eaton.com/replacement-battery-cartridge-select-2u-smartpro-ups~RBC582U", "https://www.cyberpuerta.mx/Energia/No-Break-UPS/Accesorios-para-No-Breaks/Tripp-Lite-RBC58-2U-Cartucho-de-Baterias-para-UPS-48V-Negro.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "BATTRL320", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 5461.8, "currency": "MXN" },
+          { "wholesalerId": "cva", "sku": "FR-1912", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 5300.85, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "RBC58-2U",
+          "aliases": ["RBC58-2U", "RBC582U", "BATTRL320", "FR-1912"],
+          "batteryVoltage": "48 VDC",
+          "formFactor": "2U",
+          "batterySets": "2 juegos de 4 baterias",
+          "warranty": "1 ano limitada",
+          "compatibleUse": "UPS Tripp Lite SmartPro selectos",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para BATTRL320 y CVA/PB reporta stock 0 para FR-1912. CVA opera desde Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BATTRL320", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5461.8, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "FR-1912", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 5300.85, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Eaton/Tripp Lite mantiene ficha oficial; Cyberpuerta publica ficha mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "8.9 x 44.4 x 47 cm aprox", "weight": "29 kg aprox" },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite RBC58-2U oficial", "type": "manufacturer_page", "url": "https://tripplite.eaton.com/replacement-battery-cartridge-select-2u-smartpro-ups~RBC582U" },
+          { "title": "Cyberpuerta Tripp Lite RBC58-2U", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Energia/No-Break-UPS/Accesorios-para-No-Breaks/Tripp-Lite-RBC58-2U-Cartucho-de-Baterias-para-UPS-48V-Negro.html" },
+          { "title": "CTOnline feed BATTRL320 y CVA feed FR-1912 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lrigfj6qtka9vi",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TP-Link",
+        "name": "TP-Link MC211CS-20 convertidor de medios Gigabit WDM monomodo SC 20 km",
+        "description": "Convertidor de medios TP-Link MC211CS-20 con un puerto RJ45 10/100/1000Mbps y un puerto fibra SC WDM monomodo, alcance hasta 20 km, transmision 1550nm y recepcion 1310nm. CTOnline/PB y CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.tp-link.com/us/business-networking/accessory/mc211cs-20/",
+        "manualCategoryPath": "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-wdm-monomodo-sc-20km/tp-link-mc211cs-20",
+        "semanticCategoryPath": "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-wdm-monomodo-sc-20km",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10481756"],
+        "documents": ["https://www.tp-link.com/us/business-networking/accessory/mc211cs-20/", "https://www.cyberpuerta.mx/Redes/Media-Converter/TP-Link-MC211CS-20-Convertidor-de-Medios-Gigabit-Monomodo-SC-20Km.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCTPL1350", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 17.05, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "AC-13567", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 16.72, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "MC211CS-20",
+          "aliases": ["MC211CS-20", "ACCTPL1350", "AC-13567"],
+          "copperPort": "1 x RJ45 10/100/1000 Mbps",
+          "fiberPort": "1 x SC monomodo",
+          "fiberMode": "WDM",
+          "distance": "hasta 20 km",
+          "wavelength": "TX 1550 nm / RX 1310 nm",
+          "autoNegotiation": "Auto MDI/MDIX",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCTPL1350 y CVA/PB reporta stock 0 para AC-13567. CVA opera desde Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCTPL1350", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 17.05, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "AC-13567", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 16.72, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["TP-Link mantiene ficha oficial; Cyberpuerta lista ficha mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "94.5 x 73 x 27 mm", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "TP-Link MC211CS-20 oficial", "type": "manufacturer_page", "url": "https://www.tp-link.com/us/business-networking/accessory/mc211cs-20/" },
+          { "title": "Cyberpuerta TP-Link MC211CS-20", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Redes/Media-Converter/TP-Link-MC211CS-20-Convertidor-de-Medios-Gigabit-Monomodo-SC-20Km.html" },
+          { "title": "CTOnline feed ACCTPL1350 y CVA feed AC-13567 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lsui80hs0fo2un",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Intel",
+        "name": "Intel Core Ultra 5 245KF BX80768250KF procesador LGA1851",
+        "description": "Procesador Intel Core Ultra 5 245KF para socket LGA1851, 14 nucleos, 14 hilos, cache Intel Smart Cache de 24MB, frecuencia maxima turbo hasta 5.2GHz, sin graficos integrados y compatible con memoria DDR5. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html",
+        "manualCategoryPath": "computo/componentes/procesadores/intel-core-ultra/series-2/core-ultra-5/lga1851/245kf-bx80768250kf",
+        "semanticCategoryPath": "computo/componentes/procesadores/intel-core-ultra/series-2/core-ultra-5/lga1851",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CPUINT5050/CPUINT5050_full.jpg"],
+        "documents": ["https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html", "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Procesadores/Procesador-Intel-Core-Ultra-5-245KF-S-1851-4-20GHz-14-Core.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "CPUINT5050", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 196.91, "currency": "USD" }],
+        "specs": {
+          "model": "BX80768250KF",
+          "processor": "Intel Core Ultra 5 245KF",
+          "aliases": ["BX80768250KF", "CPUINT5050", "5032037284745", "735858553216"],
+          "ean": "5032037284745",
+          "upc": "735858553216",
+          "socket": "FCLGA1851",
+          "cores": 14,
+          "threads": 14,
+          "maxTurboFrequency": "5.20 GHz",
+          "cache": "24 MB Intel Smart Cache",
+          "graphics": "No incluye graficos integrados",
+          "memorySupport": "DDR5",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CPUINT5050. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CPUINT5050", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 196.91, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Intel mantiene ficha oficial ARK; Cyberpuerta lista ficha mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicado", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Intel Core Ultra 5 245KF oficial", "type": "manufacturer_page", "url": "https://www.intel.com/content/www/us/en/products/sku/241066/intel-core-ultra-5-processor-245kf-24m-cache-up-to-5-20-ghz/specifications.html" },
+          { "title": "Cyberpuerta Intel Core Ultra 5 245KF", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Procesadores/Procesador-Intel-Core-Ultra-5-245KF-S-1851-4-20GHz-14-Core.html" },
+          { "title": "CTOnline feed CPUINT5050 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lx1f73bl2wylev",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Creative Labs",
+        "name": "Creative Stage SE MF8410 BK soundbar Bluetooth 2.0 48W",
+        "description": "Soundbar Creative Stage SE MF8410 BK 2.0 para escritorio con potencia total 48W RMS, Bluetooth, USB-C audio, control remoto y diseno compacto color negro. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://us.creative.com/p/speakers/creative-stage-se",
+        "manualCategoryPath": "audio/bocinas/computadora/2-0/soundbar/creative-stage-se-mf8410-bk",
+        "semanticCategoryPath": "audio/bocinas/computadora/2-0/soundbar",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCCRT130/BOCCRT130_full.jpg"],
+        "documents": ["https://us.creative.com/p/speakers/creative-stage-se", "https://www.cyberpuerta.mx/Computo-Hardware/Audio-y-Video/Bocinas/Creative-Labs-Stage-SE-Bocina-Bluetooth-2-0-48W-Negro.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "BOCCRT130", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 41.5, "currency": "USD" }],
+        "specs": {
+          "model": "MF8410 BK",
+          "aliases": ["MF8410 BK", "BOCCRT130", "5390660195556", "054651195554", "Stage SE"],
+          "ean": "5390660195556",
+          "upc": "054651195554",
+          "speakerSystem": "2.0 soundbar",
+          "power": "48W RMS",
+          "connectivity": ["Bluetooth", "USB-C audio"],
+          "controls": "Control remoto incluido",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para BOCCRT130. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCCRT130", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 41.5, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Creative mantiene ficha Stage SE; Cyberpuerta lista ficha mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "410 x 108 x 68 mm aprox", "weight": "1.22 kg aprox" },
+        "sourceRefs": [
+          { "title": "Creative Stage SE oficial", "type": "manufacturer_page", "url": "https://us.creative.com/p/speakers/creative-stage-se" },
+          { "title": "Cyberpuerta Creative Stage SE", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Audio-y-Video/Bocinas/Creative-Labs-Stage-SE-Bocina-Bluetooth-2-0-48W-Negro.html" },
+          { "title": "CTOnline feed BOCCRT130 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lyjen7cz5mesvb",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Kaspersky",
+        "name": "Kaspersky Next EDR Optimum Plus KL4066ZASF8 150-249 licencias 1 ano",
+        "description": "Licencia Kaspersky Next EDR Optimum Plus KL4066ZASF8 para rango de 150 a 249 licencias por 1 ano, idioma espanol, orientada a proteccion endpoint/EDR empresarial. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.kaspersky.com/small-business-security/next",
+        "manualCategoryPath": "software/seguridad/endpoint/kaspersky-next/edr-optimum-plus/150-249-licencias-1-ano/kl4066zasf8",
+        "semanticCategoryPath": "software/seguridad/endpoint/kaspersky-next/edr-optimum-plus/150-249-licencias-1-ano",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFKPS2760/SOFKPS2760_full.jpg"],
+        "documents": ["https://www.kaspersky.com/small-business-security/next", "https://latam.kaspersky.com/small-business-security/next"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "SOFKPS2760", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 649.35, "currency": "MXN" }],
+        "specs": {
+          "model": "KL4066ZASF8",
+          "aliases": ["KL4066ZASF8", "SOFKPS2760"],
+          "licenseTier": "Kaspersky Next EDR Optimum Plus",
+          "licenseRange": "150-249 licencias",
+          "term": "1 ano",
+          "language": "Espanol",
+          "delivery": "Licencia de software",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para SOFKPS2760. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SOFKPS2760", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 649.35, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Kaspersky mantiene pagina de producto Next; CTOnline/PB se conserva como autoridad operativa con stock 0 para el SKU comercial."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Kaspersky Next oficial", "type": "manufacturer_page", "url": "https://www.kaspersky.com/small-business-security/next" },
+          { "title": "Kaspersky Next LATAM", "type": "manufacturer_page", "url": "https://latam.kaspersky.com/small-business-security/next" },
+          { "title": "CTOnline feed SOFKPS2760 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lz85nf4pd3cjgi",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Lenovo",
+        "name": "Lenovo ThinkPad X13 Gen 6 21RL0013LM Core Ultra 7 255U 32GB 1TB",
+        "description": "Laptop empresarial Lenovo ThinkPad X13 Gen 6 21RL0013LM con Intel Core Ultra 7 255U, 32GB LPDDR5x, SSD 1TB, pantalla 13.3 WUXGA 1920x1200, teclado retroiluminado, Windows 11 Pro y 3 anos Premier Support. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://psref.lenovo.com/Product/ThinkPad/ThinkPad_X13_Gen_6_Intel",
+        "manualCategoryPath": "computo/laptops/empresariales/13-3-pulgadas/lenovo-thinkpad-x13-gen-6/21rl0013lm",
+        "semanticCategoryPath": "computo/laptops/empresariales/13-3-pulgadas/lenovo-thinkpad-x13-gen-6",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10480233"],
+        "documents": ["https://psref.lenovo.com/Product/ThinkPad/ThinkPad_X13_Gen_6_Intel", "https://www.lenovo.com/mx/es/p/laptops/thinkpad/thinkpadx/lenovo-thinkpad-x13-gen-6-13-inch-intel/len101t0115"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "NOT-10874", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 35509.33, "currency": "MXN" }],
+        "specs": {
+          "model": "21RL0013LM",
+          "aliases": ["21RL0013LM", "NOT-10874"],
+          "series": "ThinkPad X13 Gen 6 Intel",
+          "processor": "Intel Core Ultra 7 255U",
+          "memory": "32GB LPDDR5x",
+          "storage": "1TB SSD",
+          "display": "13.3 pulgadas WUXGA 1920 x 1200",
+          "keyboard": "Retroiluminado",
+          "operatingSystem": "Windows 11 Pro",
+          "warranty": "3 anos Premier Support segun proveedor",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para NOT-10874. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "NOT-10874", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 35509.33, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Lenovo mantiene familia en PSREF y sitio MX; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "301.7 x 214.8 x 15.95 mm aprox", "weight": "desde 0.933 kg aprox" },
+        "sourceRefs": [
+          { "title": "Lenovo PSREF ThinkPad X13 Gen 6 Intel", "type": "manufacturer_page", "url": "https://psref.lenovo.com/Product/ThinkPad/ThinkPad_X13_Gen_6_Intel" },
+          { "title": "Lenovo Mexico ThinkPad X13 Gen 6", "type": "manufacturer_page", "url": "https://www.lenovo.com/mx/es/p/laptops/thinkpad/thinkpadx/lenovo-thinkpad-x13-gen-6-13-inch-intel/len101t0115" },
+          { "title": "CVA feed NOT-10874 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0m5i10916ddvlt1",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Pantum",
+        "name": "Pantum TL-411X toner negro alto rendimiento 6000 paginas",
+        "description": "Cartucho de toner negro Pantum TL-411X de alto rendimiento para equipos Pantum de la familia M7310DW/BP5100/BM5100, rendimiento aproximado de 6000 paginas. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://global.pantum.com/product/toner-cartridge/tl-411-series/",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/pantum/tl-411/tl-411x-negro",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/pantum/tl-411",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10461760"],
+        "documents": ["https://global.pantum.com/product/toner-cartridge/tl-411-series/", "https://www.cyberpuerta.mx/Computo-Hardware/Consumibles/Toners/Pantum-TL-411X-Toner-Negro-Alto-Rendimiento.html"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "CN-4655", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 35.55, "currency": "USD" }],
+        "specs": {
+          "model": "TL-411X",
+          "aliases": ["TL-411X", "CN-4655", "CN-5147"],
+          "skuConflictNote": "PB wholesaler_stock trae CN-4655; specs heredadas/source title mencionan CN-5147. Se conservan ambos alias y se usa CN-4655 para stock por ser el SKU en la evidencia de proveedor.",
+          "color": "Negro",
+          "yield": "6000 paginas",
+          "compatibleModels": ["M7310DW", "BP5100 series", "BM5100 series"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para CN-4655. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CN-4655", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 35.55, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Pantum mantiene ficha de serie TL-411; Cyberpuerta lista TL-411X. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicado", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Pantum TL-411 series oficial", "type": "manufacturer_page", "url": "https://global.pantum.com/product/toner-cartridge/tl-411-series/" },
+          { "title": "Cyberpuerta Pantum TL-411X", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Consumibles/Toners/Pantum-TL-411X-Toner-Negro-Alto-Rendimiento.html" },
+          { "title": "CVA feed CN-4655 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0m9srs7xo4hu173",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Lexmark",
+        "name": "Lexmark MX810dfe multifuncional laser monocromatica A4 Legal",
+        "description": "Multifuncional laser monocromatica Lexmark MX810dfe con impresion/copia/escaneo/fax, velocidad hasta 55 ppm, resolucion hasta 1200 x 1200 dpi, memoria 1GB, duplex, ADF, bandeja/soporte dfe y ciclo mensual maximo de 300000 paginas. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.lexmark.com/en_us/printer/8390/Lexmark-MX810dfe",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal/lexmark-mx810dfe",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/IMPLXM1710/IMPLXM1710_full.jpg"],
+        "documents": ["https://www.lexmark.com/en_us/printer/8390/Lexmark-MX810dfe", "https://www.cyberpuerta.mx/Computo-Hardware/Impresoras-y-Scanners/Multifuncionales/Lexmark-MX810dfe-Multifuncional-Laser-Monocromatico.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "IMPLXM1710", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1894.74, "currency": "USD" }],
+        "specs": {
+          "model": "MX810dfe",
+          "aliases": ["MX810dfe", "IMPLXM1710", "24T7408"],
+          "functions": ["Impresion", "Copia", "Escaneo", "Fax"],
+          "printTechnology": "Laser monocromatica",
+          "printSpeed": "hasta 55 ppm",
+          "resolution": "1200 x 1200 dpi",
+          "memory": "1024 MB",
+          "duplex": "Automatico",
+          "dutyCycle": "300000 paginas por mes",
+          "paperSize": "A4 / Legal",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para IMPLXM1710. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "IMPLXM1710", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1894.74, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Lexmark mantiene ficha oficial del modelo; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "548 x 611 x 762 mm aprox", "weight": "67.6 kg aprox" },
+        "sourceRefs": [
+          { "title": "Lexmark MX810dfe oficial", "type": "manufacturer_page", "url": "https://www.lexmark.com/en_us/printer/8390/Lexmark-MX810dfe" },
+          { "title": "Cyberpuerta Lexmark MX810dfe", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Impresoras-y-Scanners/Multifuncionales/Lexmark-MX810dfe-Multifuncional-Laser-Monocromatico.html" },
+          { "title": "CTOnline feed IMPLXM1710 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

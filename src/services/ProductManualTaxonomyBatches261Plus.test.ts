@@ -339,6 +339,19 @@ const batch286Cases = [
   ["GHIA CTG80N CN-4143 rollo papel termico 80x70 mm paquete 50 unidades", "GHIA", "punto-de-venta/consumibles/rollos-termicos/80x70/ghia-ctg80n-50p", "printers_scanners", {}],
 ] as const;
 
+const batch287Cases = [
+  ["AMD Ryzen 5 5600G CPUAMD2270 100-100000252BOX AM4 Radeon Vega 730143313414", "AMD", "computo/componentes/procesadores/amd-ryzen/ryzen-5/5000-series/apu-am4/ryzen-5-5600g", "components", {}],
+  ["Corsair iCUE H100x RGB Elite CW-9060065-WW2 CF-442 enfriamiento liquido 240mm ARGB", "CORSAIR", "computo/componentes/enfriamiento/liquido-cpu/240mm/argb/corsair-icue-h100x-rgb-elite-cw9060065ww2", "components", {}],
+  ["Tripp Lite RBC58-2U BATTRL320 FR-1912 cartucho baterias reemplazo 48V 2U UPS", "TRIPP-LITE", "energia/baterias-ups/cartuchos-reemplazo/tripp-lite-rbc58-2u", "power", {}],
+  ["TP-Link MC211CS-20 ACCTPL1350 AC-13567 convertidor medios Gigabit WDM monomodo SC 20km", "TP LINK", "redes/transceptores-convertidores/convertidores-medios/fibra-rj45/gigabit-wdm-monomodo-sc-20km/tp-link-mc211cs-20", "networking", {}],
+  ["Intel Core Ultra 5 245KF BX80768250KF CPUINT5050 LGA1851 14 cores 24MB cache", "INTEL", "computo/componentes/procesadores/intel-core-ultra/series-2/core-ultra-5/lga1851/245kf-bx80768250kf", "components", {}],
+  ["Creative Stage SE MF8410 BK BOCCRT130 soundbar 2.0 Bluetooth 48W negro 5390660195556", "CREATIVE LABS", "audio/bocinas/computadora/2-0/soundbar/creative-stage-se-mf8410-bk", "audio", {}],
+  ["Kaspersky KL4066ZASF8 SOFKPS2760 Next EDR Optimum Plus 150-249 licencias 1 ano", "KASPERSKY", "software/seguridad/endpoint/kaspersky-next/edr-optimum-plus/150-249-licencias-1-ano/kl4066zasf8", "software", {}],
+  ["Lenovo ThinkPad X13 Gen 6 21RL0013LM NOT-10874 Core Ultra 7 255U 32GB 1TB 13.3 WUXGA", "LENOVO", "computo/laptops/empresariales/13-3-pulgadas/lenovo-thinkpad-x13-gen-6/21rl0013lm", "laptops", {}],
+  ["Pantum TL-411X CN-5147 CN-4655 toner negro alto rendimiento 6000 paginas M7310DW", "PANTUM", "impresion/consumibles/toner-laser/pantum/tl-411/tl-411x-negro", "printers_scanners", {}],
+  ["Lexmark MX810dfe IMPLXM1710 24T7408 multifuncional laser monocromatica 55ppm 300000 paginas", "LEXMARK", "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal/lexmark-mx810dfe", "printers_scanners", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -491,6 +504,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch286Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch287Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
