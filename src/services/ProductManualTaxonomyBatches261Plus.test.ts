@@ -27,6 +27,19 @@ const batch262Cases = [
   ["Dell N_VOSNBM3_N1_P3 POL-7739 Vostro Notebooks 5000 1Y Basic NBD a 3Y ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/vostro-notebooks-5000/1y-basic-nbd-a-3y-prosupport/n-vosnbm3-n1-p3", "software", {}],
 ] as const;
 
+const batch263Cases = [
+  ["Dell N_DOL2_N1_M3 POL-10392 Dell Pro 14 16 1Y Basic NBD a 3Y ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/dell-pro-14-16/1y-basic-nbd-a-3y-prosupport-plus/n-dol2-n1-m3", "software", {}],
+  ["Poly AV4P5AA#AC3 Voyager Legend 30 manos libres Bluetooth cancelacion ruido SPK-2743", "POLY", "telefonia/audio/manos-libres/bluetooth-monoaural/poly-voyager-legend-30-av4p5aa-ac3", "headphones", {}],
+  ["Dell N_OPTL1_N1_P5 POL-7717 OptiPlex 3000 1Y Basic NBD a 5Y ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-basic-nbd-a-5y-prosupport/n-optl1-n1-p5", "software", {}],
+  ["Microsoft DG7GMGF0PN5C:0001:Education SWS-5779 Office LTSC Standard for Mac 2024 Education perpetua", "MICROSOFT", "software/licencias/microsoft/office-ltsc/standard-for-mac-2024/education-perpetual/dg7gmgf0pn5c-0001-education", "software", {}],
+  ["Qian QOI-A55TC ACCQIA450 totem kiosk 55 pulgadas EAN 7500619011495", "QIAN", "punto-de-venta/kioscos/pantallas-interactivas/totems/55-pulgadas/qian-qoi-a55tc", "accessories", {}],
+  ["Mirati MBB01N ELE-19 batidora de mano 200 W accesorios acero inoxidable negro", "MIRATI", "hogar/electrodomesticos/cocina/batidoras/mano/200w/mirati-mbb01n", "accessories", {}],
+  ["Corsair CT-9010001-WW ACCCOR480 TM30 pasta termica 3 g UPC 843591074506", "CORSAIR", "computo/componentes/enfriamiento/pasta-termica/corsair-tm30-3g", "components", {}],
+  ["GHIA PCGHIA-3517B POL-10531 extension garantia 24 meses adicionales PCGHIA-3517", "GHIA", "servicios-ti/soporte-garantias/ghia/pcghia-3517/24-meses-adicionales/pol-10531", "software", {}],
+  ["Mirati MBT01N ELE-16 tostador 800 W 7 niveles de tostado negro", "MIRATI", "hogar/electrodomesticos/cocina/tostadores/2-rebanadas/800w/mirati-mbt01n", "accessories", {}],
+  ["Vertiv Liebert RDU101 NIC-4453 IntelliSlot tarjeta comunicacion SNMP para GXT5", "VERTIV", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/vertiv-rdu101", "power", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -35,6 +48,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch262Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch263Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

@@ -1,0 +1,508 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b263-2026-06-01",
+  "cycle": 3,
+  "batch": 263,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "hho5pj8c4na7q3s",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Dell",
+        "name": "Actualizacion de garantia Dell N_DOL2_N1_M3 ProSupport Plus 3 anos para Dell Pro 14/16",
+        "description": "Poliza Dell ProSupport Plus que actualiza cobertura de 1 ano Basic/Next Business Day a 3 anos para equipos Dell Pro. El titulo de proveedor menciona desktops, pero las referencias publicas del SKU lo alinean con Dell Pro 14/16; validar Service Tag antes de venta.",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/dell-pro-14-16/1y-basic-nbd-a-3y-prosupport-plus/n-dol2-n1-m3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/dell-pro-14-16/1y-basic-nbd-a-3y-prosupport-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10461300"],
+        "documents": ["https://www.dell.com/content/dam/digitalassets/active/en/unauth/data-sheets/services/dell-prosupport-plus-for-pcs-datasheet-comm.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "POL-10392", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_DOL2_N1_M3",
+          "providerSkus": ["POL-10392"],
+          "productType": "Actualizacion de garantia Dell",
+          "serviceLevel": "ProSupport Plus",
+          "term": "De 1 ano Basic/Next Business Day a 3 anos ProSupport Plus",
+          "supportWindow": "24x7 segun suite Dell ProSupport",
+          "coverage": "Soporte experto, reparacion onsite NBD despues de diagnostico remoto, piezas y mano de obra, monitoreo proactivo/predictivo con SupportAssist/TechDirect y beneficios ProSupport Plus segun contrato.",
+          "compatibleFamily": "Dell Pro 14/16 segun referencias publicas; validar Service Tag porque el proveedor primario lo describe como Dell Pro desktops.",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10392. AztecaCompras y Compuviper lo muestran agotado; Intercompras indexo disponibilidad externa dinamica.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10392", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["AztecaCompras reporta agotado.", "Compuviper reporta stock total 0.", "Intercompras indexa disponibilidad dinamica que debe confirmarse."],
+          "reviewNotes": "No vender como hardware ni mezclar con Basic NBD N_DOL2_N1_N3; requiere validar compatibilidad por clave de garantia o Service Tag."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_service", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "Dell ProSupport Plus for PCs datasheet", "type": "manufacturer_document", "url": "https://www.dell.com/content/dam/digitalassets/active/en/unauth/data-sheets/services/dell-prosupport-plus-for-pcs-datasheet-comm.pdf" },
+          { "title": "Icecat Dell N_DOL2_N1_M3", "type": "catalog_reference", "url": "https://icecat.biz/p/dell/n_dol2_n1_m3/services-n_dol2_n1_m3-111643184.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "hlfsxfv12mgfb8b",
+      "research": {
+        "confidence": 0.96,
+        "brand": "HP Poly",
+        "name": "Manos libres Poly Voyager Legend 30 AV4P5AA#AC3 Bluetooth monoaural",
+        "description": "Auricular Bluetooth monoaural Poly Voyager Legend 30 para llamadas, con cuatro microfonos, cancelacion de ruido, tecnologia WindSmart y bateria de hasta 10 horas de conversacion.",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/poly-voyager-legend-30-headset",
+        "manualCategoryPath": "telefonia/audio/manos-libres/bluetooth-monoaural/poly-voyager-legend-30-av4p5aa-ac3",
+        "semanticCategoryPath": "telefonia/audio/manos-libres/bluetooth-monoaural",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://hp.widen.net/content/is6w6wxvq5/webp/is6w6wxvq5.png?color=ffffff00&dpi=72&h=430&w=573",
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10465362"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SPK-2743", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "HP Poly",
+          "model": "AV4P5AA#AC3",
+          "providerSkus": ["SPK-2743"],
+          "productType": "Auricular Bluetooth monoaural in-ear",
+          "commercialName": "Poly Voyager Legend 30",
+          "bluetooth": "Bluetooth Core 5.4",
+          "microphones": "4 microfonos con cancelacion de ruido",
+          "noiseReduction": ["WindSmart", "SoundGuard"],
+          "talkTime": "Hasta 10 horas",
+          "chargeTime": "Menos de 1.5 horas",
+          "wirelessRange": "Hasta 30 m",
+          "pairedDevices": "Hasta 8 dispositivos emparejados; 2 conexiones multipunto activas",
+          "speaker": "13.6 mm",
+          "microphoneFrequency": "100 Hz - 8 kHz",
+          "compatibility": ["Windows 11", "macOS", "Android", "iOS"],
+          "boxContents": ["Auricular", "Cable USB-C", "Adaptador USB-C a USB-A", "Eartips S/M/L", "Guia rapida"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para SPK-2743. HP mantiene ficha oficial; otros resellers muestran disponibilidad variable.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SPK-2743", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Solo Comunicaciones MX lista disponibilidad.", "Best Buy e IP Phone Warehouse muestran disponibilidad en EUA segun zona."],
+          "reviewNotes": "Confirmar si la variante local incluye estuche de carga; la ficha HP menciona dimensiones de estuche aunque el contenido de caja no siempre lo lista."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1.15 x 2.52 x 4.05 in", "weight": "0.045 lb / aprox. 20 g" },
+        "sourceRefs": [
+          { "title": "HP Poly Voyager Legend 30 Headset", "type": "manufacturer_product", "url": "https://www.hp.com/us-en/shop/pdp/poly-voyager-legend-30-headset" },
+          { "title": "HP Paraguay Poly Voyager Legend 30", "type": "manufacturer_product", "url": "https://www.hp.com/py-es/products/accessories/product-details/2102647356" },
+          { "title": "IP Phone Warehouse Poly Voyager Legend 30", "type": "retailer_price_stock", "url": "https://www.ipphone-warehouse.com/poly-voyager-legend-30-headset-82s66aa-p/82s66aa.htm" }
+        ]
+      }
+    },
+    {
+      "product_id": "hnnrhdgbuvuzu0x",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Garantia Dell N_OPTL1_N1_P5 ProSupport 5 anos para OptiPlex 3000",
+        "description": "Poliza Dell ProSupport para OptiPlex Desktops 3000 que actualiza la cobertura de 1 ano Basic/Next Business Day a 5 anos ProSupport. Validar Service Tag antes de activar.",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-basic-nbd-a-5y-prosupport/n-optl1-n1-p5",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/1y-basic-nbd-a-5y-prosupport",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339854"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "POL-7717", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL1_N1_P5",
+          "providerSkus": ["POL-7717"],
+          "productType": "Extension de garantia Dell ProSupport",
+          "serviceLevel": "ProSupport",
+          "term": "De 1 ano Basic/Next Business Day a 5 anos ProSupport",
+          "compatibleFamily": "OptiPlex Desktops 3000",
+          "coverage": "Soporte hardware y software, acceso a expertos ProSupport, diagnostico remoto y servicio onsite NBD cuando aplique.",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-7717. GlobalOffice indica existencias en proceso de llegada; Cityshop lo lista agotado.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7717", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice solicita confirmar existencia.", "Cityshop lista el producto agotado."],
+          "reviewNotes": "No mezclar con N_OPTL3_N3_P5 de OptiPlex 7000; la compatibilidad se debe confirmar con Service Tag."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_service", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "Cyberpuerta Dell N_OPTL1_N1_P5", "type": "retailer_service_reference", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-5-Anos-ProSupport-para-Computadoras-Optiplex-3000.html" },
+          { "title": "Icecat Dell N_OPTL1_N1_P5", "type": "catalog_reference", "url": "https://icecat.se/p/dell/n_optl1_n1_p5/services-n_optl1_n1_p5-111643181.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "hwl78tobi6h4fp5",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Microsoft",
+        "name": "Microsoft Office LTSC Standard for Mac 2024 Education perpetuo CSP",
+        "description": "Licencia perpetua educativa Microsoft Office LTSC Standard for Mac 2024 por CSP/ESD. Es software digital de compra unica para macOS; no incluye beneficios de Microsoft 365 ni nuevas funciones posteriores a LTSC.",
+        "manufacturerUrl": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview",
+        "manualCategoryPath": "software/licencias/microsoft/office-ltsc/standard-for-mac-2024/education-perpetual/dg7gmgf0pn5c-0001-education",
+        "semanticCategoryPath": "software/licencias/microsoft/office-ltsc/standard-for-mac-2024/education-perpetual",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10440740"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SWS-5779", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "DG7GMGF0PN5C:0001:Education",
+          "publicSku": "DG7GMGF0PN5C-0001-E",
+          "providerSkus": ["SWS-5779"],
+          "productType": "Licencia electronica perpetua",
+          "program": "CSP / Education",
+          "edition": "Office LTSC Standard for Mac 2024",
+          "delivery": "Digital",
+          "licenseTerm": "Perpetua / compra unica",
+          "platform": "macOS",
+          "supportEndDate": "2029-10-09 segun Microsoft Lifecycle para Office LTSC 2024",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para SWS-5779. Interds Mexico lista el codigo para entrega electronica, disponibilidad real a confirmar con CSP.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SWS-5779", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Interds Mexico lista el mismo codigo como licencia ESD.", "Secureframe indexa SKU de producto equivalente."],
+          "reviewNotes": "No confundir con Professional Plus para Windows ni con suscripcion Microsoft 365; Access no aplica a Mac."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, licencia digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Microsoft Learn Office LTSC 2024 overview", "type": "manufacturer_document", "url": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview" },
+          { "title": "Microsoft Office 2024 and Office LTSC 2024 FAQ", "type": "manufacturer_support", "url": "https://support.microsoft.com/en-gb/office/office-2024-and-office-ltsc-2024-faq-1c454a7d-3d0a-4139-b1bd-c61725ea436c" },
+          { "title": "Microsoft Lifecycle Office LTSC 2024", "type": "manufacturer_support", "url": "https://learn.microsoft.com/en-us/lifecycle/products/office-ltsc-2024" }
+        ]
+      }
+    },
+    {
+      "product_id": "i23lry7klf4dleu",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Qian",
+        "name": "Totem interactivo Qian QOI-A55TC 55 pulgadas 4K Android",
+        "description": "Totem/kiosco interactivo Qian QOI-A55TC de 55 pulgadas con pantalla IPS 4K, touch IR de 10 puntos y Android 11 para senalizacion digital y autoservicio POS.",
+        "manufacturerUrl": "https://mx.yeyiangaming.com/products/qian-totem-interactivo-touch-55-4k-ultra-hd-android-11-4gb-ram-32gb-emmc-modelo-qoi-a55tc",
+        "manualCategoryPath": "punto-de-venta/kioscos/pantallas-interactivas/totems/55-pulgadas/qian-qoi-a55tc",
+        "semanticCategoryPath": "punto-de-venta/kioscos/pantallas-interactivas/totems/55-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCQIA450/ACCQIA450_full.jpg",
+          "https://mx.yeyiangaming.com/storage/catalog/product/QOI-A55TC-0.webp",
+          "https://mx.yeyiangaming.com/storage/catalog/product/gallery/QOI-A55TC-1.webp",
+          "https://mx.yeyiangaming.com/storage/catalog/product/gallery/QOI-A55TC-2.webp",
+          "https://mx.yeyiangaming.com/storage/catalog/product/gallery/QOI-A55TC-3.webp"
+        ],
+        "documents": ["https://docs.qian.es/indexV2.php?file=QOI-A55TC+Qian+55+Interactive+Totem+Kiosk_Comercial+Datasheet_LAT.pdf&lvl4=es_mx&lvl5=datasheet&sku=QOI-A55TC"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCQIA450", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Qian",
+          "model": "QOI-A55TC",
+          "providerSkus": ["ACCQIA450"],
+          "ean": "7500619011495",
+          "productType": "Totem/kiosco interactivo de senalizacion digital",
+          "display": "55 in IPS 4K UHD",
+          "touch": "IR 10 puntos",
+          "brightness": "400 cd/m2",
+          "contrast": "1200:1",
+          "viewingAngle": "178/178 grados",
+          "responseTime": "5 ms",
+          "backlightLife": "Mas de 50000 h",
+          "processor": "Rockchip 3568",
+          "memory": "4 GB RAM",
+          "storage": "32 GB eMMC",
+          "expandableStorage": "microSD hasta 128 GB",
+          "operatingSystem": "Android 11",
+          "wireless": ["Wi-Fi 2.4/5 GHz b/g/n", "Bluetooth 4.0"],
+          "network": "Ethernet 10/100",
+          "ports": ["2 x USB 2.0", "RJ45", "Audio 3.5 mm"],
+          "speakers": "2 x 5 W",
+          "power": "AC 100-240 V, 90 W",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 sin sucursal granular para ACCQIA450. Qian/Yeyian y Nivantec lo muestran agotado; GlobalOffice/Integratec solicitan confirmar disponibilidad.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCQIA450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Qian/Yeyian lista agotado.", "Nivantec lista sin existencias.", "GlobalOffice/Integratec muestran disponibilidad a confirmar."],
+          "reviewNotes": "Usar Totem interactivo como nombre primario; quiosco es uso comercial/POS."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1900 x 766 x 460 mm; empaque 1980 x 202 x 971 mm", "weight": "56 kg segun ficha Qian" },
+        "sourceRefs": [
+          { "title": "Qian/Yeyian QOI-A55TC", "type": "manufacturer_product", "url": "https://mx.yeyiangaming.com/products/qian-totem-interactivo-touch-55-4k-ultra-hd-android-11-4gb-ram-32gb-emmc-modelo-qoi-a55tc" },
+          { "title": "Qian QOI-A55TC datasheet", "type": "manufacturer_document", "url": "https://docs.qian.es/indexV2.php?file=QOI-A55TC+Qian+55+Interactive+Totem+Kiosk_Comercial+Datasheet_LAT.pdf&lvl4=es_mx&lvl5=datasheet&sku=QOI-A55TC" },
+          { "title": "Nivantec Qian QOI-A55TC ACCQIA450", "type": "retailer_price_stock", "url": "https://nivantec.com/producto/qian-totem-interactivo-55-qoi-a55tc/" },
+          { "title": "GlobalOffice Qian QOI-A55TC", "type": "retailer_price_stock", "url": "https://mail.globaloffice.com.mx/app/detalle/producto/perifericos/quioscos-qian-qoi-a55tc-qian-totem-interactivo-55-qoi-a55tc/qoi-a55tc" }
+        ]
+      }
+    },
+    {
+      "product_id": "i36vcwm3i67jxw1",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Mirati Home",
+        "name": "Batidora de mano Mirati Home MBB01N 200 W negra",
+        "description": "Batidora de mano Mirati Home MBB01N de 200 W en color negro, con varillas/accesorios de acero inoxidable y control de velocidades para uso domestico.",
+        "manufacturerUrl": "https://miratihome.com/catalogo/electrodomesticos/batidoras/batidora-de-mano-mbb01n/",
+        "manualCategoryPath": "hogar/electrodomesticos/cocina/batidoras/mano/200w/mirati-mbb01n",
+        "semanticCategoryPath": "hogar/electrodomesticos/cocina/batidoras/mano/200w",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10446475",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-MIRATI-MBB01N-597dc2.png",
+          "https://www.pclapsc.com/cdn/shop/files/1_ac002311-67c4-4dea-a2fb-9f121d21b05e.png?v=1741507530&width=3840",
+          "https://www.pclapsc.com/cdn/shop/files/2_1031b7fe-5907-4c8c-bba5-5673bb4820e9.png?v=1741507531&width=3840",
+          "https://www.pclapsc.com/cdn/shop/files/3_6520228f-077b-4944-8839-0429a99649b8.png?v=1741507531&width=3840"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "ELE-19", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Mirati Home",
+          "model": "MBB01N",
+          "providerSkus": ["ELE-19"],
+          "upc": "7500647011351",
+          "productType": "Batidora de mano electrica",
+          "power": "200 W",
+          "input": "127 V CA 60 Hz",
+          "color": "Negro",
+          "material": "Cuerpo plastico; varillas/accesorios de acero inoxidable",
+          "speeds": "5 velocidades segun distribuidores; imagen muestra selector 0-5 y boton turbo",
+          "useCase": "Uso domestico",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para ELE-19. Cyberpuerta listo 1 pieza; PCLAPSC mostro 5 piezas en MTY; Compuviper/CVA network reporto inventario externo dinamico.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "ELE-19", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta lista disponibilidad baja.", "PCLAPSC reporta stock por tienda MTY.", "Compuviper reporta inventario externo dinamico."],
+          "reviewNotes": "La ficha oficial de descarga no estuvo disponible; mantener dimensiones con confianza media por venir de distribuidores."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "15.5 x 10 x 20 cm segun distribuidores CVA-like; fuente alterna lista 30 x 10 x 10 cm", "weight": "0.88 kg segun distribuidores CVA-like" },
+        "sourceRefs": [
+          { "title": "Mirati Home batidora MBB01N", "type": "manufacturer_product", "url": "https://miratihome.com/catalogo/electrodomesticos/batidoras/batidora-de-mano-mbb01n/" },
+          { "title": "Cyberpuerta Mirati MBB01N", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Hogar/Electrodomesticos-de-Cocina/Batidoras/Mirati-Batidora-de-Mano-MBB01N-200W-5-Velocidades.html" },
+          { "title": "Compuviper Mirati MBB01N", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/mirati-mbb01n-batidora-de-mano-200-w-accesorios-acero-inoxidable-negro/" },
+          { "title": "PCLAPSC Mirati MBB01N", "type": "retailer_price_stock", "url": "https://www.pclapsc.com/products/batidora-de-mano-mirati-200w-accesorios-de-acero-inoxidable-negro" }
+        ]
+      }
+    },
+    {
+      "product_id": "i4cpfmqnxohh75v",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Corsair",
+        "name": "Pasta termica Corsair TM30 CT-9010001-WW 3 g",
+        "description": "Pasta termica Corsair TM30 de alto rendimiento para CPU/GPU, en jeringa de 3 g, con compuesto de oxido de zinc de baja viscosidad, no conductor y estable.",
+        "manufacturerUrl": "https://www.corsair.com/es/es/p/pc-components-accessories/ct-9010001-ww/tm30-performance-thermal-paste-ct-9010001-ww",
+        "manualCategoryPath": "computo/componentes/enfriamiento/pasta-termica/corsair-tm30-3g",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/pasta-termica",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCCOR480/ACCCOR480_full.jpg",
+          "https://assets.corsair.com/image/upload/c_pad%2Cq_85%2Ch_1100%2Cw_1100%2Cf_auto/products/Accessories-Parts/CT-9010001-WW/Gallery/TM30_01.webp",
+          "https://assets.corsair.com/image/upload/akamai/pdp/CT-9010001-WW/TM30_03.png",
+          "https://assets.corsair.com/image/upload/akamai/pdp/CT-9010001-WW/rpw.png"
+        ],
+        "documents": ["https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_TM30_ApplicationGuide_49_001871_revAB.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCCOR480", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Corsair",
+          "model": "CT-9010001-WW",
+          "commercialName": "TM30 Performance Thermal Paste",
+          "providerSkus": ["ACCCOR480"],
+          "upc": "843591074506",
+          "productType": "Pasta termica para CPU/GPU",
+          "compound": "Oxido de zinc",
+          "color": "Gris",
+          "electricalConductivity": "No conductora",
+          "content": "1 jeringa de 3 g",
+          "thermalConductivity": "3.8 W/mK reportado por distribuidores; no confirmado en ficha publica Corsair",
+          "features": ["Baja viscosidad", "Sin compuestos volatiles", "Estable por anos sin secarse/agrietarse"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCCOR480. GlobalOffice Mexico muestra 0 piezas/consultar; Binaural Mexico y B&H reportan disponibilidad externa.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCCOR480", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice Mexico lista stock 0.", "TecnoWow/Rappi/Hartunning/InterDS aparecen agotados.", "Binaural Mexico y B&H reportan stock externo."],
+          "reviewNotes": "Usar TM30 como nombre comercial y CT-9010001-WW como MPN."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque aprox. 6.25 x 3.9 x 0.65 in segun B&H", "weight": "Contenido 3 g; producto 0.02 kg segun Corsair; paquete 0.05 lb segun B&H" },
+        "sourceRefs": [
+          { "title": "Corsair TM30 CT-9010001-WW", "type": "manufacturer_product", "url": "https://www.corsair.com/es/es/p/pc-components-accessories/ct-9010001-ww/tm30-performance-thermal-paste-ct-9010001-ww" },
+          { "title": "Corsair TM30 application guide", "type": "manufacturer_document", "url": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/WW_TM30_ApplicationGuide_49_001871_revAB.pdf" },
+          { "title": "B&H Corsair TM30", "type": "retailer_price_stock", "url": "https://www.bhphotovideo.com/c/product/1808773-REG/corsair_ct_9010001_ww_tm30_performance_thermal_paste.html" },
+          { "title": "GlobalOffice Corsair CT-9010001-WW", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/gabinetes-y-enfriamiento/pasta-termica-corsair-tm30-ct-9010001-ww/ct-9010001-ww" }
+        ]
+      }
+    },
+    {
+      "product_id": "iccalf5hs9gkh6t",
+      "research": {
+        "confidence": 0.82,
+        "brand": "GHIA",
+        "name": "Extension de garantia GHIA PCGHIA-3517B 24 meses para PCGHIA-3517",
+        "description": "Poliza de extension de garantia GHIA por 24 meses adicionales para el equipo PCGHIA-3517. Es un servicio asociado al equipo base; no es PC ni refaccion fisica.",
+        "manufacturerUrl": "https://tienda.ghia.com.mx/producto/pc-ghia-frontier-slim-2-0-intel-pentium-gold-g7400-3-7ghz-4gb-120gb-ssd-m2-win-11-pro-modelo-intel-pentium/",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3517/24-meses-adicionales/pol-10531",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3517/24-meses-adicionales",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10465802"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "POL-10531", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "GHIA",
+          "model": "PCGHIA-3517B",
+          "providerSkus": ["POL-10531"],
+          "productType": "Servicio de garantia extendida",
+          "term": "24 meses adicionales",
+          "baseProduct": "PCGHIA-3517",
+          "baseProductDescription": "GHIA Frontier Slim 2.0 Intel Pentium Gold G7400, 4 GB DDR4, SSD M.2 120 GB, Windows 11 Pro",
+          "baseWarranty": "1 ano centro de servicio segun tienda GHIA",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para POL-10531 sin sucursal granular. No se encontro ficha publica exacta del SKU; la PC base PCGHIA-3517 aparece agotada en Tienda GHIA.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10531", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Tienda GHIA lista la PC base PCGHIA-3517 como agotada.", "Compumerida lista existencias de la PC base, no de la poliza.", "Patron PCGHIA-xxxxB como extension 24 meses aparece en distribuidores para modelos GHIA equivalentes."],
+          "reviewNotes": "La evidencia publica exacta para POL-10531 es limitada; conservar confianza media-alta y validar en CVA antes de ofertar."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Tienda GHIA PCGHIA-3517", "type": "manufacturer_product", "url": "https://tienda.ghia.com.mx/producto/pc-ghia-frontier-slim-2-0-intel-pentium-gold-g7400-3-7ghz-4gb-120gb-ssd-m2-win-11-pro-modelo-intel-pentium/" },
+          { "title": "Compumerida GHIA PCGHIA-3517", "type": "retailer_price_stock", "url": "https://www.compumerida.com/GHIA-FRONTIER-SLIM-2-0--INTEL-PENTIUM-GOLD-G7400-DUAL-CORE-3-7-GHZ--4-GB--SSD-M-2-120-GB-%2C102366_1461124039" },
+          { "title": "TiendaClic extension GHIA PCGHIA pattern", "type": "retailer_service_reference", "url": "https://www.depot.tiendaclic.mx/ver-detalle/ext-de-garantia-24-meses-adicionales-en-pcghia-2819-ghia-pcghia-2819b--63235e957f72f" }
+        ]
+      }
+    },
+    {
+      "product_id": "icz6r9hv13x0dii",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Mirati Home",
+        "name": "Tostador Mirati Home MBT01N 800 W negro 2 rebanadas",
+        "description": "Tostador electrico Mirati Home MBT01N negro de 800 W, para 2 rebanadas, con 7 niveles de tostado, funciones de descongelar, recalentar y cancelar, y bandeja recogemigas.",
+        "manufacturerUrl": "https://miratihome.com/catalogo/electrodomesticos/tostadores/tostador-mirati-home-incluye-niveles-de-tostado-color-negro-mbt01n/",
+        "manualCategoryPath": "hogar/electrodomesticos/cocina/tostadores/2-rebanadas/800w/mirati-mbt01n",
+        "semanticCategoryPath": "hogar/electrodomesticos/cocina/tostadores/2-rebanadas/800w",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10446472",
+          "https://www.pclapsc.com/cdn/shop/files/1_2450a08f-1905-4ffd-88a9-e399fd53f4f8.png?v=1741507534",
+          "https://www.pclapsc.com/cdn/shop/files/2_377f73f4-329d-44b0-859b-826decacfa60.png?v=1741507534",
+          "https://www.pclapsc.com/cdn/shop/files/3_1a696718-c291-429b-931a-0593bc97fd38.png?v=1741507534",
+          "https://www.pclapsc.com/cdn/shop/files/4_5842610f-53c9-42fc-adcc-32a918c03b43.png?v=1741507534"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "ELE-16", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Mirati Home",
+          "model": "MBT01N",
+          "providerSkus": ["ELE-16"],
+          "ean": "7500647011382",
+          "productType": "Tostador electrico vertical",
+          "capacity": "2 rebanadas",
+          "power": "800 W",
+          "toastLevels": "7 niveles/opciones de tostado",
+          "temperatureRange": "80 a 200 C segun ficha oficial Mirati",
+          "functions": ["Descongelar", "Recalentar", "Cancelar"],
+          "materials": ["ABS/PP reportado", "Cubierta acero inoxidable SS430 reportada por terceros", "Interior aluminio reportado por terceros"],
+          "crumbTray": "Bandeja recogemigas",
+          "color": "Negro",
+          "warranty": "1 ano",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para ELE-16. Tienda GHIA/Mirati lo lista disponible; PCLAPSC y FullOffice aparecen agotados/sin stock; TiendaClic reporto existencia aproximada de 4 piezas.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "ELE-16", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Tienda GHIA/Mirati muestra canal disponible.", "PCLAPSC y FullOffice aparecen sin stock.", "TiendaClic reporto disponibilidad externa aproximada."],
+          "reviewNotes": "Las dimensiones no aparecen confirmadas en ficha fabricante; usar medidas de terceros solo como referencia."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "25 x 15 x 20 cm reportado por terceros; no confirmado por fabricante", "weight": "1.5 kg reportado por terceros; no confirmado por fabricante" },
+        "sourceRefs": [
+          { "title": "Mirati Home MBT01N", "type": "manufacturer_product", "url": "https://miratihome.com/catalogo/electrodomesticos/tostadores/tostador-mirati-home-incluye-niveles-de-tostado-color-negro-mbt01n/" },
+          { "title": "Tienda GHIA Mirati MBT01N", "type": "manufacturer_store", "url": "https://tienda.ghia.com.mx/index.php/tostador-mirati-home-incluye-niveles-de-totado-color-negro-modelo-mbt01n.html" },
+          { "title": "PCLAPSC Mirati MBT01N", "type": "retailer_price_stock", "url": "https://www.pclapsc.com/products/tostador-mirati-800w-7-niveles-de-tostado-negro" },
+          { "title": "TiendaClic Mirati MBT01N", "type": "retailer_price_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/tostador-mirati-800-w-7-niveles-de-tostado-negro-mirati-mbt01n" },
+          { "title": "OfficeMax Mirati MBT01N", "type": "retailer_product", "url": "https://www.officemax.com.mx/tostador-mirati-7-niveles-800w-negro-7500647011382/p" }
+        ]
+      }
+    },
+    {
+      "product_id": "ih3vpxooqrel92p",
+      "research": {
+        "confidence": 0.97,
+        "brand": "Vertiv",
+        "name": "Tarjeta Vertiv Liebert IntelliSlot RDU101 para UPS GXT5",
+        "description": "Tarjeta de comunicacion Vertiv Liebert IntelliSlot RDU101 para monitoreo y administracion remota de UPS Liebert GXT5, con acceso web, SNMP/SNMPv3, Modbus TCP, HTTPS y alarmas.",
+        "manufacturerUrl": "https://www.vertiv.com/en-us/products-catalog/monitoring-control-and-management/monitoring/liebert-intellislot-rdu101-communications-card/",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/vertiv-rdu101",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10462435",
+          "https://www.vertiv.com/49943e/globalassets/shared/1000x1000-rdu101-front.jpg"
+        ],
+        "documents": [
+          "https://www.vertiv.com/49629c/globalassets/shared/vertiv-rdu101-data-sheet-sl-31322_01.pdf",
+          "https://www.vertiv.com/4945b9/contentassets/808efef375cd4825aa7a131f82566536/70919-vertiv-liebert-intellislot-rdu101-card-v1.9.1.2_0000001_revk_03-25.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "NIC-4453", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Vertiv / Liebert",
+          "model": "RDU101",
+          "providerSkus": ["NIC-4453"],
+          "productType": "Tarjeta de comunicacion/red para UPS",
+          "slot": "IntelliSlot",
+          "compatibility": "Liebert GXT5 UPS; firmware reciente tambien lista RXA/RXV/TFX/Trinergy segun notas de Vertiv",
+          "network": "1 x RJ-45 Ethernet 10/100 Mb/s",
+          "protocols": ["Web", "SNMP", "SNMPv3", "Modbus TCP", "HTTPS", "BACnet segun guias de Vertiv"],
+          "notifications": ["Alarmas por email", "Alarmas por SMS segun configuracion"],
+          "environmentalMonitoring": "Compatible con sensores Liebert SN para temperatura, humedad, fugas, puertas y contactos",
+          "integrations": ["Trellis Enterprise", "Trellis Power Insight", "LIFE Services"],
+          "inputPower": "7-12 VDC",
+          "maxPowerConsumption": "3.6 W",
+          "operatingTemperature": "0 a 40 C",
+          "humidity": "10-90% HR",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para NIC-4453. TiendaClic/CVA y GSX Digital muestran existencia 0; B&H/IT Devices EUA listan stock externo.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NIC-4453", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic/CVA muestra existencia aproximada 0.", "GSX Digital lista existencia 0.", "B&H/IT Devices EUA aparecen con stock externo."],
+          "reviewNotes": "No confundir con tarjetas IS-UNITY ni RDU120; el SKU proveedor NIC-4453 coincide con Vertiv RDU101 para GXT5."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "75.5 x 15 x 37 mm", "weight": "0.2 kg / 7 oz neto; 0.6 kg / 1.3 lb envio" },
+        "sourceRefs": [
+          { "title": "Vertiv Liebert IntelliSlot RDU101", "type": "manufacturer_product", "url": "https://www.vertiv.com/en-us/products-catalog/monitoring-control-and-management/monitoring/liebert-intellislot-rdu101-communications-card/" },
+          { "title": "Vertiv RDU101 data sheet", "type": "manufacturer_document", "url": "https://www.vertiv.com/49629c/globalassets/shared/vertiv-rdu101-data-sheet-sl-31322_01.pdf" },
+          { "title": "Vertiv IntelliSlot RDU101 firmware guide", "type": "manufacturer_document", "url": "https://www.vertiv.com/4945b9/contentassets/808efef375cd4825aa7a131f82566536/70919-vertiv-liebert-intellislot-rdu101-card-v1.9.1.2_0000001_revk_03-25.pdf" },
+          { "title": "TiendaClic Vertiv RDU101", "type": "retailer_price_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/rdu101-tarjeta-de-comunicacion-vertiv-liebert-rdu101-intellislot-para-equipos-vertiv-linea-gxt5-1-ano-de-garantia-vertiv-rdu101" },
+          { "title": "Dell Liebert IntelliSlot Communications Card", "type": "retailer_product", "url": "https://www.dell.com/en-us/shop/liebert-intellislot-communications-card-remote-management-adapter-10-100-ethernet-x-1/apd/aa672762/cookie" }
+        ]
+      }
+    }
+  ]
+}
