@@ -1,0 +1,436 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b262-2026-06-01",
+  "cycle": 3,
+  "batch": 262,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "gz7mzee5kf2ddop",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Huawei",
+        "name": "PDU Huawei PDU2000 02120814-004N-DPS 1U horizontal, 8 tomas C13, 16 A",
+        "description": "PDU basico Huawei PDU2000-16-1PH-8/0-B1 para rack, monofasico, formato horizontal 1U con 8 salidas IEC C13. No es UPS ni regleta monitoreada.",
+        "manufacturerUrl": "https://support.huawei.com/enterprise/en/doc/EDOC1100294315/c1d1a745/rpdu",
+        "manualCategoryPath": "energia/pdu-rack/basicos/1u-16a-8-c13/huawei-pdu2000-02120814-004n-dps",
+        "semanticCategoryPath": "energia/pdu-rack/basicos/1u-16a-8-c13",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10389317"],
+        "documents": ["https://support.huawei.com/enterprise/en/doc/EDOC1100294315/c1d1a745/rpdu"],
+        "specs": {
+          "brand": "Huawei",
+          "model": "02120814-004N-DPS",
+          "baseModel": "PDU2000-16-1PH-8/0-B1",
+          "providerSkus": ["AC-11447"],
+          "productType": "PDU basico para rack",
+          "mounting": "1U horizontal",
+          "phase": "Monofasico",
+          "outlets": "8 x IEC C13",
+          "connector": "Sin conector industrial",
+          "line": "Basic / no monitoreada",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para AC-11447. TiendaClic e Intercompras muestran disponibilidad externa aproximada de 4 piezas.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-11447", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic reporta existencia aproximada de 4 piezas.", "Intercompras y GlobalOffice indexan disponibilidad externa cercana a 4 piezas."],
+          "reviewNotes": "El sufijo 02120814-004N-DPS funciona como SKU de distribucion; no asumir monitoreo SNMP ni ATS."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "485 x 44 x 31.75 mm aprox. segun dibujo Huawei", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Huawei rPDU documentation", "type": "manufacturer_document", "url": "https://support.huawei.com/enterprise/en/doc/EDOC1100294315/c1d1a745/rpdu" },
+          { "title": "TiendaClic Huawei 02120814-004N-DPS", "type": "retailer_price_stock", "url": "https://www.tiendaclic.mx/ver-detalle/huawei-distribution-line-basic-type-pdu2000-16-1ph-80-b1-8c13-1u-horizontal-loading-no-industrial-connector-free-mounting-plate-huawei-02120814-004n-dps" },
+          { "title": "Huawei UPS2000-H manual reference with PDU drawing", "type": "manufacturer_document", "url": "https://cotaonline.gpcabling.com.br/produto_documento/31000/ups2000h6_kva10_kva_user_manual.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "h1o0kny847ziea6",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Panasonic",
+        "name": "Servicio de activacion Panasonic SE-NSP960FULL para maxima capacidad KX-NS1000",
+        "description": "Servicio/licencia de activacion Panasonic SE-NSP960FULL para habilitar maxima capacidad de troncales IP y extensiones IP en conmutador KX-NS1000. No es hardware fisico.",
+        "manufacturerUrl": "https://docs.connect.panasonic.com/office/products/pbx/products/pbx/kx_ns1000/specifications/index.html",
+        "manualCategoryPath": "telefonia/conmutadores-ip/panasonic-kx-ns1000/licencias/activacion-full/se-nsp960full",
+        "semanticCategoryPath": "telefonia/conmutadores-ip/panasonic-kx-ns1000/licencias/activacion-full",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10327693"],
+        "specs": {
+          "brand": "Panasonic",
+          "model": "SE-NSP960FULL",
+          "providerSkus": ["POL-7487"],
+          "productType": "Servicio/licencia de activacion PBX",
+          "compatibleSystem": "Panasonic KX-NS1000",
+          "activationScope": ["Troncales IP/SIP", "Extensiones IP propietarias", "Extensiones IP de terceros", "Funcionalidades de maxima capacidad"],
+          "officialSystemCapacityReference": "KX-NS1000 soporta hasta 256 troncales SIP y hasta 640 extensiones standalone; configuracion One-look hasta 1000 extensiones.",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-7487. Comercializadora PCV reporta existencia 0; Expercom solicita notificacion de existencias; Delux maneja bajo orden.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7487", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Comercializadora PCV reporta existencia 0.", "Expercom lista producto para notificar existencias.", "Delux lo maneja bajo orden."],
+          "reviewNotes": "No se encontro ficha oficial publica para el SKU SE-NSP960FULL; la capacidad se respalda con documentacion oficial KX-NS1000 y el SKU con distribuidores."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Panasonic KX-NS1000 specifications", "type": "manufacturer_support", "url": "https://docs.connect.panasonic.com/office/products/pbx/products/pbx/kx_ns1000/specifications/index.html" },
+          { "title": "Expercom Panasonic SE-NSP960FULL", "type": "retailer_service_reference", "url": "https://www.expercom.mx/producto/servicio-de-activacion-panasonic-se-nsp960full-a-su-max" },
+          { "title": "Comercializadora PCV Panasonic SE-NSP960FULL", "type": "retailer_price_stock", "url": "https://www.comercializadorapcvgdl.com.mx/SERVICIO-DE-ACTIVACION-PANASONIC-SE-NSP960FULL-A-SU-MAXIMA-CAPACIDAD-EN-TRONCALES-IP-Y-EXT-IP-PROPIETARIAS-Y-TERCEROS-ASI-COMO-TODAS-LAS-FUNCIONALIDADES-APLICA-SOLO-PARA-KX-NS1000-PANASONIC-SE-NSP960-%2C61705_1461123839" },
+          { "title": "CAST Panasonic KX-NS capacity service context", "type": "retailer_service_reference", "url": "https://www.cast.mx/Panasonic/KX-NS/KX-NSP360W-Plus/KX-NSP360W-Plus-Panasonic-KX-NS500-KX-NS1000-Equipa-Tu-Equipo-a-maxima-capacidad-lineas-ip-extensiones-ip-sip-DISA-Grabacion-Call-Center-Avanzado-firmware-version-9-private-PFMPR-PCMPR.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "h3d034y91ith4vi",
+      "research": {
+        "confidence": 0.95,
+        "brand": "EPCOM Professional",
+        "name": "Camara bala EPCOM B8-TURBO-G2P/A TurboHD 2MP con audio por Coaxitron",
+        "description": "Camara bala analogica HD 4 en 1 EPCOM B8-TURBO-G2P/A de 2MP, lente 2.8 mm, audio por Coaxitron, IR EXIR 25 m y gabinete exterior IP66.",
+        "manufacturerUrl": "https://www.syscom.mx/products/193418",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-ir-audio-coaxitron/epcom-b8-turbo-g2p-a",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-ir-audio-coaxitron",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://ftp3.syscom.mx/usuarios/fotos/BancoFotografiasSyscom/EPCOM/B8TURBOG2P_A/B8TURBOG2P_A-g.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D600/usuarios/fotos/BancoFotografiasSyscom/EPCOM/B8TURBOG2P_A/B8TURBOG2P_A-l.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EPCOMPROFESSIONAL/B8TURBOG2P_A/B8TURBOG2P_A-AD-1-l.PNG",
+          "https://ftp3.syscom.mx/cdn-cgi/image/format%3Dauto%2Cquality%3D80%2Cwidth%3D500/usuarios/fotos/BancoFotografiasSyscom/EPCOMPROFESSIONAL/B8TURBOG2P_A/B8TURBOG2P_A-AD-2-l.PNG"
+        ],
+        "specs": {
+          "brand": "EPCOM Professional",
+          "model": "B8-TURBO-G2P/A",
+          "providerSkus": ["193418"],
+          "productType": "Camara bala TurboHD 4 en 1",
+          "resolution": "2MP 1920 x 1080",
+          "lens": "2.8 mm",
+          "viewAngle": "106.4 grados",
+          "nightVision": "Smart IR EXIR hasta 25 m",
+          "videoSignals": ["TVI", "AHD", "CVI", "CVBS"],
+          "audio": "Microfono integrado / audio por Coaxitron",
+          "imageEnhancement": ["dWDR", "BLC", "HLC", "2D DNR"],
+          "ingressProtection": "IP66",
+          "power": "12 Vcc, 2.7 W",
+          "warranty": "5 anos Syscom",
+          "providerBranchSummary": "Syscom/ElectroPrice reporta stock 0 sin sucursal granular para 193418. Syscom publico no muestra inventario sin login; RadioElectronics lista inventario por sucursal, pendiente de confirmar con proveedor primario.",
+          "providerBranches": [
+            { "providerId": "syscom", "providerSku": "193418", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["RadioElectronics lista existencias por sucursal.", "Intercompras mantiene ficha de producto."],
+          "reviewNotes": "El ID Syscom 193418 coincide con modelo B8-TURBO-G2P/A y el titulo fuente."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "58 x 61 x 158.6 mm", "weight": "160 g" },
+        "sourceRefs": [
+          { "title": "Syscom EPCOM B8-TURBO-G2P/A 193418", "type": "provider_product", "url": "https://www.syscom.mx/products/193418" },
+          { "title": "RadioElectronics EPCOM B8-TURBO-G2P/A", "type": "retailer_price_stock", "url": "https://radioelectronicsenlinea.mx/products/b8turbog2p-a" },
+          { "title": "Intercompras EPCOM B8-TURBO-G2P/A", "type": "retailer_product", "url": "https://intercompras.com/p/camara-bala-epcom-b8turbog2paxps-mp-1080p-ip-lente-28mm-ir-25m-exterior-287874" }
+        ]
+      }
+    },
+    {
+      "product_id": "h3y1uwcbbhqpei3",
+      "research": {
+        "confidence": 0.86,
+        "brand": "Dell",
+        "name": "Garantia Dell N_INSPNBL3_C1_C3 para Inspiron 5000, 1Y Carry-In a 3Y Carry-In",
+        "description": "Extension de garantia Dell para notebooks Inspiron 5000 que amplia cobertura basica en centro de servicio de 1 ano a 3 anos Carry-In. Es poliza de servicio; validar Service Tag antes de venta.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-carry-in/inspiron-notebooks-5000/1y-a-3y/n-inspnbl3-c1-c3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-carry-in/inspiron-notebooks-5000/1y-a-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339912", "https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_INSPNBL3_C1_C3-4e1d0d.jpg"],
+        "documents": ["https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_INSPNBL3_C1_C3",
+          "providerSkus": ["POL-7729"],
+          "productType": "Extension de garantia Dell Carry-In",
+          "serviceLevel": "Basic Hardware Service / Carry-In",
+          "compatibleFamily": "Inspiron notebooks 5000",
+          "upgrade": "1 ano en centro de servicio a 3 anos en centro de servicio",
+          "supportWindow": "8x5 segun ficha de distribuidor",
+          "serviceRequirement": "Diagnostico remoto y entrega en centro designado cuando aplique",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-7729. Cyberpuerta y Compuviper lo muestran agotado o bajo pedido; Altec estima entrega 5-7 dias habiles sin conteo.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7729", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta agotado.", "Compuviper bajo pedido y 0 por sucursal.", "Altec entrega 5-7 dias habiles sin conteo de stock."],
+          "reviewNotes": "El SKU se valida en distribuidores; la documentacion Dell corresponde al servicio Basic Hardware/Carry-In generico."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Dell N_INSPNBL3_C1_C3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-en-Centro-de-Servicio-para-Inspiron-5000.html" },
+          { "title": "Altec Dell N_INSPNBL3_C1_C3", "type": "retailer_service_reference", "url": "https://www.alteccomputacion.com/tienda/7294-poliza-de-garantia-dell-para-inspiron-notebooks-5000-de-1-ao-incluido-a-3-aos-en-centro-de-servicios-carry-in.html" },
+          { "title": "Dell Basic Hardware Service description", "type": "manufacturer_document", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" },
+          { "title": "Compuviper Dell N_INSPNBL3_C1_C3", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/dell-n_inspnbl3_c1_c3-poliza-de-garantia-para-inspiron-notebooks-5000-de-1-ao-basico-en-centro-de-servicio-carry-in-a-3-aos-en-centro-de-servicio-carry-in/" }
+        ]
+      }
+    },
+    {
+      "product_id": "h7kw5kjgkk5u1cm",
+      "research": {
+        "confidence": 0.78,
+        "brand": "VICA",
+        "name": "Tarjeta de monitoreo SNMP VICA para UPS/no break VICA",
+        "description": "Tarjeta SNMP VICA para monitoreo y gestion remota de UPS/no break compatibles. La ficha publica del modelo estandar no detalla puertos ni protocolos especificos; no confundir con SNMP-PLUS.",
+        "manufacturerUrl": "https://vica.com.mx/collections/ups-regulador-de-voltaje",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/vica-snmp-basica",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10317472"],
+        "specs": {
+          "brand": "VICA",
+          "model": "TARJETA SNMP",
+          "providerSkus": ["NIC-3968"],
+          "productType": "Tarjeta de comunicacion SNMP para UPS",
+          "compatibleLine": "UPS/no break VICA",
+          "functions": ["Monitoreo remoto", "Gestion SNMP"],
+          "ports": "Unknown para modelo estandar",
+          "protocols": "SNMP; version exacta no publicada",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para NIC-3968. Solucionix muestra existencia 0; RYGTEC muestra CDMX 0, foranea 0 y CEDIS 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NIC-3968", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Solucionix exacto muestra existencia 0.", "RYGTEC indexa local CDMX 0, foranea 0 y CEDIS 0."],
+          "reviewNotes": "Identidad soportada por distribuidores/CVA; specs de SNMP-PLUS no se copiaron porque corresponden a otro SKU."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Solucionix VICA NIC-3968", "type": "retailer_price_stock", "url": "https://solucionix.com/verProducto.php?id=NIC-3968" },
+          { "title": "VICA UPS/regulador collection", "type": "manufacturer_context", "url": "https://vica.com.mx/collections/ups-regulador-de-voltaje" },
+          { "title": "RYGTEC VICA catalog", "type": "retailer_price_stock", "url": "https://www.rygtec.com/catalogo.php?marca=VICA" }
+        ]
+      }
+    },
+    {
+      "product_id": "h88lndppdftve9l",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Lenovo",
+        "name": "Lenovo ADP One 3 anos 5PS8C05777, proteccion contra danos accidentales",
+        "description": "Poliza Lenovo ADP One de 3 anos para proteccion contra danos accidentales elegibles. ADP One permite una reclamacion durante la vigencia; validar equipo y numero de serie.",
+        "manufacturerUrl": "https://www.lenovo.com/mx/es/servicios/support-services/adp/",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/lenovo/adp/3y/5ps8c05777",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/lenovo/adp/3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10476719"],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "5PS8C05777",
+          "providerSkus": ["POL-11032"],
+          "productType": "Poliza de garantia electronica",
+          "serviceFamily": "Accidental Damage Protection One",
+          "term": "3 anos",
+          "claimLimit": "Una reclamacion/reparacion durante la vigencia de la poliza",
+          "coveredExamples": ["Caidas", "Golpes", "Derrames", "Fallas estructurales", "Sobretension", "Dano LCD"],
+          "eligibility": "Depende del equipo y serial Lenovo",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-11032. Inntec exacto muestra existencia 0; RYGTEC muestra CDMX 0, foranea 0 y CEDIS 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-11032", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Inntec exacto muestra existencia 0.", "RYGTEC reporta 0 local CDMX, 0 foranea y 0 CEDIS."],
+          "reviewNotes": "El PN se valida en distribuidores; la cobertura ADP se respalda con Lenovo Mexico."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Inntec Lenovo 5PS8C05777", "type": "retailer_price_stock", "url": "https://www.inntecstore.com/3y-Adp-One-Lenovo-5ps8c05777%2C204051__38" },
+          { "title": "Lenovo Mexico Accidental Damage Protection", "type": "manufacturer_service", "url": "https://www.lenovo.com/mx/es/servicios/support-services/adp/" },
+          { "title": "RYGTEC Lenovo catalog", "type": "retailer_price_stock", "url": "https://www.rygtec.com/catalogo.php?marca=LENOVO" }
+        ]
+      }
+    },
+    {
+      "product_id": "hd1sxr2yggjxun1",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Baseus",
+        "name": "Hub USB-C Baseus UltraJoy/Flite B00052803811-00 7 en 1, HDMI 4K60, gris",
+        "description": "Hub USB-C Baseus B00052803811-00 de 7 puertos con HDMI 4K a 60 Hz, 3 USB-A 3.0, USB-C PD hasta 100 W y lectores SD/microSD. En Mexico aparece como Flite Series; en fichas internacionales como UltraJoy.",
+        "manufacturerUrl": "https://baseusindiaofficial.com/products/baseus-ultrajoy-series7-port-hub-docking-station-b00052803811-00",
+        "manualCategoryPath": "computo/accesorios/hubs-usb/usb-c/7-en-1/baseus-ultrajoy-b00052803811-00",
+        "semanticCategoryPath": "computo/accesorios/hubs-usb/usb-c/7-en-1",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10452376",
+          "https://baseusindiaofficial.com/cdn/shop/files/9483d4fd-97b2-4d85-8555-c29817f614f2_28ccebc8-cffa-4a43-b146-a6ed54c31fe1.webp?v=1740478534",
+          "https://gsmnet.eu/cdn/shop/files/hub-usb-c-baseus-ultrajoy-1-1752676913.jpg?v=1755899349"
+        ],
+        "specs": {
+          "brand": "Baseus",
+          "model": "B00052803811-00",
+          "providerSkus": ["AC-12823"],
+          "eanObserved": "6932172646486",
+          "productType": "Hub USB-C 7 en 1",
+          "ports": ["1 x HDMI", "3 x USB-A 3.0", "1 x USB-C PD", "1 x SD", "1 x microSD/TF"],
+          "videoOutput": "HDMI hasta 4K@60Hz",
+          "usbSpeed": "USB 3.0 hasta 5 Gbps",
+          "powerDelivery": "Hasta 100 W",
+          "material": "Aleacion de aluminio",
+          "color": "Gris",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para AC-12823. Intercompras Mexico indexa 75-80 disponibles; Compuviper y TiendaClic muestran agotado/0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-12823", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Baseus India indica 4 en stock.", "Intercompras Mexico indexa 75-80 disponibles.", "GSMnet/Mobiparts out of stock.", "Compuviper/TiendaClic agotado o 0."],
+          "reviewNotes": "La discrepancia UltraJoy vs Flite parece naming/feed local; el PN B00052803811-00 coincide. No usar velocidad SD/TF como spec critica por discrepancia entre retailers."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "120 x 36.6 x 14.5 mm", "weight": "70 g", "packageDimensions": "20.5 x 2.5 x 8.3 cm", "packageWeight": "0.106 kg" },
+        "sourceRefs": [
+          { "title": "Baseus India B00052803811-00", "type": "manufacturer_or_brand_store", "url": "https://baseusindiaofficial.com/products/baseus-ultrajoy-series7-port-hub-docking-station-b00052803811-00" },
+          { "title": "GSMnet Baseus UltraJoy B00052803811-00", "type": "retailer_product", "url": "https://gsmnet.eu/products/baseus-ultrajoy-usb-c-hub-3-x-usb-a-30-1-x-usb-c-1-x-hdmi-1-x-sd-1-x-microsd-gray-b00052803811-00/" },
+          { "title": "Intercompras Baseus Flite B00052803811-00", "type": "retailer_price_stock", "url": "https://intercompras.com/p/hub-tipo-c-baseus-flite-series-puertos-hdmi-4k-60hz-usb-pd-sd-tf-gris-418676" },
+          { "title": "Compuviper Baseus B00052803811-00", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/baseus-b00052803811-00-hub-tipo-c-flite-series-hub-de-7-puertos-hdmi4k60hz1usb303pd1sd-tf1color-gris/" }
+        ]
+      }
+    },
+    {
+      "product_id": "hf3fyzck1r61o94",
+      "research": {
+        "confidence": 0.84,
+        "brand": "Dell",
+        "name": "Poliza Dell N_OPTL3_N3_P5 ProSupport 5 anos para OptiPlex 7000",
+        "description": "Poliza Dell ProSupport para OptiPlex desktops 7000/7010 compatibles, upgrade de 3 anos Basic NBD a 5 anos ProSupport. Es servicio; validar Service Tag y cobertura antes de venta.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-7000/3y-basic-nbd-a-5y-prosupport/n-optl3-n3-p5",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-7000/3y-basic-nbd-a-5y-prosupport",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10427633"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL3_N3_P5",
+          "providerSkus": ["POL-9448"],
+          "productType": "Poliza de garantia Dell ProSupport",
+          "serviceLevel": "ProSupport",
+          "term": "5 anos",
+          "upgrade": "3 anos Basic Next Business Day a 5 anos ProSupport",
+          "compatibleFamily": "OptiPlex desktops 7000, con fichas publicas para 7010/7410",
+          "serviceFeatures": ["Soporte 24x7", "Expertos regionales", "Reparacion onsite al siguiente dia laboral tras diagnostico remoto"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-9448. Cityshop agotado; Compuviper reporta CDMX 0, CEDI 0, transito 0 y sucursales 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-9448", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cityshop producto agotado.", "Compuviper sin stock y bajo pedido."],
+          "reviewNotes": "El nombre CVA dice OptiPlex 7000; Cityshop aterriza el servicio a OptiPlex 7010/7410."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Cityshop Dell N_OPTL3_N3_P5", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-optiplex-desktops-7010-de-3-anos-incluidos-a-5-anos-prosupport" },
+          { "title": "Compuviper polizas Dell stock reference", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/categoria-producto/polizas-de-garantia/sin-categoria-polizas-de-garantia/page/9/" },
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_service", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" }
+        ]
+      }
+    },
+    {
+      "product_id": "hff6eojwym7i03y",
+      "research": {
+        "confidence": 0.97,
+        "brand": "Gigabyte",
+        "name": "Tarjeta de video Gigabyte GeForce RTX 4060 Ti AERO OC 16G, 16GB GDDR6",
+        "description": "Tarjeta grafica Gigabyte GV-N406TAERO OC-16GD con GPU NVIDIA GeForce RTX 4060 Ti, 16GB GDDR6, WINDFORCE, Dual BIOS y salidas 2x DisplayPort/2x HDMI.",
+        "manufacturerUrl": "https://www.gigabyte.com/us/Graphics-Card/GV-N406TAERO-OC-16GD",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-40/rtx-4060-ti/gigabyte-aero-gv-n406taero-oc-16gd",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-40/rtx-4060-ti",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10410294",
+          "https://static.gigabyte.com/StaticFile/Image/Global/72a56567c310b0337d7b4a5b5f4ce01f/Product/36151/png/1000",
+          "https://static.gigabyte.com/StaticFile/Image/Global/950a348cdbf65e254196940d2afdaa1b/Product/36041/png/1000",
+          "https://static.gigabyte.com/StaticFile/Image/Global/0edbbcd14fb7faa3f1548bf1c6357214/Product/36042/png/1000",
+          "https://www.cyberpuerta.mx/img/product/S/CP-GIGABYTE-GV-N406TAEROOC-16GD-5adf73.jpg"
+        ],
+        "specs": {
+          "brand": "Gigabyte",
+          "model": "GV-N406TAERO OC-16GD",
+          "providerSkus": ["VC-1188"],
+          "productType": "Tarjeta grafica PCIe",
+          "gpu": "NVIDIA GeForce RTX 4060 Ti",
+          "cudaCores": 4352,
+          "coreClock": "2595 MHz",
+          "memory": "16GB GDDR6",
+          "memoryBus": "128-bit",
+          "memoryClock": "18 Gbps",
+          "interface": "PCI Express 4.0 x16",
+          "maxResolution": "7680 x 4320",
+          "maxDisplays": 4,
+          "outputs": ["2 x DisplayPort 1.4a", "2 x HDMI 2.1a"],
+          "cooling": "WINDFORCE 3 ventiladores 80 mm",
+          "features": ["RGB Fusion", "Dual BIOS", "Backplate metalico"],
+          "powerConnector": "1 x 8-pin",
+          "recommendedPsu": "500 W",
+          "directX": "12 Ultimate",
+          "openGL": "4.6",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para VC-1188. Cyberpuerta lo marca sin existencias.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "VC-1188", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta sin existencias y probablemente fuera de mercado."],
+          "reviewNotes": "Ficha oficial Gigabyte confirma modelo y especificaciones; Cyberpuerta confirma categoria Mexico y agotado."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "281 x 117 x 50 mm", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Gigabyte GV-N406TAERO OC-16GD product page", "type": "manufacturer_product", "url": "https://www.gigabyte.com/us/Graphics-Card/GV-N406TAERO-OC-16GD" },
+          { "title": "Gigabyte GV-N406TAERO OC-16GD specifications", "type": "manufacturer_specs", "url": "https://www.gigabyte.com/us/Graphics-Card/GV-N406TAERO-OC-16GD/sp" },
+          { "title": "Gigabyte GV-N406TAERO OC-16GD gallery", "type": "manufacturer_gallery", "url": "https://www.gigabyte.com/us/Graphics-Card/GV-N406TAERO-OC-16GD/gallery" },
+          { "title": "Cyberpuerta Gigabyte RTX 4060 Ti AERO OC 16G", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Componentes/Tarjetas-de-Video/Tarjeta-de-Video-Gigabyte-NVIDIA-GeForce-RTX-4060-Ti-AERO-OC-16-16GB-128-bit-GDDR6-PCI-Express-4-0.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "hgn2yx3ojyu1akc",
+      "research": {
+        "confidence": 0.83,
+        "brand": "Dell",
+        "name": "Poliza Dell N_VOSNBM3_N1_P3 ProSupport 3 anos para Vostro Notebooks 5000",
+        "description": "Poliza Dell ProSupport para laptops Vostro 5000, upgrade de 1 ano Basic NBD a 3 anos ProSupport. Es servicio de garantia; validar Service Tag y region antes de vender.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/vostro-notebooks-5000/1y-basic-nbd-a-3y-prosupport/n-vosnbm3-n1-p3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/vostro-notebooks-5000/1y-basic-nbd-a-3y-prosupport",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339861", "https://www.cyberpuerta.mx/img/product/XS/CP-DELL-N_VOSNBM3_N1_P3-4e1d0d.jpg"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_VOSNBM3_N1_P3",
+          "providerSkus": ["POL-7739"],
+          "productType": "Poliza de garantia Dell ProSupport",
+          "serviceLevel": "ProSupport",
+          "term": "3 anos",
+          "compatibleFamily": "Vostro notebooks 5000",
+          "upgrade": "1 ano Basic Next Business Day a 3 anos ProSupport",
+          "serviceFeatures": ["Soporte 24x7 segun ProSupport", "Reparacion onsite siguiente dia laboral tras diagnostico remoto cuando aplique"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-7739. Cyberpuerta y Cityshop lo muestran agotado; otros listados indican 0 nacional o sobre pedido.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7739", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta agotado, ultimo precio registrado $2,679 MXN.", "Cityshop producto agotado."],
+          "reviewNotes": "Cityshop incluye campos de soporte conservadores; se conserva ProSupport como canon y SLA exacto queda dependiente de region/serie."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Dell N_VOSNBM3_N1_P3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-ProSupport-para-Laptops-Vostro-5000.html" },
+          { "title": "Cityshop Dell N_VOSNBM3_N1_P3", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-vostro-notebooks-5000-de-1-ano-incluido-a-3-anos-prosupport" },
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_service", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" }
+        ]
+      }
+    }
+  ]
+}
