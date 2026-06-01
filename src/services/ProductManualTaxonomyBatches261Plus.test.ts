@@ -235,6 +235,19 @@ const batch278Cases = [
   ["Epcom Powerline PL-110-D12 FR-2013 bateria AGM ciclo profundo 12V 110Ah", "EPCOM POWERLINE", "energia/baterias-solares/agm-ciclo-profundo/12v-110ah/epcom-powerline-pl-110-d12", "power", {}],
 ] as const;
 
+const batch279Cases = [
+  ["BRobotix 6000120 BOCRBT690 bocina Bluetooth RGB subwoofer 3W gris 7500896000120", "BROBOTIX", "audio/bocinas/bluetooth/portatiles/rgb-3w/brobotix-6000120-gris", "audio", {}],
+  ["Xerox W110 XW110-A 100N03675 SC-331 escaner produccion ADF duplex 120ppm", "XEROX", "impresion/escaneres/documentales/produccion/adf/a3/xerox-w110-100n03675", "printers_scanners", {}],
+  ["Cisco Catalyst C9200-48P-E SWTCIS2680 switch 48 puertos PoE+ Network Essentials", "CISCO", "redes/switches/poe-administrables/gigabit/48-puertos/cisco-catalyst-c9200-48p-e", "networking", {}],
+  ["Dahua DHI-ARD1233-W2 AL-42 detector PIR inalambrico interior pet immunity", "DAHUA TECHNOLOGY", "seguridad/alarmas/sensores/movimiento-pir/inalambricos/dahua-ard1233-w2", "security", {}],
+  ["NEC NP-MC453X VP-1005 proyector LCD XGA 4500 lumenes HDMI RJ45", "NEC", "video/proyectores/oficina/xga-4500-lumenes/nec-np-mc453x", "tvs", {}],
+  ["Canon PIXMA G7010 3114C004AA IMPCNN2190 multifuncional MegaTank WiFi Ethernet", "CANON", "impresion/impresoras/multifuncionales-tinta-continua/canon-pixma-g7010-3114c004aa", "printers_scanners", {}],
+  ["BenQ MOBIUZ EX271U 9H.LN2LB.QBA MNL-2948 monitor gamer 27 4K 165Hz", "BENQ", "computo/monitores/gaming/27-4k-165hz/benq-mobiuz-ex271u", "monitors", {}],
+  ["APC Back-UPS BVX1200L-LM NBKAPC2540 FR-1789 1200VA 650W AVR", "APC", "energia/no-breaks-ups/line-interactive/1200va/apc-bvx1200l-lm", "power", {}],
+  ["Logitech GROUP 960-001054 VIC-19 camara videoconferencia Full HD zoom 10x", "LOGITECH", "computo/colaboracion/videoconferencia/camaras-salas/usb-full-hd/logitech-group-960-001054", "cameras", {}],
+  ["Uniview IPC3632SS-ADZK-I1 CI121UNV79 camara IP turret 2MP LightHunter varifocal", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/turret/2mp-lighthunter-varifocal/uniview-ipc3632ss-adzk-i1", "cameras", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -339,6 +352,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch278Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch279Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

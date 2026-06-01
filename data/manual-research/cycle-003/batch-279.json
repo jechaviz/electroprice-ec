@@ -1,0 +1,447 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b279-2026-06-01",
+  "cycle": 3,
+  "batch": 279,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0dzhfc1hqccaguy",
+      "research": {
+        "confidence": 0.91,
+        "brand": "BRobotix",
+        "name": "Bocina portatil BRobotix 6000120 Bluetooth RGB con subwoofer 3W gris",
+        "description": "Bocina portatil BRobotix 6000120 en color gris, con Bluetooth, subwoofer, iluminacion RGB, radio FM, bateria recargable, correa, control de volumen y reproduccion desde USB o tarjeta TF. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/600120_ft.pdf",
+        "manualCategoryPath": "audio/bocinas/bluetooth/portatiles/rgb-3w/brobotix-6000120-gris",
+        "semanticCategoryPath": "audio/bocinas/bluetooth/portatiles/rgb-3w",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCRBT690/BOCRBT690_full.jpg", "https://www.cyberpuerta.mx/img/product/XL/CP-BROBOTIX-6000120-ff6b91.jpg"],
+        "documents": ["https://datacomponents.com.mx/manager/fichas_tecnicas/600120_ft.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "BOCRBT690", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 8.07, "currency": "USD" }],
+        "specs": {
+          "model": "6000120",
+          "aliases": ["600120", "6000120", "BOCRBT690"],
+          "ean": "7500896000120",
+          "productType": "Bocina Bluetooth portatil",
+          "audioPower": "3 W RMS",
+          "impedance": "4 ohm",
+          "snr": "80 dB",
+          "connectivity": ["Bluetooth", "USB", "Tarjeta TF"],
+          "features": ["Subwoofer", "Radio FM", "Iluminacion RGB", "Bateria recargable", "Correa"],
+          "material": "Plastico ABS/PC",
+          "powerInput": "5 Vcc",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para BOCRBT690. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCRBT690", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8.07, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta e Intercompras muestran stock publico variable; Mactoner/CompuPuebla aparecen sin existencia para el alias 600120.", "Se conserva PB como autoridad operativa con stock 0."],
+          "reviewNotes": "La ficha oficial usa 600120; el canal y PB usan 6000120, se guardan ambos aliases."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "145 x 82 x 35 mm", "weight": "247.8 g", "packageDimensions": "165 x 87 x 45 mm", "packageWeight": "289.3 g" },
+        "sourceRefs": [
+          { "title": "Data Components Brobotix 600120 ficha", "type": "manufacturer_datasheet", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/600120_ft.pdf" },
+          { "title": "Cyberpuerta Brobotix 6000120", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Audio/Bocinas/Bocinas-Portatiles/BRobotix-Bocina-Portatil-6000120-Bluetooth-Inalambrico-USB-A-3W-Gris.html" },
+          { "title": "CTOnline feed BOCRBT690 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0e0exmbzgk0gks7",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Xerox",
+        "name": "Escaner de produccion Xerox W110 ADF duplex color 120 ppm USB 3.1",
+        "description": "Escaner de produccion Xerox W110 / XW110-A con ADF duplex, 120 ppm / 240 ipm a 300 ppp, sensor CIS dual, ADF de 500 hojas, ciclo diario de 100000 paginas, USB 3.1 Gen 1 y controladores TWAIN/ISIS/WIA. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.xeroxscanners.com/wp-content/uploads/manuals/W110/W110_Datasheet.ES_.pdf",
+        "manualCategoryPath": "impresion/escaneres/documentales/produccion/adf/a3/xerox-w110-100n03675",
+        "semanticCategoryPath": "impresion/escaneres/documentales/produccion/adf/a3",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10431924", "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/xerox_xw110_a_w110_production_scanner_1754490217_1896062.jpg"],
+        "documents": ["https://www.xeroxscanners.com/wp-content/uploads/manuals/W110/W110_Datasheet.ES_.pdf", "https://www.xeroxscanners.com/wp-content/uploads/manuals/W110/W110_Datasheet.US_.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SC-331", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 4698.95, "currency": "USD" }],
+        "specs": {
+          "model": "XW110-A",
+          "partNumbers": ["W110", "100N03675", "100N03675/W110"],
+          "providerSku": "SC-331",
+          "upc": "785414121205",
+          "ean": "4711860807161",
+          "productType": "Escaner documental de produccion ADF duplex",
+          "speed": "120 ppm / 240 ipm a 300 ppp",
+          "opticalResolution": "600 ppp",
+          "outputResolution": "75 a 1200 ppp",
+          "sensor": "CIS dual",
+          "adfCapacity": "500 hojas",
+          "dailyDutyCycle": "100000 paginas",
+          "interface": "USB 3.1 Gen 1",
+          "drivers": ["TWAIN", "ISIS", "WIA"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SC-331. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SC-331", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4698.95, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H lo lista como pedido especial; paginas mexicanas para SC-331 muestran existencia 0."],
+          "reviewNotes": "Se corrige desde monitor a escaner de produccion Xerox/Visioneer."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "460 x 446 x 362 mm cerrado; 460 x 775 x 362 mm expandido", "weight": "22.7 kg" },
+        "sourceRefs": [
+          { "title": "Xerox W110 datasheet ES", "type": "manufacturer_datasheet", "url": "https://www.xeroxscanners.com/wp-content/uploads/manuals/W110/W110_Datasheet.ES_.pdf" },
+          { "title": "B&H Xerox W110", "type": "retailer_specs", "url": "https://www.bhphotovideo.com/c/product/1896062-REG/xerox_xw110_a_w110_production_scanner.html" },
+          { "title": "CVA feed SC-331 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0edveim2s2c727b",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Cisco",
+        "name": "Switch Cisco Catalyst C9200-48P-E 48 puertos Gigabit PoE+ Network Essentials",
+        "description": "Switch administrable Cisco Catalyst C9200-48P-E con 48 puertos 10/100/1000 PoE+, licencia Network Essentials, uplinks modulares, StackWise-160, fuente PWR-C6-1KWAC y presupuesto PoE de 740 W. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/48-puertos/cisco-catalyst-c9200-48p-e",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/48-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTCIS2680/SWTCIS2680_full.jpg", "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/cisco_c9200_48p_e_catalyst_9200_48_port_poe_1677601235_1750682.jpg"],
+        "documents": ["https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.pdf", "https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9200/hardware/install/b-c9200-hig/product_overview.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "SWTCIS2680", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 93844.3, "currency": "MXN" }],
+        "specs": {
+          "model": "C9200-48P-E",
+          "providerSku": "SWTCIS2680",
+          "upc": "889728168250",
+          "ean": "0889728168250",
+          "productType": "Switch administrable PoE+ Gigabit",
+          "ports": "48 x 10/100/1000 PoE+",
+          "software": "Network Essentials",
+          "uplinks": "Modulares 1G/10G/25G segun modulo",
+          "stacking": "StackWise-160",
+          "poeBudget": "740 W con fuente primaria, hasta 1440 W con segunda fuente",
+          "switchingCapacity": "176 Gbps; 336 Gbps con stacking",
+          "forwardingRate": "130.95 Mpps; 250 Mpps con stacking",
+          "memory": "4 GB DRAM, 4 GB flash",
+          "macAddresses": "32000",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SWTCIS2680. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SWTCIS2680", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 93844.3, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Mactoner publica SWTCIS2680 sin existencias; B&H lo maneja como pedido especial."],
+          "reviewNotes": "Se separa de C9200L-48T-4G-E: este es C9200-48P-E con PoE+."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "4.4 x 44.5 x 35.0 cm; 4.4 x 44.5 x 39.1 cm con FEP/fan", "weight": "5.5 kg" },
+        "sourceRefs": [
+          { "title": "Cisco Catalyst 9200 data sheet", "type": "manufacturer_datasheet", "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.pdf" },
+          { "title": "Mactoner Cisco C9200-48P-E", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/switch-cisco-st-c9200-48p-e/" },
+          { "title": "CTOnline feed SWTCIS2680 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0elkbvrneowyvmu",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Dahua Technology",
+        "name": "Detector PIR inalambrico interior Dahua DHI-ARD1233-W2 con inmunidad a mascotas",
+        "description": "Detector PIR inalambrico Dahua DHI-ARD1233-W2 para alarma interior AirShield, con sensor PIR doble elemento, alcance 12 m / 90 grados, inmunidad a mascotas hasta 18 kg, tamper, medicion de temperatura, AES128 y comunicacion bidireccional. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/br/products/All-Products/Alarms/Wireless-Products/Detectors/ARD1233-W2",
+        "manualCategoryPath": "seguridad/alarmas/sensores/movimiento-pir/inalambricos/dahua-ard1233-w2",
+        "semanticCategoryPath": "seguridad/alarmas/sensores/movimiento-pir/inalambricos",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://materialfile.dahuasecurity.com/uploads/cpq/13047/image/1_0_01_19_10554_835743901_crop_thumb.PNG", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10403893"],
+        "documents": ["https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/ARD1233-W2_S0_datasheet_20250707.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "AL-42", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 26.73, "currency": "USD" }],
+        "specs": {
+          "model": "DHI-ARD1233-W2",
+          "providerSku": "AL-42",
+          "ean": "6923172504715",
+          "productType": "Detector PIR inalambrico",
+          "detection": "12 m, 90 grados a 2.2 m de altura",
+          "petImmunity": "Hasta 18 kg",
+          "wireless": "433.1-434.6 MHz, bidireccional, AES128, salto de frecuencia, hasta 1200 m abierto",
+          "battery": "CR123A, vida aproximada 4 anos",
+          "functions": ["3 niveles sensibilidad", "Tamper", "Baja bateria", "Medicion temperatura", "Actualizacion cloud"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para AL-42. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AL-42", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 26.73, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice MX indexa AL-42 con disponibilidad 0 y posible almacen externo."],
+          "reviewNotes": "Se corrige de camara CCTV a sensor de alarma PIR inalambrico."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "104 x 60 x 50 mm", "weight": "100 g", "packageDimensions": "135 x 98.5 x 56.8 mm", "packageWeight": "170 g" },
+        "sourceRefs": [
+          { "title": "Dahua ARD1233-W2 oficial", "type": "manufacturer_product", "url": "https://www.dahuasecurity.com/br/products/All-Products/Alarms/Wireless-Products/Detectors/ARD1233-W2" },
+          { "title": "Dahua ARD1233-W2 datasheet", "type": "manufacturer_datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/ARD1233-W2_S0_datasheet_20250707.pdf" },
+          { "title": "CVA feed AL-42 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0eusan3a8yc6g3a",
+      "research": {
+        "confidence": 0.94,
+        "brand": "NEC",
+        "name": "Videoproyector NEC NP-MC453X LCD XGA 4500 lumenes zoom 1.2x",
+        "description": "Videoproyector NEC/Sharp NP-MC453X LCD XGA de 4500 lumenes, contraste 16000:1, zoom manual 1.2x, foco manual, dos HDMI, VGA, RJ45, RS-232, USB viewer, bocina 16 W y lampara de hasta 20000 horas en eco. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://proav.sharpusa.com/products/projectors/np-mc453x/publish/20210301",
+        "manualCategoryPath": "video/proyectores/oficina/xga-4500-lumenes/nec-np-mc453x",
+        "semanticCategoryPath": "video/proyectores/oficina/xga-4500-lumenes",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://assets.sharpnecdisplays.us/images/products480x480/projectors/hero/np-mc453x.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10276732"],
+        "documents": ["https://assets.sharpnecdisplays.us/documents/colorbrochures/me3_mc3_series_specbrochure.pdf", "https://assets.sharpnecdisplays.us/documents/installationguides/mc453x_me453x_installguide.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "VP-1005", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 556.84, "currency": "USD" }],
+        "specs": {
+          "model": "NP-MC453X",
+          "providerSku": "VP-1005",
+          "productType": "Videoproyector LCD XGA",
+          "brightness": "4500 lumenes",
+          "resolution": "XGA 1024 x 768; soporta hasta WUXGA 1920 x 1200",
+          "contrast": "16000:1",
+          "lampLife": "10000 h normal / 20000 h eco",
+          "zoom": "1.2x manual",
+          "throwRatio": "1.5-1.8:1",
+          "imageSize": "30 a 300 in",
+          "keystone": "+/-30 grados horizontal y vertical",
+          "speaker": "16 W",
+          "connectivity": ["2 x HDMI con HDCP", "VGA", "Video RCA", "RJ45", "RS-232", "USB Viewer", "Wi-Fi opcional NP05LM1"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para VP-1005. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "VP-1005", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 556.84, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Sharp/NEC lo marca discontinued o de disponibilidad limitada; listings mexicanos VP-1005 aparecen agotados."],
+          "reviewNotes": "Se corrige desde monitores a proyector de aula/oficina."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "345 x 108.4 x 261 mm", "weight": "3.3 kg", "packageDimensions": "450 x 200 x 390 mm", "packageWeight": "4.7 kg" },
+        "sourceRefs": [
+          { "title": "Sharp NEC NP-MC453X oficial", "type": "manufacturer_product", "url": "https://proav.sharpusa.com/products/projectors/np-mc453x/publish/20210301" },
+          { "title": "Sharp NEC ME/MC spec brochure", "type": "manufacturer_datasheet", "url": "https://assets.sharpnecdisplays.us/documents/colorbrochures/me3_mc3_series_specbrochure.pdf" },
+          { "title": "CVA feed VP-1005 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0f6h4budzvsq9ws",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Canon",
+        "name": "Multifuncional Canon PIXMA G7010 MegaTank Wi-Fi Ethernet ADF fax",
+        "description": "Multifuncional Canon PIXMA G7010 MegaTank de tinta continua para impresion, copia, escaneo y fax, con Wi-Fi, Ethernet, ADF, duplex automatico, capacidad total de 350 hojas y rendimiento hasta 8300 paginas negro / 7700 color. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.cla.canon.com/en/p/pixma-g7010",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua/canon-pixma-g7010-3114c004aa",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-tinta-continua",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cla.canon.com/content/dam/cla-assets/product-assets/printers/megatank-and-home-printers/pixma-g7010/overview-images/en/pixma-g7010-overview-1.jpg", "https://static.ctonline.mx/imagenes/IMPCNN2190/IMPCNN2190_full.jpg"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "IMPCNN2190", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 6002.13, "currency": "MXN" }],
+        "specs": {
+          "model": "PIXMA G7010",
+          "partNumber": "3114C004AA",
+          "providerSku": "IMPCNN2190",
+          "upc": "013803323092",
+          "ean": "4549292151459",
+          "productType": "Multifuncional MegaTank tinta continua",
+          "functions": ["Impresion", "Copia", "Escaneo", "Fax"],
+          "printResolution": "4800 x 1200 dpi",
+          "scanResolution": "1200 x 2400 dpi cama plana; 600 x 600 dpi ADF",
+          "printSpeed": "13 ipm negro, 6.8 ipm color",
+          "paperCapacity": "350 hojas total: 250 frontal + 100 trasera",
+          "connectivity": ["USB Hi-Speed", "Wi-Fi", "Ethernet 10/100", "RJ-11", "AirPrint", "Mopria", "Canon PRINT"],
+          "ink": "GI-10 BK/C/M/Y",
+          "pageYield": "Hasta 8300 paginas negro / 7700 color",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para IMPCNN2190. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "IMPCNN2190", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6002.13, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Tienda Canon Mexico la muestra disponible; GlobalOffice/otros canales para 3114C004AA muestran llegada pendiente o sin stock. No contradice stock CTOnline 0."],
+          "reviewNotes": "Se corrige desde laptops/consumibles a multifuncional de tinta continua."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "15.9 x 14.6 x 9.3 in cerrada; 15.9 x 27.6 x 12.0 in con papel", "weight": "17.8 lb / 8.1 kg" },
+        "sourceRefs": [
+          { "title": "Canon Latin America PIXMA G7010", "type": "manufacturer_product", "url": "https://www.cla.canon.com/en/p/pixma-g7010" },
+          { "title": "Canon Chile PIXMA G7010", "type": "manufacturer_product", "url": "https://www.canon.cl/productos/tinta/pixma-g7010" },
+          { "title": "CTOnline feed IMPCNN2190 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0fhjf1yl1tb56oo",
+      "research": {
+        "confidence": 0.94,
+        "brand": "BenQ",
+        "name": "Monitor gamer BenQ MOBIUZ EX271U 27 pulgadas 4K IPS 165Hz HDMI 2.1 USB-C blanco",
+        "description": "Monitor gamer BenQ MOBIUZ EX271U de 27 pulgadas 4K UHD, panel IPS, 165 Hz, 1 ms GtG, HDR10 DisplayHDR 400, 95% P3, HDMI 2.1, DisplayPort 1.4, USB-C 65 W con DisplayPort Alt Mode, KVM y Eye-Care. CVA/PB reporta stock 0; se corrige la referencia de proveedor que decia Thunderbolt.",
+        "manufacturerUrl": "https://www.benq.com/es-mx/monitor/gaming/ex271u/buy.html",
+        "manualCategoryPath": "computo/monitores/gaming/27-4k-165hz/benq-mobiuz-ex271u",
+        "semanticCategoryPath": "computo/monitores/gaming/27-4k-165hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://image.benq.com/is/image/benqco/09-ex271u-right45?$ResponsivePreset$", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10463144"],
+        "documents": ["https://www.benq.com/content/dam/b2c/en-in/home/banner/ex271u_datasheet.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "MNL-2948", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 13077.67, "currency": "MXN" }],
+        "specs": {
+          "model": "EX271U",
+          "partNumber": "9H.LN2LB.QBA",
+          "providerSku": "MNL-2948",
+          "upc": "840046051006",
+          "ean": "0840046051006",
+          "productType": "Monitor gamer 4K",
+          "display": "27 in IPS LED, 3840 x 2160, 165 Hz, 1 ms GtG",
+          "brightness": "400 nits tipico / HDR",
+          "hdr": "HDR10, VESA DisplayHDR 400",
+          "contrast": "1200:1",
+          "color": "95% P3, 1.07 billones de colores",
+          "connectivity": ["2 x HDMI 2.1", "1 x HDMI 2.1 eARC", "DisplayPort 1.4", "USB-C 65W PD", "USB 3.2 hub", "Audifonos 3.5 mm"],
+          "features": ["KVM Switch", "FreeSync Premium", "Brightness Intelligence Plus", "Flicker-free", "Low Blue Light"],
+          "vesa": "100 x 100 mm",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MNL-2948. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "MNL-2948", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 13077.67, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Zegucom/Compuviper publican GTIN y stock externo variable; disponibilidad externa no se homologa a CVA/PB."],
+          "reviewNotes": "Se corrige y especializa dentro de monitores gaming 27 4K 165Hz."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "545.4 x 613.8 x 276.8 mm con base; 374.9 x 613.8 x 92 mm sin base", "weight": "7 kg con base; 5 kg sin base" },
+        "sourceRefs": [
+          { "title": "BenQ Mexico EX271U", "type": "manufacturer_product", "url": "https://www.benq.com/es-mx/monitor/gaming/ex271u/buy.html" },
+          { "title": "BenQ EX271U specifications", "type": "manufacturer_product", "url": "https://www.benq.eu/es-es/monitor/gaming/ex271u/spec.html" },
+          { "title": "CVA feed MNL-2948 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0fk42k8kqfm3qkd",
+      "research": {
+        "confidence": 0.93,
+        "brand": "APC",
+        "name": "No-break APC Back-UPS BVX1200L-LM 1200VA 650W 120V AVR 6 tomas NEMA",
+        "description": "No-break APC Back-UPS BVX1200L-LM line-interactive de 1200VA / 650W para 120V, con AVR, 6 tomas NEMA 5-15R, entrada NEMA 5-15P, proteccion de sobretensiones 350 J, bateria sellada de plomo-acido y forma de onda aproximada a senoidal. CTOnline y CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.se.com/mx/es/product/BVX1200L-LM/ups-auxiliar-de-apc-1200-va-120-v-avr/",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/1200va/apc-bvx1200l-lm",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/1200va",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKAPC2540/NBKAPC2540_1_full.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10320532"],
+        "documents": ["https://download.schneider-electric.com/files?p_Doc_Ref=EasyUPS-BVX&p_File_Name=BR_UPS-BVX-es.pdf&p_enDocType=Brochure", "https://objects.icecat.biz/objects/mmo_101264099_1673431509_6705_6575.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "NBKAPC2540", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 103.83, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "FR-1789", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 104.96, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "BVX1200L-LM",
+          "providerSkus": ["NBKAPC2540", "FR-1789"],
+          "upc": "731304417675",
+          "productType": "UPS line-interactive / no-break",
+          "capacity": "1200 VA / 650 W",
+          "inputOutputVoltage": "120 V",
+          "topology": "Line interactive",
+          "waveform": "Aproximacion escalonada a senoidal",
+          "transferTime": "6 ms tipico, 10 ms maximo",
+          "surgeEnergy": "350 J",
+          "runtime": "6 min a media carga y 1 min a carga completa segun folleto serie BVX",
+          "rechargeTime": "6 a 8 horas",
+          "battery": "Bateria sellada plomo-acido, vida esperada 3 a 5 anos; reemplazo APCRBC175",
+          "outlets": "6 x NEMA 5-15R",
+          "inputPlug": "NEMA 5-15P",
+          "usbManagement": "No",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para NBKAPC2540; CVA/Electroprice reporta stock 0 para FR-1789. No hay desglose publico de sucursal.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "NBKAPC2540", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 103.83, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "FR-1789", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 104.96, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["GlobalOffice/APC Mexico muestra piezas externas; PB conserva stock 0 en los dos proveedores integrados."],
+          "reviewNotes": "Se mantiene dentro de UPS line-interactive 1200VA y se unifican dos proveedores."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "390 x 140 x 190 mm", "weight": "7.5-7.7 kg neto; paquete 8.7 kg" },
+        "sourceRefs": [
+          { "title": "APC BVX1200L-LM Schneider", "type": "manufacturer_product", "url": "https://www.se.com/mx/es/product/BVX1200L-LM/ups-auxiliar-de-apc-1200-va-120-v-avr/" },
+          { "title": "APC Easy UPS BVX folleto", "type": "manufacturer_brochure", "url": "https://download.schneider-electric.com/files?p_Doc_Ref=EasyUPS-BVX&p_File_Name=BR_UPS-BVX-es.pdf&p_enDocType=Brochure" },
+          { "title": "CTOnline/CVA feed BVX1200L-LM stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0fkhwm6kes3z7eq",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Logitech",
+        "name": "Sistema de videoconferencia Logitech GROUP 960-001054 Full HD para salas medianas y grandes",
+        "description": "Sistema de videoconferencia Logitech GROUP 960-001054 para salas medianas y grandes, con camara Full HD 1080p, zoom HD 10x, campo de vision 90 grados, pan/tilt motorizado, speakerphone full-duplex y conexion USB plug-and-play. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.logitech.com/es-mx/products/video-conferencing/conference-cameras/group-conferencecam.960-001054.html",
+        "manualCategoryPath": "computo/colaboracion/videoconferencia/camaras-salas/usb-full-hd/logitech-group-960-001054",
+        "semanticCategoryPath": "computo/colaboracion/videoconferencia/camaras-salas/usb-full-hd",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://resource.logitech.com/w_1200,h_630,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/video-conferencing/group-conferencecam/group-og-image.png?v=1", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9822698"],
+        "documents": ["https://www.logitech.com/assets/64313/group-datasheet.ENG.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "VIC-19", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 17975.63, "currency": "MXN" }],
+        "specs": {
+          "model": "GROUP",
+          "partNumber": "960-001054",
+          "providerSku": "VIC-19",
+          "upc": "097855118462",
+          "ean": "0097855118462",
+          "productType": "Sistema USB de videoconferencia",
+          "video": "Full HD 1080p hasta 30 fps; 720p hasta 30 fps",
+          "zoom": "10x HD",
+          "fieldOfView": "90 grados diagonal / 82.1 horizontal / 52.2 vertical",
+          "panTilt": "Pan +/-90 grados, tilt +35/-45 grados",
+          "audio": "Speakerphone full-duplex con cancelacion de eco, reduccion de ruido, Bluetooth y NFC",
+          "microphones": "4 microfonos beamforming omnidireccionales; rango 20 ft / 6 m, 8.5 m con microfonos de expansion",
+          "connectivity": "USB plug-and-play",
+          "compatibility": ["Windows", "macOS", "ChromeOS", "VC apps USB"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para VIC-19. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "VIC-19", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 17975.63, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "publicAvailabilitySignals": ["Canales internacionales/listings muestran disponibilidad variable; stock CVA/PB se mantiene en 0."],
+          "reviewNotes": "Se corrige desde camaras CCTV a colaboracion/videoconferencia para salas."
+        },
+        "measurements": { "physicalProduct": true, "cameraDimensions": "130 x 170 x 138 mm", "cameraWeight": "585 g", "speakerphoneDimensions": "240 x 65 x 240 mm", "speakerphoneWeight": "1.223 kg", "hubDimensions": "94 x 34 x 74 mm", "remoteDimensions": "50 x 120 x 12 mm", "packageDimensions": "500 x 152 x 310 mm", "packageWeight": "4.1 kg" },
+        "sourceRefs": [
+          { "title": "Logitech GROUP oficial", "type": "manufacturer_product", "url": "https://www.logitech.com/es-mx/products/video-conferencing/conference-cameras/group-conferencecam.960-001054.html" },
+          { "title": "Logitech GROUP datasheet", "type": "manufacturer_datasheet", "url": "https://www.logitech.com/assets/64313/group-datasheet.ENG.pdf" },
+          { "title": "CVA feed VIC-19 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0fsrz0mci4m47r5",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Uniview",
+        "name": "Camara IP turret Uniview IPC3632SS-ADZK-I1 2MP LightHunter varifocal PoE",
+        "description": "Camara IP PoE turret Uniview IPC3632SS-ADZK-I1 de 2MP LightHunter, lente motorizado 2.7-13.5 mm, WDR real 130 dB, IR 40 m, Ultra 265/H.265/H.264/MJPEG, microfono integrado, audio/alarm I/O, microSD hasta 512GB, IK10 e IP67. Tecnosinergia/PB reporta stock 0 y la marca PB previa ElectroPrice era generica.",
+        "manufacturerUrl": "https://global.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEII_Series/IPC3632SS-ADZK-I1/",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-lighthunter-varifocal/uniview-ipc3632ss-adzk-i1",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/turret/2mp-lighthunter-varifocal",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://global.uniview.com/res/202605/31/20260531_2246292_fe40e08e-494f-45ea-b3e3-b5dd6c0a9494_1000175_651984_0.png", "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/img/7893afb6-fbad-43b5-99f1-c18a8c7dd9fd.png", "https://4820964.app.netsuite.com/core/media/media.nl?id=24671984&c=4820964&h=r0sOr8ffnKlUj6n8IEKHj_te-c8YUh6_LUW0_T2smKjpSP1R"],
+        "documents": ["https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/c22ce610-48d0-4b96-8b7a-a415b8bf9b3f/fc123bff-b592-4b70-8763-c4846ca02356.pdf", "https://global.uniview.com/us/res/202404/28/20240428_1904333_UNV%20IPC3632SS-ADZK-I1%202MP%20HD%20Intelligent%20LightHunter%20IR%20VF%20Eyeball%20Network%20Camera_990710_168459_0.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "tecnosinergia", "sku": "CI121UNV79", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3607.97, "currency": "MXN" }],
+        "specs": {
+          "model": "IPC3632SS-ADZK-I1",
+          "providerSku": "CI121UNV79",
+          "productType": "Camara IP PoE turret LightHunter",
+          "sensor": "1/2.8 in CMOS",
+          "resolution": "2MP 1080p, hasta 60 fps",
+          "lens": "2.7-13.5 mm motorizado, F1.0",
+          "fieldOfView": "H 96.2 a 26.0 grados",
+          "wdr": "130 dB true WDR",
+          "illumination": "IR hasta 40 m",
+          "compression": ["Ultra 265", "H.265", "H.264", "MJPEG"],
+          "analytics": ["Cruce de linea", "Intrusion", "Entrada/salida de area", "Conteo de personas", "Densidad de multitud"],
+          "interfaces": ["RJ45 10/100 PoE", "Audio I/O 1/1", "Alarma I/O 1/1", "Microfono integrado", "MicroSD hasta 512GB"],
+          "protection": ["IP67", "IK10"],
+          "power": "12 VDC o PoE IEEE 802.3af, max 9.5 W",
+          "providerBranchSummary": "Tecnosinergia/Electroprice reporta stock 0 para CI121UNV79. No hay desglose publico de sucursal.",
+          "providerBranches": [{ "providerId": "tecnosinergia", "providerSku": "CI121UNV79", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3607.97, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "publicAvailabilitySignals": ["UNV mantiene producto y datasheet vigentes 2026; stock proveedor portal PB se mantiene en 0."],
+          "reviewNotes": "Correccion de marca: producto es Uniview/UNV, no ElectroPrice como marca comercial. Tecnosinergia CI121UNV79 se conserva como alias de proveedor."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Diametro 132 x 147 mm", "weight": "0.99 kg" },
+        "sourceRefs": [
+          { "title": "Uniview IPC3632SS-ADZK-I1 oficial", "type": "manufacturer_product", "url": "https://global.uniview.com/Products/Network_Cameras/Prime_Series/PRIMEII_Series/IPC3632SS-ADZK-I1/" },
+          { "title": "Uniview IPC3632SS-ADZK-I1 datasheet", "type": "manufacturer_datasheet", "url": "https://ubox-eu.oss-eu-central-1.aliyuncs.com/datacenter/doc/c22ce610-48d0-4b96-8b7a-a415b8bf9b3f/fc123bff-b592-4b70-8763-c4846ca02356.pdf" },
+          { "title": "Tecnosinergia feed CI121UNV79 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}
