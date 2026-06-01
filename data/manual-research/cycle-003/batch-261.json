@@ -1,0 +1,416 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b261-2026-06-01",
+  "cycle": 3,
+  "batch": 261,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "fpce1x42hehenyb",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Perfect Choice",
+        "name": "Conector inteligente Wi-Fi Perfect Choice PC-108054, blanco, 10 A",
+        "description": "Enchufe/contacto inteligente Wi-Fi Perfect Choice PC-108054 para controlar aparatos desde app, horarios, escenas y asistentes de voz. No es interruptor de pared ni multicontacto.",
+        "manufacturerUrl": "https://perfectchoice.me/products/conector-inteligente",
+        "manualCategoryPath": "domotica/contactos-inteligentes/wifi/perfect-choice-pc-108054",
+        "semanticCategoryPath": "domotica/contactos-inteligentes/wifi",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10205112"],
+        "documents": ["https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-108054.pdf?v=1742485014", "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-108054_M.pdf?v=1613567019"],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-108054",
+          "providerSkus": ["AC-8697"],
+          "upc": "615604108054",
+          "productType": "Enchufe inteligente Wi-Fi",
+          "color": "Blanco",
+          "wifi": "2.4 GHz",
+          "inputOutput": "100-240 Vca, 50/60 Hz",
+          "maxCurrent": "10 A",
+          "features": ["Control por app", "Horarios", "Cuenta regresiva", "Escenas", "Comandos por asistentes de voz"],
+          "packageContents": ["1 conector", "Guia de usuario"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para AC-8697. GlobalOffice reporta 0 local y 11 en Almacen Mexico externo; PCEL reporta 5 en bodega externa.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-8697", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Perfect Choice oficial $199 MXN disponible.", "PCStore $162 MXN, 9 disponibles.", "GlobalOffice $197 MXN, 11 en Almacen Mexico externo.", "PCEL $189 MXN, 5 en bodega externa."],
+          "reviewNotes": "No exceder 10 A ni asumir Wi-Fi 5GHz."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "5 x 5 x 5 cm", "weight": "50 g" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-108054 oficial", "type": "manufacturer_product", "url": "https://perfectchoice.me/products/conector-inteligente" },
+          { "title": "Perfect Choice PC-108054 ficha tecnica", "type": "manufacturer_document", "url": "https://cdn.shopify.com/s/files/1/0341/2606/9900/files/PC-108054.pdf?v=1742485014" },
+          { "title": "GlobalOffice PC-108054", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/componentes-hardware/conector-inteligente-iot/pc-108054" },
+          { "title": "PCEL Perfect Choice PC-108054", "type": "retailer_price_stock", "url": "https://www.pcel.com/Perfect-Choice-PC-108054-Conector-inteligente-Perfect-Choice-PC-108054-compatible-con-Google-Home-y-Alexa-341548" }
+        ]
+      }
+    },
+    {
+      "product_id": "fpwa3ru1qjkahhu",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Dell N_PTL1_N3_M3 actualizacion de garantia 3 anos Basic Onsite/NBD a 3 anos ProSupport Plus",
+        "description": "Poliza Dell ProSupport Plus N_PTL1_N3_M3 para Dell Pro Slim/MFF compatibles. Es servicio de garantia, no PC ni refaccion fisica; validar Service Tag antes de vender.",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-slim-mff/3y-basic-nbd-a-3y-prosupport-plus/n-ptl1-n3-m3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-slim-mff/3y-basic-nbd-a-3y-prosupport-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10481261", "https://www.cyberpuerta.mx/img/product/XL/CP-DELL-N_PTL1_N3_M3-e6f361.jpg"],
+        "documents": ["https://cdn.cyberpuerta.mx/storage/articles/multimedia/693/093/a90/693093a9005411.52998598.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_PTL1_N3_M3",
+          "providerSkus": ["POL-11264"],
+          "productType": "Actualizacion de garantia Dell",
+          "serviceLevel": "ProSupport Plus",
+          "term": "3 anos",
+          "serviceHours": "24x7x365",
+          "coverage": "Piezas y mano de obra, soporte telefono/web, troubleshooting y reemplazo de piezas",
+          "compatibleModels": ["Dell Pro MFF QCM1250", "Dell Pro MFF QCM1255", "Dell Pro Slim QCS1250", "Dell Pro Slim QCS1255"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-11264. Cyberpuerta lo muestra en existencia; AztecaCompras reporta 2 piezas.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-11264", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $2,889 MXN en existencia.", "AztecaCompras $3,430 MXN + envio, 2 piezas."],
+          "reviewNotes": "No activar sin Service Tag/serie; las condiciones onsite/NBD dependen de diagnostico remoto y cobertura geografica."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_service", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "Cyberpuerta Dell N_PTL1_N3_M3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-ProSupport-Plus-para-Dell-Pro-QCS1250-QCS1255-Dell-Pro-MFF-QCM1250-QCM1255.html" },
+          { "title": "Cyberpuerta Dell N_PTL1_N3_M3 PDF", "type": "retailer_document", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/693/093/a90/693093a9005411.52998598.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "fym2nkgu56wzthn",
+      "research": {
+        "confidence": 0.84,
+        "brand": "Lenovo",
+        "name": "Lenovo Transition CFS Handling Charge 5TS1B66173, cargo de servicio",
+        "description": "Cargo/poliza de servicio Lenovo 5TS1B66173 Transition CFS Handling Charge. No tratar como garantia Premier estandar ni hardware; vender ligado a cotizacion/proyecto Lenovo.",
+        "manufacturerUrl": "https://www.lenovo.com/mx/es/services/premier-support/index.html",
+        "manualCategoryPath": "servicios-ti/servicios-profesionales/lenovo/cfs-transition-handling/5ts1b66173",
+        "semanticCategoryPath": "servicios-ti/servicios-profesionales/lenovo/cfs-transition-handling",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10471416"],
+        "specs": {
+          "brand": "Lenovo",
+          "model": "5TS1B66173",
+          "providerSkus": ["POL-10756"],
+          "productType": "Cargo de servicio / soporte",
+          "serviceName": "Transition CFS Handling Charge",
+          "serviceFamily": "Lenovo service/support",
+          "publicClassification": "Service/Support - Extended Service",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10756. Compuviper y RYGTEC lo muestran sin stock.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10756", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Compuviper $67 MXN con IVA, CDMX/CEDI/transito/sucursales 0.", "RYGTEC $89 MXN, existencias 0 CDMX/foranea/CEDIS."],
+          "reviewNotes": "La imagen de Premier Support puede ser generica; el nombre exacto de la poliza es Transition CFS Handling Charge."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Redington Lenovo 5TS1B66173", "type": "retailer_service_reference", "url": "https://www.redingtononline.com/transition-cfs-handling-charge-mltpcc0232" },
+          { "title": "Caretek Lenovo 5TS1B66173", "type": "retailer_service_reference", "url": "https://www.caretek.ca/product/1066227516" },
+          { "title": "Lenovo Premier Support contexto", "type": "manufacturer_service_context", "url": "https://www.lenovo.com/mx/es/services/premier-support/index.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "fz0q0v3citcsk43",
+      "research": {
+        "confidence": 0.87,
+        "brand": "GHIA",
+        "name": "Extension de garantia GHIA PCGHIA-3169B, 24 meses adicionales para Mini PC GHIA PCGHIA-3169",
+        "description": "Extension de garantia GHIA de 24 meses adicionales para equipo PCGHIA-3169 compatible. No es la mini PC fisica; validar serie, fecha de compra y elegibilidad.",
+        "manufacturerUrl": "https://tienda.ghia.com.mx/index.php/mini-pc-ghia-intel-celeron-n4020-dual-core-1-10ghz-4gb-128gb-modelo-mhcp.html",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3169/24-meses-adicionales/pol-8171",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/ghia/pcghia-3169/24-meses-adicionales",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10364740"],
+        "specs": {
+          "brand": "GHIA",
+          "model": "PCGHIA-3169B",
+          "providerSkus": ["POL-8171"],
+          "productType": "Extension de garantia fabricante",
+          "coverage": "24 meses adicionales",
+          "compatibleModel": "PCGHIA-3169",
+          "compatibleEquipmentSummary": "Mini PC GHIA GCube Celeron N4020, 4GB DDR4, SSD M.2 SATA 128GB, Wi-Fi, Bluetooth 5.0, Windows 11 Pro",
+          "baseWarrantyReference": "1 ano en centro de servicio para equipo base",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-8171. No se localizo precio publico exacto de la extension.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-8171", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Equipo base GHIA oficial $2,999 MXN no disponible.", "Cyberpuerta registro equipo base $2,769 MXN agotado."],
+          "reviewNotes": "No publicar como equipo completo; la poliza aplica solo si GHIA/CVA valida el equipo elegible."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica a la poliza; equipo base 114.8 x 125.5 x 37 mm", "weight": "No aplica a la poliza; equipo base 450 g" },
+        "sourceRefs": [
+          { "title": "GHIA Mini PC PCGHIA-3169", "type": "manufacturer_product_reference", "url": "https://tienda.ghia.com.mx/index.php/mini-pc-ghia-intel-celeron-n4020-dual-core-1-10ghz-4gb-128gb-modelo-mhcp.html" },
+          { "title": "Cyberpuerta GHIA PCGHIA-3169 equipo base", "type": "retailer_product_reference", "url": "https://www.cyberpuerta.mx/Por-Marca/GHIA/Mini-PC-Ghia-PCGHIA-3169-Intel-Celeron-N4020-1-10GHz-4GB-128GB-SSD-Windows-11-Pro-64-bit.html" },
+          { "title": "CVA GHIA POL-8171 imagen proveedor", "type": "provider_image", "url": "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10364740" }
+        ]
+      }
+    },
+    {
+      "product_id": "fzbtqa3gr59pvsr",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Sola Basic ISB",
+        "name": "Corrector de voltaje Sola Basic ISB 4000 VA 120 V, modelo 15-81-120-4000",
+        "description": "Corrector/regulador electromagnetico Sola Basic ISB 15-81-120-4000 de 4 kVA monofasico para estabilizar voltaje. No confundir con CV-4000S bifasico 220 V.",
+        "manualCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/correctores-electromagneticos/4000va/sola-basic-15-81-120-4000",
+        "semanticCategoryPath": "energia/supresores-reguladores/reguladores-voltaje/correctores-electromagneticos/4000va",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1710693"],
+        "specs": {
+          "brand": "Sola Basic ISB",
+          "model": "15-81-120-4000",
+          "providerSkus": ["RE-61"],
+          "upc": "660077617008",
+          "productType": "Corrector de voltaje electromagnetico",
+          "capacity": "4000 VA / 4 kVA",
+          "outputPower": "3920 W en fichas retail",
+          "inputVoltage": "127 V~ +15.7% / -33%",
+          "inputRange": "85-147 V~",
+          "frequency": "60 +/-3 Hz",
+          "outputVoltage": "102-129 V~",
+          "phase": "Monofasico",
+          "maxCurrent": "Hasta 30 A",
+          "powerFactor": "0.98 minimo",
+          "efficiency": "99%",
+          "construction": "Gabinete metalico con montaje a pared, tablilla de conexiones e indicadores luminosos",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para RE-61. Fuentes abiertas revisadas lo muestran agotado/stock 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "RE-61", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["COEL $3,785.51 MXN stock 0.", "TSClic $3,582 MXN stock 0.", "Mactoner $4,520.49 MXN sin existencias.", "Walmart envio no disponible para CP revisado."],
+          "reviewNotes": "No mezclar con CV-4000S 220 V bifasico ni con modelo 15-81-120-8000."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "29 x 21 x 25.5 cm", "weight": "12.7 kg a 13.55 kg segun fuente" },
+        "sourceRefs": [
+          { "title": "COEL Sola Basic 4000VA", "type": "retailer_price_stock", "url": "https://www.coelpuebla.com.mx/productos/1492/corrector-de-voltaje-monofasico-120v-4000-va-sola-basic" },
+          { "title": "Bodega Aurrera Sola Basic 15-81-120-4000", "type": "retailer_price_stock", "url": "https://www.bodegaaurrera.com.mx/ip/electricidad/regulador-de-voltaje-industrial-sola-basic-entrada-120-v-4-000-va-sola-basic-15-81-120-4000/00066007761700" },
+          { "title": "Energia y Redes Sola Basic 4000VA", "type": "retailer_specs", "url": "https://energiayredes.com/corrector-de-voltaje-sola-basic-isb-4000-va-er/" }
+        ]
+      }
+    },
+    {
+      "product_id": "g1h6qrjsbahjvab",
+      "research": {
+        "confidence": 0.72,
+        "brand": "TP-Link",
+        "name": "TP-Link Tapo camara Wi-Fi interior, modelo pendiente de confirmar",
+        "description": "La imagen de proveedor muestra una camara interior fija TP-Link Tapo, pero el SKU proveedor es solo TAPO y no permite identificar modelo exacto. No publicar resolucion, microSD, dimensiones o precio como C100/C110/C200 sin clave adicional.",
+        "manufacturerUrl": "https://www.tp-link.com/mx/home-networking/cloud-camera/",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/modelo-pendiente/tp-link-tapo-familia",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/interior/modelo-pendiente",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=20089337&c=4820964&h=HSgdHzCJe0T13lD1s6dLDs_rzit9JvYHSYTfTr4VjYzu7uE5"],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Tapo familia - modelo no determinado",
+          "providerSkus": ["TAPO"],
+          "productType": "Camara IP Wi-Fi interior",
+          "evidenceLevel": "Visual provider image plus generic SKU only",
+          "confirmedSpecs": ["Marca visual TP-Link", "Familia Tapo", "Formato camara Wi-Fi interior fija"],
+          "unconfirmedSpecs": ["Resolucion", "Capacidad microSD", "Audio", "Dimensiones", "Peso", "Modelo C100/C110/C200"],
+          "providerBranchSummary": "Tecnosinergia reporta stock 0 para SKU generico TAPO sin sucursal granular en el input.",
+          "providerBranches": [
+            { "providerId": "tecnosinergia", "providerSku": "TAPO", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["No asignable con seguridad por falta de modelo; Tecnosinergia maneja multiples Tapo con SKUs separados."],
+          "reviewNotes": "Solicitar codigo Tecnosinergia exacto, modelo visible, EAN/UPC o ficha proveedor antes de publicar specs vendibles."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No confirmado por modelo pendiente", "weight": "No confirmado por modelo pendiente" },
+        "sourceRefs": [
+          { "title": "Imagen proveedor NetSuite TP-Link Tapo", "type": "provider_image", "url": "https://4820964.app.netsuite.com/core/media/media.nl?id=20089337&c=4820964&h=HSgdHzCJe0T13lD1s6dLDs_rzit9JvYHSYTfTr4VjYzu7uE5" },
+          { "title": "Tecnosinergia catalogo camaras IP WiFi Tapo", "type": "provider_catalog", "url": "https://tecnosinergia.com/catalogo/linea/Videovigilancia/categoria/C%C3%A1maras%20IP/subcategoria/WiFi%20Inal%C3%A1mbricas%20y%20Home?category=82&line=11&subcategory=448" },
+          { "title": "TP-Link Tapo cameras catalog MX", "type": "manufacturer_catalog", "url": "https://www.tp-link.com/mx/home-networking/cloud-camera/" }
+        ]
+      }
+    },
+    {
+      "product_id": "g7kwfy0ccip664k",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Microsoft",
+        "name": "Microsoft 365 Apps for Business ESD, suscripcion anual, 1 usuario, descarga digital, SPP-00005",
+        "description": "Suscripcion anual Microsoft 365 Apps for Business ESD para 1 usuario con apps de escritorio y OneDrive 1TB. No es Business Standard, Exchange, Teams/SharePoint de plan superior ni licencia perpetua.",
+        "manufacturerUrl": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-apps-for-business",
+        "manualCategoryPath": "software/productividad-oficina/microsoft-365/apps-for-business/esd-anual-1-usuario/spp-00005",
+        "semanticCategoryPath": "software/productividad-oficina/microsoft-365/apps-for-business/esd-anual-1-usuario",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10184869"],
+        "documents": ["https://fichastecnicas.pchmayoreo.com/SPP-00005.pdf"],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "SPP-00005",
+          "providerSkus": ["SWS-4150"],
+          "productType": "Licencia ESD / suscripcion anual",
+          "plan": "Microsoft 365 Apps for Business",
+          "term": "1 ano",
+          "users": "1 usuario",
+          "delivery": "Descarga digital",
+          "apps": ["Word", "Excel", "PowerPoint", "Outlook", "OneNote", "Access para PC", "Publisher para PC"],
+          "cloudStorage": "1TB OneDrive por usuario",
+          "businessLimit": "Hasta 300 empleados segun Microsoft",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para SWS-4150. Compuviper reporta 3 Guadalajara y 1 Merida; GlobalOffice 5 piezas con Almacen Mexico 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SWS-4150", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $1,564 MXN oferta, 5 piezas.", "Compuviper $1,951 MXN con IVA, 3 Guadalajara y 1 Merida.", "Digitalsis $1,595 MXN sin stock explicito."],
+          "reviewNotes": "No vender como Microsoft 365 Business Standard ni Office perpetuo; no usar UPC generico 9999999999999."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, licencia electronica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Microsoft 365 Apps for Business oficial", "type": "manufacturer_product", "url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-apps-for-business" },
+          { "title": "PCH Mayoreo SPP-00005 ficha", "type": "distributor_document", "url": "https://fichastecnicas.pchmayoreo.com/SPP-00005.pdf" },
+          { "title": "GlobalOffice SPP-00005", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/software/esd-microsoft-365-apps-for-business-suscripcion-anual-de/spp-00005" },
+          { "title": "Compuviper SPP-00005", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/microsoft-spp-00005-esd-365-apps-for-business-suscripcion-anual-descarga-digital-1-usuario-5-dispositivos-aplicaciones-word-excel-power-point-outlook-one-note-onedrive/" }
+        ]
+      }
+    },
+    {
+      "product_id": "gmckqhm085ewmj9",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Canon",
+        "name": "Escaner portatil Canon imageFORMULA P-215II Scan-tini, ADF 20 hojas, duplex, USB, legal/oficio",
+        "description": "Escaner documental portatil Canon imageFORMULA P-215II alimentado por hojas, USB y duplex. No es impresora, cama plana ni P-208II/R10/R30/R40.",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/escaner-canon-imageformula-p-215ii",
+        "manualCategoryPath": "impresion/escaneres/documentales/portatiles/adf/duplex/canon-imageformula-p-215ii",
+        "semanticCategoryPath": "impresion/escaneres/documentales/portatiles/adf/duplex",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9765598"],
+        "documents": ["https://www.canon.com.mx/media/documentosproducto/fichero/1/cn_568_if_p-215ii_brochure_spa.pdf"],
+        "specs": {
+          "brand": "Canon",
+          "model": "imageFORMULA P-215II",
+          "providerSkus": ["SC-176"],
+          "manufacturerPartNumbers": ["9705B007AA", "9705B007AB", "9705B007"],
+          "productType": "Escaner documental portatil",
+          "scannerType": "Alimentado por hojas / ADF",
+          "resolution": "600 ppp",
+          "speedBwGrayscale": "Hasta 15 ppm / 30 ipm",
+          "speedColor": "Hasta 10 ppm / 20 ipm",
+          "adfCapacity": "20 hojas",
+          "documentSize": "2.0-8.5 in ancho, 2.8-14 in largo; modo largo hasta 39.4 in",
+          "interface": "USB 2.0 / USB 3.0",
+          "dailyVolume": "500 escaneos/dia sugeridos",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para SC-176. Tienda Canon MX lista disponible; Toyseco stock 0 en ficha exacta.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SC-176", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Tienda Canon MX $5,799 MXN disponible.", "Toyseco $5,029 MXN stock 0.", "TiendaClic $6,388.10 MXN stock 0."],
+          "reviewNotes": "Sufijos AA/AB/AC parecen de canal/region; identificar como P-215II base 9705B007 si falta sufijo exacto."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1.6 x 11.0 x 3.7 in / aprox. 40.6 x 279.4 x 94 mm", "weight": "2.2 lb / aprox. 1 kg" },
+        "sourceRefs": [
+          { "title": "Tienda Canon imageFORMULA P-215II", "type": "manufacturer_store", "url": "https://www.tiendacanon.com.mx/es_mx/p/escaner-canon-imageformula-p-215ii" },
+          { "title": "Canon Mexico P-215II brochure", "type": "manufacturer_document", "url": "https://www.canon.com.mx/media/documentosproducto/fichero/1/cn_568_if_p-215ii_brochure_spa.pdf" },
+          { "title": "Toyseco Canon P-215II SC-176", "type": "retailer_price_stock", "url": "https://www.toyseco.com.mx/ESCANER-CANON-P-215II-15-PPM-30-IPM-600-DPI-OFICIO-CANON-9705B007AA-9705B007AB-%2C293871_1461124112" }
+        ]
+      }
+    },
+    {
+      "product_id": "gntcuja3hxhymre",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Dell N_VOSDTM2_N1_M3 actualizacion Vostro Desktop 3000 de 1 ano Basic Onsite a 3 anos ProSupport Plus NBD",
+        "description": "Poliza Dell ProSupport Plus para Vostro Desktop 3000, de 1 ano Basic/NBD a 3 anos ProSupport Plus. No es computadora Dell; validar Service Tag y compatibilidad.",
+        "manufacturerUrl": "https://www.dell.com/en-us/lp/sb-support-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/vostro-3000/1y-basic-nbd-a-3y-prosupport-plus/n-vosdtm2-n1-m3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/vostro-3000/1y-basic-nbd-a-3y-prosupport-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339897"],
+        "documents": ["https://www.dell.com/content/dam/digitalassets/active/en/unauth/data-sheets/services/dell-prosupport-plus-for-pcs-datasheet-comm.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_VOSDTM2_N1_M3",
+          "providerSkus": ["POL-7728"],
+          "productType": "Actualizacion de garantia Dell",
+          "serviceLevel": "ProSupport Plus",
+          "term": "De 1 ano Basic Onsite/NBD a 3 anos ProSupport Plus",
+          "serviceHours": "24x7x365",
+          "coverage": "Piezas y mano de obra, soporte web/telefono, reemplazo de piezas, monitoreo proactivo/predictivo, SupportAssist, Keep Your Hard Drive y dano accidental segun terminos",
+          "compatibleModels": ["Vostro Desktop SFF 3020", "Vostro Desktop 3000 segun Service Tag"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-7728. Cyberpuerta lista en existencia; Altec entrega 5-7 dias habiles.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-7728", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $2,819 MXN en existencia.", "Altec $2,525 MXN, entrega 5-7 dias habiles."],
+          "reviewNotes": "No mezclar con Vostro notebooks ni con SKUs N_VOSNBM; NBD depende de diagnostico remoto y disponibilidad regional."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_service", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" },
+          { "title": "Dell ProSupport Plus for PCs datasheet", "type": "manufacturer_document", "url": "https://www.dell.com/content/dam/digitalassets/active/en/unauth/data-sheets/services/dell-prosupport-plus-for-pcs-datasheet-comm.pdf" },
+          { "title": "Cyberpuerta Dell N_VOSDTM2_N1_M3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-ProSupport-Plus-para-Computadoras-Vostro-3000.html" },
+          { "title": "Altec Dell POL-7728", "type": "retailer_price_stock", "url": "https://www.alteccomputacion.com/tienda/7639-poliza-de-garantia-dell-para-vostro-desktops-3000-de-1-ao-incluido-a-3-aos-prosupport-plus.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "goltc12h24mlaeo",
+      "research": {
+        "confidence": 0.92,
+        "brand": "UNV",
+        "name": "Soporte de techo/pendant interior UNV Uniview TR-CM24-IN para camara domo, aluminio",
+        "description": "Soporte pendant interior UNV TR-CM24-IN para camaras domo compatibles. No es camara; validar serie IPC323X/IPCD1XX y caja requerida antes de instalar.",
+        "manufacturerUrl": "https://www.uniview.com/res/201812/10/20181210_1688326_TR-CM24-IN%20Fixed%20Dome%20Indoor%20Pendant%20Mount%20V1.0_827873_168459_0.pdf",
+        "manualCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-techo/pendant-domo/unv-tr-cm24-in",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-montaje/soportes-techo/pendant-domo",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://4820964.app.netsuite.com/core/media/media.nl?id=25001189&c=4820964&h=iaSVd5vtGta_yobt2C5WhypOpwu9p6C9Wst3n6WkjhxVJyTk"],
+        "documents": ["https://www.uniview.com/res/201812/10/20181210_1688326_TR-CM24-IN%20Fixed%20Dome%20Indoor%20Pendant%20Mount%20V1.0_827873_168459_0.pdf"],
+        "specs": {
+          "brand": "UNV / Uniview",
+          "model": "TR-CM24-IN",
+          "providerSkus": ["TR-CM24-IN", "HC140UNV69"],
+          "productType": "Soporte pendant interior para camara domo",
+          "material": "Aleacion de aluminio",
+          "application": "Serie IPC323X segun datasheet; referencias retail mencionan IPCD1XX",
+          "mountingNote": "Algunas fuentes lo listan como pendant/techo y el datasheet menciona instalacion en pared; confirmar instalacion real.",
+          "providerBranchSummary": "Tecnosinergia reporta stock 0 para TR-CM24-IN sin sucursal granular en el input; ficha publica indexada sin precio/cantidad.",
+          "providerBranches": [
+            { "providerId": "tecnosinergia", "providerSku": "TR-CM24-IN", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["No se encontro retail MX confiable con precio/stock; B&H special order 7-14 dias a $15.95 USD; All Security $18 USD."],
+          "reviewNotes": "No mezclar con TR-SE24-IN/TR-SE24-A-IN; validar camara y caja TR-JB03/TR-JB04 segun instalacion."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Phi 110 x 223.5 mm / 4.33 x 8.80 in", "weight": "0.25 kg / 0.55 lb" },
+        "sourceRefs": [
+          { "title": "UNV TR-CM24-IN datasheet", "type": "manufacturer_document", "url": "https://www.uniview.com/res/201812/10/20181210_1688326_TR-CM24-IN%20Fixed%20Dome%20Indoor%20Pendant%20Mount%20V1.0_827873_168459_0.pdf" },
+          { "title": "Tecnosinergia busqueda TR-CM24-IN", "type": "provider_catalog", "url": "https://tecnosinergia.com/buscar?q=-e500" },
+          { "title": "B&H UNV TR-CM24-IN", "type": "retailer_price_stock", "url": "https://www.bhphotovideo.com/c/product/1571429-REG/uniview_tr_cm24_in_dome_pendent_mounting.html" },
+          { "title": "All Security UNV TR-CM24-IN", "type": "retailer_price_stock", "url": "https://allsecurityequipment.com/products/unv-tr-cm24-in" }
+        ]
+      }
+    }
+  ]
+}
