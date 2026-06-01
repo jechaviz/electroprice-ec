@@ -1,0 +1,463 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b256-2026-06-01",
+  "cycle": 3,
+  "batch": 256,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "s65lbxvjht66c6q",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Premium Support Plus 3 anos para Alienware Aurora R13 N_ANWDTM1_C1_U3",
+        "description": "Poliza digital Dell N_ANWDTM1_C1_U3 que actualiza Alienware Aurora R13 Desktop de 1 ano Basic Carry-In a 3 anos Premium Support Plus. Requiere validar Service Tag antes de venta o activacion.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-aurora-r13/1y-carry-in-a-3y-premium-support-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-aurora-r13",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339932"],
+        "documents": [
+          { "label": "Dell Premium Support Suite for PCs", "type": "service_description", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_ANWDTM1_C1_U3",
+          "providerSkus": ["EXTDLL9600", "POL-7744"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Premium Support Plus",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic Carry-In / centro de servicio",
+          "upgradeTo": "3 anos Premium Support Plus",
+          "targetDeviceFamily": "Alienware Aurora R13 Desktop",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag o clave de garantia antes de activar",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta publico $8,959 MXN en existencia; MacToner $10,382.64 MXN sin existencias; Compuviper $8,687 MXN bajo pedido con sucursales en 0.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL9600", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6884.04, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7744", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6902.4, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $8,959 MXN en existencia.", "MacToner $10,382.64 MXN sin existencias.", "Compuviper $8,687 MXN bajo pedido, stock 0 por sucursal."],
+          "reviewNotes": "No mezclar con N_ANWDTM1_C1_R3 Premium Support sin Plus ni con equipo fisico Aurora."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Premium Support Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" },
+          { "title": "Cyberpuerta Dell N_ANWDTM1_C1_U3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Por-Marca/DELL/Dell-Garantia-3-Anos-Premium-Support-Plus-para-Aurora-R13.html" },
+          { "title": "MacToner Dell N_ANWDTM1_C1_U3", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_anwdtm1_c1_u3-3-anos/" },
+          { "title": "SysMX POL-7744", "type": "retailer_price_stock", "url": "https://www.sysmx.com.mx/POL-7744-N-ANWDTM1-C1-U3-DELL-POLIZAS-DE-GARANTIA" }
+        ]
+      }
+    },
+    {
+      "product_id": "j6t4zwczetk2z33",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Basic NBD 5 anos para OptiPlex 7010/7020 N_OPTL3_N3_N5",
+        "description": "Poliza digital Dell N_OPTL3_N3_N5 que extiende OptiPlex Desktops 7010/7020 de 3 anos Basic Next Business Day a 5 anos Basic Next Business Day. Requiere validar Service Tag.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-7010-7020/3y-a-5y",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-7010-7020",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10451451"],
+        "documents": [
+          { "label": "Dell Basic Hardware Service", "type": "service_description", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL3_N3_N5",
+          "providerSkus": ["EXTDLL8040", "POL-10120"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Basic Next Business Day / Basic Onsite",
+          "serviceTerm": "5 anos",
+          "upgradeFrom": "3 anos Basic Next Business Day",
+          "upgradeTo": "5 anos Basic Next Business Day",
+          "targetDeviceFamily": "OptiPlex Desktops 7010/7020",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag; 5Y es cobertura total, no 5 anos adicionales",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. MacToner $4,646.06 MXN sin existencias; Compuviper $4,113 MXN bajo pedido y stock 0 por sucursal.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL8040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3079.94, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-10120", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3253.33, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MacToner $4,646.06 MXN sin existencias.", "Compuviper $4,113 MXN bajo pedido, existencia total 0.", "Cityshop agotado."],
+          "reviewNotes": "No es ProSupport ni ProSupport Plus; no mezclar con N_OPTL1_N3_N5 de OptiPlex 3000."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Basic Hardware Service", "type": "manufacturer_support", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" },
+          { "title": "MacToner Dell N_OPTL3_N3_N5", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_optl3_n3_n5-5-anos/" },
+          { "title": "Compuviper Dell N_OPTL3_N3_N5", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/dell-n_optl3_n3_n5-poliza-de-garantia-para-optiplex-desktops-7010-7020-de-3-aos-basico-next-bus-day-a-5-aos-basico-next-bus-day-importante-confirmar-compatibilidad-de-series-con-clave-de-ga/" }
+        ]
+      }
+    },
+    {
+      "product_id": "w5s27mo2d8c4dli",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Basic NBD 5 anos para OptiPlex 3000 N_OPTL1_N3_N5",
+        "description": "Poliza digital Dell N_OPTL1_N3_N5 que extiende OptiPlex Desktops 3000 de 3 anos Basic Next Business Day a 5 anos Basic Next Business Day. Validar compatibilidad por Service Tag.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-3000/3y-a-5y",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-3000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339913"],
+        "documents": [
+          { "label": "Dell Basic Hardware Service", "type": "service_description", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL1_N3_N5",
+          "providerSkus": ["EXTDLL7390", "POL-7732"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Basic Next Business Day / Basic Onsite",
+          "serviceTerm": "5 anos",
+          "upgradeFrom": "3 anos Basic Next Business Day",
+          "upgradeTo": "5 anos Basic Next Business Day",
+          "targetDeviceFamily": "OptiPlex Desktops 3000",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag antes de activar",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta $1,889 MXN agotado; Compuviper $1,950 MXN bajo pedido; MacToner $2,199.49 MXN sin existencias; AztecaCompras reporta 50 pzas.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL7390", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1457.55, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7732", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1461.33, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $1,889 MXN agotado.", "MacToner $2,199.49 MXN sin existencias.", "AztecaCompras $2,307 MXN IVA incluido y 50 pzas."],
+          "reviewNotes": "No confundir con OptiPlex 7010/7020 L3 ni con N_OPTL1_N3_P5 ProSupport."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Basic Hardware Service", "type": "manufacturer_support", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" },
+          { "title": "Cyberpuerta Dell N_OPTL1_N3_N5", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-5-Anos-Basica-para-OptiPlex-3000.html" },
+          { "title": "MacToner Dell N_OPTL1_N3_N5", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_optl1_n3_n5-5-anos/" },
+          { "title": "AztecaCompras Dell N_OPTL1_N3_N5", "type": "retailer_price_stock", "url": "https://www.aztecacompras.com/mx0000101602-dell-n-optl1-n3-n5-actualizaci-n-de-3-a-os-basic-onsite-a-5.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "elqzggdi90txn0z",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Basic NBD 5 anos para OptiPlex Micro N_OPTM1_N3_N5",
+        "description": "Poliza digital Dell N_OPTM1_N3_N5 que extiende OptiPlex Micro de 3 anos Basic Next Business Day a 5 anos Basic Next Business Day. Validar compatibilidad por Service Tag.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-micro/3y-a-5y",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-micro",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/EXTDLL9590/EXTDLL9590_full.jpg"],
+        "documents": [
+          { "label": "Dell Basic Hardware Service", "type": "service_description", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTM1_N3_N5",
+          "providerSkus": ["EXTDLL9590"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Basic Next Business Day / Basic Onsite",
+          "serviceTerm": "5 anos",
+          "upgradeFrom": "3 anos Basic Next Business Day",
+          "upgradeTo": "5 anos Basic Next Business Day",
+          "targetDeviceFamily": "OptiPlex Micro",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar familia Micro/MFF y Service Tag antes de activar",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. MacToner $2,225.01 MXN sin existencias; ITLogic $2,348.28 MXN disponibilidad 0; Cityshop agotado.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL9590", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1474.47, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["MacToner $2,225.01 MXN sin existencias.", "ITLogic $2,348.28 MXN disponibilidad 0.", "Cityshop agotado."],
+          "reviewNotes": "No confundir con OptiPlex 7010/7020 L3 ni con OptiPlex 3000 L1; Micro debe confirmarse por Service Tag."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Basic Hardware Service", "type": "manufacturer_support", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" },
+          { "title": "MacToner Dell N_OPTM1_N3_N5", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_optm1_n3_n5-5-anos/" },
+          { "title": "CT Online EXTDLL9590", "type": "provider_catalog", "url": "https://ctonline.mx/Accesorios-para-Computo/Extension-de-Garantias/DELL/EXTDLL7080" }
+        ]
+      }
+    },
+    {
+      "product_id": "dau1psp4oa9slzk",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell ProSupport Plus 5 anos para OptiPlex 7000 N_OPTL3_P3_M5",
+        "description": "Poliza digital Dell N_OPTL3_P3_M5 que actualiza OptiPlex Desktops 7000 de 3 anos ProSupport a 5 anos ProSupport Plus. Requiere validar Service Tag y cobertura base.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-7000/3y-prosupport-a-5y-prosupport-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/optiplex-7000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339872"],
+        "documents": [
+          { "label": "Dell ProSupport Suite for PCs", "type": "service_description", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL3_P3_M5",
+          "providerSkus": ["EXTDLL9630", "POL-7710"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "ProSupport Plus",
+          "serviceTerm": "5 anos",
+          "upgradeFrom": "3 anos ProSupport",
+          "upgradeTo": "5 anos ProSupport Plus",
+          "targetDeviceFamily": "OptiPlex Desktops 7000",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar Service Tag; requiere cobertura base ProSupport 3Y",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta $6,569 MXN agotado; MacToner $7,973.05 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL9630", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5286.17, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7710", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5300.27, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $6,569 MXN agotado.", "MacToner $7,973.05 MXN sin existencias."],
+          "reviewNotes": "No mezclar con N_OPTL3_P3_P5 ProSupport sin Plus ni con N_OPTL3_P3_M3 de 3 anos."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "Cyberpuerta Dell N_OPTL3_P3_M5", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-5-Anos-ProSupport-Plus-para-OptiPlex-7000.html" },
+          { "title": "MacToner Dell N_OPTL3_P3_M5", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_optl3_p3_m5-5-anos/" }
+        ]
+      }
+    },
+    {
+      "product_id": "g0659mxx8vzgt8e",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Premium Support Plus 3 anos para Inspiron G15 5000/7000 2-in-1 N_INSPNBL4_C1_U3",
+        "description": "Poliza digital Dell N_INSPNBL4_C1_U3 que actualiza Inspiron G15 5000 e Inspiron 7000 2-in-1 de 1 ano Basic Carry-In a 3 anos Premium Support Plus. Validar Service Tag.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-g15-5000-7000-2in1/1y-carry-in-a-3y-premium-support-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-g15-5000-7000-2in1",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339879"],
+        "documents": [
+          { "label": "Dell Premium Support Suite for PCs", "type": "service_description", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_INSPNBL4_C1_U3",
+          "providerSkus": ["EXTDLL7480", "POL-7723"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Premium Support Plus",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic Carry-In / centro de servicio",
+          "upgradeTo": "3 anos Premium Support Plus",
+          "targetDeviceFamily": "Inspiron G15 5000 / Inspiron 7000 2-in-1",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag; algunas fuentes limitan compatibilidad a G15 5530/5535",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Sercommex $7,423.17 MXN con 1 existencia; AztecaCompras $6,682 MXN con 50 pzas; MacToner $8,043.28 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL7480", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4412.77, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7723", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4424.53, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Sercommex $7,423.17 MXN con 1 existencia.", "AztecaCompras $6,682 MXN con 50 pzas.", "MacToner $8,043.28 MXN sin existencias."],
+          "reviewNotes": "No confundir con N_INSPNBL4_C1_R3 Premium Support ni N_INSPNBL4_C1_C3 Carry-In."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Premium Support Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" },
+          { "title": "Sercommex Dell N_INSPNBL4_C1_U3", "type": "retailer_price_stock", "url": "https://sercommex.com/productos/detalle/EXTDLL7480/Extension%2Bde%2BGarantias%2BDELL%2BN_INSPNBL4_C1_U3" },
+          { "title": "MacToner Dell N_INSPNBL4_C1_U3", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_inspnbl4_c1_u3-3-anos/" }
+        ]
+      }
+    },
+    {
+      "product_id": "llj67yg9ut64azs",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Premium Support Plus 3 anos para Alienware X14/M16 N_ANWNBM3_C1_U3",
+        "description": "Poliza digital Dell N_ANWNBM3_C1_U3 que actualiza Alienware notebooks X14/M16 de 1 ano Basic Carry-In a 3 anos Premium Support Plus. Validar Service Tag antes de venta o activacion.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-notebooks-x14-m16/1y-carry-in-a-3y-premium-support-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-notebooks-x14-m16",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10376114"],
+        "documents": [
+          { "label": "Dell Premium Support Suite for PCs", "type": "service_description", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_ANWNBM3_C1_U3",
+          "providerSkus": ["EXTDLL8960", "POL-8387"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Premium Support Plus",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic Carry-In / centro de servicio",
+          "upgradeTo": "3 anos Premium Support Plus",
+          "targetDeviceFamily": "Alienware notebooks X14/M16",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar modelo exacto y Service Tag; fuentes MX amplian compatibilidad a X14/M16 y revisiones R2",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta/Abasteo $12,449 MXN en existencia; Compuviper $12,165 MXN bajo pedido con sucursales en 0; MacToner $17,364.32 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL8960", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 11513.8, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-8387", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9709.87, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $12,449 MXN en existencia.", "Abasteo $12,449 MXN InStock.", "Compuviper $12,165 MXN bajo pedido, stock sucursales 0.", "MacToner $17,364.32 MXN sin existencias."],
+          "reviewNotes": "No confundir con N_ANWNBM3_C1_R3 Premium Support ni con Elite Care; batch menciona X14, fuentes MX incluyen M16."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Premium Support Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" },
+          { "title": "SysMX POL-8387", "type": "retailer_price_stock", "url": "https://www.sysmx.com.mx/POL-8387-N-ANWNBM3-C1-U3-DELL-POLIZAS-DE-GARANTIA" },
+          { "title": "MacToner Dell N_ANWNBM3_C1_U3", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_anwnbm3_c1_u3-3-anos/" },
+          { "title": "Compuviper Dell N_ANWNBM3_C1_U3", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/dell-n_anwnbm3_c1_u3-poliza-de-garantia-para-alienware-notebooks-x14-de-1-ao-basico-en-centro-de-servicios-carry-in-a-3-aos-premium-support-plus-importante-conf-comp-de-series-con-clave-de-ga/" }
+        ]
+      }
+    },
+    {
+      "product_id": "y4ap3ygsml8fsy2",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Premium Support Plus 3 anos para Inspiron Desktops 5000 N_INSPDTM1_C1_U3",
+        "description": "Poliza digital Dell N_INSPDTM1_C1_U3 que actualiza Inspiron Desktops 5000 de 1 ano Basic Carry-In a 3 anos Premium Support Plus. Requiere validar Service Tag antes de activar.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-desktops-5000/1y-carry-in-a-3y-premium-support-plus",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/inspiron-desktops-5000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339874"],
+        "documents": [
+          { "label": "Dell Premium Support Suite for PCs", "type": "service_description", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_INSPDTM1_C1_U3",
+          "providerSkus": ["EXTDLL9610", "POL-7716"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Premium Support Plus",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic Carry-In / centro de servicio",
+          "upgradeTo": "3 anos Premium Support Plus",
+          "targetDeviceFamily": "Inspiron Desktops 5000",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag antes de activar",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta $6,939 MXN agotado; MacToner $7,742.04 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL9610", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5132.98, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7716", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5146.67, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $6,939 MXN agotado.", "MacToner $7,742.04 MXN sin existencias."],
+          "reviewNotes": "No confundir con N_INSPDTM1_C1_R3 Premium Support ni con ProSupport Plus de Inspiron SFF 3030."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Premium Support Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/premium-support-suite-for-pcs" },
+          { "title": "Cyberpuerta Dell N_INSPDTM1_C1_U3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Premium-Support-Plus-para-Computadoras-Inspiron-5000.html" },
+          { "title": "MacToner Dell N_INSPDTM1_C1_U3", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_inspdtm1_c1_u3-3-anos/" }
+        ]
+      }
+    },
+    {
+      "product_id": "pa6vpdvot5a1n05",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell ProSupport 5 anos para OptiPlex 3000 N_OPTL1_N3_P5",
+        "description": "Poliza digital Dell N_OPTL1_N3_P5 que actualiza OptiPlex Desktops 3000 de 3 anos Basic Next Business Day a 5 anos ProSupport. Requiere validar Service Tag.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000/3y-basic-nbd-a-5y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/optiplex-3000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339894"],
+        "documents": [
+          { "label": "Dell ProSupport Suite for PCs", "type": "service_description", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_OPTL1_N3_P5",
+          "providerSkus": ["EXTDLL7470", "POL-7715"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "ProSupport",
+          "serviceTerm": "5 anos",
+          "upgradeFrom": "3 anos Basic Next Business Day",
+          "upgradeTo": "5 anos ProSupport",
+          "targetDeviceFamily": "OptiPlex Desktops 3000",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag antes de activar",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta $4,419 MXN agotado; MacToner $5,140.62 MXN sin existencias; Abasteo $3,949 MXN InStock.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL7470", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3407.9, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7715", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3416.53, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $4,419 MXN agotado.", "MacToner $5,140.62 MXN sin existencias.", "Abasteo $3,949 MXN InStock."],
+          "reviewNotes": "No es ProSupport Plus; no incluye danos accidentales ni Keep Your Hard Drive salvo contrato adicional."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_support", "url": "https://www.dell.com/support/contents/es-mx/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "MacToner Dell N_OPTL1_N3_P5", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_optl1_n3_p5-5-anos/" },
+          { "title": "Cyberpuerta Dell N_OPTL1_N3_P5", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-5-Anos-ProSupport-para-OptiPlex-3000.html" },
+          { "title": "Abasteo Dell N_OPTL1_N3_P5", "type": "retailer_price_stock", "url": "https://www.abasteo.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-5-Anos-ProSupport-para-OptiPlex-3000.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "ngp0eylvwwvi7tg",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dell",
+        "name": "Poliza electronica Dell Carry-In 3 anos para Inspiron Notebooks 3000 N_INSPNBL1_C1_C3",
+        "description": "Poliza digital Dell N_INSPNBL1_C1_C3 que extiende Inspiron Notebooks 3000 de 1 ano Basic Carry-In a 3 anos Basic Carry-In en centro de servicio. Validar Service Tag.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/carry-in/inspiron-notebooks-3000/1y-a-3y-carry-in",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/carry-in/inspiron-notebooks-3000",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339862"],
+        "documents": [
+          { "label": "Dell Basic Hardware Service", "type": "service_description", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" }
+        ],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_INSPNBL1_C1_C3",
+          "providerSkus": ["EXTDLL7100", "POL-7740"],
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Basic Carry-In / centro de servicio",
+          "serviceTerm": "3 anos",
+          "upgradeFrom": "1 ano Basic Carry-In",
+          "upgradeTo": "3 anos Basic Carry-In",
+          "targetDeviceFamily": "Inspiron Notebooks 3000",
+          "delivery": "Servicio electronico sin producto fisico",
+          "activationRequirement": "Confirmar compatibilidad por Service Tag; Carry-In no es servicio onsite",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta $2,239 MXN agotado; MacToner $2,521.80 MXN sin existencias; Diten $2,439 MXN con 1 pieza disponible; SysMX $2,558.96 MXN sobre pedido.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "EXTDLL7100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1671.28, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "POL-7740", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1675.73, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $2,239 MXN agotado.", "MacToner $2,521.80 MXN sin existencias.", "Diten $2,439 MXN con 1 pieza disponible.", "SysMX $2,558.96 MXN sobre pedido."],
+          "reviewNotes": "Carry-In implica llevar o enviar el equipo a centro designado; no es Premium Support ni onsite NBD."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Basic Hardware Service", "type": "manufacturer_support", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/es/es/basic-hardware-service-commercial-sd-es.pdf" },
+          { "title": "Cyberpuerta Dell N_INSPNBL1_C1_C3", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-en-Centro-de-Servicio-para-Inspiron-3000.html" },
+          { "title": "MacToner Dell N_INSPNBL1_C1_C3", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/extension-de-garantias-dell-n_inspnbl1_c1_c3-3-anos/" },
+          { "title": "SysMX POL-7740", "type": "retailer_price_stock", "url": "https://www.sysmx.com.mx/POL-7740-N-INSPNBL1-C1-C3-DELL-POLIZAS-DE-GARANTIA" }
+        ]
+      }
+    }
+  ]
+}
