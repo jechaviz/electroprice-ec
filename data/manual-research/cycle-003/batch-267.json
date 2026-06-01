@@ -1,0 +1,516 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b267-2026-06-01",
+  "cycle": 3,
+  "batch": 267,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "02huk1bpq0wyxqq",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Zebra",
+        "name": "Tarjetas PVC Zebra 104523-118 CR80 30 mil con panel de firma, caja con 500",
+        "description": "Tarjetas blancas de PVC tamano CR80 con panel de firma, espesor 30 mil y caja de 500 piezas para impresoras de credenciales Zebra. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.zebra.com/us/en/products/supplies.html",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/panel-firma/zebra-104523-118",
+        "semanticCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/panel-firma",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCITR620/ACCITR620_full.jpg",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCITR620_full.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCITR620", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "104523-118",
+          "productType": "Tarjetas PVC para credencial",
+          "cardFamily": "CR80",
+          "material": "PVC",
+          "color": "Blanco",
+          "thickness": "30 mil / 0.76 mm",
+          "quantity": "500 tarjetas por caja",
+          "signaturePanel": true,
+          "magneticStripe": "No indicado para 104523-118",
+          "printMethod": "Transferencia termica",
+          "compatiblePrinters": ["ZC100", "ZC300", "ZC350", "ZXP Series 1", "ZXP Series 3", "ZXP Series 7", "ZXP Series 9"],
+          "gtinCandidates": ["0783555109922", "5052179506109", "5711045301360"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCITR620. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCITR620", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner lo lista sin existencias.", "Retailers internacionales publican especificacion equivalente."],
+          "reviewNotes": "La ficha oficial exacta de parte no fue publica; se uso familia Zebra Supplies y referencias de distribuidores por numero de parte."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Tarjeta 2.13 x 3.38 in / aprox. 54 x 86 mm", "weight": "Caja 5.6 lb reportada por retailer" },
+        "sourceRefs": [
+          { "title": "Zebra supplies", "type": "manufacturer_reference", "url": "https://www.zebra.com/us/en/products/supplies.html" },
+          { "title": "Barcodes Inc Zebra 104523-118", "type": "retailer_specs", "url": "https://www.barcodesinc.com/zebra/part-104523-118.htm" },
+          { "title": "ZPS Store Zebra 104523-118", "type": "retailer_specs", "url": "https://www.zpsstore.com/104523-118-zebra-pvc-card-blank-box/" },
+          { "title": "Mactoner ACCITR620", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/tarjetas-de-pvc-zebra-104523-118-500/" }
+        ]
+      }
+    },
+    {
+      "product_id": "02kc4qyp0255uof",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Nextep",
+        "name": "Barra multicontacto Nextep NE-240 6 contactos aterrizados con supresor 490J, cable 50 cm, blanco",
+        "description": "Multicontacto Nextep NE-240 para casa u oficina con 6 contactos aterrizados, supresor de picos de 490 joules, cable 16 AWG de 50 cm, clavija plana y potencia maxima 1875W. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://nextep.com.mx/productos/ne-240/",
+        "manualCategoryPath": "energia/supresores-reguladores/supresores-picos/multicontactos/6-contactos/nextep-ne-240",
+        "semanticCategoryPath": "energia/supresores-reguladores/supresores-picos/multicontactos/6-contactos",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNTE600/ACCNTE600_full.jpg",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/NX/NXCSUPAB001_zoom.jpg",
+          "https://compupuebla.com/wp-content/uploads/2025/04/BarraMultiplecontactoNextepNE2406c_NE240_0.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCNTE600", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "NE-240",
+          "ean": "7501811275463",
+          "alternateKey": "NXCSUPAB001",
+          "productType": "Barra multicontacto con supresor",
+          "outlets": "6 contactos aterrizados",
+          "surgeProtection": true,
+          "surgeEnergyRating": "490 J",
+          "cableLength": "50 cm",
+          "wireGauge": "16 AWG",
+          "maxPower": "1875 W",
+          "plugType": "Clavija plana",
+          "color": "Blanco",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCNTE600. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCNTE600", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["CompuPuebla lo lista agotado.", "Exel requiere cuenta para compra/precio."],
+          "reviewNotes": "No se encontraron medidas o peso publicos confiables; valores 0.00 de mirrors fueron omitidos."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Nextep NE-240", "type": "manufacturer_reference", "url": "https://nextep.com.mx/productos/ne-240/" },
+          { "title": "Exel NXCSUPAB001", "type": "distributor_specs", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/NXCSUPAB001" },
+          { "title": "CompuPuebla NE-240", "type": "retailer_price_stock", "url": "https://compupuebla.com/producto/regletas-y-multicontactos-nextep-ne-240/" }
+        ]
+      }
+    },
+    {
+      "product_id": "02l1no6r8qzl90b",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Balam Rush",
+        "name": "Enfriador CPU Balam Rush Heliux Pro HEX55 BR-941983 aire 120 mm ARGB con display, negro",
+        "description": "Disipador de aire para CPU Balam Rush Heliux Pro HEX55 con ventilador 120 mm ARGB, display de temperatura, 4 heatpipes, PWM, rodamiento hidrodinamico y TDP 220W. CVA reporta stock 0.",
+        "manufacturerUrl": "https://balamrush.com/products/enfriamiento-de-aire-heliux-pro-hex55-display-para-monitoreo-de-temperatura-rgb-4-pipas-tdp-220-w-compatibilidad-amd-intel-1x-ven-120mm-rodamiento-hidraulico-600-2000-rpm-74-27cfm-30db-pwm-4-pin-argb-3pin-legend-negro",
+        "manualCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-argb/tdp-220w/balam-rush-heliux-pro-hex55-br-941983",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-argb/tdp-220w",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10475244",
+          "https://cdn.shopify.com/s/files/1/0805/2480/4383/files/BR-941983_1.webp?v=1742341675",
+          "https://cdn.shopify.com/s/files/1/0805/2480/4383/files/BR-941983_2.webp?v=1742341675",
+          "https://cdn.shopify.com/s/files/1/0805/2480/4383/files/BR-941983-3.webp?v=1742341675"
+        ],
+        "documents": ["https://fichastecnicas.pchmayoreo.com/BR-941983.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CF-582", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "BR-941983 / Heliux Pro HEX55",
+          "ean": "7506215941983",
+          "productType": "Disipador CPU de aire",
+          "tdp": "220 W",
+          "heatPipes": 4,
+          "fanSize": "120 x 120 x 27 mm",
+          "fanSpeed": "600-2200 RPM",
+          "airflow": "74.27 CFM",
+          "staticPressure": "2.87 mmH2O",
+          "noise": "30 dB",
+          "connector": "PWM 4-pin + ARGB 3-pin",
+          "lighting": "ARGB, 20 LEDs",
+          "socketSupport": ["Intel LGA 1200", "Intel LGA 115x", "Intel LGA 1700", "Intel LGA 1851", "AMD AM4", "AMD AM5"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CF-582. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CF-582", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["MetalMedia mirror reporta Existencia: 0 para CF-582."],
+          "reviewNotes": "Datos tecnicos normalizados desde ficha oficial Balam Rush y PDF PCH."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Disipador 120 x 78 x 153 mm; empaque 16.2 x 14.5 x 20.5 cm", "weight": "Radiador 490 g" },
+        "sourceRefs": [
+          { "title": "Balam Rush Heliux Pro HEX55", "type": "manufacturer_reference", "url": "https://balamrush.com/products/enfriamiento-de-aire-heliux-pro-hex55-display-para-monitoreo-de-temperatura-rgb-4-pipas-tdp-220-w-compatibilidad-amd-intel-1x-ven-120mm-rodamiento-hidraulico-600-2000-rpm-74-27cfm-30db-pwm-4-pin-argb-3pin-legend-negro" },
+          { "title": "Ficha tecnica BR-941983", "type": "datasheet", "url": "https://fichastecnicas.pchmayoreo.com/BR-941983.pdf" },
+          { "title": "MetalMedia CF-582", "type": "retailer_price_stock", "url": "https://www.metalmedia.com.mx/ENFRIAMIENTO-DE-AIRE%2C203271__1461124186" }
+        ]
+      }
+    },
+    {
+      "product_id": "02zln8sktpf5la1",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Ubiquiti",
+        "name": "Antena Ubiquiti RocketDish RD-5G34 airMAX 5 GHz 34 dBi",
+        "description": "Antena parabolica Ubiquiti RocketDish RD-5G34 para radioenlaces airMAX en 5 GHz, ganancia hasta 34 dBi, polarizacion dual-lineal y montaje universal para poste. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://store.ui.com/us/en/products/rd-5g?variant=rd-5g34",
+        "manualCategoryPath": "redes/radioenlaces-antenas/antenas-parabolicas/5ghz-34dbi/ubiquiti-rocketdish-rd-5g34",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/antenas-parabolicas/5ghz-34dbi",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ANTUBI270/ANTUBI270_full.jpg",
+          "https://cdn.ecomm.ui.com/products/c4bc7187-c400-4192-baaf-a3219aa60caf/f9d4c13e-65a6-46fb-9607-d8c5325af85a.png",
+          "https://cdn.ecomm.ui.com/products/c4bc7187-c400-4192-baaf-a3219aa60caf/f3ab8184-689e-4654-812f-d7a655902d76.png"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ANTUBI270", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "RD-5G34",
+          "upc": "810354021299",
+          "productLine": "RocketDish / airMAX",
+          "frequencyRange": "4.9 - 5.8 GHz",
+          "gain": "30 dBi at 4.9 GHz; 34 dBi at 5-5.8 GHz",
+          "beamwidth": "3 grados H/V a 3 dB",
+          "frontToBackRatio": "42 dB",
+          "maxVswr": "1.4:1",
+          "windLoading": "1779 N at 200 km/h",
+          "polarization": "Dual-linear",
+          "mounting": "Universal pole mount, Rocket bracket and weatherproof RF connectors",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ANTUBI270. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ANTUBI270", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner mirror lo lista sin existencias."],
+          "reviewNotes": "Stock de tienda Ubiquiti US no reemplaza stock CTOnline Mexico."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1050 x 1050 x 421 mm", "weight": "13.5 kg" },
+        "sourceRefs": [
+          { "title": "Ubiquiti RocketDish RD-5G34", "type": "manufacturer_reference", "url": "https://store.ui.com/us/en/products/rd-5g?variant=rd-5g34" },
+          { "title": "Mactoner ANTUBI270", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/antena-ubiquiti-rd-5g34-34-dbi/" }
+        ]
+      }
+    },
+    {
+      "product_id": "02zmik7wfg507kb",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Synology",
+        "name": "Synology E10G30-T2 tarjeta de red dual 10GbE RJ45 PCIe 3.0 x8 para NAS",
+        "description": "Tarjeta de red Synology E10G30-T2 con dos puertos 10GbE RJ45 10GBASE-T, interfaz PCIe 3.0 x8, brackets bajo y alto, soporte Jumbo Frame y funciones de descarga. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.synology.com/en-us/products/E10G30-T2?lang=en-global",
+        "manualCategoryPath": "redes/tarjetas-red/pcie/10gbe-dual-rj45/synology-e10g30-t2",
+        "semanticCategoryPath": "redes/tarjetas-red/pcie/10gbe-dual-rj45",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10403193",
+          "https://www.grupocva.com/detalle_articulo/10403193.jpg"
+        ],
+        "documents": ["https://global.download.synology.com/download/Document/Hardware/ProductSpec/Accessories/23-year/E10G30-T2/enu/Product_Spec_E10G30-T2_enu.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "NIC-4466", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "E10G30-T2",
+          "productType": "Tarjeta de red dual 10GbE 10GBASE-T",
+          "hostBusInterface": "PCIe 3.0 x8",
+          "ports": "2 x RJ45",
+          "dataRates": ["10 Gbps", "1 Gbps"],
+          "networkOperationMode": "Full duplex",
+          "brackets": ["Low profile", "Full height"],
+          "features": ["TCP Segmentation Offload", "Receive Side Scaling", "Jumbo Frame 1.5-9 KB", "Checksum Offload", "SR-IOV", "Large Receive Offload"],
+          "dsmRequirement": "DSM 7.1.1-42962 Update 5 o posterior",
+          "warranty": "5 anos",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para NIC-4466. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NIC-4466", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice mirror publica clave y ficha, sin sustituir inventario CVA."],
+          "reviewNotes": "Synology no publica peso oficial de producto en la ficha encontrada."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "68.9 x 167.7 x 14.7 mm", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Synology E10G30-T2", "type": "manufacturer_reference", "url": "https://www.synology.com/en-us/products/E10G30-T2?lang=en-global" },
+          { "title": "Synology E10G30-T2 product spec PDF", "type": "datasheet", "url": "https://global.download.synology.com/download/Document/Hardware/ProductSpec/Accessories/23-year/E10G30-T2/enu/Product_Spec_E10G30-T2_enu.pdf" },
+          { "title": "GlobalOffice E10G30-T2", "type": "retailer_price_stock", "url": "https://globaloffice.mx/index.php/app/detalle/producto/redes/tarjeta-de-red-synology-e10g30-t2-de-2-puerto-ethe/e10g30-t2" }
+        ]
+      }
+    },
+    {
+      "product_id": "0306pd1j64w4ul8",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Dell",
+        "name": "Dell PowerEdge T160-FY26Q1E-MX servidor torre Xeon E-2434 16GB DDR5 2TB HDD sin OS",
+        "description": "Servidor torre Dell PowerEdge T160 con procesador Intel Xeon E-2434, 16GB DDR5 ECC, disco 2TB SATA 7.2K, bahias 3.5 pulgadas cableadas, red Broadcom 5720 dual 1GbE, fuente 300W, iDRAC9 Basic y sin sistema operativo. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/ipovw/poweredge-t160",
+        "manualCategoryPath": "computo/servidores/torre/dell-poweredge-t160/t160-fy26q1e-mx",
+        "semanticCategoryPath": "computo/servidores/torre/dell-poweredge-t160",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10453240",
+          "https://www.grupocva.com/detalle_articulo/10453240.jpg",
+          "https://bhtechnology.mx/wp-content/uploads/2025/02/Dell_T160-600x600.png"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SER-2334", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "T160-FY26Q1E-MX / PowerEdge T160",
+          "formFactor": "Servidor torre 3U, single socket",
+          "processor": "Intel Xeon E-2434, 4 cores / 8 threads, 3.4-5.0 GHz, 12 MB cache, 55 W",
+          "memoryInstalled": "16 GB DDR5 ECC UDIMM 5600 MT/s",
+          "memorySupport": "4 sockets UDIMM, hasta 128 GB",
+          "storageInstalled": "1 x 2 TB 3.5 in SATA 6Gbps 7.2K 512n HDD",
+          "driveChassis": "3 x 3.5 in cabled SAS/SATA HDD/SSD",
+          "storageController": "Sin controlador RAID",
+          "network": "Broadcom 5720 2-port 1GbE",
+          "powerSupply": "300 W cabled PSU",
+          "management": "iDRAC9 Basic",
+          "operatingSystem": "Sin sistema operativo",
+          "warranty": "1 ano basic hardware service",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SER-2334. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SER-2334", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["BH Technology mirror publica configuracion T160-FY26Q1E-MX; no reemplaza inventario CVA."],
+          "reviewNotes": "El slug de un retailer menciona E-2436, pero cuerpo y evidencia de batch usan E-2434."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Aprox. 125-132.52 x 329.5-332.5 x 403.8-420.55 mm", "weight": "6.31 kg sin discos/PSU; 11.64 kg maximo poblado" },
+        "sourceRefs": [
+          { "title": "Dell PowerEdge T160", "type": "manufacturer_reference", "url": "https://www.dell.com/en-us/shop/ipovw/poweredge-t160" },
+          { "title": "Dell T160 system overview", "type": "manufacturer_reference", "url": "https://www.dell.com/support/manuals/en-us/poweredge-t160/t160_ism_pub/dell-poweredge-t160-system-overview?guid=guid-82466e07-18e7-4550-bc64-ff0638ab15af" },
+          { "title": "Dell T160 system weight", "type": "manufacturer_reference", "url": "https://www.dell.com/support/manuals/en-us/poweredge-t160/t160_ism_pub/system-weight?guid=guid-e4df1910-2a43-47d4-8e2c-67009c51c825&lang=en-us" },
+          { "title": "Intel Xeon E-2434", "type": "manufacturer_reference", "url": "https://www.intel.com/content/www/us/en/products/sku/236192/intel-xeon-e2434-processor-12m-cache-3-40-ghz/specifications.html" },
+          { "title": "BH Technology T160-FY26Q1E-MX", "type": "retailer_price_stock", "url": "https://bhtechnology.mx/producto/servidor-dell-poweredge-t160-xeon-e-2436-2-9ghz-6core-memoria-16gb-hdd-2tb-perc-h355-2x-rj-45-1gbe-fuente-300w-1yr/" }
+        ]
+      }
+    },
+    {
+      "product_id": "0321v9tc0snt3ir",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Yaber",
+        "name": "Yaber T2 Plus proyector portable 1080p FHD 450 ANSI con JBL y Dolby Audio",
+        "description": "Proyector portatil Yaber T2 Plus 1080p FHD con audio JBL 8W x2, Dolby Audio, Wi-Fi 6, Bluetooth 5.0, auto focus, auto keystone y bateria integrada. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.yaber.com/products/yaber-projector-t2-t2plus-anywhere-cinema",
+        "manualCategoryPath": "video/proyectores/portatiles/1080p-smart/yaber-t2-plus",
+        "semanticCategoryPath": "video/proyectores/portatiles/1080p-smart",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/PROYAB070/PROYAB070_3_full.jpg",
+          "https://tekdigital.mx/wp-content/uploads/2025/02/PROYAB070_full-700x700.jpg",
+          "https://www.yaber.com/cdn/shop/files/portable-projector.jpg?v=1753255925&width=1000"
+        ],
+        "documents": ["https://www.projectorcentral.com/pdf/projector_spec_12414.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "PROYAB070", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "T2 Plus",
+          "upc": "198168906118",
+          "resolution": "1080p FHD",
+          "brightness": "450 ANSI lumens in CT/PDF; current official page uses 350 ISO lumens",
+          "projectionSize": "40-120 in",
+          "throwRatio": "1.25:1",
+          "audio": "JBL 8W x2, Dolby Audio",
+          "battery": "2.5 h video / 18 h music",
+          "connectivity": ["Wi-Fi 6", "Bluetooth 5.0", "HDMI", "USB 2.0", "Audio out", "RJ45", "NFC screencast"],
+          "automation": ["Auto focus", "Auto keystone", "Screen alignment", "Obstacle avoidance"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para PROYAB070. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "PROYAB070", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["CTI Systems lo lista agotado.", "TekDigital publica ficha PROYAB070/UPC."],
+          "reviewNotes": "Se conserva caveat de brillo por diferencia ANSI vs ISO entre PDF/distribuidor y pagina vigente."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "165 x 140 x 290 mm", "weight": "2.5 kg" },
+        "sourceRefs": [
+          { "title": "Yaber T2/T2 Plus", "type": "manufacturer_reference", "url": "https://www.yaber.com/products/yaber-projector-t2-t2plus-anywhere-cinema" },
+          { "title": "ProjectorCentral T2/T2 Plus PDF", "type": "datasheet", "url": "https://www.projectorcentral.com/pdf/projector_spec_12414.pdf" },
+          { "title": "CTI Systems PROYAB070", "type": "retailer_price_stock", "url": "https://ctisystems.mx/proyectores-yaber-t2-plus-modelo-sound-by-jbl-dolby-audio-450-ansi-lumens-1080p-fhd" },
+          { "title": "TekDigital PROYAB070", "type": "retailer_price_stock", "url": "https://tekdigital.mx/producto/proyector-yaber-modelo-t2-plus-sound-by-jbl-dolby-audio-450-ansi-lumens-y-1080p-fhd/" }
+        ]
+      }
+    },
+    {
+      "product_id": "036evxdv92mnncu",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Samsung",
+        "name": "Samsung WA75F LH75WAFWLGCXZX pantalla interactiva 75 pulgadas UHD 4K Android 14",
+        "description": "Pantalla interactiva Samsung WA75F de 75 pulgadas con resolucion UHD 4K, panel IPS, Android 14 EDLA, tactil IR, Wi-Fi, Bluetooth, HDMI, USB, RJ45 y VESA 800 x 400. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://www.samsung.com/cl/business/smart-signage/interactive-display/interactive-display-waf-lh75wafwlgcxzx/",
+        "manualCategoryPath": "video/senalizacion-digital/pantallas-interactivas/75-uhd-touch/samsung-wa75f-lh75wafwlgcxzx",
+        "semanticCategoryPath": "video/senalizacion-digital/pantallas-interactivas/75-uhd-touch",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10461301",
+          "https://images.samsung.com/is/image/samsung/p6pim/cl/lh75wafwlgcxzx/gallery/cl-interactive-display-waf-557230-lh75wafwlgcxzx-549130597?$Q90_684_547_JPG$",
+          "https://images.samsung.com/is/image/samsung/p6pim/cl/lh75wafwlgcxzx/gallery/cl-interactive-display-waf-557230-lh75wafwlgcxzx-thumb-549130598?$720_576_JPG$"
+        ],
+        "documents": ["https://images.samsung.com/is/content/samsung/assets/de/business/displays/pdf/Datenblatt_Smart_Signage_LH75WAFWLGCXEN.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "LFDSMG1470", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+          { "wholesalerId": "cva", "sku": "MNL-2924", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "LH75WAFWLGCXZX / WA75F",
+          "eanUpcCandidate": "8806097611011",
+          "screenSize": "75 in",
+          "panel": "IPS Direct LED",
+          "resolution": "3840 x 2160",
+          "brightness": "400 nit in official spec table; title conflict says 250 nit",
+          "contrast": "1200:1",
+          "touch": "IR, 40 puntos externos / 20 internos en hoja regional",
+          "os": "Android 14 EDLA",
+          "memory": "64 GB flash, 8 GB RAM in regional WA75F datasheet",
+          "connectivity": ["HDMI 2.1 x2", "USB x4", "RJ45", "RS232", "Wi-Fi 5", "Bluetooth", "Miracast"],
+          "audio": "15 W x2 in regional WA75F datasheet",
+          "vesa": "800 x 400 mm",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para LFDSMG1470 y CVA/Electroprice stock 0 para MNL-2924. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "LFDSMG1470", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" },
+            { "providerId": "cva", "providerSku": "MNL-2924", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice mirror publica MNL-2924/EAN; no sustituye inventario CVA."],
+          "reviewNotes": "La ficha exacta Samsung CL es prioritaria; datasheet DE se uso solo para detalles de familia WA75F cuando el sufijo regional difiere."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1716.5 x 1031.9 x 87.7 mm; empaque 1860 x 1125 x 185 mm", "weight": "49.2 kg; empaque 58.8 kg" },
+        "sourceRefs": [
+          { "title": "Samsung WA75F LH75WAFWLGCXZX", "type": "manufacturer_reference", "url": "https://www.samsung.com/cl/business/smart-signage/interactive-display/interactive-display-waf-lh75wafwlgcxzx/" },
+          { "title": "Samsung Latin support LH75WAFWLGCXZX", "type": "manufacturer_reference", "url": "https://www.samsung.com/latin/support/model.LH75WAFWLGCXZX/" },
+          { "title": "Samsung DE WA75F datasheet", "type": "datasheet", "url": "https://images.samsung.com/is/content/samsung/assets/de/business/displays/pdf/Datenblatt_Smart_Signage_LH75WAFWLGCXEN.pdf" },
+          { "title": "GlobalOffice LH75WAFWLGCXZX", "type": "retailer_price_stock", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/samsung/samsung-interactive-display-wa75f-waf-series-75in-led-bac/lh75wafwlgcxzx" }
+        ]
+      }
+    },
+    {
+      "product_id": "03b8iyi30n725dy",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Dahua Technology",
+        "name": "Dahua DHI-LM34-E330CA monitor gaming curvo 34 pulgadas UWQHD 200Hz",
+        "description": "Monitor gaming Dahua DHI-LM34-E330CA de 34 pulgadas curvo 1500R con panel VA, resolucion 3440 x 1440, formato 21:9, refresco oficial 200Hz, HDR10 y Adaptive Sync. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Gaming-Series/LM34-E330CA%3DV1",
+        "manualCategoryPath": "computo/monitores/gaming/ultrawide-curvos/34-uwqhd-200hz/dahua-dhi-lm34-e330ca",
+        "semanticCategoryPath": "computo/monitores/gaming/ultrawide-curvos/34-uwqhd-200hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MONDAH220/MONDAH220_4_full.jpg",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_12_10729/ProductImage/1_0_99_12_10729_798615151.PNG",
+          "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_99_12_10729/ProductImage/1_0_99_12_10729_798615150.PNG"
+        ],
+        "documents": ["https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DHI-LM34-E330CA_V1_datasheet_20250702.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "MONDAH220", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "DHI-LM34-E330CA",
+          "ean": "6923172557377",
+          "screenSize": "34 in",
+          "panel": "VA ELED, curvatura 1500R",
+          "resolution": "3440 x 1440",
+          "refreshRate": "200 Hz oficial; batch/retailers mencionan 180 Hz",
+          "aspectRatio": "21:9",
+          "brightness": "300 cd/m2",
+          "contrast": "3500:1",
+          "responseTime": "MPRT 1 ms",
+          "color": "8 bit + FRC, 120% sRGB, 85% DCI-P3",
+          "ports": "2 x HDMI 2.0, 2 x DP 1.4, audio out",
+          "stand": "Tilt -5/+15, swivel +/-35, altura 100 mm, VESA 100 x 100",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para MONDAH220. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "MONDAH220", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice y TekDigital publican ficha MONDAH220; inventario publico no sustituye CTOnline."],
+          "reviewNotes": "Se usa 200Hz por ficha oficial Dahua aunque el proveedor crudo/resellers citan 180Hz."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "810.4 x 361.5 x 132.1 mm sin base; empaque 1124 x 468 x 193 mm", "weight": "7.3 kg neto; 10.2 kg bruto" },
+        "sourceRefs": [
+          { "title": "Dahua LM34-E330CA", "type": "manufacturer_reference", "url": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Gaming-Series/LM34-E330CA%3DV1" },
+          { "title": "Dahua DHI-LM34-E330CA datasheet", "type": "datasheet", "url": "https://materialfile.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/DHI-LM34-E330CA_V1_datasheet_20250702.pdf" },
+          { "title": "GlobalOffice LM34-E330CA", "type": "retailer_price_stock", "url": "https://globaloffice.mx/app/detalle/producto/computadoras/monitor-dahua-technology-dhi-lm34-e330ca-monitor-d/lm34-e330ca" },
+          { "title": "TekDigital DHI-LM34-E330CA", "type": "retailer_price_stock", "url": "https://tekdigital.mx/producto/monitor-gaming-dahua-technology-dhi-lm34-e330ca-nb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "03iefy34lx2fjcl",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Hikvision",
+        "name": "Hikvision DS-2CD1183G2-LIUF camara domo IP PoE 8MP Dual Light 2.8mm con microfono y microSD",
+        "description": "Camara domo IP Hikvision DS-2CD1183G2-LIUF de 8MP con sensor 1/2.7 in, lente fijo 2.8 mm, Smart Hybrid Light 30 m, microfono integrado, PoE, ranura microSD hasta 512GB, IP67 e IK08. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/value-series/ds-2cd1183g2-liu-f-/?subName=DS-2CD1183G2-LIUF",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/8mp-dual-light-microsd-mic/hikvision-ds-2cd1183g2-liuf",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/8mp-dual-light-microsd-mic",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10476177",
+          "https://assets.hikvision.com/prd/normal/all/image/m000071313/%E5%8F%8C%E5%85%89%E5%8D%8A%E7%90%8361---%E5%9F%BA%E7%BA%BF---%E6%AD%A3%E9%9D%A2.png?eo-img.format=webp",
+          "https://assets.hikvision.com/prd/normal/all/image/m000071313/%E5%8F%8C%E5%85%89%E5%8D%8A%E7%90%8361---%E5%9F%BA%E7%BA%BF---%E5%B7%A6%E4%BE%A7.png?eo-img.format=webp"
+        ],
+        "documents": ["https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000000003/S000000004/OFR010251/M000071313/SM000047174/Data_Sheet/DS-2CD1183G2-LIUF_Datasheet_20230808.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CV-2146", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "DS-2CD1183G2-LIUF",
+          "selectedLens": "2.8 mm",
+          "imageSensor": "1/2.7 in Progressive Scan CMOS",
+          "resolution": "3840 x 2160 / 8MP",
+          "minIllumination": "Color 0.01 lux F2.0; 0 lux with IR",
+          "fov2_8mm": "Horizontal 113 deg, vertical 62 deg, diagonal 134 deg",
+          "dori2_8mm": "D 79 m, O 31 m, R 15 m, I 7 m",
+          "supplementLight": "IR + white light up to 30 m, smart supplement",
+          "videoCompression": ["H.265+", "H.265", "H.264+", "H.264", "MJPEG substream"],
+          "audio": "Microfono mono integrado, noise filtering",
+          "network": ["ONVIF S/T/G on -F", "ISAPI", "SDK", "Hik-Connect"],
+          "storage": "microSD/SDHC/SDXC hasta 512GB en modelo -F",
+          "power": "12 VDC max 6W o PoE IEEE 802.3af Class 3 max 7.5W",
+          "protection": "IP67, IK08",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CV-2146. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CV-2146", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice mirror publica CV-2146; no sustituye inventario CVA."],
+          "reviewNotes": "Datasheet cubre LIU/LIUF y lentes 2.8/4 mm; se selecciono LIUF 2.8 mm por evidencia del batch."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Diametro 121.5 x 97.6 mm; empaque 150 x 150 x 141 mm", "weight": "550 g aprox.; empaque 800 g aprox." },
+        "sourceRefs": [
+          { "title": "Hikvision DS-2CD1183G2-LIUF", "type": "manufacturer_reference", "url": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/value-series/ds-2cd1183g2-liu-f-/?subName=DS-2CD1183G2-LIUF" },
+          { "title": "Hikvision DS-2CD1183G2-LIUF datasheet", "type": "datasheet", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000000003/S000000004/OFR010251/M000071313/SM000047174/Data_Sheet/DS-2CD1183G2-LIUF_Datasheet_20230808.pdf" },
+          { "title": "GlobalOffice DS-2CD1183G2-LIUF", "type": "retailer_price_stock", "url": "https://www.globaloffice.com.mx/app/detalle/producto/camaras/camara-hikvision-dual-light-domo-ip-8-megapixel-4k-lente/ds-2cd1183g2-liuf" }
+        ]
+      }
+    }
+  ]
+}

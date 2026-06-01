@@ -79,6 +79,19 @@ const batch266Cases = [
   ["Acteck Blazar Basic FT500B GABACT400 AC-938150 fuente ATX 500W plata", "ACTECK", "computo/componentes/fuentes-poder/atx-500w/acteck-blazar-basic-ft500b", "components", {}],
 ] as const;
 
+const batch267Cases = [
+  ["Zebra 104523-118 ACCITR620 tarjetas PVC CR80 30 mil panel de firma 500", "ZEBRA", "punto-de-venta/credenciales-identificacion/consumibles/tarjetas-pvc/panel-firma/zebra-104523-118", "accessories", {}],
+  ["Nextep NE-240 ACCNTE600 barra multicontacto 6 contactos supresor 490J 7501811275463", "NEXTEP", "energia/supresores-reguladores/supresores-picos/multicontactos/6-contactos/nextep-ne-240", "power", {}],
+  ["Balam Rush BR-941983 CF-582 Heliux Pro HEX55 disipador CPU 120mm ARGB TDP 220W", "BALAM RUSH", "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-argb/tdp-220w/balam-rush-heliux-pro-hex55-br-941983", "components", {}],
+  ["Ubiquiti RD-5G34 ANTUBI270 RocketDish airMAX antena 5GHz 34dBi 810354021299", "UBIQUITI", "redes/radioenlaces-antenas/antenas-parabolicas/5ghz-34dbi/ubiquiti-rocketdish-rd-5g34", "networking", {}],
+  ["Synology E10G30-T2 NIC-4466 tarjeta red dual 10GbE RJ45 PCIe 3.0 x8", "SYNOLOGY", "redes/tarjetas-red/pcie/10gbe-dual-rj45/synology-e10g30-t2", "networking", {}],
+  ["Dell PowerEdge T160-FY26Q1E-MX SER-2334 servidor torre Xeon E-2434 16GB 2TB", "DELL", "computo/servidores/torre/dell-poweredge-t160/t160-fy26q1e-mx", "laptops", {}],
+  ["Yaber T2 Plus PROYAB070 proyector portatil 1080p FHD JBL Dolby 450 ANSI", "YABER", "video/proyectores/portatiles/1080p-smart/yaber-t2-plus", "tvs", {}],
+  ["Samsung LH75WAFWLGCXZX MNL-2924 LFDSMG1470 WA75F pantalla interactiva 75 UHD Android touch", "SAMSUNG", "video/senalizacion-digital/pantallas-interactivas/75-uhd-touch/samsung-wa75f-lh75wafwlgcxzx", "monitors", {}],
+  ["Dahua DHI-LM34-E330CA MONDAH220 monitor gaming curvo 34 UWQHD 200Hz 6923172557377", "DAHUA TECHNOLOGY", "computo/monitores/gaming/ultrawide-curvos/34-uwqhd-200hz/dahua-dhi-lm34-e330ca", "monitors", {}],
+  ["Hikvision DS-2CD1183G2-LIUF CV-2146 camara domo IP 8MP dual light 2.8mm microSD mic", "HIKVISION", "seguridad/cctv/camaras-ip-poe/domo/8mp-dual-light-microsd-mic/hikvision-ds-2cd1183g2-liuf", "cameras", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -111,6 +124,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch266Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch267Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
