@@ -222,6 +222,19 @@ const batch277Cases = [
   ["Lenovo ThinkVision D22e-20 66D2KAC6LA MNL-2084 monitor 21.45 FHD 75Hz", "LENOVO", "computo/monitores/oficina/21-45-fhd/lenovo-thinkvision-d22e-20-66d2kac6la", "monitors", {}],
 ] as const;
 
+const batch278Cases = [
+  ["Perfect Choice PC-041801 ACCMST3920 descansa munecas teclado memory foam 615604041801", "PERFECT CHOICE", "computo/perifericos/teclados/descansa-munecas/memory-foam/perfect-choice-pc-041801", "accessories", {}],
+  ["Jabra BIZ 1500 Duo USB 1559-0159 ACCJAB240 diadema contact center", "JABRA", "audio/diademas/contact-center/usb/duo/jabra-biz-1500-1559-0159", "headphones", {}],
+  ["Kingston NV2 SNV2S/250G HD-2748 SSD M.2 2280 NVMe PCIe Gen4 250GB", "KINGSTON", "computo/almacenamiento/ssd/m2-nvme/250gb-gen4/kingston-nv2-snv2s-250g", "storage", {}],
+  ["MSI Vector 17 HX AI A2XWIG-068MX NOT-10345 Core Ultra 9 RTX 5080", "MSI", "computo/laptops/gaming/17-pulgadas/qhd-240hz/rtx-5080/msi-vector-17-hx-ai-a2xwig-068mx", "laptops", {}],
+  ["Norton Small Business Premium 21456396 SWS-5708 10 dispositivos 1 ano", "NORTON", "software/seguridad/endpoint/norton-small-business-premium/10-dispositivos-1-ano/21456396", "software", {}],
+  ["Lexmark C780H1MG TONLXM1960 toner magenta alto rendimiento 10000 paginas", "LEXMARK", "impresion/consumibles/toner-laser/lexmark/c780/c780h1mg-magenta", "printers_scanners", {}],
+  ["SanDisk Extreme Portable SSD SDSSDE61-1T00-G25 DDUWSD2810 HD-2420 1TB", "SANDISK", "computo/almacenamiento/ssd/externos/usb-c/1tb/sandisk-extreme-sdssde61-1t00-g25", "storage", {}],
+  ["Epson DFX-9000 IMPEPS1140 impresora matriz de punto formato ancho 9 pines", "EPSON", "impresion/impresoras/matriz-punto/formato-ancho/9-pines/epson-dfx-9000", "printers_scanners", {}],
+  ["Aspel PRODL10F SOFAPL6120 PROD 5.0 10 usuarios adicionales fisico", "ASPEL", "software/licencias/aspel-prod/usuarios-adicionales/prod-5-10-usuarios/prodl10f", "software", {}],
+  ["Epcom Powerline PL-110-D12 FR-2013 bateria AGM ciclo profundo 12V 110Ah", "EPCOM POWERLINE", "energia/baterias-solares/agm-ciclo-profundo/12v-110ah/epcom-powerline-pl-110-d12", "power", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -320,6 +333,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch277Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch278Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
