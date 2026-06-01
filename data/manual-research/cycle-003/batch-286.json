@@ -1,0 +1,417 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b286-2026-06-01",
+  "cycle": 3,
+  "batch": 286,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0kxcga2yhizp2on",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Dell",
+        "name": "Dell Pro Slim Essential QVS1260 91M81 Core i5-14400 16GB 512GB Windows 11 Pro",
+        "description": "Desktop empresarial Dell Pro Slim Essential QVS1260, SKU 91M81/PC-6949, con Intel Core i5-14400, 16GB DDR5, SSD 512GB, Windows 11 Pro, formato slim, Wi-Fi 6, Ethernet Gigabit y garantia basica de 3 anos. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/support/manuals/en-us/dell-pro-qvs1260-slim-desktop/dell-pro-slim-essential-qvs1260-om/views-of-dell-pro-slim-essential-qvs1260?guid=guid-d3cb1479-5af9-4e2f-9a8b-416fc88c775d&lang=en-us",
+        "manualCategoryPath": "computo/desktops/slim-business/dell-pro-slim-essential/i5-14400-16gb-512gb/91m81",
+        "semanticCategoryPath": "computo/desktops/slim-business/dell-pro-slim-essential/i5-14400-16gb-512gb",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10477904"],
+        "documents": [
+          "https://www.dell.com/support/manuals/en-us/dell-pro-qvs1260-slim-desktop/dell-pro-slim-essential-qvs1260-om/views-of-dell-pro-slim-essential-qvs1260?guid=guid-d3cb1479-5af9-4e2f-9a8b-416fc88c775d&lang=en-us",
+          "https://www.delltechnologies.com/asset/en-us/products/desktops-and-all-in-ones/briefs-summaries/dell-pro-slim-and-tower-desktop-essential-product-brochure.pdf",
+          "https://intercompras.com/p/computadora-dell-pro-slim-essential-qvs1260-intel-core-i5-gb-ram-gb-ssd-449671",
+          "https://globaloffice.com.mx/app/detalle/producto/pcs/pc-dell-pro-essential-intel-core-i5-1440016-gb-ra/91m81"
+        ],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "PC-6949", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 14293.33, "currency": "MXN" }],
+        "specs": {
+          "model": "91M81",
+          "platform": "Dell Pro Slim Essential QVS1260",
+          "aliases": ["91M81", "PC-6949", "QVS1260", "QVS1260_I5RPLR16512PWPS_3W"],
+          "processor": "Intel Core i5-14400, 10 cores, up to 4.70 GHz",
+          "memory": "16GB DDR5 4800 MT/s",
+          "storage": "512GB M.2 NVMe SSD",
+          "operatingSystem": "Windows 11 Pro 64-bit",
+          "graphics": "Intel UHD Graphics 730",
+          "network": ["Gigabit Ethernet", "Wi-Fi 6", "Bluetooth"],
+          "formFactor": "Slim desktop",
+          "warranty": "3 anos garantia basica segun proveedor",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para PC-6949. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "PC-6949", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 14293.33, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Dell mantiene manual/ficha QVS1260; Intercompras y GlobalOffice publican SKU 91M81 con disponibilidad externa variable. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "303.5 x 95 x 293 mm", "weight": "3.49 kg minimo" },
+        "sourceRefs": [
+          { "title": "Dell Pro Slim Essential QVS1260 owner's manual", "type": "manufacturer_page", "url": "https://www.dell.com/support/manuals/en-us/dell-pro-qvs1260-slim-desktop/dell-pro-slim-essential-qvs1260-om/views-of-dell-pro-slim-essential-qvs1260?guid=guid-d3cb1479-5af9-4e2f-9a8b-416fc88c775d&lang=en-us" },
+          { "title": "Dell Pro Slim Essential brochure", "type": "manufacturer_pdf", "url": "https://www.delltechnologies.com/asset/en-us/products/desktops-and-all-in-ones/briefs-summaries/dell-pro-slim-and-tower-desktop-essential-product-brochure.pdf" },
+          { "title": "Intercompras Dell 91M81", "type": "retailer_specs", "url": "https://intercompras.com/p/computadora-dell-pro-slim-essential-qvs1260-intel-core-i5-gb-ram-gb-ssd-449671" },
+          { "title": "CVA feed PC-6949 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ky2v0fw1w1ucnh",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Hewlett Packard Enterprise",
+        "name": "HPE P06687-B21 DL20/ML30 Gen10 M.2 Dedicated iLO and Serial Port Kit",
+        "description": "Kit HPE P06687-B21 para servidores ProLiant DL20/ML30 Gen10 que agrega soporte M.2, puerto dedicado iLO y puerto serial/COM. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://partsurfer.hpe.com/Search.aspx?SearchText=P06687-B21",
+        "manualCategoryPath": "computo/servidores/accesorios/hpe/proliant-dl20-ml30-gen10/ilo-serial-port-kit-p06687-b21",
+        "semanticCategoryPath": "computo/servidores/accesorios/hpe/proliant-dl20-ml30-gen10",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10157111"],
+        "documents": [
+          "https://partsurfer.hpe.com/Search.aspx?SearchText=P06687-B21",
+          "https://www.hpe.com/psnow/downloadDoc/HPE%20ProLiant%20DL20%20Gen10%20Server%20%E2%80%93%20North%20America%20version-a00053820enus.pdf?deepLink=&form=false&hf=regular&id=a00053820enus.pdf&isFutureVersion=true&originalObjectName=&prelaunchSection=&preview=false&print=&r=&section=&softrollSection=&ver=3",
+          "https://www.redcorp.com/en/product/servers-miscellaneous-accessories/hewlett-packard-enterprise/hpe-dl20-ml30-gen10-m-2-ilo-com-port-kit-p06687-b21--p06687-b21/1171wu74"
+        ],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "AC-7806", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 114.46, "currency": "USD" }],
+        "specs": {
+          "model": "P06687-B21",
+          "aliases": ["P06687-B21", "AC-7806"],
+          "deviceType": "M.2/Dedicated iLO and Serial Port Kit",
+          "compatibleProducts": ["HPE ProLiant DL20 Gen10", "HPE ProLiant ML30 Gen10"],
+          "interfaces": ["M.2 card", "Dedicated iLO RJ45", "Serial/COM port"],
+          "compatibleChassisType": "Rack / tower ProLiant Gen10 segun modelo",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para AC-7806. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-7806", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 114.46, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "publicAvailabilitySignals": ["HPE PartSurfer identifica P06687-B21; Redcorp lo muestra como disponible bajo pedido. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "163.1 x 173 x 61 mm", "weight": "130 g" },
+        "sourceRefs": [
+          { "title": "HPE PartSurfer P06687-B21", "type": "manufacturer_page", "url": "https://partsurfer.hpe.com/Search.aspx?SearchText=P06687-B21" },
+          { "title": "HPE ProLiant DL20 Gen10 QuickSpecs", "type": "manufacturer_pdf", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%20ProLiant%20DL20%20Gen10%20Server%20%E2%80%93%20North%20America%20version-a00053820enus.pdf?deepLink=&form=false&hf=regular&id=a00053820enus.pdf&isFutureVersion=true&originalObjectName=&prelaunchSection=&preview=false&print=&r=&section=&softrollSection=&ver=3" },
+          { "title": "Redcorp HPE P06687-B21", "type": "retailer_specs", "url": "https://www.redcorp.com/en/product/servers-miscellaneous-accessories/hewlett-packard-enterprise/hpe-dl20-ml30-gen10-m-2-ilo-com-port-kit-p06687-b21--p06687-b21/1171wu74" },
+          { "title": "CVA feed AC-7806 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l25svllelppjvg",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Manhattan",
+        "name": "Manhattan 325684 cable USB 2.0 A macho a Micro-B macho 3 m negro",
+        "description": "Cable Manhattan 325684 USB 2.0 Hi-Speed, conector USB-A macho a Micro-B macho, 480 Mbps, longitud 3 m, color negro, contactos niquelados y blindaje. CTOnline/PB y CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-micro-b-device-cable-325684",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-3m/manhattan-325684",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-3m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9765496", "https://static.ctonline.mx/imagenes/CABITL2450/CABITL2450_full.jpg"],
+        "documents": ["https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-micro-b-device-cable-325684", "https://s3.amazonaws.com/assets.mhint/downloads/45385/325684_datasheet_spanish.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CABITL2450", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2.34, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "CB-939", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2.37, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "325684",
+          "aliases": ["325684", "CABITL2450", "CB-939", "0766623325684", "766623325684"],
+          "ean": "0766623325684",
+          "upc": "766623325684",
+          "usbStandard": "USB 2.0 Hi-Speed",
+          "connectors": ["USB-A macho", "Micro-B macho"],
+          "speed": "480 Mbps",
+          "length": "3 m / 10 ft",
+          "color": "Negro",
+          "contacts": "Niquelados",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CABITL2450 y CVA/PB reporta stock 0 para CB-939. CVA opera desde Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CABITL2450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2.34, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "CB-939", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 2.37, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Manhattan mantiene ficha y datasheet; la pagina oficial aparece como sold out. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "3 m de largo", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "Manhattan 325684 oficial", "type": "manufacturer_page", "url": "https://manhattanproducts.us/products/manhattan-en-hi-speed-usb-micro-b-device-cable-325684" },
+          { "title": "Manhattan 325684 datasheet espanol", "type": "manufacturer_pdf", "url": "https://s3.amazonaws.com/assets.mhint/downloads/45385/325684_datasheet_spanish.pdf" },
+          { "title": "CTOnline feed CABITL2450 y CVA feed CB-939 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l3adlppuz5kdso",
+      "research": {
+        "confidence": 0.89,
+        "brand": "EPCOM",
+        "name": "EPCOM EPTB10X PTZ bullet HD-TVI 2MP 1080p 10x IP66",
+        "description": "Camara PTZ bullet EPCOM EPTB10X con tecnologia HD-TVI/CVBS, resolucion 2MP 1080p, zoom optico 10x con lente motorizado 5.1-50 mm, gabinete metalico para exterior IP66 y control PTZ por Coaxitron. El proveedor la etiqueta con referencia Hikvision/CAMHKV1800; las fuentes publicas la publican como EPCOM EPTB10X. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.camarasmexico.com/Ptz-bullet-10x-de-zoom-hd-tvi1080p-eptb10x-EPTB10X%2C991_1523247680",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet-ptz/2mp-10x/epcom-eptb10x",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet-ptz/2mp-10x",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMHKV1800/CAMHKV1800_full.jpg"],
+        "documents": ["https://www.camarasmexico.com/Ptz-bullet-10x-de-zoom-hd-tvi1080p-eptb10x-EPTB10X%2C991_1523247680", "https://www.radiomex.mx/eptb10x/", "https://morphwifi.com/producto/epcom-eptb10x-ptz-bullet-hd-tvi-2-megapixel-1080p-exterior-ip66-10x-139920/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "CAMHKV1800", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 147.05, "currency": "USD" }],
+        "specs": {
+          "model": "EPTB10X",
+          "aliases": ["EPTB10X", "CAMHKV1800"],
+          "brandCorrection": "Proveedor/PB lo etiqueta como Hikvision; fuentes publicas mexicanas lo identifican como EPCOM EPTB10X compatible con DVR/interfaz Hikvision.",
+          "resolution": "2MP / 1080p",
+          "videoTechnology": ["HD-TVI", "CVBS"],
+          "sensor": "Sony 323 Exmor CMOS 1/3",
+          "lens": "5.1-50 mm motorizado",
+          "opticalZoom": "10x",
+          "minimumIllumination": "Color 0.2 lux @ F2; B/N 0.01 lux @ F2",
+          "imageFunctions": ["BLC", "dWDR", "ICR", "2D-NR", "Mirror", "Flip"],
+          "ptzRange": "Pan 255 grados, tilt -10 a 55 grados",
+          "ptzFunctions": "256 presets, 8 rutas de crucero, 4 patterns",
+          "protocol": "Coaxitron",
+          "ingressProtection": "IP66",
+          "power": "12V DC, max 12W",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CAMHKV1800. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CAMHKV1800", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 147.05, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["CamarasMexico muestra 1 en stock; Radiomex/MorphWifi lo muestran sin existencias. PB se conserva como autoridad operativa con stock 0."],
+          "sourceConflictNotes": ["Algunas fichas espejo dicen 'Nota: Sin IR' y tambien listan 'IR 60 m'; se conserva el conflicto como pendiente de confirmacion fisica."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "153 x 93 x 130 mm", "packageDimensions": "20 x 18 x 13 cm segun espejo", "packageWeight": "1.06 kg segun espejo" },
+        "sourceRefs": [
+          { "title": "CamarasMexico EPCOM EPTB10X", "type": "retailer_specs", "url": "https://www.camarasmexico.com/Ptz-bullet-10x-de-zoom-hd-tvi1080p-eptb10x-EPTB10X%2C991_1523247680" },
+          { "title": "Radiomex EPTB10X", "type": "retailer_specs", "url": "https://www.radiomex.mx/eptb10x/" },
+          { "title": "MorphWifi EPTB10X", "type": "retailer_specs", "url": "https://morphwifi.com/producto/epcom-eptb10x-ptz-bullet-hd-tvi-2-megapixel-1080p-exterior-ip66-10x-139920/" },
+          { "title": "CTOnline feed CAMHKV1800 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l445i94i500o0l",
+      "research": {
+        "confidence": 0.95,
+        "brand": "TP-Link",
+        "name": "TP-Link VIGI C340-W 4mm camara IP WiFi bullet 4MP full color",
+        "description": "Camara TP-Link VIGI C340-W de 4 mm, bullet exterior WiFi/cableada, 4MP, full color 24/7, IP66, H.265+, deteccion inteligente, audio bidireccional, ONVIF, ranura microSD y administracion por VIGI App/VMS. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.tp-link.com/no/business-networking/vigi-network-camera/vigi-c340-w/",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-full-color/tp-link-vigi-c340-w-4mm",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-full-color",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10431557"],
+        "documents": ["https://www.tp-link.com/no/business-networking/vigi-network-camera/vigi-c340-w/", "https://static.tp-link.com/upload/document-and-bulletins/2025/202507/20250725/VIGI%20C340-W%284mm%29%202.20%20Datasheet.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "CV-1834", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 50.0, "currency": "USD" }],
+        "specs": {
+          "model": "VIGI C340-W(4mm)",
+          "aliases": ["VIGI C340-W", "C340-W 4mm", "CV-1834"],
+          "resolution": "4MP",
+          "imageSensor": "1/3 inch progressive scan CMOS",
+          "lens": "4 mm",
+          "fieldOfView": "80 grados horizontal, 43.2 grados vertical, 94.2 grados diagonal",
+          "nightMode": "Full-color 24/7 con spotlight",
+          "wireless": "2.4 GHz WiFi 802.11n 2x2 MIMO",
+          "wiredNetwork": "RJ45 10/100 Mbps",
+          "videoCompression": ["H.265+", "H.265", "H.264+", "H.264"],
+          "smartDetection": ["Personas", "Movimiento", "Cruce de linea", "Intrusion de area", "Tamper"],
+          "audio": "Microfono y bocina integrados, audio bidireccional",
+          "storage": "Ranura microSD hasta 256GB",
+          "protocols": ["ONVIF", "RTSP"],
+          "ingressProtection": "IP66",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para CV-1834. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CV-1834", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 50.0, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["TP-Link mantiene ficha y datasheet VIGI C340-W; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "80 x 173 x 71 mm sin antenas", "weight": "no publicado en fuentes revisadas" },
+        "sourceRefs": [
+          { "title": "TP-Link VIGI C340-W oficial", "type": "manufacturer_page", "url": "https://www.tp-link.com/no/business-networking/vigi-network-camera/vigi-c340-w/" },
+          { "title": "TP-Link VIGI C340-W 4mm datasheet", "type": "manufacturer_pdf", "url": "https://static.tp-link.com/upload/document-and-bulletins/2025/202507/20250725/VIGI%20C340-W%284mm%29%202.20%20Datasheet.pdf" },
+          { "title": "CVA feed CV-1834 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l6ka1e7vuwo43b",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Sharp",
+        "name": "Sharp MX-B45NT toner negro original 30000 paginas",
+        "description": "Cartucho de toner negro Sharp MX-B45NT/MXB45NT para equipos Sharp MX-B350/B355/B376/B450/B455/B476, rendimiento aproximado de 30000 paginas. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://business.sharpusa.com/portals/0/downloads/Literature/MX_B355W_B455W_Spec_Sheet.pdf",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/sharp/mx-b45/mxb45nt-negro",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/sharp/mx-b45",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10448040"],
+        "documents": ["https://business.sharpusa.com/portals/0/downloads/Literature/MX_B355W_B455W_Spec_Sheet.pdf", "https://www.toner.com/productdetails/Sharp/Toner_Cartridge/MX-B45NT/128202.html"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "CN-5064", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1937.26, "currency": "MXN" }],
+        "specs": {
+          "model": "MX-B45NT",
+          "aliases": ["MX-B45NT", "MXB45NT", "CN-5064", "4974019934716"],
+          "ean": "4974019934716",
+          "color": "Negro",
+          "yield": "30000 paginas",
+          "compatibleModels": ["MX-B350P", "MX-B350W", "MX-B355W", "MX-B376W", "MX-B450P", "MX-B450W", "MX-B455W", "MX-B476W"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para CN-5064. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CN-5064", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 1937.26, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Sharp lista MX-B45NT como suministro para MX-B355W/B455W; Toner.com mantiene ficha de consumible. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicado", "weight": "580 g de contenido segun ficha de toner" },
+        "sourceRefs": [
+          { "title": "Sharp MX-B355W/B455W spec sheet", "type": "manufacturer_pdf", "url": "https://business.sharpusa.com/portals/0/downloads/Literature/MX_B355W_B455W_Spec_Sheet.pdf" },
+          { "title": "Toner.com Sharp MX-B45NT", "type": "retailer_specs", "url": "https://www.toner.com/productdetails/Sharp/Toner_Cartridge/MX-B45NT/128202.html" },
+          { "title": "CVA feed CN-5064 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0l8upxta9bpazgu",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Nextep",
+        "name": "Nextep NE-450C cable HDMI de alta velocidad 5 m negro",
+        "description": "Cable HDMI Nextep NE-450C de alta velocidad, HDMI A macho a HDMI A macho, 5 metros, color negro, con soporte 4K a 24Hz segun ficha de Cyberpuerta. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.cyberpuerta.mx/Computo-Hardware/Cables/Cables-de-Audio-Video/Cables-de-Audio-Video-HDMI/Nextep-Cable-HDMI-de-Alta-Velocidad-NE-450C-HDMI-A-Macho-HDMI-A-Macho-4K-24Hz-5-Metros-Negro.html",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m/nextep-ne-450c",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNEX1330/ACCNEX1330_full.jpg"],
+        "documents": ["https://www.cyberpuerta.mx/Computo-Hardware/Cables/Cables-de-Audio-Video/Cables-de-Audio-Video-HDMI/Nextep-Cable-HDMI-de-Alta-Velocidad-NE-450C-HDMI-A-Macho-HDMI-A-Macho-4K-24Hz-5-Metros-Negro.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCNEX1330", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 55.66, "currency": "MXN" }],
+        "specs": {
+          "model": "NE-450C",
+          "aliases": ["NE-450C", "ACCNEX1330"],
+          "cableType": "HDMI de alta velocidad",
+          "connectors": ["HDMI A macho", "HDMI A macho"],
+          "length": "5 m",
+          "videoSupport": "4K 24Hz segun retailer",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCNEX1330. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCNEX1330", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 55.66, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta mantiene ficha exacta NE-450C; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "5 m de largo", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Nextep NE-450C", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Cables/Cables-de-Audio-Video/Cables-de-Audio-Video-HDMI/Nextep-Cable-HDMI-de-Alta-Velocidad-NE-450C-HDMI-A-Macho-HDMI-A-Macho-4K-24Hz-5-Metros-Negro.html" },
+          { "title": "CTOnline feed ACCNEX1330 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0letvfvebqndcg4",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Belden",
+        "name": "Belden AX101309 jack modular RJ45 Cat5e KeyConnect blanco",
+        "description": "Jack modular Belden AX101309 RJ45 Cat5e KeyConnect color blanco/electric white, compatible T568A/B, faceplates/adaptadores/paneles KeyConnect y aplicaciones TIA Cat5e/ISO Class D/1000BASE-T. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://catalog.belden.com/techdata/EN/CAT5EKEYCONNECTJACKS_techdata.pdf",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/belden-ax101309",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat5e",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCBEL530/ACCBEL530_3_full.jpg"],
+        "documents": ["https://catalog.belden.com/techdata/EN/CAT5EKEYCONNECTJACKS_techdata.pdf", "https://www.graybar.com/keyconnect174-style-cat-5e-modular-jack-white/p/99722882", "https://www.mactoner.com.mx/producto/conector-jack-belden-ax101309-blanco/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCBEL530", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 4.69, "currency": "USD" }],
+        "specs": {
+          "model": "AX101309",
+          "aliases": ["AX101309", "ACCBEL530", "611589002486", "62857506288"],
+          "providerUpc": "611589002486",
+          "manufacturerUpc": "62857506288",
+          "upcConflictNote": "PB/proveedor reporta UPC 611589002486; Graybar/Codale reportan 62857506288 para AX101309.",
+          "connectorType": "RJ45 modular jack",
+          "category": "Cat5e",
+          "style": "KeyConnect",
+          "wiring": "T568A/T568B",
+          "color": "Electric white / blanco",
+          "packaging": "Single pack; Graybar tambien lista empaque de 50 por paquete",
+          "applications": ["IBDN System 1200", "TIA Category 5e", "ISO Class D", "1000BASE-T"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCBEL530. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBEL530", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4.69, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Belden publica datasheet de la familia; Graybar/Codale y MacToner mantienen fichas exactas. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1.29 x 0.88 x 0.64 in", "weight": "0.014 lb" },
+        "sourceRefs": [
+          { "title": "Belden CAT5E KeyConnect jacks datasheet", "type": "manufacturer_pdf", "url": "https://catalog.belden.com/techdata/EN/CAT5EKEYCONNECTJACKS_techdata.pdf" },
+          { "title": "Graybar Belden AX101309", "type": "retailer_specs", "url": "https://www.graybar.com/keyconnect174-style-cat-5e-modular-jack-white/p/99722882" },
+          { "title": "MacToner Belden AX101309", "type": "retailer_specs", "url": "https://www.mactoner.com.mx/producto/conector-jack-belden-ax101309-blanco/" },
+          { "title": "CTOnline feed ACCBEL530 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0lgu0d78ycfkiaw",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Kyocera",
+        "name": "Kyocera TK-5382Y toner amarillo original 10000 paginas",
+        "description": "Cartucho toner amarillo Kyocera TK-5382Y / 1T02Z0AUS0 para ECOSYS PA4000cx, MA4000cifx y MA4000cix, rendimiento aproximado de 10000 paginas. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://kyoceraconfigurator.com/configure?model=TASKalfa_MA4500ci_ECOSYS_MA4000cifx_MA4000cix_MA3500cifx",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-5382/tk-5382y-amarillo",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/kyocera/tk-5382",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TONKYC2300/TONKYC2300_full.jpg"],
+        "documents": ["https://kyoceraconfigurator.com/configure?model=TASKalfa_MA4500ci_ECOSYS_MA4000cifx_MA4000cix_MA3500cifx", "https://www.toner.com/productdetails/Kyocera_Mita/Toner_Cartridge/TK-5382Y/145961.html", "https://www.sundatasupply.com/product-detail/kyocera-tk-5382y-1t02z0aus0/ma4000cix"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "TONKYC2300", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 133.33, "currency": "USD" }],
+        "specs": {
+          "model": "TK-5382Y",
+          "partNumber": "1T02Z0AUS0",
+          "aliases": ["TK-5382Y", "TK5382Y", "1T02Z0AUS0", "TONKYC2300"],
+          "color": "Amarillo",
+          "yield": "10000 paginas",
+          "compatibleModels": ["ECOSYS PA4000cx", "ECOSYS MA4000cifx", "ECOSYS MA4000cix"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para TONKYC2300. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TONKYC2300", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 133.33, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Kyocera Product Configurator lista TK-5382Y; Toner.com y Sun Data Supply publican compatibilidad y rendimiento. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicado", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Kyocera Product Configurator TK-5382Y", "type": "manufacturer_page", "url": "https://kyoceraconfigurator.com/configure?model=TASKalfa_MA4500ci_ECOSYS_MA4000cifx_MA4000cix_MA3500cifx" },
+          { "title": "Toner.com Kyocera TK-5382Y", "type": "retailer_specs", "url": "https://www.toner.com/productdetails/Kyocera_Mita/Toner_Cartridge/TK-5382Y/145961.html" },
+          { "title": "Sun Data Supply Kyocera TK-5382Y", "type": "retailer_specs", "url": "https://www.sundatasupply.com/product-detail/kyocera-tk-5382y-1t02z0aus0/ma4000cix" },
+          { "title": "CTOnline feed TONKYC2300 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ll03m56uhy8r2s",
+      "research": {
+        "confidence": 0.94,
+        "brand": "GHIA",
+        "name": "GHIA CTG80N caja de rollos de papel termico 80x70 mm 50 piezas",
+        "description": "Caja GHIA CTG80N con 50 rollos de papel termico blanco de 80 x 70 mm para impresoras POS de 80 mm, reaccion negra, uso en tickets y comprobantes. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://tienda.ghia.com.mx/producto/caja-rollo-de-papel-termico-ghia-80x70-mm-50-piezas-80-mm-modelo-ctg80n/",
+        "manualCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70/ghia-ctg80n-50p",
+        "semanticCategoryPath": "punto-de-venta/consumibles/rollos-termicos/80x70",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10225614"],
+        "documents": ["https://tienda.ghia.com.mx/producto/caja-rollo-de-papel-termico-ghia-80x70-mm-50-piezas-80-mm-modelo-ctg80n/", "https://globaloffice.com.mx/app/detalle/producto/consumibles/caja-rollo-papel-termico-ghia-80x70-mm-50-piezas/ctg80n", "https://compuviper.mx/tienda/producto/ghia-ctg80n-paquete-rollo-papel-termico-80x70-mm-para-impresoras-de-80mm-reaccion-negro-50-unidades/"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "CN-4143", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 766.58, "currency": "MXN" }],
+        "specs": {
+          "model": "CTG80N",
+          "aliases": ["CTG80N", "CN-4143", "7503031161403"],
+          "upc": "7503031161403",
+          "paperType": "Termico",
+          "paperColor": "Blanco",
+          "reactionColor": "Negro",
+          "rollSize": "80 x 70 mm",
+          "printerCompatibility": "Impresoras termicas/POS de 80 mm",
+          "packContent": "50 rollos",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para CN-4143. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CN-4143", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 766.58, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "publicAvailabilitySignals": ["Tienda Ghia muestra agotado; GlobalOffice publica ficha y Compuviper muestra disponibilidad por sucursal. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "rollo 80 x 70 mm", "packageDimensions": "17.5 x 36.5 x 36.5 cm segun espejo", "packageWeight": "10 kg segun espejo" },
+        "sourceRefs": [
+          { "title": "Tienda Ghia CTG80N", "type": "manufacturer_page", "url": "https://tienda.ghia.com.mx/producto/caja-rollo-de-papel-termico-ghia-80x70-mm-50-piezas-80-mm-modelo-ctg80n/" },
+          { "title": "GlobalOffice GHIA CTG80N", "type": "retailer_specs", "url": "https://globaloffice.com.mx/app/detalle/producto/consumibles/caja-rollo-papel-termico-ghia-80x70-mm-50-piezas/ctg80n" },
+          { "title": "Compuviper GHIA CTG80N", "type": "retailer_specs", "url": "https://compuviper.mx/tienda/producto/ghia-ctg80n-paquete-rollo-papel-termico-80x70-mm-para-impresoras-de-80mm-reaccion-negro-50-unidades/" },
+          { "title": "CVA feed CN-4143 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    }
+  ]
+}

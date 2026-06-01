@@ -326,6 +326,19 @@ const batch285Cases = [
   ["Clar Systems CSY010 DISCSY010 dispensador papel higienico Mini Innova rollo industrial 250mm", "CLAR SYSTEMS", "hogar/higiene/dispensadores-papel-higienico/rollo-industrial-250mm/clar-csy010", "accessories", {}],
 ] as const;
 
+const batch286Cases = [
+  ["Dell 91M81 PC-6949 Pro Slim Essential QVS1260 Core i5-14400 16GB 512GB SSD Windows 11 Pro", "DELL", "computo/desktops/slim-business/dell-pro-slim-essential/i5-14400-16gb-512gb/91m81", "desktops", {}],
+  ["HPE P06687-B21 AC-7806 iLO serial COM port kit ProLiant DL20 ML30 Gen10 M.2", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/accesorios/hpe/proliant-dl20-ml30-gen10/ilo-serial-port-kit-p06687-b21", "accessories", {}],
+  ["Manhattan 325684 CABITL2450 CB-939 cable USB 2.0 A macho a Micro-B 3m negro", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-3m/manhattan-325684", "accessories", {}],
+  ["EPCOM EPTB10X CAMHKV1800 PTZ bullet HD-TVI 2MP 10X IP66 metal compatible Hikvision", "EPCOM", "seguridad/cctv/camaras-turbohd/bullet-ptz/2mp-10x/epcom-eptb10x", "cameras", {}],
+  ["TP-Link VIGI C340-W 4MM CV-1834 camara IP bala WiFi 4MP full color IP66 H.265 ONVIF", "TP LINK", "seguridad/cctv/camaras-ip-wifi/bullet-exterior/4mp-full-color/tp-link-vigi-c340-w-4mm", "cameras", {}],
+  ["Sharp MXB45NT CN-5064 toner negro 30000 copias MX-B355W MX-B455W", "SHARP", "impresion/consumibles/toner-laser/sharp/mx-b45/mxb45nt-negro", "printers_scanners", {}],
+  ["Nextep NE-450C ACCNEX1330 cable HDMI macho macho 5m negro", "NEXTEP", "accesorios/cables-adaptadores/video-hdmi/alta-velocidad/5m/nextep-ne-450c", "accessories", {}],
+  ["Belden AX101309 ACCBEL530 jack keystone RJ45 Cat5e blanco 611589002486", "BELDEN", "redes/cableado-estructurado/conectores-keystone/rj45-cat5e/belden-ax101309", "networking", {}],
+  ["Kyocera TK-5382Y TONKYC2300 toner amarillo 10000 paginas ECOSYS PA4000cx MA4000cifx", "KYOCERA", "impresion/consumibles/toner-laser/kyocera/tk-5382/tk-5382y-amarillo", "printers_scanners", {}],
+  ["GHIA CTG80N CN-4143 rollo papel termico 80x70 mm paquete 50 unidades", "GHIA", "punto-de-venta/consumibles/rollos-termicos/80x70/ghia-ctg80n-50p", "printers_scanners", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -472,6 +485,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch285Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch286Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
