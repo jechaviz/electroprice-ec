@@ -1,0 +1,395 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b283-2026-06-01",
+  "cycle": 3,
+  "batch": 283,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0icuqfyb0228ebk",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Lexmark",
+        "name": "Toner Lexmark E360H11L negro alto rendimiento 9000 paginas",
+        "description": "Cartucho original Lexmark E360H11L negro de alto rendimiento para impresoras laser monocromaticas serie E360/E460, rendimiento aproximado de 9000 paginas ISO/IEC 19752. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.lexmark.com/es_xl/printers/supply/4513/Cartucho-de-toner-del-programa-de-devolucion-para-9000-pagin",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/lexmark/e360/e360h11l",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/lexmark/e360",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TONLXM1400/TONLXM1400_full.jpg", "https://media.lexmark.com/www/product/small/04/4513.jpg"],
+        "documents": ["https://www.lexmark.com/es_xl/printers/supply/4513/Cartucho-de-toner-del-programa-de-devolucion-para-9000-pagin"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "TONLXM1400", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 211.26, "currency": "USD" }],
+        "specs": {
+          "model": "E360H11L",
+          "aliases": ["E360H11L", "TONLXM1400", "734646064699"],
+          "upc": "734646064699",
+          "productType": "Cartucho toner laser original",
+          "color": "Negro",
+          "yield": "9000 paginas ISO/IEC 19752",
+          "program": "Lexmark Return Program",
+          "compatibleSeries": ["Lexmark E360", "Lexmark E460"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para TONLXM1400. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TONLXM1400", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 211.26, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Lexmark mantiene ficha activa; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "packageDimensions": "181 x 399 x 137 mm", "packageWeight": "0.915 kg" },
+        "sourceRefs": [
+          { "title": "Lexmark E360H11L oficial", "type": "manufacturer_page", "url": "https://www.lexmark.com/es_xl/printers/supply/4513/Cartucho-de-toner-del-programa-de-devolucion-para-9000-pagin" },
+          { "title": "CTOnline feed TONLXM1400 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0idp9pmnp420hi0",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HPE",
+        "name": "Disco duro HPE P28505-B21 2TB SAS 12G 7.2K SFF BC 512e",
+        "description": "Disco duro HPE P28505-B21 Business Critical de 2TB, SAS 12G, 7200 rpm, formato SFF 2.5 pulgadas con Basic Carrier y sector 512e para servidores HPE. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://partsurfer.hpe.com/Search.aspx?SearchText=P28505-B21",
+        "manualCategoryPath": "computo/servidores/componentes/discos-hdd/sas-12g-sff-2tb/hpe-p28505-b21",
+        "semanticCategoryPath": "computo/servidores/componentes/discos-hdd/sas-12g-sff-2tb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10349152", "https://partsurfer.hpe.com/ShowPhoto.aspx?partnumber=P30575-001"],
+        "documents": ["https://partsurfer.hpe.com/Search.aspx?SearchText=P28505-B21", "https://www.hpe.com/psnow/downloadDoc/HPE%2BHard%2BDisk%2BDrives%2BQuickSpecs-a00001287enw.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "HD-2782", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 515.97, "currency": "USD" }],
+        "specs": {
+          "model": "P28505-B21",
+          "aliases": ["P28505-B21", "HD-2782", "P30575-001"],
+          "capacity": "2TB",
+          "interface": "SAS 12G",
+          "rotationSpeed": "7200 rpm",
+          "formFactor": "SFF 2.5 pulgadas",
+          "carrier": "Basic Carrier",
+          "sectorFormat": "512e",
+          "class": "Business Critical",
+          "warranty": "1 ano",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para HD-2782. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "HD-2782", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 515.97, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["HPE PartSurfer identifica la parte; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "15.6 x 75.7 x 118.7 mm drive", "packageDimensions": "14.61 x 22.23 x 13.97 cm", "weight": "0.5 kg" },
+        "sourceRefs": [
+          { "title": "HPE PartSurfer P28505-B21", "type": "manufacturer_page", "url": "https://partsurfer.hpe.com/Search.aspx?SearchText=P28505-B21" },
+          { "title": "HPE HDD QuickSpecs", "type": "manufacturer_datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%2BHard%2BDisk%2BDrives%2BQuickSpecs-a00001287enw.pdf" },
+          { "title": "CVA feed HD-2782 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ijnti669u87imf",
+      "research": {
+        "confidence": 0.94,
+        "brand": "ADATA",
+        "name": "SSD externo ADATA SD810 1TB USB-C negro",
+        "description": "SSD externo ADATA SD810 de 1TB en color negro, USB 3.2 Gen2x2 Type-C de 20Gbps, hasta 2000 MB/s en lectura y escritura, resistencia IP68 y prueba de caida MIL-STD-810G 516.6. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.adata.com/en/consumer/category/12/external-solid-state-drive-sd810/",
+        "manualCategoryPath": "computo/almacenamiento/ssd/externos/usb-c/1tb/adata-sd810-1000g-cbk",
+        "semanticCategoryPath": "computo/almacenamiento/ssd/externos/usb-c/1tb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10436582"],
+        "documents": ["https://www.adata.com/en/consumer/category/12/external-solid-state-drive-sd810/", "https://webapi3.adata.com/storage/downloadfile/datasheet_sd810_external_solid_state_drive_v2.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "HD-3201", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 137.64, "currency": "USD" }],
+        "specs": {
+          "model": "SD810-1000G-CBK",
+          "aliases": ["SD810-1000G-CBK", "HD-3201", "4711085945754"],
+          "ean": "4711085945754",
+          "capacity": "1TB",
+          "interface": "USB 3.2 Gen2x2 Type-C 20Gbps",
+          "speed": "hasta 2000 MB/s lectura y escritura",
+          "protection": ["IP68", "MIL-STD-810G 516.6"],
+          "compatibility": ["Windows", "macOS", "Android", "PS5", "Xbox"],
+          "color": "Negro",
+          "warranty": "3 anos limitada",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para HD-3201. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "HD-3201", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 137.64, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["ADATA mantiene ficha vigente; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "72.7 x 44 x 12.24 mm", "weight": "41.7 g" },
+        "sourceRefs": [
+          { "title": "ADATA SD810 oficial", "type": "manufacturer_page", "url": "https://www.adata.com/en/consumer/category/12/external-solid-state-drive-sd810/" },
+          { "title": "ADATA SD810 datasheet", "type": "manufacturer_datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_sd810_external_solid_state_drive_v2.pdf" },
+          { "title": "CVA feed HD-3201 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ik8ukk1bd44m1v",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Dahua Technology",
+        "name": "NVR Dahua DHI-NVR4108HS-8P-4KS3 8 canales IP 8 PoE 4K",
+        "description": "Grabador NVR Dahua DHI-NVR4108HS-8P-4KS3 para 8 camaras IP con 8 puertos PoE, salida HDMI 4K, una bahia SATA hasta 20TB, H.265/H.265+/H.264 y funciones AI SMD en 4 canales. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/network-products/network-recorders/lite-series/nvr4-4ks3-series/nvr4108-8p-4ks3",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/8-canales-4k/dahua-dhi-nvr4108hs-8p-4ks3",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/8-canales-4k",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NVRDAH700/NVRDAH700_full.jpg", "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_23_15696/ProductImage/1_0_01_23_15696_511732655_crop.png", "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_23_15696/ProductImage/1_0_01_23_15696_511732656_crop.png"],
+        "documents": ["https://www.dahuasecurity.com/products/network-products/network-recorders/lite-series/nvr4-4ks3-series/nvr4108-8p-4ks3", "https://www.tme.com/au/en/details/6923172573827/cctv-monitoring-systems/dahua/nvr4108hs-8p-4ks3/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "NVRDAH700", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 128.94, "currency": "USD" }],
+        "specs": {
+          "model": "DHI-NVR4108HS-8P-4KS3",
+          "aliases": ["DHI-NVR4108HS-8P-4KS3", "NVRDAH700", "6923172573827"],
+          "ean": "6923172573827",
+          "channels": "8 canales IP",
+          "poePorts": "8 puertos PoE",
+          "cameraResolution": "hasta 12MP",
+          "videoOutput": "HDMI 4K",
+          "storage": "1 bahia SATA hasta 20TB",
+          "bandwidth": "160/160/80 Mbps incoming/recording/outgoing",
+          "codecs": ["H.265", "H.265+", "H.264"],
+          "ai": "SMD 4 canales",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para NVRDAH700. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "NVRDAH700", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 128.94, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Dahua mantiene ficha activa y TME lo muestra sin stock; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "270.0 x 206.3 x 45.9 mm", "weight": "0.69 kg neto", "packageWeight": "1.74 kg" },
+        "sourceRefs": [
+          { "title": "Dahua NVR4108HS-8P-4KS3 oficial", "type": "manufacturer_page", "url": "https://www.dahuasecurity.com/products/network-products/network-recorders/lite-series/nvr4-4ks3-series/nvr4108-8p-4ks3" },
+          { "title": "TME Dahua 6923172573827", "type": "retailer_specs", "url": "https://www.tme.com/au/en/details/6923172573827/cctv-monitoring-systems/dahua/nvr4108hs-8p-4ks3/" },
+          { "title": "CTOnline feed NVRDAH700 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0in6jgzcy72z1nj",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Logitech",
+        "name": "Sistema de videoconferencia Logitech Rally Bar 4K grafito",
+        "description": "Barra de video all-in-one Logitech Rally Bar 960-001308 para salas medianas y grandes, camara 4K con zoom HD 15x, PTZ motorizado, 6 microfonos beamforming y 2 bocinas integradas. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.logitech.com/en-ca/products/video-conferencing/room-solutions/rallybar.960-001308.html",
+        "manualCategoryPath": "colaboracion/video-conferencia/barras-video/usb-4k/logitech-rally-bar-960-001308",
+        "semanticCategoryPath": "colaboracion/video-conferencia/barras-video/usb-4k",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10365662", "https://resource.logitech.com/w_692%2Cc_lpad%2Car_4%3A3%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/video-conferencing/rally-bar/buy/gallery/rally-bar-taa-complaint-01.png?v=1", "https://resource.logitech.com/w_692%2Cc_lpad%2Car_4%3A3%2Cq_auto%2Cf_auto%2Cdpr_1.0/d_transparent.gif/content/dam/logitech/en/products/video-conferencing/rally-bar/buy/gallery/rally-bar-graphite-02.png?v=1"],
+        "documents": ["https://www.logitech.com/en-ca/products/video-conferencing/room-solutions/rallybar.960-001308.html"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "VIC-83", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 91367.64, "currency": "MXN" }],
+        "specs": {
+          "model": "960-001308",
+          "aliases": ["960-001308", "VIC-83", "Rally Bar"],
+          "productType": "Sistema de videoconferencia all-in-one",
+          "video": "4K/1440p/1080p/720p a 30 fps",
+          "zoom": "HD 15x",
+          "cameraControl": "PTZ motorizado",
+          "microphones": "6 microfonos beamforming",
+          "speakers": "2 bocinas integradas",
+          "roomSize": "Salas medianas y grandes",
+          "color": "Grafito",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para VIC-83. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "VIC-83", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 91367.64, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Logitech muestra compra via reseller/contacto; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "910 x 164 x 130.5 mm", "weight": "7.08 kg" },
+        "sourceRefs": [
+          { "title": "Logitech Rally Bar oficial", "type": "manufacturer_page", "url": "https://www.logitech.com/en-ca/products/video-conferencing/room-solutions/rallybar.960-001308.html" },
+          { "title": "CVA feed VIC-83 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ipjv5vzyeg4dyj",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Acer",
+        "name": "Monitor Acer E200Q bi 19.5 pulgadas HD+ 75 Hz negro",
+        "description": "Monitor Acer E200Q bi de 19.5 pulgadas con resolucion HD+ 1600 x 900, 75Hz, tiempo de respuesta 6ms GTG, panel TN, entradas HDMI 1.4 y VGA, montaje VESA 100 x 100 y color negro. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.acer.com/br-pt/monitors/essential/e0/pdp/UM.IE0AA.005",
+        "manualCategoryPath": "computo/monitores/oficina/19-5-hd/acer-e200q-bi",
+        "semanticCategoryPath": "computo/monitores/oficina/19-5-hd",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MONACR1650/MONACR1650_full.jpg", "https://www.grupocva.com/detalle_articulo/10389132.jpg"],
+        "documents": ["https://www.acer.com/br-pt/monitors/essential/e0/pdp/UM.IE0AA.005", "https://xentra.glomastore.mx/img/productos/pdf/ACE-UM.IE0AA.001.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "MONACR1650", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1268.82, "currency": "MXN" }],
+        "specs": {
+          "model": "E200Q bi",
+          "aliases": ["E200Q bi", "MONACR1650", "UM.IE0AA.001", "195133198325"],
+          "upc": "195133198325",
+          "screenSize": "19.5 pulgadas",
+          "resolution": "1600 x 900 HD+",
+          "refreshRate": "75 Hz",
+          "responseTime": "6 ms GTG",
+          "panel": "TN",
+          "ports": ["HDMI 1.4", "VGA"],
+          "vesa": "100 x 100 mm",
+          "speakers": "sin bocinas",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para MONACR1650. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "MONACR1650", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1268.82, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Global Office MX muestra precio en proceso/proxima disponibilidad; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "468.7 x 372.6 x 210.8 mm con base", "weight": "2.0 kg con base" },
+        "sourceRefs": [
+          { "title": "Acer E200Q oficial", "type": "manufacturer_page", "url": "https://www.acer.com/br-pt/monitors/essential/e0/pdp/UM.IE0AA.005" },
+          { "title": "Acer E200Q MX PDF", "type": "distributor_datasheet", "url": "https://xentra.glomastore.mx/img/productos/pdf/ACE-UM.IE0AA.001.pdf" },
+          { "title": "CTOnline feed MONACR1650 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0iu7t3jdom6518k",
+      "research": {
+        "confidence": 0.94,
+        "brand": "StarTech.com",
+        "name": "Adaptador StarTech USB31CAADG USB-C macho a USB-A hembra USB 3.0",
+        "description": "Adaptador compacto StarTech USB31CAADG de USB-C macho a USB-A hembra, compatible USB 3.0/USB 3.2 Gen 1 a 5Gbps y Thunderbolt 3, con conector reversible. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.startech.com/en-us/cables/usb31caadg",
+        "manualCategoryPath": "computo/accesorios/adaptadores/usb-c-a-usb-a/usb-3/startech-usb31caadg",
+        "semanticCategoryPath": "computo/accesorios/adaptadores/usb-c-a-usb-a/usb-3",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10192800", "https://media.startech.com/cms/products/main/usb31caadg.main.jpg"],
+        "documents": ["https://www.startech.com/en-us/cables/usb31caadg", "https://media.startech.com/cms/pdfs/usb31caadg_datasheet.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "AC-8472", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 137.2, "currency": "MXN" }],
+        "specs": {
+          "model": "USB31CAADG",
+          "aliases": ["USB31CAADG", "AC-8472"],
+          "connectorA": "USB-C macho",
+          "connectorB": "USB-A hembra",
+          "usb": "USB 3.0 / USB 3.2 Gen 1",
+          "speed": "5 Gbps",
+          "compatibility": ["Thunderbolt 3", "USB-C host"],
+          "warranty": "2 anos",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para AC-8472. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-8472", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 137.2, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:07:29Z",
+          "publicAvailabilitySignals": ["StarTech USA muestra disponibilidad y Canada 0; fabricante indica version nueva disponible. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "3.2 x 2.2 x 0.88 cm", "weight": "6 g" },
+        "sourceRefs": [
+          { "title": "StarTech USB31CAADG oficial", "type": "manufacturer_page", "url": "https://www.startech.com/en-us/cables/usb31caadg" },
+          { "title": "StarTech USB31CAADG datasheet", "type": "manufacturer_datasheet", "url": "https://media.startech.com/cms/pdfs/usb31caadg_datasheet.pdf" },
+          { "title": "CVA feed AC-8472 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:07:29Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0iup8a8ee1onpad",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Quaroni",
+        "name": "Memoria USB Quaroni QUM-01 16GB USB 2.0 metalica",
+        "description": "Memoria USB Quaroni QUM-01 metalica de 16GB USB 2.0, compatible con Android, Windows y Mac. La fuente del proveedor contiene una descripcion cruzada de 32GB; se normaliza a 16GB porque QUM-01 corresponde a ese modelo y QUM-02 es 32GB. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://quaroni.mx/paginas/pagina-producto.php",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/usb-2-metalicas/quaroni-qum-01",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/16gb/usb-2-metalicas",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10362941", "https://www.grupocva.com/detalle_articulo/img_large.php?id=411735"],
+        "documents": ["https://quaroni.mx/paginas/pagina-producto.php"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "RAM-3943", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2.01, "currency": "USD" }],
+        "specs": {
+          "model": "QUM-01",
+          "aliases": ["QUM-01", "RAM-3943"],
+          "capacity": "16GB",
+          "interface": "USB tipo A",
+          "usb": "USB 2.0",
+          "material": "Metal",
+          "color": "Acero inoxidable / metalico",
+          "compatibility": ["Android", "Windows", "Mac"],
+          "formFactor": "Sin tapa, con llavero",
+          "dataQualityNote": "Proveedor menciona 32GB en descripcion secundaria; se conserva 16GB por MPN QUM-01 y titulo fuente.",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para RAM-3943. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "RAM-3943", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2.01, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Resellers MX muestran disponibilidad dispersa; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "weight": "5.7 g" },
+        "sourceRefs": [
+          { "title": "Quaroni pagina producto", "type": "manufacturer_page", "url": "https://quaroni.mx/paginas/pagina-producto.php" },
+          { "title": "Grupo Reysa Quaroni QUM-01", "type": "retailer_specs", "url": "https://www.gruporeysa.com.mx/producto/quaroni-qum-01/" },
+          { "title": "CVA feed RAM-3943 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0iv4by8xzo5sv2o",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Poliza Dell ProSupport Plus 5 anos para Latitude 3000 desde 1 ano Basic Onsite",
+        "description": "Upgrade de garantia Dell N_LATL2_N1_M5 para notebooks Latitude 3000: desde 1 ano Basic Onsite hacia 5 anos ProSupport Plus, con soporte 24x7xNext Business Day, diagnostico remoto, reparacion/reemplazo y retencion de disco segun ficha de servicio. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/latitude-3000/1y-basic-nbd-a-5y-prosupport-plus/n-latl2-n1-m5",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/latitude-3000/1y-basic-nbd-a-5y-prosupport-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10427635"],
+        "documents": ["https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs", "https://www.dell.com/content/dam/digitalassets/active/en/unauth/data-sheets/services/dell-prosupport-plus-for-pcs-datasheet-comm.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "POL-9451", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 8696.53, "currency": "MXN" }],
+        "specs": {
+          "model": "N_LATL2_N1_M5",
+          "aliases": ["N_LATL2_N1_M5", "POL-9451"],
+          "productType": "Servicio / upgrade de garantia",
+          "targetLine": "Dell Latitude notebooks 3000",
+          "upgradeFrom": "1 Year Basic Onsite",
+          "upgradeTo": "5 Year ProSupport Plus",
+          "serviceLevel": "24x7xNext Business Day",
+          "location": "On-site",
+          "includedSupport": ["Drive Retention", "Phone Support", "Remote Diagnosis", "Repair", "Replacement"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para POL-9451. Producto de servicio digital sin almacen fisico operativo por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-9451", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8696.53, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Tech-America lo muestra temporalmente sin stock/backorder; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "weight": "0 lb / no aplica", "dimensions": "no aplica, servicio" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_page", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "Dell ProSupport Plus for PCs datasheet", "type": "manufacturer_datasheet", "url": "https://www.dell.com/content/dam/digitalassets/active/en/unauth/data-sheets/services/dell-prosupport-plus-for-pcs-datasheet-comm.pdf" },
+          { "title": "Tech-America N_LATL2_N1_M5", "type": "retailer_availability", "url": "https://www.tech-america.com/item/dell-upgrade-from-1y-basic-onsite-to-5y-prosupport-plus/n-latl2-n1-m5" },
+          { "title": "CVA feed POL-9451 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0j1iyoga9amxxup",
+      "research": {
+        "confidence": 0.94,
+        "brand": "APC by Schneider Electric",
+        "name": "Cartucho de bateria APC APCRBC140 RBC 140 para Smart-UPS On-Line",
+        "description": "Cartucho de bateria de reemplazo APC APCRBC140/RBC 140 para Smart-UPS On-Line, bateria VRLA sellada de plomo-acido, 192V DC 5.1Ah, dos modulos y compatibilidad con SURTA3000XL, SRT5KXLT, SRT6KXLT, SRT8KXLT, SRT10KXLT, SURT15KRMXLT y SURT20KRMXLT. CTOnline/CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/APCRBC140/apc-replacement-battery-cartridge-for-smartups-online-192v-5-1ah-leadacid-battery-2year-repair-or-replace-warranty/",
+        "manualCategoryPath": "energia/baterias-ups/cartuchos-reemplazo/apc-apcrbc140",
+        "semanticCategoryPath": "energia/baterias-ups/cartuchos-reemplazo",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9616488", "https://download.schneider-electric.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=APC-LEAN-9J9Q25-01&p_File_Type=rendition_369_jpg"],
+        "documents": ["https://www.apc.com/us/en/product/APCRBC140/apc-replacement-battery-cartridge-for-smartups-online-192v-5-1ah-leadacid-battery-2year-repair-or-replace-warranty/", "https://www.se.com/us/en/download/document/SPD_JGNY-9A5DFN_EN/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "BATAPC350", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 555.19, "currency": "USD" }, { "wholesalerId": "cva", "sku": "FR-1013", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 556.1, "currency": "USD" }],
+        "specs": {
+          "model": "APCRBC140",
+          "aliases": ["APCRBC140", "RBC140", "BATAPC350", "FR-1013"],
+          "productType": "Cartucho de bateria de reemplazo UPS",
+          "batteryType": "VRLA / plomo-acido sellada",
+          "voltage": "192V DC",
+          "capacity": "5.1Ah",
+          "modules": "2 modulos por APCRBC140",
+          "warranty": "2 anos repair or replace",
+          "compatibleModels": ["SURTA3000XL", "SRT5KXLT", "SRT6KXLT", "SRT8KXLT", "SRT10KXLT", "SURT15KRMXLT", "SURT20KRMXLT"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para BATAPC350 y CVA/PB reporta stock 0 para FR-1013. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BATAPC350", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 555.19, "currency": "USD" }, { "providerId": "cva", "providerSku": "FR-1013", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 556.1, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Schneider/APC USA lo indica Non-Stock/no normalmente en distribucion; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "19.7 x 12.2 x 59.7 cm", "weight": "34.55 kg" },
+        "sourceRefs": [
+          { "title": "APC APCRBC140 oficial", "type": "manufacturer_page", "url": "https://www.apc.com/us/en/product/APCRBC140/apc-replacement-battery-cartridge-for-smartups-online-192v-5-1ah-leadacid-battery-2year-repair-or-replace-warranty/" },
+          { "title": "Schneider APCRBC140 datasheet", "type": "manufacturer_datasheet", "url": "https://www.se.com/us/en/download/document/SPD_JGNY-9A5DFN_EN/" },
+          { "title": "CTOnline feed BATAPC350 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed FR-1013 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

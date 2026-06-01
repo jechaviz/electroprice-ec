@@ -287,6 +287,19 @@ const batch282Cases = [
   ["TP-Link IES208G SWTTPL1460 NIC-5155 switch industrial Omada Easy Managed 8 puertos Gigabit", "TP LINK", "redes/switches/industriales/gigabit/8-puertos/omada-easy-managed/tp-link-ies208g", "networking", {}],
 ] as const;
 
+const batch283Cases = [
+  ["Lexmark E360H11L TONLXM1400 toner negro alto rendimiento 9000 paginas 734646064699", "LEXMARK", "impresion/consumibles/toner-laser/lexmark/e360/e360h11l", "printers_scanners", {}],
+  ["HPE P28505-B21 HD-2782 disco duro 2TB SAS 12G 7.2K SFF BC 512e", "HEWLETT PACKARD ENTERPRISE", "computo/servidores/componentes/discos-hdd/sas-12g-sff-2tb/hpe-p28505-b21", "storage", {}],
+  ["ADATA SD810-1000G-CBK HD-3201 SSD externo 1TB USB-C 2000 MB/s IP68 negro", "ADATA", "computo/almacenamiento/ssd/externos/usb-c/1tb/adata-sd810-1000g-cbk", "storage", {}],
+  ["Dahua DHI-NVR4108HS-8P-4KS3 NVRDAH700 NVR 8 canales 8 PoE 4K 6923172573827", "DAHUA TECHNOLOGY", "seguridad/cctv/dvr-nvr/nvr-poe/8-canales-4k/dahua-dhi-nvr4108hs-8p-4ks3", "cameras", {}],
+  ["Logitech Rally Bar 960-001308 VIC-83 sistema videoconferencia 4K 30fps 15x salas medianas grandes", "LOGITECH", "colaboracion/video-conferencia/barras-video/usb-4k/logitech-rally-bar-960-001308", "accessories", {}],
+  ["Acer E200Q bi MONACR1650 monitor 19.5 pulgadas 1600x900 75Hz HDMI VGA 195133198325", "ACER", "computo/monitores/oficina/19-5-hd/acer-e200q-bi", "monitors", {}],
+  ["StarTech USB31CAADG AC-8472 adaptador USB-C macho a USB-A hembra USB 3.1 Gen 1", "STARTECH.COM", "computo/accesorios/adaptadores/usb-c-a-usb-a/usb-3/startech-usb31caadg", "accessories", {}],
+  ["Quaroni QUM-01 RAM-3943 memoria USB 16GB USB 2.0 metalica compatible Android Windows Mac", "QUARONI", "computo/almacenamiento/memorias-flash/usb/16gb/usb-2-metalicas/quaroni-qum-01", "storage", {}],
+  ["Dell N_LATL2_N1_M5 POL-9451 Latitude 3000 1Y Basic NBD a 5Y ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/laptops/latitude-3000/1y-basic-nbd-a-5y-prosupport-plus/n-latl2-n1-m5", "software", {}],
+  ["APC APCRBC140 BATAPC350 FR-1013 replacement battery cartridge 140 Smart-UPS On-Line SRT5KXLT", "APC", "energia/baterias-ups/cartuchos-reemplazo/apc-apcrbc140", "power", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -415,6 +428,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch282Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch283Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
