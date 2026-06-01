@@ -1,0 +1,402 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b275-2026-06-01",
+  "cycle": 3,
+  "batch": 275,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0ag1jfy8pn4bz1k",
+      "research": {
+        "confidence": 0.95,
+        "brand": "CyberPower",
+        "name": "Charola deslizable CyberPower CRA50004 rack 19 pulgadas 1U 500mm",
+        "description": "Charola deslizable CyberPower CRA50004 para rack de 19 pulgadas, altura 1U, profundidad 500 mm, capacidad 20 kg, acero laminado en frio negro, montaje ajustable y herrajes incluidos. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/racks/rack-accessories/shelves/cra50004/",
+        "manualCategoryPath": "infraestructura/racks-accesorios/charolas/deslizables/1u-500mm-20kg/cyberpower-cra50004",
+        "semanticCategoryPath": "infraestructura/racks-accesorios/charolas/deslizables/1u-500mm-20kg",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpowersystems.com/wp-content/uploads/2026/01/cra50004-front-horizontal-left-photo-1-1024x1024.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10366832"],
+        "documents": ["https://images.salsify.com/image/upload/s--ePlHaNSz--/b8b4414f74cd1a623276425b82646db4e0cf39cf.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "AC-11072", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3938.07, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "CRA50004",
+          "upc": "0649532617210",
+          "productType": "Charola deslizable para rack",
+          "rackSize": "19 pulgadas, 1U",
+          "capacity": "20 kg / 45 lb",
+          "material": "Acero laminado en frio",
+          "mountingDepth": "55 a 99 cm ajustable",
+          "warranty": "5 anos",
+          "lifecycleStatus": "Pagina oficial CyberPower lo marca como discontinued; proveedor actual reporta stock 0.",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para AC-11072. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-11072", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3938.07, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "48.3 x 4.4 x 50.0 cm", "weight": "5.8 kg", "packageDimensions": "8.5 x 58.5 x 60.5 cm", "packageWeight": "6.5 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower CRA50004 product page", "type": "manufacturer_product", "url": "https://www.cyberpowersystems.com/product/racks/rack-accessories/shelves/cra50004/" },
+          { "title": "CyberPower CRA50004 datasheet", "type": "manufacturer_datasheet", "url": "https://images.salsify.com/image/upload/s--ePlHaNSz--/b8b4414f74cd1a623276425b82646db4e0cf39cf.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0agdgbn57vjfk0j",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Yaber",
+        "name": "Proyector smart Yaber U12 1080p FHD Dolby Wi-Fi 6",
+        "description": "Proyector smart Yaber U12 con sistema Linux, apps de streaming, resolucion nativa 1080p, Dolby Audio, autofocus, auto keystone, soporte con asa desmontable, Wi-Fi 6 y Bluetooth 5.2. El proveedor lo publica como 700 ANSI lumens; ficha oficial internacional indica 450 ISO lumens. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.yaber.com/collections/home-cinema/products/yaber-projector-u12-home-cinema",
+        "manualCategoryPath": "video/proyectores/portatiles/1080p-smart/700-ansi/yaber-u12",
+        "semanticCategoryPath": "video/proyectores/portatiles/1080p-smart/700-ansi",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.yaber.com/cdn/shop/files/U12_1x_c3966caa-b32a-46b4-9026-25994b938128.jpg?v=1753255946&width=416", "https://static.ctonline.mx/imagenes/PROYAB060/PROYAB060_6_full.jpg"],
+        "documents": ["https://cdn.shopify.com/s/files/1/0277/1160/2768/files/Yaber_U12____240515.pdf?v=1721812636"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "PROYAB060", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 166.77, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "U12",
+          "upc": "198168706589",
+          "productType": "Proyector smart portatil",
+          "nativeResolution": "1920 x 1080 FHD",
+          "brightness": "Proveedor MX: 700 ANSI lumens; ficha oficial internacional: 450 ISO lumens",
+          "audio": "Dolby Audio, bocinas 20W",
+          "focus": "Autofocus",
+          "keystone": "Auto keystone",
+          "wireless": ["Wi-Fi 6", "Bluetooth 5.2"],
+          "operatingSystem": "Linux smart OS",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para PROYAB060. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "PROYAB060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 166.77, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "25 x 22.5 x 19.3 cm", "weight": "3.3 kg con base" },
+        "sourceRefs": [
+          { "title": "Yaber U12 product page", "type": "manufacturer_product", "url": "https://www.yaber.com/collections/home-cinema/products/yaber-projector-u12-home-cinema" },
+          { "title": "Yaber U12 user manual", "type": "manufacturer_datasheet", "url": "https://cdn.shopify.com/s/files/1/0277/1160/2768/files/Yaber_U12____240515.pdf?v=1721812636" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ah3vljm9crjuqo",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Corsair",
+        "name": "Audifonos gaming Corsair HS80 RGB USB CA-9011237-NA carbon",
+        "description": "Audifonos gaming alambricos Corsair HS80 RGB USB CA-9011237-NA color carbon, audio USB 24-bit/96 kHz, Dolby Audio 7.1, drivers de neodimio de 50 mm, microfono omnidireccional flip-to-mute, RGB e integracion iCUE. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011237-na/hs80-rgb-usb-wired-gaming-headset-carbon-ca-9011237-na",
+        "manualCategoryPath": "audio/audifonos/usb/gaming-7-1/corsair-hs80-rgb-usb-ca-9011237-na",
+        "semanticCategoryPath": "audio/audifonos/usb/gaming-7-1",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://assets.corsair.com/image/upload/c_pad%2Cq_85%2Ch_1100%2Cw_1100%2Cf_auto/products/Gaming-Headsets/base-hs80-rgb-usb-config/Gallery/HS80_RGB_USB_BLACK_01.webp", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10415872"],
+        "documents": ["https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/AP_HS80_RGB_USB_QSG_AB.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SPK-2469", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 69.76, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "CA-9011237-NA",
+          "productLine": "HS80 RGB USB",
+          "productType": "Audifonos gaming USB",
+          "audio": "Dolby Audio 7.1 surround, USB 24-bit/96 kHz",
+          "drivers": "50 mm neodimio",
+          "frequencyResponse": "20 Hz - 40 kHz",
+          "microphone": "Omnidireccional flip-to-mute",
+          "lighting": "RGB",
+          "software": "Corsair iCUE",
+          "cableLength": "1.8 m",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SPK-2469. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SPK-2469", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 69.76, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "No publicado", "weight": "0.371 kg" },
+        "sourceRefs": [
+          { "title": "Corsair HS80 RGB USB", "type": "manufacturer_product", "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011237-na/hs80-rgb-usb-wired-gaming-headset-carbon-ca-9011237-na" },
+          { "title": "Corsair HS80 RGB USB quick start guide", "type": "manufacturer_datasheet", "url": "https://assets.corsair.com/image/upload/corsairmedia/sys_master/productcontent/AP_HS80_RGB_USB_QSG_AB.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0akefflw5ieavw7",
+      "research": {
+        "confidence": 0.94,
+        "brand": "HPE",
+        "name": "Servicio HPE Tech Care Essential H40J7E 5 anos ML350 Gen10",
+        "description": "Servicio HPE Tech Care Essential H40J7E por 5 anos para servidor ProLiant ML350 Gen10, soporte operacional HPE con acceso telefonico 24x7, expertos de producto, recursos digitales y respuesta onsite segun terminos del servicio. CVA reporta stock 0.",
+        "manufacturerUrl": "https://buy.hpe.com/uk/en/services-support/technology-services/hardware-software-combo-support-service/hpe-5-year-tech-care-essential-ml350-gen10-service/p/h40j7e",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/hpe-tech-care/servidores/proliant-ml350-gen10/h40j7e-5y-essential",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/hpe-tech-care/servidores/proliant-ml350-gen10",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://buy.hpe.com/medias/B2C-PRODUCT-FEATURE-22744.jfif", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10274381"],
+        "documents": ["https://www.hpe.com/psnow/downloadDoc/HPE%20Tech%20Care%20Service%20%E2%80%93%20Operational%20support%20service-a00108652enw.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "POL-6583", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3586.4, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "H40J7E",
+          "sku": "POL-6583",
+          "productType": "Servicio de soporte HPE Tech Care",
+          "serviceLevel": "Tech Care Essential",
+          "term": "5 anos",
+          "coveredProduct": "HPE ProLiant ML350 Gen10",
+          "serviceFeatures": ["Acceso telefonico 24x7", "Expertos de producto", "Soporte digital", "Respuesta onsite segun terminos"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para POL-6583. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-6583", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3586.4, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Entrega digital/servicio", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "HPE H40J7E Tech Care Essential ML350 Gen10", "type": "manufacturer_product", "url": "https://buy.hpe.com/uk/en/services-support/technology-services/hardware-software-combo-support-service/hpe-5-year-tech-care-essential-ml350-gen10-service/p/h40j7e" },
+          { "title": "HPE Tech Care service brief", "type": "manufacturer_datasheet", "url": "https://www.hpe.com/psnow/downloadDoc/HPE%20Tech%20Care%20Service%20%E2%80%93%20Operational%20support%20service-a00108652enw.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0aqfpms8jg6aair",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Silimex",
+        "name": "Toallas humedas Silimex Sneakers Wipes para tenis 50 piezas",
+        "description": "Toallas humedas Silimex Sneakers Wipes para limpieza de tenis y calzado deportivo, envase con 50 piezas, formula neutra sin enjuague para superficies como piel, vinil, plastico y gamuza. CVA reporta stock 0.",
+        "manufacturerUrl": "https://globaloffice.mx/app/detalle/producto/consumibles/toallas-humedas-t-shoes-para-tenis-50-pzs-silimex/sneakers-wipes-50-pzas",
+        "manualCategoryPath": "hogar/limpieza/calzado/toallas-humedas/silimex-sneakers-wipes-50",
+        "semanticCategoryPath": "hogar/limpieza/calzado/toallas-humedas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10367092"],
+        "documents": ["https://globaloffice.mx/app/producto/pdf/sneakers-wipes-50-pzas"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CN-4679", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 81.74, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "SNEAKERS WIPES 50 PZAS",
+          "ean": "750300219683",
+          "productType": "Toallas humedas para calzado",
+          "presentation": "Bote con 50 toallas",
+          "application": ["Piel", "Vinil", "Plastico", "Gamuza"],
+          "formula": "Neutra, sin enjuague",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CN-4679. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CN-4679", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 81.74, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Envase compacto 50 piezas", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Silimex Sneakers Wipes 50", "type": "retailer_reference", "url": "https://globaloffice.mx/app/detalle/producto/consumibles/toallas-humedas-t-shoes-para-tenis-50-pzs-silimex/sneakers-wipes-50-pzas" },
+          { "title": "GlobalOffice PDF Sneakers Wipes 50", "type": "retailer_reference", "url": "https://globaloffice.mx/app/producto/pdf/sneakers-wipes-50-pzas" }
+        ]
+      }
+    },
+    {
+      "product_id": "0asgau3g6mlwed3",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Norton",
+        "name": "Licencia Norton 360 Standard 21443411 1 dispositivo 1 ano espanol",
+        "description": "Licencia Norton 360 Standard 21443411 para 1 dispositivo por 1 ano en espanol, con proteccion antivirus/malware, Secure VPN, administrador de contrasenas, copia de seguridad cloud para PC y proteccion contra estafas segun plan vigente. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://mx.norton.com/products/norton-360-standard",
+        "manualCategoryPath": "software/seguridad/antivirus/norton-360-standard/1-dispositivo-1-ano/21443411",
+        "semanticCategoryPath": "software/seguridad/antivirus/norton-360-standard/1-dispositivo-1-ano",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFNRT1740/SOFNRT1740_full.jpg"],
+        "documents": ["https://mx.norton.com/products/norton-360-standard"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SOFNRT1740", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 8.03, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "21443411",
+          "upc": "037648699471",
+          "productType": "Licencia antivirus",
+          "plan": "Norton 360 Standard",
+          "term": "1 ano",
+          "devices": "1 dispositivo",
+          "language": "Espanol",
+          "features": ["Proteccion contra malware/ransomware", "Secure VPN", "Administrador de contrasenas", "Copia de seguridad cloud PC"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SOFNRT1740. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SOFNRT1740", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8.03, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Entrega digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Norton 360 Standard Mexico", "type": "manufacturer_product", "url": "https://mx.norton.com/products/norton-360-standard" }
+        ]
+      }
+    },
+    {
+      "product_id": "0asyg15k8yflbgr",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Manhattan",
+        "name": "Cable Manhattan 325677 USB 2.0 A macho a Micro-B macho 0.5m negro",
+        "description": "Cable Manhattan 325677 Hi-Speed USB 2.0 con conector USB-A macho a Micro-B macho, 0.5 m, negro, transferencia hasta 480 Mbps, contactos niquelados, blindaje y alivio de tension moldeado. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://es.manhattanproducts.eu/products/manhattan-es-cable-para-dispositivos-usb-micro-b-de-alta-velocidad-325677",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-0-5m/manhattan-325677",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-0-5m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://manhattanproducts.us/cdn/shop/products/325677-Hi-Speed-USB-Micro-B-Device-Cable-01_1024x1024.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=2844686"],
+        "documents": ["https://www.manhattanshop.it/amfilerating/file/download/file_id/15642/"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CABITL2070", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1.31, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "CB-314", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1.33, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "325677",
+          "productType": "Cable USB 2.0",
+          "connectors": ["USB-A macho", "Micro-B macho"],
+          "length": "0.5 m / 1.5 ft",
+          "speed": "Hasta 480 Mbps",
+          "color": "Negro",
+          "contacts": "Niquelados",
+          "compatibility": ["Windows", "Mac"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CABITL2070; CVA/Electroprice reporta stock 0 para CB-314. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CABITL2070", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1.31, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "CB-314", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1.33, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "0.5 m de longitud", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Manhattan 325677 product page", "type": "manufacturer_product", "url": "https://es.manhattanproducts.eu/products/manhattan-es-cable-para-dispositivos-usb-micro-b-de-alta-velocidad-325677" },
+          { "title": "Manhattan 325677 data sheet", "type": "manufacturer_datasheet", "url": "https://www.manhattanshop.it/amfilerating/file/download/file_id/15642/" }
+        ]
+      }
+    },
+    {
+      "product_id": "0axw95nzoa78d2g",
+      "research": {
+        "confidence": 0.91,
+        "brand": "ESET",
+        "name": "Licencia ESET PROTECT Entry On-Premise TMESETL-360 3 anos",
+        "description": "Licencia ESET PROTECT Entry On-Premise TMESETL-360 por 3 anos para proteccion endpoint empresarial con consola local, endpoint protection y administracion centralizada ESET PROTECT. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.eset.com/mx/empresas/entry-protection-bundle/",
+        "manualCategoryPath": "software/seguridad/endpoint/eset/protect-entry/on-premise/3-anos/tmesetl-360",
+        "semanticCategoryPath": "software/seguridad/endpoint/eset/protect-entry/on-premise/3-anos",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFEST3360/SOFEST3360_full.jpg"],
+        "documents": ["https://help.eset.com/protect_install/12.1/en-US/requirements.html", "https://web-assets.eset.com/fileadmin/ESET/US/products/business/epa/eset-us-epa-overview.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SOFEST3360", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 9523.81, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "TMESETL-360",
+          "productType": "Licencia endpoint security empresarial",
+          "plan": "ESET PROTECT Entry On-Premise",
+          "term": "3 anos",
+          "deployment": "On-Premise",
+          "features": ["Endpoint protection", "Consola ESET PROTECT", "Administracion centralizada"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SOFEST3360. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SOFEST3360", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9523.81, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Entrega digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "ESET PROTECT Entry Mexico", "type": "manufacturer_product", "url": "https://www.eset.com/mx/empresas/entry-protection-bundle/" },
+          { "title": "ESET PROTECT On-Prem requirements", "type": "manufacturer_datasheet", "url": "https://help.eset.com/protect_install/12.1/en-US/requirements.html" },
+          { "title": "ESET business product overview", "type": "manufacturer_datasheet", "url": "https://web-assets.eset.com/fileadmin/ESET/US/products/business/epa/eset-us-epa-overview.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0b1zimdqhn8jr9a",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Canon",
+        "name": "Tanque de tinta Canon PFI-101MBK mate negro 130 ml 0882B001",
+        "description": "Tanque de tinta Canon PFI-101MBK mate negro 0882B001 de 130 ml para impresoras imagePROGRAF compatibles como iPF5000 e iPF6000S, parte del sistema de tinta pigmentada LUCIA para gran formato. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://store.canon.jp/online/g/g0882B001/",
+        "manualCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-101/130ml/pfi-101mbk-0882b001",
+        "semanticCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-101/130ml",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARCNN2600/CARCNN2600_full.jpg"],
+        "documents": ["https://canon.jp/support/supply/200529lfp-pfi-ink", "https://cweb.canon.jp/manual/imageprograf/ipf500-5000-600/ipf500-5000-600rg2.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CARCNN2600", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1630.7, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "PFI-101MBK",
+          "manufacturerPartNumber": "0882B001",
+          "productType": "Tanque de tinta pigmentada",
+          "color": "Matte Black / Negro mate",
+          "volume": "130 ml",
+          "inkSystem": "Canon LUCIA",
+          "compatibility": ["Canon imagePROGRAF iPF5000", "Canon imagePROGRAF iPF6000S"],
+          "lifecycleStatus": "Canon Japon indica fin de produccion de este tanque en 2020-12; proveedor actual reporta stock 0.",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CARCNN2600. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CARCNN2600", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1630.7, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "19.8 x 8.0 x 2.8 cm empaque de referencia", "weight": "0.18 kg empaque de referencia" },
+        "sourceRefs": [
+          { "title": "Canon Store Japan PFI-101MBK 0882B001", "type": "manufacturer_product", "url": "https://store.canon.jp/online/g/g0882B001/" },
+          { "title": "Canon large format PFI ink discontinuation notice", "type": "manufacturer_notice", "url": "https://canon.jp/support/supply/200529lfp-pfi-ink" },
+          { "title": "B&H Canon PFI-101MBK", "type": "retailer_reference", "url": "https://www.bhphotovideo.com/c/product/433080-REG/Canon_0882B001_PFI_101MBK_Matte_Black_Ink.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "0b4hrk0iwyt5n8h",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Epson",
+        "name": "Cartucho Epson T157320 UltraChrome K3 Vivid Magenta 157",
+        "description": "Cartucho original Epson T157320 serie 157 Vivid Magenta con tinta pigmentada UltraChrome K3 para Epson Stylus Photo R3000, resistente al agua, decoloracion y manchas segun la familia de tinta. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://epson.com/For-Home/Ink/Epson-157-Ink/i/T157320",
+        "manualCategoryPath": "impresion/consumibles/cartuchos-tinta/epson/ultrachrome-k3/157/t157320-vivid-magenta",
+        "semanticCategoryPath": "impresion/consumibles/cartuchos-tinta/epson/ultrachrome-k3/157",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAREPS4170/CAREPS4170_full.jpg"],
+        "documents": ["https://files.support.epson.com/pdf/msds/t157320.pdf", "https://files.support.epson.com/pdf/r3000_/r3000_sl.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAREPS4170", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 912.39, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "T157320",
+          "upc": "010343880894",
+          "productType": "Cartucho de tinta pigmentada",
+          "inkSeries": "Epson 157 UltraChrome K3",
+          "color": "Vivid Magenta",
+          "compatibility": ["Epson Stylus Photo R3000"],
+          "lifecycleStatus": "Epson US marca T157320 como no disponible/out of stock; proveedor actual reporta stock 0.",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAREPS4170. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAREPS4170", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 912.39, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "4.35 x 1.38 x 4.75 in empaque", "weight": "0.15 lb", "volume": "25.9 ml" },
+        "sourceRefs": [
+          { "title": "Epson T157320 157 Magenta Ink", "type": "manufacturer_product", "url": "https://epson.com/For-Home/Ink/Epson-157-Ink/i/T157320" },
+          { "title": "Epson T157320 MSDS", "type": "manufacturer_datasheet", "url": "https://files.support.epson.com/pdf/msds/t157320.pdf" },
+          { "title": "Epson Stylus Photo R3000 brochure", "type": "manufacturer_datasheet", "url": "https://files.support.epson.com/pdf/r3000_/r3000_sl.pdf" }
+        ]
+      }
+    }
+  ]
+}

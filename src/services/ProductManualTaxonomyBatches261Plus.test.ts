@@ -183,6 +183,19 @@ const batch274Cases = [
   ["Hikvision NK42W0H-1T(WD)(D) KITHKV240 kit IP WiFi 4 camaras 2MP 1TB H.265", "HIKVISION", "seguridad/cctv/kits-videovigilancia/ip-wifi/4-canales-2mp-1tb/hikvision-nk42w0h-1t-wd-d", "cameras", {}],
 ] as const;
 
+const batch275Cases = [
+  ["CyberPower CRA50004 AC-11072 charola deslizable teclado rack 19 1U 500mm 20kg", "CYBERPOWER", "infraestructura/racks-accesorios/charolas/deslizables/1u-500mm-20kg/cyberpower-cra50004", "networking", {}],
+  ["Yaber U12 PROYAB060 proyector smart 1080p 700 ANSI Dolby auto focus", "YABER", "video/proyectores/portatiles/1080p-smart/700-ansi/yaber-u12", "tvs", {}],
+  ["Corsair HS80 RGB USB CA-9011237-NA SPK-2469 audifonos gaming 7.1 USB carbon", "CORSAIR", "audio/audifonos/usb/gaming-7-1/corsair-hs80-rgb-usb-ca-9011237-na", "headphones", {}],
+  ["HPE H40J7E POL-6583 Tech Care Essential 5 anos ML350 Gen10 service", "HEWLETT PACKARD ENTERPRISE", "servicios-ti/soporte-garantias/hpe-tech-care/servidores/proliant-ml350-gen10/h40j7e-5y-essential", "software", {}],
+  ["Silimex Sneakers Wipes 50 PZAS CN-4679 toallas humedas tenis 750300219683", "SILIMEX", "hogar/limpieza/calzado/toallas-humedas/silimex-sneakers-wipes-50", "accessories", {}],
+  ["Norton 21443411 SOFNRT1740 Norton 360 Standard 1 dispositivo 1 ano espanol", "NORTON", "software/seguridad/antivirus/norton-360-standard/1-dispositivo-1-ano/21443411", "software", {}],
+  ["Manhattan 325677 CABITL2070 CB-314 cable USB 2.0 A macho a Micro-B macho 0.5m", "MANHATTAN", "accesorios/cables-adaptadores/usb/usb-a-micro-b/2-0-0-5m/manhattan-325677", "accessories", {}],
+  ["ESET TMESETL-360 SOFEST3360 PROTECT Entry On-Premise 3 anos endpoint", "ESET", "software/seguridad/endpoint/eset/protect-entry/on-premise/3-anos/tmesetl-360", "software", {}],
+  ["Canon PFI-101MBK CARCNN2600 0882B001 tanque tinta mate negro imagePROGRAF 130ml", "CANON", "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-101/130ml/pfi-101mbk-0882b001", "printers_scanners", {}],
+  ["Epson T157320 CAREPS4170 UltraChrome K3 157 cartucho Vivid Magenta R3000", "EPSON", "impresion/consumibles/cartuchos-tinta/epson/ultrachrome-k3/157/t157320-vivid-magenta", "printers_scanners", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -263,6 +276,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch274Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch275Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
