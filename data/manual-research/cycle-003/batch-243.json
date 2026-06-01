@@ -1,0 +1,419 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b243-2026-06-01",
+  "cycle": 3,
+  "batch": 243,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "zy5ecd726llw334",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CORSAIR",
+        "name": "Corsair RM850x CP-9020200-NA fuente de poder ATX 850W 80 Plus Gold modular negra",
+        "description": "Fuente de poder Corsair RM850x de 850 W, formato ATX, certificacion 80 Plus Gold, totalmente modular, ventilador de 135 mm con modo Zero RPM y garantia de fabricante de 10 anos.",
+        "manualCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-gold/850w/modular/corsair-rm850x-cp-9020200-na",
+        "semanticCategoryPath": "computo/componentes/fuentes-poder/atx-80-plus-gold/850w/modular",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na",
+        "gallery": [
+          "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Power-Supply-Units/CP-9020180-NA/Gallery/RM850x_PSU_01.webp"
+        ],
+        "specs": {
+          "brand": "Corsair",
+          "model": "RM850x",
+          "manufacturerPartNumber": "CP-9020200-NA",
+          "providerSku": "GABCOR1530",
+          "upc": "840006604839",
+          "productType": "Fuente de poder ATX",
+          "powerWatts": "850 W",
+          "efficiencyCertification": "80 Plus Gold",
+          "formFactor": "ATX",
+          "modularity": "Totalmente modular",
+          "fanSize": "135 mm",
+          "fanBearing": "Magnetic levitation",
+          "zeroRpmMode": true,
+          "connectors": { "eps": 3, "sata": 14, "pcie": 4, "atx": 1 },
+          "warranty": "10 anos",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; GamerHouse muestra agotado y sin disponibilidad de retiro.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "GABCOR1530", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["GamerHouse precio visible $2,590.00 MXN y estado agotado.", "Corsair oficial muestra la variante 850 W out of stock."],
+          "reviewNotes": "Clasificar como componente PC/fuente de poder; no como energia general ni gabinete."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "150 x 86 x 160 mm", "weight": "3.22 kg" },
+        "sourceRefs": [
+          { "title": "Corsair RM850x CP-9020200-NA", "type": "manufacturer_specs", "url": "https://www.corsair.com/us/en/p/psu/cp-9020200-na/rmx-series-rm850x-850-watt-80-plus-gold-fully-modular-atx-psu-cp-9020200-na" },
+          { "title": "GamerHouse Corsair RM850x", "type": "retailer_stock", "url": "https://gamerhouse.com.mx/products/gh-100852" },
+          { "title": "CTOnline batch GABCOR1530 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "avkhkdigscdvjwo",
+      "research": {
+        "confidence": 0.95,
+        "brand": "KODAK ALARIS",
+        "name": "Kodak Alaris S3120 Max escaner documental duplex ADF A3 120 ppm",
+        "description": "Escaner documental Kodak Alaris S3120 Max de produccion departamental con ADF duplex, velocidad de hasta 120 ppm / 240 ipm, alimentador de 500 hojas, conectividad USB 3.2 y Ethernet.",
+        "manualCategoryPath": "impresion/escaneres/documentales/produccion/adf/a3/kodak-alaris-s3120-max",
+        "semanticCategoryPath": "impresion/escaneres/documentales/produccion/adf/a3",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kodakalaris.com/es/scanners/s3120-max-scanner",
+        "gallery": ["https://www.kodakalaris.com/sites/default/files/styles/webp/public/2024-11/kodak-s3120-max-scanner.png.webp?itok=yj5u69Xs"],
+        "documents": ["https://www.kodakalaris.com/sites/default/files/2025-06/KODAK-S3120-Max-S3140-Max-Scanner-flyer-EN.pdf"],
+        "specs": {
+          "brand": "Kodak Alaris",
+          "model": "S3120 Max",
+          "manufacturerPartNumber": "8009433",
+          "providerSku": "SCAKDK790",
+          "productType": "Escaner documental ADF duplex",
+          "scanSpeed": "120 ppm / 240 ipm",
+          "adfCapacity": "500 hojas de 80 g/m2",
+          "maximumDocumentSize": "305 mm x 4.06 m",
+          "minimumDocumentSize": "63.5 x 71.1 mm",
+          "opticalResolution": "600 dpi",
+          "scanTechnology": "CIS / CMOS con iluminacion LED RGB dual",
+          "connectivity": "USB 3.2 Gen 1x1, USB 2.0 compatible, Ethernet 10/100/1000",
+          "display": "Pantalla tactil LCD color 3.5 pulgadas",
+          "recommendedDailyVolume": "Hasta 100000 paginas por dia",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; Global Office muestra almacen Mexico 2 piezas externas y MacToner sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SCAKDK790", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["Global Office precio visible $86,043.00 MXN con 2 piezas en almacen externo Mexico.", "MacToner precio visible $123,132.34 MXN y sin existencias."],
+          "reviewNotes": "Usar medidas oficiales Kodak; retail mexicano muestra medidas de tienda no totalmente consistentes."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "295 x 457.2 x 370.8 mm", "weight": "16.8 kg" },
+        "sourceRefs": [
+          { "title": "Kodak Alaris S3120 Max", "type": "manufacturer_specs", "url": "https://www.kodakalaris.com/es/scanners/s3120-max-scanner" },
+          { "title": "Kodak S3120 Max flyer", "type": "manufacturer_document", "url": "https://www.kodakalaris.com/sites/default/files/2025-06/KODAK-S3120-Max-S3140-Max-Scanner-flyer-EN.pdf" },
+          { "title": "Global Office S3120 Max", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/digitalizacion/escaner-kodak-alaris-s3120-resolucion-600-dpi-120p/8009433" },
+          { "title": "CTOnline batch SCAKDK790 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wtj2ijzl069ri0k",
+      "research": {
+        "confidence": 0.95,
+        "brand": "KODAK ALARIS",
+        "name": "Kodak Alaris S3100f escaner documental duplex ADF A3 con cama plana A4 100 ppm",
+        "description": "Escaner Kodak Alaris S3100f con ADF duplex para documentos A3, cama plana A4 integrada, velocidad de hasta 100 ppm / 200 ipm, alimentador de 300 hojas y red Ethernet.",
+        "manualCategoryPath": "impresion/escaneres/documentales/produccion/adf/a3/kodak-alaris-s3100f",
+        "semanticCategoryPath": "impresion/escaneres/documentales/produccion/adf/a3",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kodakalaris.com/en/scanners/s3100f-scanner",
+        "gallery": ["https://www.kodakalaris.com/sites/default/files/styles/webp/public/2024-11/s3100-hero-image2.png.webp?itok=7Rhe_Uoq"],
+        "documents": ["https://www.kodakalaris.com/sites/default/files/2025-02/KODAK-S3100-S3100f-Scanner-flyer-EN.pdf"],
+        "specs": {
+          "brand": "Kodak Alaris",
+          "model": "S3100f",
+          "manufacturerPartNumber": "8001851",
+          "providerSku": "SCAKDK800",
+          "upc": "0041778001851",
+          "productType": "Escaner ADF duplex con cama plana interna A4",
+          "scanSpeed": "100 ppm / 200 ipm",
+          "adfCapacity": "300 hojas",
+          "maximumDocumentSizeAdf": "305 mm x 4.06 m",
+          "maximumDocumentSizeFlatbed": "220.7 x 304.8 mm",
+          "minimumDocumentSize": "63.5 x 71.1 mm",
+          "opticalResolution": "600 dpi",
+          "scanTechnology": "Dual CIS / CMOS",
+          "connectivity": "USB 3.2 Gen 1x1, USB 2.0 compatible, Ethernet 10/100/1000",
+          "recommendedDailyVolume": "Hasta 45000 paginas por dia",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; Global Office muestra existencias en proceso de llegada y pide confirmar disponibilidad.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SCAKDK800", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["Global Office precio visible $65,460.00 MXN con disponibilidad por confirmar."],
+          "reviewNotes": "La cama plana es A4 interna; el ADF soporta documentos A3/largos."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "254 x 457.2 x 370.84 mm", "weight": "17 kg" },
+        "sourceRefs": [
+          { "title": "Kodak Alaris S3100f", "type": "manufacturer_specs", "url": "https://www.kodakalaris.com/en/scanners/s3100f-scanner" },
+          { "title": "Kodak S3100/S3100f flyer", "type": "manufacturer_document", "url": "https://www.kodakalaris.com/sites/default/files/2025-02/KODAK-S3100-S3100f-Scanner-flyer-EN.pdf" },
+          { "title": "Global Office S3100f", "type": "retailer_stock", "url": "https://www.globaloffice.globaloffice.com.mx/app/detalle/producto/digitalizacion/kodak-s3100f-scanner-duplex-100ppm-8001851/8001851" },
+          { "title": "CTOnline batch SCAKDK800 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "sfxtriekeckasy4",
+      "research": {
+        "confidence": 0.86,
+        "brand": "BACO",
+        "name": "BACO LP001/52537 colores largos surtidos caja con 12 piezas",
+        "description": "Colores escolares BACO LP001/52537 largos en colores surtidos, presentacion caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/lapices-color/baco/largos-12p/lp001-52537",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/lapices-color/baco/largos-12p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-lp00152537-color-baco-lp00152537-c12-piezas.webp"],
+        "specs": {
+          "brand": "BACO",
+          "model": "LP001/52537",
+          "providerSku": "ACCBAC2840",
+          "productType": "Lapices de color largos",
+          "packageQuantity": "12 piezas",
+          "color": "Surtido",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; Cityshop indica producto agotado y TiendaClic no disponible.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBAC2840", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["Cityshop producto agotado.", "TiendaClic no disponible / solicitar cotizacion."],
+          "reviewNotes": "Clasificar como material escolar/dibujo; no accesorio computo generico."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizado", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Cityshop BACO LP001/52537", "type": "retailer_stock", "url": "https://cityshop.mx/producto/color-baco-lp00152537-c12-piezas-largos-colores-surtido" },
+          { "title": "TiendaClic BACO LP001/52537", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/colores-baco-lp00152537" },
+          { "title": "CTOnline batch ACCBAC2840 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "b6kjm6rj8xbtflk",
+      "research": {
+        "confidence": 0.86,
+        "brand": "BACO",
+        "name": "BACO LP002/52520 colores cortos surtidos caja con 12 piezas",
+        "description": "Colores escolares BACO LP002/52520 cortos en colores surtidos, presentacion caja con 12 piezas.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/lapices-color/baco/cortos-12p/lp002-52520",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/dibujo-arte/lapices-color/baco/cortos-12p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-lp00252520-colores-baco-lp00252520-c12-piezas.webp"],
+        "specs": {
+          "brand": "BACO",
+          "model": "LP002/52520",
+          "providerSku": "ACCBAC2850",
+          "productType": "Lapices de color cortos",
+          "packageQuantity": "12 piezas",
+          "color": "Surtido",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; Cityshop indica producto agotado y TiendaClic no disponible.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBAC2850", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["Cityshop producto agotado.", "TiendaClic no disponible / solicitar cotizacion."],
+          "reviewNotes": "Distinguir de LP001/52537: esta variante es corta."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizado", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Cityshop BACO LP002/52520", "type": "retailer_stock", "url": "https://cityshop.mx/producto/colores-baco-lp00252520-c12-piezas-cortos-colores-surtido" },
+          { "title": "TiendaClic BACO LP002/52520", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/colores-baco-lp00252520" },
+          { "title": "CTOnline batch ACCBAC2850 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bnq2c4d2dcdd2dl",
+      "research": {
+        "confidence": 0.88,
+        "brand": "DIEM",
+        "name": "Folder DIEM tamano carta marfil 150 g emplayado 100 piezas",
+        "description": "Folder DIEM tamano carta color marfil, gramaje 150 g, presentacion emplayada con 100 piezas para archivo de oficina.",
+        "manualCategoryPath": "oficina/papeleria/archivo/folders/carta/marfil/100-piezas/diem-750623155144",
+        "semanticCategoryPath": "oficina/papeleria/archivo/folders/carta/marfil/100-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-750623155144-folder-tamano-carta-diem-color.webp"],
+        "specs": {
+          "brand": "DIEM",
+          "model": "750623155144",
+          "providerSku": "ACCDIE920",
+          "productType": "Folder para archivo",
+          "size": "Carta",
+          "color": "Marfil",
+          "paperWeight": "150 g",
+          "packageQuantity": "100 piezas",
+          "packaging": "Emplayado",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; Cityshop indica producto agotado y TiendaClic no disponible.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCDIE920", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["Cityshop producto agotado.", "TiendaClic precio visible $219.00 MXN y no disponible."],
+          "reviewNotes": "El valor 150 g corresponde a gramaje de papel/cartulina, no al peso del paquete."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizado", "weight": "No localizado; 150 g es gramaje" },
+        "sourceRefs": [
+          { "title": "Cityshop DIEM 750623155144", "type": "retailer_stock", "url": "https://cityshop.mx/producto/folder-tamano-carta-diem-color-marfil-de-150g-con-100-piezas-750623155144-emplayado" },
+          { "title": "TiendaClic DIEM 750623155144", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/folder-tamano-carta-diem-750623155144" },
+          { "title": "CTOnline batch ACCDIE920 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "euwwpc30288e7kj",
+      "research": {
+        "confidence": 0.88,
+        "brand": "DIEM",
+        "name": "Folder DIEM tamano oficio marfil 150 g emplayado 100 piezas",
+        "description": "Folder DIEM tamano oficio color marfil, gramaje 150 g, presentacion emplayada con 100 piezas para archivo de oficina.",
+        "manualCategoryPath": "oficina/papeleria/archivo/folders/oficio/marfil/100-piezas/diem-750623155149",
+        "semanticCategoryPath": "oficina/papeleria/archivo/folders/oficio/marfil/100-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://cityshop.mx/assets/imagenes/productos/cityshop-ct-750623155149-folder-tamano-oficio-diem-color.webp"],
+        "specs": {
+          "brand": "DIEM",
+          "model": "750623155149",
+          "providerSku": "ACCDIE930",
+          "productType": "Folder para archivo",
+          "size": "Oficio",
+          "color": "Marfil",
+          "paperWeight": "150 g",
+          "packageQuantity": "100 piezas",
+          "packaging": "Emplayado",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; Cityshop indica producto agotado y TiendaClic no disponible.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCDIE930", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["Cityshop producto agotado.", "TiendaClic precio visible $239.00 MXN y no disponible."],
+          "reviewNotes": "El valor 150 g corresponde a gramaje; mantener separado de peso fisico del paquete."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizado", "weight": "No localizado; 150 g es gramaje" },
+        "sourceRefs": [
+          { "title": "Cityshop DIEM 750623155149", "type": "retailer_stock", "url": "https://cityshop.mx/producto/folder-tamano-oficio-diem-color-marfil-de-150g-con-100-piezas-750623155149-emplayado" },
+          { "title": "TiendaClic DIEM 750623155149", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/folder-tamano-oficio-diem-750623155149" },
+          { "title": "CTOnline batch ACCDIE930 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ia9a6prt0kj9dc9",
+      "research": {
+        "confidence": 0.93,
+        "brand": "NEXXT SOLUTIONS HOME",
+        "name": "Nexxt Kronos1200-AC AEIEL905U1 extensor de rango WiFi AC1200 doble banda blanco",
+        "description": "Extensor de rango WiFi Nexxt Kronos1200-AC AEIEL905U1 de doble banda hasta 1200 Mbps, con 2 antenas externas de 3 dBi, modos repetidor/router/punto de acceso y 2 puertos RJ45 10/100.",
+        "manualCategoryPath": "redes/red-activa/extensores-red/wifi-ac1200/nexxt-kronos1200-aeiel905u1",
+        "semanticCategoryPath": "redes/red-activa/extensores-red/wifi-ac1200",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/AEIEL905U1_DATA_SHEET_SPA.pdf",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACPNEX020_full-600x847.jpg"],
+        "documents": ["https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/AEIEL905U1_DATA_SHEET_SPA.pdf"],
+        "specs": {
+          "brand": "Nexxt Solutions Home",
+          "model": "AEIEL905U1",
+          "commercialName": "Kronos1200-AC",
+          "providerSku": "ACPNEX020",
+          "productType": "Extensor de rango WiFi",
+          "wifiSpeed": "Hasta 1200 Mbps",
+          "wifiBands": "2.4 GHz y 5 GHz",
+          "ports": "1 WAN/LAN 10/100M + 1 LAN 10/100M",
+          "antennas": "2 externas de 3 dBi",
+          "modes": ["Repetidor", "Router", "Punto de acceso"],
+          "plug": "NEMA 5-15P",
+          "powerInput": "110/220 V, 50/60 Hz",
+          "color": "Blanco",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; MacToner muestra sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACPNEX020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["MacToner precio visible $734.58 MXN y sin existencias."],
+          "reviewNotes": "Mantener como extensor/repetidor WiFi, no router principal."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "100 x 65 x 87 mm", "weight": "100 g" },
+        "sourceRefs": [
+          { "title": "Nexxt AEIEL905U1 data sheet", "type": "manufacturer_document", "url": "https://nexxt-connectivity-frontend.s3.amazonaws.com/media/docs/AEIEL905U1_DATA_SHEET_SPA.pdf" },
+          { "title": "MacToner Nexxt AEIEL905U1", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/extensor-de-rango-universal-nexxt-solutions-home-aeiel905u1-blanco/" },
+          { "title": "CTOnline batch ACPNEX020 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "d09j856coy7itmu",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TELTONIKA",
+        "name": "Teltonika TAT140 rastreador de activos 4G LTE Cat 1 GNSS Bluetooth negro",
+        "description": "Rastreador autonomo Teltonika TAT140 para activos, con 4G LTE Cat 1, respaldo 2G, GNSS, Bluetooth LE, bateria Li-SOCl2 no recargable de 2200 mAh y proteccion IP68.",
+        "manualCategoryPath": "redes/iot-telemetria/rastreadores-gps/activos/teltonika-tat140",
+        "semanticCategoryPath": "redes/iot-telemetria/rastreadores-gps/activos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://wiki.teltonika-gps.com/view/TAT140",
+        "gallery": ["https://wiki.teltonika-gps.com/images/thumb/5/53/TAT140_BT_SIG.jpg/380px-TAT140_BT_SIG.jpg"],
+        "documents": ["https://wiki.teltonika-gps.com/images/3/39/DS-TAT140.pdf"],
+        "specs": {
+          "brand": "Teltonika",
+          "model": "TAT140",
+          "providerSku": "RASTEL040",
+          "productType": "Rastreador GPS/IoT de activos",
+          "technology": "LTE Cat 1, 2G GSM/GPRS, GNSS, Bluetooth LE",
+          "gnss": "GPS, GLONASS, GALILEO, BEIDOU",
+          "battery": "2200 mAh 2S Li-SOCl2 7.2 V no recargable",
+          "usb": "Micro-USB 2.0",
+          "sim": "Micro-SIM",
+          "memory": "128 MB flash interna",
+          "protection": "IP68",
+          "sensor": "Acelerometro",
+          "color": "Negro",
+          "lifecycleSignal": "Pagina oficial Teltonika lo lista como EOL; sin fechas de fin de pedido/produccion visibles en la ficha abierta.",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; MacToner sin existencias y Emprenet agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "RASTEL040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["MacToner precio visible $2,997.04 MXN y sin existencias.", "Emprenet precio USD 97.00 + IVA y agotado."],
+          "reviewNotes": "Corregir peso previo sospechoso de 4 g; ficha/datasheet reporta 115 g."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "78 x 63 x 28 mm", "weight": "115 g" },
+        "sourceRefs": [
+          { "title": "Teltonika TAT140 wiki", "type": "manufacturer_specs", "url": "https://wiki.teltonika-gps.com/view/TAT140" },
+          { "title": "Teltonika TAT140 datasheet", "type": "manufacturer_document", "url": "https://wiki.teltonika-gps.com/images/3/39/DS-TAT140.pdf" },
+          { "title": "MacToner Teltonika TAT140", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/rastreador-de-activos-4g-lte-teltonika-tat140-negro/" },
+          { "title": "Emprenet TAT140", "type": "retailer_stock", "url": "https://www.emprenet.com.mx/es/tienda/teltonika/tat140/" },
+          { "title": "CTOnline batch RASTEL040 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "midkrdsqdyx2eey",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TELTONIKA",
+        "name": "Teltonika GH5200 Worker BadgePLUS rastreador personal GPS 2G GNSS Bluetooth negro",
+        "description": "Rastreador personal Teltonika GH5200 tipo gafete para seguridad laboral, con GNSS, GSM/GPRS 2G, Bluetooth LE, boton de alarma, 5 botones configurables, 3 LED y comunicacion de voz bidireccional.",
+        "manualCategoryPath": "electronica/localizadores-gps/rastreadores-personales/seguridad-laboral/teltonika-gh5200",
+        "semanticCategoryPath": "electronica/localizadores-gps/rastreadores-personales/seguridad-laboral",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://wiki.teltonika-gps.com/view/GH5200_General_description",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/RASTEL020_full.jpg",
+          "https://static.wixstatic.com/media/814ec4_753ea6ad3c904c6ebae7c0215e686219~mv2.png/v1/fill/w_980%2Ch_654%2Cal_c%2Cq_90%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/gh5200-side.png"
+        ],
+        "documents": ["https://wiki.teltonika-gps.com/images/c/ce/DS-GH5200.pdf"],
+        "specs": {
+          "brand": "Teltonika",
+          "model": "GH5200",
+          "commercialName": "Worker BadgePLUS",
+          "providerSku": "RASTEL020",
+          "productType": "Rastreador personal GPS",
+          "technology": "2G GSM/GPRS, GNSS, Bluetooth LE",
+          "bands2g": "Quad-band 850 / 900 / 1800 / 1900 MHz",
+          "battery": "1050 mAh Li-ion recargable 3.7 V",
+          "usb": "Micro-USB 2.0",
+          "sim": "Micro-SIM; e-SIM segun datasheet alterno",
+          "memory": "128 MB flash interna",
+          "buttons": "5 configurables",
+          "indicators": "3 LED",
+          "protection": "IP30",
+          "sensor": "Acelerometro",
+          "voice": "Comunicacion de voz bidireccional",
+          "color": "Negro",
+          "lifecycleSignal": "Pagina oficial Teltonika lo lista como EOL; sin fechas visibles en la ficha abierta.",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0; MacToner muestra sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "RASTEL020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T05:10:00Z",
+          "publicAvailabilitySignals": ["MacToner precio visible $1,626.06 MXN y sin existencias."],
+          "reviewNotes": "Producto 2G, no 4G; Worker BadgePLUS se conserva como nombre comercial secundario."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "95 x 64 x 11 mm", "weight": "80 g" },
+        "sourceRefs": [
+          { "title": "Teltonika GH5200 general description", "type": "manufacturer_specs", "url": "https://wiki.teltonika-gps.com/view/GH5200_General_description" },
+          { "title": "Teltonika GH5200 datasheet", "type": "manufacturer_document", "url": "https://wiki.teltonika-gps.com/images/c/ce/DS-GH5200.pdf" },
+          { "title": "MacToner Teltonika GH5200", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/worker-badgeplus-teltonika-gh5200-negro/" },
+          { "title": "CTOnline batch RASTEL020 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T05:10:00Z" }
+        ]
+      }
+    }
+  ]
+}
