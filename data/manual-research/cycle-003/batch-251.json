@@ -1,0 +1,412 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b251-2026-06-01",
+  "cycle": 3,
+  "batch": 251,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "nzd8ym9idml592a",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Hyundai",
+        "name": "Reloj inteligente Hyundai HY Smart Watch SW001 HTSW001BK negro 1.69 pulgadas Bluetooth 5.1 IP68",
+        "description": "Smartwatch Hyundai HTSW001BK con pantalla IPS 1.69 pulgadas, Bluetooth 5.1, proteccion IP68, monitoreo deportivo y funciones de notificacion para Android e iOS.",
+        "manualCategoryPath": "electronica/wearables/smartwatches/deportivos/hyundai-hy-smart-watch-sw001-htsw001bk",
+        "semanticCategoryPath": "electronica/wearables/smartwatches/deportivos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-HYUNDAI-HTSW001BK-1.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-HYUNDAI-HTSW001BK-2.jpg"
+        ],
+        "specs": {
+          "brand": "Hyundai",
+          "model": "HTSW001BK",
+          "providerSku": "ACCHYU020",
+          "upc": "850046116094",
+          "productType": "Smartwatch deportivo",
+          "display": "1.69 pulgadas IPS, 240 x 280",
+          "connectivity": "Bluetooth 5.1",
+          "protection": "IP68",
+          "batteryLife": "5 a 7 dias de uso, 25 a 30 dias en espera segun fichas publicas",
+          "compatibility": "Android 5.0+ / iOS 9.0+",
+          "features": "Monitoreo de pasos, calorias, sueno, oxigeno en sangre, frecuencia cardiaca, llamadas/SMS, clima y control multimedia",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Global Office publico precio en proceso con existencia por confirmar; MiPC publico $904.21 MXN agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCHYU020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Global Office precio en proceso, existencia por confirmar.", "MiPC $904.21 MXN agotado."],
+          "reviewNotes": "Algunas fichas publicas llaman al modelo SW001; se conserva HTSW001BK como modelo proveedor y SW001 como alias comercial."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Reloj 255.9 x 45 x 10.5 mm; correa 20 mm", "weight": "40 g; empaque referencial 0.13 kg" },
+        "sourceRefs": [
+          { "title": "Global Office Hyundai HTSW001BK", "type": "retailer_specs_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/smartwatch/reloj-hy-smart-watch-sw001-negro/htsw001bk" },
+          { "title": "MiPC Hyundai HTSW001BK", "type": "retailer_price_stock", "url": "https://mipc.com.mx/smartwatch-hyundai-htsw001bk.html" },
+          { "title": "Cyberpuerta Hyundai HTSW001BK", "type": "retailer_specs_image", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Smartwatch/Smartwatch-Hyundai-HTSW001BK-Negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "vc2ijgb6efcemvt",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Cambium Networks",
+        "name": "Radio backhaul Cambium Networks PTP 670CE conectorizado 4.9 a 6.05 GHz 450 Mbps",
+        "description": "Radio PTP/HCMP Cambium Networks PTP 670CE conectorizado para backhaul sub-6 GHz, enlaces punto a punto y multipunto con cifrado AES e interfaces Gigabit/SFP.",
+        "manufacturerUrl": "https://www.cambiumnetworks.com/products/backhaul/ptp-670/",
+        "manualCategoryPath": "redes/radioenlaces-antenas/radios-backhaul/ptp-hcmp/sub-6ghz/cambium-ptp-670ce",
+        "semanticCategoryPath": "redes/radioenlaces-antenas/radios-backhaul/ptp-hcmp/sub-6ghz",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://c.cdnmp.net/179020903/p/m/6/cambium-networks-ptp-670ce-backhaul-radio-conecterizado-4-9-6-05-ghz~9210346.jpg"
+        ],
+        "specs": {
+          "brand": "Cambium Networks",
+          "model": "PTP-670CE",
+          "providerSku": "ACCCAM040",
+          "productType": "Radio backhaul conectorizado",
+          "frequencyRange": "4.9 a 6.05 GHz",
+          "throughput": "Hasta 450 Mbps segun familia PTP 670",
+          "channelWidths": "5, 10, 15, 20, 30, 40 y 45 MHz",
+          "interfaces": "2 x Gigabit Ethernet y SFP",
+          "security": "AES 128/256",
+          "protection": "IP66/IP67",
+          "deployment": "PTP y HCMP, hasta 8 nodos HCMP",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Cambium marca la familia PTP 670 como discontinued; Compustar publico $47,605 MXN con 26 piezas; TiendaClic publico $47,700.86 MXN con existencia 0.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCAM040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Cambium PTP 670 aparece discontinued.", "Compustar $47,605 MXN con 26 piezas.", "TiendaClic $47,700.86 MXN con existencia 0."],
+          "reviewNotes": "Producto de red profesional; no debe caer en accesorios genericos ni laptops."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "ODU conectorizado 204 x 318 x 90 mm", "weight": "3.1 kg con soporte; peso logistico reseller 7.15 kg" },
+        "sourceRefs": [
+          { "title": "Cambium Networks PTP 670 official", "type": "manufacturer_lifecycle_specs", "url": "https://www.cambiumnetworks.com/products/backhaul/ptp-670/" },
+          { "title": "SYSCOM Cambium PTP 670CE", "type": "distributor_specs", "url": "https://www.syscom.mx/producto/PTP-670CE-CAMBIUM-NETWORKS-42823.html" },
+          { "title": "CJP Cambium PTP-670CE", "type": "retailer_price_stock_image", "url": "https://tienda.cjp.mx/compra/cambium-networks-ptp-670ce-backhaul-radio-conecterizado-4-9-6-05-ghz-42823" }
+        ]
+      }
+    },
+    {
+      "product_id": "mgdvg1seayvhou3",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Vangogh",
+        "name": "Papel bond Vangogh carta 75 g blancura 95 caja con 5000 hojas",
+        "description": "Caja de papel bond Vangogh tamano carta para impresion y copiado, 75 g/m2, blancura 95, 10 resmas de 500 hojas.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/vangogh-75g-95",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/XL/CP-VANGOGH-17502250376216-27874a.png"
+        ],
+        "specs": {
+          "brand": "Vangogh",
+          "model": "17502250376216",
+          "providerSku": "ACCCMX010",
+          "ean": "7502250376216",
+          "productType": "Papel bond carta",
+          "paperSize": "Carta",
+          "basisWeight": "75 g/m2",
+          "brightness": "95%",
+          "packaging": "Caja con 10 resmas de 500 hojas, 5000 hojas totales",
+          "printerCompatibility": "Laser, inyeccion de tinta y fotocopiado",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Cyberpuerta aparece sin existencias; TiendaClic publico $849.55 MXN con existencia 0; Abasteo publico $869 MXN out of stock.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCMX010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta sin existencias.", "TiendaClic $849.55 MXN con existencia 0.", "Abasteo $869 MXN out of stock."],
+          "reviewNotes": "No se encontro ficha oficial del fabricante; se triangula con resellers mexicanos y EAN exacto."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Hoja carta 215.9 x 279.4 mm; caja sin dimensiones oficiales publicas", "weight": "5 kg reportado por proveedor; TiendaClic reporta 4.5 kg" },
+        "sourceRefs": [
+          { "title": "TiendaClic Vangogh 17502250376216", "type": "retailer_price_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/papel-vangogh-17502250376216-vangogh-17502250376216" },
+          { "title": "Cyberpuerta Vangogh 17502250376216", "type": "retailer_specs_image", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Consumibles/Papel/Papel-Bond-Vangogh-Carta-75g-95-Blancura-5000-Hojas.html" },
+          { "title": "Abasteo Vangogh 17502250376216", "type": "retailer_price_stock", "url": "https://www.abasteo.mx/papel-vangogh-17502250376216" }
+        ]
+      }
+    },
+    {
+      "product_id": "uosbraq76pvixhf",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Hisense",
+        "name": "Terminal POS Hisense HiStone Hero II HK578U 15 pulgadas tactil Celeron J6412 8GB 128GB",
+        "description": "Terminal punto de venta all-in-one Hisense/HiStone HK578U con pantalla tactil de 15 pulgadas, almacenamiento SSD y puertos POS para caja, red y perifericos.",
+        "manualCategoryPath": "punto-de-venta/terminales-pos/all-in-one/15-pulgadas/histone-hisense-hk578u-j6412",
+        "semanticCategoryPath": "punto-de-venta/terminales-pos/all-in-one/15-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.centelle.mx/image/cache/catalog/hisense/HK578-HK578U-550x550.jpg"
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "HK578U",
+          "providerSku": "TERHSE110",
+          "partNumber": "2S1227640039",
+          "productType": "Terminal POS all-in-one",
+          "display": "15 pulgadas TFT 4:3, 1024 x 768, tactil capacitiva",
+          "processor": "Intel Celeron J6412 en fuentes mexicanas cercanas al PN",
+          "memory": "8GB DDR4 en listados mexicanos",
+          "storage": "SSD 128GB ampliable",
+          "connectivity": "Gigabit Ethernet, Wi-Fi ac/Bluetooth 5 opcional segun ficha base",
+          "ports": "7 USB, RJ50 serial, RJ11 cajon de dinero, salida 12V segunda pantalla",
+          "operatingSystem": "Windows IoT en listados mexicanos",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. AztecaCompras publico $16,057 MXN con 36 piezas; Global Office indexo $13,810 MXN con 2 piezas para variante cercana.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TERHSE110", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["AztecaCompras $16,057 MXN con 36 piezas.", "Global Office indexado $13,810 MXN con 2 piezas para variante cercana."],
+          "reviewNotes": "Fuentes mezclan HK578 y HK578U; se conserva HK578U y se evita usar i5 para esta regla."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "349 x 252 x 332 mm", "weight": "5 kg ficha HK578U; 4.5 kg en listado HK578" },
+        "sourceRefs": [
+          { "title": "Jarltech HiStone HK578U datasheet", "type": "manufacturer_specs_pdf", "url": "https://www.jarltech.com/sites/default/files/documents/product/datasheet/en/hk578u_en.pdf" },
+          { "title": "FCC HK578U manual", "type": "manufacturer_manual_pdf", "url": "https://fcc.report/FCC-ID/2a397hk578u/6606835.pdf" },
+          { "title": "AztecaCompras Hisense 2S1227640039", "type": "retailer_price_stock", "url": "https://www.aztecacompras.com/mx0000104184-hisense-2s1227640039-terminal-punto-de-venta-marca-modelo-all-in-one-hk578-2s1227640039-pantalla-touch-lcd-15-pulgadas-t-ctil-capacitiva-plana.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "fqppic6m2awdbuf",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Hisense",
+        "name": "Terminal POS Hisense HK578U i5 15 pulgadas tactil 8GB 128GB Windows IoT",
+        "description": "Terminal punto de venta all-in-one Hisense HK578U i5 con pantalla tactil de 15 pulgadas, Intel Core i5, memoria DDR4 y SSD para punto de venta profesional.",
+        "manualCategoryPath": "punto-de-venta/terminales-pos/all-in-one/15-pulgadas/histone-hisense-hk578u-i5",
+        "semanticCategoryPath": "punto-de-venta/terminales-pos/all-in-one/15-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.pcel.com/Fotos/Hisense-HK578U-i5-Terminal-Punto-de-Venta-Hisense-All-In-One-HK578U-i5-534476.jpg"
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "HK578U i5",
+          "providerSku": "TERHSE120",
+          "partNumber": "2S1227640056",
+          "alternatePartNumber": "2S1227640061",
+          "productType": "Terminal POS all-in-one",
+          "display": "15 pulgadas TFT 4:3, 1024 x 768, tactil capacitiva",
+          "processor": "Intel Core i5-1135G7 hasta 4.2 GHz en retailers mexicanos",
+          "graphics": "Intel Iris Xe",
+          "memory": "8GB DDR4",
+          "storage": "SSD 128GB",
+          "operatingSystem": "Windows IoT",
+          "ports": "USB, serial RJ50, Gigabit Ethernet y RJ11 para cajon de dinero segun chasis HK578U",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Global Office publico precio en proceso/existencias en llegada; PCEL y Abasteo aparecen agotados, Abasteo indexo $24,329 MXN out of stock.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TERHSE120", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Global Office precio en proceso y existencias en llegada.", "PCEL agotado.", "Abasteo $24,329 MXN out of stock."],
+          "reviewNotes": "Se separa de HK578U Celeron para evitar colisiones de precio/specs por procesador."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "349 x 252 x 332 mm", "weight": "5 kg ficha base; algunos resellers reportan 6.5 kg logistico" },
+        "sourceRefs": [
+          { "title": "Global Office Hisense HK578U i5", "type": "retailer_specs_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/perifericos/terminal-hisense-hk578u-i5-terminal-hisense-hk578u-i5-2s1227/hk578u-i5" },
+          { "title": "PCEL Hisense HK578U i5", "type": "retailer_specs_image", "url": "https://www.pcel.com/Hisense-HK578U-i5-Terminal-Punto-de-Venta-Hisense-All-In-One-HK578U-i5-Procesador-Intel-Core-i5-1135G7-hasta-4-2-Ghz-Memoria-de-8GB-DDR4-SSD-de-128GB-Pantalla-de-15-Video-Iris-X-534476" },
+          { "title": "Jarltech HiStone HK578U datasheet", "type": "manufacturer_specs_pdf", "url": "https://www.jarltech.com/sites/default/files/documents/product/datasheet/en/hk578u_en.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "s4o3orciawmb97c",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Roku",
+        "name": "Reproductor streaming Roku Express 3960RW Full HD HDMI con control remoto",
+        "description": "Roku Express 3960RW para streaming Full HD 1080p por HDMI, con control remoto simple, alimentacion micro USB y compatibilidad con servicios Roku.",
+        "manualCategoryPath": "video/streaming/reproductores/full-hd/roku-express-3960rw",
+        "semanticCategoryPath": "video/streaming/reproductores/full-hd",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.bhphoto.com/images/images500x500/1669989012_1738937.jpg"
+        ],
+        "specs": {
+          "brand": "Roku",
+          "model": "3960RW",
+          "providerSku": "ACCROK210",
+          "upc": "829610007175",
+          "productType": "Reproductor streaming HDMI",
+          "videoOutput": "Hasta 1080p Full HD",
+          "ports": "HDMI 1.4b y micro USB para alimentacion",
+          "power": "5V/1A",
+          "remote": "Roku Simple Remote",
+          "network": "Wi-Fi; compatible con adaptador Ethernet USB externo segun soporte Roku",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Coppel publico $909 MXN; Global Office con el UPC reporta otro SKU Roku Premiere 3920RW con stock externo, por lo que se conserva alerta de GTIN.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCROK210", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Coppel $909 MXN.", "Global Office liga el UPC a Roku Premiere 3920RW con stock externo; requiere validacion de empaque si se reactiva."],
+          "reviewNotes": "Roku 3960 es Express HD; UPC publico 829610007175 tambien aparece asociado a Premiere 3920RW, por eso se documenta la inconsistencia."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "3.8 x 1.9 x 7.6 cm", "weight": "31 g" },
+        "sourceRefs": [
+          { "title": "Roku Mexico Express setup 3960", "type": "manufacturer_support_specs", "url": "https://support.roku.com/es-mx/article/set-up-your-express" },
+          { "title": "Roku Express specs", "type": "manufacturer_specs", "url": "https://www.roku.com/fr-fr/products/players/roku-express" },
+          { "title": "B&H Roku Express 2022 3960R", "type": "retailer_specs_image", "url": "https://www.bhphotovideo.com/c/product/1738937-REG/roku_3960r_roku_express_2022.html" },
+          { "title": "Global Office UPC mismatch Roku Premiere", "type": "retailer_gtin_warning", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/electronica/roku-roku-roku-premiere-3920rw-roku-premiere-streaming-3920r/roku-premiere-3920rw" }
+        ]
+      }
+    },
+    {
+      "product_id": "gay4gn5ay3kzf7h",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Vision",
+        "name": "Papel bond Vision Bond oficio 75 g blancura 97 caja con 5000 hojas",
+        "description": "Caja de papel bond Vision Bond/Copamex tamano oficio, 75 g/m2 y blancura 97 para impresion laser, inkjet, copiado y oficina.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/oficio/5000-hojas/vision-bond-75g-97",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-bond/oficio/5000-hojas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.tiendaclic.mx/assets/img/productos/17502237370395.jpg"
+        ],
+        "specs": {
+          "brand": "Vision",
+          "model": "17502237370395",
+          "providerSku": "ACCCOP020",
+          "productType": "Papel bond oficio",
+          "paperSize": "Oficio, aprox. 216 x 340 mm",
+          "basisWeight": "75 g/m2",
+          "brightness": "97%",
+          "packaging": "Caja con 10 resmas de 500 hojas, 5000 hojas totales",
+          "printerCompatibility": "Laser, inkjet, offset digital, fotocopiado y fax",
+          "performance": "Fuentes publicas reportan desempeno hasta 150 ppm",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. TiendaClic publico $1,029.61 MXN con existencia 0; Cityshop publico $1,009 MXN agotado; ITLogic publico $1,424.68 MXN sujeto a disponibilidad.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCOP020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["TiendaClic $1,029.61 MXN con existencia 0.", "Cityshop $1,009 MXN agotado.", "ITLogic $1,424.68 MXN consultar disponibilidad."],
+          "reviewNotes": "Producto distinto al Vision carta ya curado; se separa por tamano oficio."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Hoja oficio aprox. 216 x 340 mm; caja similar 44 x 29 x 26 cm", "weight": "23 kg caja similar en fuentes publicas" },
+        "sourceRefs": [
+          { "title": "TiendaClic Vision 17502237370395", "type": "retailer_price_stock", "url": "https://www.tiendaclic.mx/ver-detalle/papel-vision-17502237370395" },
+          { "title": "EGESA Vision Bond oficio", "type": "retailer_specs_image", "url": "https://www.egesa.com.mx/EGESA/upload/index.php?product_id=2916&route=product%2Fproduct" },
+          { "title": "RoyalOffice Vision Bond oficio", "type": "retailer_specs", "url": "https://royaloffice.com.mx/producto/caja-de-papel-copamex-vision-bond-oficio-95-porciento-blancura-10-paquetes-con-500-hojas-75-grs/" },
+          { "title": "Cityshop Vision Bond oficio", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/papel-vision-bond-tamano-oficio-75-gramaje-97-blancura-caja-con-10-resmas-de-500-hojas-cada-una" }
+        ]
+      }
+    },
+    {
+      "product_id": "wurj1ujqmfaw4pl",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Epson",
+        "name": "Lampara original Epson ELPLP89 V13H010L89 para proyector",
+        "description": "Lampara de repuesto original Epson ELPLP89/V13H010L89 para proyectores Home Cinema, Pro Cinema y EH-TW compatibles.",
+        "manufacturerUrl": "https://epson.com/Accessories/Projector-Accessories/ELPLP89-Replacement-Projector-Lamp/p/V13H010L89",
+        "manualCategoryPath": "audio-video/proyectores/accesorios/lamparas/epson-elplp89-v13h010l89",
+        "semanticCategoryPath": "audio-video/proyectores/accesorios/lamparas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://mediaserver.goepson.com/ImConvServlet/imconv/cebdc8a6fb1c635ad1794d7b081dd169d93d6dc4/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=V13H010L89"
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "V13H010L89",
+          "alternateModel": "ELPLP89",
+          "providerSku": "LMPEPS490",
+          "productType": "Lampara de repuesto para proyector",
+          "lampType": "Lampara Epson UHE genuina",
+          "compatibility": "Home Cinema 5050UB/5050UBe/4010/5040UB/5040UBe; Pro Cinema 6050UB/4050/4040/6040UB; EH-TW7300/7400/9300/9300W/9400/9400W en Europa",
+          "userReplaceable": "Si, segun ficha Epson",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Epson US publico USD 367.00; MacToner publico $2,136.10 MXN sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "LMPEPS490", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Epson US USD 367.00.", "MacToner $2,136.10 MXN sin existencias."],
+          "reviewNotes": "El codigo comercial ELPLP89 es clave para busqueda; V13H010L89 se conserva como modelo proveedor."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Sin dimensiones oficiales publicas encontradas", "weight": "Sin peso oficial publico encontrado" },
+        "sourceRefs": [
+          { "title": "Epson ELPLP89 V13H010L89 official", "type": "manufacturer_specs_image_price", "url": "https://epson.com/Accessories/Projector-Accessories/ELPLP89-Replacement-Projector-Lamp/p/V13H010L89" },
+          { "title": "Epson Europe V13H010L89 compatibility", "type": "manufacturer_compatibility", "url": "https://www.epson.eu/en_EU/products/options/projector-options/lamps/elplp89/p/19015" },
+          { "title": "MacToner Epson V13H010L89", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/lampara-epson-v13h010l89/" }
+        ]
+      }
+    },
+    {
+      "product_id": "vqwek47wv9ru9gf",
+      "research": {
+        "confidence": 0.94,
+        "brand": "DTEN",
+        "name": "Pantalla interactiva DTEN D7X 55 Android Edition DBR1455E 4K para videoconferencia",
+        "description": "Pantalla colaborativa all-in-one DTEN D7X 55 Android Edition con panel tactil 4K, camara 4K, arreglo de microfonos y conectividad para Zoom Rooms y Microsoft Teams.",
+        "manualCategoryPath": "electronica/pantallas-y-monitores/pizarrones-interactivos/pantallas-colaboracion/55-pulgadas/dten-d7x-55-android-dbr1455e",
+        "semanticCategoryPath": "electronica/pantallas-y-monitores/pizarrones-interactivos/pantallas-colaboracion/55-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.bhphotovideo.com/images/images500x500/dten_dbr1455e_d7x_55_all_in_one_interactive_1670518815_1739071.jpg"
+        ],
+        "specs": {
+          "brand": "DTEN",
+          "model": "DBR1455E",
+          "providerSku": "PANDTE060",
+          "productType": "Pantalla interactiva de colaboracion",
+          "display": "55 pulgadas, UHD 4K, 16:9",
+          "touch": "Capacitiva, 20 puntos tactiles, 50 ms",
+          "camera": "4K, FOV 120 grados / VFOV 88 grados",
+          "audio": "15 microfonos, bocinas estereo, AEC, AGC y reduccion de ruido",
+          "operatingSystem": "Android OS / DTEN OS",
+          "platforms": "Zoom Rooms y Microsoft Teams",
+          "ports": "2 x USB-A 3.0, 2 x USB-C con DP 1.4 y carga 65W, HDMI in/out, audio 3.5 mm, Ethernet 1GbE",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. PCRedCom publico $139,286.61 MXN sin existencia; Exceldisc publico USD 4,500 como brand new.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "PANDTE060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["PCRedCom $139,286.61 MXN sin existencia.", "Exceldisc USD 4,500 brand new."],
+          "reviewNotes": "Producto de colaboracion audiovisual, no laptop; se ubica bajo pantallas interactivas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1245 x 774 x 54 mm; empaque 1367 x 877 x 162 mm", "weight": "21.9 kg; empaque 29.5 kg" },
+        "sourceRefs": [
+          { "title": "B&H DTEN DBR1455E specs", "type": "retailer_specs_image", "url": "https://www.bhphotovideo.com/c/product/1739071-REG/dten_dbr1455e_d7x_55_all_in_one_interactive.html/specs" },
+          { "title": "DTEN D7X technical datasheet", "type": "manufacturer_specs_pdf", "url": "https://assets.dten.com/pdf/D7X-Datasheet.pdf" },
+          { "title": "PCRedCom DTEN DBR1455E", "type": "retailer_price_stock", "url": "https://pcredcom.com/products/dten-dbr1455e" }
+        ]
+      }
+    },
+    {
+      "product_id": "rwz2zll8r6sndst",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Datalogic",
+        "name": "Lector de codigos Datalogic QuickScan QD2590-BKK1S 2D USB con base negro",
+        "description": "Kit lector manual Datalogic QuickScan QD2590-BKK1S 2D area imager con cable USB, base, lectura omnidireccional y tecnologia Green Spot para punto de venta.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-cableados/quickscan-2500/datalogic-qd2590-bkk1s",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/2d-cableados/quickscan-2500",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.oem.co.uk/ProductImages/Barcode-Scanners/QuickScan-QD2590.jpg"
+        ],
+        "specs": {
+          "brand": "Datalogic",
+          "model": "QD2590-BKK1S",
+          "family": "QuickScan 2500",
+          "providerSku": "LCTPSC1030",
+          "productType": "Lector de codigos de barras 2D cableado",
+          "scanEngine": "Area imager 2D, 1 MP",
+          "decodedCodes": "1D, 2D, postal, apilados, compuestos, DotCode y Digimarc segun ficha de familia",
+          "interfaces": "USB-C/USB/RS-232 segun configuracion",
+          "kitIncludes": "Escaner, cable USB 90A052258 y base STD-AUTFLX-QD25-BK",
+          "protection": "IP52, caida 1.5 m",
+          "feedback": "Datalogic Green Spot",
+          "warranty": "5 anos de fabrica segun ficha publica",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. Unimarq publico $2,249.00 MXN sin stock/notificacion.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "LCTPSC1030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T21:40:00Z",
+          "publicAvailabilitySignals": ["Unimarq $2,249.00 MXN sin stock/notificacion."],
+          "reviewNotes": "Algunos resellers lo llaman laser; ficha oficial lo clasifica como area imager 2D."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "14.8 x 6.8 x 12.6 cm", "weight": "145 g" },
+        "sourceRefs": [
+          { "title": "Datalogic QuickScan 2500 series", "type": "manufacturer_specs", "url": "https://www.datalogic.com/eng/retail/handheld-scanners/quickscan-2500-series-pd-878.html" },
+          { "title": "Datalogic QuickScan QD2590 datasheet", "type": "manufacturer_specs_pdf", "url": "https://www.netdotnet.co/shop/qd2590-bkk1s-datalogic-quickscan-qd2590-2d-imager-black-1289/document/160" },
+          { "title": "Unimarq Datalogic QD2590-BKK1S", "type": "retailer_price_stock", "url": "https://unimarq.com.mx/producto/lector-datalogic-qd2590-bkk1s/" }
+        ]
+      }
+    }
+  ]
+}
