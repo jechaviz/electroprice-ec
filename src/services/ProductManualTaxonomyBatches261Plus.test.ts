@@ -157,6 +157,19 @@ const batch272Cases = [
   ["Dahua DH-IPC-HDW2549T-S-PV CAMDAH5800 camara domo IP 5MP dual light disuasion activa", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/domo/5mp-dual-light/active-deterrence/dahua-ipc-hdw2549t-s-pv", "cameras", {}],
 ] as const;
 
+const batch273Cases = [
+  ["Cisco C9200L-48T-4G-E NIC-3725 SWTCIS2840 Catalyst 9200L 48 puertos 4x1G Network Essentials", "CISCO", "redes/switches/administrables/gigabit/48-puertos-4-sfp/cisco-catalyst-c9200l-48t-4g-e", "networking", {}],
+  ["HPE N7P37A AC-6610 StoreEver MSL LTO-7 Ultrium 15000 SAS Drive Upgrade Kit", "HEWLETT PACKARD ENTERPRISE", "computo/almacenamiento/cintas-lto/unidades-lto/lto-7/hpe-storeever-msl-lto7-n7p37a", "storage", {}],
+  ["Tripp Lite U436-06N-GB ACCTRL5030 adaptador USB-C a Gigabit Ethernet RJ45", "TRIPP-LITE", "redes/adaptadores-ethernet/usb-gigabit/usb-c/tripp-lite-u436-06n-gb", "networking", {}],
+  ["Microsoft CFQ7TTC0HD9ZP1YA NCEMMA260 Project Plan 5 Planner CSP anual", "MICROSOFT", "software/licencias/microsoft/project/planner-project-plan-5/csp-anual/cfq7ttc0hd9zp1ya", "software", {}],
+  ["Panduit CFPE4IWY ACCPNT670 Mini-Com faceplate 4 puertos blanco mate", "PANDUIT", "redes/cableado-estructurado/placas-keystone/4-puertos/panduit-cfpe4iwy", "networking", {}],
+  ["Acteck AC-940108 KB-1108 Inspire Trek TI747 teclado inalambrico 99 teclas Bluetooth 5.1", "ACTECK", "computo/perifericos/teclados/inalambricos/multidispositivo/98-teclas-rf-bluetooth/acteck-inspire-trek-ti747-ac-940108", "accessories", {}],
+  ["Cisco C1200-24P-4G SWTCIS4570 Catalyst 1200 switch PoE+ 24 puertos Gigabit 4 SFP", "CISCO", "redes/switches/poe-administrables/gigabit/24-puertos/cisco-catalyst-c1200-24p-4g", "networking", {}],
+  ["Canon PFI-110 Black CARCNN6650 2364C001AA tanque tinta imagePROGRAF 160ml", "CANON", "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-110/160ml/pfi-110bk-2364c001aa", "printers_scanners", {}],
+  ["Quaroni QUM-03 RAM-3944 memoria USB metalica 64GB USB 2.0", "QUARONI", "computo/almacenamiento/memorias-flash/usb/64gb/usb-2-metalicas/quaroni-qum-03", "storage", {}],
+  ["xFusion 0231YBFURR-XF SER-2443 2288H V7 servidor 2U Xeon Silver 4510 64GB DDR5", "X-FUSION", "computo/servidores/rack/2u/dual-socket/xfusion-2288h-v7-0231ybfurr-xf", "laptops", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -225,6 +238,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch272Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch273Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

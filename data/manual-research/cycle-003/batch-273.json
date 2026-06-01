@@ -1,0 +1,394 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b273-2026-06-01",
+  "cycle": 3,
+  "batch": 273,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "08dk2fntclja69u",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Cisco",
+        "name": "Switch Cisco Catalyst C9200L-48T-4G-E 48 puertos Gigabit 4 SFP",
+        "description": "Switch administrable Cisco Catalyst C9200L-48T-4G-E con 48 puertos 10/100/1000, 4 uplinks SFP 1G, Network Essentials, switching de clase campus y alimentacion AC. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html",
+        "manualCategoryPath": "redes/switches/administrables/gigabit/48-puertos-4-sfp/cisco-catalyst-c9200l-48t-4g-e",
+        "semanticCategoryPath": "redes/switches/administrables/gigabit/48-puertos-4-sfp",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTCIS2840/SWTCIS2840_full.jpg"],
+        "documents": ["https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SWTCIS2840", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 30732.2, "currency": "MXN" },
+          { "wholesalerId": "cva", "sku": "NIC-3725", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1667.68, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "C9200L-48T-4G-E",
+          "productType": "Switch administrable campus",
+          "ports": ["48 x 10/100/1000", "4 x SFP 1G"],
+          "software": "Network Essentials",
+          "power": "Fuente AC fija",
+          "stacking": "Compatible con StackWise segun configuracion Catalyst 9200L",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SWTCIS2840; CVA/Electroprice reporta stock 0 para NIC-3725. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SWTCIS2840", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 30732.2, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "NIC-3725", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1667.68, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "44.5 x 28.8 x 4.4 cm", "weight": "4.35 kg" },
+        "sourceRefs": [
+          { "title": "Cisco Catalyst 9200 Series data sheet", "type": "manufacturer_datasheet", "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/nb-06-cat9200-ser-data-sheet-cte-en.html" },
+          { "title": "CTOnline SWTCIS2840", "type": "wholesaler_reference", "url": "https://ctonline.mx/" },
+          { "title": "CVA NIC-3725", "type": "wholesaler_reference", "url": "https://www.grupocva.com/" }
+        ]
+      }
+    },
+    {
+      "product_id": "08rnhlmhm9ycdsz",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HPE",
+        "name": "Unidad HPE StoreEver MSL LTO-7 Ultrium 15000 SAS N7P37A",
+        "description": "Kit de actualizacion HPE StoreEver MSL LTO-7 Ultrium 15000 SAS N7P37A para librerias MSL, unidad de cinta LTO-7 SAS de media altura con capacidad LTO-7 de hasta 6.25 TB comprimidos por cartucho. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.hpe.com/us/en/product-catalog/options/pip.services.1008615881.html",
+        "manualCategoryPath": "computo/almacenamiento/cintas-lto/unidades-lto/lto-7/hpe-storeever-msl-lto7-n7p37a",
+        "semanticCategoryPath": "computo/almacenamiento/cintas-lto/unidades-lto/lto-7",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=896594"],
+        "documents": ["https://www.hpe.com/psnow/generateDDS/HPE%20StoreEver%20MSL%20LTO-7%20Ultrium%2015000%20SAS%20Drive%20Upgrade%20Kit%20data%20sheet-PSN1008615881PLEN.pdf?cc=PL&deepLink=&lc=EN&oid=1008615881&prelaunch=false&prelaunchSection=&print=&section=&softroll=0&softrollSection="],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "AC-6610", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 5392.45, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "N7P37A",
+          "productLine": "HPE StoreEver MSL",
+          "productType": "Kit de unidad de cinta LTO-7 SAS",
+          "interface": "SAS",
+          "generation": "LTO-7 Ultrium 15000",
+          "capacity": "Hasta 6.25 TB comprimidos por cartucho LTO-7",
+          "compatibleLibraries": ["HPE StoreEver MSL2024", "HPE StoreEver MSL4048"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para AC-6610. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-6610", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5392.45, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Formato media altura para bahia de unidad MSL", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "HPE StoreEver MSL LTO-7 Ultrium 15000 SAS Drive Upgrade Kit", "type": "manufacturer_product", "url": "https://www.hpe.com/us/en/product-catalog/options/pip.services.1008615881.html" },
+          { "title": "HPE N7P37A data sheet", "type": "manufacturer_datasheet", "url": "https://www.hpe.com/psnow/generateDDS/HPE%20StoreEver%20MSL%20LTO-7%20Ultrium%2015000%20SAS%20Drive%20Upgrade%20Kit%20data%20sheet-PSN1008615881PLEN.pdf?cc=PL&deepLink=&lc=EN&oid=1008615881&prelaunch=false&prelaunchSection=&print=&section=&softroll=0&softrollSection=" }
+        ]
+      }
+    },
+    {
+      "product_id": "08v3oczgyplab9w",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Eaton Tripp Lite",
+        "name": "Adaptador Eaton Tripp Lite U436-06N-GB USB-C a Gigabit Ethernet",
+        "description": "Adaptador compacto Eaton Tripp Lite U436-06N-GB con conector USB-C macho y puerto RJ45 Gigabit, compatible con USB 3.1 Gen 1/USB 3.0 a 5 Gbps y Thunderbolt 3. No es la variante con Power Delivery. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://images.eaton.com/us/en-us/skuPage.U436-06N-GB.html",
+        "manualCategoryPath": "redes/adaptadores-ethernet/usb-gigabit/usb-c/tripp-lite-u436-06n-gb",
+        "semanticCategoryPath": "redes/adaptadores-ethernet/usb-gigabit/usb-c",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCTRL5030/ACCTRL5030_full.jpg"],
+        "documents": ["https://assets.tripplite.com/product-pdfs/en/u43606ngb.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCTRL5030", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 281.98, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "U436-06N-GB",
+          "upc": "037332206954",
+          "productType": "Adaptador USB-C a Gigabit Ethernet",
+          "hostConnector": "USB-C macho",
+          "networkConnector": "RJ45 hembra",
+          "usb": "USB 3.1 Gen 1 / USB 3.0 hasta 5 Gbps",
+          "networkSpeed": "1 Gbps",
+          "features": ["Bus powered", "Auto-MDIX", "Full duplex", "Wake-on-LAN"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCTRL5030. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCTRL5030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 281.98, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "5.99 x 2.79 x 1.60 cm", "weight": "0.03 kg" },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite U436-06N-GB", "type": "manufacturer_product", "url": "https://images.eaton.com/us/en-us/skuPage.U436-06N-GB.html" },
+          { "title": "Eaton U436-06N-GB product PDF", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/u43606ngb.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "08wtfvpn0sgbjdi",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Microsoft",
+        "name": "Licencia Microsoft Project Plan 5 CSP anual CFQ7TTC0HD9ZP1YA",
+        "description": "Licencia Microsoft Project Plan 5 en canal CSP anual, SKU CFQ7TTC0HD9ZP1YA, para administracion avanzada de portafolios y proyectos en la familia Microsoft Planner/Project. Microsoft indica fin de venta para nuevas compras el 1 de mayo de 2026. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.microsoft.com/en-us/microsoft-365/planner/microsoft-planner-plans-and-pricing",
+        "manualCategoryPath": "software/licencias/microsoft/project/planner-project-plan-5/csp-anual/cfq7ttc0hd9zp1ya",
+        "semanticCategoryPath": "software/licencias/microsoft/project/planner-project-plan-5/csp-anual",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NCEMMA260/NCEMMA260_full.jpg"],
+        "documents": ["https://www.microsoft.com/en-us/microsoft-365/planner/microsoft-planner-plans-and-pricing"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "NCEMMA260", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 604.78, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "CFQ7TTC0HD9ZP1YA",
+          "sku": "NCEMMA260",
+          "productType": "Licencia CSP anual",
+          "service": "Microsoft Project Plan 5 / Planner and Project Plan 5",
+          "billing": "Anual",
+          "lifecycleStatus": "Microsoft indica que Planner and Project Plan 5 paso a fin de venta para nuevas compras el 2026-05-01; nuevas altas deben revisarse contra Planner and Project Plan 3 o politica CSP vigente.",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para NCEMMA260. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "NCEMMA260", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 604.78, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Entrega digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Microsoft Planner plans and pricing", "type": "manufacturer_product", "url": "https://www.microsoft.com/en-us/microsoft-365/planner/microsoft-planner-plans-and-pricing" }
+        ]
+      }
+    },
+    {
+      "product_id": "09b3tbmwgyjrkrs",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Panduit",
+        "name": "Placa Panduit CFPE4IWY Mini-Com 4 puertos blanco mate",
+        "description": "Placa ejecutiva Panduit CFPE4IWY de la familia Mini-Com, color blanco mate/off white, 4 puertos para modulos keystone, instalacion de pared y cableado estructurado. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.panduit.com/en/products/copper-systems/faceplates-boxes/faceplates/cfpe4iwy.html",
+        "manualCategoryPath": "redes/cableado-estructurado/placas-keystone/4-puertos/panduit-cfpe4iwy",
+        "semanticCategoryPath": "redes/cableado-estructurado/placas-keystone/4-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCPNT670/ACCPNT670_full.jpg"],
+        "documents": ["https://www.panduit.com/en/products/copper-systems/faceplates-boxes/faceplates/cfpe4iwy.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCPNT670", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2.72, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "CFPE4IWY",
+          "upc": "074983033409",
+          "productLine": "Mini-Com",
+          "productType": "Faceplate / placa keystone",
+          "ports": "4 puertos",
+          "color": "International white / blanco mate",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCPNT670. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCPNT670", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2.72, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Formato placa de pared estandar", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Panduit CFPE4IWY product page", "type": "manufacturer_product", "url": "https://www.panduit.com/en/products/copper-systems/faceplates-boxes/faceplates/cfpe4iwy.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "09b8br9y0z0jmmv",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Acteck",
+        "name": "Teclado Acteck Inspire Trek TI747 AC-940108 multidispositivo",
+        "description": "Teclado Acteck Inspire Trek TI747 AC-940108 inalambrico multidispositivo, 99 teclas de membrana tipo tijera, conexion RF 2.4 GHz y Bluetooth 5.1, bateria recargable 500 mAh, USB-C y alcance hasta 10 m. CVA reporta stock 0.",
+        "manufacturerUrl": "https://acteck.com/products/teclado-multidispositivo-inspire-trek-ti747-2-4-mhz-2-modos-bt-tamano-98-teclas-de-membrana-tipo-tijera-perfil-delgado-teclas-multimedia-recargable-elite-negro-gris",
+        "manualCategoryPath": "computo/perifericos/teclados/inalambricos/multidispositivo/98-teclas-rf-bluetooth/acteck-inspire-trek-ti747-ac-940108",
+        "semanticCategoryPath": "computo/perifericos/teclados/inalambricos/multidispositivo/98-teclas-rf-bluetooth",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://acteck.com/cdn/shop/files/AC-940108_1_1.webp?v=1736179447&width=1000"],
+        "documents": ["https://fichastecnicas.pchmayoreo.com/AC-940108.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "KB-1108", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 324.39, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "AC-940108",
+          "productLine": "Inspire Trek TI747",
+          "ean": "7506215940108",
+          "productType": "Teclado inalambrico multidispositivo",
+          "keys": "99 teclas",
+          "switchType": "Membrana tipo tijera",
+          "wireless": ["RF 2.4 GHz", "Bluetooth 5.1"],
+          "devicePairing": "Hasta 5 dispositivos",
+          "battery": "500 mAh, hasta 70 horas, carga 2 horas",
+          "cable": "USB-C a USB-A 80 cm",
+          "range": "10 m",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para KB-1108. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "KB-1108", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 324.39, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "37.4 x 14 x 2.6 cm", "weight": "620 g", "packageDimensions": "41.5 x 15 x 2.8 cm" },
+        "sourceRefs": [
+          { "title": "Acteck AC-940108 product page", "type": "manufacturer_product", "url": "https://acteck.com/products/teclado-multidispositivo-inspire-trek-ti747-2-4-mhz-2-modos-bt-tamano-98-teclas-de-membrana-tipo-tijera-perfil-delgado-teclas-multimedia-recargable-elite-negro-gris" },
+          { "title": "Acteck AC-940108 ficha tecnica", "type": "manufacturer_datasheet", "url": "https://fichastecnicas.pchmayoreo.com/AC-940108.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "09c63gdb5stl21z",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Cisco",
+        "name": "Switch Cisco Catalyst C1200-24P-4G 24 puertos PoE+ 4 SFP",
+        "description": "Switch administrable Cisco Catalyst C1200-24P-4G con 24 puertos Gigabit PoE+, 4 uplinks SFP Gigabit, presupuesto PoE 195 W, capacidad de switching 56 Gbps y consola RJ45/USB-C. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1200-series-switches/nb-06-cat1200-ser-data-sheet-cte-en.html",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/24-puertos/cisco-catalyst-c1200-24p-4g",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/24-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTCIS4570/SWTCIS4570_full.jpg"],
+        "documents": ["https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1200-series-switches/nb-06-cat1200-ser-data-sheet-cte-en.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SWTCIS4570", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 8647.78, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "C1200-24P-4G",
+          "ean": "0889728521703",
+          "productType": "Switch administrable PoE+",
+          "ports": ["24 x 10/100/1000 PoE+", "4 x SFP Gigabit"],
+          "poeBudget": "195 W",
+          "switchingCapacity": "56 Gbps",
+          "forwardingRate": "41.66 Mpps",
+          "console": ["RJ45", "USB-C"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SWTCIS4570. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SWTCIS4570", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8647.78, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "44.5 x 29.9 x 4.4 cm", "weight": "3.53 kg" },
+        "sourceRefs": [
+          { "title": "Cisco Catalyst 1200 Series data sheet", "type": "manufacturer_datasheet", "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1200-series-switches/nb-06-cat1200-ser-data-sheet-cte-en.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "09fmi8coa9uei1q",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Canon",
+        "name": "Tanque de tinta Canon PFI-110BK negro 160 ml 2364C001AA",
+        "description": "Tanque de tinta pigmentada Canon PFI-110BK negro 2364C001AA de 160 ml para impresoras de gran formato imagePROGRAF TX, como TX-3000 y TX-4000. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.bhphotovideo.com/c/product/1437871-REG/canon_2364c001aa_pfi_110bk_pigment_black_ink.html",
+        "manualCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-110/160ml/pfi-110bk-2364c001aa",
+        "semanticCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-110/160ml",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARCNN6650/CARCNN6650_full.jpg"],
+        "documents": ["https://www.bhphotovideo.com/c/product/1437871-REG/canon_2364c001aa_pfi_110bk_pigment_black_ink.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CARCNN6650", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1653.83, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "PFI-110BK",
+          "manufacturerPartNumber": "2364C001AA",
+          "upc": "013803294286",
+          "productType": "Tanque de tinta pigmentada",
+          "color": "Negro",
+          "volume": "160 ml",
+          "compatibility": ["Canon imagePROGRAF TX-3000", "Canon imagePROGRAF TX-4000", "Canon imagePROGRAF TX series"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CARCNN6650. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CARCNN6650", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1653.83, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "14.48 x 14.48 x 5.46 cm empaque", "weight": "0.37 kg empaque" },
+        "sourceRefs": [
+          { "title": "Canon PFI-110BK 2364C001AA reference", "type": "retailer_reference", "url": "https://www.bhphotovideo.com/c/product/1437871-REG/canon_2364c001aa_pfi_110bk_pigment_black_ink.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "09qboi3wgbf710k",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Quaroni",
+        "name": "Memoria USB Quaroni QUM-03 64GB USB 2.0 metalica",
+        "description": "Memoria USB Quaroni QUM-03 de 64GB, cuerpo metalico, interfaz USB-A 2.0 y compatibilidad con Windows, macOS y Linux. CVA reporta stock 0.",
+        "manufacturerUrl": "https://quaroni.mx/paginas/pagina-producto.php?categoria=MEMORIAS",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/usb-2-metalicas/quaroni-qum-03",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/usb-2-metalicas",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/10362884.jpg"],
+        "documents": ["https://cdn.cyberpuerta.mx/storage/articles/multimedia/647/53c/c7a/64753cc7a9e563.80436531.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "RAM-3944", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2.51, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "QUM-03",
+          "productType": "Memoria USB",
+          "capacity": "64GB",
+          "interface": "USB-A 2.0",
+          "material": "Metal",
+          "compatibility": ["Windows", "macOS", "Linux"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para RAM-3944. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "RAM-3944", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2.51, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Formato compacto USB-A", "weight": "5.7 g" },
+        "sourceRefs": [
+          { "title": "Quaroni memorias", "type": "manufacturer_product", "url": "https://quaroni.mx/paginas/pagina-producto.php?categoria=MEMORIAS" },
+          { "title": "Cyberpuerta Quaroni QUM-03", "type": "retailer_reference", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Memorias-RAM-y-Flash/Memorias-USB/Memoria-USB-Quaroni-QUM-03-64GB-USB-2-0-Metal.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "09tnux2duhd3kae",
+      "research": {
+        "confidence": 0.93,
+        "brand": "xFusion",
+        "name": "Servidor xFusion FusionServer 2288H V7 2U 0231YBFURR-XF",
+        "description": "Servidor rack xFusion FusionServer 2288H V7 0231YBFURR-XF de 2U y doble socket, configurado por proveedor con 2 Xeon Silver 4510, 64GB DDR5, 12 bahias 3.5, RAID XC-470C, OCP Intel I350 2x1GbE, doble fuente 900W y sin sistema operativo. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.xfusion.com/en/product/rack-server/fusionserver-2288h-v7",
+        "manualCategoryPath": "computo/servidores/rack/2u/dual-socket/xfusion-2288h-v7-0231ybfurr-xf",
+        "semanticCategoryPath": "computo/servidores/rack/2u/dual-socket",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/10466240.jpg"],
+        "documents": ["https://www.xfusion.com/static/en/resource/fusionserver-2288h-v7-datasheet", "https://www.xfusion.com/static/en/resource/fusionserver-2288h-v7-technical-white-paper"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SER-2443", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3530.82, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "0231YBFURR-XF",
+          "productLine": "FusionServer 2288H V7",
+          "productType": "Servidor rack 2U dual-socket",
+          "processor": "2 x Intel Xeon Silver 4510",
+          "memory": "2 x 32GB DDR5 5600 ECC",
+          "driveBays": "12 x 3.5 pulgadas SAS/SATA",
+          "raid": "XC-470C 12Gb/s con 4GB cache",
+          "network": "OCP 3.0 Intel I350 2 x 1GbE",
+          "powerSupply": "2 x 900W",
+          "operatingSystem": "No incluido",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SER-2443. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SER-2443", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3530.82, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "86.1 x 447 x 798 mm", "weight": "Hasta 35.5 kg configuracion completa", "packageWeight": "5 kg adicionales aproximados" },
+        "sourceRefs": [
+          { "title": "xFusion FusionServer 2288H V7", "type": "manufacturer_product", "url": "https://www.xfusion.com/en/product/rack-server/fusionserver-2288h-v7" },
+          { "title": "xFusion FusionServer 2288H V7 datasheet", "type": "manufacturer_datasheet", "url": "https://www.xfusion.com/static/en/resource/fusionserver-2288h-v7-datasheet" },
+          { "title": "GlobalOffice 0231YBFURR-XF", "type": "retailer_reference", "url": "https://globaloffice.com.mx/app/detalle/producto/servidores-y-nas/servidor-xfusion-2288h-v7-intel-xeon-silver-4510/0231ybfurr-xf" }
+        ]
+      }
+    }
+  ]
+}
