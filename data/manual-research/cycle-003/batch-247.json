@@ -1,0 +1,417 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b247-2026-06-01",
+  "cycle": 3,
+  "batch": 247,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ypa9z1rf10mbfoh",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Epson",
+        "name": "Epson SJMB4000 Caja de Mantenimiento para ColorWorks CW-C4000 / TM-C4000 C33S021601",
+        "description": "Caja de mantenimiento original Epson SJMB4000 para impresoras ColorWorks CW-C4000 y TM-C4000; recolecta tinta residual de ciclos de limpieza de cabezal.",
+        "manualCategoryPath": "impresion/consumibles/cajas-mantenimiento/epson-colorworks/c33s021601",
+        "semanticCategoryPath": "impresion/consumibles/cajas-mantenimiento/epson-colorworks",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.unicom.mx/ecommerce/uploads/CIEPC33S021601.jpg"
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "SJMB4000 / C33S021601",
+          "providerSku": "CN-4672",
+          "productType": "Caja de mantenimiento para impresora de etiquetas",
+          "compatibility": "Epson ColorWorks CW-C4000 / CW-C4000E BK / TM-C4000",
+          "function": "Recolecta tinta residual de limpieza de cabezal",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal publica; GlobalOffice muestra 19 pzas y Almacen Mexico 14 pzas; Cyberpuerta muestra 7 pzas.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CN-4672", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $629 MXN, 19 pzas, Almacen Mexico 14 pzas.", "Cyberpuerta $579 MXN, 7 pzas.", "BarcodeFactory lista peso de 1 lb."],
+          "reviewNotes": "Consumible de mantenimiento de impresion; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No publicas confiables", "weight": "1 lb publico; 0.55 lb shipping weight en MacConnection" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Epson C33S021601", "type": "retailer_stock_location", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/consumibles/caja-de-mantenimiento-epson-sjmb4000-c33s021601-pa/c33s021601" },
+          { "title": "Cyberpuerta Epson caja de mantenimiento CW-C4000", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Accesorios-de-Impresion/Kits-de-Mantenimiento/Epson-Caja-de-Mantenimiento-para-CW-C4000.html" },
+          { "title": "BarcodeFactory Epson C33S021601", "type": "retailer_specs", "url": "https://www.barcodefactory.com/epson/accessories/c33s021601" },
+          { "title": "Epson CW-C4000 user guide", "type": "manufacturer_manual", "url": "https://download4.epson.biz/sec_pubs/bs/pdf/CW-C4000_Series_ug_en_03.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "u6rdwbqx9xxp49c",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Cisco",
+        "name": "Cisco Catalyst 9115AXI Access Point Wi-Fi 6 antenas internas dominio A C9115AXI-A",
+        "description": "Punto de acceso empresarial Cisco Catalyst 9115AXI-A con Wi-Fi 6, antenas internas, radio 4x4:4, puerto multigigabit y alimentacion PoE+.",
+        "manualCategoryPath": "redes/access-points/wifi-6/techo/cisco-catalyst-9115axi-a",
+        "semanticCategoryPath": "redes/access-points/wifi-6/techo",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.aztecacompras.com/media/catalog/product/cache/045b5a3b3664b9c18c240c61d4305fba/1/6/1650XB4_1.jpg",
+          "https://www.networktigers.com/cdn/shop/products/cisco-C9115AXI-A_463x.progressive.jpg?v=1684427734"
+        ],
+        "specs": {
+          "brand": "Cisco",
+          "model": "C9115AXI-A",
+          "providerSku": "ACPCIS880",
+          "upc": "889728211741",
+          "productType": "Access point Wi-Fi 6 empresarial",
+          "wireless": "802.11ax Wi-Fi 6, doble banda 2.4/5 GHz, 4x4:4 MIMO",
+          "interfaces": "RJ-45 multigigabit 100/1000/2500, RJ-45 consola, USB 2.0",
+          "power": "PoE+ 802.3at recomendado; 802.3af con modo degradado",
+          "antenna": "Internas, dominio regulatorio A",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; GlobalOffice muestra existencias en proceso de llegada; AztecaCompras publica 0 pzas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACPCIS880", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $16,872 MXN con llegada pendiente.", "AztecaCompras $17,512 MXN, 0 pzas.", "Mac Toner $21,519.91 MXN sin existencias."],
+          "reviewNotes": "Equipo de red activa; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "20.3 x 20.3 x 3.8 cm", "weight": "0.9 kg" },
+        "sourceRefs": [
+          { "title": "Cisco Catalyst 9100AX datasheet", "type": "manufacturer_specs", "url": "https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9100ax-access-points/datasheet-c78-741988.html" },
+          { "title": "GlobalOffice Cisco C9115AXI-A", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/red-activa/cisco-catalyst-9115ax-series/c9115axi-a" },
+          { "title": "AztecaCompras Cisco C9115AXI-A", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx00000057877-cisco-c9115axi-a-catalyst-9115ax-series.html" },
+          { "title": "Mac Toner Cisco C9115AXI-A", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/punto-de-acceso-cisco-c9115axi-a/" }
+        ]
+      }
+    },
+    {
+      "product_id": "cin45tjk87j6kku",
+      "research": {
+        "confidence": 0.88,
+        "brand": "LG",
+        "name": "LG Mini Split ON/OFF 1.5 toneladas Solo Frio 17000 BTU/h 230V MV182C4",
+        "description": "Aire acondicionado minisplit LG MV182C4 solo frio de 1.5 toneladas, 230V, control remoto y temporizador; fichas relacionadas MW182C4 confirman capacidad y dimensiones.",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/minisplit/estandar/18000-btu/solo-frio-230v/lg-mv182c4",
+        "semanticCategoryPath": "climatizacion/aires-acondicionados/minisplit/estandar/18000-btu/solo-frio-230v",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://compupuebla.com/wp-content/uploads/2024/04/MiniSplitAireAcondicionadoLGONOFF1_MV182C3_EAN8806087961966_0.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MiniSplitAireAcondicionadoLGONOFF1_MV182C3_EAN8806087961966_1.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-LG-MW182C4-37f224.png"
+        ],
+        "specs": {
+          "brand": "LG",
+          "model": "MV182C4",
+          "providerSku": "AIRLGE510",
+          "ean": "8806087961966",
+          "productType": "Minisplit estandar solo frio",
+          "capacity": "17000 BTU/h, 1.5 toneladas comercial",
+          "voltage": "230 V / 60 Hz",
+          "refrigerantRelatedModel": "R410A reportado en MW182C4 relacionado",
+          "features": "Control remoto, temporizador 24 h, color blanco",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Prodeco muestra disponibles sin cantidad; AztecaCompras MW182C4 muestra 4 pzas y Cyberpuerta 47 pzas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "AIRLGE510", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["CompuPuebla $9,506 MXN sin existencias.", "Prodeco $8,517 MXN con disponibles sin cantidad.", "AztecaCompras MW182C4 $8,831 MXN, 4 pzas.", "Cyberpuerta MW182C4 $7,819 MXN, 47 pzas."],
+          "reviewNotes": "Mantener EAN proveedor MV182C4; MW182C4 se conserva como modelo relacionado, no sustituto automatico."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Interior 890 x 300 x 219 mm; exterior 810 x 585 x 280 mm en MW182C4 relacionado", "weight": "10.9 kg interior; 37 kg exterior en MW182C4 relacionado" },
+        "sourceRefs": [
+          { "title": "CompuPuebla LG MV182C4", "type": "retailer_specs_stock", "url": "https://compupuebla.com/producto/aire-acondicionado-lg-mv182c3/" },
+          { "title": "Prodeco LG MV182C4", "type": "retailer_stock", "url": "https://prodeco.com.mx/productos/linea-blanca/aires-acondicionados/lg/mv182c4/z-43446" },
+          { "title": "LG Mexico MW182C4 specs", "type": "manufacturer_specs_related", "url": "https://www.lg.com/mx/aire-acondicionado/minisplit-on-off/mw182c4/" },
+          { "title": "AztecaCompras LG MW182C4", "type": "retailer_stock_related", "url": "https://www.aztecacompras.com/mx0000104875-lg-mw182c4-aire-acondicionado-mini-split-jet-cool-17000-btu-h-solo-fr-o-230v-on-off-r410a.html" },
+          { "title": "Cyberpuerta LG MW182C4", "type": "retailer_stock_related", "url": "https://www.cyberpuerta.mx/Por-Marca/LG/LG-Aire-Acondicionado-Minisplit-MW182C4-17000-BTU-h-4-982W-Solo-Frio-Blanco.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "mzfhkrvmktb4kxs",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Amazfit",
+        "name": "Amazfit GTR 3 Smartwatch Gris Luna con banda gris",
+        "description": "Smartwatch Amazfit GTR 3 color gris con pantalla AMOLED circular, GPS multiconstelacion, resistencia 5 ATM y sensores BioTracker 3.0.",
+        "manualCategoryPath": "electronica/wearables/smartwatches/gps/amazfit-gtr-3",
+        "semanticCategoryPath": "electronica/wearables/smartwatches/gps",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCAMZ200_full-1024x1024-600x600.jpg"
+        ],
+        "specs": {
+          "brand": "Amazfit",
+          "model": "GTR 3",
+          "providerSku": "ACCAMZ200",
+          "upc": "850030107299",
+          "productType": "Smartwatch GPS",
+          "color": "Gris luna con banda gris",
+          "display": "AMOLED 1.39 pulgadas, 454 x 454, 326 ppi",
+          "battery": "450 mAh, hasta 21 dias uso tipico",
+          "connectivity": "Bluetooth 5.1 BLE",
+          "positioning": "GPS, GLONASS, Galileo, BDS y QZSS",
+          "sensors": "BioTracker PPG 3.0, SpO2, frecuencia cardiaca, estres y sueno",
+          "waterResistance": "5 ATM",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mactoner CDMX y Novusred publican agotado/stock 0.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAMZ200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $3,487.90 MXN sin existencias.", "Novusred indexado cerca de $3,143.55 MXN, stock 0."],
+          "reviewNotes": "Wearable con GPS; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "45.8 x 45.8 x 10.8 mm", "weight": "32 g sin correa" },
+        "sourceRefs": [
+          { "title": "Mac Toner Amazfit GTR 3", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/smartwatch-amazfit-gtr-3/" },
+          { "title": "Amazfit GTR 3 official specs", "type": "manufacturer_specs", "url": "https://www.amazfit.com/products/amazfit-gtr-3" }
+        ]
+      }
+    },
+    {
+      "product_id": "pv3eps5hh17e60a",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Amazfit",
+        "name": "Amazfit GTS 3 Smartwatch Blanco Marfil con banda blanca",
+        "description": "Smartwatch Amazfit GTS 3 blanco con pantalla AMOLED rectangular de 1.75 pulgadas, GPS multiconstelacion, microfono y sensores BioTracker 3.0.",
+        "manualCategoryPath": "electronica/wearables/smartwatches/gps/amazfit-gts-3",
+        "semanticCategoryPath": "electronica/wearables/smartwatches/gps",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCAMZ350_full-1024x1024-600x600.jpg"
+        ],
+        "specs": {
+          "brand": "Amazfit",
+          "model": "GTS 3",
+          "providerSku": "ACCAMZ350",
+          "upc": "850030107312",
+          "productType": "Smartwatch GPS",
+          "color": "Blanco marfil con banda blanca",
+          "display": "AMOLED 1.75 pulgadas, 390 x 450, 341 ppi",
+          "battery": "250 mAh, hasta 12 dias uso tipico",
+          "connectivity": "Bluetooth 5.1 BLE",
+          "positioning": "GPS, GLONASS, Galileo, BDS y QZSS",
+          "sensors": "BioTracker PPG 3.0, SpO2, frecuencia cardiaca, estres y sueno",
+          "waterResistance": "5 ATM",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mactoner, PCStore y CTI aparecen agotados.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAMZ350", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $3,487.90 MXN sin existencias.", "PCStore $3,079 MXN agotado.", "CTI $3,051 MXN agotado."],
+          "reviewNotes": "Wearable con GPS; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "42.4 x 36 x 8.8 mm", "weight": "24.4 g sin correa" },
+        "sourceRefs": [
+          { "title": "Mac Toner Amazfit GTS 3", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/smartwatch-amazfit-gts-3/" },
+          { "title": "Amazfit GTS 3 official specs", "type": "manufacturer_specs", "url": "https://www.amazfit.com/products/amazfit-gts-3" }
+        ]
+      }
+    },
+    {
+      "product_id": "vqwppnjw3d520ju",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Amazfit",
+        "name": "Amazfit Band 5 Pulsera inteligente verde",
+        "description": "Pulsera inteligente Amazfit Band 5 color verde con pantalla AMOLED de 1.1 pulgadas, sensores BioTracker 2.0, resistencia 5 ATM y compatibilidad Android/iOS.",
+        "manualCategoryPath": "electronica/wearables/pulseras-inteligentes/amazfit-band-5",
+        "semanticCategoryPath": "electronica/wearables/pulseras-inteligentes",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCAMZ290_full-600x600.jpg"
+        ],
+        "specs": {
+          "brand": "Amazfit",
+          "model": "Band 5",
+          "providerSku": "ACCAMZ290",
+          "upc": "850015911859",
+          "productType": "Pulsera inteligente",
+          "color": "Verde",
+          "display": "AMOLED color 1.1 pulgadas, 126 x 294",
+          "battery": "125 mAh",
+          "connectivity": "Bluetooth 5.0 BLE",
+          "sensors": "BioTracker PPG 2, acelerometro y giroscopio de 3 ejes",
+          "waterResistance": "5 ATM",
+          "compatibility": "Android/iOS",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mactoner, PCStore y MiPC publican agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAMZ290", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $817.46 MXN sin existencias.", "PCStore $730 MXN agotado.", "MiPC $877.54 MXN agotado."],
+          "reviewNotes": "Smartband/wearable; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "47.2 x 18.5 x 12.4 mm", "weight": "24 g con correa; 12 g sin correa" },
+        "sourceRefs": [
+          { "title": "Mac Toner Amazfit Band 5", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/smartwatch-amazfit-band-5/" },
+          { "title": "MiPC Amazfit Band 5", "type": "retailer_stock_location", "url": "https://mipc.com.mx/smartwatch-amazfit-band-5-accamz290.html" },
+          { "title": "Amazfit Band 5 official specs", "type": "manufacturer_specs", "url": "https://www.amazfit.com/products/amazfit-band-5" }
+        ]
+      }
+    },
+    {
+      "product_id": "ti5h5toliricz6z",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Corsair",
+        "name": "Audifonos gamer Corsair HS55 Surround alambricos 3.5 mm/USB Dolby Audio 7.1 carbon",
+        "description": "Headset gamer Corsair HS55 Surround color carbon, alambrico 3.5 mm con adaptador USB para Dolby Audio 7.1 en PC/Mac y drivers de 50 mm.",
+        "manualCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb/corsair-hs55-surround-carbon",
+        "semanticCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/BOCCOR400_full-600x600.jpg",
+          "https://www.techsmart.com.mx/techsmartv2/images/productos/marcas/CORSAIR/CA-9011265-NA.jpg"
+        ],
+        "specs": {
+          "brand": "Corsair",
+          "model": "HS55 Surround Carbon",
+          "partNumber": "CA-9011265-NA",
+          "providerSku": "BOCCOR400",
+          "upc": "840006643715",
+          "productType": "Headset gamer alambrico",
+          "connection": "3.5 mm + adaptador USB",
+          "surround": "Dolby Audio 7.1 en PC/Mac",
+          "drivers": "50 mm",
+          "headphoneFrequencyResponse": "20 Hz - 20 kHz",
+          "impedance": "32 ohm @ 1 kHz",
+          "sensitivity": "114 dB +/- 3 dB",
+          "microphone": "Omnidireccional abatible, 100 Hz - 10 kHz, -41 dB +/- 3 dB",
+          "cable": "1.8 m",
+          "compatibility": "PC, Mac, PlayStation, Xbox y movil",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mac Toner CDMX y Corsair US publican sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCCOR400", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $469.84 MXN sin existencias.", "Corsair US US$69.99 Out of Stock.", "GlobalOffice muestra precio/existencias en proceso."],
+          "reviewNotes": "Audio gamer; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No publicas confiables", "weight": "0.284 kg" },
+        "sourceRefs": [
+          { "title": "Mac Toner Corsair HS55 Carbon", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/auriculares-gaming-corsair-hs55-carbon-ca-9011265-na/" },
+          { "title": "Corsair HS55 Surround Carbon official", "type": "manufacturer_specs_stock", "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011265-na/hs55-surround-wired-gaming-headset-carbon-ca-9011265-na" },
+          { "title": "GlobalOffice Corsair CA-9011265-NA", "type": "retailer_stock", "url": "https://globaloffice.mx/app/detalle/producto/audifonos/audifonos-corsair-ca-9011265-na-hs55-sur/ca-9011265-na" }
+        ]
+      }
+    },
+    {
+      "product_id": "g43qm684bbe005c",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Corsair",
+        "name": "Audifonos gamer Corsair HS65 Surround alambricos 3.5 mm/USB SoundID Dolby Audio 7.1 blanco",
+        "description": "Headset gamer Corsair HS65 Surround White identificado por SKU CA-9011271-NA y UPC 840006643838; corrige el titulo publico que lo llama HS55 White.",
+        "manualCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb/corsair-hs65-surround-white",
+        "semanticCategoryPath": "audio/audifonos/diadema/gaming/alambricos/3-5mm-usb",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/BOCCOR420_1_full-600x600.jpg",
+          "https://assets.corsair.com/image/upload/akamai/pdp/headsets/hs65-surround/assets/images/hs65-slider-03.jpg",
+          "https://assets.corsair.com/image/upload/akamai/pdp/headsets/hs65-surround/assets/images/hs65-slider-01.jpg"
+        ],
+        "specs": {
+          "brand": "Corsair",
+          "model": "HS65 Surround White",
+          "partNumber": "CA-9011271-NA",
+          "providerSku": "BOCCOR420",
+          "upc": "840006643838",
+          "productType": "Headset gamer alambrico",
+          "connection": "3.5 mm + adaptador USB",
+          "surround": "SoundID y Dolby Audio 7.1 en PC/Mac",
+          "drivers": "50 mm",
+          "headphoneFrequencyResponse": "20 Hz - 20 kHz",
+          "impedance": "32 ohm @ 1 kHz",
+          "sensitivity": "114 dB +/- 3 dB",
+          "microphone": "Omnidireccional abatible, 100 Hz - 10 kHz, -41 dB +/- 3 dB",
+          "cable": "1.8 m",
+          "compatibility": "PC, Mac, PlayStation, Xbox y movil",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mac Toner CDMX y PCStore MX aparecen agotados; Corsair US muestra stock.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "BOCCOR420", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $567.93 MXN sin existencias.", "Corsair US US$49.99 en oferta con stock.", "PCStore MX $1,058 MXN agotado."],
+          "reviewNotes": "El UPC/SKU corresponde a HS65 Surround White CA-9011271-NA; se conserva la discrepancia HS55 White como alias de proveedor."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No publicas confiables", "weight": "0.282 kg" },
+        "sourceRefs": [
+          { "title": "Mac Toner Corsair HS55 White / HS65 SKU", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/auriculares-gaming-corsair-hs55-white-ca-9011271-na/" },
+          { "title": "Corsair HS65 Surround White official", "type": "manufacturer_specs_stock", "url": "https://www.corsair.com/us/en/p/gaming-headsets/ca-9011271-na/hs65-surround-wired-gaming-headset-white-ca-9011271-na" },
+          { "title": "PCStore Corsair HS65 White", "type": "retailer_stock", "url": "https://pcstore.mx/headset-corsair-hs65-surround-wired-white-ca-9011271-na" }
+        ]
+      }
+    },
+    {
+      "product_id": "n1i6qbjby7uxz1x",
+      "research": {
+        "confidence": 0.82,
+        "brand": "Stylos",
+        "name": "Stylos STSWM3D Smartwatch Bluetooth dorado resistente al agua",
+        "description": "Smartwatch Stylos STSWM3D dorado con conectividad Bluetooth y proteccion resistente al agua; datos publicos de pantalla, bateria, medidas y peso no disponibles.",
+        "manualCategoryPath": "electronica/wearables/smartwatches/stylos-stswm3d",
+        "semanticCategoryPath": "electronica/wearables/smartwatches",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCSTY390_full-600x600.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-stswm3d-smartwatch-bluetooth-dorado-stswm3d.webp"
+        ],
+        "specs": {
+          "brand": "Stylos",
+          "model": "STSWM3D",
+          "providerSku": "ACCSTY390",
+          "upc": "N/A",
+          "productType": "Smartwatch basico",
+          "color": "Dorado",
+          "connectivity": "Bluetooth",
+          "protection": "Resistente al agua",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mac Toner CDMX y Cityshop Leon publican producto agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCSTY390", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $434.07 MXN sin existencias.", "Cityshop producto agotado."],
+          "reviewNotes": "Wearable basico; datos no publicados se dejan explicitos para evitar inventar especificaciones."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No disponibles publicamente", "weight": "No disponible publicamente" },
+        "sourceRefs": [
+          { "title": "Mac Toner Stylos STSWM3D", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/smartwatch-stylos-stswm3d/" },
+          { "title": "Cityshop Stylos STSWM3D", "type": "retailer_stock_location", "url": "https://cityshop.mx/producto/smartwatch-bluetooth-dorado-stswm3d/" }
+        ]
+      }
+    },
+    {
+      "product_id": "c7atjy5q6jsc373",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TP-Link",
+        "name": "Contacto inteligente TP-Link Tapo P105 1-pack Mini Smart Wi-Fi Plug 15A blanco",
+        "description": "Mini contacto inteligente TP-Link Tapo P105 de 1 pieza para 2.4 GHz, carga maxima 15 A / 1800 W y compatibilidad con Alexa, Google Assistant y Samsung SmartThings.",
+        "manualCategoryPath": "domotica/contactos-inteligentes/wifi/tp-link-tapo-p105-1-pack",
+        "semanticCategoryPath": "domotica/contactos-inteligentes/wifi",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.grupocva.com/detalle_articulo/10407192.jpg",
+          "https://compufax.com.mx/127121-large_default/mini-contacto-tp-link-tapo-p1051-pack-inteligente.jpg"
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Tapo P105 1-pack",
+          "providerSku": "SH-50",
+          "productType": "Contacto inteligente Wi-Fi",
+          "wireless": "Wi-Fi 2.4 GHz IEEE 802.11b/g/n; Bluetooth solo para configuracion",
+          "load": "15 A / 1800 W @ 120 V, motor 1/6 HP",
+          "input": "100-125 V~ 50/60 Hz",
+          "voiceAssistants": "Alexa, Google Assistant, Samsung SmartThings",
+          "material": "PC retardante UL94-V0",
+          "certifications": "FCC, RoHS, UL",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal publica; GlobalOffice muestra 0 local y Almacen Mexico 1 pza.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SH-50", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T16:05:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $258 MXN, 0 local y Almacen Mexico 1 pza.", "TiendaClic $231.88 MXN con existencia aproximada 0.", "Compufax $179 MXN agotado."],
+          "reviewNotes": "Smart home/domotica; no laptop."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "60 x 38 x 33 mm", "weight": "No visible en ficha oficial" },
+        "sourceRefs": [
+          { "title": "GlobalOffice TP-Link Tapo P105 1-pack", "type": "retailer_stock_location", "url": "https://globaloffice.mx/app/detalle/producto/smart-home/mini-contacto-tp-link-tapo-p1051-pack-inteligente/tapo-p1051-pack" },
+          { "title": "TiendaClic TP-Link Tapo P105", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/mini-contacto-tp-link-tapo-p1051-pack-inteligente-tp-link-tapo-p1051-pack" },
+          { "title": "Compufax TP-Link Tapo P105", "type": "retailer_stock", "url": "https://compufax.com.mx/39246-mini-contacto-tp-link-tapo-p1051-pack-inteligente.html" },
+          { "title": "TP-Link Tapo P105 official specs", "type": "manufacturer_specs", "url": "https://www.tp-link.com/us/home-networking/smart-plug/tapo-p105/" }
+        ]
+      }
+    }
+  ]
+}
