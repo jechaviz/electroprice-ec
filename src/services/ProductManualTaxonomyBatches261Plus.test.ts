@@ -248,6 +248,19 @@ const batch279Cases = [
   ["Uniview IPC3632SS-ADZK-I1 CI121UNV79 camara IP turret 2MP LightHunter varifocal", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/turret/2mp-lighthunter-varifocal/uniview-ipc3632ss-adzk-i1", "cameras", {}],
 ] as const;
 
+const batch280Cases = [
+  ["UNV Uniview IPC544SE-DK-I0 CI111UNV83 camara network box 4MP LightHunter WDR PoE", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/box/4mp-lighthunter-wdr/uniview-ipc544se-dk-i0", "cameras", {}],
+  ["GHIA GA7333R26 NOTGHIA-442 tablet A7 A333 Android 15 7 pulgadas 3GB 64GB roja", "GHIA", "computo/tabletas/android/7-pulgadas/3gb-64gb/ghia-a7-a333-ga7333r26-roja", "tablets", {}],
+  ["SanDisk SDCZIC-128G-G46O RAM-4703 Crayola USB-C 128GB Mango Tango 619659223342", "SANDISK", "computo/almacenamiento/memorias-flash/usb-c/128gb/diseno-crayola/sandisk-sdczic-128g-g46o-mango", "storage", {}],
+  ["Honeywell STND-15F03-101-4 ACCYJE010 base flexible 6 pulgadas para lector", "HONEYWELL", "punto-de-venta/lectores-codigo-barras/accesorios/bases-flexibles/honeywell-stnd-15f03-101-4", "accessories", {}],
+  ["Microsoft CFQ7TTC0LFJ1:0001:P1Y SWS-6347 Enterprise Mobility Security E5 anual", "MICROSOFT", "software/licencias/microsoft/enterprise-mobility-security/e5/csp-anual/cfq7ttc0lfj1-0001-p1y", "software", {}],
+  ["3nStar SC504 LEC-154 lector codigo barras 2D omnidireccional USB 60 fps", "3NSTAR", "punto-de-venta/lectores-codigo-barras/2d-usb/omnidireccionales/3nstar-sc504", "accessories", {}],
+  ["Siigo Aspel NOIL2AN SWS-5968 NOI 11 actualizacion 2 usuarios adicionales perpetuos", "ASPEL", "software/licencias/aspel-noi/usuarios-adicionales/noi-11-2-usuarios/actualizacion-perpetua/noil2an", "software", {}],
+  ["AMD Ryzen 9 9950X3D2 CPUAMD2940 9-9950X3D2 16 nucleos 208MB cache AM5", "AMD", "computo/componentes/procesadores/amd-ryzen/ryzen-9/9000-series/x3d2/ryzen-9-9950x3d2", "components", {}],
+  ["Ovaltech OTH6930 BATOVL660 bateria HP Business Notebook 6530b 4400mAh 10.8V", "OVALTECH", "computo/accesorios/baterias-laptop/hp/business-notebook-6530b/ovaltech-oth6930-batovl660", "accessories", {}],
+  ["AMD Ryzen 7 7700X CPUAMD2410 procesador AM5 8 nucleos 40MB cache 730143314428", "AMD", "computo/componentes/procesadores/amd-ryzen/ryzen-7/7000-series/ryzen-7-7700x", "components", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -358,6 +371,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch279Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch280Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
