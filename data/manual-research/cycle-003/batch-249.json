@@ -1,0 +1,397 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b249-2026-06-01",
+  "cycle": 3,
+  "batch": 249,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "bzdn287fec8z72z",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Extension de garantia Dell Premium Support 3 anos para Inspiron 14 7430/7440 2-en-1",
+        "description": "Poliza digital Dell que actualiza un Inspiron 14 7430/7440 2-en-1 de 1 ano Carry-In/centro de servicio a 3 anos Premium Support.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support/inspiron-notebooks/inspiron-7430-7440-2in1/1y-carry-in-a-3y-premium-support",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support/inspiron-notebooks/inspiron-7430-7440-2in1",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.alteccomputacion.com/tienda/74982-medium_default/poliza-de-garantia-dell-para-inspiron-notebooks-inspiron-7430-2-in-1-de-1-ao-incluido-en-centro-de-servicios-a-3-aos-premium-s.jpg"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_INSPNBL5_C1_R3",
+          "providerSku": "POL-9452",
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "Premium Support 3 anos",
+          "coverage": "Soporte 24x7x365, diagnostico remoto, partes y mano de obra segun validacion Dell",
+          "compatibility": "Inspiron 14 7430/7440 2-en-1; requiere validar Service Tag antes de vender",
+          "delivery": "Servicio digital sin producto fisico",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal SKU publica; CVA publica matriz en Guadalajara. Altec Computacion publico $3,412.07 MXN con entrega 1-3 dias.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-9452", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["Altec Computacion $3,412.07 MXN con entrega 1-3 dias.", "Icecat describe 1Y Carry-In to 3Y Premium Support."],
+          "reviewNotes": "Confirmar compatibilidad por Service Tag; algunos listados mencionan 7430 y otros 7440."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica, licencia/servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Altec Dell N_INSPNBL5_C1_R3", "type": "retailer_price_stock_image", "url": "https://www.alteccomputacion.com/tienda/78586-poliza-de-garantia-dell-para-inspiron-notebooks-inspiron-7430-2-in-1-de-1-ao-incluido-en-centro-de-servicios-a-3-aos-premium-s.html" },
+          { "title": "Icecat Dell warranty support extension", "type": "catalog_specs", "url": "https://icecat.lt/p/dell/n_inspnbl5_c1_r3/warranty%2B-%2Bsupport%2Bextensions-1y%2Bcarry%2Bin%2Bto%2B3y%2Bprem%2Bspt-106158060.html" },
+          { "title": "CVA sucursales", "type": "provider_location", "url": "https://www.cva.com.mx/sucursales.php" }
+        ]
+      }
+    },
+    {
+      "product_id": "c20i8lh8ravvacx",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Provision-ISR",
+        "name": "Caja de conexiones IP64 Provision-ISR PR-JB12IP64 para camaras I2/I4/DI/DAI",
+        "description": "Caja/adaptador de conexion blanco para montaje de camaras Provision-ISR compatibles, con proteccion IP64 para instalacion en CCTV.",
+        "manualCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip64/provision-pr-jb12ip64",
+        "semanticCategoryPath": "seguridad/cctv/accesorios-camaras/cajas-conexion/impermeables-ip64",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://provision-isr.nl/files/products/333/provision-isr-pr-jb12ip64-0.jpg",
+          "https://www.cyberpuerta.mx/img/product/S/CP-PROVISION-ISR-PR-JB12IP64-c051d0.jpg"
+        ],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "PR-JB12IP64",
+          "providerSku": "ACCPVS740",
+          "upc": "619317410701",
+          "productType": "Caja de conexiones para camara CCTV",
+          "ingressProtection": "IP64",
+          "compatibility": "DI-FIX, I2, I4, PR-WB12 y PR-CB12; validar serie de camara",
+          "color": "Blanco",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase sin sucursal SKU publica. Cyberpuerta publico $189 MXN mas envio con 13 piezas; MacToner CDMX publico $392.03 MXN sin stock.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCPVS740", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $189 MXN con 13 piezas.", "MacToner $392.03 MXN sin existencias."],
+          "reviewNotes": "No es caja IP66/IP67 ni switch PoE; es accesorio de montaje/conexion."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "109.5 x 38.5 mm", "weight": "162 g" },
+        "sourceRefs": [
+          { "title": "Provision-ISR PR-JB12IP64 official", "type": "manufacturer_specs", "url": "https://provision-isr.nl/producten/provision-isr-pr-jb12ip64" },
+          { "title": "Provision-ISR PR-JB12IP64 datasheet", "type": "manufacturer_specs_pdf", "url": "https://provision-isr.nl/files/products/333/datasheet-provision-isr-pr-jb12ip64.pdf" },
+          { "title": "Cyberpuerta PR-JB12IP64", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Seguridad-y-Vigilancia/Camaras-y-Sistemas-de-Vigilancia/Accesorios-para-Videovigilancia/Cajas-de-Conexiones/Provision-ISR-Caja-de-Conexiones-para-Camara-Domo-Bullet-Blanco.html" },
+          { "title": "MacToner PR-JB12IP64", "type": "retailer_price_location", "url": "https://www.mactoner.com.mx/producto/caja-de-conexiones-provision-isr-pr-jb12ip64/" }
+        ]
+      }
+    },
+    {
+      "product_id": "c4jwnzuj0wk9zdq",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Manhattan",
+        "name": "Maletin Manhattan Helsinki 440363 para laptop 14.1 pulgadas negro ecologico",
+        "description": "Maletin top-load Manhattan Helsinki para notebook de hasta 14.1 pulgadas, fabricado en poliester PET reciclado con recubrimiento resistente al agua.",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/14-1/manhattan-helsinki-440363",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/maletines-laptop/14-1",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://manhattanproducts.eu/cdn/shop/files/helsinki-eco-friendly-laptop-bag-141-440363-1_cb991612-2977-492e-888e-c55bfc1d2095.jpg?v=1748652104&width=1946",
+          "https://www.pclapsc.com/cdn/shop/files/2_6c72becc-06c2-4dc8-8fe4-cd90a725e039.png?v=1741508561&width=3840"
+        ],
+        "specs": {
+          "brand": "Manhattan",
+          "model": "Helsinki 440363",
+          "providerSku": "AC-10898",
+          "upc": "766623440363",
+          "productType": "Maletin portafolio para laptop",
+          "maxLaptopSize": "14.1 pulgadas",
+          "material": "Poliester de PET reciclado con recubrimiento resistente al agua",
+          "features": "Compartimento acolchado, bolsillos frontales e interiores, asa, correa removible al hombro y banda para trolley",
+          "color": "Negro",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal SKU publica; CVA publica matriz en Guadalajara. 2io publico $361.02 MXN con 3 piezas; PCLAPSC publico $569.00 MXN con 3 piezas y tienda en Monterrey.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-10898", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["2io $361.02 MXN con 3 piezas.", "PCLAPSC $569.00 MXN IVA incluido con 3 piezas."],
+          "reviewNotes": "Priorizar dimensiones oficiales Manhattan; algunos revendedores mezclan datos de empaque."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Exterior 400 x 300 x 57 mm; interior 347 x 289 x 52 mm", "weight": "400 g neto; 420 g bruto" },
+        "sourceRefs": [
+          { "title": "Manhattan Helsinki 440363 official", "type": "manufacturer_specs_image", "url": "https://manhattanproducts.eu/products/manhattan-en-helsinki-eco-friendly-notebook-bag-141-440363" },
+          { "title": "2io Manhattan 440363", "type": "retailer_price_stock", "url": "https://2io.mx/maletines/104-manhattan-helsinki-eco-friendly-laptop-bag-141-top-loader-black-padded-notebook-compartment-front-and-multiple-interior-pockets-.html" },
+          { "title": "PCLAPSC Manhattan 440363", "type": "retailer_price_stock_location", "url": "https://www.pclapsc.com/products/maletin-portafolio-manhattan-440363-14-1-helsinki" },
+          { "title": "Intellinet puntos de venta", "type": "brand_location", "url": "https://intellinetsolutions.mx/pages/puntos-de-venta" }
+        ]
+      }
+    },
+    {
+      "product_id": "c9xkpvt7019ycy4",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Microsoft",
+        "name": "Microsoft Access LTSC 2024 CSP perpetuo para educacion licencia electronica",
+        "description": "Licencia electronica Microsoft CSP de Access LTSC 2024 para educacion, perpetua y sin derechos automaticos de actualizacion.",
+        "manualCategoryPath": "software/licencias/microsoft/access/ltsc-2024/education-perpetual",
+        "semanticCategoryPath": "software/licencias/microsoft/access/ltsc-2024",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://iristechworld.com/wp-content/uploads/2024/12/LTSCAccess2024.jpg"],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "DG7GMGF0PN5J:0002:EDUCATION",
+          "providerSku": "SWS-6371",
+          "productType": "Licencia electronica CSP perpetua",
+          "license": "Access LTSC 2024 Education",
+          "platform": "Windows 10/11; Access no aplica para macOS",
+          "requirements": "CPU dual-core 1.1 GHz, 4 GB RAM, 4 GB disco, pantalla 1280 x 768",
+          "eligibility": "Cliente educativo con dominio/correo institucional y validacion CSP",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal SKU publica; GlobalOffice Guadalajara publico $891 MXN con existencia por confirmar; TiendaClic publico $662.58 MXN IVA incluido con existencia aproximada 0.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SWS-6371", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $891 MXN, existencia en proceso/contacto.", "TiendaClic $662.58 MXN IVA incluido, existencia aproximada 0."],
+          "reviewNotes": "Validar elegibilidad EDU y tenant CSP antes de facturar."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica, licencia electronica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Microsoft Access LTSC 2024 EDU", "type": "retailer_price_location", "url": "https://globaloffice.mx/app/detalle/producto/software/microsoft-csp-access-ltsc-2024-edu-perpetuo/dg7gmgf0pn5j0002education" },
+          { "title": "TiendaClic Microsoft Access LTSC 2024 EDU", "type": "retailer_price_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/microsoft-csp-access-ltsc-2024-edu-perpetuo-microsoft-dg7gmgf0pn5j0002education" },
+          { "title": "Microsoft Office LTSC 2024 overview", "type": "manufacturer_specs", "url": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview" },
+          { "title": "Microsoft Access 2024 novedades", "type": "manufacturer_specs", "url": "https://support.microsoft.com/es-es/access/what-s-new-in-access-2024" }
+        ]
+      }
+    },
+    {
+      "product_id": "cbecw3024x4arwn",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Synology",
+        "name": "NAS Synology DiskStation DS923+ 4 bahias Ryzen R1600 4 GB ECC sin discos",
+        "description": "Servidor NAS Synology DS923+ de 4 bahias SATA para almacenamiento, copias de seguridad y nube privada, con CPU AMD Ryzen R1600 y memoria ECC.",
+        "manualCategoryPath": "computo/almacenamiento/nas/4-bahias/synology-ds923-plus",
+        "semanticCategoryPath": "computo/almacenamiento/nas/4-bahias",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://kb.synology.com/docs_images/HIGs/DS923p_HIG/7.png",
+          "https://compupuebla.com/wp-content/uploads/2024/11/SYNOLOGYSERVIDORNASDE4BAHIASDS923_DS923_UPC846504004454_0.jpg"
+        ],
+        "specs": {
+          "brand": "Synology",
+          "model": "DS923+",
+          "providerSku": "SERTRD1260",
+          "upc": "846504004454",
+          "productType": "NAS de escritorio 4 bahias",
+          "cpu": "AMD Ryzen R1600, 2 nucleos, 2.6/3.1 GHz, AES-NI",
+          "memory": "4 GB DDR4 ECC SODIMM, expandible a 32 GB",
+          "bays": "4 bahias SATA de 3.5/2.5 pulgadas, expansion a 9 bahias con DX517",
+          "network": "2x 1GbE RJ-45, ranura de actualizacion 10GbE",
+          "ports": "2x USB 3.2 Gen 1, 1x eSATA, 2x M.2 NVMe 2280",
+          "drivesIncluded": "No incluye discos",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase. CT Internacional lista matriz en Hermosillo y cobertura nacional; Zero1 CDMX, CompuPuebla y Consumibles Juarez lo publican agotado/sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERTRD1260", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["Zero1 $15,850.52 MXN agotado.", "CompuPuebla $18,810.00 MXN sin existencias.", "Consumibles Juarez $20,767.41 MXN agotado."],
+          "reviewNotes": "No incluye discos; M.2 y 10GbE requieren accesorios compatibles Synology."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "166 x 199 x 223 mm", "weight": "2.24 kg" },
+        "sourceRefs": [
+          { "title": "Synology DS923+ product specification PDF", "type": "manufacturer_specs_pdf", "url": "https://global.download.synology.com/download/Document/Hardware/ProductSpec/DiskStation/23-year/DS923%2B/enu/Product_Spec_DS923%2B_enu.pdf" },
+          { "title": "Zero1 Synology DS923+", "type": "retailer_price_stock", "url": "https://zero1.mx/solucion-para-servidores/7994-servidor-synology-ds923.html" },
+          { "title": "CompuPuebla Synology DS923+", "type": "retailer_price_stock", "url": "https://compupuebla.com/producto/servidor-synology-ds923/" },
+          { "title": "Consumibles Juarez SERTRD1260", "type": "retailer_price_stock_location", "url": "https://consumiblesjuarez.com/products/sertrd1260" },
+          { "title": "CT Internacional directorio", "type": "provider_location", "url": "https://esemanal.mx/directorio/item/ct-internacional/" }
+        ]
+      }
+    },
+    {
+      "product_id": "chnohj9uiqeu759",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Peerless-AV",
+        "name": "Soporte de pared Peerless-AV SmartMount Supreme DS-VW775-QR para videowall 46-60 pulgadas",
+        "description": "Soporte profesional de pared para videowall con liberacion rapida y microajuste sin herramientas, compatible con pantallas de 46 a 60 pulgadas.",
+        "manualCategoryPath": "accesorios/montaje-soportes/audio-video/videowall/pared/liberacion-rapida/peerless-ds-vw775-qr",
+        "semanticCategoryPath": "accesorios/montaje-soportes/audio-video/videowall/pared/liberacion-rapida",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://peerless-av.com/_product-assets/es-mx/1070090209/Maximum.jpg",
+          "https://peerless-av.com/_product-assets/es-mx/1070090209/FrontMaximum.jpg",
+          "https://www.cyberpuerta.mx/img/product/S/CP-PEERLESS-DS-VW775-QR-1.jpg"
+        ],
+        "specs": {
+          "brand": "Peerless-AV",
+          "model": "DS-VW775-QR",
+          "providerSku": "AC-6940",
+          "productType": "Soporte de pared para videowall",
+          "screenSize": "46 a 60 pulgadas",
+          "loadCapacity": "56.7 kg / 56.8 kg",
+          "vesa": "200 x 200 a 600 x 400",
+          "orientation": "Horizontal o vertical",
+          "features": "Liberacion push, microajuste X/Y/Z sin herramientas, manejo de cable y acceso rapido",
+          "compliance": "RoHS, TAA, VESA y UL; garantia fabricante 5 anos",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal SKU publica. Cyberpuerta publico $9,879 MXN con 4 piezas; Zegucom publico $11,661.27 MXN con 1 pieza.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-6940", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $9,879 MXN con 4 piezas.", "Zegucom $11,661.27 MXN con disponibilidad 1.", "GSX/CVA AC-6940 $13,049.61 MXN con stock 0."],
+          "reviewNotes": "La ficha del proveedor incluye 8 kg, pero fabricante/retailers reportan cerca de 15.5 kg para el soporte."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "540 x 545 x 370 mm aprox.; empaque 771 x 600 x 114 mm", "weight": "15.5 kg unidad; 17.4 kg empaque" },
+        "sourceRefs": [
+          { "title": "Peerless-AV DS-VW775-QR official MX", "type": "manufacturer_specs_image", "url": "https://mx.peerless-av.com/products/DS-VW775-QR" },
+          { "title": "Cyberpuerta Peerless DS-VW775-QR", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Audio-y-Video/TV-y-Pantallas/Videowall/Soportes-para-Videowalls/Peerless-Soporte-para-Pantalla-Videowall-46-60-hasta-56-8kg.html" },
+          { "title": "Zegucom Peerless DS-VW775-QR", "type": "retailer_price_stock", "url": "https://www.zegucom.com.mx/producto/video-y-accesorios/soporte-para-monitores-y-televisiones/soporte-peerless-ds-vw775-qr-56-8-kg-116-8-cm-46-152-4-cm-60-200-x-20/RFMtVlc3NzUtUVI%3D" }
+        ]
+      }
+    },
+    {
+      "product_id": "ci7jjur8hq3koir",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HP",
+        "name": "Escaner HP ScanJet Pro 4200 s1 ADF duplex 40 ppm USB 3.0",
+        "description": "Escaner documental HP ScanJet Pro 4200 s1 con alimentador ADF, duplex en una pasada, USB 3.0 y ciclo diario recomendado de 4,500 paginas.",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/hp-scanjet-pro-4200-s1",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.hp.com/es-es/shop/media/catalog/product/h/p/hp_scanjet_pro_4200s1_catalog_whitebg_opened_frontleft_v2_4890580_cus.jpg?store=es-es&image-type=image",
+          "https://compuexpresstijuana.com.mx/wp-content/uploads/2025/12/SCAHPI560_full-scaled-1.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-8q4w2a-hp-scanjet-pro-4200-s1_0.webp"
+        ],
+        "specs": {
+          "brand": "HP",
+          "model": "ScanJet Pro 4200 s1",
+          "partNumber": "8Q4W2A",
+          "providerSku": "SCAHPI560",
+          "productType": "Escaner documental ADF",
+          "scanTechnology": "CIS",
+          "speed": "Hasta 40 ppm / 80 ipm a 300 ppp",
+          "duplex": "Duplex en una pasada",
+          "adfCapacity": "50 hojas",
+          "connectivity": "USB 3.0",
+          "memory": "512 MB",
+          "dailyDutyCycle": "4,500 paginas recomendadas",
+          "formats": "PDF, JPEG, PNG, TIFF, DOC, XLS, CSV y OCR",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase sin sucursal SKU publica. CompuExpress Tijuana publico $13,989 MXN con boton de compra y texto de existencia sin cantidad; Cityshop lo muestra agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SCAHPI560", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["CompuExpress Tijuana $13,989 MXN IVA incluido con existencia no cuantificada.", "Cityshop Mexico muestra Producto Agotado."],
+          "reviewNotes": "Usar HP oficial para especificaciones; algunos revendedores publican tamanos maximos de digitalizacion inconsistentes."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "305 x 107 x 128 mm; empaque 393 x 196 x 291 mm", "weight": "Aprox. 2 kg unidad; aprox. 4.25 kg empaque" },
+        "sourceRefs": [
+          { "title": "HP ScanJet Pro 4200 s1 official ES", "type": "manufacturer_specs_image", "url": "https://www.hp.com/es-es/shop/products/printers/scanner-hp-scanjet-pro-4200-s1-8q4w2a-b19" },
+          { "title": "CompuExpress Tijuana HP ScanJet Pro 4200 s1", "type": "retailer_price_stock_location", "url": "https://compuexpresstijuana.com.mx/producto/hp-scanjet-pro-4200-s1-8q4w2a/" },
+          { "title": "Cityshop HP ScanJet Pro 4200 s1", "type": "retailer_stock", "url": "https://cityshop.mx/producto/hp-scanjet-pro-4200-s1-8q4w2a" },
+          { "title": "CompuExpress Tijuana sobre nosotros", "type": "retailer_location", "url": "https://compuexpresstijuana.com.mx/sobre-nosotros-tienda-de-computadoras-pc-gamer-tijuana-compuexpress-tienda-de-software-mexico/" }
+        ]
+      }
+    },
+    {
+      "product_id": "cs15nl6bmgxxgyb",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Microsoft",
+        "name": "Microsoft Office LTSC Professional Plus 2024 CSP perpetuo comercial licencia electronica",
+        "description": "Licencia electronica Microsoft CSP Office LTSC Professional Plus 2024 comercial, perpetua y orientada a entornos que requieren suite de escritorio sin suscripcion.",
+        "manualCategoryPath": "software/licencias/microsoft/office-ltsc/professional-plus-2024/commercial-perpetual",
+        "semanticCategoryPath": "software/licencias/microsoft/office-ltsc/professional-plus-2024",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.gtoengineer.com/wp-content/uploads/2024/12/2024OfficeProfessionalPlus.webp"],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "DG7GMGF0PN5F:0002:Commercial",
+          "providerSku": "SWS-5775",
+          "productType": "Licencia electronica CSP perpetua",
+          "license": "Office LTSC Professional Plus 2024 Commercial",
+          "applications": "Access, Excel, OneNote, Outlook, PowerPoint y Word; Skype for Business opcional",
+          "platform": "Windows 10/11",
+          "requirements": "CPU dual-core 1.1 GHz, 4 GB RAM, 4 GB disco, pantalla 1280 x 768",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal SKU publica. GlobalOffice Guadalajara publico $15,735 MXN con existencia por confirmar; Compuviper publico $15,721 MXN IVA incluido con CEDI Guadalajara/CDMX/Monterrey en 0.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SWS-5775", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $15,735 MXN, existencia en proceso/contacto.", "Compuviper $15,721 MXN IVA incluido con stock 0 en CEDI publicados."],
+          "reviewNotes": "Microsoft Learn indica que Publisher no forma parte de Office LTSC 2024 aunque algunos retailers lo mezclan."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica, licencia electronica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "GlobalOffice Office LTSC Professional Plus 2024", "type": "retailer_price_location", "url": "https://globaloffice.com.mx/app/detalle/producto/software/microsoft-csp-office-ltsc-professional-plus-2024/dg7gmgf0pn5f0002commercial" },
+          { "title": "Compuviper Office LTSC Professional Plus 2024", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/microsoft-dg7gmgf0pn5f0002commercial-csp-office-ltsc-professional-plus-2024-commercial-perpetua/" },
+          { "title": "Microsoft Office LTSC 2024 overview", "type": "manufacturer_specs", "url": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview" },
+          { "title": "Connection Microsoft Office LTSC Professional Plus 2024", "type": "retailer_catalog", "url": "https://www.connection.com/product/microsoft-corp.-csp-office-ltsc-professional-plus-2024-license-only/dg7gmgf0pn5f-0002/41846471" }
+        ]
+      }
+    },
+    {
+      "product_id": "ct83gq8xjqva91y",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Eaton Tripp Lite",
+        "name": "Sensor detector de fugas de agua Eaton Tripp Lite EnviroSense2 E2SLD para UPS/PDU LX",
+        "description": "Sensor E2SLD de agua/liquidos conductivos para monitoreo ambiental EnviroSense2 en UPS/PDU compatibles con plataforma LX.",
+        "manualCategoryPath": "energia/accesorios-ups/sensores-ambientales/fuga-agua/eaton-tripp-lite-e2sld",
+        "semanticCategoryPath": "energia/accesorios-ups/sensores-ambientales/fuga-agua",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.eaton.com/mdmfiles/PDM95795589/E2SLD_C/500x500_72dpi"],
+        "specs": {
+          "brand": "Eaton Tripp Lite",
+          "model": "E2SLD",
+          "providerSku": "ACCTRL5550",
+          "upc": "037332213617",
+          "productType": "Sensor de fuga de agua para UPS/PDU",
+          "sensor": "Deteccion de agua o liquidos conductivos, contacto normalmente abierto",
+          "compatibility": "UPS/PDU con WEBCARDLX o plataforma LX y modulo E2MTHDI",
+          "cable": "Cable 22 AWG de 15 pies incluido",
+          "included": "Cubierta terminal, cinta, tornillos y manual",
+          "warranty": "5 anos",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 en PocketBase sin sucursal SKU publica. MacToner CDMX publico $1,294.03 MXN sin stock; Cityshop y Cyberpuerta lo muestran agotado; DigiKey US publico 13 piezas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCTRL5550", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["MacToner $1,294.03 MXN sin existencias.", "Cityshop producto agotado.", "DigiKey US stock 13."],
+          "reviewNotes": "No es sensor autonomo Wi-Fi; requiere WEBCARDLX/LX y E2MTHDI compatible."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Producto 0.5 x 0.5 x 2.5 in; empaque 3.20 x 11.40 x 15.39 cm", "weight": "0.05 lb producto; 0.10 kg empaque" },
+        "sourceRefs": [
+          { "title": "Eaton E2SLD official", "type": "manufacturer_specs_image", "url": "https://www.eaton.com/us/en-us/skuPage.E2SLD.html" },
+          { "title": "Eaton E2SLD datasheet mirror", "type": "manufacturer_specs_pdf", "url": "https://www.rxelectronics.kr/datasheet/8e/e2sld.pdf" },
+          { "title": "MacToner Tripp Lite E2SLD", "type": "retailer_price_stock_location", "url": "https://www.mactoner.com.mx/producto/sensor-detector-de-fugas-tripp-lite-e2sld-blanco/" },
+          { "title": "Cityshop Tripp Lite E2SLD", "type": "retailer_stock", "url": "https://cityshop.mx/producto/sensor-detector-de-fugas-tripp-lite-modelo-e2sld" }
+        ]
+      }
+    },
+    {
+      "product_id": "cuivegcxmr837ia",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dell",
+        "name": "Actualizacion Dell ProSupport 3 anos para Dell Pro 14/16 desde Basic Onsite NBD",
+        "description": "Poliza digital Dell N_DOL2_N3_P3 para actualizar Dell Pro 14/16 de 3 anos Basic Onsite/Next Business Day a 3 anos ProSupport.",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops/3y-basic-nbd-a-3y-prosupport",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://compuviper.mx/tienda/wp-content/uploads/2025/10/Poliza-de-garantia-dell-para-dell-pro-16pro-14-de-3-anoa-basico-next-bus-day-a-3-anos-prosupport-importante-confirmar-compatibilidad-de-series-con-clave-de-garantia.jpg"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_DOL2_N3_P3",
+          "providerSku": "POL-10375",
+          "productType": "Poliza digital de soporte y garantia",
+          "serviceLevel": "ProSupport 3 anos",
+          "coverage": "Soporte 24x7x365, diagnostico remoto, partes y mano de obra segun validacion Dell",
+          "compatibility": "Dell Pro 14 PC14250/PC14255, Dell Pro 16 PC16250/PC16255, Pro Plus 14/16 PB14250/PB14255/PB16250/PB16255; requiere Service Tag",
+          "delivery": "Servicio digital sin producto fisico",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal SKU publica. Compuviper publico $1,355 MXN IVA incluido bajo pedido/existencia 0; AztecaCompras publico $1,980 MXN con 6 piezas; Intercompras publico $1,599 MXN con Guadalajara 3 piezas.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-10375", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T18:05:00Z",
+          "publicAvailabilitySignals": ["Compuviper $1,355 MXN IVA incluido bajo pedido/existencia 0.", "AztecaCompras $1,980 MXN con 6 piezas.", "Intercompras $1,599 MXN con Guadalajara 3 piezas."],
+          "reviewNotes": "Confirmar compatibilidad por Service Tag; las existencias publicas de retailers no cambian el stock 0 del proveedor alimentado."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica, licencia/servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Compuviper Dell N_DOL2_N3_P3", "type": "retailer_price_stock_image", "url": "https://compuviper.mx/tienda/producto/dell-n_dol2_n3_p3-poliza-de-garantia-para-pro-16-pro-14-de-3-aoa-basico-next-bus-day-a-3-aos-prosupport-importante-confirmar-compatibilidad-de-series-con-clave-de-garantia/" },
+          { "title": "AztecaCompras Dell N_DOL2_N3_P3", "type": "retailer_price_stock", "url": "https://www.aztecacompras.com/mx0000109033-dell-n-dol2-n3-p3-actualizaci-n-de-3-a-os-basic-onsite-a-prosupport.html" },
+          { "title": "Dell ProSupport for PCs", "type": "manufacturer_support_description", "url": "https://www.dell.com/en-us/lp/sb-support-for-pcs" }
+        ]
+      }
+    }
+  ]
+}
