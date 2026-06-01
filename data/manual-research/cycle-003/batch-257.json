@@ -1,0 +1,488 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b257-2026-06-01",
+  "cycle": 3,
+  "batch": 257,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "h4kv4kc2xuny5j8",
+      "research": {
+        "confidence": 0.91,
+        "brand": "VORAGO",
+        "name": "Scooter electrico Vorago SC-500 500W 48V amarillo/negro, 45 km/h, autonomia hasta 60 km",
+        "description": "Scooter electrico adulto Vorago SC-500 con motor 500W, bateria removible 48V 10Ah, velocidad maxima 45 km/h y autonomia publicada de hasta 60 km. No confundir la carga maxima de 120 kg con el peso del producto.",
+        "manufacturerUrl": "https://voragolive.com/scooter-electrico-vorago-sc-500-500w-48v-velocidad-45km-h-autonomia-60km.html",
+        "manualCategoryPath": "energia/movilidad-electrica/scooters-electricos/500w-48v/vorago-sc-500",
+        "semanticCategoryPath": "energia/movilidad-electrica/scooters-electricos/500w-48v",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://voragolive.com/media/catalog/product/s/c/sc-500_1.jpg"],
+        "documents": [
+          { "label": "Vorago SC-500 ficha tecnica", "type": "datasheet", "url": "https://voragolive.com/media/vorago/descargables/SC-500_Ficha.pdf" }
+        ],
+        "specs": {
+          "brand": "VORAGO",
+          "model": "SC-500",
+          "providerSkus": ["ACCVGO2630"],
+          "upc": "7503044580659",
+          "productType": "Scooter electrico adulto",
+          "motorPower": "500 W",
+          "battery": "48 V 10 Ah removible",
+          "chargerInput": "110-240 V 50/60 Hz",
+          "maxSpeed": "45 km/h",
+          "speedModes": "25/35/45 km/h",
+          "range": "Hasta 60 km",
+          "wheelSize": "12 in solidas",
+          "brakes": "Disco y electronico",
+          "ipRating": "IP54",
+          "chargeTime": "5-6 horas",
+          "maxLoad": "120 kg",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Vorago oficial agotado; MiPC $18,510.43 MXN agotado; Jirehco $18,916 MXN con disponibilidad publica.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCVGO2630", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 761.11, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Vorago oficial agotado.", "MiPC $18,510.43 MXN agotado.", "Jirehco $18,916 MXN con disponibilidad publica."],
+          "reviewNotes": "Una ficha oficial menciona 650W, pero la pagina de producto y la ficha alternativa del SKU lo publican como 500W. El peso correcto es 24 kg; 120 kg es carga maxima."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "136.8 x 60 x 125.4 cm (la ficha lo rotula como mm, escala interpretada como cm)", "weight": "24 kg", "packageWeight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Vorago SC-500 oficial", "type": "manufacturer_product", "url": "https://voragolive.com/scooter-electrico-vorago-sc-500-500w-48v-velocidad-45km-h-autonomia-60km.html" },
+          { "title": "Vorago SC-500 ficha PDF", "type": "manufacturer_datasheet", "url": "https://voragolive.com/media/vorago/descargables/SC-500_Ficha.pdf" },
+          { "title": "MiPC Vorago SC-500", "type": "retailer_price_stock", "url": "https://mipc.com.mx/scooter-electrico-vorago-sc-500-500w-48v-velocidad-45km-h-autonomia-60km.html" },
+          { "title": "Jirehco Vorago SC-500", "type": "retailer_price_stock", "url": "https://jirehco.com.mx/productos/z-53610" }
+        ]
+      }
+    },
+    {
+      "product_id": "yg3d995lhju3h51",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Eaton Tripp Lite",
+        "name": "Kit de herraje Eaton Tripp Lite SmartRack SRLADDERATTACH para escalerilla SRCABLELADDER",
+        "description": "Kit de montaje SRLADDERATTACH para fijar escalerilla de cableado SmartRack SRCABLELADDER a pared, rack abierto de 2 postes o rack de 4 postes. No es la escalerilla; es el accesorio de union.",
+        "manufacturerUrl": "https://www.eaton.com/us/en-us/skuPage.SRLADDERATTACH.html",
+        "manualCategoryPath": "redes/racks/accesorios/escaleras-cableado/tripp-lite-srladderattach",
+        "semanticCategoryPath": "redes/racks/accesorios/escaleras-cableado",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://assets.tripplite.com/large-image/srladderattach-front-l.jpg"],
+        "documents": [
+          { "label": "SRLADDERATTACH datasheet", "type": "datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/srladderattach.pdf" }
+        ],
+        "specs": {
+          "brand": "Eaton Tripp Lite",
+          "model": "SRLADDERATTACH",
+          "providerSkus": ["GABTRL060"],
+          "upc": "037332150646",
+          "productType": "Kit de montaje para escalerilla de cableado",
+          "compatibleWith": "SRCABLELADDER y racks abiertos 2/4 postes",
+          "color": "Negro",
+          "standards": ["RoHS", "EIA-310-E"],
+          "warranty": "5 anos",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Mouser MX reporta 428 piezas con envio; MacToner $456.74 MXN sin existencias; Connection y DirectDial reportan disponibilidad limitada.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "GABTRL060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 322.24, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mouser MX $86.44 USD con 428 piezas.", "MacToner $456.74 MXN sin existencias.", "Connection $55.97 USD limited quantity."],
+          "reviewNotes": "No confundir con SRCABLELADDER o SRCABLELADDER18, que son las escalerillas completas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "20.67 x 1.38 x 2.76 in", "weight": "0.91 kg / 2 lb" },
+        "sourceRefs": [
+          { "title": "Eaton SRLADDERATTACH", "type": "manufacturer_product", "url": "https://www.eaton.com/us/en-us/skuPage.SRLADDERATTACH.html" },
+          { "title": "Tripp Lite SRLADDERATTACH datasheet", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/srladderattach.pdf" },
+          { "title": "Mouser MX SRLADDERATTACH", "type": "retailer_price_stock", "url": "https://www.mouser.mx/ProductDetail/Tripp-Lite/SRLADDERATTACH?qs=GnSEBY0yiUEW4y6eH6i8LA%3D%3D" },
+          { "title": "MacToner SRLADDERATTACH", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/accesorios-para-racks-tripp-lite-srladderattach-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "rv54k2g4vussgjq",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Zebra",
+        "name": "Laminado holografico Zebra 800086-075 Safe Globe 1 mil bottom para ZXP Series 7, 750 impresiones",
+        "description": "Consumible Zebra 800086-075 de laminacion holografica Safe Globe para impresoras de tarjetas ZXP Series 7. Es laminado bottom de 1 mil para 750 impresiones; no es kit POS ni ribbon YMCKO.",
+        "manufacturerUrl": "https://www.zebra.com/us/en/products/supplies/printer-supplies/card-ribbons/ix-series-ribbons.html",
+        "manualCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/laminados-holograficos/zebra-zxp7/zebra-800086-075",
+        "semanticCategoryPath": "punto-de-venta/credenciales-identificacion/consumibles/laminados-holograficos/zebra-zxp7",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-ZEBRA-800086075-1.jpg"],
+        "documents": [
+          { "label": "Zebra genuine supplies portfolio", "type": "manufacturer_datasheet", "url": "https://www.zebra.com/content/dam/zebra_dam/en/brochure/portfolio/genuine-zebra-supplies-en-us.pdf" }
+        ],
+        "specs": {
+          "brand": "Zebra",
+          "model": "800086-075",
+          "providerSkus": ["CARZBR1320"],
+          "productType": "Laminado holografico para credenciales",
+          "compatiblePrinter": "Zebra ZXP Series 7",
+          "laminateType": "1 mil bottom holographic wallpaper Safe Globe",
+          "yield": "750 impresiones",
+          "storage": "20 a 25 C, 30-50% HR, sin luz directa",
+          "warranty": "1 ano",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Cyberpuerta $2,579 MXN agotado; IDTienda $1,925 MXN agotado; BarcodePlanet $104.53 USD en existencia.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CARZBR1320", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 101.66, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $2,579 MXN agotado.", "IDTienda $1,925 MXN agotado.", "BarcodePlanet $104.53 USD in stock."],
+          "reviewNotes": "No clasificar como kit punto de venta; no mezclar con 800086-068 top Safe Globe ni con 800082-079 ZXP8/ZXP9."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Rollo consumible, dimensiones no publicadas", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Zebra genuine supplies PDF", "type": "manufacturer_datasheet", "url": "https://www.zebra.com/content/dam/zebra_dam/en/brochure/portfolio/genuine-zebra-supplies-en-us.pdf" },
+          { "title": "Cyberpuerta Zebra 800086-075", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Consumibles-para-Impresoras/Cintas/Cinta-Zebra-Ribbon-800086-075-Laminado-Holograma-para-ZXP7-750-Impresiones.html" },
+          { "title": "IDTienda 800086-075", "type": "retailer_price_stock", "url": "https://idtienda.com/products/800086-075" },
+          { "title": "BarcodePlanet 800086-075", "type": "retailer_price_stock", "url": "https://www.barcodeplanet.com/zebra/part-800086-075.htm" }
+        ]
+      }
+    },
+    {
+      "product_id": "z03mwkhqmr4f4j5",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Epson",
+        "name": "Escaner documental Epson WorkForce ES-C320W Wi-Fi/USB-C ADF duplex 30 ppm/60 ipm, B11B270201",
+        "description": "Escaner compacto de documentos Epson WorkForce ES-C320W con ADF de 20 hojas, duplex de una pasada, Wi-Fi 2.4/5 GHz y USB-C. Diseñado para documentos, tarjetas y papel largo; no es escaner plano.",
+        "manufacturerUrl": "https://epson.com/For-Home/Scanners/Document-Scanners/WorkForce-ES-C320W-Wireless-Compact-Desktop-Document-Scanner-with-Auto-Document-Feeder/p/B11B270201",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/wifi/epson-workforce-es-c320w",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/wifi",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-EPSON-B11B270201-1.jpg"],
+        "documents": [
+          { "label": "Manual Epson ES-C220 ES-C320W RR-400W", "type": "manual", "url": "https://files.support.epson.com/docid/cpd6/cpd63182.pdf" }
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "ES-C320W",
+          "manufacturerPartNumber": "B11B270201",
+          "providerSkus": ["SCAEPS830"],
+          "upc": "010343979222",
+          "sensor": "CIS",
+          "lightSource": "LED RGB",
+          "opticalResolution": "600 dpi",
+          "interpolatedResolution": "1200 dpi",
+          "adfCapacity": "20 hojas",
+          "speed": "30 ppm / 60 ipm a 300 dpi",
+          "dailyDutyCycle": "3500 hojas",
+          "connectivity": ["USB 2.0 Type-C", "Wi-Fi 802.11 a/b/g/n/ac 2.4/5 GHz"],
+          "maxDocumentSize": "215.9 x 3048 mm a 50-300 dpi",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Epson US lista $249.99 USD; Cityshop $8,009 MXN con 18 piezas; MacToner $9,348.31 MXN con 1 disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SCAEPS830", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6714.74, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Epson US $249.99 USD.", "Cityshop $8,009 MXN con 18 piezas.", "MacToner $9,348.31 MXN con 1 disponible."],
+          "reviewNotes": "No confundir con ES-C220 ni RR-400W; el manual cubre varios modelos."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "29.7 x 10.4 x 12.44 cm", "weight": "1.7 kg", "packageWeight": "2.9 kg" },
+        "sourceRefs": [
+          { "title": "Epson ES-C320W oficial US", "type": "manufacturer_product", "url": "https://epson.com/For-Home/Scanners/Document-Scanners/WorkForce-ES-C320W-Wireless-Compact-Desktop-Document-Scanner-with-Auto-Document-Feeder/p/B11B270201" },
+          { "title": "Epson Mexico soporte ES-C320W", "type": "manufacturer_support", "url": "https://epson.com.mx/Soporte/Esc%C3%A1neres/Epson-ES/Epson-ES-C320W/s/SPT_B11B270201" },
+          { "title": "Cityshop ES-C320W", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/escaner-epson-workforce-es-c320w-30-ppm-60ipm-600dpi-usb-wifi-led-rgb" },
+          { "title": "MacToner ES-C320W", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/escaner-epson-es-c320w-b11b270201-3500-paginas/" }
+        ]
+      }
+    },
+    {
+      "product_id": "kjxama4tbmhwlwh",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Eaton Tripp Lite",
+        "name": "Jack keystone RJ45 Eaton Tripp Lite N238-001-WH Cat6/Cat5e 110 punch-down blanco",
+        "description": "Jack keystone RJ45 Cat6/Cat5e blanco N238-001-WH con terminacion 110 IDC, compatible con cableado 568A/568B y UTP solido 22-24 AWG. No es version toolless ni Cat6A.",
+        "manufacturerUrl": "https://tripplite.eaton.com/cat6-cat5e-110-style-punch-down-keystone-jack-white~N238001WH",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6/tripp-lite-n238-001-wh",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://assets.tripplite.com/large-image/n238001wh-front-l.jpg"],
+        "documents": [
+          { "label": "N238-001-WH datasheet", "type": "datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/n238001wh.pdf" },
+          { "label": "N238-001-WH instrucciones", "type": "manual", "url": "https://tripplite.eaton.com/support/owners-manual/934016" }
+        ],
+        "specs": {
+          "brand": "Eaton Tripp Lite",
+          "model": "N238-001-WH",
+          "providerSkus": ["CABTRL4380"],
+          "upc": "037332143662",
+          "productType": "Jack keystone RJ45",
+          "ports": "1",
+          "sideA": "RJ45 hembra",
+          "sideB": "110 IDC punch-down",
+          "category": "Cat6/Cat5e",
+          "wireGauge": "22-24 AWG UTP solido",
+          "wiring": "568A/568B",
+          "color": "Blanco",
+          "warranty": "Limitada de por vida",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. MacToner publica $50.12 MXN sin existencias; Eaton no publica precio.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CABTRL4380", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 31.87, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $50.12 MXN sin existencias.", "Eaton oficial sin precio publico."],
+          "reviewNotes": "No confundir con N238-001-WH-TF toolless ni N238-001-WH-6A Cat6A."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Envio 12.70 x 10.16 x 1.27 cm", "weight": "Envio 0.01 kg" },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite N238-001-WH", "type": "manufacturer_product", "url": "https://tripplite.eaton.com/cat6-cat5e-110-style-punch-down-keystone-jack-white~N238001WH" },
+          { "title": "N238-001-WH datasheet", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/n238001wh.pdf" },
+          { "title": "N238-001-WH datasheet ES", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/es/n238001wh.pdf" },
+          { "title": "MacToner N238-001-WH", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/jacks-tripp-lite-n238-001-wh-blanco/" }
+        ]
+      }
+    },
+    {
+      "product_id": "gzmgt3herbe80sk",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Epson",
+        "name": "Escaner documental Epson WorkForce ES-C380W Wi-Fi/USB-C ADF duplex 30 ppm/60 ipm con pantalla tactil",
+        "description": "Escaner compacto Epson WorkForce ES-C380W con ADF de 20 hojas, duplex de una pasada, pantalla tactil 2.4 in, Wi-Fi, USB-C y USB host. No es impresora ni escaner plano.",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-hogar/Esc%C3%A1neres/Esc%C3%A1neres-de-documentos/WorkForce-ES-C380W-Esc%C3%A1ner-Compacto-de-Documentos-con-Pantalla-T%C3%A1ctil-/p/B11B269201",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/wifi/epson-workforce-es-c380w",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/wifi",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/XL/CP-EPSON-B11B269201-b333bf.jpg"],
+        "documents": [
+          { "label": "Manual Epson ES-C380W", "type": "manual", "url": "https://files.support.epson.com/docid/cpd6/cpd63364.pdf" },
+          { "label": "Ficha Epson ES-C380W", "type": "datasheet", "url": "https://mediaserver.goepson.com/ImConvServlet/imconv/62f06b0fc40ab77315b5fb83b4c180e894cd83f5/original?assetDescr=CATSHEET-ES-C380W-ES-v2.pdf" }
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "ES-C380W",
+          "manufacturerPartNumber": "B11B269201",
+          "providerSkus": ["SCAEPS840"],
+          "upc": "010343979239",
+          "sensor": "CIS",
+          "lightSource": "LED RGB",
+          "opticalResolution": "600 dpi",
+          "interpolatedResolution": "1200 dpi",
+          "adfCapacity": "20 hojas",
+          "display": "Pantalla tactil color 2.4 in",
+          "speed": "30 ppm / 60 ipm carta 300 dpi",
+          "dailyDutyCycle": "3500 hojas",
+          "rollerLife": "50000 hojas",
+          "connectivity": ["USB 2.0 Type-C", "Wi-Fi 802.11 a/b/g/n/ac 2.4/5 GHz", "USB host"],
+          "maxDocumentSize": "215.9 x 5588 mm",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Cyberpuerta $8,599 MXN con 1 pieza; MacToner $10,939.60 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SCAEPS840", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 7857.91, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $8,599 MXN con 1 pieza.", "MacToner $10,939.60 MXN sin existencias."],
+          "reviewNotes": "No confundir con ES-C320W, ES-C220, RR-400W, DS-C330 o DS-C490. Algunas fichas LA publican 3048 mm; el manual tecnico da 5588 mm."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "29.6 x 10.4 x 12.5 cm vertical / 29.6 x 12.8 x 12.7 cm recto", "weight": "1.9 kg" },
+        "sourceRefs": [
+          { "title": "Epson Mexico ES-C380W", "type": "manufacturer_product", "url": "https://epson.com.mx/Para-el-hogar/Esc%C3%A1neres/Esc%C3%A1neres-de-documentos/WorkForce-ES-C380W-Esc%C3%A1ner-Compacto-de-Documentos-con-Pantalla-T%C3%A1ctil-/p/B11B269201" },
+          { "title": "Epson soporte ES-C380W", "type": "manufacturer_support", "url": "https://epson.com.mx/Soporte/Esc%C3%A1neres/Epson-ES/Epson-ES-C380W/s/SPT_B11B269201" },
+          { "title": "Cyberpuerta ES-C380W", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Impresion-y-Copiado/Escaneres/Scanner-Epson-WorkForce-ES-C380W-600-x-600-DPI-Escaneado-Duplex-USB-Wi-Fi-Negro.html" },
+          { "title": "MacToner ES-C380W", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/escaner-epson-es-c380w-b11b269201-3500-paginas/" }
+        ]
+      }
+    },
+    {
+      "product_id": "t97ckvraiaphppj",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CyberPower",
+        "name": "PDU ATS medible CyberPower PDU24002 1U 20A 120V, 10 salidas NEMA 5-20R",
+        "description": "PDU ATS CyberPower PDU24002 para rack 1U con doble entrada NEMA L5-20P, transferencia automatica y 10 salidas NEMA 5-20R. No es UPS ni supresor.",
+        "manufacturerUrl": "https://www.cyberpower.com/mx/es/product/sku/pdu24002",
+        "manualCategoryPath": "energia/pdu-rack/ats/1u-20a-10-contactos/cyberpower-pdu24002",
+        "semanticCategoryPath": "energia/pdu-rack/ats/1u-20a-10-contactos",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpowersystems.com/wp-content/uploads/2026/05/pdu24002-front-horizontal-photo-1-1024x1024.jpg"],
+        "documents": [
+          { "label": "CyberPower PDU24002 datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--RGskhRIJ--/ed4fb86d32fd89c8820d9badc11b044318375b58.pdf" },
+          { "label": "CyberPower PDU24002 manual", "type": "manual", "url": "https://images.salsify.com/image/upload/s--7LzKdh5V--/7f8ec86f5eaa810a3879a38773d23b37c30915d8.pdf" }
+        ],
+        "specs": {
+          "brand": "CyberPower",
+          "model": "PDU24002",
+          "providerSkus": ["ACCCYP470", "AC-12828"],
+          "upc": "0649532933907",
+          "productType": "PDU ATS medible",
+          "inputVoltage": "100-120 VAC 50/60 Hz",
+          "maxCurrent": "20 A / 16 A derated UL",
+          "inputPlugs": "2 x NEMA L5-20P, adaptador L5-20P a 5-20P incluido",
+          "cordLength": "10 ft / 3.0 m",
+          "outlets": "10 x NEMA 5-20R",
+          "transferTime": "2-7 ms, total menor a 10 ms",
+          "display": "LCD multifuncion color hot-swappable",
+          "formFactor": "Rack 1U horizontal",
+          "warranty": "3 anos",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta publica $10,639 MXN con 44 piezas; MacToner $12,833.95 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCCYP470", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9046.67, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "AC-12828", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8913.69, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $10,639 MXN con 44 piezas.", "MacToner $12,833.95 MXN sin existencias."],
+          "reviewNotes": "No confundir con PDU24001 15A/5-15P/5-15R ni con modelos IEC o 200-240V. Requiere fuentes AC de onda senoidal."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "433 x 44 x 215 mm", "weight": "4.81 kg", "shippingDimensions": "549.91 x 124.46 x 398.02 mm", "shippingWeight": "6.67 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower Mexico PDU24002", "type": "manufacturer_product", "url": "https://www.cyberpower.com/mx/es/product/sku/pdu24002" },
+          { "title": "CyberPower US PDU24002", "type": "manufacturer_product", "url": "https://www.cyberpowersystems.com/product/pdus/metered-ats/pdu24002/" },
+          { "title": "Cyberpuerta PDU24002", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Energia/PDU-s/CyberPower-PDU-para-Rack-1U-PDU24002-16A-100-120V-10-Salidas.html" },
+          { "title": "MacToner PDU24002", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/pdu-cyberpower-pdu24002-100-120-v/" }
+        ]
+      }
+    },
+    {
+      "product_id": "h3271d4as5p2u3q",
+      "research": {
+        "confidence": 0.94,
+        "brand": "CyberPower",
+        "name": "CyberPower CPS1220RMS PDU/supresor de picos rack 1U 20A 120V, 12 NEMA 5-20R, 1800J",
+        "description": "Rackbar surge protector CyberPower CPS1220RMS para rack 1U con 12 salidas NEMA 5-20R, cable 15 ft y supresion de 1800J. Es supresor/PDU de rack, no UPS.",
+        "manufacturerUrl": "https://www.cyberpowersystems.com/product/pdus/rackbar/cps1220rms/",
+        "manualCategoryPath": "energia/pdu-rack/protectores-sobretension/1u-20a-12-contactos/cyberpower-cps1220rms",
+        "semanticCategoryPath": "energia/pdu-rack/protectores-sobretension/1u-20a-12-contactos",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpowersystems.com/wp-content/uploads/2026/05/cps1220rms-front-horizontal-photo-1.jpg"],
+        "documents": [
+          { "label": "CyberPower CPS1220RMS datasheet", "type": "datasheet", "url": "https://images.salsify.com/image/upload/s--9aKyKfOt--/8563e3c89de9f27f7839b6b6fef531d62d4cb1f8.pdf" },
+          { "label": "CyberPower CPS1220RMS manual", "type": "manual", "url": "https://www.cyberpowersystems.com/resources/cps1220rms-user-manual/" }
+        ],
+        "specs": {
+          "brand": "CyberPower",
+          "model": "CPS1220RMS",
+          "providerSkus": ["ACCCYP430", "AC-13209"],
+          "productType": "Supresor de picos / PDU rack",
+          "inputVoltage": "120 VAC",
+          "maxCurrent": "20 A",
+          "inputPlug": "NEMA 5-20P",
+          "cordLength": "15 ft / 4.6 m",
+          "outlets": "12 x NEMA 5-20R (2 frontales, 10 traseras)",
+          "surgeSuppression": "1800 J",
+          "maximumSurgeCurrent": "90000 A",
+          "filtering": "EMI/RFI 150 kHz-150 MHz",
+          "formFactor": "Rack 1U",
+          "material": "Metal",
+          "warranty": "3 anos",
+          "providerBranchSummary": "CTOnline y CVA reportan stock 0 sin sucursal granular. Cyberpuerta $2,219 MXN con 1 pieza; Cityshop $2,249 MXN con 4 piezas; Compuviper $2,399 MXN stock 0.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCCYP430", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1815.56, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "AC-13209", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1830.17, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta $2,219 MXN con 1 pieza.", "Cityshop $2,249 MXN con 4 piezas.", "Compuviper $2,399 MXN stock 0."],
+          "reviewNotes": "La ficha oficial indica NEMA 5-20R, no 5-15R. No confundir con CPS1215RMS 15A ni CPS1220RM basico."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "438 x 44 x 121 mm", "weight": "2.72 kg", "shippingDimensions": "254 x 57.15 x 511.3 mm", "shippingWeight": "3.17 kg" },
+        "sourceRefs": [
+          { "title": "CyberPower CPS1220RMS oficial", "type": "manufacturer_product", "url": "https://www.cyberpowersystems.com/product/pdus/rackbar/cps1220rms/" },
+          { "title": "Cyberpuerta CPS1220RMS", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Energia/PDU-s/CyberPower-PDU-para-Rack-1U-CPS1220RMS-20A-120V-12-Salidas.html" },
+          { "title": "Cityshop CPS1220RMS", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/pdu-cyberpower-cps1220rms-voltaje-120v-proteccion-contra-sobretensiones-filtro-de-ruido-emirfi-indicadores" },
+          { "title": "Compuviper CPS1220RMS", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/cyberpower-cps1220rms-protector-contra-sobretensiones-20a-120v-1800j-12-nema-5-15r/" }
+        ]
+      }
+    },
+    {
+      "product_id": "oqys1164e7curzq",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Hisense",
+        "name": "Aire acondicionado portatil Hisense AP12CWN2 1 tonelada 12000 BTU 115V Wi-Fi solo frio blanco",
+        "description": "Aire acondicionado portatil Hisense AP12CWN2 solo frio con capacidad de 12000 BTU/h, refrigerante R32, Wi-Fi, control remoto y kit de instalacion. Mantener 31 kg como peso de ficha y 34 kg como peso comercial hasta validar caja.",
+        "manufacturerUrl": "https://hisense.com.mx/AP12CWN2",
+        "manualCategoryPath": "climatizacion/aires-acondicionados/portatiles/12000-btu/115v-solo-frio/hisense-ap12cwn2",
+        "semanticCategoryPath": "climatizacion/aires-acondicionados/portatiles/12000-btu/115v-solo-frio",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://hisense.com.mx/uploads/AP12CWN2.png", "https://hisense.com.mx/uploads/AP12CWN2_%281%29.png"],
+        "documents": [
+          { "label": "Hisense AP12CWN2 ficha agregada", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/66b/d45/198/66bd451982acf9.73447409.pdf" }
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "AP12CWN2",
+          "providerSkus": ["AIRHSE450"],
+          "ean": "6926597746968",
+          "productType": "Aire acondicionado portatil",
+          "coolingCapacity": "12000 BTU/h",
+          "tonnage": "1 tonelada",
+          "voltage": "110-115 V",
+          "refrigerant": "R32",
+          "functions": ["Solo frio", "Wi-Fi", "Control remoto"],
+          "housingMaterial": "Metal y plastico",
+          "color": "Blanco",
+          "energyConsumption": "1110-1400 W segun retail/ficha",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Cityshop $6,109 MXN con 2 piezas; Home Depot $8,999 MXN; MacToner $12,013.84 MXN sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "AIRHSE450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8284.41, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cityshop $6,109 MXN con 2 piezas.", "Home Depot $8,999 MXN.", "MacToner $12,013.84 MXN sin existencias."],
+          "reviewNotes": "No confundir con AP12CR1G, AP12NXG ni AP-12CWBRNPS01. Oficial indica R32; algun retail puede listar R410A."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "48 x 38 x 86 cm ficha agregada; Home Depot lista 60.8 x 43.3 x 32 cm", "weight": "31 kg ficha agregada; 34 kg peso comercial publicado", "packageWeight": "No validado" },
+        "sourceRefs": [
+          { "title": "Hisense Mexico AP12CWN2", "type": "manufacturer_product", "url": "https://hisense.com.mx/AP12CWN2" },
+          { "title": "Cyberpuerta AP12CWN2 ficha PDF", "type": "datasheet", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/66b/d45/198/66bd451982acf9.73447409.pdf" },
+          { "title": "Home Depot AP12CWN2", "type": "retailer_price_stock", "url": "https://www.homedepot.com.mx/p/hisense-aire-acondicionado-hisense-portatil-1-tonelada-ap12cwn2-224531" },
+          { "title": "Cityshop AP12CWN2", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/aire-acondicionado-portatil-hisense-1-ton-1" }
+        ]
+      }
+    },
+    {
+      "product_id": "ztltbixcyw49pyn",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Hisense",
+        "name": "Horno de microondas Hisense HMMS2509BP 0.9 pies cubicos 25.5L 1000W negro touch",
+        "description": "Microondas de mesa Hisense HMMS2509BP negro con capacidad 0.9 pies cubicos/25.5L, salida de microondas 1000W, panel touch, 10 niveles de potencia, 26 menus mexicanos y recubrimiento ceramico.",
+        "manufacturerUrl": "https://hisense.com.mx/HMMS2509BP",
+        "manualCategoryPath": "hogar/electrodomesticos/microondas/0-9-pies/1000w/hisense-hmms2509bp",
+        "semanticCategoryPath": "hogar/electrodomesticos/microondas/0-9-pies/1000w",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://hisense.com.mx/uploads/HMMS2509BP.png", "https://hisense.com.mx/uploads/HMMS2509BP_%281%29.png"],
+        "documents": [
+          { "label": "GlobalOffice HMMS2509BP PDF", "type": "retailer_datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/hmms2509bp" }
+        ],
+        "specs": {
+          "brand": "Hisense",
+          "model": "HMMS2509BP",
+          "providerSkus": ["HORHSE040"],
+          "ean": "6974805077502",
+          "productType": "Horno de microondas de mesa",
+          "capacity": "0.9 pies cubicos / 25.5 L",
+          "microwaveOutputPower": "1000 W",
+          "inputPower": "1440-1450 W",
+          "voltage": "120 V",
+          "controls": "Panel touch con display LED",
+          "powerLevels": "10",
+          "presetMenus": "26 menus mexicanos",
+          "interiorCoating": "Ceramico",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular. Zero1 $1,752.68 MXN con 27 piezas; Computol $2,001.70 MXN con 8 piezas; Cyberpuerta ultimo precio $2,039 MXN agotado; Walmart $2,269 MXN agotado.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "HORHSE040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1576.56, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Zero1 $1,752.68 MXN con 27 piezas.", "Computol $2,001.70 MXN con 8 piezas.", "Cyberpuerta $2,039 MXN agotado.", "Walmart $2,269 MXN agotado."],
+          "reviewNotes": "No confundir con HMMS2509SP plata/inox. Separar 1000W de salida microondas de 1440/1450W de consumo/entrada."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "48 x 35.2 x 29.2 cm", "weight": "12.3 kg; Walmart lista 12 kg" },
+        "sourceRefs": [
+          { "title": "Hisense Mexico HMMS2509BP", "type": "manufacturer_product", "url": "https://hisense.com.mx/HMMS2509BP" },
+          { "title": "Cyberpuerta HMMS2509BP", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Hogar/Linea-Blanca/Hornos-de-Microondas/Hisense-Horno-de-Microondas-HMMS2509BP-0-9-Pies-Cubicos-1450W-25-5-Litros-Negro.html" },
+          { "title": "Walmart HMMS2509BP", "type": "retailer_price_stock", "url": "https://www.walmart.com.mx/ip/horno-de-microondas-hisense-0-9-pies-cubicos-negro-hmms2509bp/00697480507750" },
+          { "title": "GlobalOffice HMMS2509BP PDF", "type": "retailer_datasheet", "url": "https://globaloffice.com.mx/app/producto/pdf/hmms2509bp" }
+        ]
+      }
+    }
+  ]
+}
