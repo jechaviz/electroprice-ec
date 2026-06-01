@@ -1,0 +1,390 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b284-2026-06-01",
+  "cycle": 3,
+  "batch": 284,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0jd1ej8wd3mbpnl",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Apple",
+        "name": "Apple iMac 24 M1 8GB 256GB SSD rosa",
+        "description": "iMac Apple MGPM3E/A de 24 pulgadas en color rosa con chip M1, memoria unificada de 8GB, SSD de 256GB, pantalla Retina 4.5K y cuatro puertos USB-C/Thunderbolt en configuracion rosa. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://support.apple.com/es-mx/111895",
+        "manualCategoryPath": "computo/desktops/all-in-one/apple-imac/24-retina-4-5k/m1-8gb-256gb-rosa",
+        "semanticCategoryPath": "computo/desktops/all-in-one/apple-imac/24-retina-4-5k",
+        "legacyCategory": "desktops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CPUMAC1190/CPUMAC1190_full.jpg"],
+        "documents": ["https://support.apple.com/es-mx/111895", "https://www.abasteo.mx/Apple/Mac/iMac/Apple-iMac-Retina-MGPM3E-A-24-Apple-M1-8GB-256GB-Rosa.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "CPUMAC1190", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 31683.2, "currency": "MXN" }],
+        "specs": {
+          "model": "MGPM3E/A",
+          "aliases": ["MGPM3E/A", "CPUMAC1190", "0194252125922", "MGPM3LL/A"],
+          "ean": "0194252125922",
+          "processor": "Apple M1, CPU 8 nucleos",
+          "graphics": "GPU Apple M1 8 nucleos",
+          "memory": "8GB memoria unificada",
+          "storage": "256GB SSD",
+          "display": "24 pulgadas Retina 4.5K 4480 x 2520, 500 nits, P3, True Tone",
+          "camera": "FaceTime HD 1080p",
+          "wireless": ["Wi-Fi 6", "Bluetooth 5.0"],
+          "ports": ["2 Thunderbolt/USB 4", "2 USB 3", "audio 3.5 mm", "Gigabit Ethernet"],
+          "color": "Rosa",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CPUMAC1190. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CPUMAC1190", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 31683.2, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Apple mantiene especificacion oficial; Abasteo/Oasify muestran el modelo MGPM3E/A como referencia comercial. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "54.7 x 14.7 x 46.1 cm", "weight": "4.48 kg" },
+        "sourceRefs": [
+          { "title": "Apple iMac 24 M1 especificaciones", "type": "manufacturer_page", "url": "https://support.apple.com/es-mx/111895" },
+          { "title": "Abasteo MGPM3E/A", "type": "retailer_specs", "url": "https://www.abasteo.mx/Apple/Mac/iMac/Apple-iMac-Retina-MGPM3E-A-24-Apple-M1-8GB-256GB-Rosa.html" },
+          { "title": "CTOnline feed CPUMAC1190 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jdlwujufxlg2h3",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Hune",
+        "name": "Hune Haya audifonos in-ear alambricos 3.5mm con microfono bosque",
+        "description": "Audifonos Hune Haya AT-ACC-AU-048BOS con cable trenzado sustentable, conector 3.5mm, microfono manos libres y color bosque. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://fulloffice.com/products/audifonos-manos-libres-hune-haya-sustentable-trenzado-con-microfono-jack-3-5-bosque",
+        "manualCategoryPath": "audio/audifonos/alambricos-3-5mm/in-ear-manos-libres/hune-haya-at-acc-au-048bos",
+        "semanticCategoryPath": "audio/audifonos/alambricos-3-5mm/in-ear-manos-libres",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10337172"],
+        "documents": ["https://fulloffice.com/products/audifonos-manos-libres-hune-haya-sustentable-trenzado-con-microfono-jack-3-5-bosque", "https://www.pcel.com/Hune-AT-ACC-CA-U048-BOS-Audifonos-Hune-Bosque-Respuesta-de-frecuencia-20Hz-20kHz-3-5mm-Color-Verde-510407"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SPK-2228", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 198.25, "currency": "MXN" }],
+        "specs": {
+          "model": "AT-ACC-AU-048BOS",
+          "aliases": ["AT-ACC-AU-048BOS", "AT-ACC-CA-U048-BOS", "SPK-2228", "Haya"],
+          "productType": "Audifonos in-ear manos libres",
+          "connection": "Jack 3.5mm",
+          "microphone": "Integrado",
+          "cableLength": "1.2 m",
+          "frequencyResponse": "20 Hz - 20 kHz",
+          "impedance": "16 a 32 ohm segun ficha comercial",
+          "sensitivity": "100 +/-3 dB",
+          "color": "Bosque / verde",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SPK-2228. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SPK-2228", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 198.25, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["FullOffice, Global Office y PCEL listan el modelo Hune Haya bosque; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicada", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "FullOffice Hune Haya AT-ACC-AU-048BOS", "type": "retailer_specs", "url": "https://fulloffice.com/products/audifonos-manos-libres-hune-haya-sustentable-trenzado-con-microfono-jack-3-5-bosque" },
+          { "title": "PCEL Hune bosque", "type": "retailer_specs", "url": "https://www.pcel.com/Hune-AT-ACC-CA-U048-BOS-Audifonos-Hune-Bosque-Respuesta-de-frecuencia-20Hz-20kHz-3-5mm-Color-Verde-510407" },
+          { "title": "CVA feed SPK-2228 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jg4r8lmsxu7pf8",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Ubiquiti",
+        "name": "Ubiquiti UniFi Video NVR 2TB",
+        "description": "Grabador Ubiquiti UVC-NVR-2TB para UniFi Video con disco de 2TB, procesador Intel J1800, 4GB de memoria, puerto Gigabit Ethernet y software UniFi Video preinstalado. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://dl.ubnt.com/guides/unifivideo/UVC-NVR-2TB_QSG.pdf",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-ip/ubiquiti-unifi-video/2tb/uvc-nvr-2tb",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-ip/ubiquiti-unifi-video/2tb",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NVRUBI010/NVRUBI010_full.jpg"],
+        "documents": ["https://dl.ubnt.com/guides/unifivideo/UVC-NVR-2TB_QSG.pdf", "https://manualmachine.com/ubiquiti/uvcnvr2tb/8059406-data-sheet/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "NVRUBI010", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 378.51, "currency": "USD" }],
+        "specs": {
+          "model": "UVC-NVR-2TB",
+          "aliases": ["UVC-NVR-2TB", "NVRUBI010", "UniFi Video NVR 2TB"],
+          "storage": "2TB HDD",
+          "processor": "Intel J1800",
+          "memory": "4GB",
+          "network": "1 puerto Gigabit Ethernet",
+          "software": "UniFi Video",
+          "videoFormat": "MP4 H.264/AAC",
+          "cameraCapacity": "hasta 20 camaras recomendadas segun ficha, hasta 50 en referencias comerciales",
+          "power": "19V DC 3.42A, adaptador 65W",
+          "certifications": ["FCC", "CE", "IC"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para NVRUBI010. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "NVRUBI010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 378.51, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Ubiquiti conserva guia rapida y la linea UniFi Video aparece como legado/EOL en comunidad; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "135 x 190 x 25 mm", "weight": "483 g" },
+        "sourceRefs": [
+          { "title": "Ubiquiti UVC-NVR-2TB Quick Start Guide", "type": "manufacturer_pdf", "url": "https://dl.ubnt.com/guides/unifivideo/UVC-NVR-2TB_QSG.pdf" },
+          { "title": "ManualMachine UVC-NVR-2TB data sheet", "type": "datasheet_mirror", "url": "https://manualmachine.com/ubiquiti/uvcnvr2tb/8059406-data-sheet/" },
+          { "title": "CTOnline feed NVRUBI010 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jh1jcf8x1zmzf2",
+      "research": {
+        "confidence": 0.88,
+        "brand": "SKE",
+        "name": "SKE UH22-6 Si UPS online 6000VA 6000W torre negro",
+        "description": "UPS SKE UH22-6 Si online de doble conversion en formato torre, capacidad 6000VA/6000W, factor de potencia 1 y salida regulada para carga critica. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://soluciones.ventacomputadoras.com.mx/ups-online-ske-uh22-6-si-6000va-6000w-doble-conversion/",
+        "manualCategoryPath": "energia/no-breaks-ups/doble-conversion/torre/6000va/ske-uh22-6-si",
+        "semanticCategoryPath": "energia/no-breaks-ups/doble-conversion/torre/6000va",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/NBKSKE100/NBKSKE100_1_full.jpg"],
+        "documents": ["https://soluciones.ventacomputadoras.com.mx/ups-online-ske-uh22-6-si-6000va-6000w-doble-conversion/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "NBKSKE100", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 50555.6, "currency": "MXN" }],
+        "specs": {
+          "model": "UH22-6 Si",
+          "aliases": ["UH22-6 Si", "NBKSKE100"],
+          "capacity": "6000VA / 6000W",
+          "topology": "Online doble conversion",
+          "powerFactor": "1.0",
+          "formFactor": "Torre",
+          "color": "Negro",
+          "input": "1 fase 3 hilos o 2 fases 3 hilos segun descripcion comercial",
+          "useCase": "Respaldo y regulacion para equipos criticos empresariales",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para NBKSKE100. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "NBKSKE100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 50555.6, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["VentaComputadoras y Cityshop conservan ficha comercial; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "VentaComputadoras SKE UH22-6 Si", "type": "retailer_specs", "url": "https://soluciones.ventacomputadoras.com.mx/ups-online-ske-uh22-6-si-6000va-6000w-doble-conversion/" },
+          { "title": "CTOnline feed NBKSKE100 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jjbi0p2nxbhgga",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Apple",
+        "name": "Apple Studio Display 27 5K vidrio estandar base inclinacion ajustable plata",
+        "description": "Apple Studio Display MYJG3LZ/A de 27 pulgadas con panel Retina 5K, vidrio estandar, base con inclinacion ajustable, camara ultra gran angular de 12MP, seis bocinas, tres microfonos y Thunderbolt con carga de 96W. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://support.apple.com/es-us/111890",
+        "manualCategoryPath": "computo/monitores/profesionales/27-5k/apple-studio-display/myjg3lza-vidrio-estandar-inclinacion",
+        "semanticCategoryPath": "computo/monitores/profesionales/27-5k/apple-studio-display",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10460019"],
+        "documents": ["https://support.apple.com/es-us/111890", "https://www.apple.com/studio-display/specs/"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "MNL-2908", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 31277.03, "currency": "MXN" }],
+        "specs": {
+          "model": "MYJG3LZ/A",
+          "aliases": ["MYJG3LZ/A", "MYJG3LL/A", "MNL-2908", "Studio Display"],
+          "display": "27 pulgadas Retina 5K, 5120 x 2880, 218 ppi",
+          "brightness": "600 nits",
+          "color": "P3, True Tone, 1000 millones de colores",
+          "camera": "12MP Center Stage",
+          "audio": "6 bocinas de alta fidelidad y arreglo de 3 microfonos",
+          "ports": ["1 Thunderbolt upstream con carga 96W", "3 USB-C downstream 10Gb/s"],
+          "stand": "Base con inclinacion ajustable -5 a +25 grados",
+          "glass": "Vidrio estandar",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para MNL-2908. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "MNL-2908", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 31277.03, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Apple mantiene especificacion oficial; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "62.3 x 47.8 x 16.8 cm", "weight": "6.3 kg" },
+        "sourceRefs": [
+          { "title": "Apple Studio Display soporte", "type": "manufacturer_page", "url": "https://support.apple.com/es-us/111890" },
+          { "title": "Apple Studio Display specs", "type": "manufacturer_page", "url": "https://www.apple.com/studio-display/specs/" },
+          { "title": "CVA feed MNL-2908 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jlkv7o4xs0h5b9",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Canon",
+        "name": "Canon GI-11 PGBK botella de tinta negra pigmentada 135 ml",
+        "description": "Botella original Canon GI-11 PGBK 4525C001AA de tinta negra pigmentada para impresoras PIXMA MegaTank compatibles, rendimiento aproximado de 7600 paginas y contenido de 135 ml. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.tiendacanon.com.mx/es_mx/p/tinta-gi-11-pgbk",
+        "manualCategoryPath": "impresion/consumibles/botellas-tinta/canon/gi-11/pgbk-4525c001aa",
+        "semanticCategoryPath": "impresion/consumibles/botellas-tinta/canon/gi-11",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10249071"],
+        "documents": ["https://www.tiendacanon.com.mx/es_mx/p/tinta-gi-11-pgbk", "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_59101dy_84771768.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "CN-4342", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 267.16, "currency": "MXN" }],
+        "specs": {
+          "model": "GI-11 PGBK",
+          "aliases": ["4525C001AA", "CN-4342", "013803330915", "GI-11 PGBK"],
+          "upc": "013803330915",
+          "inkColor": "Negro pigmentado",
+          "content": "135 ml",
+          "yield": "hasta 7600 paginas",
+          "compatiblePrinters": ["PIXMA G2160", "PIXMA G3160", "PIXMA G1130", "PIXMA G2170", "PIXMA G3170", "PIXMA G4170", "PIXMA G3180", "PIXMA G4180"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para CN-4342. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CN-4342", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 267.16, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Tienda Canon lista el SKU 4525C001AA y compatibilidades; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "no publicadas", "weight": "135 ml contenido" },
+        "sourceRefs": [
+          { "title": "Tienda Canon GI-11 PGBK", "type": "manufacturer_store", "url": "https://www.tiendacanon.com.mx/es_mx/p/tinta-gi-11-pgbk" },
+          { "title": "Ingram Micro GI-11 PGBK PDF", "type": "distributor_datasheet", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/30_59101dy_84771768.pdf" },
+          { "title": "CVA feed CN-4342 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jmir1re8a9v3wh",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Nextep",
+        "name": "Nextep NE-011A folder oficio azul economico paquete 100 piezas",
+        "description": "Folder economico Nextep NE-011A color azul claro, tamano oficio 23 x 34 cm, cartulina de 135 g, doble perforacion superior/lateral y paquete de 100 piezas. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://nextep.com.mx/wp-content/uploads/2025/01/NE-011A.pdf",
+        "manualCategoryPath": "oficina/papeleria/archivo/folders/oficio/azul/100-piezas/nextep-ne-011a",
+        "semanticCategoryPath": "oficina/papeleria/archivo/folders/oficio/azul/100-piezas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNEX1650/ACCNEX1650_full.jpg"],
+        "documents": ["https://nextep.com.mx/wp-content/uploads/2025/01/NE-011A.pdf", "https://intercompras.com/p/folder-economico-nextep-ne-011a-tamano-oficio-azul-piezas-409988"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCNEX1650", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 156.41, "currency": "MXN" }],
+        "specs": {
+          "model": "NE-011A",
+          "aliases": ["NE-011A", "ACCNEX1650"],
+          "productType": "Folder economico oficio",
+          "color": "Azul claro",
+          "size": "Oficio",
+          "dimensions": "23 x 34 cm",
+          "tab": "18.6 x 1.5 cm",
+          "perforation": "Doble perforacion superior y lateral",
+          "paperWeight": "135 g",
+          "packContent": "100 piezas",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCNEX1650. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCNEX1650", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 156.41, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Nextep publica PDF NE-011A y marketplaces lo listan; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "23 x 34 cm por folder", "weight": "cartulina 135 g/m2" },
+        "sourceRefs": [
+          { "title": "Nextep NE-011A PDF", "type": "manufacturer_pdf", "url": "https://nextep.com.mx/wp-content/uploads/2025/01/NE-011A.pdf" },
+          { "title": "Intercompras Nextep NE-011A", "type": "retailer_specs", "url": "https://intercompras.com/p/folder-economico-nextep-ne-011a-tamano-oficio-azul-piezas-409988" },
+          { "title": "CTOnline feed ACCNEX1650 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jqzmhq0zndctvy",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Canon",
+        "name": "Canon MC-08 cartucho de mantenimiento para imagePROGRAF",
+        "description": "Cartucho de mantenimiento Canon MC-08 1320B006 para impresoras imagePROGRAF de gran formato; recolecta tinta residual durante limpieza e inicializacion. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.bhphotovideo.com/c/product/486657-REG/Canon_1320B006_MC_08_Maintenance_Cartridge.html",
+        "manualCategoryPath": "impresion/consumibles/cajas-mantenimiento/canon/imageprograf/mc-08-1320b006",
+        "semanticCategoryPath": "impresion/consumibles/cajas-mantenimiento/canon/imageprograf",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARCNN1670/CARCNN1670_full.jpg"],
+        "documents": ["https://www.bhphotovideo.com/c/product/486657-REG/Canon_1320B006_MC_08_Maintenance_Cartridge.html", "https://www.tonercartridgedepot.com/cnm-1320b006.htm"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "CARCNN1670", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1815.05, "currency": "MXN" }],
+        "specs": {
+          "model": "MC-08",
+          "aliases": ["MC-08", "1320B006", "1320B006BC", "CARCNN1670", "013803067231"],
+          "upc": "013803067231",
+          "productType": "Cartucho de mantenimiento / caja de tinta residual",
+          "compatiblePrinters": ["imagePROGRAF iPF8000", "imagePROGRAF iPF8100", "imagePROGRAF iPF8300S", "imagePROGRAF iPF8400", "imagePROGRAF iPF9000", "imagePROGRAF iPF9100", "imagePROGRAF iPF9400", "imagePROGRAF iPF9400S"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para CARCNN1670. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "CARCNN1670", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1815.05, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H lista compatibilidades y UPC; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "packageDimensions": "18.95 x 5.95 x 5.05 in", "packageWeight": "1.45 lb" },
+        "sourceRefs": [
+          { "title": "B&H Canon MC-08", "type": "retailer_specs", "url": "https://www.bhphotovideo.com/c/product/486657-REG/Canon_1320B006_MC_08_Maintenance_Cartridge.html" },
+          { "title": "Toner Cartridge Depot Canon 1320B006", "type": "retailer_specs", "url": "https://www.tonercartridgedepot.com/cnm-1320b006.htm" },
+          { "title": "CTOnline feed CARCNN1670 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0jzi1xslroaymfi",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Hikvision",
+        "name": "HiLook by Hikvision KIP2MP/4B kit IP 1080p 4 camaras PoE",
+        "description": "Kit IP HiLook/Hikvision KIP2MP/4B con NVR de 4 canales NVR-104H-D/4P(C) con 4 puertos PoE y 4 camaras bala IPC-B121H(C) de 2MP, ideal para videovigilancia 1080p. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://hikvision-store.mx/kits-de-red/1519-kip2mp4b.html",
+        "manualCategoryPath": "seguridad/cctv/kits-videovigilancia/ip-poe/4-canales-2mp/4-camaras/hikvision-kip2mp-4b",
+        "semanticCategoryPath": "seguridad/cctv/kits-videovigilancia/ip-poe/4-canales-2mp/4-camaras",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITHKV390/KITHKV390_full.jpg"],
+        "documents": ["https://hikvision-store.mx/kits-de-red/1519-kip2mp4b.html", "https://assets.hikvision.com/prd/public/all/doc/m000000751/Datasheet-of-NVR-104H-D_4P-NVRD_V4.73.200_20230404.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "KITHKV390", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 179.28, "currency": "USD" }],
+        "specs": {
+          "model": "KIP2MP/4B",
+          "aliases": ["KIP2MP/4B", "KITHKV390", "NVR-104H-D/4P", "IPC-B121H"],
+          "kitContent": ["1 NVR-104H-D/4P(C)", "4 IPC-B121H(C)"],
+          "nvrChannels": "4 canales IP",
+          "poePorts": "4 puertos PoE+ 36W",
+          "codecs": ["H.265", "H.264"],
+          "videoOutput": "HDMI/VGA 1080p",
+          "storage": "1 bahia HDD hasta 6TB, disco no incluido",
+          "bandwidth": "40 Mbps entrada / 60 Mbps salida",
+          "cameraResolution": "2MP 1920 x 1080",
+          "cameraLens": "2.8 mm",
+          "cameraProtection": "IP67, IR 30 m, dWDR, BLC, 3D-DNR, PoE",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para KITHKV390. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "KITHKV390", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 179.28, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Hikvision Store MX lista el kit y componentes; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "NVR 200 x 200 x 48 mm; camara 70 x 181.6 mm", "weight": "NVR 1 kg sin HDD; camara 390 g cada una" },
+        "sourceRefs": [
+          { "title": "Hikvision Store KIP2MP/4B", "type": "retailer_specs", "url": "https://hikvision-store.mx/kits-de-red/1519-kip2mp4b.html" },
+          { "title": "Hikvision NVR-104H-D/4P datasheet", "type": "manufacturer_pdf", "url": "https://assets.hikvision.com/prd/public/all/doc/m000000751/Datasheet-of-NVR-104H-D_4P-NVRD_V4.73.200_20230404.pdf" },
+          { "title": "CTOnline feed KITHKV390 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0k3e1mxa3l7tjca",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Kaspersky",
+        "name": "Kaspersky Next EDR Optimum 20-24 licencias 1 ano",
+        "description": "Licencia digital Kaspersky Next EDR Optimum KL4066ZANFS para 20 a 24 licencias por 1 ano, con proteccion endpoint, controles de seguridad, EDR esencial, anti-ransomware y administracion de vulnerabilidades/parches/cifrado. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://latam.kaspersky.com/next-edr-optimum",
+        "manualCategoryPath": "software/seguridad/endpoint/kaspersky-next/edr-optimum/20-24-licencias-1-ano/kl4066zanfs",
+        "semanticCategoryPath": "software/seguridad/endpoint/kaspersky-next/edr-optimum/20-24-licencias-1-ano",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SOFKPS2420/SOFKPS2420_full.jpg"],
+        "documents": ["https://latam.kaspersky.com/next-edr-optimum", "https://www.kaspersky.com/next"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "SOFKPS2420", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 908.14, "currency": "MXN" }],
+        "specs": {
+          "model": "KL4066ZANFS",
+          "aliases": ["KL4066ZANFS", "SOFKPS2420", "Kaspersky Next EDR Optimum"],
+          "licenseBand": "20-24 licencias",
+          "term": "1 ano",
+          "delivery": "Licencia digital",
+          "capabilities": ["Endpoint protection", "EDR Optimum", "anti-ransomware", "cloud security", "vulnerability management", "patch management", "encryption management", "guided response"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para SOFKPS2420. Producto de software/licencia digital sin almacen fisico operativo por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SOFKPS2420", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 908.14, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Kaspersky mantiene linea Next EDR Optimum; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica, licencia digital", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Kaspersky Latam Next EDR Optimum", "type": "manufacturer_page", "url": "https://latam.kaspersky.com/next-edr-optimum" },
+          { "title": "Kaspersky Next", "type": "manufacturer_page", "url": "https://www.kaspersky.com/next" },
+          { "title": "CTOnline feed SOFKPS2420 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

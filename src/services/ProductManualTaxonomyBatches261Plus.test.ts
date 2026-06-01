@@ -300,6 +300,19 @@ const batch283Cases = [
   ["APC APCRBC140 BATAPC350 FR-1013 replacement battery cartridge 140 Smart-UPS On-Line SRT5KXLT", "APC", "energia/baterias-ups/cartuchos-reemplazo/apc-apcrbc140", "power", {}],
 ] as const;
 
+const batch284Cases = [
+  ["Apple MGPM3E/A CPUMAC1190 iMac 24 M1 8GB 256GB SSD rosa 0194252125922", "APPLE", "computo/desktops/all-in-one/apple-imac/24-retina-4-5k/m1-8gb-256gb-rosa", "desktops", {}],
+  ["Hune Haya AT-ACC-AU-048BOS SPK-2228 audifonos in-ear 3.5mm con microfono bosque", "HUNE", "audio/audifonos/alambricos-3-5mm/in-ear-manos-libres/hune-haya-at-acc-au-048bos", "headphones", {}],
+  ["Ubiquiti UVC-NVR-2TB NVRUBI010 UniFi Video NVR 2TB Intel J1800", "UBIQUITI", "seguridad/cctv/dvr-nvr/nvr-ip/ubiquiti-unifi-video/2tb/uvc-nvr-2tb", "cameras", {}],
+  ["SKE UH22-6 Si NBKSKE100 UPS online doble conversion 6000VA 6000W torre factor potencia 1", "SKE", "energia/no-breaks-ups/doble-conversion/torre/6000va/ske-uh22-6-si", "power", {}],
+  ["Apple Studio Display MYJG3LZ/A MNL-2908 27 5K vidrio estandar base inclinacion ajustable", "APPLE", "computo/monitores/profesionales/27-5k/apple-studio-display/myjg3lza-vidrio-estandar-inclinacion", "monitors", {}],
+  ["Canon 4525C001AA CN-4342 GI-11 PGBK botella tinta negra 7600 paginas", "CANON", "impresion/consumibles/botellas-tinta/canon/gi-11/pgbk-4525c001aa", "printers_scanners", {}],
+  ["Nextep NE-011A ACCNEX1650 folder oficio azul economico 100 piezas 23 x 34 cm", "NEXTEP", "oficina/papeleria/archivo/folders/oficio/azul/100-piezas/nextep-ne-011a", "accessories", {}],
+  ["Canon MC-08 CARCNN1670 1320B006 cartucho mantenimiento imagePROGRAF 013803067231", "CANON", "impresion/consumibles/cajas-mantenimiento/canon/imageprograf/mc-08-1320b006", "printers_scanners", {}],
+  ["Hikvision KIP2MP/4B KITHKV390 kit IP PoE 4 camaras 2MP NVR-104H-D/4P IPC-B121H", "HIKVISION", "seguridad/cctv/kits-videovigilancia/ip-poe/4-canales-2mp/4-camaras/hikvision-kip2mp-4b", "cameras", {}],
+  ["Kaspersky KL4066ZANFS SOFKPS2420 Next EDR Optimum 20-24 licencias 1 ano", "KASPERSKY", "software/seguridad/endpoint/kaspersky-next/edr-optimum/20-24-licencias-1-ano/kl4066zanfs", "software", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -434,6 +447,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch283Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch284Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
