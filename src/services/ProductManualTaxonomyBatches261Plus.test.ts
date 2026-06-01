@@ -53,6 +53,19 @@ const batch264Cases = [
   ["Poly 9T9J4AA#AC3 SPK-2460 Voyager Focus 2 UC Microsoft Teams Bluetooth USB-A", "POLY", "audio/audifonos/bluetooth/diadema-oficina/poly-voyager-focus-2-9t9j4aa-ac3", "headphones", {}],
 ] as const;
 
+const batch265Cases = [
+  ["Stylos STTA3G5A TLCSTY610 tablet 3G Android 11 7 pulgadas 2GB 32GB azul", "STYLOS", "computo/tabletas/android/7-pulgadas/stylos-stta3g5a", "tablets", {}],
+  ["BRobotix 190432-36 MEMRBT850 memoria USB 32GB cerdito 2 rosa 7503028136704", "BROBOTIX", "computo/almacenamiento/memorias-flash/usb/32gb/diseno-animado/brobotix-190432-36-cerdito-rosa", "storage", {}],
+  ["Getttech GH-3100P BOCGET110 Sonority diadema 3.5mm con microfono rosa", "GETTTECH", "audio/audifonos/alambricos-3-5mm/diadema-con-microfono/getttech-gh-3100p-rosa", "headphones", {}],
+  ["Sola Basic ISB XR-21-162 FR-547 Micro SR UPS 1600VA 1000W 6 contactos", "SOLA BASIC ISB", "energia/no-breaks-ups/line-interactive/1600va/sola-basic-xr-21-162", "power", {}],
+  ["Canon PFI-007C CARCNN5740 2144C001AA tanque tinta cian 90ml imagePROGRAF", "CANON", "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-007/pfi-007c-2144c001aa", "printers_scanners", {}],
+  ["Balam Rush BR-938044 CF-425 Eolox Blaze EX70 ventilador 120mm ARGB 1200RPM", "BALAM RUSH", "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb/balam-rush-eolox-blaze-ex70-br-938044", "components", {}],
+  ["HPE P77119-B21 SOFHPE870 Windows Server 2025 Remote Desktop Service 1 Device CAL", "HPE", "software/licencias/windows-server/cal-rds/device-cal-2025/hpe-p77119-b21", "software", {}],
+  ["Aspel ADM12MPV SWA-745 ADM Premium anual electronico Siigo Aspel", "ASPEL", "software/licencias/aspel-adm/premium-anual/adm12mpv", "software", {}],
+  ["Provision-ISR PoES-08120C+2I SWTPVS140 switch PoE CCTV 8 puertos 120W", "PROVISION-ISR", "redes/switches/poe-no-administrables/cctv/8-puertos-120w/provision-isr-poes-08120c-2i", "networking", {}],
+  ["AOC 27G4 MONAOC910 monitor gaming 27 FHD IPS 180Hz 1ms", "AOC", "computo/monitores/gaming/27-fhd/180hz/aoc-27g4", "monitors", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -73,6 +86,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch264Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch265Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

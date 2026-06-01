@@ -1,0 +1,564 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b265-2026-06-01",
+  "cycle": 3,
+  "batch": 265,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "013rwlnjjfcf1n0",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Stylos",
+        "name": "Tablet Stylos STTA3G5A 7 pulgadas Android 11 Go 2GB 32GB azul",
+        "description": "Tablet Stylos STTA3G5A de 7 pulgadas con Android 11 Go, memoria RAM de 2GB, almacenamiento de 32GB, procesador Quad Core y conectividad Wi-Fi/Bluetooth. El proveedor CTOnline reporta stock 0.",
+        "manufacturerUrl": "",
+        "manualCategoryPath": "computo/tabletas/android/7-pulgadas/stylos-stta3g5a",
+        "semanticCategoryPath": "computo/tabletas/android/7-pulgadas",
+        "legacyCategory": "tablets",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TLCSTY610/TLCSTY610_1_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-STYLOS-STTA3G5A-5c7534.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-STYLOS-STTA3G5A-2.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TLCSTY610", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Stylos",
+          "model": "STTA3G5A",
+          "providerSkus": ["TLCSTY610"],
+          "productType": "Tablet Android 3G de 7 pulgadas",
+          "screen": "7 pulgadas, 1024 x 600; panel TN reportado por retailer",
+          "operatingSystem": "Android 11 Go Edition",
+          "processor": "Quad Core; 1.3 GHz reportado por retailers",
+          "memory": "2 GB RAM",
+          "storage": "32 GB",
+          "expandableStorage": "MicroSD",
+          "battery": "2500 mAh reportado por retailer",
+          "wireless": ["Wi-Fi 802.11 b/g/n", "Bluetooth"],
+          "ports": ["Micro USB 2.0", "Audio 3.5 mm", "MicroSD"],
+          "color": "Azul",
+          "upc": "7503035946396",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TLCSTY610. TiendaClic reporta existencia aproximada 0 y Mactoner lo muestra sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TLCSTY610", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner TLCSTY610 sin existencias.", "TiendaClic existencia aproximada 0.", "Cyberpuerta sirve como referencia de especificaciones e imagenes."],
+          "reviewNotes": "No se encontro ficha oficial publica de Stylos para STTA3G5A; las medidas publicas parecen de empaque y se guardan como caveat."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "20 x 4 x 20.5 cm reportado por retailer; probable empaque/captura, verificar antes de usar como dimension fisica final",
+          "weight": "0.622 kg reportado por retailer"
+        },
+        "sourceRefs": [
+          { "title": "Mactoner Tablet Stylos STTA3G5A", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/tablet-stylos-stta3g5a-32-gb/" },
+          { "title": "Cyberpuerta Tablet Stylos STTA3G5A", "type": "retailer_spec_reference", "url": "https://www.cyberpuerta.mx/Computadoras/Tablets/Tablets/Tablet-Stylos-STTA3G5A-7-1024x600-32GB-2GB-RAM-Android-11-Go-Edition-Azul.html" },
+          { "title": "TiendaClic Stylos STTA3G5A", "type": "retailer_price_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/tablet-stylos-stta3g5a" }
+        ]
+      }
+    },
+    {
+      "product_id": "018cjpbwd1ecjxi",
+      "research": {
+        "confidence": 0.94,
+        "brand": "BRobotix",
+        "name": "Memoria USB BRobotix 190432-36 32GB USB-A 2.0 Cerdito 2 rosa",
+        "description": "Memoria flash USB BRobotix 190432-36 de 32GB con interfaz USB-A 2.0, diseno animado Cerdito 2, color rosa y operacion Plug & Play. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://datacomponents.com.mx/manager/fichas_tecnicas/190432-36_ft.pdf",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/diseno-animado/brobotix-190432-36-cerdito-rosa",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/32gb/diseno-animado",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMRBT850/MEMRBT850_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-BROBOTIX-190432-36-1.jpg"
+        ],
+        "documents": ["https://datacomponents.com.mx/manager/fichas_tecnicas/190432-36_ft.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "MEMRBT850", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "BRobotix",
+          "model": "190432-36",
+          "providerSkus": ["MEMRBT850"],
+          "productType": "Memoria flash USB con diseno animado",
+          "capacity": "32 GB",
+          "interface": "USB-A",
+          "usbVersion": "2.0",
+          "formFactor": "Tapa",
+          "design": "Cerdito 2 / cerdito parado",
+          "color": "Rosa",
+          "plugAndPlay": true,
+          "compatibleOs": ["Windows ME/2000/XP/Vista/7/8/10", "Mac OS X 9.0 o posterior"],
+          "security": { "fingerprintReader": false, "pinAccess": false, "passwordProtection": false },
+          "ean": "7503028136704",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para MEMRBT850. Cyberpuerta, Intercompras, MIPC y Mactoner muestran producto agotado o sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "MEMRBT850", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cyberpuerta indica sin existencias desde hace semanas.", "Intercompras indica que probablemente esta descontinuado.", "Mactoner MEMRBT850 sin existencias."],
+          "reviewNotes": "No guardar 480 MB/s como velocidad real sostenida; la ficha publica lo usa como referencia USB 2.0 o dato de retailer."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "BRobotix 190432-36 ficha tecnica", "type": "manufacturer_document", "url": "https://datacomponents.com.mx/manager/fichas_tecnicas/190432-36_ft.pdf" },
+          { "title": "Cyberpuerta BRobotix 190432-36", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Memorias-RAM-y-Flash/Memorias-USB/Memoria-USB-BRobotix-190432-36-32GB-USB-A-2-0-Rosa.html" },
+          { "title": "MIPC BRobotix 190432-36", "type": "retailer_price_stock", "url": "https://mipc.com.mx/memoria-usb-brobotix-usb-2-0-32gb-cerdito-rosa-190432-36.html" },
+          { "title": "Mactoner BRobotix MEMRBT850", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/memoria-flash-usb-brobotix-190432-36-32-gb/" }
+        ]
+      }
+    },
+    {
+      "product_id": "019qwbwndpsl1kc",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Getttech",
+        "name": "Audifonos Getttech Sonority GH-3100P diadema alambrica 3.5mm con microfono rosa",
+        "description": "Diadema Getttech GH-3100P Sonority con microfono, conexion alambrica 3.5 mm, cable de 1.2 m, drivers de 40 mm, impedancia de 32 ohms y color rosa. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://fichas.getttech.mx/GH-3100P.pdf",
+        "manualCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono/getttech-gh-3100p-rosa",
+        "semanticCategoryPath": "audio/audifonos/alambricos-3-5mm/diadema-con-microfono",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BOCGET110/BOCGET110_full.jpg",
+          "https://www.pclapsc.com/cdn/shop/files/1_b8acab57-6adc-4510-a9c1-f903599234c7.png?v=1744794912&width=3840",
+          "https://www.pclapsc.com/cdn/shop/files/2_0321d3fd-b2f8-4ad6-a8fd-e31437e55603.png?v=1744794913&width=3840"
+        ],
+        "documents": [
+          "https://fichas.getttech.mx/GH-3100P.pdf",
+          "https://manuales.getttech.mx/GH-3100P.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "BOCGET110", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Getttech",
+          "model": "GH-3100P",
+          "providerSkus": ["BOCGET110"],
+          "productType": "Audifonos de diadema con microfono",
+          "series": "Sonority",
+          "connectivity": "Alambrico",
+          "connector": "3.5 mm estereo",
+          "drivers": "40 mm con microfono",
+          "frequencyResponse": "15 Hz - 20000 Hz",
+          "sensitivity": "105 dB +/- 3 dB",
+          "impedance": "32 ohm",
+          "cableLength": "1.2 m",
+          "inputPower": "20 mW; maximo 100 mW reportado por retailer",
+          "color": "Rosa",
+          "ean": "7503026359969",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para BOCGET110. Novusred, PCLAPSC y Daytech lo muestran agotado o sin stock.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCGET110", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Novusred BOCGET110 sin stock.", "PCLAPSC GH-3100P agotado.", "Daytech GH-3100P agotado."],
+          "reviewNotes": "Algunas fuentes escriben GH3100P sin guion; conservar modelo canonico GH-3100P."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "200 x 180 x 80 mm reportado por retailer", "weight": "0.2 kg reportado por retailer alterno" },
+        "sourceRefs": [
+          { "title": "Getttech GH-3100P ficha tecnica", "type": "manufacturer_document", "url": "https://fichas.getttech.mx/GH-3100P.pdf" },
+          { "title": "Getttech GH-3100P manual", "type": "manufacturer_document", "url": "https://manuales.getttech.mx/GH-3100P.pdf" },
+          { "title": "PCLAPSC GH-3100P", "type": "retailer_price_stock", "url": "https://www.pclapsc.com/products/diadema-headset-getttech-gh-3100p-sonority-con-microfono-3-5-mm-rosa" },
+          { "title": "Novusred BOCGET110", "type": "retailer_price_stock", "url": "https://novusred.mx/sin-clasificacion/2414-audifonos-getttech-gh3100p-rosa-al%C3%A1mbrico-12-m-BOCGET110.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "019vyq5vnqpp3tt",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Sola Basic ISB",
+        "name": "No break Sola Basic ISB Micro SR XR-21-162 1600VA 1000W 6 contactos con regulador",
+        "description": "UPS/no break Sola Basic ISB Micro SR XR-21-162 de 1600VA/1000W con regulador electronico integrado, seis contactos NEMA 5-15R, proteccion contra picos y gabinete metalico. CVA reporta stock 0.",
+        "manufacturerUrl": "",
+        "manualCategoryPath": "energia/no-breaks-ups/line-interactive/1600va/sola-basic-xr-21-162",
+        "semanticCategoryPath": "energia/no-breaks-ups/line-interactive/1600va",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=1723689",
+          "https://www.grupocva.com/detalle_articulo/1723689.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "FR-547", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Sola Basic ISB",
+          "model": "XR-21-162",
+          "providerSkus": ["FR-547"],
+          "productType": "UPS / no break con regulador integrado",
+          "topology": "Line-interactive / Micro SR con AVR",
+          "capacity": "1600 VA",
+          "outputPower": "1000 W",
+          "outlets": "6 NEMA 5-15R",
+          "inputVoltage": "127 V~ 1 fase; rango 102-140 V",
+          "inputFrequency": "60 Hz",
+          "nominalInputCurrent": "12.6 A",
+          "outputVoltage": "120 V~",
+          "transferTime": "12 ms",
+          "waveform": "Cuasisenoidal con inversor; senoidal con linea",
+          "battery": "Sellada recargable libre de mantenimiento",
+          "features": ["Regulador electronico integrado", "Supresor de picos y ruido", "Alarma audible", "LEDs indicadores", "Puerto de comunicacion", "Gabinete metalico"],
+          "color": "Blanco",
+          "upc": "660077406039",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para FR-547. Metalmedia muestra existencia 0 y GlobalOffice indica contactar para existencias.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "FR-547", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Metalmedia FR-547 existencia 0.", "GlobalOffice indica existencia en proceso/contactar.", "Mactoner muestra sin existencias."],
+          "reviewNotes": "Los tiempos de respaldo publicos son inconsistentes entre fuentes; no se fijan como especificacion principal sin ficha oficial directa."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "170 x 380 x 300 mm", "weight": "25.5 kg" },
+        "sourceRefs": [
+          { "title": "Metalmedia Sola Basic XR-21-162 FR-547", "type": "retailer_price_stock", "url": "https://www.metalmedia.com.mx/NO-BREAK-SOLA-BASIC-ISB-MICRO-SR-XR-21-162-1600VA--1000-WATTS-6-CONTACTOS-C-REGULADOR-SOLA-BASIC-ISB-XR-21-162%2C189447__1461123955" },
+          { "title": "GlobalOffice Sola Basic XR-21-162", "type": "retailer_price_stock", "url": "https://globaloffice.mx/app/detalle/producto/energia/no-break-sola-basic-isb-micro-sr-xr-21-162-1600va/xr-21-162" },
+          { "title": "Mactoner Sola Basic MICROSR 1600VA", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/no-break-industrias-sola-basic-microsr-1600-va-xr-21-162-1600-va/" },
+          { "title": "Altec Sola Basic XR-21-162", "type": "retailer_spec_reference", "url": "https://www.alteccomputacion.com/tienda/9513-no-break-sola-basic-isb-micro-sr-xr-21-162-1600va1000-watts-6-contactos-con-regulador.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "01bieuo1690vd7j",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Canon",
+        "name": "Tanque de tinta Canon PFI-007C cian dye 90ml para imagePROGRAF iPF670E",
+        "description": "Tanque de tinta Canon PFI-007C cian de 90 ml, tinta dye-based color, para impresora de gran formato imagePROGRAF iPF670E. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.usa.canon.com/shop/p/ipf670e-ink-tank-pfi-007y-dye-ink-tank-90ml",
+        "manualCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-007/pfi-007c-2144c001aa",
+        "semanticCategoryPath": "impresion/consumibles/cartuchos-tinta/canon/imageprograf-pfi-007",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CARCNN5740/CARCNN5740_full.jpg",
+          "https://www.bhphotovideo.com/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D500%2Cquality%3D95/https%3A//www.bhphotovideo.com/images/images500x500/canon_2144c001aa_pfi_007c_dye_ink_tank_1493136424_1333436.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CARCNN5740", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Canon",
+          "model": "PFI-007C",
+          "mpn": "2144C001AA",
+          "providerSkus": ["CARCNN5740"],
+          "productType": "Tanque de tinta para gran formato",
+          "color": "Cian",
+          "inkType": "Dye-based color",
+          "volume": "90 ml",
+          "quantity": "1 cartucho/tanque",
+          "compatiblePrinters": ["Canon imagePROGRAF iPF670E"],
+          "ean": "4549292088991",
+          "upc": "013803288896",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CARCNN5740. Precision Roller lo reporta out of stock; Tecnowow y B&H sirven como referencia de SKU/especificaciones.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CARCNN5740", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Precision Roller lista PFI-007C sin stock.", "B&H lista el SKU y especificaciones.", "Tecnowow confirma EAN 4549292088991."],
+          "reviewNotes": "La URL oficial de Canon es de la familia PFI-007; el color especifico cian se valida con B&H y retailers de SKU."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque 7.8 x 3.15 x 1.1 in / aprox. 19.8 x 8.0 x 2.8 cm", "weight": "Empaque 0.305 lb / aprox. 0.138 kg" },
+        "sourceRefs": [
+          { "title": "Canon PFI-007 family official page", "type": "manufacturer_product", "url": "https://www.usa.canon.com/shop/p/ipf670e-ink-tank-pfi-007y-dye-ink-tank-90ml" },
+          { "title": "B&H Canon PFI-007C 2144C001AA", "type": "retailer_spec_reference", "url": "https://www.bhphotovideo.com/c/product/1333436-REG/canon_2144c001aa_pfi_007c_dye_ink_tank.html/overview" },
+          { "title": "Tecnowow Canon PFI-007C", "type": "retailer_spec_reference", "url": "https://tecnowow.mx/impresion/consumibles/cartuchos/tanque-de-tinta-canon-pfi-007c-cian-2144c001aa" },
+          { "title": "Precision Roller Canon PFI-007C", "type": "retailer_price_stock", "url": "https://www.precisionroller.com/pfi-007c-for-canon/part_number.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "01dbftqbks3zj55",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Balam Rush",
+        "name": "Ventilador para gabinete Balam Rush Eolox Blaze EX70 BR-938044 120mm ARGB 1200RPM negro",
+        "description": "Ventilador para gabinete Balam Rush Eolox Blaze EX70 BR-938044 de 120 x 25 mm, 1200 RPM, flujo de aire 30.71 CFM, ruido 22.1 dB y conector 3 pines macho/hembra con iluminacion RGB/Aura. CVA reporta stock 0.",
+        "manufacturerUrl": "https://balamrush.com/products/ventilador-para-pc-eolox-blaze-ex70",
+        "manualCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb/balam-rush-eolox-blaze-ex70-br-938044",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/120mm-argb",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10407096",
+          "https://balamrush.com/cdn/shop/files/BR-938044_1.webp?v=1702322461&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-938044_2.webp?v=1702322461&width=1000",
+          "https://balamrush.com/cdn/shop/files/BR-938044_3.webp?v=1702322461&width=1000"
+        ],
+        "documents": [
+          "https://cdn.shopify.com/s/files/1/0805/2480/4383/files/Ficha_Tecnica_BR-938044_V1.pdf?v=1702996436",
+          "https://cdn.shopify.com/s/files/1/0805/2480/4383/files/BR-938044_BR-938051_MANUAL_WEB.pdf?v=1702996490"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CF-425", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Balam Rush",
+          "model": "BR-938044",
+          "providerSkus": ["CF-425"],
+          "productType": "Ventilador ARGB para gabinete",
+          "series": "Eolox Blaze EX70",
+          "fanSize": "120 x 25 mm",
+          "bearing": "Hidraulico",
+          "speed": "1200 RPM",
+          "airflow": "30.71 CFM",
+          "noise": "22.1 dB",
+          "connector": "3 pin macho y hembra; Aura",
+          "lighting": "LED RGB / ARGB",
+          "blades": "7",
+          "material": "Plastico",
+          "life": "40000 h",
+          "cableLength": "550 mm",
+          "voltage": "Ventilador 12 Vcc; iluminacion 5 Vcc",
+          "color": "Negro",
+          "ean": "7506215938044",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CF-425. GlobalOffice muestra stock publico en Mexico, pero no corresponde al stock del proveedor CVA autenticado.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CF-425", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice reporta unidades por almacen propio.", "V-Computers reporta stock propio.", "CVA/Electroprice mantiene stock 0."],
+          "reviewNotes": "No usar disponibilidad de retailers externos para Electroprice; se conserva stock CVA en 0."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Producto 120 x 25 mm; empaque 12.5 x 8.2 x 13.9 cm reportado por ficha", "weight": "0.45 kg" },
+        "sourceRefs": [
+          { "title": "Balam Rush Eolox Blaze EX70 official page", "type": "manufacturer_product", "url": "https://balamrush.com/products/ventilador-para-pc-eolox-blaze-ex70" },
+          { "title": "Balam Rush BR-938044 ficha tecnica", "type": "manufacturer_document", "url": "https://cdn.shopify.com/s/files/1/0805/2480/4383/files/Ficha_Tecnica_BR-938044_V1.pdf?v=1702996436" },
+          { "title": "GlobalOffice Balam Rush BR-938044", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/enfriamiento/ventilador-pgabinete-balam-rush-br-938044-eolox-b/br-938044" },
+          { "title": "Walmart Mexico Balam Rush BR-938044", "type": "retailer_spec_reference", "url": "https://www.walmart.com.mx/ip/componentes-de-computadoras/ventilador-gamer-balam-rush-eolox-blaze-ex70-120mm-argb-cuadrado-rainbow-1200rpm-negro-3-pin-br-938044/00750621593804" }
+        ]
+      }
+    },
+    {
+      "product_id": "01dwf9h4l3z4j3c",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Hewlett Packard Enterprise",
+        "name": "HPE P77119-B21 Microsoft Windows Server 2025 Remote Desktop Services 1 Device CAL WW LTU",
+        "description": "Licencia HPE/Microsoft Windows Server 2025 Remote Desktop Services 1 Device CAL WW LTU, SKU P77119-B21, para licenciar un dispositivo que use Remote Desktop Services. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/software/operating-systems/windows-operating-systems/microsoft-windows-server-2025-remote-desktop-service-1-device-cal-ww-ltu/p/p77119-b21",
+        "manualCategoryPath": "software/licencias/windows-server/cal-rds/device-cal-2025/hpe-p77119-b21",
+        "semanticCategoryPath": "software/licencias/windows-server/cal-rds/device-cal-2025",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [],
+        "documents": [
+          "https://www.hpe.com/us/en/collaterals/collateral.a00043497enw.html",
+          "https://www.hpe.com/psnow/generateDDS/Microsoft%20Windows%20Server%202025%20Remote%20Desktop%20Service%201%20Device%20CAL%20WW%20LTU%20data%20sheet-PSN1014862508BEEN.pdf?cc=BE&contentDisposition=attachment&deepLink=&isLinearized=false&lc=EN&oid=1014862508&prelaunch=false&prelaunchSection=&print=&section=&softroll=0&softrollSection="
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SOFHPE870", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Hewlett Packard Enterprise",
+          "model": "P77119-B21",
+          "providerSkus": ["SOFHPE870"],
+          "productType": "Licencia digital Windows Server RDS CAL",
+          "licenseType": "LTU / licencia perpetua",
+          "calType": "Remote Desktop Services Device CAL",
+          "licenseQuantity": "1 dispositivo",
+          "territory": "WW",
+          "languageCode": "B21 multilingue WW",
+          "deliveryFormat": "Digital media delivery / licencia",
+          "requirements": ["Windows Server CAL", "RDS CAL por cada usuario o dispositivo que use Remote Desktop Services"],
+          "ean": "0190017781969",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SOFHPE870. HPE Store muestra disponibilidad/precio variable por reseller, no equivalente a stock CTOnline.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SOFHPE870", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["HPE Store lista P77119-B21 como producto oficial.", "HPE QuickSpecs confirma P77119-xxx como RDS 1 Device CAL."],
+          "reviewNotes": "Producto digital; no usar imagen generica HPE como imagen principal si no representa empaque real."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: licencia digital", "weight": "No aplica: licencia digital" },
+        "sourceRefs": [
+          { "title": "HPE Store P77119-B21", "type": "manufacturer_product", "url": "https://buy.hpe.com/us/en/software/operating-systems/windows-operating-systems/microsoft-windows-server-2025-remote-desktop-service-1-device-cal-ww-ltu/p/p77119-b21" },
+          { "title": "HPE Windows Server 2025 QuickSpecs", "type": "manufacturer_document", "url": "https://www.hpe.com/us/en/collaterals/collateral.a00043497enw.html" },
+          { "title": "HPE Windows Server 2025 RDS 1 Device CAL datasheet", "type": "manufacturer_document", "url": "https://www.hpe.com/psnow/generateDDS/Microsoft%20Windows%20Server%202025%20Remote%20Desktop%20Service%201%20Device%20CAL%20WW%20LTU%20data%20sheet-PSN1014862508BEEN.pdf?cc=BE&contentDisposition=attachment&deepLink=&isLinearized=false&lc=EN&oid=1014862508&prelaunch=false&prelaunchSection=&print=&section=&softroll=0&softrollSection=" },
+          { "title": "Microsoft Learn install RDS CALs", "type": "manufacturer_document", "url": "https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services/rds-install-cals" }
+        ]
+      }
+    },
+    {
+      "product_id": "01k2gxcf5vytziy",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Siigo Aspel",
+        "name": "Siigo Aspel ADM Premium anual electronico para clientes nuevos ADM12MPV",
+        "description": "Licencia electronica Siigo Aspel ADM Premium anual ADM12MPV para clientes nuevos, servicio en la nube para administracion, facturacion, compras/ventas, clientes, productos, inventario y reportes. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://www.siigo.com/mx/app-administrativa-movil-aspel-adm/",
+        "manualCategoryPath": "software/licencias/aspel-adm/premium-anual/adm12mpv",
+        "semanticCategoryPath": "software/licencias/aspel-adm/premium-anual",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10207792",
+          "https://assets-latam-mx-wp-pd-cmhfg3g8dja4gaad.a03.azurefd.net/wordpress/2025/07/Hero-Banner-ADM-Desktop-1.webp",
+          "https://assets-latam-mx-wp-pd-cmhfg3g8dja4gaad.a03.azurefd.net/wordpress/2025/07/ADM-movil-ADM.webp"
+        ],
+        "documents": ["https://adm.aspel.com.mx/ayuda/ContenidoAspelADM.htm"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SOFAPL4440", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+          { "wholesalerId": "cva", "sku": "SWA-745", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Siigo Aspel",
+          "model": "ADM12MPV",
+          "providerSkus": ["SOFAPL4440", "SWA-745"],
+          "productType": "Licencia electronica / servicio administrativo en la nube",
+          "plan": "ADM Premium anual",
+          "targetCustomer": "Solo clientes nuevos en Siigo-Aspel",
+          "deliveryFormat": "Credenciales por correo / acceso web y movil",
+          "features": ["Timbrado CFDI", "Compras y ventas", "Clientes", "Productos y servicios", "Inventario", "Cuentas por cobrar y pagar", "Reportes y estadisticas", "Carta Porte 3.1", "ADM Tienda"],
+          "simultaneousUsers": "Hasta 3 usuarios/sesiones en plan Premium segun fuente oficial",
+          "webRequirements": ["Microsoft Edge 103 o superior", "Firefox 47 o superior", "Chrome 64 o superior", "Opera 52 o superior", "Safari 9.1 o superior"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SOFAPL4440 y CVA/Electroprice reporta stock 0 para SWA-745. TiendaClic reporta existencia aproximada 0; GlobalOffice indica contactar para existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SOFAPL4440", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" },
+            { "providerId": "cva", "providerSku": "SWA-745", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic existencia aproximada 0.", "Compuviper reporta sucursales en 0.", "GlobalOffice indica existencia en proceso/contactar."],
+          "reviewNotes": "Producto digital; sin medidas ni peso fisico. Marca comercial actual: Siigo Aspel."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: licencia electronica", "weight": "No aplica: licencia electronica" },
+        "sourceRefs": [
+          { "title": "Siigo Aspel ADM official page", "type": "manufacturer_product", "url": "https://www.siigo.com/mx/app-administrativa-movil-aspel-adm/" },
+          { "title": "Aspel ADM ayuda oficial", "type": "manufacturer_document", "url": "https://adm.aspel.com.mx/ayuda/ContenidoAspelADM.htm" },
+          { "title": "TiendaClic ADM12MPV", "type": "retailer_price_stock", "url": "https://www.tiendaclic.mx/ver-detalle/aspel-adm-premium-anual-electronico-aspel-adm12mpv" },
+          { "title": "GlobalOffice ADM12MPV", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/software/aspel-adm-premium-anual-electronico-solo-para-cl/adm12mpv" },
+          { "title": "PCEL Aspel ADM Premium", "type": "retailer_spec_reference", "url": "https://www.pcel.com/software/software-punto-de-venta/Aspel-ADM12MPV-Sistema-de-Administracion-Movil-Aspel-ADM-Premium-Modalidad-1-RFC-358370" }
+        ]
+      }
+    },
+    {
+      "product_id": "01mlcvpe87jshw2",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Provision-ISR",
+        "name": "Switch PoE Provision-ISR PoES-08120C+2I 8 puertos Fast Ethernet 120W CCTV",
+        "description": "Switch PoE no administrable Provision-ISR PoES-08120C+2I para CCTV, con 8 puertos PoE 10/100 Mbps, 2 uplink 10/100 Mbps, presupuesto PoE total de 120 W y modo CCTV hasta 250 m a 10 Mbps. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://provision-isr.com/products/poes-08120c2i-v2/",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/cctv/8-puertos-120w/provision-isr-poes-08120c-2i",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/cctv/8-puertos-120w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/SWTPVS140/SWTPVS140_full.jpg",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/SWTPVS140_full.jpg",
+          "https://provision-isr.com/wp-content/uploads/2024/02/PoES-08120C2I-V2.png"
+        ],
+        "documents": ["https://storageacctecomptt.blob.core.windows.net/containerblobecomptt/files/PoES-08120C2I/datasheet/ficha-tecnica-provision-isr-poes-08120c-21.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SWTPVS140", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Provision-ISR",
+          "model": "PoES-08120C+2I",
+          "baseModel": "PoES-08120C+2I-V2 successor/reference",
+          "providerSkus": ["SWTPVS140"],
+          "productType": "Switch PoE no administrable para CCTV",
+          "downlinkPorts": "8 x 10/100 Mbps RJ45 PoE",
+          "uplinkPorts": "2 x 10/100 Mbps RJ45",
+          "poeStandard": "IEEE 802.3af/at",
+          "poeBudget": "120 W total; 15 W promedio, 30 W maximo por canal",
+          "switchingCapacity": "2 Gbps",
+          "buffer": "1024 Kb en ficha exacta; 448 Kbit en pagina V2",
+          "macTable": "2K en ficha exacta; 1K en pagina V2",
+          "cctvMode": "Hasta 250 m a 10 Mbps; VLAN auto en modo CCTV",
+          "powerSupply": "100-240 VAC, fuente interna",
+          "surgeProtection": "Integrada",
+          "fan": "Sin ventilador",
+          "ean": "0611355706303",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SWTPVS140. Mactoner, Cityshop y PCStore lo muestran agotado o sin existencias.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SWTPVS140", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner SWTPVS140 sin existencias.", "Cityshop PoES-08120C+2I producto agotado.", "PCStore muestra producto agotado."],
+          "reviewNotes": "La pagina oficial actual suele dirigir al sucesor V2; se usa ficha tecnica exacta PoES-08120C+2I como fuente primaria."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "219.6 x 105 x 27.6 mm segun ficha exacta; V2 lista 220 x 150 x 44 mm", "weight": "1.32 kg segun ficha exacta; V2 lista aprox. 1 kg" },
+        "sourceRefs": [
+          { "title": "Provision-ISR PoES-08120C+2I datasheet", "type": "manufacturer_document", "url": "https://storageacctecomptt.blob.core.windows.net/containerblobecomptt/files/PoES-08120C2I/datasheet/ficha-tecnica-provision-isr-poes-08120c-21.pdf" },
+          { "title": "Provision-ISR PoES-08120C+2I-V2 official page", "type": "manufacturer_product", "url": "https://provision-isr.com/products/poes-08120c2i-v2/" },
+          { "title": "Mactoner Provision-ISR SWTPVS140", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/switch-poe-provision-isr-poes-08120c2i-82-puertos/" },
+          { "title": "Cityshop PoES-08120C+2I", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/switch-poe-provision-isr-poes-081202i-8-port-10100mbps-extra-2-port-10100mbps-uplink-120w-internal" }
+        ]
+      }
+    },
+    {
+      "product_id": "01nvm8ypi5b0bty",
+      "research": {
+        "confidence": 0.95,
+        "brand": "AOC",
+        "name": "Monitor gaming AOC 27G4 27 pulgadas FHD IPS 180Hz 1ms",
+        "description": "Monitor gaming AOC 27G4 de 27 pulgadas con panel IPS Full HD 1920 x 1080, tasa de refresco de 180 Hz, respuesta 1 ms GtG / 0.5 ms MPRT, HDR10, G-SYNC Compatible y Adaptive Sync. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://aoc.com/iq/gaming/monitors/27g4",
+        "manualCategoryPath": "computo/monitores/gaming/27-fhd/180hz/aoc-27g4",
+        "semanticCategoryPath": "computo/monitores/gaming/27-fhd/180hz",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MONAOC910/MONAOC910_full.jpg",
+          "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G4/27G4/27G4_F.png",
+          "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G4/27G4/27G4_B.png",
+          "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G4/27G4/27G4_IO.png"
+        ],
+        "documents": ["https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/G%20Line/G4/27G4/27G4_leaflet_%280.5ms%29.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "MONAOC910", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "27G4",
+          "providerSkus": ["MONAOC910"],
+          "productType": "Monitor gaming IPS",
+          "screenSize": "27 pulgadas / 68.6 cm",
+          "resolution": "1920 x 1080 Full HD",
+          "panel": "IPS LCD",
+          "refreshRate": "180 Hz",
+          "responseTime": "0.5 ms MPRT / 1 ms GtG",
+          "brightness": "300 cd/m2",
+          "contrast": "1000:1 tipico; 80,000,000:1 dinamico",
+          "colors": "16.7 millones",
+          "sync": "G-SYNC Compatible + Adaptive Sync",
+          "hdr": "HDR10",
+          "connectivity": ["HDMI 2.0", "DisplayPort 1.4", "Audio out"],
+          "vesa": "100 x 100 mm",
+          "stand": "Ajuste de altura 130 mm, giro, pivote e inclinacion",
+          "speakers": "No",
+          "ean": "6973985231353",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para MONAOC910. GlobalOffice Mexico indica precio/stock en proceso y contactar para disponibilidad.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "MONAOC910", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice Mexico indica existencia en proceso/contactar.", "AOC pagina oficial confirma especificaciones de la familia 27G4.", "Computer Alliance confirma EAN 6973985231353 y medidas/peso."],
+          "reviewNotes": "Existen variantes regionales; para MONAOC910 se conserva EAN 6973985231353 y especificaciones coincidentes con ficha internacional."
+        },
+        "measurements": {
+          "physicalProduct": true,
+          "dimensions": "Sin base 613.9 x 366.3 x 51.3 mm; con base 613.9 x 386.6-516.6 x 359.7 mm; empaque 822 x 481 x 162 mm",
+          "weight": "3.52 kg sin base / 4.98 kg con base / 8.26 kg empaque"
+        },
+        "sourceRefs": [
+          { "title": "AOC 27G4 official product page", "type": "manufacturer_product", "url": "https://aoc.com/iq/gaming/monitors/27g4" },
+          { "title": "AOC 27G4 Mexico product page", "type": "manufacturer_product", "url": "https://www-acc.aoc.com/mx/gaming/monitors/27g4" },
+          { "title": "Computer Alliance AOC 27G4", "type": "retailer_spec_reference", "url": "https://www.computeralliance.com.au/27-aoc-27g4-fhd-165hz-ips-gaming-monitor" },
+          { "title": "GlobalOffice AOC 27G4 Mexico", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/aoc/aoc-gaming-monitor-ips-27in-192-0-x-1080-1-ms-180hz-adaptiv/27g4" }
+        ]
+      }
+    }
+  ]
+}
