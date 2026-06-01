@@ -1,0 +1,403 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b248-2026-06-01",
+  "cycle": 3,
+  "batch": 248,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "as8q7tyeicp4zbj",
+      "research": {
+        "confidence": 0.93,
+        "brand": "BenQ",
+        "name": "BenQ InstaShow VS20 sistema inalambrico de presentacion y videoconferencia 4K",
+        "description": "Sistema BYOD BenQ InstaShow VS20 para salas hibridas, con presentacion inalambrica 4K, integracion de camara/microfono/pantalla y boton con microfono.",
+        "manualCategoryPath": "computo/colaboracion/presentacion-inalambrica/videoconferencia/byod/benq-instashow-vs20",
+        "semanticCategoryPath": "computo/colaboracion/presentacion-inalambrica/videoconferencia/byod",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2025/04/ACCBNQ780_full-600x600.jpg"],
+        "specs": {
+          "brand": "BenQ",
+          "model": "VS20",
+          "partNumber": "9H.JRS78.N1A",
+          "providerSku": "ACCBNQ780",
+          "productType": "Sistema inalambrico BYOD para videoconferencia",
+          "video": "Transmision 4K hasta 60 fps",
+          "wireless": "Wi-Fi 5, alcance hasta 20 m",
+          "collaboration": "Hasta 32 dispositivos y pantalla dividida hasta 4 presentadores",
+          "security": "WPA2 y AES 128-bit",
+          "status": "BenQ lo marca como discontinued",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Mac Toner CDMX publica $33,713.95 MXN sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBNQ780", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["Mac Toner $33,713.95 MXN sin existencias.", "BenQ oficial discontinuado.", "B&H reporta empaque 16 x 8.4 x 6 pulgadas y 5.375 lb."],
+          "reviewNotes": "No es camara web; es sistema de presentacion/videoconferencia BYOD."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque 16 x 8.4 x 6 in reportado por B&H", "weight": "5.375 lb empaque reportado por B&H" },
+        "sourceRefs": [
+          { "title": "BenQ InstaShow VS20 official", "type": "manufacturer_specs", "url": "https://www.benq.com/en-us/business/wireless-presentation/vs20.html" },
+          { "title": "Mac Toner BenQ VS20", "type": "retailer_stock_location", "url": "https://www.mactoner.com.mx/producto/video-conferencia-benq-vs20-9h-jrs78-n1a-negro/" },
+          { "title": "B&H BenQ VS20 package data", "type": "retailer_measurements", "url": "https://www.bhphotovideo.com/c/product/1766845-REG/benq_vs20_instashow_wireless_presentation.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "asims2oo7061bay",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Perfect Choice",
+        "name": "Perfect Choice PC-108184 tira LED inteligente Wi-Fi RGBW 2 m USB",
+        "description": "Tira LED inteligente Perfect Choice de 2 metros con Wi-Fi 2.4 GHz, control por app/asistentes, luz RGB, blanca calida y blanca fria.",
+        "manualCategoryPath": "domotica/iluminacion/tiras-led/wifi-rgbw/perfect-choice-pc-108184",
+        "semanticCategoryPath": "domotica/iluminacion/tiras-led/wifi-rgbw",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://perfectchoice.me/cdn/shop/products/PC-108184_P_02_1_800x.png?v=1698947778",
+          "https://perfectchoice.me/cdn/shop/products/PC-108184_P_01_800x.png?v=1698947778"
+        ],
+        "specs": {
+          "brand": "Perfect Choice",
+          "model": "PC-108184",
+          "providerSku": "AC-9384",
+          "ean": "615604108084",
+          "productType": "Tira LED inteligente Wi-Fi",
+          "length": "2 m",
+          "power": "5 Vcc 50 mA, 5 W, alimentacion USB",
+          "wireless": "Wi-Fi 2.4 GHz IEEE 802.11 b/g/n",
+          "light": "RGB + WW + CW, 200 lm/m, 2700-6500 K",
+          "leds": "30 RGB, 30 CW y 30 WW",
+          "lifetime": "20,000 horas",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal publica; Perfect Choice oficial muestra $229 MXN disponible; Tienda de Electronica Puebla publica $550.90 MXN sin existencias.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "AC-9384", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["Perfect Choice oficial $229 MXN disponible.", "Tienda de Electronica $550.90 MXN sin existencias.", "TiendaClic $360.99 MXN con existencia aproximada 0."],
+          "reviewNotes": "Ficha oficial confirma RGB/WW/CW aunque algunos feeds secundarios omiten cambio de color."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "2 m de longitud, 12 mm de ancho", "weight": "100 g tira + 50 g controlador" },
+        "sourceRefs": [
+          { "title": "Perfect Choice PC-108184 official", "type": "manufacturer_specs_stock", "url": "https://perfectchoice.me/products/tira-led-inteligente" },
+          { "title": "Tienda de Electronica PC-108184", "type": "retailer_stock", "url": "https://tiendadeelectronica.mx/tienda/tira-de-leds-iot-2mts-perfect-choice/" },
+          { "title": "TiendaClic PC-108184", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/tira-de-leds-iot-2mts-perfect-choice-perfect-choice-pc-108184" }
+        ]
+      }
+    },
+    {
+      "product_id": "b5gez8li2qd3wa4",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Net2phone",
+        "name": "Net2phone Unite Call Queue Supervisor licencia mensual por supervisor",
+        "description": "Licencia SaaS mensual para supervisor de cola de atencion Net2phone Unite, con funciones de monitoreo y analitica de call center.",
+        "manualCategoryPath": "software/comunicaciones-unificadas/telefonia-ip/ucaas/net2phone-unite/call-queue-supervisor-monthly",
+        "semanticCategoryPath": "software/comunicaciones-unificadas/telefonia-ip/ucaas/net2phone-unite",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.net2phone.com/hubfs/2026-Call-Center-3.png"],
+        "specs": {
+          "brand": "Net2phone",
+          "model": "MX-CCE-CALL-QUEUE-SUPERVISOR",
+          "providerSku": "SWS-5746",
+          "productType": "Licencia SaaS UCaaS/call center",
+          "delivery": "Entrega electronica, renta mensual",
+          "features": "Vista supervisor/admin, monitor, whisper, barge y analytics",
+          "routing": "Call queues con Ring All, Longest Idle y Round Robin",
+          "requirements": "Requiere por lo menos una licencia de cola de atencion y una de agente",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase sin sucursal fisica para entrega electronica; TiendaClic Guadalajara publica $162.40 MXN y existencia aproximada 0.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SWS-5746", "warehouse": "electronic_delivery", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["TiendaClic $162.40 MXN con existencia aproximada 0.", "Net2phone lista Supervisor License en USD 12/user/month como referencia oficial."],
+          "reviewNotes": "Producto digital; stock 0 puede indicar sobre pedido, no ausencia fisica."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Net2phone Unite Call Center", "type": "manufacturer_specs", "url": "https://www.net2phone.com/products/unite-call-center" },
+          { "title": "TiendaClic Net2phone Call Queue Supervisor", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/supervisor-de-cola-de-atencion-net2phone-para-conmutador-telefonico-unite-liciencia-por-supervisor-renta-mensual-entrega-electronica-net2phone-mx-cce-call-queue-supervisor" }
+        ]
+      }
+    },
+    {
+      "product_id": "bb1lz9q90bndeu8",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Saxxon",
+        "name": "Tarjeta RFID de proximidad Saxxon ASC-EM02 / SAXM02U 125 kHz sin folio",
+        "description": "Tarjeta de proximidad RFID Saxxon ASC-EM02 / SAXM02U para control de acceso, 125 kHz, chip TK4100, PVC blanco sin folio impreso.",
+        "manualCategoryPath": "seguridad/control-acceso/credenciales-rfid/tarjetas-proximidad/125khz/saxxon-asc-em02",
+        "semanticCategoryPath": "seguridad/control-acceso/credenciales-rfid/tarjetas-proximidad/125khz",
+        "legacyCategory": "security",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://cdn.tvc.mx/media/1992628/Tarjeta-Proximidad-ID-125KHz-Sin-Folio-Impreso-SAXMO2U-SAXXON.webp",
+          "https://cdn.tvc.mx/media/1994863/Tarjeta-Proximidad-ID-125KHz-Sin-Folio-Impreso-Informaci%C3%B3n-General-SAXMO2U-SAXXON.webp"
+        ],
+        "specs": {
+          "brand": "Saxxon",
+          "model": "ASC-EM02 / SAXM02U",
+          "providerSku": "ACCSAX150",
+          "alternateSku": "SXN0760004",
+          "productType": "Tarjeta RFID de proximidad",
+          "chip": "TK4100",
+          "frequency": "125 kHz",
+          "memory": "64 bits",
+          "readRange": "0 a 5 cm",
+          "material": "PVC, blanco, sin folio impreso",
+          "warranty": "12 meses segun TVC",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; RET muestra 3836 existencias distribuidas en Azcapotzalco, GDL-C/GDL-T, Hermosillo, Iztacalco, Leon, Monterrey, Merida, Puebla, Queretaro, Torreon, Veracruz y Zapopan.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCSAX150", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["RET $5.15 MX + IVA con 3836 existencias publicas.", "Intercompras $7.00 MXN con 2843 disponibles.", "Cityshop agotado."],
+          "reviewNotes": "Confirmar si el lote CTOnline corresponde a version sin folio; fuentes discrepan entre 0.8 mm y 1.8 mm."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "86 x 54 x 0.8 mm en ficha TVC; PDF alterno reporta 1.8 mm", "weight": "0.01 kg en retail" },
+        "sourceRefs": [
+          { "title": "TVC Saxxon ASC-EM02", "type": "manufacturer_distributor_specs", "url": "https://tvc.mx/products/76830/tarjeta-de-proximidad-id-frecuencia-125-khz" },
+          { "title": "Radioelectronics Saxxon ASC-EM02", "type": "retailer_stock_location", "url": "https://radioelectronicsenlinea.mx/products/sxn0760004" },
+          { "title": "Intercompras Saxxon ASC-EM02", "type": "retailer_stock", "url": "https://intercompras.com/p/tarjeta-proximidad-saxxon-asc-em02-khz-mm-control-acceso-437760" }
+        ]
+      }
+    },
+    {
+      "product_id": "bdy246vs65m857s",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Sharp",
+        "name": "Recarga de revelador Sharp AL-100RD/U 190 g para serie AL rendimiento 6000 impresiones",
+        "description": "Recarga de revelador Sharp AL-100RD/U de 190 g para equipos AL-2030, AL-2040CS, AL-2050CS, AL-2031, AL-2041, AL-2051 y AL-2061.",
+        "manualCategoryPath": "impresion/consumibles/reveladores/sharp-al/recargas/al-100rd-u",
+        "semanticCategoryPath": "impresion/consumibles/reveladores/sharp-al/recargas",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://compuviper.mx/tienda/wp-content/uploads/2023/12/Recarga-de-revelador-sharp-para-modelos-al-2030-al-2040cs-al-2050cs-al-2031-al-2041-al-2051-al-2061-rendimiento-6000-impresiones-por-recarga-190gr.-cu.jpg",
+          "https://www.aztecacompras.com/media/catalog/product/cache/045b5a3b3664b9c18c240c61d4305fba/k/C/kCIOQcCJMEmkwXuFtcGexg.c-r_1.jpg"
+        ],
+        "specs": {
+          "brand": "Sharp",
+          "model": "AL-100RD/U",
+          "providerSku": "CN-1108",
+          "productType": "Recarga de revelador para copiadora",
+          "compatibleModels": "AL-2030, AL-2040CS, AL-2050CS, AL-2031, AL-2041, AL-2051, AL-2061",
+          "yield": "6000 copias/impresiones por recarga",
+          "contents": "190 g",
+          "color": "Negro/gris segun retail",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 sin sucursal publica; Compuviper, AztecaCompras, Mitech y Cityshop publican 0 pzas/agostado.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "CN-1108", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["Compuviper $244 MXN agotado.", "AztecaCompras $312 MXN 0 pzas.", "Mitech $296 MXN existencia 0.", "Cityshop $219 MXN 0 pzas."],
+          "reviewNotes": "No clasificar como cartucho de tinta; es revelador. Algunas fichas muestran typo 19gr, se conserva 190 g por titulo y peso."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "23 x 9 x 9 cm", "weight": "0.19 kg" },
+        "sourceRefs": [
+          { "title": "Sharp Mexico consumibles AL-100RD/U", "type": "manufacturer_specs", "url": "https://sharpmexico.com/consumibles/" },
+          { "title": "Compuviper Sharp AL-100RD/U", "type": "retailer_stock", "url": "https://compuviper.mx/tienda/producto/sharp-al-100rd-u-recarga-de-revelador-para-modelos-al-2030-al-2040cs-al-2050cs-al-2031-al-2041-al-2051-al-2061-rendimiento-6000-impresiones-por-recarga-190gr-c-u/" },
+          { "title": "AztecaCompras Sharp AL-100RD/U", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx0000001117-al-100rd-u-sharp-al-100rd-u-cartucho-de-tinta.html" },
+          { "title": "Cityshop Sharp AL-100RD/U", "type": "retailer_stock", "url": "https://cityshop.mx/producto/recarga-de-revelador-sharp-para-modelos-al-2030-al-2040cs-al-2050cs-al-2031-al-2041-al-2051-al-2061" }
+        ]
+      }
+    },
+    {
+      "product_id": "bfloxuicabkxb71",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TP-Link",
+        "name": "Robot aspirador y trapeador TP-Link Tapo RV30 Max Plus 5300Pa con LiDAR y base de autovaciado",
+        "description": "Robot aspirador y trapeador Tapo RV30 Max Plus con succion 5300Pa, navegacion LiDAR + IMU, base de autovaciado y control por app.",
+        "manualCategoryPath": "domotica/limpieza/robots-aspiradores/trapeadores/autovaciado/tp-link-tapo-rv30-max-plus",
+        "semanticCategoryPath": "domotica/limpieza/robots-aspiradores/trapeadores/autovaciado",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.tp-link.com/upload/image-line/01_normal_20240808023803t.jpg",
+          "https://www.grupocva.com/detalle_articulo/10464348.jpg"
+        ],
+        "specs": {
+          "brand": "TP-Link",
+          "model": "Tapo RV30 Max Plus",
+          "providerSku": "SH-62",
+          "productType": "Robot aspirador y trapeador con base autovaciado",
+          "suction": "5300 Pa robot; 17000 Pa base autovaciado",
+          "navigation": "LiDAR + IMU Dual Navigation",
+          "battery": "2600 mAh, carga 4 h, recharge and resume",
+          "dustbin": "300 ml robot; bolsa 3 L en base",
+          "waterTank": "300 ml, flujo electrico con 3 niveles",
+          "filter": "HEPA H11",
+          "noise": "52 dB modo quiet, 55 dB standard",
+          "wireless": "Wi-Fi 2.4 GHz, Bluetooth 4.2 para configuracion",
+          "providerBranchSummary": "Proveedor CVA reporta stock 0 en PocketBase; GlobalOffice/CVA muestra precio y existencias en proceso de llegada.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SH-62", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice/CVA precio y existencias en proceso de llegada.", "MercadoLibre marketplace cerca de $7,789 MXN."],
+          "reviewNotes": "Verificar variante electrica MX y disponibilidad de bolsas/filtros/mopa antes de publicar como disponible."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Robot 330 x 100 mm diametro/alto; base 228 x 164 x 330 mm", "weight": "Peso oficial MX no visible; review externa estima 3.25 kg robot y 2.10 kg base" },
+        "sourceRefs": [
+          { "title": "TP-Link Tapo RV30 Max Plus official", "type": "manufacturer_specs", "url": "https://www.tapo.com/mx/product/robot-vacuum/tapo-rv30-max-plus/" },
+          { "title": "GlobalOffice Tapo RV30 Max Plus", "type": "retailer_stock_location", "url": "https://globaloffice.com.mx/app/detalle/producto/tp-link/aspiradoras-tp-link-tapo-rv30-max-plus-robot-aspirador-tapo/tapo-rv30-max-plus" }
+        ]
+      }
+    },
+    {
+      "product_id": "bhy132f59b14t5g",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Datalogic",
+        "name": "Lector de codigos de barras Datalogic QuickScan QW2520-BKK1 2D USB negro con cable",
+        "description": "Lector Datalogic QuickScan QW2520-BKK1 2D VGA imager USB, color negro, kit con escaner y cable USB 90A052258 sin soporte.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigos-barras/2d/usb/datalogic-qw2520-bkk1-cable",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigos-barras/2d/usb",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.cyberpuerta.mx/img/product/M/CP-DATALOGIC-QW2520-BKK1-439861.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-qw2520-bkk1-datalogic-lector-quickscan-qw2520-bkk1_0.webp"
+        ],
+        "specs": {
+          "brand": "Datalogic",
+          "model": "QW2520-BKK1",
+          "providerSku": "LCTPSC1020",
+          "ean": "5704174882244",
+          "productType": "Lector de codigos 1D/2D USB",
+          "kitContents": "Escaner QW2520-BK y cable USB 90A052258; sin soporte",
+          "scanner": "2D VGA imager 640 x 480, lectura 1D/2D, QR, Data Matrix, Aztec, Micro QR, Han Xin, PDF417",
+          "interface": "USB, 5 VDC",
+          "durability": "IP52, caidas repetidas de 1.5 m, trigger 10 millones",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; AztecaCompras publica 83 pzas, Cyberpuerta 244 pzas y Sinacsa agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "LCTPSC1020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["AztecaCompras $1,599 MXN con 83 pzas.", "Cyberpuerta $2,149 MXN con 244 pzas.", "Sinacsa $2,107.70 MXN agotado."],
+          "reviewNotes": "No confundir con BKK1S; este kit no incluye soporte. Algunas tiendas lo llaman laser, pero ficha oficial dice imager VGA."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "14.8 x 6.8 x 12.6 cm", "weight": "145 g lector" },
+        "sourceRefs": [
+          { "title": "Datalogic QuickScan 2500 series datasheet", "type": "manufacturer_specs", "url": "https://datalogic.jarltech.com/sites/default/files/documents/product/datasheet/en/QuickScan_2500_Series_EN.pdf" },
+          { "title": "Datalogic model list QW2520-BKK1", "type": "manufacturer_models", "url": "https://www.datalogic.com/PdfCreate/ModelsAndAccessories/157" },
+          { "title": "AztecaCompras QW2520-BKK1", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx0000090191-datalogic-qw2520-bkk1-escaner-quickscan-qw2520-2d-vga-imager-interfaz-usb-black-kit-incluye-esc-ner-y-cable-90a052258-.html" },
+          { "title": "Cyberpuerta QW2520-BKK1", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Punto-de-Venta-POS/Lectores-y-Terminales/Lectores-de-Codigo-de-Barras/Datalogic-QuickScan-QW2520-Lector-de-Codigo-de-Barras-Laser-1D-2D-incluye-Cable-USB.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "blx94ceqdbe9xpn",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Vision",
+        "name": "Papel Vision Bond carta 75 g blancura 97 caja con 10 resmas de 500 hojas",
+        "description": "Caja de papel bond Vision carta blanco, 75 g/m2, 97% blancura, 10 resmas de 500 hojas para impresoras laser, inkjet, offset, digital, fotocopiado y fax.",
+        "manualCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas/vision-bond-75g-97",
+        "semanticCategoryPath": "oficina/papel-consumibles/papel-bond/carta/5000-hojas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://colmenero.shop/cdn/shop/files/Papel_bond_Vision_carta_blancura_97_75_gr.jpg?v=1736289313&width=1000"],
+        "specs": {
+          "brand": "Vision",
+          "model": "17502237370388",
+          "providerSku": "ACCCOP030",
+          "ean": "17502237370388",
+          "productType": "Papel bond carta",
+          "size": "Carta",
+          "paperWeight": "75 g/m2",
+          "brightness": "97%",
+          "presentation": "Caja con 10 resmas de 500 hojas, 5000 hojas total",
+          "color": "Blanco",
+          "technology": "ColorLok Technology",
+          "compatibility": "Laser, inkjet, offset, digital, fotocopiado y fax",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; Colmenero CDMX publica 18 unidades y TiendaClic/Cityshop reportan 0 pzas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCOP030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["Colmenero $933.80 MXN con 18 unidades y retiro en CDMX.", "TiendaClic $799.48 MXN existencia aproximada 0.", "Cityshop $789 MXN agotado."],
+          "reviewNotes": "Papel/oficina; no laptop. Marca publica aparece como Copamex Vision Bond/Vision."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Caja tamano carta; dimensiones de empaque no publicas confiables", "weight": "No confirmado publicamente; papel 75 g/m2" },
+        "sourceRefs": [
+          { "title": "Colmenero Vision Bond carta", "type": "retailer_stock_location", "url": "https://colmenero.shop/products/papel-bond-vision-carta-blancura-97-75-gr" },
+          { "title": "TiendaClic Papel Vision 17502237370388", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/papel-vision-17502237370388" },
+          { "title": "Cityshop Papel Vision carta", "type": "retailer_stock", "url": "https://cityshop.mx/producto/papel-vision-bond-tamano-carta-75-gramaje-97-blancura-caja-con-10-resmas-de-500-hojas-cada-una-17502237370388" }
+        ]
+      }
+    },
+    {
+      "product_id": "bs9tienqsq0dg9c",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Datalogic",
+        "name": "Lector de codigos de barras Datalogic QuickScan QW2520-BKK1S 2D USB negro con cable y soporte",
+        "description": "Lector Datalogic QuickScan QW2520-BKK1S 2D VGA imager USB, color negro, kit con escaner, cable USB 90A052258 y soporte STD-QW25-BK.",
+        "manualCategoryPath": "punto-de-venta/lectores-codigos-barras/2d/usb/datalogic-qw2520-bkk1s-soporte",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigos-barras/2d/usb",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-qw2520-bkk1s-datalogic-lector-quickscan-qw2520-bkk1s.webp",
+          "https://www.unicom.mx/ecommerce/uploads/PVDTLQW2520-BKK1S.jpg",
+          "https://www.aztecacompras.com/media/catalog/product/cache/045b5a3b3664b9c18c240c61d4305fba/a/D/aD-QW2520BKK1S_1.jpg"
+        ],
+        "specs": {
+          "brand": "Datalogic",
+          "model": "QW2520-BKK1S",
+          "providerSku": "LCTPSC920",
+          "ean": "5704174856917",
+          "productType": "Lector de codigos 1D/2D USB con soporte",
+          "kitContents": "Escaner QW2520-BK, cable USB 90A052258 y soporte STD-QW25-BK",
+          "scanner": "2D VGA imager 640 x 480, lectura 1D/2D, QR, Data Matrix, Aztec, Micro QR, Han Xin, PDF417",
+          "interface": "USB, 5 VDC",
+          "durability": "IP52, caidas repetidas de 1.5 m, trigger 10 millones",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; GlobalOffice muestra 0 local y 19 pzas en Almacen Mexico externo; AztecaCompras 46 pzas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "LCTPSC920", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $1,722 MXN, 0 pzs local y 19 pzas Almacen Mexico.", "AztecaCompras $1,780 MXN con 46 pzas.", "Cityshop $1,589 MXN 0 pzas."],
+          "reviewNotes": "Diferencia clave frente a BKK1: este kit incluye soporte."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "14.8 x 6.8 x 12.6 cm lector", "weight": "145 g lector; kit puede pesar mas por soporte/cable" },
+        "sourceRefs": [
+          { "title": "Datalogic QuickScan 2500 series datasheet", "type": "manufacturer_specs", "url": "https://datalogic.jarltech.com/sites/default/files/documents/product/datasheet/en/QuickScan_2500_Series_EN.pdf" },
+          { "title": "Datalogic model list QW2520-BKK1S", "type": "manufacturer_models", "url": "https://www.datalogic.com/PdfCreate/ModelsAndAccessories/157" },
+          { "title": "GlobalOffice QW2520-BKK1S", "type": "retailer_stock_location", "url": "https://globaloffice.com.mx/app/detalle/producto/perifericos/lector-datalogic-qw2520-bkk1s-datalogic-lector-quickscan-qw2/qw2520-bkk1s" },
+          { "title": "AztecaCompras QW2520-BKK1S", "type": "retailer_stock", "url": "https://www.aztecacompras.com/mx0000080374-datalogic-qw2520-bkk1s-lector-quickscan-qw2520-2d-usb-interface-kit-cable-y-stand-negro.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "bt1e661cqrka7zo",
+      "research": {
+        "confidence": 0.94,
+        "brand": "SanDisk",
+        "name": "SanDisk Extreme microSDXC UHS-I 128GB SDSQXAA-128G-GN6MA A2 V30 con adaptador",
+        "description": "Memoria SanDisk Extreme microSDXC UHS-I de 128GB, clase 10, U3, V30, A2, para video 4K y uso movil/gaming; SKU SDSQXAA-128G-GN6MA.",
+        "manualCategoryPath": "almacenamiento/memorias-flash/microsdxc/128gb/sandisk-extreme-sdsqxaa-128g-gn6ma",
+        "semanticCategoryPath": "almacenamiento/memorias-flash/microsdxc/128gb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.cityclub.com.mx/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dw409b686f/images/product/619659188450_A.jpg?sh=1000&sm=fit&sw=1000",
+          "https://www.cityclub.com.mx/dw/image/v2/BGBD_PRD/on/demandware.static/-/Sites-soriana-grocery-master-catalog/default/dwb444a6e5/images/product/619659188450_B.jpg?sh=1000&sm=fit&sw=1000"
+        ],
+        "specs": {
+          "brand": "SanDisk",
+          "model": "SDSQXAA-128G-GN6MA",
+          "providerSku": "DDUWSD3120",
+          "upc": "619659188450",
+          "productType": "Memoria microSDXC UHS-I",
+          "capacity": "128 GB",
+          "speedClass": "Class 10, U3, V30, A2",
+          "readSpeed": "Hasta 160 MB/s segun feed proveedor; fichas actuales SanDisk Extreme publican hasta 190 MB/s en variantes recientes",
+          "writeSpeed": "Hasta 90 MB/s segun feed proveedor",
+          "included": "Adaptador SD en publicaciones retail",
+          "providerBranchSummary": "Proveedor CTOnline reporta stock 0 sin sucursal publica; City Club publica $612.78 MXN; Venpli/DD Tech y otros retails muestran producto relacionado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "DDUWSD3120", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }],
+          "providerStockVerifiedAt": "2026-06-01T17:10:00Z",
+          "publicAvailabilitySignals": ["City Club $612.78 MXN.", "Venpli lista SDSQXAA-128G-GN6MA.", "Device.report confirma UPC 619659188450."],
+          "reviewNotes": "Mantener velocidades del feed proveedor para esta variante; SanDisk tiene generaciones con 160/90 y 190/130 MB/s."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Formato microSD; dimensiones de tarjeta no especificadas en fuentes abiertas", "weight": "Peso no publico confiable; feed heredado tenia 128 g y parece error de capacidad" },
+        "sourceRefs": [
+          { "title": "City Club SanDisk Extreme SDSQXAA-128G-GN6MA", "type": "retailer_stock", "url": "https://www.cityclub.com.mx/memoria-microsd-sandisk-extreme-128g--sdsqxaa-128g-gn6ma/11897311.html" },
+          { "title": "SanDisk Extreme microSD official", "type": "manufacturer_specs", "url": "https://www.sandisk.com/en-us/products/memory-cards/microsd-cards/sandisk-extreme-uhs-i-for-mobile-gaming-microsd" },
+          { "title": "Device.report SanDisk SDSQXAA-128G-GN6MA", "type": "identifier_specs", "url": "https://device.report/sandisk/sdsqxaa-128g-gn6ma" },
+          { "title": "SanDisk Extreme microSD datasheet", "type": "manufacturer_datasheet", "url": "https://documents.sandisk.com/content/dam/asset-library/en_us/assets/public/sandisk/product/memory-cards/extreme-uhs-i-microsd/data-sheet-extreme-uhs-i-microsd.pdf" }
+        ]
+      }
+    }
+  ]
+}
