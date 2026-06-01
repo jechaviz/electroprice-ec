@@ -40,6 +40,19 @@ const batch263Cases = [
   ["Vertiv Liebert RDU101 NIC-4453 IntelliSlot tarjeta comunicacion SNMP para GXT5", "VERTIV", "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/vertiv-rdu101", "power", {}],
 ] as const;
 
+const batch264Cases = [
+  ["Dahua DH-HAC-HDW1809TLMN-A-LED CAMDAH4560 camara domo HDCVI 4K Full Color 8MP", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-hdcvi/domo-eyeball/4k-full-color/dahua-hac-hdw1809tlmn-a-led", "cameras", {}],
+  ["Sonnoc SNP-LC40DW PROMTD130 proyector laser WXGA 4000 lumenes 20000h", "SONNOC", "video/proyectores/laser/wxga-4000-lumenes/sonnoc-snp-lc40dw", "tvs", {}],
+  ["Uniview IPC2322LB-ADZK-H CAMUNV090 camara IP PoE bullet 2MP varifocal IR", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/bullet/2mp-varifocal-ir/uniview-ipc2322lb-adzk-h", "cameras", {}],
+  ["Bitdefender TMBDL-103-S SWS-3646 GravityZone Business Security Premium Elite 1 ano 5 nodos", "BITDEFENDER", "software/seguridad/endpoint/bitdefender/gravityzone-business-security-premium/1-ano-sector-privado/tmbdl-103-s", "software", {}],
+  ["Hune AT-ACC-CA-316BOS CB-2589 cable Micro USB Hiedra sustentable 1.2m bosque", "HUNE", "accesorios/cables-adaptadores/usb/micro-usb/sustentables-1-2m/hune-hiedra-at-acc-ca-316bos", "laptops", {}],
+  ["Logitech 910-006469 MS-1482 Lift Vertical Ergonomic Mouse off-white Bluetooth Logi Bolt", "LOGITECH", "computo/perifericos/mouse/inalambricos/ergonomicos/logitech-lift-910-006469-off-white", "accessories", {}],
+  ["be quiet BK024 VENBEQ140 Dark Rock Slim disipador CPU 180W 120mm", "BE QUIET", "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-180w/be-quiet-dark-rock-slim-bk024", "components", {}],
+  ["AOC 16T20 MNL-3011 monitor portatil 15.6 FHD IPS USB-C", "AOC", "computo/monitores/portatiles/15-6-fhd/aoc-16t20", "monitors", {}],
+  ["CDP UPO33-120BC40-100 ACCCDP360 banco de baterias para UPO3 trifasico", "CDP", "energia/no-breaks-ups/accesorios/bancos-baterias/trifasicos/80-200kva/cdp-upo33-120bc40-100", "power", {}],
+  ["Poly 9T9J4AA#AC3 SPK-2460 Voyager Focus 2 UC Microsoft Teams Bluetooth USB-A", "POLY", "audio/audifonos/bluetooth/diadema-oficina/poly-voyager-focus-2-9t9j4aa-ac3", "headphones", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -54,6 +67,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch263Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch264Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

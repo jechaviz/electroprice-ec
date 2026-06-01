@@ -1,0 +1,505 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b264-2026-06-01",
+  "cycle": 3,
+  "batch": 264,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "001d6uaqe9m8j0v",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Dahua Technology",
+        "name": "Camara domo Dahua DH-HAC-HDW1809TLMN-A-LED HDCVI 4K Full-Color 8MP",
+        "description": "Camara domo/eyeball analogica Dahua DH-HAC-HDW1809TLMN-A-LED de 8 MP 4K HDCVI Full-Color, con microfono integrado, luz calida de 20 m, WDR 120 dB y proteccion IP67.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/products/all-products/hdcvi-cameras/lite-series/4k/full-color/hac-hdw1809tlm-a-led",
+        "manualCategoryPath": "seguridad/cctv/camaras-hdcvi/domo-eyeball/4k-full-color/dahua-hac-hdw1809tlmn-a-led",
+        "semanticCategoryPath": "seguridad/cctv/camaras-hdcvi/domo-eyeball/4k-full-color",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CAMDAH4560/CAMDAH4560_full.jpg",
+          "https://www.dahuasecurity.com/asset/upload/product/20250108/HAC-HDW1809TLM-A-LED_thumb.png"
+        ],
+        "documents": ["https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/HAC-HDW1809TLM-A-LED_datasheet_20220610.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAMDAH4560", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Dahua Technology",
+          "model": "DH-HAC-HDW1809TLMN-A-LED",
+          "baseModel": "HAC-HDW1809TLM-A-LED",
+          "providerSkus": ["CAMDAH4560"],
+          "productType": "Camara HDCVI domo eyeball full-color",
+          "resolution": "8 MP / 3840 x 2160, max. 15 fps @ 4K",
+          "sensor": "8 MP CMOS",
+          "lens": "2.8 mm F1.0; 3.6 mm opcional",
+          "fieldOfView": "2.8 mm H106/V55/D125; 3.6 mm H85/V45/D100",
+          "illumination": "Luz calida hasta 20 m, color 24/7",
+          "wdr": "120 dB true WDR",
+          "audio": "Microfono integrado",
+          "videoOutput": "CVI/TVI/AHD/CVBS por BNC",
+          "protection": "IP67",
+          "power": "12 VDC +/-30%, max. 5 W",
+          "installation": ["Pared", "Techo", "Poste vertical"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAMDAH4560. Mactoner lo muestra sin existencias; Cyberpuerta e Intercompras muestran disponibilidad externa dinamica.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAMDAH4560", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner CAMDAH4560 sin existencias.", "Cyberpuerta reporto disponibilidad baja.", "Intercompras reporto disponibilidad externa dinamica."],
+          "reviewNotes": "La ficha oficial agrupa HAC-HDW1809TLM-A-LED y el ordering info confirma la variante N/NTSC; no confundir con camaras IP."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Diametro 94.0 x 85.7 mm; empaque 122 x 119 x 111 mm", "weight": "0.33 kg neto / 0.48 kg bruto" },
+        "sourceRefs": [
+          { "title": "Dahua HAC-HDW1809TLM-A-LED product page", "type": "manufacturer_product", "url": "https://www.dahuasecurity.com/products/all-products/hdcvi-cameras/lite-series/4k/full-color/hac-hdw1809tlm-a-led" },
+          { "title": "Dahua HAC-HDW1809TLM-A-LED datasheet", "type": "manufacturer_document", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/HAC-HDW1809TLM-A-LED_datasheet_20220610.pdf" },
+          { "title": "Mactoner Dahua CAMDAH4560", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/camara-domo-analoga-dahua-technology-dh-hac-hdw1809tlmn-a-led-hac-hdw1809tlm-a-led-3840-x-2160-pixeles/" },
+          { "title": "Intercompras Dahua HAC-HDW1809TLM-A-LED", "type": "retailer_price_stock", "url": "https://intercompras.com/p/camara-cctv-dahua-hac-hdw1809tlm-a-led-8mp-domo-lente-28mm-ir-microfono-327896" }
+        ]
+      }
+    },
+    {
+      "product_id": "0060ma1osdy25ts",
+      "research": {
+        "confidence": 0.72,
+        "brand": "SONNOC",
+        "name": "Proyector laser SONNOC SNP-LC40DW WXGA 4000 lumenes",
+        "description": "Proyector laser SONNOC SNP-LC40DW con tecnologia DLP, brillo reportado de 4000 lumenes ANSI y resolucion 1280 x 800. Los retailers mexicanos lo etiquetan como WUXGA, aunque 1280 x 800 corresponde a WXGA.",
+        "manufacturerUrl": "https://www.sonnoc.com/Uploads/Editor/2019-04-20/5cba33133ed53.pdf",
+        "manualCategoryPath": "video/proyectores/laser/wxga-4000-lumenes/sonnoc-snp-lc40dw",
+        "semanticCategoryPath": "video/proyectores/laser/wxga-4000-lumenes",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/PROMTD130/PROMTD130_full.jpg"],
+        "documents": ["https://www.sonnoc.com/Uploads/Editor/2019-04-20/5cba33133ed53.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "PROMTD130", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "SONNOC",
+          "model": "SNP-LC40DW",
+          "providerSkus": ["PROMTD130"],
+          "productType": "Proyector laser DLP",
+          "displayTechnology": "DLP",
+          "nativeResolution": "1280 x 800; retailers MX lo listan como WUXGA aunque tecnicamente es WXGA",
+          "brightness": "4000 ANSI lumenes reportado por canal MX; fuente alternativa lista 3800 lumenes",
+          "lightSource": "Laser",
+          "lampLife": "20000 h normal; hasta 30000 h eco en fuente alternativa",
+          "color": "Blanco",
+          "powerInput": "100-240 V, 50/60 Hz, 3.5 A segun certificacion CQC",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para PROMTD130. TiendaClic, Cityshop y Mactoner lo muestran sin existencias o agotado.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "PROMTD130", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner PROMTD130 sin existencias.", "TiendaClic existencia aproximada 0.", "Cityshop producto agotado."],
+          "reviewNotes": "No se encontro ficha tecnica oficial publica inequívoca con medidas/peso; conservar advertencia de resolucion WXGA vs WUXGA."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "SONNOC high-definition laser projector brochure", "type": "manufacturer_document", "url": "https://www.sonnoc.com/Uploads/Editor/2019-04-20/5cba33133ed53.pdf" },
+          { "title": "TiendaClic SONNOC SNP-LC40DW", "type": "retailer_price_stock", "url": "https://www.tiendaclic.mx/ver-detalle/proyector-sonnoc-snplc40dw" },
+          { "title": "Mactoner SONNOC SNP-LC40DW PROMTD130", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/proyector-sonnoc-snp-lc40dw-4000-lumenes-ansi/" },
+          { "title": "Alternative SNP-LC40DW OEM specification", "type": "retailer_spec_reference", "url": "https://largevenueprojector.sell.everychina.com/p-113718851-wxga-1280x800-educational-projector-dlp-laser-projector-4000-ansi.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "008848xf8b5gpsc",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Uniview",
+        "name": "Camara IP bullet Uniview IPC2322LB-ADZK-H 2MP varifocal IR PoE",
+        "description": "Camara IP bullet Uniview IPC2322LB-ADZK-H de 2 MP con lente varifocal 2.8-12 mm, IR inteligente hasta 50 m, WDR 120 dB, microfono integrado, IP67 y alimentacion PoE.",
+        "manufacturerUrl": "https://www.uniview.com/res/202308/14/20230814_1885300_UNV%20%E3%80%90Datasheet%E3%80%91IPC2322LB-ADZK-H%202MP%20HD%20IR%20VF%20Bullet%20Network%20Camera%20datasheet%20V1.2-EN_971933_168459_0.pdf",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-varifocal-ir/uniview-ipc2322lb-adzk-h",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/2mp-varifocal-ir",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMUNV090/CAMUNV090_full.jpg"],
+        "documents": ["https://www.uniview.com/res/202308/14/20230814_1885300_UNV%20%E3%80%90Datasheet%E3%80%91IPC2322LB-ADZK-H%202MP%20HD%20IR%20VF%20Bullet%20Network%20Camera%20datasheet%20V1.2-EN_971933_168459_0.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAMUNV090", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Uniview",
+          "model": "IPC2322LB-ADZK-H",
+          "providerSkus": ["CAMUNV090"],
+          "productType": "Camara IP bullet varifocal",
+          "resolution": "2 MP / 1920 x 1080 @ 30/25 fps",
+          "sensor": "1/2.8 in 2 MP progressive CMOS",
+          "lens": "2.8-12 mm varifocal motorizado",
+          "fieldOfView": "H103.6-33.4 / V54.8-18.7 / D107.9-37.8",
+          "compression": ["Ultra 265", "H.265", "H.264", "MJPEG"],
+          "ir": "Smart IR hasta 50 m",
+          "wdr": "120 dB true WDR",
+          "storage": "microSD hasta 256 GB segun datasheet de variante ADZK-H",
+          "audio": "Microfono integrado",
+          "network": "RJ45 10/100, ONVIF Profile S/G/T",
+          "protection": "IP67",
+          "power": "12 VDC +/-25% o PoE IEEE 802.3af, max. 9.6 W",
+          "installation": "Pared/poste, ajuste 3 ejes",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAMUNV090. Mactoner y Cyberpuerta lo muestran sin existencias/agado; Senetic CZ reporta disponibilidad externa.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAMUNV090", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner CAMUNV090 sin existencias.", "Cyberpuerta agotado.", "Senetic CZ reporto inventario externo."],
+          "reviewNotes": "No confundir con IPC2322LB-ADEZK-H; los nombres de retailers pueden mezclar una E adicional en la variante."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "206 x 73 x 73 mm", "weight": "0.51 kg" },
+        "sourceRefs": [
+          { "title": "Uniview IPC2322LB-ADZK-H datasheet", "type": "manufacturer_document", "url": "https://www.uniview.com/res/202308/14/20230814_1885300_UNV%20%E3%80%90Datasheet%E3%80%91IPC2322LB-ADZK-H%202MP%20HD%20IR%20VF%20Bullet%20Network%20Camera%20datasheet%20V1.2-EN_971933_168459_0.pdf" },
+          { "title": "Mactoner Uniview IPC2322LB-ADZK-H", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/camara-bala-ip-uniview-ipc2322lb-adzk-h-pared-poste/" },
+          { "title": "Cyberpuerta Uniview IPC2322LB-ADZK-H", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Seguridad-y-Vigilancia/Camaras-y-Sistemas-de-Vigilancia/Camaras-de-Seguridad-IP/Uniview-Camara-de-Seguridad-IP-Bullet-IR-para-Interiores-Exteriores-IPC2322LB-ADZK-H-Alambrico-1920x1080-Full-HD.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "009rubsip2a3w2c",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Bitdefender",
+        "name": "Bitdefender GravityZone Business Security Premium TMBDL-103-S 1 ano 5 nodos",
+        "description": "Licencia electronica Bitdefender GravityZone Business Security Premium (Elite) por 1 ano para sector privado, compra minima 5 nodos. Es suscripcion de seguridad endpoint empresarial, no software fisico.",
+        "manufacturerUrl": "https://www.bitdefender.com/es-mx/business/products/gravityzone-premium-security",
+        "manualCategoryPath": "software/seguridad/endpoint/bitdefender/gravityzone-business-security-premium/1-ano-sector-privado/tmbdl-103-s",
+        "semanticCategoryPath": "software/seguridad/endpoint/bitdefender/gravityzone-business-security-premium/1-ano-sector-privado",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10128369"],
+        "documents": ["https://www.bitdefender.com/content/dam/bitdefender/business/products/business-security-premium/es/Bitdefender-GravityZone-Business-Security-Premium-Datasheet_es.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SWS-3646", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Bitdefender",
+          "model": "TMBDL-103-S",
+          "providerSkus": ["SWS-3646"],
+          "productType": "Licencia electronica de seguridad endpoint",
+          "licenseTerm": "1 ano",
+          "segment": "Sector privado",
+          "minimumPurchase": "5 nodos",
+          "delivery": "Electronica",
+          "coverage": "Endpoints fisicos, virtuales y cloud; servidores y correo Exchange segun paquete GravityZone",
+          "features": ["Prevencion multicapa con machine learning", "Risk management", "Attack forensics/visualization", "Fileless attack defense", "Sandbox Analyzer", "Ransomware mitigation"],
+          "endpointRequirements": { "cpu": "Single-core 2.4 GHz minimo", "ram": "512 MB libre minimo", "disk": "1.5 GB libre minimo" },
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SWS-3646. Capturas publicas GlobalOffice/CVA son contradictorias; PCRedCom muestra existencia externa y Compumerida muestra 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SWS-3646", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice/CVA muestra datos dinamicos contradictorios.", "PCRedCom lista existencia externa.", "Compumerida lista existencia 0."],
+          "reviewNotes": "No confundir TMBDL-103-S alta nueva con TMBDL-103-S-R renovacion."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, licencia digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Bitdefender GravityZone Business Security Premium", "type": "manufacturer_product", "url": "https://www.bitdefender.com/es-mx/business/products/gravityzone-premium-security" },
+          { "title": "Bitdefender GravityZone Business Security Premium datasheet ES", "type": "manufacturer_document", "url": "https://www.bitdefender.com/content/dam/bitdefender/business/products/business-security-premium/es/Bitdefender-GravityZone-Business-Security-Premium-Datasheet_es.pdf" },
+          { "title": "GlobalOffice Bitdefender TMBDL-103-S", "type": "retailer_price_stock", "url": "https://globaloffice.mx/app/detalle/producto/software/bitdefender-gravityzone-business-security-premium/tmbdl-103-s" },
+          { "title": "PCRedCom Bitdefender SWS-3646", "type": "retailer_price_stock", "url": "https://pcredcom.com/bitdefender-gravityzone-elite-licenciamiento-electronico-1-ano-sector-privado-compra-minima-5-nodos-tmbdl-103-s-df-sws-3646.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "00dmq0z03g6883y",
+      "research": {
+        "confidence": 0.82,
+        "brand": "Hune",
+        "name": "Cable Micro USB Hune Hiedra AT-ACC-CA-316BOS 1.2 m bosque",
+        "description": "Cable Hune Hiedra sustentable USB-A macho a Micro-USB macho, trenzado, angular 90 grados, de 1.2 m en color bosque/verde para carga y sincronizacion de datos.",
+        "manufacturerUrl": "https://www.tiendaclic.mx/ver-detalle/cable-micro-usb-hune-hiedra-sustentable-trenzado-carga-rapida-y-datos-90-12m-bosque-hune-at-acc-ca-316bos",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/micro-usb/sustentables-1-2m/hune-hiedra-at-acc-ca-316bos",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/micro-usb/sustentables-1-2m",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10337334"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CB-2589", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Hune",
+          "model": "AT-ACC-CA-316BOS",
+          "providerSkus": ["CB-2589"],
+          "upc": "7502236154760",
+          "productType": "Cable USB-A a Micro-USB",
+          "connector1": "USB-A macho",
+          "connector2": "Micro-USB macho",
+          "connectorForm": "Angular / 90 grados",
+          "usbVersion": "USB 2.0",
+          "length": "1.2 m",
+          "color": "Bosque / verde",
+          "materials": "Conector ABS reciclado; exterior PET reciclado trenzado; interior TPE reciclado segun fichas de retailers",
+          "package": "Empaque carton FSC con tinta de soja; sticker identificador de color",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CB-2589. TiendaClic/Cyberpuerta/Intercompras reportan disponibilidad externa dinamica; Cityshop lo lista agotado.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CB-2589", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic reporta disponibilidad externa aproximada.", "Cyberpuerta e Intercompras muestran piezas disponibles.", "Cityshop lista producto agotado."],
+          "reviewNotes": "No confundir 316BOS Micro-USB con 317BOS Tipo-C/USB-C; no se localizaron medidas/peso publicos confiables."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Cable 1.2 m; dimensiones de empaque desconocidas", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "TiendaClic Hune AT-ACC-CA-316BOS", "type": "retailer_price_stock", "url": "https://www.tiendaclic.mx/ver-detalle/cable-micro-usb-hune-hiedra-sustentable-trenzado-carga-rapida-y-datos-90-12m-bosque-hune-at-acc-ca-316bos" },
+          { "title": "Cyberpuerta Hune AT-ACC-CA-316BOS", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Cables/Cables-PC/Cables-PC-USB/Hune-Cable-USB-A-Macho-Micro-USB-Macho-1-2-Metros.html" },
+          { "title": "ITD Technology Hune CB-2589", "type": "retailer_price_stock", "url": "https://www.itdtech.com.mx/producto/cable-micro-usb-hune-hiedra-sustentable-trenzado-carga-rapida-y-datos-90a-1-2m-bosque/" }
+        ]
+      }
+    },
+    {
+      "product_id": "00f0tez721k2kq0",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Logitech",
+        "name": "Mouse ergonomico Logitech Lift 910-006469 vertical inalambrico off-white",
+        "description": "Mouse vertical ergonomico Logitech Lift off-white para manos pequenas y medianas, con angulo de 57 grados, conectividad Bluetooth Low Energy o Logi Bolt, Easy-Switch hasta 3 dispositivos y bateria AA de hasta 24 meses.",
+        "manufacturerUrl": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse.910-006469",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/logitech-lift-910-006469-off-white",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10335257"],
+        "documents": ["https://www.logitech-mexico.com/wp-content/uploads/2022/06/LIFT_Vertical.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MS-1482", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "Logitech",
+          "model": "910-006469",
+          "commercialName": "Lift Vertical Ergonomic Mouse",
+          "providerSkus": ["MS-1482"],
+          "upc": "097855170972",
+          "productType": "Mouse vertical ergonomico inalambrico",
+          "color": "Off-white / blanco",
+          "sensor": "Logitech Advanced Optical Tracking",
+          "dpiRange": "400-4000 DPI ajustable en incrementos de 100 DPI",
+          "nominalDpi": "1000 DPI",
+          "buttons": 6,
+          "connectivity": ["Bluetooth Low Energy", "Receptor USB Logi Bolt incluido"],
+          "wirelessRange": "10 m",
+          "battery": "1 pila AA incluida",
+          "batteryLife": "Hasta 24 meses",
+          "handFit": "Manos pequenas a medianas",
+          "ergonomicAngle": "57 grados",
+          "sustainability": "54% plastico reciclado postconsumo en blanco/rosa, excluyendo receptor, bateria, PWA, cable FFC y empaque",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MS-1482. Tecnohardware y Cityshop reportan disponibilidad externa; DD Tech reporta sin stock.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MS-1482", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Tecnohardware reporta stock externo.", "Cityshop reporta stock externo.", "DD Tech reporta sin stock."],
+          "reviewNotes": "Algunos retailers simplifican a 1000 DPI; la ficha oficial indica rango 400-4000 DPI."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "71 x 70 x 108 mm", "weight": "125 g" },
+        "sourceRefs": [
+          { "title": "Logitech Lift 910-006469", "type": "manufacturer_product", "url": "https://www.logitech.com/en-us/shop/p/lift-vertical-ergonomic-mouse.910-006469" },
+          { "title": "Logitech Lift Vertical PDF", "type": "manufacturer_document", "url": "https://www.logitech-mexico.com/wp-content/uploads/2022/06/LIFT_Vertical.pdf" },
+          { "title": "Tecnohardware Logitech Lift MS-1482", "type": "retailer_price_stock", "url": "https://www.tecnohardware.com.mx/Mouse-Logitech-Lift-Vertical-Ergo-Optico-Inalambrico-Bt%2C201635__1111111795" },
+          { "title": "Cityshop Logitech Lift blanco", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/mouse-logitech-lift-vertical-blanco" }
+        ]
+      }
+    },
+    {
+      "product_id": "00g13y3cqh2cyzw",
+      "research": {
+        "confidence": 0.96,
+        "brand": "be quiet!",
+        "name": "Disipador CPU be quiet! Dark Rock Slim BK024 180W",
+        "description": "Disipador de aire para CPU be quiet! Dark Rock Slim BK024 con ventilador Silent Wings 120 mm PWM, TDP 180 W, cuatro heatpipes de cobre de 6 mm y operacion silenciosa hasta 23.6 dB(A).",
+        "manufacturerUrl": "https://www.bequiet.com/en/cpucooler/1659",
+        "manualCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-180w/be-quiet-dark-rock-slim-bk024",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/disipadores-cpu/torre-120mm-180w",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/VENBEQ140/VENBEQ140_full.jpg"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "VENBEQ140", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "be quiet!",
+          "model": "BK024",
+          "commercialName": "Dark Rock Slim",
+          "providerSkus": ["VENBEQ140"],
+          "ean": "4260052187319",
+          "productType": "Disipador CPU por aire",
+          "tdp": "180 W",
+          "fan": "Silent Wings 120 mm PWM",
+          "fanDimensions": "120 x 120 x 23 mm",
+          "fanSpeed": "1500 rpm max.",
+          "airflow": "50.5 CFM / 85.8 m3/h",
+          "airPressure": "1.92 mm H2O",
+          "bearing": "Fluid Dynamic Bearing",
+          "connector": "4-pin PWM",
+          "heatpipes": "4 x 6 mm cobre",
+          "materials": "Aluminio, cobre y recubrimiento ceramico negro",
+          "noise": "11.0 / 16.9 / 23.6 dB(A) @ 50/75/100% PWM",
+          "socketCompatibility": { "intel": ["1851", "1700", "1200", "2066", "1150", "1151", "1155", "2011(-3) Square ILM"], "amd": ["AM5", "AM4"] },
+          "warranty": "3 anos",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para VENBEQ140. GlobalOffice indica llegada/confirmar; B&H lo lista descontinuado; Micro Center muestra inventario local externo.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "VENBEQ140", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice Mexico solicita confirmar disponibilidad.", "B&H lo lista descontinuado.", "Micro Center muestra stock local externo."],
+          "reviewNotes": "GlobalOffice usa traduccion erronea 'Roca Pura'; el nombre oficial es Dark Rock Slim."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "47 x 127 x 159 mm sin montaje; disipador 72 x 127 x 159 mm; empaque 115 x 190 x 190 mm", "weight": "0.62 kg neto / 1.0 kg empaque" },
+        "sourceRefs": [
+          { "title": "be quiet! Dark Rock Slim BK024", "type": "manufacturer_product", "url": "https://www.bequiet.com/en/cpucooler/1659" },
+          { "title": "GlobalOffice be quiet! BK024", "type": "retailer_price_stock", "url": "https://www.globaloffice.mx/app/detalle/producto/ensamble/be-quiet-bk024-dark-rock-slim-ventilador-para-cpu-silent-w/bk024" },
+          { "title": "B&H be quiet! Dark Rock Slim", "type": "retailer_price_stock", "url": "https://www.bhphotovideo.com/c/product/1508511-REG/be_quiet_bk024_dark_rock_slim_air.html" },
+          { "title": "Micro Center be quiet! Dark Rock Slim", "type": "retailer_price_stock", "url": "https://www.microcenter.com/product/704408/be-quiet-dark-rock-slim-cpu-cooler" }
+        ]
+      }
+    },
+    {
+      "product_id": "00w4z3vzg8dushp",
+      "research": {
+        "confidence": 0.88,
+        "brand": "AOC",
+        "name": "Monitor portatil AOC 16T20 15.6 pulgadas Full HD USB-C",
+        "description": "Monitor portatil AOC 16T20 de 15.6 pulgadas con panel IPS Full HD, conectividad USB-C y Mini HDMI, bocinas integradas y compatibilidad VESA 75 x 75 mm.",
+        "manufacturerUrl": "https://www.aoc.com/us/monitors/16t20",
+        "manualCategoryPath": "computo/monitores/portatiles/15-6-fhd/aoc-16t20",
+        "semanticCategoryPath": "computo/monitores/portatiles/15-6-fhd",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10467929"],
+        "documents": ["https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/T%20Line/T20/16T20/16T20_Leaflet.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MNL-3011", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "AOC",
+          "model": "16T20",
+          "providerSkus": ["MNL-3011"],
+          "upc": "685417731084",
+          "productType": "Monitor portatil",
+          "panel": "IPS/WLED 15.6 in",
+          "resolution": "1920 x 1080 Full HD",
+          "refreshRate": "60 Hz",
+          "aspectRatio": "16:9",
+          "brightness": "230 cd/m2 en canal CVA/MX; 250 cd/m2 en algunas paginas regionales AOC",
+          "responseTime": "20 ms en canal CVA/MX; 4 ms GtG en algunas paginas regionales AOC",
+          "contrast": "800:1 tipico; 50M:1 dinamico",
+          "connectivity": ["USB-C x2", "Mini HDMI", "Audio 3.5 mm"],
+          "vesa": "75 x 75 mm",
+          "speakers": "2 x 1 W",
+          "warranty": "3 anos fabricante segun AOC/CVA",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MNL-3011. GlobalOffice/CVA proxies y Cyberpuerta muestran inventarios dinamicos contradictorios; confirmar antes de compra.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MNL-3011", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice/CVA proxies muestran stock dinamico y contradictorio.", "Cyberpuerta reporta disponibilidad variable."],
+          "reviewNotes": "Datos regionales inconsistentes entre ficha CVA/MX y AOC US; guardar ambos en notas sin sobreescribir specs sensibles con una sola fuente."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "354.2 x 222.4 x 9.6 mm sin base; 355 x 225 x 15 mm con soporte; empaque 453 x 295 x 86 mm", "weight": "0.7 kg sin base; 1.099 kg con soporte; 1.7 kg empaque" },
+        "sourceRefs": [
+          { "title": "AOC 16T20 official", "type": "manufacturer_product", "url": "https://www.aoc.com/us/monitors/16t20" },
+          { "title": "AOC 16T20 leaflet", "type": "manufacturer_document", "url": "https://mmd-aoc2.oss-cn-hongkong.aliyuncs.com/Products/Monitors/T%20Line/T20/16T20/16T20_Leaflet.pdf" },
+          { "title": "Cyberpuerta AOC 16T20", "type": "retailer_price_stock", "url": "https://www.cyberpuerta.mx/Computo-Hardware/Monitores/Monitores-Portatiles/Monitor-Portatil-AOC-16T20-LED-Tactil-15-6-1920x1080-Full-HD-60Hz-HDMI-Bocinas-Integradas.html" },
+          { "title": "GlobalOffice AOC 16T20", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/monitores/monitor-portatil-led-aoc-16t20-color-negro-panel-ips-15/16t204044978596376" }
+        ]
+      }
+    },
+    {
+      "product_id": "00wcae76o48nky5",
+      "research": {
+        "confidence": 0.74,
+        "brand": "CDP",
+        "name": "Banco de baterias CDP UPO33-120BC40-100 para UPS UPO3",
+        "description": "Banco/gabinete de baterias externo CDP UPO33-120BC40-100 para serie UPO33/UPO3 de UPS trifasicas. Es accesorio empresarial de energia, normalmente bajo pedido.",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?ccoun=tt&mf=cHJvdGVjdGlvbg&prd=NjM&prdn=VVBPMzMtMTIwUEYzNjU",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/trifasicos/80-200kva/cdp-upo33-120bc40-100",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/trifasicos/80-200kva",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCCDP360/ACCCDP360_full.jpg"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCCDP360", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "CDP / Chicago Digital Power",
+          "model": "UPO33-120BC40-100",
+          "providerSkus": ["ACCCDP360"],
+          "productType": "Banco/gabinete de baterias externo para UPS",
+          "color": "Negro",
+          "compatibility": "Serie CDP UPO33/UPO3; listado como gabinete para autonomia extendida",
+          "referenceCapacity": "100Ah x40 / 38Ah x80 / 17Ah x160 segun listado Solutek",
+          "includedAccessories": "Breakers y cables segun listado Solutek",
+          "upc": "N/A en Mactoner",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCCDP360. Mactoner y Cityshop lo muestran sin existencias/agado.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCCDP360", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner sin existencias.", "Cityshop producto agotado."],
+          "reviewNotes": "No se hallo pagina oficial CDP exacta para UPO33-120BC40-100; Solutek usa texto repetido para varios gabinetes y debe tratarse como referencia secundaria."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown; no se encontro ficha oficial exacta", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Mactoner CDP UPO33-120BC40-100", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/banco-de-baterias-upo33-120bc40-100-para-upo3-cdp-upo33-120bc40-100-negro/" },
+          { "title": "Cityshop CDP UPO33-120BC40-100", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/banco-de-baterias-upo33-120bc40-100-para-upo3-cdp-negro" },
+          { "title": "Solutek CDP UPS UPO33 accessories list", "type": "catalog_reference", "url": "https://solutekcolombia.com/venta_tecnologia/ups_reguladores/cdp/index.htm" },
+          { "title": "CDP UPO33-120PF365 family page", "type": "manufacturer_product", "url": "https://www.cdpenergy.com/productdetails.asp?ccoun=tt&mf=cHJvdGVjdGlvbg&prd=NjM&prdn=VVBPMzMtMTIwUEYzNjU" }
+        ]
+      }
+    },
+    {
+      "product_id": "00ysp41dgeyviya",
+      "research": {
+        "confidence": 0.92,
+        "brand": "HP Poly",
+        "name": "Diadema Poly Voyager Focus 2 9T9J4AA#AC3 Teams USB-C con adaptador USB-A",
+        "description": "Diadema estereo Bluetooth HP Poly Voyager Focus 2 UC certificada para Microsoft Teams, con ANC hibrido, Acoustic Fence, adaptador BT700 USB-C mas adaptador USB-C a USB-A y sin base de carga.",
+        "manufacturerUrl": "https://www.hp.com/us-en/shop/pdp/poly-voyager-focus-2-microsoft-teams-certified-usb-c-c-headset-usb-c-a-adapter",
+        "manualCategoryPath": "audio/audifonos/bluetooth/diadema-oficina/poly-voyager-focus-2-9t9j4aa-ac3",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/diadema-oficina",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10412773"],
+        "documents": ["https://kaas.hpcloud.hp.com/pdf-public/pdf_9541557_es-XM-1.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SPK-2460", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "brand": "HP Poly",
+          "model": "9T9J4AA#AC3",
+          "commercialName": "Poly Voyager Focus 2 Microsoft Teams Certified USB-C-C Headset + USB-C/A Adapter",
+          "providerSkus": ["SPK-2460"],
+          "productType": "Diadema estereo Bluetooth UC",
+          "certification": "Microsoft Teams",
+          "connectivity": "Bluetooth 5.1; adaptador BT700 USB-C incluido + adaptador USB-C a USB-A",
+          "multipoint": "Hasta 2 dispositivos simultaneos; recuerda hasta 8",
+          "microphones": "6 microfonos con cancelacion de ruido / Acoustic Fence",
+          "audio": "Driver 32 mm; speaker bandwidth 20 Hz-20 kHz; mic 100 Hz-6.8 kHz",
+          "battery": "Hasta 25 h conversacion con ANC/online indicator apagados; hasta 16 h con ANC/online indicator encendidos; retailers MX suelen anunciar hasta 19 h",
+          "chargeTime": "Menos de 2 h por cable",
+          "range": "Hasta 50 m/164 ft en canal MX; fichas NA agregan hasta 91 m segun entorno/adaptador",
+          "systems": ["Windows 11", "Windows 10", "macOS", "Android", "iOS"],
+          "boxContents": ["Headset", "Cable USB-C", "Guia rapida", "Pouch", "BT700 USB-C", "Adaptador USB-C a USB-A"],
+          "warranty": "2 anos HP/Poly oficial; algunos retailers MX listan 1 ano",
+          "chargingBase": "No incluida",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SPK-2460. GlobalOffice/CVA pide confirmar por alta demanda; GSX Digital lista existencia 0; VoIP Supply reporta stock externo.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SPK-2460", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice/CVA pide confirmar por alta demanda.", "GSX Digital lista existencia 0.", "VoIP Supply reporta stock externo."],
+          "reviewNotes": "El texto 'dongle USB-A' es ambiguo: HP oficial para 9T9J4AA#AC3 indica BT700 USB-C + adaptador USB-C a USB-A. 77Y85AA/77Y88AA pueden aparecer como equivalentes anteriores, no sustituir MPN sin validar."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "155 x 66 x 183 mm; empaque 190 x 210 x 55 mm", "weight": "175 g; empaque 382 g" },
+        "sourceRefs": [
+          { "title": "HP Poly Voyager Focus 2 9T9J4AA#AC3", "type": "manufacturer_product", "url": "https://www.hp.com/us-en/shop/pdp/poly-voyager-focus-2-microsoft-teams-certified-usb-c-c-headset-usb-c-a-adapter" },
+          { "title": "HP Poly Voyager Focus 2 specs", "type": "manufacturer_specs", "url": "https://www.hp.com/fi-fi/products/accessories/product-details/product-specifications/2102170974" },
+          { "title": "HP Poly Voyager Focus 2 user guide ES", "type": "manufacturer_document", "url": "https://kaas.hpcloud.hp.com/pdf-public/pdf_9541557_es-XM-1.pdf" },
+          { "title": "GlobalOffice Poly SPK-2460", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/audifonos/diadema-hp-poly-9t9j4aaac3-voyager-focus-2-uc-version-micro/9t9j4aaac3" },
+          { "title": "GSX Digital Poly SPK-2460", "type": "retailer_price_stock", "url": "https://www.gsxdigital.com.mx/DIADEMA-HP-POLY-9T9J4AAAC3-VOYAGER-FOCUS-2-UC-VERSION-MICROSOFT-TEAMS-BLUETOOTH-DONGLE-USB-A-CONEXION-HASTA-2-DISPOSITIVOS-ESTEREO-HASTA19-H-DE-CONVERSACION-ALCANCE-HASTA-50-M-SIN-BASE-DE-CARGA-P-%2C246356_1489535423" }
+        ]
+      }
+    }
+  ]
+}
