@@ -1,0 +1,412 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b260-2026-06-01",
+  "cycle": 3,
+  "batch": 260,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "ezlqglacv2fbyfb",
+      "research": {
+        "confidence": 0.87,
+        "brand": "Quinyx",
+        "name": "Pantalla interactiva Quinyx QTX-TE-QS1-98 98 pulgadas 4K Android 14, touch 50 puntos, 8GB/128GB",
+        "description": "Pantalla interactiva profesional Quinyx QTX-TE-QS1-98 de 98 pulgadas para colaboracion y senalizacion. No inferir OPS PC, Windows, brillo o puertos si no vienen en BOM.",
+        "manualCategoryPath": "electronica/pantallas-y-monitores/pizarrones-interactivos/pantallas-colaboracion/98-pulgadas/quinyx-qtx-te-qs1-98",
+        "semanticCategoryPath": "electronica/pantallas-y-monitores/pizarrones-interactivos/pantallas-colaboracion/98-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/PANQNX030/PANQNX030_full.jpg", "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-qtx-te-qs1-98-pantalla-interactiva-touch-50-puntos.webp"],
+        "specs": {
+          "brand": "Quinyx",
+          "model": "QTX-TE-QS1-98",
+          "providerSkus": ["PANQNX030"],
+          "productType": "Pantalla interactiva profesional",
+          "screenSize": "98 in",
+          "resolution": "4K",
+          "operatingSystem": "Android 14",
+          "memory": "8GB RAM",
+          "storage": "128GB",
+          "touchPoints": "50 puntos",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular para PANQNX030. Mactoner y Cityshop la muestran agotada.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "PANQNX030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5168.84, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner $136,251.30 MXN sin existencias, CDMX.", "Cityshop $118,299 MXN agotado, Leon Gto."],
+          "reviewNotes": "No confundir con Panasonic/StarBoard SQ1/QS1 ni con Quinyx YL5X de 75/86 pulgadas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No publicado en las fuentes consultadas", "weight": "No publicado en las fuentes consultadas" },
+        "sourceRefs": [
+          { "title": "CTOnline Quinyx PANQNX030 imagen proveedor", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/PANQNX030/PANQNX030_full.jpg" },
+          { "title": "Cityshop Quinyx QTX-TE-QS1-98", "type": "retailer_price_stock", "url": "https://cityshop.mx/marca/quinyx" },
+          { "title": "Mactoner Quinyx QTX-TE-QS1-98", "type": "retailer_price_stock", "url": "https://www.mactoner.com" }
+        ]
+      }
+    },
+    {
+      "product_id": "f2k0d9o5ripajq3",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Dell",
+        "name": "Servidor Dell PowerEdge R360 1U rack, configuracion CTOnline SERDDL170, BOM pendiente de confirmar",
+        "description": "Servidor Dell PowerEdge R360 en formato rack 1U. La plataforma es configurable; publicar CPU, RAM, discos, PERC, fuente, OS y soporte solo si se confirma contra BOM o Service Tag.",
+        "manufacturerUrl": "https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r360-rack-server/spd/poweredge-r360/pe_r360_tm_vi_vp_sb",
+        "manualCategoryPath": "computo/servidores/rack/1u/dell-poweredge-r360",
+        "semanticCategoryPath": "computo/servidores/rack/1u",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SERDDL170/SERDDL170_full.jpg"],
+        "documents": ["https://www.delltechnologies.com/asset/es-pr/products/servers/technical-support/poweredge-r360-spec-sheet.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "PowerEdge R360",
+          "providerSkus": ["SERDDL170"],
+          "productType": "Servidor rack 1U",
+          "platformCpuSupport": "1 procesador Intel Xeon E-2400 o Pentium G7400/G7400T",
+          "memorySlots": "4 ranuras DDR5 ECC UDIMM, hasta 128GB",
+          "driveBays": "Hasta 4 x 3.5 in SAS/SATA o 8 x 2.5 in segun chasis",
+          "powerSupplies": "Hot-plug 600W/700W segun configuracion",
+          "management": "iDRAC9",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular para SERDDL170. No se localizo publicacion publica exacta de SERDDL170.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SERDDL170", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 84227.7, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Dell US lista R360 desde $4,399 USD.", "GlobalOffice y MG Sistemas tienen variantes R360 comparables, no exactas a SERDDL170."],
+          "reviewNotes": "No mezclar SERDDL170 con variantes R360263/R360264/E-2478/6333P/6315P sin BOM."
+        },
+        "measurements": { "physicalProduct": true, "formFactor": "1U rack", "dimensions": "Dependiente de configuracion/chasis R360", "weight": "Dependiente de configuracion" },
+        "sourceRefs": [
+          { "title": "Dell PowerEdge R360 oficial", "type": "manufacturer_product", "url": "https://www.dell.com/en-us/shop/dell-poweredge-servers/poweredge-r360-rack-server/spd/poweredge-r360/pe_r360_tm_vi_vp_sb" },
+          { "title": "Dell PowerEdge R360 spec sheet", "type": "manufacturer_document", "url": "https://www.delltechnologies.com/asset/es-pr/products/servers/technical-support/poweredge-r360-spec-sheet.pdf" },
+          { "title": "CTOnline Dell SERDDL170 imagen proveedor", "type": "provider_image", "url": "https://static.ctonline.mx/imagenes/SERDDL170/SERDDL170_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "f5p6dw8izerw2e5",
+      "research": {
+        "confidence": 0.91,
+        "brand": "LG",
+        "name": "Refrigerador LG GM39BVP InstaView French Door 29 pies cubicos, 3 puertas, plata Prime Silver",
+        "description": "Refrigerador LG GM39BVP French Door de 29 pies cubicos con InstaView y compresor Smart Inverter BLDC. No es GM39BVT negro mate ni modelo con Wi-Fi/dispensador externo.",
+        "manufacturerUrl": "https://www.lg.com/mx/refrigeradores/refrigeradores-french-door/gm39bvp/",
+        "manualCategoryPath": "hogar/electrodomesticos/refrigeradores/french-door/29-pies/lg-gm39bvp",
+        "semanticCategoryPath": "hogar/electrodomesticos/refrigeradores/french-door/29-pies",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/REFLGE170/REFLGE170_full.jpg", "https://www.lg.com/content/dam/channel/wcms/mx/register2025/hs-thumbnail-gallery/ref/2010x1334/GM39BVP.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800"],
+        "specs": {
+          "brand": "LG",
+          "model": "GM39BVP",
+          "providerSkus": ["REFLGE170"],
+          "productType": "Refrigerador French Door",
+          "capacity": "29 pies cubicos",
+          "doorConfiguration": "French Door 3 puertas",
+          "color": "Plata / Prime Silver",
+          "compressor": "Smart Inverter BLDC",
+          "annualEnergyUse": "603 kWh/ano",
+          "features": ["InstaView", "Sin Door-in-Door", "Sin ThinQ Wi-Fi", "Sin dispensador externo de agua/hielo"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular para REFLGE170. Coppel y Home Depot publican precio online sin stock numerico por sucursal.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "REFLGE170", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 21550.9, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Coppel $24,399 MXN con entrega estimada 2 a 7 dias.", "Home Depot $24,999 MXN online sujeto a disponibilidad."],
+          "reviewNotes": "No confundir con GM39BVT ni con modelos LG 29 pies con dispensador, Door-in-Door o ThinQ."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "908 x 1772 x 921 mm", "weight": "125 kg" },
+        "sourceRefs": [
+          { "title": "LG GM39BVP oficial MX", "type": "manufacturer_product", "url": "https://www.lg.com/mx/refrigeradores/refrigeradores-french-door/gm39bvp/" },
+          { "title": "Coppel LG GM39BVP", "type": "retailer_price_stock", "url": "https://www.coppel.com/pdp/refrigerador-lg-french-door-29-pies-plateado-gm39bvp-pm-6646853" },
+          { "title": "Home Depot LG GM39BVP", "type": "retailer_price_stock", "url": "https://www.homedepot.com.mx/p/lg-refrigerador-lg-29-pies-french-door-instaview-gm39bvp-217773" }
+        ]
+      }
+    },
+    {
+      "product_id": "f5ys5saxw5h3ncl",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Extension de garantia Dell N_DPROVL1_N1_N3 para Dell Pro Laptops, de 1 ano Basic NBD a 3 anos Basic NBD",
+        "description": "Poliza Dell N_DPROVL1_N1_N3 para extender garantia Basic Onsite/Next Business Day en laptops Dell Pro compatibles. No incluye laptop, ProSupport, ADP ni soporte de software.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y/n-dprovl1-n1-n3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10480087", "https://ik.imagekit.io/intercompras/images/product/DELL_N_DPROVL1_N1_N3.jpg"],
+        "documents": ["https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_DPROVL1_N1_N3",
+          "providerSkus": ["POL-11215"],
+          "productType": "Extension de garantia Dell",
+          "serviceLevel": "Basic Onsite / Next Business Day",
+          "term": "De 1 ano Basic NBD a 3 anos Basic NBD",
+          "compatibleModels": ["Dell Pro 14 Essential PV14250", "Dell Pro 14 Essential PV14255", "Dell Pro 15 Essential PV15250"],
+          "coverage": "Piezas y mano de obra, 8x5, soporte telefono/web, diagnostico remoto previo a despacho onsite",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-11215. GSX Digital existencia 0; Intercompras descarga digital.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-11215", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 675.2, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GSX Digital $1,034.29 MXN, existencia 0.", "Intercompras $1,079 MXN IVA incluido, descarga digital."],
+          "reviewNotes": "Validar Service Tag. Servicio onsite depende de diagnostico remoto y disponibilidad Dell."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Basic Hardware Service", "type": "manufacturer_document", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf" },
+          { "title": "CVA Dell POL-11215 imagen proveedor", "type": "provider_image", "url": "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10480087" },
+          { "title": "Intercompras Dell N_DPROVL1_N1_N3", "type": "retailer_price_stock", "url": "https://www.intercompras.com" }
+        ]
+      }
+    },
+    {
+      "product_id": "f6823v61bl0lfna",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Microsoft",
+        "name": "Microsoft Excel LTSC 2024 CSP Perpetua Comercial, licencia electronica",
+        "description": "Licencia electronica perpetua comercial de Microsoft Excel LTSC 2024 via CSP. No es Microsoft 365, Office completo, caja fisica ni suscripcion recurrente.",
+        "manufacturerUrl": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview",
+        "manualCategoryPath": "software/licencias/microsoft/excel/ltsc-2024/commercial-perpetual",
+        "semanticCategoryPath": "software/licencias/microsoft/excel/ltsc-2024",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.grupocva.com/detalle_articulo/10440719.jpg"],
+        "documents": ["https://learn.microsoft.com/en-us/office/ltsc/2024/overview", "https://learn.microsoft.com/en-us/lifecycle/products/excel-ltsc-2024"],
+        "specs": {
+          "brand": "Microsoft",
+          "model": "DG7GMGF0PN5H:0002:Commercial",
+          "providerSkus": ["SWS-5777"],
+          "productType": "Licencia electronica de productividad",
+          "licenseType": "CSP perpetua comercial",
+          "application": "Excel LTSC 2024 standalone",
+          "supportEndDate": "2029-10-09",
+          "systemRequirements": "Windows 11, Windows 10 LTSC 2019/2021, Windows Server 2022/2025; CPU 1.1GHz 2 nucleos; 4GB RAM; 4GB disco; 1280x768",
+          "updateModel": "LTSC sin nuevas funciones cloud tipo Microsoft 365",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para SWS-5777. InterDS indica retiro en Puebla con cita.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SWS-5777", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 203.39, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $4,510 MXN en proceso de llegada/contactar.", "InterDS $5,153.28 MXN licencia electronica, retiro Puebla con cita."],
+          "reviewNotes": "No catalogar como Office LTSC Professional Plus ni Microsoft 365."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, licencia electronica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Microsoft Office LTSC 2024 overview", "type": "manufacturer_document", "url": "https://learn.microsoft.com/en-us/office/ltsc/2024/overview" },
+          { "title": "Microsoft Excel LTSC 2024 lifecycle", "type": "manufacturer_document", "url": "https://learn.microsoft.com/en-us/lifecycle/products/excel-ltsc-2024" },
+          { "title": "CVA Microsoft SWS-5777 imagen proveedor", "type": "provider_image", "url": "https://www.grupocva.com/detalle_articulo/10440719.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "fea7nqjaq0wi3ig",
+      "research": {
+        "confidence": 0.91,
+        "brand": "CDP",
+        "name": "CDP SNMP Web Pro SNMPTXWEBPRO, tarjeta interna de monitoreo para UPS UPO11/UPO22/UPO33-HM3AX",
+        "description": "Tarjeta interna CDP SNMPTXWEBPRO para monitoreo y administracion remota de UPS compatibles. No es UPS completo, tarjeta externa generica ni MODBUS/RS-485.",
+        "manufacturerUrl": "https://cdpenergy.com/productdetails.asp?ccoun=sv&mf=cHJvdGVjdGlvbg&prd=NDMy&prdn=VVBPU05NUA",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/cdp-snmptxwebpro",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10482227", "https://www.cdpenergy.com/Content_Elements/product_extra_images/PRID-432-EXTIMG-520.jpg", "https://www.cdpenergy.com/Content_Elements/product_extra_images/PRID-432-EXTIMG-5424.jpg"],
+        "documents": ["https://www.cdpenergy.com/Content_Elements/downloads/Manuals/432-Manual%20de%20usuario%20SNMP%20web%20pro.pdf"],
+        "specs": {
+          "brand": "CDP",
+          "model": "SNMPTXWEBPRO",
+          "providerSkus": ["NIC-5181"],
+          "productType": "Tarjeta interna SNMP para UPS",
+          "interfaces": ["RJ45 Ethernet", "Puerto sensor/datos", "Conector dorado a slot UPS", "LEDs de estado"],
+          "defaultIp": "192.168.102.230",
+          "softwareSupport": ["Web monitoring", "SNMP MIB", "ViewPower Pro", "EMD", "SMS", "Reportes", "Apagado/encendido/prueba de bateria programados"],
+          "compatibleWith": ["UPO11", "UPO22", "UPO33-HM3AX", "UPO11-1/2/3", "UPO11 AX", "UPO22-6/10/15 AX", "UPO22-6/10 RT AX", "UPO33-HM3 AX"],
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para NIC-5181. PCDigital reporta 5 piezas En Linea; Veracruz, Cordoba, Puebla y Xalapa agotado.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NIC-5181", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3548.57, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["PCDigital $5,441 MXN IVA incluido, 5 piezas En Linea."],
+          "reviewNotes": "Requiere slot interno compatible CDP; validar serie de UPS antes de vender."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "23 x 47 x 15 mm (retail tecnico)", "weight": "34.7 g (retail tecnico)" },
+        "sourceRefs": [
+          { "title": "CDP SNMP Web Pro", "type": "manufacturer_product", "url": "https://cdpenergy.com/productdetails.asp?ccoun=sv&mf=cHJvdGVjdGlvbg&prd=NDMy&prdn=VVBPU05NUA" },
+          { "title": "CDP SNMP Web Pro manual", "type": "manufacturer_document", "url": "https://www.cdpenergy.com/Content_Elements/downloads/Manuals/432-Manual%20de%20usuario%20SNMP%20web%20pro.pdf" },
+          { "title": "PCDigital CDP SNMPTXWEBPRO", "type": "retailer_price_stock", "url": "https://pcdigital.com.mx" }
+        ]
+      }
+    },
+    {
+      "product_id": "ffutxvsgfuxqghd",
+      "research": {
+        "confidence": 0.93,
+        "brand": "LG",
+        "name": "Refrigerador LG GM29BIP French Door 29 pies, plata platino, Smart Inverter",
+        "description": "Refrigerador LG GM29BIP French Door de 29 pies cubicos con Smart Inverter, Linear Cooling y Door Cooling+. No es GM39BIP/GM39BVP/GM90BIP ni modelo con dispensador externo.",
+        "manufacturerUrl": "https://www.lg.com/mx/refrigeradores/lg-gm29bip",
+        "manualCategoryPath": "hogar/electrodomesticos/refrigeradores/french-door/29-pies/lg-gm29bip",
+        "semanticCategoryPath": "hogar/electrodomesticos/refrigeradores/french-door/29-pies",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/REFLGE160/REFLGE160_full.jpg", "https://www.lg.com/content/dam/channel/wcms/mx/register2025/hs-thumbnail-gallery/ref/2010x1334/GM29BIP.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg", "https://www.lg.com/content/dam/channel/wcms/mx/images/refrigeradores/gm29bip_apzfmxm_enms_mx_c/gallery/DZ-02.jpg"],
+        "specs": {
+          "brand": "LG",
+          "model": "GM29BIP",
+          "providerSkus": ["REFLGE160"],
+          "productType": "Refrigerador French Door",
+          "capacityTotal": "29 pies cubicos",
+          "capacityRefrigerator": "18 pies cubicos",
+          "capacityFreezer": "11 pies cubicos",
+          "compressor": "Smart Inverter",
+          "features": ["Linear Cooling", "Door Cooling+", "Multi Air Flow", "Smart Diagnosis", "Express Freeze", "Repisas cristal templado", "Luz LED superior", "2 cajones de congelador"],
+          "color": "Plata Platino",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular para REFLGE160. Walmart permite agregar al carrito por vendedor LG Store MX; Home Depot no expone conteo.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "REFLGE160", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 19826.7, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Walmart $19,999 MXN disponible para agregar al carrito, vendedor LG Store Mx.", "Home Depot $17,799 MXN sin conteo de stock expuesto."],
+          "reviewNotes": "La mencion de fabrica de hielo en algunos comercios no equivale a dispensador externo."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "908 x 1772 x 886 mm", "weight": "133.81 kg", "packagedWeight": "145.15 kg" },
+        "sourceRefs": [
+          { "title": "LG GM29BIP oficial MX", "type": "manufacturer_product", "url": "https://www.lg.com/mx/refrigeradores/lg-gm29bip" },
+          { "title": "LG GM29BIP soporte", "type": "manufacturer_support", "url": "https://www.lg.com/mx/soporte/soporte-de-producto/cs-GM29BIP.APZFMXM" },
+          { "title": "Walmart LG GM29BIP", "type": "retailer_price_stock", "url": "https://www.walmart.com.mx" }
+        ]
+      }
+    },
+    {
+      "product_id": "fjq5xeecribrrv1",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Dell",
+        "name": "Dell N_DOL2_N1_N3 - poliza Basic Onsite/NBD de 1 a 3 anos para Dell Pro 14/16, validar Service Tag",
+        "description": "Poliza Dell Basic Onsite/Next Business Day N_DOL2_N1_N3 de 1 ano a 3 anos para Dell Pro 14/16 compatibles. Es servicio de garantia, no hardware ni 3 anos adicionales.",
+        "manufacturerUrl": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y/n-dol2-n1-n3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10462136"],
+        "documents": ["https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf"],
+        "specs": {
+          "brand": "Dell",
+          "model": "N_DOL2_N1_N3",
+          "providerSkus": ["POL-10414"],
+          "productType": "Extension de garantia Dell",
+          "serviceLevel": "Basic Onsite / Next Business Day",
+          "term": "De 1 ano Basic NBD a 3 anos Basic NBD",
+          "compatibleModels": ["Dell Pro 14 PC14250", "Dell Pro 14 PC14255", "Dell Pro 16 PC16250"],
+          "coverage": "Piezas y mano de obra, 8x5, soporte telefono/web, diagnostico remoto previo a despacho onsite",
+          "providerTitleWarning": "CVA lo titula para Dell Pro Desktops, pero fuentes publicas listan Dell Pro 14/16 laptops.",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para POL-10414. Abasteo lista InStock; Compuviper stock 0.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-10414", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1280, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Compuviper $1,708 MXN IVA incluido, stock 0.", "Abasteo $1,669 MXN InStock."],
+          "reviewNotes": "Validar Service Tag y familia antes de activar; no clasificar como desktop/hardware."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell Basic Hardware Service", "type": "manufacturer_document", "url": "https://i.dell.com/sites/csdocuments/Legal_Docs/en/us/basic-hardware-service-commercial-sd-en.pdf" },
+          { "title": "Abasteo Dell N_DOL2_N1_N3", "type": "retailer_price_stock", "url": "https://www.abasteo.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Basica-para-Laptops-Pro-14-y-16.html" },
+          { "title": "Compuviper Dell N_DOL2_N1_N3", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/dell-n_dol2_n1_n3-poliza-de-garantia-para-pro-desktops-1-ao-basico-next-bus-day-a-3-aos-basico-next-bus-day-importante-confirmar-compatibilidad-de-series-con-clave-de-garantia/" }
+        ]
+      }
+    },
+    {
+      "product_id": "fk39pzb6r8hri6t",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Ocelot Gaming",
+        "name": "Ocelot Gaming OFKIT-2 - kit de 3 ventiladores ARGB 120 mm con hub SATA y control remoto",
+        "description": "Kit Ocelot Gaming OFKIT-2 de tres ventiladores ARGB 120 mm para gabinete, con hub alimentado por SATA y control remoto. No es ventilador individual ni enfriamiento liquido.",
+        "manufacturerUrl": "https://ocelot.com.mx/producto/kit-de-ventiladores-ofkit-2/",
+        "manualCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/kits-120mm-argb/ocelot-ofkit-2",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/ventiladores-gabinete/kits-120mm-argb",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10333333"],
+        "documents": ["https://ocelot.com.mx/wp-content/uploads/2024/01/MANUAL-OFKIT-2.pdf", "https://ocelot.com.mx/wp-content/uploads/2024/01/enfriamiento-OFKIT-2.pdf"],
+        "specs": {
+          "brand": "Ocelot Gaming",
+          "model": "OFKIT-2",
+          "providerSkus": ["CF-286"],
+          "productType": "Kit de ventiladores ARGB para gabinete",
+          "includedFans": 3,
+          "fanSize": "120 x 120 x 25 mm",
+          "speed": "1200 rpm +/-10%",
+          "bearing": "Hydraulic bearing",
+          "voltage": "12 VDC general, LED 5 VDC",
+          "current": "0.6 A",
+          "lighting": "ARGB",
+          "controller": "Hub SATA y control remoto",
+          "connectors": "3-pin/Molex 4-pin; hub con puertos propietarios fan/ARGB",
+          "officialAirflow": "55.94 CFM",
+          "officialNoise": "26.4 dB",
+          "providerBranchSummary": "CVA reporta stock 0 sin sucursal granular para CF-286. Cimsystem reporta 36 unidades: sucursal 10 y CEDIS 26.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CF-286", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 15.82, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Cimsystem $369.36 MXN IVA incluido, 36 unidades.", "Ocelot oficial $426 MXN."],
+          "reviewNotes": "CVA/retail titulan 38.5 CFM y 21.2 dB; ficha oficial indica 55.94 CFM y 26.4 dB."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "120 x 120 x 25 mm por ventilador", "packageDimensions": "11 x 13 x 16 cm", "packageWeight": "0.623 kg" },
+        "sourceRefs": [
+          { "title": "Ocelot OFKIT-2 oficial", "type": "manufacturer_product", "url": "https://ocelot.com.mx/producto/kit-de-ventiladores-ofkit-2/" },
+          { "title": "Ocelot OFKIT-2 manual", "type": "manufacturer_document", "url": "https://ocelot.com.mx/wp-content/uploads/2024/01/MANUAL-OFKIT-2.pdf" },
+          { "title": "Compuviper Ocelot OFKIT-2", "type": "retailer_price_stock", "url": "https://compuviper.mx/tienda/producto/ocelot-gaming-ofkit-2-ventiladores-kit-3-piezas-120mm-rgb-hub-para-10x-ventiladores-rgb-control-remoto-38-5-cfm-1200-rpm-21-2-db-color-negro/" }
+        ]
+      }
+    },
+    {
+      "product_id": "fld9r3dxbeywdry",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Soft Restaurant",
+        "name": "Soft Restaurant 12 PRO SR-12PRO-RA - licencia electronica anual por establecimiento hasta 10 nodos",
+        "description": "Licencia electronica anual Soft Restaurant 12 PRO para restaurante, hasta 10 nodos por establecimiento. No incluye hardware POS, cajon, impresora, timbres CFDI, instalacion ni capacitacion.",
+        "manufacturerUrl": "https://www.nationalsoft.store/productos/softrestaurant-12-pro/6007?sversion=Professional&view=all",
+        "manualCategoryPath": "punto-de-venta/software-pos/restaurantes/licencias-renta-anual/soft-restaurant-12-pro-10-nodos",
+        "semanticCategoryPath": "punto-de-venta/software-pos/restaurantes/licencias-renta-anual",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITNTS4410/KITNTS4410_full.jpg", "https://nscldstrg05.blob.core.windows.net/nsstore/Images/Recursos/92d60e55-add6-4697-82b1-3aa7e9de1590.png"],
+        "specs": {
+          "brand": "Soft Restaurant",
+          "model": "SR-12PRO-RA",
+          "providerSkus": ["KITNTS4410"],
+          "productType": "Software POS restaurante, renta anual",
+          "licenseTerm": "Anual",
+          "licenseScope": "Por establecimiento",
+          "nodes": "Hasta 10 nodos",
+          "modules": ["POS comedor", "Rapido", "Domicilio", "Inventarios", "Facturacion/autofactura", "Reservaciones/comisionistas", "Monitor de produccion", "Lealtad"],
+          "promoSignals": ["Analytics", "Delivery Hub"],
+          "systemRequirements": "64GB disco; 4GB RAM recomendado 8GB+; Windows 10 Enterprise/LTSC, Windows 11 Pro/Enterprise/LTSC o Windows Server 2022; dual core recomendado i3+",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal granular para KITNTS4410. GlobalOffice reporta 0 local + 1 Almacen Mexico externo; RekonTech 1 disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "KITNTS4410", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8824.33, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["NationalSoft oficial $13,386.40 MXN IVA incluido.", "GlobalOffice $10,850 MXN, 1 Almacen Mexico externo.", "RekonTech $12,195.44 MXN, 1 disponible."],
+          "reviewNotes": "No confundir con SR-12PRO-RE mensual, Lite, Cloud, nodos adicionales, servicios de implementacion ni timbres CFDI."
+        },
+        "measurements": { "physicalProduct": false, "digitalDelivery": true, "dimensions": "No aplica, licencia electronica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "NationalSoft Soft Restaurant 12 Pro", "type": "manufacturer_product", "url": "https://www.nationalsoft.store/productos/softrestaurant-12-pro/6007?sversion=Professional&view=all" },
+          { "title": "GlobalOffice SR-12PRO-RA", "type": "retailer_price_stock", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/software/soft-restaurant-licencia-version-12-pro-de-renta-a/sr-12pro-ra" },
+          { "title": "RekonTech Soft Restaurant 12 Pro", "type": "retailer_price_stock", "url": "https://rekontech.com.mx/products/soft-restaurant-12-pro-renta-anual-10-nodos--KITNTS4410" }
+        ]
+      }
+    }
+  ]
+}

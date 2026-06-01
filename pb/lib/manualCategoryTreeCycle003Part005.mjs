@@ -1,0 +1,18 @@
+export const MANUAL_CATEGORY_TREE_CYCLE003_PART005 = [
+  { path: 'electronica/pantallas-y-monitores/pizarrones-interactivos/pantallas-colaboracion/98-pulgadas', name: 'Pantallas colaborativas 98 pulgadas', legacyCategory: 'accessories' },
+  { path: 'electronica/pantallas-y-monitores/pizarrones-interactivos/pantallas-colaboracion/98-pulgadas/quinyx-qtx-te-qs1-98', name: 'Quinyx QTX-TE-QS1-98 pantalla interactiva 98 pulgadas', legacyCategory: 'accessories' },
+  { path: 'computo/servidores/rack/1u/dell-poweredge-r360', name: 'Dell PowerEdge R360 servidor rack 1U', legacyCategory: 'laptops' },
+  { path: 'hogar/electrodomesticos/refrigeradores/french-door/29-pies/lg-gm39bvp', name: 'LG GM39BVP InstaView French Door 29 pies', legacyCategory: 'accessories' },
+  { path: 'servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops', name: 'Dell Basic NBD para Dell Pro laptops', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y', name: 'Dell Pro laptops 1Y a 3Y Basic NBD', legacyCategory: 'software' },
+  { path: 'servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y/n-dprovl1-n1-n3', name: 'Dell N_DPROVL1_N1_N3 Basic NBD 3Y', legacyCategory: 'software' },
+  { path: 'software/licencias/microsoft/excel', name: 'Microsoft Excel', legacyCategory: 'software' },
+  { path: 'software/licencias/microsoft/excel/ltsc-2024', name: 'Microsoft Excel LTSC 2024', legacyCategory: 'software' },
+  { path: 'software/licencias/microsoft/excel/ltsc-2024/commercial-perpetual', name: 'Microsoft Excel LTSC 2024 Commercial perpetuo', legacyCategory: 'software' },
+  { path: 'energia/no-breaks-ups/accesorios/tarjetas-comunicacion/snmp/cdp-snmptxwebpro', name: 'CDP SNMPTXWEBPRO tarjeta SNMP Web Pro', legacyCategory: 'power' },
+  { path: 'hogar/electrodomesticos/refrigeradores/french-door/29-pies/lg-gm29bip', name: 'LG GM29BIP French Door 29 pies', legacyCategory: 'accessories' },
+  { path: 'servicios-ti/soporte-garantias/dell/basic-nbd/dell-pro-laptops/1y-a-3y/n-dol2-n1-n3', name: 'Dell N_DOL2_N1_N3 Basic NBD 3Y', legacyCategory: 'software' },
+  { path: 'computo/componentes/enfriamiento/ventiladores-gabinete/kits-120mm-argb', name: 'Kits de ventiladores ARGB 120 mm para gabinete', legacyCategory: 'components' },
+  { path: 'computo/componentes/enfriamiento/ventiladores-gabinete/kits-120mm-argb/ocelot-ofkit-2', name: 'Ocelot OFKIT-2 kit 3 ventiladores 120 mm ARGB', legacyCategory: 'components' },
+  { path: 'punto-de-venta/software-pos/restaurantes/licencias-renta-anual/soft-restaurant-12-pro-10-nodos', name: 'Soft Restaurant 12 Pro renta anual 10 nodos', legacyCategory: 'software' },
+];
