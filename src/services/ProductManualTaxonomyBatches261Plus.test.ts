@@ -105,6 +105,19 @@ const batch268Cases = [
   ["Immortal IMGXBC3 ACCTCH9670 cargador dual para controles Xbox One con 2 baterias", "IMMORTAL", "gaming/consolas/accesorios/cargadores-controles/xbox-one/immortal-imgxbc3", "accessories", {}],
 ] as const;
 
+const batch269Cases = [
+  ["Complet UPS-MAR-40 NBKCOM760 UPS-1-059 online trifasico 40kVA 32000W 220V", "COMPLET", "energia/no-breaks-ups/doble-conversion/trifasicos/40000va/complet-ups-mar-40", "power", {}],
+  ["ADATA CACC-100PN-BK CABDAT280 cable USB-C a USB-C 1m 100W PD 3.0 negro", "ADATA", "accesorios/cables-adaptadores/usb/usb-c-c/1m/100w/adata-cacc-100pn-bk", "accessories", {}],
+  ["Intellinet 561211 ACCITL4720 AC-6593 extensor PoE+ Gigabit IP65 25W hasta 100m", "INTELLINET", "redes/poe/extensores/gigabit/exterior-ip65/intellinet-561211", "networking", {}],
+  ["OvalTech OTA1820 BATOVL1200 bateria Apple MacBook Pro 15 A1707 A1820 6680mAh", "OVALTECH", "computo/accesorios/baterias-laptop/apple/macbook-pro-15-a1707/ovaltech-ota1820", "accessories", {}],
+  ["ASUS PRIME H610M-K D4-CSM MBDASS6230 tarjeta madre Intel H610 LGA1700 DDR4 micro ATX", "ASUS", "computo/componentes/tarjetas-madre/intel-lga1700/h610/ddr4-micro-atx/asus-prime-h610m-k-d4-csm", "components", {}],
+  ["APC SRT192BP BATAPC420 FR-1117 paquete baterias externo Smart-UPS SRT 192V 5kVA 6kVA", "APC", "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/192v/apc-srt192bp", "power", {}],
+  ["Tripp Lite P512-006 CABTRL1580 cable VGA HD15 macho macho 1.83m negro 037332012364", "TRIPP-LITE", "accesorios/cables-adaptadores/video-vga/hd15-1-8m/tripp-lite-p512-006", "accessories", {}],
+  ["Honeywell Xenon XP 1952G-BF LCTMTR1840 lector codigo barras inalambrico 2D battery-free", "HONEYWELL", "punto-de-venta/lectores-codigo-barras/inalambricos/2d/honeywell-xenon-xp-1952g-bf", "accessories", {}],
+  ["Dahua DHI-LM27-P301A MNL-2391 monitor profesional 27 QHD IPS USB-C 65W", "DAHUA DISPLAY", "computo/monitores/profesionales/27-qhd-usb-c-65w/dahua-dhi-lm27-p301a", "monitors", {}],
+  ["Nextep NE-128 ACCNTE200 perforadora manual oficina 1 orificio 6mm 7501811272561", "NEXTEP", "oficina/equipo-oficina/perforadoras/1-orificio-6mm/nextep-ne-128", "accessories", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -149,6 +162,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch268Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch269Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

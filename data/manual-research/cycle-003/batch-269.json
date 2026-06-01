@@ -1,0 +1,527 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b269-2026-06-01",
+  "cycle": 3,
+  "batch": 269,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "04ixru84d444bfs",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Complet",
+        "name": "UPS Complet UPS-MAR-40 UPS-1-059 online trifasico 40kVA/32kW 220V doble conversion",
+        "description": "UPS online trifasico Complet UPS-MAR-40 / UPS-1-059 de doble conversion, 40000VA/32000W, entrada y salida trifasica 220V, baterias internas y respaldo documentado. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.complet.mx/productos/ups/trifasica-10-50",
+        "manualCategoryPath": "energia/no-breaks-ups/doble-conversion/trifasicos/40000va/complet-ups-mar-40",
+        "semanticCategoryPath": "energia/no-breaks-ups/doble-conversion/trifasicos/40000va",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/NBKCOM760/NBKCOM760_1_full.jpg",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/NBKCOM760_1_full-600x600.jpg"
+        ],
+        "documents": [
+          "https://www.complet.mx/downloads/ups/UPS-1-059.pdf",
+          "https://www.complet.mx/downloads/ups/TRIFASICO.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "NBKCOM760", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 259601, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "UPS-MAR-40",
+          "partNumber": "UPS-1-059",
+          "productType": "UPS online trifasico de doble conversion",
+          "capacityVa": 40000,
+          "capacityWatts": 32000,
+          "inputOutput": "3 fases entrada / 3 fases salida",
+          "nominalVoltage": "220V configurable",
+          "topology": "Doble conversion, onda senoidal pura",
+          "battery": "80 x 12V 7Ah, sistema 240Vdc",
+          "runtime": "7.56 min a carga completa, 15.12 min a media carga",
+          "interfaces": ["LCD", "EPO", "RS-232", "USB", "SNMP opcional"],
+          "surgeSuppressionJoules": 3136,
+          "warranty": "24 meses UPS, 12 meses baterias",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para NBKCOM760. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "NBKCOM760", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 259601, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": {
+          "dimensions": "97 x 59 x 143 cm",
+          "weight": "515.2 kg",
+          "packageDimensions": "127 x 75 x 165 cm",
+          "packageWeight": "600.8 kg"
+        },
+        "sourceRefs": [
+          { "title": "Complet UPS trifasica 10-50", "type": "manufacturer_product", "url": "https://www.complet.mx/productos/ups/trifasica-10-50" },
+          { "title": "Complet UPS-1-059 PDF", "type": "manufacturer_datasheet", "url": "https://www.complet.mx/downloads/ups/UPS-1-059.pdf" },
+          { "title": "MacToner NBKCOM760", "type": "retailer_reference", "url": "https://www.mactoner.com.mx/producto/no-break-complet-ups-mar-40-ups-1-059-40000-va/" }
+        ]
+      }
+    },
+    {
+      "product_id": "04jwrdnb3z37ftj",
+      "research": {
+        "confidence": 0.93,
+        "brand": "ADATA",
+        "name": "Cable ADATA CACC-100PN-BK USB-C a USB-C 1m 100W PD 3.0 nylon trenzado negro",
+        "description": "Cable ADATA CACC-100PN-BK USB-C macho a USB-C macho de 1m, carga 100W/5A con PD 3.0, QC 3.0, chip E-marker, nylon trenzado negro y datos USB 2.0 480Mbps. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://webapi3.adata.com/storage/downloadfile/datasheet_type_c_type_c_cable_v2.pdf",
+        "manualCategoryPath": "accesorios/cables-adaptadores/usb/usb-c-c/1m/100w/adata-cacc-100pn-bk",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/usb/usb-c-c/1m/100w",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CABDAT280/CABDAT280_full.jpg",
+          "https://www.pbtech.com/imgprod/C/A/CABADA8382__1.jpg?h=809248758",
+          "https://www.pbtech.co.nz/fileslib/_20240930143153_841.jpg",
+          "https://www.pbtech.co.nz/fileslib/_20240930143233_187.jpg"
+        ],
+        "documents": [
+          "https://webapi3.adata.com/storage/downloadfile/datasheet_type_c_type_c_cable_v2.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CABDAT280", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3.58, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "CACC-100PN-BK",
+          "partNumber": "77070161",
+          "upc": "842243032437",
+          "ean": "4711085946225",
+          "productType": "Cable USB-C a USB-C",
+          "length": "100 cm",
+          "maxPower": "100W",
+          "maxCurrent": "5A",
+          "protocols": ["USB Power Delivery 3.0", "QC 3.0"],
+          "eMarkerChip": true,
+          "dataRate": "USB 2.0, 480 Mbps",
+          "jacket": "Nylon trenzado",
+          "color": "Negro",
+          "durability": "20000 ciclos de doblez e insercion",
+          "warranty": "1 ano",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CABDAT280. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CABDAT280", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3.58, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "100 cm cable length", "weight": "22.95 g" },
+        "sourceRefs": [
+          { "title": "ADATA Type-C cable datasheet", "type": "manufacturer_datasheet", "url": "https://webapi3.adata.com/storage/downloadfile/datasheet_type_c_type_c_cable_v2.pdf" },
+          { "title": "PB Tech CACC-100PN-BK", "type": "retailer_reference", "url": "https://www.pbtech.com/product/CABADA8382/ADATA-CACC-100PN-BK-USB-Type-C-M-to-USB-Type-C-M-C" },
+          { "title": "Global Office CACC-100PN-BK", "type": "retailer_reference", "url": "https://globaloffice.com.mx/app/detalle/producto/cables/cable-usb-adata-cacc-100pn-bk-cable-adata-usb-tipo-c-usb-t/cacc-100pn-bk" }
+        ]
+      }
+    },
+    {
+      "product_id": "04kwtmyf3jxk0t6",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Intellinet",
+        "name": "Extensor PoE+ Intellinet 561211 Gigabit exterior IP65 25W hasta 100m",
+        "description": "Extensor/repetidor PoE+ Gigabit Intellinet 561211 para exterior IP65, salida PoE hasta 25W, extension de 100m por segmento y cascada posible hasta 500m con perdida de potencia. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://intellinetnetwork.eu/products/intellinet-en-outdoor-gigabit-high-power-poe-extender-repeater-561211",
+        "manualCategoryPath": "redes/poe/extensores/gigabit/exterior-ip65/intellinet-561211",
+        "semanticCategoryPath": "redes/poe/extensores/gigabit/exterior-ip65",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10061770",
+          "https://intellinetnetwork.eu/cdn/shop/files/outdoor-gigabit-high-power-poe-extender-repeater-561211-1.jpg?v=1750896951&width=1445",
+          "https://intellinetnetwork.eu/cdn/shop/files/outdoor-gigabit-high-power-poe-extender-repeater-561211-packaging-7.jpg?v=1750896951&width=1445"
+        ],
+        "documents": [
+          "https://s3.amazonaws.com/assets.mhint/downloads/57326/561211_datasheet_english.pdf",
+          "https://s3.amazonaws.com/assets.mhint/downloads/57704/INT-561211_QiG-0817_REV-5.01.pdf",
+          "https://s3.amazonaws.com/assets.mhint/downloads/62132/561211_declaration_of_conformity_english.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCITL4720", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 90.6, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "AC-6593", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 97.32, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "561211",
+          "alternateSku": "IPE-ODG",
+          "upc": "766623561211",
+          "ean": "0766623561211",
+          "productType": "Extensor/repetidor PoE+ Gigabit exterior",
+          "standards": ["IEEE 802.3af", "IEEE 802.3at", "IEEE 802.3", "IEEE 802.3ab", "IEEE 802.3u"],
+          "ports": ["1 x RJ45 Gigabit entrada PoE", "1 x RJ45 Gigabit salida PoE"],
+          "maxPdOutputWatts": 25,
+          "maxPowerConsumptionWatts": 4,
+          "housing": "Aluminio IP65",
+          "operatingTemperature": "-40 a 75 C",
+          "warranty": "3 anos",
+          "providerBranchSummary": "CTOnline ACCITL4720 y CVA AC-6593 reportan stock 0. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCITL4720", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 90.6, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "AC-6593", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 97.32, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "145 x 38 x 30 mm", "weight": "130 g", "packageDimensions": "142 x 70 x 40 mm", "packageWeight": "150 g" },
+        "sourceRefs": [
+          { "title": "Intellinet 561211 product page", "type": "manufacturer_product", "url": "https://intellinetnetwork.eu/products/intellinet-en-outdoor-gigabit-high-power-poe-extender-repeater-561211" },
+          { "title": "Intellinet 561211 datasheet", "type": "manufacturer_datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/57326/561211_datasheet_english.pdf" },
+          { "title": "DigiKey 561211", "type": "distributor_reference", "url": "https://www.digikey.com/en/products/detail/intellinet-network-solutions/561211/25975486" }
+        ]
+      }
+    },
+    {
+      "product_id": "04snqm5vkcoy0dg",
+      "research": {
+        "confidence": 0.91,
+        "brand": "OvalTech",
+        "name": "Bateria OvalTech OTA1820 para Apple MacBook Pro 15 A1707 2016-2017 11.4V 76.15Wh 6680mAh",
+        "description": "Bateria de reemplazo OvalTech OTA1820 / A1820 para Apple MacBook Pro 15 A1707 Late 2016 y Mid 2017, Li-ion 11.4V, 76.15Wh, 6680mAh y 6 celdas. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-apple/bateria-ovaltech-laptop-apple-2-anos-garantia-15-a1707-a1820/",
+        "manualCategoryPath": "computo/accesorios/baterias-laptop/apple/macbook-pro-15-a1707/ovaltech-ota1820",
+        "semanticCategoryPath": "computo/accesorios/baterias-laptop/apple/macbook-pro-15-a1707",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/BATOVL1200/BATOVL1200_full.jpg",
+          "https://www.ovaltech.com.mx/wp-content/uploads/2022/07/OTA1820-LATERAL-300x300.png",
+          "https://www.ovaltech.com.mx/wp-content/uploads/2022/07/OTA1820-ETIQUETA-300x300.png",
+          "https://www.ovaltech.com.mx/wp-content/uploads/2022/07/OTA1820-CONECTOR-300x300.png",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-ota1820-bateria-para-laptop-ota1820-ovaltech.webp"
+        ],
+        "documents": [
+          "https://www.ovaltech.com.mx/wp-content/uploads/2025/01/OT-Catalogo-2025.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "BATOVL1200", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 91.98, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "OTA1820",
+          "compatibleBatteryModel": "A1820",
+          "productType": "Bateria de reemplazo para laptop Apple",
+          "compatibleLaptopModel": "Apple MacBook Pro 15 A1707",
+          "compatibleYears": ["Late 2016", "Mid 2017"],
+          "chemistry": "Li-ion",
+          "voltage": "11.4 V",
+          "energy": "76.15 Wh",
+          "capacity": "6680 mAh",
+          "cellCount": 6,
+          "warranty": "24 meses",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para BATOVL1200. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BATOVL1200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 91.98, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "reviewNotes": "No se localizaron medidas ni peso publicos confiables."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "OvalTech OTA1820", "type": "manufacturer_product", "url": "https://www.ovaltech.com.mx/shop/baterias/ovaltech-apple/bateria-ovaltech-laptop-apple-2-anos-garantia-15-a1707-a1820/" },
+          { "title": "AlterCo OTA1820", "type": "distributor_reference", "url": "https://www.altercomx.com/products/ota1820" },
+          { "title": "OvalTech catalogo 2025", "type": "manufacturer_catalog", "url": "https://www.ovaltech.com.mx/wp-content/uploads/2025/01/OT-Catalogo-2025.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "052ar1ovt9i1vok",
+      "research": {
+        "confidence": 0.95,
+        "brand": "ASUS",
+        "name": "ASUS PRIME H610M-K D4-CSM tarjeta madre micro ATX Intel H610 LGA1700 DDR4",
+        "description": "Tarjeta madre ASUS PRIME H610M-K D4-CSM micro ATX para Intel LGA1700, chipset H610, memoria DDR4, PCIe 4.0 x16, M.2, SATA, Realtek 1GbE y salidas HDMI/D-Sub oficiales. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-k-d4-csm/",
+        "manualCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/h610/ddr4-micro-atx/asus-prime-h610m-k-d4-csm",
+        "semanticCategoryPath": "computo/componentes/tarjetas-madre/intel-lga1700/h610/ddr4-micro-atx",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MBDASS6230/MBDASS6230_full.jpg",
+          "https://dlcdnwebimgs.asus.com/gain/8e9f3042-c65a-4394-bd5e-b68925ad605a/w800",
+          "https://dlcdnwebimgs.asus.com/gain/bfbc3cc1-56c9-4e6c-8ec2-35e231547c1a/w800",
+          "https://dlcdnwebimgs.asus.com/gain/3d77f9a6-cd2d-4f49-862c-fc13e9d11128/w800"
+        ],
+        "documents": [
+          "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1700/PRIME%20H610M-K%20D4/E19433_PRIME_H610M-K_D4_UM_WEB.pdf?model=prime+h610m-k+d4-csm",
+          "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-k-d4-csm/helpdesk_manual?model2Name=PRIME-H610M-K-D4-CSM"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "MBDASS6230", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 60.28, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "PRIME H610M-K D4-CSM",
+          "ean": "4711081565529",
+          "upc": "195553565523",
+          "productType": "Tarjeta madre micro ATX",
+          "chipset": "Intel H610",
+          "socket": "Intel LGA1700",
+          "memory": "2 x DIMM DDR4, max 64GB",
+          "expansionSlots": ["1 x PCIe 4.0 x16", "1 x PCIe 3.0 x1"],
+          "storage": ["1 x M.2 Key M PCIe 3.0 x4/SATA", "4 x SATA 6Gb/s"],
+          "network": "Realtek 1Gb Ethernet",
+          "videoOutputs": ["HDMI", "D-Sub"],
+          "videoOutputCaveat": "La evidencia proveedor mencionaba DP; la ficha oficial ASUS lista HDMI y D-Sub.",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para MBDASS6230. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "MBDASS6230", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 60.28, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "23.4 x 20.3 cm", "weight": "Unknown", "formFactor": "micro ATX" },
+        "sourceRefs": [
+          { "title": "ASUS PRIME H610M-K D4-CSM tech specs", "type": "manufacturer_specs", "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-k-d4-csm/techspec/" },
+          { "title": "ASUS PRIME H610M-K D4-CSM", "type": "manufacturer_product", "url": "https://www.asus.com/motherboards-components/motherboards/prime/prime-h610m-k-d4-csm/" },
+          { "title": "ElevenKomputer EAN reference", "type": "retailer_reference", "url": "https://elevenkomputer.com/motherboard-asus/6208-mb-asus-prime-h610m-k-d4-csm-lga1700-ddr4.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "056tzpgm7p06vzz",
+      "research": {
+        "confidence": 0.95,
+        "brand": "APC by Schneider Electric",
+        "name": "APC SRT192BP paquete de baterias externo Smart-UPS SRT 192V para 5kVA y 6kVA",
+        "description": "Paquete de baterias externo APC SRT192BP para Smart-UPS On-Line SRT de 5kVA y 6kVA, 192V, 3U, rack/torre, con baterias de plomo-acido reemplazables. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://www.apc.com/us/en/product/SRT192BP/apc-smartups-online-srt-battery-pack-for-5-6kva-extended-runtime-model-192v/",
+        "manualCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/192v/apc-srt192bp",
+        "semanticCategoryPath": "energia/no-breaks-ups/accesorios/bancos-baterias/rack-torre/192v",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9786848",
+          "https://cdn.blueally.com/apcguard/images/SRT192BP_hero.jpg",
+          "https://cdn.blueally.com/apcguard/images/SRT192BP_gallery_1.jpg",
+          "https://cdn.blueally.com/apcguard/images/SRT192BP_gallery_2.jpg",
+          "https://cdn.blueally.com/apcguard/images/SRT192BP_gallery_3.jpg"
+        ],
+        "documents": [
+          "https://cdn.blueally.com/apcguard/datasheets/SRT192BP_datasheet.pdf",
+          "https://www.se.com/us/en/download/document/SPD_SCON-9DTPZ9_EN/",
+          "https://cdn.blueally.com/apcguard/datasheets/SRT192BP_eol_manual.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "BATAPC420", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1154.52, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "FR-1117", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1160.36, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "SRT192BP",
+          "gtin": "731304301769",
+          "productType": "Paquete de baterias externo para UPS",
+          "compatibleUpsClass": "APC Smart-UPS SRT On-Line 5kVA/6kVA",
+          "batteryVoltage": "192V",
+          "batteryType": "Lead-acid",
+          "batteryCapacity": "10Ah",
+          "replacementBattery": "APCRBC140",
+          "rackUnits": "3U",
+          "mounting": ["rack", "torre"],
+          "warranty": "24 meses",
+          "providerBranchSummary": "CTOnline BATAPC420 y CVA FR-1117 reportan stock 0. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BATAPC420", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1154.52, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "FR-1117", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1160.36, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "432 x 130 x 682.7 mm", "weight": "91 kg", "packageDimensions": "420 x 600 x 1000 mm", "packageWeight": "101.5 kg" },
+        "sourceRefs": [
+          { "title": "APC SRT192BP", "type": "manufacturer_product", "url": "https://www.apc.com/us/en/product/SRT192BP/apc-smartups-online-srt-battery-pack-for-5-6kva-extended-runtime-model-192v/" },
+          { "title": "SRT192BP datasheet", "type": "manufacturer_datasheet", "url": "https://cdn.blueally.com/apcguard/datasheets/SRT192BP_datasheet.pdf" },
+          { "title": "Schneider installation guide page", "type": "manufacturer_document", "url": "https://www.se.com/us/en/download/document/SPD_SCON-9DTPZ9_EN/" }
+        ]
+      }
+    },
+    {
+      "product_id": "059dqwd4inf3g17",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Tripp Lite by Eaton",
+        "name": "Tripp Lite P512-006 cable VGA HD15 macho a macho 1.83m negro",
+        "description": "Cable pasivo VGA/SVGA Tripp Lite P512-006 de 6ft/1.83m, HD15 macho a HD15 macho, conectores chapados en oro, conductor de cobre, blindaje EMI/RFI y color negro. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://assets.tripplite.com/product-pdfs/en/p512006.pdf",
+        "manualCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-8m/tripp-lite-p512-006",
+        "semanticCategoryPath": "accesorios/cables-adaptadores/video-vga/hd15-1-8m",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CABTRL1580/CABTRL1580_full.jpg",
+          "https://cdn-images.av-iq.com/products/enlarge/P512006.jpg"
+        ],
+        "documents": [
+          "https://assets.tripplite.com/product-pdfs/en/p512006.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CABTRL1580", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 94.94, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "P512-006",
+          "upc": "037332012364",
+          "productType": "Cable VGA/SVGA pasivo",
+          "length": "6 ft / 1.83 m / 72 in",
+          "connectors": ["HD15 male", "HD15 male"],
+          "connectorFinish": "gold-plated",
+          "conductor": "copper",
+          "shielding": "foil-shielded EMI/RFI",
+          "color": "black",
+          "rohs": true,
+          "warranty": "lifetime limited warranty",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CABTRL1580. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CABTRL1580", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 94.94, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "1.83 m cable length", "weight": "Unknown", "packageDimensions": "21.59 x 17.53 x 1.27 cm", "packageWeight": "0.15 kg" },
+        "sourceRefs": [
+          { "title": "Tripp Lite P512-006 PDF", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/p512006.pdf" },
+          { "title": "AV-iQ P512-006", "type": "retailer_reference", "url": "https://www.av-iq.com/avcat/ctl1642/index.cfm?manufacturer=tripp-lite&product=p512-006" },
+          { "title": "Exertis Almo P512-006", "type": "distributor_reference", "url": "https://www.exertisalmo.com/productdetails/TRIPP/P512-006" }
+        ]
+      }
+    },
+    {
+      "product_id": "05b72judkoeawos",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Honeywell",
+        "name": "Honeywell Xenon XP 1952G-BF lector de codigo de barras inalambrico 1D/2D/PDF417/QR sin bateria",
+        "description": "Lector area-imager inalambrico Honeywell Xenon XP 1952G-BF sin bateria, con supercapacitores, Bluetooth 4.2, alcance 10m, lectura 1D/PDF417/2D/QR y base de carga. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://automation.honeywell.com/mx/es/products/productivity-solutions/barcode-scanners/general-purpose-handheld/xenon-xp-1952g-battery-free-scanner",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/inalambricos/2d/honeywell-xenon-xp-1952g-bf",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/inalambricos/2d",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/LCTMTR1840/LCTMTR1840_full.jpg",
+          "https://s7d1.scene7.com/is/image/Honeywell65/sps-ppr-formfactor01-xenon1952g-bf-1",
+          "https://s7d1.scene7.com/is/image/Honeywell65/sps-ppr-formfactor03-xenon1952g-bf-1",
+          "https://s7d1.scene7.com/is/image/Honeywell65/sps-ppr-formfactor04-xenon1952g-bf-1"
+        ],
+        "documents": [
+          "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/barcode-scanners/general-purpose-handheld/1952g/documents/sps-ppr-xenon-xp-1952g-bf-general-duty-scanner-data-sheet-en.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "LCTMTR1840", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 567.39, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "Xenon XP 1952G-BF",
+          "productType": "Lector de codigo de barras area-imager inalambrico sin bateria",
+          "decodeCapability": ["1D", "PDF417", "2D", "QR", "Postal", "Digimarc", "DotCode", "OCR"],
+          "sensor": "1280 x 800 pixel array",
+          "wireless": "Bluetooth 4.2, 2.4GHz ISM clase 2",
+          "wirelessRange": "10 m linea de vista",
+          "powerStorage": "Supercapacitores, battery-free",
+          "chargeTime": "menos de 120 s USB estandar; menos de 30 s con adaptador alimentado",
+          "interfaces": ["USB", "Keyboard Wedge", "RS-232", "IBM 46xx RS485"],
+          "sealing": "Scanner IP52, base IP41",
+          "warranty": "3 anos scanner, 5 anos supercapacitor",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para LCTMTR1840. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "LCTMTR1840", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 567.39, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "104 x 71 x 160 mm scanner; 132 x 102 x 81 mm base", "weight": "195 g scanner; 180 g base" },
+        "sourceRefs": [
+          { "title": "Honeywell Xenon XP 1952G-BF MX", "type": "manufacturer_product", "url": "https://automation.honeywell.com/mx/es/products/productivity-solutions/barcode-scanners/general-purpose-handheld/xenon-xp-1952g-battery-free-scanner" },
+          { "title": "Honeywell 1952G-BF datasheet", "type": "manufacturer_datasheet", "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/barcode-scanners/general-purpose-handheld/1952g/documents/sps-ppr-xenon-xp-1952g-bf-general-duty-scanner-data-sheet-en.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "05ecv8dh4vdbyrw",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Dahua",
+        "name": "Dahua DHI-LM27-P301A monitor profesional 27 QHD IPS USB-C 65W ajustable",
+        "description": "Monitor profesional Dahua DHI-LM27-P301A de 27 pulgadas QHD IPS, USB-C con carga 65W, HDMI, DisplayPort, ergonomia ajustable, VESA 75 y cuidado visual. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Commercial-Series/LM27-P301A",
+        "manualCategoryPath": "computo/monitores/profesionales/27-qhd-usb-c-65w/dahua-dhi-lm27-p301a",
+        "semanticCategoryPath": "computo/monitores/profesionales/27-qhd-usb-c-65w",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10380317",
+          "https://material.dahuasecurity.com/uploads/image/20221028/LM24271_thumb.png",
+          "https://material.dahuasecurity.com/uploads/image/20221020/LM27-P301A_2_thumb.png",
+          "https://material.dahuasecurity.com/uploads/image/20221020/LM27-P301A_4_thumb.png",
+          "https://material.dahuasecurity.com/uploads/image/20221020/LM27-P301A_10_thumb.png"
+        ],
+        "documents": [
+          "https://material.dahuasecurity.com/uploads/soft/20221020/DHI-LM27-P301A_Datasheet-2022.10.13.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MNL-2391", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 276.98, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "DHI-LM27-P301A",
+          "productType": "Monitor comercial/profesional",
+          "screenSize": "27 in",
+          "panel": "IPS",
+          "resolution": "2560 x 1440 QHD",
+          "refreshRate": "100 Hz en pagina actual; datasheet 2022 lista 75 Hz",
+          "brightness": "350 cd/m2 max; proveedor menciona 320 nits",
+          "contrastRatio": "1000:1",
+          "colorGamut": "99% sRGB typ",
+          "ports": ["HDMI", "DisplayPort", "USB-C 65W", "audio out"],
+          "ergonomics": "Tilt, swivel, pivot, altura 120mm, VESA 75 x 75",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MNL-2391. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MNL-2391", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 276.98, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "613.3 x 367.3 x 64.9 mm", "weight": "5.9 kg", "packageDimensions": "915 x 454 x 163 mm", "packageWeight": "8.23 kg" },
+        "sourceRefs": [
+          { "title": "Dahua LM27-P301A", "type": "manufacturer_product", "url": "https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Commercial-Series/LM27-P301A" },
+          { "title": "Dahua DHI-LM27-P301A datasheet", "type": "manufacturer_datasheet", "url": "https://material.dahuasecurity.com/uploads/soft/20221020/DHI-LM27-P301A_Datasheet-2022.10.13.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "05mypszykbab6ik",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Nextep",
+        "name": "Nextep NE-128 perforadora manual de oficina 1 orificio 6 mm",
+        "description": "Perforadora manual de oficina Nextep NE-128 de 1 orificio de 6mm para uso escolar, papeleria y oficina. Fuentes publicas confirman EAN y caja master; CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://nextep.com.mx/",
+        "manualCategoryPath": "oficina/equipo-oficina/perforadoras/1-orificio-6mm/nextep-ne-128",
+        "semanticCategoryPath": "oficina/equipo-oficina/perforadoras/1-orificio-6mm",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCNTE200/ACCNTE200_1_full.jpg",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/NXPPERAB005_ch.png",
+          "https://contenidos.exel.com.mx/Repositorio/XLStore/FTP/Contenidos/Imagenes/Productos/NXPPERAB005_2_ch.png"
+        ],
+        "documents": [
+          "https://globaloffice.com.mx/index.php/app/producto/pdf/ne-128"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCNTE200", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 19.89, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "NE-128",
+          "ean": "7501811272561",
+          "exelSku": "NXPPERAB005",
+          "productType": "Perforadora manual de oficina",
+          "holes": "1 orificio",
+          "holeDiameter": "6 mm",
+          "mechanism": "manual",
+          "useCase": ["oficina", "escolar", "papeleria"],
+          "masterCarton": "240 piezas",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCNTE200. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCNTE200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 19.89, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "reviewNotes": "No se localizaron medidas, peso ni capacidad de hojas oficiales publicas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Exel NXPPERAB005", "type": "distributor_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/NXPPERAB005" },
+          { "title": "Global Office NE-128", "type": "retailer_reference", "url": "https://globaloffice.com.mx/index.php/app/detalle/producto/papeleria-y-art-de-oficina/perforadora-nextep-1-orificio-6mm-ne-128/ne-128" },
+          { "title": "Intercompras NE-128", "type": "retailer_reference", "url": "https://intercompras.com/p/perforadora-nextep-ne-orificio-6mm-230914" }
+        ]
+      }
+    }
+  ]
+}
