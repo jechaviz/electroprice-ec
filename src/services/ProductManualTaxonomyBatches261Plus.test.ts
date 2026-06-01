@@ -170,6 +170,19 @@ const batch273Cases = [
   ["xFusion 0231YBFURR-XF SER-2443 2288H V7 servidor 2U Xeon Silver 4510 64GB DDR5", "X-FUSION", "computo/servidores/rack/2u/dual-socket/xfusion-2288h-v7-0231ybfurr-xf", "laptops", {}],
 ] as const;
 
+const batch274Cases = [
+  ["Intellinet 163682 ACCITL5500 PDU inteligente 1U rack 19 8 C13 16A UPC 766623163682", "INTELLINET", "energia/pdu-rack/inteligentes/1u-16a-8-c13/intellinet-163682", "power", {}],
+  ["Balam Rush BR-931410 MOUBLR100 Helium GM980 mouse gaming alambrico USB 12000 DPI RGB", "BALAM RUSH", "computo/perifericos/mouse/gaming/alambricos-usb/12000-dpi/balam-rush-helium-gm980-br-931410", "gaming", {}],
+  ["Xerox 106R02741 CARXRX5260 toner negro extra alta capacidad WorkCentre 3655 25900 paginas", "XEROX", "impresion/consumibles/toner-laser/xerox/workcentre-3655/106r02741-extra-alta-capacidad", "printers_scanners", {}],
+  ["Hikvision DS-2CD2183G2-I CAMHKV3640 camara domo IP PoE 8MP AcuSense IR exterior", "HIKVISION", "seguridad/cctv/camaras-ip-poe/domo/8mp-acusense-ir/hikvision-ds-2cd2183g2-i", "cameras", {}],
+  ["Epson C11CH38301 PR-2720 SureColor P700 impresora fotografica 13 pulgadas", "EPSON", "impresion/impresoras/inkjet-fotograficas/gran-formato/13-pulgadas/epson-surecolor-p700-c11ch38301", "printers_scanners", {}],
+  ["BRobotix 764625 BOCRBT380 audifono aislador de ruido para iPhone 3.5mm gris", "BROBOTIX", "audio/audifonos/alambricos-3-5mm/in-ear-manos-libres/brobotix-764625-iphone-gris", "headphones", {}],
+  ["Mercusys MR50G ROUMER130 router gigabit inalambrico doble banda AC1900", "MERCUSYS", "redes/routers/wifi-5/ac1900-gigabit/mercusys-mr50g", "networking", {}],
+  ["HiLook THC-B120-MC CV-1769 camara bala TurboHD 2MP 103 grados IP66 IR 20m", "HIKVISION", "seguridad/cctv/camaras-turbohd/bullet/2mp-ir-exterior-ip66/hilook-thc-b120-mc", "cameras", {}],
+  ["HPE Aruba Q9Y60AAE SWS-4640-CTO Central E-STU AP Foundation 60 meses", "HEWLETT PACKARD ENTERPRISE", "software/licencias/hpe-aruba/central/ap-foundation/5-anos/e-stu/q9y60aae", "software", {}],
+  ["Hikvision NK42W0H-1T(WD)(D) KITHKV240 kit IP WiFi 4 camaras 2MP 1TB H.265", "HIKVISION", "seguridad/cctv/kits-videovigilancia/ip-wifi/4-canales-2mp-1tb/hikvision-nk42w0h-1t-wd-d", "cameras", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -244,6 +257,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch273Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch274Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

@@ -1,0 +1,410 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b274-2026-06-01",
+  "cycle": 3,
+  "batch": 274,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "09wb50dk7odqdxw",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Intellinet",
+        "name": "PDU inteligente Intellinet 163682 1U 8 C13 rack 19 pulgadas",
+        "description": "Barra PDU inteligente Intellinet 163682 para rack de 19 pulgadas, 1U, 8 salidas IEC320 C13, entrada IEC320 C20, 16A, puerto LAN RJ45, medicion de corriente/voltaje y sensores de temperatura/humedad. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://es.intellinetnetwork.eu/products/intellinet-es-barra-multicontactos-de-8-salidas-para-montaje-en-rack-de-19-163682",
+        "manualCategoryPath": "energia/pdu-rack/inteligentes/1u-16a-8-c13/intellinet-163682",
+        "semanticCategoryPath": "energia/pdu-rack/inteligentes/1u-16a-8-c13",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCITL5500/ACCITL5500_full.jpg"],
+        "documents": ["https://www.unicom.mx/ecommerce/uploads/RDINT163682.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCITL5500", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 182.14, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "163682",
+          "upc": "766623163682",
+          "productType": "PDU inteligente para rack",
+          "formFactor": "1U rack 19 pulgadas",
+          "input": "IEC320 C20, 90-240 V 50/60 Hz",
+          "outputs": "8 x IEC320 C13",
+          "rating": "16 A",
+          "network": "1 x RJ45 LAN",
+          "monitoring": ["Corriente", "Voltaje", "Temperatura", "Humedad", "Interfaz web"],
+          "material": "Metal",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCITL5500. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCITL5500", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 182.14, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "442 x 119 x 44.5 mm", "weight": "2.06 kg" },
+        "sourceRefs": [
+          { "title": "Intellinet 163682 product page", "type": "manufacturer_product", "url": "https://es.intellinetnetwork.eu/products/intellinet-es-barra-multicontactos-de-8-salidas-para-montaje-en-rack-de-19-163682" },
+          { "title": "Intellinet 163682 data sheet", "type": "manufacturer_datasheet", "url": "https://www.unicom.mx/ecommerce/uploads/RDINT163682.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "09ytzfrp1kww2mr",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Balam Rush",
+        "name": "Mouse gaming Balam Rush Helium GM980 BR-931410 USB 12000 DPI",
+        "description": "Mouse gaming alambrico Balam Rush Helium GM980 BR-931410 con sensor optico, USB, 6 niveles DPI hasta 12000, iluminacion RGB, 6 botones mas scroll, cable de 1.8 m y compatibilidad Windows, Linux, macOS, Xbox One y PS4. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://balamrush.com/products/mouse-gamer-helium-gm980",
+        "manualCategoryPath": "computo/perifericos/mouse/gaming/alambricos-usb/12000-dpi/balam-rush-helium-gm980-br-931410",
+        "semanticCategoryPath": "computo/perifericos/mouse/gaming/alambricos-usb/12000-dpi",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://balamrush.com/cdn/shop/files/BR-931410_01_1000PX.webp?v=1692213922&width=1000", "https://static.ctonline.mx/imagenes/MOUBLR100/MOUBLR100_3_full.jpg"],
+        "documents": ["https://cdn.shopify.com/s/files/1/0805/2480/4383/files/Ficha_tecnica_BR-931410.pdf?v=1692975253"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "MOUBLR100", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 332.22, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "BR-931410",
+          "productLine": "Helium GM980",
+          "ean": "7506215931410",
+          "productType": "Mouse gaming alambrico",
+          "sensor": "Optico",
+          "dpi": "1000, 1200, 2400, 4800, 8000, 12000",
+          "connection": "USB alambrico",
+          "buttons": "6 botones + scroll",
+          "lighting": "RGB",
+          "cableLength": "1.8 m",
+          "compatibility": ["Windows", "Linux", "macOS", "Xbox One", "PS4"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para MOUBLR100. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "MOUBLR100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 332.22, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "13.1 x 4.2 x 7.2 cm", "weight": "160 g" },
+        "sourceRefs": [
+          { "title": "Balam Rush Helium GM980 product page", "type": "manufacturer_product", "url": "https://balamrush.com/products/mouse-gamer-helium-gm980" },
+          { "title": "Balam Rush BR-931410 ficha tecnica", "type": "manufacturer_datasheet", "url": "https://fichastecnicas.pchmayoreo.com/BR-931410.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "09zjgt0i4hk73zc",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Xerox",
+        "name": "Toner Xerox 106R02741 negro extra alta capacidad WorkCentre 3655",
+        "description": "Cartucho original Xerox 106R02741 negro extra alta capacidad para WorkCentre 3655, rendimiento declarado de 25,900 paginas conforme ISO/IEC 19752. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.xerox.com/es-ec/supplies-and-accessories/106R02741/workcentre-3655",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/xerox/workcentre-3655/106r02741-extra-alta-capacidad",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/xerox/workcentre-3655",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CARXRX5260/CARXRX5260_full.jpg"],
+        "documents": ["https://www.xerox.com/es-ec/supplies-and-accessories/106R02741/workcentre-3655"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CARXRX5260", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 52.53, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "106R02741",
+          "upc": "095205507751",
+          "productType": "Toner laser negro original",
+          "color": "Negro",
+          "yield": "25,900 paginas promedio",
+          "yieldStandard": "ISO/IEC 19752",
+          "compatibility": ["Xerox WorkCentre 3655"],
+          "providerFeedAliasConflict": "La fila sincronizada traia providerSku ACCXRX670, pero el titulo fuente, la imagen CTOnline y la referencia del producto corresponden al toner CARXRX5260; la curacion conserva CARXRX5260 como SKU comercial del toner y stock 0.",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CARXRX5260. El campo historico DFA:2 no se conserva como disponible porque la oferta sincronizada actual esta en cero.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CARXRX5260", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 52.53, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Consumible Xerox para WorkCentre 3655", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Xerox 106R02741 WorkCentre 3655", "type": "manufacturer_product", "url": "https://www.xerox.com/es-ec/supplies-and-accessories/106R02741/workcentre-3655" }
+        ]
+      }
+    },
+    {
+      "product_id": "0a27sv4pyzu4ejq",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Hikvision",
+        "name": "Camara domo IP Hikvision DS-2CD2183G2-I 8MP AcuSense IR",
+        "description": "Camara IP PoE domo Hikvision DS-2CD2183G2-I AcuSense de 8MP, sensor 1/2.8 CMOS, resolucion 3840 x 2160, lente fija 2.8 mm o 4 mm, IR hasta 30 m, WDR 120 dB, H.265+, clasificacion humano/vehiculo, IP67 e IK10. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2183g2-i-s-/?subName=DS-2CD2183G2-I",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/8mp-acusense-ir/hikvision-ds-2cd2183g2-i",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/domo/8mp-acusense-ir",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMHKV3640/CAMHKV3640_full.jpg"],
+        "documents": ["https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000000003/S000000025/OFR007888/M000037917/Data_Sheet/DS-2CD2183G2-IS_Datasheet_V5.5.113_20230303.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAMHKV3640", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 117.7, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "DS-2CD2183G2-I",
+          "ean": "6941264095491",
+          "productType": "Camara IP PoE domo",
+          "resolution": "8MP, 3840 x 2160",
+          "sensor": "1/2.8 pulgadas Progressive Scan CMOS",
+          "lens": "Fija 2.8 mm o 4 mm",
+          "irRange": "Hasta 30 m",
+          "wdr": "120 dB",
+          "compression": "H.265+",
+          "protection": ["IP67", "IK10"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAMHKV3640. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAMHKV3640", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 117.7, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "110.8 mm diametro x 84.7 mm", "weight": "Aprox. 510 g" },
+        "sourceRefs": [
+          { "title": "Hikvision DS-2CD2183G2-I product page", "type": "manufacturer_product", "url": "https://www.hikvision.com/en/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2183g2-i-s-/?subName=DS-2CD2183G2-I" },
+          { "title": "Hikvision DS-2CD2183G2-I(S) data sheet", "type": "manufacturer_datasheet", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000000003/S000000025/OFR007888/M000037917/Data_Sheet/DS-2CD2183G2-IS_Datasheet_V5.5.113_20230303.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0a3k5cwylbz2e1t",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Epson",
+        "name": "Impresora fotografica Epson SureColor P700 C11CH38301 13 pulgadas",
+        "description": "Impresora fotografica Epson SureColor P700 C11CH38301 de 13 pulgadas con tecnologia MicroPiezo AMC de 10 canales, tinta pigmentada UltraChrome PRO10 de 10 colores, resolucion 5760 x 1440 dpi, USB 3.0, Ethernet, Wi-Fi 2.4/5 GHz, Wi-Fi Direct y soporte de papel hasta 13 x 19 pulgadas. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-trabajo/Impresoras/Gran-Formato/Impresora-Epson-SureColor-P700/p/C11CH38301",
+        "manualCategoryPath": "impresion/impresoras/inkjet-fotograficas/gran-formato/13-pulgadas/epson-surecolor-p700-c11ch38301",
+        "semanticCategoryPath": "impresion/impresoras/inkjet-fotograficas/gran-formato/13-pulgadas",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=SureColor_P700_Product_09_690x460&clid=SAPDAM&id=a82514d052a5284f494c2c8e20ca3171233d8752&prclid=banner&prid=1200Wx1200H&vid=a82514d052a5284f494c2c8e20ca3171233d8752", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10448949", "https://static.ctonline.mx/imagenes/PLOEPS250/PLOEPS250_full.jpg"],
+        "documents": ["https://mediaserver.goepson.com/ImConvServlet/imconv/9b7e4393764e9b7654189fbcd1d7812d0030f2af/original?assetDescr=Ficha-t%C3%A9cnica-SureColor-P700-v2.pdf", "https://epson.com.mx/Para-el-trabajo/Impresoras/Gran-Formato/Impresora-Epson-SureColor-P700/p/C11CH38301"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "PLOEPS250", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 17542.7, "currency": "MXN" },
+          { "wholesalerId": "cva", "sku": "PR-2720", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 17519.43, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "C11CH38301",
+          "productLine": "SureColor P700",
+          "productType": "Impresora inkjet fotografica 13 pulgadas",
+          "printTechnology": "MicroPiezo AMC 10 canales",
+          "ink": "UltraChrome PRO10, 10 colores, cartuchos 25 ml",
+          "resolution": "5760 x 1440 dpi",
+          "maxMedia": "13 x 19 pulgadas hoja cortada; rollo 13 pulgadas",
+          "interfaces": ["USB 3.0", "Ethernet 100Base-T", "Wi-Fi 2.4/5 GHz", "Wi-Fi Direct", "AirPrint"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para PLOEPS250; CVA/Electroprice reporta stock 0 para PR-2720. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "PLOEPS250", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 17542.7, "currency": "MXN" },
+            { "providerId": "cva", "providerSku": "PR-2720", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 17519.43, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "51.6 x 36.8 x 18.5 cm cerrada; 51.6 x 77.0 x 41.9 cm imprimiendo", "weight": "16 kg" },
+        "sourceRefs": [
+          { "title": "Epson Mexico SureColor P700 C11CH38301", "type": "manufacturer_product", "url": "https://epson.com.mx/Para-el-trabajo/Impresoras/Gran-Formato/Impresora-Epson-SureColor-P700/p/C11CH38301" }
+        ]
+      }
+    },
+    {
+      "product_id": "0a5iyfdpk98idaw",
+      "research": {
+        "confidence": 0.88,
+        "brand": "BRobotix",
+        "name": "Audifonos BRobotix 764625 in-ear 3.5mm para iPhone gris",
+        "description": "Audifonos BRobotix 764625 in-ear alambricos para iPhone, color gris/plata, conector 3.5 mm, cable 1.15 m, microfono en linea, control en cable y aislamiento de ruido pasivo. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.mactoner.com.mx/producto/audifono-aislador-de-ruido-para-iphone-brobotix-764625-gris/",
+        "manualCategoryPath": "audio/audifonos/alambricos-3-5mm/in-ear-manos-libres/brobotix-764625-iphone-gris",
+        "semanticCategoryPath": "audio/audifonos/alambricos-3-5mm/in-ear-manos-libres",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://www.cyberpuerta.mx/img/product/S/CP-BROBOTIX-764625-1.jpg", "https://static.ctonline.mx/imagenes/BOCRBT380/BOCRBT380_full.jpg"],
+        "documents": ["https://ctisystems.mx/audifono-aislador-de-ruido-para-iphone-brobotix-764625-gris-alambrico-35-mm-smarthphone-115"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "BOCRBT380", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3.99, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "764625",
+          "ean": "7503027764625",
+          "productType": "Audifonos in-ear alambricos",
+          "color": "Gris / plata",
+          "connector": "3.5 mm",
+          "cableLength": "1.15 m",
+          "microphone": "En linea",
+          "controls": ["Reproducir/Pausar", "Volumen +", "Volumen -"],
+          "compatibilityNote": "Control de volumen orientado a dispositivos Apple segun retail especializado",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para BOCRBT380. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCRBT380", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3.99, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Empaque compacto 6.2 x 6.2 cm segun retail", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Mactoner BRobotix 764625", "type": "retailer_reference", "url": "https://www.mactoner.com.mx/producto/audifono-aislador-de-ruido-para-iphone-brobotix-764625-gris/" },
+          { "title": "CTI Systems BRobotix 764625 ficha", "type": "retailer_reference", "url": "https://ctisystems.mx/audifono-aislador-de-ruido-para-iphone-brobotix-764625-gris-alambrico-35-mm-smarthphone-115" }
+        ]
+      }
+    },
+    {
+      "product_id": "0a64jzjh8suxlsf",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Mercusys",
+        "name": "Router Mercusys MR50G AC1900 Gigabit doble banda",
+        "description": "Router Mercusys MR50G Wi-Fi 5 AC1900 de doble banda, hasta 1300 Mbps en 5 GHz y 600 Mbps en 2.4 GHz, 6 antenas fijas, Beamforming, MU-MIMO 3x3, Smart Connect, IPv6, 1 WAN Gigabit y 2 LAN Gigabit. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.mercusys.com/es/product/wifi-router/mr50g/v1/",
+        "manualCategoryPath": "redes/routers/wifi-5/ac1900-gigabit/mercusys-mr50g",
+        "semanticCategoryPath": "redes/routers/wifi-5/ac1900-gigabit",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.mercusys.com/product-image/01_large20200616062916.jpg", "https://static.ctonline.mx/imagenes/ROUMER130/ROUMER130_full.jpg"],
+        "documents": ["https://static.mercusys.com/manual/MR50G%28EU%291.0-datasheet20210702090905.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ROUMER130", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 21.62, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "MR50G",
+          "upc": "840030702457",
+          "productType": "Router Wi-Fi 5 Gigabit",
+          "wireless": "AC1900, 600 Mbps 2.4 GHz + 1300 Mbps 5 GHz",
+          "antennas": "6 omnidireccionales fijas",
+          "features": ["Beamforming", "MU-MIMO 3x3", "Smart Connect", "IPv6", "IPTV"],
+          "interfaces": ["1 x WAN Gigabit", "2 x LAN Gigabit"],
+          "power": "12V/1A",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ROUMER130. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ROUMER130", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 21.62, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "175.6 x 157.2 x 45 mm", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Mercusys MR50G product page", "type": "manufacturer_product", "url": "https://www.mercusys.com/es/product/wifi-router/mr50g/v1/" },
+          { "title": "Mercusys MR50G data sheet", "type": "manufacturer_datasheet", "url": "https://static.mercusys.com/manual/MR50G%28EU%291.0-datasheet20210702090905.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0a9v8fh82qgp4mk",
+      "research": {
+        "confidence": 0.94,
+        "brand": "HiLook by Hikvision",
+        "name": "Camara bala HiLook THC-B120-MC TurboHD 2MP 2.8mm IP66",
+        "description": "Camara bala TurboHD HiLook THC-B120-MC de 2MP 1080p, lente fija 2.8 mm, salida TVI/AHD/CVI/CVBS, IR hasta 20 m, DWDR, material metalico, proteccion IP66 y alimentacion 12 VDC. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.hilooksecurity.com/europe/products/hilook-turbo-hd-products/Turbo-HD-Camera/1080P/thc-b120-mc/",
+        "manualCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-ir-exterior-ip66/hilook-thc-b120-mc",
+        "semanticCategoryPath": "seguridad/cctv/camaras-turbohd/bullet/2mp-ir-exterior-ip66",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10417343"],
+        "documents": ["https://www.hikvision.com/content/dam/hikvision/products/S000000036/S000000159/S000000162/S000000283/OFR000389/M000009104/Data_Sheet/Datasheet-of-THC-B120-MC_V1.0.1_20220718.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CV-1769", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 13.12, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "THC-B120-MC",
+          "productType": "Camara bala TurboHD",
+          "resolution": "2MP, 1920 x 1080",
+          "lens": "2.8 mm fija",
+          "fov": "103 grados horizontal",
+          "videoOutput": "TVI/AHD/CVI/CVBS",
+          "irRange": "Hasta 20 m",
+          "features": ["DWDR", "BLC", "Smart IR", "2D DNR"],
+          "protection": "IP66",
+          "material": "Metal",
+          "power": "12 VDC, max. 2.9 W",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CV-1769. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CV-1769", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 13.12, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "165 x 62 x 58 mm", "weight": "400 g" },
+        "sourceRefs": [
+          { "title": "HiLook THC-B120-MC product page", "type": "manufacturer_product", "url": "https://www.hilooksecurity.com/europe/products/hilook-turbo-hd-products/Turbo-HD-Camera/1080P/thc-b120-mc/" },
+          { "title": "Hikvision THC-B120-MC data sheet", "type": "manufacturer_datasheet", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000036/S000000159/S000000162/S000000283/OFR000389/M000009104/Data_Sheet/Datasheet-of-THC-B120-MC_V1.0.1_20220718.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ab4iqais9f6kg0",
+      "research": {
+        "confidence": 0.94,
+        "brand": "HPE Aruba Networking",
+        "name": "Suscripcion HPE Aruba Central AP Foundation 5 anos E-STU Q9Y60AAE",
+        "description": "Suscripcion electronica HPE Aruba Networking Central AP Foundation de 5 anos E-STU, SKU Q9Y60AAE, para administracion cloud de un access point Aruba Central. CVA reporta stock 0.",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/cloud/private-hybrid-cloud/hpe-aruba-networking-connectivity-saas/hpe-aruba-networking-central-ap-foundation-5-year-subscription-e%E2%80%91stu/p/q9y60aae",
+        "manualCategoryPath": "software/licencias/hpe-aruba/central/ap-foundation/5-anos/e-stu/q9y60aae",
+        "semanticCategoryPath": "software/licencias/hpe-aruba/central/ap-foundation/5-anos/e-stu",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10325316"],
+        "documents": ["https://www.hpe.com/psnow/doc/PSN1012839352WWEN.pdf?jumpid=in_pdp-psnow-dds", "https://www.hpe.com/us/en/collaterals/collateral.c05272678.html"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SWS-4640-CTO", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 6337.08, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "Q9Y60AAE",
+          "sku": "SWS-4640-CTO",
+          "productType": "Suscripcion cloud electronica",
+          "service": "HPE Aruba Networking Central AP Foundation",
+          "term": "5 anos / 60 meses",
+          "licenseMetric": "1 access point",
+          "delivery": "Electronica E-STU",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SWS-4640-CTO. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SWS-4640-CTO", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6337.08, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Entrega digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "HPE Store Q9Y60AAE", "type": "manufacturer_product", "url": "https://buy.hpe.com/us/en/cloud/private-hybrid-cloud/hpe-aruba-networking-connectivity-saas/hpe-aruba-networking-central-ap-foundation-5-year-subscription-e%E2%80%91stu/p/q9y60aae" },
+          { "title": "HPE Aruba Networking Central QuickSpecs", "type": "manufacturer_datasheet", "url": "https://www.hpe.com/us/en/collaterals/collateral.c05272678.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "0af5bif1jvobajt",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Hikvision",
+        "name": "Kit Hikvision NK42W0H-1T(WD)(D) Wi-Fi 4 camaras 2MP 1TB",
+        "description": "Kit IP Wi-Fi Hikvision NK42W0H-1T(WD)(D) con NVR inalambrico de 4 canales, disco de 1TB y camaras bullet Wi-Fi 2MP H.265 con microfono integrado, 1920 x 1080, app Hik-Connect y uso exterior. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.hikvision.com/pt-br/products/IP-Products/KIT/Wi-Fi-KIT/nk42w0h-1t-wd--d-/",
+        "manualCategoryPath": "seguridad/cctv/kits-videovigilancia/ip-wifi/4-canales-2mp-1tb/hikvision-nk42w0h-1t-wd-d",
+        "semanticCategoryPath": "seguridad/cctv/kits-videovigilancia/ip-wifi/4-canales-2mp-1tb",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITHKV240/KITHKV240_full.jpg"],
+        "documents": ["https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000001005/S000000035/OFR000064/M000036097/Data_Sheet/NK42W0H-1TWDD_Datasheet_V5.5.120_20230708.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "KITHKV240", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 274.57, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "NK42W0H-1T(WD)(D)",
+          "productType": "Kit IP Wi-Fi 4 camaras",
+          "channels": "4 canales",
+          "storage": "1TB",
+          "cameraResolution": "2MP, 1920 x 1080",
+          "compression": "H.265",
+          "cameraAudio": "Microfono integrado",
+          "network": "Wi-Fi y Ethernet 10/100",
+          "client": ["iVMS-4200", "Hik-Connect"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para KITHKV240. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "KITHKV240", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 274.57, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Camara 175.6 x 73.0 x 89.1 mm", "weight": "Camara 330 g" },
+        "sourceRefs": [
+          { "title": "Hikvision NK42W0H-1T(WD)(D) product page", "type": "manufacturer_product", "url": "https://www.hikvision.com/pt-br/products/IP-Products/KIT/Wi-Fi-KIT/nk42w0h-1t-wd--d-/" },
+          { "title": "Hikvision NK42W0H-1T(WD)(D) data sheet", "type": "manufacturer_datasheet", "url": "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000002/S000001005/S000000035/OFR000064/M000036097/Data_Sheet/NK42W0H-1TWDD_Datasheet_V5.5.120_20230708.pdf" }
+        ]
+      }
+    }
+  ]
+}
