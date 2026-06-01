@@ -196,6 +196,19 @@ const batch275Cases = [
   ["Epson T157320 CAREPS4170 UltraChrome K3 157 cartucho Vivid Magenta R3000", "EPSON", "impresion/consumibles/cartuchos-tinta/epson/ultrachrome-k3/157/t157320-vivid-magenta", "printers_scanners", {}],
 ] as const;
 
+const batch276Cases = [
+  ["Lenovo Legion Tab Gen 3 TB321FU ZAEF0043MX NOT-10354 Snapdragon8 Gen3 8.8 2.5K", "LENOVO", "computo/tabletas/android/gaming/8-8-pulgadas/lenovo-legion-tab-gen-3-zaef0043mx", "tablets", {}],
+  ["Epson T603C00 CAREPS1350 UltraChrome K3 Light Magenta 220 ml UPC 010343865594", "EPSON", "impresion/consumibles/cartuchos-tinta/epson/ultrachrome-k3/t603/t603c00-light-magenta", "printers_scanners", {}],
+  ["Manhattan 355353 CABITL4570 CB-2772 HDMI premium 3.0m 4K60 18Gbps", "MANHATTAN", "accesorios/cables-adaptadores/video-hdmi/premium-4k60/3m/manhattan-355353", "accessories", {}],
+  ["Dahua IPC-HFW2849M-S-B-PRO CAMDAH6770 camara IP bullet 8MP WizColor full color", "DAHUA TECHNOLOGY", "seguridad/cctv/camaras-ip-poe/bullet/8mp-full-color/dahua-ipc-hfw2849m-s-b-pro", "cameras", {}],
+  ["Xbox Series S RRS-00001 XBOXMS540 512GB Robot White UPC 889842651317", "XBOX", "gaming/consolas/xbox/series-s/512gb/xbox-series-s-rrs-00001", "gaming", {}],
+  ["Intel Core i9-12900 BX8071512900 CP-1287 12a Gen 16 cores UHD 770", "INTEL", "computo/componentes/procesadores/intel-core/core-i9/12a-gen/i9-12900-bx8071512900", "components", {}],
+  ["Hikvision DS-1272ZJ-110-TRS ACCHKV4050 montaje pared domo exterior metal", "HIKVISION", "seguridad/cctv/accesorios-montaje/soportes-pared/domo/hikvision-ds-1272zj-110-trs", "cameras", {}],
+  ["Uniview IPC2325LB-ADZK-H CAMUNV110 camara bullet IP PoE 5MP varifocal IR", "UNIVIEW", "seguridad/cctv/camaras-ip-poe/bullet/5mp-varifocal-ir/uniview-ipc2325lb-adzk-h", "cameras", {}],
+  ["Hikvision DS-2CD2743G2-IZS CAMHKV3150 domo IP 4MP AcuSense varifocal 2.8-12mm", "HIKVISION", "seguridad/cctv/camaras-ip-poe/domo/4mp-acusense-varifocal/hikvision-ds-2cd2743g2-izs", "cameras", {}],
+  ["Hikvision DS-2CD2D25G1/M-D/NF CV-1641 camara oculta IP 2MP pinhole 2.8mm", "HIKVISION", "seguridad/cctv/camaras-ip-poe/ocultas/2mp-pinhole/hikvision-ds-2cd2d25g1-m-d-nf", "cameras", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -282,6 +295,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch275Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch276Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
