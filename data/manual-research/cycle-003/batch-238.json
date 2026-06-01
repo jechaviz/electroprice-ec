@@ -1,0 +1,436 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b238-2026-06-01",
+  "cycle": 3,
+  "batch": 238,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "i1q9diqilmibkfl",
+      "research": {
+        "confidence": 0.96,
+        "brand": "GAME FACTOR",
+        "name": "Pasta termica Game Factor TP200 4 g gris 5.15 W/mK con aplicador",
+        "description": "Pasta termica Game Factor TP200 en jeringa de 4 g color gris, conductividad termica 5.15 W/mK y rango operativo -30 a 280 C para CPU, GPU y disipadores.",
+        "manualCategoryPath": "computo/componentes/enfriamiento/pasta-termica/game-factor-tp200-4g",
+        "semanticCategoryPath": "computo/componentes/enfriamiento/pasta-termica",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://gamefactor.mx/detalle/63/tp200",
+        "gallery": [
+          "https://gamefactor.mx/images/cat_articulos/63__imagen_1629753408.png",
+          "https://gamefactor.mx/images/galeria_articulos/TP200-GRY-01.png",
+          "https://gamefactor.mx/images/galeria_articulos/TP200-GRY-02.png",
+          "https://gamefactor.mx/images/galeria_articulos/TP200-GRY-03.png",
+          "https://gamefactor.mx/images/galeria_articulos/TP200-GRY-04.png"
+        ],
+        "documents": [{ "label": "Game Factor TP200 ficha", "type": "datasheet", "url": "https://gamefactor.mx/descargables/tp20036581629824364.pdf" }],
+        "specs": {
+          "brand": "Game Factor",
+          "model": "TP200",
+          "providerSku": "ACCVGO2200",
+          "ean": "7502266679837",
+          "productType": "Pasta termica",
+          "presentation": "Jeringa de 4 g con aplicador",
+          "color": "Gris",
+          "thermalConductivity": "5.15 W/mK",
+          "specificGravity": "3.25 g/cm3",
+          "temperatureRange": "-30 a 280 C",
+          "evaporation": "0.001% a 150 C / 24 h",
+          "dielectricConstant": "5.1 a 100 Hz",
+          "useCases": ["CPU", "GPU", "Disipadores de calor", "Mantenimiento de PC"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; XtremeTecPC Ciudad Obregon y OK Dock Tijuana tambien muestran agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCVGO2200", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4.44, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["XtremeTecPC $139.00 MXN, agotado desde 2025-03-07, Ciudad Obregon Sonora.", "ClaroShop/XtremeTecPC $169.00 MXN, agotado.", "OK Dock Tijuana $105.00 MXN, almacen Tienda OK DOCK 0 disponibles.", "Oasify $113.00 MXN, agotado."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "Contenido neto 4 g" },
+        "sourceRefs": [
+          { "title": "Game Factor TP200", "type": "manufacturer_product", "url": "https://gamefactor.mx/detalle/63/tp200" },
+          { "title": "Game Factor TP200 ficha PDF", "type": "datasheet", "url": "https://gamefactor.mx/descargables/tp20036581629824364.pdf" },
+          { "title": "XtremeTecPC TP200", "type": "retailer_stock", "url": "https://www.xtremetecpc.com/public/producto/pasta-termica-game-factor-tp200-4g-conductividad-5-15w-m-k" },
+          { "title": "OK Dock TP200", "type": "retailer_stock", "url": "https://www.okdock.club/producto/pasta-termica-vorago-tp200" },
+          { "title": "Oasify Game Factor TP200", "type": "retailer_stock", "url": "https://oasify.com/enfriamiento-ventilacion/266467-pasta-termica-game-factor-tp200-30-280-c-4-gramos-7502266679837.html" },
+          { "title": "CTOnline batch ACCVGO2200 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "vjzuyn7zru9teik",
+      "research": {
+        "confidence": 0.91,
+        "brand": "AZOR",
+        "name": "Cera para contar Cuenta Facil Azor 301.64 14 g",
+        "description": "Cera humedecedora Azor 301.64 en envase de 14 g para contar y separar billetes, hojas y documentos en caja, mostrador u oficina.",
+        "manualCategoryPath": "oficina/equipo-oficina/manejo-efectivo/cera-para-contar/azor-301-64",
+        "semanticCategoryPath": "oficina/equipo-oficina/manejo-efectivo/cera-para-contar",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://azor.com.mx/",
+        "gallery": [
+          "https://static.grainger.com/rp/s/is/image/Grainger/413LF3_AS01?hei=800&wid=929",
+          "https://ofixmx.vtexassets.com/arquivos/ids/165284-800-auto?aspect=true&height=auto&v=638417593931430000&width=800"
+        ],
+        "specs": {
+          "brand": "Azor",
+          "model": "301.64",
+          "alternateModel": "64",
+          "providerSku": "ACCAZR720",
+          "ean": "7501428700372",
+          "productType": "Cera humedecedora para conteo",
+          "presentation": "Envase de 14 g / 0.5 oz",
+          "color": "Transparente/blanco; tapa y etiqueta azul/blanco en listados retail",
+          "material": "Compuesto de glicerina / cera",
+          "attributes": ["Antiderrapante", "Para contar billetes y hojas", "Aroma durazno segun retail", "No mancha segun retail"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Intercompras, Ofix y Colmenero muestran disponibilidad publica en Mexico/CDMX.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR720", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 11.75, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["Intercompras $12.00 MXN, 200 disponibles.", "Ofix $13.90 MXN, disponibilidad masiva publicada.", "Altec $18.10 MXN, entrega 1 a 3 dias habiles.", "Colmenero $13.97 MXN, 48 disponibles, retiro CDMX.", "CTI Systems $18.00 MXN, agotado."],
+          "reviewNotes": "El feed lo nombro cera antimaterial; las fuentes cruzadas lo normalizan como cera para contar/cuenta facil. Existen EAN alternos para 301.64 en algunas tiendas; se conserva 7501428700372 del proveedor."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "1-1/4 x 1-1/4 x 13/16 in segun Grainger", "weight": "14 g" },
+        "sourceRefs": [
+          { "title": "TiendaClic Azor 301.64", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/cera-antimaterial-azor-30164" },
+          { "title": "Grainger Mexico cera Azor", "type": "retailer_specs", "url": "https://www.grainger.com.mx/producto/azor-cera-p-contar-transparente-0-5-oz-/p/413lf3" },
+          { "title": "Intercompras cera Azor", "type": "retailer_stock", "url": "https://intercompras.com/p/cera-contar-azor-g-251957" },
+          { "title": "Ofix Cuenta Facil Azor", "type": "retailer_stock", "url": "https://www.ofix.mx/cuenta-facil-14grs---azor-301-64/p" },
+          { "title": "CTI Systems Azor 301.64", "type": "retailer_stock", "url": "https://ctisystems.mx/cera-antimaterial-azor-30164-envase-con-14g" },
+          { "title": "CTOnline batch ACCAZR720 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "box7xhh4sf0qqw3",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "CT Cloud instalacion y configuracion IIS en servidor virtual Windows IIIS",
+        "description": "Servicio intangible CT Cloud IIIS para instalacion y configuracion base del rol IIS en un servidor virtual Windows.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/configuracion-servidores/iis-servidor-virtual/iiis",
+        "semanticCategoryPath": "software/servicios-nube/ct-cloud/configuracion-servidores/iis-servidor-virtual",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctcloud.mx",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO570_full-600x499.jpg"],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "IIIS",
+          "providerSku": "SERCLO570",
+          "productType": "Servicio de nube",
+          "serviceScope": "Instalacion y configuracion base del rol IIS en servidor virtual Windows",
+          "softwareType": "Servicio de Nube",
+          "deliveryType": "Servicio / provisionamiento cloud",
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner CDMX y Cityshop Leon muestran producto agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERCLO570", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1720.01, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $2,595.28 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cityshop lista IIIS agotado bajo software/servicios, Av. Cardadores 260-C Leon Guanajuato."],
+          "reviewNotes": "Se conserva IIIS como codigo de modelo y se normaliza IIS como el rol Windows descrito por la imagen/fuentes."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica; servicio cloud", "weight": "No aplica; servicio cloud" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud IIIS", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/instalacion-y-configuracion-servidor-virtual-ct-cloud-iiis-servicio-de-nube/" },
+          { "title": "Cityshop CT Cloud IIIS", "type": "retailer_stock", "url": "https://cityshop.mx/producto/instalacion-y-configuracion-base-del-rol-en-un-servidor-virtual-windows-iiis" },
+          { "title": "CT Cloud domain", "type": "manufacturer_home", "url": "https://ctcloud.mx" },
+          { "title": "CTOnline batch SERCLO570 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bcd0ap8q8z72zef",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "CT Cloud instalacion VPN cliente-servidor VPNCS",
+        "description": "Servicio intangible CT Cloud VPNCS para instalacion de una VPN cliente-servidor en ambiente cloud.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/redes-vpn/cliente-servidor/vpncs",
+        "semanticCategoryPath": "software/servicios-nube/ct-cloud/redes-vpn/cliente-servidor",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctcloud.mx",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO580_full-600x499.jpg"],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "VPNCS",
+          "providerSku": "SERCLO580",
+          "productType": "Servicio de nube",
+          "serviceScope": "Instalacion VPN cliente-servidor",
+          "softwareType": "Servicio de Nube",
+          "deliveryType": "Servicio / provisionamiento cloud",
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner CDMX y Cityshop Leon muestran agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERCLO580", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 238.89, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $361.75 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cityshop marca CT Cloud lista VPNCS agotado, precio publico $299.00 MXN."],
+          "reviewNotes": "No se encontro ficha publica de protocolo, usuarios incluidos, SLA u horas de soporte."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica; servicio cloud", "weight": "No aplica; servicio cloud" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud VPNCS", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/instalacion-vpn-cliente-servidor-ct-cloud-vpncs-servicio-de-nube/" },
+          { "title": "Cityshop marca CT Cloud", "type": "retailer_brand", "url": "https://cityshop.mx/marca/ct-cloud" },
+          { "title": "CT Cloud domain", "type": "manufacturer_home", "url": "https://ctcloud.mx" },
+          { "title": "CTOnline batch SERCLO580 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "wp7hdc15ap026ln",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "Certificado SSL Standard CT Cloud CSSLSTD",
+        "description": "Servicio intangible CT Cloud CSSLSTD para certificado SSL Standard dentro de la oferta de servicios de nube CT Cloud.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/seguridad-web/certificados-ssl/standard/csslstd",
+        "semanticCategoryPath": "software/servicios-nube/ct-cloud/seguridad-web/certificados-ssl/standard",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctcloud.mx",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO600_full-600x499.jpg"],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "CSSLSTD",
+          "providerSku": "SERCLO600",
+          "productType": "Certificado SSL/TLS",
+          "certificateType": "Standard",
+          "serviceScope": "Certificado SSL Standard; probablemente dominio unico, CA/vigencia/SAN no publicados",
+          "softwareType": "Servicio de Nube",
+          "deliveryType": "Servicio digital",
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner CDMX y Cityshop Leon muestran agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERCLO600", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2866.68, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $4,324.46 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cityshop $3,559.00 MXN, stock 0, agotado.", "CT Cloud opera servicios cloud de CT Internacional con senales publicas de data center en Queretaro."],
+          "reviewNotes": "La imagen/ficha confirma Standard y SERCLO600; no asumir wildcard ni instalacion incluida."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica; certificado digital", "weight": "No aplica; certificado digital" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud CSSLSTD", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/certificado-ssl-ct-cloud-csslstd-servicio-de-nube/" },
+          { "title": "Cityshop CT Cloud CSSLSTD", "type": "retailer_stock", "url": "https://cityshop.mx/producto/certificado-ssl-ct-cloud-csslstd-servicio-de-nube" },
+          { "title": "Infochannel CT Cloud", "type": "manufacturer_context", "url": "https://infochannel.info/ct-impulsa-soluciones-en-la-nube-a-traves-de-ct-cloud/" },
+          { "title": "CTOnline batch SERCLO600 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "j1avmacwebdq95j",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "Certificado SSL Wildcard CT Cloud CSSLWDCD",
+        "description": "Servicio intangible CT Cloud CSSLWDCD para certificado SSL Wildcard orientado a dominios y subdominios dentro de la oferta de nube CT Cloud.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/seguridad-web/certificados-ssl/wildcard/csslwdcd",
+        "semanticCategoryPath": "software/servicios-nube/ct-cloud/seguridad-web/certificados-ssl/wildcard",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctcloud.mx",
+        "gallery": ["https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO610_full-600x499.jpg"],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "CSSLWDCD",
+          "providerSku": "SERCLO610",
+          "productType": "Certificado SSL/TLS",
+          "certificateType": "Wildcard",
+          "serviceScope": "Certificado SSL Wildcard; normalmente cubre subdominios de primer nivel, CA/vigencia/SAN no publicados",
+          "softwareType": "Servicio de Nube",
+          "deliveryType": "Servicio digital",
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner CDMX, Cityshop Leon, ConexionPC Hermosillo y Expercom Culiacan muestran senales publicas de agotado/aviso.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERCLO610", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10300.9, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $15,535.27 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cityshop $12,789.00 MXN, stock 0, agotado.", "ConexionPC Hermosillo $14,057.73 MXN, agotado.", "Expercom Culiacan muestra notificarme existencias sin precio."],
+          "reviewNotes": "La imagen/ficha confirma Wildcard y SERCLO610; no se verifico CA, DV/OV, SAN, dominio raiz o instalacion incluida."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica; certificado digital", "weight": "No aplica; certificado digital" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud CSSLWDCD", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/certificado-ssl-ct-cloud-csslwdcd-servicio-de-nube/" },
+          { "title": "Expercom CT Cloud CSSLWDCD", "type": "retailer_stock", "url": "https://www.expercom.mx/producto/certificado-ssl-ct-cloud-csslwdcd" },
+          { "title": "DigiCert Wildcard SSL reference", "type": "technical_reference", "url": "https://www.digicert.com/tls-ssl/wildcard-ssl-certificates" },
+          { "title": "CTOnline batch SERCLO610 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "tewjlb26oxl0pf8",
+      "research": {
+        "confidence": 0.95,
+        "brand": "WILSON JONES",
+        "name": "Separador numerado Wilson Jones P1366 carta 31 divisiones con pestanas plastificadas",
+        "description": "Separador numerado Wilson Jones P1366 tamano carta con 31 divisiones, pestanas plastificadas multicolor, 5 perforaciones reforzadas y tabla de titulos.",
+        "manualCategoryPath": "oficina/papeleria/archivo/separadores-indices/carta/numericos/31-divisiones/wilson-jones-p1366",
+        "semanticCategoryPath": "oficina/papeleria/archivo/separadores-indices/carta/numericos/31-divisiones",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://accomexico.com/productos/227",
+        "gallery": [
+          "https://api.accomexico.com//uploads/producto/imagenes/P1366_2.jpg",
+          "https://api.accomexico.com//uploads/producto/imagenes/P1366_3.jpg",
+          "https://www.exel.com.mx/imgProducto/ACPSEPAB026.png"
+        ],
+        "specs": {
+          "brand": "Wilson Jones",
+          "brandOwner": "ACCO",
+          "model": "P1366",
+          "providerSku": "ACCACO020",
+          "upc": "078910005095",
+          "productType": "Separador numerado para carpeta",
+          "size": "Carta",
+          "divisions": 31,
+          "tabs": "Pestanas plastificadas multicolor",
+          "holes": "5 perforaciones reforzadas para carpetas de 2 y 3 arillos",
+          "material": "Papel bristol segun retail",
+          "includes": ["Tabla de titulos personalizable"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; GlobalOffice publica almacen Mexico externo y Colmenero CDMX muestra disponibilidad.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCACO020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 90.21, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $106.00 MXN, local 0 y almacen Mexico externo 97 pzas.", "Colmenero $87.07 MXN, 145 disponibles, retiro Jose Maria Bustillos 24 int 11 CDMX.", "Cityshop/TiendaClic repiten peso 0.68 kg; corregir dato mal mapeado 68 kg."],
+          "reviewNotes": "Normalizacion manual: el peso del feed 68 kg es decimal perdido. Usar 0.68 kg como peso publicado por retail."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Tamano carta", "weight": "0.68 kg" },
+        "sourceRefs": [
+          { "title": "ACCO Mexico Wilson Jones P1366", "type": "manufacturer_product", "url": "https://accomexico.com/productos/227" },
+          { "title": "Exel Wilson Jones P1366", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/ACPSEPAB026" },
+          { "title": "GlobalOffice Wilson Jones P1366", "type": "retailer_stock", "url": "https://www.globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/separador-wilson-jones-31-divisiones-economico-p13/p1366" },
+          { "title": "Colmenero Wilson Jones P1366", "type": "retailer_stock", "url": "https://colmenero.shop/products/separador-c-numeracion-31-divisiones-wilson-jones" },
+          { "title": "CTOnline batch ACCACO020 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ye2tjkk1s8mehdx",
+      "research": {
+        "confidence": 0.94,
+        "brand": "WILSON JONES",
+        "name": "Separador numerado Wilson Jones P1348 carta 12 divisiones con pestanas plastificadas",
+        "description": "Separador numerado Wilson Jones P1348 tamano carta con 12 divisiones, pestanas plastificadas multicolor, 5 perforaciones reforzadas y tabla de titulos.",
+        "manualCategoryPath": "oficina/papeleria/archivo/separadores-indices/carta/numericos/12-divisiones/wilson-jones-p1348",
+        "semanticCategoryPath": "oficina/papeleria/archivo/separadores-indices/carta/numericos/12-divisiones",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://accomexico.com/",
+        "gallery": [
+          "https://www.exel.com.mx/imgProducto/ACPSEPAB024.png",
+          "https://colmenero.shop/cdn/shop/products/separador_de_hojas_Wilson_Jones_P1348.jpg?v=1733761511&width=1200",
+          "https://colmenero.shop/cdn/shop/products/separador_acco_p1348.jpg?v=1733761527&width=1000"
+        ],
+        "specs": {
+          "brand": "Wilson Jones",
+          "brandOwner": "ACCO",
+          "model": "P1348",
+          "providerSku": "ACCACO010",
+          "upc": "078910005071",
+          "productType": "Separador numerado para carpeta",
+          "size": "Carta",
+          "divisions": 12,
+          "tabs": "Pestanas plastificadas multicolor",
+          "holes": "5 perforaciones reforzadas",
+          "material": "Papel bristol segun retail",
+          "includes": ["Tabla de titulos personalizable"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; GlobalOffice publica almacen Mexico externo y Colmenero CDMX muestra disponibilidad.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCACO010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 37.2, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $44.00 MXN, local 0 y almacen Mexico externo 225 pzas.", "Colmenero $43.47 MXN, 98 disponibles, retiro Jose Maria Bustillos 24 int 11 CDMX.", "Cityshop/TiendaClic repiten peso 0.33 kg; corregir dato mal mapeado 33 kg."],
+          "reviewNotes": "Normalizacion manual: el peso del feed 33 kg es decimal perdido. Usar 0.33 kg como peso publicado por retail."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Tamano carta", "weight": "0.33 kg" },
+        "sourceRefs": [
+          { "title": "Exel Wilson Jones P1348", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/ACPSEPAB024" },
+          { "title": "GlobalOffice Wilson Jones P1348", "type": "retailer_stock", "url": "https://www.globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/separador-wilson-jones-12-divisiones-economico-p13/p1348" },
+          { "title": "Colmenero Wilson Jones P1348", "type": "retailer_stock", "url": "https://colmenero.shop/products/separador-c-numeracion-12-divisiones-wilson-jones" },
+          { "title": "Cityshop Wilson Jones P1348", "type": "retailer_stock", "url": "https://cityshop.mx/producto/separador-de-12-divisiones-wilson-jones-p1348-033-kg-separador" },
+          { "title": "CTOnline batch ACCACO010 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "cjz1rxsoyg47snc",
+      "research": {
+        "confidence": 0.92,
+        "brand": "EUROMAC",
+        "name": "Cartulina Iris Euromac EI0042 negra 50 x 65 cm paquete con 10 pliegos",
+        "description": "Paquete de cartulina Iris Euromac EI0042 color negro con 10 pliegos de 50 x 65 cm para dibujo, carteles, manualidades y presentaciones.",
+        "manualCategoryPath": "oficina/papeleria/papel-cartulina/cartulina-iris/50x65/negro-10-pliegos/euromac-ei0042",
+        "semanticCategoryPath": "oficina/papeleria/papel-cartulina/cartulina-iris/50x65/negro-10-pliegos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.arpapel.com.mx/assets/images/catalogos/Catalogo_Escolar.pdf",
+        "gallery": [
+          "https://www.exel.com.mx/imgProducto/EUPCAUAB024.png",
+          "https://marchante.mx/cdn/shop/files/EI0042IrisNegro10hojas.png?v=1737383635&width=2717"
+        ],
+        "specs": {
+          "brand": "Euromac",
+          "model": "EI0042",
+          "providerSku": "ACCIRI010",
+          "ean": "7501523724495",
+          "productType": "Cartulina Iris",
+          "color": "Negro",
+          "paperSize": "50 x 65 cm",
+          "pack": "10 pliegos",
+          "masterPack": "10 bolsas de 10 hojas / 100 hojas segun catalogo Arpapel",
+          "useCases": ["Manualidades", "Carteles", "Presentaciones", "Dibujo escolar"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Cityshop Leon, GlobalOffice almacen Mexico y Abaofic Chihuahua muestran senales publicas de disponibilidad.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCIRI010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 67.85, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["Cityshop $69.00 MXN, 16 ultimas piezas disponibles.", "GlobalOffice $75.00 MXN, almacen Mexico.", "Abaofic Chihuahua stock 9 unidades.", "Marchante SKU AR-EI0042 $117.00 MXN, agotado."],
+          "reviewNotes": "No se localizo gramaje confiable en fuentes revisadas; no inventar peso."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "50 x 65 cm por pliego", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Cityshop Euromac EI0042", "type": "retailer_stock", "url": "https://cityshop.mx/producto/cartulina-euromac-ei0042-10-pliegos-negro-50-cm-x-65-cm" },
+          { "title": "GlobalOffice Euromac EI0042", "type": "retailer_stock", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/cartulina-euromac-iris-negro-50x65cm-c10-ei0042/ei0042" },
+          { "title": "Arpapel catalogo escolar", "type": "manufacturer_catalog", "url": "https://www.arpapel.com.mx/assets/images/catalogos/Catalogo_Escolar.pdf" },
+          { "title": "Marchante Euromac EI0042", "type": "retailer_stock", "url": "https://marchante.mx/products/10-pliegos-cartulina-iris-euromac-50x65-color-negro" },
+          { "title": "CTOnline batch ACCIRI010 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "yqvysofhmdr1eki",
+      "research": {
+        "confidence": 0.93,
+        "brand": "UNI PAINT",
+        "name": "Marcador de pintura Uni Paint PX-20 oro punta mediana 2.2-2.8 mm base aceite",
+        "description": "Marcador permanente de pintura Uni Paint PX-20 color oro, tinta base aceite, punta mediana tipo bala de 2.2 a 2.8 mm para papel, vidrio, metal, plastico, madera, tela y piedra.",
+        "manualCategoryPath": "oficina/papeleria/marcadores/permanentes/industriales/base-aceite/uni-paint-px20-oro",
+        "semanticCategoryPath": "oficina/papeleria/marcadores/permanentes/industriales/base-aceite",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://uniball.co.uk/brands/paint/uni-ball-medium-paint-marker-px-20/",
+        "gallery": [
+          "https://uniball.co.uk/wp-content/uploads/2019/09/PX_20_L_GOLD_cap.jpg",
+          "https://uniball.co.uk/wp-content/uploads/2019/09/PX_20_L_GOLD_open.jpg",
+          "https://catalog.cdn.bixoto.com/assets/es/B1FJ3XC47G/images/8092bde49fa7/f065e530-ARC_41043.jpg?class=s700"
+        ],
+        "documents": [{ "label": "Uni Paint PX-20 ficha tecnica", "type": "datasheet", "url": "https://www.initpc.it/wp-content/uploads/pdfFile/251697_2_DocumentoTecnico.pdf" }],
+        "specs": {
+          "brand": "Uni Paint / Uni-ball",
+          "model": "PX20OR",
+          "providerSku": "ACCAZR820",
+          "ean": "4902778912386",
+          "productType": "Marcador de pintura permanente",
+          "color": "Oro",
+          "inkType": "Base aceite",
+          "tipType": "Punta acrilica tipo bala/conica",
+          "lineWidth": "2.2 a 2.8 mm",
+          "surfaceCompatibility": ["Papel", "Vidrio", "Metal", "Plastico", "Madera", "Tela", "Piedra", "Carton", "Ceramica"],
+          "attributes": ["Permanente", "Resistente al agua", "Resistente a la luz/desvanecimiento", "Resistente al calor segun fabricante"],
+          "unitPackaging": "EAN unitario; caja de 12 usa EAN 4902778545621 segun ficha tecnica",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; TiendaClic Guadalajara stock 0 y Grainger Mexico lista paquete de 12 con disponibilidad por estado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCAZR820", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 685.62, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic Guadalajara existencia aproximada 0.", "Grainger Mexico publica PX20OR como paquete de 12, disponibilidad por estado.", "InitPC Italia 48 unidades en almacen; confirma EAN unitario.", "Esseshop Italia disponible, EAN 4902778912386."],
+          "reviewNotes": "No asumir C/12 en el nombre del producto sin confirmar con CTOnline; el EAN de entrada es unitario aunque el precio mayorista puede corresponder a caja."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "0.02 x 0.15 x 0.02 m empacado segun ficha tecnica", "weight": "0.02 kg empacado segun ficha tecnica" },
+        "sourceRefs": [
+          { "title": "Uni-ball PX-20", "type": "manufacturer_product", "url": "https://uniball.co.uk/brands/paint/uni-ball-medium-paint-marker-px-20/" },
+          { "title": "Uni Paint PX-20 ficha tecnica", "type": "datasheet", "url": "https://www.initpc.it/wp-content/uploads/pdfFile/251697_2_DocumentoTecnico.pdf" },
+          { "title": "TiendaClic Uni Paint PX20OR", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/marcador-uni-paint-px20or" },
+          { "title": "Grainger Mexico Uni Paint PX20OR", "type": "retailer_stock", "url": "https://www.grainger.com.mx/producto/UNI-PAINT-Marcador-de-pintura-Permanente-Dorado-Punta-mediana-12-piezas/p/380GM7" },
+          { "title": "Carrefour Uni Paint PX20 oro", "type": "retailer_stock", "url": "https://www.carrefour.es/uni-ball-marcador-permanente-px-20-tinta-aceite-punta-conica-trazo-22-28-mm-oro-ref/4902778912386/p" },
+          { "title": "CTOnline batch ACCAZR820 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
