@@ -1,0 +1,499 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b268-2026-06-01",
+  "cycle": 3,
+  "batch": 268,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "03o2tu0g331tv11",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Nextep",
+        "name": "Nextep NE-474S memoria microSD 64GB Clase 10 UHS-I U1 con adaptador",
+        "description": "Tarjeta de memoria microSD Nextep NE-474S de 64GB, Clase 10 UHS-I U1, color negro, con adaptador SD incluido y empaque tipo blister. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://nextep.com.mx/",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10/uhs-i-u1/nextep-ne-474s",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10/uhs-i-u1",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/MEMNEX040/MEMNEX040_1_full.jpg",
+          "https://static.ctonline.mx/imagenes/MEMNEX040/MEMNEX040_full.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "MEMNEX040", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "NE-474S",
+          "upc": "7501811276491",
+          "productType": "Tarjeta microSD con adaptador",
+          "capacity": "64 GB",
+          "speedClass": "Clase 10",
+          "uhsClass": "UHS-I U1",
+          "adapterIncluded": true,
+          "color": "Negro",
+          "packageType": "Blister",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para MEMNEX040. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "MEMNEX040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Intercompras lo muestra agotado historicamente.", "Exel publica ficha tecnica por NXCMEMAB004."],
+          "reviewNotes": "No se encontraron medidas o peso publicos confiables para el empaque."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Unknown", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Exel NXCMEMAB004", "type": "distributor_specs", "url": "https://www.exel.com.mx/xlstore/Productos/Detalle/NXCMEMAB004" },
+          { "title": "Intercompras Nextep NE-474S", "type": "retailer_price_stock", "url": "https://intercompras.com/p/memoria-micro-sd-nextep-ne-474s-64gb-clase-uhs-u1-439275" }
+        ]
+      }
+    },
+    {
+      "product_id": "03o9ajf73tzzh8m",
+      "research": {
+        "confidence": 0.93,
+        "brand": "HPE",
+        "name": "HPE HV6C6E Tech Care Essential 3 anos para ProLiant DL385 Gen10",
+        "description": "Servicio HPE Tech Care Essential HV6C6E de 3 anos para servidores HPE ProLiant DL385 Gen10, con soporte remoto 24x7 y respuesta onsite de hardware cubierta segun condiciones del servicio. CVA reporta stock 0.",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/services-support/technology-services/hardware-software-combo-support-service/hpe-3-year-tech-care-essential-dl385-gen10-service/p/hv6c6e",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/hpe-tech-care/servidores/proliant-dl385-gen10/hv6c6e-3y-essential",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/hpe-tech-care/servidores/proliant-dl385-gen10",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10257533"
+        ],
+        "documents": [
+          "https://www.hpe.com/psnow/downloadDoc/HPE%20Tech%20Care%20Service%20-%20Operational%20support%20service-a00108652enw.pdf",
+          "https://support.hpe.com/hpesc/public/docDisplay?docId=a00095439en_us&page=GUID-E6EECB86-7110-4FD1-855F-3734A9C219F2.html"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "POL-6166", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "HV6C6E",
+          "productType": "Servicio de soporte y garantia",
+          "serviceFamily": "HPE Tech Care Essential",
+          "coveredPlatform": "HPE ProLiant DL385 Gen10",
+          "term": "3 anos",
+          "remoteSupport": "24x7",
+          "onsiteCoverage": "24x7 con respuesta onsite 4 horas para hardware cubierto",
+          "serviceChannels": ["telefono", "chat experto", "portal HPE", "foros moderados HPE"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para POL-6166. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "POL-6166", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["HPE publica la pagina de servicio HV6C6E.", "La compatibilidad DL385 Gen10 se valido en soporte HPE."],
+          "reviewNotes": "Producto de servicio; medidas y peso no aplican."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "Not applicable", "weight": "Not applicable" },
+        "sourceRefs": [
+          { "title": "HPE HV6C6E", "type": "manufacturer_reference", "url": "https://buy.hpe.com/us/en/services-support/technology-services/hardware-software-combo-support-service/hpe-3-year-tech-care-essential-dl385-gen10-service/p/hv6c6e" },
+          { "title": "HPE ProLiant DL385 Gen10 support options", "type": "manufacturer_reference", "url": "https://support.hpe.com/hpesc/public/docDisplay?docId=a00095439en_us&page=GUID-E6EECB86-7110-4FD1-855F-3734A9C219F2.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "03ohj2baur0idd3",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Grandstream",
+        "name": "Grandstream GWN7811P switch Layer 3 PoE+ 8 puertos Gigabit y 2 SFP+ 10G 120W",
+        "description": "Switch administrable Grandstream GWN7811P Layer 3 con 8 puertos Gigabit PoE+, 2 puertos SFP+ 10G, presupuesto PoE 120W, enrutamiento avanzado y gestion por Web UI, CLI, GWN.Cloud, GWN Manager y GDMS Networking. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.grandstream.com/products/networking-solutions/network-switches/product/gwn7811p_gwn7812p_gwn7813p",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/8-puertos/layer-3-2-sfp-plus/grandstream-gwn7811p",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/8-puertos/layer-3-2-sfp-plus",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10441682",
+          "https://www.grandstream.com/hubfs/GWN781X%203%20Website%20Upload%20v2.png",
+          "https://www.grandstream.com/hubfs/GWN781X%204%20Website%20Upload.png"
+        ],
+        "documents": [
+          "https://www.grandstream.com/hubfs/Product_Documentation/GWN781x/Datasheet_GWN7811%28P%29_GWN7812P_GWN7813%28P%29_Series_English.pdf",
+          "https://www.grandstream.com/hubfs/Product_Documentation/GWN781x/Datasheet_GWN7811%28P%29_GWN7812P_GWN7813%28P%29_Series_Spanish.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "NIC-4730", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "GWN7811P",
+          "switchType": "Administrable Layer 3",
+          "ports": "8 x Gigabit RJ45 PoE+ + 2 x SFP+ 10G",
+          "poeBudget": "120 W",
+          "poeStandards": ["IEEE 802.3af", "IEEE 802.3at"],
+          "switchingCapacity": "56 Gbps",
+          "forwardingRate": "41.644 Mpps",
+          "macAddressTable": "16K",
+          "vlans": "4K VLAN",
+          "routing": ["static routing", "RIP", "RIPng", "OSPF", "OSPFv3", "BGP"],
+          "management": ["Web UI", "CLI", "GWN.Cloud", "GWN Manager", "GDMS Networking"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para NIC-4730. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NIC-4730", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Grandstream publica ficha y datasheet oficiales."],
+          "reviewNotes": "Dimensiones compartidas con GWN7811/GWN7811P; peso especifico PoE desde datasheet."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "330 x 176 x 44 mm", "weight": "2.17 kg" },
+        "sourceRefs": [
+          { "title": "Grandstream GWN7811P", "type": "manufacturer_reference", "url": "https://www.grandstream.com/products/networking-solutions/network-switches/product/gwn7811p_gwn7812p_gwn7813p" },
+          { "title": "Grandstream GWN7811P datasheet", "type": "datasheet", "url": "https://www.grandstream.com/hubfs/Product_Documentation/GWN781x/Datasheet_GWN7811%28P%29_GWN7812P_GWN7813%28P%29_Series_English.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "03pttizl9sj0bfe",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Intellinet",
+        "name": "Intellinet 561907 switch PoE+ no gestionado 24 puertos Gigabit + 2 SFP 370W",
+        "description": "Switch PoE+ Intellinet 561907 no gestionado con 24 puertos RJ45 Gigabit, 2 puertos SFP, presupuesto PoE 370W, modos VLAN/PoE Extend, PoE watchdog y montaje rack 19 pulgadas. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://intellinetsolutions.com/products/intellinet-en-24-port-gigabit-ethernet-poe-switch-with-2-sfp-ports-561907",
+        "manualCategoryPath": "redes/switches/poe-no-administrables/gigabit/24-puertos-2-sfp-370w/intellinet-561907",
+        "semanticCategoryPath": "redes/switches/poe-no-administrables/gigabit/24-puertos-2-sfp-370w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10425857",
+          "https://intellinetsolutions.com/cdn/shop/products/24-port-gigabit-ethernet-poe-switch-with-2-sfp-ports-561907-1.jpg?v=1679539782&width=1946",
+          "https://intellinetsolutions.com/cdn/shop/products/24-port-gigabit-ethernet-poe-switch-with-2-sfp-ports-561907-2.jpg?v=1679539782&width=1445"
+        ],
+        "documents": [
+          "https://s3.amazonaws.com/assets.mhint/downloads/67127/561907_datasheet_english.pdf",
+          "https://s3.amazonaws.com/assets.mhint/downloads/66963/INT_561907_QIG_0622_REV_5.11.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SWTITL590", "warehouse": "provider_total", "country": "MX", "stock": 0 },
+          { "wholesalerId": "cva", "sku": "NIC-4595", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "561907 / IPS-24G02-370WB",
+          "switchType": "No gestionado",
+          "ports": "24 x RJ45 Gigabit + 2 x SFP 1G",
+          "poeStandards": ["IEEE 802.3af", "IEEE 802.3at"],
+          "poeBudget": "370 W",
+          "maxPoePerPort": "30 W",
+          "switchFabric": "52 Gbps",
+          "forwardingRate": "38.69 Mpps",
+          "macAddressTable": "8K",
+          "jumboFrames": "9216 bytes",
+          "modes": ["Normal", "VLAN port isolation", "PoE Extend hasta 250 m"],
+          "certifications": ["FCC", "CE", "RoHS", "UKCA", "NDAA"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SWTITL590 y CVA/Electroprice stock 0 para NIC-4595. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SWTITL590", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" },
+            { "providerId": "cva", "providerSku": "NIC-4595", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Grupo Reysa muestra NIC-4595 como respaldo local.", "Intellinet publica ficha y datasheet oficiales."],
+          "reviewNotes": "Peso oficial aparece con dos variantes; se conserva 3.37 kg neto / 3.87 kg bruto desde seccion fisica."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "440 x 207 x 44 mm", "weight": "3.37 kg neto; 3.87 kg bruto" },
+        "sourceRefs": [
+          { "title": "Intellinet 561907", "type": "manufacturer_reference", "url": "https://intellinetsolutions.com/products/intellinet-en-24-port-gigabit-ethernet-poe-switch-with-2-sfp-ports-561907" },
+          { "title": "Intellinet 561907 datasheet", "type": "datasheet", "url": "https://s3.amazonaws.com/assets.mhint/downloads/67127/561907_datasheet_english.pdf" },
+          { "title": "Grupo Reysa Intellinet 561907", "type": "retailer_price_stock", "url": "https://gruporeysa.com.mx/producto/intellinet-561907/" }
+        ]
+      }
+    },
+    {
+      "product_id": "0441ce72tehfjcs",
+      "research": {
+        "confidence": 0.86,
+        "brand": "BRobotix",
+        "name": "Funda BRobotix 102760G universal para tablet 10 pulgadas con teclado, folio multicolor",
+        "description": "Funda folio BRobotix 102760G universal para tablet de hasta 10 pulgadas, con teclado integrado, soporte, portapluma y proteccion contra rayones, golpes y polvo. CTOnline reporta stock 0.",
+        "manualCategoryPath": "computo/tabletas/accesorios/fundas-con-teclado/universales-10-pulgadas/brobotix-102760g",
+        "semanticCategoryPath": "computo/tabletas/accesorios/fundas-con-teclado/universales-10-pulgadas",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCRBT2160/ACCRBT2160_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-BROBOTIX-102760G-1.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-BROBOTIX-102760G-2.jpg",
+          "https://www.cyberpuerta.mx/img/product/XL/CP-BROBOTIX-102760G-3.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCRBT2160", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "102760G",
+          "upc": "7503028387557",
+          "productType": "Funda folio para tablet",
+          "compatibility": "Universal",
+          "maxScreen": "10 pulgadas",
+          "keyboardIntegrated": true,
+          "color": "Multicolor",
+          "protection": ["rayones", "golpes", "polvo"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCRBT2160. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCRBT2160", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner confirma ACCRBT2160.", "Cyberpuerta aporta imagenes y ficha."],
+          "reviewNotes": "No se encontro pagina oficial exacta; se usaron mirrors de retailers y evidencia CTOnline."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Compatible con tablet 10 pulgadas; dimensiones fisicas no publicadas", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "CTI Systems BRobotix 102760G", "type": "retailer_specs", "url": "https://ctisystems.mx/funda-brobotix-102760g-para-tableta-pulgadas-universal" },
+          { "title": "Cyberpuerta BRobotix 102760G", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Computadoras/Tablets/Fundas-y-Skins/BRobotix-Funda-102760G-con-Teclado-para-Tablet-10-Multicolor.html" },
+          { "title": "Mactoner ACCRBT2160", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/funda-brobotix-102760g-universal/" }
+        ]
+      }
+    },
+    {
+      "product_id": "045mxq07fpk8slq",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Kingston",
+        "name": "Memoria USB Kingston DataTraveler Exodia S DTXS/64GB 64GB USB 3.2 Gen 1 Tipo-A con tapa giratoria negro",
+        "description": "Memoria USB Kingston DataTraveler Exodia S DTXS/64GB de 64GB con interfaz USB-A 3.2 Gen 1, tapa giratoria protectora, color negro y garantia limitada de 5 anos. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.kingston.com/es/usb-flash-drives/datatraveler-exodia-s-swivel-usb-3-2-usb-flash-drive",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/usb-3-2-gen-1-giratorias/kingston-datatraveler-exodia-s-dtxs-64gb",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/64gb/usb-3-2-gen-1-giratorias",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10460797",
+          "https://media.kingston.com/kingston/product/DTXS_64GB-tn.png",
+          "https://media.kingston.com/kingston/highlights/ktc-highlights-flash-usb-dtxs-hl1.webp"
+        ],
+        "documents": [
+          "https://www.kingston.com/datasheets/DTXS_latam.pdf",
+          "https://www.kingston.com/datasheets/DTXS_us.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "RAM-4627", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "DTXS/64GB",
+          "upc": "740617348651",
+          "productLine": "DataTraveler Exodia S",
+          "capacity": "64 GB",
+          "interface": "USB-A",
+          "standard": "USB 3.2 Gen 1",
+          "design": "Tapa giratoria",
+          "color": "Black/Black",
+          "compatibleOs": ["Windows 11/10", "macOS 12.7.6+", "Linux 4.4.x+", "Chrome OS"],
+          "warranty": "5 anos",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para RAM-4627. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "RAM-4627", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Kingston publica ficha oficial por numero de parte.", "B&H aporta UPC y empaque como referencia secundaria."],
+          "reviewNotes": "Velocidad real depende de host y dispositivo; se conserva USB 3.2 Gen 1 como bus."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "57 x 19 x 11.8 mm; empaque aprox. 4.5 x 3.95 x 0.5 in", "weight": "8.72 g; empaque 0.03 lb" },
+        "sourceRefs": [
+          { "title": "Kingston DTXS/64GB part search", "type": "manufacturer_reference", "url": "https://www.kingston.com/es/memory/search?partid=DTXS/64GB" },
+          { "title": "Kingston DataTraveler Exodia S", "type": "manufacturer_reference", "url": "https://www.kingston.com/es/usb-flash-drives/datatraveler-exodia-s-swivel-usb-3-2-usb-flash-drive" },
+          { "title": "Kingston DTXS LATAM datasheet", "type": "datasheet", "url": "https://www.kingston.com/datasheets/DTXS_latam.pdf" },
+          { "title": "B&H Kingston DTXS/64GB", "type": "retailer_specs", "url": "https://www.bhphotovideo.com/c/product/1908650-REG/kingston_dtxs_64gb_64gb_datatraveler_exodia_s.html/overview" }
+        ]
+      }
+    },
+    {
+      "product_id": "048pj9mez41tboo",
+      "research": {
+        "confidence": 0.95,
+        "brand": "HPE Aruba",
+        "name": "Cable DAC HPE Aruba R0M47A 50G SFP56 a SFP56 3m Direct Attach Copper",
+        "description": "Cable DAC HPE Aruba R0M47A de cobre direct attach, 50G SFP56 a SFP56, longitud 3m, para interconexion o stacking en switches Aruba compatibles. CVA reporta stock 0.",
+        "manufacturerUrl": "https://buy.hpe.com/us/en/options/transceiver-options/networking-transceiver-options/networking-transceiver-options/hpe-aruba-networking-50g-sfp56-to-sfp56-3m-direct-attach-copper-cable/p/r0m47a",
+        "manualCategoryPath": "redes/transceptores-convertidores/cables-dac/sfp56/50g-3m/hpe-aruba-r0m47a",
+        "semanticCategoryPath": "redes/transceptores-convertidores/cables-dac/sfp56/50g-3m",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10396394",
+          "https://www.dcsupplies.net/84423-large_default/hpe-r0m47a-aruba-direct-attach-cable-dac-sfp56-to-sfp56-50-gb.jpg",
+          "https://www.avendor.com/cdn/shop/files/s00007054_800x.png?v=1753327634"
+        ],
+        "documents": [
+          "https://www.hpe.com/psnow/generateDDS/Ficha%20tecnica%20de%20HPE%20Aruba%20Networking%2050G%20SFP56%20to%20SFP56%203m%20Direct%20Attach%20Copper%20Cable-PSN1012189097BOES.pdf"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CB-2808", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "R0M47A",
+          "ean": "0190017326900",
+          "productType": "Cable DAC pasivo twinax de cobre",
+          "connectors": "SFP56 a SFP56",
+          "length": "3 m / 9.84 ft",
+          "dataRate": "50 Gbps",
+          "temperatureRating": "0 a 70 deg C",
+          "requiredPower": "0.1 W por extremo",
+          "compatibilityNotes": ["Aruba 6300 series", "Aruba 6300L", "Aruba 6400 series en puertos SFP56 compatibles"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CB-2808. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CB-2808", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["HPE Store publica pagina oficial R0M47A.", "Guia Aruba confirma velocidad, potencia y compatibilidad."],
+          "reviewNotes": "SKU de red; no sustituye inventario CVA."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "5.1 x 30.5 x 38.1 cm", "weight": "180 g" },
+        "sourceRefs": [
+          { "title": "HPE Aruba R0M47A", "type": "manufacturer_reference", "url": "https://buy.hpe.com/us/en/options/transceiver-options/networking-transceiver-options/networking-transceiver-options/hpe-aruba-networking-50g-sfp56-to-sfp56-3m-direct-attach-copper-cable/p/r0m47a" },
+          { "title": "Aruba SFP56 guide", "type": "manufacturer_reference", "url": "https://arubanetworking.hpe.com/techdocs/Switches/xcvrs/xcvr_guide/Content/Chp_sfp56/sfp-dac-mod-spe-com10.htm" },
+          { "title": "DC Supplies R0M47A", "type": "retailer_specs", "url": "https://www.dcsupplies.net/direct-attach-cable/5609-hpe-r0m47a-aruba-direct-attach-cable-dac-sfp56-to-sfp56-50-gb.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "04cvcb0x7iccxdz",
+      "research": {
+        "confidence": 0.96,
+        "brand": "Lexmark",
+        "name": "Lexmark 708HY 70C8HY0 toner amarillo alto rendimiento 3000 paginas Return Program",
+        "description": "Cartucho de toner laser amarillo Lexmark 70C8HY0 / 708HY Return Program de alto rendimiento, hasta 3000 paginas ISO/IEC 19798, compatible con equipos Lexmark CS310, CS510 y CX410/CX510. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.lexmark.com/en_xc/printers/supply/7590/708HY-Yellow-High-Yield-Return-Program-Toner-Cartridge",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/lexmark/708hy/70c8hy0-amarillo",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/lexmark/708hy",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TONLXM3630/TONLXM3630_full.jpg",
+          "https://media.lexmark.com/www/product/small/07/7590.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TONLXM3630", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "70C8HY0 / 708HY",
+          "upc": "734646436861",
+          "unspsc": "44103103",
+          "productType": "Cartucho de toner laser",
+          "color": "Amarillo",
+          "yieldPages": 3000,
+          "yieldStandard": "ISO/IEC 19798",
+          "cartridgeType": "Return Program Cartridge",
+          "compatibleDevices": ["Lexmark CX410de", "Lexmark CS310dn", "Lexmark CX510dhe", "Lexmark CX510de", "Lexmark CS510de"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TONLXM3630. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TONLXM3630", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Lexmark publica ficha oficial 708HY.", "Referencia comercial secundaria confirma UPC."],
+          "reviewNotes": "La ficha cruda tenia color de producto negro/verde, pero el consumible oficial es amarillo."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque 141 x 102 x 72 mm", "weight": "Empaque 0.24 kg" },
+        "sourceRefs": [
+          { "title": "Lexmark 708HY 70C8HY0", "type": "manufacturer_reference", "url": "https://www.lexmark.com/en_xc/printers/supply/7590/708HY-Yellow-High-Yield-Return-Program-Toner-Cartridge" },
+          { "title": "Netsi Paris Lexmark 70C8HY0", "type": "retailer_specs", "url": "https://www.netsiparis.com/lex70c8hy0-lexmark-70c8hy0-sari-return-toner-3000-sayfa" }
+        ]
+      }
+    },
+    {
+      "product_id": "04d56x1smg2wp54",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Xerox",
+        "name": "Xerox B105_BI multifuncional laser monocromatico A4/Carta 21 ppm USB Wi-Fi",
+        "description": "Multifuncional Xerox B105_BI laser monocromatico para imprimir, copiar y escanear, hasta 21 ppm Carta, conectividad USB 2.0, Wi-Fi, Wi-Fi Direct, AirPrint y Mopria. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.xerox.com/office/B105_B115docs",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-wifi/xerox-b105-bi",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-wifi",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10486249",
+          "https://cdn.vmshop.cz/images/get/4/30820035.jpg?p=detail%2Cwp",
+          "https://www.img4.cz/megaredakce/img/vyrobce/x/xerox/tiskarna/multifunkcni/TISXER00104/optimise.webp"
+        ],
+        "documents": [
+          "https://gzhls.at/blob/ldb/d/4/a/c/68ff03956510a9a4dc91b9ca15d80f73c036.pdf",
+          "https://manualsfile.com/product/k69nmivqc9z.html"
+        ],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "PR-2772", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "B105_BI / B105V_BI",
+          "productType": "Multifuncional laser monocromatico",
+          "functions": ["impresion", "copia", "escaneo"],
+          "printSpeed": "hasta 21 ppm Carta / 20 ppm A4",
+          "monthlyDutyCycle": "10000 paginas",
+          "processor": "600 MHz",
+          "memory": "128 MB",
+          "connectivity": ["USB 2.0", "Wi-Fi 802.11 b/g/n", "Wi-Fi Direct"],
+          "mobilePrinting": ["Apple AirPrint", "Mopria Print Service"],
+          "printResolution": "600 x 600 dpi; hasta 1200 x 1200 mejorado",
+          "paperInput": "150 hojas + alimentacion manual 1 hoja",
+          "paperOutput": "100 hojas",
+          "duplex": "Manual",
+          "starterTonerYieldPages": 700,
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para PR-2772. La sucursal CVA requiere token de distribuidor.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "PR-2772", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["PDF B105/B110/B115 disponible como ficha publica.", "VMShop aporta medidas y peso como referencia secundaria."],
+          "reviewNotes": "CVA publico indexado aparece via busqueda; inventario live requiere token."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "360 x 257 x 406 mm", "weight": "7.5 kg" },
+        "sourceRefs": [
+          { "title": "Xerox B105/B115 docs", "type": "manufacturer_reference", "url": "https://www.xerox.com/office/B105_B115docs" },
+          { "title": "Xerox B105/B110/B115 spec PDF", "type": "datasheet", "url": "https://gzhls.at/blob/ldb/d/4/a/c/68ff03956510a9a4dc91b9ca15d80f73c036.pdf" },
+          { "title": "Manualsfile Xerox B105/B115", "type": "manual", "url": "https://manualsfile.com/product/k69nmivqc9z.html" },
+          { "title": "VMShop Xerox B105V_BI", "type": "retailer_specs", "url": "https://vmshop.cz/B105V-BI/xerox-b105vbi-cb-mfp-20ppm-usb-wire" }
+        ]
+      }
+    },
+    {
+      "product_id": "04ii4zzqida7wk7",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Immortal",
+        "name": "Immortal IMGXBC3 cargador dual para controles Xbox One con 2 baterias",
+        "description": "Cargador dual Immortal IMGXBC3 para controles Xbox One, color negro, con base de carga, 2 baterias y cable USB, salida 5VCC 2A. CTOnline reporta stock 0.",
+        "manualCategoryPath": "gaming/consolas/accesorios/cargadores-controles/xbox-one/immortal-imgxbc3",
+        "semanticCategoryPath": "gaming/consolas/accesorios/cargadores-controles/xbox-one",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/ACCTCH9670/ACCTCH9670_2_full.jpg",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCTCH9670_2_full-600x600.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-imgxbc3-immortal-cargador-dual-para-xbox.webp"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCTCH9670", "warehouse": "provider_total", "country": "MX", "stock": 0 }
+        ],
+        "specs": {
+          "model": "IMGXBC3",
+          "ean": "7501950156517",
+          "productType": "Cargador dual para controles",
+          "consoleCompatibility": "Xbox One",
+          "included": ["base de carga dual", "2 baterias", "cable USB"],
+          "color": "Negro",
+          "outputVoltage": "5VCC 2A",
+          "warranty": "1 ano segun retailers",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCTCH9670. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCTCH9670", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z",
+          "publicAvailabilitySignals": ["Mactoner y MIPC listan el modelo.", "CityShop lo reporta agotado."],
+          "reviewNotes": "Capacidad 12mAh aparece en mirrors pero parece dudosa; no se usa como especificacion definitiva."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "65 x 70 x 250 mm", "weight": "Unknown" },
+        "sourceRefs": [
+          { "title": "Mactoner Immortal IMGXBC3", "type": "retailer_price_stock", "url": "https://www.mactoner.com.mx/producto/cargador-dual-xbox-immortal-imgxbc3-negro/" },
+          { "title": "CityShop Immortal IMGXBC3", "type": "retailer_price_stock", "url": "https://cityshop.mx/producto/immortal-cargador-dual-para-xbox-one-con-2-baterias-12mah-egos-4xusb-65x70x250mm-1-ano-de-garantia" },
+          { "title": "MIPC Immortal IMGXBC3", "type": "retailer_specs", "url": "https://mipc.com.mx/cargador-dual-para-xbox-one-immortal-con-2-baterias-12mah-4x-usb-imgxbc3.html" }
+        ]
+      }
+    }
+  ]
+}

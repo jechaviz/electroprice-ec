@@ -92,6 +92,19 @@ const batch267Cases = [
   ["Hikvision DS-2CD1183G2-LIUF CV-2146 camara domo IP 8MP dual light 2.8mm microSD mic", "HIKVISION", "seguridad/cctv/camaras-ip-poe/domo/8mp-dual-light-microsd-mic/hikvision-ds-2cd1183g2-liuf", "cameras", {}],
 ] as const;
 
+const batch268Cases = [
+  ["Nextep NE-474S MEMNEX040 memoria microSD 64GB Clase 10 UHS-I U1 con adaptador", "NEXTEP", "computo/almacenamiento/memorias-flash/microsd/64gb-clase-10/uhs-i-u1/nextep-ne-474s", "storage", {}],
+  ["HPE HV6C6E POL-6166 Tech Care Essential 3 anos para ProLiant DL385 Gen10", "HPE", "servicios-ti/soporte-garantias/hpe-tech-care/servidores/proliant-dl385-gen10/hv6c6e-3y-essential", "software", {}],
+  ["Grandstream GWN7811P NIC-4730 switch Layer 3 PoE 8 puertos Gigabit 2 SFP+ 120W", "GRANDSTREAM", "redes/switches/poe-administrables/gigabit/8-puertos/layer-3-2-sfp-plus/grandstream-gwn7811p", "networking", {}],
+  ["Intellinet 561907 SWTITL590 NIC-4595 switch PoE no gestionado 24 Gigabit 2 SFP 370W", "INTELLINET", "redes/switches/poe-no-administrables/gigabit/24-puertos-2-sfp-370w/intellinet-561907", "networking", {}],
+  ["BRobotix 102760G ACCRBT2160 funda universal para tablet 10 pulgadas con teclado", "BROBOTIX", "computo/tabletas/accesorios/fundas-con-teclado/universales-10-pulgadas/brobotix-102760g", "accessories", {}],
+  ["Kingston DTXS/64GB RAM-4627 DataTraveler Exodia S memoria USB 64GB 3.2 Gen 1 giratoria", "KINGSTON", "computo/almacenamiento/memorias-flash/usb/64gb/usb-3-2-gen-1-giratorias/kingston-datatraveler-exodia-s-dtxs-64gb", "storage", {}],
+  ["HPE Aruba R0M47A CB-2808 cable DAC SFP56 50G a SFP56 3m 0190017326900", "HPE ARUBA", "redes/transceptores-convertidores/cables-dac/sfp56/50g-3m/hpe-aruba-r0m47a", "networking", {}],
+  ["Lexmark 70C8HY0 TONLXM3630 708HY toner amarillo alto rendimiento 3000 paginas 734646436861", "LEXMARK", "impresion/consumibles/toner-laser/lexmark/708hy/70c8hy0-amarillo", "printers_scanners", {}],
+  ["Xerox B105_BI PR-2772 multifuncional laser monocromatico A4 Wi-Fi 21ppm", "XEROX", "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-wifi/xerox-b105-bi", "printers_scanners", {}],
+  ["Immortal IMGXBC3 ACCTCH9670 cargador dual para controles Xbox One con 2 baterias", "IMMORTAL", "gaming/consolas/accesorios/cargadores-controles/xbox-one/immortal-imgxbc3", "accessories", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -130,6 +143,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch267Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch268Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
