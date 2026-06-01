@@ -209,6 +209,19 @@ const batch276Cases = [
   ["Hikvision DS-2CD2D25G1/M-D/NF CV-1641 camara oculta IP 2MP pinhole 2.8mm", "HIKVISION", "seguridad/cctv/camaras-ip-poe/ocultas/2mp-pinhole/hikvision-ds-2cd2d25g1-m-d-nf", "cameras", {}],
 ] as const;
 
+const batch277Cases = [
+  ["Ubiquiti UniFi U6-IW ACPUBI590 access point Wi-Fi 6 in-wall 4 puertos GbE", "UBIQUITI", "redes/access-points/wifi-6/wall-plate/ubiquiti-u6-iw", "networking", {}],
+  ["Lexmark 50F4U00 TONLXM3620 CN-2367 504U toner negro MS610 20000 paginas", "LEXMARK", "impresion/consumibles/toner-laser/lexmark/ms610/50f4u00-ultra-alto-rendimiento", "printers_scanners", {}],
+  ["Naceb NA-0958 CAMNCB040 webcam 1080p 30fps con microfono y luz LED", "NACEB TECHNOLOGY", "computo/perifericos/webcams/usb-fhd/naceb-na-0958", "cameras", {}],
+  ["Corsair K55 CORE RGB CH-9226C65-NA TECCOR450 teclado gaming membrana", "CORSAIR", "computo/perifericos/teclados/gaming/membrana-rgb/corsair-k55-core-ch-9226c65-na", "gaming", {}],
+  ["Samsung ML-D3470B TONHPS770 SU672A toner negro laser 10000 paginas", "HP", "impresion/consumibles/toner-laser/samsung/ml-d3470b/su672a", "printers_scanners", {}],
+  ["Xerox D70n 100N03676 SC-326 escaner documental duplex 90ppm Ethernet", "XEROX", "impresion/escaneres/documentales/adf/duplex/a4-legal/red/alto-volumen/xerox-d70n-100n03676", "printers_scanners", {}],
+  ["Belden AX102282 ACCBEL470 10GX KeyConnect jack RJ45 Cat6A blanco", "BELDEN", "redes/cableado-estructurado/conectores-keystone/rj45-cat6a/belden-ax102282", "networking", {}],
+  ["TP-Link VIGI C540V CV-1824 camara IP PoE PTZ 4MP full color 3x zoom", "TP LINK", "seguridad/cctv/camaras-ip-poe/ptz/4mp-full-color/tp-link-vigi-c540v", "cameras", {}],
+  ["Honeywell 130063 ACCHHP2810 power supply cord cable POS CK65", "HONEYWELL", "punto-de-venta/terminales-accesorios/cables/honeywell-ck65/130063", "accessories", {}],
+  ["Lenovo ThinkVision D22e-20 66D2KAC6LA MNL-2084 monitor 21.45 FHD 75Hz", "LENOVO", "computo/monitores/oficina/21-45-fhd/lenovo-thinkvision-d22e-20-66d2kac6la", "monitors", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -301,6 +314,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch276Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch277Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

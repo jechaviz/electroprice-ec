@@ -1,0 +1,452 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b277-2026-06-01",
+  "cycle": 3,
+  "batch": 277,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0cn13q8pxakc6uo",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Ubiquiti",
+        "name": "Access point Ubiquiti UniFi U6-IW Wi-Fi 6 in-wall con switch 4 puertos",
+        "description": "Ubiquiti UniFi U6-IW es un access point Wi-Fi 6 de montaje en pared tipo in-wall, con 6 flujos espaciales, cobertura estimada de 115 m2, mas de 250 clientes, puerto uplink GbE y switch integrado de 4 puertos GbE con una salida PoE cuando se alimenta por PoE+. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://techspecs.ui.com/unifi/wifi/u6-iw?subcategory=wifi-wall",
+        "manualCategoryPath": "redes/access-points/wifi-6/wall-plate/ubiquiti-u6-iw",
+        "semanticCategoryPath": "redes/access-points/wifi-6/wall-plate",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://images.svc.ui.com/?q=75&u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F9e487835-2aa9-4813-b210-732744a2884a%2Faf40d69c-4174-474a-90bb-a8ab4dbbbf68.png&w=3840", "https://static.ctonline.mx/imagenes/ACPUBI590/ACPUBI590_full.jpg"],
+        "documents": ["https://dl.ubnt.com/ds/u6-iw_ds.pdf", "https://store.ui.com/us/en/pro/category/wifi-inwall/products/u6-iw"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACPUBI590", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 144.71, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "U6-IW",
+          "productType": "Access point Wi-Fi 6 in-wall",
+          "wifiStandard": "Wi-Fi 6 / 802.11ax",
+          "spatialStreams": "6",
+          "coverageArea": "115 m2 / 1250 ft2",
+          "maxClients": "250+",
+          "uplink": "1 x GbE RJ45",
+          "downlinkPorts": "4 x GbE RJ45, una salida PoE disponible con entrada PoE+",
+          "maxDataRate": ["5 GHz: 4.8 Gbps BW160", "2.4 GHz: 573.5 Mbps BW40"],
+          "antennaGain": ["5 GHz: 5.9 dBi", "2.4 GHz: 5 dBi"],
+          "power": "PoE; PoE+ requerido para salida PoE",
+          "maxPowerConsumption": "13 W sin salida PoE",
+          "mounting": "Pared",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACPUBI590. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACPUBI590", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 144.71, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "139.7 x 96 x 31.2 mm", "weight": "460 g" },
+        "sourceRefs": [
+          { "title": "Ubiquiti UniFi U6-IW tech specs", "type": "manufacturer_product", "url": "https://techspecs.ui.com/unifi/wifi/u6-iw?subcategory=wifi-wall" },
+          { "title": "Ubiquiti U6-IW datasheet", "type": "manufacturer_datasheet", "url": "https://dl.ubnt.com/ds/u6-iw_ds.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0coa6kqfaqeikcf",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Lexmark",
+        "name": "Toner Lexmark 50F4U00 504U negro ultra alto rendimiento MS610 20000 paginas",
+        "description": "Cartucho original Lexmark 504U 50F4U00 negro de programa de retorno y ultra alto rendimiento para equipos Lexmark MS610/MS510 regionales LAD, con rendimiento declarado de 20000 paginas. CTOnline y CVA reportan stock 0.",
+        "manufacturerUrl": "https://origin-www.lexmark.com/es_co/supply/7625/504U-Cartucho-de-toner-Ultraalto-Rendimiento-del-Programa-de",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/lexmark/ms610/50f4u00-ultra-alto-rendimiento",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/lexmark/ms610",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://media.lexmark.com/www/product/small/07/7625.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=9517088"],
+        "documents": ["https://www.lexmark.com/en_xc/printers/printer/7693/Lexmark-MS610dn", "https://www.lexmark.com/content/dam/lexmark/Supplies/Documents/Supplies-Regionalization/2018-Mono-Laser-Regionalization.pdf.coredownload.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TONLXM3620", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 263.96, "currency": "USD" },
+          { "wholesalerId": "cva", "sku": "CN-2367", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 242.75, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "50F4U00",
+          "upc": "734646433310",
+          "series": "Lexmark 504U",
+          "productType": "Cartucho de toner laser",
+          "color": "Negro",
+          "yield": "20000 paginas",
+          "program": "Return Program / Programa de retorno",
+          "compatibility": ["Lexmark MS610de", "Lexmark MS610dn", "Lexmark MS610dte", "Lexmark MS610dtn", "Lexmark MS510dn", "Lexmark MX511de", "Lexmark MX611dhe", "Lexmark MX611dfe"],
+          "region": "Latin America Distribution / LAD",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TONLXM3620; CVA/Electroprice reporta stock 0 para CN-2367. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TONLXM3620", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 263.96, "currency": "USD" },
+            { "providerId": "cva", "providerSku": "CN-2367", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 242.75, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "134 x 116 x 312 mm empaque", "weight": "0.985 kg empaque" },
+        "sourceRefs": [
+          { "title": "Lexmark 504U 50F4U00 supply page", "type": "manufacturer_product", "url": "https://origin-www.lexmark.com/es_co/supply/7625/504U-Cartucho-de-toner-Ultraalto-Rendimiento-del-Programa-de" },
+          { "title": "Lexmark MS610dn compatible supplies", "type": "manufacturer_product", "url": "https://www.lexmark.com/en_xc/printers/printer/7693/Lexmark-MS610dn" },
+          { "title": "Lexmark mono laser regionalization", "type": "manufacturer_datasheet", "url": "https://www.lexmark.com/content/dam/lexmark/Supplies/Documents/Supplies-Regionalization/2018-Mono-Laser-Regionalization.pdf.coredownload.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0csz7fgmbld9n3e",
+      "research": {
+        "confidence": 0.88,
+        "brand": "Naceb Technology",
+        "name": "Webcam Naceb NA-0958 Full HD 1080p 30fps con microfono y luz LED",
+        "description": "Camara web Naceb NA-0958 USB 2.0 con video Full HD 1920 x 1080 a 30fps, microfono integrado, luz LED, rotacion 360 grados, clip/base flexible, rosca para tripie e incluye tripie de 116 mm. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://ctonline.mx/Electronica/Camaras/Naceb-Technology/CAMNCB040/58214",
+        "manualCategoryPath": "computo/perifericos/webcams/usb-fhd/naceb-na-0958",
+        "semanticCategoryPath": "computo/perifericos/webcams/usb-fhd",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMNCB040/CAMNCB040_full.jpg", "https://www.cyberpuerta.mx/img/product/XS/CP-NACEBTECHNOLOGY-NA-0958-e21e35.jpg"],
+        "documents": ["https://pcdomino.com/products/camara-web-webcam-full-hd-1920-x-1080-microfono-integrado-con-luz-led-usb-naceb-na-0958", "https://www.digitalife.com.mx/productos/camara-web-naceb-full-hd-1080-pixeles-microfono-negro-blanco", "https://www.coppel.com/pdp/webcam-naceb-na-0958-1080p-30fps-con-microfono-luz-led-usb-20-mkp-40271264n9230"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAMNCB040", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 317.65, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "NA-0958",
+          "ean": "7502262110655",
+          "productType": "Webcam USB",
+          "maxVideoResolution": "1920 x 1080",
+          "frameRate": "30 fps",
+          "interpolatedModes": ["2K 2560 x 1440 a 30fps segun distribuidor", "4K 3840 x 2160 a 15fps interpolado segun distribuidor"],
+          "interface": "USB 2.0",
+          "microphone": "Integrado",
+          "lighting": "Luz LED integrada",
+          "mounting": ["Clip/base flexible", "Rosca para tripie", "Tripie de 116 mm incluido"],
+          "rotation": "360 grados",
+          "compatibility": ["Windows", "macOS", "Linux"],
+          "color": "Plata",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAMNCB040. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAMNCB040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 317.65, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "49.4 x 55.6 x 72.9 mm camara; tripie 116 mm", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "CTOnline Naceb NA-0958", "type": "distributor_product", "url": "https://ctonline.mx/Electronica/Camaras/Naceb-Technology/CAMNCB040/58214" },
+          { "title": "PCDomino Naceb NA-0958 specs", "type": "retailer_reference", "url": "https://pcdomino.com/products/camara-web-webcam-full-hd-1920-x-1080-microfono-integrado-con-luz-led-usb-naceb-na-0958" },
+          { "title": "Digitalife Naceb NA-0958 specs", "type": "retailer_reference", "url": "https://www.digitalife.com.mx/productos/camara-web-naceb-full-hd-1080-pixeles-microfono-negro-blanco" }
+        ]
+      }
+    },
+    {
+      "product_id": "0cve0g7im0ul8d7",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Corsair",
+        "name": "Teclado gaming Corsair K55 CORE RGB CH-9226C65-NA membrana USB negro",
+        "description": "Corsair K55 CORE RGB CH-9226C65-NA es un teclado gaming extendido cableado USB 2.0 Type-A con switches de membrana, retroiluminacion RGB de 10 zonas, 110 teclas, 6 macro keys, 12-key rollover, polling rate de 1000Hz, controles multimedia y resistencia a derrames de 300 ml. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.corsair.com/us/en/p/keyboards/ch-9226c65-na/k55-core-rgb-gaming-keyboard-black-ch-9226c65-na",
+        "manualCategoryPath": "computo/perifericos/teclados/gaming/membrana-rgb/corsair-k55-core-ch-9226c65-na",
+        "semanticCategoryPath": "computo/perifericos/teclados/gaming/membrana-rgb",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://assets.corsair.com/image/upload/c_pad%2Cq_85%2Ch_1100%2Cw_1100%2Cf_auto/products/Gaming-Keyboards/k55-core/gallery/CH-9226C65-NA/K55_CORE_BLK_01.webp", "https://static.ctonline.mx/imagenes/TECCOR450/TECCOR450_full.jpg"],
+        "documents": ["https://qsg.corsair.com/ch-9226C65", "https://www.corsair.com/us/en/p/keyboards/ch-9226c65-na/k55-core-rgb-gaming-keyboard-black-ch-9226c65-na"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TECCOR450", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 29.17, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "CH-9226C65-NA",
+          "upc": "840006666547",
+          "productType": "Teclado gaming de membrana",
+          "layout": "NA / QWERTY",
+          "keys": "110",
+          "switches": "Rubber Dome / membrana",
+          "lighting": "RGB 10 zonas",
+          "connection": "USB 2.0 Type-A cableado",
+          "pollingRate": "1000 Hz",
+          "rollover": "12-key selective",
+          "macroKeys": "6",
+          "mediaControls": "Dedicated hotkeys",
+          "software": "Corsair iCUE",
+          "spillResistance": "300 ml",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TECCOR450. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TECCOR450", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 29.17, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "No publicado por fabricante; empaque B&H 18.5 x 7.7 x 1.8 in", "weight": "0.752 kg teclado; empaque B&H 2.24 lb" },
+        "sourceRefs": [
+          { "title": "Corsair K55 CORE RGB CH-9226C65-NA", "type": "manufacturer_product", "url": "https://www.corsair.com/us/en/p/keyboards/ch-9226c65-na/k55-core-rgb-gaming-keyboard-black-ch-9226c65-na" },
+          { "title": "Corsair K55 CORE quick start guide", "type": "manufacturer_guide", "url": "https://qsg.corsair.com/ch-9226C65" }
+        ]
+      }
+    },
+    {
+      "product_id": "0cxxvm646b9u5l4",
+      "research": {
+        "confidence": 0.9,
+        "brand": "HP",
+        "name": "Toner HP/Samsung ML-D3470B SU672A negro alto rendimiento 10000 paginas",
+        "description": "Cartucho de toner negro original HP para impresoras Samsung ML-D3470B, tambien referido como SU672A en fichas HP, con rendimiento de 10000 paginas y compatibilidad Samsung ML-3470/3471. CTOnline reporta stock 0 para TONHPS770.",
+        "manufacturerUrl": "https://www.hp.com/emea_africa-en/products/ink-toner/product-details/17403181",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/samsung/ml-d3470b/su672a",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/samsung/ml-d3470b",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TONHPS770/TONHPS770_full.jpg"],
+        "documents": ["https://www.samsung.com/sec/support/model/ML-D3470B/", "https://www.hp.com/ru-ru/products/ink-toner/product-details/17403181"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TONHPS770", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3052.79, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "ML-D3470B",
+          "partNumber": "SU672A",
+          "providerPartNumber": "SU674A",
+          "providerUpc": "191628480449",
+          "ean": "0191628480425",
+          "productType": "Cartucho de toner laser",
+          "color": "Negro",
+          "yield": "10000 paginas",
+          "compatibility": ["Samsung ML-3470", "Samsung ML-3471"],
+          "identityNote": "HP lista ML-D3470B como SU672A; CTOnline/MacToner usan SU674A como alias proveedor para TONHPS770.",
+          "technology": "Laser",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TONHPS770. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TONHPS770", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3052.79, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "349 x 142 x 238 mm empaque segun Samsung; 361 x 236 x 140 mm empaque segun canal HP", "weight": "1.435 kg empaque Samsung; 1.115 kg cartucho" },
+        "sourceRefs": [
+          { "title": "HP Samsung ML-D3470B SU672A", "type": "manufacturer_product", "url": "https://www.hp.com/emea_africa-en/products/ink-toner/product-details/17403181" },
+          { "title": "Samsung ML-D3470B support specs", "type": "manufacturer_support", "url": "https://www.samsung.com/sec/support/model/ML-D3470B/" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d0ncu4kewc8mb0",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Xerox",
+        "name": "Escaner documental Xerox D70n 100N03676 ADF duplex Ethernet 90ppm",
+        "description": "Xerox D70n 100N03676 es un escaner documental departamental con ADF duplex de 100 hojas, doble sensor CIS, resolucion optica 600 dpi, interfaz USB 3.1 Gen1 y Gigabit Ethernet, ciclo diario de 15000 paginas, escaneo hasta 90 ppm/180 ipm en escala de grises o blanco y negro, y 75 ppm/150 ipm en color. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.xeroxbusinesssolutions.com/en-na/scanners/d70n-scanner",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/red/alto-volumen/xerox-d70n-100n03676",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/red/alto-volumen",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://images.ctfassets.net/ao073xfdpkqn/23xUZmIg05JylsaUrR2iBL/defcf664c676daa2965eef919347c516/xerox-d70n-scanner-1000x600.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10431314"],
+        "documents": ["https://www.xeroxscanners.com/wp-content/uploads/manuals/D70n/D70N_Datasheet.US_.pdf", "https://www.xeroxscanners.com/wp-content/uploads/2024/03/D70n_Datasheet.ES_.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SC-326", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1121.05, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "100N03676",
+          "manufacturerPartNumber": "XD70n-U",
+          "upc": "0785414121229",
+          "ean": "00785414121229",
+          "productType": "Escaner documental ADF duplex",
+          "scanSpeed": ["90 ppm / 180 ipm grayscale y blanco y negro", "75 ppm / 150 ipm color"],
+          "resolution": "600 dpi optica; salida hasta 1200 dpi",
+          "sensor": "Dual CIS",
+          "lightSource": "LED instant on",
+          "adfCapacity": "100 hojas",
+          "dailyDutyCycle": "15000 paginas",
+          "interfaces": ["USB 3.1 Gen1", "Gigabit Ethernet"],
+          "doubleFeedDetection": "Ultrasonica",
+          "maxDocumentSize": "241 x 6096 mm en pagina larga",
+          "paperThickness": "27 a 413 g/m2 auto",
+          "software": ["OneTouch", "Acuity", "Capture SE", "DriverPLUS", "Organizer AI", "ABBYY FineReader PDF 15 Standard OCR"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SC-326. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SC-326", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1121.05, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "316 x 191 x 188 mm", "weight": "4.5 kg" },
+        "sourceRefs": [
+          { "title": "Xerox D70n scanner page", "type": "manufacturer_product", "url": "https://www.xeroxbusinesssolutions.com/en-na/scanners/d70n-scanner" },
+          { "title": "Xerox D70n US datasheet", "type": "manufacturer_datasheet", "url": "https://www.xeroxscanners.com/wp-content/uploads/manuals/D70n/D70N_Datasheet.US_.pdf" },
+          { "title": "Xerox D70n ES datasheet", "type": "manufacturer_datasheet", "url": "https://www.xeroxscanners.com/wp-content/uploads/2024/03/D70n_Datasheet.ES_.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d2xs3b3v1gu98p",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Belden",
+        "name": "Jack keystone Belden AX102282 10GX KeyConnect RJ45 Cat6A blanco",
+        "description": "Belden AX102282 es un jack modular 10GX KeyConnect RJ45 Categoria 6A color Electric White, compatible con T568A/B, IBDN System 10GX, TIA Category 6A, ISO Class EA y 10GBASE-T. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.belden.com/products/connectors/copper-rj45-connectors/copper-rj45-jacks/category-6a-jacks/10gx-keyconnect-jacks",
+        "manualCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6a/belden-ax102282",
+        "semanticCategoryPath": "redes/cableado-estructurado/conectores-keystone/rj45-cat6a",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://catalog.belden.com/prodimgs/LargeProductImage-approved/std.lang.all/53/22/135322.jpg", "https://catalog.belden.com/prodimgs/TechnicalDrawing-approved/std.lang.all/45/24/PDF_1384524.jpg", "https://static.ctonline.mx/imagenes/ACCBEL470/ACCBEL470_1_full.jpg"],
+        "documents": ["https://catalog.belden.com/techdata/EN/10gxkeyconnectjacks_techdata.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCBEL470", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 10.99, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "AX102282",
+          "upc": "611589024211",
+          "productType": "Jack keystone RJ45 Cat6A",
+          "series": "10GX KeyConnect",
+          "color": "Electric White",
+          "dataCategory": "Category 6A",
+          "wiringScheme": "T568A/B",
+          "applications": ["IBDN System 10GX", "TIA Category 6A", "ISO Class EA", "10GBASE-T"],
+          "compatibility": ["RJ45", "RJ11", "KeyConnect faceplates, adapters, boxes and patch panels"],
+          "operatingTemperature": "-10 a 60 C",
+          "storageTemperature": "-40 a 70 C",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCBEL470. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCBEL470", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10.99, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "0.9 x 0.675 x 1.17 in", "weight": "0.016 lb" },
+        "sourceRefs": [
+          { "title": "Belden 10GX KeyConnect Jacks", "type": "manufacturer_product", "url": "https://www.belden.com/products/connectors/copper-rj45-connectors/copper-rj45-jacks/category-6a-jacks/10gx-keyconnect-jacks" },
+          { "title": "Belden 10GX KeyConnect tech data", "type": "manufacturer_datasheet", "url": "https://catalog.belden.com/techdata/EN/10gxkeyconnectjacks_techdata.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d43odpf0nd8ezj",
+      "research": {
+        "confidence": 0.94,
+        "brand": "TP-Link",
+        "name": "Camara IP PTZ TP-Link VIGI C540V 4MP full color PoE zoom 3x",
+        "description": "TP-Link VIGI C540V es una camara IP PoE PTZ exterior de 4MP full-color con lente varifocal 4-12 mm, zoom 3x, pan 0 a 332 grados, tilt 0 a 120 grados, clasificacion humano/vehiculo, deteccion inteligente, defensa activa, audio bidireccional, H.265+, ranura microSD hasta 256GB e IP66. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.vigi.com/uk/business-networking/vigi-network-camera/vigi-c540v/",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/ptz/4mp-full-color/tp-link-vigi-c540v",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/ptz/4mp-full-color",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.tp-link.com/upload/image-line/01_normal_20230511110203a.jpg", "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10431470"],
+        "documents": ["https://static.tp-link.com/upload/product-overview/2024/202410/20241017/Datasheet-VIGI%20C540V%20%283X%20Zoom%29%20%28UN%29%201.0.pdf", "https://www.vigi.com/us/support/download/vigi-c540v/", "https://www.tp-link.com/my/support/download/vigi-c540v/"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CV-1824", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 61.9, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "VIGI C540V",
+          "productType": "Camara IP PTZ PoE",
+          "resolution": "4MP, 2560 x 1440",
+          "lens": "4-12 mm varifocal, F1.6",
+          "zoom": "3x",
+          "fieldOfView": "84 grados horizontal, 46 grados vertical, 100 grados diagonal",
+          "ptz": "Pan 0-332 grados, tilt 0-120 grados",
+          "videoCompression": ["H.265+", "H.265", "H.264+", "H.264"],
+          "analytics": ["Clasificacion humano/vehiculo", "Deteccion de cruce de linea", "Intrusion de area", "Objeto abandonado/removido"],
+          "audio": "Audio bidireccional con microfono y bocina",
+          "activeDefense": "Sirena y luces blancas",
+          "storage": "MicroSD hasta 256GB segun pagina comercial; datasheet 2024 reporta hasta 512GB",
+          "power": "12 VDC o PoE 802.3at class 4",
+          "protection": "IP66",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CV-1824. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CV-1824", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 61.9, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "107 x 136 x 139 mm", "weight": "0.43 kg", "packageWeight": "0.66 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link VIGI C540V product page", "type": "manufacturer_product", "url": "https://www.vigi.com/uk/business-networking/vigi-network-camera/vigi-c540v/" },
+          { "title": "TP-Link VIGI C540V datasheet", "type": "manufacturer_datasheet", "url": "https://static.tp-link.com/upload/product-overview/2024/202410/20241017/Datasheet-VIGI%20C540V%20%283X%20Zoom%29%20%28UN%29%201.0.pdf" },
+          { "title": "TP-Link VIGI C540V downloads", "type": "manufacturer_download", "url": "https://www.vigi.com/us/support/download/vigi-c540v/" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d4zso0zy411l30",
+      "research": {
+        "confidence": 0.84,
+        "brand": "Honeywell",
+        "name": "Cable de alimentacion Honeywell 130063 para bases/cargadores CK65",
+        "description": "Honeywell 130063 es un cable de alimentacion AC tipo line cord/power supply cord para accesorios de terminales moviles Honeywell, usado con fuentes y bases de carga de la familia CK65/CK3 segun guias de accesorios. CTOnline/PB reporta stock 0; una referencia publica externa reporta disponibilidad, por lo que queda marcada la discrepancia para el siguiente refresh de proveedor.",
+        "manufacturerUrl": "https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/handheld-computers/ck65-handheld-computer",
+        "manualCategoryPath": "punto-de-venta/terminales-accesorios/cables/honeywell-ck65/130063",
+        "semanticCategoryPath": "punto-de-venta/terminales-accesorios/cables/honeywell-ck65",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://barcodescannerdeals.com/wp-content/uploads/Honeywell-Power-Cord-130063.jpg", "https://static.ctonline.mx/imagenes/ACCHHP2810/ACCHHP2810_full.jpg"],
+        "documents": ["https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/mobile-computers/handheld-computers/ck65/documents/sps-ppr-dolphin-ck65-handheld-computer-accessory-guide-en.pdf", "https://www.invaccuracy.com/product/honeywell-130063/"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCHHP2810", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 9.66, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "130063",
+          "productType": "Cable de alimentacion AC",
+          "description": "Power supply cord, RoHS",
+          "color": "Negro",
+          "compatibility": ["Honeywell CK65", "Honeywell CK3X/CK3R accesorios y bases compatibles segun guia de accesorios"],
+          "length": "2.5 m / 8.2 ft reportado por canal especializado",
+          "stockConflictNote": "PB conserva evidencia CTOnline FTP 2026-05-20 con stock 0; una referencia publica espejo reporto 6 unidades pero no se aplico como stock proveedor sin evidencia autenticada de Electroprice/CTOnline.",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCHHP2810. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCHHP2810", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9.66, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "Longitud 2.5 m segun canal especializado", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Honeywell CK65 handheld computer", "type": "manufacturer_product", "url": "https://automation.honeywell.com/us/en/products/productivity-solutions/mobile-computers/handheld-computers/ck65-handheld-computer" },
+          { "title": "Honeywell CK65 accessory guide", "type": "manufacturer_guide", "url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/ppr/en-us/public/products/mobile-computers/handheld-computers/ck65/documents/sps-ppr-dolphin-ck65-handheld-computer-accessory-guide-en.pdf" },
+          { "title": "Honeywell 130063 channel reference", "type": "retailer_reference", "url": "https://www.invaccuracy.com/product/honeywell-130063/" }
+        ]
+      }
+    },
+    {
+      "product_id": "0d4zx31u11v2gck",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Lenovo",
+        "name": "Monitor Lenovo ThinkVision D22e-20 66D2KAC6LA 21.45 FHD VA 75Hz",
+        "description": "Lenovo ThinkVision D22e-20 66D2KAC6LA es un monitor de oficina de 21.45 pulgadas FHD 1920 x 1080 con panel VA, frecuencia hasta 75Hz, brillo 250 nits, contraste 3000:1, AMD FreeSync, Low Blue Light, Flicker Free, entradas HDMI 1.4 y VGA, inclinacion -5/+22 grados y VESA 100 mm. CVA reporta stock 0.",
+        "manufacturerUrl": "https://support.lenovo.com/docs/d22e_20",
+        "manualCategoryPath": "computo/monitores/oficina/21-45-fhd/lenovo-thinkvision-d22e-20-66d2kac6la",
+        "semanticCategoryPath": "computo/monitores/oficina/21-45-fhd",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10307333"],
+        "documents": ["https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Monitors/Lenovo_D22e_20/Lenovo_D22e_20_Spec.pdf", "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Monitors/Lenovo_D22e_20/Lenovo_D22e_20_Spec.html?ver=ab672ced-592b-4e81-b8c0-66a780afa4cb"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MNL-2084", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2640.43, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "66D2KAC6LA",
+          "machineType": "66D2",
+          "ean": "0195890137803",
+          "upc": "195890137803",
+          "productType": "Monitor de oficina",
+          "display": "21.45 pulgadas FHD 1920 x 1080",
+          "panel": "VA",
+          "refreshRate": "75 Hz",
+          "brightness": "250 nits",
+          "contrastRatio": "3000:1",
+          "colorGamut": "72% NTSC",
+          "responseTime": "4 ms extreme / 6 ms typical",
+          "ports": ["HDMI 1.4", "VGA"],
+          "features": ["AMD FreeSync", "Low Blue Light", "Flicker Free", "NearEdgeless 3 lados"],
+          "stand": "Tilt -5 a +22 grados",
+          "vesa": "100 x 100 mm",
+          "included": "Cable HDMI segun proveedor",
+          "warranty": "3 anos segun proveedor",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MNL-2084. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MNL-2084", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2640.43, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "493.0 x 209.5 x 367.4 mm con stand; 493.0 x 52.5 x 292.2 mm sin stand", "weight": "2.6 kg con stand; 2.2 kg sin stand" },
+        "sourceRefs": [
+          { "title": "Lenovo D22e-20 support overview", "type": "manufacturer_support", "url": "https://support.lenovo.com/docs/d22e_20" },
+          { "title": "Lenovo D22e-20 PSREF", "type": "manufacturer_datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Monitors/Lenovo_D22e_20/Lenovo_D22e_20_Spec.pdf" }
+        ]
+      }
+    }
+  ]
+}
