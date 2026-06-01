@@ -1,0 +1,395 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b282-2026-06-01",
+  "cycle": 3,
+  "batch": 282,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0hg09tjf2hojryy",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Eaton Tripp Lite",
+        "name": "Gabinete rack Eaton Tripp Lite SmartRack SRWF6U36 6U pared negro",
+        "description": "Gabinete SmartRack SRWF6U36 de Eaton Tripp Lite para montaje vertical en pared, 6U, profundidad servidor 36 pulgadas, acero negro, ventilado y con cerradura. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://assets.tripplite.com/product-pdfs/en/srwf6u36.pdf",
+        "manualCategoryPath": "infraestructura/racks-enfriamiento/gabinetes-pared/6u/tripp-lite-srwf6u36",
+        "semanticCategoryPath": "infraestructura/racks-enfriamiento/gabinetes-pared/6u",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCTRL3180/ACCTRL3180_full.jpg"],
+        "documents": ["https://assets.tripplite.com/product-pdfs/en/srwf6u36.pdf", "https://www.eaton.com/content/dam/eaton/products/server-racks-enclosures-airflow-management/racks-enclosures/tl-wallmount-enclosures/eaton-tripp-lite-series-SRWF6U36-technical-data.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCTRL3180", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 6322.39, "currency": "MXN" }],
+        "specs": {
+          "model": "SRWF6U36",
+          "aliases": ["SRWF6U36", "ACCTRL3180", "037332190642"],
+          "upc": "037332190642",
+          "productType": "Gabinete rack de pared",
+          "rackUnits": "6U",
+          "rackStandard": "EIA 19 pulgadas",
+          "depth": "36 in server-depth",
+          "staticLoad": "150 lb / 68 kg",
+          "material": "Acero negro ventilado",
+          "features": ["montaje vertical en pared", "puerta con cerradura", "paneles ventilados", "compatible con switches, patch panels y servidores poco profundos"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCTRL3180. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCTRL3180", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6322.39, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["DigiKey lo lista como no normalmente stockeado/bajo pedido; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "43 x 25.6 x 11.5 in / 109.83 x 67.82 x 30.40 cm", "weight": "88.2 lb / 40.01 kg", "packageDimensions": "18 x 32 x 49 in", "packageWeight": "87 lb / 39.46 kg" },
+        "sourceRefs": [
+          { "title": "Eaton Tripp Lite SRWF6U36 datasheet", "type": "manufacturer_datasheet", "url": "https://assets.tripplite.com/product-pdfs/en/srwf6u36.pdf" },
+          { "title": "Eaton Tripp Lite SRWF6U36 technical data", "type": "manufacturer_datasheet", "url": "https://www.eaton.com/content/dam/eaton/products/server-racks-enclosures-airflow-management/racks-enclosures/tl-wallmount-enclosures/eaton-tripp-lite-series-SRWF6U36-technical-data.pdf" },
+          { "title": "CTOnline feed ACCTRL3180 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0hq7xker09q8o0j",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Mercusys",
+        "name": "Sistema WiFi mesh Mercusys Halo H80X AX3000 WiFi 6 3 piezas",
+        "description": "Sistema mesh Mercusys Halo H80X 3-pack WiFi 6 AX3000 con doble banda 2402+574 Mbps, roaming 802.11k/v/r, mas de 150 dispositivos y tres puertos Gigabit por unidad. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.mercusys.com/en/product/mesh/halo-h80x/v1.20/",
+        "manualCategoryPath": "redes/routers/mesh-wifi/wifi-6/ax3000/3-pack/mercusys-halo-h80x",
+        "semanticCategoryPath": "redes/routers/mesh-wifi/wifi-6/ax3000/3-pack",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/KITMER100/KITMER100_full.jpg", "https://static.mercusys.com/product-image/01_normal20220520070503.jpg"],
+        "documents": ["https://www.mercusys.com/en/product/mesh/halo-h80x/v1.20/", "https://static.mercusys.com/manual/Halo_H80X%283-pack%29%28EU%29_V1_Datasheet20220525062654.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "KITMER100", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 109.19, "currency": "USD" }],
+        "specs": {
+          "model": "Halo H80X(3-pack)",
+          "aliases": ["Halo H80X(3-pack)", "Halo H80X 3-pack", "KITMER100", "849439000829"],
+          "upc": "849439000829",
+          "wifi": "WiFi 6 AX3000, 2402 Mbps 5GHz + 574 Mbps 2.4GHz",
+          "coverage": "hasta 7000 ft2 / 650 m2 en 3-pack",
+          "clients": "mas de 150 dispositivos",
+          "ports": "3 puertos Gigabit por unidad",
+          "security": ["WPA", "WPA2", "WPA3"],
+          "modes": ["Router", "Access Point"],
+          "features": ["802.11k/v/r roaming", "beamforming", "OFDMA", "MU-MIMO", "app Mercusys"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para KITMER100. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "KITMER100", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 109.19, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["PCDigital muestra el 3-pack agotado; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "128 x 81 x 83.7 mm por unidad", "packageWeight": "1.6 kg retailer, no oficial" },
+        "sourceRefs": [
+          { "title": "Mercusys Halo H80X oficial", "type": "manufacturer_page", "url": "https://www.mercusys.com/en/product/mesh/halo-h80x/v1.20/" },
+          { "title": "Mercusys Halo H80X 3-pack datasheet", "type": "manufacturer_datasheet", "url": "https://static.mercusys.com/manual/Halo_H80X%283-pack%29%28EU%29_V1_Datasheet20220525062654.pdf" },
+          { "title": "CTOnline feed KITMER100 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0hry7id9ukt09xy",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Huawei",
+        "name": "Audifonos Huawei FreeClip open-ear Bluetooth beige dorado",
+        "description": "Audifonos true wireless Huawei FreeClip de oreja abierta, color beige/dorado, con C-bridge, Bluetooth, IP54 en audifonos, hasta 8h de musica y hasta 36h con estuche. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://consumer.huawei.com/mu/headphones/freeclip/specs/",
+        "manualCategoryPath": "audio/audifonos/bluetooth/oreja-abierta/huawei-freeclip-beige",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/oreja-abierta",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10475237", "https://consumer.huawei.com/dam/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/headphones/freeclip/specs/list-beige.png"],
+        "documents": ["https://consumer.huawei.com/mu/headphones/freeclip/specs/"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SPK-2784", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1814.74, "currency": "MXN" }],
+        "specs": {
+          "model": "55037342N-DS",
+          "aliases": ["55037342N-DS", "55037342", "SPK-2784", "Huawei FreeClip"],
+          "productType": "Audifonos Bluetooth open-ear true wireless",
+          "design": "Acoustic Ball, C-bridge y Comfort Bean",
+          "codecs": ["SBC", "AAC", "L2HC"],
+          "battery": "hasta 8 h musica; hasta 36 h con estuche",
+          "charging": ["USB-C", "carga inalambrica aprox. 2W"],
+          "protection": "IP54 en audifonos",
+          "color": "Beige / dorado",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SPK-2784. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SPK-2784", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1814.74, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta muestra disponibilidad externa para SKU 55037342; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "26.70 x 22.00 x 25.30 mm por audifono", "weight": "5.6 g por audifono", "caseDimensions": "59.70 x 51.95 x 27.35 mm", "caseWeight": "44.5 g" },
+        "sourceRefs": [
+          { "title": "Huawei FreeClip specs", "type": "manufacturer_page", "url": "https://consumer.huawei.com/mu/headphones/freeclip/specs/" },
+          { "title": "CVA feed SPK-2784 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0htun1lj4kr9v9d",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Kingston",
+        "name": "Memoria USB Kingston DataTraveler Kyson 128GB USB 3.2 metalica",
+        "description": "Memoria USB-A Kingston DataTraveler Kyson DTKN/128GB de 128GB, USB 3.2 Gen 1, carcasa metalica sin tapa, aro para llavero y velocidades de hasta 200 MB/s lectura y 60 MB/s escritura. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.kingston.com/en/usb-flash-drives/datatraveler-kyson-high-performance-usb-flash-drive",
+        "manualCategoryPath": "computo/almacenamiento/memorias-flash/usb/128gb/kingston-datatraveler-kyson",
+        "semanticCategoryPath": "computo/almacenamiento/memorias-flash/usb/128gb",
+        "legacyCategory": "storage",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/MEMKGN2290/MEMKGN2290_full.jpg", "https://media.kingston.com/kingston/key-features/ktc-keyfeatures-usb-dtkn-1-lg.jpg"],
+        "documents": ["https://www.kingston.com/en/usb-flash-drives/datatraveler-kyson-high-performance-usb-flash-drive", "https://www.kingston.com/datasheets/dtkn_en.pdf?_=v1"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "MEMKGN2340", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 10.75, "currency": "USD" }],
+        "specs": {
+          "model": "DTKN/128GB",
+          "aliases": ["DTKN/128GB", "DataTraveler Kyson", "MEMKGN2340", "MEMKGN2290", "740617309119"],
+          "upc": "740617309119",
+          "capacity": "128GB",
+          "interface": "USB 3.2 Gen 1 Type-A",
+          "readSpeed": "hasta 200 MB/s",
+          "writeSpeed": "hasta 60 MB/s",
+          "material": "Metalico sin tapa",
+          "warranty": "5 anos limitada",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para MEMKGN2340; imagen/feed sustituto MEMKGN2290. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "MEMKGN2340", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10.75, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H muestra DTKN/128GB en stock externo; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "39 x 12.6 x 4.9 mm", "weight": "4 g" },
+        "sourceRefs": [
+          { "title": "Kingston DataTraveler Kyson oficial", "type": "manufacturer_page", "url": "https://www.kingston.com/en/usb-flash-drives/datatraveler-kyson-high-performance-usb-flash-drive" },
+          { "title": "Kingston DTKN datasheet", "type": "manufacturer_datasheet", "url": "https://www.kingston.com/datasheets/dtkn_en.pdf?_=v1" },
+          { "title": "CTOnline feed MEMKGN2340 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0hzaqd8rd9geocd",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Xerox",
+        "name": "Multifuncional Xerox AltaLink C8230T laser color A3 30 ppm",
+        "description": "Multifuncional laser color Xerox AltaLink C8230T serie C8200, A3/tabloide, 30 ppm, DADF single-pass 130 hojas, pantalla tactil, USB, Ethernet, NFC, Wi-Fi/Bluetooth opcional. CTOnline/CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.xerox.com/en-us/office/multifunction-printers/altalink-c8200-series/specifications",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/color/a3/xerox-altalink-c8230t",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/color/a3",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10437736", "https://www.shop.xerox.com/media/catalog/product/c/8/c82xx-cover2-1000x1000_1.jpg"],
+        "documents": ["https://www.xerox.com/en-us/office/multifunction-printers/altalink-c8200-series/specifications", "https://www.office.xerox.com/latest/AC8SS-04UA.PDF"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "IMPXRX2820", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 4950.46, "currency": "USD" }, { "wholesalerId": "cva", "sku": "PR-2677", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 4846.24, "currency": "USD" }],
+        "specs": {
+          "model": "C8230_T",
+          "aliases": ["C8230_T", "C8230T", "C8230", "IMPXRX2820", "PR-2677"],
+          "productType": "Multifuncional laser color A3/tabloide",
+          "functions": ["imprime", "copia", "escanea", "email"],
+          "speed": "30 ppm",
+          "printResolution": "1200 x 2400 dpi",
+          "documentFeeder": "Single-pass DADF 130 hojas",
+          "connectivity": ["USB 2.0", "Gigabit Ethernet", "NFC", "Bluetooth iBeacon", "Wi-Fi/Wi-Fi Direct opcional"],
+          "paperCapacity": "2180 hojas configuracion T segun canal",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para IMPXRX2820 y CVA/PB reporta stock 0 para PR-2677. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "IMPXRX2820", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4950.46, "currency": "USD" }, { "providerId": "cva", "providerSku": "PR-2677", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 4846.24, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Xerox Shop indica cotizacion/llamar por disponibilidad; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "66.8 x 72.3 x 114.7 cm", "weight": "<160 kg" },
+        "sourceRefs": [
+          { "title": "Xerox AltaLink C8200 specifications", "type": "manufacturer_page", "url": "https://www.xerox.com/en-us/office/multifunction-printers/altalink-c8200-series/specifications" },
+          { "title": "Xerox AltaLink C8200 brochure", "type": "manufacturer_datasheet", "url": "https://www.office.xerox.com/latest/AC8SS-04UA.PDF" },
+          { "title": "CTOnline feed IMPXRX2820 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed PR-2677 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0i0j7wmuwr5m8p6",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Kyocera",
+        "name": "Multifuncional Kyocera ECOSYS MA5500ifx laser mono 57 ppm",
+        "description": "Multifuncional laser monocromatico Kyocera ECOSYS MA5500ifx 110C0Z2US0 con impresion/copia/escaneo/fax, 57 ppm carta, memoria 1.5GB, DADF dual-scan 100 hojas y ciclo maximo 250000 paginas/mes. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.kyoceradocumentsolutions.mx/es/products/mfp/ECOSYSMA5500IFX.html",
+        "manualCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal/kyocera-ecosys-ma5500ifx",
+        "semanticCategoryPath": "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/IMPKYC890/IMPKYC890_full.jpg", "https://www.kyoceradocumentsolutions.us/content/dam/kyocera-americas/us/products/mfp/ECOSYSMA5500IFX/square-540x540-MFP_MA5500ifx.png"],
+        "documents": ["https://www.kyoceradocumentsolutions.mx/es/products/mfp/ECOSYSMA5500IFX.html", "https://www.kyoceradocumentsolutions.eu/content/dam/download-center-cf/eu/documents/datasheet/ECOSYS_MA5500ifx__pdf.download.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "IMPKYC890", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 790.22, "currency": "USD" }],
+        "specs": {
+          "model": "110C0Z2US0",
+          "aliases": ["110C0Z2US0", "ECOSYS MA5500ifx", "MA5500ifx", "IMPKYC890", "632983080054"],
+          "upc": "632983080054",
+          "productType": "Multifuncional laser monocromatico A4/legal",
+          "functions": ["imprime", "copia", "escanea", "fax"],
+          "speed": "57 ppm carta / 55 ppm A4",
+          "resolution": "600 x 600 dpi, Fine 1200 / 1200 x 1200 segun region",
+          "memory": "1.5GB estandar, hasta 3.5GB",
+          "dutyCycle": "250000 paginas/mes",
+          "documentFeeder": "Dual Scan Document Processor 100 hojas",
+          "connectivity": ["USB 2.0", "Gigabit Ethernet", "USB Host", "Wi-Fi opcional"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para IMPKYC890. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "IMPKYC890", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 790.22, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["UPC confirmado por referencia ENERGY STAR externa; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "480 x 495 x 590 mm", "weight": "24.7 kg con toner", "packageDimensions": "633 x 570 x 710 mm", "packageWeight": "32 kg" },
+        "sourceRefs": [
+          { "title": "Kyocera MA5500ifx Mexico oficial", "type": "manufacturer_page", "url": "https://www.kyoceradocumentsolutions.mx/es/products/mfp/ECOSYSMA5500IFX.html" },
+          { "title": "Kyocera MA5500ifx datasheet EU", "type": "manufacturer_datasheet", "url": "https://www.kyoceradocumentsolutions.eu/content/dam/download-center-cf/eu/documents/datasheet/ECOSYS_MA5500ifx__pdf.download.pdf" },
+          { "title": "CTOnline feed IMPKYC890 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0i1r3yhn9rhuskm",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Zebra",
+        "name": "Lector Zebra LI3678-SR 1D industrial inalambrico kit USB",
+        "description": "Lector industrial Zebra LI3678-SR cordless 1D linear imager ultra-rugged, Bluetooth 4.0 LE, kit con base/cuna y USB, IP67 en scanner y bateria PowerPrecision+ 3100 mAh. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.zebra.com/pl/pl/products/spec-sheets/scanners/ultra-rugged-scanners/li36x8-sr.html",
+        "manualCategoryPath": "punto-de-venta/lectores-codigo-barras/1d-inalambricos/industriales/zebra-li3678-sr",
+        "semanticCategoryPath": "punto-de-venta/lectores-codigo-barras/1d-inalambricos/industriales",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/LCTZBR270/LCTZBR270_full.jpg"],
+        "documents": ["https://www.zebra.com/pl/pl/products/spec-sheets/scanners/ultra-rugged-scanners/li36x8-sr.html", "https://www.barcodefactory.com/pdf2/zebra/li3678.pdf", "https://prod-www.zebra.com/content/dam/support-dam/en/documentation/unrestricted/guide/product/MN002323A04ENa_LI3678-qsg-en.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "LCTZBR270", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 523.38, "currency": "USD" }],
+        "specs": {
+          "model": "LI3678",
+          "aliases": ["LI3678", "LI3678-SR", "LI3678-SR3U42A0S1W", "LCTZBR270"],
+          "productType": "Lector 1D industrial inalambrico",
+          "scanType": "1D linear imager standard range",
+          "interfaces": ["Bluetooth 4.0 LE", "USB", "RS232", "Keyboard Wedge"],
+          "protection": "IP67 scanner; cradle IP65 segun ficha",
+          "battery": "PowerPrecision+ Li-Ion 3100 mAh",
+          "autonomy": "140000+ escaneos por carga",
+          "useCase": "almacen, manufactura, exterior/logistica",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para LCTZBR270. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "LCTZBR270", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 523.38, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["BarcodeFactory/Summit muestran disponibilidad externa variable para kit LI3678-SR; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "18.5 x 7.6 x 14.2 cm", "weight": "386.5 g", "packageWeight": "3.9 lb kit retailer, no oficial" },
+        "sourceRefs": [
+          { "title": "Zebra LI36x8-SR specs", "type": "manufacturer_page", "url": "https://www.zebra.com/pl/pl/products/spec-sheets/scanners/ultra-rugged-scanners/li36x8-sr.html" },
+          { "title": "Zebra LI3678 spec sheet", "type": "manufacturer_datasheet", "url": "https://www.barcodefactory.com/pdf2/zebra/li3678.pdf" },
+          { "title": "CTOnline feed LCTZBR270 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0i1zqpn4i6n3kcx",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Dell",
+        "name": "Servidor rack Dell PowerEdge R360 Xeon 6353P 16GB 480GB SATA",
+        "description": "Servidor Dell PowerEdge R360 rack 1U con Intel Xeon 6353P 8 cores 2.7GHz, 16GB DDR5 ECC, SSD SATA 480GB, controladora H755 reportada por mayorista, 4 bahias 3.5 y sin sistema operativo. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.delltechnologies.com/asset/en-ph/products/servers/technical-support/poweredge-r360-spec-sheet.pdf",
+        "manualCategoryPath": "computo/servidores/rack/1u/dell-poweredge-r360/xeon-6353p-16gb-480gb",
+        "semanticCategoryPath": "computo/servidores/rack/1u/dell-poweredge-r360",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10480206", "https://i.dell.com/is/image/DellContent/content/dam/images/products/servers/poweredge/r360/dell-per360-8x2-5-no-bezel-lf-31.psd?fmt=png-alpha"],
+        "documents": ["https://www.delltechnologies.com/asset/en-ph/products/servers/technical-support/poweredge-r360-spec-sheet.pdf", "https://www.dell.com/support/manuals/en-us/poweredge-r360/r360_ism/chassis-dimensions?guid=guid-2c4e94a2-a37e-4ebb-b054-d1a2b016cdb5&lang=en-us", "https://www.intel.com/content/www/us/en/products/sku/241608/intel-xeon-6353p-processor-24m-cache-2-70-ghz/specifications.html"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SER-2617", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 92063.49, "currency": "MXN" }],
+        "specs": {
+          "model": "R360271_6353P116",
+          "aliases": ["R360271_6353P116", "R360271-6353P116", "SER-2617", "PowerEdge R360", "Xeon 6353P"],
+          "productType": "Servidor rack 1U",
+          "processor": "Intel Xeon 6353P, 8C/16T, 2.7GHz base, 24MB cache, 65W",
+          "memory": "16GB UDIMM ECC DDR5",
+          "storage": "480GB SATA SSD",
+          "controller": "PERC H755 reportada por proveedor; Dell docs tambien listan PERC H355/HBA355/H755 como opciones",
+          "driveBays": "hasta 4 x 3.5 in SAS/SATA hot-swap",
+          "os": "Sin sistema operativo",
+          "support": "3 anos ProSupport reportado por proveedor",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SER-2617. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SER-2617", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 92063.49, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Dell US config publica aparece Sold Out para configuracion R360; CPU 6353P confirmado por Intel. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "482.0 x 42.8 x 563.3 mm aprox. 4x3.5", "weight": "13.23 kg max con unidades; 9.01 kg sin unidades ni PSU" },
+        "sourceRefs": [
+          { "title": "Dell PowerEdge R360 spec sheet", "type": "manufacturer_datasheet", "url": "https://www.delltechnologies.com/asset/en-ph/products/servers/technical-support/poweredge-r360-spec-sheet.pdf" },
+          { "title": "Dell PowerEdge R360 chassis dimensions", "type": "manufacturer_manual", "url": "https://www.dell.com/support/manuals/en-us/poweredge-r360/r360_ism/chassis-dimensions?guid=guid-2c4e94a2-a37e-4ebb-b054-d1a2b016cdb5&lang=en-us" },
+          { "title": "Intel Xeon 6353P specs", "type": "manufacturer_page", "url": "https://www.intel.com/content/www/us/en/products/sku/241608/intel-xeon-6353p-processor-24m-cache-2-70-ghz/specifications.html" },
+          { "title": "CVA feed SER-2617 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0i29vjzov9plul9",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Microsoft",
+        "name": "Microsoft Office Home and Business 2024 ESD licencia digital 1 usuario PC Mac",
+        "description": "Licencia digital ESD Microsoft Office Home and Business 2024 EP2-06608, compra unica/perpetua para 1 usuario en PC o Mac, con Word, Excel, PowerPoint, Outlook y OneNote. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.microsoft.com/en-us/microsoft-365/p/office-home-business-2024/cfq7ttc0pbm7",
+        "manualCategoryPath": "software/licencias/microsoft/office-home-business/2024/esd-perpetua/ep2-06608",
+        "semanticCategoryPath": "software/licencias/microsoft/office-home-business/2024/esd-perpetua",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10440162", "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Office-2024-Home-Business-EN?bgc=FFFFFFFF&fmt=jpg&hei=270&qlt=90&wid=270"],
+        "documents": ["https://www.microsoft.com/en-us/microsoft-365/p/office-home-business-2024/cfq7ttc0pbm7", "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b48332_0b48332.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SWS-5764", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 195.79, "currency": "USD" }],
+        "specs": {
+          "model": "EP2-06608",
+          "aliases": ["EP2-06608", "SWS-5764", "Office Home and Business 2024", "Office Home & Business 2024 ESD"],
+          "licenseType": "ESD digital, compra unica/perpetua",
+          "usersDevices": "1 usuario, 1 PC o Mac",
+          "apps": ["Word", "Excel", "PowerPoint", "Outlook", "OneNote"],
+          "requirements": ["Internet", "cuenta Microsoft", "Windows 10/11 o macOS compatible"],
+          "physicalProduct": false,
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SWS-5764. CVA tiene sucursal Guadalajara; producto digital sin almacen fisico operativo.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SWS-5764", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 195.79, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Microsoft Store vende Office Home and Business 2024 como compra unica; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false },
+        "sourceRefs": [
+          { "title": "Microsoft Office Home and Business 2024 oficial", "type": "manufacturer_page", "url": "https://www.microsoft.com/en-us/microsoft-365/p/office-home-business-2024/cfq7ttc0pbm7" },
+          { "title": "Ingram Micro MX EP2-06608", "type": "distributor_specs", "url": "https://pimcontent1.ingrammicro.com/mx/assets/media/brochure/0b48332_0b48332.pdf" },
+          { "title": "CVA feed SWS-5764 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ib417gzj160x35",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TP-Link Omada",
+        "name": "Switch industrial TP-Link Omada IES208G 8 puertos Gigabit administrable",
+        "description": "Switch industrial TP-Link Omada IES208G Easy Managed con 8 puertos Gigabit, 6 RJ45 y 2 combo RJ45/SFP, administracion Omada Cloud/app/web, DIN rail/pared, IP40, fanless y operacion -40 a 75 C. CTOnline/CVA/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.tp-link.com/sg/business-networking/omada-switch-industrial/ies208g/",
+        "manualCategoryPath": "redes/switches/industriales/gigabit/8-puertos/omada-easy-managed/tp-link-ies208g",
+        "semanticCategoryPath": "redes/switches/industriales/gigabit/8-puertos/omada-easy-managed",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10480872", "https://static.tp-link.com/upload/image-header/IES208G_UN_1.0_Overview_normal_20250526030322u.png"],
+        "documents": ["https://www.tp-link.com/sg/business-networking/omada-switch-industrial/ies208g/", "https://static.tp-link.com/upload/product-overview/2025/202511/20251117/Datasheet_IES208G%28UN%291.0.pdf", "https://static.tp-link.com/upload/manual/2026/202605/20260527/1900000108_Omada%20Industrial%20Easy%20Managed%20Switch_Quick%20Start%20Guide_REV1.0.1.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "SWTTPL1460", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 90.91, "currency": "USD" }, { "wholesalerId": "cva", "sku": "NIC-5155", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 86.3, "currency": "USD" }],
+        "specs": {
+          "model": "IES208G",
+          "aliases": ["IES208G", "SWTTPL1460", "NIC-5155", "Omada Industrial Easy Managed Switch"],
+          "ports": "8 Gigabit: 6 x RJ45 10/100/1000 + 2 x combo RJ45/SFP",
+          "switchingCapacity": "16 Gbps",
+          "packetForwarding": "11.9 Mpps",
+          "management": ["Omada Cloud", "Omada app", "web UI"],
+          "features": ["VLAN", "QoS", "STP/RSTP", "LLDP", "LAG"],
+          "power": "entrada dual redundante 9.6-60V DC",
+          "environment": "-40 a 75 C, IP40, fanless, DIN rail/pared",
+          "protection": "6 kV Ethernet, 4 kV DC",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para SWTTPL1460 y CVA/PB reporta stock 0 para NIC-5155. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SWTTPL1460", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 90.91, "currency": "USD" }, { "providerId": "cva", "providerSku": "NIC-5155", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 86.3, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["SYSCOM muestra ficha publica del IES208G; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "129 x 95 x 45 mm", "weight": "0.56 kg" },
+        "sourceRefs": [
+          { "title": "TP-Link IES208G oficial", "type": "manufacturer_page", "url": "https://www.tp-link.com/sg/business-networking/omada-switch-industrial/ies208g/" },
+          { "title": "TP-Link IES208G datasheet", "type": "manufacturer_datasheet", "url": "https://static.tp-link.com/upload/product-overview/2025/202511/20251117/Datasheet_IES208G%28UN%291.0.pdf" },
+          { "title": "CTOnline feed SWTTPL1460 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" },
+          { "title": "CVA feed NIC-5155 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

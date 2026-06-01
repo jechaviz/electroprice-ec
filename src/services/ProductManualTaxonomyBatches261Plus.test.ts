@@ -274,6 +274,19 @@ const batch281Cases = [
   ["Peerless-AV SF650 AC-8100 soporte plano SmartMount 39 a 75 pulgadas 79 kg", "PEERLESS-AV", "video/soportes-tv/pared/fijos/39-75-79kg/peerless-av-sf650", "tvs", {}],
 ] as const;
 
+const batch282Cases = [
+  ["Tripp Lite SRWF6U36 ACCTRL3180 SmartRack gabinete pared 6U server depth 037332190642", "TRIPP-LITE", "infraestructura/racks-enfriamiento/gabinetes-pared/6u/tripp-lite-srwf6u36", "networking", {}],
+  ["Mercusys Halo H80X 3-pack KITMER100 AX3000 sistema WiFi 6 mesh 849439000829", "MERCUSYS", "redes/routers/mesh-wifi/wifi-6/ax3000/3-pack/mercusys-halo-h80x", "networking", {}],
+  ["Huawei FreeClip 55037342N-DS SPK-2784 audifonos open-ear beige Bluetooth", "HUAWEI", "audio/audifonos/bluetooth/oreja-abierta/huawei-freeclip-beige", "headphones", {}],
+  ["Kingston DataTraveler Kyson DTKN/128GB MEMKGN2340 USB 3.2 128GB 740617309119", "KINGSTON TECHNOLOGY", "computo/almacenamiento/memorias-flash/usb/128gb/kingston-datatraveler-kyson", "storage", {}],
+  ["Xerox AltaLink C8230_T IMPXRX2820 PR-2677 multifuncional laser color A3 30ppm", "XEROX", "impresion/impresoras/multifuncionales-laser/color/a3/xerox-altalink-c8230t", "printers_scanners", {}],
+  ["Kyocera MA5500ifx 110C0Z2US0 IMPKYC890 multifuncional laser mono 57ppm 632983080054", "KYOCERA", "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal/kyocera-ecosys-ma5500ifx", "printers_scanners", {}],
+  ["Zebra LI3678-SR LCTZBR270 lector codigo barras 1D industrial inalambrico kit USB", "ZEBRA", "punto-de-venta/lectores-codigo-barras/1d-inalambricos/industriales/zebra-li3678-sr", "accessories", {}],
+  ["Dell PowerEdge R360271_6353P116 SER-2617 servidor rack 1U Xeon 6353P 16GB 480GB SATA H755", "DELL", "computo/servidores/rack/1u/dell-poweredge-r360/xeon-6353p-16gb-480gb", "laptops", {}],
+  ["Microsoft Office Home and Business 2024 EP2-06608 SWS-5764 ESD perpetua digital 1 usuario PC Mac", "MICROSOFT", "software/licencias/microsoft/office-home-business/2024/esd-perpetua/ep2-06608", "software", {}],
+  ["TP-Link IES208G SWTTPL1460 NIC-5155 switch industrial Omada Easy Managed 8 puertos Gigabit", "TP LINK", "redes/switches/industriales/gigabit/8-puertos/omada-easy-managed/tp-link-ies208g", "networking", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -396,6 +409,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch281Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch282Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
