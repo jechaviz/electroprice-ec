@@ -118,6 +118,19 @@ const batch269Cases = [
   ["Nextep NE-128 ACCNTE200 perforadora manual oficina 1 orificio 6mm 7501811272561", "NEXTEP", "oficina/equipo-oficina/perforadoras/1-orificio-6mm/nextep-ne-128", "accessories", {}],
 ] as const;
 
+const batch270Cases = [
+  ["Apple IPH14PM128/PL CELMAC660 iPhone 14 Pro Max 128GB eSIM Plata RFB", "APPLE", "telefonia/smartphones/apple/iphone/iphone-14-pro-max/128gb-esim-plata-rfb/iph14pm128-pl", "smartphones", {}],
+  ["Stylos STTA81A TLCSTY670 tablet Android 8 pulgadas 2GB 32GB azul con funda 7503041018407", "STYLOS", "computo/tabletas/android/8-pulgadas/2gb-32gb/stylos-stta81a", "tablets", {}],
+  ["Nextep NE-017N ACCNEX2290 sobre con burbuja grande autoadherible No.5 paquete 25 10.5 x 16", "NEXTEP", "oficina/papeleria/sobres/acolchados-burbuja/no-5-10-5x16-paquete-25/nextep-ne-017n", "accessories", {}],
+  ["Ocelot Gaming A-CUBE 1 CS-870 gabinete gamer ATX M-ATX ITX cristal templado GPU 410mm", "OCELOT GAMING", "computo/componentes/gabinetes/gaming/atx-mid-tower/cubo-cristal-argb/ocelot-a-cube-1", "components", {}],
+  ["Yeyian YTM-28207R TECYEY130 teclado gamer Asward Serie 3000 mecanico switch rojo RGB 7503028761579", "YEYIAN", "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb/switch-rojo/yeyian-asward-ytm-28207r", "gaming", {}],
+  ["Apple IPH13PM256/VD CELMAC1540 iPhone 13 Pro Max 256GB verde RFB", "APPLE", "telefonia/smartphones/apple/iphone/iphone-13-pro-max/256gb-verde-rfb/iph13pm256-vd", "smartphones", {}],
+  ["Balam Rush BR-940382 KB-1090 Dominate Expert GK979I teclado gamer dual recargable RGB", "BALAM RUSH", "computo/perifericos/teclados/gaming/mecanicos/inalambricos-full-size-rgb/balam-rush-dominate-gk979i-br-940382", "gaming", {}],
+  ["Cambium Networks XV2-22H0A00-RW ACPCAM060 cnPilot XV2-22H WiFi 6 wall plate", "CAMBIUM NETWORKS", "redes/access-points/wifi-6/wall-plate/cambium-xv2-22h0a00-rw", "networking", {}],
+  ["Acteck EP425 BOCACT180 Boost Plus audifonos bluetooth in ear 7506215935104", "ACTECK", "audio/audifonos/bluetooth/tws/in-ear/acteck-boost-plus-ep425", "headphones", {}],
+  ["Xzeal XZ05R SILSTY070 silla gamer roja soporte lumbar 110kg 7503027017110", "XZEAL", "gaming/mobiliario/sillas-gamer/pvc/reclinables-110kg/xzeal-xz05r-roja", "gaming", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -168,6 +181,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch269Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch270Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

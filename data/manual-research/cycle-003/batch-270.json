@@ -1,0 +1,449 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b270-2026-06-01",
+  "cycle": 3,
+  "batch": 270,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "05v9bbun21doexd",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Apple",
+        "name": "Apple iPhone 14 Pro Max IPH14PM128/PL 128GB eSIM plata reacondicionado",
+        "description": "iPhone 14 Pro Max reacondicionado color plata con 128GB, eSIM segun proveedor, pantalla Super Retina XDR OLED de 6.7 pulgadas, chip A16 Bionic, camara principal de 48MP, 5G, Face ID, MagSafe y Lightning. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://support.apple.com/en-us/111846",
+        "manualCategoryPath": "telefonia/smartphones/apple/iphone/iphone-14-pro-max/128gb-esim-plata-rfb/iph14pm128-pl",
+        "semanticCategoryPath": "telefonia/smartphones/apple/iphone/iphone-14-pro-max/128gb-esim-plata-rfb",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CELMAC660/CELMAC660_full.jpg",
+          "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-pro-max-silver-select?wid=470&hei=556&fmt=png-alpha&.v=1660753619946"
+        ],
+        "documents": ["https://support.apple.com/en-us/111846"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CELMAC660", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 14704.5, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "iPhone 14 Pro Max",
+          "partNumber": "IPH14PM128/PL",
+          "providerSku": "CELMAC660",
+          "productType": "Smartphone reacondicionado",
+          "storage": "128GB",
+          "ram": "6GB reportado por proveedor",
+          "color": "Plata",
+          "screen": "6.7 pulgadas Super Retina XDR OLED, 2796 x 1290, 460 ppi",
+          "processor": "Apple A16 Bionic",
+          "rearCamera": "48MP principal, 12MP ultra wide, 12MP telephoto",
+          "connectivity": ["5G", "Wi-Fi", "Bluetooth", "NFC", "Lightning"],
+          "biometrics": "Face ID",
+          "charging": ["MagSafe", "Qi"],
+          "durability": "IP68",
+          "os": "iOS 16 base segun familia; equipo RFB puede variar por reacondicionamiento",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CELMAC660. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CELMAC660", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 14704.5, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "160.7 x 77.6 x 7.85 mm", "weight": "240 g" },
+        "sourceRefs": [
+          { "title": "Apple iPhone 14 Pro Max technical specifications", "type": "manufacturer_support", "url": "https://support.apple.com/en-us/111846" },
+          { "title": "CTOnline CELMAC660 provider image", "type": "provider_asset", "url": "https://static.ctonline.mx/imagenes/CELMAC660/CELMAC660_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "05zhs7lnwrtsdw6",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Stylos",
+        "name": "Tableta Stylos Taris V2 STTA81A 8 pulgadas 2GB 32GB Android 11 azul con funda TPU",
+        "description": "Tableta Stylos Taris V2 STTA81A azul con pantalla IPS de 8 pulgadas 1280 x 800, procesador Unisoc T310 quad-core, 2GB RAM, 32GB almacenamiento, Android 11, camaras 0.3MP frontal y 2MP trasera, USB-C, jack 3.5mm, tarjeta TF y funda TPU incluida. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.bodegaaurrera.com.mx/ip/tablets/tablet-8-stylos-taris-v2-quad-core-2gb-ram-32gb-wifi-android-11-funda-tpu-usb-c-azul-stta81a/00750304101840",
+        "manualCategoryPath": "computo/tabletas/android/8-pulgadas/2gb-32gb/stylos-stta81a",
+        "semanticCategoryPath": "computo/tabletas/android/8-pulgadas/2gb-32gb",
+        "legacyCategory": "tablets",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/TLCSTY670/TLCSTY670_full.jpg"
+        ],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TLCSTY670", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 901.26, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "STTA81A",
+          "ean": "7503041018407",
+          "productType": "Tableta Android",
+          "display": "8 pulgadas IPS, 1280 x 800",
+          "processor": "Unisoc T310 quad-core",
+          "ram": "2GB",
+          "storage": "32GB",
+          "expandableStorage": "Tarjeta TF, hasta 512GB segun referencias de retail",
+          "operatingSystem": "Android 11",
+          "cameras": "0.3MP frontal, 2MP trasera",
+          "ports": ["USB-C", "3.5mm audio", "Tarjeta TF"],
+          "wireless": ["Wi-Fi", "Bluetooth"],
+          "battery": "4000mAh segun referencias de retail",
+          "includedAccessories": ["Funda TPU"],
+          "color": "Azul",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TLCSTY670. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TLCSTY670", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 901.26, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "22 x 13 x 1 cm ensamblado segun retail", "weight": "1 kg ensamblado segun retail" },
+        "sourceRefs": [
+          { "title": "Bodega Aurrera STTA81A", "type": "retailer_reference", "url": "https://www.bodegaaurrera.com.mx/ip/tablets/tablet-8-stylos-taris-v2-quad-core-2gb-ram-32gb-wifi-android-11-funda-tpu-usb-c-azul-stta81a/00750304101840" },
+          { "title": "Cyberpuerta STTA81A", "type": "retailer_reference", "url": "https://www.cyberpuerta.mx/Computadoras/Tablets/Tablets/Tablet-Stylos-Taris-V2-8-1280x800-32GB-2GB-RAM-Android-11-Azul.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "0632ansmlybi72a",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Nextep",
+        "name": "Sobre con burbuja Nextep NE-017N grande No. 5 10.5 x 16 pulgadas paquete 25",
+        "description": "Paquete de 25 sobres acolchados Nextep NE-017N No. 5, tamano 10.5 x 16 pulgadas, cierre autoadherible y burbuja plastica para proteccion en envios y paqueteria. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://intercompras.com/p/sobre-con-burbuja-nextep-autoadherible-105x16-paquete-con-piezas-446773",
+        "manualCategoryPath": "oficina/papeleria/sobres/acolchados-burbuja/no-5-10-5x16-paquete-25/nextep-ne-017n",
+        "semanticCategoryPath": "oficina/papeleria/sobres/acolchados-burbuja/no-5-10-5x16-paquete-25",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNEX2290/ACCNEX2290_full.jpg"],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACCNEX2290", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 172.61, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "NE-017N",
+          "productType": "Sobre acolchado con burbuja",
+          "size": "No. 5",
+          "packQuantity": 25,
+          "closure": "Autoadherible",
+          "material": "Papel kraft con burbuja plastica interna",
+          "useCases": ["Envios", "Paqueteria", "Proteccion documental y articulos ligeros"],
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACCNEX2290. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACCNEX2290", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 172.61, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "10.5 x 16 in / 26.67 x 40.64 cm", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Intercompras Nextep NE-017N", "type": "retailer_reference", "url": "https://intercompras.com/p/sobre-con-burbuja-nextep-autoadherible-105x16-paquete-con-piezas-446773" },
+          { "title": "CTOnline ACCNEX2290 provider image", "type": "provider_asset", "url": "https://static.ctonline.mx/imagenes/ACCNEX2290/ACCNEX2290_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "063xdw419hlsjyc",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Ocelot Gaming",
+        "name": "Gabinete gamer Ocelot Gaming A-CUBE 1 CS-870 ATX cristal templado ARGB negro",
+        "description": "Gabinete gamer Ocelot A-CUBE 1 tipo cubo compatible ATX, Micro ATX e ITX, panel lateral de cristal templado, panel frontal/lateral con vista, 3 ventiladores ARGB incluidos, hasta 410mm para GPU, soporte para radiador de hasta 360mm y fuente ATX. CVA reporta stock 0.",
+        "manufacturerUrl": "https://ocelot.com.mx/producto/gabinete-gamer-a-cube-1/",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/cubo-cristal-argb/ocelot-a-cube-1",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/cubo-cristal-argb",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10372932"
+        ],
+        "documents": ["https://ocelot.com.mx/wp-content/uploads/2024/12/gabinete-A-CUBE-1.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "CS-870", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 65.55, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "A-CUBE 1",
+          "providerSku": "CS-870",
+          "productType": "Gabinete gamer tipo cubo",
+          "motherboardSupport": ["ATX", "Micro ATX", "ITX"],
+          "material": "Chasis 0.6mm, cristal templado y panel de aluminio",
+          "includedFans": "3 ventiladores ARGB",
+          "fanCapacity": "Hasta 9 ventiladores de 120mm",
+          "radiatorSupport": "Hasta 360mm",
+          "gpuClearance": "Hasta 410mm",
+          "driveBays": ["2 x 2.5 in SSD", "1 x 3.5 in HDD"],
+          "frontIo": ["2 x USB 2.0", "1 x USB 3.0", "Audio HD", "Microfono", "Power", "Reset"],
+          "color": "Negro",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para CS-870. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "CS-870", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 65.55, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "380 x 285 x 420 mm", "weight": "4.15 kg", "packageDimensions": "440 x 351 x 535 mm", "packageWeight": "5 kg" },
+        "sourceRefs": [
+          { "title": "Ocelot A-CUBE 1 official product page", "type": "manufacturer_product", "url": "https://ocelot.com.mx/producto/gabinete-gamer-a-cube-1/" },
+          { "title": "Ocelot A-CUBE 1 PDF", "type": "manufacturer_datasheet", "url": "https://ocelot.com.mx/wp-content/uploads/2024/12/gabinete-A-CUBE-1.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0649s9m1vfr6mt9",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Yeyian",
+        "name": "Teclado mecanico gamer Yeyian Asward YTM-28207R Serie 3000 RGB switch rojo espanol",
+        "description": "Teclado gamer Yeyian Asward Serie 3000 YTM-28207R con switches mecanicos rojos, formato full-size, distribucion en espanol, iluminacion RGB/arcoiris con efectos, USB alambrico, N-Key Rollover y construccion ABS/metal con proteccion IP42 reportada por referencias. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://pcmig.com.mx/producto/yeyian-teclado-gamer-asward-serie-3000-switch-rojo-modelo-ytm-28207r/",
+        "manualCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb/switch-rojo/yeyian-asward-ytm-28207r",
+        "semanticCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/full-size-rgb/switch-rojo",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TECYEY130/TECYEY130_full.jpg"],
+        "documents": ["https://www.micom.mx/storage/recursos/Ficha_t%C3%A9cnica_YTM28207R.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "TECYEY130", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 20.56, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "YTM-28207R",
+          "ean": "7503028761579",
+          "productLine": "Asward Serie 3000",
+          "productType": "Teclado mecanico gamer",
+          "switchType": "Rojo Outemu",
+          "layout": "Espanol full-size",
+          "keys": "105 teclas",
+          "connection": "USB alambrico",
+          "lighting": "RGB/arcoiris, 18 efectos segun referencias",
+          "pollingRate": "1000Hz segun referencias de retail",
+          "durability": "50 millones de pulsaciones, IP42 reportado por referencias",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para TECYEY130. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "TECYEY130", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 20.56, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "445 x 145 x 42 mm segun retail", "weight": "1.12 kg +/- 10 g segun retail" },
+        "sourceRefs": [
+          { "title": "PCMIG Yeyian YTM-28207R", "type": "retailer_reference", "url": "https://pcmig.com.mx/producto/yeyian-teclado-gamer-asward-serie-3000-switch-rojo-modelo-ytm-28207r/" },
+          { "title": "XtremeTecPc YTM-28207R", "type": "retailer_reference", "url": "https://www.xtremetecpc.com/producto/teclado-yeyian-asward-serie-3000-mecanico-switch-rojo-rgb-ytm-28207r_1" }
+        ]
+      }
+    },
+    {
+      "product_id": "068pd20zdytlpb9",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Apple",
+        "name": "Apple iPhone 13 Pro Max IPH13PM256/VD 256GB verde reacondicionado",
+        "description": "iPhone 13 Pro Max reacondicionado color verde con 256GB, pantalla Super Retina XDR OLED de 6.7 pulgadas con ProMotion, chip A15 Bionic, triple camara de 12MP, 5G, Face ID, MagSafe y Lightning. El proveedor indica iOS 14, pero esta familia salio con iOS 15; el sistema del equipo RFB puede variar. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://support.apple.com/en-us/111870",
+        "manualCategoryPath": "telefonia/smartphones/apple/iphone/iphone-13-pro-max/256gb-verde-rfb/iph13pm256-vd",
+        "semanticCategoryPath": "telefonia/smartphones/apple/iphone/iphone-13-pro-max/256gb-verde-rfb",
+        "legacyCategory": "smartphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://static.ctonline.mx/imagenes/CELMAC1540/CELMAC1540_full.jpg",
+          "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-max-green-select?wid=470&hei=556&fmt=png-alpha&.v=1645036270628"
+        ],
+        "documents": ["https://support.apple.com/en-us/111870"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CELMAC1540", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 13354.1, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "iPhone 13 Pro Max",
+          "partNumber": "IPH13PM256/VD",
+          "providerSku": "CELMAC1540",
+          "productType": "Smartphone reacondicionado",
+          "storage": "256GB",
+          "ram": "6GB reportado por proveedor",
+          "color": "Verde",
+          "screen": "6.7 pulgadas Super Retina XDR OLED con ProMotion, 2778 x 1284, 458 ppi",
+          "processor": "Apple A15 Bionic",
+          "rearCamera": "Triple 12MP: wide, ultra wide y telephoto",
+          "connectivity": ["5G", "Wi-Fi", "Bluetooth", "NFC", "Lightning"],
+          "biometrics": "Face ID",
+          "charging": ["MagSafe", "Qi"],
+          "durability": "IP68",
+          "os": "Proveedor indica iOS 14; familia iPhone 13 Pro Max se lanzo con iOS 15",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CELMAC1540. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CELMAC1540", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 13354.1, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "160.8 x 78.1 x 7.65 mm", "weight": "240 g" },
+        "sourceRefs": [
+          { "title": "Apple iPhone 13 Pro Max technical specifications", "type": "manufacturer_support", "url": "https://support.apple.com/en-us/111870" },
+          { "title": "CTOnline CELMAC1540 provider image", "type": "provider_asset", "url": "https://static.ctonline.mx/imagenes/CELMAC1540/CELMAC1540_full.jpg" }
+        ]
+      }
+    },
+    {
+      "product_id": "06da59exvtzzhsh",
+      "research": {
+        "confidence": 0.92,
+        "brand": "Balam Rush",
+        "name": "Teclado mecanico inalambrico Balam Rush Dominate Expert GK979I BR-940382 RGB switch red",
+        "description": "Teclado mecanico gamer Balam Rush Dominate Expert GK979I BR-940382 negro, dual recargable USB-C/USB-A y 2.4GHz/Bluetooth 5.0, 105 teclas, switch red Outemu, RGB, multidispositivo hasta 5 equipos, bateria 3000mAh y compatibilidad Windows, Mac y Android. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.pcel.com/BALAM-RUSH-BR-940382-Teclado-Gamer-Inalambrico-DOMINATE-EXPERT-GK979I-Balam-Rush-USB-Bluetooth-Multidispositivo-Color-Negro-534189",
+        "manualCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/inalambricos-full-size-rgb/balam-rush-dominate-gk979i-br-940382",
+        "semanticCategoryPath": "computo/perifericos/teclados/gaming/mecanicos/inalambricos-full-size-rgb",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10448608"],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "KB-1090", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 928.96, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "BR-940382 / GK979I",
+          "ean": "7506215940382",
+          "productLine": "Dominate Expert",
+          "productType": "Teclado mecanico gamer inalambrico",
+          "switchType": "Red Switch Outemu",
+          "layout": "105 teclas, ingles con impresion al espanol",
+          "connections": ["USB-C a USB-A", "2.4GHz dongle", "Bluetooth 5.0"],
+          "multiDevice": "Hasta 5 dispositivos",
+          "lighting": "RGB, 18 modos y 5 niveles de velocidad",
+          "battery": "Litio recargable 5V 3000mAh",
+          "runtime": "30 h con iluminacion, 300 h sin iluminacion segun referencia",
+          "compatibility": ["Windows", "Mac", "Android"],
+          "color": "Negro",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para KB-1090. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "KB-1090", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 928.96, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "44.3 x 20.4 x 3.3 cm", "weight": "950 g", "packageDimensions": "48.5 x 25 x 5.3 cm" },
+        "sourceRefs": [
+          { "title": "PCEL Balam Rush BR-940382", "type": "retailer_reference", "url": "https://www.pcel.com/BALAM-RUSH-BR-940382-Teclado-Gamer-Inalambrico-DOMINATE-EXPERT-GK979I-Balam-Rush-USB-Bluetooth-Multidispositivo-Color-Negro-534189" },
+          { "title": "Global Office Balam Rush BR-940382", "type": "retailer_reference", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/games/teclado-gamer-balam-rush-dominate-expert-gk979i-negro-inalam/br-940382" }
+        ]
+      }
+    },
+    {
+      "product_id": "06dpuynr0pk6lzk",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Cambium Networks",
+        "name": "Access point Cambium cnPilot XV2-22H0A00-RW Wi-Fi 6 wall plate dual radio",
+        "description": "Access point Cambium cnPilot XV2-22H de pared para interiores/hospitality con Wi-Fi 6 802.11ax, radios 2.4GHz y 5GHz 2x2:2, 16 WLAN por radio, hasta 128 clientes por radio, seguridad WPA3/WPA2, antenas internas, IoT BLE/Zigbee segun configuracion y gestion cnMaestro. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.cambiumnetworks.com/products/wifi/xv2-22h-wi-fi-6-indoor-access-point/",
+        "manualCategoryPath": "redes/access-points/wifi-6/wall-plate/cambium-xv2-22h0a00-rw",
+        "semanticCategoryPath": "redes/access-points/wifi-6/wall-plate",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACPCAM060/ACPCAM060_full.jpg"],
+        "documents": ["https://www.cambiumnetworks.com/resource/xv2-22h-indoor-wall-and-desktop-wi-fi-6-access-point-data-sheet/"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "ACPCAM060", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 319.42, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "XV2-22H0A00-RW",
+          "productLine": "cnPilot XV2-22H",
+          "productType": "Access point Wi-Fi 6 wall plate interior",
+          "wifiStandard": "802.11ax Wi-Fi 6",
+          "radios": ["1 x 5GHz 802.11ax 2x2:2", "1 x 2.4GHz 802.11ax 2x2:2", "IoT 802.15.4 o 802.15.1 segun variante"],
+          "clientCapacity": "128 clientes por radio, 256 total",
+          "wlanProfiles": "16 por radio",
+          "security": ["WPA3-SAE", "WPA3-Enterprise", "WPA2 AES", "802.1x"],
+          "antennas": "Internas omnidireccionales",
+          "management": "cnMaestro cloud/controller",
+          "deployment": "Wall plate interior para hoteleria/oficinas",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para ACPCAM060. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "ACPCAM060", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 319.42, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "160 x 105 x 32 mm segun datasheet/referencias", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Cambium XV2-22H official product page", "type": "manufacturer_product", "url": "https://www.cambiumnetworks.com/products/wifi/xv2-22h-wi-fi-6-indoor-access-point/" },
+          { "title": "Cambium XV2-22H data sheet", "type": "manufacturer_datasheet", "url": "https://www.cambiumnetworks.com/resource/xv2-22h-indoor-wall-and-desktop-wi-fi-6-access-point-data-sheet/" }
+        ]
+      }
+    },
+    {
+      "product_id": "06gxxlu5woff5oj",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Acteck",
+        "name": "Audifonos TWS Acteck Boost Plus EP425 AC-935104 Bluetooth 5.1 ENC negros",
+        "description": "Audifonos in-ear True Wireless Stereo Acteck Boost Plus EP425 / AC-935104 color negro con Bluetooth 5.1 y cancelacion ENC segun pagina oficial, disenados para uso movil cotidiano. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://acteck.com/products/boost-plus-ep425",
+        "manualCategoryPath": "audio/audifonos/bluetooth/tws/in-ear/acteck-boost-plus-ep425",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/tws/in-ear",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/BOCACT180/BOCACT180_full.jpg"],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "BOCACT180", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 218.1, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "EP425",
+          "partNumber": "AC-935104",
+          "ean": "7506215935104",
+          "productType": "Audifonos TWS in-ear",
+          "formFactor": "In-ear",
+          "wirelessTechnology": "Bluetooth 5.1",
+          "noiseReduction": "ENC segun pagina oficial",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para BOCACT180. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "BOCACT180", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 218.1, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "No publicado", "weight": "No publicado" },
+        "sourceRefs": [
+          { "title": "Acteck Boost Plus EP425 official product page", "type": "manufacturer_product", "url": "https://acteck.com/products/boost-plus-ep425" },
+          { "title": "Sanborns Boost Plus EP425 EAN reference", "type": "retailer_reference", "url": "https://www.sanborns.com.mx/producto/354814/audifonos-boost-plus-ep425-in-ear-bluetooth-negro" }
+        ]
+      }
+    },
+    {
+      "product_id": "06i5fpk2fy93gzz",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Xzeal",
+        "name": "Silla gamer Xzeal XZ05R roja PVC reclinable 90 a 165 grados soporte lumbar 110kg",
+        "description": "Silla gamer Xzeal XZ05R roja con estructura de acero, espuma tipo 30, funda PVC, respaldo reclinable 90 a 165 grados, piston hidraulico de gas, soporte lumbar y superior, almohadillas lumbar y de cuello, base de 5 soportes metalicos y capacidad hasta 110kg. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.pcel.com/XZEAL-XZSXZ05R-Silla-Gamer-Xzeal-XZ05-Inclinacion-ajustable-Soporte-Lumbar-Soporta-hasta-110kg-Color-Rojo-318104",
+        "manualCategoryPath": "gaming/mobiliario/sillas-gamer/pvc/reclinables-110kg/xzeal-xz05r-roja",
+        "semanticCategoryPath": "gaming/mobiliario/sillas-gamer/pvc/reclinables-110kg",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SILSTY070/SILSTY070_1_full.jpg"],
+        "documents": [],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "SILSTY070", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 2161.44, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "XZ05R / XZSXZ05R",
+          "ean": "7503027017110",
+          "productType": "Silla gamer",
+          "color": "Rojo",
+          "upholstery": "PVC",
+          "foam": "Foam tipo 30",
+          "frame": "Acero",
+          "recline": "90 a 165 grados",
+          "piston": "Hidraulico de gas",
+          "maxLoad": "110 kg",
+          "supports": ["Soporte lumbar", "Soporte superior", "Almohadilla lumbar", "Almohadilla de cuello"],
+          "base": "5 soportes metalicos",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para SILSTY070. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "SILSTY070", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2161.44, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "heightRange": "130 cm a 190 cm", "weight": "20 kg" },
+        "sourceRefs": [
+          { "title": "PCEL Xzeal XZ05R", "type": "retailer_reference", "url": "https://www.pcel.com/XZEAL-XZSXZ05R-Silla-Gamer-Xzeal-XZ05-Inclinacion-ajustable-Soporte-Lumbar-Soporta-hasta-110kg-Color-Rojo-318104" },
+          { "title": "Intercompras Xzeal XZ05", "type": "retailer_reference", "url": "https://intercompras.com/p/silla-gamer-xzeal-xz05-soporta-110kg-negro-con-rojo-172647" }
+        ]
+      }
+    }
+  ]
+}
