@@ -313,6 +313,19 @@ const batch284Cases = [
   ["Kaspersky KL4066ZANFS SOFKPS2420 Next EDR Optimum 20-24 licencias 1 ano", "KASPERSKY", "software/seguridad/endpoint/kaspersky-next/edr-optimum/20-24-licencias-1-ano/kl4066zanfs", "software", {}],
 ] as const;
 
+const batch285Cases = [
+  ["Gigabyte GV-N3050OC-6GL TVIGIG3340 GeForce RTX 3050 OC Low Profile 6G 6GB GDDR6", "GIGABYTE", "computo/componentes/tarjetas-video/nvidia-geforce/rtx-30/rtx-3050/gigabyte-gv-n3050oc-6gl-low-profile", "gaming", {}],
+  ["Cisco Catalyst C1300-16P-2G SWTCIS4390 switch PoE+ 16 puertos Gigabit 120W 2 SFP", "CISCO", "redes/switches/poe-administrables/gigabit/16-puertos-2-sfp/120w/cisco-c1300-16p-2g", "networking", {}],
+  ["Nextep NE-177 ACCNTE490 organizador de cajon malla metalica negro 6 compartimientos 28 x 15.8", "NEXTEP", "oficina/organizacion/escritorio/organizadores-cajon/malla-metalica/nextep-ne-177", "accessories", {}],
+  ["XPG Cruiser CRUISERST-WHCWW GABDAT270 gabinete gamer blanco mid tower vidrio templado ARGB", "XPG", "computo/componentes/gabinetes/gaming/atx-mid-tower/vidrio-templado-argb/blanco/xpg-cruiser", "components", {}],
+  ["Grandstream GRP2612P TELGDM320 TEL-205 telefono IP 4 lineas PoE 16 BLF", "GRANDSTREAM", "telefonia/telefonos-ip/escritorio/4-lineas/poe/grandstream-grp2612p", "networking", {}],
+  ["Poly 7Y8G3AA SPK-2597 Voyager Free 60+ UC audifonos TWS ANC BT700 USB-A", "POLY", "audio/audifonos/bluetooth/true-wireless/anc/uc/poly-voyager-free-60-plus-7y8g3aa", "headphones", {}],
+  ["Lexmark C746A1MG TONLXM3300 toner magenta Return Program 7000 paginas C746 C748", "LEXMARK", "impresion/consumibles/toner-laser/lexmark/c746-c748/c746a1mg-magenta", "printers_scanners", {}],
+  ["Kaspersky KL4541ZDETS SWS-6024 Small Office Security 5 desktop 5 mobile 1 file server 3 anos", "KASPERSKY", "software/seguridad/antivirus/kaspersky-small-office/5-dispositivos-5-moviles-1-servidor/3-anos/kl4541zdets", "software", {}],
+  ["Apple MWTY3AM/A ACCMAC4360 EarPods con conector Lightning 195949506055", "APPLE", "audio/audifonos/alambricos-lightning/in-ear-control-remoto/apple-earpods-mwty3ama", "headphones", {}],
+  ["Clar Systems CSY010 DISCSY010 dispensador papel higienico Mini Innova rollo industrial 250mm", "CLAR SYSTEMS", "hogar/higiene/dispensadores-papel-higienico/rollo-industrial-250mm/clar-csy010", "accessories", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -453,6 +466,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch284Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch285Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

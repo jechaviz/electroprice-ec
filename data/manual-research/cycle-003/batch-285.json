@@ -1,0 +1,403 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b285-2026-06-01",
+  "cycle": 3,
+  "batch": 285,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "0k4mp00otz9dxep",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Gigabyte",
+        "name": "Gigabyte GeForce RTX 3050 OC Low Profile 6G GV-N3050OC-6GL",
+        "description": "Tarjeta de video Gigabyte GV-N3050OC-6GL GeForce RTX 3050 OC Low Profile con 6GB GDDR6, bus 96-bit, 2304 CUDA cores, salidas 2 HDMI 2.1 y 2 DisplayPort 1.4a, formato bajo perfil y sin conector de energia externo. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.gigabyte.com/Graphics-Card/GV-N3050OC-6GL/sp",
+        "manualCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-30/rtx-3050/gigabyte-gv-n3050oc-6gl-low-profile",
+        "semanticCategoryPath": "computo/componentes/tarjetas-video/nvidia-geforce/rtx-30/rtx-3050",
+        "legacyCategory": "gaming",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TVIGIG3340/TVIGIG3340_full.jpg"],
+        "documents": ["https://www.gigabyte.com/Graphics-Card/GV-N3050OC-6GL/sp", "https://tekdigital.mx/producto/tarjeta-de-video-gigabyte-gv-n3050oc-6gl/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "TVIGIG3340", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 194.12, "currency": "USD" }],
+        "specs": {
+          "model": "GV-N3050OC-6GL",
+          "aliases": ["GV-N3050OC-6GL", "TVIGIG3340", "4719331354268", "889523041840"],
+          "ean": "4719331354268",
+          "upc": "889523041840",
+          "gpu": "NVIDIA GeForce RTX 3050",
+          "cudaCores": "2304",
+          "memory": "6GB GDDR6",
+          "memoryBus": "96-bit",
+          "memorySpeed": "14 Gbps",
+          "interface": "PCI Express 4.0",
+          "ports": ["2 HDMI 2.1", "2 DisplayPort 1.4a"],
+          "maxResolution": "7680 x 4320",
+          "formFactor": "Low profile, dual slot",
+          "recommendedPsu": "300W",
+          "powerConnector": "No requiere conector externo",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para TVIGIG3340. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TVIGIG3340", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 194.12, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Gigabyte mantiene ficha oficial; TekDigital muestra existencia, mientras CompuPuebla/MacToner reportan sin existencia. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "181 x 69 x 36 mm", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "Gigabyte GV-N3050OC-6GL oficial", "type": "manufacturer_page", "url": "https://www.gigabyte.com/Graphics-Card/GV-N3050OC-6GL/sp" },
+          { "title": "TekDigital TVIGIG3340", "type": "retailer_specs", "url": "https://tekdigital.mx/producto/tarjeta-de-video-gigabyte-gv-n3050oc-6gl/" },
+          { "title": "CTOnline feed TVIGIG3340 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0k7em32xhho9vl0",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Cisco",
+        "name": "Cisco Catalyst C1300-16P-2G switch administrable 16 PoE+ 120W 2 SFP",
+        "description": "Switch Cisco Catalyst C1300-16P-2G administrable con 16 puertos Gigabit PoE+, presupuesto PoE de 120W, 2 enlaces Gigabit SFP, capacidad de switching 36Gbps y funciones VLAN, QoS, STP, LACP y routing IPv4/IPv6. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html",
+        "manualCategoryPath": "redes/switches/poe-administrables/gigabit/16-puertos-2-sfp/120w/cisco-c1300-16p-2g",
+        "semanticCategoryPath": "redes/switches/poe-administrables/gigabit/16-puertos-2-sfp/120w",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/SWTCIS4390/SWTCIS4390_full.jpg"],
+        "documents": ["https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html", "https://www.cisco.com/c/en/us/td/docs/switches/campus-lan-switches-access/Catalyst-1200-and-1300-Switches/Administration-Guide/catalyst-1300-admin-guide/get-to-know-your-switch.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "SWTCIS4390", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 10586.7, "currency": "MXN" }],
+        "specs": {
+          "model": "C1300-16P-2G",
+          "aliases": ["C1300-16P-2G", "SWTCIS4390", "0889728521628", "889728521628"],
+          "ean": "0889728521628",
+          "upc": "889728521628",
+          "ports": "16 x 10/100/1000 PoE+",
+          "uplinks": "2 x Gigabit SFP",
+          "poeBudget": "120W",
+          "switchingCapacity": "36 Gbps",
+          "forwardingRate": "26.78 Mpps",
+          "management": ["VLAN", "LACP", "STP", "QoS", "Voice VLAN", "IPv4/IPv6 routing"],
+          "formFactor": "Rack-mount",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para SWTCIS4390. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SWTCIS4390", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 10586.7, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cisco mantiene ficha oficial; Cityshop muestra stock puntual y MacToner lo reporta sin existencia. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "26.8 x 27.2 x 4.4 cm", "weight": "2.38 kg" },
+        "sourceRefs": [
+          { "title": "Cisco Catalyst 1300 datasheet", "type": "manufacturer_page", "url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1300-series-switches/nb-06-cat1300-ser-data-sheet-cte-en.html" },
+          { "title": "Cisco Catalyst 1300 admin guide", "type": "manufacturer_page", "url": "https://www.cisco.com/c/en/us/td/docs/switches/campus-lan-switches-access/Catalyst-1200-and-1300-Switches/Administration-Guide/catalyst-1300-admin-guide/get-to-know-your-switch.html" },
+          { "title": "CTOnline feed SWTCIS4390 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0k9ter6b5t8q22h",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Nextep",
+        "name": "Nextep NE-177 organizador de cajon de malla metalica negro 6 compartimientos",
+        "description": "Organizador de cajon Nextep NE-177 de malla metalica color negro, tamano oficio, 6 compartimientos y formato de escritorio para papeleria y accesorios pequenos. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://xentra.glomastore.mx/img/productos/pdf/NEX-NE-177.pdf",
+        "manualCategoryPath": "oficina/organizacion/escritorio/organizadores-cajon/malla-metalica/nextep-ne-177",
+        "semanticCategoryPath": "oficina/organizacion/escritorio/organizadores-cajon/malla-metalica",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCNTE490/ACCNTE490_full.jpg"],
+        "documents": ["https://xentra.glomastore.mx/img/productos/pdf/NEX-NE-177.pdf", "https://intercompras.com/p/organizador-escritorio-nextep-malla-metalica-x-cm-230856"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCNTE490", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 90.91, "currency": "MXN" }],
+        "specs": {
+          "model": "NE-177",
+          "aliases": ["NE-177", "ACCNTE490", "7501811272547"],
+          "ean": "7501811272547",
+          "productType": "Organizador de cajon",
+          "material": "Malla metalica / acero",
+          "color": "Negro",
+          "size": "Oficio",
+          "compartments": "6 compartimientos",
+          "packContent": "1 pieza",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCNTE490. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCNTE490", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 90.91, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Nextep/Exel publican ficha; Colmenero e Intercompras muestran disponibilidad, TiendaClic reporta 0. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "28 x 15.8 cm", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Nextep NE-177 PDF", "type": "manufacturer_pdf", "url": "https://xentra.glomastore.mx/img/productos/pdf/NEX-NE-177.pdf" },
+          { "title": "Intercompras Nextep NE-177", "type": "retailer_specs", "url": "https://intercompras.com/p/organizador-escritorio-nextep-malla-metalica-x-cm-230856" },
+          { "title": "CTOnline feed ACCNTE490 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kadyu0hdz44bow",
+      "research": {
+        "confidence": 0.94,
+        "brand": "XPG",
+        "name": "XPG Cruiser CRUISERST-WHCWW gabinete gamer blanco mid tower ARGB",
+        "description": "Gabinete gamer XPG Cruiser blanco mid tower con estructura SPCC, panel lateral de vidrio templado de 4 mm, soporte para Mini-ITX/Micro-ATX/ATX/E-ATX/CEB/EEB, tres ventiladores XPG VENTO 120 ARGB frontales y USB-C frontal. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.xpg.com/us/xpg/pc-component-CRUISER-SUPER-MID-TOWER-CHASSIS?tab=spec",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/vidrio-templado-argb/blanco/xpg-cruiser",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/vidrio-templado-argb/blanco",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABDAT270/GABDAT270_full.jpg"],
+        "documents": ["https://www.xpg.com/us/xpg/pc-component-CRUISER-SUPER-MID-TOWER-CHASSIS?tab=spec", "https://globaloffice.com.mx/app/detalle/producto/games/gabinete-gamer-xpg-xpg-cruiser-gabinete-gamer-xpg/cruiserst-whcww"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "GABDAT270", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 76.47, "currency": "USD" }],
+        "specs": {
+          "model": "CRUISERST-WHCWW",
+          "aliases": ["CRUISER", "CRUISERST-WHCWW", "GABDAT270", "4711085935496", "842243025873"],
+          "ean": "4711085935496",
+          "upc": "842243025873",
+          "caseType": "Mid tower",
+          "material": "SPCC, vidrio templado 4 mm",
+          "motherboards": ["Mini-ITX", "Micro-ATX", "ATX", "E-ATX", "CEB", "EEB"],
+          "fansIncluded": "3 x XPG VENTO 120 ARGB frontales",
+          "frontPorts": ["USB-C 3.1 Gen 2", "2 USB 3.0", "audio"],
+          "gpuClearance": "hasta 380 mm, 350 mm con ventiladores frontales",
+          "cpuCoolerClearance": "170 mm",
+          "psuClearance": "180 mm",
+          "radiatorSupport": "frontal hasta 360 mm",
+          "color": "Blanco",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para GABDAT270. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "GABDAT270", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 76.47, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["XPG mantiene ficha oficial; CompuPuebla/GlobalOffice muestran disponibilidad puntual y MacToner sin existencia. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "493 x 234 x 466 mm", "packageDimensions": "33 x 55.7 x 56.5 cm segun espejo CT", "packageWeight": "10.2 kg no confirmado" },
+        "sourceRefs": [
+          { "title": "XPG Cruiser oficial", "type": "manufacturer_page", "url": "https://www.xpg.com/us/xpg/pc-component-CRUISER-SUPER-MID-TOWER-CHASSIS?tab=spec" },
+          { "title": "GlobalOffice XPG Cruiser", "type": "retailer_specs", "url": "https://globaloffice.com.mx/app/detalle/producto/games/gabinete-gamer-xpg-xpg-cruiser-gabinete-gamer-xpg/cruiserst-whcww" },
+          { "title": "CTOnline feed GABDAT270 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kkc7h019skl89l",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Grandstream",
+        "name": "Grandstream GRP2612P telefono IP 4 lineas PoE",
+        "description": "Telefono IP Grandstream GRP2612P carrier-grade con 4 lineas, 4 cuentas SIP, pantalla color de 2.4 pulgadas, 16 teclas BLF digitales, audio HD, dos puertos Ethernet 10/100 con PoE 802.3af y seguridad empresarial. CVA/PB y CTOnline/PB reportan stock 0.",
+        "manufacturerUrl": "https://www.grandstream.com/hubfs/Product_Documentation/datasheet_grp2612_english.pdf?hsLang=en",
+        "manualCategoryPath": "telefonia/telefonos-ip/escritorio/4-lineas/poe/grandstream-grp2612p",
+        "semanticCategoryPath": "telefonia/telefonos-ip/escritorio/4-lineas/poe",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10190229", "https://static.ctonline.mx/imagenes/TELGDM320/TELGDM320_full.jpg"],
+        "documents": ["https://www.grandstream.com/hubfs/Product_Documentation/datasheet_grp2612_english.pdf?hsLang=en", "https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/product/grp2612"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "TELGDM320", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 43.38, "currency": "USD" }, { "wholesalerId": "cva", "sku": "TEL-205", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 47.01, "currency": "USD" }],
+        "specs": {
+          "model": "GRP2612P",
+          "aliases": ["GRP2612P", "TELGDM320", "TEL-205"],
+          "lines": "4 lineas",
+          "sipAccounts": "4 cuentas SIP",
+          "display": "LCD color 2.4 pulgadas 320 x 240",
+          "network": "2 puertos Ethernet 10/100",
+          "poe": "IEEE 802.3af",
+          "audio": ["HD audio", "G.722", "Opus"],
+          "keys": "4 teclas de linea, 16 BLF digitales",
+          "conference": "Conferencia local de 5 vias",
+          "management": ["GDMS", "secure boot", "dual firmware", "encrypted storage"],
+          "powerAdapter": "No incluye eliminador",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para TELGDM320 y CVA/PB reporta stock 0 para TEL-205. CVA tiene sucursal Guadalajara; CT tiene presencia nacional; ninguno expone stock por sucursal en el feed.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TELGDM320", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 43.38, "currency": "USD" }, { "providerId": "cva", "providerSku": "TEL-205", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 47.01, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Grandstream mantiene datasheet; CT tiene senales positivas en Ofix/TekDigital/GlobalOffice, CVA aparece sin existencia en otras plataformas. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "203 x 193 x 52.1 mm", "weight": "554 g", "packageWeight": "936 g" },
+        "sourceRefs": [
+          { "title": "Grandstream GRP2612 datasheet", "type": "manufacturer_pdf", "url": "https://www.grandstream.com/hubfs/Product_Documentation/datasheet_grp2612_english.pdf?hsLang=en" },
+          { "title": "Grandstream GRP2612 oficial", "type": "manufacturer_page", "url": "https://www.grandstream.com/products/ip-voice-telephony/carrier-grade-ip-phones/product/grp2612" },
+          { "title": "CVA feed TEL-205 y CTOnline feed TELGDM320 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kleckhuhn3oh5t",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Poly",
+        "name": "Poly Voyager Free 60+ UC 7Y8G3AA audifonos TWS ANC USB-A",
+        "description": "Audifonos true wireless Poly Voyager Free 60+ UC 7Y8G3AA color negro con ANC hibrido adaptativo, Bluetooth 5.3, adaptador BT700 USB-A, estuche de carga con pantalla tactil, tres microfonos por auricular y certificacion para comunicaciones unificadas. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.headsetexperts.com/documents/pdf/ds-hp-voyager-free-60-plus-usb-a-black.pdf",
+        "manualCategoryPath": "audio/audifonos/bluetooth/true-wireless/anc/uc/poly-voyager-free-60-plus-7y8g3aa",
+        "semanticCategoryPath": "audio/audifonos/bluetooth/true-wireless/anc/uc",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10442463"],
+        "documents": ["https://www.headsetexperts.com/documents/pdf/ds-hp-voyager-free-60-plus-usb-a-black.pdf", "https://www.bhphotovideo.com/c/product/1805210-REG/poly_7y8g3aa_voyager_free_60_uc.html/accessories"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SPK-2597", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 6611.92, "currency": "MXN" }],
+        "specs": {
+          "model": "7Y8G3AA",
+          "aliases": ["7Y8G3AA", "SPK-2597", "Voyager Free 60+ UC", "197497053845"],
+          "upc": "197497053845",
+          "type": "Audifonos true wireless in-ear",
+          "bluetooth": "Bluetooth 5.3",
+          "adapter": "BT700 USB-A",
+          "noiseControl": "ANC hibrido adaptativo y modo transparencia",
+          "microphones": "3 microfonos por auricular, WindSmart",
+          "multipoint": "2 dispositivos conectados, 8 memorizados",
+          "case": "Estuche de carga con pantalla tactil",
+          "management": "Poly Lens",
+          "certifications": ["Zoom certified"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SPK-2597. CVA tiene sucursal Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SPK-2597", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 6611.92, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H lo lista bajo pedido especial; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "audifono 16 x 26.1 x 37.8 mm; estuche 54.5 x 72 x 33.1 mm", "weight": "5.8 g por audifono; estuche 80 g", "packageDimensions": "100 x 130 x 42 mm", "packageWeight": "190 g" },
+        "sourceRefs": [
+          { "title": "Poly Voyager Free 60+ UC datasheet 7Y8G3AA", "type": "manufacturer_datasheet", "url": "https://www.headsetexperts.com/documents/pdf/ds-hp-voyager-free-60-plus-usb-a-black.pdf" },
+          { "title": "B&H Poly 7Y8G3AA", "type": "retailer_specs", "url": "https://www.bhphotovideo.com/c/product/1805210-REG/poly_7y8g3aa_voyager_free_60_uc.html/accessories" },
+          { "title": "CVA feed SPK-2597 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0km8nk6ws6lcvrp",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Lexmark",
+        "name": "Toner Lexmark C746A1MG magenta Return Program 7000 paginas",
+        "description": "Cartucho original Lexmark C746A1MG magenta Return Program para impresoras Lexmark C746/C748 y multifuncionales X746/X748, rendimiento aproximado de 7000 paginas ISO/IEC 19798. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.lexmark.com/en_us/printers/supply/7169/Lexmark-C746-748-Magenta-Return-Program-7K-Toner-Cartridge",
+        "manualCategoryPath": "impresion/consumibles/toner-laser/lexmark/c746-c748/c746a1mg-magenta",
+        "semanticCategoryPath": "impresion/consumibles/toner-laser/lexmark/c746-c748",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/TONLXM3300/TONLXM3300_full.jpg"],
+        "documents": ["https://www.lexmark.com/en_us/printers/supply/7169/Lexmark-C746-748-Magenta-Return-Program-7K-Toner-Cartridge", "https://www.tonercartridgedepot.com/lex-c746a1mg.htm"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "TONLXM3300", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 216.21, "currency": "USD" }],
+        "specs": {
+          "model": "C746A1MG",
+          "aliases": ["C746A1MG", "TONLXM3300"],
+          "productType": "Cartucho toner laser original",
+          "color": "Magenta",
+          "yield": "7000 paginas ISO/IEC 19798",
+          "program": "Lexmark Return Program",
+          "compatibleSeries": ["Lexmark C746", "Lexmark C748", "Lexmark X746", "Lexmark X748"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para TONLXM3300. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "TONLXM3300", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 216.21, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Lexmark reporta backorder/out of stock; Toner Cartridge Depot lo lista disponible. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "packageDimensions": "7.91 x 13.62 x 3.07 in / 201 x 346 x 78 mm", "packageWeight": "2.38 lb / 1.08 kg" },
+        "sourceRefs": [
+          { "title": "Lexmark C746A1MG oficial", "type": "manufacturer_page", "url": "https://www.lexmark.com/en_us/printers/supply/7169/Lexmark-C746-748-Magenta-Return-Program-7K-Toner-Cartridge" },
+          { "title": "Toner Cartridge Depot C746A1MG", "type": "retailer_specs", "url": "https://www.tonercartridgedepot.com/lex-c746a1mg.htm" },
+          { "title": "CTOnline feed TONLXM3300 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0krib3jqlv5hb63",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Kaspersky",
+        "name": "Kaspersky Small Office Security ESD 5 desktop 5 mobile 1 file server 3 anos",
+        "description": "Licencia electronica Kaspersky Small Office Security KL4541ZDETS para pequena oficina: 5 equipos desktop, 5 dispositivos moviles y 1 file server por 3 anos, con proteccion contra ransomware, Safe Money, backup/cifrado y gestion desde portal. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://media.kaspersky.com/en/business-security/KSOS-DataSheet-en.pdf",
+        "manualCategoryPath": "software/seguridad/antivirus/kaspersky-small-office/5-dispositivos-5-moviles-1-servidor/3-anos/kl4541zdets",
+        "semanticCategoryPath": "software/seguridad/antivirus/kaspersky-small-office/5-dispositivos-5-moviles-1-servidor/3-anos",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10454700"],
+        "documents": ["https://media.kaspersky.com/en/business-security/KSOS-DataSheet-en.pdf", "https://pcredcom.com/esd-kaspersky-small-office-security-5-dis-5-mobile-1-file-server-3-anos-kl4541zdets-df-sws-6024.html"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SWS-6024", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 3323.73, "currency": "MXN" }],
+        "specs": {
+          "model": "KL4541ZDETS",
+          "aliases": ["KL4541ZDETS", "SWS-6024", "Kaspersky Small Office Security"],
+          "delivery": "ESD / licencia digital",
+          "licenseScope": "5 desktops + 5 mobile + 1 file server",
+          "term": "3 anos",
+          "platforms": ["Windows", "macOS", "Android", "Windows file server"],
+          "capabilities": ["anti-ransomware", "Safe Money", "backup", "encryption", "vulnerability scan", "management portal"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SWS-6024. Producto de software/licencia digital sin almacen fisico operativo por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SWS-6024", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 3323.73, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Pcredcom muestra existencia alta, TiendaClic reporta aproximada 0 e InterDS permite pedido; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "no aplica, licencia digital", "weight": "no aplica" },
+        "sourceRefs": [
+          { "title": "Kaspersky Small Office Security datasheet", "type": "manufacturer_datasheet", "url": "https://media.kaspersky.com/en/business-security/KSOS-DataSheet-en.pdf" },
+          { "title": "Pcredcom KL4541ZDETS", "type": "retailer_specs", "url": "https://pcredcom.com/esd-kaspersky-small-office-security-5-dis-5-mobile-1-file-server-3-anos-kl4541zdets-df-sws-6024.html" },
+          { "title": "CVA feed SWS-6024 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0ku2zh7jhkwfeww",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Apple",
+        "name": "Apple EarPods con conector Lightning MWTY3AM/A",
+        "description": "Audifonos Apple EarPods MWTY3AM/A con conector Lightning, control remoto integrado y microfono para musica, llamadas y control de volumen. El part MWTY3AM/A corresponde a Lightning; el equivalente USB-C es MYQY3AM/A. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.apple.com/shop/product/MWTY3AM/A",
+        "manualCategoryPath": "audio/audifonos/alambricos-lightning/in-ear-control-remoto/apple-earpods-mwty3ama",
+        "semanticCategoryPath": "audio/audifonos/alambricos-lightning/in-ear-control-remoto",
+        "legacyCategory": "headphones",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCMAC4360/ACCMAC4360_full.jpg"],
+        "documents": ["https://www.apple.com/shop/product/MWTY3AM/A", "https://www.apple.com/shop/product/MYQY3AM/A", "https://www.bhphotovideo.com/c/product/1848818-REG/apple_mwty3am_a_apple_earpods_with_lightning.html"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCMAC4360", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 424.03, "currency": "MXN" }],
+        "specs": {
+          "model": "MWTY3AM/A",
+          "aliases": ["MWTY3AM/A", "ACCMAC4360", "195949506055"],
+          "upc": "195949506055",
+          "connector": "Lightning",
+          "controls": ["reproduccion", "volumen", "llamadas"],
+          "microphone": "Integrado",
+          "waterResistance": "Proteccion contra sudor y agua segun ficha Apple",
+          "note": "MWTY3AM/A es Lightning; MYQY3AM/A es el part USB-C.",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCMAC4360. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAC4360", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 424.03, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Apple y B&H listan MWTY3AM/A; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "packageDimensions": "3.5 x 2.5 x 0.9 in / 89 x 64 x 23 mm", "packageWeight": "0.085 lb / 39 g" },
+        "sourceRefs": [
+          { "title": "Apple EarPods Lightning MWTY3AM/A", "type": "manufacturer_store", "url": "https://www.apple.com/shop/product/MWTY3AM/A" },
+          { "title": "Apple EarPods USB-C MYQY3AM/A comparativo", "type": "manufacturer_store", "url": "https://www.apple.com/shop/product/MYQY3AM/A" },
+          { "title": "CTOnline feed ACCMAC4360 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "0kvt6up0njvq7tu",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Clar Systems",
+        "name": "Clar Systems CSY010 dispensador de papel higienico Mini I-NOVA humo",
+        "description": "Dispensador mural Clar Systems CSY010 Mini I-NOVA color humo para papel higienico en rollo industrial, fabricado en ABS antiestatico con cerradura con llave y visor frontal. CTOnline/PB reporta stock 0.",
+        "manufacturerUrl": "https://clarsystems.com.mx/phone/dispensadores-de-papel-higi%C3%A9nico.html",
+        "manualCategoryPath": "hogar/higiene/dispensadores-papel-higienico/rollo-industrial-250mm/clar-csy010",
+        "semanticCategoryPath": "hogar/higiene/dispensadores-papel-higienico/rollo-industrial-250mm",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/DISCSY010/DISCSY010_full.jpg"],
+        "documents": ["https://clarsystems.com.mx/phone/dispensadores-de-papel-higi%C3%A9nico.html", "https://compupuebla.com/producto/dispensador-de-papel-higienico-clar-systems-csy010/", "https://cityshop.mx/producto/dispensador-de-papel-higienico-mini-innova-color-humo-para-rollo-industrial-250mm-max"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "DISCSY010", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 176.47, "currency": "MXN" }],
+        "specs": {
+          "model": "CSY010",
+          "aliases": ["CSY010", "DISCSY010", "8436550220100", "Mini I-NOVA"],
+          "ean": "8436550220100",
+          "productType": "Dispensador de papel higienico mural",
+          "rollType": "Rollo industrial hasta 250 mm segun retailers",
+          "material": "ABS antiestatico",
+          "color": "Humo",
+          "security": "Cerradura con llave CLAR",
+          "features": ["visor frontal", "adaptadores de eje segun familia I-NOVA"],
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para DISCSY010. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "DISCSY010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 176.47, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["CompuPuebla y Cityshop lo muestran agotado; Abastecedora lista precio sin disponibilidad clara. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "aprox. diametro 275 x 120 mm segun familia Clar I-NOVA", "weight": "no publicado" },
+        "sourceRefs": [
+          { "title": "Clar Systems dispensadores papel higienico", "type": "manufacturer_page", "url": "https://clarsystems.com.mx/phone/dispensadores-de-papel-higi%C3%A9nico.html" },
+          { "title": "CompuPuebla Clar CSY010", "type": "retailer_specs", "url": "https://compupuebla.com/producto/dispensador-de-papel-higienico-clar-systems-csy010/" },
+          { "title": "CTOnline feed DISCSY010 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}
