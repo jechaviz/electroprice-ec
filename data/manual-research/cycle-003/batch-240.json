@@ -1,0 +1,459 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b240-2026-06-01",
+  "cycle": 3,
+  "batch": 240,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "tbrxi8vm5xz1trj",
+      "research": {
+        "confidence": 0.92,
+        "brand": "CDP",
+        "name": "Inversor cargador solar CDP ES-AVR-1012 SOL 700 W 12 V onda senoidal pura negro",
+        "description": "Inversor cargador solar CDP ES-AVR-1012 SOL con salida 120 Vca, bateria 12 Vdc, onda senoidal pura, cargador AC hasta 30 A, controlador solar MPPT 30 A y pantalla LCD.",
+        "manualCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-12v/cdp-es-avr-1012-sol",
+        "semanticCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-12v",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?mf=c29sYXI&prd=MzAx&prdn=RVNBVlItMTAxMlNPTA",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/INVCDP020_full.jpg",
+          "https://www.pcdigital.com.mx/wp-content/uploads/2025/03/ES-AVR-1012-SOL-500x500.png"
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "ES-AVR-1012 SOL",
+          "providerSku": "INVCDP020",
+          "productType": "Inversor cargador solar / UPS interactivo",
+          "nominalPower": "700 W",
+          "batteryVoltage": "12 Vdc",
+          "inputOutputVoltage": "120 Vac",
+          "frequency": "50/60 Hz",
+          "waveform": "Onda senoidal pura",
+          "acCharger": "Hasta 30 A",
+          "solarController": "MPPT 30 A, rango FV 30-72 Vdc",
+          "display": "LCD",
+          "cooling": "Ventilador integrado",
+          "protections": ["Sobrecarga", "Modo UPS interactivo"],
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; PC Digital y MacToner CDMX muestran fuera de stock/sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "INVCDP020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 5507.65, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["PC Digital Out of Stock.", "MacToner sin existencias, Colima 161 Roma Norte CDMX."],
+          "reviewNotes": "Sin EAN publico verificado; conservar SKU CTOnline como identificador principal."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "8 kg" },
+        "sourceRefs": [
+          { "title": "CDP ES-AVR-1012 SOL", "type": "manufacturer_product", "url": "https://www.cdpenergy.com/productdetails.asp?mf=c29sYXI&prd=MzAx&prdn=RVNBVlItMTAxMlNPTA" },
+          { "title": "PC Digital ES-AVR-1012 SOL", "type": "retailer_stock", "url": "https://www.pcdigital.com.mx/inversor-700w-cdp-es-avr-1012-sol-120-vac-50-hz-60-hz-cargador-hasta-30-amp-12-vdc-negro/" },
+          { "title": "MacToner ES-AVR-1012 SOL", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/inversor-cdp-es-avr-1012-sol-negro/" },
+          { "title": "CTOnline batch INVCDP020 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "oxdge3ymia981n8",
+      "research": {
+        "confidence": 0.9,
+        "brand": "CDP",
+        "name": "Inversor cargador solar CDP ES-AVR-3048 SOL 3000 VA 48 V onda senoidal pura negro",
+        "description": "Inversor cargador solar CDP ES-AVR-3048 SOL con bateria 48 Vdc, entrada/salida 120 Vca, onda senoidal pura y cargador solar MPPT integrado para respaldo solar.",
+        "manualCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-48v/cdp-es-avr-3048-sol",
+        "semanticCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-48v",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.cdpenergy.com/productdetails.asp?mf=c29sYXI&prd=MzAz&prdn=RVNBVlItMzA0OFNPTA",
+        "gallery": [
+          "https://innovacionytecnologia.net/cdn/shop/files/58a85a368b70ea902dcba53ec29b4948.jpg?v=1732193627&width=1445",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/INVCDP040_full.jpg"
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "ES-AVR-3048 SOL",
+          "providerSku": "INVCDP040",
+          "upc": "879071004466",
+          "productType": "Inversor cargador solar / UPS interactivo",
+          "ratedPower": "CDP oficial: 3000 VA / 2400 W; retailers publican 3000 W, dejar como discrepancia",
+          "batteryVoltage": "48 Vdc",
+          "inputOutputVoltage": "120 Vac",
+          "frequency": "50/60 Hz",
+          "waveform": "Onda senoidal pura",
+          "solarController": "MPPT integrado 40 A segun CDP",
+          "acCharger": "20 A segun CDP",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Mactoner y CompuPuebla muestran agotado; Innova-Tech presenta senales contradictorias de almacenes.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "INVCDP040", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 11455.3, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Mactoner sin existencias.", "CompuPuebla Out of Stock.", "PCStore agotado.", "Innova-Tech muestra agotado y almacenes Hermosillo/Guadalajara/Monterrey contradictorios; no usar como stock confirmado."],
+          "reviewNotes": "Usar potencia oficial 3000 VA / 2400 W; conservar 3000 W solo como nombre comercial de retailers."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "CDP ES-AVR-3048 SOL", "type": "manufacturer_product", "url": "https://www.cdpenergy.com/productdetails.asp?mf=c29sYXI&prd=MzAz&prdn=RVNBVlItMzA0OFNPTA" },
+          { "title": "FotonEnergia ES-AVR-3048 SOL", "type": "retailer_specs", "url": "https://www.fotonenergia.com.mx/product-page/inversor-cdp-es-avr-3048-sol-50-hz-60-hz-negro" },
+          { "title": "MacToner ES-AVR-3048 SOL", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/inversor-cdp-es-avr-3048-sol-negro/" },
+          { "title": "CompuPuebla ES-AVR-3048 SOL", "type": "retailer_stock", "url": "https://compupuebla.com/producto/inversor-cdp-es-avr-3048-sol/" },
+          { "title": "CTOnline batch INVCDP040 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "dg0p9zb0t3o4qf8",
+      "research": {
+        "confidence": 0.91,
+        "brand": "CDP",
+        "name": "Inversor cargador solar CDP ES-AVR-5048 SOL 5 kVA 4000 W 48 V onda senoidal pura negro",
+        "description": "Inversor cargador solar CDP ES-AVR-5048 SOL de 5 kVA / 4000 W con bateria 48 Vdc, onda senoidal pura, cargador AC 40 A y doble controlador MPPT 40 A.",
+        "manualCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-48v/cdp-es-avr-5048-sol",
+        "semanticCategoryPath": "energia/solar/inversores-ups/line-interactive/mppt-48v",
+        "legacyCategory": "power",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://cdpenergy.com/productdetails.asp?ccoun=jm&mf=c29sYXI&prd=MzA0&prdn=RVNBVlItNTA0OFNPTA",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/INVCDP050_full.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/06/InversorCDPESAVR5048SOL50Hz60HzNeg_ESAVR5048SOL_0.jpg",
+          "https://www.cdpenergy.com/Content_Elements/product_main_images/PRID-304-Main-44.jpg"
+        ],
+        "specs": {
+          "brand": "CDP",
+          "model": "ES-AVR-5048 SOL",
+          "providerSku": "INVCDP050",
+          "productType": "Inversor cargador solar / UPS interactivo",
+          "ratedPower": "5 kVA / 4000 W",
+          "batteryVoltage": "48 Vdc",
+          "inputOutputVoltage": "120 Vac oficial CDP; 230 Vac aparece en PCActual como posible variante no verificada",
+          "frequency": "50/60 Hz",
+          "waveform": "Onda senoidal pura",
+          "solarController": "2 x MPPT 40 A segun CDP",
+          "acCharger": "40 A segun CDP",
+          "color": "Negro",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner, CompuPuebla y PCActual muestran no disponible.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "INVCDP050", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 22835.8, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Mactoner sin existencias.", "CompuPuebla Out of Stock.", "PCActual producto no disponible."],
+          "reviewNotes": "Registrar 120 Vac como dato oficial CDP; 230 Vac se conserva solo como variante no verificada de PCActual."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "CDP ES-AVR-5048 SOL", "type": "manufacturer_product", "url": "https://cdpenergy.com/productdetails.asp?ccoun=jm&mf=c29sYXI&prd=MzA0&prdn=RVNBVlItNTA0OFNPTA" },
+          { "title": "MacToner ES-AVR-5048 SOL", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/inversor-cdp-es-avr-5048-sol-negro/" },
+          { "title": "CompuPuebla ES-AVR-5048 SOL", "type": "retailer_stock", "url": "https://compupuebla.com/producto/inversor-cdp-es-avr-5048-sol/" },
+          { "title": "PCActual ES-AVR-5048", "type": "retailer_stock", "url": "https://pcactual.net/producto/potencia/inversores-de-voltaje/inversor-cdp-es-avr-5048-5kva-4000w" },
+          { "title": "CTOnline batch INVCDP050 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hr3db1oktr3qnf5",
+      "research": {
+        "confidence": 0.94,
+        "brand": "MAPASA",
+        "name": "Sobre Mapasa HA0126 para CD/DVD 12.7 x 12.7 cm blanco paquete 50 piezas",
+        "description": "Sobre de papel bond Mapasa HA0126 para CD/DVD, color blanco, 12.7 x 12.7 cm, gramaje 90 g/m2, solapa sin goma y paquete con 50 piezas.",
+        "manualCategoryPath": "oficina/papeleria/sobres/medios-opticos/cd-dvd/mapasa-ha0126-50p",
+        "semanticCategoryPath": "oficina/papeleria/sobres/medios-opticos/cd-dvd",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.exel.com.mx/imgProducto/MAPSOBAB017.png",
+          "https://www.propapel.mx/image/cache/catalog/Papeleria/643310_big_a-1000x1000.png"
+        ],
+        "specs": {
+          "brand": "Mapasa",
+          "model": "HA0126",
+          "providerSku": "ACCMAP050",
+          "ean": "7501454569936",
+          "productType": "Sobre para CD/DVD",
+          "dimensions": "12.7 x 12.7 cm",
+          "material": "Papel bond",
+          "paperWeight": "90 g/m2",
+          "packageQuantity": "50 piezas",
+          "color": "Blanco",
+          "closure": "Solapa sin goma",
+          "externalCodes": ["Propapel 643310", "Global Office MAPSOBAB017"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Propapel y MiPC muestran inventario, Global Office muestra stock externo dinamico.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAP050", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 68.31, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Propapel En stock.", "Global Office: 0 pzs local y almacen Mexico externo 20 pzs en apertura directa; snippet indexado divergente.", "CTI Systems/PCStore agotado.", "MiPC en stock, solo quedan 120."],
+          "reviewNotes": "Normalizar medidas como 12.7 x 12.7 cm; varias tiendas pierden el 1 y muestran 2.7 x 12.7 cm por error de captura."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "12.7 x 12.7 cm", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Propapel Mapasa HA0126", "type": "retailer_specs", "url": "https://www.propapel.mx/index.php?product_id=3409&route=product%2Fproduct" },
+          { "title": "Global Office HA0126", "type": "retailer_stock", "url": "https://www.globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/sobre-mapasa-cd-127x127cm-color-blanco-c50-ha0126/ha0126" },
+          { "title": "CTI Systems HA0126", "type": "retailer_stock", "url": "https://ctisystems.mx/sobre-para-cd-mapasa-ha0126-mapasa-caja-con-50-piezas-27x127cm-color-blanco" },
+          { "title": "CTOnline batch ACCMAP050 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "h5h7dkzcwqygyde",
+      "research": {
+        "confidence": 0.94,
+        "brand": "EUROCOLORS",
+        "name": "Papel cortado Eurocolors EC0012 carta Arcoiris Vibrante 100 hojas",
+        "description": "Papel cortado Eurocolors EC0012 tamano carta 21.6 x 28 cm, paquete con 100 hojas de colores Arcoiris Vibrante en papel de 75 g/m2.",
+        "manualCategoryPath": "oficina/papeleria/papel-cartulina/papel-color/carta/eurocolors-ec0012-100h",
+        "semanticCategoryPath": "oficina/papeleria/papel-cartulina/papel-color/carta",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": [
+          "https://www.exel.com.mx/imgProducto/EOPPAPAK011.png",
+          "https://tienda.sinacsa.mx/wp-content/uploads/2025/04/ACCEUR010_full.jpg"
+        ],
+        "documents": [{ "label": "Catalogo escolar Arpapel Eurocolors", "type": "catalog", "url": "https://www.arpapel.com.mx/assets/images/catalogos/Catalogo_Escolar.pdf" }],
+        "specs": {
+          "brand": "Eurocolors",
+          "model": "EC0012",
+          "providerSku": "ACCEUR010",
+          "ean": "7501454601070",
+          "externalCode": "EOPPAPAK011",
+          "productType": "Papel cortado de color",
+          "size": "Carta / 21.6 x 28.0 cm",
+          "paperWeight": "75 g/m2 segun tiendas",
+          "packageQuantity": "100 hojas",
+          "colorVariant": "Arcoiris Vibrante / colores",
+          "assortedColors": ["Rosa vibrante", "Naranja vibrante", "Verde", "Amarillo", "Azul celeste"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Global Office e Intercompras muestran stock externo/sucursales, TiendaClic y Sinacsa muestran agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCEUR010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 63.37, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Global Office: 0 pzs local y almacen Mexico externo 235 pzs.", "TiendaClic existencia aproximada 0 piezas.", "Sinacsa agotado.", "Cityshop snippet 664 pzs disponibles.", "Intercompras total 381: Mexico 1, Culiacan 3, Guadalajara 47, Monterrey 126."],
+          "reviewNotes": "Sinacsa lista UPC N/A, pero Global Office, CTI y Venta de PCs sostienen 7501454601070; conservar EAN del proveedor."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "21.6 x 28.0 cm", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Global Office Eurocolors EC0012", "type": "retailer_stock", "url": "https://globaloffice.com.mx/app/detalle/producto/papel/papel-cortado-eurocolors-ec0012-100-hoj/ec0012" },
+          { "title": "Arpapel Eurocolors catalogo escolar", "type": "manufacturer_catalog", "url": "https://www.arpapel.com.mx/assets/images/catalogos/Catalogo_Escolar.pdf" },
+          { "title": "TiendaClic EC0012", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/papel-cortado-eurocolors-ec0012" },
+          { "title": "Sinacsa EC0012", "type": "retailer_stock", "url": "https://tienda.sinacsa.mx/producto/papel-cortado-eurocolors-ec0012-colores/" },
+          { "title": "CTI Systems EC0012", "type": "retailer_stock", "url": "https://ctisystems.mx/papel-cortado-eurocolors-ec0012-100-hojas-colores-216-x-280-cm" },
+          { "title": "CTOnline batch ACCEUR010 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "hgjypw3xicpe9dz",
+      "research": {
+        "confidence": 0.94,
+        "brand": "LEFORT",
+        "name": "Registrador Lefort Color 1530 tamano carta amarillo",
+        "description": "Registrador Lefort Color modelo 1530 tamano carta color amarillo, fabricado con papel kraft/carton resistente, lomo reforzado y herraje con palanca de balancin para archivo.",
+        "manualCategoryPath": "oficina/papeleria/archivo/registradores/carta/lefort-1530-amarillo",
+        "semanticCategoryPath": "oficina/papeleria/archivo/registradores/carta",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/registrador-color/",
+        "gallery": [
+          "https://lumen.com.mx/Content/Images/productPics/registrador-lefort-tama%C3%B1o-carta-marca-lefort-sku-14460006.jpg",
+          "https://colmenero.shop/cdn/shop/products/registrador-lefort-carta-Amarillo.jpg?v=1755629331&width=540",
+          "https://web.azor.com.mx/wp-content/uploads/2017/12/lefort_registrador_color_1130_1pza.jpg"
+        ],
+        "specs": {
+          "brand": "Lefort",
+          "model": "1530 / A-1530",
+          "providerSku": "ACCLEF010",
+          "ean": "7501434715308",
+          "productType": "Registrador carta",
+          "color": "Amarillo",
+          "material": "Papel 100% kraft / carton resistente",
+          "hardware": "Palanca de balancin, varilla deslizante tipo europea, ojillo de acero niquelado en lomo y ojillos frontales",
+          "capacity": "400 hojas bond de 75 g segun Azor oficial",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Lumen no disponible, Colmenero CDMX muestra 60 unidades, TiendaClic 0 piezas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCLEF010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 81.69, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Lumen No disponible $122.00.", "Colmenero 60 unidades, retiro en Jose Maria Bustillos 24 int. 11 CDMX, $91.52.", "TiendaClic existencia aproximada 0 piezas, $152.76."],
+          "reviewNotes": "Azor confirma familia Registrador Color; usar capacidad oficial 400 hojas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Azor Lefort Registrador Color", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/registrador-color/" },
+          { "title": "Lumen Lefort 1530", "type": "retailer_stock", "url": "https://lumen.com.mx/registrador-lefort-tamano-carta-marca-lefort-sku-14460006" },
+          { "title": "Colmenero registrador Lefort carta color", "type": "retailer_stock", "url": "https://colmenero.shop/products/registrador-lefort-carta-color" },
+          { "title": "TiendaClic Lefort 1530", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/registrador-carta-lefort-1530" },
+          { "title": "CTOnline batch ACCLEF010 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "zjjiw5qdg2qoxd3",
+      "research": {
+        "confidence": 0.95,
+        "brand": "LEFORT",
+        "name": "Registrador Lefort Color 1230 tamano carta rojo",
+        "description": "Registrador Lefort Color modelo 1230 tamano carta color rojo con lomo reforzado, palanca de balancin, varilla europea y capacidad oficial de 400 hojas bond.",
+        "manualCategoryPath": "oficina/papeleria/archivo/registradores/carta/lefort-1230-rojo",
+        "semanticCategoryPath": "oficina/papeleria/archivo/registradores/carta",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/registrador-color/",
+        "gallery": [
+          "https://web.azor.com.mx/wp-content/uploads/2017/12/lefort_registrador_color_1130_1-600x600.jpg",
+          "https://colmenero.shop/cdn/shop/products/registrador-lefort-carta-rojo.jpg?v=1755629331&width=540",
+          "https://proesa.com/cdn/shop/files/art_840222_01_1000x.jpg?v=1753413762"
+        ],
+        "specs": {
+          "brand": "Lefort",
+          "model": "1230 / A-1230",
+          "providerSku": "ACCLEF020",
+          "ean": "7501434712307",
+          "productType": "Registrador carta",
+          "color": "Rojo",
+          "material": "Papel 100% kraft / carton resistente",
+          "hardware": "2 arillos, palanca de balancin, varilla deslizante europea, ojillo niquelado en lomo y ojillos frontales",
+          "capacity": "400 hojas bond de 75 g segun Azor/RoyalOffice; Proesa publica 700 hojas en conflicto",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Proesa, GlobalOffice, RoyalOffice y Papelera ABC muestran inventario publico.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCLEF020", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 85.98, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Proesa 25 disponibles, $77.60 IVA incluido.", "GlobalOffice 12 pzs y almacen Mexico 26 pzs, $100.00.", "RoyalOffice 121 disponibles, $93.73 IVA incluido.", "Papelera ABC 20 existencias, $86.61 sin IVA."],
+          "reviewNotes": "Registrar capacidad 400 hojas como oficial; mantener 700 hojas de Proesa como discrepancia."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "30 x 34 x 10 cm segun RoyalOffice", "weight": "0.3 kg segun RoyalOffice" },
+        "sourceRefs": [
+          { "title": "Azor Lefort Registrador Color", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/registrador-color/" },
+          { "title": "Proesa A-1230", "type": "retailer_stock", "url": "https://proesa.com/products/registrador-2-argollas-color-2-rojo-carta-lefort-r-a-1230-pieza-7501434712307" },
+          { "title": "RoyalOffice A-1230", "type": "retailer_stock", "url": "https://royaloffice.com.mx/producto/azo-car-1230carpeta-registradora-tamano-carta/" },
+          { "title": "GlobalOffice Lefort 1230", "type": "retailer_stock", "url": "https://globaloffice.mx/index.php/app/detalle/producto/papeleria-y-art-de-oficina/registrador-lefort-1230-tamano-carta-color-rojo-12/1230" },
+          { "title": "CTOnline batch ACCLEF020 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "yw0m3hgw228jpwb",
+      "research": {
+        "confidence": 0.94,
+        "brand": "LEFORT",
+        "name": "Registrador Lefort Color 1330 tamano carta verde",
+        "description": "Registrador Lefort Color modelo 1330 tamano carta color verde con carton resistente, lomo reforzado, 2 arillos y herraje tipo palanca para archivo fisico.",
+        "manualCategoryPath": "oficina/papeleria/archivo/registradores/carta/lefort-1330-verde",
+        "semanticCategoryPath": "oficina/papeleria/archivo/registradores/carta",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://web.azor.com.mx/index.php/producto/registrador-color/",
+        "gallery": [
+          "https://colmenero.shop/cdn/shop/products/registrador-lefort-carta-verde.jpg?v=1755629331&width=540",
+          "https://web.azor.com.mx/wp-content/uploads/2017/12/lefort_registrador_color_1130_1pza.jpg"
+        ],
+        "specs": {
+          "brand": "Lefort",
+          "model": "1330 / A-1330",
+          "providerSku": "ACCLEF030",
+          "ean": "7501434713304",
+          "productType": "Registrador carta",
+          "color": "Verde",
+          "material": "Papel 100% kraft / carton resistente",
+          "hardware": "2 arillos reforzados, palanca de balancin, varilla deslizante europea, ojillo niquelado en lomo y ojillos frontales",
+          "capacity": "400 hojas bond de 75 g segun Azor oficial; Proesa publica 700 hojas en conflicto",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Proesa y Ofix muestran inventario alto; Exel requiere login.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCLEF030", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 85.98, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Proesa 139 disponibles, $89.60 IVA incluido.", "Ofix 99,999 disponibles, $104.90.", "Exel requiere login para precio/compra."],
+          "reviewNotes": "Registrar capacidad 400 hojas como oficial; conservar 700 hojas de Proesa solo como discrepancia."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "Azor Lefort Registrador Color", "type": "manufacturer_product", "url": "https://web.azor.com.mx/index.php/producto/registrador-color/" },
+          { "title": "Exel Lefort 1330", "type": "retailer_specs", "url": "https://www.exel.com.mx/xlstore/Productos/DetalleSinConexion/LFPREGAB005" },
+          { "title": "Proesa A-1330", "type": "retailer_stock", "url": "https://proesa.com/products/registrador-2-argollas-color-2-verde-carta-lefort-r-a-1330-pieza-7501434713304" },
+          { "title": "Ofix A-1330", "type": "retailer_stock", "url": "https://www.ofix.mx/archivador-carta-verde-lefort---lefort-304-a-1330/p" },
+          { "title": "CTOnline batch ACCLEF030 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "q01bfa3swdk4wgp",
+      "research": {
+        "confidence": 0.95,
+        "brand": "MAE",
+        "name": "Cubiertas MAE PENT-25 para encuadernar carta negro 25 pares",
+        "description": "Cubiertas MAE PENT-25 de polipropileno negro solido con textura diagonal para encuadernacion tamano carta, set con 25 pares de 22 x 28.5 cm.",
+        "manualCategoryPath": "oficina/papeleria/encuadernacion/cubiertas/polipropileno/carta/mae-pent-25-negro",
+        "semanticCategoryPath": "oficina/papeleria/encuadernacion/cubiertas/polipropileno/carta",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://mae.com.mx/categoria.php?c=polipropileno&sbc=cubiertas-para-encuadernar",
+        "gallery": [
+          "https://mae.com.mx/catalogo/productos/polipropileno/cubiertas-para-encuadernar/PENT-25.png",
+          "https://mae.com.mx/catalogo/productos/polipropileno/cubiertas-para-encuadernar/PENT-25-hover.png",
+          "https://mipc.com.mx/media/catalog/product/p/a/pa-539895-m10.jpg?store=default&image-type=image"
+        ],
+        "documents": [{ "label": "MAE PENT-25 ficha", "type": "datasheet", "url": "https://www.mae.com.mx/catalogo/pdfs/polipropileno/cubiertas-para-encuadernar/PENT-25.pdf" }],
+        "specs": {
+          "brand": "MAE",
+          "model": "PENT-25",
+          "providerSku": "ACCMAE1010",
+          "ean": "7502212171439",
+          "productType": "Cubiertas para encuadernar",
+          "material": "Polipropileno",
+          "packageQuantity": "25 pares",
+          "color": "Negro solido",
+          "texture": "Diagonales / twill",
+          "size": "Carta",
+          "dimensions": "22 x 28.5 cm / 220 x 285 mm",
+          "masterPack": "20 sets por empaque; peso bruto 21 kg por empaque, no unitario",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MAE oficial confirma ficha; MiPC muestra stock bajo; PCStore/CTI agotado.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAE1010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 242.53, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["MiPC en stock, solo quedan 4, precio visible $213.36.", "PCStore/CTI Systems agotado."],
+          "reviewNotes": "No usar peso bruto 21 kg como peso unitario; corresponde a empaque mayorista de 20 sets."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "22 x 28.5 cm", "weight": "No localizado unitario" },
+        "sourceRefs": [
+          { "title": "MAE cubiertas para encuadernar", "type": "manufacturer_product", "url": "https://mae.com.mx/categoria.php?c=polipropileno&sbc=cubiertas-para-encuadernar" },
+          { "title": "MAE PENT-25 PDF", "type": "datasheet", "url": "https://www.mae.com.mx/catalogo/pdfs/polipropileno/cubiertas-para-encuadernar/PENT-25.pdf" },
+          { "title": "MiPC PENT-25", "type": "retailer_stock", "url": "https://mipc.com.mx/cubierta-mae-carta-negro-transporte-25-juegos.html" },
+          { "title": "PCStore PENT-25", "type": "retailer_stock", "url": "https://pcstore.mx/cubierta-mae-pent-25-carta-negro-transporte-juegos" },
+          { "title": "CTOnline batch ACCMAE1010 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "h23b8890pwxthc9",
+      "research": {
+        "confidence": 0.95,
+        "brand": "MAE",
+        "name": "Sacapuntas MAE SSS-25 de plastico figuras surtidas bolsa 25 piezas",
+        "description": "Sacapuntas manual MAE SSS-25 con cuerpo de plastico, navaja metalica, figuras y colores solidos surtidos, bolsa con 25 piezas para uso escolar y oficina.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/escritura/sacapuntas/plastico/mae-sss-25-25p",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/escritura/sacapuntas/plastico",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.mae.com.mx/categoria.php?c=herramientas&sbc=sacapuntas",
+        "gallery": [
+          "https://www.mae.com.mx/catalogo/productos/herramientas/sacapuntas/SSS-25.png",
+          "https://www.mae.com.mx/catalogo/productos/herramientas/sacapuntas/SSS-25-hover.png",
+          "https://mipc.com.mx/media/catalog/product/m/a/mae-sss25.jpg?store=default&image-type=image",
+          "https://www.exel.com.mx/imgProducto/MBPSACAB007.png"
+        ],
+        "documents": [{ "label": "MAE SSS-25 ficha", "type": "datasheet", "url": "https://www.mae.com.mx/catalogo/pdfs/herramientas/sacapuntas/SSS-25.pdf" }],
+        "specs": {
+          "brand": "MAE",
+          "model": "SSS-25",
+          "providerSku": "ACCMAE190",
+          "ean": "7502265160985",
+          "productType": "Sacapuntas manual",
+          "material": "Cuerpo de plastico; navaja de metal",
+          "packageQuantity": "25 piezas",
+          "color": "Colores solidos surtidos",
+          "shape": "Figuras surtidas",
+          "usage": "Afilar lapices escolares/oficina",
+          "masterPack": "120 bolsas por empaque; peso bruto 8.41 kg por empaque, no unitario",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MAE oficial confirma ficha; Global Office y MiPC muestran inventario, TiendaClic 0 piezas.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCMAE190", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 34.59, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:30:00Z",
+          "publicAvailabilitySignals": ["Global Office $34.00, 5 pzs y almacen Mexico 293 pzs.", "MiPC en stock, solo quedan 570, $35.50 aprox.", "TiendaClic existencia aproximada 0 piezas."],
+          "reviewNotes": "No usar peso bruto 8.41 kg como peso unitario; corresponde a empaque mayorista de 120 bolsas."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas unitarias", "weight": "No localizado unitario" },
+        "sourceRefs": [
+          { "title": "MAE sacapuntas", "type": "manufacturer_product", "url": "https://www.mae.com.mx/categoria.php?c=herramientas&sbc=sacapuntas" },
+          { "title": "MAE SSS-25 PDF", "type": "datasheet", "url": "https://www.mae.com.mx/catalogo/pdfs/herramientas/sacapuntas/SSS-25.pdf" },
+          { "title": "Global Office SSS-25", "type": "retailer_stock", "url": "https://globaloffice.globaloffice.com.mx/app/detalle/producto/papeleria-y-art-de-oficina/sacapuntas-plastico-mae-figuras-surtidas-c25-piez/sss-25" },
+          { "title": "MiPC SSS-25", "type": "retailer_stock", "url": "https://mipc.com.mx/sacapuntas-de-plastico-mae-sss-25-figuras-surtidas-25-piezas.html" },
+          { "title": "MercadoLibre SSS-25", "type": "marketplace_specs", "url": "https://www.mercadolibre.com.mx/sacapuntas-economico-de-figuras-25-piezas-mae/p/MLM28218285" },
+          { "title": "CTOnline batch ACCMAE190 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:30:00Z" }
+        ]
+      }
+    }
+  ]
+}
