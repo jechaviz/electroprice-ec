@@ -131,6 +131,19 @@ const batch270Cases = [
   ["Xzeal XZ05R SILSTY070 silla gamer roja soporte lumbar 110kg 7503027017110", "XZEAL", "gaming/mobiliario/sillas-gamer/pvc/reclinables-110kg/xzeal-xz05r-roja", "gaming", {}],
 ] as const;
 
+const batch271Cases = [
+  ["Dell P2724DEB MNL-2878 210-BSSP monitor 27 QHD USB-C 90W videoconferencia webcam", "DELL", "computo/monitores/profesionales/27-qhd-usb-c-90w/videoconferencia/dell-p2724deb", "monitors", {}],
+  ["MaxCases ASESF31204GRY AC-12888 Extreme Shell-F3 ASUS CR CZ BR 1104 1204", "MAXCASE", "computo/accesorios/mochilas-fundas/fundas-laptop/rugged-chromebook/asus-11-6-12-2/maxcases-asesf31204gry", "accessories", {}],
+  ["Lenovo 83K700AXLM NOT-10818 IdeaPad Slim 3 15ARP10 Ryzen 7 7735HS 15.3 WUXGA", "LENOVO", "computo/laptops/consumo/15-3-pulgadas/lenovo-ideapad-slim-3-15arp10/83k700axlm", "laptops", {}],
+  ["Dahua DH-PFS3005-5GT NIC-4529 switch gigabit 5 puertos no administrable", "DAHUA", "redes/switches/no-administrables/gigabit/5-puertos/dahua-dh-pfs3005-5gt", "networking", {}],
+  ["Xerox D50 XD50-U 100N04059 SC-339 escaner documental ADF duplex 70ppm", "XEROX", "impresion/escaneres/documentales/adf/duplex/a4-legal/alto-volumen/xerox-d50-100n04059", "printers_scanners", {}],
+  ["Hikvision NVR-104H-D/4P(D) NVR-192 NVR PoE 4 canales 6MP AcuSense", "HIKVISION", "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-6mp/hikvision-nvr-104h-d-4p-d", "cameras", {}],
+  ["Bitdefender TMBDL-103-S-R SWS-4593 GravityZone Business Security Premium renovacion sector privado", "BITDEFENDER", "software/seguridad/endpoint/bitdefender/gravityzone-business-security-premium/1-ano-sector-privado/renovacion/tmbdl-103-s-r", "software", {}],
+  ["be quiet BGW77 GABBEQ380 Pure Base 501 DX White gabinete ATX alto flujo ARGB", "BE QUIET", "computo/componentes/gabinetes/gaming/atx-mid-tower/alto-flujo-argb/blanco/be-quiet-pure-base-501-dx-bgw77", "components", {}],
+  ["Acteck AC-936187 MS-1539 Virtuos Pro MI780 mouse vertical inalambrico 3200 DPI", "ACTECK", "computo/perifericos/mouse/inalambricos/ergonomicos/recargables-3200-dpi/acteck-virtuos-pro-mi780-ac-936187", "accessories", {}],
+  ["Hikvision DS-2CD2T47G2-L(C) CAMHKV3120 ColorVu 4MP bullet PoE luz blanca", "HIKVISION", "seguridad/cctv/camaras-ip-poe/bullet/4mp-colorvu-luz-blanca/hikvision-ds-2cd2t47g2-l-c", "cameras", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -187,6 +200,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch270Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch271Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);

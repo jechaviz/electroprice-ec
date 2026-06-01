@@ -2,7 +2,7 @@ import { normalizeCatalogText } from './catalogIndex.mjs';
 import { MANUAL_CATEGORY_TREE } from './manualCategoryTree.mjs';
 import { MANUAL_CATEGORY_RULES } from './manualCategoryRules.mjs';
 
-export const MANUAL_TAXONOMY_VERSION = 'manual-taxonomy-mx-2026-06-01-b270';
+export const MANUAL_TAXONOMY_VERSION = 'manual-taxonomy-mx-2026-06-01-b271';
 
 export { MANUAL_CATEGORY_TREE };
 const rules = MANUAL_CATEGORY_RULES;

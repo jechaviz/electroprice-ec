@@ -1,0 +1,421 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b271-2026-06-01",
+  "cycle": 3,
+  "batch": 271,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "06milcx85jl76y6",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Dell",
+        "name": "Monitor Dell P2724DEB 27 QHD USB-C 90W videoconferencia con camara 2K",
+        "description": "Monitor Dell P2724DEB de 27 pulgadas QHD para videoconferencia, panel IPS 2560 x 1440 a 60Hz, webcam RGB+IR 2K de 4MP, microfonos duales, bocinas 2 x 5W, USB-C con DP Alt Mode y hasta 90W, RJ45, DP-out MST y KVM. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/en-uk/shop/dell-27-video-conferencing-monitor-p2724deb/apd/210-bfmz/monitors-monitor-accessories",
+        "manualCategoryPath": "computo/monitores/profesionales/27-qhd-usb-c-90w/videoconferencia/dell-p2724deb",
+        "semanticCategoryPath": "computo/monitores/profesionales/27-qhd-usb-c-90w/videoconferencia",
+        "legacyCategory": "monitors",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10457277"],
+        "documents": ["https://www.dell.com/support/home/en-us/product-support/product/p2724deb-monitor/docs"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MNL-2878", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 8580.05, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "P2724DEB",
+          "partNumber": "210-BSSP / 210-BFMZ",
+          "upc": "884116441472",
+          "productType": "Monitor profesional de videoconferencia",
+          "display": "27 pulgadas IPS QHD 2560 x 1440, 60Hz, 350 cd/m2, 99% sRGB",
+          "camera": "Webcam RGB+IR 2K 4MP",
+          "audio": "2 microfonos y 2 bocinas de 5W",
+          "ports": ["USB-C DP Alt Mode 90W", "RJ45", "DisplayPort out MST", "HDMI", "USB hub"],
+          "features": ["KVM", "Windows Hello por IR", "Videoconferencia integrada"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MNL-2878. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MNL-2878", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 8580.05, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "440.79 x 611.78 x 230.00 mm con base", "panelDimensions": "415.82 x 611.78 x 59.61 mm", "weight": "8.27 kg con base, 5.65 kg panel" },
+        "sourceRefs": [
+          { "title": "Dell P2724DEB official product page", "type": "manufacturer_product", "url": "https://www.dell.com/en-uk/shop/dell-27-video-conferencing-monitor-p2724deb/apd/210-bfmz/monitors-monitor-accessories" },
+          { "title": "SHI Dell P2724DEB", "type": "retailer_reference", "url": "https://www.shi.com/product/47467610/Dell-27-Video-Conferencing-Monitor-P2724DEB" }
+        ]
+      }
+    },
+    {
+      "product_id": "06wos7tu6fl10db",
+      "research": {
+        "confidence": 0.93,
+        "brand": "MaxCases",
+        "name": "Funda rugged MaxCases ASESF31204GRY Extreme Shell-F3 para ASUS CR/CZ/BR 1104 y 1204",
+        "description": "Funda protectora rugged MaxCases Extreme Shell-F3 ASESF31204GRY para Chromebooks ASUS CR/CZ/BR 1104 de 11.6 pulgadas y 1204 de 12.2 pulgadas, TPU dual con paneles rigidos transparentes, proteccion MIL-STD 810G/810H-516.6 y color gris. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.maxcases.com/productdetail/Extreme-Shell-F3-for-Asus-Models-CR1204CG-FG-BR1204FG-CR1104FG-12-Gray/",
+        "manualCategoryPath": "computo/accesorios/mochilas-fundas/fundas-laptop/rugged-chromebook/asus-11-6-12-2/maxcases-asesf31204gry",
+        "semanticCategoryPath": "computo/accesorios/mochilas-fundas/fundas-laptop/rugged-chromebook/asus-11-6-12-2",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455176"],
+        "documents": ["https://www.maxcases.com/admin/_gendownloads/6ef46c6a-1da6-4783-8b94-caa728c78545/Case%20Dims%20w%20Device%20%20ASESF31204GRY.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "AC-12888", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 29.43, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "ASESF31204GRY",
+          "upc": "850053915574",
+          "productType": "Funda rugged para Chromebook",
+          "compatibility": ["ASUS CR1104FG", "ASUS CZ1104", "ASUS BR1204FG", "ASUS CR1204CG"],
+          "screenCompatibility": "11.6 a 12.2 pulgadas",
+          "materials": ["TPU dual", "Paneles rigidos claros"],
+          "protection": "MIL-STD 810G/810H-516.6 drop protection",
+          "color": "Gris",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para AC-12888. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "AC-12888", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 29.43, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "310 x 221 mm con equipo; espesor 33 mm y 27 mm por pieza", "weight": "310 g total, 149 g top y 161 g bottom" },
+        "sourceRefs": [
+          { "title": "MaxCases ASESF31204GRY official page", "type": "manufacturer_product", "url": "https://www.maxcases.com/productdetail/Extreme-Shell-F3-for-Asus-Models-CR1204CG-FG-BR1204FG-CR1104FG-12-Gray/" },
+          { "title": "MaxCases ASESF31204GRY dimensions PDF", "type": "manufacturer_datasheet", "url": "https://www.maxcases.com/admin/_gendownloads/6ef46c6a-1da6-4783-8b94-caa728c78545/Case%20Dims%20w%20Device%20%20ASESF31204GRY.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "0713gkp9h430q5a",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Lenovo",
+        "name": "Laptop Lenovo IdeaPad Slim 3 15ARP10 83K700AXLM Ryzen 7 16GB 1TB 15.3 WUXGA azul",
+        "description": "Laptop Lenovo IdeaPad Slim 3 15ARP10 83K700AXLM con AMD Ryzen 7 7735HS, Radeon 680M, 16GB DDR5-4800, SSD 1TB PCIe 4.0, pantalla 15.3 WUXGA IPS 300 nits, camara FHD+IR, Wi-Fi 6, Bluetooth 5.3 y Windows 11 Home/Single Language segun canal. CVA reporta stock 0.",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Slim_3_15ARP10/IdeaPad_Slim_3_15ARP10_Spec.pdf",
+        "manualCategoryPath": "computo/laptops/consumo/15-3-pulgadas/lenovo-ideapad-slim-3-15arp10/83k700axlm",
+        "semanticCategoryPath": "computo/laptops/consumo/15-3-pulgadas/lenovo-ideapad-slim-3-15arp10",
+        "legacyCategory": "laptops",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10478691"],
+        "documents": ["https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Slim_3_15ARP10/IdeaPad_Slim_3_15ARP10_Spec.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "NOT-10818", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 12115.2, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "83K700AXLM",
+          "productLine": "IdeaPad Slim 3 15ARP10",
+          "processor": "AMD Ryzen 7 7735HS, 8C/16T, hasta 4.75GHz",
+          "graphics": "AMD Radeon 680M integrada",
+          "memory": "16GB DDR5-4800, 8GB soldada + 8GB SODIMM",
+          "storage": "1TB SSD M.2 2242 PCIe 4.0 NVMe",
+          "display": "15.3 pulgadas WUXGA 1920 x 1200 IPS, 300 nits, antirreflejo, 60Hz",
+          "camera": "FHD 1080p + IR con obturador de privacidad",
+          "battery": "60Wh",
+          "wireless": ["Wi-Fi 6 802.11ax 2x2", "Bluetooth 5.3"],
+          "ports": ["2 x USB-A 5Gbps", "1 x USB-C 5Gbps con USB PD y DisplayPort 1.2", "HDMI 1.4", "Audio 3.5mm", "Lector SD"],
+          "os": "Windows 11 Home Single Language espanol segun canal",
+          "color": "Azul cosmico",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para NOT-10818. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NOT-10818", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 12115.2, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "343.4 x 239.5 x 16.9-17.9 mm", "weight": "Desde 1.63 kg" },
+        "sourceRefs": [
+          { "title": "Lenovo PSREF IdeaPad Slim 3 15ARP10", "type": "manufacturer_datasheet", "url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Slim_3_15ARP10/IdeaPad_Slim_3_15ARP10_Spec.pdf" },
+          { "title": "AztecaCompras Lenovo 83K700AXLM", "type": "retailer_reference", "url": "https://www.aztecacompras.com/mx0000108730-lenovo-83k700axlm-ideapad-slim-3-15arp10-15-3-ryzen-7-16-gb-1-tb-w11h.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "0718zowpw6xgk18",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Dahua",
+        "name": "Switch Dahua DH-PFS3005-5GT Gigabit no administrable 5 puertos metalico",
+        "description": "Switch Dahua DH-PFS3005-5GT no administrable capa 2 con 5 puertos 10/100/1000 Base-T, capacidad de conmutacion 10G, carcasa metalica, alimentacion 5V DC 1A y consumo hasta 1.5W. No es PoE. CVA reporta stock 0.",
+        "manufacturerUrl": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/PFS3005-5GT_datasheet_20220803.pdf",
+        "manualCategoryPath": "redes/switches/no-administrables/gigabit/5-puertos/dahua-dh-pfs3005-5gt",
+        "semanticCategoryPath": "redes/switches/no-administrables/gigabit/5-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10412076"],
+        "documents": ["https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/PFS3005-5GT_datasheet_20220803.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "NIC-4529", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 9.41, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "DH-PFS3005-5GT",
+          "productType": "Switch Gigabit no administrable",
+          "ports": "5 x 10/100/1000 Base-T",
+          "switchingCapacity": "10 Gbit",
+          "management": "No administrable, capa 2",
+          "poe": "No PoE",
+          "power": "5 VDC, 1 A",
+          "powerConsumption": "0.5W idle, 1.5W full",
+          "housing": "Metalico",
+          "certifications": ["CE", "FCC"],
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para NIC-4529. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NIC-4529", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 9.41, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "87 x 47 x 22 mm", "weight": "0.16 kg", "packageDimensions": "94 x 111 x 67 mm", "packageWeight": "0.28 kg" },
+        "sourceRefs": [
+          { "title": "Dahua PFS3005-5GT datasheet", "type": "manufacturer_datasheet", "url": "https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/datasheetzipfiles/PFS3005-5GT_datasheet_20220803.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "076x4p9y4cejaab",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Xerox",
+        "name": "Escaner documental Xerox D50 XD50-U 100N04059 ADF duplex 70ppm USB",
+        "description": "Escaner documental Xerox D50 XD50-U / 100N04059 con ADF duplex de 120 hojas, doble sensor CIS, resolucion optica 600 dpi, hasta 70 ppm/140 ipm a 200 dpi, ciclo diario de 11000 paginas, USB 3.1 Gen 1 y software Visioneer OneTouch. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.xeroxscanners.com/wp-content/uploads/manuals/XD50/XD50_Datasheet.US_.pdf",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/alto-volumen/xerox-d50-100n04059",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a4-legal/alto-volumen",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10463699"],
+        "documents": ["https://www.xeroxscanners.com/wp-content/uploads/manuals/XD50/XD50_Datasheet.US_.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SC-339", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 634.15, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "D50 / XD50-U",
+          "partNumber": "100N04059",
+          "productType": "Escaner documental ADF duplex",
+          "sensor": "Doble CIS",
+          "opticalResolution": "600 dpi",
+          "outputResolution": "Hasta 1200 dpi",
+          "speed": "70 ppm / 140 ipm a 200 dpi; 70 ppm / 140 ipm B/N y gris a 300 dpi; 50 ppm / 100 ipm color a 300 dpi",
+          "adfCapacity": "120 hojas",
+          "dailyDutyCycle": "11000 paginas",
+          "interface": "USB 3.1 Gen 1",
+          "software": "Visioneer OneTouch",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SC-339. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SC-339", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 634.15, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "316 x 191 x 168 mm bandejas cerradas; 316 x 680 x 239 mm extendidas", "weight": "4.5 kg" },
+        "sourceRefs": [
+          { "title": "Xerox D50 datasheet", "type": "manufacturer_datasheet", "url": "https://www.xeroxscanners.com/wp-content/uploads/manuals/XD50/XD50_Datasheet.US_.pdf" },
+          { "title": "B&H Xerox D50 specs", "type": "retailer_reference", "url": "https://www.bhphotovideo.com/c/product/1922453-REG/xerox_xd50_u_d50_document_scanner.html/specs" }
+        ]
+      }
+    },
+    {
+      "product_id": "07cuzibvxqu6r4i",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Hikvision",
+        "name": "NVR Hikvision NVR-104H-D/4P(D) 4 canales IP PoE 6MP H.265+",
+        "description": "NVR Hikvision NVR-104H-D/4P(D) de 4 canales IP hasta 6MP, compresion H.265+/H.265/H.264+/H.264, 4 puertos PoE 10/100 con presupuesto total 36W, 1 bahia SATA hasta 6TB, salida HDMI/VGA simultanea y 2 USB 2.0. CVA reporta stock 0.",
+        "manufacturerUrl": "https://assets.hikvision.com/prd/public/all/doc/m000000751/Datasheet-of-NVR-104H-D_4P-NVRD_V4.73.200_20230404.pdf",
+        "manualCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-6mp/hikvision-nvr-104h-d-4p-d",
+        "semanticCategoryPath": "seguridad/cctv/dvr-nvr/nvr-poe/4-canales-6mp",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10460597"],
+        "documents": ["https://assets.hikvision.com/prd/public/all/doc/m000000751/Datasheet-of-NVR-104H-D_4P-NVRD_V4.73.200_20230404.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "NVR-192", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 77, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "NVR-104H-D/4P(D)",
+          "productType": "NVR PoE 4 canales",
+          "channels": "4 canales IP hasta 6MP",
+          "compression": ["H.265+", "H.265", "H.264+", "H.264"],
+          "bandwidth": "40 Mbps entrada, 60 Mbps salida",
+          "outputs": ["HDMI", "VGA simultaneo"],
+          "poePorts": "4 x 10/100 Mbps PoE",
+          "poeBudget": "36W total",
+          "storage": "1 x SATA hasta 6TB",
+          "usb": "2 x USB 2.0",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para NVR-192. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "NVR-192", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 77, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "200 x 200 x 48 mm", "weight": "<= 1 kg sin HDD" },
+        "sourceRefs": [
+          { "title": "Hikvision NVR-104H-D/4P(D) datasheet", "type": "manufacturer_datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000000751/Datasheet-of-NVR-104H-D_4P-NVRD_V4.73.200_20230404.pdf" }
+        ]
+      }
+    },
+    {
+      "product_id": "07oaxbpm86x8ya4",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Bitdefender",
+        "name": "Bitdefender GravityZone Business Security Premium TMBDL-103-S-R renovacion 1 ano sector privado",
+        "description": "Licencia electronica de renovacion Bitdefender GravityZone Business Security Premium / Elite TMBDL-103-S-R por 1 ano para sector privado, compra minima 5 nodos segun canal mexicano. Incluye proteccion endpoint empresarial administrada desde consola GravityZone, seguridad para endpoints/servidores y funciones premium documentadas por Bitdefender. CVA reporta stock 0.",
+        "manufacturerUrl": "https://www.bitdefender.com/content/dam/bitdefender/business/products/business-security-premium/Bitdefender_GravityZone_Business_Security_Premium_Datasheet_en.pdf",
+        "manualCategoryPath": "software/seguridad/endpoint/bitdefender/gravityzone-business-security-premium/1-ano-sector-privado/renovacion/tmbdl-103-s-r",
+        "semanticCategoryPath": "software/seguridad/endpoint/bitdefender/gravityzone-business-security-premium/1-ano-sector-privado/renovacion",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10251453"],
+        "documents": ["https://www.bitdefender.com/content/dam/bitdefender/business/products/business-security-premium/Bitdefender_GravityZone_Business_Security_Premium_Datasheet_en.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "SWS-4593", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 27.17, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "TMBDL-103-S-R",
+          "productType": "Licencia electronica de seguridad endpoint",
+          "licenseTerm": "1 ano",
+          "licenseKind": "Renovacion",
+          "market": "Sector privado",
+          "minimumNodes": "5 nodos segun canal",
+          "platform": "GravityZone Business Security Premium",
+          "features": ["Proteccion endpoint", "Administracion centralizada", "Sandbox Analyzer", "Risk Management", "Attack Forensics"],
+          "delivery": "ESD/licencia electronica",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para SWS-4593. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "SWS-4593", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 27.17, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "No aplica, licencia electronica", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Bitdefender GravityZone Business Security Premium datasheet", "type": "manufacturer_datasheet", "url": "https://www.bitdefender.com/content/dam/bitdefender/business/products/business-security-premium/Bitdefender_GravityZone_Business_Security_Premium_Datasheet_en.pdf" },
+          { "title": "PCEL Bitdefender TMBDL-103-S-R", "type": "retailer_reference", "url": "https://www.pcel.com/software/antivirus-y-seguridad/Bitdefender-TMBDL-103-S-R-BITDEFENDER-GRAVITYZONE-BUSINESS-SECURITY-PREMIUM-ELITE-LIC-ELECTRONICO-1-ANO-RENOVACION-SECTOR-PRIVADO-COMPRA-MINIMA-5-NODOS-459382" }
+        ]
+      }
+    },
+    {
+      "product_id": "07tnfg6i70p4hek",
+      "research": {
+        "confidence": 0.94,
+        "brand": "be quiet!",
+        "name": "Gabinete be quiet! Pure Base 501 DX BGW77 blanco ATX ARGB alto flujo",
+        "description": "Gabinete be quiet! Pure Base 501 DX BGW77 blanco tipo ATX mid tower de alto flujo con panel de vidrio templado, 3 ventiladores Pure Wings 3 140mm PWM White incluidos, USB-C 3.2 Gen 2, 2 USB-A, soporte GPU hasta 368mm y radiador frontal hasta 360mm. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://www.bequiet.com/en/case/5754",
+        "manualCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/alto-flujo-argb/blanco/be-quiet-pure-base-501-dx-bgw77",
+        "semanticCategoryPath": "computo/componentes/gabinetes/gaming/atx-mid-tower/alto-flujo-argb/blanco",
+        "legacyCategory": "components",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/GABBEQ380/GABBEQ380_full.jpg"],
+        "documents": ["https://www.bequiet.com/en/case/5754"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "GABBEQ380", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 77.78, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "BGW77",
+          "ean": "4260052192849",
+          "productLine": "Pure Base 501 DX White",
+          "productType": "Gabinete ATX mid tower",
+          "motherboardSupport": ["ATX", "Micro-ATX", "Mini-ITX"],
+          "includedFans": "3 x Pure Wings 3 140mm PWM White",
+          "sidePanel": "Vidrio templado",
+          "frontIo": ["USB-C 3.2 Gen 2", "2 x USB-A", "Audio"],
+          "gpuClearance": "Hasta 368 mm",
+          "radiatorSupport": "Frontal hasta 360 mm",
+          "psuClearance": "200 mm o 180 mm segun configuracion",
+          "color": "Blanco",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para GABBEQ380. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "GABBEQ380", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 77.78, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "450 x 231 x 463 mm con patas; 450 x 231 x 449 mm sin patas", "weight": "7.9 kg", "packageDimensions": "518 x 292 x 503 mm", "packageWeight": "9.2 kg" },
+        "sourceRefs": [
+          { "title": "be quiet! Pure Base 501 DX White official page", "type": "manufacturer_product", "url": "https://www.bequiet.com/en/case/5754" },
+          { "title": "B&H be quiet! BGW77 specs", "type": "retailer_reference", "url": "https://www.bhphotovideo.com/c/product/1938141-REG/be_quiet_bgw77_pure_base_501_dx.html" }
+        ]
+      }
+    },
+    {
+      "product_id": "07vk9nwhg5gts82",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Acteck",
+        "name": "Mouse ergonomico vertical Acteck Virtuos Pro MI780 AC-936187 Bluetooth 2.4GHz 3200 DPI",
+        "description": "Mouse ergonomico vertical Acteck Virtuos Pro MI780 AC-936187 negro con Bluetooth de 2 canales, dongle 2.4GHz, sensor PixArt PAW3805, 8 botones, DPI ajustable 1000/1600/2400/3200, bateria recargable 500mAh y USB-C. CVA reporta stock 0.",
+        "manufacturerUrl": "https://acteck.com/products/mouse-ergonomico-profesional-virtuos-pro-mi780-negro",
+        "manualCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/recargables-3200-dpi/acteck-virtuos-pro-mi780-ac-936187",
+        "semanticCategoryPath": "computo/perifericos/mouse/inalambricos/ergonomicos/recargables-3200-dpi",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10390340"],
+        "documents": ["https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-936187_V1.pdf?v=1695308158"],
+        "wholesalerStock": [
+          { "wholesalerId": "cva", "sku": "MS-1539", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 603.92, "currency": "MXN" }
+        ],
+        "specs": {
+          "model": "AC-936187 / MI780",
+          "ean": "7506215936187",
+          "productType": "Mouse ergonomico vertical inalambrico",
+          "sensor": "PixArt PAW3805",
+          "buttons": 8,
+          "dpi": ["1000", "1600", "2400", "3200"],
+          "connections": ["Bluetooth 2 canales", "2.4GHz dongle", "USB-C carga"],
+          "battery": "3.7V 500mAh",
+          "batteryLife": "50 h segun ficha tecnica conservadora",
+          "compatibility": ["Windows", "macOS", "iOS", "Android"],
+          "color": "Negro",
+          "providerBranchSummary": "CVA/Electroprice reporta stock 0 para MS-1539. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "cva", "providerSku": "MS-1539", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 603.92, "currency": "MXN" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "122 x 85 x 50 mm", "weight": "122 g", "packageDimensions": "9.5 x 5.5 x 16 cm" },
+        "sourceRefs": [
+          { "title": "Acteck Virtuos Pro MI780 official page", "type": "manufacturer_product", "url": "https://acteck.com/products/mouse-ergonomico-profesional-virtuos-pro-mi780-negro" },
+          { "title": "Acteck AC-936187 datasheet", "type": "manufacturer_datasheet", "url": "https://cdn.shopify.com/s/files/1/0791/2233/4011/files/Ficha_Tecnica-AC-936187_V1.pdf?v=1695308158" }
+        ]
+      }
+    },
+    {
+      "product_id": "07w51hlb5s9iad2",
+      "research": {
+        "confidence": 0.95,
+        "brand": "Hikvision",
+        "name": "Camara IP PoE Hikvision DS-2CD2T47G2-L(C) ColorVu 4MP bullet luz blanca 4mm",
+        "description": "Camara IP bullet Hikvision DS-2CD2T47G2-L(C) ColorVu de 4MP con sensor 1/1.8 CMOS, resolucion 2688 x 1520, lente fijo F1.0, WDR 130dB, luz blanca visible hasta 60m, H.265+, microSD hasta 512GB, alimentacion 12VDC o PoE 802.3af e IP67. CTOnline reporta stock 0.",
+        "manufacturerUrl": "https://assets.hikvision.com/prd/public/all/doc/m000032057/DS-2CD2T47G2-L-C_Datasheet_V5.5.112_20230418.pdf",
+        "manualCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/4mp-colorvu-luz-blanca/hikvision-ds-2cd2t47g2-l-c",
+        "semanticCategoryPath": "seguridad/cctv/camaras-ip-poe/bullet/4mp-colorvu-luz-blanca",
+        "legacyCategory": "cameras",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/CAMHKV3120/CAMHKV3120_full.jpg"],
+        "documents": ["https://assets.hikvision.com/prd/public/all/doc/m000032057/DS-2CD2T47G2-L-C_Datasheet_V5.5.112_20230418.pdf"],
+        "wholesalerStock": [
+          { "wholesalerId": "ctonline", "sku": "CAMHKV3120", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 152.17, "currency": "USD" }
+        ],
+        "specs": {
+          "model": "DS-2CD2T47G2-L(C)",
+          "ean": "6941264083689",
+          "productType": "Camara IP bullet PoE ColorVu",
+          "sensor": "1/1.8 in Progressive Scan CMOS",
+          "resolution": "2688 x 1520, 4MP",
+          "lens": "Fijo 2.8/4/6 mm F1.0; proveedor indica 4 mm",
+          "wideDynamicRange": "130 dB",
+          "illumination": "Luz blanca hasta 60 m",
+          "compression": ["H.265+", "H.265", "H.264+", "H.264"],
+          "storage": "MicroSD hasta 512GB",
+          "power": ["12 VDC", "PoE 802.3af"],
+          "ingressProtection": "IP67",
+          "providerBranchSummary": "CTOnline/Electroprice reporta stock 0 para CAMHKV3120. No hay sucursal publica disponible.",
+          "providerBranches": [
+            { "providerId": "ctonline", "providerSku": "CAMHKV3120", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 152.17, "currency": "USD" }
+          ],
+          "providerStockVerifiedAt": "2026-06-01T00:00:00Z"
+        },
+        "measurements": { "dimensions": "105 mm diametro x 289.5 mm", "weight": "1170 g", "packageDimensions": "385 x 190 x 180 mm", "packageWeight": "1689 g" },
+        "sourceRefs": [
+          { "title": "Hikvision DS-2CD2T47G2-L(C) datasheet", "type": "manufacturer_datasheet", "url": "https://assets.hikvision.com/prd/public/all/doc/m000032057/DS-2CD2T47G2-L-C_Datasheet_V5.5.112_20230418.pdf" }
+        ]
+      }
+    }
+  ]
+}
