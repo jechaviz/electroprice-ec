@@ -1,0 +1,460 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b237-2026-06-01",
+  "cycle": 3,
+  "batch": 237,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "zw3ylw3a1r1rtn3",
+      "research": {
+        "confidence": 0.88,
+        "brand": "GENERICO",
+        "name": "Foliador metalico automatico generico KWP010, 6 digitos",
+        "description": "Foliador metalico automatico KWP010 de 6 digitos para numeracion consecutiva de documentos, folios, recibos y control de archivo en oficina.",
+        "manualCategoryPath": "oficina/equipo-oficina/foliadores/automaticos-6-digitos/generico-kwp010",
+        "semanticCategoryPath": "oficina/equipo-oficina/foliadores/automaticos-6-digitos",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "",
+        "gallery": [
+          "https://prodeco.com.mx/uploads/_/ACCKWP010.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-kwp010-foliador-kw-metalico-automatico-6.webp"
+        ],
+        "specs": {
+          "brand": "Generico",
+          "model": "KWP010",
+          "providerSku": "ACCKWP010",
+          "ean": "7502005160046",
+          "productType": "Foliador metalico automatico",
+          "digits": 6,
+          "useCases": ["Numeracion consecutiva", "Folios", "Recibos", "Control documental"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; TiendaClic Guadalajara, MiPC, Cityshop Leon y Prodeco muestran disponibilidad/agotado mixto sin sucursal de proveedor CTOnline.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCKWP010", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 275.11, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic Guadalajara $377.13 MXN, existencia aproximada 0.", "MiPC $366.56 MXN, agotado, GTIN 7502005160046.", "Cityshop Leon $ precio no consolidado, producto agotado.", "Prodeco $358.00 MXN, pagina muestra disponibles sin cantidad/sucursal visible."],
+          "reviewNotes": "No se localizo fabricante oficial verificable; se clasifica como foliador generico KWP010."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "TiendaClic KWP010", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/foliador-metalico-automatico-6-digitos-generico-kwp010" },
+          { "title": "MiPC KWP010", "type": "retailer_stock", "url": "https://mipc.com.mx/foliador-generico-kwp010-metalico-automatico-6-digitos.html" },
+          { "title": "Cityshop KWP010", "type": "retailer_stock", "url": "https://cityshop.mx/producto/foliador-kw-metalico-automatico-6-digitos-6dg" },
+          { "title": "Prodeco KWP010", "type": "retailer_stock", "url": "https://prodeco.com.mx/productos/consumibles/papeleria/generico/kwp010/z-36128" },
+          { "title": "CTOnline batch ACCKWP010 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "ukt8zk7bj3r7r3h",
+      "research": {
+        "confidence": 0.92,
+        "brand": "XZEAL",
+        "name": "Microfono gamer Xzeal XZST250B USB negro con tripode y filtro anti-pop",
+        "description": "Microfono USB de escritorio Xzeal XZST250B color negro para streaming, juegos y videollamadas; incluye tripode y filtro anti-pop.",
+        "manualCategoryPath": "audio/microfonos/escritorio-usb/xzeal-xzst250b",
+        "semanticCategoryPath": "audio/microfonos/escritorio-usb",
+        "legacyCategory": "audio",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://xzeal.mx/",
+        "gallery": [
+          "https://www.pclapsc.com/cdn/shop/files/XZST250B.png?v=1727778978&width=1946",
+          "https://consumiblesjuarez.com/cdn/shop/files/ACCSTY320_full_5e55e809-34f4-4f49-b76c-39919677e797.jpg?v=1733853589&width=416",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MicrofonoStreamerXzealXZST250B_XZST250B_EAN7503030903387_0-scaled-600x609.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MicrofonoStreamerXzealXZST250B_XZST250B_EAN7503030903387_1-scaled-600x564.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MicrofonoStreamerXzealXZST250B_XZST250B_EAN7503030903387_2-600x632.jpg",
+          "https://compupuebla.com/wp-content/uploads/2024/04/MicrofonoStreamerXzealXZST250B_XZST250B_EAN7503030903387_3-600x600.jpg"
+        ],
+        "specs": {
+          "brand": "Xzeal",
+          "model": "XZST250B",
+          "alternateModels": ["XST250", "XZ250"],
+          "providerSku": "ACCSTY320",
+          "ean": "7503030903387",
+          "productType": "Microfono USB de escritorio",
+          "color": "Negro",
+          "connectivity": "USB alambrico",
+          "includedAccessories": ["Tripode de sobremesa", "Filtro anti-pop"],
+          "pickupPattern": "Cardioide segun ficha publica",
+          "useCases": ["Streaming", "Gaming", "Videollamadas", "Grabacion de voz"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; PCLAPSC Monterrey muestra 4 pzas y CTI Systems muestra 3 disponibles.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCSTY320", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 213.52, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["PCLAPSC Monterrey $299.00 MXN, stock 4, Plaza Modesto Arreola 251 Local 14 Centro Monterrey NL.", "CTI Systems $257.00 MXN, 3 disponibles.", "Consumibles Juarez $318.78 MXN, agotado.", "CompuPuebla $307.00 MXN, out of stock.", "TecnoWow Pachuca $282.00 MXN, sin disponibilidad.", "Novusred Cancun $269.73 MXN, stock 0."],
+          "reviewNotes": "Los pesos publicados 13.10 kg/3.10 kg parecen errores para un microfono de sobremesa; se conserva peso volumetrico de Ectronic como senal secundaria."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque 20.5 x 13.7 x 6.5 cm", "weight": "Peso fisico no confiable; peso volumetrico reportado 0.3642145" },
+        "sourceRefs": [
+          { "title": "Ficha tecnica Xzeal XZST250B", "type": "manufacturer_specs", "url": "https://cdn.cyberpuerta.mx/storage/articles/multimedia/FICHA_TECNICA_XZST250B.pdf" },
+          { "title": "Xzeal Mexico", "type": "manufacturer_home", "url": "https://xzeal.mx/" },
+          { "title": "PCLAPSC XZST250B", "type": "retailer_stock", "url": "https://www.pclapsc.com/products/microfono-gamer-xzeal-tripode-filtro-antipop-incluido-usb-xzst250b" },
+          { "title": "CompuPuebla XZST250B", "type": "retailer_specs", "url": "https://compupuebla.com/producto/microfono-xzeal-xzst250b/" },
+          { "title": "CTI Systems XZST250B", "type": "retailer_stock", "url": "https://ctisystems.mx/microfono-xzeal-xzst250b-streamer-xzeal" },
+          { "title": "CTOnline batch ACCSTY320 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "smnt062eex86hl9",
+      "research": {
+        "confidence": 0.95,
+        "brand": "ELGATO",
+        "name": "Elgato Ring Light 10LAC9901 aro de luz LED Wi-Fi 43.2 cm negro",
+        "description": "Aro de luz LED Elgato Ring Light 10LAC9901 de 43.2 cm, temperatura 2900-7000 K, brillo ajustable y control Wi-Fi para foto, video y streaming.",
+        "manualCategoryPath": "video/accesorios-foto-video/iluminacion/aros-luz/elgato-ring-light-10lac9901",
+        "semanticCategoryPath": "video/accesorios-foto-video/iluminacion/aros-luz",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.elgato.com/ww/de/p/ring-light",
+        "gallery": [
+          "https://res.cloudinary.com/elgato-pwa/image/upload/q_auto%2Cf_auto/v1678959885/Products/10LAC9901/above-the-fold/desktop/ring-light-01_am0cfs.jpg",
+          "https://res.cloudinary.com/elgato-pwa/image/upload/q_auto%2Cf_auto/v1710143506/legacy/organismCard/muubqiddxkigqstk5ggj.png",
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/ACCCOR310_full.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-ELGATO-10LAC9901-1.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-ELGATO-10LAC9901-2.jpg",
+          "https://www.cyberpuerta.mx/img/product/M/CP-ELGATO-10LAC9901-3.jpg"
+        ],
+        "specs": {
+          "brand": "Elgato",
+          "brandOwner": "Corsair",
+          "model": "10LAC9901",
+          "providerSku": "ACCCOR310",
+          "ean": "0840006626053",
+          "upc": "840006626053",
+          "productType": "Aro de luz LED",
+          "ledType": "OSRAM LED",
+          "brightness": "Hasta 2500 lumen/lux segun ficha publica",
+          "colorTemperature": "2900-7000 K ajustable",
+          "power": "45 W",
+          "connectivity": "Wi-Fi 2.4/5 GHz 802.11 a/b/g/n",
+          "controls": ["App", "Stream Deck"],
+          "manufacturerStatus": "Discontinued / no longer available",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Cyberpuerta y Sercommex muestran 1 pza publica, MacToner sin existencias.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCCOR310", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 155.56, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $4,012.68 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cyberpuerta $2,719.00 MXN, solo queda 1 pza.", "Sercommex $4,247.33 MXN, stock 1, Zihuatanejo segun sitio."],
+          "reviewNotes": "El feed marca CORSAIR; la linea y fabricante comercial son Elgato, marca de Corsair."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Superficie 432 x 432 mm; diametro exterior 43.2 cm; diametro interior 31 cm; altura 44-74 cm; clamp 205 x 205 x 18 mm", "weight": "1.07 kg cabeza de lampara; 3.8 kg empaque/listado retail" },
+        "sourceRefs": [
+          { "title": "Elgato Ring Light", "type": "manufacturer_product", "url": "https://www.elgato.com/ww/de/p/ring-light" },
+          { "title": "MacToner Elgato 10LAC9901", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/aro-de-iluminacion-elgato-corsair-10lac9901-6000-h/" },
+          { "title": "Cyberpuerta Elgato 10LAC9901", "type": "retailer_stock", "url": "https://www.cyberpuerta.mx/Audio-y-Video/Foto-y-Video/Accesorios-Foto-y-Video/Iluminacion-para-Foto-y-Video/Elgato-Aro-de-Luz-LED-10LAC9901-Luz-Ajustable-43-2cm-Negro.html" },
+          { "title": "Sercommex Elgato 10LAC9901", "type": "retailer_stock", "url": "https://sercommex.com/productos/detalle/ACCCOR310/Aro%20de%20Iluminaci%C3%B3n%20ELGATO%20%20CORSAIR%2010LAC9901" },
+          { "title": "CTOnline batch ACCCOR310 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "bd50decr9i0gmx4",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "Servidor virtual en la nube CT Cloud NCSVDUOCQ paquete CQ DUO",
+        "description": "Servicio intangible CT Cloud NCSVDUOCQ, paquete CQ DUO de servidor virtual en la nube provisionado por CT Cloud.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/servidores-virtuales/cq-duo-ncsvduocq",
+        "semanticCategoryPath": "software/servicios-nube/ct-cloud/servidores-virtuales",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctcloud.mx",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO310_full-600x499.jpg",
+          "https://cityshop.mx/assets/imagenes/productos/cityshop-ct-ncsvduocq-servidor-virtual-en-la-nube.webp"
+        ],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "NCSVDUOCQ",
+          "providerSku": "SERCLO310",
+          "productType": "Servidor virtual en la nube",
+          "packageName": "Paquete CQ DUO",
+          "softwareType": "Servicio de Nube",
+          "deliveryType": "Servicio / provisionamiento cloud",
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner y Cityshop muestran agotado con ubicaciones CDMX/Leon.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERCLO310", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 1388.81, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $2,095.83 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cityshop $1,729.00 MXN en listado de marca, agotado, Av. Cardadores 260-C Leon Guanajuato."],
+          "reviewNotes": "Servicio cloud intangible; no se asignan medidas ni peso fisico."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica; servicio cloud", "weight": "No aplica; servicio cloud" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud NCSVDUOCQ", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/servidor-virtual-en-la-nube-ct-cloud-ncsvduocq-servicio-de-nube/" },
+          { "title": "Cityshop CT Cloud NCSVDUOCQ", "type": "retailer_stock", "url": "https://cityshop.mx/producto/servidor-virtual-en-la-nube-ct-cloud-ncsvduocq-servicio-de-nube" },
+          { "title": "Cityshop marca CT Cloud", "type": "retailer_brand", "url": "https://cityshop.mx/marca/ct-cloud" },
+          { "title": "CT Cloud domain", "type": "manufacturer_home", "url": "https://ctcloud.mx" },
+          { "title": "CTOnline batch SERCLO310 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "rps7u1y33m3u4qw",
+      "research": {
+        "confidence": 0.86,
+        "brand": "CT CLOUD",
+        "name": "Servicio en la nube CT Cloud NCSVPLUSCQ paquete Plus CQ",
+        "description": "Servicio intangible CT Cloud NCSVPLUSCQ paquete Plus CQ para gestion/provisionamiento de servicios en la nube.",
+        "manualCategoryPath": "software/servicios-nube/ct-cloud/gestion-nube/plus-cq-ncsvpluscq",
+        "semanticCategoryPath": "software/servicios-nube/ct-cloud/gestion-nube",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://ctonline.mx/",
+        "gallery": [
+          "https://www.mactoner.com.mx/wp-content/uploads/2024/12/SERCLO320_full-600x499.jpg"
+        ],
+        "specs": {
+          "brand": "CT Cloud",
+          "model": "NCSVPLUSCQ",
+          "providerSku": "SERCLO320",
+          "productType": "Servicio en la nube",
+          "softwareType": "Servicio de Nube",
+          "packageName": "Plus CQ",
+          "physicalProduct": false,
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; MacToner y Cityshop muestran agotado con ubicaciones CDMX/Leon.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SERCLO320", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 2046.23, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["MacToner $3,087.22 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "Cityshop $2,549.00 MXN en listado de marca, agotado, Av. Cardadores 260-C Leon Guanajuato."],
+          "reviewNotes": "No se encontro ficha publica de recursos incluidos; conservar como servicio cloud CT Cloud y no como hardware."
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica; servicio cloud", "weight": "No aplica; servicio cloud" },
+        "sourceRefs": [
+          { "title": "MacToner CT Cloud NCSVPLUSCQ", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/servicio-en-la-nube-ct-cloud-ncsvpluscq-servicio-de-nube/" },
+          { "title": "Cityshop CT Cloud NCSVPLUSCQ", "type": "retailer_stock", "url": "https://cityshop.mx/producto/servicio-en-la-nube-ct-cloud-ncsvpluscq-servicio-de-nube" },
+          { "title": "Cityshop marca CT Cloud", "type": "retailer_brand", "url": "https://cityshop.mx/marca/ct-cloud" },
+          { "title": "CT Internacional Intel partner", "type": "manufacturer_context", "url": "https://www.intel.com/content/www/us/en/partner/showcase/storefront/a5S3b0000004uYTEAY/ct-internacional-del-noroeste-sa-de-cv.html" },
+          { "title": "CTOnline batch SERCLO320 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "d6zohs7ggvvneyx",
+      "research": {
+        "confidence": 0.96,
+        "brand": "EPSON",
+        "name": "Escaner documental Epson DS-30000 B11B256201 A3 ADF duplex 70 ppm",
+        "description": "Escaner documental Epson DS-30000 B11B256201 con ADF de 120 hojas, duplex de una pasada, sensor CIS, tamano A3, USB 3.0 y ciclo de hasta 30,000 paginas diarias.",
+        "manualCategoryPath": "impresion/escaneres/documentales/adf/duplex/a3/epson-ds-30000-b11b256201",
+        "semanticCategoryPath": "impresion/escaneres/documentales/adf/duplex/a3",
+        "legacyCategory": "printers_scanners",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://epson.com.mx/Para-el-trabajo/Esc%C3%A1neres/Esc%C3%A1neres-de-documentos/Esc%C3%A1ner-de-Documentos-DS-30000/p/B11B256201",
+        "gallery": [
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=DS-30000_PC-editorschoice_690x460&clid=SAPDAM&id=2be068aecf45f1d22c57c4104d6c9b39df4b2b8d&prclid=banner&prid=1200Wx1200H&vid=2be068aecf45f1d22c57c4104d6c9b39df4b2b8d",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=ds-30000_right_690x460&clid=SAPDAM&id=e5a5656ada86b1d185d9833b617ae0fb7f48bc59&prclid=banner&prid=1200Wx1200H&vid=e5a5656ada86b1d185d9833b617ae0fb7f48bc59",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=ds-30000_left_690X460&clid=SAPDAM&id=454871b16bd2c79961e83e7b532f66750059ab17&prclid=banner&prid=1200Wx1200H&vid=454871b16bd2c79961e83e7b532f66750059ab17",
+          "https://mediaserver.goepson.com/adaptivemedia/rendition?assetDescr=ds-30000_hero-closed_690x460&clid=SAPDAM&id=d9493fffa1953254521e4077672c9ece2aa357e7&prclid=banner&prid=1200Wx1200H&vid=d9493fffa1953254521e4077672c9ece2aa357e7"
+        ],
+        "specs": {
+          "brand": "Epson",
+          "model": "B11B256201",
+          "marketingModel": "DS-30000",
+          "providerSku": "SCAEPS730",
+          "upcEanCandidate": "0010343951679",
+          "productType": "Escaner documental ADF duplex A3",
+          "sensor": "CIS color",
+          "opticalResolution": "600 dpi",
+          "maxResolution": "1200 dpi interpolada",
+          "scanSpeed": "Hasta 70 ppm simplex / 140 ipm duplex",
+          "adfCapacity": "120 hojas",
+          "maxMediaSize": "A3 / 304.8 x 558.8 mm; modo largo hasta 12 x 220 in a 200 dpi",
+          "dailyDutyCycle": "Hasta 30,000 paginas",
+          "interface": "USB 3.0",
+          "drivers": ["TWAIN", "ISIS", "ICA", "SANE", "WIA"],
+          "software": ["Epson Scan 2", "Document Capture Pro"],
+          "display": "LCD/touch 2.7 in",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; retailers mexicanos revisados muestran agotado o disponibilidad no concluyente, Abasteo metadata InStock y B&H US in stock.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "SCAEPS730", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 60622.8, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["GlobalOffice $72,209.00 MXN en listado/espejo, existencias en proceso de llegada, Guadalajara/Jalisco por lada 33.", "FullOffice $75,814.83 MXN, agotado, envio Mexico/CDMX.", "Azteca Compras $78,100.00 MXN, 0 pzas.", "Abasteo $71,649.00 MXN, metadata InStock.", "Compusistemas $82,277.42 MXN, Almacen 1 0 pzas, recoleccion CDMX.", "PCREDCOM $82,447.01 MXN, sin existencia, COD solo Monterrey.", "B&H US $2,499.00 USD, in stock."],
+          "reviewNotes": "Producto de alto volumen; se separa de escaneres A4/legal y portatiles."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "37.1 x 20.8 x 21.9 cm", "weight": "6.1 kg" },
+        "sourceRefs": [
+          { "title": "Epson Mexico DS-30000", "type": "manufacturer_product", "url": "https://epson.com.mx/Para-el-trabajo/Esc%C3%A1neres/Esc%C3%A1neres-de-documentos/Esc%C3%A1ner-de-Documentos-DS-30000/p/B11B256201" },
+          { "title": "Epson Mexico soporte DS-30000", "type": "manufacturer_support", "url": "https://epson.com.mx/Soporte/Esc%C3%A1neres/Epson-DS/Epson-DS-30000/s/SPT_B11B256201" },
+          { "title": "Epson US DS-30000", "type": "manufacturer_specs", "url": "https://epson.com/For-Work/Scanners/Document-Scanners/DS-30000-Large-format-Document-Scanner/p/B11B256201" },
+          { "title": "FullOffice Epson DS-30000", "type": "retailer_stock", "url": "https://fulloffice.com/products/escaner-epson-ds-30000-resolucion-600-dpi-70ppm" },
+          { "title": "Abasteo Epson DS-30000", "type": "retailer_stock", "url": "https://www.abasteo.mx/Impresion-Consumibles/Escaneres/Scanner-Epson-DS-30000-600-x-600DPI-Escaner-Color-Escaneado-Duplex-USB-3-0-Blanco-Negro.html" },
+          { "title": "CTOnline batch SCAEPS730 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "cvyp72zkc9p45ny",
+      "research": {
+        "confidence": 0.91,
+        "brand": "BACO",
+        "name": "Plastilina BACO 65018 en barra, colores primarios, paquete con 10 piezas",
+        "description": "Paquete de plastilina BACO 65018 con 10 barras de colores primarios/brillantes para uso escolar; material moldeable, no toxico y lavable segun retailers.",
+        "manualCategoryPath": "oficina/papeleria/material-escolar/plastilina/barras-10p/baco-65018",
+        "semanticCategoryPath": "oficina/papeleria/material-escolar/plastilina/barras-10p",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://baco.com.mx/",
+        "gallery": [
+          "https://d4zz7sav6ye2y.cloudfront.net/catalog/img/items/cached/65018-plastilina-ex.jpg",
+          "https://detqhtv6m6lzl.cloudfront.net/HCLContenido/producto/FullImage/7501174965018-1.jpeg"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "65018",
+          "providerSku": "ACCBAC3610",
+          "ean": "7501174965018",
+          "productType": "Plastilina escolar",
+          "colorSet": "Colores primarios / 10 colores",
+          "pack": "10 barras / 10 piezas",
+          "attributes": ["No toxica", "Facil de moldear", "No mancha las manos", "Facil de lavar"],
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; DelSol disponible online y Ofimarket Rio Bravo muestra precio/pickup.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBAC3610", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 16.26, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic Guadalajara $76.86 MXN, existencia aproximada 0.", "DelSol online $14.90 MXN, disponible en linea con selector de tienda.", "Ofimarket $18.50 MXN, pickup Av. Francisco I Madero 130, Rio Bravo 1, Mexico, 88910."],
+          "reviewNotes": "Se separa de plastilinas BACO PL002/PL005/PL006/PL007/PL008 en marqueta 180 g."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas; contenido 10 barras", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "TiendaClic BACO 65018", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/plastilina-baco-65018" },
+          { "title": "DelSol BACO 65018", "type": "retailer_stock", "url": "https://www.delsol.com.mx/plastilina-baco-en-barras-10-colores" },
+          { "title": "Ofimarket plastilina BACO", "type": "retailer_stock", "url": "https://ofimarket.mx/product/plastilina-c-10-barras-colores-b-1-baco/" },
+          { "title": "BACO directorio Diex", "type": "manufacturer_context", "url": "https://diexmexico.com/directories/baco-s-a/" },
+          { "title": "CTOnline batch ACCBAC3610 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "gqiyjdxmubco19a",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BACO",
+        "name": "Clip cuadradito BACO 12067 No. 1 niquelado, caja con 100 piezas",
+        "description": "Caja con 100 clips cuadraditos BACO 12067 No. 1 niquelados, de acero bajo carbono, para sujetar documentos y organizar archivo.",
+        "manualCategoryPath": "oficina/papeleria/sujetadores/clips/cuadraditos/no-1/baco-12067-100-piezas",
+        "semanticCategoryPath": "oficina/papeleria/sujetadores/clips/cuadraditos/no-1",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://baco.com.mx/",
+        "gallery": [
+          "https://d4zz7sav6ye2y.cloudfront.net/catalog/img/items/cached/38ea1-ex.jpg",
+          "https://ofixmx.vtexassets.com/arquivos/ids/162549-800-auto?aspect=true&height=auto&v=638417602781800000&width=800",
+          "https://ofixmx.vtexassets.com/arquivos/ids/201422-800-auto?aspect=true&height=auto&v=638417563019100000&width=800",
+          "https://ofixmx.vtexassets.com/arquivos/ids/201423-800-auto?aspect=true&height=auto&v=638417634299470000&width=800",
+          "https://tonypapelerias.vtexassets.com/arquivos/ids/285968-800-auto?aspect=true&height=auto&v=638640081040870000&width=800"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "12067",
+          "providerSku": "ACCBAC3620",
+          "ean": "7501174912210",
+          "productType": "Clip cuadradito No. 1",
+          "material": "Alambre de acero bajo carbono / metal niquelado",
+          "finish": "Niquelado; triple capa contra corrosion segun retail",
+          "pack": "Caja con 100 piezas",
+          "capacity": "Hasta 25 hojas segun retail",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Orpamex CDMX muestra hasta agotar existencia y Ofix/Tony publican precio online.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBAC3620", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 26.75, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic Guadalajara $89.03 MXN, existencia aproximada 0.", "CTI Systems $35.00 MXN, agotado.", "PCStore $36.00 MXN, agotado.", "Orpamex CDMX $27.00 MXN, hasta agotar existencia, Av. Del Taller No. 24 Col. Transito Cuauhtemoc.", "Ofix $28.50 MXN, corporativo Boca del Rio Veracruz.", "Tony $26.10 MXN, EAN distinto en ficha."],
+          "reviewNotes": "Tony lista EAN 7501174912067 para articulo 12067; usar como referencia de imagen/precio, no como confirmacion EAN."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Clip 3.5 cm", "weight": "No localizado" },
+        "sourceRefs": [
+          { "title": "TiendaClic BACO 12067", "type": "retailer_stock", "url": "https://www.depot.tiendaclic.mx/ver-detalle/clip-baco-12067" },
+          { "title": "CTI Systems BACO 12067", "type": "retailer_stock", "url": "https://ctisystems.mx/clip-baco-12067-clip-1-no-de-parte-12067-caja-con-100-piezas-niqueladas" },
+          { "title": "PCStore BACO 12067", "type": "retailer_stock", "url": "https://pcstore.mx/clip-baco-12067-clip-1-no-de-parte-12067-caja-con-100-piezas-niqueladas" },
+          { "title": "Orpamex BACO 12067", "type": "retailer_stock", "url": "https://orpamex.com.mx/clips/1630-clip-cuadradito-no-1-100pz.html" },
+          { "title": "Ofix BACO 12067", "type": "retailer_stock", "url": "https://www.ofix.mx/clip-cuadrado--1-con-100---baco-ptcla0010/p" },
+          { "title": "CTOnline batch ACCBAC3620 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "tcnc4qdlon4ijr0",
+      "research": {
+        "confidence": 0.92,
+        "brand": "BACO",
+        "name": "Clip cuadradito BACO 12043 No. 2 niquelado, caja con 100 piezas",
+        "description": "Caja con 100 clips cuadraditos BACO 12043 No. 2 niquelados, de alambre/acero bajo carbono, para sujetar y archivar documentos.",
+        "manualCategoryPath": "oficina/papeleria/sujetadores/clips/cuadraditos/no-2/baco-12043-100-piezas",
+        "semanticCategoryPath": "oficina/papeleria/sujetadores/clips/cuadraditos/no-2",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "http://baco.com.mx/",
+        "gallery": [
+          "https://d4zz7sav6ye2y.cloudfront.net/catalog/img/items/cached/d6e09-ex.jpg",
+          "https://www.aunclip.com/cdn/shop/files/clip_cuadradito_baco.png?v=1732664922&width=1946"
+        ],
+        "specs": {
+          "brand": "BACO",
+          "model": "12043",
+          "providerSku": "ACCBAC3630",
+          "ean": "7501174912227",
+          "productType": "Clip cuadradito No. 2",
+          "material": "Alambre/acero bajo carbono",
+          "finish": "Niquelado",
+          "pack": "Caja con 100 piezas; algunos retailers publican presentacion colectiva 10 cajas x 100 piezas",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; TiendaClic/CTI/PCStore agotado, A Un Clip agotado CDMX y Alva Papeleria publica precio en Colima.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCBAC3630", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 21.26, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["TiendaClic Guadalajara $82.66 MXN, existencia aproximada 0.", "CTI Systems $34.00 MXN, agotado.", "PCStore $34.00 MXN, agotado.", "A Un Clip $167.01 MXN, agotado, Sierra Gorda 201 Lomas de Chapultepec CDMX.", "Alva Papeleria $181.99 MXN, Rodolfo Chavez Carrillo 590 Santa Teresa Colima.", "Novusred Cancun $28.36 MXN, sin stock."],
+          "reviewNotes": "Diferenciar de clips estandar BACO 12302/12326 y de clip cuadradito No. 1 BACO 12067."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "No localizadas", "weight": "0.46 kg reportado por Alva Papeleria, probablemente presentacion colectiva" },
+        "sourceRefs": [
+          { "title": "TiendaClic BACO 12043", "type": "retailer_stock", "url": "https://www.tiendaclic.mx/ver-detalle/clip-baco-12043" },
+          { "title": "A Un Clip BACO 12043", "type": "retailer_stock", "url": "https://www.aunclip.com/products/clip-cuadradito2-baco-10cajas-100piezas" },
+          { "title": "CTI Systems BACO 12043", "type": "retailer_stock", "url": "https://ctisystems.mx/clip-baco-12043-clip-2-no-de-parte-12043-caja-con-100-piezas-niqueladas" },
+          { "title": "PCStore BACO 12043", "type": "retailer_stock", "url": "https://pcstore.mx/clip-baco-12043-clip-2-no-de-parte-12043-caja-con-100-piezas-niqueladas" },
+          { "title": "Novusred BACO 12043", "type": "retailer_stock", "url": "https://novusred.mx/sin-clasificacion/777-clip-clip-baco-2-no-de-parte-12043-caja-con-100-piezas-niqueladas-ACCBAC3630.html" },
+          { "title": "CTOnline batch ACCBAC3630 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "b21wjk9greqbkf6",
+      "research": {
+        "confidence": 0.95,
+        "brand": "KENSINGTON",
+        "name": "Candado Kensington MicroSaver 2.0 K65048WW Twin con llave para dos laptops",
+        "description": "Candado Kensington MicroSaver 2.0 K65048WW Twin con llave, dos cabezales de 10 mm, cable de acero de 8 ft y tecnologia T-Bar/Hidden Pin para asegurar dos laptops o dispositivos.",
+        "manualCategoryPath": "accesorios/seguridad-fisica/candados-laptop/llave/microsaver-2-0/kensington-k65048ww-twin",
+        "semanticCategoryPath": "accesorios/seguridad-fisica/candados-laptop/llave/microsaver-2-0",
+        "legacyCategory": "accessories",
+        "categoryReviewStatus": "manual_verified",
+        "manufacturerUrl": "https://www.kensington.com/p/products/technology-device-security-products/device-security-keyed-locks/microsaver-22.0-keyed-twin-laptop-lock/",
+        "gallery": [
+          "https://media.accobrands.com/media/560-560/361183.jpg?height=449px&width=680px",
+          "https://media.accobrands.com/media/560-560/361185.jpg?height=449px&width=680px",
+          "https://media.accobrands.com/media/560-560/361187.jpg?height=449px&width=680px",
+          "https://media.accobrands.com/media/560-560/361341.jpg?height=449px&width=680px",
+          "https://media.accobrands.com/media/560-560/361189.jpg?height=449px&width=680px"
+        ],
+        "specs": {
+          "brand": "Kensington",
+          "model": "K65048WW",
+          "providerSku": "ACCKNS1210",
+          "upc": "085896650485",
+          "productType": "Candado doble con llave para laptop",
+          "lockType": "Standard Keyed",
+          "heads": "Dos cabezales de 10 mm",
+          "slotCompatibility": "Kensington Security Slot / T-Bar",
+          "securityFeatures": ["Hidden Pin anti-pick", "Register & Retrieve"],
+          "cable": "Acero al carbon con recubrimiento plastico, 8 ft / 2430 mm",
+          "keysIncluded": 2,
+          "warranty": "Garantia limitada 5 anos",
+          "providerBranchSummary": "CTOnline reporta stock 0 sin sucursal publica; Kensington oficial out of stock, MacToner MX sin existencias y retailers US con stock.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCKNS1210", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 750, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-06-01T02:00:00Z",
+          "publicAvailabilitySignals": ["Kensington oficial US$89.99, out of stock.", "MacToner $1,107.93 MXN, sin existencias, Colima 161 Roma Norte CDMX.", "OfficeCrave US$70.28, in stock.", "Grainger US$189.76, item 852HE0.", "DirectDial US$72, in stock.", "CompGiant US$75.72, in stock."],
+          "reviewNotes": "Diferenciar de K65020WW MicroSaver 2.0 individual; este K65048WW es Twin/doble para dos dispositivos."
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "Empaque 242 x 128 x 31 mm; cable 8 ft / 2430 mm; diametro cable 3/8 in reportado por Grainger", "weight": "290 g segun MacToner/CompGiant; 244 g bruto ACCO; shipping weight 0.54 lb Grainger" },
+        "sourceRefs": [
+          { "title": "Kensington K65048WW", "type": "manufacturer_product", "url": "https://www.kensington.com/p/products/technology-device-security-products/device-security-keyed-locks/microsaver-22.0-keyed-twin-laptop-lock/" },
+          { "title": "MacToner K65048WW", "type": "retailer_stock", "url": "https://www.mactoner.com.mx/producto/candado-kensington-k65048ww-laptops/" },
+          { "title": "Grainger K65048WW", "type": "retailer_stock", "url": "https://www.grainger.com/product/KENSINGTON-Cable-Lock-Steel-852HE0" },
+          { "title": "OfficeCrave K65048WW", "type": "retailer_stock", "url": "https://www.officecrave.com/kensington-microsaver-2-0-keyed-twin-laptop-lock-k65048ww.html" },
+          { "title": "DirectDial K65048WW", "type": "retailer_stock", "url": "https://www.directdial.com/us/item/kensington-microsaver-2-0-keyed-twin-laptop-lock/k65048ww" },
+          { "title": "CTOnline batch ACCKNS1210 stock 0", "type": "provider_stock", "observedAt": "2026-06-01T02:00:00Z" }
+        ]
+      }
+    }
+  ]
+}
