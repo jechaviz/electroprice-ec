@@ -1,0 +1,365 @@
+{
+  "schema_version": "electroprice.manual_web_research.v1",
+  "batch_id": "manual-web:c003-b288-2026-06-01",
+  "cycle": 3,
+  "batch": 288,
+  "product_count": 10,
+  "products": [
+    {
+      "product_id": "iljwtgl782rami2",
+      "research": {
+        "confidence": 0.93,
+        "brand": "Roku",
+        "name": "Roku Streaming Stick 3840R HD 1080p con control remoto de voz",
+        "description": "Dispositivo Roku Streaming Stick 3840R para streaming HD 1080p por HDMI, alimentacion USB-C, Wi-Fi 4 de doble banda, control remoto de voz con botones de TV y soporte AirPlay/Alexa/Google. CTOnline/PB reporta stock 0; se corrige la clasificacion previa de laptops a streaming de video HD.",
+        "manufacturerUrl": "https://www.roku.com/products/roku-streaming-stick",
+        "manualCategoryPath": "video/streaming/reproductores/hd/roku-streaming-stick-3840r",
+        "semanticCategoryPath": "video/streaming/reproductores/hd",
+        "legacyCategory": "tvs",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://static.ctonline.mx/imagenes/ACCROK230/ACCROK230_full.jpg"],
+        "documents": ["https://www.bhphotovideo.com/c/product/1896046-REG/roku_3840r_streaming_stick.html", "https://www.mactoner.com.mx/producto/streaming-roku-3840r/"],
+        "wholesalerStock": [{ "wholesalerId": "ctonline", "sku": "ACCROK230", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 26.11, "currency": "USD" }],
+        "specs": {
+          "model": "3840R",
+          "aliases": ["3840R", "ACCROK230", "829610008424", "829610008417", "Streaming Stick HD"],
+          "maxResolution": "1920 x 1080p",
+          "hdrSupport": "No",
+          "videoOutput": "HDMI",
+          "wireless": "Wi-Fi 4 802.11n dual-band",
+          "power": "USB-C 5V 1A, 2.2W",
+          "remote": "Control remoto de voz con baterias AAA",
+          "providerBranchSummary": "CTOnline/PB reporta stock 0 para ACCROK230. CT Internacional tiene presencia nacional; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "ctonline", "providerSku": "ACCROK230", "warehouse": "provider_total", "country": "MX", "stock": 0, "stockStatus": "out_of_stock", "price": 26.11, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["B&H y retailers mexicanos listan el modelo 3840R como Streaming Stick HD 1080p; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "9.4 x 2.0 x 1.14 cm", "weight": "26 g" },
+        "sourceRefs": [
+          { "title": "B&H Roku Streaming Stick 3840R", "type": "retailer_specs", "url": "https://www.bhphotovideo.com/c/product/1896046-REG/roku_3840r_streaming_stick.html" },
+          { "title": "MacToner Roku 3840R UPC 829610008424", "type": "retailer_specs", "url": "https://www.mactoner.com.mx/producto/streaming-roku-3840r/" },
+          { "title": "CTOnline feed ACCROK230 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "io06n8j7y0jy6m2",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Dell",
+        "name": "Dell N_OPTL1_N1_N3 extension Basic NBD OptiPlex 3000 1 ano a 3 anos",
+        "description": "Poliza Dell N_OPTL1_N1_N3 para OptiPlex 3000 desktops que extiende la garantia incluida de 1 ano a 3 anos Basic Next Business Day/on-site after remote diagnosis, sujeta a validacion de serie con Dell. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-3000/1y-a-3y/n-optl1-n1-n3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-3000/1y-a-3y",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10339598"],
+        "documents": ["https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs", "https://cityshop.mx/producto/poliza-de-garantia-dell-para-optiplex-desktops-3000-de-1-ano-incluido-a-3-anos-basico-next-bus-day"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "POL-7695", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 550.4, "currency": "MXN" }],
+        "specs": {
+          "model": "N_OPTL1_N1_N3",
+          "aliases": ["N_OPTL1_N1_N3", "POL-7695"],
+          "serviceType": "Dell Basic Next Business Day",
+          "coveredFamily": "Dell OptiPlex 3000 desktops",
+          "termChange": "1 ano incluido a 3 anos Basic NBD",
+          "delivery": "Poliza digital/servicio, requiere confirmar compatibilidad por serie",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para POL-7695. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-7695", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 550.4, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Dell documenta Basic/ProSupport/ProSupport Plus; Cityshop lista el SKU exacto N_OPTL1_N1_N3. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_page", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "Cityshop Dell N_OPTL1_N1_N3", "type": "retailer_specs", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-optiplex-desktops-3000-de-1-ano-incluido-a-3-anos-basico-next-bus-day" },
+          { "title": "CVA feed POL-7695 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "iqof83bkhuft3s3",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Norton",
+        "name": "Norton 360 for Gamers 21422922 3 dispositivos 1 ano descarga digital",
+        "description": "Licencia ESD Norton 360 for Gamers/Total Security 21422922 para hasta 3 dispositivos durante 1 ano, con antivirus, proteccion para jugadores, Game Optimizer, VPN y monitoreo de dark web segun plan Norton. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://us.norton.com/products/norton-360-for-gamers",
+        "manualCategoryPath": "software/seguridad/antivirus/norton-360-for-gamers/3-dispositivos-1-ano/21422922",
+        "semanticCategoryPath": "software/seguridad/antivirus/norton-360-for-gamers/3-dispositivos-1-ano",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10227891"],
+        "documents": ["https://us.norton.com/products/norton-360-for-gamers"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "SWS-4471", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 17.88, "currency": "USD" }],
+        "specs": {
+          "model": "21422922",
+          "aliases": ["21422922", "SWS-4471", "Norton 360 for Gamers"],
+          "licenseTerm": "1 ano",
+          "deviceCount": "Hasta 3 PCs, Mac, smartphones o tablets",
+          "delivery": "ESD descarga digital",
+          "features": ["proteccion antivirus", "Game Optimizer", "VPN", "Dark Web Monitoring", "24/7 support"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para SWS-4471. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "SWS-4471", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 17.88, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Norton mantiene la pagina del plan Gamer para 3 dispositivos; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: licencia digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Norton 360 for Gamers oficial", "type": "manufacturer_page", "url": "https://us.norton.com/products/norton-360-for-gamers" },
+          { "title": "CVA feed SWS-4471 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "isyhj9p91ffgwj1",
+      "research": {
+        "confidence": 0.9,
+        "brand": "Lenovo",
+        "name": "Lenovo Tab Plus PA0020 bundle tablet Android con garantia 3Y Courier Carry-in",
+        "description": "Paquete PA0020 que agrupa Lenovo Tab Plus 11.5 pulgadas Android con poliza 3Y Courier/Carry-in. La tablet usa MediaTek Helio G99, pantalla 2K 90Hz, 8 bocinas JBL, bateria 8600mAh y almacenamiento UFS 2.2 segun PSREF; CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_Plus/Tab_Plus_Spec.PDF",
+        "manualCategoryPath": "computo/tabletas/android/lenovo-tab-plus/bundles/3y-courier-carry-in/pa0020",
+        "semanticCategoryPath": "computo/tabletas/android/lenovo-tab-plus/bundles/3y-courier-carry-in",
+        "legacyCategory": "tablets",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10481806"],
+        "documents": ["https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_Plus/Tab_Plus_Spec.PDF", "https://news.lenovo.com/pressroom/press-releases/tab-plus-music-lovers-dream-tablet-eight-speakers/"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "PAQ-860", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 6680.12, "currency": "MXN" }],
+        "specs": {
+          "model": "PA0020",
+          "aliases": ["PA0020", "PAQ-860", "NOT-10132", "POL-11030", "Lenovo Tab Plus"],
+          "bundleContents": ["Lenovo Tab Plus", "Poliza 3Y Courier/Carry-in"],
+          "processor": "MediaTek Helio G99",
+          "display": "11.5 pulgadas 2K 2000x1200 IPS 90Hz",
+          "memoryStorage": "hasta 8GB LPDDR4x, 128/256GB UFS 2.2 y microSD hasta 1TB",
+          "audio": "8 bocinas JBL con Dolby Atmos",
+          "battery": "8600mAh, carga USB-C hasta 45W",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para PAQ-860. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "PAQ-860", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 6680.12, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Lenovo PSREF documenta Tab Plus; el feed CVA combina tablet NOT-10132 con garantia POL-11030. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "268.3 x 174.25 x 7.77-13.58 mm", "weight": "650 g aprox" },
+        "sourceRefs": [
+          { "title": "Lenovo Tab Plus PSREF", "type": "manufacturer_page", "url": "https://psref.lenovo.com/syspool/Sys/PDF/Lenovo_Tablets/Tab_Plus/Tab_Plus_Spec.PDF" },
+          { "title": "Lenovo Tab Plus press release", "type": "manufacturer_page", "url": "https://news.lenovo.com/pressroom/press-releases/tab-plus-music-lovers-dream-tablet-eight-speakers/" },
+          { "title": "CVA feed PAQ-860 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "iw80qif108snsgu",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Dell",
+        "name": "Dell N_DPNL3_N3_P3 upgrade laptops Pro 3Y Basic NBD a 3Y ProSupport",
+        "description": "Poliza Dell N_DPNL3_N3_P3 para laptops Dell Pro que actualiza de 3 anos Basic Next Business Day a 3 anos ProSupport, agregando soporte 24x7 y reparacion onsite NBD segun suite Dell. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops/3y-basic-nbd-a-3y-prosupport/n-dpnl3-n3-p3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops/3y-basic-nbd-a-3y-prosupport",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10485045"],
+        "documents": ["https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "POL-11421", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1534.93, "currency": "MXN" }],
+        "specs": {
+          "model": "N_DPNL3_N3_P3",
+          "aliases": ["N_DPNL3_N3_P3", "POL-11421"],
+          "serviceType": "Dell ProSupport",
+          "coveredFamily": "Dell Pro laptops",
+          "termChange": "3 anos Basic NBD a 3 anos ProSupport",
+          "delivery": "Poliza digital/servicio, requiere confirmar compatibilidad por serie",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para POL-11421. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-11421", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 1534.93, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Dell documenta ProSupport como nivel con soporte 24x7 y onsite NBD; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_page", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "CVA feed POL-11421 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "j6nffv2f2tzy96i",
+      "research": {
+        "confidence": 0.89,
+        "brand": "Dell",
+        "name": "Dell N_PTL1_N3_M5 upgrade Pro desktops 3Y Basic NBD a 5Y ProSupport Plus",
+        "description": "Poliza Dell N_PTL1_N3_M5 para Dell Pro desktops que actualiza de 3 anos Basic Next Business Day a 5 anos ProSupport Plus, con capacidades Dell de soporte 24x7, monitoreo/proactividad y opciones Keep Your Hard Drive/accidental damage segun contrato. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-desktops/3y-basic-nbd-a-5y-prosupport-plus/n-ptl1-n3-m5",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-desktops/3y-basic-nbd-a-5y-prosupport-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10484302"],
+        "documents": ["https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "POL-11387", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 5322.67, "currency": "MXN" }],
+        "specs": {
+          "model": "N_PTL1_N3_M5",
+          "aliases": ["N_PTL1_N3_M5", "POL-11387"],
+          "serviceType": "Dell ProSupport Plus",
+          "coveredFamily": "Dell Pro desktops",
+          "termChange": "3 anos Basic NBD a 5 anos ProSupport Plus",
+          "delivery": "Poliza digital/servicio, requiere confirmar compatibilidad por serie",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para POL-11387. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-11387", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 5322.67, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Dell documenta ProSupport Plus en la suite de servicios para PCs; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Dell ProSupport Suite for PCs", "type": "manufacturer_page", "url": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs" },
+          { "title": "CVA feed POL-11387 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "j6oxhonifvi0meu",
+      "research": {
+        "confidence": 0.94,
+        "brand": "Synology",
+        "name": "Synology E10G22-T1-Mini modulo Ethernet RJ45 10GbE para NAS compactos",
+        "description": "Modulo de actualizacion Synology E10G22-T1-Mini con un puerto RJ45 10GbE para NAS compactos compatibles, soporta 10/5/2.5/1Gbps y 100Mbps, jumbo frames 9KB y DSM 7.1.1-42962 Update 4 o posterior. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.synology.com/en-us/products/E10G22-T1-Mini",
+        "manualCategoryPath": "redes/tarjetas-red/expansion-nas/10gbe-rj45/synology-e10g22-t1-mini",
+        "semanticCategoryPath": "redes/tarjetas-red/expansion-nas/10gbe-rj45",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10381055"],
+        "documents": ["https://www.synology.com/en-us/products/E10G22-T1-Mini", "https://global.download.synology.com/download/Document/Hardware/ProductSpec/Accessories/22-year/E10G22-T1-Mini/enu/Product_Spec_E10G22-T1-Mini_enu.pdf"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "NIC-4358", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 121.61, "currency": "USD" }],
+        "specs": {
+          "model": "E10G22-T1-Mini",
+          "aliases": ["E10G22-T1-Mini", "E10G22 T1 Mini", "NIC-4358"],
+          "interface": "1 x RJ45 Ethernet 10GbE",
+          "dataRates": "10Gbps/5Gbps/2.5Gbps/1Gbps/100Mbps",
+          "standards": ["IEEE 802.3an", "IEEE 802.3bz", "IEEE 802.3ab", "IEEE 802.3u", "IEEE 802.3x"],
+          "features": ["9KB Jumbo Frame", "checksum offload", "auto-negotiation", "TSO/LSO/RSS/GRO/GSO"],
+          "compatibility": ["DS923+", "DS723+", "RS422+", "DS1522+", "DS1525+", "DP340"],
+          "providerBranchSummary": "CVA/PB reporta stock 0 para NIC-4358. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "NIC-4358", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 121.61, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Synology mantiene ficha oficial y product spec; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "modulo mini propietario Synology, dimensiones no publicadas en ficha abierta", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "Synology E10G22-T1-Mini oficial", "type": "manufacturer_page", "url": "https://www.synology.com/en-us/products/E10G22-T1-Mini" },
+          { "title": "Synology E10G22-T1-Mini Product Spec", "type": "manufacturer_pdf", "url": "https://global.download.synology.com/download/Document/Hardware/ProductSpec/Accessories/22-year/E10G22-T1-Mini/enu/Product_Spec_E10G22-T1-Mini_enu.pdf" },
+          { "title": "CVA feed NIC-4358 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jcdy6ytnmsqvq4i",
+      "research": {
+        "confidence": 0.91,
+        "brand": "Dell",
+        "name": "Dell N_ANWNBM2_C1_U3 Alienware X17 1Y Carry-in a 3Y Premium Support Plus",
+        "description": "Poliza Dell N_ANWNBM2_C1_U3 para Alienware notebooks X17 R1/R2 que actualiza de 1 ano basico en centro de servicio Carry-in a 3 anos Premium Support Plus, sujeta a compatibilidad por serie. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.dell.com/support/contents/en-us/article/warranty/prosupport-suite-for-pcs",
+        "manualCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-notebooks-x17/1y-carry-in-a-3y-premium-support-plus/n-anwnbm2-c1-u3",
+        "semanticCategoryPath": "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-notebooks-x17/1y-carry-in-a-3y-premium-support-plus",
+        "legacyCategory": "software",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10355833"],
+        "documents": ["https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Premium-Support-Plus-para-X17-R1-R2.html", "https://cityshop.mx/producto/poliza-de-garantia-dell-para-alienware-notebooks-x17-r1-r2-de-1-ano-incluido-en-centro-de-servicios-1"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "POL-8020", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 11453.87, "currency": "MXN" }],
+        "specs": {
+          "model": "N_ANWNBM2_C1_U3",
+          "aliases": ["N_ANWNBM2_C1_U3", "POL-8020"],
+          "serviceType": "Dell Premium Support Plus",
+          "coveredFamily": "Alienware X17 R1/R2 notebooks",
+          "termChange": "1 ano Carry-in a 3 anos Premium Support Plus",
+          "delivery": "Poliza digital/servicio, requiere confirmar compatibilidad por serie",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para POL-8020. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "POL-8020", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 11453.87, "currency": "MXN" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["Cyberpuerta y Cityshop listan el SKU exacto N_ANWNBM2_C1_U3 para X17 R1/R2; PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": false, "dimensions": "No aplica: servicio digital", "weight": "No aplica" },
+        "sourceRefs": [
+          { "title": "Cyberpuerta Dell N_ANWNBM2_C1_U3", "type": "retailer_specs", "url": "https://www.cyberpuerta.mx/Software-y-Servicios/Licencias-y-Garantias/Garantias/Dell-Garantia-3-Anos-Premium-Support-Plus-para-X17-R1-R2.html" },
+          { "title": "Cityshop Dell N_ANWNBM2_C1_U3", "type": "retailer_specs", "url": "https://cityshop.mx/producto/poliza-de-garantia-dell-para-alienware-notebooks-x17-r1-r2-de-1-ano-incluido-en-centro-de-servicios-1" },
+          { "title": "CVA feed POL-8020 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jcnuwsom9o8so6h",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TP-Link",
+        "name": "TP-Link DS-LGPA-08 tarjeta de servicio GPON 8 puertos para OLT DS-P8000-X2",
+        "description": "Tarjeta de servicio TP-Link DS-LGPA-08 para chasis OLT DeltaStream DS-P8000-X2 con 8 puertos GPON, split ratio 1:128, hasta 1024 clientes teoricos y distancias de hasta 20 km en la ficha comercial local. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.tp-link.com/us/service-provider/gpon/ds-p8000-x2/",
+        "manualCategoryPath": "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/8-puertos/tp-link-ds-lgpa-08",
+        "semanticCategoryPath": "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/8-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455926"],
+        "documents": ["https://www.tp-link.com/us/service-provider/gpon/ds-p8000-x2/", "https://www.pcel.com/TP-LINK-DS-LGPA-08-Tarjeta-de-Servicio-8-Puertos-GPON-para-OLT-DSP8000X2-hasta-1024-clientes-distancias-hasta-20-km-intercambio-en-caliente-523717"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "NIC-4889", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 916.94, "currency": "USD" }],
+        "specs": {
+          "model": "DS-LGPA-08",
+          "aliases": ["DS-LGPA-08", "DSLGPA08", "NIC-4889"],
+          "compatibleChassis": "TP-Link DeltaStream DS-P8000-X2",
+          "ports": "8 x GPON",
+          "splitRatio": "1:128",
+          "clientCapacity": "hasta 1024 clientes teoricos",
+          "distance": "hasta 20 km en ficha comercial local",
+          "technology": "GPON SC/UPC SMF, downstream 2.5Gbps/upstream 1.25Gbps por GPON segun plataforma",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para NIC-4889. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "NIC-4889", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 916.94, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["TP-Link lista DS-LGPA-08 como service board de 8 puertos GPON para DS-P8000-X2; PCEL replica ficha comercial mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "modulo interno de chasis OLT; dimensiones no publicadas por ficha abierta", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "TP-Link DS-P8000-X2 oficial con DS-LGPA-08", "type": "manufacturer_page", "url": "https://www.tp-link.com/us/service-provider/gpon/ds-p8000-x2/" },
+          { "title": "PCEL TP-Link DS-LGPA-08", "type": "retailer_specs", "url": "https://www.pcel.com/TP-LINK-DS-LGPA-08-Tarjeta-de-Servicio-8-Puertos-GPON-para-OLT-DSP8000X2-hasta-1024-clientes-distancias-hasta-20-km-intercambio-en-caliente-523717" },
+          { "title": "CVA feed NIC-4889 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    },
+    {
+      "product_id": "jhjymw65j326wpj",
+      "research": {
+        "confidence": 0.93,
+        "brand": "TP-Link",
+        "name": "TP-Link DS-LGPA-16 tarjeta de servicio GPON 16 puertos para OLT DS-P8000-X2",
+        "description": "Tarjeta de servicio TP-Link DS-LGPA-16 para chasis OLT DeltaStream DS-P8000-X2 con 16 puertos GPON, split ratio 1:128, hasta 2048 clientes teoricos, intercambio en caliente y distancias comerciales de hasta 20 km. CVA/PB reporta stock 0.",
+        "manufacturerUrl": "https://www.tp-link.com/us/service-provider/gpon/ds-p8000-x2/",
+        "manualCategoryPath": "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/16-puertos/tp-link-ds-lgpa-16",
+        "semanticCategoryPath": "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/16-puertos",
+        "legacyCategory": "networking",
+        "categoryReviewStatus": "manual_verified",
+        "gallery": ["https://me2.grupocva.com/me/imagen/imagen_art_detalles.php?fProd=10455950"],
+        "documents": ["https://www.tp-link.com/us/service-provider/gpon/ds-p8000-x2/", "https://www.syscom.mx/products/224834"],
+        "wholesalerStock": [{ "wholesalerId": "cva", "sku": "NIC-4888", "warehouse": "provider_total", "country": "MX", "stock": 0, "price": 1926.83, "currency": "USD" }],
+        "specs": {
+          "model": "DS-LGPA-16",
+          "aliases": ["DS-LGPA-16", "DSLGPA16", "NIC-4888"],
+          "compatibleChassis": "TP-Link DeltaStream DS-P8000-X2",
+          "ports": "16 x GPON",
+          "splitRatio": "1:128",
+          "clientCapacity": "hasta 2048 clientes teoricos",
+          "distance": "hasta 20 km en ficha comercial local",
+          "technology": "GPON SC/UPC SMF, downstream 2.5Gbps/upstream 1.25Gbps por GPON segun plataforma",
+          "providerBranchSummary": "CVA/PB reporta stock 0 para NIC-4888. CVA opera desde Guadalajara; el feed no expone stock por sucursal.",
+          "providerBranches": [{ "providerId": "cva", "providerSku": "NIC-4888", "warehouse": "provider_total", "country": "MX", "region": "Jalisco", "city": "Guadalajara", "stock": 0, "stockStatus": "out_of_stock", "price": 1926.83, "currency": "USD" }],
+          "providerStockVerifiedAt": "2026-05-20T03:05:42Z",
+          "publicAvailabilitySignals": ["TP-Link lista DS-LGPA-16 como service board de 16 puertos GPON para DS-P8000-X2; Syscom lista la ficha comercial mexicana. PB se conserva como autoridad operativa con stock 0."]
+        },
+        "measurements": { "physicalProduct": true, "dimensions": "modulo interno de chasis OLT; dimensiones no publicadas por ficha abierta", "weight": "no publicado oficialmente" },
+        "sourceRefs": [
+          { "title": "TP-Link DS-P8000-X2 oficial con DS-LGPA-16", "type": "manufacturer_page", "url": "https://www.tp-link.com/us/service-provider/gpon/ds-p8000-x2/" },
+          { "title": "Syscom TP-Link DS-LGPA-16", "type": "retailer_specs", "url": "https://www.syscom.mx/products/224834" },
+          { "title": "CVA feed NIC-4888 stock 0", "type": "provider_stock", "observedAt": "2026-05-20T03:05:42Z" }
+        ]
+      }
+    }
+  ]
+}

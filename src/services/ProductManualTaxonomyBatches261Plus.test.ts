@@ -352,6 +352,19 @@ const batch287Cases = [
   ["Lexmark MX810dfe IMPLXM1710 24T7408 multifuncional laser monocromatica 55ppm 300000 paginas", "LEXMARK", "impresion/impresoras/multifuncionales-laser/monocromaticas/a4-legal/lexmark-mx810dfe", "printers_scanners", {}],
 ] as const;
 
+const batch288Cases = [
+  ["Roku 3840R ACCROK230 Streaming Stick HD 1080p voice remote 829610008424", "ROKU", "video/streaming/reproductores/hd/roku-streaming-stick-3840r", "tvs", {}],
+  ["Dell N_OPTL1_N1_N3 POL-7695 OptiPlex 3000 1 ano a 3 anos Basic Next Business Day", "DELL", "servicios-ti/soporte-garantias/dell/basic-nbd/optiplex-3000/1y-a-3y/n-optl1-n1-n3", "software", {}],
+  ["Norton 21422922 SWS-4471 360 for Gamers 3 dispositivos 1 ano descarga digital", "NORTON", "software/seguridad/antivirus/norton-360-for-gamers/3-dispositivos-1-ano/21422922", "software", {}],
+  ["ElectroPrice PA0020 PAQ-860 NOT-10132 Tablet Tab Plus POL-11030 3Y Courier Carry-in", "ELECTROPRICE", "computo/tabletas/android/lenovo-tab-plus/bundles/3y-courier-carry-in/pa0020", "tablets", {}],
+  ["Dell N_DPNL3_N3_P3 POL-11421 Dell laptops 3 anos Basic NBD a 3 anos ProSupport", "DELL", "servicios-ti/soporte-garantias/dell/prosupport/dell-pro-laptops/3y-basic-nbd-a-3y-prosupport/n-dpnl3-n3-p3", "software", {}],
+  ["Dell N_PTL1_N3_M5 POL-11387 Pro desktops 3 anos Basic NBD a 5 anos ProSupport Plus", "DELL", "servicios-ti/soporte-garantias/dell/prosupport-plus/desktops/dell-pro-desktops/3y-basic-nbd-a-5y-prosupport-plus/n-ptl1-n3-m5", "software", {}],
+  ["Synology E10G22-T1-Mini NIC-4358 tarjeta red NAS 10GbE RJ45 PCIe 3.0 x2 DS923+", "SYNOLOGY", "redes/tarjetas-red/expansion-nas/10gbe-rj45/synology-e10g22-t1-mini", "networking", {}],
+  ["Dell N_ANWNBM2_C1_U3 POL-8020 Alienware X17 1Y Carry-in a 3Y Premium Support Plus", "DELL", "servicios-ti/soporte-garantias/dell/premium-support-plus/alienware-notebooks-x17/1y-carry-in-a-3y-premium-support-plus/n-anwnbm2-c1-u3", "software", {}],
+  ["TP-Link DS-LGPA-08 NIC-4889 tarjeta servicio 8 puertos GPON OLT DSP8000X2 1024 clientes", "TP LINK", "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/8-puertos/tp-link-ds-lgpa-08", "networking", {}],
+  ["TP-Link DS-LGPA-16 NIC-4888 tarjeta servicio 16 puertos GPON OLT DSP8000X2 2048 clientes", "TP LINK", "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/16-puertos/tp-link-ds-lgpa-16", "networking", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -510,6 +523,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch287Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch288Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
