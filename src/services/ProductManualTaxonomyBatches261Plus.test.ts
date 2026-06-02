@@ -365,6 +365,19 @@ const batch288Cases = [
   ["TP-Link DS-LGPA-16 NIC-4888 tarjeta servicio 16 puertos GPON OLT DSP8000X2 2048 clientes", "TP LINK", "redes/fibra-optica/olt-gpon/tarjetas-servicio/gpon/16-puertos/tp-link-ds-lgpa-16", "networking", {}],
 ] as const;
 
+const batch289Cases = [
+  ["Kensington K55409WW ACCKNS1870 brazo dual monitor SmartFit One-Touch 2 pantallas 34 pulgadas", "KENSINGTON", "accesorios/soportes/monitores/brazos-dobles/kensington-k55409ww", "accessories", {}],
+  ["Brobotix 6006689 ACCRBT7950 funda tablet Samsung Galaxy 14.6 silicona uso rudo negra", "BROBOTIX", "accesorios/tablets/fundas/samsung-galaxy/14-6/brobotix-6006689", "accessories", {}],
+  ["ADATA HD330 AHD330-2TU31-CBK HD-1799 disco duro externo 2TB USB 3.2 2.5 negro antigolpes", "ADATA", "computo/almacenamiento/discos-duros/externos/2-5-usb-3-2/2tb/adata-hd330-ahd330-2tu31-cbk", "storage", {}],
+  ["Dahua DH-PFM922I-6U-C CABDAH350 bobina cable UTP Cat6 CCTV 305m cobre", "DAHUA TECHNOLOGY", "seguridad/cctv/cableado/bobinas/utp-cat6/dahua-dh-pfm922i-6u-c", "accessories", {}],
+  ["ZKTeco G3 PRO ID ACCZKT220 checador biometrico facial huella RFID", "ZK TECO", "seguridad/control-acceso/asistencia/biometricos/facial-huella/zkteco-g3-pro-id", "security", {}],
+  ["Aruba Instant On AP22 Bundle ACPARU180 access point WiFi 6 interior 2x2 MU-MIMO", "ARUBA", "redes/access-points/wifi-6/interior/aruba-instant-on-ap22-bundle", "networking", {}],
+  ["Ocelot Gaming OSR-05 AC-10859 silla gaming blanco rosa vinipiel 150kg descansabrazos 2D", "OCELOT GAMING", "oficina/mobiliario/sillas-gaming/reclinables/ocelot-osr-05-blanco-rosa", "accessories", {}],
+  ["SanDisk Extreme PRO SDSSDE81-1T00-G25 DDUWDX1630 SSD externo 1TB USB-C 2000MB/s", "SANDISK", "computo/almacenamiento/ssd/externos/usb-c/1tb/sandisk-extreme-pro-sdssde81-1t00-g25", "storage", {}],
+  ["Yeyian YTT-360AL-01 VENYEY110 enfriamiento liquido 360mm ARGB ventiladores 120mm", "YEYIAN", "computo/componentes/enfriamiento/liquido-cpu/360mm/argb/yeyian-ytt-360al-01", "components", {}],
+  ["Samsung LH86WAFWLGCXZX MNL-2985 WA86F monitor interactivo 86 UHD Android touch WiFi", "SAMSUNG", "video/senalizacion-digital/pantallas-interactivas/86-uhd-touch/samsung-wa86f-lh86wafwlgcxzx", "monitors", {}],
+] as const;
+
 describe("manual taxonomy batches 261 plus", () => {
   it.each(batch261Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
@@ -529,6 +542,12 @@ describe("manual taxonomy batches 261 plus", () => {
   });
 
   it.each(batch288Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
+    const result = classifyManualCategory({ name, brand, category: "laptops", specs });
+    expect(result.path).toBe(path);
+    expect(result.legacyCategory).toBe(legacyCategory);
+  });
+
+  it.each(batch289Cases)("%s -> %s", (name, brand, path, legacyCategory, specs) => {
     const result = classifyManualCategory({ name, brand, category: "laptops", specs });
     expect(result.path).toBe(path);
     expect(result.legacyCategory).toBe(legacyCategory);
