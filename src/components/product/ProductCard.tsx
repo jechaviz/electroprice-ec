@@ -3,6 +3,7 @@ import { useSignals } from '@preact/signals-react/runtime';
 import { Link } from 'react-router-dom';
 import type { Product } from '../../types';
 import StarRating from '../common/StarRating';
+import ImageWithFallback from '../common/ImageWithFallback';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { getProductUrl } from '../../utils/slugify';
@@ -145,7 +146,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           className="block aspect-[4/3] p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-[-2px]"
           aria-label={t('productCard.viewDetailsFor', { product: product.name })}
         >
-          <img
+          <ImageWithFallback
             src={product.imageUrl}
             alt={product.name}
             loading="lazy"

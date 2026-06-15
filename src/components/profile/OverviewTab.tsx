@@ -6,6 +6,7 @@ import { Order, Product } from '../../types';
 import { getCartItemKey, selectedOptionsLabel } from '../../utils/cartLine';
 import { EmptyState, SectionShell } from './ProfileUI';
 import { OrderCard } from './OrdersTab';
+import ImageWithFallback from '../common/ImageWithFallback';
 
 export const OverviewTab: React.FC<{
   activeOrders: Order[];
@@ -86,7 +87,7 @@ export const OverviewTab: React.FC<{
               {cartItems.slice(0, 4).map(item => (
                 <div key={item.cartItemId} className="flex items-center gap-3 rounded-lg border border-base-content/10 bg-base-100 p-3">
                   {item.product?.imageUrl ? (
-                    <img src={item.product.imageUrl} alt="" className="h-11 w-11 rounded-md object-cover" />
+                    <ImageWithFallback src={item.product.imageUrl} alt="" className="h-11 w-11 rounded-md object-cover" />
                   ) : (
                     <div className="flex h-11 w-11 items-center justify-center rounded-md bg-base-300 text-base-content/25">
                       <i className="fa-solid fa-box" aria-hidden="true" />
@@ -120,7 +121,7 @@ export const OverviewTab: React.FC<{
             <div className="grid gap-3 sm:grid-cols-3">
               {favoriteProducts.slice(0, 3).map(product => (
                 <button key={product.id} type="button" onClick={() => navigateToProduct(product)} className="rounded-lg border border-base-content/10 bg-base-100 p-3 text-left hover:border-primary/40">
-                  <img src={product.imageUrl} alt="" className="aspect-[4/3] w-full rounded-md object-cover" />
+                  <ImageWithFallback src={product.imageUrl} alt="" className="aspect-[4/3] w-full rounded-md object-cover" />
                   <p className="mt-3 line-clamp-2 text-sm font-bold">{product.name}</p>
                 </button>
               ))}

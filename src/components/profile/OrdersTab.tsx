@@ -5,6 +5,7 @@ import { useCurrency } from '../../contexts/CurrencyContext';
 import { Order, OrderStatus } from '../../types';
 import { getOrderItemKey, selectedOptionsLabel } from '../../utils/cartLine';
 import { EmptyState, SectionShell, ORDER_FLOW, getProgressIndex, getOrderTone, formatDate } from './ProfileUI';
+import ImageWithFallback from '../common/ImageWithFallback';
 
 export const OrderCard: React.FC<{ order: Order; onViewDetails: (id: string) => void }> = ({ order, onViewDetails }) => {
   const { t } = useTranslation();
@@ -44,7 +45,7 @@ export const OrderCard: React.FC<{ order: Order; onViewDetails: (id: string) => 
       <div className="mt-4 space-y-2">
         {order.items.slice(0, 3).map(item => (
           <div key={`${order.id}-${getOrderItemKey(item)}`} className="flex items-center gap-3 text-sm">
-            <img src={item.imageUrl} alt="" className="h-10 w-10 rounded-md object-cover" />
+            <ImageWithFallback src={item.imageUrl} alt="" className="h-10 w-10 rounded-md object-cover" />
             <span className="min-w-0 flex-1">
               <span className="block truncate font-semibold">{item.name}</span>
               {selectedOptionsLabel(item.selectedOptions) && (

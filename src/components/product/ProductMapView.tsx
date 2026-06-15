@@ -3,6 +3,7 @@ import React, { useContext } from 'react';
 import type { Product } from '../../types';
 import { useTranslation } from '../../hooks/useTranslation';
 import StarRating from '../common/StarRating';
+import ImageWithFallback from '../common/ImageWithFallback';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { AppContext } from '../../contexts/AppContext';
 
@@ -47,7 +48,7 @@ const ProductMapView: React.FC<ProductMapViewProps> = ({ products }) => {
                         <th className="w-32 font-semibold align-bottom"></th>
                         {products.map(p => (
                             <th key={p.id} className={`w-48 align-bottom transition-all duration-300 ${highlightedProductId === p.id ? 'bg-primary/20 rounded-lg' : ''}`}>
-                                <img src={p.imageUrl} alt={p.name} className="w-full h-32 object-cover rounded-lg mb-2" />
+                                <ImageWithFallback src={p.imageUrl} alt={p.name} className="w-full h-32 object-cover rounded-lg mb-2" />
                                 <p className="text-sm font-bold h-10 overflow-hidden p-1">{p.name}</p>
                             </th>
                         ))}

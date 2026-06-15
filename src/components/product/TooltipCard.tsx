@@ -1,5 +1,6 @@
 import React from 'react';
 import StarRating from '../common/StarRating';
+import ImageWithFallback from '../common/ImageWithFallback';
 
 interface TooltipCardProps {
   product: {
@@ -16,7 +17,7 @@ interface TooltipCardProps {
 export const TooltipCard: React.FC<TooltipCardProps> = ({ product, featureScoreLabel }) => (
   <div className="card card-compact w-64 bg-base-200 shadow-xl border border-primary">
     <figure>
-      <img src={product.imageUrl} alt={product.name} className="h-32 w-full object-cover" />
+      <ImageWithFallback src={product.imageUrl} alt={product.name} className="h-32 w-full object-cover" />
     </figure>
     <div className="card-body">
       <h2 className="card-title text-sm">{product.name}</h2>

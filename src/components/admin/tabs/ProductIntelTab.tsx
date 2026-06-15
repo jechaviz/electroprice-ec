@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { MissingPiecesService } from "../../../services/MissingPiecesService";
 import type { Product, Wholesaler } from "../../../types";
 import { loadPocketBase } from "../../../utils/pocketBaseClient";
+import ImageWithFallback from "../../common/ImageWithFallback";
 
 interface ProductIntelTabProps {
   products: Product[];
@@ -109,7 +110,7 @@ export const ProductIntelTab: React.FC<ProductIntelTabProps> = ({ products, whol
             <article key={product.id} className="grid gap-4 p-5 xl:grid-cols-[1.1fr_1fr_1fr]">
               <div className="min-w-0">
                 <div className="flex gap-3">
-                  <img src={product.imageUrl} alt="" className="h-20 w-20 rounded-lg object-contain bg-base-100 p-2" />
+                  <ImageWithFallback src={product.imageUrl} alt="" className="h-20 w-20 rounded-lg object-contain bg-base-100 p-2" />
                   <div className="min-w-0">
                     <p className="truncate text-lg font-black">{product.name}</p>
                     <p className="font-mono text-[10px] uppercase tracking-widest text-base-content/40">{assessment.canonicalKey}</p>

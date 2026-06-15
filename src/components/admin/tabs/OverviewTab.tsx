@@ -1,5 +1,6 @@
 import React from 'react';
 import { OrderRow, ReviewModerationItem, EmptyState } from '../AdminComponents';
+import ImageWithFallback from '../../common/ImageWithFallback';
 import type { Order, Review, Product, User, Wholesaler, OrderStatus } from '../../../types';
 import { services } from '../../../services/ServiceContainer';
 
@@ -144,7 +145,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
                <div className="space-y-3">
                   {atRiskProducts.length > 0 ? atRiskProducts.map(({ product, stock, price }) => (
                      <div key={product.id} className="flex items-center gap-3 rounded-lg border border-base-content/10 bg-base-100 p-3">
-                        <img src={product.imageUrl} alt="" className="h-14 w-14 rounded-md object-cover" />
+                        <ImageWithFallback src={product.imageUrl} alt="" className="h-14 w-14 rounded-md object-cover" />
                         <div className="min-w-0 flex-1">
                            <p className="truncate font-bold">{product.name}</p>
                            <p className="text-xs uppercase tracking-wider text-base-content/45">{product.brand}</p>

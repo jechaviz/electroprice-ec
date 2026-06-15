@@ -3,6 +3,7 @@ import { AppContext } from '../../contexts/AppContext';
 import { useTranslation } from '../../hooks/useTranslation';
 import { useCurrency } from '../../contexts/CurrencyContext';
 import { getCartItemKey, selectedOptionsLabel } from '../../utils/cartLine';
+import ImageWithFallback from '../common/ImageWithFallback';
 
 export const CartDrawer: React.FC = () => {
     const { isCartDrawerOpen, setIsCartDrawerOpen, user, products, updateCartQuantity, removeFromCart, setView } = useContext(AppContext);
@@ -68,7 +69,7 @@ export const CartDrawer: React.FC = () => {
                                 <div key={item.cartItemId} className="flex shrink-0 animate-slide-in-right items-center gap-4 rounded-3xl border border-base-content/5 bg-base-300/40 p-4 shadow-[0_4px_20px_-5px_rgba(0,0,0,0.1)] transition-all duration-300 hover:bg-base-300" style={{ animationDelay: `${index * 0.05}s` }}>
                                     <div className="relative flex h-20 w-20 flex-shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-base-content/5 bg-base-100 p-2 shadow-inner">
                                         {item.product ? (
-                                            <img
+                                            <ImageWithFallback
                                                 src={item.product.imageUrl}
                                                 alt={item.product.name}
                                                 className="h-full w-full object-contain drop-shadow-md"

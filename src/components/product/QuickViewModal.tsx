@@ -6,6 +6,7 @@ import { useCurrency } from '../../contexts/CurrencyContext';
 import { getProductGalleryImages } from '../../utils/productGallery';
 import { getProductDisplayPrice } from '../../utils/pricing';
 import { ProductCatalogService } from '../../services/ProductCatalogService';
+import ImageWithFallback from '../common/ImageWithFallback';
 import type { Product } from '../../types';
 
 const QuickViewModal: React.FC = () => {
@@ -147,7 +148,7 @@ const QuickViewModal: React.FC = () => {
                         data-quick-view-carousel
                         className="relative aspect-[4/3] overflow-hidden rounded-xl border border-base-content/10 bg-base-100/70"
                     >
-                        <img
+                        <ImageWithFallback
                             src={currentImage}
                             alt={`${product.name} ${currentImageIndex + 1}`}
                             className="h-full w-full object-contain p-5 drop-shadow-2xl animate-fade-in"
@@ -184,7 +185,7 @@ const QuickViewModal: React.FC = () => {
                                     aria-label={`Imagen ${index + 1}`}
                                     className={`h-14 w-16 shrink-0 overflow-hidden rounded-lg border-2 bg-base-100 transition-all ${currentImageIndex === index ? 'border-primary shadow-lg shadow-primary/20' : 'border-base-content/10 opacity-65 hover:opacity-100'}`}
                                 >
-                                    <img src={image} alt="" className="h-full w-full object-cover" />
+                                    <ImageWithFallback src={image} alt="" className="h-full w-full object-cover" />
                                 </button>
                             ))}
                         </div>
