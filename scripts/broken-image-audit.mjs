@@ -45,12 +45,13 @@ const SITE_ORIGIN = 'https://electroprice.appniverse.com';
 const PRODUCT_PATH = (id) => `${SITE_ORIGIN}/product/${id}`;
 const HEADERS = ['productId', 'productUrl', 'brokenImageUrls'];
 const IMAGE_EXT_RE = /\.(png|jpg|jpeg|gif|webp|bmp|avif|svg)(\?.*)?$/i;
-// Mirror how the browser <img> loads the asset so hosts with hotlink/UA
-// protection (e.g. B&H) are not flagged as false-broken.
+// Mirror how the browser <img> loads the asset (browser UA) so hosts that
+// gate on User-Agent are not flagged as false-broken. Deliberately send NO
+// Referer: the storefront loads images with a no-referrer policy and key hosts
+// (e.g. static.ctonline.mx) return 403 for a foreign Referer but 200 without.
 const PROBE_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36',
   Accept: 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
-  Referer: `${SITE_ORIGIN}/`,
 };
 
 const config = getPocketBaseConfig(PROJECT_ROOT);
@@ -58,6 +59,31 @@ const pb = new PocketBase(config.url);
 pb.autoCancellation(false);
 
 const arraysEqual = (a, b) => a.length === b.length && a.every((value, index) => value === b[index]);
+
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const TRANSIENT_STATUSES = new Set([0, 408, 429, 500, 502, 503, 504]);
+// The production PocketBase is in a watchdog-managed restart cycle (~5 min
+// granularity), so the retry budget must outlast a full down window.
+const RETRY_DELAYS_MS = [2000, 4000, 8000, 15000, 30000, 45000, 60000, 60000, 60000, 60000, 60000, 60000];
+
+// The production PocketBase runs behind a 5-minute watchdog and can briefly
+// flap during restarts/sync; retry transient failures instead of aborting.
+async function withRetry(label, action) {
+  let lastError;
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt += 1) {
+    try {
+      return await action();
+    } catch (error) {
+      lastError = error;
+      const status = Number(error?.status ?? 0);
+      if (!TRANSIENT_STATUSES.has(status) || attempt === RETRY_DELAYS_MS.length) break;
+      const delay = RETRY_DELAYS_MS[attempt];
+      console.warn(`[retry] ${label} attempt=${attempt + 1} status=${status} delay=${delay}`);
+      await wait(delay);
+    }
+  }
+  throw lastError;
+}
 
 async function probeUrl(url) {
   const fetchWith = async (method) => {
@@ -136,10 +162,10 @@ async function collectAllProducts() {
   const products = [];
   let page = 1;
   while (true) {
-    const result = await pb.collection('products').getList(page, PAGE_SIZE, {
+    const result = await withRetry(`getList page=${page}`, () => pb.collection('products').getList(page, PAGE_SIZE, {
       fields: 'id,image_url,gallery',
       sort: 'id',
-    });
+    }));
 
     for (const item of result.items) {
       products.push(item);
@@ -234,12 +260,13 @@ async function main() {
 
   let applied = 0;
   for (const update of updates) {
-    await pb.collection('products').update(update.id, {
+    await withRetry(`update ${update.id}`, () => pb.collection('products').update(update.id, {
       image_url: update.image_url,
       gallery: update.gallery,
-    });
+    }));
     applied += 1;
     if (applied % 50 === 0) console.log(`[mutations] applied=${applied}/${updates.length}`);
+    await wait(20); // gentle pacing for the shared-host PocketBase
   }
 
   console.log(`[mutations] applied=${applied}/${updates.length}`);
