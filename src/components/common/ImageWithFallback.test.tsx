@@ -28,4 +28,14 @@ describe('ImageWithFallback', () => {
     expect(img).toHaveClass('object-cover');
     expect(img).toHaveAttribute('loading', 'lazy');
   });
+
+  it('defaults referrerPolicy to no-referrer so hotlink-protected hosts serve the image', () => {
+    render(<ImageWithFallback src="https://static.ctonline.mx/x.jpg" alt="Hotlink" />);
+    expect(screen.getByAltText('Hotlink')).toHaveAttribute('referrerpolicy', 'no-referrer');
+  });
+
+  it('allows overriding referrerPolicy', () => {
+    render(<ImageWithFallback src="https://example.com/a.png" alt="Override" referrerPolicy="origin" />);
+    expect(screen.getByAltText('Override')).toHaveAttribute('referrerpolicy', 'origin');
+  });
 });

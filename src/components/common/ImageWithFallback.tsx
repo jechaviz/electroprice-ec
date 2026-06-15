@@ -29,10 +29,18 @@ type ImageWithFallbackProps = React.ImgHTMLAttributes<HTMLImageElement> & {
  * Drop-in replacement for `<img>` that swaps to a placeholder when the source
  * fails to load (or is empty). Forwards every native img prop, so existing
  * className/loading/alt usage is preserved verbatim.
+ *
+ * Defaults `referrerPolicy` to `no-referrer`: most third-party catalog image
+ * hosts (e.g. ctonline.mx) serve the image fine with no `Referer` but answer
+ * 403 to a cross-site `Referer: https://electroprice.appniverse.com`. Those
+ * hotlink-protected images render broken only because the browser leaks the
+ * referrer; omitting it recovers them globally without mutating catalog data.
+ * Callers can still override `referrerPolicy` per-image if needed.
  */
 const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
    src,
    fallbackSrc = PLACEHOLDER_IMAGE_SRC,
+   referrerPolicy = 'no-referrer',
    onError,
    ...rest
 }) => {
@@ -45,6 +53,7 @@ const ImageWithFallback: React.FC<ImageWithFallbackProps> = ({
    return (
       <img
          src={showFallback ? fallbackSrc : src}
+         referrerPolicy={referrerPolicy}
          onError={(event) => {
             setFailedSrc(src ?? null);
             onError?.(event);
