@@ -40,6 +40,8 @@ const LIMIT = Math.max(0, Number(args.limit || 0));
 const CONCURRENCY = Math.max(1, Number(args.concurrency || 24));
 const HEAD_TIMEOUT_MS = Math.max(1000, Number(args.timeoutMs || 10000));
 const CSV_PATH = path.resolve(args.csv || process.env.BROKEN_IMAGE_CSV || path.join(PROJECT_ROOT, 'brokenimg.csv'));
+const PLAN_OUT = args['plan-out'] ? path.resolve(args['plan-out']) : path.join(PROJECT_ROOT, 'image-plan.json');
+const PLAN_IN = args['plan-in'] ? path.resolve(args['plan-in']) : '';
 
 const SITE_ORIGIN = 'https://electroprice.appniverse.com';
 const PRODUCT_PATH = (id) => `${SITE_ORIGIN}/product/${id}`;
@@ -206,7 +208,67 @@ function writeCsv(rows) {
   console.log(`[csv] wrote ${rows.length} rows to ${CSV_PATH}`);
 }
 
+async function applyUpdates(updates) {
+  if (updates.length === 0) {
+    console.log('[mutations] nothing to update');
+    return;
+  }
+
+  // Write a targeted rollback file (prior values) before mutating anything.
+  const restorePath = path.join(PROJECT_ROOT, `image-restore-${new Date().toISOString().replace(/[:.]/g, '-')}.json`);
+  fs.writeFileSync(restorePath, JSON.stringify({
+    generated_at: new Date().toISOString(),
+    pocketbase: config.url,
+    count: updates.length,
+    items: updates.map((u) => ({ id: u.id, image_url: u.prev_image_url ?? '', gallery: u.prev_gallery ?? [] })),
+  }, null, 2), 'utf8');
+  console.log(`[backup] wrote rollback snapshot for ${updates.length} records to ${restorePath}`);
+
+  console.log(`[mutations] authenticating as superuser to apply ${updates.length} updates`);
+  await withRetry('auth', () => pb.collection('_superusers').authWithPassword(config.email, config.password));
+
+  let applied = 0;
+  let skipped = 0;
+  for (const update of updates) {
+    await withRetry(`update ${update.id}`, () => pb.collection('products').update(update.id, {
+      image_url: update.image_url,
+      gallery: update.gallery,
+    }).catch((error) => {
+      if (Number(error?.status) === 404) { skipped += 1; return null; }
+      throw error;
+    }));
+    applied += 1;
+    if (applied % 50 === 0) console.log(`[mutations] applied=${applied}/${updates.length} skipped=${skipped}`);
+    await wait(20); // gentle pacing for the shared-host PocketBase
+  }
+
+  console.log(`[mutations] applied=${applied}/${updates.length} skipped(404)=${skipped}`);
+}
+
+function writePlan(updates) {
+  fs.writeFileSync(PLAN_OUT, JSON.stringify({
+    generated_at: new Date().toISOString(),
+    pocketbase: config.url,
+    count: updates.length,
+    items: updates,
+  }, null, 2), 'utf8');
+  console.log(`[plan] wrote ${updates.length} planned updates to ${PLAN_OUT}`);
+}
+
 async function main() {
+  // Apply from a previously computed plan without re-probing 21k images.
+  if (PLAN_IN) {
+    const plan = JSON.parse(fs.readFileSync(PLAN_IN, 'utf8'));
+    const updates = Array.isArray(plan.items) ? plan.items : [];
+    console.log(`[plan-in] loaded ${updates.length} updates from ${PLAN_IN} mode=${APPLY ? 'APPLY' : 'dry-run'}`);
+    if (!APPLY) {
+      console.log('[dry-run] re-run with --apply to persist the loaded plan.');
+      return;
+    }
+    await applyUpdates(updates);
+    return;
+  }
+
   console.log(`[start] PocketBase=${config.url} mode=${APPLY ? 'APPLY' : 'dry-run'}`);
 
   const products = await collectAllProducts();
@@ -249,44 +311,14 @@ async function main() {
 
   console.log(`[scan] products=${products.length} with-broken=${brokenRows.length} planned-updates=${updates.length}`);
   writeCsv(brokenRows);
-
-  if (updates.length === 0) {
-    console.log('[mutations] nothing to update');
-    return;
-  }
+  writePlan(updates);
 
   if (!APPLY) {
-    const preview = updates.slice(0, 10).map((u) => `  ${u.id} -> image_url=${u.image_url} gallery=${u.gallery.length}`);
-    console.log(`[dry-run] ${updates.length} products would change. Re-run with --apply to persist.`);
-    console.log(preview.join('\n'));
+    console.log(`[dry-run] ${updates.length} products would change. Apply with --apply (or --plan-in ${PLAN_OUT} --apply).`);
     return;
   }
 
-  // Write a targeted rollback file (prior values) before mutating anything.
-  const restorePath = path.join(PROJECT_ROOT, `image-restore-${new Date().toISOString().replace(/[:.]/g, '-')}.json`);
-  fs.writeFileSync(restorePath, JSON.stringify({
-    generated_at: new Date().toISOString(),
-    pocketbase: config.url,
-    count: updates.length,
-    items: updates.map((u) => ({ id: u.id, image_url: u.prev_image_url, gallery: u.prev_gallery })),
-  }, null, 2), 'utf8');
-  console.log(`[backup] wrote rollback snapshot for ${updates.length} records to ${restorePath}`);
-
-  console.log(`[mutations] authenticating as superuser to apply ${updates.length} updates`);
-  await withRetry('auth', () => pb.collection('_superusers').authWithPassword(config.email, config.password));
-
-  let applied = 0;
-  for (const update of updates) {
-    await withRetry(`update ${update.id}`, () => pb.collection('products').update(update.id, {
-      image_url: update.image_url,
-      gallery: update.gallery,
-    }));
-    applied += 1;
-    if (applied % 50 === 0) console.log(`[mutations] applied=${applied}/${updates.length}`);
-    await wait(20); // gentle pacing for the shared-host PocketBase
-  }
-
-  console.log(`[mutations] applied=${applied}/${updates.length}`);
+  await applyUpdates(updates);
 }
 
 main().catch((error) => {
