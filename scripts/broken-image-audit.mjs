@@ -228,7 +228,14 @@ async function main() {
     }
 
     const plan = planUpdate(record, ok);
-    if (plan) updateByIndex[index] = { id: record.id, ...plan };
+    if (plan) {
+      updateByIndex[index] = {
+        id: record.id,
+        ...plan,
+        prev_image_url: typeof record.image_url === 'string' ? record.image_url : '',
+        prev_gallery: Array.isArray(record.gallery) ? record.gallery : [],
+      };
+    }
 
     scanned += 1;
     if (scanned % 500 === 0) {
@@ -255,8 +262,18 @@ async function main() {
     return;
   }
 
+  // Write a targeted rollback file (prior values) before mutating anything.
+  const restorePath = path.join(PROJECT_ROOT, `image-restore-${new Date().toISOString().replace(/[:.]/g, '-')}.json`);
+  fs.writeFileSync(restorePath, JSON.stringify({
+    generated_at: new Date().toISOString(),
+    pocketbase: config.url,
+    count: updates.length,
+    items: updates.map((u) => ({ id: u.id, image_url: u.prev_image_url, gallery: u.prev_gallery })),
+  }, null, 2), 'utf8');
+  console.log(`[backup] wrote rollback snapshot for ${updates.length} records to ${restorePath}`);
+
   console.log(`[mutations] authenticating as superuser to apply ${updates.length} updates`);
-  await pb.collection('_superusers').authWithPassword(config.email, config.password);
+  await withRetry('auth', () => pb.collection('_superusers').authWithPassword(config.email, config.password));
 
   let applied = 0;
   for (const update of updates) {
