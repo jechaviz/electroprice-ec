@@ -53,6 +53,9 @@ cp "$STAGE/deploy/electroprice-docroot-endpoint.php" "$DOCROOT/pb-mysql-endpoint
 /usr/local/bin/php -l "$LIB_ROOT/src/PocketbaseMysqlTranslator.php"
 /usr/local/bin/php -l "$DOCROOT/pb-mysql-endpoint.php"
 
+# Ensure app-owned (MySQL-authoritative) storage exists. Idempotent.
+/usr/local/bin/php "$LIB_ROOT/bin/pbm-app-provision.php" "$APP_ROOT/shared/env/mysql.env"
+
 if [ "$CUTOVER" = "1" ]; then
   ts="$(date +%Y%m%d%H%M%S)"
   cp "$DOCROOT/.htaccess" "$DOCROOT/.htaccess.bak-$ts"

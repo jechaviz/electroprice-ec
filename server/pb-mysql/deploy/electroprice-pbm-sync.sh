@@ -23,7 +23,7 @@ printf '[%s] pbm-sync start\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$LOG_FILE"
 "$PHP_BIN" "$LIB_ROOT/bin/pbm-sync.php" sync \
   --sqlite="$SQLITE_DB" \
   --mysql-env="$MYSQL_ENV" \
-  --collections=products \
+  --collections=products,wholesalers \
   --batch-size="$BATCH_SIZE" \
   --source=electroprice-pb-sqlite \
   --lock-file="$LOCK_FILE" >> "$LOG_FILE" 2>&1

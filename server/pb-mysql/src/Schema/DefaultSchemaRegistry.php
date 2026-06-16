@@ -11,6 +11,7 @@ final class DefaultSchemaRegistry implements SchemaRegistry
     public function __construct()
     {
         $this->schemas = [
+            // Catalog (read-only in the app): owned by the SQLite->MySQL mirror.
             'products' => new CollectionSchema('products', 'pbm_products', false, [
                 'id' => 'id',
                 'created' => 'created',
@@ -26,11 +27,31 @@ final class DefaultSchemaRegistry implements SchemaRegistry
                 'avg_rating' => 'avg_rating',
                 'review_count' => 'review_count',
             ]),
+            'wholesalers' => new CollectionSchema('wholesalers', 'pbm_records', true),
+
+            // App-owned (authoritative in MySQL): the `app_records` table is NEVER
+            // touched by the mirror's full-replace swap, so user-generated data
+            // (auth, orders, reviews, telemetry) is safe across catalog syncs.
+            'users' => new CollectionSchema('users', 'app_records', true),
+            'orders' => new CollectionSchema('orders', 'app_records', true),
+            'reviews' => new CollectionSchema('reviews', 'app_records', true),
+            'telemetry' => new CollectionSchema('telemetry', 'app_records', true),
         ];
     }
 
     public function forCollection(string $collection): CollectionSchema
     {
         return $this->schemas[$collection] ?? new CollectionSchema($collection, 'pbm_records', true);
+    }
+
+    /**
+     * Collections whose source of truth is MySQL (writable via the endpoint),
+     * as opposed to mirror-managed catalog collections.
+     *
+     * @return list<string>
+     */
+    public function appOwnedCollections(): array
+    {
+        return ['users', 'orders', 'reviews', 'telemetry'];
     }
 }
