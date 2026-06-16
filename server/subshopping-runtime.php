@@ -49,6 +49,16 @@ $purchaseOrderId = isset($body['purchaseOrderId']) ? (string) $body['purchaseOrd
 $providerKey = strtoupper(preg_replace('/[^a-zA-Z0-9]/', '', $providerId) ?: 'PROV');
 $suffix = substr($purchaseOrderId, -6);
 
+// Enqueue the purchase order for the compiled V runtime worker
+// (server/subshopping_runtime), which the flock-guarded cron drains. This wires
+// the synchronous ack into the same binary pipeline that will perform real
+// provider submission at per-provider go-live. Best-effort: never block the ack.
+$queueDir = getenv('PBM_SUBSHOP_QUEUE') ?: '/home/agingriouh/apps/electroprice/shared/subshopping/queue';
+if (@is_dir($queueDir) || @mkdir($queueDir, 0775, true)) {
+    $safeName = preg_replace('/[^a-zA-Z0-9_.-]/', '_', $purchaseOrderId) ?: ('po_' . bin2hex(random_bytes(4)));
+    @file_put_contents($queueDir . '/' . $safeName . '.json', $raw, LOCK_EX);
+}
+
 try {
     $traceId = $runtime . '_dryrun_' . bin2hex(random_bytes(4));
 } catch (Exception $e) {
