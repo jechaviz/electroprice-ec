@@ -1,4 +1,4 @@
-import { languageSignal, translationsSignal, Language } from "../signals/config.signals";
+import { languageSignal, translationsSignal, Language, LANGUAGE_STORAGE_KEY } from "../signals/config.signals";
 
 let translationRequestId = 0;
 
@@ -35,6 +35,11 @@ export class LanguageService {
 
     static setLanguage(lang: Language) {
         languageSignal.value = lang;
+        try {
+            localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
+        } catch {
+            // Non-critical: private mode / storage quota should not block switching.
+        }
         void this.fetchTranslations(lang);
     }
 }

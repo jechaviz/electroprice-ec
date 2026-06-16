@@ -5,6 +5,7 @@ import {
     isCurrencyLoadingSignal,
     exchangeRateMarkupSignal,
     currencyRateMetadataSignal,
+    CURRENCY_STORAGE_KEY,
     type CurrencyRateMetadata,
 } from "../signals/config.signals";
 import type { Currency, Rates } from "../types";
@@ -92,6 +93,11 @@ export class CurrencyService {
 
     static setCurrency(curr: Currency) {
         currencySignal.value = curr;
+        try {
+            localStorage.setItem(CURRENCY_STORAGE_KEY, curr);
+        } catch {
+            // Non-critical: private mode / storage quota should not block switching.
+        }
     }
 
     static recalculateEffectiveRates() {

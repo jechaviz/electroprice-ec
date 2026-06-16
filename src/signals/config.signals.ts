@@ -3,10 +3,25 @@ import type { Currency, Rates } from "../types";
 
 export type Language = 'en' | 'es';
 
-export const languageSignal = signal<Language>('es');
+export const LANGUAGE_STORAGE_KEY = 'ep_language';
+export const CURRENCY_STORAGE_KEY = 'ep_currency';
+
+const readStoredValue = (key: string): string | null => {
+    try {
+        return localStorage.getItem(key);
+    } catch {
+        return null;
+    }
+};
+
+const storedLanguage = readStoredValue(LANGUAGE_STORAGE_KEY);
+const storedCurrency = readStoredValue(CURRENCY_STORAGE_KEY);
+
+// Persisted so a chosen language/currency survives reloads and revisits.
+export const languageSignal = signal<Language>(storedLanguage === 'en' || storedLanguage === 'es' ? storedLanguage : 'es');
 export const translationsSignal = signal<Record<string, string>>({});
 
-export const currencySignal = signal<Currency>('USD');
+export const currencySignal = signal<Currency>(storedCurrency === 'USD' || storedCurrency === 'MXN' ? storedCurrency : 'USD');
 export interface CurrencyRateMetadata {
     source: 'banxico_sie' | 'cache' | 'fallback';
     series: string;
