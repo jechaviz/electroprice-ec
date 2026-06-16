@@ -1,1 +1,5 @@
-* text=auto
+# Server-deployed PHP/shell: always check out with LF so cron bash and the
+# host PHP never see CRLF (bash chokes on \r).
+* text=auto eol=lf
+*.sh text eol=lf
+*.php text eol=lf
