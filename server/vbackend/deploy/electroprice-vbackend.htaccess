@@ -13,6 +13,10 @@ RewriteRule ^healthz$ health.html [L]
 # the minimal PHP shim. PocketBase is no longer in the request path.
 RewriteRule ^pb/api/(.*)$ vbackend-shim.php [L,QSA]
 
+# Subshopping runtime: the vhub integration framework (native V binary) behind
+# its own minimal PHP shim.
+RewriteRule ^runtime/vhub/(.*)$ vhub-shim.php [L,QSA]
+
 # SPA fallback for the React app.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
