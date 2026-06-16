@@ -1,0 +1,19 @@
+DirectoryIndex index.html
+RewriteEngine On
+
+# Forward the Authorization header into the CGI/PHP environment (shared hosting
+# strips it by default), so the V backend can read the bearer token.
+RewriteCond %{HTTP:Authorization} ^(.+)$
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%1]
+
+RewriteRule ^healthz$ health.html [L]
+
+# Entire PocketBase-compatible surface (collections, auth, health) AND the
+# custom /pb/api/electroprice/* routes are served by the native V backend via
+# the minimal PHP shim. PocketBase is no longer in the request path.
+RewriteRule ^pb/api/(.*)$ vbackend-shim.php [L,QSA]
+
+# SPA fallback for the React app.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
