@@ -58,9 +58,12 @@ export const PROVIDER_CONFIG_ROOT = providerCatalog.providerConfigRoot;
 export const PROVIDER_INTEGRATIONS = providerCatalog.integrations;
 export const ACTIVE_PROVIDER_IDS = PROVIDER_INTEGRATIONS.map((provider) => provider.id);
 
+// In production the subshopping runtimes are served same-origin (reverse-routed
+// by .htaccess to the no-submit runtime endpoint); locally they default to the
+// dev vhub/vimport ports.
 export const providerRuntimeEndpoints = {
-  vhubBaseUrl: import.meta.env.VITE_VHUB_BASE_URL ?? "http://127.0.0.1:8787",
-  vimportBaseUrl: import.meta.env.VITE_VIMPORT_BASE_URL ?? "http://127.0.0.1:8788",
+  vhubBaseUrl: import.meta.env.VITE_VHUB_BASE_URL ?? (import.meta.env.PROD ? "/runtime/vhub" : "http://127.0.0.1:8787"),
+  vimportBaseUrl: import.meta.env.VITE_VIMPORT_BASE_URL ?? (import.meta.env.PROD ? "/runtime/vimport" : "http://127.0.0.1:8788"),
 } as const;
 
 export const findProviderIntegration = (id: string) =>

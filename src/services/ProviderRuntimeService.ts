@@ -42,7 +42,19 @@ const PROVIDER_ALIASES: Record<string, string> = {
   "syscom": "syscom",
 };
 
-const liveRuntimeEnabled = () => import.meta.env.VITE_SUBSHOPPING_LIVE_RUNTIME === "true";
+// Production routes purchase orders to the same-origin no-submit runtime by
+// default; an explicit VITE_SUBSHOPPING_LIVE_RUNTIME flag still wins.
+const liveRuntimeEnabled = () => {
+  const flag = import.meta.env.VITE_SUBSHOPPING_LIVE_RUNTIME;
+  if (flag === "true") return true;
+  if (flag === "false") return false;
+  return import.meta.env.PROD === true;
+};
+const sandboxRuntimeEnabled = () => (
+  import.meta.env.MODE === "test"
+  || import.meta.env.DEV
+  || import.meta.env.VITE_ENABLE_SUBSHOPPING_SANDBOX === "true"
+);
 
 const normalize = (value: string) => value.toLowerCase().trim().replace(/\s+/g, " ");
 
@@ -142,6 +154,19 @@ export class ProviderRuntimeService {
     if (liveRuntimeEnabled()) {
       const runtimeResult = await this.callRuntime(profile.runtime, "/subshopping/purchase-orders", input);
       if (runtimeResult) return runtimeResult;
+      return {
+        ok: false,
+        traceId: createTraceId(profile.runtime),
+        nextAction: `${profile.runtime} did not acknowledge the purchase order. Review runtime health before submitting.`,
+      };
+    }
+
+    if (!sandboxRuntimeEnabled()) {
+      return {
+        ok: false,
+        traceId: createTraceId(profile.runtime),
+        nextAction: "Subshopping sandbox is disabled; enable a live runtime before submitting provider orders.",
+      };
     }
 
     return {
