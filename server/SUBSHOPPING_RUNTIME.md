@@ -22,18 +22,23 @@ existing `electroprice-vhub-sync` binary already uses on this host.
 
 Local V toolchain: `C:\git\v\v`. The host runs CloudLinux x86_64 with `gcc`.
 
-Recommended (compile the C on the host, so glibc matches):
+The worker source is `server/subshopping_runtime/main.v` (uses `x.json2`, not the
+`json` module, so the generated C has no cJSON thirdparty dependency). Compile the
+C on the host so glibc matches. `-gc none` is required — the host has no boehm
+`gc.h`, and the short-lived worker frees on exit.
 
 ```bash
 # locally: emit portable C from the V runtime program
-/c/git/v/v -os linux -o subshopping_vhub.c <path-to-subshopping-runtime-main.v>
-scp subshopping_vhub.c spaceship:~/build/
-# on the host:
-ssh spaceship 'gcc -O2 -o ~/apps/electroprice/current/bin/electroprice-subshopping-vhub ~/build/subshopping_vhub.c -lpthread -lm'
+/c/git/v/v -os linux -gc none -o subshopping_vhub.c server/subshopping_runtime/main.v
+# upload + compile on the host:
+cat subshopping_vhub.c | ssh spaceship 'cat > ~/build/subshopping_vhub.c'
+ssh spaceship 'gcc -O2 -w -o ~/apps/electroprice/current/bin/electroprice-subshopping-vhub ~/build/subshopping_vhub.c -lpthread -lm -ldl && chmod 755 ~/apps/electroprice/current/bin/electroprice-subshopping-vhub'
 ```
 
-(Or cross-compile to an x86_64 ELF locally if a Linux cross toolchain is
-available, then upload the binary directly.)
+Status (2026-06-16): the `electroprice-subshopping-vhub` binary is built and
+deployed, `subshopping-cron.php` is installed at
+`shared/lib/subshopping-cron.php`, and the cron entry runs it every minute in
+`no-submit` mode (verified end-to-end: queue PO -> DRYRUN ack).
 
 ## Install the cron
 

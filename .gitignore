@@ -10,3 +10,8 @@ pb/pb_public
 *.log
 .DS_Store
 Thumbs.db
+
+# V build artifacts
+server/subshopping_runtime/test_build.exe
+server/subshopping_runtime/*.c
+server/subshopping_runtime/*.def
