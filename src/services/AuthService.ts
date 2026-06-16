@@ -1,6 +1,7 @@
 import { currentUserSignal, isAuthLoadingSignal } from "../signals/auth.signals";
 import { isLoginModalOpenSignal } from "../signals/ui.signals";
 import { getLoadedPocketBase, loadPocketBase } from "../utils/pocketBaseClient";
+import { requestGoogleCredential } from "../utils/googleIdentity";
 import { NotificationService } from "./NotificationService";
 import { mapUserRecord } from "../utils/mappers";
 import type { SignUpCredentials } from "../types";
@@ -35,11 +36,7 @@ export class AuthService {
     static async signIn(credential: string, password: string) {
         try {
             const pb = await loadPocketBase();
-            if (credential.includes('@admin.electroprice.com') || credential === 'admin@electroprice.com') {
-                await pb.admins.authWithPassword(credential, password);
-            } else {
-                await pb.collection('users').authWithPassword(credential, password);
-            }
+            await pb.collection('users').authWithPassword(credential, password);
             return { error: null };
         } catch (error: any) {
             console.error("Error signing in:", error);
@@ -52,13 +49,23 @@ export class AuthService {
     }
 
     static async signInWithGoogle() {
+        const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+        if (!clientId) {
+            NotificationService.error('El inicio de sesión con Google no está configurado.');
+            return;
+        }
         try {
+            const credential = await requestGoogleCredential(clientId);
             const pb = await loadPocketBase();
-            await pb.collection('users').authWithOAuth2({ provider: 'google' });
-            NotificationService.success('Signed in with Google!');
+            const result = await pb.send('/api/electroprice/auth/google', {
+                method: 'POST',
+                body: { credential },
+            }) as { token: string; record: any };
+            pb.authStore.save(result.token, result.record);
+            NotificationService.success('¡Sesión iniciada con Google!');
         } catch (error: any) {
             console.error('Error signing in with Google:', error);
-            NotificationService.error(error.message);
+            NotificationService.error(error?.message || 'No se pudo iniciar sesión con Google.');
         }
     }
 

@@ -16,6 +16,9 @@ fn route_hook(cfg pbm.Config, req pbm.Request) ?pbm.Response {
 	if path == '/api/electroprice/ai/generate-text' && req.method == 'POST' {
 		return hook_ai(cfg, req)
 	}
+	if path == '/api/electroprice/auth/google' && req.method == 'POST' {
+		return hook_google_auth(cfg, req)
+	}
 	rstock_prefix := '/api/electroprice/retailer/products/'
 	if req.method == 'PATCH' && path.starts_with(rstock_prefix) && path.ends_with('/stock') {
 		id := path[rstock_prefix.len..path.len - '/stock'.len]
