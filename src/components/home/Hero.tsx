@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useMemo } from 'react';
 import { useTranslation } from '../../hooks/useTranslation';
 import { AppContext } from '../../contexts/AppContext';
 
@@ -17,8 +17,15 @@ const Hero: React.FC = () => {
     navigateToCategory(categoryId);
   };
 
-  const verifiedProducts = products.length;
-  const liveOffers = products.reduce((total, product) => total + product.wholesalerStock.length, 0);
+  const productCount = products.length;
+  const brandCount = useMemo(
+    () => new Set(products.map((product) => (product.brand || '').trim()).filter(Boolean)).size,
+    [products],
+  );
+  const categoryCount = useMemo(
+    () => new Set(products.map((product) => product.category).filter(Boolean)).size,
+    [products],
+  );
 
   return (
     <section className="relative overflow-hidden border-b border-base-content/5 bg-base-100">
@@ -57,15 +64,15 @@ const Hero: React.FC = () => {
             <dl className="mt-9 grid max-w-xl grid-cols-2 gap-4 sm:grid-cols-3">
               <div>
                 <dt className="text-xs font-bold uppercase tracking-widest text-base-content/40">{t('home.hero.products')}</dt>
-                <dd className="font-mono text-2xl font-black text-primary">{verifiedProducts || '16'}</dd>
+                <dd className="font-mono text-2xl font-black text-primary">{productCount || '16'}</dd>
               </div>
               <div>
                 <dt className="text-xs font-bold uppercase tracking-widest text-base-content/40">{t('home.hero.offers')}</dt>
-                <dd className="font-mono text-2xl font-black text-secondary">{liveOffers || '48'}</dd>
+                <dd className="font-mono text-2xl font-black text-secondary">{brandCount || '40'}</dd>
               </div>
               <div>
                 <dt className="text-xs font-bold uppercase tracking-widest text-base-content/40">{t('home.hero.signals')}</dt>
-                <dd className="font-mono text-2xl font-black text-success">3</dd>
+                <dd className="font-mono text-2xl font-black text-success">{categoryCount || '18'}</dd>
               </div>
             </dl>
           </div>
@@ -84,9 +91,9 @@ const Hero: React.FC = () => {
               </div>
               <div className="grid gap-3">
                 {[
-                  ['fa-chart-line', 'home.hero.signal.price'],
-                  ['fa-store', 'home.hero.signal.stock'],
-                  ['fa-star-half-stroke', 'home.hero.signal.reviews'],
+                  ['fa-truck-fast', 'home.hero.signal.price'],
+                  ['fa-shield-halved', 'home.hero.signal.stock'],
+                  ['fa-award', 'home.hero.signal.reviews'],
                 ].map(([icon, key]) => (
                   <div key={key} className="flex items-center gap-3 rounded-2xl border border-base-content/10 bg-base-100/80 p-4 backdrop-blur">
                     <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 text-primary">

@@ -49,11 +49,13 @@ const ProductDetailPage: React.FC = () => {
   } = useProductDetail();
 
   const [liveVisitors, setLiveVisitors] = useState(0);
+  const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
     if (product) {
       services.analytics.trackProductView(product.id, product.name);
-      
+      setQuantity(1);
+
       // Update live visitors periodically
       setLiveVisitors(services.inventory.getLiveVisitors(product.id));
       const timer = setInterval(() => {
@@ -100,7 +102,7 @@ const ProductDetailPage: React.FC = () => {
       return;
     }
 
-    void addToCart(product.id, 1, selectedOptions);
+    void addToCart(product.id, quantity, selectedOptions);
   };
 
   if (!product) {
@@ -180,6 +182,13 @@ const ProductDetailPage: React.FC = () => {
                   )}
                 </div>
                 <div className="flex flex-col gap-2.5 w-full sm:w-[220px] shrink-0">
+                  {!isOutOfStock && (
+                    <div className="flex items-center justify-between rounded-lg bg-base-300/50 border border-base-content/5 p-1.5">
+                      <button type="button" onClick={() => setQuantity(q => Math.max(1, q - 1))} disabled={quantity <= 1} aria-label={t('cart.decreaseQuantity')} className="w-9 h-9 flex items-center justify-center rounded-md text-base-content/70 hover:text-base-content hover:bg-base-100 transition-colors disabled:opacity-35"><i className="fa-solid fa-minus text-xs"></i></button>
+                      <span className="font-black text-sm tabular-nums" aria-live="polite">{quantity}</span>
+                      <button type="button" onClick={() => setQuantity(q => Math.min(totalStock, q + 1))} disabled={quantity >= totalStock} aria-label={t('cart.increaseQuantity')} className="w-9 h-9 flex items-center justify-center rounded-md text-base-content/70 hover:text-base-content hover:bg-base-100 transition-colors disabled:opacity-35"><i className="fa-solid fa-plus text-xs"></i></button>
+                    </div>
+                  )}
                   <button onClick={handleAddToCart} className="w-full py-2.5 rounded-lg bg-accent text-accent-content font-black text-xs uppercase tracking-wider shadow-[0_5px_15px_-5px_rgba(4,217,255,0.5)] hover:shadow-[0_10px_20px_-5px_rgba(4,217,255,0.6)] hover:-translate-y-0.5 active:scale-95 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2" disabled={isOutOfStock}><i className="fa-solid fa-cart-shopping"></i> {t('detail.addToCartBtn')}</button>
                   <button onClick={handleFavoriteToggle} className={`w-full py-2.5 rounded-lg font-black text-xs uppercase tracking-wider transition-all border-2 flex items-center justify-center gap-2 ${isLiked ? 'bg-red-500/10 border-red-500 text-red-500 shadow-[0_5px_15px_-5px_rgba(239,68,68,0.3)]' : 'bg-base-300/50 border-base-content/5 text-base-content/60 hover:bg-red-500 hover:border-red-500 hover:text-white'}`}><i className={`${isLiked ? 'fa-solid' : 'fa-regular'} fa-heart`}></i> {isLiked ? t('detail.inFavorites') : t('detail.addToFavorites')}</button>
                 </div>
