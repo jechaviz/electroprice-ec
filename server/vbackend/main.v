@@ -30,6 +30,19 @@ fn route(cfg Config, db Db, req Request) Response {
 		return health(cfg, db)
 	}
 
+	if path == '/api/collections/users/auth-with-password' {
+		if req.method == 'POST' {
+			return auth_with_password(cfg, db, req)
+		}
+		return error_response(405, 'Method not allowed.')
+	}
+	if path == '/api/collections/users/auth-refresh' {
+		if req.method == 'POST' {
+			return auth_refresh(cfg, db, req)
+		}
+		return error_response(405, 'Method not allowed.')
+	}
+
 	if path.starts_with('/api/collections/') {
 		rest := path['/api/collections/'.len..]
 		parts := rest.split('/')

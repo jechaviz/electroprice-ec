@@ -56,7 +56,10 @@ fn list_records(cfg Config, db Db, req Request, coll string) Response {
 		if r.len == 0 {
 			continue
 		}
-		raw := base64.decode_str(r[0])
+		mut raw := base64.decode_str(r[0])
+		if coll == 'users' {
+			raw = sanitize_user_json(raw)
+		}
 		items << project_record(raw, coll, fields)
 	}
 
@@ -80,7 +83,10 @@ fn get_record(cfg Config, db Db, req Request, coll string, id string) Response {
 	if rows.len == 0 || rows[0].len == 0 {
 		return error_response(404, "The requested resource wasn't found.")
 	}
-	raw := base64.decode_str(rows[0][0])
+	mut raw := base64.decode_str(rows[0][0])
+	if coll == 'users' {
+		raw = sanitize_user_json(raw)
+	}
 	fields := parse_fields(req.query['fields'] or { '' })
 	return json_response(200, project_record(raw, coll, fields))
 }
