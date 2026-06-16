@@ -1,75 +1,96 @@
 module main
 
-fn main() {
-	cfg := load_config()
-	db := new_db(cfg)
-	req := parse_request()
-	resp := route(cfg, db, req)
-	resp.send()
+// ElectroPrice's PocketBase-independent backend: a thin consumer of the generic
+// `pocketbase_mysql` V library. This file holds only the app-specific wiring —
+// which collections exist and how they map to MySQL tables. All request
+// handling, query translation, CRUD, and auth live in the library.
+
+import pocketbase_mysql as pbm
+import os
+
+fn env_or(key string, def string) string {
+	v := os.getenv(key)
+	return if v == '' { def } else { v }
 }
 
-// Strip the public `/pb` prefix and any trailing slash so both `/pb/api/...`
-// (the storefront SDK base) and `/api/...` resolve the same.
-fn normalize_path(p string) string {
-	mut path := p
-	if path.starts_with('/pb/') {
-		path = path[3..]
-	} else if path == '/pb' {
-		path = '/'
+// The ElectroPrice collection layout:
+//   products / wholesalers -> catalog, read-only, mirrored from PB SQLite
+//   users / orders / reviews / telemetry -> app-owned, authoritative in MySQL
+fn registry() pbm.Registry {
+	product_columns := {
+		'id':           'id'
+		'created':      'created'
+		'updated':      'updated'
+		'name':         'name'
+		'brand':        'brand'
+		'category':     'category'
+		'image_url':    'image_url'
+		'search_text':  'search_text'
+		'best_price':   'best_price'
+		'total_stock':  'total_stock'
+		'is_deal':      'is_deal'
+		'avg_rating':   'avg_rating'
+		'review_count': 'review_count'
 	}
-	if path.len > 1 && path.ends_with('/') {
-		path = path[..path.len - 1]
-	}
-	return path
-}
-
-fn route(cfg Config, db Db, req Request) Response {
-	path := normalize_path(req.path)
-
-	if path == '/api/health' {
-		return health(cfg, db)
-	}
-
-	if path == '/api/collections/users/auth-with-password' {
-		if req.method == 'POST' {
-			return auth_with_password(cfg, db, req)
-		}
-		return error_response(405, 'Method not allowed.')
-	}
-	if path == '/api/collections/users/auth-refresh' {
-		if req.method == 'POST' {
-			return auth_refresh(cfg, db, req)
-		}
-		return error_response(405, 'Method not allowed.')
-	}
-
-	if path.starts_with('/api/collections/') {
-		rest := path['/api/collections/'.len..]
-		parts := rest.split('/')
-		if parts.len >= 2 && parts[1] == 'records' {
-			coll := parts[0]
-			if parts.len == 2 {
-				match req.method {
-					'GET' { return list_records(cfg, db, req, coll) }
-					'POST' { return create_record(cfg, db, req, coll) }
-					else { return error_response(405, 'Method not allowed.') }
-				}
-			} else if parts.len == 3 {
-				id := url_decode(parts[2])
-				match req.method {
-					'GET' { return get_record(cfg, db, req, coll, id) }
-					'PATCH' { return update_record(cfg, db, req, coll, id) }
-					'DELETE' { return delete_record(cfg, db, req, coll, id) }
-					else { return error_response(405, 'Method not allowed.') }
-				}
+	return pbm.Registry{
+		collections: {
+			'products':    pbm.Collection{
+				name:    'products'
+				table:   'pbm_products'
+				columns: product_columns
+			}
+			'wholesalers': pbm.Collection{
+				name:               'wholesalers'
+				table:              'pbm_records'
+				requires_predicate: true
+			}
+			'users':       pbm.Collection{
+				name:               'users'
+				table:              'app_records'
+				app_owned:          true
+				requires_predicate: true
+				auth_collection:    true
+				public_create:      true
+			}
+			'orders':      pbm.Collection{
+				name:               'orders'
+				table:              'app_records'
+				app_owned:          true
+				requires_predicate: true
+				owner_field:        'user_id'
+			}
+			'reviews':     pbm.Collection{
+				name:               'reviews'
+				table:              'app_records'
+				app_owned:          true
+				requires_predicate: true
+				owner_field:        'author_id'
+			}
+			'telemetry':   pbm.Collection{
+				name:               'telemetry'
+				table:              'app_records'
+				app_owned:          true
+				requires_predicate: true
+				public_create:      true
 			}
 		}
 	}
-
-	return error_response(404, "The requested resource wasn't found.")
 }
 
-fn health(cfg Config, db Db) Response {
-	db.scalar('SELECT 1') or { return error_response(503, 'API is unhealthy.') }
-	return json_response(200, '{"code":200,"message":"API is healthy.","data":{"source":${json_string(cfg.source)},"engine":"v"}}')
+fn app_config() pbm.Config {
+	return pbm.Config{
+		mysql_env_path: env_or('PBM_MYSQL_ENV', '/home/agingriouh/apps/electroprice/shared/env/mysql.env')
+		auth_secret:    env_or('PBM_AUTH_SECRET', '')
+		source:         'electroprice-v'
+		registry:       registry()
+	}
+}
+
+fn main() {
+	cfg := app_config()
+	req := pbm.parse_request()
+	// TODO (custom hooks): dispatch /api/electroprice/* here first, then fall
+	// back to the standard PocketBase surface below.
+	resp := pbm.handle(cfg, req)
+	resp.send()
 }

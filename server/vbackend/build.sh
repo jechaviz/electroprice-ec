@@ -12,7 +12,9 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 V_BIN="${V_BIN:-/c/git/v/v.exe}"
-SRC="${1:-$SCRIPT_DIR/spike.v}"
+# Default: transpile this consumer dir (main.v), which imports the
+# pocketbase_mysql library from ~/.vmodules; the C bundles the library code.
+SRC="${1:-$SCRIPT_DIR}"
 OUT="${2:-$SCRIPT_DIR/pbm-vbackend.c}"
 
 "$V_BIN" -os linux -gc none -o "$OUT" "$SRC"
