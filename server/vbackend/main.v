@@ -89,8 +89,7 @@ fn app_config() pbm.Config {
 fn main() {
 	cfg := app_config()
 	req := pbm.parse_request()
-	// TODO (custom hooks): dispatch /api/electroprice/* here first, then fall
-	// back to the standard PocketBase surface below.
-	resp := pbm.handle(cfg, req)
+	// Custom /api/electroprice/* routes first; otherwise the standard surface.
+	resp := route_hook(cfg, req) or { pbm.handle(cfg, req) }
 	resp.send()
 }
