@@ -96,8 +96,8 @@ const Header: React.FC = () => {
                   {t('header.trust.verified')}
                 </span>
                 <span className="inline-flex items-center gap-1.5">
-                  <i className="fa-solid fa-chart-line text-primary" aria-hidden="true"></i>
-                  {t('header.trust.priceHistory')}
+                  <i className="fa-solid fa-truck-fast text-primary" aria-hidden="true"></i>
+                  {t('header.trust.shipping')}
                 </span>
                 <span className="inline-flex items-center gap-1.5">
                   <i className="fa-solid fa-shield-halved text-info" aria-hidden="true"></i>

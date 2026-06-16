@@ -2,20 +2,17 @@ import { useContext, useEffect, useState, useMemo, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
 import { AppContext } from '../contexts/AppContext';
 import { getProductIdCandidatesFromSlug, productSlugMatchesId } from '../utils/slugify';
-import { generateProductSummary } from '../services/geminiService';
 import { preloadLoginModal } from '../utils/deferredOverlays';
 import { getProductGalleryImages } from '../utils/productGallery';
 import { getProductDisplayPrice, getLowestWholesalerPrice } from '../utils/pricing';
 import { ProductCatalogService } from '../services/ProductCatalogService';
 import type { Product } from '../types';
 
-export type SectionType = 'description' | 'specs' | 'reviews' | 'ai';
+export type SectionType = 'description' | 'specs' | 'reviews';
 
 export const useProductDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const { products, user, isAuthenticated, toggleFavorite, setIsLoginModalOpen, navigateToCategory } = useContext(AppContext);
-  const [aiSummary, setAiSummary] = useState<string>('');
-  const [isSummaryLoading, setIsSummaryLoading] = useState<boolean>(true);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [activeTab, setActiveTab] = useState<SectionType>('description');
   const [selectedOptions, setSelectedOptions] = useState<Record<string, string>>({});
@@ -91,29 +88,14 @@ export const useProductDetail = () => {
   }, [cachedProduct?.id, slug]);
 
   useEffect(() => {
-    if (slug) {
-      window.scrollTo(0, 0);
-      const loadProduct = async () => {
-        setIsSummaryLoading(true);
-        setAiSummary('');
-        setCurrentImageIndex(0);
-        setSelectedOptions({});
-        if (product) {
-          if (product.options) {
-             const defaults: Record<string, string> = {};
-             product.options.forEach(opt => { defaults[opt.name] = opt.values[0] ?? ''; });
-             setSelectedOptions(defaults);
-          }
-          if (product.reviews.filter(r => r.status !== 'rejected').length > 0) {
-            const summary = await generateProductSummary(product);
-            setAiSummary(summary);
-          } else {
-            setAiSummary('Insuficientes estudios o reseñas verificadas para generar un análisis de Inteligencia Artificial.');
-          }
-        }
-        setIsSummaryLoading(false);
-      };
-      void loadProduct();
+    if (!slug) return;
+    window.scrollTo(0, 0);
+    setCurrentImageIndex(0);
+    setSelectedOptions({});
+    if (product?.options) {
+      const defaults: Record<string, string> = {};
+      product.options.forEach(opt => { defaults[opt.name] = opt.values[0] ?? ''; });
+      setSelectedOptions(defaults);
     }
   }, [slug, product]);
 
@@ -134,8 +116,6 @@ export const useProductDetail = () => {
   return {
     product,
     isLiked,
-    aiSummary,
-    isSummaryLoading,
     currentImageIndex,
     setCurrentImageIndex,
     activeTab,

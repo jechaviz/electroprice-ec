@@ -1,4 +1,3 @@
-import { createGeminiTextClient, type GeminiChatMessage, type GeminiTextClient } from "../lib/geminiClient";
 import { currentUserSignal } from "../signals/auth.signals";
 import { ordersSignal } from "../signals/data.signals";
 
@@ -7,48 +6,42 @@ export interface ChatMessage {
     parts: { text: string }[];
 }
 
+const SUPPORT_EMAIL = "soporte@electroprice.com";
+
+/**
+ * Rule-based customer support assistant. The storefront no longer uses an AI
+ * model; replies are deterministic and point customers to their account or to
+ * the support inbox.
+ */
 export class SupportService {
-    private ai: GeminiTextClient | null = null;
-    private history: GeminiChatMessage[] = [];
-
-    constructor() {
-        this.ai = createGeminiTextClient();
-    }
-
-    /**
-     * Sends a message to the AI Support Assistant.
-     */
     async sendMessage(text: string): Promise<string> {
         const user = currentUserSignal.value;
         const recentOrders = ordersSignal.value.slice(-3);
+        const lower = text.toLowerCase();
 
-        if (!this.ai) {
-            // Mock Support
-            if (text.toLowerCase().includes('order')) {
-                return `I found your recent orders. Order #${recentOrders[0]?.id || 'N/A'} is currently ${recentOrders[0]?.status || 'unknown'}. How else can I help?`;
+        if (/(pedido|orden|order|compra)/.test(lower)) {
+            if (!user) {
+                return `Inicia sesión para consultar el estado de tus pedidos, o escríbenos a ${SUPPORT_EMAIL}.`;
             }
-            return "I'm a mock assistant. Please configure VITE_GEMINI_API_KEY for real AI support.";
+            const last = recentOrders[recentOrders.length - 1];
+            if (!last) {
+                return "Aún no tienes pedidos en tu cuenta. Cuando hagas una compra podrás seguirla desde Mi cuenta > Pedidos.";
+            }
+            return `Tu pedido más reciente (#${last.id}) está en estado: ${last.status}. Puedes ver el detalle en Mi cuenta > Pedidos.`;
         }
 
-        try {
-            const systemInstruction = `You are the Electroprice Support AI. 
-                Customer Name: ${user?.name || 'Guest'}
-                Recent Orders: ${JSON.stringify(recentOrders.map(o => ({ id: o.id, status: o.status, total: o.total })))}
-                Be helpful, concise, and professional. If they ask about order status, use the provided order data.`;
-            const reply = await this.ai.sendChatMessage(this.history, text, systemInstruction);
-
-            // Update history
-            this.history.push({ role: 'user', parts: [{ text }] });
-            this.history.push({ role: 'model', parts: [{ text: reply }] });
-
-            return reply;
-        } catch (error) {
-            console.error("Support AI failed:", error);
-            return "I apologize, but I'm having trouble connecting to my brain. Please try again in a moment.";
+        if (/(env[íi]o|shipping|entrega|tracking|rastreo)/.test(lower)) {
+            return "Enviamos a todo el país con seguimiento. El tiempo estimado y el número de guía aparecen en cada pedido dentro de Mi cuenta > Pedidos.";
         }
+
+        if (/(devol|return|reembol|refund|garant[íi]a|warranty)/.test(lower)) {
+            return `Puedes solicitar una devolución desde el detalle de un pedido entregado en Mi cuenta > Pedidos. Para garantías escríbenos a ${SUPPORT_EMAIL}.`;
+        }
+
+        return `Gracias por tu mensaje. Para pedidos y envíos visita Mi cuenta > Pedidos, o escríbenos a ${SUPPORT_EMAIL} y con gusto te ayudamos.`;
     }
 
     clearHistory() {
-        this.history = [];
+        // No conversation state is retained in the rule-based assistant.
     }
 }

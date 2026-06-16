@@ -6,7 +6,6 @@ import Spinner from '../components/common/Spinner';
 import type { OrderStatus } from '../types';
 import { useParams } from 'react-router-dom';
 import { services } from '../services/ServiceContainer';
-import SubshoppingWorkflowPanel from '../components/subshopping/SubshoppingWorkflowPanel';
 import { getOrderItemKey, selectedOptionsLabel } from '../utils/cartLine';
 
 const OrderDetailPage: React.FC = () => {
@@ -132,19 +131,14 @@ const OrderDetailPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="px-6 md:px-0 mb-12">
-            <SubshoppingWorkflowPanel order={order} formatPrice={formatPrice} />
-          </div>
-          
           <div className="p-6 md:p-0 grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-base-300/30 p-6 rounded-3xl border border-base-content/5">
               <h3 className="text-xs font-black uppercase tracking-widest text-base-content/40 mb-4">{t('order.shippingTo')}</h3>
               <p className="text-sm font-bold text-base-content/80 leading-relaxed">{order.shippingAddress}</p>
               
-              {(order.wholesalerTrackingNumber || order.trackingNumber) && (
+              {order.trackingNumber && (
                 <div className="mt-6 flex flex-col gap-2">
-                  {order.wholesalerTrackingNumber && <div className="flex justify-between items-center text-xs"><span className="font-bold text-base-content/40">Wholesaler Tracking</span><span className="font-mono bg-base-200 px-2 py-1 rounded">{order.wholesalerTrackingNumber}</span></div>}
-                  {order.trackingNumber && <div className="flex justify-between items-center text-xs"><span className="font-bold text-base-content/40">Final Tracking</span><span className="font-mono bg-primary/10 text-primary px-2 py-1 rounded">{order.trackingNumber}</span></div>}
+                  <div className="flex justify-between items-center text-xs"><span className="font-bold text-base-content/40">{t('order.tracking')}</span><span className="font-mono bg-primary/10 text-primary px-2 py-1 rounded">{order.trackingNumber}</span></div>
                 </div>
               )}
             </div>

@@ -18,19 +18,14 @@ import { searchTermRequestsOutOfStock } from '../utils/productIndex';
 import { useParams, useSearchParams } from 'react-router-dom';
 
 const loadProductMapView = () => import('../components/product/ProductMapView');
-const loadProductMap = () => import('../components/product/ProductMap');
 
 const ProductMapView = lazy(loadProductMapView);
-const ProductMap = lazy(loadProductMap);
 
-type DeferredViewMode = Extract<ViewMode, 'table' | 'map'>;
 const UNBOUNDED_PRICE_RANGE: [number, number] = [0, Infinity];
 
-const DeferredViewFallback: React.FC<{ viewMode: DeferredViewMode; label: string }> = ({ viewMode, label }) => (
+const DeferredViewFallback: React.FC<{ label: string }> = ({ label }) => (
   <div
-    className={`bg-base-200 rounded-box p-4 ${
-      viewMode === 'map' ? 'h-[600px]' : 'min-h-[24rem]'
-    }`}
+    className="bg-base-200 rounded-box p-4 min-h-[24rem]"
     role="status"
     aria-live="polite"
     aria-label={label}
@@ -39,21 +34,17 @@ const DeferredViewFallback: React.FC<{ viewMode: DeferredViewMode; label: string
       <span className="loading loading-spinner loading-md text-primary" aria-hidden="true"></span>
       <span className="font-medium">{label}</span>
     </div>
-    {viewMode === 'map' ? (
-      <div className="skeleton mt-4 h-[calc(100%-4.25rem)] w-full rounded-box" aria-hidden="true"></div>
-    ) : (
-      <div className="mt-4 space-y-4" aria-hidden="true">
-        <div className="grid grid-cols-[8rem_repeat(3,minmax(0,1fr))] gap-4">
-          <div className="skeleton h-24 rounded-box"></div>
-          <div className="skeleton h-24 rounded-box"></div>
-          <div className="skeleton h-24 rounded-box"></div>
-          <div className="skeleton h-24 rounded-box"></div>
-        </div>
-        <div className="skeleton h-12 w-full rounded-box"></div>
-        <div className="skeleton h-12 w-full rounded-box"></div>
-        <div className="skeleton h-12 w-full rounded-box"></div>
+    <div className="mt-4 space-y-4" aria-hidden="true">
+      <div className="grid grid-cols-[8rem_repeat(3,minmax(0,1fr))] gap-4">
+        <div className="skeleton h-24 rounded-box"></div>
+        <div className="skeleton h-24 rounded-box"></div>
+        <div className="skeleton h-24 rounded-box"></div>
+        <div className="skeleton h-24 rounded-box"></div>
       </div>
-    )}
+      <div className="skeleton h-12 w-full rounded-box"></div>
+      <div className="skeleton h-12 w-full rounded-box"></div>
+      <div className="skeleton h-12 w-full rounded-box"></div>
+    </div>
   </div>
 );
 
@@ -151,10 +142,6 @@ const ProductListPage: React.FC = () => {
     if (nextViewMode === 'table') {
       void loadProductMapView();
     }
-
-    if (nextViewMode === 'map') {
-      void loadProductMap();
-    }
   }, []);
 
   const handleViewModeChange = useCallback((nextViewMode: ViewMode) => {
@@ -162,19 +149,14 @@ const ProductListPage: React.FC = () => {
     setViewMode(nextViewMode);
   }, [preloadDeferredView, setViewMode]);
 
-  const renderDeferredView = useCallback((nextViewMode: DeferredViewMode) => {
-    const label = t(nextViewMode === 'table' ? 'list.view.table' : 'list.view.map');
-    const sectionId = nextViewMode === 'table' ? 'product-table-view' : 'product-map-view';
-    const comparisonProducts = sortedProducts.slice(0, 180);
+  const renderTableView = useCallback(() => {
+    const label = t('list.view.table');
+    const tableProducts = sortedProducts.slice(0, 180);
 
     return (
-      <section id={sectionId} role="region" aria-label={label}>
-        <Suspense fallback={<DeferredViewFallback viewMode={nextViewMode} label={label} />}>
-          {nextViewMode === 'table' ? (
-            <ProductMapView products={comparisonProducts} />
-          ) : (
-            <ProductMap products={comparisonProducts} />
-          )}
+      <section id="product-table-view" role="region" aria-label={label}>
+        <Suspense fallback={<DeferredViewFallback label={label} />}>
+          <ProductMapView products={tableProducts} />
         </Suspense>
       </section>
     );
@@ -182,8 +164,7 @@ const ProductListPage: React.FC = () => {
 
   const renderCurrentView = () => {
     switch (viewMode) {
-        case 'table': return renderDeferredView('table');
-        case 'map': return renderDeferredView('map');
+        case 'table': return renderTableView();
         case 'grid':
         default: return (
             <VirtualizedProductGrid products={sortedProducts} ariaLabel={t('list.view.grid')} />
@@ -283,7 +264,6 @@ const ProductListPage: React.FC = () => {
               <div className="join self-end">
                   <button type="button" aria-label={t('list.view.grid')} aria-controls={resultsRegionId} aria-pressed={viewMode === 'grid'} title={t('list.view.grid')} className={`btn join-item ${viewMode === 'grid' ? 'btn-primary' : ''}`} onClick={() => handleViewModeChange('grid')}><i className="fa-solid fa-grip"></i></button>
                   <button type="button" aria-label={t('list.view.table')} aria-controls={resultsRegionId} aria-pressed={viewMode === 'table'} title={t('list.view.table')} className={`btn join-item ${viewMode === 'table' ? 'btn-primary' : ''}`} onClick={() => handleViewModeChange('table')} onMouseEnter={() => preloadDeferredView('table')} onFocus={() => preloadDeferredView('table')}><i className="fa-solid fa-table-list"></i></button>
-                  <button type="button" aria-label={t('list.view.map')} aria-controls={resultsRegionId} aria-pressed={viewMode === 'map'} title={t('list.view.map')} className={`btn join-item ${viewMode === 'map' ? 'btn-primary' : ''}`} onClick={() => handleViewModeChange('map')} onMouseEnter={() => preloadDeferredView('map')} onFocus={() => preloadDeferredView('map')}><i className="fa-solid fa-map-location-dot"></i></button>
               </div>
             </div>
           </div>

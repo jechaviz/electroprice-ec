@@ -6,10 +6,9 @@ import { preloadCartDrawer } from '../utils/deferredOverlays';
 import { calculateOrderAmounts, formatTaxRate } from '../utils/pricing';
 import { getCartItemKey, selectedOptionsLabel } from '../utils/cartLine';
 import CheckoutForm from '../components/cart/CheckoutForm';
-import CheckoutSourcingPreview from '../components/subshopping/CheckoutSourcingPreview';
 
 const CheckoutPage: React.FC = () => {
-    const { user, products, wholesalers, setView, setIsCartDrawerOpen } = useContext(AppContext);
+    const { user, products, setView, setIsCartDrawerOpen } = useContext(AppContext);
     const { t } = useTranslation();
     const { formatPrice } = useCurrency();
     
@@ -66,9 +65,6 @@ const CheckoutPage: React.FC = () => {
                             total={total}
                             onCancel={() => setView('cart')}
                         />
-                        <div className="mt-6">
-                            <CheckoutSourcingPreview cartItems={cartDetails} wholesalers={wholesalers} formatPrice={formatPrice} />
-                        </div>
                     </div>
 
                     {/* Right Column: Order Summary (High Fidelity) */}

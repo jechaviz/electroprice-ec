@@ -5,7 +5,7 @@ const SupportChat: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [message, setMessage] = useState('');
     const [chat, setChat] = useState<{ role: 'user' | 'model'; text: string }[]>([
-        { role: 'model', text: 'Hi! How can I help you with your orders or products today?' }
+        { role: 'model', text: '¡Hola! ¿Cómo podemos ayudarte con tus pedidos o productos?' }
     ]);
     const [isTyping, setIsTyping] = useState(false);
     const scrollRef = useRef<HTMLDivElement>(null);
@@ -54,11 +54,11 @@ const SupportChat: React.FC = () => {
             <div className="bg-primary p-6 text-primary-content flex items-center justify-between shadow-lg">
                 <div className="flex items-center gap-3">
                     <div className="h-10 w-10 rounded-xl bg-white/20 flex items-center justify-center">
-                        <i className="fa-solid fa-robot text-lg"></i>
+                        <i className="fa-solid fa-headset text-lg"></i>
                     </div>
                     <div>
-                        <p className="font-black leading-tight">AI Support</p>
-                        <p className="text-[10px] font-bold opacity-70 uppercase tracking-widest">Always Online</p>
+                        <p className="font-black leading-tight">Soporte ElectroPrice</p>
+                        <p className="text-[10px] font-bold opacity-70 uppercase tracking-widest">Te ayudamos</p>
                     </div>
                 </div>
                 <button onClick={() => setIsOpen(false)} className="h-8 w-8 rounded-lg hover:bg-white/10 flex items-center justify-center transition-colors">
@@ -90,7 +90,7 @@ const SupportChat: React.FC = () => {
                     type="text" 
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
-                    placeholder="Ask about your orders..."
+                    placeholder="Escribe tu consulta..."
                     className="flex-1 bg-base-100 border border-base-content/10 rounded-xl px-4 py-3 text-xs focus:outline-none focus:border-primary transition-colors"
                 />
                 <button type="submit" disabled={isTyping || !message.trim()} className="h-11 w-11 rounded-xl bg-primary text-primary-content flex items-center justify-center disabled:opacity-50 shadow-lg shadow-primary/20">

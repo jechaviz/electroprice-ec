@@ -1,25 +1,26 @@
 import React from 'react';
 import type { Product, User } from '../../../types';
-import { calculateRetailPrice } from '../../../utils/pricing';
-
-const PriceHistoryChart = React.lazy(() => import('../PriceHistoryChart'));
 
 interface DescriptionTabProps {
    product: Product;
    user: User | null;
-   calculateRetailPrice: (price: number) => number;
    formatPrice: (price: number) => string;
    internalBestPrice: number | null;
-   PriceHistoryChartFallback: React.FC;
    t: (key: string) => string;
 }
+
+const ASSURANCES: ReadonlyArray<readonly [string, string]> = [
+   ['fa-truck-fast', 'detail.assurance.shipping'],
+   ['fa-shield-halved', 'detail.assurance.secure'],
+   ['fa-rotate-left', 'detail.assurance.returns'],
+   ['fa-award', 'detail.assurance.warranty'],
+];
 
 export const DescriptionTab: React.FC<DescriptionTabProps> = ({
    product,
    user,
    formatPrice,
    internalBestPrice,
-   PriceHistoryChartFallback,
    t
 }) => {
    return (
@@ -33,19 +34,21 @@ export const DescriptionTab: React.FC<DescriptionTabProps> = ({
          <div>
             <div className="bg-base-100/80 rounded-2xl p-6 border border-base-content/5 shadow-inner">
                <h4 className="font-bold text-sm text-base-content/50 uppercase tracking-widest mb-4 flex items-center gap-2">
-                  <i className="fa-solid fa-chart-line text-primary"></i> {t('detail.priceTrend')}
+                  <i className="fa-solid fa-circle-check text-primary"></i> {t('detail.assurance.title')}
                </h4>
-               <div className="h-[260px] min-w-0 overflow-hidden">
-                  <React.Suspense fallback={<PriceHistoryChartFallback />}>
-                     <PriceHistoryChart 
-                        data={product.priceHistory.map(h => ({ ...h, price: calculateRetailPrice(h.price) }))} 
-                        compact 
-                     />
-                  </React.Suspense>
-               </div>
+               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {ASSURANCES.map(([icon, key]) => (
+                     <li key={key} className="flex items-center gap-3 rounded-xl border border-base-content/5 bg-base-200/60 p-3">
+                        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                           <i className={`fa-solid ${icon}`} aria-hidden="true"></i>
+                        </span>
+                        <span className="text-xs font-semibold text-base-content/75">{t(key)}</span>
+                     </li>
+                  ))}
+               </ul>
                {user?.role === 'admin' && (
                   <div className="mt-4 p-4 bg-primary/10 border border-primary/20 rounded-xl">
-                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">Internal Comparison (Admin Only)</h4>
+                     <h4 className="text-xs font-bold uppercase tracking-widest text-primary mb-2">{t('admin.internalComparison')}</h4>
                      <div className="space-y-2">
                         {product.wholesalerStock.map(ws => (
                            <div key={ws.wholesalerId} className="flex justify-between text-xs font-mono text-base-content/70">

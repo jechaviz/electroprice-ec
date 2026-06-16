@@ -73,18 +73,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const dynamicBadges = useMemo(() => {
     const badges = [];
 
-    if (product.priceHistory && product.priceHistory.length >= 2 && bestPrice) {
-      const thirtyDaysAgo = new Date();
-      thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
-      const recentHistory = product.priceHistory.filter((history) => new Date(history.date) >= thirtyDaysAgo);
-      if (recentHistory.length >= 2) {
-        const maxRecentPrice = Math.max(...recentHistory.map((history) => history.price));
-        if (bestPrice < maxRecentPrice * 0.9) {
-          const percentageDrop = Math.round(((maxRecentPrice - bestPrice) / maxRecentPrice) * 100);
-          badges.push({ type: 'deal', text: t('productCard.priceDrop', { percent: percentageDrop }) });
-        }
-      }
-    } else if (isCatalogDeal(product)) {
+    if (isCatalogDeal(product)) {
       badges.push({ type: 'deal', text: product.dealTag || t('productCard.blackFriday') });
     }
 

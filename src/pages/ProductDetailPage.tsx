@@ -8,7 +8,6 @@ import ProductCarousel from '../components/home/ProductCarousel';
 import { Navigate } from 'react-router-dom';
 import { useSEO } from '../hooks/useSEO';
 import { preloadLoginModal } from '../utils/deferredOverlays';
-import { calculateRetailPrice } from '../utils/pricing';
 import { useProductDetail, SectionType } from '../hooks/useProductDetail';
 import { services } from '../services/ServiceContainer';
 
@@ -17,8 +16,6 @@ import { DetailGallery } from '../components/product/detail/DetailGallery';
 import { DescriptionTab } from '../components/product/detail/DescriptionTab';
 import { ReviewsTab } from '../components/product/detail/ReviewsTab';
 import { SpecsTab } from '../components/product/detail/SpecsTab';
-import { AITab } from '../components/product/detail/AITab';
-import { PriceHistoryChartFallback } from '../components/product/detail/PriceHistoryChartFallback';
 
 const ProductDetailPage: React.FC = () => {
   const { loading, user, isAuthenticated, addToCart, setIsLoginModalOpen, setView } = useContext(AppContext);
@@ -28,8 +25,6 @@ const ProductDetailPage: React.FC = () => {
   const {
     product,
     isLiked,
-    aiSummary,
-    isSummaryLoading,
     currentImageIndex,
     setCurrentImageIndex,
     activeTab,
@@ -112,11 +107,9 @@ const ProductDetailPage: React.FC = () => {
   const renderActiveTab = () => {
     switch (activeTab) {
       case 'description':
-        return <DescriptionTab product={product} user={user} formatPrice={formatPrice} internalBestPrice={internalBestPrice} PriceHistoryChartFallback={PriceHistoryChartFallback} t={t} calculateRetailPrice={calculateRetailPrice} />;
+        return <DescriptionTab product={product} user={user} formatPrice={formatPrice} internalBestPrice={internalBestPrice} t={t} />;
       case 'specs':
         return <SpecsTab specs={product.specs} t={t} />;
-      case 'ai':
-        return <AITab aiSummary={aiSummary} isSummaryLoading={isSummaryLoading} t={t} />;
       case 'reviews':
         return <ReviewsTab product={product} approvedReviews={approvedReviews} isAuthenticated={isAuthenticated} user={user} handleLoginPrompt={handleLoginPrompt} t={t} />;
       default:
@@ -241,7 +234,6 @@ const ProductDetailPage: React.FC = () => {
           {[
             { id: 'description', label: t('detail.overview'), icon: 'fa-align-left' },
             { id: 'specs', label: t('detail.specifications'), icon: 'fa-microchip' },
-            { id: 'ai', label: t('detail.aiInsights'), icon: 'fa-wand-magic-sparkles' },
             { id: 'reviews', label: t('detail.reviewsTab'), icon: 'fa-comments' },
           ].map(tab => (
             <button key={tab.id} className={`flex-1 flex justify-center items-center gap-2 py-2 px-3 rounded-lg font-bold text-xs transition-all duration-300 ${activeTab === tab.id ? 'bg-base-100 shadow text-primary' : 'text-base-content/50 hover:bg-base-100/50 hover:text-base-content'}`} onClick={() => { setActiveTab(tab.id as SectionType); if (window.innerWidth < 768) document.getElementById('details-content')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}><i className={`fa-solid ${tab.icon} hidden sm:block`}></i> {tab.label}</button>
