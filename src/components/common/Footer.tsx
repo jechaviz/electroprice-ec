@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom bar */}
         <div className="border-t border-base-content/5 mt-10 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-base-content/30">&copy; {new Date().getFullYear()} ElectroPrice Technologies AB — {t('footer.rightsReserved')}</p>
+          <p className="text-xs text-base-content/30">&copy; {new Date().getFullYear()} ElectroPrice — {t('footer.rightsReserved')}</p>
           <div className="flex gap-5">
             {['twitter', 'youtube', 'facebook'].map(social => (
               <a key={social} className="text-base-content/30 hover:text-primary hover:scale-110 transition-all duration-300 cursor-pointer">
