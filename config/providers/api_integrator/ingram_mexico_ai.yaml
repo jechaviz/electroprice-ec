@@ -179,7 +179,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/catalog
+            url: {{ingram_api_base}}/resellers/v6/catalog
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Accept: application/json
@@ -201,7 +201,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/catalog/details/{{ingramPartNumber}}
+            url: {{ingram_api_base}}/resellers/v6/catalog/details/{{ingramPartNumber}}
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Accept: application/json
@@ -219,7 +219,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/catalog/priceandavailability
+            url: {{ingram_api_base}}/resellers/v6/catalog/priceandavailability
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Content-Type: application/json
@@ -243,7 +243,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/orders
+            url: {{ingram_api_base}}/resellers/v6/orders
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Content-Type: application/json
@@ -263,7 +263,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v7/orders
+            url: {{ingram_api_base}}/resellers/v7/orders
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Content-Type: application/json
@@ -283,7 +283,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/orders/{{orderNumber}}
+            url: {{ingram_api_base}}/resellers/v6/orders/{{orderNumber}}
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Accept: application/json
@@ -301,7 +301,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/orders/search
+            url: {{ingram_api_base}}/resellers/v6/orders/search
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Content-Type: application/json
@@ -321,7 +321,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/quotes/search
+            url: {{ingram_api_base}}/resellers/v6/quotes/search
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Content-Type: application/json
@@ -341,7 +341,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/quotes/{{quoteNumber}}
+            url: {{ingram_api_base}}/resellers/v6/quotes/{{quoteNumber}}
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Accept: application/json
@@ -359,7 +359,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/q2o/validatequote
+            url: {{ingram_api_base}}/resellers/v6/q2o/validatequote
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Content-Type: application/json
@@ -379,7 +379,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/invoices/{{invoiceNumber}}
+            url: {{ingram_api_base}}/resellers/v6/invoices/{{invoiceNumber}}
             headers:
               Authorization: Bearer {{ingram_access_token}}
               Accept: application/json
@@ -396,7 +396,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/invoices/
+            url: {{ingram_api_base}}/resellers/v6/invoices/
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             query: {invoiceDateFrom: "{{invoiceDateFrom}}", invoiceDateTo: "{{invoiceDateTo}}", page: "{{page}}", size: "{{size}}"}
 
@@ -408,7 +408,7 @@ actions:
       - perform:
           action: http.put
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/orders/{{orderNumber}}
+            url: {{ingram_api_base}}/resellers/v6/orders/{{orderNumber}}
             headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             query: {actionCode: "{{actionCode}}"}
             body: "{{ingram_order_modify_payload}}"
@@ -421,7 +421,7 @@ actions:
       - perform:
           action: http.delete
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/orders/{{orderNumber}}
+            url: {{ingram_api_base}}/resellers/v6/orders/{{orderNumber}}
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
 
   ingram_renewals_search:
@@ -432,7 +432,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/renewals/search
+            url: {{ingram_api_base}}/resellers/v6/renewals/search
             headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             body: "{{ingram_renewals_search_payload}}"
 
@@ -444,7 +444,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/renewals/{{renewalId}}
+            url: {{ingram_api_base}}/resellers/v6/renewals/{{renewalId}}
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
 
   ingram_deals_search:
@@ -455,7 +455,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/deals/search
+            url: {{ingram_api_base}}/resellers/v6/deals/search
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             query: {endUserName: "{{endUserName}}", vendorName: "{{vendorName}}", dealId: "{{dealId}}", pageNumber: "{{pageNumber}}", pageSize: "{{pageSize}}"}
 
@@ -467,7 +467,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/deals/{{dealId}}
+            url: {{ingram_api_base}}/resellers/v6/deals/{{dealId}}
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
 
   ingram_returns_search:
@@ -478,7 +478,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/returns/search
+            url: {{ingram_api_base}}/resellers/v6/returns/search
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             query: {referenceNumber: "{{referenceNumber}}", pageNumber: "{{pageNumber}}", pageSize: "{{pageSize}}"}
 
@@ -490,7 +490,7 @@ actions:
       - perform:
           action: http.get
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/returns/{{caseRequestNumber}}
+            url: {{ingram_api_base}}/resellers/v6/returns/{{caseRequestNumber}}
             headers: {Authorization: "Bearer {{ingram_access_token}}", Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
 
   ingram_return_create:
@@ -501,7 +501,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/returns/create
+            url: {{ingram_api_base}}/resellers/v6/returns/create
             headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             body: "{{ingram_return_create_payload}}"
 
@@ -513,7 +513,7 @@ actions:
       - perform:
           action: http.post
           data:
-            url: https://api.ingrammicro.com:443/resellers/v6/freightestimate
+            url: {{ingram_api_base}}/resellers/v6/freightestimate
             headers: {Authorization: "Bearer {{ingram_access_token}}", Content-Type: application/json, Accept: application/json, IM-CustomerNumber: "{{ingram_customer_number}}", IM-CountryCode: "{{ingram_country_code}}", IM-CorrelationID: "{{ingram_correlation_id}}", IM-SenderID: "{{ingram_sender_id}}"}
             body: "{{ingram_freight_payload}}"
 
@@ -558,6 +558,13 @@ vars:
   ingram_correlation_id:
     from: env
     name: INGRAM_CORRELATION_ID
+  # Base for all reseller resource calls (NOT the OAuth token endpoint, which is
+  # env-agnostic). Defaults to production. For the sandbox org, set this to
+  # https://api.ingrammicro.com:443/sandbox once the SandboxApp is approved and the
+  # exact sandbox proxy path is confirmed (both bases currently resolve to a proxy
+  # but return InvalidAPICallAsNoApiProductMatchFound while the app is In Review).
+  # Overridable per environment via the INGRAM_API_BASE env var at deploy time.
+  ingram_api_base: https://api.ingrammicro.com:443
   ingram_country_code: MX
   keyword: ""
   pageNumber: "1"
