@@ -39,7 +39,11 @@ fn hook_google_auth(cfg pbm.Config, req pbm.Request) pbm.Response {
 	}
 
 	db := pbm.new_db(cfg)
-	user_id := upsert_google_user(db, email, pbm.any_str(info, 'name')) or {
+	// `picture` is the standard OIDC avatar claim from Google; persist it so the
+	// frontend (mappers.ts reads `avatar_url`) shows the real Google photo instead
+	// of the pravatar placeholder.
+	user_id := upsert_google_user(db, email, pbm.any_str(info, 'name'), pbm.any_str(info,
+		'picture')) or {
 		return pbm.error_response(500, 'Failed to provision user.')
 	}
 	rec := load_record(db, 'app_records', 'users', user_id) or {
@@ -50,13 +54,30 @@ fn hook_google_auth(cfg pbm.Config, req pbm.Request) pbm.Response {
 	return pbm.json_response(200, '{"token":${pbm.json_string(token)},"record":${record}}')
 }
 
-fn upsert_google_user(db pbm.Db, email string, name string) ?string {
+fn upsert_google_user(db pbm.Db, email string, name string, avatar string) ?string {
 	path := '\$."email"'
 	rows := db.query('SELECT `id` FROM `app_records` WHERE `collection`=${pbm.sql_quote('users')} AND JSON_UNQUOTE(JSON_EXTRACT(`data`, ${pbm.sql_quote(path)}))=${pbm.sql_quote(email)} LIMIT 1') or {
 		return none
 	}
 	if rows.len > 0 && rows[0].len > 0 {
-		return rows[0][0]
+		existing_id := rows[0][0]
+		// Returning user: refresh the Google profile in place. The avatar URL can
+		// change, and accounts created before avatar capture have none — patch the
+		// fields inside the JSON `data` column with JSON_SET. Only overwrite the
+		// avatar when Google actually returned one, so we never blank an existing.
+		now := pbm.pb_now()
+		mut pairs := []string{}
+		if avatar != '' {
+			pairs << "${pbm.sql_quote('\$."avatar_url"')}, ${pbm.sql_quote(avatar)}"
+		}
+		if name != '' {
+			pairs << "${pbm.sql_quote('\$."name"')}, ${pbm.sql_quote(name)}"
+		}
+		pairs << "${pbm.sql_quote('\$."updated"')}, ${pbm.sql_quote(now)}"
+		db.exec('UPDATE `app_records` SET `data` = JSON_SET(`data`, ${pairs.join(', ')}), `updated`=${pbm.sql_quote(pbm.mysql_dt())} WHERE `collection`=${pbm.sql_quote('users')} AND `id`=${pbm.sql_quote(existing_id)}') or {
+			return none
+		}
+		return existing_id
 	}
 	id := pbm.gen_id()
 	now := pbm.pb_now()
@@ -64,6 +85,7 @@ fn upsert_google_user(db pbm.Db, email string, name string) ?string {
 	m['id'] = json2.Any(id)
 	m['email'] = json2.Any(email)
 	m['name'] = json2.Any(name)
+	m['avatar_url'] = json2.Any(avatar)
 	m['role'] = json2.Any('user')
 	m['verified'] = json2.Any(true)
 	m['created'] = json2.Any(now)
