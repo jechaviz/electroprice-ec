@@ -15,7 +15,44 @@ import { PaymentService } from "./PaymentService";
 import { services } from "./ServiceContainer";
 import { ProductCatalogService } from "./ProductCatalogService";
 import { createCartLineId, getCartItemKey, normalizeSelectedOptions } from "../utils/cartLine";
-import type { CartItem, Order, OrderItem, OrderStatus } from "../types";
+import type { CartItem, Order, OrderItem, OrderStatus, Product, WholesalerStock } from "../types";
+
+interface CheckoutCommitProduct {
+    id: string;
+    wholesalerStock: WholesalerStock[];
+    bestPrice?: number | null;
+    totalStock?: number;
+    isDeal?: boolean;
+    indexedAt?: string;
+}
+
+interface CheckoutCommitResponse {
+    orderId: string;
+    products?: CheckoutCommitProduct[];
+    orderIds?: string[];
+}
+
+const applyCommittedProductStock = (
+    products: Product[],
+    committedProducts: CheckoutCommitProduct[] = []
+): Product[] => {
+    if (committedProducts.length === 0) return products;
+
+    const updates = new Map(committedProducts.map(product => [product.id, product]));
+    return products.map(product => {
+        const update = updates.get(product.id);
+        if (!update) return product;
+
+        return {
+            ...product,
+            wholesalerStock: update.wholesalerStock,
+            bestPrice: update.bestPrice ?? product.bestPrice,
+            totalStock: update.totalStock ?? product.totalStock,
+            isDeal: update.isDeal ?? product.isDeal,
+            indexedAt: update.indexedAt ?? product.indexedAt,
+        };
+    });
+};
 
 export class CartService {
     static async addToCart(productId: string, quantity: number, selectedOptions: Record<string, string> = {}) {
@@ -242,20 +279,13 @@ export class CartService {
             });
             const newOrderId = createdOrder.id;
 
-            const stockUpdatePromises = [...new Set(newOrderItems.map(item => item.productId))].map(productId => {
-                const productToUpdate = productsWithUpdatedStock.find(p => p.id === productId);
-                if (!productToUpdate) return Promise.resolve();
-                return pb.collection('products').update(productId, {
-                    wholesaler_stock: productToUpdate.wholesalerStock,
-                    ...ProductCatalogService.productIndexPayload(productToUpdate)
-                });
+            const commit = await pb.send(`/api/electroprice/checkout/orders/${encodeURIComponent(newOrderId)}/commit`, {
+                method: 'POST',
+                requestKey: null,
             });
-            await Promise.all(stockUpdatePromises);
-            
-            await pb.collection('users').update(user.id, {
-                cart: [],
-                order_ids: [...user.orderIds, newOrderId]
-            });
+            const checkoutCommit = commit as CheckoutCommitResponse;
+            const committedProducts = applyCommittedProductStock(productsWithUpdatedStock, checkoutCommit.products);
+            const committedOrderIds = checkoutCommit.orderIds ?? [...user.orderIds, newOrderId];
 
             const newOrder: Order = {
                 id: newOrderId,
@@ -287,11 +317,12 @@ export class CartService {
             }
 
             // Update signals
-            productsSignal.value = productsWithUpdatedStock;
+            productsSignal.value = committedProducts;
             ordersSignal.value = [...ordersSignal.value, activeOrder];
-            currentUserSignal.value = { ...user, cart: [], orderIds: [...user.orderIds, newOrderId] };
+            currentUserSignal.value = { ...user, cart: [], orderIds: committedOrderIds };
 
-            NotificationService.success('¡Pedido realizado con éxito!');
+            // Persistent bell notification — an order is worth keeping/revisiting.
+            NotificationService.notify('Pedido', '¡Pedido realizado con éxito!', 'order', `/order/${newOrderId}`);
             services.analytics.trackPurchase(newOrderId, total, newOrderItems.length);
             orderIdSignal.value = newOrderId;
             viewSignal.value = 'orderDetail';
@@ -315,7 +346,7 @@ export class CartService {
             await pb.collection('orders').update(orderId, { status });
             ordersSignal.value = ordersSignal.value.map(o => o.id === orderId ? { ...o, status } : o);
             if (user?.role === 'admin') {
-                NotificationService.success(`Order ${orderId} status updated to ${status}.`);
+                NotificationService.notify('Pedido', `Pedido ${orderId} → ${status}`, 'order', `/order/${orderId}`);
             }
             return true;
         } catch (e) {

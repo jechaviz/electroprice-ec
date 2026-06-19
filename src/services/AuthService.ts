@@ -62,7 +62,8 @@ export class AuthService {
                 body: { credential },
             }) as { token: string; record: any };
             pb.authStore.save(result.token, result.record);
-            NotificationService.success('¡Sesión iniciada con Google!');
+            // No sign-in notification: logging in isn't a notable event (the
+            // avatar/header updating is the feedback). Errors below still toast.
         } catch (error: any) {
             console.error('Error signing in with Google:', error);
             NotificationService.error(error?.message || 'No se pudo iniciar sesión con Google.');
