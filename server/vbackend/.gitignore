@@ -2,3 +2,6 @@
 *.c
 pbm-vbackend
 spike
+
+# Vendored build-time header (copied from the V toolchain by build.sh)
+v_recover.h
