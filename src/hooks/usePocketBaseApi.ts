@@ -28,7 +28,11 @@ export const usePocketBaseApi = () => {
       const records = await pb.collection('products').getList(1, 24, {
         filter: filter,
         sort: '-review_count,-created',
-        skipTotal: true
+        skipTotal: true,
+        // Hard timeout so a slow/hanging backend can never leave the catalog
+        // spinning forever — abort after 15s, surface the error, and let the UI
+        // recover instead of an infinite loading state.
+        signal: AbortSignal.timeout(15000)
       });
 
       return records.items.map(mapProductRecord) as Product[];
@@ -48,7 +52,8 @@ export const usePocketBaseApi = () => {
     try {
       const pb = await loadPocketBase();
       const record = await pb.collection('products').getOne(id, {
-        expand: 'reviews_via_product' // Assuming a back-relation named this way or handle reviews separately
+        expand: 'reviews_via_product', // Assuming a back-relation named this way or handle reviews separately
+        signal: AbortSignal.timeout(15000)
       });
       
       if (record) {
