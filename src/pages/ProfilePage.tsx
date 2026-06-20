@@ -2,6 +2,7 @@ import React, { useContext, useMemo, useState } from 'react';
 import { AppContext } from '../contexts/AppContext';
 import { useTranslation } from '../hooks/useTranslation';
 import { OrderStatus } from '../types';
+import ImageWithFallback from '../components/common/ImageWithFallback';
 import { OverviewTab } from '../components/profile/OverviewTab';
 import { OrdersTab } from '../components/profile/OrdersTab';
 import { FavoritesTab } from '../components/profile/FavoritesTab';
@@ -125,7 +126,7 @@ const ProfilePage: React.FC = () => {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div className="flex items-center gap-4">
-              <img src={user.avatarUrl} alt="" className="h-20 w-20 rounded-lg object-cover ring-1 ring-base-content/10" />
+              <ImageWithFallback src={user.avatarUrl} alt="" className="h-20 w-20 rounded-lg object-cover ring-1 ring-base-content/10" />
               <div>
                 <p className="mb-2 text-xs font-black uppercase tracking-[0.24em] text-primary">{t('profile.kicker')}</p>
                 <h1 className="display text-3xl font-black tracking-tight md:text-4xl">{user.name}</h1>

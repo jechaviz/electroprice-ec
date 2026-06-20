@@ -58,20 +58,20 @@ export class CartService {
     static async addToCart(productId: string, quantity: number, selectedOptions: Record<string, string> = {}) {
         const user = currentUserSignal.value;
         if (!user || user.role !== 'user') {
-            NotificationService.error('Please sign in as a customer to shop.');
+            NotificationService.error('Inicia sesión como cliente para comprar.');
             return;
         }
 
         const requestedQuantity = Math.floor(quantity);
         if (!Number.isFinite(requestedQuantity) || requestedQuantity < 1) {
-            NotificationService.error('Quantity must be at least 1.');
+            NotificationService.error('La cantidad debe ser al menos 1.');
             return;
         }
         const products = productsSignal.value;
         const product = products.find(p => p.id === productId) ?? await ProductCatalogService.fetchProductDetail(productId);
 
         if (!product) {
-            NotificationService.error('Product not found.');
+            NotificationService.error('Producto no encontrado.');
             return;
         }
 
@@ -79,7 +79,7 @@ export class CartService {
         const totalAvailableStock = availableStock.reduce((sum, ws) => sum + ws.stock, 0);
 
         if (availableStock.length === 0) {
-            NotificationService.error('This product is out of stock.');
+            NotificationService.error('Producto agotado.');
             return;
         }
 
@@ -93,7 +93,7 @@ export class CartService {
         const nextQuantityForProduct = quantityAlreadyInCart + requestedQuantity;
 
         if (nextQuantityForProduct > totalAvailableStock) {
-            NotificationService.error(`Only ${totalAvailableStock} units are available.`);
+            NotificationService.error(`Solo hay ${totalAvailableStock} unidades disponibles.`);
             return;
         }
 
@@ -146,7 +146,7 @@ export class CartService {
         }
 
         if (!product && requestedQuantity > targetItem.quantity) {
-            NotificationService.error('Could not verify product stock.');
+            NotificationService.error('No se pudo verificar el stock.');
             return;
         }
 
@@ -156,7 +156,7 @@ export class CartService {
             .reduce((sum, item) => sum + item.quantity, 0);
 
         if (quantityAlreadyInOtherLines + requestedQuantity > totalAvailableStock) {
-            NotificationService.error(`Only ${totalAvailableStock} units are available.`);
+            NotificationService.error(`Solo hay ${totalAvailableStock} unidades disponibles.`);
             return;
         }
 
@@ -204,7 +204,7 @@ export class CartService {
     static async placeOrder(shippingAddress: string, sandboxCardId?: string) {
         const user = currentUserSignal.value;
         if (!user || user.role !== 'user' || user.cart.length === 0) {
-            NotificationService.error('Cannot place order.');
+            NotificationService.error('No se pudo realizar el pedido.');
             return;
         }
 
@@ -351,7 +351,7 @@ export class CartService {
             return true;
         } catch (e) {
             console.error(e);
-            NotificationService.error('Failed to update order status.');
+            NotificationService.error('No se pudo actualizar el estado del pedido.');
             return false;
         }
     }

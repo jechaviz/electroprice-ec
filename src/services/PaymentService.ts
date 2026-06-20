@@ -52,12 +52,21 @@ export const SANDBOX_PAYMENT_CARDS: SandboxPaymentCard[] = [
 ];
 
 const normalizeCardNumber = (cardNumber: string) => cardNumber.replace(/\D/g, '');
+const sandboxPaymentsEnabled = () => (
+    import.meta.env.MODE === 'test'
+    || import.meta.env.DEV
+    || import.meta.env.VITE_ENABLE_SANDBOX_PAYMENTS === 'true'
+);
 const simulateDelay = (ms: number) => {
     if (import.meta.env.MODE === 'test') return Promise.resolve();
     return new Promise(resolve => setTimeout(resolve, ms));
 };
 
 export class PaymentService {
+    static isSandboxPaymentEnabled() {
+        return sandboxPaymentsEnabled();
+    }
+
     static getSandboxCards(): SandboxPaymentCard[] {
         return SANDBOX_PAYMENT_CARDS;
     }
@@ -71,11 +80,15 @@ export class PaymentService {
     }
 
     static async processRetailPayment(amount: number, sandboxCardId?: string): Promise<PaymentIntent> {
+        if (!sandboxPaymentsEnabled()) {
+            throw new Error("Sandbox payments are disabled. Configure a server-side payment provider before accepting checkout.");
+        }
+
         const card = this.resolveSandboxCard(sandboxCardId);
         await simulateDelay(1500);
 
         if (card.scenario === 'decline') {
-            NotificationService.error("Card declined");
+            NotificationService.error("Tarjeta rechazada");
             throw new Error("Payment was not successful.");
         }
 
@@ -94,6 +107,10 @@ export class PaymentService {
         amount: number;
         paymentIntentId?: string;
     }): Promise<RefundResult> {
+        if (!sandboxPaymentsEnabled()) {
+            throw new Error("Sandbox refunds are disabled. Configure a server-side payment provider before issuing refunds.");
+        }
+
         await simulateDelay(350);
         return {
             id: `rf_${input.orderId}_${Math.random().toString(36).slice(2, 7)}`,
@@ -112,7 +129,7 @@ export class PaymentService {
     }): Promise<WholesalePaymentResult> {
         await simulateDelay(350);
 
-        if (input.runtime === 'manual') {
+        if (input.runtime === 'manual' || !sandboxPaymentsEnabled()) {
             return {
                 id: `wp_${input.purchaseOrderId}`,
                 providerId: input.providerId,

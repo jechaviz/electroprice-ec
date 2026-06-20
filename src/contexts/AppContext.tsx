@@ -174,7 +174,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       usersSignal.value = [];
       ordersSignal.value = [];
       viewSignal.value = 'home';
-      services.notification.success('You have been logged out.');
+      services.notification.success('Sesión cerrada.');
       navigate('/');
    }, [navigate]);
 

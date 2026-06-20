@@ -55,7 +55,7 @@ const SettingsPage: React.FC = () => {
             exchangeRateMarkup: localFinancial.exchangeRateMarkup / 100,
         });
         CurrencyService.recalculateEffectiveRates();
-        services.notification.success("Financial settings saved successfully.");
+        services.notification.success("Configuración financiera guardada.");
     };
 
     return (

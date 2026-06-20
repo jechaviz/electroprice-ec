@@ -6,7 +6,7 @@ export class DemoService {
      * Generates a massive amount of demo data for presentation.
      */
     generateDemoData() {
-        NotificationService.success("Starting Demo Data Generation...");
+        NotificationService.success("Generando datos de demostración...");
 
         // Generate 50 Users
         const demoUsers = Array.from({ length: 50 }).map((_, i) => ({
@@ -38,7 +38,7 @@ export class DemoService {
         usersSignal.value = [...usersSignal.value, ...demoUsers as any];
         ordersSignal.value = [...ordersSignal.value, ...demoOrders as any];
 
-        NotificationService.success("Demo Data Generated Successfully!");
+        NotificationService.success("¡Datos de demostración generados!");
     }
 
     clearDemoData() {

@@ -46,7 +46,7 @@ export class CampaignService {
             return parseJsonBlock(await this.ai.generateText(prompt), fallback);
         } catch (error) {
             console.error("AI Generation failed:", error);
-            NotificationService.error("AI assistant is currently busy. Using fallback copy.");
+            NotificationService.error("El asistente de IA está ocupado. Usando texto alterno.");
             return {
                 slogan: `Elevate your life with ${productName}`,
                 copy: `Limited time offer on the latest ${brand} technology.`,

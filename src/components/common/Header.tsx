@@ -6,6 +6,7 @@ import { useTranslation } from '../../hooks/useTranslation';
 import SettingsBar from './SettingsBar';
 import CategoryNav from './CategoryNav';
 import NotificationBell from './NotificationBell';
+import ImageWithFallback from './ImageWithFallback';
 import { preloadCartDrawer, preloadLoginModal } from '../../utils/deferredOverlays';
 import { cartItemCountSignal } from '../../signals/auth.signals';
 import { siteNameSignal, logoUrlSignal } from '../../signals/branding.signals';
@@ -187,7 +188,7 @@ const Header: React.FC = () => {
                 <button type="button" tabIndex={0} className="btn btn-ghost rounded-full px-2 gap-2 hover:bg-primary/5 transition-all outline-none border border-transparent hover:border-base-content/10" aria-label={t('header.profileMenu')}>
                   <div className="avatar">
                     <div className="w-8 rounded-full ring-2 ring-primary/20">
-                      <img alt={user.name} src={user.avatarUrl} />
+                      <ImageWithFallback alt={user.name} src={user.avatarUrl} />
                     </div>
                   </div>
                   <div className="hidden md:flex flex-col items-start leading-none text-left">

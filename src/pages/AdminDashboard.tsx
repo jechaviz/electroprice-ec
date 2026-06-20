@@ -4,6 +4,7 @@ import { useTranslation } from '../hooks/useTranslation';
 import type { OrderStatus, Product } from '../types';
 import { useCurrency } from '../contexts/CurrencyContext';
 import { OrderRow, ReviewModerationItem, EmptyState } from '../components/admin/AdminComponents';
+import ImageWithFallback from '../components/common/ImageWithFallback';
 import { OverviewTab } from '../components/admin/tabs/OverviewTab';
 import { services } from '../services/ServiceContainer';
 import { SubshoppingTab } from '../components/admin/tabs/SubshoppingTab';
@@ -112,7 +113,7 @@ const AdminDashboard: React.FC = () => {
                   className="btn btn-primary btn-sm rounded-xl font-black uppercase tracking-widest text-[10px]"
                 >
                   <i className="fa-solid fa-download mr-2"></i>
-                  Export CSV
+                  {t('adminDashboard.users.exportCsv')}
                 </button>
               </div>
               <div className="table-responsive">
@@ -121,7 +122,7 @@ const AdminDashboard: React.FC = () => {
                   <tbody>
                     {users.map(u => (
                       <tr key={u.id} className="border-b border-base-content/5 last:border-0 hover:bg-base-300/25">
-                        <td className="pl-4 flex items-center gap-3"><img src={u.avatarUrl} alt="" className="h-8 w-8 rounded-full object-cover" /><span className="font-bold">{u.name}</span></td>
+                        <td className="pl-4 flex items-center gap-3"><ImageWithFallback src={u.avatarUrl} alt="" className="h-8 w-8 rounded-full object-cover" /><span className="font-bold">{u.name}</span></td>
                         <td>{u.email}</td>
                         <td className="capitalize font-semibold text-base-content/60">{t(`adminDashboard.roles.${u.role}`)}</td>
                         <td><span className={`inline-flex rounded-full px-2.5 py-1 text-xs font-bold ${u.status === 'active' ? 'bg-success/15 text-success' : 'bg-error/15 text-error'}`}>{u.status}</span></td>
@@ -131,17 +132,17 @@ const AdminDashboard: React.FC = () => {
                                     onClick={() => services.user.updateUserStatus(u.id, u.status === 'active' ? 'banned' : 'active')}
                                     className={`btn btn-xs rounded-lg font-black uppercase tracking-widest text-[9px] ${u.status === 'active' ? 'btn-error btn-ghost hover:bg-error/10' : 'btn-success btn-ghost hover:bg-success/10'}`}
                                 >
-                                    {u.status === 'active' ? 'Ban' : 'Unban'}
+                                    {u.status === 'active' ? t('adminDashboard.users.ban') : t('adminDashboard.users.unban')}
                                 </button>
-                                <select 
+                                <select
                                     className="select select-xs select-bordered bg-base-300/50 rounded-lg font-black uppercase tracking-widest text-[9px]"
                                     value={u.role}
                                     onChange={(e) => services.user.updateUserRole?.(u.id, e.target.value as typeof u.role)}
                                 >
-                                    <option value="user">User</option>
-                                    <option value="retailer">Retailer</option>
-                                    <option value="wholesaler">Wholesaler</option>
-                                    <option value="admin">Admin</option>
+                                    <option value="user">{t('adminDashboard.roles.user')}</option>
+                                    <option value="retailer">{t('adminDashboard.roles.retailer')}</option>
+                                    <option value="wholesaler">{t('adminDashboard.roles.wholesaler')}</option>
+                                    <option value="admin">{t('adminDashboard.roles.admin')}</option>
                                 </select>
                             </div>
                          </td>

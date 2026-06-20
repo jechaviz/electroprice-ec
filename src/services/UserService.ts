@@ -13,7 +13,7 @@ export class UserService {
     static async toggleFavorite(productId: string) {
         const user = currentUserSignal.value;
         if (!user || user.role !== 'user') {
-            NotificationService.error("Only customers can add favorites.");
+            NotificationService.error("Solo los clientes pueden agregar favoritos.");
             return;
         }
 
@@ -30,7 +30,7 @@ export class UserService {
             NotificationService.success(isFavorite ? 'Removed from favorites' : 'Added to favorites!');
         } catch (e) {
             console.error(e);
-            NotificationService.error("Failed to update favorites.");
+            NotificationService.error("No se pudieron actualizar los favoritos.");
             currentUserSignal.value = user; // Revert
         }
     }
@@ -38,7 +38,7 @@ export class UserService {
     static async addReview(reviewData: Omit<Review, 'id' | 'author' | 'authorId' | 'date'>) {
         const user = currentUserSignal.value;
         if (!user || user.role !== 'user') {
-            NotificationService.error("Only customers can write reviews.");
+            NotificationService.error("Solo los clientes pueden escribir reseñas.");
             return;
         }
 
@@ -88,7 +88,7 @@ export class UserService {
         } catch (e) {
             console.error(e);
             reviewsSignal.value = reviewsSignal.value.filter(review => review.id !== optimisticId);
-            NotificationService.error('Failed to submit review.');
+            NotificationService.error('No se pudo enviar la reseña.');
         }
     }
 
@@ -103,7 +103,7 @@ export class UserService {
             await pb.collection('users').update(userId, { status });
             NotificationService.success(`User status updated to ${status}.`);
         } catch (e) {
-            NotificationService.error('Failed to update user status.');
+            NotificationService.error('No se pudo actualizar el estado del usuario.');
         }
     }
 
@@ -118,7 +118,7 @@ export class UserService {
             await pb.collection('users').update(userId, { role });
             NotificationService.success(`User role updated to ${role}.`);
         } catch (e) {
-            NotificationService.error('Failed to update user role.');
+            NotificationService.error('No se pudo actualizar el rol del usuario.');
         }
     }
 
@@ -133,7 +133,7 @@ export class UserService {
             await pb.collection('reviews').update(reviewId, { status });
             NotificationService.success(`Review ${status}.`);
         } catch (e) {
-            NotificationService.error('Failed to update review.');
+            NotificationService.error('No se pudo actualizar la reseña.');
         }
     }
 
@@ -163,14 +163,23 @@ export class UserService {
 
         try {
             const pb = await loadPocketBase();
-            await pb.collection('products').update(productId, {
-                wholesaler_stock: productToUpdate.wholesalerStock,
-                ...ProductCatalogService.productIndexPayload(productToUpdate)
+            const updated = await pb.send(`/api/electroprice/retailer/products/${encodeURIComponent(productId)}/stock`, {
+                method: 'PATCH',
+                body: { price, stock }
             });
-            NotificationService.success('Listing updated successfully!');
+            const fallbackIndex = ProductCatalogService.productIndexPayload(productToUpdate);
+            productsSignal.value = productsSignal.value.map(p => p.id === productId ? {
+                ...p,
+                wholesalerStock: updated.wholesalerStock ?? productToUpdate.wholesalerStock,
+                bestPrice: updated.bestPrice ?? fallbackIndex.best_price,
+                totalStock: updated.totalStock ?? fallbackIndex.total_stock,
+                isDeal: updated.isDeal ?? fallbackIndex.is_deal,
+                indexedAt: updated.indexedAt ?? fallbackIndex.indexed_at,
+            } : p);
+            NotificationService.success('¡Publicación actualizada!');
         } catch (e) {
             console.error('Failed to update product price:', e);
-            NotificationService.error('Failed to update listing.');
+            NotificationService.error('No se pudo actualizar la publicación.');
             productsSignal.value = originalProducts;
         }
     }
@@ -209,9 +218,9 @@ export class UserService {
                 email_secondary_1: sanitizedInfo.emailSecondary1,
                 email_secondary_2: sanitizedInfo.emailSecondary2
             });
-            NotificationService.success('Contact info updated successfully!');
+            NotificationService.success('¡Datos de contacto actualizados!');
         } catch (e) {
-            NotificationService.error('Failed to update contact info.');
+            NotificationService.error('No se pudieron actualizar los datos de contacto.');
             currentUserSignal.value = user;
         }
     }
@@ -225,10 +234,10 @@ export class UserService {
         try {
             const pb = await loadPocketBase();
             await pb.collection('users').update(user.id, { addresses: newAddresses });
-            NotificationService.success('Address added successfully!');
+            NotificationService.success('¡Dirección agregada!');
         } catch (e) {
             currentUserSignal.value = user;
-            NotificationService.error('Failed to add address.');
+            NotificationService.error('No se pudo agregar la dirección.');
         }
     }
 
@@ -243,7 +252,7 @@ export class UserService {
             NotificationService.success('Address removed.');
         } catch (e) {
             currentUserSignal.value = user;
-            NotificationService.error('Failed to remove address.');
+            NotificationService.error('No se pudo eliminar la dirección.');
         }
     }
 
@@ -259,7 +268,7 @@ export class UserService {
             NotificationService.success('Payment method added!');
         } catch (e) {
             currentUserSignal.value = user;
-            NotificationService.error('Failed to add payment method.');
+            NotificationService.error('No se pudo agregar el método de pago.');
         }
     }
 
@@ -274,7 +283,7 @@ export class UserService {
             NotificationService.success('Payment method removed.');
         } catch (e) {
             currentUserSignal.value = user;
-            NotificationService.error('Failed to remove payment method.');
+            NotificationService.error('No se pudo eliminar el método de pago.');
         }
     }
 }
