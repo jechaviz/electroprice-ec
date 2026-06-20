@@ -1,12 +1,33 @@
 import React, { useMemo } from 'react';
 import { EmptyState } from '../AdminComponents';
 import type { Supplier } from '../../../types';
+import { PROVIDER_INTEGRATIONS } from '../../../config/providerIntegrations';
 
 interface SuppliersTabProps {
   suppliers: Supplier[];
   formatDate: (date: string) => string;
   t: (key: string) => string;
 }
+
+// Provider statuses that mean the integration is live/ready vs still needing
+// onboarding or credentials.
+const ACTIVE_PROVIDER_STATUSES = new Set([
+  'active_runtime_config',
+  'validated_live_api_and_portal',
+  'api_spec_ready',
+]);
+
+// The `suppliers` signal isn't wired to a backend collection yet, so fall back to
+// the real provider-integration catalog (config/providers/catalog.json) — the
+// same sources the subshopping runtime drives — mapped to the Supplier shape.
+const providerSuppliers = (): Supplier[] =>
+  PROVIDER_INTEGRATIONS.map(p => ({
+    id: p.id,
+    name: p.name,
+    type: p.channels.includes('api') ? 'API' : 'Scraping',
+    status: ACTIVE_PROVIDER_STATUSES.has(p.status) ? 'Active' : 'Inactive',
+    lastSync: '',
+  }));
 
 const statusTone = (status: Supplier['status']): string =>
   status === 'Active' ? 'bg-success/15 text-success' : 'bg-base-content/10 text-base-content/50';
@@ -27,12 +48,16 @@ const relativeSync = (iso: string): string => {
 };
 
 export const SuppliersTab: React.FC<SuppliersTabProps> = ({ suppliers, formatDate, t }) => {
+  const rows = useMemo<Supplier[]>(
+    () => (suppliers.length > 0 ? suppliers : providerSuppliers()),
+    [suppliers],
+  );
   const stats = useMemo(() => {
-    const active = suppliers.filter(s => s.status === 'Active').length;
-    const api = suppliers.filter(s => s.type === 'API').length;
-    const scraping = suppliers.filter(s => s.type === 'Scraping').length;
-    return { total: suppliers.length, active, api, scraping };
-  }, [suppliers]);
+    const active = rows.filter(s => s.status === 'Active').length;
+    const api = rows.filter(s => s.type === 'API').length;
+    const scraping = rows.filter(s => s.type === 'Scraping').length;
+    return { total: rows.length, active, api, scraping };
+  }, [rows]);
 
   const metrics = [
     { label: t('adminDashboard.tabs.suppliers'), value: stats.total, icon: 'fa-boxes-packing', tone: 'text-primary' },
@@ -63,7 +88,7 @@ export const SuppliersTab: React.FC<SuppliersTabProps> = ({ suppliers, formatDat
           <p className="text-sm text-base-content/50">{t('adminDashboard.sections.channelHealth')}</p>
         </div>
         <div className="table-responsive">
-          {suppliers.length > 0 ? (
+          {rows.length > 0 ? (
             <table className="table w-full">
               <thead className="bg-base-300/45 text-xs uppercase tracking-wider text-base-content/50">
                 <tr>
@@ -74,7 +99,7 @@ export const SuppliersTab: React.FC<SuppliersTabProps> = ({ suppliers, formatDat
                 </tr>
               </thead>
               <tbody>
-                {suppliers.map(s => (
+                {rows.map(s => (
                   <tr key={s.id} className="border-b border-base-content/5 last:border-0 hover:bg-base-300/25">
                     <td className="pl-4 font-bold">{s.name}</td>
                     <td>
