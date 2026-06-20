@@ -5,13 +5,12 @@ import type { OrderStatus, Product } from '../types';
 import { useCurrency } from '../contexts/CurrencyContext';
 import { OrderRow, ReviewModerationItem, EmptyState } from '../components/admin/AdminComponents';
 import { OverviewTab } from '../components/admin/tabs/OverviewTab';
-import MetricCard from '../components/common/MetricCard';
-import FunnelChart from '../components/admin/FunnelChart';
 import { services } from '../services/ServiceContainer';
-import { conversionRateSignal } from '../signals/analytics.signals';
-import { totalOnlineUsersSignal } from '../signals/inventory.signals';
 import { SubshoppingTab } from '../components/admin/tabs/SubshoppingTab';
 import { ProductIntelTab } from '../components/admin/tabs/ProductIntelTab';
+import { AnalyticsTab } from '../components/admin/tabs/AnalyticsTab';
+import { SuppliersTab } from '../components/admin/tabs/SuppliersTab';
+import { WholesalersTab } from '../components/admin/tabs/WholesalersTab';
 
 type AdminTab = 'overview' | 'analytics' | 'orders' | 'subshopping' | 'productIntel' | 'users' | 'reviews' | 'suppliers' | 'wholesalers';
 
@@ -43,7 +42,7 @@ const getStatusTone = (status: OrderStatus) => {
 };
 
 const AdminDashboard: React.FC = () => {
-  const { user, users, reviews, products, orders, wholesalers, updateReviewStatus, updateOrderStatus } = useContext(AppContext);
+  const { user, users, reviews, products, orders, wholesalers, suppliers, updateReviewStatus, updateOrderStatus } = useContext(AppContext);
   const { t } = useTranslation();
   const { formatPrice } = useCurrency();
   const [activeTab, setActiveTab] = useState<AdminTab>('overview');
@@ -79,39 +78,7 @@ const AdminDashboard: React.FC = () => {
           )}
 
           {activeTab === 'analytics' && (
-             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <div className="lg:col-span-2 space-y-8">
-                    <section className="bg-base-200/60 rounded-3xl border border-base-content/10 p-8 shadow-xl backdrop-blur-md">
-                        <div className="mb-8 flex items-center justify-between">
-                            <div><h2 className="text-2xl font-black">Conversion Funnel</h2><p className="text-sm text-base-content/40 font-medium">Real-time analysis of the customer journey.</p></div>
-                            <div className="badge badge-primary font-black uppercase tracking-widest text-[10px] px-3 py-3">Live Feed</div>
-                        </div>
-                        <FunnelChart data={services.analytics.getConversionFunnel()} />
-                    </section>
-                </div>
-                <div className="space-y-6">
-                    <MetricCard title="Total Revenue" value={formatPrice(totalRevenue)} icon="fa-sack-dollar" color="success" />
-                    <MetricCard title="Live Visitors" value={totalOnlineUsersSignal.value.toLocaleString()} icon="fa-users" color="primary" trend={{ value: 5, isPositive: true }} />
-                    <MetricCard title="Global Conversion" value={`${conversionRateSignal.value.toFixed(2)}%`} icon="fa-percent" color="accent" />
-
-                    <section className="bg-error/5 border border-error/20 rounded-3xl p-6 backdrop-blur-md">
-                        <div className="flex items-center justify-between mb-4">
-                            <h3 className="text-xs font-black uppercase tracking-widest text-error">Security Risk Center</h3>
-                            <i className="fa-solid fa-shield-halved text-error animate-pulse"></i>
-                        </div>
-                        <div className="space-y-4">
-                            <div className="flex justify-between items-center">
-                                <span className="text-[10px] font-bold text-base-content/60 uppercase">Fraud Score</span>
-                                <span className="badge badge-error badge-sm font-black text-[10px]">MEDIUM</span>
-                            </div>
-                            <div className="h-2 w-full bg-base-300 rounded-full overflow-hidden">
-                                <div className="h-full bg-error transition-all duration-1000" style={{ width: '42%' }}></div>
-                            </div>
-                            <p className="text-[10px] text-error/60 font-medium">3 suspicious IPs flagged in the last 24h.</p>
-                        </div>
-                    </section>
-                </div>
-             </div>
+            <AnalyticsTab totalRevenue={totalRevenue} orders={orders} formatPrice={formatPrice} getStatusTone={getStatusTone} getOrderStatusLabel={getOrderStatusLabel} t={t} />
           )}
 
           {activeTab === 'orders' && (
@@ -193,6 +160,14 @@ const AdminDashboard: React.FC = () => {
                 {pendingReviews.length > 0 ? pendingReviews.map(review => <ReviewModerationItem key={review.id} review={review} products={products} users={users} formatDate={formatDate} updateReviewStatus={updateReviewStatus} t={t} />) : <div className="lg:col-span-2"><EmptyState icon="fa-shield-heart" text={t('adminDashboard.empty.reviews')} /></div>}
               </div>
             </section>
+          )}
+
+          {activeTab === 'suppliers' && (
+            <SuppliersTab suppliers={suppliers} formatDate={formatDate} t={t} />
+          )}
+
+          {activeTab === 'wholesalers' && (
+            <WholesalersTab wholesalers={wholesalers} products={products} formatPrice={formatPrice} getWholesalerSyncLabel={getWholesalerSyncLabel} t={t} />
           )}
         </main>
       </div>
