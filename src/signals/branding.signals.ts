@@ -14,7 +14,7 @@ const readStoredBranding = (): Record<string, string> => {
 const savedBranding = readStoredBranding();
 
 export const siteNameSignal = signal<string>(savedBranding.siteName || "ElectroPrice");
-export const siteTaglineSignal = signal<string>(savedBranding.tagline || "Premium Tech Marketplace");
+export const siteTaglineSignal = signal<string>(savedBranding.tagline || "Electrónica y tecnología");
 export const primaryColorSignal = signal<string>(savedBranding.primaryColor || "#7C3AED");
 export const logoUrlSignal = signal<string | null>(savedBranding.logoUrl || null);
 
