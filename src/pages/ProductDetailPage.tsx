@@ -61,9 +61,9 @@ const ProductDetailPage: React.FC = () => {
   }, [product]);
 
   useSEO({
-    title: product ? `${product.name} - ${product.brand}` : 'Product Details',
-    description: product?.description || 'View product details, prices, reviews, and AI-generated summaries.',
-    keywords: product ? [product.name, product.brand, product.category, 'price comparison', 'reviews'] : ['product'],
+    title: product ? `${product.name} - ${product.brand}` : 'Detalle del producto',
+    description: product?.description || 'Detalles del producto, precio y reseñas en ElectroPrice.',
+    keywords: product ? [product.name, product.brand, product.category, 'electrónica', 'reseñas'] : ['producto'],
     ogImage: product?.imageUrl,
     ogType: 'product',
     jsonLd: product ? {

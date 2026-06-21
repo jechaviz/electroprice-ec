@@ -118,13 +118,13 @@ const ProductListPage: React.FC = () => {
       ? `Results for "${searchTerm}"`
       : category
         ? `${t(`categories.${category}`) || category}`
-        : 'All Products',
+        : 'Todos los productos',
     description: searchTerm
-      ? `Find the best prices for "${searchTerm}" across multiple wholesalers.`
+      ? `Resultados para "${searchTerm}" en ElectroPrice: electrónica de las mejores marcas con envío a todo México.`
       : category
-        ? `Browse and compare ${t(`categories.${category}`) || category} from top wholesalers.`
-        : 'Browse all electronics and compare prices from top wholesalers.',
-    keywords: [searchTerm, category, 'electronics', 'price comparison'].filter(Boolean),
+        ? `${t(`categories.${category}`) || category} de las mejores marcas en ElectroPrice, con envío a todo México.`
+        : 'Explora toda la electrónica de las mejores marcas en ElectroPrice, con envío a todo México.',
+    keywords: [searchTerm, category, 'electrónica', 'tecnología'].filter(Boolean),
   });
 
   // Reset smart filters when the main category or search term changes

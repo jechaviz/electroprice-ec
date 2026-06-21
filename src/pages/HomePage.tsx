@@ -19,12 +19,12 @@ const HomePage: React.FC = () => {
 
   useSEO({
     title: undefined,
-    description: 'Compare prices across thousands of electronics. Find the best deals on smartphones, laptops, headphones, cameras, TVs, and gaming from top wholesalers.',
-    keywords: ['electronics', 'price comparison', 'deals', 'Black Friday', 'smartphones', 'laptops', 'gaming'],
+    description: 'Tienda en línea de electrónica: smartphones, laptops, audífonos, cámaras, TVs y gaming de las mejores marcas, con envío a todo México.',
+    keywords: ['electrónica', 'smartphones', 'laptops', 'gaming', 'ofertas', 'tecnología', 'México'],
     jsonLd: {
       '@type': 'WebSite',
       name: 'ElectroPrice',
-      url: 'https://electroprice.com',
+      url: 'https://electroprice.appniverse.com',
     },
   });
 

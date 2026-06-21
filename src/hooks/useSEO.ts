@@ -12,8 +12,9 @@ interface SEOProps {
 }
 
 const SITE_NAME = 'ElectroPrice';
-const DEFAULT_DESCRIPTION = 'Compare prices across thousands of electronics. Find the best deals on smartphones, laptops, headphones, cameras, TVs, and gaming.';
-const DEFAULT_KEYWORDS = ['price comparison', 'electronics', 'deals', 'smartphones', 'laptops', 'headphones', 'cameras', 'TVs', 'gaming'];
+const DEFAULT_TITLE_SUFFIX = 'Electrónica, smartphones, laptops y más';
+const DEFAULT_DESCRIPTION = 'Tienda en línea de electrónica en México: smartphones, laptops, audífonos, cámaras, televisores y gaming de las mejores marcas. Compra fácil y segura con envío a todo el país.';
+const DEFAULT_KEYWORDS = ['electrónica', 'smartphones', 'laptops', 'audífonos', 'cámaras', 'televisores', 'gaming', 'tecnología', 'ofertas', 'México'];
 
 export const useSEO = ({
   title,
@@ -26,7 +27,7 @@ export const useSEO = ({
   jsonLd,
 }: SEOProps = {}) => {
   useEffect(() => {
-    const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} - Find the Best Deals`;
+    const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — ${DEFAULT_TITLE_SUFFIX}`;
 
     document.title = fullTitle;
 
