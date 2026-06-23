@@ -12,7 +12,7 @@ describe("CurrencyService Banxico rates", () => {
     localStorage.clear();
     vi.restoreAllMocks();
     exchangeRateMarkupSignal.value = 0.02;
-    ratesSignal.value = { USD: 1, MXN: 20 };
+    ratesSignal.value = { MXN: 1, USD: 0.05 };
     currencyRateMetadataSignal.value = null;
     currencyErrorSignal.value = null;
   });
@@ -31,7 +31,9 @@ describe("CurrencyService Banxico rates", () => {
 
     await CurrencyService.fetchRates();
 
-    expect(ratesSignal.value.MXN).toBe(17.595);
+    // MXN is the base (1); the USD→MXN rate lives in metadata and USD = 1/rate.
+    expect(ratesSignal.value.MXN).toBe(1);
+    expect(ratesSignal.value.USD).toBeCloseTo(1 / 17.595, 5);
     expect(currencyRateMetadataSignal.value).toMatchObject({
       source: "banxico_sie",
       baseUsdMxnRate: 17.25,
@@ -55,7 +57,8 @@ describe("CurrencyService Banxico rates", () => {
 
     await CurrencyService.fetchRates();
 
-    expect(ratesSignal.value.MXN).toBe(17.85);
+    expect(ratesSignal.value.MXN).toBe(1);
+    expect(ratesSignal.value.USD).toBeCloseTo(1 / 17.85, 5);
     expect(currencyRateMetadataSignal.value?.source).toBe("cache");
     expect(currencyRateMetadataSignal.value?.stale).toBe(true);
     expect(currencyErrorSignal.value).toBeNull();
@@ -71,7 +74,8 @@ describe("CurrencyService Banxico rates", () => {
     exchangeRateMarkupSignal.value = 0.035;
     CurrencyService.recalculateEffectiveRates();
 
-    expect(ratesSignal.value.MXN).toBe(18.63);
+    expect(ratesSignal.value.USD).toBeCloseTo(1 / 18.63, 5);
+    expect(currencyRateMetadataSignal.value?.effectiveUsdMxnRate).toBe(18.63);
     expect(currencyRateMetadataSignal.value?.markup).toBe(0.035);
   });
 });

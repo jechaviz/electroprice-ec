@@ -23,7 +23,13 @@ interface BanxicoRatePayload {
     series?: string;
 }
 
-const fallbackRates = (): Rates => ({ USD: 1, MXN: effectiveRate(FALLBACK_USD_MXN_RATE) });
+// Catalog prices are MXN, so MXN is the base (rate 1) and USD = 1/(USD→MXN).
+const mxnBaseRates = (usdMxnRate: number): Rates => ({
+    MXN: 1,
+    USD: Number((1 / usdMxnRate).toFixed(6)),
+});
+
+const fallbackRates = (): Rates => mxnBaseRates(effectiveRate(FALLBACK_USD_MXN_RATE));
 
 const effectiveRate = (baseUsdMxnRate: number) =>
     Number((baseUsdMxnRate * (1 + exchangeRateMarkupSignal.value)).toFixed(6));
@@ -66,7 +72,7 @@ const writeCachedRate = (payload: BanxicoRatePayload) => {
 
 const applyRate = (baseUsdMxnRate: number, metadata: Omit<CurrencyRateMetadata, 'baseUsdMxnRate' | 'effectiveUsdMxnRate' | 'markup'>) => {
     const nextEffectiveRate = effectiveRate(baseUsdMxnRate);
-    ratesSignal.value = { USD: 1, MXN: nextEffectiveRate };
+    ratesSignal.value = mxnBaseRates(nextEffectiveRate);
     currencyRateMetadataSignal.value = {
         ...metadata,
         baseUsdMxnRate,
@@ -76,14 +82,14 @@ const applyRate = (baseUsdMxnRate: number, metadata: Omit<CurrencyRateMetadata, 
 };
 
 export class CurrencyService {
-    static formatPrice(priceInUsd: number) {
+    static formatPrice(priceInMxn: number) {
         if (currencyErrorSignal.value) {
             return 'N/A';
         }
 
         const currency = currencySignal.value;
         const activeRates = ratesSignal.value ?? fallbackRates();
-        const convertedPrice = priceInUsd * activeRates[currency];
+        const convertedPrice = priceInMxn * activeRates[currency];
         
         return new Intl.NumberFormat(currency === 'USD' ? 'en-US' : 'es-MX', {
             style: 'currency',
